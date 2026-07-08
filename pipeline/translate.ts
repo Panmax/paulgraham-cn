@@ -12,7 +12,9 @@ export function createVertexTranslator(): TranslatorDeps {
   const ai = new GoogleGenAI({
     vertexai: true,
     project: "live-card-491105",
-    location: "us-central1",
+    // gemini-3.5-flash is served from the "global" location on Vertex, not a
+    // regional endpoint like us-central1 (verified: us-central1 returns 404).
+    location: "global",
   });
   return {
     async generate(system, user) {
