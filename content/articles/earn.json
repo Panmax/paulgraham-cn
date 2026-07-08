@@ -1,0 +1,265 @@
+{
+  "slug": "earn",
+  "titleEn": "How to Earn a Billion Dollars",
+  "titleZh": "如何赚到十亿美元",
+  "dateText": "June 2026",
+  "publishedAt": "2026-06-01",
+  "sourceOrder": 3,
+  "sourceUrl": "https://paulgraham.com/earn.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "2ad85654e6448a4bc00c6f9ba7c75df802db44582f38ee97098ac53ddd7dc236",
+      "enMarkdown": "*(This is based on a talk I gave at the Oxford Union.)*",
+      "zhMarkdown": "*（本文基于我在牛津辩论社的一次演讲。）*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "f090d11705090d1e874436077d80064935a2eaee9c8925376a0cac9aa0b818db",
+      "enMarkdown": "Since this is apparently the future prime ministers' club, I'm going to tell you about something it would be good if more politicians understood: I'm going to tell you how people become billionaires. I hope this will be useful to you even if you don't plan to go into politics. Those of you who don't become prime minister can become billionaires instead.",
+      "zhMarkdown": "既然这里显然是未来首相的俱乐部，那我就来和大家聊聊一件如果能有更多政治家理解会大有裨益的事：我想告诉你们，人们是如何成为亿万富翁的。我希望这能对你们有所帮助，哪怕你并不打算从政。你们中那些没当上首相的人，可以去成为亿万富翁。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ffb2cfc1bfb9df149e91d15a411b5a4fd79599c63900f157f608d6663a19d444",
+      "enMarkdown": "The reason I know about this topic is that 21 years ago Jessica and I started something called Y Combinator. If you haven't heard of Y Combinator, it's a cross between an investment firm and a school for startup founders. Since we started it in 2005 we've funded about 6500 companies.",
+      "zhMarkdown": "我之所以了解这个领域，是因为 21 年前，我和 Jessica 共同创立了一个叫 Y Combinator 的组织。如果你没听说过 Y Combinator，它介于投资机构和创业公司创始人的学校之间。自 2005 年创立以来，我们已经资助了大约 6500 家公司。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "d6e0752e44a01710ff1b54c62b2093dc687a390b9e9cffdee686c4829c8b57b4",
+      "enMarkdown": "Starting a successful startup is the most [common](https://paulgraham.com/richnow.html) way to become a billionaire, so in effect I've spent the last 21 years training people to become billionaires. So far about 30 of them have, but there are many more in the pipeline.",
+      "zhMarkdown": "创办一家成功的创业公司是成为亿万富翁最[常见](https://paulgraham.com/richnow.html)的途径，所以实际上，过去 21 年我一直在训练人们如何成为亿万富翁。到目前为止，我们培养的人中大约有 30 位已经做到了，而且还有更多人正在路上。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "06546698673dfc3bdba5979e75207e331f0e1ef392dd05801936db6363870859",
+      "enMarkdown": "So you can imagine how astonished I was last month when an American politician said that it was [impossible](https://x.com/MarcoFoster_/status/2052427151371047016) to earn a billion dollars. I felt like a skating coach hearing someone say that it's impossible to do a triple axel. Of course it's possible. It's *hard*, but it's possible.",
+      "zhMarkdown": "所以你可以想象，上个月当我听到一位美国政治家说“赚到十亿美元是[不可能的](https://x.com/MarcoFoster_/status/2052427151371047016)”时，我是多么震惊。我感觉自己就像一个滑冰教练，听到有人说“做阿克塞尔三周跳是不可能的”。这当然是可能的。这很*难*，但完全可能。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3aedc19ab3e63c76b65e6acda1c33605c8cc85c2712f0fc7bd970b4857a77d1d",
+      "enMarkdown": "She wasn't saying, of course, that it's impossible to become a billionaire. Obviously that's possible. Nor was she talking about the distinction between income and capital gains. She wasn't making a point about accounting. What she meant was that it's impossible to get that rich without doing something bad — without cheating in some way.",
+      "zhMarkdown": "当然，她并不是说不可能成为亿万富翁，那显然是可能的。她也不是在讨论收入和资本利得之间的区别，她指的不是会计层面的问题。她的意思是，如果不做坏事——不以某种方式欺骗——就不可能变得那么富有。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "6c28784af3d48e051de877af16ac164be1638228b63a62090bb5ae1bd0fb84d8",
+      "enMarkdown": "A couple days later I was talking to the founder of a startup I'd funded. I began by asking, as I usually do when I meet a founder, what her growth rate was. 93% last month, she said. I pointed out that this meant her net worth was also growing at 93% a month. She was getting richer at a stupendously rapid rate. And yet she hadn't been doing anything bad. The reason her startup was growing so fast was simply that users loved what she'd built. So she could feel from her own experience how wrong that politician was. She wasn't exploiting anyone. Exactly the opposite in fact. The reason her startup was growing so fast was that she and her cofounder had been working their asses off to make their users happy, and as a result the users had been telling their friends. And that gets you exponential growth.",
+      "zhMarkdown": "几天后，我和我资助过的一家创业公司的创始人聊天。像往常一样，我一见到创始人就会先问她的增长率是多少。她说，上个月增长了 93%。我指出，这意味着她的净资产也在以每月 93% 的速度增长。她正在以惊人的速度变得富有。然而，她并没有做任何坏事。她的创业公司之所以增长得这么快，完全是因为用户喜欢她做出来的东西。所以，她能从自己的亲身经历中感受到那位政治家说得有多离谱。她没有剥削任何人，事实上恰恰相反。她的创业公司之所以增长得如此之快，是因为她和联合创始人一直在拼命工作以让用户满意，结果用户自发地向朋友推荐。而这就会带来指数级增长。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "e7480d952fd6dc7f5eafedfe6f1d485e7611b709e1c5a8fa176d97db988430ba",
+      "enMarkdown": "Later that day I was talking about her case online, and someone replied that having a few million and growing at 93% a month was radically different from being a billionaire.",
+      "zhMarkdown": "那天晚些时候，我在网上讨论她的案例，有人回复说，拥有几百万资产且每月增长 93%，与成为亿万富翁有着本质的区别。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "8058e41bd3b92384bc9b103570bb0e18055fd020cf61daf340dea4db3df2ff27",
+      "enMarkdown": "I suspect many people would agree with this statement. But it turns out not merely to be false, but false in a very illuminating way.",
+      "zhMarkdown": "我猜许多人都会赞同这个说法。但事实证明，这不仅是错误的，而且错得非常有启发性。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "6d9fc26176aa4daee7dca9500473191952a50a509200fa6d0af9ac218b815f6d",
+      "enMarkdown": "So I would like you all to do me a favor please. I would like you to take out your phones and calculate a number. I know this may seem contrived, but I promise it will be useful for you. I'm going to have you do the most common kind of calculation I do as an investor, and the experience will bring home to you what startups are all about.",
+      "zhMarkdown": "所以我想请大家帮个忙。请拿出你们的手机，算一个数字。我知道这看起来有点刻意，但我保证这会对你们有用。我将让你们做我作为投资人最常做的一种计算，这段经历会让你切身体会到创业公司到底是怎么一回事。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "222827b12d4f6908d551ea0d1b639a3c74669972c6bd4268891f1838589621e7",
+      "enMarkdown": "If we interpret his statement in the most conservative way and assume that a few means 2, her company has to grow 500x for her to become a billionaire. So we are going to calculate how many months of 93% growth it takes for something to grow 500x.",
+      "zhMarkdown": "如果我们用最保守的方式来解读他的话，假设“几百万”指的是 200 万，那么她的公司需要增长 500 倍才能让她成为亿万富翁。所以我们来计算一下，在 93% 的月增长率下，需要多少个月才能增长 500 倍。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "5e4e889ba8d866d38f5a53d0d73a3e7aac361ff971cdaaf4bc35ea8f7cc76460",
+      "enMarkdown": "To do this we want to calculate the log base 1.93 of 500. The easiest way to do that is to go to Google search, which lets you do calculations right in the search box. So go to Google search and type log(500, 1.93). If you typed that right, the answer you get is about 9.45.",
+      "zhMarkdown": "为此，我们需要计算以 1.93 为底 500 的对数。最简单的方法是去 Google 搜索，它允许你直接在搜索框里进行计算。所以去 Google 搜索并输入 `log(500, 1.93)`。如果你输入正确，得到的答案大约是 9.45。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c245955090748ce1e2bfff7d86aa91cda950ef40a141af7ebdd44d3fe62c919a",
+      "enMarkdown": "That is how many months of 93% growth it takes to become a billionaire, starting from 2 million. A couple million and 93% growth are not, in fact, radically different from a billion. They're nine and a half months apart.",
+      "zhMarkdown": "这就是在 93% 的增长率下，从 200 万变成十亿所需的月数。事实上，几百万和 93% 的增长，与十亿并没有本质的区别。它们之间只差了九个半月。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "028a19916766bbb2abfb3967a8aa9b770a91d93e4cda09c95c4ae9f3d8eb2432",
+      "enMarkdown": "Now you see why, when I meet a founder, the first thing I ask about is their growth rate.",
+      "zhMarkdown": "现在你明白为什么我见到创始人时，问的第一件事就是他们的增长率了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "309395b6db1e5a917876dc013de9896ea1e0bd865887c39a713573fe234e9d82",
+      "enMarkdown": "But I don't want anyone to accuse me of using unrealistic numbers, so let's take a more conservative growth rate. Let's see what happens at 15% a month. That's not rare at all. I constantly encounter startups growing at 15% a month.",
+      "zhMarkdown": "但我不想让任何人指责我使用不切实际的数字，所以让我们采用一个更保守的增长率。看看每月增长 15% 会发生什么。这可一点都不罕见。我经常遇到每月增长 15% 的创业公司。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "b152b34609c3de9ba919ac87b455801b4e60371ac742e22ba5c5966088845e59",
+      "enMarkdown": "If your revenues grow at 15% a month, how much more will you be making 5 years from now? To calculate that, we need to find 1.15 to the 60th power (since 5 years is 60 months). So go to Google again and this time type 1.15^60. The answer should be about 4384. Meaning in 5 years your startup will be making 4384 times as much. If you're currently making ten thousand a month, in five years you'll be making about 44 million a month, or 526 million a year. And at that point, if you own as much of the company as founders typically do, you will be a billionaire.",
+      "zhMarkdown": "如果你的收入每月增长 15%，5 年后你将赚到多少钱？为了计算这个，我们需要求 1.15 的 60 次方（因为 5 年是 60 个月）。所以再次打开 Google，这次输入 `1.15^60`。答案应该是 4384 左右。这意味着在 5 年内，你的创业公司的收入将增长 4384 倍。如果你目前每月赚一万，五年后你每月将赚到大约 4400 万，也就是每年 5.26 亿。到那个时候，如果你持有创始人通常持有的公司股份比例，你就会成为亿万富翁。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "2d79c2a7539a22801bb9ec2b5f0d56918637043510ca187a30fc8c3fa0c57a21",
+      "enMarkdown": "In the real world, growth rates tend to slow down a bit. A very successful startup will probably be growing faster than 15% a month in year 1 and slower than 15% a month in year 5. But you end up in about the same place. If you start a startup in your early twenties, it's definitely possible to be a billionaire by the time you're thirty. Hard, but possible.",
+      "zhMarkdown": "在现实世界中，增长率往往会稍微放缓。一个非常成功的创业公司，在第一年的月增长率可能高于 15%，而在第五年则低于 15%。但最终你到达的终点大致相同。如果你在二十岁出头创办一家创业公司，到三十岁时绝对有可能成为亿万富翁。很难，但可能。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "373880aa51704b937fef65c87b0c13f7abd89905b8f6b0f972f6ba41271e213f",
+      "enMarkdown": "I wanted you to feel this by doing the calculation yourselves, because now you understand one of the reasons people start startups. Exponential growth is like magic. It generates outcomes that seem impossible. And that's why some politicians distrust it. They don't understand the math of exponential growth, so when they see people becoming what seems to them impossibly rich, they assume they must have cheated.",
+      "zhMarkdown": "我希望你们通过亲自动手计算来感受这一点，因为现在你们理解了人们创办创业公司的原因之一。指数级增长就像魔法。它能产生看似不可能的结果。这也是为什么有些政治家不信任它的原因。他们不懂指数增长的数学原理，所以当他们看到人们变得在他们看来不可思议地富有的时候，他们就断定这些人一定是作弊了。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "fbdff5f6aa015411160f526d03868e44bd091782837ee64ecc05b924dcd8427d",
+      "enMarkdown": "But now you at least understand, from having done the math yourselves, that you don't have to cheat to become a billionaire. You've seen for yourselves that there are only two numbers in the calculation, the growth rate and how long it continues. If it's impossible to make a billion dollars without cheating, which of those two numbers is impossible? It's certainly not impossible to grow at 15% a month without cheating. Startups do that all the time. And how long you can continue to grow at that rate depends on the size of the market. Obviously for you to grow 4000x, there has to be at least 4000x more demand. But that's all you need. And how could you possibly cheat to increase the market size?",
+      "zhMarkdown": "但现在，通过亲自动手计算，你至少明白了，你不需要靠作弊来成为亿万富翁。你已经亲眼看到，计算中只有两个数字：增长率和持续的时间。如果说不作弊就不可能赚到十亿美元，那么这两个数字中哪一个是无法企及的？在不作弊的情况下实现 15% 的月增长绝对不是不可能的，创业公司一直都在做到。而你能以这个速度持续增长多久，取决于市场的大小。显然，要增长 4000 倍，必须有至少 4000 倍以上的需求。但这就是你所需要的一切。你又怎么可能通过作弊来扩大市场规模呢？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "8f151008f4462e427349f0493b75d5e14e59180edba15669b05a7e722f584a77",
+      "enMarkdown": "If you're only planning to become prime minister, you can stop paying attention now. We've proved that it is in fact possible to earn a billion dollars, because it only depends on two numbers, one of which startups routinely hit without cheating, and another that cheating couldn't possibly affect.",
+      "zhMarkdown": "如果你只打算当首相，现在可以不用听了。我们已经证明了赚到十亿美元在事实上是可能的，因为它只取决于两个数字，其中一个是创业公司不靠作弊就能常规达到的，而另一个则是作弊根本无法影响的。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f5acbda2256c79d5b5d2372bbad2daa9559cb0c6a8c567d7aa817ad2f112cee3",
+      "enMarkdown": "But if you actually want to become a billionaire, we should go into more detail. Especially about that first number, the growth rate. To grow at a consistent rate every month, you have to make something so good that people tell their friends about it. And in fact that's the other reason I always begin by asking founders their growth rate. It shows whether they've built the right thing.",
+      "zhMarkdown": "但如果你真的想成为亿万富翁，我们应该讨论得更深入一些。特别是第一个数字，增长率。为了每月保持持续的增长，你必须做出非常好的东西，好到人们会向朋友推荐。事实上，这也是我总是先问创始人增长率的另一个原因：它能反映出他们是否做对了产品。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "abffa3e13b5b0dfddd7dac541a523cbd4e8130d197ef74f612260b0e2e29bbbe",
+      "enMarkdown": "So how, exactly, do you make something people like so much that they tell their friends about it? The problem with market economies, and also the great thing about market economies, is that it's hard to make something customers want that they don't already have. As soon as a new, satisfiable need is discovered, people rush to satisfy it. So you're going to have to discover a need that no one else knows about yet.",
+      "zhMarkdown": "那么，你究竟该如何做出人们非常喜欢、甚至会向朋友推荐的东西呢？市场经济的问题在于，同时也是它的美妙之处在于，你很难做出客户想要但他们还没有的东西。一旦发现一个新的、可满足的需求，人们就会一拥而上。所以，你必须发现一个别人还不知道的需求。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "07bc4b79f3f7ecf3c912ed90ad3d44349b99451f6687d79e736f7831a08c589f",
+      "enMarkdown": "How do you do that? *By feeling the need yourself.*",
+      "zhMarkdown": "你该怎么做？*通过自己去切身体会这种需求。*"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "7eb3d302bab2ce9c3afcfc355f4917a771d19ec9a4b5c237c618b5beecfc8a30",
+      "enMarkdown": "You're young, and usually young founders should make something that they themselves want. You don't have enough experience yet to know what other people need. But at the same time your own needs are uniquely valuable, because your needs predict future demand. You're the age when people start using new things. Whatever you and your friends start using now, everyone is going to be using in ten years. Since your intuitions about other people's needs are usually a crap signal, and your own needs are an especially valuable one, you should usually listen to the second signal; you should make something you and your friends want.",
+      "zhMarkdown": "你很年轻，通常年轻的创始人应该做一些他们自己想要的东西。你还没有足够的经验去了解其他人需要什么。但与此同时，你自己的需求具有独特的价值，因为你的需求预示着未来的需求。你正处于人们开始使用新事物的年龄。你和你的朋友现在开始使用的任何东西，十年后每个人都会使用。既然你对他人需求的直觉通常很不靠谱，而你自己的需求又是一个特别有价值的信号，你通常应该听从第二个信号；你应该做你和你的朋友想要的东西。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "f0137c9531db2e566ff62c4f26e0b20387f227ee0cef24a95ccd7b2b76298d4a",
+      "enMarkdown": "Making something you and your friends want doesn't mean you have to build a consumer product. Maybe you and your friends are molecular biologists, and there's something cool that could be done now to DNA that everyone else has overlooked. Maybe you and your friends are into drones. The idea doesn't have to have a wide appeal. It literally just has to appeal to you and your friends.",
+      "zhMarkdown": "做你和你的朋友想要的东西并不意味着你必须做一款消费级产品。也许你和你的朋友是分子生物学家，现在可以对 DNA 做一些很酷的事情，而其他人都忽略了。也许你和你的朋友喜欢无人机。这个想法不需要有广泛的吸引力，它真的只需要吸引你和你的朋友就行了。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e997d9e49b8691438fda7d33470bbd83ffee85a28fd12493f458682f36a28323",
+      "enMarkdown": "Don't worry about the second number, the market size. Since you predict future demand, the market will grow. And it's always possible to expand into adjacent markets. All you need is a beachhead in the territory of unsatisfied need that you can expand from.",
+      "zhMarkdown": "不要担心第二个数字，即市场规模。既然你预示了未来的需求，市场就会随之增长。而且，向相邻市场扩张总是可能的。你只需要在未满足需求的领地上建立一个滩头阵地，并以此为基础进行扩张。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "1d8f3d285b5efc1cbf0b73f13908a1e0271be89ef67306eedd4c3c862e547c40",
+      "enMarkdown": "How do you get an idea like that? The answer is one of the most counterintuitive things about startups — which is saying something, because there are a lot of counterintuitive things about startups. But the way to get the very best startup ideas is not to look for startup ideas. If you're consciously looking for startup ideas, it will make you too conservative. You'll lop off the outliers. Because the very best startup ideas tend to sound so lame, at first, that you'd reject them if you were consciously looking for startup ideas. That's what has prevented them from being discovered.",
+      "zhMarkdown": "你如何获得这样的想法？答案是关于创业公司最反直觉的事情之一——这已经很不容易了，因为关于创业公司反直觉的事情实在太多了。但获得最棒的创业公司想法的方法，恰恰是不要去刻意寻找创业公司的想法。如果你刻意寻找，会让你变得过于保守。你会砍掉那些奇特边缘的想法。因为最棒的创业公司想法在起初听起来往往非常不靠谱，以至于如果你在刻意寻找，就会直接拒绝它们。这也正是它们一直没被别人发现的原因。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "edc4b617cc6fa3deb7b5af9ee8bb44d1d4c4762b6a84b10b97f4d45338181b47",
+      "enMarkdown": "Imagine what a bad idea Apple or Facebook or Airbnb seemed at first. How many people are going to want their own computers? How is a company going to make money from undergrads stalking one another online? Who's going to pay to sleep on an airbed on someone's floor? We know how these ideas turned out, so it's easy to rewrite history, but I remember very well how bad Facebook and Airbnb sounded at first. We *funded* Airbnb, and we thought the idea was bad. The reason we funded them was just that we liked the [founders](https://paulgraham.com/airbnbs.html).",
+      "zhMarkdown": "想象一下，苹果、Facebook 或 Airbnb 起初看起来是多么糟糕的主意。会有多少人想要拥有自己的电脑？一家公司怎么可能靠大学生在网上互相窥探来赚钱？谁会付钱睡在别人家地板的气垫床上？我们已经知道了这些想法的结局，所以很容易去改写历史，但我非常清楚地记得 Facebook 和 Airbnb 起初听起来有多糟糕。我们*资助*了 Airbnb，当时我们自己都觉得这个主意很烂。我们之所以资助他们，仅仅是因为我们喜欢这几位[创始人](https://paulgraham.com/airbnbs.html)。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "19e4dbc09871b279e002c365578e39471bb072dd3b2c3be58edf3e1a98cb6fa4",
+      "enMarkdown": "So how do you find startup ideas without looking for them? By working on projects with your friends. That's where the very best startups come from. Initially they're not even meant to be companies. They're just something people built because they thought it would be cool. That's how Apple and Google and Facebook all started. None of them were meant to be companies at first.",
+      "zhMarkdown": "那么，你如何不刻意寻找却能找到创业公司的想法？通过和你的朋友一起做项目。最顶尖的创业公司都是这么来的。最初它们甚至没打算做成公司，只是大家觉得很酷而做出来的东西。苹果、Google 和 Facebook 都是这样开始的。它们最初都不是为了做成公司而设计的。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "8eb56a473a06c972355998e315529e1e8014b88450cfbbe3269f888c480623a2",
+      "enMarkdown": "The reason this works is what I told you earlier: you predict future demand. So if you just build random stuff you think would be cool, the things you build will actually be far from random.",
+      "zhMarkdown": "这之所以有效，原因就在于我之前告诉过你的：你预示了未来的需求。所以，如果你只是随性地做一些你觉得很酷的东西，你做出来的东西实际上绝非随机产生。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "8b3649866300623b48c617f17115f95aba4215bd520a9897a44b92fe7a93765d",
+      "enMarkdown": "This is one of those cases where your unconscious mind knows more than your conscious mind does. Anything that genuinely seems to you like it would be a cool thing to build has a high probability of leading to a good startup idea, no matter how preposterous it sounds. Whatever you build couldn't possibly sound more preposterous than a startup we funded in 2006 called Justin.TV. It consisted of one guy, Justin Kan, walking around with a camera on the side of his head, live streaming everything that happened to him. But this company ended up doing quite well. In fact you've probably heard of it, but under its new name, Twitch.",
+      "zhMarkdown": "在这些情况下，你的无意识往往比你的有意识懂得更多。任何你真心觉得做起来会很酷的事情，都有极高的概率引导你走向一个好的创业想法，无论它听起来多么荒谬。你做的任何东西，都不可能比我们在 2006 年资助的一个叫 Justin.TV 的创业公司听起来更荒谬了。这个项目只有一个人，叫 Justin Kan，头侧戴着一个摄像头到处走，直播发生在他身上的所有事情。但这家公司最终发展得相当不错。事实上你可能听说过它，只是它现在换了个新名字，叫 Twitch。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "1e89b7e8ae8cdd469315215ca7aeb8b0a76bcb1315d19712651e2b1b11a55b87",
+      "enMarkdown": "The key to starting a successful startup is to understand some group of users so well that you can make exactly what they want. If you're young you can, and should, use the hack of making something for yourself. You understand yourself. But this is just an instance of the more general rule. Only by understanding users very deeply can you make something they love so much that they tell their friends about it, and only that can get you the exponential growth you need to make a startup really successful.",
+      "zhMarkdown": "创办一家成功创业公司的关键在于，要对某一组用户有如此深刻的理解，以至于你可以做出完全符合他们心意的东西。如果你年轻，你可以、也应该利用这个诀窍：为自己做东西。你了解你自己。但这只是更普适规则的一个具体实例。只有通过极深地理解用户，你才能做出让他们热爱到会向朋友推荐的东西，也只有这样，才能为你带来让创业公司真正成功所需的指数级增长。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "3b4a1e4277ce62e931ff70b0fc080c7058ce565f91bc1c1330a8ad945cfb29c6",
+      "enMarkdown": "There are other ways to get rich than by starting startups. Some of those do require you to exploit people. But startups are the most common way to become really rich, and if you want to start a successful startup, the key is not exploitation but empathy. What do users really want? What could you do for them that would make their lives dramatically better? That kind of empathy is what we look for in founders, and what we cultivate in the ones we accept.",
+      "zhMarkdown": "除了创办创业公司，还有其他变富的方法。其中一些确实需要你剥削他人。但创办创业公司是变得真正富有最常见的途径，如果你想创办一家成功的创业公司，关键不是剥削，而是同理心。用户真正想要的是什么？你能为他们做些什么来让他们的生活变得显著更好？这种同理心正是我们在创始人身上寻找的特质，也是我们在录取的创始人身上着意培养的。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "f0157c2b59b6426e880b366c6b44da287d2a067cd4a5e40f6d6be916886c29a6",
+      "enMarkdown": "How people become rich in your society is one of the most important things to understand about it. You can't let your beliefs about this be determined by ideology, or movies, or historical examples that are centuries old. You must look at the world around you and see how it's actually done. If you want to do it yourself, obviously you'll be forced to understand how it's done. So I don't worry too much about you. The ones I worry about are the future prime ministers. You need to remember this talk. So for you I'm going to summarize the key ideas.",
+      "zhMarkdown": "在你的社会中，人们是如何变富的，这是最需要去理解的重要事情之一。你不能让自己的这一信念被意识形态、电影或几个世纪前的历史案例所左右。你必须观察你周围的世界，看看这实际上是如何实现的。如果你想自己创业，显然你将被迫去理解它是如何运作的。所以我不太担心你们。我担心的是未来的首相们。你们需要记住这次演讲。所以，为了你们，我将总结一下核心观点。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "db8401a8406ccae828c7240d23c7583cb5f126e833dd754746b2e15296d96bd7",
+      "enMarkdown": "There are two numbers that determine how big a startup gets, and thus how rich its founders become: the growth rate and how long it continues. You get the first by making something users like so much they tell their friends. You get the second by being in a big market. If you grow exponentially into a big market, your startup will become valuable, and you, as a shareholder, will become rich. You not only don't have to cheat to make this happen, it will happen automatically if you just keep making customers happy.",
+      "zhMarkdown": "有两个数字决定了一家创业公司能做多大，从而决定了它的创始人能有多富有：增长率和持续的时间。你通过做出用户喜欢到会向朋友推荐的东西来获得第一个数字。你通过置身于一个巨大的市场来获得第二个数字。如果你以指数级速度增长并进入一个大市场，你的创业公司就会变得有价值，而你作为股东，就会变得富有。要做到这一点，你不仅不需要作弊，而且只要你不断让客户满意，它就会自动发生。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "a29a6442a9f10d95eb2c7f2bdffa945429fe80c732aa35e56b386f6a9e436b90",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jared Friedman, Jessica Livingston, and Garry Tan for reading drafts of this, and to Arwa Elrayess and the Oxford Union for hosting me.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jared Friedman、Jessica Livingston 和 Garry Tan 阅读本文的草稿，并感谢 Arwa Elrayess 和牛津辩论社主办了我的这场演讲。"
+    }
+  ]
+}

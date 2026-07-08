@@ -1,0 +1,1651 @@
+{
+  "slug": "greatwork",
+  "titleEn": "How to Do Great Work",
+  "titleZh": "如何做出杰出的成就",
+  "dateText": "July 2023",
+  "publishedAt": "2023-07-01",
+  "sourceOrder": 0,
+  "sourceUrl": "https://paulgraham.com/greatwork.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ac6e6317e6b606fd96d2204cc3f594e3a261fe39a30a7bab73d29d6b01ad336e",
+      "enMarkdown": "If you collected lists of techniques for doing great work in a lot of different fields, what would the intersection look like? I decided to find out by making it.",
+      "zhMarkdown": "如果把各个不同领域中“如何做出杰出成就”的秘诀列成清单，它们的交集会是什么样？我决定亲自动手整理一份，一探究竟。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "9930f0a02898c6ac6fd0e32718355cb80922ccc596d2a218ab63e6fa86274da1",
+      "enMarkdown": "Partly my goal was to create a guide that could be used by someone working in any field. But I was also curious about the shape of the intersection. And one thing this exercise shows is that it does have a definite shape; it's not just a point labelled \"work hard.\"",
+      "zhMarkdown": "我的部分目标是写一份适用于任何领域的通用指南。但我也很好奇这个交集的具体形态。而这次尝试表明，这个交集确实有着清晰的轮廓，绝不仅仅是“努力工作”这四个字。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "7c9fcfe31cdd7a2acc0c228ad4aa1a40a276f26859f87738a27c0346a824ed8b",
+      "enMarkdown": "The following recipe assumes you're very ambitious.",
+      "zhMarkdown": "以下的方法，默认你是个极有雄心壮志的人。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "85bbdc9392a132adf58fc1d4cd75acc643525b2d65e9df945694f3c374b79f2a",
+      "enMarkdown": "The first step is to decide what to work on. The work you choose needs to have three qualities: it has to be something you have a natural aptitude for, that you have a deep interest in, and that offers scope to do great work.",
+      "zhMarkdown": "第一步是决定做什么。你选择的工作需要满足三个条件：你对此有天赋、有深厚的兴趣，并且这个领域有施展才华、做出杰出成就的空间。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "9a8969b6707c601a9846d978b3d7ff6cf3f4905262cddabc3f48d117aa2bdf8b",
+      "enMarkdown": "In practice you don't have to worry much about the third criterion. Ambitious people are if anything already too conservative about it. So all you need to do is find something you have an aptitude for and great interest in. [[1](#f1n)]",
+      "zhMarkdown": "在实践中，你其实不用太担心第三个条件。有雄心的人在这方面往往过于保守。所以你只需要找到自己有天赋且极感兴趣的事情即可。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "7f5dc2785c2efd39c340a972815b0fc59a2e1b6598771a7f173490503f576d29",
+      "enMarkdown": "That sounds straightforward, but it's often quite difficult. When you're young you don't know what you're good at or what different kinds of work are like. Some kinds of work you end up doing may not even exist yet. So while some people know what they want to do at 14, most have to figure it out.",
+      "zhMarkdown": "这听起来很简单，但往往相当困难。年轻时，你并不知道自己擅长什么，也不了解各种工作的真实面貌。有些你最终会从事的工作，现在甚至还不存在。所以，虽然少数人在14岁时就明确了志向，但大多数人必须慢慢摸索。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "a775bcaf1c07207da47ef9726b08c96e74d894b720c262da4231a9bf112a7347",
+      "enMarkdown": "The way to figure out what to work on is by working. If you're not sure what to work on, guess. But pick something and get going. You'll probably guess wrong some of the time, but that's fine. It's good to know about multiple things; some of the biggest discoveries come from noticing connections between different fields.",
+      "zhMarkdown": "寻找方向的唯一方法就是动手去做。如果你不确定该做什么，那就先猜一个。选定一个方向，然后立刻行动。你难免会猜错，但这没关系。对多种事物有所了解是有益的；一些最重大的发现，往往源于对不同领域之间关联的洞察。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2f39e4047ba9e69b42d5f7ef2ce544951d7453af8a3254ea4168d7c4aa82b510",
+      "enMarkdown": "Develop a habit of working on your own projects. Don't let \"work\" mean something other people tell you to do. If you do manage to do great work one day, it will probably be on a project of your own. It may be within some bigger project, but you'll be driving your part of it.",
+      "zhMarkdown": "养成做自己个人项目的习惯。不要让“工作”仅仅等同于别人交代你做的事。如果你有朝一日能做出杰出的成就，那它很可能源于你自己发起的项目。它也许嵌套在某个更大的项目之中，但你一定是自己那部分工作的掌舵人。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "4ae4d624d5f535b65fa53c4c16e2210599dc54e9993c817cbd4a978934937fe7",
+      "enMarkdown": "What should your projects be? Whatever seems to you excitingly ambitious. As you grow older and your taste in projects evolves, exciting and important will converge. At 7 it may seem excitingly ambitious to build huge things out of Lego, then at 14 to teach yourself calculus, till at 21 you're starting to explore unanswered questions in physics. But always preserve excitingness.",
+      "zhMarkdown": "你的项目应该是什么？任何让你感到兴奋、极具野心的东西。随着年龄的增长和品味的演变，那些“令人兴奋”和“重要”的事情会逐渐合流。在7岁时，用乐高拼出庞然大物可能让你兴奋不已；14岁时是自学微积分；到了21岁，你开始探索物理学中未解的谜题。但请务必始终保持这种兴奋感。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "195ab293ea7dff969a42a701860d9dbe85c75a95529f8e4de016293beaed9ca5",
+      "enMarkdown": "There's a kind of excited curiosity that's both the engine and the rudder of great work. It will not only drive you, but if you let it have its way, will also show you what to work on.",
+      "zhMarkdown": "有一种兴奋的好奇心，它既是做出杰出成就的引擎，也是方向舵。它不仅会驱动你前行，而且只要你顺其自然，它还会指引你该做什么。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7858e1a0dc735e914813a4d8848ec0fb3907764b0dabf4d8d34440555e091662",
+      "enMarkdown": "What are you excessively curious about — curious to a degree that would bore most other people? That's what you're looking for.",
+      "zhMarkdown": "你对什么事情有着过度的好奇——那种会让大多数人觉得无聊透顶的好奇？这就是你要寻找的东西。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ce85f6e79ae47043634ea29bfd26f9c3e3ec605cc39b3381eb209d3995507ebe",
+      "enMarkdown": "Once you've found something you're excessively interested in, the next step is to learn enough about it to get you to one of the frontiers of knowledge. Knowledge expands fractally, and from a distance its edges look smooth, but once you learn enough to get close to one, they turn out to be full of gaps.",
+      "zhMarkdown": "一旦找到了自己极度感兴趣的事，下一步就是深入学习，直到触及人类知识的边界。知识像分形一样不断延伸，从远处看，它的边缘似乎平滑完整，但只要你学得足够深入并走近它，就会发现它其实充满了缝隙。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "4de129c8ded67bfa513f55eae4f73dcc67e5256c7b4a5aa4b89382cd2cf5daed",
+      "enMarkdown": "The next step is to notice them. This takes some skill, because your brain wants to ignore such gaps in order to make a simpler model of the world. Many discoveries have come from asking questions about things that everyone else took for granted. [[2](#f2n)]",
+      "zhMarkdown": "接下来的一步是去注意到这些缝隙。这需要一些技巧，因为我们的大脑为了构建一个更简单的世界模型，倾向于忽视这些缝隙。许多重大的发现，都源于对大家都视之为理所当然的事情提出疑问。[[2](#f2n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e8b9bc1ef649e080c62592c10edcc10c02a8f3d81d2f4786114220cb8f77320f",
+      "enMarkdown": "If the answers seem strange, so much the better. Great work often has a tincture of strangeness. You see this from painting to math. It would be affected to try to manufacture it, but if it appears, embrace it.",
+      "zhMarkdown": "如果答案看起来有些奇特，那就再好不过了。杰出的成就往往带有一丝奇特的气息。从绘画到数学，皆是如此。刻意去制造奇特会显得做作，但如果它自然显现，请欣然拥抱它。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "3469294f692f00be64929c1aa9240dfcd2677c35260c825e8b04537ceaf4843a",
+      "enMarkdown": "Boldly chase outlier ideas, even if other people aren't interested in them — in fact, especially if they aren't. If you're excited about some possibility that everyone else ignores, and you have enough expertise to say precisely what they're all overlooking, that's as good a bet as you'll find. [[3](#f3n)]",
+      "zhMarkdown": "勇敢地去追寻那些非主流的想法，哪怕别人对此不感兴趣——事实上，正因为别人不感兴趣，你才更应该去追寻。如果你对某个大家都忽视的可能性感到兴奋，而且你拥有足够的专业知识，能精准指出大家忽略了什么，这就是你能找到的最佳机会。[[3](#f3n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "57e7981cd28d7b909ad6a08ec47c0e707c40f4d230afb1f1fa821f5056170607",
+      "enMarkdown": "Four steps: choose a field, learn enough to get to the frontier, notice gaps, explore promising ones. This is how practically everyone who's done great work has done it, from painters to physicists.",
+      "zhMarkdown": "总共四个步骤：选择一个领域，深入学习直至前沿，发现缝隙，探索其中有前景的方向。从画家到物理学家，几乎所有做出杰出成就的人，都是这样一路走过来的。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "662d3ea3b794f1830877008bcc899060f4dfc80c3ae9567522e056b7360c090a",
+      "enMarkdown": "Steps two and four will require hard work. It may not be possible to prove that you have to work hard to do great things, but the empirical evidence is on the scale of the evidence for mortality. That's why it's essential to work on something you're deeply interested in. Interest will drive you to work harder than mere diligence ever could.",
+      "zhMarkdown": "第二步和第四步需要艰苦的努力。也许我们无法证明“唯有努力奋斗才能成就不凡”，但经验证据之充分，几乎与“人终有一死”的定律无异。这就是为什么你必须在自己深感兴趣的事情上耕耘。兴趣带给你的动力，远非单纯的勤勉所能企及。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "109a2b17028d69f00fbf55f7549a6352faa02e32a2dfe7fb03190e0273d7277d",
+      "enMarkdown": "The three most powerful motives are curiosity, delight, and the desire to do something impressive. Sometimes they converge, and that combination is the most powerful of all.",
+      "zhMarkdown": "最强大的三种动机是好奇心、乐趣，以及做出令人惊叹之物的渴望。当这三者合而为一时，便会释放出最强大的力量。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "97684f1c337280b054302ba593bf0b1f2efdd4dae6882fe04db3127f9ef025a6",
+      "enMarkdown": "The big prize is to discover a new fractal bud. You notice a crack in the surface of knowledge, pry it open, and there's a whole world inside.",
+      "zhMarkdown": "最丰厚的回报，是发现一个新的分形萌芽。你注意到知识表面的一道裂缝，将其撬开，便看到了一个全新的世界。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "4fda159b256c95350aeef74671e2b17737b3eb6564b7c836b97da0a3264b176b",
+      "enMarkdown": "Let's talk a little more about the complicated business of figuring out what to work on. The main reason it's hard is that you can't tell what most kinds of work are like except by doing them. Which means the four steps overlap: you may have to work at something for years before you know how much you like it or how good you are at it. And in the meantime you're not doing, and thus not learning about, most other kinds of work. So in the worst case you choose late based on very incomplete information. [[4](#f4n)]",
+      "zhMarkdown": "让我们多聊聊“寻找方向”这件复杂棘手的事。它之所以困难，主要是因为如果不亲自去做，你根本无法知道大多数工作究竟是什么样的。这意味着上述四个步骤是重叠的：你可能必须在某个领域工作多年，才能看清自己有多喜欢它，或者自己在这方面有多大天赋。而在这一过程中，你没有去尝试（因而也无法了解）绝大多数其他类型的工作。所以在最坏的情况下，你是在信息极不完整的情况下做出了迟到的选择。[[4](#f4n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "83d39c2940e33f6fda641eb873219e44db5690ccae6d3a3e7ff2a1de6fa52e51",
+      "enMarkdown": "The nature of ambition exacerbates this problem. Ambition comes in two forms, one that precedes interest in the subject and one that grows out of it. Most people who do great work have a mix, and the more you have of the former, the harder it will be to decide what to do.",
+      "zhMarkdown": "雄心壮志的本质加剧了这个问题。雄心有两种形式：一种在对具体事物产生兴趣之前就已存在，另一种则是在兴趣中萌发出来的。大多数做出杰出成就的人两者兼有，而且你越是偏向前者，就越难决定自己该做什么。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "a47bcbd070abcb827b65a352d096ac713191c40100be2d4b2be22851d47dd54f",
+      "enMarkdown": "The educational systems in most countries pretend it's easy. They expect you to commit to a field long before you could know what it's really like. And as a result an ambitious person on an optimal trajectory will often read to the system as an instance of breakage.",
+      "zhMarkdown": "大多数国家的教育体制都假装这很容易。它们要求你在还没能真正了解一个领域之前，就早早做出承诺。结果，一个处于最佳成长轨迹上的、有野心的人，在学校系统眼里往往会被视作一个“出了故障”的异类。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "d5ab6d064971da3af39c404dc8fc9d4083c02b5e49e808ac8c384b018779feaa",
+      "enMarkdown": "It would be better if they at least admitted it — if they admitted that the system not only can't do much to help you figure out what to work on, but is designed on the assumption that you'll somehow magically guess as a teenager. They don't tell you, but I will: when it comes to figuring out what to work on, you're on your own. Some people get lucky and do guess correctly, but the rest will find themselves scrambling diagonally across tracks laid down on the assumption that everyone does.",
+      "zhMarkdown": "如果他们至少能承认这一点就好了——承认学校系统不仅对你寻找方向帮不上忙，而且其设计前提就是假定你能在十几岁时像魔法般猜中答案。他们不告诉你，但我会告诉你：在寻找人生方向这件事上，你只能靠自己。有些人运气好猜对了，但剩下的人则不得不横冲直撞，在那些默认每个人都按部就班的轨道上艰难摸索。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "584cecb9a63f7dad5366eefdf55a2b8ef14c157e5d53215391f26dc53a03394d",
+      "enMarkdown": "What should you do if you're young and ambitious but don't know what to work on? What you should *not* do is drift along passively, assuming the problem will solve itself. You need to take action. But there is no systematic procedure you can follow. When you read biographies of people who've done great work, it's remarkable how much luck is involved. They discover what to work on as a result of a chance meeting, or by reading a book they happen to pick up. So you need to make yourself a big target for luck, and the way to do that is to be curious. Try lots of things, meet lots of people, read lots of books, ask lots of questions. [[5](#f5n)]",
+      "zhMarkdown": "如果你年轻、有抱负，却不知道该做什么，该怎么办？你最**不**该做的事就是随波逐流，指望问题会自己解决。你需要采取行动。但这里并没有一套可以照本宣科的系统化程序。当你阅读那些伟人的传记时，会发现其中运气成分大得惊人。他们往往因为一次偶然的相遇，或者随手翻开的一本书，就找到了自己的终身事业。所以，你需要让自己成为一个容易被运气砸中的靶子，而方法就是保持好奇心。尝试很多事，结识很多人，读很多书，问很多问题。[[5](#f5n)]"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "44a0c23e116d1578173eca1df43d155c43e67ccfc56799d8278bae827ea7a633",
+      "enMarkdown": "When in doubt, optimize for interestingness. Fields change as you learn more about them. What mathematicians do, for example, is very different from what you do in high school math classes. So you need to give different types of work a chance to show you what they're like. But a field should become *increasingly* interesting as you learn more about it. If it doesn't, it's probably not for you.",
+      "zhMarkdown": "当游移不定时，以“有趣程度”为标准进行优化。随着你了解的深入，领域本身也会发生变化。例如，数学家做的事情，与你在高中数学课上做的截然不同。所以，你需要给不同类型的工作一个展现其真实面貌的机会。但是，随着你对一个领域的了解加深，它应该变得**越来越**有趣。如果没有，那它可能并不适合你。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "3ba0fb74aa7ca47a9862ef86a0b584d779e93a0df609e8de4a34dcfc7fbc4a83",
+      "enMarkdown": "Don't worry if you find you're interested in different things than other people. The stranger your tastes in interestingness, the better. Strange tastes are often strong ones, and a strong taste for work means you'll be productive. And you're more likely to find new things if you're looking where few have looked before.",
+      "zhMarkdown": "如果你发现自己感兴趣的东西和别人不一样，别担心。你的品味越是奇特越好。奇特的品味往往是强烈的，而对工作有着强烈的品味意味着你将极具创造力。而且，如果你在很少有人涉足的地方寻找，就更有可能发现全新的事物。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "9165999f4317ba794b1690f83dc6dba7a381127ab6571f4b3e76c27e21581af6",
+      "enMarkdown": "One sign that you're suited for some kind of work is when you like even the parts that other people find tedious or frightening.",
+      "zhMarkdown": "判断你是否适合某种工作的一个迹象是，你甚至喜欢那些别人觉得枯燥或可怕的部分。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "8f2adf545701a9f15b6a4e28f0b77fc847e6b7cd03f1ff4ea4c31fb00e7ee151",
+      "enMarkdown": "But fields aren't people; you don't owe them any loyalty. If in the course of working on one thing you discover another that's more exciting, don't be afraid to switch.",
+      "zhMarkdown": "但领域不是人，你不欠它们任何忠诚。如果在做一件事的过程中，你发现了另一件更令人兴奋的事，不要害怕转换轨道。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "8b422059c82af7daea40f88f27b2ef2b2ddc078eba17d047e2d583d287e2e3a5",
+      "enMarkdown": "If you're making something for people, make sure it's something they actually want. The best way to do this is to make something you yourself want. Write the story you want to read; build the tool you want to use. Since your friends probably have similar interests, this will also get you your initial audience.",
+      "zhMarkdown": "如果你在为人们创造东西，确保它是人们真正想要的东西。做到这一点最好的方法，就是做你自己想要的东西。写你想读的故事，开发你想用的工具。既然你的朋友很可能有着相似的兴趣，这也会为你带来最初的受众。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "6df37bdb2c508053765b3d263bc3cb8ccbb4932e44fe4a080c983becd8ac0b20",
+      "enMarkdown": "This *should* follow from the excitingness rule. Obviously the most exciting story to write will be the one you want to read. The reason I mention this case explicitly is that so many people get it wrong. Instead of making what they want, they try to make what some imaginary, more sophisticated audience wants. And once you go down that route, you're lost. [[6](#f6n)]",
+      "zhMarkdown": "这**应该**是“兴奋感法则”的自然延伸。显然，最令人兴奋的故事，正是你想读的那一个。我之所以特意提到这一点，是因为太多人在这上面走入误区。他们不去创造自己想要的东西，而是试图去迎合某种想象中、更高级的受众。一旦走上这条路，你就迷失了。[[6](#f6n)]"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "5ca71b668558e12e5e4a0e337a900c86caad763e81235ae0535f39fd23cf0c85",
+      "enMarkdown": "There are a lot of forces that will lead you astray when you're trying to figure out what to work on. Pretentiousness, fashion, fear, money, politics, other people's wishes, eminent frauds. But if you stick to what you find genuinely interesting, you'll be proof against all of them. If you're interested, you're not astray.",
+      "zhMarkdown": "在你试图寻找方向时，有很多力量会让你误入歧途：虚荣、时尚、恐惧、金钱、政治、他人的期望，以及道貌岸然的骗子。但如果你紧紧抓住自己真正感兴趣的东西，你就会对所有这些诱惑免疫。只要你保持兴趣，你就没有迷失方向。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "3c38391d28748ed509dccdf4e9258150e59a8ab728aaa45bedace1de3bf9a593",
+      "enMarkdown": "Following your interests may sound like a rather passive strategy, but in practice it usually means following them past all sorts of obstacles. You usually have to risk rejection and failure. So it does take a good deal of boldness.",
+      "zhMarkdown": "追随自己的兴趣听起来像是一种相当消极的策略，但在实践中，这通常意味着要追随它们去冲破各种艰难险阻。你通常必须冒着被拒绝和失败的风险。所以，这确实需要相当大的勇气。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "6533b6b7415fb3664a4ec6ac43328c22055bb36c0a99114fe4537f17ff389ef0",
+      "enMarkdown": "But while you need boldness, you don't usually need much planning. In most cases the recipe for doing great work is simply: work hard on excitingly ambitious projects, and something good will come of it. Instead of making a plan and then executing it, you just try to preserve certain invariants.",
+      "zhMarkdown": "不过，虽然你需要勇气，但通常不需要太多的规划。在大多数情况下，做出杰出成就的秘诀极其简单：在令人兴奋且雄心勃勃的项目上努力工作，自然会有好结果。你不需要制定一个计划然后去执行，你只需要努力维持某些恒定不变的原则。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "e16c3605a62aab16a542a0166224f9e52f19256287684176b66068e615bb1a40",
+      "enMarkdown": "The trouble with planning is that it only works for achievements you can describe in advance. You can win a gold medal or get rich by deciding to as a child and then tenaciously pursuing that goal, but you can't discover natural selection that way.",
+      "zhMarkdown": "规划的问题在于，它只适用于你能够提前描述的成果。你可以通过在童年时立下志向，然后坚韧不拔地去追求，从而赢得一枚金牌或变得富有；但你无法用这种方式发现物竞天择的自然选择理论。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "b33e132eaf3ee7bb567074189b5aba26be4aade0bbe0ff36f726ec20c95f22c7",
+      "enMarkdown": "I think for most people who want to do great work, the right strategy is not to plan too much. At each stage do whatever seems most interesting and gives you the best options for the future. I call this approach \"staying upwind.\" This is how most people who've done great work seem to have done it.",
+      "zhMarkdown": "我认为对于大多数渴望做出杰出成就的人来说，正确的策略是不要做太多规划。在每一个阶段，做那些看起来最有趣、且能为你未来保留最佳选择的事。我把这种方法称为“保持迎风（staying upwind）”。大多数做出了杰出成就的人，似乎都是这么做的。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "f2ff37c12b01633c93b4060860e02fc7d53b68558821432929dc25025975aa1f",
+      "enMarkdown": "Even when you've found something exciting to work on, working on it is not always straightforward. There will be times when some new idea makes you leap out of bed in the morning and get straight to work. But there will also be plenty of times when things aren't like that.",
+      "zhMarkdown": "即使你找到了令人兴奋的工作，做起来也并非一帆风顺。有时候，一些新的灵感会让你在清晨一跃而起，立刻投入工作。但也有很多时候，情况并非如此。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "3507fe6327c2ccaf4b4fa8ac6ee388eec7eef66ee348504c2d7b0c80f9550480",
+      "enMarkdown": "You don't just put out your sail and get blown forward by inspiration. There are headwinds and currents and hidden shoals. So there's a technique to working, just as there is to sailing.",
+      "zhMarkdown": "你不能只是扬起风帆，干等着灵感之风把你推向前。海上有逆风，有暗流，还有隐蔽的沙洲。所以，工作和航海一样，都需要技巧。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "65a69eff7c1fead8586a0a429c64665e86f582a78f7679f824b357cdaa1d3f97",
+      "enMarkdown": "For example, while you must work hard, it's possible to work too hard, and if you do that you'll find you get diminishing returns: fatigue will make you stupid, and eventually even damage your health. The point at which work yields diminishing returns depends on the type. Some of the hardest types you might only be able to do for four or five hours a day.",
+      "zhMarkdown": "例如，虽然你必须努力工作，但也有可能用力过猛。如果陷入这种状态，你会发现收益递减：疲劳会让你变蠢，最终甚至会损害你的健康。工作收益开始递减的临界点取决于工作的类型。对于一些最艰脑力的工作，你可能每天只能做四五个小时。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "6e1322f8f644f5a95cdfc518eae0d05a7d33816541b6c7bd31dd8cf50580b44a",
+      "enMarkdown": "Ideally those hours will be contiguous. To the extent you can, try to arrange your life so you have big blocks of time to work in. You'll shy away from hard tasks if you know you might be interrupted.",
+      "zhMarkdown": "理想情况下，这些时间应该是连续的。尽你所能去安排生活，好让自己拥有大块不被打扰的时间来工作。如果你预感到自己随时会被打断，你就会对那些艰巨的任务望而却步。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "a1ce052a420fb590f47942ed2c832dc8c3246bac4ad247d4fa807fdd289f06f1",
+      "enMarkdown": "It will probably be harder to start working than to keep working. You'll often have to trick yourself to get over that initial threshold. Don't worry about this; it's the nature of work, not a flaw in your character. Work has a sort of activation energy, both per day and per project. And since this threshold is fake in the sense that it's higher than the energy required to keep going, it's ok to tell yourself a lie of corresponding magnitude to get over it.",
+      "zhMarkdown": "开始工作通常比保持工作状态更难。你经常需要哄骗自己，才能跨过最初的门槛。别为此焦虑，这是工作的本质，而不是你性格的缺陷。工作就像有一种“活化能”，无论是每天的开始，还是每个项目的起步，都需要跨越这个门槛。既然这个门槛在某种意义上是虚高的（它高于保持工作状态所需的能量），那么对自己撒一个同等分量的谎来跨越它，也完全说得过去。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "38584b33bccfc8e2d8292b226a38f6397312b21b7991ba6961c4e2ce5a6e47f5",
+      "enMarkdown": "It's usually a mistake to lie to yourself if you want to do great work, but this is one of the rare cases where it isn't. When I'm reluctant to start work in the morning, I often trick myself by saying \"I'll just read over what I've got so far.\" Five minutes later I've found something that seems mistaken or incomplete, and I'm off.",
+      "zhMarkdown": "如果你想做出杰出的成就，欺骗自己通常是个错误，但这是极少数可以破例的情况之一。当我在清晨不想开始工作时，我经常会哄骗自己说：“我只是把目前写的东西过一遍。”五分钟后，我就会发现一些看似错误或不完整的地方，然后就顺理成章地沉浸其中了。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "4269a25afd2f1cd145752793dac46e24620120ba81558cf583ffa16104e9e943",
+      "enMarkdown": "Similar techniques work for starting new projects. It's ok to lie to yourself about how much work a project will entail, for example. Lots of great things began with someone saying \"How hard could it be?\"",
+      "zhMarkdown": "类似的技巧也适用于启动新项目。例如，在项目所需的工作量上对自己撒个谎是完全可以的。许多伟大的事物都始于有人说了一句：“这能有多难？”"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "8dfe755ca57a5ead85bb27411102211be1b1f57a85c5f3a6bc9fd6f5d98aacef",
+      "enMarkdown": "This is one case where the young have an advantage. They're more optimistic, and even though one of the sources of their optimism is ignorance, in this case ignorance can sometimes beat knowledge.",
+      "zhMarkdown": "这是年轻人占优势的一个领域。他们更乐观，尽管这种乐观的源泉之一是无知，但在这种情况下，无知有时确实能击败博学。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "3a2223fa0cfa5f1405c203596c7a01a7a961839ca433c49a0aacd8876d7ea8e1",
+      "enMarkdown": "Try to finish what you start, though, even if it turns out to be more work than you expected. Finishing things is not just an exercise in tidiness or self-discipline. In many projects a lot of the best work happens in what was meant to be the final stage.",
+      "zhMarkdown": "不过，尽量做到有始有终，哪怕它最终耗费的工作量远超预期。完成一件事不仅仅是为了整洁或自律。在许多项目中，许多最精彩的工作，恰恰发生在本以为是收尾的最后一个阶段。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "a1e09b488eccd4f055c9e8c5bbd9df9eaf6f6085c5a1c4ec5e93444dee6773ec",
+      "enMarkdown": "Another permissible lie is to exaggerate the importance of what you're working on, at least in your own mind. If that helps you discover something new, it may turn out not to have been a lie after all. [[7](#f7n)]",
+      "zhMarkdown": "另一个可以接受的谎言是夸大你所做工作的重要性，至少在你自己心里是这样。如果这能帮你发现一些新东西，那么到头来，这也许根本就不是谎言。[[7](#f7n)]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "5a6811b61460c2d9ee382ac0a30519a5b98509b7c81145903256464bbb300b2b",
+      "enMarkdown": "Since there are two senses of starting work — per day and per project — there are also two forms of procrastination. Per-project procrastination is far the more dangerous. You put off starting that ambitious project from year to year because the time isn't quite right. When you're procrastinating in units of years, you can get a lot not done. [[8](#f8n)]",
+      "zhMarkdown": "既然开始工作有两个层面的含义——每天的开始和每个项目的启动——那么拖延症也有两种形式。项目层面的拖延要危险得多。你以时机尚未成熟为由，年复一年地推迟启动那个宏伟的项目。当你以“年”为单位进行拖延时，你最终会一事无成。[[8](#f8n)]"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "228ce793fd0998d8c397986db499691b16a56d565e11e5d89d45714f64236b7f",
+      "enMarkdown": "One reason per-project procrastination is so dangerous is that it usually camouflages itself as work. You're not just sitting around doing nothing; you're working industriously on something else. So per-project procrastination doesn't set off the alarms that per-day procrastination does. You're too busy to notice it.",
+      "zhMarkdown": "项目层面的拖延之所以如此危险，是因为它通常会伪装成“工作”。你并不是闲坐着无所事事，而是在勤奋地忙碌于其他事情。因此，项目层面的拖延不会拉响每天拖延时会触发的警报。你太忙了，以至于根本察觉不到它。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "f08a459d8e518f6302e0208389062e58e5a3e6ce3d61784f41b07ae48a068178",
+      "enMarkdown": "The way to beat it is to stop occasionally and ask yourself: Am I working on what I most want to work on? When you're young it's ok if the answer is sometimes no, but this gets increasingly dangerous as you get older. [[9](#f9n)]",
+      "zhMarkdown": "战胜它的方法是偶尔停下来问问自己：我正在做的，是我最想做的工作吗？年轻时，如果答案偶尔是否定的，那还没关系；但随着年龄增长，这会变得越来越危险。[[9](#f9n)]"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "3f6edb7450df0a2ebeb3e9cdca4b05d25f43afdc7f80859a138c3fa74b71f9aa",
+      "enMarkdown": "Great work usually entails spending what would seem to most people an unreasonable amount of time on a problem. You can't think of this time as a cost, or it will seem too high. You have to find the work sufficiently engaging as it's happening.",
+      "zhMarkdown": "杰出的成就通常意味着在一个问题上投入在大多数人看来不合理的时间。你不能把这段时间看作一种成本，否则它会显得过于高昂。你必须在工作的过程中，发现它本身就足够吸引人。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "002475c7c9b022472a8ca6bb2f6e28c7d9074acaa24568032bc12af83ed43165",
+      "enMarkdown": "There may be some jobs where you have to work diligently for years at things you hate before you get to the good part, but this is not how great work happens. Great work happens by focusing consistently on something you're genuinely interested in. When you pause to take stock, you're surprised how far you've come.",
+      "zhMarkdown": "或许有些工作需要你咬牙坚持多年，做着自己讨厌的事，然后才能迎来美好的部分，但杰出的成就并非如此诞生的。它是通过持续专注于你真正感兴趣的事情而实现的。当你停下脚步审视时，你会惊讶于自己已经走了这么远。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "7c33f4cb4ff7882075884f46c83a70b22b7d43ea4883d80cf846f9b69fc22772",
+      "enMarkdown": "The reason we're surprised is that we underestimate the cumulative effect of work. Writing a page a day doesn't sound like much, but if you do it every day you'll write a book a year. That's the key: consistency. People who do great things don't get a lot done every day. They get something done, rather than nothing.",
+      "zhMarkdown": "我们之所以感到惊讶，是因为我们低估了工作的累积效应。每天写一页听起来微不足道，但如果你每天坚持，一年就能写出一本书。关键就在于：持之以恒。成就不凡的人并不是每天都做成了惊天动地的大事。他们只是每天都做成了一点事，而不是什么都没做。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "b7f662bac3f8c1adfb874a0356df6d59560e34bab23a344e400be1235b448b12",
+      "enMarkdown": "If you do work that compounds, you'll get exponential growth. Most people who do this do it unconsciously, but it's worth stopping to think about. Learning, for example, is an instance of this phenomenon: the more you learn about something, the easier it is to learn more. Growing an audience is another: the more fans you have, the more new fans they'll bring you.",
+      "zhMarkdown": "如果你做的是可以产生复利的工作，你就会获得指数级增长。大多数人在做这件事时是无意识的，但这非常值得停下来想一想。例如，学习就是这种现象的一个例子：你对一件事了解得越多，学习新知识就越容易。积累受众也是如此：你的粉丝越多，他们带给你的新粉丝也就越多。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "5fbe423d80f60b0abcb74ef152658ed4454c6bf4ddac4731604c01f6d2b800f2",
+      "enMarkdown": "The trouble with exponential growth is that the curve feels flat in the beginning. It isn't; it's still a wonderful exponential curve. But we can't grasp that intuitively, so we underrate exponential growth in its early stages.",
+      "zhMarkdown": "指数级增长的麻烦在于，它的曲线在起步阶段感觉是平的。其实不然，它依然是一条美妙的指数曲线。但我们无法直观地理解这一点，因此我们在早期往往会低估指数级增长的威力。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "b8bc1c3e714a332459a489799c6b4d538ecf2393ded71d971401e1191b395a23",
+      "enMarkdown": "Something that grows exponentially can become so valuable that it's worth making an extraordinary effort to get it started. But since we underrate exponential growth early on, this too is mostly done unconsciously: people push through the initial, unrewarding phase of learning something new because they know from experience that learning new things always takes an initial push, or they grow their audience one fan at a time because they have nothing better to do. If people consciously realized they could invest in exponential growth, many more would do it.",
+      "zhMarkdown": "呈指数级增长的事物最终会变得极具价值，以至于为了让它启动而付出超乎寻常的努力都是值得的。但由于我们在初期低估了这种增长，这种努力多半也是在无意识中付出的：人们咬牙度过学习新知识那段毫无回报的初始阶段，是因为他们凭经验知道，学习新事物总是需要最初的推力；或者他们一次只吸引一个粉丝，因为他们没有更好的事情可做。如果人们能自觉意识到自己可以投资于指数级增长，那么去做的人会多得多。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "933f05d97d9e0af537a4bc4d68550a17e39235a2b1df3e29fe32f74d9e8caf7e",
+      "enMarkdown": "Work doesn't just happen when you're trying to. There's a kind of undirected thinking you do when walking or taking a shower or lying in bed that can be very powerful. By letting your mind wander a little, you'll often solve problems you were unable to solve by frontal attack.",
+      "zhMarkdown": "工作并不只发生在你刻意尝试的时刻。当你散步、洗澡或躺在床上时，那种无意识、非定向的思考往往非常强大。通过让大脑稍微神游，你常常能解决那些正面强攻时无法攻克的难题。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "d241e3b1c308908d3e66bdfb4a6b5f179c688b85baa0ed4ee4ce9edafdadd9a3",
+      "enMarkdown": "You have to be working hard in the normal way to benefit from this phenomenon, though. You can't just walk around daydreaming. The daydreaming has to be interleaved with deliberate work that feeds it questions. [[10](#f10n)]",
+      "zhMarkdown": "不过，你必须在平时努力工作，才能从这种现象中受益。你不能整天只管闲逛白日做梦。白日做梦必须与刻意的工作交织在一起，由后者为大脑源源不断地输送问题。[[10](#f10n)]"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "579aaf498a5118c97e5220a7d6c131d316d66ace2451553e614156ff2ccc9137",
+      "enMarkdown": "Everyone knows to avoid distractions at work, but it's also important to avoid them in the other half of the cycle. When you let your mind wander, it wanders to whatever you care about most at that moment. So avoid the kind of distraction that pushes your work out of the top spot, or you'll waste this valuable type of thinking on the distraction instead. (Exception: Don't avoid love.)",
+      "zhMarkdown": "大家都知道在工作时要避免分心，但在周期的另一半时间里避免分心也同样重要。当你让思绪游荡时，它会飘向你那一刻最关心的事情。所以，要避免那种会把你的工作挤下头把交椅的干扰，否则你会把这种宝贵的思考时间浪费在琐事上。（例外：不要逃避爱情。）"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "d3cd2fdd88654f04e6c123745b59f765b4a9cef850ba0ff4c91199fcaddb0cd7",
+      "enMarkdown": "Consciously cultivate your taste in the work done in your field. Until you know which is the best and what makes it so, you don't know what you're aiming for.",
+      "zhMarkdown": "有意识地去培养你对自身领域内工作的品味。在你了解什么是最好的、以及为什么它是最好的之前，你根本不知道自己努力的目标是什么。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "134a601fed16f886448e91336cb6f6c4531c3a942caad19a43098654bd42dbda",
+      "enMarkdown": "And that *is* what you're aiming for, because if you don't try to be the best, you won't even be good. This observation has been made by so many people in so many different fields that it might be worth thinking about why it's true. It could be because ambition is a phenomenon where almost all the error is in one direction — where almost all the shells that miss the target miss by falling short. Or it could be because ambition to be the best is a qualitatively different thing from ambition to be good. Or maybe being good is simply too vague a standard. Probably all three are true. [[11](#f11n)]",
+      "zhMarkdown": "而那**正是**你努力的目标，因为如果你不争取成为最好的，你连优秀都做不到。无数不同领域的先行者都表达过这个观点，以至于我们值得去思考一下为什么它是对的。这可能是因为在“野心”这种现象中，几乎所有的误差都发生在同一个方向——几乎所有脱靶的炮弹，都是因为射程不足。或者是因为，“想成为最好”的野心，与“想成为优秀”的野心，在质地上完全不同。又或者，仅仅是因为“优秀”这个标准太模糊了。可能这三点都成立。[[11](#f11n)]"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "214770d4834e02a1db366982df54d0687e3db847730f9b944034a85ce9b68d5d",
+      "enMarkdown": "Fortunately there's a kind of economy of scale here. Though it might seem like you'd be taking on a heavy burden by trying to be the best, in practice you often end up net ahead. It's exciting, and also strangely liberating. It simplifies things. In some ways it's easier to try to be the best than to try merely to be good.",
+      "zhMarkdown": "幸运的是，这里存在一种规模效应。虽然试图成为最好听起来是一副沉重的担子，但在实践中，你往往会净赚。这令人兴奋，而且奇妙地让人感到解脱。它简化了事情。在某些方面，试图成为最好，比仅仅试图成为优秀还要容易。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "446cae7a2434dfd52e52e7ddf3a90107bfa34bc094506850cadf97116bdb039e",
+      "enMarkdown": "One way to aim high is to try to make something that people will care about in a hundred years. Not because their opinions matter more than your contemporaries', but because something that still seems good in a hundred years is more likely to be genuinely good.",
+      "zhMarkdown": "定下高标准的一种方法是，试着做出一百年后人们依然会关心的东西。这倒不是因为一百年后人们的看法比你同时代人的看法更重要，而是因为在一百年后依然被认为是好的东西，更有可能是真正优秀的。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "fd8e5a335621325feebe3f02667f58dbb102c0772f3afa2197a383ee184eb7b3",
+      "enMarkdown": "Don't try to work in a distinctive style. Just try to do the best job you can; you won't be able to help doing it in a distinctive way.",
+      "zhMarkdown": "不要刻意去追求一种与众不同的风格。只要努力把工作做到极致，你自然会以一种独特的方式呈现它。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "51969ef62ffe613fcc12e0b54deec4898777476e39ddefc33d9c7aa0e0416498",
+      "enMarkdown": "Style is doing things in a distinctive way without trying to. Trying to is affectation.",
+      "zhMarkdown": "风格是在不刻意为之的情况下，以独特的方式行事。刻意去追求风格则是做作。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "097ce1d9038397753a741a89b5c0b4f7d589773553e185e6996764ffb5644eb8",
+      "enMarkdown": "Affectation is in effect to pretend that someone other than you is doing the work. You adopt an impressive but fake persona, and while you're pleased with the impressiveness, the fakeness is what shows in the work. [[12](#f12n)]",
+      "zhMarkdown": "做作在效果上，等于假装是别人在做这份工作。你套上了一个令人印象深刻但虚假的人设，虽然你可能为这种“高大上”感到自鸣得意，但作品中流露出来的却只有虚假。[[12](#f12n)]"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "3aa6cfd04c2b466c90b3742591f722572ed85953e15ebea9a008d3729d013d05",
+      "enMarkdown": "The temptation to be someone else is greatest for the young. They often feel like nobodies. But you never need to worry about that problem, because it's self-solving if you work on sufficiently ambitious projects. If you succeed at an ambitious project, you're not a nobody; you're the person who did it. So just do the work and your identity will take care of itself.",
+      "zhMarkdown": "扮演别人的诱惑对年轻人来说是最大的。他们常常觉得自己无足轻重。但你永远不需要担心这个问题，因为如果你致力于足够宏大的项目，它就会自我解决。如果你在一个雄心勃勃的项目上取得了成功，你就不是无名之辈，你就是那个做成这件事的人。所以，只管埋头工作，你的身份自然会水到渠成。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "e97246f4e611d5c9133207b29478fe2618173b1a87c914a78af6610ce996fe56",
+      "enMarkdown": "\"Avoid affectation\" is a useful rule so far as it goes, but how would you express this idea positively? How would you say what to be, instead of what not to be? The best answer is earnest. If you're earnest you avoid not just affectation but a whole set of similar vices.",
+      "zhMarkdown": "“避免做作”在一定程度上是个有用的法则，但你如何正面地表达这个想法？如何描述“应该成为什么”，而不是“不该成为什么”？最好的答案是：真挚（earnest）。如果你足够真挚，你不仅能避免做作，还能避免一整套类似的恶习。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "7586ab739b90ab9a27c17583f879270be8cc4496ae3728e3da7d9590587ad9f7",
+      "enMarkdown": "The core of being earnest is being intellectually honest. We're taught as children to be honest as an unselfish virtue — as a kind of sacrifice. But in fact it's a source of power too. To see new ideas, you need an exceptionally sharp eye for the truth. You're trying to see more truth than others have seen so far. And how can you have a sharp eye for the truth if you're intellectually dishonest?",
+      "zhMarkdown": "真挚的核心是智识上的诚实。我们从小被教育要诚实，认为这是一种无私的德行——一种牺牲。但事实上，它也是力量的源泉。要洞察新的想法，你需要对真相有着极其敏锐的眼光。你试图看到比别人目前看到的更多的真相。如果你在智识上不诚实，你又怎么可能对真相有敏锐的眼光呢？"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "e84ad27c40fbb2cd373e784d87c36b1bb253266a910a54b54abfcb5762d9fa7b",
+      "enMarkdown": "One way to avoid intellectual dishonesty is to maintain a slight positive pressure in the opposite direction. Be aggressively willing to admit that you're mistaken. Once you've admitted you were mistaken about something, you're free. Till then you have to carry it. [[13](#f13n)]",
+      "zhMarkdown": "避免智识不诚实的一种方法，是在相反方向保持轻微的积极压力。要极度乐于承认自己的错误。一旦你承认自己在某件事上错了，你就自由了。在那之前，你必须一直背负着它。[[13](#f13n)]"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "45452d3d0f26b3d22d58afce3697503fac711fac72e88ddecac552a5a8cfa8cb",
+      "enMarkdown": "Another more subtle component of earnestness is informality. Informality is much more important than its grammatically negative name implies. It's not merely the absence of something. It means focusing on what matters instead of what doesn't.",
+      "zhMarkdown": "真挚的另一个更微妙的成分是“非正式性（informality）”。非正式性比它语法上带有否定意味的名字要重要得多。它不仅仅是“缺乏形式”。它意味着专注于真正重要的事，而不是无关紧要的事。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "b8d6477d9679ffe860d8b632bcc556ee19565edfdbed47793c5b937215268355",
+      "enMarkdown": "What formality and affectation have in common is that as well as doing the work, you're trying to seem a certain way as you're doing it. But any energy that goes into how you seem comes out of being good. That's one reason nerds have an advantage in doing great work: they expend little effort on seeming anything. In fact that's basically the definition of a nerd.",
+      "zhMarkdown": "流于形式和刻意做作的共同点在于：在做工作的同时，你还试图让自己在做这件事时显得符合某种形象。但是，任何消耗在“显得如何”上的精力，都会削弱“做得如何”。这就是书呆子（nerds）在做出杰出成就时占优势的原因之一：他们几乎不花心思去维持什么形象。事实上，这基本上就是书呆子的定义。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "e13a16d7da836b3b95c19ac404e31e910ebde693e91d890fbd57db660757fbf4",
+      "enMarkdown": "Nerds have a kind of innocent boldness that's exactly what you need in doing great work. It's not learned; it's preserved from childhood. So hold onto it. Be the one who puts things out there rather than the one who sits back and offers sophisticated-sounding criticisms of them. \"It's easy to criticize\" is true in the most literal sense, and the route to great work is never easy.",
+      "zhMarkdown": "书呆子有一种天真的胆识，这恰恰是做出杰出成就所需要的。这不是学来的，而是从童年保留下来的。所以，请紧紧握住它。做那个把东西创造出来并展现给世界的人，而不是坐在后面、对事物发表听起来很高级的批评的人。“批评很容易”在最字面的意义上是正确的，而通往杰出成就的道路从未轻松过。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "f6c026afc3192caec9d39f16e4e8b99e0bdb40d9e7c2615786ee3010054be544",
+      "enMarkdown": "There may be some jobs where it's an advantage to be cynical and pessimistic, but if you want to do great work it's an advantage to be optimistic, even though that means you'll risk looking like a fool sometimes. There's an old tradition of doing the opposite. The Old Testament says it's better to keep quiet lest you look like a fool. But that's advice for *seeming* smart. If you actually want to discover new things, it's better to take the risk of telling people your ideas.",
+      "zhMarkdown": "在某些职业中，愤世嫉俗和悲观可能是一种优势，但如果你想做出杰出的成就，乐观则是一种优势，尽管这意味着你有时要冒着看起来像个傻瓜的风险。有一种古老的传统恰恰相反。《旧约》里说，最好保持沉默，免得显得像个傻瓜。但那是为了“显得”聪明的建议。如果你真的想发现新事物，最好冒着被别人笑话的风险说出你的想法。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "670651e911af03092783b4ad1ff579a7c219c642d1454680dd31791a1f56cbc4",
+      "enMarkdown": "Some people are naturally earnest, and with others it takes a conscious effort. Either kind of earnestness will suffice. But I doubt it would be possible to do great work without being earnest. It's so hard to do even if you are. You don't have enough margin for error to accommodate the distortions introduced by being affected, intellectually dishonest, orthodox, fashionable, or cool. [[14](#f14n)]",
+      "zhMarkdown": "有些人天生真挚，有些人则需要有意识地努力。无论是哪种真挚都足够了。但我怀疑，如果不真挚，是否可能做出杰出的成就。因为即便你足够真挚，这件事也已经难如登天了。你没有足够的容错空间，去承受因做作、智识不诚实、墨守成规、迎合时尚或装酷所带来的扭曲。[[14](#f14n)]"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "c175f68698482f6d4b4209a6d63aebfb5a49652b60151e87eab453ed546d3bfe",
+      "enMarkdown": "Great work is consistent not only with who did it, but with itself. It's usually all of a piece. So if you face a decision in the middle of working on something, ask which choice is more consistent.",
+      "zhMarkdown": "杰出的作品不仅与创作者保持一致，而且其自身也是自洽的。它通常浑然一体。所以，如果你在工作过程中面临选择，问问自己哪个选择更自洽。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "0d60a37dd87d11c319749cbfea99e568dcbf592fd9665ec8be1925531a913b5f",
+      "enMarkdown": "You may have to throw things away and redo them. You won't necessarily have to, but you have to be willing to. And that can take some effort; when there's something you need to redo, status quo bias and laziness will combine to keep you in denial about it. To beat this ask: If I'd already made the change, would I want to revert to what I have now?",
+      "zhMarkdown": "你可能不得不推倒重来。这不一定是必须的，但你必须做好准备。这需要付出一些努力；当有东西需要重做时，现状偏差和懒惰会结合起来，让你陷入否认。为了战胜这一点，不妨问问：如果我已经做出了改变，我还会想退回到现在的状态吗？"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "6b4dd07c394a6144236897f672e4bf8bca2c75e0bfbf844eea00902a9703c566",
+      "enMarkdown": "Have the confidence to cut. Don't keep something that doesn't fit just because you're proud of it, or because it cost you a lot of effort.",
+      "zhMarkdown": "要有断舍离的信心。不要仅仅因为你为之自豪，或者因为它耗费了你巨大的心血，就保留某些不合适的东西。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "2471b208f7f6a60720771b973548185db51b30b3fe625c2bcd1e28109a28a952",
+      "enMarkdown": "Indeed, in some kinds of work it's good to strip whatever you're doing to its essence. The result will be more concentrated; you'll understand it better; and you won't be able to lie to yourself about whether there's anything real there.",
+      "zhMarkdown": "事实上，在某些类型的工作中，最好将你正在做的事情剥离到只剩本质。结果会更加浓缩，你会理解得更透彻，而且你无法在“这东西到底有没有料”上欺骗自己。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "bb160c9b43979de7a2cf010c523961e7737bfea3909f4ca8a0c548932ae6f701",
+      "enMarkdown": "Mathematical elegance may sound like a mere metaphor, drawn from the arts. That's what I thought when I first heard the term \"elegant\" applied to a proof. But now I suspect it's conceptually prior — that the main ingredient in artistic elegance is mathematical elegance. At any rate it's a useful standard well beyond math.",
+      "zhMarkdown": "“数学之美（mathematical elegance）”听起来可能只是一个源自艺术的隐喻。当我第一次听到用“优雅”来形容一个证明时，我也是这么想的。但现在我怀疑它在概念上是更在先的——艺术上的优雅，其核心成分其实是数学上的优雅。无论如何，这是一个远超数学范畴的有用标准。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "7374d47df0e0be314945354c718d026dc35acb5095c45bbe4fa93bdc7b0726ce",
+      "enMarkdown": "Elegance can be a long-term bet, though. Laborious solutions will often have more prestige in the short term. They cost a lot of effort and they're hard to understand, both of which impress people, at least temporarily.",
+      "zhMarkdown": "不过，追求优雅可能是一场长线赌博。在短期内，繁复笨重的解决方案往往更享有声望。它们耗费了大量精力，且难以理解，这两点都能唬住人，至少能风光一时。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "a08bf9b2c1c8378df85548c498cbae0f50d0e005052bd1671d2616b1a05e9155",
+      "enMarkdown": "Whereas some of the very best work will seem like it took comparatively little effort, because it was in a sense already there. It didn't have to be built, just seen. It's a very good sign when it's hard to say whether you're creating something or discovering it.",
+      "zhMarkdown": "然而，一些最顶尖的杰作看起来却像是没花什么力气，因为在某种意义上，它们本就存在于那里。它们不需要被建造，只需要被看见。当你很难说清自己是在“创造”还是在“发现”某样东西时，这是一个非常好的迹象。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "dba077bebd2e5adc2288aa457c1d9c85572937667c4a578930e298c68491a36c",
+      "enMarkdown": "When you're doing work that could be seen as either creation or discovery, err on the side of discovery. Try thinking of yourself as a mere conduit through which the ideas take their natural shape.",
+      "zhMarkdown": "当你在做一件既可以看作创造也可以看作发现的工作时，请偏向于“发现”。试着把自己仅仅看作一个管道，想法通过你呈现出它们自然的形态。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "c4ae6eecf13e6ab206154834760213baae20eb6e9a0b6a56d9404281c1bc2468",
+      "enMarkdown": "(Strangely enough, one exception is the problem of choosing a problem to work on. This is usually seen as search, but in the best case it's more like creating something. In the best case you create the field in the process of exploring it.)",
+      "zhMarkdown": "（有趣的是，一个例外是选择研究课题的问题。这通常被看作是一种搜寻，但在最好的情况下，它更像是创造。在最好的情况下，你在探索的过程中创造了这一领域本身。）"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "013d359b9cf5d77a91c3d144526a5485c422f1045867830edbd1c94a95afbef2",
+      "enMarkdown": "Similarly, if you're trying to build a powerful tool, make it gratuitously unrestrictive. A powerful tool almost by definition will be used in ways you didn't expect, so err on the side of eliminating restrictions, even if you don't know what the benefit will be.",
+      "zhMarkdown": "同样地，如果你试图构建一个强大的工具，尽量让它保持无拘无束的开放性。一个强大的工具，几乎在定义上，就会被用于你意想不到的地方，所以要倾向于消除限制，哪怕你还不知道这样做会有什么好处。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "592f32a98552a2219d291dcea6563b21ba09394a3a3ed2bcbb929f836ff9dc2e",
+      "enMarkdown": "Great work will often be tool-like in the sense of being something others build on. So it's a good sign if you're creating ideas that others could use, or exposing questions that others could answer. The best ideas have implications in many different areas.",
+      "zhMarkdown": "杰出的工作往往具有工具属性，即成为他人借以构建新事物的基石。因此，如果你创造的理念能为他人所用，或者提出的问题能由他人来解答，这就是一个好兆头。最好的想法往往在许多不同的领域都有所启示。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "aca8948e8b6682da9f0ae3ac5cb2b069aaa63bbecfb97534527140b429457364",
+      "enMarkdown": "If you express your ideas in the most general form, they'll be truer than you intended.",
+      "zhMarkdown": "如果你用最普遍、最通用的形式来表达你的想法，它们往往会比你预期的还要深刻和正确。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "23630675bed2b268f297a4d7eb84cb1a7bf416af1c5c7784ab494cccac9d61e1",
+      "enMarkdown": "True by itself is not enough, of course. Great ideas have to be true and new. And it takes a certain amount of ability to see new ideas even once you've learned enough to get to one of the frontiers of knowledge.",
+      "zhMarkdown": "当然，仅仅“正确”是不够的。伟大的创意必须既正确又新颖。而且，即使你已经学得足够深入、触及了知识的前沿，要察觉到新的创意也需要相当的能力。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "1e54f7f29a943e40bfb8c881264eeabc26c3373d963e1eaeba4971b4a7cc25ca",
+      "enMarkdown": "In English we give this ability names like originality, creativity, and imagination. And it seems reasonable to give it a separate name, because it does seem to some extent a separate skill. It's possible to have a great deal of ability in other respects — to have a great deal of what's often called *technical* ability — and yet not have much of this.",
+      "zhMarkdown": "在英语中，我们给这种能力赋予了“原创性（originality）”、“创造力（creativity）”和“想象力（imagination）”等名字。给它一个单独的名称似乎很合理，因为在某种程度上，这确实像是一种独立的能力。一个人完全有可能在其他方面拥有极高的能力——拥有极高的高手通常所说的“技术能力”——却在这方面有所欠缺。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "eb1aff23c0b6d5413b4b1dc91b893124a06a985cda3f671442fcf80cd9e809ca",
+      "enMarkdown": "I've never liked the term \"creative process.\" It seems misleading. Originality isn't a process, but a habit of mind. Original thinkers throw off new ideas about whatever they focus on, like an angle grinder throwing off sparks. They can't help it.",
+      "zhMarkdown": "我从来都不喜欢“创意过程”这个词。它似乎带有误导性。原创性不是一个过程，而是一种思维习惯。具有原创精神的思考者，无论关注什么，都会不断抛出新的想法，就像角磨机飞溅出火花一样。他们忍不住。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "f43d88a864a1aac2132584a4175c6c5619f1cc88e8e71b37265b49b3dcc83c64",
+      "enMarkdown": "If the thing they're focused on is something they don't understand very well, these new ideas might not be good. One of the most original thinkers I know decided to focus on dating after he got divorced. He knew roughly as much about dating as the average 15 year old, and the results were spectacularly colorful. But to see originality separated from expertise like that made its nature all the more clear.",
+      "zhMarkdown": "如果他们关注的是自己不太懂的事情，这些新想法可能并不好。我认识的一个极具原创精神的思考者在离婚后决定专注于约会。他对约会的了解大概和普通15岁少年差不多，结果极其精彩纷呈。但看到原创性这样脱离了专业知识而独立存在，反而让它的本质变得更加清晰。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "5dc7c766ef0b6df828b96247c916be79283cccc5d95d22b3cde1fa06ac37c70a",
+      "enMarkdown": "I don't know if it's possible to cultivate originality, but there are definitely ways to make the most of however much you have. For example, you're much more likely to have original ideas when you're working on something. Original ideas don't come from trying to have original ideas. They come from trying to build or understand something slightly too difficult. [[15](#f15n)]",
+      "zhMarkdown": "我不知道原创性是否可以培养，但绝对有办法让你现有的原创性发挥出最大的效用。例如，当你在具体做某件事时，你更有可能产生原创想法。原创想法并非来自“试图产生原创想法”。它们来自试图去构建或理解某件难度略超出你能力的事情。[[15](#f15n)]"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "0dc1f8299319ade3fd50ac1fe94eb9ac758b5cc722c1c8be93859e951701902a",
+      "enMarkdown": "Talking or writing about the things you're interested in is a good way to generate new ideas. When you try to put ideas into words, a missing idea creates a sort of vacuum that draws it out of you. Indeed, there's a kind of thinking that can only be done by writing.",
+      "zhMarkdown": "谈论或写下你感兴趣的事情是产生新想法的好方法。当你试图将想法付诸语言时，缺失的想法会产生一种真空，从而把它从你脑中吸出来。事实上，有一种思考只能通过写作来完成。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "eacf05b5a9e9c98f0a50e144683473a8b622d7b4d8fa32763153c33fc9515124",
+      "enMarkdown": "Changing your context can help. If you visit a new place, you'll often find you have new ideas there. The journey itself often dislodges them. But you may not have to go far to get this benefit. Sometimes it's enough just to go for a walk. [[16](#f16n)]",
+      "zhMarkdown": "改变你的环境也会有所帮助。如果你去一个新地方，往往会发现自己在那儿产生了新的想法。旅途本身常常能让想法挣脱束缚。但你可能不需要走太远就能获得这种好处。有时，仅仅出去散散步就足够了。[[16](#f16n)]"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "fcf3316244bdb4a96979bf659cf2ae79ee25c320e5eaccbb79df0250f8ffc30a",
+      "enMarkdown": "It also helps to travel in topic space. You'll have more new ideas if you explore lots of different topics, partly because it gives the angle grinder more surface area to work on, and partly because analogies are an especially fruitful source of new ideas.",
+      "zhMarkdown": "在不同的主题领域之间穿梭也大有裨益。如果你探索许多不同的主题，你会产生更多的新想法，部分原因是这给你的“角磨机”提供了更广阔的接触面，另一部分原因是类比是新想法极其丰富的源泉。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "b197ddb7e1e10afef2ccda39f7a7127fd6ab03b2eb79b571d80c083dbf7d2752",
+      "enMarkdown": "Don't divide your attention *evenly* between many topics though, or you'll spread yourself too thin. You want to distribute it according to something more like a power law. [[17](#f17n)] Be professionally curious about a few topics and idly curious about many more.",
+      "zhMarkdown": "不过，不要把你的注意力**平均**分配给许多主题，否则你会把自己铺得太薄。你应该按照更接近幂律的方式来分配精力。[[17](#f17n)] 对少数几个主题保持专业性的好奇，对更多的主题保持闲适的猎奇。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "f2e344c8a9f14a816e425198f33372f501ce422795e080cefec1197f27b301e5",
+      "enMarkdown": "Curiosity and originality are closely related. Curiosity feeds originality by giving it new things to work on. But the relationship is closer than that. Curiosity is itself a kind of originality; it's roughly to questions what originality is to answers. And since questions at their best are a big component of answers, curiosity at its best is a creative force.",
+      "zhMarkdown": "好奇心和原创性密切相关。好奇心通过提供新的加工素材来滋养原创性。但它们的关系比这还要紧密。好奇心本身就是一种原创性；粗略地说，好奇心之于问题，就像原创性之于答案。既然优秀的问题在很大程度上构成了答案，那么最顶尖的好奇心本身就是一种创造性的力量。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "fa657be4d3e3ec52bd4c982994384710860b566ab9b9402434e286e855c6eee7",
+      "enMarkdown": "Having new ideas is a strange game, because it usually consists of seeing things that were right under your nose. Once you've seen a new idea, it tends to seem obvious. Why did no one think of this before?",
+      "zhMarkdown": "产生新想法是一场奇妙的游戏，因为它通常由“看见那些就在你眼皮底下的东西”组成。一旦你看到了一个新想法，它往往显得显而易见。为什么以前没人想到这个呢？"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "3ce7244a623e4da113edcf49145d42a50782e8227a28dd195fa0cc16cf3475b1",
+      "enMarkdown": "When an idea seems simultaneously novel and obvious, it's probably a good one.",
+      "zhMarkdown": "当一个想法看起来既新颖又显而易见时，它很可能是一个好主意。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "da386aa4b9e16dee23bdb5fa210542ac4bc4280d81097ceaea478fa2bc0a8035",
+      "enMarkdown": "Seeing something obvious sounds easy. And yet empirically having new ideas is hard. What's the source of this apparent contradiction? It's that seeing the new idea usually requires you to change the way you look at the world. We see the world through models that both help and constrain us. When you fix a broken model, new ideas become obvious. But noticing and fixing a broken model is hard. That's how new ideas can be both obvious and yet hard to discover: they're easy to see after you do something hard.",
+      "zhMarkdown": "看见显而易见的东西听起来很容易。然而从经验来看，产生新想法却很难。这种表面矛盾的根源在哪里？在于看见新想法通常需要你改变看待世界的方式。我们通过各种“模型”来看待世界，这些模型既帮助了我们，也限制了我们。当你修正了一个破损的模型，新想法就会变得显而易见。但注意到并修正一个破损的模型是极其困难的。这就是为什么新想法既显而易见却又难以发现：在你完成了一件难事之后，它们才变得容易看清。"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "315eddc3ab5cf90fbeb1a6fcf8698ae32bd858519785180f816d3449fefbcdff",
+      "enMarkdown": "One way to discover broken models is to be stricter than other people. Broken models of the world leave a trail of clues where they bash against reality. Most people don't want to see these clues. It would be an understatement to say that they're attached to their current model; it's what they think in; so they'll tend to ignore the trail of clues left by its breakage, however conspicuous it may seem in retrospect.",
+      "zhMarkdown": "发现破损模型的一种方法是比别人更严苛。破损的世界模型在与现实碰撞时，会留下一连串的线索。大多数人不想看到这些线索。说他们依恋现有的模型都太轻描淡写了；那是他们思考的根基；因此，他们倾向于忽视其破损留下的线索，无论事后看来这些线索多么显而易见。"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "6b44e31b8a3183740db7ea082261f7cff44374150b4ddec56e854fc6dc46681e",
+      "enMarkdown": "To find new ideas you have to seize on signs of breakage instead of looking away. That's what Einstein did. He was able to see the wild implications of Maxwell's equations not so much because he was looking for new ideas as because he was stricter.",
+      "zhMarkdown": "要找到新的想法，你必须紧紧抓住破损的迹象，而不是移开视线。爱因斯坦就是这么做的。他之所以能看到麦克斯韦方程组所蕴含的惊人推论，与其说是因为他在寻找新想法，不如说是因为他比别人更严苛。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "4582ef47dab00bdf5d8fe577266f2ef8e6fdb67fd9969ea8961a3db8558503da",
+      "enMarkdown": "The other thing you need is a willingness to break rules. Paradoxical as it sounds, if you want to fix your model of the world, it helps to be the sort of person who's comfortable breaking rules. From the point of view of the old model, which everyone including you initially shares, the new model usually breaks at least implicit rules.",
+      "zhMarkdown": "你需要的另一件事是打破规则的意愿。听起来有些矛盾，如果你想修正你的世界模型，做一个乐于打破规则的人会大有帮助。从旧模型的角度来看（包括你自己在内，大家最初都认同旧模型），新模型通常至少打破了某些隐性规则。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "3c81abac522eb7b35a3bee132039ffa18f7b9c1b45b9818d4466900ec2427cb1",
+      "enMarkdown": "Few understand the degree of rule-breaking required, because new ideas seem much more conservative once they succeed. They seem perfectly reasonable once you're using the new model of the world they brought with them. But they didn't at the time; it took the greater part of a century for the heliocentric model to be generally accepted, even among astronomers, because it felt so wrong.",
+      "zhMarkdown": "很少有人理解打破规则需要达到什么程度，因为新想法一旦成功，看起来就会保守得多。一旦你开始使用它们带来的新世界模型，它们看起来就完全合情合理了。但在当时并非如此；日心说花了大半个世纪才被普遍接受，甚至在天文学家中间也是如此，因为在当时它感觉是如此荒谬。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "e206e4aae90fac01bb5a07b67fe8a672bde89d0e5923054134bde92a69c42539",
+      "enMarkdown": "Indeed, if you think about it, a good new idea has to seem bad to most people, or someone would have already explored it. So what you're looking for is ideas that seem crazy, but the right kind of crazy. How do you recognize these? You can't with certainty. Often ideas that seem bad are bad. But ideas that are the right kind of crazy tend to be exciting; they're rich in implications; whereas ideas that are merely bad tend to be depressing.",
+      "zhMarkdown": "事实上，如果你仔细想想，一个优秀的新创意对大多数人来说必须看起来很糟糕，否则早就有人探索过了。所以，你要寻找的是那些看起来疯狂、但属于“正确类型的疯狂”的创意。你如何识别它们？你无法百分之百确定。通常，看起来糟糕的创意就是很糟糕。但是，属于正确类型疯狂的创意往往令人兴奋，它们蕴含着丰富的推论；而单纯糟糕的创意往往令人沮丧。"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "81b62a6dca35568fc8a0c7d1a10f40bbbb2f4af3117bae86f5de4be67ac6b4d8",
+      "enMarkdown": "There are two ways to be comfortable breaking rules: to enjoy breaking them, and to be indifferent to them. I call these two cases being aggressively and passively independent-minded.",
+      "zhMarkdown": "有两种方式能让你自如地打破规则：乐于打破它们，以及对它们漠不关心。我把这两种情况称为主动的和被动的特立独行（independent-minded）。"
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "3aae82286c4634a1b6cf4ae93b4461ace0fc9047e5c2c6f3f898f9d4c0a17a89",
+      "enMarkdown": "The aggressively independent-minded are the naughty ones. Rules don't merely fail to stop them; breaking rules gives them additional energy. For this sort of person, delight at the sheer audacity of a project sometimes supplies enough activation energy to get it started.",
+      "zhMarkdown": "主动特立独行的人是那些调皮捣蛋的家伙。规则不仅无法阻挡他们，打破规则反而能给他们注入额外的能量。对于这类人来说，对一个项目惊人胆识的由衷赞赏，有时就能提供足够的活化能来启动它。"
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "0e70edfd68f0e34ea5fb6a3f564bec8f37f20619e1f955b0f8db317a5d4fb348",
+      "enMarkdown": "The other way to break rules is not to care about them, or perhaps even to know they exist. This is why novices and outsiders often make new discoveries; their ignorance of a field's assumptions acts as a source of temporary passive independent-mindedness. Aspies also seem to have a kind of immunity to conventional beliefs. Several I know say that this helps them to have new ideas.",
+      "zhMarkdown": "另一种打破规则的方式是不在乎它们，甚至根本不知道它们的存在。这就是为什么新手和外行常常能做出新发现；他们对一个领域既有假设的无知，成为了一种临时的、被动的特立独行。阿斯伯格综合征患者似乎也对传统信念有一种免疫力。我认识的几位患者说，这有助于他们产生新的想法。"
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "48e6b593c5ab45b541c8202ff448db08a37eef57ec765249a4b4363089fd94e9",
+      "enMarkdown": "Strictness plus rule-breaking sounds like a strange combination. In popular culture they're opposed. But popular culture has a broken model in this respect. It implicitly assumes that issues are trivial ones, and in trivial matters strictness and rule-breaking *are* opposed. But in questions that really matter, only rule-breakers can be truly strict.",
+      "zhMarkdown": "严苛加上打破规则，听起来像是一个奇怪的组合。在流行文化中，这两者是对立的。但流行文化在这方面的模型是破损的。它隐性地假设问题都是无关紧要的琐事，而在琐事中，严苛和打破规则**确实**是对立的。但在真正重要的问题上，只有打破规则的人才能做到真正的严苛。"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "5bf82e096e51916ae9eaa659abd4bc897cb2df26271c90af402cd6f55e84cd03",
+      "enMarkdown": "An overlooked idea often doesn't lose till the semifinals. You do see it, subconsciously, but then another part of your subconscious shoots it down because it would be too weird, too risky, too much work, too controversial. This suggests an exciting possibility: if you could turn off such filters, you could see more new ideas.",
+      "zhMarkdown": "一个被忽视的想法往往在“半决赛”之前都没有输。你在潜意识里确实看到了它，但随后你潜意识的另一部分枪毙了它，因为这太怪异了、风险太大、工作量太重、或者争议太大。这提示了一个令人兴奋的可能性：如果你能关闭这些过滤器，你就能看到更多的新想法。"
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "sourceHash": "8946748739a03c02d28790e00ab313345d529465e45e92a63b909dcad4f30861",
+      "enMarkdown": "One way to do that is to ask what would be good ideas for *someone\nelse* to explore. Then your subconscious won't shoot them down to protect you.",
+      "zhMarkdown": "做到这一点的一个方法是，去问问有哪些好想法是值得**别人**去探索的。这样你的潜意识就不会为了保护你而把它们枪毙掉了。"
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "2f6ffcff87818c0107c837c59f81e3ee101e3d2d12cbd9dcd6f7906324297a6f",
+      "enMarkdown": "You could also discover overlooked ideas by working in the other direction: by starting from what's obscuring them. Every cherished but mistaken principle is surrounded by a dead zone of valuable ideas that are unexplored because they contradict it.",
+      "zhMarkdown": "你也可以通过反向操作来发现被忽视的想法：从遮蔽它们的障碍开始。每一个被珍视但错误的原则，周围都有一片宝贵想法的“盲区”，这些想法因为与该原则相冲突而无人涉足。"
+    },
+    {
+      "id": 111,
+      "type": "paragraph",
+      "sourceHash": "f473cfd0c807bdf4ff6afbea82becc52df14c2dd506013703fcfa229f46a5b07",
+      "enMarkdown": "Religions are collections of cherished but mistaken principles. So anything that can be described either literally or metaphorically as a religion will have valuable unexplored ideas in its shadow. Copernicus and Darwin both made discoveries of this type. [[18](#f18n)]",
+      "zhMarkdown": "宗教就是一堆被珍视但错误原则的集合。因此，任何在字面上或隐喻上可以被描述为宗教的事物，其阴影下都会有未被探索的宝贵想法。哥白尼和达尔文都做出了这种类型的发现。[[18](#f18n)]"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "f367c771b5de098cd5804477b86a07dcb81c0bb13fd4d3f3cca64ddcd40fcf05",
+      "enMarkdown": "What are people in your field religious about, in the sense of being too attached to some principle that might not be as self-evident as they think? What becomes possible if you discard it?",
+      "zhMarkdown": "在你所处的领域里，人们对什么东西有着“宗教般”的执念——即过于依恋某些可能并不像他们想象的那么理所当然的原则？如果你抛弃它，什么会变得可能？"
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "sourceHash": "50c9e1050984f996f87e7fa9fd5cfcc1f7cc7e3687349d4ca2e29557ce428682",
+      "enMarkdown": "People show much more originality in solving problems than in deciding which problems to solve. Even the smartest can be surprisingly conservative when deciding what to work on. People who'd never dream of being fashionable in any other way get sucked into working on fashionable problems.",
+      "zhMarkdown": "人们在解决问题时展现出的原创性，远比在决定解决哪些问题时展现出的要多。即使是最聪明的人，在决定做什么工作时，也可能保守得令人吃惊。那些在其他任何方面都绝不屑于追逐时尚的人，却会被吸引去研究时髦的问题。"
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "4107cac60b9ac073c92a699b50307fe6ea27ebe1be45d3692c84b88e2d9d6bad",
+      "enMarkdown": "One reason people are more conservative when choosing problems than solutions is that problems are bigger bets. A problem could occupy you for years, while exploring a solution might only take days. But even so I think most people are too conservative. They're not merely responding to risk, but to fashion as well. Unfashionable problems are undervalued.",
+      "zhMarkdown": "人们在选择问题时比选择解决方案时更保守，原因之一是问题是更大的赌注。一个问题可能会占用你数年的时间，而探索一个解决方案可能只需要几天。但即便如此，我认为大多数人还是太保守了。他们不仅是在应对风险，也是在顺应时尚。不受欢迎的问题被严重低估了。"
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "sourceHash": "b726400a932b733cbaed21b80d86ab2364c78abb9174835ba8144a2a1b78db52",
+      "enMarkdown": "One of the most interesting kinds of unfashionable problem is the problem that people think has been fully explored, but hasn't. Great work often takes something that already exists and shows its latent potential. Durer and Watt both did this. So if you're interested in a field that others think is tapped out, don't let their skepticism deter you. People are often wrong about this.",
+      "zhMarkdown": "在不受欢迎的问题中，最有趣的一种是人们认为已经被充分探索、但实际上并没有的问题。杰出的工作往往是把已经存在的东西拿过来，展示其潜在的无限可能。丢勒和瓦特都做过这样的事。所以，如果你对一个别人认为已经枯竭的领域感兴趣，不要让他们的怀疑阻碍你。人们在这件事上经常看走眼。"
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "1f30661df1a7d490073708caa72da104801292f52fa5b14a933f5a6ff6279eaf",
+      "enMarkdown": "Working on an unfashionable problem can be very pleasing. There's no hype or hurry. Opportunists and critics are both occupied elsewhere. The existing work often has an old-school solidity. And there's a satisfying sense of economy in cultivating ideas that would otherwise be wasted.",
+      "zhMarkdown": "研究一个不受欢迎的问题会让人非常愉悦。这里没有炒作，也没有催促。投机分子和批评家都忙于别处。现有的研究往往有一种老派的扎实感。而且，去耕耘那些否则会被浪费掉的想法，会带来一种令人满足的精简感。"
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "febe386c1d44523e05e174c50295b639d40f3683c588a5ad5d938be62cac3c1a",
+      "enMarkdown": "But the most common type of overlooked problem is not explicitly unfashionable in the sense of being out of fashion. It just doesn't seem to matter as much as it actually does. How do you find these? By being self-indulgent — by letting your curiosity have its way, and tuning out, at least temporarily, the little voice in your head that says you should only be working on \"important\" problems.",
+      "zhMarkdown": "但最常见的被忽视的问题，并不是那种字面意义上过时的、不受欢迎的问题。它只是看起来没有它实际上那么重要。你如何找到这些问题？通过放任自己——让你的好奇心信马由缰，并在至少一段时间内，关掉脑子里那个告诉你应该只研究“重要”问题的声音。"
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "5e15e30a6515106a4250f0042be52fdee53b8f9bbad792ec76b30feb8d7c2491",
+      "enMarkdown": "You do need to work on important problems, but almost everyone is too conservative about what counts as one. And if there's an important but overlooked problem in your neighborhood, it's probably already on your subconscious radar screen. So try asking yourself: if you were going to take a break from \"serious\" work to work on something just because it would be really interesting, what would you do? The answer is probably more important than it seems.",
+      "zhMarkdown": "你确实需要研究重要的问题，但几乎每个人在衡量什么才算“重要”时都过于保守。如果你身边有一个重要但被忽视的问题，它很可能已经出现在你潜意识的雷达屏幕上了。所以，试着问问自己：如果你要从“严肃”的工作中抽身出来，仅仅因为一件事非常有趣而去研究它，你会做什么？答案很可能比它看起来更重要。"
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "sourceHash": "7556ec9ba452dc2e66b302dd1cddbf167d2b1fbfeb4cc2874709dcbd043c5f07",
+      "enMarkdown": "Originality in choosing problems seems to matter even more than originality in solving them. That's what distinguishes the people who discover whole new fields. So what might seem to be merely the initial step — deciding what to work on — is in a sense the key to the whole game.",
+      "zhMarkdown": "在选择问题上的原创性，似乎比在解决问题上的原创性还要重要。这就是区分出那些开辟全新领域的人的关键所在。因此，这个看似只是初始步骤的环节——决定做什么工作——在某种意义上是整个游戏的关键。"
+    },
+    {
+      "id": 120,
+      "type": "paragraph",
+      "sourceHash": "f9ad528929e94934eedc19f953ffc03d17053bf5239202ae1b6d49dd01c954be",
+      "enMarkdown": "Few grasp this. One of the biggest misconceptions about new ideas is about the ratio of question to answer in their composition. People think big ideas are answers, but often the real insight was in the question.",
+      "zhMarkdown": "很少有人能理解这一点。关于新想法，最大的误解之一在于“问题”与“答案”在其中的比例。人们认为伟大的想法就是答案，但往往真正的洞察在于问题本身。"
+    },
+    {
+      "id": 121,
+      "type": "paragraph",
+      "sourceHash": "eae806643fbcd2ea06f919e78c402307608afbdcd1da5d8cced80f1e4566745b",
+      "enMarkdown": "Part of the reason we underrate questions is the way they're used in schools. In schools they tend to exist only briefly before being answered, like unstable particles. But a really good question can be much more than that. A really good question is a partial discovery. How do new species arise? Is the force that makes objects fall to earth the same as the one that keeps planets in their orbits? By even asking such questions you were already in excitingly novel territory.",
+      "zhMarkdown": "我们低估问题的一部分原因，在于学校使用它们的方式。在学校里，问题往往转瞬即逝，像不稳定的粒子一样立刻被解答。但一个真正优秀的问题可以远不止于此。一个真正优秀的问题本身就是半个发现。物种是如何起源的？让物体落向地面的力，和让行星保持在轨道上的力，是同一种力吗？仅仅通过提出这些问题，你其实就已经踏入了令人兴奋的全新领域。"
+    },
+    {
+      "id": 122,
+      "type": "paragraph",
+      "sourceHash": "2a569b994ab07849dcdfe7d2ca40ac12c1ddb3f4febbffa33e34828163a58a73",
+      "enMarkdown": "Unanswered questions can be uncomfortable things to carry around with you. But the more you're carrying, the greater the chance of noticing a solution — or perhaps even more excitingly, noticing that two unanswered questions are the same.",
+      "zhMarkdown": "怀揣着未解答的问题可能会让人感到不安。但你怀揣得越多，注意到解决方案的机会就越大——或者更令人兴奋的是，你会注意到两个未解答的问题实际上是同一个。"
+    },
+    {
+      "id": 123,
+      "type": "paragraph",
+      "sourceHash": "4cf16f8c2adad61a172829f1709c9f8a91c1c27b7268a2c55e408d3dd712269c",
+      "enMarkdown": "Sometimes you carry a question for a long time. Great work often comes from returning to a question you first noticed years before — in your childhood, even — and couldn't stop thinking about. People talk a lot about the importance of keeping your youthful dreams alive, but it's just as important to keep your youthful questions alive. [[19](#f19n)]",
+      "zhMarkdown": "有时，你会把一个问题揣在身上很久。杰出的成就往往源于重新回到你多年前——甚至在童年时——就注意到且无法停止思考的问题。人们常说保持年轻时的梦想有多重要，但保持年轻时的问题也同样重要。[[19](#f19n)]"
+    },
+    {
+      "id": 124,
+      "type": "paragraph",
+      "sourceHash": "1cc90f44de96676cac7cbc80993c896d2ae4e02bbb8c6f1e46ac3d1604aaf77d",
+      "enMarkdown": "This is one of the places where actual expertise differs most from the popular picture of it. In the popular picture, experts are certain. But actually the more puzzled you are, the better, so long as (a) the things you're puzzled about matter, and (b) no one else understands them either.",
+      "zhMarkdown": "这是真正的专业知识与大众印象差异最大的地方之一。在大众印象中，专家是笃定的。但实际上，你越是感到困惑越好，只要 (a) 你困惑的事情很重要，并且 (b) 别人也同样不理解它。"
+    },
+    {
+      "id": 125,
+      "type": "paragraph",
+      "sourceHash": "73ab37ae03f6798adfc2b3622c3d05ff21e1e6890a6a992cca5189b31fa75b9a",
+      "enMarkdown": "Think about what's happening at the moment just before a new idea is discovered. Often someone with sufficient expertise is puzzled about something. Which means that originality consists partly of puzzlement — of confusion! You have to be comfortable enough with the world being full of puzzles that you're willing to see them, but not so comfortable that you don't want to solve them. [[20](#f20n)]",
+      "zhMarkdown": "想想在新想法被发现的前一刻正在发生什么。通常，一个拥有足够专业知识的人正在对某件事感到困惑。这意味着原创性在一定程度上是由困惑——甚至是混乱组成的！你必须对这个世界充满了谜题感到足够自在，以至于你乐于看到它们，但又不能自在到不想去解决它们的地步。[[20](#f20n)]"
+    },
+    {
+      "id": 126,
+      "type": "paragraph",
+      "sourceHash": "2150f0d4daa01856fe90d307eb7bd49671191471f913618d925c5dfaa4365b2f",
+      "enMarkdown": "It's a great thing to be rich in unanswered questions. And this is one of those situations where the rich get richer, because the best way to acquire new questions is to try answering existing ones. Questions don't just lead to answers, but also to more questions.",
+      "zhMarkdown": "拥有一大堆未解答的问题是一件极好的财富。而且在这种情况里，富人会变得更富，因为获取新问题的最好方法就是试着去解答现有的问题。问题不仅会带来答案，还会带来更多的问题。"
+    },
+    {
+      "id": 127,
+      "type": "paragraph",
+      "sourceHash": "054b992d515fda449dd5e287645ba7ea12cbc1aea45757add16da857eacca940",
+      "enMarkdown": "The best questions grow in the answering. You notice a thread protruding from the current paradigm and try pulling on it, and it just gets longer and longer. So don't require a question to be obviously big before you try answering it. You can rarely predict that. It's hard enough even to notice the thread, let alone to predict how much will unravel if you pull on it.",
+      "zhMarkdown": "最好的问题在解答的过程中不断生长。你注意到现有范式中露出来的一根线头，试着拉了拉，结果它越拉越长。所以，在尝试解答一个问题之前，不要要求它必须显而易见地宏大。你很难预料到这一点。光是注意到那根线头就已经够难了，更不用说预测拉动它会扯出多少东西了。"
+    },
+    {
+      "id": 128,
+      "type": "paragraph",
+      "sourceHash": "e0f7937e6b08a794ced1e3ca05d910ac7a11d10f8ad21b258200e86b73d79ab2",
+      "enMarkdown": "It's better to be promiscuously curious — to pull a little bit on a lot of threads, and see what happens. Big things start small. The initial versions of big things were often just experiments, or side projects, or talks, which then grew into something bigger. So start lots of small things.",
+      "zhMarkdown": "最好保持广泛的好奇心——在很多线头上都拉一拉，看看会发生什么。伟大的事业往往始于微末。伟大之物的最初版本往往只是实验、业余项目或一次演讲，然后逐渐壮大。所以，多启动一些微小的尝试。"
+    },
+    {
+      "id": 129,
+      "type": "paragraph",
+      "sourceHash": "4e630f71edfa01e004d9eb362d735d5aaa15b4a14ced970124c03b7e9565104b",
+      "enMarkdown": "Being prolific is underrated. The more different things you try, the greater the chance of discovering something new. Understand, though, that trying lots of things will mean trying lots of things that don't work. You can't have a lot of good ideas without also having a lot of bad ones. [[21](#f21n)]",
+      "zhMarkdown": "高产的价值被低估了。你尝试的不同事物越多，发现新事物的机会就越大。不过要明白，尝试很多事物意味着会尝试很多行不通的事。不产生大量的坏主意，你就无法获得大量的好主意。[[21](#f21n)]"
+    },
+    {
+      "id": 130,
+      "type": "paragraph",
+      "sourceHash": "3f9aa0506f1622ac30d2abd2660c66ff6093d76b5aa4cd09b8563f0f530932e7",
+      "enMarkdown": "Though it sounds more responsible to begin by studying everything that's been done before, you'll learn faster and have more fun by trying stuff. And you'll understand previous work better when you do look at it. So err on the side of starting. Which is easier when starting means starting small; those two ideas fit together like two puzzle pieces.",
+      "zhMarkdown": "虽然先研究前人做过的所有工作听起来更负责任，但通过亲自动手尝试，你会学得更快、玩得更开心。而且当你真的回头去看前人的工作时，你会理解得更透彻。所以，请偏向于立刻开始。当“开始”意味着“从小处着手”时，这就容易多了；这两个想法就像两块拼图一样完美契合。"
+    },
+    {
+      "id": 131,
+      "type": "paragraph",
+      "sourceHash": "5c8a0af4dbdb090b6a8ee7d97a67708dc6c4b968c04b5ebe36e51e72191f7710",
+      "enMarkdown": "How do you get from starting small to doing something great? By making successive versions. Great things are almost always made in successive versions. You start with something small and evolve it, and the final version is both cleverer and more ambitious than anything you could have planned.",
+      "zhMarkdown": "你如何从小处着手，最终做出伟大的成就？通过不断迭代。伟大的事物几乎都是在连续的版本迭代中做出来的。你从小事做起，让它演化，最终的版本会比你原本能规划出的任何东西都更聪明、更宏大。"
+    },
+    {
+      "id": 132,
+      "type": "paragraph",
+      "sourceHash": "eb0fcada76fbfa453f3f31bdf7a9db1580f5f256737532b6d94a184faeef8b94",
+      "enMarkdown": "It's particularly useful to make successive versions when you're making something for people — to get an initial version in front of them quickly, and then evolve it based on their response.",
+      "zhMarkdown": "当你在为人们创造东西时，制作连续的版本尤其有用——迅速把一个初始版本放到他们面前，然后根据他们的反馈进行演化。"
+    },
+    {
+      "id": 133,
+      "type": "paragraph",
+      "sourceHash": "d00d94b635f24a01f04cab4ab00d22cb9f8358627d4d28963e201d0b07b6dd18",
+      "enMarkdown": "Begin by trying the simplest thing that could possibly work. Surprisingly often, it does. If it doesn't, this will at least get you started.",
+      "zhMarkdown": "从尝试可能行得通的最简单的事情开始。令人惊讶的是，它经常能行得通。如果行不通，这至少能让你起步。"
+    },
+    {
+      "id": 134,
+      "type": "paragraph",
+      "sourceHash": "bb02a8c1ef5b674466a6d122d3c06f36297a99c58ca52080869f1a36a484639a",
+      "enMarkdown": "Don't try to cram too much new stuff into any one version. There are names for doing this with the first version (taking too long to ship) and the second (the second system effect), but these are both merely instances of a more general principle.",
+      "zhMarkdown": "不要试图在任何一个版本中塞入太多新东西。在第一个版本中这样做（导致耗时太长无法发布）和在第二个版本中这样做（第二系统效应）都有专门的称呼，但它们其实都只是一个更普遍原则的体现。"
+    },
+    {
+      "id": 135,
+      "type": "paragraph",
+      "sourceHash": "972f33a22046eb05f7e0b4900262dcbfc72183d6034727123bdfcc6a4bfc7956",
+      "enMarkdown": "An early version of a new project will sometimes be dismissed as a toy. It's a good sign when people do this. That means it has everything a new idea needs except scale, and that tends to follow. [[22](#f22n)]",
+      "zhMarkdown": "一个新项目的早期版本有时会被贬低为“玩具”。人们这么做是一个好兆头。这意味着它拥有一个新创意所需的一切，除了规模，而规模往往会随之而来。[[22](#f22n)]"
+    },
+    {
+      "id": 136,
+      "type": "paragraph",
+      "sourceHash": "63acce57a9fec3dc5755b82639573eb4e07182b7fc79272be8450b733c087741",
+      "enMarkdown": "The alternative to starting with something small and evolving it is to plan in advance what you're going to do. And planning does usually seem the more responsible choice. It sounds more organized to say \"we're going to do x and then y and then z\" than \"we're going to try x and see what happens.\" And it is more *organized*; it just doesn't work as well.",
+      "zhMarkdown": "与“从小处着手并不断演化”相对立的选择，是提前规划好你要做的一切。规划通常看起来是更负责任的选择。说“我们要先做 X，再做 Y，最后做 Z”听起来比“我们先试试 X，看看会发生什么”显得更有条理。它确实更**有条理**，只是效果没那么好。"
+    },
+    {
+      "id": 137,
+      "type": "paragraph",
+      "sourceHash": "6a9b68b6162dfc29a511df3fd3a8472fc9a107a91973d49d79f63ab3e5788c26",
+      "enMarkdown": "Planning per se isn't good. It's sometimes necessary, but it's a necessary evil — a response to unforgiving conditions. It's something you have to do because you're working with inflexible media, or because you need to coordinate the efforts of a lot of people. If you keep projects small and use flexible media, you don't have to plan as much, and your designs can evolve instead.",
+      "zhMarkdown": "规划本身并不是什么好事。它有时是必要的，但它是一种必要的恶——是对严苛环境的妥协。你必须这样做，是因为你使用的是缺乏弹性的媒介，或者是因为你需要协调大量人员的努力。如果你保持项目的小规模并使用灵活的媒介，你就不需要做太多规划，你的设计反而可以随之演化。"
+    },
+    {
+      "id": 138,
+      "type": "paragraph",
+      "sourceHash": "7e8e7abb2d83110e65bfd2fff4e8b9d3043703caa9a3f506be8cdff95aeca1b4",
+      "enMarkdown": "Take as much risk as you can afford. In an efficient market, risk is proportionate to reward, so don't look for certainty, but for a bet with high expected value. If you're not failing occasionally, you're probably being too conservative.",
+      "zhMarkdown": "承担你能承受的最大风险。在一个有效市场中，风险与回报是成正比的，所以不要寻找确定性，而要寻找具有高期望值的赌注。如果你偶尔没有遭遇失败，说明你可能过于保守了。"
+    },
+    {
+      "id": 139,
+      "type": "paragraph",
+      "sourceHash": "32980d57958706680674fbe0804dac8e61986d8e1fad9dee71c1b415c179d371",
+      "enMarkdown": "Though conservatism is usually associated with the old, it's the young who tend to make this mistake. Inexperience makes them fear risk, but it's when you're young that you can afford the most.",
+      "zhMarkdown": "虽然保守通常与年长联系在一起，但往往是年轻人最容易犯这个错误。缺乏经验让他们害怕风险，但年轻恰恰是你最输得起的时候。"
+    },
+    {
+      "id": 140,
+      "type": "paragraph",
+      "sourceHash": "9bb16ae88124274143394635525a545d7d0e1f6c44c70ec8645240d2e022e8c8",
+      "enMarkdown": "Even a project that fails can be valuable. In the process of working on it, you'll have crossed territory few others have seen, and encountered questions few others have asked. And there's probably no better source of questions than the ones you encounter in trying to do something slightly too hard.",
+      "zhMarkdown": "即使是一个失败的项目也是有价值的。在为之努力的过程中，你将跨越很少有人见过的领地，遇到很少有人提出过的问题。而且，要想获得好问题，大概没有比“试图去做一件难度略超出你能力的事情”更好的来源了。"
+    },
+    {
+      "id": 141,
+      "type": "paragraph",
+      "sourceHash": "e76d3d46705ed2ba2f03b4a7e2afe19ce4807b5346e3f4c60862cd9659e8ff6d",
+      "enMarkdown": "Use the advantages of youth when you have them, and the advantages of age once you have those. The advantages of youth are energy, time, optimism, and freedom. The advantages of age are knowledge, efficiency, money, and power. With effort you can acquire some of the latter when young and keep some of the former when old.",
+      "zhMarkdown": "在拥有年轻优势的时候利用年轻，在拥有年长优势的时候利用年长。年轻的优势是精力、时间、乐观和自由。年长的优势是知识、效率、金钱和权力。通过努力，你可以在年轻时获得一些后者的优势，并在年老时保留一些前者的优势。"
+    },
+    {
+      "id": 142,
+      "type": "paragraph",
+      "sourceHash": "e8739d292f751c7c329be7100543046b26c8aa8c243b7ce237711fdb25f2e72a",
+      "enMarkdown": "The old also have the advantage of knowing which advantages they have. The young often have them without realizing it. The biggest is probably time. The young have no idea how rich they are in time. The best way to turn this time to advantage is to use it in slightly frivolous ways: to learn about something you don't need to know about, just out of curiosity, or to try building something just because it would be cool, or to become freakishly good at something.",
+      "zhMarkdown": "年长者还有一个优势，就是知道自己拥有哪些优势。年轻人往往拥有优势却不自知。其中最大的优势大概就是时间。年轻人根本不知道自己在时间上有多么富有。将这段时间转化为优势的最好方法，就是以略显轻浮的方式去使用它：仅仅出于好奇去学习你不需要知道的东西，或者仅仅因为好玩去尝试构建一些东西，或者在某件事上变得极其擅长。"
+    },
+    {
+      "id": 143,
+      "type": "paragraph",
+      "sourceHash": "d247e6d20afcf89094887d3808e35742fcc87c105e37a8a583206c10ada99068",
+      "enMarkdown": "That \"slightly\" is an important qualification. Spend time lavishly when you're young, but don't simply waste it. There's a big difference between doing something you worry might be a waste of time and doing something you know for sure will be. The former is at least a bet, and possibly a better one than you think. [[23](#f23n)]",
+      "zhMarkdown": "那个“略显”是一个重要的限定词。年轻时可以慷慨地花时间，但不要单纯地浪费它。做一件你担心可能是在浪费时间的事，和做一件你确信是在浪费时间的事，这两者之间有很大的区别。前者至少是一次赌博，而且可能是一个比你想象的更好的赌注。[[23](#f23n)]"
+    },
+    {
+      "id": 144,
+      "type": "paragraph",
+      "sourceHash": "f2595f244630d69f3d53167f1442ffced9f28ead58b9c46f3947b7b57670ba7e",
+      "enMarkdown": "The most subtle advantage of youth, or more precisely of inexperience, is that you're seeing everything with fresh eyes. When your brain embraces an idea for the first time, sometimes the two don't fit together perfectly. Usually the problem is with your brain, but occasionally it's with the idea. A piece of it sticks out awkwardly and jabs you when you think about it. People who are used to the idea have learned to ignore it, but you have the opportunity not to. [[24](#f24n)]",
+      "zhMarkdown": "年轻（或者更准确地说是缺乏经验）最微妙的优势在于，你是在用全新的眼光看待一切。当你的大脑第一次接纳一个想法时，有时两者并不能完美契合。通常问题出在你的大脑，但偶尔问题出在想法本身。它的一部分别扭地凸出来，当你思考它时会刺痛你。习惯了这个想法的人已经学会了忽视它，但你却有机会不这么做。[[24](#f24n)]"
+    },
+    {
+      "id": 145,
+      "type": "paragraph",
+      "sourceHash": "428cbfd6d3c0c5a80a9a406d7b7cb2e6ebb75a47a14851531dff9ed758638888",
+      "enMarkdown": "So when you're learning about something for the first time, pay attention to things that seem wrong or missing. You'll be tempted to ignore them, since there's a 99% chance the problem is with you. And you may have to set aside your misgivings temporarily to keep progressing. But don't forget about them. When you've gotten further into the subject, come back and check if they're still there. If they're still viable in the light of your present knowledge, they probably represent an undiscovered idea.",
+      "zhMarkdown": "所以，当你第一次学习某件事时，注意那些看起来不对劲或缺失的地方。你会忍不住忽略它们，因为有 99% 的概率问题出在你自己身上。你可能不得不暂时搁置你的疑虑以继续前进。但不要忘记它们。当你在这个学科中走得更远时，回头看看它们是否还在。如果它们在你目前的知识水平下依然成立，它们很可能代表着一个未被发现的想法。"
+    },
+    {
+      "id": 146,
+      "type": "paragraph",
+      "sourceHash": "85c0ad99cdfef30b0554f2ef84e020403ecce4f65bffa83dfba261baab8dc2e3",
+      "enMarkdown": "One of the most valuable kinds of knowledge you get from experience is to know what you *don't* have to worry about. The young know all the things that could matter, but not their relative importance. So they worry equally about everything, when they should worry much more about a few things and hardly at all about the rest.",
+      "zhMarkdown": "你从经验中获得的最宝贵的知识之一，就是知道自己**不**用担心什么。年轻人知道所有可能重要的事情，但不知道它们的相对重要性。所以他们对所有事情都同等程度地焦虑，而实际上他们应该对少数几件事加倍担心，而对剩下的事情几乎完全不在乎。"
+    },
+    {
+      "id": 147,
+      "type": "paragraph",
+      "sourceHash": "2e5153944c698102656bb316f44c5493e2745da9e6df5253673259ca3837c6d1",
+      "enMarkdown": "But what you don't know is only half the problem with inexperience. The other half is what you do know that ain't so. You arrive at adulthood with your head full of nonsense — bad habits you've acquired and false things you've been taught — and you won't be able to do great work till you clear away at least the nonsense in the way of whatever type of work you want to do.",
+      "zhMarkdown": "但你不知道的事只是缺乏经验带来的半个问题。另一半问题是那些你自以为知道、其实不然的事。你步入成年时，脑子里塞满了胡言乱语——你习得的坏习惯和被灌输的谬误——在清除这些障碍之前，你无法在你想做的任何工作上做出杰出的成就。"
+    },
+    {
+      "id": 148,
+      "type": "paragraph",
+      "sourceHash": "30d6413c83063f03b81b28d44b52b02caa828643531f105150e3f59ed596f148",
+      "enMarkdown": "Much of the nonsense left in your head is left there by schools. We're so used to schools that we unconsciously treat going to school as identical with learning, but in fact schools have all sorts of strange qualities that warp our ideas about learning and thinking.",
+      "zhMarkdown": "你脑子里剩下的大部分胡言乱语是学校留下的。我们对学校太习以为常了，以至于无意识地把上学等同于学习，但实际上学校有各种奇怪的属性，扭曲了我们对学习和思考的看法。"
+    },
+    {
+      "id": 149,
+      "type": "paragraph",
+      "sourceHash": "6a3968d51226fb7033776ff09a3a349e949916e3ff31eeea354209ad65d185e5",
+      "enMarkdown": "For example, schools induce passivity. Since you were a small child, there was an authority at the front of the class telling all of you what you had to learn and then measuring whether you did. But neither classes nor tests are intrinsic to learning; they're just artifacts of the way schools are usually designed.",
+      "zhMarkdown": "例如，学校诱导了被动性。从你还是个小孩子起，讲台前就有个权威告诉你必须学什么，然后衡量你学得怎么样。但课程和测试都不是学习的本质，它们只是学校通常设计方式的副产品。"
+    },
+    {
+      "id": 150,
+      "type": "paragraph",
+      "sourceHash": "0f640336e649ec89e3ec5698673274940d191eefa38e59854654098dccffe7b6",
+      "enMarkdown": "The sooner you overcome this passivity, the better. If you're still in school, try thinking of your education as your project, and your teachers as working for you rather than vice versa. That may seem a stretch, but it's not merely some weird thought experiment. It's the truth economically, and in the best case it's the truth intellectually as well. The best teachers don't want to be your bosses. They'd prefer it if you pushed ahead, using them as a source of advice, rather than being pulled by them through the material.",
+      "zhMarkdown": "你越早克服这种被动性越好。如果你还在上学，试着把你的教育看作你自己的项目，把你的老师看作是在为你工作，而不是相反。这听起来可能有点夸张，但它不仅不是什么奇怪的思想实验。在经济学意义上这是事实，在最好的情况下，在智识上也是事实。最好的老师不想当你的老板。他们更希望你主动向前推进，把他们当作建议的来源，而不是被他们拖着走完这些材料。"
+    },
+    {
+      "id": 151,
+      "type": "paragraph",
+      "sourceHash": "28097e59b9c912a1fd8ef33dec9b0b1744ea7f48b4e3f76b4c405bd468426b7c",
+      "enMarkdown": "Schools also give you a misleading impression of what work is like. In school they tell you what the problems are, and they're almost always soluble using no more than you've been taught so far. In real life you have to figure out what the problems are, and you often don't know if they're soluble at all.",
+      "zhMarkdown": "学校还给你留下了关于工作面貌的误导性印象。在学校里，他们告诉你问题是什么，而且这些问题几乎总是可以用你目前所学的知识来解决。在现实生活中，你必须自己弄清楚问题是什么，而且你经常不知道它们是否能被解决。"
+    },
+    {
+      "id": 152,
+      "type": "paragraph",
+      "sourceHash": "1be40ea2685441900493727bca21c1a9c6ab91aeb3a673dfd2453cd578b733d0",
+      "enMarkdown": "But perhaps the worst thing schools do to you is train you to win by hacking the test. You can't do great work by doing that. You can't trick God. So stop looking for that kind of shortcut. The way to beat the system is to focus on problems and solutions that others have overlooked, not to skimp on the work itself.",
+      "zhMarkdown": "但学校对你做的最糟糕的事，可能是训练你通过“钻考试空子”来赢得胜利。这样做是无法做出杰出成就的。你无法欺骗上帝。所以别再寻找那种捷径了。击败系统的正确方式是专注于他人忽视的问题和解决方案，而不是在工作本身上偷工减料。"
+    },
+    {
+      "id": 153,
+      "type": "paragraph",
+      "sourceHash": "7643a42b0816eb26a04377d8159ba8efaee783b38a51ab704e445a1c97f1038a",
+      "enMarkdown": "Don't think of yourself as dependent on some gatekeeper giving you a \"big break.\" Even if this were true, the best way to get it would be to focus on doing good work rather than chasing influential people.",
+      "zhMarkdown": "不要把自己看作是依赖于某个守门人给你“大好机会”的人。即使这是真的，获得机会的最佳方式也是专注于做好工作，而不是去追逐有影响力的人。"
+    },
+    {
+      "id": 154,
+      "type": "paragraph",
+      "sourceHash": "70f151222b17f4131155ad14fdfb92c0e95527b2b910fb8e9c52ffeeaf4e4128",
+      "enMarkdown": "And don't take rejection by committees to heart. The qualities that impress admissions officers and prize committees are quite different from those required to do great work. The decisions of selection committees are only meaningful to the extent that they're part of a feedback loop, and very few are.",
+      "zhMarkdown": "也不要把委员会的拒绝放在心上。打动招生官和奖项委员会的特质，与做出杰出成就所需的特质截然不同。选拔委员会的决定只有在它们是反馈回路的一部分时才有意义，而极少有委员会能做到这一点。"
+    },
+    {
+      "id": 155,
+      "type": "paragraph",
+      "sourceHash": "67f635e44bf8acb8ec1f7f3acfab78785da58a679917c00ffa052a8350b2ef92",
+      "enMarkdown": "People new to a field will often copy existing work. There's nothing inherently bad about that. There's no better way to learn how something works than by trying to reproduce it. Nor does copying necessarily make your work unoriginal. Originality is the presence of new ideas, not the absence of old ones.",
+      "zhMarkdown": "刚进入一个领域的人往往会模仿现有的作品。这本身并没有什么坏处。要想了解某样东西是如何运作的，没有比试着去复刻它更好的方法了。模仿也并不一定会让你的作品失去原创性。原创性是新想法的存在，而不是旧想法的不存在。"
+    },
+    {
+      "id": 156,
+      "type": "paragraph",
+      "sourceHash": "ec235bac1afb93f60c81d8b6a81f0d742f75ecf1f95fe74266b923592e26e781",
+      "enMarkdown": "There's a good way to copy and a bad way. If you're going to copy something, do it openly instead of furtively, or worse still, unconsciously. This is what's meant by the famously misattributed phrase \"Great artists steal.\" The really dangerous kind of copying, the kind that gives copying a bad name, is the kind that's done without realizing it, because you're nothing more than a train running on tracks laid down by someone else. But at the other extreme, copying can be a sign of superiority rather than subordination. [[25](#f25n)]",
+      "zhMarkdown": "模仿有好的方式，也有坏的方式。如果你要模仿某样东西，请公开地做，而不是偷偷摸摸，更糟糕的是无意识地做。这就是那句著名的、被错误归咎的名言“伟大的艺术家窃取”的真正含义。真正危险的模仿——也是让模仿背负恶名的那种——是无意识地进行，因为你只不过是跑在别人铺好的轨道上的一列火车。但在另一个极端，模仿可以是卓越而非顺从的标志。[[25](#f25n)]"
+    },
+    {
+      "id": 157,
+      "type": "paragraph",
+      "sourceHash": "ef2c7f7d533bc0d5b9a2e2e3fb81f1536cda36094c5d95d60bd51b3bef6da7ba",
+      "enMarkdown": "In many fields it's almost inevitable that your early work will be in some sense based on other people's. Projects rarely arise in a vacuum. They're usually a reaction to previous work. When you're first starting out, you don't have any previous work; if you're going to react to something, it has to be someone else's. Once you're established, you can react to your own. But while the former gets called derivative and the latter doesn't, structurally the two cases are more similar than they seem.",
+      "zhMarkdown": "在许多领域，你早期的作品在某种意义上基于他人的作品，这几乎是不可避免的。项目很少在真空中诞生。它们通常是对前人工作的反应。当你刚刚起步时，你没有任何前期的作品；如果你要对某些东西做出反应，那它必须是别人的。一旦你立足了，你就可以对自己的作品做出反应。虽然前者会被称为衍生，而后者不会，但从结构上看，这两种情况比它们表面上看起来更相似。"
+    },
+    {
+      "id": 158,
+      "type": "paragraph",
+      "sourceHash": "e0902f5e51ac077ffe5d4a43fac64d130c80e27c5b22e4bfb395da2d48e02f96",
+      "enMarkdown": "Oddly enough, the very novelty of the most novel ideas sometimes makes them seem at first to be more derivative than they are. New discoveries often have to be conceived initially as variations of existing things, *even by their discoverers*, because there isn't yet the conceptual vocabulary to express them.",
+      "zhMarkdown": "奇妙的是，最具有颠覆性的新创意，其极度的创新性有时反而会在最初让他们看起来更像衍生品。新发现往往在最初必须被构想为现有事物的变体，**甚至对它们的发现者来说也是如此**，因为当时还没有能够表达它们的词汇体系。"
+    },
+    {
+      "id": 159,
+      "type": "paragraph",
+      "sourceHash": "bd84752182a79e492b75b862454e59d37c618dc4c0ce7d183039ff82bc8e67b5",
+      "enMarkdown": "There are definitely some dangers to copying, though. One is that you'll tend to copy old things — things that were in their day at the frontier of knowledge, but no longer are.",
+      "zhMarkdown": "不过，模仿确实存在一些危险。一是你倾向于模仿旧事物——那些在当时处于知识前沿、但现在已经不再是前沿的事物。"
+    },
+    {
+      "id": 160,
+      "type": "paragraph",
+      "sourceHash": "6e64b45811dd54da2d0746dd10297ade6f8d3adab1727c48e7d17856f16a53e8",
+      "enMarkdown": "And when you do copy something, don't copy every feature of it. Some will make you ridiculous if you do. Don't copy the manner of an eminent 50 year old professor if you're 18, for example, or the idiom of a Renaissance poem hundreds of years later.",
+      "zhMarkdown": "当你真的模仿某样东西时，不要模仿它的每一个特征。有些特征如果模仿了会让你显得很滑稽。例如，如果你18岁，不要去模仿一个50岁卓越教授的做派，或者在几百年后去模仿文艺复兴时期诗歌的风格。"
+    },
+    {
+      "id": 161,
+      "type": "paragraph",
+      "sourceHash": "7273fd726ff3ada026efedddd16e13749eacfee9c45d0c0d32e16f8308872dd1",
+      "enMarkdown": "Some of the features of things you admire are flaws they succeeded despite. Indeed, the features that are easiest to imitate are the most likely to be the flaws.",
+      "zhMarkdown": "你所钦佩的事物的某些特征，其实是它们即便存在这些缺陷依然取得成功的缺陷。事实上，最容易被模仿的特征，往往最可能是那些缺陷。"
+    },
+    {
+      "id": 162,
+      "type": "paragraph",
+      "sourceHash": "c4b7d0dbf5daaadfb92f6ee8252de69bf158be52ce4dbadfe70c20c09866abbd",
+      "enMarkdown": "This is particularly true for behavior. Some talented people are jerks, and this sometimes makes it seem to the inexperienced that being a jerk is part of being talented. It isn't; being talented is merely how they get away with it.",
+      "zhMarkdown": "在行为举止上尤其如此。有些才华横溢的人是浑蛋，这有时会让没有经验的人觉得，当一个浑蛋是才华横溢的一部分。其实不然；才华横溢只是他们免受惩罚的通行证。"
+    },
+    {
+      "id": 163,
+      "type": "paragraph",
+      "sourceHash": "ec31379cff2a7b9282287279a163bb57930646f114cf9b553f70811372838798",
+      "enMarkdown": "One of the most powerful kinds of copying is to copy something from one field into another. History is so full of chance discoveries of this type that it's probably worth giving chance a hand by deliberately learning about other kinds of work. You can take ideas from quite distant fields if you let them be metaphors.",
+      "zhMarkdown": "最强大的一种模仿是把一个领域的东西复制到另一个领域。历史上充满了这种类型的偶然发现，因此值得通过主动去了解其他类型的工作，来给偶然性搭一把手。如果你把它们当作隐喻，你可以从极其遥远的领域汲取灵感。"
+    },
+    {
+      "id": 164,
+      "type": "paragraph",
+      "sourceHash": "782e52567cd312c8509e5ec833112f117bd202f0cae7197fad0c0eb76490e7d9",
+      "enMarkdown": "Negative examples can be as inspiring as positive ones. In fact you can sometimes learn more from things done badly than from things done well; sometimes it only becomes clear what's needed when it's missing.",
+      "zhMarkdown": "反面教材可以和正面榜样一样具有启发性。事实上，你有时能从做得糟糕的事情中，比从做得完美的事情中学到更多；有时，只有当某样东西缺失时，需要什么才变得清晰。"
+    },
+    {
+      "id": 165,
+      "type": "paragraph",
+      "sourceHash": "0c55696b3583e9586cc9abccb7a460818273004d0bc03e818c01199b7d93f8be",
+      "enMarkdown": "If a lot of the best people in your field are collected in one place, it's usually a good idea to visit for a while. It will increase your ambition, and also, by showing you that these people are human, increase your self-confidence. [[26](#f26n)]",
+      "zhMarkdown": "如果你所处领域中许多最优秀的人都聚集在同一个地方，去那里探访一段时间通常是个好主意。这会激发你的野心，而且，通过让你看到这些人也是凡人，会增加你的自信心。[[26](#f26n)]"
+    },
+    {
+      "id": 166,
+      "type": "paragraph",
+      "sourceHash": "04107585177f92d7e23919dc0d68162de1338e24c69dc46c17121b305da7614a",
+      "enMarkdown": "If you're earnest you'll probably get a warmer welcome than you might expect. Most people who are very good at something are happy to talk about it with anyone who's genuinely interested. If they're really good at their work, then they probably have a hobbyist's interest in it, and hobbyists always want to talk about their hobbies.",
+      "zhMarkdown": "如果你足够真挚，你可能会受到比预期更热情的欢迎。大多数在某件事上非常擅长的人，都乐于与任何真正感兴趣的人交流。如果他们真的热爱自己的工作，那么他们很可能对此保持着一种业余爱好者的兴趣，而业余爱好者总是想聊聊他们的爱好。"
+    },
+    {
+      "id": 167,
+      "type": "paragraph",
+      "sourceHash": "a99611f8fe3b20ecc7033fac119b4b3e04e752424dce2465694382bcf6f27207",
+      "enMarkdown": "It may take some effort to find the people who are really good, though. Doing great work has such prestige that in some places, particularly universities, there's a polite fiction that everyone is engaged in it. And that is far from true. People within universities can't say so openly, but the quality of the work being done in different departments varies immensely. Some departments have people doing great work; others have in the past; others never have.",
+      "zhMarkdown": "不过，寻找真正优秀的人可能需要付出一些努力。做出杰出的成就具有如此高的声望，以至于在某些地方，特别是在大学里，存在一种体面的虚构，即每个人都在致力于此。而事实远非如此。大学里的人不能公开这么说，但不同院系的研究质量差异巨大。有些院系有正在做出杰出成就的人；有些院系过去有过；有些则从未有过。"
+    },
+    {
+      "id": 168,
+      "type": "paragraph",
+      "sourceHash": "783e7a35a0bf4544234f5b8e3bae87a71c02353cce24f7d773d0f4ee6bab868d",
+      "enMarkdown": "Seek out the best colleagues. There are a lot of projects that can't be done alone, and even if you're working on one that can be, it's good to have other people to encourage you and to bounce ideas off.",
+      "zhMarkdown": "寻找最优秀的同行。有许多项目是无法独自完成的，即使你正在做的是一个可以独立完成的项目，有其他人来鼓励你、与你碰撞想法也是极好的。"
+    },
+    {
+      "id": 169,
+      "type": "paragraph",
+      "sourceHash": "3d3315aaf69fb06c6c23e25d232a844c1399a889a42657966d1f9cb2b73d7d15",
+      "enMarkdown": "Colleagues don't just affect your work, though; they also affect you. So work with people you want to become like, because you will.",
+      "zhMarkdown": "不过，同行不仅会影响你的工作，他们还会影响你。所以，和你想成为的那种人一起工作，因为你最终会变得和他们一样。"
+    },
+    {
+      "id": 170,
+      "type": "paragraph",
+      "sourceHash": "fcd0f4323083729b57385e914b8b30419cbc96b4801d0fbc12191c4a18d942fa",
+      "enMarkdown": "Quality is more important than quantity in colleagues. It's better to have one or two great ones than a building full of pretty good ones. In fact it's not merely better, but necessary, judging from history: the degree to which great work happens in clusters suggests that one's colleagues often make the difference between doing great work and not.",
+      "zhMarkdown": "在同行中，质量比数量更重要。拥有一两个顶尖的伙伴，比拥有一整栋楼还不错的同事要好得多。事实上，从历史上看，这不仅更好，而且是必须的：杰出成就往往成群扎堆出现，这表明同行往往是决定你是否能做出杰出成就的关键因素。"
+    },
+    {
+      "id": 171,
+      "type": "paragraph",
+      "sourceHash": "b06e419832a25e75ff6cf529d1b2edeb9a949051b63d1c7f26b27e911e53a55a",
+      "enMarkdown": "How do you know when you have sufficiently good colleagues? In my experience, when you do, you know. Which means if you're unsure, you probably don't. But it may be possible to give a more concrete answer than that. Here's an attempt: sufficiently good colleagues offer *surprising* insights. They can see and do things that you can't. So if you have a handful of colleagues good enough to keep you on your toes in this sense, you're probably over the threshold.",
+      "zhMarkdown": "你如何知道自己拥有了足够好的同行？在我的经验中，当你拥有时，你自然会知道。这意味着如果你不确定，你可能还没有拥有。但或许可以给出一个更具体的答案。这里有一个尝试：足够优秀的同行能提供**令人惊讶**的洞见。他们能看到并做到你做不到的事。所以，如果你有几位同行，好到能在这种意义上让你保持警醒，你大概就已经跨过了门槛。"
+    },
+    {
+      "id": 172,
+      "type": "paragraph",
+      "sourceHash": "699a2b84b66096841d29065576e2c55ef9413158d36f2211ff10c18c1f1f0050",
+      "enMarkdown": "Most of us can benefit from collaborating with colleagues, but some projects require people on a larger scale, and starting one of those is not for everyone. If you want to run a project like that, you'll have to become a manager, and managing well takes aptitude and interest like any other kind of work. If you don't have them, there is no middle path: you must either force yourself to learn management as a second language, or avoid such projects. [[27](#f27n)]",
+      "zhMarkdown": "我们大多数人都能从与同行的合作中受益，但有些项目需要更大规模的人员，而启动这样的项目并不适合每个人。如果你想运行这样一个项目，你必须成为一名管理者，而管理好需要天赋和兴趣，就像任何其他类型的工作一样。如果你不具备这些，就没有折中之路：你必须要么强迫自己把管理学当作第二语言来学习，要么避开此类项目。[[27](#f27n)]"
+    },
+    {
+      "id": 173,
+      "type": "paragraph",
+      "sourceHash": "939282f1f6e674ea549684b3d57708f05416eb3a1cb7e7d5613723b9775ad06f",
+      "enMarkdown": "Husband your morale. It's the basis of everything when you're working on ambitious projects. You have to nurture and protect it like a living organism.",
+      "zhMarkdown": "精心呵护你的士气。当你致力于宏伟的项目时，它是万物之本。你必须像对待一个活着的生命一样去滋养和保护它。"
+    },
+    {
+      "id": 174,
+      "type": "paragraph",
+      "sourceHash": "cce9070f31f91fabfc85e18206b31725852f9c2fe0c82c037764c1b696fd44df",
+      "enMarkdown": "Morale starts with your view of life. You're more likely to do great work if you're an optimist, and more likely to if you think of yourself as lucky than if you think of yourself as a victim.",
+      "zhMarkdown": "士气始于你对人生的看法。如果你是个乐观主义者，你更有可能做出杰出的成就；如果你认为自己是幸运的，而不是认为自己是个受害者，你更有可能做到这一点。"
+    },
+    {
+      "id": 175,
+      "type": "paragraph",
+      "sourceHash": "baf01f1b159afd9ca8dff3118d143d2167207d4596d34935751dfb65266291ad",
+      "enMarkdown": "Indeed, work can to some extent protect you from your problems. If you choose work that's pure, its very difficulties will serve as a refuge from the difficulties of everyday life. If this is escapism, it's a very productive form of it, and one that has been used by some of the greatest minds in history.",
+      "zhMarkdown": "事实上，工作在一定程度上可以保护你免受生活问题的困扰。如果你选择的工作足够纯粹，它本身的困难将成为避开日常生活烦恼的避风港。如果这是逃避现实，那它也是一种极具创造力的逃避方式，历史上一些最伟大的思想家都曾使用过它。"
+    },
+    {
+      "id": 176,
+      "type": "paragraph",
+      "sourceHash": "334e932a5361bd57e18afe47f8e0d36782a365dc6fd3ce34f935fb1efd7c0256",
+      "enMarkdown": "Morale compounds via work: high morale helps you do good work, which increases your morale and helps you do even better work. But this cycle also operates in the other direction: if you're not doing good work, that can demoralize you and make it even harder to. Since it matters so much for this cycle to be running in the right direction, it can be a good idea to switch to easier work when you're stuck, just so you start to get something done.",
+      "zhMarkdown": "士气会通过工作产生复利：高昂的士气帮助你做好工作，这会提高你的士气，帮助你做得更好。但这个循环也会反向运行：如果你工作做得不好，这会让你沮丧，让你更难做好。既然这个循环朝哪个方向运行如此重要，那么当你卡住时，转向更容易的工作可能是一个好主意，仅仅是为了开始做成一些事情。"
+    },
+    {
+      "id": 177,
+      "type": "paragraph",
+      "sourceHash": "185217512753d2f37a85e04ffa578d5750bb208a7ff4c5fcb313e727e5c08681",
+      "enMarkdown": "One of the biggest mistakes ambitious people make is to allow setbacks to destroy their morale all at once, like a balloon bursting. You can inoculate yourself against this by explicitly considering setbacks a part of your process. Solving hard problems always involves some backtracking.",
+      "zhMarkdown": "有野心的人犯下的最大错误之一，就是让挫折像气球爆炸一样，瞬间摧毁他们的士气。你可以通过明确地将挫折视为你工作过程的一部分，来让自己对此免疫。解决难题总是伴随着某种程度的倒退。"
+    },
+    {
+      "id": 178,
+      "type": "paragraph",
+      "sourceHash": "d33e6d3fa24ce144e098eef8d2b8c8d0d8d130277fca2e5d7f370bb116d1f49f",
+      "enMarkdown": "Doing great work is a depth-first search whose root node is the desire to. So \"If at first you don't succeed, try, try again\" isn't quite right. It should be: If at first you don't succeed, either try again, or backtrack and then try again.",
+      "zhMarkdown": "做出杰出的成就是一种深度优先的搜索，其根节点是做的愿望。所以“如果一开始你没有成功，尝试，再尝试”并不完全正确。它应该是：如果一开始你没有成功，要么再试一次，要么回溯，然后尝试别的。"
+    },
+    {
+      "id": 179,
+      "type": "paragraph",
+      "sourceHash": "b51ff563e57ba489f41b546f7c019cbfa4578009d5b230e8959f53062b1b32f7",
+      "enMarkdown": "\"Never give up\" is also not quite right. Obviously there are times when it's the right choice to eject. A more precise version would be: Never let setbacks panic you into backtracking more than you need to. Corollary: Never abandon the root node.",
+      "zhMarkdown": "“永不放弃”也不完全正确。显然，有时退出是正确的选择。一个更精确的版本应该是：永远不要让挫折让你惊慌失措地回溯得比你需要的多。推论：永远不要放弃根节点。"
+    },
+    {
+      "id": 180,
+      "type": "paragraph",
+      "sourceHash": "c771f16d30cab227ea1dd37edc746d1aae003783fe72cdec2eaca6e951a4ba12",
+      "enMarkdown": "It's not necessarily a bad sign if work is a struggle, any more than it's a bad sign to be out of breath while running. It depends how fast you're running. So learn to distinguish good pain from bad. Good pain is a sign of effort; bad pain is a sign of damage.",
+      "zhMarkdown": "工作是个挣扎的过程并不一定是坏兆头，就像跑步时气喘吁吁并不一定是坏兆头一样。这取决于你跑得多快。所以，学会区分良性的痛苦和恶性的痛苦。良性的痛苦是努力的标志；恶性的痛苦是受损的信号。"
+    },
+    {
+      "id": 181,
+      "type": "paragraph",
+      "sourceHash": "b1e75c423fb5740a8921c57f521bc9c2033cf16721d8b4bd214dbc19a422176d",
+      "enMarkdown": "An audience is a critical component of morale. If you're a scholar, your audience may be your peers; in the arts, it may be an audience in the traditional sense. Either way it doesn't need to be big. The value of an audience doesn't grow anything like linearly with its size. Which is bad news if you're famous, but good news if you're just starting out, because it means a small but dedicated audience can be enough to sustain you. If a handful of people genuinely love what you're doing, that's enough.",
+      "zhMarkdown": "受众是士气的重要组成部分。如果你是个学者，你的受众可能是你的同行；在艺术领域，它可能是传统意义上的观众。无论哪种方式，它都不需要很大。受众的价值增长与它的规模绝不是线性关系。如果你已经成名，这是个坏消息，但如果你刚刚起步，这是个好消息，因为这意味着一个虽然小但专注的受众就足以维持你的动力。如果有几个人真心热爱你所做的事，那就足够了。"
+    },
+    {
+      "id": 182,
+      "type": "paragraph",
+      "sourceHash": "394aaca26ad247381285e204744447838a75bd82575fb0d00364b23d4a858979",
+      "enMarkdown": "To the extent you can, avoid letting intermediaries come between you and your audience. In some types of work this is inevitable, but it's so liberating to escape it that you might be better off switching to an adjacent type if that will let you go direct. [[28](#f28n)]",
+      "zhMarkdown": "尽你所能，避免让中介机构介入你和你的受众之间。在某些类型的工作中，这是不可避免的，但摆脱它是如此让人重获自由，以至于如果能让你直接面对受众，你最好转换到一个相邻的类型。[[28](#f28n)]"
+    },
+    {
+      "id": 183,
+      "type": "paragraph",
+      "sourceHash": "56af8003eaef5b88ba08fd2d97c4a53b297997ffbb56ace1dee1fc1d2853617c",
+      "enMarkdown": "The people you spend time with will also have a big effect on your morale. You'll find there are some who increase your energy and others who decrease it, and the effect someone has is not always what you'd expect. Seek out the people who increase your energy and avoid those who decrease it. Though of course if there's someone you need to take care of, that takes precedence.",
+      "zhMarkdown": "你共度时间的人也会对你的士气产生巨大影响。你会发现有些人能增加你的能量，而另一些人会减少它，而某个人产生的影响并不总是你所预期的。寻找那些能增加你能量的人，避开那些减少你能量的人。当然，如果有你需要照顾的人，那必须优先考虑。"
+    },
+    {
+      "id": 184,
+      "type": "paragraph",
+      "sourceHash": "365810b3042f19d1d5bb91755103823e7847ba7ffd71dcbd95479337ed84b0c1",
+      "enMarkdown": "Don't marry someone who doesn't understand that you need to work, or sees your work as competition for your attention. If you're ambitious, you need to work; it's almost like a medical condition; so someone who won't let you work either doesn't understand you, or does and doesn't care.",
+      "zhMarkdown": "不要和不理解你需要工作、或者把你的工作看作是争夺注意力的竞争对手的人结婚。如果你有野心，你需要工作；这几乎像是一种病理状态；所以一个不让你工作的人，要么是不理解你，要么是理解你但不在乎。"
+    },
+    {
+      "id": 185,
+      "type": "paragraph",
+      "sourceHash": "87ddab92e73589c255116e640e5302376306692893e5742ecc7fb688de5cc213",
+      "enMarkdown": "Ultimately morale is physical. You think with your body, so it's important to take care of it. That means exercising regularly, eating and sleeping well, and avoiding the more dangerous kinds of drugs. Running and walking are particularly good forms of exercise because they're good for thinking. [[29](#f29n)]",
+      "zhMarkdown": "归根结底，士气是生理性的。你是用身体在思考，所以照顾好身体非常重要。这意味着规律运动、好好吃饭和睡觉，并避免那些更危险的药物。跑步和散步是特别好的运动形式，因为它们有助于思考。[[29](#f29n)]"
+    },
+    {
+      "id": 186,
+      "type": "paragraph",
+      "sourceHash": "8306c8bf92c6ed7202ba8fae11713be76a21c0a2044184d9af3cef31053fd8a8",
+      "enMarkdown": "People who do great work are not necessarily happier than everyone else, but they're happier than they'd be if they didn't. In fact, if you're smart and ambitious, it's dangerous *not* to be productive. People who are smart and ambitious but don't achieve much tend to become bitter.",
+      "zhMarkdown": "做出杰出成就的人不一定比其他人更快乐，但他们比不做出成就时要快乐。事实上，如果你聪明又有野心，不保持产出会是危险的。那些聪明、有野心却没有什么成就的人，往往会变得愤世嫉俗、怨天尤人。"
+    },
+    {
+      "id": 187,
+      "type": "paragraph",
+      "sourceHash": "c93f84b52c26ca44041c41d44d48dcd838c083360c58276e01292bb94e698ff9",
+      "enMarkdown": "It's ok to want to impress other people, but choose the right people. The opinion of people you respect is signal. Fame, which is the opinion of a much larger group you might or might not respect, just adds noise.",
+      "zhMarkdown": "想要给别人留下深刻印象是可以的，但选择对的人。你尊敬的人的意见是信号。名声——也就是一个你可能尊敬、也可能不尊敬的更庞大群体的意见——只会增加噪音。"
+    },
+    {
+      "id": 188,
+      "type": "paragraph",
+      "sourceHash": "864e651038b6836233dc330d18f4a059aa8601b90e2d262daf901c3289e33cf3",
+      "enMarkdown": "The prestige of a type of work is at best a trailing indicator and sometimes completely mistaken. If you do anything well enough, you'll make it prestigious. So the question to ask about a type of work is not how much prestige it has, but how well it could be done.",
+      "zhMarkdown": "一种工作的声望充其量是一个滞后的指标，有时完全是错误的。如果你把任何事情做得足够好，你都会让它变得有声望。所以，关于一种工作要问的问题不是它有多大的声望，而是它能被做到多好。"
+    },
+    {
+      "id": 189,
+      "type": "paragraph",
+      "sourceHash": "5a269acdf626e6f1b863be33206a2aee2ce292c80977f7e1b90f3cdcf2b17812",
+      "enMarkdown": "Competition can be an effective motivator, but don't let it choose the problem for you; don't let yourself get drawn into chasing something just because others are. In fact, don't let competitors make you do anything much more specific than work harder.",
+      "zhMarkdown": "竞争可以是一个有效的激励因素，但不要让它替你选择问题；不要让自己仅仅因为别人在追逐某件事就被吸引进去。事实上，不要让竞争对手让你做出任何比“更努力工作”更具体的事情。"
+    },
+    {
+      "id": 190,
+      "type": "paragraph",
+      "sourceHash": "067a7c4babd12ebe5e6ed95d357cda5887bd4ae61bdf6b7f3d0f9ee49abf86c6",
+      "enMarkdown": "Curiosity is the best guide. Your curiosity never lies, and it knows more than you do about what's worth paying attention to.",
+      "zhMarkdown": "好奇心是最好的向导。你的好奇心从不撒谎，关于什么值得关注，它比你知道得更多。"
+    },
+    {
+      "id": 191,
+      "type": "paragraph",
+      "sourceHash": "5ac89f4be9265c5e4db84b4414420149d26e7882a492550f9e02da47505686e1",
+      "enMarkdown": "Notice how often that word has come up. If you asked an oracle the secret to doing great work and the oracle replied with a single word, my bet would be on \"curiosity.\"",
+      "zhMarkdown": "注意这个词出现的频率。如果你问神谕做出杰出成就的秘诀，而神谕用一个词回答，我敢打赌是“好奇心”。"
+    },
+    {
+      "id": 192,
+      "type": "paragraph",
+      "sourceHash": "b1e3c15ceb996af022928a24d5f8420c1b36a13494e67dae72687f2b7a864130",
+      "enMarkdown": "That doesn't translate directly to advice. It's not enough just to be curious, and you can't command curiosity anyway. But you can nurture it and let it drive you.",
+      "zhMarkdown": "这无法直接翻译成建议。仅仅保持好奇是不够的，而且你无论如何也无法命令好奇心。但你可以滋养它，并让它驱动你。"
+    },
+    {
+      "id": 193,
+      "type": "paragraph",
+      "sourceHash": "d3f8c76ebf7b42fef8db4276c99ea6be9e228fc69b5597eaecda6c4e92f04ce2",
+      "enMarkdown": "Curiosity is the key to all four steps in doing great work: it will choose the field for you, get you to the frontier, cause you to notice the gaps in it, and drive you to explore them. The whole process is a kind of dance with curiosity.",
+      "zhMarkdown": "好奇心是做出杰出成就的所有四个步骤的关键：它会替你选择领域，带你到前沿，让你注意到其中的缝隙，并驱动你去探索它们。整个过程就像是与好奇心共舞。"
+    },
+    {
+      "id": 194,
+      "type": "paragraph",
+      "sourceHash": "dd263837cd22063e9305d55711905a945efaab9973a39b988bb173c11842ac88",
+      "enMarkdown": "Believe it or not, I tried to make this essay as short as I could. But its length at least means it acts as a filter. If you made it this far, you must be interested in doing great work. And if so you're already further along than you might realize, because the set of people willing to want to is small.",
+      "zhMarkdown": "信不信由你，我试着把这篇文章写得尽可能短了。但它的长度至少起到了过滤器的作用。如果你读到了这里，你一定对做出杰出的成就感兴趣。如果是这样，你已经比你意识到的走得更远了，因为愿意去想这件事的人群其实很小。"
+    },
+    {
+      "id": 195,
+      "type": "paragraph",
+      "sourceHash": "3f7a70d0c3415bc69576ceb210ac8319956c06b6e8f011594c38c93173027a9c",
+      "enMarkdown": "The factors in doing great work are factors in the literal, mathematical sense, and they are: ability, interest, effort, and luck. Luck by definition you can't do anything about, so we can ignore that. And we can assume effort, if you do in fact want to do great work. So the problem boils down to ability and interest. Can you find a kind of work where your ability and interest will combine to yield an explosion of new ideas?",
+      "zhMarkdown": "做出杰出成就的因素是字面、数学意义上的乘数，它们是：能力、兴趣、努力和运气。运气在定义上是你无能为力的，所以我们可以忽略它。如果我们假定你确实想做出杰出的成就，那么努力也是可以保证的。所以问题归结为能力和兴趣。你能否找到一种工作，让你的能力和兴趣结合起来，从而产生新想法的爆发？"
+    },
+    {
+      "id": 196,
+      "type": "paragraph",
+      "sourceHash": "8a563fa6bf93b00c2c9784fb1a809faa3c61a641468c8f1066cf4d762fab943c",
+      "enMarkdown": "Here there are grounds for optimism. There are so many different ways to do great work, and even more that are still undiscovered. Out of all those different types of work, the one you're most suited for is probably a pretty close match. Probably a comically close match. It's just a question of finding it, and how far into it your ability and interest can take you. And you can only answer that by trying.",
+      "zhMarkdown": "在这里，我们有理由保持乐观。做出杰出成就的方法有如此之多，还有更多尚未被发现。在所有这些不同类型的工作中，最适合你的那一种很可能是非常契合的。甚至可能是滑稽地契合。这只是一个寻找它的问题，以及你的能力和兴趣能带你走多远的问题。而你只能通过尝试来回答。"
+    },
+    {
+      "id": 197,
+      "type": "paragraph",
+      "sourceHash": "678e7e2376bfe47051fcd7b3318e8ac0b454b6f017e7ada62fb1c25d3e7a722f",
+      "enMarkdown": "Many more people could try to do great work than do. What holds them back is a combination of modesty and fear. It seems presumptuous to try to be Newton or Shakespeare. It also seems hard; surely if you tried something like that, you'd fail. Presumably the calculation is rarely explicit. Few people consciously decide not to try to do great work. But that's what's going on subconsciously; they shy away from the question.",
+      "zhMarkdown": "可以尝试去做出杰出成就的人，远比实际去尝试的人要多。阻碍他们的是谦虚和恐惧的结合。试图成为牛顿或莎士比亚似乎太自负了。这看起来也很难；如果你尝试类似的事情，你肯定会失败。大概这种计算很少是显性的。很少有人会有意识地决定不去尝试做出杰出的成就。但在潜意识里情况就是这样；他们回避了这个问题。"
+    },
+    {
+      "id": 198,
+      "type": "paragraph",
+      "sourceHash": "6fce0a20071ff9216cecfc6c2a5be2c168afb0e962a219982df0805ebf315a87",
+      "enMarkdown": "So I'm going to pull a sneaky trick on you. Do you want to do great work, or not? Now you have to decide consciously. Sorry about that. I wouldn't have done it to a general audience. But we already know you're interested.",
+      "zhMarkdown": "所以我要对你耍个花招。你想做出杰出的成就，还是不想？现在你必须做出有意识的决定。抱歉。我不会对普通大众这么做。但我们已经知道你感兴趣了。"
+    },
+    {
+      "id": 199,
+      "type": "paragraph",
+      "sourceHash": "74192f1f2196bb87ef1570873e6f62d59d95593b0147e779bc5fe930b1dbba98",
+      "enMarkdown": "Don't worry about being presumptuous. You don't have to tell anyone. And if it's too hard and you fail, so what? Lots of people have worse problems than that. In fact you'll be lucky if it's the worst problem you have.",
+      "zhMarkdown": "别担心自负的问题。你不用告诉任何人。如果它太难了而你失败了，那又怎样？很多人有比这更糟糕的问题。事实上，如果这是你最糟糕的问题，那你算是幸运的。"
+    },
+    {
+      "id": 200,
+      "type": "paragraph",
+      "sourceHash": "004b63b5d99d7c2514f5d9b4c49335c6e58bebf0ef3f3ec5b3233798a87d81f9",
+      "enMarkdown": "Yes, you'll have to work hard. But again, lots of people have to work hard. And if you're working on something you find very interesting, which you necessarily will if you're on the right path, the work will probably feel less burdensome than a lot of your peers'.",
+      "zhMarkdown": "是的，你必须努力工作。但同样，很多人都必须努力工作。如果你在做一件你觉得非常有趣的事情，如果你走在正确的轨道上，你必然会这样，那么这工作很可能比你同龄人的许多工作感觉负担要轻。"
+    },
+    {
+      "id": 201,
+      "type": "paragraph",
+      "sourceHash": "0b4d88a0d28fb80db7961deac578f87ef468ac068a4ec6e3e880d32673fbfe90",
+      "enMarkdown": "The discoveries are out there, waiting to be made. Why not by you?",
+      "zhMarkdown": "那些发现就在那里，等待着被做出。为什么不能是你呢？"
+    },
+    {
+      "id": 202,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 203,
+      "type": "paragraph",
+      "sourceHash": "fe545f07dac80f010ea2f31ce68cb3933d62e9021ffe43f7a2c2b256a061a537",
+      "enMarkdown": "[1] I don't think you could give a precise definition of what counts as great work. Doing great work means doing something important so well that you expand people's ideas of what's possible. But there's no threshold for importance. It's a matter of degree, and often hard to judge at the time anyway. So I'd rather people focused on developing their interests rather than worrying about whether they're important or not. Just try to do something amazing, and leave it to future generations to say if you succeeded.",
+      "zhMarkdown": "[1] 我认为你无法给什么是杰出的成就下一个精确的定义。做出杰出的成就意味着把一件重要的事情做得如此之好，以至于拓展了人们对可能性的认知。但重要性并没有门槛。这是一个程度的问题，而且在当时往往很难判断。所以我更希望人们专注于培养自己的兴趣，而不是担心它们是否重要。只要努力去做一些令人惊叹的事情，留给后人去评价你是否成功。"
+    },
+    {
+      "id": 204,
+      "type": "paragraph",
+      "sourceHash": "e212deed7da80bb3bb551cf057020fbe77b47608fcf69438965204b40299de30",
+      "enMarkdown": "[2] A lot of standup comedy is based on noticing anomalies in everyday life. \"Did you ever notice...?\" New ideas come from doing this about nontrivial things. Which may help explain why people's reaction to a new idea is often the first half of laughing: Ha!",
+      "zhMarkdown": "[2] 很多单口喜剧都基于注意到日常生活中的异常。“你有没有注意到……？”新想法来自于对非琐碎的事情做同样的事。这可能有助于解释为什么人们对新想法的反应往往是笑的前半段：哈！"
+    },
+    {
+      "id": 205,
+      "type": "paragraph",
+      "sourceHash": "d6c9ec2fa0a06c16b04c5c74ff7d69dc09cf60f8addb64a1484fa8ed6663563f",
+      "enMarkdown": "[3] That second qualifier is critical. If you're excited about something most authorities discount, but you can't give a more precise explanation than \"they don't get it,\" then you're starting to drift into the territory of cranks.",
+      "zhMarkdown": "[3] 第二个限定条件至关重要。如果你对大多数权威都不看好的事情感到兴奋，但你无法给出比“他们不懂”更精确的解释，那么你开始漂移到民科的领地了。"
+    },
+    {
+      "id": 206,
+      "type": "paragraph",
+      "sourceHash": "be345d99679aadf3efa51170d5f7781113e771a8b41746a84a411e0abb047d0e",
+      "enMarkdown": "[4] Finding something to work on is not simply a matter of finding a match between the current version of you and a list of known problems. You'll often have to coevolve with the problem. That's why it can sometimes be so hard to figure out what to work on. The search space is huge. It's the cartesian product of all possible types of work, both known and yet to be discovered, and all possible future versions of you.",
+      "zhMarkdown": "[4] 寻找要做的事情不单单是寻找当前版本的你和已知问题列表之间的匹配。你往往必须与问题共同演化。这就是为什么有时很难弄清楚该做什么。搜索空间是巨大的。它是所有可能的工作类型（无论是已知的还是尚未发现的）与所有可能的未来版本的你的笛卡尔积。"
+    },
+    {
+      "id": 207,
+      "type": "paragraph",
+      "sourceHash": "3a0abf4bd219571ed38c1faff270a8da647c78d7300d019edec82c58eb974edf",
+      "enMarkdown": "There's no way you could search this whole space, so you have to rely on heuristics to generate promising paths through it and hope the best matches will be clustered. Which they will not always be; different types of work have been collected together as much by accidents of history as by the intrinsic similarities between them.",
+      "zhMarkdown": "你不可能搜索这整个空间，所以你必须依靠启发式方法在其中生成有希望的路径，并希望最好的匹配会聚集在一起。而事实并不总是如此；不同类型的工作被收集在一起，往往是由于历史的偶然，而不是由于它们之间的内在相似性。"
+    },
+    {
+      "id": 208,
+      "type": "paragraph",
+      "sourceHash": "930176ce0581c89c278522415d7dc5862bc884c7c9acb6813cd083c5bbdc4b9e",
+      "enMarkdown": "[5] There are many reasons curious people are more likely to do great work, but one of the more subtle is that, by casting a wide net, they're more likely to find the right thing to work on in the first place.",
+      "zhMarkdown": "[5] 好奇的人更有可能做出杰出成就的原因有很多，但其中一个更微妙的原因是，通过广泛撒网，他们更有可能在最开始就找到适合做的事情。"
+    },
+    {
+      "id": 209,
+      "type": "paragraph",
+      "sourceHash": "59444b342e05140e185114fb6d3a6a5420ebaf10f3fbbd55745d4964e30a9db4",
+      "enMarkdown": "[6] It can also be dangerous to make things for an audience you feel is less sophisticated than you, if that causes you to talk down to them. You can make a lot of money doing that, if you do it in a sufficiently cynical way, but it's not the route to great work. Not that anyone using this m.o. would care.",
+      "zhMarkdown": "[6] 为你认为不如你成熟的受众做东西也可能是危险的，如果这导致你居高临下地对待他们。如果你以足够愤世嫉俗的方式去做，你可以赚很多钱，但这不是通往杰出成就的道路。当然，任何使用这种手段的人都不会在乎。"
+    },
+    {
+      "id": 210,
+      "type": "paragraph",
+      "sourceHash": "9a577013da72f268b40053f708ea80e82fe7e4bddb5c085313c8f42bceabbf9b",
+      "enMarkdown": "[7] This idea I learned from Hardy's *A Mathematician's Apology*, which I recommend to anyone ambitious to do great work, in any field.",
+      "zhMarkdown": "[7] 这个想法我从哈代的《一个数学家的辩白》中学到，我向任何想在任何领域做出杰出成就的人推荐这本书。"
+    },
+    {
+      "id": 211,
+      "type": "paragraph",
+      "sourceHash": "21af2a650a95389f18f2e74a83eecf2756381a6d0aea5b712d794fbdb611081b",
+      "enMarkdown": "[8] Just as we overestimate what we can do in a day and underestimate what we can do over several years, we overestimate the damage done by procrastinating for a day and underestimate the damage done by procrastinating for several years.",
+      "zhMarkdown": "[8] 就像我们高估了一天能做的事而低估了几年能做的事一样，我们高估了拖延一天造成的伤害，而低估了拖延几年造成的伤害。"
+    },
+    {
+      "id": 212,
+      "type": "paragraph",
+      "sourceHash": "d1bd9f16c220457913ce9915e5af95f321fea64aff860082be7940819c769f42",
+      "enMarkdown": "[9] You can't usually get paid for doing exactly what you want, especially early on. There are two options: get paid for doing work close to what you want and hope to push it closer, or get paid for doing something else entirely and do your own projects on the side. Both can work, but both have drawbacks: in the first approach your work is compromised by default, and in the second you have to fight to get time to do it.",
+      "zhMarkdown": "[9] 你通常无法通过做你想做的事来获得报酬，尤其是在早期。有两个选择：通过做接近你想做的事来获得报酬，并希望把它推得更近；或者通过做完全不同的事情来获得报酬，并在业余时间做自己的项目。这两种方法都可以行得通，但都有缺点：在第一种方法中，你的工作默认受到了妥协；在第二种方法中，你必须争取时间来做它。"
+    },
+    {
+      "id": 213,
+      "type": "paragraph",
+      "sourceHash": "717a0c3e1e417c02d18925d66693861f9b718575dfc0f08d8f01b70f65a3c929",
+      "enMarkdown": "[10] If you set your life up right, it will deliver the focus-relax cycle automatically. The perfect setup is an office you work in and that you walk to and from.",
+      "zhMarkdown": "[10] 如果你把生活安排得当，它会自动提供“专注-放松”的循环。完美的安排是一个你工作的办公室，以及你步行往返的过程。"
+    },
+    {
+      "id": 214,
+      "type": "paragraph",
+      "sourceHash": "4a980968f590ab03fd2aef3ca1027bf7850987e6b015acde883f7709b83853e6",
+      "enMarkdown": "[11] There may be some very unworldly people who do great work without consciously trying to. If you want to expand this rule to cover that case, it becomes: Don't try to be anything except the best.",
+      "zhMarkdown": "[11] 可能有一些非常超凡脱俗的人在没有意识去尝试的情况下做出了杰出的成就。如果你想扩大这条规则来涵盖这种情况，它就变成了：除了成为最好，不要试图成为任何东西。"
+    },
+    {
+      "id": 215,
+      "type": "paragraph",
+      "sourceHash": "3a072f81e32fdd1c4201090f9a5b875762ac82f4b768c97dc4d8f5e71f36b7f5",
+      "enMarkdown": "[12] This gets more complicated in work like acting, where the goal is to adopt a fake persona. But even here it's possible to be affected. Perhaps the rule in such fields should be to avoid *unintentional* affectation.",
+      "zhMarkdown": "[12] 在像表演这样的工作中，这变得更加复杂，表演的目标是采用一个虚假的人设。但即使在这里，也有可能变得做作。也许在这些领域，规则应该是避免**无意中**的做作。"
+    },
+    {
+      "id": 216,
+      "type": "paragraph",
+      "sourceHash": "e9e9ecef59b1886b50fb56b915cb784894014c24af920100001f9f49c4a0ce82",
+      "enMarkdown": "[13] It's safe to have beliefs that you treat as unquestionable if and only if they're also unfalsifiable. For example, it's safe to have the principle that everyone should be treated equally under the law, because a sentence with a \"should\" in it isn't really a statement about the world and is therefore hard to disprove. And if there's no evidence that could disprove one of your principles, there can't be any facts you'd need to ignore in order to preserve it.",
+      "zhMarkdown": "[13] 当且仅当你的信念也是不可证伪的时候，把它们当作不容置疑的是安全的。例如，法律面前人人平等的原则是安全的，因为带有“应该”的句子并不是真正关于世界的陈述，因此很难被证伪。如果没有证据可以证伪你的一个原则，那么就不会有任何事实是你为了保留它而需要忽视的。"
+    },
+    {
+      "id": 217,
+      "type": "paragraph",
+      "sourceHash": "97c662d3d10fabc5715ae405981b8397fdf495313f98fbb567bc24870b868de5",
+      "enMarkdown": "[14] Affectation is easier to cure than intellectual dishonesty. Affectation is often a shortcoming of the young that burns off in time, while intellectual dishonesty is more of a character flaw.",
+      "zhMarkdown": "[14] 做作比智识上的不诚实更容易纠正。做作往往是年轻人的缺点，随着时间的推移会消退，而智识上的不诚实更多是性格上的缺陷。"
+    },
+    {
+      "id": 218,
+      "type": "paragraph",
+      "sourceHash": "8a02f4a392e2437cc9d462f74da42f62436bacc0df3a9eecdd4e65d7bfb93a69",
+      "enMarkdown": "[15] Obviously you don't have to be working at the exact moment you have the idea, but you'll probably have been working fairly recently.",
+      "zhMarkdown": "[15] 显然，你不必在产生想法的那一刻正在工作，但你可能在相当近的时间里一直在工作。"
+    },
+    {
+      "id": 219,
+      "type": "paragraph",
+      "sourceHash": "6e416c87d8a6341dec333c9afa827dcb3dba0c0fd25996c7bf00766e4c7ee25e",
+      "enMarkdown": "[16] Some say psychoactive drugs have a similar effect. I'm skeptical, but also almost totally ignorant of their effects.",
+      "zhMarkdown": "[16] 有人说精神活性药物有类似的效果。我持怀疑态度，但也几乎完全不了解它们的影响。"
+    },
+    {
+      "id": 220,
+      "type": "paragraph",
+      "sourceHash": "ac77e9293ba6673f9f13219521f93b360ccefa0974c0d61b245532fff01e43da",
+      "enMarkdown": "[17] For example you might give the nth most important topic (m-1)/m^n of your attention, for some m > 1. You couldn't allocate your attention so precisely, of course, but this at least gives an idea of a reasonable distribution.",
+      "zhMarkdown": "[17] 例如，对于某些 m > 1，你可能会把 (m-1)/m^n 的注意力分配给第 n 个最重要的主题。当然，你不可能如此精确地分配你的注意力，但这至少给出了一个合理分布的概念。"
+    },
+    {
+      "id": 221,
+      "type": "paragraph",
+      "sourceHash": "4f4913cf9eb6bb8d4feb1920d79fd59548b936811de820905a3e83fc1cafdf57",
+      "enMarkdown": "[18] The principles defining a religion have to be mistaken. Otherwise anyone might adopt them, and there would be nothing to distinguish the adherents of the religion from everyone else.",
+      "zhMarkdown": "[18] 定义宗教的原则必须是错误的。否则，任何人都可以采纳它们，那就没有什么可以将宗教的信徒与其他人区分开了。"
+    },
+    {
+      "id": 222,
+      "type": "paragraph",
+      "sourceHash": "8df63d60c6602753dd77881e2bf1efe6eca2e18b7408a131e815dad5de614d82",
+      "enMarkdown": "[19] It might be a good exercise to try writing down a list of questions you wondered about in your youth. You might find you're now in a position to do something about some of them.",
+      "zhMarkdown": "[19] 试着写下你年轻时好奇的问题列表可能是一个很好的练习。你可能会发现你现在有能力对其中的一些问题做点什么。"
+    },
+    {
+      "id": 223,
+      "type": "paragraph",
+      "sourceHash": "27d51b2e36534eab6d791873881f9c200aaed42a4166ae76e32629c82956fde9",
+      "enMarkdown": "[20] The connection between originality and uncertainty causes a strange phenomenon: because the conventional-minded are more certain than the independent-minded, this tends to give them the upper hand in disputes, even though they're generally stupider.",
+      "zhMarkdown": "[20] 原创性和不确定性之间的联系引起了一个奇怪的现象：因为墨守成规的人比独立思考的人更确定，这往往使他们在争论中占了上风，尽管他们通常更愚蠢。"
+    },
+    {
+      "id": 224,
+      "type": "quote",
+      "sourceHash": "617891cb317bdd28ad7ee287b8f2fd4edd8be251c0eb9987beed09e4f962ecbd",
+      "enMarkdown": "> The best lack all conviction, while the worst\n> Are full of passionate intensity.",
+      "zhMarkdown": "> 最优秀的人失去了一切信念，而最糟糕的人\n> 却充满了狂热的激情。"
+    },
+    {
+      "id": 225,
+      "type": "paragraph",
+      "sourceHash": "8af366eb1ab8d417670f4430b70c0e6284446451a32bfb850a119661f43525c7",
+      "enMarkdown": "[21] Derived from Linus Pauling's \"If you want to have good ideas, you must have many ideas.\"",
+      "zhMarkdown": "[21] 源自莱纳斯·鲍林的“如果你想获得好主意，你必须有很多主意。”"
+    },
+    {
+      "id": 226,
+      "type": "paragraph",
+      "sourceHash": "e5c668d93d33a52b9f332d64f5302c47525bb927e915214e9c206f19105add75",
+      "enMarkdown": "[22] Attacking a project as a \"toy\" is similar to attacking a statement as \"inappropriate.\" It means that no more substantial criticism can be made to stick.",
+      "zhMarkdown": "[22] 把一个项目攻击为“玩具”类似于把一个陈述攻击为“不合适”。这意味着没有更实质性的批评可以立足。"
+    },
+    {
+      "id": 227,
+      "type": "paragraph",
+      "sourceHash": "3e89a49ee85e95669888103b4028a3db0ba274ea097efee2341f9f71cbb33a05",
+      "enMarkdown": "[23] One way to tell whether you're wasting time is to ask if you're producing or consuming. Writing computer games is less likely to be a waste of time than playing them, and playing games where you create something is less likely to be a waste of time than playing games where you don't.",
+      "zhMarkdown": "[23] 判断你是否在浪费时间的一种方法是问你是在生产还是在消费。编写电脑游戏比玩游戏更不容易浪费时间，而玩那些你创造东西的游戏比玩那些你不创造东西的游戏更不容易浪费时间。"
+    },
+    {
+      "id": 228,
+      "type": "paragraph",
+      "sourceHash": "91ad3cb72cd0c95a84172412af3a9231881864f1630d548a327cce6c1ce069e5",
+      "enMarkdown": "[24] Another related advantage is that if you haven't said anything publicly yet, you won't be biased toward evidence that supports your earlier conclusions. With sufficient integrity you could achieve eternal youth in this respect, but few manage to. For most people, having previously published opinions has an effect similar to ideology, just in quantity 1.",
+      "zhMarkdown": "[24] 另一个相关的优势是，如果你还没有公开说过任何话，你不会偏向于支持你早期结论的证据。如果拥有足够的正直，你可以在这方面实现永葆青春，但很少有人能做到。对于大多数人来说，以前发表过意见的影响类似于意识形态，只是数量为 1。"
+    },
+    {
+      "id": 229,
+      "type": "paragraph",
+      "sourceHash": "86db71e0353b89f7addc93957e693f9453972c5e82d39c4be9541e6e53a714c5",
+      "enMarkdown": "[25] In the early 1630s Daniel Mytens made a painting of Henrietta Maria handing a laurel wreath to Charles I. Van Dyck then painted his own version to show how much better he was.",
+      "zhMarkdown": "[25] 在 1630 年代初期，丹尼尔·米滕斯画了一幅亨丽埃塔·玛丽亚向查理一世递桂冠的画。凡·戴克随后画了他自己的版本，以展示他画得有多好。"
+    },
+    {
+      "id": 230,
+      "type": "paragraph",
+      "sourceHash": "99cf792eb631324ff5844ce43d1f51311fc5f615599be7cf696522b361587a4b",
+      "enMarkdown": "[26] I'm being deliberately vague about what a place is. As of this writing, being in the same physical place has advantages that are hard to duplicate, but that could change.",
+      "zhMarkdown": "[26] 我对什么是地方故意保持模糊。在撰写本文时，处于同一个物理场所具有难以复制的优势，但这可能会改变。"
+    },
+    {
+      "id": 231,
+      "type": "paragraph",
+      "sourceHash": "775eca7c746001be9857d5ef308684aecbde530a367c1245e920c98b35a6cb0d",
+      "enMarkdown": "[27] This is false when the work the other people have to do is very constrained, as with SETI@home or Bitcoin. It may be possible to expand the area in which it's false by defining similarly restricted protocols with more freedom of action in the nodes.",
+      "zhMarkdown": "[27] 当其他人必须做的工作受到很大限制时，这是错误的，例如 SETI@home 或比特币。通过定义类似的受限协议，在节点中拥有更多行动自由，可能可以扩大它是错误的领域。"
+    },
+    {
+      "id": 232,
+      "type": "paragraph",
+      "sourceHash": "964a9b17fa65a87d78905b48fe489f86a5df23daba026c87745d2fb1e84a852c",
+      "enMarkdown": "[28] Corollary: Building something that enables people to go around intermediaries and engage directly with their audience is probably a good idea.",
+      "zhMarkdown": "[28] 推论：构建一些能让人们绕过中介、直接与受众互动的东西，大概是个好主意。"
+    },
+    {
+      "id": 233,
+      "type": "paragraph",
+      "sourceHash": "d523b4c429714f6c0876f4f3ea888eb6b2c35221b7cbffa81cd0dcea22b42f1f",
+      "enMarkdown": "[29] It may be helpful always to walk or run the same route, because that frees attention for thinking. It feels that way to me, and there is some historical evidence for it.",
+      "zhMarkdown": "[29] 总是步行或跑步相同的路线可能会有帮助，因为这可以释放注意力用于思考。我感觉是这样的，并且有一些历史证据支持这一点。"
+    },
+    {
+      "id": 234,
+      "type": "paragraph",
+      "sourceHash": "fce7b5badb5f1d1402ccffc43567c816b7a2d2251a82086d333613583d069f0a",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Daniel Gackle, Pam Graham, Tom Howard, Patrick Hsu, Steve Huffman, Jessica Livingston, Henry Lloyd-Baker, Bob Metcalfe, Ben Miller, Robert Morris, Michael Nielsen, Courtenay Pipkin, Joris Poort, Mieke Roos, Rajat Suri, Harj Taggar, Garry Tan, and my younger son for suggestions and for reading drafts.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Daniel Gackle、Pam Graham、Tom Howard、Patrick Hsu、Steve Huffman、Jessica Livingston、Henry Lloyd-Baker、Bob Metcalfe、Ben Miller、Robert Morris、Michael Nielsen、Courtenay Pipkin、Joris Poort、Mieke Roos、Rajat Suri、Harj Taggar、Garry Tan 和我的小儿子提出建议并阅读草稿。"
+    }
+  ]
+}
