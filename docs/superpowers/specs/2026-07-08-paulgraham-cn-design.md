@@ -18,7 +18,7 @@
 
 ## 2. 整体架构
 
-三部分，通过 Git 仓库里的**中间产物（Markdown + 元数据）**解耦：
+三部分，通过 Git 仓库里的**中间产物（结构化 JSON）**解耦：
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
@@ -30,7 +30,7 @@
 
 **关键原则：翻译流水线与站点完全解耦。**
 
-- 流水线只负责往 `content/` 写 Markdown。
+- 流水线只负责往 `content/articles/` 写结构化 JSON。
 - 站点只负责读 `content/` 生成静态页面，**构建时不调用任何 API**——零成本、可离线、可即时预览。
 - 中间产物是人工可读、可手改、可进 Git diff 的核心资产。
 
@@ -73,40 +73,52 @@ paulgraham-cn/
   "slug": "earn",
   "titleEn": "How to Earn a Billion Dollars",
   "titleZh": "如何赚到十亿美元",
-  "date": "June 2026",
+  "dateText": "June 2026",
+  "publishedAt": "2026-06-01",
+  "sourceOrder": 214,
   "sourceUrl": "https://paulgraham.com/earn.html",
   "translatedAt": "2026-07-08",
   "model": "gemini-3.5-flash",
   "segments": [
     {
       "id": 1,
+      "type": "paragraph",
       "sourceHash": "a3f5c9...",
       "enMarkdown": "When I was young, I thought...",
       "zhMarkdown": "我年轻时以为……"
     },
     {
       "id": 2,
+      "type": "paragraph",
       "sourceHash": "b71e04...",
       "enMarkdown": "The most successful [founders](https://paulgraham.com/founders.html)...",
       "zhMarkdown": "最成功的[创始人](https://paulgraham.com/founders.html)……"
-    }
+    },
+    { "id": 3, "type": "hr", "sourceHash": "…" }
   ]
 }
 ```
+
+**字段说明：**
+
+- **`type`**：segment 类型，`paragraph | heading | hr | list | quote | footnote | rawUnsupported`。保真范围里的非段落块（分隔线、脚注、列表、引用等）不再硬塞进"段落"，各有类型，渲染与更新 diff 都更稳。`hr` 等无正文的块可省略 `enMarkdown/zhMarkdown`；`rawUnsupported` 用于解析器无法归类的块，保留原始文本、渲染时按纯文本处理不翻译。
+- **`dateText` / `publishedAt` / `sourceOrder`**：`dateText` 是原文日期字符串（如 "June 2026"）仅供展示；`publishedAt` 是解析出的 ISO 日期用于排序，解析失败则留空并回退到 `sourceOrder`（原文 `articles.html` 列表中的出现次序），保证排序永远稳定。
+- **`id`**：段落稳定标识，更新时不重排（见第 8 节对齐算法）。
 
 **设计要点：**
 
 - **段落对照**：整篇原文带段落编号一次性喂给 Gemini，要求返回**同样段落数、同序号**的译文（结构化输出，见第 5 节）。脚本校验段落数一致，不一致则重试。兼得全篇上下文（翻译连贯）与段落级配对（用于对照）。
 - **段落级 sourceHash**：每个 segment 单独记录原文段落的 SHA-256。这是更新检测的最小粒度（见第 8 节），使 PG 改一处错字不会毁掉整篇人工润色。
 - **原文与译文并排存储**：`enMarkdown` / `zhMarkdown` 并存。站点渲染"纯中文 / 悬浮看原文 / 双语对照"都无需再抓原文；diff 时能看清哪段变了。
-- **行内内容为 Markdown**：段落正文以 Markdown 存储，译文**保留超链接**指向 paulgraham.com 原链接，斜体等行内格式一并保留。
+- **行内内容为 Markdown**：段落正文以 Markdown 存储，译文**保留超链接**指向 paulgraham.com 原链接，斜体等行内格式一并保留。渲染安全边界见第 6 节。
 - **人工可改**：直接编辑 `zhMarkdown` 修正译文；只要对应段落的 `sourceHash` 不变，该段永不被重翻覆盖。
 
 ### manifest.json（派生索引）
 
-由 `content/articles/*.json` **构建时自动生成**的派生产物，记录每篇的 `slug`、`titleZh`、`date`、`translatedAt`，供首页列表与更新检测快速读取。
+**由翻译流水线生成并提交入库**（不是 Astro build 时生成）。记录每篇的 `slug`、`titleZh`、`dateText`、`publishedAt`、`sourceOrder`、`translatedAt`，供更新检测快速枚举、以及首页列表读取。
 
-**单一事实来源是 `content/articles/*.json`**；manifest 只是缓存，永不手改。首页排序/标题一律以 content 为准，不存在两处漂移。
+- **归属明确**：`npm run translate` 结束时重建并写盘 `content/manifest.json`，随文章 JSON 一起 `git commit`。Astro build **只读不写**它。
+- **单一事实来源仍是 `content/articles/*.json`**；manifest 是它们的派生缓存，永不手改，可随时由 content 重新生成。首页排序/标题一律可回溯到 content，不存在两处漂移。
 
 ---
 
@@ -118,7 +130,7 @@ paulgraham-cn/
 
 1. **抓取列表**：拉取 `articles.html`，解析出全部文章的 slug 与链接。
 2. **抓取正文**：对每篇文章拉取 HTML，按下述**保真范围**解析为有序段落数组、标题、日期。
-3. **更新检测**（段落级，见第 8 节）：对每个原文段落计算 SHA-256，与已存 JSON 中各 segment 的 `sourceHash` 对比，只重翻变更/新增段落。
+3. **更新检测**（段落级对齐，见第 8 节）：新段落序列与已存 segments 做 LCS + 相似度对齐，判定未变/已改/新增/删除，只重翻已改和新增段落。
 4. **翻译**：变更段落连同全篇上下文一起喂给 Gemini（见第 5 节），拿到段落对照译文。
 5. **校验**：结构化输出 schema + 段落数一致 + 链接/数字/专名校验（见第 5 节质量门禁）；不通过则重试。
 6. **写盘**：写回 `content/articles/<slug>.json`；`manifest.json` 由 content 派生重建。
@@ -186,6 +198,15 @@ paulgraham-cn/
 
 原文和译文都已存在 JSON segment 中，交互只需**少量客户端 JS**（Astro island），其余零 JS。
 
+### Markdown 渲染安全边界
+
+段落正文（原文与译文）都是 Markdown，且译文来自模型输出——即便源站可信，模型仍可能吐出 raw HTML、`javascript:` 链接或异常属性。渲染前强制约束：
+
+- **禁用 raw HTML**：Markdown 渲染器（remark/rehype）配置为不透传原始 HTML，或经 `rehype-sanitize` 白名单过滤，只放行 `a / em / strong / code / ul / ol / li / blockquote / hr / p` 等安全标签与属性。
+- **链接协议白名单**：`<a href>` 只允许 `http` / `https` / `mailto`，其余（`javascript:`、`data:` 等）一律剥离。
+- **URL 校验与规范化**：入库前（质量门禁，第 5 节）就校验并规范化链接集合，渲染层是第二道防线。
+- 该处理对原文和译文两侧同等生效。
+
 ### 视觉风格
 
 - **极简阅读风**：以阅读为中心的现代排版（大字号、宽行高、窄内容宽度、柔和背景色）。
@@ -208,14 +229,25 @@ paulgraham-cn/
 **段落级增量更新**——PG 改一处错字不会毁掉整篇人工润色：
 
 1. 本地跑 `npm run translate`。
-2. 脚本抓取原文，逐段计算 `sourceHash`，与已存 JSON 各 segment 对比：
-   - **新增段落** → 翻译并插入。
-   - **`sourceHash` 变化的段落** → 仅重翻该段（带全篇上下文），只覆盖这一段的 `zhMarkdown`。
-   - **`sourceHash` 未变的段落** → 原样保留，人工手改不受影响。
-   - **原文删除的段落** → 移除对应 segment。
+2. 脚本抓取原文并解析为新段落序列，与已存 JSON 的 old segments 做**段落对齐**（算法见下），得到每个新段落的处置：命中未变 / 命中已改 / 新增 / 删除。
+3. 按处置执行：
+   - **命中未变**（`sourceHash` 相同）→ 沿用旧 segment 的 `id` 与 `zhMarkdown`，人工手改不受影响。
+   - **命中已改**（对齐到某旧段但文本变了）→ 沿用其 `id`，仅重翻该段（带全篇上下文），覆盖 `zhMarkdown`，更新 `sourceHash`。
+   - **新增**（未对齐到任何旧段）→ 分配**新 id**（取当前最大 id + 1，不复用），翻译并按位置插入。
+   - **删除**（旧段未被任何新段命中）→ 移除该 segment。
    - 全新文章 → 整篇翻译。
-3. 检查 `git diff content/` 确认变更（段落级 diff，清晰可审）。
-4. 提交推送 → Cloudflare Pages 自动构建部署。
+4. 检查 `git diff content/` 确认变更（段落级 diff，清晰可审）。
+5. 提交推送 → Cloudflare Pages 自动构建部署。
+
+### 段落对齐算法
+
+只按数组下标或数字 `id` 匹配会在"中间插一段"时让后续全部错位、在"拆段/合段"时丢掉人工润色。因此分两步匹配：
+
+1. **精确锚定**：先用 `sourceHash` 在 old / new 段落间求 **LCS（最长公共子序列）**，把 hash 完全相同的段落两两锚定为"未变"。稳定段落的 `id` 保持不变、不重排。
+2. **相似度匹配**：对 LCS 未覆盖的段落，在相邻锚点之间的区间内做**文本相似度匹配**（如归一化 Levenshtein / token Jaccard，设阈值）。超过阈值 → 判为"命中已改"，继承旧 `id`；低于阈值 → 判为"新增"。区间内旧段若始终无人认领 → "删除"。
+3. **id 分配**：新增段落一律取新 id，绝不复用被删段落的 id，保证 id 语义稳定、diff 可读。
+
+拆段（1→2）会自然表现为：一段命中已改 + 一段新增；合段（2→1）表现为：一段命中已改 + 一段删除。人工润色只在真正对应的原文段落变化时才被覆盖。
 
 ---
 
