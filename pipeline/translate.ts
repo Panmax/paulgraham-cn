@@ -55,7 +55,12 @@ export async function translateSegments(
     }
     const returned = parsed.segments ?? [];
     const check = validateTranslation(requested, returned);
-    if (check.ok) return returned;
+    if (check.ok) {
+      if (check.warnings.length) {
+        for (const w of check.warnings) console.warn(`  ⚠ ${w}`);
+      }
+      return returned;
+    }
     lastErrors = check.errors;
   }
   throw new Error(`translation validation failed after ${retries} retries: ${lastErrors.join("; ")}`);

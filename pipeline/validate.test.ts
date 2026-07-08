@@ -28,8 +28,19 @@ describe("validateTranslation", () => {
     expect(r.ok).toBe(false);
     expect(r.errors.join(" ")).toMatch(/link/i);
   });
-  it("fails when a number is dropped", () => {
+  it("does NOT fail the hard gate when a number is not verbatim, but warns", () => {
+    // Chinese reformats numbers (万/亿), so a non-verbatim number is a soft
+    // warning, not a hard failure that would block/retry the whole article.
     const ret = [{ id: 1, zhMarkdown: "某年参见 [YC](https://ycombinator.com)。" }];
-    expect(validateTranslation(req, ret).ok).toBe(false);
+    const r = validateTranslation(req, ret);
+    expect(r.ok).toBe(true);
+    expect(r.warnings.join(" ")).toMatch(/number 2005/i);
+  });
+
+  it("treats a Chinese 亿-formatted number as acceptable (no verbatim digits)", () => {
+    const bigReq = [{ id: 1, enMarkdown: "526 million a year" }];
+    const bigRet = [{ id: 1, zhMarkdown: "每年 5.26 亿" }];
+    const r = validateTranslation(bigReq, bigRet);
+    expect(r.ok).toBe(true); // 526 absent verbatim -> warning only, not a failure
   });
 });
