@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { sortArticles } from "../lib/sort.js";
+
+const entries = await getCollection("articles");
+const articles = sortArticles(entries.map((e) => e.data));
+---
+<Base title="Paul Graham 文集（中文）" description="Paul Graham 文章的中文翻译">
+  <main>
+    <h1>Paul Graham 文集</h1>
+    <p class="article-meta">共 {articles.length} 篇 · 中文翻译</p>
+    <ul class="article-list">
+      {articles.map((a) => (
+        <li>
+          <a href={`/${a.slug}.html`}>{a.titleZh}</a>
+          <div class="title-en">{a.titleEn} · {a.dateText}</div>
+        </li>
+      ))}
+    </ul>
+  </main>
+</Base>
