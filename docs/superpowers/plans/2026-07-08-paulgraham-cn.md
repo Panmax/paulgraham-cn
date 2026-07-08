@@ -106,6 +106,7 @@ dist/
     "@google/genai": "^2.10.0",
     "astro": "^7.0.6",
     "cheerio": "^1.2.0",
+    "domhandler": "^5.0.3",
     "fastest-levenshtein": "^1.0.16",
     "p-limit": "^7.3.0",
     "rehype-sanitize": "^6.0.0",
@@ -686,7 +687,7 @@ git commit -m "feat: parse PG articles.html into ordered essay list"
 - Test: `pipeline/parse-article.test.ts`
 
 **Interfaces:**
-- Consumes: `cheerio`, `pipeline/hash.ts` (`hashText`), `pipeline/date.ts` (`parsePublishedAt`), `shared/article-schema.ts` (`SegmentType`).
+- Consumes: `cheerio`, `domhandler` (for the `AnyNode` type — pinned to `^5.0.3` in Task 0 to match cheerio 1.2's transitive version, so there's only one `AnyNode` type in the tree; never rely on the package manager hoisting it), `pipeline/hash.ts` (`hashText`), `pipeline/date.ts` (`parsePublishedAt`), `shared/article-schema.ts` (`SegmentType`).
 - Produces:
   - type `ParsedSegment = { type: SegmentType; enMarkdown?: string; sourceHash: string }`
   - type `ParsedArticle = { titleEn: string; dateText: string; publishedAt: string | null; segments: ParsedSegment[] }`
@@ -963,7 +964,7 @@ git commit -m "feat: parse PG article HTML into markdown segments"
   - type `Disposition = "unchanged" | "changed" | "new"`
   - type `AlignedSegment = { segment: Segment; disposition: Disposition }` where `segment` carries the resolved `id`, `type`, `sourceHash`, `enMarkdown`, and (for unchanged) the preserved `zhMarkdown`; `changed`/`new` carry `zhMarkdown: undefined` pending translation.
   - `alignSegments(oldSegments: Segment[], parsed: ParsedSegment[]): { aligned: AlignedSegment[]; nextId: number }`
-  - Algorithm: (1) LCS on `sourceHash` to anchor unchanged segments (preserve their `id` + `zhMarkdown`); (2) for parsed segments not anchored, within the gap between surrounding anchors, match to an unclaimed old segment by normalized Levenshtein similarity ≥ 0.5 on `enMarkdown` → `changed` (inherit that old `id`); else `new` (assign fresh id from a counter starting at `max(oldId)+1`); (3) old segments never matched are dropped (deletion). Output preserves parsed order.
+  - Algorithm: (1) LCS on `sourceHash` to anchor unchanged segments (preserve their `id` + `zhMarkdown`); (2) the anchors partition both sequences into aligned gaps — for each gap, match unanchored parsed segments **only against the old segments in that same gap** by normalized Levenshtein similarity ≥ 0.5 on `enMarkdown` → `changed` (inherit that old `id`); else `new` (fresh id from a counter starting at `max(oldId)+1`). Gap-confinement is required: a global best-match would let a similar/duplicate segment in another region steal an id and overwrite the wrong segment's human translation. (3) old segments in a gap that go unclaimed are dropped (deletion). Output preserves parsed order.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -1022,6 +1023,31 @@ describe("alignSegments", () => {
     expect(aligned[0].disposition).toBe("new");
     expect(aligned[0].segment.id).toBe(1);
   });
+
+  it("confines similarity matching to the gap between anchors (no cross-region id theft)", () => {
+    // old: A X B Y C ; new: A B Y' C. Anchors A,B,C match by hash. Y' is a light
+    // edit of Y and sits in the B..C gap — it must inherit Y's id (40), NOT steal
+    // X's id (20) even though X is also unclaimed. X is deleted.
+    const oldSegs: Segment[] = [
+      { id: 10, type: "paragraph", sourceHash: "hA", enMarkdown: "A anchor alpha", zhMarkdown: "甲" },
+      { id: 20, type: "paragraph", sourceHash: "hX", enMarkdown: "Yankee zulu common words here", zhMarkdown: "X译" },
+      { id: 30, type: "paragraph", sourceHash: "hB", enMarkdown: "B anchor bravo", zhMarkdown: "乙" },
+      { id: 40, type: "paragraph", sourceHash: "hY", enMarkdown: "Yankee zulu common words there", zhMarkdown: "Y译" },
+      { id: 50, type: "paragraph", sourceHash: "hC", enMarkdown: "C anchor charlie", zhMarkdown: "丙" },
+    ];
+    const parsed = [
+      { type: "paragraph" as const, enMarkdown: "A anchor alpha", sourceHash: "hA" },
+      { type: "paragraph" as const, enMarkdown: "B anchor bravo", sourceHash: "hB" },
+      { type: "paragraph" as const, enMarkdown: "Yankee zulu common words there EDITED", sourceHash: "hYnew" },
+      { type: "paragraph" as const, enMarkdown: "C anchor charlie", sourceHash: "hC" },
+    ];
+    const { aligned } = alignSegments(oldSegs, parsed);
+    const yPrime = aligned[2];
+    expect(yPrime.disposition).toBe("changed");
+    expect(yPrime.segment.id).toBe(40); // inherited Y, not X's 20
+    // X (id 20) is unmatched → deleted → never appears in output.
+    expect(aligned.some((a) => a.segment.id === 20)).toBe(false);
+  });
 });
 ```
 
@@ -1078,47 +1104,62 @@ export function alignSegments(
   const oldHashes = oldSegments.map((s) => s.sourceHash);
   const newHashes = parsed.map((s) => s.sourceHash);
 
-  const anchorNewToOld = new Map<number, number>(); // newIdx -> oldIdx (unchanged)
-  for (const [oi, nj] of lcsPairs(oldHashes, newHashes)) anchorNewToOld.set(nj, oi);
+  const anchors = lcsPairs(oldHashes, newHashes); // increasing in both indices
+  const aligned: AlignedSegment[] = new Array(parsed.length);
 
-  const claimedOld = new Set<number>(anchorNewToOld.values());
-  const aligned: AlignedSegment[] = [];
+  // Fill anchored (unchanged) positions.
+  for (const [oi, nj] of anchors) {
+    const old = oldSegments[oi];
+    const p = parsed[nj];
+    aligned[nj] = {
+      segment: { ...old, type: p.type, enMarkdown: p.enMarkdown, sourceHash: p.sourceHash },
+      disposition: "unchanged",
+    };
+  }
 
-  parsed.forEach((p, nj) => {
-    if (anchorNewToOld.has(nj)) {
-      const old = oldSegments[anchorNewToOld.get(nj)!];
-      aligned.push({
-        segment: { ...old, type: p.type, enMarkdown: p.enMarkdown, sourceHash: p.sourceHash },
-        disposition: "unchanged",
-      });
-      return;
+  // Walk the gaps between consecutive anchors (with sentinels at both ends).
+  // Similarity matching is confined to each gap so a similar/duplicate segment
+  // in a different region can never steal an id and overwrite the wrong
+  // segment's human translation.
+  const bounded: Array<[number, number]> = [
+    [-1, -1], ...anchors, [oldSegments.length, parsed.length],
+  ];
+  for (let k = 0; k < bounded.length - 1; k++) {
+    const [oiA, njA] = bounded[k];
+    const [oiB, njB] = bounded[k + 1];
+    const gapOld: number[] = [];
+    for (let oi = oiA + 1; oi < oiB; oi++) gapOld.push(oi);
+    const claimed = new Set<number>();
+
+    for (let nj = njA + 1; nj < njB; nj++) {
+      const p = parsed[nj];
+      let best = -1, bestScore = 0;
+      for (const oi of gapOld) {
+        if (claimed.has(oi)) continue;
+        const score = similarity(p.enMarkdown ?? "", oldSegments[oi].enMarkdown ?? "");
+        if (score > bestScore) { bestScore = score; best = oi; }
+      }
+      if (best >= 0 && bestScore >= SIMILARITY_THRESHOLD) {
+        claimed.add(best);
+        aligned[nj] = {
+          segment: {
+            id: oldSegments[best].id,
+            type: p.type,
+            sourceHash: p.sourceHash,
+            enMarkdown: p.enMarkdown,
+            zhMarkdown: undefined,
+          },
+          disposition: "changed",
+        };
+      } else {
+        aligned[nj] = {
+          segment: { id: nextId++, type: p.type, sourceHash: p.sourceHash, enMarkdown: p.enMarkdown, zhMarkdown: undefined },
+          disposition: "new",
+        };
+      }
     }
-    // Try similarity match against an unclaimed old segment.
-    let best = -1, bestScore = 0;
-    oldSegments.forEach((o, oi) => {
-      if (claimedOld.has(oi)) return;
-      const score = similarity(p.enMarkdown ?? "", o.enMarkdown ?? "");
-      if (score > bestScore) { bestScore = score; best = oi; }
-    });
-    if (best >= 0 && bestScore >= SIMILARITY_THRESHOLD) {
-      claimedOld.add(best);
-      aligned.push({
-        segment: {
-          id: oldSegments[best].id,
-          type: p.type,
-          sourceHash: p.sourceHash,
-          enMarkdown: p.enMarkdown,
-          zhMarkdown: undefined,
-        },
-        disposition: "changed",
-      });
-    } else {
-      aligned.push({
-        segment: { id: nextId++, type: p.type, sourceHash: p.sourceHash, enMarkdown: p.enMarkdown, zhMarkdown: undefined },
-        disposition: "new",
-      });
-    }
-  });
+  }
+  // gapOld indices left unclaimed correspond to deleted old segments (omitted).
 
   return { aligned, nextId };
 }
@@ -1127,7 +1168,7 @@ export function alignSegments(
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `npx vitest run pipeline/align.test.ts`
-Expected: PASS (all four cases).
+Expected: PASS (all five cases).
 
 - [ ] **Step 5: Commit**
 
