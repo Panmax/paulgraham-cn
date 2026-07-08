@@ -99,7 +99,7 @@ dist/
     "build": "astro build",
     "preview": "astro preview",
     "translate": "tsx pipeline/index.ts",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:watch": "vitest"
   },
   "dependencies": {
@@ -162,8 +162,8 @@ Empty file so the directory exists in git.
 
 - [ ] **Step 7: Install and verify**
 
-Run: `npm install && npx tsc --noEmit && npx vitest run`
-Expected: install succeeds; `tsc` prints nothing (no source yet); vitest reports "No test files found" (exit 0 with `--passWithNoTests` not set will exit 1 — that is fine at this step, treat "no tests" as success).
+Run: `npm install && npx tsc --noEmit && npx vitest run --passWithNoTests`
+Expected: install succeeds; `tsc` prints nothing (no source yet); vitest reports "No test files found" and exits 0 (thanks to `--passWithNoTests`).
 
 - [ ] **Step 8: Commit**
 
@@ -690,12 +690,20 @@ git commit -m "feat: parse PG articles.html into ordered essay list"
 - Produces:
   - type `ParsedSegment = { type: SegmentType; enMarkdown?: string; sourceHash: string }`
   - type `ParsedArticle = { titleEn: string; dateText: string; publishedAt: string | null; segments: ParsedSegment[] }`
-  - `parseArticle(html: string, fallbackTitle: string): ParsedArticle` — finds the essay body (the `<font size="2">` block), splits on `<br><br>` into paragraph segments, converts inline `<a href>`/`<i>`/`<b>` to Markdown, maps `<hr>` to an `hr` segment, extracts the title from the title `.gif`'s `alt` (falling back to `<title>` then `fallbackTitle`), and extracts `dateText`/`publishedAt` from the leading date line.
+  - `parseArticle(html: string, fallbackTitle: string): ParsedArticle` — finds the essay body (the `<font size="2">` block), splits on `<br><br>` into blocks, and classifies each block into a segment:
+    - `<hr>` → `hr` (no text).
+    - a block whose sole element is `<blockquote>` → `quote` (`enMarkdown` is the quote text prefixed with `> ` per line).
+    - a block whose sole element is `<ul>`/`<ol>` → `list` (`enMarkdown` is Markdown list lines, `-`/`1.`).
+    - a block whose sole element is `<table>`/`<pre>` (things we can't faithfully convert) → `rawUnsupported` (`enMarkdown` is the block's plain text, preserved untranslated and surfaced in the run summary).
+    - everything else → `paragraph`, converting inline `<a href>`/`<i>`/`<b>` to Markdown.
+  - Title comes from the title `.gif`'s `alt` (falling back to `<title>` then `fallbackTitle`); `dateText`/`publishedAt` from the leading date line.
+  - Footnote blocks (PG's `Notes` section and `[1]`-style references) are ordinary prose and remain `paragraph` — they translate fine and need no special type.
 
 **Notes for implementer (verified against live HTML):**
 - Title is an `<img ... alt="How to Do Great Work" ...>` gif; `<title>` tag also holds it.
 - Body is inside `<font size="2" face="verdana">`; the first text run is the date (e.g. `July 2023`), then `<br><br>`-separated paragraphs.
 - Inline links look like `<a href="foo.html">text</a>`; relative hrefs must be absolutized to `https://paulgraham.com/foo.html`.
+- Real PG essays contain `<blockquote>`, occasional `<ul>/<li>`, `<table>` (layout/figures), and a footnotes section — verified live. The block classifier above is why the `quote`/`list`/`rawUnsupported` types are exercised rather than dead.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -744,6 +752,34 @@ describe("parseArticle", () => {
     const a = parseArticle(SAMPLE, "fallback");
     const paras = a.segments.filter((s) => s.type === "paragraph");
     expect(paras[0].enMarkdown?.startsWith("July 2023")).toBe(false);
+  });
+});
+
+const STRUCTURED = `<html><head><title>T</title></head><body>
+<font size="2" face="verdana">May 2020<br /><br />Intro paragraph.<br /><br /><blockquote>The best lack all conviction.</blockquote><br /><br /><ul><li>first item</li><li>second item</li></ul><br /><br /><table><tr><td>col a</td><td>col b</td></tr></table><br /><br />Closing paragraph.</font>
+</body></html>`;
+
+describe("parseArticle block types", () => {
+  it("maps blockquote to a quote segment", () => {
+    const q = parseArticle(STRUCTURED, "T").segments.find((s) => s.type === "quote");
+    expect(q?.enMarkdown).toBe("> The best lack all conviction.");
+  });
+
+  it("maps ul to a list segment with markdown bullets", () => {
+    const l = parseArticle(STRUCTURED, "T").segments.find((s) => s.type === "list");
+    expect(l?.enMarkdown).toBe("- first item\n- second item");
+  });
+
+  it("maps an unconvertible table to rawUnsupported preserving its text", () => {
+    const r = parseArticle(STRUCTURED, "T").segments.find((s) => s.type === "rawUnsupported");
+    expect(r).toBeDefined();
+    expect(r?.enMarkdown).toContain("col a");
+  });
+
+  it("still classifies ordinary blocks as paragraphs", () => {
+    const paras = parseArticle(STRUCTURED, "T").segments.filter((s) => s.type === "paragraph");
+    expect(paras.some((p) => p.enMarkdown === "Intro paragraph.")).toBe(true);
+    expect(paras.some((p) => p.enMarkdown === "Closing paragraph.")).toBe(true);
   });
 });
 ```
@@ -826,14 +862,54 @@ export function parseArticle(html: string, fallbackTitle: string): ParsedArticle
   let dateText = "";
   let publishedAt: string | null = null;
 
+  // Convert an <ul>/<ol> element into Markdown list text.
+  function listToMarkdown(frag: cheerio.CheerioAPI, listEl: AnyNode): string {
+    const ordered = (listEl as { name?: string }).name === "ol";
+    const lines: string[] = [];
+    frag(listEl).children("li").each((i, li) => {
+      const text = inlineToMarkdown(frag, li.children as AnyNode[]);
+      lines.push(`${ordered ? `${i + 1}.` : "-"} ${text}`);
+    });
+    return lines.join("\n");
+  }
+
   blocks.forEach((block, idx) => {
     if (/^<hr\s*\/?>$/i.test(block)) {
       segments.push({ type: "hr", sourceHash: hashText("hr:" + idx) });
       return;
     }
+
     const frag = cheerio.load(`<div>${block}</div>`);
-    const nodes = frag("div")[0].children as AnyNode[];
-    const md = inlineToMarkdown(frag as unknown as cheerio.CheerioAPI, nodes);
+    const root = frag("div")[0];
+    const nodes = root.children as AnyNode[];
+
+    // A block whose sole meaningful element is a structural tag gets that type.
+    const tagChildren = nodes.filter((n) => n.type === "tag") as Array<AnyNode & { name: string }>;
+    const soleTag = tagChildren.length === 1 && !nodes.some(
+      (n) => n.type === "text" && (n.data ?? "").trim(),
+    ) ? tagChildren[0] : null;
+
+    if (soleTag && soleTag.name === "blockquote") {
+      const md = inlineToMarkdown(frag, soleTag.children as AnyNode[])
+        .split("\n").map((l) => `> ${l.trim()}`).join("\n");
+      if (md.trim()) segments.push({ type: "quote", enMarkdown: md, sourceHash: hashText(md) });
+      return;
+    }
+    if (soleTag && (soleTag.name === "ul" || soleTag.name === "ol")) {
+      const md = listToMarkdown(frag, soleTag);
+      if (md.trim()) segments.push({ type: "list", enMarkdown: md, sourceHash: hashText(md) });
+      return;
+    }
+    // Blocks built from tags we cannot faithfully convert (e.g. tables) are
+    // preserved verbatim as rawUnsupported so they surface in the run summary
+    // instead of being silently flattened into prose.
+    if (soleTag && (soleTag.name === "table" || soleTag.name === "pre")) {
+      const raw = frag(soleTag).text().trim();
+      segments.push({ type: "rawUnsupported", enMarkdown: raw, sourceHash: hashText("raw:" + idx + raw) });
+      return;
+    }
+
+    const md = inlineToMarkdown(frag, nodes);
     if (!md) return;
 
     if (idx === 0) {
@@ -1509,7 +1585,7 @@ git commit -m "feat: derive manifest index from articles"
 
 **Interfaces:**
 - Consumes: `pipeline/align.ts`, `pipeline/translate.ts` (`TranslatorDeps`), `shared/article-schema.ts` (`Article`, `Segment`, `isTranslatable`).
-- Produces: `assembleArticle(params: { listEntry: { slug; titleEn; sourceUrl; sourceOrder }; parsed: ParsedArticle; existing: Article | null; translator: TranslatorDeps; translatedAt: string; model: string; titleZhOverride?: string }): Promise<{ article: Article; stats: { new: number; changed: number; unchanged: number; deleted: number; rawUnsupported: number[] } }>` — runs alignment, gathers `changed`+`new` translatable ids, calls `translateSegments` with full translatable context, merges returned `zhMarkdown` back, translates the title (reuse existing `titleZh` if title unchanged), and returns a schema-valid `Article` plus stats. `deleted` = oldSegments count not present in aligned ids. `rawUnsupported` = ids of segments with type `rawUnsupported`.
+- Produces: `assembleArticle(params: { listEntry: { slug; titleEn; sourceUrl; sourceOrder }; parsed: ParsedArticle; existing: Article | null; translator: TranslatorDeps; translatedAt: string; model: string; titleZhOverride?: string }): Promise<{ article: Article; stats: { new: number; changed: number; unchanged: number; deleted: number; rawUnsupported: number[] } }>` — runs alignment, gathers `changed`+`new` translatable ids, calls `translateSegments` with full translatable context, merges returned `zhMarkdown` back, translates the title (reuse existing `titleZh` if title unchanged), and returns a schema-valid `Article` plus stats. **`new`/`changed`/`unchanged`/`deleted` count translatable segments only** (`hr`/`rawUnsupported` are structural and excluded, so they never inflate the counts); `deleted` = old translatable count − (unchanged + changed). `rawUnsupported` = ids of segments with type `rawUnsupported`.
 
 This is the heart of the pipeline; `index.ts` (next task) only adds I/O, fetching, and concurrency around it.
 
@@ -1650,12 +1726,16 @@ export async function assembleArticle(params: {
     }
   }
 
+  // Stats count only translatable segments (hr/rawUnsupported are structural,
+  // never translated, and must not inflate new/changed/unchanged/deleted).
+  const translatableAligned = aligned.filter((a) => isTranslatable(a.segment.type));
+  const oldTranslatable = (existing?.segments ?? []).filter((s) => isTranslatable(s.type)).length;
   const stats: AssembleStats = {
-    new: aligned.filter((a) => a.disposition === "new").length,
-    changed: aligned.filter((a) => a.disposition === "changed").length,
-    unchanged: aligned.filter((a) => a.disposition === "unchanged").length,
-    deleted: (existing?.segments.length ?? 0)
-      - aligned.filter((a) => a.disposition === "unchanged" || a.disposition === "changed").length,
+    new: translatableAligned.filter((a) => a.disposition === "new").length,
+    changed: translatableAligned.filter((a) => a.disposition === "changed").length,
+    unchanged: translatableAligned.filter((a) => a.disposition === "unchanged").length,
+    deleted: oldTranslatable
+      - translatableAligned.filter((a) => a.disposition === "unchanged" || a.disposition === "changed").length,
     rawUnsupported: segments.filter((s) => s.type === "rawUnsupported").map((s) => s.id),
   };
 
@@ -1700,8 +1780,8 @@ git commit -m "feat: assemble article (align + translate + merge) with stats"
 **Interfaces:**
 - Consumes: `node:fs/promises`, `node:path`, all prior pipeline modules, `shared/article-schema.ts`.
 - Produces:
-  - `store.ts`: `readArticle(dir, slug): Promise<Article | null>`, `writeArticle(dir, article): Promise<void>`, `writeManifest(contentDir, manifest): Promise<void>` — all validating with Zod and writing pretty JSON (2-space, trailing newline).
-  - `index.ts`: `main()` orchestration — fetch list, for each entry (concurrency-limited via `p-limit`, default 4) fetch + parse + assemble, write JSON, collect stats; rebuild manifest; print summary including any `rawUnsupported` findings and a non-zero-count warning. Accepts optional `--limit N` and `--only slug1,slug2` args. `main()` is only invoked when run as the entry module (guarded), so `store.ts` can be unit-tested without side effects.
+  - `store.ts`: `readArticle(dir, slug): Promise<Article | null>`, `readAllArticles(dir): Promise<Article[]>` (reads every `*.json` in the dir, sorted by slug for deterministic output; returns `[]` if the dir is missing), `writeArticle(dir, article): Promise<void>`, `writeManifest(contentDir, manifest): Promise<void>` — all validating with Zod and writing pretty JSON (2-space, trailing newline).
+  - `index.ts`: `main()` orchestration — fetch list, for each entry (concurrency-limited via `p-limit`, default 4) fetch + parse + assemble, write JSON, collect stats; then **rebuild the manifest from ALL articles on disk via `readAllArticles`** (never only this run's results — a `--only`/`--limit` run must not drop other articles, and a failed article must not vanish from the manifest); print summary including any `rawUnsupported` findings and a non-zero-count warning. Accepts optional `--limit N` and `--only slug1,slug2` args. `main()` is only invoked when run as the entry module (guarded), so `store.ts` can be unit-tested without side effects.
 
 Only `store.ts` gets unit tests (pure I/O); `index.ts` is verified by the manual integration run in Task 14 (it needs live network + credentials).
 
@@ -1713,7 +1793,7 @@ import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { mkdtemp, rm, readFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { readArticle, writeArticle, writeManifest } from "./store.js";
+import { readArticle, readAllArticles, writeArticle, writeManifest } from "./store.js";
 import type { Article, Manifest } from "../shared/article-schema.js";
 
 const article: Article = {
@@ -1739,6 +1819,18 @@ describe("store", () => {
     expect(await readArticle(join(base, "articles"), "nope")).toBeNull();
   });
 
+  it("readAllArticles reads every article sorted by slug", async () => {
+    const dir = join(base, "articles");
+    await writeArticle(dir, { ...article, slug: "winc" });
+    await writeArticle(dir, { ...article, slug: "earn" });
+    const all = await readAllArticles(dir);
+    expect(all.map((a) => a.slug)).toEqual(["earn", "winc"]);
+  });
+
+  it("readAllArticles returns [] when the dir is missing", async () => {
+    expect(await readAllArticles(join(base, "nope"))).toEqual([]);
+  });
+
   it("writes a manifest with trailing newline", async () => {
     const manifest: Manifest = { generatedAt: "t", articles: [] };
     await writeManifest(base, manifest);
@@ -1758,7 +1850,7 @@ Expected: FAIL — cannot resolve `./store.js`.
 
 ```typescript
 // pipeline/store.ts
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ArticleSchema, ManifestSchema, type Article, type Manifest } from "../shared/article-schema.js";
 
@@ -1774,6 +1866,26 @@ export async function readArticle(dir: string, slug: string): Promise<Article | 
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
     throw err;
   }
+}
+
+export async function readAllArticles(dir: string): Promise<Article[]> {
+  let files: string[];
+  try {
+    files = await readdir(dir);
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
+    throw err;
+  }
+  const slugs = files
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => f.slice(0, -".json".length))
+    .sort();
+  const articles: Article[] = [];
+  for (const slug of slugs) {
+    const article = await readArticle(dir, slug);
+    if (article) articles.push(article);
+  }
+  return articles;
 }
 
 export async function writeArticle(dir: string, article: Article): Promise<void> {
@@ -1806,7 +1918,7 @@ import { parseArticleList } from "./parse-list.js";
 import { parseArticle } from "./parse-article.js";
 import { assembleArticle, type AssembleStats } from "./assemble.js";
 import { createVertexTranslator } from "./translate.js";
-import { readArticle, writeArticle, writeManifest } from "./store.js";
+import { readArticle, readAllArticles, writeArticle, writeManifest } from "./store.js";
 import { buildManifest } from "./manifest.js";
 import type { Article } from "../shared/article-schema.js";
 
@@ -1858,8 +1970,11 @@ export async function main(argv: string[] = process.argv.slice(2)): Promise<void
     }
   })));
 
-  // Rebuild manifest from everything on disk (results this run; for full rebuild, re-read all).
-  const manifest = buildManifest(results, new Date().toISOString());
+  // Rebuild manifest from ALL articles on disk — not just this run's results.
+  // A --only/--limit run, or a run with failures, must never drop other
+  // articles from the manifest (which drives the homepage/index).
+  const allArticles = await readAllArticles(ARTICLES_DIR);
+  const manifest = buildManifest(allArticles, new Date().toISOString());
   await writeManifest(CONTENT_DIR, manifest);
 
   console.log("\n=== translate summary ===");
@@ -1937,7 +2052,7 @@ git commit -m "content: translate first two essays (earn, greatwork)"
 **Files:**
 - Create: `astro.config.mjs`
 - Create: `src/content.config.ts`
-- Test: manual `astro check`-style typecheck (`npx tsc --noEmit`) — content config is declarative; behavior is verified when pages render in Task 18.
+- Test: `npx tsc --noEmit` + `npx astro sync` — content config is declarative; behavior is verified when pages render in Task 18.
 
 **Interfaces:**
 - Consumes: `astro`, `astro/loaders` (`glob`), `shared/article-schema.ts` (`ArticleSchema`).
@@ -2205,7 +2320,7 @@ import "../styles/global.css";
 
 - [ ] **Step 3: Verify it builds**
 
-Run: `npx astro check` (or `npx astro build` after Task 18). At this step run `npx tsc --noEmit`. Expected: no errors.
+Run: `npx tsc --noEmit`. Expected: no errors. (Astro build validation happens in Task 18.)
 
 - [ ] **Step 4: Commit**
 
@@ -2455,7 +2570,7 @@ git commit -m "content: translate full Paul Graham essay corpus"
 ## Self-Review
 
 **Spec coverage:**
-- 全部一次性翻译 → Task 20. URL 一致 (`/earn.html`) → Task 15 (`build.format:"file"`) + Task 18 (`[slug].html.astro`), verified Task 18 Step 5. 纯中文为主 + 段落对照 + 悬浮看原文 + 双语切换 → Task 17 CSS + Task 18. 信达雅 → Task 9 prompt. 整篇上下文、只返回待翻译段 → Task 12 (`fullContext` + `requestIds`). 段落级 sourceHash → Task 3 + Task 6. 段落对齐 (LCS+相似度, id 稳定/不复用) → Task 7. 质量门禁 (id/链接/数字) → Task 8. Markdown 安全 (禁 raw HTML, 链接协议白名单) → Task 16. type 字段 → Task 1. dateText/publishedAt/sourceOrder + 排序 → Task 4, Task 16. manifest 由 pipeline 生成入库、build 只读 → Task 11 + Task 13; site never reads via build-time API. rawUnsupported summary → Task 13. Vertex + @google/genai + gemini-3.5-flash + credentials git-ignored → Task 0 (.gitignore), Task 10. Cloudflare Pages → Task 19. 亮/暗主题 → Task 17. YAGNI (no draft queue/search/accounts) → honored (not built).
+- 全部一次性翻译 → Task 20. URL 一致 (`/earn.html`) → Task 15 (`build.format:"file"`) + Task 18 (`[slug].html.astro`), verified Task 18 Step 5. 纯中文为主 + 段落对照 + 悬浮看原文 + 双语切换 → Task 17 CSS + Task 18. 信达雅 → Task 9 prompt. 整篇上下文、只返回待翻译段 → Task 12 (`fullContext` + `requestIds`). 段落级 sourceHash → Task 3 + Task 6. 段落对齐 (LCS+相似度, id 稳定/不复用) → Task 7. 质量门禁 (id/链接/数字) → Task 8. Markdown 安全 (禁 raw HTML, 链接协议白名单) → Task 16. segment type 字段 (paragraph/heading/hr/list/quote/footnote/rawUnsupported) → schema Task 1, parser emits paragraph/hr/quote/list/rawUnsupported in Task 6 (footnotes stay prose paragraphs by design). dateText/publishedAt/sourceOrder + 排序 → Task 4, Task 16. manifest 由 pipeline 生成入库、build 只读、且从全量磁盘重建 → Task 11 + Task 13 (`readAllArticles`); site never reads via build-time API. rawUnsupported summary → Task 6 (classifier) + Task 13 (summary). Vertex + @google/genai + gemini-3.5-flash + credentials git-ignored → Task 0 (.gitignore), Task 10. Cloudflare Pages → Task 19. 亮/暗主题 → Task 17. YAGNI (no draft queue/search/accounts) → honored (not built).
 - **Gap found & closed:** title translation was implicit in the spec ("titleZh"); Task 12 explicitly translates the title (id 0) and reuses it when unchanged.
 
 **Placeholder scan:** No TBD/TODO. Every code step contains complete code; every test has real assertions; every command has expected output.
