@@ -1,0 +1,37 @@
+---
+interface Props { title: string; description?: string; canonical?: string }
+const { title, description, canonical } = Astro.props;
+import "../styles/global.css";
+---
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    {canonical && <link rel="canonical" href={canonical} />}
+    <script is:inline>
+      (() => {
+        const saved = localStorage.getItem("theme");
+        const dark = saved ? saved === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="/">Paul Graham 中文</a>
+      <button id="theme-toggle" aria-label="切换主题">◐</button>
+    </header>
+    <slot />
+    <script is:inline>
+      document.getElementById("theme-toggle")?.addEventListener("click", () => {
+        const el = document.documentElement;
+        const next = el.dataset.theme === "dark" ? "light" : "dark";
+        el.dataset.theme = next;
+        localStorage.setItem("theme", next);
+      });
+    </script>
+  </body>
+</html>
