@@ -1,22 +1,131 @@
 import { describe, it, expect } from "vitest";
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
 import { parseArticle } from "./parse-article.js";
 
-const SAMPLE = `<html><head><title>How to Do Great Work</title></head>
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const fixturesDir = join(__dirname, "__fixtures__");
+
+function loadFixture(name: string): string {
+  return readFileSync(join(fixturesDir, name), "utf8");
+}
+
+describe("parseArticle — apple.html (promo banner prepended to body)", () => {
+  const html = loadFixture("apple.html");
+  const article = parseArticle(html, "Apple's Mistake");
+
+  it("never lets the promo banner text into any segment", () => {
+    for (const s of article.segments) {
+      expect(s.enMarkdown ?? "").not.toContain("Want to start a startup");
+      expect(s.enMarkdown ?? "").not.toContain("Y Combinator");
+    }
+  });
+
+  it("does not leave the date line at the start of any body paragraph", () => {
+    for (const s of article.segments) {
+      expect(s.enMarkdown?.startsWith("November 2009")).toBe(false);
+    }
+  });
+
+  it("extracts dateText and publishedAt from the real body, not the promo", () => {
+    expect(article.dateText).toBe("November 2009");
+    expect(article.publishedAt).toBe("2009-11-01");
+  });
+
+  it("contains real essay prose", () => {
+    const joined = article.segments.map((s) => s.enMarkdown ?? "").join(" ");
+    expect(joined).toContain("App Store");
+    expect(joined.length).toBeGreaterThan(500);
+  });
+
+  it("gives every segment a 64-hex sourceHash", () => {
+    expect(article.segments.every((s) => /^[0-9a-f]{64}$/.test(s.sourceHash))).toBe(true);
+  });
+});
+
+describe("parseArticle — greatwork.html (inline blockquote wrapped in prose)", () => {
+  const html = loadFixture("greatwork.html");
+  const article = parseArticle(html, "fallback");
+
+  it("extracts the title from the title-gif alt text", () => {
+    expect(article.titleEn).toBe("How to Do Great Work");
+  });
+
+  it("extracts dateText and publishedAt", () => {
+    expect(article.dateText).toBe("July 2023");
+    expect(article.publishedAt).toBe("2023-07-01");
+  });
+
+  it("emits a quote segment for the inline blockquote, with prose before and after it", () => {
+    const idx = article.segments.findIndex((s) => s.type === "quote");
+    expect(idx).toBeGreaterThan(0);
+    expect(article.segments[idx]?.enMarkdown).toBe(
+      "> The best lack all conviction, while the worst\n> Are full of passionate intensity."
+    );
+    expect(article.segments[idx - 1]?.type).toBe("paragraph");
+    expect(article.segments[idx + 1]?.type).toBe("paragraph");
+  });
+});
+
+describe("parseArticle — goodtaste.html (real table used for a figure)", () => {
+  const html = loadFixture("goodtaste.html");
+  const article = parseArticle(html, "fallback");
+
+  it("extracts the title", () => {
+    expect(article.titleEn).toBe("Is There Such a Thing as Good Taste?");
+  });
+
+  it("parses the date", () => {
+    expect(article.dateText).toBe("November 2021");
+    expect(article.publishedAt).toBe("2021-11-01");
+  });
+
+  it("has real essay prose and no dangling markdown links from anchor targets", () => {
+    const joined = article.segments.map((s) => s.enMarkdown ?? "").join(" ");
+    expect(joined).toContain("good taste");
+    expect(joined).not.toMatch(/\]\(\)/);
+  });
+});
+
+describe("parseArticle — growth.html (promo banner + inline table + inline ordered list)", () => {
+  const html = loadFixture("growth.html");
+  const article = parseArticle(html, "fallback");
+
+  it("strips the promo banner and extracts the real date", () => {
+    for (const s of article.segments) {
+      expect(s.enMarkdown ?? "").not.toContain("Want to start a startup");
+    }
+    expect(article.dateText).toBe("September 2012");
+    expect(article.publishedAt).toBe("2012-09-01");
+  });
+
+  it("emits a rawUnsupported segment for the stats table instead of flattening it into a run-on paragraph", () => {
+    const raw = article.segments.find((s) => s.type === "rawUnsupported");
+    expect(raw).toBeDefined();
+    expect(raw?.enMarkdown).toContain("1%");
+    expect(raw?.enMarkdown).toContain("1.7x");
+    // The old string-split implementation garbled this into "weeklyyearly
+    // 1%1.7x 2%2.8x" with no separators — assert that never happens again.
+    expect(raw?.enMarkdown).not.toContain("weeklyyearly");
+    expect(raw?.enMarkdown).not.toContain("1%1.7x");
+  });
+
+  it("emits a list segment for the inline ordered list wrapped in prose", () => {
+    const list = article.segments.find((s) => s.type === "list");
+    expect(list).toBeDefined();
+    expect(list?.enMarkdown).toMatch(/^1\./);
+    expect(list?.enMarkdown).toContain("2.");
+    expect(list?.enMarkdown).toContain("3.");
+  });
+});
+
+describe("parseArticle — synthetic structural checks", () => {
+  const SAMPLE = `<html><head><title>How to Do Great Work</title></head>
 <body><table><tr><td>
 <img src="x/how-to-do-great-work-2.gif" alt="How to Do Great Work" />
 <font size="2" face="verdana">July 2023<br /><br />First paragraph with a <a href="foo.html">link</a> inside.<br /><br />Second paragraph is <i>emphasized</i> here.<br /><br /><hr /><br /><br />After the rule.</font>
 </td></tr></table></body></html>`;
-
-describe("parseArticle", () => {
-  it("extracts title from alt/title", () => {
-    expect(parseArticle(SAMPLE, "fallback").titleEn).toBe("How to Do Great Work");
-  });
-
-  it("extracts dateText and publishedAt", () => {
-    const a = parseArticle(SAMPLE, "fallback");
-    expect(a.dateText).toBe("July 2023");
-    expect(a.publishedAt).toBe("2023-07-01");
-  });
 
   it("splits paragraphs and converts inline links to markdown", () => {
     const a = parseArticle(SAMPLE, "fallback");
@@ -30,44 +139,5 @@ describe("parseArticle", () => {
   it("emits an hr segment", () => {
     const a = parseArticle(SAMPLE, "fallback");
     expect(a.segments.some((s) => s.type === "hr")).toBe(true);
-  });
-
-  it("gives every segment a non-empty sourceHash", () => {
-    const a = parseArticle(SAMPLE, "fallback");
-    expect(a.segments.every((s) => /^[0-9a-f]{64}$/.test(s.sourceHash))).toBe(true);
-  });
-
-  it("does not include the date line as a body paragraph", () => {
-    const a = parseArticle(SAMPLE, "fallback");
-    const paras = a.segments.filter((s) => s.type === "paragraph");
-    expect(paras[0].enMarkdown?.startsWith("July 2023")).toBe(false);
-  });
-});
-
-const STRUCTURED = `<html><head><title>T</title></head><body>
-<font size="2" face="verdana">May 2020<br /><br />Intro paragraph.<br /><br /><blockquote>The best lack all conviction.</blockquote><br /><br /><ul><li>first item</li><li>second item</li></ul><br /><br /><table><tr><td>col a</td><td>col b</td></tr></table><br /><br />Closing paragraph.</font>
-</body></html>`;
-
-describe("parseArticle block types", () => {
-  it("maps blockquote to a quote segment", () => {
-    const q = parseArticle(STRUCTURED, "T").segments.find((s) => s.type === "quote");
-    expect(q?.enMarkdown).toBe("> The best lack all conviction.");
-  });
-
-  it("maps ul to a list segment with markdown bullets", () => {
-    const l = parseArticle(STRUCTURED, "T").segments.find((s) => s.type === "list");
-    expect(l?.enMarkdown).toBe("- first item\n- second item");
-  });
-
-  it("maps an unconvertible table to rawUnsupported preserving its text", () => {
-    const r = parseArticle(STRUCTURED, "T").segments.find((s) => s.type === "rawUnsupported");
-    expect(r).toBeDefined();
-    expect(r?.enMarkdown).toContain("col a");
-  });
-
-  it("still classifies ordinary blocks as paragraphs", () => {
-    const paras = parseArticle(STRUCTURED, "T").segments.filter((s) => s.type === "paragraph");
-    expect(paras.some((p) => p.enMarkdown === "Intro paragraph.")).toBe(true);
-    expect(paras.some((p) => p.enMarkdown === "Closing paragraph.")).toBe(true);
   });
 });

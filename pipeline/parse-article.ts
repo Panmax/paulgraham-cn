@@ -22,8 +22,21 @@ function absolutize(href: string): string {
   return href;
 }
 
-// Convert an inline HTML fragment (children of the body font block, within one
-// paragraph) into Markdown text.
+// Tags that mark a segment boundary: the content up to this point flushes as
+// a paragraph, then this element becomes its own segment.
+const BLOCK_TAGS = new Set(["blockquote", "ul", "ol", "table", "pre", "hr"]);
+
+// Inline formatting tags handled directly by inlineToMarkdown; not recursed
+// into during flattening.
+const INLINE_TAGS = new Set(["a", "i", "em", "b", "strong", "br"]);
+
+// Tags with no useful textual content for the essay body (or whose text
+// would be noise, e.g. embedded scripts) — skipped entirely during flattening.
+const SKIP_TAGS = new Set(["script", "style", "img", "area", "map"]);
+
+// Convert an inline HTML fragment into Markdown text. Handles text, <a>,
+// <i>/<em>, <b>/<strong>, and <br> (a single <br>, not part of a <br><br>
+// paragraph break, becomes a line break within the same paragraph).
 function inlineToMarkdown($: cheerio.CheerioAPI, nodes: AnyNode[]): string {
   let out = "";
   for (const node of nodes) {
@@ -32,17 +45,137 @@ function inlineToMarkdown($: cheerio.CheerioAPI, nodes: AnyNode[]): string {
     } else if (node.type === "tag") {
       const el = $(node);
       if (node.name === "a") {
-        out += `[${el.text().trim()}](${absolutize(el.attr("href") ?? "")})`;
+        const href = el.attr("href");
+        // Footnote back-reference anchors (<a name="f3n">3</a>) have no
+        // href — they're anchor *targets*, not links. Emitting them as
+        // markdown links would produce a dangling "[3]()".
+        out += href ? `[${el.text().trim()}](${absolutize(href)})` : el.text();
       } else if (node.name === "i" || node.name === "em") {
         out += `*${el.text().trim()}*`;
       } else if (node.name === "b" || node.name === "strong") {
         out += `**${el.text().trim()}**`;
+      } else if (node.name === "br") {
+        out += "\n";
       } else {
         out += el.text();
       }
     }
   }
   return out.trim();
+}
+
+// Convert an <ul>/<ol> element into Markdown list text.
+function listToMarkdown($: cheerio.CheerioAPI, listEl: AnyNode): string {
+  const ordered = (listEl as Element).name === "ol";
+  const lines: string[] = [];
+  $(listEl).children("li").each((i, li) => {
+    const text = inlineToMarkdown($, li.children as AnyNode[]);
+    lines.push(`${ordered ? `${i + 1}.` : "-"} ${text}`);
+  });
+  return lines.join("\n");
+}
+
+// Convert a <blockquote> element into Markdown quote text (lines prefixed "> ").
+function blockquoteToMarkdown($: cheerio.CheerioAPI, bqEl: AnyNode): string {
+  const md = inlineToMarkdown($, (bqEl as Element).children as AnyNode[]);
+  return md
+    .split("\n")
+    .map((l) => `> ${l.trim()}`)
+    .filter((l) => l !== ">")
+    .join("\n");
+}
+
+// Convert a <table> into plain text preserving row/cell structure (cells
+// joined by " | ", rows joined by newlines), instead of flattening every
+// cell's text together with no separators — which is what previously
+// garbled numeric tables like "weeklyyearly 1%1.7x 2%2.8x" into one run-on
+// string. Falls back to the whole table's flattened text if it has no rows
+// (e.g. a table used purely for layout with no <tr>).
+function tableToText($: cheerio.CheerioAPI, tableEl: AnyNode): string {
+  const rows = $(tableEl).find("tr");
+  if (rows.length === 0) return $(tableEl).text().trim();
+  const lines: string[] = [];
+  rows.each((_, tr) => {
+    const cells: string[] = [];
+    $(tr).children("td,th").each((__, cell) => {
+      cells.push($(cell).text().replace(/\s+/g, " ").trim());
+    });
+    const line = cells.join(" | ").trim();
+    if (line) lines.push(line);
+  });
+  return lines.join("\n").trim();
+}
+
+// Recursively flatten a node list into a single in-order sequence of "leaf"
+// nodes: text nodes, inline formatting tags, and block-boundary tags are
+// emitted as-is; everything else (font/p/center/div/span/td/tr/... — HTML
+// this old, malformed markup uses purely for layout) is transparent and its
+// children are spliced in in its place. This is what lets a <blockquote>,
+// <ul>/<ol>, or <table> that's wrapped in prose within the same <br><br>
+// block still be recognized as a segment boundary, and lets us survive the
+// HTML parser splitting one logical <font size="2"> block into several
+// sibling elements when it contains an inline <table>.
+function flatten($: cheerio.CheerioAPI, nodes: AnyNode[], out: AnyNode[]): void {
+  for (const node of nodes) {
+    if (node.type === "text") {
+      out.push(node);
+      continue;
+    }
+    if (node.type !== "tag") continue;
+    if (BLOCK_TAGS.has(node.name) || INLINE_TAGS.has(node.name)) {
+      out.push(node);
+      continue;
+    }
+    if (SKIP_TAGS.has(node.name)) continue;
+    flatten($, (node as Element).children as AnyNode[], out);
+  }
+}
+
+// Remove known promo banner tables (the recurring "Want to start a startup?
+// Get funded by Y Combinator." block) from the DOM before extracting text, so
+// their text never leaks into body segments. We anchor on the apply.html
+// link inside the banner and remove its *closest* ancestor <table> — not any
+// ancestor table containing that text — since the page's outer layout table
+// also wraps the banner along with the entire essay.
+function stripPromoTables($: cheerio.CheerioAPI): void {
+  $('a[href*="ycombinator.com/apply"]').each((_, a) => {
+    const table = $(a).closest("table");
+    if (table.length) table.remove();
+  });
+}
+
+// Locate the container holding the essay body. The title gif's alt text
+// identifies the essay heading image; its closest ancestor <td> is the cell
+// that holds the whole essay (image, then the font[size="2"] prose block,
+// promo table, footnotes, etc). Falling back to the longest top-level
+// font[size="2"] block, then the whole body, covers pages with no such image.
+function findBodyContainer($: cheerio.CheerioAPI): cheerio.Cheerio<AnyNode> {
+  const titleImg = $("img[alt]").filter((_, el) => ($(el).attr("alt") ?? "").length > 3).first();
+  if (titleImg.length) {
+    const td = titleImg.closest("td");
+    if (td.length) return td;
+  }
+
+  const candidates = $('font[size="2"]').filter((_, el) => {
+    let p = $(el).parent();
+    while (p.length) {
+      if (p.is('font[size="2"]')) return false;
+      p = p.parent();
+    }
+    return true;
+  });
+  let best: AnyNode | null = null;
+  let bestLen = -1;
+  candidates.each((_, el) => {
+    const len = $(el).text().length;
+    if (len > bestLen) {
+      bestLen = len;
+      best = el;
+    }
+  });
+  if (best) return $(best);
+
+  return $("body");
 }
 
 export function parseArticle(html: string, fallbackTitle: string): ParsedArticle {
@@ -53,84 +186,85 @@ export function parseArticle(html: string, fallbackTitle: string): ParsedArticle
       ?? $("title").text().trim()
       ?? fallbackTitle).trim() || fallbackTitle;
 
-  const font = $('font[size="2"]').first();
-  const container = font.length ? font : $("body");
+  // Strip promo banners before locating/walking the body so their text can
+  // never leak into segments, and so they don't skew which font block looks
+  // "biggest" if the body-container fallback path is used.
+  stripPromoTables($);
 
-  // Serialize inner HTML and split on <br><br> boundaries.
-  const inner = container.html() ?? "";
-  const blocks = inner
-    .split(/<br\s*\/?>\s*<br\s*\/?>/i)
-    .map((b) => b.trim())
-    .filter(Boolean);
+  const container = findBodyContainer($);
 
   const segments: ParsedSegment[] = [];
   let dateText = "";
   let publishedAt: string | null = null;
+  let sawFirstText = false;
+  let hrIdx = 0;
+  let rawIdx = 0;
 
-  // Convert an <ul>/<ol> element into Markdown list text.
-  function listToMarkdown(frag: cheerio.CheerioAPI, listEl: AnyNode): string {
-    const ordered = (listEl as { name?: string }).name === "ol";
-    const lines: string[] = [];
-    frag(listEl).children("li").each((i, li) => {
-      const text = inlineToMarkdown(frag, li.children as AnyNode[]);
-      lines.push(`${ordered ? `${i + 1}.` : "-"} ${text}`);
-    });
-    return lines.join("\n");
-  }
+  const paragraphNodes: AnyNode[] = [];
 
-  blocks.forEach((block, idx) => {
-    if (/^<hr\s*\/?>$/i.test(block)) {
-      segments.push({ type: "hr", sourceHash: hashText("hr:" + idx) });
-      return;
-    }
-
-    const frag = cheerio.load(`<div>${block}</div>`);
-    const root = frag("div")[0];
-    const nodes = root.children as AnyNode[];
-
-    // A block whose sole meaningful element is a structural tag gets that type.
-    const tagChildren = nodes.filter((n): n is Element => n.type === "tag");
-    const soleTag = tagChildren.length === 1 && !nodes.some(
-      (n) => n.type === "text" && (n.data ?? "").trim(),
-    ) ? tagChildren[0] : null;
-
-    if (soleTag && soleTag.name === "blockquote") {
-      const md = inlineToMarkdown(frag, soleTag.children as AnyNode[])
-        .split("\n").map((l) => `> ${l.trim()}`).join("\n");
-      if (md.trim()) segments.push({ type: "quote", enMarkdown: md, sourceHash: hashText(md) });
-      return;
-    }
-    if (soleTag && (soleTag.name === "ul" || soleTag.name === "ol")) {
-      const md = listToMarkdown(frag, soleTag);
-      if (md.trim()) segments.push({ type: "list", enMarkdown: md, sourceHash: hashText(md) });
-      return;
-    }
-    // Blocks built from tags we cannot faithfully convert (e.g. tables) are
-    // preserved verbatim as rawUnsupported so they surface in the run summary
-    // instead of being silently flattened into prose.
-    if (soleTag && (soleTag.name === "table" || soleTag.name === "pre")) {
-      const raw = frag(soleTag).text().trim();
-      segments.push({ type: "rawUnsupported", enMarkdown: raw, sourceHash: hashText("raw:" + idx + raw) });
-      return;
-    }
-
-    const md = inlineToMarkdown(frag, nodes);
+  function flushParagraph(): void {
+    if (paragraphNodes.length === 0) return;
+    let md = inlineToMarkdown($, paragraphNodes);
+    paragraphNodes.length = 0;
     if (!md) return;
 
-    if (idx === 0) {
-      // First block leads with the date line.
+    if (!sawFirstText) {
+      sawFirstText = true;
       const parsed = parsePublishedAt(md);
       if (parsed) {
         publishedAt = parsed;
         const dm = md.match(/\b[A-Z][a-z]+\s+\d{4}\b/);
         dateText = dm ? dm[0] : "";
-        const rest = md.replace(/^.*?\d{4}\s*/, "").trim();
-        if (rest) segments.push({ type: "paragraph", enMarkdown: rest, sourceHash: hashText(rest) });
-        return;
+        md = md.replace(/^.*?\d{4}\s*/, "").trim();
+        if (!md) return;
       }
     }
     segments.push({ type: "paragraph", enMarkdown: md, sourceHash: hashText(md) });
-  });
+  }
+
+  function isBrPair(nodes: AnyNode[], i: number): boolean {
+    const a = nodes[i];
+    const b = nodes[i + 1];
+    return (
+      a?.type === "tag" && a.name === "br" &&
+      b?.type === "tag" && b.name === "br"
+    );
+  }
+
+  const flatNodes: AnyNode[] = [];
+  flatten($, container.contents().toArray(), flatNodes);
+
+  for (let i = 0; i < flatNodes.length; i++) {
+    const node = flatNodes[i];
+
+    if (node.type === "tag" && BLOCK_TAGS.has(node.name)) {
+      flushParagraph();
+      if (node.name === "blockquote") {
+        const md = blockquoteToMarkdown($, node);
+        if (md.trim()) segments.push({ type: "quote", enMarkdown: md, sourceHash: hashText(md) });
+      } else if (node.name === "ul" || node.name === "ol") {
+        const md = listToMarkdown($, node);
+        if (md.trim()) segments.push({ type: "list", enMarkdown: md, sourceHash: hashText(md) });
+      } else if (node.name === "table" || node.name === "pre") {
+        const raw = node.name === "table" ? tableToText($, node) : $(node).text().trim();
+        if (raw) {
+          segments.push({ type: "rawUnsupported", enMarkdown: raw, sourceHash: hashText("raw:" + rawIdx++ + raw) });
+        }
+      } else if (node.name === "hr") {
+        segments.push({ type: "hr", sourceHash: hashText("hr:" + hrIdx++) });
+      }
+      continue;
+    }
+
+    if (isBrPair(flatNodes, i)) {
+      flushParagraph();
+      i++; // consume the second <br> of the pair as well
+      continue;
+    }
+
+    paragraphNodes.push(node);
+  }
+  flushParagraph();
 
   return { titleEn, dateText, publishedAt, segments };
 }
