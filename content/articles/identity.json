@@ -1,0 +1,132 @@
+{
+  "slug": "identity",
+  "titleEn": "Keep Your Identity Small",
+  "titleZh": "保持个人身份标签的精简",
+  "dateText": "February 2009",
+  "publishedAt": "2009-02-01",
+  "sourceOrder": 126,
+  "sourceUrl": "https://paulgraham.com/identity.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "dee8984fdbf597db0cdb74095ecf36c744e90b2faee158634e31143d4f3d0fcf",
+      "enMarkdown": "I finally realized today why politics and religion yield such uniquely useless discussions.",
+      "zhMarkdown": "今天我终于想通了，为什么政治和宗教领域的讨论总是如此毫无建树、令人绝望。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2720c773a08f690118594639aecdfa155a730653baa265bcf8e1b4cf7a07465d",
+      "enMarkdown": "As a rule, any mention of religion on an online forum degenerates into a religious argument. Why? Why does this happen with religion and not with Javascript or baking or other topics people talk about on forums?",
+      "zhMarkdown": "一般来说，在线论坛上只要提到宗教，讨论很快就会退化为一场宗教论战。为什么？为什么这种现象只发生在宗教上，而不会发生在 Javascript、烘焙或其他大家常聊的话题上？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b661c0e11973e20ac31e9d0363b3b0519c59dbaf2b70cbf8ed827ad077ef920d",
+      "enMarkdown": "What's different about religion is that people don't feel they need to have any particular expertise to have opinions about it. All they need is strongly held beliefs, and anyone can have those. No thread about Javascript will grow as fast as one about religion, because people feel they have to be over some threshold of expertise to post comments about that. But on religion everyone's an expert.",
+      "zhMarkdown": "宗教的特殊之处在于，人们觉得不需要任何专业知识就可以对其发表意见。你只需要有强烈的信念就行，而信念是人人都可以拥有的。任何关于 Javascript 的帖子，其热度增长速度都比不上关于宗教的帖子，因为人们觉得必须达到一定的专业门槛才好意思发表评论。但在宗教问题上，人人都是专家。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7e1bef86c4a14151fb215368c9f5bd9a71701837c391d3c7d05554c714d321ab",
+      "enMarkdown": "Then it struck me: this is the problem with politics too. Politics, like religion, is a topic where there's no threshold of expertise for expressing an opinion. All you need is strong convictions.",
+      "zhMarkdown": "接着我突然意识到：政治也是同样的问题。政治和宗教一样，也是一个发表意见不需要任何专业门槛的话题。你只需要有强烈的信念就行。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c490deb4b6fe8bef2d3c50aaa85e12692e85615710643ba1a5cff914934b96a9",
+      "enMarkdown": "Do religion and politics have something in common that explains this similarity? One possible explanation is that they deal with questions that have no definite answers, so there's no back pressure on people's opinions. Since no one can be proven wrong, every opinion is equally valid, and sensing this, everyone lets fly with theirs.",
+      "zhMarkdown": "宗教和政治之间是否存在某种共同点，可以解释这种相似性？一种可能的解释是，它们探讨的都是没有确切答案的问题，因此人们的观点不会受到客观现实的约束。既然没人能被证明是错的，那么每个人的观点就同样正确。意识到这一点后，大家便开始畅所欲言、各执一词。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3641cc33feb04d8af45bf577d86dce65356f13a3decf31987fc669315935cfd5",
+      "enMarkdown": "But this isn't true. There are certainly some political questions that have definite answers, like how much a new government policy will cost. But the more precise political questions suffer the same fate as the vaguer ones.",
+      "zhMarkdown": "但这其实并不成立。有些政治问题显然是有确切答案的，比如一项新的政府政策需要花多少钱。然而，那些更为具体的政治问题，其遭遇的口水战和那些模糊的问题相比也并无二致。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "92c5bc161abaccab496c71a93347cc1995b2e39972f2bad5915358e1fc7c7a4f",
+      "enMarkdown": "I think what religion and politics have in common is that they become part of people's identity, and people can never have a fruitful argument about something that's part of their identity. By definition they're partisan.",
+      "zhMarkdown": "我认为，宗教和政治的共同点在于，它们都成了人们个人身份（identity）的一部分。而一旦某个事物成了个人身份的一部分，人们就永远无法对其进行富有成效的讨论。从定义上来说，此时人们已经有了党同伐异的立场。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "95c0d0be0d9db7818f36089043218dca3d95cc50a84548ed6f0d518663809d55",
+      "enMarkdown": "Which topics engage people's identity depends on the people, not the topic. For example, a discussion about a battle that included citizens of one or more of the countries involved would probably degenerate into a political argument. But a discussion today about a battle that took place in the Bronze Age probably wouldn't. No one would know what side to be on. So it's not politics that's the source of the trouble, but identity. When people say a discussion has degenerated into a religious war, what they really mean is that it has started to be driven mostly by people's identities. [[1](#f1n)]",
+      "zhMarkdown": "哪些话题会激发人们的身份认同，取决于参与讨论的人，而不是话题本身。例如，一场关于某场战役的讨论，如果有参战国公民的加入，大概率会退化为一场政治争论。但如果今天讨论的是一场发生在青铜时代的战役，大概率就不会。因为没人知道自己该站在哪一边。所以，问题的根源不在于政治，而在于个人身份。当人们说某个讨论退化为一场“宗教战争”时，他们真正的意思是，这个讨论已经开始主要由人们的身份认同所驱动了。[[1](#f1n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "3e5ed03bad9a19f948d4cf9ae32e58f5cd9cc7596e3f6ccfd01fb9c7cdf330db",
+      "enMarkdown": "Because the point at which this happens depends on the people rather than the topic, it's a mistake to conclude that because a question tends to provoke religious wars, it must have no answer. For example, the question of the relative merits of programming languages often degenerates into a religious war, because so many programmers identify as X programmers or Y programmers. This sometimes leads people to conclude the question must be unanswerable—that all languages are equally good. Obviously that's false: anything else people make can be well or badly designed; why should this be uniquely impossible for programming languages? And indeed, you can have a fruitful discussion about the relative merits of programming languages, so long as you exclude people who respond from identity.",
+      "zhMarkdown": "因为这种现象何时发生取决于人而非话题，所以，如果一个问题容易引发“宗教战争”，就断定它没有标准答案，这是一种误判。例如，关于编程语言优劣的讨论经常会退化为宗教战争，因为太多程序员将自己贴上“X 语言程序员”或“Y 语言程序员”的身份标签。这有时会让人们得出结论，认为这个问题一定没有标准答案——所有语言都一样好。这显然是错的：人类制造的其他任何东西都有好坏之分，为什么偏偏编程语言就不能有优劣？事实上，只要你排除那些出于身份认同而发言的人，你完全可以对编程语言的优劣进行富有成效的讨论。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "442686ffe037a7f063b6fe486675d71724078f5cc3f9b8cb35159ae3f50c3c22",
+      "enMarkdown": "More generally, you can have a fruitful discussion about a topic only if it doesn't engage the identities of any of the participants. What makes politics and religion such minefields is that they engage so many people's identities. But you could in principle have a useful conversation about them with some people. And there are other topics that might seem harmless, like the relative merits of Ford and Chevy pickup trucks, that you couldn't safely talk about with [others](http://www.theledger.com/apps/pbcs.dll/article?AID=/20060418/NEWS/604180378/1039).",
+      "zhMarkdown": "更广泛地说，只有在不触及任何参与者身份认同的前提下，你才能对一个话题进行富有成效的讨论。政治和宗教之所以成为地雷区，就是因为它们触及了太多人的身份认同。但原则上，如果你能找到特定的人，依然可以和他们进行有益的探讨。相反，有些看似无害的话题，比如福特和雪佛兰皮卡车哪个更好，你却无法安全地和[某些人](http://www.theledger.com/apps/pbcs.dll/article?AID=/20060418/NEWS/604180378/1039)讨论。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "419321b44696c8997d481788d5e438382976adf00b4576900c0fdd496df7143e",
+      "enMarkdown": "The most intriguing thing about this theory, if it's right, is that it explains not merely which kinds of discussions to avoid, but how to have better ideas. If people can't think clearly about anything that has become part of their identity, then all other things being equal, the best plan is to let as few things into your identity as possible. [[2](#f2n)]",
+      "zhMarkdown": "如果这个理论是正确的，那么它最迷人的一点在于，它不仅解释了应该避免哪些讨论，还指明了如何产生更好的想法。如果人们无法对自己身份认同的一部分进行清晰的思考，那么在其他条件相同的情况下，最好的策略就是让尽可能少的事情进入你的身份认同。[[2](#f2n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "9397542f19a40977f7c3f12269c3175493cc8e7d8f19d9fbfd1519783155bfae",
+      "enMarkdown": "Most people reading this will already be fairly tolerant. But there is a step beyond thinking of yourself as x but tolerating y: not even to consider yourself an x. The more labels you have for yourself, the dumber they make you.",
+      "zhMarkdown": "读到这篇文章的大多数人应该已经相当宽容了。但是，在“认为自己是 X 但包容 Y”之外，还有更进一步的境界：那就是根本不把自己看作 X。你给自己贴的标签越多，这些标签就会让你变得越愚蠢。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "91858376263926875569387f7f937907e7ba33a0d5173e1e4d508f7d941b3b18",
+      "enMarkdown": "[1] When that happens, it tends to happen fast, like a core going critical. The threshold for participating goes down to zero, which brings in more people. And they tend to say incendiary things, which draw more and angrier counterarguments.",
+      "zhMarkdown": "[1] 一旦发生这种情况，往往来势极快，就像核反应堆达到临界状态一样。参与的门槛降到了零，从而吸引了更多人加入。而这些人往往会发表煽动性的言论，进而引发更多、更愤怒的反驳。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "f3229fd57a2c17f52e17debdfd264bc6449f10b85f4369996a6e9e523e6d1b78",
+      "enMarkdown": "[2] There may be some things it's a net win to include in your identity. For example, being a scientist. But arguably that is more of a placeholder than an actual label—like putting NMI on a form that asks for your middle initial—because it doesn't commit you to believing anything in particular. A scientist isn't committed to believing in natural selection in the same way a biblical literalist is committed to rejecting it. All he's committed to is following the evidence wherever it leads.",
+      "zhMarkdown": "[2] 也许有少数事物，将其纳入你的身份认同是利大于弊的。例如，成为一名科学家。但可以证明，这更像是一个占位符，而不是一个真正的标签——就像在表格中要求填写中间名首字母的地方填上“无中间名”一样——因为它并不要求你必须相信某些特定的东西。科学家并不像圣经字面主义者致力于拒绝自然选择那样，致力于去相信自然选择。他唯一的承诺就是追随证据，无论证据指向何方。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "368a249897ba587eb0feeaeaaeaee0db254496fcfb1ff323d36e723c301087b1",
+      "enMarkdown": "Considering yourself a scientist is equivalent to putting a sign in a cupboard saying \"this cupboard must be kept empty.\" Yes, strictly speaking, you're putting something in the cupboard, but not in the ordinary sense.",
+      "zhMarkdown": "视自己为一名科学家，相当于在橱柜里贴一个写着“此橱柜必须保持空置”的标签。是的，从严格意义上讲，你确实在橱柜里放了东西，但并不是通常意义上的那种东西。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "eecf277f79ac9020d894a3052382176e75726568d74847de376591e12a40cd56",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Paul Buchheit, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Paul Buchheit 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

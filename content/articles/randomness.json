@@ -1,0 +1,125 @@
+{
+  "slug": "randomness",
+  "titleEn": "See Randomness",
+  "titleZh": "参见《看见随机性》",
+  "dateText": "April 2006",
+  "publishedAt": "2006-04-01",
+  "sourceOrder": 170,
+  "sourceUrl": "https://paulgraham.com/randomness.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "6922cd61e50166cda11565af05cb4daf777bc2e6a764a4a20c2df63cc153ee1e",
+      "enMarkdown": ", rev August 2009",
+      "zhMarkdown": "，2009年8月修订"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "14019cd85dfec9f7a82003cf304c511ce2c3e7d54809e233234548a857440d93",
+      "enMarkdown": "Plato quotes Socrates as saying \"the unexamined life is not worth living.\" Part of what he meant was that the proper role of humans is to think, just as the proper role of anteaters is to poke their noses into anthills.",
+      "zhMarkdown": "柏拉图曾引用苏格拉底的名言：“未经审视的生活是不值得过的。”他部分的意思是，人类的本分就是思考，正如食蚁兽的本分就是把鼻子拱进蚁穴一样。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "17005152505122cc141c4a2a9ea144483eb5bd1bf34643dbd6da389f1cc83cf5",
+      "enMarkdown": "A lot of ancient philosophy had the quality — and I don't mean this in an insulting way — of the kind of conversations freshmen have late at night in common rooms:",
+      "zhMarkdown": "许多古代哲学都带有一种特质——我这么说并无贬义——就像大学新生深夜在宿舍公共活动室里的那种闲聊："
+    },
+    {
+      "id": 4,
+      "type": "quote",
+      "sourceHash": "04973dec7ef0824bb8739e01d9832b120dcb87e2cc5cabac3f52b215acf9051b",
+      "enMarkdown": "> What is our purpose? Well, we humans are as conspicuously different from other animals as the anteater. In our case the distinguishing feature is the ability to reason. So obviously that is what we should be doing, and a human who doesn't is doing a bad job of being human — is no better than an animal.",
+      "zhMarkdown": "> 我们的目的是什么？嗯，我们人类和食蚁兽一样，与其他动物有着极其显著的区别。对我们而言，最独特的特征是理性思考的能力。所以显而易见，这就是我们应该做的事。一个不进行理性思考的人，就没有尽到做人的本分——和动物没什么两样。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "61d02cff0dcab65c0f291168afad30c67b83ceae79db4b50bc1f696e3e6a7e28",
+      "enMarkdown": "Now we'd give a different answer. At least, someone Socrates's age would. We'd ask why we even suppose we have a \"purpose\" in life. We may be better adapted for some things than others; we may be happier doing things we're adapted for; but why assume purpose?",
+      "zhMarkdown": "现在我们会给出不同的答案。至少，一个处于苏格拉底那个时代年纪的人会这么做。我们会问，为什么我们甚至会认为生命是有“目的”的？我们可能在某些事情上比在其他事情上更适应；我们做自己适应的事情可能会更快乐；但为什么要假设有一个目的呢？"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "45d7e0df526d1a21d268bee22e812bf895c8603763866850301fb04cae5ead46",
+      "enMarkdown": "The history of ideas is a history of gradually discarding the assumption that it's all about us. No, it turns out, the earth is not the center of the universe — not even the center of the solar system. No, it turns out, humans are not created by God in his own image; they're just one species among many, descended not merely from apes, but from microorganisms. Even the concept of \"me\" turns out to be fuzzy around the edges if you examine it closely.",
+      "zhMarkdown": "思想史就是一部逐渐抛弃“一切都围绕着我们转”这一假设的历史。事实证明，地球并不是宇宙的中心——甚至不是太阳系的中心。事实证明，人类并不是上帝按照自己的形象创造的；我们只是众多物种中的一种，不仅是猿类的后代，更是微生物的后代。如果你仔细审视，甚至连“我”这个概念的边缘也开始变得模糊不清。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "755da45e71bdb5e6b616d3d2a851bbb0591b51c38eec5d4f8098da3c20f37d27",
+      "enMarkdown": "The idea that we're the center of things is difficult to discard. So difficult that there's probably room to discard more. Richard Dawkins made another step in that direction only in the last several decades, with the idea of the [selfish gene](http://en.wikipedia.org/wiki/The_Selfish_Gene). No, it turns out, we're not even the protagonists: we're just the latest model vehicle our genes have constructed to travel around in. And having kids is our genes heading for the lifeboats. Reading that book snapped my brain out of its previous way of thinking the way Darwin's must have when it first appeared.",
+      "zhMarkdown": "“我们是万物中心”的观念极难摒弃。难到我们很可能还有进一步摒弃它的空间。理查德·道金斯直到过去几十年才在这方面又迈出了一步，提出了[自私的基因](http://en.wikipedia.org/wiki/The_Selfish_Gene)这一概念。事实证明，我们甚至不是主角：我们只是我们的基因为了四处旅行而构建的最新型号的载体。而生孩子，则是我们的基因在奔向救生艇。读完那本书，我的大脑一下子跳出了原有的思维模式，就像达尔文的著作刚问世时对当时人们产生的影响一样。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "87fc5a5e5e87b0f8ba5adc56464b27d811692cf8f33325c2194efe225493e347",
+      "enMarkdown": "(Few people can experience now what Darwin's contemporaries did when *The Origin of Species* was first published, because everyone now is raised either to take evolution for granted, or to regard it as a heresy. No one encounters the idea of natural selection for the first time as an adult.)",
+      "zhMarkdown": "（现在很少有人能体验到达尔文同时代人在《物种起源》首次出版时的感受了，因为现在每个人在成长过程中，要么把进化论视为理所当然，要么将其视为异端邪说。没有人在成年后才第一次接触到自然选择的概念。）"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "97e14297f86b2e85f7ab293d5d4aa163b865a92cab9b9c5fadbde40fb4d7994d",
+      "enMarkdown": "So if you want to discover things that have been overlooked till now, one really good place to look is in our blind spot: in our natural, naive belief that it's all about us. And expect to encounter ferocious opposition if you do.",
+      "zhMarkdown": "所以，如果你想发现至今仍被忽视的事物，一个绝佳的切入点就是寻找我们的盲区：即我们那种自然的、天真的、认为“一切都围绕着我们转”的信念。如果你真这么做了，就要做好遭遇猛烈反对的准备。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "cce3899d3361a471b91be3424e9e62e965158d8db99d661d4dd92e9ca32aed27",
+      "enMarkdown": "Conversely, if you have to choose between two theories, prefer the one that doesn't center on you.",
+      "zhMarkdown": "相反，如果你必须在两种理论之间做出选择，请倾向于选择那一个不以你为中心的理论。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "3882738b474f1a6ebacecbbbd377a08563178a52caf0b0bcd73e4b741764dadb",
+      "enMarkdown": "This principle isn't only for big ideas. It works in everyday life, too. For example, suppose you're saving a piece of cake in the fridge, and you come home one day to find your housemate has eaten it. Two possible theories:",
+      "zhMarkdown": "这一原则不仅适用于宏大思想，在日常生活中同样行之有效。例如，假设你在冰箱里留了一块蛋糕，某天回到家却发现被室友吃掉了。有两种可能的解释："
+    },
+    {
+      "id": 12,
+      "type": "quote",
+      "sourceHash": "590c0f1173869049b01dc7b6258707803629667164450b32ed24b919e91367bd",
+      "enMarkdown": "> a) Your housemate did it deliberately to upset you. He *knew* you were saving that piece of cake.\n> \n> b) Your housemate was hungry.",
+      "zhMarkdown": "> a) 你的室友是故意气你的。他*明明知道*你留了那块蛋糕。\n> \n> b) 你的室友饿了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "a4e0ccb4ffe2cffad42cfe1deeb51f56139dcaf002f2b9621a01d73660911b47",
+      "enMarkdown": "I say pick b. No one knows who said \"never attribute to malice what can be explained by incompetence,\" but it is a powerful idea. Its more general version is our answer to the Greeks:",
+      "zhMarkdown": "我建议选择 b。虽然没人知道“绝不要把能解释为愚蠢的行为归咎于恶意”这句话是谁说的，但它是一个强大的思想。它更普适的版本，就是我们对古希腊人的回应："
+    },
+    {
+      "id": 14,
+      "type": "quote",
+      "sourceHash": "5aeb2ac6aaa194b2a5962380ce1c256f5f0413de3658dce979d0544bef033377",
+      "enMarkdown": "> Don't see purpose where there isn't.",
+      "zhMarkdown": "> 不要无中生有地寻找目的。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "39a84be42cc6b8839cb3fff6698f82ceca733511f5975bddc86271223d4a4959",
+      "enMarkdown": "Or better still, the positive version:",
+      "zhMarkdown": "或者更进一步，用积极的版本来说："
+    },
+    {
+      "id": 16,
+      "type": "quote",
+      "sourceHash": "0aa60edddbb601790c3e501ff5dbd803518f180ec1dd7b07992e54cef14e9adf",
+      "enMarkdown": "> See randomness.",
+      "zhMarkdown": "> 看见随机性。"
+    }
+  ]
+}

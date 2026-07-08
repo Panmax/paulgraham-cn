@@ -1,0 +1,573 @@
+{
+  "slug": "hundred",
+  "titleEn": "The Hundred-Year Language",
+  "titleZh": "百年语言",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 207,
+  "sourceUrl": "https://paulgraham.com/hundred.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "aeb304f285ec781290bbff7c4f517354c58ffa1dfbacbc5dc8b59801179435e3",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-hundred-year-language-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-hundred-year-language-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "0b0107dab779d6164cf929d9d20a1a00f121b211a4f29b9ed74e7f7e96bae48b",
+      "enMarkdown": "April 2003",
+      "zhMarkdown": "2003年4月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "10400ee4a48773a05f1a6fbcabb97f0c9b42c148255dff5a7398448c68ff4cad",
+      "enMarkdown": "*(This essay is derived from a keynote talk at PyCon 2003.)*",
+      "zhMarkdown": "*(本文改编自作者在 PyCon 2003 上的主题演讲。)*"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "82252d867634ebbf6430ac36f984fabb61803e8e922f7b591b84ae92f2b4f1e1",
+      "enMarkdown": "It's hard to predict what life will be like in a hundred years. There are only a few things we can say with certainty. We know that everyone will drive flying cars, that zoning laws will be relaxed to allow buildings hundreds of stories tall, that it will be dark most of the time, and that women will all be trained in the martial arts. Here I want to zoom in on one detail of this picture. What kind of programming language will they use to write the software controlling those flying cars?",
+      "zhMarkdown": "预测一百年后的生活很难。我们只能确切地知道几件事：所有人都会开着飞行汽车，规划法会放宽以允许建造数百层高的摩天大楼，大部分时间天色都是暗的，女性都会接受武术训练。在这里，我想把镜头拉近，聚焦于这个画面中的一个细节。他们会用什么样的编程语言来编写控制那些飞行汽车的软件？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f1fa2baa2584178fb318f5b46acdcc91e2759003c83513dd2a4c7227c82e63a1",
+      "enMarkdown": "This is worth thinking about not so much because we'll actually get to use these languages as because, if we're lucky, we'll use languages on the path from this point to that.",
+      "zhMarkdown": "思考这个问题很有价值，倒不是因为我们真的能用上这些语言，而是因为运气好的话，我们能用上从现在通往那个未来的过渡语言。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "4c50eae1341f363b6de847919b34a40230d2d9ceb6c240ab2952cf51d4aacc94",
+      "enMarkdown": "I think that, like species, languages will form evolutionary trees, with dead-ends branching off all over. We can see this happening already. Cobol, for all its sometime popularity, does not seem to have any intellectual descendants. It is an evolutionary dead-end-- a Neanderthal language.",
+      "zhMarkdown": "我认为，就像生物物种一样，语言也会形成进化树，到处分叉出死胡同。我们已经能看到这种现象了。Cobol 尽管曾红极一时，但似乎没有任何思想上的后代。它是一个进化的死胡同——一种尼安德特人式的语言。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "82796835a3486e65a839a7482f5cf6f1d94fc2d3cc9ed8c8395d1fd581b55e42",
+      "enMarkdown": "I predict a similar fate for Java. People sometimes send me mail saying, \"How can you say that Java won't turn out to be a successful language? It's already a successful language.\" And I admit that it is, if you measure success by shelf space taken up by books on it (particularly individual books on it), or by the number of undergrads who believe they have to learn it to get a job. When I say Java won't turn out to be a successful language, I mean something more specific: that Java will turn out to be an evolutionary dead-end, like Cobol.",
+      "zhMarkdown": "我预测 Java 也会有类似的命运。有时有人会写信给我说：“你怎么能说 Java 不会成为一门成功的语言？它现在已经很成功了。”我承认确实如此，如果你用书架上关于它的书籍所占的空间（尤其是关于它个人的书籍），或者用那些认为不学它就找不到工作的本科生人数来衡量成功的话。当我说 Java 不会成为一门成功的语言时，我指的是更具体的意思：Java 将会像 Cobol 一样，成为进化的死胡同。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "43a60ba2d48c20fe847992b174e684e7b709286bc46a712a715789e9456b47f3",
+      "enMarkdown": "This is just a guess. I may be wrong. My point here is not to dis Java, but to raise the issue of evolutionary trees and get people asking, where on the tree is language X? The reason to ask this question isn't just so that our ghosts can say, in a hundred years, I told you so. It's because staying close to the main branches is a useful heuristic for finding languages that will be good to program in now.",
+      "zhMarkdown": "这只是一个猜测，我也许错了。我这里的重点不是要贬低 Java，而是想提出进化树的问题，让人们思考：语言 X 在进化树的什么位置？问这个问题的目的，不仅是为了让我们的一缕幽魂在百年后能说“我早就告诉过你”，而是因为紧跟主干是一条实用的启发式法则，能帮我们找到现在就值得去用的好编程语言。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "133991ff5fa064f241dc5c51b85313e5a30cf6f1aeb9a283941f5b035f7b0f5c",
+      "enMarkdown": "At any given time, you're probably happiest on the main branches of an evolutionary tree. Even when there were still plenty of Neanderthals, it must have sucked to be one. The Cro-Magnons would have been constantly coming over and beating you up and stealing your food.",
+      "zhMarkdown": "在任何特定时期，待在进化树的主干上大概是最幸福的。即使在尼安德特人还很多的时候，当一个尼安德特人也一定很惨。克罗马农人会不断跑过来揍你，抢走你的食物。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "51dff3af3f2e6c29d417f5b4b813c9f8507621505b63d8077fe137981f6335e8",
+      "enMarkdown": "The reason I want to know what languages will be like in a hundred years is so that I know what branch of the tree to bet on now.",
+      "zhMarkdown": "我想知道一百年后的语言会是什么样子，就是为了知道现在该把筹码押在进化树的哪一个分支上。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "d26f76dd509cb18c86b1d9eac60bf30e965157c58a46de9fc5c4d5bf891570c3",
+      "enMarkdown": "The evolution of languages differs from the evolution of species because branches can converge. The Fortran branch, for example, seems to be merging with the descendants of Algol. In theory this is possible for species too, but it's not likely to have happened to any bigger than a cell.",
+      "zhMarkdown": "语言的进化与物种的进化不同，因为分支可以合并。例如，Fortran 分支似乎正在与 Algol 的后代融合。理论上这在生物物种中也有可能发生，但对于任何比单细胞更大的生物来说，这都不太可能发生。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "6d47b7623b9309ae67598c3dfe68449e4c0ad4af3fd716daab903793975ae781",
+      "enMarkdown": "Convergence is more likely for languages partly because the space of possibilities is smaller, and partly because mutations are not random. Language designers deliberately incorporate ideas from other languages.",
+      "zhMarkdown": "语言更容易发生融合，部分原因在于可能性的空间较小，另一部分原因在于变异并不是随机的。语言设计者会刻意吸收其他语言的想法。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "00cca380ad74646eea4165d9666b30b46b1ec76d0be0d41c34907fd22771b0dc",
+      "enMarkdown": "It's especially useful for language designers to think about where the evolution of programming languages is likely to lead, because they can steer accordingly. In that case, \"stay on a main branch\" becomes more than a way to choose a good language. It becomes a heuristic for making the right decisions about language design.",
+      "zhMarkdown": "对于语言设计者来说，思考编程语言的进化走向尤其有用，因为他们可以据此调整方向。在这种情况下，“紧跟主干”就不再仅仅是选择一门好语言的方法，它成了一条能在语言设计中做出正确决策的启发式法则。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "b87c6340b69dafcf55c806fd79555d8dad6107ecb9a2e02c0fa122d5a589d162",
+      "enMarkdown": "Any programming language can be divided into two parts: some set of fundamental operators that play the role of axioms, and the rest of the language, which could in principle be written in terms of these fundamental operators.",
+      "zhMarkdown": "任何编程语言都可以分为两部分：一组扮演公理角色的基本算子，以及语言的其余部分（原则上可以用这些基本算子来编写）。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5bf97e37157243703b75b4a6cbea1ba94eccfc41dc3dc4ac2eefbd972837cfaa",
+      "enMarkdown": "I think the fundamental operators are the most important factor in a language's long term survival. The rest you can change. It's like the rule that in buying a house you should consider location first of all. Everything else you can fix later, but you can't fix the location.",
+      "zhMarkdown": "我认为基本算子是一门语言能否长期生存的最关键因素。其余的部分你都可以改。这就像买房子的黄金法则：首先要考虑地段。其他一切以后都可以修缮，但地段是无法改变的。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "8d0be1de2a12e000a6e2ec92fe0e07a534d11c58dc130acfbd06e7c674f4646d",
+      "enMarkdown": "I think it's important not just that the axioms be well chosen, but that there be few of them. Mathematicians have always felt this way about axioms-- the fewer, the better-- and I think they're onto something.",
+      "zhMarkdown": "我认为重要的不仅是公理要选得好，而且数量要少。数学家对公理一向如此看待——越少越好——我觉得他们说到了点子上。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f67e88dab6c8d07390055fc51f0452da35acb9cdfa01023733a18680293a2599",
+      "enMarkdown": "At the very least, it has to be a useful exercise to look closely at the core of a language to see if there are any axioms that could be weeded out. I've found in my long career as a slob that cruft breeds cruft, and I've seen this happen in software as well as under beds and in the corners of rooms.",
+      "zhMarkdown": "起码，仔细审视一门语言的核心，看看有没有什么可以剔除的公理，是一次很有用的尝试。在我漫长而散漫的生涯中，我发现垃圾会滋生垃圾，我不仅在床底下和房间角落里看到过这种情况，在软件中也见过。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7febb38a97e293070e0aa3433d2e64f1895943e49699f3d736478657995a0eb7",
+      "enMarkdown": "I have a hunch that the main branches of the evolutionary tree pass through the languages that have the smallest, cleanest cores. The more of a language you can write in itself, the better.",
+      "zhMarkdown": "我有一种预感，进化树的主干会穿过那些核心最小、最干净的语言。一门语言能用自身来实现的部分越多，它就越优秀。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "d65570d8cad1e8e772b3cdb4d8e9281e10498bfb73a1d7115540a5d5c2b4b888",
+      "enMarkdown": "Of course, I'm making a big assumption in even asking what programming languages will be like in a hundred years. Will we even be writing programs in a hundred years? Won't we just tell computers what we want them to do?",
+      "zhMarkdown": "当然，我光是问一百年后编程语言会是什么样子，就已经做了一个巨大的假设。一百年后我们还会写程序吗？我们难道不会直接告诉电脑我们想要它们做什么吗？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "b67ab1f9d4ef3550fd295c5400841afbd573cc6ff26c77b69c3774bc65e09a09",
+      "enMarkdown": "There hasn't been a lot of progress in that department so far. My guess is that a hundred years from now people will still tell computers what to do using programs we would recognize as such. There may be tasks that we solve now by writing programs and which in a hundred years you won't have to write programs to solve, but I think there will still be a good deal of programming of the type that we do today.",
+      "zhMarkdown": "到目前为止，这方面并没有取得太大进展。我的猜测是，一百年后，人们依然会使用那些我们能认得出的程序来命令计算机。现在有些通过写程序来解决的任务，一百年后可能不需要写程序了，但我认为，像我们今天所做的那种编程工作，届时依然会有相当大的分量。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "8acdfe157a361f4942a9a2446eb96ee7631bf2fb9c4e6500be77ce6f2b82527d",
+      "enMarkdown": "It may seem presumptuous to think anyone can predict what any technology will look like in a hundred years. But remember that we already have almost fifty years of history behind us. Looking forward a hundred years is a graspable idea when we consider how slowly languages have evolved in the past fifty.",
+      "zhMarkdown": "认为有人能预测任何技术在百年后会是什么样子，这似乎有些狂妄。但请记住，我们已经有了将近五十年的历史。考虑到过去五十年里语言进化的缓慢速度，展望百年之后其实是一个可以企及的想法。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "f93a100be07045124f5559740ff6a89a0c292f0d142ef7148f41f10800c581a2",
+      "enMarkdown": "Languages evolve slowly because they're not really technologies. Languages are notation. A program is a formal description of the problem you want a computer to solve for you. So the rate of evolution in programming languages is more like the rate of evolution in mathematical notation than, say, transportation or communications. Mathematical notation does evolve, but not with the giant leaps you see in technology.",
+      "zhMarkdown": "语言进化缓慢，是因为它们本质上不是技术。语言是记号系统（notation）。程序是对你希望计算机为你解决的问题的正式描述。因此，编程语言的进化速度更接近于数学符号的进化速度，而不是交通或通信技术的速度。数学符号确实在进化，但不会出现科技领域那种巨大的飞跃。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "d569ae03bbb040573f928798b3165740b548177239739a4257e517c8b68704c0",
+      "enMarkdown": "Whatever computers are made of in a hundred years, it seems safe to predict they will be much faster than they are now. If Moore's Law continues to put out, they will be 74 quintillion (73,786,976,294,838,206,464) times faster. That's kind of hard to imagine. And indeed, the most likely prediction in the speed department may be that Moore's Law will stop working. Anything that is supposed to double every eighteen months seems likely to run up against some kind of fundamental limit eventually. But I have no trouble believing that computers will be very much faster. Even if they only end up being a paltry million times faster, that should change the ground rules for programming languages substantially. Among other things, there will be more room for what would now be considered slow languages, meaning languages that don't yield very efficient code.",
+      "zhMarkdown": "无论一百年后的计算机是用什么材料制造的，几乎可以肯定它们会比现在快得多。如果摩尔定律继续发挥作用，它们将快上 7400 亿亿倍（73,786,976,294,838,206,464 倍）。这简直难以想象。事实上，关于速度最有可能的预测是摩尔定律将会失效。任何每18个月就要翻一番的东西，最终似乎都会碰到某种物理极限。但我完全相信计算机会变得非常快。即使它们最终只快了微不足道的100万倍，也足以彻底改变编程语言的游戏规则。除此以外，现在被认为是“慢”的语言（即无法产生高效代码的语言）将会有更大的生存空间。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "aa652a346182a3f3960c6cdb1643e41cf4d59e4aa60f5078738a825e6bb4f55c",
+      "enMarkdown": "And yet some applications will still demand speed. Some of the problems we want to solve with computers are created by computers; for example, the rate at which you have to process video images depends on the rate at which another computer can generate them. And there is another class of problems which inherently have an unlimited capacity to soak up cycles: image rendering, cryptography, simulations.",
+      "zhMarkdown": "然而，某些应用依然会对速度有要求。有些我们想用计算机解决的问题本身就是由计算机产生的；例如，你处理视频图像的速度取决于另一台计算机生成这些图像的速度。还有另一类问题，它们天生拥有无限吞噬算力的能力：图像渲染、密码学、模拟仿真。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "86c91d0b24227dd0997b05a5ae0950ebd4aff03b7f3e818d2a0edf886123c29c",
+      "enMarkdown": "If some applications can be increasingly inefficient while others continue to demand all the speed the hardware can deliver, faster computers will mean that languages have to cover an ever wider range of efficiencies. We've seen this happening already. Current implementations of some popular new languages are shockingly wasteful by the standards of previous decades.",
+      "zhMarkdown": "如果一部分应用可以变得越来越低效，而另一部分应用继续榨干硬件能提供的所有速度，那么更快的计算机意味着语言必须覆盖更广泛的效率范围。我们已经看到这种情况正在发生。按照前几十年的标准，当前一些流行新语言的实现方式浪费得令人震惊。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "97a6944763f92c64bf6deb569ec68c372a0634e9744d0fe62849b1f151d40797",
+      "enMarkdown": "This isn't just something that happens with programming languages. It's a general historical trend. As technologies improve, each generation can do things that the previous generation would have considered wasteful. People thirty years ago would be astonished at how casually we make long distance phone calls. People a hundred years ago would be even more astonished that a package would one day travel from Boston to New York via Memphis.",
+      "zhMarkdown": "这不仅发生在编程语言上，而是一个普遍的历史趋势。随着技术的进步，每一代人都可以做前一代人认为极度浪费的事情。三十年前的人要是看到我们现在如此随意地打长途电话，一定会大吃一惊。一百年前的人要是知道有一天一个包裹要从波士顿飞到孟菲斯再转运到纽约，会感到更加不可思议。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "8f1814afb797815b62687525a483e4e21ca544e93ddbc0a21c8b2eea6f760232",
+      "enMarkdown": "I can already tell you what's going to happen to all those extra cycles that faster hardware is going to give us in the next hundred years. They're nearly all going to be wasted.",
+      "zhMarkdown": "我现在就可以告诉你，未来一百年里，更快的硬件带给我们的所有额外算力会去向何方。它们几乎全都会被浪费掉。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "998c05a0331ecaa334518ccb39dd1b8b6237fe0170d0c76bfef347a12f914812",
+      "enMarkdown": "I learned to program when computer power was scarce. I can remember taking all the spaces out of my Basic programs so they would fit into the memory of a 4K TRS-80. The thought of all this stupendously inefficient software burning up cycles doing the same thing over and over seems kind of gross to me. But I think my intuitions here are wrong. I'm like someone who grew up poor, and can't bear to spend money even for something important, like going to the doctor.",
+      "zhMarkdown": "我学会编程的时候，计算机资源还很匮乏。我至今还记得把 Basic 程序里所有的空格都删掉，好让它们能塞进 4K 内存的 TRS-80 机器里。一想到现在所有这些效率低得惊人的软件在一次又一次重复运行中烧掉算力，我就觉得有点无法忍受。但我认为我在这方面的直觉是错的。我就像一个在贫困中长大的人，即使是为了看医生这种重要的事情，也舍不得花钱。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "28840642b9ef02355bf51eac76c2f7a92d8d0246c740bec7380c580aabc56d19",
+      "enMarkdown": "Some kinds of waste really are disgusting. SUVs, for example, would arguably be gross even if they ran on a fuel which would never run out and generated no pollution. SUVs are gross because they're the solution to a gross problem. (How to make minivans look more masculine.) But not all waste is bad. Now that we have the infrastructure to support it, counting the minutes of your long-distance calls starts to seem niggling. If you have the resources, it's more elegant to think of all phone calls as one kind of thing, no matter where the other person is.",
+      "zhMarkdown": "有些浪费确实是令人厌恶的。例如 SUV，哪怕它们用的是永远用不完的燃料且不产生污染，也依然显得粗俗。SUV 粗俗是因为它们是一个粗俗问题的解决方案（如何让迷你面包车看起来更有阳刚之气）。但并非所有的浪费都是坏事。既然我们现在有了支持它的基础设施，再去计算长途电话的分钟数就显得太小家子气了。如果你有资源，把所有的电话都看作是同一种东西，不管对方在地球的哪个角落，这才是更优雅的做法。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "5085bda8b8aa0247a67283ebcc49af6c739dbeedc16c879d7f38ea5424636eef",
+      "enMarkdown": "There's good waste, and bad waste. I'm interested in good waste-- the kind where, by spending more, we can get simpler designs. How will we take advantage of the opportunities to waste cycles that we'll get from new, faster hardware?",
+      "zhMarkdown": "浪费有好的，也有坏的。我感兴趣的是好的浪费——那种通过付出更多成本，来换取更简单设计的浪费。我们该如何利用新的、更快的硬件带来的浪费算力的机会呢？"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "39f415612ef51b89a03f14061dd90cdbceaba3510f08064eea59abb301c69554",
+      "enMarkdown": "The desire for speed is so deeply engrained in us, with our puny computers, that it will take a conscious effort to overcome it. In language design, we should be consciously seeking out situations where we can trade efficiency for even the smallest increase in convenience.",
+      "zhMarkdown": "由于我们用惯了弱小的计算机，对速度的渴望已经深深烙印在骨子里，以至于需要付出自觉的努力才能克服它。在语言设计中，我们应该自觉地去寻找那些可以用效率换取哪怕是一丁点便利的场景。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "20656130d03a302bb9d323ce746d8a7cb8cd63ebcc220fc76c5f74ac85784858",
+      "enMarkdown": "Most data structures exist because of speed. For example, many languages today have both strings and lists. Semantically, strings are more or less a subset of lists in which the elements are characters. So why do you need a separate data type? You don't, really. Strings only exist for efficiency. But it's lame to clutter up the semantics of the language with hacks to make programs run faster. Having strings in a language seems to be a case of premature optimization.",
+      "zhMarkdown": "大多数数据结构的存在都是为了速度。例如，今天的许多语言同时拥有字符串（string）和列表（list）。从语义上讲，字符串或多或少是列表的一个子集，其中的元素是字符。那么为什么需要一个单独的数据类型呢？其实并不需要。字符串的存在仅仅是为了效率。但是，为了让程序运行得更快而用这些黑客手段（hacks）去弄乱语言的语义，是很逊的。在语言中加入字符串，似乎是一种过早优化的典型案例。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "15f5a9975432af7590c89c0374cf0e91dacb4e988223894b0deb13851547b9bb",
+      "enMarkdown": "If we think of the core of a language as a set of axioms, surely it's gross to have additional axioms that add no expressive power, simply for the sake of efficiency. Efficiency is important, but I don't think that's the right way to get it.",
+      "zhMarkdown": "如果我们将语言的核心视为一组公理，那么仅仅为了效率而添加没有增加任何表达能力的额外公理，无疑是丑陋的。效率固然重要，但我认为那不是获取效率的正确途径。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "6ad8e4fdf32f55f6bbdb2c83d30a849d527857a42a06e54c68964dce274ba95c",
+      "enMarkdown": "The right way to solve that problem, I think, is to separate the meaning of a program from the implementation details. Instead of having both lists and strings, have just lists, with some way to give the compiler optimization advice that will allow it to lay out strings as contiguous bytes if necessary.",
+      "zhMarkdown": "我认为解决这个问题的正确方法是将程序的含义与实现细节分离开来。不要同时拥有列表和字符串，只保留列表，同时提供某种方式给编译器优化建议，允许它在必要时将字符串排布为连续字节。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "e27e18b976c23cc22eb84340d1f21656dcf86a32d422dadcdadcdf4994e9f115",
+      "enMarkdown": "Since speed doesn't matter in most of a program, you won't ordinarily need to bother with this sort of micromanagement. This will be more and more true as computers get faster.",
+      "zhMarkdown": "由于在程序的大部分地方速度并不重要，你通常不需要为这种微观管理操心。随着计算变得越来越快，情况会越来越是这样。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "16fca9d1ed7efea301435d9873801bcc117bcf7495126921f8bdc4ec3a1584f3",
+      "enMarkdown": "Saying less about implementation should also make programs more flexible. Specifications change while a program is being written, and this is not only inevitable, but desirable.",
+      "zhMarkdown": "减少对实现细节的规定也应该让程序变得更加灵活。在编写程序的过程中，需求规格会发生变化，这不仅是不可避免的，而且是值得鼓励的。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "c2dbd59ea29279fa0eee7d38abec579db0b4f06a442520504d73b967c76b4341",
+      "enMarkdown": "The word \"essay\" comes from the French verb \"essayer\", which means \"to try\". An essay, in the original sense, is something you write to try to figure something out. This happens in software too. I think some of the best programs were essays, in the sense that the authors didn't know when they started exactly what they were trying to write.",
+      "zhMarkdown": "“随笔”（essay）一词源于法语动词“essayer”，意思是“尝试”。在最初的意义上，随笔是你为了试图弄懂某件事而写下的文字。软件开发也是如此。我认为一些最优秀的程序就是随笔，因为作者在动手时，并不知道自己究竟想写出什么。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "9713c6eea54b37858bf0f0de47d621902975089c2e76b5d1a8ffc16938841538",
+      "enMarkdown": "Lisp hackers already know about the value of being flexible with data structures. We tend to write the first version of a program so that it does everything with lists. These initial versions can be so shockingly inefficient that it takes a conscious effort not to think about what they're doing, just as, for me at least, eating a steak requires a conscious effort not to think where it came from.",
+      "zhMarkdown": "Lisp 黑客早就明白在数据结构上保持灵活性的价值。我们倾向于把程序的第一版写成所有事情都用列表来处理。这些初始版本可能会低效得令人震惊，以至于你需要刻意克制自己不去想它们在底层是怎么运作的，就像对我来说，吃牛排时需要刻意克制自己不去想它来自哪里一样。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "1a019a4f351d08498a3e28df427eb0a75d5d7794be098d6a5173f1f3266de9e0",
+      "enMarkdown": "What programmers in a hundred years will be looking for, most of all, is a language where you can throw together an unbelievably inefficient version 1 of a program with the least possible effort. At least, that's how we'd describe it in present-day terms. What they'll say is that they want a language that's easy to program in.",
+      "zhMarkdown": "一百年后的程序员最渴望的，是一门能让你用最少的精力糊出一个效率低到令人难以置信的第一版程序的语言。至少，用我们今天的话会这样描述。而他们会说，他们想要一门容易编程的语言。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "29fa4e4b18066504ad7a454865907694214bb3cbc7e18cc05d33260228bc6f35",
+      "enMarkdown": "Inefficient software isn't gross. What's gross is a language that makes programmers do needless work. Wasting programmer time is the true inefficiency, not wasting machine time. This will become ever more clear as computers get faster.",
+      "zhMarkdown": "低效的软件并不丑陋。丑陋的是一门让程序员做无用功的语言。浪费程序员的时间才是真正的低效，而不是浪费机器时间。随着计算机变得越来越快，这一点会变得越来越清晰。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "d55faf54c15b69edce54f04b71c28bc07c37b2d9c65485e30f3cfc4dff4b968e",
+      "enMarkdown": "I think getting rid of strings is already something we could bear to think about. We did it in [Arc](https://paulgraham.com/arc.html), and it seems to be a win; some operations that would be awkward to describe as regular expressions can be described easily as recursive functions.",
+      "zhMarkdown": "我认为现在我们已经可以开始考虑消灭字符串了。我们在 [Arc](https://paulgraham.com/arc.html) 中就是这么做的，而且似乎很划算；一些用正则表达式描述起来很别扭的操作，用递归函数可以轻松描述。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "b0224d890489c234ea7701385e9eb348874ce01dcd39de46c0031ce52cfdb8df",
+      "enMarkdown": "How far will this flattening of data structures go? I can think of possibilities that shock even me, with my conscientiously broadened mind. Will we get rid of arrays, for example? After all, they're just a subset of hash tables where the keys are vectors of integers. Will we replace hash tables themselves with lists?",
+      "zhMarkdown": "这种数据结构的扁平化会走到什么程度？我可以想到一些连我自己都感到震惊的可能性，哪怕我已经刻意放开了思想。例如，我们会消灭数组（array）吗？毕竟，它们只是哈希表的一个子集，其键是整数向量。我们会用列表来代替哈希表本身吗？"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "ad385b9051003b2438351da55e48d06d3658670d6740f67ab788372fc88dd87f",
+      "enMarkdown": "There are more shocking prospects even than that. The Lisp that McCarthy described in 1960, for example, didn't have numbers. Logically, you don't need to have a separate notion of numbers, because you can represent them as lists: the integer n could be represented as a list of n elements. You can do math this way. It's just unbearably inefficient.",
+      "zhMarkdown": "甚至还有比这更令人震惊的前景。例如，麦卡锡在 1960 年描述的 Lisp 并没有数字。逻辑上，你不需要数字这个独立的概念，因为你可以用列表来表示它们：整数 n 可以表示为一个包含 n 个元素的列表。你可以用这种方式做数学运算，只是效率低到无法忍受。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "11e680e811ce5942b4c2ab31c5fdbbdb387d44ff066b3844b30e0d199f532ad7",
+      "enMarkdown": "No one actually proposed implementing numbers as lists in practice. In fact, McCarthy's 1960 paper was not, at the time, intended to be implemented at all. It was a [theoretical exercise](https://paulgraham.com/rootsoflisp.html), an attempt to create a more elegant alternative to the Turing Machine. When someone did, unexpectedly, take this paper and translate it into a working Lisp interpreter, numbers certainly weren't represented as lists; they were represented in binary, as in every other language.",
+      "zhMarkdown": "在实践中，没有人真的提议将数字实现为列表。事实上，麦卡锡 1960 年的论文在当时根本就没打算被实现。它是一个[理论练习](https://paulgraham.com/rootsoflisp.html)，试图创造一个比图灵机更优雅的替代方案。当有人出乎意料地拿到这篇论文并将其转化为一个可以运行的 Lisp 解释器时，数字当然没有被表示为列表；它们像在其他所有语言中一样，用二进制表示。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "a26a81608176205be343088ad3a9f25f1cf6f5e25ff619e3c7b6e010b1a454f1",
+      "enMarkdown": "Could a programming language go so far as to get rid of numbers as a fundamental data type? I ask this not so much as a serious question as as a way to play chicken with the future. It's like the hypothetical case of an irresistible force meeting an immovable object-- here, an unimaginably inefficient implementation meeting unimaginably great resources. I don't see why not. The future is pretty long. If there's something we can do to decrease the number of axioms in the core language, that would seem to be the side to bet on as t approaches infinity. If the idea still seems unbearable in a hundred years, maybe it won't in a thousand.",
+      "zhMarkdown": "一门编程语言会走得那么远，以至于把数字作为基本数据类型也消灭掉吗？我问这个问题，倒不是把它当作一个严肃的问题，而是为了和未来玩一把“胆小鬼博弈”。这就像“当无可阻挡的力量遇到不可撼动的物体”这一假设案例——在这里，是难以想象的低效实现遇上了难以想象的庞大资源。我觉得未尝不可。未来很长。如果有什么事情是我们可以做来减少核心语言中公理数量的，那么当时间 t 趋于无穷大时，押注在这一边似乎更明智。如果这个想法在一百年后仍然让人无法接受，也许在未来一千年里就不是了。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "8507e4c311544b35ac7ac8dbe3a92fe20026e6603015bf2ca100b723d2d05563",
+      "enMarkdown": "Just to be clear about this, I'm not proposing that all numerical calculations would actually be carried out using lists. I'm proposing that the core language, prior to any additional notations about implementation, be defined this way. In practice any program that wanted to do any amount of math would probably represent numbers in binary, but this would be an optimization, not part of the core language semantics.",
+      "zhMarkdown": "说清楚一点，我并不是建议所有的数值计算实际上都用列表来进行。我是建议，在对实现做任何额外的标注之前，核心语言应该这样定义。在实践中，任何想要做一定量数学运算的程序大概都会用二进制表示数字，但这将是一种优化，而不是核心语言语义的一部分。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "3ca27451727900e37e7bf8ae26bdbc116556fd6be45f4c750e0d536679963ce9",
+      "enMarkdown": "Another way to burn up cycles is to have many layers of software between the application and the hardware. This too is a trend we see happening already: many recent languages are compiled into byte code. Bill Woods once told me that, as a rule of thumb, each layer of interpretation costs a factor of 10 in speed. This extra cost buys you flexibility.",
+      "zhMarkdown": "另一种消耗算力的方式是在应用和硬件之间增加多层软件。这也是我们已经看到的趋势：许多近年来的语言都会被编译成字节码。Bill Woods 曾告诉我，根据经验，每增加一层解释，速度就会损失一个数量级（10倍）。这笔额外的成本买来的是灵活性。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "30883461d7c5399a4224e6aa3ed9116d07576b8520d6119ca6f7eb6604fc2aef",
+      "enMarkdown": "The very first version of Arc was an extreme case of this sort of multi-level slowness, with corresponding benefits. It was a classic \"metacircular\" interpreter written on top of Common Lisp, with a definite family resemblance to the eval function defined in McCarthy's original Lisp paper. The whole thing was only a couple hundred lines of code, so it was very easy to understand and change. The Common Lisp we used, CLisp, itself runs on top of a byte code interpreter. So here we had two levels of interpretation, one of them (the top one) shockingly inefficient, and the language was usable. Barely usable, I admit, but usable.",
+      "zhMarkdown": "Arc 的第一个版本就是这种多层低效的极端案例，但也带来了相应的回报。它是一个经典的、运行在 Common Lisp 之上的“元循环”（metacircular）解释器，与麦卡锡最初的 Lisp 论文中定义的 eval 函数有着明显的家族相似性。整个东西只有几百行代码，因此非常容易理解和修改。我们使用的 Common Lisp（即 CLisp）本身就运行在一个字节码解释器之上。所以这里我们有两层解释，其中一层（最上层）效率低得惊人，但语言是可用的。我承认勉强可用，但确实可用。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "5edcdc98e330a2acb754175b0a23dbe775e229e7f451fca03f647d2d987d9a02",
+      "enMarkdown": "Writing software as multiple layers is a powerful technique even within applications. Bottom-up programming means writing a program as a series of layers, each of which serves as a language for the one above. This approach tends to yield smaller, more flexible programs. It's also the best route to that holy grail, reusability. A language is by definition reusable. The more of your application you can push down into a language for writing that type of application, the more of your software will be reusable.",
+      "zhMarkdown": "即使在应用程序内部，将软件写成多个层次也是一种强大的技术。自底向上编程意味着将程序写成一系列的层，每一层都作为上一层的语言。这种方法往往能产生更小、更灵活的程序。它也是通往“可重用性”这一圣杯的最佳途径。语言根据定义就是可重用的。你把应用程序中越多的部分下沉到专门写这类应用的语言中，你的软件就越具有可重用性。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "df51c2242fd0898ccb3850760fc3f827a320d2a9d9ed36ad0240adf7c3f2cf04",
+      "enMarkdown": "Somehow the idea of reusability got attached to object-oriented programming in the 1980s, and no amount of evidence to the contrary seems to be able to shake it free. But although some object-oriented software is reusable, what makes it reusable is its bottom-upness, not its object-orientedness. Consider libraries: they're reusable because they're language, whether they're written in an object-oriented style or not.",
+      "zhMarkdown": "不知怎么的，可重用性的概念在 1980 年代与面向对象编程绑定在了一起，而且似乎任何相反的证据都无法动摇它。但是，虽然有些面向对象的软件是可重用的，但让它可重用的是它的自底向上性，而不是它的面向对象性。想想函数库：它们之所以可重用，是因为它们是语言，无论它们是否是用面向对象风格写成的。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "ad4bdb11667ff21bc9ce176524130111bb334f5e365c58587a666e4d9a2a44a7",
+      "enMarkdown": "I don't predict the demise of object-oriented programming, by the way. Though I don't think it has much to offer good programmers, except in certain specialized domains, it is irresistible to large organizations. Object-oriented programming offers a sustainable way to write spaghetti code. It lets you accrete programs as a series of patches.  Large organizations always tend to develop software this way, and I expect this to be as true in a hundred years as it is today.",
+      "zhMarkdown": "顺便说一句，我并不预测面向对象编程的消亡。虽然我认为它对优秀的程序员没有太多可贡献的（除了在某些特定领域），但它对大型组织来说是不可抗拒的。面向对象编程提供了一种可持续编写意大利面条式代码的方式。它让你能以一系列补丁的形式来让程序滚雪球式增长。大型组织总是倾向于以这种方式开发软件，我预计一百年后也是如此。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "a5693ec5702c3d59ee35973d7cef08fbc67561d0b9b38ad3fac1942cb1d1699b",
+      "enMarkdown": "As long as we're talking about the future, we had better talk about parallel computation, because that's where this idea seems to live. That is, no matter when you're talking, parallel computation seems to be something that is going to happen in the future.",
+      "zhMarkdown": "既然我们在谈论未来，我们最好谈谈并行计算，因为这个概念似乎总是活在未来。也就是说，无论你什么时候讨论它，并行计算似乎都像是未来才会发生的事情。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "b12d7ba9c2cb2628ad4d3f1bc1480969c2fb8123e4e38f0777a317a4072df203",
+      "enMarkdown": "Will the future ever catch up with it? People have been talking about parallel computation as something imminent for at least 20 years, and it hasn't affected programming practice much so far. Or hasn't it? Already chip designers have to think about it, and so must people trying to write systems software on multi-cpu computers.",
+      "zhMarkdown": "未来到底什么时候能追上它？人们把并行计算当作迫在眉睫的事情已经谈了至少20年，但到目前为止它并没有对编程实践产生太大影响。或者，真的没有吗？芯片设计者已经不得不考虑它了，那些试图在多 CPU 计算机上写系统软件的人也是如此。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "6411eddcca802d497f1298628e680f70581f7dc83e42220faab0027235ec4310",
+      "enMarkdown": "The real question is, how far up the ladder of abstraction will parallelism go? In a hundred years will it affect even application programmers? Or will it be something that compiler writers think about, but which is usually invisible in the source code of applications?",
+      "zhMarkdown": "真正的问题是，并行性会走向抽象阶梯的哪一步？一百年后，它会影响到应用程序员吗？还是说，它只是编译器编写者需要考虑的事情，而在应用程序的源代码中通常是不可见的？"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "f8cea821dd0a239393b02850b85b648bd9f3e7f8d7bffbbd682b2364b04aa6d1",
+      "enMarkdown": "One thing that does seem likely is that most opportunities for parallelism will be wasted. This is a special case of my more general prediction that most of the extra computer power we're given will go to waste. I expect that, as with the stupendous speed of the underlying hardware, parallelism will be something that is available if you ask for it explicitly, but ordinarily not used. This implies that the kind of parallelism we have in a hundred years will not, except in special applications, be massive parallelism. I expect for ordinary programmers it will be more like being able to fork off processes that all end up running in parallel.",
+      "zhMarkdown": "有一点似乎很有可能，那就是大多数并行的机会都会被浪费掉。这是我更普遍的预测（即我们获得的大部分额外电脑算力都会被浪费掉）的一个特例。我预计，就像底层硬件令人惊叹的速度一样，并行性将是那种如果你明确要求就可以提供、但通常不被使用的东西。这意味着一百年后我们拥有的并行性，除了在特殊应用中，不会是海量并行。我预计对于普通程序员来说，它更像是能够 fork 出最终全部并行运行的进程。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "0739b16d7a43fc50d5b25bd4c368341474a773e8169b3dbc2a824ac7e61d464a",
+      "enMarkdown": "And this will, like asking for specific implementations of data structures, be something that you do fairly late in the life of a program, when you try to optimize it. Version 1s will ordinarily ignore any advantages to be got from parallel computation, just as they will ignore advantages to be got from specific representations of data.",
+      "zhMarkdown": "而且，就像要求特定的数据结构实现一样，这将是你在程序生命周期的相当后期、试图优化它时才会做的事情。第一版程序通常会忽略并行计算带来的任何好处，就像它们会忽略特定数据表示带来的好处一样。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "9a1e00f499ecc164a9d28c16527d754f2ad8c1c7805e476c42b0c270e7e380da",
+      "enMarkdown": "Except in special kinds of applications, parallelism won't pervade the programs that are written in a hundred years. It would be premature optimization if it did.",
+      "zhMarkdown": "除了在特殊类型的应用中，并行性不会充斥在一百年后编写的程序中。如果是这样，那就是过早优化了。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "9f6aa7a304973d1743c5c520e05de60d6d8a431e8f71108838ea4c2c91fe731f",
+      "enMarkdown": "How many programming languages will there be in a hundred years? There seem to be a huge number of new programming languages lately. Part of the reason is that faster hardware has allowed programmers to make different tradeoffs between speed and convenience, depending on the application. If this is a real trend, the hardware we'll have in a hundred years should only increase it.",
+      "zhMarkdown": "一百年后会有多少种编程语言？最近似乎出现了海量的新编程语言。部分原因在于更快的硬件允许程序员根据应用的不同，在速度和便利性之间做出不同的权衡。如果这是一个真正的趋势，一百年后我们拥有的硬件应该只会加剧这一趋势。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "51cdefb821b725fe18b2145f7fbc98c3c32dec10e7b269f0c81f79df270f1142",
+      "enMarkdown": "And yet there may be only a few widely-used languages in a hundred years. Part of the reason I say this is optimism: it seems that, if you did a really good job, you could make a language that was ideal for writing a slow version 1, and yet with the right optimization advice to the compiler, would also yield very fast code when necessary. So, since I'm optimistic, I'm going to predict that despite the huge gap they'll have between acceptable and maximal efficiency, programmers in a hundred years will have languages that can span most of it.",
+      "zhMarkdown": "然而，一百年后可能只有少数几种被广泛使用的语言。我这么说的一部分原因在于乐观主义：似乎，如果你做得足够好，你可以设计一门非常适合写慢速第一版的语言，而且通过给编译器提供正确的优化建议，在必要时也能产生非常快速的代码。所以，因为我持乐观态度，我预测尽管可接受效率和最大效率之间存在巨大的鸿沟，一百年后的程序员拥有的语言将能够跨越这其中的大部分。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "1f0b00883761b9ddc52bd2427315a130bc61e852816bd18a55c33ff2b8e5f8ba",
+      "enMarkdown": "As this gap widens, profilers will become increasingly important. Little attention is paid to profiling now. Many people still seem to believe that the way to get fast applications is to write compilers that generate fast code. As the gap between acceptable and maximal performance widens, it will become increasingly clear that the way to get fast applications is to have a good guide from one to the other.",
+      "zhMarkdown": "随着这个鸿沟的加宽，性能分析器（profiler）将变得越来越重要。现在人们很少关注性能分析。许多人似乎仍然相信，获得快速应用的方法是写出能生成快速代码的编译器。随着可接受性能和最大性能之间的鸿沟加宽，人们会越来越清楚地认识到，获得快速应用的方法是拥有一条从前者通往后者的良好路线向导。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "5e39ec5682b6ce933286b15f50510172dbb45108f0af14312fa47d151a07efe6",
+      "enMarkdown": "When I say there may only be a few languages, I'm not including domain-specific \"little languages\". I think such embedded languages are a great idea, and I expect them to proliferate. But I expect them to be written as thin enough skins that users can see the general-purpose language underneath.",
+      "zhMarkdown": "当我说可能只有少数几种语言时，我并不包括特定领域的“微型语言”。我认为这种嵌入式语言是个极好的主意，我预计它们会大量涌现。但我希望它们能写成足够薄的外壳，让用户能看清底下的通用语言。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "61f9eaf22cec9a386966c660361761319e388f5ac6a1d1bb1934b8f09be85ca5",
+      "enMarkdown": "Who will design the languages of the future? One of the most exciting trends in the last ten years has been the rise of open-source languages like Perl, Python, and Ruby. Language design is being taken over by hackers. The results so far are messy, but encouraging. There are some stunningly novel ideas in Perl, for example. Many are stunningly bad, but that's always true of ambitious efforts. At its current rate of mutation, God knows what Perl might evolve into in a hundred years.",
+      "zhMarkdown": "谁来设计未来的语言？过去十年中最令人兴奋的趋势之一，就是像 Perl、Python 和 Ruby 这样开源语言的兴起。语言设计正在被黑客接管。到目前为止，结果是混乱的，但令人鼓舞。例如，Perl 中有一些极其新颖的想法。许多想法极其糟糕，但有雄心的尝试总是如此。以它目前的变异速度，天知道 Perl 一百年后会进化成什么样子。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "0bd12770e38b4895b08304d047f57665b299474c23313650964651a7ae80b0fa",
+      "enMarkdown": "It's not true that those who can't do, teach (some of the best hackers I know are professors), but it is true that there are a lot of things that those who teach can't do. [Research](https://paulgraham.com/desres.html) imposes constraining caste restrictions. In any academic field there are topics that are ok to work on and others that aren't. Unfortunately the distinction between acceptable and forbidden topics is usually based on how intellectual the work sounds when described in research papers, rather than how important it is for getting good results. The extreme case is probably literature; people studying literature rarely say anything that would be of the slightest use to those producing it.",
+      "zhMarkdown": "“不能做事的人才去教书”这句话并不对（我认识的一些最优秀的黑客就是教授），但确实有许多事情是教书的人做不来的。[学术研究](https://paulgraham.com/desres.html)强加了限制性的阶层枷锁。在任何学术领域，都有一些课题是可以研究的，而另一些则不行。不幸的是，可接受课题和禁忌课题之间的区别，通常取决于工作在研究论文中描述起来显得多么有学术深度，而不是它对取得好成果有多重要。最极端的例子大概是文学；研究文学的人很少能说出对文学创作者有丝毫用处的话。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "3e9b8d117795a2031a910927d7bb840afda13b3e95d2d8a6ffed1ca38060bb93",
+      "enMarkdown": "Though the situation is better in the sciences, the overlap between the kind of work you're allowed to do and the kind of work that yields good languages is distressingly small. (Olin Shivers has grumbled eloquently about this.) For example, types seem to be an inexhaustible source of research papers, despite the fact that static typing seems to preclude true macros-- without which, in my opinion, no language is worth using.",
+      "zhMarkdown": "虽然科学界的情况要好一些，但你被允许做的工作与能产生优秀语言的工作之间的交集却少得令人沮丧。（Olin Shivers 曾对此进行过雄辩的抱怨。）例如，类型似乎是研究论文源源不断的源泉，尽管静态类型似乎排除了真正的宏（macro）——在我看来，没有宏的语言是不值得使用的。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "cc6b83251c76e0d97368201d9dc05bf819b45e7459b42e597d351a36bc4ab151",
+      "enMarkdown": "The trend is not merely toward languages being developed as open-source projects rather than \"research\", but toward languages being designed by the application programmers who need to use them, rather than by compiler writers. This seems a good trend and I expect it to continue.",
+      "zhMarkdown": "趋势不仅在于语言是作为开源项目而不是“学术研究”来开发的，还在于语言是由需要使用它们的应用程序员来设计的，而不是由编译器编写者设计的。这看起来是个好趋势，我预计它会继续下去。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "c53249cf1d2547c036cb78b0b1d87f134af10629972679627bbe6e756dad5ed2",
+      "enMarkdown": "Unlike physics in a hundred years, which is almost necessarily impossible to predict, I think it may be possible in principle to design a language now that would appeal to users in a hundred years.",
+      "zhMarkdown": "一百年后的物理学几乎必然是无法预测的，但与物理学不同，我认为原则上现在就有可能设计出一门能吸引一百年后用户的语言。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "cf55da2033aa1b1817b5a8d63d8da15408d07da64fbf7942d656b5969435477c",
+      "enMarkdown": "One way to design a language is to just write down the program you'd like to be able to write, regardless of whether there is a compiler that can translate it or hardware that can run it. When you do this you can assume unlimited resources. It seems like we ought to be able to imagine unlimited resources as well today as in a hundred years.",
+      "zhMarkdown": "设计一门语言的一种方法是，直接写下你希望能够写出的程序，而不管现在是否有编译器能翻译它，或者硬件能运行它。当你这样做时，你可以假设资源是无限的。我们现在应该和一百年后一样，能够想象出无限的资源。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "f7d0112c6e888119a7a818beaee416153c8eb84b97ba9f719cfc2632dcec8366",
+      "enMarkdown": "What program would one like to write? Whatever is least work. Except not quite: whatever *would be* least work if your ideas about programming weren't already influenced by the languages you're currently used to. Such influence can be so pervasive that it takes a great effort to overcome it. You'd think it would be obvious to creatures as lazy as us how to express a program with the least effort. In fact, our ideas about what's possible tend to be so [limited](https://paulgraham.com/avg.html) by whatever language we think in that easier formulations of programs seem very surprising. They're something you have to discover, not something you naturally sink into.",
+      "zhMarkdown": "人们想写什么样的程序？当然是工作量最少的程序。但也不完全是：如果你的编程思想还没有受到你当前习惯的语言的影响，那么*本该是*工作量最少的程序。这种影响是如此无孔不入，以至于需要付出巨大的努力才能克服它。你可能会觉得，对于像我们这样懒惰的生物来说，如何用最少的精力来表达一个程序应该是显而易见的。事实上，我们关于什么是可能的想法往往受到我们思考所用语言的[极大限制](https://paulgraham.com/avg.html)，以至于更简单的程序表述方式会显得非常令人吃惊。它们是需要你去发现的东西，而不是你自然而然就会想到的。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "3e28c8986266321edc042358980e0b44e319786f3528f5a32dee788b495cbc55",
+      "enMarkdown": "One helpful trick here is to use the [length](https://paulgraham.com/power.html) of the program as an approximation for how much work it is to write. Not the length in characters, of course, but the length in distinct syntactic elements-- basically, the size of the parse tree. It may not be quite true that the shortest program is the least work to write, but it's close enough that you're better off aiming for the solid target of brevity than the fuzzy, nearby one of least work. Then the algorithm for language design becomes: look at a program and ask, is there any way to write this that's shorter?",
+      "zhMarkdown": "这里有一个有用的诀窍，就是用程序的[长度](https://paulgraham.com/power.html)来近似代替编写它的工作量。当然不是字符长度，而是不同语法元素的数量——基本上就是语法树的大小。最短的程序编写工作量最少，这可能不完全正确，但它已经足够接近了，以至于你最好瞄准“简洁”这个坚实的目标，而不是“工作量最少”这个模糊且临近的目标。然后，语言设计的算法就变成了：看着一个程序并问自己，有没有更短的方法来写这个？"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "72746de9fa541a87b3676cb48323aa3b054d2cf0a3275c24e2d5ef3d2813635c",
+      "enMarkdown": "In practice, writing programs in an imaginary hundred-year language will work to varying degrees depending on how close you are to the core. Sort routines you can write now. But it would be hard to predict now what kinds of libraries might be needed in a hundred years. Presumably many libraries will be for domains that don't even exist yet. If SETI@home works, for example, we'll need libraries for communicating with aliens. Unless of course they are sufficiently advanced that they already communicate in XML.",
+      "zhMarkdown": "在实践中，用虚构的百年语言写程序，其可行程度取决于你离核心有多近。排序例程你现在就可以写。但现在很难预测一百年后可能需要什么样的库。想必许多库将针对现在甚至还不存在的领域。例如，如果 SETI@home 成功了，我们将需要与外星人通信的库。当然，除非他们已经足够先进，已经在使用 XML 进行通信了。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "9c68b7f7fa42e06008ec298e9e32ae1cee6cd3632a0f63c78fbe0eae61699f0c",
+      "enMarkdown": "At the other extreme, I think you might be able to design the core language today. In fact, some might argue that it was already mostly designed in 1958.",
+      "zhMarkdown": "在另一个极端，我认为你今天可能就可以设计出核心语言。事实上，有些人可能会争辩说，它在 1958 年就已经基本设计好了。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "9a5fe830048e4e8ede04df9d1f380c32ad587ff49793fed8ac248e7f707d3459",
+      "enMarkdown": "If the hundred year language were available today, would we want to program in it? One way to answer this question is to look back. If present-day programming languages had been available in 1960, would anyone have wanted to use them?",
+      "zhMarkdown": "如果今天就能用上百年语言，我们会想用它编程吗？回答这个问题的一种方法是回顾过去。如果今天的编程语言在 1960 年就有了，会有人想用它们吗？"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "02644e61e211aedd89e1d4e28bd92d39beebc94aad86ac3c4dd5230e3d02482b",
+      "enMarkdown": "In some ways, the answer is no. Languages today assume infrastructure that didn't exist in 1960. For example, a language in which indentation is significant, like Python, would not work very well on printer terminals. But putting such problems aside-- assuming, for example, that programs were all just written on paper-- would programmers of the 1960s have liked writing programs in the languages we use now?",
+      "zhMarkdown": "在某些方面，答案是否定的。今天的语言假设了 1960 年尚不存在的基础设施。例如，像 Python 这样缩进具有语义的语言，在打印机终端上运行得不会很好。但撇开这些问题不谈——例如，假设程序都是写在纸上的——1960 年代的程序员会喜欢用我们现在的语言写程序吗？"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "985fc8bd057615d6ef25b2f876d328aec8e914c582c815e91e79a750087bf765",
+      "enMarkdown": "I think so. Some of the less imaginative ones, who had artifacts of early languages built into their ideas of what a program was, might have had trouble. (How can you manipulate data without doing pointer arithmetic? How can you implement flow charts without gotos?) But I think the smartest programmers would have had no trouble making the most of present-day languages, if they'd had them.",
+      "zhMarkdown": "我想是的。一些缺乏想象力的人，他们的程序概念里固化了早期语言的遗迹，可能会遇到困难。（不进行指针运算你怎么操作数据？没有 goto 你怎么实现流程图？）但我认为，最聪明的程序员如果有了现在的语言，肯定能毫无困难地发挥它们的最大作用。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "4e4001c92fb7e6b045645fc6f080b9d33d0313f25ed77c030a62d094bbca80cf",
+      "enMarkdown": "If we had the hundred-year language now, it would at least make a great pseudocode. What about using it to write software? Since the hundred-year language will need to generate fast code for some applications, presumably it could generate code efficient enough to run acceptably well on our hardware. We might have to give more optimization advice than users in a hundred years, but it still might be a net win.",
+      "zhMarkdown": "如果我们现在就有了百年语言，它至少会是一个极好的伪代码。那么用它来写软件呢？既然百年语言需要为某些应用生成快速代码，想必它也能生成足够高效的代码，在我们的硬件上运行得相当不错。我们可能不得不比一百年后的用户提供更多的优化建议，但它仍然可能是一个净赢。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "38a527525037d1513be2ff46f54c29adb86bbb6d665f3965f789c7f2bb1b52ee",
+      "enMarkdown": "Now we have two ideas that, if you combine them, suggest interesting possibilities: (1) the hundred-year language could, in principle, be designed today, and (2) such a language, if it existed, might be good to program in today. When you see these ideas laid out like that, it's hard not to think, why not try writing the hundred-year language now?",
+      "zhMarkdown": "现在我们有了两个想法，如果把它们结合起来，就暗示了有趣的可能性：（1）原则上，百年语言在今天就可以设计出来；（2）如果存在这样一门语言，在今天用来编程可能会很好。当你看到这两个想法摆在一起时，很难不产生这样的想法：为什么不现在就尝试写出这门百年语言呢？"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "4c2a52e78f55345a125fdb453fdb73e30a840bc7bb27bba41def76f668c51ea7",
+      "enMarkdown": "When you're working on language design, I think it is good to have such a target and to keep it consciously in mind. When you learn to drive, one of the principles they teach you is to align the car not by lining up the hood with the stripes painted on the road, but by aiming at some point in the distance. Even if all you care about is what happens in the next ten feet, this is the right answer. I think we can and should do the same thing with programming languages.",
+      "zhMarkdown": "当你致力于语言设计时，我认为拥有这样一个目标并在脑海中保持自觉是很棒的。当你学开车时，他们教你的原则之一是，不要通过将引擎盖与路上画的线对齐来让车保持直线，而是要瞄准远处的某个点。即使你只关心接下来十英尺发生的事情，这也是正确的做法。我认为我们对编程语言也能够且应该做同样的事情。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "013d34ff0c281aa7474348ce1fedc0d0dcd28e3c6d6c116bfe0b55405ad1f204",
+      "enMarkdown": "I believe Lisp Machine Lisp was the first language to embody the principle that declarations (except those of dynamic variables) were merely optimization advice, and would not change the meaning of a correct program. Common Lisp seems to have been the first to state this explicitly.",
+      "zhMarkdown": "我相信 Lisp Machine Lisp 是第一门体现了这一原则的语言：声明（除了动态变量的声明）仅仅是优化建议，不会改变一个正确程序的含义。Common Lisp 似乎是第一个明确陈述这一点的语言。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "095746fae45555763410dd76a20037571cd59e1487d841b02c7483f1ce4ca2d1",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Robert Morris, and Dan Giffin for reading drafts of this, and to Guido van Rossum, Jeremy Hylton, and the rest of the Python crew for inviting me to speak at PyCon.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Robert Morris 和 Dan Giffin 阅读了本文草稿，并感谢 Guido van Rossum、Jeremy Hylton 以及 Python 团队的其他成员邀请我在 PyCon 上演讲。"
+    }
+  ]
+}

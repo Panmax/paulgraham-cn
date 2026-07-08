@@ -1,0 +1,643 @@
+{
+  "slug": "philosophy",
+  "titleEn": "How to Do Philosophy",
+  "titleZh": "如何做哲学",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 147,
+  "sourceUrl": "https://paulgraham.com/philosophy.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f8fa09cdaaab3f266c82ebaddb39d16a474b2194b39c43b0a6d5be0c83fec24c",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/how-to-do-philosophy-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/how-to-do-philosophy-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "e2e0844f66628cfe43b1d7ee0992dbf003710605d07982f6ef1f2a5d17bd4c93",
+      "enMarkdown": "September 2007",
+      "zhMarkdown": "2007 年 9 月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "c12ab55d6dd71e86994e255d5ca0d7e50f96fa6967e053b2b95b215529eb8d23",
+      "enMarkdown": "In high school I decided I was going to study philosophy in college. I had several motives, some more honorable than others. One of the less honorable was to shock people. College was regarded as job training where I grew up, so studying philosophy seemed an impressively impractical thing to do. Sort of like slashing holes in your clothes or putting a safety pin through your ear, which were other forms of impressive impracticality then just coming into fashion.",
+      "zhMarkdown": "读高中时，我决定大学要学哲学。我当时有几个动机，有些体面，有些则没那么体面。不那么体面的动机之一是为了语不惊人死不休。在我长大的地方，大学被视作职业培训学校，因此学哲学听起来是一件极其不切实际、令人印象深刻的事。这有点像在衣服上剪洞，或者在耳朵上别个安全别针，这些都是当时刚刚开始流行、同样让人觉得“不切实际得酷炫”的行为。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "0e45602f2aea58eeac6e64a205e8e41dcf9b2030cece99f281c82cd046498bd5",
+      "enMarkdown": "But I had some more honest motives as well. I thought studying philosophy would be a shortcut straight to wisdom. All the people majoring in other things would just end up with a bunch of domain knowledge. I would be learning what was really what.",
+      "zhMarkdown": "但我也有一些更坦诚的动机。我以为学哲学是通往智慧的捷径。其他专业的学生最终只会收获一堆特定领域的知识，而我学到的将是万事万物的本质。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "295c7b94fd8b471271449d321b43c6a401b69eb3dc745c0c95749077edf427c7",
+      "enMarkdown": "I'd tried to read a few philosophy books. Not recent ones; you wouldn't find those in our high school library. But I tried to read Plato and Aristotle. I doubt I believed I understood them, but they sounded like they were talking about something important. I assumed I'd learn what in college.",
+      "zhMarkdown": "我曾试着读过几本哲学书。不是近期的书，因为高中图书馆里根本找不到；我尝试读的是柏拉图和亚里士多德。我怀疑自己当时并没有读懂，但他们听起来讨论的都是极其重要的事情。我理所当然地认为，到了大学我就会明白那到底是什么。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "45f7feb64d54a81c2627b36654d072b228bed009d4d29f8b17cfebc33f8d93be",
+      "enMarkdown": "The summer before senior year I took some college classes. I learned a lot in the calculus class, but I didn't learn much in Philosophy 101. And yet my plan to study philosophy remained intact. It was my fault I hadn't learned anything. I hadn't read the books we were assigned carefully enough. I'd give Berkeley's *Principles\nof Human Knowledge* another shot in college. Anything so admired and so difficult to read must have something in it, if one could only figure out what.",
+      "zhMarkdown": "高三前的那个夏天，我选修了几门大学课程。我在微积分课上收获颇丰，但在“哲学导论”课上却没学到什么。即便如此，我学哲学的计划依然没有动摇。我想，没学到东西肯定是我自己的错，是我没有足够仔细地阅读指定的书目。到了大学，我要重新挑战巴克莱的《人类知识原理》。任何如此受人推崇又如此晦涩难懂的著作，只要能参透，里面一定大有乾坤。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "e8ea6f84b879700a37300d3851ed4c9bbca522dea0a54ece90566bddd1031e36",
+      "enMarkdown": "Twenty-six years later, I still don't understand Berkeley. I have a nice edition of his collected works. Will I ever read it? Seems unlikely.",
+      "zhMarkdown": "二十六年过去了，我依然看不懂巴克莱。我有一套装帧精美的《巴克莱全集》。我以后还会去读它吗？恐怕不会了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "781b09afeb8b0850c68e3550b2ff69c60369b2aa560d6773e98bd8aa7b09f25f",
+      "enMarkdown": "The difference between then and now is that now I understand why Berkeley is probably not worth trying to understand. I think I see now what went wrong with philosophy, and how we might fix it.",
+      "zhMarkdown": "现在和当年的区别在于，如今我明白了为什么巴克莱可能根本不值得去读懂。我想我现在看清了哲学到底在什么地方走入了歧途，以及我们该如何拯救它。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "b93ea112b4fabfac77601da0bd2a0c1921704b58ba1bf9cf1919789592698393",
+      "enMarkdown": "**Words**",
+      "zhMarkdown": "**语言的游戏**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "9518cce9a5bcdcc2dce06b5123266a6451307c0837e4b2c113bd6b0cf302363f",
+      "enMarkdown": "I did end up being a philosophy major for most of college. It didn't work out as I'd hoped. I didn't learn any magical truths compared to which everything else was mere domain knowledge. But I do at least know now why I didn't. Philosophy doesn't really have a subject matter in the way math or history or most other university subjects do. There is no core of knowledge one must master. The closest you come to that is a knowledge of what various individual philosophers have said about different topics over the years. Few were sufficiently correct that people have forgotten who discovered what they discovered.",
+      "zhMarkdown": "大学的大部分时间里，我确实是个哲学专业的学生。但结果并未如我所愿。我没有学到任何能让其他具体领域知识都相形见绌的“终极真理”。不过，我至少明白了为什么没有学到。哲学并不像数学、历史或大多数其他大学学科那样，拥有一个真正的研究客体。哲学没有必须要掌握的核心知识。最接近核心的，也无非是了解历史上各路哲学家对不同话题发表过什么见解。而且几乎没有谁的观点是绝对正确的，以至于人们会遗忘这些观点的发现者是谁。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "a6a54461e903dec503ac6809c2dc72de5b2609e2b60f309f546b12d71582cf08",
+      "enMarkdown": "Formal logic has some subject matter. I took several classes in logic. I don't know if I learned anything from them. [[1](#f1n)] It does seem to me very important to be able to flip ideas around in one's head: to see when two ideas don't fully cover the space of possibilities, or when one idea is the same as another but with a couple things changed. But did studying logic teach me the importance of thinking this way, or make me any better at it? I don't know.",
+      "zhMarkdown": "形式逻辑倒是有明确的研究客体。我上过几门逻辑课，但不知道自己有没有从中受益。[[1](#f1n)] 在脑海中灵活地拆解和重组概念，对我来说确实非常重要：比如看出两个概念何时没有完全穷尽所有的可能性，或者看出一个概念在修改了几个地方后其实与另一个概念等价。但是，学习逻辑学真的教会了我这种思维方式的重要性，或者让我变得更擅长此道了吗？我不得而知。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "3758bb4560ca08f5489af7ba94a4539f381e149306bc4a33390ad7c7bf573d52",
+      "enMarkdown": "There are things I know I learned from studying philosophy. The most dramatic I learned immediately, in the first semester of freshman year, in a class taught by Sydney Shoemaker. I learned that I don't exist. I am (and you are) a collection of cells that lurches around driven by various forces, and calls itself *I*. But there's no central, indivisible thing that your identity goes with. You could conceivably lose half your brain and live. Which means your brain could conceivably be split into two halves and each transplanted into different bodies. Imagine waking up after such an operation. You have to imagine being two people.",
+      "zhMarkdown": "不过，我确信自己从哲学学习中收获了一些东西。最震撼的一课发生在我大一第一学期，由西德尼·舒梅克（Sydney Shoemaker）教授的课上。我学到，“我”其实并不存在。我（以及你）不过是一堆在各种力量驱动下四处摇晃、并自称为“我”的细胞集合。并没有一个不可分割的中央核心能承载你的身份。设想一下，你失去了半个大脑，但依然活着。这意味着你的大脑完全可以被分成两半，分别移植到不同的身体里。想象一下在这种手术后醒来的场景，你必须想象自己同时成为了两个人。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "68ba94b5c53de3dfba43a419f1082821076d747a093de314283d5691ddfd7ec3",
+      "enMarkdown": "The real lesson here is that the concepts we use in everyday life are fuzzy, and break down if pushed too hard. Even a concept as dear to us as *I*. It took me a while to grasp this, but when I did it was fairly sudden, like someone in the nineteenth century grasping evolution and realizing the story of creation they'd been told as a child was all wrong. [[2](#f2n)] Outside of math there's a limit to how far you can push words; in fact, it would not be a bad definition of math to call it the study of terms that have precise meanings. Everyday words are inherently imprecise. They work well enough in everyday life that you don't notice. Words seem to work, just as Newtonian physics seems to. But you can always make them break if you push them far enough.",
+      "zhMarkdown": "这里真正的启示是，我们在日常生活中使用的概念是模糊的，一旦推到极致就会崩溃。甚至连“我”这样对我们而言无比珍贵的名词也不例外。我花了一段时间才领悟到这一点，但当领悟的那一刻到来时，感觉非常突然。就像一个十九世纪的人突然理解了进化论，意识到从小被灌输的创世故事全是错的一样。[[2](#f2n)] 在数学之外，语言能表达的极限是有限的；事实上，将数学定义为“对具有精确含义的词项的研究”也不失为一种好定义。日常词汇本质上就是不精确的，它们在日常生活中运转得足够好，以至于你察觉不到问题。词汇看起来行之有效，就像牛顿物理学看起来行之有效一样。但只要你把它们推得足够远，它们总会崩溃。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "1cb57e2b946ed3fb3f7fb1ae79c9e9a5822e56f2376e693039cd19924798aacd",
+      "enMarkdown": "I would say that this has been, unfortunately for philosophy, the central fact of philosophy. Most philosophical debates are not merely afflicted by but driven by confusions over words. Do we have free will? Depends what you mean by \"free.\" Do abstract ideas exist? Depends what you mean by \"exist.\"",
+      "zhMarkdown": "对哲学来说不幸的是，我认为这正是哲学的核心事实。大多数哲学争论不仅饱受词义混乱的折磨，甚至根本就是由词义混乱所驱动的。我们有自由意志吗？这取决于你对“自由”的定义。抽象概念存在吗？这取决于你对“存在”的定义。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "94c6c71c47479ceaf27581e3147762f0fd90d652a1d109c2e6bcc1588068f145",
+      "enMarkdown": "Wittgenstein is popularly credited with the idea that most philosophical controversies are due to confusions over language. I'm not sure how much credit to give him. I suspect a lot of people realized this, but reacted simply by not studying philosophy, rather than becoming philosophy professors.",
+      "zhMarkdown": "人们普遍将“大多数哲学争论都源于语言混乱”这一观点归功于维特根斯坦。我不知道该给他记多大功劳。我怀疑其实有很多人早就意识到了这一点，只是他们的反应是直接不去学哲学，而不是留下来当哲学教授。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "c33c3cbbfd312403d611d22abe7df3ade30a4287598f0924730d93d022b0d778",
+      "enMarkdown": "How did things get this way? Can something people have spent thousands of years studying really be a waste of time? Those are interesting questions. In fact, some of the most interesting questions you can ask about philosophy. The most valuable way to approach the current philosophical tradition may be neither to get lost in pointless speculations like Berkeley, nor to shut them down like Wittgenstein, but to study it as an example of reason gone wrong.",
+      "zhMarkdown": "事情怎么会变成这样？人们研究了几千年的东西，难道真的只是在浪费时间吗？这些都是很有意思的问题。事实上，这也是你能对哲学提出的最有趣的问题之一。面对当前的哲学传统，最有效的方法可能既不是像巴克莱那样迷失在无谓的思辨中，也不是像维特根斯坦那样全盘否定，而是把它当作一个“理性走入歧途”的经典案例来研究。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4fd4309ca7e7a1cb47fdaba9efbd4b9d20dd950198605259265336dd1fe94d13",
+      "enMarkdown": "**History**",
+      "zhMarkdown": "**历史的脉络**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "d4572c66f33a8c55da39a24dd6d829c9997a99e88c45e9b36b0935259efc9705",
+      "enMarkdown": "Western philosophy really begins with Socrates, Plato, and Aristotle. What we know of their predecessors comes from fragments and references in later works; their doctrines could be described as speculative cosmology that occasionally strays into analysis. Presumably they were driven by whatever makes people in every other society invent cosmologies. [[3](#f3n)]",
+      "zhMarkdown": "西方哲学真正始于苏格拉底、柏拉图和亚里士多德。我们对其前人的了解，仅限于后世著作中的只言片语和引用；他们的学说大致可以归结为偶尔涉足分析的推测性宇宙学。想必他们是受到某种力量的驱使，而这种力量在任何其他社会中也会驱使人们去编造宇宙学。[[3](#f3n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "06e58216d0d47fafef570664829e92f1049f32c6626c20d5bb10a6ffd71c3f73",
+      "enMarkdown": "With Socrates, Plato, and particularly Aristotle, this tradition turned a corner. There started to be a lot more analysis. I suspect Plato and Aristotle were encouraged in this by progress in math. Mathematicians had by then shown that you could figure things out in a much more conclusive way than by making up fine sounding stories about them. [[4](#f4n)]",
+      "zhMarkdown": "到了苏格拉底、柏拉图，尤其是亚里士多德，这一传统发生了转折。分析的成分开始大幅增加。我怀疑柏拉图和亚里士多德是受到了数学进展的鼓舞。当时的数学家已经证明，相比于编造动听的故事，你可以用一种确凿得多的方式来探明事物的真相。[[4](#f4n)]"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "2aa6d1f2ea56160246e8dafee241f04a06b73eb343ebaab609d0b437605ed382",
+      "enMarkdown": "People talk so much about abstractions now that we don't realize what a leap it must have been when they first started to. It was presumably many thousands of years between when people first started describing things as hot or cold and when someone asked \"what is heat?\" No doubt it was a very gradual process. We don't know if Plato or Aristotle were the first to ask any of the questions they did. But their works are the oldest we have that do this on a large scale, and there is a freshness (not to say naivete) about them that suggests some of the questions they asked were new to them, at least.",
+      "zhMarkdown": "现在人们对“抽象”谈论得太多，以至于我们无法体会，当人类第一次开始进行抽象思考时，那是多么巨大的一个飞跃。从人们开始用冷热来描述事物，到有人第一次发问“什么是热？”，这其间恐怕隔了成千上万年。这无疑是一个极其缓慢渐进的过程。我们不知道柏拉图或亚里士多德是不是第一个提出那些问题的人。但他们的著作是我们拥有的、最早大规模进行此类思考的文献，字里行间透露出一种新鲜感（甚至可以说是天真），这表明至少对他们而言，其中一些问题是前所未有的。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f35a4cdaa4e32afa43f6af439929e2a85bba99fb098d22703a086c9f8b8919c8",
+      "enMarkdown": "Aristotle in particular reminds me of the phenomenon that happens when people discover something new, and are so excited by it that they race through a huge percentage of the newly discovered territory in one lifetime. If so, that's evidence of how new this kind of thinking was. [[5](#f5n)]",
+      "zhMarkdown": "亚里士多德尤其让我想起一种现象：当人们发现新事物时，会兴奋得在短短一生中就狂奔着探索完新大陆的绝大部分。如果真是这样，那正说明了这种思维方式在当时是多么的新颖。[[5](#f5n)]"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "614af77d2f15b9e9609e0bf0809ec88d311dd3a430198e77516fbd148ea8744d",
+      "enMarkdown": "This is all to explain how Plato and Aristotle can be very impressive and yet naive and mistaken. It was impressive even to ask the questions they did. That doesn't mean they always came up with good answers. It's not considered insulting to say that ancient Greek mathematicians were naive in some respects, or at least lacked some concepts that would have made their lives easier. So I hope people will not be too offended if I propose that ancient philosophers were similarly naive. In particular, they don't seem to have fully grasped what I earlier called the central fact of philosophy: that words break if you push them too far.",
+      "zhMarkdown": "这一切解释了为什么柏拉图和亚里士多德既能让人高山仰止，同时又显得天真和错误。仅仅是提出那些问题本身就足够了不起了，但这并不意味着他们总能给出完美的答案。说古希腊数学家在某些方面很天真，或者至少缺乏一些能让研究更轻松的概念，并不算是一种贬低。因此，如果我提出古代哲学家同样天真，希望大家也不要觉得被冒犯。尤其是，他们似乎没有完全领会我前面所说的哲学的核心事实：词汇一旦被推得太远，就会崩溃。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "c967ecc23556b4573bb48f2d118771b54366ffead5fe84f06ee041ab59bd10aa",
+      "enMarkdown": "\"Much to the surprise of the builders of the first digital computers,\" Rod Brooks wrote, \"programs written for them usually did not work.\" [[6](#f6n)] Something similar happened when people first started trying to talk about abstractions. Much to their surprise, they didn't arrive at answers they agreed upon. In fact, they rarely seemed to arrive at answers at all.",
+      "zhMarkdown": "“让第一批数字计算机的制造者大失所望的是，”罗德·布鲁克斯（Rod Brooks）写道，“为这些机器编写的程序通常根本无法运行。” [[6](#f6n)] 当人们刚开始尝试谈论抽象概念时，类似的事情也发生了。让他们大失所望的是，他们并没有得出大家都认同的答案。事实上，他们似乎很少能得出任何答案。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "ff71daa6dbf9d4b084ba7dfb1259265c13bd92c10b251d30fb638e634d08aed6",
+      "enMarkdown": "They were in effect arguing about artifacts induced by sampling at too low a resolution.",
+      "zhMarkdown": "他们实际上是在争论由于采样分辨率过低而产生的失真伪影。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "9cc707f2dcce19fb39e441d1c05047573f6f7ac2842f98eadcf1932216106199",
+      "enMarkdown": "The proof of how useless some of their answers turned out to be is how little effect they have. No one after reading Aristotle's *Metaphysics* does anything differently as a result. [[7](#f7n)]",
+      "zhMarkdown": "要证明他们的一些答案有多么无用，最好的证据就是这些答案几乎没有产生任何影响。没有人在读完亚里士多德的《形而上学》后，会因此在行为上做出任何改变。[[7](#f7n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e705ad7d85cfee4e0ed0d24bbb84b77d22a6e145bafc9f720511f60fad27d131",
+      "enMarkdown": "Surely I'm not claiming that ideas have to have practical applications to be interesting? No, they may not have to. Hardy's boast that number theory had no use whatsoever wouldn't disqualify it. But he turned out to be mistaken. In fact, it's suspiciously hard to find a field of math that truly has no practical use. And Aristotle's explanation of the ultimate goal of philosophy in Book A of the *Metaphysics* implies that philosophy should be useful too.",
+      "zhMarkdown": "我当然不是在声称，想法必须有实用价值才算有趣。确实不需要。哈代曾自豪地宣称数论毫无用处，这并不能否定数论的魅力。但事实证明他错了。实际上，你很难在数学中找到一个真正没有任何实际用途的领域。而且亚里士多德在《形而上学》第一卷中对哲学终极目标的阐释，也暗示了哲学应当是有用的。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "6b0261520a7b3a337a6392fce5f4efb63c1a6b7a7a6401e42f302831bda8bca6",
+      "enMarkdown": "**Theoretical Knowledge**",
+      "zhMarkdown": "**理论知识**"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "395a80f51f60f04061c1e41ea0302fe1cd28579e33b028187480492561bfe41a",
+      "enMarkdown": "Aristotle's goal was to find the most general of general principles. The examples he gives are convincing: an ordinary worker builds things a certain way out of habit; a master craftsman can do more because he grasps the underlying principles. The trend is clear: the more general the knowledge, the more admirable it is. But then he makes a mistake—possibly the most important mistake in the history of philosophy. He has noticed that theoretical knowledge is often acquired for its own sake, out of curiosity, rather than for any practical need. So he proposes there are two kinds of theoretical knowledge: some that's useful in practical matters and some that isn't. Since people interested in the latter are interested in it for its own sake, it must be more noble. So he sets as his goal in the *Metaphysics* the exploration of knowledge that has no practical use. Which means no alarms go off when he takes on grand but vaguely understood questions and ends up getting lost in a sea of words.",
+      "zhMarkdown": "亚里士多德的目标是寻找最普遍的普遍原理。他给出的例子很有说服力：普通工人凭习惯以某种方式建造东西；而手艺大师能做得更多，因为他掌握了底层的原理。趋势很明显：知识越普遍，就越令人钦佩。但接着他犯了一个错误——这可能是哲学史上最严重的错误。他注意到，理论知识往往是出于好奇心为了其自身而获取的，而不是出于任何实际需求。于是他提出有两种理论知识：一种在实践中有用，另一种则无用。既然对后者感兴趣的人是纯粹为了知识本身，那么它必然更显高贵。因此，他在《形而上学》中将探索毫无实用价值的知识设定为自己的目标。这意味着，当他挑战那些宏大却模糊的问题，最终迷失在语言的海洋中时，他脑海中的警报器根本不会拉响。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "fd7ba4d237570917c414c9b88cbba33603845131c50d85b4e3859f2b14f5b257",
+      "enMarkdown": "His mistake was to confuse motive and result. Certainly, people who want a deep understanding of something are often driven by curiosity rather than any practical need. But that doesn't mean what they end up learning is useless. It's very valuable in practice to have a deep understanding of what you're doing; even if you're never called on to solve advanced problems, you can see shortcuts in the solution of simple ones, and your knowledge won't break down in edge cases, as it would if you were relying on formulas you didn't understand. Knowledge is power. That's what makes theoretical knowledge prestigious. It's also what causes smart people to be curious about certain things and not others; our DNA is not so disinterested as we might think.",
+      "zhMarkdown": "他的错误在于混淆了动机与结果。诚然，想要深度理解某种事物的人，往往是受好奇心驱使，而非出于实用需求。但这并不意味着他们最终学到的东西是无用的。在实践中，对你所做的事情有深度的理解是极有价值的；即使你永远不需要解决高深的问题，你也能在解决简单问题时看到捷径，并且你的知识不会在边缘案例中崩溃，而如果你依赖自己不理解的公式，崩溃就不可避免。知识就是力量，这才是理论知识享有声望的原因。这也是为什么聪明人会对某些特定事物产生好奇，而对其他事物不感兴趣；我们的基因可没有我们想象的那么无私。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "c630c6e6e068be576747f038f20d555e908b3c52fb9c28b805416270777ace2c",
+      "enMarkdown": "So while ideas don't have to have immediate practical applications to be interesting, the kinds of things we find interesting will surprisingly often turn out to have practical applications.",
+      "zhMarkdown": "因此，虽然想法不需要立即产生实际应用才算有趣，但我们觉得有趣的那些事物，往往在令人惊讶的程度上会有实际应用。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "cae1e99e76f0abf133bb6d2af926da6d56424f525c846135112709efee4e04a4",
+      "enMarkdown": "The reason Aristotle didn't get anywhere in the *Metaphysics* was partly that he set off with contradictory aims: to explore the most abstract ideas, guided by the assumption that they were useless. He was like an explorer looking for a territory to the north of him, starting with the assumption that it was located to the south.",
+      "zhMarkdown": "亚里士多德在《形而上学》中一无所获的部分原因在于，他出发时的目标就是自相矛盾的：去探索最抽象的想法，同时又假设它们是无用的。他就像一个寻找北方领土的探险家，却在出发时假设这片领土位于南方。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "befda203dae9d5166016c540ca55490a336643779fd8b5a3ad9122e85aabd74b",
+      "enMarkdown": "And since his work became the map used by generations of future explorers, he sent them off in the wrong direction as well. [[8](#f8n)] Perhaps worst of all, he protected them from both the criticism of outsiders and the promptings of their own inner compass by establishing the principle that the most noble sort of theoretical knowledge had to be useless.",
+      "zhMarkdown": "既然他的著作成了后代探险家使用的地图，他也把他们带偏了方向。[[8](#f8n)] 也许最糟糕的是，他确立了“最高贵的理论知识必须是无用的”这一原则，从而保护了他们免受外界批评，也屏蔽了他们内心直觉的提醒。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "110dab08d265197ffa42d36b7f373eea2569166900451acd38666a6ab06d23ff",
+      "enMarkdown": "The *Metaphysics* is mostly a failed experiment. A few ideas from it turned out to be worth keeping; the bulk of it has had no effect at all. The *Metaphysics* is among the least read of all famous books. It's not hard to understand the way Newton's *Principia* is, but the way a garbled message is.",
+      "zhMarkdown": "《形而上学》在很大程度上是一个失败的实验。其中只有极少数想法值得保留，绝大部分内容没有产生任何影响。《形而上学》是所有名著中读者最少的一本。它难读，不是因为像牛顿的《自然哲学的数学原理》那样逻辑深奥，而是因为像一条被乱码化的信息。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "73354aad3df039a15b1ace32b20fa663d9814a28aca5fc17013c354e3b3a511d",
+      "enMarkdown": "Arguably it's an interesting failed experiment. But unfortunately that was not the conclusion Aristotle's successors derived from works like the *Metaphysics*. [[9](#f9n)] Soon after, the western world fell on intellectual hard times. Instead of version 1s to be superseded, the works of Plato and Aristotle became revered texts to be mastered and discussed. And so things remained for a shockingly long time. It was not till around 1600 (in Europe, where the center of gravity had shifted by then) that one found people confident enough to treat Aristotle's work as a catalog of mistakes. And even then they rarely said so outright.",
+      "zhMarkdown": "可以说，这是一个很有意思的失败实验。但不幸的是，亚里士多德的继承者们并没有从《形而上学》这类著作中得出这样的结论。[[9](#f9n)] 此后不久，西方世界陷入了智识的黑暗时期。柏拉图和亚里士多德的著作没有被视作有待迭代的“版本 1.0”，反而变成了被顶礼膜拜、反复讨论的圣经。这种状态维持了惊人的漫长时间。直到公元 1600 年左右（在当时智识重心已转移的欧洲），人们才开始有信心将亚里士多德的著作视为错误清单。即便在那个时候，也很少有人敢公开这么说。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "e2be5b7c9f379e4794fb2e854e34765d79da02b097413e220716c708e7eab0f9",
+      "enMarkdown": "If it seems surprising that the gap was so long, consider how little progress there was in math between Hellenistic times and the Renaissance.",
+      "zhMarkdown": "如果觉得这个空窗期长得令人难以置信，不妨想想从希腊化时期到文艺复兴之间，数学的进展同样微乎其微。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "041fe56a8d365092017eff190b527f6b5045fff3bf7f55c0fb03679c74f4e737",
+      "enMarkdown": "In the intervening years an unfortunate idea took hold: that it was not only acceptable to produce works like the *Metaphysics*, but that it was a particularly prestigious line of work, done by a class of people called philosophers. No one thought to go back and debug Aristotle's motivating argument. And so instead of correcting the problem Aristotle discovered by falling into it—that you can easily get lost if you talk too loosely about very abstract ideas—they continued to fall into it.",
+      "zhMarkdown": "在过去的岁月里，一个不幸的观念生根发芽：不仅写出像《形而上学》这样的著作是完全可以接受的，而且这还是一项特别体面的工作，由一帮被称为“哲学家”的人来做。没有人想到要回过头去调试亚里士多德当年作为出发点的论证。因此，他们没有去纠正亚里士多德因深陷其中而发现的问题——即如果对极度抽象的想法谈论得太随意，就极易迷失方向——反而继续重蹈覆辙。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "91a01f658fa2c278d017c7703e21dce523e3cebf65b80ca53cae4d737950f32a",
+      "enMarkdown": "**The Singularity**",
+      "zhMarkdown": "**智识的奇点**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "edccc458d37ee9757e96d03ec0afab3896d00113adc66c462fed2e95e08c0188",
+      "enMarkdown": "Curiously, however, the works they produced continued to attract new readers. Traditional philosophy occupies a kind of singularity in this respect. If you write in an unclear way about big ideas, you produce something that seems tantalizingly attractive to inexperienced but intellectually ambitious students. Till one knows better, it's hard to distinguish something that's hard to understand because the writer was unclear in his own mind from something like a mathematical proof that's hard to understand because the ideas it represents are hard to understand. To someone who hasn't learned the difference, traditional philosophy seems extremely attractive: as hard (and therefore impressive) as math, yet broader in scope. That was what lured me in as a high school student.",
+      "zhMarkdown": "然而奇怪的是，他们写出的著作依然在不断吸引着新读者。在这方面，传统哲学占据了某种奇点。如果你用一种含混不清的方式去写宏大的想法，你写出的东西在那些缺乏经验却雄心勃勃的学生眼里，就会显得具有致命的诱惑力。在一个人心智成熟之前，很难区分两种“难懂”：一种是因为作者自己都没想明白而导致的晦涩，另一种则像数学证明那样，是因为其代表的概念本身极其深奥。对于无法区分这两者的年轻人来说，传统哲学显得极其迷人：它像数学一样难懂（因此显得很酷），但研究范围却宽广得多。这就是我高中时被它吸引的原因。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "eca53793c6516c61df04361cb58f81c5a3aa910f5114db852914d799f6e05fa5",
+      "enMarkdown": "This singularity is even more singular in having its own defense built in. When things are hard to understand, people who suspect they're nonsense generally keep quiet. There's no way to prove a text is meaningless. The closest you can get is to show that the official judges of some class of texts can't distinguish them from placebos. [[10](#f10n)]",
+      "zhMarkdown": "这个奇点更奇妙的地方在于，它自带防御机制。当某些东西晦涩难懂时，怀疑其是废话的人通常会保持沉默。因为你无法证明一篇文章是毫无意义的。你最接近证明的一次，也不过是表明某些文章的官方评委无法将其与安慰剂区分开来。[[10](#f10n)]"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "3e71fd1f2bc8c275847bc5cf437dbe30c54d194d39314914f6189789cb2c8cff",
+      "enMarkdown": "And so instead of denouncing philosophy, most people who suspected it was a waste of time just studied other things. That alone is fairly damning evidence, considering philosophy's claims. It's supposed to be about the ultimate truths. Surely all smart people would be interested in it, if it delivered on that promise.",
+      "zhMarkdown": "因此，大多数怀疑哲学是在浪费时间的人并没有公开谴责它，而是转去研究其他领域。考虑到哲学所宣称的地位，单是这一点就是相当致命的证据。哲学理应关乎终极真理。如果它真的能兑现这一承诺，所有聪明人肯定都会对它趋之若鹜。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "69146e40055044aa859c8eafdb7ae75d38a2027fdbdda56a89810c859037e863",
+      "enMarkdown": "Because philosophy's flaws turned away the sort of people who might have corrected them, they tended to be self-perpetuating. Bertrand Russell wrote in a letter in 1912:",
+      "zhMarkdown": "由于哲学的缺陷劝退了那些本可以纠正这些缺陷的人，这些缺陷便倾向于自我延续。伯特兰·罗素在 1912 年的一封信中写道："
+    },
+    {
+      "id": 42,
+      "type": "quote",
+      "sourceHash": "50d9ad77ec47b8e795119d229ded373ee29bbb5effbc5fb88d75d466dcdc4610",
+      "enMarkdown": "> Hitherto the people attracted to philosophy have been mostly those who loved the big generalizations, which were all wrong, so that few people with exact minds have taken up the subject. [11]",
+      "zhMarkdown": "> “迄今为止，被哲学吸引的人大多是那些热爱宏大泛泛之谈的人，而这些泛泛之谈全都是错的，以至于很少有思维严谨的人会选择这个专业。” [11]"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "f8ccaff0c9a66805fa617088b83d1d138b9a7be1f865125a3eaecf54142c8738",
+      "enMarkdown": "His response was to launch Wittgenstein at it, with dramatic results.",
+      "zhMarkdown": "他的应对方式是派维特根斯坦去冲击这个领域，并带来了戏剧性的结果。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "9ec7a8b760243e78f59e9dc03adf2926dcb59c6920c78f4bbea338e1844b9ab2",
+      "enMarkdown": "I think Wittgenstein deserves to be famous not for the discovery that most previous philosophy was a waste of time, which judging from the circumstantial evidence must have been made by every smart person who studied a little philosophy and declined to pursue it further, but for how he acted in response. [[12](#f12n)] Instead of quietly switching to another field, he made a fuss, from inside. He was Gorbachev.",
+      "zhMarkdown": "我认为维特根斯坦值得名留青史，并不是因为他发现了“以往的大多数哲学都是浪费时间”——从间接证据来看，每一个学过一点哲学并拒绝深造的聪明人应该都得出了这个结论——而是因为他对此采取的行动。[[12](#f12n)] 他没有默默地转行到其他领域，而是在体制内部大闹了一场。他是哲学界的戈尔巴乔夫。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "6109f8b98f356cba00383f251657317abd50579342fdb072087b9843cc12ddbf",
+      "enMarkdown": "The field of philosophy is still shaken from the fright Wittgenstein gave it. [[13](#f13n)] Later in life he spent a lot of time talking about how words worked. Since that seems to be allowed, that's what a lot of philosophers do now. Meanwhile, sensing a vacuum in the metaphysical speculation department, the people who used to do literary criticism have been edging Kantward, under new names like \"literary theory,\" \"critical theory,\" and when they're feeling ambitious, plain \"theory.\" The writing is the familiar word salad:",
+      "zhMarkdown": "哲学领域至今还没从维特根斯坦给它带来的惊吓中缓过神来。[[13](#f13n)] 晚年的他花了大量时间讨论词汇是如何运作的。既然这看起来是合规的，现在的许多哲学家也就开始干这个。与此同时，那些以前做文学批评的人察觉到了形而上学思辨领域的真空，便纷纷向康德靠拢，冠以“文学理论”、“批判理论”等新名字，当他们野心膨胀时，甚至直接简称为“理论”。他们的写作依然是熟悉的词汇沙拉："
+    },
+    {
+      "id": 46,
+      "type": "quote",
+      "sourceHash": "17e2ecf159fb28c847e06fa663f9ee044eefee60220d64bb7a1db9deb5427743",
+      "enMarkdown": "> Gender is not like some of the other grammatical modes which express precisely a mode of conception without any reality that corresponds to the conceptual mode, and consequently do not express precisely something in reality by which the intellect could be moved to conceive a thing the way it does, even where that motive is not something in the thing as such. [14]",
+      "zhMarkdown": "> “性数格并不像其他一些语法模式，那些模式精确地表达了一种概念模式，而没有任何现实与该概念模式相对应，因此，它们并没有精确地表达现实中的某种东西，智识可以被这种东西移动，从而像它那样去构想事物，即使这种动机并不是事物本身的一部分。” [14]"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "4633687eaf6d794bd1898bdffdf85980f38f4a82e781330b27cf5d76d5c6e72e",
+      "enMarkdown": "The singularity I've described is not going away. There's a market for writing that sounds impressive and can't be disproven. There will always be both supply and demand. So if one group abandons this territory, there will always be others ready to occupy it.",
+      "zhMarkdown": "我所描述的这个奇点并不会消失。市场永远需要听起来高大上且无法被证伪的写作。供给和需求将一直存在。因此，即使一个群体放弃了这块领地，也总会有其他人准备好去占领它。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "f68453ab8a32a9144137ad49a8e16fa5eb329d5497e88ca2345263731f5f5253",
+      "enMarkdown": "**A Proposal**",
+      "zhMarkdown": "**一个提议**"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "60b1009c10b214c58fa9bd1b5be80b9cf71545cffd03462158f30458a328d7b7",
+      "enMarkdown": "We may be able to do better. Here's an intriguing possibility. Perhaps we should do what Aristotle meant to do, instead of what he did. The goal he announces in the *Metaphysics* seems one worth pursuing: to discover the most general truths. That sounds good. But instead of trying to discover them because they're useless, let's try to discover them because they're useful.",
+      "zhMarkdown": "我们也许可以做得更好。这里有一个引人入胜的可能性：也许我们应该去实践亚里士多德本想做的事，而不是他实际做过的事。他在《形而上学》中宣布的目标似乎很值得追求：去发现最普遍的真理。这听起来很好。但与其因为这些真理无用而去寻找它们，不如因为它们有用而去寻找。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "8fac499b487c52499ce38559d0ce74eefa1486709115fddccc79c0458acc20bb",
+      "enMarkdown": "I propose we try again, but that we use that heretofore despised criterion, applicability, as a guide to keep us from wondering off into a swamp of abstractions. Instead of trying to answer the question:",
+      "zhMarkdown": "我建议我们再试一次，但我们要把此前一直被鄙视的“实用性”作为指南针，以防止自己迷失在抽象的泥潭中。与其试图回答这个问题："
+    },
+    {
+      "id": 51,
+      "type": "quote",
+      "sourceHash": "88fc6fd2e36baba2a48b2974703fc1cdab59535e8dced8207ccc2cdc1d23a5c9",
+      "enMarkdown": "> What are the most general truths?",
+      "zhMarkdown": "> “什么是最普遍的真理？”"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "f6a2d97bb3cc87bd5bf51c353c2ab02c8745cfba89c47e6bfc08d355b47c8f4a",
+      "enMarkdown": "let's try to answer the question",
+      "zhMarkdown": "不如让我们试着回答这个问题："
+    },
+    {
+      "id": 53,
+      "type": "quote",
+      "sourceHash": "d5755c8a300f3b13ad1c41e7a649e97ea93456d6aeda076dcdbab72f1fe949b7",
+      "enMarkdown": "> Of all the useful things we can say, which are the most general?",
+      "zhMarkdown": "> “在我们能说出的所有有用的话中，哪些是最具普遍性的？”"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "c8d3417001a8c02c06b80cb74e42a11b44ef72790ac1f5cfc6397587c01b31c2",
+      "enMarkdown": "The test of utility I propose is whether we cause people who read what we've written to do anything differently afterward. Knowing we have to give definite (if implicit) advice will keep us from straying beyond the resolution of the words we're using.",
+      "zhMarkdown": "我提议的实用性测试标准是：我们写下的东西，是否能让读到它的人在行为上做出任何改变。知道自己必须给出明确的（哪怕是隐含的）建议，会阻止我们跨越所用词汇的分辨率极限。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "0a08df13d778fe879aad081022c1125d3ca290849522659bf648e44dcfe55026",
+      "enMarkdown": "The goal is the same as Aristotle's; we just approach it from a different direction.",
+      "zhMarkdown": "目标与亚里士多德一致，我们只是从不同的方向切入。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "dc759e2c7ef7aaa3203947f96e03b7ace226b47120f390a100e5930ec43a72d9",
+      "enMarkdown": "As an example of a useful, general idea, consider that of the controlled experiment. There's an idea that has turned out to be widely applicable. Some might say it's part of science, but it's not part of any specific science; it's literally meta-physics (in our sense of \"meta\"). The idea of evolution is another. It turns out to have quite broad applications—for example, in genetic algorithms and even product design. Frankfurt's distinction between lying and bullshitting seems a promising recent example. [[15](#f15n)]",
+      "zhMarkdown": "作为一个有用且普遍的想法，不妨想想“对照实验”这个概念。这个想法已经被证明具有极广泛的适用性。有人可能会说它是科学的一部分，但它不属于任何特定的科学；它字面上就是“元物理学”（meta-physics，在我们对“元”的理解意义上）。“进化”也是一个。事实证明它有着相当广泛的应用——例如，在遗传算法甚至产品设计中。法兰克福（Frankfurt）对“说谎”和“扯淡”的区分，似乎是一个很有前景的近作。[[15](#f15n)]"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "0d0bc4fdc96824a2f23075db044ef2e4d8d36d44a205b404d1bc0008bd834d87",
+      "enMarkdown": "These seem to me what philosophy should look like: quite general observations that would cause someone who understood them to do something differently.",
+      "zhMarkdown": "在我看来，这些才是哲学该有的样子：相当普遍的观察，能让理解了它们的人在行事方式上有所不同。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "fa49c536384ca30671d5617b63fe79505e8f7859df90d0abeb006150f41bac92",
+      "enMarkdown": "Such observations will necessarily be about things that are imprecisely defined. Once you start using words with precise meanings, you're doing math. So starting from utility won't entirely solve the problem I described above—it won't flush out the metaphysical singularity. But it should help. It gives people with good intentions a new roadmap into abstraction. And they may thereby produce things that make the writing of the people with bad intentions look bad by comparison.",
+      "zhMarkdown": "此类观察必然涉及定义不精确的事物。一旦你开始使用含义精确的词汇，你就是在做数学了。因此，从实用性出发并不能完全解决我上面描述的问题——它无法彻底清除形而上学的奇点。但它应该会有所帮助。它给心怀善意的人指明了一条通往抽象的新路线图。他们可能会因此写出一些东西，让那些心怀鬼胎之人的写作相形见绌。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "98c8e6885d1de2c6636729353ae70c423fc63784b8915c4abab91bb43375f1f6",
+      "enMarkdown": "One drawback of this approach is that it won't produce the sort of writing that gets you tenure. And not just because it's not currently the fashion. In order to get tenure in any field you must not arrive at conclusions that members of tenure committees can disagree with. In practice there are two kinds of solutions to this problem. In math and the sciences, you can prove what you're saying, or at any rate adjust your conclusions so you're not claiming anything false (\"6 of 8 subjects had lower blood pressure after the treatment\"). In the humanities you can either avoid drawing any definite conclusions (e.g. conclude that an issue is a complex one), or draw conclusions so narrow that no one cares enough to disagree with you.",
+      "zhMarkdown": "这种方法的一个缺点是，它写不出能帮你拿到终身教职的文章。这不仅仅是因为它目前不符合潮流。为了在任何领域获得终身教职，你绝不能得出让评审委员会成员能够反对的结论。在实践中，这个问题有两种解决方案。在数学和科学领域，你可以证明你所说的话，或者至少调整你的结论，确保不声明任何错误的事情（比如“8 名受试者中有 6 人在接受治疗后血压下降”）。在人文学科中，你既可以避免得出任何明确的结论（例如，得出某个问题非常复杂的结论），也可以把结论限制得极窄，窄到根本没人关心、也懒得反对你。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "f9c08db5206fa96433eca3323092c2caf1ac3e3d039b95d47b3f22205c2e4118",
+      "enMarkdown": "The kind of philosophy I'm advocating won't be able to take either of these routes. At best you'll be able to achieve the essayist's standard of proof, not the mathematician's or the experimentalist's. And yet you won't be able to meet the usefulness test without implying definite and fairly broadly applicable conclusions. Worse still, the usefulness test will tend to produce results that annoy people: there's no use in telling people things they already believe, and people are often upset to be told things they don't.",
+      "zhMarkdown": "我所倡导的这种哲学无法走这两条路中的任何一条。你充其量只能达到随笔作家的证明标准，而达不到数学家或实验科学家的标准。然而，如果不提出明确且适用性相当广泛的结论，你就无法通过实用性测试。更糟糕的是，实用性测试往往会得出让人恼火的结果：告诉人们他们已经相信的事情是毫无用处的，而告诉他们不相信的事情，往往又会让他们感到不快。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "57e137d448bf5b7162db7627e4f363efbd5cb730cfe5014e0b557ddb4dace075",
+      "enMarkdown": "Here's the exciting thing, though. Anyone can do this. Getting to general plus useful by starting with useful and cranking up the generality may be unsuitable for junior professors trying to get tenure, but it's better for everyone else, including professors who already have it. This side of the mountain is a nice gradual slope. You can start by writing things that are useful but very specific, and then gradually make them more general. Joe's has good burritos. What makes a good burrito? What makes good food? What makes anything good? You can take as long as you want. You don't have to get all the way to the top of the mountain. You don't have to tell anyone you're doing philosophy.",
+      "zhMarkdown": "不过，令人兴奋的是：任何人都可以做这件事。对于试图获得终身教职的年轻教授来说，通过从“有用”出发并不断提升其“普遍性”来达到“既普遍又实用”的境界可能并不合适，但对其他所有人来说，这都是更好的选择，包括那些已经拿到终身教职的教授。这座山的这一侧是一段平缓的斜坡。你可以先写一些有用但非常具体的事情，然后逐渐让它们变得更具普遍性。Joe 家的卷饼很好吃。是什么让一个卷饼变得好吃？是什么让食物变得美味？是什么让任何东西变得好？你可以花任意长的时间去琢磨。你不需要非得爬到山顶，也不需要告诉任何人你正在做哲学。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "85ada93b212bdf9d75c07e265340c6a4cdb147cd22a32a6013b7473c99c9f6bb",
+      "enMarkdown": "If it seems like a daunting task to do philosophy, here's an encouraging thought. The field is a lot younger than it seems. Though the first philosophers in the western tradition lived about 2500 years ago, it would be misleading to say the field is 2500 years old, because for most of that time the leading practitioners weren't doing much more than writing commentaries on Plato or Aristotle while watching over their shoulders for the next invading army. In the times when they weren't, philosophy was hopelessly intermingled with religion. It didn't shake itself free till a couple hundred years ago, and even then was afflicted by the structural problems I've described above. If I say this, some will say it's a ridiculously overbroad and uncharitable generalization, and others will say it's old news, but here goes: judging from their works, most philosophers up to the present have been wasting their time. So in a sense the field is still at the first step. [[16](#f16n)]",
+      "zhMarkdown": "如果觉得做哲学是一项令人望而生畏的任务，这里有一个令人鼓舞的想法。这个领域其实比看起来要年轻得多。虽然西方传统中的第一批哲学家生活在约 2500 年前，但说这个领域有 2500 年的历史是误导人的。因为在过去的大部分时间里，顶尖的从业者无非是在一边为柏拉图或亚里士多德撰写注释，一边警惕地留意着随时可能入侵的下一支军队。在他们不干这些的时候，哲学又与宗教无可救药地纠缠在一起。直到几百年前，它才彻底摆脱束缚，即便如此，它依然饱受我上面描述的结构性问题的困扰。如果我这么说，有些人会认为这是一个极其以偏概全、刻薄的概括，另一些人则会认为这是陈词滥调，但事实就是：从他们的著作来看，迄今为止的大多数哲学家都在浪费时间。因此，在某种意义上，这个领域仍然处于第一步。[[16](#f16n)]"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "e5fe78c39f4b7ac4650b9a2837f25f72eb19366cb9177438be3385c8a28f7435",
+      "enMarkdown": "That sounds a preposterous claim to make. It won't seem so preposterous in 10,000 years. Civilization always seems old, because it's always the oldest it's ever been. The only way to say whether something is really old or not is by looking at structural evidence, and structurally philosophy is young; it's still reeling from the unexpected breakdown of words.",
+      "zhMarkdown": "这听起来像是一个荒谬的断言。但在 10000 年后，它就不会显得那么荒谬了。文明总是显得古老，因为它永远处于它经历过的最古老的时刻。判断一件事物是否真正古老的唯一方法是寻找结构性证据，而从结构上看，哲学还很年轻；它依然在语言的意外崩溃中摇摇欲坠。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "83ec2b2e1aaf9e5bb9a557f5f50697906b72d74a1905e6b0bc7e23779187738c",
+      "enMarkdown": "Philosophy is as young now as math was in 1500. There is a lot more to discover.",
+      "zhMarkdown": "现在的哲学，就像 1500 年时的数学一样年轻。还有太多的东西有待我们去发现。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "4df5e42688397b718e98ab3fc71360c2776df33f047d366bc59320b9f5109f98",
+      "enMarkdown": "[1] In practice formal logic is not much use, because despite some progress in the last 150 years we're still only able to formalize a small percentage of statements. We may never do that much better, for the same reason 1980s-style \"knowledge representation\" could never have worked; many statements may have no representation more concise than a huge, analog brain state.",
+      "zhMarkdown": "[1] 在实践中，形式逻辑用处不大，因为尽管过去 150 年取得了一些进展，我们仍然只能将极少比例的陈述形式化。我们可能永远无法做得更好，原因与 20 世纪 80 年代风格的“知识表示”永远行不通是一样的：许多陈述除了庞大、模拟的大脑状态之外，可能没有更简短的表示方式。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "8d784c598fc132608a613f6d29ed66df3c0563291e5382974fae78da907a5708",
+      "enMarkdown": "[2] It was harder for Darwin's contemporaries to grasp this than we can easily imagine. The story of creation in the Bible is not just a Judeo-Christian concept; it's roughly what everyone must have believed since before people were people. The hard part of grasping evolution was to realize that species weren't, as they seem to be, unchanging, but had instead evolved from different, simpler organisms over unimaginably long periods of time.",
+      "zhMarkdown": "[2] 达尔文同时代的人要理解这一点，比我们现在想象的要困难得多。圣经中的创世故事不仅是一个犹太-基督教概念，它大致是自人类诞生之前起，所有人都在相信的事情。理解进化论的难点在于意识到，物种并不像它们看起来那样是一成不变的，而是在难以想象的漫长岁月中，从不同的、更简单的生物进化而来的。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "f30086b6a5097607066cc34e11251fee04868185409dc1f463a838e4be562eb8",
+      "enMarkdown": "Now we don't have to make that leap. No one in an industrialized country encounters the idea of evolution for the first time as an adult. Everyone's taught about it as a child, either as truth or heresy.",
+      "zhMarkdown": "现在我们不需要跨越这个鸿沟了。在工业化国家，没有一个成年人是第一次接触进化论这个概念。每个人在孩提时代都被教授过它，要么将其视为真理，要么将其视为异端。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "132d40569f934bb0539721e3d93c8c5ed3e300c40a3d7a1215ff7d8be728da24",
+      "enMarkdown": "[3] Greek philosophers before Plato wrote in verse. This must have affected what they said. If you try to write about the nature of the world in verse, it inevitably turns into incantation. Prose lets you be more precise, and more tentative.",
+      "zhMarkdown": "[3] 柏拉图之前的希腊哲学家用诗体写作。这必然影响了他们的表达。如果你试图用诗体来描写世界的本质，它不可避免地会变成咒语。散文能让你表达得更精确，也更留有余地。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "13ca2dfa6a744cead81ea12209e4127c3deafa140fdc32f454f92602862ded04",
+      "enMarkdown": "[4] Philosophy is like math's ne'er-do-well brother. It was born when Plato and Aristotle looked at the works of their predecessors and said in effect \"why can't you be more like your brother?\" Russell was still saying the same thing 2300 years later.",
+      "zhMarkdown": "[4] 哲学就像是数学那个不成器的兄弟。它诞生于柏拉图和亚里士多德审视前人的著作时，他们实际上在说：“你为什么不能多学学你兄弟？”2300 年后，罗素依然在说同样的话。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "6d0298d0c064b5013f893ace06768280b72be7725bc8ebbd78ac1a04156bacfa",
+      "enMarkdown": "Math is the precise half of the most abstract ideas, and philosophy the imprecise half. It's probably inevitable that philosophy will suffer by comparison, because there's no lower bound to its precision. Bad math is merely boring, whereas bad philosophy is nonsense. And yet there are *some* good ideas in the imprecise half.",
+      "zhMarkdown": "数学是最抽象想法中精确的那一半，而哲学是不精确的那一半。哲学在对比中相形见绌大概是不可避免的，因为它的精确度没有下限。糟糕的数学仅仅是无聊，而糟糕的哲学则是胡言乱语。然而，在不精确的那一半里，确实存在一些绝妙的想法。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "4e69201f2c8fe6a18a237ca5ed5a7b9b591c18adea65cd87bf0728fcdfa9b12e",
+      "enMarkdown": "[5] Aristotle's best work was in logic and zoology, both of which he can be said to have invented. But the most dramatic departure from his predecessors was a new, much more analytical style of thinking. He was arguably the first scientist.",
+      "zhMarkdown": "[5] 亚里士多德最出色的工作是在逻辑学和动物学上，这两者都可以说是他发明的。但他与前人最戏剧性的偏离，在于一种全新的、更具分析性的思维方式。可以说他是第一位科学家。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "e2c6e4dd3cc9a2805f40d21764b32c822aca430c5ad1cf99399cd6ed686478fa",
+      "enMarkdown": "[6] Brooks, Rodney, *Programming in Common Lisp*, Wiley, 1985, p. 94.",
+      "zhMarkdown": "[6] 见 Brooks, Rodney, *Programming in Common Lisp*, Wiley, 1985, p. 94."
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "ae56d84e5c5826c722368e7f6fb854af03068e146c03b9a99e44e6b1556891f8",
+      "enMarkdown": "[7] Some would say we depend on Aristotle more than we realize, because his ideas were one of the ingredients in our common culture. Certainly a lot of the words we use have a connection with Aristotle, but it seems a bit much to suggest that we wouldn't have the concept of the essence of something or the distinction between matter and form if Aristotle hadn't written about them.",
+      "zhMarkdown": "[7] 有人会说我们对亚里士多德的依赖超出了我们的想象，因为他的思想是我们共同文化的要素之一。当然，我们使用的许多词汇都与亚里士多德有关，但如果暗示如果没有亚里士多德的写作，我们就不会有事物的“本质”概念，或者“质料”与“形式”的区别，未免有些夸大其词。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "7b21364a11d76a00b5a8bde4f9c37d8ffb722b34ccbbfea8c7fa0d47fc3f88c2",
+      "enMarkdown": "One way to see how much we really depend on Aristotle would be to diff European culture with Chinese: what ideas did European culture have in 1800 that Chinese culture didn't, in virtue of Aristotle's contribution?",
+      "zhMarkdown": "要看看我们到底在多大程度上依赖亚里士多德，一个方法是将欧洲文化与中国文化进行对比：到 1800 年，由于亚里士多德的贡献，欧洲文化拥有了哪些中国文化所没有的思想？"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "7823611e6a6574fc33f1305dec7d91ac14e299d4aa3c90ea7460b8e1828aa813",
+      "enMarkdown": "[8] The meaning of the word \"philosophy\" has changed over time. In ancient times it covered a broad range of topics, comparable in scope to our \"scholarship\" (though without the methodological implications). Even as late as Newton's time it included what we now call \"science.\" But core of the subject today is still what seemed to Aristotle the core: the attempt to discover the most general truths.",
+      "zhMarkdown": "[8] “哲学”一词的含义随着时间的推移而改变。在古代，它涵盖了广泛的主题，其范围堪比我们今天的“学术”（尽管没有方法论上的含义）。甚至迟至牛顿时代，它还包括我们现在所说的“科学”。但今天这门学科的核心依然是亚里士多德眼中的核心：试图发现最普遍的真理。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "8c569fb730c08ae88d16520635c400c6abab6c9c4cec592b5cc8a9a3539bc915",
+      "enMarkdown": "Aristotle didn't call this \"metaphysics.\" That name got assigned to it because the books we now call the *Metaphysics* came after (meta = after) the *Physics* in the standard edition of Aristotle's works compiled by Andronicus of Rhodes three centuries later. What we call \"metaphysics\" Aristotle called \"first philosophy.\"",
+      "zhMarkdown": "亚里士多德并没有把这称为“形而上学”。这个名字之所以被赋予它，是因为在三个世纪后由罗德岛的安德罗尼柯（Andronicus of Rhodes）编纂的亚里士多德著作标准版中，我们现在称为《形而上学》的书排在《物理学》之后（meta = 之后）。我们所说的“形而上学”，亚里士多德称之为“第一哲学”。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "cf918bd0e5a125f694694e4e54a8440aabb382829e2c9d8587423bfeb3d5a934",
+      "enMarkdown": "[9] Some of Aristotle's immediate successors may have realized this, but it's hard to say because most of their works are lost.",
+      "zhMarkdown": "[9] 亚里士多德的一些直接继承者可能已经意识到了这一点，但很难说，因为他们的大部分著作都失传了。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "27660a456e2fac2041b3cac86c0d8019e435802d395ecf6837e42d47547b32e6",
+      "enMarkdown": "[10] Sokal, Alan, \"Transgressing the Boundaries: Toward a Transformative Hermeneutics of Quantum Gravity,\" *Social Text* 46/47, pp. 217-252.",
+      "zhMarkdown": "[10] Sokal, Alan, \"Transgressing the Boundaries: Toward a Transformative Hermeneutics of Quantum Gravity,\" *Social Text* 46/47, pp. 217-252."
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "c9232744d2aa08522a167c30f5d5003edb10ba785996ea1b714d8b4c4a9192c2",
+      "enMarkdown": "Abstract-sounding nonsense seems to be most attractive when it's aligned with some axe the audience already has to grind. If this is so we should find it's most popular with groups that are (or feel) weak. The powerful don't need its reassurance.",
+      "zhMarkdown": "听起来很抽象的废话，在迎合听众已有的某种偏见时似乎最具吸引力。如果真是这样，我们应该会发现它在弱势（或自认为弱势）的群体中最受欢迎。强者不需要这种心理安慰。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "c30f8c70b0917e5587c4ecc4e407ee9c4953d1fb46153ad1379cebe33bc81337",
+      "enMarkdown": "[11] Letter to Ottoline Morrell, December 1912. Quoted in:",
+      "zhMarkdown": "[11] 1912 年 12 月致奥托琳·莫雷尔（Ottoline Morrell）的信。转引自："
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "476a32177c3fc63561b12750f178ea05ad1fa2cd73aa5f2d3b16d3b9dbc2aeb5",
+      "enMarkdown": "Monk, Ray, *Ludwig Wittgenstein: The Duty of Genius*, Penguin, 1991, p. 75.",
+      "zhMarkdown": "Monk, Ray, *Ludwig Wittgenstein: The Duty of Genius*, Penguin, 1991, p. 75."
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "a74a5f7e0be28638bae64dd11450004a0ecab6a944cdd61d2de010d704020e58",
+      "enMarkdown": "[12] A preliminary result, that all metaphysics between Aristotle and 1783 had been a waste of time, is due to I. Kant.",
+      "zhMarkdown": "[12] 伊曼努尔·康德曾得出一个初步结论：亚里士多德与 1783 年之间的所有形而上学都是在浪费时间。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "e01ad4eae0eb4eba9fd652bb3b7f83d857304fb3631633d0765349d71219271e",
+      "enMarkdown": "[13] Wittgenstein asserted a sort of mastery to which the inhabitants of early 20th century Cambridge seem to have been peculiarly vulnerable—perhaps partly because so many had been raised religious and then stopped believing, so had a vacant space in their heads for someone to tell them what to do (others chose Marx or Cardinal Newman), and partly because a quiet, earnest place like Cambridge in that era had no natural immunity to messianic figures, just as European politics then had no natural immunity to dictators.",
+      "zhMarkdown": "[13] 维特根斯坦展现出的某种掌控力，似乎让 20 世纪初剑桥的学者们特别难以招架——部分原因可能是很多人从小信奉宗教，后来不再相信，于是在脑海中留下了一块真空，渴望有人来告诉他们该做什么（其他人选择了马克思或纽曼红衣主教）；另一部分原因在于，那个时代像剑桥这样安静、热忱的地方，对救世主般的人物没有天然的免疫力，正如当时的欧洲政治对独裁者没有天然的免疫力一样。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "7c70beae9afd5682130d3a67fc88ee7cb29ab8f10d5507da13d5e8b33cecf1f3",
+      "enMarkdown": "[14] This is actually from the *Ordinatio* of Duns Scotus (ca. 1300), with \"number\" replaced by \"gender.\" Plus ca change.",
+      "zhMarkdown": "[14] 这实际上出自邓斯·司各脱（Duns Scotus）的《牛津论集》（*Ordinatio*，约 1300 年），只是把其中的“数”替换成了“性”。太阳底下无新事。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "9326e338469900ed60532cceb4f5ba50c09b667a8d50da0a8c55435e2406e29f",
+      "enMarkdown": "Wolter, Allan (trans), *Duns Scotus: Philosophical Writings*, Nelson, 1963, p. 92.",
+      "zhMarkdown": "Wolter, Allan (译), *Duns Scotus: Philosophical Writings*, Nelson, 1963, p. 92."
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "6c490af1dbb377d64954345bb656fdb049033ce05d60e528f2aa7dbb7659f787",
+      "enMarkdown": "[15] Frankfurt, Harry, *On Bullshit*, Princeton University Press, 2005.",
+      "zhMarkdown": "Frankfurt, Harry, *On Bullshit*, Princeton University Press, 2005. (中译《论扯淡》)"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "2219d4fa63b5b950723c3ae45a1de96ac7849a277a3a5701f21574575b8bdb5d",
+      "enMarkdown": "[16] Some introductions to philosophy now take the line that philosophy is worth studying as a process rather than for any particular truths you'll learn. The philosophers whose works they cover would be rolling in their graves at that. They hoped they were doing more than serving as examples of how to argue: they hoped they were getting results. Most were wrong, but it doesn't seem an impossible hope.",
+      "zhMarkdown": "[16] 现在的某些哲学导论课采取了这样一种立场：哲学值得学习是为了其过程，而不是为了你能学到什么具体的真理。那些著作被讨论的哲学家们要是泉下有知，棺材板怕是按不住了。他们当年可不希望自己仅仅作为“如何辩论”的案例：他们希望能得出真正的结果。虽然大多数人都错了，但这并不是一个不可能实现的奢望。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "4e2c645af2d445815468ad9ac7132ba90e3de85b668eabfd1ba490ad58c5c3dc",
+      "enMarkdown": "This argument seems to me like someone in 1500 looking at the lack of results achieved by alchemy and saying its value was as a process. No, they were going about it wrong. It turns out it is possible to transmute lead into gold (though not economically at current energy prices), but the route to that knowledge was to backtrack and try another approach.",
+      "zhMarkdown": "这种论调让我想起 1500 年的某个人，看着炼金术毫无成果，便辩称其价值在于过程。不，他们只是方法错了。事实证明，将铅炼成黄金是可能的（尽管按目前的能源价格来看并不划算），但通往该知识的道路是往回退，并尝试另一种方法。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "56775b5313db88bc805cf0a6a0037425362c99f1e301d8d74a1fcbc4b9d844b6",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Paul Buchheit, Jessica Livingston, Robert Morris, Mark Nitzberg, and Peter Norvig for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell, Paul Buchheit, Jessica Livingston, Robert Morris, Mark Nitzberg, 和 Peter Norvig 阅读本篇草稿。"
+    }
+  ]
+}

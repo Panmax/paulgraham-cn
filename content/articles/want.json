@@ -1,0 +1,90 @@
+{
+  "slug": "want",
+  "titleEn": "What You (Want to)* Want",
+  "titleZh": "你想（想要）* 得到什么",
+  "dateText": "November 2022",
+  "publishedAt": "2022-11-01",
+  "sourceOrder": 20,
+  "sourceUrl": "https://paulgraham.com/want.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "195a5f0158025fca3595253c8e531be5bba2cc2c5495632b38fe94282f6fc959",
+      "enMarkdown": "Since I was about 9 I've been puzzled by the apparent contradiction between being made of matter that behaves in a predictable way, and the feeling that I could choose to do whatever I wanted. At the time I had a self-interested motive for exploring the question. At that age (like most succeeding ages) I was always in trouble with the authorities, and it seemed to me that there might possibly be some way to get out of trouble by arguing that I wasn't responsible for my actions. I gradually lost hope of that, but the puzzle remained: How do you reconcile being a machine made of matter with the feeling that you're free to choose what you do? [[1](#f1n)]",
+      "zhMarkdown": "大约从 9 岁起，我就一直被一个显而易见的矛盾所困扰：一方面，我们是由行为方式可预测的物质构成的；另一方面，我们又觉得可以自由选择做任何自己想做的事。当时，我探究这个问题是出于自私的动机。在那个年纪（其实后来的大多数年纪也是如此），我总是跟权威发生冲突，在我看来，或许可以通过辩称自己不对自身行为负责，来摆脱惩罚。虽然我逐渐对此失去了希望，但这个谜团依然存在：如何将自己是一个由物质构成的机器，与觉得自己可以自由选择做什么相调和？ [[1](#f1n)]"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "b2aaa20aef504f14a47b87b2acd0fd33ba5d87b7468d3e8fe88700caa4a1f459",
+      "enMarkdown": "The best way to explain the answer may be to start with a slightly wrong version, and then fix it. The wrong version is: You can do what you want, but you can't want what you want. Yes, you can control what you do, but you'll do what you want, and you can't control that.",
+      "zhMarkdown": "解释这个答案最好的方法，也许是先从一个稍微有点错误的版本开始，然后再去修正它。这个错误的版本是：你可以做你想做的事，但你无法决定自己想想要什么。是的，你可以控制自己的行为，但你会按照自己的意愿去做，而你无法控制这种意愿。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "7681eff304f4f7d2d1926c08c28bbc4060d9046c9e2279cce431f1fceaf6dfec",
+      "enMarkdown": "The reason this is mistaken is that people do sometimes change what they want. People who don't want to want something — drug addicts, for example — can sometimes make themselves stop wanting it. And people who want to want something — who want to like classical music, or broccoli — sometimes succeed.",
+      "zhMarkdown": "这个说法之所以不对，是因为人们有时确实会改变自己的意愿。那些不想让自己想要某物的人（例如吸毒者），有时可以让自己不再想要它。而那些想要让自己想要某物的人（比如想让自己喜欢古典音乐或西兰花的人），有时也能如愿以偿。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "58c9f8d961d3f617270a8ed40e8677b903de9233b1a19e0fd4abc017eb59741a",
+      "enMarkdown": "So we modify our initial statement: You can do what you want, but you can't want to want what you want.",
+      "zhMarkdown": "因此，我们修改最初的表述：你可以做你想做的事，但你无法想要去想要你想想要的东西。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a7ddbf379931fc246cd81461bc2d3896bd3442fca6800c5b425e8aad2d99e1ef",
+      "enMarkdown": "That's still not quite true. It's possible to change what you want to want. I can imagine someone saying \"I decided to stop wanting to like classical music.\" But we're getting closer to the truth. It's rare for people to change what they want to want, and the more \"want to\"s we add, the rarer it gets.",
+      "zhMarkdown": "这仍然不完全正确。改变你“想要去想要”的东西是可能的。我可以想象有人会说：“我决定不再强求自己去喜欢古典音乐了。”但我们正在接近真相。人们很少会改变自己“想要去想要”的东西，而且我们叠加的“想要去”越多，这种情况就越罕见。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "25c935ccb66f0df0bfdfbc93a6d80ea9bce7f030e3d8ff75bf57803492147623",
+      "enMarkdown": "We can get arbitrarily close to a true statement by adding more \"want to\"s in much the same way we can get arbitrarily close to 1 by adding more 9s to a string of 9s following a decimal point. In practice three or four \"want to\"s must surely be enough. It's hard even to envision what it would mean to change what you want to want to want to want, let alone actually do it.",
+      "zhMarkdown": "通过增加更多层“想要去”，我们可以无限接近一个真理，这非常类似于通过在小数点后增加更多的 9 来无限接近 1。在实际操作中，三到四个“想要去”肯定足够了。要想象改变你“想要去想要去想要去想要”的东西意味着什么都很困难，更不用说实际去做了。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "41ade6a1652fa52094975d7ee15276336918685fd31ffd98c6d662642ae5d346",
+      "enMarkdown": "So one way to express the correct answer is to use a regular expression. You can do what you want, but there's some statement of the form \"you can't (want to)* want what you want\" that's true. Ultimately you get back to a want that you don't control. [[2](#f2n)]",
+      "zhMarkdown": "因此，表达正确答案的一种方法是使用正则表达式。你可以做你想做的事，但总有某个形如“你无法（想要去）* 想要你想想要的东西”的表述是成立的。归根结底，你终究会回到一个你无法控制的意愿上。 [[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a25eba108980bd4d8d3d9153ff664c1e37e03e22139df12f4137c16dc572c2bf",
+      "enMarkdown": "[1] I didn't know when I was 9 that matter might behave randomly, but I don't think it affects the problem much. Randomness destroys the ghost in the machine as effectively as determinism.",
+      "zhMarkdown": "[1] 我 9 岁时并不知道物质的行为可能是随机的，但我认为这并不会对问题产生太大影响。随机性对“机器中的幽灵”的否定，与决定论一样彻底。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "eca245d8b47752835fa6d2d2e7c5e46aea4adb82f4f531f9ae2a2219aece3006",
+      "enMarkdown": "[2] If you don't like using an expression, you can make the same point using higher-order desires: There is some n such that you don't control your nth-order desires.",
+      "zhMarkdown": "[2] 如果你不喜欢使用正则表达式，也可以用高阶欲望来表达同样的观点：存在某个 n，使得你无法控制自己第 n 阶的欲望。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "9f9ae5bc485bbdf9537935b3f76c0625bd53f60d5dcda791227721df697063cd",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, Robert Morris, and Michael Nielsen for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston、Robert Morris 和 Michael Nielsen 阅读本文草稿。"
+    }
+  ]
+}

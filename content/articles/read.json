@@ -1,0 +1,90 @@
+{
+  "slug": "read",
+  "titleEn": "The Need to Read",
+  "titleZh": "阅读的必要性",
+  "dateText": "November 2022",
+  "publishedAt": "2022-11-01",
+  "sourceOrder": 19,
+  "sourceUrl": "https://paulgraham.com/read.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "d37b906ff39daeb68e84b49921f0ec9d5c43890c45b38353bb2fef8ddaa98c4e",
+      "enMarkdown": "In the science fiction books I read as a kid, reading had often been replaced by some more efficient way of acquiring knowledge. Mysterious \"tapes\" would load it into one's brain like a program being loaded into a computer.",
+      "zhMarkdown": "在我小时候读的科幻小说里，阅读常常被某种更高效的获取知识的方式所取代。神秘的“磁带”会把知识直接载入大脑，就像把程序载入计算机一样。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4e0aab5f8a7364ba1da7d29a27710fa34afcb625a5d107368024de9c28ff3d17",
+      "enMarkdown": "That sort of thing is unlikely to happen anytime soon. Not just because it would be hard to build a replacement for reading, but because even if one existed, it would be insufficient. Reading about x doesn't just teach you about x; it also teaches you how to write. [[1](#f1n)]",
+      "zhMarkdown": "这种场景在短期内不太可能实现。这不仅是因为很难制造出阅读的替代品，还因为即便有了替代品，它也是不够的。阅读关于某事物的内容不仅能让你了解该事物，还能教会你如何写作。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "5fde22f47aed10cc2290818155fb7ee9fb6788b995c3525d70c87c688e4e4dde",
+      "enMarkdown": "Would that matter? If we replaced reading, would anyone need to be good at writing?",
+      "zhMarkdown": "这重要吗？如果我们取代了阅读，还有人需要擅长写作吗？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "aad92b6c8752b33598c99e5736fae0b797cf5fdcead0092893f8ec4c5567a7f8",
+      "enMarkdown": "The reason it would matter is that writing is not just a way to convey ideas, but also a way to have them.",
+      "zhMarkdown": "这之所以重要，是因为写作不仅仅是表达思想的一种方式，更是产生思想的一种方式。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f003b3008d396f2bfd6b1b5bad9a484799bb8a7b4b0462f94bf18774b9b49d05",
+      "enMarkdown": "A good writer doesn't just think, and then write down what he thought, as a sort of transcript. A good writer will almost always discover new things in the process of writing. And there is, as far as I know, no substitute for this kind of discovery. Talking about your ideas with other people is a good way to develop them. But even after doing this, you'll find you still discover new things when you sit down to write. There is a kind of thinking that can only be done by [writing](https://paulgraham.com/words.html).",
+      "zhMarkdown": "一个优秀的作者不会仅仅是先思考，然后把思考的内容像录音整理一样写下来。优秀的作者几乎总是在写作的过程中发现新事物。据我所知，这种发现过程是无法替代的。与他人讨论你的想法是完善它们的好方法。但即使在讨论之后，当你坐下来写作时，你依然会发现新的东西。有一种思考，只能通过[写作](https://paulgraham.com/words.html)来完成。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "8fcee8aeba3c8a0cb15cc4bbda2b3ba2df121e8f43c406205f210ae6077f70c4",
+      "enMarkdown": "There are of course kinds of thinking that can be done without writing. If you don't need to go too deeply into a problem, you can solve it without writing. If you're thinking about how two pieces of machinery should fit together, writing about it probably won't help much. And when a problem can be described formally, you can sometimes solve it in your head. But if you need to solve a complicated, ill-defined problem, it will almost always help to write about it. Which in turn means that someone who's not good at writing will almost always be at a disadvantage in solving such problems.",
+      "zhMarkdown": "当然，也有一些思考是不需要写作就能完成的。如果你不需要太深入地钻研一个问题，不写也能解决。如果你在思考两件机械零件应该如何拼接，写下来可能帮不上什么忙。当一个问题可以被形式化描述时，你有时可以在脑子里解决它。但如果你需要解决一个复杂、定义模糊的问题，写下来几乎总会有所帮助。这反过来意味着，不擅长写作的人在解决这类问题时，几乎总是处于劣势。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "415555683d29b862b67e6cd17b1347e2ed6927b849a63edd710589c8467c1ef0",
+      "enMarkdown": "You can't think well without writing well, and you can't write well without reading well. And I mean that last \"well\" in both senses. You have to be good at reading, and read good things. [[2](#f2n)]",
+      "zhMarkdown": "写不好就无法想得深，而读不好就无法写得好。我说的后一个“好”字包含两层意思：你必须擅长阅读，而且要阅读好的东西。[[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "34c8ec1ca1b9079a36c2ed6e24cb4aef57c4b4bbf653b9d9a37aa89fbcc1f5db",
+      "enMarkdown": "People who just want information may find other ways to get it. But people who want to have ideas can't afford to.",
+      "zhMarkdown": "那些仅仅想要获取信息的人可能会找到其他途径。但那些想要产生思想的人，却输不起这一步。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "6657db8a7a165289c2a2db070939ee88a96effc9d5d52baf1d5d1e36de5143c9",
+      "enMarkdown": "[1] Audiobooks can give you examples of good writing, but having them read to you doesn't teach you as much about writing as reading them yourself.",
+      "zhMarkdown": "[1] 有声书可以为你提供优秀写作的范例，但听书对写作能力的提升不如自己亲自阅读来得大。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "2d9380738b875c815200482d72fea2ae41d3dbc6307b4d0ef1d7921a2d1028be",
+      "enMarkdown": "[2] By \"good at reading\" I don't mean good at the mechanics of reading. You don't have to be good at extracting words from the page so much as extracting meaning from the words.",
+      "zhMarkdown": "[2] 我所说的“擅长阅读”，并不是指掌握阅读的技巧。你不需要多么擅长从纸页上提取文字，而是要擅长从文字中提取意义。"
+    }
+  ]
+}

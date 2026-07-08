@@ -1,0 +1,41 @@
+{
+  "slug": "disc",
+  "titleEn": "The Risk of Discovery",
+  "titleZh": "发现的风险",
+  "dateText": "January 2017",
+  "publishedAt": "2017-01-01",
+  "sourceOrder": 57,
+  "sourceUrl": "https://paulgraham.com/disc.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "6e3eba4f628c23add4b58665b15dd29dc7dab427d1dec76308b27cd89d07ec88",
+      "enMarkdown": "Because biographies of famous scientists tend to edit out their mistakes, we underestimate the degree of risk they were willing to take. And because anything a famous scientist did that wasn't a mistake has probably now become the conventional wisdom, those choices don't seem risky either.",
+      "zhMarkdown": "因为著名科学家的传记往往会删去他们犯过的错误，我们往往低估了他们当年愿意承担的风险。而且，著名科学家所做的任何没有出错的事情，如今可能都已成为常识，因此这些选择在今天看来也并不显得冒险。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "686200b95162a7e8d7986726e0500a01eb807bb9bae1c50547d93c6021c43eab",
+      "enMarkdown": "Biographies of Newton, for example, understandably focus more on physics than alchemy or theology. The impression we get is that his unerring judgment led him straight to truths no one else had noticed. How to explain all the time he spent on alchemy and theology? Well, smart people are often kind of crazy.",
+      "zhMarkdown": "以牛顿的传记为例，人们更关注他的物理学成就，而非炼金术或神学，这是可以理解的。这给我们留下的印象是，他那绝无仅有的判断力直接指引他发现了别人未曾注意到的真理。但该如何解释他在炼金术和神学上花费的大量时间呢？好吧，聪明人往往都有点疯疯癫癫的。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "8cf98bda0eec571050945a51da0da061c9a69890782f347a7aead09104f12177",
+      "enMarkdown": "But maybe there is a simpler explanation. Maybe the smartness and the craziness were not as separate as we think. Physics seems to us a promising thing to work on, and alchemy and theology obvious wastes of time. But that's because we know how things turned out. In Newton's day the three problems seemed roughly equally promising. No one knew yet what the payoff would be for inventing what we now call physics; if they had, more people would have been working on it. And alchemy and theology were still then in the category Marc Andreessen would describe as \"huge, if true.\"",
+      "zhMarkdown": "但也许有一个更简单的解释。也许聪明和疯狂并没有我们想象的那么泾渭分明。在我们看来，研究物理学大有可为，而炼金术和神学显然是在浪费时间。但这只是因为我们知道了后来的结果。在牛顿那个时代，这三个问题看起来前景差不多。当时还没有人知道，发明我们今天所说的“物理学”会有什么回报；如果他们知道，就会有更多的人去研究它。而当时的炼金术和神学，依然属于马克·安德森所形容的“一旦成真，非同凡响”的范畴。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "52cfa692eaaa31544cca974aced8ea9349e18d5bd16db1cf6bd76b5fd783c8aa",
+      "enMarkdown": "Newton made three bets. One of them worked. But they were all risky.",
+      "zhMarkdown": "牛顿下了三次注。其中一次成功了。但它们每一个都极具风险。"
+    }
+  ]
+}

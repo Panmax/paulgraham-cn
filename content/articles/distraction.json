@@ -1,0 +1,174 @@
+{
+  "slug": "distraction",
+  "titleEn": "Disconnecting Distraction",
+  "titleZh": "切断分心源",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 135,
+  "sourceUrl": "https://paulgraham.com/distraction.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "18bf70b7e2c4566b97c03531fb899c5c40b14f569380258c92b69bf0442eb1de",
+      "enMarkdown": "*Note: The strategy described at the end of this essay didn't work.\nIt would work for a while, and then I'd gradually find myself\nusing the Internet on my work computer.  I'm trying other\nstrategies now, but I think this time I'll wait till I'm sure\nthey work before writing about them.*",
+      "zhMarkdown": "*注：本文末尾介绍的策略后来失效了。它起初管用了一阵子，但渐渐地，我又开始在工作电脑上上网了。我现在正在尝试其他策略，但我想这次我会等到确信它们有效之后，再写文章分享。*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "95ce862211df4a3b82921cdf8ba68631deebe123c96b32d5711cf9218fc13028",
+      "enMarkdown": "May 2008",
+      "zhMarkdown": "2008年5月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "830dba70bae6656d47aed80c2c1e7f55fc92a2b4f5aad43ff53edb216c3356b0",
+      "enMarkdown": "Procrastination feeds on distractions. Most people find it uncomfortable just to sit and do nothing; you avoid work by doing something else.",
+      "zhMarkdown": "拖延症是靠分心来滋养的。大多数人觉得干坐着无所事事很难受，所以你通过做别的事情来逃避工作。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "c74f5c5ab4e24666bff077dcbd36d7687c57c90b94878eb705eb45fd04679d1b",
+      "enMarkdown": "So one way to beat procrastination is to starve it of distractions. But that's not as straightforward as it sounds, because there are people working hard to distract you. Distraction is not a static obstacle that you avoid like you might avoid a rock in the road. Distraction seeks you out.",
+      "zhMarkdown": "因此，战胜拖延症的一个方法就是切断它的分心源。但这并不像听上去那么简单，因为有人在变着法子分散你的注意力。分心不是一个静止的障碍，像路上的石头那样绕过去就行。分心会主动找上你。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c702d448e8c79094b20bc5125d9b3e1661631ddd2b40148cdf985fa1a986dcde",
+      "enMarkdown": "Chesterfield described dirt as matter out of place. Distracting is, similarly, desirable at the wrong time. And technology is continually being refined to produce more and more desirable things. Which means that as we learn to avoid one class of distractions, new ones constantly appear, like drug-resistant bacteria.",
+      "zhMarkdown": "切斯特菲尔德曾把污垢定义为“放错地方的物质”。同样，分心也就是在错误的时间出现的“好东西”。而且，技术在不断迭代，制造出越来越多让人难以抗拒的好东西。这意味着，当我们学会避开一类分心事物时，新的分心事物又会源源不断地出现，就像产生了抗药性的细菌一样。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "5eec8b059a2c166a81d7761795ee7f02baef63932e3d329493a3706edf6f6d60",
+      "enMarkdown": "Television, for example, has after 50 years of refinement reached the point where it's like visual crack. I realized when I was 13 that TV was addictive, so I stopped watching it. But I read recently that the average American watches [4 hours](http://www.forbes.com/forbes/2003/0929/076.html) of TV a day. A quarter of their life.",
+      "zhMarkdown": "以电视为例，经过50年的演进，它已经到了像视觉毒品一样的地步。我13岁时就意识到电视会上瘾，于是戒掉了。但我最近读到，美国人平均每天看 [4小时](http://www.forbes.com/forbes/2003/0929/076.html) 电视。这占了他们人生的四分之一。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "12ebb935dbbc29425a4343bb8a464ab221eef71658af01fec0422502dbdb14e5",
+      "enMarkdown": "TV is in decline now, but only because people have found even more addictive ways of wasting time. And what's especially dangerous is that many happen at your computer. This is no accident. An ever larger percentage of office workers sit in front of computers connected to the Internet, and distractions always evolve toward the procrastinators.",
+      "zhMarkdown": "电视现在没落了，但这只是因为人们找到了更让人上瘾的消磨时间的方式。而且尤其危险的是，这些方式很多就发生在你的电脑上。这绝非偶然。越来越多的上班族整天坐在联网的电脑前，而分心事物总是朝着拖延者的方向演进。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2f7d0fdb07ce67f44b009e6fa7141411cbca84146fc93fd15dc681335bac5a65",
+      "enMarkdown": "I remember when computers were, for me at least, exclusively for work. I might occasionally dial up a server to get mail or ftp files, but most of the time I was offline. All I could do was write and program. Now I feel as if someone snuck a television onto my desk. Terribly addictive things are just a click away. Run into an obstacle in what you're working on? Hmm, I wonder what's new online. Better check.",
+      "zhMarkdown": "我记得以前，电脑对我来说纯粹是工作的工具。我偶尔会拨号登录服务器收个邮件或传输文件（ftp），但大部分时间我是离线的。我能做的只有写作和写程序。现在，我感觉就像有人偷偷在我的桌上放了一台电视机。极度让人上瘾的东西只需点一下鼠标就能触及。工作遇到瓶颈了？嗯，不知道网上又有什么新鲜事，还是去看看吧。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "67523a07ee12806c4c774dccb4d5cca1c7572bbd195d69665ac6a1cd0a57750d",
+      "enMarkdown": "After years of carefully avoiding classic time sinks like TV, games, and Usenet, I still managed to fall prey to distraction, because I didn't realize that it evolves. Something that used to be safe, using the Internet, gradually became more and more dangerous. Some days I'd wake up, get a cup of tea and check the news, then check email, then check the news again, then answer a few emails, then suddenly notice it was almost lunchtime and I hadn't gotten any real work done. And this started to happen more and more often.",
+      "zhMarkdown": "在多年小心翼翼地避开电视、游戏和 Usenet 等经典时间杀手之后，我依然落入了分心的陷阱，因为我没意识到分心也是会演进的。以前安全的事情——比如上网——渐渐变得越来越危险。有些日子，我醒来倒杯茶，看看新闻，然后查邮件，接着再看看新闻，回几封邮件，然后突然发现快到午饭时间了，而我还没干一件正经事。这种情况开始频繁发生。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "1cefd22cb587a9f0db2555d9f068a4e65b653fee57d11800a5f0048fec5a873e",
+      "enMarkdown": "It took me surprisingly long to realize how distracting the Internet had become, because the problem was intermittent. I ignored it the way you let yourself ignore a bug that only appears intermittently. When I was in the middle of a project, distractions weren't really a problem. It was when I'd finished one project and was deciding what to do next that they always bit me.",
+      "zhMarkdown": "我花了惊人长的时间才意识到互联网已经变得多么让人分心，因为这个问题是断断续续出现的。我忽略了它，就像你允许自己忽略一个只是偶尔出现的 Bug 一样。当我处于项目开发中期时，分心根本不是问题。但每当我完成一个项目、在决定下一步做什么的时候，它们总是会跑出来咬我一口。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "84fe9c706b15fe5dd71ddfea939a1b036babcd8620625b601d360ae0d079d289",
+      "enMarkdown": "Another reason it was hard to notice the danger of this new type of distraction was that social customs hadn't yet caught up with it. If I'd spent a whole morning sitting on a sofa watching TV, I'd have noticed very quickly. That's a known danger sign, like drinking alone. But using the Internet still looked and felt a lot like work.",
+      "zhMarkdown": "难以察觉这种新型分心危险的另一个原因，是社会习俗还没跟上。如果我一整个上午都坐在沙发上看电视，我很快就会意识到不对劲。那是一个公认的危险信号，就像独自饮酒一样。但上网看起来和感觉起来，依然非常像在工作。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "6c1ee163473e9c10732f360f81edbb7326de869d9b54815e35c8caa52ce5d611",
+      "enMarkdown": "Eventually, though, it became clear that the Internet had become so much more distracting that I had to start treating it differently. Basically, I had to add a new application to my list of known time sinks: Firefox.",
+      "zhMarkdown": "不过，最终我彻底看清了：互联网已经变得如此让人分心，我必须换种方式对待它。基本上，我必须在我的已知时间杀手清单上加上一个新应用：Firefox。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "109510644bb4c21f8eb3bdf0be4db1175a5311a1f6ce66b3f05a8bacae47a8b4",
+      "enMarkdown": "* * *",
+      "zhMarkdown": "* * *"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "9df40380e47d96e8d4b6a34d4748ef483c5406215d7e41f4e55c02293fad5876",
+      "enMarkdown": "The problem is a hard one to solve because most people still need the Internet for some things. If you drink too much, you can solve that problem by stopping entirely. But you can't solve the problem of overeating by stopping eating. I couldn't simply avoid the Internet entirely, as I'd done with previous time sinks.",
+      "zhMarkdown": "这个问题很难解决，因为大多数人做很多事依然需要互联网。如果你酗酒，你可以通过彻底戒酒来解决。但你不能通过不吃饭来解决暴饮暴食的问题。我无法像对待以前的时间杀手那样，简单地完全避开互联网。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "9547187b6f9b5a596bf4f8fb5e21994e0941d3612c0049ea4c3de72c685bb031",
+      "enMarkdown": "At first I tried rules. For example, I'd tell myself I was only going to use the Internet twice a day. But these schemes never worked for long. Eventually something would come up that required me to use it more than that. And then I'd gradually slip back into my old ways.",
+      "zhMarkdown": "起初我尝试制定规则。例如，我告诉自己一天只上网两次。但这些方案从没维持太久。最终总会遇到某些事情，需要我增加上网次数。然后我又会渐渐退回老样子。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "ee4023894c948839208e1303b7cdcb670f18a01c7176bbdf4d56c5621400d794",
+      "enMarkdown": "Addictive things have to be treated as if they were sentient adversaries—as if there were a little man in your head always cooking up the most plausible arguments for doing whatever you're trying to stop doing. If you leave a path to it, he'll find it.",
+      "zhMarkdown": "对待让人上瘾的东西，必须把它们当作有灵智的对手——就好像你脑子里有个小人，总在为你试图戒掉的事情编造最冠冕堂皇的借口。只要你留有一丝退路，他就能找得到。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "b76b2841614f1c09c7faadb40520ba9b31b019b66b1f596143917b8dbb8f4349",
+      "enMarkdown": "The key seems to be visibility. The biggest ingredient in most bad habits is denial. So you have to make it so that you can't merely *slip* into doing the thing you're trying to avoid. It has to set off alarms.",
+      "zhMarkdown": "关键似乎在于“可见性”。大多数坏习惯中最大的成分就是自我欺骗。所以，你必须做到让你无法只是“不小心滑向”你试图避免做的事情。它必须能拉响警报。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "f19379673b4282750d494c6b8c9db515aac58f6860add801e90b6dd926554504",
+      "enMarkdown": "Maybe in the long term the right answer for dealing with Internet distractions will be [software](http://rescuetime.com) that watches and controls them. But in the meantime I've found a more drastic solution that definitely works: to set up a separate computer for using the Internet.",
+      "zhMarkdown": "从长远来看，解决互联网分心问题的正确答案或许是监控并控制它们的 [软件](http://rescuetime.com)。但在此期间，我发现了一个绝对有效的更彻底的解决方案：专门配置一台用来上网的电脑。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "77316f25a67bd695f499288a407bb4b3024ab0c22d3511e5d48e51938b672516",
+      "enMarkdown": "I now leave wifi turned off on my main computer except when I need to transfer a file or edit a web page, and I have a separate laptop on the other side of the room that I use to check mail or browse the web. (Irony of ironies, it's the computer Steve Huffman wrote Reddit on. When Steve and Alexis auctioned off their old laptops for charity, I bought them for the Y Combinator museum.)",
+      "zhMarkdown": "我现在的主电脑除了需要传输文件或编辑网页时，平时都关闭 Wi-Fi。我在房间的另一头放了一台单独的笔记本电脑，专门用来查邮件或浏览网页。（极其讽刺的是，那台电脑正是 Steve Huffman 当年写出 Reddit 的那一台。当 Steve 和 Alexis 拍卖他们的旧笔记本电脑做慈善时，我买下它们放进了 Y Combinator 博物馆。）"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7aac9c2dc88f5423e890ac28d56506ad32afcdade6d561c574dc5c55826552c8",
+      "enMarkdown": "My rule is that I can spend as much time online as I want, as long as I do it on that computer. And this turns out to be enough. When I have to sit on the other side of the room to check email or browse the web, I become much more aware of it. Sufficiently aware, in my case at least, that it's hard to spend more than about an hour a day online.",
+      "zhMarkdown": "我的规则是，只要在房间另一头的那台电脑上，我想上多久网都行。事实证明，这就足够了。当我必须坐在房间的另一头去查邮件或浏览网页时，我对此的感知会敏锐得多。至少对我来说，这种感知度足够让我很难在网上每天待超过一个小时。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "fb199ea53ac9cc8543a7ca80392290a2022e6954372d14e05cb6d16c9cfc5840",
+      "enMarkdown": "And my main computer is now freed for work. If you try this trick, you'll probably be struck by how different it feels when your computer is disconnected from the Internet. It was alarming to me how foreign it felt to sit in front of a computer that could only be used for work, because that showed how much time I must have been wasting.",
+      "zhMarkdown": "而我的主电脑现在被解放出来用于工作了。如果你尝试这个诀窍，你可能会被电脑断网后的那种异样感所震撼。坐在一部只能用来工作的电脑前，让我感到惊讶和陌生，因为这恰恰暴露出我以前浪费了多少时间。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "2c143f2d2a34684cf48a8810e10027224ed8ded42436d6b8cc0b73e879b401cd",
+      "enMarkdown": "*Wow.  All I can do at this computer is work.  Ok, I better work\nthen.*",
+      "zhMarkdown": "*哇。在这台电脑上我只能工作。好吧，那我还是工作吧。*"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "0847a47971ae142a37a6b73f14b529dc13fdeadb5e03f7540ca56fff5317f4dd",
+      "enMarkdown": "That's the good part. Your old bad habits now help you to work. You're used to sitting in front of that computer for hours at a time. But you can't browse the web or check email now. What are you going to do? You can't just sit there. So you start working.",
+      "zhMarkdown": "这就是绝妙之处。你过去的坏习惯现在反而能帮着你工作。你已经习惯了在这台电脑前一坐就是几个小时。但现在你不能浏览网页，也不能查邮件。你还能干嘛？你总不能干坐着。于是你开始工作。"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "real",
+  "titleEn": "The Real Reason to End the Death Penalty",
+  "titleZh": "废除死刑的真正原因",
+  "dateText": "April 2021",
+  "publishedAt": "2021-04-01",
+  "sourceOrder": 33,
+  "sourceUrl": "https://paulgraham.com/real.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ec35244e74ca8eb86a68288512d31ade9c455cc30220d8ec9361253de2095fef",
+      "enMarkdown": "When intellectuals talk about the death penalty, they talk about things like whether it's permissible for the state to take someone's life, whether the death penalty acts as a deterrent, and whether more death sentences are given to some groups than others. But in practice the debate about the death penalty is not about whether it's ok to kill murderers. It's about whether it's ok to kill innocent people, because at least 4% of people on death row are [innocent](https://www.pnas.org/content/111/20/7230).",
+      "zhMarkdown": "知识分子讨论死刑时，谈论的往往是国家是否有权剥夺他人的生命、死刑是否具有威慑力，以及某些群体是否被判处了更多的死刑。但在现实中，关于死刑的争论根本不是“该不该处死杀人犯”，而是“该不该处死无辜的人”——因为死囚中至少有 4% 是[无辜的](https://www.pnas.org/content/111/20/7230)。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "deed2244d4ab52ca3b549593fb7e9351f8a1f86e02f95a9bb37b486d3cf5c9d4",
+      "enMarkdown": "When I was a kid I imagined that it was unusual for people to be convicted of crimes they hadn't committed, and that in murder cases especially this must be very rare. Far from it. Now, thanks to organizations like the [Innocence Project](https://innocenceproject.org/all-cases), we see a constant stream of stories about murder convictions being overturned after new evidence emerges. Sometimes the police and prosecutors were just very sloppy. Sometimes they were crooked, and knew full well they were convicting an innocent person.",
+      "zhMarkdown": "小时候，我总觉得被判有罪却没犯罪的情况极为罕见，尤其是在谋杀案中，这几乎不可能发生。事实却大相径庭。如今，得益于像[清白专案](https://innocenceproject.org/all-cases)（Innocence Project）这样的组织，我们不断看到在新证据出现后谋杀判决被推翻的消息。有时是因为警察和检察官做事太粗糙；有时则是他们心术不正，明知对方无辜却依然定罪。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "57a00147556e485973d0384a9120b686c8f5ba9a3b20414addf80d41d9a04913",
+      "enMarkdown": "Kenneth Adams and three other men spent 18 years in prison on a murder conviction. They were exonerated after DNA testing implicated three different men, two of whom later confessed. The police had been told about the other men early in the investigation, but never followed up the lead.",
+      "zhMarkdown": "肯尼斯·亚当斯（Kenneth Adams）和其他三名男子因谋杀罪在监狱里度过了 18 年。在 DNA 检测证实另外三名男子才是真凶（其中两人随后认罪）后，他们才得以昭雪。其实在调查初期，警方就接到了关于这几名真凶的线索，却从未跟进。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "ac92d0b8553a8aa9e9593e78c92745f9c23f8858802764418cac4d1b3b248095",
+      "enMarkdown": "Keith Harward spent 33 years in prison on a murder conviction. He was convicted because \"experts\" said his teeth matched photos of bite marks on one victim. He was exonerated after DNA testing showed the murder had been committed by another man, Jerry Crotty.",
+      "zhMarkdown": "基思·哈沃德（Keith Harward）因谋杀罪在监狱里度过了 33 年。他当年被定罪，是因为“专家”声称他的牙齿与受害者身上的咬痕照片相吻合。后来 DNA 检测证实谋杀案是另一个叫杰里·克罗蒂（Jerry Crotty）的人所为，他才得以洗清冤屈。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "35f864664eb4b425b7d5e426ed352322ef03b3543e1cdd8577300b242b3d8a8c",
+      "enMarkdown": "Ricky Jackson and two other men spent 39 years in prison after being convicted of murder on the testimony of a 12 year old boy, who later recanted and said he'd been coerced by police. Multiple people have confirmed the boy was elsewhere at the time. The three men were exonerated after the county prosecutor dropped the charges, saying \"The state is conceding the obvious.\"",
+      "zhMarkdown": "里基·杰克逊（Ricky Jackson）和其他两名男子因一名 12 岁男孩的证词被判谋杀罪成立，在监狱里度过了 39 年。这名男孩后来翻供，称自己受到了警方的胁迫，且有多人证实案发时男孩根本不在现场。在县检察官撤销起诉并表示“检方承认这一显而易见的事实”后，这三名男子最终被无罪释放。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "28540381513f705bb1ec99795419ab5aeac2025b351570d644f64e90706375f0",
+      "enMarkdown": "Alfred Brown spent 12 years in prison on a murder conviction, including 10 years on death row. He was exonerated after it was discovered that the assistant district attorney had concealed phone records proving he could not have committed the crimes.",
+      "zhMarkdown": "阿尔弗雷德·布朗（Alfred Brown）因谋杀罪在监狱里度过了 12 年，其中 10 年是在死囚牢房里度过的。后来人们发现，助理检察官隐瞒了能够证明他没有作案时间的电话记录，他这才得以昭雪。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5b8d9136760fc82230150ab198262e784225b2ed29e39a6bfa29a6bc3a74179f",
+      "enMarkdown": "Glenn Ford spent 29 years on death row after having been convicted of murder. He was exonerated after new evidence proved he was not even at the scene when the murder occurred. The attorneys assigned to represent him had never tried a jury case before.",
+      "zhMarkdown": "格伦·福德（Glenn Ford）因谋杀罪被判刑，在死囚牢房里度过了 29 年。直到新证据证明案发时他根本不在现场，他才被无罪释放。而当年被指派为他辩护的律师，此前甚至从未承办过需要陪审团审理的案件。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "998692df218a64c8a08b0807565cea65c906d0a8567506f570263e91ce4ade40",
+      "enMarkdown": "Cameron Willingham was actually executed in 2004 by lethal injection. The \"expert\" who testified that he deliberately set fire to his house has since been discredited. A re-examination of the case ordered by the state of Texas in 2009 concluded that \"a finding of arson could not be sustained.\"",
+      "zhMarkdown": "卡梅伦·威林厄姆（Cameron Willingham）已于 2004 年被执行注射死刑。当年指证他故意放火烧毁自己房屋的“专家”，其资质后来已被否定。2009 年，德克萨斯州下令对该案进行重新审查，结论是“纵火罪名无法成立”。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "e7f8244e15d82196e7827c8e1aab3c9b411aa242812f4d135fffd8cdcf9292d5",
+      "enMarkdown": "[Rich Glossip](https://saverichardglossip.com/facts) has spent 20 years on death row after being convicted of murder on the testimony of the actual killer, who escaped with a life sentence in return for implicating him. In 2015 he came within minutes of execution before it emerged that Oklahoma had been planning to kill him with an illegal combination of drugs. They still plan to go ahead with the execution, perhaps as soon as this summer, despite [new \nevidence](https://www.usnews.com/news/best-states/oklahoma/articles/2020-10-14/attorney-for-oklahoma-death-row-inmate-claims-new-evidence) exonerating him.",
+      "zhMarkdown": "[理查德·格洛希普](https://saverichardglossip.com/facts)（Rich Glossip）已经在死囚牢房里度过了 20 年。当年真正的凶手为了换取无期徒刑而指控了他，他因此被定罪。2015 年，他险些被执行死刑，就在行刑前几分钟，人们发现俄克拉荷马州计划使用一种非法的药物组合来处死他，行刑才被紧急叫停。尽管有[新证据](https://www.usnews.com/news/best-states/oklahoma/articles/2020-10-14/attorney-for-oklahoma-death-row-inmate-claims-new-evidence)证明他是清白的，但该州仍计划继续执行死刑，时间可能就在今年夏天。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "c21e6fc72033105e09e67e74430dbd56905a2063a5e7ebe0f4ce43a5b25e0e66",
+      "enMarkdown": "I could go on. There are hundreds of similar cases. In Florida alone, 29 death row prisoners have been exonerated so far.",
+      "zhMarkdown": "我还可以继续列举下去。类似的案例成百上千。单是在佛罗里达州，迄今就有 29 名死囚被无罪释放。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "a06861c3c384fd479d91e5249e9b9c20286cf1cd4992baa9a87979844a64232f",
+      "enMarkdown": "Far from being rare, wrongful murder convictions are [very common](https://deathpenaltyinfo.org/policy-issues/innocence/description-of-innocence-cases). Police are under pressure to solve a crime that has gotten a lot of attention. When they find a suspect, they want to believe he's guilty, and ignore or even destroy evidence suggesting otherwise. District attorneys want to be seen as effective and tough on crime, and in order to win convictions are willing to manipulate witnesses and withhold evidence. Court-appointed defense attorneys are overworked and often incompetent. There's a ready supply of criminals willing to give false testimony in return for a lighter sentence, suggestible witnesses who can be made to say whatever police want, and bogus \"experts\" eager to claim that science proves the defendant is guilty. And juries want to believe them, since otherwise some terrible crime remains unsolved.",
+      "zhMarkdown": "谋杀案中的冤假错案不仅不罕见，反而[非常普遍](https://deathpenaltyinfo.org/policy-issues/innocence/description-of-innocence-cases)。警方承受着破获备受关注案件的压力。一旦找到嫌疑人，他们就倾向于认定对方有罪，从而忽视甚至销毁相反的证据。检察官为了显得精明干练、打击犯罪不遗余力，为了胜诉不惜诱导证人、隐瞒证据。法庭指定的辩护律师往往工作超负荷，而且常常能力不足。此外，还有为了减轻罪责乐于提供伪证的罪犯、极易受到暗示并顺着警方意图说话的证人，以及急于用所谓“科学”来证明被告有罪的伪“专家”。而陪审团也乐于相信这些，因为否则的话，一桩可怕的罪案就将悬而未决。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "3c61ff13bd1c73dd3432175df00cf0445e625ccaae8fbc660db70b0fac282734",
+      "enMarkdown": "This circus of incompetence and dishonesty is the real issue with the death penalty. We don't even reach the point where theoretical questions about the moral justification or effectiveness of capital punishment start to matter, because so many of the people sentenced to death are actually innocent. Whatever it means in theory, in practice capital punishment means killing innocent people.",
+      "zhMarkdown": "这种充斥着无能与欺骗的闹剧，才是死刑真正的症结所在。我们甚至都还没到需要探讨死刑在道德上是否合理、在效果上是否有效等理论问题的高度，因为被判处死刑的人当中，有太多其实是无辜的。无论理论上怎么说，在实践中，保留死刑就意味着处死无辜的人。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "eb856ce7b7564e87a191d9ea88e3154fff20e3677e92ca198efb8d472ac34201",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, and Don Knight for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston 和 Don Knight 阅读本篇草稿。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "44f2efebd4ecadb579a8d1ef2f48651513e02509cd86de59ae335d4103a67110",
+      "enMarkdown": "**Related:**",
+      "zhMarkdown": "**相关文章：** "
+    }
+  ]
+}

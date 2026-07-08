@@ -1,0 +1,482 @@
+{
+  "slug": "avg",
+  "titleEn": "Beating the Averages",
+  "titleZh": "击败均值",
+  "dateText": "April 2001",
+  "publishedAt": "2001-04-01",
+  "sourceOrder": 223,
+  "sourceUrl": "https://paulgraham.com/avg.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "7e1a04232c99c16a5fe7608ea32f20c58ccab8dd8962d404be23ad8c6548f589",
+      "enMarkdown": ", rev. April 2003",
+      "zhMarkdown": "，2003 年 4 月修订"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "a8b9dd89911def60b27589e95d3faeb07368c7da89e38991ae618deb1cf27251",
+      "enMarkdown": "*(This article is derived from a talk given at the 2001 Franz\nDeveloper Symposium.)*",
+      "zhMarkdown": "*(本文基于作者在 2001 年 Franz 开发者研讨会上的演讲整理而成。)*"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "bf22843ceccdcd8da144e25fc52a725b42b0c993b4dda603c75cb0161e7c02f2",
+      "enMarkdown": "In the summer of 1995, my friend Robert Morris and I started a startup called [Viaweb](http://docs.yahoo.com/docs/pr/release184.html). Our plan was to write software that would let end users build online stores. What was novel about this software, at the time, was that it ran on our server, using ordinary Web pages as the interface.",
+      "zhMarkdown": "1995 年夏天，我和朋友罗伯特·莫里斯（Robert Morris）创办了一家名为 [Viaweb](http://docs.yahoo.com/docs/pr/release184.html) 的创业公司。我们的计划是写一套软件，让普通用户能用来搭建在线商店。这套软件在当时的新颖之处在于，它运行在我们的服务器上，以普通的网页作为交互界面。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "16b1a42add56dc57a7edcb82b9b415cfa4d9f3952d658578581d016885f11ca9",
+      "enMarkdown": "A lot of people could have been having this idea at the same time, of course, but as far as I know, Viaweb was the first Web-based application. It seemed such a novel idea to us that we named the company after it: Viaweb, because our software worked via the Web, instead of running on your desktop computer.",
+      "zhMarkdown": "当然，当时可能有很多人也在萌生类似的想法，但据我所知，Viaweb 是第一个基于 Web 的应用程序。这个想法对我们来说太新颖了，以至于我们直接用它来给公司命名：Viaweb，因为我们的软件是通过 Web（via the Web）运行的，而不是运行在你的个人电脑桌面上。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "015e005d2ce774e4f53431563e03bb9d15c37a169337783b7aa3d5aa04a6180a",
+      "enMarkdown": "Another unusual thing about this software was that it was written primarily in a programming language called Lisp. It was one of the first big end-user applications to be written in Lisp, which up till then had been used mostly in universities and research labs. [1]",
+      "zhMarkdown": "这套软件的另一个不寻常之处在于，它主要是用一种叫做 Lisp 的编程语言写成的。它是首批用 Lisp 编写的大型终端用户应用程序之一，而在此之前，Lisp 主要用在大学和研究实验室里。[1]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "4c2a2017f87699a8f92160d62d08e6c389ea5140f92ad2b29234c60987dbfbc0",
+      "enMarkdown": "**The Secret Weapon**",
+      "zhMarkdown": "**秘密武器**"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "8cbf058e48aa71a60b5272efd911aacd8e520da9d41d7264cb5c74abdcff9f0c",
+      "enMarkdown": "Eric Raymond has written an essay called \"How to Become a Hacker,\" and in it, among other things, he tells would-be hackers what languages they should learn. He suggests starting with Python and Java, because they are easy to learn. The serious hacker will also want to learn C, in order to hack Unix, and Perl for system administration and cgi scripts. Finally, the truly serious hacker should consider learning Lisp:",
+      "zhMarkdown": "埃里克·雷蒙德（Eric Raymond）写过一篇名为《如何成为一名黑客》的文章，在文中，他指导那些想成为黑客的人应该学习哪些语言。他建议从 Python 和 Java 入门，因为它们容易学习。严肃的黑客还需要学习 C 语言以研究 Unix 系统，以及用 Perl 来做系统管理和写 CGI 脚本。最后，真正有追求的黑客应该考虑学习 Lisp："
+    },
+    {
+      "id": 8,
+      "type": "quote",
+      "sourceHash": "f5bd871046941626eaaaa5f60509cf46a40ecc6a820928cbd4e4c64507431006",
+      "enMarkdown": "> Lisp is worth learning for the profound enlightenment experience you will have when you finally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use Lisp itself a lot.",
+      "zhMarkdown": "> Lisp 值得学习，因为当你终于领悟它时，会获得一种深刻的启迪体验；这种体验会让你在余生中成为一个更好的程序员，即使你实际上并不怎么使用 Lisp 本身。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "98cfa759ab2e6a076246c83c7915c31560ff27f4ee37d06ef9f0838173b16363",
+      "enMarkdown": "This is the same argument you tend to hear for learning Latin. It won't get you a job, except perhaps as a classics professor, but it will improve your mind, and make you a better writer in languages you do want to use, like English.",
+      "zhMarkdown": "这种论调和你听到劝人学拉丁语的理由如出一辙。学拉丁语帮不了你找工作（除非去当古典学教授），但它能开拓你的思维，让你在使用英语等日常语言写作时写得更好。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "48117ac083adeff6320ee2d2a66b523c0e29282d7c5b8571f1788fbfbdae4928",
+      "enMarkdown": "But wait a minute. This metaphor doesn't stretch that far. The reason Latin won't get you a job is that no one speaks it. If you write in Latin, no one can understand you. But Lisp is a computer language, and computers speak whatever language you, the programmer, tell them to.",
+      "zhMarkdown": "但等一下，这个比喻其实并不恰当。拉丁语帮不了你找工作，是因为现在没人说拉丁语了。如果你用拉丁语写作，没人能看得懂。但 Lisp 是一种计算机语言，而计算机听得懂程序员让它运行的任何语言。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "764ec310025fb1cd3cd2f0dc1aa4420c19bfeb768a5a2f34a595cb526472cbf0",
+      "enMarkdown": "So if Lisp makes you a better programmer, like he says, why wouldn't you want to use it? If a painter were offered a brush that would make him a better painter, it seems to me that he would want to use it in all his paintings, wouldn't he? I'm not trying to make fun of Eric Raymond here. On the whole, his advice is good. What he says about Lisp is pretty much the conventional wisdom. But there is a contradiction in the conventional wisdom: Lisp will make you a better programmer, and yet you won't use it.",
+      "zhMarkdown": "所以，如果像他所说，Lisp 能让你成为更好的程序员，你为什么不直接用它呢？如果给一个画家一支能让他画得更好的画笔，我觉得他会想在所有的画作中都使用它，不是吗？我并不是想在这里取笑埃里克·雷蒙德。总的来说，他的建议很好。他对 Lisp 的评价也是非常普遍的共识。但在这种普遍共识中存在一个矛盾：Lisp 能让你成为更好的程序员，然而你却不用它。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "3bbc7f04a7d6e30ad6a03b58c861c621b8e6b6468ae232433f593977dcb029e7",
+      "enMarkdown": "Why not? Programming languages are just tools, after all. If Lisp really does yield better programs, you should use it. And if it doesn't, then who needs it?",
+      "zhMarkdown": "为什么不用呢？说到底，编程语言只是工具。如果 Lisp 真的能写出更好的程序，你就应该用它。如果不能，那谁还需要它？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "29576f327a143bf6691fbc7aab6b6d9700f5b930ce1c88369fd3c73057825f88",
+      "enMarkdown": "This is not just a theoretical question. Software is a very competitive business, prone to natural monopolies. A company that gets software written faster and better will, all other things being equal, put its competitors out of business. And when you're starting a startup, you feel this very keenly. Startups tend to be an all or nothing proposition. You either get rich, or you get nothing. In a startup, if you bet on the wrong technology, your competitors will crush you.",
+      "zhMarkdown": "这不仅仅是一个理论问题。软件是一个竞争极度激烈的行业，极易形成自然垄断。在其他条件相同的情况下，一家写软件更快更好的公司，迟早会把竞争对手逼入绝境。当你创办一家创业公司时，你对这一点的感受会非常强烈。创业公司往往是“非全赢即全输”的买卖。你要么暴富，要么一无所有。在创业公司里，如果你在技术选型上押错了注，竞争对手就会把你碾得粉碎。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "325dd729a3d3d80349cc131ba607f8ace173b2f3f82743088dd01b2fd4484b93",
+      "enMarkdown": "Robert and I both knew Lisp well, and we couldn't see any reason not to trust our instincts and go with Lisp. We knew that everyone else was writing their software in C++ or Perl. But we also knew that that didn't mean anything. If you chose technology that way, you'd be running Windows. When you choose technology, you have to ignore what other people are doing, and consider only what will work the best.",
+      "zhMarkdown": "罗伯特和我都深谙 Lisp，我们找不到任何理由不相信自己的直觉，所以决定采用 Lisp。我们知道其他所有人都在用 C++ 或 Perl 写软件。但我们也知道这说明不了任何问题。如果只看别人怎么选来决定技术，那你应该去用 Windows。在选择技术时，你必须忽略别人在做什么，只考虑什么最有效。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "351c7042430cd867fbfc597f4516ae8e679ac5a85284b6eaa21b998ffa827fc7",
+      "enMarkdown": "This is especially true in a startup. In a big company, you can do what all the other big companies are doing. But a startup can't do what all the other startups do. I don't think a lot of people realize this, even in startups.",
+      "zhMarkdown": "在创业公司中尤其如此。在大公司里，你可以跟着其他大公司亦步亦趋。但一家创业公司不能去模仿其他创业公司的做法。我觉得很多人都没有意识到这一点，甚至在创业公司里的人也是如此。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "1e3f8cd2c00552d9c64619f022ae8f0a308c0dca29d8d5ead2fbe2222152a206",
+      "enMarkdown": "The average big company grows at about ten percent a year. So if you're running a big company and you do everything the way the average big company does it, you can expect to do as well as the average big company-- that is, to grow about ten percent a year.",
+      "zhMarkdown": "普通大公司每年增长约 10%。所以，如果你掌管一家大公司，并且做任何事都和普通大公司一样，你可以预期自己能做得和它们一样好——也就是每年增长约 10%。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "e1e53e6cf9e1caa693061518efa802be178777d1f7b34992660a048ebcfa1da0",
+      "enMarkdown": "The same thing will happen if you're running a startup, of course. If you do everything the way the average startup does it, you should expect average performance. The problem here is, average performance means that you'll go out of business. The survival rate for startups is way less than fifty percent. So if you're running a startup, you had better be doing something odd. If not, you're in trouble.",
+      "zhMarkdown": "如果你经营一家创业公司，结果当然也一样。如果你做任何事都和普通创业公司一样，你就只能预期得到平均水平。这里的问题在于，平均水平意味着倒闭。创业公司的存活率远低于 50%。所以，如果你在经营一家创业公司，你最好做点不寻常的事。否则，你就麻烦了。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "cae8d757e3462d5e9288a7184fb582cbb7a891b670643993bb60c261c5ad5f3b",
+      "enMarkdown": "Back in 1995, we knew something that I don't think our competitors understood, and few understand even now: when you're writing software that only has to run on your own servers, you can use any language you want. When you're writing desktop software, there's a strong bias toward writing applications in the same language as the operating system. Ten years ago, writing applications meant writing applications in C. But with Web-based software, especially when you have the source code of both the language and the operating system, you can use whatever language you want.",
+      "zhMarkdown": "回到 1995 年，我们知道一件我认为竞争对手并不理解、甚至到现在也没几个人理解的事：当你写的软件只需要运行在自己的服务器上时，你可以使用任何你想用的语言。在开发桌面软件时，人们强烈倾向于使用与操作系统相同的语言来写程序。十年前，写程序意味着用 C 语言写。但对于基于 Web 的软件，尤其是当你同时拥有语言和操作系统的源代码时，你可以使用任何你想要的语言。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "2a34cbde571ed743eb36e3694ede8e34291d9549ebc24e35c65e4eba5a715359",
+      "enMarkdown": "This new freedom is a double-edged sword, however. Now that you can use any language, you have to think about which one to use. Companies that try to pretend nothing has changed risk finding that their competitors do not.",
+      "zhMarkdown": "然而，这种新的自由是一把双刃剑。既然你可以使用任何语言，你就必须仔细思考该用哪一种。那些假装什么都没改变的公司，可能会发现他们的竞争对手并没有这么迟钝。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "9124ffdadd4d0f0a96b469b3521983ab1e833b2cf25bd91d541cf2823fc31e6c",
+      "enMarkdown": "If you can use any language, which do you use? We chose Lisp. For one thing, it was obvious that rapid development would be important in this market. We were all starting from scratch, so a company that could get new features done before its competitors would have a big advantage. We knew Lisp was a really good language for writing software quickly, and server-based applications magnify the effect of rapid development, because you can release software the minute it's done.",
+      "zhMarkdown": "如果可以使用任何语言，你会选哪种？我们选了 Lisp。首先，很明显在这个市场中快速开发至关重要。大家都是从零开始，所以一家能赶在竞争对手之前推出新功能的公司将拥有巨大的优势。我们知道 Lisp 是一种非常适合快速开发软件的语言，而基于服务器的应用又放大了快速开发的效果，因为软件一写完你就可以立刻发布上线。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "d7d57984083123157d442d069d3f04b18d912df402d5f6d1a159a52a17ad9335",
+      "enMarkdown": "If other companies didn't want to use Lisp, so much the better. It might give us a technological edge, and we needed all the help we could get. When we started Viaweb, we had no experience in business. We didn't know anything about marketing, or hiring people, or raising money, or getting customers. Neither of us had ever even had what you would call a real job. The only thing we were good at was writing software. We hoped that would save us. Any advantage we could get in the software department, we would take.",
+      "zhMarkdown": "如果其他公司不想用 Lisp，那再好不过了。这能给我们带来技术上的优势，而我们需要一切能得到的帮助。当我们创办 Viaweb 时，我们没有任何商业经验。我们对营销、招聘、融资或获取客户一无所知。我们两个人都没干过任何能被称为“正经工作”的差事。我们唯一擅长的事情就是写软件。我们寄希望于这一点能拯救我们。在软件开发方面能拿到的任何优势，我们都绝不放过。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "839b4029dd072da97f80dca8c70a4134f48390d73db5499dc33efb3df7ccf382",
+      "enMarkdown": "So you could say that using Lisp was an experiment. Our hypothesis was that if we wrote our software in Lisp, we'd be able to get features done faster than our competitors, and also to do things in our software that they couldn't do. And because Lisp was so high-level, we wouldn't need a big development team, so our costs would be lower. If this were so, we could offer a better product for less money, and still make a profit. We would end up getting all the users, and our competitors would get none, and eventually go out of business. That was what we hoped would happen, anyway.",
+      "zhMarkdown": "所以你可以说，使用 Lisp 是一次实验。我们的假设是：如果我们用 Lisp 写软件，我们就能比对手更快地开发出新功能，还能在软件中实现他们做不到的事情。而且因为 Lisp 非常高级，我们不需要庞大的开发团队，因此我们的成本会更低。如果真是这样，我们就能以更低的价格提供更好的产品，同时还能盈利。我们最终将赢得所有的用户，而我们的对手一个用户也得不到，最终只能倒闭。总之，这就是我们所期望的结局。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "160ad208362cfa75b608e91690f1aa93b836e38d80943f3eb3482b21195ebcad",
+      "enMarkdown": "What were the results of this experiment? Somewhat surprisingly, it worked. We eventually had many competitors, on the order of twenty to thirty of them, but none of their software could compete with ours. We had a wysiwyg online store builder that ran on the server and yet felt like a desktop application. Our competitors had cgi scripts. And we were always far ahead of them in features. Sometimes, in desperation, competitors would try to introduce features that we didn't have. But with Lisp our development cycle was so fast that we could sometimes duplicate a new feature within a day or two of a competitor announcing it in a press release. By the time journalists covering the press release got round to calling us, we would have the new feature too.",
+      "zhMarkdown": "这个实验的结果如何？有些出人意料，它成功了。我们最终遇到了很多竞争对手，大概有二十到三十个，但没有一个软件能和我们的竞争。我们拥有一个运行在服务器上、却感觉像桌面应用一样的所见即所得（WYSIWYG）在线商店生成器。而我们的对手只有 CGI 脚本。我们在功能上总是遥遥领先。有时，对手在绝望中会试图引入我们没有的功能。但得益于 Lisp，我们的开发周期非常快，有时在对手发布新闻稿宣布新功能的一两天内，我们就能复制出同样的功能。当报道该新闻的记者打电话向我们求证时，我们也已经上线了该功能。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "72df59a109803bbe9e6e589d922cf64d1a51488f32adead239bd5878e33dbe9c",
+      "enMarkdown": "It must have seemed to our competitors that we had some kind of secret weapon-- that we were decoding their Enigma traffic or something. In fact we did have a secret weapon, but it was simpler than they realized. No one was leaking news of their features to us. We were just able to develop software faster than anyone thought possible.",
+      "zhMarkdown": "在竞争对手看来，我们一定拥有某种秘密武器——比如我们在破译他们的恩尼格玛密码之类的。事实上我们确实有秘密武器，但它比他们想象的要简单得多。没有人向我们泄露他们功能的消息。我们只是能够以超出所有人想象的速度来开发软件。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "d0e3d7a5dcad7316b12c40ac56df079da61afb8e664b6a499b5b3887ccb6a835",
+      "enMarkdown": "When I was about nine I happened to get hold of a copy of *The Day\nof the Jackal,* by Frederick Forsyth. The main character is an assassin who is hired to kill the president of France. The assassin has to get past the police to get up to an apartment that overlooks the president's route. He walks right by them, dressed up as an old man on crutches, and they never suspect him.",
+      "zhMarkdown": "在我大约九岁的时候，偶然读到了弗雷德里克·福赛斯（Frederick Forsyth）写的《豺狼的日子》。主角是一个被雇来刺杀法国总统的杀手。杀手必须避开警察，进入一间能俯瞰总统必经之路的公寓。他拄着拐杖，伪装成一个老头，直接从警察身边走过，而他们从未怀疑过他。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "aba590a02f50bd30d34398755ef8f344f3e785c601a75167f3738736eb5e7a80",
+      "enMarkdown": "Our secret weapon was similar. We wrote our software in a weird AI language, with a bizarre syntax full of parentheses. For years it had annoyed me to hear Lisp described that way. But now it worked to our advantage. In business, there is nothing more valuable than a technical advantage your competitors don't understand. In business, as in war, surprise is worth as much as force.",
+      "zhMarkdown": "我们的秘密武器也类似。我们用一种古怪的、语法里全是括号的 AI 语言来写软件。多年来，听到别人这样描述 Lisp 总是让我很恼火。但现在，这反而成了我们的优势。在商业中，没有什么比竞争对手看不懂的技术优势更有价值的了。商场如战场，出奇制胜的效果不亚于精兵强弩。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "8e5b13cf2d06d9f5a71c052b0cc4535c6fd4ed7863b019125bec6eea3fa5e10a",
+      "enMarkdown": "And so, I'm a little embarrassed to say, I never said anything publicly about Lisp while we were working on Viaweb. We never mentioned it to the press, and if you searched for Lisp on our Web site, all you'd find were the titles of two books in my bio. This was no accident. A startup should give its competitors as little information as possible. If they didn't know what language our software was written in, or didn't care, I wanted to keep it that way.[2]",
+      "zhMarkdown": "所以，说来有点惭愧，在做 Viaweb 期间，我从未在公开场合提到过 Lisp。我们从未向媒体提起，如果你在我们的网站上搜索 Lisp，你唯一能找到的只有我个人简介里的两本书名。这并非偶然。创业公司应该给竞争对手留下尽可能少的信息。如果他们不知道我们的软件是用什么语言写的，或者根本不在乎，我希望保持这种状态。[2]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "c43aea2a2b6f6be05f03fac812898dffce180e67ca4d9ca0c363979e9dbd30ce",
+      "enMarkdown": "The people who understood our technology best were the customers. They didn't care what language Viaweb was written in either, but they noticed that it worked really well. It let them build great looking online stores literally in minutes. And so, by word of mouth mostly, we got more and more users. By the end of 1996 we had about 70 stores online. At the end of 1997 we had 500. Six months later, when Yahoo bought us, we had 1070 users. Today, as Yahoo Store, this software continues to dominate its market. It's one of the more profitable pieces of Yahoo, and the stores built with it are the foundation of Yahoo Shopping. I left Yahoo in 1999, so I don't know exactly how many users they have now, but the last I heard there were about 20,000.",
+      "zhMarkdown": "最理解我们技术的人是客户。他们同样不在乎 Viaweb 是用什么语言写的，但他们注意到它非常好用。它能让他们在几分钟内就搭建起精美的在线商店。于是，主要通过口碑传播，我们的用户越来越多。到 1996 年底，我们有了大约 70 家在线商店。1997 年底达到了 500 家。六个月后，当雅虎收购我们时，我们已经有了 1070 个用户。今天，作为 Yahoo Store，这款软件继续在市场上占据统治地位。它是雅虎最赚钱的业务之一，而用它搭建的商店则是雅虎购物（Yahoo Shopping）的基石。我于 1999 年离开了雅虎，所以我不知道他们现在具体有多少用户，但我最后一次听说大约有 20,000 个。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "ae2eb17cb18b0e9b8a8a271574fe2a80eed1f6f77e7c8efb5a3d820d5c9eb474",
+      "enMarkdown": "**The Blub Paradox**",
+      "zhMarkdown": "**Blub 悖论**"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "7219cfac626cd4b907ddaaa6d4d54967230f27b3c2b391de44ad72efaf90edcf",
+      "enMarkdown": "What's so great about Lisp? And if Lisp is so great, why doesn't everyone use it? These sound like rhetorical questions, but actually they have straightforward answers. Lisp is so great not because of some magic quality visible only to devotees, but because it is simply the most powerful language available. And the reason everyone doesn't use it is that programming languages are not merely technologies, but habits of mind as well, and nothing changes slower. Of course, both these answers need explaining.",
+      "zhMarkdown": "Lisp 到底有什么了不起的？如果 Lisp 真的这么好，为什么大家不用它？这些听起来像是反问，但实际上有着非常直接的答案。Lisp 如此了不起，并不是因为只有信徒才能看出来的某种魔力，而仅仅是因为它是目前最强大的语言。而大家不用它的原因在于，编程语言不仅是技术，也是思维习惯，而思维习惯的改变是最慢的。当然，这两个答案都需要解释。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "43c4e5461e70c93d0d4df2326d78b053df459b76a41f6ef0ccb28d5bf67080db",
+      "enMarkdown": "I'll begin with a shockingly controversial statement: programming languages vary in power.",
+      "zhMarkdown": "我先抛出一个极具争议的观点：编程语言的表达能力是有强弱之分的。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "544bf943813a41cbf6081ac9b99ace566a5ea28a2cd736d0d28cc0b55a58a590",
+      "enMarkdown": "Few would dispute, at least, that high level languages are more powerful than machine language. Most programmers today would agree that you do not, ordinarily, want to program in machine language. Instead, you should program in a high-level language, and have a compiler translate it into machine language for you. This idea is even built into the hardware now: since the 1980s, instruction sets have been designed for compilers rather than human programmers.",
+      "zhMarkdown": "至少，很少有人会否认高级语言比机器语言更强大。今天的大多数程序员都会同意，通常情况下，你不会想直接用机器语言编程。相反，你应该用高级语言编写，然后让编译器帮你翻译成机器语言。这种想法现在甚至已经内置到了硬件中：自 20 世纪 80 年代以来，指令集的设计都是为了迎合编译器，而不是人类程序员。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "30ec3b6f8abca2bbc569c71f9a6eba464ed1b11605fba266555de5f60c00b246",
+      "enMarkdown": "Everyone knows it's a mistake to write your whole program by hand in machine language. What's less often understood is that there is a more general principle here: that if you have a choice of several languages, it is, all other things being equal, a mistake to program in anything but the most powerful one. [3]",
+      "zhMarkdown": "大家都知道，用机器语言纯手写整个程序是一个错误。但人们往往不太理解一个更普适的原则：如果你有几种语言可以选择，在其他条件相同的情况下，不使用最强大的那门语言来编程就是一个错误。[3]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "a6956a457f8aebb64ad03c60e69e56f32a674cadb477c1bf0c27fa225b184f8d",
+      "enMarkdown": "There are many exceptions to this rule. If you're writing a program that has to work very closely with a program written in a certain language, it might be a good idea to write the new program in the same language. If you're writing a program that only has to do something very simple, like number crunching or bit manipulation, you may as well use a less abstract language, especially since it may be slightly faster. And if you're writing a short, throwaway program, you may be better off just using whatever language has the best library functions for the task. But in general, for application software, you want to be using the most powerful (reasonably efficient) language you can get, and using anything else is a mistake, of exactly the same kind, though possibly in a lesser degree, as programming in machine language.",
+      "zhMarkdown": "这个规则有很多例外。如果你写的一个程序必须与某个特定语言编写的程序紧密协作，那么用相同的语言编写可能是一个好主意。如果你写的程序只需要做非常简单的事情，比如数值计算或位操作，你大可以使用一个不那么抽象的语言，尤其是因为它可能会稍微快一点。如果你只是写一个简短的、用完即丢的程序，你最好直接使用最适合该任务、库函数最丰富的语言。但总的来说，对于应用软件，你会希望使用你能得到的、最强大（且效率合理）的语言，使用其他任何语言都是一个错误，这与用机器语言编程属于同一种性质的错误，只是程度可能轻一些。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "9ff49246124656cab03b18330629679d874e8373f30ce5ebaceedb955007635e",
+      "enMarkdown": "You can see that machine language is very low level. But, at least as a kind of social convention, high-level languages are often all treated as equivalent. They're not. Technically the term \"high-level language\" doesn't mean anything very definite. There's no dividing line with machine languages on one side and all the high-level languages on the other. Languages fall along a continuum [4] of abstractness, from the most powerful all the way down to machine languages, which themselves vary in power.",
+      "zhMarkdown": "你可以看出机器语言非常低级。但是，至少作为一种社会惯例，高级语言通常都被同等对待。其实它们并不等同。在技术上，“高级语言”这个词并没有非常确切的定义。并没有一条分界线，一边是机器语言，另一边是所有高级语言。语言分布在一个抽象程度的连续光谱 [4] 上，从最强大的语言一直延伸到机器语言，而机器语言本身也有强弱之分。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "ca69392398613bde4bb2c8b8abdeb27542ae9f4ed7de542aeb3070f70462a079",
+      "enMarkdown": "Consider Cobol. Cobol is a high-level language, in the sense that it gets compiled into machine language. Would anyone seriously argue that Cobol is equivalent in power to, say, Python? It's probably closer to machine language than Python.",
+      "zhMarkdown": "想想 Cobol。就其能被编译成机器语言而言，Cobol 是一种高级语言。会有谁认真地认为 Cobol 的表达能力与 Python 相当吗？它其实可能更接近机器语言，而不是 Python。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "f3063073a0b9d4f874f01334d3d23fe43c45e7a32cfcb228f3fd0a304a41f88f",
+      "enMarkdown": "Or how about Perl 4? Between Perl 4 and Perl 5, lexical closures got added to the language. Most Perl hackers would agree that Perl 5 is more powerful than Perl 4. But once you've admitted that, you've admitted that one high level language can be more powerful than another. And it follows inexorably that, except in special cases, you ought to use the most powerful you can get.",
+      "zhMarkdown": "或者看看 Perl 4？在 Perl 4 和 Perl 5 之间，词法闭包被引入了该语言。大多数 Perl 黑客都会同意 Perl 5 比 Perl 4 更强大。但一旦你承认了这一点，你就承认了一门高级语言可以比另一门更强大。那么必然的结论就是，除非在特殊情况下，否则你应当使用你能得到的最强大的语言。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "341bcaa0917892058d61b4148f8072bcdf944a8b351292881a9759f94532e8c3",
+      "enMarkdown": "This idea is rarely followed to its conclusion, though. After a certain age, programmers rarely switch languages voluntarily. Whatever language people happen to be used to, they tend to consider just good enough.",
+      "zhMarkdown": "然而，人们很少把这个想法贯彻到底。到了一定年龄，程序员很少会主动更换语言。无论人们习惯使用什么语言，他们都倾向于认为它已经足够好了。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "191026a33ecad48949e032e356dc66ea948b3257cb11735b264726e028943ab6",
+      "enMarkdown": "Programmers get very attached to their favorite languages, and I don't want to hurt anyone's feelings, so to explain this point I'm going to use a hypothetical language called Blub. Blub falls right in the middle of the abstractness continuum. It is not the most powerful language, but it is more powerful than Cobol or machine language.",
+      "zhMarkdown": "程序员对他们最喜欢的语言非常有感情，我不想伤害任何人的感情，所以为了解释这一点，我将使用一种虚构的语言，叫做 Blub。Blub 恰好处于抽象光谱的中间。它不是最强大的语言，但它比 Cobol 或机器语言更强大。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "021528d3f875080ba735525bdd68ef8d5a7c6c7e9dd1766e7275866920ce58ec",
+      "enMarkdown": "And in fact, our hypothetical Blub programmer wouldn't use either of them. Of course he wouldn't program in machine language. That's what compilers are for. And as for Cobol, he doesn't know how anyone can get anything done with it. It doesn't even have x (Blub feature of your choice).",
+      "zhMarkdown": "事实上，我们假设的 Blub 程序员不会去使用后两者。他当然不会用机器语言编程，那是编译器的活。至于 Cobol，他无法理解别人怎么能用它做出东西来。它甚至连 x（你随便挑一个 Blub 的功能）都没有。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "4c115493bd64e0b066cfd45284c11cdb28d85fbe46128e40441717191eb4ae3d",
+      "enMarkdown": "As long as our hypothetical Blub programmer is looking down the power continuum, he knows he's looking down. Languages less powerful than Blub are obviously less powerful, because they're missing some feature he's used to. But when our hypothetical Blub programmer looks in the other direction, up the power continuum, he doesn't realize he's looking up. What he sees are merely weird languages. He probably considers them about equivalent in power to Blub, but with all this other hairy stuff thrown in as well. Blub is good enough for him, because he thinks in Blub.",
+      "zhMarkdown": "只要我们假设的 Blub 程序员向下审视这个能力光谱，他就知道自己在向下看。比 Blub 弱的语言显然不够强大，因为它们缺少了他已经习惯的某些功能。但是，当这位 Blub 程序员向另一个方向——向上审视能力光谱时，他并没意识到自己在向上看。他看到的只是些奇奇怪怪的语言。他可能认为它们在能力上和 Blub 差不多，只是塞进了一堆乱七八糟、难以理解的复杂概念。Blub 对他来说已经足够好了，因为他用 Blub 来思考。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "c06be5ab9ec5fc90896d9fd28c714e581096f0b47673e88be9058d81ccb59381",
+      "enMarkdown": "When we switch to the point of view of a programmer using any of the languages higher up the power continuum, however, we find that he in turn looks down upon Blub. How can you get anything done in Blub? It doesn't even have y.",
+      "zhMarkdown": "然而，当我们切换到使用光谱上方任何一种语言的程序员的视角时，我们会发现他反过来在鄙视 Blub。你用 Blub 怎么可能做得出东西来？它甚至连 y 都没有。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "a5a1f4760d8d999760c8f91a9c9953a6860d35f21240cf8860c651414e8d5ee1",
+      "enMarkdown": "By induction, the only programmers in a position to see all the differences in power between the various languages are those who understand the most powerful one. (This is probably what Eric Raymond meant about Lisp making you a better programmer.) You can't trust the opinions of the others, because of the Blub paradox: they're satisfied with whatever language they happen to use, because it dictates the way they think about programs.",
+      "zhMarkdown": "通过归纳，唯一能够看清各种语言之间所有能力差异的程序员，是那些理解最强大语言的人。（这大概就是埃里克·雷蒙德所说的“Lisp 能让你成为更好的程序员”的意思。）你不能相信其他人的意见，因为存在 Blub 悖论：他们对自己碰巧使用的任何语言都很满意，因为这门语言决定了他们思考程序的方式。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "ff68699ff671342eb4d3d807781cf3da7feb11f46987b9a7accbff0bfac8fbc8",
+      "enMarkdown": "I know this from my own experience, as a high school kid writing programs in Basic. That language didn't even support recursion. It's hard to imagine writing programs without using recursion, but I didn't miss it at the time. I thought in Basic. And I was a whiz at it. Master of all I surveyed.",
+      "zhMarkdown": "我从自己的经历中深知这一点，当时我还是个用 Basic 写程序的高中生。那门语言甚至不支持递归。现在很难想象写程序不用递归，但当时我一点也不觉得缺了它。我用 Basic 思考，而且我是个中高手。感觉自己掌控了世界的一切。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "6c9f97f7424b303743c9c61ca5df97a93f140bd26acd0168d3636ddb51c99565",
+      "enMarkdown": "The five languages that Eric Raymond recommends to hackers fall at various points on the power continuum. Where they fall relative to one another is a sensitive topic. What I will say is that I think Lisp is at the top. And to support this claim I'll tell you about one of the things I find missing when I look at the other four languages. How can you get anything done in them, I think, without macros? [5]",
+      "zhMarkdown": "埃里克·雷蒙德向黑客推荐的五种语言分布在能力光谱的不同位置。它们之间的相对位置是一个敏感话题。我想说的是，我认为 Lisp 处于最顶端。为了支持这个观点，我将告诉你，当我审视其他四种语言时，我发现缺少了什么。我常常想，如果没有宏（macro），你在那些语言里怎么可能做得出东西来？[5]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "da4a7785b9faa74c93345df3deb3594849f6174d42c5bdb29bac80aaa9c6b075",
+      "enMarkdown": "Many languages have something called a macro. But Lisp macros are unique. And believe it or not, what they do is related to the parentheses. The designers of Lisp didn't put all those parentheses in the language just to be different. To the Blub programmer, Lisp code looks weird. But those parentheses are there for a reason. They are the outward evidence of a fundamental difference between Lisp and other languages.",
+      "zhMarkdown": "许多语言都有一种叫做宏的东西。但 Lisp 的宏是独一无二的。信不信由你，它们的作用与那些括号密切相关。Lisp 的设计者在语言中加入那么多括号，并不是为了标新立异。对于 Blub 程序员来说，Lisp 代码看起来很怪。但那些括号的存在是有原因的。它们是 Lisp 与其他语言之间本质区别的外在体现。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "5543b39facc24372991c0033cddc21bacf6de479e7be91beaf209ce2db8a65be",
+      "enMarkdown": "Lisp code is made out of Lisp data objects. And not in the trivial sense that the source files contain characters, and strings are one of the data types supported by the language. Lisp code, after it's read by the parser, is made of data structures that you can traverse.",
+      "zhMarkdown": "Lisp 代码是由 Lisp 数据对象构成的。这并不是指源文件包含字符、而字符串是该语言支持的数据类型之一这种肤浅的含义。Lisp 代码在被解析器读取后，是由你可以遍历的数据结构组成的。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "c71150b012f50eb3c28c2053453b7dffc271285a6f051558293d4acc6479404f",
+      "enMarkdown": "If you understand how compilers work, what's really going on is not so much that Lisp has a strange syntax as that Lisp has no syntax. You write programs in the parse trees that get generated within the compiler when other languages are parsed. But these parse trees are fully accessible to your programs. You can write programs that manipulate them. In Lisp, these programs are called macros. They are programs that write programs.",
+      "zhMarkdown": "如果你理解编译器的工作原理，就会发现实际上并不是 Lisp 有着奇怪的语法，而是 Lisp 根本没有语法。你是在用解析树（parse tree）来写程序，而在其他语言中，这些树是在编译器内部解析时才生成的。但在 Lisp 中，这些解析树对你的程序是完全开放的。你可以写程序来操纵它们。在 Lisp 中，这些程序被称为宏。它们是编写程序的程序。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "b66374f7baf2e1f4c13ea52bc246848adda58e7329080f3639889ef73e8c9f76",
+      "enMarkdown": "Programs that write programs? When would you ever want to do that? Not very often, if you think in Cobol. All the time, if you think in Lisp. It would be convenient here if I could give an example of a powerful macro, and say there! how about that? But if I did, it would just look like gibberish to someone who didn't know Lisp; there isn't room here to explain everything you'd need to know to understand what it meant. In [Ansi Common Lisp](https://paulgraham.com/acl.html) I tried to move things along as fast as I could, and even so I didn't get to macros until page 160.",
+      "zhMarkdown": "编写程序的程序？你什么时候会想干这种事？如果你用 Cobol 思考，几乎从来不想。如果你用 Lisp 思考，你无时无刻不想这么做。如果我能在这里举一个强大的宏的例子，然后说“看！这个怎么样？”，那会很方便。但如果我真这么做了，对于不懂 Lisp 的人来说，它看起来就像天书一样；这里没有足够的篇幅来解释理解它所需的所有背景知识。在《[Ansi Common Lisp](https://paulgraham.com/acl.html)》中，我已经尽力加快进度了，即便如此，我也直到第 160 页才讲到宏。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "705885403611341989008628c6c4b93ca988e5752b5697ba2b36b11679817499",
+      "enMarkdown": "But I think I can give a kind of argument that might be convincing. The source code of the Viaweb editor was probably about 20-25% macros. Macros are harder to write than ordinary Lisp functions, and it's considered to be bad style to use them when they're not necessary. So every macro in that code is there because it has to be. What that means is that at least 20-25% of the code in this program is doing things that you can't easily do in any other language. However skeptical the Blub programmer might be about my claims for the mysterious powers of Lisp, this ought to make him curious. We weren't writing this code for our own amusement. We were a tiny startup, programming as hard as we could in order to put technical barriers between us and our competitors.",
+      "zhMarkdown": "但我认为我可以给出一个可能具有说服力的事实。Viaweb 编辑器的源代码中，大概有 20-25% 是宏。宏比普通的 Lisp 函数更难写，而且在非必要时使用它们被认为是不良的编程风格。所以，那段代码中的每一个宏都是因为必须存在才写在那里的。这意味着，该程序中至少有 20-25% 的代码在做你在其他任何语言中都无法轻易做到的事情。无论 Blub 程序员对我关于 Lisp 神秘力量的说法有多么怀疑，这都应该勾起他的好奇心。我们写这些代码可不是为了自娱自乐。我们是一家微小的创业公司，拼命编程是为了在我们和竞争对手之间筑起技术壁垒。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "4c86b268f64a24300c6d1d1707fd41e60b86a0976b26aec93dc4fccbce362752",
+      "enMarkdown": "A suspicious person might begin to wonder if there was some correlation here. A big chunk of our code was doing things that are very hard to do in other languages. The resulting software did things our competitors' software couldn't do. Maybe there was some kind of connection. I encourage you to follow that thread. There may be more to that old man hobbling along on his crutches than meets the eye.",
+      "zhMarkdown": "敏感的人可能会开始怀疑这里是否存在某种关联。我们很大一部分代码在做其他语言很难做到的事情。最终的软件做到了对手软件做不到的事情。也许这中间确实存在某种联系。我鼓励你顺着这个线索想下去。那个拄着拐杖蹒跚而行的老头，或许比表面上看起来要深奥得多。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "9cbd49e2818a03d95fa5ce129f171e760082620a739234d63c375972dd67c029",
+      "enMarkdown": "**Aikido for Startups**",
+      "zhMarkdown": "**创业公司的合气道**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "08bbc596c2434f8eed177fe34a76924fb5035029a181f2974d27b765d15719b4",
+      "enMarkdown": "But I don't expect to convince anyone ([over 25](http://www.trollope.org/scheme.html)) to go out and learn Lisp. The purpose of this article is not to change anyone's mind, but to reassure people already interested in using Lisp-- people who know that Lisp is a powerful language, but worry because it isn't widely used. In a competitive situation, that's an advantage. Lisp's power is multiplied by the fact that your competitors don't get it.",
+      "zhMarkdown": "但我并不指望能说服任何（[超过 25 岁](http://www.trollope.org/scheme.html)的人）去学习 Lisp。这篇文章的目的不是要改变任何人的想法，而是为了给那些已经对使用 Lisp 感兴趣的人吃一颗定心丸——他们知道 Lisp 是一种强大的语言，但因为使用不广泛而感到担忧。在竞争环境中，这反而是一个优势。Lisp 的力量因为你的对手不懂它而倍增。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "310c2c311da7500969fb2abce29011d71d6b17a1460dd2e1bf4565659d66f2f6",
+      "enMarkdown": "If you think of using Lisp in a startup, you shouldn't worry that it isn't widely understood. You should hope that it stays that way. And it's likely to. It's the nature of programming languages to make most people satisfied with whatever they currently use. Computer hardware changes so much faster than personal habits that programming practice is usually ten to twenty years behind the processor. At places like MIT they were writing programs in high-level languages in the early 1960s, but many companies continued to write code in machine language well into the 1980s. I bet a lot of people continued to write machine language until the processor, like a bartender eager to close up and go home, finally kicked them out by switching to a risc instruction set.",
+      "zhMarkdown": "如果你考虑在创业公司中使用 Lisp，你不必担心它没有被广泛理解。你甚至应该希望它保持现状。而且它很可能会保持下去。编程语言的天性就是让大多数人满足于他们目前所使用的任何东西。计算机硬件的变化比个人习惯的改变快得多，以至于编程实践通常落后于处理器十到二十年。在麻省理工学院（MIT）这样的地方，人们在 20 世纪 60 年代初就开始用高级语言写程序了，但许多公司直到 80 年代还在用机器语言写代码。我敢说，很多人一直坚持写机器语言，直到处理器像一个急于打烊回家的酒吧招待一样，通过切换到 RISC 指令集，才把他们彻底赶走。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "36e32495173b14764e24e55307c7a8b36fc86bfcb6ff90c45d9dd7ffe0013521",
+      "enMarkdown": "Ordinarily technology changes fast. But programming languages are different: programming languages are not just technology, but what programmers think in. They're half technology and half religion.[6] And so the median language, meaning whatever language the median programmer uses, moves as slow as an iceberg. Garbage collection, introduced by Lisp in about 1960, is now widely considered to be a good thing. Runtime typing, ditto, is growing in popularity. Lexical closures, introduced by Lisp in the early 1970s, are now, just barely, on the radar screen. Macros, introduced by Lisp in the mid 1960s, are still terra incognita.",
+      "zhMarkdown": "通常技术变化很快。但编程语言不同：编程语言不仅仅是技术，更是程序员思考的载体。它们一半是技术，一半是宗教。[6] 因此，中位数语言（即中位数程序员所使用的任何语言）的移动速度慢得像冰川。垃圾回收（Garbage collection）是 Lisp 在 1960 年左右引入的，现在已被广泛认为是个好东西。动态类型（Runtime typing）也是如此，正变得越来越流行。词法闭包（Lexical closures）是 Lisp 在 70 年代初引入的，现在才刚刚进入人们的视野。而 Lisp 在 60 年代中期引入的宏，至今仍是未知领域（terra incognita）。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "4ba8f5d3b1e1e2ac9e7c0472d156a3fa02b182c4e59304492149a78e19976dde",
+      "enMarkdown": "Obviously, the median language has enormous momentum. I'm not proposing that you can fight this powerful force. What I'm proposing is exactly the opposite: that, like a practitioner of Aikido, you can use it against your opponents.",
+      "zhMarkdown": "显而易见，中位数语言拥有巨大的惯性。我并不是建议你去对抗这股强大的力量。我的建议恰恰相反：就像合气道大师一样，你可以利用这股力量来对付你的对手。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "ee715a308c828a9502e7337ef30334d9ebe063a1b7d0accf1f99e0e1337bb54f",
+      "enMarkdown": "If you work for a big company, this may not be easy. You will have a hard time convincing the pointy-haired boss to let you build things in Lisp, when he has just read in the paper that some other language is poised, like Ada was twenty years ago, to take over the world. But if you work for a startup that doesn't have pointy-haired bosses yet, you can, like we did, turn the Blub paradox to your advantage: you can use technology that your competitors, glued immovably to the median language, will never be able to match.",
+      "zhMarkdown": "如果你在大公司工作，这可能并不容易。你很难说服那个“尖头发老板”（pointy-haired boss）让你用 Lisp 开发东西，因为他刚在报纸上看到，另一种语言正准备像二十年前的 Ada 一样接管世界。但如果你在一家还没有尖头发老板的创业公司工作，你可以像我们一样，将 Blub 悖论转化为你的优势：你可以使用那些死守着中位数语言的对手永远无法企及的技术。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "7294c88babaacf362663b5fa6ca58618144e2e6ab98aab894c3a1da86a53d800",
+      "enMarkdown": "If you ever do find yourself working for a startup, here's a handy tip for evaluating competitors. Read their job listings. Everything else on their site may be stock photos or the prose equivalent, but the job listings have to be specific about what they want, or they'll get the wrong candidates.",
+      "zhMarkdown": "如果你发现自己正在创业公司工作，这里有一个评估竞争对手的实用窍门。去读他们的招聘启事。他们网站上的其他内容可能都是库存照片或陈词滥调，但招聘启事必须写明他们具体想要什么，否则就会招错人。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "10ba310692d472edb88023a1c73465f7d2bc27a5b2d29c610be0689bef04ef6b",
+      "enMarkdown": "During the years we worked on Viaweb I read a lot of job descriptions. A new competitor seemed to emerge out of the woodwork every month or so. The first thing I would do, after checking to see if they had a live online demo, was look at their job listings. After a couple years of this I could tell which companies to worry about and which not to. The more of an IT flavor the job descriptions had, the less dangerous the company was. The safest kind were the ones that wanted Oracle experience. You never had to worry about those. You were also safe if they said they wanted C++ or Java developers. If they wanted Perl or Python programmers, that would be a bit frightening-- that's starting to sound like a company where the technical side, at least, is run by real hackers. If I had ever seen a job posting looking for Lisp hackers, I would have been really worried.",
+      "zhMarkdown": "在我们开发 Viaweb 的那些年里，我读了大量的职位描述。几乎每个月都会冒出一个新的竞争对手。在检查他们是否有在线演示之后，我做的第一件事就是看他们的招聘启事。这样过了几年，我一眼就能看出哪些公司值得担心，哪些不用。职位描述中的“IT 味”越浓，这家公司的威胁就越小。最安全的是那些要求有 Oracle 经验的公司，你永远不用担心它们。如果他们说需要 C++ 或 Java 开发者，你也是安全的。如果他们要招 Perl 或 Python 程序员，那会有一点点令人担忧——这听起来像是一家技术端至少是由真正的黑客在主导的公司。但如果我看到有招聘启事在寻找 Lisp 黑客，我才会真正感到大难临头。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "77b18dd2bc824c2f71d9d0152f45e47e362141a5f1c2f23633c4e03b2a5a3fe3",
+      "enMarkdown": "[1] Viaweb at first had two parts: the editor, written in Lisp, which people used to build their sites, and the ordering system, written in C, which handled orders. The first version was mostly Lisp, because the ordering system was small. Later we added two more modules, an image generator written in C, and a back-office manager written mostly in Perl.",
+      "zhMarkdown": "[1] Viaweb 起初有两个部分：用 Lisp 写的编辑器（用户用来建站）和用 C 写的订单系统（处理订单）。第一个版本大部分是 Lisp，因为订单系统很小。后来我们又增加了两个模块：一个用 C 写的图像生成器，以及一个主要用 Perl 写的后台管理器。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "18ebe79eda39729c8b04dd7cc782c33c4e23bf141588c285fbf2e3d42daca319",
+      "enMarkdown": "In January 2003, Yahoo released a new version of the editor written in C++ and Perl. It's hard to say whether the program is no longer written in Lisp, though, because to translate this program into C++ they literally had to write a Lisp interpreter: the source files of all the page-generating templates are still, as far as I know, Lisp code. (See [Greenspun's Tenth Rule](https://paulgraham.com/quotes.html).)",
+      "zhMarkdown": "2003 年 1 月，雅虎发布了用 C++ 和 Perl 重写的新版编辑器。不过很难说这个程序是不是真的不再用 Lisp 写了，因为为了把这个程序翻译成 C++，他们实际上不得不写了一个 Lisp 解释器：据我所知，所有页面生成模板的源文件仍然是 Lisp 代码。（参见 [格林斯潘第十定律](https://paulgraham.com/quotes.html)。）"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "7d943b5d24e6fa13a0359e3edbe6cbbefcae41fcd5361f700abfc0765861ae7e",
+      "enMarkdown": "[2] Robert Morris says that I didn't need to be secretive, because even if our competitors had known we were using Lisp, they wouldn't have understood why: \"If they were that smart they'd already be programming in Lisp.\"",
+      "zhMarkdown": "[2] 罗伯特·莫里斯说我没必要保密，因为即使我们的对手知道我们在用 Lisp，他们也不会明白为什么：“如果他们有那么聪明，他们早就用 Lisp 编程了。”"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "ed361e98963c66c7817021530ad70f2440af9657a7c98052aac82392ef57c0e2",
+      "enMarkdown": "[3] All languages are equally powerful in the sense of being Turing equivalent, but that's not the sense of the word programmers care about. (No one wants to program a Turing machine.) The kind of power programmers care about may not be formally definable, but one way to explain it would be to say that it refers to features you could only get in the less powerful language by writing an interpreter for the more powerful language in it. If language A has an operator for removing spaces from strings and language B doesn't, that probably doesn't make A more powerful, because you can probably write a subroutine to do it in B. But if A supports, say, recursion, and B doesn't, that's not likely to be something you can fix by writing library functions.",
+      "zhMarkdown": "[3] 在图灵等价的意义上，所有的语言都是同样强大的，但这不是程序员所关心的那种强大。（没人想去给图灵机编程。）程序员所关心的能力可能无法被形式化地定义，但解释它的一种方式是，它指的是某些功能，在较弱的语言中，你只能通过在其中为更强大的语言编写一个解释器来获得。如果语言 A 有一个去除字符串空格的运算符，而语言 B 没有，这可能并不会使 A 显得更强大，因为你可以在 B 中写一个子程序来实现。但如果 A 支持递归，而 B 不支持，这恐怕就不是写个库函数就能解决的问题了。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "76b3fdf4149f14234ba437cd607d8773a77a5049ff267b37539fa4ed9195ade1",
+      "enMarkdown": "[4] Note to nerds: or possibly a lattice, narrowing toward the top; it's not the shape that matters here but the idea that there is at least a partial order.",
+      "zhMarkdown": "[4] 给极客的注释：或者可能是一个向上收窄的格（lattice）；这里重要的不是形状，而是至少存在偏序（partial order）的概念。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "7ac63e219686ffbaeb006e556af787407cc273c029a6f6b09d4e5de694f46218",
+      "enMarkdown": "[5] It is a bit misleading to treat macros as a separate feature. In practice their usefulness is greatly enhanced by other Lisp features like lexical closures and rest parameters.",
+      "zhMarkdown": "[5] 将宏视为一个独立的功能有点误导。在实践中，由于 Lisp 的其他特性（如词法闭包和剩余参数），宏的实用性得到了极大的增强。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "fa17a18d51dcc6a98692cbee623ad72d82cfebb2b76b56a5f3fec84962b488c5",
+      "enMarkdown": "[6] As a result, comparisons of programming languages either take the form of religious wars or undergraduate textbooks so determinedly neutral that they're really works of anthropology. People who value their peace, or want tenure, avoid the topic. But the question is only half a religious one; there is something there worth studying, especially if you want to design new languages.",
+      "zhMarkdown": "[6] 结果就是，对编程语言的比较要么演变成宗教战争，要么变成大学教科书那种刻意的中立，以至于读起来像人类学著作。珍惜清静或想拿终身教职的人都会避开这个话题。但这个问题只有一半是宗教问题，其中确实有值得研究的东西，特别是如果你想设计新语言的话。"
+    }
+  ]
+}

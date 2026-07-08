@@ -1,0 +1,370 @@
+{
+  "slug": "ace",
+  "titleEn": "Billionaires Build",
+  "titleZh": "亿万富翁是靠创造价值胜出的",
+  "dateText": "December 2020",
+  "publishedAt": "2020-12-01",
+  "sourceOrder": 39,
+  "sourceUrl": "https://paulgraham.com/ace.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "40bd1f1c460625d961e6e98b1214475975c43dcc167cb14947075a05827a6538",
+      "enMarkdown": "As I was deciding what to write about next, I was surprised to find that two separate essays I'd been planning to write were actually the same.",
+      "zhMarkdown": "在决定下一篇文章写什么时，我惊讶地发现，我原本计划写的两篇独立文章，实际上讲的是同一件事。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "f576296d3a5e0feb0e628d20227c8723f747fc687417364eaf3440bb2540f604",
+      "enMarkdown": "The first is about how to ace your Y Combinator interview. There has been so much nonsense written about this topic that I've been meaning for years to write something telling founders the truth.",
+      "zhMarkdown": "第一篇是关于如何通过 Y Combinator 面试。关于这个话题，网上的无稽之谈实在太多了，多年来我一直想写点东西，告诉创始人真相。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b5470796cdee77002f2bd7d0d2b885b058bffc817efceb949b1b5b7c408392ac",
+      "enMarkdown": "The second is about something politicians sometimes say � that the only way to become a billionaire is by exploiting people � and why this is mistaken.",
+      "zhMarkdown": "第二篇则是关于政客们有时会说的一句话——成为亿万富翁的唯一途径就是剥削他人——以及为什么这种说法是错误的。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7a3a56ad5a35adf08334ed10a9558193e696348b02d8b4761963251d3781a1d4",
+      "enMarkdown": "Keep reading, and you'll learn both simultaneously.",
+      "zhMarkdown": "继续读下去，你将同时弄懂这两个问题。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4b4d87ed67f732f51754433acde4301886b4476418642eeafbf0c35c4a7ad170",
+      "enMarkdown": "I know the politicians are mistaken because it was my job to predict which people will become billionaires. I think I can truthfully say that I know as much about how to do this as anyone. If the key to becoming a billionaire � the defining feature of billionaires � was to exploit people, then I, as a professional billionaire scout, would surely realize this and look for people who would be good at it, just as an NFL scout looks for speed in wide receivers.",
+      "zhMarkdown": "我知道政客们错了，因为我过去的工作就是预测哪些人会成为亿万富翁。我想我可以问心无愧地说，在这方面我懂行程度不输任何人。如果成为亿万富翁的关键——或者说亿万富翁的决定性特征——是剥削他人，那么我作为一名专业的“亿万富翁星探”，肯定会意识到这一点，并专门寻找擅长剥削的人，就像 NFL（美式橄榄球联盟）的星探会在外接手身上寻找速度优势一样。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "acde91817e7887378556cad1af2a62ca2143854c970732549f9e67b5e1268308",
+      "enMarkdown": "But aptitude for exploiting people is not what Y Combinator looks for at all. In fact, it's the opposite of what they look for. I'll tell you what they do look for, by explaining how to convince Y Combinator to fund you, and you can see for yourself.",
+      "zhMarkdown": "但剥削他人的能力根本不是 Y Combinator 所看重的。事实上，这恰恰与他们寻找的特质相反。接下来，我将通过解释如何说服 Y Combinator 资助你，来告诉你他们到底在寻找什么，你可以自己来评判。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5650d8dba4ad51049799ff16e93254636f51a33eb67b547efaa05d1c014d86ff",
+      "enMarkdown": "What YC looks for, above all, is founders who understand some group of users and can make what they want. This is so important that it's YC's motto: \"Make something people want.\"",
+      "zhMarkdown": "YC 最看重的，归根结底，是那些理解某类用户群体并能做出他们所需东西的创始人。这太重要了，以至于它成了 YC 的座右铭：“创造人们渴望的产品”（Make something people want）。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "59ccdf23e5b75c1e745b2decc8597829b46280ceb44912670c077be1d01c5e30",
+      "enMarkdown": "A big company can to some extent force unsuitable products on unwilling customers, but a startup doesn't have the power to do that. A startup must sing for its supper, by making things that genuinely delight its customers. Otherwise it will never get off the ground.",
+      "zhMarkdown": "大公司在某种程度上可以把不合适的产品强加给不情愿的客户，但创业公司没有这种能力。创业公司必须靠真本事吃饭，做出能真正让客户感到惊喜的产品。否则，它永远也别想做起来。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "8bcb3aec635673ef0f4d31ae79794a390e15324657547ebcf3637fb3bef9e779",
+      "enMarkdown": "Here's where things get difficult, both for you as a founder and for the YC partners trying to decide whether to fund you. In a market economy, it's hard to make something people want that they don't already have. That's the great thing about market economies. If other people both knew about this need and were able to satisfy it, they already would be, and there would be no room for your startup.",
+      "zhMarkdown": "无论是对作为创始人的你，还是对试图决定是否资助你的 YC 合伙人来说，难点就在这里。在市场经济中，很难做出人们想要却尚未拥有的东西。这就是市场经济的伟大之处。如果其他人既知道这种需求又有能力满足它，他们早就这么做了，也就没有你的创业公司生存的空间了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "6ee6109c04d421f7e1f9a501ec6e0e76640d6b09740e615167e2eb3c585bb512",
+      "enMarkdown": "Which means the conversation during your YC interview will have to be about something new: either a new need, or a new way to satisfy one. And not just new, but uncertain. If it were certain that the need existed and that you could satisfy it, that certainty would be reflected in large and rapidly growing revenues, and you wouldn't be seeking seed funding.",
+      "zhMarkdown": "这意味着你在 YC 面试中的对话必须围绕着一些全新的东西展开：要么是新的需求，要么是满足需求的新方法。这不仅需要是全新的，而且必须是不确定的。如果这种需求的存在以及你能满足它是确定的，那么这种确定性就会体现在庞大且快速增长的营收上，你也就没必要来寻求种子轮融资了。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "ab0e760aa4299e25c8d08e23d6dd261e27b66b1f08d855bdb58bfdc9ec2ec2ca",
+      "enMarkdown": "So the YC partners have to guess both whether you've discovered a real need, and whether you'll be able to satisfy it. That's what they are, at least in this part of their job: professional guessers. They have 1001 heuristics for doing this, and I'm not going to tell you all of them, but I'm happy to tell you the most important ones, because these can't be faked; the only way to \"hack\" them would be to do what you should be doing anyway as a founder.",
+      "zhMarkdown": "因此，YC 合伙人必须去猜测，一是你是否发现了一个真实的需求，二是你是否能够满足它。这就是他们的角色，至少在他们这部分工作中是这样：职业猜测者。他们有成百上千种直觉法则来做这件事，我不会把它们全部告诉你，但我很乐意告诉你最重要的一些，因为这些是无法伪造的；唯一能“破解”它们的方法，就是去做你作为创始人本来就该做的事。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "992f215682834c0e8c6c8d436a8a70bc3c5f8433e6ed684177a71d46786a336a",
+      "enMarkdown": "The first thing the partners will try to figure out, usually, is whether what you're making will ever be something a lot of people want. It doesn't have to be something a lot of people want now. The product and the market will both evolve, and will influence each other's evolution. But in the end there has to be something with a huge market. That's what the partners will be trying to figure out: is there a path to a huge market? [[1](#f1n)]",
+      "zhMarkdown": "通常，合伙人们首先会试图弄清楚，你正在做的东西未来会不会成为很多人想要的东西。它现在不一定是很多人想要的东西。产品和市场都会演变，并相互影响。但最终，必须能通往一个巨大的市场。这就是合伙人们试图弄清楚的：是否存在一条通往巨大市场的路径？ [[1](#f1n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "d7e70841506fd12ee67f34cbd93cc2359500bc3c719110761d247c940a1f885b",
+      "enMarkdown": "Sometimes it's obvious there will be a huge market. If [Boom](https://boomsupersonic.com/) manages to ship an airliner at all, international airlines will have to buy it. But usually it's not obvious. Usually the path to a huge market is by growing a small market. This idea is important enough that it's worth coining a phrase for, so let's call one of these small but growable markets a \"larval market.\"",
+      "zhMarkdown": "有时，显而易见会存在一个巨大的市场。如果 [Boom](https://boomsupersonic.com/) 真的能交付一款超音速客机，国际航空公司就必须购买。但通常情况并非如此显而易见。通往巨大市场的路径，往往是通过培育一个细分的小市场来实现的。这个想法非常重要，值得为其创造一个词，我们不妨把这种规模小但具有增长潜力的市场称为“雏形市场”（larval market）。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "aac93a424571d38e02d3f824d9ce5736973d2a40bf3c40d354e8ff715fb9fa86",
+      "enMarkdown": "The perfect example of a larval market might be Apple's market when they were founded in 1976. In 1976, not many people wanted their own computer. But more and more started to want one, till now every 10 year old on the planet wants a computer (but calls it a \"phone\").",
+      "zhMarkdown": "雏形市场最完美的例子可能是苹果公司在 1976 年创立时的市场。在 1976 年，没有多少人想要自己的电脑。但想拥有电脑的人越来越多，直到现在，地球上每个 10 岁的孩子都想要一台电脑（只是他们称之为“手机”）。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "273e023aaede423d708324331324a77389bf6d9edaa53b5442d241ce3897053c",
+      "enMarkdown": "The ideal combination is the group of founders who are [\"living in\nthe future\"](https://paulgraham.com/startupideas.html) in the sense of being at the leading edge of some kind of change, and who are building something they themselves want. Most super-successful startups are of this type. Steve Wozniak wanted a computer. Mark Zuckerberg wanted to engage online with his college friends. Larry and Sergey wanted to find things on the web. All these founders were building things they and their peers wanted, and the fact that they were at the leading edge of change meant that more people would want these things in the future.",
+      "zhMarkdown": "最理想的组合是这样一群创始人：他们处于某种变革的前沿，在某种意义上[\"生活在未来\"](https://paulgraham.com/startupideas.html)，并且正在构建他们自己想要的东西。大多数超级成功的创业公司都属于这种类型。史蒂夫·沃兹尼亚克想要一台电脑。马克·扎克伯格想和大学朋友在网上互动。拉里和谢尔盖想在网上找东西。所有这些创始人都在构建他们自己和同龄人想要的东西，而他们处于变革的前沿这一事实，意味着未来会有更多人需要这些东西。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "97473ff2989c4597b590cf70193335857d3b988821708c121b822f6e40c941c7",
+      "enMarkdown": "But although the ideal larval market is oneself and one's peers, that's not the only kind. A larval market might also be regional, for example. You build something to serve one location, and then expand to others.",
+      "zhMarkdown": "尽管最理想的雏形市场是创始人自己和身边的同龄人，但并非仅此一种。例如，雏形市场也可以是区域性的。你先在一个地方提供服务，然后扩张到其他地方。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "db8dbf6b8470850d86989d8b4e78715c0657f98addccce78431bcd303027910c",
+      "enMarkdown": "The crucial feature of the initial market is that it exist. That may seem like an obvious point, but the lack of it is the biggest flaw in most startup ideas. There have to be some people who want what you're building right now, and want it so urgently that they're willing to use it, bugs and all, even though you're a small company they've never heard of. There don't have to be many, but there have to be some. As long as you have some users, there are straightforward ways to get more: build new features they want, seek out more people like them, get them to refer you to their friends, and so on. But these techniques all require some initial seed group of users.",
+      "zhMarkdown": "初始市场最关键的特征在于它必须真实存在。这看起来像句废话，但缺乏这一前提正是大多数创业点子最大的硬伤。必须有一些人现在就非常渴望你正在构建的东西，以至于哪怕产品还有各种 bug、哪怕你们是一家他们从未听说过的小公司，他们也愿意使用。人不需要很多，但必须得有。只要你有了初始用户，接下来获取更多用户的方法就很直接了：开发他们想要的新功能、寻找更多类似的用户、让他们推荐给朋友等等。但所有这些方法，都离不开最开始那一小批种子用户。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "572d3a30e2db3807667ee6430dbb8b184eac284663cf67a17218e5f7cbc37338",
+      "enMarkdown": "So this is one thing the YC partners will almost certainly dig into during your interview. Who are your first users going to be, and how do you know they want this? If I had to decide whether to fund startups based on a single question, it would be \"How do you know people want this?\"",
+      "zhMarkdown": "所以，这几乎是 YC 合伙人在面试中肯定会刨根问底的一件事。谁会是你的第一批用户？你凭什么知道他们想要这个？如果让我只凭一个问题来决定是否资助一家创业公司，那就会是：“你怎么知道人们想要这个？”"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "400a69d6fa4f7aa7886795f0a4c372ed58786e0adc9997cfd4e5adb56da29651",
+      "enMarkdown": "The most convincing answer is \"Because we and our friends want it.\" It's even better when this is followed by the news that you've already built a prototype, and even though it's very crude, your friends are using it, and it's spreading by word of mouth. If you can say that and you're not lying, the partners will switch from default no to default yes. Meaning you're in unless there's some other disqualifying flaw.",
+      "zhMarkdown": "最令人信服的回答是：“因为我们和我们的朋友想要。”如果在此之后还能加上一句：我们已经做出了原型，虽然还很粗糙，但我们的朋友已经用起来了，而且正在通过口碑传播。如果你能说出这样的话且没有撒谎，合伙人们的态度就会从“默认拒绝”转为“默认接受”。这意味着，除非有其他致命的缺陷，否则你已经入选了。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "41f82075b31dd37894215e541db950b7f4c260dc8e569bde675dd96679c4e190",
+      "enMarkdown": "That is a hard standard to meet, though. Airbnb didn't meet it. They had the first part. They had made something they themselves wanted. But it wasn't spreading. So don't feel bad if you don't hit this gold standard of convincingness. If Airbnb didn't hit it, it must be too high.",
+      "zhMarkdown": "不过，这是一个极难达到的标准。Airbnb 当年就没达到。他们符合前半部分：他们做出了自己想要的东西，但产品当时并没有传播开来。所以，如果你没有达到这个说服力的黄金标准，也不用气馁。如果连 Airbnb 都没有达到，那说明这个标准确实定得太高了。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f151cabccd984d86513610cc3617a7b7b21942149c18893a8ede803109010b0c",
+      "enMarkdown": "In practice, the YC partners will be satisfied if they feel that you have a deep understanding of your users' needs. And the Airbnbs did have that. They were able to tell us all about what motivated hosts and guests. They knew from first-hand experience, because they'd been the first hosts. We couldn't ask them a question they didn't know the answer to. We ourselves were not very excited about the idea as users, but we knew this didn't prove anything, because there were lots of successful startups we hadn't been excited about as users. We were able to say to ourselves \"They seem to know what they're talking about. Maybe they're onto something. It's not growing yet, but maybe they can figure out how to make it grow during YC.\" Which they did, about three weeks into the batch.",
+      "zhMarkdown": "在实际操作中，只要 YC 合伙人觉得你对用户的需求有深刻的理解，他们就会满意。而 Airbnb 的创始人们确实做到了这一点。他们能向我们详尽地阐述房东和房客的动机。他们拥有第一手经验，因为他们自己就是第一批房东。我们提不出任何一个他们不知道答案的问题。我们自己作为用户对这个点子并没有太兴奋，但我们知道这证明不了什么，因为有太多成功的创业公司，我们在早期作为用户时也同样没感到兴奋。我们当时对自己说：“他们看起来很懂行。也许他们发现了一些门道。虽然现在还没增长，但也许在 YC 期间他们能找到增长的方法。”他们确实做到了，大约在入选后第三周就找到了突破口。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "2001c38be564dbf974e80a2eb2221d46a1f8929091d816f3f5848b8f233e8d9c",
+      "enMarkdown": "The best thing you can do in a YC interview is to teach the partners about your users. So if you want to prepare for your interview, one of the best ways to do it is to go talk to your users and find out exactly what they're thinking. Which is what you should be doing anyway.",
+      "zhMarkdown": "在 YC 面试中，你能做的最好的事情就是让合伙人们了解你的用户。所以，如果你想为面试做准备，最好的方法之一就是去和你的用户聊聊，彻底弄清楚他们到底在想什么。这也是你本来就该做的事。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "09b13f9a453ec6da097ae3b2bb4001b851af75815e88c5445ba3bc7d97d6fa70",
+      "enMarkdown": "This may sound strangely credulous, but the YC partners want to rely on the founders to tell them about the market. Think about how VCs typically judge the potential market for an idea. They're not ordinarily domain experts themselves, so they forward the idea to someone who is, and ask for their opinion. YC doesn't have time to do this, but if the YC partners can convince themselves that the founders both (a) know what they're talking about and (b) aren't lying, they don't need outside domain experts. They can use the founders themselves as domain experts when evaluating their own idea.",
+      "zhMarkdown": "这听起来可能有些不可思议地轻信，但 YC 合伙人确实希望依赖创始人来告诉他们关于市场的情况。想想风险投资人通常是如何评估一个点子的潜在市场的。他们自己通常不是行业专家，所以他们会把这个点子发给某个专家，并征求其意见。YC 没有时间这样做，但如果 YC 合伙人能够确信创始人（a）很懂行，并且（b）没有撒谎，他们就不需要外部的行业专家。在评估这个点子时，他们可以直接把创始人自己当成行业专家。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "d5066b5b2dd2bc537a9cc7be02c9658d81237dcf4319ed1690adc5a83e49c424",
+      "enMarkdown": "This is why YC interviews aren't pitches. To give as many founders as possible a chance to get funded, we made interviews as short as we could: 10 minutes. That is not enough time for the partners to figure out, through the indirect evidence in a pitch, whether you know what you're talking about and aren't lying. They need to dig in and ask you questions. There's not enough time for sequential access. They need random access. [[2](#f2n)]",
+      "zhMarkdown": "这就是为什么 YC 面试不是宣讲（pitch）。为了给尽可能多的创始人获得融资的机会，我们把面试时间缩得尽可能短：10分钟。这么短的时间，合伙人根本无法通过听宣讲这种间接证据来判断你是否懂行且没有撒谎。他们需要切入正题并向你提问。没有时间进行线性叙事，他们需要“随机访问”式的直接问答。 [[2](#f2n)]"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "131ab3b2821bf81ca2d434647a1c9dbaf15ed5ffd2840aa2be2bbe3bf2b31f7c",
+      "enMarkdown": "The worst advice I ever heard about how to succeed in a YC interview is that you should take control of the interview and make sure to deliver the message you want to. In other words, turn the interview into a pitch. ⟨elaborate expletive⟩. It is so annoying when people try to do that. You ask them a question, and instead of answering it, they deliver some obviously prefabricated blob of pitch. It eats up 10 minutes really fast.",
+      "zhMarkdown": "关于如何在 YC 面试中胜出，我听过的最糟糕的建议是：你应该掌控面试节奏，确保传达出你想表达的信息。换句话说，就是把面试变成宣讲。真是⟨此处省略脏话⟩。当人们试图这样做时，简直让人抓狂。你问他们一个问题，他们不回答，反而抛出一套显然预先准备好的宣讲词。这会非常快地耗尽 10 分钟时间。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "09ad044f0531440be637a558aaf10af8ad500553d5717b18e21a7ebe43de8704",
+      "enMarkdown": "There is no one who can give you accurate advice about what to do in a YC interview except a current or former YC partner. People who've merely been interviewed, even successfully, have no idea of this, but interviews take all sorts of different forms depending on what the partners want to know about most. Sometimes they're all about the founders, other times they're all about the idea. Sometimes some very narrow aspect of the idea. Founders sometimes walk away from interviews complaining that they didn't get to explain their idea completely. True, but they explained enough.",
+      "zhMarkdown": "除了现任或前任 YC 合伙人之外，没有人能给你关于如何应对 YC 面试的准确建议。那些仅仅参加过面试的人，哪怕面试成功了，也对此一无所知。面试会根据合伙人最想了解的内容而呈现出各种不同的形式。有时全是关于创始人的，有时全是关于点子的。有时甚至是关于点子中一个非常微小的细节。创始人有时会在面试后抱怨他们没能完整地解释自己的点子。确实如此，但他们解释得已经足够多了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "e9effa71c642d2d06a42e9a2b0782c9d9a603d9e3e4f4e34be114f91fd93876a",
+      "enMarkdown": "Since a YC interview consists of questions, the way to do it well is to answer them well. Part of that is answering them candidly. The partners don't expect you to know everything. But if you don't know the answer to a question, don't try to bullshit your way out of it. The partners, like most experienced investors, are professional bullshit detectors, and you are (hopefully) an amateur bullshitter. And if you try to bullshit them and fail, they may not even tell you that you failed. So it's better to be honest than to try to sell them. If you don't know the answer to a question, say you don't, and tell them how you'd go about finding it, or tell them the answer to some related question.",
+      "zhMarkdown": "既然 YC 面试是由问题组成的，那么表现出色的方法就是回答好这些问题。其中一部分就是要坦诚地回答。合伙人并不指望你什么都知道。但如果你不知道某个问题的答案，不要试图用胡话应付过去。合伙人们和大多数经验丰富的投资者一样，都是专业的胡话探测器，而你（希望）只是个业余的说谎者。如果你试图糊弄他们却失败了，他们甚至可能不会告诉你你搞砸了。所以，诚实比试图向他们推销要好得多。如果你不知道答案，就直接说不知道，并告诉他们你会如何去寻找答案，或者回答一个相关的、你了解的问题。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "8c818ad73177b1deefac6d698ad5ce39634b38ef83e160cf15222e6c5104c978",
+      "enMarkdown": "If you're asked, for example, what could go wrong, the worst possible answer is \"nothing.\" Instead of convincing them that your idea is bullet-proof, this will convince them that you're a fool or a liar. Far better to go into gruesome detail. That's what experts do when you ask what could go wrong. The partners know that your idea is risky. That's what a good bet looks like at this stage: a tiny probability of a huge outcome.",
+      "zhMarkdown": "例如，如果被问到什么地方可能会出错，最糟糕的答案就是“没什么会出错”。这不仅无法让他们相信你的点子无懈可击，反而会让他们觉得你要么是傻子，要么是骗子。远比这更好的做法是详细描述那些可能发生的惨状。当问及什么可能会出错时，专家的做法就是给出令人毛骨悚然的细节。合伙人们知道你的点子是有风险的。在这个阶段，一笔好投资看起来就是这样的：极小的概率会产生极大的回报。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "2b80e4518d12be2e6daf231d3ee4700251624cab8f5be9e6f1ab4d704d7c467e",
+      "enMarkdown": "Ditto if they ask about competitors. Competitors are rarely what kills startups. Poor execution does. But you should know who your competitors are, and tell the YC partners candidly what your relative strengths and weaknesses are. Because the YC partners know that competitors don't kill startups, they won't hold competitors against you too much. They will, however, hold it against you if you seem either to be unaware of competitors, or to be minimizing the threat they pose. They may not be sure whether you're clueless or lying, but they don't need to be.",
+      "zhMarkdown": "面对竞争对手的问题也是如此。竞争对手很少是杀死创业公司的元凶，糟糕的执行力才是。但你应该知道你的竞争对手是谁，并坦诚地告诉 YC 合伙人你们相对的优缺点。因为 YC 合伙人知道竞争对手杀不死创业公司，他们不会因为有竞争对手而对你太苛刻。然而，如果你看起来对竞争对手一无所知，或者在淡化他们带来的威胁，他们就会对你产生不好的看法。他们可能无法确定你是糊涂还是在撒谎，但他们也没必要去深究了。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "1ee511aa62e41620e63c82d2ad866973f8bae190f6d18e6f8bfb7024aa550cb3",
+      "enMarkdown": "The partners don't expect your idea to be perfect. This is seed investing. At this stage, all they can expect are promising hypotheses. But they do expect you to be thoughtful and honest. So if trying to make your idea seem perfect causes you to come off as glib or clueless, you've sacrificed something you needed for something you didn't.",
+      "zhMarkdown": "合伙人们并不指望你的点子完美无缺。这是种子轮投资。在这个阶段，他们能指望的只有看似有前景的假设。但他们确实期望你深思熟虑且诚实。因此，如果为了让点子显得完美而让你显得油腔滑调或一无所知，你就是为了不需要的东西而牺牲了你真正需要的东西。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "96ce38c333c83b402e259096ad3d81e7a2b4bee7245a23aa1e0a039411ebbb03",
+      "enMarkdown": "If the partners are sufficiently convinced that there's a path to a big market, the next question is whether you'll be able to find it. That in turn depends on three things: the general qualities of the founders, their specific expertise in this domain, and the relationship between them. How determined are the founders? Are they good at building things? Are they resilient enough to keep going when things go wrong? How strong is their friendship?",
+      "zhMarkdown": "如果合伙人充分确信存在一条通往大市场的路径，接下来的问题就是你是否能够找到它。这反过来取决于三件事：创始人的综合素质、他们在这个领域的专业知识，以及他们之间的关系。 founders 的决心有多大？他们擅长动手做东西吗？当事情出差错时，他们是否有足够的韧性坚持下去？他们的友谊有多牢固？"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "f99f3db6e632607d2ed6d1b86a8abda3a79c4c20a1b2ffb79fc11a6b1dfa4805",
+      "enMarkdown": "Though the Airbnbs only did ok in the idea department, they did spectacularly well in this department. The story of how they'd funded themselves by making Obama- and McCain-themed breakfast cereal was the single most important factor in our decision to fund them. They didn't realize it at the time, but what seemed to them an irrelevant story was in fact fabulously good evidence of their qualities as founders. It showed they were resourceful and determined, and could work together.",
+      "zhMarkdown": "虽然 Airbnb 的创始人们在点子方面表现平平，但他们在创始人素质方面表现得极其出色。他们通过制作奥巴马和麦凯恩主题的早餐麦片来给自己筹集资金的故事，是我们决定资助他们的最重要因素。他们当时并没有意识到，这个在他们看来无关紧要的故事，实际上极其有力地证明了他们作为创始人的优秀品质。这表明他们足智多谋、意志坚定，并且能够通力合作。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "bd2a8d1233c670ca2d4ec5b4431fa3f82514fc22520f78d53c6a659e1f1e86b9",
+      "enMarkdown": "It wasn't just the cereal story that showed that, though. The whole interview showed that they cared. They weren't doing this just for the money, or because startups were cool. The reason they were working so hard on this company was because it was their project. They had discovered an interesting new idea, and they just couldn't let it go.",
+      "zhMarkdown": "不过，不仅仅是麦片故事展现了这一点。整个面试过程都表明他们在乎。他们做这件事不仅仅是为了钱，或者因为创业看起来很酷。他们在这家公司上如此努力，是因为这是他们自己的项目。他们发现了一个有趣的新点子，就是无法放手。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "bc8efade80e58a2ed09f78a494c88f1e59773fd1e9d473ed7d180140f9e58d52",
+      "enMarkdown": "Mundane as it sounds, that's the most powerful motivator of all, not just in startups, but in most ambitious undertakings: to be [genuinely interested](https://paulgraham.com/genius.html) in what you're building. This is what really drives billionaires, or at least the ones who become billionaires from starting companies. The company is their project.",
+      "zhMarkdown": "尽管听起来很平淡，但这正是所有动力中最强大的一种，不仅在创业中如此，在大多数有抱负的事业中也是如此：对你正在构建的东西产生[真正的兴趣](https://paulgraham.com/genius.html)。这才是真正驱动亿万富翁的力量，或者至少是那些通过白手起家成为亿万富翁的人的动力。公司就是他们的项目。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "078932b6581f96f23bc6a02b5cf58f9b40ca4dd0af35a38908e74efe52465847",
+      "enMarkdown": "One thing few people realize about billionaires is that all of them could have stopped sooner. They could have gotten acquired, or found someone else to run the company. Many founders do. The ones who become really rich are the ones who keep working. And what makes them keep working is not just money. What keeps them working is the same thing that keeps anyone else working when they could stop if they wanted to: that there's nothing else they'd rather do.",
+      "zhMarkdown": "关于亿万富翁，很少有人意识到的一点是，他们所有人本可以更早地停下来。他们本来可以接受收购，或者找别人来管理公司。许多创始人确实是这么做的。那些真正变得富有的人是那些选择继续工作的人。而让他们继续工作的不仅仅是钱。让他们继续工作的原因，与让任何其他在想停就能停的情况下依然选择继续工作的人一样：因为没有其他事情是他们更想做的了。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "6ee4f614e1261ed66b88cc896baba7e311865215a913038da096c33607bf10dc",
+      "enMarkdown": "That, not exploiting people, is the defining quality of people who become billionaires from starting companies. So that's what YC looks for in founders: authenticity. People's motives for starting startups are usually mixed. They're usually doing it from some combination of the desire to make money, the desire to seem cool, genuine interest in the problem, and unwillingness to work for someone else. The last two are more powerful motivators than the first two. It's ok for founders to want to make money or to seem cool. Most do. But if the founders seem like they're doing it *just* to make money or *just* to seem cool, they're not likely to succeed on a big scale. The founders who are doing it for the money will take the first sufficiently large acquisition offer, and the ones who are doing it to seem cool will rapidly discover that there are much less painful ways of seeming cool. [[3](#f3n)]",
+      "zhMarkdown": "这种特质，而不是剥削他人，才是那些通过创业成为亿万富翁的人的决定性品质。因此，这就是 YC 在创始人身上寻找的特质：真实性。人们创办创业公司的动机通常是复杂的。他们通常是想赚钱、想显得酷、对问题有真正的兴趣、以及不想为别人工作这几种动机的结合。后两者是比前两者更强大的动力。创始人想赚钱或显得酷是可以理解的，大多数人都是这样。但如果创始人看起来*仅仅*是为了赚钱或*仅仅*是为了显得酷，他们不太可能取得巨大的成功。为了钱而做的创始人会在遇到足够大的收购邀约时套现离场，而为了显得酷而做的创始人会很快发现，有太多不那么痛苦的方法可以让自己显得很酷了。 [[3](#f3n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "05f8dc170678bbef534da166ba619e537655ff03abb578e970a060651d8b16a9",
+      "enMarkdown": "Y Combinator certainly sees founders whose m.o. is to exploit people. YC is a magnet for them, because they want the YC brand. But when the YC partners detect someone like that, they reject them. If bad people made good founders, the YC partners would face a moral dilemma. Fortunately they don't, because bad people make bad founders. This exploitative type of founder is not going to succeed on a large scale, and in fact probably won't even succeed on a small one, because they're always going to be taking shortcuts. They see YC itself as a shortcut.",
+      "zhMarkdown": "Y Combinator 当然也见过那些行事风格就是剥削他人的创始人。YC 对他们很有吸引力，因为他们想要 YC 的品牌。但当 YC 合伙人发现这样的人时，就会拒绝他们。如果坏人能成为优秀的创始人，YC 合伙人就会面临道德困境。幸运的是他们没有，因为坏人成不了优秀的创始人。这种剥削型的创始人不可能取得大成功，事实上可能连小成功都拿不到，因为他们总是想走捷径。他们甚至把 YC 本身也看作是一种捷径。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "27289af3101c38f6ed0ddbdaac569c9324a0ca2f3b0b71d7c53c6a6bec78202f",
+      "enMarkdown": "Their exploitation usually begins with their own cofounders, which is disastrous, since the cofounders' relationship is the foundation of the company. Then it moves on to the users, which is also disastrous, because the sort of early adopters a successful startup wants as its initial users are the hardest to fool. The best this kind of founder can hope for is to keep the edifice of deception tottering along until some acquirer can be tricked into buying it. But that kind of acquisition is never very big. [[4](#f4n)]",
+      "zhMarkdown": "他们的剥削通常从自己的联合创始人开始，这是灾难性的，因为联合创始人之间的关系是公司的基石。然后剥削会蔓延到用户身上，这同样是灾难性的，因为成功创业公司所渴望的早期采用者是最难糊弄的。这类创始人所能期望的最好结果，就是维持着摇摇欲坠的欺骗大厦，直到某个买家上当受骗将其买下。但那种收购规模从来不会太大。 [[4](#f4n)]"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "1834ce238ce572175e8579d7207c55dabbd6ec60e83a503c6e6ebcd59abe0775",
+      "enMarkdown": "If professional billionaire scouts know that exploiting people is not the skill to look for, why do some politicians think this is the defining quality of billionaires?",
+      "zhMarkdown": "既然专业的亿万富翁星探知道剥削他人并不是要寻找的技能，为什么有些政客会认为这是亿万富翁的决定性特征呢？"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "7c20c39e376ead3b192e3d6226e5c389aa18bb7990b35baf4b8158e0fd108de9",
+      "enMarkdown": "I think they start from the feeling that it's wrong that one person could have so much more money than another. It's understandable where that feeling comes from. It's in our DNA, and even in the DNA of other species.",
+      "zhMarkdown": "我认为他们始于这样一种感觉：一个人拥有的钱比另一个人多得多，这是不对的。这种感觉的来源是可以理解的。它存在于我们的 DNA 中，甚至存在于其他物种的 DNA 中。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "23485da972ab4084f36122ac394040896bc7bab41e05a6b73536b08d27163d00",
+      "enMarkdown": "If they limited themselves to saying that it made them feel bad when one person had so much more money than other people, who would disagree? It makes me feel bad too, and I think people who make a lot of money have a moral obligation to use it for the common good. The mistake they make is to jump from feeling bad that some people are much richer than others to the conclusion that there's no legitimate way to make a very large amount of money. Now we're getting into statements that are not only falsifiable, but false.",
+      "zhMarkdown": "如果他们仅限于说，当一个人比其他人拥有多得多的钱时，这让他们感到难受，谁会反对呢？我也觉得难受，而且我认为赚了大钱的人有道德义务将其用于公共福祉。他们犯的错误是，从“对某些人比其他人富裕得多感到难受”直接跳到了“赚取巨额财富没有合法途径”这一结论。现在，我们接触到的论点不仅是可以被证伪的，而且确实是错误的。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "56c664b6f9cfd8aef553049e71986c101a1ca454996a12242e091ba16b76cdda",
+      "enMarkdown": "There are certainly some people who become rich by doing bad things. But there are also plenty of people who behave badly and don't make that much from it. There is no correlation � in fact, probably an inverse correlation � between how badly you behave and how much money you make.",
+      "zhMarkdown": "当然有一些人是通过做坏事变富的。但也有很多行为恶劣的人并没有赚到什么钱。你表现得有多坏与你赚了多少钱之间没有关联——事实上，可能还存在负相关。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "742a88bbb225322ff07ab80f15c1e165968377f5f1392f0ced5c52316bc80bed",
+      "enMarkdown": "The greatest danger of this nonsense may not even be that it sends policy astray, but that it misleads ambitious people. Can you imagine a better way to destroy social mobility than by telling poor kids that the way to get rich is by exploiting people, while the rich kids know, from having watched the preceding generation do it, how it's really done?",
+      "zhMarkdown": "这种无稽之谈的最大危害甚至可能不是它误导了政策，而是它误导了有抱负的人。你能想象有什么比告诉穷人家的孩子致富的方法是剥削他人，而富人家的孩子通过看着上一代人的实践知道真正的方法，更能摧毁社会流动性的吗？"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "1828874c2884d2ee31e7c696ab1a221ebf5746e6841d881cc8e6402a4f42b66d",
+      "enMarkdown": "I'll tell you how it's really done, so you can at least tell your own kids the truth. It's all about users. The most reliable way to become a billionaire is to start a company that [grows fast](https://paulgraham.com/growth.html), and the way to grow fast is to make what users want. Newly started startups have no choice but to delight users, or they'll never even get rolling. But this never stops being the lodestar, and bigger companies take their eye off it at their peril. Stop delighting users, and eventually someone else will.",
+      "zhMarkdown": "我来告诉你它是怎么做到的，这样你至少可以告诉自己的孩子真相。这一切都取决于用户。成为亿万富翁最可靠的方法是创办一家[快速增长](https://paulgraham.com/growth.html)的公司，而快速增长的方法就是做出用户想要的东西。新创办的创业公司别无选择，只能让用户感到惊喜，否则它们甚至根本无法运转起来。但这永远不会停止作为指路明灯，大公司忽视这一点就会自食其果。一旦停止让用户满意，最终会有其他人取而代之。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "dc3e54c0d7f976d1ba6880d383c49045f2bfede9d4df907f0f89fda23c7254dd",
+      "enMarkdown": "Users are what the partners want to know about in YC interviews, and what I want to know about when I talk to founders that we funded ten years ago and who are billionaires now. What do users want? What new things could you build for them? Founders who've become billionaires are always eager to talk about that topic. That's how they became billionaires.",
+      "zhMarkdown": "用户是合伙人在 YC 面试中想要了解的对象，也是当我和十年前获得我们资助、如今已是亿万富翁的创始人交谈时，我想要了解的对象。用户想要什么？你能为他们构建什么新东西？成为亿万富翁的创始人总是渴望谈论这个话题。这就是他们成为亿万富翁的方式。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "6f4d68c32569a77d6ec4b9e624c22e7aa8357ce05987473038815796c77d3d50",
+      "enMarkdown": "[1] The YC partners have so much practice doing this that they sometimes see paths that the founders themselves haven't seen yet. The partners don't try to seem skeptical, as buyers in transactions often do to increase their leverage. Although the founders feel their job is to convince the partners of the potential of their idea, these roles are not infrequently reversed, and the founders leave the interview feeling their idea has more potential than they realized.",
+      "zhMarkdown": "[1] YC 合伙人在这方面有太多的实践经验，以至于他们有时能看到创始人自己尚未看到的路径。合伙人们不会像交易中的买家那样试图表现出怀疑态度，以此来增加自己的筹码。尽管创始人觉得自己的工作是说服合伙人相信自己点子的潜力，但这些角色经常互换，创始人离开面试时会觉得自己的点子比他们意识到的更有潜力。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "42074df416f50be1e0e6700b8a79d89b59932c2ac59664bf13b77b0927764340",
+      "enMarkdown": "[2] In practice, 7 minutes would be enough. You rarely change your mind at minute 8. But 10 minutes is socially convenient.",
+      "zhMarkdown": "[2] 在实际操作中，7 分钟就足够了。你很少会在第 8 分钟改变主意。但 10 分钟在社交上更方便。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "caaf058e73a4888cb324cbb07adbed36d6765056d9e46cc04032fd51dc36444a",
+      "enMarkdown": "[3] I myself took the first sufficiently large acquisition offer in my first startup, so I don't blame founders for doing this. There's nothing wrong with starting a startup to make money. You need to make money somehow, and for some people startups are the most efficient way to do it. I'm just saying that these are not the startups that get really big.",
+      "zhMarkdown": "[3] 我自己在我的第一家创业公司就接受了第一个足够大的收购邀约，所以我不会指责创始人这样做。为了赚钱而创办创业公司并没有错。你总得想办法赚钱，对某些人来说，创业公司是最有效的方式。我只是说，这些并不是能做得很庞大的创业公司。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "994d0d0db31c9de5ae0868bd6442924ca13232464ec66af7133a0b1fea8a4e19",
+      "enMarkdown": "[4] Not these days, anyway. There were some big ones during the Internet Bubble, and indeed some big IPOs.",
+      "zhMarkdown": "[4] 无论如何，这些天没有了。在互联网泡沫时期确实有一些大型收购，甚至还有一些大型 IPO。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "94487ac4608db91d39637b5170e914a899cd85a9a559ede3ef5f1d1060f81e96",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, Robert Morris, Geoff Ralston, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston、Robert Morris、Geoff Ralston 和 Harj Taggar 阅读了本文的草稿。"
+    }
+  ]
+}

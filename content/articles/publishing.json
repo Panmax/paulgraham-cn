@@ -1,0 +1,265 @@
+{
+  "slug": "publishing",
+  "titleEn": "Post-Medium Publishing",
+  "titleZh": "后媒介时代的出版业",
+  "dateText": "September 2009",
+  "publishedAt": "2009-09-01",
+  "sourceOrder": 111,
+  "sourceUrl": "https://paulgraham.com/publishing.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ffae0887d99273e7734ceb7ef00f9921daf006420532e446c47225a95c041b46",
+      "enMarkdown": "Publishers of all types, from news to music, are unhappy that consumers won't pay for content anymore. At least, that's how they see it.",
+      "zhMarkdown": "从新闻到音乐，各类出版商都在抱怨消费者不再愿意为内容买单。至少，在他们看来是这样的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "060001b3168f599d94fdc0e4bfb1ba10aba2e45c38464de949183f73ffe12041",
+      "enMarkdown": "In fact consumers never really were paying for content, and publishers weren't really selling it either. If the content was what they were selling, why has the price of books or music or movies always depended mostly on the format? Why didn't better content cost more? [[1](#f1n)]",
+      "zhMarkdown": "事实上，消费者从未真正为内容付过费，出版商也从未真正销售过内容。如果他们卖的是内容，为什么书籍、音乐或电影的价格总是主要取决于载体格式？为什么更好的内容没有卖得更贵？[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "f1eb8e6ad75fd2f0a0a2336103536c3ecae4aa956974d5a54792fadfa0d4ae33",
+      "enMarkdown": "A copy of *Time* costs $5 for 58 pages, or 8.6 cents a page. *The Economist* costs $7 for 86 pages, or 8.1 cents a page. Better journalism is actually slightly cheaper.",
+      "zhMarkdown": "一本 58 页的《时代》周刊售价 5 美元，合每页 8.6 美分。一本 86 页的《经济学人》售价 7 美元，合每页 8.1 美分。质量更高的新闻报道，实际上反而稍微便宜一点。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "1fad4df935f61bcac369d2d0fd413a3027b78b9a3e4301b3360d892666ddf6a8",
+      "enMarkdown": "Almost every form of publishing has been organized as if the medium was what they were selling, and the content was irrelevant. Book publishers, for example, set prices based on the cost of producing and distributing books. They treat the words printed in the book the same way a textile manufacturer treats the patterns printed on its fabrics.",
+      "zhMarkdown": "几乎所有形式的出版业在组织运作上，都把媒介当成了销售的产品，而把内容视作无关紧要的东西。以图书出版商为例，他们根据制作和分发图书的成本来定价。他们对待书里印的文字，就像纺织厂对待面料上印的花样一样。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c8432bac728f4b23f001d970b23697f1d9d5cd7950f4c66e1a0b82a06ff10700",
+      "enMarkdown": "Economically, the print media are in the business of marking up paper. We can all imagine an old-style editor getting a scoop and saying \"this will sell a lot of papers!\" Cross out that final S and you're describing their business model. The reason they make less money now is that people don't need as much paper.",
+      "zhMarkdown": "从经济学角度看，纸媒的本质是一门给纸张做加价的生意。我们都能想象一个老派编辑拿到独家新闻时会说：“这能帮我们卖掉好多报纸（papers）！”如果把最后一个“s”去掉（译注：指 paper，纸张），就一针见血地道出了他们的商业模式。他们现在赚不到钱的原因，仅仅是因为人们不再需要那么多纸了。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d0e18d8d8d35b84e709e4a353fee860320a63ed91e8b6961442f9091c744b0bf",
+      "enMarkdown": "A few months ago I ran into a friend in a cafe. I had a copy of the *New York Times*, which I still occasionally buy on weekends. As I was leaving I offered it to him, as I've done countless times before in the same situation. But this time something new happened. I felt that sheepish feeling you get when you offer someone something worthless. \"Do you, er, want a printout of yesterday's news?\" I asked. (He didn't.)",
+      "zhMarkdown": "几个月前，我在一家咖啡馆遇到了一个朋友。我手里拿着一份《纽约时报》，周末我偶尔还会买一份。临走时，我像以前无数次遇到这种情况一样，顺手要把报纸送给他。但这一次，发生了一件新鲜事。我心里突然升起一种送人无用之物时的尴尬感。“你，呃，想要一份昨天新闻的打印件吗？”我问道。（他没要。）"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "1d2115c0a76ee48b8cf5f4d01257a7fc2ab533a47eed3b2153a9394bb18d70a4",
+      "enMarkdown": "Now that the medium is evaporating, publishers have nothing left to sell. Some seem to think they're going to sell content—that they were always in the content business, really. But they weren't, and it's unclear whether anyone could be.",
+      "zhMarkdown": "如今，随着媒介的消逝，出版商已经没有什么可卖的了。有些人似乎认为他们可以转而销售内容——觉得自始至终，自己做的其实都是内容生意。但他们并非如此，而且目前也看不出有谁能把这门生意做成。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "e00c77cfc09163ca2039d018607d1ad21b3a439051096620a655421b4d346f86",
+      "enMarkdown": "**Selling**",
+      "zhMarkdown": "**销售**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d12a6ebc056c0d169c344248f4aaf9a01c4c3cce28079a6a530f4f8f350006d8",
+      "enMarkdown": "There have always been people in the business of selling information, but that has historically been a distinct business from publishing. And the business of selling information to consumers has always been a marginal one. When I was a kid there were people who used to sell newsletters containing stock tips, printed on colored paper that made them hard for the copiers of the day to reproduce. That is a different world, both culturally and economically, from the one publishers currently inhabit.",
+      "zhMarkdown": "世上一直都有靠卖信息赚钱的人，但在历史上，这与出版业是截然不同的两码事。而且，向普通消费者销售信息的生意一直都极为边缘。在我小时候，有人会出售包含股票内幕的通讯快报，印在彩色的纸上，这样当时的复印机就很难复印。无论从文化还是经济角度来看，那都与如今出版商所处的世界大相径庭。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "259f34f43cb5a14a535f494b78496ded908d9b12d6ebf5fe769c186ff53898e4",
+      "enMarkdown": "People will pay for information they think they can make money from. That's why they paid for those stock tip newsletters, and why companies pay now for Bloomberg terminals and Economist Intelligence Unit reports. But will people pay for information otherwise? History offers little encouragement.",
+      "zhMarkdown": "人们只愿意为那些他们认为能帮自己赚钱的信息付费。这就是为什么他们以前会买股票内幕快报，为什么现在企业会为彭博终端和《经济学人》智库报告付费。但除此之外，人们还会为信息付费吗？历史并没有给我们多少乐观的理由。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "030d9c1a593406628ee0ac4213cae207ab606fa61f1eca886424a822e2c22e38",
+      "enMarkdown": "If audiences were willing to pay more for better content, why wasn't anyone already selling it to them? There was no reason you couldn't have done that in the era of physical media. So were the print media and the music labels simply overlooking this opportunity? Or is it, rather, nonexistent?",
+      "zhMarkdown": "如果受众愿意为更好的内容付更多钱，为什么以前没人直接把内容卖给他们？在实体媒介时代，这么做并没有任何障碍。难道是纸媒和唱片公司当时都忽视了这个机会？还是说，这个机会根本就不存在？"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "c67191cd51d36cf50dd57eedbe96f7a9b28e37c4997e112f01b5b9a4dfe04f90",
+      "enMarkdown": "What about iTunes? Doesn't that show people will pay for content? Well, not really. iTunes is more of a tollbooth than a store. Apple controls the default path onto the iPod. They offer a convenient list of songs, and whenever you choose one they ding your credit card for a small amount, just below the threshold of attention. Basically, iTunes makes money by taxing people, not selling them stuff. You can only do that if you own the channel, and even then you don't make much from it, because a toll has to be ignorable to work. Once a toll becomes painful, people start to find ways around it, and that's pretty easy with digital content.",
+      "zhMarkdown": "那 iTunes 呢？这难道不证明了人们会为内容付费吗？其实不然。iTunes 更像是一个收费站，而不是一家商店。苹果控制了进入 iPod 的默认路径。他们提供了一个便利的歌曲列表，每当你选择一首，他们就会从你的信用卡里扣除一笔小钱，小到你根本不会注意到。基本上，iTunes 是通过向人们征税来赚钱，而不是卖东西。只有当你掌控了渠道时，你才能这么做，即便如此，你也不会赚到大钱，因为收费站必须让人感觉无关痛痒才能运作下去。一旦收费变得让人肉痛，人们就会开始寻找绕过它的方法，而在数字内容领域，这实在是太容易了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "9cdfc72ba061ce801ec0668639a5d06893372885f53282b3fcad57bc0aafd755",
+      "enMarkdown": "The situation is much the same with digital books. Whoever controls the device sets the terms. It's in their interest for content to be as cheap as possible, and since they own the channel, there's a lot they can do to drive prices down. Prices will fall even further once writers realize they don't need publishers. Getting a book printed and distributed is a daunting prospect for a writer, but most can upload a file.",
+      "zhMarkdown": "数字图书的情况也大同小异。谁控制了设备，谁就制定了规则。让内容尽可能便宜符合设备商的利益，既然他们掌控了渠道，就有太多手段可以把价格压下去。一旦作家们意识到自己根本不需要出版商，价格还会进一步下跌。对于作家来说，把书印出来并分发出去是一件难于登天的事，但绝大多数人都能轻松上传一个文件。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "5ecbd482eebb283a246a31099407d8ae1b7ffdf0ed599c5f8bc44c57a72a1b8b",
+      "enMarkdown": "Is software a counterexample? People pay a lot for desktop software, and that's just information. True, but I don't think publishers can learn much from software. Software companies can charge a lot because (a) many of the customers are businesses, who get in [trouble](http://www.bsa.org/country/News%20and%20Events/News%20Archives/en/2009/en-08312009-mueller.aspx?sc_lang=en) if they use pirated versions, and (b) though in form merely information, software is treated by both maker and purchaser as a different type of thing from a song or an article. A Photoshop user needs Photoshop in a way that no one needs a particular song or article.",
+      "zhMarkdown": "软件是一个反例吗？人们为桌面软件付了很多钱，而软件也只是信息。确实如此，但我认为出版商很难从软件行业学到什么。软件公司之所以能收高价，是因为：（a）很多客户是企业，如果使用盗版会惹上[官司](http://www.bsa.org/country/News%20and%20Events/News%20Archives/en/2009/en-08312009-mueller.aspx?sc_lang=en)；（b）虽然在形式上仅仅是信息，但软件在制作者和购买者眼里，都被视为一种与歌曲或文章完全不同的东西。Photoshop 用户对 Photoshop 的需求程度，是任何一首歌或一篇文章都无法比拟的。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "cec83436921247ee2c065368b95ead6079086d8fd501db0d6b7ea48b2e73bd5b",
+      "enMarkdown": "That's why there's a separate word, \"content,\" for information that's not software. Software is a different business. Software and content blur together in some of the most lightweight software, like casual games. But those are usually free. To make money the way software companies do, publishers would have to become software companies, and being publishers gives them no particular head start in that domain. [[2](#f2n)]",
+      "zhMarkdown": "这就是为什么对于非软件类的信息，会有一个专门的词叫作“内容”。软件是一门不同的生意。在一些最轻量级的软件（如休闲游戏）中，软件和内容之间的界限确实变得模糊了。但那些通常是免费的。出版商要想用软件公司的方式赚钱，自己就得变成软件公司，而在这一领域，出版商的身份并不能给他们带来任何先发优势。[[2](#f2n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "8379ef7df21eeb85ce94e6e0c670f4fd3225083efb5b464675690f76ff038451",
+      "enMarkdown": "The most promising countertrend is the premium cable channel. People still pay for those. But broadcasting isn't publishing: you're not selling a copy of something. That's one reason the movie business hasn't seen their revenues decline the way the news and music businesses have. They only have one foot in publishing.",
+      "zhMarkdown": "最显着的反向趋势是付费有线电视频道。人们现在依然在为此付费。但广播电视并不是出版业：你卖的不是某件东西的副本。这也是电影业的收入没有像新闻和音乐行业那样一落千丈的原因之一。他们只有一只脚迈进了出版业。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "55e8a1ef5a88a74c3bd5cbda827da09b9f7e3aa15f9c4903ba34dbd8f7286a4b",
+      "enMarkdown": "To the extent the movie business can avoid becoming publishers, they may avoid publishing's problems. But there are limits to how well they'll be able to do that. Once publishing—giving people copies—becomes the most natural way of distributing your content, it probably doesn't work to stick to old forms of distribution just because you make more that way. If free copies of your content are available online, then you're competing with publishing's form of distribution, and that's just as bad as being a publisher.",
+      "zhMarkdown": "只要电影业能避免成为出版商，他们或许就能避开出版业的困境。但他们能做到何种程度是有限的。一旦出版——即给人们提供副本——成为分发内容最自然的方式，那么仅仅因为旧渠道更赚钱而死守不放，恐怕是行不通的。如果网上能免费拿到你的内容副本，你就是在与出版式的分发渠道竞争，这和直接当一个出版商一样糟糕。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "565e8f452e1f897434345b5adaa7335278f74936e49bd205a25d9dbcbaa1aea1",
+      "enMarkdown": "Apparently some people in the music business hope to retroactively convert it away from publishing, by getting listeners to pay for subscriptions. It seems unlikely that will work if they're just streaming the same files you can get as mp3s.",
+      "zhMarkdown": "显然，音乐界的一些人希望能通过让听众付费订阅，来逆向改变音乐行业的出版属性。如果他们播放的只是那些你随手就能下载成 mp3 的相同文件，这种模式恐怕很难成功。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "0018a3da544856035f8a4627168b3c1d6bdb2642e571d02fc726055f3b585af2",
+      "enMarkdown": "**Next**",
+      "zhMarkdown": "**未来**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "716fbec8a7fa07beac924d229279661f7e10d4bf9b5923fae30edcf70aac83a7",
+      "enMarkdown": "What happens to publishing if you can't sell content? You have two choices: give it away and make money from it indirectly, or find ways to embody it in things people will pay for.",
+      "zhMarkdown": "如果内容卖不出去，出版业会变成什么样？你只有两个选择：要么免费提供内容并间接变现，要么设法将内容融入到人们愿意付钱的实体中。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f6dce81ed1e7fea22c82857faec488a9a8f12cad138cd217baed805a28136e53",
+      "enMarkdown": "The first is probably the future of most current media. [Give music\naway](http://thesixtyone.com) and make money from concerts and t-shirts. Publish articles for free and make money from one of a dozen permutations of advertising. Both publishers and investors are down on advertising at the moment, but it has more potential than they realize.",
+      "zhMarkdown": "第一种选择很可能是目前大多数媒体的未来。[免费赠送音乐](http://thesixtyone.com)，靠演唱会和 T 恤赚钱。免费发表文章，靠各种变体广告来赚钱。虽然出版商和投资者目前都不看好广告，但广告的潜力比他们想象的要大得多。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "1ffe978b0728958fabd203bf96697ef45d017a293eca4b6ee137f0f9e6c63b51",
+      "enMarkdown": "I'm not claiming that potential will be realized by the existing players. The [optimal](http://ycombinator.com/rfs1.html) ways to make money from the written word probably require different words written by different people.",
+      "zhMarkdown": "我并不是说现有的行业巨头能挖掘出这种潜力。靠文字赚钱的[最佳](http://ycombinator.com/rfs1.html)方式，可能需要不同的人写出完全不同的文字。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "93589b50af0d0426d99483675ded9a543b0d67eb62c68f4aea46500a7ac6459d",
+      "enMarkdown": "It's harder to say what will happen to movies. They could evolve into ads. Or they could return to their roots and make going to the theater a treat. If they made the experience good enough, audiences might start to prefer it to watching pirated movies at home. [[3](#f3n)] Or maybe the movie business will dry up, and the people working in it will go to work for game developers.",
+      "zhMarkdown": "电影的未来更难预测。它们可能会演变成广告。或者重回本源，让去影院看电影重新成为一种享受。如果他们能把体验做得足够好，观众或许会开始更愿意去影院，而不是在家里看盗版。[[3](#f3n)] 又或者电影业会逐渐萎缩，从业人员转行去为游戏开发商工作。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "ec616bdc78602ffe15bd54c07bfb17d1dd51bc0dddbca8f5b99d1a60691ae73f",
+      "enMarkdown": "I don't know how big embodying information in physical form will be. It may be surprisingly large; people overvalue [physical stuff](https://paulgraham.com/stuff.html). There should remain some market for printed books, at least.",
+      "zhMarkdown": "我不知道把信息融入物理实体这条路能走多宽。它可能会大得超乎想象；人们总是过分看重[实体的东西](https://paulgraham.com/stuff.html)。至少纸质书应该还能保留一定的市场。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "8ad5efcd5f499c4b44378753a2e01a3a3a09edad97c4104389a43435c4344744",
+      "enMarkdown": "I can see the evolution of book publishing in the books on my shelves. Clearly at some point in the 1960s the big publishing houses started to ask: how cheaply can we make books before people refuse to buy them? The answer turned out to be one step short of phonebooks. As long as it isn't floppy, consumers still perceive it as a book.",
+      "zhMarkdown": "从我书架上的藏书里，就能看出图书出版业的演变轨迹。显然，在 20 世纪 60 年代的某个时候，大型出版社开始琢磨：一本书粗制滥造到什么程度，人们才会拒绝购买？答案是：比电话簿稍微好一点点就行。只要书脊不是软塌塌的，消费者就依然觉得这是一本书。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "a4783f5a03efb84fc72bd2b3bf704804292be584e6b1d40397ae507bffa0ca48",
+      "enMarkdown": "That worked as long as buying printed books was the only way to read them. If printed books are optional, publishers will have to work harder to entice people to buy them. There should be some market, but it's hard to foresee how big, because its size will depend not on macro trends like the amount people read, but on the ingenuity of individual publishers. [[4](#f4n)]",
+      "zhMarkdown": "只要买纸质书是阅读它们的唯一途径，这种做法就一直管用。但如果纸质书成了可选可不选的东西，出版商就必须花更多心思来吸引人们购买。虽然还会保留一定的市场，但很难预测这个市场有多大，因为它的规模不取决于人们阅读量等宏观趋势，而是取决于各个出版商的创造力。[[4](#f4n)]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "ef9d685944cd6fa4139800aa0fdfa4f2b9c34e5b5c77b0983400a6c3e06cce26",
+      "enMarkdown": "Some magazines may thrive by focusing on the magazine as a physical object. Fashion magazines could be made lush in a way that would be hard to match digitally, at least for a while. But this is probably not an option for most magazines.",
+      "zhMarkdown": "一些杂志可能会通过将自身打造成精美的物理实体而存活下来。时尚杂志可以做得极其奢华，这种质感在数字端很难被复制，至少在短期内是这样。但对于大多数杂志来说，这恐怕不是一个可行的选项。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "a294c4cfbcf2332b1b01fa90514fe2d7d294a151e5e95650feecb980f657419c",
+      "enMarkdown": "I don't know exactly what the future will look like, but I'm not too worried about it. This sort of change tends to create as many good things as it kills. Indeed, the really interesting question is not what will happen to existing forms, but what new forms will appear.",
+      "zhMarkdown": "我无法确切预知未来会是什么样子，但我对此并不太担心。这种变革在消灭旧事物的同时，往往也会创造出同样多的好东西。事实上，真正有趣的问题不是现有的形式会发生什么变化，而是会出现什么样的新形式。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "9daba06ab2669fff4c53b2684ce2bb599bae053a272c300fc740989cc4b09995",
+      "enMarkdown": "The reason I've been writing about existing forms is that I don't *know* what new forms will appear. But though I can't predict specific winners, I can offer a recipe for recognizing them. When you see something that's taking advantage of new technology to give people something they want that they couldn't have before, you're probably looking at a winner. And when you see something that's merely reacting to new technology in an attempt to preserve some existing source of revenue, you're probably looking at a loser.",
+      "zhMarkdown": "我之所以一直在写现有的形式，是因为我不知道会出现什么新形式。不过，虽然我无法预测具体的赢家，但我可以提供一个识别它们的方法。当你看到某个东西利用新技术，给人们带来了他们以前无法得到却又想要的东西时，你很可能看到了一个赢家。而当你看到某个东西仅仅是在对新技术做出防御性反应，试图保住现有的某种收入来源时，你很可能看到了一个输家。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "f8f7852c99807e5e2f5437b81b05da113ea00a9e317d427baa443b8dccfd34d0",
+      "enMarkdown": "[1] I don't like the word \"content\" and tried for a while to avoid using it, but I have to admit there's no other word that means the right thing. \"Information\" is too general.",
+      "zhMarkdown": "[1] 我不喜欢“内容”（content）这个词，并曾试图极力避免使用它，但我不得不承认，没有其他词能准确表达其含义。“信息”这个词又太宽泛了。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "2de3b6b50c32197e01ddb86e526f521f850bcb777277aed588f8bf300e79b19e",
+      "enMarkdown": "Ironically, the main reason I don't like \"content\" is the thesis of this essay. The word suggests an undifferentiated slurry, but economically that's how both publishers and audiences treat it. Content is information you don't need.",
+      "zhMarkdown": "讽刺的是，我不喜欢“内容”的主要原因正是本文的论点。这个词暗示了一种毫无差别的糊状物，但从经济学角度看，出版商和受众也确实是这么对待它的。所谓内容，就是你并不真正需要的信息。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "c5b4c81997cc936472503a2696e5fcc5a9a1c692a7f5bbc316c99e22dc2b720d",
+      "enMarkdown": "[2] Some types of publishers would be at a disadvantage trying to enter the software business. Record labels, for example, would probably find it more natural to expand into casinos than software, because the kind of people who run them would be more at home at the mafia end of the business spectrum than the don't-be-evil end.",
+      "zhMarkdown": "[2] 某些类型的出版商如果想进入软件行业会处于劣势。例如，唱片公司可能会觉得进军赌场比进军软件业更自然，因为管理唱片公司的那帮人，在黑手党式的商业环境里会比在“不作恶”的环境里感觉更自在。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "9117cf28d7e3c0954793d2dcb2bcc34d974e5518756047393bed5f046255c452",
+      "enMarkdown": "[3] I never watch movies in theaters anymore. The tipping point for me was the ads they show first.",
+      "zhMarkdown": "[3] 我再也不去电影院看电影了。让我彻底放弃的临界点是放映前播放的那些广告。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "b1a596468f98e18ce39a2cfa06f809bb9826cf0202919b266403f70a455439dd",
+      "enMarkdown": "[4] Unfortunately, making physically nice books will only be a niche within a niche. Publishers are more likely to resort to expedients like selling autographed copies, or editions with the buyer's picture on the cover.",
+      "zhMarkdown": "[4] 遗憾的是，制作精美的实体书只能是小众中的小众。出版商更有可能求助于一些权宜之计，比如出售签名本，或者印有买家照片作为封面的版本。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "ceb0e51c9ed20dd4974ce79e97def2f442c982a3f1e58f6db5d35a8ac00e3860",
+      "enMarkdown": "**Thanks** to Michael Arrington, Trevor Blackwell, Steven Levy, Robert Morris, and Geoff Ralston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Michael Arrington、Trevor Blackwell、Steven Levy、Robert Morris 和 Geoff Ralston 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,839 @@
+{
+  "slug": "re",
+  "titleEn": "The Refragmentation",
+  "titleZh": "重新碎片化",
+  "dateText": "January 2016",
+  "publishedAt": "2016-01-01",
+  "sourceOrder": 61,
+  "sourceUrl": "https://paulgraham.com/re.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b88a698be4277f2130e499dfbfa4be22efff8d739009c0a4a3834266df4fde08",
+      "enMarkdown": "One advantage of being old is that you can see change happen in your lifetime. A lot of the change I've seen is fragmentation. US politics is much more polarized than it used to be. Culturally we have ever less common ground. The creative class flocks to a handful of happy cities, abandoning the rest. And increasing economic inequality means the spread between rich and poor is growing too. I'd like to propose a hypothesis: that all these trends are instances of the same phenomenon. And moreover, that the cause is not some force that's pulling us apart, but rather the erosion of forces that had been pushing us together.",
+      "zhMarkdown": "变老的一个好处是，你能亲眼见证历史的变迁。在我一生所见的变化中，很大一部分是“碎片化”（fragmentation）。美国的政治比过去更加两极分化；在文化上，我们的共同语言越来越少；创意阶层成群结队地涌向少数几个令人向往的城市，抛弃了其他地方；而不断加剧的经济不平等，意味着贫富差距也在持续拉大。我想提出一个假设：所有这些趋势其实都是同一种现象的体现。而且，导致这一现象的原因，并非某种将我们拉开的外力，而是曾经将我们推向一处的凝聚力的消退。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "acb449c78c5e9dd5af1471dbb0a600ab99a1ff65049c4db30b722215dbdaca15",
+      "enMarkdown": "Worse still, for those who worry about these trends, the forces that were pushing us together were an anomaly, a one-time combination of circumstances that's unlikely to be repeated — and indeed, that we would not want to repeat.",
+      "zhMarkdown": "更糟糕的是，对于那些担忧这些趋势的人来说，曾经将我们凝聚在一起的力量其实是一种反常现象，是特定历史环境下的一次性结合，很难再复制——而且说实话，我们也不会想去复制。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "3c0d0643706b83a8b014c22ea6673ef93a4cd081e38e4ff51f10d8f854a3ce71",
+      "enMarkdown": "The two forces were war (above all World War II), and the rise of large corporations.",
+      "zhMarkdown": "这两种凝聚力分别是：战争（尤其是二战），以及大型企业的崛起。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2de73b004df61d775b1da9f1385fd6e5c04c6c80a83319aeada8279a5fcfbe6c",
+      "enMarkdown": "The effects of World War II were both economic and social. Economically, it decreased variation in income. Like all modern armed forces, America's were socialist economically. From each according to his ability, to each according to his need. More or less. Higher ranking members of the military got more (as higher ranking members of socialist societies always do), but what they got was fixed according to their rank. And the flattening effect wasn't limited to those under arms, because the US economy was conscripted too. Between 1942 and 1945 all wages were set by the National War Labor Board. Like the military, they defaulted to flatness. And this national standardization of wages was so pervasive that its effects could still be seen years after the war ended. [[1](#f1n)]",
+      "zhMarkdown": "二战的影响兼具经济与社会层面。在经济上，它缩小了收入差距。像所有现代军队一样，美国的军队在经济上实行的是社会主义——各尽所能，按需分配，大体如此。军衔较高的人得到的多一些（就像社会主义社会里地位较高的人一样），但他们得到的报酬是根据军衔固定下来的。这种拉平效应并不局限于军人，因为美国整个经济体系当时也被征用了。在1942年到1945年之间，所有工资都由国家战争劳工委员会（National War Labor Board）制定。和军队一样，他们默认将工资标准拉平。这种全国性的工资标准化影响深远，以至于在战争结束多年后依然能看到其余波。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4da2370b811c90f39b3c8da5b9b56e1eb6278d7c71493100b472b691fad5b0fc",
+      "enMarkdown": "Business owners weren't supposed to be making money either. FDR said \"not a single war millionaire\" would be permitted. To ensure that, any increase in a company's profits over prewar levels was taxed at 85%. And when what was left after corporate taxes reached individuals, it was taxed again at a marginal rate of 93%. [[2](#f2n)]",
+      "zhMarkdown": "企业主也不被允许发战争财。罗斯福曾说，绝不允许出现“哪怕一个战争百万富翁”。为了确保这一点，企业利润只要超过战前水平，超出的部分就要征收85%的税。而当扣除企业税后的利润分配到个人手里时，还要面临高达93%的边际个人所得税。[[2](#f2n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "bca3cab1fb1434cf8ccf9f6f7c3e2dbec60ee552b67fcdc99330df9968cee7cd",
+      "enMarkdown": "Socially too the war tended to decrease variation. Over 16 million men and women from all sorts of different backgrounds were brought together in a way of life that was literally uniform. Service rates for men born in the early 1920s approached 80%. And working toward a common goal, often under stress, brought them still closer together.",
+      "zhMarkdown": "在社会层面，战争同样倾向于消除差异。超过1600万来自各种不同背景的男女被汇聚到一种真正“统一”（uniform，亦指制服）的生活方式中。出生于1920年代初期的男性，服役率接近80%。大家为了一个共同的目标而努力，而且往往处于高压之下，这让人们走得更近。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "770e58c0495fa4f5a900db6b39c7e20da14e6491513a1829285f9b9682c408c8",
+      "enMarkdown": "Though strictly speaking World War II lasted less than 4 years for the US, its effects lasted longer. Wars make central governments more powerful, and World War II was an extreme case of this. In the US, as in all the other Allied countries, the federal government was slow to give up the new powers it had acquired. Indeed, in some respects the war didn't end in 1945; the enemy just switched to the Soviet Union. In tax rates, federal power, defense spending, conscription, and nationalism, the decades after the war looked more like wartime than prewar peacetime. [[3](#f3n)] And the social effects lasted too. The kid pulled into the army from behind a mule team in West Virginia didn't simply go back to the farm afterward. Something else was waiting for him, something that looked a lot like the army.",
+      "zhMarkdown": "虽然严格来说二战对美国只持续了不到四年，但它的影响却要深远得多。战争会让中央政府变得更加强大，二战就是一个极端的例子。在美国，正如在其他同盟国一样，联邦政府迟迟不愿放弃其新获得的权力。事实上，在某些方面，战争并没有在1945年结束，只是敌人换成了苏联。在税率、联邦权力、国防开支、征兵制和民族主义方面，战后几十年的样子更像战时，而不是战前的和平时期。[[3](#f3n)] 社会效应也延续了下去。那个从西弗吉尼亚州赶着骡群被征召入伍的小伙子，战后并没有简单地回到农田。有别的东西在等着他，那是一个看起来和军队非常相似的地方。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d8dd3cc6c8adf67d962554adb89509e0dac75e4491a08158a638f0bd90295ddb",
+      "enMarkdown": "If total war was the big political story of the 20th century, the big economic story was the rise of a new kind of company. And this too tended to produce both social and economic cohesion. [[4](#f4n)]",
+      "zhMarkdown": "如果说全面战争是20世纪重大的政治故事，那么重大的经济故事就是一种新型公司的崛起。而这同样倾向于产生社会和经济上的凝聚力。[[4](#f4n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "46f09f9452e256cafa1eccf89b4bb2e65962f0c6424f65aaa2941558c8690c47",
+      "enMarkdown": "The 20th century was the century of the big, national corporation. General Electric, General Foods, General Motors. Developments in finance, communications, transportation, and manufacturing enabled a new type of company whose goal was above all scale. Version 1 of this world was low-res: a Duplo world of a few giant companies dominating each big market. [[5](#f5n)]",
+      "zhMarkdown": "20世纪是大型跨国企业的世纪。通用电气（General Electric）、通用食品（General Foods）、通用汽车（General Motors）。金融、通信、交通和制造业的发展，孕育出了一种以追求规模为首要目标的新型公司。这个世界的1.0版本是低分辨率的：一个由少数巨头公司统治每个主要市场的“乐高大颗粒”（Duplo）世界。[[5](#f5n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "7dfbec77c94ec68ebb95a1acf6d845531ac77962b0235ca25a9dd2560f02b202",
+      "enMarkdown": "The late 19th and early 20th centuries had been a time of consolidation, led especially by J. P. Morgan. Thousands of companies run by their founders were merged into a couple hundred giant ones run by professional managers. Economies of scale ruled the day. It seemed to people at the time that this was the final state of things. John D. Rockefeller said in 1880",
+      "zhMarkdown": "19世纪末和20世纪初是一个行业整合的时代，尤其是由J.P.摩根主导的。数千家由创始人经营的公司被合并成两百家由职业经理人管理的大型巨头。规模经济主宰了一切。当时的人们认为，这就是商业的终极形态。约翰·D·洛克菲勒在1880年曾说："
+    },
+    {
+      "id": 11,
+      "type": "quote",
+      "sourceHash": "2b0eb41aeb2929f5caf26fbcc1db0a211dc1bf17aa5b039ff5199a724f9158f2",
+      "enMarkdown": "> The day of combination is here to stay. Individualism has gone, never to return.",
+      "zhMarkdown": "> 联合的时代已经到来，且将永远存在。个人主义已经离去，永不复返。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "816bc0de891f2c7266231a501cbb9a0895a039ab2517edf72002b066cf8406f3",
+      "enMarkdown": "He turned out to be mistaken, but he seemed right for the next hundred years.",
+      "zhMarkdown": "事实证明他错了，但在接下来的100年里，他看起来是对的。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "e66eb58a27fdf21d62ea7d46cdf3fc846725aa89ff59074d1bba478ab01f12a2",
+      "enMarkdown": "The consolidation that began in the late 19th century continued for most of the 20th. By the end of World War II, as Michael Lind writes, \"the major sectors of the economy were either organized as government-backed cartels or dominated by a few oligopolistic corporations.\"",
+      "zhMarkdown": "始于19世纪末的整合在20世纪的大部分时间里都在持续。正如迈克尔·林德（Michael Lind）所写，到二战结束时，“经济的主要部门要么被组织为政府支持的卡特尔，要么被少数寡头垄断企业所主导。”"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "f605339cd87ce4615542d18726b4e4bdf61dbaeeadade930bcca6556e74fd4c1",
+      "enMarkdown": "For consumers this new world meant the same choices everywhere, but only a few of them. When I grew up there were only 2 or 3 of most things, and since they were all aiming at the middle of the market there wasn't much to differentiate them.",
+      "zhMarkdown": "对于消费者来说，这个新世界意味着到处都是相同的选择，而且选择寥寥。在我成长的时候，大多数东西都只有两三种牌子，而且因为它们都瞄准了大众市场的中间地带，所以彼此之间并没有太大的区别。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "ff291004c06080b60b27c840319dd8b4a18d3d984c761549c294c0249eb1d629",
+      "enMarkdown": "One of the most important instances of this phenomenon was in TV. Here there were 3 choices: NBC, CBS, and ABC. Plus public TV for eggheads and communists. The programs that the 3 networks offered were indistinguishable. In fact, here there was a triple pressure toward the center. If one show did try something daring, local affiliates in conservative markets would make them stop. Plus since TVs were expensive, whole families watched the same shows together, so they had to be suitable for everyone.",
+      "zhMarkdown": "这种现象最典型的例子之一就是电视。当时只有三个选择：NBC、CBS和ABC。再加上一个给知识分子和共产主义者看的公共电视台。这三大电视网提供的节目几乎毫无区别。事实上，这里存在着三重向中间靠拢的压力。如果某个节目敢于尝试一些大胆的内容，保守市场的当地加盟台就会出面制止。再加上当时的电视机很贵，全家人都坐在一起看同一个节目，所以节目必须老少皆宜。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "0d2534aa6a52665ed0ca1414fea111dfe9be3b690bbb5800935147053d084c8c",
+      "enMarkdown": "And not only did everyone get the same thing, they got it at the same time. It's difficult to imagine now, but every night tens of millions of families would sit down together in front of their TV set watching the same show, at the same time, as their next door neighbors. What happens now with the Super Bowl used to happen every night. We were literally in sync. [[6](#f6n)]",
+      "zhMarkdown": "不仅每个人看到的节目都一样，而且大家是在同一时间观看。现在很难想象，但当年每天晚上，成千上万的家庭会和他们的邻居一样，在同一时间围坐在电视机前观看同一个节目。现在只有超级碗才有的盛况，在当年每天晚上都在上演。我们在字面意义上是同步的。[[6](#f6n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4029b5ca6f2cfa06c5acdc55df8a3af80b3f4b07a848d1fceafd2de9392ddc98",
+      "enMarkdown": "In a way mid-century TV culture was good. The view it gave of the world was like you'd find in a children's book, and it probably had something of the effect that (parents hope) children's books have in making people behave better. But, like children's books, TV was also misleading. Dangerously misleading, for adults. In his autobiography, Robert MacNeil talks of seeing gruesome images that had just come in from Vietnam and thinking, we can't show these to families while they're having dinner.",
+      "zhMarkdown": "在某种程度上，世纪中叶的电视文化是有益的。它展现的世界就像儿童读物一样温和，而且可能起到了一定的作用（正如家长们所期望的那样），让人们表现得更有教养。但是，就像儿童读物一样，电视也具有误导性。对成年人来说，这种误导是危险的。罗伯特·麦克尼尔（Robert MacNeil）在自传中提到，当时看到刚刚从越南传回的惨烈画面时，他心想：我们不能在大家吃晚饭的时候播这个。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "957df6a6f144b0c5835288f53a190158b63409e63ad28db7f19c6434a298ff2c",
+      "enMarkdown": "I know how pervasive the common culture was, because I tried to opt out of it, and it was practically impossible to find alternatives. When I was 13 I realized, more from internal evidence than any outside source, that the ideas we were being fed on TV were crap, and I stopped watching it. [[7](#f7n)] But it wasn't just TV. It seemed like everything around me was crap. The politicians all saying the same things, the consumer brands making almost identical products with different labels stuck on to indicate how prestigious they were meant to be, the balloon-frame houses with fake \"colonial\" skins, the cars with several feet of gratuitous metal on each end that started to fall apart after a couple years, the \"red delicious\" apples that were red but only nominally apples. And in retrospect, it *was* crap. [[8](#f8n)]",
+      "zhMarkdown": "我知道这种主流文化的无孔不入，因为我曾试图脱离它，但发现几乎找不到替代方案。13岁时，我意识到（更多是凭直觉，而不是外界信息）我们在电视上被灌输的观念全都是垃圾，于是我不再看电视了。[[7](#f7n)] 但不仅仅是电视，我周围的一切似乎都很垃圾。政治家们说着千篇一律的话；消费品牌生产着几乎一模一样的产品，只贴上不同的标签来标榜高档；装有虚假“殖民风格”外壳的轻钢结构房屋；两端多出几英尺无用金属、开两三年就开始散架的汽车；还有红透了却只有苹果之名的“蛇果”（Red Delicious）。回过头来看，那确实*是*垃圾。[[8](#f8n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "f800d1ac5df72ae4ff6c6d8f662cef279daab67975a5ef824ecca90e495aafdc",
+      "enMarkdown": "But when I went looking for alternatives to fill this void, I found practically nothing. There was no Internet then. The only place to look was in the chain bookstore in our local shopping mall. [[9](#f9n)] There I found a copy of *The Atlantic*. I wish I could say it became a gateway into a wider world, but in fact I found it boring and incomprehensible. Like a kid tasting whisky for the first time and pretending to like it, I preserved that magazine as carefully as if it had been a book. I'm sure I still have it somewhere. But though it was evidence that there was, somewhere, a world that wasn't red delicious, I didn't find it till college.",
+      "zhMarkdown": "但当我试图寻找替代品来填补这个空白时，我几乎一无所获。那时还没有互联网。唯一能找的地方就是当地购物中心里的连锁书店。[[9](#f9n)] 在那里我买到了一本《大西洋月刊》（*The Atlantic*）。我多希望自己能说它成了我通往更广阔世界的门户，但实际上我觉得它既无聊又深奥。就像一个小孩子第一次尝到威士忌，假装自己很喜欢一样，我像对待宝贝一样保存着那本杂志。我相信我现在在某个地方还留着它。虽然它证明了在这个世界上，确实存在着一个不是“蛇果”的世界，但我直到上大学才真正找到它。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "054ecc06ff0a6cdf86478a3eccc3646777e3225e944e4c96ce4e8f80a6660822",
+      "enMarkdown": "It wasn't just as consumers that the big companies made us similar. They did as employers too. Within companies there were powerful forces pushing people toward a single model of how to look and act. IBM was particularly notorious for this, but they were only a little more extreme than other big companies. And the models of how to look and act varied little between companies. Meaning everyone within this world was expected to seem more or less the same. And not just those in the corporate world, but also everyone who aspired to it — which in the middle of the 20th century meant most people who weren't already in it. For most of the 20th century, working-class people tried hard to look middle class. You can see it in old photos. Few adults aspired to look dangerous in 1950.",
+      "zhMarkdown": "大公司不仅让我们作为消费者变得相似，作为雇员也是如此。在公司内部，有强大的力量推动人们走向单一的言行举止模式。IBM在这方面尤为臭名昭著，但他们其实也只是比其他大公司稍微极端一点点。而且不同公司之间的言行模式也大同小异。这意味着，在这个世界里的每个人都被期望看起来差不多。不仅是在企业界工作的人，还有所有向往企业界的人——在20世纪中叶，这几乎意味着当时还没进入企业界的绝大多数人。在20世纪的大部分时间里，工人阶级都在极力让自己看起来像中产阶级。你可以在老照片中看到这一点。在1950年，很少有成年人希望自己看起来像个危险人物。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "a9740414e669d7d2901e2dcbcfb6745729c0ad2f32551bc1a776ba41a09fc082",
+      "enMarkdown": "But the rise of national corporations didn't just compress us culturally. It compressed us economically too, and on both ends.",
+      "zhMarkdown": "但是，跨国企业的崛起不仅在文化上压缩了我们，在经济上也是如此，而且是从两端同时进行压缩。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "2829e79c1f4c82ce508039736e3e0b8ddb46de81f9595d6bb5802ff0470e3aac",
+      "enMarkdown": "Along with giant national corporations, we got giant national labor unions. And in the mid 20th century the corporations cut deals with the unions where they paid over market price for labor. Partly because the unions were monopolies. [[10](#f10n)] Partly because, as components of oligopolies themselves, the corporations knew they could safely pass the cost on to their customers, because their competitors would have to as well. And partly because in mid-century most of the giant companies were still focused on finding new ways to milk economies of scale. Just as startups rightly pay AWS a premium over the cost of running their own servers so they can focus on growth, many of the big national corporations were willing to pay a premium for labor. [[11](#f11n)]",
+      "zhMarkdown": "伴随着巨型跨国企业而来的，是巨型全国性工会。在20世纪中叶，企业与工会达成协议，支付了超出市场价的劳动力成本。部分原因是因为工会处于垄断地位；[[10](#f10n)] 部分原因是因为，作为寡头垄断的一部分，企业知道自己可以安全地把成本转嫁给客户，因为他们的竞争对手也必须这么做；还有部分原因是因为，在世纪中叶，大多数巨头公司仍专注于寻找榨取规模经济的新方法。就像今天的创业公司为了专注于增长，愿意向AWS支付高于自己运行服务器成本的溢价一样，当时的许多大型跨国企业也愿意为劳动力支付溢价。[[11](#f11n)]"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "5a488a649303018303e670832a297b99423037e4278ac4c3cfeb768247449de8",
+      "enMarkdown": "As well as pushing incomes up from the bottom, by overpaying unions, the big companies of the 20th century also pushed incomes down at the top, by underpaying their top management. Economist J. K. Galbraith wrote in 1967 that \"There are few corporations in which it would be suggested that executive salaries are at a maximum.\" [[12](#f12n)]",
+      "zhMarkdown": "20世纪的大公司不仅通过向工会过度支付来拉高底层的收入，还通过压低高管的薪酬来限制顶层的收入。经济学家J.K.加尔布雷斯（J. K. Galbraith）在1967年写道：“几乎没有哪家公司会认为高管的薪水已经达到了最大值。”[[12](#f12n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "988f9acd105471383aa3297ca2c954ee999eaa8a6b2b74d43aadd6041aa3f021",
+      "enMarkdown": "To some extent this was an illusion. Much of the de facto pay of executives never showed up on their income tax returns, because it took the form of perks. The higher the rate of income tax, the more pressure there was to pay employees upstream of it. (In the UK, where taxes were even higher than in the US, companies would even pay their kids' private school tuitions.) One of the most valuable things the big companies of the mid 20th century gave their employees was job security, and this too didn't show up in tax returns or income statistics. So the nature of employment in these organizations tended to yield falsely low numbers about economic inequality. But even accounting for that, the big companies paid their best people less than market price. There was no market; the expectation was that you'd work for the same company for decades if not your whole career. [[13](#f13n)]",
+      "zhMarkdown": "在某种程度上，这是一种幻觉。高管的大部分实际收入从未出现在他们的个人所得税申报单上，因为它们是以福利（perks）的形式存在的。所得税率越高，在税前支付员工福利的压力就越大。（在税率甚至比美国还要高的英国，公司甚至会帮高管支付子女的私立学校学费。）20世纪中叶大公司给员工最宝贵的东西之一是工作保障，而这同样不会体现在税单或收入统计中。因此，这些组织中的雇佣性质往往导致经济不平等的统计数据偏低。但即便考虑到这一点，大公司支付给最优秀人才的薪酬依然低于市场价格。当时根本没有市场可言，大家的预期是，你会在同一家公司工作几十年，甚至一辈子。[[13](#f13n)]"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "fd0bb0c1895b7d9d809e1eb5ecbc5c238509fc97ce3f32df80d1ec0e7d7f3bff",
+      "enMarkdown": "Your work was so illiquid there was little chance of getting market price. But that same illiquidity also encouraged you not to seek it. If the company promised to employ you till you retired and give you a pension afterward, you didn't want to extract as much from it this year as you could. You needed to take care of the company so it could take care of you. Especially when you'd been working with the same group of people for decades. If you tried to squeeze the company for more money, you were squeezing the organization that was going to take care of *them*. Plus if you didn't put the company first you wouldn't be promoted, and if you couldn't switch ladders, promotion on this one was the only way up. [[14](#f14n)]",
+      "zhMarkdown": "你的劳动极度缺乏流动性，因此几乎没有机会获得市场价。但正是这种缺乏流动性，也促使你不再去追求市场价。如果公司承诺雇用你直到退休，并在之后提供养老金，你自然不会想在今年榨干它。你需要照顾好公司，这样公司才能照顾好你。尤其是当你和同一群人共事了几十年。如果你试图压榨公司获得更多钱，你就是在压榨那个将要照顾*他们*的组织。此外，如果你不把公司放在第一位，你就不会获得晋升；如果你无法跳槽，那么在当前这架梯子上往上爬就是唯一的出路。[[14](#f14n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "30460f2f6e68d8163128447670d07a51b9e7f8250d3cc35a50b02fa0b3bef129",
+      "enMarkdown": "To someone who'd spent several formative years in the armed forces, this situation didn't seem as strange as it does to us now. From their point of view, as big company executives, they were high-ranking officers. They got paid a lot more than privates. They got to have expense account lunches at the best restaurants and fly around on the company's Gulfstreams. It probably didn't occur to most of them to ask if they were being paid market price.",
+      "zhMarkdown": "对于一个在军队中度过了人生塑形期的人来说，这种局面看起来并不像今天我们觉得的那样奇怪。在他们看来，作为大公司的高管，他们就是高级军官。他们的薪水比普通士兵高得多。他们可以在最好的餐厅吃报销的午餐，坐着公司的湾流飞机到处飞。他们中的大多数人可能根本不会去想自己拿的是不是市场价。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "8002b3f34f52e1701bc4183b48606c7ca7b624109cc5ab79cf87f4bf3eed72c4",
+      "enMarkdown": "The ultimate way to get market price is to work for yourself, by starting your own company. That seems obvious to any ambitious person now. But in the mid 20th century it was an alien concept. Not because starting one's own company seemed too ambitious, but because it didn't seem ambitious enough. Even as late as the 1970s, when I grew up, the ambitious plan was to get lots of education at prestigious institutions, and then join some other prestigious institution and work one's way up the hierarchy. Your prestige was the prestige of the institution you belonged to. People did start their own businesses of course, but educated people rarely did, because in those days there was practically zero concept of starting what we now call a [startup](https://paulgraham.com/growth.html): a business that starts small and grows big. That was much harder to do in the mid 20th century. Starting one's own business meant starting a business that would start small and stay small. Which in those days of big companies often meant scurrying around trying to avoid being trampled by elephants. It was more prestigious to be one of the executive class riding the elephant.",
+      "zhMarkdown": "获得市场价的终极方法是为自己工作——通过创办自己的公司。这在今天的任何有抱负的人看来都是显而易见的。但在20世纪中叶，这完全是个外来概念。不是因为创办自己的公司显得太有野心，而是因为这显得野心不够。甚至迟至1970年代我成长的时候，主流的精英路线还是在名校接受高等教育，然后加入另一家名声显赫的机构，在官僚等级制度中一步步往上爬。你的社会地位取决于你所属机构的地位。当然也有人自己创业，但受过良好教育的人很少这么做。因为在那个年代，几乎没有我们今天所说的[创业公司](https://paulgraham.com/growth.html)的概念：即一个从小做大、迅速扩张的企业。在20世纪中叶，这要困难得多。在当时，自己创业意味着开一家从小做大、然后保持小规模的生意。在那个大公司横行的时代，这往往意味着你得小心翼翼地四处奔波，以免被大象踩扁。成为骑在大象身上的管理阶层，显然要体面得多。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "c8eb22e552bda90331f696366857706ced0dd2f15d9bd1b0815920223a823c60",
+      "enMarkdown": "By the 1970s, no one stopped to wonder where the big prestigious companies had come from in the first place. It seemed like they'd always been there, like the chemical elements. And indeed, there was a double wall between ambitious kids in the 20th century and the origins of the big companies. Many of the big companies were roll-ups that didn't have clear founders. And when they did, the founders didn't seem like us. Nearly all of them had been uneducated, in the sense of not having been to college. They were what Shakespeare called rude mechanicals. College trained one to be a member of the professional classes. Its graduates didn't expect to do the sort of grubby menial work that Andrew Carnegie or Henry Ford started out doing. [[15](#f15n)]",
+      "zhMarkdown": "到了1970年代，已经没有人去琢磨这些名声显赫的大公司最初是从哪里来的了。它们看起来就像化学元素一样，自古以来就存在。事实上，在20世纪有野心的年轻人与这些大公司的起源之间，隔着双重屏障。许多大公司都是通过合并重组而来的，没有清晰的创始人。即便有，创始人也和我们不一样。他们几乎都没受过什么教育，也就是没上过大学。他们是莎士比亚笔下的“粗鄙手艺人”。大学训练人成为专业人士。大学毕业生不指望去做安德鲁·卡内基或亨利·福特白手起家时所做的那些卑微、粗重的体力活。[[15](#f15n)]"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "444a5bc9699646151ffee0f1c743e18d6a7cb51bd133facaf4df240a9e3e6f7f",
+      "enMarkdown": "And in the 20th century there were more and more college graduates. They increased from about 2% of the population in 1900 to about 25% in 2000. In the middle of the century our two big forces intersect, in the form of the GI Bill, which sent 2.2 million World War II veterans to college. Few thought of it in these terms, but the result of making college the canonical path for the ambitious was a world in which it was socially acceptable to work for Henry Ford, but not to be Henry Ford. [[16](#f16n)]",
+      "zhMarkdown": "而在20世纪，大学毕业生的比例越来越高。他们从1900年占总人口的2%左右，增长到2000年的25%左右。在世纪中叶，我们的两大凝聚力发生了交汇，具体表现为《退伍军人权利法案》（GI Bill），该法案资助了220万二战退伍军人上大学。很少有人从这个角度去思考，但将上大学作为有志青年通往成功的标准路径，其结果就是创造了一个“在社会层面上，为亨利·福特工作是可以接受的，但成为亨利·福特却不可接受”的世界。[[16](#f16n)]"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "0f44694957195ccc3b505cb9137ae0b253ee7d2c1daac923b4ab8ffe8a7608cd",
+      "enMarkdown": "I remember this world well. I came of age just as it was starting to break up. In my childhood it was still dominant. Not quite so dominant as it had been. We could see from old TV shows and yearbooks and the way adults acted that people in the 1950s and 60s had been even more conformist than us. The mid-century model was already starting to get old. But that was not how we saw it at the time. We would at most have said that one could be a bit more daring in 1975 than 1965. And indeed, things hadn't changed much yet.",
+      "zhMarkdown": "我非常清楚地记得那个世界。我成家立业之时，它才刚刚开始瓦解。在我的童年，它依然占据主导地位。虽然不像过去那样绝对。我们可以从老的电视节目、毕业纪念册以及大人们的行为中看出，1950和60年代的人比我们还要循规蹈矩。世纪中叶的模式已经开始显得陈旧。但我们当时并不是这么看的。我们最多只会说，1975年的人可以比1965年稍微大胆一点。事实上，当时的一切还没有发生太大变化。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "d558f8c2e9b16e2d77103d11ed65be557bad54452a717b82fbb8aaf0d1429415",
+      "enMarkdown": "But change was coming soon. And when the Duplo economy started to disintegrate, it disintegrated in several different ways at once. Vertically integrated companies literally dis-integrated because it was more efficient to. Incumbents faced new competitors as (a) markets went global and (b) technical innovation started to trump economies of scale, turning size from an asset into a liability. Smaller companies were increasingly able to survive as formerly narrow channels to consumers broadened. Markets themselves started to change faster, as whole new categories of products appeared. And last but not least, the federal government, which had previously smiled upon J. P. Morgan's world as the natural state of things, began to realize it wasn't the last word after all.",
+      "zhMarkdown": "但变革很快就到来了。当这种“乐高大颗粒”式的经济开始瓦解时，它是在好几个维度上同时发生的。垂直整合的公司开始“解体”（dis-integrate），因为这样效率更高。随着（a）市场走向全球化，以及（b）技术创新开始压倒规模经济，老牌巨头面临着新的竞争者，这也让规模从资产变成了累赘。随着以前狭窄的消费者渠道变宽，小公司越来越能够生存。随着全新类别的产品不断涌现，市场本身开始更快地变化。最后但同样重要的一点是，联邦政府——此前一直将J.P.摩根式的世界视为理所当然的自然状态——开始意识到，这其实并不是商业的终极形态。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "4a5d5540f6c21b323a5d783c6c7f96f42a8c91e1a9499c34f00a3a37bba22800",
+      "enMarkdown": "What J. P. Morgan was to the horizontal axis, Henry Ford was to the vertical. He wanted to do everything himself. The giant plant he built at River Rouge between 1917 and 1928 literally took in iron ore at one end and sent cars out the other. 100,000 people worked there. At the time it seemed the future. But that is not how car companies operate today. Now much of the design and manufacturing happens in a long supply chain, whose products the car companies ultimately assemble and sell. The reason car companies operate this way is that it works better. Each company in the supply chain focuses on what they know best. And they each have to do it well or they can be swapped out for another supplier.",
+      "zhMarkdown": "如果说J.P.摩根是横向整合的代表，那么亨利·福特就是纵向整合的化身。他想自己包揽一切。他在1917年到1928年间建造的庞大红河工厂（River Rouge），真正做到了在这一头运进铁矿石，在那一头把汽车开出去。当时有10万人在此工作。在那个时代，这看起来就是未来。但今天的汽车公司绝非如此运作。现在，大部分设计和制造都发生在漫长的供应链中，汽车公司最终只负责组装和销售。汽车公司之所以这样运作，是因为这种方式效果更好。供应链上的每家公司都专注于自己最擅长的事情。而且它们都必须做好，否则就会被其他供应商替换掉。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "99c46f755b6ba00da056b9fc5e4d52fd3fe2db128438774316150411a3ccb8c3",
+      "enMarkdown": "Why didn't Henry Ford realize that networks of cooperating companies work better than a single big company? One reason is that supplier networks take a while to evolve. In 1917, doing everything himself seemed to Ford the only way to get the scale he needed. And the second reason is that if you want to solve a problem using a network of cooperating companies, you have to be able to coordinate their efforts, and you can do that much better with computers. Computers reduce the transaction costs that Coase argued are the raison d'etre of corporations. That is a fundamental change.",
+      "zhMarkdown": "为什么亨利·福特没有意识到合作公司组成的网络比单一的大公司更有效率？一个原因在于，供应商网络需要时间去演化。在1917年，对福特来说，自己包揽一切是获得所需规模的唯一途径。第二个原因在于，如果你想用合作公司网络来解决问题，你必须能够协调它们的努力，而用计算机可以做得更好。计算机降低了交易成本，而科斯曾指出，交易成本正是企业存在的理由。这是一个根本性的变化。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "1ab6e6f1bdd01ed3774eb9b9403e411840a1cf0c1cd94689ab2b15bce2455218",
+      "enMarkdown": "In the early 20th century, big companies were synonymous with efficiency. In the late 20th century they were synonymous with inefficiency. To some extent this was because the companies themselves had become sclerotic. But it was also because our standards were higher.",
+      "zhMarkdown": "在20世纪初，大公司是高效率的代名词。而在20世纪末，它们成了低效率的代名词。在某种程度上，这是因为这些公司自身已经变得僵化。但也是因为我们的标准提高了。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "672a1ebcb6ee2639e54fdcdce1ccd0fc6af6a6f60ce70a9847493e46aec4364a",
+      "enMarkdown": "It wasn't just within existing industries that change occurred. The industries themselves changed. It became possible to make lots of new things, and sometimes the existing companies weren't the ones who did it best.",
+      "zhMarkdown": "变化不仅发生在现有行业内部，行业本身也发生了变化。制造许多新东西变得可能，而有时，现有的巨头公司并不是把这些新东西做得最好的那一个。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "70a3348988c42dccb59f91ee07699a85fba8d6bf2a3c27a351ffabf205ca78e6",
+      "enMarkdown": "Microcomputers are a classic example. The market was pioneered by upstarts like Apple. When it got big enough, IBM decided it was worth paying attention to. At the time IBM completely dominated the computer industry. They assumed that all they had to do, now that this market was ripe, was to reach out and pick it. Most people at the time would have agreed with them. But what happened next illustrated how much more complicated the world had become. IBM did launch a microcomputer. Though quite successful, it did not crush Apple. But even more importantly, IBM itself ended up being supplanted by a supplier coming in from the side — from software, which didn't even seem to be the same business. IBM's big mistake was to accept a non-exclusive license for DOS. It must have seemed a safe move at the time. No other computer manufacturer had ever been able to outsell them. What difference did it make if other manufacturers could offer DOS too? The result of that miscalculation was an explosion of inexpensive PC clones. Microsoft now owned the PC standard, and the customer. And the microcomputer business ended up being Apple vs Microsoft.",
+      "zhMarkdown": "微型计算机就是一个经典的例子。这个市场是由像苹果这样的后起之秀开拓的。当市场足够大时，IBM决定介入。当时IBM完全统治了计算机行业。他们认为，既然这个市场已经成熟，他们需要做的就是伸手摘取果实。当时的大多数人也会同意这一看法。但接下来发生的事情证明了世界已经变得多么复杂。IBM确实推出了一款微型计算机。虽然相当成功，但它并没有击败苹果。更重要的是，IBM最终被一个横插一杠的供应商取代了——这个供应商来自软件领域，在当时甚至看起来都不算同一种业务。IBM犯的最大错误是接受了DOS系统的非独占许可。在当时，这看起来是个安全的举动。没有其他计算机制造商能卖得过他们。如果其他制造商也能提供DOS系统，又有什么关系呢？而这一失算的结果是廉价兼容机（PC clones）的爆发。微软现在掌控了PC标准，也掌控了客户。微型计算机业务最终变成了苹果与微软的对决。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "eb3c576e0cc1724a82c35d062ec5c536508a2d1afe8120c99bcf0ad3b4a9afa5",
+      "enMarkdown": "Basically, Apple bumped IBM and then Microsoft stole its wallet. That sort of thing did not happen to big companies in mid-century. But it was going to happen increasingly often in the future.",
+      "zhMarkdown": "基本上，苹果撞了一下IBM，然后微软顺手偷走了它的钱包。这种事情在世纪中叶的大公司身上是绝不可能发生的。但在未来，这将会越来越频繁地发生。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "842e619371251edc6a2d619a01bd78f8b292edd1bcffc3d47f4ef108a681c10a",
+      "enMarkdown": "Change happened mostly by itself in the computer business. In other industries, legal obstacles had to be removed first. Many of the mid-century oligopolies had been anointed by the federal government with policies (and in wartime, large orders) that kept out competitors. This didn't seem as dubious to government officials at the time as it sounds to us. They felt a two-party system ensured sufficient competition in politics. It ought to work for business too.",
+      "zhMarkdown": "在计算机行业，变化大多是自然发生的。而在其他行业，必须先清除法律障碍。许多世纪中叶的寡头垄断企业都是由联邦政府通过政策（以及战争期间的大额订单）确立的，从而将竞争对手拒之门外。当时政府官员并不觉得这有什么不妥。他们觉得两党制确保了政治上的充分竞争，那么在商业上应该也行得通。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "01d003b3df9675919ea9e4de1ea416f8fabbf11001a0f86d39bd523c1481b4e1",
+      "enMarkdown": "Gradually the government realized that anti-competitive policies were doing more harm than good, and during the Carter administration it started to remove them. The word used for this process was misleadingly narrow: deregulation. What was really happening was de-oligopolization. It happened to one industry after another. Two of the most visible to consumers were air travel and long-distance phone service, which both became dramatically cheaper after deregulation.",
+      "zhMarkdown": "渐渐地，政府意识到反竞争政策弊大于利，并在卡特执政期间开始废除这些政策。用来形容这一过程的词汇具有误导性的局限：去监管（deregulation）。其实真正发生的是“去寡头垄断化”（de-oligopolization）。这在一个又一个行业发生。对消费者来说，最显而易见的两个行业是航空旅行和长途电话服务，它们在去监管后价格都大幅下降。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "62b651b0ade2e37222ebaa380d92982978fa00784e397c43890c768bc83adf00",
+      "enMarkdown": "Deregulation also contributed to the wave of hostile takeovers in the 1980s. In the old days the only limit on the inefficiency of companies, short of actual bankruptcy, was the inefficiency of their competitors. Now companies had to face absolute rather than relative standards. Any public company that didn't generate sufficient returns on its assets risked having its management replaced with one that would. Often the new managers did this by breaking companies up into components that were more valuable separately. [[17](#f17n)]",
+      "zhMarkdown": "去监管同样促成了1980年代的恶意收购浪潮。在过去，限制公司低效的唯一因素（只要没到真正破产的地步）就是竞争对手的低效。现在，公司必须面对绝对标准而非相对标准。任何未能产生足够资产回报的上市公司，都面临着管理层被取而代之的风险。新管理层通常会通过将公司拆分为各自更具价值的独立部分来实现这一目标。[[17](#f17n)]"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "3577007f9786a1efa8d3c1ff461a8a7f092f9db51d24102b9ced1eca8e026c43",
+      "enMarkdown": "Version 1 of the national economy consisted of a few big blocks whose relationships were negotiated in back rooms by a handful of executives, politicians, regulators, and labor leaders. Version 2 was higher resolution: there were more companies, of more different sizes, making more different things, and their relationships changed faster. In this world there were still plenty of back room negotiations, but more was left to market forces. Which further accelerated the fragmentation.",
+      "zhMarkdown": "国家经济的1.0版本由少数几个大版块组成，它们之间的关系是由少数高管、政治家、监管者和工会领袖在幕后谈判达成的。2.0版本则具有更高的分辨率：有了更多不同规模的公司，生产着更多不同的东西，而且它们之间的关系变化得更快。在这个世界上，依然有大量的幕后谈判，但更多的事情被留给了市场力量。这进一步加速了碎片化。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "5ce10588de14598f8a85f37c4d2ef0924f47d78c9f6eff25267a17b0eb08b484",
+      "enMarkdown": "It's a little misleading to talk of versions when describing a gradual process, but not as misleading as it might seem. There was a lot of change in a few decades, and what we ended up with was qualitatively different. The companies in the S&P 500 in 1958 had been there an average of 61 years. By 2012 that number was 18 years. [[18](#f18n)]",
+      "zhMarkdown": "用“版本”来描述一个渐进的过程可能有些误导，但并没有想象中那么严重。在短短几十年的时间里发生了巨大的变化，我们最终得到的东西在质上是不同的。1958年标普500指数中的公司，平均在榜时间为61年。而到了2012年，这个数字变成了18年。[[18](#f18n)]"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "7fbbbe9ab55f163b3f7a94b73536a9a05045e0c9efe1c9cdaf5e70d7a493f2e3",
+      "enMarkdown": "The breakup of the Duplo economy happened simultaneously with the spread of computing power. To what extent were computers a precondition? It would take a book to answer that. Obviously the spread of computing power was a precondition for the rise of startups. I suspect it was for most of what happened in finance too. But was it a precondition for globalization or the LBO wave? I don't know, but I wouldn't discount the possibility. It may be that the refragmentation was driven by computers in the way the industrial revolution was driven by steam engines. Whether or not computers were a precondition, they have certainly accelerated it.",
+      "zhMarkdown": "这种“乐高大颗粒”经济的解体与计算能力的普及是同步发生的。在多大程度上，计算机是这一变化的先决条件？这需要写一本书来回答。显然，计算能力的普及是创业公司崛起的先决条件。我怀疑对于金融界发生的大部分事情来说也是如此。但它是全球化或杠杆收购（LBO）浪潮的先决条件吗？我不知道，但我不会排除这种可能性。也许重新碎片化是由计算机驱动的，就像工业革命是由蒸汽机驱动的一样。无论计算机是不是先决条件，它们无疑都加速了这一进程。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "299fffdc32683f08c538882b68d59f6091e6ab37c0ac39aa35b82ebc557962f1",
+      "enMarkdown": "The new fluidity of companies changed people's relationships with their employers. Why climb a corporate ladder that might be yanked out from under you? Ambitious people started to think of a career less as climbing a single ladder than as a series of jobs that might be at different companies. More movement (or even potential movement) between companies introduced more competition in salaries. Plus as companies became smaller it became easier to estimate how much an employee contributed to the company's revenue. Both changes drove salaries toward market price. And since people vary dramatically in productivity, paying market price meant salaries started to diverge.",
+      "zhMarkdown": "公司之间新的流动性改变了人们与雇主的关系。为什么要爬一架随时可能被抽走的梯子？有抱负的人开始不再把职业生涯看作是攀爬单一的梯子，而是看作一系列可能在不同公司进行的工作。公司之间更多的流动（甚至潜在的流动）带来了更激烈的薪酬竞争。此外，随着公司规模变小，估算员工对公司收入的贡献变得更加容易。这两点变化都推动着薪酬向市场价格靠拢。由于人们的生产力差异巨大，支付市场价格意味着薪酬开始出现分化。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "640776d15cd0f588f9aa26b0678f4059612e480ae542cb776bbf800cbea0d9e8",
+      "enMarkdown": "By no coincidence it was in the early 1980s that the term \"yuppie\" was coined. That word is not much used now, because the phenomenon it describes is so taken for granted, but at the time it was a label for something novel. Yuppies were young professionals who made lots of money. To someone in their twenties today, this wouldn't seem worth naming. Why wouldn't young professionals make lots of money? But until the 1980s, being underpaid early in your career was part of what it meant to be a professional. Young professionals were paying their dues, working their way up the ladder. The rewards would come later. What was novel about yuppies was that they wanted market price for the work they were doing now.",
+      "zhMarkdown": "绝非巧合的是，“雅皮士”（yuppie）这个词诞生于1980年代初。现在这个词不怎么用了，因为其描述的现象已经变得如此理所当然，但在当时，它是一个新奇事物的标签。雅皮士是指赚大钱的年轻专业人士。对于今天二十多岁的人来说，这似乎不值一提。年轻的专业人士凭什么不能赚大钱？但在1980年代之前，职业生涯初期拿低薪是成为专业人士的代价之一。年轻的专业人士在“交学费”，一步步往上爬。回报要在以后才会到来。雅皮士的新奇之处在于，他们想要为自己现在所做的工作拿到市场价。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "bb54130e6733a9eed84f406542459e12711085d02852bc098ad69b580c47fb2e",
+      "enMarkdown": "The first yuppies did not work for startups. That was still in the future. Nor did they work for big companies. They were professionals working in fields like law, finance, and consulting. But their example rapidly inspired their peers. Once they saw that new BMW 325i, they wanted one too.",
+      "zhMarkdown": "第一批雅皮士并不在创业公司工作，那还是未来的事。他们也不在大公司工作。他们是在法律、金融和咨询等领域工作的专业人士。但他们的例子迅速启发了同龄人。一旦看到那辆崭新的宝马325i，他们也想拥有一辆。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "5fe02bced1d2da2d09715dc28a208e730a3b373908cc631908286b6d4622ff06",
+      "enMarkdown": "Underpaying people at the beginning of their career only works if everyone does it. Once some employer breaks ranks, everyone else has to, or they can't get good people. And once started this process spreads through the whole economy, because at the beginnings of people's careers they can easily switch not merely employers but industries.",
+      "zhMarkdown": "在职业生涯初期压低员工薪水，只有在大家都这么做的情况下才行得通。一旦有雇主打破常规，其他人就必须跟进，否则就招不到优秀的人。这个过程一旦开始，就会迅速蔓延到整个经济体，因为在职业生涯的初期，人们不仅可以轻易换雇主，还可以轻易换行业。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "b6933394b001228447b00aba20b7f1d1980a016faf9cf6e90f457ba4f531b916",
+      "enMarkdown": "But not all young professionals benefitted. You had to produce to get paid a lot. It was no coincidence that the first yuppies worked in fields where it was easy to measure that.",
+      "zhMarkdown": "但并非所有年轻专业人士都受益于此。你必须有产出才能拿到高薪。第一批雅皮士恰好工作在产出极易被量化的领域，这绝非偶然。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "51643cd49c8e411c6c92344bcccceaac2dfe0f1bd81acc52ceefb03df530edde",
+      "enMarkdown": "More generally, an idea was returning whose name sounds old-fashioned precisely because it was so rare for so long: that you could make your fortune. As in the past there were multiple ways to do it. Some made their fortunes by creating wealth, and others by playing zero-sum games. But once it became possible to make one's fortune, the ambitious had to decide whether or not to. A physicist who chose physics over Wall Street in 1990 was making a sacrifice that a physicist in 1960 didn't have to think about.",
+      "zhMarkdown": "更广泛地说，一个听起来有些过时的观念正在回归，而它之所以听起来过时，恰恰是因为它消失了太久：那就是你可以“白手起家致富”（make your fortune）。和过去一样，致富的途径有很多。有些人通过创造财富来致富，而另一些人则通过玩零和游戏来致富。但一旦白手起家致富成为可能，有抱负的人就必须决定要不要去追求。在1990年选择物理学而非华尔街的物理学家，所做出的牺牲是1960年的物理学家根本不需要考虑的。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "fc66b1f261ae94b02c34db8f2f3199ea6553934924e9fa1b8e18aee9a05c4683",
+      "enMarkdown": "The idea even flowed back into big companies. CEOs of big companies make more now than they used to, and I think much of the reason is prestige. In 1960, corporate CEOs had immense prestige. They were the winners of the only economic game in town. But if they made as little now as they did then, in real dollar terms, they'd seem like small fry compared to professional athletes and whiz kids making millions from startups and hedge funds. They don't like that idea, so now they try to get as much as they can, which is more than they had been getting. [[19](#f19n)]",
+      "zhMarkdown": "这种观念甚至反哺了大公司。大公司的CEO们现在的收入比过去多得多，我认为这很大程度上是因为“面子”（prestige）。在1960年，大公司CEO拥有极高的社会声望。他们是当时唯一的经济游戏中的获胜者。但如果他们现在的实际收入和当年一样，按实际美元计算，与那些通过创业公司和对冲基金赚取数百万美元的职业运动员和神童相比，他们就会显得像小角色。他们不喜欢这种感觉，所以现在他们极力争取更多，这也确实比他们以前得到的要多。[[19](#f19n)]"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "566556d19ca3152dfb5c2c9887d6a99b5f505d2f09e762b46a354632c4fef655",
+      "enMarkdown": "Meanwhile a similar fragmentation was happening at the other end of the economic scale. As big companies' oligopolies became less secure, they were less able to pass costs on to customers and thus less willing to overpay for labor. And as the Duplo world of a few big blocks fragmented into many companies of different sizes — some of them overseas — it became harder for unions to enforce their monopolies. As a result workers' wages also tended toward market price. Which (inevitably, if unions had been doing their job) tended to be lower. Perhaps dramatically so, if automation had decreased the need for some kind of work.",
+      "zhMarkdown": "与此同时，在经济天平的另一端，也发生着类似的碎片化。随着大公司的寡头垄断地位变得不再稳固，它们将成本转嫁给消费者的能力减弱，因此也就不那么愿意为劳动力支付过高的溢价。随着由少数大版块组成的“乐高”式世界碎片化为许多不同规模的公司——其中一些还在海外——工会越来越难以维持其垄断地位。结果，工人们的工资也趋向于市场价格。如果说工会以前确实起到了作用，那么现在的工资（不可避免地）趋向于变低。如果自动化减少了某种劳动的需求，这种下降可能会是戏剧性的。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "44fd729a1847b8a768aefb63b4cd23fcc45aab68272eac651a57b8d2a1fd57bd",
+      "enMarkdown": "And just as the mid-century model induced social as well as economic cohesion, its breakup brought social as well as economic fragmentation. People started to dress and act differently. Those who would later be called the \"creative class\" became more mobile. People who didn't care much for religion felt less pressure to go to church for appearances' sake, while those who liked it a lot opted for increasingly colorful forms. Some switched from meat loaf to tofu, and others to Hot Pockets. Some switched from driving Ford sedans to driving small imported cars, and others to driving SUVs. Kids who went to private schools or wished they did started to dress \"preppy,\" and kids who wanted to seem rebellious made a conscious effort to look disreputable. In a hundred ways people spread apart. [[20](#f20n)]",
+      "zhMarkdown": "正如世纪中叶的模式带来了社会和经济的凝聚一样，它的解体也带来了社会和经济的碎片化。人们开始有不同的穿着和行事方式。那些后来被称为“创意阶层”的人流动性更强。不怎么在乎宗教的人，不再为了面子而感到非得去教堂的压力；而非常喜欢宗教的人，则选择了形式日益多样的门派。有人从吃肉饼改吃豆腐，也有人改吃速冻食品（Hot Pockets）。有人不再开福特轿车，改开进口小车，也有人改开SUV。去私立学校或向往私立学校的孩子开始穿得像“常春藤预科生”（preppy），而想表现得叛逆的孩子则刻意让自己看起来不修边幅。人们在成百上千个维度上分道扬镳。[[20](#f20n)]"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "81184f327f6341785f3acbb129e1cf0f57d8ba7bcc21c570c289a29bbab6cfb8",
+      "enMarkdown": "Almost four decades later, fragmentation is still increasing. Has it been net good or bad? I don't know; the question may be unanswerable. Not entirely bad though. We take for granted the forms of fragmentation we like, and worry only about the ones we don't. But as someone who caught the tail end of mid-century [conformism](https://books.google.com/ngrams/graph?content=well-adjusted&year_start=1800&year_end=2000&corpus=15&smoothing=3), I can tell you it was no utopia. [[21](#f21n)]",
+      "zhMarkdown": "将近四十年过去了，碎片化依然在加剧。这到底是好是坏？我不知道，这个问题可能无法回答。但绝非全是坏事。我们对那些自己喜欢的碎片化形式习以为常，只去担忧那些不喜欢的。但作为一个经历过世纪中叶[从众主义](https://books.google.com/ngrams/graph?content=well-adjusted&year_start=1800&year_end=2000&corpus=15&smoothing=3)尾声的人，我可以告诉你，那绝不是什么乌托邦。[[21](#f21n)]"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "9063f40499593031e8fa28c016cedd138ad802b2acbfd1980e8c6621dc447385",
+      "enMarkdown": "My goal here is not to say whether fragmentation has been good or bad, just to explain why it's happening. With the centripetal forces of total war and 20th century oligopoly mostly gone, what will happen next? And more specifically, is it possible to reverse some of the fragmentation we've seen?",
+      "zhMarkdown": "我在这里的目的不是去评判碎片化是好是坏，而只是解释它为什么会发生。随着全面战争和20世纪寡头垄断这些向心力的基本消失，下一步会发生什么？更具体地说，我们看到的某些碎片化现象，有没有可能逆转？"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "8698caa36e302fa372fb5d38f36f3b7b944fa9a6be8d267afccf0fea2c9e34e7",
+      "enMarkdown": "If it is, it will have to happen piecemeal. You can't reproduce mid-century cohesion the way it was originally produced. It would be insane to go to war just to induce more national unity. And once you understand the degree to which the economic history of the 20th century was a low-res version 1, it's clear you can't reproduce that either.",
+      "zhMarkdown": "如果有可能，也必须是零星、渐进地发生。你不可能按原样复制世纪中叶的凝聚力。为了增强国家凝聚力而发动战争，那将是疯狂的。一旦你理解了20世纪的经济史在多大程度上是一个低分辨率的1.0版本，你就知道你同样无法复制它。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "35cb4a6b15fb469cb016aa92671f6404d6caa4915b2777c3a443610b227912f8",
+      "enMarkdown": "20th century cohesion was something that happened at least in a sense naturally. The war was due mostly to external forces, and the Duplo economy was an evolutionary phase. If you want cohesion now, you'd have to induce it deliberately. And it's not obvious how. I suspect the best we'll be able to do is address the symptoms of fragmentation. But that may be enough.",
+      "zhMarkdown": "20世纪的凝聚力，在某种意义上是自然发生的。战争主要源于外部力量，而“乐高”式经济是一个演化阶段。如果你现在想要凝聚力，你就必须刻意去引导。而如何引导并不明朗。我怀疑我们能做的最好的事情就是对症下药，缓解碎片化的症状。但这或许已经足够了。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "2c2489e95c59dfe0723446ee0ffdabb06964ba9a507a3465e5bfb836ec418e46",
+      "enMarkdown": "The form of fragmentation people worry most about lately is [economic inequality](https://paulgraham.com/ineq.html), and if you want to eliminate that you're up against a truly formidable headwind that has been in operation since the stone age. Technology.",
+      "zhMarkdown": "人们最近最担心的碎片化形式是[经济不平等](https://paulgraham.com/ineq.html)，如果你想消除它，你将面临一股自石器时代以来就一直在起作用的、极其强大的逆风。那就是技术。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "920eedc36f688a98281769eb1775da5219048b36f321972ad75085baf1963284",
+      "enMarkdown": "Technology is a lever. It magnifies work. And the lever not only grows increasingly long, but the rate at which it grows is itself increasing.",
+      "zhMarkdown": "技术是一个杠杆。它能放大劳动的成效。而这个杠杆不仅变得越来越长，而且它变长的速度本身也在加快。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "0ea7f932dd58caa4cb0839870c26fba8f7deae4718f0f255c8a01eb21f42acd9",
+      "enMarkdown": "Which in turn means the variation in the amount of wealth people can create has not only been increasing, but accelerating. The unusual conditions that prevailed in the mid 20th century masked this underlying trend. The ambitious had little choice but to join large organizations that made them march in step with lots of other people — literally in the case of the armed forces, figuratively in the case of big corporations. Even if the big corporations had wanted to pay people proportionate to their value, they couldn't have figured out how. But that constraint has gone now. Ever since it started to erode in the 1970s, we've seen the underlying forces at work again. [[22](#f22n)]",
+      "zhMarkdown": "这反过来意味着，人们所能创造的财富差距不仅在拉大，而且在加速拉大。20世纪中叶盛行的异常环境掩盖了这一底层趋势。有抱负的人几乎别无选择，只能加入大型组织，与其他人齐步走——在军队里是字面意义上的齐步走，在大公司里则是比喻意义上的。即便大公司想要根据员工的价值来支付报酬，他们也根本不知道该怎么计算。但这一限制现在已经不复存在。自从它在1970年代开始瓦解以来，我们已经看到这些底层力量再次发挥作用。[[22](#f22n)]"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "b4a59e4c6cfab0eda81dea7d5be93dbaf47eb4dba7e030adb90c9cb52e057363",
+      "enMarkdown": "Not everyone who gets rich now does it by creating wealth, certainly. But a significant number do, and the Baumol Effect means all their peers get dragged along too. [[23](#f23n)] And as long as it's possible to get rich by creating wealth, the default tendency will be for economic inequality to increase. Even if you eliminate all the other ways to get rich. You can mitigate this with subsidies at the bottom and taxes at the top, but unless taxes are high enough to discourage people from creating wealth, you're always going to be fighting a losing battle against increasing variation in productivity. [[24](#f24n)]",
+      "zhMarkdown": "当然，现在变富的人并不全是通过创造财富来实现的。但有相当一部分人确实是，而且“鲍莫尔效应”（Baumol Effect）意味着他们所有的同行也会被顺带着拉高身价。[[23](#f23n)] 只要通过创造财富致富依然可行，经济不平等的默认趋势就会是加剧。即便你消除了所有其他致富途径。你可以通过底层的补贴和顶层的税收来缓解这一点，但除非税率高到阻碍人们去创造财富，否则你将永远在与“生产力差距日益扩大”作一场注定失败的斗争。[[24](#f24n)]"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "88466e042658fbfd02992202f6bd4c4e9ffb64167c7772ff6dabbdb6109c39a0",
+      "enMarkdown": "That form of fragmentation, like the others, is here to stay. Or rather, back to stay. Nothing is forever, but the tendency toward fragmentation should be more forever than most things, precisely because it's not due to any particular cause. It's simply a reversion to the mean. When Rockefeller said individualism was gone, he was right for a hundred years. It's back now, and that's likely to be true for longer.",
+      "zhMarkdown": "这种形式的碎片化，和其他形式一样，将长期存在。或者更确切地说，是重新回归并长期存在。没有什么是永恒的，但碎片化的趋势应该比大多数事物更接近永恒，正是因为它并不是由某个特定原因造成的。它只是向均值回归。当洛克菲勒说个人主义已经离去时，他在接下来的100年里是对的。现在它回来了，而且这种状态可能会持续更久。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "8bbfeca15d28301426468a8b3028c683d39441738d80c748eee39ac5708dcdb2",
+      "enMarkdown": "I worry that if we don't acknowledge this, we're headed for trouble. If we think 20th century cohesion disappeared because of few policy tweaks, we'll be deluded into thinking we can get it back (minus the bad parts, somehow) with a few countertweaks. And then we'll waste our time trying to eliminate fragmentation, when we'd be better off thinking about how to mitigate its consequences.",
+      "zhMarkdown": "我担心如果我们不承认这一点，我们将会陷入麻烦。如果我们认为20世纪的凝聚力是因为几个政策微调而消失的，我们就会产生幻觉，认为我们可以通过几个相反的微调把它找回来（而且不知怎的还能去掉不好的部分）。然后，我们会把时间浪费在试图消除碎片化上，而实际上，我们最好去思考如何减轻它带来的后果。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "2e6ab9108de63e41997a3fe71792361caf6c400aef2147d672c03d0397a12b08",
+      "enMarkdown": "[1] Lester Thurow, writing in 1975, said the wage differentials prevailing at the end of World War II had become so embedded that they \"were regarded as 'just' even after the egalitarian pressures of World War II had disappeared. Basically, the same differentials exist to this day, thirty years later.\" But Goldin and Margo think market forces in the postwar period also helped preserve the wartime compression of wages — specifically increased demand for unskilled workers, and oversupply of educated ones.",
+      "zhMarkdown": "[1] 莱斯特·瑟罗（Lester Thurow）在1975年写道，二战结束时盛行的工资差距已经变得如此根深蒂固，以至于“即使在二战的平等主义压力消失之后，它们仍被认为是‘公正的’。基本上，三十年后的今天，同样的差距依然存在。”但戈尔丁（Goldin）和马戈（Margo）认为，战后时期的市场力量同样有助于维持战时的工资压缩——具体表现为对无技能工人的需求增加，以及受过教育的工人供过于求。\n\n（说来也怪，美国由雇主支付医疗保险的习俗，源于企业为了吸引工人而试图规避国家战争劳工委员会的工资管制。）"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "87a1a34860c396f4e81c8d907127bc220b9642b140cc4af6b0cc177039924d7c",
+      "enMarkdown": "(Oddly enough, the American custom of having employers pay for health insurance derives from efforts by businesses to circumvent NWLB wage controls in order to attract workers.)",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "daf5039fada7beee7e47691d9a0823f2ae270eb3790bc31ad5b59f2fbf18cffe",
+      "enMarkdown": "[2] As always, tax rates don't tell the whole story. There were lots of exemptions, especially for individuals. And in World War II the tax codes were so new that the government had little acquired immunity to tax avoidance. If the rich paid high taxes during the war it was more because they wanted to than because they had to.",
+      "zhMarkdown": "[2] 一如既往，税率并不能说明全部问题。当时存在很多免税条款，尤其是针对个人的。而且在二战时期，税法非常新，政府对避税行为几乎没有积累什么免疫力。如果富人在战争期间交了很高的税，更多是因为他们想交，而不是因为他们必须交。\n\n战后，联邦税收占GDP的比例与现在大致相同。事实上，自战争以来的整个时期，尽管税率发生了戏剧性的变化，税收占GDP的比例一直保持在18%左右。最低点发生在边际个人所得税率最高的时候：1950年为14.1%。看着这些数据，很难不得出这样的结论：税率对人们实际支付的税额影响甚微。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "46b30388f173c4cf5801ee8ca583f639e949299ba7ce6135bd6cd5bc9c9cc2af",
+      "enMarkdown": "After the war, federal tax receipts as a percentage of GDP were about the same as they are now. In fact, for the entire period since the war, tax receipts have stayed close to 18% of GDP, despite dramatic changes in tax rates. The lowest point occurred when marginal income tax rates were highest: 14.1% in 1950. Looking at the data, it's hard to avoid the conclusion that tax rates have had little effect on what people actually paid.",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "ebf8776fefc7e5c05775bd594ac60b5e045c8d84de3802c93032ffcc07276fb3",
+      "enMarkdown": "[3] Though in fact the decade preceding the war had been a time of unprecedented federal power, in response to the Depression. Which is not entirely a coincidence, because the Depression was one of the causes of the war. In many ways the New Deal was a sort of dress rehearsal for the measures the federal government took during wartime. The wartime versions were much more drastic and more pervasive though. As Anthony Badger wrote, \"for many Americans the decisive change in their experiences came not with the New Deal but with World War II.\"",
+      "zhMarkdown": "[3] 尽管事实上，在战争爆发前的十年里，为了应对大萧条，联邦权力达到了前所未有的高度。这并非完全是巧合，因为大萧条是战争爆发的原因之一。在许多方面，“新政”（New Deal）是联邦政府在战时所采取措施的一种彩排。不过，战时版本要剧烈得多，也普及得多。正如安东尼·巴杰（Anthony Badger）所写：“对许多美国人来说，他们经历的决定性转变并非来自新政，而是来自二战。”"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "42dc1c4ea5bae035e8f6abbb4821d505a38aaa0cdcc709894cceb3a98ca1d478",
+      "enMarkdown": "[4] I don't know enough about the origins of the world wars to say, but it's not inconceivable they were connected to the rise of big corporations. If that were the case, 20th century cohesion would have a single cause.",
+      "zhMarkdown": "[4] 我对两次世界大战的起源了解不够，无法下结论，但它们与大公司的崛起有联系并非不可想象。如果是这样的话，20世纪的凝聚力就只有一个根源。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "44940eb56c3d9e073a68c26b9acc3a6088b6ecff160cf48a063d6d3060973062",
+      "enMarkdown": "[5] More precisely, there was a bimodal economy consisting, in Galbraith's words, of \"the world of the technically dynamic, massively capitalized and highly organized corporations on the one hand and the hundreds of thousands of small and traditional proprietors on the other.\" Money, prestige, and power were concentrated in the former, and there was near zero crossover.",
+      "zhMarkdown": "[5] 更准确地说，当时存在一种双峰经济，用加尔布雷斯的话来说，包括“一方面是技术充满活力、资本雄厚、组织严密的公司，另一方面是成千上万的小型和传统个体经营者。”金钱、声望和权力都集中在前者，两者之间几乎没有任何交集。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "5f4486ad70de9eb993b83b3b4bb2871b24e32db44cf1f7f92dca092244c14255",
+      "enMarkdown": "[6] I wonder how much of the decline in families eating together was due to the decline in families watching TV together afterward.",
+      "zhMarkdown": "[6] 我在想，家庭一起吃晚饭的习惯减少，在多大程度上是因为之后一家人一起看电视的习惯减少了。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "5ad500758a9f3039a1c8e3234e3a56ef74562c20bd826b53ef7fb44e37aa77c0",
+      "enMarkdown": "[7] I know when this happened because it was the season Dallas premiered. Everyone else was talking about what was happening on Dallas, and I had no idea what they meant.",
+      "zhMarkdown": "[7] 我知道这是在什么时候发生的，因为那是电视剧《达拉斯》（Dallas）开播的季节。所有人都在讨论《达拉斯》里的剧情，而我完全不知道他们在说什么。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "f24cf7048e17ca1fd4a928323fb8dd9593e2533f6d8b6659698a0298c6411fcf",
+      "enMarkdown": "[8] I didn't realize it till I started doing research for this essay, but the meretriciousness of the products I grew up with is a well-known byproduct of oligopoly. When companies can't compete on price, they compete on tailfins.",
+      "zhMarkdown": "[8] 在我开始为这篇文章做研究之前，我并没有意识到，我成长过程中那些产品的华而不实其实是寡头垄断下众所周知的副产品。当公司无法在价格上竞争时，他们就会在汽车尾翼上竞争。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "ccf09e7bb2851751c1661ddf14e1103e834085f2477cff0ff2faa3c529b079a1",
+      "enMarkdown": "[9] Monroeville Mall was at the time of its completion in 1969 the largest in the country. In the late 1970s the movie *Dawn of\nthe Dead* was shot there. Apparently the mall was not just the location of the movie, but its inspiration; the crowds of shoppers drifting through this huge mall reminded George Romero of zombies. My first job was scooping ice cream in the Baskin-Robbins.",
+      "zhMarkdown": "[9] 莫罗维尔购物中心（Monroeville Mall）在1969年建成时是全国最大的购物中心。在1970年代末，电影《活死人黎明》（*Dawn of the Dead*）曾在此取景。显然，这个购物中心不仅是电影的拍摄地，更是其灵感来源；在这个巨大的购物中心里漂流的顾客人潮，让乔治·罗梅罗（George Romero）想起了丧尸。我的第一份工作就是在巴斯金-罗宾斯（Baskin-Robbins）挖冰淇淋。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "8436490867abf2fc399f1e6620052d66edcf0fca994da8c39d53eb42dccc3248",
+      "enMarkdown": "[10] Labor unions were exempted from antitrust laws by the Clayton Antitrust Act in 1914 on the grounds that a person's work is not \"a commodity or article of commerce.\" I wonder if that means service companies are also exempt.",
+      "zhMarkdown": "[10] 1914年的《克莱顿反垄断法》（Clayton Antitrust Act）将工会排除在反垄断法之外，理由是一个人的劳动不是“商品或商业物品”。我想知道这是否意味着服务型公司也可以免税。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "2b5a4985930758a6efec333441078b05b23f5892120f018d300ef2f902fd9b8f",
+      "enMarkdown": "[11] The relationships between unions and unionized companies can even be symbiotic, because unions will exert political pressure to protect their hosts. According to Michael Lind, when politicians tried to attack the A&P supermarket chain because it was putting local grocery stores out of business, \"A&P successfully defended itself by allowing the unionization of its workforce in 1938, thereby gaining organized labor as a constituency.\" I've seen this phenomenon myself: hotel unions are responsible for more of the political pressure against Airbnb than hotel companies.",
+      "zhMarkdown": "[11] 工会与工会化公司之间的关系甚至可以是共生的，因为工会会施加政治压力来保护他们的宿主。根据迈克尔·林德的说法，当政治家试图攻击A&P超市链，因为其导致当地杂货店倒闭时，“A&P通过在1938年允许其员工加入工会，成功捍卫了自己，从而获得了有组织的劳工力量作为其支持者。”我自己也见过这种现象：针对Airbnb的政治压力，更多来自酒店工会，而不是酒店公司。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "51c40a141d78e50f1a75e3ce30d73e72fc95e9fb16cbaa1316f642f593f3cabe",
+      "enMarkdown": "[12] Galbraith was clearly puzzled that corporate executives would work so hard to make money for other people (the shareholders) instead of themselves. He devoted much of *The New Industrial\nState* to trying to figure this out.",
+      "zhMarkdown": "[12] 加尔布雷斯显然很困惑，为什么公司高管会如此努力地为别人（股东）而不是为自己赚钱。他在《新工业国家》（*The New Industrial State*）中花了很大篇幅试图弄清楚这一点。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "b02129ed597bb399d021e0a764484afa4b0a5591fbfb4bfbf04afb16e7a5e9c2",
+      "enMarkdown": "His theory was that professionalism had replaced money as a motive, and that modern corporate executives were, like (good) scientists, motivated less by financial rewards than by the desire to do good work and thereby earn the respect of their peers. There is something in this, though I think lack of movement between companies combined with self-interest explains much of observed behavior.",
+      "zhMarkdown": "他的理论是，专业精神取代了金钱成为动力，而现代公司高管就像（优秀的）科学家一样，他们的动力与其说是财务回报，不如说是做好工作并以此赢得同行的尊重。这其中确实有一定的道理，尽管我认为公司之间缺乏流动性结合自身利益，能解释大部分被观察到的行为。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "3b69e2b27a278be081913222b6ecf3d01b4705656844c6d0e59bbb9cc45d4e81",
+      "enMarkdown": "[13] Galbraith (p. 94) says a 1952 study of the 800 highest paid executives at 300 big corporations found that three quarters of them had been with their company for more than 20 years.",
+      "zhMarkdown": "[13] 加尔布雷斯（第94页）提到，1952年对300家大公司中800位薪酬最高的高管进行的一项研究发现，其中四分之三的人在自己的公司工作了20年以上。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "a07f318b31ae3c76396c5af1b6b48a5fcfad799ccfffcb7ef48ae23479a6e44f",
+      "enMarkdown": "[14] It seems likely that in the first third of the 20th century executive salaries were low partly because companies then were more dependent on banks, who would have disapproved if executives got too much. This was certainly true in the beginning. The first big company CEOs were J. P. Morgan's hired hands.",
+      "zhMarkdown": "[14] 在20世纪前三分之一的时间里，高管薪酬偏低，部分原因可能是当时的公司更依赖银行，如果高管拿得太多，银行会不赞成。这在起步阶段确实如此。第一批大公司的CEO都是J.P.摩根雇来的帮手。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "69ae8f01957b41844d316fb35fbf3f590af306abe6dd518ee1a0344de7667f6c",
+      "enMarkdown": "Companies didn't start to finance themselves with retained earnings till the 1920s. Till then they had to pay out their earnings in dividends, and so depended on banks for capital for expansion. Bankers continued to sit on corporate boards till the Glass-Steagall act in 1933.",
+      "zhMarkdown": "直到1920年代，公司才开始用留存收益进行自我融资。在此之前，他们必须以股息的形式分配收益，因此在扩张资本上依赖银行。直到1933年《格拉斯-斯蒂格尔法案》（Glass-Steagall Act）出台，银行家们一直担任着公司的董事。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "198caaf079d1c6f37b5327ff74a5cee271dcc90a81325b30013e87e0498a3abf",
+      "enMarkdown": "By mid-century big companies funded 3/4 of their growth from earnings. But the early years of bank dependence, reinforced by the financial controls of World War II, must have had a big effect on social conventions about executive salaries. So it may be that the lack of movement between companies was as much the effect of low salaries as the cause.",
+      "zhMarkdown": "到世纪中叶，大公司四分之三的增长资金来自自身收益。但在早期对银行的依赖，加上二战时期的财务管制，必定对关于高管薪酬的社会习俗产生了巨大影响。因此，公司之间缺乏流动性，可能既是低薪水的结果，也是其原因。\n\n顺便说一句，1920年代转向用留存收益为增长融资，也是1929年崩盘的原因之一。银行现在必须寻找其他放贷对象，因此他们发放了更多的保证金贷款。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "7f145bff5f2254de3798efd1a2f4cab9b29f4bd9761d3767be1a890586745d66",
+      "enMarkdown": "Incidentally, the switch in the 1920s to financing growth with retained earnings was one cause of the 1929 crash. The banks now had to find someone else to lend to, so they made more margin loans.",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "b535b934f38db82ebc9dcac6739b78b0ba1b660304d8e3bd62f3bc5a6946d0d2",
+      "enMarkdown": "[15] Even now it's hard to get them to. One of the things I find hardest to get into the heads of would-be startup founders is how important it is to do certain kinds of menial work early in the life of a company. Doing [things that don't\nscale](https://paulgraham.com/ds.html) is to how Henry Ford got started as a high-fiber diet is to the traditional peasant's diet: they had no choice but to do the right thing, while we have to make a conscious effort.",
+      "zhMarkdown": "[15] 即使在现在，也很难让他们这么做。我发现最难让那些准创始人理解的事情之一，就是在公司创立初期，做某些卑微琐碎的工作有多么重要。做那些[无法规模化的事情](https://paulgraham.com/ds.html)，对于亨利·福特如何起步，就像高纤维饮食对于传统农民的饮食一样：他们别无选择，只能做正确的事，而我们必须做出自觉的努力。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "1f40b5a4da928cc5fe306b893236dcf71a7f0f3aa78f5321192623ed1754db1c",
+      "enMarkdown": "[16] Founders weren't celebrated in the press when I was a kid. \"Our founder\" meant a photograph of a severe-looking man with a walrus mustache and a wing collar who had died decades ago. The thing to be when I was a kid was an *executive*. If you weren't around then it's hard to grasp the cachet that term had. The fancy version of everything was called the \"executive\" model.",
+      "zhMarkdown": "[16] 在我小时候，媒体并不歌颂创始人。“我们的创始人”意味着一张照片，照片上是一位神情严肃、留着海象胡须、戴着翼状衣领的男人，他早在几十年前就去世了。在我小时候，最风光的职业是做一名“高管”（executive）。如果你当时不在场，很难理解这个词在当时所带有的光环。任何东西的奢华版本都被称为“行政”（executive）款。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "f20e1a37b60a37d82e97d53353df016b620d9b203832674d9f18a8f5e2791c4b",
+      "enMarkdown": "[17] The wave of hostile takeovers in the 1980s was enabled by a combination of circumstances: court decisions striking down state anti-takeover laws, starting with the Supreme Court's 1982 decision in Edgar v. MITE Corp.; the Reagan administration's comparatively sympathetic attitude toward takeovers; the Depository Institutions Act of 1982, which allowed banks and savings and loans to buy corporate bonds; a new SEC rule issued in 1982 (rule 415) that made it possible to bring corporate bonds to market faster; the creation of the junk bond business by Michael Milken; a vogue for conglomerates in the preceding period that caused many companies to be combined that never should have been; a decade of inflation that left many public companies trading below the value of their assets; and not least, the increasing complacency of managements.",
+      "zhMarkdown": "[17] 1980年代的恶意收购浪潮是由多种情况共同促成的：法院裁决推翻了州反收购法，始于最高法院1982年对Edgar v. MITE Corp.案的裁决；里根政府对收购持相对同情的态度；1982年的《存款机构法》（Depository Institutions Act），该法允许银行和储蓄贷款协会购买公司债券；美国证券交易委员会在1982年颁布的一项新规则（规则415），使得公司债券能够更快地推向市场；迈克尔·米尔肯（Michael Milken）开创的垃圾债券业务；前一时期对企业集团的狂热，导致许多本不该合并的公司被强行组合在一起；十年的通货膨胀导致许多上市公司的交易价格低于其资产价值；最后，同样重要的是，管理层日益滋生的自满情绪。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "7381988f679fc8d1f4bd054c447704549ae027f64dcd4bbc7b241ddceac48c30",
+      "enMarkdown": "[18] Foster, Richard. \"Creative Destruction Whips through Corporate America.\" Innosight, February 2012.",
+      "zhMarkdown": "[18] Foster, Richard. \"Creative Destruction Whips through Corporate America.\" Innosight, February 2012."
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "9e7e7ff49c9d56d6e6181b38e117c1925d3d340b4f217a57b21c5b613cbc9935",
+      "enMarkdown": "[19] CEOs of big companies may be overpaid. I don't know enough about big companies to say. But it is certainly not impossible for a CEO to make 200x as much difference to a company's revenues as the average employee. Look at what Steve Jobs did for Apple when he came back as CEO. It would have been a good deal for the board to give him 95% of the company. Apple's market cap the day Steve came back in July 1997 was 1.73 billion. 5% of Apple now (January 2016) would be worth about 30 billion. And it would not be if Steve hadn't come back; Apple probably wouldn't even exist anymore.",
+      "zhMarkdown": "[19] 大公司的CEO们可能确实拿了过高的薪水。我对大公司了解不够，无法下结论。但对于一个CEO来说，给公司收入带来的影响达到普通员工的200倍，这绝对不是不可能的。看看史蒂夫·乔布斯重返苹果担任CEO后所做的一切。对于董事会来说，即使分给他95%的公司股份也会是一笔划算的交易。在1997年7月史蒂夫回归的那天，苹果的市值是17.3亿美元。现在（2016年1月）苹果5%的股份价值约300亿美元。如果史蒂夫不回来，这一切都不会发生；苹果甚至可能已经不复存在了。\n\n仅仅把史蒂夫纳入样本，或许就足以回答“上市公司CEO总体上是否拿了过高薪酬”这个问题。这并不是一个投机取巧的把戏，因为你的持股越广泛，你越在乎的是整体情况。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "533776a6bf8e2984a404c41f91f09e4faa34542eec8827de79a258149543db32",
+      "enMarkdown": "Merely including Steve in the sample might be enough to answer the question of whether public company CEOs in the aggregate are overpaid. And that is not as facile a trick as it might seem, because the broader your holdings, the more the aggregate is what you care about.",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "226a4119e7f1426939ded38e6d121c7e8109d2a8ae6228ed291b2b4fedfcde65",
+      "enMarkdown": "[20] The late 1960s were famous for social upheaval. But that was more rebellion (which can happen in any era if people are provoked sufficiently) than fragmentation. You're not seeing fragmentation unless you see people breaking off to both left and right.",
+      "zhMarkdown": "[20] 1960年代后期以社会动荡而闻名。但这更多是叛逆（如果人们受到足够的刺激，在任何时代都会发生），而不是碎片化。除非你看到人们同时向左和向右分化，否则你看到的就不是碎片化。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "abe9249d9c806fd6ff7865e6226a9b6c73eb88bb46050e2cc6161f48aaefe7a9",
+      "enMarkdown": "[21] Globally the trend has been in the other direction. While the US is becoming more fragmented, the world as a whole is becoming less fragmented, and mostly in good ways.",
+      "zhMarkdown": "[21] 从全球来看，趋势正相反。虽然美国正变得更加碎片化，但整个世界正在变得不那么碎片化，而且大多是以好的方式。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "e487d423a3b3dd9a949c7e4035167a2816dbbf2b4f6d5e65638fd0645a30ba83",
+      "enMarkdown": "[22] There were a handful of ways to make a fortune in the mid 20th century. The main one was drilling for oil, which was open to newcomers because it was not something big companies could dominate through economies of scale. How did individuals accumulate large fortunes in an era of such high taxes? Giant tax loopholes defended by two of the most powerful men in Congress, Sam Rayburn and Lyndon Johnson.",
+      "zhMarkdown": "[22] 在20世纪中叶，白手起家致富的途径寥寥无几。最主要的途径是开采石油，这向新来者开放，因为这并不是大公司可以通过规模经济来主导的领域。在税率如此之高的时代，个人是如何积累巨额财富的？通过国会中两位最有权势的人物萨姆·雷伯恩（Sam Rayburn）和林登·约翰逊（Lyndon Johnson）所维护的巨型税收漏洞。\n\n但在1950年，成为德克萨斯石油大亨并不是一个普通人可以憧憬的职业，就像2000年创办创业公司或去华尔街工作那样，因为（a)这有很强的地域局限，并且（b)成功在很大程度上取决于运气。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "464ba7e50d5541800ecf60e9c67e3c4fe89d8f50759cae19308dcc57b1d5117a",
+      "enMarkdown": "But becoming a Texas oilman was not in 1950 something one could aspire to the way starting a startup or going to work on Wall Street were in 2000, because (a) there was a strong local component and (b) success depended so much on luck.",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "8e0423379351fc865e2f5a5c5e42a77b8e360e2ca1bc87ea60ddeb98fa9f7c2c",
+      "enMarkdown": "[23] The Baumol Effect induced by startups is very visible in Silicon Valley. Google will pay people millions of dollars a year to keep them from leaving to start or join startups.",
+      "zhMarkdown": "[23] 由创业公司引起的“鲍莫尔效应”在硅谷非常明显。谷歌每年会支付给员工数百万美元，以防止他们离职去创办或加入创业公司。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "c9d7a6c2af62b87e4641988c4bef07c423e5a826bc9e0ea7c486f28d8a00a5f8",
+      "enMarkdown": "[24] I'm not claiming variation in productivity is the only cause of economic inequality in the US. But it's a significant cause, and it will become as big a cause as it needs to, in the sense that if you ban other ways to get rich, people who want to get rich will use this route instead.",
+      "zhMarkdown": "[24] 我并不是说生产力差距是美国经济不平等的唯一原因。但这是一个重要原因，而且它会根据需要变得足够重要，也就是说，如果你禁止了其他致富途径，那些想要变富的人就会改走这条路。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "600a163f43e7396e6a587cd3c3c0bc7b97b4bfa4914aa149990846565954b452",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Paul Buchheit, Patrick Collison, Ron Conway, Chris Dixon, Benedict Evans, Richard Florida, Ben Horowitz, Jessica Livingston, Robert Morris, Tim O'Reilly, Geoff Ralston, Max Roser, Alexia Tsotsis, and Qasar Younis for reading drafts of this. Max also told me about several valuable sources.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Paul Buchheit、Patrick Collison、Ron Conway、Chris Dixon、Benedict Evans、Richard Florida、Ben Horowitz、Jessica Livingston、Robert Morris、Tim O'Reilly、Geoff Ralston、Max Roser、Alexia Tsotsis 和 Qasar Younis 阅读了本文的草稿。Max 还向我提供了几个宝贵的资料来源。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "0b6563c8152b770e610db9b6780443b5ac16af4d639f00095de145bdc8e9cf7d",
+      "enMarkdown": "**Bibliography**",
+      "zhMarkdown": "**参考文献**"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "2814d4f55c7c4a961fc7bc046697bcfc60fb7b62aee8357d6fdd0184307a193f",
+      "enMarkdown": "Allen, Frederick Lewis. *The Big Change*. Harper, 1952.",
+      "zhMarkdown": "Allen, Frederick Lewis. *The Big Change*. Harper, 1952."
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "a9885c9f3bf536606faa972c0333d1a8ec40b8ec0b68d92dbcf4a6d9f8ee0b44",
+      "enMarkdown": "Averitt, Robert. *The Dual Economy*. Norton, 1968.",
+      "zhMarkdown": "Averitt, Robert. *The Dual Economy*. Norton, 1968."
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "f669721d2b1804a7382620c8ca0ce5b3e3b1e7ef7e22e13400f4d746d6bef1ad",
+      "enMarkdown": "Badger, Anthony. *The New Deal*. Hill and Wang, 1989.",
+      "zhMarkdown": "Badger, Anthony. *The New Deal*. Hill and Wang, 1989."
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "14d592c63669621e4297e07c8ecc7d724130743419d455bfe0ccfbabcfa919de",
+      "enMarkdown": "Bainbridge, John. *The Super-Americans*. Doubleday, 1961.",
+      "zhMarkdown": "Bainbridge, John. *The Super-Americans*. Doubleday, 1961."
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "4f48147dfe21821fadbacbe369bce375082363dcdc6a64188f64d96e52114eee",
+      "enMarkdown": "Beatty, Jack. *Collossus*. Broadway, 2001.",
+      "zhMarkdown": "Beatty, Jack. *Collossus*. Broadway, 2001."
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "abef397e26b79f806f23b0424a31da97ba15a98d3aaf14c309132ab6ef3efc5b",
+      "enMarkdown": "Brinkley, Douglas. *Wheels for the World*. Viking, 2003.",
+      "zhMarkdown": "Brinkley, Douglas. *Wheels for the World*. Viking, 2003."
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "c7480be39f522f018e1553ef9551e6dc77581bb5f310adf02f2ddc5e77754beb",
+      "enMarkdown": "Brownleee, W. Elliot. *Federal Taxation in America*. Cambridge, 1996.",
+      "zhMarkdown": "Brownleee, W. Elliot. *Federal Taxation in America*. Cambridge, 1996."
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "f746f33976f83f046b9c014e961e09e0b2dc2ae4d31135df6cd3809b7d3e435b",
+      "enMarkdown": "Chandler, Alfred. *The Visible Hand*. Harvard, 1977.",
+      "zhMarkdown": "Chandler, Alfred. *The Visible Hand*. Harvard, 1977."
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "8d72cdb68c3364947d064982f3dbb7612b971dff1554f0916d11076529ae7081",
+      "enMarkdown": "Chernow, Ron. *The House of Morgan*. Simon & Schuster, 1990.",
+      "zhMarkdown": "Chernow, Ron. *The House of Morgan*. Simon & Schuster, 1990."
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "39632bb6494d36591602255b4f7d69be93df9efafc72d15287e86924c319234e",
+      "enMarkdown": "Chernow, Ron. *Titan: The Life of John D. Rockefeller*. Random House, 1998.",
+      "zhMarkdown": "Chernow, Ron. *Titan: The Life of John D. Rockefeller*. Random House, 1998."
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "ee760209495c7bd3342a950b4d97ef9e5f6c895bc5ce986d9c3a3dad78f0a841",
+      "enMarkdown": "Galbraith, John. *The New Industrial State*. Houghton Mifflin, 1967.",
+      "zhMarkdown": "Galbraith, John. *The New Industrial State*. Houghton Mifflin, 1967."
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "sourceHash": "25ee1c1d3f7fa640eb6afeffba36473ba4a6d803fd2ec7c776f03b3f26323dc1",
+      "enMarkdown": "Goldin, Claudia and Robert A. Margo. \"The Great Compression: The Wage Structure in the United States at Mid-Century.\" NBER Working Paper 3817, 1991.",
+      "zhMarkdown": "Goldin, Claudia and Robert A. Margo. \"The Great Compression: The Wage Structure in the United States at Mid-Century.\" NBER Working Paper 3817, 1991."
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "206b5602d482c209a7e5ed0dadd18c96e071628d82f9e1f53771331609664cb1",
+      "enMarkdown": "Gordon, John. *An Empire of Wealth*. HarperCollins, 2004.",
+      "zhMarkdown": "Gordon, John. *An Empire of Wealth*. HarperCollins, 2004."
+    },
+    {
+      "id": 111,
+      "type": "paragraph",
+      "sourceHash": "647e332003a9625ea908b3fb3be703fe488c167a2d23ad0a401890b8b2350e6b",
+      "enMarkdown": "Klein, Maury. *The Genesis of Industrial America, 1870-1920*. Cambridge, 2007.",
+      "zhMarkdown": "Klein, Maury. *The Genesis of Industrial America, 1870-1920*. Cambridge, 2007."
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "b9fd0b87f48ce9c7ccfa478baffec7b4b1575eff3ff75582da595e1c25ac8011",
+      "enMarkdown": "Lind, Michael. *Land of Promise*. HarperCollins, 2012.",
+      "zhMarkdown": "Lind, Michael. *Land of Promise*. HarperCollins, 2012."
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "sourceHash": "da07975b9a905d3764b05404bfe4799aafbb98ba7b0d22a63d79286f5bf38989",
+      "enMarkdown": "Mickelthwaite, John, and Adrian Wooldridge. *The Company*. Modern Library, 2003.",
+      "zhMarkdown": "Mickelthwaite, John, and Adrian Wooldridge. *The Company*. Modern Library, 2003."
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "a0de4c2b6fd0af98fe62e5a4b3da169861d4f0d85874acb7a09e782ca97bbc5c",
+      "enMarkdown": "Nasaw, David. *Andrew Carnegie*. Penguin, 2006.",
+      "zhMarkdown": "Nasaw, David. *Andrew Carnegie*. Penguin, 2006."
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "sourceHash": "410e8c413be2f6b978b85922888a868dfe37d095e59c8cdb19dff4cb1ea708b1",
+      "enMarkdown": "Sobel, Robert. *The Age of Giant Corporations*. Praeger, 1993.",
+      "zhMarkdown": "Sobel, Robert. *The Age of Giant Corporations*. Praeger, 1993."
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "bfce0f3b15e8bdbde81b52c9c55f3092fce5800887a72cbd927d896df00ee46d",
+      "enMarkdown": "Thurow, Lester. *Generating Inequality: Mechanisms of Distribution*. Basic Books, 1975.",
+      "zhMarkdown": "Thurow, Lester. *Generating Inequality: Mechanisms of Distribution*. Basic Books, 1975."
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "e076962f359db1a7f8742dedcf90800e10db2932825848c3f7f12bb36cc0a35b",
+      "enMarkdown": "Witte, John. *The Politics and Development of the Federal Income\nTax*. Wisconsin, 1985.",
+      "zhMarkdown": "Witte, John. *The Politics and Development of the Federal Income Tax*. Wisconsin, 1985."
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "44f2efebd4ecadb579a8d1ef2f48651513e02509cd86de59ae335d4103a67110",
+      "enMarkdown": "**Related:**",
+      "zhMarkdown": "**相关阅读：**"
+    }
+  ]
+}

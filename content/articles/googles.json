@@ -1,0 +1,216 @@
+{
+  "slug": "googles",
+  "titleEn": "Why There Aren't More Googles",
+  "titleZh": "为什么没有出现更多的 Google",
+  "dateText": "April 2008",
+  "publishedAt": "2008-04-01",
+  "sourceOrder": 138,
+  "sourceUrl": "https://paulgraham.com/googles.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "0589f0d3c1e48ca051b7b5ff79dce41c84f732fdd69e938bef62d1584a82d0ea",
+      "enMarkdown": "Umair Haque [wrote](http://discussionleader.hbsp.com/haque/2008/04/i_agree_and_i.html) recently that the reason there aren't more Googles is that most startups get bought before they can change the world.",
+      "zhMarkdown": "Umair Haque 最近[写道](http://discussionleader.hbsp.com/haque/2008/04/i_agree_and_i.html)，之所以没有出现更多的 Google，是因为大多数创业公司在改变世界之前就被收购了。"
+    },
+    {
+      "id": 2,
+      "type": "quote",
+      "sourceHash": "b3654ef0f4878a7d736a9870ebf3c970301077474e412378576eb012b97f2839",
+      "enMarkdown": "> Google, despite serious interest from Microsoft and Yahoo—what must have seemed like lucrative interest at the time—didn't sell out. Google might simply have been nothing but Yahoo's or MSN's search box.\n> \n> Why isn't it? Because Google had a deeply felt sense of purpose: a conviction to change the world for the better.",
+      "zhMarkdown": "> 尽管微软和雅虎对 Google 表现出了浓厚的兴趣——在当时看来，这无疑是极具诱惑力的开价——但 Google 并没有卖掉自己。否则，Google 今天可能仅仅是雅虎或 MSN 的一个搜索框。\n> \n> 为什么没有变成那样？因为 Google 有着强烈的使命感：一种让世界变得更美好的信念。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "22b7a064e7347454d3b923977bc49e9ed3961a6d4d1470b646211a93850e12cb",
+      "enMarkdown": "This has a nice sound to it, but it isn't true. Google's founders were willing to sell early on. They just wanted more than acquirers were willing to pay.",
+      "zhMarkdown": "这话听起来很动听，但事实并非如此。Google 的创始人早期是愿意卖掉公司的。他们只是想要一个比买家愿意支付的更高的价格。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "eb79a0b7de5205b1eac3856bac009bf9871e6340cc573b96e7ea424015b9f746",
+      "enMarkdown": "It was the same with Facebook. They would have sold, but Yahoo blew it by offering too little.",
+      "zhMarkdown": "Facebook 的情况也一样。他们本可以卖掉，但雅虎因为出价太低而把事情搞砸了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d4e1e239d96442f7de8059c2b9007adcecdd770ab56147861a15be22ba77ca7a",
+      "enMarkdown": "Tip for acquirers: when a startup turns you down, consider raising your offer, because there's a good chance the outrageous price they want will later seem a bargain. [[1](#f1n)]",
+      "zhMarkdown": "给收购方一个建议：当一家创业公司拒绝你时，考虑提高你的报价，因为他们索要的那个看似离谱的价格，很可能在以后看来是个天大的便宜。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ca0248e564e2ebe5c36919553128ff24b125d5de6532a3d1503e73ab9e289859",
+      "enMarkdown": "From the evidence I've seen so far, startups that turn down acquisition offers usually end up doing better. Not always, but usually there's a bigger offer coming, or perhaps even an IPO.",
+      "zhMarkdown": "从我目前看到的情况来看，拒绝收购要约的创业公司通常最终会发展得更好。并非总是如此，但通常会有更大的收购要约在后面，甚至可能会 IPO。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "a438663d556c5c200278b4f8238b835c1479f7a5ce4f6eb3a73efae67db91e6a",
+      "enMarkdown": "Of course, the reason startups do better when they turn down acquisition offers is not necessarily that all such offers undervalue startups. More likely the reason is that the kind of founders who have the balls to turn down a big offer also tend to be very successful. That spirit is exactly what you want in a startup.",
+      "zhMarkdown": "当然，创业公司在拒绝收购要约后发展得更好，并不一定是因为所有这些要约都低估了它们。更可能的原因是，有胆量拒绝巨额报价的创始人本身就更容易取得巨大的成功。这种精神恰恰是创业公司最需要的。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "19a37aa0850fa41855a68aeef4b81d840c45d9b8ed5e11ba680eba145f848831",
+      "enMarkdown": "While I'm sure Larry and Sergey do want to change the world, at least now, the reason Google survived to become a big, independent company is the same reason Facebook has so far remained independent: acquirers underestimated them.",
+      "zhMarkdown": "虽然我确信拉里和谢尔盖确实想要改变世界（至少现在是这样），但 Google 能活下来并成为一家独立的大公司，其原因与 Facebook 至今保持独立的原因是一样的：收购方低估了它们。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9cd8e5f33cce620731e0b73a38efa2b2a6957db61ce0114ea2852e5ec3a5677d",
+      "enMarkdown": "Corporate M&A is a strange business in that respect. They consistently lose the best deals, because turning down reasonable offers is the most reliable test you could invent for whether a startup will make it big.",
+      "zhMarkdown": "在这方面，企业的并购（M&A）是一门奇怪的生意。他们总是错失最好的交易，因为“拒绝合理的报价”是你能发明的、用来测试一家创业公司能否做大的最可靠的方法。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "0d0319fff87a89be2e4d13e778262ea68cffa004d2821055d55c2b0d18743baa",
+      "enMarkdown": "**VCs**",
+      "zhMarkdown": "**风险投资**"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "659e751a315915447401db41980000649d86f26e7f51897fe2cb40a682f97a69",
+      "enMarkdown": "So what's the real reason there aren't more Googles? Curiously enough, it's the same reason Google and Facebook have remained independent: money guys undervalue the most innovative startups.",
+      "zhMarkdown": "那么，没有出现更多 Google 的真正原因是什么？说来也怪，这与 Google 和 Facebook 保持独立的原因是一样的：金融界人士低估了最具创新性的创业公司。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "6e6f5860c4ccb2f09c4dc7765a700f86b02e027b1e257ae47ab3ba6b66e06b14",
+      "enMarkdown": "The reason there aren't more Googles is not that investors encourage innovative startups to sell out, but that they won't even fund them. I've learned a lot about VCs during the 3 years we've been doing Y Combinator, because we often have to work quite closely with them. The most surprising thing I've learned is how conservative they are. VC firms present an image of boldly encouraging innovation. Only a handful actually do, and even they are more conservative in reality than you'd guess from reading their sites.",
+      "zhMarkdown": "没有出现更多 Google 的原因，并不是投资人鼓励创新型创业公司卖掉，而是他们甚至根本不给它们投资。在创办 Y Combinator 的三年里，我对风险投资人有了很多了解，因为我们经常需要与他们紧密合作。我发现最令人惊讶的一点是，他们是多么的保守。风险投资机构展现出一副大胆鼓励创新的形象。但实际上只有极少数能做到，甚至连这极少数在现实中也比你从他们官网上读到的要保守得多。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "57820aa1bc0843abf136e6c07488649343bd97af2c278ccb8c8d05188c10a8b1",
+      "enMarkdown": "I used to think of VCs as piratical: bold but unscrupulous. On closer acquaintance they turn out to be more like bureaucrats. They're more upstanding than I used to think (the good ones, at least), but less bold. Maybe the VC industry has changed. Maybe they used to be bolder. But I suspect it's the startup world that has changed, not them. The low cost of starting a startup means the average good bet is a riskier one, but most existing VC firms still operate as if they were investing in hardware startups in 1985.",
+      "zhMarkdown": "我以前总觉得风险投资人像海盗：胆大包天却不择手段。走近了才发现，他们其实更像官僚。他们比我以前想象的要正派（至少好的一批是这样），但没那么有胆识。也许风险投资行业已经变了，也许他们以前更大胆。但我怀疑改变的是创业界，而不是他们。创办一家创业公司的低成本意味着，平均而言，一个好的赌注也是一个风险更大的赌注，但大多数现有的风险投资机构仍然像在 1985 年投资硬件创业公司那样运作。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a7f4160cd2c417819c3a1517de0868922bf6bed1fbe1f82e95978b2e508b6eea",
+      "enMarkdown": "Howard Aiken said \"Don't worry about people stealing your ideas. If your ideas are any good, you'll have to ram them down people's throats.\" I have a similar feeling when I'm trying to convince VCs to invest in startups Y Combinator has funded. They're terrified of really novel ideas, unless the founders are good enough salesmen to compensate.",
+      "zhMarkdown": "Howard Aiken 曾说：“不要担心别人会偷走你的想法。如果你的想法真的很好，你得硬塞进他们的喉咙里才行。”当我试图说服风险投资人投资 Y Combinator 资助的创业公司时，我也有类似的感觉。他们对真正新颖的想法感到恐惧，除非创始人是足够优秀的推销员来弥补这一点。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "0b971fcc81afe9e95135d432dfd730bc9b041d1a6d6f9c5e78e28adbdb7fcb75",
+      "enMarkdown": "But it's the bold ideas that generate the biggest returns. Any really good new idea will seem bad to most people; otherwise someone would already be doing it. And yet most VCs are driven by consensus, not just within their firms, but within the VC community. The biggest factor determining how a VC will feel about your startup is how other VCs feel about it. I doubt they realize it, but this algorithm guarantees they'll miss all the very best ideas. The more people who have to like a new idea, the more outliers you lose.",
+      "zhMarkdown": "但正是那些大胆的想法才能带来最大的回报。任何真正好的新想法在大多数人看来都是糟糕的，否则早就有人在做了。然而，大多数风险投资人都是由共识驱动的，不仅在他们自己的机构内部，而且在整个风险投资圈里也是如此。决定一个风险投资人对你的创业公司感觉如何的最大因素，是其他风险投资人对它的感觉。我怀疑他们自己有没有意识到，但这种算法保证了他们会错过所有最顶级的想法。需要喜欢一个新想法的人越多，你失去的颠覆性特异值就越多。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "c4617b6adf532b51863c7a71ce3335561b32b0e0c10554fdafca2d1075340cd8",
+      "enMarkdown": "Whoever the next Google is, they're probably being told right now by VCs to come back when they have more \"traction.\"",
+      "zhMarkdown": "无论下一个 Google 是谁，他们现在可能正被风险投资人告知，等有了更多的“业务牵引力（traction）”再来吧。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "cbaa49a33a102da096500e5cfd8adb9b8bb6c1444834768472cb8be99655c0ea",
+      "enMarkdown": "Why are VCs so conservative? It's probably a combination of factors. The large size of their investments makes them conservative. Plus they're investing other people's money, which makes them worry they'll get in trouble if they do something risky and it fails. Plus most of them are money guys rather than technical guys, so they don't understand what the startups they're investing in do.",
+      "zhMarkdown": "为什么风险投资人如此保守？这可能是多种因素共同作用的结果。他们庞大的投资规模让他们变得保守。再加上他们投资的是别人的钱，这让他们担心如果做了一些冒险的事情却失败了会惹上麻烦。此外，他们中的大多数人是金融背景而不是技术背景，所以他们并不理解自己投资的创业公司在做什么。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "22cf4040e2249bde237b49e6e3a1da37f9e1747e025192756c2ae70e83ddf309",
+      "enMarkdown": "What's Next",
+      "zhMarkdown": "未来会怎样"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "8594aacdef790b6ae5b8f2e775548ea30335a4cd80fb010cfaf6411fe42ef935",
+      "enMarkdown": "The exciting thing about market economies is that stupidity equals opportunity. And so it is in this case. There is a huge, unexploited opportunity in startup investing. Y Combinator funds startups at the very beginning. VCs will fund them once they're already starting to succeed. But between the two there is a substantial gap.",
+      "zhMarkdown": "市场经济令人兴奋的地方在于，愚蠢等同于机会。现在的情况正是如此。在创业投资领域存在着一个巨大的、尚未被开发的机遇。Y Combinator 在最早期资助创业公司，风险投资人则在它们已经开始成功时给予资助。但在两者之间，存在着一个巨大的空白地带。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "c25168dad23f4d8000b3537b1f50e0586b6ddb9e3524a0459f58d31cc2d60d45",
+      "enMarkdown": "There are companies that will give $20k to a startup that has nothing more than the founders, and there are companies that will give $2 million to a startup that's already taking off, but there aren't enough investors who will give $200k to a startup that seems very promising but still has some things to figure out. This territory is occupied mostly by individual angel investors—people like Andy Bechtolsheim, who gave Google $100k when they seemed promising but still had some things to figure out. I like angels, but there just aren't enough of them, and investing is for most of them a part time job.",
+      "zhMarkdown": "有些机构会给除了创始人之外一无所有的创业公司 2 万美元，也有机构会给已经起飞的创业公司 200 万美元，但是没有足够的投资人愿意给那些看起来很有前景、但仍有一些问题需要解决的创业公司 20 万美元。这个地盘主要被个人天使投资人占据——比如 Andy Bechtolsheim，他在 Google 看起来很有前景但仍有一些问题需要解决时，给了他们 10 万美元。我喜欢天使投资人，但他们的人数不够多，而且对他们中的大多数人来说，投资只是一份兼职工作。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f7249ae0148268ef91ac276f3fe83c9add37d9048a4276af875058ed597bdbbd",
+      "enMarkdown": "And yet as it gets cheaper to start startups, this sparsely occupied territory is becoming more and more valuable. Nowadays a lot of startups don't want to raise multi-million dollar series A rounds. They don't need that much money, and they don't want the hassles that come with it. The median startup coming out of Y Combinator wants to raise $250-500k. When they go to VC firms they have to ask for more because they know VCs aren't interested in such small deals.",
+      "zhMarkdown": "然而，随着创办创业公司的成本越来越低，这片人烟稀少的领域正变得越来越有价值。如今，许多创业公司不想进行数百万美元的 A 轮融资。他们不需要那么多钱，也不想带来随之而来的麻烦。从 Y Combinator 毕业的创业公司，中位数融资需求是 25 万到 50 万美元。当他们去找风险投资机构时，他们不得不要求更多，因为他们知道风险投资人对这么小的交易不感兴趣。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "f4886e3afa82b5479afdc3950cc5dc896a8b916fbb1eedd94dfe8e8e43d7290c",
+      "enMarkdown": "VCs are money managers. They're looking for ways to put large sums to work. But the startup world is evolving away from their current model.",
+      "zhMarkdown": "风险投资人是资金管理人。他们正在寻找将大额资金投入使用的方法。但创业界的发展正在偏离他们现有的模式。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "ed477c83870dc8ee59f3672e4be49cc63b8e8c55f110852db825e3d49b7a4837",
+      "enMarkdown": "Startups have gotten cheaper. That means they want less money, but also that there are more of them. So you can still get large returns on large amounts of money; you just have to spread it more broadly.",
+      "zhMarkdown": "创业公司变得越来越便宜。这意味着他们需要的钱更少，但也意味着创业公司的数量更多了。因此，你仍然可以通过大额资金获得丰厚的回报，你只需要把资金撒得更广。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "3e87262ff56a597ae423b1b48d404d1f7a0897e9fac78353b6e0f64592ec3f07",
+      "enMarkdown": "I've tried to explain this to VC firms. Instead of making one $2 million investment, make five $400k investments. Would that mean sitting on too many boards? Don't sit on their boards. Would that mean too much due diligence? Do less. If you're investing at a tenth the valuation, you only have to be a tenth as sure.",
+      "zhMarkdown": "我曾试着向风险投资机构解释这一点。与其做一笔 200 万美元的投资，不如做五笔 40 万美元的投资。这是否意味着要占用太多的董事会席位？那就不要进他们的董事会。这是否意味着需要做太多的尽职调查？那就少做一点。如果你是以十分之一的估值进行投资，你只需要有十分之一的把握就够了。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "a17f8e5e8bd94f2178884c7d83e8a27cdd7a8cbf987fe30259377b334b45854f",
+      "enMarkdown": "It seems obvious. But I've proposed to several VC firms that they set aside some money and designate one partner to make more, smaller bets, and they react as if I'd proposed the partners all get nose rings. It's remarkable how wedded they are to their standard m.o.",
+      "zhMarkdown": "这似乎显而易见。但我曾向几家风险投资机构提议，让他们拨出一笔钱，并指定一名合伙人去进行更多、更小额的投资，他们的反应就像我提议合伙人们都去穿鼻环一样。他们对标准运作方式的执念之深，令人惊叹。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "c43f3b1d8fe157194725ee0bcd85c1849d1dddf79a1370e2b0b4ea0292be12ac",
+      "enMarkdown": "But there is a big opportunity here, and one way or the other it's going to get filled. Either VCs will evolve down into this gap or, more likely, new investors will appear to fill it. That will be a good thing when it happens, because these new investors will be compelled by the structure of the investments they make to be ten times bolder than present day VCs. And that will get us a lot more Googles. At least, as long as acquirers remain stupid.",
+      "zhMarkdown": "但这里有一个巨大的机会，无论如何这个空白都会被填补。要么风险投资人向下演变进入这个空白，要么更有可能的是，会出现新的投资人来填补它。一旦发生，这将是一件好事，因为这些新投资人由于其投资结构的限制，将被迫比现在的风险投资人大胆十倍。这将会给我们带来更多的 Google。至少，只要收购方继续愚蠢下去就行。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "cb4eb288caf6f267ad6f8bb27cbf754dc07c3dd51f9fe65cbefa215336685696",
+      "enMarkdown": "[1] Another tip: If you want to get all that value, don't destroy the startup after you buy it. Give the founders enough autonomy that they can grow the acquisition into what it would have become.",
+      "zhMarkdown": "[1] 另一个建议：如果你想获得全部的价值，在买下创业公司后不要毁了它。给创始人足够的自主权，让他们能够把被收购的公司培养成它本可以成为的样子。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "705c8ace17d2479f13bf774a101f1caec0aded0a2db1ba1184d6946803392e4d",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, David Hornik, Jessica Livingston, Robert Morris, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman, Paul Buchheit, David Hornik, Jessica Livingston, Robert Morris, 和 Fred Wilson 阅读本书草稿。"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "orth",
+  "titleEn": "Orthodox Privilege",
+  "titleZh": "正统特权",
+  "dateText": "July 2020",
+  "publishedAt": "2020-07-01",
+  "sourceOrder": 45,
+  "sourceUrl": "https://paulgraham.com/orth.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "rawUnsupported",
+      "sourceHash": "3acfc3e27a51f2dcbf75bbf150a057b15025315298b96210c012deb8d6b5bf37",
+      "enMarkdown": "\"Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions.\"� Einstein\n\"Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions.\"� Einstein"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "640d8e5b86f12b5229d49674a220228396484361d7694b2d3693c20858868197",
+      "enMarkdown": "There has been a lot of talk about privilege lately. Although the concept is overused, there is something to it, and in particular to the idea that privilege makes you blind � that you can't see things that are visible to someone whose life is very different from yours.",
+      "zhMarkdown": "最近关于“特权”的讨论很多。虽然这个概念被滥用了，但它确实有其道理，尤其是“特权让人盲目”这一观点——也就是说，你看不到那些在生活经历截然不同的人眼里显而易见的事物。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "49f3f8276234eec1406ed6c4d6b20b8b7785ab6ceb6b2c78a42dcaf9b49061eb",
+      "enMarkdown": "But one of the most pervasive examples of this kind of blindness is one that I haven't seen mentioned explicitly. I'm going to call it *orthodox privilege*: The more conventional-minded someone is, the more it seems to them that it's safe for everyone to express their opinions.",
+      "zhMarkdown": "但这种盲目性中最普遍的一个例子，我却从未见人明确提起过。我称之为**正统特权**（orthodox privilege）：一个人的思想越是墨守成规，他就越会觉得每个人都可以安全地表达自己的观点。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "06397fb4efd23b78a309ebd31a92db034415b905c55bf13745e54cd3f0a606fc",
+      "enMarkdown": "It's safe for *them* to express their opinions, because the source of their opinions is whatever it's currently acceptable to believe. So it seems to them that it must be safe for everyone. They literally can't imagine a true statement that would get you in trouble.",
+      "zhMarkdown": "对*他们*来说，表达自己的观点当然是安全的，因为他们的观点本就源自当前社会普遍接受的信仰。因此在他们看来，所有人也必定都是安全的。他们根本无法想象，有什么正确的话会让人惹上麻烦。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "0c2e786521053de6c2521ba31dab2d7d47bf13d54e9420cc536986de998fa5ab",
+      "enMarkdown": "And yet at every point in history, there [were](https://paulgraham.com/say.html) true things that would get you in trouble to say. Is ours the first where this isn't so? What an amazing coincidence that would be.",
+      "zhMarkdown": "然而在历史上的每一个时期，都[存在](https://paulgraham.com/say.html)一些正确却会让你因言获罪的事情。难道我们这个时代是第一个例外的吗？如果真是这样，那该是多么惊人的巧合啊。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3d670fd1a30336b8015b3d2d95de8199c53f45cd493f33768f8d4918a7bf6569",
+      "enMarkdown": "Surely it should at least be the default assumption that our time is not unique, and that there are true things you can't say now, just as there have always been. You would think. But even in the face of such overwhelming historical evidence, most people will go with their gut on this one.",
+      "zhMarkdown": "理所当然，我们至少应该默认这样一个假设：我们所处的时代并无特殊之处，现在同样有一些正确却不能说的话，就像历史上一直存在的那样。你可能会这么想。但即便面对如此压倒性的历史证据，大多数人在这个问题上依然会凭直觉行事。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "fe6393326eb01c32a70a6d5726698acb0f2696a0484a79a6e00e54e714276b5d",
+      "enMarkdown": "In the most extreme cases, people suffering from orthodox privilege will not only deny that there's anything true that you can't say, but will accuse you of heresy merely for saying there is. Though if there's more than one heresy current in your time, these accusations will be weirdly non-deterministic: you must either be an xist or a yist.",
+      "zhMarkdown": "在最极端的情况下，深受正统特权之害的人不仅会否认存在“正确却不能说的话”，甚至仅仅因为你指出存在这种话，就指控你为异端。不过，如果你所处的时代流行不止一种异端学说，这些指控就会变得莫名其妙、非此即彼：你不是个“某某主义者”，就是个“另一某某主义者”。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "e119587d25c5ad2469dc3c8b8f95c5a426668fd2ff8c66186e56afe1403fe843",
+      "enMarkdown": "Frustrating as it is to deal with these people, it's important to realize that they're in earnest. They're not pretending they think it's impossible for an idea to be both unorthodox and true. The world really looks that way to them.",
+      "zhMarkdown": "尽管与这些人打交道令人沮丧，但重要的是要意识到他们是真诚的。他们并不是在假装认为一个想法不可能既非正统又正确。在他们的眼里，世界确实就是那个样子的。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "5cc6343253ba7658e02d15426951b333b44d7713cb9e9193c44098ae04b14e86",
+      "enMarkdown": "Indeed, this is a uniquely tenacious form of privilege. People can overcome the blindness induced by most forms of privilege by learning more about whatever they're not. But they can't overcome orthodox privilege just by learning more. They'd have to become more independent-minded. If that happens at all, it doesn't happen on the time scale of one conversation.",
+      "zhMarkdown": "事实上，这是一种极其顽固的特权形式。对于大多数形式的特权，人们可以通过加深对非我群体的了解来克服由此带来的盲目。但他们无法仅仅通过学习更多知识来克服正统特权。他们必须变得更加独立思考。如果这种转变真的会发生，也绝非一朝一夕之功，不是一次谈话就能解决的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "a4556628cd577d6318158fa65ebef19e18d7d5e0d820f1708d1e17efd3de8d74",
+      "enMarkdown": "It may be possible to convince some people that orthodox privilege must exist even though they can't sense it, just as one can with, say, dark matter. There may be some who could be convinced, for example, that it's very unlikely that this is the first point in history at which there's nothing true you can't say, even if they can't imagine specific examples.",
+      "zhMarkdown": "或许有可能说服一部分人相信，即便他们感知不到，正统特权也必然存在，就像人们对待暗物质那样。例如，也许有些人可以被说服：尽管他们想象不出具体的例子，但要说我们正处于历史上第一个“没有任何正确的话是不能说的”时期，这概率实在太低了。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "55fb280653dbe7a1af51834583e6a95bf9236a3262de9b2228199d976522e22d",
+      "enMarkdown": "But in general I don't think it will work to say \"check your privilege\" about this type of privilege, because those in its demographic don't realize they're in it. It doesn't seem to conventional-minded people that they're conventional-minded. It just seems to them that they're right. Indeed, they tend to be particularly sure of it.",
+      "zhMarkdown": "但总的来说，我认为对这种特权群体说“反思你的特权”是行不通的，因为身处其中的人根本意识不到这一点。思想墨守成规的人并不觉得自己墨守成规。在他们看来，自己只是正确的。事实上，他们往往对此深信不疑。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "d8ad6adfec536c65038e6e2bc76bbe70fd30fe71b257850850f1a1db420d9965",
+      "enMarkdown": "Perhaps the solution is to appeal to politeness. If someone says they can hear a high-pitched noise that you can't, it's only polite to take them at their word, instead of demanding evidence that's impossible to produce, or simply denying that they hear anything. Imagine how rude that would seem. Similarly, if someone says they can think of things that are true but that cannot be said, it's only polite to take them at their word, even if you can't think of any yourself.",
+      "zhMarkdown": "也许解决办法是诉诸礼貌。如果有人说他们能听到你听不到的高频声音，最起码的礼貌是相信他们的话，而不是索要无法提供的证据，或者干脆否认他们听到了任何声音。想想看，那该有多无礼。同样，如果有人说他们能想到一些正确却无法说出口的事，最起码的礼貌也是相信他们，哪怕你自己一个也想不出来。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "9571f1bc12de6d6ca8718a72225b6ef36c047b4c0e1b52ea905a2f7578c3349c",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Patrick Collison, Antonio Garcia-Martinez, Jessica Livingston, Robert Morris, Michael Nielsen, Geoff Ralston, Max Roser, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Patrick Collison、Antonio Garcia-Martinez、Jessica Livingston、Robert Morris、Michael Nielsen、Geoff Ralston、Max Roser 和 Harj Taggar 审阅本文草稿。"
+    }
+  ]
+}

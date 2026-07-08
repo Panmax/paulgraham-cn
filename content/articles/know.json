@@ -1,0 +1,104 @@
+{
+  "slug": "know",
+  "titleEn": "How You Know",
+  "titleZh": "你如何知道",
+  "dateText": "December 2014",
+  "publishedAt": "2014-12-01",
+  "sourceOrder": 73,
+  "sourceUrl": "https://paulgraham.com/know.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "4007c879a7bab4ab4231048eaf9ffe51ad0ccffacd07c5202bf729ba4d28198e",
+      "enMarkdown": "I've read Villehardouin's chronicle of the Fourth Crusade at least two times, maybe three. And yet if I had to write down everything I remember from it, I doubt it would amount to much more than a page. Multiply this times several hundred, and I get an uneasy feeling when I look at my bookshelves. What use is it to read all these books if I remember so little from them?",
+      "zhMarkdown": "维拉杜安关于第四次十字军东征的历史编年纪，我至少读过两三遍。然而，如果让我把能记住的内容全部写下来，恐怕连一页纸都凑不够。看着书架上几百本类似的书，我不禁感到一阵不安。如果读完能记住的这么少，那读书还有什么用呢？"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "c48ad053bcc52cd13a913b6d6030b0688a4090791d20d81750e71f3234f399cf",
+      "enMarkdown": "A few months ago, as I was reading Constance Reid's excellent biography of Hilbert, I figured out if not the answer to this question, at least something that made me feel better about it. She writes:",
+      "zhMarkdown": "几个月前，在读康斯坦丝·里德写的优秀的《希尔伯特传》时，我即便没有完全找到这个问题的答案，至少也释怀了许多。她写道："
+    },
+    {
+      "id": 3,
+      "type": "quote",
+      "sourceHash": "a1641d0e61a48eca4a13dc48e84dc6e3d100c38a0fac6ef39fc8138012cf30ca",
+      "enMarkdown": "> Hilbert had no patience with mathematical lectures which filled the students with facts but did not teach them how to frame a problem and solve it. He often used to tell them that \"a perfect formulation of a problem is already half its solution.\"",
+      "zhMarkdown": "> 希尔伯特对那些只给学生灌输事实、却不教他们如何界定和解决问题的数学讲座毫无耐心。他经常告诉他们：“完美地表述一个问题，就已经解决了一半。”"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "73e5cbdccb00f1e9bb44bdb944262937445ac9a3ad9de67db1f5da9c7d44f177",
+      "enMarkdown": "That has always seemed to me an important point, and I was even more convinced of it after hearing it confirmed by Hilbert.",
+      "zhMarkdown": "这一直是我深以为然的观点，而在看到希尔伯特的印证后，我对此更加确信了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "ddf18ca964d5a99defc90102f580db272677d6828f29594f81f5a7939b494115",
+      "enMarkdown": "But how had I come to believe in this idea in the first place? A combination of my own experience and other things I'd read. None of which I could at that moment remember! And eventually I'd forget that Hilbert had confirmed it too. But my increased belief in the importance of this idea would remain something I'd learned from this book, even after I'd forgotten I'd learned it.",
+      "zhMarkdown": "但我最初是怎么开始相信这个观点的？这源于我自身经验和读过的其他东西的结合。然而，当时我一个也记不起来了！最终，我也会忘记希尔伯特也曾印证过这一点。但是，我对这个观点重要性的信念加深了，这依然是我从这本书中学到的东西，哪怕我已经忘记了是从这里学到的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "b8cd5578a2b2aa342cc074bc2547199717bdc5542e8364311838f5e366b6e7fe",
+      "enMarkdown": "Reading and experience train your model of the world. And even if you forget the experience or what you read, its effect on your model of the world persists. Your mind is like a compiled program you've lost the source of. It works, but you don't know why.",
+      "zhMarkdown": "阅读和经历在训练你的世界模型。即使你忘记了那些经历或读过的内容，它们对你世界模型的影响依然存在。你的大脑就像一个丢失了源代码的已编译程序。它能运行，但你不知道其中的原理。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "9846a69ec38d0e754e3e6181ea2b999f7d158e330fff8a5907bee27cc9ad9872",
+      "enMarkdown": "The place to look for what I learned from Villehardouin's chronicle is not what I remember from it, but my mental models of the crusades, Venice, medieval culture, siege warfare, and so on. Which doesn't mean I couldn't have read more attentively, but at least the harvest of reading is not so miserably small as it might seem.",
+      "zhMarkdown": "寻找我从维拉杜安的编年纪中学到什么，不应该看我记住了哪些具体内容，而应该看我对十字军东征、威尼斯、中世纪文化、围城战等事物的认知模型。这并不意味着我不需要更专注地阅读，但至少读书的收获并不像看起来那样微乎其微。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "22b5547b0f278c03e63bf8ef2e71b1b3ebbaee4188f31bf65db182e02c843838",
+      "enMarkdown": "This is one of those things that seem obvious in retrospect. But it was a surprise to me and presumably would be to anyone else who felt uneasy about (apparently) forgetting so much they'd read.",
+      "zhMarkdown": "这属于那种事后看来显而易见的道理。但当时这着实让我吃惊，想必任何对（看似）忘掉大部分阅读内容而感到不安的人，也会有同感。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "b265f416ea066d17819631117dfb650144bc694e1f813b43161e5ac9814f0411",
+      "enMarkdown": "Realizing it does more than make you feel a little better about forgetting, though. There are specific implications.",
+      "zhMarkdown": "不过，意识到这一点不仅能让你对遗忘感到释怀。它还具有具体的启示。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "c9210605c7f8948d89b345fa068de710e9bff2b2e1c0b17bff8ae174cc77812a",
+      "enMarkdown": "For example, reading and experience are usually \"compiled\" at the time they happen, using the state of your brain at that time. The same book would get compiled differently at different points in your life. Which means it is very much worth reading important books multiple times. I always used to feel some misgivings about rereading books. I unconsciously lumped reading together with work like carpentry, where having to do something again is a sign you did it wrong the first time. Whereas now the phrase \"already read\" seems almost ill-formed.",
+      "zhMarkdown": "例如，阅读和经历通常是在发生时，根据你当时的大脑状态被“编译”的。在人生的不同阶段，同一本书的编译方式也会不同。这意味着重读经典著作是非常值得的。我以前对重读一本书总有些顾虑。在潜意识里，我把阅读和木工活混为一谈，觉得一件事情必须重做，就说明你第一次没做好。而现在，“已经读过”这个说法在我看来几乎是不成立的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f003058fac55731c3883d4c1083dec476748552f52574b0ccd01e091d90f7f6e",
+      "enMarkdown": "Intriguingly, this implication isn't limited to books. Technology will increasingly make it possible to relive our experiences. When people do that today it's usually to enjoy them again (e.g. when looking at pictures of a trip) or to find the origin of some bug in their compiled code (e.g. when Stephen Fry succeeded in remembering the childhood trauma that prevented him from singing). But as technologies for recording and playing back your life improve, it may become common for people to relive experiences without any goal in mind, simply to learn from them again as one might when rereading a book.",
+      "zhMarkdown": "有趣的是，这种启示并不仅限于书籍。技术将越来越让我们能够重温自己的经历。如今人们这样做通常是为了再次享受其中（比如看旅行照片），或者是为了在他们编译好的代码中寻找某个 Bug 的根源（比如斯蒂芬·弗雷成功回忆起阻碍他唱歌的童年创伤）。但随着记录和回放生活的技术不断进步，人们在没有任何特定目的的情况下重温经历可能会变得很普遍，仅仅是为了像重读一本书那样，从中重新学习。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "eb789c67b435cdeb227c1b1a53b78e4504651e8a6cc897818c9a69f88afc4e14",
+      "enMarkdown": "Eventually we may be able not just to play back experiences but also to index and even edit them. So although not knowing how you know things may seem part of being human, it may not be.",
+      "zhMarkdown": "最终，我们不仅能回放经历，可能还能对它们进行索引甚至编辑。因此，虽然“不知道自己是如何知道的”似乎是人类不可分割的一部分，但未来可能并非如此。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7899106d32ff828ab2acb97d2da979aae9e9c1651059fc6978c4d03b43337c59",
+      "enMarkdown": "**Thanks** to Sam Altman, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Jessica Livingston 和 Robert Morris 审阅本文草稿。"
+    }
+  ]
+}

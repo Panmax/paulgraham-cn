@@ -1,0 +1,55 @@
+{
+  "slug": "noop",
+  "titleEn": "Why Arc Isn't Especially Object-Oriented",
+  "titleZh": "为什么 Arc 没有特别采用面向对象设计",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 216,
+  "sourceUrl": "https://paulgraham.com/noop.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f099723166613113c162b7c18ec72576d42f225115b18b76858f87d575a819f2",
+      "enMarkdown": "There is a kind of mania for object-oriented programming at the moment, but  some of the [smartest programmers](https://paulgraham.com/reesoo.html) I know are some of the least excited about it.",
+      "zhMarkdown": "目前人们对面向对象编程有一种近乎狂热的崇拜，但我认识的一些[最聪明的程序员](https://paulgraham.com/reesoo.html)却对此最不以为然。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "018bdca065043bcdd276b8dfd29d591d1f42c213b3a95a6eb33434fe162d08aa",
+      "enMarkdown": "My own feeling is that object-oriented programming is a useful technique in some cases, but it isn't something that has to pervade every program you write. You should be able to define new types, but you shouldn't have to express every program as the definition of new types.",
+      "zhMarkdown": "我个人的看法是，面向对象编程在某些情况下是一种有用的技术，但它不应该无孔不入地渗透到你写的每一个程序中。你应该能够定义新的类型，但不应该非得把每个程序都表达为新类型的定义。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ce04951a67fa1179248af9958c685d983a861a6202785500b37baf61017f2e49",
+      "enMarkdown": "I think there are five reasons people like object-oriented programming, and three and a half of them are bad:",
+      "zhMarkdown": "我认为人们喜欢面向对象编程有五个原因，其中三个半是站不住脚的："
+    },
+    {
+      "id": 4,
+      "type": "list",
+      "sourceHash": "5170233fabde0c61bdd89a9a1c0f8ebea543d41a45bdb8fbf80fc8d451f85f6c",
+      "enMarkdown": "1. Object-oriented programming is exciting if you have a statically-typed language without lexical closures or macros. To some degree, it offers a way around these limitations. (See [Greenspun's Tenth Rule](https://paulgraham.com/quotes.html).)\n2. Object-oriented programming is popular in big companies, because it suits the way they write software. At big companies, software tends to be written by large (and frequently changing) teams of mediocre programmers. Object-oriented programming imposes a discipline on these programmers that prevents any one of them from doing too much damage. The price is that the resulting code is bloated with protocols and full of duplication. This is not too high a price for big companies, because their software is probably going to be bloated and full of duplication anyway.\n3. Object-oriented programming generates a lot of what looks like work. Back in the days of fanfold, there was a type of programmer who would only put five or ten lines of code on a page, preceded by twenty lines of elaborately formatted comments. Object-oriented programming is like crack for these people: it lets you incorporate all this scaffolding right into your source code. Something that a Lisp hacker might handle by pushing a symbol onto a list becomes a whole file of classes and methods. So it is a good tool if you want to convince yourself, or someone else, that you are doing a lot of work.\n4. If a language is itself an object-oriented program, it can be extended by users. Well, maybe. Or maybe you can do even better by offering the sub-concepts of object-oriented programming a la carte. Overloading, for example, is not intrinsically tied to classes. We'll see.\n5. Object-oriented abstractions map neatly onto the domains of certain specific kinds of programs, like simulations and CAD systems.",
+      "zhMarkdown": "1. 如果你使用的是一种没有词法闭包或宏的静态类型语言，那么面向对象编程会让人兴奋。在某种程度上，它提供了一种绕过这些限制的方法。（参见[格林斯潘第十定律](https://paulgraham.com/quotes.html)。）\n2. 面向对象编程在大公司很流行，因为它契合了大公司编写软件的方式。在大公司里，软件往往是由庞大（且频繁变动）的平庸程序员团队编写的。面向对象编程对这些程序员施加了一种约束，防止其中任何一个人造成太大的破坏。代价是，最终的代码会充斥着繁琐的协议和大量的重复。对大公司来说，这个代价并不算太高，因为反正他们的软件注定会变得臃肿且充满重复。\n3. 面向对象编程会产生大量“看起来在干活”的产物。在过去使用折叠打印纸的时代，有一类程序员每页只写五到十行代码，前面却冠以二十行排版精美的注释。面向对象编程对这些人来说就像毒品一样：它让你能把所有这些脚手架直接融入到源代码中。一个 Lisp 黑客只需将一个符号推入列表就能搞定的事情，在面向对象里却变成了一整个包含各种类和方法的源文件。所以，如果你想说服自己或其他人你做了大量工作，它是一个很好的工具。\n4. 如果语言本身就是一个面向对象程序，那么用户就可以对其进行扩展。嗯，也许吧。但也许通过“单点点单”的方式提供面向对象编程的子概念，效果会更好。例如，重载本质上并不与类绑定。我们拭目以待。\n5. 面向对象抽象能够干净地映射到某些特定类型的程序领域，比如模拟系统和 CAD 系统。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "5a0d11f283216baec97781f3ed963c7387c3e4c67073d34405aaa7ba0ebc89b0",
+      "enMarkdown": "I personally have never needed object-oriented abstractions. Common Lisp has an enormously powerful object system and I've never used it once. I've done a lot of things (e.g. making hash tables full of closures) that would have required object-oriented techniques to do in wimpier languages, but I have never had to use CLOS.",
+      "zhMarkdown": "我个人从未需要过面向对象抽象。Common Lisp 拥有极其强大的对象系统，但我一次也没用过。我做过很多在更弱的语言中需要用面向对象技术才能实现的事情（例如，构建一个装满闭包的哈希表），但我从未不得不使用 CLOS。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "b20f5b867bf4d5c2f2afbc83a8a6017b731b9a386b327191e5617b9a530976e6",
+      "enMarkdown": "Maybe I'm just stupid, or have worked on some limited subset of applications. There is a danger in designing a language based on one's own experience of programming. But it seems more dangerous to put stuff in that you've never needed because it's thought to be a good idea.",
+      "zhMarkdown": "也许我只是不够聪明，或者只开发过一些局限性很强的应用。根据个人编程经验来设计一门语言确实存在危险。但仅仅因为别人认为某个东西是个好主意，就把自己从未需要过的东西硬塞进去，似乎更加危险。"
+    }
+  ]
+}

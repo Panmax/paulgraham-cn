@@ -1,0 +1,139 @@
+{
+  "slug": "name",
+  "titleEn": "Change Your Name",
+  "titleZh": "改掉你的名字",
+  "dateText": "August 2015",
+  "publishedAt": "2015-08-01",
+  "sourceOrder": 67,
+  "sourceUrl": "https://paulgraham.com/name.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "00f1f39ae07b2e76fef25b5623ba23d1f0eeb4dd528aa8be472fda98c8f45a10",
+      "enMarkdown": "If you have a US startup called X and you don't have x.com, you should probably change your name.",
+      "zhMarkdown": "如果你在美国创办了一家名为 X 的创业公司，但你却没有 x.com 这个域名，那么你可能应该改名了。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "a5ab8fa1c7555e918e10f0d9bc90081c82533096b3896f8c53a4744d687a37c4",
+      "enMarkdown": "The reason is not just that people can't find you. For companies with mobile apps, especially, having the right domain name is not as critical as it used to be for getting users. The problem with not having the .com of your name is that it signals weakness. Unless you're so big that your reputation precedes you, a marginal domain suggests you're a marginal company. Whereas (as Stripe shows) having x.com signals strength even if it has no relation to what you do.",
+      "zhMarkdown": "原因不仅在于人们找不到你。特别是对于拥有移动 App 的公司来说，拥有合适的域名对于获取用户已经不像以前那么关键了。没有自己名称的 .com 域名，问题在于它传递了一种软弱的信号。除非你已经大到名声在外，否则一个边缘化的域名暗示着你是一家边缘化的公司。而（正如 Stripe 所展示的）拥有 x.com 传递的是实力，哪怕它与你的业务毫无关系。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "0798e8ce8b925bb29e1dcb7f43094f9eeaa89444817272da576adff3c7851412",
+      "enMarkdown": "Even good founders can be in denial about this. Their denial derives from two very powerful forces: identity, and lack of imagination.",
+      "zhMarkdown": "即使是优秀的创始人也可能对此百般否认。他们的否认源于两种非常强大的力量：身份认同，以及缺乏想象力。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "1f5ff153bf03e6b11b1f8e4ed2763ee550492b70cdb2e1686b6c5c28d6984c57",
+      "enMarkdown": "X is what we *are*, founders think. There's no other name as good. Both of which are false.",
+      "zhMarkdown": "创始人会想，X 就是*我们*。没有其他名字能比这更好。但这两点都是错的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a5dfba4ff67a1be6090d48db0e1e57ca42e4775ed054a13e31ae83b2ae78a5fc",
+      "enMarkdown": "You can fix the first by stepping back from the problem. Imagine you'd called your company something else. If you had, surely you'd be just as attached to that name as you are to your current one. The idea of switching to your current name would seem repellent. [[1](#f1n)]",
+      "zhMarkdown": "要解决第一点，你可以从问题中抽身出来。想象一下，如果当初你们公司叫别的名字。如果是这样，你肯定也会像现在迷恋这个名字一样迷恋那个名字。而让你换成现在的名字反而会让你觉得难以接受。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "abe473d18f441e5ee5b78632110cc4aa7152f9e95f899721016978aa69cf2889",
+      "enMarkdown": "There's nothing intrinsically great about your current name. Nearly all your attachment to it comes from it being attached to you. [[2](#f1n)]",
+      "zhMarkdown": "你现在的名字本身并没有什么了不起的。你对它的绝大部分依恋，仅仅是因为它和你绑定在了一起。[[2](#f1n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "bc8c0474aeaf74e59b53ab3516f57ca68eb829c0ccde851c8a422a8a5a924271",
+      "enMarkdown": "The way to neutralize the second source of denial, your inability to think of other potential names, is to acknowledge that you're bad at naming. Naming is a completely separate skill from those you need to be a good founder. You can be a great startup founder but hopeless at thinking of names for your company.",
+      "zhMarkdown": "要消除第二种否认源——即你想不出其他潜在名字的无能——方法是承认自己不擅长起名字。起名字是一项完全独立于优秀创始人所需技能之外的技能。你可以是一个伟大的创业公司创始人，但对给公司起名字却一窍不通。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "35ff4c006ddf5c6aed2e8f0bcb9f5063151dd045568662ca2af81855970cc453",
+      "enMarkdown": "Once you acknowledge that, you stop believing there is nothing else you could be called. There are lots of other potential names that are as good or better; you just can't think of them.",
+      "zhMarkdown": "一旦你承认了这一点，你就不会再相信自己没有别的名字可叫了。其实有很多其他同样好甚至更好的潜在名字，只是你想不到而已。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "0952e71a756a4b8718c15ff600faf999e72dc67af16390c168958ce3cded14c3",
+      "enMarkdown": "How do you find them? One answer is the default way to solve problems you're bad at: find someone else who can think of names. But with company names there is another possible approach. It turns out almost any word or word pair that is not an obviously bad name is a sufficiently good one, and the number of such domains is so large that you can find plenty that are cheap or even untaken. So make a list and try to buy some. That's what [Stripe](http://www.quora.com/How-did-Stripe-come-up-with-its-name?share=1) did. (Their search also turned up parse.com, which their friends at Parse took.)",
+      "zhMarkdown": "如何找到它们？一个答案是解决你不擅长的问题的默认方法：找个会起名字的人。但对于公司名称，还有另一种可行的方法。事实证明，几乎任何不是明显很烂的单词或词组都是足够好的名字，而且这类域名的数量如此之多，以至于你可以找到大量便宜甚至尚未被注册的域名。所以列个清单，尝试买下几个。这就是 [Stripe](http://www.quora.com/How-did-Stripe-come-up-with-its-name?share=1) 当年所做的。（他们的搜寻还顺便发现了 parse.com，后来被他们 Parse 的朋友们拿去用了。）"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "8f57cc1215f1fb28ca89e36cdc60fc6463a30a1759a4ebb9aac73ed8539f29d6",
+      "enMarkdown": "The reason I know that naming companies is a distinct skill orthogonal to the others you need in a startup is that I happen to have it. Back when I was running YC and did more office hours with startups, I would often help them find new names. 80% of the time we could find at least one good name in a 20 minute office hour slot.",
+      "zhMarkdown": "我之所以知道给公司起名字是一项与创业所需的其他技能完全无关的独立技能，是因为我刚好有这个天赋。以前我管理 YC 并为创业公司提供更多面对面辅导（office hours）时，经常会帮他们起新名字。80% 的情况下，我们能在 20 分钟的辅导时间里找到至少一个好名字。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "48a51cbd11703cbdabfec9a847a2c78eb20a18413fe08c36fc21ab3a53d11a93",
+      "enMarkdown": "Now when I do office hours I have to focus on more important questions, like what the company is doing. I tell them when they need to change their name. But I know the power of the forces that have them in their grip, so I know most won't listen. [[3](#f1n)]",
+      "zhMarkdown": "现在做辅导时，我必须专注于更重要的问题，比如公司正在做什么。我会告诉他们什么时候需要改名字。但我深知那些束缚着他们的力量有多强大，所以我知道大多数人是不会听的。[[3](#f1n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "4dcd7857f3b1ff40d3e6fdf22528160424142ddd61ceadd2af9da53ecf2e226f",
+      "enMarkdown": "There are of course examples of startups that have succeeded without having the .com of their name. There are startups that have succeeded despite any number of different mistakes. But this mistake is less excusable than most. It's something that can be fixed in a couple days if you have sufficient discipline to acknowledge the problem.",
+      "zhMarkdown": "当然，也有一些创业公司在没有 .com 域名的情况下取得了成功。创业公司在犯下各种各样错误的情况下依然能成功。但相比其他错误，这个错误是更不该犯的。如果你有足够的魄力承认这个问题，这只需要几天时间就能解决。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7a090632ddf940e61f042aa12b9a36e6311cd64f088bf29f428a9fab590361ec",
+      "enMarkdown": "100% of the top 20 YC companies by valuation have the .com of their name. 94% of the top 50 do. But only 66% of companies in the current batch have the .com of their name. Which suggests there are lessons ahead for most of the rest, one way or another.",
+      "zhMarkdown": "在估值前 20 名的 YC 公司中，100% 都拥有自己名称的 .com 域名。前 50 名中这一比例为 94%。但在当前这一批 YC 创业公司中，只有 66% 拥有自己名称的 .com 域名。这表明，剩下的大多数公司迟早都要补上这一课。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "3a7536db6fabc64f9615c18897f8a49969008b3f6b818d8da41835fd84439cef",
+      "enMarkdown": "[1] Incidentally, this thought experiment works for [nationality and religion](https://paulgraham.com/identity.html) too.",
+      "zhMarkdown": "[1] 顺便说一句，这个思想实验同样适用于[国籍和宗教](https://paulgraham.com/identity.html)。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "f13a34c683e192a63cb39b7c8bac77062ee3dcd40fa40b180e3863bce8959dea",
+      "enMarkdown": "[2] The liking you have for a name that has become part of your identity manifests itself not directly, which would be easy to discount, but as a collection of specious beliefs about its intrinsic qualities. (This too is true of nationality and religion as well.)",
+      "zhMarkdown": "[2] 你对一个已经成为你身份一部分的名字的喜爱，并不会直接表现出来（那样很容易被识破），而是会表现为对其固有品质的一系列似是而非的信念。（国籍和宗教也是如此。）"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "43a719b8f93f6594b0d898d7546f2f2f31c64a80399a3e9f910de3c6a6783447",
+      "enMarkdown": "[3] Sometimes founders know it's a problem that they don't have the .com of their name, but delusion strikes a step later in the belief that they'll be able to buy it despite having no evidence it's for sale. Don't believe a domain is for sale unless the owner has already told you an asking price.",
+      "zhMarkdown": "[3] 有时创始人知道没有 .com 域名是个问题，但随后的幻想让他们更进一步：他们相信自己能买下它，哪怕没有任何迹象表明该域名在出售。除非所有者已经明确告诉你了报价，否则不要相信某个域名是可以买到的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "929ce4b89407c25fa0209cb013f6440d20522a33568fde225bece43f165f7184",
+      "enMarkdown": "**Thanks** to Sam Altman, Jessica Livingston, and Geoff Ralston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Jessica Livingston 和 Geoff Ralston 阅读本文草稿。"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "simply",
+  "titleEn": "Write Simply",
+  "titleZh": "简单写作",
+  "dateText": "March 2021",
+  "publishedAt": "2021-03-01",
+  "sourceOrder": 35,
+  "sourceUrl": "https://paulgraham.com/simply.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "bed9e525c4849396fa4a261506d42a1ebe333a3a2125872b1f0f8c8ca075421a",
+      "enMarkdown": "I try to write using ordinary words and simple sentences.",
+      "zhMarkdown": "我写作时，总是尽量使用日常词汇和简单句式。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "87515a5f3b2d5981251d9399330589d9d8e83564f597890a4562ac5e566f4f0f",
+      "enMarkdown": "That kind of writing is easier to read, and the easier something is to read, the more deeply readers will engage with it. The less energy they expend on your prose, the more they'll have left for your ideas.",
+      "zhMarkdown": "这种写作方式更容易阅读。而文字越容易读，读者就越能深入参与其中。他们在你的文字上消耗的精力越少，留给你的思想的精力就越多。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "3e51d204e9618e3065edd975815d7bc365bf99996b354f789c87e680e548554d",
+      "enMarkdown": "And the further they'll read. Most readers' energy tends to flag part way through an article or essay. If the friction of reading is low enough, more keep going till the end.",
+      "zhMarkdown": "他们也会读得更远。大多数读者在读到文章或文章的中途时，精力往往会开始下降。如果阅读的阻力足够低，就会有更多人一直读到最后。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "44e5c98cd200256614a11ec18799d95100d58bfadad714d59790749eed8000f8",
+      "enMarkdown": "There's an Italian dish called *saltimbocca*, which means \"leap into the mouth.\" My goal when writing might be called *saltintesta*: the ideas leap into your head and you barely notice the words that got them there.",
+      "zhMarkdown": "有一道意大利菜叫 *saltimbocca*，意思是“跳进嘴里”。我写作的目标或许可以称为 *saltintesta*：让思想直接跳进你的脑海，而你几乎注意不到是哪些词汇把它们送达的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c5ef548053426b92282e621c870f17c9e65972aeffbcbb327d24c5d7af21d834",
+      "enMarkdown": "It's too much to hope that writing could ever be pure ideas. You might not even want it to be. But for most writers, most of the time, that's the goal to aim for. The gap between most writing and pure ideas is not filled with poetry.",
+      "zhMarkdown": "指望写作能变成纯粹的思想，这未免奢求太过。你甚至可能并不希望如此。但对大多数作者来说，在绝大多数时候，这都是应该追求的目标。大多数写作与纯粹思想之间的差距，并不是用诗意来填补的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "8a78570c738b19b96c86439e5d9005fc814e9763b39623c3d1f58ab92f5092e4",
+      "enMarkdown": "Plus it's more considerate to write simply. When you write in a fancy way to impress people, you're making them do extra work just so you can seem cool. It's like trailing a long train behind you that readers have to carry.",
+      "zhMarkdown": "此外，简单写作也更体贴读者。当你为了给人留下深刻印象而用华丽的词藻写作时，你是在为了让自己显得很酷而让读者做额外的工作。这就像在你身后拖着一条长长的裙摆，而读者不得不帮你抬着。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "eddeede5e1c0d70a6ca2850e6ef44fefe8779d54bdf209ab8bee65963aff7e91",
+      "enMarkdown": "And remember, if you're writing in English, that a lot of your readers won't be native English speakers. Their understanding of ideas may be way ahead of their understanding of English. So you can't assume that writing about a difficult topic means you can use difficult words.",
+      "zhMarkdown": "而且请记住，如果你用英文写作，你的许多读者可能并不是英语母语者。他们对思想的理解能力可能远远超过他们对英语的掌握程度。因此，你不能因为写的是个深奥的话题，就理所当然地认为可以使用艰涩的词汇。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ba9dc3a8ea7d2899c2d78c056955184edfdb5f5e8b8afcfc365cb232a5fdbd25",
+      "enMarkdown": "Of course, fancy writing doesn't just conceal ideas. It can also conceal the lack of them. That's why some people write that way, to conceal the fact that they have [](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hermeneutic+dialectics+hegemonic+modalities) nothing to say. Whereas writing simply keeps you honest. If you say nothing simply, it will be obvious to everyone, including you.",
+      "zhMarkdown": "当然，华丽的文风不仅会掩盖思想，还会掩盖思想的匮乏。这就是为什么有些人会用那种方式写作——为了掩盖自己其实[](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hermeneutic+dialectics+hegemonic+modalities)无话可说。相比之下，简单的写作能让你保持诚实。如果你用简单的语言说了一堆废话，所有人都会一目了然，包括你自己。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "78ca16841080f3d233d6d5e1b1776384445d4315b3078c3f1ff96be9426ec048",
+      "enMarkdown": "Simple writing also lasts better. People reading your stuff in the future will be in much the same position as people from other countries reading it today. The culture and the language will have changed. It's not vain to care about that, any more than it's vain for a woodworker to build a chair to last.",
+      "zhMarkdown": "简单的文字也更经得起时间的考验。未来读你文章的人，处境会和今天其他国家读你文章的人非常相似。届时文化和语言都会发生变化。关心这一点并不算虚荣，就像木匠想把椅子造得经久耐用不算虚荣一样。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "b98f14e11d28ba5773c56ee792943a422519500054dc042bd1bd0d25584e1d8f",
+      "enMarkdown": "Indeed, lasting is not merely an accidental quality of chairs, or writing. It's a sign you did a good job.",
+      "zhMarkdown": "事实上，经久耐用不仅是椅子或文章的附带品质，更是你工作出色的标志。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "577a7c16b6e5cedf166a79d02f6bdddc718a5f6bd9dfe3136485d1c1f2bd7218",
+      "enMarkdown": "But although these are all real advantages of writing simply, none of them are why I do it. The main reason I write simply is that it offends me not to. When I write a sentence that seems too complicated, or that uses unnecessarily intellectual words, it doesn't seem fancy to me. It seems clumsy.",
+      "zhMarkdown": "虽然这些都是简单写作的切实好处，但都不是我这么做的原因。我写得简单，最主要的原因是如果不这么写，我会觉得浑身不舒服。当我写出一个似乎过于复杂、或者使用了不必要的生僻词汇的句子时，我并不觉得它华丽，反而觉得它笨拙。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e570e8d8d767d736ea2ac7688e5b851fe3551b500f9e752cfcec88f2b846ace5",
+      "enMarkdown": "There are of course times when you want to use a complicated sentence or fancy word for effect. But you should never do it by accident.",
+      "zhMarkdown": "当然，有时候为了某种效果，你会想要使用复杂的句子或华丽的词汇。但你绝不应该在无意中这么做。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "f82267490033a868a302833541693692f5ecd4d88619021c1c371a0a4b694662",
+      "enMarkdown": "The other reason my writing ends up being simple is the way I do it. I write the first draft fast, then spend days editing it, trying to get everything just right. Much of this editing is cutting, and that makes simple writing even simpler.",
+      "zhMarkdown": "我的文字最终变得简单的另一个原因，在于我的写作方式。我写初稿很快，然后花好几天时间去修改，试图让一切都恰到好处。这种修改大部分是在做减法，这让本就简单的文字变得更加简单了。"
+    }
+  ]
+}

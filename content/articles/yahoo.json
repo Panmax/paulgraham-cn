@@ -1,0 +1,279 @@
+{
+  "slug": "yahoo",
+  "titleEn": "What Happened to Yahoo",
+  "titleZh": "Yahoo 到底怎么了",
+  "dateText": "August 2010",
+  "publishedAt": "2010-08-01",
+  "sourceOrder": 103,
+  "sourceUrl": "https://paulgraham.com/yahoo.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "26eb2619accca1ae43176c47b1e5341b1b46c13ab965c91299fbe8bc58615941",
+      "enMarkdown": "When I went to work for Yahoo after they bought our startup in 1998, it felt like the center of the world. It was supposed to be the next big thing. It was supposed to be what Google turned out to be.",
+      "zhMarkdown": "1998 年 Yahoo 收购我们的创业公司后，我便去那里上班。当时，那里感觉就像是世界的中心。大家都觉得它会成为下一个巨头，成为后来 Google 所成就的那种角色。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "5be62ef836f68beb8d331760f34c536b9de0c1c4edd6a10a6d69f16dd9ce97b0",
+      "enMarkdown": "What went wrong? The problems that hosed Yahoo go back a long time, practically to the beginning of the company. They were already very visible when I got there in 1998. Yahoo had two problems Google didn't: easy money, and ambivalence about being a technology company.",
+      "zhMarkdown": "到底哪里出了问题？毁掉 Yahoo 的那些问题其实由来已久，几乎伴随了这家公司的始终。1998 年我刚到那里时，这些问题就已经非常明显了。比起 Google，Yahoo 有两个致命问题：一是钱来得太容易，二是对自己是否是一家技术公司摇摆不定。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "11f3cb2e9fd337f51d9f72bc91b053179a0ee1aaefac4a81300bbbdd386b156a",
+      "enMarkdown": "**Money**",
+      "zhMarkdown": "**钱**"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "3c25318ce53348cb4a0d3246439e164b79990c6a186013a6b7a8643d922f4287",
+      "enMarkdown": "The first time I met Jerry Yang, we thought we were meeting for different reasons. He thought we were meeting so he could check us out in person before buying us. I thought we were meeting so we could show him our new technology, Revenue Loop. It was a way of sorting shopping search results. Merchants bid a percentage of sales for traffic, but the results were sorted not by the bid but by the bid times the average amount a user would buy. It was like the algorithm Google uses now to sort ads, but this was in the spring of 1998, before Google was founded.",
+      "zhMarkdown": "我第一次见杨致远（Jerry Yang）时，我们双方都误会了对方的意图。他以为见面是为了在收购我们之前亲自把把关；我则以为见面是为了向他展示我们的新技术——Revenue Loop。那是一种对购物搜索结果进行排序的方法。商家根据销售额的一定比例竞标流量，但搜索结果不是仅按竞标价排序，而是按照竞标价乘以用户的平均购买额来排序。这非常像如今 Google 用来排列广告的算法，但那是在 1998 年的春天，当时 Google 甚至还没有成立。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "352928ec92a316166854b4aac4f19a7c010967c0dc8a03fa87ec959148f48222",
+      "enMarkdown": "Revenue Loop was the optimal sort for shopping search, in the sense that it sorted in order of how much money Yahoo would make from each link. But it wasn't just optimal in that sense. Ranking search results by user behavior also makes search better. Users train the search: you can start out finding matches based on mere textual similarity, and as users buy more stuff the search results get better and better.",
+      "zhMarkdown": "Revenue Loop 是购物搜索的最优排序方式，因为它是按照 Yahoo 能从每个链接中赚到多少钱来排序的。但它的妙处不仅限于此。根据用户行为对搜索结果进行排名，也能让搜索体验变得更好。用户在无形中训练了搜索系统：起初你可能只是基于纯文本相似度来匹配结果，但随着用户购买的商品越来越多，搜索结果就会变得越来越精准。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "cfc98404ed5bec322df331c3c49a38636af06abbd87a92465c953322611df1f5",
+      "enMarkdown": "Jerry didn't seem to care. I was confused. I was showing him technology that extracted the maximum value from search traffic, and he didn't care? I couldn't tell whether I was explaining it badly, or he was just very poker faced.",
+      "zhMarkdown": "但杨致远似乎根本不在乎。这让我很困惑。我正在向他展示一种能从搜索流量中榨取最大价值的技术，他居然无动于衷？我搞不清楚是因为自己没解释好，还是他城府太深、喜怒不形于色。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "8f4c277ca75b6a99fc26aee044533bd4acbce80381abd169ec25aaf8f1c78378",
+      "enMarkdown": "I didn't realize the answer till later, after I went to work at Yahoo. It was neither of my guesses. The reason Yahoo didn't care about a technique that extracted the full value of traffic was that advertisers were already overpaying for it. If Yahoo merely extracted the actual value, they'd have made less.",
+      "zhMarkdown": "直到后来去 Yahoo 工作，我才明白答案。我的两个猜测都不对。Yahoo 不在乎这种能榨干流量全部价值的技术，原因在于广告商当时给的钱已经溢价太多了。如果 Yahoo 仅仅按实际价值收费，他们赚的反而会变少。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "78f47087a0e174aac0b963cf33c091c4d10cd446fdf8eab58e14e17d935e9151",
+      "enMarkdown": "Hard as it is to believe now, the big money then was in banner ads. Advertisers were willing to pay ridiculous amounts for banner ads. So Yahoo's sales force had evolved to exploit this source of revenue. Led by a large and terrifyingly formidable man called Anil Singh, Yahoo's sales guys would fly out to Procter & Gamble and come back with million dollar orders for banner ad impressions.",
+      "zhMarkdown": "现在的人可能很难相信，当时真正的大钱都在横幅广告（banner ads）里。广告商愿意为横幅广告支付荒谬的暴利。因此，Yahoo 的销售团队也顺理成章地演化成了专门收割这种收入的机器。在一位名叫 Anil Singh、高大且强悍得令人望而生畏的男子的带领下，Yahoo 的销售员们会飞去宝洁公司（Procter & Gamble），然后带回数百万美元的横幅广告展示订单。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c2e95dca175a9ed0d988ef7d02f4f63258c98474b9f0e62ff688818b97fb5b67",
+      "enMarkdown": "The prices seemed cheap compared to print, which was what advertisers, for lack of any other reference, compared them to. But they were expensive compared to what they were worth. So these big, dumb companies were a dangerous source of revenue to depend on. But there was another source even more dangerous: other Internet startups.",
+      "zhMarkdown": "与纸媒相比，这些价格看起来很便宜——因为缺乏其他参考，广告商只能和纸媒对比。但与它们的实际效果相比，这些广告贵得离谱。因此，依赖这些庞大而愚蠢的公司作为收入来源是极其危险的。但当时还有另一个更危险的收入来源：其他的互联网创业公司。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "dbb0abfa9aab638a616915dbe8e83e7f415e40ec5accec3814d6b236cbfa5602",
+      "enMarkdown": "By 1998, Yahoo was the beneficiary of a de facto Ponzi scheme. Investors were excited about the Internet. One reason they were excited was Yahoo's revenue growth. So they invested in new Internet startups. The startups then used the money to buy ads on Yahoo to get traffic. Which caused yet more revenue growth for Yahoo, and further convinced investors the Internet was worth investing in. When I realized this one day, sitting in my cubicle, I jumped up like Archimedes in his bathtub, except instead of \"Eureka!\" I was shouting \"Sell!\"",
+      "zhMarkdown": "到了 1998 年，Yahoo 实际上成了一场庞氏骗局的受益者。投资者对互联网狂热不已。他们狂热的原因之一就是 Yahoo 的营收增长。于是他们投资新的互联网创业公司。接着，这些创业公司用拿到的投资去 Yahoo 买广告以获取流量。这又导致 Yahoo 的营收进一步增长，进而让投资者更加确信互联网值得投资。有一天，我坐在自己的格子间里突然想通了这一点，像浴缸里的阿基米德一样跳了起来，只不过我嘴里喊的不是“尤里卡！”，而是“快抛售！”"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "4c0d9ca5d7f16d0c9be7332551181f90b0f776e250d890d9b52c83976fef052e",
+      "enMarkdown": "Both the Internet startups and the Procter & Gambles were doing brand advertising. They didn't care about targeting. They just wanted lots of people to see their ads. So traffic became the thing to get at Yahoo. It didn't matter what type. [[1](#f1n)]",
+      "zhMarkdown": "无论是互联网创业公司还是宝洁，当时做的都是品牌广告。他们不在乎精准投放，只想要海量的曝光。因此，获取流量成了 Yahoo 的唯一目标。至于是什么流量，根本无所谓。[[1](#f1n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "8e2f75917318bae054e6e94440db80b02d8d41072daa9c378d3715c2f2ac0b38",
+      "enMarkdown": "It wasn't just Yahoo. All the search engines were doing it. This was why they were trying to get people to start calling them \"portals\" instead of \"search engines.\" Despite the actual meaning of the word portal, what they meant by it was a site where users would find what they wanted on the site itself, instead of just passing through on their way to other destinations, as they did at a search engine.",
+      "zhMarkdown": "不只是 Yahoo，当时所有的搜索引擎都在这么做。这也是为什么他们试图让人们改口称他们为“门户网站”（portals）而不是“搜索引擎”。尽管“门户”这个词字面意思并非如此，但他们真正的意图是想做一个让用户留在站内获取所需内容的网站，而不是像搜索引擎那样，用户只是路过、随搜随走。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "dc94937584fd1247ba9c35d201606478ce76275360a235b59fb52553a7435431",
+      "enMarkdown": "I remember telling David Filo in late 1998 or early 1999 that Yahoo should buy Google, because I and most of the other programmers in the company were using it instead of Yahoo for search. He told me that it wasn't worth worrying about. Search was only 6% of our traffic, and we were growing at 10% a month. It wasn't worth doing better.",
+      "zhMarkdown": "我记得在 1998 年底或 1999 年初，我跟大卫·费罗（David Filo）说 Yahoo 应该买下 Google，因为我和公司里的大多数程序员都在用 Google 代替 Yahoo 搜索。他告诉我这不值得担心。搜索只占我们流量的 6%，而我们当时正以每月 10% 的速度增长。不值得花精力去把它做得更好。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "45a90faec201374321d69fc1b151aa155812364a143032fe2c01efa2a47938fb",
+      "enMarkdown": "I didn't say \"But search traffic is worth more than other traffic!\" I said \"Oh, ok.\" Because I didn't realize either how much search traffic was worth. I'm not sure even Larry and Sergey did then. If they had, Google presumably wouldn't have expended any effort on enterprise search.",
+      "zhMarkdown": "我当时没有反驳说“但是搜索流量比其他流量值钱得多！”我只是说“哦，好吧。”因为当时我也没有意识到搜索流量到底有多值钱。我敢说，哪怕是当时的拉里（Larry）和谢尔盖（Sergey）也未必清楚。如果他们知道，Google 大概就不会在企业搜索（enterprise search）上浪费任何精力了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "ab7d6eaa8204c304cda28f17aadd6b9d3d07e2a11bf044bd4a8729e062c5e5a8",
+      "enMarkdown": "If circumstances had been different, the people running Yahoo might have realized sooner how important search was. But they had the most opaque obstacle in the world between them and the truth: money. As long as customers were writing big checks for banner ads, it was hard to take search seriously. Google didn't have that to distract them.",
+      "zhMarkdown": "如果境况有所不同，Yahoo 的管理层或许能更早意识到搜索的重要性。但在他们与真相之间，隔着世界上最令人目盲的障碍：钱。只要客户还在源源不断地为横幅广告开出巨额支票，你就很难把搜索当回事。而 Google 则没有这种干扰。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "cd4d1f52d6852c36cabc2dfea88cad00bb903726aaf659fec61535b2704bb7d3",
+      "enMarkdown": "**Hackers**",
+      "zhMarkdown": "**黑客**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "89f0a9e0f16fbb0805dc107a9e6565f1f9f0ae95a89a6bf0cb4ca8928e701665",
+      "enMarkdown": "But Yahoo also had another problem that made it hard to change directions. They'd been thrown off balance from the start by their ambivalence about being a technology company.",
+      "zhMarkdown": "但 Yahoo 还有另一个问题，导致它很难调整方向。从一开始，他们就因为对自己是否是一家技术公司摇摆不定，而失去了根基。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "e682682bf82a0d8bafbf3ff077a7a29b712afa305a9d4850cd4015688ff0472b",
+      "enMarkdown": "One of the weirdest things about Yahoo when I went to work there was the way they insisted on calling themselves a \"media company.\" If you walked around their offices, it seemed like a software company. The cubicles were full of programmers writing code, product managers thinking about feature lists and ship dates, support people (yes, there were actually support people) telling users to restart their browsers, and so on, just like a software company. So why did they call themselves a media company?",
+      "zhMarkdown": "我刚去 Yahoo 工作时，最诡异的事情之一就是他们坚称自己是一家“媒体公司”。如果你在他们的办公室里走一圈，这里怎么看都像是一家软件公司。格子间里塞满了写代码的程序员、琢磨功能列表和发布日期的产品经理、以及告诉用户重启浏览器的客服人员（没错，当时居然真的有客服），这完全就是一家软件公司。那他们为什么非要自称媒体公司呢？"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "b3f02c2ce71ec89df1ea2fc876435251d97e2b205d5e53d76382899920ac3652",
+      "enMarkdown": "One reason was the way they made money: by selling ads. In 1995 it was hard to imagine a technology company making money that way. Technology companies made money by selling their software to users. Media companies sold ads. So they must be a media company.",
+      "zhMarkdown": "原因之一是他们的赚钱方式：卖广告。在 1995 年，很难想象一家技术公司能靠这种方式赚钱。技术公司靠向用户卖软件赚钱，媒体公司才靠卖广告赚钱。所以，他们觉得自己一定是家媒体公司。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "b8df85971a41d2820a3c001dc888515323abd8f4fd9aa4c8652f66d902a8e2a1",
+      "enMarkdown": "Another big factor was the fear of Microsoft. If anyone at Yahoo considered the idea that they should be a technology company, the next thought would have been that Microsoft would crush them.",
+      "zhMarkdown": "另一个大因素是对微软的恐惧。如果 Yahoo 有人动过“我们应该成为一家技术公司”的念头，下一个闪过的念头必然是微软会捏死他们。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "507c5406993d2adbd21259f5b995c79d292a0338811a8fb9a1d07300b5cfe75d",
+      "enMarkdown": "It's hard for anyone much younger than me to understand the fear Microsoft still inspired in 1995. Imagine a company with several times the power Google has now, but way meaner. It was perfectly reasonable to be afraid of them. Yahoo watched them crush the first hot Internet company, Netscape. It was reasonable to worry that if they tried to be the next Netscape, they'd suffer the same fate. How were they to know that Netscape would turn out to be Microsoft's last victim?",
+      "zhMarkdown": "比我年轻很多的人很难理解 1995 年时微软所散发的恐怖威慑力。想象一下，一家拥有数倍于如今 Google 的权势、但手段阴狠得多的公司。害怕他们是完全合情合理的。Yahoo 眼睁睁看着他们干掉了第一家爆火的互联网公司 Netscape。Yahoo 担心如果自己试图成为下一个 Netscape，就会落得同样的下场，这完全是合理的。他们当时怎么会知道，Netscape 居然会是微软最后的受害者？"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "2df950cafc969c720c6d4049b3257c1492f36e0666bf39500b62738559aac3ce",
+      "enMarkdown": "It would have been a clever move to pretend to be a media company to throw Microsoft off their scent. But unfortunately Yahoo actually tried to be one, sort of. Project managers at Yahoo were called \"producers,\" for example, and the different parts of the company were called \"properties.\" But what Yahoo really needed to be was a technology company, and by trying to be something else, they ended up being something that was neither here nor there. That's why Yahoo as a company has never had a sharply defined identity.",
+      "zhMarkdown": "如果只是为了迷惑微软、避其锋芒而假装是一家媒体公司，那不失为一记妙招。但糟糕的是，Yahoo 真的在试图成为一家媒体公司。比如，Yahoo 的项目经理被称作“制片人”（producers），公司的不同业务板块被称作“资产”（properties）。但 Yahoo 真正需要成为的其实是一家技术公司，由于东施效颦，他们最终成了一个不伦不类的存在。这就是为什么 Yahoo 作为一家公司，从未有过鲜明清晰的定位。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "4a5891cf82695d1e6170fe25d6c4d61ea225c8a9cac6a4104cd5aae2094c2cb9",
+      "enMarkdown": "The worst consequence of trying to be a media company was that they didn't take programming seriously enough. Microsoft (back in the day), Google, and Facebook have all had hacker-centric cultures. But Yahoo treated programming as a commodity. At Yahoo, user-facing software was controlled by product managers and designers. The job of programmers was just to take the work of the product managers and designers the final step, by translating it into code.",
+      "zhMarkdown": "试图成为媒体公司最坏的后果，就是他们没有给予编程足够的重视。微软（当年）、Google 和 Facebook 都拥有以黑客为中心的文化。但 Yahoo 却把编程当成了一种廉价的劳动力。在 Yahoo，面向用户的软件是由产品经理和设计师主导的。程序员的工作仅仅是把产品经理和设计师的工作进行最后一步的落地——把它们翻译成代码。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "89f69fe5263a5e9439ac4eb859bf87882f2eaddfe4adb5f76560ef5ea67eb12a",
+      "enMarkdown": "One obvious result of this practice was that when Yahoo built things, they often weren't very good. But that wasn't the worst problem. The worst problem was that they hired bad programmers.",
+      "zhMarkdown": "这种做法的一个显而易见的结果是，Yahoo 做出来的东西往往不怎么好。但这还不是最糟糕的。最糟糕的是，他们招了一群平庸的程序员。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "bb19b7feaef856e83b53a1c8c032418289bb1f9682c940adefc42b0ac5ed3eeb",
+      "enMarkdown": "Microsoft (back in the day), Google, and Facebook have all been obsessed with hiring the best programmers. Yahoo wasn't. They preferred good programmers to bad ones, but they didn't have the kind of single-minded, almost obnoxiously elitist focus on hiring the smartest people that the big winners have had. And when you consider how much competition there was for programmers when they were hiring, during the Bubble, it's not surprising that the quality of their programmers was uneven.",
+      "zhMarkdown": "微软（当年）、Google 和 Facebook 都对招聘最顶尖的程序员有着近乎偏执的追求。Yahoo 则不然。他们虽然更喜欢优秀的程序员而非平庸的，但他们并没有那些超级赢家所具备的、那种心无旁骛、甚至到了令人反感的精英主义式的对聪明人的执念。再考虑到互联网泡沫时期程序员的竞争有多激烈，Yahoo 的程序员水平参差不齐也就不足为奇了。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "d475233f04f6e66debf540f1d9aaffb103cd7a7b4e225b0e691cf6d3f533faf1",
+      "enMarkdown": "In technology, once you have bad programmers, you're doomed. I can't think of an instance where a company has sunk into technical mediocrity and recovered. Good programmers want to work with other good programmers. So once the quality of programmers at your company starts to drop, you enter a death spiral from which there is no recovery. [[2](#f2n)]",
+      "zhMarkdown": "在技术行业，一旦你开始用平庸的程序员，你就注定完蛋了。我想不出有哪家公司在陷入技术平庸后还能起死回生的。优秀的程序员只想和优秀的程序员一起工作。因此，一旦你公司的程序员质量开始下滑，你就会陷入万劫不复的死亡螺旋。[[2](#f2n)]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "83309e0a88b8b21c3c6dd76d37589fdc530326461ff7b448ac5526838404ae8a",
+      "enMarkdown": "At Yahoo this death spiral started early. If there was ever a time when Yahoo was a Google-style talent magnet, it was over by the time I got there in 1998.",
+      "zhMarkdown": "在 Yahoo，这种死亡螺旋很早就开始了。如果说 Yahoo 曾经有过像 Google 那样对顶尖人才的磁石般吸引力，那么在我 1998 年加入时，这种吸引力就已经消失殆尽了。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "6906dcb0b6f5f4cae17e33f21f25c2d9004237a6c55b7d05aa2982cf6856ae93",
+      "enMarkdown": "The company felt prematurely old. Most technology companies eventually get taken over by suits and middle managers. At Yahoo it felt as if they'd deliberately accelerated this process. They didn't want to be a bunch of hackers. They wanted to be suits. A media company should be run by suits.",
+      "zhMarkdown": "这家公司散发着一种未老先衰的气息。大多数技术公司最终都会被穿西装的职业经理人接管。但在 Yahoo，感觉他们是刻意加速了这一过程。他们不想做一群黑客，他们想做西装革履的体面人。毕竟，媒体公司就应该由职业经理人来打理。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "d07b678a5c563f6cb9d58b370def791b30e2b6d2003a139a376c49273efdeeb5",
+      "enMarkdown": "The first time I visited Google, they had about 500 people, the same number Yahoo had when I went to work there. But boy did things seem different. It was still very much a hacker-centric culture. I remember talking to some programmers in the cafeteria about the problem of gaming search results (now known as SEO), and they asked \"what should we do?\" Programmers at Yahoo wouldn't have asked that. Theirs was not to reason why; theirs was to build what product managers spec'd. I remember coming away from Google thinking \"Wow, it's still a startup.\"",
+      "zhMarkdown": "我第一次去 Google 拜访时，他们大约有 500 人，和我刚去 Yahoo 时的人数相当。但天哪，两边的氛围简直天差地别。Google 依然保留着非常浓厚的以黑客为中心的文化。我记得在食堂和几个程序员聊起如何对付垃圾搜索结果（也就是现在的 SEO）时，他们问我：“我们该怎么办？”Yahoo 的程序员是绝对不会问这种问题的。他们的职责不是思考为什么，而是去把产品经理写好规格说明书的东西造出来。我记得当时离开 Google 时心想：“哇，这依然是一家创业公司。”"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "f39cd25d6b6dfc3fa3e0772c66dd910cdf3a8739dea432b633577844d447fe56",
+      "enMarkdown": "There's not much we can learn from Yahoo's first fatal flaw. It's probably too much to hope any company could avoid being damaged by depending on a bogus source of revenue. But startups can learn an important lesson from the second one. In the software business, you can't afford not to have a hacker-centric culture.",
+      "zhMarkdown": "Yahoo 的第一个致命错误对我们没有太多的借鉴意义。指望任何一家公司在依赖虚假收入来源时能免受其害，大概是不切实际的。但创业公司可以从第二个错误中吸取一个重要的教训：在软件行业，你输不起“以黑客为中心”的文化。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "9f2d2c67b347c07b455f6678da715a394bc77f27d06229c64048fb373bfeab1f",
+      "enMarkdown": "Probably the most impressive commitment I've heard to having a hacker-centric culture came from Mark Zuckerberg, when he spoke at Startup School in 2007. He said that in the early days Facebook made a point of hiring programmers even for jobs that would not ordinarily consist of programming, like HR and marketing.",
+      "zhMarkdown": "关于坚持以黑客为中心的文化，我听过最令人印象深刻的表态来自马克·扎克伯格（Mark Zuckerberg），那是他在 2007 年的 Startup School 演讲中说的。他说，在 Facebook 早期，他们甚至在招聘通常不需要写代码的岗位（比如人力资源和市场营销）时，也会特意去招懂编程的人。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "859d72467c00ff5f11766acef8d693cc141f4934c480bd20e08bf48136e33224",
+      "enMarkdown": "So which companies need to have a hacker-centric culture? Which companies are \"in the software business\" in this respect? As Yahoo discovered, the area covered by this rule is bigger than most people realize. The answer is: any company that needs to have good software.",
+      "zhMarkdown": "那么，哪些公司需要以黑客为中心的文化？在这方面，哪些公司算得上是“在软件行业”？正如 Yahoo 后来发现的那样，这条规则适用的范围比大多数人想象的要大得多。答案是：任何需要优秀软件的公司。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "34ba31a22e03aa2f9a60970ac68a3b3d36903a0cc96135751e9dc0ae6c964e9c",
+      "enMarkdown": "Why would great programmers want to work for a company that didn't have a hacker-centric culture, as long as there were others that did? I can imagine two reasons: if they were paid a huge amount, or if the domain was interesting and none of the companies in it were hacker-centric. Otherwise you can't attract good programmers to work in a suit-centric culture. And without good programmers you won't get good software, no matter how many people you put on a task, or how many procedures you establish to ensure \"quality.\"",
+      "zhMarkdown": "既然有其他重视黑客文化的公司可选，优秀的程序员为什么会想去一家由职业经理人主导的公司工作？我想只有两种可能：要么给的钱实在太多，要么该领域足够有趣而业内又没有任何一家公司重视黑客文化。否则，你根本无法吸引优秀的程序员去官僚气息浓厚的环境里工作。而没有优秀的程序员，无论你往项目里堆多少人，或者制定多少套确保“质量”的流程，你都无法做出优秀的软件。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "0f116b47c6e342ef814f03d6a1ae3ec045f5179793f8ea27a8339466e7d36f23",
+      "enMarkdown": "[Hacker culture](https://paulgraham.com/gba.html) often seems kind of irresponsible. That's why people proposing to destroy it use phrases like \"adult supervision.\" That was the phrase they used at Yahoo. But there are worse things than seeming irresponsible. Losing, for example.",
+      "zhMarkdown": "[黑客文化](https://paulgraham.com/gba.html)往往显得有些不靠谱。这就是为什么那些企图消灭它的人会使用“成年人监管”之类的词。这也是当年 Yahoo 流行的话术。但世界上还有比显得不靠谱更糟糕的事。比如，输。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "329fc3ec8fda17c15690bb56185d10153a6a4ce62ae05d34a7e2ab47ae8cd095",
+      "enMarkdown": "[1] The closest we got to targeting when I was there was when we created pets.yahoo.com in order to provoke a bidding war between 3 pet supply startups for the spot as top sponsor.",
+      "zhMarkdown": "[1] 我在 Yahoo 期间，我们最接近精准投放的一次尝试是创建了 pets.yahoo.com，目的是挑起 3 家宠物用品创业公司之间的竞价大战，争夺顶级赞助商席位。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "0f3225becd2f0507de3c9519fce890a903f29e057a8713f43f50c4dc979b9427",
+      "enMarkdown": "[2] In theory you could beat the death spiral by buying good programmers instead of hiring them. You can get programmers who would never have come to you as employees by buying their startups. But so far the only companies smart enough to do this are companies smart enough not to need to.",
+      "zhMarkdown": "[2] 理论上，你可以通过买下优秀的程序员而不是招聘他们来打破这个死亡螺旋。通过收购他们的创业公司，你可以得到那些绝不会主动来你这里求职的程序员。但到目前为止，只有足够聪明的公司才会这么做，而这些公司聪明到根本不需要用这种方式来救急。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "62546c56717dbd2504ac5c5a1d6c448a854191dffe421a19ea31db6b83587397",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, and Geoff Ralston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston 和 Geoff Ralston 阅读本文草稿。"
+    }
+  ]
+}

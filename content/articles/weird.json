@@ -1,0 +1,62 @@
+{
+  "slug": "weird",
+  "titleEn": "Weird Languages",
+  "titleZh": "特立独行的语言",
+  "dateText": "August 2021",
+  "publishedAt": "2021-08-01",
+  "sourceOrder": 27,
+  "sourceUrl": "https://paulgraham.com/weird.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "e3d33fd7828505ad94e08adbd17708d964a98db8af7d6fd4d4fd419ad9fe93ef",
+      "enMarkdown": "When people say that in their experience all programming languages are basically equivalent, they're making a statement not about languages but about the kind of programming they've done.",
+      "zhMarkdown": "当人们根据自身经验，声称所有编程语言基本上都大同小异时，他们表达的其实不是对语言的见解，而是对自己所做过的编程工作的陈述。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "69e114ceb6ddd9b97eec1d6a58cc0ab8356cd48b3413761b53e4d0fc4a04a878",
+      "enMarkdown": "99.5% of programming consists of gluing together calls to library functions. All popular languages are equally good at this. So one can easily spend one's whole career operating in the intersection of popular programming languages.",
+      "zhMarkdown": "99.5% 的编程工作不过是将各种库函数的调用拼接在一起。在这一点上，所有流行语言都同样在行。因此，一个人很容易在流行编程语言的交集里度过整个职业生涯。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "fc8934a8d4d30d18148aec80385b8367780024c216bfd996635214b3e52c7fac",
+      "enMarkdown": "But the other .5% of programming is disproportionately interesting. If you want to learn what it consists of, the weirdness of weird languages is a good clue to follow.",
+      "zhMarkdown": "但剩下 0.5% 的编程工作却有着非同寻常的趣味。如果你想探寻这部分工作究竟包含什么，那些特立独行语言的奇特之处，就是一个非常值得追踪的线索。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "acd1406e3ec25b4639c9c3edca046a4ab6058ff5b5e1e1dd811e1dac68502634",
+      "enMarkdown": "Weird languages aren't weird by accident. Not the good ones, at least. The weirdness of the good ones usually implies the existence of some form of programming that's not just the usual gluing together of library calls.",
+      "zhMarkdown": "这些语言的奇特并非偶然。至少那些优秀的语言绝非如此。优秀语言的奇特之处，通常意味着存在某种并非“拼接库函数调用”的编程形式。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "3d46c9415578ae7803f655cccc38089a551010e02fb746e17318e3ca3ba9ee1f",
+      "enMarkdown": "A concrete example: Lisp macros. Lisp macros seem weird even to many Lisp programmers. They're not only not in the intersection of popular languages, but by their nature would be hard to implement properly in a language without turning it into a dialect of Lisp. And macros are definitely evidence of techniques that go beyond glue programming. For example, solving problems by first writing a language for problems of that type, and then writing your specific application in it. Nor is this all you can do with macros; it's just one region in a space of program-manipulating techniques that even now is far from fully explored.",
+      "zhMarkdown": "举个具体例子：Lisp 宏（macros）。即便对许多 Lisp 程序员来说，Lisp 宏也显得很奇特。它们不仅不在流行语言的交集之内，而且由于其本质，如果不把一种语言变成 Lisp 的某种方言，就很难在其中妥善实现宏。宏绝对证明了存在超越“胶水式编程”的技术。例如，先编写一种专门针对此类问题的语言，然后用这种语言编写你具体的应用程序，以此来解决问题。这还不是宏的全部用途，它只是程序操作技术空间中的一个领域，而这个空间即便在今天也远未被充分探索。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3519d295ef7c5aef772632aa0603714bd5309a1a14d0d7b84338d2116fe1d065",
+      "enMarkdown": "So if you want to expand your concept of what programming can be, one way to do it is by learning weird languages. Pick a language that most programmers consider weird but whose median user is smart, and then focus on the differences between this language and the intersection of popular languages. What can you say in this language that would be impossibly inconvenient to say in others? In the process of learning how to say things you couldn't previously say, you'll probably be learning how to think things you couldn't previously think.",
+      "zhMarkdown": "因此，如果你想拓宽自己对编程本质的认知，方法之一就是去学习那些特立独行的语言。挑选一门大多数程序员认为奇特、但其主流用户却很聪明的语言，然后把注意力放在这门语言与流行语言交集之间的差异上。在这门语言中，有哪些东西是你在其他语言中极其不便表达的？在学会如何表达那些你以前无法表达的事物的过程中，你很可能也会学会如何思考那些你以前无法思考的事情。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5b8a307be1a669f764672378deeca86b5a4c02b08995829600f006a58d0ac917",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Patrick Collison, Daniel Gackle, Amjad Masad, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Patrick Collison、Daniel Gackle、Amjad Masad 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

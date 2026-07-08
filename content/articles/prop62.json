@@ -1,0 +1,69 @@
+{
+  "slug": "prop62",
+  "titleEn": "This Year We Can End the Death Penalty in California",
+  "titleZh": "今年，我们可以结束加州的死刑",
+  "dateText": "November 2016",
+  "publishedAt": "2016-11-01",
+  "sourceOrder": 226,
+  "sourceUrl": "https://paulgraham.com/prop62.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "36ed92c05dab7aa2e7b7a7b664baaf11cda71bae9deb07755d1f0d2eb9c177c5",
+      "enMarkdown": "If you're a California voter, there is an important proposition on your ballot this year: Proposition 62, which bans the death penalty.",
+      "zhMarkdown": "如果你是加利福尼亚州的选民，今年你的选票上有一项重要的提案：第 62 号提案（Proposition 62），该提案旨在废除死刑。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "e17f9cde48521f379d39d3b09c094e1a38b330e9eece8fc64d8a2940edd4031c",
+      "enMarkdown": "When I was younger I used to think the debate about the death penalty was about when it's ok to take a human life. Is it ok to kill a killer?",
+      "zhMarkdown": "年轻的时候，我曾以为关于死刑的争论焦点在于什么时候可以剥夺一个人的生命。杀死一个杀人犯，这是否可行？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "374bbb3514f0df5190d4110fb51de8c55ac4e6adf73a567f2128ce323e097d03",
+      "enMarkdown": "But that is not the issue here.",
+      "zhMarkdown": "但现实中的问题根本不在这里。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4972ada09b5cba214951cb38d70bf48681c8b2f40504a168d6965620f4f98f04",
+      "enMarkdown": "The real world does not work like the version I was shown on TV growing up. The police often arrest the wrong person. Defendants' lawyers are often incompetent. And prosecutors are often motivated more by publicity than justice.",
+      "zhMarkdown": "现实世界并不像我从小在电视上看到的那样运转。警察经常抓错人，被告的律师经常能力不足，而检察官往往更容易受到出名露脸的诱惑，而不是出于对正义的追求。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "3324099f61214c4a5e23bd3d247c73218ad2df3009eec2e059bf96839e5a0f22",
+      "enMarkdown": "In the real world, [about 4%](http://time.com/79572/more-innocent-people-on-death-row-than-estimated-study/) of people sentenced to death are innocent. So this is not about whether it's ok to kill killers. This is about whether it's ok to kill innocent people.",
+      "zhMarkdown": "在现实世界中，被判处死刑的人里[大约有 4%](http://time.com/79572/more-innocent-people-on-death-row-than-estimated-study/)是无辜的。所以，这根本不是“杀死杀人犯是否可行”的问题，而是“杀死无辜的人是否可行”的问题。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "4d04057c291bc5375c1e66f77cfd8eccb87c76229ef3a56efb666b30b3e31efd",
+      "enMarkdown": "A child could answer that one for you.",
+      "zhMarkdown": "这个问题，连小孩子都能给你答案。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "34e8b02f6a82b6c18eff475a5ccee5499ddf58084c0da2c78f5e434af0fd3061",
+      "enMarkdown": "This year, in California, you have a chance to end this, by voting yes on Proposition 62. But beware, because there is another proposition, Proposition 66, whose goal is to make it easier to execute people. So yes on 62, no on 66.",
+      "zhMarkdown": "今年，在加州，你有一个终结这一切的机会，那就是对第 62 号提案投赞成票（Yes）。但要小心，因为还有另一个提案——第 66 号提案，其目的是为了让执行死刑变得更容易。所以，请对 62 号提案投赞成票，对 66 号提案投反对票（No）。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8b5040ccf684ac9e1052305cd08a026e957654586f6a2dc3dcbe1bb89fddf4be",
+      "enMarkdown": "It's time.",
+      "zhMarkdown": "是时候了。"
+    }
+  ]
+}

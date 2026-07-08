@@ -1,0 +1,300 @@
+{
+  "slug": "google",
+  "titleEn": "How to Start Google",
+  "titleZh": "如何创办 Google",
+  "dateText": "March 2024",
+  "publishedAt": "2024-03-01",
+  "sourceOrder": 15,
+  "sourceUrl": "https://paulgraham.com/google.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "634d8c2de17aeaaa4dbd575053d4ea527cbf6b24badb01e2376a7b978f81e7d1",
+      "enMarkdown": "*(This is a talk I gave to 14 and 15 year olds about what to do now\nif they might want to start a startup later. Lots of schools think\nthey should tell students something about startups. This is what I\nthink they should tell them.)*",
+      "zhMarkdown": "*(这是我给一群 14、15 岁孩子做的演讲，内容是如果他们以后想创办一家创业公司，现在该做些什么。很多学校觉得应该给学生讲讲创业，这就是我认为学校应该告诉他们的内容。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "863ed5adc6f46d016508e552e06680fd67c918af5a8938fe8f095faae51b5bd2",
+      "enMarkdown": "Most of you probably think that when you're released into the so-called real world you'll eventually have to get some kind of job. That's not true, and today I'm going to talk about a trick you can use to avoid ever having to get a job.",
+      "zhMarkdown": "你们大多数人可能觉得，等你们被放进所谓的“真实世界”后，迟早得找份工作。其实不然。今天，我就来教大家一个绝招，让你一辈子都不用去打工。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "770c2d4e3a4d32fc3059b0512ea8032eec875a779e4e177ffe834986f2fba019",
+      "enMarkdown": "The trick is to start your own company. So it's not a trick for avoiding *work*, because if you start your own company you'll work harder than you would if you had an ordinary job. But you will avoid many of the annoying things that come with a job, including a boss telling you what to do.",
+      "zhMarkdown": "这个绝招就是创办自己的公司。所以，这并不是一个逃避“工作”的招数，因为如果你自己创业，你会比做一份普通工作干得更卖力。但你确实能免去打工带来的许多烦心事，比如不用听老板对你指手画脚。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a7db683f610c6f786a7dc0453d7c494390edf394c431f565ea9646d9cc3e920e",
+      "enMarkdown": "It's more exciting to work on your own project than someone else's. And you can also get a lot richer. In fact, this is the standard way to get [really rich](https://paulgraham.com/richnow.html). If you look at the lists of the richest people that occasionally get published in the press, nearly all of them did it by starting their own companies.",
+      "zhMarkdown": "做自己的项目显然比做别人的项目更让人兴奋。而且，你还能变得富有得多。事实上，这是变得[极其富有](https://paulgraham.com/richnow.html)的标配路径。如果你去翻翻媒体偶尔公布的富豪榜，就会发现几乎所有人都是通过创办自己的公司来实现这一目标的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "16a735bea37eefa3433d8a7a6ff2818d1c0defc9d380d357f0e4da1016b52cce",
+      "enMarkdown": "Starting your own company can mean anything from starting a barber shop to starting Google. I'm here to talk about one extreme end of that continuum. I'm going to tell you how to start Google.",
+      "zhMarkdown": "创办自己的公司可以指任何事，小到开一家理发店，大到创办 Google。我今天想聊的是这个光谱里最极端的一端。我要告诉你们，如何去创办一家像 Google 这样的公司。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "2f63cf97d5713c198832975ba687cbdd414953c30808aa6510a7c56994d2a6f8",
+      "enMarkdown": "The companies at the Google end of the continuum are called startups when they're young. The reason I know about them is that my wife Jessica and I started something called Y Combinator that is basically a startup factory. Since 2005, Y Combinator has funded over 4000 startups. So we know exactly what you need to start a startup, because we've helped people do it for the last 19 years.",
+      "zhMarkdown": "处于 Google 这一端的公司在年轻时被称为“创业公司”。我之所以了解它们，是因为我和妻子 Jessica 创办了一个叫 Y Combinator 的机构，它基本上就是一个创业公司工厂。自 2005 年以来，Y Combinator 已经资助了 4000 多家创业公司。所以我们非常清楚创办一家创业公司需要什么，因为在过去的 19 年里，我们一直在帮人们做这件事。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "011234f84ad2f34d63b34355f330b18738b50eaa949343f380946652f33254be",
+      "enMarkdown": "You might have thought I was joking when I said I was going to tell you how to start Google. You might be thinking \"How could *we* start Google?\" But that's effectively what the people who did start Google were thinking before they started it. If you'd told Larry Page and Sergey Brin, the founders of Google, that the company they were about to start would one day be worth over a trillion dollars, their heads would have exploded.",
+      "zhMarkdown": "我说要教你们如何创办 Google 时，你可能以为我在开玩笑。你心里可能在想：“*我们*怎么可能创办 Google 呢？”但实际上，Google 的创始人在动手之前也是这么想的。如果你当年告诉 Larry Page 和 Sergey Brin，他们即将创办的公司有一天会价值超过一万亿美元，他们的脑子肯定会当场炸掉。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "7b45d184a0caeb2348f04d21c330544defdcc87d720c039affad827a92e5af43",
+      "enMarkdown": "All you can know when you start working on a startup is that it seems worth pursuing. You can't know whether it will turn into a company worth billions or one that goes out of business. So when I say I'm going to tell you how to start Google, I mean I'm going to tell you how to get to the point where you can start a company that has as much chance of being Google as Google had of being Google. [[1](#f1n)]",
+      "zhMarkdown": "当你开始折腾一个创业公司时，你唯一能知道的，就是这件事似乎值得一试。你根本无法预知它会变成一家市值百亿的公司，还是会直接倒闭。所以，当我说要教你如何创办 Google 时，我的意思是：我要告诉你如何达到这样一个起点，在这个起点上，你创办的公司能拥有像当年的 Google 一样，成为 Google 的机会。[[1](#f1n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ba3a947e619b0befe2c50cb8e55d6d5892b4cff73eb96ca013d4ff3f6ebceaa0",
+      "enMarkdown": "How do you get from where you are now to the point where you can start a successful startup? You need three things. You need to be good at some kind of technology, you need an idea for what you're going to build, and you need cofounders to start the company with.",
+      "zhMarkdown": "你如何从现在的起点，走到能够创办一家成功创业公司的终点？你需要三样东西：你需要精通某种技术，你需要一个你想做的事情的点子，你还需要志同道合的联合创始人一起创办公司。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e4e92615d32c0edf37c1b4f28402c9794842de4446ae417300064085772578dd",
+      "enMarkdown": "How do you get good at technology? And how do you choose which technology to get good at? Both of those questions turn out to have the same answer: work on your own projects. Don't try to guess whether gene editing or LLMs or rockets will turn out to be the most valuable technology to know about. No one can predict that. Just work on whatever interests you the most. You'll work much harder on something you're interested in than something you're doing because you think you're supposed to.",
+      "zhMarkdown": "如何精通技术？又该如何选择去精通哪种技术？这两个问题其实有着同一个答案：做你自己的项目。不要试图去猜测基因编辑、大语言模型还是火箭会成为未来最有价值的技术。没人能预测这一点。只管去折腾你最感兴趣的东西。在自己感兴趣的事情上，你付出的努力会远远超过那些你仅仅因为“觉得应该做”而做的事情。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f06d59353413a33ae1ee8eb506cf84c2e52ff6c5cb8b21fce291a487ece960d9",
+      "enMarkdown": "If you're not sure what technology to get good at, get good at programming. That has been the source of the median startup for the last 30 years, and this is probably not going to change in the next 10.",
+      "zhMarkdown": "如果你不确定该精通哪种技术，那就去学编程。在过去 30 年里，绝大多数创业公司都诞生于此，而且在接下来的 10 年里，这种情况大概率不会改变。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "b0e071bfc49a31058096a9648109979cf4385ac76b151316098cc09f86ed987b",
+      "enMarkdown": "Those of you who are taking computer science classes in school may at this point be thinking, ok, we've got this sorted. We're already being taught all about programming. But sorry, this is not enough. You have to be working on your own projects, not just learning stuff in classes. You can do well in computer science classes without ever really learning to program. In fact you can graduate with a degree in computer science from a top university and still not be any good at programming. That's why tech companies all make you take a coding test before they'll hire you, regardless of where you went to university or how well you did there. They know grades and exam results prove nothing.",
+      "zhMarkdown": "你们中正在学校上计算机课的人可能会想：行了，这事我们已经搞定了，学校已经在教我们编程了。但很抱歉，这远远不够。你必须做自己的项目，而不仅仅是在课堂上听课。你可以在计算机课上拿高分，却从未真正学会编程。事实上，你甚至可以从顶尖大学拿到计算机学位毕业，但依然不会编程。这就是为什么所有的科技公司在录用你之前，不管你上的是哪所大学、成绩有多好，都要让你做代码测试。他们很清楚，绩点和考试成绩什么也证明不了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "ca734a49135de8a661c37ec6e908867d9fa762cba69fca55cc1f7d3e25744fe6",
+      "enMarkdown": "If you really want to learn to program, you have to work on your own projects. You learn so much faster that way. Imagine you're writing a game and there's something you want to do in it, and you don't know how. You're going to figure out how a lot faster than you'd learn anything in a class.",
+      "zhMarkdown": "如果你真的想学会编程，就必须做自己的项目。用这种方式，你学起来会快得多。想象一下，你正在写一个游戏，里面有一个你想实现的功能，但你不知道该怎么做。为了搞懂它，你琢磨的速度会比在课堂上学任何东西都快得多。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "44ba1e69ab39825642bf1791c2a38a1a2da7a8e9484c9e1f77bce3121cee8e86",
+      "enMarkdown": "You don't have to learn programming, though. If you're wondering what counts as technology, it includes practically everything you could describe using the words \"make\" or \"build.\" So welding would count, or making clothes, or making videos. Whatever you're most interested in. The critical distinction is whether you're producing or just consuming. Are you writing computer games, or just playing them? That's the cutoff.",
+      "zhMarkdown": "不过，你也不一定非得学编程。如果你想知道什么才算“技术”，它几乎涵盖了所有可以用“制造”或“构建”来描述的事情。所以，电焊算，做衣服算，制作视频也算。只要是你最感兴趣的就行。关键的区别在于，你是在创造还是仅仅在消费。你是在写电脑游戏，还是仅仅在玩游戏？这就是分水岭。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7e61c7939fe2ad80762e43d1d62ad4ade40372388d132d687ac857f743badd16",
+      "enMarkdown": "Steve Jobs, the founder of Apple, spent time when he was a teenager studying calligraphy — the sort of beautiful writing that you see in medieval manuscripts. No one, including him, thought that this would help him in his career. He was just doing it because he was interested in it. But it turned out to help him a lot. The computer that made Apple really big, the Macintosh, came out at just the moment when computers got powerful enough to make letters like the ones in printed books instead of the computery-looking letters you see in 8 bit games. Apple destroyed everyone else at this, and one reason was that Steve was one of the few people in the computer business who really got graphic design.",
+      "zhMarkdown": "Apple 的创始人 Steve Jobs 在青少年时期曾花时间学习书法——就是你在中世纪手抄本上看到的那种漂亮字体。当时没有人（包括他自己）觉得这会对他的职业生涯有什么帮助。他只是因为感兴趣才去学的。但事实证明，这对他帮助极大。让 Apple 真正声名鹊起的电脑 Macintosh 诞生时，电脑的性能刚好强大到可以呈现像印刷书一样的字体，而不是 8 位游戏里那种充满机器感的像素字。Apple 在这方面把对手打得落花流水，原因之一就是 Steve 是电脑行业中极少数真正懂得平面设计的人。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "dce6c00204c07482cb98cee99d11d8c192e856bbb69c3f5a500cf88c34bf5f89",
+      "enMarkdown": "Don't feel like your projects have to be *serious*. They can be as frivolous as you like, so long as you're building things you're excited about. Probably 90% of programmers start out building games. They and their friends like to play games. So they build the kind of things they and their friends want. And that's exactly what you should be doing at 15 if you want to start a startup one day.",
+      "zhMarkdown": "不要觉得你的项目必须是“严肃”的。它们可以随你心意，越好玩、越不务正业越好，只要你在构建让你兴奋的东西就行。大概 90% 的程序员最开始都是通过写游戏入行的。他们和朋友喜欢玩游戏，所以他们就动手写自己和朋友想玩的东西。如果你想在未来某天创办一家创业公司，这恰恰就是你 15 岁时该干的事。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "66d567c1c4bd4c38f6d4176cb312b5f8bfbc58c01b95613d4ff86d8ffd9d58a4",
+      "enMarkdown": "You don't have to do just one project. In fact it's good to learn about multiple things. Steve Jobs didn't just learn calligraphy. He also learned about electronics, which was even more valuable. Whatever you're interested in. (Do you notice a theme here?)",
+      "zhMarkdown": "你不需要只做一个项目。事实上，了解多种不同的事物是有好处的。Steve Jobs 不仅学了书法，他还学习了电子学，这甚至更有价值。折腾任何你感兴趣的东西。（你注意到这里贯穿始终的主题了吗？）"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "8b14848c7a3e4c044a1c254834f478660bd99fea37c08f91852121e03c8cca15",
+      "enMarkdown": "So that's the first of the three things you need, to get good at some kind or kinds of technology. You do it the same way you get good at the violin or football: practice. If you start a startup at 22, and you start writing your own programs now, then by the time you start the company you'll have spent at least 7 years practicing writing code, and you can get pretty good at anything after practicing it for 7 years.",
+      "zhMarkdown": "这就是你需要的三样东西里的第一样：精通某种或某些技术。这和练小提琴或踢足球没什么两样：熟能生巧。如果你在 22 岁时创办创业公司，而现在就动笔写自己的程序，那么到你创办公司时，你已经有了至少 7 年写代码的练习经验。任何事情练上 7 年，你都能变得相当厉害。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "2c60145e5f497a23828faeac608c67ebf1f94007010d2b3adf4e462e854da567",
+      "enMarkdown": "Let's suppose you're 22 and you've succeeded: You're now really good at some technology. How do you get [startup ideas](https://paulgraham.com/startupideas.html)? It might seem like that's the hard part. Even if you are a good programmer, how do you get the idea to start Google?",
+      "zhMarkdown": "假设你现在 22 岁，并且成功了：你现在对某种技术非常精通。那么你该如何获取[创业点子](https://paulgraham.com/startupideas.html)呢？这看起来似乎是最难的部分。即便你是个优秀的程序员，你又该如何想到创办 Google 的点子？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "d90cf2ec9f7fb88a9651ee820dbc0626bfe1aef849b09ce4c6aedf0d5d2fb59d",
+      "enMarkdown": "Actually it's easy to get startup ideas once you're good at technology. Once you're good at some technology, when you look at the world you see dotted outlines around the things that are missing. You start to be able to see both the things that are missing from the technology itself, and all the broken things that could be fixed using it, and each one of these is a potential startup.",
+      "zhMarkdown": "实际上，一旦你精通了技术，获取创业点子就变得容易了。当你对某种技术驾轻就熟时，你再看这个世界，就会看到那些缺失的东西周围闪烁着虚线。你开始能够看到技术本身缺失了什么，以及有哪些可以用技术来解决的糟糕现状，而这每一个痛点，都是一个潜在的创业公司。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "021a46ebeae9c7ba06ba0250ac588e4fb3b73c44c032296b16392d93e4829e91",
+      "enMarkdown": "In the town near our house there's a shop with a sign warning that the door is hard to close. The sign has been there for several years. To the people in the shop it must seem like this mysterious natural phenomenon that the door sticks, and all they can do is put up a sign warning customers about it. But any carpenter looking at this situation would think \"why don't you just plane off the part that sticks?\"",
+      "zhMarkdown": "在我们家附近的镇上，有一家店挂着一个牌子，提醒大家那扇门很难关上。这个牌子已经挂了好几年了。对店里的人来说，门卡住似乎是一种神秘的自然现象，他们唯一能做的就是挂个牌子提醒顾客。但任何木匠看到这种情况都会想：“你为什么不直接把卡住的地方刨掉呢？”"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "a08292d48a75054fe8a2bc9428063c489b3e86f281e4b7abed1fcbd6e10f2412",
+      "enMarkdown": "Once you're good at programming, all the missing software in the world starts to become as obvious as a sticking door to a carpenter. I'll give you a real world example. Back in the 20th century, American universities used to publish printed directories with all the students' names and contact info. When I tell you what these directories were called, you'll know which startup I'm talking about. They were called facebooks, because they usually had a picture of each student next to their name.",
+      "zhMarkdown": "一旦你精通了编程，世界上所有缺失的软件在你眼里，都会变得像木匠眼里的卡住的门一样显而易见。我给你们举个现实生活中的例子。在 20 世纪，美国的大学习惯印发纸质的名册，上面有所有学生的姓名和联系方式。当我告诉你这些名册叫什么时，你就知道我说的是哪家创业公司了。它们被称为“facebooks”，因为每个学生的名字旁边通常都有一张照片。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "06c1970482144d8011f3711e995257a164948a039b75950e9ec2da63909b7b23",
+      "enMarkdown": "So Mark Zuckerberg shows up at Harvard in 2002, and the university still hasn't gotten the facebook online. Each individual house has an online facebook, but there isn't one for the whole university. The university administration has been diligently having meetings about this, and will probably have solved the problem in another decade or so. Most of the students don't consciously notice that anything is wrong. But Mark is a programmer. He looks at this situation and thinks \"Well, this is stupid. I could write a program to fix this in one night. Just let people upload their own photos and then combine the data into a new site for the whole university.\" So he does. And almost literally overnight he has thousands of users.",
+      "zhMarkdown": "2002 年，Mark Zuckerberg 来到哈佛大学，当时学校还没有把这个名册搬到网上。每个宿舍楼都有自己的在线名册，但整个学校并没有一个统一的。学校管理层一直在为此认真开会讨论，大概再过个十年左右就能解决这个问题。大多数学生并没有觉得有什么不对。但 Mark 是个程序员。他看到这情况，心里想：“这太蠢了。我一晚上就能写个程序把这事解决了。直接让大家自己上传照片，然后把数据整合到一个面向全校的新网站上不就行了。”于是他动手做了。几乎一夜之间，他就拥有了成千上万的用户。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "0450cab90662fba98cc5394b89757d8d0b77ddab67fc1ee210896ba37dadb21c",
+      "enMarkdown": "Of course Facebook was not a startup yet. It was just a... project. There's that word again. Projects aren't just the best way to learn about technology. They're also the best source of startup ideas.",
+      "zhMarkdown": "当然，Facebook 当时还不是一家创业公司。它只是一个……项目。这个词又出现了。项目不仅是学习技术最好的方式，也是创业点子最好的来源。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "7a4361692ed146a1fa6a7eb6404c60bdf595b15cf78b93db018afcef5b0e217c",
+      "enMarkdown": "Facebook was not unusual in this respect. Apple and Google also began as projects. Apple wasn't meant to be a company. Steve Wozniak just wanted to build his own computer. It only turned into a company when Steve Jobs said \"Hey, I wonder if we could sell plans for this computer to other people.\" That's how Apple started. They weren't even selling computers, just plans for computers. Can you imagine how lame this company seemed?",
+      "zhMarkdown": "在这方面，Facebook 并非特例。Apple 和 Google 也是从项目开始的。Apple 最初根本没打算做成一家公司。Steve Wozniak 只是想自己组装一台电脑。直到 Steve Jobs 说：“嘿，我琢磨着我们能不能把这台电脑的设计图卖给别人？”它才变成了一家公司。他们当时甚至不卖电脑，只卖电脑的设计图。你能想象这家公司当时看起来有多不起眼吗？"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "c57eff9a41fd4b79aa466ee801a0d82f12923fcae234407bbdf909af4fdfb356",
+      "enMarkdown": "Ditto for Google. Larry and Sergey weren't trying to start a company at first. They were just trying to make search better. Before Google, most search engines didn't try to sort the results they gave you in order of importance. If you searched for \"rugby\" they just gave you every web page that contained the word \"rugby.\" And the web was so small in 1997 that this actually worked! Kind of. There might only be 20 or 30 pages with the word \"rugby,\" but the web was growing exponentially, which meant this way of doing search was becoming exponentially more broken. Most users just thought, \"Wow, I sure have to look through a lot of search results to find what I want.\" Door sticks. But like Mark, Larry and Sergey were programmers. Like Mark, they looked at this situation and thought \"Well, this is stupid. Some pages about rugby matter more than others. Let's figure out which those are and show them first.\"",
+      "zhMarkdown": "Google 也是如此。Larry 和 Sergey 起初并没想过要开公司。他们只是想把搜索做得更好。在 Google 出现之前，大多数搜索引擎并不怎么对搜索结果进行重要性排序。如果你搜索“rugby（橄榄球）”，它们只会把所有包含“rugby”这个词的网页扔给你。在 1997 年，互联网还很小，这种方法居然行得通！勉强算行。当时包含“rugby”这个词的页面可能只有 20 或 30 个，但互联网在呈指数级增长，这意味着这种搜索方式正变得成倍地难用。大多数用户只会想：“哇，为了找到我想要的东西，我得看好多搜索结果啊。”门卡住了。但像 Mark 一样，Larry 和 Sergey 是程序员。也像 Mark 一样，他们看着这种情况想：“这太蠢了。某些关于橄榄球的页面显然比其他的更重要。我们来找出哪些更重要，然后把它们排在前面。”"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "f711fb597cb15fa6db557cbd129420491e1e3a28ee6f0d6713d23828e656a903",
+      "enMarkdown": "It's obvious in retrospect that this was a great idea for a startup. It wasn't obvious at the time. It's never obvious. If it was obviously a good idea to start Apple or Google or Facebook, someone else would have already done it. That's why the best startups grow out of projects that aren't meant to be startups. You're not trying to start a company. You're just following your instincts about what's interesting. And if you're young and good at technology, then your unconscious instincts about what's interesting are better than your conscious ideas about what would be a good company.",
+      "zhMarkdown": "事后看来，这显然是一个极佳的创业点子。但在当时，这并不显而易见。它从来都不是显而易见的。如果创办 Apple、Google 或 Facebook 在当时是个显而易见的好主意，别人早就抢先一步了。这就是为什么最伟大的创业公司往往孕育自那些原本没打算成为创业公司的项目。你并不是在刻意创办公司。你只是在顺从自己的直觉，去探索那些好玩的事情。如果你年轻且精通技术，那么你对“什么好玩”的潜意识直觉，要比你对“什么能做成好公司”的刻意思考靠谱得多。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "131c7f7e24e509021f3d06c88033b4a6253420ccc50c7370f97efb629d9e6b08",
+      "enMarkdown": "So it's critical, if you're a young founder, to build things for yourself and your friends to use. The biggest mistake young founders make is to build something for some mysterious group of other people. But if you can make something that you and your friends truly want to use — something your friends aren't just using out of loyalty to you, but would be really sad to lose if you shut it down — then you almost certainly have the germ of a good startup idea. It may not seem like a startup to you. It may not be obvious how to make money from it. But trust me, there's a way.",
+      "zhMarkdown": "所以，如果你是一个年轻的创始人，为你自己和你的朋友做一些能用得上的东西是至关重要的。年轻创始人最容易犯的错误，就是去为某些神秘的“其他人”做东西。但如果你能做出一些你和你的朋友真正想用的东西——不仅仅是出于朋友的情面捧场，而是如果你把项目关掉，他们会感到真正难过的东西——那么你几乎可以肯定，已经拥有了一个优秀创业点子的萌芽。它在你眼里可能还不像个创业项目。如何用它赚钱可能也并不明朗。但相信我，总会有办法的。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "cd7970b96b650e330733939516944c106165ddf90ea957e74a78f41b56d9b913",
+      "enMarkdown": "What you need in a startup idea, and all you need, is something your friends actually want. And those ideas aren't hard to see once you're good at technology. There are sticking doors everywhere. [[2](#f2n)]",
+      "zhMarkdown": "一个创业点子所需要的、也是唯一需要的，就是你的朋友们切实想要的东西。一旦你精通了技术，这些点子并不难发现。卡住的门到处都是。[[2](#f2n)]"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "019e13805eec5d6d6c7ff0f90e8d90422e2361e47354daadad8e2b75b852d518",
+      "enMarkdown": "Now for the third and final thing you need: a cofounder, or cofounders. The optimal startup has two or three founders, so you need one or two cofounders. How do you find them? Can you predict what I'm going to say next? It's the same thing: projects. You find cofounders by working on projects with them. What you need in a cofounder is someone who's good at what they do and that you work well with, and the only way to judge this is to work with them on things.",
+      "zhMarkdown": "现在来说说你需要的第三样也是最后一样东西：联合创始人。最理想的创业公司有两到三个创始人，所以你需要一两个联合创始人。你怎么找到他们？你能猜到我接下来要说什么吗？还是那句话：项目。你通过和他们一起做项目来寻找联合创始人。你需要的联合创始人，是那些在自己的领域很优秀、且与你配合默契的人，而判断这一点的唯一方法就是和他们一起共事做点东西。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "cc99453129e2c8a46bfb3e4df84ec09790722c4e14f3e06dc8fd0b1b2cee1b6f",
+      "enMarkdown": "At this point I'm going to tell you something you might not want to hear. It really matters to do well in your classes, even the ones that are just memorization or blathering about literature, because you need to do well in your classes to get into a good university. And if you want to start a startup you should try to get into the best university you can, because that's where the best cofounders are. It's also where the best employees are. When Larry and Sergey started Google, they began by just hiring all the smartest people they knew out of Stanford, and this was a real advantage for them.",
+      "zhMarkdown": "在这里，我要跟你们说点你们可能不爱听的话。在学校里取得好成绩真的很重要，哪怕是那些只需要死记硬背或在文学课上扯淡的科目，因为你需要好成绩才能考入一所好大学。如果你想创业，你应该尽最大努力考进你能进的最好的大学，因为那是最好的联合创始人所在的地方。也是最优秀的员工所在的地方。当年 Larry 和 Sergey 创办 Google 时，他们起手就是直接把斯坦福大学里他们认识的最聪明的人都招了过来，这成了他们实打实的竞争优势。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "f39342f214a04d6d7e02f0a80594df1d2ba5be89e58cef14d1cdb3e563ab67b6",
+      "enMarkdown": "The empirical evidence is clear on this. If you look at where the largest numbers of successful startups come from, it's pretty much the same as the list of the most selective universities.",
+      "zhMarkdown": "在这方面，经验证据非常清晰。如果你去看那些诞生了最多成功创业公司的源头，这名单和最难考的顶尖大学名单几乎是高度重合的。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "9322352fa86677e666923302be2b15d23bba9ca1fe8c0a6c1d418853d05a0f81",
+      "enMarkdown": "I don't think it's the prestigious names of these universities that cause more good startups to come out of them. Nor do I think it's because the quality of the teaching is better. What's driving this is simply the difficulty of getting in. You have to be pretty smart and determined to get into MIT or Cambridge, so if you do manage to get in, you'll find the other students include a lot of smart and determined people. [[3](#f3n)]",
+      "zhMarkdown": "我不认为是因为这些大学的名气让它们孕育了更多优秀的创业公司。我也不觉得是因为它们的教学质量更好。真正的驱动力仅仅在于入学门槛之高。你必须足够聪明且极具毅力才能考进麻省理工或剑桥，所以如果你能进去，你会发现身边的同学里满是聪明且有毅力的人。[[3](#f3n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "532b3e644c163b493002a59f8760aa17d39b0f2e03fab8bf4be36bc2889e41d4",
+      "enMarkdown": "You don't have to start a startup with someone you meet at university. The founders of Twitch met when they were seven. The founders of Stripe, Patrick and John Collison, met when John was born. But universities are the main source of cofounders. And because they're where the cofounders are, they're also where the ideas are, because the best ideas grow out of projects you do with the people who become your cofounders.",
+      "zhMarkdown": "你并不一定非要和在大学里认识的人一起创业。Twitch 的创始人们在七岁时就认识了。Stripe 的创始人 Patrick 和 John Collison 在 John 出生时就认识了。但大学依然是联合创始人的主要来源。正因为联合创始人在这里，点子也就在这里，因为最好的点子，往往孕育自你和那些即将成为你联合创始人的人一起折腾的项目。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "cee0bae007f141aaab1cf7f436e4bf4107e87b2db4bad794a77f943ae876b7d6",
+      "enMarkdown": "So the list of what you need to do to get from here to starting a startup is quite short. You need to get good at technology, and the way to do that is to work on your own projects. And you need to do as well in school as you can, so you can get into a good university, because that's where the cofounders and the ideas are.",
+      "zhMarkdown": "所以，从你现在的起点到创办一家创业公司，你需要做的事情其实非常简单。你需要精通技术，而方法就是做你自己的项目。同时，你需要在学校里尽可能做到最好，以便考上一所好大学，因为那是联合创始人和点子汇聚的地方。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "303130009b1ab99e41780519a67579168c9763f5133c114239dae0201e854acb",
+      "enMarkdown": "That's it, just two things, build stuff and do well in school.",
+      "zhMarkdown": "就是这样，只有两件事：动手做东西，以及在学校拿好成绩。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "b4690d836527c3bf94c312e4dd3aa3393f3a39894e354f02eaa713d59ac79bf9",
+      "enMarkdown": "[1] The rhetorical trick in this sentence is that the \"Google\"s refer to different things. What I mean is: a company that has as much chance of growing as big as Google ultimately did as Larry and Sergey could have reasonably expected Google itself would at the time they started it. But I think the original version is zippier.",
+      "zhMarkdown": "[1] 这句话里的修辞技巧在于，几个 “Google” 指代的是不同的东西。我的意思是：一家在初创时，能和当年的 Larry 和 Sergey 所能合理预期的 Google 一样，拥有成长到最终 Google 那样庞大体量之机会的公司。但我觉得原句的表达更带劲。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "303018a19a28df88dba32fd62d21f89743ab88a8ecf78880040bbbe1284c76f2",
+      "enMarkdown": "[2] Making something for your friends isn't the only source of startup ideas. It's just the best source for young founders, who have the least knowledge of what other people want, and whose own wants are most predictive of future demand.",
+      "zhMarkdown": "[2] 为朋友做东西并不是创业点子的唯一来源。它只是年轻创始人的最佳来源，因为年轻创始人最不了解其他人的需求，而他们自己的需求最能预示未来的市场需求。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "24014ca09698aba54397778d9236b61c323cc605ef65558d23b4b72e11dceaa9",
+      "enMarkdown": "[3] Strangely enough this is particularly true in countries like the US where undergraduate admissions are done badly. US admissions departments make applicants jump through a lot of arbitrary hoops that have little to do with their intellectual ability. But the more arbitrary a test, the more it becomes a test of mere determination and resourcefulness. And those are the two most important qualities in startup founders. So US admissions departments are better at selecting founders than they would be if they were better at selecting students.",
+      "zhMarkdown": "[3] 说来也怪，这在像美国这样本科录取机制做得很糟糕的国家尤为明显。美国的招生部门让申请者去跨越许多与智力水平关系不大的繁琐门槛。然而，测试越是繁琐和主观，它就越演变成了一场对毅力和应变能力的纯粹考验。而这两者恰恰是创业创始人最重要的品质。因此，美国招生部门在筛选创始人方面，比他们单纯在筛选学生方面要做得更出色。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "ed352c1eb7167ff82e22b241566e343e592d94a2aa062dbcc77a8fa6980b7c51",
+      "enMarkdown": "**Thanks** to Jared Friedman, Carolynn Levy, Jessica Livingston, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Jared Friedman、Carolynn Levy、Jessica Livingston、Harj Taggar 和 Garry Tan 阅读本书的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "do",
+  "titleEn": "What to Do",
+  "titleZh": "我们该做什么",
+  "dateText": "March 2025",
+  "publishedAt": "2025-03-01",
+  "sourceOrder": 8,
+  "sourceUrl": "https://paulgraham.com/do.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "2d48d9de9661d13dceeb6239b04064658013509a88c268b91ea297de0ca130ea",
+      "enMarkdown": "What should one do? That may seem a strange question, but it's not meaningless or unanswerable. It's the sort of question kids ask before they learn not to ask big questions. I only came across it myself in the process of investigating something else. But once I did, I thought I should at least try to answer it.",
+      "zhMarkdown": "人一生该做什么？这听起来像个奇怪的问题，但并非毫无意义或无法回答。这是孩子们在学会不再问宏大问题之前，常常会问的那种问题。我自己也是在探究别的事情时，偶然碰到了这个问题。但既然碰到了，我想我至少应该试着去回答它。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "3d93339f870d5c2f5e900ae090d53e1ee3e003954a51023258fed5460fb85d33",
+      "enMarkdown": "So what *should* one do? One should help people, and take care of the world. Those two are obvious. But is there anything else? When I ask that, the answer that pops up is *Make good new things*.",
+      "zhMarkdown": "那么，人究竟**该**做什么？人应该帮助他人，照顾这个世界。这两点显而易见。但还有别的吗？当我这样问时，脑海中蹦出的答案是：**创造优秀的新事物**。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "71023ae82d57ea3c0e1de84eb585e303211e0f7848bc4000102fe0bab4fcc7c2",
+      "enMarkdown": "I can't prove that one should do this, any more than I can prove that one should help people or take care of the world. We're talking about first principles here. But I can explain why this principle makes sense. The most impressive thing humans can do is to think. It may be the most impressive thing that can be done. And the best kind of thinking, or more precisely the best proof that one has thought well, is to make good new things.",
+      "zhMarkdown": "我无法证明人应该这样做，就像我无法证明人应该帮助他人或照顾世界一样。我们这里讨论的是第一原理。但我可以解释为什么这个原则是合理的。人类能做的最令人赞叹的事情就是思考。这可能是所有能做的事情中最令人赞叹的。而最好的一种思考，或者更准确地说，证明一个人思考得很好的最好证据，就是创造出优秀的新事物。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "c5ffd76339ef2d26a4891e02dcadca94ae710f2bab07c6de642b6544975de803",
+      "enMarkdown": "I mean new things in a very general sense. Newton's physics was a good new thing. Indeed, the first version of this principle was to have good new ideas. But that didn't seem general enough: it didn't include making art or music, for example, except insofar as they embody new ideas. And while they may embody new ideas, that's not all they embody, unless you stretch the word \"idea\" so uselessly thin that it includes everything that goes through your nervous system.",
+      "zhMarkdown": "我所说的新事物是在极宽泛的意义上而言的。牛顿的物理学是一个优秀的新事物。事实上，这个原则的最初版本是“拥有优秀的新想法”。但这似乎不够宽泛：例如，它没有把创作艺术或音乐包括在内，除非它们体现了新想法。虽然它们确实可能体现新想法，但它们体现的远不止于此，除非你把“想法”这个词的含义无限稀释，让它把穿过你神经系统的所有东西都算进去。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d7a7b2add718dfb7da25094ad9acfd5593d663c2f503b31e0a5fb94573fb9450",
+      "enMarkdown": "Even for ideas that one has consciously, though, I prefer the phrasing \"make good new things.\" There are other ways to describe the best kind of thinking. To make discoveries, for example, or to understand something more deeply than others have. But how well do you understand something if you can't make a model of it, or write about it? Indeed, trying to express what you understand is not just a way to prove that you understand it, but a way to understand it better.",
+      "zhMarkdown": "不过，即使对于人能自觉意识到的想法，我也更倾向于“创造优秀的新事物”这种说法。描述最优秀的思考还有其他方式。例如，做出发现，或者比别人更深刻地理解某事。但是，如果你不能为某个事物建立模型，或者写文章阐述它，你又算有多理解它呢？事实上，试着表达你所理解的东西，不仅是证明你理解了它的一种方式，更是让你理解得更透彻的一种方式。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "488a77273e537a206f482feca8ea8cd5b8525cfa7ead02beba5669d97bbfc479",
+      "enMarkdown": "Another reason I like this phrasing is that it biases us toward creation. It causes us to prefer the kind of ideas that are naturally seen as making things rather than, say, making critical observations about things other people have made. Those are ideas too, and sometimes valuable ones, but it's easy to trick oneself into believing they're more valuable than they are. Criticism seems sophisticated, and making new things often seems awkward, especially at first; and yet it's precisely those first steps that are most rare and valuable.",
+      "zhMarkdown": "我喜欢这种说法的另一个原因是，它让我们偏向于创造。它让我们更青睐那些自然被视为“创造事物”的想法，而不是去对别人创造的事物进行批判性观察。后者也是想法，有时也很有价值，但人很容易欺骗自己，认为它们的价值比实际更大。批判看起来很高级，而创造新事物往往显得笨拙，尤其是在开始的时候；然而，恰恰是这第一步，才是最罕见、最宝贵的。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "3c403e1b31928e518c2717c884e502a258dfa1e53ccc4d526abe1afa6fe12006",
+      "enMarkdown": "Is newness essential? I think so. Obviously it's essential in science. If you copied a paper of someone else's and published it as your own, it would seem not merely unimpressive but dishonest. And it's similar in the arts. A copy of a good painting can be a pleasing thing, but it's not impressive in the way the original was. Which in turn implies it's not impressive to make the same thing over and over, however well; you're just copying yourself.",
+      "zhMarkdown": "“新颖”是必不可少的吗？我认为是的。在科学领域，这显然是必不可少的。如果你抄袭别人的论文并作为自己的发表，这不仅不会让人赞叹，反而是不诚实的。在艺术领域也类似。一幅好画的复制品可能很讨人喜欢，但它不会像原作那样令人赞叹。这反过来意味着，一遍又一遍地创造同样的东西，无论画得多么好，都不令人赞叹；你只是在复制自己。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d34f09680f14ceef721ac2f66aba36dea9649932073f1255cf06386dfc5f10d7",
+      "enMarkdown": "Note though that we're talking about a different kind of should with this principle. Taking care of people and the world are shoulds in the sense that they're one's duty, but making good new things is a should in the sense that this is how to live to one's full potential. Historically most rules about how to live have been a mix of both kinds of should, though usually with more of the former than the latter. [[1](#f1n)]",
+      "zhMarkdown": "不过请注意，在这个原则中，我们讨论的是另一种“应该”。照顾他人和世界是责任意义上的“应该”，而创造优秀的新事物则是为了充分发挥个人潜能意义上的“应该”。从历史上看，大多数关于如何生活的规则都是这两种“应该”的混合体，尽管通常前者多于后者。[[1](#f1n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "99c472350d66807c1df329a7c60974d59bb351b52bca81fce10ea7abe5c230f5",
+      "enMarkdown": "For most of history the question \"What should one do?\" got much the same answer everywhere, whether you asked Cicero or Confucius. You should be wise, brave, honest, temperate, and just, uphold tradition, and serve the public interest. There was a long stretch where in some parts of the world the answer became \"Serve God,\" but in practice it was still considered good to be wise, brave, honest, temperate, and just, uphold tradition, and serve the public interest. And indeed this recipe would have seemed right to most Victorians. But there's nothing in it about taking care of the world or making new things, and that's a bit worrying, because it seems like this question should be a timeless one. The answer shouldn't change much.",
+      "zhMarkdown": "在历史上的大部分时期，“人该做什么？”这个问题在任何地方得到的答案都大同小异，无论你问的是西塞罗还是孔子。你应该智慧、勇敢、诚实、克制、公正，维护传统，服务公众利益。在很长一段时间里，在世界某些地区，答案变成了“侍奉上帝”，但在实践中，人们仍然认为智慧、勇敢、诚实、克制、公正，维护传统，服务公众利益是件好事。事实上，这套方针对大多数维多利亚时代的人来说也是对的。但其中完全没有提到照顾世界或创造新事物，这有点令人担忧，因为这个问题应该是一个永恒的问题。答案不应该有太大的改变。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "f44df8d2839f5e172d0ddf1bb9f8d93c165e4873c6e91a04f53179bc18ea11f3",
+      "enMarkdown": "I'm not too worried that the traditional answers don't mention taking care of the world. Obviously people only started to care about that once it became clear we could ruin it. But how can making good new things be important if the traditional answers don't mention it?",
+      "zhMarkdown": "我倒不太担心传统答案没有提到照顾世界。显然，人们只有在意识到我们可以毁掉世界之后，才开始关心这件事。但是，如果传统答案根本没有提到创造优秀的新事物，它又是如何变得重要的呢？"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "d33f11302b23d0c12b9cd0af641e5eba4c0cd4aca3b136fb056d1eade6eedcf6",
+      "enMarkdown": "The traditional answers were answers to a slightly different question. They were answers to the question of how to be, rather than what to do. The audience didn't have a lot of choice about what to do. The audience up till recent centuries was the landowning class, which was also the political class. They weren't choosing between doing physics and writing novels. Their work was foreordained: manage their estates, participate in politics, fight when necessary. It was ok to do certain other kinds of work in one's spare time, but ideally one didn't have any. Cicero's *De Officiis* is one of the great classical answers to the question of how to live, and in it he explicitly says that he wouldn't even be writing it if he hadn't been excluded from public life by recent political upheavals. [[2](#f2n)]",
+      "zhMarkdown": "传统的答案针对的是一个稍微不同的问题。它们回答的是“如何做人”，而不是“做什么事”。在最近几个世纪之前，听众在“做什么事”上并没有太多选择。当时的听众是土地拥有者阶级，也就是政治阶级。他们不需要在研究物理和写小说之间做选择。他们的工作是命中注定的：管理家业、参与政治、必要时打仗。在闲暇时间做某些其他类型的工作是可以的，但理想情况下他们根本没有闲暇。西塞罗的《论义务》（*De Officiis*）是关于如何生活的伟大古典答案之一，他在书中明确表示，如果不是因为最近的政治动荡导致他被排除在公共生活之外，他甚至不会写这本书。[[2](#f2n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "a0391b1c6ec81b49832bde01dc74ff0b246c512518b68e88ac940138fe0a380a",
+      "enMarkdown": "There were of course people doing what we would now call \"original work,\" and they were often admired for it, but they weren't seen as models. Archimedes knew that he was the first to prove that a sphere has 2/3 the volume of the smallest enclosing cylinder and was very pleased about it. But you don't find ancient writers urging their readers to emulate him. They regarded him more as a prodigy than a model.",
+      "zhMarkdown": "当然，当时也有人在做我们现在所说的“原创工作”，他们也常常因此受到赞赏，但他们并没有被视为榜样。阿基米德知道自己是第一个证明球体体积是其最小外接圆柱体体积的 2/3 的人，并为此感到非常高兴。但你找不到古代作家敦促读者去效仿他。他们更多地把他看作一个奇才，而不是一个榜样。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "4a976d181bbf832389c739f646e29aeecf406dcdf477ebfb865b415b023096ba",
+      "enMarkdown": "Now many more of us can follow Archimedes's example and devote most of our attention to one kind of work. He turned out to be a model after all, along with a collection of other people that his contemporaries would have found it strange to treat as a distinct group, because the vein of people making new things ran at right angles to the social hierarchy.",
+      "zhMarkdown": "现在，我们有更多的人可以效仿阿基米德的榜样，将大部分精力投入到某一种工作上。事实证明，他终究成了一个榜样，同时还有一群在当时的人看来很难归为一类的人，因为创造新事物的人群分布与当时的社会阶层是完全垂直交错的。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e06bbd27e92fffa8432a6f9c53cb2a186d0d83a7ae9022298b33603184fb358a",
+      "enMarkdown": "What kinds of new things count? I'd rather leave that question to the makers of them. It would be a risky business to try to define any kind of threshold, because new kinds of work are often despised at first. Raymond Chandler was writing literal pulp fiction, and he's now recognized as one of the best writers of the twentieth century. Indeed this pattern is so common that you can use it as a recipe: if you're excited about some kind of work that's not considered prestigious and you can explain what everyone else is overlooking about it, then this is not merely a kind of work that's ok to do, but one to seek out.",
+      "zhMarkdown": "哪些新事物算数？我宁愿把这个问题留给创造它们的人。试图定义任何界限都是一件冒险的事，因为新类型的工作起初往往会受到鄙视。雷蒙德·钱德勒当时写的是不折不扣的廉价纸浆小说，而现在他被公认为二十世纪最优秀的作家之一。事实上，这种模式是如此普遍，以至于你可以把它当作一个秘诀：如果你对某种不被认为体面的工作感到兴奋，并且你能解释清楚别人忽略了它的什么价值，那么这不仅是一种可以去做的工作，而且是值得去寻找的工作。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "9fbd8f686aa16db80569e713132ed8a4c0fa609e8915ca1b894c89470255922b",
+      "enMarkdown": "The other reason I wouldn't want to define any thresholds is that we don't need them. The kind of people who make good new things don't need rules to keep them honest.",
+      "zhMarkdown": "我不想定义任何界限的另一个原因是，我们不需要它们。创造优秀新事物的那类人，不需要规则来保持他们的诚实。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "cb8d8052a3fab431803702722a41d1d1e266b56dd483cd765f8c444fb8a0437a",
+      "enMarkdown": "So there's my guess at a set of principles to live by: take care of people and the world, and make good new things. Different people will do these to varying degrees. There will presumably be lots who focus entirely on taking care of people. There will be a few who focus mostly on making new things. But even if you're one of those, you should at least make sure that the new things you make don't net *harm* people or the world. And if you go a step further and try to make things that help them, you may find you're ahead on the trade. You'll be more constrained in what you can make, but you'll make it with more energy.",
+      "zhMarkdown": "所以，这是我对一套生活原则的推测：照顾他人和世界，并创造优秀的新事物。不同的人会在不同程度上践行这些原则。大概会有很多人完全专注于照顾他人。也会有少数人主要专注于创造新事物。但即使你是后者，你至少应该确保你所创造的新事物不会对他人或世界造成净**伤害**。如果你能更进一步，试着创造一些能帮助他们的东西，你会发现自己在这笔交易中占了便宜。你能够创造的东西会受到更多限制，但你创造它时会更有干劲。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "22069ddeb37beddf6fd63ed793f0776606b5047b8763132f718ffdbc976fc1f4",
+      "enMarkdown": "On the other hand, if you make something amazing, you'll often be helping people or the world even if you didn't mean to. Newton was driven by curiosity and ambition, not by any practical effect his work might have, and yet the practical effect of his work has been enormous. And this seems the rule rather than the exception. So if you think you can make something amazing, you should probably just go ahead and do it.",
+      "zhMarkdown": "另一方面，如果你创造了某些令人惊叹的东西，即使你并非有意为之，你也往往是在帮助他人或这个世界。牛顿是被好奇心和野心驱动的，而不是因为他的工作可能产生的任何实际效果，然而他的工作所产生的实际效果是巨大的。这似乎是常态，而非特例。所以，如果你认为自己能创造出令人惊叹的东西，你可能应该直接着手去做。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "b174c294356ade27085e23572ea9a5c8e62bead35ebe9894fd74a71b4aaf2a01",
+      "enMarkdown": "[1] We could treat all three as the same kind of should by saying that it's one's duty to live well — for example by saying, as some Christians have, that it's one's duty to make the most of one's God-given gifts. But this seems one of those casuistries people invented to evade the stern requirements of religion: it was permissible to spend time studying math instead of praying or performing acts of charity because otherwise you were rejecting a gift God had given you. A useful casuistry no doubt, but we don't need it.",
+      "zhMarkdown": "[1] 我们可以把这三者都视为同一种“应该”，即认为过好生活是一个人的责任——例如，像一些基督徒所说的那样，充分利用上帝赐予的天赋是一个人的责任。但这似乎是人们为了逃避宗教的严苛要求而发明的一种诡辩：花时间研究数学而不是祈祷或行善是允许的，因为否则你就是在拒绝上帝赐予你的礼物。这无疑是一种有用的诡辩，但我们不需要它。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "0bbe732c3aefc96b517e2dea3dcdf54f6874de273e7c4e9041edbd5f0d2002a1",
+      "enMarkdown": "We could also combine the first two principles, since people are part of the world. Why should our species get special treatment? I won't try to justify this choice, but I'm skeptical that anyone who claims to think differently actually lives according to their principles.",
+      "zhMarkdown": "我们也可以把前两个原则结合起来，因为人也是世界的一部分。为什么我们这个物种要获得特殊对待？我不想为这个选择辩护，但我怀疑任何声称有不同想法的人，实际上是否真的按照他们的原则生活。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "a56440ab0943a7585c2cc10573062882dca838a3b3f19ed97652756d0409ab41",
+      "enMarkdown": "[2] Confucius was also excluded from public life after ending up on the losing end of a power struggle, and presumably he too would not be so famous now if it hadn't been for this long stretch of enforced leisure.",
+      "zhMarkdown": "[2] 孔子在权力斗争中失败后也被排除在公共生活之外，想必如果不是因为这段漫长而被迫的闲暇时光，他现在也不会如此出名。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "1cab82e8aaad533b7e3b9e71bb822c0c1f6c2d8d0b4dd1b3b6963454fff84e1f",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "slug": "hiring",
+  "titleEn": "Hiring is Obsolete",
+  "titleZh": "招聘已死",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 183,
+  "sourceUrl": "https://paulgraham.com/hiring.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "35e32f478a8c67bad1b6ffe28d4297590d68e9c3120f3068c1a83577581bd145",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/hiring-is-obsolete-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/hiring-is-obsolete-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "b5b92f20a89a4ca4b22951638f37a5c19b9f9a1adf45bf239e2db2cbc5fa2618",
+      "enMarkdown": "May 2005",
+      "zhMarkdown": "2005 年 5 月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "dec57349a796a4ae3c3a09afd491e6f0277bb08b6ba34a768668b2f6fc80a8b3",
+      "enMarkdown": "*(This essay is derived from a talk at the Berkeley CSUA.)*",
+      "zhMarkdown": "*(本文改编自作者在伯克利大学 CSUA 的演讲。)*"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2c67b9536576f2b8e08cbf37473f28f4f476c5e20148d6e985cb466c82486701",
+      "enMarkdown": "The three big powers on the Internet now are Yahoo, Google, and Microsoft. Average age of their founders: 24. So it is pretty well established now that grad students can start successful companies. And if grad students can do it, why not undergrads?",
+      "zhMarkdown": "如今互联网上的三大巨头是雅虎、谷歌和微软。他们创始人的平均年龄是 24 岁。因此，研究生可以成功创业早已是不争的事实。既然研究生能做到，本科生为什么不行呢？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "190957920b240a5d3e8e5319fdc9a852b14010a21b978e3cb6467f5b92653152",
+      "enMarkdown": "Like everything else in technology, the cost of starting a startup has decreased dramatically. Now it's so low that it has disappeared into the noise. The main cost of starting a Web-based startup is food and rent. Which means it doesn't cost much more to start a company than to be a total slacker. You can probably start a startup on ten thousand dollars of seed funding, if you're prepared to live on ramen.",
+      "zhMarkdown": "就像技术领域的其他一切事物一样，创办一家创业公司的成本已经急剧下降。现在它已经低到可以忽略不计了。创办一家互联网创业公司的主要成本就是伙食费和房租。这意味着，创业的开销其实和当一个纯粹的无业游民差不多。如果你做好了吃泡面的准备，可能只需要一万美元的种子资金就能启动一家创业公司。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "fb9cea22a0acc0522edf5a689c8e4481ce2e82fba3055f5af1e1d41ee30db908",
+      "enMarkdown": "The less it costs to start a company, the less you need the permission of investors to do it. So a lot of people will be able to start companies now who never could have before.",
+      "zhMarkdown": "创业成本越低，你越不需要征得投资人的同意。因此，现在许多以前根本没有机会的人，都能够创办自己的公司了。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "7612aed1cc4cb9c9fb2e2082f306d1b1fa1681d342bd2c7b79bb7f499b698dc3",
+      "enMarkdown": "The most interesting subset may be those in their early twenties. I'm not so excited about founders who have everything investors want except intelligence, or everything except energy. The most promising group to be liberated by the new, lower threshold are those who have everything investors want except experience.",
+      "zhMarkdown": "其中最有趣的群体可能是那些二十出头的人。我并不看好那些除了聪明以外什么都符合投资人要求，或者除了精力充沛以外什么都符合要求的创始人。这个因门槛降低而被解放出来、最前途无量的群体，恰恰是那些除了经验之外，拥有投资人想要的一切的人。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d3f7a39fe6633c8a8dc6654bf87a94380e69bb04705990ac58299b2bb2725cd6",
+      "enMarkdown": "**Market Rate**",
+      "zhMarkdown": "**市场价**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "6b3260a7d0d517e5e909b92f4108abb3db4da5080cd764283741931b55d17f66",
+      "enMarkdown": "I once claimed that [nerds](https://paulgraham.com/nerds.html) were unpopular in secondary school mainly because they had better things to do than work full-time at being popular. Some said I was just telling people what they wanted to hear. Well, I'm now about to do that in a spectacular way: I think undergraduates are undervalued.",
+      "zhMarkdown": "我曾说过，[书呆子](https://paulgraham.com/nerds.html)在中学不受欢迎，主要是因为他们有比全职迎合大众更重要的事情要做。有人说我只是在挑人们爱听的话说。好吧，我现在准备以一种更惊人的方式再做一次：我认为本科生被低估了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d8bcd239d48a8c85ce5f8798cae10b0ae6798d744caaab3416b0575454c26a09",
+      "enMarkdown": "Or more precisely, I think few realize the huge spread in the value of 20 year olds. Some, it's true, are not very capable. But others are more capable than all but a handful of 30 year olds. [[1](#f1n)]",
+      "zhMarkdown": "或者更准确地说，我认为很少有人意识到 20 岁年轻人的价值差距有多大。确实，有些人能力平平。但另一些人的能力，却超过了除了极少数 30 岁精英之外的所有人。[[1](#f1n)]"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5ffd2c465e438559635b8b82d24dec1205231c9a82b5eb2b327abdbf7718eccc",
+      "enMarkdown": "Till now the problem has always been that it's difficult to pick them out. Every VC in the world, if they could go back in time, would try to invest in Microsoft. But which would have then? How many would have understood that this particular 19 year old was Bill Gates?",
+      "zhMarkdown": "在此之前，问题一直在于很难把他们挑选出来。如果能穿越时空，世界上每一个风险投资人都会抢着投资微软。但当时有谁会这么做呢？又有多少人能看出那个 19 岁的年轻人就是比尔·盖茨？"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "a6ab4285b885af685682854e6cab36368b008df5d1224f3c0ebbe3ce1d2fc93b",
+      "enMarkdown": "It's hard to judge the young because (a) they change rapidly, (b) there is great variation between them, and (c) they're individually inconsistent. That last one is a big problem. When you're young, you occasionally say and do stupid things even when you're smart. So if the algorithm is to filter out people who say stupid things, as many investors and employers unconsciously do, you're going to get a lot of false positives.",
+      "zhMarkdown": "判断年轻人很难，因为：(a) 他们变化极快，(b) 彼此之间的差异巨大，(c) 他们个人表现不稳定。最后一点是个大问题。年轻的时候，即使你很聪明，偶尔也会说傻话、做傻事。因此，如果你的筛选机制是过滤掉说傻话的人——正如许多投资人和雇主无意识中做的那样——你将会错失大量的人才。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "3cc0488d71a71cc76f5efdc055753bc7e2ce11ef3be2db840d5da1c53dd6b1da",
+      "enMarkdown": "Most organizations who hire people right out of college are only aware of the average value of 22 year olds, which is not that high. And so the idea for most of the twentieth century was that everyone had to begin as a trainee in some [entry-level](http://slashdot.org/comments.pl?sid=158756&cid=13299057) job. Organizations realized there was a lot of variation in the incoming stream, but instead of pursuing this thought they tended to suppress it, in the belief that it was good for even the most promising kids to start at the bottom, so they didn't get swelled heads.",
+      "zhMarkdown": "大多数直接从大学招聘的组织只了解 22 岁年轻人的平均价值，而这个平均值并不高。因此，在 20 世纪的大部分时间里，人们都认为每个人都必须从某个[初级](http://slashdot.org/comments.pl?sid=158756&cid=13299057)岗位的实习生做起。组织其实意识到了新员工之间存在巨大的个体差异，但他们并没有顺着这个思路去发掘，反而倾向于压制这种差异，因为他们相信，即使是最有前途的孩子也应该从底层做起，这样才不会冲昏头脑。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "303cd73a9536f30eab43b7ad3914212c44a87e3a6f43ff0ec67ecad9f2614976",
+      "enMarkdown": "The most productive young people will *always* be undervalued by large organizations, because the young have no performance to measure yet, and any error in guessing their ability will tend toward the mean.",
+      "zhMarkdown": "最有效率的年轻人*总是*会被大机构低估，因为年轻人还没有可以衡量的业绩，而任何对其能力的推测误差都会倾向于平均值。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7824d6a8b2b1f71bb678d094f0b9452c010440730039ef14dd312380c32b4899",
+      "enMarkdown": "What's an especially productive 22 year old to do? One thing you can do is go over the heads of organizations, directly to the users. Any company that hires you is, economically, acting as a proxy for the customer. The rate at which they value you (though they may not consciously realize it) is an attempt to guess your value to the user. But there's a way to appeal their judgement. If you want, you can opt to be valued directly by users, by starting your own company.",
+      "zhMarkdown": "一个效率极高的 22 岁年轻人该怎么办？你可以做的一件事是绕过组织，直接面对用户。在经济学上，任何雇用你的公司都是客户的代理人。他们评估你价值的薪资（尽管他们可能没有意识到）是在试图猜测你对用户的价值。但你有一种方法可以对他们的判断提出申诉。如果你愿意，你可以选择通过创办自己的公司，直接接受用户的价值检验。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "5cff73347137028cdb90db8545e32da610c97fb5876771ed7cef039035db59b1",
+      "enMarkdown": "The market is a lot more discerning than any employer. And it is completely non-discriminatory. On the Internet, nobody knows you're a dog. And more to the point, nobody knows you're 22. All users care about is whether your site or software gives them what they want. They don't care if the person behind it is a high school kid.",
+      "zhMarkdown": "市场比任何雇主都要敏锐得多。而且它完全不带任何偏见。在互联网上，没人知道你是一条狗。更重要的是，没人知道你只有 22 岁。用户关心的只是你的网站或软件是否满足了他们的需求。他们不在乎背后的人是不是个高中生。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "9aa6e04010746dcd2d80e4e4979f8b52dcc41a8a4ef2ac16b09619a0aa677a89",
+      "enMarkdown": "If you're really productive, why not make employers pay market rate for you? Why go work as an ordinary employee for a big company, when you could start a startup and make them buy it to get you?",
+      "zhMarkdown": "如果你真的很有生产力，为什么不让雇主为你支付市场价呢？既然你可以创办一家创业公司，让他们为了得到你而不得不买下你的公司，为什么还要去大公司做一个普通的员工呢？"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "c34b52077d1d0bb5d347c94745df7193c6829a1b479e9e1df707558fe591cfc0",
+      "enMarkdown": "When most people hear the word \"startup,\" they think of the famous ones that have gone public. But most startups that succeed do it by getting bought. And usually the acquirer doesn't just want the technology, but the people who created it as well.",
+      "zhMarkdown": "大多数人听到“创业公司”这个词，想到的都是那些已经上市的名企。但大多数成功的创业公司其实是通过被收购来实现的。而且通常情况下，收购方不仅想要技术，还想要创造技术的人。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "b6923b282270bb0ae4bc626ec05618ad6f614bc354f9049e2be07ccff9c0fd22",
+      "enMarkdown": "Often big companies buy startups before they're profitable. Obviously in such cases they're not after revenues. What they want is the development team and the software they've built so far. When a startup gets bought for 2 or 3 million six months in, it's really more of a hiring bonus than an acquisition.",
+      "zhMarkdown": "大公司经常在创业公司实现盈利之前就将其收购。显然，在这种情况下，他们追求的不是营收。他们想要的是开发团队和他们目前已经构建的软件。当一家创业公司在成立六个月后以两三百万美元的价格被收购时，这其实更像是一种招聘奖金，而不是资产收购。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "23f057ff5ecad3bae9688129aeb1554cad45eb2f0b15ddcb44ed0431448a13ff",
+      "enMarkdown": "I think this sort of thing will happen more and more, and that it will be better for everyone. It's obviously better for the people who start the startup, because they get a big chunk of money up front. But I think it will be better for the acquirers too. The central problem in big companies, and the main reason they're so much less productive than small companies, is the difficulty of valuing each person's work. Buying larval startups solves that problem for them: the acquirer doesn't pay till the developers have proven themselves. Acquirers are protected on the downside, but still get most of the upside.",
+      "zhMarkdown": "我认为这种事情会越来越多地发生，而且对大家都有好处。对于创办创业公司的人来说，这显然更好，因为他们能提前拿到一大笔钱。但我认为对收购方也更好。大公司的核心问题，也是它们比小公司效率低得多的主要原因，在于很难衡量每个人的工作价值。购买处于孵化期的创业公司为他们解决了这个问题：在开发人员证明自己之前，收购方不需要付钱。收购方规避了下行风险，但依然能获得大部分的上行收益。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "0238fdd2fde9fb29a006749bb1ddb978f07fb4ef688da4c0b55e27fa3634341d",
+      "enMarkdown": "**Product Development**",
+      "zhMarkdown": "**产品开发**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "15488355075f9a2c78815fd51a97b20b169919f7db328dda23dd5b2ae0ae1dd5",
+      "enMarkdown": "Buying startups also solves another problem afflicting big companies: they can't do product development. Big companies are good at extracting the value from existing products, but bad at creating new ones.",
+      "zhMarkdown": "购买创业公司还解决了困扰大公司的另一个问题：它们做不好产品开发。大公司擅长榨取现有产品的价值，但不擅长创造新产品。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "e085404c5a550aba5b4ba153d675456a99bcc58fc85edb3fe408d21bfdc318a6",
+      "enMarkdown": "Why? It's worth studying this phenomenon in detail, because this is the raison d'etre of startups.",
+      "zhMarkdown": "为什么？这个现象值得深入研究，因为这正是创业公司存在的根本意义。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "a180a4016efa73d9059572d48d095fac38d8316eaab78f7d2e47cf5cc7b963bf",
+      "enMarkdown": "To start with, most big companies have some kind of turf to protect, and this tends to warp their development decisions. For example, [Web-based](https://paulgraham.com/road.html) applications are hot now, but within Microsoft there must be a lot of ambivalence about them, because the very idea of Web-based software threatens the desktop. So any Web-based application that Microsoft ends up with, will probably, like Hotmail, be something developed outside the company.",
+      "zhMarkdown": "首先，大多数大公司都有自己的既得利益需要保护，这往往会扭曲他们的开发决策。例如，[基于 Web 的](https://paulgraham.com/road.html)应用现在非常火热，但在微软内部对它们肯定充满纠结，因为 Web 软件的概念直接威胁到了桌面端。因此，微软最终拥有的任何 Web 应用，可能都会像 Hotmail 一样，是在公司外部开发出来的。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "de67aee9f87f1af896dd96f68a645c104eaf2fc514d9c7886261bdc5defc5595",
+      "enMarkdown": "Another reason big companies are bad at developing new products is that the kind of people who do that tend not to have much power in big companies (unless they happen to be the CEO). Disruptive technologies are developed by disruptive people. And they either don't work for the big company, or have been outmaneuvered by yes-men and have comparatively little influence.",
+      "zhMarkdown": "大公司不擅长开发新产品的另一个原因，是做这类事情的人在大公司往往没有太多话语权（除非他们碰巧是 CEO）。颠覆性的技术是由具有颠覆性的人开发出来的。而这些人要么不为大公司工作，要么已经被那些唯唯诺诺的人排挤，影响力微乎其微。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "7279e67e45512f645d226c62276928f7fd9f0222e352e7d285a6044139f594ee",
+      "enMarkdown": "Big companies also lose because they usually only build one of each thing. When you only have one Web browser, you can't do anything really risky with it. If ten different startups design ten different Web browsers and you take the best, you'll probably get something better.",
+      "zhMarkdown": "大公司之所以会输，还因为他们通常每种产品只做一个。当你只有一个浏览器时，你无法对其进行任何真正冒险的尝试。如果有十个不同的创业公司设计了十个不同的浏览器，而你从中挑选最好的一个，你大概率会得到更好的产品。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "b0bdea9943357cddb53902dffd28b8ac5e0e3a6e6055f341a059c115d1955a1f",
+      "enMarkdown": "The more general version of this problem is that there are too many new ideas for companies to explore them all. There might be 500 startups right now who think they're making something Microsoft might buy. Even Microsoft probably couldn't manage 500 development projects in-house.",
+      "zhMarkdown": "这个问题的更普遍版本是，新想法太多了，公司无法一一探索。现在可能有 500 家创业公司认为自己正在开发微软可能会买的东西。即使是微软，也无法在内部管理 500 个开发项目。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "7460824a03451eca3e392c2b9af68e7ce1cc47f53a3882f369dfd28df5451748",
+      "enMarkdown": "Big companies also don't pay people the right way. People developing a new product at a big company get paid roughly the same whether it succeeds or fails. People at a startup expect to get rich if the product succeeds, and get nothing if it fails. [[2](#f2n)] So naturally the people at the startup work a lot harder.",
+      "zhMarkdown": "大公司的付费方式也不对。在大公司开发新产品的人，无论成功还是失败，拿到的薪水都差不多。而创业公司的人则期望产品成功就能致富，失败则一无所有。[[2](#f2n)] 显而易见，创业公司的人工作要努力得多。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "e6d069623b27f2ce31467acca245a73fda95f3e2f071e3ea6df96800b994e2d2",
+      "enMarkdown": "The mere bigness of big companies is an obstacle. In startups, developers are often forced to talk directly to users, whether they want to or not, because there is no one else to do sales and support. It's painful doing sales, but you learn much more from trying to sell people something than reading what they said in focus groups.",
+      "zhMarkdown": "大公司仅仅是规模大本身就是一个障碍。在创业公司中，开发人员无论愿不愿意，往往都被迫直接与用户交流，因为没有其他人来做销售和客服。做销售是痛苦的，但从试图卖给别人东西的过程中，你学到的东西要比阅读焦点小组的报告多得多。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "4b993830b17988a46d0c7515c407a2e8a991b466e819f0c891229953d272dd4a",
+      "enMarkdown": "And then of course, big companies are bad at product development because they're bad at everything. Everything happens slower in big companies than small ones, and product development is something that has to happen fast, because you have to go through a lot of iterations to get something good.",
+      "zhMarkdown": "当然，大公司不擅长产品开发，因为它们在任何事情上都效率低下。大公司的一切都比小公司慢，而产品开发必须快，因为你必须经历多次迭代才能做出好东西。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "870ad7a157d0d4585919e5ad6a4c1a866527f0f8e372171b555a93aa11b53bcb",
+      "enMarkdown": "**Trend**",
+      "zhMarkdown": "**趋势**"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "bd7a061a7d3e0ce4945d659afc57cf123986ce738cf8074c1066400aad8b0b01",
+      "enMarkdown": "I think the trend of big companies buying startups will only accelerate. One of the biggest remaining obstacles is pride. Most companies, at least unconsciously, feel they ought to be able to develop stuff in house, and that buying startups is to some degree an admission of failure. And so, as people generally do with admissions of failure, they put it off for as long as possible. That makes the acquisition very expensive when it finally happens.",
+      "zhMarkdown": "我认为大公司收购创业公司的趋势只会加速。目前剩下最大的障碍之一是虚荣心。大多数公司，至少在潜意识里，觉得自己应该有能力在内部开发一切，而购买创业公司在某种程度上是承认失败。因此，就像人们面对承认失败时通常做的那样，他们会尽可能地拖延。这导致最终发生收购时，价格变得非常昂贵。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "39d4fe7f22fe095cdac4f9c0d79b31ae8f9321690395e0b392a77d7b52df27b3",
+      "enMarkdown": "What companies should do is go out and discover startups when they're young, before VCs have puffed them up into something that costs hundreds of millions to acquire. Much of what VCs add, the acquirer doesn't need anyway.",
+      "zhMarkdown": "大公司应该做的是在创业公司还年轻的时候就去发现它们，赶在风险投资人将它们炒作到需要花费数亿美元才能收购之前。反正风险投资人增加的很多价值，收购方根本不需要。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "e1738599ab5a9bb02b3d93da1d34f52f001ab1590d2b16334d3ede11893085e3",
+      "enMarkdown": "Why don't acquirers try to predict the companies they're going to have to buy for hundreds of millions, and grab them early for a tenth or a twentieth of that? Because they can't predict the winners in advance? If they're only paying a twentieth as much, they only have to predict a twentieth as well. Surely they can manage that.",
+      "zhMarkdown": "为什么收购方不试着预测那些他们未来不得不花数亿美元购买的公司，并在早期以二十分之一或十分之一的价格拿下它们？因为他们无法提前预测赢家？如果他们付出的代价只有二十分之一，那么他们只需要有二十分之一的预测准确率就可以了。这他们肯定能做到。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "1a59cc0b8fb8c0c3e6014de7f7581a14e424d4822959835b791c56e91b8f5d73",
+      "enMarkdown": "I think companies that acquire technology will gradually learn to go after earlier stage startups. They won't necessarily buy them outright. The solution may be some hybrid of investment and acquisition: for example, to buy a chunk of the company and get an option to buy the rest later.",
+      "zhMarkdown": "我认为收购技术的公司会逐渐学会瞄准更早期的创业公司。他们不一定需要直接买下它们。解决方案可能是投资与收购的某种混合体：例如，购买公司的一部分股份，并获得以后购买剩余股份的期权。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "a2f9901ac8de3dea7d2bf7a3521cdac9b712c3a5bfd7e1a3e0c8d650db344cec",
+      "enMarkdown": "When companies buy startups, they're effectively fusing recruiting and product development. And I think that's more efficient than doing the two separately, because you always get people who are really committed to what they're working on.",
+      "zhMarkdown": "当公司购买创业公司时，他们实际上是将招聘和产品开发融合在了一起。我认为这比将两者分开进行更有效率，因为你得到的总是一群真正致力于自己所做事情的人。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "dc1721c246c4176edc3b5fb1f9ecdc21d9aefd739a3ae171f9b964c39d722255",
+      "enMarkdown": "Plus this method yields teams of developers who already work well together. Any conflicts between them have been ironed out under the very hot iron of running a startup. By the time the acquirer gets them, they're finishing one another's sentences. That's valuable in software, because so many bugs occur at the boundaries between different people's code.",
+      "zhMarkdown": "此外，这种方法能带来已经磨合得很好的开发团队。他们之间的任何冲突，都已经在经营创业公司的严酷考验中被熨平了。当收购方得到他们时，他们已经默契到能接上彼此没说完的话了。这在软件中非常有价值，因为很多 Bug 都发生在不同人编写的代码的交界处。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "1fadabea455eb4fd58af16283dd5923ba7956e9ecb28043c0984533166d282fe",
+      "enMarkdown": "**Investors**",
+      "zhMarkdown": "**投资人**"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "4b07603c1e98ca6da3c9f1e1d31621b3c3b73084f679a0879c495d89497da392",
+      "enMarkdown": "The increasing cheapness of starting a company doesn't just give hackers more power relative to employers. It also gives them more power relative to investors.",
+      "zhMarkdown": "创业成本的不断降低，不仅让黑客相对于雇主拥有了更多的权力。这也让他们相对于投资人拥有了更多的权力。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "0052d5b8a73685f962bc2c549b6f1c5eca7e398968638862810e62ec30f3212b",
+      "enMarkdown": "The conventional wisdom among VCs is that hackers shouldn't be allowed to run their own companies. The founders are supposed to accept MBAs as their bosses, and themselves take on some title like Chief Technical Officer. There may be cases where this is a good idea. But I think founders will increasingly be able to push back in the matter of control, because they just don't need the investors' money as much as they used to.",
+      "zhMarkdown": "风险投资圈的传统观念是，不应该让黑客来管理自己的公司。创始人应该接受 MBA 做他们的老板，而自己则挂上诸如首席技术官（CTO）之类的头衔。在某些情况下，这可能是个好主意。但我认为创始人将越来越有能力在控制权问题上进行抗争，因为他们根本不像以前那样需要投资人的钱了。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "d7bb331c25c63c1d8d68256b2315ea8f6a6275b74b660205386d4e520280dd1a",
+      "enMarkdown": "Startups are a comparatively new phenomenon. Fairchild Semiconductor is considered the first VC-backed startup, and they were founded in 1959, less than fifty years ago. Measured on the time scale of social change, what we have now is pre-beta. So we shouldn't assume the way startups work now is the way they have to work.",
+      "zhMarkdown": "创业公司是一个相对较新的现象。仙童半导体被认为是第一家由风险投资支持的创业公司，它成立于 1959 年，距今不到五十年。在社会变革的时间尺度上，我们现在所拥有的只是“公测前”阶段。因此，我们不应该假设创业公司现在的运作方式就是它们必须运作的方式。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "15d48eb20d92ebce2ff198283fb665475b9b46d50a94b528de30f8edecf44801",
+      "enMarkdown": "Fairchild needed a lot of money to get started. They had to build actual factories. What does the first round of venture funding for a Web-based startup get spent on today? More money can't get software written faster; it isn't needed for facilities, because those can now be quite cheap; all money can really buy you is sales and marketing. A sales force is worth something, I'll admit. But marketing is increasingly irrelevant. On the Internet, anything genuinely good will spread by word of mouth.",
+      "zhMarkdown": "仙童半导体需要大量资金才能启动。他们必须建造真正的工厂。而今天，一个基于 Web 的创业公司的第一轮风险融资都花在什么地方了？更多的钱不能让软件写得更快；设备也不需要花多少钱，因为现在这些都很便宜；钱真正能帮你买到的只有销售和市场。我承认，销售团队确实有点用。但营销正变得越来越无关紧要。在互联网上，任何真正好的东西都会通过口碑传播。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "ea332c92e655006f4b8b94f2a2a42d61b659ea3d2ef8194a33e9294fc2b682fc",
+      "enMarkdown": "Investors' power comes from money. When startups need less money, investors have less power over them. So future founders may not have to accept new CEOs if they don't want them. The VCs will have to be dragged kicking and screaming down this road, but like many things people have to be dragged kicking and screaming toward, it may actually be good for them.",
+      "zhMarkdown": "投资人的权力来自于资金。当创业公司需要的钱变少时，投资人对他们的控制力就会减弱。因此，未来的创始人如果不想接受新 CEO，可能就不需要接受。风险投资人将被连拉带拽地拖入这条新道路，但就像许多人们被连拉带拽才肯面对的事情一样，这实际上可能对他们也有好处。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "6512ca95c29168be7348f3bd90f4389d5cb0ea00b97f86b46b199fd0e1558ee5",
+      "enMarkdown": "Google is a sign of the way things are going. As a condition of funding, their investors insisted they hire someone old and experienced as CEO. But from what I've heard the founders didn't just give in and take whoever the VCs wanted. They delayed for an entire year, and when they did finally take a CEO, they chose a guy with a PhD in computer science.",
+      "zhMarkdown": "谷歌就是这种发展趋势的一个信号。作为融资的条件，他们的投资人坚持要求他们聘请一位年长且有经验的人担任 CEO。但据我所知，创始人并没有妥协去接受风险投资人想要的任何人。他们拖延了整整一年，当他们最终接受一位 CEO 时，他们选择了一位拥有计算机科学博士学位的人。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "169c7be5f7271c9da58da762e022734025d4feea36fd6e44ce044c83c118dd62",
+      "enMarkdown": "It sounds to me as if the founders are still the most powerful people in the company, and judging by Google's performance, their youth and inexperience doesn't seem to have hurt them. Indeed, I suspect Google has done better than they would have if the founders had given the VCs what they wanted, when they wanted it, and let some MBA take over as soon as they got their first round of funding.",
+      "zhMarkdown": "在我看来，创始人似乎仍然是公司里最有权力的人，从谷歌的表现来看，他们的年轻和缺乏经验似乎并没有伤害到公司。事实上，我怀疑如果创始人在拿到第一轮融资后，就顺从地把风险投资人想要的东西在他们想要的时候给他们，并让某个 MBA 接管公司，谷歌的表现反而不会像现在这么好。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "c395dd7f30ed1be5efa5e3c4386403b810ea95afa5de0e52f02339dc8e86d8e3",
+      "enMarkdown": "I'm not claiming the business guys installed by VCs have no value. Certainly they have. But they don't need to become the founders' bosses, which is what that title CEO means. I predict that in the future the executives installed by VCs will increasingly be COOs rather than CEOs. The founders will run engineering directly, and the rest of the company through the COO.",
+      "zhMarkdown": "我并不是说风险投资人安排的商务人士毫无价值。他们当然有价值。但他们不需要成为创始人的老板，而这正是 CEO 这个头衔的含义。我预测，未来风险投资人安排的高管将越来越多地担任 COO，而不是 CEO。创始人将直接管理工程部门，并透过 COO 管理公司的其余部分。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "20bbbc98fda87cbd1d3164c06036dbf199a9863fc406d4a3eda9fdc82f68123f",
+      "enMarkdown": "**The Open Cage**",
+      "zhMarkdown": "**敞开的牢笼**"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "bfaa691b41ea46fa57553b994fe41743a7cd36de1a67890deef6d3825baee27d",
+      "enMarkdown": "With both employers and investors, the balance of power is slowly shifting towards the young. And yet they seem the last to realize it. Only the most ambitious undergrads even consider starting their own company when they graduate. Most just want to get a job.",
+      "zhMarkdown": "无论是面对雇主还是投资人，权力的天平都在慢慢向年轻人倾斜。然而，他们似乎是最后一个意识到这一点的人。只有最雄心勃勃的本科生在毕业时才会考虑创办自己的公司。大多数人只是想找份工作。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "7d32d70dbb6f146102d172a064d5ffa01b659390da2f2ce2fb4a2c5b8d6365da",
+      "enMarkdown": "Maybe this is as it should be. Maybe if the idea of starting a startup is intimidating, you filter out the uncommitted. But I suspect the filter is set a little too high. I think there are people who could, if they tried, start successful startups, and who instead let themselves be swept into the intake ducts of big companies.",
+      "zhMarkdown": "也许本该如此。也许如果创业的想法令人望而生畏，就能过滤掉那些不够坚定的人。但我怀疑这个过滤器的门槛设得有点太高了。我认为有些人如果去尝试，是能够创办成功的创业公司的，但他们却任由自己被吸入大公司的流水线。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "65a1e2d9dcd439285c29888072dde0a4acffc151ef14ee310860162f74e4be4b",
+      "enMarkdown": "Have you ever noticed that when animals are let out of cages, they don't always realize at first that the door's open? Often they have to be poked with a stick to get them out. Something similar happened with blogs. People could have been publishing online in 1995, and yet blogging has only really taken off in the last couple years. In 1995 we thought only professional writers were entitled to publish their ideas, and that anyone else who did was a crank. Now publishing online is becoming so popular that everyone wants to do it, even print journalists. But blogging has not taken off recently because of any technical innovation; it just took eight years for everyone to realize the cage was open.",
+      "zhMarkdown": "你有没有注意到，当动物被从笼子里放出来时，它们起初并不总是意识到门已经开了？通常必须用棍子戳它们一下，它们才会出来。博客的兴起也发生了类似的事情。人们在 1995 年就可以在网上发表文章了，但博客直到最近几年才真正流行起来。在 1995 年，我们认为只有专业作家才有权发表自己的想法，其他任何这样做的人都是怪人。现在，在网上发表文章变得如此流行，以至于每个人都想做，甚至包括印刷媒体的记者。但博客最近的爆发并不是因为任何技术创新；大家只是花了八年的时间才意识到笼子已经打开了。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "f482a26f19a16188c4c8eaf9f8e4e9ca6ca422c6cae9fcd6c62c0b56c497b477",
+      "enMarkdown": "I think most undergrads don't realize yet that the economic cage is open. A lot have been told by their parents that the route to success is to get a good job. This was true when their parents were in college, but it's less true now. The route to success is to build something valuable, and you don't have to be working for an existing company to do that. Indeed, you can often do it better if you're not.",
+      "zhMarkdown": "我认为大多数本科生还没有意识到经济的牢笼已经打开了。许多人的父母告诉他们，成功的途径是找一份好工作。在他们父母上大学的那个时代，这确实是真理，但现在不那么适用了。成功的途径是创造有价值的东西，你不需要为了做到这一点而为现有的公司工作。事实上，如果你不为它们工作，往往能做得更好。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "5b88868be5a2cb26762de51d6ff06a39253dd622c31b64f234499ae95231018f",
+      "enMarkdown": "When I talk to undergrads, what surprises me most about them is how conservative they are. Not politically, of course. I mean they don't seem to want to take risks. This is a mistake, because the younger you are, the more risk you can take.",
+      "zhMarkdown": "当我与本科生交谈时，最让我惊讶的是他们是多么的保守。当然，我不是指政治上。我是说他们似乎不想冒险。这是一个错误，因为你越年轻，你能承受的风险就越大。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "d7df2e6043ef636c68f71d9ca90c233e8baf801f68cd3ab60ad3a5e3187e3364",
+      "enMarkdown": "**Risk**",
+      "zhMarkdown": "**风险**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "411b8c9eda72c8a94d3258893b34cf7494fb66112d9df81e229730875727b97a",
+      "enMarkdown": "Risk and reward are always proportionate. For example, stocks are riskier than bonds, and over time always have greater returns. So why does anyone invest in bonds? The catch is that phrase \"over time.\" Stocks will generate greater returns over thirty years, but they might lose value from year to year. So what you should invest in depends on how soon you need the money. If you're young, you should take the riskiest investments you can find.",
+      "zhMarkdown": "风险与回报总是成正比的。例如，股票比债券风险更大，而且随着时间的推移，回报总是更高。那么为什么还会有人投资债券呢？问题出在“随着时间的推移”这句话上。股票在三十年内会产生更大的回报，但它们可能会逐年贬值。因此，你应该投资什么取决于你多久需要这笔钱。如果你年轻，你应该选择你能找到的风险最大的投资。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "9695ae7519be1fe68918fe7538c8ffa056e212f5eb2f442124b0621630bce718",
+      "enMarkdown": "All this talk about investing may seem very theoretical. Most undergrads probably have more debts than assets. They may feel they have nothing to invest. But that's not true: they have their time to invest, and the same rule about risk applies there. Your early twenties are exactly the time to take insane career risks.",
+      "zhMarkdown": "所有这些关于投资的讨论可能看起来非常理论化。大多数本科生可能债务多于资产。他们可能觉得自己没有什么可投资的。但事实并非如此：他们有自己的时间可以投资，而同样的风险规则也适用于此。你二十出头的时候，正是进行疯狂职业冒险的最佳时机。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "e1331f0b06e847886e6a68d7afa256574878fc28dba0f56be9ca214594757b79",
+      "enMarkdown": "The reason risk is always proportionate to reward is that market forces make it so. People will pay extra for stability. So if you choose stability-- by buying bonds, or by going to work for a big company-- it's going to cost you.",
+      "zhMarkdown": "风险总是与回报成正比的原因是市场力量使然。人们会为稳定支付额外的代价。因此，如果你选择稳定——通过购买债券，或者去大公司工作——你将为此付出代价。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "b726eda7135b9aac57b2bb863c8a4d45b426c42c4f11a2f2ca36c0c81eac8aa2",
+      "enMarkdown": "Riskier career moves pay better on average, because there is less demand for them. Extreme choices like starting a startup are so frightening that most people won't even try. So you don't end up having as much competition as you might expect, considering the prizes at stake.",
+      "zhMarkdown": "平均而言，风险更大的职业选择回报更高，因为对它们的需求较少。创办创业公司这种极端的选择是如此可怕，以至于大多数人甚至不敢尝试。因此，考虑到所涉及的丰厚回报，你最终面临的竞争其实并没有你想象的那么激烈。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "88ba854ec30f595e24c5d7f80cb5a90d00a18da531532ef68832052df1112397",
+      "enMarkdown": "The math is brutal. While perhaps 9 out of 10 startups fail, the one that succeeds will pay the founders more than 10 times what they would have made in an ordinary job. [[3](#f3n)] That's the sense in which startups pay better \"on average.\"",
+      "zhMarkdown": "数学计算是残酷的。虽然可能有九成的创业公司会失败，但成功的那一家给创始人的回报将是他们在普通工作中所得的 10 倍以上。[[3](#f3n)] 这就是创业公司在“平均意义上”回报更高的含义。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "a811068ccfc031552ca4009407625e9c011d781f97fcececfb86e1914916421e",
+      "enMarkdown": "Remember that. If you start a startup, you'll probably fail. Most startups fail. It's the nature of the business. But it's not necessarily a mistake to try something that has a 90% chance of failing, if you can afford the risk. Failing at 40, when you have a family to support, could be serious. But if you fail at 22, so what? If you try to start a startup right out of college and it tanks, you'll end up at 23 broke and a lot smarter. Which, if you think about it, is roughly what you hope to get from a graduate program.",
+      "zhMarkdown": "记住这一点。如果你创办一家创业公司，你可能会失败。大多数创业公司都会失败。这是这个行业的本质。但是，如果你能承受风险，尝试一件有 90% 失败概率的事情并不一定是个错误。在 40 岁时失败，当你有一个家庭要抚养时，可能会很严重。但如果你在 22 岁时失败，那又怎样？如果你一毕业就尝试创业并以失败告终，你会在 23 岁时破产，但会变得聪明得多。仔细想想，这大致就是你希望从研究生课程中得到的东西。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "9fb2a0d28d6f1ba1d133df545be720c90322da53ad11ed175c8a0353ba6a24e6",
+      "enMarkdown": "Even if your startup does tank, you won't harm your prospects with employers. To make sure I asked some friends who work for big companies. I asked managers at Yahoo, Google, Amazon, Cisco and Microsoft how they'd feel about two candidates, both 24, with equal ability, one who'd tried to start a startup that tanked, and another who'd spent the two years since college working as a developer at a big company. Every one responded that they'd prefer the guy who'd tried to start his own company. Zod Nazem, who's in charge of engineering at Yahoo, said:",
+      "zhMarkdown": "即使你的创业公司真的倒闭了，你也不会损害自己在雇主面前的前景。为了确认这一点，我询问了一些在大公司工作的朋友。我问雅虎、谷歌、亚马逊、思科和微软的经理，他们会如何看待两个同样能力的 24 岁候选人：一个尝试创办创业公司但失败了，另一个自毕业后的两年里一直在大公司做开发人员。每一个人都回答说，他们更喜欢那个尝试过自己创业的人。雅虎工程负责人 Zod Nazem 说："
+    },
+    {
+      "id": 61,
+      "type": "quote",
+      "sourceHash": "45e4934f3b27e4de2f17465b158f0cb578a2e38eaddcf0ff8589d7a1d78419b9",
+      "enMarkdown": "> I actually put more value on the guy with the failed startup. And you can quote me!",
+      "zhMarkdown": "> 我实际上更看重那个创业失败的人。你可以引用我的话！"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "9ab2a627eeaa9c7954f524c336470fc5979b54cb78489e409a468fc2646392fc",
+      "enMarkdown": "So there you have it. Want to get hired by Yahoo? Start your own company.",
+      "zhMarkdown": "所以你明白了。想被雅虎录用吗？那就去创办你自己的公司吧。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "0bdd88974967d6d0cda8f61846edfd6f437977e3e85c4b4044ebe2846201d500",
+      "enMarkdown": "**The Man is the Customer**",
+      "zhMarkdown": "**客户才是老板**"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "6c215d4efd62faa80d242f2c13f258b7b59084e7476f42a4b0a19768fb00a7f0",
+      "enMarkdown": "If even big employers think highly of young hackers who start companies, why don't more do it? Why are undergrads so conservative? I think it's because they've spent so much time in institutions.",
+      "zhMarkdown": "如果连大雇主都看好创业的年轻黑客，为什么不更多人去尝试呢？为什么本科生如此保守？我认为这是因为他们在体制内呆了太久。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "244b3e408fe949a82499e0070f68012f6536ee746d7f2677ce446cccfc436757",
+      "enMarkdown": "The first twenty years of everyone's life consists of being piped from one institution to another. You probably didn't have much choice about the secondary schools you went to. And after high school it was probably understood that you were supposed to go to college. You may have had a few different colleges to choose between, but they were probably pretty similar. So by this point you've been riding on a subway line for twenty years, and the next stop seems to be a job.",
+      "zhMarkdown": "每个人生命的前二十年都是从一个体制被传送到另一个体制。你可能对你去的中学没有太多选择。高中毕业后，大家大概都默契地认为你该去上大学。你可能有一些不同的大学可以选择，但它们可能都非常相似。所以到了这一步，你已经坐了二十年的地铁，而下一站似乎顺理成章就是一份工作。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "2e73723baacca4dfb80fa943ec5029c5167eea1999738686af2c6338ec379e07",
+      "enMarkdown": "Actually college is where the line ends. Superficially, going to work for a company may feel like just the next in a series of institutions, but underneath, everything is different. The end of school is the fulcrum of your life, the point where you go from net consumer to net producer.",
+      "zhMarkdown": "实际上，大学是这条地铁线的终点。表面上看，去一家公司工作可能感觉就像是下一站体制，但在骨子里，一切都变了。学校的结束是你人生的支点，这一刻你从纯消费者变成了纯生产者。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "e86eaeaf15b084135696ca180dc455995d506ce4a2487b2b6e1a7683d7af07d8",
+      "enMarkdown": "The other big change is that now, you're steering. You can go anywhere you want. So it may be worth standing back and understanding what's going on, instead of just doing the default thing.",
+      "zhMarkdown": "另一个巨大的变化是，现在由你来掌舵了。你可以去任何你想去的地方。因此，退一步看清正在发生的事情是值得的，而不是仅仅去做默认的选择。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "31860421a5b5a2e8b51294b7e79586bebab14ccdf2bd5f5c8c2ed85ffaaa1237",
+      "enMarkdown": "All through college, and probably long before that, most undergrads have been thinking about what employers want. But what really matters is what customers want, because they're the ones who give employers the money to pay you.",
+      "zhMarkdown": "在整个大学期间，甚至可能更早之前，大多数本科生一直在思考雇主想要什么。但真正重要的是客户想要什么，因为他们才是给雇主钱来付你工资的人。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "3dbc0936c64c39a27f6bb51a3759dcd5e5bad05da4d48423a36fcab067ea9e2b",
+      "enMarkdown": "So instead of thinking about what employers want, you're probably better off thinking directly about what users want. To the extent there's any difference between the two, you can even use that to your advantage if you start a company of your own. For example, big companies like docile conformists. But this is merely an artifact of their bigness, not something customers need.",
+      "zhMarkdown": "因此，与其思考雇主想要什么，你可能更应该直接思考用户想要什么。如果这两者之间存在差异，你甚至可以在创办自己的公司时利用这一点来发挥你的优势。例如，大公司喜欢温顺顺从的人。但这仅仅是它们规模庞大的副产品，而不是客户需要的东西。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "8443a588b4ce78cac31282e379c930faa79100efb950982fd1e3551f1875a75a",
+      "enMarkdown": "**Grad School**",
+      "zhMarkdown": "**研究生院**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "3e7976d9012dde6d634e5da609f860d5ff45fe7bb44e31cb456864a7bf447453",
+      "enMarkdown": "I didn't consciously realize all this when I was graduating from college-- partly because I went straight to grad school. Grad school can be a pretty good deal, even if you think of one day starting a startup. You can start one when you're done, or even pull the ripcord part way through, like the founders of Yahoo and Google.",
+      "zhMarkdown": "当我从大学毕业时，我并没有自觉地意识到这一切——部分原因是我直接读了研究生。读研可以是一个相当不错的交易，即使你打算有一天创办一家创业公司。你可以在读完后开始，或者甚至像雅虎和谷歌的创始人那样在半路上退出。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "9db1e99b6caf340b7ce8bca1857db02bb5c3b0a25f9058a74303bd9bc49ac267",
+      "enMarkdown": "Grad school makes a good launch pad for startups, because you're collected together with a lot of smart people, and you have bigger chunks of time to work on your own projects than an undergrad or corporate employee would. As long as you have a fairly tolerant advisor, you can take your time developing an idea before turning it into a company. David Filo and Jerry Yang started the Yahoo directory in February 1994 and were getting a million hits a day by the fall, but they didn't actually drop out of grad school and start a company till March 1995.",
+      "zhMarkdown": "研究生院是创业公司的绝佳发射台，因为你和许多聪明人聚集在一起，而且与本科生或企业员工相比，你有更多大块的时间来做自己的项目。只要你有一个相当宽容的导师，你就可以在将一个想法转化为公司之前花时间去完善它。大卫·费罗和杨致远在 1994 年 2 月创办了雅虎目录，到秋天每天的访问量就达到了一百万，但他们直到 1995 年 3 月才真正从研究生院退学并创办了一家公司。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "76a3292669e8d59c651726ce8420ef26b72a217ee92c030ae835bf277eb6d423",
+      "enMarkdown": "You could also try the startup first, and if it doesn't work, then go to grad school. When startups tank they usually do it fairly quickly. Within a year you'll know if you're wasting your time.",
+      "zhMarkdown": "你也可以先尝试创业，如果行不通，再去读研究生。当创业公司倒闭时，它们通常倒得挺快的。在一年之内，你就会知道自己是不是在浪费时间。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "b1dc634c7f9753a7876dc42d938096d3e3d8f9c30a8524ccc7733d34261118e8",
+      "enMarkdown": "If it fails, that is. If it succeeds, you may have to delay grad school a little longer. But you'll have a much more enjoyable life once there than you would on a regular grad student stipend.",
+      "zhMarkdown": "我是说如果失败的话。如果成功了，你可能得把读研的时间再推迟一点。但一旦到了那里，你将过上比普通研究生津贴舒适得多的生活。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "fc0a357135994f390cf956b267943ca78212410f7401634b854f8234c33c08c8",
+      "enMarkdown": "**Experience**",
+      "zhMarkdown": "**经验**"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "c447da731369419c663e7586373f4afbe667b99c520dcfb3d553285086c30614",
+      "enMarkdown": "Another reason people in their early twenties don't start startups is that they feel they don't have enough experience. Most investors feel the same.",
+      "zhMarkdown": "二十出头的人不创业的另一个原因是他们觉得自己经验不足。大多数投资人也有同感。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "dc53a34812dbcf436771db80612c15001404232624428b5fb61b4f1166f52514",
+      "enMarkdown": "I remember hearing a lot of that word \"experience\" when I was in college. What do people really mean by it? Obviously it's not the experience itself that's valuable, but something it changes in your brain. What's different about your brain after you have \"experience,\" and can you make that change happen faster?",
+      "zhMarkdown": "我记得在大学里经常听到“经验”这个词。人们说它时到底是什么意思？显然，有价值的不是经验本身，而是它改变你大脑的某些东西。当你拥有“经验”后，你的大脑有什么不同，你能让这种变化发生得更快吗？"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "03387d420d9e16e37c0d3c624bd619b0729d90a23332314b9a919b5d490bc641",
+      "enMarkdown": "I now have some data on this, and I can tell you what tends to be missing when people lack experience. I've said that every [startup](https://paulgraham.com/start.html) needs three things: to start with good people, to make something users want, and not to spend too much money. It's the middle one you get wrong when you're inexperienced. There are plenty of undergrads with enough technical skill to write good software, and undergrads are not especially prone to waste money. If they get something wrong, it's usually not realizing they have to make something people [want](https://paulgraham.com/bronze.html).",
+      "zhMarkdown": "我现在有一些这方面的数据，我可以告诉你缺乏经验的人往往缺少什么。我说过，每个[创业公司](https://paulgraham.com/start.html)都需要三样东西：优秀的合伙人、做出用户想要的东西，以及不花太多钱。当你没有经验时，你最容易在中间那项上犯错。有足够的技术能力写出好软件的本科生比比皆是，而且本科生并不特别容易浪费钱。如果他们做错了什么，通常是没有意识到他们必须做出人们[想要](https://paulgraham.com/bronze.html)的东西。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "ead49a5beabdc1a22e83e5e06dba6ca29941d02a6bbe0ef761b968a35b23ea0b",
+      "enMarkdown": "This is not exclusively a failing of the young. It's common for startup founders of all ages to build things no one wants.",
+      "zhMarkdown": "这不仅仅是年轻人的失败。所有年龄段的创业公司创始人，做出没人要的东西都是常有的事。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "be6d441e2114d7559d229e0bbfd0f74a6823a340f917c5fbcc6d270ef1231c8d",
+      "enMarkdown": "Fortunately, this flaw should be easy to fix. If undergrads were all bad programmers, the problem would be a lot harder. It can take years to learn how to program. But I don't think it takes years to learn how to make things people want. My hypothesis is that all you have to do is smack hackers on the side of the head and tell them: Wake up. Don't sit here making up a priori theories about what users need. Go find some users and see what they need.",
+      "zhMarkdown": "幸运的是，这个缺陷应该很容易纠正。如果本科生都是糟糕的程序员，问题就会困难得多。学习如何编程可能需要数年时间。但我认为学会如何做出人们想要的东西并不需要数年时间。我的假设是，你所要做的就是拍拍黑客的脑袋告诉他们：醒醒。不要坐在这里凭空推论用户需要什么。去找一些用户，看看他们需要什么。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "c4bacd192bfe0a753ee78b9aaddb7f015cb812fd3c6ce0916d3a1da224ee790a",
+      "enMarkdown": "Most successful startups not only do something very specific, but solve a problem people already know they have.",
+      "zhMarkdown": "大多数成功的创业公司不仅做非常具体的事情，而且解决的是人们已经知道自己面临的问题。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "c965823b93db377aa85579c218b9811b86275500aa0122a064b3a57b046d0e38",
+      "enMarkdown": "The big change that \"experience\" causes in your brain is learning that you need to solve people's problems. Once you grasp that, you advance quickly to the next step, which is figuring out what those problems are. And that takes some effort, because the way software actually gets used, especially by the people who pay the most for it, is not at all what you might expect. For example, the stated purpose of Powerpoint is to present ideas. Its real role is to overcome people's fear of public speaking. It allows you to give an impressive-looking talk about nothing, and it causes the audience to sit in a dark room looking at slides, instead of a bright one looking at you.",
+      "zhMarkdown": "“经验”给你的大脑带来的最大改变，是让你学会去解决人们的问题。一旦你理解了这一点，你就会迅速进入下一步，即弄清楚这些问题是什么。这需要一些努力，因为软件实际被使用的方式，特别是对于那些付费最多的人来说，根本不是你所期望的那样。例如，Powerpoint 宣称的目的是展示想法。它的真正作用是克服人们对公开演讲的恐惧。它让你能够做一场看起来令人印象深刻的空洞演讲，并让听众坐在黑暗的房间里看着幻灯片，而不是在明亮的房间里看着你。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "ceabc66415e2491158288dd38a493b404f641e94165844bc238ca41f4fd7c3e5",
+      "enMarkdown": "This kind of thing is out there for anyone to see. The key is to know to look for it-- to realize that having an idea for a startup is not like having an idea for a class project. The goal in a startup is not to write a cool piece of software. It's to make something people want. And to do that you have to look at users-- forget about hacking, and just look at users. This can be quite a mental adjustment, because little if any of the software you write in school even has users.",
+      "zhMarkdown": "这种事情随处可见。关键是要知道去寻找它——要意识到创业的想法不同于课程项目的想法。创业公司的目标不是写一个很酷的软件。而是做出人们想要的东西。要做到这一点，你必须关注用户——忘掉黑客技术，只看用户。这可能需要相当大的心理调整，因为你在学校写的软件几乎没有任何用户。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "cf705dcc35c065663c2dc1221219a4e0606511333e593bbb97a14063932640db",
+      "enMarkdown": "A few steps before a Rubik's Cube is solved, it still looks like a mess. I think there are a lot of undergrads whose brains are in a similar position: they're only a few steps away from being able to start successful startups, if they wanted to, but they don't realize it. They have more than enough technical skill. They just haven't realized yet that the way to create wealth is to make what users want, and that employers are just proxies for users in which risk is pooled.",
+      "zhMarkdown": "在魔方被解开的前几步，它看起来仍然是一团糟。我认为有很多本科生的大脑也处于类似的状态：如果他们愿意，他们距离创办成功的创业公司只有几步之遥，但他们自己并没有意识到。他们有绰绰有余的技术能力。他们只是还没有意识到创造财富的方法是做出用户想要的东西，而雇主只是分担风险的用户代理人。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "01c2487e8e8fda6de8377f63a6ad15412bd289d31e30f713f38b1c4c7af7ad91",
+      "enMarkdown": "If you're young and smart, you don't need either of those. You don't need someone else to tell you what users want, because you can figure it out yourself. And you don't want to pool risk, because the younger you are, the more risk you should take.",
+      "zhMarkdown": "如果你年轻又聪明，你这两者都不需要。你不需要别人来告诉你用户想要什么，因为你自己就能搞清楚。你也不想分担风险，因为你越年轻，就越应该去冒险。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "14ad41c9a7628e257bc46ce0fd1736c20fb4306524bd233cb7d491d6f0bb3031",
+      "enMarkdown": "**A Public Service Message**",
+      "zhMarkdown": "**一条公益信息**"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "ab060813fb56880011ee0d7ae36aab10deaf4773e9166e220ebfb5aa852fbce8",
+      "enMarkdown": "I'd like to conclude with a joint message from me and your parents. Don't drop out of college to start a startup. There's no rush. There will be plenty of time to start companies after you graduate. In fact, it may be just as well to go work for an existing company for a couple years after you graduate, to learn how companies work.",
+      "zhMarkdown": "最后，我想传达一条我和你父母的联合声明。不要为了创业而从大学退学。不用着急。毕业后有的是时间去创办公司。事实上，毕业后先去现有的公司工作一两年，了解公司是如何运作的，也未尝不可。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "2df586a3708c4827a3829ec7387784738871715aac00cd71159e9d41a5209ca9",
+      "enMarkdown": "And yet, when I think about it, I can't imagine telling Bill Gates at 19 that he should wait till he graduated to start a company. He'd have told me to get lost. And could I have honestly claimed that he was harming his future-- that he was learning less by working at ground zero of the microcomputer revolution than he would have if he'd been taking classes back at Harvard? No, probably not.",
+      "zhMarkdown": "然而，当我仔细想想，我无法想象在比尔·盖茨 19 岁时告诉他应该等到毕业后再去创办公司。他会让我走开。我能诚实地声称他是在伤害自己的未来吗——他在微型计算机革命的震源中心工作所学到的东西，会比他在哈佛上课学到的少吗？不，可能不会。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "0fffc16d3444afda74500840bf7678a0481cf5d1c703de5b36ee5279af459cf5",
+      "enMarkdown": "And yes, while it is probably true that you'll learn some valuable things by going to work for an existing company for a couple years before starting your own, you'd learn a thing or two running your own company during that time too.",
+      "zhMarkdown": "是的，虽然在创业前先去现有的公司工作几年，你确实会学到一些有价值的东西，但在这段时间里经营你自己的公司，你同样能学到一两件事。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "16cfd9ca3e0dfa52f12b9afa1f1040241de65a05d8e9bed155a85fbdb4a7b60b",
+      "enMarkdown": "The advice about going to work for someone else would get an even colder reception from the 19 year old Bill Gates. So I'm supposed to finish college, then go work for another company for two years, and then I can start my own? I have to wait till I'm 23? That's *four years*. That's more than twenty percent of my life so far. Plus in four years it will be way too late to make money writing a Basic interpreter for the Altair.",
+      "zhMarkdown": "关于去为别人工作的建议，在 19 岁的比尔·盖茨那里会遭到更冷淡的拒绝。所以我应该读完大学，然后去另一家公司工作两年，然后我才能创办自己的公司？我必须等到 23 岁？那是*四年*。这超过了我目前人生的百分之二十。而且四年后，为 Altair 编写 Basic 解释器赚钱就太晚了。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "892418bf9412eedaef687e7d2dc536333509c0ee5717b3b4a141c14480665476",
+      "enMarkdown": "And he'd be right. The Apple II was launched just two years later. In fact, if Bill had finished college and gone to work for another company as we're suggesting, he might well have gone to work for Apple. And while that would probably have been better for all of us, it wouldn't have been better for him.",
+      "zhMarkdown": "他是对的。Apple II 仅仅在两年后就发布了。事实上，如果比尔读完大学并像我们建议的那样去另一家公司工作，他很可能会去苹果工作。虽然这对我们所有人来说可能会更好，但对他来说却并非如此。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "be0ffe2a0b75803cdd3235afd869008c8704944172458ea46bca7557f569da1f",
+      "enMarkdown": "So while I stand by our responsible advice to finish college and then go work for a while before starting a startup, I have to admit it's one of those things the old tell the young, but don't expect them to listen to. We say this sort of thing mainly so we can claim we warned you. So don't say I didn't warn you.",
+      "zhMarkdown": "因此，虽然我坚持我们关于读完大学、先工作一段时间再创业的负责任建议，但我必须承认，这是年长者对年轻人说的那种话，但并不指望他们会听。我们说这种话主要是为了可以说我们警告过你。所以不要说我没有警告过你。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "6275fdada17270368d91b4c6f0e451b9cafb0104e9aee6ff375535e2c5d8a2ab",
+      "enMarkdown": "[1] The average B-17 pilot in World War II was in his early twenties. (Thanks to Tad Marko for pointing this out.)",
+      "zhMarkdown": "[1] 二战中 B-17 轰炸机飞行员的平均年龄在二十出头。（感谢 Tad Marko 指出这一点。）"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "61ffd894581bfaddb3b49e499da0d08c824fd305ff23b5305cfa60ccf4a4e032",
+      "enMarkdown": "[2] If a company tried to pay employees this way, they'd be called unfair. And yet when they buy some startups and not others, no one thinks of calling that unfair.",
+      "zhMarkdown": "[2] 如果一家公司试图以这种方式支付员工薪水，他们会被指责为不公平。然而，当他们购买某些创业公司而不购买其他公司时，没有人会觉得这不公平。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "f162e331dd0dfb36aeb422cc42ee914a08d48b3a9750f29ae4e5955e70ff411e",
+      "enMarkdown": "[3] The 1/10 success rate for startups is a bit of an urban legend. It's suspiciously neat. My guess is the odds are slightly worse.",
+      "zhMarkdown": "[3] 创业公司 1/10 的成功率有点像都市传说。这个数字整齐得令人怀疑。我猜实际概率还要稍微低一些。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "6d2dd28ba8c6de29154de5ecad1173d818b11c8b8ea54cda905a39e89a929db8",
+      "enMarkdown": "**Thanks** to Jessica Livingston for reading drafts of this, to the friends I promised anonymity to for their opinions about hiring, and to Karen Nguyen and the Berkeley CSUA for organizing this talk.",
+      "zhMarkdown": "**感谢** Jessica Livingston 阅读本文的草稿，感谢我承诺对其保密的那些朋友对招聘发表的看法，以及 Karen Nguyen 和伯克利 CSUA 组织了这次演讲。"
+    }
+  ]
+}

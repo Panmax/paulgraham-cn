@@ -1,0 +1,517 @@
+{
+  "slug": "best",
+  "titleEn": "The Best Essay",
+  "titleZh": "最杰出的文章",
+  "dateText": "March 2024",
+  "publishedAt": "2024-03-01",
+  "sourceOrder": 16,
+  "sourceUrl": "https://paulgraham.com/best.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b6567bfd1a6ddfde2284288a354e29a84e7914100bd94581c5d746ea6ecb593c",
+      "enMarkdown": "Despite its title this isn't meant to be the best essay. My goal here is to figure out what the best essay would be like.",
+      "zhMarkdown": "尽管题目如此，但本文并不是要写出一篇最杰出的文章，我的目的是探究最杰出的文章应该是什么样的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4e902f4f4220ac53c605b764f48468f4ec532fac540bc8074afb0f1279f5946e",
+      "enMarkdown": "It would be well-written, but you can write well about any topic. What made it special would be what it was about.",
+      "zhMarkdown": "它当然应该文笔优美，但任何主题都可以写得很好。真正让它与众不同的，应该是它的内容。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "58d5aec29fc368c6eef06b1d833db44e8fc5ec9e1edc8465f43d8584e3b010aa",
+      "enMarkdown": "Obviously some topics would be better than others. It probably wouldn't be about this year's lipstick colors. But it wouldn't be vaporous talk about elevated themes either. A good essay has to be surprising. It has to tell people something they don't already know.",
+      "zhMarkdown": "显然，有些主题天生就比其他主题更好。它大概不会去讨论今年流行什么口红颜色，但也不会是对高深宏大主题的空泛空谈。一篇好文章必须是出人意料的，它必须告诉人们一些他们还不知道的事情。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "b94ea18165cc582cb5ea1f9ce94e450596840e93eea8299bedc6a7cc8c186fc6",
+      "enMarkdown": "The best essay would be on the most important topic you could tell people something surprising about.",
+      "zhMarkdown": "最杰出的文章，应该是针对最重要的主题，向人们揭示某些出人意料的见解。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "117e06e2f1c2457151d70e36bcc29e9f396cd16046a7defe410085a25adb850b",
+      "enMarkdown": "That may sound obvious, but it has some unexpected consequences. One is that science enters the picture like an elephant stepping into a rowboat. For example, Darwin first described the idea of natural selection in an essay written in 1844. Talk about an important topic you could tell people something surprising about. If that's the test of a great essay, this was surely the best one written in 1844. And indeed, the best possible essay at any given time would usually be one describing the most important scientific or technological discovery it was possible to make. [[1](#f1n)]",
+      "zhMarkdown": "这听起来像是一句废话，但它会带来一些意想不到的推论。其一就是，科学就像一头闯入小木船的大象一样，强行挤入了我们的视野。例如，达尔文在 1844 年写的一篇文章中首次阐述了自然选择的观点。这绝对是一个重要至极的主题，而且向人们揭示了极其惊人的见解。如果这是衡量一篇伟大文章的标准，那它无疑是 1844 年写得最好的一篇。事实上，在任何特定时期，最杰出的文章通常都是在阐述当时可能做出的最重要的科学或技术发现。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "71b4cd62e19e85e62adc2175987c9ab400527a9a5527d11aca18df18a0f59517",
+      "enMarkdown": "Another unexpected consequence: I imagined when I started writing this that the best essay would be fairly timeless — that the best essay you could write in 1844 would be much the same as the best one you could write now. But in fact the opposite seems to be true. It might be true that the best painting would be timeless in this sense. But it wouldn't be impressive to write an essay introducing natural selection now. The best essay *now* would be one describing a great discovery we didn't yet know about.",
+      "zhMarkdown": "另一个意想不到的推论是：在动笔写这篇文章时，我曾以为最杰出的文章应该是超越时代的——你在 1844 年能写出的最杰出文章，应该和现在能写出的最杰出文章大体相同。但事实似乎恰恰相反。对于最杰出的画作来说，这种超越时代性也许成立。但如果现在再写一篇文章来介绍自然选择，就毫无惊艳可言了。*现在*最杰出的文章，应该是去阐述一个我们尚未知晓的重大发现。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "025e1b108b1c72b902c37a4f1afed10248a9ca9743cb3c1436cbca31bf301d9c",
+      "enMarkdown": "If the question of how to write the best possible essay reduces to the question of how to make great discoveries, then I started with the wrong question. Perhaps what this exercise shows is that we shouldn't waste our time writing essays but instead focus on making discoveries in some specific domain. But I'm interested in essays and what can be done with them, so I want to see if there's some other question I could have asked.",
+      "zhMarkdown": "如果“如何写出最杰出的文章”这个问题可以简化为“如何做出重大的发现”，那么我一开始就问错了问题。也许这个思想实验表明，我们不应该把时间浪费在写文章上，而应该专注于在某个特定领域做出发现。但我对文章以及文章的能耐很感兴趣，所以我想看看是否能换个方式来发问。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "38af26f8242bb96cb656ef85409e2f2cf66eee51df2e25654474419f3f24240d",
+      "enMarkdown": "There is, and on the face of it, it seems almost identical to the one I started with. Instead of asking *what would the best essay\nbe?* I should have asked *how do you write essays well?* Though these seem only phrasing apart, their answers diverge. The answer to the first question, as we've seen, isn't really about essay writing. The second question forces it to be.",
+      "zhMarkdown": "确实有另一个问题，而且乍看之下，它与我最开始提的问题几乎一模一样。我不应该问“*最杰出的文章应该是什么样的？*”，而应该问“*如何把文章写好？*”虽然这两者似乎只是措辞上的微小差异，但它们的答案却南辕北辙。正如我们所见，第一个问题的答案其实与写作本身无关，而第二个问题则逼着我们回到写作本身。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a3fd57542ab6a958d2c64abb4717d21723f83b91d0ab886b98b81f20f2cc9e76",
+      "enMarkdown": "Writing essays, at its best, is a way of discovering ideas. How do you do that well? How do you discover by writing?",
+      "zhMarkdown": "在最理想的情况下，写文章是发现新思想的一种方式。如何才能做好这件事？如何通过写作来进行发现？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "800b5e96e322df745b0cc7a535479ff3a289667c8c070f385f2c93c33d25225f",
+      "enMarkdown": "An essay should ordinarily start with what I'm going to call a question, though I mean this in a very general sense: it doesn't have to be a question grammatically, just something that acts like one in the sense that it spurs some response.",
+      "zhMarkdown": "一篇文章通常应该从一个我称之为“问题”的东西开始，不过我是在极宽泛的意义上使用这个词的：它不需要是语法上的疑问句，只要能起到类似问题的作用，能激发某种回应即可。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "18b72f24c22bcf6c3d6d74f620bf17e307d801d6e659df2cf671cf7fe3b8502e",
+      "enMarkdown": "How do you get this initial question? It probably won't work to choose some important-sounding topic at random and go at it. Professional traders won't even trade unless they have what they call an *edge* — a convincing story about why in some class of trades they'll win more than they lose. Similarly, you shouldn't attack a topic unless you have a way in — some new insight about it or way of approaching it.",
+      "zhMarkdown": "你如何获得这第一个问题？随便挑一个听起来很重大的主题盲目切入，大概是行不通的。专业交易员在没有“优势”（edge）之前甚至不会出手交易——所谓优势，就是一个令人信服的理由，解释为什么在某类交易中他们赢多输少。同样，除非你找到了切入点——比如对该主题有一些新的洞察或独特的切入角度，否则不应该轻易动笔。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "70fd9bd5b9d49a47991e925d5c49677b69c489e4e0a95601b5a435240568bb48",
+      "enMarkdown": "You don't need to have a complete thesis; you just need some kind of gap you can explore. In fact, merely having questions about something other people take for granted can be edge enough.",
+      "zhMarkdown": "你不需要一个完整的论点，只需要一个可以探索的缺口。事实上，仅仅是对别人视若无睹的事情产生疑问，本身就足以成为你的优势。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "eb3e14a9694ead0e15778833ae721ce435ffec38a5c4b57efced005af32c22ca",
+      "enMarkdown": "If you come across a question that's sufficiently puzzling, it could be worth exploring even if it doesn't seem very momentous. Many an important discovery has been made by pulling on a thread that seemed insignificant at first. How can they *all* be finches? [[2](#f2n)]",
+      "zhMarkdown": "如果你碰巧遇到一个足够令人困惑的问题，即使它看起来无足轻重，也值得去探索。许多重大的发现，最初不过是顺着一根看似微不足道的线头顺藤摸瓜找出来的。为什么它们*全都是*雀鸟？[[2](#f2n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "8fc448b78d6fdf58fc61af3e84607c95229fdb3548d4c991e7d4db5f2a39c019",
+      "enMarkdown": "Once you've got a question, then what? You start thinking out loud about it. Not literally out loud, but you commit to a specific string of words in response, as you would if you were talking. This initial response is usually mistaken or incomplete. Writing converts your ideas from vague to bad. But that's a step forward, because once you can see the brokenness, you can fix it.",
+      "zhMarkdown": "一旦你有了问题，接下来该怎么办？你开始大声思考。并非真的读出声来，而是像说话一样，把你的想法落实为具体的文字。这种最初的回应通常是错误或不完整的。写作会把你的想法从“模糊”转化为“糟糕”。但这是一个进步，因为一旦你看到了破绽，你就可以去修正它。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7548e196fbf2ffa0bb00dc93aa39e45685c29b0691b25b90183b8c02d623e397",
+      "enMarkdown": "Perhaps beginning writers are alarmed at the thought of starting with something mistaken or incomplete, but you shouldn't be, because this is why essay writing works. Forcing yourself to commit to some specific string of words gives you a starting point, and if it's wrong, you'll see that when you reread it. At least half of essay writing is rereading what you've written and asking *is this correct\nand complete?* You have to be very strict when rereading, not just because you want to keep yourself honest, but because a gap between your response and the truth is often a sign of new ideas to be discovered.",
+      "zhMarkdown": "初学写作的人可能会对从错误或不完整的东西开始感到恐慌，但大可不必，因为这恰恰是写文章起作用的原因。强迫自己写下具体的文字能给你一个起点，如果写错了，你在重读时就会发现。写文章至少有一半的工作是重读自己写下的内容，并问自己：*这正确、完整吗？*重读时必须极其严苛，这不仅是为了保持诚实，更是因为你的回答与事实之间的偏差，往往预示着有新的思想等待被发掘。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "4d76d00a7588865ee06e1e9b009c2dc6d3cd506a0a8bda0ceac853efe673c71c",
+      "enMarkdown": "The prize for being strict with what you've written is not just refinement. When you take a roughly correct answer and try to make it exactly right, sometimes you find that you can't, and that the reason is that you were depending on a false assumption. And when you discard it, the answer turns out to be completely different. [[3](#f3n)]",
+      "zhMarkdown": "对自己的文字保持严苛，其回报不仅在于润色。当你试图把一个大致正确的答案修改得完全精准时，有时你会发现自己做不到，原因在于你依赖了一个错误的假设。而当你抛弃这个假设时，答案往往会变得完全不同。[[3](#f3n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "8376255cf60b24f2aed184119a1d479dae9f6a1eb6dcf22a55928d257d936dab",
+      "enMarkdown": "Ideally the response to a question is two things: the first step in a process that converges on the truth, and a source of additional questions (in my very general sense of the word). So the process continues recursively, as response spurs response. [[4](#f4n)]",
+      "zhMarkdown": "理想情况下，对问题的回答应该具备两点：它是逼近真理过程的第一步，同时又是新问题的源泉（在我那极宽泛的定义下）。因此，这个过程会递归地持续下去，回应不断激发新的回应。[[4](#f4n)]"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "4a3d650789d3a0b59f14224664c6d1e80a94017745c7a6b92e45dcf485e93844",
+      "enMarkdown": "Usually there are several possible responses to a question, which means you're traversing a tree. But essays are linear, not tree-shaped, which means you have to choose one branch to follow at each point. How do you choose? Usually you should follow whichever offers the greatest combination of generality and novelty. I don't consciously rank branches this way; I just follow whichever seems most exciting; but generality and novelty are what make a branch exciting. [[5](#f5n)]",
+      "zhMarkdown": "通常，一个问题会有几种可能的回答，这意味着你正在遍历一棵树。但文章是线性的，而不是树状的，这意味着在每个节点上你必须选择一个分支走下去。你该如何选择？通常，你应该选择那个最能兼顾“普适性”和“新颖性”的分支。我不会在潜意识里刻意给分支这样排序，我只是跟着感觉最兴奋的分支走；但普适性和新颖性恰恰是让一个分支令人兴奋的原因。[[5](#f5n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "d8f6ab7392fae8316e71afced5e197491d9708690accbd5915c8088c85f9843d",
+      "enMarkdown": "If you're willing to do a lot of rewriting, you don't have to guess right. You can follow a branch and see how it turns out, and if it isn't good enough, cut it and backtrack. I do this all the time. In this essay I've already cut a 17-paragraph subtree, in addition to countless shorter ones. Maybe I'll reattach it at the end, or boil it down to a footnote, or spin it off as its own essay; we'll see. [[6](#f6n)]",
+      "zhMarkdown": "如果你愿意进行大量的重写，你就不需要每次都猜对。你可以顺着一个分支走下去看看结果，如果不够好，就砍掉它并原路返回。我一直都在这么做。在这篇文章中，除了无数较短的分支外，我已经砍掉了一个包含 17 个段落的子树。也许我最后会把它重新接上，或者浓缩成一个脚注，又或者把它独立成一篇新文章；我们拭目以待。[[6](#f6n)]"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "dac9d98c2603c9d3215dbe525a60156bd73e0f4d8f3919cbc1b370f362f1888d",
+      "enMarkdown": "In general you want to be quick to cut. One of the most dangerous temptations in writing (and in software and painting) is to keep something that isn't right, just because it contains a few good bits or cost you a lot of effort.",
+      "zhMarkdown": "总的来说，你得果断地砍。写作中（以及软件开发和绘画中）最危险的诱惑之一，就是仅仅因为某个不合适的部分包含了几处闪光点，或者花费了你极大的心血，就舍不得删掉它。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "579b6c7cbe7255683dd24190c5b30b60fd205113fdec7da9854745158f241474",
+      "enMarkdown": "The most surprising new question being thrown off at this point is *does it really matter what the initial question is?* If the space of ideas is highly connected, it shouldn't, because you should be able to get from any question to the most valuable ones in a few hops. And we see evidence that it's highly connected in the way, for example, that people who are obsessed with some topic can turn any conversation toward it. But that only works if you know where you want to go, and you don't in an essay. That's the whole point. You don't want to be the obsessive conversationalist, or all your essays will be about the same thing. [[7](#f7n)]",
+      "zhMarkdown": "在这一步，最让人意想不到的新问题跳了出来：*第一个问题到底重不重要？*如果思想的空间是高度互联的，那它应该不重要，因为你应该能从任何一个问题出发，通过几次跳转就能抵达最有价值的问题。我们也能看到这种高度互联的证据，比如那些对某个主题极度痴迷的人，无论聊什么都能把话题扯过去。但那只有在你清楚自己想去哪里的情况下才有用，而写文章时你并不知道。这正是写文章的意义所在。你不想成为那个偏执的聊天者，否则你所有的文章都会是在老调重弹。[[7](#f7n)]"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "96f38cf65292c3f982c5add0315db054dc99a68f792d6b023c59a428608b2e16",
+      "enMarkdown": "The other reason the initial question matters is that you usually feel somewhat obliged to stick to it. I don't think about this when I decide which branch to follow. I just follow novelty and generality. Sticking to the question is enforced later, when I notice I've wandered too far and have to backtrack. But I think this is the optimal solution. You don't want the hunt for novelty and generality to be constrained in the moment. Go with it and see what you get. [[8](#f8n)]",
+      "zhMarkdown": "初始问题很重要的另一个原因是，你通常会觉得有义务扣题。在决定跟着哪个分支走的时候，我不会考虑这一点。我只追随新颖性和普适性。扣题是后面才强加的约束，当我发现自己走得太远时，就不得不退回来。但我认为这是最理想的解决方案。你不想让对新颖和普适的搜寻在当下受到束缚。顺着它走，看看能得到什么。[[8](#f8n)]"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "a151b32cdcf20fad1116996602f68ecc5ea6c1a4c331fda4a3e5764ae1583f0c",
+      "enMarkdown": "Since the initial question does constrain you, in the best case it sets an upper bound on the quality of essay you'll write. If you do as well as you possibly can on the chain of thoughts that follow from the initial question, the initial question itself is the only place where there's room for variation.",
+      "zhMarkdown": "既然初始问题确实限制了你，在最好的情况下，它就决定了你能写出文章的上限。如果你在初始问题延伸出的思想链条上发挥到了极致，那么初始问题本身就是唯一存在变数的地方。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "011d8c58d2aea5d882fce58101fff3949bf9e7b15eb97ec360f3b58188128f27",
+      "enMarkdown": "It would be a mistake to let this make you too conservative though, because you can't predict where a question will lead. Not if you're doing things right, because doing things right means making discoveries, and by definition you can't predict those. So the way to respond to this situation is not to be cautious about which initial question you choose, but to write a lot of essays. Essays are for taking risks.",
+      "zhMarkdown": "不过，如果因此而变得过于保守就错了，因为你无法预测一个问题会引向何方。如果你做得对，就预测不到，因为做得对意味着在进行发现，而根据定义，发现是无法预测的。因此，应对这种情况的方法不是在选择初始问题时小心翼翼，而是去写大量的文章。文章就是用来冒险的。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "a9b4321499611f40fe4746630e038f01b05591324378e4f688ff80601f4b46f8",
+      "enMarkdown": "Almost any question can get you a good essay. Indeed, it took some effort to think of a sufficiently unpromising topic in the third paragraph, because any essayist's first impulse on hearing that the best essay couldn't be about x would be to try to write it. But if most questions yield good essays, only some yield great ones.",
+      "zhMarkdown": "几乎任何问题都能让你写出一篇好文章。事实上，在第三段中，我费了不少劲才想出一个足够没有前景的主题，因为任何文章作者在听到“最杰出的文章不可能关于某某”时，直觉反应都是想去挑战写写看。但是，如果说大多数问题都能孕育出好文章，那么只有极少数问题能孕育出伟大的文章。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "d02faffca2fd6f975eb244474451db2a121981e16b428eb58433c7c75167c4b7",
+      "enMarkdown": "Can we predict which questions will yield great essays? Considering how long I've been writing essays, it's alarming how novel that question feels.",
+      "zhMarkdown": "我们能预测哪些问题会孕育出伟大的文章吗？考虑到我写文章的历史之久，这个问题居然让我感到如此新奇，真是令人警醒。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "1f8c213aa6d3f863ba4083ae4a5f9eced0f45416c53a2f2450afcf583bea13ee",
+      "enMarkdown": "One thing I like in an initial question is outrageousness. I love questions that seem naughty in some way — for example, by seeming counterintuitive or overambitious or heterodox. Ideally all three. This essay is an example. Writing about the best essay implies there is such a thing, which pseudo-intellectuals will dismiss as reductive, though it follows necessarily from the possibility of one essay being better than another. And thinking about how to do something so ambitious is close enough to doing it that it holds your attention.",
+      "zhMarkdown": "在初始问题中，我喜欢的一种特质是“出格”。我喜欢那些在某种程度上显得有些反叛的问题——比如，看起来反直觉、野心过大或离经叛道。最好三者兼具。这篇文章就是一个例子。写关于“最杰出的文章”暗示了这种东西的存在，伪知识分子会对此不屑一顾，认为这太片面，但只要承认一篇文章可以比另一篇文章更好，这个结论就是必然成立的。而且，思考如何去做一件如此有野心的事情，其本身就非常接近于付诸行动，足以牢牢抓住你的注意力。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "e5f56b320a97cbe51ab8e77699f969ed2820b5472d6fcf4c86bf6fcff73653d6",
+      "enMarkdown": "I like to start an essay with a gleam in my eye. This could be just a taste of mine, but there's one aspect of it that probably isn't: to write a really good essay on some topic, you have to be interested in it. A good writer can write well about anything, but to stretch for the novel insights that are the raison d'etre of the essay, you have to care.",
+      "zhMarkdown": "我喜欢在动笔写一篇文章时，眼里闪烁着兴奋的光芒。这可能只是我个人的偏好，但其中有一个方面大概是普适的：要针对某个主题写出一篇真正优秀的文章，你必须对它感兴趣。优秀的作家可以把任何东西写得很好，但要探寻那些作为文章存在意义的新颖洞察，你必须真的在乎。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "1a3163c4a76aa585e3aeaf5af0adeada34abdb4f2a381f4778e60780b37e5847",
+      "enMarkdown": "If caring about it is one of the criteria for a good initial question, then the optimal question varies from person to person. It also means you're more likely to write great essays if you care about a lot of different things. The more curious you are, the greater the probable overlap between the set of things you're curious about and the set of topics that yield great essays.",
+      "zhMarkdown": "如果“在乎”是好问题的标准之一，那么最合适的问题因人而异。这也意味着，如果你对许多不同的事物都抱有好奇心，你就更有可能写出伟大的文章。你的好奇心越强，你好奇的事物与能孕育伟大文章的主题之间的交集可能就越大。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "74bc256d2de7e58eb50a987df0d7df0efb630ab5f8a700dacc41db414b3448c4",
+      "enMarkdown": "What other qualities would a great initial question have? It's probably good if it has implications in a lot of different areas. And I find it's a good sign if it's one that people think has already been thoroughly explored. But the truth is that I've barely thought about how to choose initial questions, because I rarely do it. I rarely *choose* what to write about; I just start thinking about something, and sometimes it turns into an essay.",
+      "zhMarkdown": "一个伟大的初始问题还应该具备哪些品质？如果它在许多不同的领域都有启发意义，那通常是件好事。而且我发现，如果一个问题是人们认为已经被彻底探索过的，这也是一个好兆头。但事实是，我几乎没有仔细想过如何选择初始问题，因为我很少刻意去选。我很少“选择”要写什么；我只是开始思考某件事，有时它就演变成了一篇文章。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "ec27ea1e5932629aa7d8060b6b4002a6950161c29d560ba3ad7bc18a5fdeb694",
+      "enMarkdown": "Am I going to stop writing essays about whatever I happen to be thinking about and instead start working my way through some systematically generated list of topics? That doesn't sound like much fun. And yet I want to write good essays, and if the initial question matters, I should care about it.",
+      "zhMarkdown": "那我会停止随心所欲地写作，转而开始系统性地罗列主题并逐一攻克吗？这听起来可不怎么有趣。然而，我又想写出好文章，既然初始问题至关重要，我就应该重视它。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "2672c2141e5f9d9caefa4d1c3c65a263e99726004f74d4a3a1790b35698161c7",
+      "enMarkdown": "Perhaps the answer is to go one step earlier: to write about whatever pops into your head, but try to ensure that what pops into your head is good. Indeed, now that I think about it, this has to be the answer, because a mere list of topics wouldn't be any use if you didn't have edge with any of them. To start writing an essay, you need a topic plus some initial insight about it, and you can't generate those systematically. If only. [[9](#f9n)]",
+      "zhMarkdown": "也许答案在于往前再推一步：随心所欲地写脑子里冒出来的任何东西，但要设法确保脑子里冒出来的东西是高质量的。确实，现在想想，这必须是唯一的答案，因为如果你对这些主题没有任何独特的切入优势，单凭一张主题清单是毫无用处的。要开始写一篇文章，你需要一个主题加上对它的初始洞察，而这些是无法系统性地批量生产的。要是能就好了。[[9](#f9n)]"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "76bf1ea01ac9deb4fd291abb0a40732609a1cf671c3d5b1285da971bba69813e",
+      "enMarkdown": "You can probably cause yourself to have more of them, though. The quality of the ideas that come out of your head depends on what goes in, and you can improve that in two dimensions, breadth and depth.",
+      "zhMarkdown": "不过，你大概可以让自己产生更多这样的洞察。从你脑子里冒出来的想法的质量，取决于输入了什么，而你可以从两个维度来改善输入：广度和深度。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "5e4fba7960ee380b4c28f38c5df9490b20ef97d3047ef883c7c94b4997306f73",
+      "enMarkdown": "You can't learn everything, so getting breadth implies learning about topics that are very different from one another. When I tell people about my book-buying trips to Hay and they ask what I buy books about, I usually feel a bit sheepish answering, because the topics seem like a laundry list of unrelated subjects. But perhaps that's actually optimal in this business.",
+      "zhMarkdown": "你不可能什么都学，因此获取广度意味着去了解彼此截然不同的主题。当我向人们提起我去海伊（Hay）的买书之旅，他们问我买什么书时，我回答时总觉得有点不好意思，因为那些主题看起来就像一份毫无关联的流水账。但也许在这行里，这反而是最理想的状态。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "91fd9ccc6448a1b6fbbb538a40835615ec87ddb62cf4d3883354350f8632aa94",
+      "enMarkdown": "You can also get ideas by talking to people, by doing and building things, and by going places and seeing things. I don't think it's important to talk to new people so much as the sort of people who make you have new ideas. I get more new ideas after talking for an afternoon with Robert Morris than from talking to 20 new smart people. I know because that's what a block of office hours at Y Combinator consists of.",
+      "zhMarkdown": "你也可以通过与人交谈、动手创造、四处游历和观察来获得灵感。我认为与陌生人交谈并不那么重要，重要的是与那些能激发你产生新想法的人交谈。我和罗伯特·莫里斯（Robert Morris）聊一个下午得到的新想法，比和 20 个聪明的陌生人聊天还要多。我知道这一点，因为这正是 Y Combinator 答疑时间（office hours）的日常写照。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "979bc77549c8d04ab05b1dcc800f51f69a7c95660c606a65949af581cdfdbd6e",
+      "enMarkdown": "While breadth comes from reading and talking and seeing, depth comes from doing. The way to really learn about some domain is to have to solve problems in it. Though this could take the form of writing, I suspect that to be a good essayist you also have to do, or have done, some other kind of work. That may not be true for most other fields, but essay writing is different. You could spend half your time working on something else and be net ahead, so long as it was hard.",
+      "zhMarkdown": "广度来自于阅读、交谈和观察，而深度则来自于实践。真正了解一个领域的唯一方法就是去解决其中的实际问题。虽然这可以通过写作来实现，但我怀疑，要成为一个优秀的撰稿人，你还必须做过或正在做其他类型的工作。这在其他大多数领域可能不成立，但写作不同。你可以把一半的时间花在别的事情上，只要那件事足够难，你最终依然是净赚的。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "5dcc3dda794940cfc908a1db21b8b850c8916368341afaa9278ce25a086044c0",
+      "enMarkdown": "I'm not proposing that as a recipe so much as an encouragement to those already doing it. If you've spent all your life so far working on other things, you're already halfway there. Though of course to be good at writing you have to like it, and if you like writing you'd probably have spent at least some time doing it.",
+      "zhMarkdown": "我提出这点并不是作为一个秘诀，而是对那些已经这么做的人的一种鼓励。如果你至今为止的人生都在忙于其他事情，你其实已经成功了一半。当然，要写得好，你必须热爱写作，而如果你热爱写作，你可能多多少少已经花过一些时间在写了。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "df0482bbe7356b795f0a8c2770cc4b912b7179e0e520bc9cbde37d3e23405f75",
+      "enMarkdown": "Everything I've said about initial questions applies also to the questions you encounter in writing the essay. They're the same thing; every subtree of an essay is usually a shorter essay, just as every subtree of a Calder mobile is a smaller mobile. So any technique that gets you good initial questions also gets you good whole essays.",
+      "zhMarkdown": "我所说的关于初始问题的一切，同样适用于你在写作过程中遇到的问题。它们本质上是一回事；一篇文章的每个子分支通常都是一篇较短的文章，就像考尔德（Calder）风铃的每个子分支都是一个较小的风铃一样。因此，任何能帮你找到好初始问题的技巧，也能帮你写出整篇好文章。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8392dc94a0f9791fe27b854c3fddf58f87fde57b06543174d31c5c6137c88d43",
+      "enMarkdown": "At some point the cycle of question and response reaches what feels like a natural end. Which is a little suspicious; shouldn't every answer suggest more questions? I think what happens is that you start to feel sated. Once you've covered enough interesting ground, you start to lose your appetite for new questions. Which is just as well, because the reader is probably feeling sated too. And it's not lazy to stop asking questions, because you could instead be asking the initial question of a new essay.",
+      "zhMarkdown": "在某个时刻，问题与回应的循环会达到一个感觉自然结束的终点。这其实有点可疑：难道每个答案不应该引出更多的问题吗？我觉得实际情况是，你开始感到满足了。一旦你探索了足够多有趣的内容，你对新问题的胃口就会开始下降。这倒也无妨，因为读者可能也觉得差不多了。而且停止提问并不意味着懒惰，因为你可以把精力留给下一篇新文章的初始问题。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "34583f81907eedec0075db2c2cc4c97c38c4e4049bf2678860f3e576d4cb6ffe",
+      "enMarkdown": "That's the ultimate source of drag on the connectedness of ideas: the discoveries you make along the way. If you discover enough starting from question A, you'll never make it to question B. Though if you keep writing essays you'll gradually fix this problem by burning off such discoveries. So bizarrely enough, writing lots of essays makes it as if the space of ideas were more highly connected.",
+      "zhMarkdown": "这就是阻碍思想互联的终极阻力：你在途中做出的发现。如果你从问题 A 出发做出了足够多的发现，你就永远不会走到问题 B。不过，如果你坚持写文章，你会通过不断耗尽这些发现来逐渐解决这个问题。因此，说来也怪，写大量的文章反而会让思想空间显得更加紧密相连。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "e90387e7e6259cc6a6ef7ec590168005df19532ca56afcdc410296155a8afc66",
+      "enMarkdown": "When a subtree comes to an end, you can do one of two things. You can either stop, or pull the Cubist trick of laying separate subtrees end to end by returning to a question you skipped earlier. Usually it requires some sleight of hand to make the essay flow continuously at this point, but not this time. This time I actually need an example of the phenomenon. For example, we discovered earlier that the best possible essay wouldn't usually be timeless in the way the best painting would. This seems surprising enough to be worth investigating further.",
+      "zhMarkdown": "当一个子分支结束时，你可以做两件事之一。要么停下来，要么玩一个立体主义的把戏，通过回到之前跳过的一个问题，将不同的子分支首尾相连。通常，这需要一些文字上的障眼法来让文章显得连贯，但这次不需要。这次我正好需要一个这种现象的实例。例如，我们之前发现，最杰出的文章通常不像最杰出的画作那样具有永恒性。这似乎足够令人惊讶，值得进一步探究。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "f3a39e8b6975f59fdca9f3b6656ddeb6f664385a70c02c2a6b0a192fc52363b7",
+      "enMarkdown": "There are two senses in which an essay can be timeless: to be about a matter of permanent importance, and always to have the same effect on readers. With art these two senses blend together. Art that looked beautiful to the ancient Greeks still looks beautiful to us. But with essays the two senses diverge, because essays teach, and you can't teach people something they already know. Natural selection is certainly a matter of permanent importance, but an essay explaining it couldn't have the same effect on us that it would have had on Darwin's contemporaries, precisely because his ideas were so successful that everyone already knows about them. [[10](#f10n)]",
+      "zhMarkdown": "一篇文章在两种意义上可以是永恒的：一是讨论具有永久重要性的主题，二是永远对读者产生相同的效果。在艺术中，这两种意义是融合在一起的。古希腊人觉得美丽的艺术品，我们现在依然觉得美丽。但在文章中，这两者分道扬镳了，因为文章具有传授性，而你无法教给人们他们已经知道的东西。自然选择当然是具有永久重要性的主题，但一篇解释它的文章不可能对我们产生像对达尔文同时代人那样的影响，恰恰是因为他的思想太成功了，以至于现在每个人都已经知道了。[[10](#f10n)]"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "639ff4751ba68e4f8d6e0100bc988c7097ff72a9719f123f72ad8599ef8897c7",
+      "enMarkdown": "I imagined when I started writing this that the best possible essay would be timeless in the stricter, evergreen sense: that it would contain some deep, timeless wisdom that would appeal equally to Aristotle and Feynman. That doesn't seem to be true. But if the best possible essay wouldn't usually be timeless in this stricter sense, what would it take to write essays that were?",
+      "zhMarkdown": "在动笔写这篇文章时，我曾以为最杰出的文章应该是那种更严格意义上的、历久弥新的永恒：它包含某种深邃、超脱时代的智慧，能同时打动亚里士多德和费曼。这似乎并不成立。但如果最杰出的文章通常无法在如此严苛的意义上保持永恒，那么怎样才能写出这样的文章呢？"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "1a3da19e0f4a0c658c0e6f1ac0e1a17bb5b330eebd323aecd22e62ae9f56b113",
+      "enMarkdown": "The answer to that turns out to be very strange: to be the evergreen kind of timeless, an essay has to be ineffective, in the sense that its discoveries aren't assimilated into our shared culture. Otherwise there will be nothing new in it for the second generation of readers. If you want to surprise readers not just now but in the future as well, you have to write essays that won't stick — essays that, no matter how good they are, won't become part of what people in the future learn before they read them. [[11](#f11n)]",
+      "zhMarkdown": "答案其实非常奇特：要达到历久弥新的永恒，一篇文章必须是“无效”的，即它的发现没有被吸收到我们的共享文化中。否则，对于第二代读者来说，文章里就没有任何新东西了。如果你不仅想让现在的读者感到惊讶，还想让未来的读者同样感到惊讶，你就必须写一些“无法留存”的文章——这些文章无论多好，都不会成为未来人们在阅读它们之前就已经学过的常识。[[11](#f11n)]"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "2763981d35fbeac776754c4dc855a3df0f8735f80394e2ae8fa768d1940c243e",
+      "enMarkdown": "I can imagine several ways to do that. One would be to write about things people never learn. For example, it's a long-established pattern for ambitious people to chase after various types of prizes, and only later, perhaps too late, to realize that some of them weren't worth as much as they thought. If you write about that, you can be confident of a conveyor belt of future readers to be surprised by it.",
+      "zhMarkdown": "我可以想到几种实现的方法。一种是写人们永远学不会的事。例如，有野心的人去追逐各种名利，直到后来（也许为时已晚）才意识到其中一些并不像他们想象的那么有价值，这是一个长期存在的规律。如果你写这个，你可以确信未来会有一源源不断的读者为此感到惊讶。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "4228346589c1570f367bb8ad465c035fb94243d25043041df1329a5d39b0e053",
+      "enMarkdown": "Ditto if you write about the tendency of the inexperienced to overdo things — of young engineers to produce overcomplicated solutions, for example. There are some kinds of mistakes people never learn to avoid except by making them. Any of those should be a timeless topic.",
+      "zhMarkdown": "如果你写缺乏经验的人容易用力过猛的倾向，也是同理——例如，年轻的工程师倾向于做出过度复杂的解决方案。有些错误，人们除了亲自犯一次之外，永远学不会如何避免。这些都是永恒的主题。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "20149b5fb0096a7578fad4ab588870742cb2c56aea834fd3f2bdda8089261762",
+      "enMarkdown": "Sometimes when we're slow to grasp things it's not just because we're obtuse or in denial but because we've been deliberately lied to. There are a lot of things adults [lie](https://paulgraham.com/lies.html) to kids about, and when you reach adulthood, they don't take you aside and hand you a list of them. They don't remember which lies they told you, and most were implicit anyway. So contradicting such lies will be a source of surprises for as long as adults keep telling them.",
+      "zhMarkdown": "有时我们对某些事情开窍慢，不仅是因为我们愚笨或不愿面对，还因为我们被故意欺骗了。大人对孩子说了太多的[谎言](https://paulgraham.com/lies.html)，当你长大成人时，他们不会把你拉到一边，给你一张谎言清单。他们不记得自己对你撒过哪些谎，而且大多数谎言本来就是心照不宣的。因此，只要大人还在继续撒谎，揭穿这些谎言就永远能让人感到惊讶。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "8d18bec553de7811f8675322a54c429595c626e4c2c1b4fb8665a0d42ecb2908",
+      "enMarkdown": "Sometimes it's systems that lie to you. For example, the educational systems in most countries train you to win by [hacking the test](https://paulgraham.com/lesson.html). But that's not how you win at the most important real-world tests, and after decades of training, this is hard for new arrivals in the real world to grasp. Helping them overcome such institutional lies will work as long as the institutions remain broken. [[12](#f12n)]",
+      "zhMarkdown": "有时是体制在对你撒谎。例如，大多数国家的教育体制都在训练你通过[应试套路](https://paulgraham.com/lesson.html)来胜出。但这并不是你在现实世界最关键的考验中胜出的方式，经过数十年的训练，刚进入现实世界的人很难理解这一点。只要体制一天不改，帮助他们克服这种制度性谎言就一天有效。[[12](#f12n)]"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "f97ac284aa155355c4767c164c00f6ff2d3859fe4ec2cabacfed1c97cce25a7f",
+      "enMarkdown": "Another recipe for timelessness is to write about things readers already know, but in much more detail than can be transmitted culturally. \"Everyone knows,\" for example, that it can be rewarding to have [kids](https://paulgraham.com/kids.html). But till you have them you don't know precisely what forms that takes, and even then much of what you know you may never have put into words.",
+      "zhMarkdown": "另一个实现永恒的秘诀是，写读者已经知道、但细节远比文化所能传承的要丰富得多的事情。例如，“大家都知道”养育[孩子](https://paulgraham.com/kids.html)会带来回报。但直到你真正有了孩子，你才确切地知道那是以什么形式呈现的，甚至在那之后，你所知道的大部分内容可能也从未用言语表达过。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "778e8d4d3e5603f9eb609defa9d8388fc390277be0e227a8851478b8374c356f",
+      "enMarkdown": "I've written about all these kinds of topics. But I didn't do it in a deliberate attempt to write essays that were timeless in the stricter sense. And indeed, the fact that this depends on one's ideas not sticking suggests that it's not worth making a deliberate attempt to. You should write about topics of timeless importance, yes, but if you do such a good job that your conclusions stick and future generations find your essay obvious instead of novel, so much the better. You've crossed into Darwin territory.",
+      "zhMarkdown": "我写过所有这些类型的主题。但我写的时候，并不是为了刻意写出严苛意义上的永恒文章。事实上，这取决于作者的思想没有被普及，这一事实表明，不值得去刻意尝试这样做。你应该写具有永恒重要性的主题，没错，但如果你做得太好，以至于你的结论深入人心，让后代觉得你的文章理所当然而不是新颖独特，那反而更好。你已经跨入了达尔文的境界。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "54a4be9ae257b34c91b5406478030f6c6b94b5a4692700863d80edc269b89b3a",
+      "enMarkdown": "Writing about topics of timeless importance is an instance of something even more general, though: breadth of applicability. And there are more kinds of breadth than chronological — applying to lots of different fields, for example. So breadth is the ultimate aim.",
+      "zhMarkdown": "不过，写具有永恒重要性的主题，是一个更广泛概念的体现：适用性的广度。除了时间上的跨度之外，还有其他维度的广度——例如，适用于许多不同的领域。因此，广度才是终极目标。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "c3875979b2e49ded87a14fb440dff84cf7c54408ec9429755495ce43d4124507",
+      "enMarkdown": "I already aim for it. Breadth and novelty are the two things I'm always chasing. But I'm glad I understand where timelessness fits.",
+      "zhMarkdown": "我已经以此为目标了。广度和新颖性是我一直在追寻的两样东西。但我很高兴现在理解了“永恒性”在其中的位置。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "c9d31a24cae6897eaa6a8b1901c56c6d5e9f4362829aee930b80c1f96275eafb",
+      "enMarkdown": "I understand better where a lot of things fit now. This essay has been a kind of tour of essay writing. I started out hoping to get advice about topics; if you assume good writing, the only thing left to differentiate the best essay is its topic. And I did get advice about topics: discover natural selection. Yeah, that would be nice. But when you step back and ask what's the best you can do short of making some great discovery like that, the answer turns out to be about procedure. Ultimately the quality of an essay is a function of the ideas discovered in it, and the way you get them is by casting a wide net for questions and then being very exacting with the answers.",
+      "zhMarkdown": "我现在对很多东西的位置都有了更好的理解。这篇文章就像是对写作的一场巡礼。我一开始希望能得到关于主题的建议；如果你假设文笔都很好，那么唯一能区分出最杰出文章的就只有它的主题了。我确实得到了关于主题的建议：去发现自然选择。是啊，那当然好。但当你退一步，问自己在做出这种伟大发现之外能做到的极限是什么时，答案却变成了关于方法。归根结底，一篇文章的质量取决于在其中发现的思想，而获取这些思想的方法就是广泛地搜寻问题，然后极其严苛地对待答案。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "7b1b6be276f676aca037f940de602ff4a4a5f4bf8960ceda547cee73a910f63e",
+      "enMarkdown": "The most striking feature of this map of essay writing are the alternating stripes of inspiration and effort required. The questions depend on inspiration, but the answers can be got by sheer persistence. You don't have to get an answer right the first time, but there's no excuse for not getting it right eventually, because you can keep rewriting till you do. And this is not just a theoretical possibility. It's a pretty accurate description of the way I work. I'm rewriting as we speak.",
+      "zhMarkdown": "这张写作地图最显著的特征，是灵感与汗水交替出现。问题取决于灵感，但答案可以通过纯粹的坚持来获得。你不需要在第一次就把答案写对，但最终没写对是说不过去的，因为你可以一直重写，直到写对为止。这不仅仅是一种理论上的可能性。这相当准确地描述了我的工作方式。就在我们说话的同时，我还在重写。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "005d4c2c031d28ef3a282ae76d8c2d315715a3e62ec1ae3c27f803c6d21b5c2d",
+      "enMarkdown": "But although I wish I could say that writing great essays depends mostly on effort, in the limit case it's inspiration that makes the difference. In the limit case, the questions are the harder thing to get. That pool has no bottom.",
+      "zhMarkdown": "尽管我希望说写出伟大的文章主要靠努力，但在极限情况下，起决定作用的依然是灵感。在极限情况下，问题才是更难获得的东西。那个深潭没有底。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "33784a28a3b1ac6c286426850cc31898d48b1ca0ed9e8e5b84bd69a8233e6bad",
+      "enMarkdown": "How to get more questions? That is the most important question of all.",
+      "zhMarkdown": "如何获得更多的问题？这才是所有问题中最重要的一个。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "0d7640dff1cd8a4f87d6c36fefb9771b9c52d81dc920aea86efce632ac174991",
+      "enMarkdown": "[1] There might be some resistance to this conclusion on the grounds that some of these discoveries could only be understood by a small number of readers. But you get into all sorts of difficulties if you want to disqualify essays on this account. How do you decide where the cutoff should be? If a virus kills off everyone except a handful of people sequestered at Los Alamos, could an essay that had been disqualified now be eligible? Etc.",
+      "zhMarkdown": "[1] 可能会有人反对这个结论，理由是这些发现中有些只能被少数读者理解。但如果你想因此取消某些文章的资格，就会陷入各种困境。你如何决定门槛在哪里？如果一种病毒消灭了所有人，只留下少数隔离在洛斯阿拉莫斯（Los Alamos）的人，那么一篇之前被取消资格的文章现在能合格了吗？等等。\n\n达尔文 1844 年的文章源自 1839 年写的早期版本。其中的摘录于 1858 年发表。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "e8c753e1a1558ce16e54db2a6bdb11427ae606a29976c068e086a8d9ea8d1f41",
+      "enMarkdown": "Darwin's 1844 essay was derived from an earlier version written in 1839. Extracts from it were published in 1858.",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "a0e9c8c8acb5cce87c1963175712a0ef48340599c8bfbb423c38714318c45a0c",
+      "enMarkdown": "[2] When you find yourself very curious about an apparently minor question, that's an exciting sign. Evolution has designed you to pay attention to things that matter. So when you're very curious about something random, that could mean you've unconsciously noticed it's less random than it seems.",
+      "zhMarkdown": "[2] 当你发现自己对一个显然微不足道的问题产生极大好奇时，这是一个令人兴奋的信号。进化设计了你，让你去关注重要的事情。因此，当你对某些随机的事情极度好奇时，这可能意味着你潜意识里已经注意到它并不像看起来那么随机。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "15ee8fd93b8fb54fb7cad49dfc4b294ed90a72164684423180b80991339a6059",
+      "enMarkdown": "[3] Corollary: If you're not intellectually honest, your writing won't just be biased, but also boring, because you'll miss all the ideas you'd have discovered if you pushed for the truth.",
+      "zhMarkdown": "[3] 推论：如果你在智识上不诚实，你的写作不仅会有偏见，而且会很无聊，因为你会漏掉所有那些如果你追求真理本可以发现的思想。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "e57f47fea0983490ffa673e74320b156e8930344ec64151b44983e7113505cea",
+      "enMarkdown": "[4] Sometimes this process begins before you start writing. Sometimes you've already figured out the first few things you want to say. Schoolchildren are often taught they should decide *everything* they want to say, and write this down as an outline before they start writing the essay itself. Maybe that's a good way to get them started — or not, I don't know — but it's antithetical to the spirit of essay writing. The more detailed your outline, the less your ideas can benefit from the sort of discovery that essays are for.",
+      "zhMarkdown": "[4] 有时这个过程在你动笔之前就开始了。有时你已经想好了最先想说的几件事。学校里经常教学生应该决定好他们想说的*一切*，并在动笔写文章之前写下一个大纲。也许这是让他们开始写的好方法——也可能不是，我不知道——但这与写作的精神是背道而驰的。你的大纲越详细，你的思想就越无法从写作所特有的“发现”中受益。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "0f970db3d8e02e3a7ef14e5e99642720c34abe803af78cacc70e44ef004b069a",
+      "enMarkdown": "[5] The problem with this type of \"greedy\" algorithm is that you can end up on a local maximum. If the most valuable question is preceded by a boring one, you'll overlook it. But I can't imagine a better strategy. There's no lookahead except by writing. So use a greedy algorithm and a lot of time.",
+      "zhMarkdown": "[5] 这种“贪婪”算法的问题在于，你可能会陷入局部最优解。如果最有价值的问题前面是一个无聊的问题，你就会忽略它。但我无法想象出更好的策略。除了通过写作，没有别的办法可以预测。所以，采用贪婪算法，并花大量的时间。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "0721671290824946383fb840148c31415bd61d366bb2c872c32c66e5590c17cf",
+      "enMarkdown": "[6] I ended up reattaching the first 5 of the 17 paragraphs, and discarding the rest.",
+      "zhMarkdown": "[6] 我最终重新接上了 17 个段落中的前 5 段，丢弃了其余的部分。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "e80da0c58a58ee83dab78038b413b8951e8ccd30b10e0ac06a0763969696b14b",
+      "enMarkdown": "[7] Stephen Fry confessed to making use of this phenomenon when taking exams at Oxford. He had in his head a standard essay about some general literary topic, and he would find a way to turn the exam question toward it and then just reproduce it again.",
+      "zhMarkdown": "[7] 斯蒂芬·弗莱（Stephen Fry）承认，他在牛津大学参加考试时就利用了这一现象。他脑子里记着一篇关于某个通用文学主题的标准文章，然后他会想办法把考试题目引向这个主题，接着直接默写出来。\n\n严格来说，高度互连的是思想的关系图（graph），而不是空间（space），但这种用法会让不懂图论的人感到困惑，而懂图论的人如果我用“空间”一词，自然能明白我的意思。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "d6bdf9e0d027eda069ffb8f61cd223270d5cb518ed03a2c2fce6840ef3bc37a5",
+      "enMarkdown": "Strictly speaking it's the graph of ideas that would be highly connected, not the space, but that usage would confuse people who don't know graph theory, whereas people who do know it will get what I mean if I say \"space\".",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "ef65e93e9068991c2d92502c37f80ad160cdfebf54f18c943e4f936be8697d1a",
+      "enMarkdown": "[8] Too far doesn't depend just on the distance from the original topic. It's more like that distance divided by the value of whatever I've discovered in the subtree.",
+      "zhMarkdown": "[8] 走得太远不仅取决于偏离原始主题的距离。它更像是该距离除以我在该子分支中发现的价值。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "ea385e82bdfbd81271a3f901c72b3cfff71f16fc4465a86df9500e07a2103b09",
+      "enMarkdown": "[9] Or can you? I should try writing about this. Even if the chance of succeeding is small, the expected value is huge.",
+      "zhMarkdown": "[9] 或者你能吗？我应该试着写写这个。即使成功的概率很小，期望值也是巨大的。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "ea86af045066bb308c48ae15d20dc4884266d1c152440efefa823634f008d148",
+      "enMarkdown": "[10] There was a vogue in the 20th century for saying that the purpose of art was also to teach. Some artists tried to justify their work by explaining that their goal was not to produce something good, but to challenge our preconceptions about art. And to be fair, art can teach somewhat. The ancient Greeks' naturalistic sculptures represented a new idea, and must have been extra exciting to contemporaries on that account. But they still look good to us.",
+      "zhMarkdown": "[10] 20 世纪曾流行一种说法，认为艺术的目的也是为了教化。一些艺术家试图通过解释他们的目标不是创造好的作品，而是挑战我们对艺术的既有观念，来为自己的作品辩护。公平地说，艺术在某种程度上确实能起到教化作用。古希腊的写实雕塑代表了一种新思想，当时的人们对此一定格外兴奋。但它们现在看起来依然很美。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "9e704e24c9fd35347e7b57794f4a571464f89585473437b9790e1ceae20fb462",
+      "enMarkdown": "[11] Bertrand Russell caused huge controversy in the early 20th century with his ideas about \"trial marriage.\" But they make boring reading now, because they prevailed. \"Trial marriage\" is what we call \"dating.\"",
+      "zhMarkdown": "[11] 伯特兰·罗素（Bertrand Russell）在 20 世纪初提出“试婚”观点时引起了巨大的争议。但由于这些观点后来普及了，现在读起来就很无聊。“试婚”就是我们现在所说的“谈恋爱”。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "ec8d8ccbe7e8476006d8f7da529f0abc495d75a1b5b6e54c77650fa3e76e5bdf",
+      "enMarkdown": "[12] If you'd asked me 10 years ago, I'd have predicted that schools would continue to teach hacking the test for centuries. But now it seems plausible that students will soon be taught individually by AIs, and that exams will be replaced by ongoing, invisible micro-assessments.",
+      "zhMarkdown": "[12] 如果你在 10 年前问我，我会预测学校在未来的几个世纪里仍将继续传授应试套路。但现在看来，学生很快就会由 AI 进行个性化教学，考试将被持续的、无形的微评估所取代，这似乎是合乎情理的。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "310f31e9942fffb5d093cc8f5a4fba41d78ae2a445d28123ec75a923efa78dfc",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Jessica Livingston, Robert Morris, Courtenay Pipkin, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Jessica Livingston、Robert Morris、Courtenay Pipkin 和 Harj Taggar 阅读了本文的草稿。"
+    }
+  ]
+}

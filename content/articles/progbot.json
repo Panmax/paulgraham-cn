@@ -1,0 +1,95 @@
+{
+  "slug": "progbot",
+  "titleEn": "Programming Bottom-Up",
+  "titleZh": "自底向上的编程",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 225,
+  "sourceUrl": "https://paulgraham.com/progbot.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "8cf4ed877c5e6c57006af048823056a165dbda07d1d3e1593341b9b5541a0c60",
+      "enMarkdown": "1993  *(This essay is from the introduction to*[On Lisp](https://paulgraham.com/onlisp.html)*.)*",
+      "zhMarkdown": "1993 年 *（本文选自《[On Lisp](https://paulgraham.com/onlisp.html)》一书的导言部分。）*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "0c2b87e5114bdd2e554af681cec594573f4ddd38dae760c9c0b1e5c9d0786f60",
+      "enMarkdown": "It's a long-standing principle of programming style that the functional elements of a program should not be too large. If some component of a program grows beyond the stage where it's readily comprehensible, it becomes a mass of complexity which conceals errors as easily as a big city conceals fugitives. Such software will be hard to read, hard to test, and hard to debug.",
+      "zhMarkdown": "在编程风格中，有一个流传已久的原则：程序的函数式组件不应该太大。如果一个程序的某个组件庞大到难以轻易理解的程度，它就会变成一团复杂的乱麻，隐藏错误就像大城市隐藏逃犯一样容易。这样的软件将难以阅读、难以测试且难以调试。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "dd4687f26c32b573a4a9e75336963eadb016e9144bd8855d1ae6c5e5c8de1aeb",
+      "enMarkdown": "In accordance with this principle, a large program must be divided into pieces, and the larger the program, the more it must be divided. How do you divide a program? The traditional approach is called *top-down design:* you say \"the purpose of the program is to do these seven things, so I divide it into seven major subroutines. The first subroutine has to do these four things, so it in turn will have four of its own subroutines,\" and so on. This process continues until the whole program has the right level of granularity-- each part large enough to do something substantial, but small enough to be understood as a single unit.",
+      "zhMarkdown": "根据这一原则，大型程序必须进行拆分，而且程序规模越大，拆分得就得越细。那么该如何拆分程序呢？传统的方法被称为“自顶向下设计”：你认为“这个程序的目的是做这七件事，因此我把它拆分为七个主要子程序。第一个子程序需要做这四件事，所以它又会包含四个属于自己的子程序”，以此类推。这个过程一直持续到整个程序达到合适的粒度——每个部分既大到足以完成一些实质性的工作，又小到可以作为一个独立的单元被理解。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2f338af909e90c572b31de6d9fd21fdf73721de43d70398c7d621688a13a0d4e",
+      "enMarkdown": "Experienced Lisp programmers divide up their programs differently. As well as top-down design, they follow a principle which could be called *bottom-up design*-- changing the language to suit the problem. In Lisp, you don't just write your program down toward the language, you also build the language up toward your program. As you're writing a program you may think \"I wish Lisp had such-and-such an operator.\" So you go and write it. Afterward you realize that using the new operator would simplify the design of another part of the program, and so on. Language and program evolve together. Like the border between two warring states, the boundary between language and program is drawn and redrawn, until eventually it comes to rest along the mountains and rivers, the natural frontiers of your problem. In the end your program will look as if the language had been designed for it. And when language and program fit one another well, you end up with code which is clear, small, and efficient.",
+      "zhMarkdown": "经验丰富的 Lisp 程序员拆分程序的方式则有所不同。除了自顶向下设计，他们还遵循一个可以被称为“自底向上设计”的原则——即通过改变语言来适应问题。在 Lisp 中，你不仅是顺着语言的方向去写程序，还要顺着程序的方向去构建语言。在写程序时你可能会想：“要是 Lisp 有这样一个操作符就好了。”于是你就去把它写出来。随后你又意识到，使用这个新的操作符可以简化程序另一部分的设计，如此循环往复。语言和程序共同演进。就像两个交战国之间的边界一样，语言和程序之间的界线被一次次重新划定，直到最终停留在山川河流等代表你问题自然边界的地方。到最后，你的程序看起来就像是专门为它设计了这门语言一样。当语言和程序完美契合时，你最终得到的代码就会清晰、精简且高效。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1e535fb38d7a605d182a74b2ad63349f95ec1bcf7bb038021afd42b1c0c84c63",
+      "enMarkdown": "It's worth emphasizing that bottom-up design doesn't mean just writing the same program in a different order. When you work bottom-up, you usually end up with a different program. Instead of a single, monolithic program, you will get a larger language with more abstract operators, and a smaller program written in it. Instead of a lintel, you'll get an arch.",
+      "zhMarkdown": "需要强调的是，自底向上设计并不只是以不同的顺序去写同一个程序。当你自底向上工作时，你通常最终会得到一个完全不同的程序。你得到的不是一个单一、庞大的程序，而是一个拥有更多抽象操作符的更强大的语言，以及一个用这门语言写成的更精简的程序。你得到的不是一根横梁，而是一座拱门。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "e8225beeb022e0683c2aa1a3700cc3f40342c77baab177b69b237f77e60f91c1",
+      "enMarkdown": "In typical code, once you abstract out the parts which are merely bookkeeping, what's left is much shorter; the higher you build up the language, the less distance you will have to travel from the top down to it. This brings several advantages:",
+      "zhMarkdown": "在典型的代码中，一旦你抽象出那些仅仅用于记账式的辅助部分，剩下的内容就会短得多；你把语言构建得越高，从顶向下到它的距离就越短。这带来了几个好处："
+    },
+    {
+      "id": 7,
+      "type": "list",
+      "sourceHash": "4c210a187063481ef36371000e62d275535a7e19425f673be5267f2cfc4615b6",
+      "enMarkdown": "1. By making the language do more of the work, bottom-up design yields programs which are smaller and more agile. A shorter program doesn't have to be divided into so many components, and fewer components means programs which are easier to read or modify. Fewer components also means fewer connections between components, and thus less chance for errors there. As industrial designers strive to reduce the number of moving parts in a machine, experienced Lisp programmers use bottom-up design to reduce the size and complexity of their programs.\n2. Bottom-up design promotes code re-use. When you write two or more programs, many of the utilities you wrote for the first program will also be useful in the succeeding ones. Once you've acquired a large substrate of utilities, writing a new program can take only a fraction of the effort it would require if you had to start with raw Lisp.\n3. Bottom-up design makes programs easier to read.  An instance of this type of abstraction asks the reader to understand a general-purpose operator; an instance of functional abstraction asks the reader to understand a special-purpose subroutine. [1]\n4. Because it causes you always to be on the lookout for patterns in your code, working bottom-up helps to clarify your ideas about the design of your program. If two distant components of a program are similar in form, you'll be led to notice the similarity and perhaps to redesign the program in a simpler way.",
+      "zhMarkdown": "1. 通过让语言承担更多的工作，自底向上设计写出的程序更小、更灵活。更短的程序不需要拆分成那么多组件，而更少的组件意味着程序更容易阅读或修改。更少的组件也意味着组件之间的连接更少，从而减少了出错的机会。正如工业设计师努力减少机器中活动部件的数量一样，经验丰富的 Lisp 程序员通过自底向上设计来减少程序的规模和复杂性。\n2. 自底向上设计促进了代码复用。当你编写两个或更多的程序时，你为第一个程序编写的许多实用工具在后续的程序中也会派上用场。一旦你积累了大量的实用工具作为底层支撑，编写一个新程序所需付出的精力，将只是从零开始用纯 Lisp 编写时的一小部分。\n3. 自底向上设计让程序更容易阅读。理解这种类型的抽象，需要读者理解一个通用的操作符；而理解函数抽象，则需要读者去理解一个专用的子程序。[1]\n4. 因为它促使你时刻留意代码中的模式，自底向上的工作方式有助于理清你对程序设计的思路。如果一个程序中两个相距甚远的组件在形式上相似，你就会注意到这种相似性，并可能会以一种更简单的方式重新设计程序。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "acd717948fa248de9212cfd4246b1535363c1c24c1a6527514bb9a6e3ab833cd",
+      "enMarkdown": "Bottom-up design is possible to a certain degree in languages other than Lisp. Whenever you see library functions, bottom-up design is happening. However, Lisp gives you much broader powers in this department, and augmenting the language plays a proportionately larger role in Lisp style-- so much so that Lisp is not just a different language, but a whole different way of programming.",
+      "zhMarkdown": "在 Lisp 之外的语言中，自底向上设计在一定程度上也是可行的。每当你看到库函数时，自底向上设计就在发生。然而，Lisp 在这方面赋予了你广泛得多的能力，而且扩展语言在 Lisp 风格中扮演了举足轻重的角色——以至于 Lisp 不仅仅是一门不同的语言，而是一种完全不同的编程方式。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "5f64360e2f17e5adc284baaa2336fe41b5f2a8640798794df2435947a0896bc3",
+      "enMarkdown": "It's true that this style of development is better suited to programs which can be written by small groups. However, at the same time, it extends the limits of what can be done by a small group. In *The Mythical Man-Month*, Frederick Brooks proposed that the productivity of a group of programmers does not grow linearly with its size. As the size of the group increases, the productivity of individual programmers goes down. The experience of Lisp programming suggests a more cheerful way to phrase this law: as the size of the group decreases, the productivity of individual programmers goes up. A small group wins, relatively speaking, simply because it's smaller. When a small group also takes advantage of the techniques that Lisp makes possible, it can [win outright](https://paulgraham.com/avg.html).",
+      "zhMarkdown": "诚然，这种开发风格更适合那些可以由小团队编写的程序。但与此同时，它也拓宽了小团队所能做的事情的极限。在《人月神话》中，Frederick Brooks 提出，程序员团队的生产力并不随着人数的增加而线性增长。随着团队规模的扩大，个人程序员的生产力反而会下降。Lisp 编程的经验为这条定律提供了一种更令人振奋的表述方式：随着团队规模的缩小，个人程序员的生产力反而会提高。相对而言，一个小团队仅仅因为规模更小就能胜出。而当一个小团队还充分利用了 Lisp 所能提供的技术时，它就能[彻底胜出](https://paulgraham.com/avg.html)。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "3f2c92da7f56108380b8ed51c14455a0bacd9033bc74272f6bcc59560eb61eeb",
+      "enMarkdown": "**New:** [Download On Lisp for Free](https://paulgraham.com/onlisptext.html).",
+      "zhMarkdown": "**新消息：** [免费下载《On Lisp》](https://paulgraham.com/onlisptext.html)。"
+    },
+    {
+      "id": 11,
+      "type": "hr",
+      "sourceHash": "e04feaf0fbf63d40918ba0f483a87ec1c5e5b04fec19917a7d834cfded334b5d"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "2f1ef8f9758da15e7d9290f71b696f06990c3b4ef03773c7869f99df33b33b12",
+      "enMarkdown": "[1] \"But no one can read the program without understanding all your new utilities.\" To see why such statements are usually mistaken, see Section 4.8.",
+      "zhMarkdown": "[1] “但是，如果不理解你所有的新工具，就没人能读懂这个程序。”要了解为什么这种说法通常是错误的，请参见第 4.8 节。"
+    }
+  ]
+}

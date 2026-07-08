@@ -1,0 +1,264 @@
+{
+  "slug": "ramenprofitable",
+  "titleEn": "Ramen Profitable",
+  "titleZh": "拉面温饱（Ramen Profitable）",
+  "dateText": "July 2009",
+  "publishedAt": "2009-07-01",
+  "sourceOrder": 116,
+  "sourceUrl": "https://paulgraham.com/ramenprofitable.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "03bc22a589bc54981a5ac2f481d743a1130fb7adc61c5265bdc46497c6f2ae83",
+      "enMarkdown": "Now that the term \"ramen profitable\" has become widespread, I ought to explain precisely what the idea entails.",
+      "zhMarkdown": "既然“拉面温饱”（ramen profitable）这个词已经流传开来，我想我有必要准确解释一下这个概念到底意味着什么。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "979a45c97dd1a11a116d31a41bc309848597b07206fda69a39c3294cfa0bb7f7",
+      "enMarkdown": "Ramen profitable means a startup makes just enough to pay the founders' living expenses. This is a different form of profitability than startups have traditionally aimed for. Traditional profitability means a big bet is finally paying off, whereas the main importance of ramen profitability is that it buys you time. [[1](#f1n)]",
+      "zhMarkdown": "“拉面温饱”是指一家创业公司的收入刚好够支付创始人的生活开销。这与创业公司传统上追求的盈利形式不同。传统的盈利意味着大举投资终于迎来了回报，而拉面温饱的核心意义在于，它为你争取了时间。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "67f56a506510e39f40a88ad7cae0460c37a9a8eb7cd78bf457be2b7a9dafb9f8",
+      "enMarkdown": "In the past, a startup would usually become profitable only after raising and spending quite a lot of money. A company making computer hardware might not become profitable for 5 years, during which they spent $50 million. But when they did they might have revenues of $50 million a year. This kind of profitability means the startup has succeeded.",
+      "zhMarkdown": "过去，创业公司通常要在融了大笔钱并花掉之后，才能实现盈利。一家做计算机硬件的公司可能在 5 年内都无法盈利，期间要烧掉 5000 万美元。但一旦盈利，他们一年的营收可能就达到 5000 万美元。这种盈利意味着创业公司已经取得了成功。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "d94540a933c28c55b7bdb56bc6bbe7e41cdeaf71fdc5f379f72afe524ae04ad1",
+      "enMarkdown": "Ramen profitability is the other extreme: a startup that becomes profitable after 2 months, even though its revenues are only $3000 a month, because the only employees are a couple 25 year old founders who can live on practically nothing. Revenues of $3000 a month do not mean the company has succeeded. But it does share something with the one that's profitable in the traditional way: they don't need to raise money to survive.",
+      "zhMarkdown": "而拉面温饱则是另一个极端：一家创业公司在成立 2 个月后就实现了“盈利”，即便其月营收只有 3000 美元。这是因为公司唯一的员工就是两位 25 岁的创始人，他们的生活开销几乎为零。月营收 3000 美元并不意味着公司成功了。但它与传统盈利的公司有一个共同点：他们不需要为了生存去融资。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "8e38ccfeac2e67a1b0645851f1b0594fd72c7d13aff75920e280ff9d0755b7ab",
+      "enMarkdown": "Ramen profitability is an unfamiliar idea to most people because it only recently became feasible. It's still not feasible for a lot of startups; it would not be for most biotech startups, for example; but it is for many software startups because they're now so cheap. For many, the only real cost is the founders' living expenses.",
+      "zhMarkdown": "对大多数人来说，拉面温饱是一个新奇的概念，因为直到最近它才变得可行。对许多创业公司来说，这依然行不通，比如大多数生物技术创业公司；但对许多软件创业公司来说，这完全可行，因为现在的开发成本太低了。对很多公司而言，唯一的实际成本就是创始人的生活开销。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "017d150af3ddcf784c7fb8a7e693dd1083c950e105e1fd349afcd37770204784",
+      "enMarkdown": "The main significance of this type of profitability is that you're no longer at the mercy of investors. If you're still losing money, then eventually you'll either have to raise more or shut down. Once you're ramen profitable this painful choice goes away. You can still raise money, but you don't have to do it now.",
+      "zhMarkdown": "这种盈利方式最主要的意义在于，你不再受制于投资人。如果你还在亏钱，那你迟早要么去融更多钱，要么关门大吉。一旦你实现了拉面温饱，这个痛苦的选择就不复存在了。你依然可以融资，但你没必要现在就非融不可。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "109510644bb4c21f8eb3bdf0be4db1175a5311a1f6ce66b3f05a8bacae47a8b4",
+      "enMarkdown": "* * *",
+      "zhMarkdown": "* * *"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4761a9b0c1661695f1d408cc3193b645843a60f38b897e99ee67665e40e9299e",
+      "enMarkdown": "The most obvious advantage of not needing money is that you can get better terms. If investors know you need money, they'll sometimes take advantage of you. Some may even deliberately stall, because they know that as you run out of money you'll become increasingly pliable.",
+      "zhMarkdown": "不缺钱最显而易见的好处是，你可以拿到更好的条款。如果投资人知道你急需用钱，他们有时会趁火打劫。有些人甚至会故意拖延时间，因为他们知道，随着你的钱慢慢烧光，你会变得越来越好说话。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d00b800465acb36c760fcb61f8368a58bf1de90ef33c30c3968d03ac8e9fa01b",
+      "enMarkdown": "But there are also three less obvious advantages of ramen profitability. One is that it makes you more attractive to investors. If you're already profitable, on however small a scale, it shows that (a) you can get at least someone to pay you, (b) you're serious about building things people want, and (c) you're disciplined enough to keep expenses low.",
+      "zhMarkdown": "但拉面温饱还有三个不那么明显的好处。第一，它让你对投资人更有吸引力。如果你已经盈利了，哪怕规模再小，也证明了：(a) 你至少能让某些人为你买单，(b) 你是真正在认真做人们想要的东西，以及 (c) 你足够自律，能把开支控制在极低的水平。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d419a234ae039f4e8ab003ae1b07c4ad82d3dac64a744ac8113c48a583598ebf",
+      "enMarkdown": "This is reassuring to investors, because you've addressed three of their biggest worries. It's common for them to fund companies that have smart founders and a big market, and yet still fail. When these companies fail, it's usually because (a) people wouldn't pay for what they made, e.g. because it was too hard to sell to them, or the market wasn't ready yet, (b) the founders solved the wrong problem, instead of paying attention to what users needed, or (c) the company spent too much and burned through their funding before they started to make money. If you're ramen profitable, you're already avoiding these mistakes.",
+      "zhMarkdown": "这能让投资人感到安心，因为你已经打消了他们最大的三个顾虑。投资人经常会投资一些拥有聪明创始人且市场前景广阔的公司，但这些公司最终还是失败了。当这些公司失败时，通常是因为：(a) 没人愿意为他们做的东西买单，例如因为产品太难卖，或者市场还没准备好；(b) 创始人解决错了问题，没有关注用户的真正需求；或者 (c) 公司花钱太大手大脚，在开始赚钱之前就烧光了融资。如果你实现了拉面温饱，说明你已经避开了这些陷阱。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "832ad616977759261cfa1ded63d805f9917a12363d5c571d26b3c48ff07464d3",
+      "enMarkdown": "Another advantage of ramen profitability is that it's good for morale. A company tends to feel rather theoretical when you first start it. It's legally a company, but you feel like you're lying when you call it one. When people start to pay you significant amounts, the company starts to feel real. And your own living expenses are the milestone you feel most, because at that point the future flips state. Now survival is the default, instead of dying.",
+      "zhMarkdown": "拉面温饱的另一个好处是能提振士气。刚创办一家公司时，往往会觉得它有些虚无缥缈。法律上它确实是一家公司，但当你跟别人这么说时，总觉得自己像是在撒谎。而当人们开始支付你真金白银时，公司就变得真实起来。你自己的生活开销就是你感受最深的分水岭，因为在那个节点上，未来的状态发生了逆转。现在，你的默认状态是活下去，而不是死掉。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "a87f2c5dd976584a40f3f487791fcff8abba805e3576b927157b900359df3466",
+      "enMarkdown": "A morale boost on that scale is very valuable in a startup, because the moral weight of running a startup is what makes it hard. Startups are still very rare. Why don't more people do it? The financial risk? Plenty of 25 year olds save nothing anyway. The long hours? Plenty of people work just as long hours in regular jobs. What keeps people from starting startups is the fear of having so much responsibility. And this is not an irrational fear: it really is hard to bear. Anything that takes some of that weight off you will greatly increase your chances of surviving.",
+      "zhMarkdown": "在创业公司中，这种程度的士气提升是极其宝贵的，因为创业之所以艰难，正是源于其精神重担。创业的人依然非常罕见。为什么没有更多的人去创业？财务风险？反正很多 25 岁的人也存不下钱。工作时间长？在普通工作里加班加点的人也多的是。阻碍人们创业的，是对承担如此巨大责任的恐惧。这种恐惧并非无理取闹：这副担子确实沉重。任何能帮你减轻这部分负担的事情，都会大大增加你活下来的几率。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "423c4c046356b14f77e5f1a60d50d5028afe17de16a6012c05529bb50e04468b",
+      "enMarkdown": "A startup that reaches ramen profitability may be more likely to succeed than not. Which is pretty exciting, considering the bimodal distribution of outcomes in startups: you either fail or make a lot of money.",
+      "zhMarkdown": "一家实现拉面温饱的创业公司，成功的概率可能大于失败的概率。考虑到创业结果呈极端的双峰分布（要么彻底失败，要么赚大钱），这确实令人兴奋。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "fbde7297af4aa2feb7cd921adc9fb9877a953754bf58ea91b9777aee12e3513d",
+      "enMarkdown": "The fourth advantage of ramen profitability is the least obvious but may be the most important. If you don't need to raise money, you don't have to interrupt working on the company to do it.",
+      "zhMarkdown": "拉面温饱的第四个好处最不明显，但可能也最重要。如果你不需要融资，你就不必中断公司的业务去跑融资。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5e2b5067cab4d9ac1cb4d89804790174a3109c08cb7ada731e369d8d66641d35",
+      "enMarkdown": "[Raising money](https://paulgraham.com/fundraising.html) is terribly distracting. You're lucky if your productivity is a third of what it was before. And it can last for months.",
+      "zhMarkdown": "[融资](https://paulgraham.com/fundraising.html)会让人极其分心。如果你的工作效率还能保留平时的三分之一，那算你运气好。而且这个过程可能会持续数月之久。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "39a3d4fb1b83d6d150544a7edb00c9fd170bc92330cc77abb842a78086b7a723",
+      "enMarkdown": "I didn't understand (or rather, remember) precisely why raising money was so distracting till earlier this year. I'd noticed that startups we funded would usually grind to a halt when they switched to raising money, but I didn't remember exactly why till YC raised money itself. We had a comparatively easy time of it; the first people I asked said yes; but it took months to work out the details, and during that time I got hardly any real work done. Why? Because I thought about it all the time.",
+      "zhMarkdown": "直到今年早些时候，我才真正理解（或者说，重新记起）为什么融资会如此让人分心。我以前注意到，我们投资的创业公司一旦转入融资状态，业务通常就会陷入停滞。但直到 YC 自己去融资，我才重新切身体会到原因。我们的融资过程相对顺利，我找的第一批人就答应了；但光是敲定细节就花了好几个月，在那期间，我几乎没能做成任何实际的工作。为什么？因为我满脑子都在想这件事。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "3716ee60d298f74e97cc0826012423a15c41129d4070f16b77bea43c230742bf",
+      "enMarkdown": "At any given time there tends to be one problem that's the most urgent for a startup. This is what you think about as you fall asleep at night and when you take a shower in the morning. And when you start raising money, that becomes the problem you think about. You only take one shower in the morning, and if you're thinking about investors during it, then you're not thinking about the product.",
+      "zhMarkdown": "在任何特定时期，创业公司往往都有一个最紧迫的问题。这是你晚上入睡前和早上洗澡时都在思考的问题。而当你开始融资时，融资就成了那个占据你脑海的问题。你早上只洗一次澡，如果你在洗澡时想的是投资人，那你自然就没在想产品。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "fc49a1e37739a47263a9783a74e5cc5cbb52c8582b7cad97ebd1800ebfbd29b8",
+      "enMarkdown": "Whereas if you can choose when you raise money, you can pick a time when you're not in the middle of something else, and you can probably also insist that the round close fast. You may even be able to avoid having the round occupy your thoughts, if you don't care whether it closes.",
+      "zhMarkdown": "相反，如果你能自主选择融资的时机，你就可以挑一个不那么忙于其他事务的阶段，而且你大概还能坚持要求快速交割。甚至，如果你对这笔融不融得成并不在乎，融资的事情可能根本不会占据你的心神。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "109510644bb4c21f8eb3bdf0be4db1175a5311a1f6ce66b3f05a8bacae47a8b4",
+      "enMarkdown": "* * *",
+      "zhMarkdown": "* * *"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "b08b0b5dfdc550fc96e38a595a4bc22659f270e715f946ca70973fa0ed98e6fd",
+      "enMarkdown": "Ramen profitable means no more than the definition implies. It does not, for example, imply that you're \"bootstrapping\" the startup—that you're never going to take money from investors. Empirically that doesn't seem to work very well. Few startups succeed without taking investment. Maybe as startups get cheaper it will become more common. On the other hand, the money is there, waiting to be invested. If startups need it less, they'll be able to get it on better terms, which will make them more inclined to take it. That will tend to produce an equilibrium. [[2](#f2n)]",
+      "zhMarkdown": "“拉面温饱”的含义仅限于其定义本身。例如，它并不意味着你在“自给自足”（bootstrapping）——即永远不拿投资人的钱。从经验来看，那条路似乎走得并不顺。很少有创业公司能在不拿投资的情况下取得成功。也许随着创业成本越来越低，这种情况会变得多起来。但另一方面，资金就在那里，等着被投资。如果创业公司对资金的依赖减少，它们就能拿到更好的条款，这反过来又会让他们更倾向于接受投资。这往往会产生一种平衡。[[2](#f2n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "c586fcfe1c3cd7c9a28699d2e3b245a276e6d60a23d9fff169792f0ba377aa7a",
+      "enMarkdown": "Another thing ramen profitability doesn't imply is Joe Kraus's idea that you should put your [business model](http://www.brendonwilson.com/blog/2006/04/30/joe-kraus-confessions-of-a-startup-addict/) in beta when you put your product in beta. He believes you should get people to pay you from the beginning. I think that's too constraining. Facebook didn't, and they've done better than most startups. Making money right away was not only unnecessary for them, but probably would have been harmful. I do think Joe's rule could be useful for many startups, though. When founders seem unfocused, I sometimes suggest they try to get customers to pay them for something, in the hope that this constraint will prod them into action.",
+      "zhMarkdown": "拉面温饱也不等同于 Joe Kraus 的观点，即你应该在产品公测时就同步公测你的[商业模式](http://www.brendonwilson.com/blog/2006/04/30/joe-kraus-confessions-of-a-startup-addict/)。他认为你应该从一开始就让用户付钱。我认为这限制太大了。Facebook 当初就没有这么做，而他们做得比绝大多数创业公司都要好。对他们来说，立即赚钱不仅没有必要，甚至可能是有害的。不过，我确实认为 Joe 的规则对许多创业公司很有帮助。当创始人显得缺乏专注时，我有时会建议他们尝试让客户付点钱，希望这种约束能促使他们行动起来。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "b4e6b790d8f036ed794f2d2dd8f14560e5791ec6d328055f3071c5fbb1815610",
+      "enMarkdown": "The difference between Joe's idea and ramen profitability is that a ramen profitable company doesn't have to be making money the way it ultimately will. It just has to be making money. The most famous example is Google, which initially made money by licensing search to sites like Yahoo.",
+      "zhMarkdown": "Joe 的想法与拉面温饱的区别在于，一个实现拉面温饱的公司不需要通过它最终的商业模式来赚钱。它只要有收入就行。最著名的例子是 Google，它最初是通过向雅虎等网站授权搜索技术来赚钱的。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "5a0e3b67d82b673855538553ad53ef21600102c7ca893322d697c8a63964cc79",
+      "enMarkdown": "Is there a downside to ramen profitability? Probably the biggest danger is that it might turn you into a consulting firm. Startups have to be product companies, in the sense of making a single thing that everyone uses. The defining quality of startups is that they grow fast, and consulting just can't scale the way a product can. [[3](#f3n)] But it's pretty easy to make $3000 a month consulting; in fact, that would be a low rate for contract programming. So there could be a temptation to slide into consulting, and telling yourselves you're a ramen profitable startup, when in fact you're not a startup at all.",
+      "zhMarkdown": "拉面温饱有什么坏处吗？最主要的危险可能在于，它可能会把你变成一家咨询公司。创业公司必须是产品型公司，即做出一个供所有人使用的单一产品。创业公司的定义特征是快速增长，而咨询服务是无法像产品那样进行规模化扩张的。[[3](#f3n)] 但是通过做咨询每个月赚 3000 美元是非常容易的；事实上，对于外包程序员来说，这个价格算低的了。因此，你很容易被诱惑滑向咨询业务，然后自欺欺人地认为自己是一家实现了拉面温饱的创业公司，而事实上你根本不是一家创业公司。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "4ab13690db9ee06393088156991ce91ed437e774ca57f96457651a31e25ec5cc",
+      "enMarkdown": "It's ok to do a little consulting-type work at first. Startups usually have to do something weird at first. But remember that ramen profitability is not the destination. A startup's destination is to grow really big; ramen profitability is a trick for [not dying](https://paulgraham.com/die.html) en route.",
+      "zhMarkdown": "在刚开始时做一点咨询性质的工作是可以的。创业公司在起步阶段通常都得做点异于常态的事。但要记住，拉面温饱并不是终点。创业公司的终点是成长为庞然大物；拉面温饱只是在半路上[不让自己死掉](https://paulgraham.com/die.html)的一个小技巧。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "c1cf90c9f496318f963fc426d8777bd2367657956b908b0cec413eb9f7a1c751",
+      "enMarkdown": "[1] The \"ramen\" in \"ramen profitable\" refers to instant ramen, which is just about the cheapest food available.",
+      "zhMarkdown": "[1] “拉面温饱”中的“拉面”指方便面，这几乎是能买到的最便宜的食物了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "173ae086825d9aed72d5bcd239c035e4cd03f78b97081c17461007eab651390d",
+      "enMarkdown": "Please do not take the term literally. Living on instant ramen would be very unhealthy. Rice and beans are a better source of food. Start by investing in a rice cooker, if you don't have one.",
+      "zhMarkdown": "请不要字面理解这个词。光靠吃方便面生活会非常不健康。米饭加豆子是更好的营养来源。如果你还没有电饭煲，先去投资买一个。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "2ca88fca44db8968fca7d68a749878919c400810902b5ef5216983775a1954cd",
+      "enMarkdown": "Rice and Beans for 2n",
+      "zhMarkdown": "两人份的“米饭加豆子”食谱"
+    },
+    {
+      "id": 29,
+      "type": "rawUnsupported",
+      "sourceHash": "132f409bfb61dc860909a47237fbb1f0f967c1317f582a3c62f30ed3c1e15b78",
+      "enMarkdown": "olive oil or butter\n  n yellow onions\n  other fresh vegetables; experiment\n  3n cloves garlic\n  n 12-oz cans white, kidney, or black beans\n  n cubes Knorr beef or vegetable bouillon\n  n teaspoons freshly ground black pepper\n  3n teaspoons ground cumin\n  n cups dry rice, preferably brown"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "d3b174703af0d48a0c3e085b1f9603f24110345c1e0ff8c8dc0bbd512916f0ef",
+      "enMarkdown": "Put rice in rice cooker. Add water as specified on rice package. (Default: 2 cups water per cup of rice.) Turn on rice cooker and forget about it.",
+      "zhMarkdown": "将大米放入电饭煲中。按照大米包装说明加水。（默认比例：每杯米加两杯水。）按下电饭煲开关，然后就不用管了。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "ba797e9035eef412d7fa1517a419b52361bd706af7e7cb1640946e19338d40f2",
+      "enMarkdown": "Chop onions and other vegetables and fry in oil, over fairly low heat, till onions are glassy. Put in chopped garlic, pepper, cumin, and a little more fat, and stir. Keep heat low. Cook another 2 or 3 minutes, then add beans (don't drain the beans), and stir. Throw in the bouillon cube(s), cover, and cook on lowish heat for at least 10 minutes more. Stir vigilantly to avoid sticking.",
+      "zhMarkdown": "切碎洋葱和其他蔬菜，用油小火煎炒，直到洋葱呈半透明状。放入切碎的蒜末、胡椒粉、孜然和少许油，搅拌。保持小火。再煮 2 到 3 分钟，然后加入豆子（不要把豆汁倒掉），搅拌。扔进汤块，盖上锅盖，用偏小的火再煮至少 10 分钟。期间要密切注意搅拌，避免粘锅。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "2a1001ec253be41e08f7de24fd2043170588904fd870d3c28fc43df00c8c9d45",
+      "enMarkdown": "If you want to save money, buy beans in giant cans from discount stores. Spices are also much cheaper when bought in bulk. If there's an Indian grocery store near you, they'll have big bags of cumin for the same price as the little jars in supermarkets.",
+      "zhMarkdown": "如果你想省钱，可以去折扣店买大罐装的豆子。散装购买香料也会便宜得多。如果你家附近有印度超市，他们那里的大袋孜然价格和普通超市里的小罐装一样便宜。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "0e8040f01a6ba6eb002b194dc29989c881eda88984a47577e693118858fdf092",
+      "enMarkdown": "[2] There's a good chance that a shift in power from investors to founders would actually increase the size of the venture business. I think investors currently err too far on the side of being harsh to founders. If they were forced to stop, the whole venture business would work better, and you might see something like the increase in trade you always see when restrictive laws are removed.",
+      "zhMarkdown": "[2] 权力从投资人向创始人的转移，很有可能会扩大风险投资行业的整体规模。我认为目前的投资人对创始人往往过于苛刻。如果他们被迫停止这种做法，整个风投行业会运转得更好，你可能会看到类似于取消限制性法律后贸易额大增的景象。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "f46ef5cb96e8d2d3e1048346a62ff2b75abef2f178f2493741a63e02a9848415",
+      "enMarkdown": "Investors are one of the biggest sources of pain for founders; if they stopped causing so much pain, it would be better to be a founder; and if it were better to be a founder, more people would do it.",
+      "zhMarkdown": "投资人是创始人最大的痛苦来源之一；如果他们不再带来这么多痛苦，当创始人就会成为一件更棒的事；而如果当创始人变得更棒，就会有更多的人去创业。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "10b8d733a94756b4bf79538888713ae3b61597d588e3f5c5cfddd2db90e6760d",
+      "enMarkdown": "[3] It's conceivable that a startup could grow big by transforming consulting into a form that would scale. But if they did that they'd really be a product company.",
+      "zhMarkdown": "[3] 理论上，创业公司也可以通过将咨询服务转化为一种可规模化扩张的形式来做大。但如果他们真做到了这一点，那他们实际上已经变成了一家产品公司。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "c4c8f5e932fec33f71a048c2af38fa87a2b1c31e061b42ae74b2013109faa4d7",
+      "enMarkdown": "**Thanks** to Jessica Livingston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Jessica Livingston 阅读了本文的草稿。"
+    }
+  ]
+}

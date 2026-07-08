@@ -1,0 +1,55 @@
+{
+  "slug": "todo",
+  "titleEn": "The Top of My Todo List",
+  "titleZh": "我待办事项清单的置顶项",
+  "dateText": "April 2012",
+  "publishedAt": "2012-04-01",
+  "sourceOrder": 86,
+  "sourceUrl": "https://paulgraham.com/todo.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5e769c9612ccd7ca0c32b774f939336750be03d71857f5f25f1d15cc23c8dc19",
+      "enMarkdown": "A palliative care nurse called Bronnie Ware made a list of the biggest [regrets\nof the dying](http://bronnieware.com/regrets-of-the-dying/). Her list seems plausible. I could see myself — *can* see myself — making at least 4 of these 5 mistakes.",
+      "zhMarkdown": "一位名叫布隆妮·瓦尔（Bronnie Ware）的临终关怀护士，曾整理过一份临终者[最感遗憾的事](http://bronnieware.com/regrets-of-the-dying/)的清单。这份清单看起来非常真实。我能想象自己——甚至可以说，我*正在*看到自己——至少在犯这五个错误中的四个。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "0c235159bcd63195ec2047f962f848905885155ed2db1ebce0362b63e572aa86",
+      "enMarkdown": "If you had to compress them into a single piece of advice, it might be: don't be a cog. The 5 regrets paint a portrait of post-industrial man, who shrinks himself into a shape that fits his circumstances, then turns dutifully till he stops.",
+      "zhMarkdown": "如果非要把这些遗憾浓缩成一条建议，那大概就是：不要当一个螺丝钉。这五个遗憾勾勒出了后工业时代人类的画像：他们把自己缩成能适应环境的形状，然后尽职尽责地运转，直到生命终结。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "931565a6baa00fd2ef116767cf81779dc9404930c32dcd08a10c990c2707ae80",
+      "enMarkdown": "The alarming thing is, the mistakes that produce these regrets are all errors of omission. You forget your dreams, ignore your family, suppress your feelings, neglect your friends, and forget to be happy. Errors of omission are a particularly dangerous type of mistake, because you make them by default.",
+      "zhMarkdown": "令人警醒的是，导致这些遗憾的错误全都是“消极的不作为”（errors of omission）。你遗忘了梦想，忽略了家人，压抑了感受，冷落了朋友，也忘了去快乐。不作为是一种特别危险的错误，因为它是你在默认状态下会犯的错。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "909a1a096a0f39de596cce3d20dadafffb75e155df249f605c35599b15da9135",
+      "enMarkdown": "I would like to avoid making these mistakes. But how do you avoid mistakes you make by default? Ideally you transform your life so it has other defaults. But it may not be possible to do that completely. As long as these mistakes happen by default, you probably have to be reminded not to make them. So I inverted the 5 regrets, yielding a list of 5 commands",
+      "zhMarkdown": "我想避免犯这些错误。但你该如何避免那些默认就会犯的错呢？最理想的方法是改变你的生活，从而改变它的默认状态。但要彻底做到这一点可能并不容易。只要这些错误依然是默认发生的，你可能就需要被时常提醒去避开它们。因此，我将这五个遗憾反转过来，变成了五条禁令："
+    },
+    {
+      "id": 5,
+      "type": "quote",
+      "sourceHash": "3975f1faee19b1eb0710b9c6b025d3c7e64ff3fe911b8c5ff5ef7cb647b6fcd9",
+      "enMarkdown": "> Don't ignore your dreams; don't work too much; say what you think; cultivate friendships; be happy.",
+      "zhMarkdown": "> 不要忽视你的梦想；不要工作过度；说出你的真实想法；维系好朋友关系；保持快乐。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d5cbd10162ba818b27b007da1bf6c0990188ffce16a7b3d3ed98af4a7ce52e35",
+      "enMarkdown": "which I then put at the top of the file I use as a todo list.",
+      "zhMarkdown": "然后，我把它们放在了我用作待办事项清单的文件顶部。"
+    }
+  ]
+}

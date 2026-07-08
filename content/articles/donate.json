@@ -1,0 +1,83 @@
+{
+  "slug": "donate",
+  "titleEn": "Donate Unrestricted",
+  "titleZh": "捐赠请勿设限",
+  "dateText": "March 2021",
+  "publishedAt": "2021-03-01",
+  "sourceOrder": 36,
+  "sourceUrl": "https://paulgraham.com/donate.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "27c9722cb7ba6bcbe33ba96c9b6dc6879fdd944f28d2994ad94ee3190af87b7e",
+      "enMarkdown": "The secret curse of the nonprofit world is restricted donations. If you haven't been involved with nonprofits, you may never have heard this phrase before. But if you have been, it probably made you wince.",
+      "zhMarkdown": "非营利组织世界里隐藏的诅咒，就是“定向捐赠”（restricted donations）。如果你没接触过非营利组织，可能从未听说过这个词。但如果你接触过，听到它大概会心里一紧。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "705494897fd90b415171b77fd3cae9384d50f0e5c05a032d629ed63b51a5b4fa",
+      "enMarkdown": "Restricted donations mean donations where the donor limits what can be done with the money. This is common with big donations, perhaps the default. And yet it's usually a bad idea. Usually the way the donor wants the money spent is not the way the nonprofit would have chosen. Otherwise there would have been no need to restrict the donation. But who has a better understanding of where money needs to be spent, the nonprofit or the donor?",
+      "zhMarkdown": "定向捐赠是指捐赠者限制了资金用途的捐赠。这在大额捐赠中很常见，甚至可以说是默认做法。然而，这通常不是个好主意。因为捐赠者希望花钱的方式，往往不是非营利组织自己会选择的方式——否则，根本就没必要限制用途了。但是，到底谁更清楚钱该花在哪里？是非营利组织，还是捐赠者？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "12d69033f4f27d5bd4025c1b8cc9a97ee3561b77ccd208bc834682fa1a811d5e",
+      "enMarkdown": "If a nonprofit doesn't understand better than its donors where money needs to be spent, then it's incompetent and you shouldn't be donating to it at all.",
+      "zhMarkdown": "如果一家非营利组织对资金用途的理解还不如捐赠者，那它就是不称职的，你根本就不该给它捐款。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4c825734a390ff32cb022e5146392e937168960ea2c885a323214d567fff5e38",
+      "enMarkdown": "Which means a restricted donation is inherently suboptimal. It's either a donation to a bad nonprofit, or a donation for the wrong things.",
+      "zhMarkdown": "这意味着，定向捐赠本质上是次优的。它要么是捐给了一家糟糕的非营利组织，要么是把钱花在了错误的地方。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d7384c4483810c6237d34103adbace38b1893ed2d4e6c27c75eee6d3a9f7c1f9",
+      "enMarkdown": "There are a couple exceptions to this principle. One is when the nonprofit is an umbrella organization. It's reasonable to make a restricted donation to a university, for example, because a university is only nominally a single nonprofit. Another exception is when the donor actually does know as much as the nonprofit about where money needs to be spent. The Gates Foundation, for example, has specific goals and often makes restricted donations to individual nonprofits to accomplish them. But unless you're a domain expert yourself or donating to an umbrella organization, your donation would do more good if it were unrestricted.",
+      "zhMarkdown": "这个原则有几个例外。一是当该非营利组织是一个伞状组织（umbrella organization）时。例如，向一所大学进行定向捐赠是合理的，因为大学在名义上只是一个单一的非营利组织。另一个例外是，捐赠者确实和非营利组织一样，非常清楚钱该花在哪里。比如盖茨基金会有着明确的目标，经常通过向特定的非营利组织进行定向捐赠来实现这些目标。但除非你自己是该领域的专家，或者捐赠对象是一个伞状组织，否则不设限的非定向捐赠会发挥更大的作用。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ce095717e0b4cfb76d4e030d586c061ef13eddb5ccbaea0bf17f90952bcd06e0",
+      "enMarkdown": "If restricted donations do less good than unrestricted ones, why do donors so often make them? Partly because doing good isn't donors' only motive. They often have other motives as well — to make a mark, or to generate good publicity [[1](#f1n)], or to comply with regulations or corporate policies. Many donors may simply never have considered the distinction between restricted and unrestricted donations. They may believe that donating money for some specific purpose is just how donation works. And to be fair, nonprofits don't try very hard to discourage such illusions. They can't afford to. People running nonprofits are almost always anxious about money. They can't afford to talk back to big donors.",
+      "zhMarkdown": "既然定向捐赠的效果不如非定向捐赠，为什么捐赠者还经常这么做？部分原因在于，做好事并非捐赠者的唯一动机。他们往往还有其他意图——比如留下个人印记、公关宣传 [[1](#f1n)]，或者是为了符合监管规定或公司政策。许多捐赠者可能根本没有思考过“定向”与“非定向”捐赠的区别。他们可能认为，为某个特定目的捐钱就是捐赠的运作方式。公平地说，非营利组织并不会极力去打破这种幻觉。他们负担不起这个代价。运营非营利组织的人几乎总是在为资金焦虑，他们得罪不起大金主。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "cb224bab5b5b6f8937f2cd66b4f270072892e2204f36b12f302e85aa000f3f36",
+      "enMarkdown": "You can't expect candor in a relationship so asymmetric. So I'll tell you what nonprofits wish they could tell you. If you want to donate to a nonprofit, donate unrestricted. If you trust them to spend your money, trust them to decide how.",
+      "zhMarkdown": "在如此不对等的关系中，你无法指望对方能坦诚相待。所以，让我来替非营利组织说出他们的心声吧：如果你想给非营利组织捐款，请进行非定向捐赠。既然你信任他们能花好你的钱，那就请信任他们去决定怎么花。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "cb2e4b1e444af938e956fc80ac4de558fd2034bccd29a37e568660d19be8a971",
+      "enMarkdown": "**Note**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "f2c9cb97ee2b7fadad3d01320a66380006991878dd0f168f19add134c50e252b",
+      "enMarkdown": "[1] Unfortunately restricted donations tend to generate more publicity than unrestricted ones. \"X donates money to build a school in Africa\" is not only more interesting than \"X donates money to Y nonprofit to spend as Y chooses,\" but also focuses more attention on X.",
+      "zhMarkdown": "[1] 遗憾的是，定向捐赠往往比非定向捐赠更容易产生宣传效应。“某某捐款在非洲建了一所学校”不仅比“某某向某非营利组织捐款，由该组织自行支配”更有看点，而且能让公众的注意力更多地聚焦在捐赠者身上。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d45184fc73803fd44567e5c598df5d9786b416b2b261b6fc49bb7654bc0fe437",
+      "enMarkdown": "**Thanks** to Chase Adam, Ingrid Bassett, Trevor Blackwell, and Edith Elliot for reading drafts of this.",
+      "zhMarkdown": "**感谢** Chase Adam、Ingrid Bassett、Trevor Blackwell 和 Edith Elliot 阅读本书草稿。"
+    }
+  ]
+}

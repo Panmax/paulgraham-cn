@@ -1,0 +1,657 @@
+{
+  "slug": "gap",
+  "titleEn": "Mind the Gap",
+  "titleZh": "正视差距",
+  "dateText": "May 2004",
+  "publishedAt": "2004-05-01",
+  "sourceOrder": 200,
+  "sourceUrl": "https://paulgraham.com/gap.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f947b2bdc2263bdee99f62c79d32ea7fbb0ffd3acec4fe7f6e508fa1031d1e46",
+      "enMarkdown": "When people care enough about something to do it well, those who do it best tend to be far better than everyone else. There's a huge gap between Leonardo and second-rate contemporaries like Borgognone. You see the same gap between Raymond Chandler and the average writer of detective novels. A top-ranked professional chess player could play ten thousand games against an ordinary club player without losing once.",
+      "zhMarkdown": "当人们足够在乎某件事并努力把它做好时，那些做得最好的人往往会比其他人优秀得多。达芬奇与同时代二流画家（比如博尔戈尼奥内）之间存在着巨大的差距。雷蒙德·钱德勒与普通侦探小说作家之间也有着同样巨大的差距。一个顶级职业棋手可以和普通俱乐部棋手下上一万盘棋，而一盘不输。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "8069169f037848ca2d1ca48e6c48a466dac76e3b9618ffb813c170a5c8143951",
+      "enMarkdown": "Like chess or painting or writing novels, making money is a very specialized skill. But for some reason we treat this skill differently. No one complains when a few people surpass all the rest at playing chess or writing novels, but when a few people make more money than the rest, we get editorials saying this is wrong.",
+      "zhMarkdown": "就像下棋、画画或写小说一样，赚钱也是一种非常专门的技能。但不知出于什么原因，我们对待这种技能的态度却截然不同。当少数人在下棋或写小说上超越所有人时，没人会抱怨；但当少数人赚的钱比其他人多时，媒体上就会充斥着谴责这种现象是不合理的社论。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "97389b9d7b0bf5c7c8f440f4dbf1284ca9f5892f213808fbe6270491ebafdd05",
+      "enMarkdown": "Why? The pattern of variation seems no different than for any other skill. What causes people to react so strongly when the skill is making money?",
+      "zhMarkdown": "为什么会这样？这种能力差异的模式与其他任何技能并无二致。为什么一旦这种技能变成了赚钱，人们的反应就会如此强烈？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2993ac6fed96efe1bf606b93efde38358a8ec1122d43b8e2e4130be1dcde752d",
+      "enMarkdown": "I think there are three reasons we treat making money as different: the misleading model of wealth we learn as children; the disreputable way in which, till recently, most fortunes were accumulated; and the worry that great variations in income are somehow bad for society. As far as I can tell, the first is mistaken, the second outdated, and the third empirically false. Could it be that, in a modern democracy, variation in income is actually a sign of health?",
+      "zhMarkdown": "我认为我们之所以将赚钱区别对待，有三个原因：一是我们从小接受的误导性财富模型；二是直到最近，大多数财富的积累方式都名声不佳；三是人们担心巨大的收入差距会以某种方式危害社会。在我看来，第一点是误解，第二点已经过时，第三点在经验法则上是错误的。有没有可能，在现代民主社会中，收入差距其实是健康的标志？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "85b9c1ebf931e3280c4bdef9b7ed55cd5bbc317c65f63abc0dc8ac731b41092c",
+      "enMarkdown": "**The Daddy Model of Wealth**",
+      "zhMarkdown": "**爸爸分糖模型**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "c41743b4097635a39db0728b9712e29d62a83caa6778abf8ca05bfcdfd29ad7a",
+      "enMarkdown": "When I was five I thought electricity was created by electric sockets. I didn't realize there were power plants out there generating it. Likewise, it doesn't occur to most kids that wealth is something that has to be generated. It seems to be something that flows from parents.",
+      "zhMarkdown": "我五岁的时候，以为电是插座里凭空产生的。我不知道外面还有发电厂在发电。同样，大多数孩子也不会想到财富是需要被创造出来的。在他们看来，财富就像是从父母那里源源不断流出来的东西。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5b7a9f356cf7090dc85a9b9328a340675f3adecc0cd0aafcb4eae6a509b59987",
+      "enMarkdown": "Because of the circumstances in which they encounter it, children tend to misunderstand wealth. They confuse it with money. They think that there is a fixed amount of it. And they think of it as something that's distributed by authorities (and so should be distributed equally), rather than something that has to be created (and might be created unequally).",
+      "zhMarkdown": "由于接触财富的场景所限，孩子们往往会误解财富。他们把财富和金钱混为一谈。他们认为财富的总量是固定的。他们还认为财富是由权威机构分发的（因此应该平均分配），而不是需要被创造出来的（因此创造出来的数量可能并不均等）。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "f81d2c361a65cb4476e6431ecd9feca91d8aa8f0290bf7433da524808f65c323",
+      "enMarkdown": "In fact, wealth is not money. Money is just a convenient way of trading one form of wealth for another. Wealth is the underlying stuff—the goods and services we buy. When you travel to a rich or poor country, you don't have to look at people's bank accounts to tell which kind you're in. You can *see* wealth—in buildings and streets, in the clothes and the health of the people.",
+      "zhMarkdown": "事实上，财富并不是金钱。金钱只是一种方便将一种财富交换为另一种财富的媒介。财富才是本质——也就是我们购买的商品和服务。当你去一个富裕或贫穷的国家时，你不需要看人们的银行账户就能判断这个国家是富是贫。你可以直接*看到*财富——在建筑和街道中，在人们的衣着和健康状况中。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d236e6f73e54dc8d94080f80c311d2ae9c518b97d4c8feb410dfe4a2db22ed10",
+      "enMarkdown": "Where does wealth come from? People make it. This was easier to grasp when most people lived on farms, and made many of the things they wanted with their own hands. Then you could see in the house, the herds, and the granary the wealth that each family created. It was obvious then too that the wealth of the world was not a fixed quantity that had to be shared out, like slices of a pie. If you wanted more wealth, you could make it.",
+      "zhMarkdown": "那么财富从哪里来？是人创造出来的。当大多数人还住在农场里，用自己的双手制作他们需要的大部分东西时，这一点更容易理解。那时，你可以在房屋、牲畜和粮仓里看到每个家庭创造的财富。当时也很明显，世界上的财富并不是一个总量固定、必须像分蛋糕一样分出去的东西。如果你想要更多的财富，你可以自己去创造。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "442d6a34414d2fc4cd5a3b70ad2261225d1aaf738e8fc6d39755d53e6bed22e4",
+      "enMarkdown": "This is just as true today, though few of us create wealth directly for ourselves (except for a few vestigial domestic tasks). Mostly we create wealth for other people in exchange for money, which we then trade for the forms of wealth we want. [[1](#f1n)]",
+      "zhMarkdown": "今天依然如此，尽管我们很少有人直接为自己创造财富（除了少数残留的家务活）。大多数时候，我们是为他人创造财富来换取金钱，然后再用金钱去交换我们想要的财富形式。 [[1](#f1n)]"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f30f50a18375b236cbeb23ae2cdab3c481a08ea0e0682f19973bb91902316bab",
+      "enMarkdown": "Because kids are unable to create wealth, whatever they have has to be given to them. And when wealth is something you're given, then of course it seems that it should be distributed equally. [[2](#f2n)] As in most families it is. The kids see to that. \"Unfair,\" they cry, when one sibling gets more than another.",
+      "zhMarkdown": "因为孩子们无法创造财富，所以他们拥有的一切都必须是别人给的。当财富是别人给的时候，它自然应该被平均分配。 [[2](#f2n)] 在大多数家庭里确实如此，孩子们会盯着这一点。当一个孩子分到的比另一个多时，他们就会哭喊：“这不公平！”"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "36676f67628050cd8cad817631d6aa2dbf4686d29f2691fae8acebb86d3d07b5",
+      "enMarkdown": "In the real world, you can't keep living off your parents. If you want something, you either have to make it, or do something of equivalent value for someone else, in order to get them to give you enough money to buy it. In the real world, wealth is (except for a few specialists like thieves and speculators) something you have to create, not something that's distributed by Daddy. And since the ability and desire to create it vary from person to person, it's not made equally.",
+      "zhMarkdown": "但在现实世界中，你不能一直指望父母养活。如果你想要什么，你要么得自己做，要么得为别人做一些等值的事情，好让他们给你足够的钱去买。在现实世界中，财富（除了小偷和投机分子等少数特例）是你必须去创造的东西，而不是由“爸爸”分发的东西。既然每个人创造财富的能力和欲望各不相同，那么创造出来的财富自然也是不平等的。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "d0ae81f5d94a30b301dfd23afd2f78db06cd2db2d13b17422a98549db128c4be",
+      "enMarkdown": "You get paid by doing or making something people want, and those who make more money are often simply better at doing what people want. Top actors make a lot more money than B-list actors. The B-list actors might be almost as charismatic, but when people go to the theater and look at the list of movies playing, they want that extra oomph that the big stars have.",
+      "zhMarkdown": "你通过做或制造人们想要的东西来获得报酬，而那些赚更多钱的人，往往只是更擅长做人们想要的事情。一线明星赚的钱比二线演员多得多。二线演员可能也同样有魅力，但当人们去电影院看着上映的电影列表时，他们想要的是大牌明星身上那种独特的票房号召力。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "0a4161948e30117ffefefaec9ca8fdf0a7f6cfb684a5d24732fc4b5e8424a65e",
+      "enMarkdown": "Doing what people want is not the only way to get money, of course. You could also rob banks, or solicit bribes, or establish a monopoly. Such tricks account for some variation in wealth, and indeed for some of the biggest individual fortunes, but they are not the root cause of variation in income. The root cause of variation in income, as Occam's Razor implies, is the same as the root cause of variation in every other human skill.",
+      "zhMarkdown": "当然，做人们想要的事并不是赚钱的唯一途径。你也可以抢银行、索取贿赂或建立垄断。这些手段确实解释了一部分财富差异，甚至解释了一些最大的个人财富积累，但它们并不是收入差距的根本原因。根据奥卡姆剃刀定律，收入差距的根本原因，与人类其他任何技能出现差距的根本原因是一样的。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "b9a150e024474e910761f8bbae521e71eceb7bcc5c2451281067680cf1f4d6fe",
+      "enMarkdown": "In the United States, the CEO of a large public company makes about 100 times as much as the average person. [[3](#f3n)] Basketball players make about 128 times as much, and baseball players 72 times as much. Editorials quote this kind of statistic with horror. But I have no trouble imagining that one person could be 100 times as productive as another. In ancient Rome the price of *slaves* varied by a factor of 50 depending on their skills. [[4](#f4n)] And that's without considering motivation, or the extra leverage in productivity that you can get from modern technology.",
+      "zhMarkdown": "在美国，一家大型上市公司的 CEO 的收入大约是普通人的 100 倍。 [[3](#f3n)] 篮球运动员的收入大约是普通人的 128 倍，棒球运动员是 72 倍。媒体在引用这类数据时总是充满惊恐。但我完全可以想象，一个人的生产力可以达到另一个人的 100 倍。在古罗马，*奴隶*的价格根据其技能的不同可以相差 50 倍。 [[4](#f4n)] 而且这还没把主观能动性，以及现代技术给生产力带来的巨大杠杆效应考虑在内。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "246091528bae0347b4ac58e4a5dde9a5a266a5b46f6d89c50f3de67d0800b995",
+      "enMarkdown": "Editorials about athletes' or CEOs' salaries remind me of early Christian writers, arguing from first principles about whether the Earth was round, when they could just walk outside and check. [[5](#f5n)] How much someone's work is worth is not a policy question. It's something the market already determines.",
+      "zhMarkdown": "那些关于运动员或 CEO 薪水的社论，让我想起了早期的基督教作家，他们坐在屋里根据第一性原理争论地球是不是圆的，而他们其实只需要走到室外去看看就行了。 [[5](#f5n)] 一个人的工作值多少钱并不是一个政策问题，而是市场早已决定的事实。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f154ced83a41fbb917a53b86df314b5420f12dc9208ffbce1f6e56b19bfd0f71",
+      "enMarkdown": "\"Are they really worth 100 of us?\" editorialists ask. Depends on what you mean by worth. If you mean worth in the sense of what people will pay for their skills, the answer is yes, apparently.",
+      "zhMarkdown": "“他们真的值我们 100 个人吗？”社论撰写者问道。这取决于你所说的“值”是什么意思。如果你指的是人们愿意为他们的技能支付多少钱，那么答案显然是肯定的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "65fbde3e3a06a928695588bbf7f6229d8f7bc5c920887ac0be73dd9b3a2c67a9",
+      "enMarkdown": "A few CEOs' incomes reflect some kind of wrongdoing. But are there not others whose incomes really do reflect the wealth they generate? Steve Jobs saved a company that was in a terminal decline. And not merely in the way a turnaround specialist does, by cutting costs; he had to decide what Apple's next products should be. Few others could have done it. And regardless of the case with CEOs, it's hard to see how anyone could argue that the salaries of professional basketball players don't reflect supply and demand.",
+      "zhMarkdown": "少数 CEO 的收入确实可能存在猫腻。但难道就没有其他人的收入真实地反映了他们创造的财富吗？史蒂夫·乔布斯挽救了一家濒临倒闭的公司。他可不是像那些企业重组专家那样仅仅通过削减成本来救急，他必须决定苹果的下一代产品应该是什么。几乎没有其他人能做到这一点。而且无论 CEO 的情况如何，很难有人能反驳职业篮球运动员的薪水不是由供求关系决定的。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "759cc2b3f04df789c1d4f79252f0c0421adb6336572f7af7b0490ddbffe60bc8",
+      "enMarkdown": "It may seem unlikely in principle that one individual could really generate so much more wealth than another. The key to this mystery is to revisit that question, are they really worth 100 of us? *Would* a basketball team trade one of their players for 100 random people? What would Apple's next product look like if you replaced Steve Jobs with a committee of 100 random people? [[6](#f6n)] These things don't scale linearly. Perhaps the CEO or the professional athlete has only ten times (whatever that means) the skill and determination of an ordinary person. But it makes all the difference that it's concentrated in one individual.",
+      "zhMarkdown": "从原理上看，一个人能创造出比另一个人多得多的财富，这似乎令人难以置信。解开这个谜团的关键在于重新审视那个问题：他们真的值我们 100 个人吗？一支篮球队*会*愿意用他们的一名主力球员去换 100 个普通人吗？如果你把史蒂夫·乔布斯换成一个由 100 个普通人组成的委员会，苹果的下一代产品会是什么样子？ [[6](#f6n)] 这些事情并不是线性叠加的。也许 CEO 或职业运动员的技能和决心只有普通人的十倍（无论这该怎么衡量），但关键在于这些素质集中在了一个人身上，这就产生了解构性的差距。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "68cd38a1967deac11ec1e3971e05cb790e543a4fcfd59af93e9a03fee06bfe10",
+      "enMarkdown": "When we say that one kind of work is overpaid and another underpaid, what are we really saying? In a free market, prices are determined by what buyers want. People like baseball more than poetry, so baseball players make more than poets. To say that a certain kind of work is underpaid is thus identical with saying that people want the wrong things.",
+      "zhMarkdown": "当我们说某项工作的报酬过高，而另一项工作的报酬过低时，我们到底在说什么？在自由市场中，价格是由买家的需求决定的。人们喜欢棒球胜过诗歌，所以棒球运动员比诗人赚得多。因此，说某种工作的报酬过低，等同于在说人们想要的东西不对。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "784ee759fd2fb81a6fb415b84e31c405f2d22126e81d8a9d605f2234b1ab315b",
+      "enMarkdown": "Well, of course people want the wrong things. It seems odd to be surprised by that. And it seems even odder to say that it's *unjust* that certain kinds of work are underpaid. [[7](#f7n)] Then you're saying that it's unjust that people want the wrong things. It's lamentable that people prefer reality TV and corndogs to Shakespeare and steamed vegetables, but unjust? That seems like saying that blue is heavy, or that up is circular.",
+      "zhMarkdown": "好吧，人们确实经常想要不对的东西。对此感到惊讶似乎很奇怪。而如果说某些工作的报酬过低是*不公正*的，那就更奇怪了。 [[7](#f7n)] 因为这等于是在说，人们想要不对的东西是不公正的。人们喜欢真人秀和热狗，而不是莎士比亚和蒸蔬菜，这固然令人叹息，但能说是不公正吗？这就像是在说蓝色很重，或者向上是圆形的一样，风马牛不相及。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "47b68acea3c528612d47b5dc34b5250ab71ad6c39190de86d6fa93f9483b43cc",
+      "enMarkdown": "The appearance of the word \"unjust\" here is the unmistakable spectral signature of the Daddy Model. Why else would this idea occur in this odd context? Whereas if the speaker were still operating on the Daddy Model, and saw wealth as something that flowed from a common source and had to be shared out, rather than something generated by doing what other people wanted, this is exactly what you'd get on noticing that some people made much more than others.",
+      "zhMarkdown": "在这里出现“不公正”这个词，正是“爸爸分糖模型”阴魂不散的典型特征。否则，这种想法怎么会在这个奇怪的语境中冒出来？相反，如果说话者仍在按照“爸爸分糖模型”思考，把财富看作是从一个共同源头流出来、必须分发给大家的东西，而不是通过做别人想要的事情创造出来的，那么当他注意到某些人赚得比别人多得多时，自然就会得出这样的结论。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "2dd872c83463d36777cba00c9ae970bbef4f3a32b3e2a5727f2eeb948b8bf6a0",
+      "enMarkdown": "When we talk about \"unequal distribution of income,\" we should also ask, where does that income come from? [[8](#f8n)] Who made the wealth it represents? Because to the extent that income varies simply according to how much wealth people create, the distribution may be unequal, but it's hardly unjust.",
+      "zhMarkdown": "当我们谈论“收入分配不均”时，我们也应该问问，这些收入是从哪里来的？ [[8](#f8n)] 谁创造了这些收入所代表的财富？因为如果收入的差异仅仅取决于人们创造了多少财富，那么这种分配虽然不均等，但很难说是不公正的。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "dc2867f8a677f3a3cf4dce3c0f89c2a1d617f48d37acfdf52ae185a843a37898",
+      "enMarkdown": "**Stealing It**",
+      "zhMarkdown": "**靠抢致富**"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "e8ae038efb9be5d656afd80eb9c2fcc1827eaaf4fa4545dfaed06de7c0195983",
+      "enMarkdown": "The second reason we tend to find great disparities of wealth alarming is that for most of human history the usual way to accumulate a fortune was to steal it: in pastoral societies by cattle raiding; in agricultural societies by appropriating others' estates in times of war, and taxing them in times of peace.",
+      "zhMarkdown": "我们倾向于对巨大的财富差距感到警惕，第二个原因是在人类历史的大部分时间里，积累财富的常用方法是靠抢：在游牧社会是抢夺牲口；在农业社会则是战争时期强占他人的庄园，和平时期对其征税。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e1f651c7e23af37a0cb24ef92f89bf6c0b73ee56a804989d656136fd73b33469",
+      "enMarkdown": "In conflicts, those on the winning side would receive the estates confiscated from the losers. In England in the 1060s, when William the Conqueror distributed the estates of the defeated Anglo-Saxon nobles to his followers, the conflict was military. By the 1530s, when Henry VIII distributed the estates of the monasteries to his followers, it was mostly political. [[9](#f9n)] But the principle was the same. Indeed, the same principle is at work now in Zimbabwe.",
+      "zhMarkdown": "在冲突中，胜利的一方会分到从失败者那里没收的庄园。在 1060 年代的英格兰，当征服者威廉将战败的盎格鲁-撒克逊贵族的庄园分给他的追随者时，那是军事冲突。到了 1530 年代，当亨利八世将修道院的地产分给他的追随者时，这主要是政治冲突。 [[9](#f9n)] 但其中的原理是一样的。事实上，同样的原理现在也在津巴布韦上演。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "02d58242afce752e055e8f36231e63c5449117e21d15d709edece6ac359f019c",
+      "enMarkdown": "In more organized societies, like China, the ruler and his officials used taxation instead of confiscation. But here too we see the same principle: the way to get rich was not to create wealth, but to serve a ruler powerful enough to appropriate it.",
+      "zhMarkdown": "在更有组织的社会中（比如中国），统治者及其官员使用征税而不是直接没收。但在这里我们也能看到同样的原理：致富的途径不是创造财富，而是服务于一个足够强大的统治者，去强占财富。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "dd3812ea79625ebe2fa5708cb891df97bcbda8cb89d65a1c8be1054dc983f7bf",
+      "enMarkdown": "This started to change in Europe with the rise of the middle class. Now we think of the middle class as people who are neither rich nor poor, but originally they were a distinct group. In a feudal society, there are just two classes: a warrior aristocracy, and the serfs who work their estates. The middle class were a new, third group who lived in towns and supported themselves by manufacturing and trade.",
+      "zhMarkdown": "随着中产阶级的兴起，欧洲开始发生改变。现在我们把中产阶级看作是既不富也不穷的人，但最初他们是一个独特的群体。在封建社会，只有两个阶级：武士贵族和在他们庄园里劳作的农奴。中产阶级是一个全新的、居住在城镇中并靠手工业和贸易自食其力的第三群体。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "7a3b889ba62c59f97cf28f7fb4e6d294b2a2cb06a24934b37f3b7072c882fc5f",
+      "enMarkdown": "Starting in the tenth and eleventh centuries, petty nobles and former serfs banded together in towns that gradually became powerful enough to ignore the local feudal lords. [[10](#f10n)] Like serfs, the middle class made a living largely by creating wealth. (In port cities like Genoa and Pisa, they also engaged in piracy.) But unlike serfs they had an incentive to create a lot of it. Any wealth a serf created belonged to his master. There was not much point in making more than you could hide. Whereas the independence of the townsmen allowed them to keep whatever wealth they created.",
+      "zhMarkdown": "从十世纪和十一世纪开始，小贵族和前农奴在城镇中联合起来，这些城镇逐渐变得足够强大，可以无视当地的封建领主。 [[10](#f10n)] 像农奴一样，中产阶级主要通过创造财富来谋生。（在热那亚和比萨等港口城市，他们也参与海盗活动。）但与农奴不同的是，他们有动力去创造大量财富。农奴创造的任何财富都属于他的主人，因此除了能藏起来的部分，多生产没有任何意义。而城镇居民的独立性使他们能够保留自己创造的一切财富。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "e64d023035a318c059d4ef6471444029ce3ad424371b7d54e78054ec71193773",
+      "enMarkdown": "Once it became possible to get rich by creating wealth, society as a whole started to get richer very rapidly. Nearly everything we have was created by the middle class. Indeed, the other two classes have effectively disappeared in industrial societies, and their names been given to either end of the middle class. (In the original sense of the word, Bill Gates is middle class.)",
+      "zhMarkdown": "一旦通过创造财富致富成为可能，整个社会就开始非常迅速地变得更加富裕。我们现在拥有的一切几乎都是中产阶级创造的。事实上，在工业社会中，另外两个阶级已经实际上消失了，他们的名字被冠在了中产阶级的两端。（在词源学的意义上，比尔·盖茨属于中产阶级。）"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "dd1282f56630d5e298fb4431e537be8213caf7bf4b2f7f9c9b5cd40b24caeb50",
+      "enMarkdown": "But it was not till the Industrial Revolution that wealth creation definitively replaced corruption as the best way to get rich. In England, at least, corruption only became unfashionable (and in fact only started to be called \"corruption\") when there started to be other, faster ways to get rich.",
+      "zhMarkdown": "但直到工业革命，创造财富才彻底取代腐败，成为致富的最佳途径。至少在英格兰，只有当出现其他更快致富的途径时，腐败才开始变得不合时宜（并且实际上才开始被称为“腐败”）。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "b0eeb161b042dfd1667e51a93edb7190bf507eed72cc9324727df19ee35ac655",
+      "enMarkdown": "Seventeenth-century England was much like the third world today, in that government office was a recognized route to wealth. The great fortunes of that time still derived more from what we would now call corruption than from commerce. [[11](#f11n)] By the nineteenth century that had changed. There continued to be bribes, as there still are everywhere, but politics had by then been left to men who were driven more by vanity than greed. Technology had made it possible to create wealth faster than you could steal it. The prototypical rich man of the nineteenth century was not a courtier but an industrialist.",
+      "zhMarkdown": "十七世纪的英格兰与今天的第三世界非常相似，政府官职是公认的致富途径。那个时代的巨额财富与其说来自商业，不如说来自我们今天所说的腐败。 [[11](#f11n)] 到了十九世纪，这种情况发生了变化。虽然受贿依然存在，就像今天到处都有一样，但那时的政治已经留给了更多受虚荣心而非贪婪驱动的人。技术使得创造财富的速度超过了抢夺的速度。十九世纪典型的富人不再是朝臣，而是实业家。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "e55f93c78c8356126d8b6c12a9ee455efc803e02e0743779c21fb79494ebddb7",
+      "enMarkdown": "With the rise of the middle class, wealth stopped being a zero-sum game. Jobs and Wozniak didn't have to make us poor to make themselves rich. Quite the opposite: they created things that made our lives materially richer. They had to, or we wouldn't have paid for them.",
+      "zhMarkdown": "随着中产阶级的兴起，财富不再是一个零和博弈。乔布斯和沃兹尼亚克不需要让我们变穷来让自己变富。恰恰相反：他们创造了让我们的物质生活更加丰富的东西。他们必须这样做，否则我们根本不会买单。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "aeabf5b2a08f151e4a4018d6f620163107131e0d1eed96796c32a7cd0d0d4ec4",
+      "enMarkdown": "But since for most of the world's history the main route to wealth was to steal it, we tend to be suspicious of rich people. Idealistic undergraduates find their unconsciously preserved child's model of wealth confirmed by eminent writers of the past. It is a case of the mistaken meeting the outdated.",
+      "zhMarkdown": "但由于在世界历史的大部分时间里，致富的主要途径是靠抢，我们往往会对富人抱有戒心。理想主义的大学生发现，他们潜意识里保留的童年财富模型，在过去杰出作家的著作中得到了印证。这其实是一个“误解”遇上“过时”的典型案例。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "c892d224b39d0859c4f0480f2cf2ed5879836f6a96def227190773c09fad538c",
+      "enMarkdown": "\"Behind every great fortune, there is a crime,\" Balzac wrote. Except he didn't. What he actually said was that a great fortune with no apparent cause was probably due to a crime well enough executed that it had been forgotten. If we were talking about Europe in 1000, or most of the third world today, the standard misquotation would be spot on. But Balzac lived in nineteenth-century France, where the Industrial Revolution was well advanced. He knew you could make a fortune without stealing it. After all, he did himself, as a popular novelist. [[12](#f12n)]",
+      "zhMarkdown": "巴尔扎克写道：“在每一笔巨额财富背后，都隐藏着罪恶。”其实他没这么说。他实际说的是，一笔没有显而易见原因的巨额财富，其背后很可能是一桩因为执行得太完美而被遗忘的罪行。如果我们谈论的是公元 1000 年的欧洲，或者今天的大部分第三世界，这句广为流传的误读是完全正确的。但巴尔扎克生活在十九世纪的法国，当时工业革命已经高度发达。他知道不靠偷抢也可以发家致富。毕竟，他自己作为一名畅销小说家，就是这么致富的。 [[12](#f12n)]"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "23211f0b48ee531735060bce7ac4bab53732ef19d4e40e2d4ea46546d76d9f4c",
+      "enMarkdown": "Only a few countries (by no coincidence, the richest ones) have reached this stage. In most, corruption still has the upper hand. In most, the fastest way to get wealth is by stealing it. And so when we see increasing differences in income in a rich country, there is a tendency to worry that it's sliding back toward becoming another Venezuela. I think the opposite is happening. I think you're seeing a country a full step ahead of Venezuela.",
+      "zhMarkdown": "只有少数国家（绝非巧合，都是最富裕的国家）达到了这个阶段。在大多数国家，腐败依然占据上风。在大多数国家，最快的致富方式还是靠抢。因此，当我们在一个富裕国家看到收入差距拉大时，我们往往会担心它正在倒退回另一个委内瑞拉。我认为实际情况恰恰相反。我认为你看到的是一个领先委内瑞拉整整一步的国家。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "6ff03e4dbc0130448afd8b779dd4816d95d17cfed992faffd5257762d2ea7d66",
+      "enMarkdown": "**The Lever of Technology**",
+      "zhMarkdown": "**技术的杠杆**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "1080c1b08e9cd2374da77fa92368cbbe19953e2d8bfc72ffc534d0c572e966c9",
+      "enMarkdown": "Will technology increase the gap between rich and poor? It will certainly increase the gap between the productive and the unproductive. That's the whole point of technology. With a tractor an energetic farmer could plow six times as much land in a day as he could with a team of horses. But only if he mastered a new kind of farming.",
+      "zhMarkdown": "技术会拉大贫富差距吗？它肯定会拉大有生产力的人和没有生产力的人之间的差距。这正是技术的意义所在。有了拖拉机，一个精力充沛的农民一天耕的地可以是一个人赶着马队耕地的六倍。但前提是他必须掌握一种新的耕作方式。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "fae355daf370616dfb7c3e7edd8fe565eada88fa2b3dbbae0c58bacfde893ffa",
+      "enMarkdown": "I've seen the lever of technology grow visibly in my own time. In high school I made money by mowing lawns and scooping ice cream at Baskin-Robbins. This was the only kind of work available at the time. Now high school kids could write software or design web sites. But only some of them will; the rest will still be scooping ice cream.",
+      "zhMarkdown": "在我的有生之年，我亲眼目睹了技术杠杆的增长。上高中时，我通过割草和在巴斯金-罗宾斯（Baskin-Robbins）挖冰淇淋来赚钱。这是当时唯一能找到的工作。现在的高中生可以写软件或设计网站。但只有一部分人会去这么做，其余的人依然在挖冰淇淋。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "ef3d6256f2852402f761b5de5ef521eb834bfd59dbade7702b1f90e74a6f78e0",
+      "enMarkdown": "I remember very vividly when in 1985 improved technology made it possible for me to buy a computer of my own. Within months I was using it to make money as a freelance programmer. A few years before, I couldn't have done this. A few years before, there was no such *thing* as a freelance programmer. But Apple created wealth, in the form of powerful, inexpensive computers, and programmers immediately set to work using it to create more.",
+      "zhMarkdown": "我非常清楚地记得，1985 年技术的进步让我买得起属于自己的电脑。几个月内，我就开始用它做自由程序员来赚钱了。而在几年前，我还做不到这一点。几年前，根本没有“自由程序员”这种职业。但是苹果创造了财富——也就是功能强大且价格低廉的电脑，程序员们立刻开始用它来创造更多的财富。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "c099633f04edcdd0fa2ae1635cade524dfe16157a6bf09160ab018cfe8631115",
+      "enMarkdown": "As this example suggests, the rate at which technology increases our productive capacity is probably exponential, rather than linear. So we should expect to see ever-increasing variation in individual productivity as time goes on. Will that increase the gap between rich and the poor? Depends which gap you mean.",
+      "zhMarkdown": "正如这个例子所表明的，技术提高我们生产力的速度很可能是指数级的，而不是线性的。因此，随着时间的推移，我们应该会看到个人生产力的差异越来越大。这会拉大贫富差距吗？这取决于你指的是哪种差距。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "cb498c7d002dfb865d6a08887bb7bbf69724130324b72be56de73e4086bb2bb7",
+      "enMarkdown": "Technology should increase the gap in income, but it seems to decrease other gaps. A hundred years ago, the rich led a different *kind* of life from ordinary people. They lived in houses full of servants, wore elaborately uncomfortable clothes, and travelled about in carriages drawn by teams of horses which themselves required their own houses and servants. Now, thanks to technology, the rich live more like the average person.",
+      "zhMarkdown": "技术应该会拉大收入差距，但它似乎缩小了其他方面的差距。一百年前，富人过着与普通人完全不同*类型*的生活。他们住在雇满仆人的大房子里，穿着繁复且不舒服的衣服，坐着由马队拉着的马车出行，而这些马匹本身也需要专属的马厩和仆人伺候。现在，多亏了技术，富人的生活方式更接近普通人了。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "95c7db832aa5134a4f222893245c6f6a246fe6778a601dbe908cf7144f2a72d8",
+      "enMarkdown": "Cars are a good example of why. It's possible to buy expensive, handmade cars that cost hundreds of thousands of dollars. But there is not much point. Companies make more money by building a large number of ordinary cars than a small number of expensive ones. So a company making a mass-produced car can afford to spend a lot more on its design. If you buy a custom-made car, something will always be breaking. The only point of buying one now is to advertise that you can.",
+      "zhMarkdown": "汽车就是一个很好的例子。你确实可以买价值数十万美元、昂贵的手工定制车。但意义不大。公司通过制造大量普通汽车赚的钱，远比制造少数昂贵汽车赚得多。因此，制造量产车的公司在设计上承担得起多得多的投入。如果你买一辆定制车，总会有东西坏掉。现在买定制车的唯一意义就是向人炫耀你买得起。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "be61dba1e22e1070a4cce7d41ab9c1b9461664279b6e853b241f4cd87eb3faf9",
+      "enMarkdown": "Or consider watches. Fifty years ago, by spending a lot of money on a watch you could get better performance. When watches had mechanical movements, expensive watches kept better time. Not any more. Since the invention of the quartz movement, an ordinary Timex is more accurate than a Patek Philippe costing hundreds of thousands of dollars. [[13](#f13n)] Indeed, as with expensive cars, if you're determined to spend a lot of money on a watch, you have to put up with some inconvenience to do it: as well as keeping worse time, mechanical watches have to be wound.",
+      "zhMarkdown": "再来看看手表。五十年前，花大价钱买一块表可以获得更好的性能。当手表使用机械机芯时，昂贵的手表走时更准。但现在不是了。自从石英机芯发明以来，一块普通的百美时（Timex）手表比价值数十万美元的百达翡丽还要精准。 [[13](#f13n)] 事实上，就像豪车一样，如果你执意要在手表上花大价钱，你就必须忍受一些不便：机械表不仅走时更差，而且还必须手动上弦。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "38ee0d5a89caaa543e1b4cfbe943f4572db521084ccac4fe1e702104ec691c7f",
+      "enMarkdown": "The only thing technology can't cheapen is brand. Which is precisely why we hear ever more about it. Brand is the residue left as the substantive differences between rich and poor evaporate. But what label you have on your stuff is a much smaller matter than having it versus not having it. In 1900, if you kept a carriage, no one asked what year or brand it was. If you had one, you were rich. And if you weren't rich, you took the omnibus or walked. Now even the poorest Americans drive cars, and it is only because we're so well trained by advertising that we can even recognize the especially expensive ones. [[14](#f14n)]",
+      "zhMarkdown": "技术唯一无法使其贬值的东西就是品牌。这正是为什么我们越来越频繁地听到品牌的原因。品牌是富人和穷人之间实质性差异蒸发后留下的残余。但是，你的东西上贴着什么标签，比起“拥有它”还是“没有它”来说，只是一件微不足道的小事。在 1900 年，如果你有一辆马车，没人会问它是哪一年生产的或是什么牌子。只要你有一辆，你就是富人。如果你不富裕，你只能坐公共马车或者步行。现在，即使是最贫穷的美国人也开得起车，而且只有通过广告的反复熏陶，我们才能认出哪些车是特别昂贵的。 [[14](#f14n)]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "ad8ff99809225bc7a39855284b84480cf428afec5e74bd2e5a5eedb18afd7a16",
+      "enMarkdown": "The same pattern has played out in industry after industry. If there is enough demand for something, technology will make it cheap enough to sell in large volumes, and the mass-produced versions will be, if not better, at least more convenient. [[15](#f15n)] And there is nothing the rich like more than convenience. The rich people I know drive the same cars, wear the same clothes, have the same kind of furniture, and eat the same foods as my other friends. Their houses are in different neighborhoods, or if in the same neighborhood are different sizes, but within them life is similar. The houses are made using the same construction techniques and contain much the same objects. It's inconvenient to do something expensive and custom.",
+      "zhMarkdown": "同样的模式在各个行业不断上演。如果某种东西有足够的市场需求，技术就会让它变得足够便宜以实现大规模销售，而且量产版本即使不比定制版更好，至少也更方便。 [[15](#f15n)] 而富人最喜欢的莫过于方便。我认识的富人开着同样的汽车，穿着同样的衣服，使用同样风格的家具，吃着和我其他朋友一样的食物。他们的房子在不同的社区，或者如果是在同一个社区，房子的面积不同，但在房子内部，生活方式是相似的。这些房子使用相同的建筑技术建造，里面摆放着大体相同的物品。搞昂贵和定制的东西实在太麻烦了。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "e984018a9a803b859c929c06cb8a5dc46308ed62e2330807b836e894da3e97c4",
+      "enMarkdown": "The rich spend their time more like everyone else too. Bertie Wooster seems long gone. Now, most people who are rich enough not to work do anyway. It's not just social pressure that makes them; idleness is lonely and demoralizing.",
+      "zhMarkdown": "富人打发时间的方式也和大家越来越像。伯蒂·伍斯特（Bertie Wooster）那种游手好闲的贵族形象似乎早已远去。现在，大多数富到可以不工作的人依然在工作。这不仅仅是社会舆论的压力，更是因为无所事事会让人感到孤独和消沉。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "b799aa5b2bf4ad61b716fb1c172807b033c5d92811b353c580444091707418ee",
+      "enMarkdown": "Nor do we have the social distinctions there were a hundred years ago. The novels and etiquette manuals of that period read now like descriptions of some strange tribal society. \"With respect to the continuance of friendships...\" hints *Mrs. Beeton's Book\nof Household Management* (1880), \"it may be found necessary, in some cases, for a mistress to relinquish, on assuming the responsibility of a household, many of those commenced in the earlier part of her life.\" A woman who married a rich man was expected to drop friends who didn't. You'd seem a barbarian if you behaved that way today. You'd also have a very boring life. People still tend to segregate themselves somewhat, but much more on the basis of education than wealth. [[16](#f16n)]",
+      "zhMarkdown": "我们也不再有百年前那种森严的社会等级。那个时期的小说和礼仪手册现在读起来就像是对某种奇怪的原始部落社会的描述。《比顿夫人的家务管理手册》（*Mrs. Beeton's Book of Household Management*, 1880）中暗示：“关于友谊的延续……在某些情况下，女主人在承担起管理家庭的责任时，可能会发现有必要放弃许多在年轻时结识的朋友。”一个嫁给富人的女性被期望断绝与没嫁给富人的朋友的往来。如果你今天还这么做，别人会觉得你是野蛮人。你自己的生活也会变得非常无趣。人们现在仍然倾向于划分圈子，但更多是基于受教育程度，而不是财富。 [[16](#f16n)]"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "730ec1633357fd8ddd30318c54025152c06df8a6f4e9403059c0fd30b8c42034",
+      "enMarkdown": "Materially and socially, technology seems to be decreasing the gap between the rich and the poor, not increasing it. If Lenin walked around the offices of a company like Yahoo or Intel or Cisco, he'd think communism had won. Everyone would be wearing the same clothes, have the same kind of office (or rather, cubicle) with the same furnishings, and address one another by their first names instead of by honorifics. Everything would seem exactly as he'd predicted, until he looked at their bank accounts. Oops.",
+      "zhMarkdown": "在物质和社交上，技术似乎正在缩小贫富差距，而不是拉大它。如果列宁在雅虎、英特尔或思科这样的公司办公室里走一圈，他会以为共产主义已经胜利了。每个人都穿着相似的衣服，有着同样规格的办公室（或者更确切地说是格子间）和相同的家具，彼此直呼其名而不是称呼头衔。一切都和他的预言完全一致，直到他看到大家的银行账户。哎呀，算漏了。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "33f6caeae1773a6cdc2f9a748f3956618091dbb545248e1e0308f4b5d451e192",
+      "enMarkdown": "Is it a problem if technology increases that gap? It doesn't seem to be so far. As it increases the gap in income, it seems to decrease most other gaps.",
+      "zhMarkdown": "如果技术拉大了这个差距，会是一个问题吗？目前看来似乎还不是。因为在拉大收入差距的同时，技术似乎缩小了大多数其他方面的差距。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "5db0e62dfadea6db34f8f7f7fde843a2c925c822bac4fad286bbc6e5a93764fc",
+      "enMarkdown": "**Alternative to an Axiom**",
+      "zhMarkdown": "**公理的替代方案**"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "5cb68bbe122adf7bf90c65a5c797ea2c1ba535e50844850d60ed611cc642fd98",
+      "enMarkdown": "One often hears a policy criticized on the grounds that it would increase the income gap between rich and poor. As if it were an axiom that this would be bad. It might be true that increased variation in income would be bad, but I don't see how we can say it's *axiomatic.*",
+      "zhMarkdown": "人们经常批评某项政策，理由是它会拉大贫富差距。仿佛这会带来坏结果是一个不证自明的公理。收入差距的拉大可能确实不好，但我看不出这怎么能被称为*公理*。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "cada522310ee4ae4cfb5c6b57a10376006cb4199ba5ad6b18f2f7446f5c2a602",
+      "enMarkdown": "Indeed, it may even be false, in industrial democracies. In a society of serfs and warlords, certainly, variation in income is a sign of an underlying problem. But serfdom is not the only cause of variation in income. A 747 pilot doesn't make 40 times as much as a checkout clerk because he is a warlord who somehow holds her in thrall. His skills are simply much more valuable.",
+      "zhMarkdown": "事实上，在工业民主国家中，这甚至可能是错误的。在农奴和军阀组成的社会中，收入差距当然是潜在问题的征兆。但农奴制度并不是收入差距的唯一原因。波音 747 飞行员的收入是收银员的 40 倍，并不是因为他是军阀并以某种方式奴役了她。他的技能就是值那么多钱。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "41640b06fa6c9fc8e37d4b5c1f45a23cd40aafea384757b54f77299e10103c73",
+      "enMarkdown": "I'd like to propose an alternative idea: that in a modern society, increasing variation in income is a sign of health. Technology seems to increase the variation in productivity at faster than linear rates. If we don't see corresponding variation in income, there are three possible explanations: (a) that technical innovation has stopped, (b) that the people who would create the most wealth aren't doing it, or (c) that they aren't getting paid for it.",
+      "zhMarkdown": "我想提出一个替代性的观点：在现代社会中，收入差距的拉大其实是健康的标志。技术使生产力的差异以超越线性的速度增长。如果我们没有看到相应的收入差距，只有三种可能的解释：（a）技术创新停止了，（b）那些本能创造最多财富的人没有去创造，或者（c）他们没有为此获得报酬。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "6ffbfec44e7720b17b34748a6f6bbc6654a5f8ce3a3f93366129a04804c4f416",
+      "enMarkdown": "I think we can safely say that (a) and (b) would be bad. If you disagree, try living for a year using only the resources available to the average Frankish nobleman in 800, and report back to us. (I'll be generous and not send you back to the stone age.)",
+      "zhMarkdown": "我想我们可以肯定地说，（a）和（b）会是糟糕的情况。如果你不同意，可以尝试过一年公元 800 年法兰克贵族的平均生活，然后再来告诉我们感受。（我已经很宽容了，没有把你送回石器时代。）"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "e7c355bdeeabe6093586f600eba3f0b7e00028634ee553c7cdc477a757a813d8",
+      "enMarkdown": "The only option, if you're going to have an increasingly prosperous society without increasing variation in income, seems to be (c), that people will create a lot of wealth without being paid for it. That Jobs and Wozniak, for example, will cheerfully work 20-hour days to produce the Apple computer for a society that allows them, after taxes, to keep just enough of their income to match what they would have made working 9 to 5 at a big company.",
+      "zhMarkdown": "在不拉大收入差距的前提下拥有一个日益繁荣的社会，唯一的选择似乎就是（c），即人们创造了大量财富却不拿报酬。例如，乔布斯和沃兹尼亚克乐意每天工作 20 个小时来生产苹果电脑，而社会在扣税后，只允许他们保留刚好等同于在一家大公司朝九晚五上班的收入。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "b3c8fb5f758cdea27f380113484cfac6d731831dfc154d778c9288e3a2493cab",
+      "enMarkdown": "Will people create wealth if they can't get paid for it? Only if it's fun. People will write operating systems for free. But they won't install them, or take support calls, or train customers to use them. And at least 90% of the work that even the highest tech companies do is of this second, unedifying kind.",
+      "zhMarkdown": "如果拿不到报酬，人们还会创造财富吗？只有在觉得好玩的时候才会。人们会免费编写操作系统。但他们不会去负责安装，不会去接听客服电话，也不会去培训客户如何使用。而在最前沿的科技公司里，至少 90% 的工作都是这类枯燥、乏味的琐事。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "9e41398c906d39355e0847ef15ee4c68f7d610bd4060ab5e65856c26e9b06faa",
+      "enMarkdown": "All the unfun kinds of wealth creation slow dramatically in a society that confiscates private fortunes. We can confirm this empirically. Suppose you hear a strange noise that you think may be due to a nearby fan. You turn the fan off, and the noise stops. You turn the fan back on, and the noise starts again. Off, quiet. On, noise. In the absence of other information, it would seem the noise is caused by the fan.",
+      "zhMarkdown": "在一个没收个人财产的社会中，所有无趣的财富创造活动都会急剧放缓。我们可以通过经验来证实这一点。假设你听到一阵奇怪的噪音，你认为可能是旁边的风扇引起的。你关掉风扇，噪音停了。你重新打开风扇，噪音又响了。关掉，安静。打开，噪音。在没有其他信息的情况下，似乎可以断定噪音就是风扇引起的。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "615ace76be18d3a67951cb96d3b8983264b7f659f7557df8ad9309f65c184fc9",
+      "enMarkdown": "At various times and places in history, whether you could accumulate a fortune by creating wealth has been turned on and off. Northern Italy in 800, off (warlords would steal it). Northern Italy in 1100, on. Central France in 1100, off (still feudal). England in 1800, on. England in 1974, off (98% tax on investment income). United States in 1974, on. We've even had a twin study: West Germany, on; East Germany, off. In every case, the creation of wealth seems to appear and disappear like the noise of a fan as you switch on and off the prospect of keeping it.",
+      "zhMarkdown": "在历史上的不同时期和地区，“能否通过创造财富积累资产”这个开关曾被反复拨动。公元 800 年的意大利北部，关（军阀会抢走它）。公元 1100 年的意大利北部，开。公元 1100 年的法国中部，关（仍是封建制）。1800 年的英格兰，开。1974 年的英格兰，关（对投资收入征收 98% 的税）。1974 年的美国，开。我们甚至还有一组双胞胎对比实验：西德，开；东德，关。在每一个案例中，财富的创造都随着“能否保留财富”这一预期的开关而出现和消失，就像风扇的噪音一样。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "54e61751880e4e8cd2abc022a21e30e7a8c024f98d0a407a067a065e5764a9bb",
+      "enMarkdown": "There is some momentum involved. It probably takes at least a generation to turn people into East Germans (luckily for England). But if it were merely a fan we were studying, without all the extra baggage that comes from the controversial topic of wealth, no one would have any doubt that the fan was causing the noise.",
+      "zhMarkdown": "这里面存在一定的惯性。要把人训练成东德人可能至少需要一代人的时间（对英格兰来说是件幸事）。但如果我们研究的仅仅是一个风扇，而没有伴随财富这一争议性话题而来的所有情感包袱，没人会怀疑是风扇制造了噪音。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "a3e792d967f0da2e23ca7824563fdc03ab85b090b7484bb4d08b0d18e662de1e",
+      "enMarkdown": "If you suppress variations in income, whether by stealing private fortunes, as feudal rulers used to do, or by taxing them away, as some modern governments have done, the result always seems to be the same. Society as a whole ends up poorer.",
+      "zhMarkdown": "如果你压制收入差距，无论是像封建统治者过去那样通过抢夺个人财产，还是像一些现代政府那样通过高额征税，结果似乎总是相同的。整个社会最终都会变得更加贫穷。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "bc0096fcff7479808f0505c5101cf155da00b277dcf0189ca62fe574117b635e",
+      "enMarkdown": "If I had a choice of living in a society where I was materially much better off than I am now, but was among the poorest, or in one where I was the richest, but much worse off than I am now, I'd take the first option. If I had children, it would arguably be immoral not to. It's absolute poverty you want to avoid, not relative poverty. If, as the evidence so far implies, you have to have one or the other in your society, take relative poverty.",
+      "zhMarkdown": "如果让我选择，是生活在一个物质生活比现在好得多、但我属于最贫穷阶层的社会，还是生活在一个我是最富有的人、但物质生活比现在差得多的社会，我会选择前者。如果你有孩子，不选前者甚至可以说是违背道德的。你想避免的是绝对贫困，而不是相对贫困。如果正如目前的证据所表明的那样，你必须在社会中接受其中一种，那就选择相对贫困吧。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "566ac59382e10a6988d8c0389288ba33b38322b5c80ff091a1f93400357563b8",
+      "enMarkdown": "You need rich people in your society not so much because in spending their money they create jobs, but because of what they have to do to *get* rich. I'm not talking about the trickle-down effect here. I'm not saying that if you let Henry Ford get rich, he'll hire you as a waiter at his next party. I'm saying that he'll make you a tractor to replace your horse.",
+      "zhMarkdown": "你的社会需要富人，不仅是因为他们消费能创造就业机会，更重要的是因为他们为了*变富*而必须做的事情。我在这里谈论的不是涓滴效应。我不是在说如果你让亨利·福特变富，他就会在他的下一次派对上雇你当服务员。我是说，他会为你制造一台拖拉机来替代你的马。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "bb6145ebfcd183eff4234a257aa047ce6ae7f73ee0863a514505f703fa3e0440",
+      "enMarkdown": "[1] Part of the reason this subject is so contentious is that some of those most vocal on the subject of wealth—university students, heirs, professors, politicians, and journalists—have the least experience creating it. (This phenomenon will be familiar to anyone who has overheard conversations about sports in a bar.)",
+      "zhMarkdown": "[1] 这个问题之所以如此充满争议，部分原因在于一些在财富话题上发言最积极的人——大学生、继承人、教授、政治家和记者——往往最缺乏创造财富的经验。（任何在酒吧里偷听到别人聊体育的人都会对这种现象感到熟悉。）"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "06ad7b5a21763a702d055f1363acba7dffbcd2e149edcfab92735a2365d2736f",
+      "enMarkdown": "Students are mostly still on the parental dole, and have not stopped to think about where that money comes from. Heirs will be on the parental dole for life. Professors and politicians live within socialist eddies of the economy, at one remove from the creation of wealth, and are paid a flat rate regardless of how hard they work. And journalists as part of their professional code segregate themselves from the revenue-collecting half of the businesses they work for (the ad sales department). Many of these people never come face to face with the fact that the money they receive represents wealth—wealth that, except in the case of journalists, someone else created earlier. They live in a world in which income *is* doled out by a central authority according to some abstract notion of fairness (or randomly, in the case of heirs), rather than given by other people in return for something they wanted, so it may seem to them unfair that things don't work the same in the rest of the economy.",
+      "zhMarkdown": "学生大多还在靠父母供养，没有闲暇去思考这些钱是从哪里来的。继承人一辈子都靠父母的荫庇。教授和政治家生活在经济体系中偏向社会主义性质的避风港里，与财富创造隔了一层，无论工作多努力，拿的都是固定薪水。而记者作为其职业规范的一部分，将自己与他们所服务的商业机构中负责创收的那一半（广告销售部）隔离开来。这些人中，许多人从未直面过这样一个事实：他们收到的钱代表着财富——而且除了记者之外，这些财富都是别人在更早的时候创造出来的。他们生活在一个收入由中央机构根据某种抽象的公平观念（或者在继承人的情况下是随机的）进行分发的世界里，而不是别人为了换取想要的东西而支付的。因此，在他们看来，经济体系的其他部分没有按照同样的方式运作，似乎是不公平的。\n\n（有些教授确实为社会创造了巨大的财富。但他们获得的薪水并不是一种等价交换，更像是一种投资。）"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "9be9cdf1fddd4c46d332b9f8bcd859d10787a4dc44c425f49b66dfb4f0a12940",
+      "enMarkdown": "(Some professors do create a great deal of wealth for society. But the money they're paid isn't a *quid pro quo*. It's more in the nature of an investment.)",
+      "zhMarkdown": "（有些教授确实为社会创造了巨大的财富。但他们获得的薪水并不是一种等价交换，更像是一种投资。）"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "ca76f30fd4bc9bc66c84d0616ff8c008fed94f919f6514fb62e7b627cc04bd72",
+      "enMarkdown": "[2] When one reads about the origins of the Fabian Society, it sounds like something cooked up by the high-minded Edwardian child-heroes of Edith Nesbit's *The Wouldbegoods*.",
+      "zhMarkdown": "[2] 当人们读到费边社（Fabian Society）的起源时，感觉它就像是伊迪丝·内斯比特（Edith Nesbit）的小说《寻宝奇兵》（*The Wouldbegoods*）中那些思想高尚的爱德华时代儿童主角们琢磨出来的东西。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "15f8a99fca059770a6933228f774d84982a75dd404cc83d2fa1d578e5980ecdf",
+      "enMarkdown": "[3] According to a study by the Corporate Library, the median total compensation, including salary, bonus, stock grants, and the exercise of stock options, of S&P 500 CEOs in 2002 was $3.65 million. According to *Sports Illustrated*, the average NBA player's salary during the 2002-03 season was $4.54 million, and the average major league baseball player's salary at the start of the 2003 season was $2.56 million. According to the Bureau of Labor Statistics, the mean annual wage in the US in 2002 was $35,560.",
+      "zhMarkdown": "[3] 根据 Corporate Library 的一项研究，2002 年标普 500 指数公司 CEO 的总薪酬中位数（包括工资、奖金、股票赠与和行使期权）为 365 万美元。根据《体育画报》的数据，在 2002-03 赛季，NBA 球员的平均薪水为 454 万美元，而在 2003 赛季开始时，大联盟棒球运动员的平均薪水为 256 万美元。根据美国劳工统计局的数据，2002 年美国的年平均工资为 35,560 美元。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "d8a4a3c098484d15e60d1e65821b1ee963a3b9def927551131030a2ac5f7c6cd",
+      "enMarkdown": "[4] In the early empire the price of an ordinary adult slave seems to have been about 2,000 sestertii (e.g. Horace, *Sat.* ii.7.43). A servant girl cost 600 (Martial vi.66), while Columella (iii.3.8) says that a skilled vine-dresser was worth 8,000. A doctor, P. Decimus Eros Merula, paid 50,000 sestertii for his freedom (Dessau, *Inscriptiones* 7812). Seneca (*Ep.* xxvii.7) reports that one Calvisius Sabinus paid 100,000 sestertii apiece for slaves learned in the Greek classics. Pliny (*Hist. Nat.* vii.39) says that the highest price paid for a slave up to his time was 700,000 sestertii, for the linguist (and presumably teacher) Daphnis, but that this had since been exceeded by actors buying their own freedom.",
+      "zhMarkdown": "[4] 在罗马帝国早期，一个普通成年奴隶的价格似乎在 2,000 塞斯特斯（sestertii）左右（例如，贺拉斯，《讽刺诗集》ii.7.43）。一个女仆的价格是 600 塞斯特斯（马提亚尔 vi.66），而科鲁梅拉（iii.3.8）则说一个熟练的葡萄园修剪工值 8,000 塞斯特斯。一位名叫 P. Decimus Eros Merula 的医生花了 50,000 塞斯特斯为自己赎身（Dessau, *Inscriptiones* 7812）。塞内卡（《书信集》xxvii.7）记载，一个名叫 Calvisius Sabinus 的人以每人 100,000 塞斯特斯的价格购买了精通希腊古典文学的奴隶。普林尼（《自然史》vii.39）说，在他那个时代之前，购买奴隶支付的最高价格是 700,000 塞斯特斯，买下的是语言学家（大概也是教师）达夫尼斯（Daphnis），但此后这一纪录已被购买自己自由的演员们打破。\n\n古典时期的雅典也存在类似的物价差异。一个普通劳工的价值大约在 125 到 150 德拉克马（drachmae）之间。色诺芬（《回忆录》ii.5）提到的价格从 50 到 6,000 德拉克马不等（后者是一个银矿的主管）。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "66692cf37c7f936cab26d48e75f8d13a668eba96d45b4bb8d605223d7f0403c1",
+      "enMarkdown": "Classical Athens saw a similar variation in prices. An ordinary laborer was worth about 125 to 150 drachmae. Xenophon (*Mem.* ii.5) mentions prices ranging from 50 to 6,000 drachmae (for the manager of a silver mine).",
+      "zhMarkdown": "古典时期的雅典也存在类似的物价差异。一个普通劳工的价值大约在 125 到 150 德拉克马（drachmae）之间。色诺芬（《回忆录》ii.5）提到的价格从 50 到 6,000 德拉克马不等（后者是一个银矿的主管）。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "423147b081c9ebe763501b4948ccbd1ecb710073a92656555b82ca43f653d3aa",
+      "enMarkdown": "For more on the economics of ancient slavery see:",
+      "zhMarkdown": "关于古代奴隶制经济学的更多信息，请参见："
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "bbaf4c8a3d8fa12719006f3c1606aa41dde462ced60ea890ff0178d7464121d8",
+      "enMarkdown": "Jones, A. H. M., \"Slavery in the Ancient World,\" *Economic History\nReview*, 2:9 (1956), 185-199, reprinted in Finley, M. I. (ed.), *Slavery in Classical Antiquity*, Heffer, 1964.",
+      "zhMarkdown": "Jones, A. H. M., \"Slavery in the Ancient World,\" *Economic History Review*, 2:9 (1956), 185-199, reprinted in Finley, M. I. (ed.), *Slavery in Classical Antiquity*, Heffer, 1964."
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "c70b663a5c38a11ffa191985326ad5d2c654cdb076dc3bd5cf1a08e74d384a6c",
+      "enMarkdown": "[5] Eratosthenes (276—195 BC) used shadow lengths in different cities to estimate the Earth's circumference. He was off by only about 2%.",
+      "zhMarkdown": "[5] 埃拉托斯特尼（公元前 276—195 年）利用不同城市的影子长度来估算地球周长。他的误差只有大约 2%。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "9811c5696ddb27d9abeb9d59711745a56f68bc890ef423b569bc1d848c439bbc",
+      "enMarkdown": "[6] No, and Windows, respectively.",
+      "zhMarkdown": "[6] 答案分别是否定的，以及会做出 Windows 系统。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "79e636e4b572df50ee4d46309bec3d75cce9f1273e07767d7162877395766b10",
+      "enMarkdown": "[7] One of the biggest divergences between the Daddy Model and reality is the valuation of hard work. In the Daddy Model, hard work is in itself deserving. In reality, wealth is measured by what one delivers, not how much effort it costs. If I paint someone's house, the owner shouldn't pay me extra for doing it with a toothbrush.",
+      "zhMarkdown": "[7] “爸爸分糖模型”与现实之间最大的分歧之一，在于对“努力工作”的评估。在“爸爸分糖模型”中，努力工作本身就值得回报。而在现实中，财富是用你交付的成果来衡量的，而不是看你花了多少心血。如果我给别人的房子刷漆，房主不应该因为我是用牙刷刷的而多付我钱。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "0fd4153edf5c7fb94638cf1505bb42e76dda37a12c9fba87c982cd95056e9ba7",
+      "enMarkdown": "It will seem to someone still implicitly operating on the Daddy Model that it is unfair when someone works hard and doesn't get paid much. To help clarify the matter, get rid of everyone else and put our worker on a desert island, hunting and gathering fruit. If he's bad at it he'll work very hard and not end up with much food. Is this unfair? Who is being unfair to him?",
+      "zhMarkdown": "对于一个潜意识里仍在按照“爸爸分糖模型”思考的人来说，当有人努力工作却拿不到多少报酬时，会显得很不公平。为了澄清这个问题，我们可以排除所有其他人，把我们的工人放在一个荒岛上，让他独自打猎和采集水果。如果他不擅长这个，他会工作得很辛苦，但最终得不到多少食物。这不公平吗？是谁对他不公平呢？"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "19aa104a1672101a05f50cce8e123d1949b4761bbfef3b88fc9ed4e453dc6e73",
+      "enMarkdown": "[8] Part of the reason for the tenacity of the Daddy Model may be the dual meaning of \"distribution.\" When economists talk about \"distribution of income,\" they mean statistical distribution. But when you use the phrase frequently, you can't help associating it with the other sense of the word (as in e.g. \"distribution of alms\"), and thereby subconsciously seeing wealth as something that flows from some central tap. The word \"regressive\" as applied to tax rates has a similar effect, at least on me; how can anything *regressive* be good?",
+      "zhMarkdown": "[8] “爸爸分糖模型”之所以如此顽固，部分原因可能是“分配”（distribution）这个词的双重含义。当经济学家谈论“收入分配”时，他们指的是统计学上的分布（distribution）。但当你频繁使用这个词时，你很难不联想到这个词的另一种含义（例如“分发救济金”），从而在潜意识里把财富看作是从某个中央水龙头里流出来的东西。应用在税率上的“累退”（regressive）一词也有类似的效果，至少对我来说是这样；怎么会有任何*累退*（退步）的东西是好的呢？"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "e8f54a8c015c56632517975db96d88000a2575f62fd4ebb8b7a9b46c2c05e97c",
+      "enMarkdown": "[9] \"From the beginning of the reign Thomas Lord Roos was an assiduous courtier of the young Henry VIII and was soon to reap the rewards. In 1525 he was made a Knight of the Garter and given the Earldom of Rutland. In the thirties his support of the breach with Rome, his zeal in crushing the Pilgrimage of Grace, and his readiness to vote the death-penalty in the succession of spectacular treason trials that punctuated Henry's erratic matrimonial progress made him an obvious candidate for grants of monastic property.\"",
+      "zhMarkdown": "[9] “从亨利八世统治初期开始，托马斯·罗斯勋爵（Thomas Lord Roos）就是这位年轻国王身边勤勉的侍臣，并很快收获了回报。1525 年，他被授予嘉德勋章并封为拉特兰伯爵。在三十年代，他支持与罗马教廷决裂，热心镇压‘恩宠之朝圣’起义，并随时准备在亨利反复无常的婚姻历程中所引发的一系列引人注目的叛国罪审判中投下死刑票，这使他成为获得修道院财产赠与的显而易见的人选。”"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "18612b40099d67461f94e29f9b4a594a467441fbbddb382b0fd1905d70377a96",
+      "enMarkdown": "Stone, Lawrence, *Family and Fortune: Studies in Aristocratic\nFinance in the Sixteenth and Seventeenth Centuries*, Oxford University Press, 1973, p. 166.",
+      "zhMarkdown": "Stone, Lawrence, *Family and Fortune: Studies in Aristocratic Finance in the Sixteenth and Seventeenth Centuries*, Oxford University Press, 1973, p. 166."
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "efe3bca9d0699eb1355850f8788689c2c795f2c158dd7a30036cba75f3844b9e",
+      "enMarkdown": "[10] There is archaeological evidence for large settlements earlier, but it's hard to say what was happening in them.",
+      "zhMarkdown": "[10] 有考古证据表明更早时期存在大型定居点，但很难说当时里面发生了什么。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "b707efbb79e9f69eef898add74ad3bd407b5c2e2cf87e28d2339e1e1f0924792",
+      "enMarkdown": "Hodges, Richard and David Whitehouse, *Mohammed, Charlemagne and\nthe Origins of Europe*, Cornell University Press, 1983.",
+      "zhMarkdown": "Hodges, Richard and David Whitehouse, *Mohammed, Charlemagne and the Origins of Europe*, Cornell University Press, 1983."
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "64a88b937cfe3f2969852b626d39c8851984a6c27ad52954e6dfbdb573244de4",
+      "enMarkdown": "[11] William Cecil and his son Robert were each in turn the most powerful minister of the crown, and both used their position to amass fortunes among the largest of their times. Robert in particular took bribery to the point of treason. \"As Secretary of State and the leading advisor to King James on foreign policy, [he] was a special recipient of favour, being offered large bribes by the Dutch not to make peace with Spain, and large bribes by Spain to make peace.\" (Stone, *op. cit.*, p. 17.)",
+      "zhMarkdown": "[11] 威廉·塞西尔（William Cecil）和他的儿子罗伯特（Robert）先后成为王室最有权势的重臣，两人都利用自己的地位聚敛了当时数一数二的财富。尤其是罗伯特，受贿甚至到了叛国的地步。“作为国务秘书和詹姆斯国王在外交政策上的首席顾问，[他]是一个特殊的受惠者，他接受了荷兰人的巨额贿赂，不与西班牙媾和，同时也接受了西班牙人的巨额贿赂以促成和平。”（Stone, *op. cit.*, p. 17.）"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "548207bcc81b2fcb2f684714f2e7a9ca2c9eff369ed009d30dea5fc9c351d8c3",
+      "enMarkdown": "[12] Though Balzac made a lot of money from writing, he was notoriously improvident and was troubled by debts all his life.",
+      "zhMarkdown": "[12] 虽然巴尔扎克靠写作赚了很多钱，但他挥霍无度，一生都深受债务困扰。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "9110bfdf3bdedf1f6754cbf91a461ac91ec9c4faa980ddb92c8e489b3c9e0d14",
+      "enMarkdown": "[13] A Timex will gain or lose about .5 seconds per day. The most accurate mechanical watch, the Patek Philippe 10 Day Tourbillon, is rated at -1.5 to +2 seconds. Its retail price is about $220,000.",
+      "zhMarkdown": "[13] 一块百美时手表每天的误差大约在 0.5 秒以内。而最精准的机械表——百达翡丽 10 Day Tourbillon，其标称误差为每天 -1.5 到 +2 秒。它的零售价大约是 220,000 美元。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "3ddef3f33993d25312b2c3a7b898148a1420c7c15fc00b982e98f9f865d02377",
+      "enMarkdown": "[14] If asked to choose which was more expensive, a well-preserved 1989 Lincoln Town Car ten-passenger limousine ($5,000) or a 2004 Mercedes S600 sedan ($122,000), the average Edwardian might well guess wrong.",
+      "zhMarkdown": "[14] 如果要求一个爱德华时代的人猜测哪一个更贵：一辆保存完好的 1989 年林肯城市十座豪华轿车（价值 5,000 美元），还是一辆 2004 年的梅赛德斯 S600 轿车（价值 122,000 美元），他很可能会猜错。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "9591e937e4670ef8bb8b17144b0c085340939273356ea8604fe6cf089f37f0b9",
+      "enMarkdown": "[15] To say anything meaningful about income trends, you have to talk about real income, or income as measured in what it can buy. But the usual way of calculating real income ignores much of the growth in wealth over time, because it depends on a consumer price index created by bolting end to end a series of numbers that are only locally accurate, and that don't include the prices of new inventions until they become so common that their prices stabilize.",
+      "zhMarkdown": "[15] 要对收入趋势进行任何有意义的讨论，你必须谈论实际收入，或者以它能买到什么来衡量的收入。但是计算实际收入的常规方法忽略了随着时间推移财富的大部分增长，因为它依赖于消费者价格指数，而该指数是通过将一系列仅在局部准确的数字首尾相接而创建的，并且在这些新发明变得如此普遍以至于价格稳定之前，它并不包括新发明的价格。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "078e6a6005fcc399a108f725792445d7e74fb66757b09624f1f0909648d2517a",
+      "enMarkdown": "So while we might think it was very much better to live in a world with antibiotics or air travel or an electric power grid than without, real income statistics calculated in the usual way will prove to us that we are only slightly richer for having these things.",
+      "zhMarkdown": "因此，虽然我们可能认为生活在一个有抗生素、航空旅行或电网的世界要比没有这些东西的世界好得多，但以通常方式计算的实际收入统计数据向我们证明，拥有这些东西只让我们稍微富裕了一点点。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "aeda14919a63a5829359c4e1dc66ecfa80d4fcab6820367d0fab34763892d6e1",
+      "enMarkdown": "Another approach would be to ask, if you were going back to the year x in a time machine, how much would you have to spend on trade goods to make your fortune? For example, if you were going back to 1970 it would certainly be less than $500, because the processing power you can get for $500 today would have been worth at least $150 million in 1970. The function goes asymptotic fairly quickly, because for times over a hundred years or so you could get all you needed in present-day trash. In 1800 an empty plastic drink bottle with a screw top would have seemed a miracle of workmanship.",
+      "zhMarkdown": "另一种方法是问，如果你坐时光机回到 x 年，你需要花多少钱买商品来发家致富？例如，如果你回到 1970 年，那肯定不到 500 美元，因为你今天花 500 美元就能买到的计算能力，在 1970 年至少价值 1.5 亿美元。这个函数很快就会趋于渐近线，因为对于超过一百年左右的时间，你可以在现代的垃圾堆里找到你需要的一切。在 1800 年，一个带螺旋盖的空塑料饮料瓶都会被视为工艺奇迹。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "9829dc758971a933593a8001428cca9ec9e3c63c7d87667fce00726e959127bc",
+      "enMarkdown": "[16] Some will say this amounts to the same thing, because the rich have better opportunities for education. That's a valid point. It is still possible, to a degree, to buy your kids' way into top colleges by sending them to private schools that in effect hack the college admissions process.",
+      "zhMarkdown": "[16] 有人会说这其实是一回事，因为富人有更好的教育机会。这是一个合理的观点。在一定程度上，现在仍然可以通过将孩子送往私立学校来为他们买通进入顶尖大学的道路，这些学校实际上破解了大学录取程序的机制。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "f880ba5435465990eaf935001d2136517d9a99d613d9584e51dc881d29de6264",
+      "enMarkdown": "According to a 2002 report by the National Center for Education Statistics, about 1.7% of American kids attend private, non-sectarian schools. At Princeton, 36% of the class of 2007 came from such schools. (Interestingly, the number at Harvard is significantly lower, about 28%.) Obviously this is a huge loophole. It does at least seem to be closing, not widening.",
+      "zhMarkdown": "根据国家教育统计中心 2002 年的一份报告，大约 1.7% 的美国孩子就读于私立非教会学校。而在普林斯顿大学，2007 届学生中有 36% 来自此类学校。（有趣的是，哈佛大学的这一比例明显较低，约为 28%。）显然这是一个巨大的漏洞。不过，这个漏洞目前似乎正在缩小，而不是在扩大。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "47ab1df482f79471773e725e8586f6e97b48f29aa9e362ac9437ecf9b2630765",
+      "enMarkdown": "Perhaps the designers of admissions processes should take a lesson from the example of computer security, and instead of just assuming that their system can't be hacked, measure the degree to which it is.",
+      "zhMarkdown": "也许录取程序的设计者应该从计算机安全的例子中吸取教训，不要仅仅假设他们的系统不能被黑客入侵，而是去衡量它被黑客入侵的程度。"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "slug": "hubs",
+  "titleEn": "Why Startup Hubs Work",
+  "titleZh": "为什么创业中心能成功",
+  "dateText": "October 2011",
+  "publishedAt": "2011-10-01",
+  "sourceOrder": 94,
+  "sourceUrl": "https://paulgraham.com/hubs.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "364a0cae6d638fd71c17cfc181b0a07d67e9a41dd0a490317258590e0d58c2e1",
+      "enMarkdown": "If you look at a list of US cities sorted by population, the number of successful startups per capita varies by orders of magnitude. Somehow it's as if most places were sprayed with startupicide.",
+      "zhMarkdown": "如果你看一下按人口排序的美国城市名单，会发现人均成功创业公司的数量存在着数量级上的差距。这就好像大多数地方都被喷了“创业杀虫剂”一样。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "81f464d55580407afa30259c893d656981fb647a413c773966eec2f69d37484b",
+      "enMarkdown": "I wondered about this for years. I could see the average town was like a roach motel for startup ambitions: smart, ambitious people went in, but no startups came out. But I was never able to figure out exactly what happened inside the motel—exactly what was killing all the potential startups. [[1](#f1n)]",
+      "zhMarkdown": "这个问题困扰了我好几年。在我的观察中，普通的城镇就像是创业雄心的“蟑螂捕手”：聪明、有抱负的人进去了，却没有任何创业公司能走出来。但我一直没能搞清楚那里面到底发生了什么——究竟是什么杀死了所有潜在的创业公司。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "35c6682457e5efd0496bb04defb062569d030b4955f3cc16c2f1b5c4f7f40268",
+      "enMarkdown": "A couple weeks ago I finally figured it out. I was framing the question wrong. The problem is not that most towns kill startups. It's that death is the [default](https://paulgraham.com/die.html) for startups, and most towns don't save them. Instead of thinking of most places as being sprayed with startupicide, it's more accurate to think of startups as all being poisoned, and a few places being sprayed with the antidote.",
+      "zhMarkdown": "几个星期前，我终于想通了。是我之前提问的角度错了。问题并不在于大多数城镇扼杀了创业公司，而在于死亡本就是创业公司的[常态](https://paulgraham.com/die.html)，而大多数城镇只是没有拯救它们。与其把大多数地方想象成被喷了“创业杀虫剂”，倒不如把创业公司想象成集体中了毒，而只有少数几个地方喷洒了“解毒剂”。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "d15b88a55fd83e02e1765b5ba91edd1c3371c3746d288a7f31c834d666952110",
+      "enMarkdown": "Startups in other places are just doing what startups naturally do: fail. The real question is, what's *saving* startups in places like Silicon Valley? [[2](#f2n)]",
+      "zhMarkdown": "其他地方的创业公司只是在顺应自然规律：走向失败。真正的问题在于，像硅谷这样的地方，究竟是什么在*挽救*创业公司？[[2](#f2n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "e6d987776a9e67a1947bbb151b5796a02fe1aabacc77f1f261d80f94fe526506",
+      "enMarkdown": "**Environment**",
+      "zhMarkdown": "**环境**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "67cca7d3a21bac98943d0873dbe3fdff98def27e29d103ba4e56fc68f86c0544",
+      "enMarkdown": "I think there are two components to the antidote: being in a place where startups are the cool thing to do, and chance meetings with people who can help you. And what drives them both is the number of startup people around you.",
+      "zhMarkdown": "我认为这种解毒剂由两个要素组成：身处一个视创业为酷事的氛围中，以及偶然结识能够帮到你的人。而这两者的核心驱动力，都在于你身边创业者的数量。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "7b49d4372d507caa0a06985585d4d649f98ea4a0556be6ea1ff4c69de8d9f61e",
+      "enMarkdown": "The first component is particularly helpful in the first stage of a startup's life, when you go from merely having an interest in starting a company to actually doing it. It's quite a leap to start a startup. It's an unusual thing to do. But in Silicon Valley it seems normal. [[3](#f3n)]",
+      "zhMarkdown": "第一个要素在创业公司的萌芽期尤为关键，也就是当你从“只是对开公司感兴趣”跨越到“真正动手去做”的那个阶段。迈出创业这一步是个巨大的飞跃，这很不寻常。但在硅谷，这看起来却稀松平常。[[3](#f3n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ca3d3080cf3639b8cad955bbed19f88c489ff7070cb7f634cadb0b561788eb2a",
+      "enMarkdown": "In most places, if you start a startup, people treat you as if you're unemployed. People in the Valley aren't automatically impressed with you just because you're starting a company, but they pay attention. Anyone who's been here any amount of time knows not to default to skepticism, no matter how inexperienced you seem or how unpromising your idea sounds at first, because they've all seen inexperienced founders with unpromising sounding ideas who a few years later were billionaires.",
+      "zhMarkdown": "在大多数地方，如果你去创业，人们会觉得你失业了。硅谷的人不会仅仅因为你开了家公司就对你肃然起敬，但他们会予以关注。在这里待过一段时间的人都知道，不要习惯性地否定任何人，无论你看起来多么缺乏经验，或者你的想法最初听起来多么不靠谱。因为大家都亲眼见过，有些当年看起来毫无经验、想法不着边际的创始人，几年后就成了亿万富翁。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "62f4244cf41974235fd44d0757ce7548ee5b7b89a1cd81ead0dbe590786e6369",
+      "enMarkdown": "Having people around you care about what you're doing is an extraordinarily [powerful](https://paulgraham.com/cities.html) force. Even the most willful people are susceptible to it. About a year after we started Y Combinator I said something to a partner at a well known VC firm that gave him the (mistaken) impression I was considering starting another startup. He responded so eagerly that for about half a second I found myself considering doing it.",
+      "zhMarkdown": "身边有人关心你在做什么，是一种极其[强大](https://paulgraham.com/cities.html)的力量。即使是最特立独行的人也无法免疫。在我们创立 Y Combinator 大约一年后，我跟一家知名风险投资机构的合伙人聊了几句，让他（误）以为我正考虑再办一家创业公司。他的反应是如此热切，以至于有那么半秒钟，我发现自己竟然真的动了心思。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "464151e7730799eb05f4d2362615880cf92184e0159e097b779de664deadff1e",
+      "enMarkdown": "In most other cities, the prospect of starting a startup just doesn't seem real. In the Valley it's not only real but fashionable. That no doubt causes a lot of people to start startups who shouldn't. But I think that's ok. Few people are suited to running a startup, and it's very hard to predict beforehand which are (as I know all too well from being in the business of trying to predict beforehand), so lots of people starting startups who shouldn't is probably the optimal state of affairs. As long as you're at a point in your life when you can bear the risk of failure, the best way to find out if you're suited to running a startup is to [try\nit](https://paulgraham.com/notnot.html).",
+      "zhMarkdown": "在其他大多数城市，创业这个念头听起来很不真实。但在硅谷，它不仅真实，甚至是一种时尚。这无疑导致了许多本不该创业的人也跑去创业。但我认为这没什么不好。很少有人天生适合掌管一家创业公司，而且事前极难预测谁行谁不行（我作为专门干预测这行的人，对此深有体会）。因此，让大量本不该创业的人去尝试，或许反而是最理想的状态。只要你处于人生中还输得起的阶段，想知道自己适不适合当创始人，最好的方法就是[去试一把](https://paulgraham.com/notnot.html)。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f3553f78ad8c45e7f6183fbd3855266c745d3af2c267e1ae56cc00ca0dd4685f",
+      "enMarkdown": "**Chance**",
+      "zhMarkdown": "**机遇**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e7946aedd1f55f038d2c2733f606423e336f06bc791eb66d905eeaace2881226",
+      "enMarkdown": "The second component of the antidote is chance meetings with people who can help you. This force works in both phases: both in the transition from the desire to start a startup to starting one, and the transition from starting a company to succeeding. The power of chance meetings is more variable than people around you caring about startups, which is like a sort of background radiation that affects everyone equally, but at its strongest it is far stronger.",
+      "zhMarkdown": "解毒剂的第二个要素是偶然结识能帮到你的人。这种力量在两个阶段都起作用：一是从想创业到开始创业的过渡，二是从开始创业到走向成功的跨越。与“身边人关注创业”这种像背景辐射一样人人均沾的力量相比，偶遇的力量波动更大，但在其发挥到极致时，威力要大得多。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "d42e68eea1f91caeea4fd2d19915995411c5c3aff38e0d4bcb9b67ae016c7874",
+      "enMarkdown": "Chance meetings produce miracles to compensate for the disasters that characteristically befall startups. In the Valley, terrible things happen to startups all the time, just like they do to startups everywhere. The reason startups are more likely to make it here is that great things happen to them too. In the Valley, lightning has a sign bit.",
+      "zhMarkdown": "偶遇能创造奇迹，从而抵消那些必然会降临到创业公司头上的灾难。在硅谷，创业公司同样随时会遭遇各种糟糕的倒霉事，就像在其他任何地方一样。但这里的创业公司更有可能挺过来，原因在于，好运也同样会降临在它们身上。在硅谷，雷劈下来都带着正电荷。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "4d3e32934a99bc307b0b7ce407a6b74d9c02304f59a39c06d0b0d68be6863da0",
+      "enMarkdown": "For example, you start a site for college students and you decide to move to the Valley for the summer to work on it. And then on a random suburban street in Palo Alto you happen to run into Sean Parker, who understands the domain really well because he started a similar startup himself, and also knows all the investors. And moreover has advanced views, for 2004, on founders retaining [control](https://paulgraham.com/control.html) of their companies.",
+      "zhMarkdown": "比如，你创办了一个面向大学生的网站，并决定夏天搬到硅谷去折腾。然后，在帕罗奥图（Palo Alto）一条普普通通的郊区街道上，你碰巧撞见了肖恩·帕克（Sean Parker）。他自己办过类似的创业公司，对这个领域了如指掌，而且认识所有的投资人。更难得的是，在 2004 年那个时候，他就对创始人保持公司[控制权](https://paulgraham.com/control.html)有着极具前瞻性的见解。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "f162d91ce9b75d7a723a0e13d5f133d40cc8e53125c351af1dfe9a430f82d89f",
+      "enMarkdown": "You can't say precisely what the miracle will be, or even for sure that one will happen. The best one can say is: if you're in a startup hub, unexpected good things will probably happen to you, especially if you deserve them.",
+      "zhMarkdown": "你无法预知奇迹具体会是什么，甚至无法保证它一定会发生。我们唯一能说的是：如果你身处一个创业中心，意想不到的好事大概率会发生在你身上，尤其是当你配得上这些好运的时候。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "b5be74013d61a20c2b724f3214b0edd5d038e85ab31332b923ecd2975e1e3e38",
+      "enMarkdown": "I bet this is true even for startups we fund. Even with us working to make things happen for them on purpose rather than by accident, the frequency of helpful chance meetings in the Valley is so high that it's still a significant increment on what we can deliver.",
+      "zhMarkdown": "我敢说，即使对我们投资的创业公司而言也是如此。尽管我们一直在刻意、而非顺其自然地帮他们牵线搭桥，但硅谷有益偶遇的发生频率之高，依然在我们所能提供的帮助之上带来了显著的增量。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "c2d14b6b8774e0a2293618b9c47884126ede52432286bdaabeba4cf4855c9870",
+      "enMarkdown": "Chance meetings play a role like the role relaxation plays in having ideas. Most people have had the experience of working hard on some problem, not being able to solve it, giving up and going to bed, and then thinking of the answer in the shower in the morning. What makes the answer appear is letting your thoughts [drift](https://paulgraham.com/top.html) a bit—and thus drift off the wrong path you'd been pursuing last night and onto the right one adjacent to it.",
+      "zhMarkdown": "偶遇所起的作用，就像放松对产生灵感的作用一样。大多数人都有过这样的经历：苦思冥想某个问题却解不出来，最后放弃去睡觉，结果第二天早上洗澡时，答案自己蹦了出来。让答案显现的原因，是让你的思绪稍微[飘荡](https://paulgraham.com/top.html)一下——从而偏离昨晚一直在钻的牛角尖，走到旁边那条正确的道路上去。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "11274bf652a8a93ae6de9e1f480d48cc4956de89664701a516c8d98ac2e53d08",
+      "enMarkdown": "Chance meetings let your acquaintance drift in the same way taking a shower lets your thoughts drift. The critical thing in both cases is that they drift just the right amount. The meeting between Larry Page and Sergey Brin was a good example. They let their acquaintance drift, but only a little; they were both meeting someone they had a lot in common with.",
+      "zhMarkdown": "偶遇让你的社交圈产生飘移，其原理就像洗澡让你的思绪飘荡一样。在这两种情况下，关键在于“飘移”的幅度要恰到好处。拉里·佩奇（Larry Page）和谢尔盖·布林（Sergey Brin）的相遇就是一个很好的例子。他们的社交圈产生了飘移，但幅度很小；他们遇到的是一个与自己有极多共同语言的人。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "271b1ab9491b09c7f7cb228e163b073e38ca02067e5b85fdf2af9ab2af3d6b96",
+      "enMarkdown": "For Larry Page the most important component of the antidote was Sergey Brin, and vice versa. The antidote is [people](https://paulgraham.com/siliconvalley.html). It's not the physical infrastructure of Silicon Valley that makes it work, or the weather, or anything like that. Those helped get it started, but now that the reaction is self-sustaining what drives it is the people.",
+      "zhMarkdown": "对拉里·佩奇来说，解毒剂中最关键的成分是谢尔盖·布林，反之亦然。解毒剂其实就是[人](https://paulgraham.com/siliconvalley.html)。硅谷之所以成功，靠的不是它的硬件基础设施，也不是气候，或诸如此类的东西。这些因素确实促成了它的起步，但既然现在的化学反应已经能够自我维持，其真正的驱动力就是人。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "ba864ed05eeef5eaceb01e703b10dcf64370ca89162996b49f4ed0e15df0baae",
+      "enMarkdown": "Many observers have noticed that one of the most distinctive things about startup hubs is the degree to which people help one another out, with no expectation of getting anything in return. I'm not sure why this is so. Perhaps it's because startups are less of a zero sum game than most types of business; they are rarely killed by competitors. Or perhaps it's because so many startup founders have backgrounds in the sciences, where collaboration is encouraged.",
+      "zhMarkdown": "许多观察者都注意到，创业中心最独特的特征之一，就是人们互相帮助的程度之高，且往往不求回报。我不确定这是为什么。也许是因为与大多数商业类型相比，创业公司不那么像是一场零和博弈；它们很少被竞争对手干掉。又或者是因为很多创业公司的创始人都有学术背景，而在科学界，合作是备受鼓励的。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "1a24605060efc5e50ed60234b318db639df4b1ce47c51471e8881525a05f9e8e",
+      "enMarkdown": "A large part of YC's function is to accelerate that process. We're a sort of Valley within the Valley, where the density of people working on startups and their willingness to help one another are both artificially amplified.",
+      "zhMarkdown": "YC 的很大一部分功能就是加速这一过程。我们就像是硅谷中的硅谷，在这里，专注于创业的人群密度以及他们互相帮助的意愿，都被人工放大了。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "9d4acd6dc70bd7291fa99fd6ddbfa95f7bab20a3301ab259b9e9e6f20930593f",
+      "enMarkdown": "**Numbers**",
+      "zhMarkdown": "**数量**"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "3c4a6d1e6d56d2392a460711d141c987cfdc3efb8ff05ea0f27718afae8af183",
+      "enMarkdown": "Both components of the antidote—an environment that encourages startups, and chance meetings with people who help you—are driven by the same underlying cause: the number of startup people around you. To make a startup hub, you need a *lot* of people interested in startups.",
+      "zhMarkdown": "解毒剂的这两个要素——鼓励创业的环境，以及助你一臂之力的偶遇——都是由同一个底层原因驱动的：你身边创业者的数量。要打造一个创业中心，你需要*大量*对创业感兴趣的人。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "873e74483c6691037eb43de4a5c2a287a725c3d7312c7d57b0b4087e58e1482f",
+      "enMarkdown": "There are three reasons. The first, obviously, is that if you don't have enough density, the chance meetings don't happen. [[4](#f4n)] The second is that different startups need such different things, so you need a lot of people to supply each startup with what they need most. Sean Parker was exactly what Facebook needed in 2004. Another startup might have needed a database guy, or someone with connections in the movie business.",
+      "zhMarkdown": "原因有三。首先，显而易见，如果没有足够的密度，偶遇就不会发生。[[4](#f4n)] 其次，不同的创业公司需要的东西千差万别，因此你需要大量的人手来为每家公司提供它们最需要的东西。肖恩·帕克正是 Facebook 在 2004 年最需要的人。而另一家创业公司可能需要的是一个数据库专家，或者在电影界有关系的人。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "d63c5166e15eb228c06f24eacdc1f0b77b74bf925274049671105f3f63960f73",
+      "enMarkdown": "This is one of the reasons we fund such a large number of companies, incidentally. The bigger the community, the greater the chance it will contain the person who has that one thing you need most.",
+      "zhMarkdown": "顺便说一句，这也是我们资助这么多公司的原因之一。社群越大，里面包含你最需要的那个人才的概率就越高。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "ccaa4dc7784e30c225d31a82c90d39a76209cda3edffbbd60f61c231f67363d0",
+      "enMarkdown": "The third reason you need a lot of people to make a startup hub is that once you have enough people interested in the same problem, they start to set the social norms. And it is a particularly valuable thing when the atmosphere around you encourages you to do something that would otherwise seem too ambitious. In most places the atmosphere pulls you back toward the mean.",
+      "zhMarkdown": "第三个原因在于，一旦有足够多的人对同一个问题感兴趣，他们就会开始建立新的社会规范。当你周围的氛围鼓励你去尝试一些在别处显得过于野心勃勃的事情时，这是极其宝贵的。在大多数地方，周围的氛围只会把你拉回平庸的平均水平。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "ed13b1938284e809948f59dfd99dfae85b1a615fd26786264005899ace0f0158",
+      "enMarkdown": "I flew into the Bay Area a few days ago. I notice this every time I fly over the Valley: somehow you can sense something is going on. Obviously you can sense prosperity in how well kept a place looks. But there are different kinds of prosperity. Silicon Valley doesn't look like Boston, or New York, or LA, or DC. I tried asking myself what word I'd use to describe the feeling the Valley radiated, and the word that came to mind was optimism.",
+      "zhMarkdown": "几天前我飞回湾区。每次飞越硅谷上空，我都会注意到这一点：不知怎的，你能感觉到这里正在发生着什么。显然，你可以从一个地方整洁的外观中感受到繁荣。但繁荣也分很多种。硅谷看起来不像波士顿、纽约、洛杉矶或华盛顿。我试着问自己，该用什么词来形容硅谷散发出的那种感觉，脑海中浮现出的词是：乐观。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "0c9f6a76403f182ddee05d38cd1ae7cc5d246bfea5eef8d2fbc8ce409093171d",
+      "enMarkdown": "[1] I'm not saying it's impossible to succeed in a city with few other startups, just harder. If you're sufficiently good at generating your own morale, you can survive without external encouragement. Wufoo was based in Tampa and they succeeded. But the Wufoos are exceptionally disciplined.",
+      "zhMarkdown": "[1] 我并不是说在几乎没有其他创业公司的城市就无法成功，只是难度更大。如果你自己产生斗志的能力足够强，没有外部鼓励你也能活下来。Wufoo 总部设在坦帕（Tampa），他们成功了。但 Wufoo 的团队有着非同寻常的自律。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "8067dcf7d8110b0179cbec97c5c59cfe954e430e6cceae86b486457c7a08c30d",
+      "enMarkdown": "[2] Incidentally, this phenomenon is not limited to startups. Most unusual ambitions fail, unless the person who has them manages to find the right sort of community.",
+      "zhMarkdown": "[2] 顺便提一句，这种现象不仅限于创业。大多数不寻常的抱负都会失败，除非怀揣抱负的人能找到对路子的社群。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "a116da9adcbb6a37362fd957150e6924f2c9ad9d7deeaedadcaebd2e36e81f16",
+      "enMarkdown": "[3] Starting a company is common, but starting a startup is rare. I've talked about the distinction between the two elsewhere, but essentially a startup is a new business designed for scale. Most new businesses are service businesses and except in rare cases those don't scale.",
+      "zhMarkdown": "[3] 开一家公司很常见，但创办一家创业公司却很罕见。我曾在其他文章中讨论过两者的区别，但实质上，创业公司是一种旨在追求规模化（scale）的新型企业。大多数新企业都是服务业，除了极少数情况外，服务业是无法规模化的。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "ba51d13af5bd9f50bd86933f581a6b1772f4d89a51456ff4f222931a06447ee5",
+      "enMarkdown": "[4] As I was writing this, I had a demonstration of the density of startup people in the Valley. Jessica and I bicycled to University Ave in Palo Alto to have lunch at the fabulous Oren's Hummus. As we walked in, we met Charlie Cheever sitting near the door. Selina Tobaccowala stopped to say hello on her way out. Then Josh Wilson came in to pick up a take out order. After lunch we went to get frozen yogurt. On the way we met Rajat Suri. When we got to the yogurt place, we found Dave Shen there, and as we walked out we ran into Yuri Sagalov. We walked with him for a block or so and we ran into Muzzammil Zaveri, and then a block later we met Aydin Senkut. This is everyday life in Palo Alto. I wasn't trying to meet people; I was just having lunch. And I'm sure for every startup founder or investor I saw that I knew, there were 5 more I didn't. If Ron Conway had been with us he would have met 30 people he knew.",
+      "zhMarkdown": "[4] 在写这篇文章时，我亲身体验了一把硅谷创业圈的密度。我和杰西卡（Jessica）骑自行车去帕罗奥图的大学路（University Ave），在极棒的 Oren's Hummus 吃午饭。一走进去，就碰到了坐在门边的查理·切沃（Charlie Cheever）。塞丽娜·托巴科瓦拉（Selina Tobaccowala）在出门时停下来跟我们打招呼。接着，乔希·威尔逊（Josh Wilson）进来拿外卖。吃完午饭，我们去买冷冻酸奶。路上遇到了拉贾特·苏里（Rajat Suri）。到了酸奶店，发现戴夫·沈（Dave Shen）也在那里，走出来时又撞见了尤里·萨加洛夫（Yuri Sagalov）。我们和他一起走了一街区左右，碰到了穆扎米尔·扎韦里（Muzzammil Zaveri），再走一街区又遇到了艾登·森库特（Aydin Senkut）。这就是帕罗奥图的日常生活。我并没有刻意去见谁，我只是去吃个午饭。而且我敢肯定，在我看到的认识的创始人或投资人中，每一个背后都有 5 个我不认识的。如果罗恩·康威（Ron Conway）和我们在一起，他能碰到 30 个熟人。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "ee2512fbd4a8377db54d30daf52df377637f4a5799b4ac2195c4d4347c0a6231",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Jessica Livingston, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Jessica Livingston 和 Harj Taggar 阅读本文草稿。"
+    }
+  ]
+}

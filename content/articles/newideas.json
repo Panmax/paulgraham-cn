@@ -1,0 +1,188 @@
+{
+  "slug": "newideas",
+  "titleEn": "Crazy New Ideas",
+  "titleZh": "新奇的狂妄想法",
+  "dateText": "May 2021",
+  "publishedAt": "2021-05-01",
+  "sourceOrder": 31,
+  "sourceUrl": "https://paulgraham.com/newideas.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "239e02b73c8033e606306937f77401037eab1133147551c60e161569a739a1d4",
+      "enMarkdown": "There's one kind of opinion I'd be very afraid to express publicly. If someone I knew to be both a domain expert and a reasonable person proposed an idea that sounded preposterous, I'd be very reluctant to say \"That will never work.\"",
+      "zhMarkdown": "有这么一种观点，如果要在公开场合表达，我会非常顾忌。如果一个我深知既是领域专家又通情达理的人，提出了一个听起来荒谬至极的想法，我绝不敢轻易说：“这根本行不通。”"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "c67f70519f2d6dfc98664e50ccb1fe447f155ada58481d3cc17c6f435afbc70c",
+      "enMarkdown": "Anyone who has studied the history of ideas, and especially the history of science, knows that's how big things start. Someone proposes an idea that sounds crazy, most people dismiss it, then it gradually takes over the world.",
+      "zhMarkdown": "任何研究过思想史、尤其是科学史的人都知道，伟大的事物正是这样开始的。某人提出了一个听起来很疯狂的想法，大多数人不屑一顾，然后这个想法逐渐席卷世界。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "8c62201e158f537d7fde8ac29bce0a23ab225587c43ac31b21b4c1c8940aae78",
+      "enMarkdown": "Most implausible-sounding ideas are in fact bad and could be safely dismissed. But not when they're proposed by reasonable domain experts. If the person proposing the idea is reasonable, then they know how implausible it sounds. And yet they're proposing it anyway. That suggests they know something you don't. And if they have deep domain expertise, that's probably the source of it. [[1](#f1n)]",
+      "zhMarkdown": "大多数听起来不靠谱的想法实际上确实很糟，大可直接忽略。但如果提出者是通情达理的领域专家，情况就不同了。如果提出想法的人通情达理，他们自己肯定知道这听起来有多不靠谱，但他们还是提了出来。这表明他们知道一些你不知道的事情。而如果他们拥有深厚的领域专业知识，那很可能就是这些知识的来源。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "c19db1d44040f60214be7a8c10576a42ef685ab00a293b277c529918d11a811b",
+      "enMarkdown": "Such ideas are not merely unsafe to dismiss, but disproportionately likely to be interesting. When the average person proposes an implausible-sounding idea, its implausibility is evidence of their incompetence. But when a reasonable domain expert does it, the situation is reversed. There's something like an efficient market here: on average the ideas that seem craziest will, if correct, have the biggest effect. So if you can eliminate the theory that the person proposing an implausible-sounding idea is incompetent, its implausibility switches from evidence that it's boring to evidence that it's exciting. [[2](#f2n)]",
+      "zhMarkdown": "这类想法不仅不能轻易否定，反而极有可能是很有意思的。当一个普通人提出一个听起来不靠谱的想法时，这种不靠谱恰恰证明了他们的无能。但当一个通情达理的领域专家这样做时，情况就完全相反了。这里存在着类似有效市场假说的规律：平均而言，那些看起来最疯狂的想法，一旦被证明是正确的，其产生的影响也最大。因此，如果你能排除提出者“能力不足”这一假设，那么这个想法的不靠谱，就会从“无聊”的证据转变为“令人兴奋”的证据。[[2](#f2n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f88c817686269eba5c772fe7f0cbc7748a4d5f0c74b5a55d9bd4df195de63993",
+      "enMarkdown": "Such ideas are not guaranteed to work. But they don't have to be. They just have to be sufficiently good bets — to have sufficiently high expected value. And I think on average they do. I think if you bet on the entire set of implausible-sounding ideas proposed by reasonable domain experts, you'd end up net ahead.",
+      "zhMarkdown": "这类想法并不能保证一定会成功。但它们不需要保证成功，只要是足够划算的赌注——即拥有足够高的期望值——就够了。而且我认为，平均而言，它们确实值得。我想，如果你把赌注押在通情达理的领域专家提出的所有听起来不靠谱的想法上，你最终会获得净收益。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "1cde5b4b3a2070196cd25d078d61aa45cbce0c1a160e3db536542ffda19a632b",
+      "enMarkdown": "The reason is that everyone is too conservative. The word \"paradigm\" is overused, but this is a case where it's warranted. Everyone is too much in the grip of the current paradigm. Even the people who have the new ideas undervalue them initially. Which means that before they reach the stage of proposing them publicly, they've already subjected them to an excessively strict filter. [[3](#f3n)]",
+      "zhMarkdown": "原因在于每个人都太保守了。“范式”这个词被滥用了，但在这里却名副其实。每个人都太受制于当前的范式了。甚至连那些拥有新想法的人，起初也会低估它们。这意味着，在这些想法发展到公开提出的阶段之前，他们已经对自己进行了过度严格的筛选。[[3](#f3n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "7559107e65d98d860cc43ce75aeba3225183c9d77a49aeb7349625f5311b782f",
+      "enMarkdown": "The wise response to such an idea is not to make statements, but to ask questions, because there's a real mystery here. Why has this smart and reasonable person proposed an idea that seems so wrong? Are they mistaken, or are you? One of you has to be. If you're the one who's mistaken, that would be good to know, because it means there's a hole in your model of the world. But even if they're mistaken, it should be interesting to learn why. A trap that an expert falls into is one you have to worry about too.",
+      "zhMarkdown": "面对这样的想法，明智的反应不是下结论，而是提问题，因为这背后有一个真正的谜团。为什么这个聪明又理性的人会提出一个看起来如此错误的想法？是他们错了，还是你错了？你们中肯定有一个人错了。如果是你错了，那能意识到这一点是件好事，因为这意味着你的世界模型中存在漏洞。但即使是他们错了，了解他们为什么出错也同样很有意思。一个专家会掉进去的陷阱，也是你需要警惕的。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "a0ae9482f4cc596aa53a3ae940a72e3d6df2b3f31f416c6ddd4700be591b31e2",
+      "enMarkdown": "This all seems pretty obvious. And yet there are clearly a lot of people who don't share my fear of dismissing new ideas. Why do they do it? Why risk looking like a jerk now and a fool later, instead of just reserving judgement?",
+      "zhMarkdown": "这一切似乎不言而喻。然而，显然有很多人并不像我这样害怕轻易否定新想法。他们为什么要这么做？为什么要冒着现在显得刻薄、以后显得愚蠢的风险，而不是先保留意见呢？"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ff31b6b3ef1b14ae6525d54e1e3a65f88d3fb6de09e2918f9d8150dcc687585c",
+      "enMarkdown": "One reason they do it is envy. If you propose a radical new idea and it succeeds, your reputation (and perhaps also your wealth) will increase proportionally. Some people would be envious if that happened, and this potential envy propagates back into a conviction that you must be wrong.",
+      "zhMarkdown": "原因之一是嫉妒。如果你提出了一个激进的新想法并取得了成功，你的声誉（可能还有你的财富）也会相应增加。如果发生这种情况，有些人会感到嫉妒，而这种潜在的嫉妒会反过来转化为一种坚信你一定是错的执念。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "dbde9d3a620b3ec1c007c31a9c9ec98260e7d0fab08f39f4e2e81394dc4fe3c4",
+      "enMarkdown": "Another reason people dismiss new ideas is that it's an easy way to seem sophisticated. When a new idea first emerges, it usually seems pretty feeble. It's a mere hatchling. Received wisdom is a full-grown eagle by comparison. So it's easy to launch a devastating attack on a new idea, and anyone who does will seem clever to those who don't understand this asymmetry.",
+      "zhMarkdown": "人们否定新想法的另一个原因是，这是一种让自己显得很有水平的简便方法。当一个新想法最初出现时，它通常看起来非常脆弱，就像一只刚孵化的小鸟。相比之下，既有的传统智慧就像一只成年老鹰。因此，对一个新想法发起毁灭性的攻击是很容易的，任何这样做的人在不懂得这种不对称性的人眼里，都会显得很聪明。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "c61532e593af779083db5bf43a2f0dca8b483f35b9b3906d3279507b07e50293",
+      "enMarkdown": "This phenomenon is exacerbated by the difference between how those working on new ideas and those attacking them are rewarded. The rewards for working on new ideas are weighted by the value of the outcome. So it's worth working on something that only has a 10% chance of succeeding if it would make things more than 10x better. Whereas the rewards for attacking new ideas are roughly constant; such attacks seem roughly equally clever regardless of the target.",
+      "zhMarkdown": "这种现象由于研究新想法的人和攻击新想法的人所获得的汇报机制不同而加剧。研究新想法的汇报是根据结果的价值来权衡的。因此，如果一件事情能带来 10 倍以上的改善，即使只有 10% 的成功概率，也值得去尝试。而攻击新想法的汇报则大致是恒定的；无论攻击的对象是什么，这种攻击看起来都同样聪明。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "7e5d5249bcf0d22aa1961aff99a4ab2ea0259d92363f6315835c6f088e51f028",
+      "enMarkdown": "People will also attack new ideas when they have a vested interest in the old ones. It's not surprising, for example, that some of Darwin's harshest critics were churchmen. People build whole careers on some ideas. When someone claims they're false or obsolete, they feel threatened.",
+      "zhMarkdown": "当人们在旧想法中拥有既得利益时，他们也会攻击新想法。例如，达尔文最严厉的一些批评者是神职人员，这并不奇怪。人们把整个职业生涯都建立在某些想法之上。当有人声称这些想法是错误或过时的时候，他们会感到威胁。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c5b2ea0f7b50dd41a423498ae4b3c4e9bd4fe15c046bb1a91dcd47a248090a5c",
+      "enMarkdown": "The lowest form of dismissal is mere factionalism: to automatically dismiss any idea associated with the opposing faction. The lowest form of all is to dismiss an idea because of who proposed it.",
+      "zhMarkdown": "最下作的否定形式是纯粹的派系斗争：自动否定与对立派系相关的任何想法。而最最下作的形式，则是仅仅因为提出者是谁而否定一个想法。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "47d9cb2debc0119581eef883914eebb6b88208806ee055c32b95d7d91802ef94",
+      "enMarkdown": "But the main thing that leads reasonable people to dismiss new ideas is the same thing that holds people back from proposing them: the sheer pervasiveness of the current paradigm. It doesn't just affect the way we think; it is the Lego blocks we build thoughts out of. Popping out of the current paradigm is something only a few people can do. And even they usually have to suppress their intuitions at first, like a pilot flying through cloud who has to trust his instruments over his sense of balance. [[4](#f4n)]",
+      "zhMarkdown": "但导致理性的人否定新想法的主要原因，与阻碍人们提出新想法的原因是一样的：那就是当前范式的无处不在。它不仅影响我们的思考方式，还是我们构建思想的乐高积木。跳出当前的范式是极少数人才能做到的事。即使是他们，起初通常也必须压抑自己的直觉，就像飞行员穿过云层时，必须相信仪表而不是自己的平衡感一样。[[4](#f4n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "65bd825a24c3d73f33dc9d39aca5845001681d104cb88dbdb39fce7fead771e7",
+      "enMarkdown": "Paradigms don't just define our present thinking. They also vacuum up the trail of crumbs that led to them, making our standards for new ideas impossibly high. The current paradigm seems so perfect to us, its offspring, that we imagine it must have been accepted completely as soon as it was discovered — that whatever the church thought of the heliocentric model, astronomers must have been convinced as soon as Copernicus proposed it. Far, in fact, from it. Copernicus published the heliocentric model in 1532, but it wasn't till the mid seventeenth century that the balance of scientific opinion shifted in its favor. [[5](#f5n)]",
+      "zhMarkdown": "范式不仅定义了我们眼下的思维。它们还扫清了通往这些思维的线索痕迹，让我们对新想法的要求高得不切实际。作为当前范式的产物，我们觉得它如此完美，以至于我们想象它一经发现就立刻被完全接受了——即无论教会对日心说有什么看法，天文学家们在哥白尼提出它时一定就深信不疑了。事实远非如此。哥白尼在 1532 年发表了日心说，但直到十七世纪中期，科学界的舆论天平才倒向它。[[5](#f5n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "a8ba1ad2fc0c08d474e9811b82336424a272b1c7f766988b3a12f513d95cbbbd",
+      "enMarkdown": "Few understand how feeble new ideas look when they first appear. So if you want to have new ideas yourself, one of the most valuable things you can do is to learn what they look like when they're born. Read about how new ideas happened, and try to get yourself into the heads of people at the time. How did things look to them, when the new idea was only half-finished, and even the person who had it was only half-convinced it was right?",
+      "zhMarkdown": "很少有人明白新想法在最初出现时看起来有多么微不足道。因此，如果你自己想获得新想法，你能做的最有价值的事情之一就是了解它们诞生时的样子。去阅读新想法是如何产生的，并试着让自己进入当时人们的脑海中。当新想法只完成了一半，甚至连提出它的人也只有一半把握它是正确的时候，他们眼中的世界是怎样的？"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4e16b3fa461f9a21634ed9f92b7c4e546f257b18139060e76fdde295f4e2550e",
+      "enMarkdown": "But you don't have to stop at history. You can observe big new ideas being born all around you right now. Just look for a reasonable domain expert proposing something that sounds wrong.",
+      "zhMarkdown": "但你不必止步于历史。你现在就可以观察到身边正在诞生的伟大新想法。只需去寻找一个通情达理的领域专家，正在提出某个听起来错误的主张。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "83ad2e84e5f90678292f19b9f842e05d42ece5a1e085d98412e589239c43247f",
+      "enMarkdown": "If you're nice, as well as wise, you won't merely resist attacking such people, but encourage them. Having new ideas is a lonely business. Only those who've tried it know how lonely. These people need your help. And if you help them, you'll probably learn something in the process.",
+      "zhMarkdown": "如果你不仅明智，而且善良，你不仅不会攻击这些人，还会鼓励他们。拥有新想法是一件孤独的事情。只有尝试过的人才知道有多孤独。这些人需要你的帮助。如果你帮助了他们，你很可能也会在这个过程中学到一些东西。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "614001eb53bffd18f51215d862553e7ac9a9c3aeca0c8d98998158fd87771142",
+      "enMarkdown": "[1] This domain expertise could be in another field. Indeed, such crossovers tend to be particularly promising.",
+      "zhMarkdown": "[1] 这种领域专业知识也可以是在另一个领域。事实上，这种跨界往往特别有前景。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "33e6ed469efd749b65dcf3cf0b4c1d0a0f1c0a672ab039ced63f7c5041d759a3",
+      "enMarkdown": "[2] I'm not claiming this principle extends much beyond math, engineering, and the hard sciences. In politics, for example, crazy-sounding ideas generally are as bad as they sound. Though arguably this is not an exception, because the people who propose them are not in fact domain experts; politicians are domain experts in political tactics, like how to get elected and how to get legislation passed, but not in the world that policy acts upon. Perhaps no one could be.",
+      "zhMarkdown": "[2] 我并不是说这一原则在数学、工程和硬科学之外也适用。例如，在政治领域，听起来疯狂的想法通常确实和它们听起来一样糟糕。尽管可以说这并不算例外，因为提出这些想法的人实际上并不是该领域的专家；政治家是政治策略（比如如何当选、如何让立法通过）方面的专家，但并不是政策所作用的那个世界的专家。也许没有人能成为那样的专家。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "0afde4f94bfe4b8493cfbda0ec99c0145f3ece9768df0aa60c543ae0f3da4b05",
+      "enMarkdown": "[3] This sense of \"paradigm\" was defined by Thomas Kuhn in his *Structure of Scientific Revolutions*, but I also recommend his *Copernican Revolution*, where you can see him at work developing the idea.",
+      "zhMarkdown": "[3] “范式”这一概念由托马斯·库恩在其《科学革命的结构》一书中定义，但我也推荐他的《哥白尼革命》，在书中你可以看到他是如何发展这一思想的。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "55c383bced1627157ec07d70a871782771dd415079fe8f4d9a5855c0244ce237",
+      "enMarkdown": "[4] This is one reason people with a touch of Asperger's may have an advantage in discovering new ideas. They're always flying on instruments.",
+      "zhMarkdown": "[4] 这也是为什么带有一点阿斯伯格综合征特征的人在发现新想法方面可能具有优势的原因之一。他们总是在靠仪表飞行。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "b7a7fd97616699c9d518dd26df9dc8b93ea1bd0969d3dc09d2b750649acd1f5c",
+      "enMarkdown": "[5] Hall, Rupert. *From Galileo to Newton.* Collins, 1963. This book is particularly good at getting into contemporaries' heads.",
+      "zhMarkdown": "[5] 鲁珀特·霍尔，《从伽利略到牛顿》，柯林斯出版社，1963年。这本书在带入当时人们的思想方面写得特别好。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "df3705a98b8fe7fb8b3e8ec9a9ddb64bc4f4c0ad0d73d02b6d7abf138c558080",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Patrick Collison, Suhail Doshi, Daniel Gackle, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Patrick Collison、Suhail Doshi、Daniel Gackle、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "slug": "determination",
+  "titleEn": "The Anatomy of Determination",
+  "titleZh": "毅力的剖析",
+  "dateText": "September 2009",
+  "publishedAt": "2009-09-01",
+  "sourceOrder": 113,
+  "sourceUrl": "https://paulgraham.com/determination.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b027ba9a90bc39cfa9562010dcc25e0c8a189c6ca17124eec5a40bb5004f4be9",
+      "enMarkdown": "Like all investors, we spend a lot of time trying to learn how to predict which startups will succeed. We probably spend more time thinking about it than most, because we invest the earliest. Prediction is usually all we have to rely on.",
+      "zhMarkdown": "和所有投资人一样，我们花了大把时间试图搞清楚如何预测哪些创业公司会成功。我们在这上面琢磨的时间可能比大多数人都多，因为我们投资的阶段最早。在那个阶段，预测几乎是我们唯一能依靠的东西。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "c18d392ca7642ee7d057c4e121e012827f311ca934a5479783a0a39e77c2bfa0",
+      "enMarkdown": "We learned quickly that the most important predictor of success is determination. At first we thought it might be intelligence. Everyone likes to believe that's what makes startups succeed. It makes a better story that a company won because its founders were so smart. The PR people and reporters who spread such stories probably believe them themselves. But while it certainly helps to be smart, it's not the deciding factor. There are plenty of people as smart as Bill Gates who achieve nothing.",
+      "zhMarkdown": "我们很快就发现，预测成功最关键的指标是毅力。起初，我们以为是智商。大家都乐意相信智商才是创业成功的关键。一个公司因为创始人绝顶聪明而胜出，这种故事听起来也更过瘾。传播这类故事的公关和记者，恐怕自己都对此深信不疑。虽然聪明确实大有裨益，但它并不是决定性因素。世上多的是和比尔·盖茨一样聪明却一事无成的人。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "68b7320f574fd37d8573265797cd4cf8d7d5ce91735c4d36452e93f5af9e5f15",
+      "enMarkdown": "In most domains, talent is overrated compared to determination—partly because it makes a better story, partly because it gives onlookers an excuse for being lazy, and partly because after a while determination starts to look like talent.",
+      "zhMarkdown": "在大多数领域，天赋比起毅力都被高估了——部分原因在于这种故事更好听，部分原因在于它给旁观者的懒惰提供了借口，还有部分原因在于，时间一长，毅力看起来就像是天赋一样。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "197a1d2d68874a085266e172d3b90e7967846654ba4f169f99312dcba73c1a53",
+      "enMarkdown": "I can't think of any field in which determination is overrated, but the relative importance of determination and talent probably do vary somewhat. Talent probably matters more in types of work that are purer, in the sense that one is solving mostly a single type of problem instead of many different types. I suspect determination would not take you as far in math as it would in, say, organized crime.",
+      "zhMarkdown": "我想不出有哪个领域毅力会被高估，但毅力和天赋的相对重要性确实因领域而异。在那些更“纯粹”的工作中，天赋可能更重要一些，所谓纯粹，是指你主要在解决单一类型的问题，而不是应付各种杂七杂八的问题。我怀疑，在数学领域，单凭毅力能带你走出的距离，恐怕不如在有组织的犯罪集团中那么远。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4dc0958918060c7d60136aa923c23d41e3da3c921d4a99db7d0d663c7b024e8d",
+      "enMarkdown": "I don't mean to suggest by this comparison that types of work that depend more on talent are always more admirable. Most people would agree it's more admirable to be good at math than memorizing long strings of digits, even though the latter depends more on natural ability.",
+      "zhMarkdown": "我做这个对比，并不是说更依赖天赋的工作就一定更令人钦佩。大多数人都会同意，擅长数学比擅长记忆一长串数字更令人钦佩，尽管后者其实更依赖天赋。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "f35e7b51304ae5248abfa9c97fc541862abdc36f847ce9ad7e0f27afce0ac237",
+      "enMarkdown": "Perhaps one reason people believe startup founders win by being smarter is that intelligence does matter more in technology startups than it used to in earlier types of companies. You probably do need to be a bit smarter to dominate Internet search than you had to be to dominate railroads or hotels or newspapers. And that's probably an ongoing trend. But even in the highest of high tech industries, success still depends more on determination than brains.",
+      "zhMarkdown": "人们之所以相信创业创始人是靠聪明取胜，原因之一可能是，与早期的公司类型相比，现在的技术创业公司确实对智商的要求更高了。要想在互联网搜索领域称霸，你确实得比当年在铁路、酒店或报业称霸的人更聪明一点。这可能是一个持续的趋势。但即使是在最高精尖的科技行业，成功依然更取决于毅力，而非脑子。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "d938bda8f902782f057c08ed08daa54f6e44d0c286d1e19c5b9e03a1930ddd67",
+      "enMarkdown": "If determination is so important, can we isolate its components? Are some more important than others? Are there some you can cultivate?",
+      "zhMarkdown": "既然毅力如此重要，我们能拆解它的构成要素吗？其中有些要素比其他的更重要吗？有哪些是你可以后天培养的吗？"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ae9595acf129eb3bf443f5570ef9431e9b59625caae631c03f40a156b65571f1",
+      "enMarkdown": "The simplest form of determination is sheer willfulness. When you want something, you must have it, no matter what.",
+      "zhMarkdown": "毅力最简单的形式，就是纯粹的任性（willfulness）。当你想要某样东西时，无论如何都必须得到它。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d708316fea5eaeca2cc7bb7884fc7cdafce84496f4cc1c1694b37a23b4acdaa3",
+      "enMarkdown": "A good deal of willfulness must be inborn, because it's common to see families where one sibling has much more of it than another. Circumstances can alter it, but at the high end of the scale, nature seems to be more important than nurture. Bad circumstances can break the spirit of a strong-willed person, but I don't think there's much you can do to make a weak-willed person stronger-willed.",
+      "zhMarkdown": "很大一部分的任性必定是天生的，因为我们经常看到在同一个家庭里，某个孩子就是比另一个要执拗得多。环境可以改变它，但在极端的程度上面，先天似乎比后天更重要。恶劣的环境可以摧毁一个意志坚强的人的斗志，但我认为，你很难让一个意志薄弱的人变得意志坚强。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2361684a001d58f87d9f7f9204877b7c308acb8bed2cee15d52b917452ff00bb",
+      "enMarkdown": "Being strong-willed is not enough, however. You also have to be hard on yourself. Someone who was strong-willed but self-indulgent would not be called determined. Determination implies your willfulness is balanced by discipline.",
+      "zhMarkdown": "然而，光有强烈的意志是不够的。你还必须对自己狠一点。一个意志坚强却放纵自我的人，算不上是有毅力。毅力意味着你的任性被自律所平衡。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "922212a4bee128dffe2f20e1db72419328bf0b229dc18c3a514ed63c98ab3428",
+      "enMarkdown": "That word balance is a significant one. The more willful you are, the more disciplined you have to be. The stronger your will, the less anyone will be able to argue with you except yourself. And someone has to argue with you, because everyone has base impulses, and if you have more will than discipline you'll just give into them and end up on a local maximum like drug addiction.",
+      "zhMarkdown": "“平衡”这个词至关重要。你越是任性，就越需要自律。你的意志越强，除了你自己，就越没有人能说服你。而你必须有力量跟自己抗争，因为每个人都有低级冲动，如果你的意志力超出了自律能力，你就会向这些冲动妥协，最终陷入像毒瘾这样的局部最优解中。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "b5d1f970de2975261f393a7d70f4e5567b9659fb2bb683ce491fd94021d46300",
+      "enMarkdown": "We can imagine will and discipline as two fingers squeezing a slippery melon seed. The harder they squeeze, the further the seed flies, but they must both squeeze equally or the seed spins off sideways.",
+      "zhMarkdown": "我们可以把意志和自律想象成两个手指，正在捏一颗滑溜溜的西瓜子。捏得越用力，瓜子飞得越远，但两根手指必须用力均匀，否则瓜子就会斜着滑出去。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "3a0a10b7b949e6bfa546cada49e336aa364c079a3f24a065d1dcbb1913e6b9f9",
+      "enMarkdown": "If this is true it has interesting implications, because discipline can be cultivated, and in fact does tend to vary quite a lot in the course of an individual's life. If determination is effectively the product of will and discipline, then you can become more determined by being more disciplined. [[1](#f1n)]",
+      "zhMarkdown": "如果这个模型成立，那它会带来很有意思的启示，因为自律是可以后天培养的，而且在人的一生中往往会发生很大的变化。如果毅力实际上是意志和自律的产物，那么你可以通过变得更加自律来让自己更有毅力。[[1](#f1n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a1346167bc7e23c62350fa33fd4388bfe21ed6d39c48cd270b6d642a510b74e1",
+      "enMarkdown": "Another consequence of the melon seed model is that the more willful you are, the more dangerous it is to be undisciplined. There seem to be plenty of examples to confirm that. In some very energetic people's lives you see something like wing flutter, where they alternate between doing great work and doing absolutely nothing. Externally this would look a lot like bipolar disorder.",
+      "zhMarkdown": "西瓜子模型的另一个推论是，你越是任性，缺乏自律就越危险。现实中似乎有大把的例子可以印证这一点。在一些精力极其充沛的人身上，你会看到一种类似“机翼震颤”的状态：他们时而做出伟大的成就，时而彻底摆烂、无所事事。在旁人看来，这非常像双相情感障碍。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "8b31603e1cd0414ad461d075c1304e759ff6ecd6fb8d748d02f7125d02e468d1",
+      "enMarkdown": "The melon seed model is inaccurate in at least one respect, however: it's static. In fact the dangers of indiscipline increase with temptation. Which means, interestingly, that determination tends to erode itself. If you're sufficiently determined to achieve great things, this will probably increase the number of temptations around you. Unless you become proportionally more disciplined, willfulness will then get the upper hand, and your achievement will revert to the mean.",
+      "zhMarkdown": "不过，西瓜子模型至少在一个方面是不准确的：它是静态的。事实上，缺乏自律带来的危险会随着诱惑的增加而增加。这意味着一个有趣的现象：毅力往往会自我侵蚀。如果你足够有毅力去取得伟大的成就，这很可能会让你周围的诱惑成倍增加。除非你的自律也成比例地提升，否则任性就会占上风，你的成就最终会退化回平均水平。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "8d8bb0bb9b3e17b27bc4e4935ce76ed82341802dcad50ea375a5304bf0896ef3",
+      "enMarkdown": "That's why Shakespeare's Caesar thought thin men so dangerous. They weren't tempted by the minor perquisites of power.",
+      "zhMarkdown": "这就是为什么莎士比亚笔下的凯撒觉得瘦子最危险。因为他们不会被权力带来的那些小恩小惠所诱惑。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "346104632d339476e368b0d52bebc118959618779dbd70bff0a93931cc37200a",
+      "enMarkdown": "The melon seed model implies it's possible to be too disciplined. Is it? I think there probably are people whose willfulness is crushed down by excessive discipline, and who would achieve more if they weren't so hard on themselves. One reason the young sometimes succeed where the old fail is that they don't realize how incompetent they are. This lets them do a kind of deficit spending. When they first start working on something, they overrate their achievements. But that gives them confidence to keep working, and their performance improves. Whereas someone clearer-eyed would see their initial incompetence for what it was, and perhaps be discouraged from continuing.",
+      "zhMarkdown": "西瓜子模型暗示了人有可能会过度自律。真的是这样吗？我想确实有人的意志力被过度的自律所压垮，如果他们不对自己那么苛刻，或许能取得更大的成就。年轻人有时能在年长者失败的地方取得成功，原因之一就是他们不知道自己有多无能。这让他们可以进行某种“赤字消费”。刚开始做某件事时，他们会高估自己的成绩。但正是这种高估给了他们继续做下去的信心，进而让他们的表现得以提升。而一个目光更敏锐的人则会一眼看穿自己起步阶段的无能，从而可能气馁，不再坚持。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "ce6580b0680429e187d29d4e8cf7cbaa8d987083adf3a46c6ed536bf690b2e42",
+      "enMarkdown": "There's one other major component of determination: ambition. If willfulness and discipline are what get you to your destination, ambition is how you choose it.",
+      "zhMarkdown": "毅力还有另一个核心要素：野心。如果说任性和自律是带你到达目的地的工具，那么野心就是你选择目的地的方式。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "efeb8c6a84ea031461330a72c2980363c5f3d1115e8d907868d6d93ff0eaf3dd",
+      "enMarkdown": "I don't know if it's exactly right to say that ambition is a component of determination, but they're not entirely orthogonal. It would seem a misnomer if someone said they were very determined to do something trivially easy.",
+      "zhMarkdown": "我不知道把野心说成是毅力的一个组成部分是否完全准确，但它们绝对不是毫无干系的。如果有人说他非常有毅力去完成一件轻而易举的事，这听起来显然是用词不当。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "aa075780e61a2d4ec3acfc5f6964ec3265d3d4e7c570f8f6cce98d902957b914",
+      "enMarkdown": "And fortunately ambition seems to be quite malleable; there's a lot you can do to increase it. Most people don't know how ambitious to be, especially when they're young. They don't know what's hard, or what they're capable of. And this problem is exacerbated by having few peers. Ambitious people are rare, so if everyone is mixed together randomly, as they tend to be early in people's lives, then the ambitious ones won't have many ambitious peers. When you take people like this and put them together with other ambitious people, they bloom like dying plants given water. Probably most ambitious people are starved for the sort of encouragement they'd get from ambitious peers, whatever their age. [[2](#f2n)]",
+      "zhMarkdown": "幸运的是，野心似乎是极具塑造性的，你可以通过很多方法来提升它。大多数人并不知道自己该有多大的野心，尤其是在年轻的时候。他们不知道什么事情是困难的，也不知道自己能做什么。而周围缺乏同类会让这个问题更加严重。有野心的人是罕见的，如果把所有人随机混在一起——就像人们年轻时通常经历的那样——那么有野心的人身边就不会有太多志同道合的同伴。当你把这样的人和同样有野心的人聚在一起时，他们就会像干枯的植物得到灌溉一样，蓬勃生长。可能大多数有野心的人，无论年龄大小，都极度渴望从志同道合的同伴那里获得鼓励。[[2](#f2n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "4bf76bdfc010a2251489159ecc9ccba3e9585a5c90a98bb321a5b8e75beb0fcb",
+      "enMarkdown": "Achievements also tend to increase your ambition. With each step you gain confidence to stretch further next time.",
+      "zhMarkdown": "取得成就往往也会膨胀你的野心。每往前迈出一步，你就会获得更多的信心，在下一次走得更远。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "9cc662af96402f4bba19a48d5a2978bf5b4dcd5466c1b4051ac9f33e764b08f5",
+      "enMarkdown": "So here in sum is how determination seems to work: it consists of willfulness balanced with discipline, aimed by ambition. And fortunately at least two of these three qualities can be cultivated. You may be able to increase your strength of will somewhat; you can definitely learn self-discipline; and almost everyone is practically malnourished when it comes to ambition.",
+      "zhMarkdown": "总而言之，毅力的运作机制似乎是这样的：它由任性与自律相互平衡而成，并由野心指引方向。幸运的是，这三种品质中至少有两种是可以后天培养的。你的意志力或许能得到适度提升；你的自律绝对是可以学来的；而在野心方面，几乎每个人都处于长期营养不良的状态。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "df9f10108cf58fed6e31bab206868f79923d948367eefa8cb15b9ad2d7ce92d5",
+      "enMarkdown": "I feel like I understand determination a bit better now. But only a bit: willfulness, discipline, and ambition are all concepts almost as complicated as determination. [[3](#f3n)]",
+      "zhMarkdown": "我觉得我现在对毅力的理解深了一点。但也只是一点点：任性、自律和野心，这些概念每一个都几乎和毅力本身一样复杂。[[3](#f3n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "1c98728075edb57433f574d6e64a2d06c6e3de7886cab74cde64bdbc67a22d22",
+      "enMarkdown": "Note too that determination and talent are not the whole story. There's a third factor in achievement: how much you like the work. If you really [love](https://paulgraham.com/love.html) working on something, you don't need determination to drive you; it's what you'd do anyway. But most types of work have aspects one doesn't like, because most types of work consist of doing things for other people, and it's very unlikely that the tasks imposed by their needs will happen to align exactly with what you want to do.",
+      "zhMarkdown": "还要注意的是，毅力和天赋并不是全部。决定成就的还有第三个因素：你有多喜欢这项工作。如果你真的[热爱](https://paulgraham.com/love.html)做某件事，你就不需要毅力来鞭策你，因为这本就是你无论如何都会去做的事。但大多数工作都有令人讨厌的一面，因为大多数工作本质上都是在为别人做事，而别人的需求所衍生出的任务，极难恰好与你想做的事情完美契合。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "bdac69bf0d3ab75f3bb7c70c7fb085a1f3441ac8fbe75c36c7acf198321b3ebe",
+      "enMarkdown": "Indeed, if you want to create the most [wealth](https://paulgraham.com/wealth.html), the way to do it is to focus more on their needs than your interests, and make up the difference with determination.",
+      "zhMarkdown": "事实上，如果你想创造最大的[财富](https://paulgraham.com/wealth.html)，方法就是更多地关注别人的需求，而不是你自己的兴趣，并用毅力来弥补这两者之间的落差。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "76dc42bf7ee1c8ed5479c0c1eba62619a20e89542ec475452a75d5681788403d",
+      "enMarkdown": "[1] Loosely speaking. What I'm claiming with the melon seed model is more like determination is proportionate to wd^m - k|w - d|^n, where w is will and d discipline.",
+      "zhMarkdown": "[1] 宽泛地来说。我用西瓜子模型想表达的更接近于：毅力与 wd^m - k|w - d|^n 成正比，其中 w 代表意志，d 代表自律。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "81fa9fff036abe13e1d34b33f48e2c36156075d2f9d464d513c9d55357cd4439",
+      "enMarkdown": "[2] Which means one of the best ways to help a society generally is to create [events](http://startupschool.org) and [institutions](http://ycombinator.com) that bring ambitious people together. It's like pulling the control rods out of a reactor: the energy they emit encourages other ambitious people, instead of being absorbed by the normal people they're usually surrounded with.",
+      "zhMarkdown": "[2] 这意味着，帮助整个社会最好的方法之一，就是创办能把有野心的人聚集在一起的[活动](http://startupschool.org)和[机构](http://ycombinator.com)。这就像把控制棒从核反应堆中抽出来：他们释放出的能量会激励其他有野心的人，而不是被他们平时身处的普通人环境所吸收。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "16716b920eb6c3ec9171e1a6d916099fb53784878336497b9ea1f7244b4d9f3d",
+      "enMarkdown": "Conversely, it's probably a mistake to do as some European countries have done and try to ensure none of your universities is significantly better than the others.",
+      "zhMarkdown": "相反，像一些欧洲国家那样，试图确保没有任何一所大学明显优于其他大学，可能是一个错误。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "3d506542e5b119780ce67347ae1ee3e91f212079239e6db4ae121db3f06b570d",
+      "enMarkdown": "[3] For example, willfulness clearly has two subcomponents, stubbornness and energy. The first alone yields someone who's stubbornly inert. The second alone yields someone flighty. As willful people get older or otherwise lose their energy, they tend to become merely stubborn.",
+      "zhMarkdown": "[3] 例如，任性显然有两个子要素：固执和精力。光有前者，只会让人固步自封、死气沉沉。光有后者，则会让人浮躁、变幻无常。当任性的人变老或失去精力时，他们往往会变得仅仅是固执。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "7899106d32ff828ab2acb97d2da979aae9e9c1651059fc6978c4d03b43337c59",
+      "enMarkdown": "**Thanks** to Sam Altman, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "pow",
+  "titleEn": "Charisma / Power",
+  "titleZh": "魅力与权力",
+  "dateText": "January 2017",
+  "publishedAt": "2017-01-01",
+  "sourceOrder": 56,
+  "sourceUrl": "https://paulgraham.com/pow.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5bd660a78eb0cb98fd6872fcf118c0efaa738d4095ee96538917db5744ce0e49",
+      "enMarkdown": "People who are powerful but uncharismatic will tend to be disliked. Their power makes them a target for criticism that they don't have the charisma to disarm. That was Hillary Clinton's problem. It also tends to be a problem for any CEO who is more of a builder than a schmoozer. And yet the builder-type CEO is (like Hillary) probably the best person for the job.",
+      "zhMarkdown": "手握权力却缺乏魅力的人往往容易招人嫌。他们的权力使他们成为众矢之的，而他们又缺乏用魅力化解批评的本领。这正是希拉里·克林顿（Hillary Clinton）当年面临的困境。对于那些更擅长埋头干实事、而非长袖善舞的 CEO 们来说，这也往往是个棘手的问题。然而，这种实干型的 CEO（就像希拉里一样）很可能才是最适合该职位的最佳人选。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "5a5a91e53a29b2fbd394b6503e900b8ef462d6363d1537f3a23ba940c055e72e",
+      "enMarkdown": "I don't think there is any solution to this problem. It's human nature. The best we can do is to recognize that it's happening, and to understand that being a magnet for criticism is sometimes a sign not that someone is the wrong person for a job, but that they're the right one.",
+      "zhMarkdown": "我不认为这个问题有任何破解之道，因为这就是人性。我们唯一能做的，就是看清这一现象，并明白：有时一个人成为舆论炮轰的焦点，并不意味着他不适合这个职位，恰恰相反，这可能证明他才是最合适的人选。"
+    }
+  ]
+}

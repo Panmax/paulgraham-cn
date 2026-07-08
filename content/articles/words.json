@@ -1,0 +1,132 @@
+{
+  "slug": "words",
+  "titleEn": "Putting Ideas into Words",
+  "titleZh": "把想法落笔成文",
+  "dateText": "February 2022",
+  "publishedAt": "2022-02-01",
+  "sourceOrder": 24,
+  "sourceUrl": "https://paulgraham.com/words.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "d814a86c9ae2d6710fa71cf277ca1912c614f2f5d9a59b6179283d8595e11903",
+      "enMarkdown": "Writing about something, even something you know well, usually shows you that you didn't know it as well as you thought. Putting ideas into words is a severe test. The first words you choose are usually wrong; you have to rewrite sentences over and over  to get them exactly right. And your ideas won't just be imprecise, but incomplete too. Half the ideas that end up in an essay will be ones you thought of while you were writing it. Indeed, that's why I write them.",
+      "zhMarkdown": "写关于某个主题的文章，哪怕是你非常熟悉的主题，通常也会让你发现，自己其实并没有想象中那么了解它。把想法落笔成文是一次严苛的考验。你最初选用的词句通常是错的，你必须一遍又一遍地重写，才能把它们表达得恰到好处。而且，你的想法不仅会显得不精确，甚至是不完整的。一篇文章里最终呈现的想法，有一半都是你在写作的过程中才想到的。事实上，这正是写文章的意义所在。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "ab7a7397bd3877f3d73d90389e42437d5bf0a0bdf9ad7a49af8fa55109f3ddc7",
+      "enMarkdown": "Once you publish something, the convention is that whatever you wrote was what you thought before you wrote it. These were your ideas, and now you've expressed them. But you know this isn't true. You know that putting your ideas into words changed them. And not just the ideas you published. Presumably there were others that turned out to be too broken to fix, and those you discarded instead.",
+      "zhMarkdown": "一旦你发表了文章，按照惯例，人们会认为你写下来的就是你动笔前所想的——这些是你的既有想法，而你现在只是把它们表达了出来。但你自己心里清楚事实并非如此。你知道，把想法付诸文字的过程改变了这些想法。而且改变的不仅仅是那些发表出来的想法。大概还有其他一些想法，因为漏洞太多无法修补，最终被你直接抛弃了。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "25c9846b0bfcb98cb34fc51a8664d413b520549e129ec45044bbe68ea6de561d",
+      "enMarkdown": "It's not just having to commit your ideas to specific words that makes writing so exacting. The real test is reading what you've written. You have to pretend to be a neutral reader who knows nothing of what's in your head, only what you wrote. When he reads what you wrote, does it seem correct? Does it seem complete? If you make an effort, you can read your writing as if you were a complete stranger, and when you do the news is usually bad. It takes me many cycles before I can get an essay past the stranger. But the stranger is rational, so you always can, if you ask him what he needs. If he's not satisfied because you failed to mention x or didn't qualify some sentence sufficiently, then you mention x or add more qualifications. Happy now? It may cost you some nice sentences, but you have to resign yourself to that. You just have to make them as good as you can and still satisfy the stranger.",
+      "zhMarkdown": "写作之所以如此磨人，不仅因为你必须把想法落实到具体的字句上，真正的考验在于阅读你写下的东西。你必须假装自己是一个中立的读者，对你脑子里的东西一无所知，只看纸面上的文字。当这个读者读到你写的内容时，它看起来对吗？显得完整吗？如果你努力尝试，你完全可以像个彻底的陌生人一样来阅读自己的文章。而当你真的这么做时，得到的通常都是坏消息。我往往需要修改很多轮，才能让一篇文章通过这个“陌生人”的审视。好在这个陌生人是讲道理的，只要你问他需要什么，你总能说服他。如果他因为你没提到某点，或者某句话说得不够严谨而感到不满意，那你就把那点补上，或者加上限制性修饰。现在满意了吗？这可能会让你损失一些漂亮的句子，但你必须妥协。你只能在满足这个陌生人的前提下，把句子写得尽善尽美。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "07980f5a5c5252250b75bcce00c4d0694d8b3fa296d579221cbdc697454ef9d3",
+      "enMarkdown": "This much, I assume, won't be that controversial. I think it will accord with the experience of anyone who has tried to write about anything nontrivial. There may exist people whose thoughts are so perfectly formed that they just flow straight into words. But I've never known anyone who could do this, and if I met someone who said they could, it would seem evidence of their limitations rather than their ability. Indeed, this is a trope in movies: the guy who claims to have a plan for doing some difficult thing, and who when questioned further, taps his head and says \"It's all up here.\" Everyone watching the movie knows what that means. At best the plan is vague and incomplete. Very likely there's some undiscovered flaw that invalidates it completely. At best it's a plan for a plan.",
+      "zhMarkdown": "我想，到目前为止所说的这些应该不会有太大争议。任何尝试过写点有深度内容的人，应该都会感同身受。也许世上确实存在这样的人，他们的思想生来就如此完美，可以直接流淌成文字。但我从未见过这样的人。如果我遇到有人声称自己能做到，这反而证明了他的局限性，而不是他的能力。事实上，电影里经常有这样的桥段：某人声称自己有个搞定某件难事的计划，当被进一步追问时，他会指指自己的脑袋说：“都在这儿呢。”每个看电影的人都知道这意味着什么。这个计划充其量是模糊且不完整的，极有可能存在某种尚未发现的致命漏洞，使其完全失效。说得好听点，这只是一个关于计划的计划。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "b67e960a8c4bc59c1b8247b4a547f0def0e826e47d8f6fd7a9206fbfbcd7f38c",
+      "enMarkdown": "In precisely defined domains it's possible to form complete ideas in your head. People can play chess in their heads, for example. And mathematicians can do some amount of math in their heads, though they don't seem to feel sure of a proof over a certain length till they write it down. But this only seems possible with ideas you can express in a formal language. [[1](#f1n)] Arguably what such people are doing is putting ideas into words in their heads. I can to some extent write essays in my head. I'll sometimes think of a paragraph while walking or lying in bed that survives nearly unchanged in the final version. But really I'm writing when I do this. I'm doing the mental part of writing; my fingers just aren't moving as I do it. [[2](#f2n)]",
+      "zhMarkdown": "在定义精确的领域，确实可以在脑海中形成完整的想法。例如，人们可以在脑子里下棋。数学家也可以在脑子里做一定程度的推导，尽管如果证明超过了一定的长度，在写下来之前他们似乎也无法完全确定。但这似乎只适用于可以用形式语言表达的想法。[[1](#f1n)] 可以说，这些人是在脑子里把想法付诸文字。在某种程度上，我也可以在脑子里写文章。有时在散步或躺在床上时，我会想好一个段落，它几乎一字不改地保留到了最终版本中。但其实当我这么做时，我就是在写作。我正在完成写作中动脑筋的部分，只是手指没有动罢了。[[2](#f2n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "a70e5916a6ea7d3c5aa174986824bb776cf407f76a8183e812a94c8dcd1ce183",
+      "enMarkdown": "You can know a great deal about something without writing about it. Can you ever know so much that you wouldn't learn more from trying to explain what you know? I don't think so. I've written about at least two subjects I know well — Lisp hacking and startups — and in both cases I learned a lot from writing about them. In both cases there were things I didn't consciously realize till I had to explain them. And I don't think my experience was anomalous. A great deal of knowledge is unconscious, and experts have if anything a higher proportion of unconscious knowledge than beginners.",
+      "zhMarkdown": "你可以在不写文章的情况下对某件事了解极深。但是，你真的能了解得如此透彻，以至于无法通过尝试解释它来学到更多吗？我觉得不能。我写过至少两个我非常熟悉的领域——Lisp 黑客和创业公司——在这两个案例中，我都通过写作学到了很多。在这两个领域中，都有一些事情是我在必须把它们解释清楚之前，自己都没有意识到的。而且我不认为我的经历是个特例。大量的知识是无意识的，专家的无意识知识比例甚至比新手还要高。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "6c71e97b9f5f0fce456c444bf1422079e8ea413cbb930f238973c55dddb2eded",
+      "enMarkdown": "I'm not saying that writing is the best way to explore all ideas. If you have ideas about architecture, presumably the best way to explore them is to build actual buildings. What I'm saying is that however much you learn from exploring ideas in other ways, you'll still learn new things from writing about them.",
+      "zhMarkdown": "我并不是说写作是探索所有想法的最佳方式。如果你对建筑有想法，探索它们最好的方式显然是去建造真正的建筑。我想说的是，无论你通过其他方式探索想法学到了多少，通过把它们写下来，你依然能学到新的东西。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "6cb56d48ebe4fb5830ef8d0211a38d8810e892ae41bc7f53e2580cde79f60112",
+      "enMarkdown": "Putting ideas into words doesn't have to mean writing, of course. You can also do it the old way, by talking. But in my experience, writing is the stricter test. You have to commit to a single, optimal sequence of words. Less can go unsaid when you don't have tone of voice to carry meaning. And you can focus in a way that would seem excessive in conversation. I'll often spend 2 weeks on an essay and reread drafts 50 times. If you did that in conversation it would seem evidence of some kind of mental disorder. If you're lazy, of course, writing and talking are equally useless. But if you want to push yourself to get things right, writing is the steeper hill. [[3](#f3n)]",
+      "zhMarkdown": "当然，把想法付诸文字不一定非要通过写作。你也可以用传统的方式，通过交谈来实现。但在我的经验中，写作是更严格的考验。你必须致力于写出单一、最完美的词句顺序。当你没有语气来传递含义时，极少有东西能心照不宣。而且，你可以以一种在交谈中显得过分的方式去专注。我经常会花两周时间写一篇文章，并把草稿重读 50 遍。如果你在交谈中这么做，别人会觉得你精神有什么问题。当然，如果你很懒，写和说同样无用。但如果你想逼自己把事情理清楚，写作是那条更陡峭的山路。[[3](#f3n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d73503352a9c3e92ca5cfe709c683ff7ed4683237fa6a0306582447190c048c3",
+      "enMarkdown": "The reason I've spent so long establishing this rather obvious point is that it leads to another that many people will find shocking. If writing down your ideas always makes them more precise and more complete, then no one who hasn't written about a topic has fully formed ideas about it. And someone who never writes has no fully formed ideas about anything nontrivial.",
+      "zhMarkdown": "我之所以花这么大篇幅来阐明这个显而易见的观点，是因为它指向了另一个许多人会感到震惊的结论：如果写下想法总能让它们更精确、更完整，那么，任何没有写过某个主题的人，对该主题都没有形成真正成熟的想法。而一个从不写作的人，对任何复杂深刻的事情，都不会有真正成熟的想法。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "3e22599d2a4bb68f64a748315fc83c90c8513811ae3f4dd0388e0025e0a22e55",
+      "enMarkdown": "It feels to them as if they do, especially if they're not in the habit of critically examining their own thinking. Ideas can feel complete. It's only when you try to put them into words that you discover they're not. So if you never subject your ideas to that test, you'll not only never have fully formed ideas, but also never realize it.",
+      "zhMarkdown": "在他们自己看来，他们似乎是有的，尤其是当他们没有批判性审视自己思维的习惯时。想法很容易让人感觉是完整的。只有当你尝试把它们付诸文字时，你才会发现事实并非如此。因此，如果你从未让自己的想法接受这种检验，你不仅永远不会拥有成熟的想法，而且永远不会意识到这一点。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "3b694cba6b738c169dd5ca5c26a03c024909bbf7c6266ab687c55d9a06a909b5",
+      "enMarkdown": "Putting ideas into words is certainly no guarantee that they'll be right. Far from it. But though it's not a sufficient condition, it is a necessary one.",
+      "zhMarkdown": "把想法落笔成文当然不能保证它们一定是正确的。远非如此。但这虽然不是充分条件，却是一个必要条件。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "b27aeb7aa804165fdaebb4a52ef6fac21b8c129b79390a6eb3b20365f1ba81c9",
+      "enMarkdown": "[1] Machinery and circuits are formal languages.",
+      "zhMarkdown": "[1] 机械和电路也是形式语言。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "527fa9abfa419adcead6e4f420b5482142c7dadddcdee8924cfdfe5497456cdb",
+      "enMarkdown": "[2] I thought of this sentence as I was walking down the street in Palo Alto.",
+      "zhMarkdown": "[2] 我在帕罗奥图（Palo Alto）街上散步时想到了这句话。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "fba9118a7a7f7eaadb45baabba3bc4b480559ba52a6cf6f0409fd2e1ddbe0c5e",
+      "enMarkdown": "[3] There are two senses of talking to someone: a strict sense in which the conversation is verbal, and a more general sense in which it can take any form, including writing. In the limit case (e.g. Seneca's letters), conversation in the latter sense becomes essay writing.",
+      "zhMarkdown": "[3] “与某人交谈”有两种含义：狭义上是指口头对话，广义上可以指任何形式的交流，包括写作。在极限情况下（例如塞涅卡的信件），后一种意义上的交谈就变成了写文章。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "a2e9061ce6d28c7d29303042fa2d37f4fe79b182ddef5ce28858434e7dbf3c00",
+      "enMarkdown": "It can be very useful to talk (in either sense) with other people as you're writing something. But a verbal conversation will never be more exacting than when you're talking about something you're writing.",
+      "zhMarkdown": "在写作时，与他人交流（无论哪种意义上的交谈）都会非常有帮助。但是，口头交谈的严谨程度，永远比不上你针对自己正在写的内容进行讨论。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "92223212e2be87f2896a61aff4ab353ef5ab76f688c82549ac9fd40061a1f40f",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Patrick Collison, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Patrick Collison 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

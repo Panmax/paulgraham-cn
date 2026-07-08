@@ -1,0 +1,118 @@
+{
+  "slug": "field",
+  "titleEn": "The Shape of the Essay Field",
+  "titleZh": "文章领域的格局",
+  "dateText": "June 2025",
+  "publishedAt": "2025-06-01",
+  "sourceOrder": 6,
+  "sourceUrl": "https://paulgraham.com/field.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ac1fd743060f4f8a075570c1fe9bb561440e1c3c09aec290a7a31802b36a0c05",
+      "enMarkdown": "An essay has to tell people something they don't already know. But there are three different reasons people might not know something, and they yield three very different kinds of essays.",
+      "zhMarkdown": "一篇文章必须告诉人们一些他们还不知道的事情。但是，人们之所以不知道某件事，有三种不同的原因，这也催生了三种截然不同的文章类型。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "58ef26090394ac99a46d583fae53d1e82f0e734b7bafc61bf35875b4bfba56f6",
+      "enMarkdown": "One reason people won't know something is if it's not important to know. That doesn't mean it will make a bad essay. For example, you might write a good essay about a particular model of car. Readers would learn something from it. It would add to their picture of the world. For a handful of readers it might even spur some kind of epiphany. But unless this is a very unusual car it's not critical for everyone to know about it. [[1](#f1n)]",
+      "zhMarkdown": "人们不知道某件事的第一个原因，是这件事并不重要。但这并不意味着它写不成一篇好文章。例如，你可以写一篇关于某款特定车型的好文章。读者能从中有所收获，丰富他们对世界的认知。对少数读者来说，它甚至可能激发某种顿悟。但除非这是一辆极其罕见的汽车，否则对大多数人来说，了解它并不是什么紧要的事。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d161f164bb2109020d22a1743fa951c5355e6e47064df7cc473767d996bd5aa3",
+      "enMarkdown": "If something isn't important to know, there's no answer to the question of why people don't know it. Not knowing random facts is the default. But if you're going to write about things that *are* important to know, you have to ask why your readers don't already know them. Is it because they're inexperienced, or because they're obtuse?",
+      "zhMarkdown": "如果一件事并不重要，那么“人们为什么不知道它”这个问题就无需解答。对随机的琐碎事实一无所知是常态。但如果你打算写一些*确实*重要的事情，你就必须问自己：为什么你的读者现在还不知道这些？是因为他们缺乏经验，还是因为他们愚钝？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "11a1af039ad5b2d7b3379d6301993d50d85457f59dc232af2b0e5c99d9186018",
+      "enMarkdown": "So the three reasons readers might not already know what you tell them are (a) that it's not important, (b) that they're obtuse, or (c) that they're inexperienced.",
+      "zhMarkdown": "因此，读者还没掌握你所讲内容的三种原因分别是：（a）它不重要，（b）他们愚钝，或者（c）他们缺乏经验。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f04a9322f5cc9c215a794e0a6e8c77c4d4b4460aa6d81a27a0893a54f17e85ab",
+      "enMarkdown": "The reason I did this breakdown was to get at the following fact, which might have seemed controversial if I'd led with it, but should be obvious now. If you're writing for smart people about important things, you're writing for the young.",
+      "zhMarkdown": "我之所以做这个分类，是为了引出下面这个事实。如果我一开始就抛出这个观点，可能会引起争议，但现在想来应该是不言自明的：如果你是在为聪明人写重要的事，那你就是在为年轻人写作。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ac1d8cd3f1b52b46291da2471f6d36011f6c8d8fd9235f462e9c99b3238a06b8",
+      "enMarkdown": "Or more precisely, that's where you'll have the most effect. Whatever you say should also be at least somewhat novel to you, however old you are. It's not an essay otherwise, because an essay is something you write to figure something out. But whatever you figure out will presumably be more of a surprise to younger readers than it is to you.",
+      "zhMarkdown": "更准确地说，在年轻人身上，你的文章能发挥最大的影响力。无论你多大年纪，你所写的内容对你自己来说也应该至少带有一点新意。否则它就称不上是一篇文章，因为写文章本身就是为了想通某件事。但无论你想通了什么，对年轻读者的启发，想必都会大过对你自己的启发。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "a921e1ffa9e7cb44b98882eebe61437bf5410c7084520e289fa157b273d38c25",
+      "enMarkdown": "There's a continuum of surprise. At one extreme, something you read can change your whole way of thinking. *The Selfish Gene* did this to me. It was like suddenly seeing the other interpretation of an ambiguous image: you can treat genes rather than organisms as the protagonists, and evolution becomes easier to understand when you do. At the other extreme, writing merely puts into words something readers were already thinking — or thought they were.",
+      "zhMarkdown": "启发的程度是一个连续的光谱。在光谱的一端，你读到的东西能彻底改变你的思维方式。理查德·道金斯的《自私的基因》对我来说就是如此。那感觉就像是突然看懂了一张双关图的另一层含义：你可以把基因而不是生物体视为主角，这样一来，进化就变得更容易理解了。而在光谱的另一端，文章仅仅是用文字表达出了读者已经在思考、或者自以为在思考的内容。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2e172f7cf34e59b8ed60be09eeb68def7e84c869715b7b82b6f7d8bcd96a7c39",
+      "enMarkdown": "The impact of an essay is how much it changes readers' thinking multiplied by the importance of the topic. But it's hard to do well at both. It's hard to have big new ideas about important topics. So in practice there's a tradeoff: you can change readers' thinking a lot about moderately important things, or change it a little about very important ones. But with younger readers the tradeoff shifts. There's more room to change their thinking, so there's a bigger payoff for writing about important things.",
+      "zhMarkdown": "一篇文章的影响力，等于它对读者思维方式的改变程度乘以该主题的重要性。但这两者很难兼得。在重要主题上产生重大的新想法是非常困难的。因此在实践中存在一种权衡：你要么在不那么重要的事情上极大地改变读者的想法，要么在极其重要的事情上稍微改变一点他们的想法。但对于年轻读者来说，这种权衡发生了变化。他们的思维还有很大的改变空间，因此在重要主题上写作，能带来更大的回报。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "30dd26add4627deed2dc32eb66704f69d3303f9f97c1f61a9e7aa977f5f1be04",
+      "enMarkdown": "The tradeoff isn't a conscious one, at least not for me. It's more like a kind of gravitational field that writers work in. But every essayist works in it, whether they realize it or not.",
+      "zhMarkdown": "这种权衡并非刻意为之，至少对我来说不是。它更像是作家在其中创作的一种引力场。但无论是否意识到，每一位写作者都在这个引力场中工作。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "ad14dc18785e6db66592afdc28ca3b4d835ad149f20cf35e8e39b430c2ef3db0",
+      "enMarkdown": "This seems obvious once you state it, but it took me a long time to understand. I knew I wanted to write for smart people about important topics. I noticed empirically that I seemed to be writing for the young. But it took me years to understand that the latter was an automatic consequence of the former. In fact I only really figured it out as I was writing this essay.",
+      "zhMarkdown": "这个道理一旦说破就显得显而易见，但我花了很长时间才真正明白。我一直知道自己想为聪明人写重要的话题。我也从经验中注意到，自己的读者似乎大多是年轻人。但我花了很多年才明白，后者正是前者的必然结果。事实上，我是在写这篇文章的过程中，才真正把这件事想明白的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "8aeb695c861bfb59d95a8ecf90030fe50b26a41b8684eedda84e3e25dfe5342b",
+      "enMarkdown": "Now that I know it, should I change anything? I don't think so. In fact seeing the shape of the field that writers work in has reminded me that I'm not optimizing for returns in it. I'm not trying to surprise readers of any particular age; I'm trying to surprise myself.",
+      "zhMarkdown": "既然我现在明白了这一点，我该做出改变吗？我觉得不必。事实上，看清了写作者所处的领域格局，反而提醒了我，我追求的并不是在这个领域里的投资回报。我并不是为了给某个特定年龄段的读者带来惊喜，我写文章是为了给自己带来惊喜。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "3a6be7a5ad7c2bb96c23451aeb5947cba5547cc8002e496e2f46e888252c91e0",
+      "enMarkdown": "The way I usually decide what to write about is by following curiosity. I notice something new and dig into it. It would probably be a mistake to change that. But seeing the shape of the essay field has set me thinking. What would surprise young readers? Which important things do people tend to learn late? Interesting question. I should think about that.",
+      "zhMarkdown": "我通常决定写什么的方式是跟随好奇心。我注意到一些新事物，然后深入钻研。改变这一点可能是一个错误。但看清了文章领域的格局后，引发了我的思考：什么会给年轻读者带来惊喜？有哪些重要的事情是人们往往很晚才学到的？这是个有趣的问题。我应该好好想想。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "cb2e4b1e444af938e956fc80ac4de558fd2034bccd29a37e568660d19be8a971",
+      "enMarkdown": "**Note**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d01d83a55f8a18a07cfaf9be92160de8be50f92923dc817a3d881a2d55f45f32",
+      "enMarkdown": "[1] It's hard to write a really good essay about an unimportant topic, though, because a really good essayist will inevitably draw the topic into deeper waters. E. B. White could write an essay about how to boil potatoes that ended up being full of timeless wisdom. In which case, of course, it wouldn't really be about how to boil potatoes; that would just have been the starting point.",
+      "zhMarkdown": "[1] 不过，要针对一个不重要的话题写出一篇真正优秀的文章是很困难的，因为一个真正优秀的作家不可避免地会将话题引向更深的层面。比如，E·B·怀特可以写一篇关于如何煮土豆的文章，却在字里行间充满了永恒的智慧。在这种情况下，文章当然不是真的在讲如何煮土豆，那不过是一个切入点罢了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "22e05e74cb815cffd7bf8534e9fbb2de0d0d44aa945dab5fb16d576d58f613d7",
+      "enMarkdown": "**Thanks** to Jessica Livingston and Michael Nielsen for reading drafts of this.",
+      "zhMarkdown": "**感谢** Jessica Livingston 和 Michael Nielsen 阅读了本文的草稿。"
+    }
+  ]
+}

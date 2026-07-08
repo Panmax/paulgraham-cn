@@ -1,0 +1,167 @@
+{
+  "slug": "smart",
+  "titleEn": "Beyond Smart",
+  "titleZh": "超越聪明",
+  "dateText": "October 2021",
+  "publishedAt": "2021-10-01",
+  "sourceOrder": 26,
+  "sourceUrl": "https://paulgraham.com/smart.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "8f4939584c37aa76f8ee83ff28458b4b10e11bdbbbc9ccb5455318cfd1b116fb",
+      "enMarkdown": "If you asked people what was special about Einstein, most would say that he was really smart. Even the ones who tried to give you a more sophisticated-sounding answer would probably think this first. Till a few years ago I would have given the same answer myself. But that wasn't what was special about Einstein. What was special about him was that he had important new ideas. Being very smart was a necessary precondition for having those ideas, but the two are not identical.",
+      "zhMarkdown": "如果你问大家爱因斯坦有什么特别之处，大多数人会说他非常聪明。即使是那些试图给出听上去更深奥答案的人，脑子里冒出的第一个想法大概也是这个。直到几年前，我自己也会给出同样的答案。但那并不是爱因斯坦的特别之处。他的特别之处在于，他提出了重要的新想法。非常聪明是产生这些想法的必要前提，但两者并不能画等号。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "b7e9c5536d8e7ae8d58736fc00d8119d669a35c25d5bb269dc81fdf920b971f7",
+      "enMarkdown": "It may seem a hair-splitting distinction to point out that intelligence and its consequences are not identical, but it isn't. There's a big gap between them. Anyone who's spent time around universities and research labs knows how big. There are a lot of genuinely smart people who don't achieve very much.",
+      "zhMarkdown": "指出智力与其产生的成果并非同一回事，这看似是在抠字眼，但其实不然。两者之间存在着巨大的鸿沟。任何在大学和研究机构待过的人都知道这个鸿沟有多大。有太多真正聪明的人，最终却并没有取得什么成就。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "db8ba477cbec2845d4dbab0057fd4194e222a983c2237ed03d86970789362d46",
+      "enMarkdown": "I grew up thinking that being smart was the thing most to be desired. Perhaps you did too. But I bet it's not what you really want. Imagine you had a choice between being really smart but discovering nothing new, and being less smart but discovering lots of new ideas. Surely you'd take the latter. I would. The choice makes me uncomfortable, but when you see the two options laid out explicitly like that, it's obvious which is better.",
+      "zhMarkdown": "我从小到大都觉得，聪明是最让人向往的东西。也许你也是这样。但我敢打赌，这并不是你真正想要的。想象一下，如果让你在两个选项中做选择：一个是极其聪明却没有任何新发现，另一个是没那么聪明却能发现许多新想法。你肯定会选后者。我也会。这个选择让我有点不舒服，但当你把这两个选项如此直白地摆在面前时，哪一个更好是显而易见的。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "0dbe07644ba86f80727f53881fa8f736d6d76fdba1352705a0a31750dc9284e4",
+      "enMarkdown": "The reason the choice makes me uncomfortable is that being smart still feels like the thing that matters, even though I know intellectually that it isn't. I spent so many years thinking it was. The circumstances of childhood are a perfect storm for fostering this illusion. Intelligence is much easier to measure than the value of new ideas, and you're constantly being judged by it. Whereas even the kids who will ultimately discover new things aren't usually discovering them yet. For kids that way inclined, intelligence is the only game in town.",
+      "zhMarkdown": "这个选择之所以让我感到不舒服，是因为在潜意识里，“聪明”似乎依然是唯一重要的东西，尽管在理智上我知道事实并非如此。毕竟我有太多年的时间都是这么认为的。童年时期的环境简直是滋生这种错觉的完美温床。智力比新想法的价值要容易衡量得多，而且你时刻都在接受基于智力的评判。相比之下，即使是那些最终会发现新事物的孩子，在小时候通常也还没开始有什么新发现。对于有这种天赋的孩子来说，拼智力是当时唯一的游戏规则。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "52993e24564c526f0333552b63aac99b4fa11a6c64e31a438d3ce362a78f68e5",
+      "enMarkdown": "There are more subtle reasons too, which persist long into adulthood. Intelligence wins in conversation, and thus becomes the basis of the dominance hierarchy. [[1](#f1n)] Plus having new ideas is such a new thing historically, and even now done by so few people, that society hasn't yet assimilated the fact that this is the actual destination, and intelligence merely a means to an end. [[2](#f2n)]",
+      "zhMarkdown": "还有一些更微妙的原因，它们会一直持续到成年以后。在交谈中，聪明的人往往占上风，并因此成为支配地位阶层（dominance hierarchy）的基础。[[1](#f1n)] 此外，在历史上，产生新想法是一件非常新鲜的事，而且直到现在也只有极少数人能做到，以至于社会还没有完全消化一个事实：产生新想法才是真正的终点，而智力仅仅是实现这一终点的手段。[[2](#f2n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "27602cf63f54d6762432fc19ebefadd5eff1d4b6bfea98fd5077174f3d44748f",
+      "enMarkdown": "Why do so many smart people fail to discover anything new? Viewed from that direction, the question seems a rather depressing one. But there's another way to look at it that's not just more optimistic, but more interesting as well. Clearly intelligence is not the only ingredient in having new ideas. What are the other ingredients? Are they things we could cultivate?",
+      "zhMarkdown": "为什么这么多聪明人却无法发现任何新东西？从这个角度来看，问题似乎有些令人沮丧。但还有另一种看待它的方式，不仅更乐观，也更有趣。显然，智力并不是产生新想法的唯一要素。那么其他要素是什么？这些要素是我们可以培养的吗？"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "a924d456dc9b349574fbd6e770b09d37f4ec9bcf45c9ae677b185ccbe41cdcdd",
+      "enMarkdown": "Because the trouble with intelligence, they say, is that it's mostly inborn. The evidence for this seems fairly convincing, especially considering that most of us don't want it to be true, and the evidence thus has to face a stiff headwind. But I'm not going to get into that question here, because it's the other ingredients in new ideas that I care about, and it's clear that many of them can be cultivated.",
+      "zhMarkdown": "因为人们常说，智力的麻烦之处在于它主要是天生的。这方面的证据似乎相当有说服力，尤其是考虑到我们大多数人并不希望这是真的，因此这些证据必须顶着巨大的舆论阻力。但我在这里不打算讨论这个问题，因为我关心的是产生新想法的其他要素，而且很明显，其中许多要素都是可以后天培养的。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2622f8f46bfbac7c8ce785de66862a780a1af5b7c85581678ca049d54c67bfee",
+      "enMarkdown": "That means the truth is excitingly different from the story I got as a kid. If intelligence is what matters, and also mostly inborn, the natural consequence is a sort of *Brave New World* fatalism. The best you can do is figure out what sort of work you have an \"aptitude\" for, so that whatever intelligence you were born with will at least be put to the best use, and then work as hard as you can at it. Whereas if intelligence isn't what matters, but only one of several ingredients in what does, and many of those aren't inborn, things get more interesting. You have a lot more control, but the problem of how to arrange your life becomes that much more complicated.",
+      "zhMarkdown": "这意味着，事实与我小时候听到的故事有着令人兴奋的差异。如果智力是唯一重要的东西，而且又大体上是天生的，那么自然而然就会导向一种类似《美丽新世界》式的宿命论。你唯一能做的就是找出自己对什么工作有“天赋”，从而让你天生的智力至少能发挥出最大的用处，然后尽可能努力地去工作。相反，如果智力不是唯一重要的东西，而只是众多要素之一，且其中许多要素并非天生，事情就变得有趣多了。你拥有了多得多的控制权，但如何安排自己人生的这一问题也随之变得复杂得多。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "2575d2d4d034b4ba413f1b68b4a7178147a27701cd885e6a244f9ec3869e7d53",
+      "enMarkdown": "So what are the other ingredients in having new ideas? The fact that I can even ask this question proves the point I raised earlier — that society hasn't assimilated the fact that it's this and not intelligence that matters. Otherwise we'd all know the answers to such a fundamental question. [[3](#f3n)]",
+      "zhMarkdown": "那么，产生新想法的其他要素是什么呢？我居然能提出这个问题，本身就证明了我前面提到的观点——社会还没有消化“新想法比智力更重要”这一事实。否则，面对如此基本的问题，我们早就应该知道答案了。[[3](#f3n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "78992ca8b19bab0e68d308200278190b47cdfc80e3cab2fe0db692bf07214b3e",
+      "enMarkdown": "I'm not going to try to provide a complete catalogue of the other ingredients here. This is the first time I've posed the question to myself this way, and I think it may take a while to answer. But I wrote recently about one of the most important: an obsessive [interest](https://paulgraham.com/genius.html) in a particular topic. And this can definitely be cultivated.",
+      "zhMarkdown": "我不打算在这里列出一份关于其他要素的完整清单。这是我第一次以这种方式向自己提出这个问题，我想可能需要一段时间才能找到答案。但我最近写过其中最重要的一点：对特定主题近乎痴迷的[兴趣](https://paulgraham.com/genius.html)。而这一点绝对是可以后天培养的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "bd4d7afe5541580727a8711cc92bf182c7940fcb04af9314cc3dcc3053554728",
+      "enMarkdown": "Another quality you need in order to discover new ideas is [independent-mindedness](https://paulgraham.com/think.html). I wouldn't want to claim that this is distinct from intelligence — I'd be reluctant to call someone smart who wasn't independent-minded — but though largely inborn, this quality seems to be something that can be cultivated to some extent.",
+      "zhMarkdown": "发现新想法所需的另一个品质是[独立思考的能力](https://paulgraham.com/think.html)。我不想声称这与智力是截然分开的——我很难把一个缺乏独立思考能力的人称为聪明人——但尽管这在很大程度上是天生的，但这种品质似乎在一定程度上也是可以后天培养的。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ccd80f60d413b12659ef960efe592f5b652e1a3f9d20d97ecbce2028de9afc20",
+      "enMarkdown": "There are general techniques for having new ideas — for example, for working on your own [projects](https://paulgraham.com/own.html) and for overcoming the obstacles you face with [early](https://paulgraham.com/early.html) work — and these can all be learned. Some of them can be learned by societies. And there are also collections of techniques for generating specific types of new ideas, like [startup ideas](https://paulgraham.com/startupideas.html) and [essay topics](https://paulgraham.com/essay.html).",
+      "zhMarkdown": "产生新想法是有通用技巧的——例如，如何开展你自己的[项目](https://paulgraham.com/own.html)，以及如何克服在[早期](https://paulgraham.com/early.html)工作中遇到的障碍——这些都是可以学习的。其中一些甚至可以被整个社会所学习。此外，还有许多用于产生特定类型新想法的技巧集，比如[创业点子](https://paulgraham.com/startupideas.html)和[文章选题](https://paulgraham.com/essay.html)。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "5fc2ef31b1b931b183aec270126b78c956a7571479f9c0786e3fb714e0896769",
+      "enMarkdown": "And of course there are a lot of fairly mundane ingredients in discovering new ideas, like [working hard](https://paulgraham.com/hwh.html), getting enough sleep, avoiding certain kinds of stress, having the right colleagues, and finding tricks for working on what you want even when it's not what you're supposed to be working on. Anything that prevents people from doing great work has an inverse that helps them to. And this class of ingredients is not as boring as it might seem at first. For example, having new ideas is generally associated with youth. But perhaps it's not youth per se that yields new ideas, but specific things that come with youth, like good health and lack of responsibilities. Investigating this might lead to strategies that will help people of any age to have better ideas.",
+      "zhMarkdown": "当然，发现新想法还有许多相当平凡的要素，比如[努力工作](https://paulgraham.com/hwh.html)、保证充足的睡眠、避免某些类型的压力、拥有合适的同事，以及找到一些诀窍，让自己即使在不该做某事的时候也能专注于自己想做的事。任何阻碍人们做出伟大工作的因素，其反面就是促进工作的要素。而且这一类要素并没有乍看之下那么无聊。例如，产生新想法通常与年轻联系在一起。但也许并不是年轻本身带来了新想法，而是年轻所伴随的具体事物，比如身体健康和没有负担。对这一点进行探究，可能会带来帮助任何年龄段的人产生更好想法的策略。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d3fb4f9fef44f4e8e696b1384ae97c5e2fb676dd4dadccb92af15f5d91eccc98",
+      "enMarkdown": "One of the most surprising ingredients in having new ideas is writing ability. There's a class of new ideas that are best discovered by writing essays and books. And that \"by\" is deliberate: you don't think of the ideas first, and then merely write them down. There is a kind of thinking that one does by writing, and if you're clumsy at writing, or don't enjoy doing it, that will get in your way if you try to do this kind of thinking. [[4](#f4n)]",
+      "zhMarkdown": "在产生新想法的要素中，最令人意外的之一是写作能力。有一类新想法，最好是通过撰写文章和书籍来发现。我用“通过”这个词是刻意为之的：你并不是先想好了想法，然后仅仅把它们写下来。有一种思考是必须通过写作来进行的，如果你不擅长写作，或者不喜欢写作，那么当你试图进行这种思考时，写作就会成为你的绊脚石。[[4](#f4n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "28d0278544b66944835b55799f71147c84ece1db4c44d3e05aaa7b764e658925",
+      "enMarkdown": "I predict the gap between intelligence and new ideas will turn out to be an interesting place. If we think of this gap merely as a measure of unrealized potential, it becomes a sort of wasteland that we try to hurry through with our eyes averted. But if we flip the question, and start inquiring into the other ingredients in new ideas that it implies must exist, we can mine this gap for discoveries about discovery.",
+      "zhMarkdown": "我预言，智力与新想法之间的差距将是一个非常有趣的研究领域。如果我们仅仅把这种差距看作是未实现的潜力的度量，它就会变成一片荒原，让我们只想闭上眼睛匆匆走过。但如果我们转换问题，开始探究这意味着必然存在的、产生新想法的其他要素，我们就可以在这片差距中挖掘关于“发现”的发现。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "908d95d72c29f086277a3b26542a53c23c864cc2064c51d57d4b443092116016",
+      "enMarkdown": "[1] What wins in conversation depends on who with. It ranges from mere aggressiveness at the bottom, through quick-wittedness in the middle, to something closer to actual intelligence at the top, though probably always with some component of quick-wittedness.",
+      "zhMarkdown": "[1] 在交谈中什么能赢，取决于交谈的对象。在社会底层，它表现为单纯的咄咄逼人；在中间层，它表现为机智敏捷；在顶层，它更接近于真正的智力，尽管可能总是包含着某种机智敏捷的成分。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "24a8f7f65cc6b5f1790286b2324acdda53f3b6a7eb66ba702d8cffcfa39c8f91",
+      "enMarkdown": "[2] Just as intelligence isn't the only ingredient in having new ideas, having new ideas isn't the only thing intelligence is useful for. It's also useful, for example, in diagnosing problems and figuring out how to fix them. Both overlap with having new ideas, but both have an end that doesn't.",
+      "zhMarkdown": "[2] 正如智力不是产生新想法的唯一要素一样，产生新想法也不是智力唯一的用武之地。例如，智力在诊断问题和寻找解决办法时也很有用。这两者都与产生新想法有重合之处，但两者的终点都有不重合的部分。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "b2e244fcf711dd972a1e64cd2a5b5a8fc802609efabef73dfe7bade477a50c8f",
+      "enMarkdown": "Those ways of using intelligence are much more common than having new ideas. And in such cases intelligence is even harder to distinguish from its consequences.",
+      "zhMarkdown": "这些使用智力的方式比产生新想法要普遍得多。在这些情况下，智力就更难与其产生的成果区分开来。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "69825641a15591b3f1d7d3c2ff22aee95f35ad80a9e3b9d5462049b3a3c30d68",
+      "enMarkdown": "[3] Some would attribute the difference between intelligence and having new ideas to \"creativity,\" but this doesn't seem a very useful term. As well as being pretty vague, it's shifted half a frame sideways from what we care about: it's neither separable from intelligence, nor responsible for all the difference between intelligence and having new ideas.",
+      "zhMarkdown": "[3] 有些人会将智力与产生新想法之间的差异归结为“创造力”，但这似乎并不是一个非常有用的词。除了概念相当模糊之外，它还偏离了我们所关心的核心：它既无法与智力剥离开来，也无法解释智力与产生新想法之间的全部差异。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "d382825b1023fc76235c15575395a1c378053f889e77f851ec987b72baca00cf",
+      "enMarkdown": "[4] Curiously enough, this essay is an example. It started out as an essay about writing ability. But when I came to the distinction between intelligence and having new ideas, that seemed so much more important that I turned the original essay inside out, making that the topic and my original topic one of the points in it. As in many other fields, that level of reworking is easier to contemplate once you've had a lot of practice.",
+      "zhMarkdown": "[4] 妙的是，这篇文章本身就是一个例子。它原本是一篇关于写作能力的文章。但当我谈到智力与产生新想法的区别时，这似乎显得重要得多，以至于我把原来的文章做了一个底朝天的重组，将这个区别作为主题，而把我原本的主题降为了其中的一个论点。就像在许多其他领域一样，一旦你有了大量的实践，这种程度的重构就会变得更容易接受。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "7a2cd8a2f2a39cacc6cb1069b098bf477f6264dbaf75e7b6daf7009d5835cb40",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Patrick Collison, Jessica Livingston, Robert Morris, Michael Nielsen, and Lisa Randall for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Patrick Collison、Jessica Livingston、Robert Morris、Michael Nielsen 和 Lisa Randall 阅读了本书的草稿。"
+    }
+  ]
+}

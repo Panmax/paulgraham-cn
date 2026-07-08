@@ -1,0 +1,349 @@
+{
+  "slug": "disagree",
+  "titleEn": "How to Disagree",
+  "titleZh": "如何反驳",
+  "dateText": "March 2008",
+  "publishedAt": "2008-03-01",
+  "sourceOrder": 140,
+  "sourceUrl": "https://paulgraham.com/disagree.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ea1eb0236525d4405fc93b30ca83bbf1ec4b824f7c4129139ce6a895287f64ce",
+      "enMarkdown": "The web is turning writing into a conversation. Twenty years ago, writers wrote and readers read. The web lets readers respond, and increasingly they do—in comment threads, on forums, and in their own blog posts.",
+      "zhMarkdown": "互联网正在把写作变成一场对话。二十年前，作者写，读者读。而现在，互联网让读者能够做出回应，而且他们也越来越多地这么做——在评论区、论坛，以及他们自己的博客文章里。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "9c3ac995db2ce8f78793e502a71a7860330926313874a8f819a9136d03cab9eb",
+      "enMarkdown": "Many who respond to something disagree with it. That's to be expected. Agreeing tends to motivate people less than disagreeing. And when you agree there's less to say. You could expand on something the author said, but he has probably already explored the most interesting implications. When you disagree you're entering territory he may not have explored.",
+      "zhMarkdown": "在这些回应中，许多都是反对意见。这很正常。相比赞同，反对往往更能激发人们表达的欲望。而且，当你赞同某人时，能说的话其实不多。你固然可以对作者的观点进行延伸，但他可能已经把最有趣的意思阐述完了。而当你反对时，你是在进入他可能尚未涉足的领域。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ce47eaaf6b16152568e04fe099e21d3c0ed90120aa48a975b2baddd85b4750b5",
+      "enMarkdown": "The result is there's a lot more disagreeing going on, especially measured by the word. That doesn't mean people are getting angrier. The structural change in the way we communicate is enough to account for it. But though it's not anger that's driving the increase in disagreement, there's a danger that the increase in disagreement will make people angrier. Particularly online, where it's easy to say things you'd never say face to face.",
+      "zhMarkdown": "结果就是，现在的反对声音多得多，尤其是从字数上来看。这并不意味着人们变得更易怒了。我们交流方式的结构性变化足以解释这一现象。然而，尽管反对声音的增加并非源于愤怒，但这种增加却有可能让人变得更容易动怒。特别是在网上，人们很容易说出一些在现实中绝不会当面说的话。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "65be706fd0d6e4af4a9754d8fd72a0cd964352b8657accc97df0baf03eaef71e",
+      "enMarkdown": "If we're all going to be disagreeing more, we should be careful to do it well. What does it mean to disagree well? Most readers can tell the difference between mere name-calling and a carefully reasoned refutation, but I think it would help to put names on the intermediate stages. So here's an attempt at a disagreement hierarchy:",
+      "zhMarkdown": "既然我们不可避免地会产生更多分歧，就必须注意如何体面地表达反对。体面地反驳意味着什么？大多数读者都能区分出单纯的辱骂和深思熟虑的反驳，但我认为，给这中间的各个阶段定个名称会大有裨益。因此，以下是我对反驳层级的一个尝试："
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d9da123bcb5422e3ceaf664f522704732c8beb9f798c56773ce0aebccf69dd58",
+      "enMarkdown": "**DH0. Name-calling.**",
+      "zhMarkdown": "**DH0. 辱骂（Name-calling）。**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "73cc00471d356e6bbc72534b917d0cae2b3cebc98c9376f429ab13bea4f9fd14",
+      "enMarkdown": "This is the lowest form of disagreement, and probably also the most common. We've all seen comments like this:",
+      "zhMarkdown": "这是最低级别的反驳，可能也是最常见的一种。我们都见过类似这样的评论："
+    },
+    {
+      "id": 7,
+      "type": "quote",
+      "sourceHash": "ec89732365f12b62ea47fb342894a2c081edbbb6b15f42791d1f5f22f9e3f338",
+      "enMarkdown": "> u r a fag!!!!!!!!!!",
+      "zhMarkdown": "> 你这个傻X！！！！！！！！"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "55cb5d49cfc02c830449f609dda25bb90c5826e8112a301972c59c19dede0c84",
+      "enMarkdown": "But it's important to realize that more articulate name-calling has just as little weight. A comment like",
+      "zhMarkdown": "但必须认识到，措辞更文雅的辱骂同样毫无分量。比如这样一条评论："
+    },
+    {
+      "id": 9,
+      "type": "quote",
+      "sourceHash": "9767030e0fe3c1b89c30a44875b59415e06b64c5b4f978937a822e7380c6ad6a",
+      "enMarkdown": "> The author is a self-important dilettante.",
+      "zhMarkdown": "> 作者是个自命不凡的半吊子。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "cf4143918824e7b9ed8a160bf5d925a6f5ca02a1b76cb5871143f5d6b17bc0e8",
+      "enMarkdown": "is really nothing more than a pretentious version of \"u r a fag.\"",
+      "zhMarkdown": "其实不过是“你这个傻X”的装腔作势版。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "993672fcae2bce0d7b18401cd5c29faa4a3825541626fca8d7de4390cb5f2056",
+      "enMarkdown": "**DH1. Ad Hominem.**",
+      "zhMarkdown": "**DH1. 人身攻击（Ad Hominem）。**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "377330572b65d13c8d6bfe4f586d9319ed2f18131251d44e427718a7c2ed1626",
+      "enMarkdown": "An ad hominem attack is not quite as weak as mere name-calling. It might actually carry some weight. For example, if a senator wrote an article saying senators' salaries should be increased, one could respond:",
+      "zhMarkdown": "人身攻击比单纯的辱骂稍微强一点，它可能确实带有某种分量。例如，如果一位参议员写文章说应该提高参议员的薪水，有人可能会这样回应："
+    },
+    {
+      "id": 13,
+      "type": "quote",
+      "sourceHash": "a0531c38c736ac013ea2f1d794d04d6fd61b555e9d090571a32475b4bc41e95a",
+      "enMarkdown": "> Of course he would say that. He's a senator.",
+      "zhMarkdown": "> 他当然会这么说。因为他自己就是参议员。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a5dff054129e8b916b36108b5539d833717640b0a73024ef4ad42144caf7dc8d",
+      "enMarkdown": "This wouldn't refute the author's argument, but it may at least be relevant to the case. It's still a very weak form of disagreement, though. If there's something wrong with the senator's argument, you should say what it is; and if there isn't, what difference does it make that he's a senator?",
+      "zhMarkdown": "这并没有驳倒作者的论证，但至少与主题相关。不过，这仍然是一种非常微弱的反驳方式。如果这位参议员的论证有什么漏洞，你应该指出来；如果没有，那么他是不是参议员又有什么关系呢？"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5e62cceee9e4b815214aa4930f32086a5d7447d506b0cfbac2cb1edac3e2c95b",
+      "enMarkdown": "Saying that an author lacks the authority to write about a topic is a variant of ad hominem—and a particularly useless sort, because good ideas often come from outsiders. The question is whether the author is correct or not. If his lack of authority caused him to make mistakes, point those out. And if it didn't, it's not a problem.",
+      "zhMarkdown": "声称作者缺乏谈论某个话题的权威，是人身攻击的一种变体——而且是特别无用的一种，因为好想法往往来自局外人。问题的关键在于作者说得对不对。如果他缺乏权威导致他犯了错，那就指出这些错误。如果没有犯错，那缺乏权威就根本不是问题。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "1e24237702684de928e98ffb427ebe122e166b80692479ce47a02c1db17a5d30",
+      "enMarkdown": "**DH2. Responding to Tone.**",
+      "zhMarkdown": "**DH2. 针对语气（Responding to Tone）。**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4c80aa88246273ffc646c6c3d326c2f448473f90f19f01d4069fe72438264f9c",
+      "enMarkdown": "The next level up we start to see responses to the writing, rather than the writer. The lowest form of these is to disagree with the author's tone. E.g.",
+      "zhMarkdown": "再往上一层，我们开始看到针对文章本身而非作者本人的回应。其中最低级的形式是反对作者的语气。例如："
+    },
+    {
+      "id": 18,
+      "type": "quote",
+      "sourceHash": "3c1eba0055733ba381b668791927e6c653e36124c324d0488d25b42fba21b139",
+      "enMarkdown": "> I can't believe the author dismisses intelligent design in such a cavalier fashion.",
+      "zhMarkdown": "> 我真不敢相信作者竟然用如此轻率的态度来否定智能设计论。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "3700d69d5d82b88fd5f34c40af953a94136e6bbf4dd1c97ae38254607447bd77",
+      "enMarkdown": "Though better than attacking the author, this is still a weak form of disagreement. It matters much more whether the author is wrong or right than what his tone is. Especially since tone is so hard to judge. Someone who has a chip on their shoulder about some topic might be offended by a tone that to other readers seemed neutral.",
+      "zhMarkdown": "虽然这比攻击作者本人要好，但仍然是一种微弱的反驳。作者是对是错，远比他的语气如何重要得多。尤其是语气极难客观评判。某个对特定话题心存芥蒂的人，可能会觉得某种在其他读者看来很中立的语气是对他的冒犯。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "be0b310faa4cae1ce6ca0e021a7861457ae259c93de97ddcfc720f003fd01cd1",
+      "enMarkdown": "So if the worst thing you can say about something is to criticize its tone, you're not saying much. Is the author flippant, but correct? Better that than grave and wrong. And if the author is incorrect somewhere, say where.",
+      "zhMarkdown": "因此，如果你对一篇文章最激烈的批评只是针对其语气，那你其实没说什么实质内容。作者虽然态度轻佻，但观点正确吗？这总比态度庄重却观点错误要好。如果作者在什么地方说错了，请指出具体位置。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "00afae027e8d4ad265e50aa0da3398b848e45028e9bcae78e8281319c094fcdf",
+      "enMarkdown": "**DH3. Contradiction.**",
+      "zhMarkdown": "**DH3. 纯粹反对（Contradiction）。**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "629c6f0e2f60d9e067f35d51df36622506bd1e5e7ae7d993396ddd23b81d6a6f",
+      "enMarkdown": "In this stage we finally get responses to what was said, rather than how or by whom. The lowest form of response to an argument is simply to state the opposing case, with little or no supporting evidence.",
+      "zhMarkdown": "在这一阶段，我们终于看到了针对论点本身而非说话态度或说话人的回应。对一个论点最低级的回应方式，就是简单地陈述相反的观点，却几乎不提供任何论据支持。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "5acd67882a7dca6408bd360ecd61fc26806e7eb845a603878f96e6deaeb24e18",
+      "enMarkdown": "This is often combined with DH2 statements, as in:",
+      "zhMarkdown": "这经常与 DH2 级别的言论结合在一起，例如："
+    },
+    {
+      "id": 24,
+      "type": "quote",
+      "sourceHash": "19c2d19488b7cf890e8443d820dcd799b7e7e6062571f18f2d3b7c078d5dca1f",
+      "enMarkdown": "> I can't believe the author dismisses intelligent design in such a cavalier fashion. Intelligent design is a legitimate scientific theory.",
+      "zhMarkdown": "> 我真不敢相信作者竟然用如此轻率的态度来否定智能设计论。智能设计论是一个合法的科学理论。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "778f679fe07b2aa2907afb9c229efd6056a584552d0f91c68b5fb3fed538a8ce",
+      "enMarkdown": "Contradiction can sometimes have some weight. Sometimes merely seeing the opposing case stated explicitly is enough to see that it's right. But usually evidence will help.",
+      "zhMarkdown": "纯粹反对有时也能有一定分量。有时，仅仅是看到相反的观点被清晰地陈述出来，就足以让人意识到它是对的。但通常情况下，提供证据才更有说服力。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "342a076fb78be959d3ccfe9f59582752d19626b88527ac58d69b460888ba238b",
+      "enMarkdown": "**DH4. Counterargument.**",
+      "zhMarkdown": "**DH4. 提出反论（Counterargument）。**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "fafd38abb55269719a1d38b868374f9d315b020d45926d5afefccd4b48778788",
+      "enMarkdown": "At level 4 we reach the first form of convincing disagreement: counterargument. Forms up to this point can usually be ignored as proving nothing. Counterargument might prove something. The problem is, it's hard to say exactly what.",
+      "zhMarkdown": "在第 4 级，我们达到了第一种有说服力的反驳形式：提出反论。在此之前的几种形式通常可以忽略，因为它们什么也证明不了。而反论则可能证明些什么。问题在于，很难说清它到底证明了什么。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "ee020d35beb21fd644d421068f898be75f0d63ac5cd2d5d9ac3ea30a9fe116ae",
+      "enMarkdown": "Counterargument is contradiction plus reasoning and/or evidence. When aimed squarely at the original argument, it can be convincing. But unfortunately it's common for counterarguments to be aimed at something slightly different. More often than not, two people arguing passionately about something are actually arguing about two different things. Sometimes they even agree with one another, but are so caught up in their squabble they don't realize it.",
+      "zhMarkdown": "反论是“纯粹反对”加上推理和/或证据。当它直击原论点时，可以非常有说服力。但遗憾的是，反论往往对准的是稍微偏离原意的东西。通常情况下，两个激烈争论的人实际上在争论两个不同的事情。有时他们甚至赞同彼此，却因为陷入了意气之争而浑然不觉。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "72e5870ccdf3243702af340b25f0ca77c0ab8fba29fe371e57391cf6eb236d0e",
+      "enMarkdown": "There could be a legitimate reason for arguing against something slightly different from what the original author said: when you feel they missed the heart of the matter. But when you do that, you should say explicitly you're doing it.",
+      "zhMarkdown": "反驳与原作者所说略有不同的东西，有时可能有正当理由：比如当你觉得他们没有触及问题的核心时。但当你这样做时，你应该明确指出自己正在这么做。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "8a47275224d1d108ca778f23ee14b8b8fbd217b4dbabec592453d2d4f7676ab8",
+      "enMarkdown": "**DH5. Refutation.**",
+      "zhMarkdown": "**DH5. 驳斥（Refutation）。**"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "dbafdd8753e21296b8a9cf68ce72bb97460888226db076f18d83b1c2a12fa540",
+      "enMarkdown": "The most convincing form of disagreement is refutation. It's also the rarest, because it's the most work. Indeed, the disagreement hierarchy forms a kind of pyramid, in the sense that the higher you go the fewer instances you find.",
+      "zhMarkdown": "最令人信服的反驳形式是驳斥。这也是最罕见的，因为最费功夫。事实上，反驳层级构成了一个金字塔，越往上走，案例就越少。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "3e7370b64ce45744fffa82c6b6f5740b4e933dc0e362982e9686012884409784",
+      "enMarkdown": "To refute someone you probably have to quote them. You have to find a \"smoking gun,\" a passage in whatever you disagree with that you feel is mistaken, and then explain why it's mistaken. If you can't find an actual quote to disagree with, you may be arguing with a straw man.",
+      "zhMarkdown": "要驳斥某人，你可能必须引用他们的话。你必须找到一个“铁证”（smoking gun），即在你反对的文章中找到一段你认为有误的话，然后解释它为什么错。如果你找不到一段具体的引文来反驳，你可能是在跟稻草人打架。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "7bc25bc4af8bafb1d17f6049e8d7b77b2b45041012ad4c60ee875bebc251d766",
+      "enMarkdown": "While refutation generally entails quoting, quoting doesn't necessarily imply refutation. Some writers quote parts of things they disagree with to give the appearance of legitimate refutation, then follow with a response as low as DH3 or even DH0.",
+      "zhMarkdown": "虽然驳斥通常需要引用，但引用并不一定意味着驳斥。有些作者会引用他们反对的文章的一部分，以营造一种在进行正规驳斥的假象，然后给出的回应却低至 DH3 甚至 DH0。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "124b33ad7b03d00e6a6971f531eb18aa980bb2fc798e6a263b227e1acc9e51b5",
+      "enMarkdown": "**DH6. Refuting the Central Point.**",
+      "zhMarkdown": "**DH6. 驳斥核心观点（Refuting the Central Point）。**"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "f794e7af42ed139f4f8090f7b3d924cfad459fd83f004e536ca3c6ff4124ab9b",
+      "enMarkdown": "The force of a refutation depends on what you refute. The most powerful form of disagreement is to refute someone's central point.",
+      "zhMarkdown": "驳斥的力量取决于你驳斥了什么。最强有力的反驳形式是驳斥对方的核心观点。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "3bd017a33a67f916343f2b3c2e6b16c28af4b435bdd4e4b5100bade26dfa36b9",
+      "enMarkdown": "Even as high as DH5 we still sometimes see deliberate dishonesty, as when someone picks out minor points of an argument and refutes those. Sometimes the spirit in which this is done makes it more of a sophisticated form of ad hominem than actual refutation. For example, correcting someone's grammar, or harping on minor mistakes in names or numbers. Unless the opposing argument actually depends on such things, the only purpose of correcting them is to discredit one's opponent.",
+      "zhMarkdown": "即使在高达 DH5 的级别，我们有时仍能看到刻意的投机取巧，比如有人挑出论证中无关紧要的细枝末节进行驳斥。有时，这种做法的用意使其更像是一种高级的人身攻击，而不是真正的驳斥。例如，纠正别人的语法，或者揪住名字或数字上的微小错误不放。除非对方的论证真的取决于这些细节，否则纠正它们的唯一目的就是贬低对手。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "291bb314d25cdd2c258369693db541d6e3a4d85dd88176969105af71eb126d0f",
+      "enMarkdown": "Truly refuting something requires one to refute its central point, or at least one of them. And that means one has to commit explicitly to what the central point is. So a truly effective refutation would look like:",
+      "zhMarkdown": "真正驳斥一件事，需要驳斥其核心观点，或至少是核心观点之一。这意味着你必须明确指出这个核心观点是什么。因此，一个真正有效的驳斥看起来会像这样："
+    },
+    {
+      "id": 38,
+      "type": "quote",
+      "sourceHash": "9ad52b8cc1404d81111f75ac0f83936cb7ff1c6806656112bcf9352882776e4e",
+      "enMarkdown": "> The author's main point seems to be x. As he says:\n> <quotation>\n> But this is wrong for the following reasons...",
+      "zhMarkdown": "> 作者的主要观点似乎是 X。正如他所说：\n> <引文>\n> 但这是错误的，原因如下……"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "a1a140e8a1b281cdf381b2a63b7b8bebfb18753bc7a9dc863e9470281f78e353",
+      "enMarkdown": "The quotation you point out as mistaken need not be the actual statement of the author's main point. It's enough to refute something it depends upon.",
+      "zhMarkdown": "你指出错误的引文不需要是作者主要观点的直接陈述。只要驳斥该观点所依赖的支撑论点就足够了。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "1812c27d2db199dcb3ea2f696ddc12a9f9ac3a95cea15ad84a358e1c00ec0d03",
+      "enMarkdown": "**What It Means**",
+      "zhMarkdown": "**这意味着什么**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "d405eae9c5dd6f688f0cb0f0d391b7e8cab86c99ea6f9766d006fcc6ddd44c7a",
+      "enMarkdown": "Now we have a way of classifying forms of disagreement. What good is it? One thing the disagreement hierarchy *doesn't* give us is a way of picking a winner. DH levels merely describe the form of a statement, not whether it's correct. A DH6 response could still be completely mistaken.",
+      "zhMarkdown": "现在我们有了一种对反驳形式进行分类的方法。这有什么用呢？这个反驳层级*不能*帮我们做的一件事，就是决定谁输谁赢。DH 级别仅描述了言论的形式，而非其正确性。一个 DH6 的回应依然可能完全错误。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "a99438b721107a7bfaf5d4c9fa25e7f4cf13cecd3e106115d0ed09e794223792",
+      "enMarkdown": "But while DH levels don't set a lower bound on the convincingness of a reply, they do set an upper bound. A DH6 response might be unconvincing, but a DH2 or lower response is always unconvincing.",
+      "zhMarkdown": "但是，虽然 DH 级别没有设定回应说服力的下限，但它确实设定了上限。一个 DH6 的回应可能缺乏说服力，但一个 DH2 或更低级别的回应则永远毫无说服力。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "d500f0fe0d989970af4f06815cd5343e638ead883485992edc0cda1db3f70dd1",
+      "enMarkdown": "The most obvious advantage of classifying the forms of disagreement is that it will help people to evaluate what they read. In particular, it will help them to see through intellectually dishonest arguments. An eloquent speaker or writer can give the impression of vanquishing an opponent merely by using forceful words. In fact that is probably the defining quality of a demagogue. By giving names to the different forms of disagreement, we give critical readers a pin for popping such balloons.",
+      "zhMarkdown": "对反驳形式进行分类，最明显的好处是能帮助人们评估他们所读到的内容。特别是，它能帮助人们看穿那些在智识上不诚实的论证。一个口才雄辩的演讲者或作家，可以通过使用强有力的词汇，给人一种击败了对手的印象。事实上，这可能是煽动家最典型的特征。通过给不同的反驳形式命名，我们给批判性读者提供了一根针，用来戳破这些虚张声势的气球。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "d6eb52c8854d3b3f542607a6e0a80d77a5d6ba97a43e11f6aee37f6ffa481f09",
+      "enMarkdown": "Such labels may help writers too. Most intellectual dishonesty is unintentional. Someone arguing against the tone of something he disagrees with may believe he's really saying something. Zooming out and seeing his current position on the disagreement hierarchy may inspire him to try moving up to counterargument or refutation.",
+      "zhMarkdown": "这些标签对写作者也大有裨益。大多数智识上的不诚实都是无意的。一个反对某事语气的人，可能真切地认为自己说出了有价值的观点。退一步看看自己目前在反驳层级中所处的位置，可能会启发他尝试向“提出反论”或“驳斥”提升。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "be56b2a8aa357084cbb5f4521a2e016e8c087706a8c83eafcbe9520b76ebb4cc",
+      "enMarkdown": "But the greatest benefit of disagreeing well is not just that it will make conversations better, but that it will make the people who have them happier. If you study conversations, you find there is a lot more meanness down in DH1 than up in DH6. You don't have to be mean when you have a real point to make. In fact, you don't want to. If you have something real to say, being mean just gets in the way.",
+      "zhMarkdown": "但体面反驳的最大好处，不仅在于它能让对话变得更好，还在于它会让参与对话的人更快乐。如果你研究对话，会发现身处 DH1 级别的人远比 DH6 级别的人刻薄得多。当你有一个真正的观点要表达时，你不需要变得刻薄。事实上，你也不想表现得刻薄。如果你有真知灼见要分享，刻薄只会适得其反。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "56b608a91e5aa2bde98ec989940435e16207c57772e366da5e42a1cf37ce56d5",
+      "enMarkdown": "If moving up the disagreement hierarchy makes people less mean, that will make most of them happier. Most people don't really enjoy being mean; they do it because they can't help it.",
+      "zhMarkdown": "如果提升反驳层级能让人们变得不那么刻薄，这会让大多数人感到更快乐。大多数人其实并不喜欢刻薄，他们这么做只是因为他们无能为力。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "66f1048c2e04bb128102ac6ecfab035857b23408e95a9e8d90744305a39ac546",
+      "enMarkdown": "**Thanks** to Trevor Blackwell and Jessica Livingston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell 和 Jessica Livingston 阅读了本文的草稿。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "44f2efebd4ecadb579a8d1ef2f48651513e02509cd86de59ae335d4103a67110",
+      "enMarkdown": "**Related:**",
+      "zhMarkdown": "**相关链接：**"
+    }
+  ]
+}

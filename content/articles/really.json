@@ -1,0 +1,1315 @@
+{
+  "slug": "really",
+  "titleEn": "What Startups Are Really Like",
+  "titleZh": "创业公司的真实面貌",
+  "dateText": "October 2009",
+  "publishedAt": "2009-10-01",
+  "sourceOrder": 109,
+  "sourceUrl": "https://paulgraham.com/really.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "1ef4da4d26d5d9e823566d8bf78189e436b5b40a0912f799fd420d3fa28ec022",
+      "enMarkdown": "*(This  essay is derived from a talk at the 2009 Startup School.)*",
+      "zhMarkdown": "*(本文根据 2009 年 Startup School 的演讲整理而成。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "c9b4b93f22f6bb74a088f199e4268bd550ac206d5f38ce3b74bf50702e779bb3",
+      "enMarkdown": "I wasn't sure what to talk about at Startup School, so I decided to ask the founders of the startups we'd funded. What hadn't I written about yet?",
+      "zhMarkdown": "在 Startup School 演讲前，我不太确定该讲些什么，于是决定去问问我们资助过的创业公司创始人。还有什么是我没写过的？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "7d880b6219b45ff0e5019015f283ddd481c9b06255892b0857245a294ae0e621",
+      "enMarkdown": "I'm in the unusual position of being able to test the essays I write about startups. I hope the ones on other topics are right, but I have no way to test them. The ones on startups get tested by about 70 people every 6 months.",
+      "zhMarkdown": "我处于一个非常奇特的位置，能够检验自己写的关于创业的文章。我希望关于其他话题的文章也是对的，但我无法验证。而关于创业的文章，每 6 个月就会有大约 70 个人来帮我肉身测试。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4cf12af29780f4104ad673ad654cdcab3730842e211625abe0389df3645d54c5",
+      "enMarkdown": "So I sent all the founders an email asking what surprised them about starting a startup. This amounts to asking what I got wrong, because if I'd explained things well enough, nothing should have surprised them.",
+      "zhMarkdown": "所以我给所有创始人发了一封邮件，问他们在创业过程中，最让他们感到意外的是什么。这其实相当于在问我自己哪里讲错了，因为如果我解释得足够透彻，他们应该不会感到意外才对。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "b81bd1737cc2cb6abaeba4f47905514274b3f54a82b27bf4a853dcd3e080d3a0",
+      "enMarkdown": "I'm proud to report I got one response saying:",
+      "zhMarkdown": "我很自豪地报告，其中一个回复是这么说的："
+    },
+    {
+      "id": 6,
+      "type": "quote",
+      "sourceHash": "3fb632f48f2fdc5ec3cf46172e1ba82ec973c7c57d92ec3f9d955f0e7f0db3d4",
+      "enMarkdown": "> What surprised me the most is that everything was actually fairly predictable!",
+      "zhMarkdown": "> 最让我意外的是，一切其实都相当可以预测！"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ab1e47bcaf90cca2f48ec5f85eab9f671605d8f401e9438e3e2194eeb93bb366",
+      "enMarkdown": "The bad news is that I got over 100 other responses listing the surprises they encountered.",
+      "zhMarkdown": "但坏消息是，我还收到了 100 多个其他回复，里面列满了他们遇到的各种意外。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "fb92848bcbc3d915b546fd4d131096cc5f68c600388708fe114456497c789094",
+      "enMarkdown": "There were very clear patterns in the responses; it was remarkable how often several people had been surprised by exactly the same thing. These were the biggest:",
+      "zhMarkdown": "这些回复呈现出非常清晰的规律，令人惊讶的是，好几个人往往会被完全相同的事情所震惊。以下是其中最主要的几点："
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "6e301bc98e0c0ab80bb935779a0510136d39010f4541fffe17d20932a88afa83",
+      "enMarkdown": "**1. Be Careful with Cofounders**",
+      "zhMarkdown": "**1. 挑选联合创始人要极其小心**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2f20f8679a3752ef87cf6671d2430123149b2777e8262c85af52194dcec51bd9",
+      "enMarkdown": "This was the surprise mentioned by the most founders. There were two types of responses: that you have to be careful who you pick as a cofounder, and that you have to work hard to maintain your relationship.",
+      "zhMarkdown": "这是被最多创始人提及的意外。回复主要分为两类：一是你必须极其小心地选择谁来做你的联合创始人；二是你必须付出巨大的努力来维持彼此的关系。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5ad2ebe483982746a28255dae0d68853b9271df0ac67021d1fbf20ffde1fba06",
+      "enMarkdown": "What people wished they'd paid more attention to when choosing cofounders was character and commitment, not ability. This was particularly true with startups that failed. The lesson: don't pick cofounders who will flake.",
+      "zhMarkdown": "大家后悔在选择联合创始人时没有多加关注的是人品和投入度，而不是能力。在失败的创业公司中，情况尤其如此。教训就是：不要选择那些会掉链子的联合创始人。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "3039113706a03df1de09a335ae3a9e2ed9e5ecb45c890182eeea428b07504fac",
+      "enMarkdown": "Here's a typical reponse:",
+      "zhMarkdown": "这是一个典型的回复："
+    },
+    {
+      "id": 13,
+      "type": "quote",
+      "sourceHash": "b49575fb01914ce4539d0d81dd7cd5aed32d4403e7781b1eeb168af2bf1f95e3",
+      "enMarkdown": "> You haven't seen someone's true colors unless you've worked with them on a startup.",
+      "zhMarkdown": "> 除非你和某人一起创过业，否则你根本看不清他的真面目。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "edb217ab8175cb5090923b0828cef540ee83b9a174d82e3d27b498cf25ac9f51",
+      "enMarkdown": "The reason character is so important is that it's tested more severely than in most other situations. One founder said explicitly that the relationship between founders was more important than ability:",
+      "zhMarkdown": "人品之所以如此重要，是因为创业对人性的考验比大多数其他情况都要严苛得多。一位创始人甚至明确表示，创始人之间的关系比能力更重要："
+    },
+    {
+      "id": 15,
+      "type": "quote",
+      "sourceHash": "bedba10b2f466b7819c52cac9167df9c9cb48b507d8fa35311a1e5b10ac23981",
+      "enMarkdown": "> I would rather cofound a startup with a friend than a stranger with higher output. Startups are so hard and emotional that the bonds and emotional and social support that come with friendship outweigh the extra output lost.",
+      "zhMarkdown": "> 我宁愿和一个朋友一起创业，也不愿和一个产出更高但关系疏远的陌生人合作。创业太艰难、太情绪化了，友情带来的纽带以及情感和社交上的支持，远比损失的那点额外产出更重要。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "655945429dcfd6120681aa47502de138c916fa9523641ece15e0ba491718afd9",
+      "enMarkdown": "We learned this lesson a long time ago. If you look at the YC application, there are more questions about the commitment and relationship of the founders than their ability.",
+      "zhMarkdown": "我们很久以前就吸取了这个教训。如果你看一眼 YC 的申请表，就会发现关于创始人的投入度和彼此关系的提问，远比关于他们能力的提问要多。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "31b42c2f16916b225a926b91bda0851714d14fc59976f9e0f0297ba2f71fc247",
+      "enMarkdown": "Founders of successful startups talked less about choosing cofounders and more about how hard they worked to maintain their relationship.",
+      "zhMarkdown": "成功创业公司的创始人较少谈论如何选择联合创始人，而更多地谈论他们为了维持彼此关系付出了多少努力。"
+    },
+    {
+      "id": 18,
+      "type": "quote",
+      "sourceHash": "2e14b5431e88aa5d5ce5d502cd6a59dfbed379f7c10ec255c05db738cd7d4e57",
+      "enMarkdown": "> One thing that surprised me is how the relationship of startup founders goes from a friendship to a marriage. My relationship with my cofounder went from just being friends to seeing each other all the time, fretting over the finances and cleaning up shit. And the startup was our baby. I summed it up once like this: \"It's like we're married, but we're not fucking.\"",
+      "zhMarkdown": "> 最让我意外的一件事是，创业伙伴之间的关系是如何从朋友变成夫妻的。我和合伙人的关系，从单纯的朋友，变成了整天黏在一起、为财务发愁、一起收拾烂摊子。创业公司就是我们的孩子。我曾这样总结过：\"这就像我们结婚了，但却没有性生活。\""
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "3b8e6dc0de344ef7f35c45b34b04cd136a180d8b3ceee30a06436cfec62da18e",
+      "enMarkdown": "Several people used that word \"married.\" It's a far more intense relationship than you usually see between coworkers—partly because the stresses are so much greater, and partly because at first the founders are the whole company. So this relationship has to be built of top quality materials and carefully maintained. It's the basis of everything.",
+      "zhMarkdown": "好几个人都用了“结婚”这个词。这比你通常在同事之间看到的关系要亲密得多——部分原因在于创业的压力要大得多，另一部分原因在于刚开始时创始人就是公司的全部。因此，这种关系必须用最顶级的材料来构建，并小心翼翼地维护。它是一切的基石。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "ebc6ec0cce3ffaa2f1047ed32e8f59ded39ccb4b5d753a94308434c496826d80",
+      "enMarkdown": "**2. Startups Take Over Your Life**",
+      "zhMarkdown": "**2. 创业会接管你的生活**"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "eedc8dd2107bc6983551ce63f06d138ad2b10db84f76a5d192d010299120ed55",
+      "enMarkdown": "Just as the relationship between cofounders is more intense than it usually is between coworkers, so is the relationship between the founders and the company. Running a startup is not like having a job or being a student, because it never stops. This is so foreign to most people's experience that they don't get it till it happens. [[1](#f1n)]",
+      "zhMarkdown": "就像联合创始人之间的关系比普通同事更亲密一样，创始人与公司之间的关系也是如此。经营一家创业公司不像打工，也不像当学生，因为它永远不会停下来。这对于大多数人的过往经验来说太陌生了，以至于他们只有在亲身经历时才能真正体会。[[1](#f1n)]"
+    },
+    {
+      "id": 22,
+      "type": "quote",
+      "sourceHash": "78774fb6b78d64d9869f205b336f1e04443d6670f62f0ab24f0cd8ed9d58346c",
+      "enMarkdown": "> I didn't realize I would spend almost every waking moment either working or thinking about our startup. You enter a whole different way of life when it's your company vs. working for someone else's company.",
+      "zhMarkdown": "> 我以前没意识到，自己几乎醒着的每一刻不是在工作，就是在思考我们的创业公司。当公司是你自己的，而不是在别人的公司打工时，你进入的是一种完全不同的生活方式。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "61ad96bd3b743fb91e821c1684e98bee3735b4bbc2910a8ab80e9396fc2f776d",
+      "enMarkdown": "It's exacerbated by the fast pace of startups, which makes it seem like time slows down:",
+      "zhMarkdown": "创业公司极快节奏的特征加剧了这种感觉，让人觉得时间仿佛变慢了："
+    },
+    {
+      "id": 24,
+      "type": "quote",
+      "sourceHash": "6c35ad44a3548eb768c7b21de565a4b9b202c57ea340e8056db329f7373d0628",
+      "enMarkdown": "> I think the thing that's been most surprising to me is how one's perspective on time shifts. Working on our startup, I remember time seeming to stretch out, so that a month was a huge interval.",
+      "zhMarkdown": "> 我觉得最让我意外的是，人对时间的感知发生了变化。在为创业公司奋斗时，我记得时间似乎拉长了，一个月感觉是一段无比漫长的时间。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "d2bc2b40038d2d3513de24f50fee6b2ec69fcbe4777c3cc5d03c3c9d327d9bdb",
+      "enMarkdown": "In the best case, total immersion can be exciting:",
+      "zhMarkdown": "在最好的情况下，这种全情投入可以让人兴奋不已："
+    },
+    {
+      "id": 26,
+      "type": "quote",
+      "sourceHash": "187bec140b00f3fbd00752e16b20cd4fe4310f3e1282684290fac61df9e23021",
+      "enMarkdown": "> It's surprising how much you become consumed by your startup, in that you think about it day and night, but never once does it feel like \"work.\"",
+      "zhMarkdown": "> 令人惊讶的是，你竟然会被自己的创业公司如此彻底地吞噬，日思夜想都是它，但没有一刻会让你觉得这是在“工作”。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "58a8f9f1de3c14724c2576bf5f8c3002868d1adf15bdcafdb7b732de58f85452",
+      "enMarkdown": "Though I have to say, that quote is from someone we funded this summer. In a couple years he may not sound so chipper.",
+      "zhMarkdown": "不过我得说明，这段话出自我们今年夏天资助的一位创始人。几年后，他可能就不会听起来这么乐观了。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "4fb0c259cafb8fa878a181e160573697c384f4ac21940fcda12460d8a2deb725",
+      "enMarkdown": "**3. It's an Emotional Roller-coaster**",
+      "zhMarkdown": "**3. 这是一场情绪的过山车**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "ae47f1ae5edbcf06720f70549781a4179b82edb1e9aa93f96a2b97395afb9683",
+      "enMarkdown": "This was another one lots of people were surprised about. The ups and downs were more extreme than they were prepared for.",
+      "zhMarkdown": "这是另一个让许多人感到意外的地方。起伏的剧烈程度远远超出了他们的心理准备。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "76d49820344e093897d18245f6fc3105df01cae8eae6ed19c74ab5029c82efb6",
+      "enMarkdown": "In a startup, things seem great one moment and hopeless the next. And by next, I mean a couple hours later.",
+      "zhMarkdown": "在创业公司里，前一秒还觉得前途无量，下一秒就觉得毫无希望。而我说的“下一秒”，指的是几个小时之后。"
+    },
+    {
+      "id": 31,
+      "type": "quote",
+      "sourceHash": "44533268668d846b4085969d22d06190f1bccd8098b187fc95046bf8638a9779",
+      "enMarkdown": "> The emotional ups and downs were the biggest surprise for me. One day, we'd think of ourselves as the next Google and dream of buying islands; the next, we'd be pondering how to let our loved ones know of our utter failure; and on and on.",
+      "zhMarkdown": "> 情绪上的起起落落是我最大的意外。今天，我们还觉得自己是下一个谷歌，做着买下私人岛屿的美梦；明天，我们就在琢磨该怎么向挚爱的家人交代我们彻底的失败；如此循环往复。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "57998ea3263ec18e55fa121bc69d6304e2d932f18babeeb71ed955b508385df3",
+      "enMarkdown": "The hard part, obviously, is the lows. For a lot of founders that was the big surprise:",
+      "zhMarkdown": "显而易见，最难熬的是低谷。对很多创始人来说，这才是最令人震惊的："
+    },
+    {
+      "id": 33,
+      "type": "quote",
+      "sourceHash": "e68187941ac848128fe520e721e8f7f2bb79f585f109a84c6c6ae06cecaaa5f1",
+      "enMarkdown": "> How hard it is to keep everyone motivated during rough days or weeks, i.e. how low the lows can be.",
+      "zhMarkdown": "> 在艰难的日子或周里保持每个人的斗志有多难，也就是说，低谷到底能有多低。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "1219d06759e46909d3559beb407db491ca1ff8295d6d358def9670c8aa01782e",
+      "enMarkdown": "After a while, if you don't have significant success to cheer you up, it wears you out:",
+      "zhMarkdown": "过了一段时间，如果没有重大的成功来提振士气，这会把你彻底耗尽："
+    },
+    {
+      "id": 35,
+      "type": "quote",
+      "sourceHash": "f8074f5344efcd5e41b3836e7a7ec620f1279f5745ef80eb4e904db521e1f442",
+      "enMarkdown": "> Your most basic advice to founders is \"just don't die,\" but the energy to keep a company going in lieu of unburdening success isn't free; it is siphoned from the founders themselves.",
+      "zhMarkdown": "> 你给创始人最基本的建议是“活下去”，但在没有迎来释怀的成功之前，维持公司运转所需的能量并不是凭空而来的，它是从创始人自己身上榨取出来的。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "cba8f90de611f514416575476a03ddd0bad879773c4a3fd5976e0f700e62e889",
+      "enMarkdown": "There's a limit to how much you can take. If you get to the point where you can't keep working anymore, it's not the end of the world. Plenty of famous founders have had some failures along the way.",
+      "zhMarkdown": "人的承受能力是有极限的。如果你到了无法再继续工作的地步，这也并非世界末日。许多著名的创始人在成功的路上也都经历过失败。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "bcb69294ed95e9eae5528dca16a0a6990a3ae0aa823f667a647d3241c2c669da",
+      "enMarkdown": "**4. It Can Be Fun**",
+      "zhMarkdown": "**4. 创业可以很有趣**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "aa27c5fdcaace9520a49bb9bfb1821f18f3ede3c52a0d2388812a675af2732d0",
+      "enMarkdown": "The good news is, the highs are also very high. Several founders said what surprised them most about doing a startup was how fun it was:",
+      "zhMarkdown": "好消息是，高光时刻也同样令人兴奋。几位创始人表示，创业最让他们感到意外的是这件事情竟然如此有趣："
+    },
+    {
+      "id": 39,
+      "type": "quote",
+      "sourceHash": "9e093ee383830c19a8af2a828a0a6c3e48ac895891a0bd1cb0ead9fd428f2655",
+      "enMarkdown": "> I think you've left out just how fun it is to do a startup. I am more fulfilled in my work than pretty much any of my friends who did not start companies.",
+      "zhMarkdown": "> 我觉得你忽略了创业有多好玩。我在工作中获得的成就感，远远超过了我那些几乎所有没有创业的朋友。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "0f3fce4532826722354e7b890f7c53d694b57b3c504351dec060ed875a4fc2ea",
+      "enMarkdown": "What they like most is the freedom:",
+      "zhMarkdown": "他们最喜欢的是自由："
+    },
+    {
+      "id": 41,
+      "type": "quote",
+      "sourceHash": "45e34d3775a591c3e008961328ab5be590a6123f1f9999aedc8bf9df69c0333d",
+      "enMarkdown": "> I'm surprised by how much better it feels to be working on something that is challenging and creative, something I believe in, as opposed to the hired-gun stuff I was doing before. I knew it would feel better; what's surprising is how much better.",
+      "zhMarkdown": "> 让我惊讶的是，做一件充满挑战、富有创造力且自己深信不疑的事情，比起以前做雇佣兵式的打工，感觉要好太多了。我知道感觉会更好，但没想到会好这么多。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "09980d2c9dccb86fdc5889f0cf04d1469d60947755907fca7abd10961c6d372a",
+      "enMarkdown": "Frankly, though, if I've misled people here, I'm not eager to fix that. I'd rather have everyone think starting a startup is grim and hard than have founders go into it expecting it to be fun, and a few months later saying \"This is supposed to be *fun*? Are you kidding?\"",
+      "zhMarkdown": "不过坦白说，如果我在这方面误导了大家，我并不急于去纠正。我宁愿让每个人都觉得创业是冷酷而艰难的，也不希望创始人们抱着好玩的心态走进来，几个月后却抱怨说：“这玩意儿居然应该是*好玩*的？你在逗我吗？”"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "86b59f8ce0fc2e6ff8e178d91f1480b1163f72fd1a9710c45ca9eff6b481522c",
+      "enMarkdown": "The truth is, it wouldn't be fun for most people. A lot of what we try to do in the application process is to weed out the people who wouldn't like it, both for our sake and theirs.",
+      "zhMarkdown": "事实是，对大多数人来说，创业一点也不好玩。我们在申请审查过程中努力做的一大件事，就是筛选掉那些不会喜欢这种生活的人，这既是为了我们好，也是为了他们好。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "451574ad7b584dd03d5bbbbaa4af17454e420749077198e4271a84b52b86f0d1",
+      "enMarkdown": "The best way to put it might be that starting a startup is fun the way a survivalist training course would be fun, if you're into that sort of thing. Which is to say, not at all, if you're not.",
+      "zhMarkdown": "最贴切的说法可能是：创业就像野外求生训练营一样有趣，前提是你喜欢这一套。也就是说，如果你不喜欢，那它简直就是折磨。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "0ef4d524c63db5b6d7e1a92222ff14dbe48f2bfc1e75690fefd4388757cf6967",
+      "enMarkdown": "**5. Persistence Is the Key**",
+      "zhMarkdown": "**5. 坚持是关键**"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "05e1381dabee009ea896da52faa7ac80eb6f2be2e29dcf2cb7a256824d570c3c",
+      "enMarkdown": "A lot of founders were surprised how important persistence was in startups. It was both a negative and a positive surprise: they were surprised both by the degree of persistence required",
+      "zhMarkdown": "许多创始人对坚持在创业中的重要性感到惊讶。这既是一个负面的意外，也是一个正面的意外：他们既对所需的坚持程度感到震惊，"
+    },
+    {
+      "id": 47,
+      "type": "quote",
+      "sourceHash": "659b118ad517ada399b14c0f27d30d7eef51d21753da4442ee79d39e01126c65",
+      "enMarkdown": "> Everyone said how determined and resilient you must be, but going through it made me realize that the determination required was still understated.",
+      "zhMarkdown": "> 每个人都说你必须多么有决心和韧性，但亲身经历后我才意识到，人们对所需决心的估计依然是保守了。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "60e889b82870ee23cc40231480470c0cad9ddbb24425e01908894f5d7452d6ae",
+      "enMarkdown": "and also by the degree to which persistence alone was able to dissolve obstacles:",
+      "zhMarkdown": "同时也对仅凭坚持就能化解障碍的程度感到惊讶："
+    },
+    {
+      "id": 49,
+      "type": "quote",
+      "sourceHash": "7f0a9cb37a6ec85c81e7cdfe01440c40e47536f27e0caed2c1c561f085cd3c0f",
+      "enMarkdown": "> If you are persistent, even problems that seem out of your control (i.e. immigration) seem to work themselves out.",
+      "zhMarkdown": "> 只要你坚持下去，即使是那些看似无法控制的问题（比如移民身份），似乎也会迎刃而解。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "13538ee5ad1d6a1511bae8f9939b0a551db84fecdc8f79f19eec0d5e14624d9b",
+      "enMarkdown": "Several founders mentioned specifically how much more important persistence was than intelligence.",
+      "zhMarkdown": "几位创始人特别提到，坚持比聪明要重要得多。"
+    },
+    {
+      "id": 51,
+      "type": "quote",
+      "sourceHash": "71b69d71976b60c0033c0cdffba0a5455ed470afa1c52096be25d65c3fa858ff",
+      "enMarkdown": "> I've been surprised again and again by just how much more important persistence is than raw intelligence.",
+      "zhMarkdown": "> 我一次又一次地感到惊讶，坚持竟然比纯粹的聪明要重要得多。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "c30847840a65ed22ac12f2bd7a75a367264133d9ca2e734230fe7f4f2a15af94",
+      "enMarkdown": "This applies not just to intelligence but to ability in general, and that's why so many people said character was more important in choosing cofounders.",
+      "zhMarkdown": "这不仅适用于智力，也适用于一般能力，这就是为什么这么多人说在选择联合创始人时，人品比能力更重要。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "33380ab6d9896360b48eee50d65896280b5a381a3b03b438ac662229ef7bd746",
+      "enMarkdown": "**6. Think Long-Term**",
+      "zhMarkdown": "**6. 做好长期准备**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "1dc73bc49b7fbacc58b2abc4e51531e9069863be1843b4eceff8a8e4127a1048",
+      "enMarkdown": "You need persistence because everything takes longer than you expect. A lot of people were surprised by that.",
+      "zhMarkdown": "你需要坚持，因为每件事花的时间都比你预期的要长。很多人对此感到意外。"
+    },
+    {
+      "id": 55,
+      "type": "quote",
+      "sourceHash": "77533c9ef83dcb5d2ffd4b4bd425fbd3506c6930d04cad271d33de27eb8acead",
+      "enMarkdown": "> I'm continually surprised by how long everything can take. Assuming your product doesn't experience the explosive growth that very few products do, everything from development to dealmaking (especially dealmaking) seems to take 2-3x longer than I always imagine.",
+      "zhMarkdown": "> 我一直在惊讶于每件事要花多长时间。假设你的产品没有经历极少数产品才有的爆发式增长，那么从研发到谈合作（尤其是谈合作），每件事似乎都要比我预想的长上 2 到 3 倍。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "e681bcb2a1bdee68431ba8a34f40dc28728a9f689f6ecc1c957c03b550aa75e3",
+      "enMarkdown": "One reason founders are surprised is that because they work fast, they expect everyone else to. There's a shocking amount of shear stress at every point where a startup touches a more bureaucratic organization, like a big company or a VC fund. That's why fundraising and the enterprise market kill and maim so many startups. [[2](#f2n)]",
+      "zhMarkdown": "创始人感到意外的一个原因在于，因为他们自己干活快，所以期望别人也一样快。在创业公司与官僚机构（如大公司或风险投资基金）接触的每一个节点，都存在着令人震惊的剪切应力。这就是为什么融资和企业级市场会杀死并重创这么多创业公司。[[2](#f2n)]"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "9ebed903d658829895df1bbd5ecb20603f14a52035db859a68a8d384a598335d",
+      "enMarkdown": "But I think the reason most founders are surprised by how long it takes is that they're overconfident. They think they're going to be an instant success, like YouTube or Facebook. You tell them only 1 out of 100 successful startups has a trajectory like that, and they all think \"we're going to be that 1.\"",
+      "zhMarkdown": "但我认为大多数创始人对耗时之长感到意外，是因为他们过度自信了。他们以为自己会像 YouTube 或 Facebook 一样一夜成名。你告诉他们，100 家成功的创业公司中只有 1 家能有这样的轨迹，而他们都觉得自己“就是那百分之一”。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "4c7e8dfae5af4d5370a28de5fe9db73705977e0f0b5988ee1656c9bcd5d5eebc",
+      "enMarkdown": "Maybe they'll listen to one of the more successful founders:",
+      "zhMarkdown": "也许他们会听听某位更成功的创始人是怎么说的："
+    },
+    {
+      "id": 59,
+      "type": "quote",
+      "sourceHash": "2c7a2a8eae463b0e0dcb91293acbebbfa372f2b715ae1eb117fb6d2af40ab77c",
+      "enMarkdown": "> The top thing I didn't understand before going into it is that persistence is the name of the game. For the vast majority of startups that become successful, it's going to be a *really* long journey, at least 3 years and probably 5+.",
+      "zhMarkdown": "> 在投身其中之前，我最不明白的一点是，坚持才是这个游戏的本质。对于绝大多数最终获得成功的创业公司来说，这都将是一段*非常*漫长的旅程，至少需要 3 年，很可能需要 5 年以上。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "a4eb5cfb95f656b12e2b2dd40692606e2d6d424d5f6ad4dfb0bed465f0424109",
+      "enMarkdown": "There is a positive side to thinking longer-term. It's not just that you have to resign yourself to everything taking longer than it should. If you work patiently it's less stressful, and you can do better work:",
+      "zhMarkdown": "从长计议也有积极的一面。这不仅仅意味着你必须向“一切都比预期的慢”这一现实妥协。如果你耐心地工作，压力会更小，而且你能做出更好的成果："
+    },
+    {
+      "id": 61,
+      "type": "quote",
+      "sourceHash": "194b9e9137ed6cb2715199b09b37abb7cbdb9f7dd68ad6716233fe973e86182d",
+      "enMarkdown": "> Because we're relaxed, it's so much easier to have fun doing what we do. Gone is the awkward nervous energy fueled by the desperate need to not fail guiding our actions. We can concentrate on doing what's best for our company, product, employees and customers.",
+      "zhMarkdown": "> 因为我们放松了下来，享受手头的工作变得容易得多。那种因为拼命不想失败而产生的尴尬、焦虑的能量已经一去不复返。我们可以专注于做对公司、产品、员工和客户最有利的事情。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "9feee7d64b22a81c793ba32aef2d6675a8c29f8a5f30a6b8947af41fcc224214",
+      "enMarkdown": "That's why things get so much better when you hit ramen profitability. You can shift into a different mode of working.",
+      "zhMarkdown": "这就是为什么一旦你达到了“拉面盈利”（ramen profitability）状态，情况就会好得多。你可以切换到一种不同的工作模式。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "3a48f143822ac8e732c105d4d9f0987cebdf8552f6b982815d82406e861f29cd",
+      "enMarkdown": "**7. Lots of Little Things**",
+      "zhMarkdown": "**7. 无数微不足道的小事**"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "6972cf491b1e61f9b0f6a79ca585da84463749caa829eeebddae4edfc8c953a0",
+      "enMarkdown": "We often emphasize how rarely startups win simply because they hit on some magic idea. I think founders have now gotten that into their heads. But a lot were surprised to find this also applies within startups. You have to do lots of different things:",
+      "zhMarkdown": "我们经常强调，创业公司极少仅仅因为碰巧想到了某个神奇的点子就获得成功。我想创始人现在已经把这一点记在脑子里了。但很多人惊讶地发现，这同样适用于创业公司的内部。你必须做许多琐碎不同的事情："
+    },
+    {
+      "id": 65,
+      "type": "quote",
+      "sourceHash": "38a93ea6cd846ba1a83bdeababf7aca01c98c06fa726c8750e5c5ce67b871aa4",
+      "enMarkdown": "> It's much more of a grind than glamorous. A timeslice selected at random would more likely find me tracking down a weird DLL loading bug on Swedish Windows, or tracking down a bug in the financial model Excel spreadsheet the night before a board meeting, rather than having brilliant flashes of strategic insight.",
+      "zhMarkdown": "> 这更像是一场苦工，而不是什么光鲜亮丽的事。随机抽取一个时间片段，更有可能看到我在瑞典语 Windows 系统上排查一个奇怪的 DLL 加载 Bug，或者在董事会会议前一天晚上排查 Excel 财务模型中的 Bug，而不是在迸发什么精妙的战略洞察。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "79b2ea689c504327cb4fd30cefa76d1e61b297e81a68761a3744ab4dabb88de3",
+      "enMarkdown": "Most hacker-founders would like to spend all their time programming. You won't get to, unless you fail. Which can be transformed into: If you spend all your time programming, you will fail.",
+      "zhMarkdown": "大多数黑客创始人希望把所有时间都花在写代码上。除非你失败，否则你没这个机会。这句话也可以转化为：如果你把所有时间都花在写代码上，你一定会失败。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "20c118d01c288c7e282dadc5d4136e129ac0fb853908cb204310254d4f9cb9df",
+      "enMarkdown": "The principle extends even into programming. There is rarely a single brilliant hack that ensures success:",
+      "zhMarkdown": "这个原则甚至延伸到了编程领域。极少有某一个精妙的 Hack 能确保成功："
+    },
+    {
+      "id": 68,
+      "type": "quote",
+      "sourceHash": "d24836ef4ed6c7fea28758290e3d9af8bfc7b8604cbc8cb1befdfd0480292a7c",
+      "enMarkdown": "> I learnt never to bet on any one feature or deal or anything to bring you success. It is never a single thing. Everything is just incremental and you just have to keep doing lots of those things until you strike something.",
+      "zhMarkdown": "> 我学到了永远不要把成功的希望寄托在任何单一的功能、合作或任何事情上。它永远不是单一的一件事。一切都是渐进的，你必须不断地做很多这样的小事，直到你碰巧撞上好运。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "a377e615c42c85d159ed4bfca0d28fe5950252620edd061cc1c7cce6904f60dd",
+      "enMarkdown": "Even in the rare cases where a clever hack makes your fortune, you probably won't know till later:",
+      "zhMarkdown": "即使在极少数情况下，一个聪明的 Hack 让你发了财，你可能也是事后才会意识到："
+    },
+    {
+      "id": 70,
+      "type": "quote",
+      "sourceHash": "0d5419fdcaedc11d6b82155ca77b5c33cbe977f76cffebe0d782589bd0f99b75",
+      "enMarkdown": "> There is no such thing as a killer feature. Or at least you won't know what it is.",
+      "zhMarkdown": "> 根本不存在什么“杀手级功能”。或者至少在当时，你根本不知道它是什么。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "1560dfccec08485ab0f4289f19f3da825caa2c5f36a1d4c0ad1f2553845fe821",
+      "enMarkdown": "So the best strategy is to try lots of different things. The reason not to put all your eggs in one basket is not the usual one, which applies even when you know which basket is best. In a startup you don't even know that.",
+      "zhMarkdown": "所以最好的策略是尝试许多不同的事情。不要把所有鸡蛋放在一个篮子里的原因，并不是通常所说的那种——即便是当你清楚哪个篮子最好时也适用的道理。在创业公司里，你甚至连哪个篮子最好都不知道。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "d5d7329a6fac392ef94e051fc4fb7d0ebbe43ee498e26a9aecdd2f8c6e43747b",
+      "enMarkdown": "**8. Start with Something Minimal**",
+      "zhMarkdown": "**8. 从极简版本开始**"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "6b134fbea5f6b7929e94ad9d58a8320b533e367c3ccf306209f646bdbc058a03",
+      "enMarkdown": "Lots of founders mentioned how important it was to launch with the simplest possible thing. By this point everyone knows you should release fast and iterate. It's practically a mantra at YC. But even so a lot of people seem to have been burned by not doing it:",
+      "zhMarkdown": "许多创始人提到，用最简单的东西上线是多么重要。到现在，大家都知道应该快速发布并不断迭代。这在 YC 几乎是金科玉律。但即便如此，很多人似乎还是因为没有做到这一点而吃了亏："
+    },
+    {
+      "id": 74,
+      "type": "quote",
+      "sourceHash": "c4ecaf9b4959d6696a413b41e58c9b10dae6c236211db3aa9db57c3f2f86833d",
+      "enMarkdown": "> Build the absolute smallest thing that can be considered a complete application and ship it.",
+      "zhMarkdown": "> 做出绝对最小的、能被称为完整应用的东西，然后发布它。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "b43af2f91ca03161781b562869ea7ebdf480e1f045dca665af7f4e645df51079",
+      "enMarkdown": "Why do people take too long on the first version? Pride, mostly. They hate to release something that could be better. They worry what people will say about them. But you have to overcome this:",
+      "zhMarkdown": "为什么人们在第一版上花太长时间？大体上是因为虚荣心。他们不愿发布一个本可以更好的东西。他们担心人们会怎么评价他们。但你必须克服这一点："
+    },
+    {
+      "id": 76,
+      "type": "quote",
+      "sourceHash": "370f522afc93a4abc500e40440e2de9e7bd3bcedc4a717822bd857597eccedcb",
+      "enMarkdown": "> Doing something \"simple\" at first glance does not mean you aren't doing something meaningful, defensible, or valuable.",
+      "zhMarkdown": "> 乍看之下做一些“简单”的事情，并不意味着你没有在做有意义、有壁垒或有价值的事情。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "f4e67fab3adc927946b227bb4fe8c436e028e803cd7c3c0aab5574dd2f7373cf",
+      "enMarkdown": "Don't worry what people will say. If your first version is so impressive that trolls don't make fun of it, you waited too long to launch. [[3](#f3n)]",
+      "zhMarkdown": "不要担心人们会说什么。如果你的第一版完美到连黑子都找不到喷点，说明你上线得太晚了。[[3](#f3n)]"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "544ca50e40dcd283d03dfd91e7fa0dd6b29afb753e8e0ec5308c84eea88c3143",
+      "enMarkdown": "One founder said this should be your approach to all programming, not just startups, and I tend to agree.",
+      "zhMarkdown": "一位创始人说，这应该是你对待所有编程工作的态度，而不仅仅是创业，我倾向于同意这一点。"
+    },
+    {
+      "id": 79,
+      "type": "quote",
+      "sourceHash": "13de59286a119a78e968ec60034906e1f882ca199bc2b4f5181a8b66d9ae874b",
+      "enMarkdown": "> Now, when coding, I try to think \"How can I write this such that if people saw my code, they'd be amazed at how little there is and how little it does?\"",
+      "zhMarkdown": "> 现在写代码时，我会试着想：“我该怎么写，才能让别人看到我的代码时，惊叹于它竟然如此之少、功能如此之简？”"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "f07e61c6efc55896e5e618df910ffde3cd6313cd9ff1cfe98952a200cb995627",
+      "enMarkdown": "Over-engineering is poison. It's not like doing extra work for extra credit. It's more like telling a lie that you then have to remember so you don't contradict it.",
+      "zhMarkdown": "过度设计是毒药。它不像为了拿额外学分而多做工作。它更像是一个谎言，你以后必须时刻记住它，才不会自相矛盾。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "7e1ea1f97e0140d5828ad67dbbd25839e83a76188e0f216e456bc02b4f7b8f4f",
+      "enMarkdown": "**9. Engage Users**",
+      "zhMarkdown": "**9. 与用户互动**"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "d5cf0d52e2b3aee507105247ab30f1ce214c5cde8942a213b6006e5205105388",
+      "enMarkdown": "Product development is a conversation with the user that doesn't really start till you launch. Before you launch, you're like a police artist before he's shown the first version of his sketch to the witness.",
+      "zhMarkdown": "产品开发是一场与用户的对话，而这场对话在你上线之前根本没有真正开始。在发布之前，你就像一个模拟画像师，还没把第一版草图展示给目击者看。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "a1a031b14eddb7d9111468c545a68b5a6e4c047aef28a89f1addd934baa92fdd",
+      "enMarkdown": "It's so important to launch fast that it may be better to think of your initial version not as a product, but as a trick for getting users to start talking to you.",
+      "zhMarkdown": "快速上线是如此重要，以至于你最好不要把初始版本看作一个产品，而应该看作一个吸引用户开始和你交流的诱饵。"
+    },
+    {
+      "id": 84,
+      "type": "quote",
+      "sourceHash": "221e5d40b02fd7c356cc7435a48bdaf7a0ee588a13a48e2818300b2d4c7e81e6",
+      "enMarkdown": "> I learned to think about the initial stages of a startup as a giant experiment. All products should be considered experiments, and those that have a market show promising results extremely quickly.",
+      "zhMarkdown": "> 我学会了把创业的初始阶段看作一个巨大的实验。所有产品都应该被视为实验，而那些有市场的产品会极其迅速地显示出令人鼓舞的结果。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "085268d922be8db19448e6695296eb8614aac6764c132b7086079ea60ecfca37",
+      "enMarkdown": "Once you start talking to users, I guarantee you'll be surprised by what they tell you.",
+      "zhMarkdown": "一旦你开始和用户交谈，我保证你会对他们说的话感到惊讶。"
+    },
+    {
+      "id": 86,
+      "type": "quote",
+      "sourceHash": "3d1e3e105f8c8176fca764d2ee18fa62b6490256cf40241c87578579afa21dfd",
+      "enMarkdown": "> When you let customers tell you what they're after, they will often reveal amazing details about what they find valuable as well what they're willing to pay for.",
+      "zhMarkdown": "> 当你让客户告诉你他们想要什么时，他们往往会透露出令人惊叹的细节，包括他们觉得什么有价值，以及他们愿意为什么买单。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "bfe02bfdc76a7fedaf8b6282f7208aba464573adeea73389bb3e3600cef981fd",
+      "enMarkdown": "The surprise is generally positive as well as negative. They won't like what you've built, but there will be other things they would like that would be trivially easy to implement. It's not till you start the conversation by launching the wrong thing that they can express (or perhaps even realize) what they're looking for.",
+      "zhMarkdown": "这种意外通常是既有正面也有负面的。他们不会喜欢你已经做出来的东西，但会有其他他们想要的东西，而那些东西实现起来可能轻而易举。只有当你通过发布一个错误的东西开启对话时，他们才能表达出（甚至可能才意识到）自己真正想要的是什么。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "cccac981823ddb8bd58b1791c2ad7b0fd027b97a3fb1e9b0bc442bfa8c2b7954",
+      "enMarkdown": "**10. Change Your Idea**",
+      "zhMarkdown": "**10. 改变你的想法**"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "64f68070eafaec9537928ef51b80fda50e19a3978bc614487fb394e329586ff7",
+      "enMarkdown": "To benefit from engaging with users you have to be willing to change your idea. We've always encouraged founders to see a startup idea as a hypothesis rather than a blueprint. And yet they're still surprised how well it works to change the idea.",
+      "zhMarkdown": "要从与用户的互动中获益，你必须愿意改变自己的想法。我们一直鼓励创始人把创业点子看作是一个假设，而不是一份蓝图。然而，他们依然对改变点子能带来如此好的效果感到惊讶。"
+    },
+    {
+      "id": 90,
+      "type": "quote",
+      "sourceHash": "3058ca45d99077099fb806e8d23b30819ea1da883c7ee27c2e149e9be154e2c8",
+      "enMarkdown": "> Normally if you complain about something being hard, the general advice is to work harder. With a startup, I think you should find a problem that's easy for you to solve. Optimizing in solution-space is familiar and straightforward, but you can make enormous gains playing around in problem-space.",
+      "zhMarkdown": "> 通常如果你抱怨某事很难，一般的建议是更努力地工作。但在创业中，我认为你应该找一个对你来说容易解决的问题。在解决方案空间中进行优化是大家熟悉且直截了当的，但在问题空间中寻找可能性，你可以获得巨大的收益。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "0c94a5dae5cbe83ad83b4f14fb3229a641e0f7ec584ac822fd4872f1accede1d",
+      "enMarkdown": "Whereas mere determination, without flexibility, is a greedy algorithm that may get you nothing more than a mediocre local maximum:",
+      "zhMarkdown": "而缺乏灵活性的盲目坚持，只是一种贪心算法，可能只会让你陷入一个平庸的局部最优解："
+    },
+    {
+      "id": 92,
+      "type": "quote",
+      "sourceHash": "346b92547cc1eb108bd7afed63535ef482cb9384603bdb4c39405840bc1329e5",
+      "enMarkdown": "> When someone is determined, there's still a danger that they'll follow a long, hard path that ultimately leads nowhere.",
+      "zhMarkdown": "> 当一个人意志坚定的时候，依然存在一种危险，那就是他们会沿着一条漫长而艰难的道路走下去，而这条路最终通往虚无。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "9881e16a4435466f210e29eb6bbcee889c709a9cbcd3396d03f1d176830ab1ea",
+      "enMarkdown": "You want to push forward, but at the same time twist and turn to find the most promising path. One founder put it very succinctly:",
+      "zhMarkdown": "你想向前推进，但同时也要迂回盘旋，寻找最明朗的道路。一位创始人说得非常简练："
+    },
+    {
+      "id": 94,
+      "type": "quote",
+      "sourceHash": "456a943a74418a73554e487931a805194d575f4d2e66309bb5a909d64db06468",
+      "enMarkdown": "> Fast iteration is the key to success.",
+      "zhMarkdown": "> 快速迭代是成功的关键。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "30043ac1d5f5ea88627e74ba519bf153c3d48530e65c5b17b63cdb6ee5d5fcbe",
+      "enMarkdown": "One reason this advice is so hard to follow is that people don't realize how hard it is to judge startup ideas, particularly their own. Experienced founders learn to keep an open mind:",
+      "zhMarkdown": "这个建议之所以如此难以遵循，原因之一是人们没有意识到评估创业点子有多难，尤其是评估自己的点子。有经验的创始人学会了保持开放的心态："
+    },
+    {
+      "id": 96,
+      "type": "quote",
+      "sourceHash": "bda635dcad155ec8eaff7e3929e48080dcbefce70d12e31ea20d03708c535c0a",
+      "enMarkdown": "> Now I don't laugh at ideas anymore, because I realized how terrible I was at knowing if they were good or not.",
+      "zhMarkdown": "> 现在我不再嘲笑任何点子了，因为我意识到自己以前判断点子好坏的能力有多糟糕。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "54c1f65e43bb1a008a223d2184fa712dc08a5dc40361cee36d1b8062f7bb63c8",
+      "enMarkdown": "You can never tell what will work. You just have to do whatever seems best at each point. We do this with YC itself. We still don't know if it will work, but it seems like a decent hypothesis.",
+      "zhMarkdown": "你永远说不准什么会成功。你只需要在每一个节点上做看似最好的选择。我们对 YC 本身也是这么做的。我们现在仍不知道它是否会成功，但这似乎是一个不错的假设。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "cd13b17236807fbdc41ef637b4bd2293f2ee8fbdfc6d962d3210d5e499cb9571",
+      "enMarkdown": "**11. Don't Worry about Competitors**",
+      "zhMarkdown": "**11. 不要担心竞争对手**"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "7830b8646eaf8354b05b11b06e1f91625138dadd679832e94da7c3cd432fefcb",
+      "enMarkdown": "When you think you've got a great idea, it's sort of like having a guilty conscience about something. All someone has to do is look at you funny, and you think \"Oh my God, *they know.*\"",
+      "zhMarkdown": "当你觉得自己有一个伟大的点子时，就有点像做贼心虚。只要有人古怪地看你一眼，你就会想：“天哪，*他们知道了*。”"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "5ea1ef026b368d3ec49fdde9952ed65763d94863f12823495bb5ea9859de7b3b",
+      "enMarkdown": "These alarms are almost always false:",
+      "zhMarkdown": "这些警报几乎总是虚惊一场："
+    },
+    {
+      "id": 101,
+      "type": "quote",
+      "sourceHash": "5506e4c2e7efdf352b52a274c2b00cd8698a8e78310498cde329623369707939",
+      "enMarkdown": "> Companies that seemed like competitors and threats at first glance usually never were when you really looked at it. Even if they were operating in the same area, they had a different goal.",
+      "zhMarkdown": "> 那些乍看之下像是竞争对手和威胁的公司，当你真正去研究时，通常根本构不成威胁。即使他们在同一个领域运营，他们的目标也截然不同。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "f837676886dc0291ed4d6c88b703159f3dc840ce56046cb0a32d171feb08f40a",
+      "enMarkdown": "One reason people overreact to competitors is that they overvalue ideas. If ideas really were the key, a competitor with the same idea would be a real threat. But it's usually execution that matters:",
+      "zhMarkdown": "人们对竞争对手过度反应的一个原因是他们高估了点子的价值。如果点子真的是关键，那么一个拥有同样点子的竞争对手确实会是真正的威胁。但通常起决定作用的是执行力："
+    },
+    {
+      "id": 103,
+      "type": "quote",
+      "sourceHash": "4f7557cff87f18255007e8a0eed7af56a53cf634f7c4963b02ba597bb4627bd5",
+      "enMarkdown": "> All the scares induced by seeing a new competitor pop up are forgotten weeks later. It always comes down to your own product and approach to the market.",
+      "zhMarkdown": "> 看到新竞争对手冒出来所引发的所有恐慌，几周后都会被遗忘。归根结底，决定一切的永远是你自己的产品和切入市场的方式。"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "b32bf9a91e2f0ac0221812e750402404537455d5eed6233673146256985168ba",
+      "enMarkdown": "This is generally true even if competitors get lots of attention.",
+      "zhMarkdown": "即使竞争对手获得了大量关注，情况通常也是如此。"
+    },
+    {
+      "id": 105,
+      "type": "quote",
+      "sourceHash": "54311d63d570bb4930edcbcd3623fd97c5cf7b356f6350ee5c77f9121b5a5cfb",
+      "enMarkdown": "> Competitors riding on lots of good blogger perception aren't really the winners and can disappear from the map quickly. You need consumers after all.",
+      "zhMarkdown": "> 那些靠着博主吹捧风光无限的竞争对手，并不见得是真正的赢家，而且很快就会从地图上消失。毕竟，你最终需要的是消费者。"
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "1da4595ead3ba03070e3769dea3f7bfd67a1bc9ddbd877107016068ae291a752",
+      "enMarkdown": "Hype doesn't make satisfied users, at least not for something as complicated as technology.",
+      "zhMarkdown": "炒作无法创造满意的用户，至少对于像技术这样复杂的东西来说是这样。"
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "189c3053e4d80b7571862286fb4491deddb18fde3104c0e507ebf28905088cb6",
+      "enMarkdown": "**12. It's Hard to Get Users**",
+      "zhMarkdown": "**12. 获取用户很难**"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "307e33b812bcb885a67e80a485bcde08c357efd6db3ca58e3b7426ab3aa4480a",
+      "enMarkdown": "A lot of founders complained about how hard it was to get users, though.",
+      "zhMarkdown": "不过，许多创始人都在抱怨获取用户有多难。"
+    },
+    {
+      "id": 109,
+      "type": "quote",
+      "sourceHash": "14fd96250065fb4880539e6c15990e6f7d9b5dc0cfe6593ee53f40cd31b1bc74",
+      "enMarkdown": "> I had no idea how much time and effort needed to go into attaining users.",
+      "zhMarkdown": "> 我以前完全不知道获取用户需要投入多少时间和精力。"
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "eca993bf4099f9cfd008c9b86c6e73aa15b94de93dd7a6eda8864e877fa76d40",
+      "enMarkdown": "This is a complicated topic. When you can't get users, it's hard to say whether the problem is lack of exposure, or whether the product's simply bad. Even good products can be blocked by switching or integration costs:",
+      "zhMarkdown": "这是一个复杂的话题。当你无法获得用户时，很难说问题是因为缺乏曝光，还是产品本身就很糟糕。即使是好产品，也可能因为迁移成本或集成成本而受阻："
+    },
+    {
+      "id": 111,
+      "type": "quote",
+      "sourceHash": "5c7bee8d07fa750be4a315bca775ac2d3ecada4ef09b60ccc2458a5d3ec6b554",
+      "enMarkdown": "> Getting people to use a new service is incredibly difficult. This is especially true for a service that other companies can use, because it requires their developers to do work. If you're small, they don't think it is urgent. [4]",
+      "zhMarkdown": "> 让人们使用一项新服务是极其困难的。对于其他公司可以使用的服务来说尤其如此，因为这需要他们的开发人员动手干活。如果你规模还小，他们不会觉得这有什么紧迫性。[4]"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "e1a517f69033dacacbc5b72298bb6cfcfeef74930f05c0574bcdb2ea2b267f07",
+      "enMarkdown": "The sharpest criticism of YC came from a founder who said we didn't focus enough on customer acquisition:",
+      "zhMarkdown": "对 YC 最尖锐的批评来自一位创始人，他说我们对获客关注不够："
+    },
+    {
+      "id": 113,
+      "type": "quote",
+      "sourceHash": "dbdcf4e4581341bcdbf344731d5629571827bd22aabaea95c6be58a515d4c113",
+      "enMarkdown": "> YC preaches \"make something people want\" as an engineering task, a never ending stream of feature after feature until enough people are happy and the application takes off. There's very little focus on the cost of customer acquisition.",
+      "zhMarkdown": "> YC 把“创造人们想要的东西”宣扬得像是一项工程任务，仿佛只要不断堆砌功能，直到有足够多的人满意，应用就会自然爆发。而对于获取客户的成本，却几乎没有关注。"
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "1def5b89002fe7935aada9676e21c1ca41d5a6921bebff451d5977e196f6e978",
+      "enMarkdown": "This may be true; this may be something we need to fix, especially for applications like games. If you make something where the challenges are mostly technical, you can rely on word of mouth, like Google did. One founder was surprised by how well that worked for him:",
+      "zhMarkdown": "这可能是事实；这也许是我们需要改进的地方，尤其是对于像游戏这样的应用。如果你做的是挑战主要在技术层面的东西，你可以依靠口碑传播，就像谷歌当年那样。一位创始人对他在这方面的顺利程度感到惊讶："
+    },
+    {
+      "id": 115,
+      "type": "quote",
+      "sourceHash": "9a4c42f77b4a7f0c2cba06f35a6af0b96906df46d08b0d3fc91ef91c5ea56670",
+      "enMarkdown": "> There is an irrational fear that no one will buy your product. But if you work hard and incrementally make it better, there is no need to worry.",
+      "zhMarkdown": "> 人们总是有一种非理性的恐惧，担心没人会买自己的产品。但如果你努力工作，循序渐进地把它做好，就完全不用担心。"
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "10f6825a38c16925019d3d1a37b5d5d55795b7528e52e219fdfcc4a7f3913e33",
+      "enMarkdown": "But with other types of startups you may win less by features and more by deals and marketing.",
+      "zhMarkdown": "但对于其他类型的创业公司，你可能不是靠功能取胜，而是靠合作和营销。"
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "6561ae49f3b98a6ab2f1f15007f2d561d20cd6a35c61453ccc0c2b76c3991d8d",
+      "enMarkdown": "**13. Expect the Worst with Deals**",
+      "zhMarkdown": "**13. 对合作抱最坏的打算**"
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "9d51a3e95f67c1ea293fb1df69d1d1135bd44f42d5756a93ff0ec0819c93c2d0",
+      "enMarkdown": "Deals fall through. That's a constant of the startup world. Startups are powerless, and good startup ideas generally seem wrong. So everyone is nervous about closing deals with you, and you have no way to make them.",
+      "zhMarkdown": "合作协议会泡汤。这是创业世界中常有的事。创业公司毫无话语权，而好的创业点子通常看起来又是错的。所以每个人在和你签约时都会感到紧张，而你又没有办法强迫他们。"
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "sourceHash": "64ddaedc5b623891ec14dee60761dd64627f717ac1d1474d5d14b8b939805efa",
+      "enMarkdown": "This is particularly true with investors:",
+      "zhMarkdown": "在面对投资者时尤其如此："
+    },
+    {
+      "id": 120,
+      "type": "quote",
+      "sourceHash": "1c00540fd3694f399f143ba0e44495a97280e1523c8092e6ea61cba7a6215e42",
+      "enMarkdown": "> In retrospect, it would have been much better if we had operated under the assumption that we would never get any additional outside investment. That would have focused us on finding revenue streams early.",
+      "zhMarkdown": "> 回想起来，如果我们当时假设自己永远无法获得任何额外的外部投资来运营，情况会好得多。这会促使我们尽早去寻找收入来源。"
+    },
+    {
+      "id": 121,
+      "type": "paragraph",
+      "sourceHash": "6a80bf230509e433afaa5ed00b1d2355c33b55313ff52b2a45c4ffca3c9c4ba2",
+      "enMarkdown": "My advice is generally pessimistic. Assume you won't get money, and if someone does offer you any, assume you'll never get any more.",
+      "zhMarkdown": "我的建议通常是悲观的。假设你拿不到钱，如果有人真的给你钱，假设你再也拿不到更多的钱。"
+    },
+    {
+      "id": 122,
+      "type": "quote",
+      "sourceHash": "7197dd2d1bb808eb7fa795160f823293a6943f13966378aa1f005ff5bfb5d9c0",
+      "enMarkdown": "> If someone offers you money, take it. You say it a lot, but I think it needs even more emphasizing. We had the opportunity to raise a lot more money than we did last year and I wish we had.",
+      "zhMarkdown": "> 如果有人给你钱，拿着。你经常这么说，但我认为这需要更加强调。我们去年本有机会筹集到比实际多得多的资金，真希望我们当时拿了。"
+    },
+    {
+      "id": 123,
+      "type": "paragraph",
+      "sourceHash": "52d9fe150b7dee127d2652623464456015d8f51c9a33ea868d357883fb020b74",
+      "enMarkdown": "Why do founders ignore me? Mostly because they're optimistic by nature. The mistake is to be optimistic about things you can't control. By all means be optimistic about your ability to make something great. But you're asking for trouble if you're optimistic about big companies or investors.",
+      "zhMarkdown": "为什么创始人不听我的？主要是因为他们天生乐观。错误在于对你无法控制的事情保持乐观。你完全应该对自已创造伟大产品的能力保持乐观。但如果你对大公司或投资者抱有乐观态度，那你就是在自找麻烦。"
+    },
+    {
+      "id": 124,
+      "type": "paragraph",
+      "sourceHash": "da58d508d2a485e653b6948220e5a8a9ba96e2cbe9b1d6e42dec73a2344c92d1",
+      "enMarkdown": "**14. Investors Are Clueless**",
+      "zhMarkdown": "**14. 投资者其实什么都不懂**"
+    },
+    {
+      "id": 125,
+      "type": "paragraph",
+      "sourceHash": "33bfbdfbf4b90de9d62031e4f7531443e9597c5722feb2877d85809326f2cf51",
+      "enMarkdown": "A lot of founders mentioned how surprised they were by the cluelessness of investors:",
+      "zhMarkdown": "许多创始人提到，他们对投资者的无知感到多么惊讶："
+    },
+    {
+      "id": 126,
+      "type": "quote",
+      "sourceHash": "86edb15b1e3e602f6bc32a2916d498240f03e35659317c58fe0dc4548334a012",
+      "enMarkdown": "> They don't even know about the stuff they've invested in. I met some investors that had invested in a hardware device and when I asked them to demo the device they had difficulty switching it on.",
+      "zhMarkdown": "> 他们甚至对自己投资的东西一无所知。我遇到过一些投资了硬件设备的投资者，当我让他们演示一下时，他们连开机都费劲。"
+    },
+    {
+      "id": 127,
+      "type": "paragraph",
+      "sourceHash": "1cfc220cb8e4a1ccd8161531ea7016a04b6beff7da5ea63fe234dc770b77832a",
+      "enMarkdown": "Angels are a bit better than VCs, because they usually have startup experience themselves:",
+      "zhMarkdown": "天使投资人比风投要好一些，因为他们通常自己也有过创业经历："
+    },
+    {
+      "id": 128,
+      "type": "quote",
+      "sourceHash": "d070f44bc3c8b59976dc9068542b31d01aae38581919e554ba41458c832b4b5c",
+      "enMarkdown": "> VC investors don't know half the time what they are talking about and are years behind in their thinking. A few were great, but 95% of the investors we dealt with were unprofessional, didn't seem to be very good at business or have any kind of creative vision. Angels were generally much better to talk to.",
+      "zhMarkdown": "> 风险投资人有一半时间不知道自己在说什么，他们的思维落后了好几年。有少数几个很棒，但我们打过交道的投资者中，有 95% 都显得很不专业，似乎不太懂商业，也没有任何创造性的愿景。相比之下，天使投资人通常要好聊得多。"
+    },
+    {
+      "id": 129,
+      "type": "paragraph",
+      "sourceHash": "ead679d40cfaacb56a2c49d00ff79fb81d4f24ae45b994fd658a5fb75cb629e9",
+      "enMarkdown": "Why are founders surprised that VCs are clueless? I think it's because they seem so formidable.",
+      "zhMarkdown": "为什么创始人会对风投的无知感到惊讶？我想是因为风投看起来太强大、太专业了。"
+    },
+    {
+      "id": 130,
+      "type": "paragraph",
+      "sourceHash": "73511c3710f2fe463f467ddd88bd7c387a3584a76c8cc3ff84b6b4ddae11f431",
+      "enMarkdown": "The reason VCs seem formidable is that it's their profession to. You get to be a VC by convincing asset managers to trust you with hundreds of millions of dollars. How do you do that? You have to seem confident, and you have to seem like you understand technology. [[5](#f5n)]",
+      "zhMarkdown": "风投看起来强大，是因为他们的职业要求他们必须如此。你之所以能成为风投，是因为你说服了资产管理机构信任你，把数亿美元交给你管理。你是怎么做到的？你必须显得自信，必须显得自己很懂技术。[[5](#f5n)]"
+    },
+    {
+      "id": 131,
+      "type": "paragraph",
+      "sourceHash": "0a934c2c1215853aae27c4846e39cc8cc4a87e848e1e2069837b5213c65dd208",
+      "enMarkdown": "**15. You May Have to Play Games**",
+      "zhMarkdown": "**15. 你可能不得不玩一些套路**"
+    },
+    {
+      "id": 132,
+      "type": "paragraph",
+      "sourceHash": "8ac09b4c1a811a7436714942e2f502a8662bd897757976b385dd4aa71c2a844f",
+      "enMarkdown": "Because investors are so bad at judging you, you have to work harder than you should at selling yourself. One founder said the thing that surprised him most was",
+      "zhMarkdown": "因为投资者非常不擅长评估你，所以你必须在自我推销上付出超出应有分量的努力。一位创始人说，最让他意外的是"
+    },
+    {
+      "id": 133,
+      "type": "quote",
+      "sourceHash": "f322ef4a20393a3bdfee32a65775711daff3db47ecd530ddd2016bae3be6b500",
+      "enMarkdown": "> The degree to which feigning certitude impressed investors.",
+      "zhMarkdown": "> 伪装出来的笃定感在多大程度上能打动投资者。"
+    },
+    {
+      "id": 134,
+      "type": "paragraph",
+      "sourceHash": "54ea850bb6380d9dd4871a137df0e4189f3adeb7533e2f20a9fb4b2bd8743e51",
+      "enMarkdown": "This is the thing that has surprised *me* most about YC founders' experiences. This summer we invited some of the alumni to talk to the new startups about fundraising, and pretty much 100% of their advice was about investor psychology. I thought I was cynical about VCs, but the founders were much more cynical.",
+      "zhMarkdown": "这是最让*我*对 YC 创始人的经历感到意外的一点。今年夏天，我们邀请了一些校友来跟新一期创业公司分享融资经验，他们几乎 100% 的建议都关乎投资者的心理。我以为自己对风投已经够刻薄了，但创始人们比我更刻薄。"
+    },
+    {
+      "id": 135,
+      "type": "quote",
+      "sourceHash": "f457548ca659e589f0d38c60130b2d3d6b3cbde42855d5c3c719636fcbcca017",
+      "enMarkdown": "> A lot of what startup founders do is just posturing. It works.",
+      "zhMarkdown": "> 创业创始人做的很多事情其实就是装腔作势。但它确实管用。"
+    },
+    {
+      "id": 136,
+      "type": "paragraph",
+      "sourceHash": "89359e941f6e9a8a08399eb3c66976e069cc9fb0c9a33ffe13312630bb367c11",
+      "enMarkdown": "VCs themselves have no idea of the extent to which the startups they like are the ones that are best at selling themselves to VCs. [[6](#f6n)] It's exactly the same phenomenon we saw a step earlier. VCs get money by seeming confident to LPs, and founders get money by seeming confident to VCs.",
+      "zhMarkdown": "风投们自己根本不知道，他们青睐的创业公司，往往正是那些最擅长向风投推销自己的公司。[[6](#f6n)] 这和我们前一步看到的现象完全一致。风投通过在有限合伙人（LP）面前显得自信来拿到钱，而创始人通过在风投面前显得自信来拿到钱。"
+    },
+    {
+      "id": 137,
+      "type": "paragraph",
+      "sourceHash": "e0899a8d3e5bb357b3d75dae64d28ceeb43835fcea4ff7665a1f2e59074c1b29",
+      "enMarkdown": "**16. Luck Is a Big Factor**",
+      "zhMarkdown": "**16. 运气是一个巨大的因素**"
+    },
+    {
+      "id": 138,
+      "type": "paragraph",
+      "sourceHash": "45c71ac64a40488888b225a25d985ec46b477e695aafb5ea7a401fdab173c356",
+      "enMarkdown": "With two such random linkages in the path between startups and money, it shouldn't be surprising that luck is a big factor in deals. And yet a lot of founders are surprised by it.",
+      "zhMarkdown": "在创业公司和资金之间存在着两个如此随机的环节，运气在交易中扮演着巨大角色也就不足为奇了。然而，许多创始人依然对此感到意外。"
+    },
+    {
+      "id": 139,
+      "type": "quote",
+      "sourceHash": "b075660622f84b7757a9d4e35b3f319c4fb0a3e7d78003def023af67c82c3c64",
+      "enMarkdown": "> I didn't realize how much of a role luck plays and how much is outside of our control.",
+      "zhMarkdown": "> 我以前没有意识到运气扮演了多么重要的角色，以及有多少事情是在我们控制之外的。"
+    },
+    {
+      "id": 140,
+      "type": "paragraph",
+      "sourceHash": "dea13a8341f6fa185e173681b1b7cdd7028078d790f83a201280918cfc5df3b3",
+      "enMarkdown": "If you think about famous startups, it's pretty clear how big a role luck plays. Where would Microsoft be if IBM insisted on an exclusive license for DOS?",
+      "zhMarkdown": "如果你想想那些著名的创业公司，运气扮演的角色有多大是显而易见的。如果当年 IBM 坚持要 DOS 的排他性许可，微软今天会在哪里？"
+    },
+    {
+      "id": 141,
+      "type": "paragraph",
+      "sourceHash": "765392694a814f419cadc7dd1f5ee86d99d7aa02fb536b128783d53bd4dddf40",
+      "enMarkdown": "Why are founders fooled by this? Business guys probably aren't, but hackers are used to a world where skill is paramount, and you get what you deserve.",
+      "zhMarkdown": "为什么创始人会被这个蒙蔽？做业务的人可能不会，但黑客习惯了一个技能至上、一分耕耘一分收获的世界。"
+    },
+    {
+      "id": 142,
+      "type": "quote",
+      "sourceHash": "5565bb34e310c049305e7037877b4c5dc991152740a21f7a6d16ef3804983e92",
+      "enMarkdown": "> When we started our startup, I had bought the hype of the startup founder dream: that this is a game of skill. It is, in some ways. Having skill is valuable. So is being determined as all hell. But being lucky is the critical ingredient.",
+      "zhMarkdown": "> 当我们开始创业时，我轻信了创业创始人梦想的宣传：觉得这是一场技能的游戏。在某些方面确实是的。有技能很有价值，坚韧不拔也同样重要。但运气才是那个关键的原料。"
+    },
+    {
+      "id": 143,
+      "type": "paragraph",
+      "sourceHash": "c972da2a48d5890ea7ad34a257f8e9d5e781da8e36fc7c6ea1c9e6920a13b2ad",
+      "enMarkdown": "Actually the best model would be to say that the outcome is the *product* of skill, determination, and luck. No matter how much skill and determination you have, if you roll a zero for luck, the outcome is zero.",
+      "zhMarkdown": "实际上，最好的模型应该是：结果是技能、决心和运气的*乘积*。无论你有多强的技能和多大的决心，如果你在运气上摇到了零，结果就是零。"
+    },
+    {
+      "id": 144,
+      "type": "paragraph",
+      "sourceHash": "8635e5dc6da546d8eac4a7779c98e0041917fea51adaf77ae171e019cd7cd13f",
+      "enMarkdown": "These quotes about luck are not from founders whose startups failed. Founders who fail quickly tend to blame themselves. Founders who succeed quickly don't usually realize how lucky they were. It's the ones in the middle who see how important luck is.",
+      "zhMarkdown": "这些关于运气的感悟并非来自失败的创业公司创始人。快速失败的创始人往往倾向于归咎于自己；快速成功的创始人通常意识不到自己有多幸运；只有那些卡在中间的人，才看得清运气有多重要。"
+    },
+    {
+      "id": 145,
+      "type": "paragraph",
+      "sourceHash": "0493e911d643a6d92dfea144f8bf17f659156a68946abafeedb028e6631db433",
+      "enMarkdown": "**17. The Value of Community**",
+      "zhMarkdown": "**17. 社群的价值**"
+    },
+    {
+      "id": 146,
+      "type": "paragraph",
+      "sourceHash": "ac1b1295a0955dfb3ce78be5a427b896f283467e03e551cfd94418eb905544d3",
+      "enMarkdown": "A surprising number of founders said what surprised them most about starting a startup was the value of community. Some meant the micro-community of YC founders:",
+      "zhMarkdown": "令人惊讶的是，有许多创始人表示，创业最让他们感到意外的是社群的价值。有些人指的是 YC 创始人这个微型社群："
+    },
+    {
+      "id": 147,
+      "type": "quote",
+      "sourceHash": "31a153bfc8525f116cca95471d08775088c504a68b777790bfccb7ed54658cc7",
+      "enMarkdown": "> The immense value of the peer group of YC companies, and facing similar obstacles at similar times.",
+      "zhMarkdown": "> YC 同期公司这个同辈群体的巨大价值，大家在相似的时间面临着相似的障碍。"
+    },
+    {
+      "id": 148,
+      "type": "paragraph",
+      "sourceHash": "348964a8a3f66e244837702bb0845b1b71f7085ad368423b9d62e6f71396814c",
+      "enMarkdown": "which shouldn't be that surprising, because that's why it's structured that way. Others were surprised at the value of the startup community in the larger sense:",
+      "zhMarkdown": "这不应该太让人意外，因为这正是 YC 机制设计的初衷。另一些人则对更广泛意义上的创业社群的价值感到惊讶："
+    },
+    {
+      "id": 149,
+      "type": "quote",
+      "sourceHash": "3fa0fc56ddf3ed84abcb9f6a06a08642d67c07adf414a7689bf3618deb40abb3",
+      "enMarkdown": "> How advantageous it is to live in Silicon Valley, where you can't help but hear all the cutting-edge tech and startup news, and run into useful people constantly.",
+      "zhMarkdown": "> 住在硅谷是多么有优势，在这里你免不了会听到所有最前沿的技术和创业消息，并且能不断遇到对你有帮助的人。"
+    },
+    {
+      "id": 150,
+      "type": "paragraph",
+      "sourceHash": "92f2b76c838c84fe530a4c5a3e8e510d84094417e7c71cb151dc4ccaa354da55",
+      "enMarkdown": "The specific thing that surprised them most was the general spirit of benevolence:",
+      "zhMarkdown": "最让他们感到意外的具体事情，是那种普遍存在的善意精神："
+    },
+    {
+      "id": 151,
+      "type": "quote",
+      "sourceHash": "038edae59d344d89912b1ae45785a34d4bff74b2208d5ff5d081c0595e809ad4",
+      "enMarkdown": "> One of the most surprising things I saw was the willingness of people to help us. Even people who had nothing to gain went out of their way to help our startup succeed.",
+      "zhMarkdown": "> 我看到的最令人惊讶的事情之一，是人们帮助我们的意愿。即使是那些毫无利益关系的人，也会不遗余力地帮助我们的创业公司取得成功。"
+    },
+    {
+      "id": 152,
+      "type": "paragraph",
+      "sourceHash": "8c54815f43b1df50e3a4dc76f2736ec05ee106fc8e7942956fa25bcdf50dba32",
+      "enMarkdown": "and particularly how it extended all the way to the top:",
+      "zhMarkdown": "尤其是这种善意一直延伸到了最顶层："
+    },
+    {
+      "id": 153,
+      "type": "quote",
+      "sourceHash": "6653741c73bbd2818242c8d49879d0d91440effa8e3b23dc06ba60949c727619",
+      "enMarkdown": "> The surprise for me was how accessible important and interesting people are. It's amazing how easily you can reach out to people and get immediate feedback.",
+      "zhMarkdown": "> 让我感到意外的是，那些重要且有趣的人是多么容易接触到。令人惊叹的是，你可以如此轻松地联系到他们并获得即时反馈。"
+    },
+    {
+      "id": 154,
+      "type": "paragraph",
+      "sourceHash": "e241743b45f3b220063b3be9e87fc93128c0262abc21e66dc2afb59061f41a52",
+      "enMarkdown": "This is one of the reasons I like being part of this world. Creating wealth is not a zero-sum game, so you don't have to stab people in the back to win.",
+      "zhMarkdown": "这也是我喜欢身处这个世界的原因之一。创造财富不是零和博弈，所以你不需要靠在别人背后捅刀子来赢。"
+    },
+    {
+      "id": 155,
+      "type": "paragraph",
+      "sourceHash": "3ecab807db9e2715f57ed6f5cef5cd3b2c5fed75cab44a8ca5a8481d9d5561e2",
+      "enMarkdown": "**18. You Get No Respect**",
+      "zhMarkdown": "**18. 你得不到尊重**"
+    },
+    {
+      "id": 156,
+      "type": "paragraph",
+      "sourceHash": "48fce461efe6e291b942bad68d274ea4774761493166bb466fa1214904cb52f1",
+      "enMarkdown": "There was one surprise founders mentioned that I'd forgotten about: that outside the startup world, startup founders get no respect.",
+      "zhMarkdown": "创始人提到过一个我已经遗忘的意外：在创业圈之外，创业创始人得不到任何尊重。"
+    },
+    {
+      "id": 157,
+      "type": "quote",
+      "sourceHash": "9992a27422b08751f34a3243e4d7ead26e99686c26ed65c391cb472fcecd964a",
+      "enMarkdown": "> In social settings, I found that I got a lot more respect when I said, \"I worked on Microsoft Office\" instead of \"I work at a small startup you've never heard of called x.\"",
+      "zhMarkdown": "> 在社交场合，我发现当我说“我在微软 Office 部门工作”时，得到的尊重远比说“我在一家你从未听说过、叫作 X 的小创业公司工作”要多得多。"
+    },
+    {
+      "id": 158,
+      "type": "paragraph",
+      "sourceHash": "a96e22f2c8d3ebcf88c0ebf127111bf371cdbdc01c132549ea41658cf68bef72",
+      "enMarkdown": "Partly this is because the rest of the world just doesn't get startups, and partly it's yet another consequence of the fact that most good startup ideas seem bad:",
+      "zhMarkdown": "部分原因在于外界根本不理解创业，另一部分原因在于大多数好的创业点子看起来都很糟糕，这又是这一事实的另一个后果："
+    },
+    {
+      "id": 159,
+      "type": "quote",
+      "sourceHash": "d71f070797f9f0c4640429212c0042699be955dad4bce72fdebcbbddc9895576",
+      "enMarkdown": "> If you pitch your idea to a random person, 95% of the time you'll find the person instinctively thinks the idea will be a flop and you're wasting your time (although they probably won't say this directly).",
+      "zhMarkdown": "> 如果你把点子讲给一个路人听，95% 的情况下，你会发现对方本能地认为这个点子会泡汤，觉得你在浪费时间（尽管他们可能不会直接说出来）。"
+    },
+    {
+      "id": 160,
+      "type": "paragraph",
+      "sourceHash": "a6ea50ecec87c427004e42a3345ed460eedc05834304ae43a90ec46e329ecead",
+      "enMarkdown": "Unfortunately this extends even to dating:",
+      "zhMarkdown": "不幸的是，这种情况甚至延伸到了约会中："
+    },
+    {
+      "id": 161,
+      "type": "quote",
+      "sourceHash": "8cef39c6618f4ea4af75e8753fc147364e26bbef76b868390e6b953a841447e0",
+      "enMarkdown": "> It surprised me that being a startup founder does not get you more admiration from women.",
+      "zhMarkdown": "> 让我感到意外的是，当一个创业创始人并不会让你在女性那里获得更多钦佩。"
+    },
+    {
+      "id": 162,
+      "type": "paragraph",
+      "sourceHash": "e32c7f08fa092cca2395b8aff2f007bd541892c00725a0caa41dd272721e1bb8",
+      "enMarkdown": "I did know about that, but I'd forgotten.",
+      "zhMarkdown": "我确实知道这点，但我忘了。"
+    },
+    {
+      "id": 163,
+      "type": "paragraph",
+      "sourceHash": "dabc8f446b9f0e00175a9321ee87a0cc5716b798e3c28490d080880931d230df",
+      "enMarkdown": "**19. Things Change as You Grow**",
+      "zhMarkdown": "**19. 随着公司的成长，一切都会改变**"
+    },
+    {
+      "id": 164,
+      "type": "paragraph",
+      "sourceHash": "82b0eb5c3b40bbc9f76a78aced3416707a93a59dbcb2e41d14e43ca21cd56fa7",
+      "enMarkdown": "The last big surprise founders mentioned is how much things changed as they grew. The biggest change was that you got to program even less:",
+      "zhMarkdown": "创始人提到的最后一个大意外是，随着公司的成长，事情发生了多么剧烈的变化。最大的变化在于你写代码的时间更少了："
+    },
+    {
+      "id": 165,
+      "type": "quote",
+      "sourceHash": "9dd4a93a52e73996dbd9fe3a5de7a027b0f00967b8af9a3025724fdb3c5ae077",
+      "enMarkdown": "> Your job description as technical founder/CEO is completely rewritten every 6-12 months. Less coding, more managing/planning/company building, hiring, cleaning up messes, and generally getting things in place for what needs to happen a few months from now.",
+      "zhMarkdown": "> 作为技术创始人/CEO，你的工作职责每 6 到 12 个月就会被彻底重写一次。更少的写代码，更多的管理/规划/公司建设、招聘、收拾烂摊子，以及通盘筹划几个月后需要发生的事情。"
+    },
+    {
+      "id": 166,
+      "type": "paragraph",
+      "sourceHash": "61d799f5117f4abb16fecd6d95375a0f3b5b1a4d23bddcc4dd044d7134d14463",
+      "enMarkdown": "In particular, you now have to deal with employees, who often have different motivations:",
+      "zhMarkdown": "特别是，你现在必须和员工打交道，而他们的动力往往与你不同："
+    },
+    {
+      "id": 167,
+      "type": "quote",
+      "sourceHash": "219fc0307cfbdbee35133d7d801add2edbd968f332105f59d3bc166ea32e486b",
+      "enMarkdown": "> I knew the founder equation and had been focused on it since I knew I wanted to start a startup as a 19 year old. The employee equation is quite different so it took me a while to get it down.",
+      "zhMarkdown": "> 我从 19 岁想创业起就了解创始人的逻辑，并一直关注它。但员工的逻辑完全不同，所以我花了好一阵子才摸索明白。"
+    },
+    {
+      "id": 168,
+      "type": "paragraph",
+      "sourceHash": "1e65628cec7c222353e3e62d701b7ba541fd90254061317356ad99280e39ae2d",
+      "enMarkdown": "Fortunately, it can become a lot less stressful once you reach cruising altitude:",
+      "zhMarkdown": "幸运的是，一旦你达到巡航高度，压力就会小得多："
+    },
+    {
+      "id": 169,
+      "type": "quote",
+      "sourceHash": "b2c7532a11baab92c0c601ed78a008175abeee810d7d808b11c6c6d22975418c",
+      "enMarkdown": "> I'd say 75% of the stress is gone now from when we first started. Running a business is so much more enjoyable now. We're more confident. We're more patient. We fight less. We sleep more.",
+      "zhMarkdown": "> 我想说，与刚开始相比，现在 75% 的压力已经消失了。现在经营一家公司要愉快得多。我们更自信了，更有耐心了，争吵变少了，睡眠变多了。"
+    },
+    {
+      "id": 170,
+      "type": "paragraph",
+      "sourceHash": "6d7d6d8f606f2b9aec0ba2abc570cc16f7525db57762f6c9bf9ec67a34ad8eb8",
+      "enMarkdown": "I wish I could say it was this way for every startup that succeeded, but 75% is probably on the high side.",
+      "zhMarkdown": "我希望对于每一个成功的创业公司来说都是如此，但 75% 的压力减轻幅度可能有点偏高了。"
+    },
+    {
+      "id": 171,
+      "type": "paragraph",
+      "sourceHash": "91b72f92d1cb22aaee6fcdc97108ecf413dc4899f767ba6e13e552dacd06691a",
+      "enMarkdown": "**The Super-Pattern**",
+      "zhMarkdown": "**终极规律**"
+    },
+    {
+      "id": 172,
+      "type": "paragraph",
+      "sourceHash": "335337d61e709ca6c21d7197edac168b00e52b274eb95e40fa2d739271016f3f",
+      "enMarkdown": "There were a few other patterns, but these were the biggest. One's first thought when looking at them all is to ask if there's a super-pattern, a pattern to the patterns.",
+      "zhMarkdown": "还有一些其他的规律，但这些是主要的。看到这些规律，人们的第一反应是问：是否存在一个“终极规律”，一个规律背后的规律？"
+    },
+    {
+      "id": 173,
+      "type": "paragraph",
+      "sourceHash": "0f1de4209863dba329c7b1f38c5d29e0b7d9bc1eca70d851761bd8da615888fc",
+      "enMarkdown": "I saw it immediately, and so did a YC founder I read the list to. These are supposed to be the surprises, the things I didn't tell people. What do they all have in common? They're all things I tell people. If I wrote a new essay with the same outline as this that wasn't summarizing the founders' responses, everyone would say I'd run out of ideas and was just repeating myself.",
+      "zhMarkdown": "我立刻就看出来了，我把这个列表读给一位 YC 创始人听时，他也看出来了。这些本该是让我意外的事，是我没告诉大家的事。它们有什么共同点？它们全都是我一直在告诉大家的事。如果我用同样的提纲写一篇新文章，而不是总结创始人们的回复，每个人都会说我已经江郎才尽，只是在不断重复自己。"
+    },
+    {
+      "id": 174,
+      "type": "paragraph",
+      "sourceHash": "5c428f1530b19f4cd4654054738d3014046033e45379f2ca39f4facbe7412683",
+      "enMarkdown": "What is going on here?",
+      "zhMarkdown": "这到底是怎么回事？"
+    },
+    {
+      "id": 175,
+      "type": "paragraph",
+      "sourceHash": "13931433bbcc77ba7a72500229026fec148b5c37cb33052a3c2e295e8ee75ac6",
+      "enMarkdown": "When I look at the responses, the common theme is that starting a startup was like I said, but way more so. People just don't seem to get how different it is till they do it. Why? The key to that mystery is to ask, how different *from what?* Once you phrase it that way, the answer is obvious: from a job. Everyone's model of work is a job. It's completely pervasive. Even if you've never had a job, your parents probably did, along with practically every other adult you've met.",
+      "zhMarkdown": "当我看着这些回复时，共同的主题是：创业确实就像我说的那样，但程度要剧烈得多。人们在亲身实践之前，似乎就是无法理解它有多么不同。为什么？解开这个谜团的关键在于问一句：它和*什么*不同？一旦你这样提问，答案就显而易见了：和一份普通工作不同。每个人的工作模型都是打工，这无处不在。即使你从未打过工，你的父母很可能打过，你遇到的几乎所有其他成年人也是如此。"
+    },
+    {
+      "id": 176,
+      "type": "paragraph",
+      "sourceHash": "00812a9b5af02f03dffefc8a91b1177d734769c713276d08799f83f55157caa6",
+      "enMarkdown": "Unconsciously, everyone expects a startup to be like a job, and that explains most of the surprises. It explains why people are surprised how carefully you have to choose cofounders and how hard you have to work to maintain your relationship. You don't have to do that with coworkers. It explains why the ups and downs are surprisingly extreme. In a job there is much more damping. But it also explains why the good times are surprisingly good: most people can't imagine such freedom. As you go down the list, almost all the surprises are surprising in how much a startup differs from a job.",
+      "zhMarkdown": "潜意识里，每个人都期望创业就像打工一样，这解释了绝大多数的意外。它解释了为什么人们会惊讶于必须如此小心地选择联合创始人，以及必须付出多大的努力来维持彼此的关系。你不需要对同事这么做。它解释了为什么起伏会如此剧烈。在打工时，有大得多的缓冲。但它也解释了为什么好时光会如此美好：大多数人无法想象这样的自由。当你顺着列表看下去，几乎所有的意外之所以令人意外，都在于创业与打工之间的巨大差异。"
+    },
+    {
+      "id": 177,
+      "type": "paragraph",
+      "sourceHash": "1aeb2f171d6f679ad3437f2f6dea33c1a9df106e229c2830965c2208b735606d",
+      "enMarkdown": "You probably can't overcome anything so pervasive as the model of work you grew up with. So the best solution is to be consciously aware of that. As you go into a startup, you'll be thinking \"everyone says it's really extreme.\" Your next thought will probably be \"but I can't believe it will be that bad.\" If you want to avoid being surprised, the next thought after that should be: \"and the reason I can't believe it will be that bad is that my model of work is a job.\"",
+      "zhMarkdown": "你可能无法克服像你从小接触到的“工作模型”这样根深蒂固的东西。所以最好的解决办法是保持自觉。当你投身创业时，你会想“大家都说这非常极端”。你的下一个想法可能是“但我不相信会那么糟”。如果你想避免被意外击倒，那么紧接着的下一个想法应该是：“而我之所以不相信会那么糟，是因为我的工作模型依然是打工。”"
+    },
+    {
+      "id": 178,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 179,
+      "type": "paragraph",
+      "sourceHash": "665464da737b809b1ae613dc797596cffa0eac559f88faeabc671bffab5611e4",
+      "enMarkdown": "[1] Graduate students might understand it. In grad school you always feel you should be working on your thesis. It doesn't end every semester like classes do.",
+      "zhMarkdown": "[1] 研究生可能会理解。在读研时，你总是觉得应该在写论文。它不会像本科课程那样每学期都结束。"
+    },
+    {
+      "id": 180,
+      "type": "paragraph",
+      "sourceHash": "7790da5649c24e1d7bfbca238d0ca8f5cd42976302f7e043ebea05f65eda7511",
+      "enMarkdown": "[2] The best way for a startup to engage with slow-moving organizations is to fork off separate processes to deal with them. It's when they're on the critical path that they kill you—when you depend on closing a deal to move forward. It's worth taking extreme measures to avoid that.",
+      "zhMarkdown": "[2] 创业公司与行动缓慢的组织打交道的最好方式，是分流出单独的流程去应对他们。当他们处于关键路径上时——比如当你依赖于谈成一笔交易才能往前走时——他们会要了你的命。值得采取极端措施来避免这种情况。"
+    },
+    {
+      "id": 181,
+      "type": "paragraph",
+      "sourceHash": "01d413c3ca0f86db7a3f9fa4a2cacb998e188edd0c1349452f3dd3a4100ace02",
+      "enMarkdown": "[3] This is a variant of Reid Hoffman's principle that if you aren't embarrassed by what you launch with, you waited too long to launch.",
+      "zhMarkdown": "[3] 这是 Reid Hoffman 原则的一个变体：如果你不为自己发布的第一版产品感到尴尬，说明你上线得太晚了。"
+    },
+    {
+      "id": 182,
+      "type": "paragraph",
+      "sourceHash": "e2d9034cceed272a0950923636b359b42fc51cca56ed121f63fe12a317eb304b",
+      "enMarkdown": "[4] The question to ask about what you've built is not whether it's good, but whether it's good enough to supply the activation energy required.",
+      "zhMarkdown": "[4] 对于你做出来的东西，要问的不是它好不好，而是它是否好到足以提供所需的启动能量。"
+    },
+    {
+      "id": 183,
+      "type": "paragraph",
+      "sourceHash": "3e55bc35edf42070abb08898f35ffa8378d8e882ec792ac1ab0e0c676453e36f",
+      "enMarkdown": "[5] Some VCs seem to understand technology because they actually do, but that's overkill; the defining test is whether you can talk about it well enough to convince limited partners.",
+      "zhMarkdown": "[5] 有些风投似乎懂技术，因为他们确实懂，但这其实过剩了；决定性的测试在于，你是否能把技术说得足够好，以说服有限合伙人（LP）。"
+    },
+    {
+      "id": 184,
+      "type": "paragraph",
+      "sourceHash": "249579765f63f3b09f7af61ffc482c263bedaf154eee923ebea5d382bbc6e495",
+      "enMarkdown": "[6] This is the same phenomenon you see with defense contractors or fashion brands. The dumber the customers, the more effort you expend on the process of selling things to them rather than making the things you sell.",
+      "zhMarkdown": "[6] 这与你在国防承包商或时尚品牌身上看到的现象完全一样。客户越傻，你花在如何向他们推销东西上的精力就越多，而不是花在制造你所销售的产品上。"
+    },
+    {
+      "id": 185,
+      "type": "paragraph",
+      "sourceHash": "bec16c15b6ed5a73ad5e15e0ccb42a45984de0dd6bcc9296c877a93fa4d9694f",
+      "enMarkdown": "**Thanks:** to Jessica Livingston for reading drafts of this, and to all the founders who responded to my email.",
+      "zhMarkdown": "**感谢：** 感谢 Jessica Livingston 阅读本文草稿，并感谢所有回复我邮件的创始人。"
+    },
+    {
+      "id": 186,
+      "type": "paragraph",
+      "sourceHash": "44f2efebd4ecadb579a8d1ef2f48651513e02509cd86de59ae335d4103a67110",
+      "enMarkdown": "**Related:**",
+      "zhMarkdown": "**相关链接：**"
+    }
+  ]
+}

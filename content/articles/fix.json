@@ -1,0 +1,195 @@
+{
+  "slug": "fix",
+  "titleEn": "What Languages Fix",
+  "titleZh": "编程语言解决的问题",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 214,
+  "sourceUrl": "https://paulgraham.com/fix.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "e278ab44c4b984cbe1d55a3217e4779f98ad99d3830331f0b846d09042dfa2c2",
+      "enMarkdown": "Kevin Kelleher suggested an interesting way to compare programming languages: to describe each in terms of the problem it fixes. The surprising thing is how many, and how well, languages can be described this way.",
+      "zhMarkdown": "凯文·凯莱赫（Kevin Kelleher）提出了一种有趣的编程语言对比方法：用每种语言所解决的问题来描述它。令人惊讶的是，竟然有如此多的语言可以用这种方式来描述，而且描述得如此贴切。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "ac507b36b186d73a8f486dbd938a7789ecb2a971832a0737a1ad70003965a76b",
+      "enMarkdown": "**Algol:** Assembly language is too low-level.",
+      "zhMarkdown": "**Algol：** 汇编语言太底层了。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "59be9f600cd870c557d8350e3591b1d52240f6f36cbe54effe2696d6a3e1cc85",
+      "enMarkdown": "**Pascal:** Algol doesn't have enough data types.",
+      "zhMarkdown": "**Pascal：** Algol 的数据类型不够多。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a0ec098aaec07dd8de937520a2bd437da233d5bca619a1fb33c1cf5117f7bf8f",
+      "enMarkdown": "**Modula:** Pascal is too wimpy for systems programming.",
+      "zhMarkdown": "**Modula：** Pascal 用来做系统编程太软弱了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "3b15ca0e6e7b87a28a0d1f2eeace99e30163ca03ff718d6d752d325341ddaa50",
+      "enMarkdown": "**Simula:** Algol isn't good enough at simulations.",
+      "zhMarkdown": "**Simula：** Algol 不太适合做模拟。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "e2be0c9725eb9e63c8a7eddbfc9537bbd802081af3f18b4d21014abbcac9ceaf",
+      "enMarkdown": "**Smalltalk:** Not everything in Simula is an object.",
+      "zhMarkdown": "**Smalltalk：** Simula 里面并非一切皆对象。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "fd9a6dbe86612d992f60a3cd18c084e3ea6d87f08bb30455d3a97586c0df4268",
+      "enMarkdown": "**Fortran:** Assembly language is too low-level.",
+      "zhMarkdown": "**Fortran：** 汇编语言太底层了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4f3be0245f7732bce039a7db8dc382bc6a4f9f2b41a8d693d8c8d6988a62ce90",
+      "enMarkdown": "**Cobol:** Fortran is scary.",
+      "zhMarkdown": "**Cobol：** Fortran 太吓人了。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9c78222153c85a40c388f9b943e3bcefc8a960889310563a0f5ae2ad12ea6f72",
+      "enMarkdown": "**PL/1:** Fortran doesn't have enough data types.",
+      "zhMarkdown": "**PL/1：** Fortran 的数据类型不够多。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "36f8d30f0d6d4ad153cf87c3f83f602ead30a9dcd3f3dcf9635b20a635587864",
+      "enMarkdown": "**Ada:** Every existing language is missing something.",
+      "zhMarkdown": "**Ada：** 现有的所有语言都缺了点东西。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "521f301bf848807f188554560db9ad79f7614a75ad73790f69ab89b3fa62aac5",
+      "enMarkdown": "**Basic:** Fortran is scary.",
+      "zhMarkdown": "**Basic：** Fortran 太吓人了。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "b3bfcd89e303d7084e317058bee5d78a0ce5a6514c6cf4b242f2cf43d37c18eb",
+      "enMarkdown": "**APL:** Fortran isn't good enough at manipulating arrays.",
+      "zhMarkdown": "**APL：** Fortran 在处理数组方面不够好。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "05bb840681069611960ed0e0bfe4a89f593863a289c66f6e8b3e01987ddacc7d",
+      "enMarkdown": "**J:** APL requires its own character set.",
+      "zhMarkdown": "**J：** APL 需要自己专属的字符集。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "09e86d519a0e9963884801e3a151daa96d5c44b1532954481a0a39aee64b527a",
+      "enMarkdown": "**C:** Assembly language is too low-level.",
+      "zhMarkdown": "**C：** 汇编语言太底层了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "32add4cec1f4167964fb08bd0083a0897acbb57a80a6f228edb4b84d04f49b6a",
+      "enMarkdown": "**C++:** C is too low-level.",
+      "zhMarkdown": "**C++：** C 语言太底层了。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "64fe23d27fb8a50ce9db2b6d6e344a95f0383cf89d923062ac0e15bdafb3ec9f",
+      "enMarkdown": "**Java:** C++ is a kludge. And Microsoft is going to crush us.",
+      "zhMarkdown": "**Java：** C++ 是一个拼凑出来的烂摊子。而且微软要捏死我们了。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "d1644d681abe88b0e5e56eba5a5b899da16365cf3c071c7646730802e1b8fece",
+      "enMarkdown": "**C#:** Java is controlled by Sun.",
+      "zhMarkdown": "**C#：** Java 被 Sun 公司控制了。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "3aaa4dc361d86e13cbbdb51c55a6b4c5f9f79ce3fb1c619afcda9abbc51d68f7",
+      "enMarkdown": "**Lisp:** Turing Machines are an awkward way to describe computation.",
+      "zhMarkdown": "**Lisp：** 用图灵机来描述计算太别扭了。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "04fef93c95eea0bf0b3ebe2c72b3007a60abcc3cc459ec63e88ca3bf4ca4b9fc",
+      "enMarkdown": "**Scheme:** MacLisp is a kludge.",
+      "zhMarkdown": "**Scheme：** MacLisp 是一个拼凑出来的烂摊子。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "8dcaf4d1fe9b6a6f62331815b14f87b86c9b65c79bd1f674a4fd740707efebad",
+      "enMarkdown": "**T:** Scheme has no libraries.",
+      "zhMarkdown": "**T：** Scheme 没有库。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f1b93a7bcf00ced0ffa46509834146bb35547f7b25fd35e48f97e722497550d9",
+      "enMarkdown": "**Common Lisp:** There are too many dialects of Lisp.",
+      "zhMarkdown": "**Common Lisp：** Lisp 的方言太多了。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "214fc03e57215cad3227adbca76ceb2f459174ab387905115fc2f339d1dba789",
+      "enMarkdown": "**Dylan:** Scheme has no libraries, and Lisp syntax is scary.",
+      "zhMarkdown": "**Dylan：** Scheme 没有库，而且 Lisp 的语法太吓人了。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "c42ecd1aadddc041c58038b81eff88204282da152e337a9bb20f01772b40c416",
+      "enMarkdown": "**Perl:** Shell scripts/awk/sed are not enough like programming languages.",
+      "zhMarkdown": "**Perl：** Shell 脚本/awk/sed 看起来不太像真正的编程语言。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "a89af193a368cd4b8cd0a6d0390ef37c27581c0075045acb7f3d612660c80240",
+      "enMarkdown": "**Python:** Perl is a kludge.",
+      "zhMarkdown": "**Python：** Perl 是一个拼凑出来的烂摊子。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "119e4b482b98a268bca570d02009a201bf40a2eaf89fcafb6ba337149a50209f",
+      "enMarkdown": "**Ruby:** Perl is a kludge, and Lisp syntax is scary.",
+      "zhMarkdown": "**Ruby：** Perl 是一个拼凑出来的烂摊子，而且 Lisp 的语法太吓人了。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "6a5319c1659731d541968ef23b640efa3fc5b07c7a60227acef542d5ebb49b58",
+      "enMarkdown": "**Prolog:** Programming is not enough like logic.",
+      "zhMarkdown": "**Prolog：** 编程看起来跟逻辑学不太沾边。"
+    }
+  ]
+}

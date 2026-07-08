@@ -1,0 +1,517 @@
+{
+  "slug": "webstartups",
+  "titleEn": "The Future of Web Startups",
+  "titleZh": "互联网创业公司的未来",
+  "dateText": "October 2007",
+  "publishedAt": "2007-10-01",
+  "sourceOrder": 146,
+  "sourceUrl": "https://paulgraham.com/webstartups.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "62eaa4f69b30a4684d507d37aaa7eb4b8c58acebe6b98355e31efda91a7014d2",
+      "enMarkdown": "*(This essay is derived from a keynote at FOWA in October 2007.)*",
+      "zhMarkdown": "*(本文根据 2007 年 10 月在 FOWA 大会上的主题演讲整理而成。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "d35cb44d7b1c371a6024f2685050479ce3766d8b20b7627a91189b46bf835dbe",
+      "enMarkdown": "There's something interesting happening right now. Startups are undergoing the same transformation that technology does when it becomes cheaper.",
+      "zhMarkdown": "眼下正发生着一些有趣的事情。创业公司正在经历一种转型，这种转型与技术在成本降低时所经历的变化如出一辙。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "f815919d7abca291983306cf3741c8bd41c40e26376f684775165b2a692d070e",
+      "enMarkdown": "It's a pattern we see over and over in technology. Initially there's some device that's very expensive and made in small quantities. Then someone discovers how to make them cheaply; many more get built; and as a result they can be used in new ways.",
+      "zhMarkdown": "这是我们在技术领域屡见不鲜的规律。起初，某种设备非常昂贵，产量极低。接着，有人找到了廉价制造的方法，产量随之大增；结果，它们开始被应用到全新的领域。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2fc3fb1ba27cd4e882487c47ee0a53d9abf989d23e05289ce84e76dddce29765",
+      "enMarkdown": "Computers are a familiar example. When I was a kid, computers were big, expensive machines built one at a time. Now they're a commodity. Now we can stick computers in everything.",
+      "zhMarkdown": "计算机就是一个大家熟知的例子。在我小时候，计算机还是庞大、昂贵且需要单台定制的机器。而现在，它们成了廉价的日用品。如今，我们可以在任何东西里都塞进一个计算机。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "3727d891986f5606a52b965cdea981a6f35ea4cf32dd49b03a5dfeed7cb3606f",
+      "enMarkdown": "This pattern is very old. Most of the turning points in economic history are instances of it. It happened to steel in the 1850s, and to power in the 1780s. It happened to cloth manufacture in the thirteenth century, generating the wealth that later brought about the Renaissance. Agriculture itself was an instance of this pattern.",
+      "zhMarkdown": "这种规律历史悠久。经济史上的大多数转折点都是这一规律的体现。1850 年代的钢铁、1780 年代的动力，都经历过这个过程。13 世纪的纺织业也是如此，它积累的财富最终孕育了后来的文艺复兴。农业本身的诞生，也是这一规律的体现。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "2af443bb2a8af73ffd1a93789ee6cc4d527fc0fa0bea09ec4f68895f0ee23337",
+      "enMarkdown": "Now as well as being produced by startups, this pattern is happening *to* startups. It's so cheap to start web startups that orders of magnitudes more will be started. If the pattern holds true, that should cause dramatic changes.",
+      "zhMarkdown": "如今，这一规律不仅由创业公司在不断创造，同时也正在发生在创业公司*自身*身上。现在创办一家互联网创业公司的成本已经低到，其数量将出现几个数量级的增长。如果这一规律成立，它将带来戏剧性的变化。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5dcc56db2a23348a71978ba11b710f9cc5e52d343a6b91e194be60cff2df71a9",
+      "enMarkdown": "**1. Lots of Startups**",
+      "zhMarkdown": "**1. 涌现大量的创业公司**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "747860363c5c83280a75fa571e402bc7cddf641aece5a54a3a4fb2a2d504ac07",
+      "enMarkdown": "So my first prediction about the future of web startups is pretty straightforward: there will be a lot of them. When starting a startup was expensive, you had to get the permission of investors to do it. Now the only threshold is courage.",
+      "zhMarkdown": "因此，我对互联网创业公司未来的第一个预测非常直接：它们将无处不在。以前创办创业公司成本高昂，你必须获得投资人的许可才能开始。而现在，唯一的门槛变成了勇气。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "535958c359c3ec61c636877b756c9ab40d57317f2fe5055f807becf5116a8487",
+      "enMarkdown": "Even that threshold is getting lower, as people watch others take the plunge and survive. In the last batch of startups we funded, we had several founders who said they'd thought of applying before, but weren't sure and got jobs instead. It was only after hearing reports of friends who'd done it that they decided to try it themselves.",
+      "zhMarkdown": "甚至连这个门槛也在降低，因为人们看到别人纷纷跳下水去，而且活得很好。在我们资助的上一批创业公司中，有几位创始人表示，他们以前就想过申请，但当时犹豫不决，于是先去找了工作。直到听说身边的朋友亲自尝试并拿到结果后，他们才决定自己也试一试。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e4cb6e8b619a96078dfb38a5a3872be171019263e8db2eaa18e4528dcebae255",
+      "enMarkdown": "Starting a startup is hard, but having a 9 to 5 job is hard too, and in some ways a worse kind of hard. In a startup you have lots of worries, but you don't have that feeling that your life is flying by like you do in a big company. Plus in a startup you could make much more money.",
+      "zhMarkdown": "创业固然艰辛，但朝九晚五的工作同样不易，而且在某种程度上，那是更糟糕的一种折磨。创业时你会有很多焦虑，但你不会像在大公司里那样，眼睁睁看着生命飞逝却无能为力。更何况，创业还能让你赚到多得多的钱。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "ddb67c4cdc2e27354755cce64e0fae0ab5b1aa158d1c4b6ebbbbfbe04c3cb523",
+      "enMarkdown": "As word spreads that startups work, the number may grow to a point that would now seem surprising.",
+      "zhMarkdown": "随着“创业行得通”的消息传开，创业公司的数量可能会增长到一个在今天看来令人吃惊的程度。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "add51e567698683cbf379e6cdcee16ea29b49d43faded046ae9ee0c136e57535",
+      "enMarkdown": "We now think of it as normal to have a job at a company, but this is the thinnest of historical veneers. Just two or three lifetimes ago, most people in what are now called industrialized countries lived by farming. So while it may seem surprising to propose that large numbers of people will change the way they make a living, it would be more surprising if they didn't.",
+      "zhMarkdown": "我们现在觉得在一家公司上班是天经地义的事，但这不过是历史长河中极薄的一层粉饰。仅仅在两三代人之前，现在所谓的工业化国家里，大多数人还靠务农为生。因此，虽然提议让大量的人改变谋生方式听起来有些不可思议，但如果他们不做出改变，反而会更令人惊讶。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c4f74f4be36764d5aeaf2b0570cd44734fce0031af15646d8b6308fe434e575a",
+      "enMarkdown": "**2. Standardization**",
+      "zhMarkdown": "**2. 标准化**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d9ec5dd15c39a9cfbd78f00045d3f90291c0b756c10161ac448158ad8360b5c6",
+      "enMarkdown": "When technology makes something dramatically cheaper, standardization always follows. When you make things in large volumes you tend to standardize everything that doesn't need to change.",
+      "zhMarkdown": "当技术让某样东西的成本急剧下降时，标准化总是如期而至。当你开始大规模生产时，你往往会把所有不需要改变的东西都标准化。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "830ad1231cff1a937519529cc8acc1164f0d60c3ca691ea0bfa3bfeaf3332c62",
+      "enMarkdown": "At Y Combinator we still only have four people, so we try to standardize everything. We could hire employees, but we want to be forced to figure out how to scale investing.",
+      "zhMarkdown": "在 Y Combinator，我们目前依然只有四个人，所以我们尝试把一切都标准化。我们本可以雇佣员工，但我们希望逼着自己去摸索如何规模化投资。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "d05eaa388a6580e70910931fa2f5b891d636e486c1b0c620ba2a0f4ec14084e2",
+      "enMarkdown": "We often tell startups to release a minimal version one quickly, then let the needs of the users determine what to do next. In essence, let the market design the product. We've done the same thing ourselves. We think of the techniques we're developing for dealing with large numbers of startups as like software. Sometimes it literally is software, like [Hacker News](http://news.ycombinator.com) and our application system.",
+      "zhMarkdown": "我们经常告诉创业公司，要快速发布一个极简的 1.0 版本，然后让用户的需求来决定下一步做什么。本质上，就是让市场来设计产品。我们自己也是这么做的。我们认为自己正在开发的一套应对海量创业公司的方法，就像软件一样。有时它字面上就是软件，比如 [Hacker News](http://news.ycombinator.com) 和我们的申请系统。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "67556e52e9620a10ac409598bbb0286e730167043cbfbc9946b34e4ef9fee123",
+      "enMarkdown": "One of the most important things we've been working on standardizing are investment terms. Till now investment terms have been individually negotiated. This is a problem for founders, because it makes raising money take longer and cost more in legal fees. So as well as using the same paperwork for every deal we do, we've commissioned generic angel paperwork that all the startups we fund can use for future rounds.",
+      "zhMarkdown": "我们一直致力于标准化的最重要事项之一，就是投资条款。在此之前，投资条款都是逐个谈判的。这对创始人来说是个麻烦，因为它拉长了融资时间，还增加了律师费。因此，我们不仅在自己做的每笔交易中都使用相同的法律文件，还委托制定了通用的天使投资文件，供我们资助的所有创业公司在未来的融资轮中使用。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "175c55ddef942887447a1225763ced5935e490598eadf629b04615657ec95d31",
+      "enMarkdown": "Some investors will still want to cook up their own deal terms. Series A rounds, where you raise a million dollars or more, will be custom deals for the foreseeable future. But I think angel rounds will start to be done mostly with standardized agreements. An angel who wants to insert a bunch of complicated terms into the agreement is probably not one you want anyway.",
+      "zhMarkdown": "一些投资人仍然想炮制自己的交易条款。在可预见的未来，融资金额在 100 万美元或以上的 A 轮融资仍将是定制化交易。但我认为，天使轮将开始主要通过标准化协议来完成。一个想在协议中加入一堆复杂条款的天使投资人，可能本来就不是你想要的合作伙伴。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "cb1077fcc3ce79904c131d95a1c1bbe7db61e73fe1b07cc3e3aedf8f416a4e16",
+      "enMarkdown": "**3. New Attitude to Acquisition**",
+      "zhMarkdown": "**3. 对收购的新态度**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "9069794e8c21a1b3a2e727397d14db0285e1604a4193427958fac3814ab29b8b",
+      "enMarkdown": "Another thing I see starting to get standardized is acquisitions. As the volume of startups increases, big companies will start to develop standardized procedures that make acquisitions little more work than hiring someone.",
+      "zhMarkdown": "我看到开始走向标准化的另一件事是收购。随着创业公司数量的增加，大公司将开始制定标准化的流程，使收购变得像招个人一样简单。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "782ea4a0f0d85d527b0a8d03064e11abf6328caec134316fd7931bbadeff4567",
+      "enMarkdown": "Google is the leader here, as in so many areas of technology. They buy a lot of startups — more than most people realize, because they only announce a fraction of them. And being Google, they're figuring out how to do it efficiently.",
+      "zhMarkdown": "谷歌是这方面的领头羊，就像它在许多技术领域一样。他们收购了大量的创业公司——比大多数人意识到的还要多，因为他们只公布了其中的一小部分。作为谷歌，他们正在摸索如何高效地完成这件事。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "a4ee1a905a2666e754c1d329ededabd259fb97189b02d366e30940cf3c164bf6",
+      "enMarkdown": "One problem they've solved is how to think about acquisitions. For most companies, acquisitions still carry some stigma of inadequacy. Companies do them because they have to, but there's usually some feeling they shouldn't have to — that their own programmers should be able to build everything they need.",
+      "zhMarkdown": "他们解决的一个问题是如何看待收购。对于大多数公司来说，收购依然带着某种“自身能力不足”的污名。公司做收购是因为他们不得不做，但通常会有种本不该如此的感觉——觉得他们自己的程序员应该能做出他们需要的一切。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "7f759900e71039dbbd2d88100cdca6939ced730e3796a1824b3a8f52db5847d4",
+      "enMarkdown": "Google's example should cure the rest of the world of this idea. Google has by far the best programmers of any public technology company. If they don't have a problem doing acquisitions, the others should have even less problem. However many Google does, Microsoft should do ten times as many.",
+      "zhMarkdown": "谷歌的例子应该能让世界上其他公司改改这个观念。在所有的上市技术公司中，谷歌拥有迄今为止最优秀的程序员。如果连他们做收购都没觉得有什么问题，其他公司就更不该有心理包袱了。无论谷歌收购了多少家，微软都应该做它的十倍。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "3df5d350e23172dcaf9bc6ad8e0bd53d82f26adf0fa510143ad8fed4944c8f3c",
+      "enMarkdown": "One reason Google doesn't have a problem with acquisitions is that they know first-hand the quality of the people they can get that way. Larry and Sergey only started Google after making the rounds of the search engines trying to sell their idea and finding no takers. They've *been* the guys coming in to visit the big company, so they know who might be sitting across that conference table from them.",
+      "zhMarkdown": "谷歌对收购泰然处之的一个原因在于，他们亲身体会过通过这种方式能获得多么优秀的人才。当年，拉里和谢尔盖跑遍了各大搜索引擎，试图兜售他们的想法，却没人买单，之后他们才创办了谷歌。他们曾经就是那些去拜访大公司的人，所以他们很清楚会议桌对面坐着的可能会是谁。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "96b69fc86eb5090787362fde3c2dec82ede793cd283913b6c37b45d1d835f26d",
+      "enMarkdown": "**4. Riskier Strategies are Possible**",
+      "zhMarkdown": "**4. 尝试高风险策略成为可能**"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e524e9d79db3520f8b5311e1c78ca8b5d85277bff9fc8696b1f488cb2f2a26f6",
+      "enMarkdown": "Risk is always proportionate to reward. The way to get really big returns is to do things that seem crazy, like starting a new search engine in 1998, or turning down a billion dollar acquisition offer.",
+      "zhMarkdown": "风险总是与回报成正比。获得超级回报的方法是去做一些看起来疯狂的事，比如在 1998 年创办一家新的搜索引擎，或者拒绝十亿美元的收购要约。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "31db6a7c0f4b81d5295b2debdb98ea6ad68160b2589178e3b4e5163e011b75a2",
+      "enMarkdown": "This has traditionally been a problem in venture funding. Founders and investors have different attitudes to risk. Knowing that risk is on average proportionate to reward, investors like risky strategies, while founders, who don't have a big enough sample size to care what's true on average, tend to be more conservative.",
+      "zhMarkdown": "这在传统上一直是风险投资中的一个问题。创始人与投资人对风险的态度截然不同。投资人深知风险在平均意义上与回报成正比，因此他们喜欢高风险策略；而创始人由于样本量不够大，无法去在乎“平均而言”什么是对的，因而往往更加保守。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "1506c2c02e673d8251014df0beee6468e69ae3b6aa6fd239c4b932a4433c1d64",
+      "enMarkdown": "If startups are easy to start, this conflict goes away, because founders can start them younger, when it's rational to take more risk, and can start more startups total in their careers. When founders can do lots of startups, they can start to look at the world in the same portfolio-optimizing way as investors. And that means the overall amount of wealth created can be greater, because strategies can be riskier.",
+      "zhMarkdown": "如果创业变得很容易，这种冲突就会消失。因为创始人可以在更年轻、更适合承担风险的时候开始创业，并且在他们的职业生涯中总共可以创办更多的公司。当创始人可以多次创业时，他们就可以像投资人一样，用投资组合优化的视角来看待世界。这意味着，由于可以采取更高风险的策略，创造的财富总量也会更大。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "aeea34e747989b08d980e872d73da4119b58a563f4626d56dd53bbacc680b421",
+      "enMarkdown": "**5. Younger, Nerdier Founders**",
+      "zhMarkdown": "**5. 更年轻、更极客的创始人**"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "eb7d209cc052f2fb47856eb60bcc3fabf46e611315c57dafc4d6ad21bff00d26",
+      "enMarkdown": "If startups become a cheap commodity, more people will be able to have them, just as more people could have computers once microprocessors made them cheap. And in particular, younger and more technical founders will be able to start startups than could before.",
+      "zhMarkdown": "如果创业公司成了一种廉价的日用品，就会有更多的人能够拥有它们，就像微处理器让电脑变得便宜之后，更多的人能拥有电脑一样。特别是，比以前更年轻、技术背景更深的创始人，将能够创办自己的公司。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "78444138abf26220f1c5f14706989180e5a98895128b11d1546fe51d7c784274",
+      "enMarkdown": "Back when it cost a lot to start a startup, you had to convince investors to let you do it. And that required very different skills from actually doing the startup. If investors were perfect judges, the two would require exactly the same skills. But unfortunately most investors are terrible judges. I know because I see behind the scenes what an enormous amount of work it takes to raise money, and the amount of selling required in an industry is always inversely proportional to the judgement of the buyers.",
+      "zhMarkdown": "在过去，创办创业公司成本高昂，你必须说服投资人让你去做。这需要与实际创业完全不同的技能。如果投资人是完美的裁判，这两者所需的技能应该完全一致。但遗憾的是，大多数投资人的眼光都很糟糕。我之所以知道，是因为我在幕后看到为了融资需要付出多么巨大的努力，而一个行业所需的推销话术多寡，往往与买家的判断力成反比。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "32f49ba58b872f8e5d510c19d5a831281922755a15593f27b6064bb2fbf2f184",
+      "enMarkdown": "Fortunately, if startups get cheaper to start, there's another way to convince investors. Instead of going to venture capitalists with a business plan and trying to convince them to fund it, you can get a product launched on a few tens of thousands of dollars of seed money from us or your uncle, and approach them with a working company instead of a plan for one. Then instead of having to seem smooth and confident, you can just point them to Alexa.",
+      "zhMarkdown": "幸运的是，如果创业成本降低，说服投资人就有另外一种办法。你不用拿着商业计划书去找风险投资人，试图说服他们给你投资，而是可以利用从我们或你叔叔那里拿到的几万美元种子资金，先把产品做出来，然后带着一家运转中的公司，而不是一份计划书去敲他们的门。这样一来，你不用表现得圆滑自信，只需让他们看一眼 Alexa 数据就行了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "219ed2e59185a7bc4c383a4876d7ddeea73539c55b0ca37889217cc2355b3b4d",
+      "enMarkdown": "This way of convincing investors is better suited to hackers, who often went into technology in part because they felt uncomfortable with the amount of fakeness required in other fields.",
+      "zhMarkdown": "这种说服投资人的方式更适合黑客，他们当初进入技术领域，在很大程度上就是因为受不了其他行业所需的虚伪迎合。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "72d281376e254740de41c31c546ad8c0140dc580093113e773b5ecff0b0e417e",
+      "enMarkdown": "**6. Startup Hubs Will Persist**",
+      "zhMarkdown": "**6. 创业中心将继续存在**"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "adbb3e5e92f2adbdac2b28fc37340c8b04c4ef833044867ec210a775596434e8",
+      "enMarkdown": "It might seem that if startups get cheap to start, it will mean the end of startup hubs like Silicon Valley. If all you need to start a startup is rent money, you should be able to do it anywhere.",
+      "zhMarkdown": "看起来，如果创业成本变得极低，像硅谷这样的创业中心就会走向消亡。如果创业所需的全部资金只是房租，那你应该在任何地方都能创业。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "18ce65296e3f458d1e52cdda3fde5bb2af688cfcbe13c693982bb151a0fed19c",
+      "enMarkdown": "This is kind of true and kind of false. It's true that you can now *start* a startup anywhere. But you have to do more with a startup than just start it. You have to make it succeed. And that is more likely to happen in a startup hub.",
+      "zhMarkdown": "这半对半错。确实，你现在可以在任何地方*开始*创业。但对于一家创业公司，你不能只是开始，你还得让它成功。而在创业中心，成功的概率会更高。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "351030838d2c859b7080a28b6a013bd78c6a879321b3b7f76ec2a59a54289221",
+      "enMarkdown": "I've thought a lot about this question, and it seems to me the increasing cheapness of web startups will if anything increase the importance of startup hubs. The value of startup hubs, like centers for any kind of business, lies in something very old-fashioned: face to face meetings. No technology in the immediate future will replace walking down University Ave and running into a friend who tells you how to fix a bug that's been bothering you all weekend, or visiting a friend's startup down the street and ending up in a conversation with one of their investors.",
+      "zhMarkdown": "我对这个问题思考了很久，在我看来，互联网创业公司成本的不断降低，非但不会削弱创业中心的重要性，反而会使其更加重要。创业中心之于任何行业的价值，在于一些非常传统的东西：面对面的交流。在可预见的未来，没有任何技术能取代你在大学大道（University Ave）上散步时偶遇一位朋友，他顺口告诉你如何解决困扰了你一整个周末的 Bug；或者去拜访街角朋友的创业公司，结果跟他们的某位投资人聊上了。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "8bf88b977b3720ed189271fe73dcf66a3b5617dfbc3731037ad904cee67c1ec3",
+      "enMarkdown": "The question of whether to be in a startup hub is like the question of whether to take outside investment. The question is not whether you *need* it, but whether it brings any advantage at all. Because anything that brings an advantage will give your competitors an advantage over you if they do it and you don't. So if you hear someone saying \"we don't need to be in Silicon Valley,\" that use of the word \"need\" is a sign they're not even thinking about the question right.",
+      "zhMarkdown": "是否要待在创业中心，就像是否要拿外部投资一样。问题不在于你是否*需要*它，而在于它是否能带来任何优势。因为任何能带来优势的东西，如果你的竞争对手做了而你没做，就会转化为他们的竞争优势。所以，如果你听到有人说“我们不需要待在硅谷”，那他们对“需要”这个词的用法，就说明他们根本没有正确思考这个问题。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "80fa5ff0feda63a4723791f682433a73fb463ebe617c3c3ff31c79e57af1f3e0",
+      "enMarkdown": "And while startup hubs are as powerful magnets as ever, the increasing cheapness of starting a startup means the particles they're attracting are getting lighter. A startup now can be just a pair of 22 year old guys. A company like that can move much more easily than one with 10 people, half of whom have kids.",
+      "zhMarkdown": "尽管创业中心依然拥有强大的磁引力，但由于创业成本不断降低，它们吸引的粒子正在变得越来越轻。现在的创业公司可能仅仅是两个 22 岁的年轻人。这样的公司搬迁起来，要比一个拥有 10 个人、其中一半人有家有室的公司容易得多。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "686265972d458135d60110ee9d529f7e879da85f2b991e69e808f4adbc0031c1",
+      "enMarkdown": "We know because we make people move for Y Combinator, and it doesn't seem to be a problem. The advantage of being able to work together face to face for three months outweighs the inconvenience of moving. Ask anyone who's done it.",
+      "zhMarkdown": "我们很清楚这一点，因为我们会要求大家为了 Y Combinator 搬过来，这似乎根本不是问题。能够面对面共同奋斗三个月的优势，远远超过了搬迁带来的不便。不信可以问问经历过的人。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "31550970ca01c4c5e1004d9ca5a75cab3c613314ff50d3ce684c53aa03170748",
+      "enMarkdown": "The mobility of seed-stage startups means that seed funding is a national business. One of the most common emails we get is from people asking if we can help them set up a local clone of Y Combinator. But this just wouldn't work. Seed funding isn't regional, just as big research universities aren't.",
+      "zhMarkdown": "种子期创业公司的流动性意味着，种子基金是一门全国性的生意。我们最常收到的邮件之一，就是人们询问能否帮他们在当地建立一个 Y Combinator 的克隆版。但这根本行不通。种子基金不是区域性的，就像顶尖的研究型大学不是区域性的一样。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "3f897b575ed18440b939eb4b97cdaa30d790044e2495456d01dedaacfe7b472b",
+      "enMarkdown": "Is seed funding not merely national, but international? Interesting question. There are signs it may be. We've had an ongoing stream of founders from outside the US, and they tend to do particularly well, because they're all people who were so determined to succeed that they were willing to move to another country to do it.",
+      "zhMarkdown": "种子基金是否不仅是全国性的，而且是国际性的？这是个有趣的问题。有迹象表明确实如此。我们一直收到来自美国以外的创始人的申请，他们往往做得格外好，因为他们都是极度渴望成功、甚至愿意为此搬到另一个国家的人。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "9a7273c5ba1e8b2f92817d9e83c6e5691c4b33e84038c017ab734e95446ef23f",
+      "enMarkdown": "The more mobile startups get, the harder it would be to start new silicon valleys. If startups are mobile, the best local talent will go to the real Silicon Valley, and all they'll get at the local one will be the people who didn't have the energy to move.",
+      "zhMarkdown": "创业公司的流动性越强，建立新的“硅谷”就越难。如果创业公司是可以自由流动的，那么本地最优秀的人才就会流向真正的硅谷，而本地的“硅谷”留下的，只能是那些没有精力折腾搬迁的人。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "3b42b42c1dd6f106e0f9f2af00285d8b0da72c18cdb64c6b91accdddba762b89",
+      "enMarkdown": "This is not a nationalistic idea, incidentally. It's cities that compete, not countries. Atlanta is just as hosed as Munich.",
+      "zhMarkdown": "顺便说一句，这并不是一个国家主义的观点。竞争发生在城市之间，而不是国家之间。亚特兰大和慕尼黑一样，在这方面都没什么戏。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "5a4e7f0e87c3ab9e5f7c5984f21aef1257d6df012f713fdaf7631e243092141b",
+      "enMarkdown": "**7. Better Judgement Needed**",
+      "zhMarkdown": "**7. 需要更好的判断力**"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "b7dfac8a800de27aad2cbe8da2341b39430b6f3947471757bc58f3d365e31d6a",
+      "enMarkdown": "If the number of startups increases dramatically, then the people whose job is to judge them are going to have to get better at it. I'm thinking particularly of investors and acquirers. We now get on the order of 1000 applications a year. What are we going to do if we get 10,000?",
+      "zhMarkdown": "如果创业公司的数量急剧增加，那么负责评估它们的人就必须提高自己的判断力。我特别指的是投资人和收购方。我们现在每年大约收到 1000 份申请。如果我们收到 10,000 份，我们该怎么办？"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "8eafe5fe24220b507a7e60a0b58e43be6647e0121c95f6d6f562fba18e49220f",
+      "enMarkdown": "That's actually an alarming idea. But we'll figure out some kind of answer. We'll have to. It will probably involve writing some software, but fortunately we can do that.",
+      "zhMarkdown": "这确实是个让人头疼的问题。但我们总会找到解决办法的。我们必须找到。这可能需要写一些软件，好在写软件是我们的强项。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "ab3802111f25c70a4a5a1eb5bef4df68dfeec7a369a94184c1252ad1206ff3a5",
+      "enMarkdown": "Acquirers will also have to get better at picking winners. They generally do better than investors, because they pick later, when there's more performance to measure. But even at the most advanced acquirers, identifying companies to buy is extremely ad hoc, and completing the acquisition often involves a great deal of unnecessary friction.",
+      "zhMarkdown": "收购方也必须变得更擅长挑选赢家。他们通常比投资人做得更好，因为他们挑选的时间更晚，有更多的实际业绩可以衡量。但即使是在最先进的收购方那里，寻找收购目标也极其随意，而且完成收购往往伴随着大量无谓的摩擦。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "7a8d770dcd2ce66d10d10e7566c8f5498f3ea292828f975124b3c8044bf5cfd6",
+      "enMarkdown": "I think acquirers may eventually have chief acquisition officers who will both identify good acquisitions and make the deals happen. At the moment those two functions are separate. Promising new startups are often discovered by developers. If someone powerful enough wants to buy them, the deal is handed over to corp dev guys to negotiate. It would be better if both were combined in one group, headed by someone with a technical background and some vision of what they wanted to accomplish. Maybe in the future big companies will have both a VP of Engineering responsible for technology developed in-house, and a CAO responsible for bringing technology in from outside.",
+      "zhMarkdown": "我认为，收购方最终可能会设立“首席收购官”（CAO）一职，负责发现优秀的收购目标并促成交易。目前，这两个功能是分离的。有前景的新创业公司往往是由开发人员发现的。如果某个足够有权势的人想买下它们，交易就会移交给企业发展部（corp dev）的人去谈判。如果能将这两者合并到一个团队中，由一个懂技术且对想实现的目标有远见的人来领导，效果会更好。也许在未来，大公司会同时拥有负责内部技术开发的工程副总裁，以及负责从外部引入技术的首席收购官。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "8d10dc14fccc94e86a91eaa7f757434ee1682444ad763eeaa4e7a959f588e3c0",
+      "enMarkdown": "At the moment, there is no one within big companies who gets in trouble when they buy a startup for $200 million that they could have bought earlier for $20 million. There should start to be someone who gets in trouble for that.",
+      "zhMarkdown": "目前，在大公司内部，如果有人花 2 亿美元收购了一家原本可以用 2000 万美元买下的创业公司，并不会有人因此倒霉。以后应该开始有人为此负责了。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "8f17fe0a76a78eee833c1f9f5a19b82c528c34d23cf0d10482f58217d8b15f2d",
+      "enMarkdown": "**8. College Will Change**",
+      "zhMarkdown": "**8. 大学将会改变**"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "fa0aa76df7bbe4aa283ee14a0d5915d3da4f5c05b57d20672072d6d2ea7256da",
+      "enMarkdown": "If the best hackers start their own companies after college instead of getting jobs, that will change what happens in college. Most of these changes will be for the better. I think the experience of college is warped in a bad way by the expectation that afterward you'll be judged by potential employers.",
+      "zhMarkdown": "如果最优秀的黑客毕业后不是去找工作，而是创办自己的公司，这将改变大学里的生态。这些变化大多是积极的。我认为，由于预期毕业后要接受潜在雇主的挑选，大学的体验被严重扭曲了。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "09ed5ffe8b58703e544e66bb9b23b4382aa81c019b648b284c07cba4e0acd994",
+      "enMarkdown": "One change will be in the meaning of \"after college,\" which will switch from when one graduates from college to when one leaves it. If you're starting your own company, why do you need a degree? We don't encourage people to start startups during college, but the best founders are certainly capable of it. Some of the most successful companies we've funded were started by undergrads.",
+      "zhMarkdown": "一个改变将是“大学毕业后”的含义，它将从“从大学毕业”转变为“离开大学”。如果你要创办自己的公司，为什么还需要学位？我们不鼓励人们在大学期间创业，但最优秀的创始人当然有这个能力。我们资助过的一些最成功的公司，就是由本科生创办的。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "4b4297c7f1e70fe02693ecaf8d998c7969812faee4611edc518f343442d184b4",
+      "enMarkdown": "I grew up in a time where college degrees seemed really important, so I'm alarmed to be saying things like this, but there's nothing magical about a degree. There's nothing that magically changes after you take that last exam. The importance of degrees is due solely to the administrative needs of large organizations. These can certainly affect your life — it's hard to get into grad school, or to get a work visa in the US, without an undergraduate degree — but tests like this will matter less and less.",
+      "zhMarkdown": "我成长的那个时代，大学学位似乎极其重要，所以我说出这些话时自己也有些吃惊，但学位并没有什么魔力。在考完最后一门试之后，并不会发生什么神奇的蜕变。学位的价值完全源于大型组织的行政管理需求。这些确实会影响你的生活——比如没有本科学位很难申请研究生，或者很难拿到美国的工签——但这类测试的重要性将会越来越低。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "bb8a6437f72ed38a3389678c54fc922c97e6e8fe15d692933a594fffbdd529c0",
+      "enMarkdown": "As well as mattering less whether students get degrees, it will also start to matter less where they go to college. In a startup you're judged by users, and they don't care where you went to college. So in a world of startups, elite universities will play less of a role as gatekeepers. In the US it's a national scandal how easily children of rich parents game college admissions. But the way this problem ultimately gets solved may not be by reforming the universities but by going around them. We in the technology world are used to that sort of solution: you don't beat the incumbents; you redefine the problem to make them irrelevant.",
+      "zhMarkdown": "除了学生是否拿到学位变得不那么重要之外，他们在哪里上大学也开始变得不那么重要。在创业公司里，评判你的是用户，他们根本不在乎你上过哪所大学。因此，在创业公司的世界里，精英大学作为看门人的角色将会弱化。在美国，富人子弟利用规则轻松搞定大学录取已经成了国家丑闻。但这个问题最终的解决方式，可能不是通过改革大学，而是绕过它们。我们技术界的人习惯了这种解决方案：你不用去打败守旧的巨头，只需重新定义问题，让他们变得无关紧要。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "2cae10b5d9018071eb0e8cee157b6cc0892f68bd8aa5665d07e5f68b2ccb8625",
+      "enMarkdown": "The greatest value of universities is not the brand name or perhaps even the classes so much as the people you meet. If it becomes common to start a startup after college, students may start trying to maximize this. Instead of focusing on getting internships at companies they want to work for, they may start to focus on working with other students they want as cofounders.",
+      "zhMarkdown": "大学最大的价值不在于名气，甚至不在于课程，而在于你遇到的人。如果毕业后创业变得普遍，学生们可能会开始试图将这一价值最大化。他们将不再专注于在想去的公司争取实习机会，而是专注于寻找其他想作为联合创始人的同学一起合作。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "24181e07dea3c02f506a477794e08342adaf14512dc8e5838b5ddc5ef07e80c1",
+      "enMarkdown": "What students do in their classes will change too. Instead of trying to get good grades to impress future employers, students will try to learn things. We're talking about some pretty dramatic changes here.",
+      "zhMarkdown": "学生在课堂上的行为也会发生变化。学生们将不再为了给未来的雇主留下好印象而拼命拿高分，而是会为了学到真本事而努力。我们这里谈论的是一些非常深刻的变革。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "b19fdfe49a1379c8e67935991eeaa2a890e2d4d45206a18af3c8ce351b2a4e46",
+      "enMarkdown": "**9. Lots of Competitors**",
+      "zhMarkdown": "**9. 大量的竞争对手**"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "cbb0af502b1f77a0ccfaea4c5d5ff1018c425158fd12731f2322a98cffce0454",
+      "enMarkdown": "If it gets easier to start a startup, it's easier for competitors too. That doesn't erase the advantage of increased cheapness, however. You're not all playing a zero-sum game. There's not some fixed number of startups that can succeed, regardless of how many are started.",
+      "zhMarkdown": "如果创业变得更容易，对竞争对手来说也是如此。然而，这并不会抹杀成本降低带来的优势。大家玩的不是零和游戏。能成功的创业公司数量并不是固定的，不管有多少人开始创业。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "61d73a68bc2567aea15df85a4f8685bbc225820dc34a1ff7ba67333906406923",
+      "enMarkdown": "In fact, I don't think there's any limit to the number of startups that could succeed. Startups succeed by creating wealth, which is the satisfaction of people's desires. And people's desires seem to be effectively infinite, at least in the short term.",
+      "zhMarkdown": "事实上，我认为能成功的创业公司数量是没有上限的。创业公司通过创造财富来获得成功，而财富就是满足人们的欲望。而人们的欲望，至少在短期内，实际上是无限的。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "ce9887325a5a468cbc17dd299654e11e0684a66e51e3eac2fc6b4572675b8937",
+      "enMarkdown": "What the increasing number of startups does mean is that you won't be able to sit on a good idea. Other people have your idea, and they'll be increasingly likely to do something about it.",
+      "zhMarkdown": "创业公司数量的增加确实意味着你无法守着一个好主意不放。别人也会想到你的点子，而且他们越来越有可能付诸行动。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "5eadd48abaccf0969c7ce76fed8f5b101da1be3312f37aca7755b449874a7c5f",
+      "enMarkdown": "**10. Faster Advances**",
+      "zhMarkdown": "**10. 更快的技术进步**"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "4c4a9ec35344898cf1b394d360680ccab5592cfe469dea5b65a207a60b3e449d",
+      "enMarkdown": "There's a good side to that, at least for consumers of technology. If people get right to work implementing ideas instead of sitting on them, technology will evolve faster.",
+      "zhMarkdown": "不过，这也有好的一面，至少对技术的消费者来说是这样。如果人们一想到好点子就立刻着手实现，而不是搁置起来，技术就会进化得更快。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "6cf05a96ad821eaf42a6ea781c3da30dd30782fdc2ab892c22446771c816f01a",
+      "enMarkdown": "Some kinds of innovations happen a company at a time, like the punctuated equilibrium model of evolution. There are some kinds of ideas that are so threatening that it's hard for big companies even to think of them. Look at what a hard time Microsoft is having discovering web apps. They're like a character in a movie that everyone in the audience can see something bad is about to happen to, but who can't see it himself. The big innovations that happen a company at a time will obviously happen faster if the rate of new companies increases.",
+      "zhMarkdown": "某些创新是一次颠覆一家公司的方式发生的，就像生物进化中的“间断平衡”模型。有些想法具有极强的颠覆性，大公司甚至很难去思考它们。看看微软在发现网络应用（web apps）时有多痛苦吧。他们就像电影里的一个角色，台下的观众都能看出有坏事要发生在他身上，但他自己却浑然不知。如果新公司诞生的速度加快，这些通过颠覆旧公司来实现的重大创新显然会发生得更快。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "7f541baf4c094fcc7bbe428a1fbbf02db6d0a3c71fc199f7c862af9fbba3a2c5",
+      "enMarkdown": "But in fact there will be a double speed increase. People won't wait as long to act on new ideas, but also those ideas will increasingly be developed within startups rather than big companies. Which means technology will evolve faster per company as well.",
+      "zhMarkdown": "但事实上，速度的提升将是双重的。人们不仅不会等那么久才去实践新想法，而且这些想法也将越来越多地在创业公司内部开发，而不是在大公司。这意味着，每家公司推动技术进化的速度也会变得更快。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "10b09a6be319aaeb4e9738322837296ead46af8dc16e49ecb4201de94cd30aa9",
+      "enMarkdown": "Big companies are just not a good place to make things happen fast. I talked recently to a founder whose startup had been acquired by a big company. He was a precise sort of guy, so he'd measured their productivity before and after. He counted lines of code, which can be a dubious measure, but in this case was meaningful because it was the same group of programmers. He found they were one thirteenth as productive after the acquisition.",
+      "zhMarkdown": "大公司根本不是一个能让事情快速推进的地方。我最近和一位创始人聊天，他的创业公司被一家大公司收购了。他是个严谨的人，因此测量了收购前后的生产率。他统计了代码行数，这虽然是个有些可疑的指标，但在这种情况下是有意义的，因为开发人员是同一批人。他发现，收购后他们的生产率降到了原来的十三分之一。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "93855bb7b0e1b620c634e128e8ae5cdcb29f6314f48c40f1eb6ad31b84f8570f",
+      "enMarkdown": "The company that bought them was not a particularly stupid one. I think what he was measuring was mostly the cost of bigness. I experienced this myself, and his number sounds about right. There's something about big companies that just sucks the energy out of you.",
+      "zhMarkdown": "收购他们的那家公司并不是一家特别愚蠢的公司。我认为他测量的主要是大公司病的代价。我自己也经历过这种情况，他给出的数字听起来挺准的。大公司就是有种能把你的精力吸干的魔力。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "d3f8038054ca2a737370f082519be95e2ae938bf11b30a204eb239b0d5c11573",
+      "enMarkdown": "Imagine what all that energy could do if it were put to use. There is an enormous latent capacity in the world's hackers that most people don't even realize is there. That's the main reason we do Y Combinator: to let loose all this energy by making it easy for hackers to start their own startups.",
+      "zhMarkdown": "想象一下，如果把所有这些能量都利用起来，能做成什么。世界上的黑客身上蕴藏着巨大的潜在能力，大多数人甚至没有意识到它的存在。这就是我们做 Y Combinator 的主要原因：通过降低黑客创办自己创业公司的门槛，释放出所有的能量。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "ccb934fc6ce96e0f89c5dea62c07c4549c9806b951957607de40506f845a1241",
+      "enMarkdown": "**A Series of Tubes**",
+      "zhMarkdown": "**一根顺畅的管道**"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "3d134e0d9598c68e58c15d5ee3ff3458440fbbc5fcb59f8bfe3404adda45646a",
+      "enMarkdown": "The process of starting startups is currently like the plumbing in an old house. The pipes are narrow and twisty, and there are leaks in every joint. In the future this mess will gradually be replaced by a single, huge pipe. The water will still have to get from A to B, but it will get there faster and without the risk of spraying out through some random leak.",
+      "zhMarkdown": "目前，创办创业公司的过程就像老房子的管道系统。管道狭窄扭曲，每个接头都在漏水。未来，这种混乱将逐渐被一根巨大、笔直的管道所取代。水仍然需要从 A 流到 B，但它会流得更快，而且没有从某个随机漏洞中喷射出来的风险。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "5317391c1c6ab3d51ceebf0b1923450ebb16543e97462fcdeb70f5cdd3fe61f0",
+      "enMarkdown": "This will change a lot of things for the better. In a big, straight pipe like that, the force of being measured by one's performance will propagate back through the whole system. Performance is always the ultimate test, but there are so many kinks in the plumbing now that most people are insulated from it most of the time. So you end up with a world in which high school students think they need to get good grades to get into elite colleges, and college students think they need to get good grades to impress employers, within which the employees waste most of their time in political battles, and from which consumers have to buy anyway because there are so few choices. Imagine if that sequence became a big, straight pipe. Then the effects of being measured by performance would propagate all the way back to high school, flushing out all the arbitrary stuff people are measured by now. That is the future of web startups.",
+      "zhMarkdown": "这将让很多事情变得更好。在这样一根又大又直的管道中，由个人表现来衡量价值的压力将反向传导到整个系统。实际表现永远是终极考验，但现在的管道里有太多弯折，以至于大多数人在大多数时间里都与之隔绝。因此，你最终面对的是这样一个世界：高中生认为他们需要拿到好成绩才能进入名牌大学，大学生认为他们需要拿到好成绩才能给雇主留下好印象，而在大公司里，员工把大部分时间浪费在办公室政治上，消费者还不得不买单，因为几乎没有其他选择。想象一下，如果这个链条变成了一根又大又直的管道。那么，通过实际表现来衡量的效应就会一直传导回高中，把现在用来衡量人们的那些条条框框全部冲走。这就是互联网创业公司的未来。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "c8ba97b69cd2e5d610746fa35ac4a5b6e0bdbe2164cb4fdeb555554bd691cd2e",
+      "enMarkdown": "**Thanks** to Brian Oberkirch and Simon Willison for inviting me to speak, and the crew at Carson Systems for making everything run smoothly.",
+      "zhMarkdown": "**感谢** Brian Oberkirch 和 Simon Willison 邀请我演讲，以及 Carson Systems 的团队让一切运转顺利。"
+    }
+  ]
+}

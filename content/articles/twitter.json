@@ -1,0 +1,34 @@
+{
+  "slug": "twitter",
+  "titleEn": "Why Twitter is a Big Deal",
+  "titleZh": "为什么说 Twitter 是一件大事",
+  "dateText": "April 2009",
+  "publishedAt": "2009-04-01",
+  "sourceOrder": 119,
+  "sourceUrl": "https://paulgraham.com/twitter.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "4cc27d4bdbe597f811015e07436719719bcee809374c777287f2d166e087c777",
+      "enMarkdown": "[Om Malik](http://gigaom.com/2009/04/03/google-may-buy-twitter-or-not-but-why-is-twitter-so-hot/) is the most recent of many people to ask why Twitter is such a big deal.",
+      "zhMarkdown": "[Om Malik](http://gigaom.com/2009/04/03/google-may-buy-twitter-or-not-but-why-is-twitter-so-hot/) 是最近众多探究“为什么 Twitter 如此重要”的人之一。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "dabd3fa412af4fbe8c14c809036dda02641f721084053f48f0c94fcbdb4cb252",
+      "enMarkdown": "The reason is that it's a new messaging protocol, where you don't specify the recipients. New protocols are rare. Or more precisely, new protocols that take off are. There are only a handful of commonly used ones: TCP/IP (the Internet), SMTP (email), HTTP (the web), and so on. So any new protocol is a big deal. But Twitter is a protocol owned by a private company. That's even rarer.",
+      "zhMarkdown": "原因在于，它是一种无需指定接收者的全新通讯协议。全新的协议极为罕见。更准确地说，是能够流行起来的新协议凤毛麟角。目前常用的协议屈指可数：TCP/IP（互联网）、SMTP（电子邮件）、HTTP（万维网）等等。因此，任何新协议的诞生都是一件大事。而 Twitter 还是一个由私有公司控制的协议，这就更罕见了。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "250a7f7bf7f60c75a0296a1c855b50770b3fedda46afbe314be4720e48bb72f6",
+      "enMarkdown": "Curiously, the fact that the founders of Twitter have been slow to monetize it may in the long run prove to be an advantage. Because they haven't tried to control it too much, Twitter feels to everyone like previous protocols. One forgets it's owned by a private company. That must have made it easier for Twitter to spread.",
+      "zhMarkdown": "奇妙的是，Twitter 创始人迟迟没有将其变现，从长远来看，这反而被证明是一个优势。正因为他们没有过度控制，Twitter 给每个人的感觉就像以前的那些开放协议一样。人们常常会忘记它其实归一家私有公司所有。这无疑让 Twitter 的传播变得更加容易。"
+    }
+  ]
+}

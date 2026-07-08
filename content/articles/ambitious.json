@@ -1,0 +1,482 @@
+{
+  "slug": "ambitious",
+  "titleEn": "Frighteningly Ambitious Startup Ideas",
+  "titleZh": "野心大到吓人的创业想法",
+  "dateText": "March 2012",
+  "publishedAt": "2012-03-01",
+  "sourceOrder": 90,
+  "sourceUrl": "https://paulgraham.com/ambitious.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "3ecea09b9315cdd485b913aaf2ffd2316e91a9159210edda88e23c99f8844095",
+      "enMarkdown": "One of the more surprising things I've noticed while working on Y Combinator is how frightening the most ambitious startup ideas are. In this essay I'm going to demonstrate this phenomenon by describing some. Any one of them could make you a billionaire. That might sound like an attractive prospect, and yet when I describe these ideas you may notice you find yourself shrinking away from them.",
+      "zhMarkdown": "在运营 Y Combinator 的过程中，我注意到一个颇为令人惊讶的现象：那些最宏大的创业想法往往也是最吓人的。在这篇文章中，我将通过描述其中几个想法来剖析这一现象。它们中的任何一个都有可能让你成为亿万富翁。这听起来可能是一个极具吸引力的前景，但当我把这些想法描述出来时，你也许会发现自己本能地想要退缩。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "56301a46f9e6a53d8dea52caf3685de42140f8f74d72152168cbe876cb7ea9e2",
+      "enMarkdown": "Don't worry, it's not a sign of weakness. Arguably it's a sign of sanity. The biggest startup ideas are terrifying. And not just because they'd be a lot of work. The biggest ideas seem to threaten your identity: you wonder if you'd have enough ambition to carry them through.",
+      "zhMarkdown": "别担心，这并不代表你软弱。甚至可以说，这恰恰说明你心智健全。最伟大的创业想法确实令人望而生畏。这不仅仅是因为它们需要付出巨大的努力，更因为这些想法似乎在挑战你的自我认知：你会怀疑自己是否有足够的野心去把它们付诸实现。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "174c3424565b2f0b3ab1605af34ece2fc8e305c3f5c2399357a64907aa714032",
+      "enMarkdown": "There's a scene in *Being John Malkovich* where the nerdy hero encounters a very attractive, sophisticated woman. She says to him:",
+      "zhMarkdown": "电影《成为约翰·马尔科维奇》（*Being John Malkovich*）中有一个场景，那个书呆子男主角遇到了一位非常迷人且世故的女性。她对他说："
+    },
+    {
+      "id": 4,
+      "type": "quote",
+      "sourceHash": "9b6e0d80b26b22d71e46be1d7476a41891dd980cd3c0c98159c82a576f3d5e27",
+      "enMarkdown": "> Here's the thing: If you ever got me, you wouldn't have a clue what to do with me.",
+      "zhMarkdown": "> 这么说吧：就算你得到了我，你也没那本事知道该拿我怎么办。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "b43961b2161a98e49ffb754a2034441ade27e8befa45275f68dcac00912ec00e",
+      "enMarkdown": "That's what these ideas say to us.",
+      "zhMarkdown": "这正是那些宏大想法对我们的耳语。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ef741487f130a03218e566fe8dffd00fb54ec2e7a9b3d76be099901dc9554e66",
+      "enMarkdown": "This phenomenon is one of the most important things you can understand about startups. [[1](#f1n)] You'd expect big startup ideas to be attractive, but actually they tend to repel you. And that has a bunch of consequences. It means these ideas are invisible to most people who try to think of startup ideas, because their subconscious filters them out. Even the most ambitious people are probably best off approaching them obliquely.",
+      "zhMarkdown": "这一现象是理解创业公司最关键的事项之一。[[1](#f1n)] 你原本以为宏大的创业想法会极具吸引力，但实际上它们往往会把你推开。这会带来一系列后果。这意味着大多数试图寻找创业想法的人对这些点子视而不见，因为他们的潜意识自动过滤掉了这些。即使是那些最有野心的人，或许也最好通过迂回的方式来接近它们。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "aa5f508fca80347bab1a15d31d63cb230e75cd7128b7f8eb7b1d1396a0aba52b",
+      "enMarkdown": "**1. A New Search Engine**",
+      "zhMarkdown": "**1. 新型搜索引擎**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "65fa30bdfb7ac6675a9d29f9e29ad6b2f2d702462468d45e0f5a2dcec3f8e06d",
+      "enMarkdown": "The best ideas are just on the right side of impossible. I don't know if this one is possible, but there are signs it might be. Making a new search engine means competing with Google, and recently I've noticed some cracks in their fortress.",
+      "zhMarkdown": "最好的想法往往恰好处于“不可能”的临界点上。我不知道这个想法是否可行，但有迹象表明它可能是可行的。做一款新型搜索引擎意味着要与 Google 竞争，而最近我注意到他们的堡垒出现了一些裂缝。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "36925c2a5654455e5896e4f1aefd3e161e74a866cc8733a2186f5b0c2477ae83",
+      "enMarkdown": "The point when it became clear to me that Microsoft had lost their way was when they decided to get into the search business. That was not a natural move for Microsoft. They did it because they were afraid of Google, and Google was in the search business. But this meant (a) Google was now setting Microsoft's agenda, and (b) Microsoft's agenda consisted of stuff they weren't good at.",
+      "zhMarkdown": "当微软决定涉足搜索业务时，我开始看清他们已经迷失了方向。对微软来说，这绝非顺理成章的举动。他们之所以这么做，是因为害怕 Google，而 Google 恰好在做搜索。但这意味两点：第一，Google 正在主导微软的发展日程；第二，微软的发展日程现在充斥着他们并不擅长的事情。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e59c782e632b6ade6077a19541e335d351885bf371d864101cc8790d200140b3",
+      "enMarkdown": "Microsoft : Google :: Google : Facebook.",
+      "zhMarkdown": "微软之于 Google，正如 Google 之于 Facebook。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "b7ce5bedb2028f07864e54bcc374e421ca3f1a70b536038fb5005e671c7c190e",
+      "enMarkdown": "That does not by itself mean there's room for a new search engine, but lately when using Google search I've found myself nostalgic for the old days, when Google was true to its own slightly aspy self. Google used to give me a page of the right answers, fast, with no clutter. Now the results seem inspired by the Scientologist principle that what's true is what's true for you. And the pages don't have the clean, sparse feel they used to. Google search results used to look like the output of a Unix utility. Now if I accidentally put the cursor in the wrong place, anything might happen.",
+      "zhMarkdown": "这本身并不意味着新型搜索引擎还有生存空间，但最近在使用 Google 搜索时，我发现自己开始怀念以前的日子——那时候的 Google 还坚守着它那带有一点点自闭症倾向的纯粹自我。以前的 Google 会快速给我提供一整页准确的答案，毫无杂乱之感。而现在的搜索结果似乎受到了山达基教（Scientologist）原则的启发：只要你觉得是对的，那就是对的。页面也不再有以前那种干净、清爽的感觉。以前的 Google 搜索结果看起来就像 Unix 工具的输出。现在，如果我不小心把光标放错了地方，随时可能会发生意想不到的事。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "db780bba3226e0c3055b48fb8d8541a5821c4cf456ad6030a784980fcb01551c",
+      "enMarkdown": "The way to win here is to build the search engine all the hackers use. A search engine whose users consisted of the top 10,000 hackers and no one else would be in a very powerful position despite its small size, just as Google was when it was that search engine. And for the first time in over a decade the idea of switching seems thinkable to me.",
+      "zhMarkdown": "在这场竞争中获胜的秘诀，是做一款让所有黑客都爱用的搜索引擎。如果一个搜索引擎的用户仅由最顶尖的 10,000 名黑客组成，那么尽管规模很小，它也将处于极其强大的地位，就像当年的 Google 一样。这也是十多年来，我第一次觉得“换个搜索引擎”变成了一件可以考虑的事。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "f30b27544991515793fafeec73b321ea7d606580d7f6f41a1a3fe953969da3a6",
+      "enMarkdown": "Since anyone capable of starting this company is one of those 10,000 hackers, the route is at least straightforward: make the search engine you yourself want. Feel free to make it excessively hackerish. Make it really good for code search, for example. Would you like search queries to be Turing complete? Anything that gets you those 10,000 users is ipso facto good.",
+      "zhMarkdown": "既然有能力创办这家公司的人本身就是这 10,000 名黑客之一，那么路径至少是非常简单直接的：做出你自己想要的搜索引擎。尽管把它做得极具黑客色彩。比如，让它在代码搜索方面表现得极其出色。你想让搜索查询支持图灵完备吗？任何能帮你赢得这 10,000 名用户的手段，本身就是好手段。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a899dcb16312b6f28a46bd0aa9e9da1ab879c0b414bfb1d73ca9318092107386",
+      "enMarkdown": "Don't worry if something you want to do will constrain you in the long term, because if you don't get that initial core of users, there won't be a long term. If you can just build something that you and your friends genuinely prefer to Google, you're already about 10% of the way to an IPO, just as Facebook was (though they probably didn't realize it) when they got all the Harvard undergrads.",
+      "zhMarkdown": "不要担心你想做的事情在长期来看会限制你，因为如果你无法获得最初的核心用户群，根本就不会有长期可言。如果你能做出一个让你和你的朋友们真心觉得比 Google 更好用的东西，你就已经完成了走向 IPO 的 10% 的路程，就像 Facebook 在拿下所有哈佛本科生时一样（尽管他们当时可能还没意识到这一点）。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "455e5fdd6b973749c789cc14f9e902c7ad6dc359bc753383f5e6c7fabfec82ca",
+      "enMarkdown": "**2. Replace Email**",
+      "zhMarkdown": "**2. 替代电子邮件**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "2dd8c4c05b9c7ee75bc72cde0c7e53554c9eb043e822334d768e55d35f2310cc",
+      "enMarkdown": "Email was not designed to be used the way we use it now. Email is not a messaging protocol. It's a todo list. Or rather, my inbox is a todo list, and email is the way things get onto it. But it is a disastrously bad todo list.",
+      "zhMarkdown": "电子邮件最初的设计目的，绝非用于我们今天这种使用方式。电子邮件不是一个消息传输协议，而是一个待办事项列表。确切地说，我的收件箱是一个待办事项列表，而电子邮件只是别人把事情塞进这个列表的途径。但作为一个待办事项列表，它糟糕透顶，简直是一场灾难。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "423d27a5627d4b3c491407c78df42b1b63628cab98e580fb26e66dc8b3820a79",
+      "enMarkdown": "I'm open to different types of solutions to this problem, but I suspect that tweaking the inbox is not enough, and that email has to be replaced with a new protocol. This new protocol should be a todo list protocol, not a messaging protocol, although there is a degenerate case where what someone wants you to do is: read the following text.",
+      "zhMarkdown": "对于这个问题，我乐见各种不同类型的解决方案，但我怀疑仅仅对收件箱修修补补是远远不够的，电子邮件必须被一种全新的协议所取代。这个新协议应该是一个待办事项协议，而不是消息传输协议，尽管会存在一种退化情况，即某人希望你做的事仅仅是：阅读以下文本。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "415395bfbd82431f4709eae0a15714481d2c487c030b5870c36d96742da4eff3",
+      "enMarkdown": "As a todo list protocol, the new protocol should give more power to the recipient than email does. I want there to be more restrictions on what someone can put on my todo list. And when someone can put something on my todo list, I want them to tell me more about what they want from me. Do they want me to do something beyond just reading some text? How important is it? (There obviously has to be some mechanism to prevent people from saying everything is important.) When does it have to be done?",
+      "zhMarkdown": "作为待办事项协议，新协议赋予接收者的权力应该比电子邮件更多。我希望对别人能往我的待办事项列表里塞什么内容有更多的限制。当有人能往我的待办事项列表里放东西时，我希望他们能更清楚地告诉我，他们到底想让我做什么。他们是想让我做点什么，还是仅仅阅读一段文字？这件事情有多重要？（显然必须有某种机制来防止人们把所有事情都标为重要。）什么时候必须完成？"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "0fe932802e22b38a618de235081ba0d19dec9737a11c3a66eabe25dad92b63a9",
+      "enMarkdown": "This is one of those ideas that's like an irresistible force meeting an immovable object. On one hand, entrenched protocols are impossible to replace. On the other, it seems unlikely that people in 100 years will still be living in the same email hell we do now. And if email is going to get replaced eventually, why not now?",
+      "zhMarkdown": "这个想法就像是以子之矛攻子之盾。一方面，根深蒂固的协议几乎无法被取代。另一方面，100 年后的人们似乎不太可能继续生活在我们今天所处的这种电子邮件地狱中。既然电子邮件迟早要被取代，为什么不能是现在？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "c417ade4c337741768394db797788850fb476fdbe0e1a0e399c9435e18dfd357",
+      "enMarkdown": "If you do it right, you may be able to avoid the usual chicken and egg problem new protocols face, because some of the most powerful people in the world will be among the first to switch to it. They're all at the mercy of email too.",
+      "zhMarkdown": "如果你做对了，你或许能够避免新协议通常会面临的鸡生蛋、蛋生鸡的难题。因为世界上一些最有权力的人将会是第一批转向新协议的人，他们同样身受电子邮件的折磨。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "8be2b4e368bf6f68bc1a200800b5d403cfe8d1ea99fed4202b718c08b1ddbc73",
+      "enMarkdown": "Whatever you build, make it fast. GMail has become painfully slow. [[2](#f2n)] If you made something no better than GMail, but fast, that alone would let you start to pull users away from GMail.",
+      "zhMarkdown": "无论你做出什么，一定要快。GMail 已经变得慢得令人痛苦。[[2](#f2n)] 如果你做了一个和 GMail 差不多，但速度极快的东西，单凭这一点就能让你开始把用户从 GMail 吸引过来。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "6f1e0cbdef4051bb26cb89d9f70f795ef93f6e79ed40974d766a0cc64321f6c5",
+      "enMarkdown": "GMail is slow because Google can't afford to spend a lot on it. But people will pay for this. I'd have no problem paying $50 a month. Considering how much time I spend in email, it's kind of scary to think how much I'd be justified in paying. At least $1000 a month. If I spend several hours a day reading and writing email, that would be a cheap way to make my life better.",
+      "zhMarkdown": "GMail 慢是因为 Google 无法在它身上投入太多成本。但人们愿意为此付费。我完全不介意每月支付 50 美元。考虑到我在电子邮件上花的时间，想想我理应支付多少钱简直有点吓人。至少每个月 1000 美元。如果我每天要花几个小时阅读和撰写电子邮件，那么这笔钱将是改善我生活的一种极廉价的方式。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "39c1f3cc9f36153cc10a137c10baddeabc11f3c1df59d4aef92dfb8f12ff387d",
+      "enMarkdown": "**3. Replace Universities**",
+      "zhMarkdown": "**3. 替代大学**"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "b133d969c90819bd90621b310116b003cac7a639a8508a9c2b739c5e7d13f0d4",
+      "enMarkdown": "People are all over this idea lately, and I think they're onto something. I'm reluctant to suggest that an institution that's been around for a millennium is finished just because of some mistakes they made in the last few decades, but certainly in the last few decades US universities seem to have been headed down the wrong path. One could do a lot better for a lot less money.",
+      "zhMarkdown": "最近人们都在讨论这个想法，我认为他们摸到了门路。我不太情愿断言一个存在了上千年的机构会仅仅因为过去几十年犯的一些错误而走向终结，但在过去的几十年里，美国的大学确实似乎走上了歧路。人们可以用少得多的钱，做出好得多的成果。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "d92a431823583ace5c1cacd5b546460b55035772a7b01dda8938aca3bd9a406b",
+      "enMarkdown": "I don't think universities will disappear. They won't be replaced wholesale. They'll just lose the de facto monopoly on certain types of learning that they once had. There will be many different ways to learn different things, and some may look quite different from universities. Y Combinator itself is arguably one of them.",
+      "zhMarkdown": "我不认为大学会消失，它们不会被彻底取代。它们只是会失去曾经对某些类型学习所拥有的实质性垄断。学习不同的东西会有很多不同的方式，有些方式看起来可能与大学截然不同。Y Combinator 本身可以说就是其中之一。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "1b38a2b0d77b04815710a46d53957175834573e1a35b6eb4d6f5253c28e1150d",
+      "enMarkdown": "Learning is such a big problem that changing the way people do it will have a wave of secondary effects. For example, the name of the university one went to is treated by a lot of people (correctly or not) as a credential in its own right. If learning breaks up into many little pieces, credentialling may separate from it. There may even need to be replacements for campus social life (and oddly enough, YC even has aspects of that).",
+      "zhMarkdown": "学习是一个如此庞大的问题，改变人们的学习方式将会产生一波又一波的连锁反应。例如，很多人会将一个人读过的大学名称视作一种凭证（无论对错）。如果学习碎裂成许多微小的片段，凭证可能会与之分离。甚至可能需要有大学校园社交生活的替代品（奇怪的是，YC 甚至在这方面也有所体现）。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "3d5b9640e3a78d0973353ffebd0f54cca4d658004825b6b202e9b6f72e3ee644",
+      "enMarkdown": "You could replace high schools too, but there you face bureaucratic obstacles that would slow down a startup. Universities seem the place to start.",
+      "zhMarkdown": "你也可以替代高中，但那会面临官僚体制的障碍，这会拖慢创业公司的步伐。大学似乎是更好的切入点。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "4fdd5eb5c34a5a7000fbe5d24bea43fcbf843428046255d8047348cf8089c1e5",
+      "enMarkdown": "**4. Internet Drama**",
+      "zhMarkdown": "**4. 互联网影视剧**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "40835266f6615658ac35c6c85af856fe5fe5d38de575fbf9079c8a46e78a3583",
+      "enMarkdown": "Hollywood has been slow to embrace the Internet. That was a mistake, because I think we can now call a winner in the race between delivery mechanisms, and it is the Internet, not cable.",
+      "zhMarkdown": "好莱坞在拥抱互联网方面一直动作迟缓。这是一个错误，因为我认为我们现在可以宣布分发机制竞赛的赢家了，那就是互联网，而不是有线电视。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "829b53a8cc5640f31e900365d5943f2613670b821ff426d43e8a586e345613b1",
+      "enMarkdown": "A lot of the reason is the horribleness of cable clients, also known as TVs. Our family didn't wait for Apple TV. We hated our last TV so much that a few months ago we replaced it with an iMac bolted to the wall. It's a little inconvenient to control it with a wireless mouse, but the overall experience is much better than the nightmare UI we had to deal with before.",
+      "zhMarkdown": "很大一部分原因在于有线电视客户端（也就是电视机）体验极其糟糕。我们家没有等 Apple TV。我们太讨厌上一台电视了，以至于几个月前我们用一台钉在墙上的 iMac 取代了它。用无线鼠标来控制它虽然有点不便，但整体体验比我们之前不得不面对的噩梦般的 UI 要好得多。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "a07ab4e4b35fd254f62d7783bf5c22018d58624b5a58f5cf1ce80e9e0b380f38",
+      "enMarkdown": "Some of the attention people currently devote to watching movies and TV can be stolen by things that seem completely unrelated, like social networking apps. More can be stolen by things that are a little more closely related, like games. But there will probably always remain some residual demand for conventional drama, where you sit passively and watch as a plot happens. So how do you deliver drama via the Internet? Whatever you make will have to be on a larger scale than Youtube clips. When people sit down to watch a show, they want to know what they're going to get: either part of a series with familiar characters, or a single longer \"movie\" whose basic premise they know in advance.",
+      "zhMarkdown": "人们目前花在看电影和电视上的部分精力，可能会被一些看似完全无关的东西夺走，比如社交应用。更多的精力可能会被关系稍微近一些的东西夺走，比如游戏。但对传统戏剧性节目（你坐在那里，被动地看着情节展开）的需求大概会一直存在。那么，你如何通过互联网来分发这类影视剧？无论你做出什么，它的规模都必须比 Youtube 上的短片更大。当人们坐下来看节目时，他们想知道自己能得到什么：要么是带有熟悉角色的系列剧的一部分，要么是他们提前了解基本前提的单部较长“电影”。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "0a9ceab43d5ff44983fa5643555ee3e309eba657cbe43b4ae9d9ef53dbc14e6b",
+      "enMarkdown": "There are two ways delivery and payment could play out. Either some company like Netflix or Apple will be the app store for entertainment, and you'll reach audiences through them. Or the would-be app stores will be too overreaching, or too technically inflexible, and companies will arise to supply payment and streaming a la carte to the producers of drama. If that's the way things play out, there will also be a need for such infrastructure companies.",
+      "zhMarkdown": "分发和支付可能会有两种发展路径。要么是像 Netflix 或 Apple 这样的公司成为娱乐界的 App Store，你通过他们来触达受众。要么是这些潜在的 App Store 触手伸得太长，或者技术上不够灵活，从而诞生一些为影视剧制作方独立提供支付和流媒体服务的底层公司。如果是后一种情况，那么这类基础设施公司也将大有可为。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "fe1763786bd78925c95601b62a5d5d7a1857d4522a6651a3ba596a321a7725d4",
+      "enMarkdown": "**5. The Next Steve Jobs**",
+      "zhMarkdown": "**5. 下一个史蒂夫·乔布斯**"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "95442c0956faad5e340b377b9246ee95ef5e8bc359e07c8acd641be095dff661",
+      "enMarkdown": "I was talking recently to someone who knew Apple well, and I asked him if the people now running the company would be able to keep creating new things the way Apple had under Steve Jobs. His answer was simply \"no.\" I already feared that would be the answer. I asked more to see how he'd qualify it. But he didn't qualify it at all. No, there will be no more great new stuff beyond whatever's currently in the pipeline. Apple's revenues may continue to rise for a long time, but as Microsoft shows, revenue is a lagging indicator in the technology business.",
+      "zhMarkdown": "我最近和一位非常了解苹果公司的人聊天，我问他，现在管理公司的人是否能像史蒂夫·乔布斯执掌苹果时那样，不断创造出新东西。他的回答很简单：“不能。”我其实早就担心答案会是这样。我多问一句，只是想看看他会如何委婉地表达。但他完全没有委婉。不能，除了目前已经在研发管线中的东西之外，不会再有伟大的新产品了。苹果的收入可能会在很长一段时间内继续增长，但正如微软所表明的那样，在科技行业，收入是一个滞后指标。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "baf7ed878f0661eacbd00ebec38272c6677f1af5df52a1340b47780d75958c75",
+      "enMarkdown": "So if Apple's not going to make the next iPad, who is? None of the existing players. None of them are run by product visionaries, and empirically you can't seem to get those by hiring them. Empirically the way you get a product visionary as CEO is for him to found the company and not get fired. So the company that creates the next wave of hardware is probably going to have to be a startup.",
+      "zhMarkdown": "那么，如果苹果不打算做出下一代 iPad，谁来做？现有的巨头里没有一个能做。他们中没有一个是由产品远见者领导的，而且从经验来看，你似乎无法通过招聘来获得这样的人。经验表明，让产品远见者担任 CEO 的唯一途径，就是由他亲自创立公司并且不被解雇。因此，创造下一波硬件浪潮的公司大概只能是一家创业公司。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "0ae74a328d9239ed3d088f5828fe601746068d56ec095850cc792da651430f53",
+      "enMarkdown": "I realize it sounds preposterously ambitious for a startup to try to become as big as Apple. But no more ambitious than it was for Apple to become as big as Apple, and they did it. Plus a startup taking on this problem now has an advantage the original Apple didn't: the example of Apple. Steve Jobs has shown us what's possible. That helps would-be successors both directly, as Roger Bannister did, by showing how much better you can do than people did before, and indirectly, as Augustus did, by lodging the idea in users' minds that a single person could unroll the future for them. [[3](#f3n)]",
+      "zhMarkdown": "我明白，一家创业公司试图变得像苹果一样大，听起来是荒谬甚至狂妄的。但当年苹果要变得像苹果一样大，也同样充满野心，而他们做到了。此外，现在挑战这个问题的创业公司拥有当年苹果所没有的优势：苹果这个先例。史蒂夫·乔布斯已经向我们展示了什么是可能的。这既能直接帮助潜在的继任者（就像罗杰·班尼斯特那样，通过证明你可以比前人做到多好来提供启发），也能间接提供帮助（就像奥古斯都那样，在用户心中植入一个观念：单枪匹马的人也可以为你展开未来）。[[3](#f3n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "9d7f0a44677642ae1d7d101a85c8d9015a242a415a8edb7974f97103212dabe5",
+      "enMarkdown": "Now Steve is gone there's a vacuum we can all feel. If a new company led boldly into the future of hardware, users would follow. The CEO of that company, the \"next Steve Jobs,\" might not measure up to Steve Jobs. But he wouldn't have to. He'd just have to do a better job than Samsung and HP and Nokia, and that seems pretty doable.",
+      "zhMarkdown": "现在史蒂夫走了，我们都能感受到一个真空地带。如果有一家新公司能大胆地引领硬件的未来，用户就会跟随。那家公司的 CEO，即“下一个史蒂夫·乔布斯”，或许无法与史蒂夫·乔布斯本人媲美。但他不必非得如此。他只需要比三星、惠普和诺基亚做得更好就行，而这看起来相当可行。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "989a9682cfb7f26233775452dabe8e0c8ecb855d43af20864627711be487de7f",
+      "enMarkdown": "**6. Bring Back Moore's Law**",
+      "zhMarkdown": "**6. 拯救摩尔定律**"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "7185d162033c358f153111ef618db621174cb551879f5cd4b9df375b7e508e00",
+      "enMarkdown": "The last 10 years have reminded us what Moore's Law actually says. Till about 2002 you could safely misinterpret it as promising that clock speeds would double every 18 months. Actually what it says is that circuit densities will double every 18 months. It used to seem pedantic to point that out. Not any more. Intel can no longer give us faster CPUs, just more of them.",
+      "zhMarkdown": "过去 10 年提醒了我们摩尔定律的真实含义。直到 2002 年左右，你还可以安全地将其误读为“时钟频率每 18 个月会翻一番”。实际上，它的意思是“电路密度每 18 个月翻一番”。以前指出这一点似乎显得有些学究气，但现在不再是了。英特尔再也无法给我们提供更快的 CPU，只能给我们提供更多数量的 CPU。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "d38af85fbf28d30c9542acfd7c4b9db6e9b5f7aebd590288d79a87904353c9cc",
+      "enMarkdown": "This Moore's Law is not as good as the old one. Moore's Law used to mean that if your software was slow, all you had to do was wait, and the inexorable progress of hardware would solve your problems. Now if your software is slow you have to rewrite it to do more things in parallel, which is a lot more work than waiting.",
+      "zhMarkdown": "这个摩尔定律不如以前那个好用了。以前的摩尔定律意味着，如果你的软件很慢，你唯一需要做的就是等待，硬件无情的进步会解决你的问题。现在，如果你的软件很慢，你必须重写它以进行更多的并行处理，这比等待要付出多得多的努力。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "16fc111687a396c8f794b932ce6bbb2ad8d96cba55716bdc73dc035b3538245f",
+      "enMarkdown": "It would be great if a startup could give us something of the old Moore's Law back, by writing software that could make a large number of CPUs look to the developer like one very fast CPU. There are several ways to approach this problem. The most ambitious is to try to do it automatically: to write a compiler that will parallelize our code for us. There's a name for this compiler, *the sufficiently\nsmart compiler,* and it is a byword for impossibility. But is it really impossible? Is there no configuration of the bits in memory of a present day computer that is this compiler? If you really think so, you should try to prove it, because that would be an interesting result. And if it's not impossible but simply very hard, it might be worth trying to write it. The expected value would be high even if the chance of succeeding was low.",
+      "zhMarkdown": "如果有一家创业公司能为我们找回一些当年摩尔定律的感觉，通过编写软件，让开发者觉得大量 CPU 就像一个极快的单 CPU，那就太棒了。解决这个问题有几种方法。最宏大的尝试是实现自动化：写一个编译器，自动帮我们实现代码的并行化。这个编译器有一个名字，叫做“足够聪明的编译器”（*the sufficiently smart compiler*），它是“不可能”的代名词。但这真的不可能吗？在当今计算机的内存中，难道不存在这样一种编译器比特配置吗？如果你真的这么认为，你应该试着去证明它，因为那将是一个有趣的结论。如果它不是不可能，而只是极难，那么或许值得尝试去写一个。即使成功的概率很低，其期望值也会极高。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "6d2a17a72d428268ccc55f0e733f504d1dd129e7fc5180fed44f7a048bf4eab6",
+      "enMarkdown": "The reason the expected value is so high is web services. If you could write software that gave programmers the convenience of the way things were in the old days, you could offer it to them as a web service. And that would in turn mean that you got practically all the users.",
+      "zhMarkdown": "期望值如此之高的原因在于 Web 服务。如果你能写出给程序员带来像过去那样便利的软件，你就可以将其作为 Web 服务提供给他们。这反过来意味着你几乎能赢得所有的用户。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "bc00505319aeb237658282116c6b60ece4f8c918912bf732e65a0f7193bc914e",
+      "enMarkdown": "Imagine there was another processor manufacturer that could still translate increased circuit densities into increased clock speeds. They'd take most of Intel's business. And since web services mean that no one sees their processors anymore, by writing the sufficiently smart compiler you could create a situation indistinguishable from you being that manufacturer, at least for the server market.",
+      "zhMarkdown": "想象一下，如果存在另一家处理器制造商，仍然能够将增加的电路密度转化为更高的时钟频率，他们将夺走英特尔的大部分业务。而且，既然 Web 服务意味着没有人能再亲眼看到他们的处理器，那么通过编写这个“足够聪明的编译器”，你就可以创造一个与你成为该制造商无异的局面，至少在服务器市场是这样。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "7e2a0edbc10823960e432ba2fd8df860ef0c47617ecf9bb94da5d06a58838fde",
+      "enMarkdown": "The least ambitious way of approaching the problem is to start from the other end, and offer programmers more parallelizable Lego blocks to build programs out of, like Hadoop and MapReduce. Then the programmer still does much of the work of optimization.",
+      "zhMarkdown": "最不具野心的解决方法是从另一端着手，为程序员提供更多可并行化的积木来构建程序，比如 Hadoop 和 MapReduce。这样一来，程序员仍然需要做大量的优化工作。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "744fbc7209b0e80dd1e59d71d7bf17f6abedffc67bf00f20dc113974f3591dae",
+      "enMarkdown": "There's an intriguing middle ground where you build a semi-automatic weapon—where there's a human in the loop. You make something that looks to the user like the sufficiently smart compiler, but inside has people, using highly developed optimization tools to find and eliminate bottlenecks in users' programs. These people might be your employees, or you might create a marketplace for optimization.",
+      "zhMarkdown": "还有一个耐人寻味的折中方案，你可以制造一种“半自动武器”——引入人工参与。你做出来的东西在用户看来就像是“足够聪明的编译器”，但其内部实际上有人在使用高度发达的优化工具，来发现并消除用户程序中的瓶颈。这些人可以是你的员工，或者你也可以创建一个优化市场。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "1b99b2d280a4cc9a4a9dc0352557251edb6da1e13913c9afe90f6224adfc1f44",
+      "enMarkdown": "An optimization marketplace would be a way to generate the sufficiently smart compiler piecemeal, because participants would immediately start writing bots. It would be a curious state of affairs if you could get to the point where everything could be done by bots, because then you'd have made the sufficiently smart compiler, but no one person would have a complete copy of it.",
+      "zhMarkdown": "一个优化市场将是逐步生成“足够聪明的编译器”的一种方式，因为参与者会立即开始编写机器人。如果能发展到所有事情都可以由机器人完成的地步，那将是一个奇妙的局面，因为到那时你就已经做出了那个足够聪明的编译器，但没有任何一个人拥有它的完整副本。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "f5aa1029bb8671f7756964c615e03d720c06bdbfb38876eca67dbc0709da5cd4",
+      "enMarkdown": "I realize how crazy all this sounds. In fact, what I like about this idea is all the different ways in which it's wrong. The whole idea of focusing on optimization is counter to the general trend in software development for the last several decades. Trying to write the sufficiently smart compiler is by definition a mistake. And even if it weren't, compilers are the sort of software that's supposed to be created by open source projects, not companies. Plus if this works it will deprive all the programmers who take pleasure in making multithreaded apps of so much amusing complexity. The forum troll I have by now internalized doesn't even know where to begin in raising objections to this project. Now that's what I call a startup idea.",
+      "zhMarkdown": "我明白这一切听起来有多疯狂。事实上，我喜欢这个想法的原因，恰恰在于它在各种层面上看起来都是错的。将精力集中在优化上的整个想法，与过去几十年软件开发的总体趋势是背道而驰的。尝试编写“足够聪明的编译器”在定义上就是一个错误。即便不是，编译器这类软件也应该是由开源项目而不是公司来创建的。此外，如果这行得通，它将剥夺所有乐于开发多线程应用、享受其中有趣复杂性的程序员的乐趣。我心中早已内化了的论坛喷子，甚至不知道该从哪里开始对这个项目提出质疑。这才是真正的创业想法。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "7ff04c28924c1ae1071ab191cf2908392fef505f202d1f3d08b0d801bceb3441",
+      "enMarkdown": "**7. Ongoing Diagnosis**",
+      "zhMarkdown": "**7. 持续性诊断**"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "14e041a11f4f835b7724d5ef051788456219b3f4d583260aef7f85b9a58ed074",
+      "enMarkdown": "But wait, here's another that could face even greater resistance: ongoing, automatic medical diagnosis.",
+      "zhMarkdown": "但等等，还有一个可能会面临更大阻力的想法：持续、自动的医学诊断。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "ce6ee93903a70576d43a385879d53c3dbaf59f10732c3c0a73a6f0b3a58754fe",
+      "enMarkdown": "One of my tricks for generating startup ideas is to imagine the ways in which we'll seem backward to future generations. And I'm pretty sure that to people 50 or 100 years in the future, it will seem barbaric that people in our era waited till they had symptoms to be diagnosed with conditions like heart disease and cancer.",
+      "zhMarkdown": "我寻找创业想法的诀窍之一，就是去想象在未来一代人看来，我们在哪些方面会显得落后。我非常确信，对于 50 年或 100 年后的人来说，我们这个时代的人要等到出现症状才去诊断心脏病和癌症等疾病，简直是野蛮未开化。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "132905d36727b2813f10b8c8e95dbd62cac9885e84c72d3090e3a2371e19bf39",
+      "enMarkdown": "For example, in 2004 Bill Clinton found he was feeling short of breath. Doctors discovered that several of his arteries were over 90% blocked and 3 days later he had a quadruple bypass. It seems reasonable to assume Bill Clinton has the best medical care available. And yet even he had to wait till his arteries were over 90% blocked to learn that the number was over 90%. Surely at some point in the future we'll know these numbers the way we now know something like our weight. Ditto for cancer. It will seem preposterous to future generations that we wait till patients have physical symptoms to be diagnosed with cancer. Cancer will show up on some sort of radar screen immediately.",
+      "zhMarkdown": "例如，2004 年比尔·克林顿发现自己感觉气短。医生发现他的几条动脉堵塞了 90% 以上，3 天后他接受了心脏搭桥手术。我们可以合理地假设比尔·克林顿拥有能得到的最顶尖的医疗服务。然而，即使是他，也必须等到动脉堵塞超过 90% 时才知道这个数字已经超过了 90%。在未来的某个时刻，我们一定会像现在知道自己的体重一样知道这些数字。癌症也是如此。对未来的人们来说，我们等到患者出现身体症状才诊断出癌症，简直是荒谬的。癌症应该会立即显示在某种雷达屏幕上。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "46883574fdb4b756ca1d0393a1943a2ebfa7c2fdcad706935976bb322e91ecd6",
+      "enMarkdown": "(Of course, what shows up on the radar screen may be different from what we think of now as cancer. I wouldn't be surprised if at any given time we have ten or even hundreds of microcancers going at once, none of which normally amount to anything.)",
+      "zhMarkdown": "（当然，雷达屏幕上显示的东西可能与我们现在所认为的癌症有所不同。如果我们在任何特定时间都有十个甚至数百个微型癌症在同时运行，而通常它们都不会发展成任何严重的疾病，我一点也不会感到惊讶。）"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "77a2070fc081eb6dbceb475650d99d1be8780a7c20492ea6e5d099bbc33181ef",
+      "enMarkdown": "A lot of the obstacles to ongoing diagnosis will come from the fact that it's going against the grain of the medical profession. The way medicine has always worked is that patients come to doctors with problems, and the doctors figure out what's wrong. A lot of doctors don't like the idea of going on the medical equivalent of what lawyers call a \"fishing expedition,\" where you go looking for problems without knowing what you're looking for. They call the things that get discovered this way \"incidentalomas,\" and they are something of a nuisance.",
+      "zhMarkdown": "持续诊断的许多障碍将来自于它违背了医疗行业的传统。医学一向的运作方式是患者带着问题去找医生，医生找出问题所在。许多医生不喜欢进行法律界所谓的“钓鱼搜证”（fishing expedition）式的医学诊断，即在不知道要寻找什么的情况下到处寻找问题。他们把通过这种方式发现的东西称为“偶然瘤”（incidentalomas），这在某种程度上是一件令人头疼的事。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "b7ac0fd4c356e4ed94fc3d270d0dbd4011a0c0852f4500cfabeaefed9aa89256",
+      "enMarkdown": "For example, a friend of mine once had her brain scanned as part of a study. She was horrified when the doctors running the study discovered what appeared to be a large tumor. After further testing, it turned out to be a harmless cyst. But it cost her a few days of terror. A lot of doctors worry that if you start scanning people with no symptoms, you'll get this on a giant scale: a huge number of false alarms that make patients panic and require expensive and perhaps even dangerous tests to resolve. But I think that's just an artifact of current limitations. If people were scanned all the time and we got better at deciding what was a real problem, my friend would have known about this cyst her whole life and known it was harmless, just as we do a birthmark.",
+      "zhMarkdown": "例如，我的一位朋友曾因参与一项研究而接受了脑部扫描。当进行研究的医生发现一个看似巨大的肿瘤时，她吓坏了。经过进一步检查，结果证明那只是一个无害的囊肿。但这让她经历了几天的恐慌。许多医生担心，如果你开始对没有症状的人进行扫描，你会引发更大范围的恐慌：大量的虚惊一场会让患者陷入恐慌，并需要昂贵甚至危险的检查来解决。但我认为这只是当前技术局限的产物。如果人们一直接受扫描，而我们在判断什么才是真正的问题上变得更在行，我朋友就会一辈子都知道这个囊肿，并知道它是无害的，就像我们看待胎记一样。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "0fc84e87b683609d58523d570d931312e924f4dd569d5bcf780fcc34875740b6",
+      "enMarkdown": "There is room for a lot of startups here. In addition to the technical obstacles all startups face, and the bureaucratic obstacles all medical startups face, they'll be going against thousands of years of medical tradition. But it will happen, and it will be a great thing—so great that people in the future will feel as sorry for us as we do for the generations that lived before anaesthesia and antibiotics.",
+      "zhMarkdown": "这里有巨大的创业空间。除了所有创业公司都会面临的技术障碍，以及所有医疗创业公司都会面临的官僚障碍之外，他们还将违背数千年的医疗传统。但这终将发生，而且将是一件伟大的事情——伟大到未来的人会像我们同情生活在麻醉剂和抗生素出现之前的几代人一样，同情我们这一代人。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "f1fbdd2fe9328f82a250db170c086341d2bffdb677ec3d3416799eb88107261d",
+      "enMarkdown": "**Tactics**",
+      "zhMarkdown": "**战术**"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "306abfedf45d05e5b8189b83672f4d9e2482ce7303bc6fb3bbc37f754f823447",
+      "enMarkdown": "Let me conclude with some tactical advice. If you want to take on a problem as big as the ones I've discussed, don't make a direct frontal attack on it. Don't say, for example, that you're going to replace email. If you do that you raise too many expectations. Your employees and investors will constantly be asking \"are we there yet?\" and you'll have an army of haters waiting to see you fail. Just say you're building todo-list software. That sounds harmless. People can notice you've replaced email when it's a *fait accompli*. [[4](#f4n)]",
+      "zhMarkdown": "最后，让我提供一些战术上的建议。如果你想解决像我刚才讨论的那些大问题，不要发动直接的正面进攻。例如，不要宣称你要取代电子邮件。如果你这么做，会吊起太高的期望。你的员工和投资者会不断询问“我们到了吗？”，你还会有一大群黑粉等着看你失败。只需说你正在开发待办事项软件。这听起来人畜无害。当它成为*既成事实*（fait accompli）时，人们自然会注意到你已经取代了电子邮件。[[4](#f4n)]"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "b1be326b9cf2d21ee0ec93dca895a6512ac76074b2cfadbb2187d8ece6c4c244",
+      "enMarkdown": "Empirically, the way to do really big things seems to be to start with deceptively small things. Want to dominate microcomputer software? Start by writing a Basic interpreter for a machine with a few thousand users. Want to make the universal web site? Start by building a site for Harvard undergrads to stalk one another.",
+      "zhMarkdown": "经验表明，做真正伟大的事情的方法似乎是从看似微不足道的事情开始。想主导微机软件吗？从为只有几千个用户的机器编写 Basic 解释器开始。想做无所不包的网站吗？从建立一个供哈佛本科生互相追踪的网站开始。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "4514252a7c598b3b71c850069745f78e04064e86ab124ca4294ce5c30a0228b1",
+      "enMarkdown": "Empirically, it's not just for other people that you need to start small. You need to for your own sake. Neither Bill Gates nor Mark Zuckerberg knew at first how big their companies were going to get. All they knew was that they were onto something. Maybe it's a bad idea to have really big ambitions initially, because the bigger your ambition, the longer it's going to take, and the further you project into the future, the more likely you'll get it wrong.",
+      "zhMarkdown": "经验表明，不仅为了别人，为了你自己，你也需要从小处着手。无论是比尔·盖茨还是马克·扎克伯格，起初都不知道自己的公司会变得多么庞大。他们只知道自己发现了一些有价值的东西。也许一开始就抱有过于宏大的野心并不是个好主意，因为你的野心越大，需要的时间就越长，而你对未来的预测越远，出错的可能性就越大。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "78dcaa88c66389b952446a48777aeed353bff9e54c037f32f5cc4214bd64be17",
+      "enMarkdown": "I think the way to use these big ideas is not to try to identify a precise point in the future and then ask yourself how to get from here to there, like the popular image of a visionary. You'll be better off if you operate like Columbus and just head in a general westerly direction. Don't try to construct the future like a building, because your current blueprint is almost certainly mistaken. Start with something you know works, and when you expand, expand westward.",
+      "zhMarkdown": "我认为利用这些宏大想法的方法，并不是像人们普遍心目中的远见者那样，试图确定未来的一个精确时间点，然后问自己如何从这里走到那里。如果你像哥伦布那样，只朝着大致偏西的方向前进，你的境况会更好。不要像建楼房那样去构建未来，因为你现在的蓝图几乎肯定是错的。从你确信可行的事情开始，当你向外扩张时，向西扩张。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "ed45999ef4846129a45cb92cad7ed923ff9a499cce34b8eb0642e7396620a925",
+      "enMarkdown": "The popular image of the visionary is someone with a clear view of the future, but empirically it may be better to have a blurry one.",
+      "zhMarkdown": "大众心目中的远见者是对未来有着清晰愿景的人，但经验表明，拥有一个模糊的愿景可能反而更好。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "fa8dadbc4918e442a65a7a960ebf395e69c9b7b1503c50fb1276ee4c214fa9aa",
+      "enMarkdown": "[1] It's also one of the most important things VCs fail to understand about startups. Most expect founders to walk in with a clear plan for the future, and judge them based on that. Few consciously realize that in the biggest successes there is the least correlation between the initial plan and what the startup eventually becomes.",
+      "zhMarkdown": "[1] 这也是风险投资人们未能理解创业公司的最重要的一点之一。大多数风险投资人期望创始人带着清晰的未来规划走进来，并以此来评判他们。很少有人能自觉地意识到，在最成功的案例中，最初的计划与创业公司最终的走向之间几乎没有任何关联。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "2e7ac2909a4dbd9248364e0bb1d6cd86b1cd54b35bab2aeb3f0f527ec3cb1999",
+      "enMarkdown": "[2] This sentence originally read \"GMail is painfully slow.\" Thanks to Paul Buchheit for the correction.",
+      "zhMarkdown": "[2] 这句话最初写作“GMail 慢得令人痛苦”。感谢 Paul Buchheit 予以纠正。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "8ba65a927705c1e4c4fbb4b88d9732c4f4403a21a481178ac4bbd98d41ed8e39",
+      "enMarkdown": "[3] Roger Bannister is famous as the first person to run a mile in under 4 minutes. But his world record only lasted 46 days. Once he showed it could be done, lots of others followed. Ten years later Jim Ryun ran a 3:59 mile as a high school junior.",
+      "zhMarkdown": "[3] 罗杰·班尼斯特（Roger Bannister）因成为第一个在 4 分钟内跑完一英里的人而闻名。但他的世界纪录仅维持了 46 天。一旦他证明了这是可以做到的，许多其他人便紧随其后。十年后，吉姆·瑞恩（Jim Ryun）在读高二时就跑出了 3 分 59 秒一英里的成绩。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "af9fba7d0d51d0be2c512cacd34a9ef7a0d60754e23ce7f9bf8782c0e9875d17",
+      "enMarkdown": "[4] If you want to be the next Apple, maybe you don't even want to start with consumer electronics. Maybe at first you make something hackers use. Or you make something popular but apparently unimportant, like a headset or router. All you need is a bridgehead.",
+      "zhMarkdown": "[4] 如果你想成为下一个苹果，也许你甚至不想从消费电子产品开始。也许起初你做一些黑客使用的东西。或者你做一些流行但看起来微不足道的东西，比如耳机或路由器。你需要的只是一个桥头堡。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "b9987ba1bad9c199d9406dedbd36a513a3639a82a952648ae7d5253776d137a9",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Paul Buchheit, Patrick Collison, Aaron Iba, Jessica Livingston, Robert Morris, Harj Taggar and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Paul Buchheit、Patrick Collison、Aaron Iba、Jessica Livingston、Robert Morris、Harj Taggar 和 Garry Tan 阅读本文的草稿。"
+    }
+  ]
+}

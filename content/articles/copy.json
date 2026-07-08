@@ -1,0 +1,97 @@
+{
+  "slug": "copy",
+  "titleEn": "Copy What You Like",
+  "titleZh": "模仿你真正喜欢的东西",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 164,
+  "sourceUrl": "https://paulgraham.com/copy.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "0ddc1d397186d9ab6ee280c1bcef2e4f58800f3ece9c41a9be5be35c369f0d03",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/copy-what-you-like-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/copy-what-you-like-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4548ce4977546753db9b91c15a99a82a3635181f24d0a1b62083000e34728575",
+      "enMarkdown": "July 2006",
+      "zhMarkdown": "2006年7月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "3a06afaf666fa65e94d5ee637c7551c277df206dee619ae7da7df89200d31058",
+      "enMarkdown": "When I was in high school I spent a lot of time imitating bad writers. What we studied in English classes was mostly fiction, so I assumed that was the highest form of writing. Mistake number one. The stories that seemed to be most admired were ones in which people suffered in complicated ways. Anything funny or gripping was ipso facto suspect, unless it was old enough to be hard to understand, like Shakespeare or Chaucer. Mistake number two. The ideal medium seemed the short story, which I've since learned had quite a brief life, roughly coincident with the peak of magazine publishing. But since their size made them perfect for use in high school classes, we read a lot of them, which gave us the impression the short story was flourishing. Mistake number three. And because they were so short, nothing really had to happen; you could just show a randomly truncated slice of life, and that was considered advanced. Mistake number four. The result was that I wrote a lot of stories in which nothing happened except that someone was unhappy in a way that seemed deep.",
+      "zhMarkdown": "上高中的时候，我花了很多时间去模仿那些糟糕的作家。我们在英语课上学的大多是虚构小说，所以我理所当然地认为那是写作的最高形式。这是第一个错误。当时最受推崇的故事，似乎总是讲述人们如何以各种复杂的方式遭受痛苦。任何有趣或引人入胜的东西，按其本质就是可疑的，除非它足够古老、难以理解，比如莎士比亚或乔叟的作品。这是第二个错误。当时最理想的媒介似乎是短篇小说，后来我才知道，短篇小说的生命周期其实相当短暂，大致与杂志出版的鼎盛时期重合。但由于篇幅适中，它们非常适合高中课堂教学，我们读了太多，以至于产生了一种短篇小说正蓬勃发展的错觉。这是第三个错误。正因为它们太短了，所以其实不需要发生什么实质性的情节；你只需要展示一段随机截取的生活片段，就会被认为是高级的。这是第四个错误。结果就是，我写了大量的故事，里面除了有人在以一种看似深沉的方式感到不快乐之外，什么都没有发生。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "bc758fad01a0af6262b9a7304fef565d980b8c0050ccb705a6b48fe7214dba92",
+      "enMarkdown": "For most of college I was a philosophy major. I was very impressed by the papers published in philosophy journals. They were so beautifully typeset, and their tone was just captivating—alternately casual and buffer-overflowingly technical. A fellow would be walking along a street and suddenly modality qua modality would spring upon him. I didn't ever quite understand these papers, but I figured I'd get around to that later, when I had time to reread them more closely. In the meantime I tried my best to imitate them. This was, I can now see, a doomed undertaking, because they weren't really saying anything. No philosopher ever refuted another, for example, because no one said anything definite enough to refute. Needless to say, my imitations didn't say anything either.",
+      "zhMarkdown": "大学的大部分时间里，我都在主修哲学。哲学期刊上发表的论文给我留下了深刻的印象。它们的排版如此精美，语气更是迷人——时而随性，时而充斥着技术细节，甚至到了“缓冲区溢出”的程度。一个家伙正走在街上，突然，“作为模态的模态”（modality qua modality）就会向他扑来。我从未真正读懂过这些论文，但我心想，以后有时间仔细重读时自然会明白的。与此同时，我尽最大努力去模仿它们。现在看来，这注定是一场徒劳，因为它们根本没有表达任何实质内容。例如，没有哪个哲学家能真正反驳另一个哲学家，因为没有人说过任何具体到可以被反驳的话。不用说，我的模仿作自然也是空洞无物。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "84969e005d6d1fdda90861d2fc09db3147cc194ed783335b50bad4fc947763f2",
+      "enMarkdown": "In grad school I was still wasting time imitating the wrong things. There was then a fashionable type of program called an expert system, at the core of which was something called an inference engine. I looked at what these things did and thought \"I could write that in a thousand lines of code.\" And yet eminent professors were writing books about them, and startups were selling them for a year's salary a copy. What an opportunity, I thought; these impressive things seem easy to me; I must be pretty sharp. Wrong. It was simply a fad. The books the professors wrote about expert systems are now ignored. They were not even on a *path* to anything interesting. And the customers paying so much for them were largely the same government agencies that paid thousands for screwdrivers and toilet seats.",
+      "zhMarkdown": "到了读研时，我依然在浪费时间模仿错误的东西。当时流行一种叫做“专家系统”的程序，其核心是一个被称为“推理引擎”的东西。我研究了这些东西的功能，心想：“我用一千行代码就能写出来。”然而，著名的教授们在为此著书立说，创业公司一套就能卖出一个人的年薪。我想，这真是个好机会；这些看似高深的东西在我眼里如此简单，我一定非常聪明。错了。这不过是一时风潮。教授们写的关于专家系统的书如今已被束之高阁。它们甚至连通往任何有趣事物的**路径**都算不上。而那些花高价购买这些系统的客户，很大程度上就是那些花数千美元买螺丝刀和马桶圈的政府机构。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "a77482a75178e82383a29de18de5e60fcfa62ad6641a517c0c3d65487f8fcc37",
+      "enMarkdown": "How do you avoid copying the wrong things? Copy only what you genuinely like. That would have saved me in all three cases. I didn't enjoy the short stories we had to read in English classes; I didn't learn anything from philosophy papers; I didn't use expert systems myself. I believed these things were good because they were admired.",
+      "zhMarkdown": "如何避免模仿错误的东西？只模仿你真正喜欢的东西。如果早明白这一点，我在上述三种情况下都能幸免于难。我不喜欢英语课上被迫阅读的那些短篇小说；我没有从哲学论文中学到任何东西；我自己也从不使用专家系统。我之所以认为这些东西好，仅仅是因为它们受到了推崇。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "16bb59c1302ac5b6816f4983b5e72e28b53a11158683df1490b5150f5202b001",
+      "enMarkdown": "It can be hard to separate the things you like from the things you're impressed with. One trick is to ignore presentation. Whenever I see a painting impressively hung in a museum, I ask myself: how much would I pay for this if I found it at a garage sale, dirty and frameless, and with no idea who painted it? If you walk around a museum trying this experiment, you'll find you get some truly startling results. Don't ignore this data point just because it's an outlier.",
+      "zhMarkdown": "要把你真正喜欢的东西和你只是感到钦佩的东西区分开来，可能并不容易。一个诀窍是忽略其呈现方式。每当我在美术馆看到一幅挂得很气派的画时，我都会问自己：如果我在旧货摊上发现它，它脏兮兮的、没有画框，我也不知道是谁画的，我愿意花多少钱买它？如果你在美术馆里走走并做这个实验，你会发现一些真正令人吃惊的结果。不要仅仅因为某个数据点是个离群值（outlier）就忽视它。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "bd02869f1b9c1e546ea48e5e2cdaabcd71df6e32cb8dd2773e7306a68636c36f",
+      "enMarkdown": "Another way to figure out what you like is to look at what you enjoy as guilty pleasures. Many things people like, especially if they're young and ambitious, they like largely for the feeling of virtue in liking them. 99% of people reading *Ulysses* are thinking \"I'm reading *Ulysses*\" as they do it. A guilty pleasure is at least a pure one. What do you read when you don't feel up to being virtuous? What kind of book do you read and feel sad that there's only half of it left, instead of being impressed that you're half way through? That's what you really like.",
+      "zhMarkdown": "弄清楚自己喜欢什么的另一种方法，是去看看你把什么当成了“偷着乐的消遣”（guilty pleasures）。许多人（尤其是年轻且有抱负的人）之所以喜欢某些东西，很大程度上是因为在喜欢它们时能获得一种道德上的优越感。99% 阅读《尤利西斯》的人，在阅读时脑子里想的都是“我正在读《尤利西斯》”。而“偷着乐的消遣”至少是纯粹的。当你不想勉强自己追求高雅时，你会读些什么？什么样的书会让你在读到只剩一半时感到惋惜，而不是为自己已经读了一半而感到自豪？那才是你真正喜欢的东西。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "01904a1b87aa6f911e67fadbba6047b90b0d1fcb6701f3a566f96b85c51e43e2",
+      "enMarkdown": "Even when you find genuinely good things to copy, there's another pitfall to be avoided. Be careful to copy what makes them good, rather than their flaws. It's easy to be drawn into imitating flaws, because they're easier to see, and of course easier to copy too. For example, most painters in the eighteenth and nineteenth centuries used brownish colors. They were imitating the great painters of the Renaissance, whose paintings by that time were brown with dirt. Those paintings have since been cleaned, revealing brilliant colors; their imitators are of course still brown.",
+      "zhMarkdown": "即使你找到了真正优秀的东西去模仿，还有一个陷阱需要避免。一定要注意模仿它们之所以优秀的本质，而不是它们的缺陷。我们很容易被吸引去模仿缺陷，因为缺陷更容易被察觉，当然也更容易被模仿。例如，十八和十九世纪的大多数画家都使用偏褐色的色调。他们是在模仿文艺复兴时期的伟大画家，而那些原作在当时已经因为积灰而发黄变褐了。后来，那些画作经过了清洗，展现出灿烂夺目的色彩；而他们的模仿者却依然是一片褐色。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "6e13f23a312719ce9890ae3645a0ed4414dafc10b95e54a0701e338a3ec6fadb",
+      "enMarkdown": "It was painting, incidentally, that cured me of copying the wrong things. Halfway through grad school I decided I wanted to try being a painter, and the art world was so manifestly corrupt that it snapped the leash of credulity. These people made philosophy professors seem as scrupulous as mathematicians. It was so clearly a choice of doing good work xor being an insider that I was forced to see the distinction. It's there to some degree in almost every field, but I had till then managed to avoid facing it.",
+      "zhMarkdown": "顺便提一句，正是画画治好了我模仿错误事物的毛病。读研读到一半时，我决定尝试成为一名画家。艺术界的腐败是如此显而易见，以至于彻底打破了我的盲信。这些人让哲学教授看起来像数学家一样严谨。这显然是一个非此即彼的选择：要么做出优秀的作品，要么成为圈内人。这迫使我看到了这两者之间的区别。在几乎每一个领域，这种区别在某种程度上都存在，但在此之前，我一直设法逃避去面对它。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "987e735f160f620ef05832d4ae6f3868f6352bde78768c8d4166dc4ab35b5fb3",
+      "enMarkdown": "That was one of the most valuable things I learned from painting: you have to figure out for yourself what's [good](https://paulgraham.com/taste.html). You can't trust authorities. They'll lie to you on this one.",
+      "zhMarkdown": "这是我从画画中学到的最宝贵的经验之一：你必须自己去判断什么是[好](https://paulgraham.com/taste.html)的。你不能迷信权威，在这件事上，他们会欺骗你。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "f1539f50536f1f027af466f76cc550c04e196010b2180d65669f4f3b26ed9637",
+      "enMarkdown": "[](http://reddit.com) [Comment](http://reddit.com/info/9bm4/comments) on this essay.",
+      "zhMarkdown": "[](http://reddit.com) 对这篇文章发表[评论](http://reddit.com/info/9bm4/comments)。"
+    }
+  ]
+}

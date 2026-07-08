@@ -1,0 +1,209 @@
+{
+  "slug": "convergence",
+  "titleEn": "Why TV Lost",
+  "titleZh": "电视为什么输了",
+  "dateText": "March 2009",
+  "publishedAt": "2009-03-01",
+  "sourceOrder": 123,
+  "sourceUrl": "https://paulgraham.com/convergence.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "dd7166816457328be61b60b752a8beecd332f1afda16176a420c42e4c8701562",
+      "enMarkdown": "About twenty years ago people noticed computers and TV were on a collision course and started to speculate about what they'd produce when they converged. We now know the answer: computers. It's clear now that even by using the word \"convergence\" we were giving TV too much credit. This won't be convergence so much as replacement. People may still watch things they call \"TV shows,\" but they'll watch them mostly on computers.",
+      "zhMarkdown": "大约二十年前，人们注意到电脑和电视正处于迎头相撞的轨道上，并开始推测两者融合后会产生什么。现在我们有了答案：电脑。显然，现在看来，即使使用“融合”这个词，也是太给电视面子了。这与其说是融合，不如说是替代。人们可能仍会观看被称为“电视节目”的东西，但他们大多会在电脑上看。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "78a0a8169ddadc7fc3723d47586479fdae788c72c35a2444d9bfdd1b67940f26",
+      "enMarkdown": "What decided the contest for computers? Four forces, three of which one could have predicted, and one that would have been harder to.",
+      "zhMarkdown": "是什么决定了电脑在这场竞争中获胜？有四股力量，其中三股是人们可以预见的，还有一股则比较难预测。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d0d48cb70829854a3cb388a0794ba521a418452601a6c87674803e589aaf56ef",
+      "enMarkdown": "One predictable cause of victory is that the Internet is an open platform. Anyone can build whatever they want on it, and the market picks the winners. So innovation happens at hacker speeds instead of big company speeds.",
+      "zhMarkdown": "一个可以预见的获胜原因是，互联网是一个开放平台。任何人都可以上面构建任何他们想要的东西，市场来挑选赢家。因此，创新的发生是黑客的速度，而不是大公司的速度。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "94b6abd8c68c6044a6435b0f36691f3a23a01e4ec0d3c7a45cfa0144158c01a8",
+      "enMarkdown": "The second is Moore's Law, which has worked its usual magic on Internet bandwidth. [[1](#f1n)]",
+      "zhMarkdown": "第二个是摩尔定律，它在互联网带宽上施展了它一贯的魔力。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1f6d1a1fffe8b9e0e9973e5d54e0b30f29f4a65f551294f857705794e640c824",
+      "enMarkdown": "The third reason computers won is piracy. Users prefer it not just because it's free, but because it's more convenient. Bittorrent and YouTube have already trained a new generation of viewers that the place to watch shows is on a computer screen. [[2](#f2n)]",
+      "zhMarkdown": "电脑获胜的第三个原因是盗版。用户喜欢盗版不仅因为它是免费的，还因为它更方便。Bittorrent 和 YouTube 已经培养了新一代观众，让他们习惯了在电脑屏幕上看节目。[[2](#f2n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "69e3be4f5498d82161800e1cf614511b64e054ae29193fcaf171aac3855192f9",
+      "enMarkdown": "The somewhat more surprising force was one specific type of innovation: social applications. The average teenage kid has a pretty much infinite capacity for talking to their friends. But they can't physically be with them all the time. When I was in high school the solution was the telephone. Now it's social networks, multiplayer games, and various messaging applications. The way you reach them all is through a computer. [[3](#f3n)] Which means every teenage kid (a) wants a computer with an Internet connection, (b) has an incentive to figure out how to use it, and (c) spends countless hours in front of it.",
+      "zhMarkdown": "那股多少有些令人意外的力量，是一种特定类型的创新：社交应用。普通青少年和朋友聊天的精力几乎是无限的。但他们无法时刻在物理上呆在一起。我上高中那会儿，解决方案是电话。现在则是社交网络、多人游戏和各种即时通讯应用。而联系所有这些人的途径，就是通过电脑。[[3](#f3n)] 这意味着每个青少年（a）都想要一台联网的电脑，（b）都有动力去搞懂怎么使用它，并且（c）在它面前花费无数的时间。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "fd96f31a4692959a06cee8f4c3dac30b3e2cdc3f8c047067e27348af1dd2427c",
+      "enMarkdown": "This was the most powerful force of all. This was what made everyone want computers. Nerds got computers because they liked them. Then gamers got them to play games on. But it was connecting to other people that got everyone else: that's what made even grandmas and 14 year old girls want computers.",
+      "zhMarkdown": "这是所有力量中最强大的一股。正是它让每个人都想要电脑。书呆子买电脑是因为他们喜欢电脑。然后游戏玩家买电脑是为了玩游戏。但与他人的连接，则彻底拿下了剩下的所有人：正是这一点，让连老奶奶和 14 岁的小女孩都想要电脑。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "fe983587adaf288d23382d65d7d38648b20a9f4a3f6373eeafc656253327b091",
+      "enMarkdown": "After decades of running an IV drip right into their audience, people in the entertainment business had understandably come to think of them as rather passive. They thought they'd be able to dictate the way shows reached audiences. But they underestimated the force of their desire to connect with one another.",
+      "zhMarkdown": "在几十年来直接向观众输液（灌输节目）之后，娱乐业的人很自然地把观众看作是被动的。他们以为自己能够主宰节目触达观众的方式。但他们低估了人们彼此建立联系的强烈渴望。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "46be0bcf8180e3d329d8a6ef61f9051016a8f4b518b8c8a73d966c26e0e82ba1",
+      "enMarkdown": "Facebook killed TV. That is wildly oversimplified, of course, but probably as close to the truth as you can get in three words.",
+      "zhMarkdown": "Facebook 杀死了电视。当然，这极大地简化了问题，但用三个词来概括，这大概是最接近真相的了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "bda251550bf0478f4172a8aeb291d6543fea090150b82c3e2881a53721eaf990",
+      "enMarkdown": "___",
+      "zhMarkdown": "___"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "9b078590b62855bbb367a618c079975f906f60380ebff9881a05dacc7428e54d",
+      "enMarkdown": "The TV networks already seem, grudgingly, to see where things are going, and have responded by putting their stuff, grudgingly, online. But they're still dragging their heels. They still seem to wish people would watch shows on TV instead, just as newspapers that put their stories online still seem to wish people would wait till the next morning and read them printed on paper. They should both just face the fact that the Internet is the primary medium.",
+      "zhMarkdown": "电视网似乎已经勉强看到了未来的趋势，并做出了回应，也勉强把自家内容放到了网上。但他们仍在拖延。他们似乎仍然希望人们在电视上看节目，就像把报道放到网上的报纸，似乎仍然希望人们等到第二天早上阅读印在纸上的新闻一样。他们双方都应该正视一个事实：互联网才是首要媒介。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e97067a51bcbf3b6bde00cd8fe604455e372ad680d9d3ec38b4c719a28e1db36",
+      "enMarkdown": "They'd be in a better position if they'd done that earlier. When a new medium arises that's powerful enough to make incumbents nervous, then it's probably powerful enough to win, and the best thing they can do is jump in immediately.",
+      "zhMarkdown": "如果他们早点这么做，处境会更好。当一种新媒介兴起，其强大程度足以让既得利益者感到紧张时，它很可能就强大到足以获胜，而他们能做的最好的事情就是立即加入。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "9fcef40121c8d358e010e2aad35af56966629c9948b17eeedf0e779e10b8a0c2",
+      "enMarkdown": "Whether they like it or not, big changes are coming, because the Internet dissolves the two cornerstones of broadcast media: synchronicity and locality. On the Internet, you don't have to send everyone the same signal, and you don't have to send it to them from a local source. People will watch what they want when they want it, and group themselves according to whatever shared interest they feel most strongly. Maybe their strongest shared interest will be their physical location, but I'm guessing not. Which means local TV is probably dead. It was an artifact of limitations imposed by old technology. If someone were creating an Internet-based TV company from scratch now, they might have some plan for shows aimed at specific regions, but it wouldn't be a top priority.",
+      "zhMarkdown": "不管他们喜不喜欢，巨大的变革即将到来，因为互联网消解了广播电视媒体的两大基石：同步性和地域性。在互联网上，你不需要向每个人发送相同的信号，也不需要从本地源发送给他们。人们会在他们想看的时候看他们想看的东西，并根据他们感觉最强烈的共同兴趣进行分组。也许他们最强烈的共同兴趣会是他们的物理位置，但我猜不会。这意味着本地电视大概死定了。它是旧技术限制下的产物。如果现在有人白手起家创建一家基于互联网的电视公司，他们可能会有一些针对特定地区的节目计划，但这不会是重中之重。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "cc9af2498601d973c20edf329e870cdbc49dedaf0b4a8e445af23ad232ba566e",
+      "enMarkdown": "Synchronicity and locality are tied together. TV network affiliates care what's on at 10 because that delivers viewers for local news at 11. This connection adds more brittleness than strength, however: people don't watch what's on at 10 because they want to watch the news afterward.",
+      "zhMarkdown": "同步性和地域性是绑定在一起的。电视网的附属地方台关心 10 点播什么，因为这能为 11 点的本地新闻输送观众。然而，这种联系带来的脆弱性多过力量：人们看 10 点的节目，并不是因为他们之后想看新闻。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "76980f26633a67696e37edb573b1bf19014ba3c0fa6bb20d2aff22b8a64f1b32",
+      "enMarkdown": "TV networks will fight these trends, because they don't have sufficient flexibility to adapt to them. They're hemmed in by local affiliates in much the same way car companies are hemmed in by dealers and unions. Inevitably, the people running the networks will take the easy route and try to keep the old model running for a couple more years, just as the record labels have done.",
+      "zhMarkdown": "电视网会抗拒这些趋势，因为他们没有足够的灵活性来适应。他们被地方附属台所束缚，就像汽车公司被经销商和工会束缚一样。不可避免地，管理电视网的人会选择省力的路子，试图让旧模式再维持几年，就像唱片公司所做的那样。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "0e103703f4626a38c297542f57d461a3598a381b48814fd0272282e31ee610bd",
+      "enMarkdown": "A recent article in the *Wall Street Journal* described how TV networks were trying to add more live shows, partly as a way to make viewers watch TV synchronously instead of watching recorded shows when it suited them. Instead of delivering what viewers want, they're trying to force them to change their habits to suit the networks' obsolete business model. That never works unless you have a monopoly or cartel to enforce it, and even then it only works temporarily.",
+      "zhMarkdown": "《华尔街日报》最近的一篇文章描述了电视网如何试图增加更多直播节目，部分是为了强迫观众同步观看电视，而不是在合适的时候看录播节目。他们不是在提供观众想要的东西，而是试图强迫观众改变习惯，以适应电视网过时的商业模式。除非你拥有垄断地位或卡特尔来强制执行，否则这永远行不通，而且即使那样也只是权宜之计。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "1303f3f6a47210be406ee6915802fa1393434859efd86de9d124c65981db7bec",
+      "enMarkdown": "The other reason networks like live shows is that they're cheaper to produce. There they have the right idea, but they haven't followed it to its conclusion. Live content can be way cheaper than networks realize, and the way to take advantage of dramatic decreases in cost is to [increase volume](http://justin.tv). The networks are prevented from seeing this whole line of reasoning because they still think of themselves as being in the broadcast business—as sending one signal to everyone. [[4](#f4n)]",
+      "zhMarkdown": "电视网喜欢直播节目的另一个原因是制作成本更低。在这个点上他们的想法是对的，但他们没有贯彻到底。直播内容的成本可以比电视网想象的要便宜得多，而利用成本大幅下降的途径就是[增加数量](http://justin.tv)。电视网无法看清这整套逻辑，因为他们仍然认为自己做的是广播业务——即向每个人发送同一个信号。[[4](#f4n)]"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "bda251550bf0478f4172a8aeb291d6543fea090150b82c3e2881a53721eaf990",
+      "enMarkdown": "___",
+      "zhMarkdown": "___"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "ed61f3ca45cd6c45b44049547027a39648eda02805811fc6d0adc7ea22447df0",
+      "enMarkdown": "[Now](https://paulgraham.com/badeconomy.html) would be a good time to start any company that competes with TV networks. That's what a lot of Internet startups are, though they may not have had this as an explicit goal. People only have so many leisure hours a day, and TV is premised on such long sessions (unlike Google, which prides itself on sending users on their way quickly) that anything that takes up their time is competing with it. But in addition to such indirect competitors, I think TV companies will increasingly face direct ones.",
+      "zhMarkdown": "[现在](https://paulgraham.com/badeconomy.html)是创办任何与电视网竞争的公司的黄金时期。许多互联网创业公司正是如此，尽管他们可能没有把这作为明确的目标。人们每天的闲暇时间是有限的，而电视是以长时间观看为前提的（不像 Google，以快速送走用户为荣），因此任何占用他们时间的东西都是在与电视竞争。但除了这些间接竞争对手之外，我认为电视公司将面临越来越多直接的竞争对手。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "82e32b7b0478cdfdcf950fa80b35ff7b0892d02094bb62efa56d1e7268d5ebb9",
+      "enMarkdown": "Even in cable TV, the long tail was lopped off prematurely by the threshold you had to get over to start a new channel. It will be longer on the Internet, and there will be more mobility within it. In this new world, the existing players will only have the advantages any big company has in its market.",
+      "zhMarkdown": "即使在有线电视中，长尾效应也因为开播新频道所需跨越的门槛而被过早地截断了。在互联网上，长尾会更长，而且其中的流动性也会更大。在这个新世界里，现有的玩家将只拥有任何大公司在其市场中拥有的普适优势。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "e21dadee387e04017b946680d297bb9b72e6d7d15e497aa4cb8e9dffc9189cdd",
+      "enMarkdown": "That will change the balance of power between the networks and the people who produce shows. The networks used to be gatekeepers. They distributed your work, and sold advertising on it. Now the people who produce a show can distribute it themselves. The main value networks supply now is ad sales. Which will tend to put them in the position of service providers rather than publishers.",
+      "zhMarkdown": "这将改变电视网与节目制作人之间的权力平衡。电视网过去是守门人。他们分发你的作品，并在上面卖广告。现在，制作节目的人可以自己分发它。电视网现在提供的主要价值是广告销售。这将倾向于让他们处于服务提供商而非出版商的地位。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "9ea571f93ef3712d4963fafa2de9ed63a2baa2449dde17c04e76a397761c9df3",
+      "enMarkdown": "Shows will change even more. On the Internet there's no reason to keep their current format, or even the fact that they have a single format. Indeed, the more interesting sort of convergence that's coming is between shows and games. But on the question of what sort of entertainment gets distributed on the Internet in 20 years, I wouldn't dare to make any predictions, except that things will change a lot. We'll get whatever the most imaginative people can cook up. That's why the Internet won.",
+      "zhMarkdown": "节目将发生更大的变化。在互联网上，没有理由保持它们目前的格式，甚至没有理由保持单一的格式。事实上，即将到来的更令人兴奋的融合是节目和游戏之间的融合。但关于 20 年后在互联网上分发什么样娱乐形式的问题，除了事物会发生巨大变化之外，我不敢做出任何预测。我们将得到最富有想象力的人所能构思出的一切。这就是互联网获胜的原因。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "525fcc8bf1cdfceb9991875cbd706bf686e97c14e289bd4fb2e7ccecb1cd78b2",
+      "enMarkdown": "[1] Thanks to Trevor Blackwell for this point. He adds: \"I remember the eyes of phone companies gleaming in the early 90s when they talked about convergence. They thought most programming would be on demand, and they would implement it and make a lot of money. It didn't work out. They assumed that their local network infrastructure would be critical to do video on-demand, because you couldn't possibly stream it from a few data centers over the internet. At the time (1992) the entire cross-country Internet bandwidth wasn't enough for one video stream. But wide-area bandwidth increased more than they expected and they were beaten by iTunes and Hulu.\"",
+      "zhMarkdown": "[1] 感谢 Trevor Blackwell 提出这一点。他补充道：“我记得在 90 年代初，电话公司谈到融合时，眼里闪烁着光芒。他们认为大多数节目都会是点播的，他们会实现这一点并赚大钱。但结果并非如此。他们假设自己的本地网络基础设施对于进行视频点播至关重要，因为你不可能通过互联网从几个数据中心流式传输视频。在当时（1992 年），整个跨国互联网带宽甚至不够一个视频流使用。但广域网带宽的增长超出了他们的预期，他们最终被 iTunes 和 Hulu 击败了。”"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "38f1d8f3185853c1b0ec9d47d8296be40700ea34b11e0b2ec4cd3d3055158b06",
+      "enMarkdown": "[2] Copyright owners tend to focus on the aspect they see of piracy, which is the lost revenue. They therefore think what drives users to do it is the desire to get something for free. But iTunes shows that people will pay for stuff online, if you make it easy. A significant component of piracy is simply that it offers a better user experience.",
+      "zhMarkdown": "[2] 版权所有者倾向于关注他们看到的盗版方面，即收入损失。因此，他们认为驱动用户这样做的是免费获取东西的欲望。但 iTunes 表明，如果你能提供便利，人们是愿意在网上付费的。盗版的一个重要组成部分仅仅是因为它提供了更好的用户体验。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "410fa344625e4b86f85fa1fe3d213a971e77ee4506c7733e0150a3d716b48e32",
+      "enMarkdown": "[3] Or a phone that is actually a computer. I'm not making any predictions about the size of the device that will replace TV, just that it will have a browser and get data via the Internet.",
+      "zhMarkdown": "[3] 或者是实际上是电脑的手机。我不会对代替电视的设备尺寸做任何预测，只是说它会有一个浏览器，并能通过互联网获取数据。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "97106984acb08363614b27beaf5f5643d68db083b1443a0d5920f36f6cd0d208",
+      "enMarkdown": "[4] Emmett Shear writes: \"I'd argue the long tail for sports may be even larger than the long tail for other kinds of content. Anyone can broadcast a high school football game that will be interesting to 10,000 people or so, even if the quality of production is not so good.\"",
+      "zhMarkdown": "[4] Emmett Shear 写道：“我认为体育运动的长尾可能比其他类型内容的长尾还要大。任何人都可以广播一场高中橄榄球赛，即使制作质量不是很好，也会吸引大约 10,000 人观看。”"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "03cd2ce0d93b0d68bfc5c617ed99776c6b44a3f89a537d7c0768b3acc3e7efc4",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Nancy Cook, Michael Seibel, Emmett Shear, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman, Trevor Blackwell, Nancy Cook, Michael Seibel, Emmett Shear, 和 Fred Wilson 阅读了本文的草稿。"
+    }
+  ]
+}

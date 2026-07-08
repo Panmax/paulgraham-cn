@@ -1,0 +1,177 @@
+{
+  "slug": "diff",
+  "titleEn": "What Made Lisp Different",
+  "titleZh": "是什么让 Lisp 与众不同",
+  "dateText": "December 2001",
+  "publishedAt": "2001-12-01",
+  "sourceOrder": 217,
+  "sourceUrl": "https://paulgraham.com/diff.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "86c7b528979ce5650ade73eb2d4781e7c9b45daab216757a44162bd6c20e784d",
+      "enMarkdown": "(rev. May 2002)  *(This article came about in response to some questions on\nthe LL1 mailing list.  It is now\nincorporated in Revenge of the Nerds.)*",
+      "zhMarkdown": "（2002年5月修订）*（本文是为了回应 LL1 邮件列表上的一些问题而写。现已并入《黑客与画家》中的《书呆子的复仇》一文。）*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "d68046ec8672e096e3acc37c0f4f21817382f7398713d28dd7a8904872777813",
+      "enMarkdown": "When McCarthy designed Lisp in the late 1950s, it was a radical departure from existing languages, the most important of which was [Fortran](https://paulgraham.com/history.html).",
+      "zhMarkdown": "当麦卡锡在 20 世纪 50 年代后期设计 Lisp 时，它与当时已有的语言相比是一次彻底的叛逆，而当时最重要的一种语言是 [Fortran](https://paulgraham.com/history.html)。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ad0afc78ec456c82d123d82960a50aa6ae493099f540ad6b0079b8d2f2b6cb37",
+      "enMarkdown": "Lisp embodied nine new ideas:",
+      "zhMarkdown": "Lisp 具体体现了九个新思想："
+    },
+    {
+      "id": 4,
+      "type": "hr",
+      "sourceHash": "e04feaf0fbf63d40918ba0f483a87ec1c5e5b04fec19917a7d834cfded334b5d"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "41b978a4a863629aaf339f93730be603a5e2c379511203003b319dd7ddd18ee9",
+      "enMarkdown": "**1. Conditionals.** A conditional is an if-then-else construct. We take these for granted now. They were [invented](http://www-formal.stanford.edu/jmc/history/lisp/node2.html) by McCarthy in the course of developing Lisp. (Fortran at that time only had a conditional goto, closely based on the branch instruction in the underlying hardware.) McCarthy, who was on the Algol committee, got conditionals into Algol, whence they spread to most other languages.",
+      "zhMarkdown": "**1. 条件分支。** 条件分支就是 if-then-else 结构。我们现在对此习以为常。它们是麦卡锡在开发 Lisp 的过程中[发明](http://www-formal.stanford.edu/jmc/history/lisp/node2.html)的。（当时的 Fortran 只有条件跳转，紧密基于底层硬件的跳转指令。）作为 Algol 委员会成员的麦卡锡，将条件分支引入了 Algol，随后它便传播到了大多数其他语言中。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "1be00f4e1bf54a0f0362918c6343abebfcc3e3e37d562615bb056cc6149331a2",
+      "enMarkdown": "**2. A function type.** In Lisp, functions are first class objects-- they're a data type just like integers, strings, etc, and have a literal representation, can be stored in variables, can be passed as arguments, and so on.",
+      "zhMarkdown": "**2. 函数类型。** 在 Lisp 中，函数是一等公民——它们和整数、字符串等一样是一种数据类型，有字面量表示法，可以存放在变量中，可以作为参数传递，等等。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "8aa0bd7c7dd4ca34f5567aa130c0d45906d0f08a369ed0cafec7226f31a89474",
+      "enMarkdown": "**3. Recursion.** Recursion existed as a mathematical concept before Lisp of course, but Lisp was the first programming language to support it. (It's arguably implicit in making functions first class objects.)",
+      "zhMarkdown": "**3. 递归。** 在 Lisp 出现之前，递归当然作为数学概念已经存在，但 Lisp 是第一个支持递归的编程语言。（可以说，将函数作为一等公民，其中就隐式包含了解析递归的要求。）"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d0c4932e4d5be16515bb24e010c066e630d811b1515ae13f568375b80f423107",
+      "enMarkdown": "**4. A new concept of variables.** In Lisp, all variables are effectively pointers. Values are what have types, not variables, and assigning or binding variables means copying pointers, not what they point to.",
+      "zhMarkdown": "**4. 变量的新概念。** 在 Lisp 中，所有变量本质上都是指针。有类型的是值，而不是变量；赋值或绑定变量意味着复制指针，而不是复制指针所指向的内容。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "720aa1a0489ebc3dc46cf365bf0a838f304ce61a244bb1e612d917171597ed0e",
+      "enMarkdown": "**5. Garbage-collection.**",
+      "zhMarkdown": "**5. 垃圾回收。**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "24d6339a5490a7c1e608b8767cda3ea2a1b8dccac13556bb0819bce4657e0778",
+      "enMarkdown": "**6. Programs composed of expressions.** Lisp programs are trees of expressions, each of which returns a value. (In some Lisps expressions can return multiple values.) This is in contrast to Fortran and most succeeding languages, which distinguish between expressions and statements.",
+      "zhMarkdown": "**6. 由表达式组成的程序。** Lisp 程序是表达式构成的树，每个表达式都返回一个值。（在某些 Lisp 方言中，表达式可以返回多个值。）这与 Fortran 以及大多数后来的语言截然不同，后者区分了“表达式”（expressions）和“语句”（statements）。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "598c72b7bb2b871dfa56b7471e2ec15042a16351dcd34a1c1cef25868ea801e3",
+      "enMarkdown": "It was natural to have this distinction in Fortran because (not surprisingly in a language where the input format was punched cards) the language was line-oriented. You could not nest statements. And so while you needed expressions for math to work, there was no point in making anything else return a value, because there could not be anything waiting for it.",
+      "zhMarkdown": "在 Fortran 中存在这种区分是很自然的，因为该语言是面向行的（这在输入格式为打孔卡片的语言中并不令人意外）。你无法嵌套语句。因此，虽然进行数学计算需要表达式，但让其他任何东西返回值都没有意义，因为没有地方可以接收这个返回值。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "724469b924bf2432ec38930a14db5e2e1df6ecf7812cc0761042acc628bcc29c",
+      "enMarkdown": "This limitation went away with the arrival of block-structured languages, but by then it was too late. The distinction between expressions and statements was entrenched. It spread from Fortran into Algol and thence to both their descendants.",
+      "zhMarkdown": "这种限制随着块结构语言的出现而消失了，但那时已经太迟了。表达式和语句之间的界限已经根深蒂固。它从 Fortran 传播到 Algol，进而传给了它们两者的后代。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "fab6a5cf74bdce66ab1cb8596e2ada6f6052ea4bcef8c4ba53d254126a222368",
+      "enMarkdown": "When a language is made entirely of expressions, you can compose expressions however you want. You can say either (using [Arc](https://paulgraham.com/arc.html) syntax)",
+      "zhMarkdown": "当一个语言完全由表达式组成时，你可以任意组合它们。你可以写（使用 [Arc](https://paulgraham.com/arc.html) 语法）："
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "f351676064c784638c98f66ad9edce955a60a53ded82dd221e05f39e1a904aab",
+      "enMarkdown": "(if foo (= x 1) (= x 2))",
+      "zhMarkdown": "(if foo (= x 1) (= x 2))"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6",
+      "enMarkdown": "or",
+      "zhMarkdown": "或者"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "dd81bd802dabd5db40a95ba175691efc336f0efa93f0f162f4bd9521f6bc6e03",
+      "enMarkdown": "(= x (if foo 1 2))",
+      "zhMarkdown": "(= x (if foo 1 2))"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "34a928f5eb5290995ef4d3b78c9566eecc7d7fba1518f50cf2ea8d4d81ec4595",
+      "enMarkdown": "**7. A symbol type.** Symbols differ from strings in that you can test equality by comparing a pointer.",
+      "zhMarkdown": "**7. 符号类型。** 符号与字符串的不同之处在于，你可以通过比较指针来判断它们是否相等。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7b59422f3b449b29c20a3e33e56169521474091d5aeac4dbc2ac0c6ed7c47150",
+      "enMarkdown": "**8. A notation for code** using trees of symbols.",
+      "zhMarkdown": "**8. 用符号树表示代码的记法。**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "a201a8b7fe553431ab452dde68ac0d2e7c9ef1ed826c50deaab99d20c72f1700",
+      "enMarkdown": "**9. The whole language always available.** There is no real distinction between read-time, compile-time, and runtime. You can compile or run code while reading, read or run code while compiling, and read or compile code at runtime.",
+      "zhMarkdown": "**9. 整个语言随时可用。** 读取期、编译期和运行期之间没有绝对的界限。你可以在读取代码时进行编译或运行，在编译时读取或运行代码，在运行时读取或编译代码。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "9e3786cb3f5f541f76f3c00e5f8a5675b214209b8aa32f3442f2189b8acadb0c",
+      "enMarkdown": "Running code at read-time lets users reprogram Lisp's syntax; running code at compile-time is the basis of macros; compiling at runtime is the basis of Lisp's use as an extension language in programs like Emacs; and reading at runtime enables programs to communicate using s-expressions, an idea recently reinvented as XML.",
+      "zhMarkdown": "在读取期运行代码允许用户重新定义 Lisp 的语法；在编译期运行代码是宏的基础；在运行时编译是 Lisp 在 Emacs 等程序中作为扩展语言的基础；而在运行时读取则使程序能够通过 S-表达式进行通信，这一想法最近被重新发明成了 XML。"
+    },
+    {
+      "id": 21,
+      "type": "hr",
+      "sourceHash": "12872a9804c1f11cfbecedc93a4e46d29f7b29b61f93430f3da6f7825ff4f419"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "4953f62c63635fdc2f4e09c6e3d21c77fe7cd74e73cd04ab72129ba9290982ea",
+      "enMarkdown": "When Lisp was first invented, all these ideas were far removed from ordinary programming practice, which was dictated largely by the hardware available in the late 1950s.",
+      "zhMarkdown": "在 Lisp 刚被发明出来时，所有这些思想都与主流编程实践相去甚远，当时的编程实践很大程度上是由 20 世纪 50 年代末可用的硬件所决定的。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "802208d1c255355475f11a17b2189c9c54c25c13dc96a8f5a2a2545954f8bef4",
+      "enMarkdown": "Over time, the default language, embodied in a succession of popular languages, has gradually evolved toward Lisp. 1-5 are now widespread. 6 is starting to appear in the mainstream. Python has a form of 7, though there doesn't seem to be any syntax for it. 8, which (with 9) is what makes Lisp macros possible, is so far still unique to Lisp, perhaps because (a) it requires those parens, or something just as bad, and (b) if you add that final increment of power, you can no longer claim to have invented a new language, but only to have designed a new dialect of Lisp ; -)",
+      "zhMarkdown": "随着时间的推移，在一代代流行语言中体现出来的“默认语言标准”正逐渐向 Lisp 演进。第 1 到第 5 点现在已经普及。第 6 点开始在主流语言中出现。Python 拥有第 7 点的一种形式，尽管似乎没有任何专门的语法。而第 8 点（与第 9 点配合）是让 Lisp 宏成为可能的核心，到目前为止依然是 Lisp 所独有的，这或许是因为：(a) 它需要那些括号，或者其他同样糟糕的东西；(b) 如果你加上这最后一点威力，你便无法再宣称自己发明了一门新语言，而只能说自己设计了 Lisp 的一个新方言 ；-)"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "9022a0ace72f201df530053fb778dfa12a5e4d74feadaa8e770365d191e5c0b5",
+      "enMarkdown": "Though useful to present-day programmers, it's strange to describe Lisp in terms of its variation from the random expedients other languages adopted. That was not, probably, how McCarthy thought of it. Lisp wasn't designed to fix the mistakes in Fortran; it came about more as the byproduct of an attempt to [axiomatize computation](https://paulgraham.com/rootsoflisp.html).",
+      "zhMarkdown": "虽然通过对比其他语言采用的各种权宜之计来描述 Lisp 对今天的程序员很有用，但这样做其实有点奇怪。麦卡锡当时大概不是这么想的。Lisp 的设计初衷并不是为了修正 Fortran 的错误，它更多是一次尝试将[计算公理化](https://paulgraham.com/rootsoflisp.html)的副产品。"
+    }
+  ]
+}

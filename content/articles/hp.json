@@ -1,0 +1,636 @@
+{
+  "slug": "hp",
+  "titleEn": "Hackers and Painters",
+  "titleZh": "黑客与画家",
+  "dateText": "May 2003",
+  "publishedAt": "2003-05-01",
+  "sourceOrder": 205,
+  "sourceUrl": "https://paulgraham.com/hp.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f8446221d7bc63d69b296197287205388393f19520c0d8c177e3406d09e16f5d",
+      "enMarkdown": "*(This essay is derived from a guest lecture at Harvard, which incorporated\nan earlier talk at Northeastern.)*",
+      "zhMarkdown": "*(本文源自作者在哈佛大学的一次客座演讲，其中融入了早前在东北大学的一次演讲内容。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "29913fc4239c5f56b707005c72a88d4c3d4a7c69621f371782480bee5f208292",
+      "enMarkdown": "When I finished grad school in computer science I went to art school to study painting. A lot of people seemed surprised that someone interested in computers would also be interested in painting. They seemed to think that hacking and painting were very different kinds of work-- that hacking was cold, precise, and methodical, and that painting was the frenzied expression of some primal urge.",
+      "zhMarkdown": "当我从计算机科学的研究生院毕业后，我去了艺术学校学习绘画。很多人似乎很惊讶，一个对计算机感兴趣的人居然也会对绘画感兴趣。在他们看来，黑客和绘画是截然不同的工作——黑客是冰冷、精确且有条不紊的，而绘画则是某种原始冲动的狂热表达。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "0170da17456eec88887d3196de9660d332fe409f634bad48f0f0c2c236c46e64",
+      "enMarkdown": "Both of these images are wrong. Hacking and painting have a lot in common. In fact, of all the different types of people I've known, hackers and painters are among the most alike.",
+      "zhMarkdown": "这两种形象都错了。黑客和绘画其实有很多共同点。事实上，在我认识的所有不同类型的人中，黑客和画家是最相似的群体之一。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2cabb8fbbdf844a1e0139ab07f11e5a713a5913464938f9a0b4323ff8b98124f",
+      "enMarkdown": "What hackers and painters have in common is that they're both makers. Along with composers, architects, and writers, what hackers and painters are trying to do is make good things. They're not doing research per se, though if in the course of trying to make good things they discover some new technique, so much the better.",
+      "zhMarkdown": "黑客和画家的共同之处在于，他们都是“创造者”（makers）。与作曲家、建筑师和作家一样，黑客和画家努力追求的，都是做出优秀的产品。他们本质上不是在做研究，尽管在努力做出好产品的过程中，如果能发现一些新技术，那就再好不过了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "182c0eb5aff7b962327784dba715654afebb0205a03aaaa30109283750a07742",
+      "enMarkdown": "I've never liked the term \"computer science.\" The main reason I don't like it is that there's no such thing. Computer science is a grab bag of tenuously related areas thrown together by an accident of history, like Yugoslavia. At one end you have people who are really mathematicians, but call what they're doing computer science so they can get DARPA grants. In the middle you have people working on something like the natural history of computers-- studying the behavior of algorithms for routing data through networks, for example. And then at the other extreme you have the hackers, who are trying to write interesting software, and for whom computers are just a medium of expression, as concrete is for architects or paint for painters. It's as if mathematicians, physicists, and architects all had to be in the same department.",
+      "zhMarkdown": "我从来都不喜欢“计算机科学”这个词。最主要的原因是，这种东西根本不存在。计算机科学是一个由历史偶然性拼凑在一起、关系疏离的诸多领域的杂烩，就像当年的南斯拉夫一样。在光谱的一端，是那些真正的数学家，但他们为了能拿到美国国防高级研究计划局（DARPA）的资助，把自己的工作称为计算机科学。在中间，是那些研究类似计算机自然史的人——例如研究数据在网络中路由的算法行为。而在光谱的另一端，则是黑客，他们试图写出有趣的软件，对他们来说，计算机只是一种表达媒介，就像混凝土之于建筑师，颜料之于画家。这感觉就像是把数学家、物理学家和建筑师全都强行塞进同一个系里。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "8f1b84a8bd5a8c1b9452aa4cbe5790de7ff94efe63e6fd231d4182ac86ad8696",
+      "enMarkdown": "Sometimes what the hackers do is called \"software engineering,\" but this term is just as misleading. Good software designers are no more engineers than architects are. The border between architecture and engineering is not sharply defined, but it's there. It falls between what and how: architects decide what to do, and engineers figure out how to do it.",
+      "zhMarkdown": "有时黑客做的事情被称为“软件工程”，但这个词同样具有误导性。优秀的软件设计师不是工程师，就像建筑师不是工程师一样。建筑与工程之间的界限虽然没有那么泾渭分明，但它确实存在。这个界限在于“做什么”和“怎么做”：建筑师决定做什么，而工程师解决怎么做。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "3ae94283dbff0da4e3f9763530bab10d5b364ad926113e996a0cb178e50e3b12",
+      "enMarkdown": "What and how should not be kept too separate. You're asking for trouble if you try to decide what to do without understanding how to do it. But hacking can certainly be more than just deciding how to implement some spec. At its best, it's creating the spec-- though it turns out the best way to do that is to implement it.",
+      "zhMarkdown": "“做什么”和“怎么做”不应该分得太开。如果你在不了解如何实现的情况下就去决定要做什么，那就是在自找麻烦。但黑客绝不仅仅是决定如何去实现某个设计规范。在最理想的情况下，黑客是在创造规范——不过事实证明，创造规范最好的方法就是去亲自实现它。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "1348fcdf3cfe772a702da5ad6e6b6d26121aeb22c592c045f8eaa94cb912070e",
+      "enMarkdown": "Perhaps one day \"computer science\" will, like Yugoslavia, get broken up into its component parts. That might be a good thing. Especially if it meant independence for my native land, hacking.",
+      "zhMarkdown": "也许有一天，“计算机科学”会像南斯拉夫一样，解体为各个组成部分。这或许是一件好事。尤其是如果这意味着我的祖国——黑客——能够获得独立的话。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "f9b16366f8f759fbda6ffeca9edc08c3432d2886c34d5dcb3d814617f778d040",
+      "enMarkdown": "Bundling all these different types of work together in one department may be convenient administratively, but it's confusing intellectually. That's the other reason I don't like the name \"computer science.\" Arguably the people in the middle are doing something like an experimental science. But the people at either end, the hackers and the mathematicians, are not actually doing science.",
+      "zhMarkdown": "将所有这些不同类型的工作捆绑在一个系里，在行政管理上可能很方便，但在学术概念上却令人困惑。这也是我不喜欢“计算机科学”这个名字的另一个原因。可以说，处于中间位置的人在做类似实验科学的事情。但处于两端的人，即黑客和数学家，实际上都不是在做科学。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "0d83511fa68f2ca5ae13ce1fe51584f7355fd325e75db980337652ca0cdae6e3",
+      "enMarkdown": "The mathematicians don't seem bothered by this. They happily set to work proving theorems like the other mathematicians over in the math department, and probably soon stop noticing that the building they work in says ``computer science'' on the outside. But for the hackers this label is a problem. If what they're doing is called science, it makes them feel they ought to be acting scientific. So instead of doing what they really want to do, which is to design beautiful software, hackers in universities and research labs feel they ought to be writing research papers.",
+      "zhMarkdown": "数学家们似乎对此并不在乎。他们像数学系里的其他数学家一样，开心地致力于证明定理，而且可能很快就注意不到他们工作的楼外面写着“计算机科学”了。但对于黑客来说，这个标签是个问题。如果他们做的事情被称为科学，就会让他们觉得应该表现得像在做科学一样。因此，大学和研究实验室里的黑客们没有去做他们真正想做的事——设计优美的软件，而是觉得他们应该去写学术论文。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "8f8222d86e6a5bf2a2213b5eb8964a646afe5f9547d6e8d47f34460f062c6c93",
+      "enMarkdown": "In the best case, the papers are just a formality. Hackers write cool software, and then write a paper about it, and the paper becomes a proxy for the achievement represented by the software. But often this mismatch causes problems. It's easy to drift away from building beautiful things toward building ugly things that make more suitable subjects for research papers.",
+      "zhMarkdown": "在最好的情况下，论文只是一种形式。黑客写出了酷炫的软件，然后写一篇关于它的论文，论文就成了软件所代表成就的替代物。但这种错配往往会带来问题。人们很容易偏离方向，不再去创造优美的东西，转而去制造那些更适合作为论文研究对象、却很丑陋的东西。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "a6fab1fc5a89de8654f04b3d3491280424e22a856becc48a37623f26d7c8c015",
+      "enMarkdown": "Unfortunately, beautiful things don't always make the best subjects for papers. Number one, research must be original-- and as anyone who has written a PhD dissertation knows, the way to be sure that you're exploring virgin territory is to stake out a piece of ground that no one wants. Number two, research must be substantial-- and awkward systems yield meatier papers, because you can write about the obstacles you have to overcome in order to get things done. Nothing yields meaty problems like starting with the wrong assumptions. Most of AI is an example of this rule; if you assume that knowledge can be represented as a list of predicate logic expressions whose arguments represent abstract concepts, you'll have a lot of papers to write about how to make this work. As Ricky Ricardo used to say, \"Lucy, you got a lot of explaining to do.\"",
+      "zhMarkdown": "不幸的是，优美的东西并不总是最适合写论文的题材。首先，研究必须具有原创性——任何写过博士论文的人都知道，确保自己探索的是处女地的办法，就是圈出一块没人想要的土地。其次，研究必须有足够的体量——而笨拙的系统往往能催生出内容更充实的论文，因为你可以写为了把事情办成而必须克服的种种障碍。没有什么比从错误的假设开始更能产生丰满的问题了。人工智能（AI）的大部分历史就是这条规律的写照；如果你假设知识可以表示为谓词逻辑表达式的列表，其参数代表抽象概念，那么你就会有很多论文要写，来论述如何让这一切运转起来。正如里奇·里卡多常说的那样：“露西，你得好好解释解释了。”"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "283ee481cfbe2e33fdbe8e16295f8174c1b37aa46e74d2c8a1b460864cf384fe",
+      "enMarkdown": "The way to create something beautiful is often to make subtle tweaks to something that already exists, or to combine existing ideas in a slightly new way. This kind of work is hard to convey in a research paper.",
+      "zhMarkdown": "创造优美事物的方法，往往是对已有的事物进行微妙的调整，或者以一种稍微新颖的方式将已有的想法结合起来。这种工作很难在学术论文中体现出来。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "48c53d6484f757f46960a9a7979f1060b318c621ffa13fccfc64cbc2dc3f87fc",
+      "enMarkdown": "So why do universities and research labs continue to judge hackers by publications? For the same reason that \"scholastic aptitude\" gets measured by simple-minded standardized tests, or the productivity of programmers gets measured in lines of code. These tests are easy to apply, and there is nothing so tempting as an easy test that kind of works.",
+      "zhMarkdown": "那么，为什么大学和研究实验室还要继续用发表论文来评价黑客呢？原因就和用头脑简单、死板的标准化学术能力测试来衡量“学习能力”，或者用代码行数来衡量程序员的生产力一样。这些测试很容易执行，而没有什么比一个“勉强说得过去又容易操作”的测试更具诱惑力了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "ac73b3c33229a117649ce93788e4cc2394da74f43a76a4c404d1ec92e34d630e",
+      "enMarkdown": "Measuring what hackers are actually trying to do, designing beautiful software, would be much more difficult. You need a good [sense of design](https://paulgraham.com/taste.html) to judge good design. And there is no correlation, except possibly a [negative](http://www.apa.org/journals/features/psp7761121.pdf) one, between people's ability to recognize good design and their confidence that they can.",
+      "zhMarkdown": "衡量黑客真正想做的事情——设计优美的软件，要困难得多。你需要有很好的[设计品味](https://paulgraham.com/taste.html)才能评判好的设计。而且，人们识别好设计的能力，与他们自认为能识别的自信度之间，没有任何相关性，甚至可能呈[负相关](http://www.apa.org/journals/features/psp7761121.pdf)。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "8e2a18077d34922b4980dd1c43d7abf4dced60856bb8ba8e0ec9018952d4560f",
+      "enMarkdown": "The only external test is time. Over time, beautiful things tend to thrive, and ugly things tend to get discarded. Unfortunately, the amounts of time involved can be longer than human lifetimes. Samuel Johnson said it took a hundred years for a writer's reputation to converge. You have to wait for the writer's influential friends to die, and then for all their followers to die.",
+      "zhMarkdown": "唯一的外部检验是时间。随着时间的推移，优美的东西往往会焕发生机，而丑陋的东西则会被淘汰。不幸的是，这所需要的时间可能比人的寿命还要长。塞缪尔·约翰逊说过，一个作家的名声需要一百年才能尘埃落定。你必须等到这位作家有影响力的朋友都去世，然后等他们所有的追随者也都去世。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "b974c8fe1ba4b6f4d51f3e9548951f5ff445502ac8d88661d0d8652f2c97dab1",
+      "enMarkdown": "I think hackers just have to resign themselves to having a large random component in their reputations. In this they are no different from other makers. In fact, they're lucky by comparison. The influence of fashion is not nearly so great in hacking as it is in painting.",
+      "zhMarkdown": "我认为黑客只能无奈地接受这样一个事实：他们的名声中含有很大的随机成分。在这点上，他们与其他创造者没有什么不同。事实上，相比之下他们还算幸运的。时尚和潮流对黑客的影响，远没有对画家的影响那么大。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "d91f21353976cdf3f83e3063a1550cd4149b5e86fba3fe35fa2e3e7803d71895",
+      "enMarkdown": "There are worse things than having people misunderstand your work. A worse danger is that you will yourself misunderstand your work. Related fields are where you go looking for ideas. If you find yourself in the computer science department, there is a natural temptation to believe, for example, that hacking is the applied version of what theoretical computer science is the theory of. All the time I was in graduate school I had an uncomfortable feeling in the back of my mind that I ought to know more theory, and that it was very remiss of me to have forgotten all that stuff within three weeks of the final exam.",
+      "zhMarkdown": "别人误解你的工作并不是最糟糕的事。更糟糕的危险是，你自己误解了自己的工作。相关的领域是你寻找灵感的地方。如果你发现自己身处计算机科学系，就会有一种自然的诱惑去相信，例如，黑客是理论计算机科学的“应用版本”。在读研究生的整个过程中，我脑子里一直有一种不舒服的感觉，觉得自己应该懂更多的理论，而且在期末考试结束三周内就把那些东西忘得一干二净，实在是太失职了。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "483abe14ecb31e8c79ee7dff4cb3f0345502edf6c969ad6e10d9c6079425dadc",
+      "enMarkdown": "Now I realize I was mistaken. Hackers need to understand the theory of computation about as much as painters need to understand paint chemistry. You need to know how to calculate time and space complexity and about Turing completeness. You might also want to remember at least the concept of a state machine, in case you have to write a parser or a regular expression library. Painters in fact have to remember a good deal more about paint chemistry than that.",
+      "zhMarkdown": "现在我意识到我错了。黑客需要理解计算理论，就像画家需要理解颜料化学一样。你需要知道如何计算时间与空间复杂度，以及什么是图灵完备性。你可能还想至少记住状态机的概念，以备需要编写解析器或正则表达式库。事实上，画家需要记住的颜料化学知识，比这还要多得多。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "2dd524853f3cfc6a0a3882149424b3d1134447c65052fcc689bfca19f653ebe1",
+      "enMarkdown": "I've found that the best sources of ideas are not the other fields that have the word \"computer\" in their names, but the other fields inhabited by makers. Painting has been a much richer source of ideas than the theory of computation.",
+      "zhMarkdown": "我发现，最好的想法来源并不是那些名字里带有“计算机”字样的其他领域，而是其他由创造者主导的领域。相比计算理论，绘画一直是我更丰富的灵感来源。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "555d47fa499c855daf14df80ae75b3036cf3bcc42b733fba5d6703b365079307",
+      "enMarkdown": "For example, I was taught in college that one ought to figure out a program completely on paper before even going near a computer. I found that I did not program this way. I found that I liked to program sitting in front of a computer, not a piece of paper. Worse still, instead of patiently writing out a complete program and assuring myself it was correct, I tended to just spew out code that was hopelessly broken, and gradually beat it into shape. Debugging, I was taught, was a kind of final pass where you caught typos and oversights. The way I worked, it seemed like programming consisted of debugging.",
+      "zhMarkdown": "例如，我在大学里被教导，在接近电脑之前，应该先在纸上把程序完全想明白。但我发现自己并不是这样写程序的。我发现自己喜欢坐在电脑前，而不是在一张纸前写程序。更糟糕的是，我没有耐心地写出一个完整的程序并确信它是正确的，而是倾向于直接吐出一堆烂得一塌糊涂的代码，然后逐渐把它修改成型。我被教导说，调试是最后的一步，用来捕捉拼写错误和疏漏。但在我的工作方式中，编程似乎就是由调试组成的。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "9f19f7b912bfeb0eb19bf54b9f9dd343ef3134567326436b03b85a13a444de6b",
+      "enMarkdown": "For a long time I felt bad about this, just as I once felt bad that I didn't hold my pencil the way they taught me to in elementary school. If I had only looked over at the other makers, the painters or the architects, I would have realized that there was a name for what I was doing: sketching. As far as I can tell, the way they taught me to program in college was all wrong. You should figure out programs as you're writing them, just as writers and painters and architects do.",
+      "zhMarkdown": "很长一段时间，我都为此感到愧疚，就像我以前因为没有用小学老师教的方法拿铅笔而感到愧疚一样。如果我当时去看看其他的创造者，比如画家或建筑师，我就会意识到我所做的事情有一个名字：素描（草图）。就我所知，大学里教我编程的方法全都是错的。你应该在写程序的过程中去琢磨程序，就像作家、画家和建筑师所做的那样。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "d2f5588c3a1005c3b59bb9445a5e0d43a52655a294f871b29dd7eab14cf120fd",
+      "enMarkdown": "Realizing this has real implications for software design. It means that a programming language should, above all, be malleable. A programming language is for [thinking](https://paulgraham.com/piraha.html) of programs, not for expressing programs you've already thought of. It should be a pencil, not a pen. Static typing would be a fine idea if people actually did write programs the way they taught me to in college. But that's not how any of the hackers I know write programs. We need a language that lets us scribble and smudge and smear, not a language where you have to sit with a teacup of types balanced on your knee and make polite conversation with a strict old aunt of a compiler.",
+      "zhMarkdown": "意识到这一点，对软件设计有着切实的意义。这意味着编程语言首要的特性必须是具有可塑性。编程语言是用来[思考](https://paulgraham.com/piraha.html)程序的，而不是用来表达你已经想好的程序。它应该是一支铅笔，而不是钢笔。如果人们真的像大学里教我的那样写程序，静态类型会是一个好主意。但我认识的黑客中，没有一个人是这样写程序的。我们需要一种能让我们涂鸦、擦拭和涂抹的语言，而不是一种让你端着一茶杯类型坐在膝盖上，和一位严厉的老阿姨般的编译器客套寒暄的语言。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "fb04013770736ffd7d1c2ce408d41406b0ac6710a97a3360a30b1c30acfeddd1",
+      "enMarkdown": "While we're on the subject of static typing, identifying with the makers will save us from another problem that afflicts the sciences: math envy. Everyone in the sciences secretly believes that mathematicians are smarter than they are. I think mathematicians also believe this. At any rate, the result is that scientists tend to make their work look as mathematical as possible. In a field like physics this probably doesn't do much harm, but the further you get from the natural sciences, the more of a problem it becomes.",
+      "zhMarkdown": "既然说到了静态类型，与创造者认同能让我们免受困扰科学界的另一个问题：数学焦虑（数学崇拜）。科学界的每个人私下里都相信数学家比自己聪明。我想数学家自己也这么认为。无论如何，其结果是科学家们倾向于让自己的工作看起来尽可能像数学。在物理学这样的领域，这可能没有多大坏处，但你离自然科学越远，这就越成为一个问题。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "ec31cf1a9a712aad5b109d96a75d1cd037d77efe85a58ddb64831e72d669e3e6",
+      "enMarkdown": "A page of formulas just looks so impressive. (Tip: for extra impressiveness, use Greek variables.) And so there is a great temptation to work on problems you can treat formally, rather than problems that are, say, important.",
+      "zhMarkdown": "一整页的公式看起来确实令人印象深刻。（秘诀：为了显得更牛，请使用希腊字母变量。）因此，人们会面临巨大的诱惑，去研究那些可以用公式化方法处理的问题，而不是那些真正重要的问题。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "88d2263d8cefed8abaa538edd48955ae718591e8a026c2cef825eb5f684029ce",
+      "enMarkdown": "If hackers identified with other makers, like writers and painters, they wouldn't feel tempted to do this. Writers and painters don't suffer from math envy. They feel as if they're doing something completely unrelated. So are hackers, I think.",
+      "zhMarkdown": "如果黑客认同其他创造者（如作家和画家），他们就不会受到这种诱惑。作家和画家没有数学焦虑。他们觉得自己做的事情和数学完全无关。我想，黑客也是如此。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "4df7d95ad281838f3f633b13022b889699eecfa3cc9cda88d8f761a11b629349",
+      "enMarkdown": "If universities and research labs keep hackers from doing the kind of work they want to do, perhaps the place for them is in companies. Unfortunately, most companies won't let hackers do what they want either. Universities and research labs force hackers to be scientists, and companies force them to be engineers.",
+      "zhMarkdown": "如果大学和研究实验室阻碍黑客做他们想做的工作，也许他们应该去公司。不幸的是，大多数公司也不允许黑客做他们想做的事。大学和研究实验室强迫黑客成为科学家，而公司则强迫他们成为工程师。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "b412000ba27a88f25281dfd2decc8e56b46b84617fd6b3b2a4c42cf3a042915e",
+      "enMarkdown": "I only discovered this myself quite recently. When Yahoo bought Viaweb, they asked me what I wanted to do. I had never liked the business side very much, and said that I just wanted to hack. When I got to Yahoo, I found that what hacking meant to them was implementing software, not designing it. Programmers were seen as technicians who translated the visions (if that is the word) of product managers into code.",
+      "zhMarkdown": "我自己也是最近才发现这一点的。当雅虎收购 Viaweb 时，他们问我想做什么。我一直不太喜欢业务那一面，于是说我只想写代码。当我到了雅虎，我发现他们所谓的“写代码”指的是去实现软件，而不是设计软件。程序员被看作是技术工人，负责将产品经理的愿景（如果可以用这个词的话）翻译成代码。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "1c65810950f02d50de1f623dc5a9821058e1a3f83be6af1ebee51d5314841417",
+      "enMarkdown": "This seems to be the default plan in big companies. They do it because it decreases the standard deviation of the outcome. Only a small percentage of hackers can actually design software, and it's hard for the people running a company to pick these out. So instead of entrusting the future of the software to one brilliant hacker, most companies set things up so that it is designed by committee, and the hackers merely implement the design.",
+      "zhMarkdown": "这似乎是大公司的默认方案。他们这样做是因为这能降低产品结果的标准差。只有极少数黑客能够真正设计软件，而管理公司的人很难把他们挑选出来。因此，大多数公司不愿将软件的未来托付给一个天才黑客，而是将体制设计为由委员会来设计，而黑客仅仅负责实现这个设计。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "7234c5dc59a082a9b59dc504290705ca44950fda96a051d14064255ed17d9579",
+      "enMarkdown": "If you want to make money at some point, remember this, because this is one of the reasons startups win. Big companies want to decrease the standard deviation of design outcomes because they want to avoid disasters. But when you damp oscillations, you lose the high points as well as the low. This is not a problem for big companies, because they don't win by making great products. Big companies win by sucking less than other big companies.",
+      "zhMarkdown": "如果你想在某个时候赚到钱，请记住这一点，因为这是创业公司能赢的原因之一。大公司想要降低设计结果的标准差，因为他们想要避免灾难。但当你抑制了波动，你不仅失去了低谷，也失去了高峰。这对大公司来说不是问题，因为他们不是靠做出伟大的产品来赢的。大公司能赢，是因为他们比其他大公司“烂得少一点”。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "302dc2f4a4f091b8ac9d57fbc9924b571a3c721412477c40275a6d2f620b2ad0",
+      "enMarkdown": "So if you can figure out a way to get in a design war with a company big enough that its software is designed by product managers, they'll never be able to keep up with you. These opportunities are not easy to find, though. It's hard to engage a big company in a design war, just as it's hard to engage an opponent inside a castle in hand to hand combat. It would be pretty easy to write a better word processor than Microsoft Word, for example, but Microsoft, within the castle of their operating system monopoly, probably wouldn't even notice if you did.",
+      "zhMarkdown": "因此，如果你能找到一种方法，与一家大到软件由产品经理设计的公司展开一场“设计之战”，他们将永远无法跟上你的步伐。不过，这样的机会并不好找。很难把一家大公司拉进设计战，就像很难与城堡里的对手进行肉搏战一样。例如，写一个比 Microsoft Word 更好的文字处理器是相当容易的，但在操作系统垄断的城堡里，微软可能根本不会注意到你写了什么。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "1987f21bdf5421aac603b21107a44b40897135374a54f11b3a2552945f6e5634",
+      "enMarkdown": "The place to fight design wars is in new markets, where no one has yet managed to establish any fortifications. That's where you can win big by taking the bold approach to design, and having the same people both design and implement the product. Microsoft themselves did this at the start. So did Apple. And Hewlett-Packard. I suspect almost every successful startup has.",
+      "zhMarkdown": "打设计战的地方是在新兴市场，那里还没有人建立起任何防御工事。在这些地方，你可以通过采取大胆的设计方法，并让同一批人既设计又实现产品，从而赢得大胜。微软自己在创业之初就是这么做的。苹果也是如此。还有惠普。我怀疑几乎所有成功的创业公司都是如此。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "0e5fd4c37bfd7e716d5b124c9d753aeb6c3a51700742ceb6c581c479347aba24",
+      "enMarkdown": "So one way to build great software is to start your own startup. There are two problems with this, though. One is that in a startup you have to do so much besides write software. At Viaweb I considered myself lucky if I got to hack a quarter of the time. And the things I had to do the other three quarters of the time ranged from tedious to terrifying. I have a benchmark for this, because I once had to leave a board meeting to have some cavities filled. I remember sitting back in the dentist's chair, waiting for the drill, and feeling like I was on vacation.",
+      "zhMarkdown": "所以，构建优秀软件的一种方法就是创办自己的创业公司。不过，这有两个问题。一是，在创业公司里，除了写软件，你还要做很多其他事情。在 Viaweb，如果能有四分之一的时间写代码，我就觉得自己很幸运了。而另外四分之三时间里我必须做的事情，从枯燥乏味到令人惊恐不等。我对此有一个参照标准：有一次我不得不离开董事会会议去补牙。我记得躺在牙医的椅子上，等待电钻启动时，感觉自己就像在度假。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "c6d677cab1192eafba83840b42d1270a93474ea8109b61b9dfad2f349aa8d0a5",
+      "enMarkdown": "The other problem with startups is that there is not much overlap between the kind of software that makes money and the kind that's interesting to write. Programming languages are interesting to write, and Microsoft's first product was one, in fact, but no one will pay for programming languages now. If you want to make money, you tend to be forced to work on problems that are too nasty for anyone to solve for free.",
+      "zhMarkdown": "创业公司的另一个问题是，能赚钱的软件与写起来有趣的软件之间，没有太多的交集。写编程语言很有趣，事实上微软的第一款产品就是编程语言，但现在没有人会为编程语言付钱了。如果你想赚钱，你往往会被迫去解决那些因为太恶劣而没有人愿意免费解决的问题。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "128d65a517f2143c9925cdcdbb8d0e9699718d9c9875fd8a93d4c46e9a231dad",
+      "enMarkdown": "All makers face this problem. Prices are determined by supply and demand, and there is just not as much demand for things that are fun to work on as there is for things that solve the mundane problems of individual customers. Acting in off-Broadway plays just doesn't pay as well as wearing a gorilla suit in someone's booth at a trade show. Writing novels doesn't pay as well as writing ad copy for garbage disposals. And hacking programming languages doesn't pay as well as figuring out how to connect some company's legacy database to their Web server.",
+      "zhMarkdown": "所有的创造者都面临这个问题。价格是由供求关系决定的，人们对写起来有趣的事情的需求，远没有对解决个人客户平庸现实问题的事情的需求那么大。在百老汇外剧场演戏的收入，就是不如在贸易展销会的展位上穿猩猩服。写小说赚的钱，就是不如给垃圾处理器写广告词。写编程语言，就是不如想办法把某家公司的老旧数据库连接到他们的 Web 服务器上赚钱。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "25d800a14ea862c3b24947bfb331b4a9be59f62b0ccdce2b59b2d28092c9ec91",
+      "enMarkdown": "I think the answer to this problem, in the case of software, is a concept known to nearly all makers: the day job. This phrase began with musicians, who perform at night. More generally, it means that you have one kind of work you do for money, and another for love.",
+      "zhMarkdown": "我认为，就软件而言，这个问题的答案是几乎所有创造者都熟知的一个概念：本职工作（day job）。这个词源于在晚上演出的音乐家。更广泛地说，它意味着你有一种工作是为了赚钱，另一种是为了热爱。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "769b46c4ac0aa61ff04db705c256cd173e99d7a05f44988bf5835f8f9987bcb8",
+      "enMarkdown": "Nearly all makers have day jobs early in their careers. Painters and writers notoriously do. If you're lucky you can get a day job that's closely related to your real work. Musicians often seem to work in record stores. A hacker working on some programming language or operating system might likewise be able to get a day job using it. [1]",
+      "zhMarkdown": "几乎所有创造者在职业生涯早期都有本职工作。画家和作家是出了名的如此。如果你足够幸运，你可以找到一份与你真正的工作密切相关的本职工作。音乐家似乎经常在唱片店工作。一个致力于开发某种编程语言或操作系统的黑客，同样可以找到一份使用它的本职工作。[1]"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "9f34abaa2770d4f70ad98ae171298697fbd3217977953a31d5a5a045be0543e2",
+      "enMarkdown": "When I say that the answer is for hackers to have day jobs, and work on beautiful software on the side, I'm not proposing this as a new idea. This is what open-source hacking is all about. What I'm saying is that open-source is probably the right model, because it has been independently confirmed by all the other makers.",
+      "zhMarkdown": "当我说黑客的解决办法是拥有一份本职工作，并在业余时间开发优美的软件时，我并不是在提出一个新想法。这就是开源软件开发的全部意义。我想说的是，开源可能是正确的模式，因为它已经得到了所有其他创造者的独立验证。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "99666454210a5e9aaa2976b3fba23edd1c665e0b9a874b3a1ead238164a988f4",
+      "enMarkdown": "It seems surprising to me that any employer would be reluctant to let hackers work on open-source projects. At Viaweb, we would have been reluctant to hire anyone who didn't. When we interviewed programmers, the main thing we cared about was what kind of software they wrote in their spare time. You can't do anything really well unless you love it, and if you love to hack you'll inevitably be working on projects of your own. [2]",
+      "zhMarkdown": "让我感到惊讶的是，居然会有雇主不愿意让黑客参与开源项目。在 Viaweb，我们甚至不愿雇佣不参与开源的人。当我们面试程序员时，我们最关心的是他们在业余时间写什么软件。除非你热爱一件事，否则你无法把它做到极致，而如果你热爱写代码，你不可避免地会去写你自己的项目。[2]"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "27c679b5419a6169765dede15541c1ce88da82f03ae7b49915ace48f80cd83b3",
+      "enMarkdown": "Because hackers are makers rather than scientists, the right place to look for metaphors is not in the sciences, but among other kinds of makers. What else can painting teach us about hacking?",
+      "zhMarkdown": "因为黑客是创造者而不是科学家，所以寻找类比的正确地方不应该在科学界，而应该在其他类型的创造者中。关于写代码，绘画还能教会我们什么？"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "230ccb56e6ca831f73bcf36154f88e2f7b91fcefd939091c11381f74b7f4ba32",
+      "enMarkdown": "One thing we can learn, or at least confirm, from the example of painting is how to learn to hack. You learn to paint mostly by doing it. Ditto for hacking. Most hackers don't learn to hack by taking college courses in programming. They learn to hack by writing programs of their own at age thirteen. Even in college classes, you learn to hack mostly by hacking. [3]",
+      "zhMarkdown": "我们可以从绘画的例子中学到、或者说至少验证的一点，就是如何学会写代码。你主要是通过亲自画画来学会绘画的。写代码也是如此。大多数黑客并不是通过上大学的编程课来学会写代码的。他们是在十三岁时通过自己写程序学会的。即使在大学课程里，你主要是通过实际写代码来学会写代码的。[3]"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "d0d769ed6fe600ef8d3b3304175e1f62ccd23870a1fb72aab07ef63776df84a5",
+      "enMarkdown": "Because painters leave a trail of work behind them, you can watch them learn by doing. If you look at the work of a painter in chronological order, you'll find that each painting builds on things that have been learned in previous ones. When there's something in a painting that works very well, you can usually find version 1 of it in a smaller form in some earlier painting.",
+      "zhMarkdown": "因为画家会留下一系列作品，所以你可以观察他们如何通过实践来学习。如果你按时间顺序去看一位画家的作品，你会发现每幅画都是建立在之前作品所学到的知识之上的。当一幅画中有某个部分效果非常好时，你通常可以在早期的某幅小画中找到它的“1.0 版本”。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "a052f4328d5eaaf569d9a38e1084e92bd0751500691450673a26031707032b71",
+      "enMarkdown": "I think most makers work this way. Writers and architects seem to as well. Maybe it would be good for hackers to act more like painters, and regularly start over from scratch, instead of continuing to work for years on one project, and trying to incorporate all their later ideas as revisions.",
+      "zhMarkdown": "我想大多数创造者都是这样工作的。作家和建筑师似乎也是如此。也许对于黑客来说，像画家一样定期从头开始，而不是在一个项目上持续工作多年，并试图将他们后来的所有想法作为修改融入其中，会是一件好事。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "a3636cff52e6d128a0c665e34e90e6d07400659568cfa2a9795adecb9c55cad5",
+      "enMarkdown": "The fact that hackers learn to hack by doing it is another sign of how different hacking is from the sciences. Scientists don't learn science by doing it, but by doing labs and problem sets. Scientists start out doing work that's perfect, in the sense that they're just trying to reproduce work someone else has already done for them. Eventually, they get to the point where they can do original work. Whereas hackers, from the start, are doing original work; it's just very bad. So hackers start original, and get good, and scientists start good, and get original.",
+      "zhMarkdown": "黑客通过实践来学会写代码，这又是黑客与科学截然不同的一个迹象。科学家不是通过做科学来学习科学，而是通过做实验和做习题。科学家一开始做的工作是完美的，因为他们只是在重复别人已经为他们做过的工作。最终，他们达到了可以做原创工作的阶段。而黑客从一开始就在做原创工作；只是这工作非常糟糕。所以黑客从原创开始，逐渐变好；而科学家从完美开始，逐渐走向原创。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "4d1e11efff10dd239f625ad46e072055c6fc62fe314714f1171b5f25d3434d0b",
+      "enMarkdown": "The other way makers learn is from examples. For a painter, a museum is a reference library of techniques. For hundreds of years it has been part of the traditional education of painters to copy the works of the great masters, because copying forces you to look closely at the way a painting is made.",
+      "zhMarkdown": "创造者学习的另一种方式是通过模仿范例。对于画家来说，美术馆是一个技巧参考库。几百年来，临摹大师的作品一直是画家传统教育的一部分，因为临摹迫使你仔细观察一幅画是如何创作出来的。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "88e273ab49259415cb046658c46fb53bec440ca0fa2a3707c7d3e07f883ed502",
+      "enMarkdown": "Writers do this too. Benjamin Franklin learned to write by summarizing the points in the essays of Addison and Steele and then trying to reproduce them. Raymond Chandler did the same thing with detective stories.",
+      "zhMarkdown": "作家也这样做。本杰明·富兰克林通过总结艾迪生和斯蒂尔文章中的要点，然后尝试重新写出来，以此学会了写作。雷蒙德·钱德勒对侦探小说也做了同样的事情。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "7e4c70cca604588fd06228aa8ac74d9de253ecbfdb665c403d5fc3cb42f25ac8",
+      "enMarkdown": "Hackers, likewise, can learn to program by looking at good programs-- not just at what they do, but the source code too. One of the less publicized benefits of the open-source movement is that it has made it easier to learn to program. When I learned to program, we had to rely mostly on examples in books. The one big chunk of code available then was Unix, but even this was not open source. Most of the people who read the source read it in illicit photocopies of John Lions' book, which though written in 1977 was not allowed to be published until 1996.",
+      "zhMarkdown": "同样，黑客可以通过阅读优秀的程序来学会编程——不仅要看它们实现了什么功能，还要看它们的源代码。开源运动那些不太为人所知的好处之一，就是让学习编程变得更加容易。在我学习编程的时候，我们主要依靠书中的例子。当时唯一能获得的大块代码是 Unix，但即使是它也不是开源的。大多数阅读过该源码的人，读的都是约翰·莱恩斯（John Lions）那本书的非法复印件，那本书虽然写于 1977 年，但直到 1996 年才被允许出版。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "c0f4ed8d4b6c1875b1ae9ba54bd2dfbc1f4b8e753c1ad568fc42853b00619573",
+      "enMarkdown": "Another example we can take from painting is the way that paintings are created by gradual refinement. Paintings usually begin with a sketch. Gradually the details get filled in. But it is not merely a process of filling in. Sometimes the original plans turn out to be mistaken. Countless paintings, when you look at them in xrays, turn out to have limbs that have been moved or facial features that have been readjusted.",
+      "zhMarkdown": "我们还可以从绘画中借鉴的另一个例子是，画作是通过逐步完善创作出来的。画作通常从草图开始。细节逐渐被填充。但这不仅仅是一个填充的过程。有时最初的计划被证明是错误的。无数的画作在用 X 光照射时，会显露出被移动过的肢体或重新调整过的面部特征。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "b80eb8e1d6a439d77bed254a7e622b0e4ce23c3858d931606c23f71fc98ea186",
+      "enMarkdown": "Here's a case where we can learn from painting. I think hacking should work this way too. It's unrealistic to expect that the specifications for a program will be perfect. You're better off if you admit this up front, and write programs in a way that allows specifications to change on the fly.",
+      "zhMarkdown": "这是一个我们可以向绘画学习的案例。我认为写代码也应该这样。期望一个程序的规格说明书是完美的是不切实际的。如果你预先承认这一点，并以一种允许规格说明书随时更改的方式来编写程序，你的处境会好得多。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "e0fd8695ca190e1f862c27f3d7ab28a1eb139a407973c1595f6d14a7c558adaa",
+      "enMarkdown": "(The structure of large companies makes this hard for them to do, so here is another place where startups have an advantage.)",
+      "zhMarkdown": "（大公司的结构使他们很难做到这一点，所以这是创业公司的另一个优势所在。）"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "d2fca940231c18a4765b5c1244f041a56eca408589f2fc534d8e5455fe85c51a",
+      "enMarkdown": "Everyone by now presumably knows about the danger of premature optimization. I think we should be just as worried about premature design-- deciding too early what a program should do.",
+      "zhMarkdown": "现在大概每个人都知道过早优化的危害。我认为我们应该同样担心“过早设计”——过早地决定一个程序应该做什么。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "49ec431624e816d82e8b8a69d9bf648d10bf4c48df358445e27b8627dab15223",
+      "enMarkdown": "The right tools can help us avoid this danger. A good programming language should, like oil paint, make it easy to change your mind. Dynamic typing is a win here because you don't have to commit to specific data representations up front. But the key to flexibility, I think, is to make the language very [abstract](https://paulgraham.com/power.html). The easiest program to change is one that's very short.",
+      "zhMarkdown": "正确的工具可以帮助我们避免这种危险。一门优秀的编程语言应该像油画颜料一样，让人可以轻松改变主意。动态类型在这方面是一个优势，因为你不需要预先确定具体的数据表示。但我认为，灵活性的关键在于让语言变得非常[抽象](https://paulgraham.com/power.html)。最容易修改的程序是那些非常简短的程序。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "5f1f41998511adb51a0bcb3b8623b1d5425def21b3237cd2dc6a64a058300022",
+      "enMarkdown": "This sounds like a paradox, but a great painting has to be better than it has to be. For example, when Leonardo painted the portrait of [Ginevra de Benci](https://paulgraham.com/ginevra.html) in the National Gallery, he put a juniper bush behind her head. In it he carefully painted each individual leaf. Many painters might have thought, this is just something to put in the background to frame her head. No one will look that closely at it.",
+      "zhMarkdown": "这听起来像是一个悖论，但一幅伟大的画作必须超越它原本被要求的优秀程度。例如，当达芬奇在国家美术馆绘制[吉内薇拉·德·班琪](https://paulgraham.com/ginevra.html)的肖像时，他在她的脑后画了一株杜松灌木。在其中，他仔细地画出了每一片叶子。许多画家可能会想，这只是背景里用来衬托她头部的素材，没有人会看得那么仔细。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "2f5d25f6e91584854c612736cfd2380e3ccbc0bda756656a152124010bcd790a",
+      "enMarkdown": "Not Leonardo. How hard he worked on part of a painting didn't depend at all on how closely he expected anyone to look at it. He was like Michael Jordan. Relentless.",
+      "zhMarkdown": "但达芬奇不这么想。他在一幅画的某个部分上有多努力，完全不取决于他预计别人会看得多仔细。他就像迈克尔·乔丹。永不懈怠。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "789c954be1853553daa7f4fe6317f0ec0790cd7cc6945d22400e28903f3f43a5",
+      "enMarkdown": "Relentlessness wins because, in the aggregate, unseen details become visible. When people walk by the portrait of Ginevra de Benci, their attention is often immediately arrested by it, even before they look at the label and notice that it says Leonardo da Vinci. All those unseen details combine to produce something that's just stunning, like a thousand barely audible voices all singing in tune.",
+      "zhMarkdown": "这种不懈怠会赢，因为在整体中，看不见的细节会变得可见。当人们走过吉内薇拉·德·班琪的肖像时，他们的注意力往往会立刻被它吸引，甚至在他们看标签并注意到上面写着列奥纳多·达·芬奇之前。所有这些看不见的细节结合在一起，产生了一些令人惊叹的东西，就像一千个几乎听不见的声音都在协调地合唱。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "a0cc62031ac029cdff2815bca43bc86f702486060fd488aa6e2fc65fc84d2640",
+      "enMarkdown": "Great software, likewise, requires a fanatical devotion to beauty. If you look inside good software, you find that parts no one is ever supposed to see are beautiful too. I'm not claiming I write great software, but I know that when it comes to code I behave in a way that would make me eligible for prescription drugs if I approached everyday life the same way. It drives me crazy to see code that's badly indented, or that uses ugly variable names.",
+      "zhMarkdown": "同样，伟大的软件需要对美有着狂热的追求。如果你观察优秀软件的内部，你会发现那些永远不会被人看到的部分也是优美的。我并不声称自己写出了伟大的软件，但我知道，当涉及到代码时，我的行为方式如果用在日常生活中，会让我符合开处方药的条件。看到缩进很烂或者使用丑陋变量名的代码，会让我抓狂。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "728312c5ce83c9ccf36a96f42e428f362d81ed8d49cc4ccc72498a7140450557",
+      "enMarkdown": "If a hacker were a mere implementor, turning a spec into code, then he could just work his way through it from one end to the other like someone digging a ditch. But if the hacker is a creator, we have to take inspiration into account.",
+      "zhMarkdown": "如果黑客仅仅是一个执行者，将设计规范转化为代码，那么他就可以像挖沟的人一样，从一头干到另一头。但如果黑客是一个创造者，我们就必须把“灵感”考虑在内。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "d836fd4d5531eb4419875192cd2f15f57f92ab1316042c7f71622c973813c38c",
+      "enMarkdown": "In hacking, like painting, work comes in cycles. Sometimes you get excited about some new project and you want to work sixteen hours a day on it. Other times nothing seems interesting.",
+      "zhMarkdown": "在写代码中，就像在绘画中一样，工作是周期性的。有时你会对某个新项目感到兴奋，想一天工作十六个小时。其他时候，似乎什么都提不起兴趣。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "ceef80ac1870a760dbeff1639f93603097e69cac31bcdd7892423b426ead9b83",
+      "enMarkdown": "To do good work you have to take these cycles into account, because they're affected by how you react to them. When you're driving a car with a manual transmission on a hill, you have to back off the clutch sometimes to avoid stalling. Backing off can likewise prevent ambition from stalling. In both painting and hacking there are some tasks that are terrifyingly ambitious, and others that are comfortingly routine. It's a good idea to save some easy tasks for moments when you would otherwise stall.",
+      "zhMarkdown": "要做好工作，你必须把这些周期考虑在内，因为它们会受到你如何应对它们的影响。当你在山上驾驶手动挡汽车时，有时必须松开离合器以避免熄火。同样，适度退让也可以防止雄心壮志熄火。在绘画和写代码中，有些任务雄心勃勃到令人望而生畏，而另一些任务则日常得令人欣慰。把一些简单的任务留给那些可能会陷入停滞的时刻，是一个好主意。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "f91ffce9e1d9cd4f791b7f504cb7d82c6d561d0b2872c9d2f54cd72b68b8cba5",
+      "enMarkdown": "In hacking, this can literally mean saving up bugs. I like debugging: it's the one time that hacking is as straightforward as people think it is. You have a totally constrained problem, and all you have to do is solve it. Your program is supposed to do x. Instead it does y. Where does it go wrong? You know you're going to win in the end. It's as relaxing as painting a wall.",
+      "zhMarkdown": "在编程中，这字面上的意思就是攒着 bug。我喜欢调试：这是写代码唯一一次像人们想象的那样简单直接的时候。你有一个完全受限的问题，你所要做的就是解决它。你的程序应该做 x。相反，它做了 y。哪里出错了？你清楚自己最终会赢。这就像刷墙一样令人放松。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "6b666b86bee7370f67f724fad316194cdff1863489961c46159bd8d1d635d10a",
+      "enMarkdown": "The example of painting can teach us not only how to manage our own work, but how to work together. A lot of the great art of the past is the work of multiple hands, though there may only be one name on the wall next to it in the museum. Leonardo was an apprentice in the workshop of Verrocchio and painted one of the angels in his [Baptism of\nChrist](https://paulgraham.com/baptism.html). This sort of thing was the rule, not the exception. Michelangelo was considered especially dedicated for insisting on painting all the figures on the ceiling of the Sistine Chapel himself.",
+      "zhMarkdown": "绘画的例子不仅能教会我们如何管理自己的工作，还能教会我们如何协同工作。过去许多伟大的艺术作品都是多人协作的产物，尽管在博物馆里，旁边的墙上可能只有一个名字。达芬奇是委罗基奥工作室的学徒，并在其[《基督受洗》](https://paulgraham.com/baptism.html)中画了其中一个天使。这种事情是常态，而不是例外。米开朗基罗因为坚持自己绘制西斯廷教堂天顶上的所有人物，而被认为特别敬业。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "080b8a697cd01f06152c4b52ded4d2ca50812542e1ccea49af8192fc9c3563bc",
+      "enMarkdown": "As far as I know, when painters worked together on a painting, they never worked on the same parts. It was common for the master to paint the principal figures and for assistants to paint the others and the background. But you never had one guy painting over the work of another.",
+      "zhMarkdown": "据我所知，当画家们合作画一幅画时，他们从来不会在同一个部分上工作。大师画主要人物，助手画其他人物和背景，这是很常见的。但你绝不会让一个人在另一个人的作品上涂抹修改。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "7c2cdd85935498211d01bbfe4bf22366d9f5a1ec651f9171e7eb8c655b7d2d6d",
+      "enMarkdown": "I think this is the right model for collaboration in software too. Don't push it too far. When a piece of code is being hacked by three or four different people, no one of whom really owns it, it will end up being like a common-room. It will tend to feel bleak and abandoned, and accumulate cruft. The right way to collaborate, I think, is to divide projects into sharply defined modules, each with a definite owner, and with interfaces between them that are as carefully designed and, if possible, as articulated as programming languages.",
+      "zhMarkdown": "我认为这也是软件协作的正确模式。不要走得太远。当一段代码由三四个不同的人共同修改，而没有一个人真正拥有它时，它最终会变得像一个公共休息室。它往往会显得荒凉和被遗弃，并积累起陈年垃圾。我认为，正确的协作方式是将项目划分为界限清晰的模块，每个模块都有明确的所有者，并且它们之间的接口要设计得尽可能精心，如果可能的话，要像编程语言一样清晰衔接。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "61820b8b02d09778b18863dd6387ebf85bbf3e64c8cb85b75000a34b37298dc0",
+      "enMarkdown": "Like painting, most software is intended for a human audience. And so hackers, like painters, must have empathy to do really great work. You have to be able to see things from the user's point of view.",
+      "zhMarkdown": "和绘画一样，大多数软件都是面向人类观众的。因此，黑客和画家一样，必须拥有同理心才能做出真正伟大的工作。你必须能够从用户的角度来看待事物。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "5b2fc66119be9155c4bc7d9d0636ff84ec1a6bb813494c25a14f5f774132d3f8",
+      "enMarkdown": "When I was a kid I was always being told to look at things from someone else's point of view. What this always meant in practice was to do what someone else wanted, instead of what I wanted. This of course gave empathy a bad name, and I made a point of not cultivating it.",
+      "zhMarkdown": "当我还是个孩子的时候，总是被告知要站在别人的角度看问题。在实践中，这总是意味着按照别人的意愿去做，而不是做我想做的事。这当然让“同理心”名声扫地，我甚至刻意不去培养它。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "935a2eae26dc8d42532ae6e409c567ca616d064cb25d1bf1669f5f8ab09dffb2",
+      "enMarkdown": "Boy, was I wrong. It turns out that looking at things from other people's point of view is practically the secret of success. It doesn't necessarily mean being self-sacrificing. Far from it. Understanding how someone else sees things doesn't imply that you'll act in his interest; in some situations-- in war, for example-- you want to do exactly the opposite. [4]",
+      "zhMarkdown": "天呐，我真是大错特错。事实证明，从别人的角度看问题几乎是成功的秘诀。这并不一定意味着要自我牺牲。远非如此。理解别人怎么看问题并不意味着你要符合他的利益；在某些情况下——例如在战争中——你恰恰想做相反的事。[4]"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "4b01e2a1474b97fa36f9ab9c83dc7c504564664cbe6d4e067cdd245e2cb82318",
+      "enMarkdown": "Most makers make things for a human audience. And to engage an audience you have to understand what they need. Nearly all the greatest paintings are paintings of people, for example, because people are what people are interested in.",
+      "zhMarkdown": "大多数创造者是为人类观众制作东西的。而要吸引观众，你必须了解他们需要什么。例如，几乎所有最伟大的画作都是人物画，因为人才是人们真正感兴趣的对象。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "3ae39d615d75a1cc77f79a896dfbe08cb6dd8fcf8432096fae015bd1838dd105",
+      "enMarkdown": "Empathy is probably the single most important difference between a good hacker and a great one. Some hackers are quite smart, but when it comes to empathy are practically solipsists. It's hard for such people to design great software [5], because they can't see things from the user's point of view.",
+      "zhMarkdown": "同理心可能是优秀黑客与伟大黑客之间唯一的、也是最重要的区别。有些黑客相当聪明，但在同理心方面几乎是唯我独尊的。这样的人很难设计出伟大的软件 [5]，因为他们无法从用户的角度来看待问题。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "1f4ade82b6952f99ca53b8855b00de23b86d30800b535a8aabf86a6ff99116ca",
+      "enMarkdown": "One way to tell how good people are at empathy is to watch them explain a technical question to someone without a technical background. We probably all know people who, though otherwise smart, are just comically bad at this. If someone asks them at a dinner party what a programming language is, they'll say something like ``Oh, a high-level language is what the compiler uses as input to generate object code.'' High-level language? Compiler? Object code? Someone who doesn't know what a programming language is obviously doesn't know what these things are, either.",
+      "zhMarkdown": "判断人们同理心程度的一种方法，是观察他们如何向没有技术背景的人解释技术问题。我们可能都认识这样的人，虽然在其他方面很聪明，但在解释技术时却糟糕得滑稽。如果有人在晚宴上问他们什么是编程语言，他们会说：“哦，高级语言就是编译器用作输入来生成目标代码的东西。”高级语言？编译器？目标代码？一个不知道编程语言是什么的人，显然也不会知道这些东西是什么。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "1f723d8267b86205345368b5c74f54134bda58fe3a2d687fb908363a89d9d7ea",
+      "enMarkdown": "Part of what software has to do is explain itself. So to write good software you have to understand how little users understand. They're going to walk up to the software with no preparation, and it had better do what they guess it will, because they're not going to read the manual. The best system I've ever seen in this respect was the original Macintosh, in 1985. It did what software almost never does: it just worked. [6]",
+      "zhMarkdown": "软件需要做的一部分工作就是自我解释。因此，要写出好的软件，你必须明白用户懂的是多么少。他们会在毫无准备的情况下开始使用软件，软件最好能做到他们猜测它会做的事，因为他们是不会去读手册的。在这方面，我见过的最好的系统是 1985 年的第一代麦金塔电脑。它做到了软件几乎从未做到的事：它就是能用。[6]"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "8fd386eca0d270980aabe027ecdb4db64c108c622101c247dae9d3a09ff5c4d6",
+      "enMarkdown": "Source code, too, should explain itself. If I could get people to remember just one quote about programming, it would be the one at the beginning of *Structure and Interpretation of Computer\nPrograms.*",
+      "zhMarkdown": "源代码也应该自我解释。如果我能让人们记住关于编程的一句话，那就是《计算机程序的构造和解释》（SICP）开头的那句："
+    },
+    {
+      "id": 72,
+      "type": "quote",
+      "sourceHash": "de89e8f3be31c2e989d52e65ac1b8d5d3282e1e197a529125ba9f265dd23a27e",
+      "enMarkdown": "> Programs should be written for people to read, and only incidentally for machines to execute.",
+      "zhMarkdown": "> 程序写出来是给人看的，附带才是给机器执行的。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "af4927be9c30051daa7404b5409640d73fcb5a9766aa5917fe76bfda4cea357a",
+      "enMarkdown": "You need to have empathy not just for your users, but for your readers. It's in your interest, because you'll be one of them. Many a hacker has written a program only to find on returning to it six months later that he has no idea how it works. I know several people who've sworn off Perl after such experiences. [7]",
+      "zhMarkdown": "你不仅需要对你的用户有同理心，还要对你的读者有同理心。这符合你自己的利益，因为你也会是读者之一。许多黑客写了一个程序，六个月后重新看它时，却发现自己完全不知道它是怎么工作的。我知道有几个人在经历了这种体验后发誓再也不用 Perl 了。[7]"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "b67dce5794b085b5a3672a112d7da63da06114d9227816800490d1e35250fd03",
+      "enMarkdown": "Lack of empathy is associated with intelligence, to the point that there is even something of a fashion for it in some places. But I don't think there's any correlation. You can do well in math and the natural sciences without having to learn empathy, and people in these fields tend to be smart, so the two qualities have come to be associated. But there are plenty of dumb people who are bad at empathy too. Just listen to the people who call in with questions on talk shows. They ask whatever it is they're asking in such a roundabout way that the hosts often have to rephrase the question for them.",
+      "zhMarkdown": "缺乏同理心往往与聪明联系在一起，以至于在某些地方这甚至成了一种时尚。但我不认为这两者有什么相关性。你可以在不用学会同理心的情况下在数学和自然科学中取得好成绩，而这些领域的人往往很聪明，所以这两个特质就被联系在了一起。但也有很多不聪明的人同样缺乏同理心。只要听听在脱口秀节目中打电话提问的人就知道了。他们用如此拐弯抹角的方式提出问题，以至于主持人往往不得不为他们重新组织问题。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "34883d1ffed677eca05dbd6ebcf0412837e359964ed01d8ab21c0de91bfd5564",
+      "enMarkdown": "So, if hacking works like painting and writing, is it as cool? After all, you only get one life. You might as well spend it working on something great.",
+      "zhMarkdown": "那么，如果写代码像绘画和写作一样，它有那么酷吗？毕竟，你只有一生。你最好把它花在创造伟大的事物上。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "c7f4a85d1336de9092ea9bf5f6d26cf2549602a7e9911d7c9fbc7ee7717ee836",
+      "enMarkdown": "Unfortunately, the question is hard to answer. There is always a big time lag in prestige. It's like light from a distant star. Painting has prestige now because of great work people did five hundred years ago. At the time, no one thought these paintings were as important as we do today. It would have seemed very odd to people at the time that Federico da Montefeltro, the Duke of Urbino, would one day be known mostly as the guy with the strange nose in a [painting](https://paulgraham.com/montefeltro.html) by Piero della Francesca.",
+      "zhMarkdown": "不幸的是，这个问题很难回答。声誉和威望总是存在巨大的时间滞后。这就像来自遥远恒星的光。绘画之所以现在有声望，是因为人们在五百年前做出了伟大的工作。在当时，没有人认为这些画作像我们今天认为的那样重要。在当时的人们看来，乌尔比诺公爵费德里科·达·蒙特费尔特罗有一天会主要因为在皮耶罗·德拉·弗朗切斯卡的一幅[画作](https://paulgraham.com/montefeltro.html)中那个长着奇怪鼻子的家伙而闻名，这会显得非常古怪。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "e9d633b01e772de0f36a4aebb1ce4153f7f81cddad8d11882562973a1dad32e6",
+      "enMarkdown": "So while I admit that hacking doesn't seem as cool as painting now, we should remember that painting itself didn't seem as cool in its glory days as it does now.",
+      "zhMarkdown": "因此，虽然我承认现在写代码看起来不如绘画那么酷，但我们应该记住，绘画在它的黄金时代看起来也不如现在这么酷。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "28c39adda15e86525c8bef9d48f49e69e9eb1e2aa220dde266c7394b1862bb2e",
+      "enMarkdown": "What we can say with some confidence is that these are the glory days of hacking. In most fields the great work is done early on. The paintings made between 1430 and 1500 are still unsurpassed. Shakespeare appeared just as professional theater was being born,  and pushed the medium so far that every playwright since has had to live in his shadow. Albrecht Durer did the same thing with engraving, and Jane Austen with the novel.",
+      "zhMarkdown": "我们可以非常有信心地说，现在是写代码的黄金时代。在大多数领域，伟大的工作都是在早期完成的。1430 年到 1500 年之间创作的画作至今仍未被超越。莎士比亚在职业戏剧刚刚诞生时出现，并将这一媒介推向了极致，以至于此后的每一位剧作家都不得不生活在他的阴影下。阿尔布雷希特·丢勒在版画上做了同样的事，简·奥斯汀在小说上也做了同样的事。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "453dd01fd77aca56a7a2f7694c6f92645d31d9c87c9a177d39fe1bdf71309269",
+      "enMarkdown": "Over and over we see the same pattern. A new medium appears, and people are so excited about it that they explore most of its possibilities in the first couple generations. Hacking seems to be in this phase now.",
+      "zhMarkdown": "我们一次又一次地看到同样的模式。一种新的媒介出现，人们对它如此兴奋，以至于在前两代人中就探索了它的大部分可能性。写代码现在似乎正处于这个阶段。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "eb2c5d18c16519fdb3a1c81ca5832e01ff1a718c706dac5a41b5f5cccea764a9",
+      "enMarkdown": "Painting was not, in Leonardo's time, as cool as his work helped make it. How cool hacking turns out to be will depend on what we can do with this new medium.",
+      "zhMarkdown": "在达芬奇的时代，绘画并不像他的作品所帮助造就的那样酷。写代码最终会有多酷，将取决于我们能用这种新媒介做些什么。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "1e4d33fca46faa75eeb18207db86c68e97152e12468587349f720c5dbe9b4c98",
+      "enMarkdown": "[1] The greatest damage that photography has done to painting may be the fact that it killed the best day job. Most of the great painters in history supported themselves by painting portraits.",
+      "zhMarkdown": "[1] 摄影对绘画造成的最大伤害，可能在于它扼杀了最好的“本职工作”。历史上大多数伟大的画家都是靠画肖像画来维持生计的。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "9a08ffa30b2d38274d8c5c4e97d569981782c27182fc32ba95691f2b63118f83",
+      "enMarkdown": "[2] I've been told that Microsoft discourages employees from contributing to open-source projects, even in their spare time. But so many of the best hackers work on open-source projects now that the main effect of this policy may be to ensure that they won't be able to hire any first-rate programmers.",
+      "zhMarkdown": "[2] 我听说微软不鼓励员工参与开源项目，即使在业余时间也是如此。但现在有那么多最优秀的黑客在做开源项目，这项政策的主要效果可能是确保他们无法雇佣到任何一流的程序员。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "85878fb4b07e66043bca49ec37818b29b3c14c73c27a28cc2f1ea0d7b90f9450",
+      "enMarkdown": "[3] What you learn about programming in college is much like what you learn about books or clothes or dating: what bad taste you had in high school.",
+      "zhMarkdown": "[3] 你在大学里学到的编程知识，很像你学到的关于书、衣服或约会的知识：你在高中的品味有多糟糕。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "09421a75853c62a423c7ee4065b517192953dfa81e686b60b32a25019736b2d4",
+      "enMarkdown": "[4] Here's an example of applied empathy. At Viaweb, if we couldn't decide between two alternatives, we'd ask, what would our competitors hate most? At one point a competitor added a feature to their software that was basically useless, but since it was one of few they had that we didn't, they made much of it in the trade press. We could have tried to explain that the feature was useless, but we decided it would annoy our competitor more if we just implemented it ourselves, so we hacked together our own version that afternoon.",
+      "zhMarkdown": "[4] 这是一个应用同理心的例子。在 Viaweb，如果我们无法在两个方案之间做出决定，我们就会问：我们的竞争对手最讨厌什么？有一次，一个竞争对手在他们的软件中添加了一个基本上无用的功能，但由于这是他们拥有而我们没有的少数功能之一，他们在行业媒体上大肆宣传。我们本来可以试着解释说这个功能没用，但我们决定，如果我们自己在那个下午拼凑出我们自己的版本，会更让竞争对手恼火，于是我们真的这么做了。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "ce408176c0995d94c0f418d0998f81ab31fa4df1a62065f4fac0ad1c67e5ff8a",
+      "enMarkdown": "[5] Except text editors and compilers. Hackers don't need empathy to design these, because they are themselves typical users.",
+      "zhMarkdown": "[5] 文本编辑器和编译器除外。黑客不需要同理心来设计这些，因为他们自己就是典型的用户。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "aba547d9f4d3db77c851c9d71a95c62e0686ebdad471b3ca9b3ffcacf4eebcb8",
+      "enMarkdown": "[6] Well, almost. They overshot the available RAM somewhat, causing much inconvenient disk swapping, but this could be fixed within a few months by buying an additional disk drive.",
+      "zhMarkdown": "[6] 嗯，差不多吧。他们有些超出了当时可用的 RAM，导致了许多不便的磁盘交换，但这可以在几个月内通过购买额外的磁盘驱动器来解决。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "5a49899c8a95fb1bf387bee78656cae7378dd2cd33cc43f7cf789c9d68899ad4",
+      "enMarkdown": "[7] The way to make programs easy to read is not to stuff them with comments. I would take Abelson and Sussman's quote a step further. Programming languages should be designed to express algorithms, and only incidentally to tell computers how to execute them. A good programming language ought to be better for explaining software than English. You should only need comments when there is some kind of kludge you need to warn readers about, just as on a road there are only arrows on parts with unexpectedly sharp curves.",
+      "zhMarkdown": "[7] 让程序易于阅读的方法不是在里面塞满注释。我愿意把阿贝尔森和萨斯曼的名言再往前推一步。编程语言的设计应该是为了表达算法，而附带才是告诉计算机如何执行它们。一门优秀的编程语言应该比英语更适合用来解释软件。只有在有某种临时应付的烂代码（kludge）需要警告读者时，你才需要注释，就像在道路上，只有在出现意想不到的急弯处才会有箭头指示牌一样。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "df413d87ade39b283b3b73534b3692507d2858fb5682fb4c9fc090108664b069",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Robert Morris, Dan Giffin, and Lisa Randall for reading drafts of this, and to Henry Leitner and Larry Finkelstein for inviting me to speak.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Robert Morris、Dan Giffin 和 Lisa Randall 阅读了本文的草稿，并感谢 Henry Leitner 和 Larry Finkelstein 邀请我进行演讲。"
+    }
+  ]
+}

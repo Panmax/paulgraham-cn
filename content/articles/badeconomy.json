@@ -1,0 +1,153 @@
+{
+  "slug": "badeconomy",
+  "titleEn": "Why to Start a Startup in a Bad Economy",
+  "titleZh": "为什么要在经济萧条时创办创业公司",
+  "dateText": "October 2008",
+  "publishedAt": "2008-10-01",
+  "sourceOrder": 131,
+  "sourceUrl": "https://paulgraham.com/badeconomy.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "71624f48431f93d2643199198d66368bd3de7cce8d5ec225a329edb752f909db",
+      "enMarkdown": "The economic situation is apparently so grim that some experts fear we may be in for a stretch as bad as the mid seventies.",
+      "zhMarkdown": "眼下的经济形势显然非常严峻，一些专家甚至担心，我们可能会面临一段像 70 年代中期那样糟糕的艰难时期。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "8f7fb83c75d26dddb02ec19aad6ee263e84492ec115cae35580a3bd223dc139f",
+      "enMarkdown": "When Microsoft and Apple were founded.",
+      "zhMarkdown": "而微软和苹果正是诞生于那个时期。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "73e9c84f8af74a69917cf7a55b52f11fb3911f3510795262aee6570a3ec2d81b",
+      "enMarkdown": "As those examples suggest, a recession may not be such a bad time to start a startup. I'm not claiming it's a particularly good time either. The truth is more boring: the state of the economy doesn't matter much either way.",
+      "zhMarkdown": "这些例子表明，经济衰退期或许并不是创办创业公司的坏时机。我并不是说这是一个特别好的时机。事实其实更无趣：经济状况好坏对创业的影响并没有那么大。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "cc3efbaa3ff2c1a3a4fb755ac8742745df7801966d4f404fc7da1b35cf00aa4c",
+      "enMarkdown": "If we've learned one thing from funding so many startups, it's that they succeed or fail based on the qualities of the founders. The economy has some effect, certainly, but as a predictor of success it's rounding error compared to the founders.",
+      "zhMarkdown": "如果说我们从资助这么多创业公司中得出了什么结论，那就是：创业公司的成败完全取决于创始人的素质。经济环境当然会有一些影响，但作为预测成功的指标，它与创始人本身的因素相比，简直只是四舍五入时的误差。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "93db7ada74bd2e6a399250ff98debf72903d9194772a63a2ec62674b1eb98b3c",
+      "enMarkdown": "Which means that what matters is who you are, not when you do it. If you're the right sort of person, you'll win even in a bad economy. And if you're not, a good economy won't save you. Someone who thinks \"I better not start a startup now, because the economy is so bad\" is making the same mistake as the people who thought during the Bubble \"all I have to do is start a startup, and I'll be rich.\"",
+      "zhMarkdown": "这意味着，起决定作用的是你是谁，而不是你什么时候去做。如果你是合适的人选，即使在糟糕的经济环境下你也会赢；如果你不是，再好的经济环境也救不了你。那些想着“我现在最好不要创业，因为经济太差了”的人，犯了和互联网泡沫时期那些想着“我只要开家创业公司就能发财”的人一模一样的错误。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d5c520f3d6e503a0c30be5d3536bec19d8d87ae8753136246a5814557b8fa4ce",
+      "enMarkdown": "So if you want to improve your chances, you should think far more about who you can recruit as a cofounder than the state of the economy. And if you're worried about threats to the survival of your company, don't look for them in the news. Look in the mirror.",
+      "zhMarkdown": "所以，如果你想提高成功的概率，你应该多想想能招募谁来做联合创始人，而不是去关注经济状况。如果你担心公司生存面临威胁，不要去新闻里找答案，照照镜子吧。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ca9e4e37d8fcb3a713889da5f4f2df7bb2679614db27e596304882c7a77a4ed7",
+      "enMarkdown": "But for any given team of founders, would it not pay to wait till the economy is better before taking the leap? If you're starting a restaurant, maybe, but not if you're working on technology. Technology progresses more or less independently of the stock market. So for any given idea, the payoff for acting fast in a bad economy will be higher than for waiting. Microsoft's first product was a Basic interpreter for the Altair. That was exactly what the world needed in 1975, but if Gates and Allen had decided to wait a few years, it would have been too late.",
+      "zhMarkdown": "但是，对于任何一个特定的创始人团队来说，等到经济好转再迈出这一步，难道不更划算吗？如果你开的是餐馆，也许是的；但如果你做的是技术，那就不是。技术的发展或多或少独立于股市。因此，对于任何一个具体的想法，在经济不景气时迅速行动的收益都会高于等待。微软的第一款产品是为 Altair 电脑开发的 Basic 解释器。这正是 1975 年世界所需要的，但如果盖茨和艾伦当时决定等几年，一切就太迟了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d7a03a1af607c68b03dd57529c6698b73efa7c2220117d8f13e10316ccb92d23",
+      "enMarkdown": "Of course, the idea you have now won't be the last you have. There are always new ideas. But if you have a specific idea you want to act on, act now.",
+      "zhMarkdown": "当然，你现在的想法不会是你最后一个想法。新想法总会源源不断。但如果你现在有一个具体想付诸行动的想法，那就立刻行动。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "4e4cd060460bb3495457ea78e8b6b72e553f0bb9d5d8ff83ade7cd61b902b0e4",
+      "enMarkdown": "That doesn't mean you can ignore the economy. Both customers and investors will be feeling pinched. It's not necessarily a problem if customers feel pinched: you may even be able to benefit from it, by making things that [save money](http://bountii.com). Startups often make things cheaper, so in that respect they're better positioned to prosper in a recession than big companies.",
+      "zhMarkdown": "这并不意味着你可以忽视经济环境。客户和投资人都会感到手头偏紧。客户手头偏紧不一定是坏事：你甚至可以通过做出能帮他们[省钱](http://bountii.com)的产品来中获益。创业公司往往能把东西做得更便宜，所以在这一点上，他们比大公司更有优势在经济衰退中繁荣发展。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "c45429cf6453eee40453f9b32d9a5a0ecacf9febacda9aa03e002506dd18aa00",
+      "enMarkdown": "Investors are more of a problem. Startups generally need to raise some amount of external funding, and investors tend to be less willing to invest in bad times. They shouldn't be. Everyone knows you're supposed to buy when times are bad and sell when times are good. But of course what makes investing so counterintuitive is that in equity markets, good times are defined as everyone thinking it's time to buy. You have to be a contrarian to be correct, and by definition only a minority of investors can be.",
+      "zhMarkdown": "投资人是个比较麻烦的问题。创业公司通常需要募集一定数量的外部资金，而投资人在不景气的时候往往不太愿意投资。他们本不该如此。大家都知道应该“低买高卖”。但投资最反直觉的地方就在于，在股票市场上，所谓的“好时机”被定义为每个人都认为该买入的时候。你必须成为逆向投资者才能正确，而根据定义，只有少数投资人能做到这一点。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "0425af9609803a05f688667d6c3ccd539d7e62ebf9cb4c5b056d3ef5483281f6",
+      "enMarkdown": "So just as investors in 1999 were tripping over one another trying to buy into lousy startups, investors in 2009 will presumably be reluctant to invest even in good ones.",
+      "zhMarkdown": "因此，正如 1999 年的投资人争先恐后地把钱送给烂公司一样，2009 年的投资人大概也会抗拒投资，哪怕面对的是好公司。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "2b96d6551b1c6b4851861949ab76c3bbc9da76919df3fb15500e2a94bc88c396",
+      "enMarkdown": "You'll have to adapt to this. But that's nothing new: startups always have to adapt to the whims of investors. Ask any founder in any economy if they'd describe investors as fickle, and watch the face they make. Last year you had to be prepared to explain how your startup was viral. Next year you'll have to explain how it's recession-proof.",
+      "zhMarkdown": "你必须适应这一点。但这并没什么新鲜的：创业公司总是要适应投资人的喜好。去问问任何时期的任何一位创始人，问他们是否觉得投资人反复无常，然后看看他们脸上的表情就知道了。去年你必须准备好解释你的创业公司是如何具有病毒式传播效应的，明年你则必须解释它是如何抵御经济衰退的。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "6fd0c2bba47c1d664f42e27e1900889fd3b3323f346e1567981bbafc8eeeaaef",
+      "enMarkdown": "(Those are both good things to be. The mistake investors make is not the criteria they use but that they always tend to focus on one to the exclusion of the rest.)",
+      "zhMarkdown": "（这两者都是很好的特质。投资人犯的错误不是他们使用的标准，而是他们总是倾向于只关注其中一点而忽略了其他所有因素。）"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "5870a83fb2916bddf811a1f2b913d1c778a43af36824d2a39946aa731968caf3",
+      "enMarkdown": "Fortunately the way to make a startup recession-proof is to do exactly what you should do anyway: run it as cheaply as possible. For years I've been telling founders that the surest route to success is to be the cockroaches of the corporate world. The immediate cause of death in a startup is always running out of money. So the cheaper your company is to operate, the harder it is to kill. And fortunately it has gotten very cheap to run a startup. A recession will if anything make it cheaper still.",
+      "zhMarkdown": "幸运的是，让创业公司抵御衰退的方法，恰恰是你平时最应该做的事：尽可能便宜地运营。多年来，我一直告诉创始人，通往成功最可靠的途径就是做商业界的“蟑螂”。创业公司最直接的死因永远是把钱花光。所以，公司的运营成本越低，就越难被杀死。幸运的是，现在创办一家创业公司的成本已经变得非常低。如果说有什么影响的话，经济衰退只会让这个成本变得更低。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "3573ae1ab0b7fd17628f87f20e78af49651e9235370091a3085ae538145ede6f",
+      "enMarkdown": "If nuclear winter really is here, it may be safer to be a cockroach even than to keep your job. Customers may drop off individually if they can no longer afford you, but you're not going to lose them all at once; markets don't \"reduce headcount.\"",
+      "zhMarkdown": "如果“核冬天”真的来了，当一只蟑螂甚至可能比保住一份工作还要安全。如果客户负担不起，他们可能会一个接一个地流失，但你不会一下子失去所有的客户；市场可不会像大公司那样“裁员”。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "cce15ef8e03cd1e70254dbacf077b482f57959e4def37dd6ad98de2a0e0ba045",
+      "enMarkdown": "What if you quit your job to start a startup that fails, and you can't find another? That could be a problem if you work in sales or marketing. In those fields it can take months to find a new job in a bad economy. But hackers seem to be more liquid. Good hackers can always get some kind of job. It might not be your dream job, but you're not going to starve.",
+      "zhMarkdown": "如果你辞职去创业结果失败了，又找不到其他工作怎么办？如果你做的是销售或市场营销，这确实可能是个问题，在这些领域，经济不好时可能需要几个月才能找到新工作。但黑客的流动性似乎更强。优秀的黑客总能找到某种工作。它可能不是你的梦想职位，但你绝不会挨饿。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "967d233219514b568d7fdcf401695162842deeeee2212d9f66e8312e9c022ca5",
+      "enMarkdown": "Another advantage of bad times is that there's less competition. Technology trains leave the station at regular intervals. If everyone else is cowering in a corner, you may have a whole car to yourself.",
+      "zhMarkdown": "坏时期的另一个好处是竞争变少了。技术的列车每隔一段时间就会按时发车。如果其他人都在角落里瑟瑟发抖，你可能就能独占一整节车厢。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "2de72b5958ed251ce170b8f31b971dc63f98ad3896103cd385493309accd5d6c",
+      "enMarkdown": "You're an investor too. As a founder, you're buying stock with work: the reason Larry and Sergey are so rich is not so much that they've done work worth tens of billions of dollars, but that they were the first investors in Google. And like any investor you should buy when times are bad.",
+      "zhMarkdown": "你同样也是一位投资者。作为创始人，你是在用劳动购买股票：拉里和谢尔盖之所以如此富有，并不完全是因为他们创造了价值数百亿美元的劳动，而是因为他们是 Google 的第一批投资人。和任何投资者一样，你应该在不景气的时候买入。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "8742106e944ca0c19022c34e28cf1bf57b4f9f51eb23a0727b9beae412dd6141",
+      "enMarkdown": "Were you nodding in agreement, thinking \"stupid investors\" a few paragraphs ago when I was talking about how investors are reluctant to put money into startups in bad markets, even though that's the time they should rationally be most willing to buy? Well, founders aren't much better. When times get bad, hackers go to grad school. And no doubt that will happen this time too. In fact, what makes the preceding paragraph true is that most readers won't believe it—at least to the extent of acting on it.",
+      "zhMarkdown": "刚才我提到在糟糕的市场环境中，投资人不愿意把钱投给创业公司——尽管从理性角度来看，这才是他们最应该买入的时候，你当时是不是在赞同地点头，心里想“这群愚蠢的投资人”？其实，创始人们也好不到哪去。每当经济不景气时，黑客们就会跑去读研。毫无疑问，这次也会发生同样的事情。事实上，正因为大多数读者不会相信前一段话——至少不会相信到付诸行动的程度——前一段话才成立。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "228acb82149245de901966330a7550256e2998948332d8abb06d3f93bb7aac9c",
+      "enMarkdown": "So maybe a recession is a good time to start a startup. It's hard to say whether advantages like lack of competition outweigh disadvantages like reluctant investors. But it doesn't matter much either way. It's the people that matter. And for a given set of people working on a given technology, the time to act is always now.",
+      "zhMarkdown": "所以，也许经济衰退期确实是创办创业公司的良机。很难说像“缺乏竞争”这样的优势，是否能盖过“投资人迟疑”这样的劣势。但不管怎样，这其实无关紧要。关键在于人。对于一帮致力于某项特定技术的特定人群来说，行动的时机永远是现在。"
+    }
+  ]
+}

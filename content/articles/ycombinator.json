@@ -1,0 +1,216 @@
+{
+  "slug": "ycombinator",
+  "titleEn": "A New Venture Animal",
+  "titleZh": "一种新型的创投物种",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 142,
+  "sourceUrl": "https://paulgraham.com/ycombinator.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "1a09c01d9d0aa607443c6868d105462be101df65d5114520217354f740ca8e86",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/a-new-venture-animal-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/a-new-venture-animal-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "f60d01a25d7176e2c582b88d0735780bdc7c7d9fa5699ae18c94c2bdab653818",
+      "enMarkdown": "March 2008, rev May 2013",
+      "zhMarkdown": "2008年3月，2013年5月修订"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "51ffc9b2f99f4d23e2e9e00cf52ee5057cef0d5f3c3f2466a77bdcbf5c8a687a",
+      "enMarkdown": "*(This essay grew out of something I wrote for myself to figure\nout what we do.  Even though Y Combinator is now 3 years old, we're still\ntrying to understand its implications.)*",
+      "zhMarkdown": "*（这篇文章源于我为了理清我们正在做的事情而写给自己的一些思考。虽然 Y Combinator 现在已经成立 3 年了，但我们仍在努力理解它所带来的深远影响。）*"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "9b9dcb6cdebd75f97906122869db8c0124c85020dae2ea8510d51100e0420880",
+      "enMarkdown": "I was annoyed recently to read a description of Y Combinator that said \"Y Combinator does seed funding for startups.\" What was especially annoying about it was that I wrote it. This doesn't really convey what we do. And the reason it's inaccurate is that, paradoxically, funding very early stage startups is not mainly about funding.",
+      "zhMarkdown": "最近，我看到一篇关于 Y Combinator 的介绍，写着“Y Combinator 为创业公司提供种子资金”，这让我有点恼火。特别让人郁闷的是，这句话其实是我自己写的。它并没有真正传达出我们所做的事情。而它之所以不准确，是因为一个看似矛盾的事实：对极早期创业公司的支持，核心其实并不在于资金。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "eebea34827c1067531e87317d98efa3ae32ae8e1764c7215a5ef56fb26504123",
+      "enMarkdown": "Saying YC does seed funding for startups is a description in terms of earlier models. It's like calling a car a horseless carriage.",
+      "zhMarkdown": "说 YC 是为创业公司提供种子资金，是用旧模型的概念来描述新事物。这就像把汽车叫做“无马马车”一样。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "99223caeef7ce2424fcebbd9d4f1ef0cd0cd01732f9c3f74c19c7a19241aae59",
+      "enMarkdown": "When you scale animals you can't just keep everything in proportion. For example, volume grows as the cube of linear dimension, but surface area only as the square. So as animals get bigger they have trouble radiating heat. That's why mice and rabbits are furry and elephants and hippos aren't. You can't make a mouse by scaling down an elephant.",
+      "zhMarkdown": "在自然界中，当动物的体型按比例放大或缩小时，它们的各项指标并不会等比例变化。例如，体积是按线性尺寸的立方增长，而表面积只按平方增长。因此，动物体型越大，散热就越困难。这就是为什么老鼠和兔子毛茸茸的，而大象和河马却光溜溜的。你不能通过直接缩小一只大象来制造出一只老鼠。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "26794cbbf28af3b1113a1ef5d9692e4cd72cb8d7f9209ac9c2fa6e5d7415e027",
+      "enMarkdown": "YC represents a new, smaller kind of animal—so much smaller that all the rules are different.",
+      "zhMarkdown": "YC 代表了一种全新的、体型更小的物种——因为它小得多，所以所有的规则都变了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "1405ba5330e7fa75836e5d128630e4bcb9598b631be094d725ede33a5db1d0e0",
+      "enMarkdown": "Before us, most companies in the startup funding business were venture capital funds. VCs generally fund later stage companies than we do. And they supply so much money that, even though the other things they do may be very valuable, it's not that inaccurate to regard VCs as sources of money. Good VCs are \"smart money,\" but they're still money.",
+      "zhMarkdown": "在 YC 出现之前，创业投资领域的大多数机构都是风险投资（VC）基金。VC 资助的企业阶段通常比我们晚得多。而且他们提供的资金量如此庞大，以至于即便他们提供的其他帮助非常有价值，把 VC 仅仅看作“资金来源”也算不上太离谱。优秀的 VC 是“聪明的钱”，但归根结底依然是钱。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "55fb99569f4bfc53531c64e3870bcb52715eb23dfcc5759d32f76776be498038",
+      "enMarkdown": "All good investors supply a combination of money and help. But these scale differently, just as volume and surface area do. Late stage investors supply huge amounts of money and comparatively little help: when a company about to go public gets a mezzanine round of $50 million, the deal tends to be almost entirely about money. As you move earlier in the venture funding process, the ratio of help to money increases, because earlier stage companies have different needs. Early stage companies need less money because they're smaller and cheaper to run, but they need more help because life is so precarious for them. So when VCs do a series A round for, say, $2 million, they generally expect to offer a significant amount of help along with the money.",
+      "zhMarkdown": "所有优秀的投资人都会同时提供资金和帮助。但这两者的缩放规律不同，就像体积和表面积一样。后期投资人提供巨额资金，但提供的帮助相对较少：当一家即将上市的公司获得 5000 万美元的夹层融资时，这笔交易几乎完全是关于钱的。而在投资阶段越往早期走，帮助与资金的比例就越高，因为早期阶段的公司有着不同的需求。早期公司需要的钱较少，因为它们规模小、运营成本低；但它们需要更多的帮助，因为它们的生活极其脆弱、充满变数。因此，当 VC 进行一笔比如 200 万美元的 A 轮融资时，他们通常会期望在提供资金的同时，也提供大量的帮助。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e99c0e5d970567de38cb8ce11b7850171fd48fb79c642abfda10b1d6b485e395",
+      "enMarkdown": "Y Combinator occupies the earliest end of the spectrum. We're at least one and generally two steps before VC funding. (Though some startups go straight from YC to VC, the most common trajectory is to do an angel round first.) And what happens at Y Combinator is as different from what happens in a series A round as a series A round is from a mezzanine financing.",
+      "zhMarkdown": "Y Combinator 处于这个光谱的最前端。我们比 VC 融资至少早一步，通常是两步。（虽然有些创业公司会直接从 YC 跨越到 VC，但最常见的轨迹是先进行天使轮融资。）在 Y Combinator 发生的事情，与在 A 轮融资中发生的事情，其差异之大，就像 A 轮融资与夹层融资的差异一样。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "1d289705d885d29a6234895d3a308b5b79f6f034d21ccf18bfa712397a2fd19e",
+      "enMarkdown": "At our end, money is almost a negligible factor. The startup usually consists of just the founders. Their living expenses are the company's main expense, and since most founders are under 30, their living expenses are low. But at this early stage companies need a lot of help. Practically every question is still unanswered. Some companies we've funded have been working on their software for a year or more, but others haven't decided what to work on, or even who the founders should be.",
+      "zhMarkdown": "在我们这个阶段，资金几乎是一个可以忽略不计的因素。创业公司通常只由创始人组成。他们的生活开销是公司的主要支出，而且由于大多数创始人都在 30 岁以下，他们的生活成本很低。但在如此早期的阶段，公司需要大量的帮助。几乎每一个问题都还没有答案。我们资助的一些公司可能已经开发了一年或更长时间的软件，而另一些公司甚至还没有决定要做什么，甚至连创始人该找谁都没定。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "63c0dcb6458cb104dbe2820399406ecf094d24d8debc8ca6a648c2a0a39f76d1",
+      "enMarkdown": "When PR people and journalists recount the histories of startups after they've become big, they always underestimate how uncertain things were at first. They're not being deliberately misleading. When you look at a company like Google, it's hard to imagine they could once have been small and helpless. Sure, at one point they were a just a couple guys in a garage—but even then their greatness was assured, and all they had to do was roll forward along the railroad tracks of destiny.",
+      "zhMarkdown": "当公关人员和记者在创业公司做大后追溯其历史时，他们总是低估了最初阶段的种种不确定性。他们并非刻意误导。当你看着像 Google 这样的公司时，很难想象他们也曾有过弱小和无助的时期。当然，在某个时刻，他们只是车库里的两个家伙——但在人们眼里，那时他们的伟大似乎就已成定局，他们所要做的就是沿着命运的铁轨一路向前。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "bdd15cc3bb631bf1f3f23d7dd812f68d0b6a8f9223e139a0a25fe62af9198f7f",
+      "enMarkdown": "Far from it. A lot of startups with just as promising beginnings end up failing. Google has such momentum now that it would be hard for anyone to stop them. But all it would have taken in the beginning would have been for two Google employees to focus on the wrong things for six months, and the company could have died.",
+      "zhMarkdown": "事实远非如此。许多拥有同样大好前途的创业公司最终都失败了。Google 现在拥有如此巨大的惯性，任何人要阻止他们都很困难。但在最初的时候，只要有两个 Google 员工在错误的事情上专注了六个月，这家公司就可能死掉。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d3267e60c630ffb5dc59b93d4b36f686560dae6438df28c6297e2375efa07c51",
+      "enMarkdown": "We know, because we've been there, just how vulnerable startups are in the earliest phases. Curiously enough, that's why founders tend to get so rich from them. Reward is always proportionate to risk, and very early stage startups are insanely risky.",
+      "zhMarkdown": "因为我们亲身经历过，所以深知创业公司在最早期阶段是多么脆弱。说来也怪，这恰恰是创始人能从中获得巨额财富的原因。回报总是与风险成正比，而极早期创业公司的风险高得离谱。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "11689eb4db5f7f1330614345e2f68bb338a7ea8ae6bcbc47140da6fa9d7eb6b8",
+      "enMarkdown": "What we really do at Y Combinator is get startups launched straight. One of many metaphors you could use for YC is a steam catapult on an aircraft carrier. We get startups airborne. Barely airborne, but enough that they can accelerate fast.",
+      "zhMarkdown": "我们在 Y Combinator 真正做的事情，是让创业公司走上正轨、顺利起飞。如果用一个比喻来形容 YC，那就是航空母舰上的蒸汽弹射器。我们让创业公司飞上天空。虽然只是勉强离地，但已经足够让他们快速加速了。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "c2b90472df62a2532f8d6494cec212303ceba7569cbd8fb06b75678992ec4049",
+      "enMarkdown": "When you're launching planes they have to be set up properly or you're just launching projectiles. They have to be pointed straight down the deck; the wings have to be trimmed properly; the engines have to be at full power; the pilot has to be ready. These are the kind of problems we deal with. After we fund startups we work closely with them for three months—so closely in fact that we insist they move to where we are. And what we do in those three months is make sure everything is set up for launch. If there are tensions between cofounders we help sort them out. We get all the paperwork set up properly so there are no nasty surprises later. If the founders aren't sure what to focus on first, we try to figure that out. If there is some obstacle right in front of them, we either try to remove it, or shift the startup sideways. The goal is to get every distraction out of the way so the founders can use that time to build (or finish building) something impressive. And then near the end of the three months we push the button on the steam catapult in the form of Demo Day, where the current group of startups present to pretty much every investor in Silicon Valley.",
+      "zhMarkdown": "发射飞机时，必须做好万全的准备，否则你发射的就只是个抛射物。飞机必须对准甲板直行；机翼必须调整到最佳角度；发动机必须开到最大功率；飞行员必须严阵以待。这些就是我们要处理的问题。在我们投资创业公司后，会与他们紧密合作三个月——事实上，紧密到我们要求他们必须搬到我们所在的地方。在这三个月里，我们所做的一切就是确保发射前的准备工作就绪。如果合伙人之间有摩擦，我们帮着调解。我们把所有的法务文件理顺，免得日后出现令人头疼的意外。如果创始人不确定首先该专注于什么，我们一起帮着理清。如果眼前有什么障碍，我们要么帮着清除，要么帮着公司调整方向。我们的目标是扫除一切干扰，让创始人能够利用这段时间开发（或完成开发）一些令人惊艳的东西。然后，在三个月快结束时，我们按下蒸汽弹射器的按钮，也就是 Demo Day（演示日），届时当期的创业公司会向硅谷几乎所有的投资人进行展示。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "65e698565884c4208d867c8bafb0153cd8461397cb18cc7e91970d673cadf391",
+      "enMarkdown": "Launching companies isn't identical with launching products. Though we do spend a lot of time on launch strategies for products, there are some things that take too long to build for a startup to launch them before raising their next round of funding. Several of the most promising startups we've funded haven't launched their products yet, but are definitely launched as companies.",
+      "zhMarkdown": "启动公司并不等同于发布产品。虽然我们在产品的发布策略上花了很多时间，但有些东西开发周期太长，创业公司在融下一轮资之前根本来不及发布产品。我们资助的几家最有前途的创业公司甚至还没有发布产品，但作为公司，它们绝对已经成功启航了。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "3241e98a8d2b0fc1ab0e891c679dd341e2b100684c4722f4c559e943d8fd37f3",
+      "enMarkdown": "In the earliest stage, startups not only have more questions to answer, but they tend to be different kinds of questions. In later stage startups the questions are about deals, or hiring, or organization. In the earliest phase they tend to be about technology and design. What do you make? That's the first problem to solve. That's why our motto is \"Make something people want.\" This is always a good thing for companies to do, but it's even more important early on, because it sets the bounds for every other question. Who you hire, how much money you raise, how you market yourself—they all depend on what you're making.",
+      "zhMarkdown": "在最早期阶段，创业公司不仅要面对更多的问题，而且这些问题的类型也大不相同。在后期创业公司中，问题大多围绕着交易、招聘或组织架构。而在最早期阶段，问题往往关乎技术和设计。你到底要做出什么东西？这是首要解决的问题。这就是为什么我们的座右铭是“创造人们渴望的东西”（Make something people want）。这对任何阶段的公司来说都是好事，但在早期尤为重要，因为它为其他所有问题设定了边界。你招什么样的人、融多少钱、如何做市场推广——这一切都取决于你正在创造什么。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "d047e1495adf493a524fd53a6fe3cd0fc610fbecf05ffd505c9320a1d00ee6fd",
+      "enMarkdown": "Because the early problems are so much about technology and design, you probably need to be hackers to do what we do. While some VCs have technical backgrounds, I don't know any who still write code. Their expertise is mostly in business—as it should be, because that's the kind of expertise you need in the phase between series A and (if you're lucky) IPO.",
+      "zhMarkdown": "因为早期的问题很大程度上关乎技术和设计，所以你可能需要是黑客出身，才能做我们所做的事。虽然有些 VC 拥有技术背景，但我没见过哪个 VC 现在还在写代码。他们的专业知识主要在商业领域——本来也该如此，因为这正是 A 轮到上市（如果足够幸运的话）这一阶段所需要的专业知识。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "c017d1d1d12749cc6d50ebb25022c94798451cbf1b94d6eea02fea73b217fa8d",
+      "enMarkdown": "We're so different from VCs that we're really a different kind of animal. Can we claim founders are better off as a result of this new type of venture firm? I'm pretty sure the answer is yes, because YC is an improved version of what happened to our startup, and our case was not atypical. We started Viaweb with $10,000 in seed money from our friend Julian. He was a lawyer and arranged all our paperwork, so we could just code. We spent three months building a version 1, which we then presented to investors to raise more money. Sounds familiar, doesn't it? But YC improves on that significantly. Julian knew a lot about law and business, but his advice ended there; he was not a startup guy. So we made some basic mistakes early on. And when we presented to investors, we presented to only 2, because that was all we knew. If we'd had our later selves to encourage and advise us, and Demo Day to present at, we would have been in much better shape. We probably could have raised money at 3 to 5 times the valuation we did.",
+      "zhMarkdown": "我们和 VC 如此不同，以至于我们真的是一种不同的物种。那么，这种新型的创业投资机构是否让创始人受益更多？我很确定答案是肯定的，因为 YC 就是我们当年创业经历的升级版，而我们的情况绝非特例。我们创办 Viaweb 时，从朋友 Julian 那里拿到了 1 万美元的种子资金。他是一位律师，帮我们处理了所有的法务文件，这样我们就可以专心写代码。我们花了三个月时间开发出 1.0 版本，然后向投资人展示以筹集更多资金。听起来很耳熟，对吧？但 YC 在这之上做了巨大的改进。Julian 对法律和商业很在行，但他的建议仅限于此；他并不是个懂创业的人。所以我们在早期犯了一些低级错误。而且当我们向投资人展示时，我们只联系了两位，因为我们只认识这两个。如果我们当年能有后来的自己来给予鼓励和指导，并且能在 Demo Day 上进行展示，我们的处境会好得多。我们当时的估值可能会比实际拿到的高出 3 到 5 倍。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "784f4353530e5d456db1fadba5782865ebfdd55ac5500f16431c3f1faa4cd826",
+      "enMarkdown": "If we take 7% of a company we fund, the founders only have to do [7.5%](https://paulgraham.com/equity.html) better in their next round of funding to end up net ahead. We certainly manage that.",
+      "zhMarkdown": "如果我们拿走一家公司 7% 的股份，创始人只需要在下一轮融资中多做 [7.5%](https://paulgraham.com/equity.html) 的提升，就能在净收益上占得便宜。我们当然能帮他们做到这一点。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "4bf0ee7f6e892b3c42581778da9649748be86611ef30ca7fa135a6421f74e1a8",
+      "enMarkdown": "So who is our 7% coming out of? If the founders end up net ahead it's not coming out of them. So is it coming out of later stage investors? Well, they do end up paying more. But I think they pay more because the company is actually more valuable. And later stage investors have no problem with that. The returns of a VC fund depend on the quality of the companies they invest in, not how cheaply they can buy stock in them.",
+      "zhMarkdown": "那么，这 7% 的股份到底是从谁身上抠出来的？如果创始人最终的净收益增加了，那自然不是从他们身上出的。那会是后期的投资人吗？确实，他们最终支付了更高的价格。但我认为他们付更多的钱，是因为这家公司实际上变得更有价值了。后期的投资人对此毫无意见。VC 基金的回报取决于他们投资的公司的质量，而不是他们买入股票时有多便宜。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "71c91a094fbaaf23c0475ea04a156d902ca9fadba94f5e24ff2069d345bbbb69",
+      "enMarkdown": "If what we do is useful, why wasn't anyone doing it before? There are two answers to that. One is that people were doing it before, just haphazardly on a smaller scale. Before us, seed funding came primarily from individual angel investors. Larry and Sergey, for example, got their seed funding from Andy Bechtolsheim, one of the founders of Sun. And because he was a startup guy he probably gave them useful advice. But raising money from angel investors is a hit or miss thing. It's a sideline for most of them, so they only do a handful of deals a year and they don't spend a lot of time on the startups they invest in. And they're hard to reach, because they don't want random startups pestering them with business plans. The Google guys were lucky because they knew someone who knew Bechtolsheim. It generally takes a personal introduction with angels.",
+      "zhMarkdown": "如果我们做的事情这么有用，为什么以前没人做？答案有两个。一是以前也有人做，只是零散且规模较小。在我们之前，种子资金主要来自个人天使投资人。例如，拉里（Larry）和谢尔盖（Sergey）的种子资金来自 Sun 的创始人之一安迪·贝托尔斯海姆（Andy Bechtolsheim）。因为他本身就是个懂创业的人，所以可能给了他们有用的建议。但向天使投资人融钱是一件碰运气的事。对他们大多数人来说，这只是副业，所以他们一年只做几笔交易，也不会在投资的创业公司上花太多时间。而且他们很难联系到，因为他们不想被素不相识的创业公司用商业计划书来打扰。Google 的创始人很幸运，因为他们认识一个认识贝托尔斯海姆的人。与天使投资人接触，通常需要有熟人引荐。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "c46fae989f55f7ff82e47545dc576d623240905f99066829fa6998564ef3dc19",
+      "enMarkdown": "The other reason no one was doing quite what we do is that till recently it was a lot more expensive to start a startup. You'll notice we haven't funded any biotech startups. That's still expensive. But advancing technology has made web startups so cheap that you really can get a company airborne for $15,000. If you understand how to operate a steam catapult, at least.",
+      "zhMarkdown": "另一个以前没人做类似事情的原因是，直到最近，创办一家创业公司的成本要高得多。你会注意到我们没有资助过任何生物技术创业公司。那依然很昂贵。但技术的进步让互联网创业公司的成本变得如此低廉，以至于你真的可以用 1.5 万美元就让一家公司飞上天。当然，前提是你得懂得如何操作蒸汽弹射器。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "9902fcb5b360e16dfb2fe0f22fe08dfe5af99039a0b4ddff5c07456a4b375af1",
+      "enMarkdown": "So in effect what's happened is that a new ecological niche has opened up, and Y Combinator is the new kind of animal that has moved into it. We're not a replacement for venture capital funds. We occupy a new, adjacent niche. And conditions in our niche are really quite different. It's not just that the problems we face are different; the whole structure of the business is different. VCs are playing a zero-sum game. They're all competing for a slice of a fixed amount of \"deal flow,\" and that explains a lot of their behavior. Whereas our m.o. is to create new deal flow, by encouraging hackers who would have gotten jobs to start their own startups instead. We compete more with employers than VCs.",
+      "zhMarkdown": "因此，实际上发生的是一个新的生态位已经开启，而 Y Combinator 就是迁入其中的新物种。我们并不是风险投资基金的替代品。我们占据了一个全新的、相邻的生态位。而我们这个生态位里的生存条件截然不同。不仅我们面临的问题不同，整个业务的结构也完全不同。VC 玩的是零和博弈。他们都在争夺有限的“项目源”（deal flow）份额，这解释了他们的许多行为。而我们的运作方式是通过鼓励那些本可以去打工的黑客去创业，来创造全新的项目源。我们的竞争对手更多是雇主，而不是 VC。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e77c99d9c25c39ca45175da35f4b457e74db7a4d885e1379728e3597d3200a74",
+      "enMarkdown": "It's not surprising something like this would happen. Most fields become more specialized—more articulated—as they develop, and startups are certainly an area in which there has been a lot of development over the past couple decades. The venture business in its present form is only about forty years old. It stands to reason it would evolve.",
+      "zhMarkdown": "出现这样的变化并不奇怪。大多数领域在发展过程中都会变得更加专业化、更加细分，而创业在过去二十年里无疑是一个经历了巨大发展的领域。现代形式的风险投资业务也不过只有大约四十年的历史。它会发生演变是理所当然的。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "e8437c6ccf75ec3743f4bce2f230827b37d9cd9ebe4300dbc3e8c76328b9ece1",
+      "enMarkdown": "And it's natural that the new niche would at first be described, even by its inhabitants, in terms of the old one. But really Y Combinator is not in the startup funding business. Really we're more of a small, furry steam catapult.",
+      "zhMarkdown": "而且，新生态位在最初阶段被人们（甚至是其中的局内人）用旧生态位的词汇来描述，也是很自然的事情。但实际上，Y Combinator 并不属于创业投资行业。实际上，我们更像是一个小小的、毛茸茸的蒸汽弹射器。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "1cab82e8aaad533b7e3b9e71bb822c0c1f6c2d8d0b4dd1b3b6963454fff84e1f",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "ff4bb160bbe3b3a8d6e7abdc478aca449a76e52cecebf3044cd69971cc84b62b",
+      "enMarkdown": "[Comment](http://news.ycombinator.com/item?id=133430) on this essay.",
+      "zhMarkdown": "对此文发表[评论](http://news.ycombinator.com/item?id=133430)。"
+    }
+  ]
+}

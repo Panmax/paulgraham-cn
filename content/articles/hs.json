@@ -1,0 +1,636 @@
+{
+  "slug": "hs",
+  "titleEn": "What You'll Wish You'd Known",
+  "titleZh": "你未曾虚度的青春",
+  "dateText": "January 2005",
+  "publishedAt": "2005-01-01",
+  "sourceOrder": 191,
+  "sourceUrl": "https://paulgraham.com/hs.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "0691ce76cc2e9ddb99c5e28d0f567164b2712aaecbc90c54fe0bb39742543e6a",
+      "enMarkdown": "*(I wrote this talk for a\nhigh school.  I never actually \ngave it, because the school authorities vetoed the plan to invite me.)*",
+      "zhMarkdown": "*(这篇演讲是我为一所高中写的。但我从未真正去讲，因为学校领导否决了邀请我的计划。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4cf65d09b67fa66be7bddf2f70b61a1baa47bbd61ba0cc419a01ca6f5e82c82f",
+      "enMarkdown": "When I said I was speaking at a high school, my friends were curious. What will you say to high school students? So I asked them, what do you wish someone had told you in high school? Their answers were remarkably similar. So I'm going to tell you what we all wish someone had told us.",
+      "zhMarkdown": "当我说要去高中演讲时，朋友们都很纳闷：“你打算和高中生说什么？”于是我反问他们：“你最希望自己在读高中时，有人能告诉你什么？”大家的答案惊人地一致。所以，今天我就来聊聊我们当年都无比渴望有人能点醒我们的那些事。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "bcd6c252ed95455eafcedcb8a5597fb24816b87d80f137fdf9b6c0729237eadf",
+      "enMarkdown": "I'll start by telling you something you don't have to know in high school: what you want to do with your life. People are always asking you this, so you think you're supposed to have an answer. But adults ask this mainly as a conversation starter. They want to know what sort of person you are, and this question is just to get you talking. They ask it the way you might poke a hermit crab in a tide pool, to see what it does.",
+      "zhMarkdown": "首先，我得告诉你一件在高中阶段你其实没必要知道的事：那就是你未来到底想做什么。人们总是在问你这个问题，让你觉得好像必须得有个标准答案。但实际上，大人问这个大多只是为了打破尴尬。他们想了解你是个什么样的人，而这个问题只是个话头。他们问这个问题，就像你在潮水退去后的水洼里戳一下寄居蟹，只是想看看它有什么反应。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "088d9643da9042d0ac3cc5b5f2268125320f1163310ed7feb0966070afdc1e9c",
+      "enMarkdown": "If I were back in high school and someone asked about my plans, I'd say that my first priority was to learn what the options were. You don't need to be in a rush to choose your life's work. What you need to do is discover what you like. You have to work on stuff you like if you want to be good at what you do.",
+      "zhMarkdown": "如果让我回到高中，有人问起我的规划，我会说，我的首要任务是去弄清楚未来有哪些选择。你不需要急着决定一生要从事的工作。你需要做的是发现自己的兴趣所在。因为要想把事情做好，你必须做你喜欢的事。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "66cc2f45212832a747e4fbc1271f7592c6d915a7ac035341cc06dc0ac03d1d29",
+      "enMarkdown": "It might seem that nothing would be easier than deciding what you like, but it turns out to be hard, partly because it's hard to get an accurate picture of most jobs. Being a doctor is not the way it's portrayed on TV. Fortunately you can also watch real doctors, by volunteering in hospitals. [1]",
+      "zhMarkdown": "搞清楚自己喜欢什么，听起来再简单不过了，但做起来却极难。部分原因在于，你很难看清大多数职业的真实面貌。比如，真实的医生生活根本不像电视剧里演的那样。幸运的是，你还可以去医院做志愿者，亲眼看看真实的医生是如何工作的。 [1]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "aaf925fab488901bd1af934c534b45e283b943ef334923c1d5608924208809ce",
+      "enMarkdown": "But there are other jobs you can't learn about, because no one is doing them yet. Most of the work I've done in the last ten years didn't exist when I was in high school. The world changes fast, and the rate at which it changes is itself speeding up. In such a world it's not a good idea to have fixed plans.",
+      "zhMarkdown": "但还有一些工作，你根本无从了解，因为现在还没人在做。过去十年里我做的大部分工作，在我读高中时甚至还不存在。世界变化极快，而且这种变化还在加速。在这样一个世界里，做死板的长期规划并不是个好主意。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "db4e3ce948a0c2b9546c304b9d99bbba5a77e852eddf3c1912a10149fccdc439",
+      "enMarkdown": "And yet every May, speakers all over the country fire up the Standard Graduation Speech, the theme of which is: don't give up on your dreams. I know what they mean, but this is a bad way to put it, because it implies you're supposed to be bound by some plan you made early on. The computer world has a name for this: premature optimization. And it is synonymous with disaster. These speakers would do better to say simply, don't give up.",
+      "zhMarkdown": "然而，每年五月，全国各地的毕业典礼上，演讲者们都会端出那套“标准毕业演讲”，主题无非是：不要放弃你的梦想。我明白他们的初衷，但这种表达方式很糟糕。因为它暗示着你必须被自己很早以前制定的某个计划所束缚。计算机界对这种做法有一个专门的称呼：过早优化（premature optimization）。这往往是灾难的代名词。这些演讲者其实不如直接说：不要放弃。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "9ef6fd26a634fe11913b7374b0ffcf699aa459f46221f2f425b27ecaf61be9aa",
+      "enMarkdown": "What they really mean is, don't get demoralized. Don't think that you can't do what other people can. And I agree you shouldn't underestimate your potential. People who've done great things tend to seem as if they were a race apart. And most biographies only exaggerate this illusion, partly due to the worshipful attitude biographers inevitably sink into, and partly because, knowing how the story ends, they can't help streamlining the plot till it seems like the subject's life was a matter of destiny, the mere unfolding of some innate genius. In fact I suspect if you had the sixteen year old Shakespeare or Einstein in school with you, they'd seem impressive, but not totally unlike your other friends.",
+      "zhMarkdown": "他们真正的意思是，不要气馁。不要觉得别人能做到的事情你做不到。我也同意，你不应该低估自己的潜力。那些成就了伟大事业的人，看起来就像是另一个物种。而大多数传记只会加深这种错觉。这部分是因为传记作者不可避免地会陷入崇拜的心态，另一部分是因为，作者既然知道了故事的结局，就忍不住会精简情节，让主角的一生看起来像是命中注定，仿佛只是在展现某种先天的天才。但实际上，我怀疑如果十六岁的莎士比亚或爱因斯坦和你在同一个班级，他们虽然会让你觉得很厉害，但绝不至于和你的其他朋友有天壤之别。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "b550be56ed6e4fb14c97893d7fce67e56bd3c7bad2c5ccc6c772c9b35fa5b26c",
+      "enMarkdown": "Which is an uncomfortable thought. If they were just like us, then they had to work very hard to do what they did. And that's one reason we like to believe in genius. It gives us an excuse for being lazy. If these guys were able to do what they did only because of some magic Shakespeareness or Einsteinness, then it's not our fault if we can't do something as good.",
+      "zhMarkdown": "这个想法可能会让人感到不舒服。如果他们和我们一样，那他们就必须付出极大的努力才能取得后来的成就。这就是为什么我们乐意去相信“天才”的存在——这给了我们懒惰的借口。如果那些人能做到这些，仅仅是因为他们身上有某种魔法般的“莎士比亚特质”或“爱因斯坦特质”，那么我们做不出同样伟大的事，也就不是我们的错了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "a67cefc8e386d29625184490eb7c943ef4dfd959b0c3e5010a5d7b53968c8282",
+      "enMarkdown": "I'm not saying there's no such thing as genius. But if you're trying to choose between two theories and one gives you an excuse for being lazy, the other one is probably right.",
+      "zhMarkdown": "我并不是说世上没有天才。但是，如果你在两种理论之间做选择，而其中一种刚好给了你偷懒的借口，那么另一种理论大概率才是对的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "0983b12dcf81d3da3c7488d7bbba1175a19e8280ac4e9b7615933ad5cd3ce5b9",
+      "enMarkdown": "So far we've cut the Standard Graduation Speech down from \"don't give up on your dreams\" to \"what someone else can do, you can do.\" But it needs to be cut still further. There is *some* variation in natural ability. Most people overestimate its role, but it does exist. If I were talking to a guy four feet tall whose ambition was to play in the NBA, I'd feel pretty stupid saying, you can do anything if you really try. [2]",
+      "zhMarkdown": "到目前为止，我们已经把“标准毕业演讲”从“不要放弃梦想”缩减成了“别人能做到的，你也能做到”。但这还需要进一步精简。因为天资确实存在差异。大多数人高估了天赋的作用，但它确实存在。如果我面对一个身高一米二、梦想是去打 NBA 的孩子，我还对他说“只要你努力，什么都能做到”，那我就太蠢了。 [2]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "672bf6008fb474ea62ba44321a52a67cf3177bb4f59b484e17fe423bb7650652",
+      "enMarkdown": "We need to cut the Standard Graduation Speech down to, \"what someone else with your abilities can do, you can do; and don't underestimate your abilities.\" But as so often happens, the closer you get to the truth, the messier your sentence gets. We've taken a nice, neat (but wrong) slogan, and churned it up like a mud puddle. It doesn't make a very good speech anymore. But worse still, it doesn't tell you what to do anymore. Someone with your abilities? What are your abilities?",
+      "zhMarkdown": "我们需要把标准演讲词修改为：“一个拥有你这样能力的人能做到的事，你也能做到；而且不要低估自己的能力。”但往往就是这样，越接近真理，句子就越啰唆。我们把一句漂亮、整洁（但错误）的口号，搅和得像个泥潭。它听起来不再像是一篇精彩的演讲了。更糟糕的是，它没法指导你下一步该怎么做。一个拥有你这样能力的人？那你的能力到底是什么？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "170c1ce8fc84da2952d0d2d43013ea9630c671b357bc54b04b6b6c1907d20249",
+      "enMarkdown": "**Upwind**",
+      "zhMarkdown": "**逆风执守**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "7865b40915bb89183759efd837ac315657e9f966b7415c36529a61525e4e6d2d",
+      "enMarkdown": "I think the solution is to work in the other direction. Instead of working back from a goal, work forward from promising situations. This is what most successful people actually do anyway.",
+      "zhMarkdown": "我认为解决办法是反向操作。与其从一个远期目标往回倒推，不如从眼前有前景的现状向前摸索。实际上，大多数成功人士也正是这么做的。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "e41769f6ebb0ddc4ed18599deddf67922497dcf8dcf8539eaee76b89ee6bcf8f",
+      "enMarkdown": "In the graduation-speech approach, you decide where you want to be in twenty years, and then ask: what should I do now to get there? I propose instead that you don't commit to anything in the future, but just look at the options available now, and choose those that will give you the most promising range of options afterward.",
+      "zhMarkdown": "在“毕业演讲式”的思维里，你决定好二十年后自己想成为什么样的人，然后问自己：我现在该做什么才能达到那个目标？相反，我建议你不要对未来做任何死板的承诺，只需看看眼前的选择，然后挑选那些能在未来给你带来最多、最好选择的路径。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "18845fc77ab615e145fc9bd8110c3f0164798fe1ce31c7817e647d1e53862b72",
+      "enMarkdown": "It's not so important what you work on, so long as you're not wasting your time. Work on things that interest you and increase your options, and worry later about which you'll take.",
+      "zhMarkdown": "你具体在做什么并不那么重要，只要你没有浪费时间就行。去做那些让你感兴趣、并且能增加你未来选择的事情，至于以后到底选哪条路，留给以后去担心吧。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "521525306706d07d3e1344ed22683d2d0f940a688f65533ec331f49293cb1f10",
+      "enMarkdown": "Suppose you're a college freshman deciding whether to major in math or economics. Well, math will give you more options: you can go into almost any field from math. If you major in math it will be easy to get into grad school in economics, but if you major in economics it will be hard to get into grad school in math.",
+      "zhMarkdown": "假设你是一个大一新生，正在纠结是选数学专业还是经济学专业。数学会给你带来更多的选择：从数学出发，你几乎可以进入任何领域。如果你主修数学，以后想读经济学的研究生会很容易；但如果你主修经济学，以后想读数学的研究生就会非常困难。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "355f90e56b18f855e2c4f704d58c3b5aa1fefed8fe35d6c618de4b6906ca17ec",
+      "enMarkdown": "Flying a glider is a good metaphor here. Because a glider doesn't have an engine, you can't fly into the wind without losing a lot of altitude. If you let yourself get far downwind of good places to land, your options narrow uncomfortably. As a rule you want to stay upwind. So I propose that as a replacement for \"don't give up on your dreams.\" Stay upwind.",
+      "zhMarkdown": "驾驶滑翔机是一个很好的比喻。因为滑翔机没有引擎，如果你顺风飞行，就无法在不损失大量高度的情况下逆风飞回来。如果你让自己落到好着陆点顺风方向很远的地方，你的选择空间就会急剧缩小。作为原则，你应当尽量保持在逆风方向（upwind）。因此，我建议用这句话来代替“不要放弃梦想”：保持在逆风方向。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "88acd12c884c9e80981dd71b2b158cb4a8a527edcaa100e97ecef235dc7752b8",
+      "enMarkdown": "How do you do that, though? Even if math is upwind of economics, how are you supposed to know that as a high school student?",
+      "zhMarkdown": "但具体该怎么做呢？即便数学比经济学更具“逆风”优势，一个高中生又怎么可能知道这些？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "faa60b22a3487c8c19a3808c11208da665369e3f5bbcdabb36904a26c7b56bd5",
+      "enMarkdown": "Well, you don't, and that's what you need to find out.  Look for smart people and hard problems. Smart people tend to clump together, and if you can find such a clump, it's probably worthwhile to join it. But it's not straightforward to find these, because there is a lot of faking going on.",
+      "zhMarkdown": "你确实不知道，而这正是你需要去寻找的。去寻找聪明的人和困难的问题。聪明人倾向于扎堆，如果你能找到这样一个圈子，加入进去通常是值得的。但要找到他们并不容易，因为这世上有太多滥竽充数的存在。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "2343c095eb809020a81b0fe5ef3d8acf0f31b2a188339c23633f1bbc045a799e",
+      "enMarkdown": "To a newly arrived undergraduate, all university departments look much the same. The professors all seem forbiddingly intellectual and publish papers unintelligible to outsiders. But while in some fields the papers are unintelligible because they're full of hard ideas, in others they're deliberately written in an obscure way to seem as if they're saying something important. This may seem a scandalous proposition, but it has been experimentally verified, in the famous *Social Text* affair. Suspecting that the papers published by literary theorists were often just intellectual-sounding nonsense, a physicist deliberately wrote a paper full of intellectual-sounding nonsense, and submitted it to a literary theory journal, which published it.",
+      "zhMarkdown": "对于刚入学的大一新生来说，大学里所有的系科看起来都差不多。教授们似乎都深不可测，发表的论文外行根本看不懂。然而，在某些领域，论文看不懂是因为里面充满了艰深的思考；而在另一些领域，论文写得晦涩难懂，纯粹是为了假装自己在说一些重要的事情。这听起来可能有些耸人听闻，但著名的“索卡尔事件”（Social Text affair）已经用实验证实了这一点。一位物理学家怀疑文学理论家发表的论文大多只是听起来高深莫测的废话，于是故意写了一篇充满这种废话的论文投稿给一家文学理论期刊，结果对方竟然发表了。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "bd5dc7029c238da2508cb59696ea142d960888b1af6183e5926592501fe22eec",
+      "enMarkdown": "The best protection is always to be working on hard problems. Writing novels is hard. Reading novels isn't. Hard means worry: if you're not worrying that something you're making will come out badly, or that you won't be able to understand something you're studying, then it isn't hard enough. There has to be suspense.",
+      "zhMarkdown": "最好的防范手段，就是永远去解决困难的问题。写小说很难，读小说不难。困难意味着焦虑：如果你不担心自己做出来的东西会很糟糕，或者不担心自己无法理解正在学习的知识，那么这件事情就还不够难。必须得有悬念。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "7a51397c397aae078a89cdd1ae9a6e41b3e751d38b424963054ed6ba4c16a482",
+      "enMarkdown": "Well, this seems a grim view of the world, you may think. What I'm telling you is that you should worry? Yes, but it's not as bad as it sounds. It's exhilarating to overcome worries. You don't see faces much happier than people winning gold medals. And you know why they're so happy? Relief.",
+      "zhMarkdown": "你可能会觉得，这世界也太残酷了吧。我是在劝你自寻烦恼吗？是的，但情况并没有听起来那么糟。克服焦虑是一件让人极其振奋的事情。你很少能看到比奥运金牌得主更开心的脸庞了。你知道他们为什么那么开心吗？因为如释重负。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "abf88cb39515022fc3e31ab13792993c24c8034bf614a83a3607139c99db0dad",
+      "enMarkdown": "I'm not saying this is the only way to be happy. Just that some kinds of worry are not as bad as they sound.",
+      "zhMarkdown": "我并不是说这是获得快乐的唯一途径。我只是想说，某些焦虑并没有听起来那么可怕。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "9a34357af1eb383087d02c39f532510c20169267b8a2d629392daad5a4095744",
+      "enMarkdown": "**Ambition**",
+      "zhMarkdown": "**野心**"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "762b690ad510845fdd9710882a45fcb2ec0dec93fa960cd252515f3113d47a26",
+      "enMarkdown": "In practice, \"stay upwind\" reduces to \"work on hard problems.\" And you can start today. I wish I'd grasped that in high school.",
+      "zhMarkdown": "在实践中，“保持在逆风方向”可以简化为“去解决困难的问题”。你今天就可以开始。我真希望自己上高中时就明白这个道理。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "66c6c5b84c4b655a93c553ec3477cc22dda0029ebe5b8eac88f7e3c2332a000d",
+      "enMarkdown": "Most people like to be good at what they do. In the so-called real world this need is a powerful force. But high school students rarely benefit from it, because they're given a fake thing to do. When I was in high school, I let myself believe that my job was to be a high school student. And so I let my need to be good at what I did be satisfied by merely doing well in school.",
+      "zhMarkdown": "大多数人都希望自己擅长所做的事情。在所谓的“真实世界”中，这种渴望是一股强大的驱动力。但高中生很少能从中受益，因为学校给他们安排的任务是虚假的。读高中时，我信了那套鬼话，以为自己的工作就是当好一个高中生。于是，我把“做好手头事”的渴望，廉价地满足于在学校里拿个好成绩。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "72dd74de8a2461eeb539eb5f33e570fc8837ac3f903a49e1bd8c1ca7b4e88e90",
+      "enMarkdown": "If you'd asked me in high school what the difference was between high school kids and adults, I'd have said it was that adults had to earn a living. Wrong. It's that adults take responsibility for themselves. Making a living is only a small part of it. Far more important is to take intellectual responsibility for oneself.",
+      "zhMarkdown": "如果你在高中时问我，高中生和成年人有什么区别，我会说是成年人必须自己赚钱养活自己。错了。真正的区别在于，成年人要对自己负责。谋生只是其中很小的一部分。更重要得多的，是承担起对自己智识的责任。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "dd9d5b44c96592fb47d44baeae642d4bfa53678d077b144186991e6e7a54b276",
+      "enMarkdown": "If I had to go through high school again, I'd treat it like a day job. I don't mean that I'd slack in school. Working at something as a day job doesn't mean doing it badly. It means not being defined by it. I mean I wouldn't think of myself as a high school student, just as a musician with a day job as a waiter doesn't think of himself as a waiter. [3] And when I wasn't working at my day job I'd start trying to do real work.",
+      "zhMarkdown": "如果让我重新读一遍高中，我会把它当成一份兼职（day job）。我不是说要在学校里混日子。把一件事当成兼职并不意味着要把它做得很烂，而是意味着不被它定义。我的意思是，我不会把自己仅仅看作一个高中生，就像一个兼职做服务员的音乐人不会把自己仅仅看作服务员一样。 [3] 在兼职之外的时间里，我会开始尝试做一些真正有价值的工作。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "a6bc99f9bf7002e29304a49974ade5e4c889116f418cca35e94e20c8d5d7f241",
+      "enMarkdown": "When I ask people what they regret most about high school, they nearly all say the same thing: that they wasted so much time. If you're wondering what you're doing now that you'll regret most later, that's probably it. [4]",
+      "zhMarkdown": "当我问别人高中最遗憾的事情是什么时，几乎所有人的回答都一样：浪费了太多时间。如果你想知道自己现在做的什么事以后会最让你后悔，大概就是这个。 [4]"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "6460d688231cf899e00c79d16cf568f6dd4ee67d46dc63966ed63cb64e847ac6",
+      "enMarkdown": "Some people say this is inevitable — that high school students aren't capable of getting anything done yet. But I don't think this is true. And the proof is that you're bored. You probably weren't bored when you were eight. When you're eight it's called \"playing\" instead of \"hanging out,\" but it's the same thing. And when I was eight, I was rarely bored. Give me a back yard and a few other kids and I could play all day.",
+      "zhMarkdown": "有人说这是不可避免的——高中生还太年轻，什么都做不成。但我认为这不对。最好的证据就是你感到无聊。你八岁的时候大概不会觉得无聊。八岁时的“闲逛”其实就是“玩耍”，性质是一样的。我八岁的时候很少觉得无聊，给我一个后院和几个别的小孩，我能玩上一整天。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "d726032c01a4b8ff685b551504d43e8de53c7e5d356cb8b62590ae60dabc6ac2",
+      "enMarkdown": "The reason this got stale in middle school and high school, I now realize, is that I was ready for something else. Childhood was getting old.",
+      "zhMarkdown": "我现在才明白，这种无聊感在初中和高中变得明显，是因为我已经准备好去做别的事了。童年已经无法再满足我了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "185fd19eb2a0820ae1bfcdc7c6ce8b42a14f048b9ec0077b729a7cb785cc9431",
+      "enMarkdown": "I'm not saying you shouldn't hang out with your friends — that you should all become humorless little robots who do nothing but work. Hanging out with friends is like chocolate cake. You enjoy it more if you eat it occasionally than if you eat nothing but chocolate cake for every meal. No matter how much you like chocolate cake, you'll be pretty queasy after the third meal of it. And that's what the malaise one feels in high school is: mental queasiness. [5]",
+      "zhMarkdown": "我不是说你不应该和朋友一起出去玩，也不是说你们都应该变成毫无幽默感、只会工作的机器人。和朋友闲逛就像吃巧克力蛋糕。偶尔吃一次会觉得很享受，但如果顿顿只吃巧克力蛋糕，无论你多喜欢它，到了第三顿也会觉得恶心。你在高中时感受到的那种无所事事、烦躁不安，其实就是这种精神上的“反胃”。 [5]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "e7ce205c42efcb8dac0995c04279b07fb84e3eb673575deadc73cfdcdc12200e",
+      "enMarkdown": "You may be thinking, we have to do more than get good grades. We have to have *extracurricular activities.* But you know perfectly well how bogus most of these are. Collecting donations for a charity is an admirable thing to do, but it's not *hard.* It's not getting something done. What I mean by getting something done is learning how to write well, or how to program computers, or what life was really like in preindustrial societies, or how to draw the human face from life. This sort of thing rarely translates into a line item on a college application.",
+      "zhMarkdown": "你可能会想，我们除了拿好成绩，还得参加“课外活动”啊。但你心里很清楚这些活动有多假。为慈善机构募捐确实令人钦佩，但这并不“难”。这算不上真正“做成一件事”。我所说的“做成一件事”，是指学会写一手好文章、学会写代码、弄清楚前工业时代的生活到底是什么样子，或者学会对着实物画出人脸。这种事情很少能直接转化为大学申请表上的一个加分项。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "1a78cf931522b072d451db2e834940c612770d86ee563e931b429afc051c1f30",
+      "enMarkdown": "**Corruption**",
+      "zhMarkdown": "**腐蚀**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "262dfe67cbe6703a8eefb729c0a392bd4ff1af1b72d518db878d322d8c2a14b7",
+      "enMarkdown": "It's dangerous to design your life around getting into college, because the people you have to impress to get into college are not a very discerning audience. At most colleges, it's not the professors who decide whether you get in, but admissions officers, and they are nowhere near as smart. They're the NCOs of the intellectual world. They can't tell how smart you are. The mere existence of prep schools is proof of that.",
+      "zhMarkdown": "把人生建立在“考上好大学”的基础上是危险的，因为你为了升学而去取悦的那帮人，并不是什么有眼光的观众。在大多数大学里，决定你是否被录取的并不是教授，而是招生办的官员，他们可远没有教授那么聪明。他们是智识世界的士官生，根本看不出你有多聪明。私立预科学校（prep schools）的存在就是最好的证明。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "57bc6acb18f9eff356dd04d71b0e73c9edb6f8fa5c8137312afe5fd9f6180ee0",
+      "enMarkdown": "Few parents would pay so much for their kids to go to a school that didn't improve their admissions prospects. Prep schools openly say this is one of their aims. But what that means, if you stop to think about it, is that they can hack the admissions process: that they can take the very same kid and make him seem a more appealing candidate than he would if he went to the local public school. [6]",
+      "zhMarkdown": "如果一所学校不能提高孩子的录取概率，很少有家长愿意花大价钱送孩子去读。预科学校也公开承认这是他们的目标之一。但仔细想想，这意味着他们可以“黑”进招生流程：他们能让同一个孩子，看起来比在当地公立学校时更像一个优秀的候选人。 [6]"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "d87d3f29ebf3de7270802cbb5bd7a50855c9c0dda7beb3f146f587d0d3be9f3a",
+      "enMarkdown": "Right now most of you feel your job in life is to be a promising college applicant. But that means you're designing your life to satisfy a process so mindless that there's a whole industry devoted to subverting it. No wonder you become cynical. The malaise you feel is the same that a producer of reality TV shows or a tobacco industry executive feels. And you don't even get paid a lot.",
+      "zhMarkdown": "现在，你们大多数人觉得人生的任务就是成为一个有前途的大学申请者。但这意味着你是在为了迎合一个极其愚蠢的流程来规划自己的人生，以至于诞生了专门颠覆这个流程的庞大行业。难怪你会变得愤世嫉俗。你所感受到的那种空虚和厌倦，和真人秀导演或烟草公司高管的感受是一样的。而且，你甚至还没拿到高薪。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "d857682a9825569ba3ad2a4a0f847fc655900d79ed8cf996173f5a5bdf69983e",
+      "enMarkdown": "So what do you do? What you should not do is rebel. That's what I did, and it was a mistake. I didn't realize exactly what was happening to us, but I smelled a major rat. And so I just gave up. Obviously the world sucked, so why bother?",
+      "zhMarkdown": "那么该怎么办？你不应该去叛逆。我当年就是这么干的，那是个错误。当时我没完全弄明白发生了什么，但我闻到了其中阴谋的味道。于是我直接放弃了。既然这个世界这么烂，那还努力个什么劲？"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "5e29dbda0f053f585a4f6a4c3147e21fe980a82d5f0d4dc7ce7158b1c550bac0",
+      "enMarkdown": "When I discovered that one of our teachers was herself using Cliff's Notes, it seemed par for the course. Surely it meant nothing to get a good grade in such a class.",
+      "zhMarkdown": "当我发现我们的一位老师自己都在用课后辅导简报（Cliff's Notes）时，我觉得一切都太荒谬了。在这种课上拿个好成绩显然毫无意义。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "992cd492db4d204b77f36bb8b203ab7088759e34c962022cd4b7967943331f15",
+      "enMarkdown": "In retrospect this was stupid. It was like someone getting fouled in a soccer game and saying, hey, you fouled me, that's against the rules, and walking off the field in indignation. Fouls happen. The thing to do when you get fouled is not to lose your cool. Just keep playing.",
+      "zhMarkdown": "现在回想起来，这种做法很愚蠢。这就像有人在足球比赛中被绊倒了，然后说：“嘿，你犯规了，这违反了规则！”然后愤而退场。犯规总会发生。被犯规时，你要做的不是大发雷霆，而是继续踢球。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "889400fef515763bb7d434beb88e917a99d0382cfb4463b154564be0f2f7de98",
+      "enMarkdown": "By putting you in this situation, society has fouled you. Yes, as you suspect, a lot of the stuff you learn in your classes is crap. And yes, as you suspect, the college admissions process is largely a charade. But like many fouls, this one was unintentional. [7] So just keep playing.",
+      "zhMarkdown": "社会把你放在这个境地，确实对你犯规了。是的，正如你所怀疑的，你在课堂上学到的很多东西都是垃圾。是的，正如你所怀疑的，大学录取过程很大程度上是一场闹剧。但就像许多犯规一样，这也是无意的。 [7] 所以，继续踢球吧。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "2f08ac38d65a774023d02e5710af16b72565177847299d43dc7ec7d050b8fc23",
+      "enMarkdown": "Rebellion is almost as stupid as obedience. In either case you let yourself be defined by what they tell you to do. The best plan, I think, is to step onto an orthogonal vector. Don't just do what they tell you, and don't just refuse to. Instead treat school as a day job. As day jobs go, it's pretty sweet. You're done at 3 o'clock, and you can even work on your own stuff while you're there.",
+      "zhMarkdown": "叛逆和盲从一样愚蠢。在这两种情况下，你都是在让别人来定义你。我认为最好的策略是走向一个正交的维度（orthogonal vector）。既不要盲从，也不要简单地拒绝。相反，把学校当成一份兼职。作为兼职来说，它其实相当不错。你下午三点就下班了，甚至在学校里的时候，你就可以做自己的事情。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "eda28d160e33184fa697867c1826c1a1633391655d9e7756dfe51c5b8fe0b5b5",
+      "enMarkdown": "**Curiosity**",
+      "zhMarkdown": "**好奇心**"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "786e1ea4309111bdb103f04711d50e41aedd1dc3f567e6f23adc0b472b0a2772",
+      "enMarkdown": "And what's your real job supposed to be? Unless you're Mozart, your first task is to figure that out. What are the great things to work on? Where are the imaginative people? And most importantly, what are you interested in? The word \"aptitude\" is misleading, because it implies something innate. The most powerful sort of aptitude is a consuming interest in some question, and such interests are often acquired tastes.",
+      "zhMarkdown": "那么，你真正的工作应该是什么？除非你是莫扎特，否则你的首要任务就是去弄清楚这一点。有哪些伟大的事情值得去做？富有想象力的人都在哪里？最重要的是，你对什么感兴趣？“天赋”（aptitude）这个词容易让人产生误解，因为它暗示着某种先天的东西。最强大的天赋，其实是对某个问题产生极其浓厚的兴趣，而这种兴趣往往是后天培养出来的。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "18f6939527ff9a8eb47d3c216ba41dc57908160ed419ca3a8de6f6a37d1bc693",
+      "enMarkdown": "A distorted version of this idea has filtered into popular culture under the name \"passion.\" I recently saw an ad for waiters saying they wanted people with a \"passion for service.\" The real thing is not something one could have for waiting on tables. And passion is a bad word for it. A better name would be curiosity.",
+      "zhMarkdown": "这种观念被扭曲后，以“激情”（passion）的名字渗入了大众文化。我最近看到一个招聘服务员的广告，说他们想要寻找对“服务充满激情”的人。但对端盘子产生激情，显然是不现实的。而且“激情”这个词用得不好，更好的词应该是“好奇心”。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "3614ae53f02c67ecac5d3b9533f95ccb2e498bf778962b3ee8b85df0dc07bb67",
+      "enMarkdown": "Kids are curious, but the curiosity I mean has a different shape from kid curiosity. Kid curiosity is broad and shallow; they ask why at random about everything. In most adults this curiosity dries up entirely. It has to: you can't get anything done if you're always asking why about everything. But in ambitious adults, instead of drying up, curiosity becomes narrow and deep. The mud flat morphs into a well.",
+      "zhMarkdown": "小孩子都有好奇心，但我所说的好奇心和孩子的截然不同。小孩子的好奇心是宽而浅的，他们会随机地对所有事情问为什么。在大多数成年人身上，这种好奇心完全枯竭了。这也难怪：如果你总是对所有事情刨根问底，你就什么也干不成。但在有野心的成年人身上，好奇心并没有枯竭，而是变得窄而深。泥滩变成了一口深井。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "cd7ffee07ad1c313f6a98dbf29452b0f2c7caa9b05a0fc959850f570f299ecd8",
+      "enMarkdown": "Curiosity turns work into play. For Einstein, relativity wasn't a book full of hard stuff he had to learn for an exam. It was a mystery he was trying to solve. So it probably felt like less work to him to invent it than it would seem to someone now to learn it in a class.",
+      "zhMarkdown": "好奇心能把工作变成玩耍。对爱因斯坦来说，相对论不是一本为了考试而不得不死记硬背的、写满艰深公式的书，而是一个他试图解开的谜团。因此，对他来说，创造相对论所付出的脑力劳动，可能比现在一个学生在课堂上学习它还要轻松。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "5cfaabc7a29d3ab502a9328134084aed7124910ed433a17f45d9b3f3ab08decb",
+      "enMarkdown": "One of the most dangerous illusions you get from school is the idea that doing great things requires a lot of discipline. Most subjects are taught in such a boring way that it's only by discipline that you can flog yourself through them. So I was surprised when, early in college, I read a quote by Wittgenstein saying that he had no self-discipline and had never been able to deny himself anything, not even a cup of coffee.",
+      "zhMarkdown": "学校给你带来的最危险的错觉之一，就是认为成就伟业需要极大的自律。大多数学科的教学方式都极其枯燥，你只能靠自律强迫自己学下去。因此，当我上大学时，读到维特根斯坦的一句话时感到非常惊讶，他说自己毫无自律，从来无法拒绝自己的任何欲望，甚至连一杯咖啡都拒绝不了。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "53df9e32629f03d32019465092cd224c7ecf3b790c819bafc5acda9963618ff6",
+      "enMarkdown": "Now I know a number of people who do great work, and it's the same with all of them. They have little discipline. They're all terrible procrastinators and find it almost impossible to make themselves do anything they're not interested in. One still hasn't sent out his half of the thank-you notes from his wedding, four years ago. Another has 26,000 emails in her inbox.",
+      "zhMarkdown": "现在我认识许多做出伟大工作的人，他们也是一样。他们几乎没有自律。他们都是严重的拖延症患者，几乎无法强迫自己去做任何不感兴趣的事情。有一个人直到今天还没发出四年前婚礼上的感谢信；另一个人的收件箱里堆着 26,000 封未读邮件。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "af5f297634c1c4d3b28b856bfbbaa5b62986fa125349b221d6069903ebe2bc6a",
+      "enMarkdown": "I'm not saying you can get away with zero self-discipline. You probably need about the amount you need to go running. I'm often reluctant to go running, but once I do, I enjoy it. And if I don't run for several days, I feel ill. It's the same with people who do great things. They know they'll feel bad if they don't work, and they have enough discipline to get themselves to their desks to start working. But once they get started, interest takes over, and discipline is no longer necessary.",
+      "zhMarkdown": "我不是说你可以完全不需要自律。你大概需要像坚持跑步那样的一点点自律。我经常懒得去跑步，但一旦跑起来，我就会很享受。如果我好几天不跑步，就会觉得浑身不舒服。那些成就伟业的人也是如此。他们知道如果不工作自己会感觉很糟，而且他们有足够的自律走到书桌前开始工作。但一旦开始，兴趣就会接管一切，自律也就不再需要了。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "f4bb681c069dc36d4f1746dda2b7a32cc202fd186e7a2d41370e0eda7ee2f17a",
+      "enMarkdown": "Do you think Shakespeare was gritting his teeth and diligently trying to write Great Literature? Of course not. He was having fun. That's why he's so good.",
+      "zhMarkdown": "你觉得莎士比亚当年是咬紧牙关、兢兢业业地试图写出“伟大的文学作品”吗？当然不是。他玩得很开心。这就是为什么他能写得那么好。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "7f4bf6ec60ea376f9d5e7bbf0bf4d5d87bee965152f266cb9955c79e689bddfc",
+      "enMarkdown": "If you want to do good work, what you need is a great curiosity about a promising question. The critical moment for Einstein was when he looked at Maxwell's equations and said, what the hell is going on here?",
+      "zhMarkdown": "如果你想做出优秀的成果，你需要的是对一个有前景的问题保持极大的好奇心。对爱因斯坦来说，最关键的时刻是他看着麦克斯韦方程组，心里想：“这到底是怎么回事？”"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "4ec2103f158d0924abe7fde331889d250426c74f16f67553de9a1d6c8d28baa2",
+      "enMarkdown": "It can take years to zero in on a productive question, because it can take years to figure out what a subject is really about. To take an extreme example, consider math. Most people think they hate math, but the boring stuff you do in school under the name \"mathematics\" is not at all like what mathematicians do.",
+      "zhMarkdown": "要锁定一个有价值的问题可能需要很多年，因为弄清一个学科的核心内容本身就需要时间。举个极端的例子：数学。大多数人觉得自己讨厌数学，但你在学校里学到的、被称为“数学”的那些枯燥东西，根本不是数学家真正做的事情。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "cff157ddaff5f36d3b33f4aace8762e6331d2a2513769788b2cd9b7c6f301c16",
+      "enMarkdown": "The great mathematician G. H. Hardy said he didn't like math in high school either. He only took it up because he was better at it than the other students. Only later did he realize math was interesting — only later did he start to ask questions instead of merely answering them correctly.",
+      "zhMarkdown": "伟大的数学家哈代（G. H. Hardy）曾说过，他上高中时也不喜欢数学。他学数学只是因为他比其他学生更擅长。直到后来他才意识到数学是有趣的——直到后来，他才开始主动提出问题，而不仅仅是给出正确答案。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "7f37f5b7411ddecfd70e936079a7073f560a54684837f7dd6c80104e90022513",
+      "enMarkdown": "When a friend of mine used to grumble because he had to write a paper for school, his mother would tell him: find a way to make it interesting. That's what you need to do: find a question that makes the world interesting. People who do great things look at the same world everyone else does, but notice some odd detail that's compellingly mysterious.",
+      "zhMarkdown": "我有一个朋友，以前常因为要写学校作业而抱怨，他母亲总是告诉他：“想办法把它变得有趣。”这正是你需要做的：寻找一个让世界变得有趣的问题。那些成就伟业的人和大家看着同一个世界，但他们能注意到某些令人着迷、充满神秘感的奇特细节。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "938a17a1b8052275f3f65a8d9ac681bf612a01efe61bf67bc82ae80195e44664",
+      "enMarkdown": "And not only in intellectual matters. Henry Ford's great question was, why do cars have to be a luxury item? What would happen if you treated them as a commodity? Franz Beckenbauer's was, in effect, why does everyone have to stay in his position? Why can't defenders score goals too?",
+      "zhMarkdown": "这不仅限于学术领域。亨利·福特的核心问题是：“为什么汽车必须是奢侈品？如果把它当成大众商品会怎么样？”弗朗茨·贝肯鲍尔的核心问题则是：“为什么每个人都必须死守自己的位置？为什么防守队员不能进球？”"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "4467a2b76e8bafa8d1d1d644ddd19df7d3da764913b652ab661f59ae9eb2a887",
+      "enMarkdown": "**Now**",
+      "zhMarkdown": "**当下**"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "4b50eb0ff7704ecb9c3a9abeb2c7595957b641ce0e79164c995779688c0682f4",
+      "enMarkdown": "If it takes years to articulate great questions, what do you do now, at sixteen? Work toward finding one. Great questions don't appear suddenly. They gradually congeal in your head. And what makes them congeal is experience. So the way to find great questions is not to search for them — not to wander about thinking, what great discovery shall I make? You can't answer that; if you could, you'd have made it.",
+      "zhMarkdown": "如果需要很多年才能理清一个伟大的问题，那么现在十六岁的你能做什么？朝着寻找这个问题的方向努力。伟大的问题不会凭空出现，它们是在你脑海中逐渐凝聚出来的。而促成它们凝聚的是经验。因此，寻找伟大问题的方法不是刻意搜寻——不是整天瞎琢磨“我要做出什么伟大的发现？”你回答不了这个问题；如果你能，你早就做出来了。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "5a9b92b4adcc3f03576b8f23784bb535af65dd990c66be2e307f29e7375c1186",
+      "enMarkdown": "The way to get a big idea to appear in your head is not to hunt for big ideas, but to put in a lot of time on work that interests you, and in the process keep your mind open enough that a big idea can take roost. Einstein, Ford, and Beckenbauer all used this recipe. They all knew their work like a piano player knows the keys. So when something seemed amiss to them, they had the confidence to notice it.",
+      "zhMarkdown": "让伟大想法在脑海中浮现的方法，不是去猎取大想法，而是把大量时间花在让你感兴趣的工作上。在这个过程中，保持开放的心态，让伟大的想法有落脚之地。爱因斯坦、福特和贝肯鲍尔都用了这个秘诀。他们熟悉自己的工作，就像钢琴家熟悉琴键一样。因此，当他们发现有些不对劲时，他们有信心注意到它。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "ce266726a3e201eb8722c272bdd20f4b0c868d797d3489aebda8920f123ed559",
+      "enMarkdown": "Put in time how and on what? Just pick a project that seems interesting: to master some chunk of material, or to make something, or to answer some question. Choose a project that will take less than a month, and make it something you have the means to finish. Do something hard enough to stretch you, but only just, especially at first. If you're deciding between two projects, choose whichever seems most fun. If one blows up in your face, start another. Repeat till, like an internal combustion engine, the process becomes self-sustaining, and each project generates the next one. (This could take years.)",
+      "zhMarkdown": "那么，该如何投入时间，在什么事情上投入？挑选一个看起来有趣的具体项目：掌握某方面的知识、动手做个东西，或者解答某个问题。选择一个能在不到一个月内完成的项目，并且确保你手头有资源去完成它。做一些难到需要你拼一把、但又刚刚好能完成的事情，尤其是刚开始的时候。如果你在两个项目之间纠结，选择那个看起来更有趣的。如果一个项目搞砸了，就换另一个。重复这个过程，直到它像内燃机一样开始自我运转，每个项目都能催生下一个项目。（这可能需要数年时间。）"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "ad0d24f1188bbacb8c44d9d6f06befba7fb2df9010b78f90666f89166c06862e",
+      "enMarkdown": "It may be just as well not to do a project \"for school,\" if that will restrict you or make it seem like work. Involve your friends if you want, but not too many, and only if they're not flakes. Friends offer moral support (few startups are started by one person), but secrecy also has its advantages. There's something pleasing about a secret project. And you can take more risks, because no one will know if you fail.",
+      "zhMarkdown": "最好不要做“为了学校”的项目，如果那会限制你，或者让它感觉像是一份差事。如果你愿意，可以叫上朋友，但不要太多，而且必须是靠谱的人。朋友可以提供精神支持（很少有创业公司是靠一个人创办的），但保持神秘也有其好处。做一个秘密项目有一种独特的乐趣。而且你可以承担更多风险，因为如果失败了，也没人会知道。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "171bef0f4558599bff8633837c2f16257780b90676fdc71086654ace87315e33",
+      "enMarkdown": "Don't worry if a project doesn't seem to be on the path to some goal you're supposed to have. Paths can bend a lot more than you think. So let the path grow out the project. The most important thing is to be excited about it, because it's by doing that you learn.",
+      "zhMarkdown": "如果一个项目看起来并没有通往你被期许的某个目标，不要担心。人生的道路比你想象的要曲折得多。让道路从项目中生长出来。最重要的是保持兴奋，因为只有在实践中你才能真正学到东西。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "7e4726acb8fcaa8b7f104a5e1a96ca4653a2f9866b8716e84d3aeae3574913de",
+      "enMarkdown": "Don't disregard unseemly motivations. One of the most powerful is the desire to be better than other people at something. Hardy said that's what got him started, and I think the only unusual thing about him is that he admitted it. Another powerful motivator is the desire to do, or know, things you're not supposed to. Closely related is the desire to do something audacious. Sixteen year olds aren't supposed to write novels. So if you try, anything you achieve is on the plus side of the ledger; if you fail utterly, you're doing no worse than expectations. [8]",
+      "zhMarkdown": "不要忽视那些看似“不体面”的动力。其中最强大的动力之一，就是渴望在某件事上比别人做得更好。哈代说这就是他起步的动力，我觉得他唯一特殊的地方在于他承认了这一点。另一个强大的动力是渴望去做或去了解那些你“不应该”接触的事情。与之密切相关的是渴望做一些大胆的事。十六岁的孩子是不应该写小说的。所以如果你去尝试，任何成果都是白赚的；即便彻底失败，也只是符合了大家的预期。 [8]"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "5cc7802e23408b4fc9912204c2a9cdd21137ad8279bdd60d74c7096d72bd30f8",
+      "enMarkdown": "Beware of bad models. Especially when they excuse laziness. When I was in high school I used to write \"existentialist\" short stories like ones I'd seen by famous writers. My stories didn't have a lot of plot, but they were very deep. And they were less work to write than entertaining ones would have been. I should have known that was a danger sign. And in fact I found my stories pretty boring; what excited me was the idea of writing serious, intellectual stuff like the famous writers.",
+      "zhMarkdown": "警惕糟糕的榜样。尤其是那些给懒惰找借口的榜样。我读高中时，曾模仿一些名家写过“存在主义”短篇小说。我的故事没什么情节，但显得“非常深刻”。而且写这种故事，可比写一个有趣的、引人入胜的故事要省力得多。我本该意识到这是个危险信号。事实上，我自己也觉得那些故事挺无聊的；当时让我兴奋的，只是假装自己像名家一样，在写一些严肃、深刻的智识作品。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "df511c67b2f6f2c84b98f5bff18971323770b9872d6a860c7b42cfa6ed34b539",
+      "enMarkdown": "Now I have enough experience to realize that those famous writers actually sucked. Plenty of famous people do; in the short term, the quality of one's work is only a small component of fame. I should have been less worried about doing something that seemed cool, and just done something I liked. That's the actual road to coolness anyway.",
+      "zhMarkdown": "现在我有了足够的经验，意识到那些名家其实写得很烂。很多名人都是如此。短期来看，一个人作品的质量只是名气中很小的一个组成部分。我当年不该那么在意外表看起来酷不酷，而应该直接做自己喜欢的事。其实，这才是通往“酷”的真正途径。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "360631c8c257d487c3e54a0f30ff3c823c8263b725f25ec93602134a33a8e0bb",
+      "enMarkdown": "A key ingredient in many projects, almost a project on its own, is to find good books. Most books are bad. Nearly all textbooks are bad. [9] So don't assume a subject is to be learned from whatever book on it happens to be closest. You have to search actively for the tiny number of good books.",
+      "zhMarkdown": "在许多项目中，一个关键的环节——甚至它本身就可以算作一个项目——就是寻找好书。大多数书都很烂，几乎所有的教科书都很烂。 [9] 所以，不要以为要学习一个学科，随便拿手边最近的哪本书看就行。你必须主动去寻找那极少数的好书。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "798e1e41a76eeabea248d9440b50dc88d3b7d89b57f404acc0448775a6f486a6",
+      "enMarkdown": "The important thing is to get out there and do stuff. Instead of waiting to be taught, go out and learn.",
+      "zhMarkdown": "最重要的事情是走出去，动手做。与其等待被教授，不如主动去学习。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "094667da987b17a276cb7a3c2aabc71de1f915b38902d599b592150ea7b49570",
+      "enMarkdown": "Your life doesn't have to be shaped by admissions officers. It could be shaped by your own curiosity. It is for all ambitious adults. And you don't have to wait to start. In fact, you don't have to wait to be an adult. There's no switch inside you that magically flips when you turn a certain age or graduate from some institution. You start being an adult when you decide to take responsibility for your life. You can do that at any age. [10]",
+      "zhMarkdown": "你的人生不必由招生官来塑造，而是可以由你自己的好奇心来塑造。所有有抱负的成年人都是如此。你不需要等到以后才开始。事实上，你不需要等到成年。你体内并没有一个神奇的开关，会在你到了某个特定年龄或从某个学校毕业时突然开启。当你决定对自己的生命负责的那一刻起，你就开始成为一个成年人了。你可以在任何年龄做出这个决定。 [10]"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "998661345c669efc807ffcdfbc13d104bfe680bcec26c0ea97a9e76ce2f8f36d",
+      "enMarkdown": "This may sound like bullshit. I'm just a minor, you may think, I have no money, I have to live at home, I have to do what adults tell me all day long. Well, most adults labor under restrictions just as cumbersome, and they manage to get things done. If you think it's restrictive being a kid, imagine having kids.",
+      "zhMarkdown": "这听起来可能像是在灌鸡汤。你可能会想：“我只是个未成年人，没有钱，必须住在家里，整天都得听大人的话。”其实，大多数成年人也承受着同样繁重的限制，但他们依然做成了事情。如果你觉得当小孩受限制，想象一下自己有了小孩之后的生活吧。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "bf26c33cf088a837672ce7738d5a300aef912047ba750ea705ae3fa7ae825950",
+      "enMarkdown": "The only real difference between adults and high school kids is that adults realize they need to get things done, and high school kids don't. That realization hits most people around 23. But I'm letting you in on the secret early. So get to work. Maybe you can be the first generation whose greatest regret from high school isn't how much time you wasted.",
+      "zhMarkdown": "成年人和高中生之间唯一的真正区别在于，成年人意识到他们需要做成事情，而高中生还没有。大多数人在 23 岁左右才会意识到这一点。但我现在就把这个秘密提前告诉你了。所以，开始干活吧。也许你们能成为第一代在回首高中时，最遗憾的事不再是“浪费了太多时间”的人。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "884728dfdbdbeba29a77ff32c14967391143338ae20dd6b3778864d6615fb64c",
+      "enMarkdown": "[1] A doctor friend warns that even this can give an inaccurate picture. \"Who knew how much time it would take up, how little autonomy one would have for endless years of training, and how unbelievably annoying it is to carry a beeper?\"",
+      "zhMarkdown": "[1] 一位医生朋友警告说，即便做志愿者也可能产生误判。“谁能想到学医要花那么多时间，在漫长的培训岁月里几乎没有自主权，而且整天带着传呼机是多么令人难以置信的烦人？”"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "7d2ec73b565d9110e9c2530c93cff1cab1c78e04de771d8887078557914dd5ca",
+      "enMarkdown": "[2] His best bet would probably be to become dictator and intimidate the NBA into letting him play. So far the closest anyone has come is Secretary of Labor.",
+      "zhMarkdown": "[2] 他最好的出路大概是成为独裁者，然后威胁 NBA 让他上场。到目前为止，最接近这一步的人是劳工部长。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "02aa07dbc26434bc3839f1e15409887874a17ed8c464a2d452859a3cb816c6b9",
+      "enMarkdown": "[3] A day job is one you take to pay the bills so you can do what you really want, like play in a band, or invent relativity.",
+      "zhMarkdown": "[3] 兼职（day job）是指你为了维持生计而做的工作，这样你才能在业余时间做你真正想做的事，比如在乐队里演奏，或者发明相对论。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "ad142fd3410ea46792e17e23bc991f725bb2d50d8e5e3efb97f6ab80f0c11b67",
+      "enMarkdown": "Treating high school as a day job might actually make it easier for some students to get good grades. If you treat your classes as a game, you won't be demoralized if they seem pointless.",
+      "zhMarkdown": "把高中当成一份兼职，实际上可能更容易让一些学生拿到好成绩。如果你把上课当成一场游戏，即使课程看起来毫无意义，你也不会因此而感到气馁。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "13600a003a57a6987e87d7c43af7dc7f6403273fb526c6d4396f7e765bc58217",
+      "enMarkdown": "However bad your classes, you need to get good grades in them to get into a decent college. And that *is* worth doing, because universities are where a lot of the clumps of smart people are these days.",
+      "zhMarkdown": "无论你的课有多烂，你都需要拿到好成绩才能进入一所不错的大学。这*是*值得去做的，因为大学是如今许多聪明人扎堆的地方。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "f7ae96366bbb05873ce5c8991cdb97e6e7975bf3afc708f1cf393986be645cbd",
+      "enMarkdown": "[4] The second biggest regret was caring so much about unimportant things. And especially about what other people thought of them.",
+      "zhMarkdown": "[4] 第二大遗憾是过于在意无关紧要的事情。尤其是别人对自己的看法。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "e395fa1a3a2f2593d93a2061b757ae7dc16b895f0567f955dfb919de9b776a33",
+      "enMarkdown": "I think what they really mean, in the latter case, is caring what random people thought of them. Adults care just as much what other people think, but they get to be more selective about the other people.",
+      "zhMarkdown": "我认为在后一种情况下，他们真正的意思是介意无关紧要的陌生人对自己的看法。成年人同样在乎别人的看法，但他们可以更加挑剔地选择要在乎谁的看法。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "7559d84aeb50081e3a307aba107b8c9866daab71eb8aed90e112ab9dd5f6f3b4",
+      "enMarkdown": "I have about thirty friends whose opinions I care about, and the opinion of the rest of the world barely affects me. The problem in high school is that your peers are chosen for you by accidents of age and geography, rather than by you based on respect for their judgement.",
+      "zhMarkdown": "我有大约三十个朋友，我只在乎他们的看法，而世界上其他人的看法几乎影响不到我。高中的问题在于，你的同龄人是根据年龄和地理位置被随机分配给你的，而不是由你根据对他们判断力的尊重主动选择的。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "3d25c46be29f597122c12e906a8c37d2bb35758327f700d53ebaba528be3acfe",
+      "enMarkdown": "[5] The key to wasting time is distraction. Without distractions it's too obvious to your brain that you're not doing anything with it, and you start to feel uncomfortable. If you want to measure how dependent you've become on distractions, try this experiment: set aside a chunk of time on a weekend and sit alone and think. You can have a notebook to write your thoughts down in, but nothing else: no friends, TV, music, phone, IM, email, Web, games, books, newspapers, or magazines. Within an hour most people will feel a strong craving for distraction.",
+      "zhMarkdown": "[5] 浪费时间的秘诀在于分心。如果没有消遣让你分心，你的大脑就会敏锐地意识到你正无所事事，你就会开始感到不舒服。如果你想测试自己对消遣的分心依赖到了什么程度，可以做这个实验：在周末抽出一段时间，独自坐着思考。你可以准备一个笔记本记录想法，但不能有其他任何东西：没有朋友、电视、音乐、手机、即时通讯、电子邮件、网页、游戏、书籍、报纸或杂志。不到一个小时，大多数人就会产生强烈的寻找消遣的渴望。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "9dcdefeb2947fbe0ccbaef50870f47f9de448c2864b0828a695c4309e3fd08b1",
+      "enMarkdown": "[6] I don't mean to imply that the only function of prep schools is to trick admissions officers. They also generally provide a better education. But try this thought experiment: suppose prep schools supplied the same superior education but had a tiny (.001) negative effect on college admissions. How many parents would still send their kids to them?",
+      "zhMarkdown": "[6] 我并不是说预科学校的唯一功能就是欺骗招生官。它们通常也提供更好的教育。但试想这样一个思想实验：假设预科学校提供了同样优越的教育，但对大学录取有微弱的负面影响（比如 -0.001）。还会有多少家长送孩子去读？"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "960bfa8c69578ad52aa986f776c122e642f1d74bcd9aa7a729cf13b5805bece1",
+      "enMarkdown": "It might also be argued that kids who went to prep schools, because they've learned more, *are* better college candidates. But this seems empirically false. What you learn in even the best high school is rounding error compared to what you learn in college. Public school kids arrive at college with a slight disadvantage, but they start to pull ahead in the sophomore year.",
+      "zhMarkdown": "也有人可能会说，上过预科学校的孩子，因为学到的东西更多，*确实*是更好的大学候选人。但这在经验层面上似乎是错误的。即便在最好的高中，你学到的东西与大学里学到的相比也只是四舍五入的误差。公立学校的孩子刚进大学时可能略显劣势，但到了大二，他们就开始反超了。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "ec93a6ce3b1c1b4f1e626ca366b63214f2be455903c68b5f28665dd63ccb324c",
+      "enMarkdown": "(I'm not saying public school kids are smarter than preppies, just that they are within any given college. That follows necessarily if you agree prep schools improve kids' admissions prospects.)",
+      "zhMarkdown": "（我并不是说公立学校的学生比预科生更聪明，而是说在同一所大学内部是这样的。如果你同意预科学校提高了孩子的录取概率，那么这必然是逻辑上的结论。）"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "3b5edd68b66a38de273832de78771083e0087e32be5254c903d4ac9366b4d58d",
+      "enMarkdown": "[7] Why does society foul you? Indifference, mainly. There are simply no outside forces pushing high school to be good. The air traffic control system works because planes would crash otherwise. Businesses have to deliver because otherwise competitors would take their customers. But no planes crash if your school sucks, and it has no competitors. High school isn't evil; it's random; but random is pretty bad.",
+      "zhMarkdown": "[7] 为什么社会会对你犯规？主要是因为冷漠。根本没有外部力量推动高中变得更好。空中交通管制系统之所以有效，是因为否则飞机就会坠毁。企业必须提供好产品，否则竞争对手就会抢走客户。但即使你的学校很烂，也不会有飞机坠毁，而且它没有竞争对手。高中并不是邪恶的，它是随机的；但随机本身就已经够糟糕了。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "849188e6b2325682ef925930e60900bff6119a11ac45efc486b916d122b22573",
+      "enMarkdown": "[8] And then of course there is money. It's not a big factor in high school, because you can't do much that anyone wants. But a lot of great things were created mainly to make money. Samuel Johnson said \"no man but a blockhead ever wrote except for money.\" (Many hope he was exaggerating.)",
+      "zhMarkdown": "[8] 当然，还有钱的因素。在高中阶段这并不是一个大因素，因为你做不出太多别人想要的东西。但许多伟大的事物创造出来主要是为了赚钱。塞缪尔·约翰逊说：“除了傻子，没有人不是为了钱而写作的。”（许多人希望他只是在夸大其词。）"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "b9520d7e9af8bdf9f6442a3113b30133725522b31df620682a8f63bc9f034b3c",
+      "enMarkdown": "[9] Even college textbooks are bad. When you get to college, you'll find that (with a few stellar exceptions) the textbooks are not written by the leading scholars in the field they describe. Writing college textbooks is unpleasant work, done mostly by people who need the money. It's unpleasant because the publishers exert so much control, and there are few things worse than close supervision by someone who doesn't understand what you're doing. This phenomenon is apparently [even worse](http://www.edutopia.org/muddle-machine) in the production of high school textbooks.",
+      "zhMarkdown": "[9] 甚至大学教科书也很烂。当你进入大学，你会发现（除了少数极优秀的特例）教科书并不是由该领域最顶尖的学者撰写的。撰写大学教科书是一项苦差事，大多是由急需用钱的人来做。这很痛苦，因为出版商控制得太死，而没有什么比被一个不懂行的人严密监视更糟糕的了。在高中教科书的编写中，这种现象显然[更加严重](http://www.edutopia.org/muddle-machine)。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "f72b9461244e00184ad92d3a9baa672105b0276dacd69e817f06c6b4897c11c4",
+      "enMarkdown": "[10] Your teachers are always telling you to behave like adults. I wonder if they'd like it if you did. You may be loud and disorganized, but you're very docile compared to adults. If you actually started acting like adults, it would be just as if a bunch of adults had been transposed into your bodies. Imagine the reaction of an FBI agent or taxi driver or reporter to being told they had to ask permission to go the bathroom, and only one person could go at a time. To say nothing of the things you're taught. If a bunch of actual adults suddenly found themselves trapped in high school, the first thing they'd do is form a union and renegotiate all the rules with the administration.",
+      "zhMarkdown": "[10] 你的老师总是让你表现得像个成年人。我很好奇，如果你真的这么做了，他们会不会喜欢。你可能很吵闹、无组织，但与成年人相比，你其实非常温顺。如果你真的开始表现得像成年人，那就好比一群成年人突然被转移到了你们的身体里。想象一下，一个 FBI 探员、出租车司机或记者，被告知去洗手间必须得到允许，而且一次只能去一个人，他们会是什么反应。更不用说你们学到的那些东西了。如果一群真正的成年人突然发现自己被困在高中，他们要做的第一件事就是成立工会，并与校方重新谈判所有规则。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "96c585857d3b50d4241450c92e7bfcc29350e61d1eae8f4bedd74479c7796abd",
+      "enMarkdown": "**Thanks** to Ingrid Bassett, Trevor Blackwell, Rich Draves, Dan Giffin, Sarah Harlin, Jessica Livingston, Jackie McDonough, Robert Morris, Mark Nitzberg, Lisa Randall, and Aaron Swartz for reading drafts of this, and to many others for talking to me about high school.",
+      "zhMarkdown": "**感谢** Ingrid Bassett, Trevor Blackwell, Rich Draves, Dan Giffin, Sarah Harlin, Jessica Livingston, Jackie McDonough, Robert Morris, Mark Nitzberg, Lisa Randall, 和 Aaron Swartz 阅读了本文的草稿，并感谢许多其他人与我探讨关于高中的话题。"
+    }
+  ]
+}

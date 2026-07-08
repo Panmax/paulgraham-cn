@@ -1,0 +1,202 @@
+{
+  "slug": "vcsqueeze",
+  "titleEn": "The Venture Capital Squeeze",
+  "titleZh": "风险投资的挤压效应",
+  "dateText": "November 2005",
+  "publishedAt": "2005-11-01",
+  "sourceOrder": 177,
+  "sourceUrl": "https://paulgraham.com/vcsqueeze.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "a7409f5fcce8327908d9c15ae4f63bf44cc7c4a72d7508efa0936d2d3bef9c8d",
+      "enMarkdown": "In the next few years, venture capital funds will find themselves squeezed from four directions. They're already stuck with a seller's market, because of the huge amounts they raised at the end of the Bubble and still haven't invested. This by itself is not the end of the world. In fact, it's just a more extreme version of the [norm](http://www.archub.org/dilbertvc.gif) in the VC business: too much money chasing too few deals.",
+      "zhMarkdown": "在接下来的几年里，风险投资（VC）基金将发现自己面临来自四个方向的挤压。由于在互联网泡沫末期募集了巨额资金且至今尚未投出，他们目前已经深陷卖方市场的泥潭。这本身倒不是世界末日，事实上，这只是风投行业[常态](http://www.archub.org/dilbertvc.gif)的极端版本：钱太多，好项目太少。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "109cb081b8bc229ab5b29e234ad1d09e40c5affcd66d0490b82217750e608747",
+      "enMarkdown": "Unfortunately, those few deals now want less and less money, because it's getting so cheap to start a startup. The four causes: open source, which makes software free; Moore's law, which makes hardware geometrically closer to free; the Web, which makes promotion free if you're good; and better languages, which make development a lot cheaper.",
+      "zhMarkdown": "不幸的是，这仅有的几个好项目现在要的钱也越来越少了，因为创办一家创业公司的成本变得极其低廉。原因有四个：开源运动让软件变得免费；摩尔定律让硬件成本几何级数般趋近于零；互联网让只要足够优秀的推广变得免费；而更好的编程语言则让开发成本大幅降低。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "a8e4b0998c519cce2d4a7ba59b5e434144d7fffff240ace8578ecd3b37d65eb3",
+      "enMarkdown": "When we started our startup in 1995, the first three were our biggest expenses. We had to pay $5000 for the Netscape Commerce Server, the only software that then supported secure http connections. We paid $3000 for a server with a 90 MHz processor and 32 meg of memory. And we paid a PR firm about $30,000 to promote our launch.",
+      "zhMarkdown": "我们在 1995 年创办自己的创业公司时，前三项是我们最大的开销。我们不得不花 5000 美元购买 Netscape Commerce Server，这是当时唯一支持安全 http 连接的软件。我们花 3000 美元买了一台配置为 90 MHz 处理器和 32 MB 内存的服务器。此外，我们还付给了一家公关公司大约 3 万美元来推广我们的产品上线。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4ef17cde32761a9dc670f62878ab25966ae74f3e4054d19dd7fa52a944a0725b",
+      "enMarkdown": "Now you could get all three for nothing. You can get the software for free; people throw away computers more powerful than our first server; and if you make something good you can generate ten times as much traffic by word of mouth online than our first PR firm got through the print media.",
+      "zhMarkdown": "而现在，你完全可以白嫖这三样东西。软件可以免费获取；人们扔掉的电脑都比我们当年的第一台服务器性能更强；而且如果你做出了好东西，通过互联网口碑传播带来的流量，能达到我们当年那家公关公司通过纸媒宣传所获流量的十倍。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "085d71458f52b962e6bca9aab305fb0cb79ff9d3ec482ae1aa1a723e605b38fb",
+      "enMarkdown": "And of course another big change for the average startup is that programming languages have improved-- or rather, the [median language](https://paulgraham.com/avg.html) has. At most startups ten years ago, software development meant ten programmers writing code in C++. Now the same work might be done by one or two using Python or Ruby.",
+      "zhMarkdown": "当然，对于普通创业公司来说，另一个巨大的变化是编程语言进步了——更准确地说，是[平均水平的语言](https://paulgraham.com/avg.html)进步了。十年前在大多数创业公司，软件开发意味着十个程序员用 C++ 写代码。而现在，同样的工作可能只要一两个程序员用 Python 或 Ruby 就能搞定。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "786deaa8f701f517cef51c6d72a0074d74ff20fcfb0b3e8d919a67e01276250a",
+      "enMarkdown": "During the Bubble, a lot of people predicted that startups would outsource their development to India. I think a better model for the future is David Heinemeier Hansson, who outsourced his development to a more powerful language instead. A lot of well-known applications are now, like BaseCamp, written by just one programmer. And one guy is more than 10x cheaper than ten, because (a) he won't waste any time in meetings, and (b) since he's probably a founder, he can pay himself nothing.",
+      "zhMarkdown": "在泡沫时期，许多人预测创业公司会把开发工作外包给印度。我认为未来更好的模式是像 David Heinemeier Hansson 那样，他把开发工作“外包”给了一门更强大的语言。现在很多知名应用（比如 BaseCamp）都只由一个程序员写成。一个人比十个人便宜十倍以上，因为：第一，他不会把时间浪费在开会上；第二，因为他很可能就是创始人，他可以不给自己发工资。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "81cb60aa4cbee8133e16fa40647485b0755ea5a752d5436b3f97a2df2ad0c61d",
+      "enMarkdown": "Because starting a startup is so cheap, venture capitalists now often want to give startups more money than the startups want to take. VCs like to invest several million at a time. But as one VC told me after a startup he funded would only take about half a million, \"I don't know what we're going to do. Maybe we'll just have to give some of it back.\" Meaning give some of the fund back to the institutional investors who supplied it, because it wasn't going to be possible to invest it all.",
+      "zhMarkdown": "因为创办创业公司的成本如此之低，风险投资人现在往往想给创业公司比他们实际需要更多的钱。风投喜欢一次投资几百万美元。但正如一位风投在得知他投资的创业公司只要了大约五十万美元后对我说的那样：“我不知道我们该怎么办。也许我们只能把一部分钱退回去了。”他的意思是把部分资金退给提供资金的机构投资者，因为根本不可能把所有钱都投出去。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "7b62c37b1827e8eafb76c5bb0ab2c37347ca175c77e360b0f65d75cc4383f659",
+      "enMarkdown": "Into this already bad situation comes the third problem: Sarbanes-Oxley. Sarbanes-Oxley is a law, passed after the Bubble, that drastically increases the regulatory burden on public companies. And in addition to the cost of compliance, which is at least two million dollars a year, the law introduces frightening legal exposure for corporate officers. An experienced CFO I know said flatly: \"I would not want to be CFO of a public company now.\"",
+      "zhMarkdown": "在这本已糟糕的处境中，又迎来了第三个问题：《萨班斯-奥克斯利法案》（Sarbanes-Oxley）。这是互联网泡沫后通过的一项法律，极大地增加了上市公司的监管负担。除了每年至少两百万美元的合规成本外，该法案还给公司高管带来了令人胆战心惊的法律风险。我认识的一位资深首席财务官（CFO）直截了当地说：“我现在绝不想去当一家上市公司的 CFO。”"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "05f0642b9733263bf359c4f7ad0659fac29116a4ba6bf44e18f978c95266d534",
+      "enMarkdown": "You might think that responsible corporate governance is an area where you can't go too far. But you can go too far in any law, and this remark convinced me that Sarbanes-Oxley must have. This CFO is both the smartest and the most upstanding money guy I know. If Sarbanes-Oxley deters people like him from being CFOs of public companies, that's proof enough that it's broken.",
+      "zhMarkdown": "你可能会觉得，在规范公司治理这件事情上，怎么严格都不为过。但任何法律如果走极端都会出问题，他的这番话让我确信《萨班斯-奥克斯利法案》显然是做过头了。这位 CFO 是我认识的财务人员中最聪明、最正直的一个。如果该法案把像他这样的人都吓得不敢去当上市公司的 CFO，这就足以证明这个法案是有问题的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "88b0d77baba1a2795906dd17cce14ee7cdec2b80313d01d41a54769d028dada6",
+      "enMarkdown": "Largely because of Sarbanes-Oxley, few startups go public now. For all practical purposes, succeeding now equals getting bought. Which means VCs are now in the business of finding promising little 2-3 man startups and pumping them up into companies that cost $100 million to acquire. They didn't mean to be in this business; it's just what their business has evolved into.",
+      "zhMarkdown": "很大程度上由于《萨班斯-奥克斯利法案》，现在很少有创业公司选择上市。在所有实际层面上，现在的成功就等于被收购。这意味着风投现在的业务变成了寻找有前景的、只有两三个人的小创业公司，然后把它们吹大成收购价达 1 亿美元的公司。他们本不想做这种业务，但这正是他们的业务演变至今的结果。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "609e05d5c1fc90ca6fc2cf767755068e87b5e84b2d516ce383841e46e7288e78",
+      "enMarkdown": "Hence the fourth problem: the acquirers have begun to realize they can buy wholesale. Why should they wait for VCs to make the startups they want more expensive? Most of what the VCs add, acquirers don't want anyway. The acquirers already have brand recognition and HR departments. What they really want is the software and the developers, and that's what the startup is in the early phase: concentrated software and developers.",
+      "zhMarkdown": "于是迎来了第四个问题：收购方开始意识到他们可以直接买“批发价”。他们为什么要等着风投把他们想要的创业公司炒得更贵呢？风投所增加的绝大部分价值，收购方根本就不需要。收购方本身就拥有品牌知名度和人力资源部门。他们真正想要的是软件和开发人员，而这正是创业公司早期阶段的本质：高度浓缩的软件和开发人员。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "4b7ba625e10f33a7b273f8ff7fef9e920b7e02ecffbea31b020dd17eec118c75",
+      "enMarkdown": "Google, typically, seems to have been the first to figure this out. \"Bring us your startups early,\" said Google's speaker at the [Startup School](http://startupschool.org). They're quite explicit about it: they like to acquire startups at just the point where they would do a Series A round. (The Series A round is the first round of real VC funding; it usually happens in the first year.) It is a brilliant strategy, and one that other big technology companies will no doubt try to duplicate. Unless they want to have still more of their lunch eaten by Google.",
+      "zhMarkdown": "不出所料，Google 似乎是第一个看透这一点的人。Google 的发言人在 [Startup School](http://startupschool.org) 上说：“把你们的创业公司尽早带给我们。”他们对此毫不避讳：他们喜欢在创业公司刚要进行 A 轮融资的节点将其收购。（A 轮融资是第一轮真正的风投，通常发生在第一年。）这是一个极其精明的策略，其他大型科技公司无疑也会争相效仿。除非他们想眼睁睁看着自己的蛋糕被 Google 抢走更多。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "27292940fbf930c3b9f8ffe7fd93e5e066c561f7c1e2b5997714cba5d7cb7631",
+      "enMarkdown": "Of course, Google has an advantage in buying startups: a lot of the people there are rich, or expect to be when their options vest. Ordinary employees find it very hard to recommend an acquisition; it's just too annoying to see a bunch of twenty year olds get rich when you're still working for salary. Even if it's the right thing for your company to do.",
+      "zhMarkdown": "当然，Google 在收购创业公司方面有一个天然优势：那里的许多人都很有钱，或者期望在期权兑现时变得富有。普通员工很难主动推荐一桩收购案；当你自己还在拿死工资时，看着一群二十出头的年轻人一夜暴富，实在太让人心理不平衡了。即便这么做对公司来说是最正确的决定。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "34724b3e1fbfca6470444e4ed1e1ceaed67fdb4c3ef8e5fe4795531ae5788e96",
+      "enMarkdown": "**The Solution(s)**",
+      "zhMarkdown": "**解决方案**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "26a8cf0e43398eb6e059e1a0bb4fcbe2d67b649bf7483a63bfa673a328cf7bb8",
+      "enMarkdown": "Bad as things look now, there is a way for VCs to save themselves. They need to do two things, one of which won't surprise them, and another that will seem an anathema.",
+      "zhMarkdown": "尽管眼下情况看起来很糟，但风投还有自救的办法。他们需要做两件事，其中一件他们不会感到意外，而另一件在他们看来则会像是一句诅咒。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "7a83c4900fa4b8faa58c60c0d7d1c7459a2c736b05367e4a557393f5a13d7dd3",
+      "enMarkdown": "Let's start with the obvious one: lobby to get Sarbanes-Oxley loosened. This law was created to prevent future Enrons, not to destroy the IPO market. Since the IPO market was practically dead when it passed, few saw what bad effects it would have. But now that technology has recovered from the last bust, we can see clearly what a bottleneck Sarbanes-Oxley has become.",
+      "zhMarkdown": "先从显而易见的那件开始：游说政府放宽《萨班斯-奥克斯利法案》。这项法律的初衷是为了防止未来再出现“安然事件”，而不是为了摧毁 IPO 市场。由于法案通过时 IPO 市场几乎已经死寂，很少有人预料到它会带来多么糟糕的后果。但现在科技行业已经从上一次崩盘中复苏，我们可以清楚地看到《萨班斯-奥克斯利法案》已经成了怎样的瓶颈。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "ffb022b09f804f5e307b32ce770859c65d76943183cff3c0770d600a7b975eff",
+      "enMarkdown": "Startups are fragile plants — seedlings, in fact. These seedlings are worth protecting, because they grow into the trees of the economy. Much of the economy's growth is their growth. I think most politicians realize that. But they don't realize just how fragile startups are, and how easily they can become collateral damage of laws meant to fix some other problem.",
+      "zhMarkdown": "创业公司是娇嫩的幼苗。这些幼苗值得保护，因为它们会长成经济的参天大树。经济的大部分增长其实就是它们的增长。我想大多数政治家都明白这一点。但他们没有意识到创业公司是多么脆弱，又是多么容易在旨在解决其他问题的法律中，沦为无辜的附带牺牲品。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "45c0019f1cfad67ced88f9a6b74ca038f6649a8f141003a02d74e0e7cfaa758b",
+      "enMarkdown": "Still more dangerously, when you destroy startups, they make very little noise. If you step on the toes of the coal industry, you'll hear about it. But if you inadvertently squash the startup industry, all that happens is that the founders of the next Google stay in grad school instead of starting a company.",
+      "zhMarkdown": "更危险的是，当你摧毁创业公司时，它们几乎不会发出任何声音。如果你踩了煤炭行业的脚，你会听到抗议。但如果你不小心踩扁了创业板，结果仅仅是下一个 Google 的创始人选择继续留在研究生院，而不是出来开公司。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "fc2f87af6766834dc1522063934fd24a72682424ed801358613444844d17383d",
+      "enMarkdown": "My second suggestion will seem shocking to VCs: let founders cash out partially in the Series A round. At the moment, when VCs invest in a startup, all the stock they get is newly issued and all the money goes to the company. They could buy some stock directly from the founders as well.",
+      "zhMarkdown": "我的第二个建议对风投来说可能有些骇人听闻：允许创始人在 A 轮融资中套现一部分。目前，当风投投资一家创业公司时，他们获得的所有股票都是新发行的，所有的钱都进了公司的账上。其实，他们也可以直接从创始人手里买下部分股票。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "37dce44a42d1c64b653d5fb5345ac4e65ce704fe36ec7cb1c6da200cca1269d8",
+      "enMarkdown": "Most VCs have an almost religious rule against doing this. They don't want founders to get a penny till the company is sold or goes public. VCs are obsessed with control, and they worry that they'll have less leverage over the founders if the founders have any money.",
+      "zhMarkdown": "大多数风投对此有一条近乎宗教信仰般的铁律。在公司被收购或上市之前，他们不希望创始人拿到一分钱。风投对控制权有着近乎偏执的迷恋，他们担心如果创始人手里有了钱，自己对创始人的掌控力就会减弱。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "3a15b1b84745af9aecf3b0dff814061da5207226e5278609a2ad1321087a63b0",
+      "enMarkdown": "This is a dumb plan. In fact, letting the founders sell a little stock early would generally be better for the company, because it would cause the founders' attitudes toward risk to be aligned with the VCs'. As things currently work, their attitudes toward risk tend to be diametrically opposed: the founders, who have nothing, would prefer a 100% chance of $1 million to a 20% chance of $10 million, while the VCs can afford to be \"rational\" and prefer the latter.",
+      "zhMarkdown": "这是一个愚蠢的策略。事实上，让创始人早期卖掉一点股票通常对公司更有利，因为这能让创始人的风险偏好与风投保持一致。在现行的机制下，双方的风险偏好往往是截然相反的：一无所有的创始人更倾向于 100% 拿到 100 万美元，而不是有 20% 的机会拿到 1000 万美元；而风投则输得起，能够保持“理性”并倾向于后者。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "f34a17cee19b38dfb8c879b6a54023f125e084afde3628ed1740a8d9c1e9b7b2",
+      "enMarkdown": "Whatever they say, the reason founders are selling their companies early instead of doing Series A rounds is that they get paid up front. That first million is just worth so much more than the subsequent ones. If founders could sell a little stock early, they'd be happy to take VC money and bet the rest on a bigger outcome.",
+      "zhMarkdown": "不管嘴上怎么说，创始人之所以选择早早卖掉公司而不是去拿 A 轮融资，就是因为被收购能让他们立刻拿到真金白银。这人生中的第一个 100 万美元，其价值远超后续的千百万。如果创始人能提早卖掉一点股票套现，他们会很乐意拿风投的钱，并把剩下的股份押注在更大的成果上。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "019a4cd75cb002ac5db56bf1df0e6aaf22e714eab72a04430392ba630bb63f91",
+      "enMarkdown": "So why not let the founders have that first million, or at least half million? The VCs would get same number of shares for the money. So what if some of the money would go to the founders instead of the company?",
+      "zhMarkdown": "那么，为什么不让创始人先拿到这第一个 100 万，或者至少 50 万美元呢？风投花同样的钱，拿到的股份数量是一样的。就算有一部分钱进了创始人的口袋而不是公司的账上，那又怎样呢？"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "50f0489b7032dc70a914d5c4c2acd2c09d848daf3c9b82716cfae4af77cad90b",
+      "enMarkdown": "Some VCs will say this is unthinkable — that they want all their money to be put to work growing the company. But the fact is, the huge size of current VC investments is dictated by the [structure](https://paulgraham.com/venturecapital.html) of VC funds, not the needs of startups. Often as not these large investments go to work destroying the company rather than growing it.",
+      "zhMarkdown": "有些风投会说这简直不可思议——他们希望所有的钱都用来推动公司增长。但事实是，目前风投投资的巨大规模是由风投基金的[结构](https://paulgraham.com/venturecapital.html)决定的，而不是创业公司的实际需求。这些巨额投资往往不仅没有促进公司成长，反而加速了公司的毁灭。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "47a2abf356451984ca47fbd439f62367d28c140cb3f43cda8bfa7a13aee19455",
+      "enMarkdown": "The angel investors who funded our startup let the founders sell some stock directly to them, and it was a good deal for everyone. The angels made a huge return on that investment, so they're happy. And for us founders it blunted the terrifying all-or-nothingness of a startup, which in its raw form is more a distraction than a motivator.",
+      "zhMarkdown": "当年投资我们创业公司的天使投资人就允许我们创始人直接卖给他们一些股票，这对大家来说是一笔双赢的交易。天使投资人从那笔投资中获得了巨大的回报，所以他们很开心。而对我们创始人来说，这冲淡了创业那种非生即死的恐怖感，这种赤裸裸的压力在实际中往往更让人分心，而不是激励人前行。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "14490d5a558d908718c5402b7eeddc2bfb94ac3cfad9af2928983e9ad69ec14c",
+      "enMarkdown": "If VCs are frightened at the idea of letting founders partially cash out, let me tell them something still more frightening: you are now competing directly with Google.",
+      "zhMarkdown": "如果风投对让创始人部分套现的想法感到害怕，那么让我告诉他们一件更可怕的事：你们现在是在直接与 Google 竞争。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "365dadc1aa921d0ed912b7c310bcc9d1375ca44679bd59a33e0d7d39c854f1b6",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Sarah Harlin, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Sarah Harlin、Jessica Livingston 和 Robert Morris 审阅本篇草稿。"
+    }
+  ]
+}

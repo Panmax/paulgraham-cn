@@ -1,0 +1,244 @@
+{
+  "slug": "colleges",
+  "titleEn": "News from the Front",
+  "titleZh": "前线传来的消息",
+  "dateText": "September 2007",
+  "publishedAt": "2007-09-01",
+  "sourceOrder": 148,
+  "sourceUrl": "https://paulgraham.com/colleges.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "701af0ce62c26072e244f7c06aed9a0f47fca15b682364d08d218d34c909284d",
+      "enMarkdown": "A few weeks ago I had a thought so heretical that it really surprised me. It may not matter all that much where you go to college.",
+      "zhMarkdown": "几个星期前，我脑子里冒出一个极其反叛的想法，连我自己都吓了一跳：你上什么大学，可能根本没那么重要。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "0d4f73cd429a0859d2b7da585cd0f52058d55a6e3b85c35a667a979285dc1e14",
+      "enMarkdown": "For me, as for a lot of middle class kids, getting into a good college was more or less the meaning of life when I was growing up. What was I? A student. To do that well meant to get good grades. Why did one have to get good grades? To get into a good college. And why did one want to do that? There seemed to be several reasons: you'd learn more, get better jobs, make more money. But it didn't matter exactly what the benefits would be. College was a bottleneck through which all your future prospects passed; everything would be better if you went to a better college.",
+      "zhMarkdown": "对我而言，就像对许多中产阶级家庭的孩子一样，在成长过程中，考上一所好大学几乎就是人生的全部意义。当时我是什么身份？学生。当好学生就意味着拿好成绩。为什么必须拿好成绩？为了考上一所好大学。那为什么想考好大学？当时似乎有这么几个理由：能学到更多知识、找到更好的工作、赚更多的钱。但具体能带来什么好处其实并不重要。大学就像一个瓶颈，你未来的所有前途都要从中穿过；只要能上更好的大学，一切都会变得更好。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "abb8c1bb898233edb3c6c4609d997f6ad37f26069a9e781607f455fe1f40ac35",
+      "enMarkdown": "A few weeks ago I realized that somewhere along the line I had stopped believing that.",
+      "zhMarkdown": "直到几个星期前，我才意识到，不知从何时起，我已经不再相信这一套了。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a15aa92f74661b902672bf2816f153fc88b0521e8b2291e1c5d5f823c46ce4e3",
+      "enMarkdown": "What first set me thinking about this was the new trend of worrying obsessively about what [kindergarten](http://nymag.com/nymetro/urban/education/features/15141/) your kids go to. It seemed to me this couldn't possibly matter. Either it won't help your kid get into Harvard, or if it does, getting into Harvard won't mean much anymore. And then I thought: how much does it mean even now?",
+      "zhMarkdown": "起初让我开始思考这个问题的是一个新趋势：现在的人们开始病态地焦虑孩子上什么[幼儿园](http://nymag.com/nymetro/urban/education/features/15141/)。在我看来，这根本不可能有什么影响。要么它对孩子考入哈佛毫无帮助；要么即使有帮助，考入哈佛在今天也没多大意义了。接着我又想：即便是现在，考入哈佛到底还能代表什么？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "838da8f08b77c15c464bba6fc55da81242aa81f7084f886198abf450a14df1a9",
+      "enMarkdown": "It turns out I have a lot of data about that. My three partners and I run a seed stage investment firm called [Y Combinator](http://ycombinator.com). We invest when the company is just a couple guys and an idea. The idea doesn't matter much; it will change anyway. Most of our decision is based on the founders. The average founder is three years out of college. Many have just graduated; a few are still in school. So we're in much the same position as a graduate program, or a company hiring people right out of college. Except our choices are immediately and visibly tested. There are two possible outcomes for a startup: success or failure—and usually you know within a year which it will be.",
+      "zhMarkdown": "事实证明，我手头有大量关于这个问题的样本数据。我和另外三位合伙人共同运营着一家名为 [Y Combinator](http://ycombinator.com) 的种子期投资机构。我们在公司还只有两三个人和一个想法的时候就进行投资。想法本身并不重要，反正迟早会变。我们的决策大部分基于创始人本身。创始人的平均年龄是大学毕业三年。许多人刚刚毕业，还有少数人甚至还没毕业。因此，我们的处境与研究生院或者招聘应届生的公司非常相似。唯一不同的是，我们的选择会立即且显而易见地接受市场检验。创业公司的结局只有两种：成功或失败——而且通常在一年内就能见分晓。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "1390d0c46cde02ac33f36efb40c5cc46a66e62c66f9f19bbcfd94259e0eaac26",
+      "enMarkdown": "The test applied to a startup is among the purest of real world tests. A startup succeeds or fails depending almost entirely on the efforts of the founders. Success is decided by the market: you only succeed if users like what you've built. And users don't care where you went to college.",
+      "zhMarkdown": "创业公司所面临的检验，是现实世界中最纯粹的测试之一。一家创业公司的成败，几乎完全取决于创始人的努力。成功与否由市场说了算：只有用户喜欢你做出的东西，你才能成功。而用户根本不在乎你毕业于哪所大学。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "c7817f161e9018fa7e159f79b10d8bf7ae1afe2a335c237e28855c90916d9bc5",
+      "enMarkdown": "As well as having precisely measurable results, we have a lot of them. Instead of doing a small number of large deals like a traditional venture capital fund, we do a large number of small ones. We currently fund about 40 companies a year, selected from about 900 applications representing a total of about 2000 people. [[1](#f1n)]",
+      "zhMarkdown": "除了拥有精准可衡量的结果外，我们还拥有极大的样本量。与传统的风险投资机构做少数几笔大额交易不同，我们做的是大量的小额投资。我们目前每年资助大约 40 家公司，这些公司是从大约 900 份申请（代表着约 2000 人）中筛选出来的。[[1](#f1n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "da7d57e972f05c4a7ad0855ec391ea474f7d65293453d9a00229007df942d004",
+      "enMarkdown": "Between the volume of people we judge and the rapid, unequivocal test that's applied to our choices, Y Combinator has been an unprecedented opportunity for learning how to pick winners. One of the most surprising things we've learned is how little it matters where people went to college.",
+      "zhMarkdown": "凭借我们评估的人数规模，以及对我们选择的快速、明确的检验，Y Combinator 拥有了前所未有的机会，去学习如何挑选出赢家。而我们学到的最令人惊讶的事情之一，就是一个人上什么大学其实微不足道。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "987274bafc316315d7a5163c1a255e4ff9eaa88434bf27eafb0fe22abbb298d4",
+      "enMarkdown": "I thought I'd already been cured of caring about that. There's nothing like going to grad school at Harvard to cure you of any illusions you might have about the average Harvard undergrad. And yet Y Combinator showed us we were still overestimating people who'd been to elite colleges. We'd interview people from MIT or Harvard or Stanford and sometimes find ourselves thinking: they *must* be smarter than they seem. It took us a few iterations to learn to trust our senses.",
+      "zhMarkdown": "我原以为自己早就对名校光环免疫了。毕竟，在哈佛读研究生的经历，足以打破你对哈佛本科生抱有的任何幻想。然而，Y Combinator 让我们看到，我们依然高估了那些名校毕业生。我们在面试来自麻省理工（MIT）、哈佛或斯坦福的人时，有时会情不自禁地想：他们*一定*比看起来更聪明。我们交了交几次学费，才学会相信自己的直觉。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "458896a333f721e760cd2a34f8561320362b4d632746cb87b93f98667377a5fb",
+      "enMarkdown": "Practically everyone thinks that someone who went to MIT or Harvard or Stanford must be smart. Even people who hate you for it believe it.",
+      "zhMarkdown": "几乎所有人都认为，上过 MIT、哈佛或斯坦福的人肯定很聪明。甚至连那些因为这点而讨厌你的人也深信不疑。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "4bb2fc5f0ad02f79286676a724a6a3c6ef7bd25d586d3f961816b1fb21cc7d9d",
+      "enMarkdown": "But when you think about what it means to have gone to an elite college, how could this be true? We're talking about a decision made by admissions officers—basically, HR people—based on a cursory examination of a huge pile of depressingly similar applications submitted by seventeen year olds. And what do they have to go on? An easily gamed standardized test; a short essay telling you what the kid thinks you want to hear; an interview with a random alum; a high school record that's largely an index of obedience. Who would rely on such a test?",
+      "zhMarkdown": "但是，当你仔细想想“上过名校”到底意味着什么，这怎么可能是真的呢？我们谈论的，其实是招生官（本质上就是 HR）做出的决定，而这个决定仅仅基于对一堆由 17 岁孩子提交的、令人沮丧地千篇一律的申请材料进行的粗略审查。他们能凭什么做决定？一个极易通过应试技巧拿高分的标准化考试；一篇写着孩子认为你想听的话的短文；一次与某位随机校友的面试；以及一张很大程度上只代表了顺从度的中学成绩单。谁会依赖这种测试？"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "b43971a40a508a1f7a0675a718c9aa4b9236db95bb450a24be239342b77f85a5",
+      "enMarkdown": "And yet a lot of companies do. A lot of companies are very much influenced by where applicants went to college. How could they be? I think I know the answer to that.",
+      "zhMarkdown": "然而，许多公司确实在依赖它。许多公司在很大程度上受到求职者毕业院校的影响。它们怎么会这样？我想我知道答案。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "dc7354d593479b9d4a19361c15cbdc46f06eb98a48b672b6303639fff97a61e1",
+      "enMarkdown": "There used to be a saying in the corporate world: \"No one ever got fired for buying IBM.\" You no longer hear this about IBM specifically, but the idea is very much alive; there is a whole category of \"enterprise\" software companies that exist to take advantage of it. People buying technology for large organizations don't care if they pay a fortune for mediocre software. It's not their money. They just want to buy from a supplier who seems safe—a company with an established name, confident salesmen, impressive offices, and software that conforms to all the current fashions. Not necessarily a company that will deliver so much as one that, if they do let you down, will still seem to have been a prudent choice. So companies have evolved to fill that niche.",
+      "zhMarkdown": "企业界曾有一句俗话：“没有人会因为购买 IBM 的产品而被解雇。”现在你可能不会听到针对 IBM 的这句话了，但这种观念依然根深蒂固；甚至有一整类“企业级”软件公司就是靠利用这种心理而生存的。为大型机构采购技术的人并不在乎是否花大价钱买了一堆平庸的软件。反正花得不是他们自己的钱。他们只想向一个看起来安全的供应商购买——一个拥有响亮名声、自信的销售员、气派的办公室以及符合当前所有潮流的软件的公司。这家公司不一定非要交付多好的成果，但至少在搞砸的时候，它看起来依然是一个谨慎、稳妥的选择。于是，市场上便演化出了一批专门满足这种需求的公司。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "3e48e73cb9adfa3e906e5b7ec5e2692ae9f7324b99f2f51b453a4809f51cccc9",
+      "enMarkdown": "A recruiter at a big company is in much the same position as someone buying technology for one. If someone went to Stanford and is not obviously insane, they're probably a safe bet. And a safe bet is enough. No one ever measures recruiters by the later performance of people they turn down. [[2](#f2n)]",
+      "zhMarkdown": "大公司的招聘人员，其处境与技术采购人员极为相似。如果一个人毕业于斯坦福，且没有明显的精神异常，那他大概率是个安全的选择。而一个安全的选择就足够了。从来没有人会根据被拒绝的人后来的表现，来考核招聘人员的业绩。[[2](#f2n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "49303fbcabd09c8aa62be733c9b9f234b7b52214144b5e64e156f6b2835864a9",
+      "enMarkdown": "I'm not saying, of course, that elite colleges have evolved to prey upon the weaknesses of large organizations the way enterprise software companies have. But they work as if they had. In addition to the power of the brand name, graduates of elite colleges have two critical qualities that plug right into the way large organizations work. They're good at doing what they're asked, since that's what it takes to please the adults who judge you at seventeen. And having been to an elite college makes them more confident.",
+      "zhMarkdown": "当然，我并不是说名校的演化是为了像企业软件公司那样，去迎合大型机构的弱点。但它们起到的效果确实如此。除了品牌效应之外，名校毕业生还具备两个关键特质，完美契合了大型机构的运转方式：他们擅长按要求做事，因为这正是讨好 17 岁时评判他们的成年人所需要的；此外，名校的背景让他们更加自信。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "019aeba74e41040963aefef0cdc41d759dff478ed97370a2920c8f00653b0e24",
+      "enMarkdown": "Back in the days when people might spend their whole career at one big company, these qualities must have been very valuable. Graduates of elite colleges would have been capable, yet amenable to authority. And since individual performance is so hard to measure in large organizations, their own confidence would have been the starting point for their reputation.",
+      "zhMarkdown": "在过去那个人们可能在一家大公司干一辈子的时代，这些特质一定非常宝贵。名校毕业生不仅有能力，而且顺从权威。由于在大型机构中个人业绩很难衡量，他们自身的自信就成了他们名声的起点。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "e93d31d5057fcf34641518a40c0de31f2a43357a858cbcd44b5cc17e7160e993",
+      "enMarkdown": "Things are very different in the new world of startups. We couldn't save someone from the market's judgement even if we wanted to. And being charming and confident counts for nothing with users. All users care about is whether you make something they like. If you don't, you're dead.",
+      "zhMarkdown": "但在创业公司的新世界里，情况截然不同。即使我们想，我们也无法把任何人从市场的审判中解救出来。在用户面前，讨人喜欢和自信根本一文不值。用户唯一在乎的，是你能否做出他们喜欢的东西。如果你做不到，你就死定了。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "3b91983ca8e57b0bbbac33cb6160a9390470ba0eea3ec93e53c80ef0e3ef8724",
+      "enMarkdown": "Knowing that test is coming makes us work a lot harder to get the right answers than anyone would if they were merely hiring people. We can't afford to have any illusions about the predictors of success. And what we've found is that the variation between schools is so much smaller than the variation between individuals that it's negligible by comparison. We can learn more about someone in the first minute of talking to them than by knowing where they went to school.",
+      "zhMarkdown": "既然知道这种检验迟早会来，为了找到正确答案，我们必须比普通招聘付出多得多的努力。在预测成功的因素时，我们承担不起任何幻想。而我们的发现是，不同学校之间的差距，远远小于个体之间的差距，相比之下学校的差异几乎可以忽略不计。我们在与一个人交谈的第一分钟里所了解到的信息，比知道他上过哪所学校要多得多。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "7dedd6491644ca7226069fbc1fc322aa075aa85669477163f100684e32d62f2c",
+      "enMarkdown": "It seems obvious when you put it that way. Look at the individual, not where they went to college. But that's a weaker statement than the idea I began with, that it doesn't matter much where a given individual goes to college. Don't you learn things at the best schools that you wouldn't learn at lesser places?",
+      "zhMarkdown": "这样说起来似乎显而易见：看人本身，而不是看他上过什么大学。但这比我一开始提出的观点要弱一些，我开始的观点是：对于一个特定的人来说，他上什么大学并不重要。难道在最好的学校里，你学不到在普通学校学不到的东西吗？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "bef820f08e0a63edd253e8b16efe52e4fa980f15fed1e5d23f096c5f24fd7279",
+      "enMarkdown": "Apparently not. Obviously you can't prove this in the case of a single individual, but you can tell from aggregate evidence: you can't, without asking them, distinguish people who went to one school from those who went to another three times as far down the *US News* list. [[3](#f3n)] Try it and see.",
+      "zhMarkdown": "显然学不到。当然，你无法在单个个体身上证明这一点，但你可以从统计学证据中看出来：如果不去询问，你根本无法把毕业于某所顶尖学校的人，与毕业于《美国新闻与世界报道》（US News）排名落后其三倍的学校的人区分开来。[[3](#f3n)] 不信你可以去试试。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "b71d9b6ef47248f0cb1b805314592087d51beae21fd5458e87234b2a5133c3a3",
+      "enMarkdown": "How can this be? Because how much you learn in college depends a lot more on you than the college. A determined party animal can get through the best school without learning anything. And someone with a real thirst for knowledge will be able to find a few smart people to learn from at a school that isn't prestigious at all.",
+      "zhMarkdown": "怎么会这样？因为你在大学里能学到多少，更多取决于你，而不是大学。一个决心混日子的派对狂人，即使在最好的学校也能一无所获地毕业。而一个真正对知识充满渴望的人，即使在名不见经传的学校，也能找到几位聪明的学者去向他们学习。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "bc1fead4f4dc01fae64e8ea34874d5446d5457465d57ebe0755f8c162b0b214f",
+      "enMarkdown": "The other students are the biggest advantage of going to an elite college; you learn more from them than the professors. But you should be able to reproduce this at most colleges if you make a conscious effort to find smart friends. At most colleges you can find at least a handful of other smart students, and most people have only a handful of close friends in college anyway. [[4](#f4n)] The odds of finding smart professors are even better. The curve for faculty is a lot flatter than for students, especially in math and the hard sciences; you have to go pretty far down the list of colleges before you stop finding smart professors in the math department.",
+      "zhMarkdown": "上名校最大的优势在于其他学生；你从他们身上学到的比从教授身上学到的更多。但只要你刻意去寻找聪明的朋友，在大多数大学里你都能复制这一点。在大多数大学里，你至少能找到一小撮聪明的学生，而大多数人在大学里也只有几个亲密的朋友。[[4](#f4n)] 找到聪明教授的概率甚至更高。教师水平的分布曲线比学生要平缓得多，尤其是在数学和硬科学领域；你得在大学排名里往下翻很久，才会遇到数学系里找不到聪明教授的情况。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "95f34a71e3ce855cd24181ff411a181f3f23d65cb0b7e3373ea0c45971c1bf70",
+      "enMarkdown": "So it's not surprising that we've found the relative prestige of different colleges useless in judging individuals. There's a lot of randomness in how colleges select people, and what they learn there depends much more on them than the college. Between these two sources of variation, the college someone went to doesn't mean a lot. It is to some degree a predictor of ability, but so weak that we regard it mainly as a source of error and try consciously to ignore it.",
+      "zhMarkdown": "因此，我们发现不同大学的相对名气在评估个人时毫无用处，也就不足为奇了。大学筛选学生存在很大的随机性，而学生在大学里学到什么，更多取决于他们自己，而非学校。在这两种变数的影响下，一个人上过什么大学并没有太大的参考价值。它在某种程度上是能力的预测指标，但这种关联极其微弱，以至于我们主要将其视为一种干扰误差，并在评估时有意识地去忽略它。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "26fe7e254ad4eebecaa2113c201d49fa332a63bbd11c3f9a96ddd5ac57a865b4",
+      "enMarkdown": "I doubt what we've discovered is an anomaly specific to startups. Probably people have always overestimated the importance of where one goes to college. We're just finally able to measure it.",
+      "zhMarkdown": "我怀疑我们所发现的规律并非创业公司特有的反常现象。人们可能一直都高估了上什么大学的重要性，只是我们现在终于有能力对其进行量化衡量了。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "fe905e9e705169416fdf9aa65489a99c1d435a1e471eb5ed9b9e48eeeb6d663a",
+      "enMarkdown": "The unfortunate thing is not just that people are judged by such a superficial test, but that so many judge themselves by it. A lot of people, probably the majority of people in America, have some amount of insecurity about where, or whether, they went to college. The tragedy of the situation is that by far the greatest liability of not having gone to the college you'd have liked is your own feeling that you're thereby lacking something. Colleges are a bit like exclusive clubs in this respect. There is only one real advantage to being a member of most exclusive clubs: you know you wouldn't be missing much if you weren't. When you're excluded, you can only imagine the advantages of being an insider. But invariably they're larger in your imagination than in real life.",
+      "zhMarkdown": "令人遗憾的不仅是人们被这种肤浅的测试所评判，而是有太多人也用它来评判自己。许多人（可能是美国的大多数人）对于自己读过什么大学、甚至是否读过大学，都存有某种程度的自卑感。这种局面的悲剧在于，没能上你想上的大学，最大的坏处其实是你自己内心产生的缺失感。在这方面，大学有点像排他性的私人俱乐部。加入这类俱乐部只有一个真正的好处：你会发现如果你不加入，其实也没错过什么。当你被拒之门外时，你只能去想象圈内人的种种特权。但这些特权在你的想象中，无一例外比在现实中要美好得多。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "330cbc52c28cb14f8e27bdd30623327d4b11d2c0100a302acccef35a9851c2b1",
+      "enMarkdown": "So it is with colleges. Colleges differ, but they're nothing like the stamp of destiny so many imagine them to be. People aren't what some admissions officer decides about them at seventeen. They're what they make themselves.",
+      "zhMarkdown": "大学也是如此。大学之间确实有差异，但它们绝非许多人所想象的命运烙印。人不是由招生官在他们 17 岁时做出的决定定义的，而是由他们自己成就的。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "cc11d16259202ab3a696b8af0ba46a983708a78b984892c96e7f87664aa623e7",
+      "enMarkdown": "Indeed, the great advantage of not caring where people went to college is not just that you can stop judging them (and yourself) by superficial measures, but that you can focus instead on what really matters. What matters is what you make of yourself. I think that's what we should tell kids. Their job isn't to get good grades so they can get into a good college, but to learn and do. And not just because that's more rewarding than worldly success. That will increasingly *be* the route to worldly success.",
+      "zhMarkdown": "事实上，不在乎别人上什么大学，其巨大好处不仅在于你可以停止用肤浅的标准来评判他人（和自己），更在于你可以专注于真正重要的事情。真正重要的是你把自己塑造成什么样的人。我认为这就是我们应该告诉孩子们的。他们的任务不是为了考上好大学而拿好成绩，而是去学习和实践。这不仅因为这比世俗的成功更有回报，还因为这本身将日益成为通往世俗成功的必经之路。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "124e7e889f09366d9e48c03fc8f78d71135fb7f48ad14acb492e7c025e443517",
+      "enMarkdown": "[1] Is what we measure worth measuring? I think so. You can get rich simply by being energetic and unscrupulous, but getting rich from a technology startup takes some amount of brains. It is just the kind of work the upper middle class values; it has about the same intellectual component as being a doctor.",
+      "zhMarkdown": "[1] 我们所衡量的事情值得衡量吗？我认为值得。你只要精力充沛且不择手段就可以变富，但通过一家技术创业公司致富，需要相当的聪明才智。这恰好是中产阶级上层所看重的那种工作；它的智力成分与当医生差不多。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "09078ecc77b2aacf46565b630da4f780bd5081a7e6a65f454cfd9f891ac3d66f",
+      "enMarkdown": "[2] Actually, someone did, once. Mitch Kapor's wife Freada was in charge of HR at Lotus in the early years. (As he is at pains to point out, they did not become romantically involved till afterward.) At one point they worried Lotus was losing its startup edge and turning into a big company. So as an experiment she sent their recruiters the resumes of the first 40 employees, with identifying details changed. These were the people who had made Lotus into the star it was. Not one got an interview.",
+      "zhMarkdown": "[2] 事实上，确实有人这么干过一次。米奇·卡普尔（Mitch Kapor）的妻子弗里达（Freada）在 Lotus 创立早期负责 HR 工作。（他极力澄清，他们是在那之后才确立恋爱关系的。）当时，他们担心 Lotus 正在失去创业公司的锐气，变成一家大公司。于是作为实验，她把公司前 40 名员工的简历隐去身份信息后，发给了公司的招聘人员。正是这些人把 Lotus 推向了巅峰。结果，没有一个人获得面试机会。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "a842e870fd18d5b76f54e711f6bcc24e18bd7790b64bfe7579f968bf22820d3f",
+      "enMarkdown": "[3] The *US News* list? Surely no one trusts that. Even if the statistics they consider are useful, how do they decide on the relative weights? The reason the *US News* list is meaningful is precisely because they are so intellectually dishonest in that respect. There is no external source they can use to calibrate the weighting of the statistics they use; if there were, we could just use that instead. What they must do is adjust the weights till the top schools are the usual suspects in about the right order. So in effect what the *US News* list tells us is what the editors think the top schools are, which is probably not far from the conventional wisdom on the matter. The amusing thing is, because some schools work hard to game the system, the editors will have to keep tweaking their algorithm to get the rankings they want.",
+      "zhMarkdown": "[3] 《美国新闻与世界报道》（US News）的排名？当然没人真的相信它。即使他们考量的统计数据有用，他们又是如何决定各项权重的？US News 排名之所以有意义，恰恰是因为他们在这一点上非常缺乏学术诚实。他们没有外部标准来校准所用统计数据的权重；如果有，我们直接用那个标准就好了。他们必须做的是调整权重，直到排在最前面的学校恰好是那些大家公认的学校，且顺序大致不差。因此，US News 排名实际上告诉我们的是编辑们心目中的名校是哪些，这与传统观念大概相差无几。有趣的是，由于一些学校极力钻空子钻营排名，编辑们不得不持续微调他们的算法，以得出他们想要的排名。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "87b709226a55aeb052fa4f00df0b2b52dd6c860f6115e49e028ef323c7885cbc",
+      "enMarkdown": "[4] Possible doesn't mean easy, of course. A smart student at a party school will inevitably be something of an outcast, just as he or she would be in most [high schools](https://paulgraham.com/nerds.html).",
+      "zhMarkdown": "[4] 当然，可能并不意味着容易。在一所派对风气盛行的学校里，一个聪明的学生不可避免地会显得有些合不合群，就像他或她在大多数[高中](https://paulgraham.com/nerds.html)里一样。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "891409926cd79e874e7b3e676c70895995f5b0ba4789fd13116d6cad2800df4a",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Sarah Harlin, Jessica Livingston, Jackie McDonough, Peter Norvig, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Sarah Harlin、Jessica Livingston、Jackie McDonough、Peter Norvig 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

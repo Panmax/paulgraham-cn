@@ -1,0 +1,258 @@
+{
+  "slug": "users",
+  "titleEn": "What I've Learned from Users",
+  "titleZh": "我从用户身上学到了什么",
+  "dateText": "September 2022",
+  "publishedAt": "2022-09-01",
+  "sourceOrder": 22,
+  "sourceUrl": "https://paulgraham.com/users.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "acecefc33172c028455824883d9898e5f136c5378293775042323fa615c59d26",
+      "enMarkdown": "I recently told applicants to Y Combinator that the best advice I could give for getting in, per word, was",
+      "zhMarkdown": "最近，我告诉 Y Combinator 的申请者们，如果让我用最简短的语言给出能帮他们入选的最佳建议，那就是："
+    },
+    {
+      "id": 2,
+      "type": "quote",
+      "sourceHash": "303f428b6db0d791deb06192eea1a69f22e91bb19c883fd1cefdaaaa97b09b88",
+      "enMarkdown": "> Explain what you've learned from users.",
+      "zhMarkdown": "> 阐述你从用户身上学到了什么。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "16ba4a765d2ad9c045d82509b1f56904652338df427e47416594fbe171bc0cde",
+      "enMarkdown": "That tests a lot of things: whether you're paying attention to users, how well you understand them, and even how much they need what you're making.",
+      "zhMarkdown": "这句话能考验很多东西：你是否在关注用户、你对他们的理解有多深，甚至能看出他们有多需要你正在做的产品。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2684dc26591969a4503e3ce5b6a859c8530b5403207d51cd799d879539382869",
+      "enMarkdown": "Afterward I asked myself the same question. What have I learned from YC's users, the startups we've funded?",
+      "zhMarkdown": "事后，我也问了自己同样的问题。我从 YC 的用户——也就是我们资助的那些创业公司身上，学到了什么？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a05f5b8df264627524f3b0c2dc3ab8c4c66c19519d2ab207041dd569902ca547",
+      "enMarkdown": "The first thing that came to mind was that most startups have the same problems. No two have exactly the same problems, but it's surprising how much the problems remain the same, regardless of what they're making. Once you've advised 100 startups all doing different things, you rarely encounter problems you haven't seen before.",
+      "zhMarkdown": "我脑海中浮现的第一件事是，大多数创业公司面临的问题都是相似的。虽然没有哪两家公司的问题完全一样，但令人惊讶的是，无论他们做的是什么产品，面临的问题竟然大同小异。一旦你指导过 100 家做着不同业务的创业公司，你就很少会遇到没见过的难题了。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "276c78f2f0adfa466a4a17512a03f0aad8f47e0d106e3cac946070aac75cd597",
+      "enMarkdown": "This fact is one of the things that makes YC work. But I didn't know it when we started YC. I only had a few data points: our own startup, and those started by friends. It was a surprise to me how often the same problems recur in different forms. Many later stage investors might never realize this, because later stage investors might not advise 100 startups in their whole career, but a YC partner will get this much experience in the first year or two.",
+      "zhMarkdown": "这个事实正是 YC 能够行之有效的原因之一。但在我们创立 YC 之初，我并不了解这一点。当时我只有几个数据点：我们自己的创业公司，以及朋友们创办的公司。当看到同样的问题以不同的形式反复出现时，我感到非常惊讶。许多后期投资人可能永远意识不到这一点，因为他们整个职业生涯可能都不会指导 100 家创业公司，而一位 YC 合伙人在第一两年内就能积累这么多的经验。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "f9c2f5e9e8008801c1b90c78208d80d91b6767217456b8280b6c58564ac957a7",
+      "enMarkdown": "That's one advantage of funding large numbers of early stage companies rather than smaller numbers of later-stage ones. You get a lot of data. Not just because you're looking at more companies, but also because more goes wrong.",
+      "zhMarkdown": "这就是资助大量早期公司、而非少数后期公司的优势之一。你能获得海量的数据。这不仅是因为你观察的公司更多，还因为早期公司出状况的概率要高得多。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "3362f34ecd7f4f459c7fe5960f585084f5e8e2c5c4022bec42b6297fb520c52f",
+      "enMarkdown": "But knowing (nearly) all the problems startups can encounter doesn't mean that advising them can be automated, or reduced to a formula. There's no substitute for individual office hours with a YC partner. Each startup is unique, which means they have to be advised by specific partners who know them well. [[1](#f1n)]",
+      "zhMarkdown": "然而，了解创业公司可能遇到的（几乎）所有问题，并不意味着指导工作可以走向自动化，或者简化为一套公式。YC 合伙人一对一的咨询服务（office hours）是无可替代的。每家创业公司都是独特的，这意味着必须由熟悉他们的特定合伙人来进行指导。[[1](#f1n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "8e2d7fb7e698e84f0deeb6ddd3845c302ab00a155b6266c91727ee0e6c4ff5d7",
+      "enMarkdown": "We learned that the hard way, in the notorious \"batch that broke YC\" in the summer of 2012. Up till that point we treated the partners as a pool. When a startup requested office hours, they got the next available slot posted by any partner. That meant every partner had to know every startup. This worked fine up to 60 startups, but when the batch grew to 80, everything broke. The founders probably didn't realize anything was wrong, but the partners were confused and unhappy because halfway through the batch they still didn't know all the companies yet. [[2](#f2n)]",
+      "zhMarkdown": "我们在 2012 年夏天付出了惨痛的代价才学到这一课，那就是臭名昭著的“搞垮 YC 的那一届”。在那之前，我们把合伙人当成一个资源池。当创业公司约咨询时，系统会随机分配给任何有空档的合伙人。这意味着每个合伙人都必须了解每一家创业公司。在公司数量低于 60 家时，这种模式运转良好，但当那一届增加到 80 家时，一切都崩溃了。创始人可能没觉得有什么不对，但合伙人却感到困惑和沮丧，因为课程过半，他们甚至还没认全所有的公司。[[2](#f2n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "9d4ce4877b472ae446a62d240dfab87f5412ef5034f37fd5f03191d94cb518c5",
+      "enMarkdown": "At first I was puzzled. How could things be fine at 60 startups and broken at 80? It was only a third more. Then I realized what had happened. We were using an *O(n2)* algorithm. So of course it blew up.",
+      "zhMarkdown": "起初我很纳闷。为什么 60 家时还好好的，到了 80 家就崩溃了？明明只多了三分之一。后来我意识到问题出在哪里。我们当时使用的是一个 *O(n²)* 复杂度的算法，所以它必然会吃不消。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5f2f8a228965a2203bf67844d4bcf24bf78370be07338e4ad0dde0d62c53ddae",
+      "enMarkdown": "The solution we adopted was the classic one in these situations. We sharded the batch into smaller groups of startups, each overseen by a dedicated group of partners. That fixed the problem, and has worked fine ever since. But the batch that broke YC was a powerful demonstration of how individualized the process of advising startups has to be.",
+      "zhMarkdown": "我们采取了应对这种情况的经典解决方案：分片（sharding）。我们把那一届拆分成更小的组，每组由专门的合伙人团队负责。问题迎刃而解，并且自那以后一直运转良好。但“搞垮 YC 的那一届”生动地证明了，指导创业公司的过程必须是因人制宜的。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "047444552f8527568c442d366adb1847c7c821fe64d2651779121cb914eeef7c",
+      "enMarkdown": "Another related surprise is how bad founders can be at realizing what their problems are. Founders will sometimes come in to talk about some problem, and we'll discover another much bigger one in the course of the conversation. For example (and this case is all too common), founders will come in to talk about the difficulties they're having raising money, and after digging into their situation, it turns out the reason is that the company is doing badly, and investors can tell. Or founders will come in worried that they still haven't cracked the problem of user acquisition, and the reason turns out to be that their product isn't good enough. There have been times when I've asked \"Would you use this yourself, if you hadn't built it?\" and the founders, on thinking about it, said \"No.\" Well, there's the reason you're having trouble getting users.",
+      "zhMarkdown": "另一个相关的意外发现是，创始人往往很不擅长诊断自己的问题。有时创始人来找我们聊某个痛点，聊着聊着，我们就会发现另一个大得多的问题。比如（这种情况太常见了），创始人来找我们谈融资困难，深入了解后才发现，融资难的根本原因其实是公司业务很糟糕，而投资人一眼就看穿了。或者创始人来咨询，担心自己还没解决用户增长的难题，结果发现原因其实是他们的产品不够好。有时候我会问：“如果这产品不是你们做的，你们自己会用吗？”创始人想了想说：“不会。”看吧，这就是你获取用户遇到困难的原因。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "117b63eefbf29a7bda85be0fbb404f733baf4a53ffca2bb54159823c0072d839",
+      "enMarkdown": "Often founders know what their problems are, but not their relative importance. [[3](#f3n)] They'll come in to talk about three problems they're worrying about. One is of moderate importance, one doesn't matter at all, and one will kill the company if it isn't addressed immediately. It's like watching one of those horror movies where the heroine is deeply upset that her boyfriend cheated on her, and only mildly curious about the door that's mysteriously ajar. You want to say: never mind about your boyfriend, think about that door! Fortunately in office hours you can. So while startups still die with some regularity, it's rarely because they wandered into a room containing a murderer. The YC partners can warn them where the murderers are.",
+      "zhMarkdown": "创始人往往知道自己的问题有哪些，但分不清它们的轻重缓急。[[3](#f3n)] 他们会带着三个焦虑的问题来找我们：一个是中等重要的，一个是根本无关紧要的，还有一个如果不马上解决就会让公司倒闭。这就像在看恐怖片，女主角因为男朋友劈腿而痛哭流涕，却只是对那扇神秘半开的门感到一丝好奇。你恨不得对她说：别管你男朋友了，看看那扇门！幸运的是，在咨询时间里你可以直接指出来。所以，虽然创业公司倒闭仍是常态，但很少是因为他们糊里糊涂地走进了一个藏有杀人犯的房间。YC 的合伙人会警告他们杀人犯躲在哪里。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "c99b968661a4418f4aa0f3b792967570dc417350531652bc73a87bc3a5958b88",
+      "enMarkdown": "Not that founders listen. That was another big surprise: how often founders don't listen to us. A couple weeks ago I talked to a partner who had been working for YC for a couple batches and was starting to see the pattern. \"They come back a year later,\" she said, \"and say 'We wish we'd listened to you.'\"",
+      "zhMarkdown": "但这并不意味着创始人会听。这是另一个大意外：创始人经常不听我们的建议。几周前，我和一位在 YC 带了两届的合伙人聊天，她开始看清这种规律了。“他们一年后回来，”她说，“然后说‘真希望我们当初听了你们的话’。”"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5be578f9ba60c9428d295e8eb82f0a2a74213d2ca9f306f3168e0e1685bc6fc7",
+      "enMarkdown": "It took me a long time to figure out why founders don't listen. At first I thought it was mere stubbornness. That's part of the reason, but another and probably more important reason is that so much about startups is [counterintuitive](https://paulgraham.com/before.html). And when you tell someone something counterintuitive, what it sounds to them is wrong. So the reason founders don't listen to us is that they don't *believe* us. At least not till experience teaches them otherwise. [[4](#f4n)]",
+      "zhMarkdown": "我花了很长时间才弄明白创始人为什么不听劝。起初我以为只是因为固执。这确实是部分原因，但另一个可能更重要的原因是，关于创业的许多事情都是[反直觉的](https://paulgraham.com/before.html)。当你告诉别人一件反直觉的事情时，他们听起来会觉得是错的。所以，创始人不听我们的建议，是因为他们压根不*相信*我们。至少在现实给他们上课之前是这样。[[4](#f4n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "302cd27b29825bfb6b22c6eeea3ce540192e35ba02fa1556eda67c249df4746e",
+      "enMarkdown": "The reason startups are so counterintuitive is that they're so different from most people's other experiences. No one knows what it's like except those who've done it. Which is why YC partners should usually have been founders themselves. But strangely enough, the counterintuitiveness of startups turns out to be another of the things that make YC work. If it weren't counterintuitive, founders wouldn't need our advice about how to do it.",
+      "zhMarkdown": "创业之所以如此反直觉，是因为它与大多数人的其他经历截然不同。除了亲历者，没人知道那是种什么滋味。这就是为什么 YC 合伙人通常自己也必须创过业。但奇妙的是，创业的反直觉性恰恰成了 YC 能够发挥作用的另一个基石。如果创业符合直觉，创始人就不需要我们指导怎么做了。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "ca341c7fb1c1b43eb51ebe6603c05b7bdd4a3c49019ed5cc672652d78f58e9ad",
+      "enMarkdown": "Focus is doubly important for early stage startups, because not only do they have a hundred different problems, they don't have anyone to work on them except the founders. If the founders focus on things that don't matter, there's no one focusing on the things that do. So the essence of what happens at YC is to figure out which problems matter most, then cook up ideas for solving them — ideally at a resolution of a week or less — and then try those ideas and measure how well they worked. The focus is on action, with measurable, near-term results.",
+      "zhMarkdown": "对于早期创业公司来说，专注具有双重重要性。因为他们不仅面临着上百个不同的问题，而且除了创始人之外，没有其他人手来解决这些问题。如果创始人把精力放在无关紧要的事情上，就没人去关注真正重要的事情了。因此，YC 工作的本质就是找出最关键的问题，然后想出解决办法——最好是以周为单位来推进——接着尝试这些想法并评估效果。我们的重点在于行动，以及可衡量的短期成果。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "f7c7f68df7b3df9c4fdcd008830678691cd3e667bf580a828a93db4c1cc2bdb4",
+      "enMarkdown": "This doesn't imply that founders should rush forward regardless of the consequences. If you correct course at a high enough frequency, you can be simultaneously decisive at a micro scale and tentative at a macro scale. The result is a somewhat winding path, but executed very rapidly, like the path a running back takes downfield. And in practice there's less backtracking than you might expect. Founders usually guess right about which direction to run in, especially if they have someone experienced like a YC partner to bounce their hypotheses off. And when they guess wrong, they notice fast, because they'll talk about the results at office hours the next week. [[5](#f5n)]",
+      "zhMarkdown": "这并不意味着创始人应该不顾后果地盲目冲锋。如果你能保持极高频的航向修正，你就可以在微观尺度上果断行事，同时在宏观尺度上保持试探。其结果是一条有些曲折但推进极快的路径，就像橄榄球跑卫在场上变向奔跑一样。在实践中，走回头路的情况比你想象的要少。创始人通常能猜对奔跑的方向，尤其是当他们有像 YC 合伙人这样经验丰富的人来探讨假设时。一旦他们猜错了，也能很快察觉，因为在下周的咨询时间里他们就会讨论结果。[[5](#f5n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "29776d40a34185d5a5f439920171b52c92ceef195c2dee08dd31d4d7f6b818a4",
+      "enMarkdown": "A small improvement in navigational ability can make you a lot faster, because it has a double effect: the path is shorter, and you can travel faster along it when you're more certain it's the right one. That's where a lot of YC's value lies, in helping founders get an extra increment of focus that lets them move faster. And since moving fast is the essence of a startup, YC in effect makes startups more startup-like.",
+      "zhMarkdown": "导航能力的微小提升能让你跑得快得多，因为这会产生双重效应：路径变短了，而且当你更确信方向正确时，你的行进速度也会更快。这正是 YC 的一大价值所在：帮助创始人获得额外的专注力，从而让他们行动得更快。既然快速行动是创业公司的灵魂，YC 实际上让创业公司变得更具“创业范儿”了。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "b76c06dd1c952637767bff56f1114685dcfc449c51d3e4b0f060b5b88f0c192d",
+      "enMarkdown": "Speed defines startups. Focus enables speed. YC improves focus.",
+      "zhMarkdown": "速度定义了创业公司。专注实现了速度。YC 提升了专注。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "12104a13abf35fa88cc07405c3c3eef5c45443df1b2b82436d2dc1f2565debcf",
+      "enMarkdown": "Why are founders uncertain about what to do? Partly because startups almost by definition are doing something new, which means no one knows how to do it yet, or in most cases even what \"it\" is. Partly because startups are so counterintuitive generally. And partly because many founders, especially young and ambitious ones, have been trained to win the wrong way. That took me years to figure out. The educational system in most countries trains you to win by [hacking the test](https://paulgraham.com/lesson.html) instead of actually doing whatever it's supposed to measure. But that stops working when you start a startup. So part of what YC does is to retrain founders to stop trying to hack the test. (It takes a surprisingly long time. A year in, you still see them reverting to their old habits.)",
+      "zhMarkdown": "为什么创始人会对该做什么感到迷茫？部分原因在于，创业公司几乎从定义上来说就是在做全新的事情，这意味着没人知道该怎么做，甚至在大多数情况下连“它”到底是什么都不知道。部分原因在于，创业这整件事通常都是反直觉的。还有部分原因在于，许多创始人（尤其是年轻且有野心的创始人）一直接受的训练是用错误的方式去赢。我花了好几年才想明白这一点。大多数国家的教育体系训练你通过[应试套路](https://paulgraham.com/lesson.html)来获胜，而不是真正去做考试所要衡量的事情。但一旦你开始创业，这一套就不灵了。所以 YC 的部分工作，就是重新训练创始人，让他们别再试图去钻考试的空子。（这需要惊人的时间。即便过了一年，你依然能看到他们重操旧业。）"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "d0ce2459e81ca819d11b8c50c5d316aa92b31a4d70295f54348add053d0f122a",
+      "enMarkdown": "YC is not simply more experienced founders passing on their knowledge. It's more like specialization than apprenticeship. The knowledge of the YC partners and the founders have different shapes: It wouldn't be worthwhile for a founder to acquire the encyclopedic knowledge of startup problems that a YC partner has, just as it wouldn't be worthwhile for a YC partner to acquire the depth of domain knowledge that a founder has. That's why it can still be valuable for an experienced founder to do YC, just as it can still be valuable for an experienced athlete to have a coach.",
+      "zhMarkdown": "YC 不仅仅是经验更丰富的创始人传授知识。它更像是一种分工，而不是学徒制。YC 合伙人和创始人的知识结构是不同的：创始人去获取 YC 合伙人那样百科全书式的创业问题知识是不划算的，同样，YC 合伙人去获取创始人那样深度的行业垂直知识也是不划算的。这就是为什么即使是经验丰富的创始人，参加 YC 依然大有裨益，就像经验丰富的运动员依然需要教练一样。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "e64289da7a22b5319091193db85803cddebe2694a6522b67aac99fe94578f8a0",
+      "enMarkdown": "The other big thing YC gives founders is colleagues, and this may be even more important than the advice of partners. If you look at history, great work clusters around certain places and institutions: Florence in the late 15th century, the University of G�ttingen in the late 19th, *The New Yorker* under Ross, Bell Labs, Xerox PARC. However good you are, good colleagues make you better. Indeed, very ambitious people probably need colleagues more than anyone else, because they're so starved for them in everyday life.",
+      "zhMarkdown": "YC 带给创始人的另一个巨大收获是同伴，这甚至可能比合伙人的建议更重要。纵观历史，伟大的工作总是聚集在某些特定的地方和机构：15 世纪末的佛罗伦萨、19 世纪末的哥廷根大学、罗斯治下的《纽约客》、贝尔实验室、施乐帕罗奥多研究中心（Xerox PARC）。无论你有多优秀，优秀的同伴都会让你变得更优秀。事实上，极具野心的人可能比任何人都更需要同伴，因为他们在日常生活中太缺乏同伴了。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "50d81a82ec7ab07fd5067a1f2c15daa2278e9a1f0743ddf8ddeffb4120f22e6a",
+      "enMarkdown": "Whether or not YC manages one day to be listed alongside those famous clusters, it won't be for lack of trying. We were very aware of this historical phenomenon and deliberately designed YC to be one. By this point it's not bragging to say that it's the biggest cluster of great startup founders. Even people trying to attack YC concede that.",
+      "zhMarkdown": "无论 YC 有朝一日能否与这些著名的群落并列，我们都已倾尽全力。我们非常清楚这种历史现象，并刻意将 YC 设计成这样一个群落。时至今日，说它是最顶尖创业创始人的最大聚集地，绝非吹嘘。即使是那些试图抹黑 YC 的人也不得不承认这一点。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "588d0dfefd76d80848fa367ab8e7e92466137458c75e956a8a43f9e253d0d8e8",
+      "enMarkdown": "Colleagues and startup founders are two of the most powerful forces in the world, so you'd expect it to have a big effect to combine them. Before YC, to the extent people thought about the question at all, most assumed they couldn't be combined — that loneliness was the price of independence. That was how it felt to us when we started our own startup in Boston in the 1990s. We had a handful of older people we could go to for advice (of varying quality), but no peers. There was no one we could commiserate with about the misbehavior of investors, or speculate with about the future of technology. I often tell founders to make something they themselves want, and YC is certainly that: it was designed to be exactly what we wanted when we were starting a startup.",
+      "zhMarkdown": "同伴和创业创始人是世界上最强大的两股力量，所以你完全可以预料到，将他们结合在一起会产生巨大的化学反应。在 YC 之前，即便有人思考过这个问题，大多也认为两者无法兼得——孤独是独立的代价。我们在 20 世纪 90 年代在波士顿创办自己的公司时就是这种感觉。我们可以向少数年长的人寻求建议（质量参差不齐），但没有同辈。没有人可以让我们一起倾诉投资人的恶行，或者共同畅想技术的未来。我经常告诉创始人要做自己想要的东西，而 YC 无疑就是这样：它的设计初衷，完全就是我们在创业之初最渴望得到的东西。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "b7f914010396706c76984b135888d1188a032512f5f682af0d371dc24c12b0ef",
+      "enMarkdown": "One thing we wanted was to be able to get seed funding without having to make the rounds of random rich people. That has become a commodity now, at least in the US. But great colleagues can never become a commodity, because the fact that they cluster in some places means they're proportionally absent from the rest.",
+      "zhMarkdown": "我们当时想要的一件事，就是能够获得种子资金，而不用去挨个拜访那些随机的富人。现在这已经变成了标配，至少在美国是这样。但是，优秀的同伴永远不会变成标配，因为他们聚集在某些地方，就意味着在其他地方按比例缺席了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "3a213dca8d6d2600e7dd934a3456325d5dbaf89f8132fb00986a034fa663d468",
+      "enMarkdown": "Something magical happens where they do cluster though. The energy in the room at a YC dinner is like nothing else I've experienced. We would have been happy just to have one or two other startups to talk to. When you have a whole roomful it's another thing entirely.",
+      "zhMarkdown": "不过，在他们聚集的地方，奇迹就会发生。YC 晚餐会上的那种能量，是我在其他任何地方都未曾体验过的。当时我们只要能有一两家其他的创业公司聊聊天就会很开心了。当你面对满屋子的同行时，那完全是另一回事。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "dc4e82da37a148ca2862e7e9430ad14ad4b017cd28f8b24a82d7b7a30dca7bab",
+      "enMarkdown": "YC founders aren't just inspired by one another. They also help one another. That's the happiest thing I've learned about startup founders: how generous they can be in helping one another. We noticed this in the first batch and consciously designed YC to magnify it. The result is something far more intense than, say, a university. Between the partners, the alumni, and their batchmates, founders are surrounded by people who want to help them, and can.",
+      "zhMarkdown": "YC 的创始人之间不仅相互启发，还互相帮助。关于创业创始人，我学到的最令人欣慰的一点就是：他们在互相帮助时是多么慷慨。我们在第一届就注意到了这一点，并有意识地设计 YC 来放大这种效应。其结果是一种远比大学更紧密的关系。在合伙人、校友以及同届同学之间，创始人被一群想要帮助他们、且有能力提供帮助的人所包围。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "358b453a80e600ecd9ecc84b573198c8d7856e8827533655b02f36bcaf08d7a7",
+      "enMarkdown": "[1] This is why I've never liked it when people refer to YC as a \"bootcamp.\" It's intense like a bootcamp, but the opposite in structure. Instead of everyone doing the same thing, they're each talking to YC partners to figure out what their specific startup needs.",
+      "zhMarkdown": "[1] 这就是为什么我一直不喜欢人们把 YC 称为“创业训练营”。它虽然像训练营一样紧张，但在结构上恰恰相反。它不是让每个人都做同样的事情，而是让每个人都与 YC 合伙人交流，以找出他们特定创业公司的具体需求。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "25deb3c30898ea8af6a888d28fadcc02a99c90ec26c62fc5d3494136a1eb3729",
+      "enMarkdown": "[2] When I say the summer 2012 batch was broken, I mean it felt to the partners that something was wrong. Things weren't yet so broken that the startups had a worse experience. In fact that batch did unusually well.",
+      "zhMarkdown": "[2] 当我说 2012 年夏季那一届搞砸了时，我的意思是合伙人们感觉有些不对劲。事情还没糟糕到影响创业公司体验的地步。事实上，那一届的发展出奇地好。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "b5c3f0df6211a64376ae7a90d47923ef777bbe6b5b4c3c8ab5b11e7daa6aaf83",
+      "enMarkdown": "[3] This situation reminds me of the research showing that people are much better at answering questions than they are at judging how accurate their answers are. The two phenomena feel very similar.",
+      "zhMarkdown": "[3] 这种情况让我想起了一项研究，该研究表明，人们回答问题的能力，远好于他们判断自己答案准确性的能力。这两种现象感觉非常相似。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "32ba2615a35c8260b8f8fd8f3e1dbdd099a6096a843bae89d52f74ed21d5df25",
+      "enMarkdown": "[4] The [Airbnbs](https://paulgraham.com/airbnbs.html) were particularly good at listening — partly because they were flexible and disciplined, but also because they'd had such a rough time during the preceding year. They were ready to listen.",
+      "zhMarkdown": "[4] [Airbnb](https://paulgraham.com/airbnbs.html) 的创始人们尤其擅长倾听——部分原因在于他们灵活且有纪律性，但也因为他们在前一年过得非常艰难。他们已经准备好倾听了。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "389e68099b11806973c753994d2fa0b22bfd41e21ca2058a0aee3dfd48adf979",
+      "enMarkdown": "[5] The optimal unit of decisiveness depends on how long it takes to get results, and that depends on the type of problem you're solving. When you're negotiating with investors, it could be a couple days, whereas if you're building hardware it could be months.",
+      "zhMarkdown": "[5] 决策的最佳周期取决于获取结果所需的时间，而这又取决于你所解决的问题类型。当你与投资人谈判时，可能需要几天时间，而如果你在做硬件，则可能需要几个月。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "b96c283a4d14f9ebb815721d5b5914ddfd276a5f8e011e3e3682f05a53d9ce88",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston、Harj Taggar 和 Garry Tan 阅读本文的草稿。"
+    }
+  ]
+}

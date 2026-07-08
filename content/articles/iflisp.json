@@ -1,0 +1,97 @@
+{
+  "slug": "iflisp",
+  "titleEn": "If Lisp is So Great",
+  "titleZh": "既然 Lisp 这么棒",
+  "dateText": "May 2003",
+  "publishedAt": "2003-05-01",
+  "sourceOrder": 206,
+  "sourceUrl": "https://paulgraham.com/iflisp.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ee49b843edb7f659f6267c9f75961ed9559ac46987470dd00b10785cdeeaf092",
+      "enMarkdown": "If Lisp is so great, why don't more people use it? I was asked this question by a student in the audience at a talk I gave recently. Not for the first time, either.",
+      "zhMarkdown": "既然 Lisp 这么棒，为什么用它的人不多？在我最近的一次演讲中，台下的一位学生问了我这个问题。而且，这已经不是我第一次被问到了。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "41559d0b4133265898df1e2b91238204bacbc1a2b4c5918bf3aafddb74e482b0",
+      "enMarkdown": "In languages, as in so many things, there's not much correlation between popularity and quality. Why does John Grisham (*King of Torts* sales rank, 44) outsell Jane Austen (*Pride and Prejudice* sales rank, 6191)? Would even Grisham claim that it's because he's a better writer?",
+      "zhMarkdown": "在语言领域，就像在许多其他事情上一样，流行程度与质量之间并没有太大的关联。为什么约翰·格里森姆（《诉讼之王》销量排名第 44 位）的销量会超过简·奥斯汀（《傲慢与偏见》销量排名第 6191 位）？难道连格里森姆自己也会声称这是因为他是一个更好的作家吗？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d2f10a7e5a6a1af3bfdb1173861e1be02ec23b5a09ac80c24ed292364f0c0311",
+      "enMarkdown": "Here's the first sentence of *Pride and Prejudice:*",
+      "zhMarkdown": "以下是《傲慢与偏见》的第一句话："
+    },
+    {
+      "id": 4,
+      "type": "quote",
+      "sourceHash": "8a205c699c413b577ff86443488e9b53c7afe26373c5365bf17950470e5a9ea1",
+      "enMarkdown": "> It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.",
+      "zhMarkdown": "> 凡是有钱的单身汉，总想娶位太太，这已经成了一条举世公认的真理。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "38ff33446494e1352a00cf625393545c7f5825bc30ddad06011986fd4a3b61f1",
+      "enMarkdown": "\"It is a truth universally acknowledged?\" Long words for the first sentence of a love story.",
+      "zhMarkdown": "“一条举世公认的真理？”作为一个爱情故事的第一句话，这些词可够深奥的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "28193c6bce94a20949800efdfcf68bd5b8b0cdfe480c3277ed233674982317f5",
+      "enMarkdown": "Like Jane Austen, Lisp looks hard. Its syntax, or lack of syntax, makes it look completely [unlike](https://sep.turbifycdn.com/ty/cdn/paulgraham/acl2.lisp?t=1772732230&) the languages most people are used to. Before I learned Lisp, I was afraid of it too. I recently came across a notebook from 1983 in which I'd written:",
+      "zhMarkdown": "就像简·奥斯汀的小说一样，Lisp 看起来很难。它的语法——或者说缺乏语法的特点——让它看起来与大多数人习惯的语言完全[不同](https://sep.turbifycdn.com/ty/cdn/paulgraham/acl2.lisp?t=1772732230&)。在我学会 Lisp 之前，我也对它心存敬畏。我最近翻到了一个 1983 年的笔记本，里面写着："
+    },
+    {
+      "id": 7,
+      "type": "quote",
+      "sourceHash": "b2454bd5856cd0badda317f9855e47d83f7113332e8d9e2ae99683e20697a7ad",
+      "enMarkdown": "> I suppose I should learn Lisp, but it seems so foreign.",
+      "zhMarkdown": "> 我想我应该学学 Lisp，但它看起来太陌生了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "0addbdabe001357ae2bc5aaa7fd933433e219d024b5a6806df01fefb4f5af29d",
+      "enMarkdown": "Fortunately, I was 19 at the time and not too resistant to learning new things. I was so ignorant that learning almost anything meant learning new things.",
+      "zhMarkdown": "幸运的是，我当时只有 19 岁，对学习新事物并没有太大的抵触。那时我还很无知，所以学习几乎任何东西都意味着要接触新事物。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "599e6a2419bf6396fbcdbb227fd776f824ba3539881f8c332f96de28388ae201",
+      "enMarkdown": "People frightened by Lisp make up other reasons for not using it. The standard excuse, back when C was the default language, was that Lisp was too slow. Now that Lisp dialects are among the [faster](http://shootout.alioth.debian.org/benchmark.php?test=nestedloop&lang=all&sort=cpu) languages available, that excuse has gone away. Now the standard excuse is openly circular: that other languages are more popular.",
+      "zhMarkdown": "被 Lisp 吓倒的人会编造其他不用它的理由。在 C 语言还是默认语言的时代，标准的借口是 Lisp 太慢了。现在，Lisp 的方言已经属于运行[最快](http://shootout.alioth.debian.org/benchmark.php?test=nestedloop&lang=all&sort=cpu)的语言之列，这个借口也就站不住脚了。如今，标准的借口变成了公开的循环论证：因为其他语言更流行。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "13c9313fe52bcef308ea3617c3855f46e6a35fc3ca303d6eb2d3681f2b5e89b8",
+      "enMarkdown": "(Beware of such reasoning. It gets you Windows.)",
+      "zhMarkdown": "（警惕这种逻辑。它会让你用上 Windows。）"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "ece2f36327b0273d49a614b77553a42077d3faeb3c3a36e03383c40746926dff",
+      "enMarkdown": "Popularity is always self-perpetuating, but it's especially so in programming languages. More libraries get written for popular languages, which makes them still more popular. Programs often have to work with existing programs, and this is easier if they're written in the same language, so languages spread from program to program like a virus. And managers prefer popular languages, because they give them more leverage over developers, who can more easily be replaced.",
+      "zhMarkdown": "流行总是会自我强化，在编程语言中尤其如此。人们会为流行的语言编写更多的库，这反过来又让它们变得更流行。程序往往需要与现有的程序协同工作，如果它们是用同一种语言编写的，就会容易得多，因此语言会像病毒一样在程序之间传播。而且管理者更喜欢流行的语言，因为这让他们对开发人员有更多的控制权，因为后者更容易被替换。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "3c616c1f11174e66a1ba7d8fe68a5ce2d4c661a22ddfac3a12253cbc76418a09",
+      "enMarkdown": "Indeed, if programming languages were all more or less equivalent, there would be little justification for using any but the most popular. But they [aren't](https://paulgraham.com/icad.html) all equivalent, not by a long shot. And that's why less popular languages, like Jane Austen's novels, continue to survive at all. When everyone else is reading the latest John Grisham novel, there will always be a few people reading Jane Austen instead.",
+      "zhMarkdown": "事实上，如果编程语言都大同小异，那么除了最流行的语言之外，就没有理由使用其他任何语言了。但它们并不是[等价](https://paulgraham.com/icad.html)的，差得远呢。这就是为什么像简·奥斯汀的小说一样，不那么流行的语言依然能够生存下来的原因。当所有人都在读约翰·格里森姆最新的畅销书时，总会有那么几个人在读简·奥斯汀。"
+    }
+  ]
+}

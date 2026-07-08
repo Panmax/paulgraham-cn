@@ -1,0 +1,1196 @@
+{
+  "slug": "worked",
+  "titleEn": "What I Worked On",
+  "titleZh": "我的写作与编程历程",
+  "dateText": "February 2021",
+  "publishedAt": "2021-02-01",
+  "sourceOrder": 37,
+  "sourceUrl": "https://paulgraham.com/worked.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b333d380543cae013ef55cb5764d6174ee8e60947efd80394d3bc3fcdee0457c",
+      "enMarkdown": "Before college the two main things I worked on, outside of school, were writing and programming. I didn't write essays. I wrote what beginning writers were supposed to write then, and probably still are: short stories. My stories were awful. They had hardly any plot, just characters with strong feelings, which I imagined made them deep.",
+      "zhMarkdown": "上大学前，在学校课程之外，我主要折腾两件事：写作和编程。那时我不写文章（essays）。我写的是那个时期初学写作的人该写的东西，可能现在也一样：短篇小说。我的小说写得很烂。几乎没有什么情节，只有一堆感情强烈的人物，我当时还以为这样写很有深度。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "9e0384284f8859b1c3f3d1e2c28c07d15e0d9df27d3bd342f5160035852e5708",
+      "enMarkdown": "The first programs I tried writing were on the IBM 1401 that our school district used for what was then called \"data processing.\" This was in 9th grade, so I was 13 or 14. The school district's 1401 happened to be in the basement of our junior high school, and my friend Rich Draves and I got permission to use it. It was like a mini Bond villain's lair down there, with all these alien-looking machines � CPU, disk drives, printer, card reader � sitting up on a raised floor under bright fluorescent lights.",
+      "zhMarkdown": "我尝试写的第一批程序是在一台 IBM 1401 上运行的，当时我们学区用它来做所谓的“数据处理”。那是九年级，我大概十三四岁。学区的那台 1401 刚好放在我们初中的地下室里，我和朋友 Rich Draves 得到了使用许可。那地下室就像个迷你版《007》反派的秘密基地：在明亮的荧光灯下，架高的地板上整齐地摆放着 CPU、磁盘驱动器、打印机、读卡机等一堆看起来像外星造物的机器。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "85a68d0f93c88a315481f2cd3347c44b8ccc097e86dca30f74986d962003c5b0",
+      "enMarkdown": "The language we used was an early version of Fortran. You had to type programs on punch cards, then stack them in the card reader and press a button to load the program into memory and run it. The result would ordinarily be to print something on the spectacularly loud printer.",
+      "zhMarkdown": "我们当时使用的语言是早期版本的 Fortran。你必须在打孔卡上打出程序，然后把它们叠好放进读卡机，按下按钮将程序载入内存并运行。运行结果通常是那台噪音大得惊人的打印机打印出来的东西。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a996becf4703cb794577edcc17bf10ad22c8759439dccda0e29a54291d8c45f2",
+      "enMarkdown": "I was puzzled by the 1401. I couldn't figure out what to do with it. And in retrospect there's not much I could have done with it. The only form of input to programs was data stored on punched cards, and I didn't have any data stored on punched cards. The only other option was to do things that didn't rely on any input, like calculate approximations of pi, but I didn't know enough math to do anything interesting of that type. So I'm not surprised I can't remember any programs I wrote, because they can't have done much. My clearest memory is of the moment I learned it was possible for programs not to terminate, when one of mine didn't. On a machine without time-sharing, this was a social as well as a technical error, as the data center manager's expression made clear.",
+      "zhMarkdown": "这台 1401 让我很困惑。我搞不懂能用它来做什么。现在回想起来，我当时确实也做不了什么。程序唯一的输入形式是存储在打孔卡上的数据，而我根本没有任何打孔卡数据。唯一的另一种选择是做一些不依赖任何输入的事情，比如计算圆周率的近似值，但我懂的数学太少，做不出什么好玩的东西。所以我记不得自己写过什么程序也就不奇怪了，因为它们肯定没起什么作用。我最清晰的记忆，是当我写的一个程序没有停下来时，我才意识到程序是有可能无法终止的。在没有分时系统的机器上，这不仅是技术错误，更是一种社交灾难，这一点从数据中心经理的表情上就能看得一清二楚。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1a0a36271f6c52d67a600c769f496eb562ab4d8659fb42e32306ebade607f0fa",
+      "enMarkdown": "With microcomputers, everything changed. Now you could have a computer sitting right in front of you, on a desk, that could respond to your keystrokes as it was running instead of just churning through a stack of punch cards and then stopping. [[1](#f1n)]",
+      "zhMarkdown": "微型计算机的出现改变了一切。现在，你可以让一台电脑直接摆在眼前的桌子上。它可以在运行时响应你的按键，而不是只顾着吞吐一叠打孔卡然后停机。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3d447156450d38954174436e12a4d8649f664f4b947c05e98fa3b75c13df9b7f",
+      "enMarkdown": "The first of my friends to get a microcomputer built it himself. It was sold as a kit by Heathkit. I remember vividly how impressed and envious I felt watching him sitting in front of it, typing programs right into the computer.",
+      "zhMarkdown": "我朋友中第一个拥有微型计算机的人是自己组装的。那是 Heathkit 销售的一套组装套件。我至今还清晰地记得，看着他坐在电脑前直接把程序敲进电脑时，我是多么佩服和嫉妒。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "81dacf267c50a3c48065f57fee7769d33110f7f47efbc546042aa117d8beaff2",
+      "enMarkdown": "Computers were expensive in those days and it took me years of nagging before I convinced my father to buy one, a TRS-80, in about 1980. The gold standard then was the Apple II, but a TRS-80 was good enough. This was when I really started programming. I wrote simple games, a program to predict how high my model rockets would fly, and a word processor that my father used to write at least one book. There was only room in memory for about 2 pages of text, so he'd write 2 pages at a time and then print them out, but it was a lot better than a typewriter.",
+      "zhMarkdown": "那时候电脑很贵。我缠了父亲好几年，终于在 1980 年左右说服他买了一台 TRS-80。当时行业的黄金标准是 Apple II，但 TRS-80 也足够好了。就在这时，我真正开始了编程。我写过简单的游戏，写过一个预测我的模型火箭能飞多高的程序，还写过一个字处理器——我父亲用它写了至少一本书。因为内存有限，一次只能容纳大约两页的文本，所以他得一次写两页然后打印出来，但这已经比打字机好太多了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "e97eee42627db5773332af4096e98563849af4a5cec5c418a3e28ecbb304468c",
+      "enMarkdown": "Though I liked programming, I didn't plan to study it in college. In college I was going to study philosophy, which sounded much more powerful. It seemed, to my naive high school self, to be the study of the ultimate truths, compared to which the things studied in other fields would be mere domain knowledge. What I discovered when I got to college was that the other fields took up so much of the space of ideas that there wasn't much left for these supposed ultimate truths. All that seemed left for philosophy were edge cases that people in other fields felt could safely be ignored.",
+      "zhMarkdown": "虽然我喜欢编程，但我没打算在大学里学它。我准备在大学里读哲学，这听起来要强大得多。在我天真的高中自我看来，哲学是对终极真理的研究，相比之下，其他领域研究的东西不过是些具体的行业知识。然而，当我上了大学才发现，其他领域几乎把思想的空间占满了，留给这些所谓终极真理的地方所剩无几。哲学似乎只剩下了其他领域的人认为可以安全忽略的边缘案例。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a5e507c1feb6c756c4359b1d354bcf23f53762fb0ea61fc00f8ec86d166c11a0",
+      "enMarkdown": "I couldn't have put this into words when I was 18. All I knew at the time was that I kept taking philosophy courses and they kept being boring. So I decided to switch to AI.",
+      "zhMarkdown": "18 岁时的我还没法把这些想法付诸文字。当时我只知道，我一直在选修哲学课，而它们一直很无聊。于是我决定转向人工智能（AI）。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "46220cf28c97e21da71813b30fbc66563d8fb5925e6dd58a8f374ac18b72be06",
+      "enMarkdown": "AI was in the air in the mid 1980s, but there were two things especially that made me want to work on it: a novel by Heinlein called *The Moon is a Harsh Mistress*, which featured an intelligent computer called Mike, and a PBS documentary that showed Terry Winograd using SHRDLU. I haven't tried rereading *The Moon is a Harsh\nMistress*, so I don't know how well it has aged, but when I read it I was drawn entirely into its world. It seemed only a matter of time before we'd have Mike, and when I saw Winograd using SHRDLU, it seemed like that time would be a few years at most. All you had to do was teach SHRDLU more words.",
+      "zhMarkdown": "20 世纪 80 年代中期，AI 的概念正风靡一时，但有两件事特别促使我想去研究它：一是海因莱因的小说《月亮是一个严厉的妇人》，里面有一个叫 Mike 的智能电脑；二是 PBS 的一部纪录片，展示了特里·温诺格拉德（Terry Winograd）使用 SHRDLU 的场景。我没有尝试去重读《月亮是一个严厉的妇人》，所以我不知道它是否经得起时间的考验，但当年读它时，我完全被带入了那个世界。拥有 Mike 似乎只是时间问题，而当我看到温诺格拉德使用 SHRDLU 时，我觉得这一天最多也就几年就会到来。你所要做的就是教 SHRDLU 更多的词汇。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "b030c5c73e50df84e5cde03cb40af35d0fbfee239ec00c8b08288b5987261ed8",
+      "enMarkdown": "There weren't any classes in AI at Cornell then, not even graduate classes, so I started trying to teach myself. Which meant learning Lisp, since in those days Lisp was regarded as the language of AI. The commonly used programming languages then were pretty primitive, and programmers' ideas correspondingly so. The default language at Cornell was a Pascal-like language called PL/I, and the situation was similar elsewhere. Learning Lisp expanded my concept of a program so fast that it was years before I started to have a sense of where the new limits were. This was more like it; this was what I had expected college to do. It wasn't happening in a class, like it was supposed to, but that was ok. For the next couple years I was on a roll. I knew what I was going to do.",
+      "zhMarkdown": "当时康奈尔大学还没有任何 AI 课程，甚至连研究生课都没有，所以我开始尝试自学。这意味着要学 Lisp，因为在那个年代，Lisp 被视为 AI 的专属语言。当时常用的编程语言都相当原始，程序员的想法也同样原始。康奈尔大学默认的语言是一种类似于 Pascal、名为 PL/I 的语言，其他地方的情况也差不多。学习 Lisp 迅速拓宽了我对程序的认知，以至于过了好几年，我才开始摸到它新边界的边缘。这才是我想象中大学该有的样子。虽然它没有像预期的那样发生在课堂上，但这没关系。接下来的几年里，我干劲十足。我知道自己要做什么了。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "0dff695a373fa1274bc709e15505f67456576a838885cc98d1f05711573770d7",
+      "enMarkdown": "For my undergraduate thesis, I reverse-engineered SHRDLU. My God did I love working on that program. It was a pleasing bit of code, but what made it even more exciting was my belief � hard to imagine now, but not unique in 1985 � that it was already climbing the lower slopes of intelligence.",
+      "zhMarkdown": "在我的本科毕业论文中，我逆向工程了 SHRDLU。天呐，我太热爱折腾那个程序了。那是一段令人赏心悦目的代码，但更让我兴奋的是我当时坚信——现在很难想象，但在 1985 年并非个别现象——它已经开始攀登智能的低坡了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "ce3231f436b356c4d86ae76ad991bdf51ca2956acb2d915112564681e4ad7712",
+      "enMarkdown": "I had gotten into a program at Cornell that didn't make you choose a major. You could take whatever classes you liked, and choose whatever you liked to put on your degree. I of course chose \"Artificial Intelligence.\" When I got the actual physical diploma, I was dismayed to find that the quotes had been included, which made them read as scare-quotes. At the time this bothered me, but now it seems amusingly accurate, for reasons I was about to discover.",
+      "zhMarkdown": "我参加了康奈尔大学一个不用选专业的项目。你可以选修任何你喜欢的课程，也可以在学位证书上写上任何你想写的内容。我当然选了“人工智能”。当我拿到实体毕业证书时，沮丧地发现上面居然保留了双引号，这让它们看起来像是带有讽刺意味的引号。当时这让我很烦恼，但现在看来，这却讽刺般地准确，原因我很快就发现了。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "c580fdad173552b2a38ccee0e23eaebc3f26081551d9d5862c8f97594b7d2d73",
+      "enMarkdown": "I applied to 3 grad schools: MIT and Yale, which were renowned for AI at the time, and Harvard, which I'd visited because Rich Draves went there, and was also home to Bill Woods, who'd invented the type of parser I used in my SHRDLU clone. Only Harvard accepted me, so that was where I went.",
+      "zhMarkdown": "我申请了三所研究生院：麻省理工学院（MIT）和耶鲁大学（当时在 AI 领域享有盛誉），以及哈佛大学。我去哈佛参观过，因为 Rich Draves 在那里，而且哈佛也是比尔·伍兹（Bill Woods）的所在地——他发明了我写 SHRDLU 克隆版时使用的那种解析器。最后只有哈佛录取了我，于是我就去了哈佛。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "93584d5ec2e426d58810c897f649aded4b51a88137900520f8208d7f25163847",
+      "enMarkdown": "I don't remember the moment it happened, or if there even was a specific moment, but during the first year of grad school I realized that AI, as practiced at the time, was a hoax. By which I mean the sort of AI in which a program that's told \"the dog is sitting on the chair\" translates this into some formal representation and adds it to the list of things it knows.",
+      "zhMarkdown": "我不记得具体是哪一刻发生的，甚至不知道有没有这样一个特定的时刻，但在读研的第一年里，我意识到当时所实践的 AI 其实是一场骗局。我指的是那种所谓的 AI：当程序被告知“狗坐在椅子上”时，它会将这句话翻译成某种形式化的表达，并将其添加到它所知道的事物列表中。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "4cae8868d7feec9b657aca8f4a267ab7a36e6957a3b4c885bbafde0952fb375d",
+      "enMarkdown": "What these programs really showed was that there's a subset of natural language that's a formal language. But a very proper subset. It was clear that there was an unbridgeable gap between what they could do and actually understanding natural language. It was not, in fact, simply a matter of teaching SHRDLU more words. That whole way of doing AI, with explicit data structures representing concepts, was not going to work. Its brokenness did, as so often happens, generate a lot of opportunities to write papers about various band-aids that could be applied to it, but it was never going to get us Mike.",
+      "zhMarkdown": "这些程序真正展示的，只是自然语言中存在一个属于形式语言的子集。但这是一个非常小的子集。很明显，它们能做的事情与真正理解自然语言之间存在着一条无法逾越的鸿沟。事实上，这根本不是多教 SHRDLU 几个词就能解决的问题。那种用显式数据结构来表示概念的 AI 研究路径是行不通的。如同通常发生的那样，这种研究路径的破产确实产生了很多撰写论文的机会，去讨论各种可以打上的补丁，但它永远无法带给我们像 Mike 那样的智能。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "31d649683c371dd4242afb885c5ab7b35af267e07f2fef4031a20a969d7a6349",
+      "enMarkdown": "So I looked around to see what I could salvage from the wreckage of my plans, and there was Lisp. I knew from experience that Lisp was interesting for its own sake and not just for its association with AI, even though that was the main reason people cared about it at the time. So I decided to focus on Lisp. In fact, I decided to write a book about Lisp hacking. It's scary to think how little I knew about Lisp hacking when I started writing that book. But there's nothing like writing a book about something to help you learn it. The book, *On Lisp*, wasn't published till 1993, but I wrote much of it in grad school.",
+      "zhMarkdown": "于是，我四处看看，想从我那破灭的计划废墟中抢救出点什么，结果发现了 Lisp。我从经验中知道，Lisp 本身就很有趣，而不仅仅是因为它与 AI 的联系，尽管那是当时人们关注它的主要原因。所以我决定专注于 Lisp。事实上，我决定写一本关于 Lisp 黑客技术的书。现在想想，当我开始写那本书时，我对 Lisp 黑客技术的了解少得可怜，这实在令人后怕。但是，没有什么比写一本关于某个主题的书更能帮你掌握它了。这本书《On Lisp》直到 1993 年才出版，但我大部分内容都是在读研时写的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "eb1361397071d42a58143ab27e35a4ea2047769f840e7a1b52aa0e83586f78db",
+      "enMarkdown": "Computer Science is an uneasy alliance between two halves, theory and systems. The theory people prove things, and the systems people build things. I wanted to build things. I had plenty of respect for theory � indeed, a sneaking suspicion that it was the more admirable of the two halves � but building things seemed so much more exciting.",
+      "zhMarkdown": "计算机科学是理论和系统这两半之间勉强的联盟。理论界的人证明定理，系统界的人构建系统。我想构建系统。我对理论充满敬意——甚至暗自觉得它是两者中更令人钦佩的一半——但构建系统看起来要让人兴奋得多。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "42534199aa07369412c6fa263d636a08adad8b8d3a64cf384fa305e2144802e7",
+      "enMarkdown": "The problem with systems work, though, was that it didn't last. Any program you wrote today, no matter how good, would be obsolete in a couple decades at best. People might mention your software in footnotes, but no one would actually use it. And indeed, it would seem very feeble work. Only people with a sense of the history of the field would even realize that, in its time, it had been good.",
+      "zhMarkdown": "然而，系统工作的问题在于它无法持久。你今天写出的任何程序，无论多么优秀，最多几十年就会过时。人们可能会在脚注中提到你的软件，但没有人会真正去使用它。而且事实上，它看起来会非常简陋。只有对这个领域的历史有所了解的人，才会意识到它在那个时代是优秀的。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "606190e0640dfa1f07ad5c46bfe888a49d938293c84a98301fe5e14aac1db936",
+      "enMarkdown": "There were some surplus Xerox Dandelions floating around the computer lab at one point. Anyone who wanted one to play around with could have one. I was briefly tempted, but they were so slow by present standards; what was the point? No one else wanted one either, so off they went. That was what happened to systems work.",
+      "zhMarkdown": "有一阵子，计算机实验室里闲置着几台多余的 Xerox Dandelion 电脑。任何想拿去玩玩的人都可以拿走一台。我曾短暂地动过心，但按现在的标准来看，它们实在太慢了，这有什么意义呢？其他人也不想要，于是它们就被处理掉了。这就是系统工作的宿命。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "fb2e418e73d07f62575e601c4346b0b7bdcefdc91f310d9993846e2134da4622",
+      "enMarkdown": "I wanted not just to build things, but to build things that would last.",
+      "zhMarkdown": "我不仅想构建系统，还想构建能够流传下去的东西。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "65faf29f422d5f5fff5f326052c8ad2998f32b2853efd7bf269be18412054c05",
+      "enMarkdown": "In this dissatisfied state I went in 1988 to visit Rich Draves at CMU, where he was in grad school. One day I went to visit the Carnegie Institute, where I'd spent a lot of time as a kid. While looking at a painting there I realized something that might seem obvious, but was a big surprise to me. There, right on the wall, was something you could make that would last. Paintings didn't become obsolete. Some of the best ones were hundreds of years old.",
+      "zhMarkdown": "在 1988 年这种不满的状态下，我去卡内基梅隆大学（CMU）拜访了正在读研的 Rich Draves。有一天，我去了我小时候常去的卡内基美术馆。在看一幅画时，我突然意识到了一件看似显而易见、却让我大为吃惊的事情。就在那面墙上，挂着一些你可以创造出来并且能流传下去的东西。画作是不会过时的。其中一些最优秀的作品已经有几百年的历史了。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "12239442b63b0fde2e3a71413845bf66f134fd31647f4071682777c50bbe9501",
+      "enMarkdown": "And moreover this was something you could make a living doing. Not as easily as you could by writing software, of course, but I thought if you were really industrious and lived really cheaply, it had to be possible to make enough to survive. And as an artist you could be truly independent. You wouldn't have a boss, or even need to get research funding.",
+      "zhMarkdown": "而且，这也是一件可以赖以谋生的事情。当然，不像写软件那么容易，但我认为，如果你真的勤奋且生活极其简朴，赚到足够生存的钱是完全可能的。作为一名艺术家，你可以获得真正的独立。你不会有老板，甚至不需要去申请研究资金。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "86d857e06f4f8c4eab4984f7344cfad2d021950b938a3e71ee7bad627fefc209",
+      "enMarkdown": "I had always liked looking at paintings. Could I make them? I had no idea. I'd never imagined it was even possible. I knew intellectually that people made art � that it didn't just appear spontaneously � but it was as if the people who made it were a different species. They either lived long ago or were mysterious geniuses doing strange things in profiles in *Life* magazine. The idea of actually being able to make art, to put that verb before that noun, seemed almost miraculous.",
+      "zhMarkdown": "我一直喜欢看画。我能画吗？我毫无头绪。我以前从未想过这居然是可能的。我理智上知道艺术是人创作出来的——它不会凭空出现——但感觉创作艺术的人就像是另一个物种。他们要么生活在很久以前，要么是《生活》杂志人物专访里做着奇特事情的神秘天才。真正能够去“创作艺术”这个想法，把这个动词放在这个名词前面，感觉简直像个奇迹。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "0451eb8dbe61185a708953282921f3cf5c74028b6c6f16a643fe7934fd5bce49",
+      "enMarkdown": "That fall I started taking art classes at Harvard. Grad students could take classes in any department, and my advisor, Tom Cheatham, was very easy going. If he even knew about the strange classes I was taking, he never said anything.",
+      "zhMarkdown": "那年秋天，我开始在哈佛选修艺术课。研究生可以选修任何院系的课程，我的导师 Tom Cheatham 非常通情达理。如果他知道我选了这些奇怪的课，他也从未多说什么。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "9666bd49c64f8a9a926e133727de836950f25242f420eafa853fb8853a4cb20b",
+      "enMarkdown": "So now I was in a PhD program in computer science, yet planning to be an artist, yet also genuinely in love with Lisp hacking and working away at *On Lisp*. In other words, like many a grad student, I was working energetically on multiple projects that were not my thesis.",
+      "zhMarkdown": "所以，当时我一边在读计算机科学的博士，一边计划成为一名艺术家，同时又真心热爱着 Lisp 黑客技术，并埋头撰写《On Lisp》。换句话说，就像许多研究生一样，我正精力充沛地折腾着好几个与我毕业论文无关的项目。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "5fd84fec52275825626f68b42546f0eadb68e16adcb177271d10a1daab58d8af",
+      "enMarkdown": "I didn't see a way out of this situation. I didn't want to drop out of grad school, but how else was I going to get out? I remember when my friend Robert Morris got kicked out of Cornell for writing the internet worm of 1988, I was envious that he'd found such a spectacular way to get out of grad school.",
+      "zhMarkdown": "我看不出有什么办法能摆脱这种困境。我不想从研究生院退学，但除此之外我还能怎么脱身？我记得当我的朋友罗伯特·莫里斯（Robert Morris）因为写了 1988 年的互联网蠕虫病毒而被康奈尔大学开除时，我还挺嫉妒他找到了如此引人注目的脱身方式。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "bf59826cd55f0f8b31cb2d7051267bc9062b67728f93236a5cc802b3f0b5bb75",
+      "enMarkdown": "Then one day in April 1990 a crack appeared in the wall. I ran into professor Cheatham and he asked if I was far enough along to graduate that June. I didn't have a word of my dissertation written, but in what must have been the quickest bit of thinking in my life, I decided to take a shot at writing one in the 5 weeks or so that remained before the deadline, reusing parts of *On Lisp* where I could, and I was able to respond, with no perceptible delay \"Yes, I think so. I'll give you something to read in a few days.\"",
+      "zhMarkdown": "接着，在 1990 年 4 月的某天，墙壁上出现了一条裂缝。我碰巧遇到了 Cheatham 教授，他问我进度是否来得及在当年 6 月毕业。我当时连一字论文都没写，但在我一生中反应最快的一瞬间，我决定赌一把，在截止日期前剩下的 5 周左右时间里写出一篇论文来，能套用《On Lisp》部分的地方就尽量套用。我几乎毫不迟疑地回答：“是的，我想可以。过几天我给你一些章节看看。”"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "bd3b490a0714d31101942001f6d67ab414b95ca1a0d5c4dd5e43d1e2dac3afbb",
+      "enMarkdown": "I picked applications of continuations as the topic. In retrospect I should have written about macros and embedded languages. There's a whole world there that's barely been explored. But all I wanted was to get out of grad school, and my rapidly written dissertation sufficed, just barely.",
+      "zhMarkdown": "我选择将延续性（continuations）的应用作为主题。回想起来，我应该写宏（macros）和嵌入式语言的。那是一个几乎还未被探索的广阔世界。但我当时只想尽快从研究生院脱身，而我匆忙写就的学位论文勉强够用了。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "ea021619edd999121d16135f4bc7cbf9fee6d3d2ad0f2c6369703da3efc2c496",
+      "enMarkdown": "Meanwhile I was applying to art schools. I applied to two: RISD in the US, and the Accademia di Belli Arti in Florence, which, because it was the oldest art school, I imagined would be good. RISD accepted me, and I never heard back from the Accademia, so off to Providence I went.",
+      "zhMarkdown": "与此同时，我一直在申请艺术学校。我申请了两所：美国的罗德岛设计学院（RISD），以及佛罗伦萨美术学院（Accademia di Belli Arti），因为它是最古老的艺术学校，我以为它会很好。RISD 录取了我，而佛罗伦萨美院一直没有回音，于是我动身去了普罗维登斯。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "aefe356f1b014758952eb44b08aa1279642c18d96f4f06d2bff39e5b30a8d0a8",
+      "enMarkdown": "I'd applied for the BFA program at RISD, which meant in effect that I had to go to college again. This was not as strange as it sounds, because I was only 25, and art schools are full of people of different ages. RISD counted me as a transfer sophomore and said I had to do the foundation that summer. The foundation means the classes that everyone has to take in fundamental subjects like drawing, color, and design.",
+      "zhMarkdown": "我申请了 RISD 的美术学士（BFA）项目，这实际上意味着我得重新读一遍大学。这听起来并没有那么奇怪，因为当时我只有 25 岁，艺术学校里到处都是不同年龄段的人。RISD 把我算作转校的二年级学生，并说我必须在那个夏天上基础课。基础课是指每个人都必须修读的素描、色彩和设计等基础科目。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "c8c14645d15692d60680f8ecc31b4aa18dc7effe9cb7ee9980cf4f61a9fe7808",
+      "enMarkdown": "Toward the end of the summer I got a big surprise: a letter from the Accademia, which had been delayed because they'd sent it to Cambridge England instead of Cambridge Massachusetts, inviting me to take the entrance exam in Florence that fall. This was now only weeks away. My nice landlady let me leave my stuff in her attic. I had some money saved from consulting work I'd done in grad school; there was probably enough to last a year if I lived cheaply. Now all I had to do was learn Italian.",
+      "zhMarkdown": "快到夏天结束时，我收到了一个巨大的惊喜：一封来自佛罗伦萨美院的信。这封信寄迟了，因为他们把它寄到了英国的剑桥，而不是马萨诸塞州的剑桥。信中邀请我当年秋天去佛罗伦萨参加招生考试。当时距离考试只剩几个星期了。我那好心的女房东允许我把东西存在她的阁楼里。我有读研时做咨询工作存下的一些钱，如果生活节俭的话，大概足够维持一年。现在我唯一要做的就是学习意大利语。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "194a2e0c8ddb0df3fd0bc84f1a2a292e8af8c9c70d40c80619b23f77b6780d8c",
+      "enMarkdown": "Only *stranieri* (foreigners) had to take this entrance exam. In retrospect it may well have been a way of excluding them, because there were so many *stranieri* attracted by the idea of studying art in Florence that the Italian students would otherwise have been outnumbered. I was in decent shape at painting and drawing from the RISD foundation that summer, but I still don't know how I managed to pass the written exam. I remember that I answered the essay question by writing about Cezanne, and that I cranked up the intellectual level as high as I could to make the most of my limited vocabulary. [[2](#f2n)]",
+      "zhMarkdown": "只有 *stranieri*（外国人）才需要参加这个入学考试。回想起来，这很可能是一种排挤他们的方式，因为被佛罗伦萨学习艺术这个想法所吸引的外国人太多了，否则意大利本土学生在人数上就会处于劣势。得益于那个夏天在 RISD 的基础训练，我的绘画和素描水平还算过得去，但我至今仍不知道自己是怎么通过笔试的。我记得我写塞尚来回答论述题，并尽可能提高思想深度，以充分利用我有限的词汇量。[[2](#f2n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "26fffe6a43d640552e269fabd639ebee62049a1641608ade4db1fbff1e77e1b4",
+      "enMarkdown": "I'm only up to age 25 and already there are such conspicuous patterns. Here I was, yet again about to attend some august institution in the hopes of learning about some prestigious subject, and yet again about to be disappointed. The students and faculty in the painting department at the Accademia were the nicest people you could imagine, but they had long since arrived at an arrangement whereby the students wouldn't require the faculty to teach anything, and in return the faculty wouldn't require the students to learn anything. And at the same time all involved would adhere outwardly to the conventions of a 19th century atelier. We actually had one of those little stoves, fed with kindling, that you see in 19th century studio paintings, and a nude model sitting as close to it as possible without getting burned. Except hardly anyone else painted her besides me. The rest of the students spent their time chatting or occasionally trying to imitate things they'd seen in American art magazines.",
+      "zhMarkdown": "我才写到 25 岁，就已经出现了如此明显的规律。我又一次准备进入某个尊贵的机构，希望能学到一些声名显赫的学科，但又一次即将感到失望。佛罗伦萨美院绘画系的师生是我能想象到的最善良的人，但他们早就达成了一种默契：学生不要求老师教任何东西，作为回报，老师也不要求学生学任何东西。与此同时，所有参与者在表面上都会墨守 19 世纪画室的规矩。我们确实有那种在 19 世纪画室画作中能看到的小火炉，靠木柴取暖，一个裸体模特坐在离火炉最近但又不会被烫伤的地方。除了我之外，几乎没有其他学生画她。其余的学生要么在聊天，要么偶尔尝试模仿他们在美国艺术杂志上看到的东西。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "8a8f5888a53195783cd8a94bf03d922ed9f302ec40f6d32002ba0632f360ab74",
+      "enMarkdown": "Our model turned out to live just down the street from me. She made a living from a combination of modelling and making fakes for a local antique dealer. She'd copy an obscure old painting out of a book, and then he'd take the copy and maltreat it to make it look old. [[3](#f3n)]",
+      "zhMarkdown": "结果发现，我们的模特就住在离我同一条街不远的地方。她靠做模特和为当地古董商制作赝品来维持生计。她会从书里复制一幅不知名的老画，然后古董商把复制品拿去作旧，让它看起来历史悠久。[[3](#f3n)]"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "6504144d8b5a8461d52d7ffdbf74da1d241c7b7bab500c00ac157698f7f7d3fa",
+      "enMarkdown": "While I was a student at the Accademia I started painting still lives in my bedroom at night. These paintings were tiny, because the room was, and because I painted them on leftover scraps of canvas, which was all I could afford at the time. Painting still lives is different from painting people, because the subject, as its name suggests, can't move. People can't sit for more than about 15 minutes at a time, and when they do they don't sit very still. So the traditional m.o. for painting people is to know how to paint a generic person, which you then modify to match the specific person you're painting. Whereas a still life you can, if you want, copy pixel by pixel from what you're seeing. You don't want to stop there, of course, or you get merely photographic accuracy, and what makes a still life interesting is that it's been through a head. You want to emphasize the visual cues that tell you, for example, that the reason the color changes suddenly at a certain point is that it's the edge of an object. By subtly emphasizing such things you can make paintings that are more realistic than photographs not just in some metaphorical sense, but in the strict information-theoretic sense. [[4](#f4n)]",
+      "zhMarkdown": "在佛罗伦萨美院读书期间，我开始晚上在卧室里画静物。这些画非常小，因为房间很小，而且我是在剩下的画布碎块上画的，那是我当时唯一买得起的东西。画静物与画人不同，因为正如其名，研究对象是不会动的。人们一次坐着不能超过 15 分钟，而且坐着的时候也坐不稳。所以画人的传统方法是知道如何画一个通用的人，然后修改它以匹配你正在画的具体人。而静物，如果你愿意，你可以把你看到的东西像素级地复制下来。当然，你不想止步于此，否则你得到的只是照片般的精确度，而静物画的有趣之处在于它经过了大脑的思考。你想强调那些视觉暗示，比如，告诉你某个地方颜色突然发生变化的原因是物体的边缘。通过微妙地强调这些事情，你可以创作出比照片更逼真的画作，这不仅是在某种隐喻的意义上，而是在严格的信息论意义上。[[4](#f4n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "d103007005741c345f772c29c5589adcbeaeb6bab7003c8982df7cea92031379",
+      "enMarkdown": "I liked painting still lives because I was curious about what I was seeing. In everyday life, we aren't consciously aware of much we're seeing. Most visual perception is handled by low-level processes that merely tell your brain \"that's a water droplet\" without telling you details like where the lightest and darkest points are, or \"that's a bush\" without telling you the shape and position of every leaf. This is a feature of brains, not a bug. In everyday life it would be distracting to notice every leaf on every bush. But when you have to paint something, you have to look more closely, and when you do there's a lot to see. You can still be noticing new things after days of trying to paint something people usually take for granted, just as you can  after days of trying to write an essay about something people usually take for granted.",
+      "zhMarkdown": "我喜欢画静物，因为我对眼前的景物充满好奇。在日常生活中，我们并没有意识到自己看到了多少东西。大多数视觉感知都是由底层机制处理的，它们只是告诉你的大脑“那是一个水滴”，而不会告诉你最亮和最暗的点在哪里，或者告诉你“那是一处灌木丛”，而不会告诉你每片叶子的形状和位置。这是大脑的功能，而不是缺陷。在日常生活中，注意到每处灌木丛上的每片叶子会让人分心。但是当你必须画一些东西时，你必须更仔细地看，当你这样做时，有很多东西可以看。在尝试画一些人们通常认为理所当然的东西几天之后，你仍然会注意到新的东西，就像在尝试写一篇关于人们通常认为理所当然的东西的文章几天之后一样。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "775fa3d50fa39be88294eba7df4b54d5e7f0b754844959a13500f9781372af2f",
+      "enMarkdown": "This is not the only way to paint. I'm not 100% sure it's even a good way to paint. But it seemed a good enough bet to be worth trying.",
+      "zhMarkdown": "这不是唯一的画画方式。我甚至不百分之百确定这是一种好的画画方式。但它看起来是一个足够好的赌注，值得一试。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "62f08752c2f999a4a02fdb1f5d9af45f41c8fb21240032f7367b9806e8ae0908",
+      "enMarkdown": "Our teacher, professor Ulivi, was a nice guy. He could see I worked hard, and gave me a good grade, which he wrote down in a sort of passport each student had. But the Accademia wasn't teaching me anything except Italian, and my money was running out, so at the end of the first year I went back to the US.",
+      "zhMarkdown": "我们的老师 Ulivi 教授是个好人。他能看出我工作很努力，并给了我一个好成绩，他把成绩写在每个学生都有的一种护照上。但是佛罗伦萨美院除了意大利语之外什么也没教我，而且我的钱快花光了，所以在第一年结束时我回到了美国。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "2e019e217d33f4a3067d441ecff6b770a8baf3689a53f9363e06a6e84ef66fd8",
+      "enMarkdown": "I wanted to go back to RISD, but I was now broke and RISD was very expensive, so I decided to get a job for a year and then return to RISD the next fall. I got one at a company called Interleaf, which made software for creating documents. You mean like Microsoft Word? Exactly. That was how I learned that low end software tends to eat high end software. But Interleaf still had a few years to live yet. [[5](#f5n)]",
+      "zhMarkdown": "我想回到 RISD，但我现在破产了，而 RISD 非常昂贵，所以我决定先工作一年，然后在明年秋天回到 RISD。我在一家名叫 Interleaf 的公司找到了工作，这家公司开发用于创建文档的软件。你是说像 Microsoft Word 这样的软件？没错。这就是我学到低端软件倾向于吞噬高端软件的地方。但 Interleaf 当时还有几年的生命。[[5](#f5n)]"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "ac068dccda672ac8b204cd48e4ec6c98666be607c3b64705458c9fab4be60f99",
+      "enMarkdown": "Interleaf had done something pretty bold. Inspired by Emacs, they'd added a scripting language, and even made the scripting language a dialect of Lisp. Now they wanted a Lisp hacker to write things in it. This was the closest thing I've had to a normal job, and I hereby apologize to my boss and coworkers, because I was a bad employee. Their Lisp was the thinnest icing on a giant C cake, and since I didn't know C and didn't want to learn it, I never understood most of the software. Plus I was terribly irresponsible. This was back when a programming job meant showing up every day during certain working hours. That seemed unnatural to me, and on this point the rest of the world is coming around to my way of thinking, but at the time it caused a lot of friction. Toward the end of the year I spent much of my time surreptitiously working on *On Lisp*, which I had by this time gotten a contract to publish.",
+      "zhMarkdown": "Interleaf 曾做过一件相当大胆的事。受 Emacs 的启发，他们添加了一种脚本语言，甚至使该脚本语言成为 Lisp 的一种方言。现在他们想要一个 Lisp 黑客用它来写东西。这是我能找到的最接近普通工作的工作，我特此向我的老板和同事道歉，因为我是一个糟糕的员工。他们的 Lisp 只是巨型 C 语言蛋糕上最薄的一层糖衣，由于我不懂 C 语言也不想学，我从未理解大部分软件。而且我非常不负责任。那是编程工作意味着每天在特定的工作时间出勤的年代。这对我来说似乎不自然，在这一点上，世界上其他人正在转变到我的思维方式，但在当时它引起了很多摩擦。临近年底时，我花了很多时间偷偷地写《On Lisp》，当时我已经签了出版合同。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "f1507effa740a5d7bedbea1f5a88785dd6b5cad6f1121213f0b82a0568b490a0",
+      "enMarkdown": "The good part was that I got paid huge amounts of money, especially by art student standards. In Florence, after paying my part of the rent, my budget for everything else had been $7 a day. Now I was getting paid more than 4 times that every hour, even when I was just sitting in a meeting. By living cheaply I not only managed to save enough to go back to RISD, but also paid off my college loans.",
+      "zhMarkdown": "好的一面是，我拿到了巨额的报酬，特别是以艺术学校学生的标准来看。在佛罗伦萨，付完我那部分房租后，我其他所有的预算是每天 7 美元。现在我每小时拿到的钱是这个数字的 4 倍多，即使我只是坐在会议里。通过省吃俭用，我不仅攒够了回到 RISD 的钱，还还清了大学贷款。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "9e4eb29c0480ab4ca43c677fa1ec078e11afaffa5c0b9a1894f5272c5b6282e2",
+      "enMarkdown": "I learned some useful things at Interleaf, though they were mostly about what not to do. I learned that it's better for technology companies to be run by product people than sales people (though sales is a real skill and people who are good at it are really good at it), that it leads to bugs when code is edited by too many people, that cheap office space is no bargain if it's depressing, that planned meetings are inferior to corridor conversations, that big, bureaucratic customers are a dangerous source of money, and that there's not much overlap between conventional office hours and the optimal time for hacking, or conventional offices and the optimal place for it.",
+      "zhMarkdown": "我在 Interleaf 学到了一些有用的东西，尽管大多是关于不该做什么。我学到技术公司最好由产品人员而不是销售人员管理（尽管销售是一门真正的技能，擅长它的人真的很优秀）；代码被太多人编辑会导致 Bug；便宜的办公空间如果压抑的话并不划算；计划好的会议不如走廊对话；庞大、官僚的客户是危险的资金来源；传统的办公时间与写代码的最佳时间之间没有太多交集，传统的办公室与写代码的最佳场所也是如此。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "21009ea27314895a88f2cdcd039f9a104c14d0d889ef7fde07a576fed45b9a54",
+      "enMarkdown": "But the most important thing I learned, and which I used in both Viaweb and Y Combinator, is that the low end eats the high end: that it's good to be the \"entry level\" option, even though that will be less prestigious, because if you're not, someone else will be, and will squash you against the ceiling. Which in turn means that prestige is a danger sign.",
+      "zhMarkdown": "但我学到的最重要的一点，并应用于 Viaweb 和 Y Combinator 的是：低端会吞噬高端。成为“入门级”选择是件好事，即使它声誉较低。因为如果你不这么做，别人会这么做，并将你挤向天花板。这反过来意味着名望是一个危险信号。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "391dd445a35b95943334064ead3afd72974607a90334a474d6d2dae7a2cf4df4",
+      "enMarkdown": "When I left to go back to RISD the next fall, I arranged to do freelance work for the group that did projects for customers, and this was how I survived for the next several years. When I came back to visit for a project later on, someone told me about a new thing called HTML, which was, as he described it, a derivative of SGML. Markup language enthusiasts were an occupational hazard at Interleaf and I ignored him, but this HTML thing later became a big part of my life.",
+      "zhMarkdown": "第二年秋天我离开并回到 RISD 时，我安排为给客户做项目的团队做自由职业，这就是我接下来几年生存的方式。当我后来回来拜访一个项目时，有人告诉我一个叫 HTML 的新事物，正如他所描述的，它是 SGML 的衍生品。标记语言爱好者在 Interleaf 是一种职业危害，我没有理会他，但这个 HTML 后来成了我生活的重要组成部分。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "452f506e089f652c428673f429e48ced308a537db6043cdc819d81dfb90d1cc3",
+      "enMarkdown": "In the fall of 1992 I moved back to Providence to continue at RISD. The foundation had merely been intro stuff, and the Accademia had been a (very civilized) joke. Now I was going to see what real art school was like. But alas it was more like the Accademia than not. Better organized, certainly, and a lot more expensive, but it was now becoming clear that art school did not bear the same relationship to art that medical school bore to medicine. At least not the painting department. The textile department, which my next door neighbor belonged to, seemed to be pretty rigorous. No doubt illustration and architecture were too. But painting was post-rigorous. Painting students were supposed to express themselves, which to the more worldly ones meant to try to cook up some sort of distinctive signature style.",
+      "zhMarkdown": "1992 年秋天，我搬回普罗维登斯，继续在 RISD 学习。基础课只是入门的东西，而佛罗伦萨美院是一个（非常文明的）玩笑。现在我要看看真正的艺术学校是什么样子了。但遗憾的是，它更像佛罗伦萨美院。当然组织得更好，也贵得多，但现在很清楚，艺术学校与艺术的关系，并不像医学院与医学的关系那样。至少绘画系不是。我隔壁邻居所在的纺织系似乎相当严谨。毫无疑问，插画和建筑也是。但绘画是后严谨的。绘画系学生被要求表达自己，对更世故的学生来说，这意味着试图调制出某种独特的标志性风格。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "65fa90d9200af06b02c3849abf7b7f6ab04ad06cbdd6bdd81a9c67eb0fca5200",
+      "enMarkdown": "A signature style is the visual equivalent of what in show business is known as a \"schtick\": something that immediately identifies the work as yours and no one else's. For example, when you see a painting that looks like a certain kind of cartoon, you know it's by Roy Lichtenstein. So if you see a big painting of this type hanging in the apartment of a hedge fund manager, you know he paid millions of dollars for it. That's not always why artists have a signature style, but it's usually why buyers pay a lot for such work. [[6](#f6n)]",
+      "zhMarkdown": "标志性风格在视觉上等同于娱乐界所说的“噱头”（schtick）：能够立即将该作品识别为你的而不是别人的东西。例如，当你看到一幅看起来像某种卡通的画作时，你知道它是罗伊·利希滕斯坦（Roy Lichtenstein）画的。所以如果你在对冲基金经理的公寓里看到一幅挂着的这种类型的大画，你知道他为此支付了数百万美元。这并不总是艺术家拥有标志性风格的原因，但通常是买家为此类作品支付高价的原因。[[6](#f6n)]"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "3a348424636ebc4dccc2048857e0b0e6835d0e7ce860e14e5f1a9f66a2b8fb0f",
+      "enMarkdown": "There were plenty of earnest students too: kids who \"could draw\" in high school, and now had come to what was supposed to be the best art school in the country, to learn to draw even better. They tended to be confused and demoralized by what they found at RISD, but they kept going, because painting was what they did. I was not one of the kids who could draw in high school, but at RISD I was definitely closer to their tribe than the tribe of signature style seekers.",
+      "zhMarkdown": "也有很多真诚的学生：在高中里“会画画”的孩子，现在来到了这个被认为是全国最好的艺术学校，为了学画得更好。他们往往对在 RISD 发现的东西感到困惑和士气低落，但他们坚持下去，因为绘画是他们所做的事情。我不是高中里会画画的孩子之一，但在 RISD，我绝对比那些寻找标志性风格的人更接近他们的群体。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "b993e4acd28f1e865d13daae0c568636c5ddfd3afb9d734d6c926e37703732c8",
+      "enMarkdown": "I learned a lot in the color class I took at RISD, but otherwise I was basically teaching myself to paint, and I could do that for free. So in 1993 I dropped out. I hung around Providence for a bit, and then my college friend Nancy Parmet did me a big favor. A rent-controlled apartment in a building her mother owned in New York was becoming vacant. Did I want it? It wasn't much more than my current place, and New York was supposed to be where the artists were. So yes, I wanted it! [[7](#f7n)]",
+      "zhMarkdown": "我在 RISD 上的色彩课上学到了很多，但除此之外，我基本上是在自学画画，而这我可以免费做。所以在 1993 年我退学了。我在普罗维登斯呆了一会儿，然后我的大学朋友 Nancy Parmet 帮了我一个大忙。她母亲在纽约拥有的一栋楼里有一间租金管制的公寓空了出来。我想要吗？它不比我现在的住处贵多少，而且纽约被认为是艺术家聚集的地方。所以，是的，我想要！[[7](#f7n)]"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "d5ec2ed662619ad8d72677c622137b519fd5c1e173f7231b81729fe829097232",
+      "enMarkdown": "Asterix comics begin by zooming in on a tiny corner of Roman Gaul that turns out not to be controlled by the Romans. You can do something similar on a map of New York City: if you zoom in on the Upper East Side, there's a tiny corner that's not rich, or at least wasn't in 1993. It's called Yorkville, and that was my new home. Now I was a New York artist � in the strictly technical sense of making paintings and living in New York.",
+      "zhMarkdown": "《阿斯特里克斯历险记》漫画的开头总是将镜头放大到罗马高卢的一个小角落，结果发现那里并没有被罗马人控制。你可以在纽约市的地图上做类似的事情：如果你放大上东区，有一个地方并不富裕，或者至少在 1993 年不是。它叫约克维尔（Yorkville），那是我的新家。现在我是一名纽约艺术家了——在画画和住在纽约的严格技术意义上。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "f7c2fa718000c07b6fe08c78d6f20ffb95b086e945f14463c9d2dc91db638147",
+      "enMarkdown": "I was nervous about money, because I could sense that Interleaf was on the way down. Freelance Lisp hacking work was very rare, and I didn't want to have to program in another language, which in those days would have meant C++ if I was lucky. So with my unerring nose for financial opportunity, I decided to write another book on Lisp. This would be a popular book, the sort of book that could be used as a textbook. I imagined myself living frugally off the royalties and spending all my time painting. (The painting on the cover of this book, *ANSI Common Lisp*, is one that I painted around this time.)",
+      "zhMarkdown": "我对钱感到紧张，因为我能感觉到 Interleaf 正在走下坡路。自由职业的 Lisp 黑客工作非常罕见，我不想用另一种语言编程，在那些日子里，如果幸运的话，这意味着 C++。所以凭借我对财务机会敏锐的嗅觉，我决定写另一本关于 Lisp 的书。这将是一本通俗的书，可以用作教科书的那种。我幻想着自己靠版税过着节俭的生活，把所有的时间都花在画画上。（《ANSI Common Lisp》封面上的画就是我在这段时间画的。）"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "3d0dd8672a084ba9cf0856b173001e578e8fc5d7758848095cb1d6d2fe505f0c",
+      "enMarkdown": "The best thing about New York for me was the presence of Idelle and Julian Weber. Idelle Weber was a painter, one of the early photorealists, and I'd taken her painting class at Harvard. I've never known a teacher more beloved by her students. Large numbers of former students kept in touch with her, including me. After I moved to New York I became her de facto studio assistant.",
+      "zhMarkdown": "纽约对我来说最好的地方是 Idelle 和 Julian Weber 的存在。Idelle Weber 是一位画家，早期的照相写实主义者之一，我在哈佛上过她的绘画课。我从未见过比她更受学生爱戴的老师。大量的以前的学生都与她保持联系，包括我。搬到纽约后，我成了她事实上的工作室助手。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "60579fc65d1fd4b4bc3d8ee18abe2f02591ea8ca9f1d3a56e7a1e74f553fa812",
+      "enMarkdown": "She liked to paint on big, square canvases, 4 to 5 feet on a side. One day in late 1994 as I was stretching one of these monsters there was something on the radio about a famous fund manager. He wasn't that much older than me, and was super rich. The thought suddenly occurred to me: why don't I become rich? Then I'll be able to work on whatever I want.",
+      "zhMarkdown": "她喜欢在巨大的正方形画布上作画，每边 4 到 5 英尺。1994 年底的有一天，当我正在拉伸其中一幅庞然大物时，收音机里播放着关于一位著名基金经理的新闻。他并不比我大多少，而且超级富有。我脑子里突然闪过一个念头：为什么我不去变富有呢？那样我就可以研究任何我想研究的东西了。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "305e6cf67f2eac16e52125798955dddf1fa67c7fa2754d941c84c887d12f95b0",
+      "enMarkdown": "Meanwhile I'd been hearing more and more about this new thing called the World Wide Web. Robert Morris showed it to me when I visited him in Cambridge, where he was now in grad school at Harvard. It seemed to me that the web would be a big deal. I'd seen what graphical user interfaces had done for the popularity of microcomputers. It seemed like the web would do the same for the internet.",
+      "zhMarkdown": "与此同时，我听到越来越多关于这个叫做万维网（World Wide Web）的新事物的消息。当我去剑桥拜访罗伯特·莫里斯时，他向我展示了它，他现在在哈佛读研。在我看来，万维网将是一件大事。我见过图形用户界面对微型计算机普及的作用。看起来万维网对互联网也会做同样的事情。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "26b946f8edd5faf24b1fdf9b3704785d65409d7dc5da3fcc1a1233f0f652b3f8",
+      "enMarkdown": "If I wanted to get rich, here was the next train leaving the station. I was right about that part. What I got wrong was the idea. I decided we should start a company to put art galleries online. I can't honestly say, after reading so many Y Combinator applications, that this was the worst startup idea ever, but it was up there. Art galleries didn't want to be online, and still don't, not the fancy ones. That's not how they sell. I wrote some software to generate web sites for galleries, and Robert wrote some to resize images and set up an http server to serve the pages. Then we tried to sign up galleries. To call this a difficult sale would be an understatement. It was difficult to give away. A few galleries let us make sites for them for free, but none paid us.",
+      "zhMarkdown": "如果我想变富有，这就是下一班离开车站的火车。在这一点上我是对的。我弄错的是点子。我决定我们应该创办一家公司，把艺术画廊放到网上。在阅读了这么多 Y Combinator 的申请书后，我不能诚实地说这是有史以来最糟糕的创业公司点子，但它也排在前面了。艺术画廊不想上线，现在也不想，那些高档的画廊不想。这不是他们销售的方式。我写了一些软件来为画廊生成网站，罗伯特写了一些软件来调整图像大小并设置一个 HTTP 服务器来提供网页服务。然后我们试图签约画廊。把这称为困难的销售是一种含蓄的说法。这很难送出去。一些画廊让我们免费为他们制作网站，但没有一个付钱给我们。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "cb780df7ae3d64d7843a6f15ecac15a18c70bdfe2c18f6996bb7e18439db543f",
+      "enMarkdown": "Then some online stores started to appear, and I realized that except for the order buttons they were identical to the sites we'd been generating for galleries. This impressive-sounding thing called an \"internet storefront\" was something we already knew how to build.",
+      "zhMarkdown": "然后一些在线商店开始出现，我意识到除了订购按钮之外，它们与我们为画廊生成的网站完全一样。这个听起来令人印象深刻的叫做“互联网店面”的东西是我们已经知道如何构建的。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "61d2ab04717f0ba2b774de3f2699b4afa30e887ce98caaf4a5cb9afe0da42436",
+      "enMarkdown": "So in the summer of 1995, after I submitted the camera-ready copy of *ANSI Common Lisp* to the publishers, we started trying to write software to build online stores. At first this was going to be normal desktop software, which in those days meant Windows software. That was an alarming prospect, because neither of us knew how to write Windows software or wanted to learn. We lived in the Unix world. But we decided we'd at least try writing a prototype store builder on Unix. Robert wrote a shopping cart, and I wrote a new site generator for stores � in Lisp, of course.",
+      "zhMarkdown": "所以在 1995 年夏天，在我向出版社提交了《ANSI Common Lisp》的印刷准备稿后，我们开始尝试编写软件来构建在线商店。起初这会是普通的桌面软件，在那些日子里意味着 Windows 软件。这是一个令人担忧的前景，因为我们俩都不知道如何编写 Windows 软件，也不想学。我们生活在 Unix 世界中。但我们决定至少尝试在 Unix 上编写一个商店构建器的原型。罗伯特写了一个购物车，我为商店写了一个新的网站生成器——当然是用 Lisp。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "1cc15d5a4fe3b2e324d84059cd6dc55125759c81d69adefce4f2bd7a3b9265d8",
+      "enMarkdown": "We were working out of Robert's apartment in Cambridge. His roommate was away for big chunks of time, during which I got to sleep in his room. For some reason there was no bed frame or sheets, just a mattress on the floor. One morning as I was lying on this mattress I had an idea that made me sit up like a capital L. What if we ran the software on the server, and let users control it by clicking on links? Then we'd never have to write anything to run on users' computers. We could generate the sites on the same server we'd serve them from. Users wouldn't need anything more than a browser.",
+      "zhMarkdown": "我们在罗伯特在剑桥的公寓里工作。他的室友有很长一段时间不在，期间我可以睡在他的房间里。由于某种原因，没有床架或床单，只有地板上的床垫。一天早上，当我躺在这个床垫上时，我产生了一个让我像大写字母 L 一样坐起来的想法。如果我们把软件运行在服务器上，让用户通过点击链接来控制它呢？这样我们就永远不需要编写任何运行在用户电脑上的东西。我们可以在提供服务的同一台服务器上生成网站。用户只需要一个浏览器。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "f0268c90c58577383768abf5d4f03e098a6265ccffb2cd40ff7d0f7d33cf456e",
+      "enMarkdown": "This kind of software, known as a web app, is common now, but at the time it wasn't clear that it was even possible. To find out, we decided to try making a version of our store builder that you could control through the browser. A couple days later, on August 12, we had one that worked. The UI was horrible, but it proved you could build a whole store through the browser, without any client software or typing anything into the command line on the server.",
+      "zhMarkdown": "这种被称为 Web 应用程序（web app）的软件现在很常见，但在当时，甚至还不清楚它是否可行。为了弄清楚，我们决定尝试制作一个可以通过浏览器控制的商店构建器版本。几天后的 8 月 12 日，我们有了一个可以运行的版本。用户界面很糟糕，但它证明了你可以通过浏览器构建整个商店，而不需要任何客户端软件，也不需要在服务器的命令行中输入任何内容。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "754f1bdd463ec9714e10e68306f22b9abdf830c8e75bec0c2dcecf96df68f3df",
+      "enMarkdown": "Now we felt like we were really onto something. I had visions of a whole new generation of software working this way. You wouldn't need versions, or ports, or any of that crap. At Interleaf there had been a whole group called Release Engineering that seemed to be at least as big as the group that actually wrote the software. Now you could just update the software right on the server.",
+      "zhMarkdown": "现在我们觉得我们真的发现了一些东西。我憧憬着全新一代软件以这种方式工作。你不需要版本，或移植，或任何那样的垃圾。在 Interleaf 有一个叫做发布工程（Release Engineering）的整个团队，看起来至少与实际编写软件的团队一样大。现在你只需直接在服务器上更新软件。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "5dc4aaca3d099885d6fb822ba0837d5ec5bd0162a36f9c08850ea88973fb66ae",
+      "enMarkdown": "We started a new company we called Viaweb, after the fact that our software worked via the web, and we got $10,000 in seed funding from Idelle's husband Julian. In return for that and doing the initial legal work and giving us business advice, we gave him 10% of the company. Ten years later this deal became the model for Y Combinator's. We knew founders needed something like this, because we'd needed it ourselves.",
+      "zhMarkdown": "我们创办了一家新公司，名为 Viaweb，因为我们的软件是通过 Web（via the web）工作的，我们从 Idelle 的丈夫 Julian 那里得到了 10,000 美元的种子资金。作为回报，以及做初始法律工作和给我们商业建议，我们给了他公司 10% 的股份。十年后，这笔交易成为了 Y Combinator 的模板。我们知道创始人需要类似的东西，因为我们自己也需要过。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "847bee9953ce691e28e2d5c291681a79644a958171d08decf1aca05994307167",
+      "enMarkdown": "At this stage I had a negative net worth, because the thousand dollars or so I had in the bank was more than counterbalanced by what I owed the government in taxes. (Had I diligently set aside the proper proportion of the money I'd made consulting for Interleaf? No, I had not.) So although Robert had his graduate student stipend, I needed that seed funding to live on.",
+      "zhMarkdown": "在这个阶段，我的净资产是负数，因为我在银行里的大约一千美元被我欠政府的税款抵消了。（我是否勤勉地留出了我为 Interleaf 做咨询所赚的钱的适当比例？不，我没有。）所以虽然罗伯特有他的研究生津贴，但我需要那笔种子资金来生活。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "ce915184b4ebbf9442386b7e4aa27b5c7bc66844cbed03a284b910d737fd179c",
+      "enMarkdown": "We originally hoped to launch in September, but we got more ambitious about the software as we worked on it. Eventually we managed to build a WYSIWYG site builder, in the sense that as you were creating pages, they looked exactly like the static ones that would be generated later, except that instead of leading to static pages, the links all referred to closures stored in a hash table on the server.",
+      "zhMarkdown": "我们起初希望在 9 月发布，但在开发过程中，我们对软件抱有了更大的野心。最终我们成功构建了一个所见即所得（WYSIWYG）的网站构建器，意思是当你创建页面时，它们看起来与稍后生成的静态页面完全一样，除了链接指向的是存储在服务器哈希表中的闭包（closures），而不是静态页面。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "030e63bc273aa3b45ca7d555dc68c244db46ac3a8158f0bcec4f52084ea41da4",
+      "enMarkdown": "It helped to have studied art, because the main goal of an online store builder is to make users look legit, and the key to looking legit is high production values. If you get page layouts and fonts and colors right, you can make a guy running a store out of his bedroom look more legit than a big company.",
+      "zhMarkdown": "学习艺术对此有所帮助，因为在线商店构建器的主要目标是让用户看起来正规，而看起来正规的关键是高制作价值。如果你的页面布局、字体和颜色正确，你可以让一个在卧室里开店的人看起来比大公司更正规。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "2f889e1277f4ce5d1513c0a04d4b7dce080787e8f5f0d45301292e5ee231734c",
+      "enMarkdown": "(If you're curious why my site looks so old-fashioned, it's because it's still made with this software. It may look clunky today, but in 1996 it was the last word in slick.)",
+      "zhMarkdown": "（如果你很好奇为什么我的网站看起来如此过时，那是因为它仍然是用这个软件制作的。在今天它可能看起来很简陋，但在 1996 年它是时髦的极致。）"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "1449d52eb29c124ac0ba31b0d95b2d8e6808d35a439bad859c274c6ce8a93dba",
+      "enMarkdown": "In September, Robert rebelled. \"We've been working on this for a month,\" he said, \"and it's still not done.\" This is funny in retrospect, because he would still be working on it almost 3 years later. But I decided it might be prudent to recruit more programmers, and I asked Robert who else in grad school with him was really good. He recommended Trevor Blackwell, which surprised me at first, because at that point I knew Trevor mainly for his plan to reduce everything in his life to a stack of notecards, which he carried around with him. But Rtm was right, as usual. Trevor turned out to be a frighteningly effective hacker.",
+      "zhMarkdown": "在 9 月，罗伯特反抗了。“我们已经在这个上工作了一个月了，”他说，“但它仍然没有完工。”现在回想起来这很有趣，因为在近 3 年后他仍然在为此工作。但我决定招募更多的程序员可能是审慎的，我问罗伯特跟他一起读研的人中还有谁非常优秀。他推荐了 Trevor Blackwell，起初这让我感到惊讶，因为那时我认识 Trevor 主要是因为他计划将生活中的一切简化为一叠记事卡，并随身携带。但 Rtm 是对的，一如既往。Trevor 被证明是一个效率惊人的黑客。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "b2064c876dc3782a279bbdf31897255d7844c025cd9842e875ae60fb21adf579",
+      "enMarkdown": "It was a lot of fun working with Robert and Trevor. They're the two most [independent-minded](https://paulgraham.com/think.html) people I know, and in completely different ways. If you could see inside Rtm's brain it would look like a colonial New England church, and if you could see inside Trevor's it would look like the worst excesses of Austrian Rococo.",
+      "zhMarkdown": "与罗伯特和 Trevor 一起工作非常有趣。他们是我所知道的两个最具有[独立思考能力](https://paulgraham.com/think.html)的人，而且是以完全不同的方式。如果你能看到 Rtm 大脑的内部，它看起来会像新英格兰殖民时期的教堂，而如果你能看到 Trevor 大脑的内部，它看起来会像奥地利洛可可风格最极端的放纵。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "55fc8a275df8e996d144e6b75929d644acd3996001875a51f548ed2e9f75802d",
+      "enMarkdown": "We opened for business, with 6 stores, in January 1996. It was just as well we waited a few months, because although we worried we were late, we were actually almost fatally early. There was a lot of talk in the press then about ecommerce, but not many people actually wanted online stores. [[8](#f8n)]",
+      "zhMarkdown": "我们在 1996 年 1 月开业，当时有 6 家商店。幸好我们等了几个月，因为虽然我们担心我们迟到了，但实际上我们早得几乎致命。当时媒体上有很多关于电子商务的讨论，但实际上并没有多少人想要在线商店。[[8](#f8n)]"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "abaa7b06d1bad392dd6504950f80fcf4a107462366764a3f21af4f2de33d9622",
+      "enMarkdown": "There were three main parts to the software: the editor, which people used to build sites and which I wrote, the shopping cart, which Robert wrote, and the manager, which kept track of orders and statistics, and which Trevor wrote. In its time, the editor was one of the best general-purpose site builders. I kept the code tight and didn't have to integrate with any other software except Robert's and Trevor's, so it was quite fun to work on. If all I'd had to do was work on this software, the next 3 years would have been the easiest of my life. Unfortunately I had to do a lot more, all of it stuff I was worse at than programming, and the next 3 years were instead the most stressful.",
+      "zhMarkdown": "软件主要有三个部分：编辑器，人们用来构建网站，由我编写；购物车，由罗伯特编写；管理器，用来跟踪订单和统计数据，由 Trevor 编写。在那个时代，编辑器是最好的通用网站构建器之一。我保持代码紧凑，不需要与除罗伯特和 Trevor 的软件之外的任何其他软件集成，所以开发它非常有趣。如果我所要做的只是开发这个软件，接下来的 3 年将是我一生中最轻松的。不幸的是，我不得不做更多的事情，所有这些都是我不擅长的，而不是编程，接下来的 3 年反而是最充满压力的。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "0ab52570e25b1b9b32124088a5bc4d3840de2de240a2ca6403ab030e3639f5bc",
+      "enMarkdown": "There were a lot of startups making ecommerce software in the second half of the 90s. We were determined to be the Microsoft Word, not the Interleaf. Which meant being easy to use and inexpensive. It was lucky for us that we were poor, because that caused us to make Viaweb even more inexpensive than we realized. We charged $100 a month for a small store and $300 a month for a big one. This low price was a big attraction, and a constant thorn in the sides of competitors, but it wasn't because of some clever insight that we set the price low. We had no idea what businesses paid for things. $300 a month seemed like a lot of money to us.",
+      "zhMarkdown": "在 90 年代后半期，有很多创业公司在开发电子商务软件。我们决心成为 Microsoft Word，而不是 Interleaf。这意味着要易于使用且便宜。幸运的是我们很穷，因为这导致我们把 Viaweb 价格定得比我们意识到的还要低。我们对小商店每月收费 100 美元，对大商店每月收费 300 美元。这个低价格是一个巨大的吸引力，也是竞争对手眼中恒久的刺，但这并不是因为我们有什么聪明的洞察力才把价格定得低。我们根本不知道企业为东西支付多少钱。每月 300 美元对我们来说似乎是一大笔钱。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "1c5ad9234cbe77a1df81525da48c98c624602c246164f3aedf36ac15ef5cdf31",
+      "enMarkdown": "We did a lot of things right by accident like that. For example, we did what's now called \"doing things that [don't scale](https://paulgraham.com/ds.html),\" although at the time we would have described it as \"being so lame that we're driven to the most desperate measures to get users.\" The most common of which was building stores for them. This seemed particularly humiliating, since the whole raison d'etre of our software was that people could use it to make their own stores. But anything to get users.",
+      "zhMarkdown": "我们像那样凭运气做对了很多事情。例如，我们做了现在被称为“做[无法规模化](https://paulgraham.com/ds.html)的事”，尽管当时我们会将其描述为“太差劲了，以至于我们被迫采取最绝望的措施来获取用户”。其中最常见的是为他们建立商店。这似乎特别令人沮丧，因为我们软件存在的全部理由就是人们可以用它来制作自己的商店。但为了获取用户，做什么都行。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "478e461b96708ee889254aec7f8349672fbb9876ff92ff0e0229da8466257df5",
+      "enMarkdown": "We learned a lot more about retail than we wanted to know. For example, that if you could only have a small image of a man's shirt (and all images were small then by present standards), it was better to have a closeup of the collar than a picture of the whole shirt. The reason I remember learning this was that it meant I had to rescan about 30 images of men's shirts. My first set of scans were so beautiful too.",
+      "zhMarkdown": "我们学到了比我们想知道的更多的关于零售的知识。例如，如果你只能有一张男士衬衫的小图片（按现在的标准，当时所有的图片都很小），那么最好有领口的特写，而不是整件衬衫的图片。我记得学到这一点的原因是，这意味着我必须重新扫描大约 30 张男士衬衫的图片。我的第一套扫描图也是那么漂亮。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "39f7ca394bf616b7230ebf6da021a9cda481b4e39b5b4af726a65959c86f0c89",
+      "enMarkdown": "Though this felt wrong, it was exactly the right thing to be doing. Building stores for users taught us about retail, and about how it felt to use our software. I was initially both mystified and repelled by \"business\" and thought we needed a \"business person\" to be in charge of it, but once we started to get users, I was converted, in much the same way I was converted to [fatherhood](https://paulgraham.com/kids.html) once I had kids. Whatever users wanted, I was all theirs. Maybe one day we'd have so many users that I couldn't scan their images for them, but in the meantime there was nothing more important to do.",
+      "zhMarkdown": "虽然这感觉不对，但这正是该做的事。为用户建立商店教会了我们零售，以及使用我们软件的感觉。我起初对“商业”既感到困惑又感到排斥，认为我们需要一个“商务人士”来负责它，但一旦我们开始有了用户，我就被转化了，就像我有了孩子后被转化为[父亲身份](https://paulgraham.com/kids.html)一样。无论用户想要什么，我都全力以赴。也许有一天我们会有太多的用户，以至于我无法为他们扫描图片，但在此期间，没有比这更重要的事情可做了。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "0ec4632eb12c7f836ad035d4c9443184d3f6c1c67a6f4a259d7c3d453da93f2b",
+      "enMarkdown": "Another thing I didn't get at the time is that [growth rate](https://paulgraham.com/growth.html) is the ultimate test of a startup. Our growth rate was fine. We had about 70 stores at the end of 1996 and about 500 at the end of 1997. I mistakenly thought the thing that mattered was the absolute number of users. And that is the thing that matters in the sense that that's how much money you're making, and if you're not making enough, you might go out of business. But in the long term the growth rate takes care of the absolute number. If we'd been a startup I was advising at Y Combinator, I would have said: Stop being so stressed out, because you're doing fine. You're growing 7x a year. Just don't hire too many more people and you'll soon be profitable, and then you'll control your own destiny.",
+      "zhMarkdown": "当时我没有理解的另一件事是，[增长率](https://paulgraham.com/growth.html)是创业公司的终极检验。我们的增长率很好。我们在 1996 年底有大约 70 家商店，在 1997 年底有大约 500 家。我错误地认为重要的事情是用户的绝对数量。在某种意义上那确实重要，因为那是你赚了多少钱，如果你赚得不够，你可能会破产。但从长期来看，增长率决定了绝对数量。如果我们是我在 Y Combinator 指导的创业公司，我会说：别那么有压力，因为你做得很好。你每年增长 7 倍。只要不雇佣太多的人，你很快就会盈利，然后你就会控制自己的命运。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "15740fdaf505e3238320e33048de5349037ad842b3fcb3e6840cf4223924afba",
+      "enMarkdown": "Alas I hired lots more people, partly because our investors wanted me to, and partly because that's what startups did during the Internet Bubble. A company with just a handful of employees would have seemed amateurish. So we didn't reach breakeven until about when Yahoo bought us in the summer of 1998. Which in turn meant we were at the mercy of investors for the entire life of the company. And since both we and our investors were noobs at startups, the result was a mess even by startup standards.",
+      "zhMarkdown": "唉，我雇佣了更多的人，部分原因是因为我们的投资人希望我这么做，部分原因是因为那是互联网泡沫时期创业公司的做法。一个只有几个员工的公司会显得很不专业。所以直到 1998 年夏天 Yahoo 收购我们时，我们才达到收支平衡。这反过来意味着在公司的整个生命周期中，我们都受投资人的支配。由于我们和我们的投资人都是创业公司的新手，结果即使以创业公司的标准来看也是一团糟。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "5ab8ffbc23f504fd0d78d267667a254e9e9459702e63711897abdcb9e8ef130c",
+      "enMarkdown": "It was a huge relief when Yahoo bought us. In principle our Viaweb stock was valuable. It was a share in a business that was profitable and growing rapidly. But it didn't feel very valuable to me; I had no idea how to value a business, but I was all too keenly aware of the near-death experiences we seemed to have every few months. Nor had I changed my grad student lifestyle significantly since we started. So when Yahoo bought us it felt like going from rags to riches. Since we were going to California, I bought a car, a yellow 1998 VW GTI. I remember thinking that its leather seats alone were by far the most luxurious thing I owned.",
+      "zhMarkdown": "当 Yahoo 收购我们时，这真是一个巨大的解脱。原则上我们的 Viaweb 股票是很有价值的。这是一家盈利且快速增长的企业的股份。但对我来说它感觉并不是很有价值；我根本不知道如何评估一家企业，但我太敏锐地意识到我们似乎每隔几个月就会经历濒死体验。自我们创办以来，我也没有显著改变我的研究生生活方式。所以当 Yahoo 收购我们时，感觉就像是从贫民窟到了天堂。因为我们要去加利福尼亚，我买了一辆车，一辆黄色的 1998 年大众高尔夫 GTI。我记得当时觉得光是它的皮革座椅就是我拥有的最奢华的东西了。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "14fb62791dac3fc228daa0e55a7a2e38a15ffcc61c280c85b3a1532c12883b1d",
+      "enMarkdown": "The next year, from the summer of 1998 to the summer of 1999, must have been the least productive of my life. I didn't realize it at the time, but I was worn out from the effort and stress of running Viaweb. For a while after I got to California I tried to continue my usual m.o. of programming till 3 in the morning, but fatigue combined with Yahoo's prematurely aged [culture](https://paulgraham.com/yahoo.html) and grim cube farm in Santa Clara gradually dragged me down. After a few months it felt disconcertingly like working at Interleaf.",
+      "zhMarkdown": "接下来的那一年，从 1998 年夏天到 1999 年夏天，一定是我一生中生产力最低的一年。我当时没有意识到，但我已经因为运营 Viaweb 的努力和压力而精疲力竭了。到达加利福尼亚后的一段时间里，我试图继续我通常的做法，即编程到凌晨 3 点，但疲劳加上 Yahoo 提早老化的[文化](https://paulgraham.com/yahoo.html)以及在圣克拉拉阴森的隔间农场逐渐将我拖垮。几个月后，它感觉令人不安地像是在 Interleaf 工作。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "f6dea48756efc2b15d5827bd85265e446525b5f78c9ede3fc197d118ecbc5c84",
+      "enMarkdown": "Yahoo had given us a lot of options when they bought us. At the time I thought Yahoo was so overvalued that they'd never be worth anything, but to my astonishment the stock went up 5x in the next year. I hung on till the first chunk of options vested, then in the summer of 1999 I left. It had been so long since I'd painted anything that I'd half forgotten why I was doing this. My brain had been entirely full of software and men's shirts for 4 years. But I had done this to get rich so I could paint, I reminded myself, and now I was rich, so I should go paint.",
+      "zhMarkdown": "Yahoo 在收购我们时给了我们很多期权。当时我认为 Yahoo 的估值太高了，它们永远不会值任何钱，但令我惊讶的是，股票在接下来的一年里上涨了 5 倍。我坚持到第一批期权归属，然后于 1999 年夏天离开了。我已经很久没有画过任何东西了，以至于我几乎忘记了为什么我要做这个。4 年来，我的大脑完全充满了软件和男士衬衫。但我提醒自己，我做这个是为了变富有以便我可以画画，现在我富有了，所以我应该去画画。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "0ab85f48c3d7f77e5431b17036537415e47018ab8476ccaadd4774637e3a1b92",
+      "enMarkdown": "When I said I was leaving, my boss at Yahoo had a long conversation with me about my plans. I told him all about the kinds of pictures I wanted to paint. At the time I was touched that he took such an interest in me. Now I realize it was because he thought I was lying. My options at that point were worth about $2 million a month. If I was leaving that kind of money on the table, it could only be to go and start some new startup, and if I did, I might take people with me. This was the height of the Internet Bubble, and Yahoo was ground zero of it. My boss was at that moment a billionaire. Leaving then to start a new startup must have seemed to him an insanely, and yet also plausibly, ambitious plan.",
+      "zhMarkdown": "当我说我要离开时，我在 Yahoo 的老板就我的计划与我进行了一次长谈。我向他讲述了我想要画的所有类型的画。当时我很感动他对我如此感兴趣。现在我意识到这是因为他认为我在撒谎。我当时放弃的期权大约价值每月 200 万美元。如果我放弃那样的钱，那只能是去创办一些新的创业公司，如果我这么做，我可能会带走一些人。这是互联网泡沫的鼎盛时期，而 Yahoo 处于其风暴中心。我的老板在那一刻是一个亿万富翁。在那个时候离开去创办一家新的创业公司，在他看来一定是一个疯狂但又合理、雄心勃勃的计划。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "c46d7d26a42ba924229c565b4d8e1da30f7242eb7241b434d55e86ccf0b300bf",
+      "enMarkdown": "But I really was quitting to paint, and I started immediately. There was no time to lose. I'd already burned 4 years getting rich. Now when I talk to founders who are leaving after selling their companies, my advice is always the same: take a vacation. That's what I should have done, just gone off somewhere and done nothing for a month or two, but the idea never occurred to me.",
+      "zhMarkdown": "但我真的是辞职去画画的，并且我立即开始了。没有时间可以浪费了。我已经耗费了 4 年来变富有。现在当我与那些在出售公司后离开的创始人谈话时，我的建议总是一样的：去度假。那是我应该做的，只是去某个地方，一两个月什么都不做，但我从未想到过这个主意。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "4b796f31d612de181b72acb48d6f48f86c190b97f779df76b2c41325f8b5f4b4",
+      "enMarkdown": "So I tried to paint, but I just didn't seem to have any energy or ambition. Part of the problem was that I didn't know many people in California. I'd compounded this problem by buying a house up in the Santa Cruz Mountains, with a beautiful view but miles from anywhere. I stuck it out for a few more months, then in desperation I went back to New York, where unless you understand about rent control you'll be surprised to hear I still had my apartment, sealed up like a tomb of my old life. Idelle was in New York at least, and there were other people trying to paint there, even though I didn't know any of them.",
+      "zhMarkdown": "所以我尝试画画，但我似乎没有任何精力或抱负。部分问题在于我在加利福尼亚不认识很多人。我通过在圣克鲁斯山脉买了一栋房子加剧了这个问题，那里有美丽的景色，但距离任何地方都有数英里。我坚持了几个月，然后在绝望中回到了纽约，除非你了解租金管制，否则你会惊讶地听到我仍然保留着我的公寓，像我旧生活的坟墓一样密封着。Idelle 至少在纽约，那里还有其他人在尝试画画，即使我不认识他们中的任何一个。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "85562e3876d999686739cc9e0a94131bf34b3e7816e03ae690e685d805819a1d",
+      "enMarkdown": "When I got back to New York I resumed my old life, except now I was rich. It was as weird as it sounds. I resumed all my old patterns, except now there were doors where there hadn't been. Now when I was tired of walking, all I had to do was raise my hand, and (unless it was raining) a taxi would stop to pick me up. Now when I walked past charming little restaurants I could go in and order lunch. It was exciting for a while. Painting started to go better. I experimented with a new kind of still life where I'd paint one painting in the old way, then photograph it and print it, blown up, on canvas, and then use that as the underpainting for a second still life, painted from the same objects (which hopefully hadn't rotted yet).",
+      "zhMarkdown": "当我回到纽约时，我恢复了我旧的生活，除了现在我富有了。这听起来很奇怪。我恢复了我所有的旧模式，除了现在有了以前没有的门。现在当我走累了，我所要做的就是举起我的手，（除非在下雨）一辆出租车就会停下来载我。现在当我走过迷人的小餐馆时，我可以进去点午餐。这在一段时间里是令人兴奋的。画画开始变得更好。我尝试了一种新型的静物画，先以旧的方式画一幅画，然后拍照并将其放大打印在画布上，然后将其作为第二幅静物画的底层画，用相同的物体（希望它们还没有腐烂）来画。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "2bf68f093996f9f7336778d887ded92d636e26935f22307ad50c5aeb1a6d2500",
+      "enMarkdown": "Meanwhile I looked for an apartment to buy. Now I could actually choose what neighborhood to live in. Where, I asked myself and various real estate agents, is the Cambridge of New York? Aided by occasional visits to actual Cambridge, I gradually realized there wasn't one. Huh.",
+      "zhMarkdown": "与此同时，我寻找要买的公寓。现在我实际上可以选择住哪个街区。我问自己和各种房地产经纪人，纽约的剑桥（Cambridge）在哪里？在偶尔拜访真正的剑桥的帮助下，我逐渐意识到没有一个。哈。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "57295f46ed38bb5f3623e069e51d790cd964057931ae69a7b7c44366f80e2b8c",
+      "enMarkdown": "Around this time, in the spring of 2000, I had an idea. It was clear from our experience with Viaweb that web apps were the future. Why not build a web app for making web apps? Why not let people edit code on our server through the browser, and then host the resulting applications for them? [[9](#f9n)] You could run all sorts of services on the servers that these applications could use just by making an API call: making and receiving phone calls, manipulating images, taking credit card payments, etc.",
+      "zhMarkdown": "大约在这个时候，在 2000 年的春天，我产生了一个想法。从我们与 Viaweb 的经验中可以清楚地看出，Web 应用程序是未来。为什么不构建一个用于制作 Web 应用程序的 Web 应用程序呢？为什么不让人们通过浏览器在我们的服务器上编辑代码，然后为他们托管生成的应用程序呢？[[9](#f9n)] 你可以在这些应用程序可以使用的服务器上运行各种服务，只需进行 API 调用：拨打和接听电话、处理图像、接受信用卡付款等。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "1c2d852ad1326c1ee675b184d59cea3d535a74f21c0dc80e7a35957099ac6ae7",
+      "enMarkdown": "I got so excited about this idea that I couldn't think about anything else. It seemed obvious that this was the future. I didn't particularly want to start another company, but it was clear that this idea would have to be embodied as one, so I decided to move to Cambridge and start it. I hoped to lure Robert into working on it with me, but there I ran into a hitch. Robert was now a postdoc at MIT, and though he'd made a lot of money the last time I'd lured him into working on one of my schemes, it had also been a huge time sink. So while he agreed that it sounded like a plausible idea, he firmly refused to work on it.",
+      "zhMarkdown": "我对这个想法非常兴奋，以至于我无法思考任何其他事情。这显然是未来。我并不特别想创办另一家公司，但很明显这个想法必须体现为一家公司，所以我决定搬到剑桥并创办它。我希望引诱罗伯特与我一起开发它，但在这里我遇到了障碍。罗伯特现在是 MIT 的博士后，尽管上次我引诱他参与我的一个计划时他赚了很多钱，但那也耗费了巨大的时间。所以虽然他同意这听起来像是一个合理的想法，但他坚决拒绝参与开发。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "02b429b5a1bb2da484c40469e4d78fb21efa7d0d028dfe4862c509a2f266aa14",
+      "enMarkdown": "Hmph. Well, I'd do it myself then. I recruited Dan Giffin, who had worked for Viaweb, and two undergrads who wanted summer jobs, and we got to work trying to build what it's now clear is about twenty companies and several open source projects worth of software. The language for defining applications would of course be a dialect of Lisp. But I wasn't so naive as to assume I could spring an overt Lisp on a general audience; we'd hide the parentheses, like Dylan did.",
+      "zhMarkdown": "哼。好吧，那我自己来做。我招募了曾为 Viaweb 工作的 Dan Giffin，以及两个想要暑期工作的本科生，我们开始努力构建现在看来大约相当于二十家公司和几个开源项目价值的软件。定义应用程序的语言当然会是 Lisp 的一种方言。但我还没有天真到以为我可以向普通大众推出公开的 Lisp；我们会隐藏括号，就像 Dylan 所做的那样。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "f25b95bd667f882ee51789a36529506499ecdd43436a11ced5a635760483097d",
+      "enMarkdown": "By then there was a name for the kind of company Viaweb was, an \"application service provider,\" or ASP. This name didn't last long before it was replaced by \"software as a service,\" but it was current for long enough that I named this new company after it: it was going to be called Aspra.",
+      "zhMarkdown": "到那时，Viaweb 这种类型的公司有了一个名字，叫做“应用服务提供商”（application service provider），即 ASP。这个名字没有持续多久就被“软件即服务”（SaaS）所取代，但它流行了足够长的时间，以至于我以此命名了这家新公司：它将被命名为 Aspra。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "84593caa476ed37ff4715ac0d9829e5d437af04b56b867ba45c33ab0b0cdd55f",
+      "enMarkdown": "I started working on the application builder, Dan worked on network infrastructure, and the two undergrads worked on the first two services (images and phone calls). But about halfway through the summer I realized I really didn't want to run a company � especially not a big one, which it was looking like this would have to be. I'd only started Viaweb because I needed the money. Now that I didn't need money anymore, why was I doing this? If this vision had to be realized as a company, then screw the vision. I'd build a subset that could be done as an open source project.",
+      "zhMarkdown": "我开始开发应用程序构建器，Dan 开发网络基础设施，两个本科生开发前两个服务（图像和电话）。但大约在夏天过了一半时，我意识到我真的不想运营一家公司——特别不是一家大公司，而这看起来必须是。我创办 Viaweb 只是因为我需要钱。现在我不再需要钱了，我为什么还要做这个？如果这个愿景必须作为一家公司来实现，那么去他的愿景。我将构建一个可以作为开源项目来做的子集。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "da9f01b6c28bca8fdfbbfbaea09c7df84adcd495887b1c6953f7d81d837cc3fe",
+      "enMarkdown": "Much to my surprise, the time I spent working on this stuff was not wasted after all. After we started Y Combinator, I would often encounter startups working on parts of this new architecture, and it was very useful to have spent so much time thinking about it and even trying to write some of it.",
+      "zhMarkdown": "令我惊讶的是，我花在这些东西上的时间毕竟没有白费。在我们创办 Y Combinator 之后，我经常会遇到开发这一新架构各个部分的创业公司，花那么多时间思考它甚至尝试编写其中的一些是非常有用的。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "6550db7209938901bd687d679a34e09209c47cecc6319853a95a3244958df55b",
+      "enMarkdown": "The subset I would build as an open source project was the new Lisp, whose parentheses I now wouldn't even have to hide. A lot of Lisp hackers dream of building a new Lisp, partly because one of the distinctive features of the language is that it has dialects, and partly, I think, because we have in our minds a Platonic form of Lisp that all existing dialects fall short of. I certainly did. So at the end of the summer Dan and I switched to working on this new dialect of Lisp, which I called Arc, in a house I bought in Cambridge.",
+      "zhMarkdown": "我将作为开源项目构建的子集是新的 Lisp，它的括号我现在甚至不需要隐藏。许多 Lisp 黑客梦想构建一个新的 Lisp，部分原因是因为该语言的独特特征之一是它有方言，部分原因是我认为，因为我们在脑海中有一种柏拉图式的 Lisp 形式，所有现有的方言都达不到。我当然也有。所以在夏天结束时，我和 Dan 在我在剑桥买的一栋房子里，转向开发这种新的 Lisp 方言，我称之为 Arc。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "f7c454c9727b5972cd3c679fd0ce80157161e619306ce376d3c0ae18ba22f447",
+      "enMarkdown": "The following spring, lightning struck. I was invited to give a talk at a Lisp conference, so I gave one about how we'd used Lisp at Viaweb. Afterward I put a postscript file of this talk online, on paulgraham.com, which I'd created years before using Viaweb but had never used for anything. In one day it got 30,000 page views. What on earth had happened? The referring urls showed that someone had posted it on Slashdot. [[10](#f10n)]",
+      "zhMarkdown": "接下来的春天，奇迹发生了。我被邀请在一个 Lisp 会议上做演讲，所以我做了一个关于我们在 Viaweb 如何使用 Lisp 的演讲。之后我把这个演讲的 PostScript 文件放在网上，放在 paulgraham.com 上，这是我几年前使用 Viaweb 创建的，但从未用于任何事情。在一天之内，它获得了 30,000 次页面浏览。到底发生了什么？引荐链接显示有人把它发在了 Slashdot 上。[[10](#f10n)]"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "8ae04d64e351221b97c21e37a625c28b10dc9ca258b31a83360fb31333aeb61d",
+      "enMarkdown": "Wow, I thought, there's an audience. If I write something and put it on the web, anyone can read it. That may seem obvious now, but it was surprising then. In the print era there was a narrow channel to readers, guarded by fierce monsters known as editors. The only way to get an audience for anything you wrote was to get it published as a book, or in a newspaper or magazine. Now anyone could publish anything.",
+      "zhMarkdown": "哇，我想，原来有读者。如果我写了什么东西并放在网上，任何人都可以阅读。这在现在可能看起来很显而易见，但在当时是令人惊讶的。在纸媒时代，通往读者的通道非常狭窄，由被称为编辑的凶猛怪兽把守。为你写的任何东西获得读者的唯一方法是将其作为一本书出版，或者在报纸或杂志上发表。现在任何人都可以发表任何东西。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "b45c0f22283c6f00038ced8626ffe773e322db42540769562f2a79b45c976f23",
+      "enMarkdown": "This had been possible in principle since 1993, but not many people had realized it yet. I had been intimately involved with building the infrastructure of the web for most of that time, and a writer as well, and it had taken me 8 years to realize it. Even then it took me several years to understand the implications. It meant there would be a whole new generation of [essays](https://paulgraham.com/essay.html). [[11](#f11n)]",
+      "zhMarkdown": "这在原则上自 1993 年以来就是可能的，但当时还没有多少人意识到这一点。在那个时期的大部分时间里，我一直密切参与构建 Web 的基础设施，同时也是一名作家，但我花了 8 年时间才意识到这一点。即使在那时，我也花了几年时间才理解其影响。这意味着将会有全新一代的[文章](https://paulgraham.com/essay.html)。[[11](#f11n)]"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "5f452fe4ccdbdc03a814f986b3d9e32f1ee77a3d35115b87dfaeba01446a0007",
+      "enMarkdown": "In the print era, the channel for publishing essays had been vanishingly small. Except for a few officially anointed thinkers who went to the right parties in New York, the only people allowed to publish essays were specialists writing about their specialties. There were so many essays that had never been written, because there had been no way to publish them. Now they could be, and I was going to write them. [[12](#f12n)]",
+      "zhMarkdown": "在纸媒时代，发表文章的通道微乎其微。除了少数在纽约参加正确派对的官方指定的思想家外，唯一被允许发表文章的人是撰写其专业领域的专家。有那么多文章从未被写出来，因为没有办法发表它们。现在它们可以被写出来了，而我准备写它们。[[12](#f12n)]"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "b01b5acffeaea73fe76cb3cd4bd8709bf8611875e7b50d959f5f1f5004d1109a",
+      "enMarkdown": "I've worked on several different things, but to the extent there was a turning point where I figured out what to work on, it was when I started publishing essays online. From then on I knew that whatever else I did, I'd always write essays too.",
+      "zhMarkdown": "我曾研究过几件不同的事情，但就决定研究什么的转折点而言，是我开始在网上发表文章的时候。从那时起，我知道无论我还做什么，我也会一直写文章。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "b59d542dd7bf7e47ab9fa5804bed8bc11c1939734940d3ce1716215f807537b2",
+      "enMarkdown": "I knew that online essays would be a [marginal](https://paulgraham.com/marginal.html) medium at first. Socially they'd seem more like rants posted by nutjobs on their GeoCities sites than the genteel and beautifully typeset compositions published in *The New Yorker*. But by this point I knew enough to find that encouraging instead of discouraging.",
+      "zhMarkdown": "我知道在线文章起初会是一种[边缘](https://paulgraham.com/marginal.html)媒体。在社交上，它们看起来更像是疯子在他们的 GeoCities 网站上发布的咆哮，而不是在《纽约客》上发表的温雅且排版精美的作品。但到这个时候，我已经懂得足够多，发现这是令人鼓舞的而不是令人沮丧的。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "61eee91680d2aa13ea45b633165df4fff156ca8f60d1ce9b1e4074cd03ecaf14",
+      "enMarkdown": "One of the most conspicuous patterns I've noticed in my life is how well it has worked, for me at least, to work on things that weren't prestigious. Still life has always been the least prestigious form of painting. Viaweb and Y Combinator both seemed lame when we started them. I still get the glassy eye from strangers when they ask what I'm writing, and I explain that it's an essay I'm going to publish on my web site. Even Lisp, though prestigious intellectually in something like the way Latin is, also seems about as hip.",
+      "zhMarkdown": "我在一生中注意到的最显著的规律之一是，研究那些没有声望的事情，至少对我来说，效果非常好。静物画一直是最没有声望的绘画形式。Viaweb 和 Y Combinator 在我们创办它们时都显得很逊。当陌生人问我写什么，我解释说是我将要在我的网站上发表的文章时，我仍然会得到他们茫然的眼神。即使是 Lisp，虽然在智力上像拉丁语那样有声望，但看起来也同样过时。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "a38da251f0d9ebbab41bd957368289c677f9d93e916341d59f8dd0ecb6e772ad",
+      "enMarkdown": "It's not that unprestigious types of work are good per se. But when you find yourself drawn to some kind of work despite its current lack of prestige, it's a sign both that there's something real to be discovered there, and that you have the right kind of motives. Impure motives are a big danger for the ambitious. If anything is going to lead you astray, it will be the desire to impress people. So while working on things that aren't prestigious doesn't guarantee you're on the right track, it at least guarantees you're not on the most common type of wrong one.",
+      "zhMarkdown": "这并不是说没有声望的工作本身就是好的。但是，当你发现自己被某种工作所吸引，尽管它目前缺乏声望时，这既表明那里有真实的东西有待发现，也表明你有正确的动机。不纯的动机对于有抱负的人来说是一个巨大的危险。如果有什么东西会引导你误入歧途，那就是取悦他人的欲望。所以虽然研究没有声望的事情不能保证你在正确的轨道上，但它至少保证你没有在最常见的错误轨道上。"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "0d9b13768a44dd1f5030f87d0539f16c5c7d69b27165e3ae007fd2503d852a61",
+      "enMarkdown": "Over the next several years I wrote lots of essays about all kinds of different topics. O'Reilly reprinted a collection of them as a book, called *Hackers & Painters* after one of the essays in it. I also worked on spam filters, and did some more painting. I used to have dinners for a group of friends every thursday night, which taught me how to cook for groups. And I bought another building in Cambridge, a former candy factory (and later, twas said, porn studio), to use as an office.",
+      "zhMarkdown": "在接下来的几年里，我写了许多关于各种不同主题的文章。O'Reilly 将其中的一部分重印为一本书，根据其中的一篇文章命名为《黑客与画家》。我还研究了垃圾邮件过滤器，并做了一些更多的绘画。我曾在每个星期四晚上为一群朋友做晚饭，这教会了我如何为群体做饭。我在剑桥买了另一栋楼，以前是一家糖果厂（后来，据说是一家色情工作室），用作办公室。"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "fb7066fffeb7ca106a62b9af399cfe0f3dee2fe85a8600726c4c28a0ed37b4d7",
+      "enMarkdown": "One night in October 2003 there was a big party at my house. It was a clever idea of my friend Maria Daniels, who was one of the thursday diners. Three separate hosts would all invite their friends to one party. So for every guest, two thirds of the other guests would be people they didn't know but would probably like. One of the guests was someone I didn't know but would turn out to like a lot: a woman called Jessica Livingston. A couple days later I asked her out.",
+      "zhMarkdown": "2003 年 10 月的一个晚上，我家举行了一个大型派对。这是我朋友 Maria Daniels 的一个聪明主意，她是星期四的晚餐常客之一。三个独立的主人都会邀请他们的朋友参加一个派对。所以对于每个客人来说，三分之二的其他客人会是他们不认识但可能会喜欢的人。其中一位客人是我不认识但后来非常喜欢的人：一个叫 Jessica Livingston 的女人。几天后我约她出去。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "ff98ce2aa817ba3b015f6054573eccc8f5b930f7c346a7dbf6d775a2794a7747",
+      "enMarkdown": "Jessica was in charge of marketing at a Boston investment bank. This bank thought it understood startups, but over the next year, as she met friends of mine from the startup world, she was surprised how different reality was. And how colorful their stories were. So she decided to compile a book of [interviews](https://www.amazon.com/Founders-Work-Stories-Startups-Early/dp/1430210788) with startup founders.",
+      "zhMarkdown": "Jessica 在波士顿的一家投资银行负责市场营销。这家银行认为它了解创业公司，但在接下来的时间里，当她遇到我来自创业界的朋友时，她惊讶地发现现实是多么不同。以及他们的故事是多么丰富多彩。所以她决定汇编一本关于创业公司创始人的[访谈](https://www.amazon.com/Founders-Work-Stories-Startups-Early/dp/1430210788)书。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "cf5a4ad0d8b12f8893cb4b01dfb9b4e27fc8ce70546ad0b969ebc22e9ed876ce",
+      "enMarkdown": "When the bank had financial problems and she had to fire half her staff, she started looking for a new job. In early 2005 she interviewed for a marketing job at a Boston VC firm. It took them weeks to make up their minds, and during this time I started telling her about all the things that needed to be fixed about venture capital. They should make a larger number of smaller investments instead of a handful of giant ones, they should be funding younger, more technical founders instead of MBAs, they should let the founders remain as CEO, and so on.",
+      "zhMarkdown": "当银行出现财务问题且她不得不解雇一半员工时，她开始寻找新工作。在 2005 年初，她面试了波士顿一家风险投资公司的市场营销工作。他们花了几周时间才做出决定，在此期间，我开始告诉她关于风险投资所有需要改进的事情。他们应该进行大量的小额投资，而不是少数巨额投资；他们应该资助更年轻、更偏技术的创始人，而不是 MBA；他们应该让创始人继续担任 CEO，等等。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "14809f7c2cd201bf281ca74daee1de387c2cdbba7804fec41286fb6e1120cd01",
+      "enMarkdown": "One of my tricks for writing essays had always been to give talks. The prospect of having to stand up in front of a group of people and tell them something that won't waste their time is a great spur to the imagination. When the Harvard Computer Society, the undergrad computer club, asked me to give a talk, I decided I would tell them how to start a startup. Maybe they'd be able to avoid the worst of the mistakes we'd made.",
+      "zhMarkdown": "我写文章的诀窍之一一直是做演讲。必须站在一群人面前告诉他们一些不会浪费他们时间的事情，这种前景是想象力的极大鞭策。当哈佛计算机协会（本科生计算机俱乐部）邀请我做演讲时，我决定告诉他们如何创办一家创业公司。也许他们能够避免我们犯过的最糟糕的错误。"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "f93d18bdd6f87514182ad5f4adafdf9fccaf4bc7d54fad6bf5bed29d9811a094",
+      "enMarkdown": "So I gave this talk, in the course of which I told them that the best sources of seed funding were successful startup founders, because then they'd be sources of advice too. Whereupon it seemed they were all looking expectantly at me. Horrified at the prospect of having my inbox flooded by business plans (if I'd only known), I blurted out \"But not me!\" and went on with the talk. But afterward it occurred to me that I should really stop procrastinating about angel investing. I'd been meaning to since Yahoo bought us, and now it was 7 years later and I still hadn't done one angel investment.",
+      "zhMarkdown": "所以我做了这个演讲，在演讲过程中，我告诉他们种子资金的最佳来源是成功的创业创始人，因为那样他们也会是建议的来源。于是他们似乎都满怀期待地看着我。由于害怕我的收件箱被商业计划书淹没（如果我早知道的话），我脱口而出“但不是我！”并继续演讲。但之后我想到，我真的应该停止在天使投资上拖延了。自 Yahoo 收购我们以来，我一直打算这么做，现在已经 7 年过去了，我仍然没有做过一次天使投资。"
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "f427dcb198d178e6782620734c4da344599e6d20d5c630b2627562014fa2226a",
+      "enMarkdown": "Meanwhile I had been scheming with Robert and Trevor about projects we could work on together. I missed working with them, and it seemed like there had to be something we could collaborate on.",
+      "zhMarkdown": "与此同时，我一直在与罗伯特和 Trevor 密谋我们可以一起合作的项目。我想念与他们一起工作，而且似乎必须有什么我们可以合作的事情。"
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "30b5d8054897d66d911ea388429acfaca55094665caf2067b730101c3ecaaf4f",
+      "enMarkdown": "As Jessica and I were walking home from dinner on March 11, at the corner of Garden and Walker streets, these three threads converged. Screw the VCs who were taking so long to make up their minds. We'd start our own investment firm and actually implement the ideas we'd been talking about. I'd fund it, and Jessica could quit her job and work for it, and we'd get Robert and Trevor as partners too. [[13](#f13n)]",
+      "zhMarkdown": "当我和 Jessica 在 3 月 11 日吃完晚饭散步回家时，在花园街和沃克街的拐角处，这三条线汇合了。去他的那些花那么长时间做决定的风投。我们将创办我们自己的投资公司，并真正实施我们一直在讨论的想法。我来出资，Jessica 可以辞掉工作为它工作，我们也会邀请罗伯特和 Trevor 作为合伙人。[[13](#f13n)]"
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "7ef50bd42984857e519152829512013bcc0023d2075523870fb8247c5d449d6e",
+      "enMarkdown": "Once again, ignorance worked in our favor. We had no idea how to be angel investors, and in Boston in 2005 there were no Ron Conways to learn from. So we just made what seemed like the obvious choices, and some of the things we did turned out to be novel.",
+      "zhMarkdown": "无知再次为我们带来了好处。我们不知道如何做天使投资人，而且在 2005 年的波士顿，没有 Ron Conway 那样的人可以学习。所以我们只是做出了看似显而易见的选择，我们做的一些事情被证明是新颖的。"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "ba4275b4ac9703776e7f36a6dafb15c5cbd42e5f6c2bd18ac4702d87e9d77ee7",
+      "enMarkdown": "There are multiple components to Y Combinator, and we didn't figure them all out at once. The part we got first was to be an angel firm. In those days, those two words didn't go together. There were VC firms, which were organized companies with people whose job it was to make investments, but they only did big, million dollar investments. And there were angels, who did smaller investments, but these were individuals who were usually focused on other things and made investments on the side. And neither of them helped founders enough in the beginning. We knew how helpless founders were in some respects, because we remembered how helpless we'd been. For example, one thing Julian had done for us that seemed to us like magic was to get us set up as a company. We were fine writing fairly difficult software, but actually getting incorporated, with bylaws and stock and all that stuff, how on earth did you do that? Our plan was not only to make seed investments, but to do for startups everything Julian had done for us.",
+      "zhMarkdown": "Y Combinator 有多个组成部分，我们并没有一次性把它们都弄清楚。我们最先弄清楚的部分是成为一家天使投资机构。在那些日子里，这两个词并不搭。当时有风投机构，它们是有组织的公司，有专职人员负责投资，但它们只做百万美元级别的巨额投资。还有天使投资人，他们做较小的投资，但这些人通常专注于其他事情，把投资作为副业。而且他们中没有人在一开始给创始人足够的帮助。我们知道创始人在某些方面是多么无助，因为我们记得我们自己曾是多么无助。例如，Julian 为我们做的一件在我们看来像魔术一样的事情是帮我们成立公司。我们写相当困难的软件没问题，但实际注册成立公司，有章程和股票以及所有那些东西，到底该怎么做？我们的计划不仅是进行种子投资，还要为创业公司做 Julian 为我们做过的一切。"
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "sourceHash": "e06cc35771b59f954e9cacf8482c8309d4688a328849c9d8c2816ef408f4985d",
+      "enMarkdown": "YC was not organized as a fund. It was cheap enough to run that we funded it with our own money. That went right by 99% of readers, but professional investors are thinking \"Wow, that means they got all the returns.\" But once again, this was not due to any particular insight on our part. We didn't know how VC firms were organized. It never occurred to us to try to raise a fund, and if it had, we wouldn't have known where to start. [[14](#f14n)]",
+      "zhMarkdown": "YC 最初并没有组织成基金。由于运营成本很低，我们用自己的钱来资助它。这让 99% 的读者忽略了，但专业投资人会想：“哇，这意味着他们获得了所有的回报。”但同样，这并不是由于我们的任何特殊洞察力。我们不知道风投机构是如何组织的。我们从未想过要尝试募集基金，即使想过，我们也不知道从哪里开始。[[14](#f14n)]"
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "569036f6a9462466ee0d9e9eb67a0236558c4917dc448b0cd1010ce6243901fb",
+      "enMarkdown": "The most distinctive thing about YC is the batch model: to fund a bunch of startups all at once, twice a year, and then to spend three months focusing intensively on trying to help them. That part we discovered by accident, not merely implicitly but explicitly due to our ignorance about investing. We needed to get experience as investors. What better way, we thought, than to fund a whole bunch of startups at once? We knew undergrads got temporary jobs at tech companies during the summer. Why not organize a summer program where they'd start startups instead? We wouldn't feel guilty for being in a sense fake investors, because they would in a similar sense be fake founders. So while we probably wouldn't make much money out of it, we'd at least get to practice being investors on them, and they for their part would probably have a more interesting summer than they would working at Microsoft.",
+      "zhMarkdown": "YC 最独特的特征是批量（batch）模式：在一年两次的时间里，一次性资助一批创业公司，然后花三个月的时间集中精力尝试帮助他们。那部分是我们偶然发现的，这完全是因为我们对投资的无知。我们需要获得作为投资人的经验。我们想，有什么比一次性资助一大批创业公司更好的方法呢？我们知道本科生在夏天会在科技公司获得临时工作。为什么不组织一个暑期项目，让他们去创办创业公司呢？我们不会因为在某种意义上是虚假的投资人而感到内疚，因为他们也会在类似的意义上是虚假的创始人。所以虽然我们可能不会从中赚到很多钱，但我们至少可以对他们练习做投资人，而他们则可能会度过一个比在微软工作更有趣的夏天。"
+    },
+    {
+      "id": 111,
+      "type": "paragraph",
+      "sourceHash": "0022e4010127627a5fb90589dfcda5ee7fee61b2c45aa150751329d71adce412",
+      "enMarkdown": "We'd use the building I owned in Cambridge as our headquarters. We'd all have dinner there once a week � on tuesdays, since I was already cooking for the thursday diners on thursdays � and after dinner we'd bring in experts on startups to give talks.",
+      "zhMarkdown": "我们将使用我在剑桥拥有的那栋楼作为我们的总部。我们每周都会在那里吃一次晚饭——在星期二，因为我已经在星期四为星期四的晚餐常客做饭了——晚饭后我们会邀请创业公司的专家来做演讲。"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "9390597484ed8dffbbebda080f3a40f37b938656dd130a91785301b133ae9717",
+      "enMarkdown": "We knew undergrads were deciding then about summer jobs, so in a matter of days we cooked up something we called the Summer Founders Program, and I posted an [announcement](https://paulgraham.com/summerfounder.html) on my site, inviting undergrads to apply. I had never imagined that writing essays would be a way to get \"deal flow,\" as investors call it, but it turned out to be the perfect source. [[15](#f15n)] We got 225 applications for the Summer Founders Program, and we were surprised to find that a lot of them were from people who'd already graduated, or were about to that spring. Already this SFP thing was starting to feel more serious than we'd intended.",
+      "zhMarkdown": "我们知道本科生当时正在决定暑期工作，所以在几天之内，我们炮制了一个我们称之为“暑期创始人计划”（Summer Founders Program）的东西，我在我的网站上发布了一份[公告](https://paulgraham.com/summerfounder.html)，邀请本科生申请。我从未想象过写文章会是获得投资人所谓的“案源”（deal flow）的一种方式，但它被证明是完美的来源。[[15](#f15n)] 我们收到了 225 份暑期创始人计划的申请，我们惊讶地发现其中很多来自已经毕业或即将在那年春天毕业的人。这个 SFP 已经开始显得比我们预想的更严肃了。"
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "sourceHash": "d1c23a8c1569146b5c81eff77c25163051bb5135696f0700aa857157e5c318cd",
+      "enMarkdown": "We invited about 20 of the 225 groups to interview in person, and from those we picked 8 to fund. They were an impressive group. That first batch included reddit, Justin Kan and Emmett Shear, who went on to found Twitch, Aaron Swartz, who had already helped write the RSS spec and would a few years later become a martyr for open access, and Sam Altman, who would later become the second president of YC. I don't think it was entirely luck that the first batch was so good. You had to be pretty bold to sign up for a weird thing like the Summer Founders Program instead of a summer job at a legit place like Microsoft or Goldman Sachs.",
+      "zhMarkdown": "我们邀请了 225 个团队中的大约 20 个进行面对面面试，并从中挑选了 8 个进行资助。他们是一个令人印象深刻的群体。第一批包括 reddit、后来创办了 Twitch 的 Justin Kan 和 Emmett Shear、已经参与编写 RSS 规范且几年后将成为开放获取烈士的 Aaron Swartz，以及后来成为 YC 第二任总裁的 Sam Altman。我不认为第一批如此优秀完全是运气。你必须相当大胆才能报名参加像暑期创始人计划这样奇怪的事情，而不是去微软或高盛这样正规的地方工作。"
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "bfe1fb02679e3d5602738d5180b65913934a5a79fb9ea66525a225fb15ab5b67",
+      "enMarkdown": "The deal for startups was based on a combination of the deal we did with Julian ($10k for 10%) and what Robert said MIT grad students got for the summer ($6k). We invested $6k per founder, which in the typical two-founder case was $12k, in return for 6%. That had to be fair, because it was twice as good as the deal we ourselves had taken. Plus that first summer, which was really hot, Jessica brought the founders free air conditioners. [[16](#f16n)]",
+      "zhMarkdown": "对创业公司的交易是基于我们与 Julian 做的交易（10k 美元占 10%）和罗伯特所说的 MIT 研究生夏天拿到的钱（6k 美元）的结合。我们为每位创始人投资 6k 美元，在典型的两位创始人的情况下是 12k 美元，作为回报获得 6% 的股份。这必须是公平的，因为它比我们自己接受的交易好两倍。加上那个非常炎热的第一年夏天，Jessica 给创始人带来了免费的空调。[[16](#f16n)]"
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "sourceHash": "51ed54bcea874f7f0c966a08978f445a5b6d81f7657665782ca4ff1c961036a0",
+      "enMarkdown": "Fairly quickly I realized that we had stumbled upon the way to scale startup funding. Funding startups in batches was more convenient for us, because it meant we could do things for a lot of startups at once, but being part of a batch was better for the startups too. It solved one of the biggest problems faced by founders: the isolation. Now you not only had colleagues, but colleagues who understood the problems you were facing and could tell you how they were solving them.",
+      "zhMarkdown": "相当快地，我意识到我们偶然发现了规模化创业资金的方法。批量资助创业公司对我们来说更方便，因为这意味着我们可以一次为很多创业公司做事情，但作为批量的一部分对创业公司也更好。它解决了创始人面临的最大问题之一：孤立。现在你不仅有了同事，而且是有理解你面临的问题并能告诉你他们是如何解决这些问题的同事。"
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "5a941b8f42142ce573fdd28fd1a924d63ab5476444d47e9780c56b52ad59d44e",
+      "enMarkdown": "As YC grew, we started to notice other advantages of scale. The alumni became a tight community, dedicated to helping one another, and especially the current batch, whose shoes they remembered being in. We also noticed that the startups were becoming one another's customers. We used to refer jokingly to the \"YC GDP,\" but as YC grows this becomes less and less of a joke. Now lots of startups get their initial set of customers almost entirely from among their batchmates.",
+      "zhMarkdown": "随着 YC 的增长，我们开始注意到规模的其他优势。校友们成为了一个紧密的社区，致力于互相帮助，特别是当前的这一批，他们记得自己曾处在他们的境地。我们还注意到，创业公司正在成为彼此的客户。我们过去常常开玩笑地提到“YC GDP”，但随着 YC 的增长，这变得越来越不像是开玩笑了。现在很多创业公司几乎完全从他们的批次伙伴中获得他们的第一批客户。"
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "bb856d84876ddc88e209736a9cfbf9c682d3dd6e4f622c03053a70539b370b31",
+      "enMarkdown": "I had not originally intended YC to be a full-time job. I was going to do three things: hack, write essays, and work on YC. As YC grew, and I grew more excited about it, it started to take up a lot more than a third of my attention. But for the first few years I was still able to work on other things.",
+      "zhMarkdown": "我最初并没有打算把 YC 当作一份全职工作。我打算做三件事：写代码、写文章和在 YC 工作。随着 YC 的增长，以及我对它越来越兴奋，它开始占据了我远远超过三分之一的注意力。但在前几年，我仍然能够研究其他事情。"
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "37a78b448be56786d895683bada88d234b3b9115e2092994b4259797fa3f8ac7",
+      "enMarkdown": "In the summer of 2006, Robert and I started working on a new version of Arc. This one was reasonably fast, because it was compiled into Scheme. To test this new Arc, I wrote Hacker News in it. It was originally meant to be a news aggregator for startup founders and was called Startup News, but after a few months I got tired of reading about nothing but startups. Plus it wasn't startup founders we wanted to reach. It was future startup founders. So I changed the name to Hacker News and the topic to whatever engaged one's intellectual curiosity.",
+      "zhMarkdown": "在 2006 年夏天，罗伯特和我开始开发新版本的 Arc。这个版本相当快，因为它是被编译成 Scheme 的。为了测试这个新的 Arc，我用它写了 Hacker News。它最初是作为创业创始人的新闻聚合器，被称为 Startup News，但几个月后，我厌倦了只读关于创业公司的内容。此外，我们想要触及的不是创业创始人。而是未来的创业创始人。所以我把名字改成了 Hacker News，主题改成了任何能引发智力好奇心的事情。"
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "sourceHash": "02ed73a6ebf76e1b50fd7e04e9450f31f27cc4bc0f02c2f86d5b9c134caf09f5",
+      "enMarkdown": "HN was no doubt good for YC, but it was also by far the biggest source of stress for me. If all I'd had to do was select and help founders, life would have been so easy. And that implies that HN was a mistake. Surely the biggest source of stress in one's work should at least be something close to the core of the work. Whereas I was like someone who was in pain while running a marathon not from the exertion of running, but because I had a blister from an ill-fitting shoe. When I was dealing with some urgent problem during YC, there was about a 60% chance it had to do with HN, and a 40% chance it had do with everything else combined. [[17](#f17n)]",
+      "zhMarkdown": "HN 无疑对 YC 有好处，但它也是我迄今为止最大的压力来源。如果我所要做的只是挑选和帮助创始人，生活本可以如此轻松。而这意味着 HN 是一个错误。当然，工作中最大的压力来源至少应该接近工作的核心。然而，我就像一个在跑马拉松时感到痛苦的人，不是因为跑步的劳累，而是因为我有一只不合脚的鞋子磨出的水泡。当我在 YC 期间处理一些紧急问题时，大约有 60% 的可能性与 HN 有关，有 40% 的可能性与所有其他事情的总和有关。[[17](#f17n)]"
+    },
+    {
+      "id": 120,
+      "type": "paragraph",
+      "sourceHash": "555752c1bea1ab961ad6bc192023a0a2fe308a700c31e218ee4966eaffdf3f99",
+      "enMarkdown": "As well as HN, I wrote all of YC's internal software in Arc. But while I continued to work a good deal *in* Arc, I gradually stopped working *on* Arc, partly because I didn't have time to, and partly because it was a lot less attractive to mess around with the language now that we had all this infrastructure depending on it. So now my three projects were reduced to two: writing essays and working on YC.",
+      "zhMarkdown": "除了 HN，我还用 Arc 编写了 YC 的所有内部软件。但虽然我继续在 Arc *中*做了很多工作，我逐渐停止了*对* Arc 的开发，部分原因是因为我没有时间，部分原因是因为现在我们有所有这些依赖于它的基础设施，摆弄该语言的吸引力大大降低了。所以现在我的三个项目减少到了两个：写文章和在 YC 工作。"
+    },
+    {
+      "id": 121,
+      "type": "paragraph",
+      "sourceHash": "0fdceb3dc394362d28d4c4096a0f8a2d94aafe305ff5ddf3690988e31fe8299e",
+      "enMarkdown": "YC was different from other kinds of work I've done. Instead of deciding for myself what to work on, the problems came to me. Every 6 months there was a new batch of startups, and their problems, whatever they were, became our problems. It was very engaging work, because their problems were quite varied, and the good founders were very effective. If you were trying to learn the most you could about startups in the shortest possible time, you couldn't have picked a better way to do it.",
+      "zhMarkdown": "YC 与我做过的其他类型的工作不同。问题不是由我自己决定研究什么，而是问题主动找上我。每 6 个月就会有一批新的创业公司，他们的问题，无论是什么，都会成为我们的问题。这是非常吸引人的工作，因为他们的问题非常多样，而且优秀的创始人非常有效率。如果你试图在尽可能短的时间内学到尽可能多的关于创业公司的知识，你无法选择更好的方法了。"
+    },
+    {
+      "id": 122,
+      "type": "paragraph",
+      "sourceHash": "4ff0defdd7c7aa82e74f6edc73d6e25e057707ba3fc2a25e095badb7282cdb93",
+      "enMarkdown": "There were parts of the job I didn't like. Disputes between cofounders, figuring out when people were lying to us, fighting with people who maltreated the startups, and so on. But I worked hard even at the parts I didn't like. I was haunted by something Kevin Hale once said about companies: \"No one works harder than the boss.\" He meant it both descriptively and prescriptively, and it was the second part that scared me. I wanted YC to be good, so if how hard I worked set the upper bound on how hard everyone else worked, I'd better work very hard.",
+      "zhMarkdown": "工作中有我不喜欢的部分。联合创始人之间的纠纷、弄清楚人们什么时候在对我们撒谎、与虐待创业公司的人作斗争等等。但即使在我不喜欢的部分，我也工作得很努力。我被 Kevin Hale 曾经说过的一句关于公司的话所困扰：“没有人比老板工作更努力。”他的意思既是描述性的也是规范性的，而正是第二部分吓到了我。我希望 YC 变好，所以如果我工作有多努力决定了其他所有人工作有多努力的上限，我最好工作得非常努力。"
+    },
+    {
+      "id": 123,
+      "type": "paragraph",
+      "sourceHash": "eb0e09a6aaeaff7b23f24f469c0a705bf4f17dd7c1fb04d8d20fbb074adb10b6",
+      "enMarkdown": "One day in 2010, when he was visiting California for interviews, Robert Morris did something astonishing: he offered me unsolicited advice. I can only remember him doing that once before. One day at Viaweb, when I was bent over double from a kidney stone, he suggested that it would be a good idea for him to take me to the hospital. That was what it took for Rtm to offer unsolicited advice. So I remember his exact words very clearly. \"You know,\" he said, \"you should make sure Y Combinator isn't the last cool thing you do.\"",
+      "zhMarkdown": "2010 年的有一天，当他为了面试访问加利福尼亚时，罗伯特·莫里斯做了一件令人惊讶的事：他向我提供了不请自来的建议。我只记得他以前做过一次。在 Viaweb 的有一天，当我因为肾结石疼得弯下腰时，他建议他带我去医院是个好主意。这就是 Rtm 提供不请自来建议所需的条件。所以我非常清楚地记得他的确切词语。“你知道，”他说，“你应该确保 Y Combinator 不是你做的最后一桩酷事。”"
+    },
+    {
+      "id": 124,
+      "type": "paragraph",
+      "sourceHash": "06203600c8e60f6bdc2170e15259785c8cda3d2f648e772c7a387f6007b18ee7",
+      "enMarkdown": "At the time I didn't understand what he meant, but gradually it dawned on me that he was saying I should quit. This seemed strange advice, because YC was doing great. But if there was one thing rarer than Rtm offering advice, it was Rtm being wrong. So this set me thinking. It was true that on my current trajectory, YC would be the last thing I did, because it was only taking up more of my attention. It had already eaten Arc, and was in the process of eating essays too. Either YC was my life's work or I'd have to leave eventually. And it wasn't, so I would.",
+      "zhMarkdown": "当时我不明白他的意思，但逐渐我明白了他是在说我应该退出。这似乎是奇怪的建议，因为 YC 做得非常好。但如果说有什么比 Rtm 提供建议更罕见的话，那就是 Rtm 犯错。所以这引发了我的思考。确实，在我目前的轨道上，YC 将是我做的最后一件事，因为它只会占据我更多的注意力。它已经吞噬了 Arc，并且正在吞噬文章。要么 YC 是我一生的工作，要么我最终不得不离开。而它不是，所以我会离开。"
+    },
+    {
+      "id": 125,
+      "type": "paragraph",
+      "sourceHash": "ca2accd9e698059106284c1853103c90ffc460a9812fd90498c0b54b1f26563a",
+      "enMarkdown": "In the summer of 2012 my mother had a stroke, and the cause turned out to be a blood clot caused by colon cancer. The stroke destroyed her balance, and she was put in a nursing home, but she really wanted to get out of it and back to her house, and my sister and I were determined to help her do it. I used to fly up to Oregon to visit her regularly, and I had a lot of time to think on those flights. On one of them I realized I was ready to hand YC over to someone else.",
+      "zhMarkdown": "在 2012 年夏天，我母亲中风了，结果发现是由结肠癌引起的血栓引起的。中风摧毁了她的平衡能力，她被安置在了一家养老院，但她真的很想离开那里回到自己的房子，我和我姐姐决心帮助她实现这一目标。我过去常常定期飞往俄勒冈州看望她，在那些航班上我有很多时间思考。在其中一次航班上，我意识到我准备好将 YC 移交给其他人了。"
+    },
+    {
+      "id": 126,
+      "type": "paragraph",
+      "sourceHash": "f67303e7cd43833cccf38725c92941aa057fddb8ac1525c43313e26769560405",
+      "enMarkdown": "I asked Jessica if she wanted to be president, but she didn't, so we decided we'd try to recruit Sam Altman. We talked to Robert and Trevor and we agreed to make it a complete changing of the guard. Up till that point YC had been controlled by the original LLC we four had started. But we wanted YC to last for a long time, and to do that it couldn't be controlled by the founders. So if Sam said yes, we'd let him reorganize YC. Robert and I would retire, and Jessica and Trevor would become ordinary partners.",
+      "zhMarkdown": "我问 Jessica 是否想当总裁，但她不想，所以我们决定尝试招募 Sam Altman。我们与罗伯特和 Trevor 谈过，我们同意进行一次彻底的换届。在那之前，YC 一直由我们四个人创办的原始 LLC 控制。但我们希望 YC 能够持续很长时间，而要做到这一点，它不能由创始人控制。所以如果 Sam 答应了，我们会让他重组 YC。罗伯特和我将退休，Jessica 和 Trevor 将成为普通合伙人。"
+    },
+    {
+      "id": 127,
+      "type": "paragraph",
+      "sourceHash": "1b8b56b8a1811ac9ebc13ea87ce0c1db2dfa3d41316e35b4097433d514c854ee",
+      "enMarkdown": "When we asked Sam if he wanted to be president of YC, initially he said no. He wanted to start a startup to make nuclear reactors. But I kept at it, and in October 2013 he finally agreed. We decided he'd take over starting with the winter 2014 batch. For the rest of 2013 I left running YC more and more to Sam, partly so he could learn the job, and partly because I was focused on my mother, whose cancer had returned.",
+      "zhMarkdown": "当我们问 Sam 是否想当 YC 的总裁时，起初他拒绝了。他想创办一家创业公司来制造核反应堆。但我坚持不懈，在 2013 年 10 月他终于同意了。我们决定他将从 2014 年冬季批次开始接管。在 2013 年的剩余时间里，我越来越多地把运行 YC 的工作留给 Sam，部分原因是为了让他熟悉工作，部分原因是因为我专注于我的母亲，她的癌症已经复发。"
+    },
+    {
+      "id": 128,
+      "type": "paragraph",
+      "sourceHash": "7d92617bc457b8bd4b3b5d7f266de03462af78fcb9f9314719f44eb5eb1e80ad",
+      "enMarkdown": "She died on January 15, 2014. We knew this was coming, but it was still hard when it did.",
+      "zhMarkdown": "她于 2014 年 10 月 15 日去世。我们知道这一天会到来，但当它真的到来时，依然让人难以接受。"
+    },
+    {
+      "id": 129,
+      "type": "paragraph",
+      "sourceHash": "e1eeb97394c0edf25ceaf50c0b6951fcc00dc2cb1655d06b055a0a26edb5419a",
+      "enMarkdown": "I kept working on YC till March, to help get that batch of startups through Demo Day, then I checked out pretty completely. (I still talk to alumni and to new startups working on things I'm interested in, but that only takes a few hours a week.)",
+      "zhMarkdown": "我继续在 YC 工作到 3 月，以帮助那批创业公司度过 Demo Day，然后我几乎完全退出了。（我仍然与校友和开发我感兴趣的事物的新的创业公司谈话，但那每周只花几个小时。）"
+    },
+    {
+      "id": 130,
+      "type": "paragraph",
+      "sourceHash": "7b4c42f03ef166c976bacc6c89cd81a0bb6037364f59d7be113a986edbfe7936",
+      "enMarkdown": "What should I do next? Rtm's advice hadn't included anything about that. I wanted to do something completely different, so I decided I'd paint. I wanted to see how good I could get if I really focused on it. So the day after I stopped working on YC, I started painting. I was rusty and it took a while to get back into shape, but it was at least completely engaging. [[18](#f18n)]",
+      "zhMarkdown": "接下来我该做什么？Rtm 的建议没有包括关于那方面的任何内容。我想做一些完全不同的事情，所以我决定去画画。我想看看如果我真正专注于此，我可以变得多好。所以在停止在 YC 工作的第二天，我开始画画。我生疏了，花了一段时间才恢复状态，但它至少是完全吸引人的。[[18](#f18n)]"
+    },
+    {
+      "id": 131,
+      "type": "paragraph",
+      "sourceHash": "4c9a10f3196ae6948e6a021eb0018c393cfb3ec091871f7c0e2cec85af0c4860",
+      "enMarkdown": "I spent most of the rest of 2014 painting. I'd never been able to work so uninterruptedly before, and I got to be better than I had been. Not good enough, but better. Then in November, right in the middle of a painting, I ran out of steam. Up till that point I'd always been curious to see how the painting I was working on would turn out, but suddenly finishing this one seemed like a chore. So I stopped working on it and cleaned my brushes and haven't painted since. So far anyway.",
+      "zhMarkdown": "我在 2014 年的剩余时间里大部分时间都在画画。我以前从未能够如此不间断地工作，我变得比以前更好了。不够好，但更好了。然后在 11 月，就在画一幅画的中间，我精疲力竭了。在那之前，我一直很好奇我正在画的画会是什么样子，但突然之间完成这一幅画感觉就像是一件琐事。所以我停止了开发它并清洗了我的画笔，从那以后就再也没有画过。至少到目前为止是这样。"
+    },
+    {
+      "id": 132,
+      "type": "paragraph",
+      "sourceHash": "f3b999b8696db65857288bb72788d9df8d30e3ba8fd3f3552d413691ba489d61",
+      "enMarkdown": "I realize that sounds rather wimpy. But attention is a zero sum game. If you can choose what to work on, and you choose a project that's not the best one (or at least a good one) for you, then it's getting in the way of another project that is. And at 50 there was some opportunity cost to screwing around.",
+      "zhMarkdown": "我知道这听起来相当懦弱。但注意力是一个零和游戏。如果你可以选择研究什么，而你选择了一个对你来说不是最好的（或至少不是一个好的）项目，那么它就会阻碍另一个是好项目的项目。在 50 岁时，胡闹是有一些机会成本的。"
+    },
+    {
+      "id": 133,
+      "type": "paragraph",
+      "sourceHash": "76cc1755132fbf1f0b1c00563031a55a4ab481fc58842002d9d6702aef04a817",
+      "enMarkdown": "I started writing essays again, and wrote a bunch of new ones over the next few months. I even wrote a couple that [weren't](https://paulgraham.com/know.html) about startups. Then in March 2015 I started working on Lisp again.",
+      "zhMarkdown": "我开始重新写文章，并在接下来的几个月里写了一堆新的文章。我甚至写了几篇[不是](https://paulgraham.com/know.html)关于创业公司的文章。然后在 2015 年 3 月，我开始重新研究 Lisp。"
+    },
+    {
+      "id": 134,
+      "type": "paragraph",
+      "sourceHash": "505a63139ab115cde20ffe2c7ad7b2dbdf511915d61b2c561a1a0644dcc04057",
+      "enMarkdown": "The distinctive thing about Lisp is that its core is a language defined by writing an interpreter in itself. It wasn't originally intended as a programming language in the ordinary sense. It was meant to be a formal model of computation, an alternative to the Turing machine. If you want to write an interpreter for a language in itself, what's the minimum set of predefined operators you need? The Lisp that John McCarthy invented, or more accurately discovered, is an answer to that question. [[19](#f19n)]",
+      "zhMarkdown": "Lisp 的独特特征是它的核心是一种通过用自身编写解释器来定义的语言。它最初并不是作为普通意义上的编程语言设计的。它被设计为计算的形式模型，是图灵机的一种替代方案。如果你想用自身编写一种语言的解释器，你需要的最小预定义运算符集是什么？约翰·麦卡锡（John McCarthy）发明，或者更准确地说是发现的 Lisp，就是对那个问题的回答。[[19](#f19n)]"
+    },
+    {
+      "id": 135,
+      "type": "paragraph",
+      "sourceHash": "757e99c662cd12cc1f29fe0970756e5f6f9ad4ff97b266e6a99a0d7b31918056",
+      "enMarkdown": "McCarthy didn't realize this Lisp could even be used to program computers till his grad student Steve Russell suggested it. Russell translated McCarthy's interpreter into IBM 704 machine language, and from that point Lisp started also to be a programming language in the ordinary sense. But its origins as a model of computation gave it a power and elegance that other languages couldn't match. It was this that attracted me in college, though I didn't understand why at the time.",
+      "zhMarkdown": "麦卡锡甚至没有意识到这种 Lisp 可以用于为计算机编程，直到他的研究生 Steve Russell 提出了这一建议。Russell 将麦卡锡的解释器翻译成 IBM 704 机器语言，从那时起，Lisp 也开始成为普通意义上的编程语言。但它作为计算模型的起源赋予了它其他语言无法企及的力量和优雅。这就是在大学里吸引我的地方，尽管我当时不明白为什么。"
+    },
+    {
+      "id": 136,
+      "type": "paragraph",
+      "sourceHash": "ed2555a6366f0d950b2b1e281bdc5d0af6f33369ff36fbac14cef58d71b4e85c",
+      "enMarkdown": "McCarthy's 1960 Lisp did nothing more than interpret Lisp expressions. It was missing a lot of things you'd want in a programming language. So these had to be added, and when they were, they weren't defined using McCarthy's original axiomatic approach. That wouldn't have been feasible at the time. McCarthy tested his interpreter by hand-simulating the execution of programs. But it was already getting close to the limit of interpreters you could test that way � indeed, there was a bug in it that McCarthy had overlooked. To test a more complicated interpreter, you'd have had to run it, and computers then weren't powerful enough.",
+      "zhMarkdown": "麦卡锡 1960 年的 Lisp 除了释义 Lisp 表达式之外什么也没做。它缺少很多你在编程语言中想要的东西。所以这些必须被添加，当它们被添加时，它们并不是使用麦卡锡原始的公理化方法定义的。在当时那是不可能的。麦卡锡通过手动模拟程序的执行来测试他的解释器。但它已经接近你可以用这种方式测试的解释器的极限了——事实上，其中有一个麦卡锡忽略的 Bug。要测试一个更复杂的解释器，你必须运行它，而当时的计算机还不够强大。"
+    },
+    {
+      "id": 137,
+      "type": "paragraph",
+      "sourceHash": "1f06b4272734a12813711779bed0b4a87fd65158996d3b08f1f5043e78fbf21d",
+      "enMarkdown": "Now they are, though. Now you could continue using McCarthy's axiomatic approach till you'd defined a complete programming language. And as long as every change you made to McCarthy's Lisp was a discoveredness-preserving transformation, you could, in principle, end up with a complete language that had this quality. Harder to do than to talk about, of course, but if it was possible in principle, why not try? So I decided to take a shot at it. It took 4 years, from March 26, 2015 to October 12, 2019. It was fortunate that I had a precisely defined goal, or it would have been hard to keep at it for so long.",
+      "zhMarkdown": "但现在它们足够强大了。现在你可以继续使用麦卡锡的公理化方法，直到你定义了一种完整的编程语言。只要你对麦卡锡的 Lisp 做的每一次改变都是保持发现性的转换，原则上，你最终可以得到一种具有这种品质的完整语言。当然，说起来容易做起来难，但如果原则上是可能的，为什么不试试呢？所以我决定尝试一下。从 2015 年 3 月 26 日到 2019 年 10 月 12 日，一共花了 4 年时间。幸运的是我有一个精确定义的的目标，否则很难坚持这么长时间。"
+    },
+    {
+      "id": 138,
+      "type": "paragraph",
+      "sourceHash": "037e33186c159d82043d1d9976008b2b287afde9153150a7ffd4b02779de090e",
+      "enMarkdown": "I wrote this new Lisp, called [Bel](https://paulgraham.com/bel.html), in itself in Arc. That may sound like a contradiction, but it's an indication of the sort of trickery I had to engage in to make this work. By means of an egregious collection of hacks I managed to make something close enough to an interpreter written in itself that could actually run. Not fast, but fast enough to test.",
+      "zhMarkdown": "我用 Arc 语言自身编写了这种名为 [Bel](https://paulgraham.com/bel.html) 的新 Lisp。这听起来可能有点矛盾，但这表明了为了让它工作我不得不采用的那种欺骗手段。通过极其惊人的黑客技术的集合，我成功地做出了一个足够接近于用自身编写的、可以实际运行的解释器。不快，但足够快以进行测试。"
+    },
+    {
+      "id": 139,
+      "type": "paragraph",
+      "sourceHash": "1b35bcbcb92ec9d09fec772277f3caf268b23a8f93c9c454a25912d96e348001",
+      "enMarkdown": "I had to ban myself from writing essays during most of this time, or I'd never have finished. In late 2015 I spent 3 months writing essays, and when I went back to working on Bel I could barely understand the code. Not so much because it was badly written as because the problem is so convoluted. When you're working on an interpreter written in itself, it's hard to keep track of what's happening at what level, and errors can be practically encrypted by the time you get them.",
+      "zhMarkdown": "在这段时间的大部分时间里，我不得不禁止自己写文章，否则我永远无法完成。在 2015 年底，我花了 3 个月写文章，当我重新开始研究 Bel 时，我几乎无法理解代码。与其说是写得不好，不如说是问题太错综复杂了。当你研究一个用自身编写的解释器时，很难跟踪在哪个层面上发生了什么，并且当你发现错误时，错误实际上可能已经被加密了。"
+    },
+    {
+      "id": 140,
+      "type": "paragraph",
+      "sourceHash": "d83756606066ed1df66a8e3bba0b9528da111bb7f11b5340396edb538b43d930",
+      "enMarkdown": "So I said no more essays till Bel was done. But I told few people about Bel while I was working on it. So for years it must have seemed that I was doing nothing, when in fact I was working harder than I'd ever worked on anything. Occasionally after wrestling for hours with some gruesome bug I'd check Twitter or HN and see someone asking \"Does Paul Graham still code?\"",
+      "zhMarkdown": "所以我说在 Bel 完成之前不再写文章。但我在研究它时很少向人们提起 Bel。所以在好几年里，人们一定觉得我什么都没做，而事实上，我比以往任何时候都更努力地研究任何东西。偶尔在与一些可怕的 Bug 搏斗了几个小时后，我会查看 Twitter 或 HN，看到有人问“Paul Graham 还在写代码吗？”"
+    },
+    {
+      "id": 141,
+      "type": "paragraph",
+      "sourceHash": "e5fe3dbe303146045b5e51d365914ecdbb8d723db7ff4173f8754f8107ecc424",
+      "enMarkdown": "Working on Bel was hard but satisfying. I worked on it so intensively that at any given time I had a decent chunk of the code in my head and could write more there. I remember taking the boys to the coast on a sunny day in 2015 and figuring out how to deal with some problem involving continuations while I watched them play in the tide pools. It felt like I was doing life right. I remember that because I was slightly dismayed at how novel it felt. The good news is that I had more moments like this over the next few years.",
+      "zhMarkdown": "研究 Bel 很难但令人满足。我非常专注地研究它，以至于在任何特定时间，我脑子里都有相当大的一部分代码，并且可以在那里写更多。我记得在 2015 年的一个晴天带孩子们去海边，并在看着他们在潮汐池里玩耍时，想出了如何处理一些涉及延续性的问题。感觉就像我把生活过得恰到好处。我记得那是因为我对它感觉如此新奇感到有些沮丧。好消息是，在接下来的几年里，我有了更多这样的时刻。"
+    },
+    {
+      "id": 142,
+      "type": "paragraph",
+      "sourceHash": "decc71ad572f93176fa9ac06d93dfcdc6a9375fade2123c9f067cc06f5099882",
+      "enMarkdown": "In the summer of 2016 we moved to England. We wanted our kids to see what it was like living in another country, and since I was a British citizen by birth, that seemed the obvious choice. We only meant to stay for a year, but we liked it so much that we still live there. So most of Bel was written in England.",
+      "zhMarkdown": "在 2016 年夏天，我们搬到了英国。我们希望我们的孩子们看看在另一个国家生活是什么样子，由于我出生就是英国公民，这似乎是显而易见的选择。我们本打算只呆一年，但我们非常喜欢那里，以至于我们仍然住在那里。所以 Bel 的大部分是在英国写的。"
+    },
+    {
+      "id": 143,
+      "type": "paragraph",
+      "sourceHash": "35a845356476892debbf7a88ee3892d61fe8d1d9000d2d86d6e19ff6dec63410",
+      "enMarkdown": "In the fall of 2019, Bel was finally finished. Like McCarthy's original Lisp, it's a spec rather than an implementation, although like McCarthy's Lisp it's a spec expressed as code.",
+      "zhMarkdown": "在 2019 年秋天，Bel 终于完成了。就像麦卡锡原始的 Lisp 一样，它是一个规范而不是一个实现，尽管像麦卡锡的 Lisp 一样，它是一个表达为代码的规范。"
+    },
+    {
+      "id": 144,
+      "type": "paragraph",
+      "sourceHash": "e48f69b949ef2b3856273303aa187a767901946bdd9df24f4248c46ec3e6bebf",
+      "enMarkdown": "Now that I could write essays again, I wrote a bunch about topics I'd had stacked up. I kept writing essays through 2020, but I also started to think about other things I could work on. How should I choose what to do? Well, how had I chosen what to work on in the past? I wrote an essay for myself to answer that question, and I was surprised how long and messy the answer turned out to be. If this surprised me, who'd lived it, then I thought perhaps it would be interesting to other people, and encouraging to those with similarly messy lives. So I wrote a more detailed version for others to read, and this is the last sentence of it.",
+      "zhMarkdown": "现在我可以重新写文章了，我写了一堆关于我积累的主题的文章。我在 2020 年继续写文章，但我也开始思考我可以研究的其他事情。我该如何选择做什么？好吧，我过去是如何选择研究什么的？我为自己写了一篇文章来回答那个问题，我惊讶地发现答案是如此漫长和杂乱。如果这让我这个经历过它的人感到惊讶，那么我想也许对其他人来说会很有趣，并对那些生活同样杂乱的人有所鼓励。所以我为其他人写了一个更详细的版本，这是它的最后一句。"
+    },
+    {
+      "id": 145,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 146,
+      "type": "paragraph",
+      "sourceHash": "07dc2e5a2747c1345caaffb1cc8b567f57e09151df083312df3f67ad9148c1b4",
+      "enMarkdown": "[1] My experience skipped a step in the evolution of computers: time-sharing machines with interactive OSes. I went straight from batch processing to microcomputers, which made microcomputers seem all the more exciting.",
+      "zhMarkdown": "[1] 我的经历跳过了计算机演变中的一个步骤：具有交互式操作系统的分时机器。我直接从批处理过渡到了微型计算机，这使得微型计算机显得更加令人兴奋。"
+    },
+    {
+      "id": 147,
+      "type": "paragraph",
+      "sourceHash": "acf24db081b0c51533e3f876de322ccd9642b68d648cee3e3c73d41beb294d14",
+      "enMarkdown": "[2] Italian words for abstract concepts can nearly always be predicted from their English cognates (except for occasional traps like *polluzione*). It's the everyday words that differ. So if you string together a lot of abstract concepts with a few simple verbs, you can make a little Italian go a long way.",
+      "zhMarkdown": "[2] 抽象概念的意大利语单词几乎总是可以通过其英语同源词来预测（除了偶尔的陷阱如 *polluzione*）。不同的是日常词汇。所以如果你用几个简单的动词把很多抽象概念串在一起，你可以让一点点意大利语发挥很大的作用。"
+    },
+    {
+      "id": 148,
+      "type": "paragraph",
+      "sourceHash": "ae6dae108b92f64e00819f4cc6a3751d0ec32d7035fec2fa6008749bb7797a26",
+      "enMarkdown": "[3] I lived at Piazza San Felice 4, so my walk to the Accademia went straight down the spine of old Florence: past the Pitti, across the bridge, past Orsanmichele, between the Duomo and the Baptistery, and then up Via Ricasoli to Piazza San Marco. I saw Florence at street level in every possible condition, from empty dark winter evenings to sweltering summer days when the streets were packed with tourists.",
+      "zhMarkdown": "[3] 我住在圣费利切广场 4 号（Piazza San Felice 4），所以我去美院的路程直接穿过了旧佛罗伦萨的脊梁：经过皮蒂宫、穿过老桥、经过奥桑米凯莱教堂、在主教座堂和洗礼堂之间，然后沿着里卡索利街到圣马可广场。我在各种可能的情况下看到了街道层面的佛罗伦萨，从空旷黑暗的冬日夜晚到街上挤满游客的炎热夏日。"
+    },
+    {
+      "id": 149,
+      "type": "paragraph",
+      "sourceHash": "a21f63dc0df2a6f1320be9d721d9e8121ab6ff64cddf69eea9067d95ab002688",
+      "enMarkdown": "[4] You can of course paint people like still lives if you want to, and they're willing. That sort of portrait is arguably the apex of still life painting, though the long sitting does tend to produce pained expressions in the sitters.",
+      "zhMarkdown": "[4] 当然，如果你愿意并且他们愿意，你可以像画静物一样画人。那种肖像可以说是静物画的顶点，尽管长时间的坐着确实容易让坐着的人产生痛苦的表情。"
+    },
+    {
+      "id": 150,
+      "type": "paragraph",
+      "sourceHash": "641ac33eed0a9bdc07521e0209483822ce495e80c1c8d440241a18e63c3ea62f",
+      "enMarkdown": "[5] Interleaf was one of many companies that had smart people and built impressive technology, and yet got crushed by Moore's Law. In the 1990s the exponential growth in the power of commodity (i.e. Intel) processors rolled up high-end, special-purpose hardware and software companies like a bulldozer.",
+      "zhMarkdown": "[5] Interleaf 是众多拥有聪明人才和构建了令人印象深刻的技术，但却被摩尔定律击碎的公司之一。在 90 年代，商品化（即 Intel）处理器能力的指数级增长像推土机一样席卷了高端、专用的硬件和软件公司。"
+    },
+    {
+      "id": 151,
+      "type": "paragraph",
+      "sourceHash": "37ba9c02c02a8b69460b60ebc1ad20ac43366a750486801a53f4d8c1dcd2d8db",
+      "enMarkdown": "[6] The signature style seekers at RISD weren't specifically mercenary. In the art world, money and coolness are tightly coupled. Anything expensive comes to be seen as cool, and anything seen as cool will soon become equally expensive.",
+      "zhMarkdown": "[6] RISD 的标志性风格追求者并不是特别唯利是图。在艺术界，金钱和酷是紧密结合在一起的。任何昂贵的东西都会被看作是酷的，而任何被看作是酷的东西很快就会变得同样昂贵。"
+    },
+    {
+      "id": 152,
+      "type": "paragraph",
+      "sourceHash": "56c1324d94555b90616ccff71aca33a970073dbb31dc7177a9d3a7ea1bb44388",
+      "enMarkdown": "[7] Technically the apartment wasn't rent-controlled but rent-stabilized, but this is a refinement only New Yorkers would know or care about. The point is that it was really cheap, less than half market price.",
+      "zhMarkdown": "[7] 严格来说，那间公寓不是租金管制的，而是租金稳定的，但这只是纽约人知道或关心的细节。关键是它真的很便宜，不到市场价格的一半。"
+    },
+    {
+      "id": 153,
+      "type": "paragraph",
+      "sourceHash": "f25284b3e4d301627f78f940ea0da812759e07a898b23a30716e93f968183602",
+      "enMarkdown": "[8] Most software you can launch as soon as it's done. But when the software is an online store builder and you're hosting the stores, if you don't have any users yet, that fact will be painfully obvious. So before we could launch publicly we had to launch privately, in the sense of recruiting an initial set of users and making sure they had decent-looking stores.",
+      "zhMarkdown": "[8] 大多数软件你一开发完就可以发布。但当软件是在线商店构建器并且你在托管商店时，如果你还没有任何用户，那个事实将是痛苦地明显的。所以在我们可以公开上线之前，我们必须私下上线，即招募第一批用户并确保他们拥有体面的商店。"
+    },
+    {
+      "id": 154,
+      "type": "paragraph",
+      "sourceHash": "9824ff343767e5775c6e4ff52852207b6cbb965226c34bfd8ea6ae6d7d86cb91",
+      "enMarkdown": "[9] We'd had a code editor in Viaweb for users to define their own page styles. They didn't know it, but they were editing Lisp expressions underneath. But this wasn't an app editor, because the code ran when the merchants' sites were generated, not when shoppers visited them.",
+      "zhMarkdown": "[9] 我们在 Viaweb 中有一个代码编辑器，供用户定义他们自己的页面样式。他们不知道，但他们在底层编辑的是 Lisp 表达式。但这并不是一个应用程序编辑器，因为代码是在商家的网站生成时运行的，而不是在购物者访问它们时运行的。"
+    },
+    {
+      "id": 155,
+      "type": "paragraph",
+      "sourceHash": "6159c9c275eb4e666f4006ce494640d53279e22b6f61d1056e24032fcbf3a6f9",
+      "enMarkdown": "[10] This was the first instance of what is now a familiar experience, and so was what happened next, when I read the comments and found they were full of angry people. How could I claim that Lisp was better than other languages? Weren't they all Turing complete? People who see the responses to essays I write sometimes tell me how sorry they feel for me, but I'm not exaggerating when I reply that it has always been like this, since the very beginning. It comes with the territory. An essay must tell readers things they [don't already know](https://paulgraham.com/useful.html), and some people dislike being told such things.",
+      "zhMarkdown": "[10] 这是现在熟悉的体验的第一个例子，接下来的事情也是如此，当我阅读评论并发现它们充满了愤怒的人。我怎么能声称 Lisp 比其他语言更好？它们不都是图灵完备的吗？看到我写的文章的回应的人有时会告诉我他们是多么为我感到遗憾，但当我回答说自最开始以来一直都是这样时，我并没有夸大其词。这是伴随而来的代价。一篇文章必须告诉读者他们[还不知道](https://paulgraham.com/useful.html)的事情，而有些人不喜欢被告知这样的事情。"
+    },
+    {
+      "id": 156,
+      "type": "paragraph",
+      "sourceHash": "a88b626b544d4e9a551b2005c901541745199039d35f10105041c9d9e56f0c70",
+      "enMarkdown": "[11] People put plenty of stuff on the internet in the 90s of course, but putting something online is not the same as publishing it online. Publishing online means you treat the online version as the (or at least a) primary version.",
+      "zhMarkdown": "[11] 当然，人们在 90 年代在互联网上放了很多东西，但把东西放在网上和在网上发表是不一样的。在线发表意味着你把在线版本当作主要的（或至少是主要的之一）版本。"
+    },
+    {
+      "id": 157,
+      "type": "paragraph",
+      "sourceHash": "d7ebf0775d8fe36fb5936345bf140155424c50bd67642613bac78947a3586ba8",
+      "enMarkdown": "[12] There is a general lesson here that our experience with Y Combinator also teaches: Customs continue to constrain you long after the restrictions that caused them have disappeared. Customary VC practice had once, like the customs about publishing essays, been based on real constraints. Startups had once been much more expensive to start, and proportionally rare. Now they could be cheap and common, but the VCs' customs still reflected the old world, just as customs about writing essays still reflected the constraints of the print era.",
+      "zhMarkdown": "[12] 这里有一个普遍的教训，我们与 Y Combinator 的经验也教导了这一点：在引起它们的限制消失后，习俗仍会继续约束你。传统的风投实践曾几何时像关于发表文章的习俗一样，是基于真实限制的。创业公司曾几何时创办成本高得多，并且成比例地罕见。现在它们可以很便宜且很常见，但风投的习俗仍然反映了旧世界，就像关于写文章的习俗仍然反映了纸媒时代的限制一样。"
+    },
+    {
+      "id": 158,
+      "type": "paragraph",
+      "sourceHash": "1c38dd09f850545e10faa13c6fd49cdd7d92c7b518b9765ed99df24e56ee2dec",
+      "enMarkdown": "Which in turn implies that people who are independent-minded (i.e. less influenced by custom) will have an advantage in fields affected by rapid change (where customs are more likely to be obsolete).",
+      "zhMarkdown": "这反过来意味着独立思考的人（即较少受习俗影响的人）在受快速变化影响的领域（那里的习俗更有可能过时）将具有优势。"
+    },
+    {
+      "id": 159,
+      "type": "paragraph",
+      "sourceHash": "f16d2a0898a3140cde8610803465ab404e356605c378dd5a42c2e54dcca86dee",
+      "enMarkdown": "Here's an interesting point, though: you can't always predict which fields will be affected by rapid change. Obviously software and venture capital will be, but who would have predicted that essay writing would be?",
+      "zhMarkdown": "不过，这里有一个有趣的观点：你无法总是预测哪些领域会受到快速变化的影响。显然软件和风险投资会，但谁能预测到写文章也会呢？"
+    },
+    {
+      "id": 160,
+      "type": "paragraph",
+      "sourceHash": "bb09307eee821e4b16efa2b98f84aa4acee1a5546e374fc7215a7d74357167db",
+      "enMarkdown": "[13] Y Combinator was not the original name. At first we were called Cambridge Seed. But we didn't want a regional name, in case someone copied us in Silicon Valley, so we renamed ourselves after one of the coolest tricks in the lambda calculus, the Y combinator.",
+      "zhMarkdown": "[13] Y Combinator 不是最初的名字。起初我们被称为 Cambridge Seed。但我们不想要一个区域性的名字，以防有人在硅谷复制我们，所以我们根据 lambda 演算中最酷的技巧之一，Y 组合子，重新命名了我们自己。"
+    },
+    {
+      "id": 161,
+      "type": "paragraph",
+      "sourceHash": "c36b4bbaae62a001080635bcdc1296fb46dee5e17090115fdfb128e2d324e500",
+      "enMarkdown": "I picked orange as our color partly because it's the warmest, and partly because no VC used it. In 2005 all the VCs used staid colors like maroon, navy blue, and forest green, because they were trying to appeal to LPs, not founders. The YC logo itself is an inside joke: the Viaweb logo had been a white V on a red circle, so I made the YC logo a white Y on an orange square.",
+      "zhMarkdown": "我选择橙色作为我们的颜色，部分原因是因为它是最温暖的，部分原因是因为没有风投使用它。在 2005 年，所有的风投都使用像栗色、海军蓝和森林绿这样庄重的颜色，因为他们试图吸引 LP，而不是创始人。YC 的 Logo 本身是一个内部笑话：Viaweb 的 Logo 曾是红色圆圈上的白色 V，所以我把 YC 的 Logo 做成了橙色正方形上的白色 Y。"
+    },
+    {
+      "id": 162,
+      "type": "paragraph",
+      "sourceHash": "d290c8ce3f2100076b0b8123b08f6ba1cfd0ca88c409c0b4424c4b0d47483380",
+      "enMarkdown": "[14] YC did become a fund for a couple years starting in 2009, because it was getting so big I could no longer afford to fund it personally. But after Heroku got bought we had enough money to go back to being self-funded.",
+      "zhMarkdown": "[14] 从 2009 年开始，YC 确实成为了一家基金，因为规模变得如此之大，我无法再个人资助它了。但在 Heroku 被收购后，我们有了足够的钱重新回到自我资助的状态。"
+    },
+    {
+      "id": 163,
+      "type": "paragraph",
+      "sourceHash": "87e9c0c50f8bf8522c67abe4546b4f5221bcf2c28bf2b58a5b638c6720d5fb31",
+      "enMarkdown": "[15] I've never liked the term \"deal flow,\" because it implies that the number of new startups at any given time is fixed. This is not only false, but it's the purpose of YC to falsify it, by causing startups to be founded that would not otherwise have existed.",
+      "zhMarkdown": "[15] 我从未喜欢过“案源”（deal flow）这个词，因为它暗示了在任何给定时间的新的创业公司数量是固定的。这不仅是错误的，而且 YC 的目的就是通过促成原本不会存在的创业公司的创办来证明它是错误的。"
+    },
+    {
+      "id": 164,
+      "type": "paragraph",
+      "sourceHash": "5d4108a5b7ed2dc635ded5ee27038de9fbf061b7acdedafa82acd3187370af34",
+      "enMarkdown": "[16] She reports that they were all different shapes and sizes, because there was a run on air conditioners and she had to get whatever she could, but that they were all heavier than she could carry now.",
+      "zhMarkdown": "[16] 她报告说它们都是不同的形状和大小，因为空调被抢购一空，她不得不买到她能买到的任何东西，但它们都比她现在能搬动的还要重。"
+    },
+    {
+      "id": 165,
+      "type": "paragraph",
+      "sourceHash": "9cacce19984e59fee49b1183add7899c0ba2f3862e66d39501e284f32591a1b2",
+      "enMarkdown": "[17] Another problem with HN was a bizarre edge case that occurs when you both write essays and run a forum. When you run a forum, you're assumed to see if not every conversation, at least every conversation involving you. And when you write essays, people post highly imaginative misinterpretations of them on forums. Individually these two phenomena are tedious but bearable, but the combination is disastrous. You actually have to respond to the misinterpretations, because the assumption that you're present in the conversation means that not responding to any sufficiently upvoted misinterpretation reads as a tacit admission that it's correct. But that in turn encourages more; anyone who wants to pick a fight with you senses that now is their chance.",
+      "zhMarkdown": "[17] HN 的另一个问题是当你既写文章又运行论坛时会出现的一个奇怪的边缘案例。当你运行论坛时，你被假定会看到即使不是每一次对话，至少也是每一次涉及你的对话。当你写文章时，人们在论坛上发表高度富有想象力的误解。单独来看，这两个现象是乏味但可以忍受的，但结合起来是灾难性的。你实际上必须对误解做出回应，因为你在对话中存在的假设意味着对任何获得足够赞同的误解不做出回应会被解读为默许它是正确的。但这反过来鼓励了更多；任何想找你挑衅的人都会觉得现在是他们的机会。"
+    },
+    {
+      "id": 166,
+      "type": "paragraph",
+      "sourceHash": "c0e89e8dc820dc8d87ef75def5d2b4b2cfd56c9b80778662c268e0c04cbe08ce",
+      "enMarkdown": "[18] The worst thing about leaving YC was not working with Jessica anymore. We'd been working on YC almost the whole time we'd known each other, and we'd neither tried nor wanted to separate it from our personal lives, so leaving was like pulling up a deeply rooted tree.",
+      "zhMarkdown": "[18] 离开 YC 最糟糕的事情是不能再与 Jessica 一起工作了。在我们认识的几乎整个时间里，我们一直在 YC 工作，我们既没有尝试也不想将它与我们的个人生活分开，所以离开就像是拔掉一棵根深蒂固的树。"
+    },
+    {
+      "id": 167,
+      "type": "paragraph",
+      "sourceHash": "ccba9bcb3384af4faa20a795cf7903a5ea2e841700d666ac58ba34c4959cbd86",
+      "enMarkdown": "[19] One way to get more precise about the concept of invented vs discovered is to talk about space aliens. Any sufficiently advanced alien civilization would certainly know about the Pythagorean theorem, for example. I believe, though with less certainty, that they would also know about the Lisp in McCarthy's 1960 paper.",
+      "zhMarkdown": "[19] 更加精确地区分发明与发现概念的一种方法是谈论外星人。例如，任何足够先进的外星人文明肯定会知道勾股定理。我相信，尽管不那么确定，他们也会知道麦卡锡 1960 年论文中的 Lisp。"
+    },
+    {
+      "id": 168,
+      "type": "paragraph",
+      "sourceHash": "b9656bd166afa8edcd9de6d6361f560f00e3938dd38961ac8e3930e9649c32da",
+      "enMarkdown": "But if so there's no reason to suppose that this is the limit of the language that might be known to them. Presumably aliens need numbers and errors and I/O too. So it seems likely there exists at least one path out of McCarthy's Lisp along which discoveredness is preserved.",
+      "zhMarkdown": "但如果是这样，就没有理由假设这是他们可能知道的语言的极限。想必外星人也需要数字、错误处理和输入/输出。所以似乎很可能存在至少一条走出麦卡锡 Lisp 的路径，沿着这条路径，发现性得以保留。"
+    },
+    {
+      "id": 169,
+      "type": "paragraph",
+      "sourceHash": "18e45ea2446d1c79da43aefd4326db9131a758ed6af10ce9083daa2182dd4b29",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, John Collison, Patrick Collison, Daniel Gackle, Ralph Hazell, Jessica Livingston, Robert Morris, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、John Collison、Patrick Collison、Daniel Gackle、Ralph Hazell、Jessica Livingston、Robert Morris 和 Harj Taggar 阅读了此文的草稿。"
+    }
+  ]
+}

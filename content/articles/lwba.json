@@ -1,0 +1,20 @@
+{
+  "slug": "lwba",
+  "titleEn": "Lisp for Web-Based Applications",
+  "titleZh": "用于 Web 应用程序的 Lisp",
+  "dateText": "April 2001",
+  "publishedAt": "2001-04-01",
+  "sourceOrder": 224,
+  "sourceUrl": "https://paulgraham.com/lwba.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "dde11e05257a6af160e3318aaf60855b259d59fd5519a5d0661b113f38aa631a",
+      "enMarkdown": "at BBN Labs in Cambridge, MA.",
+      "zhMarkdown": "于马萨诸塞州剑桥市的 BBN 实验室。"
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "slug": "lies",
+  "titleEn": "Lies We Tell Kids",
+  "titleZh": "我们对孩子撒的谎",
+  "dateText": "May 2008",
+  "publishedAt": "2008-05-01",
+  "sourceOrder": 136,
+  "sourceUrl": "https://paulgraham.com/lies.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "72e13dd1c9f3fdf1fa4dfd2a4678450a9530b5846444ee84430230c58c0c2cc7",
+      "enMarkdown": "Adults lie constantly to kids. I'm not saying we should stop, but I think we should at least examine which lies we tell and why.",
+      "zhMarkdown": "大人们经常对孩子撒谎。我不是说我们应该停止这样做，但我认为我们至少应该审视一下，我们到底说了哪些谎，以及为什么要说这些谎。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "6d67ee25ea0f6330cc5a7e333571f06cc81013e950f0d63a6a646fb786f02008",
+      "enMarkdown": "There may also be a benefit to us. We were all lied to as kids, and some of the lies we were told still affect us. So by studying the ways adults lie to kids, we may be able to clear our heads of lies we were told.",
+      "zhMarkdown": "这样做对我们自己也有好处。我们小时候都被骗过，有些谎言至今仍在影响着我们。因此，通过研究大人是如何对孩子撒谎的，我们或许能够清除自己脑海中那些曾经被灌输的谎言。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d827ea7d7699cb017304964cd51887731abc9177886240402f601c546453b6b7",
+      "enMarkdown": "I'm using the word \"lie\" in a very general sense: not just overt falsehoods, but also all the more subtle ways we mislead kids. Though \"lie\" has negative connotations, I don't mean to suggest we should never do this—just that we should pay attention when we do. [[1](#f1n)]",
+      "zhMarkdown": "我是在极广义的层面使用“撒谎”（lie）这个词的：不仅指公开的假话，也包括所有误导孩子的微妙方式。虽然“撒谎”带有贬义，但我并不是说我们绝对不能这样做——只是觉得我们在这样做的时候，应该保持清醒。 [[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4f19933a8ba62885a20e6f2af1e4bb32a6a89ab5f0395faf4b7ee5ebff2ee4fa",
+      "enMarkdown": "One of the most remarkable things about the way we lie to kids is how broad the conspiracy is. All adults know what their culture lies to kids about: they're the questions you answer \"Ask your parents.\" If a kid asked who won the World Series in 1982 or what the atomic weight of carbon was, you could just tell him. But if a kid asks you \"Is there a God?\" or \"What's a prostitute?\" you'll probably say \"Ask your parents.\"",
+      "zhMarkdown": "关于我们对孩子撒谎，最引人注目的一点就是这场“共谋”的范围之广。所有大人都知道自己的文化在哪些事情上对孩子撒谎：那就是那些你会用“去问你爸妈”来回答的问题。如果一个孩子问你 1982 年的世界大赛是谁赢的，或者碳的原子量是多少，你可以直接告诉他。但如果孩子问你“真的有上帝吗？”或者“什么是妓女？”，你大概率会说“去问你爸妈”。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1f19b7739da9b64cc1b6c03380335301b59f3e95ae5d9bc85fda6774477b7a6e",
+      "enMarkdown": "Since we all agree, kids see few cracks in the view of the world presented to them. The biggest disagreements are between parents and schools, but even those are small. Schools are careful what they say about controversial topics, and if they do contradict what parents want their kids to believe, parents either pressure the school into keeping [quiet](http://www.google.com/search?q=parents+complain+inappropriate+book) or move their kids to a new school.",
+      "zhMarkdown": "由于大家都达成了默契，孩子们在面对大人们呈现的世界观时，几乎看不到任何破绽。最大的分歧存在于家长和学校之间，但即便是这些分歧也微乎其微。学校在对待有争议的话题时非常谨慎，如果学校的说法真的与家长希望孩子相信的东西相冲突，家长要么会施压让学校保持[沉默](http://www.google.com/search?q=parents+complain+inappropriate+book)，要么就会把孩子转到新学校。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "c9fa7dec9793acdd6693ab31bb46160e235710ed8f4e65e100ff62f70617fb12",
+      "enMarkdown": "The conspiracy is so thorough that most kids who discover it do so only by discovering internal contradictions in what they're told. It can be traumatic for the ones who wake up during the operation. Here's what happened to Einstein:",
+      "zhMarkdown": "这场共谋是如此彻底，以至于大多数发现真相的孩子，都是通过察觉大人话里的自相矛盾才醒悟过来的。对于那些在“手术”过程中突然醒来的孩子来说，这可能会带来心理创伤。以下是爱因斯坦的经历："
+    },
+    {
+      "id": 7,
+      "type": "quote",
+      "sourceHash": "e5e444c2139fab78782ae149697e33d4eef6906d8445622ffe379c024ac04721",
+      "enMarkdown": "> Through the reading of popular scientific books I soon reached the conviction that much in the stories of the Bible could not be true. The consequence was a positively fanatic freethinking coupled with the impression that youth is intentionally being deceived by the state through lies: it was a crushing impression. [2]",
+      "zhMarkdown": "> 通过阅读通俗科学书籍，我很快确信，圣经故事里的许多内容都不可能是真的。其结果是，我陷入了一种绝对狂热的自由思考，并伴随着一种被国家通过谎言有意欺骗青少年的印象：这是一种毁灭性的印象。 [2]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "858eacd2a7c426ce694e73adc4bd8eec98ef9d3b0fcef30d98598e7cd767ac94",
+      "enMarkdown": "I remember that feeling. By 15 I was convinced the world was corrupt from end to end. That's why movies like *The Matrix* have such resonance. Every kid grows up in a fake world. In a way it would be easier if the forces behind it were as clearly differentiated as a bunch of evil machines, and one could make a clean break just by taking a pill.",
+      "zhMarkdown": "我还记得那种感觉。到了 15 岁时，我确信这个世界从头到尾都是腐败的。这就是为什么像《黑客帝国》这样的电影能引起如此强烈的共鸣。每个孩子都成长在一个虚假的世界里。从某种意义上说，如果幕后的力量像一帮邪恶的机器那样界限分明，事情反而简单了，你只需吞下一颗药丸就能彻底决裂。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "bdc77455a75d80266b40b9aa98eee55f323f3f2a65286021eff3c4fae5768961",
+      "enMarkdown": "**Protection**",
+      "zhMarkdown": "**保护**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "f5513ad9d6322277295e7202711c285534e84dcd574c1ebb9ad2d8d56cbea4a7",
+      "enMarkdown": "If you ask adults why they lie to kids, the most common reason they give is to protect them. And kids do need protecting. The environment you want to create for a newborn child will be quite unlike the streets of a big city.",
+      "zhMarkdown": "如果你问大人为什么要对孩子撒谎，他们最常给出的理由是保护他们。孩子确实需要保护。你想为新生儿创造的环境，肯定不会像大城市的街道那样复杂。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "9c9bc75700999743bd138d05d8593701595dac304a6e73badf5d8e1f1931abf0",
+      "enMarkdown": "That seems so obvious it seems wrong to call it a lie. It's certainly not a bad lie to tell, to give a baby the impression the world is quiet and warm and safe. But this harmless type of lie can turn sour if left unexamined.",
+      "zhMarkdown": "这看起来理所当然，以至于把它叫做“谎言”似乎都不太对。给婴儿一个世界是安静、温暖且安全的印象，这当然不是什么恶意的谎言。但是，如果不加审视，这种无害的谎言也会变质。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ed971a5186ce0028ec104a6581d2237b23305cef2f439d0d385b31fe8387d267",
+      "enMarkdown": "Imagine if you tried to keep someone in as protected an environment as a newborn till age 18. To mislead someone so grossly about the world would seem not protection but abuse. That's an extreme example, of course; when parents do that sort of thing it becomes national news. But you see the same problem on a smaller scale in the malaise teenagers feel in suburbia.",
+      "zhMarkdown": "试想一下，如果你试图让一个人在像新生儿那样备受保护的环境里一直待到 18 岁。对一个人在世界认知上产生如此巨大的误导，看起来就不是保护，而是虐待了。当然，这是一个极端的例子；当家长真的做出这种事时，往往会成为全国新闻。但在较小的尺度上，你能在郊区青少年感受到的那种莫名压抑中看到同样的问题。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "0c75da4e1d8f7592d2bf6fb7964ab4eccd021ccd1ccc87a98cad62e903d3f75c",
+      "enMarkdown": "The main purpose of suburbia is to provide a protected environment for children to grow up in. And it seems great for 10 year olds. I liked living in suburbia when I was 10. I didn't notice how sterile it was. My whole world was no bigger than a few friends' houses I bicycled to and some woods I ran around in. On a log scale I was midway between crib and globe. A suburban street was just the right size. But as I grew older, suburbia started to feel suffocatingly fake.",
+      "zhMarkdown": "郊区的主要目的就是为孩子的成长提供一个受保护的环境。对于 10 岁的孩子来说，这似乎棒极了。我 10 岁时很喜欢住在郊区。我没有注意到那里有多么枯燥。我的整个世界不过就是我骑自行车去的那几个朋友家，以及我跑来跑去的一些树林。在对数尺度上，我介于婴儿床和地球之间。郊区的街道大小刚刚好。但随着我慢慢长大，郊区开始让我感到虚假得令人窒息。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "1a60265881c0c4ea6fa45fc9050986567534b73485336b91411d6f62cb067622",
+      "enMarkdown": "Life can be pretty good at 10 or 20, but it's often frustrating at 15. This is too big a problem to solve here, but certainly one reason life sucks at 15 is that kids are trapped in a world designed for 10 year olds.",
+      "zhMarkdown": "在 10 岁或 20 岁时，生活可以很美好，但在 15 岁时，生活往往令人沮丧。这是一个太庞大以至于无法在这里解决的问题，但 15 岁时的生活之所以糟糕，原因之一当然是孩子们被困在了一个为 10 岁孩子设计的世界里。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "1ae9c7d444b6ac6b3dcc90d1ebc72e4de1a20b204fce66622800328a64681920",
+      "enMarkdown": "What do parents hope to protect their children from by raising them in suburbia? A friend who moved out of Manhattan said merely that her 3 year old daughter \"saw too much.\" Off the top of my head, that might include: people who are high or drunk, poverty, madness, gruesome medical conditions, sexual behavior of various degrees of oddness, and violent anger.",
+      "zhMarkdown": "家长们把孩子养在郊区，究竟希望保护他们免受什么伤害？一位搬出曼哈顿的朋友只是说，她 3 岁的女儿“看得太多了”。我想，这可能包括：吸毒或醉酒的人、贫困、疯狂、可怕的疾病、各种古怪的性行为，以及暴怒。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "4f51bf195b86d2d89b4ec54c186bcf32cdf59186461fbd925351296bda66049e",
+      "enMarkdown": "I think it's the anger that would worry me most if I had a 3 year old. I was 29 when I moved to New York and I was surprised even then. I wouldn't want a 3 year old to see some of the disputes I saw. It would be too frightening. A lot of the things adults conceal from smaller children, they conceal because they'd be frightening, not because they want to conceal the existence of such things. Misleading the child is just a byproduct.",
+      "zhMarkdown": "如果我有一个 3 岁的孩子，我想最让我担心的会是暴怒。我 29 岁搬到纽约时，连我自己都感到惊讶。我不会希望一个 3 岁的孩子看到我见过的某些冲突，那太吓人了。大人向小孩子隐瞒很多事情，是因为这些事情会吓到他们，而不是因为想隐瞒这些事情的存在。误导孩子只是一个副产品。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "d252e4169991d41b22c1f73bf5ad014f6a1f9058a950c77faa56127127034723",
+      "enMarkdown": "This seems one of the most justifiable types of lying adults do to kids. But because the lies are indirect we don't keep a very strict accounting of them. Parents know they've concealed the facts about sex, and many at some point sit their kids down and explain more. But few tell their kids about the differences between the real world and the cocoon they grew up in. Combine this with the confidence parents try to instill in their kids, and every year you get a new crop of 18 year olds who think they know how to run the world.",
+      "zhMarkdown": "这似乎是大人对孩子撒谎最合理的类型之一。但因为这些谎言是间接的，我们并没有对它们进行严格的清算。家长知道自己隐瞒了性事实，许多人会在某个时刻坐下来跟孩子解释。但很少有家长会告诉孩子，真实的世界与他们长大的温室有什么不同。再加上家长试图灌输给孩子的自信，每年你都会收获一批自以为知道如何管理世界的 18 岁年轻人。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "1757ac9548784d8f45188d8681fd594988b86dd8084737dcc87a2f619aa091be",
+      "enMarkdown": "Don't all 18 year olds think they know how to run the world? Actually this seems to be a recent innovation, no more than about 100 years old. In preindustrial times teenage kids were junior members of the adult world and comparatively well aware of their shortcomings. They could see they weren't as strong or skillful as the village smith. In past times people lied to kids about some things more than we do now, but the lies implicit in an artificial, protected environment are a recent invention. Like a lot of new inventions, the rich got this first. Children of kings and great magnates were the first to grow up out of touch with the world. Suburbia means half the population can live like kings in that respect.",
+      "zhMarkdown": "是不是所有的 18 岁年轻人都觉得自己知道如何管理世界？实际上，这似乎是最近的发明，历史不超过 100 年左右。在工业化前时代，十几岁的孩子是成人世界的初级成员，相对清楚自己的不足。他们能看出自己没有村里的铁匠强壮或熟练。在过去，人们在某些事情上比现在更常对孩子撒谎，但这种由人工、受保护的环境所默示的谎言是近期的发明。就像许多新发明一样，富人最先享受到了这一点。国王和贵族的子嗣是最先在与世界脱节的环境中长大的人。而郊区生活意味着，在这一方面，一半的人口都可以像国王一样生活。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "3fb77cea92309957d9c8c7d207ae9ad73a2efd6995e5306ed3566a4affe5134c",
+      "enMarkdown": "**Sex (and Drugs)**",
+      "zhMarkdown": "**性（与毒品）**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "ce0f186efc72f991ec71ef8f529caa9ffb35d42d3ef7ac8b2f71c682e3909dd5",
+      "enMarkdown": "I'd have different worries about raising teenage kids in New York. I'd worry less about what they'd see, and more about what they'd do. I went to college with a lot of kids who grew up in Manhattan, and as a rule they seemed pretty jaded. They seemed to have lost their virginity at an average of about 14 and by college had tried more drugs than I'd even heard of.",
+      "zhMarkdown": "如果在纽约抚养十几岁的孩子，我会有不同的担心。我不太担心他们会看到什么，而是更担心他们会做什么。我的大学同学里有很多是在曼哈顿长大的，通常他们看起来都相当世故疲惫。他们似乎平均在 14 岁左右就失去了童贞，到了大学，他们尝试过的毒品种类比我听说过的还要多。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "1d6c2af7dde481b209c4e4cb6d0fb81b7239f68118b6f5ea8b7da6d1aa97c886",
+      "enMarkdown": "The reasons parents don't want their teenage kids having sex are complex. There are some obvious dangers: pregnancy and sexually transmitted diseases. But those aren't the only reasons parents don't want their kids having sex. The average parents of a 14 year old girl would hate the idea of her having sex even if there were zero risk of pregnancy or sexually transmitted diseases.",
+      "zhMarkdown": "家长不希望十几岁的孩子发生性行为，原因很复杂。有一些显而易见的危险：怀孕和性传播疾病。但这些并不是唯一的理由。即便怀孕或性传播疾病的风险为零，一个 14 岁女孩的普通父母也会极其反感她发生性行为。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "c82fa8b24ac27414e40fc8260f9a5a09bf143b3f7470da1a672c531ae66c5a4b",
+      "enMarkdown": "Kids can probably sense they aren't being told the whole story. After all, pregnancy and sexually transmitted diseases are just as much a problem for adults, and they have sex.",
+      "zhMarkdown": "孩子们大概能感觉到自己没有被告知全部真相。毕竟，怀孕和性传播疾病对成年人来说同样是个问题，但成年人依然会发生性行为。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "b940f9ee261d34ecf60a0ab44beb72560b94b773bb46bfcd6e7e5f6c7718f1ad",
+      "enMarkdown": "What really bothers parents about their teenage kids having sex? Their dislike of the idea is so visceral it's probably inborn. But if it's inborn it should be universal, and there are plenty of societies where parents don't mind if their teenage kids have sex—indeed, where it's normal for 14 year olds to become mothers. So what's going on? There does seem to be a universal taboo against sex with prepubescent children. One can imagine evolutionary reasons for that. And I think this is the main reason parents in industrialized societies dislike teenage kids having sex. They still think of them as children, even though biologically they're not, so the taboo against child sex still has force.",
+      "zhMarkdown": "到底是什么让家长对十几岁孩子的性行为如此介怀？他们的反感是如此本能，以至于这可能是天生的。但如果是天生的，它应该具有普适性，然而在很多社会里，家长并不介意十几岁的孩子发生性行为——事实上，在那些地方， 14 岁成为母亲是很正常的。那么这到底是怎么回事？对未发育成熟的儿童发生性行为似乎存在着普遍的禁忌。我们可以想象这背后的进化原因。我认为这就是工业化社会中家长不喜欢青少年发生性行为的主要原因。他们仍然把他们当成孩子，尽管在生物学上他们已经不是了，因此针对儿童性行为的禁忌依然在起作用。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "35a334831b635a4a6d7a5f1129ccc6b8017f18270e02ff2881dbd641fc515cce",
+      "enMarkdown": "One thing adults conceal about sex they also conceal about drugs: that it can cause great pleasure. That's what makes sex and drugs so dangerous. The desire for them can cloud one's judgement—which is especially frightening when the judgement being clouded is the already wretched judgement of a teenage kid.",
+      "zhMarkdown": "大人对性隐瞒的一点，同样也对毒品隐瞒：那就是它们能带来极大的快感。这也是性与毒品如此危险的原因。对它们的渴望会蒙蔽一个人的判断力——当被蒙蔽的是一个十几岁孩子本就糟糕的判断力时，这就格外令人恐惧了。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "b5f200e7f47408c7835047a8a593e37e606419adf441e0a4bd61ddb94e3e88e5",
+      "enMarkdown": "Here parents' desires conflict. Older societies told kids they had bad judgement, but modern parents want their children to be confident. This may well be a better plan than the old one of putting them in their place, but it has the side effect that after having implicitly lied to kids about how good their judgement is, we then have to lie again about all the things they might get into trouble with if they believed us.",
+      "zhMarkdown": "在这里，家长的期望发生了冲突。过去的社会告诉孩子他们的判断力很差，但现代家长希望他们的孩子充满自信。这可能确实比过去那种打压孩子的做法更好，但它的副作用是，在含糊地对孩子撒谎、让他们误以为自己判断力很好之后，我们不得不再次撒谎，隐瞒所有如果他们相信了我们就会陷入麻烦的事情。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "c13ff6a37a40b720e6c3fe83d886d94c594d7ce9b17384079d7536e6771b590f",
+      "enMarkdown": "If parents told their kids the truth about sex and drugs, it would be: the reason you should avoid these things is that you have lousy judgement. People with twice your experience still get burned by them. But this may be one of those cases where the truth wouldn't be convincing, because one of the symptoms of bad judgement is believing you have good judgement. When you're too weak to lift something, you can tell, but when you're making a decision impetuously, you're all the more sure of it.",
+      "zhMarkdown": "如果家长告诉孩子关于性与毒品的真相，那应该是：你之所以应该避开这些东西，是因为你的判断力很差。经验比你丰富一倍的人依然会被它们灼伤。但这可能是真相无法让人信服的例子之一，因为判断力差的症状之一就是相信自己判断力很好。当你力气太小搬不动东西时，你能感觉得到，但当你冲动做决定时，你反而会更加确信自己是对的。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "536ee7b96ee52385a25d4c78ef7c663de22449eb886829ff2e0a7d16b608b0ab",
+      "enMarkdown": "**Innocence**",
+      "zhMarkdown": "**纯真**"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "5c70b26128eae70f0a7c7519c71aed6f4e5eff166a874cf015dd264187eb482e",
+      "enMarkdown": "Another reason parents don't want their kids having sex is that they want to keep them innocent. Adults have a certain model of how kids are supposed to behave, and it's different from what they expect of other adults.",
+      "zhMarkdown": "家长不希望孩子发生性行为的另一个原因，是他们想保持孩子的纯真。大人对于孩子应该如何表现有一套特定的模式，这与他们对其他大人的期望不同。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "eaf8263a84afb98998f5eb384a830f0622a9496d95a5a2154acfb5c2037a070f",
+      "enMarkdown": "One of the most obvious differences is the words kids are allowed to use. Most parents use words when talking to other adults that they wouldn't want their kids using. They try to hide even the existence of these words for as long as they can. And this is another of those conspiracies everyone participates in: everyone knows you're not supposed to swear in front of kids.",
+      "zhMarkdown": "最明显的区别之一就是孩子们被允许使用的词汇。大多数家长在与其他大人交谈时使用的词汇，是他们不希望孩子使用的。他们甚至试图尽可能长时间地隐瞒这些词汇的存在。这也是每个人都参与其中的共谋之一：大家都知道不应该在孩子面前说脏话。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "9be09e52e0d3aee7cf8cdc6ff3b1a9be88c6a8a987c2f3bfe22d7f98c864cbcd",
+      "enMarkdown": "I've never heard more different explanations for anything parents tell kids than why they shouldn't swear. Every parent I know forbids their children to swear, and yet no two of them have the same justification. It's clear most start with not wanting kids to swear, then make up the reason afterward.",
+      "zhMarkdown": "对于家长告诉孩子的任何规矩，我从未听过比“为什么不该说脏话”更五花八门的解释。我认识的每个家长都禁止孩子说脏话，然而没有两个人的理由是一样的。显而易见，大多数人都是先决定不让孩子说脏话，然后再事后编造理由。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "01bf7425bf4c6fa350211ae4f7e72a15e119eb2a41aa8527fa3c9060b6178ecf",
+      "enMarkdown": "So my theory about what's going on is that the *function* of swearwords is to mark the speaker as an adult. There's no difference in the meaning of \"shit\" and \"poopoo.\" So why should one be ok for kids to say and one forbidden? The only explanation is: by definition. [[3](#f3n)]",
+      "zhMarkdown": "因此，我的理论是，脏话的*功能*是标识说话者是成年人。“shit”和“poopoo”在意思上没有区别。那为什么一个是孩子可以说的，而另一个是被禁止的呢？唯一的解释是：定义使然。 [[3](#f3n)]"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "3b3735f3a57376d633b8292177958cc824e9a0108ca21e6eb7223740499ec6b2",
+      "enMarkdown": "Why does it bother adults so much when kids do things reserved for adults? The idea of a foul-mouthed, cynical 10 year old leaning against a lamppost with a cigarette hanging out of the corner of his mouth is very disconcerting. But why?",
+      "zhMarkdown": "为什么当孩子做一些专属大人的事情时，大人会如此介意？一个满嘴脏话、愤世嫉俗的 10 岁孩子，靠在路灯柱上，嘴角叼着烟，这种画面非常令人不安。但为什么呢？"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "da7eb3f5aceced2fa62ab75c81c8416198a3a714d7793f4c9bf3560ea9d51b91",
+      "enMarkdown": "One reason we want kids to be innocent is that we're programmed to like certain kinds of helplessness. I've several times heard mothers say they deliberately refrained from correcting their young children's mispronunciations because they were so cute. And if you think about it, cuteness is helplessness. Toys and cartoon characters meant to be cute always have clueless expressions and stubby, ineffectual limbs.",
+      "zhMarkdown": "我们希望孩子保持纯真的一个原因，是我们天生就会喜欢某种无助感。我好几次听到母亲们说，她们故意不纠正幼儿的发音错误，因为太可爱了。如果你仔细想想，可爱就是无助。那些被设计成可爱模样的玩具和卡通人物，总是带着懵懂的表情和短小无力的四肢。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "e5107b17353af6b9db45fa4e099867c09a7db23add13b33e69afae45975c6251",
+      "enMarkdown": "It's not surprising we'd have an inborn desire to love and protect helpless creatures, considering human offspring are so helpless for so long. Without the helplessness that makes kids cute, they'd be very annoying. They'd merely seem like incompetent adults. But there's more to it than that. The reason our hypothetical jaded 10 year old bothers me so much is not just that he'd be annoying, but that he'd have cut off his prospects for growth so early. To be jaded you have to think you know how the world works, and any theory a 10 year old had about that would probably be a pretty narrow one.",
+      "zhMarkdown": "考虑到人类的后代在如此长的时间里都如此无助，我们天生具有爱护和保护无助生灵的欲望并不奇怪。如果没有那种让孩子显得可爱的无助感，他们会非常讨人厌。他们看起来就像是不称职的成年人。但事情不止于此。我们假设的那个世故的 10 岁孩子之所以让我如此不安，不仅因为他会讨人厌，还因为他这么早就断送了自己成长的可能性。要变得世故，你必须认为自己懂得世界是如何运作的，而一个 10 岁孩子对此的任何理论都可能极其狭隘。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "98f45b33e23196b89afd5c8243eb90b79f9b5a3e8034dec1f4a97b73eec4b896",
+      "enMarkdown": "Innocence is also open-mindedness. We want kids to be innocent so they can continue to learn. Paradoxical as it sounds, there are some kinds of knowledge that get in the way of other kinds of knowledge. If you're going to learn that the world is a brutal place full of people trying to take advantage of one another, you're better off learning it last. Otherwise you won't bother learning much more.",
+      "zhMarkdown": "纯真也就是保持开放的心态。我们希望孩子保持纯真，这样他们才能继续学习。听起来似乎有些自相矛盾，但某些知识确实会阻碍其他知识的获取。如果你注定要了解到这个世界是一个残酷的地方，充满了试图互相占便宜的人，你最好最后再学到这一点。否则，你根本不会费心去学习更多其他东西。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "ff84d8769ed7408e3ec3f23f9ff2919613a17235e90e17f942fddd664ec3d357",
+      "enMarkdown": "Very smart adults often seem unusually innocent, and I don't think this is a coincidence. I think they've deliberately avoided learning about certain things. Certainly I do. I used to think I wanted to know everything. Now I know I don't.",
+      "zhMarkdown": "极度聪明的大人往往显得异常纯真，我认为这绝非巧合。我认为他们是有意避免去了解某些事情。我确实就是这样。我以前以为自己想知道一切。现在我知道我并不想。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "413ca285c858b89368ba27ee0cfb51882445105d7415eb53f48f8c39c672b61e",
+      "enMarkdown": "**Death**",
+      "zhMarkdown": "**死亡**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "737f5e13b1ddff82ab4076b0f82fbeef912616d38e487b482422ba3c3d2649c2",
+      "enMarkdown": "After sex, death is the topic adults lie most conspicuously about to kids. Sex I believe they conceal because of deep taboos. But why do we conceal death from kids? Probably because small children are particularly horrified by it. They want to feel safe, and death is the ultimate threat.",
+      "zhMarkdown": "继性之后，死亡是大人对孩子撒谎最明显的话题。我相信他们隐瞒性是因为深层的禁忌。但我们为什么要对孩子隐瞒死亡？大概是因为小孩子对死亡格外感到恐惧。他们想要安全感，而死亡是终极的威胁。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "e7bcf9933dab1b7c0a7ddd665361a4ebb1ea8fdb2513f945161ef3c1964bd362",
+      "enMarkdown": "One of the most spectacular lies our parents told us was about the death of our first cat. Over the years, as we asked for more details, they were compelled to invent more, so the story grew quite elaborate. The cat had died at the vet's office. Of what? Of the anaesthesia itself. Why was the cat at the vet's office? To be fixed. And why had such a routine operation killed it? It wasn't the vet's fault; the cat had a congenitally weak heart; the anaesthesia was too much for it; but there was no way anyone could have known this in advance. It was not till we were in our twenties that the truth came out: my sister, then about three, had accidentally stepped on the cat and broken its back.",
+      "zhMarkdown": "我们父母对我们撒过的最离奇的谎之一，是关于我们第一只猫的死。这些年来，随着我们询问更多细节，他们不得不编造更多谎言，以至于故事变得相当复杂。那只猫死在兽医诊所。死于什么？死于麻醉本身。为什么猫会在兽医诊所？去绝育。为什么这么常规的手术会要了它的命？这不是兽医的错；那只猫有先天性心脏病；麻醉对它来说负担太重了；但谁也无法提前预知这一点。直到我们二十多岁时，真相才大白：我当时大概三岁的妹妹，不小心踩到了那只猫，踩断了它的脊椎。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "4dc4b2b056324fc108eefb402e18dd58b6cf9c7a15eb1d482bd19a24dca47c98",
+      "enMarkdown": "They didn't feel the need to tell us the cat was now happily in cat heaven. My parents never claimed that people or animals who died had \"gone to a better place,\" or that we'd meet them again. It didn't seem to harm us.",
+      "zhMarkdown": "他们觉得没必要告诉我们那只猫现在快乐地生活在猫咪天堂。我的父母从未声称死去的人或动物“去了一个更好的地方”，或者我们会再次相遇。这似乎并没有伤害到我们。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "c4412ee9f671aa6f0322537b12baf09285c43922d9554a0aaee8f49a8121f631",
+      "enMarkdown": "My grandmother told us an edited version of the death of my grandfather. She said they'd been sitting reading one day, and when she said something to him, he didn't answer. He seemed to be asleep, but when she tried to rouse him, she couldn't. \"He was gone.\" Having a heart attack sounded like falling asleep. Later I learned it hadn't been so neat, and the heart attack had taken most of a day to kill him.",
+      "zhMarkdown": "我祖母告诉我们一个删减版的我祖父去世的过程。她说，有一天他们正坐着看书，当她对他说些什么时，他没有回答。他似乎睡着了，但当她试图唤醒他时，却怎么也唤不醒。“他走了。”心脏病发作听起来就像睡着了一样。后来我才知道事情并没有那么安详，心脏病发作折腾了几乎一整天才夺去他的生命。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "c31c79b84e1f9cd21ae3a05a2969e15b16258ec33bf6ac00e619f93d6f37d443",
+      "enMarkdown": "Along with such outright lies, there must have been a lot of changing the subject when death came up. I can't remember that, of course, but I can infer it from the fact that I didn't really grasp I was going to die till I was about 19. How could I have missed something so obvious for so long? Now that I've seen parents managing the subject, I can see how: questions about death are gently but firmly turned aside.",
+      "zhMarkdown": "除了这些彻头彻尾的谎言，在谈到死亡时，肯定有很多转移话题的时候。我当然记不得了，但我可以从我直到 19 岁左右才真正意识到自己也会死这一事实中推断出来。我怎么会漏掉这么显而易见的事情这么久？现在我看到家长们如何处理这个话题，我明白了：关于死亡的问题被温柔但坚决地避开了。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "7020c8362c8e499eae98ca1e72343c7adedf943542672ba29e5bbe1b8be3d6e1",
+      "enMarkdown": "On this topic, especially, they're met half-way by kids. Kids often want to be lied to. They want to believe they're living in a comfortable, safe world as much as their parents want them to believe it. [[4](#f4n)]",
+      "zhMarkdown": "特别是在这个话题上，孩子们也顺水推舟。孩子往往希望被骗。他们和父母一样，渴望相信自己生活在一个舒适、安全的世界里。 [[4](#f4n)]"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "ef0dfedf70072ba8f854e1dff5173eb505f50af1a0c4a8fb6ae23f75dcdf7297",
+      "enMarkdown": "**Identity**",
+      "zhMarkdown": "**身份**"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "3bff3665ea1719871286cc7b3fa59cd80d90294b459481e3f8837ef9569e09d7",
+      "enMarkdown": "Some parents feel a strong adherence to an ethnic or religious group and want their kids to feel it too. This usually requires two different kinds of lying: the first is to tell the child that he or she is an X, and the second is whatever specific lies Xes differentiate themselves by believing. [[5](#f5n)]",
+      "zhMarkdown": "有些家长对某个族群或宗教团体有强烈的归属感，并希望他们的孩子也有同样的感受。这通常需要两种不同类型的撒谎：第一种是告诉孩子他或她是 X，第二种是无论 X 们通过相信什么特定的谎言来标榜自己的与众不同。 [[5](#f5n)]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "99fbdcf4dc5ceb07bcc38c75aad5fdbcc09301a0f93ca4bd8abafac5ca16674e",
+      "enMarkdown": "Telling a child they have a particular ethnic or religious identity is one of the stickiest things you can tell them. Almost anything else you tell a kid, they can change their mind about later when they start to think for themselves. But if you tell a kid they're a member of a certain group, that seems nearly impossible to shake.",
+      "zhMarkdown": "告诉孩子他们具有某种特定的族群或宗教身份，是你能告诉他们的最根深蒂固的事情之一。你对孩子说的几乎任何其他事情，他们以后开始独立思考时都可以改变主意。但如果你告诉孩子他们是某个群体的成员，这似乎几乎无法摆脱。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "241faa1210a0d00aebb7529689031e4af585a39398adbd47e9e00d00f00f6632",
+      "enMarkdown": "This despite the fact that it can be one of the most premeditated lies parents tell. When parents are of different religions, they'll often agree between themselves that their children will be \"raised as Xes.\" And it works. The kids obligingly grow up considering themselves as Xes, despite the fact that if their parents had chosen the other way, they'd have grown up considering themselves as Ys.",
+      "zhMarkdown": "尽管这可能是家长撒过的最蓄谋已久的谎言之一。当家长信仰不同的宗教时，他们往往会私下达成协议，将孩子“抚养为 X”。而且这很有效。孩子们会顺从地长大并认为自己是 X，尽管如果他们的父母选择了另一种方式，他们长大后就会认为自己是 Y。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "b433e97d448b3c4d2ac745e6d89a16418e720ee1b28b51aedc0ff0c4802d4d6a",
+      "enMarkdown": "One reason this works so well is the second kind of lie involved. The truth is common property. You can't distinguish your group by doing things that are rational, and believing things that are true. If you want to set yourself apart from other people, you have to do things that are arbitrary, and believe things that are false. And after having spent their whole lives doing things that are arbitrary and believing things that are false, and being regarded as odd by \"outsiders\" on that account, the cognitive dissonance pushing children to regard themselves as Xes must be enormous. If they aren't an X, why are they attached to all these arbitrary beliefs and customs? If they aren't an X, why do all the non-Xes call them one?",
+      "zhMarkdown": "之所以如此有效，原因之一在于涉及到的第二种谎言。真理是公共财产。你无法通过做理性的事和相信真实的事来区分你的群体。如果你想把自己与其他人区分开来，你就必须做任意武断的事，并相信虚假的事。在花了一辈子的时间做任意武断的事、相信虚假的事，并因此被“局外人”视为怪人之后，推着孩子将自己视为 X 的认知失调必定是巨大的。如果他们不是 X，他们为什么要执着于所有这些武断的信仰和习俗？如果他们不是 X，为什么所有非 X 的人都叫他们 X 呢？"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "cc0fc55a4598998b8ff5010be1b5f6a55c99a42491b17577bbb9928bfc17599b",
+      "enMarkdown": "This form of lie is not without its uses. You can use it to carry a payload of beneficial beliefs, and they will also become part of the child's identity. You can tell the child that in addition to never wearing the color yellow, believing the world was created by a giant rabbit, and always snapping their fingers before eating fish, Xes are also particularly honest and industrious. Then X children will grow up feeling it's part of their identity to be honest and industrious.",
+      "zhMarkdown": "这种形式的谎言并非毫无用处。你可以用它来承载有益的信念，这些信念也会成为孩子身份认同的一部分。你可以告诉孩子，除了绝不穿黄色衣服、相信世界是由一只巨大的兔子创造的、以及在吃鱼前总是弹手指之外，X 们还格外诚实和勤奋。那么 X 们的孩子长大后就会觉得诚实和勤奋是自己身份的一部分。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "fc762e5a30544984b7b9e5152b6152b79566f54268ee54bbe3d3c55efaa02947",
+      "enMarkdown": "This probably accounts for a lot of the spread of modern religions, and explains why their doctrines are a combination of the useful and the bizarre. The bizarre half is what makes the religion stick, and the useful half is the payload. [[6](#f6n)]",
+      "zhMarkdown": "这大概解释了现代宗教的广泛传播，也解释了为什么它们的教义是实用与荒诞的结合。荒诞的那一半是让宗教产生黏性的原因，而实用的那一半则是承载的有用内容。 [[6](#f6n)]"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "d696cc32bc34308bfc2dff7ad2215e72dab1bd9952c6e6e62407650718a3dd79",
+      "enMarkdown": "**Authority**",
+      "zhMarkdown": "**权威**"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "bff50f100f923b5be3fe93ab56327a78c8d9473eb05f71a4d1d0b116bbd1dca9",
+      "enMarkdown": "One of the least excusable reasons adults lie to kids is to maintain power over them. Sometimes these lies are truly sinister, like a child molester telling his victims they'll get in trouble if they tell anyone what happened to them. Others seem more innocent; it depends how badly adults lie to maintain their power, and what they use it for.",
+      "zhMarkdown": "大人对孩子撒谎最不可原谅的理由之一，就是为了维持对他们的控制权。有时这些谎言确实极其险恶，比如娈童癖告诉受害者，如果他们把发生的事情告诉任何人，他们就会惹上麻烦。其他的谎言看起来更无害一些；这取决于大人为了维持权力撒谎撒得有多严重，以及他们用这权力来做什么。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "7f3c4eff51ab6dd14637dc6c2496bba9ac8862c756fc92c46f089f9471c01178",
+      "enMarkdown": "Most adults make some effort to conceal their flaws from children. Usually their motives are mixed. For example, a father who has an affair generally conceals it from his children. His motive is partly that it would worry them, partly that this would introduce the topic of sex, and partly (a larger part than he would admit) that he doesn't want to tarnish himself in their eyes.",
+      "zhMarkdown": "大多数大人都会努力向孩子隐瞒自己的缺点。通常他们的动机是复杂的。例如，一个有外遇的父亲通常会向孩子隐瞒。他的动机部分是这会让孩子们担心，部分是这会引入性的课题，还有一部分（比他愿意承认的更大一部分）是他不想在孩子们眼里抹黑自己。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "6744f3a54dab5eb5184fa60ff3ebc813d09249734b95218018874c0a73c51661",
+      "enMarkdown": "If you want to learn what lies are told to kids, read almost any book written to teach them about \"issues.\" [[7](#f7n)] Peter Mayle wrote one called *Why Are We Getting a Divorce?* It begins with the three most important things to remember about divorce, one of which is:",
+      "zhMarkdown": "如果你想了解对孩子撒了哪些谎，去读读几乎任何一本教他们了解“问题”的书就知道了。 [[7](#f7n)] 彼得·梅尔写过一本叫《我们为什么要离婚？》的书。它开头列出了关于离婚需要记住的三件最重要的事情，其中之一是："
+    },
+    {
+      "id": 55,
+      "type": "quote",
+      "sourceHash": "6a1ec046b66cb979a7efa788e3e2a8855ef5124d6d95190f588a949303f81fc7",
+      "enMarkdown": "> You shouldn't put the blame on one parent, because divorce is never only one person's fault. [8]",
+      "zhMarkdown": "> 你不应该责怪父母中的一方，因为离婚永远不只是一个人的错。 [8]"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "0ec875546ea7b298bffda99155196fd863150ff5ed99c52a4111efc9f3b00735",
+      "enMarkdown": "Really? When a man runs off with his secretary, is it always partly his wife's fault? But I can see why Mayle might have said this. Maybe it's more important for kids to respect their parents than to know the truth about them.",
+      "zhMarkdown": "真的吗？当一个男人和他的秘书私奔时，难道这总是他妻子的一部分责任吗？但我能理解梅尔为什么要这么说。也许对孩子来说，尊敬父母比了解父母的真相更重要。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "91641822538851754045b06984bb8e9cca4473dbd2c42de8dc286aa68b1a8647",
+      "enMarkdown": "But because adults conceal their flaws, and at the same time insist on high standards of behavior for kids, a lot of kids grow up feeling they fall hopelessly short. They walk around feeling horribly evil for having used a swearword, while in fact most of the adults around them are doing much worse things.",
+      "zhMarkdown": "但由于大人隐瞒了自己的缺点，同时又对孩子的行为坚持高标准，许多孩子长大后会觉得自己差得太远、无药可救。他们会因为说了一句脏话而觉得自己邪恶无比，而实际上他们周围的大多数大人正在做出糟糕得多的事情。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "eaa6c7e75cbe822b281a39168ea0dc26a4e44ca45f5766bb8459de9760a7b154",
+      "enMarkdown": "This happens in intellectual as well as moral questions. The more confident people are, the more willing they seem to be to answer a question \"I don't know.\" Less confident people feel they have to have an answer or they'll look bad. My parents were pretty good about admitting when they didn't know things, but I must have been told a lot of lies of this type by teachers, because I rarely heard a teacher say \"I don't know\" till I got to college. I remember because it was so surprising to hear someone say that in front of a class.",
+      "zhMarkdown": "这不仅发生在道德问题上，也发生在智力问题上。人们越自信，似乎就越愿意用“我不知道”来回答问题。不够自信的人觉得他们必须给出一个答案，否则就会显得很难堪。我的父母在承认自己不知道某些事情方面做得很好，但我肯定被老师骗过很多次，因为直到上大学，我才很少听到老师说“我不知道”。我记得很清楚，因为在全班同学面前听到有人这么说太让人惊讶了。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "855e19e8dcdbf1de660bdf4bfc2ca939078cc27b7303805a6786e70e67cee799",
+      "enMarkdown": "The first hint I had that teachers weren't omniscient came in sixth grade, after my father contradicted something I'd learned in school. When I protested that the teacher had said the opposite, my father replied that the guy had no idea what he was talking about—that he was just an elementary school teacher, after all.",
+      "zhMarkdown": "我第一次暗示老师并非无所不知是在六年级，当时我父亲反驳了我在学校学到的东西。当我抗议说老师说的是相反的意思时，我父亲回答说那家伙根本不知道自己在说什么——毕竟，他只是个小学老师。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "aa5877cb9308369db585794a3ffb4412967733cf701061d1ecd95f900ba74eda",
+      "enMarkdown": "*Just* a teacher? The phrase seemed almost grammatically ill-formed. Didn't teachers know everything about the subjects they taught? And if not, why were they the ones teaching us?",
+      "zhMarkdown": "*只是*个老师？这个短语在语法上似乎都说不通。老师难道不应该对自己教的科目无所不知吗？如果不是，那为什么要由他们来教我们呢？"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "562ebf79f9ce04f52ce604386de8f15cfb096ef48a85a9344280a340e21d09f2",
+      "enMarkdown": "The sad fact is, US public school teachers don't generally understand the stuff they're teaching very well. There are some sterling exceptions, but as a rule people planning to go into teaching rank academically near the bottom of the college population. So the fact that I still thought at age 11 that teachers were infallible shows what a job the system must have done on my brain.",
+      "zhMarkdown": "可悲的事实是，美国公立学校的老师通常并不十分理解他们所教的内容。当然也有一些极优秀的例外，但作为一条规律，计划从事教学工作的人在大学人群中的学术排名几乎垫底。因此，我到 11 岁时还认为老师是绝对正确的，这说明这个系统对我的大脑洗脑得有多彻底。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "4b0cb1c40833ff7943b8e15c1343ece76a9f29df02aa80c741e7bf2d9bd731e6",
+      "enMarkdown": "**School**",
+      "zhMarkdown": "**学校**"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "277695cd3c02f2d83ddde8f6fd5e83112f4059920bb5f9bfc582475f33b47b16",
+      "enMarkdown": "What kids get taught in school is a complex mix of lies. The most excusable are those told to simplify ideas to make them easy to learn. The problem is, a lot of propaganda gets slipped into the curriculum in the name of simplification.",
+      "zhMarkdown": "孩子们在学校学到的是各种谎言的复杂混合体。最可以原谅的是那些为了简化概念以方便学习而说的谎。问题在于，许多宣传往往打着简化的名义悄悄溜进了课程体系中。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "cd5349936f7204c480237402b360fe2d9bdc7e19e4a683cc0b73bd9a9ae27b51",
+      "enMarkdown": "Public school textbooks represent a compromise between what various powerful groups want kids to be told. The lies are rarely overt. Usually they consist either of omissions or of over-emphasizing certain topics at the expense of others. The view of history we got in elementary school was a crude hagiography, with at least one representative of each powerful group.",
+      "zhMarkdown": "公立学校的教科书代表了各种有势力的利益集团希望告诉孩子什么的一种妥协。这些谎言很少是公开的。它们通常要么由遗漏组成，要么是以牺牲其他话题为代价过度强调某些话题。我们在小学里看到的历史观是一部粗糙的圣徒传，每个有势力的群体至少有一位代表人物。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "2a2587b1307ce0baf2ce0c069958f8764e038680b7a4fc28e5271a5b5c766677",
+      "enMarkdown": "The famous scientists I remember were Einstein, Marie Curie, and George Washington Carver. Einstein was a big deal because his work led to the atom bomb. Marie Curie was involved with X-rays. But I was mystified about Carver. He seemed to have done stuff with peanuts.",
+      "zhMarkdown": "我记得的著名科学家有爱因斯坦、玛丽·居里和乔治·华盛顿·卡弗。爱因斯坦是个大人物，因为他的工作催生了原子弹。玛丽·居里与 X 射线有关。但我对卡弗感到百思不得其解。他似乎用花生做了一些事情。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "7ef3a8765478b8ef7e05eef9bed3e707470fe9e111f52a57e184bd254b08f9e2",
+      "enMarkdown": "It's obvious now that he was on the list because he was black (and for that matter that Marie Curie was on it because she was a woman), but as a kid I was confused for years about him. I wonder if it wouldn't have been better just to tell us the truth: that there weren't any famous black scientists. Ranking George Washington Carver with Einstein misled us not only about science, but about the obstacles blacks faced in his time.",
+      "zhMarkdown": "现在显而易见，他能上榜是因为他是黑人（同样，玛丽·居里能上榜是因为她是女性），但小时候我被他困惑了许多年。我想，直接告诉我们真相会不会更好：那就是当时并没有什么著名的黑人科学家。将乔治·华盛顿·卡弗与爱因斯坦并列，不仅在科学上误导了我们，也误导了我们对黑人在他那个时代所面临的障碍的认识。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "e008a75fc0e559abe60ee1f49bf2bfaf09b24be032ad94932cc9577f2b9c1e91",
+      "enMarkdown": "As subjects got softer, the lies got more frequent. By the time you got to politics and recent history, what we were taught was pretty much pure propaganda. For example, we were taught to regard political leaders as saints—especially the recently martyred Kennedy and King. It was astonishing to learn later that they'd both been serial womanizers, and that Kennedy was a speed freak to boot. (By the time King's plagiarism emerged, I'd lost the ability to be surprised by the misdeeds of famous people.)",
+      "zhMarkdown": "随着学科变得越来越软性，谎言也变得越来越频繁。当你接触到政治和近代史时，我们所学到的几乎纯粹是政治宣传。例如，我们被教导要将政治领袖视为圣人——尤其是最近殉难的肯尼迪和马丁·路德·金。后来得知他们俩都是连环偷情者，而且肯尼迪还是个瘾君子，这让人大为震惊。（到马丁·路德·金抄袭事件曝光时，我已经失去了对名人恶行感到惊讶的能力。）"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "49983d697f5ec8436a13bdb2acdb822be339ea0604cda24572095c53045a5286",
+      "enMarkdown": "I doubt you could teach kids recent history without teaching them lies, because practically everyone who has anything to say about it has some kind of spin to put on it. Much recent history *consists* of spin. It would probably be better just to teach them metafacts like that.",
+      "zhMarkdown": "我怀疑你在教孩子近代史时不可能不教他们谎言，因为实际上每个对此有发言权的人都有某种立场倾向。许多近代史本身就是由舆论引导*构成*的。可能直接教他们这类“元事实”（metafacts）会更好。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "078278d5060d9fdfa1982643079e5d4ec0fa3d189711d278a528f649d9feedb1",
+      "enMarkdown": "Probably the biggest lie told in schools, though, is that the way to succeed is through following \"the rules.\" In fact most such rules are just hacks to manage large groups efficiently.",
+      "zhMarkdown": "不过，学校里说的最大的谎言大概是：成功的途径是遵循“规则”。事实上，大多数此类规则只是为了高效管理庞大人群的权宜之计。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "e89dbd9c0026387887db2af5c6435222353eb4630127193583a09bb99d046a6e",
+      "enMarkdown": "**Peace**",
+      "zhMarkdown": "**和平**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "1011a26c9adba27a6a2116962ebb88a1c6bf08b5440de0b03162601d7caa0ade",
+      "enMarkdown": "Of all the reasons we lie to kids, the most powerful is probably the same mundane reason they lie to us.",
+      "zhMarkdown": "在所有我们对孩子撒谎的理由中，最强大的大概和他们对我们撒谎的世俗原因是一样的。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "af19b479bb990a2108a020d5e5c0a64cfd8dbaaa28b4f074c2c160b2f8f8a865",
+      "enMarkdown": "Often when we lie to people it's not part of any conscious strategy, but because they'd react violently to the truth. Kids, almost by definition, lack self-control. They react violently to things—and so they get lied to a lot. [[9](#f9n)]",
+      "zhMarkdown": "通常，我们对别人撒谎并不是出于什么深谋远虑，而是因为他们对真相的反应会很激烈。孩子，几乎从定义上来说，缺乏自我控制力。他们对事情的反应很剧烈——因此他们经常被骗。 [[9](#f9n)]"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "75632a22ee001e4e44e272013a532ef5fd6070388108b36987f85deda233c351",
+      "enMarkdown": "A few Thanksgivings ago, a friend of mine found himself in a situation that perfectly illustrates the complex motives we have when we lie to kids. As the roast turkey appeared on the table, his alarmingly perceptive 5 year old son suddenly asked if the turkey had wanted to die. Foreseeing disaster, my friend and his wife rapidly improvised: yes, the turkey had wanted to die, and in fact had lived its whole life with the aim of being their Thanksgiving dinner. And that (phew) was the end of that.",
+      "zhMarkdown": "几个感恩节前，我的一个朋友发现自己处于一个完美诠释了我们对孩子撒谎时复杂动机的境地。当烤火鸡上桌时，他那敏锐得令人吃惊的 5 岁儿子突然问这只火鸡是不是自己想死。预见到灾难的发生，我朋友和他的妻子迅速即兴发挥：是的，火鸡自己想死，事实上它一生的目标就是成为他们的感恩节大餐。那次危机（呼）就这样过去了。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "62e581a7189fa8313459ea03040003b93980ecf7bea9c56d85c84a6d62919c46",
+      "enMarkdown": "Whenever we lie to kids to protect them, we're usually also lying to keep the peace.",
+      "zhMarkdown": "每当我们为了保护孩子而对他们撒谎时，我们通常也是为了息事宁人。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "a04703f0f688f2bb2712271f061403e4d159fc26127724e3a8a792d709601459",
+      "enMarkdown": "One consequence of this sort of calming lie is that we grow up thinking horrible things are normal. It's hard for us to feel a sense of urgency as adults over something we've literally been trained not to worry about. When I was about 10 I saw a documentary on pollution that put me into a panic. It seemed the planet was being irretrievably ruined. I went to my mother afterward to ask if this was so. I don't remember what she said, but she made me feel better, so I stopped worrying about it.",
+      "zhMarkdown": "这种安抚性谎言的一个后果是，我们长大后会认为可怕的事情是正常的。作为成年人，我们很难对一些我们被训练去“不要担心”的事情产生紧迫感。我大约 10 岁时看了一部关于污染的纪录片，这让我陷入了恐慌。地球似乎正在遭受无法挽回的毁灭。事后我去问我母亲是不是这样。我不记得她说了什么，但她让我感觉好多了，于是我便不再担心了。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "eab8a5ecc2b676f11851a781ac6d9f014111d15efaa2599edb0f5ef827003a27",
+      "enMarkdown": "That was probably the best way to handle a frightened 10 year old. But we should understand the price. This sort of lie is one of the main reasons bad things persist: we're all trained to ignore them.",
+      "zhMarkdown": "这大概是安抚一个受惊的 10 岁孩子的最好方法。但我们应该明白代价。这种谎言是坏事得以持续存在的主要原因之一：我们都被训练去忽视它们。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "8d3948d3356f52b4c9cd367e894aed776c11f5c0e03cee50c68410c809cef2a7",
+      "enMarkdown": "**Detox**",
+      "zhMarkdown": "**排毒**"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "0e716d39583e4c63398979b4c7a76165cb54fa08ad5059c67377866de5bcda9a",
+      "enMarkdown": "A sprinter in a race almost immediately enters a state called \"oxygen debt.\" His body switches to an emergency source of energy that's faster than regular aerobic respiration. But this process builds up waste products that ultimately require extra oxygen to break down, so at the end of the race he has to stop and pant for a while to recover.",
+      "zhMarkdown": "赛跑中的短跑运动员几乎立刻就会进入一种被称为“氧债”的状态。他的身体转向了一种比普通有氧呼吸更快的应急能量来源。但这个过程会产生废物，最终需要额外的氧气来分解，因此在比赛结束时，他必须停下来喘息一会儿才能恢复。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "7d511dde02817f4094f16fe3660e8f8ff8ba5364c4de0318555a2226d120688c",
+      "enMarkdown": "We arrive at adulthood with a kind of truth debt. We were told a lot of lies to get us (and our parents) through our childhood. Some may have been necessary. Some probably weren't. But we all arrive at adulthood with heads full of lies.",
+      "zhMarkdown": "我们步入成年时，带着一种“真相债”。为了让我们（和我们的父母）度过童年，我们被灌输了许多谎言。有些可能是必要的。有些可能不是。但我们步入成年时，脑子里都装满了谎言。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "af3cb15fe8665e8ef2678a4bd6dca900a85562532f3dff16e12fa5fc3b616043",
+      "enMarkdown": "There's never a point where the adults sit you down and explain all the lies they told you. They've forgotten most of them. So if you're going to clear these lies out of your head, you're going to have to do it yourself.",
+      "zhMarkdown": "从来没有哪个时刻，大人们会坐下来向你解释他们对你撒过的所有谎。他们自己大多都忘了。所以，如果你想清除脑子里的这些谎言，你只能靠自己。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "8b26b565ac4d5c84023caed88854a9018ba08e414426ac36cacece080b8cb202",
+      "enMarkdown": "Few do. Most people go through life with bits of packing material adhering to their minds and never know it. You probably never can completely undo the effects of lies you were told as a kid, but it's worth trying. I've found that whenever I've been able to undo a lie I was told, a lot of other things fell into place.",
+      "zhMarkdown": "很少有人能做到。大多数人一生中脑子里都粘着一些“包装材料”而不自知。你可能永远无法完全消除小时候被灌输的谎言所带来的影响，但值得一试。我发现，每当我能消除一个我被告知的谎言时，许多其他事情就会迎刃而解。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "0a9182194bc21c7cb93a6bae463ed37c6be739046e6124e76dcf8ff932f9d084",
+      "enMarkdown": "Fortunately, once you arrive at adulthood you get a valuable new resource you can use to figure out what lies you were told. You're now one of the liars. You get to watch behind the scenes as adults spin the world for the next generation of kids.",
+      "zhMarkdown": "幸运的是，一旦你步入成年，你就获得了一个宝贵的新资源，可以用来弄清楚你被灌输了哪些谎言。你现在也成了说谎者之一。你可以退到幕后，观察大人是如何为下一代孩子编织这个世界的。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "b2a46b953bcbc0587a548d7dbc9c9a446dcd492c186f30ae7227e54ff7d06001",
+      "enMarkdown": "The first step in clearing your head is to realize how far you are from a neutral observer. When I left high school I was, I thought, a complete skeptic. I'd realized high school was crap. I thought I was ready to question everything I knew. But among the many other things I was ignorant of was how much debris there already was in my head. It's not enough to consider your mind a blank slate. You have to consciously erase it.",
+      "zhMarkdown": "理清头脑的第一步是意识到你离中立观察者有多远。当我离开高中时，我以为自己是一个彻底的怀疑论者。我意识到高中就是垃圾。我以为我已经准备好质疑我所知道的一切。但在我一无所知的许多事情中，包括我脑子里已经有了多少垃圾。仅仅把你的心智当成一张白纸是不够的。你必须有意识地去擦拭它。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "f4e2873c85d5615e7ed4c8771ee0e972e8e9ea1d0c33b7c6f7efc9aa5ba82c75",
+      "enMarkdown": "[1] One reason I stuck with such a brutally simple word is that the lies we tell kids are probably not quite as harmless as we think. If you look at what adults told children in the past, it's shocking how much they lied to them. Like us, they did it with the best intentions. So if we think we're as open as one could reasonably be with children, we're probably fooling ourselves. Odds are people in 100 years will be as shocked at some of the lies we tell as we are at some of the lies people told 100 years ago.",
+      "zhMarkdown": "[1] 我之所以坚持使用这样一个残酷简单的词，是因为我们对孩子撒的谎可能并不像我们想象的那么无害。如果你看看过去大人对孩子说的话，你会震惊于他们对孩子撒了多少谎。像我们一样，他们也是出于最好的意图。因此，如果我们认为自己对孩子已经足够坦诚，我们大概是在自欺欺人。很有可能 100 年后的人们会像我们对 100 年前人们撒的某些谎感到震惊一样，对我们撒的某些谎感到震惊。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "6a0d8dbd3dba2629aad7ad79f571d1698b4646a9b73122ba816340d1b53f0303",
+      "enMarkdown": "I can't predict which these will be, and I don't want to write an essay that will seem dumb in 100 years. So instead of using special euphemisms for lies that seem excusable according to present fashions, I'm just going to call all our lies lies.",
+      "zhMarkdown": "我无法预测这些会是什么，我也不想写一篇在 100 年后显得很蠢的文章。因此，我不会使用专门的委婉词来指代那些在目前看来似乎可以原谅的谎言，我只是把我们所有的谎言都称为谎言。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "0335e6de9b012f00be021b4725c69ecddfb6c6e805f998e4ea8c0a141a3ce161",
+      "enMarkdown": "(I have omitted one type: lies told to play games with kids' credulity. These range from \"make-believe,\" which is not really a lie because it's told with a wink, to the frightening lies told by older siblings. There's not much to say about these: I wouldn't want the first type to go away, and wouldn't expect the second type to.)",
+      "zhMarkdown": "（我省略了一种类型：为了逗弄孩子的轻信而撒的谎。这些谎言从“假装游戏”（这不算真正的谎言，因为是眨着眼睛说的）到年长的兄弟姐妹撒的吓人谎言。关于这些没什么好说的：我不希望第一种消失，也不指望第二种会消失。）"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "9222a69d85dd8d470ff998479217d84eebe3b083d568c4ac9e3e3981bf3fe6ed",
+      "enMarkdown": "[2] Calaprice, Alice (ed.), *The Quotable Einstein*, Princeton University Press, 1996.",
+      "zhMarkdown": "[2] Calaprice, Alice (ed.), *The Quotable Einstein*, Princeton University Press, 1996."
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "2d1fa4a337555043d9087d3eb5c5493bf531f70417d60368f0055a73f2930d7b",
+      "enMarkdown": "[3] If you ask parents why kids shouldn't swear, the less educated ones usually reply with some question-begging answer like \"it's inappropriate,\" while the more educated ones come up with elaborate rationalizations. In fact the less educated parents seem closer to the truth.",
+      "zhMarkdown": "[3] 如果你问家长为什么孩子不该说脏话，受教育程度较低的家长通常会用一些循环论证的回答，比如“这不合适”，而受教育程度较高的家长则会想出复杂的合理化解释。事实上，受教育程度较低的家长似乎更接近真相。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "d806bfb60f7d83f1cb5ceb7a2226c1b6b5540edd7e53cd51e73152b3f76112de",
+      "enMarkdown": "[4] As a friend with small children pointed out, it's easy for small children to consider themselves immortal, because time seems to pass so slowly for them. To a 3 year old, a day feels like a month might to an adult. So 80 years sounds to him like 2400 years would to us.",
+      "zhMarkdown": "[4] 正如一位有小孩的朋友指出的，小孩子很容易认为自己是永生不死的，因为时间对他们来说过得太慢了。对于一个 3 岁的孩子来说，一天感觉就像大人眼中的一个月。因此，80 年听起来就像我们眼中的 2400 年。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "0ab940dd9856e00c08d829b2a567c271366c5aaa64b80207233ea36a5cd88a00",
+      "enMarkdown": "[5] I realize I'm going to get endless grief for classifying religion as a type of lie. Usually people skirt that issue with some equivocation implying that lies believed for a sufficiently long time by sufficiently large numbers of people are immune to the usual standards for truth. But because I can't predict which lies future generations will consider inexcusable, I can't safely omit any type we tell. Yes, it seems unlikely that religion will be out of fashion in 100 years, but no more unlikely than it would have seemed to someone in 1880 that schoolchildren in 1980 would be taught that masturbation was perfectly normal and not to feel guilty about it.",
+      "zhMarkdown": "[5] 我知道把宗教归类为一种谎言会给我带来无尽的麻烦。通常人们会用一些含糊其辞的说法来回避这个问题，暗示被足够多的人相信了足够长时间的谎言就可以免受通常的真理标准的检验。但因为我无法预测未来的世代会认为哪些谎言是不可原谅的，我无法安全地省略我们所说的任何类型。是的，宗教在 100 年后似乎不太可能过时，但这并不比 1880 年的人认为 1980 年的小学生会被教导手淫是完全正常的、不需要感到内疚更不可思议。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "47b13fad9998e9682895158e7cb87abc69c28554a41ca3536957e8bbc257df4f",
+      "enMarkdown": "[6] Unfortunately the payload can consist of bad customs as well as good ones. For example, there are certain qualities that some groups in America consider \"acting white.\" In fact most of them could as accurately be called \"acting Japanese.\" There's nothing specifically white about such customs. They're common to all cultures with long traditions of living in cities. So it is probably a losing bet for a group to consider behaving the opposite way as part of its identity.",
+      "zhMarkdown": "[6] 不幸的是，承载的内容既可以是好的习俗，也可以是坏的。例如，美国的一些群体认为某些品质是“表现得像白人一样”（acting white）。事实上，其中大多数品质同样可以被称为“表现得像日本人一样”。这些习俗并没有什么白人特有的地方。它们是所有具有长期城市生活传统的文化所共有的。因此，一个群体将反其道而行之的行为作为其身份认同的一部分，大概是一个必输的赌注。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "783a94d84aa7b9bfca71d98908103b6c17303098961af56d027e019127ca2296",
+      "enMarkdown": "[7] In this context, \"issues\" basically means \"things we're going to lie to them about.\" That's why there's a special name for these topics.",
+      "zhMarkdown": "[7] 在这种语境下，“问题”（issues）基本上意味着“我们要对他们撒谎的事情”。这就是为什么这些话题有一个特殊的名字。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "255921f89b248bb0945dbd42fbbe52897ad1b72893e218d4b3da7fa0062f4e8d",
+      "enMarkdown": "[8] Mayle, Peter, *Why Are We Getting a Divorce?*, Harmony, 1988.",
+      "zhMarkdown": "[8] Mayle, Peter, *Why Are We Getting a Divorce?*, Harmony, 1988."
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "f6af5384f3455cbcc5dfeb8f08b8462e7eb90917fef9a6222650d33d81b7b6d2",
+      "enMarkdown": "[9] The ironic thing is, this is also the main reason kids lie to adults. If you freak out when people tell you alarming things, they won't tell you them. Teenagers don't tell their parents what happened that night they were supposed to be staying at a friend's house for the same reason parents don't tell 5 year olds the truth about the Thanksgiving turkey. They'd freak if they knew.",
+      "zhMarkdown": "[9] 具有讽刺意味的是，这也是孩子对大人撒谎的主要原因。如果你在别人告诉你惊人的事情时表现得大惊小怪，他们就不会告诉你了。青少年不告诉父母他们本该在朋友家过夜的那天晚上发生了什么，原因与父母不告诉 5 岁孩子关于感恩节火鸡的真相是一样的。如果他们知道了，他们会抓狂的。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "f2811f3b46c8d89d973c9345d400d0a41accd0584177626d1441df8829af9782",
+      "enMarkdown": "**Thanks** to Sam Altman, Marc Andreessen, Trevor Blackwell, Patrick Collison, Jessica Livingston, Jackie McDonough, Robert Morris, and David Sloo for reading drafts of this. And since there are some controversial ideas here, I should add that none of them agreed with everything in it.",
+      "zhMarkdown": "**感谢** Sam Altman、Marc Andreessen、Trevor Blackwell、Patrick Collison、Jessica Livingston、Jackie McDonough、Robert Morris 和 David Sloo 阅读了本文的草稿。由于这里有一些有争议的观点，我应该补充一点，他们中没有人同意本文中的所有内容。"
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "slug": "nerds",
+  "titleEn": "Why Nerds are Unpopular",
+  "titleZh": "为什么黑客不招人喜欢",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 208,
+  "sourceUrl": "https://paulgraham.com/nerds.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "e2e80ffc61504347541640b708e44d654a076082a36edc5b99370a34c6748e1d",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/why-nerds-are-unpopular-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/why-nerds-are-unpopular-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "ba1fabd480ed3f072b2b76d37bfa496ea92f158cfcfd844a618d433e2ed0fbd6",
+      "enMarkdown": "February 2003",
+      "zhMarkdown": "2003年2月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "657bade5e94095d2833faefe6c411f2f58e7186a6b12aaf030e92b77f2047349",
+      "enMarkdown": "When we were in junior high school, my friend Rich and I made a map of the school lunch tables according to popularity. This was easy to do, because kids only ate lunch with others of about the same popularity. We graded them from A to E. A tables were full of football players and cheerleaders and so on. E tables contained the kids with mild cases of Down's Syndrome, what in the language of the time we called \"retards.\"",
+      "zhMarkdown": "上初中时，我和朋友里奇（Rich）曾根据受欢迎程度画了一张学校食堂的座位表。这很容易画，因为大家吃午饭时只和受欢迎程度差不多的人坐在一起。我们把桌子分为 A 到 E 级。A 级桌子坐满了橄榄球队员和啦啦队员等。E 级桌子坐的则是患有轻度唐氏综合征的孩子，用当时的语言来说，就是我们所谓的“弱智”。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "aafef668550be052639d1a18af882b59e28233aeeaa8e5a63971412c06094d71",
+      "enMarkdown": "We sat at a D table, as low as you could get without looking physically different. We were not being especially candid to grade ourselves as D. It would have taken a deliberate lie to say otherwise. Everyone in the school knew exactly how popular everyone else was, including us.",
+      "zhMarkdown": "我们坐在 D 级桌，这是在长相没有明显缺陷的情况下能混到的最低级别了。我们把自己评为 D 级并不是因为特别坦诚，而是因为要说成别的级别就得故意撒谎了。学校里的每个人，包括我们自己，都一清二楚地知道每个人有多受欢迎。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "2a8276510b75e72dc523e4cdf9c207043b595f6f3f7ae4aca024e45aafb1fc7c",
+      "enMarkdown": "My stock gradually rose during high school. Puberty finally arrived; I became a decent soccer player; I started a scandalous underground newspaper. So I've seen a good part of the popularity landscape.",
+      "zhMarkdown": "到了高中，我的行情渐渐看涨。青春期终于到了；我成了不错的足球运动员；我还创办了一份引起轰动的地下报纸。所以我对受欢迎程度的起伏变化体验颇深。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d5b718253293948fca4c764c21bbe4623bc58bfee896baf8982302071fe6f30a",
+      "enMarkdown": "I know a lot of people who were nerds in school, and they all tell the same story: there is a strong correlation between being smart and being a nerd, and an even stronger inverse correlation between being a nerd and being popular. Being smart seems to *make* you unpopular.",
+      "zhMarkdown": "我认识许多在学校时是书呆子（nerds）的人，他们都讲着同样的故事：聪明与成为书呆子之间有着强烈的正相关，而成为书呆子与受欢迎之间则有着更强烈的反向相关。聪明似乎会*让你*不受欢迎。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "e5ab88bc7abbdaeea6e24fa3faa87e55b7ffeabe537593ffb09d55ef6af43915",
+      "enMarkdown": "Why? To someone in school now, that may seem an odd question to ask. The mere fact is so overwhelming that it may seem strange to imagine that it could be any other way. But it could. Being smart doesn't make you an outcast in elementary school. Nor does it harm you in the real world. Nor, as far as I can tell, is the problem so bad in most other countries. But in a typical American secondary school, being smart is likely to make your life difficult. Why?",
+      "zhMarkdown": "为什么会这样？对于现在还在上学的人来说，这似乎是个奇怪的问题。这个事实本身是如此压倒性，以至于让人觉得理所当然，无法想象还能有别的情况。但事实并非必然如此。在小学里，聪明并不会让你被孤立。在真实世界里，聪明也不会伤害你。而且，据我所知，在大多数其他国家，这个问题也没有这么严重。但在典型的美国中学里，聪明很可能会让你的日子很难过。这是为什么？"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2e0825822ac5511987763459abdd6b66889cd1269aec52d6f70bed0c63a9d72d",
+      "enMarkdown": "The key to this mystery is to rephrase the question slightly. Why don't smart kids make themselves popular? If they're so smart, why don't they figure out how popularity works and beat the system, just as they do for standardized tests?",
+      "zhMarkdown": "解开这个谜团的关键在于稍微换个方式提问：为什么聪明的孩子不让自己变得受欢迎？既然他们这么聪明，为什么不琢磨出受欢迎的门道，然后像应付标准化考试那样去战胜这个系统呢？"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "e450c0b7efc106f847cb425c616890ad7a1da26bd7e54424511077f4ddbfef17",
+      "enMarkdown": "One argument says that this would be impossible, that the smart kids are unpopular because the other kids envy them for being smart, and nothing they could do could make them popular. I wish. If the other kids in junior high school envied me, they did a great job of concealing it. And in any case, if being smart were really an enviable quality, the girls would have broken ranks. The guys that guys envy, girls like.",
+      "zhMarkdown": "有一种论点认为这不可能。聪明的孩子不受欢迎，是因为其他孩子嫉妒他们的聪明，所以他们做什么都无济于事。我倒希望真是这样。如果初中里的其他孩子嫉妒我，那他们隐藏得可太好了。而且无论如何，如果聪明真的是一种令人嫉妒的品质，女孩子们早就倒戈了。男生们嫉妒的男生，往往是女生们喜欢的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "7a1fa2bd71cf7e9bce1ff75e231f996360bd1cc3ea98279227a5cef01d6692e6",
+      "enMarkdown": "In the schools I went to, being smart just didn't matter much. Kids didn't admire it or despise it. All other things being equal, they would have preferred to be on the smart side of average rather than the dumb side, but intelligence counted far less than, say, physical appearance, charisma, or athletic ability.",
+      "zhMarkdown": "在我上过的学校里，聪明根本无关紧要。孩子们既不崇拜它，也不鄙视它。在其他条件相同的情况下，他们宁愿自己比平均水平聪明一点，而不是笨一点，但智力的分量远不及外貌、个人魅力或体育才能。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7cd91130b99f3fdc60d91c348b49ba4357b992f6afdf8a7e76c5f2deeec1e314",
+      "enMarkdown": "So if intelligence in itself is not a factor in popularity, why are smart kids so consistently unpopular? The answer, I think, is that they don't really want to be popular.",
+      "zhMarkdown": "所以，如果智力本身并不是影响受欢迎程度的因素，为什么聪明的孩子总是如此不受欢迎？我认为答案是：他们其实并不想变得受欢迎。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ee6fd3f30ffc6e8f9005fedbc32ab64402e71e3fc95d00689bcb0d2fc8c130fe",
+      "enMarkdown": "If someone had told me that at the time, I would have laughed at him. Being unpopular in school makes kids miserable, some of them so miserable that they commit suicide. Telling me that I didn't want to be popular would have seemed like telling someone dying of thirst in a desert that he didn't want a glass of water. Of course I wanted to be popular.",
+      "zhMarkdown": "如果当时有人跟我这么说，我一定会嘲笑他。在学校里不受欢迎会让孩子痛苦不堪，有些人甚至痛苦到自杀。跟我说我不想受欢迎，就像对一个在沙漠里快渴死的人说他不想喝水一样。我当然想受欢迎。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "fe3386a4c41acee2761d34e5f657356759b24f6d7372469218f497d86c0dc97a",
+      "enMarkdown": "But in fact I didn't, not enough. There was something else I wanted more: to be smart. Not simply to do well in school, though that counted for something, but to design beautiful rockets, or to write well, or to understand how to program computers. In general, to make great things.",
+      "zhMarkdown": "但事实上我并不想，至少不够想。我有其他更想要的东西：变得聪明。不单单是在学校里拿好成绩（虽然这也有点用），而是去设计漂亮的火箭，写出好文章，或者理解如何编写计算机程序。总的来说，就是去创造伟大的事物。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "01b5733349b961bde94fc57141bc56cfec01f8c6fc05272aaffac4db6e1d166e",
+      "enMarkdown": "At the time I never tried to separate my wants and weigh them against one another. If I had, I would have seen that being smart was more important. If someone had offered me the chance to be the most popular kid in school, but only at the price of being of average intelligence (humor me here), I wouldn't have taken it.",
+      "zhMarkdown": "当时，我从未试图将自己的欲望剥离开来并权衡轻重。如果我权衡过，就会发现变得聪明更重要。如果有人让我选择成为学校里最受欢迎的孩子，代价是智力降到平均水平（这里姑且这么假设），我是不会接受的。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "2acb3e622ffa97cc5f5ee1cecf31de4faf22caa0050ab33e8bfb8df79c5ed3ff",
+      "enMarkdown": "Much as they suffer from their unpopularity, I don't think many nerds would. To them the thought of average intelligence is unbearable. But most kids would take that deal. For half of them, it would be a step up. Even for someone in the eightieth percentile (assuming, as everyone seemed to then, that intelligence is a scalar), who wouldn't drop thirty points in exchange for being loved and admired by everyone?",
+      "zhMarkdown": "尽管书呆子们因不受欢迎而痛苦万分，但我认为没有多少人愿意做这种交易。对他们来说，平庸的智力是无法忍受的。但大多数孩子会接受这个交易。对其中一半人来说，这甚至是一种提升。即使是处于前 20% 水平的人（假设像当时大家普遍认为的那样，智力是一个标量），谁会不愿意降低 30 分智商，来换取每个人的喜爱和崇拜呢？"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "047cf0581c3b72ee3c980a275a100e182ed955823f849db317bd2104a5ebc54d",
+      "enMarkdown": "And that, I think, is the root of the problem. Nerds serve two masters. They want to be popular, certainly, but they want even more to be smart. And popularity is not something you can do in your spare time, not in the fiercely competitive environment of an American secondary school.",
+      "zhMarkdown": "我认为，这就是问题的根源。书呆子们一心二用。他们当然想受欢迎，但他们更想变得聪明。而在美国中学那种竞争极其激烈的环境中，受欢迎可不是你利用业余时间就能搞定的事。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "aa461652cbc63dc7b113bbe518c6c5e08ff9cf4ce0cd22d75d2bdb83635c76e5",
+      "enMarkdown": "Alberti, arguably the archetype of the Renaissance Man, writes that \"no art, however minor, demands less than total dedication if you want to excel in it.\" I wonder if anyone in the world works harder at anything than American school kids work at popularity. Navy SEALs and neurosurgery residents seem slackers by comparison. They occasionally take vacations; some even have hobbies. An American teenager may work at being popular every waking hour, 365 days a year.",
+      "zhMarkdown": "阿尔伯蒂（Alberti，文艺复兴时期通才的代表人物）曾写道：“任何一门艺术，无论多么微不足道，只要你想出类拔萃，都需要付出全部的专注。”我怀疑世界上是否有人在任何事情上，比美国学童在追求“受欢迎”上付出过更多的努力。相比之下，海豹突击队和神经外科住院医生都显得像是在偷懒。他们偶尔还会度假，有些人甚至有业余爱好。而一个美国青少年可能在醒着的每一小时、一年 365 天里，都在为变得受欢迎而努力。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "643c1aa42a3b285f415e75d61772870fc17f566ac055adfbf9700acfc543524c",
+      "enMarkdown": "I don't mean to suggest they do this consciously. Some of them truly are little Machiavellis, but what I really mean here is that teenagers are always on duty as conformists.",
+      "zhMarkdown": "我并不是说他们是有意识地这样做。他们中有些人的确是小小马基雅维利，但我这里的真正意思是，青少年在随大流这件事上时刻都在“执勤”。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "2546fe82e4e91953643b063b40934b9cfd3b0ae338c878141257dcd84e78dddf",
+      "enMarkdown": "For example, teenage kids pay a great deal of attention to clothes. They don't consciously dress to be popular. They dress to look good. But to who? To the other kids. Other kids' opinions become their definition of right, not just for clothes, but for almost everything they do, right down to the way they walk. And so every effort they make to do things \"right\" is also, consciously or not, an effort to be more popular.",
+      "zhMarkdown": "例如，青少年非常关注衣服。他们并不是有意识地为了受欢迎而穿衣，他们穿衣是为了好看。但给谁看？给其他孩子看。其他孩子的意见成了他们对“正确”的定义，不仅在穿衣上，在他们所做的几乎所有事情上都是如此，甚至一直延伸到走路的姿势。因此，他们为把事情做“对”而付出的每一分努力，无论是否有意，都是在努力变得更受欢迎。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "0c1e6b8a3ccdb77e310ca15da9cafed315b8285e11412bfa529cda99ee5e9405",
+      "enMarkdown": "Nerds don't realize this. They don't realize that it takes work to be popular. In general, people outside some very demanding field don't realize the extent to which success depends on constant (though often unconscious) effort. For example, most people seem to consider the ability to draw as some kind of innate quality, like being tall. In fact, most people who \"can draw\" like drawing, and have spent many hours doing it; that's why they're good at it. Likewise, popular isn't just something you are or you aren't, but something you make yourself.",
+      "zhMarkdown": "书呆子们没有意识到这一点。他们不知道受欢迎是需要付出努力的。一般来说，身处某些要求极高的领域之外的人，无法体会到成功在多大程度上取决于持续的（尽管通常是无意识的）努力。例如，大多数人似乎认为画画的能力是某种天生的特质，就像长得高一样。事实上，大多数“会画画”的人是因为喜欢画画，并在这上面花了很多时间，所以他们才擅长。同样，受欢迎不单单是“你是不是”的问题，而是你“如何塑造自己”的结果。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "1fc6374cba9abf595c81931e9531bde11df2b9cbe5700fad0c808cf15d5f4503",
+      "enMarkdown": "The main reason nerds are unpopular is that they have other things to think about. Their attention is drawn to books or the natural world, not fashions and parties. They're like someone trying to play soccer while balancing a glass of water on his head. Other players who can focus their whole attention on the game beat them effortlessly, and wonder why they seem so incapable.",
+      "zhMarkdown": "书呆子不受欢迎的主要原因，是他们有其他事情要思考。他们的注意力被书籍或自然世界所吸引，而不是时尚和派对。他们就像一个试图头顶一杯水踢足球的人。其他能把全部注意力放在球赛上的队员可以毫不费力地击败他们，并纳闷他们为什么看起来这么无能。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "0e0d1fcb7e9c0ffc9b8c55c126bfb787f8ad5dfc453a4244214cf01b51b83f6b",
+      "enMarkdown": "Even if nerds cared as much as other kids about popularity, being popular would be more work for them. The popular kids learned to be popular, and to want to be popular, the same way the nerds learned to be smart, and to want to be smart: from their parents. While the nerds were being trained to get the right answers, the popular kids were being trained to please.",
+      "zhMarkdown": "即使书呆子像其他孩子一样在乎受欢迎，对他们来说，变得受欢迎也需要付出更多的努力。受欢迎的孩子学会了如何受欢迎以及渴望受欢迎，就像书呆子学会了如何变聪明以及渴望变聪明一样：这都源于他们的父母。当书呆子在接受训练以获得正确答案时，受欢迎的孩子则在接受训练以取悦他人。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "f343ebd280baa55525fe42fc87e33d0c9ffe501cfbae0e42061638348efed79f",
+      "enMarkdown": "So far I've been finessing the relationship between smart and nerd, using them as if they were interchangeable. In fact it's only the context that makes them so. A nerd is someone who isn't socially adept enough. But \"enough\" depends on where you are. In a typical American school, standards for coolness are so high (or at least, so specific) that you don't have to be especially awkward to look awkward by comparison.",
+      "zhMarkdown": "到目前为止，我一直在模糊“聪明”和“书呆子”之间的关系，把它们当作可以互换的词。事实上，只是环境让它们变得如此。书呆子是指在社交上不够老练的人。但“足够”取决于你身处何地。在典型的美国学校里，酷的标准是如此之高（或者说，如此具体），以至于你不需要特别笨拙，相比之下也会显得笨拙。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "5c73976adb343c24d7187cf85fec0e5db55ca575aa4e50af47f5b198d303f89a",
+      "enMarkdown": "Few smart kids can spare the attention that popularity requires. Unless they also happen to be good-looking, natural athletes, or siblings of popular kids, they'll tend to become nerds. And that's why smart people's lives are worst between, say, the ages of eleven and seventeen. Life at that age revolves far more around popularity than before or after.",
+      "zhMarkdown": "很少有聪明的孩子能分出受欢迎所需的注意力。除非他们恰好长得好看、有运动天赋，或者是受欢迎孩子的兄弟姐妹，否则他们往往会变成书呆子。这就是为什么聪明人的日子在十一岁到十七岁之间最难过。那个年龄段的生活比之前或之后都更围绕着受欢迎程度打转。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "0b771e37dadcafd1f5ff835f54593e67d0bd6ccb6068a79d0ddc2b0338a2e8b3",
+      "enMarkdown": "Before that, kids' lives are dominated by their parents, not by other kids. Kids do care what their peers think in elementary school, but this isn't their whole life, as it later becomes.",
+      "zhMarkdown": "在此之前，孩子的生活由父母主导，而不是其他孩子。在小学里，孩子们确实在乎同龄人的看法，但这并不是他们生活的全部，不像以后那样。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "ac9b4ba1aae6cc7ef52a412d4ca4866ce4a05bfc0254274c8cac6675bd0d640a",
+      "enMarkdown": "Around the age of eleven, though, kids seem to start treating their family as a day job. They create a new world among themselves, and standing in this world is what matters, not standing in their family. Indeed, being in trouble in their family can win them points in the world they care about.",
+      "zhMarkdown": "然而，到了十一岁左右，孩子们似乎开始把家庭当成一份兼职工作。他们在彼此之间创造了一个新世界，在这个世界里的地位才重要，而不是在家庭中的地位。事实上，在家里惹麻烦甚至能让他们在自己看重的世界里加分。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "996941e31060b33c702363d0a16bf30d600e31638030d93e59960c44f78d2eae",
+      "enMarkdown": "The problem is, the world these kids create for themselves is at first a very crude one. If you leave a bunch of eleven-year-olds to their own devices, what you get is *Lord of the Flies.* Like a lot of American kids, I read this book in school. Presumably it was not a coincidence. Presumably someone wanted to point out to us that we were savages, and that we had made ourselves a cruel and stupid world. This was too subtle for me. While the book seemed entirely believable, I didn't get the additional message. I wish they had just told us outright that we were savages and our world was stupid.",
+      "zhMarkdown": "问题是，这些孩子为自己创造的世界起初是非常粗糙的。如果你让一群十一岁的孩子自生自灭，你得到的就是《蝇王》。和许多美国孩子一样，我在学校读过这本书。这大概不是巧合。大概有人想向我们指出，我们是野蛮人，我们为自己创造了一个残酷而愚蠢的世界。这对我来说太隐晦了。虽然我觉得书里的情节完全可信，但我没有领会到这层额外的信息。我真希望他们直接了当地告诉我们，我们就是野蛮人，我们的世界很愚蠢。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "6efd0af943f4811ca361f819aaaaf9a9477615d496244d0d207200d9a24b734c",
+      "enMarkdown": "Nerds would find their unpopularity more bearable if it merely caused them to be ignored. Unfortunately, to be unpopular in school is to be actively persecuted.",
+      "zhMarkdown": "如果不受欢迎只是导致书呆子被忽视，他们会觉得好过得多。不幸的是，在学校里不受欢迎意味着会被主动迫害。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "a8f97f63c8ee51dc4348dd641a7b97698f14e4389713e7e2087800653974a151",
+      "enMarkdown": "Why? Once again, anyone currently in school might think this a strange question to ask. How could things be any other way? But they could be. Adults don't normally persecute nerds. Why do teenage kids do it?",
+      "zhMarkdown": "为什么？同样，任何目前在学校里的人都会觉得这是个奇怪的问题。事情怎么可能不是这样？但确实可以不是这样。成年人通常不会迫害书呆子。为什么青少年会这么做？"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "3b33370305e72bc4289657e7c2a68203f703b5aea12281ea6e52f62e241ab3ec",
+      "enMarkdown": "Partly because teenagers are still half children, and many children are just intrinsically cruel. Some torture nerds for the same reason they pull the legs off spiders. Before you develop a conscience, torture is amusing.",
+      "zhMarkdown": "部分原因在于青少年仍是半个孩子，而许多孩子本质上就是残酷的。有些人折磨书呆子，就像他们扯掉蜘蛛的腿一样。在形成良知之前，折磨是很好玩的。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "a4c6393d876b29de52ea2d3e189fe4a0a408f1ec68db95064512a91eade514b7",
+      "enMarkdown": "Another reason kids persecute nerds is to make themselves feel better. When you tread water, you lift yourself up by pushing water down. Likewise, in any social hierarchy, people unsure of their own position will try to emphasize it by maltreating those they think rank below. I've read that this is why poor whites in the United States are the group most hostile to blacks.",
+      "zhMarkdown": "孩子们迫害书呆子的另一个原因是为了让自己感觉更好。当你在水里踩水时，你通过往下踩水来让自己升起。同样，在任何社会等级制度中，对自己的地位感到不确定的人，都会试图通过虐待他们认为地位比自己低的人来彰显自己的地位。我读到过，这就是为什么在美国，贫困白人是对黑人最敌视的群体。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "d4d47d55befe29557f38384a5c9df42a1cbd565f11b3a0c5c61f5882d0c6a79f",
+      "enMarkdown": "But I think the main reason other kids persecute nerds is that it's part of the mechanism of popularity. Popularity is only partially about individual attractiveness. It's much more about alliances. To become more popular, you need to be constantly doing things that bring you close to other popular people, and nothing brings people closer than a common enemy.",
+      "zhMarkdown": "但我认为，其他孩子迫害书呆子的主要原因，是因为这是受欢迎机制的一部分。受欢迎只是部分取决于个人的吸引力，更多的是关于结盟。为了变得更受欢迎，你需要不断做一些能让你接近其他受欢迎的人的事，而没有什么比共同的敌人更能拉近人与人之间的距离了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "1ac3640e24425a545c0132a1eb6c635f546d952cc359baae6cf4853cb7541322",
+      "enMarkdown": "Like a politician who wants to distract voters from bad times at home, you can create an enemy if there isn't a real one. By singling out and persecuting a nerd, a group of kids from higher in the hierarchy create bonds between themselves. Attacking an outsider makes them all insiders. This is why the worst cases of bullying happen with groups. Ask any nerd: you get much worse treatment from a group of kids than from any individual bully, however sadistic.",
+      "zhMarkdown": "就像一个想转移选民对国内糟糕局势注意力的政治家一样，如果没有真正的敌人，你可以制造一个。通过挑出并迫害一个书呆子，一群处于等级制度上层的孩子在他们之间建立了纽带。攻击一个局外人让他们都变成了圈内人。这就是为什么最严重的霸凌都发生在群体中。问问任何一个书呆子：你从一群孩子那里得到的待遇，要比从任何一个单独的霸凌者（无论多么施虐成性）那里得到的糟糕得多。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "8b9b3ee6fae8d1a3a1d4affadae210ae2051b5379a2f3159b9a2bc9d89313d69",
+      "enMarkdown": "If it's any consolation to the nerds, it's nothing personal. The group of kids who band together to pick on you are doing the same thing, and for the same reason, as a bunch of guys who get together to go hunting. They don't actually hate you. They just need something to chase.",
+      "zhMarkdown": "如果这能给书呆子们带来一丝安慰的话，那就是这并非针对个人。那群联合起来挑逗你的孩子，和一群聚在一起去打猎的家伙做的是同一件事，原因也一样。他们其实并不恨你。他们只是需要有东西可追逐。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "d4560cb903ecf6f40327e26d90faa602be18ce0a568124e5d5898e1b7ad13a74",
+      "enMarkdown": "Because they're at the bottom of the scale, nerds are a safe target for the entire school. If I remember correctly, the most popular kids don't persecute nerds; they don't need to stoop to such things. Most of the persecution comes from kids lower down, the nervous middle classes.",
+      "zhMarkdown": "因为处于等级的最底层，书呆子成了全校安全下手的目标。如果我没记错的话，最受欢迎的孩子是不迫害书呆子的，他们不需要屈尊做这种事。大多数迫害来自地位较低的人，即那些焦虑的中产阶层。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "9b4a98722448597aadbc2e60c7f368491b8a406d5691c5643ff3180dfba3e59f",
+      "enMarkdown": "The trouble is, there are a lot of them. The distribution of popularity is not a pyramid, but tapers at the bottom like a pear. The least popular group is quite small. (I believe we were the only D table in our cafeteria map.) So there are more people who want to pick on nerds than there are nerds.",
+      "zhMarkdown": "麻烦在于，这种人很多。受欢迎程度的分布不是金字塔形的，而是像梨一样在底部逐渐收窄。最不受欢迎的群体其实很小。（我相信在我们的食堂地图上，我们是唯一的 D 级桌。）所以，想找书呆子麻烦的人，比书呆子本人还要多。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "1aba48d2b6c36390622055ae61488bd1add98c8fbffca85aea282f8ee556f4f0",
+      "enMarkdown": "As well as gaining points by distancing oneself from unpopular kids, one loses points by being close to them. A woman I know says that in high school she liked nerds, but was afraid to be seen talking to them because the other girls would make fun of her. Unpopularity is a communicable disease; kids too nice to pick on nerds will still ostracize them in self-defense.",
+      "zhMarkdown": "除了通过远离不受欢迎的孩子来加分外，与他们接近也会失分。我认识的一个女性说，她在高中时很喜欢书呆子，但害怕被看到和他们说话，因为其他女生会嘲笑她。不受欢迎是一种传染病；那些善良到不愿欺负书呆子的孩子，为了自保也会孤立他们。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "a851e407a0ef83978b5adb0c5959c8219a486f9126a2fd81be66e94adcda5bc3",
+      "enMarkdown": "It's no wonder, then, that smart kids tend to be unhappy in middle school and high school. Their other interests leave them little attention to spare for popularity, and since popularity resembles a zero-sum game, this in turn makes them targets for the whole school. And the strange thing is, this nightmare scenario happens without any conscious malice, merely because of the shape of the situation.",
+      "zhMarkdown": "因此，聪明的孩子在初中和高中往往过得不快乐，也就不足为奇了。他们的其他兴趣让他们没有多少心思去争夺受欢迎度，而由于受欢迎度类似于一场零和博弈，这反过来又使他们成为全校的目标。奇怪的是，这种噩梦般的场景发生时并没有任何刻意的恶意，仅仅是因为局势的结构使然。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "1a2c5c7badb7221b54ee5b2ceedff646b36a92eb4a3c9e25a9af166abb7f0077",
+      "enMarkdown": "For me the worst stretch was junior high, when kid culture was new and harsh, and the specialization that would later gradually separate the smarter kids had barely begun. Nearly everyone I've talked to agrees: the nadir is somewhere between eleven and fourteen.",
+      "zhMarkdown": "对我来说，最糟糕的时期是初中。当时同龄人文化刚刚兴起且十分残酷，而后来逐渐将聪明孩子区分开来的分化才刚刚开始。几乎所有和我聊过的人都同意：最黑暗的时期大约在十一岁到十四岁之间。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "1b03b5ae2b05fb7acb174385e932e2a7b041717182bc385855fae064c0c53b9e",
+      "enMarkdown": "In our school it was eighth grade, which was ages twelve and thirteen for me. There was a brief sensation that year when one of our teachers overheard a group of girls waiting for the school bus, and was so shocked that the next day she devoted the whole class to an eloquent plea not to be so cruel to one another.",
+      "zhMarkdown": "在我们的学校里是八年级，对我来说是十二和十三岁。那年发生了一件短暂引起轰动的事：我们的一位老师无意中听到了一群等校车的女生说话，她感到非常震惊，以至于第二天她把整堂课都用来做了一次雄辩的呼吁，请求大家不要对彼此如此残酷。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "7250a431038352f7fd32710f5392ee2ec5414069816e55d785dc87b02c9755d2",
+      "enMarkdown": "It didn't have any noticeable effect. What struck me at the time was that she was surprised. You mean she doesn't know the kind of things they say to one another? You mean this isn't normal?",
+      "zhMarkdown": "这并没有产生任何明显的效果。当时最触动我的是她的惊讶。你是说她不知道她们对彼此说些什么吗？你是说这不正常吗？"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "de915f0c39708f19bad8b8285b8bd229724f4ca6be9edd47d5a501ab6abf9a7c",
+      "enMarkdown": "It's important to realize that, no, the adults don't know what the kids are doing to one another. They know, in the abstract, that kids are monstrously cruel to one another, just as we know in the abstract that people get tortured in poorer countries. But, like us, they don't like to dwell on this depressing fact, and they don't see evidence of specific abuses unless they go looking for it.",
+      "zhMarkdown": "必须意识到，是的，成年人并不知道孩子们在对彼此做些什么。他们抽象地知道孩子们对彼此非常残酷，就像我们抽象地知道在贫穷国家有人遭受酷刑一样。但是，和我们一样，他们不喜欢在这个令人沮丧的事实上纠结，而且除非他们特意去寻找，否则他们看不到具体虐待的证据。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "149771d18fb695fd8f282168f787ad5802f52712115dee91b3d90a919dd1335e",
+      "enMarkdown": "Public school teachers are in much the same position as prison wardens. Wardens' main concern is to keep the prisoners on the premises. They also need to keep them fed, and as far as possible prevent them from killing one another. Beyond that, they want to have as little to do with the prisoners as possible, so they leave them to create whatever social organization they want. From what I've read, the society that the prisoners create is warped, savage, and pervasive, and it is no fun to be at the bottom of it.",
+      "zhMarkdown": "公立学校的老师在很大程度上和监狱看守处于同样的境地。看守的主要职责是让囚犯留在牢房里。他们还需要让他们吃饱，并尽可能防止他们互相残杀。除此之外，他们希望与囚犯发生的关系越少越好，所以他们任由囚犯去创造他们想要的任何社会组织。从我读到的资料来看，囚犯创造的社会是扭曲、野蛮且无孔不入的，处于这个社会的最底层绝非好玩的事。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "9f6f71ef6c7be789ee18532e8a9da160493804fa6f79853c9574bf024bc3baa1",
+      "enMarkdown": "In outline, it was the same at the schools I went to. The most important thing was to stay on the premises. While there, the authorities fed you, prevented overt violence, and made some effort to teach you something. But beyond that they didn't want to have too much to do with the kids. Like prison wardens, the teachers mostly left us to ourselves. And, like prisoners, the culture we created was barbaric.",
+      "zhMarkdown": "大体上，我上过的学校也是如此。最重要的事情是留在学校里。在学校期间，管理方会给你提供食物，防止公开的暴力，并做出一些努力来教你一些东西。但除此之外，他们不想和孩子们有太多的瓜葛。就像监狱看守一样，老师们大多让我们自生自灭。而且，就像囚犯一样，我们创造的文化是野蛮的。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "e3329aa6e933181b09c711d36b2848d3db429738fc6c3e8bfea251955c55d09a",
+      "enMarkdown": "Why is the real world more hospitable to nerds? It might seem that the answer is simply that it's populated by adults, who are too mature to pick on one another. But I don't think this is true. Adults in prison certainly pick on one another. And so, apparently, do society wives; in some parts of Manhattan, life for women sounds like a continuation of high school, with all the same petty intrigues.",
+      "zhMarkdown": "为什么真实世界对书呆子更宽容？答案似乎很简单，因为真实世界里都是成年人，他们足够成熟，不会互相欺负。但我认为这不对。监狱里的成年人当然会互相欺负。而且，社交名媛们显然也是如此；在曼哈顿的某些地方，女人们的生活听起来就像是高中的延续，充满了同样琐碎的勾心斗角。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "c6e37e2cb6973f176d2868076e80fcb40256e1faed76423b4ee8c2ca6d2b4fb9",
+      "enMarkdown": "I think the important thing about the real world is not that it's populated by adults, but that it's very large, and the things you do have real effects. That's what school, prison, and ladies-who-lunch all lack. The inhabitants of all those worlds are trapped in little bubbles where nothing they do can have more than a local effect. Naturally these societies degenerate into savagery. They have no function for their form to follow.",
+      "zhMarkdown": "我认为真实世界的重要之处不在于它是由成年人组成的，而在于它非常大，而且你所做的事情会产生实际的效果。这正是学校、监狱和名媛午宴所缺乏的。所有这些世界里的居民都被困在小小的泡沫里，他们所做的任何事情都只能产生局部的影响。很自然地，这些社会退化成了野蛮状态。因为没有功能，形式也就无从谈起。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "315ffa9878611ec303a5cd8391fb3d7fdf4d79abd012ccefc93cb3ba694ef0d5",
+      "enMarkdown": "When the things you do have real effects, it's no longer enough just to be pleasing. It starts to be important to get the right answers, and that's where nerds show to advantage. Bill Gates will of course come to mind. Though notoriously lacking in social skills, he gets the right answers, at least as measured in revenue.",
+      "zhMarkdown": "当你做的事情能产生实际效果时，仅仅讨人喜欢就不再足够了。获得正确答案开始变得重要，而这正是书呆子展现优势的地方。人们当然会想到比尔·盖茨。虽然他以缺乏社交技巧而闻名，但他得到了正确的答案，至少从收入来看是这样。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "8983c5c6f1a83ecfd567e17b18db56940d739db214184e136a32f0913e28408a",
+      "enMarkdown": "The other thing that's different about the real world is that it's much larger. In a large enough pool, even the smallest minorities can achieve a critical mass if they clump together. Out in the real world, nerds collect in certain places and form their own societies where intelligence is the most important thing. Sometimes the current even starts to flow in the other direction: sometimes, particularly in university math and science departments, nerds deliberately exaggerate their awkwardness in order to seem smarter. John Nash so admired Norbert Wiener that he adopted his habit of touching the wall as he walked down a corridor.",
+      "zhMarkdown": "真实世界的另一个不同之处在于它要大得多。在足够大的池子中，即使是极少数群体，如果聚集在一起也能达到临界质量。在现实世界中，书呆子聚集在某些地方，形成他们自己的社会，在那里智力是最重要的东西。有时潮流甚至开始向相反的方向流动：有时，特别是在大学的数学和科学系，书呆子会故意夸大自己的笨拙，以显得更聪明。约翰·纳什非常崇拜诺伯特·维纳，以至于他模仿了维纳在走廊里走路时摸墙的习惯。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "b14f00b1dd39f8d833b144903d4c28ac032c633529c04a42b2e38351d64549b4",
+      "enMarkdown": "As a thirteen-year-old kid, I didn't have much more experience of the world than what I saw immediately around me. The warped little world we lived in was, I thought, *the world.* The world seemed cruel and boring, and I'm not sure which was worse.",
+      "zhMarkdown": "作为一个十三岁的孩子，我对世界的体验并不比我眼前所见的多多少。我想，我们生活的那个扭曲的小世界就是*整个世界*。这个世界显得残酷而无趣，我不知道哪一个更糟。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "7f25d7cff569ca142e1deb19e0225505bf7790d9ed3bf8eb84cf935e069e063d",
+      "enMarkdown": "Because I didn't fit into this world, I thought that something must be wrong with me. I didn't realize that the reason we nerds didn't fit in was that in some ways we were a step ahead. We were already thinking about the kind of things that matter in the real world, instead of spending all our time playing an exacting but mostly pointless game like the others.",
+      "zhMarkdown": "因为我无法融入这个世界，我以为自己一定有什么问题。我没有意识到，我们这些书呆子无法融入的原因是，在某些方面我们领先了一步。我们已经在思考现实世界中重要的事情，而不是像其他人那样，把所有时间都花在玩一个要求苛刻但大多毫无意义的游戏上。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "635931387000494ae1de1d00361f808c65197864d5e5592eadf2f65eedd943e0",
+      "enMarkdown": "We were a bit like an adult would be if he were thrust back into middle school. He wouldn't know the right clothes to wear, the right music to like, the right slang to use. He'd seem to the kids a complete alien. The thing is, he'd know enough not to care what they thought. We had no such confidence.",
+      "zhMarkdown": "我们有点像一个被扔回初中的成年人。他不知道该穿什么衣服，该喜欢什么音乐，该用什么俚语。在孩子们眼里，他就像个彻头彻尾的外星人。问题是，他足够成熟，根本不在乎他们怎么想。而我们却没有那样的自信。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "d850ab9bec088d4fccf3141dc7055607f6a25c8390dbc634c1c87f954c5cfdee",
+      "enMarkdown": "A lot of people seem to think it's good for smart kids to be thrown together with \"normal\" kids at this stage of their lives. Perhaps. But in at least some cases the reason the nerds don't fit in really is that everyone else is crazy. I remember sitting in the audience at a \"pep rally\" at my high school, watching as the cheerleaders threw an effigy of an opposing player into the audience to be torn to pieces. I felt like an explorer witnessing some bizarre tribal ritual.",
+      "zhMarkdown": "许多人似乎认为，在生命的这个阶段，聪明的孩子和“正常”的孩子混在一起是有好处的。也许吧。但至少在某些情况下，书呆子无法融入的原因，真的是因为其他人疯了。我记得坐在我们高中的“誓师大会”观众席上，看着啦啦队员把一个对手球员的模拟画像扔进观众席撕成碎片。我觉得自己就像一个目睹某种诡异部落仪式的探险家。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "9f2f7e1d14d73285a3d6f37bddbba300b78085a2533d064face6c9aa54753541",
+      "enMarkdown": "If I could go back and give my thirteen year old self some advice, the main thing I'd tell him would be to stick his head up and look around. I didn't really grasp it at the time, but the whole world we lived in was as fake as a Twinkie. Not just school, but the entire town. Why do people move to suburbia? To have kids! So no wonder it seemed boring and sterile. The whole place was a giant nursery, an artificial town created explicitly for the purpose of breeding children.",
+      "zhMarkdown": "如果我能回到过去，给十三岁的自己一些建议，我最想告诉他的就是抬起头来看看周围。我当时并没有真正理解，我们生活的整个世界就像 Twinkie 蛋糕一样虚假。不仅是学校，还有整个小镇。人们为什么搬到郊区？为了生孩子！难怪那里显得无聊和贫瘠。整个地方就是一个巨大的育儿室，一个明确为了繁衍后代而创建的人造城镇。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "79ff063ef586fee63322675d1cb42fcd2b7f914bb0c3adaa8d57a85b8d2ed084",
+      "enMarkdown": "Where I grew up, it felt as if there was nowhere to go, and nothing to do. This was no accident. Suburbs are deliberately designed to exclude the outside world, because it contains things that could endanger children.",
+      "zhMarkdown": "在我成长的地方，感觉无处可去，无事可做。这并非偶然。郊区的设计故意排除了外部世界，因为外部世界包含可能危害儿童的事物。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "034a5914429a78b477090e27e56762f3d10aae228e03b853debc8fc5a285e9d5",
+      "enMarkdown": "And as for the schools, they were just holding pens within this fake world. Officially the purpose of schools is to teach kids. In fact their primary purpose is to keep kids locked up in one place for a big chunk of the day so adults can get things done. And I have no problem with this: in a specialized industrial society, it would be a disaster to have kids running around loose.",
+      "zhMarkdown": "至于学校，它们只是这个虚假世界里的看守所。学校的官方目的是教育孩子。事实上，它们的主要目的是把孩子们一天中的大部分时间锁在一个地方，以便成年人能去办事。我对这一点没有意见：在专业化的工业社会中，让孩子们到处乱跑将是一场灾难。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "6975975b63afded15d9c7693fdf018ab829dc9117c7ab911a83a8cafda5476e8",
+      "enMarkdown": "What bothers me is not that the kids are kept in prisons, but that (a) they aren't told about it, and (b) the prisons are run mostly by the inmates. Kids are sent off to spend six years memorizing meaningless facts in a world ruled by a caste of giants who run after an oblong brown ball, as if this were the most natural thing in the world. And if they balk at this surreal cocktail, they're called misfits.",
+      "zhMarkdown": "让我困扰的不是孩子们被关在监狱里，而是（a）他们没有被告知这一点，以及（b）监狱大多由囚犯管理。孩子们被送去花六年时间，在一个由追逐长圆形棕色皮球的巨人阶层统治的世界里记忆毫无意义的事实，仿佛这是世界上最自然的事情。如果他们对这种超现实的混合物感到抗拒，他们就会被称为不合群的人。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "96700064b68e31959c02577e3d1efacbd9ccd1cc09a64233ea42d27d03550cbc",
+      "enMarkdown": "Life in this twisted world is stressful for the kids. And not just for the nerds. Like any war, it's damaging even to the winners.",
+      "zhMarkdown": "在这个扭曲的世界里生活对孩子们来说是充满压力的。不仅对书呆子是这样。就像任何战争一样，它甚至对获胜者也有伤害。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "137cc0d869469e25b22e1752d92bff6a28a8313b9f9300b8d28641e2b0143f5f",
+      "enMarkdown": "Adults can't avoid seeing that teenage kids are tormented. So why don't they do something about it? Because they blame it on puberty. The reason kids are so unhappy, adults tell themselves, is that monstrous new chemicals, *hormones*, are now coursing through their bloodstream and messing up everything. There's nothing wrong with the system; it's just inevitable that kids will be miserable at that age.",
+      "zhMarkdown": "成年人不可能看不到青少年正在受折磨。那他们为什么不采取行动呢？因为他们把这归咎于青春期。成年人安慰自己说，孩子们之所以这么不快乐，是因为可怕的新化学物质——*荷尔蒙*——正在他们的血液中奔流，把一切都搞得一团糟。系统没有问题；孩子们在那个年龄段痛苦是不可避免的。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "26201a537e57d97f162099feeb3dfd700da4b7900ce35b943581ee8263547b8e",
+      "enMarkdown": "This idea is so pervasive that even the kids believe it, which probably doesn't help. Someone who thinks his feet naturally hurt is not going to stop to consider the possibility that he is wearing the wrong size shoes.",
+      "zhMarkdown": "这种想法是如此根深蒂固，以至于连孩子们自己都信了，这大概也无济于事。一个认为自己脚天生就会痛的人，是不会停下来考虑自己可能穿错了鞋码的。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "ecc0b42418b6e7c46824cd3596c2e1679ef43f6fedaff0be0788e2b9e3611e14",
+      "enMarkdown": "I'm suspicious of this theory that thirteen-year-old kids are intrinsically messed up. If it's physiological, it should be universal. Are Mongol nomads all nihilists at thirteen? I've read a lot of history, and I have not seen a single reference to this supposedly universal fact before the twentieth century. Teenage apprentices in the Renaissance seem to have been cheerful and eager. They got in fights and played tricks on one another of course (Michelangelo had his nose broken by a bully), but they weren't crazy.",
+      "zhMarkdown": "我对这种“十三岁孩子本质上就是一团糟”的理论深表怀疑。如果是生理性的，它应该是普遍存在的。蒙古游牧民在十三岁时都是虚无主义者吗？我读过很多历史书，在二十世纪之前，我没有看到过一次提到这个所谓普遍事实的记录。文艺复兴时期的年轻学徒似乎开朗而热切。当然，他们也会打架，互相恶作剧（米开朗基罗就被一个恶霸打断过鼻子），但他们并没有发疯。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "d0b13e4563465606f617fb295ed292421205a8156168646ff53cf42da32970cd",
+      "enMarkdown": "As far as I can tell, the concept of the hormone-crazed teenager is coeval with suburbia. I don't think this is a coincidence. I think teenagers are driven crazy by the life they're made to lead. Teenage apprentices in the Renaissance were working dogs. Teenagers now are neurotic lapdogs. Their craziness is the craziness of the idle everywhere.",
+      "zhMarkdown": "据我所知，被荷尔蒙搞疯的青少年的概念是与郊区化同时出现的。我不认为这是巧合。我认为青少年是被强加给他们的生活方式逼疯的。文艺复兴时期的年轻学徒是工作犬。现在的青少年是神经质的哈巴狗。他们的疯狂是所有闲散人员特有的疯狂。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "f9c1b3470fc2f68b402789b00f56405f37fa6c72f0183f087ac630b6da4cb3ba",
+      "enMarkdown": "When I was in school, suicide was a constant topic among the smarter kids. No one I knew did it, but several planned to, and some may have tried. Mostly this was just a pose. Like other teenagers, we loved the dramatic, and suicide seemed very dramatic. But partly it was because our lives were at times genuinely miserable.",
+      "zhMarkdown": "当我上学时，自杀是聪明孩子之间经常讨论的话题。我认识的人中没有人自杀，但有几个人计划过，有些人可能尝试过。这大多只是一种姿态。和其他青少年一样，我们热爱戏剧性，自杀看起来非常具有戏剧性。但部分原因也是因为我们的生活有时确实惨不忍睹。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "681e4611fb62bd1fcbbab1177a6fc0dd204f2f91b6fa5b9ac6c7bf3a966d2808",
+      "enMarkdown": "Bullying was only part of the problem. Another problem, and possibly an even worse one, was that we never had anything real to work on. Humans like to work; in most of the world, your work is your identity. And all the work we did was [pointless](https://paulgraham.com/essay.html), or seemed so at the time.",
+      "zhMarkdown": "霸凌只是问题的一部分。另一个问题，可能是一个更糟糕的问题，是我们从来没有任何真正的工作可以做。人类喜欢工作；在世界上大部分地方，你的工作就是你的身份。而我们所做的所有工作都是[毫无意义的](https://paulgraham.com/essay.html)，或者在当时看来是这样。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "d93d038e9578439d014133726e06c49c672050f2187cee6c58e3bfaeffd2e2ab",
+      "enMarkdown": "At best it was practice for real work we might do far in the future, so far that we didn't even know at the time what we were practicing for. More often it was just an arbitrary series of hoops to jump through, words without content designed mainly for testability. (The three main causes of the Civil War were.... Test: List the three main causes of the Civil War.)",
+      "zhMarkdown": "在最好的情况下，它只是为了我们在遥远的未来可能做的实际工作而进行的练习，远到我们当时甚至不知道自己在为什么而练习。更多时候，它只是一系列任意让人跳的圈套，为了便于测试而设计的没有内容的词汇。（南北战争的三个主要原因是…… 考试：列出南北战争的三个主要原因。）"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "9a8ca2387ed46a2aaffedb9985a6c8728ea38655325bf50b31c508acf96dc0a6",
+      "enMarkdown": "And there was no way to opt out. The adults had agreed among themselves that this was to be the route to college. The only way to escape this empty life was to submit to it.",
+      "zhMarkdown": "而且没有办法选择退出。成年人之间达成了一致，认为这是通往大学的必经之路。摆脱这种空虚生活的唯一方法就是屈服于它。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "92aed1c0b55af9924a9d1b35f2436c1de5ce70a4e6f555e0138f9c73b4e18c0e",
+      "enMarkdown": "Teenage kids used to have a more active role in society. In pre-industrial times, they were all apprentices of one sort or another, whether in shops or on farms or even on warships. They weren't left to create their own societies. They were junior members of adult societies.",
+      "zhMarkdown": "青少年过去在社会中扮演着更活跃的角色。在工业化前时代，他们都是这样或那样的学徒，无论是在商店、农场还是在战舰上。他们没有被留下来创造自己的社会。他们是成年人社会的初级成员。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "cced6fb393b1708ae258031d5a6014700ca15f346c5d816bd79c474ed4753484",
+      "enMarkdown": "Teenagers seem to have respected adults more then, because the adults were the visible experts in the skills they were trying to learn. Now most kids have little idea what their parents do in their distant offices, and see no connection (indeed, there is precious little) between schoolwork and the work they'll do as adults.",
+      "zhMarkdown": "那时青少年似乎更尊重成年人，因为成年人是他们试图学习的技能的显性专家。现在，大多数孩子几乎不知道父母在遥远的办公室里做什么，也看不到学校功课与他们成年后将要从事的工作之间有什么联系（事实上，联系确实微乎其微）。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "0c1196fa86d20d72c422431f6d75613ba8861a494bbcac76d28845fcd5755234",
+      "enMarkdown": "And if teenagers respected adults more, adults also had more use for teenagers. After a couple years' training, an apprentice could be a real help. Even the newest apprentice could be made to carry messages or sweep the workshop.",
+      "zhMarkdown": "如果青少年更尊重成年人，成年人也同样对青少年有更多的用途。经过两年的培训，学徒就可以提供真正的帮助。即使是最新来的学徒，也可以派去送信或清扫车间。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "13eb304fc7b2c27130d3c35ba5bfa788fea825abc9b94377d7347c51db1cd3cc",
+      "enMarkdown": "Now adults have no immediate use for teenagers. They would be in the way in an office. So they drop them off at school on their way to work, much as they might drop the dog off at a kennel if they were going away for the weekend.",
+      "zhMarkdown": "现在，成年人对青少年没有直接的用途。他们在办公室里会碍手碍脚。所以，成年人在上班路上顺便把他们送到学校，就像他们周末外出时把狗送到寄养所一样。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "73d974f2562f5860f1c427f2f01918794df1357499cecc2ecb2cd871af966e98",
+      "enMarkdown": "What happened? We're up against a hard one here. The cause of this problem is the same as the cause of so many present ills: specialization. As jobs become more specialized, we have to train longer for them. Kids in pre-industrial times started working at about 14 at the latest; kids on farms, where most people lived, began far earlier. Now kids who go to college don't start working full-time till 21 or 22. With some degrees, like MDs and PhDs, you may not finish your training till 30.",
+      "zhMarkdown": "发生了什么？我们在这里遇到了一个难题。这个问题的原因与当今许多弊病的原因相同：专业化。随着工作变得越来越专业化，我们必须接受更长时间的培训。工业化前时代的孩子最迟在 14 岁左右开始工作；在大多数人居住的农场里，孩子们开始得要早得多。现在，上大学的孩子要到 21 或 22 岁才开始全职工作。对于某些学位，如医学博士和哲学博士，你可能要到 30 岁才能完成培训。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "a9a28118964f9a3769c2ef002eb492d7cf0ff3259e3df3b58232663a217650be",
+      "enMarkdown": "Teenagers now are useless, except as cheap labor in industries like fast food, which evolved to exploit precisely this fact. In almost any other kind of work, they'd be a net loss. But they're also too young to be left unsupervised. Someone has to watch over them, and the most efficient way to do this is to collect them together in one place. Then a few adults can watch all of them.",
+      "zhMarkdown": "现在的青少年毫无用处，除了在快餐等行业充当廉价劳动力，这些行业的发展正是为了剥削这一事实。在几乎任何其他类型的工作中，他们都会带来净损失。但他们也太年轻，不能在无人监管的情况下活动。必须有人看管他们，而最有效的方法就是把他们集中在一个地方。这样，少数成年人就可以看管他们所有人。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "433d42ceb55b3cf64e07965ded1dff7c3e16a12257224efb23725c04d28dfc66",
+      "enMarkdown": "If you stop there, what you're describing is literally a prison, albeit a part-time one. The problem is, many schools practically do stop there. The stated purpose of schools is to educate the kids. But there is no external pressure to do this well. And so most schools do such a bad job of teaching that the kids don't really take it seriously-- not even the smart kids. Much of the time we were all, students and teachers both, just going through the motions.",
+      "zhMarkdown": "如果你到此为止，你所描述的字面上就是一所监狱，尽管是兼职的。问题是，许多学校实际上也就到此为止了。学校宣称的目的是教育孩子。但并没有外部压力要求把这件事做好。因此，大多数学校的教学工作做得如此之差，以至于孩子们根本不把这当回事——甚至聪明的孩子也是如此。大部分时间里，我们所有人，无论是学生还是老师，都只是在敷衍了事。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "e5a93b4fe58d437849d1afed2956d19398ae4c03d1d32388b705526c1b42e9f3",
+      "enMarkdown": "In my high school French class we were supposed to read Hugo's *Les\nMiserables.* I don't think any of us knew French well enough to make our way through this enormous book. Like the rest of the class, I just skimmed the Cliff's Notes. When we were given a test on the book, I noticed that the questions sounded odd. They were full of long words that our teacher wouldn't have used. Where had these questions come from? From the Cliff's Notes, it turned out. The teacher was using them too. We were all just pretending.",
+      "zhMarkdown": "在我高中的法语课上，我们应该阅读雨果的《悲惨世界》。我认为我们中没有人法语足够好，能读完这本巨著。和班里其他人一样，我只是浏览了 Cliff's Notes（备考简报）。当我们对这本书进行考试时，我注意到问题听起来很奇怪。里面充满了我们的老师不会使用的长词。这些问题是从哪里来的？结果发现，是从 Cliff's Notes 里来的。老师也在用它。我们都只是在假装。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "3682db5f8003c3458c7840da125ddb26a6a40a0da91769aaa0d95e53942c7a82",
+      "enMarkdown": "There are certainly great public school teachers. The energy and imagination of my fourth grade teacher, Mr. Mihalko, made that year something his students still talk about, thirty years later. But teachers like him were individuals swimming upstream. They couldn't fix the system.",
+      "zhMarkdown": "当然也有伟大的公立学校老师。我的四年级老师米哈尔科先生（Mr. Mihalko）的精力和想象力，让那一年成为他的学生们在三十年后依然津津乐道的话题。但像他这样的老师只是在逆流而上。他们无法修复这个系统。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "a6789bf4891962e77f050d33cf23b53ece52f7fe6691fa52b75fd9fe50785381",
+      "enMarkdown": "In almost any group of people you'll find hierarchy. When groups of adults form in the real world, it's generally for some common purpose, and the leaders end up being those who are best at it. The problem with most schools is, they have no purpose. But hierarchy there must be. And so the kids make one out of nothing.",
+      "zhMarkdown": "在几乎任何人群中，你都会发现等级制度。当成年人群体在现实世界中形成时，通常是为了某种共同的目的，而领导者最终是那些最擅长此事的人。大多数学校的问题在于，它们没有目的。但等级制度必须存在。于是，孩子们凭空制造了一个。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "e03e18d7e446c2a057c43691da5d99c2a014f1e378e74e545493f4cfe106751c",
+      "enMarkdown": "We have a phrase to describe what happens when rankings have to be created without any meaningful criteria. We say that the situation *degenerates into a popularity contest.* And that's exactly what happens in most American schools. Instead of depending on some real test, one's rank depends mostly on one's ability to increase one's rank. It's like the court of Louis XIV. There is no external opponent, so the kids become one another's opponents.",
+      "zhMarkdown": "我们有一个词来形容在没有任何有意义标准的情况下，必须创造出排名时发生的情况。我们说这种情况*退化为一场人气竞赛*。这正是大多数美国学校发生的情况。一个人的排名不取决于某种真正的测试，而是主要取决于提高自己排名的能力。这就像路易十四的宫廷。没有外部对手，所以孩子们成了彼此的对手。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "94925bd3994c65fa6d704eaa32fffb6f8ade37b902b27f401f0ce78c90ea6eeb",
+      "enMarkdown": "When there is some real external test of skill, it isn't painful to be at the bottom of the hierarchy. A rookie on a football team doesn't resent the skill of the veteran; he hopes to be like him one day and is happy to have the chance to learn from him. The veteran may in turn feel a sense of *noblesse oblige*. And most importantly, their status depends on how well they do against opponents, not on whether they can push the other down.",
+      "zhMarkdown": "当存在某种真正的外部技能测试时，处于等级制度的底部并不会令人痛苦。橄榄球队的新人不会怨恨老队员的技能；他希望有一天能像他一样，并为有机会向他学习而感到高兴。老队员反过来可能会有一种“贵族义务”（noblesse oblige）。最重要的是，他们的地位取决于他们对对手的表现，而不是他们能否把别人踩下去。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "f97bb2357ea83b9a1898efb1ea6c9226cf8d413668c32f827139a7f4ef985bf8",
+      "enMarkdown": "Court hierarchies are another thing entirely. This type of society debases anyone who enters it. There is neither admiration at the bottom, nor *noblesse oblige* at the top. It's kill or be killed.",
+      "zhMarkdown": "宫廷等级制度则完全是另一回事。这种社会败坏了任何进入它的人。底层既没有崇拜，顶层也没有“贵族义务”。这是要么杀人，要么被杀的游戏。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "12058f9e4594ebc8ce63e90985e3292d521183c4640ac942551723bbe4e46380",
+      "enMarkdown": "This is the sort of society that gets created in American secondary schools. And it happens because these schools have no real purpose beyond keeping the kids all in one place for a certain number of hours each day. What I didn't realize at the time, and in fact didn't realize till very recently, is that the twin horrors of school life, the cruelty and the boredom, both have the same cause.",
+      "zhMarkdown": "这就是美国中学里创造出来的那种社会。而这之所以发生，是因为这些学校除了每天把孩子们关在一个地方一定的小时数之外，没有真正的目的。我当时没有意识到，事实上直到最近才意识到，学校生活的双重恐怖——残酷和无聊——都有着相同的原因。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "0c0cc2d0388b354faf27c170579c128ab90a145c4178ff2785569abdf62878fc",
+      "enMarkdown": "The mediocrity of American public schools has worse consequences than just making kids unhappy for six years. It breeds a rebelliousness that actively drives kids away from the things they're supposed to be learning.",
+      "zhMarkdown": "美国公立学校的平庸带来的后果，不仅仅是让孩子们不快乐六年。它孕育了一种叛逆性，主动把孩子们从他们本该学习的东西身边推开。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "fac0caeeb5fc181edc2934da0a83c90b98ee290cb060180ace0435dd9443af3a",
+      "enMarkdown": "Like many nerds, probably, it was years after high school before I could bring myself to read anything we'd been assigned then. And I lost more than books. I mistrusted words like \"character\" and \"integrity\" because they had been so debased by adults. As they were used then, these words all seemed to mean the same thing: obedience. The kids who got praised for these qualities tended to be at best dull-witted prize bulls, and at worst facile schmoozers. If that was what character and integrity were, I wanted no part of them.",
+      "zhMarkdown": "可能和许多书呆子一样，直到高中毕业多年后，我才说服自己去读那些当时被指派阅读的任何东西。我失去的不仅仅是书籍。我怀疑“品格”和“正直”这样的词，因为它们已经被成年人贬低了。在当时的使用中，这些词似乎都意味着同一个意思：服从。因这些品质而受到表扬的孩子，在最好的情况下往往是愚钝的获奖公牛，在最坏的情况下则是圆滑的社交骗子。如果这就是品格和正直，我一点也不想沾边。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "d3b604b3584202333c5dc5a1d4a407d3fae1b59084046255fa90df1f82bdc3fa",
+      "enMarkdown": "The word I most misunderstood was \"tact.\" As used by adults, it seemed to mean keeping your mouth shut. I assumed it was derived from the same root as \"tacit\" and \"taciturn,\" and that it literally meant being quiet. I vowed that I would never be tactful; they were never going to shut me up. In fact, it's derived from the same root as \"tactile,\" and what it means is to have a deft touch. Tactful is the opposite of clumsy. I don't think I learned this until college.",
+      "zhMarkdown": "我误解最深的词是“机智”（tact）。在成年人看来，这似乎意味着闭嘴。我以为它与“心照不宣”（tacit）和“沉默寡言”（taciturn）同源，字面意思是保持安静。我发誓我永远不会变得圆滑；他们永远别想让我闭嘴。事实上，它与“触觉”（tactile）同源，意思是手法娴熟。机智是笨拙的反义词。我想我直到大学才明白这一点。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "7f7fbd094cb569e0a775daf19ed1058c1d07f3c3412c78aa9b5e51bf00b5fbb3",
+      "enMarkdown": "Nerds aren't the only losers in the popularity rat race. Nerds are unpopular because they're distracted. There are other kids who deliberately opt out because they're so disgusted with the whole process.",
+      "zhMarkdown": "在受欢迎程度的恶性竞争中，书呆子并不是唯一的输家。书呆子不受欢迎是因为他们分心了。还有一些孩子是故意选择退出的，因为他们对这整个过程感到极其恶心。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "9e737cae9e5f4b83ca9f8dc83fece53b2a772e646c74f9c6cc881f29436806c2",
+      "enMarkdown": "Teenage kids, even rebels, don't like to be alone, so when kids opt out of the system, they tend to do it as a group. At the schools I went to, the focus of rebellion was drug use, specifically marijuana. The kids in this tribe wore black concert t-shirts and were called \"freaks.\"",
+      "zhMarkdown": "青少年，即使是叛逆者，也不喜欢孤单，所以当孩子们选择退出这个系统时，他们往往会结伴而行。在我上过的学校里，叛逆的焦点是吸毒，特别是大麻。这个部落里的孩子穿着黑色的演唱会 T 恤，被称为“怪人”（freaks）。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "e5a3477ff2b554522cf82eed9d0e2cefb89911e8f0905d1d9ab70eb93ac4b535",
+      "enMarkdown": "Freaks and nerds were allies, and there was a good deal of overlap between them. Freaks were on the whole smarter than other kids, though never studying (or at least never appearing to) was an important tribal value. I was more in the nerd camp, but I was friends with a lot of freaks.",
+      "zhMarkdown": "怪人和书呆子是盟友，他们之间有很多重叠。怪人总体上比其他孩子聪明，尽管从不学习（或至少看起来不学习）是该部落的重要价值观。我更属于书呆子阵营，但我和很多怪人都是朋友。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "b29af1fb686f3fdc23bf53168660e8aa51d69587e6ea6f7affd79bcb213c80dc",
+      "enMarkdown": "They used drugs, at least at first, for the social bonds they created. It was something to do together, and because the drugs were illegal, it was a shared badge of rebellion.",
+      "zhMarkdown": "他们吸毒，至少起初是为了建立社交纽带。这是大家一起做的事，而且因为毒品是违法的，所以它是叛逆的共同徽章。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "3118f38924cd9a20e081625342132d2ae650eccb6e0e2cac297d3d08b6f4acee",
+      "enMarkdown": "I'm not claiming that bad schools are the whole reason kids get into trouble with drugs. After a while, drugs have their own momentum. No doubt some of the freaks ultimately used drugs to escape from other problems-- trouble at home, for example. But, in my school at least, the reason most kids *started* using drugs was rebellion. Fourteen-year-olds didn't start smoking pot because they'd heard it would help them forget their problems. They started because they wanted to join a different tribe.",
+      "zhMarkdown": "我并不是说糟糕的学校是孩子们陷入毒品问题的全部原因。过了一段时间，毒品有了自己的惯性。毫无疑问，一些怪人最终利用毒品来逃避其他问题——例如家庭问题。但是，至少在我的学校里，大多数孩子*开始*吸毒的原因是叛逆。十四岁的孩子开始吸大麻，并不是因为他们听说这能帮他们忘记烦恼。他们开始吸大麻是因为他们想加入一个不同的部落。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "07686e266743174d3f5104d039747d35a568c0090e5c3e9f84b6e0cff951b096",
+      "enMarkdown": "Misrule breeds rebellion; this is not a new idea. And yet the authorities still for the most part act as if drugs were themselves the cause of the problem.",
+      "zhMarkdown": "无道统治孕育叛逆，这并非新观点。然而，管理方在很大程度上仍然把毒品本身当作问题的原因。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "2fbe875b165d718a37619aca26ee3fb38c4ae90b0755d2072af94ac632dc546a",
+      "enMarkdown": "The real problem is the emptiness of school life. We won't see solutions till adults realize that. The adults who may realize it first are the ones who were themselves nerds in school. Do you want your kids to be as unhappy in eighth grade as you were? I wouldn't. Well, then, is there anything we can do to fix things? Almost certainly. There is nothing inevitable about the current system. It has come about mostly by default.",
+      "zhMarkdown": "真正的问题是学校生活的空虚。在成年人意识到这一点之前，我们是看不到解决方案的。最先意识到这一点的成年人，可能是那些在学校里本身就是书呆子的人。你希望你的孩子在八年级时像你当年一样不快乐吗？我不想。那么，有什么我们可以做来修复这一切的吗？几乎可以肯定有。现行的体制并非不可避免。它主要是默认形成的。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "22b947ac0d16359e24ce6f0671fecee72ac901452e51e74450e64492c6ed9c93",
+      "enMarkdown": "Adults, though, are busy. Showing up for school plays is one thing. Taking on the educational bureaucracy is another. Perhaps a few will have the energy to try to change things. I suspect the hardest part is realizing that you can.",
+      "zhMarkdown": "然而，成年人很忙。出席学校戏剧是一回事，挑战教育官僚机构则是另一回事。也许少数人会有精力去尝试改变现状。我怀疑最难的部分是意识到你可以做到。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "3fea4018f8013c53880b5581d8395cc375814b51082a9a2ee2e9b32aad026915",
+      "enMarkdown": "Nerds still in school should not hold their breath. Maybe one day a heavily armed force of adults will show up in helicopters to rescue you, but they probably won't be coming this month. Any immediate improvement in nerds' lives is probably going to have to come from the nerds themselves.",
+      "zhMarkdown": "还在上学的书呆子们不要屏息以待。也许有一天，一支装备精良的成年人部队会乘坐直升机来营救你，但他们可能这个月不会来。书呆子生活的任何眼前改善，可能都必须来自书呆子自己。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "1317e465e96f786ab9f84598bfcbe2d2e153f650630986837c09db770b33e76b",
+      "enMarkdown": "Merely understanding the situation they're in should make it less painful. Nerds aren't losers. They're just playing a different game, and a game much closer to the one played in the real world. Adults know this. It's hard to find successful adults now who don't claim to have been nerds in high school.",
+      "zhMarkdown": "仅仅理解他们所处的境地，就应该能减轻一些痛苦。书呆子不是失败者。他们只是在玩一个不同的游戏，一个更接近现实世界游戏的游戏。成年人知道这一点。现在很难找到不声称自己在高中时是书呆子的成功人士。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "85d3b0f8202f5718b10c5348a35a33d3fda29367d52d0633272f00820a0f73bb",
+      "enMarkdown": "It's important for nerds to realize, too, that school is not life. School is a strange, artificial thing, half sterile and half feral. It's all-encompassing, like life, but it isn't the real thing. It's only temporary, and if you look, you can see beyond it even while you're still in it.",
+      "zhMarkdown": "对于书呆子来说，同样重要的是要意识到，学校不是生活。学校是一个奇怪的人造产物，半是贫瘠，半是野蛮。它像生活一样包罗万象，但它不是真实的东西。它只是暂时的，如果你寻找，即使你身处其中，你也能看到它之外的世界。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "f40fe863c1ad094d8e310e60cd08fbfc964d5ccd6afcd2904760e1442aee0025",
+      "enMarkdown": "If life seems awful to kids, it's neither because hormones are turning you all into monsters (as your parents believe), nor because life actually is awful (as you believe). It's because the adults, who no longer have any economic use for you, have abandoned you to spend years cooped up together with nothing real to do. *Any* society of that type is awful to live in. You don't have to look any further to explain why teenage kids are unhappy.",
+      "zhMarkdown": "如果生活在孩子们看来很可怕，既不是因为荷尔蒙把你们都变成了怪物（正如你们的父母所相信的那样），也不是因为生活本身就很可怕（正如你们所相信的那样）。这是因为成年人对你们已经没有经济上的用途，把你们遗弃在原地，让你们多年关在一起，无所事事。*任何*那种类型的社会，生活在其中都是可怕的。你不需要寻找更远的原因来解释为什么青少年不快乐。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "d57ad1c691b715e0d04c5361d0272f2aa52aa0c748666290ad624c451bf6e3d7",
+      "enMarkdown": "I've said some harsh things in this essay, but really the thesis is an optimistic one-- that several problems we take for granted are in fact not insoluble after all. Teenage kids are not inherently unhappy monsters. That should be encouraging news to kids and adults both.",
+      "zhMarkdown": "我在这篇文章中说了一些严厉的话，但实际上这个论点是乐观的——即我们理所当然认为的几个问题，事实上并非无法解决。青少年并不是天生不快乐的怪物。这对孩子和成年人来说都应该是令人鼓舞的消息。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "9ea295093e7ac1afc7c77eb9c4ef2c1794ca19da071575f7581dba8f5e972757",
+      "enMarkdown": "**Thanks** to Sarah Harlin, Trevor Blackwell, Robert Morris, Eric Raymond, and Jackie Weicker for reading drafts of this essay, and Maria Daniels for scanning photos.",
+      "zhMarkdown": "**感谢** Sarah Harlin、Trevor Blackwell、Robert Morris、Eric Raymond 和 Jackie Weicker 阅读本文草稿，以及 Maria Daniels 扫描照片。"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "slug": "bronze",
+  "titleEn": "Why Smart People Have Bad Ideas",
+  "titleZh": "为什么聪明人也会有糟糕的创意",
+  "dateText": "April 2005",
+  "publishedAt": "2005-04-01",
+  "sourceOrder": 185,
+  "sourceUrl": "https://paulgraham.com/bronze.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "89909611be9620cd34a6cb4a93f16af6f078dd6b869b434247c229f0901da2ea",
+      "enMarkdown": "This summer, as an experiment, some friends and I are giving [seed\nfunding](http://ycombinator.com) to a bunch of new startups. It's an experiment because we're prepared to fund younger founders than most investors would. That's why we're doing it during the summer—so even college students can participate.",
+      "zhMarkdown": "今年夏天，作为一次尝试，我和几个朋友正在给一批新的创业公司提供[种子资金](http://ycombinator.com)。说这是一次尝试，是因为我们准备资助比大多数投资人所愿意资助的更年轻的创始人。这就是为什么我们选择在夏天进行——这样连大学生也能参与进来。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "60033db79a43c9de05cda4f83d12a285805a9dd1497b9c0f7b54822ee9bf4ad2",
+      "enMarkdown": "We know from Google and Yahoo that grad students can start successful startups. And we know from experience that some undergrads are as capable as most grad students. The accepted age for startup founders has been creeping downward. We're trying to find the lower bound.",
+      "zhMarkdown": "从 Google 和 Yahoo 的例子中，我们知道研究生可以成功创办创业公司。我们也从经验中得知，有些本科生的能力不亚于大多数研究生。创业公司创始人的公认年龄一直在往下探。我们正试图找出这个下限在哪里。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "30b0a73a20bec59de5bf17a62c047df92101a0c80d79b1bdda5b3aa51bf1c0df",
+      "enMarkdown": "The deadline has now passed, and we're sifting through 227 applications.  We expected to divide them into two categories, promising and unpromising. But we soon saw we needed a third: promising people with unpromising ideas. [[1](#f1n)]",
+      "zhMarkdown": "申请截止日期已经过了，我们正在筛选 227 份申请。我们原本预计会将它们分为两类：有前景的和没前景的。但很快我们发现需要第三类：有前景的人带着没前景的创意。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "5ee41b51689245134c9892c4bcdb3087840a824d9e6e90473469e96d48d92016",
+      "enMarkdown": "**The Artix Phase**",
+      "zhMarkdown": "**Artix 阶段**"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1e866659b4a1b31d35fafc1bed41b0005f6fc1bb691bf8a24c9281c83f12e194",
+      "enMarkdown": "We should have expected this. It's very common for a group of founders to go through one lame idea before realizing that a startup has to make something people will pay for. In fact, we ourselves did.",
+      "zhMarkdown": "我们本该料到这一点的。创始人团队在意识到创业公司必须做出人们愿意付钱的东西之前，先经历一个烂创意，这是非常普遍的。事实上，我们自己就经历过。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "c4a4149f9d3d77ff18af0185d392cb756a11be0cfcb59472cf3aaed1a5c4c8e2",
+      "enMarkdown": "Viaweb wasn't the first startup Robert Morris and I started. In January 1995, we and a couple friends started a company called Artix. The plan was to put art galleries on the Web. In retrospect, I wonder how we could have wasted our time on anything so stupid. Galleries are not especially [excited](http://www.knoedlergallery.com/) about being on the Web even now, ten years later. They don't want to have their stock visible to any random visitor, like an antique store. [[2](#f2n)]",
+      "zhMarkdown": "Viaweb 并不是我和罗伯特·莫里斯（Robert Morris）创办的第一家创业公司。1995 年 1 月，我们和几个朋友创办了一家名为 Artix 的公司。当时的计划是将艺术画廊搬上互联网。现在回想起来，我纳闷我们怎么会把时间浪费在这么愚蠢的事情上。即使在十年后的今天，画廊对上网也并没有特别[兴奋](http://www.knoedlergallery.com/)。他们不想像古玩店那样，让任何随机的访客都能看清自己的库存。[[2](#f2n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "b5f150005ca3f8aeaa3467eb9ac5db607415e8413dddf3763d4b20086cc6d5aa",
+      "enMarkdown": "Besides which, art dealers are the most technophobic people on earth. They didn't become art dealers after a difficult choice between that and a career in the hard sciences. Most of them had never seen the Web before we came to tell them why they should be on it. Some didn't even have computers. It doesn't do justice to the situation to describe it as a hard *sell*; we soon sank to building sites for free, and it was hard to convince galleries even to do that.",
+      "zhMarkdown": "除此以外，艺术商是地球上最排斥技术的人群。他们并不是在艺术商和硬科学职业之间做出艰难抉择后才成为艺术商的。在我们去告诉他们为什么要上网之前，他们大多数人甚至连网页都没见过。有些人甚至连电脑都没有。用“推销困难”来形容当时的情况都有些轻描淡写了；我们很快就沦落到免费帮他们建网站的地步，可即便如此，也很难说服画廊接受。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2cc13452ebe477a42077bab436876bd3248c14ef03d11e78997bf88a9afff59a",
+      "enMarkdown": "Gradually it dawned on us that instead of trying to make Web sites for people who didn't want them, we could make sites for people who did. In fact, software that would let people who wanted sites make their own. So we ditched Artix and started a new company, Viaweb, to make software for building online stores. That one succeeded.",
+      "zhMarkdown": "渐渐地我们开窍了：与其试图为不想要网站的人建网站，不如为想要网站的人建网站。确切地说，是开发一套软件，让想要网站的人可以自己建站。于是我们放弃了 Artix，创办了一家新公司 Viaweb，专门开发建设网上商店的软件。那家公司成功了。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c801e5ba1f49b7db58780793b3fc960492b525676beca28f9840809bb5f08a18",
+      "enMarkdown": "We're in good company here. Microsoft was not the first company Paul Allen and Bill Gates started either. The first was called Traf-o-data. It does not seem to have done as well as Micro-soft.",
+      "zhMarkdown": "在这方面我们并不孤单。微软也不是保罗·艾伦（Paul Allen）和比尔·盖茨（Bill Gates）创办的第一家公司。第一家叫 Traf-o-data。它的表现似乎不如微软那么好。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2726bec121c73c65b40bcd3943578aca2243c70932bd1e16dac55b5ed8951425",
+      "enMarkdown": "In Robert's defense, he was skeptical about Artix. I dragged him into it. [[3](#f3n)] But there were moments when he was optimistic. And if we, who were 29 and 30 at the time, could get excited about such a thoroughly boneheaded idea, we should not be surprised that hackers aged 21 or 22 are pitching us ideas with little hope of making money.",
+      "zhMarkdown": "为罗伯特说句公道话，他对 Artix 一直持怀疑态度。是我硬把他拉进去的。[[3](#f3n)] 但也有过那么几次，他是乐观的。如果我们这两个当时已经 29 和 30 岁的人，都会为一个如此愚蠢的创意兴奋不已，那么当 21 或 22 岁的黑客向我们推销几乎没有赚钱希望的创意时，我们也不应该感到惊讶。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5a73e8a1cb7ced7618aa598ee17a526696ea282fbb0cb4d165b38dfdc78a435d",
+      "enMarkdown": "**The Still Life Effect**",
+      "zhMarkdown": "**静物效应**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "1edcbca00d5cc18daf1219cd6b7eda234759464ea42185d011b2f6ebb31aa3e2",
+      "enMarkdown": "Why does this happen? Why do good hackers have bad business ideas?",
+      "zhMarkdown": "为什么会这样？为什么优秀的黑客会有糟糕的商业创意？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "f8b32bef8a71b27c31dae20c420467da25f10335c61cb8f7d1b15aaa6dbe7afd",
+      "enMarkdown": "Let's look at our case. One reason we had such a lame idea was that it was the first thing we thought of. I was in New York trying to be a starving artist at the time (the starving part is actually quite easy), so I was haunting galleries anyway. When I learned about the Web, it seemed natural to mix the two. Make Web sites for galleries—that's the ticket!",
+      "zhMarkdown": "拿我们自己的例子来说。我们之所以有这么一个烂创意，原因之一是它是我们脑子里冒出来的第一个想法。当时我在纽约，正努力做一个挨饿的艺术家（挨饿这部分其实挺容易的），所以我经常去逛画廊。当我了解到万维网时，自然而然地把这两者结合在了一起。给画廊建网站——就是它了！"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "6bb0fb0b756f68e0c365471e309d92f928699df7a6ed4f5db6122a5edada150c",
+      "enMarkdown": "If you're going to spend years working on something, you'd think it might be wise to spend at least a couple days considering different ideas, instead of going with the first that comes into your head. You'd think. But people don't. In fact, this is a constant problem when you're painting still lifes. You plonk down a bunch of stuff on a table, and maybe spend five or ten minutes rearranging it to look interesting. But you're so impatient to get started painting that ten minutes of rearranging feels very long. So you start painting. Three days later, having spent twenty hours staring at it, you're kicking yourself for having set up such an awkward and boring composition, but by then it's too late.",
+      "zhMarkdown": "如果你打算花几年的时间去做一件事，你可能会觉得，至少花几天时间考虑不同的创意是明智的，而不是直接采用脑子里冒出来的第一个想法。你可能会这么想。但人们并不会这么做。事实上，这在你画静物画时是一个经常遇到的问题。你把一堆东西往桌上一放，可能花五到十分钟重新排列，让它看起来有趣些。但你太急于动笔画了，以至于重新排列的十分钟显得非常漫长。于是你开始画。三天后，你盯着它看了二十个小时，开始为自己摆出如此别扭和无趣的构图而懊恼不已，但到那时已经太晚了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "12479ec7851a1b9bd07853e43bf83e9b80b3441fe46b550d42eb3b510ff985d3",
+      "enMarkdown": "Part of the problem is that big projects tend to grow out of small ones. You set up a still life to make a quick sketch when you have a spare hour, and days later you're still working on it. I once spent a month painting three versions of a still life I set up in about four minutes. At each point (a day, a week, a month) I thought I'd already put in so much time that it was too late to change.",
+      "zhMarkdown": "部分原因在于，大项目往往是从小项目成长起来的。你在空闲的一个小时里摆好静物准备画个速写，几天后你却还在画它。我曾花了一个月时间，画了三个版本的静物画，而那个静物是我在四分钟内摆好的。在每个时间点（一天、一周、一个月），我都觉得已经投入了那么多时间，现在改变已经太晚了。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "f18127e879ebad71adc83777865e328d65b65658f046f87199f72fe426d82864",
+      "enMarkdown": "So the biggest cause of bad ideas is the still life effect: you come up with a random idea, plunge into it, and then at each point (a day, a week, a month) feel you've put so much time into it that this must be *the* idea.",
+      "zhMarkdown": "所以，糟糕创意最大的起因就是“静物效应”：你随机想到了一个创意，一头扎了进去，然后在每个时间点（一天、一周、一个月）都觉得已经投入了这么多时间，这一定就是*那个*终极创意了。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "7a2eae436b70be8703abc911d6849f8c21775d763043bd2c0f25d38aba5faf13",
+      "enMarkdown": "How do we fix that? I don't think we should discard plunging. Plunging into an idea is a good thing. The solution is at the other end: to realize that having invested time in something doesn't make it good.",
+      "zhMarkdown": "我们该如何解决这个问题？我不认为我们应该放弃“一头扎进去”。对一个创意全情投入是件好事。解决办法在另一端：要意识到，在一件事情上投入了时间，并不能让它本身变好。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7f759035892ee959005c94bae125e586714b7aae120436d1bf024cf28e7952a8",
+      "enMarkdown": "This is clearest in the case of names. Viaweb was originally called Webgen, but we discovered someone else had a product called that. We were so attached to our name that we offered him *5%\nof the company* if he'd let us have it. But he wouldn't, so we had to think of another. [[4](#f4n)] The best we could do was Viaweb, which we disliked at first. It was like having a new mother. But within three days we loved it, and Webgen sounded lame and old-fashioned.",
+      "zhMarkdown": "这在起名字的例子中最为明显。Viaweb 最初叫 Webgen，但我们发现别人的产品已经用了这个名字。我们对自己的名字如此执着，以至于提出如果他肯把名字让给我们，我们就给他 *5% 的公司股份*。但他不肯，所以我们不得不重新想一个。[[4](#f4n)] 我们能想到的最好名字是 Viaweb，起初我们并不喜欢它。这感觉就像换了个新母亲。但在三天之内，我们就爱上了它，而 Webgen 听起来反而显得平庸且过时了。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "71f86a98c44bf760c3d30264d220a16ae0e51e5682231d49b653545c9b0ca208",
+      "enMarkdown": "If it's hard to change something so simple as a name, imagine how hard it is to garbage-collect an idea. A name only has one point of attachment into your head. An idea for a company gets woven into your thoughts. So you must consciously discount for that. Plunge in, by all means, but remember later to look at your idea in the harsh light of morning and ask: is this something people will pay for? Is this, of all the things we could make, the thing people will pay most for?",
+      "zhMarkdown": "如果改变一个像名字这么简单的事情都如此困难，想象一下对一个创意进行“垃圾回收”会有多难。一个名字在你的脑海中只有一个连接点。而一个公司的创意则会交织在你的思想中。所以你必须有意识地排除这种干扰。尽管一头扎进去吧，但事后要记得，在清晨冷酷的曙光中审视你的创意，并问自己：这是人们愿意付钱的东西吗？在所有我们能做的事情中，这是人们最愿意付钱的东西吗？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "e318f287ff4718fc259d1ad9808235c5b7db5e468f01b5ffcb1fdbc5036e5571",
+      "enMarkdown": "**Muck**",
+      "zhMarkdown": "**泥泞**"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "971552d742143683239cd37a1e1b833b28d84ff02fc38d9ed22b5bd8f984db82",
+      "enMarkdown": "The second mistake we made with Artix is also very common. Putting galleries on the Web seemed cool.",
+      "zhMarkdown": "我们在 Artix 犯的第二个错误也非常普遍。把画廊搬上网页看起来很酷。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "777cc73c17de3c448135ab5f7a0e4a6bbe4d51a07762bc4c8008093a4b5b63cb",
+      "enMarkdown": "One of the most valuable things my father taught me is an old Yorkshire saying: where there's muck, there's brass. Meaning that unpleasant work pays. And more to the point here, vice versa. Work people like doesn't pay well, for reasons of supply and demand. The most extreme case is developing programming languages, which doesn't pay at all, because people like it so much they do it for free.",
+      "zhMarkdown": "我父亲教给我最宝贵的东西之一是一句约克郡的古老谚语：哪里有泥泞，哪里就有铜板（where there's muck, there's brass）。意思是说，脏活累活才赚钱。更确切地说，反之亦然。由于供求关系，人们喜欢的工作往往赚不到什么钱。最极端的例子就是开发编程语言，这根本赚不到钱，因为人们太喜欢它了，以至于愿意免费去做。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "21061c66ca07527d13d88e43101054a52ffe9f562eb875288b44f43db8eeddfe",
+      "enMarkdown": "When we started Artix, I was still ambivalent about business. I wanted to keep one foot in the art world. Big, big, mistake. Going into business is like a hang-glider launch: you'd better do it wholeheartedly, or not at all. The purpose of a company, and a startup especially, is to make money. You can't have divided loyalties.",
+      "zhMarkdown": "创办 Artix 时，我对商业仍持矛盾态度。我想在艺术界保留一只脚。大错特错。做生意就像玩悬挂式滑翔机起飞：你最好全心全意，否则干脆别做。公司的目的，尤其是创业公司的目的，就是为了赚钱。你不能三心二意。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "305800d000c643f329e64352d0ebbab824753412d497c09a6d8aca6dc644beb4",
+      "enMarkdown": "Which is not to say that you have to do the most disgusting sort of work, like spamming, or starting a company whose only purpose is patent litigation. What I mean is, if you're starting a company that will do something cool, the aim had better be to make money and maybe be cool, not to be cool and maybe make money.",
+      "zhMarkdown": "这并不是说你必须去做最恶心的事情，比如发垃圾邮件，或者创办一家唯一目的就是打专利诉讼的公司。我的意思是，如果你创办一家公司准备做些很酷的事情，那目的最好是“为了赚钱，顺便做得很酷”，而不是“为了很酷，顺便赚点钱”。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "6ba4c206102e1f79b896af420143199d70a0380001b2d29981746b232947305c",
+      "enMarkdown": "It's hard enough to make money that you can't do it by accident. Unless it's your first priority, it's unlikely to happen at all.",
+      "zhMarkdown": "赚钱已经足够困难了，以至于你不可能靠碰运气做到。除非你把它作为首要任务，否则它根本不可能发生。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "45bf9599b96cc843a5759bfd7eed003e197d406535e51e3965505b1d97e43d76",
+      "enMarkdown": "**Hyenas**",
+      "zhMarkdown": "**鬣狗**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "754a585aa84e31d98d46c44c758628659fe183585c6a35716a9b48f2eb15c70e",
+      "enMarkdown": "When I probe our motives with Artix, I see a third mistake: timidity. If you'd proposed at the time that we go into the e-commerce business, we'd have found the idea terrifying. Surely a field like that would be dominated by fearsome startups with five million dollars of VC money each. Whereas we felt pretty sure that we could hold our own in the slightly less competitive business of generating Web sites for art galleries.",
+      "zhMarkdown": "当我剖析我们做 Artix 的动机时，我看到了第三个错误：胆怯。如果当时你提议我们去做电子商务，我们会觉得这个想法太可怕了。像那样的领域，肯定会被那些各自拥有 500 万美元风险投资的、可怕的创业公司所主宰。而我们觉得，在为艺术画廊建网站这个竞争稍微没那么激烈的行业里，我们应该能够立足。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "a88d23667e669c7cf33f2477ec7a673e3aa5eb0342cd449b4f786dc05fa04698",
+      "enMarkdown": "We erred ridiculously far on the side of safety. As it turns out, VC-backed startups are not that fearsome. They're too busy trying to spend all that [money](https://paulgraham.com/venturecapital.html) to get software written. In 1995, the e-commerce business was very competitive as measured in press releases, but not as measured in software. And really it never was. The big fish like Open Market (rest their souls) were just consulting companies pretending to be product companies [[5](#f5n)], and the offerings at our end of the market were a couple hundred lines of Perl scripts. Or could have been implemented as a couple hundred lines of Perl; in fact they were probably tens of thousands of lines of C++ or Java. Once we actually took the plunge into e-commerce, it turned out to be surprisingly easy to compete.",
+      "zhMarkdown": "我们在安全感上犯了极其荒谬的错误。事实证明，那些有风投背景的创业公司并没有那么可怕。他们忙于设法花掉那些[钱](https://paulgraham.com/venturecapital.html)，顾不上写软件。1995 年，电子商务在新闻发布会上看起来竞争非常激烈，但在软件层面上并非如此。而且实际上从未激烈过。像 Open Market（愿逝者安息）这样的大鱼只是伪装成产品公司的咨询公司 [[5](#f5n)]，而我们那端市场的竞品不过是几百行 Perl 脚本。或者说，本可以用几百行 Perl 脚本来实现；实际上它们可能是几万行 C++ 或 Java。一旦我们真正涉足电子商务，就会发现参与竞争其实容易得令人惊讶。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "904194f9c95bc46c341ad4f2c5933378fab0dbe76214d2c396555b6a11614856",
+      "enMarkdown": "So why were we afraid? We felt we were good at programming, but we lacked confidence in our ability to do a mysterious, undifferentiated thing we called \"business.\" In fact there is no such thing as \"business.\" There's selling, promotion, figuring out what people want, deciding how much to charge, customer support, paying your bills, getting customers to pay you, getting incorporated, raising money, and so on. And the combination is not as hard as it seems, because some tasks (like raising money and getting incorporated) are an O(1) pain in the ass, whether you're big or small, and others (like selling and promotion) depend more on energy and imagination than any kind of special training.",
+      "zhMarkdown": "那么我们为什么害怕呢？我们觉得自己擅长编程，但对我们称之为“商业”的、神秘且面目模糊的事情缺乏信心。实际上根本没有“商业”这回事。只有销售、推广、弄清楚人们想要什么、决定收多少钱、客户服务、付账单、让客户给你付钱、注册公司、筹集资金等等。而这些事情加在一起并没有看起来那么难，因为有些任务（如筹资和注册公司）无论规模大小，都是 O(1) 级别的麻烦事，而其他任务（如销售和推广）更多取决于精力和想象力，而不是任何特殊的专业培训。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "41be412412ad36a19aac2bf6f215d33d63002503ca1b740c3a71e06c26e97cc2",
+      "enMarkdown": "Artix was like a hyena, content to survive on carrion because we were afraid of the lions. Except the lions turned out not to have any teeth, and the business of putting galleries online barely qualified as carrion.",
+      "zhMarkdown": "Artix 就像一只鬣狗，甘愿靠腐肉生存，因为我们害怕狮子。然而事实证明，狮子根本没有牙齿，而把画廊搬上网页的业务甚至连腐肉都算不上。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "c0ffe7e05bf3ef1205d8c1812320b08c5e3d6e6195e4c1471c91c61f5bb17f29",
+      "enMarkdown": "**A Familiar Problem**",
+      "zhMarkdown": "**一个熟悉的问题**"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "aac191320badd0850bf32795132a1691ff7bb06b19a47515906b7f193cf811bd",
+      "enMarkdown": "Sum up all these sources of error, and it's no wonder we had such a bad idea for a company. We did the first thing we thought of; we were ambivalent about being in business at all; and we deliberately chose an impoverished market to avoid competition.",
+      "zhMarkdown": "把所有这些错误源头加在一起，难怪我们当时会想出这么一个糟糕的公司创意。我们做了脑子里冒出来的第一个想法；我们对做生意这件事本身持矛盾态度；并且我们故意选择了一个贫瘠的市场以规避竞争。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "3a9d378fd209c9994a489c668eafb9d6e972709022cf9bdd128bfa565b1278fd",
+      "enMarkdown": "Looking at the applications for the Summer Founders Program, I see signs of all three. But the first is by far the biggest problem. Most of the groups applying have not stopped to ask: of all the things we could do, is *this* the one with the best chance of making money?",
+      "zhMarkdown": "看着“夏季创始人计划”（Summer Founders Program）的申请，我看到了这三种情况的影子。但第一种是目前为止最大的问题。大多数申请的团队都没有停下来问一句：在所有我们能做的事情中，*这*是赚钱机会最大的一件事吗？"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "d6c2583bcd49ea93bf4210a1369b6b63c93dec46e32b9701033cc5b039c88a04",
+      "enMarkdown": "If they'd already been through their Artix phase, they'd have learned to ask that. After the reception we got from art dealers, we were ready to. This time, we thought, let's make something people want.",
+      "zhMarkdown": "如果他们已经经历过自己的 Artix 阶段，他们就会学会这样问了。在经历了艺术商给我们的冷遇之后，我们准备好了。我们想，这一次，让我们来做一些人们想要的东西。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "b2409d959f8e68bc45c31e1745dd7386e386677457a66beea74f46e35f36d444",
+      "enMarkdown": "Reading the *Wall Street Journal* for a week should give anyone ideas for two or three new startups. The articles are full of descriptions of problems that need to be solved. But most of the applicants don't seem to have looked far for ideas.",
+      "zhMarkdown": "读一个星期的《华尔街日报》，应该能给任何人带来两三个新创业公司的创意。文章里到处都是对需要解决的问题的描述。但大多数申请人似乎并没有把目光投向太远去寻找创意。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "7babf97aebf858c82234cfc8792774c3d0b584a4aabd398c18f05298078f6374",
+      "enMarkdown": "We expected the most common proposal to be for multiplayer games. We were not far off: this was the second most common. The most common was some combination of a blog, a calendar, a dating site, and Friendster. Maybe there is some new killer app to be discovered here, but it seems perverse to go poking around in this fog when there are valuable, unsolved problems lying about in the open for anyone to see. Why did no one propose a new scheme for micropayments? An ambitious project, perhaps, but I can't believe we've considered every alternative. And newspapers and magazines are (literally) dying for a solution.",
+      "zhMarkdown": "我们曾预计最常见的提案会是多人游戏。我们没猜错：这是第二常见的。最常见的是博客、日历、相亲网站和 Friendster 的某种结合体。也许这里面确实能发现某种新的杀手级应用，但在有那么多有价值、未解决的问题摆在明处供所有人看的时候，在这个迷雾中摸索似乎有些反常。为什么没有人提出一种新的微支付方案？这或许是一个雄心勃勃的项目，但我无法相信我们已经考虑过了所有的替代方案。而且报纸和杂志正（字面意义上地）渴望着一个解决方案。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "41a488bcacd9c1e0da3cd88e60e1dde9f00705894a2eb316a457cb1aa3ba95f3",
+      "enMarkdown": "Why did so few applicants really think about what customers want? I think the problem with many, as with people in their early twenties generally, is that they've been trained their whole lives to jump through predefined hoops. They've spent 15-20 years solving problems other people have set for them. And how much time deciding what problems would be good to solve? Two or three course projects?  They're good at solving problems, but bad at choosing them.",
+      "zhMarkdown": "为什么这么少有申请人真正思考客户想要什么？我认为很多人的问题在于——就像通常二十出头的人一样——他们一生都在接受训练，去跳过那些预设的圈圈。他们花了 15 到 20 年的时间去解决别人为他们设定的问题。而又有多少时间用于决定哪些问题是值得解决的？两三个课程项目？他们擅长解决问题，但不擅长选择问题。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "42cc72961f7e34f7be25df8848287dfbeff6f0870a789c36c23c111057bae281",
+      "enMarkdown": "But that, I'm convinced, is just the effect of training. Or more precisely, the effect of grading. To make grading efficient, everyone has to solve the same problem, and that means it has to be decided in advance. It would be great if schools taught students how to choose problems as well as how to solve them, but I don't know how you'd run such a class in practice.",
+      "zhMarkdown": "但我确信，这只是训练的结果。或者更准确地说，是打分的结果。为了使打分高效，每个人都必须解决同一个问题，这意味着问题必须提前定好。如果学校能教会学生如何选择问题，而不仅仅是如何解决问题，那就太棒了，但我不知道在实践中该如何开设这样一门课。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "ae6569b2160bd93511fc63b1821b2737469a339d3b2f3f3a6e45682844a7e536",
+      "enMarkdown": "**Copper and Tin**",
+      "zhMarkdown": "**铜和锡**"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "ff9652d2ff4f99f3143d5865e5fa938a2d9028176f0b8a6773aa1b5139750df4",
+      "enMarkdown": "The good news is, choosing problems is something that can be learned. I know that from experience. Hackers can learn to make things customers want. [[6](#f6n)]",
+      "zhMarkdown": "好消息是，选择问题是可以学会的。我从经验中知道这一点。黑客可以学会做出客户想要的东西。[[6](#f6n)]"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "1a2ed8d7f19631151360bc37d3241417af67323b7ffa603417a82780f92957af",
+      "enMarkdown": "This is a controversial view. One expert on \"entrepreneurship\" told me that any startup had to include business people, because only they could focus on what customers wanted. I'll probably alienate this guy forever by quoting him, but I have to risk it, because his email was such a perfect example of this view:",
+      "zhMarkdown": "这是一个有争议的观点。一位“创业学”专家告诉我，任何创业公司都必须包含商业人士，因为只有他们才能专注于客户想要什么。引用他的话可能会让我永远得罪这个人，但我必须冒这个险，因为他的邮件是这种观点的完美例证："
+    },
+    {
+      "id": 42,
+      "type": "quote",
+      "sourceHash": "cb1e7c3348c20ad7cfa17df36d18d9fb6855e99b5fb8b5a7f511ac88a448d728",
+      "enMarkdown": "> 80% of MIT spinoffs succeed *provided* they have at least one management person in the team at the start. The business person represents the \"voice of the customer\" and that's what keeps the engineers and product development on track.",
+      "zhMarkdown": "> 80% 的麻省理工学院（MIT）衍生公司都能获得成功，*前提是*他们在一开始的团队中至少有一名管理人员。商业人士代表了“客户的声音”，正是这一点让工程师和产品开发保持在正确的轨道上。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "f4f460e1a7f2c119b692dd8457bf3b4145340dd564cacd7bdf82d7675727919a",
+      "enMarkdown": "This is, in my opinion, a crock. Hackers are perfectly capable of hearing the voice of the customer without a business person to amplify the signal for them. Larry Page and Sergey Brin were grad students in computer science, which presumably makes them \"engineers.\" Do you suppose Google is only good because they had some business guy whispering in their ears what customers wanted? It seems to me the business guys who did the most for Google were the ones who obligingly flew Altavista into a hillside just as Google was getting started.",
+      "zhMarkdown": "在我看来，这纯属胡扯。黑客完全有能力听到客户的声音，不需要商业人士来为他们放大信号。拉里·佩奇（Larry Page）和谢尔盖·布林（Sergey Brin）是计算机科学的研究生，这大概算得上是“工程师”。你以为 Google 之所以优秀，只是因为他们有某个商业人士在耳边低语客户想要什么吗？在我看来，对 Google 贡献最大的商业人士，是那些在 Google 刚起步时，顺从地把 Altavista 撞向山头的家伙。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "e70dd2c678d6ca6c577e087898826739e462ff3ccd5c9fc94754e35e59af3948",
+      "enMarkdown": "The hard part about figuring out what customers want is figuring out that you need to figure it out. But that's something you can learn quickly. It's like seeing the other interpretation of an ambiguous picture. As soon as someone tells you there's a rabbit as well as a duck, it's hard not to see it.",
+      "zhMarkdown": "弄清楚客户想要什么的难点，在于意识到你需要去弄清楚它。但这是你可以很快学会的事情。这就像看到一幅双关画的另一种解释。一旦有人告诉你画里不仅有只鸭子，还有只兔子，你就很难看不到了。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "044a9a9843f1a7a3533d46985464928d85b48c3a3628278506a1e6635c9a10db",
+      "enMarkdown": "And compared to the sort of problems hackers are used to solving, giving customers what they want is easy. Anyone who can write an optimizing compiler can design a UI that doesn't confuse users, once they *choose* to focus on that problem. And once you apply that kind of brain power to petty but profitable questions, you can create wealth very rapidly.",
+      "zhMarkdown": "而且与黑客习惯解决的那类问题相比，给客户他们想要的东西是很容易的。任何能写出优化编译器的人，一旦*选择*专注于这个问题，就能设计出不会让用户感到困惑的界面。一旦你把这种脑力应用到微小但有利可图的问题上，你就可以非常迅速地创造财富。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "7e1bb4188230d9f1c0350a311d8104381724e962db35ede2553095f17e7d4ec3",
+      "enMarkdown": "That's the essence of a startup: having brilliant people do work that's beneath them. Big companies try to hire the right person for the job. Startups win because they don't—because they take people so smart that they would in a big company be doing \"research,\" and set them to work instead on problems of the most immediate and mundane sort. Think Einstein designing refrigerators. [[7](#f7n)]",
+      "zhMarkdown": "这就是创业公司的本质：让聪明绝顶的人去做看似大材小用的工作。大公司试图为岗位雇用合适的人。创业公司之所以能赢，是因为它们不这么做——因为它们把那些聪明到在大公司里只能做“研究”的人，派去解决最迫切、最世俗的问题。想想爱因斯坦设计冰箱。[[7](#f7n)]"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "61c804832b03006cd840d0425814fb7fd3bfe6f932417a63a2e60342e6158c1c",
+      "enMarkdown": "If you want to learn what people want, read Dale Carnegie's *How to Win Friends and Influence People.* [[8](#f8n)] When a friend recommended this book, I couldn't believe he was serious. But he insisted it was good, so I read it, and he was right. It deals with the most difficult problem in human experience: how to see things from other people's point of view, instead of thinking only of yourself.",
+      "zhMarkdown": "如果你想了解人们想要什么，去读戴尔·卡耐基（Dale Carnegie）的《人性的弱点》（*How to Win Friends and Influence People*）。[[8](#f8n)] 当一个朋友向我推荐这本书时，我简直不敢相信他是认真的。但他坚持说书很好，于是我读了，他是对的。它应对了人类经验中最困难的问题：如何从别人的角度来看待事情，而不是只想着自己。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "137461fda55061ea3fdee688840cb117c3a20d5f2d8c844e8c073407f46acf4b",
+      "enMarkdown": "Most smart people don't do that very well. But adding this ability to raw brainpower is like adding tin to copper. The result is bronze, which is so much harder that it seems a different metal.",
+      "zhMarkdown": "大多数聪明人在这方面做得并不好。但将这种能力与纯粹的脑力相结合，就像在铜里加入了锡。结果就是青铜，它要坚硬得多，以至于看起来像是一种完全不同的金属。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "6c9eec6b06193bc1246156b4b248f46a88bb5405f68a14f3f52e0012727e294c",
+      "enMarkdown": "A hacker who has learned what to make, and not just how to make, is extraordinarily powerful. And not just at making money: look what a small group of volunteers has achieved with Firefox.",
+      "zhMarkdown": "一个不仅学会了如何制作，还学会了该制作什么的黑客，是非常强大的。而且不仅仅是在赚钱方面：看看一小群志愿者用 Firefox 取得了怎样的成就。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "8ea745436e0f736c454ad0e29659436db4f099e8acadb87123dbef3ef74a43a0",
+      "enMarkdown": "Doing an Artix teaches you to make something people want in the same way that not drinking anything would teach you how much you depend on water. But it would be more convenient for all involved if the Summer Founders didn't learn this on our dime—if they could skip the Artix phase and go right on to make something customers wanted. That, I think, is going to be the real experiment this summer. How long will it take them to grasp this?",
+      "zhMarkdown": "经历一次 Artix 能教会你做出人们想要的东西，这就像不喝水能教会你有多依赖水一样。但如果夏季创始人不用花我们的钱来学这一课，那对所有相关人员来说都会更方便——如果他们能跳过 Artix 阶段，直接去做客户想要的东西。我认为，这将是今年夏天真正的实验。他们需要花多长时间才能领悟到这一点？"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "e8767dc1ee7b31e6ec47cabf65675f1c951ed74133e958255ab58795bc2758c9",
+      "enMarkdown": "We decided we ought to have T-Shirts for the SFP, and we'd been thinking about what to print on the back. Till now we'd been planning to use",
+      "zhMarkdown": "我们决定应该为夏季创始人计划（SFP）制作 T 恤，并且一直在考虑背面印些什么。直到刚才，我们还计划用"
+    },
+    {
+      "id": 52,
+      "type": "quote",
+      "sourceHash": "5e388601c7c64435670fd0f56af6b6c3cd4371a77e8cc7befcde039ebb2a368d",
+      "enMarkdown": "> If you can read this, I should be working.",
+      "zhMarkdown": "> 如果你能看到这行字，说明我该去干活了。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "1ab8557689e3900f08adb53193ebea4160feae78172da8b907210a3d63a501f5",
+      "enMarkdown": "but now we've decided it's going to be",
+      "zhMarkdown": "但现在我们决定把它改成"
+    },
+    {
+      "id": 54,
+      "type": "quote",
+      "sourceHash": "e0a941276ef58122bc28a836cdc7d4ce9a9f234d7153ccc34e5c13427bca29ed",
+      "enMarkdown": "> Make something people want.",
+      "zhMarkdown": "> 创造人们想要的东西。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "b5b43c124e71b45205559880182e5577e26956c2dcf2da11ae9b2a3dd2b69f13",
+      "enMarkdown": "[1] SFP applicants: please don't assume that not being accepted means we think your idea is bad. Because we want to keep the number of startups small this first summer, we're going to have to turn down some good proposals too.",
+      "zhMarkdown": "[1] SFP 申请者：请不要认为未被录取就意味着我们认为你的创意不好。因为我们想在第一个夏天保持创业公司的数量较少，所以我们也必须拒绝一些好的提案。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "b967b76b7d3322ee354d57728a80de7b7d68a88a0664378a09148cbbf521018b",
+      "enMarkdown": "[2] Dealers try to give each customer the impression that the stuff they're showing him is something special that only a few people have seen, when in fact it may have been sitting in their racks for years while they tried to unload it on buyer after buyer.",
+      "zhMarkdown": "[2] 艺术商试图给每个客户一种印象，即他们向其展示的东西是只有少数人见过的特别之物，而事实上，这些东西可能已经在他们的货架上放了多年，期间他们一直在试图把它脱手给一个又一个买家。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "806bd7f2af45d784db71066b45c592b80bda134380e81a7efcf52fdf333a1f8f",
+      "enMarkdown": "[3] On the other hand, he was skeptical about Viaweb too. I have a precise measure of that, because at one point in the first couple months we made a bet: if he ever made a million dollars out of Viaweb, he'd get his ear pierced. We didn't let him [off](https://paulgraham.com/pierced.html), either.",
+      "zhMarkdown": "[3] 另一方面，他对 Viaweb 也持怀疑态度。我对此有一个精确的衡量，因为在最初的一两个月里，我们打了个赌：如果他能从 Viaweb 赚到一百万美元，他就去打耳洞。我们后来也没放过他，他真的[去打了](https://paulgraham.com/pierced.html)。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "bd4e14d2455a4a59d9194756fec9f68d7c98eb6bd047e96431645c65353d0d10",
+      "enMarkdown": "[4] I wrote a program to generate all the combinations of \"Web\" plus a three letter word. I learned from this that most three letter words are bad: Webpig, Webdog, Webfat, Webzit, Webfug. But one of them was Webvia; I swapped them to make Viaweb.",
+      "zhMarkdown": "[4] 我写了一个程序来生成“Web”加上一个三字母单词的所有组合。我从中得知，大多数三字母单词都很糟糕：Webpig、Webdog、Webfat、Webzit、Webfug。但其中一个是 Webvia；我把它们调换了一下，就成了 Viaweb。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "5e527e6e890249f147830dacd5070d5c3afc2236fdf42949493c08d4230a8718",
+      "enMarkdown": "[5] It's much easier to sell services than a product, just as it's easier to make a living playing at weddings than by selling recordings. But the margins are greater on products. So during the Bubble a lot of companies used consulting to generate revenues they could attribute to the sale of products, because it made a better story for an IPO.",
+      "zhMarkdown": "[5] 销售服务比销售产品要容易得多，就像在婚礼上演奏比销售唱片更容易维持生计一样。但产品的利润率更高。因此在互联网泡沫时期，许多公司利用咨询来产生收入，并将其归功于产品的销售，因为这样在 IPO 时能讲出更好的故事。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "3a402a287ad1170ba7e5f577becb29d3f9e82bfad9034779642a4d3f36476378",
+      "enMarkdown": "[6] Trevor Blackwell presents the following recipe for a startup: \"Watch people who have money to spend, see what they're wasting their time on, cook up a solution, and try selling it to them. It's surprising how small a problem can be and still provide a profitable market for a solution.\"",
+      "zhMarkdown": "[6] 特雷弗·布莱克威尔（Trevor Blackwell）提出了以下创业秘诀：“观察那些有钱花的人，看看他们在什么事情上浪费时间，想出一个解决方案，并试着卖给他们。令人惊讶的是，即使问题再小，也能为解决方案提供一个有利可图的市场。”"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "ace77c362ccc14171681538a065b62b5f2221266fa940c1f55b95392e7a7fd57",
+      "enMarkdown": "[7] You need to offer especially large rewards to get great people to do tedious work. That's why startups always pay equity rather than just salary.",
+      "zhMarkdown": "[7] 你需要提供特别丰厚的的回报才能让优秀的人去做枯燥的工作。这就是为什么创业公司总是支付股权而不仅仅是薪水。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "56140934414897c90770b745bb54c1bc2bb2fc6c67629f98f13a26ff7dd32389",
+      "enMarkdown": "[8] Buy an [old](http://dogbert.abebooks.com/servlet/SearchResults?bx=on&sts=t&ds=30&bi=0&an=carnegie&kn=1938+OR+1939+OR+1940+OR+1941+OR+1942+OR+1943+OR+1944+OR+1945+OR+1946+OR+1947+OR+1948&tn=influence+friends&sortby=2) copy from the 1940s or 50s instead of the current edition, which has been rewritten to suit present fashions. The original edition contained a few unPC ideas, but it's always better to read an original book, bearing in mind that it's a book from a past era, than to read a new version sanitized for your protection.",
+      "zhMarkdown": "[8] 买一本 20 世纪 40 年代或 50 年代的[旧书](http://dogbert.abebooks.com/servlet/SearchResults?bx=on&sts=t&ds=30&bi=0&an=carnegie&kn=1938+OR+1939+OR+1940+OR+1941+OR+1942+OR+1943+OR+1944+OR+1945+OR+1946+OR+1947+OR+1948&tn=influence+friends&sortby=2)，而不是现在的版本，因为现在的版本为了迎合当下的潮流已经被重写了。原版包含了一些不那么政治正确的想法，但读一本原版书，同时记住这是一本过去时代的书，总是比读一个为了保护你而被净化过的新版本要好。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "1e32ec26cd71a6b2aeeb878d99f3be7a814b8c374529190eaccbed8a24980deb",
+      "enMarkdown": "**Thanks** to Bill Birch, Trevor Blackwell, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** 比尔·伯奇（Bill Birch）、特雷弗·布莱克威尔（Trevor Blackwell）、杰西卡·利文斯顿（Jessica Livingston）和罗伯特·莫里斯（Robert Morris）阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "slug": "lesson",
+  "titleEn": "The Lesson to Unlearn",
+  "titleZh": "需要忘掉的那一课",
+  "dateText": "December 2019",
+  "publishedAt": "2019-12-01",
+  "sourceOrder": 52,
+  "sourceUrl": "https://paulgraham.com/lesson.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "1b02982a1fff91bcdfa1d91071b2d70abcf4c5fafa25260a2db639d7e113841b",
+      "enMarkdown": "The most damaging thing you learned in school wasn't something you learned in any specific class. It was learning to get good grades.",
+      "zhMarkdown": "你在学校里学到的最具有杀伤力的东西，并不是在某一门具体课程中听到的。而是学会了如何拿高分。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "b3c2a1e1aea0d4f5e371dbee59e39f6684d3572c57aa0552696fa427e3f014f1",
+      "enMarkdown": "When I was in college, a particularly earnest philosophy grad student once told me that he never cared what grade he got in a class, only what he learned in it. This stuck in my mind because it was the only time I ever heard anyone say such a thing.",
+      "zhMarkdown": "读大学时，一位特别认真的哲学系研究生曾对我说，他从不在乎一门课拿什么成绩，只在乎在里面学到了什么。这句话深深地印在我的脑海中，因为这是我一生中唯一一次听到有人说出这样的话。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "817e1bd761226f955e0c503e1747b46234fe88105b312d29708e0fd7a5477a46",
+      "enMarkdown": "For me, as for most students, the measurement of what I was learning completely dominated actual learning in college. I was fairly earnest; I was genuinely interested in most of the classes I took, and I worked hard. And yet I worked by far the hardest when I was studying for a test.",
+      "zhMarkdown": "对我来说，正如对大多数学生一样，在大学里对学习成果的衡量，完全盖过了实际的学习本身。我还算挺认真的，对自己选的大多数课程都抱有真正的兴趣，而且学习也很努力。然而，只有在为考试做准备时，我才是最拼命的。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "37cf052a3daa533efd0ebf44edacdd965caf8aff40249efb5adf48614f3eded9",
+      "enMarkdown": "In theory, tests are merely what their name implies: tests of what you've learned in the class. In theory you shouldn't have to prepare for a test in a class any more than you have to prepare for a blood test. In theory you learn from taking the class, from going to the lectures and doing the reading and/or assignments, and the test that comes afterward merely measures how well you learned.",
+      "zhMarkdown": "理论上，考试正如其名：是对你在课上所学知识的检验。理论上，你不需要为课上的考试做任何多余的准备，就像你不需要为验血做准备一样。理论上，你通过上课、听讲、阅读和做作业来学习，而随后的考试仅仅是测量你学得有多好。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "59cd1af80efd7f6d2e672df5ad3abe9bf5a87dca1d513618a28741cf82c8460c",
+      "enMarkdown": "In practice, as almost everyone reading this will know, things are so different that hearing this explanation of how classes and tests are meant to work is like hearing the etymology of a word whose meaning has changed completely. In practice, the phrase \"studying for a test\" was almost redundant, because that was when one really studied. The difference between diligent and slack students was that the former studied hard for tests and the latter didn't. No one was pulling all-nighters two weeks into the semester.",
+      "zhMarkdown": "在实践中，几乎每个读到这里的人都会知道，情况大相径庭，以至于听到上述对课程和考试本意的解释，就像是在听一个意思已经彻底改变的词的词源。在实践中，“为考试而学习”这个词几乎是多余的，因为只有那时候大家才真正开始学习。勤奋和懈怠的学生之间的区别在于，前者在考试前拼命复习，而后者没有。在开学两周的时候，没有人会去熬夜通宵。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "4703e53f452e27e060ffe0bd31a681758f0d48c19bf82bf5a5e6f12602c4e5a5",
+      "enMarkdown": "Even though I was a diligent student, almost all the work I did in school was aimed at getting a good grade on something.",
+      "zhMarkdown": "尽管我是一个勤奋的学生，但我在学校里所做的几乎所有努力，目的都是为了在某件事上拿个好分数。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "72adf495aae047216f8d763f0a828ae969ec6cea9cd1ca06da18a0dfe10cef5b",
+      "enMarkdown": "To many people, it would seem strange that the preceding sentence has a \"though\" in it. Aren't I merely stating a tautology? Isn't that what a diligent student is, a straight-A student? That's how deeply the conflation of learning with grades has infused our culture.",
+      "zhMarkdown": "对许多人来说，上一句话里用“尽管”可能会显得有些奇怪。我难道不是在陈述一个同义反复的废话吗？一个勤奋的学生不就是拿全 A 的学生吗？将“学习”与“成绩”混为一谈的观念，已经如此之深地渗透到了我们的文化之中。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "974be5a83e8f46e65e93957d0d7bba336b210252cd35a9e5ca5e7f9838d659e5",
+      "enMarkdown": "Is it so bad if learning is conflated with grades? Yes, it is bad. And it wasn't till decades after college, when I was running Y Combinator, that I realized how bad it is.",
+      "zhMarkdown": "将学习与成绩混为一谈真的很糟糕吗？是的，非常糟糕。直到大学毕业几十年后，在我创办 Y Combinator 时，我才意识到这件事情有多严重。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ab3e83e261e8997e082a90a012b838d2a5370812df1e748d47ca3d6e655ad085",
+      "enMarkdown": "I knew of course when I was a student that studying for a test is far from identical with actual learning. At the very least, you don't retain knowledge you cram into your head the night before an exam. But the problem is worse than that. The real problem is that most tests don't come close to measuring what they're supposed to.",
+      "zhMarkdown": "当然，做学生时我就知道，为考试而学习绝对不等同于真正的学习。至少，在考试前一天晚上死记硬背塞进脑子里的知识，你是记不住多久的。但问题远不止于此。真正的问题在于，大多数考试根本无法衡量出它们本该衡量的东西。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "54de12114845e5cedb072fedf63d15e81938cb3e0acac0a9331c91fcaa4e1c44",
+      "enMarkdown": "If tests truly were tests of learning, things wouldn't be so bad. Getting good grades and learning would converge, just a little late. The problem is that nearly all tests given to students are terribly hackable. Most people who've gotten good grades know this, and know it so well they've ceased even to question it. You'll see when you realize how naive it sounds to act otherwise.",
+      "zhMarkdown": "如果考试真的能检验学习成效，事情还不至于这么糟。拿好成绩和真正学到东西最终会殊途同归，无非是稍微滞后一些。问题在于，学校给学生安排的几乎所有考试，都极其容易被“破解”（hack）。大多数拿过好成绩的人深谙此道，甚至已经习以为常到不再去质疑它。当你意识到不按这个规则行事听起来有多幼稚时，你就会明白我的意思。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5ed71cdf051b749f01da307f175110936cb7ed327ae6007c90fb3428ce330bcd",
+      "enMarkdown": "Suppose you're taking a class on medieval history and the final exam is coming up. The final exam is supposed to be a test of your knowledge of medieval history, right? So if you have a couple days between now and the exam, surely the best way to spend the time, if you want to do well on the exam, is to read the best books you can find about medieval history. Then you'll know a lot about it, and do well on the exam.",
+      "zhMarkdown": "假设你正在上一门中世纪历史课，期末考试快到了。期末考试本该是对你中世纪历史知识的检验，对吧？所以，如果离考试还有几天时间，要想考好，最好的时间利用方式当然是去读你能找到的关于中世纪历史的最好的书。这样你就会了解很多相关知识，并在考试中取得好成绩。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "4a7d0ab1a01e69fcc36beb541eb75bfc8496f8e9f31b234038ae61e6991433e9",
+      "enMarkdown": "No, no, no, experienced students are saying to themselves. If you merely read good books on medieval history, most of the stuff you learned wouldn't be on the test. It's not good books you want to read, but the lecture notes and assigned reading in this class. And even most of that you can ignore, because you only have to worry about the sort of thing that could turn up as a test question. You're looking for sharply-defined chunks of information. If one of the assigned readings has an interesting digression on some subtle point, you can safely ignore that, because it's not the sort of thing that could be turned into a test question. But if the professor tells you that there were three underlying causes of the Schism of 1378, or three main consequences of the Black Death, you'd better know them. And whether they were in fact the causes or consequences is beside the point. For the purposes of this class they are.",
+      "zhMarkdown": "不，不，不，有经验的学生会在心里直摇头。如果你只是去读关于中世纪历史的好书，你学到的绝大部分内容都不会出现在试卷上。你该读的不是什么好书，而是这门课的课堂笔记和指定阅读材料。甚至连这些材料的大部分你都可以忽略，因为你只需要关心那些可能变成考题的内容。你在寻找的是界限清晰的信息块。如果某篇指定阅读材料在某个微妙的观点上有一段有趣的延伸探讨，你可以放心地忽略它，因为这不属于能被转化为考题的那类东西。但如果教授告诉你，1378 年教会大分裂有三个深层原因，或者黑死病有三个主要后果，你最好把它们背得滚瓜烂熟。至于它们是否真的是原因或后果，这根本无关紧要。就这门课而言，它们就是。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "fbd43cf52f23898a2a96864c9f61efa044d2b93536ad12a59eb4ab1f17e3b3bc",
+      "enMarkdown": "At a university there are often copies of old exams floating around, and these narrow still further what you have to learn. As well as learning what kind of questions this professor asks, you'll often get actual exam questions. Many professors re-use them. After teaching a class for 10 years, it would be hard not to, at least inadvertently.",
+      "zhMarkdown": "在大学里，往往会有往届考试的真题在私底下流传，这些真题会把你需要学习的范围进一步缩小。你不仅能摸清这个教授会出什么类型的题，甚至经常能拿到一模一样的原题。许多教授会重复使用旧题。在一门课教了 10 年之后，不重复使用几乎是不可能的，至少在无意中会这么做。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a2d537dcfeae6f9c37d01602e6a402cc581e93be611221db8939405981db5489",
+      "enMarkdown": "In some classes, your professor will have had some sort of political axe to grind, and if so you'll have to grind it too. The need for this varies. In classes in math or the hard sciences or engineering it's rarely necessary, but at the other end of the spectrum there are classes where you couldn't get a good grade without it.",
+      "zhMarkdown": "在某些课上，你的教授可能会有某种政治偏见或个人立场，如果是这样，你也必须顺着他的意思去迎合。这种需求的程度因课而异。在数学、硬科学或工程类的课程中，这很少有必要；但在光谱的另一端，有些课如果不迎合教授的偏好，你根本不可能拿到好成绩。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "df8b9327b0d08832d8d2d48344da5d60978b3c363ae2458811fa368943fa2b39",
+      "enMarkdown": "Getting a good grade in a class on x is so different from learning a lot about x that you have to choose one or the other, and you can't blame students if they choose grades. Everyone judges them by their grades � graduate programs, employers, scholarships, even their own parents.",
+      "zhMarkdown": "在一门关于 X 的课程中拿到好成绩，与真正学到很多关于 X 的知识是如此不同，以至于你必须在两者之间做出选择。如果学生选择了成绩，你也不能责怪他们。所有人都在用成绩来评判他们——研究生院、雇主、奖学金评定委员会，甚至他们自己的父母。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "d0e60aaaa0be0323f868f83ffb2bc0c6f116883f9a6d66dd2fc460eb4a0414fb",
+      "enMarkdown": "I liked learning, and I really enjoyed some of the papers and programs I wrote in college. But did I ever, after turning in a paper in some class, sit down and write another just for fun? Of course not. I had things due in other classes. If it ever came to a choice of learning or grades, I chose grades. I hadn't come to college to do badly.",
+      "zhMarkdown": "我是喜欢学习的，而且真的很享受在大学里写的一些论文和程序。但是，在某门课上交完论文后，我有没有坐下来纯粹为了好玩再写一篇？当然没有。我还有其他课的作业要交。如果必须在学习和成绩之间做出选择，我选择成绩。我来读大学可不是为了拿个烂成绩的。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "d89282b5dd27c466643804fc6670d4b0c1cc16b55cfc405452192874e5c09328",
+      "enMarkdown": "Anyone who cares about getting good grades has to play this game, or they'll be surpassed by those who do. And at elite universities, that means nearly everyone, since someone who didn't care about getting good grades probably wouldn't be there in the first place. The result is that students compete to maximize the difference between learning and getting good grades.",
+      "zhMarkdown": "任何在乎拿好成绩的人都必须玩这个游戏，否则就会被那些玩这个游戏的人超越。而在精英大学里，这意味着几乎每个人都在玩，因为一个不在乎成绩的人，起初大概根本进不来。其结果是，学生们在竞争中竭力将“真正学到东西”与“拿到好成绩”之间的差距拉到最大。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "6c9bb0bd9c5bd87dcb611d8ec35aebe37c8b940c866840b47fb339db5f68c0a9",
+      "enMarkdown": "Why are tests so bad? More precisely, why are they so hackable? Any experienced programmer could answer that. How hackable is software whose author hasn't paid any attention to preventing it from being hacked? Usually it's as porous as a colander.",
+      "zhMarkdown": "为什么考试会这么烂？更准确地说，为什么它们这么容易被破解？任何有经验的程序员都能回答这个问题。如果软件的作者根本没有花心思去防范被黑，那么这个软件会有多容易被破解？通常它会像滤水筛子一样漏洞百出。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "ad2e15f05d2fb3d923f3bcccd789119e657465e147bcddb087b79e0885fe5e65",
+      "enMarkdown": "Hackable is the default for any test imposed by an authority. The reason the tests you're given are so consistently bad � so consistently far from measuring what they're supposed to measure � is simply that the people creating them haven't made much effort to prevent them from being hacked.",
+      "zhMarkdown": "对于任何由权威机构强加的考试，“容易被破解”是其默认属性。你所经历的考试之所以总是这么糟糕——总是离衡量它们本该衡量的事情相去甚远——原因很简单，因为设计这些考试的人并没有花什么心思去防止它们被破解。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "1a311ca196e761a1735c0d55615af85d5c2ef222a5a0780d4ccde6fd7eaeac6d",
+      "enMarkdown": "But you can't blame teachers if their tests are hackable. Their job is to teach, not to create unhackable tests. The real problem is grades, or more precisely, that grades have been overloaded. If grades were merely a way for teachers to tell students what they were doing right and wrong, like a coach giving advice to an athlete, students wouldn't be tempted to hack tests. But unfortunately after a certain age grades become more than advice. After a certain age, whenever you're being taught, you're usually also being judged.",
+      "zhMarkdown": "但你不能因为考试容易被破解而责怪老师。他们的工作是教学，而不是去设计无法被破解的考试。真正的问题在于成绩本身，或者更准确地说，在于成绩被赋予了过多的功能。如果成绩仅仅是老师用来告诉学生哪些地方做对了、哪些地方做错了的一种方式，就像教练给运动员提供建议一样，学生们就不会有动力去破解考试。但遗憾的是，到了特定年龄之后，成绩就不再仅仅是建议了。到了特定年龄，每当你接受教育时，你通常也同时在接受审判。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "bfd1f72bce3b820cf083c0405b746f235559932435fcbba002de137d081f93ea",
+      "enMarkdown": "I've used college tests as an example, but those are actually the least hackable. All the tests most students take their whole lives are at least as bad, including, most spectacularly of all, the test that gets them into college. If getting into college were merely a matter of having the quality of one's mind measured by admissions officers the way scientists measure the mass of an object, we could tell teenage kids \"learn a lot\" and leave it at that. You can tell how bad college admissions are, as a test, from how unlike high school that sounds. In practice, the freakishly specific nature of the stuff ambitious kids have to do in high school is directly proportionate to the hackability of college admissions. The classes you don't care about that are mostly memorization, the random \"extracurricular activities\" you have to participate in to show you're \"well-rounded,\" the standardized tests as artificial as chess, the \"essay\" you have to write that's presumably meant to hit some very specific target, but you're not told what.",
+      "zhMarkdown": "我虽然用大学考试作为例子，但那些实际上还是最难被破解的。大多数学生一生中所经历的所有考试至少都一样糟糕，其中最引人注目的，莫过于决定他们能否上大学的那场考试。如果考大学仅仅是招生官像科学家测量物体质量那样，去测量学生的心智水平，我们大可以对十几岁的孩子说“多学点知识”然后就此放手。然而，从这种说法听起来与高中的实际情况有多脱节，你就能看出大学录取作为一种考试有多糟糕。在实践中，雄心勃勃的孩子在高中不得不去做的那些极其怪异、具体的琐事，与大学录取的易破解程度完全成正比。那些你根本不在乎、大部分靠死记硬背的课程，你不得不参加以展示自己“全面发展”的随机“课外活动”，像国际象棋一样人工痕迹明显的标准化考试，以及你不得不写、大概是为了迎合某种非常具体的目标但又没人明确告诉你是啥的“申请作文”。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "a256095ce59d9087854cc929783347b0167d2cc3c4ba5c5b1f2b32f5239491c2",
+      "enMarkdown": "As well as being bad in what it does to kids, this test is also bad in the sense of being very hackable. So hackable that whole industries have grown up to hack it. This is the explicit purpose of test-prep companies and admissions counsellors, but it's also a significant part of the function of private schools.",
+      "zhMarkdown": "这场考试不仅残害了孩子，而且它本身也极易被破解。极易破解到了甚至催生出整个庞大行业来专门破解它的程度。这正是备考培训公司和升学顾问的明确目的，也是私立学校的一项重要功能。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "286a9731c1a0166c8f328ed78376a99294800db80f691c71d15f42ea8f11a54c",
+      "enMarkdown": "Why is this particular test so hackable? I think because of what it's measuring. Although the popular story is that the way to get into a good college is to be really smart, admissions officers at elite colleges neither are, nor claim to be, looking only for that. What are they looking for? They're looking for people who are not simply smart, but admirable in some more general sense. And how is this more general admirableness measured? The admissions officers feel it. In other words, they accept who they like.",
+      "zhMarkdown": "为什么这场特定的考试如此容易被破解？我认为这取决于它所测量的东西。尽管流行观点认为进入名校的秘诀是聪明，但名校的招生官既不是、也从未声称过他们仅仅在寻找聪明人。他们到底在寻找什么？他们在寻找那些不仅聪明，而且在更广泛意义上令人钦佩的人。而这种更广泛意义上的“令人钦佩”又是如何测量的呢？招生官是凭感觉来评判的。换句话说，他们录取自己喜欢的人。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "f9077cc114b109f2de95eec470840bcddbfbfb21304264626de34f4f23f7275c",
+      "enMarkdown": "So what college admissions is a test of is whether you suit the taste of some group of people. Well, of course a test like that is going to be hackable. And because it's both very hackable and there's (thought to be) a lot at stake, it's hacked like nothing else. That's why it distorts your life so much for so long.",
+      "zhMarkdown": "因此，大学录取本质上是在测试你是否符合某群人的品味。那么，像这样的考试当然是极易被破解的。正因为它既容易被破解，又被认为关系重大，所以它被破解得比任何其他东西都厉害。这就是为什么它会在这么长的时间里，让你的生活变得如此扭曲。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "16cbd57a4516085d356a9486f07fd29e2e9e5609299341a4751dab7637f6568b",
+      "enMarkdown": "It's no wonder high school students often feel alienated. The shape of their lives is completely artificial.",
+      "zhMarkdown": "难怪高中生经常感到迷茫和疏离。他们生活轨道的形状完全是人工雕琢出来的。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "5bdbce46385746eba1270cc8b961a36688be6ebc3053f85a7c9644f064bf0373",
+      "enMarkdown": "But wasting your time is not the worst thing the educational system does to you. The worst thing it does is to train you that the way to win is by hacking bad tests. This is a much subtler problem that I didn't recognize until I saw it happening to other people.",
+      "zhMarkdown": "但是，浪费时间还不是教育系统对你做的最糟糕的事。最糟糕的事是它训练了你：让你以为获胜的方式就是去破解那些糟糕的考试。这是一个微妙得多的问题，直到我看到它在别人身上发生，我才意识到它的存在。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "94791243e83d5cabb2fb98e6761ff8f45f9e1a1d9a21a8483fc71556bd540094",
+      "enMarkdown": "When I started advising startup founders at Y Combinator, especially young ones, I was puzzled by the way they always seemed to make things overcomplicated. How, they would ask, do you raise money? What's the trick for making venture capitalists want to invest in you? The best way to make VCs want to invest in you, I would explain, is to actually be a good investment. Even if you could trick VCs into investing in a bad startup, you'd be tricking yourselves too. You're investing time in the same company you're asking them to invest money in. If it's not a good investment, why are you even doing it?",
+      "zhMarkdown": "当我开始在 Y Combinator 给创业公司创始人（尤其是年轻创始人）提供建议时，我很纳闷他们为什么总是把事情搞得过于复杂。他们会问：怎么融资？让风险投资家想要投资你的诀窍是什么？我解释说，让风投想投资你最好的方法，就是让公司真正成为一个好的投资对象。即使你能忽悠风投投资一个烂项目，你也是在忽悠你自己。你投入的是你自己的时间，而你却只是在求他们投钱。如果这不是一个好的投资，你为什么还要做呢？"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "1ad2a78e718378d48797c9fead085aca0e37a7d756afab72b3d6639ea6cbbfd9",
+      "enMarkdown": "Oh, they'd say, and then after a pause to digest this revelation, they'd ask: What makes a startup a good investment?",
+      "zhMarkdown": "“哦，”他们会说，然后在消化了这个启示后停顿一下，接着问：“那是什么让一家创业公司成为好的投资对象呢？”"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "d8d6759eb1cac2526e48e2feb3e194e122be5aed136e2d8675277f3000f4c949",
+      "enMarkdown": "So I would explain that what makes a startup promising, not just in the eyes of investors but in fact, is [growth](https://paulgraham.com/growth.html). Ideally in revenue, but failing that in usage. What they needed to do was get lots of users.",
+      "zhMarkdown": "于是我会解释，让一家创业公司有前景的因素——不仅在投资者眼中如此，在客观事实上也是如此——就是[增长](https://paulgraham.com/growth.html)。最理想的是收入增长，退而求其次则是用户量增长。他们需要做的是获取大量用户。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "aba930b5e6b85e7c1364439dab3330850be2a36aa607b59cf7d9510acdf5d674",
+      "enMarkdown": "How does one get lots of users? They had all kinds of ideas about that. They needed to do a big launch that would get them \"exposure.\" They needed influential people to talk about them. They even knew they needed to launch on a tuesday, because that's when one gets the most attention.",
+      "zhMarkdown": "如何获取大量用户？他们对此有各种各样的想法。他们需要做一次盛大的发布活动来获得“曝光”。他们需要有影响力的人来讨论他们。他们甚至知道必须在星期二发布，因为那是获得最多关注的时候。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "ce6d94bea40382505c2cec35d7335707764e92eac30378da75801d9dba369872",
+      "enMarkdown": "No, I would explain, that is not how to get lots of users. The way you get lots of users is to make the product really great. Then people will not only use it but recommend it to their friends, so your growth will be exponential once you [get it started](https://paulgraham.com/ds.html).",
+      "zhMarkdown": "不，我会解释，那不是获取大量用户的方法。获取大量用户的方法是把产品做得非常好。这样人们不仅会去使用它，还会把它推荐给朋友，这样一旦你[启动了它](https://paulgraham.com/ds.html)，你的增长就会呈指数级上升。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "a8a0a2e649692dfac48fab2123c261a35a30de7d82ef834f42a2a578d407513a",
+      "enMarkdown": "At this point I've told the founders something you'd think would be completely obvious: that they should make a good company by making a good product. And yet their reaction would be something like the reaction many physicists must have had when they first heard about the theory of relativity: a mixture of astonishment at its apparent genius, combined with a suspicion that anything so weird couldn't possibly be right. Ok, they would say, dutifully. And could you introduce us to such-and-such influential person? And remember, we want to launch on Tuesday.",
+      "zhMarkdown": "说到这里，我已经告诉了创始人们一些你认为理所当然、显而易见的事情：他们应该通过做出好产品来打造一家好公司。然而，他们的反应就像许多物理学家第一次听到相对论时的反应一样：既惊讶于其表面上的天才构想，又怀疑如此怪异的东西怎么可能是对的。好吧，他们会顺从地回答。然后问：你能帮我们引荐某某有影响力的人吗？还有，记住，我们想在星期二发布。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "85781fcb14dd7238977796a0388021d89d3bcf35c1061127edd389b696b5d4cb",
+      "enMarkdown": "It would sometimes take founders years to grasp these simple lessons. And not because they were lazy or stupid. They just seemed blind to what was right in front of them.",
+      "zhMarkdown": "有时候，创始人要花上几年时间才能领悟这些简单的道理。这并不是因为他们懒惰或愚蠢。他们只是似乎对眼前的事物视而不见。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "9bcd4cb6f22e9b40f7c18009eb2a9d83e7d1c869a9725e79ef7b439d91363609",
+      "enMarkdown": "Why, I would ask myself, do they always make things so complicated? And then one day I realized this was not a rhetorical question.",
+      "zhMarkdown": "我曾问自己，为什么他们总是把事情搞得这么复杂？直到有一天，我意识到这并不是一个反问句。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "bf5c1c91427083c168cd0d5c0004a7bdb8407370fab9cdd665d0af47608bc604",
+      "enMarkdown": "Why did founders tie themselves in knots doing the wrong things when the answer was right in front of them? Because that was what they'd been trained to do. Their education had taught them that the way to win was to hack the test. And without even telling them they were being trained to do this. The younger ones, the recent graduates, had never faced a non-artificial test. They thought this was just how the world worked: that the first thing you did, when facing any kind of challenge, was to figure out what the trick was for hacking the test. That's why the conversation would always start with how to raise money, because that read as the test. It came at the end of YC. It had numbers attached to it, and higher numbers seemed to be better. It must be the test.",
+      "zhMarkdown": "为什么当答案就在眼前时，创始人却还要把自己搞得焦头烂额去做错误的事情？因为这就是他们被训练去做的事。他们的教育教会了他们：获胜的方法是去破解考试。而且是在甚至没有明确告知他们正在接受这种训练的情况下。那些更年轻的、刚毕业的人，从未面对过非人工设计的考试。他们以为世界就是这样运转的：面对任何挑战，你要做的第一件事就是找出破解考试的诀窍是什么。这就是为什么谈话总是从如何融资开始，因为这被当成了那场考试。它出现在 YC 的最后。它有数字与之关联，而且数字越高似乎越好。这一定就是那场考试了。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "32d2e1cfc7f8803bab43b4f26a06b7959f37a4b82d0a280cacd3d0fa3dd853fe",
+      "enMarkdown": "There are certainly big chunks of the world where the way to win is to hack the test. This phenomenon isn't limited to schools. And some people, either due to ideology or ignorance, claim that this is true of startups too. But it isn't. In fact, one of the most striking things about startups is the degree to which you win by simply doing good work. There are edge cases, as there are in anything, but in general you win by getting users, and what users care about is whether the product does what they want.",
+      "zhMarkdown": "世上的确有很大一部分领域，获胜的方法就是去破解考试。这种现象不仅限于学校。有些人由于意识形态或无知，声称创业也是如此。但事实并非如此。事实上，创业公司最引人注目的特点之一，就是你在多大程度上可以通过单纯地做好工作来获得胜利。虽然和任何事情一样也存在边缘案例，但总体而言，你通过获取用户来获胜，而用户关心的是产品是否满足了他们的需求。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "b8157fd620969b2fe6614dbbfea5a65d1e45819208d30e86aa911fa497b3f397",
+      "enMarkdown": "Why did it take me so long to understand why founders made startups overcomplicated? Because I hadn't realized explicitly that schools train us to win by hacking bad tests. And not just them, but me! I'd been trained to hack bad tests too, and hadn't realized it till decades later.",
+      "zhMarkdown": "为什么我花了这么长时间才理解创始人为什么把创业搞得过于复杂？因为我没有明确意识到，学校在训练我们通过破解糟糕的考试来获胜。不仅是他们，还有我！我也被训练去破解糟糕的考试，直到几十年后才意识到这一点。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "72eaaa4f8cee6f93801fb456432709334297cfcf9a4161e6b115732343f05986",
+      "enMarkdown": "I had lived as if I realized it, but without knowing why. For example, I had avoided working for big companies. But if you'd asked why, I'd have said it was because they were bogus, or bureaucratic. Or just yuck. I never understood how much of my dislike of big companies was due to the fact that you win by hacking bad tests.",
+      "zhMarkdown": "我的生活方式好像我早就意识到了这一点，但我并不知道原因。例如，我一直避免去大公司工作。但如果你问我为什么，我会说是因为它们虚伪、官僚，或者就是让人觉得恶心。我从未明白，我对大公司的反感，有多少是因为在那些地方你需要通过破解糟糕的考试来获胜。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "5121d11a7f0e51607c1a3727c5c30e3b214a4975ae3af79488af1caee4857dba",
+      "enMarkdown": "Similarly, the fact that the tests were unhackable was a lot of what attracted me to startups. But again, I hadn't realized that explicitly.",
+      "zhMarkdown": "同样，创业公司的考试无法被破解，这在很大程度上也是吸引我创业的原因。但同样，我之前也没有明确意识到这一点。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "8d5bf6aff4aaba44fb3daf711008b4ebd41dc66260e4f6aa86574843cd25ae40",
+      "enMarkdown": "I had in effect achieved by successive approximations something that may have a closed-form solution. I had gradually undone my training in hacking bad tests without knowing I was doing it. Could someone coming out of school banish this demon just by knowing its name, and saying begone? It seems worth trying.",
+      "zhMarkdown": "实际上，我通过逐步逼近的方式，实现了一个本可以有解析解的目标。我慢慢消除了解锁糟糕考试的思维训练，却甚至不知道自己正在这么做。一个刚走出校门的人，能否仅仅通过知道这个心魔的名字并对它大喊“走开”，就能驱散它呢？这似乎值得一试。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "df5adae709fb36c2c780f2345107b5eb0bb182f616354e003607a3bcfbd80035",
+      "enMarkdown": "Merely talking explicitly about this phenomenon is likely to make things better, because much of its power comes from the fact that we take it for granted. After you've noticed it, it seems the elephant in the room, but it's a pretty well camouflaged elephant. The phenomenon is so old, and so pervasive. And it's simply the result of neglect. No one meant things to be this way. This is just what happens when you combine learning with grades, competition, and the naive assumption of unhackability.",
+      "zhMarkdown": "仅仅是公开、明确地讨论这种现象，就可能会让事情变好，因为它的力量很大程度上源于我们将其视为理所当然。当你注意到它之后，它就像是房间里的大象，但却是一只伪装得很好的大象。这种现象如此古老，又如此无处不在。它纯粹是懈怠和忽视的结果。没有人故意想让事情变成这样。当你把学习与成绩、竞争以及对“不可破解性”的幼稚假设结合在一起时，这就是必然发生的结果。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "b29eb7df6395c062dae8af4df6c7beea9d7fc9446a48e9bdb1d3566bbb106989",
+      "enMarkdown": "It was mind-blowing to realize that two of the things I'd puzzled about the most � the bogusness of high school, and the difficulty of getting founders to see the obvious � both had the same cause. It's rare for such a big block to slide into place so late.",
+      "zhMarkdown": "当我意识到我最困惑的两件事——高中的虚伪，以及让创始人看清显而易见的事实有多难——居然有着同一个原因时，我感到无比震撼。像这样一块巨大的拼图，在如此晚的时候才拼合到一起，是很少见的。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "e621c57c69fce4f80192fccd7ab7fddbbdde673a554d0a745365533bba28cea3",
+      "enMarkdown": "Usually when that happens it has implications in a lot of different areas, and this case seems no exception. For example, it suggests both that education could be done better, and how you might fix it. But it also suggests a potential answer to the question all big companies seem to have: how can we be more like a startup? I'm not going to chase down all the implications now. What I want to focus on here is what it means for individuals.",
+      "zhMarkdown": "通常，当这种情况发生时，它会在许多不同的领域产生连锁反应，这次也不例外。例如，它既表明教育可以做得更好，也指明了如何去改进它。但它也对所有大公司似乎都有的疑问提供了一个潜在的答案：我们如何才能更像一家创业公司？我现在不打算去深挖所有的影响。我在这里想关注的是，它对个人意味着什么。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "db13bd9bad387cef60c3074d534fc635bd4cdc98d98f9fb39346a22671a4de6c",
+      "enMarkdown": "To start with, it means that most ambitious kids graduating from college have something they may want to unlearn. But it also changes how you look at the world. Instead of looking at all the different kinds of work people do and thinking of them vaguely as more or less appealing, you can now ask a very specific question that will sort them in an interesting way: to what extent do you win at this kind of work by hacking bad tests?",
+      "zhMarkdown": "首先，这意味着大多数从大学毕业的有抱负的年轻人，都有一些他们可能需要“忘掉”的东西。但它也改变了你看待世界的方式。现在，你不用再去看着人们做的各种工作，然后模糊地觉得它们或多或少有些吸引力，而是可以问一个非常具体的问题，它能以一种有趣的方式给这些工作分类：在这项工作中，你有多大程度上需要通过破解糟糕的考试来获胜？"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "d1323dd9efbc79750c1736065563251a068c3440353ac23f6f2c1261feaa7849",
+      "enMarkdown": "It would help if there was a way to recognize bad tests quickly. Is there a pattern here? It turns out there is.",
+      "zhMarkdown": "如果有一种方法能快速识别糟糕的考试，那会有所帮助。这中间有什么规律吗？事实证明是有的。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "49b72bc88c6c0007a423c4afd04505689e42aa227a7f65425f325e71e110a5e8",
+      "enMarkdown": "Tests can be divided into two kinds: those that are imposed by authorities, and those that aren't. Tests that aren't imposed by authorities are inherently unhackable, in the sense that no one is claiming they're tests of anything more than they actually test. A football match, for example, is simply a test of who wins, not which team is better. You can tell that from the fact that commentators sometimes say afterward that the better team won. Whereas tests imposed by authorities are usually proxies for something else. A test in a class is supposed to measure not just how well you did on that particular test, but how much you learned in the class. While tests that aren't imposed by authorities are inherently unhackable, those imposed by authorities have to be made unhackable. Usually they aren't. So as a first approximation, bad tests are roughly equivalent to tests imposed by authorities.",
+      "zhMarkdown": "考试可以分为两类：由权威机构强加的，以及非权威机构强加的。非权威机构强加的考试本质上是无法被破解的，因为没有人声称它们能检验除了实际测试内容之外的任何东西。例如，一场足球比赛仅仅是对谁赢的检验，而不是对哪支球队更好的检验。你可以从评论员事后有时会说“更好的那支球队赢了”这一事实中看出这一点。而由权威机构强加的考试通常是其他东西的代理指标。课堂上的考试不仅是为了衡量你在这场特定考试中表现如何，还为了衡量你在这门课上学到了多少。非权威机构强加的考试天生不可破解，而由权威强加的考试则必须被设计成不可破解的。通常它们并没有被设计好。所以，作为第一步近似，糟糕的考试大致等同于权威机构强加的考试。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "4a823f6b06a6b555abaaedde7af2915ef646442c9a99c6389cf18dc83506be83",
+      "enMarkdown": "You might actually like to win by hacking bad tests. Presumably some people do. But I bet most people who find themselves doing this kind of work don't like it. They just take it for granted that this is how the world works, unless you want to drop out and be some kind of hippie artisan.",
+      "zhMarkdown": "你可能其实挺喜欢通过破解糟糕的考试来获胜的。想必有些人确实如此。但我敢打赌，大多数发现自己正在做这种工作的人并不喜欢它。他们只是想当然地认为世界就是这样运转的，除非你想退出社会，去当个类似嬉皮士手艺人那样的人。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "c552053f62873160b4a4a6fedb8cf63c0fa11f78735bcdeb350f0412df1cd0bd",
+      "enMarkdown": "I suspect many people implicitly assume that working in a field with bad tests is the price of making lots of money. But that, I can tell you, is false. It used to be true. In the mid-twentieth century, when the economy was [composed of oligopolies](https://paulgraham.com/re.html), the only way to the top was by playing their game. But it's not true now. There are now ways to get rich by doing good work, and that's part of the reason people are so much more excited about getting rich than they used to be. When I was a kid, you could either become an engineer and make cool things, or make lots of money by becoming an \"executive.\" Now you can make lots of money by making cool things.",
+      "zhMarkdown": "我怀疑许多人隐约觉得，在一个考试很糟糕的领域工作是赚大钱的代价。但我可以告诉你，这是不对的。这在以前是真的。在二十世纪中期，当经济[由寡头垄断构成](https://paulgraham.com/re.html)时，通往顶峰的唯一途径就是玩他们的游戏。但现在不是这样了。现在有通过做好工作来变富有的途径，这也是人们现在对变富有比以前兴奋得多的部分原因。当我还是个孩子的时候，你要么成为一名工程师去做出酷炫的东西，要么通过成为一名“高管”来赚大钱。现在，你可以通过做出酷炫的东西来赚大钱。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "e034c6dd02c9bf0224f594f0a5a6308769774eaa6d0d60545dd660cbffcfa2bc",
+      "enMarkdown": "Hacking bad tests is becoming less important as the link between work and authority erodes. The erosion of that link is one of the most important trends happening now, and we see its effects in almost every kind of work people do. Startups are one of the most visible examples, but we see much the same thing in writing. Writers no longer have to submit to publishers and editors to reach readers; now they can go direct.",
+      "zhMarkdown": "随着工作与权威之间的纽带逐渐削弱，破解糟糕考试的重要性也正在降低。这种纽带的削弱是目前正在发生的最重要的趋势之一，我们几乎在人们从事的每一种工作中都能看到它的影响。创业公司是最明显的例子之一，但在写作领域我们也看到了同样的情况。作家不再需要屈从于出版商和编辑才能触及读者，现在他们可以直接触达读者。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "cf5c349919fb5097e0592930056b8c513132c2e90d02b16dcec14c9241fb52e0",
+      "enMarkdown": "The more I think about this question, the more optimistic I get. This seems one of those situations where we don't realize how much something was holding us back until it's eliminated. And I can foresee the whole bogus edifice crumbling. Imagine what happens as more and more people start to ask themselves if they want to win by hacking bad tests, and decide that they don't. The kinds of work where you win by hacking bad tests will be starved of talent, and the kinds where you win by doing good work will see an influx of the most ambitious people. And as hacking bad tests shrinks in importance, education will evolve to stop training us to do it. Imagine what the world could look like if that happened.",
+      "zhMarkdown": "对这个问题思考得越深，我就越感到乐观。这似乎是那种直到障碍被清除，我们才意识到它曾让我们裹足不前有多严重的境况。我预感到整个虚假的大厦正在瓦解。想象一下，当越来越多的人开始问自己是否想通过破解糟糕的考试来获胜，并决定不这么做时，会发生什么。那些靠破解糟糕考试获胜的工作将面临人才枯竭，而那些靠做好工作获胜的工作将迎来最优秀、最抱负不凡的人才涌入。随着破解糟糕考试的重要性缩水，教育也将发生演变，停止训练我们去这么做。想象一下，如果那一天到来，世界会是什么样子。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "b58cf42b591853ce5309f7741b7790dea2d3f605af7226bcf51d4a2e506501bd",
+      "enMarkdown": "This is not just a lesson for individuals to unlearn, but one for society to unlearn, and we'll be amazed at the energy that's liberated when we do.",
+      "zhMarkdown": "这不仅是个人需要忘掉的一课，也是整个社会需要忘掉的一课。当我们做到这一点时，释放出来的能量将让我们叹为观止。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "f0549dc80d64c4016f9aa7c4ce61d5d4aba8a276edc859c453a0afe757cdbdf0",
+      "enMarkdown": "[1] If using tests only to measure learning sounds impossibly utopian, that is already the way things work at Lambda School. Lambda School doesn't have grades. You either graduate or you don't. The only purpose of tests is to decide at each stage of the curriculum whether you can continue to the next. So in effect the whole school is pass/fail.",
+      "zhMarkdown": "[1] 如果仅将考试用于衡量学习听起来像是无法实现的乌托邦，那么 Lambda School 已经是这样运作的了。Lambda School 没有成绩。你只有毕业或不毕业两种结果。考试的唯一目的是在课程的每个阶段决定你是否可以继续学习下一阶段。所以实际上，整个学校只有及格/不及格两种结果。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "c1ea987e1538b207d665cdf03f7e92c63ba091ad07231a38b292f1771d861b1d",
+      "enMarkdown": "[2] If the final exam consisted of a long conversation with the professor, you could prepare for it by reading good books on medieval history. A lot of the hackability of tests in schools is due to the fact that the same test has to be given to large numbers of students.",
+      "zhMarkdown": "[2] 如果期末考试是与教授进行一场长谈，你可以通过阅读关于中世纪历史的好书来准备。学校考试之所以这么容易被破解，很大程度上是因为同一个考试必须同时发给大量的学生。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "700862c0238cbf1351bebec2eee4f81c4763593f72e77734cdd335caf286e1a6",
+      "enMarkdown": "[3] Learning is the naive algorithm for getting good grades.",
+      "zhMarkdown": "[3] 学习，其实是拿好成绩的“天真算法”（naive algorithm）。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "f552ea8e884b025018dbf0efd43202fa1683fe082171303ae3d80f0612beaec0",
+      "enMarkdown": "[4] [Hacking](https://paulgraham.com/gba.html) has multiple senses. There's a narrow sense in which it means to compromise something. That's the sense in which one hacks a bad test. But there's another, more general sense, meaning to find a surprising solution to a problem, often by thinking differently about it. Hacking in this sense is a wonderful thing. And indeed, some of the hacks people use on bad tests are impressively ingenious; the problem is not so much the hacking as that, because the tests are hackable, they don't test what they're meant to.",
+      "zhMarkdown": "[4] [Hacking](https://paulgraham.com/gba.html)（破解/黑客）有多种含义。狭义上，它意味着去攻破或损害某物。这就是人们破解糟糕考试的意思。但在另一种更广泛的意义上，它意味着通过不同的思考方式，为一个问题找到一个出人意料的解决方案。这种意义上的 hacking 是一件奇妙的事情。事实上，人们用在糟糕考试上的某些破解手段，其巧妙程度令人印象深刻；问题不在于 hacking 本身，而在于因为考试容易被破解，它们无法测试出本该测试的东西。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "effdd6c804553300d3ba2933ba10f332dbcfd9d1dc0008839d238bfb4c8bdf0b",
+      "enMarkdown": "[5] The people who pick startups at Y Combinator are similar to admissions officers, except that instead of being arbitrary, their acceptance criteria are trained by a very tight feedback loop. If you accept a bad startup or reject a good one, you will usually know it within a year or two at the latest, and often within a month.",
+      "zhMarkdown": "[5] 在 Y Combinator 挑选创业公司的人与招生官类似，不同之处在于，他们的录取标准不是任意的，而是通过极度紧密的反馈循环训练出来的。如果你录取了一家糟糕的创业公司或拒绝了一家好的，你通常最迟在一两年内就会知道，而且往往在一个月内就能见分晓。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "0ac98e5f4ee9606b53d6267c9c956f0ce6f0e001d3a18c4d258b13aa3bb9e1fd",
+      "enMarkdown": "[6] I'm sure admissions officers are tired of reading applications from kids who seem to have no personality beyond being willing to seem however they're supposed to seem to get accepted. What they don't realize is that they are, in a sense, looking in a mirror. The lack of authenticity in the applicants is a reflection of the arbitrariness of the application process. A dictator might just as well complain about the lack of authenticity in the people around him.",
+      "zhMarkdown": "[6] 我敢说，招生官已经厌倦了阅读那些除了刻意迎合录取标准外毫无个性的孩子的申请材料。他们没有意识到的是，在某种意义上，他们是在照镜子。申请者缺乏真实性，正是申请流程随意性的折射。这就像一个独裁者去抱怨周围的人缺乏真诚一样。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "40f10dbbb577898af6a2c503a7cdf51658a2acbb8b01fd587038dc0ae560f8f8",
+      "enMarkdown": "[7] By good work, I don't mean morally good, but good in the sense in which a good craftsman does good work.",
+      "zhMarkdown": "[7] 我所说的“做好工作”（good work），并不是指道德上的好，而是指像一个优秀的匠人做出好活计那样的好。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "8e5fb0de654fc2d672a94a88e96b32b5102859943f246b733e19dd016dabb85e",
+      "enMarkdown": "[8] There are borderline cases where it's hard to say which category a test falls in. For example, is raising venture capital like college admissions, or is it like selling to a customer?",
+      "zhMarkdown": "[8] 存在一些处于边界的案例，很难说一场考试属于哪一类。例如，募集风险投资是更像大学录取，还是更像把产品卖给客户？"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "a146736b28b5aaa5e121f4f8a76dad33d2f40197996a5a944a1f03d9df78e0d4",
+      "enMarkdown": "[9] Note that a good test is merely one that's unhackable. Good here doesn't mean morally good, but good in the sense of working well. The difference between fields with bad tests and good ones is not that the former are bad and the latter are good, but that the former are bogus and the latter aren't. But those two measures are not unrelated. As Tara Ploughman said, the path from good to evil goes through bogus.",
+      "zhMarkdown": "[9] 注意，一个好的考试仅仅是指不可破解的考试。这里的“好”不是指道德上的好，而是指运转良好的好。考试糟糕的领域和考试好的领域之间的区别，不在于前者是坏的而后者是好的，而在于前者是虚伪的，而后者不是。但这两者并非毫无关联。正如 Tara Ploughman 所说，从善到恶的道路要经过虚伪。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "e00c582f4608bb85db3bdde2e9865d4443664f9f15f67fa72eaa55e57ae3b6bc",
+      "enMarkdown": "[10] People who think the recent increase in [economic inequality](https://paulgraham.com/ineq.html) is due to changes in tax policy seem very naive to anyone with experience in startups. Different people are getting rich now than used to, and they're getting much richer than mere tax savings could make them.",
+      "zhMarkdown": "[10] 任何有创业经验的人都会觉得，那些认为近期[经济不平等](https://paulgraham.com/ineq.html)加剧是由于税收政策变化的人显得非常幼稚。现在变富的人跟以前不同了，而且他们变富的程度远非仅仅靠省下税款所能达到的。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "2d73c46f9b176bcb7b6094d08a13fb6cc3dd28fa6d3a8f1483d0e135eb80e5bc",
+      "enMarkdown": "[11] Note to tiger parents: you may think you're training your kids to win, but if you're training them to win by hacking bad tests, you are, as parents so often do, training them to fight the last war.",
+      "zhMarkdown": "[11] 给虎爸虎妈们提个醒：你可能以为自己是在训练孩子去赢，但如果你训练他们通过破解糟糕的考试来获胜，你其实是在训练他们去打上一场战争——正如父母们常常做的那样。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "c26ab4e49e04b77ba04a9d736cbf1374ba53070d29f23a1a78875e5095b58b64",
+      "enMarkdown": "**Thanks** to Austen Allred, Trevor Blackwell, Patrick Collison, Jessica Livingston, Robert Morris, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Austen Allred, Trevor Blackwell, Patrick Collison, Jessica Livingston, Robert Morris 和 Harj Taggar 帮我阅读并修改草稿。"
+    }
+  ]
+}

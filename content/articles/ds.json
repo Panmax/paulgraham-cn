@@ -1,0 +1,517 @@
+{
+  "slug": "ds",
+  "titleEn": "Do Things that Don't Scale",
+  "titleZh": "去做那些无法规模化的事",
+  "dateText": "July 2013",
+  "publishedAt": "2013-07-01",
+  "sourceOrder": 80,
+  "sourceUrl": "https://paulgraham.com/ds.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "96bc83f2837b5b735705fb8e9d45765889b9f37fe8696a649c6daf8d4f13e7e3",
+      "enMarkdown": "One of the most common types of advice we give at Y Combinator is to do things that don't scale. A lot of would-be founders believe that startups either take off or don't. You build something, make it available, and if you've made a better mousetrap, people beat a path to your door as promised. Or they don't, in which case the market must not exist. [[1](#f1n)]",
+      "zhMarkdown": "我们在 Y Combinator 给出的最常见建议之一，就是去做那些无法规模化（don't scale）的事。许多准创始人误以为，创业公司要么能做起来，要么做不起来。他们觉得，你只要做出一个东西并发布出去，如果你做出了一个更好的“捕鼠器”，人们自然会像俗话说的那样踏破你的门槛。如果人们没来，那就说明市场根本不存在。[[1](#f1n)]"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "37b5a7c06a1dde431d5c210d562022c33a5728dc14eb6a18184f8dce6a705b33",
+      "enMarkdown": "Actually startups take off because the founders make them take off. There may be a handful that just grew by themselves, but usually it takes some sort of push to get them going. A good metaphor would be the cranks that car engines had before they got electric starters. Once the engine was going, it would keep going, but there was a separate and laborious process to get it going.",
+      "zhMarkdown": "但实际上，创业公司能做起来，是因为创始人硬生生把它们推起来的。也许有极少数是自己成长起来的，但通常都需要某种外力推动才能起步。这就像汽车发明电子起动器之前使用的手动摇柄。一旦发动机转起来了，它就会自己一直转下去，但要让它转起来，却需要一个单独且费力的人工过程。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "173508c6573a778873f099def4192a8f03f14f4f56ad978ac645ac6e333bc5a3",
+      "enMarkdown": "**Recruit**",
+      "zhMarkdown": "**招募用户**"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "6bb840bfd66aa08fa3a62cb70c24dc496abc5ad13572ceab91254b507671a034",
+      "enMarkdown": "The most common unscalable thing founders have to do at the start is to recruit users manually. Nearly all startups have to. You can't wait for users to come to you. You have to go out and get them.",
+      "zhMarkdown": "在初创阶段，创始人必须做的最常见的、无法规模化的事情，就是手动招募用户。几乎所有创业公司都必须经历这一步。你不能坐在那里等用户找上门，你得主动走出去争取他们。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "2fa179f2974f7356fef6f9cc6e1a50c21b1cd110915dc542a28bd6f0ede6265f",
+      "enMarkdown": "Stripe is one of the most successful startups we've funded, and the problem they solved was an urgent one. If anyone could have sat back and waited for users, it was Stripe. But in fact they're famous within YC for aggressive early user acquisition.",
+      "zhMarkdown": "Stripe 是我们投资过最成功的创业公司之一，他们解决的是一个非常迫切的痛点。如果说有谁可以坐等用户上门，那非 Stripe 莫属。但事实上，他们在 YC 内部却因早期极为激进的用户获取方式而闻名。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "4ce13ea71ccda570f24c1d446b5186fe52ca1e7b275b07620e44c6b39af0f2c3",
+      "enMarkdown": "Startups building things for other startups have a big pool of potential users in the other companies we've funded, and none took better advantage of it than Stripe. At YC we use the term \"Collison installation\" for the technique they invented. More diffident founders ask \"Will you try our beta?\" and if the answer is yes, they say \"Great, we'll send you a link.\" But the Collison brothers weren't going to wait. When anyone agreed to try Stripe they'd say \"Right then, give me your laptop\" and set them up on the spot.",
+      "zhMarkdown": "为其他创业公司做工具的初创企业，在我们投资的其他公司中拥有一个巨大的潜在用户群，而 Stripe 把这个优势发挥到了极致。在 YC，我们用“科里森安装法”（Collison installation）来称呼他们发明的这一招。比较害羞的创始人会问：“你愿意试试我们的测试版吗？”如果对方说好，他们会说：“太棒了，我们稍后发个链接给你。”但科里森兄弟可不打算干等。只要有人同意尝试 Stripe，他们就会说：“行啊，电脑给我。”然后当场帮对方配置好。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "43c5acd1d18be8bc6153a1510d4a969b817162321466deb288eca4e74085e498",
+      "enMarkdown": "There are two reasons founders resist going out and recruiting users individually. One is a combination of shyness and laziness. They'd rather sit at home writing code than go out and talk to a bunch of strangers and probably be rejected by most of them. But for a startup to succeed, at least one founder (usually the CEO) will have to spend a lot of time on sales and marketing. [[2](#f2n)]",
+      "zhMarkdown": "创始人之所以抗拒走出去逐个招募用户，原因有两个。一是害羞与懒惰的结合体。他们宁愿待在家里写代码，也不愿意走出去和一堆陌生人说话，而且还可能被其中大多数人拒绝。但一个创业公司想要成功，至少得有一位创始人（通常是 CEO）必须花大量时间在销售和营销上。[[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "daf226ff2f94a6673097edd921ee829d24bc4394d99a1ce1c196703d280f9110",
+      "enMarkdown": "The other reason founders ignore this path is that the absolute numbers seem so small at first. This can't be how the big, famous startups got started, they think. The mistake they make is to underestimate the power of compound growth. We encourage every startup to measure their progress by weekly [growth\nrate](https://paulgraham.com/growth.html). If you have 100 users, you need to get 10 more next week to grow 10% a week. And while 110 may not seem much better than 100, if you keep growing at 10% a week you'll be surprised how big the numbers get. After a year you'll have 14,000 users, and after 2 years you'll have 2 million.",
+      "zhMarkdown": "创始人忽视这条路的另一个原因，是起初的绝对数量看起来太小了。他们会觉得，那些名声显赫的大公司绝对不是这么起家的。他们犯的错误在于低估了复利增长的力量。我们鼓励每家创业公司都用每周[增长率](https://paulgraham.com/growth.html)来衡量自己的进展。如果你有 100 个用户，下周你需要再获取 10 个，才能达到每周 10% 的增长。虽然 110 个看起来没比 100 个多多少，但如果你能保持每周 10% 的增长，最终的数字会大到让你吃惊。一年后，你将拥有 1.4 万个用户；两年后，这个数字会达到 200 万。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "124db252d388d2ca89e1fbc6ab16dbf28ecb8302c07cac7a4db8f163400b929f",
+      "enMarkdown": "You'll be doing different things when you're acquiring users a thousand at a time, and growth has to slow down eventually. But if the market exists you can usually start by recruiting users manually and then gradually switch to less manual methods. [[3](#f3n)]",
+      "zhMarkdown": "当你一次需要获取上千个用户时，你的做法自然会发生改变，而且增长最终也必然会慢下来。但只要市场确实存在，你通常可以从手动招募用户开始，然后逐步过渡到不那么依赖人工的方法。[[3](#f3n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "4d6889e9efc91fd207e85019e3f6e714a18c41ee1d5751eaf594415ee71f0261",
+      "enMarkdown": "Airbnb is a classic example of this technique. Marketplaces are so hard to get rolling that you should expect to take heroic measures at first. In Airbnb's case, these consisted of going door to door in New York, recruiting new users and helping existing ones improve their listings. When I remember the Airbnbs during YC, I picture them with rolly bags, because when they showed up for tuesday dinners they'd always just flown back from somewhere.",
+      "zhMarkdown": "Airbnb 就是这种方法的经典案例。平台型市场（marketplace）极难做起来，因此在初期你必须采取一些非同寻常的“英雄举动”。就 Airbnb 而言，这包括在纽约挨家挨户拜访，招募新房东，并帮助现有的房东美化他们的房源信息。每当我想起 YC 期间的 Airbnb 创始人，脑海中总会出现他们拉着拉杆箱的画面，因为每次他们来参加周二晚餐时，都是刚从某个地方飞回来。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7d3193a52f87f71cd093a016f0b431b54151c1464cc7f51853f6a4e1bd32da93",
+      "enMarkdown": "**Fragile**",
+      "zhMarkdown": "**脆弱**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "f9a8e5e0cee1e68ba177b50a8c12d2104bd80dc83180617f499aa2316b3a1d1c",
+      "enMarkdown": "Airbnb now seems like an unstoppable juggernaut, but early on it was so fragile that about 30 days of going out and engaging in person with users made the difference between success and failure.",
+      "zhMarkdown": "今天的 Airbnb 看起来像是一个势不可挡的庞然大物，但在早期它非常脆弱，当时仅仅是花 30 天时间走出去和用户面对面交流，就决定了它的生死存亡。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "33af391db590c791e1d91df521d47346570415da9264b0dc7108fbb5814254c3",
+      "enMarkdown": "That initial fragility was not a unique feature of Airbnb. Almost all startups are fragile initially. And that's one of the biggest things inexperienced founders and investors (and reporters and know-it-alls on forums) get wrong about them. They unconsciously judge larval startups by the standards of established ones. They're like someone looking at a newborn baby and concluding \"there's no way this tiny creature could ever accomplish anything.\"",
+      "zhMarkdown": "这种初期的脆弱并不是 Airbnb 所独有的。几乎所有创业公司在最开始都极其脆弱。这也是没有经验的创始人、投资者（以及媒体和论坛上的懂哥们）对创业公司最大的误解。他们会不自觉地用成熟公司的标准来衡量处于萌芽期的创业公司。这就像看着一个刚出生的婴儿，然后得出结论说“这小家伙绝对不可能有什么大成就”一样荒谬。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "0d210df5457544c5dfac3267fb353316aa9d59657bdadcf9b990f41318632862",
+      "enMarkdown": "It's harmless if reporters and know-it-alls dismiss your startup. They always get things wrong. It's even ok if investors dismiss your startup; they'll change their minds when they see growth. The big danger is that you'll dismiss your startup yourself. I've seen it happen. I often have to encourage founders who don't see the full potential of what they're building. Even Bill Gates made that mistake. He returned to Harvard for the fall semester after starting Microsoft. He didn't stay long, but he wouldn't have returned at all if he'd realized Microsoft was going to be even a fraction of the size it turned out to be. [[4](#f4n)]",
+      "zhMarkdown": "如果媒体和懂哥们看轻你的创业公司，这无伤大雅，因为他们总是看走眼。甚至连投资者看轻你也无所谓，因为一旦看到增长，他们就会改变主意。最大的危险在于你自己也看轻自己的公司。我见过这种情况发生。我经常不得不去鼓励那些看不到自己所建项目巨大潜力的创始人。甚至比尔·盖茨也犯过这个错误。创立微软后，他还在秋季学期回到了哈佛上课。虽然他没待多久，但如果他当时意识到微软哪怕能达到后来规模的千分之一，他根本连回都不会回去。[[4](#f4n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "f9dc221f82e5a919fe0a51687009dd2599cabc730be45ed89eb1ab5e177e7520",
+      "enMarkdown": "The question to ask about an early stage startup is not \"is this company taking over the world?\" but \"how big could this company get if the founders did the right things?\" And the right things often seem both laborious and inconsequential at the time. Microsoft can't have seemed very impressive when it was just a couple guys in Albuquerque writing Basic interpreters for a market of a few thousand hobbyists (as they were then called), but in retrospect that was the optimal path to dominating microcomputer software. And I know Brian Chesky and Joe Gebbia didn't feel like they were en route to the big time as they were taking \"professional\" photos of their first hosts' apartments. They were just trying to survive. But in retrospect that too was the optimal path to dominating a big market.",
+      "zhMarkdown": "评估一家早期创业公司，问题不应该是“这家公司现在正在统治世界吗？”，而是“如果创始人做对了事情，这家公司能做多大？”而那些“正确的事情”在当时往往看起来既费力又微不足道。当年微软还只是阿尔伯克基的两个年轻人，为几千个发烧友（当时这么称呼他们）编写 Basic 解释器时，它看起来肯定不怎么起眼，但回过头看，那正是通往主导微机软件市场的最佳路径。我知道布莱恩·切斯基和乔·杰比亚在给第一批房东的公寓拍“专业”照片时，绝不觉得自己正走在通往巅峰的康庄大路上。他们当时只是想活下去。但回过头看，那同样是通往主导一个庞大市场的最佳路径。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "39c1c757905aac167e84ba9fe9cef0bb5a8035ee75a3a3811ebcaef09e910f5c",
+      "enMarkdown": "How do you find users to recruit manually? If you build something to solve [your own problems](https://paulgraham.com/startupideas.html), then you only have to find your peers, which is usually straightforward. Otherwise you'll have to make a more deliberate effort to locate the most promising vein of users. The usual way to do that is to get some initial set of users by doing a comparatively untargeted launch, and then to observe which kind seem most enthusiastic, and seek out more like them. For example, Ben Silbermann noticed that a lot of the earliest Pinterest users were interested in design, so he went to a conference of design bloggers to recruit users, and that worked well. [[5](#f5n)]",
+      "zhMarkdown": "你怎么找到用户来手动招募呢？如果你做东西是为了解决[你自己的问题](https://paulgraham.com/startupideas.html)，那么你只需要找到你的同类，这通常很简单。否则，你就得花心思去寻找最有可能成为核心用户的群体。通常的做法是通过一次范围较宽、针对性不那么强的发布来获取第一批用户，然后观察哪类用户最热情，再去寻找更多同类用户。例如，本·西尔伯曼注意到 Pinterest 最早的一批用户中有很多对设计感兴趣，于是他去参加了一个设计博主的会议来招募用户，效果非常好。[[5](#f5n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "0527d2effd2728f30c2a2b0f787b7e34a3011fa91c21a70056483a0cb57159a8",
+      "enMarkdown": "**Delight**",
+      "zhMarkdown": "**超预期体验**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "50745c05df4b6a7082c1a802a89c0ad574c726513c5510e461b10b9865d1c501",
+      "enMarkdown": "You should take extraordinary measures not just to acquire users, but also to make them happy. For as long as they could (which turned out to be surprisingly long), Wufoo sent each new user a hand-written thank you note. Your first users should feel that signing up with you was one of the best choices they ever made. And you in turn should be racking your brains to think of new ways to delight them.",
+      "zhMarkdown": "你不仅应该采取非常手段去获取用户，还应该用非常手段去让他们开心。在能力所及的范围内（事实证明这维持了相当长的时间），Wufoo 会给每一位新用户寄送手写的感谢信。你的第一批用户应该觉得，注册你的服务是他们做过的最明智的决定之一。而你，也应该绞尽脑汁去想出各种新方法来让他们感到惊喜和愉悦。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "6ee42c8cfd40baddfdf80682b5acfceb55ca5f2175b2165e9fd337ffa9b52432",
+      "enMarkdown": "Why do we have to teach startups this? Why is it counterintuitive for founders? Three reasons, I think.",
+      "zhMarkdown": "为什么我们必须教创业公司这些？为什么这对创始人来说反直觉？我认为有三个原因。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "58710b0ac342c696bbf654d38a2cbc0be41bd32291bf60ef7a984bc94b280a15",
+      "enMarkdown": "One is that a lot of startup founders are trained as engineers, and customer service is not part of the training of engineers. You're supposed to build things that are robust and elegant, not be slavishly attentive to individual users like some kind of salesperson. Ironically, part of the reason engineering is traditionally averse to handholding is that its traditions date from a time when engineers were less powerful — when they were only in charge of their narrow domain of building things, rather than running the whole show. You can be ornery when you're Scotty, but not when you're Kirk.",
+      "zhMarkdown": "一是许多创业公司的创始人都是工程师出身，而客户服务并不在工程师的训练大纲里。工程师应该去构建坚固、优雅的系统，而不是像个销售员一样对单个用户奴颜婢膝。具有讽刺意味的是，工程界传统上排斥“贴身服务”的部分原因，在于这一传统的形成时期工程师还不够有权力——当时他们只负责构建产品的狭窄领域，而不是掌控全局。当你是轮机长斯考蒂时，你可以脾气暴躁；但当你是柯克船长时，你不行。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "24efa47e082351c7f2cb60469cfc2d3be761be9305b5f17266484a24418f6d38",
+      "enMarkdown": "Another reason founders don't focus enough on individual customers is that they worry it won't scale. But when founders of larval startups worry about this, I point out that in their current state they have nothing to lose. Maybe if they go out of their way to make existing users super happy, they'll one day have too many to do so much for. That would be a great problem to have. See if you can make it happen. And incidentally, when it does, you'll find that delighting customers scales better than you expected. Partly because you can usually find ways to make anything scale more than you would have predicted, and partly because delighting customers will by then have permeated your culture.",
+      "zhMarkdown": "创始人不够关注单个客户的另一个原因，是他们担心这无法规模化。但当萌芽期初创公司的创始人为此担忧时，我会指出，以他们现在的处境，根本没有什么可失去的。也许如果他们竭尽全力让现有用户超级开心，有一天他们会因为用户太多而忙不过来。那将是一个甜蜜的烦恼。先设法让它发生再说。顺便提一句，当那一天真的到来时，你会发现让客户开心这件事，其可规模化程度比你想象的要高。部分原因在于你总能找到方法让任何事情都比预期更具规模化，另一部分原因在于，届时“让客户开心”已经渗透进了你们的公司文化。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "e848141908f5c82c576889f3014437f4acff136524175f909908f7edffb3b651",
+      "enMarkdown": "I have never once seen a startup lured down a blind alley by trying too hard to make their initial users happy.",
+      "zhMarkdown": "我从未见过任何一家创业公司，因为太努力让早期用户开心而走入死胡同的。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "8fbbd0de8597b8bbf3ee676195d7c8ab28edb90288c1acb994fdbcb063a424db",
+      "enMarkdown": "But perhaps the biggest thing preventing founders from realizing how attentive they could be to their users is that they've never experienced such attention themselves. Their standards for customer service have been set by the companies they've been customers of, which are mostly big ones. Tim Cook doesn't send you a hand-written note after you buy a laptop. He can't. But you can. That's one advantage of being small: you can provide a level of service no big company can. [[6](#f6n)]",
+      "zhMarkdown": "不过，阻碍创始人意识到自己能对用户有多贴心的最大原因，可能在于他们自己从未体验过这种待遇。他们对客户服务的标准，是由他们作为消费者所接触过的公司（大多是巨头）所定义的。蒂姆·库克在你买完笔记本后不会给你写手写信，他做不到。但你能做到。这就是身为小公司的一个优势：你可以提供任何大公司都无法企及的服务水平。[[6](#f6n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "5849be8f6ea324896ef59dece05fd56d2f929d0701680dec730609032de444a8",
+      "enMarkdown": "Once you realize that existing conventions are not the upper bound on user experience, it's interesting in a very pleasant way to think about how far you could go to delight your users.",
+      "zhMarkdown": "一旦你意识到现有的行业惯例并不是用户体验的上限，去思考你能为取悦用户走得多远，就会变成一件极其令人兴奋和愉悦的事。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "fc0a357135994f390cf956b267943ca78212410f7401634b854f8234c33c08c8",
+      "enMarkdown": "**Experience**",
+      "zhMarkdown": "**体验**"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "a5a3c234b92fde58a14f6f784eaf25f03430df87e5687cb0dfdd93c0a01f678a",
+      "enMarkdown": "I was trying to think of a phrase to convey how extreme your attention to users should be, and I realized Steve Jobs had already done it: insanely great. Steve wasn't just using \"insanely\" as a synonym for \"very.\" He meant it more literally — that one should focus on quality of execution to a degree that in everyday life would be considered pathological.",
+      "zhMarkdown": "我曾试图想出一个词来表达对用户的关注应该达到何种极致，然后我发现史蒂夫·乔布斯已经说过了：酷毙了（insanely great）。史蒂夫不仅把“insanely”（疯狂地）当作“very”（非常）的同义词，他更字面上的意思是——一个人对执行质量的关注，应该达到在日常生活中被视为病态的程度。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "207b4e78f75ca802f5a50308f13883d5f9719ea567885d17724d779cb4150e41",
+      "enMarkdown": "All the most successful startups we've funded have, and that probably doesn't surprise would-be founders. What novice founders don't get is what insanely great translates to in a larval startup. When Steve Jobs started using that phrase, Apple was already an established company. He meant the Mac (and its documentation and even packaging — such is the nature of obsession) should be insanely well designed and manufactured. That's not hard for engineers to grasp. It's just a more extreme version of designing a robust and elegant product.",
+      "zhMarkdown": "我们资助过的所有最成功的创业公司都做到了这一点，这可能不会让准创始人感到意外。但新手创始人不明白的是，“酷毙了”在一家刚起步的初创公司里意味着什么。当史蒂夫·乔布斯开始使用这个词时，苹果已经是一家成熟的公司了。他的意思是 Mac（以及它的说明书甚至包装——这就是强迫症的本质）应该设计和制造得极其精湛。这对于工程师来说不难理解，这只是设计一个坚固且优雅的产品的极致版本。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "3d8f30b0396147820d36bbc3eeba59f0f9358f8b5ed91480f5b28b3ba7170212",
+      "enMarkdown": "What founders have a hard time grasping (and Steve himself might have had a hard time grasping) is what insanely great morphs into as you roll the time slider back to the first couple months of a startup's life. It's not the product that should be insanely great, but the experience of being your user. The product is just one component of that. For a big company it's necessarily the dominant one. But you can and should give users an insanely great experience with an early, incomplete, buggy product, if you make up the difference with attentiveness.",
+      "zhMarkdown": "创始人很难理解（甚至史蒂夫本人可能也很难理解）的是，当你把时间轴拉回到创业公司生命最初的几个月时，“酷毙了”会演变成什么。此时，应该做到“酷毙了”的不是产品，而是作为你用户的体验。产品只是其中的一部分。对于大公司来说，产品必然是主导因素。但对于早期、不完整且充满 bug 的产品，如果你能用无微不至的贴身服务来弥补缺陷，你完全可以、也应该给用户带来酷毙了的体验。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "61b519163965a86d71ad4f4a1520b956430b34442dab77f857e09d290a36b65c",
+      "enMarkdown": "Can, perhaps, but should? Yes. Over-engaging with early users is not just a permissible technique for getting growth rolling. For most successful startups it's a necessary part of the feedback loop that makes the product good. Making a better mousetrap is not an atomic operation. Even if you start the way most successful startups have, by building something you yourself need, the first thing you build is never quite right. And except in domains with big penalties for making mistakes, it's often better not to aim for perfection initially. In software, especially, it usually works best to get something in front of users as soon as it has a quantum of utility, and then see what they do with it. Perfectionism is often an excuse for procrastination, and in any case your initial model of users is always inaccurate, even if you're one of them. [[7](#f7n)]",
+      "zhMarkdown": "或许可以，但真的应该吗？是的。与早期用户过度接触，不仅是推动增长的许可手段，对于大多数成功的创业公司来说，它还是让产品变好的反馈循环中必不可少的一部分。制造一个更好的捕鼠器不是一蹴而就的。即使你像大多数成功创业公司那样，从构建自己需要的东西开始，你做出来的第一个东西也绝不会完全正确。除了那些犯错代价极高的领域外，初期不以完美为目标通常效果更好。特别是在软件行业，最好的做法通常是只要产品具备了一点点实用价值，就立刻把它推到用户面前，然后观察他们怎么使用。完美主义往往是拖延症的借口，而且无论如何，你最初对用户的设想永远是不准确的，即使你自己就是用户之一。[[7](#f7n)]"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "5c3997372de83d527dc4a881e6b5a44a9683dd89a7af1efd57dcdd75fc7020ee",
+      "enMarkdown": "The feedback you get from engaging directly with your earliest users will be the best you ever get. When you're so big you have to resort to focus groups, you'll wish you could go over to your users' homes and offices and watch them use your stuff like you did when there were only a handful of them.",
+      "zhMarkdown": "通过与最早的用户直接接触所获得的反馈，将是你所能得到的最好的反馈。当公司大到不得不求助于焦点小组（focus groups）时，你会无比怀念当年只有几个用户的时候，你可以直接去他们家里或办公室，看着他们使用你产品的日子。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "b499281be715e81361f7e0771d6629350b73d38487ac3ea54256959539db62c8",
+      "enMarkdown": "**Fire**",
+      "zhMarkdown": "**星星之火**"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "a58f4dc24a3b1638b2e36ff298c3b5a7cf813c3c459e565750c120b90c90046a",
+      "enMarkdown": "Sometimes the right unscalable trick is to focus on a deliberately narrow market. It's like keeping a fire contained at first to get it really hot before adding more logs.",
+      "zhMarkdown": "有时候，正确的无法规模化的诀窍是刻意专注于一个狭窄的市场。这就像在添柴加火之前，先让一小堆火聚拢起来，烧得极旺。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "62f3033cfdba41cc70d072a442cc4f79661cc4655e266479d35bbf30dd213fde",
+      "enMarkdown": "That's what Facebook did. At first it was just for Harvard students. In that form it only had a potential market of a few thousand people, but because they felt it was really for them, a critical mass of them signed up. After Facebook stopped being for Harvard students, it remained for students at specific colleges for quite a while. When I interviewed Mark Zuckerberg at Startup School, he said that while it was a lot of work creating course lists for each school, doing that made students feel the site was their natural home.",
+      "zhMarkdown": "Facebook 就是这么做的。起初它只针对哈佛学生。在这种形式下，它的潜在市场只有几千人，但因为他们觉得这个网站完全是为自己量身定制的，所以绝大多数人都注册了。在 Facebook 不再局限于哈佛之后，它在相当长的一段时间里仍然只针对特定大学的学生。当我在 Startup School 采访马克·扎克伯格时，他说虽然为每所学校创建课程列表非常费力，但这样做让学生们觉得这个网站就是他们天然的归属。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "6f5a864c6480ce021504616b54bba4f4bb4fbbfa4668509ddd3fa5c7c357a6ce",
+      "enMarkdown": "Any startup that could be described as a marketplace usually has to start in a subset of the market, but this can work for other startups as well. It's always worth asking if there's a subset of the market in which you can get a critical mass of users quickly. [[8](#f8n)]",
+      "zhMarkdown": "任何可以被定义为平台型市场的创业公司，通常都必须从市场的一个细分部分开始，但这种策略同样适用于其他类型的创业公司。永远值得问自己一句：是否存在一个市场的细分部分，能让你在其中迅速获取关键多数的用户？[[8](#f8n)]"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "feb2ae455071e7fd348a3d4762fd6936f4eacc8e4ba1e84ea967aa9e151dc6d0",
+      "enMarkdown": "Most startups that use the contained fire strategy do it unconsciously. They build something for themselves and their friends, who happen to be the early adopters, and only realize later that they could offer it to a broader market. The strategy works just as well if you do it unconsciously. The biggest danger of not being consciously aware of this pattern is for those who naively discard part of it. E.g. if you don't build something for yourself and your friends, or even if you do, but you come from the corporate world and your friends are not early adopters, you'll no longer have a perfect initial market handed to you on a platter.",
+      "zhMarkdown": "大多数采用这种“局部燃火”策略的创业公司都是无意识的。他们为自己和朋友（恰好是早期采用者）做了一些东西，后来才意识到可以把它推向更广阔的市场。即使无意识地使用，这个策略也同样有效。没有意识到这种模式的最大危险在于，那些天真地丢弃了其中一部分的人。例如，如果你不是为自己和朋友做东西，或者即使你是，但你来自企业界，你的朋友并不是早期采用者，你就不再拥有一个现成奉上的完美初始市场了。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "516d6c395b74e0e1fb3fe38f506dde7950b3da0534a977e32711a7b818047f0e",
+      "enMarkdown": "Among companies, the best early adopters are usually other startups. They're more open to new things both by nature and because, having just been started, they haven't made all their choices yet. Plus when they succeed they grow fast, and you with them. It was one of many unforeseen advantages of the YC model (and specifically of making YC big) that B2B startups now have an instant market of hundreds of other startups ready at hand.",
+      "zhMarkdown": "在企业中，最好的早期采用者通常是其他创业公司。他们天生对新事物持更开放的态度，而且因为刚起步，他们还没有做出所有的技术选型。此外，当他们成功时，他们会快速成长，你也会随之成长。YC 模式（特别是把 YC 做大）的一个意料之外的诸多好处之一，就是 B2B 创业公司现在拥有了一个由数百家其他创业公司组成的现成初始市场。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "b9a2f60b16d79efb0bfe2091fefa27c47a97e6b74245facecd9d9cd9cd37b230",
+      "enMarkdown": "**Meraki**",
+      "zhMarkdown": "**Meraki 模式**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "4afef3eb2a0972911a73bc2ba3adf0087612d959ef42f7d67b821f9d50909a4e",
+      "enMarkdown": "For [hardware startups](https://paulgraham.com/hw.html) there's a variant of doing things that don't scale that we call \"pulling a Meraki.\" Although we didn't fund Meraki, the founders were Robert Morris's grad students, so we know their history. They got started by doing something that really doesn't scale: assembling their routers themselves.",
+      "zhMarkdown": "对于[硬件创业公司](https://paulgraham.com/hw.html)，有一种我们称之为“复制 Meraki”的无法规模化的变体。虽然我们没有投资 Meraki，但创始人是罗伯特·莫里斯（Robert Morris）的研究生，所以我们了解他们的历史。他们是通过做一件真正无法规模化的事情起家的：自己动手组装路由器。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "07fe8c5876689ce663853273f2b2f25ed4079c0f1172393ecb0a0243f99e1d13",
+      "enMarkdown": "Hardware startups face an obstacle that software startups don't. The minimum order for a factory production run is usually several hundred thousand dollars. Which can put you in a catch-22: without a product you can't generate the growth you need to raise the money to manufacture your product. Back when hardware startups had to rely on investors for money, you had to be pretty convincing to overcome this. The arrival of crowdfunding (or more precisely, preorders) has helped a lot. But even so I'd advise startups to pull a Meraki initially if they can. That's what Pebble did. The Pebbles [assembled](https://sep.turbifycdn.com/ty/cdn/paulgraham/eric.jpg?t=1772732230&) the first several hundred watches themselves. If they hadn't gone through that phase, they probably wouldn't have sold $10 million worth of watches when they did go on Kickstarter.",
+      "zhMarkdown": "硬件创业公司面临着软件创业公司没有的障碍。工厂生产线的起订量通常需要几十万美元。这会让你陷入一个第 22 条军规的困境：没有产品你就无法产生募资所需的增长，而没有资金你就无法制造产品。在过去硬件创业公司必须完全依赖投资人资金的时代，你必须极具说服力才能克服这一点。众筹（更准确地说是预售）的出现提供了很大帮助。但即便如此，我还是会建议硬件创业公司在初期尽可能像 Meraki 那样做。Pebble 就是这么做的。他们自己[组装](https://sep.turbifycdn.com/ty/cdn/paulgraham/eric.jpg?t=1772732230&)了前几百只手表。如果他们没有经历过那个阶段，当他们在 Kickstarter 上线时，可能就卖不出价值 1000 万美元的手表。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "8e51101da8946e577e24a4056d92773103a87b791d9784c176c75f5fa49c24f0",
+      "enMarkdown": "Like paying excessive attention to early customers, fabricating things yourself turns out to be valuable for hardware startups. You can tweak the design faster when you're the factory, and you learn things you'd never have known otherwise. Eric Migicovsky of Pebble said one of the things he learned was \"how valuable it was to source good screws.\" Who knew?",
+      "zhMarkdown": "就像对早期客户倾注过度关注一样，对于硬件创业公司来说，自己动手制造产品同样价值连城。当你自己就是工厂时，你可以更快地调整设计，并且能学到你通过其他方式永远无法得知的知识。Pebble 的埃里克·米基科夫斯基（Eric Migicovsky）说，他学到的事情之一就是“采购优质螺丝是多么重要”。谁能想到呢？"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "b26f44e2930d052095e11fa256c529096601a6485b89b168b535bbf43000490d",
+      "enMarkdown": "**Consult**",
+      "zhMarkdown": "**咨询服务**"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "0e0b299da299c01429cece8c5f57d4b439d3d3e5f5eb922a9307a613f4c69887",
+      "enMarkdown": "Sometimes we advise founders of B2B startups to take over-engagement to an extreme, and to pick a single user and act as if they were consultants building something just for that one user. The initial user serves as the form for your mold; keep tweaking till you fit their needs perfectly, and you'll usually find you've made something other users want too. Even if there aren't many of them, there are probably adjacent territories that have more. As long as you can find just one user who really needs something and can act on that need, you've got a toehold in making something people want, and that's as much as any startup needs initially. [[9](#f9n)]",
+      "zhMarkdown": "有时我们会建议 B2B 创业公司的创始人将过度接触推向极致：挑选一个单一用户，表现得就像是专门为这一个用户开发产品的咨询顾问一样。这位初始用户就是你模具的形状；不断调整，直到完美契合他们的需求，你通常会发现自己做出的东西也是其他用户想要的。即使这类用户不多，也可能存在更多相邻的领域。只要你能找到一个真正有需求并能付诸行动的用户，你就找到了“做出人们想要的东西”的立足点，而这正是任何创业公司初期所需要的一切。[[9](#f9n)]"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "0ded27e4a378bd068d93e700c3a36ef279bdb96cc6ad84354c3fe88161577139",
+      "enMarkdown": "Consulting is the canonical example of work that doesn't scale. But (like other ways of bestowing one's favors liberally) it's safe to do it so long as you're not being paid to. That's where companies cross the line. So long as you're a product company that's merely being extra attentive to a customer, they're very grateful even if you don't solve all their problems. But when they start paying you specifically for that attentiveness — when they start paying you by the hour — they expect you to do everything.",
+      "zhMarkdown": "咨询是典型的无法规模化的工作。但是（就像其他慷慨施予恩惠的方式一样），只要你不是为了钱去做，这么做就是安全的。这就是公司容易越界的地方。只要你是一家仅仅对客户格外关注的产品公司，即使你没有解决他们的所有问题，他们也会非常感激。但当他们开始专门为了这种贴身服务向你付钱——开始按小时向你付费时——他们就会期望你把所有事情都做好。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "883b20c1971016ed0f6fee2d919dfbcaea44d215f44e5c6803a1956920bb082c",
+      "enMarkdown": "Another consulting-like technique for recruiting initially lukewarm users is to use your software yourselves on their behalf. We did that at Viaweb. When we approached merchants asking if they wanted to use our software to make online stores, some said no, but they'd let us make one for them. Since we would do anything to get users, we did. We felt pretty lame at the time. Instead of organizing big strategic e-commerce partnerships, we were trying to sell luggage and pens and men's shirts. But in retrospect it was exactly the right thing to do, because it taught us how it would feel to merchants to use our software. Sometimes the feedback loop was near instantaneous: in the middle of building some merchant's site I'd find I needed a feature we didn't have, so I'd spend a couple hours implementing it and then resume building the site.",
+      "zhMarkdown": "另一种招募起初态度冷淡的用户、类似于咨询的方法，是代表他们亲自使用你自己的软件。我们在 Viaweb 就这么干过。当我们接触商家，询问他们是否想用我们的软件来建网上商店时，有些人说不想，但他们愿意让我们帮他们建一个。既然为了获取用户我们愿意做任何事，我们就照做了。当时我们觉得自己挺窝囊的。我们没有去组织宏大的战略电子商务合作，而是在努力推销旅行箱、钢笔和男士衬衫。但回过头看，这完全是正确的事情，因为它教会了我们商家使用我们软件时的真实感受。有时反馈循环几乎是瞬间完成的：在帮某个商家建站的过程中，我发现需要一个我们没有的功能，于是我会花几个小时把它实现，然后继续建站。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "97ba563d4e22c959ed808a8030edb30279446c87ad17594601d064bb6721a8d2",
+      "enMarkdown": "**Manual**",
+      "zhMarkdown": "**人工后台**"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "6c635232e1749cc1f30cca2d2f474a9e6eb064a98c527cf19e50698016643ba2",
+      "enMarkdown": "There's a more extreme variant where you don't just use your software, but are your software. When you only have a small number of users, you can sometimes get away with doing by hand things that you plan to automate later. This lets you launch faster, and when you do finally automate yourself out of the loop, you'll know exactly what to build because you'll have muscle memory from doing it yourself.",
+      "zhMarkdown": "还有一种更极端的变体，你不仅是使用你的软件，你本身就是你的软件。当你只有少数用户时，你可以先用人工来完成你计划以后自动化实现的事情。这能让你发布得更快，而当你最终通过自动化把自己从流程中解放出来时，你会确切地知道该构建什么，因为你通过亲自动手已经形成了肌肉记忆。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "ca482d2622543ef2b6626767887eb00e7f4ec9dce5a426fdf23659bb1272beb8",
+      "enMarkdown": "When manual components look to the user like software, this technique starts to have aspects of a practical joke. For example, the way Stripe delivered \"instant\" merchant accounts to its first users was that the founders manually signed them up for traditional merchant accounts behind the scenes.",
+      "zhMarkdown": "当人工环节在用户看来像软件一样运行时，这种方法就带点恶作剧的色彩了。例如，Stripe 向其首批用户提供“即时”商家账户的方式，其实是创始人在后台手动帮他们申请传统商家账户。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "f9bdf90dc269bf220604cce824eb8a35b20db8fcdbe798f45aa461ba4f3ba2f0",
+      "enMarkdown": "Some startups could be entirely manual at first. If you can find someone with a problem that needs solving and you can solve it manually, go ahead and do that for as long as you can, and then gradually automate the bottlenecks. It would be a little frightening to be solving users' problems in a way that wasn't yet automatic, but less frightening than the far more common case of having something automatic that doesn't yet solve anyone's problems.",
+      "zhMarkdown": "有些创业公司在最初阶段可以完全靠人工运行。如果你能找到一个有痛点需要解决的人，并且你能用人工帮他解决，那就尽管去做，能做多久做多久，然后逐步将瓶颈自动化。用尚未自动化的方式去解决用户的问题可能会让人有点害怕，但这远没有那种更常见的情况可怕——做出了自动化的东西，却解决不了任何人的问题。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "d940e2edca69764c55757830d244ba23a1d15c4f5f652c5e68d1afb36ea91d3f",
+      "enMarkdown": "**Big**",
+      "zhMarkdown": "**宏大发布**"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "2612507b1e3ecaaac16b96a7c50c7bc0de86929540bd11a5a412424e57da01cd",
+      "enMarkdown": "I should mention one sort of initial tactic that usually doesn't work: the Big Launch. I occasionally meet founders who seem to believe startups are projectiles rather than powered aircraft, and that they'll make it big if and only if they're launched with sufficient initial velocity. They want to launch simultaneously in 8 different publications, with embargoes. And on a tuesday, of course, since they read somewhere that's the optimum day to launch something.",
+      "zhMarkdown": "我应该提一下一种通常行不通的初期策略：宏大发布。我偶尔会遇到一些创始人，他们似乎认为创业公司是炮弹而不是动力飞机，只要发射时有足够的初速度就能成功。他们希望在 8 家不同的媒体上同时发布，并设有禁发期。当然，还要选在周二，因为他们不知在什么地方读到那是发布产品的最佳日子。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "d08c8a8752361531fa83e6599c7081fd57363d14fd16778b42e7af388acc681b",
+      "enMarkdown": "It's easy to see how little launches matter. Think of some successful startups. How many of their launches do you remember? All you need from a launch is some initial core of users. How well you're doing a few months later will depend more on how happy you made those users than how many there were of them. [[10](#f10n)]",
+      "zhMarkdown": "发布会其实有多无足轻重，显而易见。想想那些成功的创业公司，你还记得它们当中有多少个的发布会？你从一次发布中需要的仅仅是一些初始的核心用户。几个月后你做得如何，更取决于你让这些用户有多开心，而不是当时有多少用户。[[10](#f10n)]"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "6dceed3ecfccf426ad1d803bb873a2565147810ae473df6d8061f4d6bcc3a178",
+      "enMarkdown": "So why do founders think launches matter? A combination of solipsism and laziness. They think what they're building is so great that everyone who hears about it will immediately sign up. Plus it would be so much less work if you could get users merely by broadcasting your existence, rather than recruiting them one at a time. But even if what you're building really is great, getting users will always be a gradual process — partly because great things are usually also novel, but mainly because users have other things to think about.",
+      "zhMarkdown": "那么为什么创始人会认为发布会很重要呢？这是唯我独尊和懒惰的结合。他们认为自己做的东西太棒了，每个听到的人都会立刻注册。此外，如果仅仅通过宣告自己的存在就能获取用户，而不是一个个去招募，那该省去多少工作啊。但即使你构建的东西真的很棒，获取用户也永远是一个渐进的过程——部分原因在于伟大的事物通常也是新颖的，但主要原因在于用户还有别的事情要考虑。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "f69dc064efbce3aae80f208bedadb81da42337cafb99521088d45e9b8b9b3830",
+      "enMarkdown": "Partnerships too usually don't work. They don't work for startups in general, but they especially don't work as a way to get growth started. It's a common mistake among inexperienced founders to believe that a partnership with a big company will be their big break. Six months later they're all saying the same thing: that was way more work than we expected, and we ended up getting practically nothing out of it. [[11](#f11n)]",
+      "zhMarkdown": "合作伙伴关系通常也行不通。它们对创业公司整体而言一般不起作用，作为启动增长的方式尤其不起作用。没有经验的创始人常犯的一个错误是，相信与大公司的合作将是他们的重大突破。六个月后，他们都会说同样的话：那比我们预想的工作量大得多，而且我们最后几乎什么都没得到。[[11](#f11n)]"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "db747f4a8feaf75c32ac07f21e0e22ac2e115da9d2d0c981a3022220dff641b6",
+      "enMarkdown": "It's not enough just to do something extraordinary initially. You have to make an extraordinary *effort* initially. Any strategy that omits the effort — whether it's expecting a big launch to get you users, or a big partner — is ipso facto suspect.",
+      "zhMarkdown": "仅仅在初期做一些非凡的事情是不够的。你必须在初期付出非凡的*努力*。任何省略了这种努力的策略——无论是寄希望于一次宏大的发布来带来源源不断的用户，还是寄希望于一个巨头合作伙伴——本身都是值得怀疑的。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "d04150251fadec0ab3170ebceb31c68f47e90864e8ee2bbaa25f5ef6da53e82c",
+      "enMarkdown": "**Vector**",
+      "zhMarkdown": "**向量**"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "316b252e4c33e4e11453687b3906334700b6903b7f58d383a3f9e4df97b502f1",
+      "enMarkdown": "The need to do something unscalably laborious to get started is so nearly universal that it might be a good idea to stop thinking of startup ideas as scalars. Instead we should try thinking of them as pairs of what you're going to build, plus the unscalable thing(s) you're going to do initially to get the company going.",
+      "zhMarkdown": "起步时需要做一些无法规模化、费时费力的事情，这几乎是普遍规律，因此最好不要再把创业点子看作是标量。相反，我们应该尝试把它们看作是一个向量：你将要构建的东西，加上你起初为了让公司运转起来要做的、无法规模化的事情。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "1a566df1d0076afb0c6ecf6df35340b691f43b26f3fc6c504df27c214396d986",
+      "enMarkdown": "It could be interesting to start viewing startup ideas this way, because now that there are two components you can try to be imaginative about the second as well as the first. But in most cases the second component will be what it usually is — recruit users manually and give them an overwhelmingly good experience — and the main benefit of treating startups as vectors will be to remind founders they need to work hard in two dimensions. [[12](#f12n)]",
+      "zhMarkdown": "开始用这种方式看待创业点子会很有趣，因为现在有了两个维度，你不仅可以在第一个维度上发挥创意，也可以在第二个维度上发挥创意。但在大多数情况下，第二部分仍然会是老三样——手动招募用户并给他们提供无可挑剔的极佳体验。而将创业公司视为向量的主要好处，是提醒创始人他们需要在两个维度上同时努力。[[12](#f12n)]"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "03b0f8a483778a5eb9a4f2b2737e7e83339d8f5d6d35b0154f9721082bfd0ff0",
+      "enMarkdown": "In the best case, both components of the vector contribute to your company's DNA: the unscalable things you have to do to get started are not merely a necessary evil, but change the company permanently for the better. If you have to be aggressive about user acquisition when you're small, you'll probably still be aggressive when you're big. If you have to manufacture your own hardware, or use your software on users's behalf, you'll learn things you couldn't have learned otherwise. And most importantly, if you have to work hard to delight users when you only have a handful of them, you'll keep doing it when you have a lot.",
+      "zhMarkdown": "在最理想的情况下，向量的这两个维度都会融入公司的 DNA：起步时不得不做的那些无法规模化的事情，不仅不是一种必要的恶，反而会永久性地把公司往更好的方向塑造。如果你在弱小时必须在获取用户上保持狼性，那么当你变大时，你可能依然会保持这种狼性。如果你必须自己制造硬件，或者代表用户使用你的软件，你就会学到通过其他方式永远无法学到的东西。最重要的是，如果你在只有少数用户时必须拼尽全力取悦他们，那么当你拥有海量用户时，你依然会坚持这么做。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "38bf4bf8e0f51c5620662c1bd6d60d3365e357f5355594db2bd999cab7d396d9",
+      "enMarkdown": "[1] Actually Emerson never mentioned mousetraps specifically. He wrote \"If a man has good corn or wood, or boards, or pigs, to sell, or can make better chairs or knives, crucibles or church organs, than anybody else, you will find a broad hard-beaten road to his house, though it be in the woods.\"",
+      "zhMarkdown": "[1] 实际上爱默生从未具体提到过捕鼠器。他写的是：“如果一个人有好的玉米、木材、板材或猪要卖，或者能做出比任何人都好的椅子、刀具、坩埚或教堂风琴，即使他的房子在森林里，你也会发现一条被众人踩出来的宽阔道路通往他家。”"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "f69661381e396a1ea09d02a747e49df8d1ac9856b95e596f3e8805fcc3525fb3",
+      "enMarkdown": "[2] Thanks to Sam Altman for suggesting I make this explicit. And no, you can't avoid doing sales by hiring someone to do it for you. You have to do sales yourself initially. Later you can hire a real salesperson to replace you.",
+      "zhMarkdown": "[2] 感谢山姆·奥特曼（Sam Altman）建议我明确这一点。另外，你不能通过雇人来帮你做销售来逃避这件事。你起初必须自己做销售。以后你可以雇一个真正的销售人员来替代你。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "ba5f5b309e6f5ba2d494d1b587787645563b5a321efb77cc8b9d0c17b53cdfea",
+      "enMarkdown": "[3] The reason this works is that as you get bigger, your size helps you grow. Patrick Collison wrote \"At some point, there was a very noticeable change in how Stripe felt. It tipped from being this boulder we had to push to being a train car that in fact had its own momentum.\"",
+      "zhMarkdown": "[3] 这之所以有效，是因为随着你变大，你的规模本身会帮助你增长。帕特里克·科里森写道：“在某个时刻，Stripe 的感觉发生了非常明显的改变。它从一块我们必须用力推的巨石，变成了一辆实际上自身带有惯性的火车车厢。”"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "81f546d436d1f89ebad71884e4d7681fb453d53401cc1c6ae72de812b7c61681",
+      "enMarkdown": "[4] One of the more subtle ways in which YC can help founders is by calibrating their ambitions, because we know exactly how a lot of successful startups looked when they were just getting started.",
+      "zhMarkdown": "[4] YC 能够帮助创始人的更微妙方式之一，就是校准他们的野心，因为我们确切地知道许多成功的创业公司在刚起步时是什么样子的。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "bc72fa5c6efd9fde94b323789b6ba005cd6fe133bb225ce143ac88be06720b72",
+      "enMarkdown": "[5] If you're building something for which you can't easily get a small set of users to observe — e.g. enterprise software — and in a domain where you have no connections, you'll have to rely on cold calls and introductions. But should you even be working on such an idea?",
+      "zhMarkdown": "[5] 如果你正在构建的东西很难让你轻易找到一小批用户来观察——例如企业软件——而且是在一个你没有任何人脉的领域，你就必须依赖冷打（cold calls）和引荐。但是，你真的应该去做这样一个点子吗？"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "8a1aa5981e2a5aa1ab26813c14763f5d7f18b0c9cb0e333d36461ec0857e69e9",
+      "enMarkdown": "[6] Garry Tan pointed out an interesting trap founders fall into in the beginning. They want so much to seem big that they imitate even the flaws of big companies, like indifference to individual users. This seems to them more \"professional.\" Actually it's better to embrace the fact that you're small and use whatever advantages that brings.",
+      "zhMarkdown": "[6] 陈嘉兴（Garry Tan）指出了创始人起步时容易陷入的一个有趣陷阱。他们太想让自己显得规模宏大，以至于连大公司的缺点也去模仿，比如对单个用户的冷漠。在他们看来，这显得更“专业”。实际上，最好是大方接受自己很小的事实，并利用这带来的任何优势。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "c0a79d6282e3b977b5c140ab9609d1f245cf651ae3e76e04210508e238c64053",
+      "enMarkdown": "[7] Your user model almost couldn't be perfectly accurate, because users' needs often change in response to what you build for them. Build them a microcomputer, and suddenly they need to run spreadsheets on it, because the arrival of your new microcomputer causes someone to invent the spreadsheet.",
+      "zhMarkdown": "[7] 你对用户的设想几乎不可能完全准确，因为用户的需求往往会随着你为他们构建的产品而发生改变。给他们造一台微型计算机，突然之间他们就需要用它来运行电子表格了，因为你的新微型计算机的出现促使某人发明了电子表格。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "d1594231853d0c68b801387b0ee43badb63a82378b567e11ff9418763384497e",
+      "enMarkdown": "[8] If you have to choose between the subset that will sign up quickest and those that will pay the most, it's usually best to pick the former, because those are probably the early adopters. They'll have a better influence on your product, and they won't make you expend as much effort on sales. And though they have less money, you don't need that much to maintain your target growth rate early on.",
+      "zhMarkdown": "[8] 如果你必须在“能最快注册”和“付费最多”的用户群之间做出选择，通常最好选择前者，因为他们很可能是早期采用者。他们会对你的产品产生更好的影响，而且不会让你在销售上花费那么多精力。虽然他们钱较少，但在早期你并不需要那么多钱来维持你的目标增长率。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "7fab026588c18b468dd9077e112fe7f4594ada74bf2d0bcbe16dfdd2fb8d4b78",
+      "enMarkdown": "[9] Yes, I can imagine cases where you could end up making something that was really only useful for one user. But those are usually obvious, even to inexperienced founders. So if it's not obvious you'd be making something for a market of one, don't worry about that danger.",
+      "zhMarkdown": "[9] 是的，我可以想象你最终做出的东西真的只对一个用户有用的情况。但这通常显而易见，即使对于没有经验的创始人也是如此。所以，如果你不觉得自己在为一个仅有一人的市场做东西，就不用担心这个危险。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "b3caa206681dc1b8859817f7f12daae4a25f95fd6d08c3560ddbc1c3d89093d9",
+      "enMarkdown": "[10] There may even be an inverse correlation between launch magnitude and success. The only launches I remember are famous flops like the Segway and Google Wave. Wave is a particularly alarming example, because I think it was actually a great idea that was killed partly by its overdone launch.",
+      "zhMarkdown": "[10] 发布会的规模与成功之间甚至可能存在负相关。我唯一记得的发布会都是著名的失败案例，比如 Segway 和 Google Wave。Wave 是一个特别令人警醒的例子，因为我认为它其实是一个极棒的点子，但部分是被它那过度张扬的发布会给搞砸的。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "fa181d7e8d8efd385e16cbf6a35a12134b1abb8811bef955a8d9aae261d7db2c",
+      "enMarkdown": "[11] Google grew big on the back of Yahoo, but that wasn't a partnership. Yahoo was their customer.",
+      "zhMarkdown": "[11] 谷歌是靠着雅虎做大的，但那不是合作伙伴关系。雅虎是他们的客户。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "f06c89c11cef2f498d4d9028343da41be73d2539e1085011870a68d79182a556",
+      "enMarkdown": "[12] It will also remind founders that an idea where the second component is empty — an idea where there is nothing you can do to get going, e.g. because you have no way to find users to recruit manually — is probably a bad idea, at least for those founders.",
+      "zhMarkdown": "[12] 这也会提醒创始人，如果一个点子的第二个维度是空的——即你没有任何办法可以让它运转起来，例如因为你没有办法手动招募到用户——那这可能是一个坏点子，至少对这些创始人来说是这样。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "2a2a49fe3c415bc9a6b1818ac9055c37e6ba2aae2baa53292da81cc81c98745c",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, Kevin Hale, Steven Levy, Jessica Livingston, Geoff Ralston, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Patrick Collison、Kevin Hale、Steven Levy、Jessica Livingston、Geoff Ralston 和 Garry Tan 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "judgement",
+  "titleEn": "Two Kinds of Judgement",
+  "titleZh": "两种评判",
+  "dateText": "April 2007",
+  "publishedAt": "2007-04-01",
+  "sourceOrder": 155,
+  "sourceUrl": "https://paulgraham.com/judgement.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "026cc0c4aa033c03eee9a6d347840fc01c7df72c4c4116d51b550e8bd1e4a463",
+      "enMarkdown": "There are two different ways people judge you. Sometimes judging you correctly is the end goal. But there's a second much more common type of judgement where it isn't. We tend to regard all judgements of us as the first type. We'd probably be happier if we realized which are and which aren't.",
+      "zhMarkdown": "人们对你的评判有两种不同的方式。有时，准确评判你就是终极目标。但在更常见的第二种评判中，情况并非如此。我们倾向于将所有对我们的评判都视为第一种。如果我们能分清哪些是、哪些不是，我们大概会活得更快乐。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "7fd8d98f6cd1c329d858ac8fd36e966ff047c165f5993a2e0a567ddf10a0aad3",
+      "enMarkdown": "The first type of judgement, the type where judging you is the end goal, include court cases, grades in classes, and most competitions. Such judgements can of course be mistaken, but because the goal is to judge you correctly, there's usually some kind of appeals process. If you feel you've been misjudged, you can protest that you've been treated unfairly.",
+      "zhMarkdown": "第一种评判——即以准确评判你为终极目标的评判——包括法庭审判、课堂评分以及大多数比赛。这类评判当然也可能出错，但因为其目标是做出正确的判决，所以通常会设有某种申诉机制。如果你觉得被误判了，你可以抗议自己受到了不公正的对待。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "9bf494a7a2ccb84c2bfaf723dc4f988c2addfc6e6e487e72e162370b9b6120e1",
+      "enMarkdown": "Nearly all the judgements made on children are of this type, so we get into the habit early in life of thinking that all judgements are.",
+      "zhMarkdown": "几乎所有对儿童的评判都属于这一类，因此我们在人生早期就养成了一种习惯，认为所有的评判都是如此。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "929dcf5fd42e4a69d6a2330c9376dfeb97ef484940a02b637422a10fbabe2762",
+      "enMarkdown": "But in fact there is a second much larger class of judgements where judging you is only a means to something else. These include college admissions, hiring and investment decisions, and of course the judgements made in dating. This kind of judgement is not really about you.",
+      "zhMarkdown": "但事实上，还存在第二类范围更广的评判，其中对你的评判只是达到其他目的的手段。这包括大学录取、招聘、投资决策，当然还有恋爱中的选择。这种评判其实并不是针对你个人的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "e9dc3afc3236d86ca6270d5badd0ff350c33d726995648fec47d5b376b4021ac",
+      "enMarkdown": "Put yourself in the position of someone selecting players for a national team. Suppose for the sake of simplicity that this is a game with no positions, and that you have to select 20 players. There will be a few stars who clearly should make the team, and many players who clearly shouldn't. The only place your judgement makes a difference is in the borderline cases. Suppose you screw up and underestimate the 20th best player, causing him not to make the team, and his place to be taken by the 21st best. You've still picked a good team. If the players have the usual distribution of ability, the 21st best player will be only slightly worse than the 20th best. Probably the difference between them will be less than the measurement error.",
+      "zhMarkdown": "假设你正处于为国家队选拔队员的位置。为了简单起见，假设这项运动没有位置之分，而你需要选出 20 名队员。会有少数明星球员显然应该入选，也会有很多球员显然不该入选。你的判断唯一能起作用的地方，就是在那些处于边缘的情况。假设你搞砸了，低估了第 20 名最优秀的球员，导致他没能入选，而他的位置被第 21 名最优秀的球员顶替了。你依然选拔出了一支优秀的队伍。如果球员的能力呈常规分布，第 21 名球员只会比第 20 名稍微差一点点。他们之间的差距甚至可能小于测量误差。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "e2ba97f2d153bee3778aff5ced47fb0f01f148b1ae08f59b9877e19e471f3d17",
+      "enMarkdown": "The 20th best player may feel he has been misjudged. But your goal here wasn't to provide a service estimating people's ability. It was to pick a team, and if the difference between the 20th and 21st best players is less than the measurement error, you've still done that optimally.",
+      "zhMarkdown": "第 20 名球员可能会觉得他被误判了。但你在这里的目标并不是提供一项评估人们能力的专业服务。你的目标是组建一支队伍，如果第 20 名和第 21 名球员之间的差距小于测量误差，你其实已经做出了最优的选择。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "441b0c2fce79a5044c8bc818956cc8c043b43c1201c4fd77447095a841bc5719",
+      "enMarkdown": "It's a false analogy even to use the word unfair to describe this kind of misjudgement. It's not aimed at producing a correct estimate of any given individual, but at selecting a reasonably optimal set.",
+      "zhMarkdown": "用“不公平”这个词来形容这种误判甚至是一种不恰当的类比。因为这种评判的目的并不是对任何特定个人做出准确的评估，而是为了筛选出一个合理的最优组合。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "36a60d7690cba43de317e0e6ad060800cd21238e09e0fd10cf895d205748f7e7",
+      "enMarkdown": "One thing that leads us astray here is that the selector seems to be in a position of power. That makes him seem like a judge. If you regard someone judging you as a customer instead of a judge, the expectation of fairness goes away. The author of a good novel wouldn't complain that readers were *unfair* for preferring a potboiler with a racy cover. Stupid, perhaps, but not unfair.",
+      "zhMarkdown": "让我们产生误解的一个原因，是选拔者似乎处于权力地位。这让他们看起来像个法官。但如果你把评判你的人看作顾客而不是法官，对公平的期待就会消失。一本优秀小说的作者不会抱怨读者偏爱一本封面低俗的廉价畅销书是“不公平”的。这或许很愚蠢，但谈不上不公平。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "7a0567c3d0f8c4d19484c6cf0e9910f3ebe0744670cfb75552f8ba7a66ea2a47",
+      "enMarkdown": "Our early training and our self-centeredness combine to make us believe that every judgement of us is about us. In fact most aren't. This is a rare case where being less self-centered will make people more confident. Once you realize how little most people judging you care about judging you accurately—once you realize that because of the normal distribution of most applicant pools, it matters least to judge accurately in precisely the cases where judgement has the most effect—you won't take rejection so personally.",
+      "zhMarkdown": "我们早期的训练和自我中心主义结合在一起，让我们相信每一次对我们的评判都是针对我们个人的。事实上，大多数评判都不是。在这个少有的例子中，减少自我中心反而会让人更有自信。一旦你意识到大多数评判你的人其实根本不在意是否准确地评判了你——一旦你意识到，由于大多数申请者群体的正态分布，在评判影响最大的那些关键位置上，准确评判反而是最不重要的——你面对拒绝时就不会那么耿耿于怀了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e3dede172fcc51b3b50de1399d2336dcaf527b947e4113a74d8281970620f6c4",
+      "enMarkdown": "And curiously enough, taking rejection less personally may help you to get rejected less often. If you think someone judging you will work hard to judge you correctly, you can afford to be passive. But the more you realize that most judgements are greatly influenced by random, extraneous factors—that most people judging you are more like a fickle novel buyer than a wise and perceptive magistrate—the more you realize you can do things to influence the outcome.",
+      "zhMarkdown": "而且说来也怪，不把拒绝看得太重，反而可能帮你减少被拒绝的次数。如果你认为评判你的人会极力对你做出准确的评判，你大可以采取消极被动的态度。但当你越发意识到大多数评判极易受到随机、无关因素的影响——评判你的人大多更像是一个挑剔的小说买家，而不是一位英明睿智、洞若观火的法官——你就越会意识到，你可以通过采取行动来影响最终的结果。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "0895c2609929ea3e337646cd389f8013178de32835956af2079b1669b1e25b54",
+      "enMarkdown": "One good place to apply this principle is in college applications. Most high school students applying to college do it with the usual child's mix of inferiority and self-centeredness: inferiority in that they assume that admissions committees must be all-seeing; self-centeredness in that they assume admissions committees care enough about them to dig down into their application and figure out whether they're good or not. These combine to make applicants passive in applying and hurt when they're rejected. If college applicants realized how quick and impersonal most selection processes are, they'd make more effort to sell themselves, and take the outcome less personally.",
+      "zhMarkdown": "应用这一原则的一个好地方就是大学申请。大多数申请大学的高中生在申请时，都带着孩子特有的自卑与自我中心的混合心理：自卑在于他们假设招生委员会是无所不知的；自我中心在于他们假设招生委员会足够关心他们，会深入挖掘他们的申请材料，以搞清楚他们到底优不优秀。这两者结合起来，导致申请者在申请时显得消极被动，并在被拒绝时感到受伤。如果申请大学的人能意识到大多数选拔过程是多么快速且不针对个人，他们就会花更多精力去推销自己，而不会把最终的结果太当回事了。"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "vw",
+  "titleEn": "Snapshot: Viaweb, June 1998",
+  "titleZh": "定格：1998 年 6 月的 Viaweb",
+  "dateText": "January 2012",
+  "publishedAt": "2012-01-01",
+  "sourceOrder": 93,
+  "sourceUrl": "https://paulgraham.com/vw.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "60ef15fc1ed0ae13ad25534243eb8f4efb9a500939a668ba13ce26cad94bf051",
+      "enMarkdown": "A few hours before the Yahoo acquisition was announced in June 1998 I took a [snapshot of Viaweb's\nsite](http://ycombinator.com/viaweb). I thought it might be interesting to look at one day.",
+      "zhMarkdown": "在 1998 年 6 月宣布被雅虎收购的前几个小时，我保存了一份 [Viaweb 网站的快照](http://ycombinator.com/viaweb)。当时我觉得，未来某天再来回顾它应该会很有意思。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "382f43f1a3a68412a5ff8f70203ba54bc9514dc649b2b4a860a8457b9768f14d",
+      "enMarkdown": "The first thing one notices is is how tiny the pages are. Screens were a lot smaller in 1998. If I remember correctly, our frontpage used to just fit in the size window people typically used then.",
+      "zhMarkdown": "最先引起注意的一点是网页太小了。1998 年的屏幕尺寸比现在小得多。如果我没记错的话，我们的首页刚好能塞进当时人们常用的窗口大小里。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "e4215e8c5be2500ec43008312a9644e470b4bd4ec8446e27bff9c27dde73bb46",
+      "enMarkdown": "Browsers then (IE 6 was still 3 years in the future) had few fonts and they weren't antialiased. If you wanted to make pages that looked good, you had to render display text as images.",
+      "zhMarkdown": "那时的浏览器（IE 6 还要再过 3 年才问世）几乎没有几款字体，而且不支持抗锯齿。如果你想让页面好看点，就得把展示性的文字渲染成图片。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "b7d70df748c5f6029425f204ef1ad83f17c708551671d249890072d113a6f9cc",
+      "enMarkdown": "You may notice a certain similarity between the Viaweb and [Y Combinator](http://ycombinator.com) logos. We did that as an inside joke when we started YC. Considering how basic a red circle is, it seemed surprising to me when we started Viaweb how few other companies used one as their logo. A bit later I realized [why](https://paulgraham.com/zero.html).",
+      "zhMarkdown": "你可能会注意到 Viaweb 和 [Y Combinator](http://ycombinator.com) 的 Logo 之间有某种相似之处。我们在创办 YC 时，故意做成这样作为一个圈内笑话。考虑到红色圆圈是多么基础的设计，在我们刚创办 Viaweb 时，我惊讶于居然很少有其他公司用它做 Logo。过了一阵子我才明白[原因](https://paulgraham.com/zero.html)。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "733caa43ef6c3947d5f30ff3db7223155e61c96470806d451ec3a8502cb6dea6",
+      "enMarkdown": "On the [Company\npage](http://www.ycombinator.com/viaweb/com.html) you'll notice a mysterious individual called John McArtyem. Robert Morris (aka Rtm) was so publicity averse after the [Worm](http://en.wikipedia.org/wiki/Morris_worm) that he didn't want his name on the site. I managed to get him to agree to a compromise: we could use his bio but not his name. He has since [relaxed](http://ycombinator.com/people.html) a bit on that point.",
+      "zhMarkdown": "在[公司介绍页面](http://www.ycombinator.com/viaweb/com.html)上，你会注意到一个叫 John McArtyem 的神秘人物。Robert Morris（也就是 Rtm）在[蠕虫病毒](http://en.wikipedia.org/wiki/Morris_worm)事件后极其反感公开露面，以至于不想在网站上出现自己的名字。我好不容易说服他达成妥协：我们可以用他的简历，但不能用他的名字。自那以后，他在这方面已经[看开](http://ycombinator.com/people.html)了一些。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "b9f75fcc10fb6d98a081cb51fcc46d3e698e98669a5007d5262e8a20a4fc3df6",
+      "enMarkdown": "Trevor graduated at about the same time the acquisition closed, so in the course of 4 days he went from impecunious grad student to millionaire PhD. The culmination of my career as a writer of press releases was one [celebrating\nhis graduation](http://ycombinator.com/viaweb/trevor.html), illustrated with a drawing I did of him during a meeting.",
+      "zhMarkdown": "Trevor 毕业的时间差不多和收购完成在同一周，所以他在短短 4 天内，从一个身无分文的在读博士生变成了百万富翁博士。我撰写公关新闻稿生涯的巅峰，就是写了一篇[庆祝他毕业](http://ycombinator.com/viaweb/trevor.html)的文章，里面还配了一幅我在开会时给他画的素描。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ef1d8d798c5ca07695fadd33e570ffdbd4bd28563e11df03c6a1412d94392d16",
+      "enMarkdown": "(Trevor also appears as [Trevino\nBagwell](http://ycombinator.com/viaweb/tlbwebdesign.html) in our directory of web designers merchants could hire to build stores for them. We inserted him as a ringer in case some competitor tried to spam our web designers. We assumed his logo would deter any actual customers, but it did not.)",
+      "zhMarkdown": "（Trevor 还以 [Trevino Bagwell](http://ycombinator.com/viaweb/tlbwebdesign.html) 的名字出现在我们的网页设计师黄页里，商家可以雇佣这些人帮他们建店。我们把他作为“诱饵”放进去，以防竞争对手向我们的网页设计师群发垃圾邮件。我们本以为他的 Logo 能吓跑所有真正的客户，但实际上并没有。）"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "e2019261bedb1d13d788422ee785d1d1e1a709bdcf9dc41a69b114a167c7deea",
+      "enMarkdown": "Back in the 90s, to get users you had to get mentioned in magazines and newspapers. There were not the same ways to get found online that there are today. So we used to pay a [PR\nfirm](https://paulgraham.com/submarine.html) $16,000 a month to get us mentioned in the press. Fortunately reporters [liked\nus](http://ycombinator.com/viaweb/presquot.html).",
+      "zhMarkdown": "回到 90 年代，要想获得用户，你必须在杂志和报纸上露脸。当时不像今天有这么多在线获取流量的渠道。所以，我们过去每月付给一家 [公关公司](https://paulgraham.com/submarine.html) 16,000 美元，就为了让他们帮我们在媒体上争取报道。幸运的是，记者们很[喜欢我们](http://ycombinator.com/viaweb/presquot.html)。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9963fc6994621eb6dbc4f8cd2c378b6bb612d2d7e83fc6f739273fbd89d42442",
+      "enMarkdown": "In our [advice about\ngetting traffic from search engines](http://ycombinator.com/viaweb/se.html) (I don't think the term SEO had been coined yet), we say there are only 7 that matter: Yahoo, AltaVista, Excite, WebCrawler, InfoSeek, Lycos, and HotBot. Notice anything missing? Google was incorporated that September.",
+      "zhMarkdown": "在我们[关于如何从搜索引擎获取流量的建议](http://ycombinator.com/viaweb/se.html)中（我想当时 SEO 这个词还没被发明出来），我们说只有 7 个搜索引擎是重要的：Yahoo、AltaVista、Excite、WebCrawler、InfoSeek、Lycos 和 HotBot。注意到少了谁吗？Google 是在当年 9 月才注册成立的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "68d3e0d00fc87d68c16fbd3864cd304a284654d2981eb2aa1e4955b9b6a13254",
+      "enMarkdown": "We supported online transactions via a company called [Cybercash](http://en.wikipedia.org/wiki/CyberCash,_Inc.), since if we lacked that feature we'd have gotten beaten up in product comparisons. But Cybercash was so bad and most stores' order volumes were so low that it was better if merchants processed orders like phone orders. We had a page in our site trying to [talk merchants\nout of doing real time authorizations](http://www.ycombinator.com/viaweb/cybercash.html).",
+      "zhMarkdown": "我们通过一家名为 [Cybercash](http://en.wikipedia.org/wiki/CyberCash,_Inc.) 的公司来支持在线交易，因为如果我们缺少这个功能，在产品对比中就会被痛击。但 Cybercash 实在太难用了，而且大多数店铺的订单量又很小，所以对商家来说，像处理电话订单那样手动处理订单反而更好。我们在网站上专门做了一个页面，试图[劝说商家不要进行实时交易授权](http://www.ycombinator.com/viaweb/cybercash.html)。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "4b236a44952fd87f926e206c7e726004d658d7032c85510c6a2c86ebd1733ffb",
+      "enMarkdown": "The whole site was organized like a funnel, directing people to the [test drive](http://ycombinator.com/viaweb/tesdriv.html). It was a novel thing to be able to try out software online. We put cgi-bin in our dynamic urls to fool competitors about how our software worked.",
+      "zhMarkdown": "整个网站的设计就像一个漏斗，引导人们去进行[试用体验](http://ycombinator.com/viaweb/tesdriv.html)。在当时，能在网上试用软件是一件很新奇的事情。我们在动态 URL 中加入了 cgi-bin，以此来迷惑竞争对手，让他们摸不清我们软件的运行机制。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "89ac515dcf51418545b72d248c36f0631ad65f8cb6edbed8f8a6180b2a944462",
+      "enMarkdown": "We had some [well\nknown users](http://ycombinator.com/viaweb/us.html). Needless to say, Frederick's of Hollywood got the most traffic. We charged a flat fee of $300/month for big stores, so it was a little alarming to have users who got lots of traffic. I once calculated how much Frederick's was costing us in bandwidth, and it was about $300/month.",
+      "zhMarkdown": "我们有一些[知名用户](http://ycombinator.com/viaweb/us.html)。不用说，好莱坞的 Frederick's 流量最大。我们对大型店铺收取每月 300 美元的固定费用，所以遇到流量极大的用户会让人有点心惊肉跳。我曾算过 Frederick's 消耗了我们多少带宽，结果刚好是每月 300 美元左右。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "6abe2220a97cb984cc7bafe1e84d73b35a15a5c3f55b48a26f2619a644b81f3e",
+      "enMarkdown": "Since we hosted all the stores, which together were getting just over 10 million page views per month in June 1998, we consumed what at the time seemed a lot of bandwidth. We had 2 T1s (3 Mb/sec) coming into our offices. In those days there was no AWS. Even colocating servers seemed too risky, considering how often things went wrong with them. So we had our servers in our offices. Or more precisely, in Trevor's office. In return for the unique privilege of sharing his office with no other humans, he had to share it with 6 shrieking tower servers. His office was nicknamed the Hot Tub on account of the heat they generated. Most days his stack of window air conditioners could keep up.",
+      "zhMarkdown": "由于我们托管了所有的店铺，在 1998 年 6 月，它们的月浏览量加起来刚刚超过 1000 万次，这在当时消耗了在我们看来极大的带宽。我们有两条 T1 专线（3 Mb/秒）接入办公室。那时候还没有 AWS。考虑到服务器出故障的频率，连租用机房托管服务器都显得太冒险了。所以我们把服务器放在了自己的办公室里。更准确地说，是在 Trevor 的办公室里。为了享受不与任何其他人类共用办公室的独特特权，他不得不与 6 台尖叫的塔式服务器同处一室。因为这些机器产生的热量，他的办公室被戏称为“热水浴缸”。大多数时候，他那一叠窗口式空调还能勉强应付。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e8aee6928ad2e8b86434e27b91a557b9fd84121b942e8adcffec4ba96659948e",
+      "enMarkdown": "For describing pages, we had a template language called [RTML](http://ycombinator.com/viaweb/rtml.html), which supposedly stood for something, but which in fact I named after Rtm. RTML was Common Lisp augmented by some macros and libraries, and concealed under a structure editor that made it look like it had syntax.",
+      "zhMarkdown": "为了描述页面，我们开发了一种名为 [RTML](http://ycombinator.com/viaweb/rtml.html) 的模板语言，据说它代表着某种缩写，但实际上我是用 Rtm 的名字命名的。RTML 是通过一些宏和库增强的 Common Lisp，并隐藏在一个结构编辑器之下，使其看起来具有某种语法结构。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "701f67a8118d99aecf5ecf35ec4b4c37257d83de210d99a6512f63564d12b6b7",
+      "enMarkdown": "Since we did continuous releases, our software didn't actually have versions. But in those days the trade press expected versions, so we made them up. If we wanted to get lots of attention, we made the version number [an\ninteger](http://www.ycombinator.com/viaweb/rel4.html). That \"version 4.0\" icon was generated by our own button generator, incidentally. The whole Viaweb site was made with our software, even though it wasn't an online store, because we wanted to experience what our users did.",
+      "zhMarkdown": "由于我们进行的是持续发布，我们的软件实际上并没有版本号。但在那个年代，行业媒体总指望看到版本号，所以我们就编了几个。如果我们想博取大量关注，就会把版本号定为[一个整数](http://www.ycombinator.com/viaweb/rel4.html)。顺便说一句，那个 “version 4.0” 的图标是用我们自己的按钮生成器做出来的。整个 Viaweb 网站都是用我们自己的软件搭建的，即便它不是一个网店，因为我们想亲身体验用户的感受。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "e0b9a25ef8c12bd7ad551b6971547b7396a33239f29da8ebc853928a85730f77",
+      "enMarkdown": "At the end of 1997, we released a general purpose shopping search engine called [Shopfind](http://ycombinator.com/viaweb/shoprel.html). It was pretty advanced for the time. It had a programmable crawler that could crawl most of the different stores online and pick out the products.",
+      "zhMarkdown": "在 1997 年底，我们发布了一个名为 [Shopfind](http://ycombinator.com/viaweb/shoprel.html) 的通用购物搜索引擎。这在当时相当先进。它有一个可编程的爬虫，可以爬取网上大多数不同的店铺并抓取商品信息。"
+    }
+  ]
+}

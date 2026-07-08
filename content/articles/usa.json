@@ -1,0 +1,251 @@
+{
+  "slug": "usa",
+  "titleEn": "Made in USA",
+  "titleZh": "美国制造",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 192,
+  "sourceUrl": "https://paulgraham.com/usa.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "2af083ee16c3ff3aff6f8514c9e38e24892f91c3417aaa7e17234be496c14ab3",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/made-in-usa-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/made-in-usa-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "76bfdc2bc7762dc67b8b4e2f7e7f8ab2bf920e0722498e530f58d04aba3b1ab5",
+      "enMarkdown": "November 2004",
+      "zhMarkdown": "2004 年 11 月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "a2c8d285b21d8488d3058d3df0158b569d1a86146c4c6829630a0d92495919de",
+      "enMarkdown": "*(This is a new essay for the Japanese edition of \nHackers \n& Painters.\nIt tries to explain why Americans make some things well \nand others badly.)*",
+      "zhMarkdown": "*（本文是为日文版《黑客与画家》撰写的新文章。文章试图解释为什么美国人能做好某些事情，却把另一些事情搞得一团糟。）*"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "46a21d7a4b67ef41843c869ea6a3e5c49a0e2ea3f8ce094741520cc2f4ca4cf1",
+      "enMarkdown": "A few years ago an Italian friend of mine travelled by train from Boston to Providence. She had only been in America for a couple weeks and hadn't seen much of the country yet. She arrived looking astonished. \"It's so *ugly!\"*",
+      "zhMarkdown": "几年前，我的一个意大利朋友坐火车从波士顿去普罗维登斯。她当时刚到美国几个星期，还没怎么见识过这个国家。她抵达目的地时一脸震惊：“这里太*丑*了！”"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "757d66cc3ec7a02e4f1421c5820c2fd3178e3a948261835631be80fbbc48a291",
+      "enMarkdown": "People from other rich countries can scarcely imagine the squalor of the man-made bits of America. In travel books they show you mostly natural environments: the Grand Canyon, whitewater rafting, horses in a field. If you see pictures with man-made things in them, it will be either a view of the New York skyline shot from a discreet distance, or a carefully cropped image of a seacoast town in Maine.",
+      "zhMarkdown": "其他发达国家的人很难想象，美国人工建造的区域竟然会如此破败。旅游手册里给你看的绝大多数是自然风光：大峡谷、激流漂流、牧场上的骏马。如果画面里出现了人工建筑，那要么是从极巧妙的角度远眺纽约天际线，要么是精心裁剪过的缅因州海滨小镇风光。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "fd6635f0912a4adb277dafe3d5d753564d8c2b1ed8496a901d5f0efd77d345e0",
+      "enMarkdown": "How can it be, visitors must wonder. How can the richest country in the world look like this?",
+      "zhMarkdown": "游客们一定会纳闷：这怎么可能？世界上最富有的国家，怎么会是这副模样？"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "bac751e502da2b578b353b8e2c750bc01a05e5e0026a13fe74d0000d42c3e006",
+      "enMarkdown": "Oddly enough, it may not be a coincidence. Americans are good at some things and bad at others. We're good at making movies and software, and bad at making cars and cities. And I think we may be good at what we're good at for the same reason we're bad at what we're bad at. We're impatient. In America, if you want to do something, you don't worry that it might come out badly, or upset delicate social balances, or that people might think you're getting above yourself. If you want to do something, as Nike says, *just do it.*",
+      "zhMarkdown": "说来也怪，这也许并非巧合。美国人擅长某些事，不擅长另一些事。我们擅长拍电影和写软件，却不擅长造汽车和规划城市。而且我认为，我们之所以擅长前者，原因恰恰在于我们为什么不擅长后者。因为我们缺乏耐心。在美国，如果你想做一件事，你不会担心它可能会搞砸，或者破坏微妙的社会平衡，又或者别人会觉得你自命不凡。如果你想做，就像耐克广告词说的那样，*尽管去做（just do it）*。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8dd154433c941ae3fb02427e8a95c525be9c5579dcdda232f3147b1a60675437",
+      "enMarkdown": "This works well in some fields and badly in others. I suspect it works in movies and software because they're both messy processes. \"Systematic\" is the last word I'd use to describe the way [good programmers](https://paulgraham.com/gh.html) write software. Code is not something they assemble painstakingly after careful planning, like the pyramids. It's something they plunge into, working fast and constantly changing their minds, like a charcoal sketch.",
+      "zhMarkdown": "这种做事方式在某些领域行得通，在另一些领域却行不通。我怀疑它在电影和软件领域行得通，是因为这两者都是混乱、渐进的过程。要形容[优秀的程序员](https://paulgraham.com/gh.html)写软件的方式，“系统化”绝对是我想到的最后一个词。代码不是他们像建造金字塔那样，在周密计划后小心翼翼拼装出来的。而是他们一头扎进去，快速推进，又不断推翻重来，就像画一幅素描炭笔画。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "6fa9634992c27672ff0ff5d238c054ca2239d61e5338c9239af6ce482f0963b0",
+      "enMarkdown": "In software, paradoxical as it sounds, good craftsmanship means working fast. If you work slowly and meticulously, you merely end up with a very fine implementation of your initial, mistaken idea. Working slowly and meticulously is premature optimization. Better to get a prototype done fast, and see what new ideas it gives you.",
+      "zhMarkdown": "在软件行业，听起来似乎自相矛盾，但高超的手艺确实意味着快速推进。如果你慢条斯理、一丝不苟地工作，你最终得到的，不过是一个把最初错误想法实现得非常完美的半成品。慢条斯理、一丝不苟是过早优化。更好的做法是快速做出原型，看看它能带给你什么新启发。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "7315eb64f89bb269b83c8af76ea00e16665811c2f098f6f90e323ad96299d4e7",
+      "enMarkdown": "It sounds like making movies works a lot like making software. Every movie is a Frankenstein, full of imperfections and usually quite different from what was originally envisioned. But interesting, and finished fairly quickly.",
+      "zhMarkdown": "听起来，拍电影和写软件非常相似。每一部电影都是一个“科学怪人”，充满了瑕疵，而且通常和最初的设想大相径庭。但它很有趣，而且能相当快地完工。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "bc3571b6c51952479fa28246fb79577df3c255b7a91130e4484d4ecc5a23ad7d",
+      "enMarkdown": "I think we get away with this in movies and software because they're both malleable mediums. Boldness pays.  And if at the last minute two parts don't quite fit, you can figure out some hack that will at least conceal the problem.",
+      "zhMarkdown": "我认为，我们之所以能在电影和软件中用这种方式蒙混过关，是因为这两者都是极具可塑性的媒介。胆大就有回报。而且，如果在最后一刻发现两个部分对不上，你总能想出某种权宜之计（hack），至少把问题遮掩过去。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "edfaae92f566a9e676c74fdb5e0de62c85f4de8aff40ab4f457664c38cb600ca",
+      "enMarkdown": "Not so with cars, or cities. They are all too physical. If the car business worked like software or movies, you'd surpass your competitors by making a car that weighed only fifty pounds, or folded up to the size of a motorcycle when you wanted to park it. But with physical products there are more constraints. You don't win by dramatic innovations so much as by good taste and attention to detail.",
+      "zhMarkdown": "但汽车和城市就不是这样了。它们是实实在在的实体。如果汽车行业也像软件或电影那样运作，你只要造出一辆只有五十磅重、或者在停车时能折叠成摩托车大小的汽车，就能把竞争对手甩在身后。但物理实体产品有更多的限制。你很难靠戏剧性的创新取胜，更多的是要靠良好的品味和对细节的关注。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "af68e861fce8af6846fe55ce81c5478c4a35840df83626e187d02262823d6c54",
+      "enMarkdown": "The trouble is, the very word \"taste\" sounds slightly ridiculous to American ears. It seems pretentious, or frivolous, or even effeminate. Blue staters think it's \"subjective,\" and red staters think it's for sissies. So anyone in America who really cares about design will be sailing upwind.",
+      "zhMarkdown": "问题在于，在美式英语里，“品味（taste）”这个词听起来甚至有点滑稽。它显得做作、轻浮，甚至有些阴柔。民主党选民（蓝州）认为它是“主观”的，共和党选民（红州）则认为它是娘娘腔才在乎的事。所以，在美国，任何真正关心设计的人，都注定是在逆风航行。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "967087720ac76450430bc7c14bca45d6473ad24c2e448931b52e2a7ae8490290",
+      "enMarkdown": "Twenty years ago we used to hear that the problem with the US car industry was the workers. We don't hear that any more now that Japanese companies are building cars in the US. The problem with American cars is bad design. You can see that just by looking at them.",
+      "zhMarkdown": "二十年前，我们常听人说美国汽车工业的问题出在工人身上。现在日本公司都在美国建厂造车了，这种话就再也听不到了。美国车的问题在于设计太差。你只要看一眼就能明白。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "c610272e5dda352a5862ddff028ac25dd73cf6898eca60226f1567d792b9addc",
+      "enMarkdown": "All that extra sheet metal on the [AMC Matador](https://paulgraham.com/matador.html) wasn't added by the workers. The problem with this car, as with American cars today, is that it was designed by marketing people instead of designers.",
+      "zhMarkdown": "[AMC Matador](https://paulgraham.com/matador.html) 上那些多余的钣金可不是工人擅自加上的。这款车以及当今美国车的问题，在于它们是由营销人员而不是设计师设计的。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "68ec0629922fe51423cad12440fab3f80156b12e7e9dd7f68c86617967fca9e4",
+      "enMarkdown": "Why do the Japanese make better cars than us? Some say it's because their culture encourages cooperation. That may come into it. But in this case it seems more to the point that their culture prizes design and craftsmanship.",
+      "zhMarkdown": "为什么日本人能比我们造出更好的汽车？有人说是因为他们的文化鼓励合作。这可能是一个因素。但就这件事而言，更关键的原因似乎是他们的文化推崇设计和手艺。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "874097dff9a7317b6e0963961e59412555030aefb7f95d1250b0850112e904c7",
+      "enMarkdown": "For centuries the Japanese have made finer things than we have in the West. When you look at swords they made in 1200, you just can't believe the date on the label is right. Presumably their cars fit together more precisely than ours for the same reason their joinery always has. They're obsessed with making things well.",
+      "zhMarkdown": "几个世纪以来，日本人制作的器物一直比西方更精致。当你看到他们公元 1200 年制造的武士刀时，你简直不敢相信标签上的年份。想必他们的汽车零部件比我们的更严丝合缝，原因就和他们的榫卯工艺一脉相承。他们对精益求精有着一种执念。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "4a94965ffe9f6df8ba396def7d77ff5dfad806df45808786ac4d5e4a837d6758",
+      "enMarkdown": "Not us. When we make something in America, our aim is just to get the job done. Once we reach that point, we take one of two routes. We can stop there, and have something crude but serviceable, like a Vise-grip. Or we can improve it, which usually means encrusting it with gratuitous ornament. When we want to make a car \"better,\" we stick [tail fins](59eldorado.html) on it, or make it [longer](75eldorado.html), or make the [windows smaller](04magnum.html), depending on the current fashion.",
+      "zhMarkdown": "我们则不然。在美国，我们制造东西的目的就是把活干完。一旦达到了这个目的，我们就会走上两条路之一。要么就此打住，得到一个粗糙但实用的东西，比如一把大力钳。要么我们就去改进它，而这通常意味着在上面堆砌无谓的装饰。当我们想让一辆车看起来“更好”时，我们会给它安上[尾翼](59eldorado.html)，或者把它[拉长](75eldorado.html)，或者把[车窗做小](04magnum.html)，完全取决于当下的流行风潮。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "5fc76c516e4eaca04b882ede5ee35f2fcfa856d809c028e51682d356a1c944a2",
+      "enMarkdown": "Ditto for houses. In America you can have either a flimsy box banged together out of two by fours and drywall, or a McMansion-- a flimsy box banged together out of two by fours and drywall, but larger, more dramatic-looking, and full of expensive fittings. Rich people don't get better design or craftsmanship; they just get a larger, more conspicuous version of the standard house.",
+      "zhMarkdown": "房子也是如此。在美国，你要么得到一个用两拼板和石膏板胡乱钉起来的简陋木盒子，要么得到一个“麦克豪宅”（McMansion）——也就是一个更大、造型更夸张、塞满昂贵配件，但本质上依然是用两拼板和石膏板胡乱钉起来的简陋木盒子。富人并没有得到更好的设计或手艺，他们只是得到了一个更大、更显眼的普通房子放大版。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "c35213de0eccfaa6e235c3c58224510dd6d03cb0fbe18893c1e1ae572b7ab650",
+      "enMarkdown": "We don't especially prize design or craftsmanship here. What we like is speed, and we're willing to do something in an ugly way to get it done fast. In some fields, like software or movies, this is a net win.",
+      "zhMarkdown": "我们在这里并不特别看重设计或手艺。我们喜欢的是速度，为了快速搞定，我们不介意用一种丑陋的方式去完成。在某些领域，比如软件或电影，这是一种净赢。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "268ccefcc6b29c33db91257332749829fbfcb26573445d8db63a26f8546a2db5",
+      "enMarkdown": "But it's not just that software and movies are malleable mediums. In those businesses, the designers (though they're not generally called that) have more power. Software companies, at least successful ones, tend to be run by programmers. And in the film industry, though producers may second-guess directors, the director controls most of what appears on the screen. And so American software and movies, and Japanese cars, all have this in common: the people in charge care about design-- the former because the designers are in charge, and the latter because the whole culture cares about design.",
+      "zhMarkdown": "但这不仅仅是因为软件和电影是可塑性强的媒介。在这些行业中，设计师（虽然通常不这么称呼）拥有更大的权力。软件公司，至少是成功的那些，往往是由程序员来管理的。而在电影行业，虽然制片人可能会对导演指手画脚，但银幕上呈现的大部分内容还是由导演控制的。因此，美国的软件和电影，与日本的汽车，都有一个共同点：管事的人关心设计——前者是因为设计师在掌权，后者是因为整个文化都关心设计。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "2361df6a2e33af344951d9e5f634a0130415d5a7e20da68ce075bbb613682d90",
+      "enMarkdown": "I think most Japanese executives would be horrified at the idea of making a bad car. Whereas American executives, in their hearts, still believe the most important thing about a car is the image it projects. Make a good car? What's \"good?\" It's so *subjective.* If you want to know how to design a car, ask a focus group.",
+      "zhMarkdown": "我想大多数日本高管一想到造出一辆烂车就会感到毛骨悚然。而美国高管在内心深处，依然认为汽车最重要的一点是它所投射的形象。造一辆好车？什么是“好”？这太*主观*了。如果你想知道怎么设计一辆车，去问焦点小组（focus group）吧。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "f6d67c32f20d6c5e5ee43b2c5692267595089e581ec634b7ccbd3d392bcc95f4",
+      "enMarkdown": "Instead of relying on their own internal design compass (like Henry Ford did), American car companies try to make what marketing people think consumers want. But it isn't working. American cars continue to lose market share. And the reason is that the customer doesn't want what he thinks he wants.",
+      "zhMarkdown": "美国汽车公司没有依靠自己内心的设计指南针（就像亨利·福特那样），而是试图去制造营销人员认为消费者想要的东西。但这行不通。美国汽车的市占率持续下滑。原因就在于，顾客并不想要他们自己以为想要的东西。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "1203ed5c53028667958b68e49bd3d3675b957400c2d4b9033e257b24e6a72894",
+      "enMarkdown": "Letting focus groups design your cars for you only wins in the short term. In the long term, it pays to bet on good design. The focus group may say they want the meretricious feature du jour, but what they want even more is to imitate sophisticated buyers, and they, though a small minority, really do care about good design. Eventually the pimps and drug dealers notice that the doctors and lawyers have switched from Cadillac to Lexus, and do the same.",
+      "zhMarkdown": "让焦点小组帮你设计汽车只能赢得一时。从长远来看，押注于优秀的设计才是明智之举。焦点小组可能会说他们想要当下那些花哨的噱头，但他们更想模仿那些有品位的买家，而这部分人虽然是极少数，却真正关心优秀的设计。最终，皮条客和毒贩注意到医生和律师已经把座驾从凯迪拉克换成了雷克萨斯，于是他们也跟着换了。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "64d07dc44417d8ccba3a410fa1905cfbfc83475a3f16fbae3f182a4dbdd6099c",
+      "enMarkdown": "Apple is an interesting counterexample to the general American trend. If you want to buy a nice CD player, you'll probably buy a Japanese one. But if you want to buy an MP3 player, you'll probably buy an iPod. What happened? Why doesn't Sony dominate MP3 players? Because Apple is in the consumer electronics business now, and unlike other American companies, they're obsessed with good design. Or more precisely, their CEO is.",
+      "zhMarkdown": "苹果公司是美国普遍趋势中一个有趣的反例。如果你想买一台精致的 CD 机，你大概会买日本牌子。但如果你想买一个 MP3 播放器，你大概会买 iPod。这是怎么回事？为什么索尼没有统治 MP3 播放器市场？因为苹果现在进入了消费电子行业，而且与其他美国公司不同，他们对优秀的设计有着近乎偏执的追求。更准确地说，是他们的 CEO 有这种执念。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "99515ac1934fa506b412369e6818d799481956a9658007976638b9f582daae90",
+      "enMarkdown": "I just got an iPod, and it's not just nice. It's *surprisingly* nice. For it to surprise me, it must be satisfying expectations I didn't know I had. No focus group is going to discover those. Only a great designer can.",
+      "zhMarkdown": "我刚买了一个 iPod，它不仅漂亮，而且美得*令人惊喜*。能让我感到惊喜，说明它满足了我自己都不知道的潜在期望。任何焦点小组都不可能发现这些，只有伟大的设计师才能做到。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "fc6c2a8b6172dff7eab3302c576980a41dcdc85f0b02ad67f6c39971e5954a0d",
+      "enMarkdown": "Cars aren't the worst thing we make in America. Where the just-do-it model fails most dramatically is in our cities-- or rather, [exurbs](https://paulgraham.com/denver.html). If real estate developers operated on a large enough scale, if they built whole towns, market forces would compel them to build towns that didn't suck. But they only build a couple office buildings or suburban streets at a time, and the result is so depressing that the inhabitants consider it a great treat to fly to Europe and spend a couple weeks living what is, for people there, just everyday life. [1]",
+      "zhMarkdown": "汽车还不是美国制造里最糟糕的东西。“尽管去做（just-do-it）”模式失败得最惨烈的地方是我们的城市——或者更确切地说，是[远郊（exurbs）](https://paulgraham.com/denver.html)。如果房地产开发商的经营规模足够大，如果他们能建造整个城镇，市场力量就会迫使他们建造不那么糟糕的城镇。但他们一次只建几栋写字楼或几条郊区街道，结果是如此令人压抑，以至于当地居民把飞去欧洲度假、体验两周当地人习以为常的日常生活，当成了一种极大的享受。 [1]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "df326ba5e5180dbe740601dbb68f2dbc0eb3aca2beb947ba30511809d24d29d6",
+      "enMarkdown": "But the just-do-it model does have advantages. It seems the clear winner for generating wealth and technical innovations (which are practically the same thing). I think speed is the reason. It's hard to create wealth by making a commodity. The real value is in things that are new, and if you want to be the first to make something, it helps to work fast. For better or worse, the just-do-it model is fast, whether you're Dan Bricklin writing the prototype of VisiCalc in a weekend, or a real estate developer building a block of shoddy condos in a month.",
+      "zhMarkdown": "但“尽管去做”模式确实有其优势。在创造财富和技术创新（这两者实际上是一回事）方面，它似乎是显而易见的赢家。我认为速度是关键。靠制造大宗商品很难创造财富。真正的价值在于新事物，如果你想成为第一个做出某样东西的人，快速推进就很有帮助。不管好坏，“尽管去做”模式就是快，无论你是用一个周末写出 VisiCalc 原型的丹·布里克林（Dan Bricklin），还是用一个月盖好一栋劣质公寓楼的房地产开发商。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "b5829633c889f2aa35d4618146ffb7088fde89c12fab3be6ae910fb862bd4579",
+      "enMarkdown": "If I had to choose between the just-do-it model and the careful model, I'd probably choose just-do-it. But do we have to choose? Could we have it both ways? Could Americans have nice places to live without undermining the impatient, individualistic spirit that makes us good at software? Could other countries introduce more individualism into their technology companies and research labs without having it metastasize as strip malls? I'm optimistic. It's harder to say about other countries, but in the US, at least, I think we can have both.",
+      "zhMarkdown": "如果非要在“尽管去做”模式和“精益求精”模式之间做选择，我大概会选择前者。但我们必须二选一吗？我们能不能兼而有之？美国人能不能既拥有宜居的家园，又不削弱让我们擅长写软件的那种急躁、个人主义的精神？其他国家能不能在不让条带状商场（strip malls）像癌细胞一样扩散的前提下，给他们的科技公司和研究所引入更多的个人主义？我很乐观。其他国家不好说，但至少在美国，我认为我们可以兼得。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "a194400c7dfa3483bc80eaaf87f78b54cabd27a6b9d435070ec890d4c72de6df",
+      "enMarkdown": "Apple is an encouraging example. They've managed to preserve enough of the impatient, hackerly spirit you need to write software. And yet when you pick up a new Apple laptop, well, it doesn't seem American. It's too perfect. It seems as if it must have been made by a Swedish or a Japanese company.",
+      "zhMarkdown": "苹果就是一个令人振奋的例子。他们成功保留了写软件所需的、足够多的急躁而又充满黑客精神的作风。然而，当你拿捏起一部新的苹果笔记本电脑时，它感觉一点也不像美国产品。它太完美了，感觉倒像是瑞典或日本公司制造的。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "34b59edf8cb004d7ac01e2a623b9c870b0e8cbe4025d5c8e5a095aadaca8bd03",
+      "enMarkdown": "In many technologies, version 2 has higher resolution. Why not in design generally? I think we'll gradually see national characters superseded by occupational characters: hackers in Japan will be allowed to behave with a [willfulness](https://paulgraham.com/gba.html) that would now seem unJapanese, and products in America will be designed with an insistence on [taste](https://paulgraham.com/taste.html) that would now seem unAmerican. Perhaps the most successful countries, in the future, will be those most willing to ignore what are now considered national characters, and do each kind of work in the way that works best. Race you.",
+      "zhMarkdown": "在许多技术领域，第二代产品都有更高的分辨率。为什么设计行业就不能普遍如此呢？我认为，国家性格将逐渐被职业性格所取代：日本的黑客将被允许表现出一种在如今看来“很不日本”的[任性](https://paulgraham.com/gba.html)；而美国的产品设计将坚持一种在如今看来“很不美国”的[品味](https://paulgraham.com/taste.html)。也许未来最成功的国家，将是那些最愿意忽略所谓国家性格，并用最有效的方式去完成每一种工作的国家。赛场上见。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "010fea2c14a63ac31a4797af7c1b2ebac66dc9b85dda66af2b69b81de83bf5e7",
+      "enMarkdown": "[1] Japanese cities are ugly too, but for different reasons. Japan is prone to earthquakes, so buildings are traditionally seen as temporary; there is no grand tradition of city planning like the one Europeans inherited from Rome. The other cause is the notoriously corrupt relationship between the government and construction companies.",
+      "zhMarkdown": "[1] 日本的城市也很丑，但原因不同。日本多地震，因此人们传统上认为建筑物是临时的；日本没有像欧洲人从罗马继承的那种宏伟的城市规划传统。另一个原因是政府和建筑公司之间众所周知的腐败关系。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "b108ecbd3dca92708a65752458c931558d5e94252dc6bf30d9ff22c254b14b2e",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Barry Eisler, Sarah Harlin, Shiro Kawai, Jessica Livingston, Jackie McDonough, Robert Morris, and Eric Raymond for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Barry Eisler、Sarah Harlin、Shiro Kawai、Jessica Livingston、Jackie McDonough、Robert Morris 和 Eric Raymond 阅读了本文的草稿。"
+    }
+  ]
+}

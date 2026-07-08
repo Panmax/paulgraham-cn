@@ -1,0 +1,83 @@
+{
+  "slug": "work",
+  "titleEn": "What Doesn't Seem Like Work?",
+  "titleZh": "什么事是不像工作的？",
+  "dateText": "January 2015",
+  "publishedAt": "2015-01-01",
+  "sourceOrder": 70,
+  "sourceUrl": "https://paulgraham.com/work.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "8f7b1230ae34303d009be211ceefa2e022baff9927c6a70ee7e9d17d310c753a",
+      "enMarkdown": "My father is a mathematician. For most of my childhood he worked for Westinghouse, modelling nuclear reactors.",
+      "zhMarkdown": "我的父亲是一位数学家。在我童年的大部分时间里，他在西屋电气工作，负责建立核反应堆的模型。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "38a0bb7b3ec2367f3acf26094d0fb75e7a5b02f8d9fc777e47c10d7508cba008",
+      "enMarkdown": "He was one of those lucky people who know early on what they want to do. When you talk to him about his childhood, there's a clear watershed at about age 12, when he \"got interested in maths.\"",
+      "zhMarkdown": "他是那种很早就知道自己想做什么的幸运儿。当你和他聊起他的童年时，大约在 12 岁时有一个清晰的分水岭，那是他“对数学产生兴趣”的时候。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "49fbca245d6fe7d83f1e42df0bc732fed9bfbb85a0d6ba2fa27f2b1e5df8a361",
+      "enMarkdown": "He grew up in the small Welsh seacoast town of [Pwllheli](https://goo.gl/maps/rkzUm). As we retraced his walk to school on Google Street View, he said that it had been nice growing up in the country.",
+      "zhMarkdown": "他在威尔士海滨小镇 [Pwllheli](https://goo.gl/maps/rkzUm) 长大。当我们在谷歌街景上重温他上学的路时，他说在乡下长大感觉很好。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "08ea993ef6bac65ce7e455396731b1cc175cd7a692c131005708f0ee4a7d8de1",
+      "enMarkdown": "\"Didn't it get boring when you got to be about 15?\" I asked.",
+      "zhMarkdown": "“等你到了 15 岁左右，不会觉得无聊吗？”我问。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "769096a889b0a90b4690daa3c83b942844c72d90f79c0331be227c997281fa75",
+      "enMarkdown": "\"No,\" he said, \"by then I was interested in maths.\"",
+      "zhMarkdown": "“不，”他说，“到那时我已经对数学感兴趣了。”"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "64ab8f8024814ea0ff6ada3097ff22c203289b777502db948bcb841df4b2304b",
+      "enMarkdown": "In another conversation he told me that what he really liked was solving problems. To me the exercises at the end of each chapter in a math textbook represent work, or at best a way to reinforce what you learned in that chapter. To him the problems were the reward. The text of each chapter was just some advice about solving them. He said that as soon as he got a new textbook he'd immediately work out all the problems — to the slight annoyance of his teacher, since the class was supposed to work through the book gradually.",
+      "zhMarkdown": "在另一次谈话中，他告诉我，他真正喜欢的是解决问题。对我来说，数学教科书每章末尾的习题代表着功课，充其量也就是巩固那一章所学知识的一种方式。但对他来说，这些问题就是回报。每一章的课文不过是关于如何解决这些问题的一些建议。他说，他一拿到新教科书，就会立刻把所有的题目都做完——这让他的老师有些恼火，因为班级本应该循序渐进地学完这本书。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "cbf06d96ed8262998d405cfe1a3935b391c34a9a31933898643450c5991805db",
+      "enMarkdown": "Few people know so early or so certainly what they want to work on. But talking to my father reminded me of a heuristic the rest of us can use. If something that seems like work to other people doesn't seem like work to you, that's something you're well suited for. For example, a lot of programmers I know, including me, actually like debugging. It's not something people tend to volunteer; one likes it the way one likes popping zits. But you may have to like debugging to like programming, considering the degree to which programming consists of it.",
+      "zhMarkdown": "很少有人能这么早、这么确定地知道自己想做什么。但与父亲的交谈让我想起了一个我们其他人都可以使用的启发式方法：如果一件在别人看来像是在工作（甚至像是在受罪）的事，在你看来却不像工作，那这就是你非常适合做的事。例如，我认识的很多程序员，包括我自己在内，其实都喜欢调试（debugging）。这不是人们会主动自荐去做的事，大家对它的喜欢，有点像喜欢挤粉刺。但是，考虑到编程在很大程度上就是由调试构成的，你可能必须喜欢调试才会喜欢编程。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "6287e05b627c9427edffeb6bf6c6e4585f326ff855a9000eda59bacc47d3c7cb",
+      "enMarkdown": "The stranger your tastes seem to other people, the stronger evidence they probably are of what you should do. When I was in college I used to write papers for my friends. It was quite interesting to write a paper for a class I wasn't taking. Plus they were always so relieved.",
+      "zhMarkdown": "在别人看来，你的兴趣越是奇特，这可能越是强有力的证据，预示着你该去做什么。上大学时，我经常帮朋友们写论文。为一个我没选的课写论文，其实挺有意思的。而且他们每次都如释重负。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "780629b38e1f07308d1d22c818068f2668d3693a6fbcafc6ded19b044329c75d",
+      "enMarkdown": "It seemed curious that the same task could be painful to one person and pleasant to another, but I didn't realize at the time what this imbalance implied, because I wasn't looking for it. I didn't realize how hard it can be to decide what you should work on, and that you sometimes have to [figure it out](https://paulgraham.com/love.html) from subtle clues, like a detective solving a case in a mystery novel. So I bet it would help a lot of people to ask themselves about this explicitly. What seems like work to other people that doesn't seem like work to you?",
+      "zhMarkdown": "同一项任务对一个人来说是痛苦的，对另一个人来说却是愉快的，这似乎很奇妙。但由于我当时并没有刻意去寻找，所以并没有意识到这种不对称性意味着什么。我当时没有意识到，决定自己应该致力于什么工作会有多难，而且你有时必须像推理小说中破案的侦探一样，从细微的线索中去[寻找答案](https://paulgraham.com/love.html)。因此，我敢说，如果大家能明确地问自己这个问题，会有很大的帮助：什么事是别人觉得像是在工作，而你却不觉得的？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2371503f64eadf5648535ba7bb73c2d4a7004883180c6ba37c40fb9de8db47e8",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Jessica Livingston, Robert Morris, and my father for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Jessica Livingston、Robert Morris 以及我的父亲阅读了本文的草稿。"
+    }
+  ]
+}

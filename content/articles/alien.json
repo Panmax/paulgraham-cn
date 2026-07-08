@@ -1,0 +1,76 @@
+{
+  "slug": "alien",
+  "titleEn": "Alien Truth",
+  "titleZh": "外星真相",
+  "dateText": "October 2022",
+  "publishedAt": "2022-10-01",
+  "sourceOrder": 21,
+  "sourceUrl": "https://paulgraham.com/alien.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "6ab448df2c4c6a0516b429ff3b5c93208dd4229e2508f01bfccbbd292f7be745",
+      "enMarkdown": "If there were intelligent beings elsewhere in the universe, they'd share certain truths in common with us. The truths of mathematics would be the same, because they're true by definition. Ditto for the truths of physics; the mass of a carbon atom would be the same on their planet. But I think we'd share other truths with aliens besides the truths of math and physics, and that it would be worthwhile to think about what these might be.",
+      "zhMarkdown": "如果宇宙的其他地方存在智慧生命，他们会和我们拥有某些共同的真相。数学真理会是一样的，因为它们在定义上就是真理。物理真理也是如此，碳原子的质量在他们的星球上也会一模一样。但我认为，除了数学和物理真理之外，我们还会与外星人共享其他真相，而思考这些真相可能会是什么，是非常有价值的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "e9e6075ff50299f59a7290849ef1cb072869d8f8b4f917b1b8bc9903706f8443",
+      "enMarkdown": "For example, I think we'd share the principle that a controlled experiment testing some hypothesis entitles us to have proportionally increased belief in it. It seems fairly likely, too, that it would be true for aliens that one can get better at something by practicing. We'd probably share Occam's razor. There doesn't seem anything specifically human about any of these ideas.",
+      "zhMarkdown": "例如，我认为我们都会认同这样一个原则：通过受控实验来测试某种假设，能让我们按比例增加对该假设的信任度。对外星人来说，通过练习可以在某件事上做得更好，这似乎也极有可能是成立的。我们可能还会共享奥卡姆剃刀定律。这些想法中似乎没有任何一个是人类所特有的。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "c2cbca7ca0e96f8c5d7cd8b2e15a36423d9175966f19676f6421390f43c8abf9",
+      "enMarkdown": "We can only guess, of course. We can't say for sure what forms intelligent life might take. Nor is it my goal here to explore that question, interesting though it is. The point of the idea of alien truth is not that it gives us a way to speculate about what forms intelligent life might take, but that it gives us a threshold, or more precisely a target, for truth. If you're trying to find the most general truths short of those of math or physics, then presumably they'll be those we'd share in common with other forms of intelligent life.",
+      "zhMarkdown": "当然，我们只能猜测。我们无法确切知道智慧生命会以何种形式存在。这虽然是个有趣的问题，但也不是我在这里要探讨的目标。外星真相这个概念的意义，不在于让我们去推测智慧生命可能采取的形式，而在于它为真理提供了一个门槛，或者更准确地说，一个目标。如果你想寻找数学或物理之外最普适的真理，那么想必它们就是我们与其他形式的智慧生命所共有的那些。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "997132c4476f954e8b6dfbcf6fbbdb50201dd6ec6dd4af2634293590023b1420",
+      "enMarkdown": "Alien truth will work best as a heuristic if we err on the side of generosity. If an idea might plausibly be relevant to aliens, that's enough. Justice, for example. I wouldn't want to bet that all intelligent beings would understand the concept of justice, but I wouldn't want to bet against it either.",
+      "zhMarkdown": "如果我们在把握外星真相时宁可信其有，那么它作为一种启发式方法的效果会最好。一个想法只要有可能与外星人相关，就足够了。比如正义。我不敢打赌所有智慧生命都能理解正义的概念，但我也不想打赌说他们一定不能。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "864e5007d8fbe1e9520d33f96db2e8041eaa430353fcf9a31d191a35b46f106e",
+      "enMarkdown": "The idea of alien truth is related to Erdos's idea of God's book. He used to describe a particularly good proof as being in God's book, the implication being (a) that a sufficiently good proof was more discovered than invented, and (b) that its goodness would be universally recognized. If there's such a thing as alien truth, then there's more in God's book than math.",
+      "zhMarkdown": "外星真相的想法与保罗·埃尔德什（Erdos）关于“上帝之书”的想法有些类似。他过去常把一个特别精妙的证明描述为“写在上帝的书里”，其寓意在于：（a）一个足够好的证明更多是被发现的，而不是被发明的；（b）它的精妙性会得到宇宙通用的认可。如果真的存在外星真相，那么上帝的书里写的内容就远不止数学。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ae375a077d8c310dd1a54b3a13b769011396cdc7a07f732aa2bce81b2f306f94",
+      "enMarkdown": "What should we call the search for alien truth? The obvious choice is \"philosophy.\" Whatever else philosophy includes, it should probably include this. I'm fairly sure Aristotle would have thought so. One could even make the case that the search for alien truth is, if not an accurate description *of* philosophy, a good definition *for* it. I.e. that it's what people who call themselves philosophers should be doing, whether or not they currently are. But I'm not wedded to that; doing it is what matters, not what we call it.",
+      "zhMarkdown": "我们应该把寻找外星真相的尝试称为什么？最显而易见的选择是“哲学”。无论哲学还包含什么，它大概都应该包含这一点。我相当肯定亚里士多德也会这么想。我们甚至可以认为，寻找外星真相即使不是对哲学 *本身* 的精确描述，也是对它一个很好的 *定义*。也就是说，这是那些自称为哲学家的人应该做的事情，无论他们目前是否在做。但我并不拘泥于这个词；去做这件事才是最重要的，叫什么名字并不重要。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "f298967eafd958d36d9183cda455183cea37dc25cd81e44e32f59e5cee7b2f93",
+      "enMarkdown": "We may one day have something like alien life among us in the form of AIs. And that may in turn allow us to be precise about what truths an intelligent being would have to share with us. We might find, for example, that it's impossible to create something we'd consider intelligent that doesn't use Occam's razor. We might one day even be able to prove that. But though this sort of research would be very interesting, it's not necessary for our purposes, or even the same field; the goal of philosophy, if we're going to call it that, would be to see what ideas we come up with using alien truth as a target, not to say precisely where the threshold of it is. Those two questions might one day converge, but they'll converge from quite different directions, and till they do, it would be too constraining to restrict ourselves to thinking only about things we're certain would be alien truths. Especially since this will probably be one of those areas where the best guesses turn out to be surprisingly close to optimal. (Let's see if that one does.)",
+      "zhMarkdown": "也许有一天，我们身边会出现类似外星生命的实体，那就是人工智能。这反过来可能会让我们能够精确地界定，一个智慧生命必须与我们共享哪些真相。例如，我们可能会发现，如果不使用奥卡姆剃刀，就不可能创造出我们认为具有智慧的东西。甚至有一天我们还能证明这一点。尽管这类研究会非常有趣，但对于我们的目的来说并不是必需的，甚至不属于同一个领域；如果我们要把这称为哲学的话，哲学的目标应该是看看我们在以外星真相为目标时能提出什么想法，而不是去精确说明它的门槛在哪里。这两个问题也许有一天会殊途同归，但它们是从完全不同的方向汇合的。在它们汇合之前，如果把我们自己局限于只思考那些我们确信是外星真相的事情，那就太自我设限了。尤其是因为，这可能属于那种“最好的猜测往往出奇地接近最优解”的领域。（让我们看看这个猜测是否也是如此。）"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "e1707f116cc8d6c88a042840e690bf84161f013c2df8a2981729a95456183ed2",
+      "enMarkdown": "Whatever we call it, the attempt to discover alien truths would be a worthwhile undertaking. And curiously enough, that is itself probably an alien truth.",
+      "zhMarkdown": "无论我们称之为什么，试图去发现外星真相都是一件值得做的事情。而奇妙的是，这个观点本身大概就是一条外星真相。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "86202cd41f49dfb0ab325c8ea2d075db9edc7f0f3f19e48d973b073aa6ffac20",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Greg Brockman, Patrick Collison, Robert Morris, and Michael Nielsen for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Greg Brockman、Patrick Collison、Robert Morris 和 Michael Nielsen 阅读本篇草稿。"
+    }
+  ]
+}

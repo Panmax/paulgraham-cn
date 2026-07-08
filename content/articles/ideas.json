@@ -1,0 +1,566 @@
+{
+  "slug": "ideas",
+  "titleEn": "Ideas for Startups",
+  "titleZh": "创业公司的创意来源",
+  "dateText": "October 2005",
+  "publishedAt": "2005-10-01",
+  "sourceOrder": 178,
+  "sourceUrl": "https://paulgraham.com/ideas.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f91c7d0486bc3f7211e15b63509ed579b5efc5a5615d33c50edbf003c79a7208",
+      "enMarkdown": "*(This essay is derived from a talk at the 2005 \nStartup School.)*",
+      "zhMarkdown": "*(本文根据作者在 2005 年“创业学校”演讲整理而成。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "7b89367c936102a9e4ede80465111ea9921af1b6ffa944d47000fd880d71da27",
+      "enMarkdown": "How do you get good ideas for [startups](https://paulgraham.com/start.html)? That's probably the number one question people ask me.",
+      "zhMarkdown": "如何获得优秀的[创业公司](https://paulgraham.com/start.html)创意？这大概是人们问我最多的一大问题。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "3af7fea2c324969c8ce42dc046d860b660ab2c83fa503fcc99aede7577e4b786",
+      "enMarkdown": "I'd like to reply with another question: why do people think it's hard to come up with ideas for startups?",
+      "zhMarkdown": "而我想用另一个问题来回答：为什么人们会觉得想出创业创意是一件很难的事？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "517b5a03c32c049ba00ef2c743e0227ccf017339ace74a9aab51becb6053bebc",
+      "enMarkdown": "That might seem a stupid thing to ask. Why do they *think* it's hard? If people can't do it, then it *is* hard, at least for them. Right?",
+      "zhMarkdown": "这个问题听起来可能有点傻。他们为什么“觉得”难？如果人们确实想不出来，那这件事就是难的，至少对他们来说是这样，难道不是吗？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a4248b6dc502a004528e0966958b62a2d97baa1ed1e663475f0a879d69b00083",
+      "enMarkdown": "Well, maybe not. What people usually say is not that they can't think of ideas, but that they don't have any. That's not quite the same thing. It could be the reason they don't have any is that they haven't tried to generate them.",
+      "zhMarkdown": "其实不然。人们通常的说法不是他们“想不出”创意，而是他们“没有”创意。这两者并不完全是一回事。他们之所以没有创意，很可能只是因为他们根本没有试过去主动思考。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "0a8602e353b50d2b80a97fcd437a5bb1f0bd42dc19195b60ca1dc80045e69daa",
+      "enMarkdown": "I think this is often the case. I think people believe that coming up with ideas for startups is very hard-- that it *must* be very hard-- and so they don't try do to it. They assume ideas are like miracles: they either pop into your head or they don't.",
+      "zhMarkdown": "我认为情况往往就是这样。人们总觉得想出创业创意非常难——觉得它“必然”极其困难——所以干脆连试都不试。他们想当然地以为创意就像奇迹一样：要么突然在脑海中蹦出来，要么就永远不会出现。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "848c564ad7cc6deea47a50e4a144050b84f151b673e543189e3bf80032f72423",
+      "enMarkdown": "I also have a theory about why people think this. They overvalue ideas. They think creating a startup is just a matter of implementing some fabulous initial idea. And since a successful startup is worth millions of dollars, a good idea is therefore a million dollar idea.",
+      "zhMarkdown": "对于人们为什么会这么想，我还有一个理论：他们高估了创意的价值。他们认为创立一家创业公司，仅仅就是去实现某个绝妙的初始创意。既然一家成功的创业公司价值数百万美元，那么一个好创意自然也就成了“价值百万美元的创意”。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "a3c4ca871ad2e9a523fa487cb7e3670d3366a3480e35c046d75bc95eb70b07b2",
+      "enMarkdown": "If coming up with an idea for a startup equals coming up with a million dollar idea, then of course it's going to seem hard. Too hard to bother trying. Our instincts tell us something so valuable would not be just lying around for anyone to discover.",
+      "zhMarkdown": "如果把“想出一个创业创意”等同于“想出一个价值百万美元的创意”，那这事听起来当然难了。难到让人根本不想去尝试。我们的直觉会告诉自己，如此珍贵的东西绝对不可能像大白菜一样随处可见，等着任何人去发现。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "63049460679d7d6385b5c641ac15488aa9c2e2748cd9ac8e098d1f90befdf79f",
+      "enMarkdown": "Actually, startup ideas are not million dollar ideas, and here's an experiment you can try to prove it: just try to sell one. Nothing evolves faster than markets. The fact that there's no market for startup ideas suggests there's no demand. Which means, in the narrow sense of the word, that startup ideas are worthless.",
+      "zhMarkdown": "实际上，创业创意并不是什么价值百万美元的创意。你可以做一个实验来证明这一点：试着去卖掉一个创意。没有什么比市场的演化更迅速了。市场上根本没有创业创意的交易，这一事实表明根本没有这种需求。也就是说，在狭义上，创业创意其实一文不值。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "4fcc6570ef00af6fb311ab355e25891884d89926ee743ef706fa6fd5e6979f13",
+      "enMarkdown": "**Questions**",
+      "zhMarkdown": "**提出问题**"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "bc66e54043dda9f8e22a6f22cdf06910cd7618cc3f0d764dad9717b1a8eeb5d9",
+      "enMarkdown": "The fact is, most startups end up nothing like the initial idea. It would be closer to the truth to say the main value of your initial idea is that, in the process of discovering it's broken, you'll come up with your real idea.",
+      "zhMarkdown": "事实是，大多数创业公司最终的业务和最初的创意相差十万八千里。更接近真相的说法是：你初始创意的核心价值，在于你在发现它行不通的过程中，顺藤摸瓜想出了真正可行的创意。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "9123499f49b88ea721d647e0583da16bab6a30757dd86ca493523a246919aaa7",
+      "enMarkdown": "The initial idea is just a starting point-- not a blueprint, but a question. It might help if they were expressed that way. Instead of saying that your idea is to make a collaborative, web-based spreadsheet, say: could one make a collaborative, web-based spreadsheet? A few grammatical tweaks, and a woefully incomplete idea becomes a promising question to explore.",
+      "zhMarkdown": "初始创意仅仅是一个起点——它不是一份设计蓝图，而是一个问题。如果用提问的方式来表达创意，或许会大有帮助。与其说你的创意是“做一个基于网页的协同表格”，不如说：我们能做一个基于网页的协同表格吗？只需一点语法上的微调，一个简陋而不完整的创意就变成了一个极具探索价值的诱人问题。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "1f1a462b1da7448eeab87103e1847b185560e9fed1892f3e5522e1d8f7a698b8",
+      "enMarkdown": "There's a real difference, because an assertion provokes objections in a way a question doesn't. If you say: I'm going to build a web-based spreadsheet, then critics-- the most dangerous of which are in your own head-- will immediately reply that you'd be competing with Microsoft, that you couldn't give people the kind of UI they expect, that users wouldn't want to have their data on your servers, and so on.",
+      "zhMarkdown": "这有着本质的区别，因为陈述句会招致反对，而疑问句不会。如果你说：“我要做一个网页版表格。”批评者们——其中最危险的往往是你自己脑子里的声音——会立刻反驳：你这是在和微软竞争；你根本无法提供用户期待的那种交互体验；用户根本不想把数据存在你的服务器上，诸如此类。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "1b18aae842a43674d0e196a287ed4686416b1f30d93bcb0f323adee2f48aeb4c",
+      "enMarkdown": "A question doesn't seem so challenging. It becomes: let's try making a web-based spreadsheet and see how far we get. And everyone knows that if you tried this you'd be able to make *something* useful. Maybe what you'd end up with wouldn't even be a spreadsheet. Maybe it would be some kind of new spreadsheet-like collaboration tool that doesn't even have a name yet. You wouldn't have thought of something like that except by implementing your way toward it.",
+      "zhMarkdown": "而一个问题看起来就没那么有挑衅性。它变成了：让我们试着做一个网页版表格，看看能走到哪一步。大家都知道，只要你着手去做，总能做出点有用的东西。也许你最终做出来的甚至不是一个表格，而是一种全新的、连名字都还没定下来的协同工具。如果不亲自动手去写代码实现，你根本不可能想到这样的点子。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "df61fd07171f1334db895a37f3f3f48292e23236d8489c6e3e2644f744f29e6a",
+      "enMarkdown": "Treating a startup idea as a question changes what you're looking for. If an idea is a blueprint, it has to be right. But if it's a question, it can be wrong, so long as it's wrong in a way that leads to more ideas.",
+      "zhMarkdown": "把创业创意当成一个问题，会改变你寻找的目标。如果创意是一份蓝图，它就必须绝对正确。但如果它是一个问题，那么它即使是错的也无妨，只要这种“错误”能引出更多的创意就行。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "cf0f9c4c1b20d291a44479e32278f5bb8e8907430df11d5cf33040bd2d3921c6",
+      "enMarkdown": "One valuable way for an idea to be wrong is to be only a partial solution. When someone's working on a problem that seems too big, I always ask: is there some way to bite off some subset of the problem, then gradually expand from there? That will generally work unless you get trapped on a local maximum, like 1980s-style AI, or C.",
+      "zhMarkdown": "一个错误的创意能产生的价值之一，就是提供一个“部分解决方案”。当有人在研究一个看起来过于庞大的问题时，我总是会问：有没有办法先切下这个问题的某个子集，然后以此为基础逐步向外扩张？这种方法通常很管用，除非你陷入了局部最优解的陷阱，比如 20 世纪 80 年代风格的人工智能，或者 C 语言。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "170c1ce8fc84da2952d0d2d43013ea9630c671b357bc54b04b6b6c1907d20249",
+      "enMarkdown": "**Upwind**",
+      "zhMarkdown": "**保持迎风姿态**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "389ac855ae433fec8e099ef1cb0efa2f9f210e2ccd2e91942364929901b3b161",
+      "enMarkdown": "So far, we've reduced the problem from thinking of a million dollar idea to thinking of a mistaken question. That doesn't seem so hard, does it?",
+      "zhMarkdown": "到目前为止，我们已经把问题从“想出一个价值百万美元的创意”，降级到了“想出一个带错的疑问句”。这看起来没那么难了，对吧？"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "6f6b5ac0b8995c4dbf3e163398809f2156b51a5c37d57ad7e84696d6a1373525",
+      "enMarkdown": "To generate such questions you need two things: to be familiar with promising new technologies, and to have the right kind of friends. New technologies are the ingredients startup ideas are made of, and conversations with friends are the kitchen they're cooked in.",
+      "zhMarkdown": "要产生这样的问题，你需要两样东西：熟悉前景广阔的新技术，以及拥有志同道合的朋友。新技术是提炼创业创意的原材料，而与朋友的交谈则是烹饪这些创意的厨房。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "a38fd26bc2757a9f6451c4d1f9360478f753e7ec46c5ffc198aecb814a05fe44",
+      "enMarkdown": "Universities have both, and that's why so many startups grow out of them. They're filled with new technologies, because they're trying to produce research, and only things that are new count as research. And they're full of exactly the right kind of people to have ideas with: the other students, who will be not only smart but elastic-minded to a fault.",
+      "zhMarkdown": "大学同时具备了这两者，这也是为什么如此多的创业公司诞生于高校。大学里到处都是新技术，因为大家都在努力做研究，而只有全新的东西才算得上研究。同时，这里也满是探讨创意的绝佳人选：你的同学们，他们不仅聪明，而且思维活跃、极富弹性。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "6475bbb1e28585a90962be99f9fffa3102e2ee6744c03f3d5561f903a92b6c96",
+      "enMarkdown": "The opposite extreme would be a well-paying but boring job at a big company. Big companies are biased against new technologies, and the people you'd meet there would be wrong too.",
+      "zhMarkdown": "与此相反的极端，是去大公司做一份高薪却无聊的工作。大公司天然排斥新技术，你在那里遇到的人也往往不适合一起碰撞创意。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "fdbdeec5f682bb94b1e2436b967ffb6f487053fb25c44de6a8b258a37d915a2d",
+      "enMarkdown": "In an [essay](https://paulgraham.com/hs.html) I wrote for high school students, I said a good rule of thumb was to stay upwind-- to work on things that maximize your future options. The principle applies for adults too, though perhaps it has to be modified to: stay upwind for as long as you can, then cash in the potential energy you've accumulated when you need to pay for kids.",
+      "zhMarkdown": "在我写给高中生的一篇[文章](https://paulgraham.com/hs.html)中，我提到过一个很好的经验法则，那就是“保持迎风姿态”（stay upwind）——去做那些能让未来选择最大化的事情。这个原则对成年人同样适用，不过或许需要微调一下：尽可能长时间地保持迎风姿态，等到需要养家糊口时，再把积累的势能变现。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "f2a7f8d8f937ba98aab532cda3e61447a047f32af86dc61cd00608759e62e059",
+      "enMarkdown": "I don't think people consciously realize this, but one reason downwind jobs like churning out Java for a bank pay so well is precisely that they are downwind. The market price for that kind of work is higher because it gives you fewer options for the future. A job that lets you work on exciting new stuff will tend to pay less, because part of the compensation is in the form of the new skills you'll learn.",
+      "zhMarkdown": "我认为人们并没有自觉意识到这一点，但像在银行写 Java 这种“顺风”工作之所以薪水这么高，恰恰是因为它们处于顺风位置。这类工作的市场价格更高，是因为它减少了你未来的选择。而一份让你接触令人兴奋的新技术的职业，其薪水往往较低，因为你得到的一部分回报是以“学到新技能”的形式呈现的。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "4209e7b76dd12d30fd98c9be180b3f442a3c8f137fd4b1ecbfcf2a1184be8c73",
+      "enMarkdown": "Grad school is the other end of the spectrum from a coding job at a big company: the pay's low but you spend most of your time working on new stuff. And of course, it's called \"school,\" which makes that clear to everyone, though in fact all jobs are some percentage school.",
+      "zhMarkdown": "读研则处于大公司写代码工作的另一个极端：虽然收入微薄，但你大部分时间都在折腾新东西。当然，它被称为“学校”，这让大家一眼便知，但实际上，所有的工作在某种程度上都带有学校的性质。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "737e4fe1bd2e60ef67cea214e79745fea73c65df0cbe40a51a6a674865572aff",
+      "enMarkdown": "The right environment for having startup ideas need not be a university per se. It just has to be a situation with a large percentage of school.",
+      "zhMarkdown": "孕育创业创意的合适环境不一定非得是大学本身。它只需要是一个“学校”成分占比很高的环境即可。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "c2abd296bc2b0d43d60fdbafaccfb6a1ccc6e0e561e2038287c226f10f2bd62f",
+      "enMarkdown": "It's obvious why you want exposure to new technology, but why do you need other people? Can't you just think of new ideas yourself? The empirical answer is: no. Even Einstein needed people to bounce ideas off. Ideas get developed in the process of explaining them to the right kind of person. You need that resistance, just as a carver needs the resistance of the wood.",
+      "zhMarkdown": "接触新技术的好处不言而喻，但为什么非得需要其他人呢？难道就不能自己一个人想出新点子吗？经验给出的答案是：不能。连爱因斯坦都需要有人来探讨、碰撞想法。创意是在向合适的人解释的过程中逐步完善的。你需要这种阻力，就像雕刻家需要木头的阻力一样。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "bc5e95fefeb43d8b48a7e9f4ffeb4851f8bcba9a725b2bff6587fcf7c8624829",
+      "enMarkdown": "This is one reason Y Combinator has a rule against investing in startups with only one founder. Practically every successful company has at least two. And because startup founders work under great pressure, it's critical they be friends.",
+      "zhMarkdown": "这也是 Y Combinator 规定不投资单人创始人创业公司的原因之一。几乎每家成功的公司都至少有两个创始人。而且由于创业创始人承受着巨大的压力，他们之间是朋友关系就显得至关重要。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "1755fd69b8faed3d5b081188b3ed2faf2c78df5c6c44007ca101f25f8045e4f5",
+      "enMarkdown": "I didn't realize it till I was writing this, but that may help explain why there are so few female startup founders. I read on the Internet (so it must be true) that only 1.7% of VC-backed startups are founded by women. The percentage of female hackers is small, but not that small. So why the discrepancy?",
+      "zhMarkdown": "在写这篇文章之前，我还没意识到这一点，但这或许能解释为什么女性创业创始人如此之少。我在网上看到（既然是网上的，那一定是真的），在获得风投支持的创业公司中，只有 1.7% 是由女性创办的。女性黑客的比例虽然小，但也不至于这么小。那为什么会有这么大的差距呢？"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "5bf2d54b8967cdbd703f9f194b0d41b5b8aa4a3df1160d5c9134ae8ffa23c767",
+      "enMarkdown": "When you realize that successful startups tend to have multiple founders who were already friends, a possible explanation emerges. People's best friends are likely to be of the same sex, and if one group is a minority in some population, *pairs* of them will be a minority squared. [[1](#f1n)]",
+      "zhMarkdown": "当你意识到成功的创业公司往往由原本就是朋友的多位创始人共同创立时，一个可能的解释就浮出水面了。人们最好的朋友通常是同性，如果某个群体在某个总人口中占少数，那么他们“成对出现”的概率就会是少数的平方。[[1](#f1n)]"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "730e7640f68cb3b432479261e5bcb0395cf619dde3023c4864c7f9f2301ba26c",
+      "enMarkdown": "**Doodling**",
+      "zhMarkdown": "**涂鸦**"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "4a9526e24666d5a07502f46847eb78a50db3e49c0b53a1c90fd599d0026d8d88",
+      "enMarkdown": "What these groups of co-founders do together is more complicated than just sitting down and trying to think of ideas. I suspect the most productive setup is a kind of together-alone-together sandwich. Together you talk about some hard problem, probably getting nowhere. Then, the next morning, one of you has an idea in the shower about how to solve it. He runs eagerly to to tell the others, and together they work out the kinks.",
+      "zhMarkdown": "这些合伙人在一起做的事，比单纯坐下来苦思冥想创意要复杂得多。我怀疑最有效的模式是一种“聚-独-聚”的三明治结构。大家聚在一起讨论某个难题，通常毫无进展。然后，第二天早上，其中一个人在洗澡时突然想到了解决方案。他兴奋地跑去告诉其他人，大家再聚在一起把细节打磨完善。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "2d8ede5de273c0b580e770c00e2978d01d8fdda4f0e830ccbd1fbf68657a230f",
+      "enMarkdown": "What happens in that shower? It seems to me that ideas just pop into my head. But can we say more than that?",
+      "zhMarkdown": "在洗澡的时候到底发生了什么？对我来说，创意就像是自己蹦进脑子里一样。但除此之外，我们还能分析出什么吗？"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "c25691b89939e0d62202cbdafbebeec662e692e2284b5a7a3c870ca20994dad5",
+      "enMarkdown": "Taking a shower is like a form of meditation. You're alert, but there's nothing to distract you. It's in a situation like this, where your mind is free to roam, that it bumps into new ideas.",
+      "zhMarkdown": "洗澡就像是一种冥想。你保持着清醒，但没有任何事物来打扰你。在这种大脑可以自由驰骋的环境下，它就会与新创意不期而遇。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "445f71c75499d343a9eef46e38f14aa4e7704ba0a2838e43e0fa8d4336565d51",
+      "enMarkdown": "What happens when your mind wanders? It may be like doodling. Most people have characteristic ways of doodling. This habit is unconscious, but not random: I found my doodles changed after I started studying painting. I started to make the kind of gestures I'd make if I were drawing from life. They were atoms of drawing, but arranged randomly. [[2](#f2n)]",
+      "zhMarkdown": "当你的大脑开小差时，会发生什么？这可能很像涂鸦。大多数人都有自己习惯的涂鸦方式。这种习惯是无意识的，但并非随机：我发现自己在开始学画画后，涂鸦的方式变了。我开始画出那些如果我是在写生时才会画出的线条。它们是绘画的微小元素，只是被随机排列在了一起。[[2](#f2n)]"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "202be66868277354d41c153acad829a01a71f0fe8873b66398273db31e4ba193",
+      "enMarkdown": "Perhaps letting your mind wander is like doodling with ideas. You have certain mental gestures you've learned in your work, and when you're not paying attention, you keep making these same gestures, but somewhat randomly. In effect, you call the same functions on random arguments. That's what a metaphor is: a function applied to an argument of the wrong type.",
+      "zhMarkdown": "或许，让大脑放空就像是用创意在涂鸦。你在工作中学会了某些思维习惯，当你注意力不集中时，你仍会继续做出这些习惯性的思维动作，只是带有一些随机性。实际上，你是在将相同的函数调用在随机的参数上。这就是比喻的本质：将一个函数应用在错误类型的参数上。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "9807871e0af3c873db112bc9846e4c42bcdbd8083c292509279da69e97841c9d",
+      "enMarkdown": "Conveniently, as I was writing this, my mind wandered: would it be useful to have metaphors in a programming language? I don't know; I don't have time to think about this. But it's convenient because this is an example of what I mean by habits of mind. I spend a lot of time thinking about language design, and my habit of always asking \"would x be useful in a programming language\" just got invoked.",
+      "zhMarkdown": "凑巧的是，就在我写到这里时，我的大脑开小差了：在编程语言中引入比喻会有用吗？我不知道，我没时间去细想。但这个例子很合适，因为它正是我所说的“思维习惯”。我花了很多时间思考语言设计，而我那总是习惯性发问“某某东西在编程语言中会有用吗”的思维模式刚刚被自动调用了。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "f5874450f0540512c78427ac3ee80dc92e8eea67c5529a6748a89aabbef66e43",
+      "enMarkdown": "If new ideas arise like doodles, this would explain why you have to work at something for a while before you have any. It's not just that you can't judge ideas till you're an expert in a field. You won't even generate ideas, because you won't have any habits of mind to invoke.",
+      "zhMarkdown": "如果新创意就像涂鸦一样产生，这就能解释为什么你必须在某个领域深耕一段时间后才能产生创意。这不仅是因为你在成为专家之前无法评估创意，更是因为你根本无法产生创意，因为你还没有形成可以调用的思维习惯。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "482a4d753ec515130b5c02ef1a20a7a474572c900944c750ca2cafa5da43bffd",
+      "enMarkdown": "Of course the habits of mind you invoke on some field don't have to be derived from working in that field. In fact, it's often better if they're not. You're not just looking for good ideas, but for good *new* ideas, and you have a better chance of generating those if you combine stuff from distant fields. As hackers, one of our habits of mind is to ask, could one open-source x? For example, what if you made an open-source operating system? A fine idea, but not very novel. Whereas if you ask, could you make an open-source play? you might be onto something.",
+      "zhMarkdown": "当然，你在某个领域调用的思维习惯不一定非得来自该领域。事实上，如果不是，效果往往更好。你寻找的不仅是好创意，更是好的*新*创意，如果你能把相距甚远的领域结合起来，产生新创意的几率会大得多。作为黑客，我们的思维习惯之一就是问：能把某某东西开源吗？例如，如果做个开源操作系统会怎样？主意不错，但不够新颖。但如果你问：能做一个开源的话剧吗？你可能就找到了突破口。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "48a319ae023f185cbb9654786d511279d00a15bd4f0fc1ea8988c73974cc0192",
+      "enMarkdown": "Are some kinds of work better sources of habits of mind than others? I suspect harder fields may be better sources, because to attack hard problems you need powerful solvents. I find math is a good source of metaphors-- good enough that it's worth studying just for that. Related fields are also good sources, especially when they're related in unexpected ways. Everyone knows computer science and electrical engineering are related, but precisely because everyone knows it, importing ideas from one to the other doesn't yield great profits. It's like importing something from Wisconsin to Michigan. Whereas (I claim) hacking and [painting](https://paulgraham.com/hp.html) are also related, in the sense that hackers and painters are both [makers](https://paulgraham.com/taste.html), and this source of new ideas is practically virgin territory.",
+      "zhMarkdown": "是否有些工作比其他工作更适合作为思维习惯的源泉？我怀疑更难的领域可能是更好的源泉，因为要攻克难题，你需要强力的溶剂。我发现数学是比喻的极佳源泉——好到光是为了这一点就值得去研究它。相关领域也是很好的源泉，尤其是当它们以意想不到的方式关联时。大家都知道计算机科学和电子工程是相关的，但正因为人尽皆知，把创意从一个领域引入另一个领域并不能带来暴利。这就像把东西从威斯康星州运到密歇根州一样。而（我认为）黑客和[绘画](https://paulgraham.com/hp.html)也是相关的，因为黑客和画家都是[创造者](https://paulgraham.com/taste.html)，而这个新创意的源泉几乎还是一片处女地。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "ee3b36714358b49e51186749f07f0c4d0b2ee50028b577ba7dc18f3f4a0299d6",
+      "enMarkdown": "**Problems**",
+      "zhMarkdown": "**发现问题**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "5988b718a48d077a9185ff23ebd5718ffadf5c396e2cafaf1a3f3a9586ac50cf",
+      "enMarkdown": "In theory you could stick together ideas at random and see what you came up with. What if you built a peer-to-peer dating site? Would it be useful to have an automatic book? Could you turn theorems into a commodity? When you assemble ideas at random like this, they may not be just stupid, but semantically ill-formed. What would it even mean to make theorems a commodity? You got me. I didn't think of that idea, just its name.",
+      "zhMarkdown": "理论上，你可以把各种想法随机拼凑在一起，看看能得出什么。如果建一个点对点的相亲网站会怎样？做一本自动生成的书会有用吗？你能把数学定理变成商品吗？当你像这样随机组合创意时，它们可能不仅愚蠢，甚至在语义上都说不通。把数学定理变成商品到底是什么意思？你把我问倒了。我没想过这个创意，只是想出了这个名字。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "ea0bc4c7a668381f0e40ba689ff400351b7f19aba7b683ac493a0bb796fd2f83",
+      "enMarkdown": "You might come up with something useful this way, but I never have. It's like knowing a fabulous sculpture is hidden inside a block of marble, and all you have to do is remove the marble that isn't part of it. It's an encouraging thought, because it reminds you there is an answer, but it's not much use in practice because the search space is too big.",
+      "zhMarkdown": "你可能会通过这种方式找到有用的东西，但我从未成功过。这就像知道一块大理石里藏着一座绝美的雕像，你所要做的就是凿掉不属于雕像的大理石。这是一个令人鼓舞的想法，因为它提醒你答案确实存在，但在实践中用处不大，因为搜索空间实在太大了。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "777124d182289e55a432b16c8bb468195ea1e7df41d0d1183b287b021508e57b",
+      "enMarkdown": "I find that to have good ideas I need to be working on some problem. You can't start with randomness. You have to start with a problem, then let your mind wander just far enough for new ideas to form.",
+      "zhMarkdown": "我发现，要获得好创意，我必须在解决某个具体问题的过程中进行。你不能从随机开始。你必须从一个问题开始，然后让你的思绪飘得足够远，以便让新创意成型。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "0aad5e27d75c03e025129bc66d3e9b0452a4c6aed8bc354a7475f2d543703c6e",
+      "enMarkdown": "In a way, it's harder to see problems than their solutions. Most people prefer to remain in denial about problems. It's obvious why: problems are irritating. They're problems! Imagine if people in 1700 saw their lives the way we'd see them. It would have been unbearable. This denial is such a powerful force that, even when presented with possible solutions, people often prefer to believe they wouldn't work.",
+      "zhMarkdown": "在某种程度上，发现问题比找到解决方案更难。大多数人更愿意对问题视而不见。原因显而易见：问题令人烦恼。它们是麻烦！想象一下，如果 1700 年的人像我们今天看待当时的生活那样来看待他们自己的生活，那将是难以忍受的。这种逃避是如此强大，以至于即使面对可能的解决方案，人们也往往宁愿相信它们行不通。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "7d10246e54af2a976ab007efa3b0edabd180a9fa23309ed90106c1bc3b847de4",
+      "enMarkdown": "I saw this phenomenon when I worked on spam filters. In 2002, most people preferred to ignore spam, and most of those who didn't preferred to believe the heuristic filters then available were the best you could do.",
+      "zhMarkdown": "在我做垃圾邮件过滤器时，我亲眼目睹了这种现象。在 2002 年，大多数人选择无视垃圾邮件，而那些不无视的人里，大多数人宁愿相信当时已有的启发式过滤器就是极限了。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "2b319488cce7d3742094a3a4e98cb74f3f02563027375b1d2d9b3bc1e42a627b",
+      "enMarkdown": "I found spam intolerable, and I felt it had to be possible to recognize it statistically. And it turns out that was all you needed to solve the problem. The algorithm I used was ridiculously simple. Anyone who'd really tried to solve the problem would have found it. It was just that no one had really tried to solve the problem. [[3](#f3n)]",
+      "zhMarkdown": "我觉得垃圾邮件令人无法容忍，而且我觉得通过统计学方法来识别它一定是可行的。事实证明，解决这个问题只需要这些。我使用的算法简单得令人发指。任何真正尝试去解决这个问题的人都会发现它。只是之前根本没有人真正去尝试解决这个问题。[[3](#f3n)]"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "9b14c8cec8e6a51ab788af2509e799e2ae28529a601a7918be9631b94844e335",
+      "enMarkdown": "Let me repeat that recipe: finding the problem intolerable and feeling it must be possible to solve it. Simple as it seems, that's the recipe for a lot of startup ideas.",
+      "zhMarkdown": "让我重复一下这个秘诀：觉得问题无法容忍，并坚信它一定能被解决。虽然看起来很简单，但这就是许多创业创意的配方。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "5c304b073f78c7ef8ca5e8534989edc3ab4b3d3eab4d5e96bce55994451bd049",
+      "enMarkdown": "**Wealth**",
+      "zhMarkdown": "**财富**"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "499fddb4036168d96eef87d4ee1c8c6a06846376928ea17b3d74184e3427227b",
+      "enMarkdown": "So far most of what I've said applies to ideas in general. What's special about startup ideas? Startup ideas are ideas for companies, and companies have to make money. And the way to make money is to make something people want.",
+      "zhMarkdown": "到目前为止，我所说的大部分内容都适用于通用的创意。那么，创业公司的创意有什么特别之处？创业公司的创意是关于创办公司的创意，而公司必须赚钱。赚钱的方法就是做出人们想要的东西。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "63e78c4bdf9b00d4d6acd33f6e1deab48412841a47860b944442bb7617ddae29",
+      "enMarkdown": "Wealth is what people want. I don't mean that as some kind of philosophical statement; I mean it as a tautology.",
+      "zhMarkdown": "财富就是人们想要的东西。我这么说并不是什么哲学宣言，而是一个同义反复。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "4d431c3c0ed2102d2f68c482f090ba68834c3f08f4a3c9da427f1674c23db7ba",
+      "enMarkdown": "So an idea for a startup is an idea for something people want. Wouldn't any good idea be something people want? Unfortunately not. I think new theorems are a fine thing to create, but there is no great demand for them. Whereas there appears to be great demand for celebrity gossip magazines. Wealth is defined democratically. Good ideas and valuable ideas are not quite the same thing; the difference is individual tastes.",
+      "zhMarkdown": "因此，创业公司的创意就是关于“人们想要的东西”的创意。难道任何好创意不都是人们想要的东西吗？遗憾的是，并非如此。我认为发现新定理是一件极好的事，但对它们的需求并不大。相反，人们对明星八卦杂志的需求似乎很大。财富是由民主定义的。好创意和有价值的创意并不完全是一回事，两者的区别在于个人口味。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "339a5425ee684e108ecafbbc2870c273665096405c26d95eb5ab72ecf1b5aa65",
+      "enMarkdown": "But valuable ideas are very close to good ideas, especially in technology. I think they're so close that you can get away with working as if the goal were to discover good ideas, so long as, in the final stage, you stop and ask: will people actually pay for this? Only a few ideas are likely to make it that far and then get shot down; RPN calculators might be one example.",
+      "zhMarkdown": "但有价值的创意和好创意非常接近，特别是在技术领域。我认为它们是如此接近，以至于你可以把“发现好创意”作为目标去工作，只要在最后阶段停下来问一句：人们真的会为此付钱吗？只有极少数创意能在走到这一步后被毙掉，逆波兰表示法（RPN）计算器可能就是一个例子。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "6abe07b78cf9410fc9d56a9a887778e287e311b9a71f25e2e0e08dc8eb729422",
+      "enMarkdown": "One way to make something people want is to look at stuff people use now that's broken. Dating sites are a prime example. They have millions of users, so they must be promising something people want. And yet they work horribly. Just ask anyone who uses them. It's as if they used the worse-is-better approach but stopped after the first stage and handed the thing over to marketers.",
+      "zhMarkdown": "做出人们想要的东西的一个方法，是去观察人们现在正在使用但体验很糟糕的东西。婚恋交友网站就是一个典型例子。它们拥有数百万用户，所以它们必然承诺了人们想要的东西。然而，它们的用户体验极其糟糕。去问问任何用过它们的人就知道了。这就好像他们采用了“坏即是好”（worse-is-better）的方法，但在第一阶段之后就停滞了，直接把东西交给了市场营销人员。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "bab6187b272cfe3547d2d8f14327c2d01defdbdf031585f490869c05d67f60ad",
+      "enMarkdown": "Of course, the most obvious breakage in the average computer user's life is Windows itself. But this is a special case: you can't defeat a monopoly by a frontal attack. Windows can and will be overthrown, but not by giving people a better desktop OS. The way to kill it is to redefine the problem as a superset of the current one. The problem is not, what operating system should people use on desktop computers? but how should people use applications? There are answers to that question that don't even involve desktop computers.",
+      "zhMarkdown": "当然，普通电脑用户生活中最显而易见的痛点就是 Windows 本身。但这属于特例：你无法通过正面强攻来击败垄断。Windows 可以而且终将被推翻，但绝不是通过给人们一个更好的桌面操作系统。消灭它的方法是将问题重新定义为当前问题的超集。问题不是“人们应该在台式电脑上使用什么操作系统？”，而是“人们应该如何使用应用程序？”对这个问题的回答甚至不需要涉及台式电脑。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "fb157be4aac9577cad7fd92f1419b8ce5dae9e7dddc970062305204d145ecbe3",
+      "enMarkdown": "Everyone thinks Google is going to solve this problem, but it is a very subtle one, so subtle that a company as big as Google might well get it wrong. I think the odds are better than 50-50 that the Windows killer-- or more accurately, Windows transcender-- will come from some little startup.",
+      "zhMarkdown": "大家都觉得谷歌会解决这个问题，但这是一个非常微妙的问题，微妙到像谷歌这样庞大的公司也很可能会搞砸。我认为 Windows 杀手——或者更准确地说，Windows 超越者——有超过 50% 的概率会诞生于某个名不见经传的小创业公司。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "482f13f6ed995135dad6d94a640f519a24d4745a15076848d52f5e1aecfe5c36",
+      "enMarkdown": "Another classic way to make something people want is to take a luxury and make it into a commmodity. People must want something if they pay a lot for it. And it is a very rare product that can't be made dramatically cheaper if you try.",
+      "zhMarkdown": "另一个做出人们想要的东西的经典方法，是将某种奢侈品变成廉价的日用品。如果人们为某样东西付高价，说明他们一定想要它。而极少有什么产品是只要你努力，就无法大幅降低其成本的。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "cd83272308b0554aa7b134173a0f18da1db9dfe0aeeabe082df1b9d395689639",
+      "enMarkdown": "This was Henry Ford's plan. He made cars, which had been a luxury item, into a commodity. But the idea is much older than Henry Ford. Water mills transformed mechanical power from a luxury into a commodity, and they were used in the Roman empire. Arguably pastoralism transformed a luxury into a commodity.",
+      "zhMarkdown": "这就是亨利·福特的计划。他把曾属于奢侈品的汽车变成了日用品。但这个想法比亨利·福特要古老得多。水磨将机械动力从奢侈品变成了日用品，它们在罗马帝国时期就已被使用。甚至可以说，畜牧业将肉食从奢侈品变成了日用品。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "378c2b60a413d0ce83fed8faf973790f5638b88f60a37c06b38b5ffef8c9969e",
+      "enMarkdown": "When you make something cheaper you can sell more of them. But if you make something dramatically cheaper you often get qualitative changes, because people start to use it in different ways. For example, once computers get so cheap that most people can have one of their own, you can use them as communication devices.",
+      "zhMarkdown": "当你把东西做便宜时，你能卖出更多。但如果你把东西做得极其便宜，你往往会获得质的改变，因为人们会开始以不同的方式使用它。例如，一旦电脑便宜到大多数人都能拥有一台，你就可以把它们用作通信设备。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "3764dafaec3558e824b113ca3bcd7c4704c020631b92b6cd463bc87c45a22f31",
+      "enMarkdown": "Often to make something dramatically cheaper you have to redefine the problem. The Model T didn't have all the features previous cars did. It only came in black, for example. But it solved the problem people cared most about, which was getting from place to place.",
+      "zhMarkdown": "通常，要让一样东西变得极其便宜，你必须重新定义问题。福特 T 型车并没有之前汽车的所有功能。例如，它只有黑色的。但它解决了人们最关心的核心问题，那就是从一个地方移动到另一个地方。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "dac447b1c56a18a50db1aa14ba33ff7747a0bf6961f6f95c2869d79647736e72",
+      "enMarkdown": "One of the most useful mental habits I know I learned from Michael Rabin: that the best way to solve a problem is often to redefine it. A lot of people use this technique without being consciously aware of it, but Rabin was spectacularly explicit. You need a big prime number? Those are pretty expensive. How about if I give you a big number that only has a 10 to the minus 100 chance of not being prime? Would that do? Well, probably; I mean, that's probably smaller than the chance that I'm imagining all this anyway.",
+      "zhMarkdown": "我所知道的最有用的思维习惯之一是从迈克尔·拉宾（Michael Rabin）那里学到的：解决问题最好的方法往往是重新定义它。许多人在无意识中使用这种技术，但拉宾将其表达得极为清晰。你需要一个很大的素数？那可非常昂贵。如果我给你一个大数，它不是素数的概率只有 10 的负 100 次方，这样行吗？好吧，大概行吧；我是说，这个概率可能比我产生幻觉的概率还要低。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "c355934a61d938fa4a96101deaa5ff99a4c9e718f5da2b103db8540e69e6662f",
+      "enMarkdown": "Redefining the problem is a particularly juicy heuristic when you have competitors, because it's so hard for rigid-minded people to follow. You can work in plain sight and they don't realize the danger. Don't worry about us. We're just working on search. Do one thing and do it well, that's our motto.",
+      "zhMarkdown": "当你面对竞争对手时，重新定义问题是一个格外诱人的启发式方法，因为思维僵化的人很难跟上。你可以在大庭广众之下开展工作，而他们甚至意识不到危险。“别担心我们。我们只是在做搜索。做好一件事，这就是我们的座右铭。”"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "f55271ba07c913ac4298635f568e789ad9653c9b643b0c30a376fa83763384fb",
+      "enMarkdown": "Making things cheaper is actually a subset of a more general technique: making things easier. For a long time it was most of making things easier, but now that the things we build are so complicated, there's another rapidly growing subset: making things easier to *use*.",
+      "zhMarkdown": "把东西做便宜实际上是更通用技术的一个子集：把事情变简单。在很长一段时间里，这主要意味着把东西变便宜，但现在我们制造的东西如此复杂，另一个迅速增长的子集出现了：让东西变得更容易*使用*。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "c88c06e8869feae317f5ea967eabc8c848f90611840ba992363ddafa2572f270",
+      "enMarkdown": "This is an area where there's great room for improvement. What you want to be able to say about technology is: it just works. How often do you say that now?",
+      "zhMarkdown": "这是一个有巨大提升空间的领域。对于技术，你最想说的一句话是：“它用起来很顺手。”你现在有多经常能说出这句话？"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "f018e99c09f29014a5d1f94a5a0a367bce37174e47ca49d564b6fe03f49b6eed",
+      "enMarkdown": "Simplicity takes effort-- genius, even. The average programmer seems to produce UI designs that are almost willfully bad. I was trying to use the stove at my mother's house a couple weeks ago. It was a new one, and instead of physical knobs it had buttons and an LED display. I tried pressing some buttons I thought would cause it to get hot, and you know what it said? \"Err.\" Not even \"Error.\" \"Err.\" You can't just say \"Err\" to the user of a *stove*. You should design the UI so that errors are impossible. And the boneheads who designed this stove even had an example of such a UI to work from: the old one. You turn one knob to set the temperature and another to set the timer. What was wrong with that? It just worked.",
+      "zhMarkdown": "简单需要付出努力——甚至需要天才。普通的程序员设计出来的用户界面似乎糟糕得像是在故意刁难人。两周前，我试着在我母亲家使用烤箱。那是一个新烤箱，它没有物理旋钮，而是按钮和 LED 显示屏。我试着按了几个我觉得能让它热起来的按钮，你知道它显示了什么吗？“Err”（错误）。甚至不是“Error”，而是“Err”。你不能对一个使用*烤箱*的用户只说一句“Err”。你应该设计一个不可能出错的用户界面。而设计这个烤箱的笨蛋们甚至有一个现成的优秀界面可以参考：老款烤箱。旋转一个旋钮设定温度，旋转另一个旋钮设定时间。那有什么问题吗？它用起来就很顺手。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "18cce8d21b08e1a034925d0277014aeee75b4db14f5c0d90bd3da03df13d5f6a",
+      "enMarkdown": "It seems that, for the average engineer, more options just means more rope to hang yourself. So if you want to start a startup, you can take almost any existing technology produced by a big company, and assume you could build something way easier to use.",
+      "zhMarkdown": "对于普通工程师来说，更多的选项似乎只意味着上吊时有更多可以用的绳子。所以，如果你想创办一家创业公司，你可以拿大公司生产的几乎任何现成技术，然后假设你可以做出一个好用得多的东西。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "374b56fba85e9a3f41430e75ea8e5ac9862f12089bb2babdf4f71825269fda11",
+      "enMarkdown": "**Design for Exit**",
+      "zhMarkdown": "**为被收购而设计**"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "781640fe9bc39afa7196351b9fb6a540eec00a31618ed608c32792660ec61197",
+      "enMarkdown": "Success for a startup approximately equals getting bought. You need some kind of exit strategy, because you can't get the smartest people to work for you without giving them options likely to be worth something. Which means you either have to get bought or go public, and the number of startups that go public is very small.",
+      "zhMarkdown": "创业公司的成功大致等同于被收购。你需要某种退出策略，因为如果不给最聪明的人提供可能很值钱的期权，你就无法吸引他们为你工作。这意味着你必须要么被收购，要么上市，而能上市的创业公司数量极少。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "12cbff575d52d149eea1410fce1610a3f563c8ae38b130e1ec81fa99eae3b23c",
+      "enMarkdown": "If success probably means getting bought, should you make that a conscious goal? The old answer was no: you were supposed to pretend that you wanted to create a giant, public company, and act surprised when someone made you an offer. Really, you want to buy us? Well, I suppose we'd consider it, for the right price.",
+      "zhMarkdown": "如果成功大概率意味着被收购，你应该把这作为一个自觉的目标吗？过去的答案是否定的：你应该假装你想创办一家庞大的上市公司，并在有人向你报价时表现得惊讶。“真的吗，你想买我们？好吧，我想如果价格合适的话，我们会考虑的。”"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "682d0ec55b24f52ff6af568f3d79491ab71d8bf7fd6ae195fa244a3200c4e888",
+      "enMarkdown": "I think things are changing. If 98% of the time success means getting bought, why not be open about it? If 98% of the time you're doing product development on spec for some big company, why not think of that as your task? One advantage of this approach is that it gives you another source of ideas: look at big companies, think what they [should](http://kiko.com) be doing, and do it yourself. Even if they already know it, you'll probably be done faster.",
+      "zhMarkdown": "我认为情况正在发生变化。如果 98% 的情况下成功意味着被收购，为什么不公开承认呢？如果 98% 的时间里你都是在为某家大公司做定制化的产品开发，为什么不直接把这当成你的任务呢？这种方法的一个好处是它为你提供了另一个创意源泉：观察大公司，想想他们[应该](http://kiko.com)做什么，然后你自己动手去做。即使他们已经知道了，你可能也比他们做得更快。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "279e9546ec49d43fc343290b696433eefcca10cc81f1117ba31aa2926a55d5fd",
+      "enMarkdown": "Just be sure to make something multiple acquirers will want. Don't fix Windows, because the only potential acquirer is Microsoft, and when there's only one acquirer, they don't have to hurry. They can take their time and copy you instead of buying you. If you want to get market price, work on something where there's competition.",
+      "zhMarkdown": "只要确保你做出的东西是多个买家都会想要的。不要去修补 Windows，因为唯一的潜在买家是微软，而当只有一个买家时，他们根本不需要着急。他们可以慢慢来，抄袭你而不是收购你。如果你想获得市场价，就要做有竞争存在的领域。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "75ce6ec8166d5be2cfaa44a7608368042a0ff4cca66543fbaf1385937c3dde72",
+      "enMarkdown": "If an increasing number of startups are created to do product development on spec, it will be a natural counterweight to monopolies. Once some type of technology is captured by a monopoly, it will only evolve at big company rates instead of startup rates, whereas alternatives will evolve with especial speed. A free market interprets monopoly as damage and routes around it.",
+      "zhMarkdown": "如果越来越多的创业公司是为了做定制化产品开发而创建的，这将成为对抗垄断的天然平衡力量。一旦某种技术被垄断巨头掌控，它就只能以大公司的速度而不是创业公司的速度演进，而替代方案则会以极快的速度演进。自由市场将垄断视为一种破坏，并会绕过它。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "4c473abff819ce0e0c136b2a21df13254582c3bc086fafb7bd2e529076c1b06b",
+      "enMarkdown": "**The Woz Route**",
+      "zhMarkdown": "**沃兹之路**"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "abc6eae35df2cfe10cd0c3ffbb60394d03aac1fcf52f22e5a24f94c1a11c9ae3",
+      "enMarkdown": "The most productive way to generate startup ideas is also the most unlikely-sounding: by accident. If you look at how famous startups got started, a lot of them weren't initially supposed to be startups. Lotus began with a program Mitch Kapor wrote for a friend. Apple got started because Steve Wozniak wanted to build microcomputers, and his employer, Hewlett-Packard, wouldn't let him do it at work. Yahoo began as David Filo's personal collection of links.",
+      "zhMarkdown": "产生创业创意最有效的方法，听起来也是最不可思议的：纯属偶然。如果你看看著名创业公司是如何起步的，就会发现其中许多最初根本没打算做成创业公司。Lotus 始于米奇·卡普尔（Mitch Kapor）为朋友写的一个程序。苹果的诞生是因为史蒂夫·沃兹尼亚克（Steve Wozniak）想自己造微型计算机，而他的雇主惠普公司不让他利用工作时间做这件事。雅虎最初只是大卫·费罗（David Filo）个人的网页链接收藏夹。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "81d553f804681b1fe695805e6eb0195d26f59df869b789df347bedc27d43a25c",
+      "enMarkdown": "This is not the only way to start startups. You can sit down and consciously come up with an idea for a company; we did. But measured in total market cap, the build-stuff-for-yourself model might be more fruitful. It certainly has to be the most fun way to come up with startup ideas. And since a startup ought to have multiple founders who were already friends before they decided to start a company, the rather surprising conclusion is that the best way to generate startup ideas is to do what hackers do for fun: cook up amusing hacks with your friends.",
+      "zhMarkdown": "这并不是创办创业公司的唯一途径。你当然可以坐下来，有意识地想出一个公司的创意；我们当年就是这么做的。但如果以总市值来衡量，“为自己做东西”的模式可能会结出更丰硕的果实。这绝对是想出创业创意最有趣的方式。既然一家创业公司应该有多个在决定创业前就已经是朋友的创始人，那么一个相当令人惊讶的结论是：产生创业创意最好的方法，就是去做黑客们为了好玩而做的事——和你的朋友们一起捣鼓有趣的黑客项目。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "888d97dd88b3c135c0b2605a94ecfed588a093373b6a05a8be89a0b6305a49ec",
+      "enMarkdown": "It seems like it violates some kind of conservation law, but there it is: the best way to get a \"million dollar idea\" is just to do what hackers enjoy doing anyway.",
+      "zhMarkdown": "这看起来似乎违反了某种能量守恒定律，但事实就是如此：获得“价值百万美元创意”的最佳途径，就是去做黑客本来就乐在其中的事情。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "f14415c633df91600a285e60f4560ee86a4e0da9025c16277a31a17c8a1414d6",
+      "enMarkdown": "[1] This phenomenon may account for a number of discrepancies currently blamed on various forbidden isms. Never attribute to malice what can be explained by math.",
+      "zhMarkdown": "[1] 这一现象或许可以解释目前被归咎于各种“主义”歧视的诸多差异。永远不要把可以用数学解释的事情归咎于恶意。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "a5bdc3569f99933251aa9a407206a57e5ff923b7bd465083046a860caac43072",
+      "enMarkdown": "[2] A lot of classic abstract expressionism is doodling of this type: artists trained to paint from life using the same gestures but without using them to represent anything. This explains why such paintings are (slightly) more interesting than random marks would be.",
+      "zhMarkdown": "[2] 许多经典的抽象表现主义作品就是这种类型的涂鸦：接受过写生训练的艺术家使用相同的线条动作，但并不用它们来描绘任何具体的实物。这解释了为什么这类画作比随机涂抹的痕迹要（稍微）更有趣一些。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "b745369afd3bb9e2e89126394315e9c815ae487674b2a9e82a6f01349e87831f",
+      "enMarkdown": "[3] Bill Yerazunis had solved the problem, but he got there by another path. He made a general-purpose file classifier so good that it also worked for spam.",
+      "zhMarkdown": "[3] 比尔·耶拉祖尼斯（Bill Yerazunis）也解决了这个问题，但他走的是另一条路。他做了一个非常优秀的通用文件分类器，以至于它同样适用于过滤垃圾邮件。"
+    }
+  ]
+}

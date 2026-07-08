@@ -1,0 +1,125 @@
+{
+  "slug": "airbnbs",
+  "titleEn": "The Airbnbs",
+  "titleZh": "Airbnb 创始人们",
+  "dateText": "December 2020",
+  "publishedAt": "2020-12-01",
+  "sourceOrder": 40,
+  "sourceUrl": "https://paulgraham.com/airbnbs.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "4a8a0cbade73c2acb921a3f8fcc77e054c2dea873df931c0f93590528bedd03a",
+      "enMarkdown": "To celebrate Airbnb's IPO and to help future founders, I thought it might be useful to explain what was special about Airbnb.",
+      "zhMarkdown": "为了庆祝 Airbnb 的上市，同时也为了给未来的创始人一些启发，我想解释一下 Airbnb 到底有什么特别之处，这或许会有所帮助。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "54b34cea935eef6855fd93298a244d6196216091c3a6657ef225360b51853d9c",
+      "enMarkdown": "What was special about the Airbnbs was how earnest they were. They did nothing half-way, and we could sense this even in the interview. Sometimes after we interviewed a startup we'd be uncertain what to do, and have to talk it over. Other times we'd just look at one another and smile. The Airbnbs' interview was that kind. We didn't even like the idea that much. Nor did users, at that stage; they had no growth. But the founders seemed so full of energy that it was impossible not to like them.",
+      "zhMarkdown": "Airbnb 创始人最特别的地方在于他们的真诚。他们做事绝不半途而废，这一点我们在面试时就感受到了。有时面试完一家创业公司，我们会犹豫不决，必须商量一番。而另一些时候，我们只需要看着彼此会心一笑。Airbnb 的面试就属于后一种。当时我们甚至不太看好这个点子，那时的用户也同样不看好，他们根本没有增长。但创始人们看起来如此活力四射，让人无法不喜欢他们。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "dc830182a2ffe2ea5349900758188241df0f59c82cc80a473259c5d11dfa125f",
+      "enMarkdown": "That first impression was not misleading. During the batch our nickname for Brian Chesky was The Tasmanian Devil, because like the [cartoon\ncharacter](http://www.youtube.com/watch?v=StG2u5qfFRg&t=2m27s) he seemed a tornado of energy. All three of them were like that. No one ever worked harder during YC than the Airbnbs did. When you talked to the Airbnbs, they took notes. If you suggested an idea to them in office hours, the next time you talked to them they'd not only have implemented it, but also implemented two new ideas they had in the process. \"They probably have the best attitude of any startup we've funded\" I wrote to Mike Arrington during the batch.",
+      "zhMarkdown": "那第一印象并没有骗人。在 YC 期间，我们给 Brian Chesky 起了个绰号叫“塔斯马尼亚恶魔”（The Tasmanian Devil），因为就像那个[卡通角色](http://www.youtube.com/watch?v=StG2u5qfFRg&t=2m27s)一样，他简直就像一龙卷风般的能量体。他们三个人都是如此。在 YC 期间，没有人比 Airbnb 的创始人更拼命。当你跟他们交流时，他们会认真记笔记。如果你在办公时间给他们提了一个建议，下次再聊时，他们不仅已经把这个建议落地了，而且在此过程中还顺便实现了另外两个新想法。在当期 YC 期间，我给 Mike Arrington 写信时说：“在我们资助过的所有创业公司中，他们的态度可能是最好的。”"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "30949be6eecc170a51bb2d0351a0fc2fa93524c45df079bc4fca1b820b2552e9",
+      "enMarkdown": "They're still like that. Jessica and I had dinner with Brian in the summer of 2018, just the three of us. By this point the company is ten years old. He took a page of notes about ideas for new things Airbnb could do.",
+      "zhMarkdown": "他们至今依然如此。2018 年夏天，Jessica 和我与 Brian 一起吃了一顿晚饭，就我们三个人。当时公司已经成立十年了。他依然拿出一张纸，密密麻麻地记下了关于 Airbnb 未来可以尝试的新想法。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "50710d7cd74c389c8ca2c96849a126066ed80198cb72adf240c33f511284bfaa",
+      "enMarkdown": "What we didn't realize when we first met Brian and Joe and Nate was that Airbnb was on its last legs. After working on the company for a year and getting no growth, they'd agreed to give it one last shot. They'd try this Y Combinator thing, and if the company still didn't take off, they'd give up.",
+      "zhMarkdown": "当我们第一次见到 Brian、Joe 和 Nate 时，我们并没有意识到 Airbnb 当时已经奄奄一息。在做了一年却毫无增长之后，他们决定做最后一次挣扎。他们打算尝试一下 Y Combinator，如果公司还是没有起色，他们就放弃。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d526ab5f4719836f1db3dd5da3402319c2cb252a0023a034fde95fecf14f78db",
+      "enMarkdown": "Any normal person would have given up already. They'd been funding the company with credit cards. They had a *binder* full of credit cards they'd maxed out. Investors didn't think much of the idea. One investor they met in a cafe walked out in the middle of meeting with them. They thought he was going to the bathroom, but he never came back. \"He didn't even finish his smoothie,\" Brian said. And now, in late 2008, it was the worst recession in decades. The stock market was in free fall and wouldn't hit bottom for another four months.",
+      "zhMarkdown": "任何一个正常人恐怕早就放弃了。他们当时一直靠信用卡给公司输血，甚至有一整本刷爆了的信用卡。投资人对这个点子不屑一顾。他们曾在一家咖啡馆和一位投资人见面，对方聊到一半直接走了。他们以为对方去上厕所，结果再也没回来。“他甚至连冰沙都没喝完，”Brian 说。而且在 2008 年底，正值几十年来最严重的经济衰退，股市一路狂跌，直到四个月后才触底。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "2eea630b4867ab29e24f4ea0f566a8ba75726b61e61ab85ebf0dbe847b590758",
+      "enMarkdown": "Why hadn't they given up? This is a useful question to ask. People, like matter, reveal their nature under extreme conditions. One thing that's clear is that they weren't doing this just for the money. As a money-making scheme, this was pretty lousy: a year's work and all they had to show for it was a binder full of maxed-out credit cards. So why were they still working on this startup? Because of the experience they'd had as the first hosts.",
+      "zhMarkdown": "为什么他们没有放弃？这是一个很值得思考的问题。人就像物质一样，在极端条件下才会显现其本质。显而易见的一点是，他们不仅仅是为了钱而做这件事。如果这只是一个赚钱的计划，那也太糟糕了：一年的心血换来的只有一整本刷爆的信用卡。那么，他们为什么还在坚持做这家创业公司呢？因为他们作为第一代房东的亲身经历。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8cfaaa72d29cb841e01862b4a22ef6afd9a58a7533ca5a262024ae7dcffa53b4",
+      "enMarkdown": "When they first tried renting out airbeds on their floor during a design convention, all they were hoping for was to make enough money to pay their rent that month. But something surprising happened: they enjoyed having those first three guests staying with them. And the guests enjoyed it too. Both they and the guests had done it because they were in a sense forced to, and yet they'd all had a great experience. Clearly there was something new here: for hosts, a new way to make money that had literally been right under their noses, and for guests, a new way to travel that was in many ways better than hotels.",
+      "zhMarkdown": "当他们最初在设计大会期间尝试出租客厅里的充气床垫时，他们只是希望赚够当月的房租。但意想不到的事情发生了：他们很享受与前三位房客相处的时光，房客们也很享受。虽然双方都是在某种“被逼无奈”的情况下做出的选择，但大家都获得了一次极棒的体验。这显然蕴含着某种全新的东西：对房东来说，这是一种近在眼前的全新赚钱方式；对房客来说，这是一种在许多方面都优于酒店的全新旅行方式。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "325894f1dfe6699f33e281dfa7b6cd5b14704db92f35651e615adf59628b0463",
+      "enMarkdown": "That experience was why the Airbnbs didn't give up. They knew they'd discovered something. They'd seen a glimpse of the future, and they couldn't let it go.",
+      "zhMarkdown": "正是那次经历让 Airbnb 的创始人们没有放弃。他们知道自己发现了一些东西。他们窥见了一角未来，因此无法放手。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "9103990784cdb77a850099a81ff2f4c67fc15bc99e9c7cce9f3c0be898e05d5c",
+      "enMarkdown": "They knew that once people tried staying in what is now called \"an airbnb,\" they would also realize that this was the future. But only if they tried it, and they weren't. That was the problem during Y Combinator: to get growth started.",
+      "zhMarkdown": "他们知道，人们只要尝试过住在如今被称为“民宿”（airbnb）的地方，就会意识到这就是未来。但前提是他们得去尝试，而当时人们并没有。这就是 Y Combinator 期间需要解决的问题：如何启动增长。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "95ce41401c379c1df942ed0f1b2aeda7478f52aef0687e3b9f1bd2568b633ad0",
+      "enMarkdown": "Airbnb's goal during YC was to reach what we call [ramen profitability](http://paulgraham.com/ramenprofitable.html), which means making enough money that the company can pay the founders' living expenses, if they live on ramen noodles. Ramen profitability is not, obviously, the end goal of any startup, but it's the most important threshold on the way, because this is the point where you're airborne. This is the point where you no longer need investors' permission to continue existing. For the Airbnbs, ramen profitability was $4000 a month: $3500 for rent, and $500 for food. They taped this goal to the mirror in the bathroom of their apartment.",
+      "zhMarkdown": "Airbnb 在 YC 期间的目标是达到我们所说的[拉面盈利](http://paulgraham.com/ramenprofitable.html)状态。这意味着公司赚到的钱，在创始人们只吃拉面的情况下，刚好能维持他们的生活开销。显然，“拉面盈利”并不是任何创业公司的终极目标，但它是创业路上最重要的分水岭。因为一旦到了这个节点，你就起飞了。你不再需要投资人的许可就能继续生存下去。对 Airbnb 的创始人们来说，拉面盈利是每个月 4000 美元：3500 美元付房租，500 美元买食物。他们把这个目标贴在公寓浴室的镜子上。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "9a838a7ecc62dc5ad00b30dd70040d27f9ad78b5d02c253977ace00e54699ba7",
+      "enMarkdown": "The way to get growth started in something like Airbnb is to focus on the hottest subset of the market. If you can get growth started there, it will spread to the rest. When I asked the Airbnbs where there was most demand, they knew from searches: New York City. So they focused on New York. They went there [in person](http://paulgraham.com/ds.html) to visit their hosts and help them make their listings more attractive. A big part of that was better pictures. So Joe and Brian rented a professional camera and took pictures of the hosts' places themselves.",
+      "zhMarkdown": "在像 Airbnb 这样的业务中，启动增长的方法是聚焦于市场中最活跃的细分领域。如果你能在那儿启动增长，它就会蔓延到其他地方。当我问他们哪里需求最旺盛时，他们通过搜索数据得知：纽约市。于是他们把精力集中在纽约。他们[亲自前往](http://paulgraham.com/ds.html)那里拜访房东，帮助他们让房源显得更有吸引力。其中很大一部分工作是拍出更好的照片。于是 Joe 和 Brian 租了一台专业相机，亲自去给房东的房子拍照。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "dd2780371f6c1a0ae70aecfab6d65af2da3915adc65e06f2dae3c463029942b4",
+      "enMarkdown": "This didn't just make the listings better. It also taught them about their hosts. When they came back from their first trip to New York, I asked what they'd noticed about hosts that surprised them, and they said the biggest surprise was how many of the hosts were in the same position they'd been in: they needed this money to pay their rent. This was, remember, the worst recession in decades, and it had hit New York first. It definitely added to the Airbnbs' sense of mission to feel that people needed them.",
+      "zhMarkdown": "这不仅提升了房源的质量，还让他们深入了解了房东。当他们第一次从纽约回来时，我问他们有什么出乎意料的发现。他们说，最大的惊喜是发现有那么多房东和他们之前的处境一模一样：他们急需这笔钱来付房租。请记住，当时是几十年来最严重的经济衰退，而纽约首当其冲。感受到人们需要他们，这无疑增强了 Airbnb 创始人们的使命感。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e1b525f5d957a467ecc56b9a4399004becf7c338aeefb6e8ace83d079486cc84",
+      "enMarkdown": "In late January 2009, about three weeks into Y Combinator, their efforts started to show results, and their numbers crept upward. But it was hard to say for sure whether it was growth or just random fluctuation. By February it was clear that it was real growth. They made $460 in fees in the first week of February, $897 in the second, and $1428 in the third. That was it: they were airborne. Brian sent me an email on February 22 announcing that they were ramen profitable and giving the last three weeks' numbers.",
+      "zhMarkdown": "2009 年 1 月底，也就是进入 Y Combinator 大约三周后，他们的努力开始见效，数据开始向上攀升。但当时很难确定这究竟是真正的增长，还只是随机的波动。到了 2 月，情况很明朗了，这是真正的增长。他们在 2 月的第一周赚了 460 美元的中介费，第二周 897 美元，第三周 1428 美元。成了：他们起飞了。Brian 在 2 月 22 日给我发了一封邮件，宣布他们已经实现了拉面盈利，并附上了过去三周的数据。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "c8470bc3a01b91c9cb9e5640aca90175ba0246142f820a3dc95a1a64fb6a486f",
+      "enMarkdown": "\"I assume you know what you've now set yourself up for next week,\" I responded.",
+      "zhMarkdown": "我回复道：“我想你现在应该知道自己下周要面临什么了吧。”"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "d5c5abec2bbd7550a8c6c0ddad97aaebbe69d0b37779a86de0eb78308a49a21a",
+      "enMarkdown": "Brian's reply was seven words: \"We are not going to slow down.\"",
+      "zhMarkdown": "Brian 仅回了七个字：“我们不会慢下来的。”"
+    }
+  ]
+}

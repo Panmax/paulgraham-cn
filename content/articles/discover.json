@@ -1,0 +1,188 @@
+{
+  "slug": "discover",
+  "titleEn": "Persuade xor Discover",
+  "titleZh": "说服还是发现",
+  "dateText": "September 2009",
+  "publishedAt": "2009-09-01",
+  "sourceOrder": 110,
+  "sourceUrl": "https://paulgraham.com/discover.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "9132dfd5244ab85e701fef67d9624a6dc8c3b3379bf354acd5f3594e67a00051",
+      "enMarkdown": "When meeting people you don't know very well, the convention is to seem extra friendly. You smile and say \"pleased to meet you,\" whether you are or not. There's nothing dishonest about this. Everyone knows that these little social lies aren't meant to be taken literally, just as everyone knows that \"Can you pass the salt?\" is only grammatically a question.",
+      "zhMarkdown": "在与不太熟悉的人见面时，社交礼仪要求我们表现得人格外热情。无论你心里怎么想，你都会微笑着说“很高兴见到你”。这谈不上不真诚。大家都知道，这些小小的社交谎言不需要字面理解，就像大家都知道“你能把盐递给我吗？”在语法上只是个疑问句一样。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "efb84f2847c15c7ef5702c5bf9145ddaa7466ee5686fbd0c3dc68456d3135b9f",
+      "enMarkdown": "I'm perfectly willing to smile and say \"pleased to meet you\" when meeting new people. But there is another set of customs for being ingratiating in print that are not so harmless.",
+      "zhMarkdown": "在结识新朋友时，我非常乐意微笑着说“很高兴见到你”。但在文字创作中，还有另一套讨好读者的习惯，那可就没这么无害了。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b4a1e72a40a6e7968b0390e7ef4660df7cc23fc4b43bcb6758d3183c814d1664",
+      "enMarkdown": "The reason there's a convention of being ingratiating in print is that most essays are written to persuade. And as any politician could tell you, the way to persuade people is not just to baldly state the facts. You have to add a spoonful of sugar to make the medicine go down.",
+      "zhMarkdown": "文字创作中之所以存在讨好读者的惯例，是因为大多数文章的目的是为了说服。正如任何政客都会告诉你的那样，说服别人的方法不仅仅是光秃秃地陈述事实。你必须加一勺糖，药才吞得下去。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "10c8a4e5a25b1983c9359b222d57de875102dc3184c67178a513ae049429b25b",
+      "enMarkdown": "For example, a politician announcing the cancellation of a government program will not merely say \"The program is canceled.\" That would seem offensively curt. Instead he'll spend most of his time talking about the noble effort made by the people who worked on it.",
+      "zhMarkdown": "例如，一个宣布取消某项政府计划的政客，不会只说“该计划已取消”。这显得生硬得近乎冒犯。相反，他会把大部分时间用来赞扬参与该计划的人员所做出的崇高努力。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "05f086bb34eb739d1203995af0e9d79a3fd4698b12caceace4900b6ffd42a435",
+      "enMarkdown": "The reason these conventions are more dangerous is that they interact with the ideas. Saying \"pleased to meet you\" is just something you prepend to a conversation, but the sort of spin added by politicians is woven through it. We're starting to move from social lies to real lies.",
+      "zhMarkdown": "这些写作惯例之所以更危险，是因为它们会干扰思想本身。说“很高兴见到你”只是谈话前加的一句客套话，但政客们加的那种修饰（spin）则是编织在内容之中的。我们已经开始从社交谎言走向真正的谎言了。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "29499678285def0bc5031734ba2dc9a79f578005b0f7413a806a6f04505f7e90",
+      "enMarkdown": "Here's an example of a paragraph from an essay I wrote about [labor unions](https://paulgraham.com/unions.html). As written, it tends to offend people who like unions.",
+      "zhMarkdown": "这里有一个例子，摘自我就[工会](https://paulgraham.com/unions.html)写过的一篇文章。按照原样，它往往会得罪那些支持工会的人。"
+    },
+    {
+      "id": 7,
+      "type": "quote",
+      "sourceHash": "3d33d3ba3fbfceeaf1bf25fd999f5159ba2365ee4cd1e5ac8fe80b2c76b3482d",
+      "enMarkdown": "> People who think the labor movement was the creation of heroic union organizers have a problem to explain: why are unions shrinking now? The best they can do is fall back on the default explanation of people living in fallen civilizations. Our ancestors were giants. The workers of the early twentieth century must have had a moral courage that's lacking today.",
+      "zhMarkdown": "> 那些认为工运是英勇的工会组织者一手开创的人，必须解释一个问题：为什么现在工会正在萎缩？他们所能做的，无非是搬出那些生活在衰落文明中的人惯用的说辞：我们的祖先是巨人。二十世纪初的工人一定拥有今天所缺乏的道德勇气。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "3f8527fcc6add0d6494bb1707928d795c7b4dad3dd854e51e569fca7ec0ac6fd",
+      "enMarkdown": "Now here's the same paragraph rewritten to please instead of offending them:",
+      "zhMarkdown": "现在，把同样的一段话重新写一遍，去迎合而不是得罪他们："
+    },
+    {
+      "id": 9,
+      "type": "quote",
+      "sourceHash": "f9c2b0b9c1f4134272a3d59dbe3f5af888e05e8816459f84a15e0904249f3b3e",
+      "enMarkdown": "> Early union organizers made heroic sacrifices to improve conditions for workers. But though labor unions are shrinking now, it's not because present union leaders are any less courageous. An employer couldn't get away with hiring thugs to beat up union leaders today, but if they did, I see no reason to believe today's union leaders would shrink from the challenge. So I think it would be a mistake to attribute the decline of unions to some kind of decline in the people who run them. Early union leaders were heroic, certainly, but we should not suppose that if unions have declined, it's because present union leaders are somehow inferior. The cause must be external. [1]",
+      "zhMarkdown": "> 早期的工会组织者为了改善工人的境遇做出了英勇的牺牲。虽然现在的工会正在萎缩，但这并不是因为现在的工会领袖缺乏勇气。今天的雇主无法再雇佣暴徒去殴打工会领袖，但如果他们真这么做了，我没理由相信今天的工会领袖会在挑战面前退缩。因此，我认为把工会的衰落归咎于领导者素质的退化是错误的。早期的工会领袖固然英勇，但我们不应该认为，如果工会衰落了，是因为现在的工会领袖在某些方面不如从前。原因必定在外部。[1]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "6080859e6cfc25dab47d6b90e2e9467ebaebb6cda0841f0f41e0733a4881e1ae",
+      "enMarkdown": "It makes the same point: that it can't have been the personal qualities of early union organizers that made unions successful, but must have been some external factor, or otherwise present-day union leaders would have to be inferior people. But written this way it seems like a defense of present-day union organizers rather than an attack on early ones. That makes it more persuasive to people who like unions, because it seems sympathetic to their cause.",
+      "zhMarkdown": "这段话表达了相同的观点：工会的成功不可能是因为早期工会组织者的个人品质，而必定是某些外部因素，否则当今的工会领袖就必定是平庸之辈。但用这种方式写出来，它看起来是在为当今的工会组织者辩护，而不是在攻击早期的组织者。这更容易说服那些支持工会的人，因为这看起来对他们的事业充满同情。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "3341a3124ac6a60091ac04481436b5dc6f46a5fa613c1297ec7e8d24642854be",
+      "enMarkdown": "I believe everything I wrote in the second version. Early union leaders did make heroic sacrifices. And present union leaders probably would rise to the occasion if necessary. People tend to; I'm skeptical about the idea of \"the greatest generation.\" [[2](#f2n)]",
+      "zhMarkdown": "在第二个版本中，我写的每句话我都是相信的。早期的工会领袖确实做出了英勇的牺牲。而现在的工会领袖如果遇到需要，大概也同样能挺身而出。人们通常都会如此，我对所谓“最伟大的一代”这种说法深表怀疑。[[2](#f2n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e32022caeca3001a2c77b10f510a1d727874df725031868f39a60b799aaa6733",
+      "enMarkdown": "If I believe everything I said in the second version, why didn't I write it that way? Why offend people needlessly?",
+      "zhMarkdown": "既然第二个版本里的每句话我都相信，那我为什么不直接那样写呢？为什么要无谓地得罪人？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "5dc441a5c4857720ada536da0c1fc8333b2f62fde1538a453cf32588d230948b",
+      "enMarkdown": "Because I'd rather offend people than pander to them, and if you write about controversial topics you have to choose one or the other. The degree of courage of past or present union leaders is beside the point; all that matters for the argument is that they're the same. But if you want to please people who are mistaken, you can't simply tell the truth. You're always going to have to add some sort of padding to protect their misconceptions from bumping against reality.",
+      "zhMarkdown": "因为我宁愿得罪人也不想迎合人。如果你写的是有争议的话题，你必须二选一。过去或现在工会领袖的勇气程度根本不是重点，对这个论点来说，唯一重要的是他们是一样的。但如果你想取悦那些抱有错误看法的人，你就不能只说真话。你总得加点垫料，免得他们的错误认知直接撞上冷酷的现实。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "96c4ba3302b71067eeb764b4bd3533a09572d23a2b1e628308ac9267a4b09785",
+      "enMarkdown": "Most writers do. Most writers write to persuade, if only out of habit or politeness. But I don't write to persuade; I write to figure out. I write to persuade a hypothetical perfectly unbiased reader.",
+      "zhMarkdown": "大多数作家都会加垫料。大多数人写作是为了说服，哪怕这仅仅是出于习惯或礼貌。但我写作不是为了说服，我是为了想明白。我写作，是为了说服一个假想中完全客观公正的读者。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7182e816039f1fd41f7f5fdf2c147a712166b0e1b11724890edca435f12ad957",
+      "enMarkdown": "Since the custom is to write to persuade the actual reader, someone who doesn't will seem arrogant. In fact, worse than arrogant: since readers are used to essays that try to please someone, an essay that displeases one side in a dispute reads as an attempt to pander to the other. To a lot of pro-union readers, the first paragraph sounds like the sort of thing a right-wing radio talk show host would say to stir up his followers. But it's not. Something that curtly contradicts one's beliefs can be hard to distinguish from a partisan attack on them, but though they can end up in the same place they come from different sources.",
+      "zhMarkdown": "既然传统的习惯是写文章去说服现实中的读者，那么不这样做的人就会显得傲慢。事实上，比傲慢更糟：因为读者习惯了那些试图迎合某些人的文章，所以在争论中不讨好任何一方的文章，就会被解读为在迎合另一方。对许多支持工会的读者来说，第一段听起来就像右翼电台脱口秀主持人为了煽动听众会说的话。但事实并非如此。生硬地反驳某人信念的文章，很容易被误认为是党同伐异的攻击，虽然两者最终得出的结论可能相似，但其源头却完全不同。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "610bbebe333cf7962001aed3dd935f0ff6bf3072968875d8aa3b9ff92fd74022",
+      "enMarkdown": "Would it be so bad to add a few extra words, to make people feel better? Maybe not. Maybe I'm excessively attached to conciseness. I write [code](https://paulgraham.com/power.html) the same way I write essays, making pass after pass looking for anything I can cut. But I have a legitimate reason for doing this. You don't know what the ideas are until you get them down to the fewest words. [[3](#f3n)]",
+      "zhMarkdown": "多写几个字让大家心里好受点，真的有那么糟吗？也许不至于。也许我对精简有着过分的执念。我写[代码](https://paulgraham.com/power.html)和写文章是一样的，一遍又一遍地修改，寻找任何可以删掉的东西。但我这样做是有正当理由的：只有当你把想法浓缩到最少的字数时，你才能真正看清这些想法到底是什么。[[3](#f3n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "a59768b264e43c7c5bb60b6b4659c33185db9085a4bcae8243e6a0166720a60b",
+      "enMarkdown": "The danger of the second paragraph is not merely that it's longer. It's that you start to lie to yourself. The ideas start to get mixed together with the spin you've added to get them past the readers' misconceptions.",
+      "zhMarkdown": "第二段的危险不仅仅在于它更长，而在于你开始对自己撒谎。你的思想开始与你为了迎合读者、绕过其偏见而添加的修饰混杂在一起。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "a053080e0f70eb2b4ce7c492361b8423c029ce43ccb0fd5a570105455ccc43a0",
+      "enMarkdown": "I think the goal of an essay should be to discover [surprising](https://paulgraham.com/essay.html) things. That's my goal, at least. And most surprising means most different from what people currently believe. So writing to persuade and writing to discover are diametrically opposed. The more your conclusions disagree with readers' present beliefs, the more effort you'll have to expend on selling your ideas rather than having them. As you accelerate, this drag increases, till eventually you reach a point where 100% of your energy is devoted to overcoming it and you can't go any faster.",
+      "zhMarkdown": "我认为一篇文章的目标应该是去发现[令人惊讶](https://paulgraham.com/essay.html)的事情。至少这是我的目标。而最令人惊讶，意味着与人们目前的信念差异最大。因此，“为了说服而写”和“为了发现而写”是背道而驰的。你的结论与读者目前的信念越不一致，你就得花越多的精力去推销你的想法，而不是产生想法。当你加速时，这种阻力就会增加，直到最终达到一个临界点，你 100% 的精力都用来克服阻力，再也无法前进半步。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "349f85fa3e4bc0164fa280a42e0ec7df0177c244dd646670574075089a675c0b",
+      "enMarkdown": "It's hard enough to overcome one's own misconceptions without having to think about how to get the resulting ideas past other people's. I worry that if I wrote to persuade, I'd start to shy away unconsciously from ideas I knew would be hard to sell. When I notice something surprising, it's usually very faint at first. There's nothing more than a slight stirring of discomfort. I don't want anything to get in the way of noticing it consciously.",
+      "zhMarkdown": "要克服自己的错误认知已经够难了，更不用说还要分心去思考如何让这些想法通过别人的认知关卡。我担心如果我为了说服而写，我会无意识地开始回避那些我知道很难推销的想法。当我注意到一些令人惊讶的事情时，起初通常是非常模糊的，无非是内心一丝轻微的异样。我不希望有任何东西阻碍我清醒地察觉到它。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "e79773fa50a77a97bade0da00104c1291bd4fa65f91c1d6ad2aec598c2867e8d",
+      "enMarkdown": "[1] I had a strange feeling of being back in high school writing this. To get a good grade you had to both write the sort of pious crap you were expected to, but also seem to be writing with conviction. The solution was a kind of method acting. It was revoltingly familiar to slip back into it.",
+      "zhMarkdown": "[1] 写这段话时，我有一种回到了高中的奇特感觉。为了拿高分，你既要写出符合预期的那种冠冕堂皇的废话，又要显得写得很真诚。解决办法是某种“体验派表演”。重新陷入这种状态，让人感到令人作呕的熟悉。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "dc96f3f2323a9f93f8a8645a945082bfaed7b11f88c91a6b670fb9c04a4e50ad",
+      "enMarkdown": "[2] Exercise for the reader: rephrase that thought to please the same people the first version would offend.",
+      "zhMarkdown": "[2] 给读者的练习：重新表述那个想法，去取悦那些会被第一版得罪的人。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "279eb3a0939be2c3cc5f768ae2d748a4534bd8dbe1c5bfa64c15d1aee22e66b5",
+      "enMarkdown": "[3] Come to think of it, there is one way in which I deliberately pander to readers, because it doesn't change the number of words: I switch person. This flattering distinction seems so natural to the average reader that they probably don't notice even when I switch in mid-sentence, though you tend to notice when it's done as conspicuously as this.",
+      "zhMarkdown": "[3] 仔细想想，我确实在某一个方面故意迎合了读者，因为这不会改变字数：我切换了人称。这种讨好的区分在普通读者看来是如此自然，以至于他们可能甚至没有注意到我是在句中切换的，尽管如果像这样明显地做，你往往会注意到。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "5208d877a040c43c21e47c2c0ed95379fdd32d12eeb899a1f68bb9607f4f85ff",
+      "enMarkdown": "**Thanks** to Jessica Livingston and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "3d6e4b98fb8cb71ec55c4de3170b08e2f33b6885e863fc3d9d5d25064b10e034",
+      "enMarkdown": "**Note:** An earlier version of this essay began by talking about why people dislike Michael Arrington. I now believe that was mistaken, and that most people don't dislike him for the same reason I did when I first met him, but simply because he writes about controversial things.",
+      "zhMarkdown": "**注：** 本文的早期版本以讨论人们为什么讨厌 Michael Arrington 开头。我现在认为那是错的，大多数人讨厌他并不是因为我第一次见到他时讨厌他的那个原因，而仅仅是因为他写的是有争议的事情。"
+    }
+  ]
+}

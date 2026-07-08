@@ -1,0 +1,489 @@
+{
+  "slug": "superlinear",
+  "titleEn": "Superlinear Returns",
+  "titleZh": "# 超线性回报",
+  "dateText": "October 2023",
+  "publishedAt": "2023-10-01",
+  "sourceOrder": 17,
+  "sourceUrl": "https://paulgraham.com/superlinear.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5dd49203342b1a8b82e0115df93a378b79e29d207b76ea818196b620b28f7e6c",
+      "enMarkdown": "One of the most important things I didn't understand about the world when I was a child is the degree to which the returns for performance are superlinear.",
+      "zhMarkdown": "小时候，我对这个世界有很多不理解，其中最重要的一点，就是没意识到个人表现所带来的回报，其超线性（superlinear）程度竟然如此之高。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "1c4cce1b9417bbaa6fd177197e1bb2ef1b35ab55dc674c2ccc3ecb0067728da6",
+      "enMarkdown": "Teachers and coaches implicitly told us the returns were linear. \"You get out,\" I heard a thousand times, \"what you put in.\" They meant well, but this is rarely true. If your product is only half as good as your competitor's, you don't get half as many customers. You get no customers, and you go out of business.",
+      "zhMarkdown": "老师和教练总在潜移默化地告诉我们，回报是线性的。我听过一千遍那句“一分耕耘，一分收获”。他们是好意，但这几乎不是事实。如果你的产品只有竞争对手的一半好，你不会得到人家一半的客户。你一个客户也得不到，只能关门大吉。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "cd4df9c06f0a6f32e024bea0e7ae5b9009a4e4e88536456631d4f35dd59a344f",
+      "enMarkdown": "It's obviously true that the returns for performance are superlinear in business. Some think this is a flaw of capitalism, and that if we changed the rules it would stop being true. But superlinear returns for performance are a feature of the world, not an artifact of rules we've invented. We see the same pattern in fame, power, military victories, knowledge, and even benefit to humanity. In all of these, the rich get richer. [[1](#f1n)]",
+      "zhMarkdown": "在商业领域，表现的回报呈超线性增长，这显而易见。有人认为这是资本主义的缺陷，觉得只要改变规则，这种情况就会消失。但超线性回报其实是世界的客观规律，而不是我们发明的规则产物。我们在名望、权力、军事胜利、知识甚至造福人类等各个领域，都能看到同样的规律。在所有这些领域，都是强者恒强。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a91f538c8ded772e386fcd3bafbda070d635aa266a530ed7a663f0d16787f63b",
+      "enMarkdown": "You can't understand the world without understanding the concept of superlinear returns. And if you're ambitious you definitely should, because this will be the wave you surf on.",
+      "zhMarkdown": "不理解超线性回报这个概念，你就无法看懂这个世界。如果你是个有野心的人，你更应该彻底搞懂它，因为这就是你将要乘风破浪的浪潮。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "ea65344e76b2667027973a03360ac9938fee9d3abdc4e86fbaebc6b9d7428b33",
+      "enMarkdown": "It may seem as if there are a lot of different situations with superlinear returns, but as far as I can tell they reduce to two fundamental causes: exponential growth and thresholds.",
+      "zhMarkdown": "虽然存在超线性回报的场景看似五花八门，但据我观察，它们基本可以归结为两个最根本的原因：指数级增长（exponential growth）和门槛（thresholds）。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "bde9953a10deb488d73dc2937f9926a80a9d6f79bce61106ded5d0a899861ce4",
+      "enMarkdown": "The most obvious case of superlinear returns is when you're working on something that grows exponentially. For example, growing bacterial cultures. When they grow at all, they grow exponentially. But they're tricky to grow. Which means the difference in outcome between someone who's adept at it and someone who's not is very great.",
+      "zhMarkdown": "超线性回报最显而易见的例子，就是当你研究的东西具有指数级增长特征时。比如培养细菌。只要它们能活下来，就会呈指数级增长。但培养细菌是个技术活。这意味着，一个精于此道的人和一个外行做出来的结果，会有天壤之别。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "83af2d52482e56e7e771771fa3c357d7570957c5f601762394ca53601e11200d",
+      "enMarkdown": "Startups can also grow exponentially, and we see the same pattern there. Some manage to achieve high growth rates. Most don't. And as a result you get qualitatively different outcomes: the companies with high growth rates tend to become immensely valuable, while the ones with lower growth rates may not even survive.",
+      "zhMarkdown": "创业公司也能呈指数级增长，我们在其中看到了同样的规律。有些公司设法实现了高增长率。大多数则没有。结果就是，你得到了截然不同的结局：高增长率的公司往往变得极具价值，而增长率低的公司甚至可能连生存都成问题。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "f88f932c7a96970e99972271331ab2d46ee6818d49bc21f666dc7676f2aced5a",
+      "enMarkdown": "Y Combinator encourages founders to focus on growth rate rather than absolute numbers. It prevents them from being discouraged early on, when the absolute numbers are still low. It also helps them decide what to focus on: you can use growth rate as a compass to tell you how to evolve the company. But the main advantage is that by focusing on growth rate you tend to get something that grows exponentially.",
+      "zhMarkdown": "Y Combinator 总是鼓励创始人把精力放在增长率上，而不是绝对数值上。这能防止他们在早期绝对数值还很低时感到气馁。这也有助于他们决定工作的重心：你可以把增长率当作指南针，来指引公司的演进方向。但最核心的好处在于，当你专注于增长率时，你往往能创造出呈指数级增长的东西。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "854f2c391f0997a00293d00df28dea2011e6994ba820e79544aed075620f9bb5",
+      "enMarkdown": "YC doesn't explicitly tell founders that with growth rate \"you get out what you put in,\" but it's not far from the truth. And if growth rate were proportional to performance, then the reward for performance *p* over time *t* would be proportional to *pt*.",
+      "zhMarkdown": "YC 并没有明确告诉创始人，增长率上“一分耕耘，一分收获”，但事实也相差无几。如果增长率与表现成正比，那么在时间 *t* 内，表现 *p* 所带来的回报将与 *pt* 的指数（$e^{pt}$）成正比。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "1d30de13cdf5504c69cb9c1daceac855f6d80e615b22e32f56b1bd5a522131fc",
+      "enMarkdown": "Even after decades of thinking about this, I find that sentence startling.",
+      "zhMarkdown": "即便思考了这个问题几十年，我依然觉得上面这句话令人震撼。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "066b1000496c5c0394dff3b4afb219d39d96cf3086fc62c41aba285df7c8f2ff",
+      "enMarkdown": "Whenever how well you do depends on how well you've done, you'll get exponential growth. But neither our DNA nor our customs prepare us for it. No one finds exponential growth natural; every child is surprised, the first time they hear it, by the story of the man who asks the king for a single grain of rice the first day and double the amount each successive day.",
+      "zhMarkdown": "只要你现在的成就取决于你之前的成就，你就会得到指数级增长。然而，无论是我们的基因还是社会习俗，都没有让我们为此做好准备。没有人天生觉得指数级增长是理所当然的；每个孩子第一次听到那个故事——一个人请求国王第一天赏赐一粒米，之后每天翻倍——都会感到惊讶。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "8625b9eea9f9ddc64c3f923d10cfa0714f5e0f4ba0d06b9e0c3cc007f702bfa6",
+      "enMarkdown": "What we don't understand naturally we develop customs to deal with, but we don't have many customs about exponential growth either, because there have been so few instances of it in human history. In principle herding should have been one: the more animals you had, the more offspring they'd have. But in practice grazing land was the limiting factor, and there was no plan for growing that exponentially.",
+      "zhMarkdown": "对于我们直觉无法理解的事物，我们会形成社会习俗来应对，但关于指数级增长，我们并没有多少习俗。因为在人类历史上，这种现象极其罕见。原则上，放牧本该是一个例子：你拥有的牲畜越多，它们繁衍的后代就越多。但在现实中，草场是限制因素，而草场可没办法指数级增长。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "299ec4f0d02cb4992c4e96932f503682429a045a3e2ff9158e77dfcb11d4f2f9",
+      "enMarkdown": "Or more precisely, no generally applicable plan. There *was* a way to grow one's territory exponentially: by conquest. The more territory you control, the more powerful your army becomes, and the easier it is to conquer new territory. This is why history is full of empires. But so few people created or ran empires that their experiences didn't affect customs very much. The emperor was a remote and terrifying figure, not a source of lessons one could use in one's own life.",
+      "zhMarkdown": "更准确地说，是没有一个普遍适用的方法。其实*确实*存在一种指数级扩张领土的方法：征服。你控制的领土越多，你的军队就越强大，征服新领土也就越容易。这就是为什么历史书里写满了帝国史。但由于创建或统治帝国的人太少，他们的经验并没能沉淀为普遍的习俗。皇帝是一个遥远而可怕的符号，而不是一个人人都能在日常生活中借鉴的榜样。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d57535a09d149521c4fa23700bfa5f25df6cedce5d12e79b49e8fbf90ec7044b",
+      "enMarkdown": "The most common case of exponential growth in preindustrial times was probably scholarship. The more you know, the easier it is to learn new things. The result, then as now, was that some people were startlingly more knowledgeable than the rest about certain topics. But this didn't affect customs much either. Although empires of ideas can overlap and there can thus be far more emperors, in preindustrial times this type of empire had little practical effect. [[2](#f2n)]",
+      "zhMarkdown": "在工业时代之前，最常见的指数级增长可能存在于学术领域。你懂的越多，学习新事物就越容易。结果就像现在一样，某些人在特定领域的知识储备惊人地超越常人。但这同样没有对习俗产生太大影响。虽然思想帝国的疆域可以重叠，因而可以容纳多得多的“思想皇帝”，但在工业时代之前，这类帝国几乎没有产生什么现实影响。[[2](#f2n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "fd4d18fbdc678eabea359552200e8886a7863f611f3a00610a50a16e1dee5a24",
+      "enMarkdown": "That has changed in the last few centuries. Now the emperors of ideas can design bombs that defeat the emperors of territory. But this phenomenon is still so new that we haven't fully assimilated it. Few even of the participants realize they're benefitting from exponential growth or ask what they can learn from other instances of it.",
+      "zhMarkdown": "在过去的几个世纪里，情况发生了变化。现在，思想的皇帝们可以制造出打败领土皇帝的炸弹。但这一现象依然太新，我们还没能完全消化。甚至连身处其中的人，也很少意识到自己正在受益于指数级增长，更不用说去思考能从其他类似案例中学到什么了。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "5666b1c72d93f551bf04b3240548a797ac53965a649318460f10534d4a727752",
+      "enMarkdown": "The other source of superlinear returns is embodied in the expression \"winner take all.\" In a sports match the relationship between performance and return is a step function: the winning team gets one win whether they do much better or just slightly better. [[3](#f3n)]",
+      "zhMarkdown": "超线性回报的另一个来源，可以用“赢家通吃”来表达。在体育比赛中，表现与回报之间的关系是一个阶跃函数（step function）：获胜的队伍拿下一个胜场，无论他们是遥遥领先还是险胜。[[3](#f3n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "5726ee7c3ee6ff74616fb4b8ccd4b25c5d21a6297a48bf75a57696eea3603550",
+      "enMarkdown": "The source of the step function is not competition per se, however. It's that there are thresholds in the outcome. You don't need competition to get those. There can be thresholds in situations where you're the only participant, like proving a theorem or hitting a target.",
+      "zhMarkdown": "然而，阶跃函数的源头并不是竞争本身，而是结果中存在着“门槛”。你不需要竞争也能遇到门槛。哪怕你是唯一的参与者，也同样存在门槛，比如证明一个定理，或者射中一个靶心。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7b83ed8aa21b967547ad9e02d5d4244f4c4740cd053a0db3485d876f63562eed",
+      "enMarkdown": "It's remarkable how often a situation with one source of superlinear returns also has the other. Crossing thresholds leads to exponential growth: the winning side in a battle usually suffers less damage, which makes them more likely to win in the future. And exponential growth helps you cross thresholds: in a market with network effects, a company that grows fast enough can shut out potential competitors.",
+      "zhMarkdown": "令人惊叹的是，那些拥有其中一种超线性回报源泉的场景，往往也同时拥有另一种。跨越门槛会导致指数级增长：战斗中的获胜方通常承受的损失更小，这让他们在未来的战斗中更容易获胜。而指数级增长又反过来帮你跨越门槛：在具有网络效应的市场中，一家增长足够快的公司可以把潜在的竞争对手拒之门外。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "85976f2ef3ad57535f295a8f898adc13387d1afcb21b1de1db0c479a9b721fe6",
+      "enMarkdown": "Fame is an interesting example of a phenomenon that combines both sources of superlinear returns. Fame grows exponentially because existing fans bring you new ones. But the fundamental reason it's so concentrated is thresholds: there's only so much room on the A-list in the average person's head.",
+      "zhMarkdown": "名望是一个有趣的例子，它完美结合了超线性回报的两个来源。名望会指数级增长，因为现有的粉丝会为你带来新粉丝。但它高度集中的根本原因在于门槛：普通人的脑海里，顶流（A-list）的位置就那么几个。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "8399beb0fe53ee1fae10d4f6a8c37b349965529c9f40003aa17c95ce17077da7",
+      "enMarkdown": "The most important case combining both sources of superlinear returns may be learning. Knowledge grows exponentially, but there are also thresholds in it. Learning to ride a bicycle, for example. Some of these thresholds are akin to machine tools: once you learn to read, you're able to learn anything else much faster. But the most important thresholds of all are those representing new discoveries. Knowledge seems to be fractal in the sense that if you push hard at the boundary of one area of knowledge, you sometimes discover a whole new field. And if you do, you get first crack at all the new discoveries to be made in it. Newton did this, and so did Durer and Darwin.",
+      "zhMarkdown": "融合了这两个源泉的最重要领域，或许是学习。知识呈指数级增长，但学习过程中也存在门槛。比如学会骑自行车。其中一些门槛类似于“母机”（machine tools）：一旦你学会了阅读，你学习其他任何东西的速度都会大大加快。但最重要的门槛，是那些代表着新发现的节点。知识似乎具有分形特征，如果你在一个领域的边界上拼命探索，有时会发现一个全新的领域。一旦你做到了，你就能在这个新领域里抢占先机，包揽所有最新发现。牛顿做到了，丢勒和达尔文也做到了。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "4c7b14ef45fb44e21427a040ea8ca9b8c6f5895e316514eac31bb453ca880776",
+      "enMarkdown": "Are there general rules for finding situations with superlinear returns? The most obvious one is to seek work that compounds.",
+      "zhMarkdown": "寻找具有超线性回报的场景，有什么通用的法则吗？最显而易见的一条是：寻找能产生复利效应（compounds）的工作。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "8185b1c8b26e98a6aa72a64cefed321489155d47d88371b239bdaea32c1a30c2",
+      "enMarkdown": "There are two ways work can compound. It can compound directly, in the sense that doing well in one cycle causes you to do better in the next. That happens for example when you're building infrastructure, or growing an audience or brand. Or work can compound by teaching you, since learning compounds. This second case is an interesting one because you may feel you're doing badly as it's happening. You may be failing to achieve your immediate goal. But if you're learning a lot, then you're getting exponential growth nonetheless.",
+      "zhMarkdown": "工作产生复利有两种方式。一种是直接复利：在这一轮表现优异，会让你在下一轮做得更好。比如你在搭建基础设施、积累受众或打造品牌时就是如此。另一种是通过“教导你”来产生复利，因为学习本身就是复利的。第二种情况很有意思，因为在过程当中，你可能会觉得自己做得很差。你可能没能实现眼前的目标。但如果你学到了很多，你其实依然在获得指数级增长。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "59236941065a860c0ea710ba7075be7f063399b6e57d902f5de8deb667be5e8f",
+      "enMarkdown": "This is one reason Silicon Valley is so tolerant of failure. People in Silicon Valley aren't blindly tolerant of failure. They'll only continue to bet on you if you're learning from your failures. But if you are, you are in fact a good bet: maybe your company didn't grow the way you wanted, but you yourself have, and that should yield results eventually.",
+      "zhMarkdown": "这也是硅谷对失败如此宽容的原因之一。硅谷人并不是盲目地宽容失败。他们只有在你从失败中汲取教训时，才会继续在你身上下注。但如果你确实学到了东西，你其实就是一个很好的投资对象：也许你的公司没有按预期增长，但你个人成长了，这迟早会带来回报。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "0b5ca7a76f2cadc9c9d7f2ff05dc24f8b6756e6d4ef061616ed2a6265e5730e0",
+      "enMarkdown": "Indeed, the forms of exponential growth that don't consist of learning are so often intermixed with it that we should probably treat this as the rule rather than the exception. Which yields another heuristic: always be learning. If you're not learning, you're probably not on a path that leads to superlinear returns.",
+      "zhMarkdown": "事实上，那些不包含学习成分的指数级增长形式，也往往与学习交织在一起，以至于我们应该把这视为一条铁律，而非特例。由此我们可以得到另一个启发：保持终身学习。如果你没有在学习，你大概率没有走在一条能带来超线性回报的道路上。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "b8f8e04606d491785e1d9f70151d029880f5085243996eec9863407816e783de",
+      "enMarkdown": "But don't overoptimize *what* you're learning. Don't limit yourself to learning things that are already known to be valuable. You're learning; you don't know for sure yet what's going to be valuable, and if you're too strict you'll lop off the outliers.",
+      "zhMarkdown": "但别过度优化你所学的内容。不要把自己局限在那些已经被证明有价值的事情上。既然是在学习，你现在还无法百分之百确定什么才是有价值的，如果你限制得太死，就会把那些潜在的爆发性机会（outliers）拒之门外。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "147ea51fb49f5089c15934ff6df3c297cd01dc6adc641ee038f800f26a86a19b",
+      "enMarkdown": "What about step functions? Are there also useful heuristics of the form \"seek thresholds\" or \"seek competition?\" Here the situation is trickier. The existence of a threshold doesn't guarantee the game will be worth playing. If you play a round of Russian roulette, you'll be in a situation with a threshold, certainly, but in the best case you're no better off. \"Seek competition\" is similarly useless; what if the prize isn't worth competing for? Sufficiently fast exponential growth guarantees both the shape and magnitude of the return curve — because something that grows fast enough will grow big even if it's trivially small at first — but thresholds only guarantee the shape. [[4](#f4n)]",
+      "zhMarkdown": "那么阶跃函数呢？是否也有类似的实用启发，比如“寻找门槛”或“寻找竞争”？这里的情况要复杂得多。门槛的存在并不能保证这个游戏值得一玩。如果你玩一局俄罗斯轮盘赌，这确实是一个有门槛的场景，但最好的结果也不过是维持原状。“寻找竞争”同样用处不大；如果奖品根本不值一提，竞争又有何意义？足够快的指数级增长既能保证回报曲线的形状，也能保证其体量——因为增长足够快的东西，哪怕一开始微不足道，最终也会变得庞大无比——而门槛只能保证曲线的形状。[[4](#f4n)]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "8993e12bb6da73470fbb6daf1a2405b6f54a935a6d8699b81b8eda29b86abf2e",
+      "enMarkdown": "A principle for taking advantage of thresholds has to include a test to ensure the game is worth playing. Here's one that does: if you come across something that's mediocre yet still popular, it could be a good idea to replace it. For example, if a company makes a product that people dislike yet still buy, then presumably they'd buy a better alternative if you made one. [[5](#f5n)]",
+      "zhMarkdown": "要利用门槛效应，其原则必须包含一个测试，以确保这个游戏值得一玩。这里有一个行之有效的测试：如果你发现某个东西很平庸却依然很流行，那么用更好的东西去替代它可能是一个好主意。例如，如果一家公司制造的产品让人们讨厌，但大家还是在买，那么如果你能做一个更好的替代品，大家大概率会买你的。[[5](#f5n)]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "4497582532cc65b76532aee751d38c5bebc64e1c19a9b1c02c4d79f4ee659b97",
+      "enMarkdown": "It would be great if there were a way to find promising intellectual thresholds. Is there a way to tell which questions have whole new fields beyond them? I doubt we could ever predict this with certainty, but the prize is so valuable that it would be useful to have predictors that were even a little better than random, and there's hope of finding those. We can to some degree predict when a research problem *isn't* likely to lead to new discoveries: when it seems legit but boring. Whereas the kind that do lead to new discoveries tend to seem very mystifying, but perhaps unimportant. (If they were mystifying and obviously important, they'd be famous open questions with lots of people already working on them.) So one heuristic here is to be driven by curiosity rather than careerism — to give free rein to your curiosity instead of working on what you're supposed to.",
+      "zhMarkdown": "如果能有一种方法找到有前景的“学术门槛”，那就太棒了。有没有办法判断哪些问题背后隐藏着一个全新的领域？我怀疑我们永远无法打包票，但由于回报极其丰厚，只要能有比随机碰运气稍微好一点的预测指标，就非常有价值，而且我们完全有希望找到这些指标。在某种程度上，我们可以预测哪些研究课题*不太可能*带来新发现：那些看起来合理却很无聊的课题。而那些能带来新发现的课题，往往看起来让人摸不着头脑，甚至显得无关紧要。（如果它们既神秘又显然重要，那它们早就成了著名的公开难题，早就有一大堆人在攻关了。）所以这里的一个启发是：要被好奇心驱动，而不是被功利心驱动——给你的好奇心以自由，而不是只做那些你应该做的事。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "010198702ccd2ff9c2fa2a85cd9e9392601c1c88e917194bee7d3ac0437769df",
+      "enMarkdown": "The prospect of superlinear returns for performance is an exciting one for the ambitious. And there's good news in this department: this territory is expanding in both directions. There are more types of work in which you can get superlinear returns, and the returns themselves are growing.",
+      "zhMarkdown": "对于有野心的人来说，超线性回报的前景令人兴奋。而在这一领域有一个好消息：这个领地正在双向扩张。你可以获得超线性回报的工作类型变多了，而且回报本身的体量也在变大。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "110b442803a0996b65c6527ae86f5fddd3e98cbcc759857fa027b60b656d75d8",
+      "enMarkdown": "There are two reasons for this, though they're so closely intertwined that they're more like one and a half: progress in technology, and the decreasing importance of organizations.",
+      "zhMarkdown": "这有两个原因，尽管它们紧密交织，更像是一个原因的一体两面：技术的进步，以及组织重要性的下降。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "70663f7289a759b6cd5c8997aaff60d38724cb65ed774f1e4b3de06c5e3c300e",
+      "enMarkdown": "Fifty years ago it used to be much more necessary to be part of an organization to work on ambitious projects. It was the only way to get the resources you needed, the only way to have colleagues, and the only way to get distribution. So in 1970 your prestige was in most cases the prestige of the organization you belonged to. And prestige was an accurate predictor, because if you weren't part of an organization, you weren't likely to achieve much. There were a handful of exceptions, most notably artists and writers, who worked alone using inexpensive tools and had their own brands. But even they were at the mercy of organizations for reaching audiences. [[6](#f6n)]",
+      "zhMarkdown": "五十年前，要想做成宏大的项目，加入一个组织要必要得多。那是获得所需资源、结识同事、以及获得分发渠道的唯一途径。所以在 1970 年，你的声望在大多数情况下取决于你所属组织的声望。声望也是一个准确的预测指标，因为如果你不属于任何组织，你很难取得什么成就。只有极少数的例外，最典型的就是艺术家和作家，他们依靠廉价的工具独自工作，拥有自己的品牌。但即便如此，他们也必须依赖组织才能触达受众。[[6](#f6n)]"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "fd139ec22b1674514fa6cb7401bd71ab96d867822293ab6cc84f17a9edb296ba",
+      "enMarkdown": "A world dominated by organizations damped variation in the returns for performance. But this world has eroded significantly just in my lifetime. Now a lot more people can have the freedom that artists and writers had in the 20th century. There are lots of ambitious projects that don't require much initial funding, and lots of new ways to learn, make money, find colleagues, and reach audiences.",
+      "zhMarkdown": "一个由组织主导的世界，平抑了个人表现所能带来的回报差距。但在我的有生之年，这个世界已经严重瓦解。现在，有更多的人可以拥有 20 世纪艺术家和作家才有的自由。有大量雄心勃勃的项目并不需要太多初始资金，而且有无数种学习、赚钱、寻找合作伙伴以及触达受众的新途径。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "5f91d0ea3fee74872da6c3ed17aacce0ab8ef61f91c9c12114093d42e874f625",
+      "enMarkdown": "There's still plenty of the old world left, but the rate of change has been dramatic by historical standards. Especially considering what's at stake. It's hard to imagine a more fundamental change than one in the returns for performance.",
+      "zhMarkdown": "旧世界的残余依然庞大，但以历史标准来看，变化的步伐是惊人的。尤其是考虑到其中的利害关系。很难想象还有什么变化，能比表现回报机制的改变更为根本。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "5b3f0b1875b0124b2bf1c47057155df4658aaf7a704d58ed8e88608b2bc4db51",
+      "enMarkdown": "Without the damping effect of institutions, there will be more variation in outcomes. Which doesn't imply everyone will be better off: people who do well will do even better, but those who do badly will do worse. That's an important point to bear in mind. Exposing oneself to superlinear returns is not for everyone. Most people will be better off as part of the pool. So who should shoot for superlinear returns? Ambitious people of two types: those who know they're so good that they'll be net ahead in a world with higher variation, and those, particularly the young, who can afford to risk trying it to find out. [[7](#f7n)]",
+      "zhMarkdown": "没有了体制的平抑效应，结果的分化会更加剧烈。这并不意味着每个人都会过得更好：做得好的人会比以前更好，但做得差的人会比以前更惨。这一点必须要牢记。投身于超线性回报的浪潮并不适合所有人。大多数人留在风险共担的池子里会过得更好。那么，谁应该去争取超线性回报呢？有两种有野心的人：一种是清楚自己足够优秀、在波动性更高的世界里依然能净赚的人；另一种是那些输得起、可以冒险一试以探究竟的人，尤其是年轻人。[[7](#f7n)]"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "dd09be34694ba8394e262c286deecd69aeb43df2780903c16450b75726cdab40",
+      "enMarkdown": "The switch away from institutions won't simply be an exodus of their current inhabitants. Many of the new winners will be people they'd never have let in. So the resulting democratization of opportunity will be both greater and more authentic than any tame intramural version the institutions themselves might have cooked up.",
+      "zhMarkdown": "摆脱体制的转型，并不单单意味着体制内现有成员的流失。许多新的赢家，将是那些原本根本无法通过体制筛选的人。因此，这种机会的普及，将比体制自身内部折腾出来的任何温和改良，都更加宏大、也更加真实。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "babc2110a71258404018ba3346492f51606c40b7da106245f5f1f64b7fb20a15",
+      "enMarkdown": "Not everyone is happy about this great unlocking of ambition. It threatens some vested interests and contradicts some ideologies. [[8](#f8n)] But if you're an ambitious individual it's good news for you. How should you take advantage of it?",
+      "zhMarkdown": "并非所有人都会为这场野心的大释放感到高兴。它威胁到了一些既得利益，也违背了一些意识形态。[[8](#f8n)] 但如果你是一个有抱负的人，这绝对是个好消息。你该如何利用这个趋势呢？"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "786e6fc2063259b82e76d0e3c845de58e5baa4b04dcd3e1d9a5b6d180449423a",
+      "enMarkdown": "The most obvious way to take advantage of superlinear returns for performance is by doing exceptionally good work. At the far end of the curve, incremental effort is a bargain. All the more so because there's less competition at the far end — and not just for the obvious reason that it's hard to do something exceptionally well, but also because people find the prospect so intimidating that few even try. Which means it's not just a bargain to do exceptional work, but a bargain even to try to.",
+      "zhMarkdown": "利用超线性回报最显而易见的方法，就是做出极其出色的工作。在回报曲线的远端，多付出一点努力是非常划算的。更何况在远端的竞争其实更少——不仅因为做好一件事本身很难，更因为这个前景太吓人，以至于大多数人连试都不敢试。这意味着，做出卓越的工作不仅是一笔划算的买卖，甚至仅仅是去尝试，都非常划算。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "6b91b7389261d8511a1d0f5af12144f7c63214ec1ad14c32de4586b0d373ac5e",
+      "enMarkdown": "There are many variables that affect how good your work is, and if you want to be an outlier you need to get nearly all of them right. For example, to do something exceptionally well, you have to be interested in it. Mere diligence is not enough. So in a world with superlinear returns, it's even more valuable to know what you're interested in, and to find ways to work on it. [[9](#f9n)] It will also be important to choose work that suits your circumstances. For example, if there's a kind of work that inherently requires a huge expenditure of time and energy, it will be increasingly valuable to do it when you're young and don't yet have children.",
+      "zhMarkdown": "影响工作质量的变量有很多，如果你想成为那个特立独行的卓越者，你几乎需要把它们全部做对。例如，要想把一件事做得极其出色，你必须对它真正感兴趣。光靠勤奋是远远不够的。因此，在一个存在超线性回报的世界里，了解自己的兴趣所在并设法付诸实践，变得比以往更加珍贵。[[9](#f9n)] 选择适合你自身处境的工作也同样重要。例如，如果某种工作本质上需要消耗大量的时间和精力，那么在你年轻、还没有孩子的时候去做，其价值将呈指数级增加。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "2953f16cf1a2ef62a8b9d07676844c580c3ea3ad4731e5517a451d5b7f363d74",
+      "enMarkdown": "There's a surprising amount of technique to doing great work. It's not just a matter of trying hard. I'm going to take a shot giving a recipe in one paragraph.",
+      "zhMarkdown": "做出伟大工作其实有极多的技巧。这绝不仅仅是努力尝试的问题。我打算尝试用一个段落来概括这个秘诀。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "ad3200a971322a63e8e98db8dc0e582d376355fde8007158cd1cc3612b31a4d9",
+      "enMarkdown": "Choose work you have a natural aptitude for and a deep interest in. Develop a habit of working on your own projects; it doesn't matter what they are so long as you find them excitingly ambitious. Work as hard as you can without burning out, and this will eventually bring you to one of the frontiers of knowledge. These look smooth from a distance, but up close they're full of gaps. Notice and explore such gaps, and if you're lucky one will expand into a whole new field. Take as much risk as you can afford; if you're not failing occasionally you're probably being too conservative. Seek out the best colleagues. Develop good taste and learn from the best examples. Be honest, especially with yourself. Exercise and eat and sleep well and avoid the more dangerous drugs. When in doubt, follow your curiosity. It never lies, and it knows more than you do about what's worth paying attention to. [[10](#f10n)]",
+      "zhMarkdown": "选择你既有天赋又极具兴趣的工作。养成做自己项目的习惯；项目是什么并不重要，只要你觉得它具有挑战性、能激发你的野心就行。尽你所能去努力工作，同时避免倦怠，这终将把你带到知识的某处前沿。从远处看，这些前沿似乎天衣无缝，但近看却充满了缝隙。去注意到并探索这些缝隙，如果你足够幸运，其中一个缝隙会延伸成一个全新的领域。承担你能承受的最大风险；如果你从未失败过，那你可能过于保守了。寻找最优秀的合作伙伴。培养良好的品味，向最优秀的榜样学习。保持诚实，尤其是对自己。锻炼身体，好好吃饭睡觉，远离那些危险的毒品。当感到迷茫时，跟随你的好奇心。它从不撒谎，而且对于什么值得关注，它比你懂得更多。[[10](#f10n)]"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "0150992a19e4b5c56c01df94c29d40b2c3a17c6ec939a87b80ebf1d6264f6658",
+      "enMarkdown": "And there is of course one other thing you need: to be lucky. Luck is always a factor, but it's even more of a factor when you're working on your own rather than as part of an organization. And though there are some valid aphorisms about luck being where preparedness meets opportunity and so on, there's also a component of true chance that you can't do anything about. The solution is to take multiple shots. Which is another reason to start taking risks early.",
+      "zhMarkdown": "当然，你还需要另一样东西：运气。运气永远是一个因素，但当你独自奋斗而不是作为组织的一员时，运气的影响会更大。虽然有一些关于运气的名言，比如“运气是给有准备的人”等等，但确实也存在你无能为力的纯粹偶然因素。解决办法就是多试几次。这也是要尽早开始承担风险的另一个原因。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "02a54bda83cfa9971c38c929a93c318240c6e020524cb301463fff78be90e172",
+      "enMarkdown": "The best example of a field with superlinear returns is probably science. It has exponential growth, in the form of learning, combined with thresholds at the extreme edge of performance — literally at the limits of knowledge.",
+      "zhMarkdown": "展现超线性回报的最佳领域，或许就是科学。它既有以学习形式呈现的指数级增长，又在个人表现的极端边缘——也就是人类知识的极限处——存在着门槛。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "4f99b43373152704bf47d292ea78cfe5ea295bbef1f141eff02d4a5e568bf01a",
+      "enMarkdown": "The result has been a level of inequality in scientific discovery that makes the wealth inequality of even the most stratified societies seem mild by comparison. Newton's discoveries were arguably greater than all his contemporaries' combined. [[11](#f11n)]",
+      "zhMarkdown": "其结果是，科学发现领域的不平等程度，让最等级森严的社会中的财富不平等都相形见绌。牛顿一个人的发现，可以说比他同时代所有人的发现总和还要伟大。[[11](#f11n)]"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "6a71bf7efdb3c1b85ea722344c4e6d882c37e34e0c819fa1d9f1940d4cf71467",
+      "enMarkdown": "This point may seem obvious, but it might be just as well to spell it out. Superlinear returns imply inequality. The steeper the return curve, the greater the variation in outcomes.",
+      "zhMarkdown": "这一点看似显而易见，但还是有必要阐明：超线性回报意味着不平等。回报曲线越陡峭，结果的差距就越大。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "35b1cd4dc2ddc822a3a0c7453e56760e476d9a5273dbee768f8b489d801c5e4f",
+      "enMarkdown": "In fact, the correlation between superlinear returns and inequality is so strong that it yields another heuristic for finding work of this type: look for fields where a few big winners outperform everyone else. A kind of work where everyone does about the same is unlikely to be one with superlinear returns.",
+      "zhMarkdown": "事实上，超线性回报与不平等之间的关联是如此之强，以至于我们可以得出另一个寻找此类工作的启发：寻找那些“少数大赢家能彻底碾压其他所有人”的领域。如果一个领域里大家的表现都差不多，那它不太可能存在超线性回报。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "1c5f8311043b4dadac7923d480b6e6d92e94c8142b01c2d97016341f243202fa",
+      "enMarkdown": "What are fields where a few big winners outperform everyone else? Here are some obvious ones: sports, politics, art, music, acting, directing, writing, math, science, starting companies, and investing. In sports the phenomenon is due to externally imposed thresholds; you only need to be a few percent faster to win every race. In politics, power grows much as it did in the days of emperors. And in some of the other fields (including politics) success is driven largely by fame, which has its own source of superlinear growth. But when we exclude sports and politics and the effects of fame, a remarkable pattern emerges: the remaining list is exactly the same as the list of fields where you have to be [independent-minded](https://paulgraham.com/think.html) to succeed — where your ideas have to be not just correct, but novel as well. [[12](#f12n)]",
+      "zhMarkdown": "哪些领域是少数大赢家能彻底碾压其他人的？一些显而易见的领域包括：体育、政治、艺术、音乐、演戏、导演、写作、数学、科学、创业和投资。在体育中，这种现象源于外部制定的门槛：你只需要快上百分之几，就能赢下每一场比赛。在政治中，权力的增长方式与帝王时代并无二致。而在其他一些领域（包括政治），成功很大程度上是由名望驱动的，而名望本身就是超线性增长的源泉。但是，当我们排除体育、政治以及名望的影响后，一个惊人的规律显现了：剩下的列表，与那些你必须拥有[独立思考能力](https://paulgraham.com/think.html)才能成功的领域完全重合——在这些领域，你的想法不仅要正确，还必须新颖。[[12](#f12n)]"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "84e333bca86a98866761801d38653293dbbdd7384470ba8be4c156fe372e44bf",
+      "enMarkdown": "This is obviously the case in science. You can't publish papers saying things that other people have already said. But it's just as true in investing, for example. It's only useful to believe that a company will do well if most other investors don't; if everyone else thinks the company will do well, then its stock price will already reflect that, and there's no room to make money.",
+      "zhMarkdown": "在科学领域显然如此。你不能靠重复别人的话来发表论文。但在投资领域也是一样的道理。只有当大多数投资者不看好某家公司，而你却看好它时，你的看法才是有价值的；如果大家都觉得这家公司会发展得很好，那么它的股价就已经反映了这一点，你就没有赚钱的空间了。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "735b0dec466ea10e201ca9bad400d2d50d1a8e3a425fcd1be7c7066b74288644",
+      "enMarkdown": "What else can we learn from these fields? In all of them you have to put in the initial effort. Superlinear returns seem small at first. *At this rate,* you find yourself thinking, *I'll never get\nanywhere.* But because the reward curve rises so steeply at the far end, it's worth taking extraordinary measures to get there.",
+      "zhMarkdown": "我们还能从这些领域学到什么？在所有这些领域中，你都必须付出初期的努力。超线性回报在刚开始时看起来微乎其微。你可能会想：*照这个速度，我永远也成不了气候。*但由于回报曲线在远端陡峭上升，为了到达那里而采取一些超常规的措施是完全值得的。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "4da2fec0d36ae3e82cbe44566736cf75123ecbed61bbeeba3db05e6d1f792d02",
+      "enMarkdown": "In the startup world, the name for this principle is \"do things that don't scale.\" If you pay a ridiculous amount of attention to your tiny initial set of customers, ideally you'll kick off exponential growth by word of mouth. But this same principle applies to anything that grows exponentially. Learning, for example. When you first start learning something, you feel lost. But it's worth making the initial effort to get a toehold, because the more you learn, the easier it will get.",
+      "zhMarkdown": "在创业界，这个原则被称为“做无法规模化的事（do things that don't scale）”。如果你对最初那一小撮客户倾注超乎寻常的关注，理想情况下，你就能通过口碑启动指数级增长。这个原则同样适用于任何呈指数级增长的事物。比如学习。当你刚开始学习新东西时，你会感到迷茫。但为了站稳脚跟而付出初期的努力是完全值得的，因为你学得越多，后面的学习就会变得越容易。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "72793c7e01b68a4e8ca244a70c72587ac23ff2090c8b7784d54676ed3214f8d7",
+      "enMarkdown": "There's another more subtle lesson in the list of fields with superlinear returns: not to equate work with a job. For most of the 20th century the two were identical for nearly everyone, and as a result we've inherited a custom that equates productivity with having a job. Even now to most people the phrase \"your work\" means their job. But to a writer or artist or scientist it means whatever they're currently studying or creating. For someone like that, their work is something they carry with them from job to job, if they have jobs at all. It may be done for an employer, but it's part of their portfolio.",
+      "zhMarkdown": "在超线性回报的领域列表中，还有一个更微妙的启示：不要把工作等同于一份差事（a job）。在 20 世纪的大部分时间里，对几乎所有人来说，这两者是完全等同的，结果我们继承了一种把生产力等同于拥有一份工作的习俗。即便在今天，对大多数人来说，“你的工作”依然指代他们的职业。但对于作家、艺术家或科学家来说，工作指的是他们目前正在研究或创造的东西。对于这样的人，工作是他们从一个岗位带到另一个岗位的财富，哪怕他们根本没有正式的工作。它可能是在为雇主服务时完成的，但它属于他们个人作品集的一部分。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "7feb9c2eb30c067397cab2c5ed970ebfcafa564a7658498374910541f460b3fa",
+      "enMarkdown": "It's an intimidating prospect to enter a field where a few big winners outperform everyone else. Some people do this deliberately, but you don't need to. If you have sufficient natural ability and you follow your curiosity sufficiently far, you'll end up in one. Your curiosity won't let you be interested in boring questions, and interesting questions tend to create fields with superlinear returns if they're not already part of one.",
+      "zhMarkdown": "进入一个少数大赢家碾压其他所有人的领域，是一件令人望而生畏的事。有些人是刻意为之，但你大可不必如此。如果你有足够的资质，并且把好奇心追随得足够远，你自然会进入这样的领域。你的好奇心不会让你对无聊的问题产生兴趣，而有趣的问题只要不是已经属于某个超线性回报领域，往往也会孕育出这样一个新领域。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "32cf005a299f307ecfbe7c574344ea3bce1a83955eb7a582a4f0e6f465b1d2c4",
+      "enMarkdown": "The territory of superlinear returns is by no means static. Indeed, the most extreme returns come from expanding it. So while both ambition and curiosity can get you into this territory, curiosity may be the more powerful of the two. Ambition tends to make you climb existing peaks, but if you stick close enough to an interesting enough question, it may grow into a mountain beneath you.",
+      "zhMarkdown": "超线性回报的版图绝非一成不变。事实上，最极端的超线性回报往往来自于拓宽这片版图。因此，虽然野心和好奇心都能带你进入这片领地，但好奇心或许力量更强。野心往往会驱使你攀登现有的高峰，但如果你紧紧跟随一个足够有趣的问题，它可能会在你脚下隆起，成长为一座全新的高山。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "909b6f95447c39992f7a9d7e00f4bd6b322e6060847d138e4bdc4146ff045503",
+      "enMarkdown": "There's a limit to how sharply you can distinguish between effort, performance, and return, because they're not sharply distinguished in fact. What counts as return to one person might be performance to another. But though the borders of these concepts are blurry, they're not meaningless. I've tried to write about them as precisely as I could without crossing into error.",
+      "zhMarkdown": "努力、表现和回报这三者之间的界限很难划得一清二楚，因为在现实中它们本就交织在一起。对一个人来说算作回报的东西，对另一个人来说可能只是表现。尽管这些概念的边界是模糊的，但它们并非毫无意义。我尽力在不产生谬误的前提下，尽可能精准地去描述它们。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "886dbb2107ef286c5b063e00f9b6072d61af62907ebbefd62045c3c6310314e2",
+      "enMarkdown": "[1] Evolution itself is probably the most pervasive example of superlinear returns for performance. But this is hard for us to empathize with because we're not the recipients; we're the returns.",
+      "zhMarkdown": "[1] 进化本身或许是表现带来超线性回报最普遍的例子。但这很难让我们产生共鸣，因为我们不是受益者，我们本身就是被进化出来的“回报”。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "bd6cedc6487ed52c29868ed0a4980b783f3c2fd68e3f40c5adef7c8a073d9aba",
+      "enMarkdown": "[2] Knowledge did of course have a practical effect before the Industrial Revolution. The development of agriculture changed human life completely. But this kind of change was the result of broad, gradual improvements in technique, not the discoveries of a few exceptionally learned people.",
+      "zhMarkdown": "[2] 在工业革命之前，知识当然也产生过实际影响。农业的发展彻底改变了人类生活。但这种改变是技术广泛、渐进改进的结果，而不是少数极有学问的人的研究成果。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "998baf2bb40cdebebc1b3bcfb4f69138e26ae9a7ba3f6bebf6d89e597fdf8863",
+      "enMarkdown": "[3] It's not mathematically correct to describe a step function as superlinear, but a step function starting from zero works like a superlinear function when it describes the reward curve for effort by a rational actor. If it starts at zero then the part before the step is below any linearly increasing return, and the part after the step must be above the necessary return at that point or no one would bother.",
+      "zhMarkdown": "[3] 在数学上，将阶跃函数描述为超线性是不准确的，但当一个理性决策者面对一条从零开始的付出-回报曲线时，阶跃函数的作用类似于超线性函数。如果它从零开始，那么在跨过台阶前的部分低于任何线性增长的回报，而跨过台阶后的部分必须高于那一节点所需的必要回报，否则根本不会有人愿意去尝试。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "be5081b8d6cbf17485b20644f8075bad78282337c38afd5f60a0f3f758365dea",
+      "enMarkdown": "[4] Seeking competition could be a good heuristic in the sense that some people find it motivating. It's also somewhat of a guide to promising problems, because it's a sign that other people find them promising. But it's a very imperfect sign: often there's a clamoring crowd chasing some problem, and they all end up being trumped by someone quietly working on another one.",
+      "zhMarkdown": "[4] 寻找竞争可能是一个不错的启发，因为有些人会觉得竞争能激发斗志。它在一定程度上也能指引有前景的问题，因为竞争意味着别人也觉得这事有戏。但这并非一个完美的信号：往往有一大群人喧闹着追逐某个问题，结果却被一个默默研究另一个问题的人捷足先登。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "240ac9228f695de30ca70136094468ed4c5d58d6034a4b928f48281fe9a29b31",
+      "enMarkdown": "[5] Not always, though. You have to be careful with this rule. When something is popular despite being mediocre, there's often a hidden reason why. Perhaps monopoly or regulation make it hard to compete. Perhaps customers have bad taste or have broken procedures for deciding what to buy. There are huge swathes of mediocre things that exist for such reasons.",
+      "zhMarkdown": "[5] 但也不尽然。运用这条规则时必须小心。当某个东西虽然平庸却依然流行时，背后往往有隐藏的原因。也许是垄断或监管让竞争变得困难。也许是消费者的品味太差，或者是他们的采购决策流程存在缺陷。由于这些原因，世上存在着海量平庸的事物。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "66c00696999126ff141579bf62e129a76ccbfe0713a77e754e5da16b272a2b1a",
+      "enMarkdown": "[6] In my twenties I wanted to be an [artist](https://paulgraham.com/worked.html) and even went to art school to study painting. Mostly because I liked art, but a nontrivial part of my motivation came from the fact that artists seemed least at the mercy of organizations.",
+      "zhMarkdown": "[6] 在我二十多岁时，我想成为一名[艺术家](https://paulgraham.com/worked.html)，甚至去艺术学校学习绘画。主要是因为我喜欢艺术，但一个不容忽视的动机在于，艺术家似乎最不容易受到组织的摆布。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "e1390819ea37bfc6d775f276dfa276d1100cb5fb14079f149d479722142a4ea7",
+      "enMarkdown": "[7] In principle everyone is getting superlinear returns. Learning compounds, and everyone learns in the course of their life. But in practice few push this kind of everyday learning to the point where the return curve gets really steep.",
+      "zhMarkdown": "[7] 原则上，每个人都在获得超线性回报。学习是复利的，每个人在人生历程中都在学习。但在现实中，很少有人能将这种日常学习推向回报曲线真正陡峭的那个奇点。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "909331a06488b86209f797d74af6722dc9c41237deab20daa649674632d64a89",
+      "enMarkdown": "[8] It's unclear exactly what advocates of \"equity\" mean by it. They seem to disagree among themselves. But whatever they mean is probably at odds with a world in which institutions have less power to control outcomes, and a handful of outliers do much better than everyone else.",
+      "zhMarkdown": "[8] 目前尚不清楚“平等”（equity）的倡导者其具体含义是什么。他们自己似乎也意见不一。但无论他们指的是什么，大概都与一个体制无法掌控结果、极少数卓越者远超其他人的世界背道而驰。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "7bdd2d7412527d678a2d0178e17ef0d2e7e02771f1a1f9526f646dfbb16e2988",
+      "enMarkdown": "It may seem like bad luck for this concept that it arose at just the moment when the world was shifting in the opposite direction, but I don't think this was a coincidence. I think one reason it arose now is because its adherents feel threatened by rapidly increasing variation in performance.",
+      "zhMarkdown": "这个概念恰好在世界朝着相反方向转变的时刻兴起，似乎运气不佳，但我认为这绝非巧合。我认为它之所以在当下兴起，原因之一正是其信徒感受到了个人表现差距迅速扩大所带来的威胁。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "829dfb9ff72e01cebaba9f6a98d12c1252fb6f7291406a55fb8f74fb0b04d267",
+      "enMarkdown": "[9] Corollary: Parents who pressure their kids to work on something prestigious, like medicine, even though they have no interest in it, will be hosing them even more than they have in the past.",
+      "zhMarkdown": "[9] 推论：如果父母逼迫孩子去从事医生等体面的职业，而孩子对其毫无兴趣，那么这些父母对孩子的伤害将比过去还要深重。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "8fa0d0402bfb99baf21a3ff4ccdf6b55ae21fa0d19f7b5b97c2d0f6e03657c2f",
+      "enMarkdown": "[10] The original version of this paragraph was the first draft of \"[How to Do Great Work](https://paulgraham.com/greatwork.html).\" As soon as I wrote it I realized it was a more important topic than superlinear returns, so I paused the present essay to expand this paragraph into its own. Practically nothing remains of the original version, because after I finished \"How to Do Great Work\" I rewrote it based on that.",
+      "zhMarkdown": "[10] 这一段的最初版本其实是《[如何做出伟大工作](https://paulgraham.com/greatwork.html)》的第一版草稿。我一写完它，就意识到这是一个比超线性回报更重要的主题，于是我暂停了本文的写作，将这一段扩充成了独立的一篇文章。初版的内容几乎没有保留下来，因为在写完《如何做出伟大工作》之后，我根据新文重新改写了这一段。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "596f0a871e1a31d873f5ae791d2761fa15938d010cfa4bbfd2df7056d3ec052c",
+      "enMarkdown": "[11] Before the Industrial Revolution, people who got rich usually did it like emperors: capturing some resource made them more powerful and enabled them to capture more. Now it can be done like a scientist, by discovering or building something uniquely valuable. Most people who get rich use a mix of the old and the new ways, but in the most advanced economies the ratio has [shifted dramatically](https://paulgraham.com/richnow.html) toward discovery just in the last half century.",
+      "zhMarkdown": "[11] 在工业革命之前，变富的人通常像帝王一样：占有某种资源让他们更强大，从而能占有更多资源。而现在，你可以像科学家一样，通过发现或创造某种具有独特价值的东西来变富。大多数富人混合使用了新旧两种方式，但在最发达的经济体中，仅在过去半个世纪里，变富的路径就已经[戏剧性地转向](https://paulgraham.com/richnow.html)了“发现”这一端。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "3f4814e2a88ebcee90681add44aebd2b597905954d917e703ab9799e6e2246d0",
+      "enMarkdown": "[12] It's not surprising that conventional-minded people would dislike inequality if independent-mindedness is one of the biggest drivers of it. But it's not simply that they don't want anyone to have what they can't. The conventional-minded literally can't imagine what it's like to have novel ideas. So the whole phenomenon of great variation in performance seems unnatural to them, and when they encounter it they assume it must be due to cheating or to some malign external influence.",
+      "zhMarkdown": "[12] 如果独立思考是不平等最大的推手之一，那么因循守旧的人讨厌不平等就不足为奇了。但这不仅仅是因为他们不想让别人拥有自己没有的东西。因循守旧的人字面意义上无法想象拥有新颖想法是什么体验。因此，在他们看来，个人表现的巨大差异显得极不自然，一旦遇到，他们就会认定这一定是由于作弊或某种险恶的外部势力造成的。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "c408d2ed1f691ddb2cfdecf3886387fed4c654201d6461b46d6db4704aad008d",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Patrick Collison, Tyler Cowen, Jessica Livingston, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "感谢 Trevor Blackwell、Patrick Collison、Tyler Cowen、Jessica Livingston、Harj Taggar 和 Garry Tan 阅读本文的草稿。"
+    }
+  ]
+}

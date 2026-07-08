@@ -1,0 +1,608 @@
+{
+  "slug": "mit",
+  "titleEn": "A Student's Guide to Startups",
+  "titleZh": "学生创业指南",
+  "dateText": "October 2006",
+  "publishedAt": "2006-10-01",
+  "sourceOrder": 162,
+  "sourceUrl": "https://paulgraham.com/mit.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "2d928321a91cae8efe12380543cd567ee308d3fb0b1b913482512146870f2d12",
+      "enMarkdown": "*(This essay is derived from a talk at MIT.)*",
+      "zhMarkdown": "*(本文改编自作者在麻省理工学院的一场演讲。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "83cb63ef0a9fc875611add6c0a6d80dda0434e271b3eb81659e13d34b829f7e5",
+      "enMarkdown": "Till recently graduating seniors had two choices: get a job or go to grad school. I think there will increasingly be a third option: to start your own startup. But how common will that be?",
+      "zhMarkdown": "直到最近，即将毕业的大四学生面前还只有两条路：找份工作，或者去读研。但我认为，第三种选择将变得越来越普遍：创办自己的创业公司。但这会变得多普遍呢？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "de04d9409442d0b8bffd11fa5290032e4f060ad0b1a7b633480b42c61b03a77c",
+      "enMarkdown": "I'm sure the default will always be to get a job, but starting a startup could well become as popular as grad school. In the late 90s my professor friends used to complain that they couldn't get grad students, because all the undergrads were going to work for startups. I wouldn't be surprised if that situation returns, but with one difference: this time they'll be starting their own instead of going to work for other people's.",
+      "zhMarkdown": "我相信，找工作永远是默认的常态，但选择创业很可能会变得和读研一样流行。在 90 年代末，我那些当教授的朋友经常抱怨招不到研究生，因为所有的本科生都跑去创业公司工作了。如果这种情况再次出现，我一点也不会感到惊讶，但有一个不同之处：这一次，他们将创办自己的公司，而不是去给别人的公司打工。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "650ed70ccaa1e9fb3dc113df15e77582ca7773af2ac71f25597a1ed7bc66dfd3",
+      "enMarkdown": "The most ambitious students will at this point be asking: Why wait till you graduate? Why not start a startup while you're in college? In fact, why go to college at all? Why not start a startup instead?",
+      "zhMarkdown": "此时，那些最雄心勃勃的学生肯定会问：为什么要等到毕业？为什么不在大学期间就创办一家创业公司？事实上，为什么还要上大学？为什么不直接去创业？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "e2b1d6f8590cd567f181b9bf99e8a5a37d8e7d8adc3f4c19cbceed65b1545da4",
+      "enMarkdown": "A year and a half ago I gave a [talk](https://paulgraham.com/hiring.html) where I said that the average age of the founders of Yahoo, Google, and Microsoft was 24, and that if grad students could start startups, why not undergrads? I'm glad I phrased that as a question, because now I can pretend it wasn't merely a rhetorical one. At the time I couldn't imagine why there should be any lower limit for the age of startup founders. Graduation is a bureaucratic change, not a biological one. And certainly there are undergrads as competent technically as most grad students. So why shouldn't undergrads be able to start startups as well as grad students?",
+      "zhMarkdown": "一年半以前，我做过一次[演讲](https://paulgraham.com/hiring.html)，提到雅虎、谷歌和微软的创始人创业时的平均年龄是 24 岁。既然研究生可以创业，为什么本科生不行？我很庆幸自己当时是以问句的形式提出来的，因为现在我可以假装那不仅仅是一个反问。当时，我无法想象为什么创业公司的创始人会有年龄下限。毕业只是一种官僚程序上的变化，而不是生理上的。而且，当然有些本科生的技术能力和大多数研究生一样强。那么，为什么本科生不能像研究生一样创办创业公司呢？"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "4350c9b4d199abe3cc12d82e56fdc76496167d5bbbf9f1b69932616ffd38f7be",
+      "enMarkdown": "I now realize that something does change at graduation: you lose a huge excuse for failing. Regardless of how complex your life is, you'll find that everyone else, including your family and friends, will discard all the low bits and regard you as having a single occupation at any given time. If you're in college and have a summer job writing software, you still read as a student. Whereas if you graduate and get a job programming, you'll be instantly regarded by everyone as a programmer.",
+      "zhMarkdown": "我现在意识到，毕业确实带来了一些变化：你失去了一个绝佳的失败借口。无论你的生活有多复杂，你会发现其他人（包括你的家人和朋友）都会自动忽略所有次要细节，并在任何特定时期都将你视为只有一种职业。如果你在大学期间做一份写软件的暑期工，你依然被看作一个学生。而一旦你毕业并找了一份写代码的工作，每个人都会瞬间把你当成一个程序员。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "02c93506229ca134f2a290127e3e42cbc5a1cb51a1bbc2e578f3f92daff079a7",
+      "enMarkdown": "The problem with starting a startup while you're still in school is that there's a built-in escape hatch. If you start a startup in the summer between your junior and senior year, it reads to everyone as a summer job. So if it goes nowhere, big deal; you return to school in the fall with all the other seniors; no one regards you as a failure, because your occupation is student, and you didn't fail at that. Whereas if you start a startup just one year later, after you graduate, as long as you're not accepted to grad school in the fall the startup reads to everyone as your occupation. You're now a startup founder, so you have to do well at that.",
+      "zhMarkdown": "在校期间创业的问题在于，它有一个自带的退路。如果你在大三和大四之间的暑假创业，在所有人看来这不过是一份暑期工。所以如果它毫无进展，也没什么大不了的；秋天你和其他大四学生一起回学校上课，没人会觉得你是个失败者，因为你的职业是学生，而你在学业上并没有失败。相反，如果你在仅仅一年后、也就是毕业之后创业，只要你秋天没有去读研，那么在所有人眼里，这个创业公司就是你的职业。你现在是一个创业公司的创始人了，所以你必须把它做好。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "86bf870fda474dd3b98a8c85e55c011425ba89764aa9045aa030cfd690e56336",
+      "enMarkdown": "For nearly everyone, the opinion of one's peers is the most powerful motivator of all—more powerful even than the nominal goal of most startup founders, getting rich. [[1](#f1n)] About a month into each funding cycle we have an event called Prototype Day where each startup presents to the others what they've got so far. You might think they wouldn't need any more motivation. They're working on their cool new idea; they have funding for the immediate future; and they're playing a game with only two outcomes: wealth or failure. You'd think that would be motivation enough. And yet the prospect of a demo pushes most of them into a rush of activity.",
+      "zhMarkdown": "对几乎所有人来说，同龄人的看法才是最强大的驱动力——甚至比大多数创始人名义上的目标“发家致富”还要强大。[[1](#f1n)] 在每个投资周期的第一个月左右，我们会举办一个叫“原型日”（Prototype Day）的活动，每个创业公司都要向其他人展示他们目前做出来的成果。你可能会觉得他们不需要更多的动力了。他们正在实现自己酷炫的新想法；他们有近期的资金支持；而且他们正在玩一个只有两种结局的游戏：要么暴富，要么失败。你以为这动力已经足够了。然而，一想到要进行演示，还是会逼得他们绝大多数人爆发出惊人的行动力。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d8ef5fe2617ff482fa8b6de4c1e29bc041331704e2fe99e0f9f18666c365f9bb",
+      "enMarkdown": "Even if you start a startup explicitly to get rich, the money you might get seems pretty theoretical most of the time. What drives you day to day is not wanting to look bad.",
+      "zhMarkdown": "即使你创业明确是为了发财，你在大多数时候也会觉得未来可能赚到的钱非常虚无缥缈。真正推动你日复一日工作的，是不想让自己看起来太狼狈。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "782a50284edc2a6cf0ccd83467d09df4f7575d078125de5a3712d0dc7a667255",
+      "enMarkdown": "You probably can't change that. Even if you could, I don't think you'd want to; someone who really, truly doesn't care what his peers think of him is probably a psychopath. So the best you can do is consider this force like a wind, and set up your boat accordingly. If you know your peers are going to push you in some direction, choose good peers, and position yourself so they push you in a direction you like.",
+      "zhMarkdown": "你可能无法改变这一点。即使能，我想你也不会想去改变；一个真正、彻底不在乎同龄人怎么看自己的人，大概是个反社会人格。所以你唯一能做的，就是把这种力量当成风，并据此调整你的帆。如果你知道同龄人会把你推向某个方向，那就选择优秀的同龄人，并调整好自己的位置，让他们把你推向你喜欢的方向。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "030386d561f08136ddf51ae35f679d6ce4cf02a18b9bf499f3c8e210a20efce1",
+      "enMarkdown": "Graduation changes the prevailing winds, and those make a difference. Starting a startup is so hard that it's a close call even for the ones that succeed. However high a startup may be flying now, it probably has a few leaves stuck in the landing gear from those trees it barely cleared at the end of the runway. In such a close game, the smallest increase in the forces against you can be enough to flick you over the edge into failure.",
+      "zhMarkdown": "毕业改变了风向，而风向至关重要。创业是如此艰难，以至于即使是那些成功的公司，也是九死一生。无论一家创业公司现在飞得有多高，它的起落架上可能都挂着几片树叶，那是它在跑道尽头勉强擦着树梢起飞时留下的。在竞争如此激烈的游戏里，阻力哪怕只增加一点点，也足以把你推入失败的深渊。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "7de1b15c6d51aa9d7c37a41774fe460ca91b96b371c74a4154b9f163aceb2b0c",
+      "enMarkdown": "When we first started [Y Combinator](http://ycombinator.com) we encouraged people to start startups while they were still in college. That's partly because Y Combinator began as a kind of summer program. We've kept the program shape—all of us having dinner together once a week turns out to be a good idea—but we've decided now that the party line should be to tell people to wait till they graduate.",
+      "zhMarkdown": "当我们刚创办 [Y Combinator](http://ycombinator.com) 时，我们曾鼓励人们在大学期间创业。这部分是因为 Y Combinator 最初是以一种暑期项目的形式开始的。我们保留了这种项目形式——事实证明，大家每周聚在一起吃一次晚饭是个好主意——但我们现在决定，官方的态度应该是劝大家等到毕业。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7b13566ba0a2657d4bc7c23cb50651c87d1ac9f87f2012ee976dc31f84ba0d90",
+      "enMarkdown": "Does that mean you can't start a startup in college? Not at all. Sam Altman, the co-founder of [Loopt](http://loopt.com), had just finished his sophomore year when we funded them, and Loopt is probably the most promising of all the startups we've funded so far. But Sam Altman is a very unusual guy. Within about three minutes of meeting him, I remember thinking \"Ah, so this is what Bill Gates must have been like when he was 19.\"",
+      "zhMarkdown": "这是否意味着你在大学里就不能创业？完全不是。[Loopt](http://loopt.com) 的联合创始人山姆·奥特曼（Sam Altman）在我们投资他们时刚读完大二，而 Loopt 可能是我们目前投资过的所有创业公司中最有前景的一个。但山姆·奥特曼是个极其罕见的人。我记得在见到他大约三分钟内，脑子里就闪过一个念头：“啊，原来比尔·盖茨 19 岁时就是这个样子。”"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "fdf079bfbf9c8c2eb25f43010e8e12f8ac846d8877bc1e2db3b4409a24d8197d",
+      "enMarkdown": "If it can work to start a startup during college, why do we tell people not to? For the same reason that the probably apocryphal violinist, whenever he was asked to judge someone's playing, would always say they didn't have enough talent to make it as a pro. Succeeding as a musician takes determination as well as talent, so this answer works out to be the right advice for everyone. The ones who are uncertain believe it and give up, and the ones who are sufficiently determined think \"screw that, I'll succeed anyway.\"",
+      "zhMarkdown": "如果大学期间创业行得通，为什么我们还要劝大家不要这么做？原因就和那个可能并不存在的小提琴家的故事一样：每当有人请他评价自己的演奏时，他总是说对方缺乏成为职业琴手的才华。要在音乐上取得成功，既需要才华也需要决心，所以这个回答对每个人来说都是正确的建议。那些动摇的人会相信并放弃，而那些决心足够坚定的人则会想：“去他的，反正我一定要成功。”"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "597f9c2133d3566a455177ead6b084ae860b5562611f95a8226422f349235508",
+      "enMarkdown": "So our official policy now is only to fund undergrads we can't talk out of it. And frankly, if you're not certain, you *should* wait. It's not as if all the opportunities to start companies are going to be gone if you don't do it now. Maybe the window will close on some idea you're working on, but that won't be the last idea you'll have. For every idea that times out, new ones become feasible. Historically the opportunities to start startups have only increased with time.",
+      "zhMarkdown": "所以我们现在的官方政策是：只投资那些我们怎么劝也劝不动的本科生。坦率地说，如果你自己都不确定，你*应该*等待。这并不是说如果你现在不干，所有的创业机会就都会消失。也许你正在做的某个想法的时机窗口会关闭，但那不会是你最后一个想法。每一个过时的想法背后，都会有新的想法变得可行。从历史上看，创业的机会只会随着时间的推移而不断增加。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "dfa0c27423c298698d2d31928bc39a9f87e4fbf6bb1857bb8e0e7a066f193d91",
+      "enMarkdown": "In that case, you might ask, why not wait longer? Why not go work for a while, or go to grad school, and then start a startup? And indeed, that might be a good idea. If I had to pick the sweet spot for startup founders, based on who we're most excited to see applications from, I'd say it's probably the mid-twenties. Why? What advantages does someone in their mid-twenties have over someone who's 21? And why isn't it older? What can 25 year olds do that 32 year olds can't? Those turn out to be questions worth examining.",
+      "zhMarkdown": "在这种情况下，你可能会问，为什么不等得更久一点？为什么不先去工作一段时间，或者去读研，然后再创业？确实，这可能也是个好主意。如果非要让我根据我们最渴望收到谁的申请，来挑出创业创始人的黄金年龄段，我会说是二十五六岁。为什么？一个二十五六岁的人比 21 岁的人有什么优势？又为什么不是年纪更大的人？25 岁的人能做什么 32 岁的人做不到的事？这些问题显然值得探讨。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f1f01350b8415f3aac4f9498c5c084230e8910e4f97bc81d9a20cdec4f4df2ed",
+      "enMarkdown": "**Plus**",
+      "zhMarkdown": "**优势**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "992408a40d75eb43ef595d43878daa3120a57f81b61f6acc640fb65ec4f0aa0f",
+      "enMarkdown": "If you start a startup soon after college, you'll be a young founder by present standards, so you should know what the relative advantages of young founders are. They're not what you might think. As a young founder your strengths are: stamina, poverty, rootlessness, colleagues, and ignorance.",
+      "zhMarkdown": "如果你在大学毕业后不久就创业，按目前的标准你将是一个年轻的创始人，所以你应该了解年轻创始人的相对优势。这些优势可能和你想的不一样。作为一个年轻的创始人，你的优势在于：精力充沛、贫穷、无拘无束、人脉资源和无知。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "ed209fd90722fbf8b18ad3913a68814a3b025b2bc2be77df6a1dd375c2c3db04",
+      "enMarkdown": "The importance of stamina shouldn't be surprising. If you've heard anything about startups you've probably heard about the long hours. As far as I can tell these are universal. I can't think of any successful startups whose founders worked 9 to 5. And it's particularly necessary for younger founders to work long hours because they're probably not as efficient as they'll be later.",
+      "zhMarkdown": "精力充沛的重要性不难理解。如果你听过任何关于创业公司的传闻，你大概都听说过长时间的工作。据我所知，这无一例外。我想不出有哪家成功的创业公司，其创始人是朝九晚五工作的。对于年轻的创始人来说，延长工作时间尤为必要，因为他们现在的做事效率可能还比不上以后。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "d8f5c2d0faa080116482139fac4e4edacb2acedf823b47c12e64ab859bc922ed",
+      "enMarkdown": "Your second advantage, poverty, might not sound like an advantage, but it is a huge one. Poverty implies you can live cheaply, and this is critically important for startups. Nearly every startup that fails, fails by running out of money. It's a little misleading to put it this way, because there's usually some other underlying cause. But regardless of the source of your problems, a low burn rate gives you more opportunity to recover from them. And since most startups make all kinds of mistakes at first, room to recover from mistakes is a valuable thing to have.",
+      "zhMarkdown": "你的第二个优势是贫穷，这听起来可能不像优势，但实际上是个巨大的优势。贫穷意味着你可以生活得很省钱，这对创业公司来说至关重要。几乎所有失败的创业公司，都是因为钱花光了才失败的。这么说可能有点误导，因为通常还有其他更深层次的原因。但不管你的问题源自哪里，较低的资金消耗率（burn rate）都能给你争取更多从问题中恢复的机会。既然大多数创业公司一开始都会犯各种各样的错误，那么拥有纠错的空间就是一件极其宝贵的事。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "e648be5aa538b4976a7c88faf32dd6cae908476afd83e4f620ff69c81b15cd58",
+      "enMarkdown": "Most startups end up doing something different than they planned. The way the successful ones find something that works is by trying things that don't. So the worst thing you can do in a startup is to have a rigid, pre-ordained plan and then start spending a lot of money to implement it. Better to operate cheaply and give your ideas time to evolve.",
+      "zhMarkdown": "大多数创业公司最终做的事情都和他们一开始规划的不同。成功的公司找到可行道路的方法，就是通过不断尝试不可行的道路。所以，在创业公司里最糟糕的事，就是抱着一个死板、预先设定好的方案，然后开始花大钱去执行。更好的做法是低成本运营，给你的想法留出进化的时间。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "03d4778831926b2dff18e7ca8c14220faefe6cbe3283b2a4305d1dd35f354999",
+      "enMarkdown": "Recent grads can live on practically nothing, and this gives you an edge over older founders, because the main cost in software startups is people. The guys with kids and mortgages are at a real disadvantage. This is one reason I'd bet on the 25 year old over the 32 year old. The 32 year old probably is a better programmer, but probably also has a much more expensive life. Whereas a 25 year old has some work experience (more on that later) but can live as cheaply as an undergrad.",
+      "zhMarkdown": "刚毕业的学生几乎可以靠极低的成本生活，这让你比年长的创始人更具优势，因为软件创业公司的主要成本就是人力。那些有孩子和房贷的人处于真正的劣势。这就是为什么我更看好 25 岁的人，而不是 32 岁的人。32 岁的人可能是一个更好的程序员，但他的生活成本可能也高得多。而一个 25 岁的人已经有了一些工作经验（后面会详细介绍），但仍然可以像本科生一样省吃俭用地生活。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "ee8ab3f88641b200627ee2a792de64a52db299415848937525ec0412e0a0cef6",
+      "enMarkdown": "Robert Morris and I were 29 and 30 respectively when we started Viaweb, but fortunately we still lived like 23 year olds. We both had roughly zero assets. I would have loved to have a mortgage, since that would have meant I had a *house*. But in retrospect having nothing turned out to be convenient. I wasn't tied down and I was used to living cheaply.",
+      "zhMarkdown": "罗伯特·莫里斯（Robert Morris）和我创办 Viaweb 时分别是 29 岁和 30 岁，但幸运的是，我们当时的生活方式还像 23 岁的人一样。我们俩的资产基本为零。我当时倒很想背房贷，因为那意味着我有一套*房子*。但回过头来看，一无所有反倒很方便。我没有被束缚，而且习惯了廉价的生活。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "d1cfcd74ee3aebd7429c0ba0dd6b9ee61c0234a87bb2d597dade3eb8382e9af9",
+      "enMarkdown": "Even more important than living cheaply, though, is thinking cheaply. One reason the Apple II was so popular was that it was cheap. The computer itself was cheap, and it used cheap, off-the-shelf peripherals like a cassette tape recorder for data storage and a TV as a monitor. And you know why? Because Woz designed this computer for himself, and he couldn't afford anything more.",
+      "zhMarkdown": "然而，比生活省钱更重要的，是思维上的省钱。Apple II 之所以如此流行，原因之一就是它很便宜。电脑本身很便宜，而且它使用的是便宜的、现成的外设，比如用录音磁带机来存储数据，用电视机当显示器。你知道为什么吗？因为沃兹（Woz）是为自己设计这台电脑的，而他买不起更贵的东西。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "6d89a26fc568407c7c58f52225fc02846165c0cddc684247accdb300abfced6e",
+      "enMarkdown": "We benefitted from the same phenomenon. Our prices were daringly low for the time. The top level of service was $300 a month, which was an order of magnitude below the norm. In retrospect this was a smart move, but we didn't do it because we were smart. $300 a month seemed like a lot of money to us. Like Apple, we created something inexpensive, and therefore popular, simply because we were poor.",
+      "zhMarkdown": "我们也从同样的现象中受益。在当时，我们的价格低得惊人。最高级别的服务是每月 300 美元，这比行业常态低了一个数量级。回过头来看这是一个聪明的举动，但我们这么做并不是因为我们聪明。每月 300 美元在我们看来已经是一大笔钱了。和苹果一样，我们创造出便宜且因此受欢迎的产品，纯粹是因为我们穷。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "c1c3a3a7226db5b815dc26a3aab7400da822282d05d65f0fb45e5bb7e92cdc4a",
+      "enMarkdown": "A lot of startups have that form: someone comes along and makes something for a tenth or a hundredth of what it used to cost, and the existing players can't follow because they don't even want to think about a world in which that's possible. Traditional long distance carriers, for example, didn't even want to think about VoIP. (It was coming, all the same.) Being poor helps in this game, because your own personal bias points in the same direction technology evolves in.",
+      "zhMarkdown": "许多创业公司都是这种模式：某人出现，用相当于过去十分之一或百分之一的成本做出了某种东西，而现有的巨头无法跟进，因为他们甚至不愿去思考一个这种可能性的世界。例如，传统的长途电话运营商甚至不愿去思考 VoIP 的可能性。（但它还是来了。）在这场游戏中，贫穷是有帮助的，因为你个人的偏好恰好与技术演进的方向一致。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "dd860c7d21a2774290dca6ddfbb135a59df812dfd1632dbe104ef0cfe971442c",
+      "enMarkdown": "The advantages of rootlessness are similar to those of poverty. When you're young you're more mobile—not just because you don't have a house or much stuff, but also because you're less likely to have serious relationships. This turns out to be important, because a lot of startups involve someone moving.",
+      "zhMarkdown": "无拘无束的优势与贫穷类似。当你年轻时，你的流动性更强——不仅因为你没有房子或太多行李，还因为你不太可能有稳定的感情关系。这被证明非常重要，因为许多创业都需要有人搬家。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "6b535cffe596c3c424f4f2a4c05adb978887585989df74f78978bcb1acca9c4f",
+      "enMarkdown": "The founders of Kiko, for example, are now en route to the Bay Area to start their next startup. It's a better place for what they want to do. And it was easy for them to decide to go, because neither as far as I know has a serious girlfriend, and everything they own will fit in one car—or more precisely, will either fit in one car or is crappy enough that they don't mind leaving it behind.",
+      "zhMarkdown": "例如，Kiko 的创始人现在正前往湾区创办他们的下一家创业公司。那里是实现他们抱负的更好地方。对他们来说，决定离开很容易，因为据我所知，他们俩都没有稳定的女朋友，而且他们的全部家当一辆车就能装下——更准确地说，要么能塞进一辆车里，要么就是破烂到他们不在乎直接扔掉。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "f97e3c38fb29dd4d6464d665bc11acd0438085b6fda0600a4fc5a923fd69ebf8",
+      "enMarkdown": "They at least were in Boston. What if they'd been in Nebraska, like Evan Williams was at their age? Someone wrote recently that the drawback of Y Combinator was that you had to move to participate. It couldn't be any other way. The kind of conversations we have with founders, we have to have in person. We fund a dozen startups at a time, and we can't be in a dozen places at once. But even if we could somehow magically save people from moving, we wouldn't. We wouldn't be doing founders a favor by letting them stay in Nebraska. Places that aren't [startup hubs](https://paulgraham.com/siliconvalley.html) are toxic to startups. You can tell that from indirect evidence. You can tell how hard it must be to start a startup in Houston or Chicago or Miami from the microscopically small number, per capita, that succeed there. I don't know exactly what's suppressing all the startups in these towns—probably a hundred subtle little things—but something must be. [[2](#f2n)]",
+      "zhMarkdown": "他们好歹之前还在波士顿。如果他们像埃文·威廉姆斯（Evan Williams）在他们这个年纪时那样，人在内布拉斯加州呢？最近有人写道，Y Combinator 的缺点是你必须搬家才能参与。但不可能有别的方式。我们与创始人之间的那种交流必须面谈。我们一次资助十几个创业公司，不可能同时出现在十几个不同的地方。但即使我们能以某种魔法免去人们搬家的麻烦，我们也不会这么做。让创始人留在内布拉斯加州并不是在帮他们。那些不是[创业中心](https://paulgraham.com/siliconvalley.html)的地方对创业公司来说是有毒的。你可以从间接证据中看出这一点。从休斯顿、芝加哥或迈阿密人均极低的创业成功数量，你就能看出在这些地方创业有多难。我不知道具体是什么在压制这些城市的创业公司——可能是上百种微妙的小因素——但肯定有什么东西在起作用。[[2](#f2n)]"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "288f0766b579c412a3296aaa21da803b1187f797f4d67ec48ee586cf526defa0",
+      "enMarkdown": "Maybe this will change. Maybe the increasing cheapness of startups will mean they'll be able to survive anywhere, instead of only in the most hospitable environments. Maybe 37signals is the pattern for the future. But maybe not. Historically there have always been certain towns that were centers for certain industries, and if you weren't in one of them you were at a disadvantage. So my guess is that 37signals is an anomaly. We're looking at a pattern much older than \"Web 2.0\" here.",
+      "zhMarkdown": "也许这会改变。也许创业成本的降低意味着它们将能在任何地方生存，而不仅限于最适宜的环境。也许 37signals 就是未来的模式。但也可能不是。从历史上看，总会有某些城市成为某些行业的中心，如果你不在其中，你就会处于劣势。所以我的猜测是，37signals 只是一个特例。我们在这里看到的规律，比“Web 2.0”要古老得多。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "c25a9e3d1508c283b4edb279be1244734fa90e303c8d8d3791d75a12a616c558",
+      "enMarkdown": "Perhaps the reason more startups per capita happen in the Bay Area than Miami is simply that there are more founder-type people there. Successful startups are almost never started by one person. Usually they begin with a conversation in which someone mentions that something would be a good idea for a company, and his friend says, \"Yeah, that is a good idea, let's try it.\" If you're missing that second person who says \"let's try it,\" the startup never happens. And that is another area where undergrads have an edge. They're surrounded by people willing to say that. At a good college you're concentrated together with a lot of other ambitious and technically minded people—probably more concentrated than you'll ever be again. If your nucleus spits out a neutron, there's a good chance it will hit another nucleus.",
+      "zhMarkdown": "也许湾区人均创业公司比迈阿密多的原因，仅仅是因为那里有更多创始人类型的人。成功的创业公司几乎从不是由一个人创办的。它们通常始于一场对话，其中一个人提到某个想法适合做成一家公司，而他的朋友说：“对，这确实是个好主意，我们试试吧。”如果你缺少那个说“我们试试吧”的第二个人，创业就不会发生。而这正是本科生具有优势的另一个领域。他们的身边全是愿意说这句话的人。在一所优秀的大学里，你和许多其他有抱负、懂技术的人高度聚集在一起——这种聚集度可能你此生都不会再遇到了。如果你的原子核释放出一个中子，它极有可能会撞击到另一个原子核。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "a0488aa2a26e56793aaba76b38e681bb25727dab246a69ff07528e4eacebf0d7",
+      "enMarkdown": "The number one question people ask us at Y Combinator is: Where can I find a co-founder? That's the biggest problem for someone starting a startup at 30. When they were in school they knew a lot of good co-founders, but by 30 they've either lost touch with them or these people are tied down by jobs they don't want to leave.",
+      "zhMarkdown": "在 Y Combinator，人们问我们最多的问题是：我在哪里能找到联合创始人？对于一个 30 岁创业的人来说，这是最大的难题。当他们在学校时，他们认识很多优秀的潜在联合创始人，但到了 30 岁，他们要么和这些人失去了联系，要么这些人已经被他们不想放弃的工作套牢了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "51fcae0f4c5aae0d5c6cf0f4a8c1a957c5e62f8f78c2c6d1c863d6b413343d21",
+      "enMarkdown": "Viaweb was an anomaly in this respect too. Though we were comparatively old, we weren't tied down by impressive jobs. I was trying to be an artist, which is not very constraining, and Robert, though 29, was still in grad school due to a little interruption in his academic career back in 1988. So arguably the Worm made Viaweb possible. Otherwise Robert would have been a junior professor at that age, and he wouldn't have had time to work on crazy speculative projects with me.",
+      "zhMarkdown": "在这方面，Viaweb 也是个特例。虽然我们年龄相对较大，但我们并没有被什么体面的工作绑住。我当时正试图成为一名艺术家，这没什么约束力；而罗伯特虽然 29 岁了，但由于 1988 年学术生涯中发生的一点小插曲，他当时还在读研。因此，可以说正是那个“蠕虫病毒”让 Viaweb 成为可能。否则，罗伯特在那个年纪早就是个助理教授了，根本没有时间和我一起做疯狂的投机项目。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "85109031e4606b37b236fe38aad70ed8891fc9bac4975b66d31b9b8aaff8d0b4",
+      "enMarkdown": "Most of the questions people ask Y Combinator we have some kind of answer for, but not the co-founder question. There is no good answer. Co-founders really should be people you already know. And by far the best place to meet them is school. You have a large sample of smart people; you get to compare how they all perform on identical tasks; and everyone's life is pretty fluid. A lot of startups grow out of schools for this reason. Google, Yahoo, and Microsoft, among others, were all founded by people who met in school. (In Microsoft's case, it was high school.)",
+      "zhMarkdown": "对于人们向 Y Combinator 提出的大多数问题，我们都有某种解答，但唯独联合创始人的问题没有。没有什么完美的答案。联合创始人真的应该由你已经认识的人来担任。而结识他们最好的地方显然是学校。你拥有一大批聪明人作为样本；你可以比较他们面对相同任务时的表现；而且每个人的生活状态都很有弹性。出于这个原因，许多创业公司都诞生于学校。谷歌、雅虎和微软等公司，都是由在学校相识的人创办的。（在微软的案例中，是高中。）"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "50cd5d021a22f7495e7a62a6b2bfb75a7c8892723c0cf1a8bf701a73aa4746b3",
+      "enMarkdown": "Many students feel they should wait and get a little more experience before they start a company. All other things being equal, they should. But all other things are not quite as equal as they look. Most students don't realize how rich they are in the scarcest ingredient in startups, co-founders. If you wait too long, you may find that your friends are now involved in some project they don't want to abandon. The better they are, the more likely this is to happen.",
+      "zhMarkdown": "许多学生觉得他们应该等一等，积累一些经验后再去创办公司。在其他条件相同的情况下，他们确实应该这样。但其他条件并不像看起来那么对等。大多数学生并没有意识到，在创业公司最稀缺的资源——联合创始人——方面，他们是多么富有。如果你等待太久，你可能会发现你的朋友们现在已经投入到某个他们不想放弃的项目中了。他们越优秀，这种情况就越容易发生。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "bcb48bf071b20183b1056c3058c16610baf0b70635526142cb65d3e1be0b1271",
+      "enMarkdown": "One way to mitigate this problem might be to actively plan your startup while you're getting those n years of experience. Sure, go off and get jobs or go to grad school or whatever, but get together regularly to scheme, so the idea of starting a startup stays alive in everyone's brain. I don't know if this works, but it can't hurt to try.",
+      "zhMarkdown": "缓解这个问题的一个方法可能是，在积累这 n 年经验的过程中，积极地筹划你的创业公司。当然，你可以去工作或去读研，但要定期聚在一起谋划，让创业的想法在每个人的脑海中保持活跃。我不知道这行不行得通，但试试总没坏处。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "91c8d55de5d2ed808aa12d34fdc4a227ee07abbced9f4ea91aecef37f0beadf5",
+      "enMarkdown": "It would be helpful just to realize what an advantage you have as students. Some of your classmates are probably going to be successful startup founders; at a great technical university, that is a near certainty. So which ones? If I were you I'd look for the people who are not just smart, but incurable [builders](http://my-computer.cruftlabs.com:8080/photos/motorcouch/0067.html).  Look for the people who keep starting projects, and finish at least some of them. That's what we look for. Above all else, above academic credentials and even the idea you apply with, we look for people who build things.",
+      "zhMarkdown": "仅仅意识到你作为学生拥有多大的优势就会很有帮助。你的同学中很可能会出现成功的创业公司创始人；在一家顶尖的理工科大学里，这几乎是必然的。那么会是谁呢？如果我是你，我会去寻找那些不仅聪明，而且有“创造强迫症”（incurable [builders](http://my-computer.cruftlabs.com:8080/photos/motorcouch/0067.html)）的人。寻找那些不断发起项目，并至少能完成其中一些的人。这就是我们寻找的人。最重要的是，超越学术背景，甚至超越你申请时的想法，我们寻找的是那些动手做东西的人。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "ed701848c0fc74ea86c347d3385f544b50043d78e4fd2b7ded7d6a9740f24751",
+      "enMarkdown": "The other place co-founders meet is at work. Fewer do than at school, but there are things you can do to improve the odds. The most important, obviously, is to work somewhere that has a lot of smart, young people. Another is to work for a company located in a startup hub. It will be easier to talk a co-worker into quitting with you in a place where startups are happening all around you.",
+      "zhMarkdown": "联合创始人相识的另一个地方是在工作中。在工作中遇到的人比在学校少，但你可以通过一些方法来提高概率。显然，最重要的一点是在有很多年轻聪明人的地方工作。另一个方法是在位于创业中心的起步公司工作。在创业氛围浓厚的地方，说服同事和你一起辞职会容易得多。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8dced452b0b102e2fbcb5f65d504aeea27c7df7979c639124c5d6e5a7d6633da",
+      "enMarkdown": "You might also want to look at the employment agreement you sign when you get hired. Most will say that any ideas you think of while you're employed by the company belong to them. In practice it's hard for anyone to prove what ideas you had when, so the line gets drawn at code. If you're going to start a startup, don't write any of the code while you're still employed. Or at least discard any code you wrote while still employed and start over. It's not so much that your employer will find out and sue you. It won't come to that; investors or acquirers or (if you're so lucky) underwriters will nail you first. Between t = 0 and when you buy that yacht, *someone* is going to ask if any of your code legally belongs to anyone else, and you need to be able to say no. [[3](#f3n)]",
+      "zhMarkdown": "你可能还想仔细看看入职时签署的雇员协议。大多数协议会规定，你在受雇期间想到的任何创意都属于公司。在实践中，任何人很难证明你在什么时候有了什么想法，所以界限往往划在代码上。如果你打算创业，在职期间千万不要写任何创业公司的代码。或者至少把你受雇时写的代码全部扔掉重新开始。这倒不是因为你的雇主会发现并起诉你，事情一般不会发展到那一步；投资者、收购方或（如果你足够幸运的话）承销商会先一步把你卡死。在 t = 0 到你买下那艘游艇之间的某个时刻，*一定会有人*询问你的代码是否在法律上属于其他人，你必须能够回答“不”。[[3](#f3n)]"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "8ce905fa913785a6a14e51a63b7433f57aba2f666ab75d09a49f015f8eb9f295",
+      "enMarkdown": "The most overreaching employee agreement I've seen so far is Amazon's. In addition to the usual clauses about owning your ideas, you also can't be a founder of a startup that has another founder who worked at Amazon—even if you didn't know them or even work there at the same time. I suspect they'd have a hard time enforcing this, but it's a bad sign they even try. There are plenty of other places to work; you may as well choose one that keeps more of your options open.",
+      "zhMarkdown": "到目前为止，我见过的最霸道的雇员协议是亚马逊的。除了常规的创意归属条款外，你还不能和另一个在亚马逊工作过的创始人一起创办公司——即使你们彼此不认识，甚至不在同一时期工作。我怀疑他们很难强制执行这一条，但他们居然试图这么做，这本身就是一个糟糕的信号。还有很多其他地方可以工作，你大可选择一个能为你保留更多选择余地的地方。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "28819312a4a6ca91c7b9025f3ec5b6c6dfd5de42c51c7386e403dbeb3cb33bb3",
+      "enMarkdown": "Speaking of cool places to work, there is of course Google. But I notice something slightly frightening about Google: zero startups come out of there. In that respect it's a black hole. People seem to like working at Google too much to leave. So if you hope to start a startup one day, the evidence so far suggests you shouldn't work there.",
+      "zhMarkdown": "说到酷炫的工作场所，当然少不了谷歌。但我注意到谷歌有一个让人有些害怕的现象：那里几乎没有诞生过创业公司。在这方面，它就像一个黑洞。人们似乎太喜欢在谷歌工作了，以至于舍不得离开。所以，如果你希望有一天能创业，目前的证据表明你不应该去那里工作。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "a2590a19c6a6052b98e8590817742342a76a80b52914d7d9801824b4cf44d1e9",
+      "enMarkdown": "I realize this seems odd advice. If they make your life so good that you don't want to leave, why not work there? Because, in effect, you're probably getting a local maximum. You need a certain activation energy to start a startup. So an employer who's fairly pleasant to work for can lull you into staying indefinitely, even if it would be a net win for you to leave. [[4](#f4n)]",
+      "zhMarkdown": "我知道这建议听起来很奇怪。如果他们让你的生活如此美好，以至于你不想离开，为什么不去那里工作？因为，实际上你可能陷入了一个局部最优解。创办一家创业公司需要一定的启动能量。因此，一个工作起来相当舒适的雇主会哄得你无限期地待下去，即使离开对你来说会是更好的选择。[[4](#f4n)]"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "ecf9b03245861bfc7f8d823e8994a238bd98e41ec6ecb1171132ae80fa6af797",
+      "enMarkdown": "The best place to work, if you want to start a startup, is probably a startup. In addition to being the right sort of experience, one way or another it will be over quickly. You'll either end up rich, in which case problem solved, or the startup will get bought, in which case it it will start to suck to work there and it will be easy to leave, or most likely, the thing will blow up and you'll be free again.",
+      "zhMarkdown": "如果你想创业，最好的工作场所大概是一家创业公司。除了能获得对路子的经验外，无论如何它都会很快结束。你公主要么变富，问题解决；要么公司被收购，工作开始变得无聊，你很容易就会离开；或者最有可能的是，公司倒闭，你再次获得自由。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "b431d0b1fc48e070de9af1ace577d6ba798caaaede4b96bd5512b06984ab2bdf",
+      "enMarkdown": "Your final advantage, ignorance, may not sound very useful. I deliberately used a controversial word for it; you might equally call it innocence. But it seems to be a powerful force. My Y Combinator co-founder Jessica Livingston is just about to publish a book of [interviews](http://www.amazon.com/gp/product/1590597141) with startup founders, and I noticed a remarkable pattern in them. One after another said that if they'd known how hard it would be, they would have been too intimidated to start.",
+      "zhMarkdown": "你的最后一个优势是无知，这听起来可能不太有用。我是故意用这个带有争议性的词的，你也可以称之为天真。但它似乎是一种强大的力量。我的 Y Combinator 联合创始人杰西卡·利文斯顿（Jessica Livingston）即将出版一本关于创业创始人[访谈](http://www.amazon.com/gp/product/1590597141)的书，我从中发现了一个引人注目的规律。他们一个接一个地表示，如果他们早知道创业有多难，他们就会因为太害怕而不敢开始了。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "657639af6ee5fd9d7c3fa503f28b418fce95afc0f46c025e434c22c60070a05e",
+      "enMarkdown": "Ignorance can be useful when it's a counterweight to other forms of stupidity. It's useful in starting startups because you're capable of more than you realize. Starting startups is harder than you expect, but you're also capable of more than you expect, so they balance out.",
+      "zhMarkdown": "当无知成为对冲其他形式愚蠢的砝码时，它是有用的。它在创业中很有用，因为你实际上比自己想象的更有能力。创业比你预期的要难，但你的能力也比你预期的要强，所以两者恰好抵消了。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "4dfb28b3d249f97d763a27a0d5ae70a42a352a6b2ea3bce39a302046b9338d3a",
+      "enMarkdown": "Most people look at a company like Apple and think, how could I ever make such a thing? Apple is an institution, and I'm just a person. But every institution was at one point just a handful of people in a room deciding to start something. Institutions are made up, and made up by people no different from you.",
+      "zhMarkdown": "大多数人看着像苹果这样的公司会想，我怎么可能做出这样的东西？苹果是一个庞大的机构，而我只是一个人。但是，每一个机构在某一时刻都不过是房间里的几个人，决定开始做点什么。机构是人创造出来的，而且是由和你没有任何区别的人创造出来的。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "89434a5070b3e3fdb5534bea6e49614288ad70088d0f69e62f986a00f303cd7e",
+      "enMarkdown": "I'm not saying everyone could start a startup. I'm sure most people couldn't; I don't know much about the population at large. When you get to groups I know well, like hackers, I can say more precisely. At the top schools, I'd guess as many as a quarter of the CS majors could make it as startup founders if they wanted.",
+      "zhMarkdown": "我并不是说每个人都能创业。我相信大多数人不能，因为我对大众群体并不十分了解。但当范围缩小到我熟悉的群体，比如黑客，我就可以说得更确切一些。在顶尖学校里，我估计只要他们想，多达四分之一的计算机系学生都能成功创业。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "edb8a652c59e085366b710a1442ba7b2d71d08624084dcaf522564e760294553",
+      "enMarkdown": "That \"if they wanted\" is an important qualification—so important that it's almost cheating to append it like that—because once you get over a certain threshold of intelligence, which most CS majors at top schools are past, the deciding factor in whether you succeed as a founder is how much you want to. You don't have to be that smart. If you're not a genius, just start a startup in some unsexy field where you'll have less competition, like software for human resources departments. I picked that example at random, but I feel safe in predicting that whatever they have now, it wouldn't take genius to do better. There are a lot of people out there working on boring stuff who are desperately in need of better software, so however short you think you fall of Larry and Sergey, you can ratchet down the coolness of the idea far enough to compensate.",
+      "zhMarkdown": "那个“只要他们想”是一个很重要的限制条件——重要到像这样把它附在后面简直有点像在作弊——因为一旦你跨过一定的智力门槛（大多数顶尖学校的计算机系学生都跨过了），决定你作为创始人能否成功的决定性因素就是你有多想成功。你不需要聪明到绝顶。如果你不是天才，只要在一些不那么性感的领域创业就行，那里的竞争不那么激烈，比如人力资源部门使用的软件。我只是随机挑了这个例子，但我敢打包票，无论他们现在用的是什么，做出更好的产品并不需要天才。有太多人在做着枯燥工作的同时，极度渴望更好的软件。所以，无论你觉得自己比拉里和谢尔盖差多少，你都可以把创意的酷炫程度降得足够低来弥补这一差距。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "e01222f730eb8d1efee49f05a1970183736b3d4017ba7191ed85caf89991b047",
+      "enMarkdown": "As well as preventing you from being intimidated, ignorance can sometimes help you discover new ideas. [Steve Wozniak](http://foundersatwork.com/stevewozniak.html) put this very strongly:",
+      "zhMarkdown": "除了防止被吓倒之外，无知有时还能帮你发现新想法。[史蒂夫·沃兹尼亚克](http://foundersatwork.com/stevewozniak.html)曾非常强烈地表达过这一点："
+    },
+    {
+      "id": 50,
+      "type": "quote",
+      "sourceHash": "bc9f78b02a56a63f7fc4d5ed33f29d0f71e20ad4aa3b9497f22780ba172baec6",
+      "enMarkdown": "> All the best things that I did at Apple came from (a) not having money and (b) not having done it before, ever. Every single thing that we came out with that was really great, I'd never once done that thing in my life.",
+      "zhMarkdown": "> 我在苹果做过的所有最好的事情，都源于（a）没有钱和（b）以前从未做过，一次都没有。我们推出的每一件真正伟大的产品，都是我人生中第一次动手做的东西。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "c6befd7e35a36ea3561abaece480f5b4310d5be5b163134342e803196e614956",
+      "enMarkdown": "When you know nothing, you have to reinvent stuff for yourself, and if you're smart your reinventions may be better than what preceded them. This is especially true in fields where the rules change. All our ideas about software were developed in a time when processors were slow, and memories and disks were tiny. Who knows what obsolete assumptions are embedded in the conventional wisdom? And the way these assumptions are going to get fixed is not by explicitly deallocating them, but by something more akin to garbage collection. Someone ignorant but smart will come along and reinvent everything, and in the process simply fail to reproduce certain existing ideas.",
+      "zhMarkdown": "当你一无所知时，你必须自己重新发明一切，如果你足够聪明，你的重新发明可能会比前人的更好。在规则发生变化的领域尤其如此。我们关于软件的所有观念，都是在处理器缓慢、内存和磁盘极小的时代发展起来的。谁知道传统观念中嵌入了多少过时的假设？而解决这些假设的方法，不是去主动卸载它们，而是更类似于垃圾回收。一个无知但聪明的人会走过来，重新发明一切，并在此过程中自然而然地过滤掉某些现有的陈旧观念。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "2ab674b92d1d275f9c1b7ee81dc82e27a727c95107800df747c8e04dc0dfc619",
+      "enMarkdown": "**Minus**",
+      "zhMarkdown": "**劣势**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "fa0ab956d58ea7bd821397f21abcaa67c63c1f3b91eb5a998f8195b23910e3fd",
+      "enMarkdown": "So much for the advantages of young founders. What about the disadvantages? I'm going to start with what goes wrong and try to trace it back to the root causes.",
+      "zhMarkdown": "年轻创始人的优势就说这么多。那么劣势呢？我将从容易出错的地方开始，并试图追溯到根源。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "88372cf3369475f1eae236d52072d327d7f9a1fcf3185a68da41a2d9f583e8b3",
+      "enMarkdown": "What goes wrong with young founders is that they build stuff that looks like class projects. It was only recently that we figured this out ourselves. We noticed a lot of similarities between the startups that seemed to be falling behind, but we couldn't figure out how to put it into words. Then finally we realized what it was: they were building class projects.",
+      "zhMarkdown": "年轻创始人最容易犯的错误是，他们做出来的东西看起来像课程设计。我们也是最近才想通这一点的。我们注意到那些似乎落后的创业公司之间有许多相似之处，但我们无法用语言来形容。最后我们终于意识到那是什么了：他们是在做课程设计。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "377c2b8699aa43500d363a2b73095cb0748162b813ef9024a109d223d4a7514b",
+      "enMarkdown": "But what does that really mean? What's wrong with class projects? What's the difference between a class project and a real startup? If we could answer that question it would be useful not just to would-be startup founders but to students in general, because we'd be a long way toward explaining the mystery of the so-called real world.",
+      "zhMarkdown": "但这究竟意味着什么？课程设计有什么问题？课程设计和真正的创业有什么区别？如果我们能回答这个问题，不仅对想要创业的人有用，对普通的学生也有用，因为我们将在解释所谓“真实世界”的奥秘上迈出一大步。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "97dbb8d7b623c2cff374d1e7a080bfbd643dfc5da18c8d64606c4c91b2341f45",
+      "enMarkdown": "There seem to be two big things missing in class projects: (1) an iterative definition of a real problem and (2) intensity.",
+      "zhMarkdown": "课程设计中似乎缺少了两个重要元素：（1）对真实问题的迭代定义，以及（2）强度。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "634569796243847c94487db0a7b09ed9c377ebcbf87743dfd709bbbedc224f32",
+      "enMarkdown": "The first is probably unavoidable. Class projects will inevitably solve fake problems. For one thing, real problems are rare and valuable. If a professor wanted to have students solve real problems, he'd face the same paradox as someone trying to give an example of whatever \"paradigm\" might succeed the Standard Model of physics. There may well be something that does, but if you could think of an example you'd be entitled to the Nobel Prize. Similarly, good new problems are not to be had for the asking.",
+      "zhMarkdown": "第一个问题可能无法避免。课程设计不可避免地会去解决虚假的问题。一方面，真实的问题是稀缺且宝贵的。如果教授想让学生解决真实的问题，他将面临与试图举例说明什么“范式”可能继承物理学标准模型的人相同的悖论。很可能确实有某种范式可以继承，但如果你能想出一个例子，你就有资格获得诺贝尔奖了。同样，好的新问题也不是一要就能有的。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "1c576bfc8a58c83f426cc51f343a8d73614a99ceff312acae6fa84a3a551b746",
+      "enMarkdown": "In technology the difficulty is compounded by the fact that real startups tend to discover the problem they're solving by a process of evolution. Someone has an idea for something; they build it; and in doing so (and probably only by doing so) they realize the problem they should be solving is another one. Even if the professor let you change your project description on the fly, there isn't time enough to do that in a college class, or a market to supply evolutionary pressures. So class projects are mostly about implementation, which is the least of your problems in a startup.",
+      "zhMarkdown": "在技术领域，这一困难更加复杂，因为真正的创业公司往往是通过演变的过程来发现他们正在解决的问题的。有人有了某个想法，做出了产品，并在此过程中（可能也只有通过这种方式）意识到他们真正应该解决的是另一个问题。即使教授允许你随时更改项目描述，在大学课堂里也没有足够的时间这样做，更没有市场来提供进化的压力。所以课程设计大多关乎执行，而这在创业中反而是最不重要的问题。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "66a48888659c730b304ee8819593033a8037bcc8a84cd0e50ce92eadaad25b8a",
+      "enMarkdown": "It's not just that in a startup you work on the idea as well as implementation. The very implementation is different. Its main purpose is to refine the idea. Often the only value of most of the stuff you build in the first six months is that it proves your initial idea was mistaken. And that's extremely valuable. If you're free of a misconception that everyone else still shares, you're in a powerful position. But you're not thinking that way about a class project. Proving your initial plan was mistaken would just get you a bad grade. Instead of building stuff to throw away, you tend to want every line of code to go toward that final goal of showing you did a lot of work.",
+      "zhMarkdown": "这不仅是因为在创业公司中，你既要琢磨想法，又要负责执行。执行本身就是不同的。它的主要目的是完善想法。通常，你在前六个月里做的大多数东西，其唯一价值就是证明你最初的想法是错误的。而这极其宝贵。如果你摆脱了其他人依然深信的误区，你就处于一个强大的位置。但你在做课程设计时不会这么想。证明你最初的计划是错误的只会让你拿个低分。你往往希望每一行代码都能朝着展示你做了很多工作的终极目标进发，而不是去写一些要扔掉的代码。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "8ae3a129200889a2af0b3bd4a14ffebd63260174552799366c43e71f040c748d",
+      "enMarkdown": "That leads to our second difference: the way class projects are measured. Professors will tend to judge you by the distance between the starting point and where you are now. If someone has achieved a lot, they should get a good grade. But customers will judge you from the other direction: the distance remaining between where you are now and the features they need. The market doesn't give a shit how hard you worked. Users just want your software to do what they need, and you get a zero otherwise. That is one of the most distinctive differences between school and the real world: there is no reward for putting in a good effort. In fact, the whole concept of a \"good effort\" is a fake idea adults invented to encourage kids. It is not found in nature.",
+      "zhMarkdown": "这引出了我们的第二个区别：课程设计的衡量方式。教授往往会根据起点和现在的距离来评判你。如果有人付出了很多努力，他们就应该拿到好成绩。但客户会从另一个方向评判你：你现在所处的位置与他们需要的功能之间的剩余距离。市场根本不在乎你工作有多努力。用户只想要你的软件能满足他们的需求，否则就是零分。这是学校和真实世界最显著的区别之一：付出“良好的努力”是没有回报的。事实上，“良好的努力”这个概念纯粹是大人为了鼓励孩子而发明出来的虚假概念，在自然界中是不存在的。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "3c02cf6842b02f8115a3d9dc12bc1d972a6e995384579b5b5555170f12a69878",
+      "enMarkdown": "Such lies seem to be helpful to kids. But unfortunately when you graduate they don't give you a list of all the lies they told you during your education. You have to get them beaten out of you by contact with the real world. And this is why so many jobs want work experience. I couldn't understand that when I was in college. I knew how to program. In fact, I could tell I knew how to program better than most people doing it for a living. So what was this mysterious \"work experience\" and why did I need it?",
+      "zhMarkdown": "这样的谎言似乎对孩子有帮助。但遗憾的是，当你毕业时，他们并不会给你一份清单，列出你在受教育期间对你撒过的所有谎。你必须通过与现实世界的碰撞，才能把这些毛病改掉。这就是为什么这么多工作都要求工作经验。我在上大学时无法理解这一点。我会写代码。事实上，我能看出来自己比大多数以此谋生的人写得更好。那么，这种神秘的“工作经验”到底是什么，为什么我需要它？"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "6c7b81139905ac9d1db1903e0497304478e94d794902683ee929f79ed6ebb1c2",
+      "enMarkdown": "Now I know what it is, and part of the confusion is grammatical. Describing it as \"work experience\" implies it's like experience operating a certain kind of machine, or using a certain programming language. But really what work experience refers to is not some specific expertise, but the elimination of certain habits left over from childhood.",
+      "zhMarkdown": "现在我知道它是什么了，部分混淆在于字面意思。将其描述为“工作经验”暗示着它就像操作某种机器或使用某种编程语言的经验。但实际上，工作经验指的并不是某种特定的专业知识，而是消除童年残留习惯的过程。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "34c9f073c9b8339034f2fb7a05c7cbe2a418994ad45c4a5f9510953e13ccc68c",
+      "enMarkdown": "One of the defining qualities of kids is that they flake. When you're a kid and you face some hard test, you can cry and say \"I can't\" and they won't make you do it. Of course, no one can make you do anything in the grownup world either. What they do instead is fire you. And when motivated by that you find you can do a lot more than you realized. So one of the things employers expect from someone with \"work experience\" is the elimination of the flake reflex—the ability to get things done, with no excuses.",
+      "zhMarkdown": "小孩子的特征之一就是掉链子。当你是个孩子，面对一些困难的考验时，你可以哭着说“我做不到”，他们就不会强迫你去做。当然，在成年人的世界里，也没人能强迫你做任何事。相反，他们会直接解雇你。在这种动力的驱使下，你会发现自己能做到的事情比你想象的多得多。所以，雇主对一个有“工作经验”的人的期望之一，就是消除掉链子的本能反应——即没有任何借口地把事情办成。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "8171b8235f579738a3c043aac1ae537e3c1782023c1bdc9977d8dc870f64f9a3",
+      "enMarkdown": "The other thing you get from work experience is an understanding of what work is, and in particular, how intrinsically horrible it is. Fundamentally the equation is a brutal one: you have to spend most of your waking hours doing stuff someone else wants, or starve. There are a few places where the work is so interesting that this is concealed, because what other people want done happens to coincide with what you want to work on. But you only have to imagine what would happen if they diverged to see the underlying reality.",
+      "zhMarkdown": "你从工作经验中获得的另一件事是理解什么是工作，尤其是理解它本质上有多么可怕。从根本上说，这个等式是残酷的：你必须把你醒着的大部分时间用来做别人想让你做的事，否则就会挨饿。有少数几个地方的工作非常有趣，以至于掩盖了这一点，因为其他人想让你做的事恰好与你想做的事重合。但你只需想象一下，如果两者发生分歧会发生什么，就能看清底层的现实。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "0e18aba1b5c2602751c5a059235b1c5636906984404ab09c91fcc4b81946bfea",
+      "enMarkdown": "It's not so much that adults lie to kids about this as never explain it. They never explain what the deal is with money. You know from an early age that you'll have some sort of job, because everyone asks what you're going to \"be\" when you grow up. What they don't tell you is that as a kid you're sitting on the shoulders of someone else who's treading water, and that starting working means you get thrown into the water on your own, and have to start treading water yourself or sink. \"Being\" something is incidental; the immediate problem is not to drown.",
+      "zhMarkdown": "大人对孩子倒不是撒谎，而是从来不解释。他们从来不解释钱是怎么一回事。你从小就知道自己将来会有某种工作，因为每个人都会问你长大后想“成为”什么。他们没告诉你的是，当你是个孩子时，你是坐在别人的肩膀上，而那个人正在水里挣扎，开始工作意味着你被独自扔进水里，必须自己开始扑腾，否则就会沉下去。“成为”什么并不重要，眼前的首要问题是不要淹死。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "c33c2bb10ad6ef916a7326fb53463f3b46a9b399ed04c9e691093cd7c97ce9b5",
+      "enMarkdown": "The relationship between work and money tends to dawn on you only gradually. At least it did for me. One's first thought tends to be simply \"This sucks. I'm in debt. Plus I have to get up on monday and go to work.\" Gradually you realize that these two things are as tightly connected as only a market can make them.",
+      "zhMarkdown": "工作与金钱之间的关系往往是逐渐在你的脑海中清晰起来的。至少对我来说是这样。一个人的第一反应往往只是“这太差劲了。我欠了债。而且我星期一还得起床去工作。”渐渐地，你意识到这两件事的紧密联系，只有市场才能把它们结合得如此紧密。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "769caa1f37fe88d6a0c743a8441934f314912bdd661dc4ad9c640c1d4bd651d8",
+      "enMarkdown": "So the most important advantage 24 year old founders have over 20 year old founders is that they know what they're trying to avoid. To the average undergrad the idea of getting rich translates into buying Ferraris, or being admired. To someone who has learned from experience about the relationship between money and work, it translates to something way more important: it means you get to opt out of the brutal equation that governs the lives of 99.9% of people. Getting rich means you can stop treading water.",
+      "zhMarkdown": "因此，24 岁的创始人比 20 岁的创始人拥有的最重要优势在于，他们知道自己想要避免什么。对于普通的本科生来说，发财的想法等同于买法拉利或被人羡慕。而对于那些从经验中了解了金钱与工作关系的人来说，它等同于一件重要得多的事：这意味着你可以跳出支配 99.9% 人口生活的残酷等式。变富意味着你可以停止在水里挣扎。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "d7b5c42fd97175fe38d4ab7d1b33446af53708b56130f784a7f858a5fd75fd5c",
+      "enMarkdown": "Someone who gets this will work much harder at making a startup succeed—with the proverbial energy of a drowning man, in fact. But understanding the relationship between money and work also changes the way you work. You don't get money just for working, but for doing things other people want. Someone who's figured that out will automatically focus more on the user. And that cures the other half of the class-project syndrome. After you've been working for a while, you yourself tend to measure what you've done the same way the market does.",
+      "zhMarkdown": "明白这一点的人会为了让创业公司成功而付出多得多的努力——实际上，就像落水者挣扎求生一样。但理解金钱与工作的关系也会改变你的工作方式。你得到钱不仅是因为你付出了劳动，更是因为你做出了别人想要的东西。想通这一点的人会自动将更多精力放在用户身上。而这正好治愈了课程设计综合症的另一半问题。在你工作了一段时间之后，你自己往往也会像市场一样去衡量你所做的事情。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "6aee91677c071b5a493c4696521e6b1fc576afad986a704b1f48483df412bd2d",
+      "enMarkdown": "Of course, you don't have to spend years working to learn this stuff. If you're sufficiently perceptive you can grasp these things while you're still in school. Sam Altman did. He must have, because Loopt is no class project. And as his example suggests, this can be valuable knowledge. At a minimum, if you get this stuff, you already have most of what you gain from the \"work experience\" employers consider so desirable. But of course if you really get it, you can use this information in a way that's more valuable to you than that.",
+      "zhMarkdown": "当然，你不需要花几年的时间工作来学习这些东西。如果你足够敏锐，在学校时就能领悟到。山姆·奥特曼就做到了。他一定做到了，因为 Loopt 绝非课程设计。正如他的例子所表明的，这可能是非常有价值的知识。起码，如果你懂了这些，你就已经拥有了雇主看重的“工作经验”中能获得的大部分收获。当然，如果你真的懂了，你可以用一种对你来说更有价值的方式来利用这些信息。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "4467a2b76e8bafa8d1d1d644ddd19df7d3da764913b652ab661f59ae9eb2a887",
+      "enMarkdown": "**Now**",
+      "zhMarkdown": "**现在**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "1d1ef6cd0ff967d5658015e239ab7d834f3ebaafbeebaf80ea0550812479b46d",
+      "enMarkdown": "So suppose you think you might start a startup at some point, either when you graduate or a few years after. What should you do now? For both jobs and grad school, there are ways to prepare while you're in college. If you want to get a job when you graduate, you should get summer jobs at places you'd like to work. If you want to go to grad school, it will help to work on research projects as an undergrad. What's the equivalent for startups? How do you keep your options maximally open?",
+      "zhMarkdown": "所以，假设你认为自己可能会在某个时候创业，要么在毕业时，要么在几年后。你现在应该做什么？无论是找工作还是读研，在大学期间都有准备的方法。如果你毕业后想找份工作，你应该在想去的地方做暑期工。如果你想去读研，作为本科生参与研究项目会有所帮助。那么创业的等效准备工作是什么？你如何才能最大程度地保留选择余地？"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "7193d8a04a05c793174500271e3c232fb8ec6595e9255dcc8a7568e883a07e02",
+      "enMarkdown": "One thing you can do while you're still in school is to learn how startups work. Unfortunately that's not easy. Few if any colleges have classes about startups. There may be business school classes on entrepreneurship, as they call it over there, but these are likely to be a waste of time. Business schools like to talk about startups, but philosophically they're at the opposite end of the spectrum. Most books on startups also seem to be useless. I've looked at a few and none get it right. Books in most fields are written by people who know the subject from experience, but for startups there's a unique problem: by definition the founders of successful startups don't need to write books to make money. As a result most books on the subject end up being written by people who don't understand it.",
+      "zhMarkdown": "在校期间，你可以做的一件事是了解创业公司是如何运作的。遗憾的是，这并不容易。几乎没有大学开设关于创业公司的课程。商学院可能会有关于创业学（他们在那边是这么称呼的）的课程，但这些课程很可能是浪费时间。商学院喜欢谈论创业，但在哲学上，他们处于光谱的对立面。大多数关于创业的书籍似乎也毫无用处。我看过几本，没有一本能说中要害。大多数领域的书都是由有经验的人写的，但对于创业公司来说，存在一个独特的问题：根据定义，成功的创业公司创始人不需要靠写书来赚钱。结果，关于这个主题的大多数书最终都是由不理解它的人写的。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "953192affe87998ee456ada3ddea8d9d9bdb38e6017562f7838aa2141f5b35d3",
+      "enMarkdown": "So I'd be skeptical of classes and books. The way to learn about startups is by watching them in action, preferably by working at one. How do you do that as an undergrad? Probably by sneaking in through the back door. Just hang around a lot and gradually start doing things for them. Most startups are (or should be) very cautious about hiring. Every hire increases the burn rate, and bad hires early on are hard to recover from. However, startups usually have a fairly informal atmosphere, and there's always a lot that needs to be done. If you just start doing stuff for them, many will be too busy to shoo you away. You can thus gradually work your way into their confidence, and maybe turn it into an official job later, or not, whichever you prefer. This won't work for all startups, but it would work for most I've known.",
+      "zhMarkdown": "所以，我对课程和书籍持怀疑态度。了解创业公司的方法是观察它们的实际行动，最好是在其中工作。作为本科生，你如何做到这一点？大概是通过走后门混进去。只要经常在他们身边转悠，逐渐开始帮他们做点事。大多数创业公司对招聘都非常（或者说应该非常）谨慎。每一次招聘都会增加资金消耗率，而且早期招错人很难恢复。然而，创业公司通常有一种相当随意的氛围，而且总是有很多事情需要做。如果你直接开始帮他们做事，许多人会忙得顾不上把你赶走。你可以这样逐渐赢得他们的信任，也许以后会变成一份正式的工作，或者不，完全取决于你的选择。这并不适用于所有创业公司，但对我所知道的大多数公司来说都是可行的。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "ce767f15cc4eb063f233416df241adfebb9106480ff96f5e224451a1a056f56a",
+      "enMarkdown": "Number two, make the most of the great advantage of school: the wealth of co-founders. Look at the people around you and ask yourself which you'd like to work with. When you apply that test, you may find you get surprising results. You may find you'd prefer the quiet guy you've mostly ignored to someone who seems impressive but has an attitude to match. I'm not suggesting you suck up to people you don't really like because you think one day they'll be successful. Exactly the opposite, in fact: you should only start a startup with someone you like, because a startup will put your friendship through a stress test. I'm just saying you should think about who you really admire and hang out with them, instead of whoever circumstances throw you together with.",
+      "zhMarkdown": "第二，充分利用学校的一大优势：丰富的联合创始人资源。看看你身边的人，问问自己最想和谁一起工作。当你应用这个标准时，你可能会发现令人惊讶的结果。你可能会发现，你更倾向于那个你大体忽略的安静家伙，而不是那个看起来引人注目但态度同样傲慢的人。我不是建议你巴结那些你并不真正喜欢的人，因为你觉得他们有一天会成功。恰恰相反：你只应该和自己喜欢的人一起创业，因为创业会考验你们的友谊。我只是说，你应该考虑你真正欣赏谁并与他们交往，而不是任由环境把你和谁推到一起。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "18cffa5e44f3f21c3929e23690ce92e6f71cb7104e446d91b742bcee1d4cec25",
+      "enMarkdown": "Another thing you can do is learn skills that will be useful to you in a startup. These may be different from the skills you'd learn to get a job. For example, thinking about getting a job will make you want to learn programming languages you think employers want, like Java and C++. Whereas if you start a startup, you get to pick the language, so you have to think about which will actually let you get the most done. If you use that test you might end up learning Ruby or Python instead.",
+      "zhMarkdown": "另一件你可以做的事是学习在创业公司中有用的技能。这些技能可能与你为了找工作而学习的技能不同。例如，为了找工作，你会想学习你认为雇主想要的编程语言，比如 Java 和 C++。而如果你创办一家创业公司，你可以自己选择语言，所以你必须考虑哪种语言实际上能让你完成最多的工作。如果你用这个标准，你最终可能会去学习 Ruby 或 Python。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "17d77198fe430eb58bd74563bebaef7fd426c1d5f5c5add15532eec016a63f75",
+      "enMarkdown": "But the most important skill for a startup founder isn't a programming technique. It's a knack for understanding users and figuring out how to give them what they want. I know I repeat this, but that's because it's so important. And it's a skill you can learn, though perhaps habit might be a better word. Get into the habit of thinking of software as having users. What do those users want? What would make them say wow?",
+      "zhMarkdown": "但对于创业公司创始人来说，最重要的技能不是编程技术。而是一种理解用户并弄清楚如何满足他们需求的诀窍。我知道我一直在重复这一点，但那是因为它太重要了。而且这是一门可以习得的技能，不过用“习惯”这个词来形容可能更合适。养成将软件视为有用户的习惯。那些用户想要什么？什么能让他们发出惊叹？"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "64ace946e5c0c78ef08b91cebf09ef1ecbe9f08d8c969f2abab69b63d3eb9b70",
+      "enMarkdown": "This is particularly valuable for undergrads, because the concept of users is missing from most college programming classes. The way you get taught programming in college would be like teaching writing as grammar, without mentioning that its purpose is to communicate something to an audience. Fortunately an audience for software is now only an http request away. So in addition to the programming you do for your classes, why not build some kind of website people will find useful? At the very least it will teach you how to write software with users. In the best case, it might not just be preparation for a startup, but the startup itself, like it was for Yahoo and Google.",
+      "zhMarkdown": "这对于本科生来说尤其有价值，因为大多数大学编程课上都缺少“用户”的概念。大学教编程的方式，就像是在教写作语法，却不提及它的目的是向读者传达某些东西。幸运的是，现在你和软件的用户之间只有一个 HTTP 请求的距离。所以，除了为课程做编程之外，为什么不建立一些人们会觉得有用的网站呢？起码它会教会你如何写出有用户的软件。在最好的情况下，它可能不仅仅是创业的准备，而是创业本身，就像雅虎和谷歌当年一样。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "43de0e888b3c8753f7ee349ca26d04ffb6a95e7521e110a4af5bd26f88c1c95a",
+      "enMarkdown": "[1] Even the desire to protect one's children seems weaker, judging from things people have historically done to their kids rather than risk their community's disapproval. (I assume we still do things that will be regarded in the future as barbaric, but historical abuses are easier for us to see.)",
+      "zhMarkdown": "[1] 从历史上人们对自己的孩子所做的事情来看，甚至保护自己孩子的愿望似乎都更微弱，而不是冒着失去社区认同的风险。（我假设我们现在做的一些事情在未来也会被视为野蛮行径，但历史上的虐待行为对我们来说更容易看清。）"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "34a7f6fc602fa80e72f27d5c043bf9ca95db068173fb65a4ddcd7475d5d11d8f",
+      "enMarkdown": "[2] Worrying that Y Combinator makes founders move for 3 months also suggests one underestimates how hard it is to start a startup. You're going to have to put up with much greater inconveniences than that.",
+      "zhMarkdown": "[2] 担心 Y Combinator 会让创始人搬家 3 个月，也说明低估了创业的难度。你将不得不忍受比这大得多的不便。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "4632b507471f2a5da7c8c8b4f5d8eae8e0bec696fc721f16239085f6faab7037",
+      "enMarkdown": "[3] Most employee agreements say that any idea relating to the company's present or potential future business belongs to them. Often as not the second clause could include any possible startup, and anyone doing due diligence for an investor or acquirer will assume the worst.",
+      "zhMarkdown": "[3] 大多数雇员协议规定，任何与公司目前或潜在未来业务相关的创意都属于公司。第二条往往可能包含任何可能的创业公司，而任何为投资者或收购方进行尽职调查的人都会做最坏的打算。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "f225aae14cb3be901cb9ae4415b95a968cd0fa98967313f3d9b4e58d51b622e2",
+      "enMarkdown": "To be safe either (a) don't use code written while you were still employed in your previous job, or (b) get your employer to renounce, in writing, any claim to the code you write for your side project. Many will consent to (b) rather than lose a prized employee. The downside is that you'll have to tell them exactly what your project does.",
+      "zhMarkdown": "为了安全起见，要么（a）不要使用在上一份工作期间写的代码，或者（b）让你的雇主书面放弃对你为副业项目编写的代码的任何权利要求。许多人宁愿同意（b）也不愿失去一个核心员工。缺点是，你必须确切地告诉他们你的项目是做什么的。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "b5364e9a809b2d07815fbb16b5e950128693787b88dc44ea1523db32ec4edcdc",
+      "enMarkdown": "[4] Geshke and Warnock only founded Adobe because Xerox ignored them. If Xerox had used what they built, they would probably never have left PARC.",
+      "zhMarkdown": "[4] 盖什克（Geshke）和沃诺克（Warnock）创办 Adobe 纯粹是因为施乐（Xerox）忽视了他们。如果施乐使用了他们开发的东西，他们可能永远不会离开 PARC。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "04b8f3de26f8126a109709721f36f6fae88b452c2f92cbda5682e81580a006d6",
+      "enMarkdown": "**Thanks** to Jessica Livingston and Robert Morris for reading drafts of this, and to Jeff Arnold and the SIPB for inviting me to speak.",
+      "zhMarkdown": "**感谢** 杰西卡·利文斯顿和罗伯特·莫里斯阅读了本文的草稿，感谢杰夫·阿诺德和 SIPB 邀请我发表演讲。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "daf8855878e428460bff07f1525b2c15d71d1d55733cb803b66d4b52f0ffc3ad",
+      "enMarkdown": "[](http://reddit.com) [Comment](http://reddit.com/info/l1xb/comments) on this essay.",
+      "zhMarkdown": "在 [reddit.com](http://reddit.com) 上[评论](http://reddit.com/info/l1xb/comments)这篇文章。"
+    }
+  ]
+}

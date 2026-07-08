@@ -1,0 +1,216 @@
+{
+  "slug": "highres",
+  "titleEn": "The High-Res Society",
+  "titleZh": "高分辨率社会",
+  "dateText": "December 2008",
+  "publishedAt": "2008-12-01",
+  "sourceOrder": 129,
+  "sourceUrl": "https://paulgraham.com/highres.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "63414998c3a7e92b87f345251213a8ac53e2e6ffbcf0dffc2e22ed012c161514",
+      "enMarkdown": "For nearly all of history the success of a society was proportionate to its ability to assemble large and disciplined organizations. Those who bet on economies of scale generally won, which meant the largest organizations were the most successful ones.",
+      "zhMarkdown": "在人类历史的绝大部分时间里，一个社会的成功与否，与其组织庞大且纪律严明的机构的能力成正比。那些押注规模经济的人通常会赢，这意味着规模最大的组织也就是最成功的组织。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2e30c9d66e45d7c379cd2601411901e12bafe53224424da512a98bbd05e40772",
+      "enMarkdown": "Things have already changed so much that this is hard for us to believe, but till just a few decades ago the largest organizations tended to be the most progressive. An ambitious kid graduating from college in 1960 wanted to work in the huge, gleaming offices of Ford, or General Electric, or NASA. Small meant small-time. Small in 1960 didn't mean a cool little startup. It meant uncle Sid's shoe store.",
+      "zhMarkdown": "如今的情况已经发生了翻天覆地的变化，以至于我们很难相信：就在几十年前，最庞大的组织往往也是最先进的。1960年，一个雄心勃勃的大学毕业生，渴望的是进入福特、通用电气或 NASA 那样宽敞明亮、光鲜亮丽的大型办公室工作。规模小意味着上不了台面。在 1960 年，规模小并不代表是一家酷炫的小型创业公司，它意味着你希德叔叔开的鞋店。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d1f34385581288c361f2b7e5d736bfc52068371a663dbb72bb6d4ca2a18a5751",
+      "enMarkdown": "When I grew up in the 1970s, the idea of the \"corporate ladder\" was still very much alive. The standard plan was to try to get into a good college, from which one would be drafted into some organization and then rise to positions of gradually increasing responsibility. The more ambitious merely hoped to climb the same ladder faster. [[1](#f1n)]",
+      "zhMarkdown": "在我成长的 20 世纪 70 年代，“企业晋升天梯”（corporate ladder）的概念依然深入人心。标准的规划是努力考上一所好大学，毕业后被选拔进某个组织，然后一步步晋升到责任更大的岗位。更有野心的人，也不过是希望能在这条天梯上爬得更快一些。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "15d51e8ba6ba812b1ca66ec15acf39eb187f9089e13c0f733d890f3cbaf6cb5b",
+      "enMarkdown": "But in the late twentieth century something changed. It turned out that economies of scale were not the only force at work. Particularly in technology, the increase in speed one could get from smaller groups started to trump the advantages of size.",
+      "zhMarkdown": "但在 20 世纪末，情况发生了变化。事实证明，规模经济并非唯一起作用的力量。特别是在技术领域，小团队所带来的速度优势，开始压倒大组织所拥有的规模优势。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "53d0e5e9fb60aa4ee5c8de403da07be2f54ae681423c2c628c08fb8f2d62f3b5",
+      "enMarkdown": "The future turned out to be different from the one we were expecting in 1970. The domed cities and flying cars we expected have failed to materialize. But fortunately so have the jumpsuits with badges indicating our specialty and rank. Instead of being dominated by a few, giant tree-structured organizations, it's now looking like the economy of the future will be a fluid network of smaller, independent units.",
+      "zhMarkdown": "未来的走向与我们在 1970 年所憧憬的截然不同。我们曾期盼的圆顶城市和飞行汽车并未实现。但幸运的是，那些印着专业和军衔徽章的制服也同样没有出现。未来的经济看起来不会再由少数几个庞大的树状组织主导，而是会变成一个由更小、更独立的单元构成的流动网络。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "fffb76469e09d60d3c668e877ed8182c0f041572da1d941e689039b95beb5c8b",
+      "enMarkdown": "It's not so much that large organizations stopped working. There's no evidence that famously successful organizations like the Roman army or the British East India Company were any less afflicted by protocol and politics than organizations of the same size today. But they were competing against opponents who couldn't change the rules on the fly by discovering new technology. Now it turns out the rule \"large and disciplined organizations win\" needs to have a qualification appended: \"at games that change slowly.\" No one knew till change reached a sufficient speed.",
+      "zhMarkdown": "这倒不是因为大组织不再起作用了。没有证据表明，像罗马军队或英国东印度公司这样闻名遐迩的成功组织，其官僚程序和内部政治会比今天同等规模的组织少。但它们当时的对手，同样无法通过发现新技术来随时改变游戏规则。现在看来，“庞大且纪律严明的组织会赢”这条规则需要加上一个限制条件：“在变化缓慢的游戏中”。在变化达到足够的速度之前，没有人意识到这一点。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "861d9b67f4082d9a10b48b2cd6e159d0f3233c9fb423b5585e3b53b275620912",
+      "enMarkdown": "Large organizations *will* start to do worse now, though, because for the first time in history they're no longer getting the best people. An ambitious kid graduating from college now doesn't want to work for a big company. They want to work for the hot startup that's rapidly growing into one. If they're really ambitious, they want to start it. [[2](#f2n)]",
+      "zhMarkdown": "不过，大组织现在*确实*会开始走下坡路，因为历史上有史以来第一次，它们无法再吸引到最优秀的人才。现在一个雄心勃勃的大学毕业生不想去大公司工作了。他们想去那些正在迅速成长为大公司的热门创业公司。如果他们真的野心勃勃，他们会选择自己创业。[[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4797d080672a5a1b58de6da438770890d254871d78a1ebce31f7426d65ae0e0b",
+      "enMarkdown": "This doesn't mean big companies will disappear. To say that startups will succeed implies that big companies will exist, because startups that succeed either become big companies or are acquired by them. [[3](#f3n)] But large organizations will probably never again play the leading role they did up till the last quarter of the twentieth century.",
+      "zhMarkdown": "这并不意味着大公司会消失。说创业公司会取得成功，本身就意味着大公司将继续存在，因为成功的创业公司要么自己成长为大公司，要么被大公司收购。[[3](#f3n)] 但大组织可能再也无法扮演它们在 20 世纪最后二十五年里所主导的领袖角色了。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "cf686fe6b5294aa3406e5245e82b371e9a242072fe5791edf4f04f0d149090b7",
+      "enMarkdown": "It's kind of surprising that a trend that lasted so long would ever run out. How often does it happen that a rule works for thousands of years, then switches polarity?",
+      "zhMarkdown": "一个持续了如此之久的趋势竟然会走向终结，这实在令人有些惊讶。一条行之数千年的法则，突然之间发生两极反转，这种事情能有多少次？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "31578e6084af7d20ab0adff917d39a8926e3263666fe51b6f1346bcbfd42aa97",
+      "enMarkdown": "The millennia-long run of bigger-is-better left us with a lot of [traditions](https://paulgraham.com/credentials.html) that are now obsolete, but extremely deeply rooted. Which means the ambitious can now do arbitrage on them. It will be very valuable to understand precisely which ideas to keep and which can now be discarded.",
+      "zhMarkdown": "长达数千年的“越大越好”的观念给我们留下了许多如今已经过时、却根深蒂固的[传统](https://paulgraham.com/credentials.html)。这意味着有雄心的人现在可以对这些传统进行套利。准确理解哪些观念应该保留、哪些可以丢弃，将极具价值。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5f52920b3f1a4b43181bc7b6e6c9e83d71662db61b9f566871d9121356d37f2f",
+      "enMarkdown": "The place to look is where the spread of smallness began: in the world of startups.",
+      "zhMarkdown": "我们应当去“小规模”潮流兴起的地方寻找答案：那就是创业公司的世界。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "00cc1a1c16fecae8b9106c047d1be8e55af963b90f27dc5af0993e9b52324479",
+      "enMarkdown": "There have always been occasional cases, particularly in the US, of ambitious people who grew the ladder under them instead of climbing it. But till recently this was an anomalous route that tended to be followed only by outsiders. It was no coincidence that the great industrialists of the nineteenth century had so little formal education. As huge as their companies eventually became, they were all essentially mechanics and shopkeepers at first. That was a social step no one with a college education would take if they could avoid it. Till the rise of technology startups, and in particular, Internet startups, it was very unusual for educated people to start their own businesses.",
+      "zhMarkdown": "过去也偶尔会出现一些特例（尤其是在美国），一些野心勃勃的人没有去攀爬现成的天梯，而是在自己脚下搭建天梯。但直到最近，这依然是一条非主流的道路，往往只有局外人才会走。19 世纪伟大的实业家们极少受过正规教育，这绝非偶然。尽管他们的公司最终变得庞大无比，但他们起初本质上都是机械工和店主。在当时，任何受过大学教育的人，只要能有别的选择，都不会踏出这带有社会阶层倒退意味的一步。直到技术创业公司，特别是互联网创业公司的兴起，受过良好教育的人去创办自己的公司才变得普遍起来。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "139d244b26ef4797c9dd751827139d797f9e7aac63f3b0bd105a4beee72f1cd2",
+      "enMarkdown": "The eight men who left Shockley Semiconductor to found Fairchild Semiconductor, the original Silicon Valley startup, weren't even trying to start a company at first. They were just looking for a company willing to hire them as a group. Then one of their parents introduced them to a small investment bank that offered to find funding for them to start their own, so they did. But starting a company was an alien idea to them; it was something they backed into. [[4](#f4n)]",
+      "zhMarkdown": "离开肖克利半导体创办仙童半导体（硅谷创业公司的鼻祖）的“八叛逆”，起初甚至根本没想过要创办一家公司。他们当时只是想找一家愿意整体录用他们的公司。后来，其中一人的家长把他们介绍给了一家小型投资银行，对方提出可以帮他们寻找资金来自己创业，他们这才付诸行动。但对他们来说，创办公司是一个极其陌生的概念，他们完全是误打误撞走上这条路的。[[4](#f4n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "ed3c96e16682a5e3e6a7755fda1c569ec66c2ac82fa28cf28f33eca246915044",
+      "enMarkdown": "Now I would guess that practically every Stanford or Berkeley undergrad who knows how to program has at least considered the idea of starting a startup. East Coast universities are not far behind, and British universities only a little behind them. This pattern suggests that attitudes at Stanford and Berkeley are not an anomaly, but a leading indicator. This is the way the world is going.",
+      "zhMarkdown": "现在我敢说，斯坦福或伯克利每一个懂编程的本科生，都至少考虑过创办一家创业公司。东海岸的大学也不甘落后，英国的大学也仅稍逊一筹。这种模式表明，斯坦福和伯克利的学生态度并非特例，而是一个先行指标。这正是世界未来的走向。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7ded0319a54c3f6aa52c0f67e62f93fcdf2c62d8d0c0d5d1e4dfb25e53139c95",
+      "enMarkdown": "Of course, Internet startups are still only a fraction of the world's economy. Could a trend based on them be that powerful?",
+      "zhMarkdown": "当然，互联网创业公司目前仍只占世界经济的一小部分。一个基于它们的趋势，能有这么强大的力量吗？"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "3c4730a08e02b0384718ba837d9d2c64872a4a4b33d272caea418f0521fe0dcb",
+      "enMarkdown": "I think so. There's no reason to suppose there's any limit to the amount of work that could be done in this area. Like science, wealth seems to expand fractally. Steam power was a sliver of the British economy when Watt started working on it. But his work led to more work till that sliver had expanded into something bigger than the whole economy of which it had initially been a part.",
+      "zhMarkdown": "我认为可以。没有理由认为这个领域能做的事情存在上限。就像科学一样，财富似乎是以分形（fractally）的方式扩张的。当瓦特开始研究蒸汽机时，蒸汽动力在英国经济中只占微乎其微的一小部分。但他的工作引发了连锁反应，最终使这一小部分扩张得比原本容纳它的整个经济体还要庞大。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "8a167b243ce29a8a500a5896493757a6910e4ef45f16cbc3fcf664fcab189444",
+      "enMarkdown": "The same thing could happen with the Internet. If Internet startups offer the best opportunity for ambitious people, then a lot of ambitious people will start them, and this bit of the economy will balloon in the usual fractal way.",
+      "zhMarkdown": "同样的事情也可能发生在互联网上。如果互联网创业公司为有雄心的人提供了最好的机会，那么大量有雄心的人就会去创业，这部分经济就会以典型的分形方式急剧膨胀。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7d705e950df8b10a637c78e9d597b29f929956cff8de7c3d774f41abd3408975",
+      "enMarkdown": "Even if Internet-related applications only become a tenth of the world's economy, this component will set the tone for the rest. The most dynamic part of the economy always does, in everything from salaries to standards of dress. Not just because of its prestige, but because the principles underlying the most dynamic part of the economy tend to be ones that work.",
+      "zhMarkdown": "即使与互联网相关的应用最终只占世界经济的十分之一，这部分也将为其余部分奠定基调。经济中最具活力的部分总是起着引领作用，从薪酬水平到着装标准皆是如此。这不仅是因为它的声望，更是因为支撑这部分最具活力经济的原则，往往行之有效。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "25d7b01b98178224904f2c356a5e29956baa79a8f4286fa37e187310a1affd10",
+      "enMarkdown": "For the future, the trend to bet on seems to be networks of small, autonomous groups whose performance is measured individually. And the societies that win will be the ones with the least impedance.",
+      "zhMarkdown": "展望未来，值得押注的趋势似乎是由小型、自治群体构成的网络，且每个群体的绩效都独立衡量。而最终胜出的社会，将是那些内部阻抗最小的社会。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "d6561f9fe2fa68a15748d82474227dc213d87b61a4f698eb206b8db0e0bed7cc",
+      "enMarkdown": "As with the original industrial revolution, some societies are going to be better at this than others. Within a generation of its birth in England, the Industrial Revolution had spread to continental Europe and North America. But it didn't spread everywhere. This new way of doing things could only take root in places that were prepared for it. It could only spread to places that already had a vigorous middle class.",
+      "zhMarkdown": "就像最初的工业革命一样，某些社会在适应这种变化方面会比其他社会做得更好。工业革命在英国诞生后，一代人的时间里就传到了欧洲大陆和北美。但它并没有传到所有地方。这种全新的做事方式只能在做好了准备的地方生根发芽，只能传播到那些已经拥有充满活力的中产阶级的地方。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "e557fd33cbdf49628c535cf7b2bce986fcf0a2a53c3cac27a059ca46604ed23f",
+      "enMarkdown": "There is a similar social component to the transformation that began in Silicon Valley in the 1960s. Two new kinds of techniques were developed there: techniques for building integrated circuits, and techniques for building a new type of company designed to grow fast by creating new technology. The techniques for building integrated circuits spread rapidly to other countries. But the techniques for building startups didn't. Fifty years later, startups are ubiquitous in Silicon Valley and common in a handful of other US cities, but they're still an anomaly in most of the world.",
+      "zhMarkdown": "20 世纪 60 年代始于硅谷的这场变革，也有着类似的社会因素。那里发展出了两类新技术：一类是制造集成电路的技术，另一类则是建立一种旨在通过创造新技术来实现快速增长的新型公司的技术。制造集成电路的技术迅速传到了其他国家，但建立创业公司的技术却并非如此。五十年后，创业公司在硅谷无处不在，在美国其他少数几个城市也很常见，但在世界上大多数地方，它们依然是个异类。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "36db3570bc2c78db627a84ae2cfc07c0c5f033fdd6fb3ef801b92c9dc6202e6f",
+      "enMarkdown": "Part of the reason—possibly the main reason—that startups have not spread as broadly as the Industrial Revolution did is their social disruptiveness. Though it brought many social changes, the Industrial Revolution was not fighting the principle that bigger is better. Quite the opposite: the two dovetailed beautifully. The new industrial companies adapted the customs of existing large organizations like the military and the civil service, and the resulting hybrid worked well. \"Captains of industry\" issued orders to \"armies of workers,\" and everyone knew what they were supposed to do.",
+      "zhMarkdown": "创业公司没有像工业革命那样广泛传播，部分原因——可能也是最主要的原因——在于它们对社会秩序的颠覆性。工业革命虽然带来了许多社会变革，但它并没有挑战“越大越好”的原则。恰恰相反，两者契合得天衣无缝。新型工业公司直接套用了军队和文官政府等现有大型组织的习惯，融合产生的新模式运转良好。“工业巨头”向“工人阶级大军”下达命令，每个人都清楚自己该做什么。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "f3b60c74061e9fc416bfbbd1040a99705d2c9ba6fe49f5599cfec9a58ed75ab8",
+      "enMarkdown": "Startups seem to go more against the grain, socially. It's hard for them to flourish in societies that value hierarchy and stability, just as it was hard for industrialization to flourish in societies ruled by people who stole at will from the merchant class. But there were already a handful of countries past that stage when the Industrial Revolution happened. There do not seem to be that many ready this time.",
+      "zhMarkdown": "而在社会层面，创业公司似乎更违背传统。在重视等级制度和稳定的社会中，创业公司很难蓬勃发展，这就像在统治者随意掠夺商人阶层财产的社会里，工业化很难兴起一样。但在工业革命发生时，已经有少数几个国家跨越了那个阶段。而这一次，似乎并没有那么多国家做好了准备。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "93393602b6a26fd9763321af9f92367ae67b32fc501ff3fa4b2e1ea11ae0358a",
+      "enMarkdown": "[1] One of the bizarre consequences of this model was that the usual way to make more money was to become a manager. This is one of the things startups fix.",
+      "zhMarkdown": "[1] 这种模式导致的一个荒谬后果是，过去想要赚更多钱的常规途径是成为一名管理者。这也是创业公司所解决的问题之一。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "00c2d695138b7d22636db256bc5ec6d331e34e895cbeef03a6133bf4590fbc6c",
+      "enMarkdown": "[2] There are a lot of reasons American car companies have been doing so much worse than Japanese car companies, but at least one of them is a cause for optimism: American graduates have more options.",
+      "zhMarkdown": "[2] 美国汽车公司表现比日本汽车公司差得多有很多原因，但其中至少有一个原因令人感到乐观：美国的毕业生有更多的选择。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "862f37ac13e3c48fb36b942771f158a70557336e0adb2e86b71b281377285688",
+      "enMarkdown": "[3] It's possible that companies will one day be able to grow big in revenues without growing big in people, but we are not very far along that trend yet.",
+      "zhMarkdown": "[3] 也许有一天，公司能够在不增加员工人数的情况下实现收入的巨幅增长，但我们离这一趋势还很遥远。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "a1e9ad16b5a257b5d04899eb0f6fa177d7bfaeaff20200e863bbea91df5b0f9b",
+      "enMarkdown": "[4] Lecuyer, Christophe, *Making Silicon Valley*, MIT Press, 2006.",
+      "zhMarkdown": "[4] Lecuyer, Christophe, *Making Silicon Valley*, MIT Press, 2006."
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "a82c7aed7ba28ec3ced8af557404aa36b0a6a8507ffde7760ac3698c9f272975",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Paul Buchheit, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Paul Buchheit、Jessica Livingston 和 Robert Morris 阅读本文的草稿。"
+    }
+  ]
+}

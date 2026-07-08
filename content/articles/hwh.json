@@ -1,0 +1,384 @@
+{
+  "slug": "hwh",
+  "titleEn": "How to Work Hard",
+  "titleZh": "如何努力工作",
+  "dateText": "June 2021",
+  "publishedAt": "2021-06-01",
+  "sourceOrder": 28,
+  "sourceUrl": "https://paulgraham.com/hwh.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ba415ec2948003720dbcf734337a035b5885c12a0ed26ae4755f3677c09dd753",
+      "enMarkdown": "It might not seem there's much to learn about how to work hard. Anyone who's been to school knows what it entails, even if they chose not to do it. There are 12 year olds who work amazingly hard. And yet when I ask if I know more about working hard now than when I was in school, the answer is definitely yes.",
+      "zhMarkdown": "关于如何努力工作，似乎并没有太多需要学习的。任何上过学的人都知道这意味着什么，哪怕他们选择不努力。有些 12 岁的孩子工作起来拼命得令人惊叹。然而，当我问自己，现在对努力工作的理解是否比上学时更多，答案绝对是肯定的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "09f6238cab61f86af094b633a2f14b151da48c0febaeb82b23cc238d009f1d28",
+      "enMarkdown": "One thing I know is that if you want to do great things, you'll have to work very hard. I wasn't sure of that as a kid. Schoolwork varied in difficulty; one didn't always have to work super hard to do well. And some of the things famous adults did, they seemed to do almost effortlessly. Was there, perhaps, some way to evade hard work through sheer brilliance? Now I know the answer to that question. There isn't.",
+      "zhMarkdown": "我明白的一件事是，如果你想做出伟大的成就，就必须付出极大的努力。小时候我对此并不确定。学校的功课难易不一，要想取得好成绩，并不总是需要拼命努力。而且，一些名人做起事来，似乎毫不费力。难道有什么方法，能靠着绝顶聪明来逃避艰苦的努力吗？现在我知道这个问题的答案了：没有。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "670250f57241267c13a0058a0a06a903ea12600d761247d0513c0d8632145a0f",
+      "enMarkdown": "The reason some subjects seemed easy was that my school had low standards. And the reason famous adults seemed to do things effortlessly was years of practice; they made it look easy.",
+      "zhMarkdown": "有些科目之所以显得容易，是因为我学校的标准太低。而那些名人之所以看起来毫不费力，是因为他们经过了多年的练习，从而显得举重若轻。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "3b88d4820a98c8d56bf7acdabc883d7fc36085ee4108df21fdceec20f660d9c3",
+      "enMarkdown": "Of course, those famous adults usually had a lot of natural ability too. There are three ingredients in great work: natural ability, practice, and effort. You can do pretty well with just two, but to do the best work you need all three: you need great natural ability *and* to have practiced a lot *and* to be trying very hard. [[1](#f1n)]",
+      "zhMarkdown": "当然，这些名人通常也极具天赋。做出伟大成就包含三个要素：天赋、练习和努力。仅靠其中两个你就能做得相当不错，但要做出最顶尖的成果，三者缺一不可：你必须有极高的天赋，*并且*经过大量练习，*并且*极其努力。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "637b664048b6f5b6f84073ff08c99212edb623d6dece9b3c277fe6132e28c862",
+      "enMarkdown": "Bill Gates, for example, was among the smartest people in business in his era, but he was also among the hardest working. \"I never took a day off in my twenties,\" he said. \"Not one.\" It was similar with Lionel Messi. He had great natural ability, but when his youth coaches talk about him, what they remember is not his talent but his dedication and his desire to win. P. G. Wodehouse would probably get my vote for best English writer of the 20th century, if I had to choose. Certainly no one ever made it look easier. But no one ever worked harder. At 74, he wrote",
+      "zhMarkdown": "例如，比尔·盖茨是他那个时代商业界最聪明的人之一，但他也是最努力的人之一。“我在二十多岁时从未放过一天假，”他说，“一天都没有。”里奥·梅西也是如此。他有着超凡的天赋，但当他年轻时的教练谈起他时，他们记住的不是他的天赋，而是他的专注和对胜利的渴望。如果要我选出 20 世纪最伟大的英文作家，我可能会投 P. G. 伍德豪斯一票。当然，没有人比他写得更显得轻松自如。但也没有人比他更努力。在 74 岁时，他写道："
+    },
+    {
+      "id": 6,
+      "type": "quote",
+      "sourceHash": "017af7097e2eecb0bf9b467c0cff27d3388c6a2e40e60106fc6a057106ce8530",
+      "enMarkdown": "> with each new book of mine I have, as I say, the feeling that this time I have picked a lemon in the garden of literature. A good thing, really, I suppose. Keeps one up on one's toes and makes one rewrite every sentence ten times. Or in many cases twenty times.",
+      "zhMarkdown": "> 正如我所说，每写一本新书，我都会有一种感觉，觉得自己这次在文学的花园里摘到了一颗烂柠檬。不过我想，这其实是件好事。它能让人保持警惕，促使你把每个句子重写十遍。很多时候甚至是二十遍。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "0098ae54ae39476973c0c4db043081bfb94fc4d98ab0b576e52c92340e0e2f22",
+      "enMarkdown": "Sounds a bit extreme, you think. And yet Bill Gates sounds even more extreme. Not one day off in ten years? These two had about as much natural ability as anyone could have, and yet they also worked about as hard as anyone could work. You need both.",
+      "zhMarkdown": "你可能会觉得这有点极端。然而比尔·盖茨听起来甚至更极端。十年里一天也不休息？这两人的天赋几乎达到了人类的极限，但他们付出的努力也同样达到了人类的极限。你两者都需要。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "3b4be561b5b303a6687805b9bb5d682de67989fa1816ef0eb30cae5794f753c8",
+      "enMarkdown": "That seems so obvious, and yet in practice we find it slightly hard to grasp. There's a faint xor between talent and hard work. It comes partly from popular culture, where it seems to run very deep, and partly from the fact that the outliers are so rare. If great talent and great drive are both rare, then people with both are rare squared. Most people you meet who have a lot of one will have less of the other. But you'll need both if you want to be an outlier yourself. And since you can't really change how much natural talent you have, in practice doing great work, insofar as you can, reduces to working very hard.",
+      "zhMarkdown": "这看起来如此显而易见，但在实践中，我们却有些难以理解。在天赋和努力之间，似乎存在着一种隐约的互斥关系。这部分源于流行文化——这种观念在其中根深蒂固；部分源于极端杰出的人实在太罕见了。如果极高的天赋和极强的动力都很罕见，那么兼具两者的人就是罕见的平方。你遇到的大多数在某一方面很突出的人，在另一方面往往稍逊一筹。但如果你想成为那个特立独行的杰出者，你就必须两者兼备。既然你无法真正改变自己天赋的多寡，那么在实践中，尽可能做出伟大成就，最终就简化为了努力工作。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "f3bb111c7a2dc1e0d38871f76ce9c632dc357542950efe0b45f224176c6be04c",
+      "enMarkdown": "It's straightforward to work hard if you have clearly defined, externally imposed goals, as you do in school. There is some technique to it: you have to learn not to lie to yourself, not to procrastinate (which is a form of lying to yourself), not to get distracted, and not to give up when things go wrong. But this level of discipline seems to be within the reach of quite young children, if they want it.",
+      "zhMarkdown": "如果目标明确且由外部强加，就像在学校里那样，努力工作就变得很简单。这其中确实有一些技巧：你必须学会不自欺欺人、不拖延（这也是自欺欺人的一种形式）、不分心，以及在遇到挫折时不轻言放弃。但只要孩子们自己愿意，这种程度的自律似乎在很小的时候就能做到。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d532e9811c4844922d975c5fc06374b1394c77d7aa5c063c481e68e42804319c",
+      "enMarkdown": "What I've learned since I was a kid is how to work toward goals that are neither clearly defined nor externally imposed. You'll probably have to learn both if you want to do really great things.",
+      "zhMarkdown": "自小时候起，我所学到的是如何朝着既不明确也不是外部强加的目标去努力。如果你想做出真正伟大的成就，你可能必须学会这两点。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "1875e04c8a8520e1ad678e5eafdd5dccb1b393635520ce58c5b26b94b524ba10",
+      "enMarkdown": "The most basic level of which is simply to feel you should be working without anyone telling you to. Now, when I'm not working hard, alarm bells go off. I can't be sure I'm getting anywhere when I'm working hard, but I can be sure I'm getting nowhere when I'm not, and it feels awful. [[2](#f2n)]",
+      "zhMarkdown": "最基本的一点是，在没有任何人要求你的情况下，自觉感到自己应该去工作。现在，当我不努力工作时，我心里就会拉响警报。当我努力工作时，我无法确定自己是否在取得进展；但我可以肯定，当我不努力时，我绝对毫无进展，那种感觉糟糕透了。[[2](#f2n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "bc2620831659ef0b74d5e6b4eeead7cedd436d792cfdf80bd4e907cc5ffd496b",
+      "enMarkdown": "There wasn't a single point when I learned this. Like most little kids, I enjoyed the feeling of achievement when I learned or did something new. As I grew older, this morphed into a feeling of disgust when I wasn't achieving anything. The one precisely dateable landmark I have is when I stopped watching TV, at age 13.",
+      "zhMarkdown": "我并不是在某个特定时刻明白这一点的。像大多数小孩子一样，当学到新知识或做出新东西时，我喜欢那种成就感。随着年龄增长，这种感觉演变成了一种不做出点什么就会产生的厌恶感。我唯一能确定具体日期的里程碑，是在 13 岁那年，我彻底不看电视了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c62b22c6a59088b40b0fe32db8d97378176ec517ecdde62459d4c7869e4f925d",
+      "enMarkdown": "Several people I've talked to remember getting serious about work around this age. When I asked Patrick Collison when he started to find idleness distasteful, he said",
+      "zhMarkdown": "我聊过的几个人都记得，自己大概在这个年纪开始对工作认真起来。当我问帕特里克·科里森（Patrick Collison）是从什么时候开始觉得无所事事令人难以忍受时，他说："
+    },
+    {
+      "id": 14,
+      "type": "quote",
+      "sourceHash": "43ddee8b05e6936fbce3635f2d6c74cd75f8299dbdc088a2384023f17f8cc3a3",
+      "enMarkdown": "> I think around age 13 or 14. I have a clear memory from around then of sitting in the sitting room, staring outside, and wondering why I was wasting my summer holiday.",
+      "zhMarkdown": "> 我想大概在 13 或 14 岁。我清晰地记得，那时我坐在客厅里，望着窗外，心想自己为什么要虚度暑假。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5ad13b15cc91df080d13deccb92c652debd54cf5d5b2ef53220795f0904876fd",
+      "enMarkdown": "Perhaps something changes at adolescence. That would make sense.",
+      "zhMarkdown": "也许在青春期，人会发生某些变化。这很合乎逻辑。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "49d86d15772ab3ac046a21064595bef4c80c98100b183651b8224d9e12c4f040",
+      "enMarkdown": "Strangely enough, the biggest obstacle to getting serious about work was probably school, which made work (what they called work) seem boring and pointless. I had to learn what real work was before I could wholeheartedly desire to do it. That took a while, because even in college a lot of the work is pointless; there are entire departments that are pointless. But as I learned the shape of real work, I found that my desire to do it slotted into it as if they'd been made for each other.",
+      "zhMarkdown": "说来也怪，认真对待工作的最大障碍可能恰恰是学校，它让工作（他们口中的“工作”）显得枯燥而毫无意义。在能够全心全意渴望工作之前，我必须先弄清楚什么是真正的工作。这花了我不少时间，因为即使在大学里，很多工作也毫无意义，甚至有些整个院系都是多余的。但当我逐渐摸清了真正工作的轮廓时，我发现自己对它的渴望与它完美契合，仿佛它们天生就是一对。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "93e414a932b392ffdaebe31f54d02db55d6f155c1d9e13b205ce2682d505c8af",
+      "enMarkdown": "I suspect most people have to learn what work is before they can love it. Hardy wrote eloquently about this in *A Mathematician's\nApology*:",
+      "zhMarkdown": "我怀疑大多数人在热爱工作之前，都必须先弄清楚工作到底是什么。哈代在《一个数学家的自白》中对此有过精彩的阐述："
+    },
+    {
+      "id": 18,
+      "type": "quote",
+      "sourceHash": "c16bfe63418df634cc3bc83c5d83fd2c9f3dbd0ed053d7d42c33b380ae6c6ff7",
+      "enMarkdown": "> I do not remember having felt, as a boy, any *passion* for mathematics, and such notions as I may have had of the career of a mathematician were far from noble. I thought of mathematics in terms of examinations and scholarships: I wanted to beat other boys, and this seemed to be the way in which I could do so most decisively.",
+      "zhMarkdown": "> 我不记得自己小时候对数学有什么*热情*，而我当时对数学家这一职业的理解也谈不上崇高。我眼中的数学就是考试和奖学金：我想打败其他男孩子，而数学似乎是我能最彻底击败他们的方式。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "1825a5ab34b4a6b4053205a55a80714cf2d4115c55cecf54fbdbd01281e6e6b2",
+      "enMarkdown": "He didn't learn what math was really about till part way through college, when he read Jordan's *Cours d'analyse*.",
+      "zhMarkdown": "直到大学读到一半，阅读了约旦的《分析教程》（*Cours d'analyse*）后，他才真正明白数学是怎么一回事。"
+    },
+    {
+      "id": 20,
+      "type": "quote",
+      "sourceHash": "49c2a62682be643550bf4d5b7ec6b2910b1a815c6346ea4ba6466e5d11b08090",
+      "enMarkdown": "> I shall never forget the astonishment with which I read that remarkable work, the first inspiration for so many mathematicians of my generation, and learnt for the first time as I read it what mathematics really meant.",
+      "zhMarkdown": "> 我永远不会忘记阅读那部杰作时的惊愕，那是我们这一代许多数学家的启蒙之作，我第一次在阅读中领悟了数学的真正含义。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "2429c1d01354815cfe62b2959716336d81e5389da62faf5a5e8fedb82bc80852",
+      "enMarkdown": "There are two separate kinds of fakeness you need to learn to discount in order to understand what real work is. One is the kind Hardy encountered in school. Subjects get distorted when they're adapted to be taught to kids — often so distorted that they're nothing like the work done by actual practitioners. [[3](#f3n)] The other kind of fakeness is intrinsic to certain types of work. Some types of work are inherently bogus, or at best mere busywork.",
+      "zhMarkdown": "为了理解什么是真正的工作，你需要学会剔除两种不同的“虚假”。一种是哈代在学校里遇到的那种。当一门学科为了教给孩子而被改编时，往往会被扭曲——通常扭曲到与实际从业者的工作毫无共同之处。[[3](#f3n)] 另一种虚假则是某些工作本身固有的。有些类型的工作本质上就是虚伪的，或者充其量只是装模作样的忙碌。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "5077b84dfcca6c31ccf6542f00f5b19fb07b05aa78013c9bfd68472a8776fdb3",
+      "enMarkdown": "There's a kind of solidity to real work. It's not all writing the *Principia*, but it all feels necessary. That's a vague criterion, but it's deliberately vague, because it has to cover a lot of different types. [[4](#f4n)]",
+      "zhMarkdown": "真正的工作有一种坚实感。它不一定非得是写出《自然哲学的数学原理》那样的巨著，但它都让人觉得必不可少。这是一个模糊的标准，但这种模糊是刻意为之的，因为它必须涵盖许多不同的类型。[[4](#f4n)]"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "effbf63d2a33c946ca7401ba60d109dab08097798b42d2b78fc79eac1c4a4bad",
+      "enMarkdown": "Once you know the shape of real work, you have to learn how many hours a day to spend on it. You can't solve this problem by simply working every waking hour, because in many kinds of work there's a point beyond which the quality of the result will start to decline.",
+      "zhMarkdown": "一旦了解了真正工作的轮廓，你就必须学会每天在这上面花多少小时。你不能简单地通过在所有清醒的时间里工作来解决这个问题，因为在许多类型的工作中，超过某一点后，结果的质量就会开始下降。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "b9046feb3a9db00a8bff68a0f13deca4e0b651b4f60197e6288c3c4746e50fe6",
+      "enMarkdown": "That limit varies depending on the type of work and the person. I've done several different kinds of work, and the limits were different for each. My limit for the harder types of writing or programming is about five hours a day. Whereas when I was running a startup, I could work all the time. At least for the three years I did it; if I'd kept going much longer, I'd probably have needed to take occasional vacations. [[5](#f5n)]",
+      "zhMarkdown": "这个极限因工作类型和个人而异。我做过几种不同类型的工作，每种工作的极限都不同。对于较难的写作或编程，我的极限是每天大约五小时。而当我经营一家创业公司时，我可以没完没了地工作。至少在我做的三年里是这样；如果我坚持更长的时间，我可能需要偶尔休个假。[[5](#f5n)]"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "b13f42d1a6b737efcf7c91aedff3576a213a0c65e28b7e944191342e9df136d7",
+      "enMarkdown": "The only way to find the limit is by crossing it. Cultivate a sensitivity to the quality of the work you're doing, and then you'll notice if it decreases because you're working too hard. Honesty is critical here, in both directions: you have to notice when you're being lazy, but also when you're working too hard. And if you think there's something admirable about working too hard, get that idea out of your head. You're not merely getting worse results, but getting them because you're showing off — if not to other people, then to yourself. [[6](#f6n)]",
+      "zhMarkdown": "找到极限的唯一方法就是跨越它。培养对工作质量的敏感度，这样你就会注意到，是否因为工作过度而导致质量下降。在这里，诚实至关重要，而且是双向的：你必须注意到自己什么时候在偷懒，但也要注意到自己什么时候工作过度。如果你觉得过度工作有什么值得标榜的，赶紧打消这个念头。你不仅得到了更差的结果，而且还是因为你在炫耀才得到这些结果的——即使不是向别人炫耀，也是向你自己。[[6](#f6n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e3f18c69f7e065e9101e2fe49fd2fd5783faeb749c2e8e377c49285ab45c71e7",
+      "enMarkdown": "Finding the limit of working hard is a constant, ongoing process, not something you do just once. Both the difficulty of the work and your ability to do it can vary hour to hour, so you need to be constantly judging both how hard you're trying and how well you're doing.",
+      "zhMarkdown": "寻找努力工作的极限是一个持续不断的动态过程，而不是一劳永逸的事情。工作的难度和你的工作能力每小时都在变化，因此你需要不断评估自己付出了多少努力以及做得有多好。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "0b9c605f30e06335f9f79ee64060d5775641a16953663990a34509c1cddd1b55",
+      "enMarkdown": "Trying hard doesn't mean constantly pushing yourself to work, though. There may be some people who do, but I think my experience is fairly typical, and I only have to push myself occasionally when I'm starting a project or when I encounter some sort of check. That's when I'm in danger of procrastinating. But once I get rolling, I tend to keep going.",
+      "zhMarkdown": "不过，努力并不意味着不断强迫自己去工作。也许有人是这样，但我认为我的经历相当典型：我只需要在项目开始或遇到某种阻碍时，偶尔推自己一把。那是容易产生拖延的危险时刻。但一旦运转起来，我往往就能保持状态继续下去。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "935198e3319579eacdd1e35122e52388b091d1629d4eefe6979f5e9bf6286252",
+      "enMarkdown": "What keeps me going depends on the type of work. When I was working on Viaweb, I was driven by fear of failure. I barely procrastinated at all then, because there was always something that needed doing, and if I could put more distance between me and the pursuing beast by doing it, why wait? [[7](#f7n)] Whereas what drives me now, writing essays, is the flaws in them. Between essays I fuss for a few days, like a dog circling while it decides exactly where to lie down. But once I get started on one, I don't have to push myself to work, because there's always some error or omission already pushing me.",
+      "zhMarkdown": "是什么让我坚持下去，取决于工作的类型。当我做 Viaweb 时，我是被对失败的恐惧驱使的。那时我几乎从不拖延，因为总有事情需要做，如果我能通过做这件事来拉开我和后面追赶的野兽之间的距离，那为什么要等待呢？[[7](#f7n)] 而现在写文章驱动我的，是文章中的瑕疵。在写完一篇文章到开始下一篇之间，我会焦躁几天，就像一只狗在转圈，决定到底躺在哪里。但一旦开始动笔，我就不需要强迫自己去工作了，因为总有这样那样的错误或遗漏在推着我往前走。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "0ad15259eccdd18cade05405a535c895c2bacea25c6ca88e57cb86411da47f38",
+      "enMarkdown": "I do make some amount of effort to focus on important topics. Many problems have a hard core at the center, surrounded by easier stuff at the edges. Working hard means aiming toward the center to the extent you can. Some days you may not be able to; some days you'll only be able to work on the easier, peripheral stuff. But you should always be aiming as close to the center as you can without stalling.",
+      "zhMarkdown": "我确实会努力把精力集中在重要的话题上。许多问题都有一个艰难的核心，周围环绕着较容易的外围事务。努力工作意味着在能力范围内尽可能对准核心。有些日子你可能做不到，只能做些较容易的外围工作。但你应当始终在不陷入停滞的前提下，尽可能向中心靠拢。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "2807636f21dfcec09c12de4e71aa140168f11435e97ddb650973fb63beeed395",
+      "enMarkdown": "The bigger question of what to do with your life is one of these problems with a hard core. There are important problems at the center, which tend to be hard, and less important, easier ones at the edges. So as well as the small, daily adjustments involved in working on a specific problem, you'll occasionally have to make big, lifetime-scale adjustments about which type of work to do. And the rule is the same: working hard means aiming toward the center — toward the most ambitious problems.",
+      "zhMarkdown": "人生该做什么这个更大的问题，就是一个有着艰难核心的问题。中心是重要的问题，往往很艰难；边缘是次要、较容易的问题。因此，除了在处理具体问题时进行日常的微调外，你偶尔还需要在人生尺度上做出重大调整，决定去做哪类工作。规则是一样的：努力工作意味着向中心看齐——直面那些最宏伟、最具野心的问题。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "1f00b8cb758e05641328cfba47d7d9f27ec2f2df394185b1d4e6adb5a7710bc0",
+      "enMarkdown": "By center, though, I mean the actual center, not merely the current consensus about the center. The consensus about which problems are most important is often mistaken, both in general and within specific fields. If you disagree with it, and you're right, that could represent a valuable opportunity to do something new.",
+      "zhMarkdown": "不过，我所说的中心是指真正的中心，而不仅仅是当前共识所认为的中心。关于哪些问题最重要的共识往往是错误的，无论在宏观上还是在具体领域内。如果你不同意这种共识，而且你是对的，那可能代表了一个创造新事物的宝贵机会。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "1643dabd59084487c9f96983d4ff421acb8b5e99c5513794c9d8f9c163da52c3",
+      "enMarkdown": "The more ambitious types of work will usually be harder, but although you should not be in denial about this, neither should you treat difficulty as an infallible guide in deciding what to do. If you discover some ambitious type of work that's a bargain in the sense of being easier for you than other people, either because of the abilities you happen to have, or because of some new way you've found to approach it, or simply because you're more excited about it, by all means work on that. Some of the best work is done by people who find an easy way to do something hard.",
+      "zhMarkdown": "更具野心的工作通常会更难，虽然你不应该否认这一点，但也不应该把困难程度当作决定做什么的绝对指南。如果你发现某种极具野心的工作对你来说很划算——也就是说，因为你恰好拥有的能力，或者因为你找到了某种新的切入方式，抑或仅仅因为你对此更兴奋，导致它对你来说比对别人更容易——那请务必去做。一些最伟大的成就，正是由那些找到了用简单方法解决难题的人做出的。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "1baab05f0aa3965e6cd549ff8686dde11b16be445e3fc505024b219754918467",
+      "enMarkdown": "As well as learning the shape of real work, you need to figure out which kind you're suited for. And that doesn't just mean figuring out which kind your natural abilities match the best; it doesn't mean that if you're 7 feet tall, you have to play basketball. What you're suited for depends not just on your talents but perhaps even more on your interests. A [deep interest](https://paulgraham.com/genius.html) in a topic makes people work harder than any amount of discipline can.",
+      "zhMarkdown": "除了了解真正工作的轮廓外，你还需要弄清楚自己适合哪种工作。这不仅仅意味着找出你的天赋与哪种工作最匹配；这并不意味着如果你身高 7 英尺，就必须去打篮球。你适合做什么不仅取决于你的天赋，也许更取决于你的兴趣。对一个话题的[深厚兴趣](https://paulgraham.com/genius.html)能让人比在任何纪律约束下都更加努力。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "3129082f74f17873bfb3a45c0526d47d6c62782932ed6e9858fa79f8df77540e",
+      "enMarkdown": "It can be harder to discover your interests than your talents. There are fewer types of talent than interest, and they start to be judged early in childhood, whereas interest in a topic is a subtle thing that may not mature till your twenties, or even later. The topic may not even exist earlier. Plus there are some powerful sources of error you need to learn to discount. Are you really interested in x, or do you want to work on it because you'll make a lot of money, or because other people will be impressed with you, or because your parents want you to? [[8](#f8n)]",
+      "zhMarkdown": "发现自己的兴趣可能比发现自己的天赋更难。天赋的类型比兴趣少，而且在童年早期就开始接受评估，而对某个话题的兴趣是一件微妙的事情，可能要到二十多岁甚至更晚才会成熟。在此之前，这个话题甚至可能根本不存在。此外，你还需要学会排除一些强大的干扰源。你是真的对某件事感兴趣，还是因为能赚大钱才想去做？或者是因为能让别人刮目相看？又或者是父母希望你去做？[[8](#f8n)]"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "152f0eac8c5aae28e4e70f0daaabc9ef4b4d37987fb27a8059e3115073e6a2c3",
+      "enMarkdown": "The difficulty of figuring out what to work on varies enormously from one person to another. That's one of the most important things I've learned about work since I was a kid. As a kid, you get the impression that everyone has a calling, and all they have to do is figure out what it is. That's how it works in movies, and in the streamlined biographies fed to kids. Sometimes it works that way in real life. Some people figure out what to do as children and just do it, like Mozart. But others, like Newton, turn restlessly from one kind of work to another. Maybe in retrospect we can identify one as their calling — we can wish Newton spent more time on math and physics and less on alchemy and theology — but this is an [illusion](https://paulgraham.com/disc.html) induced by hindsight bias. There was no voice calling to him that he could have heard.",
+      "zhMarkdown": "弄清楚该做什么的难度因人而异。这是我自小时候起学到的关于工作最重要的事情之一。小时候，你会觉得每个人都有自己的天职，所要做的就是把它找出来。电影里是这么演的，喂给孩子们的简化传记也是这么写的。有时现实生活中确实如此。有些人从小就知道自己该做什么，然后就去做了，比如莫扎特。但另一些人，比如牛顿，则不停地从一种工作转向另一种。也许回过头来看，我们可以认定某件事是他们的天职——我们可能希望牛顿多花点时间在数学和物理上，少花点时间在炼金术和神学上——但这是一种由事后聪明偏见引起的[幻觉](https://paulgraham.com/disc.html)。当年并没有一个他能听到的声音在召唤他。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "e287d6d9c71bc602ee358198050163ffb22b30db328302a12de7096643a5c026",
+      "enMarkdown": "So while some people's lives converge fast, there will be others whose lives never converge. And for these people, figuring out what to work on is not so much a prelude to working hard as an ongoing part of it, like one of a set of simultaneous equations. For these people, the process I described earlier has a third component: along with measuring both how hard you're working and how well you're doing, you have to think about whether you should keep working in this field or switch to another. If you're working hard but not getting good enough results, you should switch. It sounds simple expressed that way, but in practice it's very difficult. You shouldn't give up on the first day just because you work hard and don't get anywhere. You need to give yourself time to get going. But how much time? And what should you do if work that was going well stops going well? How much time do you give yourself then? [[9](#f9n)]",
+      "zhMarkdown": "因此，虽然有些人的生活会迅速收敛，但也有人的生活永远不会收敛。对于这些人来说，弄清楚该做什么与其说是努力工作的前奏，不如说是努力工作本身持续的一部分，就像一组联立方程。对于这些人，我之前描述的过程有第三个组成部分：除了衡量自己有多努力以及做得有多好之外，你还必须思考是应该继续留在这一领域还是换到另一个领域。如果你很努力但没有取得足够好的结果，你就应该换方向。这样说起来很简单，但在实践中却非常困难。你不能因为第一天努力了却毫无进展就选择放弃。你需要给自己时间进入状态。但需要给多少时间？如果原本进展顺利的工作突然停滞不前，你又该怎么办？那时你又该给自己多少时间？[[9](#f9n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "3536dea2ed8d5e7a4c394bf2dd99bbd1dc1dca6db1e0e064ba92edf6acb9cec2",
+      "enMarkdown": "What even counts as good results? That can be really hard to decide. If you're exploring an area few others have worked in, you may not even know what good results look like. History is full of examples of people who misjudged the importance of what they were working on.",
+      "zhMarkdown": "究竟什么才算“好结果”？这可能非常难判断。如果你正在探索一个极少有人涉足的领域，你甚至可能不知道好结果长什么样。历史上充满了对自己所做工作的重要性判断失误的先例。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "40043bb6d6b3188152b1ea8bccdf92e09da69737208aef9eb60f504798e992e9",
+      "enMarkdown": "The best test of whether it's worthwhile to work on something is whether you find it interesting. That may sound like a dangerously subjective measure, but it's probably the most accurate one you're going to get. You're the one working on the stuff. Who's in a better position than you to judge whether it's important, and what's a better predictor of its importance than whether it's interesting?",
+      "zhMarkdown": "判断一项工作是否值得做的最好标准，就是看你是否觉得它有趣。这听起来可能是一个危险的主观标准，但它可能是你能得到的最高效、最准确的指标。你是那个实际在做这件事的人。还有谁比你更有资格判断它是否重要，又有什么能比“有趣”更好地预测其重要性呢？"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "b0c7052eeb6ff9948b4c263232ec38e61b034f248cb2b1d54aa374c43ea88565",
+      "enMarkdown": "For this test to work, though, you have to be honest with yourself. Indeed, that's the most striking thing about the whole question of working hard: how at each point it depends on being honest with yourself.",
+      "zhMarkdown": "不过，要让这个标准奏效，你必须对自己诚实。事实上，这也是关于努力工作的整个问题中最引人注目的一点：每一个环节都取决于你是否能对自己诚实。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "0e291cba9098755d2917dd6fc4163ce45e247518a6d434ec61c16f9d8766f55f",
+      "enMarkdown": "Working hard is not just a dial you turn up to 11. It's a complicated, dynamic system that has to be tuned just right at each point. You have to understand the shape of real work, see clearly what kind you're best suited for, aim as close to the true core of it as you can, accurately judge at each moment both what you're capable of and how you're doing, and put in as many hours each day as you can without harming the quality of the result. This network is too complicated to trick. But if you're consistently honest and clear-sighted, it will automatically assume an optimal shape, and you'll be productive in a way few people are.",
+      "zhMarkdown": "努力工作不仅仅是一个把旋钮拧到 11 的简单动作。它是一个复杂的动态系统，必须在每个节点上都调校得恰到好处。你必须理解真正工作的轮廓，看清自己最适合哪种工作，尽可能瞄准它真正的核心，在每个时刻准确评估自己的能力和现状，并在不损害产出质量的前提下，每天投入尽可能多的时间。这个网络太复杂，根本无法投机取巧。但如果你能始终保持诚实和清醒，它就会自动呈现出最佳状态，你将以一种极少数人能企及的方式高效工作。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "af60c035a3959b9dcaca172c80c0b337d6caa7267dbce06dd8f2ba3611a7069c",
+      "enMarkdown": "[1] In \"The Bus Ticket Theory of Genius\" I said the three ingredients in great work were natural ability, determination, and interest. That's the formula in the preceding stage; determination and interest yield practice and effort.",
+      "zhMarkdown": "[1] 在《天才的公交车票理论》中，我说伟大成就的三个要素是天赋、决心和兴趣。那是前一阶段的公式；决心和兴趣会转化为练习和努力。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "5e2cf7fb277877ac72a86ab573be0b70dc5011a2fd923ee3f162bd17ab09fb38",
+      "enMarkdown": "[2] I mean this at a resolution of days, not hours. You'll often get somewhere while not working in the sense that the solution to a problem comes to you while taking a [shower](https://paulgraham.com/top.html), or even in your sleep, but only because you were working hard on it the day before.",
+      "zhMarkdown": "[2] 我指的是以天为单位，而不是以小时为单位。当你没有在工作时（比如在洗[淋浴](https://paulgraham.com/top.html)甚至睡觉时），你常常会突然想出问题的解决方案，但这只是因为你前一天在努力思考它。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "5be1528dce7b06c7cb1564095009f4c75639d98719c6a9358988a5435808dc8b",
+      "enMarkdown": "It's good to go on vacation occasionally, but when I go on vacation, I like to learn new things. I wouldn't like just sitting on a beach.",
+      "zhMarkdown": "偶尔度假是好事，但当我度假时，我喜欢学习新东西。我可不喜欢光是坐在沙滩上。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "3b3bcbdb35a77c221909e324384f3cea32f0d46e8f3bacb79a0eea17abbdc70b",
+      "enMarkdown": "[3] The thing kids do in school that's most like the real version is sports. Admittedly because many sports originated as games played in schools. But in this one area, at least, kids are doing exactly what adults do.",
+      "zhMarkdown": "[3] 孩子们在学校里做的最接近真实版本的事情就是体育运动。诚然，这是因为许多体育运动起源于学校里的游戏。但至少在这个领域，孩子们做的事情和成年人完全一样。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "218a20fd4cc54ed9ae489ffa347da11948506dd034d41a7c8e096befed45cae6",
+      "enMarkdown": "In the average American high school, you have a choice of pretending to do something serious, or seriously doing something pretend. Arguably the latter is no worse.",
+      "zhMarkdown": "在普通的美国高中里，你只能在“假装做些正经事”或“认真做些假事”之间做出选择。可以说，后者也未尝不可。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "d05dea13e04f0b34215b00369758becb110d1d5984ae5f38452baae6211f6b44",
+      "enMarkdown": "[4] Knowing what you want to work on doesn't mean you'll be able to. Most people have to spend a lot of their time working on things they don't want to, especially early on. But if you know what you want to do, you at least know what direction to nudge your life in.",
+      "zhMarkdown": "[4] 知道自己想做什么并不意味着你就能去做。大多数人不得不把大量时间花在他们不想做的事情上，尤其是在早期。但如果你知道自己想做什么，你至少知道应该把人生引向哪个方向。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "922fcd62a7b02415130ccba6f43a6139ff5b009ba2fa116ce0637b2da1f5b9dd",
+      "enMarkdown": "[5] The lower time limits for intense work suggest a solution to the problem of having less time to work after you have kids: switch to harder problems. In effect I did that, though not deliberately.",
+      "zhMarkdown": "[5] 高强度工作的时间限制较短，这为生完孩子后工作时间变少的问题提供了一个解决方案：转向更难的问题。实际上我就是这么做的，虽然并非刻意为之。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "310b95f01ecdc267cb391f79408cd4e161315bf6a3601aa89422ad93931b8ddd",
+      "enMarkdown": "[6] Some cultures have a tradition of performative hard work. I don't love this idea, because (a) it makes a parody of something important and (b) it causes people to wear themselves out doing things that don't matter. I don't know enough to say for sure whether it's net good or bad, but my guess is bad.",
+      "zhMarkdown": "[6] 某些文化有表演性加班的传统。我不喜欢这种做法，因为（a）它把重要的事情变成了滑稽的模仿，（b）它让人们在无关紧要的事情上精疲力竭。我了解得不够，无法断言这究竟是利大于弊还是弊大于利，但我猜是弊大于利。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "b37770c5dfabc902c5cb0f4f5f0a2c61cca2ec39b7af0043df65e2a5af147245",
+      "enMarkdown": "[7] One of the reasons people work so hard on startups is that startups can fail, and when they do, that failure tends to be both decisive and conspicuous.",
+      "zhMarkdown": "[7] 人们在创业公司如此拼命的原因之一是创业公司可能会失败，而一旦失败，这种失败往往是毁灭性且众所周知的。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "93f8bf6df64a2f83d0b413d88d4a9ad7baa39b969f8a5be39ac56e336e468e1d",
+      "enMarkdown": "[8] It's ok to work on something to make a lot of money. You need to solve the money problem somehow, and there's nothing wrong with doing that efficiently by trying to make a lot at once. I suppose it would even be ok to be interested in money for its own sake; whatever floats your boat. Just so long as you're conscious of your motivations. The thing to avoid is *unconsciously* letting the need for money warp your ideas about what kind of work you find most interesting.",
+      "zhMarkdown": "[8] 为了赚大钱而工作是可以的。你总得解决钱的问题，通过试图一次赚很多钱来高效地解决这个问题并没有什么错。我想，即使仅仅对钱本身感兴趣也是可以的，只要你乐意。只要你清楚自己的动机就行。要避免的是*无意识地*让对金钱的需求扭曲了你对哪种工作最感兴趣的看法。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "de172d00278b24d17ad7ea2901c6c17258ed22ca8ae0adec182ba8eeb52b9238",
+      "enMarkdown": "[9] Many people face this question on a smaller scale with individual projects. But it's easier both to recognize and to accept a dead end in a single project than to abandon some type of work entirely. The more determined you are, the harder it gets. Like a Spanish Flu victim, you're fighting your own immune system: Instead of giving up, you tell yourself, I should just try harder. And who can say you're not right?",
+      "zhMarkdown": "[9] 许多人在单个项目上面临着较小规模的这个问题。但承认并接受单个项目的死胡同，要比彻底放弃某种类型的工作容易得多。你越有决心，事情就变得越难。就像西班牙流感患者一样，你是在与自己的免疫系统作斗争：你没有放弃，而是告诉自己，我应该再努力一点。谁又能说你是不对的呢？"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "1ce68433968d1617ea5e67f1a2624d71c6ff9077f4d84db1b97dfafbca511024",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, John Carmack, John Collison, Patrick Collison, Robert Morris, Geoff Ralston, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、John Carmack、John Collison、Patrick Collison、Robert Morris、Geoff Ralston 和 Harj Taggar 阅读了本篇草稿。"
+    }
+  ]
+}

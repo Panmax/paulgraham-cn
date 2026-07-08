@@ -1,0 +1,118 @@
+{
+  "slug": "safe",
+  "titleEn": "Why It's Safe for Founders to Be Nice",
+  "titleZh": "为什么创始人心地善良也是安全的",
+  "dateText": "August 2015",
+  "publishedAt": "2015-08-01",
+  "sourceOrder": 66,
+  "sourceUrl": "https://paulgraham.com/safe.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "0a16ea4efbad86b010032db7ecb3627108718fab169a91e1624418718a5fde30",
+      "enMarkdown": "I recently got an email from a founder that helped me understand something important: why it's safe for startup founders to be nice people.",
+      "zhMarkdown": "最近我收到了一位创始人的来信，这封信帮我弄明白了一个重要的问题：为什么对创业公司创始人来说，做一个善良的人也是安全的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "61833b1c21f58146e1dcf25e3874791409cb4a75ff6ef2f2074ee0d2401cc3ec",
+      "enMarkdown": "I grew up with a cartoon idea of a very successful businessman (in the cartoon it was always a man): a rapacious, cigar-smoking, table-thumping guy in his fifties who wins by exercising power, and isn't too fussy about how. As I've written before, one of the things that has surprised me most about startups is [how few](https://paulgraham.com/mean.html) of the most successful founders are like that. Maybe successful people in other industries are; I don't know; but not startup founders. [[1](#f1n)]",
+      "zhMarkdown": "在我的成长过程中，脑海里对成功商人的形象一直有一种卡通式的刻板印象（而且在卡通里通常都是男性）：一个五十多岁、抽着雪茄、拍着桌子、贪婪无度的人，他靠行使权力来取胜，而且对手段并不怎么挑剔。正如我之前写过的，关于创业公司最让我感到意外的事情之一，就是最成功的创始人中[极少有](https://paulgraham.com/mean.html)这样的人。也许其他行业的成功人士是这样的，我不得而知；但创业公司的创始人绝对不是。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "46b9732ad7dbbf31b3d018df15871ecae7331b5622f49871abc26ec00b2551ea",
+      "enMarkdown": "I knew this empirically, but I never saw the math of why till I got this founder's email. In it he said he worried that he was fundamentally soft-hearted and tended to give away too much for free. He thought perhaps he needed \"a little dose of sociopath-ness.\"",
+      "zhMarkdown": "我从经验上知道这一点，但在收到这位创始人的来信之前，我从未在数学上算明白其中的逻辑。他在信中说，他担心自己本质上太心软，往往免费赠送了太多东西。他觉得也许自己需要“来一点反社会人格的药剂”。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "57a7b6d5f948a0ff8ad45068d4db75e48c11ae1656076b4080a647de42436806",
+      "enMarkdown": "I told him not to worry about it, because so long as he built something good enough to spread by word of mouth, he'd have a superlinear growth curve. If he was bad at extracting money from people, at worst this curve would be some constant multiple less than 1 of what it might have been. But a constant multiple of any curve is exactly the same shape. The numbers on the Y axis are smaller, but the curve is just as steep, and when anything grows at the rate of a successful startup, the Y axis will take care of itself.",
+      "zhMarkdown": "我告诉他不用担心，因为只要他做出的产品足够好，能靠口碑传播，他就会拥有一条超线性的增长曲线。如果他不擅长从用户身上榨取资金，最坏的情况也不过是这条曲线乘以一个小于 1 的常数。但是，任何曲线乘以一个常数，其形状是完全不变的。Y 轴上的数值虽然变小了，但曲线依然同样陡峭。当任何事物以成功创业公司的速度增长时，Y 轴的数值自然会迎头赶上。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c588487f064aa4786225b5db672bc2282202adb8ce31fd13298f8087faecdeb6",
+      "enMarkdown": "Some examples will make this clear. Suppose your company is making $1000 a month now, and you've made something so great that it's growing at 5% a week. Two years from now, you'll be making about $160k a month.",
+      "zhMarkdown": "举几个例子就能说得很清楚。假设你的公司现在每个月收入 1000 美元，而你做出了一个非常棒的产品，让公司以每周 5% 的速度增长。两年后，你的月收入将达到约 16 万美元。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "6a712fe7c3533278e023c24dc254a7cb27378b8b95e5b55ff5f800a4e93bd742",
+      "enMarkdown": "Now suppose you're so un-rapacious that you only extract half as much from your users as you could. That means two years later you'll be making $80k a month instead of $160k. How far behind are you? How long will it take to catch up with where you'd have been if you were extracting every penny? A mere 15 weeks. After two years, the un-rapacious founder is only 3.5 months behind the rapacious one. [[2](#f2n)]",
+      "zhMarkdown": "现在假设你一点也不贪婪，从用户身上榨取的收益只有你本可以做到的一半。这意味着两年后你的月收入将是 8 万美元，而不是 16 万美元。你落后了多少？要花多长时间才能赶上那个把每一分钱都榨干的自己？仅仅需要 15 周。两年之后，不贪婪的创始人仅仅比贪婪的创始人落后了 3.5 个月。[[2](#f2n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "cc741fadd9aa4182225383e16fb940994f842e9a23cf0eaef2a9df37b7686e15",
+      "enMarkdown": "If you're going to optimize a number, the one to choose is your [growth rate](https://paulgraham.com/growth.html). Suppose as before that you only extract half as much from users as you could, but that you're able to grow 6% a week instead of 5%. Now how are you doing compared to the rapacious founder after two years? You're already ahead—$214k a month versus $160k—and pulling away fast. In another year you'll be making $4.4 million a month to the rapacious founder's $2 million.",
+      "zhMarkdown": "如果你一定要优化一个指标，那最应该选择的就是你的[增长率](https://paulgraham.com/growth.html)。假设和之前一样，你从用户身上榨取的收益只有本可以做到的一半，但你每周的增长率能达到 6% 而不是 5%。那么两年后，你和那个贪婪的创始人相比情况如何？你已经领先了——月收入 21.4 万美元对 16 万美元——并且正在迅速拉开差距。再过一年，你的月收入将达到 440 万美元，而那个贪婪的创始人只有 200 万美元。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d2b68351b60b3f396dca132a8608dc0b2636c38b93b102d42da545c68e951383",
+      "enMarkdown": "Obviously one case where it would help to be rapacious is when growth depends on that. What makes startups different is that usually it doesn't. Startups usually win by making something so great that people recommend it to their friends. And being rapacious not only doesn't help you do that, but probably hurts. [[3](#f3n)]",
+      "zhMarkdown": "显然，在一种情况下，贪婪会有所帮助：那就是增长依赖于贪婪。而创业公司的不同之处在于，通常情况并非如此。创业公司之所以能赢，通常是因为做出了非常棒的东西，以至于人们会推荐给朋友。而贪婪不仅对此毫无帮助，甚至可能起到反作用。[[3](#f3n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "0f3c487fa6792d2cc44c14b4f4ef0a0d5113e1aa72541fd9b2655e6fe3ec4fd0",
+      "enMarkdown": "The reason startup founders can safely be nice is that making great things is compounded, and rapacity isn't.",
+      "zhMarkdown": "创业公司创始人可以安全地保持善良，原因在于：创造伟大的事物具有复利效应，而贪婪没有。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "a5b610f87536b3bcc5d3e4056f2f393b94b7c1048513c4823973375eab6b8675",
+      "enMarkdown": "So if you're a founder, here's a deal you can make with yourself that will both make you happy and make your company successful. Tell yourself you can be as nice as you want, so long as you work hard on your growth rate to compensate. Most successful startups make that tradeoff unconsciously. Maybe if you do it consciously you'll do it even better.",
+      "zhMarkdown": "所以，如果你是一位创始人，这里有一个你可以与自己达成的交易，它既能让你快乐，又能让你的公司获得成功。告诉自己，你可以尽情保持善良，只要你努力提升增长率来作为弥补。大多数成功的创业公司都在无意识地做这种权衡。也许如果你有意识地去这样做，会做得更好。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "c4521799490ecf6849208d3ec24adbfd1ac4290c297f2c911f900381e4c34cf8",
+      "enMarkdown": "[1] Many think successful startup founders are driven by money. In fact the secret weapon of the most successful founders is that they aren't. If they were, they'd have taken one of the acquisition offers that every fast-growing startup gets on the way up. What drives the most successful founders is the same thing that drives most people who make things: the company is their project.",
+      "zhMarkdown": "[1] 许多人认为成功的创业公司创始人是由金钱驱动的。事实上，最成功的创始人拥有的秘密武器恰恰相反。如果他们是为了钱，他们早就接受了每个快速成长的创业公司在上升期都会遇到的那些收购邀约。驱动这些最成功创始人的是与驱动大多数手艺人相同的力量：公司就是他们的作品。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "53e9d64ba256168720639375ca3761921cd1ee4514d8359d9a98c61096985d51",
+      "enMarkdown": "[2] In fact since 2 ≈ 1.05 ^ 15, the un-rapacious founder is always 15 weeks behind the rapacious one.",
+      "zhMarkdown": "[2] 事实上，因为 2 ≈ 1.05 ^ 15，所以不贪婪的创始人总是比贪婪的创始人落后 15 周。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "6bafff493e02b73038af01a7a63f2a5a749345de96cc64a01bed31be0eb9d537",
+      "enMarkdown": "[3] The other reason it might help to be good at squeezing money out of customers is that startups usually lose money at first, and making more per customer makes it easier to get to profitability before your initial funding runs out. But while it is very common for startups to [die](https://paulgraham.com/pinch.html) from running through their initial funding and then being unable to raise more, the underlying cause is usually slow growth or excessive spending rather than insufficient effort to extract money from existing customers.",
+      "zhMarkdown": "[3] 擅长从客户身上压榨资金可能有所帮助的另一个原因是：创业公司在初期通常是亏损的，从每个客户身上赚取更多资金，可以让公司在初始资金耗尽之前更容易实现盈利。然而，尽管创业公司因耗尽初始资金且无法融资而[倒闭](https://paulgraham.com/pinch.html)的情况非常普遍，但其根本原因通常是增长缓慢或开支过度，而不是因为在从现有客户身上压榨资金方面不够努力。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "ddd09a41d0458e3eec1ab6e12d34c0342953472116921fca3dc0cac94e30a0ce",
+      "enMarkdown": "**Thanks** to Sam Altman, Harj Taggar, Jessica Livingston, and Geoff Ralston for reading drafts of this, and to Randall Bennett for being such a nice guy.",
+      "zhMarkdown": "**感谢** Sam Altman、Harj Taggar、Jessica Livingston 和 Geoff Ralston 阅读本文草稿，并感谢 Randall Bennett 展现出的善良品格。"
+    }
+  ]
+}

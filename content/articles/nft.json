@@ -1,0 +1,62 @@
+{
+  "slug": "nft",
+  "titleEn": "An NFT That Saves Lives",
+  "titleZh": "一个拯救生命的 NFT",
+  "dateText": "May 2021",
+  "publishedAt": "2021-05-01",
+  "sourceOrder": 32,
+  "sourceUrl": "https://paulgraham.com/nft.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "4e04d3ef40a5a81b822e26f96a9d76c82c7d9db2647347b68bcef5e887c8d5e3",
+      "enMarkdown": "[Noora Health](https://www.noorahealth.org/), a nonprofit I've supported for years, just launched a new NFT. It has a dramatic name, [Save Thousands of Lives](http://bit.ly/NooraNFT), because that's what the proceeds will do.",
+      "zhMarkdown": "[Noora Health](https://www.noorahealth.org/) 是我支持多年的非营利组织，他们刚刚推出了一款新的 NFT。它的名字极具戏剧性，叫做 [Save Thousands of Lives](http://bit.ly/NooraNFT)（挽救成千上万条生命），因为其所得收益确实将用于拯救生命。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "70e79fefae7bab2a4c3e9afd72c47a26eb53a9baca084c408f9f7af97f1b9a99",
+      "enMarkdown": "Noora has been saving lives for 7 years. They run programs in hospitals in South Asia to teach new mothers how to take care of their babies once they get home. They're in 165 hospitals now. And because they know the numbers before and after they start at a new hospital, they can measure the impact they have. It is massive. For every 1000 live births, they save 9 babies.",
+      "zhMarkdown": "Noora 已经致力于拯救生命 7 年了。他们在南亚的医院开展项目，培训新手妈妈在回家后如何照顾婴儿。目前他们已经进驻了 165 家医院。由于掌握了每家医院加入项目前后的对比数据，他们能够量化自身产生的影响。这个影响是巨大的：每 1000 个新生儿中，他们就能多挽救 9 个婴儿的生命。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "4a268bc87461c4af82dd13b0edd3c24bb02d939c06822c018e4543c02d575581",
+      "enMarkdown": "This number comes from a [study](http://bit.ly/NFT-research) of 133,733 families at 28 different hospitals that Noora conducted in collaboration with the Better Birth team at Ariadne Labs, a joint center for health systems innovation at Brigham and Women�s Hospital and Harvard T.H. Chan School of Public Health.",
+      "zhMarkdown": "这一数据源自一项针对 133,733 个家庭、覆盖 28 家不同医院的[研究](http://bit.ly/NFT-research)。该研究由 Noora 与 Ariadne Labs 的 Better Birth 团队合作完成。Ariadne Labs 是布莱根妇女医院与哈佛大学 T.H. Chan 公共卫生学院共同创立的医疗系统创新中心。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "cbd78a9976390e66f5c0e86c6c00647ec97fc75f1ff1ea34f73e59d287d1145d",
+      "enMarkdown": "Noora is so effective that even if you measure their costs in the most conservative way, by dividing their entire budget by the number of lives saved, the cost of saving a life is the lowest I've seen. $1,235.",
+      "zhMarkdown": "Noora 的效率极高，即便用最保守的方式来估算其成本——用他们的全部预算除以挽救的生命数量——挽救一条生命的成本也是我所见过的最低的：1,235 美元。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "675377b99397aa665499ee849b90a0e24dd2619b0fdebe98360219efe1805e46",
+      "enMarkdown": "For this NFT, they're going to issue a public report tracking how this specific tranche of money is spent, and estimating the number of lives saved as a result.",
+      "zhMarkdown": "针对这次发行的 NFT，他们将发布一份公开报告，追踪这笔特定资金的使用情况，并估算因此而挽救的生命数量。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "16988a8dcf558ca59e6a24f465e2e226d589ab56db68f1b8889885d30b248919",
+      "enMarkdown": "NFTs are a new territory, and this way of using them is especially new, but I'm excited about its potential. And I'm excited to see what happens with this particular auction, because unlike an NFT representing something that has already happened, this NFT gets better as the price gets higher.",
+      "zhMarkdown": "NFT 是一个全新的领域，而这种使用 NFT 的方式更是新颖，但我对其潜力感到兴奋。我也非常期待看到这次特定拍卖的结果，因为与代表既成事实的普通 NFT 不同，这款 NFT 的价格越高，它背后的意义就越非凡。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "d2b90a8633ef0d6faec5156ca64a92cb9bc148c2841c34394dcc04c8febd2dd0",
+      "enMarkdown": "The reserve price was about $2.5 million, because that's what it takes for the name to be accurate: that's what it costs to save 2000 lives. But the higher the price of this NFT goes, the more lives will be saved. What a sentence to be able to write.",
+      "zhMarkdown": "它的起拍保留价大约是 250 万美元，因为只有达到这个数额，它的名字才名副其实：这正是挽救 2000 条生命所需的成本。但是，这款 NFT 的成交价越高，被挽救的生命就会越多。能写下这样一句话，感觉真好。"
+    }
+  ]
+}

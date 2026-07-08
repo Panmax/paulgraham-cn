@@ -1,0 +1,62 @@
+{
+  "slug": "segway",
+  "titleEn": "The Trouble with the Segway",
+  "titleZh": "Segway 的问题",
+  "dateText": "July 2009",
+  "publishedAt": "2009-07-01",
+  "sourceOrder": 115,
+  "sourceUrl": "https://paulgraham.com/segway.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "6e221f892d6a8acba71ddb7b2f9a8ef10eb7e60514ecb567c802650357d7fa45",
+      "enMarkdown": "The Segway hasn't delivered on its initial promise, to put it mildly. There are several reasons why, but one is that people don't want to be seen riding them. Someone riding a Segway looks like a dork.",
+      "zhMarkdown": "委婉点说，Segway 并没能兑现它最初的承诺。原因有很多，但其中之一是人们不想被看到骑着它的样子。骑 Segway 的人看起来像个傻子。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "132ca56fe0a74f7c92fecc48cef7573e99e053c98246587fc7bfd7bac4d25147",
+      "enMarkdown": "My friend Trevor Blackwell built [his own Segway](http://tlb.org/#scooter), which we called the Segwell. He also built a one-wheeled version, [the Eunicycle](http://tlb.org/#eunicycle), which looks exactly like a regular unicycle till you realize the rider isn't pedaling. He has ridden them both to downtown Mountain View to get coffee. When he rides the Eunicycle, people smile at him. But when he rides the Segwell, they shout abuse from their cars: \"Too lazy to walk, ya fuckin homo?\"",
+      "zhMarkdown": "我的朋友 Trevor Blackwell 自己动手做了一个 [他专属的 Segway](http://tlb.org/#scooter)，我们称之为 Segwell。他还做了一个单轮版的 [Eunicycle](http://tlb.org/#eunicycle)，看起来和普通的独轮车一模一样，直到你发现骑车的人根本没有在踩踏板。他曾骑着这两款车去山景城市中心买咖啡。当他骑 Eunicycle 时，人们会对他微笑。但当他骑 Segwell 时，人们会从车里探出头来对他大喊大叫地辱骂：“连路都懒得走，你个死同性恋？”"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "24b8b3e9f8870d0abe867d1af01b361ddb749d425a2900b5d869312b68e1586e",
+      "enMarkdown": "Why do Segways provoke this reaction? The reason you look like a dork riding a Segway is that you look *smug*. You don't seem to be working hard enough.",
+      "zhMarkdown": "为什么 Segway 会激起这种反应？骑 Segway 让你看起来像个傻子的原因，在于你显得很*得瑟*。你看起来好像不够努力。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "3cf05103ee9fa49acdd22fda4981517e01b0dccfbef9294a70a0a5283813d73e",
+      "enMarkdown": "Someone riding a motorcycle isn't working any harder. But because he's sitting astride it, he seems to be making an effort. When you're riding a Segway you're just standing there. And someone who's being whisked along while seeming to do no work — someone in a sedan chair, for example — can't help but look smug.",
+      "zhMarkdown": "骑摩托车的人也没多卖力。但因为他是跨坐在上面的，就显得他付出了某种努力。而当你骑 Segway 时，你只是干站着。一个看似不费吹灰之力就被载着走的人——比如坐在轿子里的人——难免会显得很得瑟。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d57b16b51c3acd083787c08ff0d5a2fe4946f1b97c2079063b405d9bf5860621",
+      "enMarkdown": "Try this thought experiment and it becomes clear: imagine something that worked like the Segway, but that you rode with one foot in front of the other, like a skateboard. That wouldn't seem nearly as uncool.",
+      "zhMarkdown": "做个思想实验就明白了：想象一下，有种东西工作原理和 Segway 一样，但你骑它时是一只脚在前、一只脚在后，就像玩滑板那样。那看起来绝对不会显得那么不酷。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "2a9bc3cde3fac29b4bc4360523811efb9e47d257566d50ef45356d6d9e3d196d",
+      "enMarkdown": "So there may be a way to capture more of the market Segway hoped to reach: make a version that doesn't look so easy for the rider. It would also be helpful if the styling was in the tradition of skateboards or bicycles rather than medical devices.",
+      "zhMarkdown": "所以，也许有办法能抢占更多 Segway 期望触及的市场：做一个看起来没那么轻松的版本。此外，如果它的外观设计更偏向滑板或自行车的传统风格，而不是像医疗设备，那也会大有帮助。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "db74676fed81b9e79a703d29ab3aaf4ad0af82b5509a8266aa83826b56c5c75b",
+      "enMarkdown": "Curiously enough, what got Segway into this problem was that the company was itself a kind of Segway. It was too easy for them; they were too successful raising money. If they'd had to grow the company gradually, by iterating through several versions they sold to real users, they'd have learned pretty quickly that people looked stupid riding them. Instead they had enough to work in secret. They had focus groups aplenty, I'm sure, but they didn't have the people yelling insults out of cars. So they never realized they were zooming confidently down a blind alley.",
+      "zhMarkdown": "说来也怪，让 Segway 陷入这种困境的，恰恰是因为这家公司本身就像是一辆 Segway。对他们来说一切都太容易了；他们在融资方面太成功了。如果他们不得不通过向真实用户销售并迭代几个版本来逐步发展公司，他们早就很快发现人们骑着这玩意儿看起来有多蠢。相反，他们有足够的资金在秘密中研发。我相信他们做过无数次焦点小组访谈，但他们没有遇到过从车里探出头来辱骂他们的普通人。所以他们从未意识到，自己正充满自信地冲进一条死胡同。"
+    }
+  ]
+}

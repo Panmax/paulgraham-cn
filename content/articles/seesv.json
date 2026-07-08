@@ -1,0 +1,195 @@
+{
+  "slug": "seesv",
+  "titleEn": "Where to See Silicon Valley",
+  "titleZh": "硅谷观光指南",
+  "dateText": "October 2010",
+  "publishedAt": "2010-10-01",
+  "sourceOrder": 101,
+  "sourceUrl": "https://paulgraham.com/seesv.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "a9ad0d830d430c362cb1ee9cf0dcf58e43b63da43fa3b4143ee1594294182034",
+      "enMarkdown": "Silicon Valley proper is mostly suburban sprawl. At first glance it doesn't seem there's anything to see. It's not the sort of place that has conspicuous monuments. But if you look, there are subtle signs you're in a place that's different from other places.",
+      "zhMarkdown": "狭义上的硅谷大部分只是杂乱无章的郊区。乍看之下，这里似乎没什么可看的。它不是那种有着显眼地标建筑的地方。但只要你留心观察，就能发现一些微妙的迹象，表明你正处于一个与众不同的地方。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "0eaf54bc08a120a0444c301d9d3eef9707e6799159355cf2c43115b4f09f3ae3",
+      "enMarkdown": "**1. Stanford\nUniversity**",
+      "zhMarkdown": "**1. 斯坦福大学**"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "4494079dd06ef78e0c9ee1e082091f3b58010bc4fc16314f78a5eff8aa287509",
+      "enMarkdown": "Stanford is a strange place. Structurally it is to an ordinary university what suburbia is to a city. It's enormously spread out, and feels surprisingly empty much of the time. But notice the weather. It's probably perfect. And notice the beautiful mountains to the west. And though you can't see it, cosmopolitan San Francisco is 40 minutes to the north. That combination is much of the reason Silicon Valley grew up around this university and not some other one.",
+      "zhMarkdown": "斯坦福大学是个奇特的地方。从结构上看，它与普通大学的关系，就像郊区与城市的关系。它占地极广，大部分时间里显得空旷得令人意外。但请注意这里的天气，通常都完美得无可挑剔。再看看西边美丽的群山。虽然你在这里看不见，但大都市旧金山就在往北 40 分钟车程的地方。这种得天独厚的组合，正是硅谷围绕这所大学而非其他大学发展起来的主要原因。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "10fa5fa7cf8301cf10363e1494cea5809eda137487bc9ece8c7128c9b9c3d912",
+      "enMarkdown": "**2. University\nAve**",
+      "zhMarkdown": "**2. 大学大道（University Ave）**"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c7063fd997780582643f9f37594cd4ec73e27284b9d5769a30660ed84e60caf4",
+      "enMarkdown": "A surprising amount of the work of the Valley is done in the cafes on or just off University Ave in Palo Alto. If you visit on a weekday between 10 and 5, you'll often see founders pitching investors. In case you can't tell, the founders are the ones leaning forward eagerly, and the investors are the ones sitting back with slightly pained expressions.",
+      "zhMarkdown": "硅谷有惊人比例的工作是在帕罗奥多（Palo Alto）大学大道上或周边的咖啡馆里完成的。如果你在工作日的上午 10 点到下午 5 点之间来访，经常能看到创始人在向投资人拉赞助。如果你分辨不出来谁是谁：探身向前、满脸热切的是创始人；身体后仰、表情略带痛苦的是投资人。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "1cb722b3fa5742b8140c1b40376db3f8ada5578e65ef6d42418531b4348442a1",
+      "enMarkdown": "**3.  The Lucky\nOffice**",
+      "zhMarkdown": "**3. 福地办公室**"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "23a418913a3fb2beccd16c16438c7e3717cf68ed8b22f2073a9d23cc1828b2f6",
+      "enMarkdown": "The office at 165 University Ave was Google's first. Then it was Paypal's. (Now it's [Wepay](http://wepay.com)'s.) The interesting thing about it is the location. It's a smart move to put a startup in a place with restaurants and people walking around instead of in an office park, because then the people who work there want to stay there, instead of fleeing as soon as conventional working hours end. They go out for dinner together, talk about ideas, and then come back and implement them.",
+      "zhMarkdown": "大学大道 165 号的办公室是谷歌的第一个办公室，接着是 PayPal 的（现在则是 [Wepay](http://wepay.com) 的）。这个地方最有趣的是它的选址。把创业公司设在有餐厅、有人流的地方，而不是死气沉沉的办公园区，是一个极其聪明的举动。因为这样一来，员工就会愿意留在这里，而不是一到下班时间就急着逃跑。他们会一起出去吃晚饭，讨论创意，然后回来把它们实现。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "67c05f1431e11cd9dc362a500d2f5658953cc9ab7f0b1a7a28a6052b2db65bc1",
+      "enMarkdown": "It's important to realize that Google's current location in an office park is not where they started; it's just where they were forced to move when they needed more space. Facebook was till recently across the street, till they too had to move because they needed more space.",
+      "zhMarkdown": "必须认识到，谷歌目前所在的办公园区并不是他们的起点，那只是因为他们需要更大的空间而不得不搬去的地方。直到最近，Facebook 也还在街对面，直到他们同样因为需要更多空间而不得不搬走。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "e60569ac56ce8e8835b26af42a5956cdeea3bb1028aed240b660cefe7986f835",
+      "enMarkdown": "**4. Old\nPalo Alto**",
+      "zhMarkdown": "**4. 老帕罗奥多（Old Palo Alto）**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2d2ea0aa71c5578d6349807f2e44ec90c742056547e0899ecc11d229f3327633",
+      "enMarkdown": "Palo Alto was not originally a suburb. For the first 100 years or so of its existence, it was a college town out in the countryside. Then in the mid 1950s it was engulfed in a wave of suburbia that raced down the peninsula. But Palo Alto north of Oregon expressway still feels noticeably different from the area around it. It's one of the nicest places in the Valley. The buildings are old (though increasingly they are being torn down and replaced with generic McMansions) and the trees are tall. But houses are very expensive—around $1000 per square foot. This is post-exit Silicon Valley.",
+      "zhMarkdown": "帕罗奥多最初并不是郊区。在它存在的前 100 年左右，它只是一个坐落在乡野间的大学城。直到 20 世纪 50 年代中期，它才被席卷整个半岛的郊区化浪潮所吞没。但奥勒冈高速公路（Oregon expressway）以北的帕罗奥多，感觉依然与周边地区明显不同。它是硅谷最宜人的地方之一。建筑很古老（尽管现在正越来越多地被拆除，取而代之的是千篇一律的豪宅），树木高大。但这里的房价极其昂贵——每平方英尺大约 1000 美元。这就是套现退出后的硅谷。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "986f39c5695730eb489eb75e51feb3fbac87f82fe23a5986ee0cb4a3204cda35",
+      "enMarkdown": "**5. Sand\nHill Road**",
+      "zhMarkdown": "**5. 沙丘路（Sand Hill Road）**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "f13408da65c8a182c0abe419a2b3f8b466ff17f9955837989a44f76e0d70c869",
+      "enMarkdown": "It's interesting to see the VCs' offices on the north side of Sand Hill Road precisely because they're so boringly uniform. The buildings are all more or less the same, their exteriors express very little, and they are arranged in a confusing maze. (I've been visiting them for years and I still occasionally get lost.) It's not a coincidence. These buildings are a pretty accurate reflection of the VC business.",
+      "zhMarkdown": "去看看沙丘路北侧的风险投资机构办公室是件很有意思的事，恰恰因为它们单调得如此千篇一律。这些建筑大同小异，外表几乎看不出什么特色，而且排列得像个让人晕头转向的迷宫（我去了好多年，偶尔还是会迷路）。这并非巧合，这些建筑非常准确地反映了风险投资这个行业的本质。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "6a756c2c4dbd359c94a5f0d72d9a9a6490399f39d70060c886d38c462332eab1",
+      "enMarkdown": "If you go on a weekday you may see groups of founders there to meet VCs. But mostly you won't see anyone; bustling is the last word you'd use to describe the atmos. Visiting Sand Hill Road reminds you that the opposite of \"down and dirty\" would be \"up and clean.\"",
+      "zhMarkdown": "如果你在工作日去，可能会看到成群的创始人去拜访风投。但大多数时候你什么人也见不到；“喧嚣”是这里最沾不上边的词。去一趟沙丘路会让你明白，“接地气”的对立面就是“高冷”。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "5ca61f140de2b104fe82843dc17642fbe390fe6bc9ec8e3f013fb3b52dfe3070",
+      "enMarkdown": "**6.  Castro\nStreet**",
+      "zhMarkdown": "**6. 卡斯特罗街（Castro Street）**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "f97f395ed1c5f4043903609a55724fac4f67f8b75406df0aa69070b49f4c6699",
+      "enMarkdown": "It's a tossup whether Castro Street or University Ave should be considered the heart of the Valley now. University Ave would have been 10 years ago. But Palo Alto is getting expensive. Increasingly startups are located in Mountain View, and Palo Alto is a place they come to meet investors. Palo Alto has a lot of different cafes, but there is one that clearly dominates in Mountain View: [Red\nRock](http://maps.google.com/places/us/ca/mountain-view/castro-st/201/-red-rock-coffee).",
+      "zhMarkdown": "现在很难说卡斯特罗街和大学大道哪一个才是硅谷的核心。10 年前无疑是大学大道。但帕罗奥多正变得越来越贵。越来越多的创业公司落户在山景城（Mountain View），而帕罗奥多则成了他们会见投资人的地方。帕罗奥多有许多不同的咖啡馆，但在山景城，有一家显然占据了主导地位：[Red Rock](http://maps.google.com/places/us/ca/mountain-view/castro-st/201/-red-rock-coffee)。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "e9f9f82e4f611a4a99317f2fc16b1564b30f200b2c2c1c21dcd33ae3df541576",
+      "enMarkdown": "**7. Google**",
+      "zhMarkdown": "**7. 谷歌**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "51246e3b215165233f621aa3c80e036285f77ea9679ff71ff461b49c7156f85f",
+      "enMarkdown": "Google spread out from its first building in Mountain View to a lot of the surrounding ones. But because the buildings were built at different times by different people, the place doesn't have the sterile, walled-off feel that a typical large company's headquarters have. It definitely has a flavor of its own though. You sense there is something afoot. The general atmos is vaguely utopian; there are lots of Priuses, and people who look like they drive them.",
+      "zhMarkdown": "谷歌从它在山景城的第一栋大楼开始，逐渐扩张到了周边的许多大楼。但因为这些建筑是由不同的人在不同时期建造的，所以这里并没有一般大公司总部那种刻板、封闭的感觉。不过，它绝对有自己独特的风格。你能感觉到这里正在酝酿着什么。整体氛围带有一种隐约的乌托邦色彩：到处都是丰田普锐斯，以及看起来就像会开这种车的人。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "58f6e998713d217fdc1f6109c34089b219529f81e371ceb828811894c027630d",
+      "enMarkdown": "You can't get into Google unless you know someone there. It's very much worth seeing inside if you can, though. Ditto for Facebook, at the end of California Ave in Palo Alto, though there is nothing to see outside.",
+      "zhMarkdown": "除非你在谷歌有熟人，否则你是进不去的。但如果有机会，非常值得进去看看。位于帕罗奥多加州大道尽头的 Facebook 也是如此，尽管它从外面看没什么可瞧的。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "acd3462dd8d499df8c37182fbd8e403b00bfe21eee63ebf5c1ee0ac5b15eaa01",
+      "enMarkdown": "**8.  Skyline\nDrive**",
+      "zhMarkdown": "**8. 天际线公路（Skyline Drive）**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "91712d9be1f0a8d0545762060da023f32fc64a6cc2fd123e0c512a3d2df3ddc1",
+      "enMarkdown": "Skyline Drive runs along the crest of the Santa Cruz mountains. On one side is the Valley, and on the other is the sea—which because it's cold and foggy and has few harbors, plays surprisingly little role in the lives of people in the Valley, considering how close it is. Along some parts of Skyline the dominant trees are huge redwoods, and in others they're live oaks. Redwoods mean those are the parts where the fog off the coast comes in at night; redwoods condense rain out of fog. The MROSD manages a collection of [great walking trails](http://www.openspace.org/) off Skyline.",
+      "zhMarkdown": "天际线公路沿着圣克鲁斯山脉的脊线延伸。一侧是硅谷，另一侧是大海——考虑到大海距离如此之近，但由于它寒冷、多雾且缺乏港口，它在硅谷人的生活中扮演的角色却出奇地小。在天际线公路的某些路段，占主导地位的树木是巨大的红杉，而在其他路段则是橡树。红杉的存在意味着这些地方是海岸雾气在夜间侵入的区域；红杉能将雾气凝结成雨水。中半岛地区开放空间管理局（MROSD）在天际线公路附近管理着许多[极佳的徒步路线](http://www.openspace.org/)。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "02fbd204e7da45f3bf890579ba4b3a381d9ee5a319977ab461439f46166c9536",
+      "enMarkdown": "**9. 280**",
+      "zhMarkdown": "**9. 280 号公路**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "8271063160c8ddf18d34900ad47d39cb78866c820538e7a7d008d6943587c741",
+      "enMarkdown": "Silicon Valley has two highways running the length of it: 101, which is pretty ugly, and 280, which is one of the more beautiful highways in the world. I always take 280 when I have a choice. Notice the long narrow lake to the west? That's the San Andreas Fault. It runs along the base of the hills, then heads uphill through Portola Valley. One of the MROSD trails runs [right along\nthe fault](http://www.openspace.org/preserves/pr_los_trancos.asp). A string of rich neighborhoods runs along the foothills to the west of 280: Woodside, Portola Valley, Los Altos Hills, Saratoga, Los Gatos.",
+      "zhMarkdown": "有两条高速公路贯穿整个硅谷：101 号公路，相当难看；以及 280 号公路，它是世界上最美丽的高速公路之一。只要有选择，我总是走 280 号公路。注意到西边那个狭长的湖泊了吗？那就是圣安德烈亚斯断层。它沿着山脚延伸，然后穿过波托拉谷（Portola Valley）往山上走。MROSD 的一条徒步路线就[紧挨着这个断层](http://www.openspace.org/preserves/pr_los_trancos.asp)。在 280 号公路以西的山麓丘陵地带，分布着一连串富人区：伍德赛德（Woodside）、波托拉谷（Portola Valley）、洛斯阿图斯山丘（Los Altos Hills）、萨拉托加（Saratoga）和洛斯加托斯（Los Gatos）。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "224b2560292250801caaff1cc2c610569edb5e5e5a996776a5134642ee564bdc",
+      "enMarkdown": "[SLAC](http://www.flickr.com/photos/38037974@N00/3890299362/) goes right under 280 a little bit south of Sand Hill Road. And a couple miles south of that is the Valley's equivalent of the \"Welcome to Las Vegas\" sign: [The Dish](http://www.flickr.com/photos/paulbarroga/3443486941/).",
+      "zhMarkdown": "在沙丘路以南不远处，[斯坦福线性加速器中心（SLAC）](http://www.flickr.com/photos/38037974@N00/3890299362/)直接从 280 号公路下方穿过。再往南几英里，就是硅谷版的“欢迎来到拉斯维加斯”路标：[大观天线（The Dish）](http://www.flickr.com/photos/paulbarroga/3443486941/)。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**备注**"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "9b3f65be6bf01387e9777bb03d40515a9ac589d3e81846cfc33a6a6db5f6e480",
+      "enMarkdown": "I skipped the [Computer\nHistory Museum](http://www.computerhistory.org/) because this is a list of where to see the Valley itself, not where to see artifacts from it. I also skipped San Jose. San Jose calls itself the capital of Silicon Valley, but when people in the Valley use the phrase \"the city,\" they mean San Francisco. San Jose is a dotted line on a map.",
+      "zhMarkdown": "我没有列入[计算机历史博物馆](http://www.computerhistory.org/)，因为这份清单是关于在哪里能看到硅谷本身，而不是在哪里看它的历史文物。我也略过了圣何塞（San Jose）。圣何塞自称为硅谷的首都，但当硅谷人说“城里（the city）”时，他们指的是旧金山。圣何塞只是地图上的一条虚线。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "10d8ffe6a52b758a13797e2e93099321fc349c495d5b82d3b5641e415a0467a8",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, and Jessica Livingston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Patrick Collison 和 Jessica Livingston 阅读本书草稿。"
+    }
+  ]
+}

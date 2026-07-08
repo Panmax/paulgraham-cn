@@ -1,0 +1,244 @@
+{
+  "slug": "procrastination",
+  "titleEn": "Good and Bad Procrastination",
+  "titleZh": "好的拖延与坏的拖延",
+  "dateText": "December 2005",
+  "publishedAt": "2005-12-01",
+  "sourceOrder": 174,
+  "sourceUrl": "https://paulgraham.com/procrastination.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "a3aefafb959aa491f1c9463f22e65faf0521a6b9065828bf21811d366f4e0ecc",
+      "enMarkdown": "The most impressive people I know are all terrible procrastinators. So could it be that procrastination isn't always bad?",
+      "zhMarkdown": "我认识的最杰出的人都是极其严重的拖延症患者。这是否意味着，拖延并不总是一件坏事？"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "79395ceeccf7acabbd8902bd068b3c20d83c292e7933ec174e0784189ab674f0",
+      "enMarkdown": "Most people who write about procrastination write about how to cure it. But this is, strictly speaking, impossible. There are an infinite number of things you could be doing. No matter what you work on, you're not working on everything else. So the question is not how to avoid procrastination, but how to procrastinate well.",
+      "zhMarkdown": "大多数关于拖延的文章都在讨论如何戒掉它。但严格来说，这是不可能的。世界上有无限多件事情等着你去做。无论你选择做什么，你都不得不放弃做其他所有事情。因此，问题不在于如何避免拖延，而在于如何“优雅地拖延”。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "cb4fc6c0dd2250b81ae59b0e7fefaf81f91886042d1b52ca801bb4a413c42f88",
+      "enMarkdown": "There are three variants of procrastination, depending on what you do instead of working on something: you could work on (a) nothing, (b) something less important, or (c) something more important. That last type, I'd argue, is good procrastination.",
+      "zhMarkdown": "根据你拖延时转头去做了什么，拖延可以分为三种：你可能去做了（a）无所事事，（b）没那么重要的事情，或者（c）更重要的事情。我认为，最后一种就是“好的拖延”。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4af51753769f8b5d75eb0190d5746b1b6e6b80097df7d03af4e39845e127327f",
+      "enMarkdown": "That's the \"absent-minded professor,\" who forgets to shave, or eat, or even perhaps look where he's going while he's thinking about some interesting question. His mind is absent from the everyday world because it's hard at work in another.",
+      "zhMarkdown": "这就是典型的“心不在焉的教授”。他因为正沉浸在某个有趣的学术问题中，而忘了刮胡子、忘了吃饭，甚至走路都不看路。他的心之所以从日常世界中缺席，是因为它正在另一个世界里全力运转。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "67487c4523f303ac2067637a84b2789679901d1e365dcec6a682570c9840a2a0",
+      "enMarkdown": "That's the sense in which the most impressive people I know are all procrastinators. They're type-C procrastinators: they put off working on small stuff to work on big stuff.",
+      "zhMarkdown": "正是在这个意义上，我认识的最杰出的人都是拖延症患者。他们属于 C 类拖延者：他们通过拖延琐事，来腾出时间专注于大事。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "58db5205c6617f61515f1525d82ae910f53a62afa8bab8ed985232b872c8b7f5",
+      "enMarkdown": "What's \"small stuff?\" Roughly, work that has zero chance of being mentioned in your obituary. It's hard to say at the time what will turn out to be your best work (will it be your magnum opus on Sumerian temple architecture, or the detective thriller you wrote under a pseudonym?), but there's a whole class of tasks you can safely rule out: shaving, doing your laundry, cleaning the house, writing thank-you notes — anything that might be called an errand.",
+      "zhMarkdown": "什么是“琐事”？简单来说，就是那些绝不可能出现在你悼词里的事情。虽然在当下很难说哪项工作会成为你一生的代表作（是你关于苏美尔神庙建筑的宏篇巨著，还是你用笔名写的侦探惊悚小说？），但有一整类任务是你完全可以排除在外的：刮胡子、洗衣服、打扫屋子、写感谢信——任何可以被称为杂务的事情。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "334015ecf9e8801191c95d157386f5954e4ff41a7ece69fd328644c70483463a",
+      "enMarkdown": "Good procrastination is avoiding errands to do real work.",
+      "zhMarkdown": "好的拖延，就是通过避开杂务来做真正的工作。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "fb98f806268d5fc2fa763448e8012564ff7b075f76194054fdb3eca4ae9bc52e",
+      "enMarkdown": "Good in a sense, at least. The people who want you to do the errands won't think it's good. But you probably have to annoy them if you want to get anything done. The mildest seeming people, if they want to do real work, all have a certain degree of ruthlessness when it comes to avoiding errands.",
+      "zhMarkdown": "至少在某种意义上是好的。那些催你做杂务的人可不会觉得这有什么好。但如果你想做出点成绩，可能就不得不去得罪他们。那些看起来最温和的人，只要想做真正的工作，在避开杂务时都会表现出某种程度的冷酷。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a9ad160d6668d9fe9f012fbd4aa297bcac453561b7c80fabb6cf1a580c0c31c1",
+      "enMarkdown": "Some errands, like replying to letters, go away if you ignore them (perhaps taking friends with them). Others, like mowing the lawn, or filing tax returns, only get worse if you put them off. In principle it shouldn't work to put off the second kind of errand. You're going to have to do whatever it is eventually. Why not (as past-due notices are always saying) do it now?",
+      "zhMarkdown": "有些杂务，比如回信，如果你不理它，它自己就会消失（当然，可能顺便把朋友也带走了）。而另一些杂务，比如割草或申报税款，你越拖延它就越棘手。原则上，拖延第二类杂务是行不通的。你迟早都得去解决它。那为什么不（像催缴通知单上常说的那样）现在就做呢？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "4bef52ac542d725e5fbf3aa0a384a6903d43d741971ebb6c2c36b584d292ec60",
+      "enMarkdown": "The reason it pays to put off even those errands is that real work needs two things errands don't: big chunks of time, and the right mood. If you get inspired by some project, it can be a net win to blow off everything you were supposed to do for the next few days to work on it. Yes, those errands may cost you more time when you finally get around to them. But if you get a lot done during those few days, you will be net more productive.",
+      "zhMarkdown": "之所以拖延这些杂务依然是划算的，是因为真正的工作需要两样杂务不需要的东西：大块的时间，以及对的心境。如果你被某个项目激发了灵感，那么在接下来的几天里推掉所有该做的事情去专注做它，最终的净收益往往是正的。没错，当你终于去处理那些杂务时，可能会花掉更多的时间。但如果你在这几天里完成了大量的工作，你的整体生产力其实是更高的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "d83ff586a7f7353dd6ef1cd26a9b3f330dbbf6175499168cabcee2982cfd472b",
+      "enMarkdown": "In fact, it may not be a difference in degree, but a difference in kind. There may be types of work that can only be done in long, uninterrupted stretches, when inspiration hits, rather than dutifully in scheduled little slices. Empirically it seems to be so. When I think of the people I know who've done great things, I don't imagine them dutifully crossing items off to-do lists. I imagine them sneaking off to work on some new idea.",
+      "zhMarkdown": "事实上，这可能不是量变，而是质变。有些类型的工作，只能在灵感降临时、在长时间不受干扰的专注状态下完成，而无法像交差一样，被切割成计划好的零碎时间。经验表明确实如此。当我想到我认识的那些做出过伟大成就的人时，我脑海中浮现的绝不是他们循规蹈矩地在待办清单上打勾的画面，而是他们悄悄溜走、去琢磨某个新点子的身影。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "0bd44272e05a84a5872542c5a8546fd1b79e99be72b672f9e478447b1dfe7c4c",
+      "enMarkdown": "Conversely, forcing someone to perform errands synchronously is bound to limit their productivity. The cost of an interruption is not just the time it takes, but that it breaks the time on either side in half. You probably only have to interrupt someone a couple times a day before they're unable to work on hard problems at all.",
+      "zhMarkdown": "相反，强迫一个人同步处理杂务必然会限制他们的生产力。打断的代价不仅在于打断本身所花的时间，更在于它把原本连贯的时间一分为二。你可能一天只需要打断某人几次，就能让他们彻底无法思考任何难题。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "fb44f7a20a58b7a885bdaee70dc2c61582c363a88e84f57d29afe3c8d6e4ef6d",
+      "enMarkdown": "I've wondered a lot about why [startups](https://paulgraham.com/start.html) are most productive at the very beginning, when they're just a couple guys in an apartment. The main reason may be that there's no one to interrupt them yet. In theory it's good when the founders finally get enough money to hire people to do some of the work for them. But it may be better to be overworked than interrupted. Once you dilute a startup with ordinary office workers — with type-B procrastinators — the whole company starts to resonate at their frequency. They're interrupt-driven, and soon you are too.",
+      "zhMarkdown": "我常常在想，为什么[创业公司](https://paulgraham.com/start.html)在最早期——也就是只有两个人挤在公寓里的时候——生产力最高。最主要的原因可能在于，这时候还没有人来打断他们。理论上，创始人终于拿到足够的资金、雇人来分担工作是一件好事。但比起被打断，工作过载或许是更好的状态。一旦你用普通的办公室职员（也就是 B 类拖延者）来稀释创业公司，整个公司就会开始按他们的频率共振。他们是被动响应打断的，很快你也会变成这样。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a6d1cbc4e072ed14baa107e699de94dc0d6ed926da60f6e35282126706648f2a",
+      "enMarkdown": "Errands are so effective at killing great projects that a lot of people use them for that purpose. Someone who has decided to write a novel, for example, will suddenly find that the house needs cleaning. People who fail to write novels don't do it by sitting in front of a blank page for days without writing anything. They do it by feeding the cat, going out to buy something they need for their apartment, meeting a friend for coffee, checking email. \"I don't have time to work,\" they say. And they don't; they've made sure of that.",
+      "zhMarkdown": "杂务在扼杀伟大项目上是如此高效，以至于许多人主动用它来逃避。比如，一个决定写小说的人，会突然发现屋子该打扫了。那些没能写出小说的人，并不是一连几天坐在空白的纸张前什么也不写。他们是通过喂猫、出门买公寓需要的日用品、找朋友喝咖啡、查邮件来逃避的。他们会说：“我没时间工作。”确实如此，因为他们确保了自己没有时间。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "c3f87c014523cebe139a7621c97b0d4e08bb2902169361f62b243de6e786c9ab",
+      "enMarkdown": "(There's also a variant where one has no place to work. The cure is to visit the places where famous people worked, and see how unsuitable they were.)",
+      "zhMarkdown": "（还有一种变体是抱怨自己没有合适的工作场所。解决办法是去看看名人工作过的地方，看看那些地方是多么的简陋和不合适。）"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "073fb01e93e02ce02c5f5cc1b342daacc2306a4f537b8e645b3daa67be66a651",
+      "enMarkdown": "I've used both these excuses at one time or another. I've learned a lot of tricks for making myself work over the last 20 years, but even now I don't win consistently. Some days I get real work done. Other days are eaten up by errands. And I know it's usually my fault: I *let* errands eat up the day, to avoid facing some hard problem.",
+      "zhMarkdown": "这两种借口我都用过。在过去的 20 年里，我学会了很多逼自己工作的技巧，但即使是现在，我也有失手的时候。有些日子我能做成真正的工作，而另一些日子则被琐碎的杂务吞噬。我知道这通常是我自己的错：为了逃避面对某些难题，我*放任*杂务吞噬了这一天。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f82a49750ff6d5396edd9fa1b72b825b01a1edad1544a8f91a9d1f6a13e56d89",
+      "enMarkdown": "The most dangerous form of procrastination is unacknowledged type-B procrastination, because it doesn't feel like procrastination. You're \"getting things done.\" Just the wrong things.",
+      "zhMarkdown": "最危险的拖延形式是心照不宣的 B 类拖延，因为它感觉起来根本不像是拖延。你觉得自己正在“把事情做好”。只是做错了事情而已。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "fb2923e1914366a95eccc179d47e9d025a93223c56fe4ba5af966efca34bc696",
+      "enMarkdown": "Any advice about procrastination that concentrates on crossing things off your to-do list is not only incomplete, but positively misleading, if it doesn't consider the possibility that the to-do list is itself a form of type-B procrastination. In fact, possibility is too weak a word. Nearly everyone's is. Unless you're working on the biggest things you could be working on, you're type-B procrastinating, no matter how much you're getting done.",
+      "zhMarkdown": "任何关于拖延的建议，如果只专注于帮你划掉待办清单上的任务，而不去思考这份待办清单本身可能就是 B 类拖延的一种形式，那么它不仅是不完整的，更是误导人的。事实上，“可能”这个词都说轻了。几乎每个人的待办清单都是如此。除非你正在做你能做的最伟大的事情，否则无论你完成了多少工作，你其实都在进行 B 类拖延。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "9300ae4d1030ef62b13e256ed67e6e5a7380b4c38e2f8f7ad0e8fd15b4970d3e",
+      "enMarkdown": "In his famous essay [You and Your Research](https://paulgraham.com/hamming.html) (which I recommend to anyone ambitious, no matter what they're working on), Richard Hamming suggests that you ask yourself three questions:",
+      "zhMarkdown": "理查德·汉明（Richard Hamming）在他著名的演讲 [《你和你的研究》](https://paulgraham.com/hamming.html)（我向所有有抱负的人推荐它，无论你从事什么行业）中，建议你问自己三个问题："
+    },
+    {
+      "id": 20,
+      "type": "list",
+      "sourceHash": "ad415a2186287b3ce230359907d8737a61a041f44cb083e31d17c522c2f69afa",
+      "enMarkdown": "1. What are the most important problems in your field?\n2. Are you working on one of them?\n3. Why not?",
+      "zhMarkdown": "1. 你所在的领域中，最重要的问题是什么？\n2. 你正在研究其中之一吗？\n3. 如果没有，为什么？"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "c1fdcc00f420ee17d4d4f5a271f2294343636bebc8140d3bc7221745160d9320",
+      "enMarkdown": "Hamming was at Bell Labs when he started asking such questions. In principle anyone there ought to have been able to work on the most important problems in their field. Perhaps not everyone can make an equally dramatic mark on the world; I don't know; but whatever your capacities, there are projects that stretch them. So Hamming's exercise can be generalized to:",
+      "zhMarkdown": "汉明在贝尔实验室工作时开始提出这些问题。原则上，那里的任何人都应该有能力去研究他们领域中最重要的问题。也许并非每个人都能在世界上留下同样惊天动地的印记，我不知道；但无论你的能力如何，总会有一些项目能够激发你的极限。因此，汉明的练习可以推广为："
+    },
+    {
+      "id": 22,
+      "type": "quote",
+      "sourceHash": "edfd3e2455aeea474041e9faa04c4240532ddfda77107a90bf2971a7f93f80a4",
+      "enMarkdown": "> What's the best thing you could be working on, and why aren't you?",
+      "zhMarkdown": "> 你能做的最好的事情是什么，为什么你没在做？"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "91596a9c14a7b546ecf236e53640c66c587e56764764210cb7aab956455c688d",
+      "enMarkdown": "Most people will shy away from this question. I shy away from it myself; I see it there on the page and quickly move on to the next sentence. Hamming used to go around actually asking people this, and it didn't make him popular. But it's a question anyone ambitious should face.",
+      "zhMarkdown": "大多数人都会回避这个问题。我自己也会回避；我在屏幕上看到它，就会赶紧移到下一句。汉明过去常常真的跑去问别人这个问题，这让他并不怎么受欢迎。但这是每一个有抱负的人都应该直面的问题。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "b521b76d92ffe7410d08d9be149e7a8ad557174f83a7522edac7e2162d2d4df8",
+      "enMarkdown": "The trouble is, you may end up hooking a very big fish with this bait. To do good work, you need to do more than find good projects. Once you've found them, you have to get yourself to work on them, and that can be hard. The bigger the problem, the harder it is to get yourself to work on it.",
+      "zhMarkdown": "问题在于，你用这个诱饵可能会钓起一条巨大的鱼。要做出优秀的工作，你不仅需要找到好项目。一旦找到了，你还得让自己着手去做，而这可能非常困难。问题越大，让自己着手去做的难度就越大。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "4a9df334a82833d249455988aaa03951bfe6388f9eb891ae5878087f24c71839",
+      "enMarkdown": "Of course, the main reason people find it difficult to work on a particular problem is that they don't [enjoy](https://paulgraham.com/hs.html) it. When you're young, especially, you often find yourself working on stuff you don't really like-- because it seems impressive, for example, or because you've been assigned to work on it. Most grad students are stuck working on big problems they don't really like, and grad school is thus synonymous with procrastination.",
+      "zhMarkdown": "当然，人们发现很难专注于某个特定问题的主要原因，是他们并不[享受](https://paulgraham.com/hs.html)其中。尤其是当你年轻的时候，你经常会发现自己正在做一些你并不真正喜欢的事情——例如，因为这看起来很体面，或者因为这是分配给你的任务。大多数研究生都不得不硬着头皮研究他们并不真正喜欢的大问题，因此研究生阶段几乎成了拖延症的代名词。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "691503efb96c2d6aa41e815c4d0331d987d9ec4114e55f6ffe6e2c2315f6b91c",
+      "enMarkdown": "But even when you like what you're working on, it's easier to get yourself to work on small problems than big ones. Why? Why is it so hard to work on big problems? One reason is that you may not get any reward in the foreseeable future. If you work on something you can finish in a day or two, you can expect to have a nice feeling of accomplishment fairly soon. If the reward is indefinitely far in the future, it seems less real.",
+      "zhMarkdown": "但即使你喜欢自己正在做的事情，让自己去解决小问题也比解决大问题容易得多。为什么？为什么攻克大问题如此之难？一个原因是在可预见的未来你可能得不到任何回报。如果你做的是一两天就能完成的事情，你可以预期很快就会获得一种美妙的成就感。如果回报在无限遥远的未来，它看起来就不那么真实了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "7ae8edc5325bd701fbfb10d2b32d4dbbb62b576dd15ab3cecefecca7a0b4b9ed",
+      "enMarkdown": "Another reason people don't work on big projects is, ironically, fear of wasting time. What if they fail? Then all the time they spent on it will be wasted. (In fact it probably won't be, because work on hard projects almost always leads somewhere.)",
+      "zhMarkdown": "人们不去做大项目的另一个原因，讽刺的是，是害怕浪费时间。如果失败了怎么办？那么他们花在上面的所有时间都将被浪费掉。（事实上可能并不会，因为对困难项目的探索几乎总能带来其他收获。）"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "5531589d220f4e83846c31e380906ca41cfa3b22abe9061aefe1ac94d76dcefd",
+      "enMarkdown": "But the trouble with big problems can't be just that they promise no immediate reward and might cause you to waste a lot of time. If that were all, they'd be no worse than going to visit your in-laws. There's more to it than that. Big problems are *terrifying*. There's an almost physical pain in facing them. It's like having a vacuum cleaner hooked up to your imagination. All your initial ideas get sucked out immediately, and you don't have any more, and yet the vacuum cleaner is still sucking.",
+      "zhMarkdown": "但大问题的麻烦之处，绝不仅仅在于它们无法带来即时回报、可能会让你浪费大量时间。如果只是这样，它们顶多和去拜访岳父母一样让人头疼。实际情况远不止于此。大问题是*极其可怕的*。面对它们时，会有一种近乎生理上的痛苦。就像有一个吸尘器插在你的想象力上。你最初的所有想法都会立刻被吸走，你再也想不出新点子，而吸尘器却还在继续抽吸。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "a3edd4f30039aaf7e11734b2811b9a3301ce2e44fbc5982ef0bbec0ea63e3460",
+      "enMarkdown": "You can't look a big problem too directly in the eye. You have to approach it somewhat obliquely. But you have to adjust the angle just right: you have to be facing the big problem directly enough that you catch some of the excitement radiating from it, but not so much that it paralyzes you. You can tighten the angle once you get going, just as a sailboat can sail closer to the wind once it gets underway.",
+      "zhMarkdown": "你不能直勾勾地盯着一个大问题看。你必须斜着切入。但你必须调整好角度：你面对大问题的角度要足够直接，以捕捉到它散发出的部分兴奋感，但又不能太直接，以免被它吓得瘫痪。一旦你动起来，你就可以把角度收窄，就像帆船一旦跑起来，就可以迎着更顶的风航行一样。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "069f104f65892d0734178a0fefa9437f87155a55ab99ea93e210e2776a4c38a2",
+      "enMarkdown": "If you want to work on big things, you seem to have to trick yourself into doing it. You have to work on small things that could grow into big things, or work on successively larger things, or split the moral load with collaborators. It's not a sign of weakness to depend on such tricks. The very best work has been done this way.",
+      "zhMarkdown": "如果你想做大事，你似乎必须哄骗自己去做。你必须先做一些可能长成大事的小事，或者连续做越来越大的事，或者与合作者分担心理负担。依赖这些技巧并不是软弱的表现。最伟大的工作往往就是通过这种方式完成的。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "4419a29c1c57c38f052f207299835f6f03d60eb2e92aa6791c698c2caeebafa2",
+      "enMarkdown": "When I talk to people who've managed to make themselves work on big things, I find that all blow off errands, and all feel guilty about it. I don't think they should feel guilty. There's more to do than anyone could. So someone doing the best work they can is inevitably going to leave a lot of errands undone. It seems a mistake to feel bad about that.",
+      "zhMarkdown": "当我与那些设法让自己专注于大事的人交谈时，我发现他们都会推掉杂务，并且都为此感到内疚。我不认为他们应该感到内疚。要实现的事情太多，任何人都做不完。因此，一个尽其所能做最优秀工作的人，不可避免地会留下许多未完成的杂务。为此感到难过似乎是个错误。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "4fb825623af5577dd5d6291122e27e52aeca60cf4a66d3cea3769c8f69d49032",
+      "enMarkdown": "I think the way to \"solve\" the problem of procrastination is to let delight pull you instead of making a to-do list push you. Work on an ambitious project you really enjoy, and sail as close to the wind as you can, and you'll leave the right things undone.",
+      "zhMarkdown": "我认为，“解决”拖延问题的方法，是让兴趣拉着你走，而不是让待办清单推着你走。去做一个你真正享受的有野心的项目，尽最大努力迎风航行，你自然会把该忽略的事情留在身后。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "1cab82e8aaad533b7e3b9e71bb822c0c1f6c2d8d0b4dd1b3b6963454fff84e1f",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

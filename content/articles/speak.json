@@ -1,0 +1,125 @@
+{
+  "slug": "speak",
+  "titleEn": "Writing and Speaking",
+  "titleZh": "写作与演讲",
+  "dateText": "March 2012",
+  "publishedAt": "2012-03-01",
+  "sourceOrder": 87,
+  "sourceUrl": "https://paulgraham.com/speak.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f6ec41a33d638acd8d8db3d9140b9d8626f86a681bd199a1767c798ad5f107c2",
+      "enMarkdown": "I'm not a very good speaker. I say \"um\" a lot. Sometimes I have to pause when I lose my train of thought. I wish I were a better speaker. But I don't wish I were a better speaker like I wish I were a better writer. What I really want is to have good ideas, and that's a much bigger part of being a good writer than being a good speaker.",
+      "zhMarkdown": "我不是一个擅长演讲的人。我说话时总会夹杂很多“呃”、“啊”。有时思维断了，我还不得不停下来。我希望自己能成为一个更好的演讲者，但这种渴望远没有我想成为一个更好作者的意愿那么强烈。我真正追求的是拥有深刻的洞见，而这一点对于写出好文章来说，远比对于做一场好演讲要重要得多。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "bfd6c44b22e5a29639d63588d9e12d8258ca0f7d0f7c513d40a632df924e7dd6",
+      "enMarkdown": "Having good ideas is most of writing well. If you know what you're talking about, you can say it in the plainest words and you'll be perceived as having a good style. With speaking it's the opposite: having good ideas is an alarmingly small component of being a good speaker.",
+      "zhMarkdown": "写好文章的关键，绝大部分在于拥有好想法。如果你真正理解自己所谈论的内容，即便用最平实的语言表达出来，读者也会觉得你文笔斐然。而演讲则恰恰相反：拥有好想法，在成为一个优秀演讲者的要素中，占比低得令人心惊。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "097d748be0e410ec4d2088271680cafe96b51aa1db904ae8bb7ab0cabf929e60",
+      "enMarkdown": "I first noticed this at a conference several years ago. There was another speaker who was much better than me. He had all of us roaring with laughter. I seemed awkward and halting by comparison. Afterward I put my talk online like I usually do. As I was doing it I tried to imagine what a transcript of the other guy's talk would be like, and it was only then I realized he hadn't said very much.",
+      "zhMarkdown": "我第一次注意到这一点，是在几年前的一次大会上。当时有位演讲者比我优秀得多，他逗得全场观众哄堂大笑。相比之下，我显得既笨拙又结巴。事后，我像往常一样把自己的演讲稿发到了网上。在整理时，我试着想象如果把那位演讲者的发言逐字记录下来会是什么样子，直到那时我才意识到，他其实并没有讲出什么实质性的内容。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "0082247802fe838cde8d340308992c9df54050f22567def4e02475225a0b4239",
+      "enMarkdown": "Maybe this would have been obvious to someone who knew more about speaking, but it was a revelation to me how much less ideas mattered in speaking than writing. [[1](#f1n)]",
+      "zhMarkdown": "对于深谙演讲之道的人来说，这或许是显而易见的常识。但对我而言，意识到“想法在演讲中的重要性远不如在写作中”却是一个极大的启发。 [[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "629c18626c2b4c8f1ba75a0ff951df3b0560fa51dcf3c805bd0c955e4888db44",
+      "enMarkdown": "A few years later I heard a talk by someone who was not merely a better speaker than me, but a famous speaker. Boy was he good. So I decided I'd pay close attention to what he said, to learn how he did it. After about ten sentences I found myself thinking \"I don't want to be a good speaker.\"",
+      "zhMarkdown": "几年后，我听了另一场演讲。演讲者不仅比我强，而且是一位著名的演说家。天哪，他讲得实在太棒了。于是我决定仔细琢磨他的每一句话，学习他是怎么做到的。然而，在听了大约十句话之后，我脑子里冒出一个念头：“我可不想成为一个这样的演讲者。”"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "255508230d02d264c0c31abc811dfb6a1f920e8ed2c5ae6fd30e53f931b5b41c",
+      "enMarkdown": "Being a really good speaker is not merely orthogonal to having good ideas, but in many ways pushes you in the opposite direction. For example, when I give a talk, I usually write it out beforehand. I know that's a mistake; I know delivering a prewritten talk makes it harder to engage with an audience. The way to get the attention of an audience is to give them *your* full attention, and when you're delivering a prewritten talk, your attention is always divided between the audience and the talk — even if you've memorized it. If you want to engage an audience, it's better to start with no more than an outline of what you want to say and ad lib the individual sentences. But if you do that, you might spend no more time thinking about each sentence than it takes to say it. [[2](#f2n)] Occasionally the stimulation of talking to a live audience makes you think of new things, but in general this is not going to generate ideas as well as writing does, where you can spend as long on each sentence as you want.",
+      "zhMarkdown": "成为一个极优秀的演讲者，不仅与拥有好想法毫不相干，甚至在许多方面会把你推向相反的方向。例如，我做演讲时，通常会提前写好讲稿。我知道这是个下策，也知道照本宣科很难调动听众的积极性。吸引听众的秘诀在于给他们你*全部*的注意力，而当你念一篇写好的稿子时，你的注意力不可避免地会被听众和讲稿分流——哪怕你已经把稿子背得滚瓜烂熟。如果你想调动听众，最好的方法是只准备一个大纲，然后即兴发挥组织语言。但如果你这么做，你花在思考每一句话上的时间，就只够把它说出来而已。 [[2](#f2n)] 偶尔，面对现场听众的刺激会让你产生新的灵感，但总的来说，这种方式无法像写作那样系统地产生好想法，因为在写作时，你可以想在每句话上花多少时间就花多少时间。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "aafc3de18c8817a235bb52125b67caae69f680c6072543b37d5466f886309505",
+      "enMarkdown": "If you rehearse a prewritten speech enough, you can get asymptotically close to the sort of engagement you get when speaking ad lib. Actors do. But here again there's a tradeoff between smoothness and ideas. All the time you spend practicing a talk, you could instead spend making it better. Actors don't face that temptation, except in the rare cases where they've written the script, but any speaker does. Before I give a talk I can usually be found sitting in a corner somewhere with a copy printed out on paper, trying to rehearse it in my head. But I always end up spending most of the time rewriting it instead. Every talk I give ends up being given from a manuscript full of things crossed out and rewritten. Which of course makes me um even more, because I haven't had any time to practice the new bits. [[3](#f3n)]",
+      "zhMarkdown": "如果你把写好的讲稿排练得足够多，确实可以无限接近即兴演讲的那种互动效果。演员就是这么做的。但这里同样存在“流畅度”与“想法”之间的权衡。你花在练习演讲上的所有时间，本可以用来把内容改得更好。演员不会面临这种诱惑，除非极少数情况下剧本是他们自己写的，但任何演讲者都会。在演讲开始前，人们通常能看到我躲在某个角落里，手里拿着一份打印出来的纸质稿，试图在脑子里排练。但我最终总是把大部分时间花在了修改稿子上。我的每一次演讲，最后都是看着一份涂涂改改、重新写过的手稿来讲的。这当然让我说更多的“呃”，因为我根本没有时间去练习那些新改动的地方。 [[3](#f3n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c39e6fe7385c8736eb4bcb0398d0467720f82b2669ac4649ef98feb625ea9cb8",
+      "enMarkdown": "Depending on your audience, there are even worse tradeoffs than these. Audiences like to be flattered; they like jokes; they like to be swept off their feet by a vigorous stream of words. As you decrease the intelligence of the audience, being a good speaker is increasingly a matter of being a good bullshitter. That's true in writing too of course, but the descent is steeper with talks. Any given person is dumber as a member of an audience than as a reader. Just as a speaker ad libbing can only spend as long thinking about each sentence as it takes to say it, a person hearing a talk can only spend as long thinking about each sentence as it takes to hear it. Plus people in an audience are always affected by the reactions of those around them, and the reactions that spread from person to person in an audience are disproportionately the more brutish sort, just as low notes travel through walls better than high ones. Every audience is an incipient mob, and a good speaker uses that. Part of the reason I laughed so much at the talk by the good speaker at that conference was that everyone else did. [[4](#f4n)]",
+      "zhMarkdown": "根据听众的不同，还有比这更糟糕的权衡。听众喜欢被奉承，喜欢听笑话，喜欢被滔滔不绝的雄辩带节奏。随着听众智识水平的降低，成为一个好的演讲者就越来越等同于成为一个好的忽悠大师。在写作中当然也有这种情况，但在演讲中，这种退化要剧烈得多。任何人在作为听众的一员时，都比作为读者时要愚蠢。正如即兴演讲的人思考每句话的时间只有说话的那一瞬间，听演讲的人思考每句话的时间也只有听到它的那一瞬间。此外，听众总是会受到周围人反应的影响。在人群中传播的反应，往往是不成比例的粗俗情绪，就像低音比高音更容易穿透墙壁一样。每一个听众群体都蕴含着暴民的基因，而优秀的演讲者深谙此道。在那个大会上，我之所以对那位优秀演讲者的发言笑得那么开心，部分原因正是因为大家都在笑。 [[4](#f4n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "e59b2a6f05850afca1fc5e5334bb530c7042acdf335572dfba4e1c5b7a8fb0a3",
+      "enMarkdown": "So are talks useless? They're certainly inferior to the written word as a source of ideas. But that's not all talks are good for. When I go to a talk, it's usually because I'm interested in the speaker. Listening to a talk is the closest most of us can get to having a conversation with someone like the president, who doesn't have time to meet individually with all the people who want to meet him.",
+      "zhMarkdown": "那么，演讲就一无是处了吗？作为思想的源泉，它们确实远逊于文字。但演讲的用处不仅限于传播思想。我去听一场演讲，通常是因为我对这位演讲者本人感兴趣。听演讲，是普通人最接近与某些大人物（比如总统）进行交谈的方式，因为他们没有时间去单独会见每一个想见他们的人。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "16b1b1be7003cadd0a524a46806b7af2c13c9cf406476ba4ec6339d3eb071b4c",
+      "enMarkdown": "Talks are also good at motivating me to do things. It's probably no coincidence that so many famous speakers are described as motivational speakers. That may be what public speaking is really for. It's probably what it was originally for. The emotional reactions you can elicit with a talk can be a powerful force. I wish I could say that this force was more often used for good than ill, but I'm not sure.",
+      "zhMarkdown": "演讲还非常擅长激励我去付诸行动。许多著名的演讲者被称为“励志演讲家”，这大概并非巧合。这或许才是公众演讲的真正用途，也可能是它最初的用途。演讲所能激发起的情感共鸣，可以是一股强大的力量。我希望这股力量更多地被用于善途而非恶道，但我对此并不确定。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "c616ce76862c5b43530cf75624cf7d75f90aff2a2a7cc94e1aab28f7fcd8f407",
+      "enMarkdown": "[1] I'm not talking here about academic talks, which are a different type of thing. While the audience at an academic talk might appreciate a joke, they will (or at least should) make a conscious effort to see what new ideas you're presenting.",
+      "zhMarkdown": "[1] 我这里指的不是学术报告，那是另一回事。学术报告的听众虽然也喜欢笑话，但他们会（或者至少应该）有意识地去关注你提出了什么新观点。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "334672fd3e96e0a51f532811cf47b5650056049c73056966ae84fac46c1e63e1",
+      "enMarkdown": "[2] That's the lower bound. In practice you can often do better, because talks are usually about things you've written or talked about before, and when you ad lib, you end up reproducing some of those sentences. Like early medieval architecture, impromptu talks are made of spolia. Which feels a bit dishonest, incidentally, because you have to deliver these sentences as if you'd just thought of them.",
+      "zhMarkdown": "[2] 这是底线。在实践中，你通常可以做得更好一些，因为演讲内容通常是你之前写过或谈论过的。当你即兴发挥时，最终会复用其中的一些句子。就像中世纪早期的建筑一样，即兴演讲也是用“废旧建材”拼凑出来的。顺便说一句，这让人感觉有点不诚实，因为你必须把这些句子讲得好像是刚刚才想到的一样。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "c68ca689052ecc50fe8b597e53b17ec7ed65be56824ce06d99ad39b63aea8170",
+      "enMarkdown": "[3] Robert Morris points out that there is a way in which practicing talks makes them better: reading a talk out loud can expose awkward parts. I agree and in fact I read most things I write out loud at least once for that reason.",
+      "zhMarkdown": "[3] 罗伯特·莫里斯（Robert Morris）指出，排练演讲确实能让内容变得更好：大声读出来可以发现拗口的地方。我同意这一点，事实上，出于这个原因，我写的大部分文章都会至少大声朗读一遍。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "c2f7f92430d2952220734686ad0978381813e8cdc6c28e82516125999e2dd967",
+      "enMarkdown": "[4] For sufficiently small audiences, it may not be true that being part of an audience makes people dumber. The real decline seems to set in when the audience gets too big for the talk to feel like a conversation — maybe around 10 people.",
+      "zhMarkdown": "[4] 如果听众人数足够少，身处其中可能并不会让人变蠢。真正的智力退化似乎发生在人数多到让演讲无法感觉像是一场对话时——大概是 10 人以上。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "ae68a5d2ba813866d46e9dd15c991bd4dfc8e051d2c4a7d8fefd56444307eff4",
+      "enMarkdown": "**Thanks** to Sam Altman and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

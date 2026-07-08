@@ -1,0 +1,356 @@
+{
+  "slug": "boss",
+  "titleEn": "You Weren't Meant to Have a Boss",
+  "titleZh": "你不该有老板",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 141,
+  "sourceUrl": "https://paulgraham.com/boss.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "260ed02204114502dc0a8d8dcabb1fb888f1229edcc279917f3727be6f02d4c7",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/you-weren-t-meant-to-have-a-boss-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/you-weren-t-meant-to-have-a-boss-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "0487c8176dddfed096c28774a167b88300530b3a44140dd361b1cc30cd27f8a4",
+      "enMarkdown": "March 2008, rev. June 2008",
+      "zhMarkdown": "2008年3月，2008年6月修订"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "3f6627e12d668959d61e4f3bc0709e22d25e27215c00ed2ad08dd43440c2a3d7",
+      "enMarkdown": "Technology tends to separate normal from natural. Our bodies weren't designed to eat the foods that people in rich countries eat, or to get so little exercise. There may be a similar problem with the way we work: a normal job may be as bad for us intellectually as white flour or sugar is for us physically.",
+      "zhMarkdown": "技术往往会把“正常”与“自然”割裂开来。我们的身体并不是为了吃富裕国家人们所吃的食物而设计的，也不是为了几乎不运动而设计的。我们在工作方式上可能也面临着类似的问题：一份正常的工作对我们智力上的伤害，可能不亚于白面粉或糖对我们身体的伤害。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "494e83506bc59f62d2390f2b4aec9cb7ab2f3f3aa02518ab0b1f2908ba31fc83",
+      "enMarkdown": "I began to suspect this after spending several years working with startup founders. I've now worked with over 200 of them, and I've noticed a definite difference between programmers working on their own startups and those working for large organizations. I wouldn't say founders seem happier, necessarily; starting a startup can be very stressful. Maybe the best way to put it is to say that they're happier in the sense that your body is happier during a long run than sitting on a sofa eating doughnuts.",
+      "zhMarkdown": "在与创业创始人一起工作了几年之后，我开始怀疑这一点。到目前为止，我已经和 200 多位创始人合作过，我发现自己创业的程序员与在大型机构工作的程序员之间有着明显的不同。我不会说创始人看起来一定更快乐；创办一家创业公司可能会压力极大。也许最好的表达方式是，他们的快乐，就像你的身体在长跑时比坐在沙发上吃甜甜圈时更快乐一样。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a53c258b1817691ab9eabb72ae04b59da07cff54ccc1a302bd450cb315b8f562",
+      "enMarkdown": "Though they're statistically abnormal, startup founders seem to be working in a way that's more natural for humans.",
+      "zhMarkdown": "尽管从统计学上看他们属于少数，但创业创始人似乎正在以一种对人类来说更自然的方式工作。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "418494cda46aa6fa09747ef6ec4c142d41642cce45121e5eb094ea1dcbc25040",
+      "enMarkdown": "I was in Africa last year and saw a lot of animals in the wild that I'd only seen in zoos before. It was remarkable how different they seemed. Particularly lions. Lions in the wild seem about ten times more alive. They're like different animals. I suspect that working for oneself feels better to humans in much the same way that living in the wild must feel better to a wide-ranging predator like a lion. Life in a zoo is easier, but it isn't the life they were designed for.",
+      "zhMarkdown": "去年我在非洲，在野外看到了很多以前只在动物园里见过的动物。它们看起来如此不同，令人惊叹。尤其是狮子。野外的狮子看起来生命力要强十倍。它们就像是不同的动物。我怀疑，为自己工作让 level 感觉更好，这与在野外生活让像狮子这样活动范围广阔的捕食者感觉更好，是完全一样的。动物园里的生活更轻松，但那不是它们天生该有的生活。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "9c42241c09781370e408f676f6965e2ec048cd7b36aadc773836d3a4312be996",
+      "enMarkdown": "**Trees**",
+      "zhMarkdown": "**树状结构**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "641c0f1aee2f8e5dcfe3cc0b991e4aa74aa8737225d88cda25a39644c7cecc60",
+      "enMarkdown": "What's so unnatural about working for a big company? The root of the problem is that humans weren't meant to work in such large groups.",
+      "zhMarkdown": "在一家大公司工作有什么不自然的？问题的根源在于，人类天生就不适合在如此庞大的群体中工作。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "4b001e49bd141f6e7890073758588a00a16b326c720f51ff6d729c2ce0eb32c6",
+      "enMarkdown": "Another thing you notice when you see animals in the wild is that each species thrives in groups of a certain size. A herd of impalas might have 100 adults; baboons maybe 20; lions rarely 10. Humans also seem designed to work in groups, and what I've read about hunter-gatherers accords with research on organizations and my own experience to suggest roughly what the ideal size is: groups of 8 work well; by 20 they're getting hard to manage; and a group of 50 is really unwieldy. [[1](#f1n)]",
+      "zhMarkdown": "在野外观察动物时你还会注意到另一件事，那就是每个物种都在特定规模的群体中繁衍。一伙黑斑羚可能有 100 只成年个体；狒狒大约有 20 只；狮子很少超过 10 只。人类似乎也是为了在群体中工作而设计的，我所读到的关于狩猎采集者的资料，与关于组织的研究以及我自己的经验相吻合，大致暗示了理想的规模：8 人的小组运转良好；到了 20 人就变得难以管理；而 50 人的群体就真正变得笨重了。[[1](#f1n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "651789b2dbbca5ae44f5b54fd1df6eb5f32b81586c884bf6a6037194db283f3d",
+      "enMarkdown": "Whatever the upper limit is, we are clearly not meant to work in groups of several hundred. And yet—for reasons having more to do with technology than human nature—a great many people work for companies with hundreds or thousands of employees.",
+      "zhMarkdown": "无论上限是多少，我们显然不适合在几百人的群体中工作。然而——由于技术而非人性的原因——绝大多数人都在拥有成百上千名员工的公司工作。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "8ac92d5b8964e8d4131cf3f01e2b7909cb58a784263793a9b232e3ea5250c4f2",
+      "enMarkdown": "Companies know groups that large wouldn't work, so they divide themselves into units small enough to work together. But to coordinate these they have to introduce something new: bosses.",
+      "zhMarkdown": "公司知道这么大的群体无法运转，所以他们将自己划分为足够小的单元来协同工作。但为了协调这些单元，他们必须引入一个新事物：老板。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ba0b4e2de7cb4084223fa535601be1d2731a1ba5422f3713577839e139ddb11e",
+      "enMarkdown": "These smaller groups are always arranged in a tree structure. Your boss is the point where your group attaches to the tree. But when you use this trick for dividing a large group into smaller ones, something strange happens that I've never heard anyone mention explicitly. In the group one level up from yours, your boss represents your entire group. A group of 10 managers is not merely a group of 10 people working together in the usual way. It's really a group of groups. Which means for a group of 10 managers to work together as if they were simply a group of 10 individuals, the group working for each manager would have to work as if they were a single person—the workers and manager would each share only one person's worth of freedom between them.",
+      "zhMarkdown": "这些较小的群体总是排列成树状结构。你的老板就是你的群体连接到这棵树上的那个点。但是，当你使用这个技巧将一个大群体划分为小群体时，会发生一些我从未听人明确提起过的奇怪事情。在比你高一级的小组中，你的老板代表了你们整个小组。一个由 10 名经理组成的小组不仅仅是 10 个人像往常一样一起工作。它实际上是一个“小组的小组”。这意味着，为了让这 10 名经理像 10 个普通的个人一样协同工作，为每个经理工作的团队就必须表现得像一个人一样——员工和经理只能共同分享相当于一个人的自由度。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "f4cd774faf7794883d5693e59ba457eccb146a863efdc8d96ca1a82f05caa920",
+      "enMarkdown": "In practice a group of people are never able to act as if they were one person. But in a large organization divided into groups in this way, the pressure is always in that direction. Each group tries its best to work as if it were the small group of individuals that humans were designed to work in. That was the point of creating it. And when you propagate that constraint, the result is that each person gets freedom of action in inverse proportion to the size of the entire tree. [[2](#f2n)]",
+      "zhMarkdown": "在实际操作中，一组人永远无法做到像一个人那样行动。但在一个以这种方式划分小组的大型组织中，压力总是朝着那个方向施加。每个小组都尽最大努力像人类天生适合工作的、由个人组成的小组那样去工作。这就是创建它的初衷。当你传递这种限制时，其结果就是每个人获得的行动自由与整棵树的规模成反比。[[2](#f2n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "034e151df734d5d1fc2818ee29d2c74208b69884ad1b427bb4d4df892a1fd011",
+      "enMarkdown": "Anyone who's worked for a large organization has felt this. You can feel the difference between working for a company with 100 employees and one with 10,000, even if your group has only 10 people.",
+      "zhMarkdown": "任何在大型组织工作过的人都感受过这一点。即使你的小组只有 10 个人，你也能感受到在一家有 100 名员工的公司和在一家有 10,000 名员工的公司工作的区别。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "ea314bbe3cf7c2df1c22e1c8d92ab615aca1306e8288860399dba883f638b64e",
+      "enMarkdown": "**Corn Syrup**",
+      "zhMarkdown": "**高果糖浆**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "ee018e6da7561809f4c417c451a9c9f99a01d1d9c1880a498d0b9c3f87652e0f",
+      "enMarkdown": "A group of 10 people within a large organization is a kind of fake tribe. The number of people you interact with is about right. But something is missing: individual initiative. Tribes of hunter-gatherers have much more freedom. The leaders have a little more power than other members of the tribe, but they don't generally tell them what to do and when the way a boss can.",
+      "zhMarkdown": "大型组织中 10 个人的小组是一种虚假的部落。你互动的人数差不多是合适的。但缺少了一些东西：个人主动性。狩猎采集者的部落有自由得多。首领的权力比部落其他成员稍大一些，但他们通常不会像老板那样，对成员发号施令、规定什么时候该做什么。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "569bf6c38c685761c500f1b3d5d04dfd749b18c484601cf49e138205967221d5",
+      "enMarkdown": "It's not your boss's fault. The real problem is that in the group above you in the hierarchy, your entire group is one virtual person. Your boss is just the way that constraint is imparted to you.",
+      "zhMarkdown": "这不是你老板的错。真正的问题在于，在层级结构中高于你的那个小组里，你的整个小组就是一个虚拟的人。你的老板只是将这种限制强加给你的一种途径。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "628355358da5db1fa7a59566ccbb7510ac99a59b3711f3145f7dc2702f9f89de",
+      "enMarkdown": "So working in a group of 10 people within a large organization feels both right and wrong at the same time. On the surface it feels like the kind of group you're meant to work in, but something major is missing. A job at a big company is like high fructose corn syrup: it has some of the qualities of things you're meant to like, but is disastrously lacking in others.",
+      "zhMarkdown": "因此，在大型组织中一个 10 人的小组里工作，会让人同时感到对劲和不对劲。表面上，它感觉就像你天生应该在其中工作的那种小组，但一些重大的东西缺失了。在大公司工作就像高果糖浆：它具有一些你天生会喜欢的东西的品质，但灾难性地缺乏其他品质。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "bbfbe07d65c7d1005903339dcb201ab86c67e6970b5462c978d06a43823bf8d1",
+      "enMarkdown": "Indeed, food is an excellent metaphor to explain what's wrong with the usual sort of job.",
+      "zhMarkdown": "的确，食物是一个极好的比喻，可以用来解释普通工作有什么问题。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "ce7d8eb5e22f5cd2d828b3b92a47a7d8f26a5a47f1d666fd680ab4471432aab9",
+      "enMarkdown": "For example, working for a big company is the default thing to do, at least for programmers. How bad could it be? Well, food shows that pretty clearly. If you were dropped at a random point in America today, nearly all the food around you would be bad for you. Humans were not designed to eat white flour, refined sugar, high fructose corn syrup, and hydrogenated vegetable oil. And yet if you analyzed the contents of the average grocery store you'd probably find these four ingredients accounted for most of the calories. \"Normal\" food is terribly bad for you. The only people who eat what humans were actually designed to eat are a few Birkenstock-wearing weirdos in Berkeley.",
+      "zhMarkdown": "例如，在一家大公司工作是默认的选择，至少对程序员来说是这样。这能有多糟呢？好吧，食物很清楚地说明了这一点。如果今天把你随机扔在美国的某个地方，你周围几乎所有的食物都对身体有害。人类天生就不是吃白面粉、精制糖、高果糖浆和氢化植物油的。然而，如果你分析一下普通杂货店的商品，你会发现这四种成分可能占了大部分卡路里。“正常”的食物对你身体极其有害。唯一吃着人类天生该吃的东西的人，是伯克利少数几个穿着勃肯鞋的怪人。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "b4a43ee4a5f36f7c4035a9410dad73206b438b89c4d2c9a677d2b3d6c07017e9",
+      "enMarkdown": "If \"normal\" food is so bad for us, why is it so common? There are two main reasons. One is that it has more immediate appeal. You may feel lousy an hour after eating that pizza, but eating the first couple bites feels great. The other is economies of scale. Producing junk food scales; producing fresh vegetables doesn't. Which means (a) junk food can be very cheap, and (b) it's worth spending a lot to market it.",
+      "zhMarkdown": "如果“正常”的食物对我们这么有害，为什么还这么普遍？有两个主要原因。一是它具有更直接的吸引力。吃完那份披萨一小时后你可能会觉得很不舒服，但吃前几口的感觉棒极了。另一个是规模经济。生产垃圾食品是可以规模化的，而生产新鲜蔬菜则不能。这意味着（a）垃圾食品可以非常便宜，并且（b）值得花大价钱去营销它。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "4fdc314ecde286eb85c77cadce3a13a455b383d40600760070e0d3100f333b64",
+      "enMarkdown": "If people have to choose between something that's cheap, heavily marketed, and appealing in the short term, and something that's expensive, obscure, and appealing in the long term, which do you think most will choose?",
+      "zhMarkdown": "如果人们必须在便宜、营销攻势猛烈、短期内有吸引力的东西，和昂贵、冷门、长期看有益的东西之间做出选择，你认为大多数人会选择哪一个？"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "9fbe0385ce034dff84d1f6c3347b8583706676b841deca501970dcba2e3f7e2b",
+      "enMarkdown": "It's the same with work. The average MIT graduate wants to work at Google or Microsoft, because it's a recognized brand, it's safe, and they'll get paid a good salary right away. It's the job equivalent of the pizza they had for lunch. The drawbacks will only become apparent later, and then only in a vague sense of malaise.",
+      "zhMarkdown": "工作也是一样。普通的麻省理工学院（MIT）毕业生想去谷歌或微软工作，因为那是知名品牌，安全，而且能马上拿到丰厚的薪水。这相当于他们午餐吃的那份披萨在工作上的翻版。弊端只有在以后才会显现出来，而且只是一种模糊的倦怠感。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "9a4adb5fd3c8812e00ecefe4880b008de1a40edb1d5338f80e4817a015822bba",
+      "enMarkdown": "And founders and early employees of startups, meanwhile, are like the Birkenstock-wearing weirdos of Berkeley: though a tiny minority of the population, they're the ones living as humans are meant to. In an artificial world, only extremists live naturally.",
+      "zhMarkdown": "而与此同时，创业公司的创始人和早期员工，就像伯克利那些穿着勃肯鞋的怪人：虽然只占人口的极少数，但他们才是像人类本该有的那样生活的人。在一个人工构建的世界里，只有极端主义者才能活得自然。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "fd6102142a11c408fa3a13e12d7153e464241d3d6736e9f52973aea7d1765be5",
+      "enMarkdown": "**Programmers**",
+      "zhMarkdown": "**程序员**"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "eba380911bfce1a130386d96857d2f724bb0cbb5c57aa6ed87c6e63f333d34a5",
+      "enMarkdown": "The restrictiveness of big company jobs is particularly hard on programmers, because the essence of programming is to build new things. Sales people make much the same pitches every day; support people answer much the same questions; but once you've written a piece of code you don't need to write it again. So a programmer working as programmers are meant to is always making new things. And when you're part of an organization whose structure gives each person freedom in inverse proportion to the size of the tree, you're going to face resistance when you do something new.",
+      "zhMarkdown": "大公司工作的限制对程序员来说尤其难以忍受，因为编程的本质就是创造新东西。销售人员每天都在做差不多的推销；客服人员解答差不多的问题；但是一旦你写好了一段代码，你就不需要再写一遍了。所以，一个按照本分工作的程序员总是处于创造新东西的状态。而当你身处一个结构让每个人的自由度与树的规模成反比的组织中时，当你做新东西时，你必然会面临阻力。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "16b19e0a745e9fe5fef3094c0bfed15e95e3efe7c30fe664b13500878b6a795f",
+      "enMarkdown": "This seems an inevitable consequence of bigness. It's true even in the smartest companies. I was talking recently to a founder who considered starting a startup right out of college, but went to work for Google instead because he thought he'd learn more there. He didn't learn as much as he expected. Programmers learn by doing, and most of the things he wanted to do, he couldn't—sometimes because the company wouldn't let him, but often because the company's code wouldn't let him. Between the drag of legacy code, the overhead of doing development in such a large organization, and the restrictions imposed by interfaces owned by other groups, he could only try a fraction of the things he would have liked to. He said he has learned much more in his own startup, despite the fact that he has to do all the company's errands as well as programming, because at least when he's programming he can do whatever he wants.",
+      "zhMarkdown": "这似乎是大公司不可避免的后果。即使在最聪明的公司也是如此。我最近和一个创始人聊天，他曾考虑大学一毕业就创业，但最后还是去了谷歌工作，因为他觉得在那里能学到更多东西。但他学到的并没有预期的那么多。程序员是通过实践来学习的，而他想做的大多数事情，他都做不了——有时是因为公司不允许，但往往是因为公司的代码不允许。在遗留代码的拖累、在如此庞大的组织中进行开发的开销，以及其他小组拥有的接口所带来的限制之间，他只能尝试他想做的事情中的一小部分。他说他在自己的创业公司里学到了多得多的东西，尽管他除了编程之外还得打理公司所有的杂务，因为至少在编程时，他可以想做什么就做什么。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "66a1af3a3a92c5479f7dac8ade9c6993fd967c90cf66169372a088ab30c01ae1",
+      "enMarkdown": "An obstacle downstream propagates upstream. If you're not allowed to implement new ideas, you stop having them. And vice versa: when you can do whatever you want, you have more ideas about what to do. So working for yourself makes your brain more powerful in the same way a low-restriction exhaust system makes an engine more powerful.",
+      "zhMarkdown": "下游的障碍会向上传播。如果你不被允许实现新想法，你就会停止产生新想法。反之亦然：当你能随心所欲地做事时，你就会有更多关于做什么的想法。因此，为自己工作会让你的大脑变得更强大，就像低阻力的排气系统会让发动机更强劲一样。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "76e3ca65d67f1a282ed34e75c0cdc4c502fb13ac6d96a3f9aebe704c4ccc8443",
+      "enMarkdown": "Working for yourself doesn't have to mean starting a startup, of course. But a programmer deciding between a regular job at a big company and their own startup is probably going to learn more doing the startup.",
+      "zhMarkdown": "当然，为自己工作并不一定意味着创办一家创业公司。但是，一个程序员在去大公司做一份普通工作和自己创业之间做选择，做创业公司可能会学到更多。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "67feb69b90ee6f0a083109f34852baa00df148d622ae65c8a5e1a8e9eb4c958b",
+      "enMarkdown": "You can adjust the amount of freedom you get by scaling the size of company you work for. If you start the company, you'll have the most freedom. If you become one of the first 10 employees you'll have almost as much freedom as the founders. Even a company with 100 people will feel different from one with 1000.",
+      "zhMarkdown": "你可以通过调整你所工作的公司规模来调整你获得的自由度。如果你创办了这家公司，你将拥有最大的自由。如果你成为前 10 名员工之一，你将拥有几乎和创始人一样多的自由。即使是一家 100 人的公司，感觉也会和一家 1000 人的公司不同。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "3ae523356aecf0c282743e75c82e6820c95b510acc8bb298d3ce376da053b0d1",
+      "enMarkdown": "Working for a small company doesn't ensure freedom. The tree structure of large organizations sets an upper bound on freedom, not a lower bound. The head of a small company may still choose to be a tyrant. The point is that a large organization is compelled by its structure to be one.",
+      "zhMarkdown": "在小公司工作并不能保证自由。大型组织的树状结构设定的是自由的上限，而不是下限。小公司的老板仍然可以选择做一个暴君。关键在于，大型组织由于其结构，不得不成为一个暴君。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "08906d303f880677b93217a5354c5a762baa2148f3366b0176ef7693ecb7aeba",
+      "enMarkdown": "**Consequences**",
+      "zhMarkdown": "**后果**"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "458afea9192be368b9d5f3e8547194c974711ea92bed74f45000d32dd8b25931",
+      "enMarkdown": "That has real consequences for both organizations and individuals. One is that companies will inevitably slow down as they grow larger, no matter how hard they try to keep their startup mojo. It's a consequence of the tree structure that every large organization is forced to adopt.",
+      "zhMarkdown": "这对组织和个人都有着实实在在的影响。其中之一是，公司随着规模变大，必然会慢下来，无论它们多么努力地想要保持自己的创业活力。这是每个大型组织都不得不采用的树状结构所导致的必然结果。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "78ddcefe51b70af0b5ce5651d0a15e61d28698f88e4182e01a2a2241324dd727",
+      "enMarkdown": "Or rather, a large organization could only avoid slowing down if they avoided tree structure. And since human nature limits the size of group that can work together, the only way I can imagine for larger groups to avoid tree structure would be to have no structure: to have each group actually be independent, and to work together the way components of a market economy do.",
+      "zhMarkdown": "或者更确切地说，一个大型组织只有在避免树状结构的前提下，才能避免慢下来。既然人性限制了协同工作的小组规模，我能想象到的、让更大的群体避免树状结构的唯一方法就是不设结构：让每个小组实际上都是独立的，并像市场经济中的各个组成部分那样协同工作。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "783d83216755240a14d3d21977b08069b3cf93e53519343e92842ea165d00ed2",
+      "enMarkdown": "That might be worth exploring. I suspect there are already some highly partitionable businesses that lean this way. But I don't know any technology companies that have done it.",
+      "zhMarkdown": "这或许值得探索。我怀疑已经有一些高度可分割的业务倾向于这种方式。但我不知道有哪家技术公司做到了这一点。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "6c86ae7373780fd36865da1acf04ed7786f6445a2dd9028d33108d24ce9ce0da",
+      "enMarkdown": "There is one thing companies can do short of structuring themselves as sponges: they can stay small. If I'm right, then it really pays to keep a company as small as it can be at every stage. Particularly a technology company. Which means it's doubly important to hire the best people. Mediocre hires hurt you twice: they get less done, but they also make you big, because you need more of them to solve a given problem.",
+      "zhMarkdown": "除了将自己构建得像海绵一样，公司还可以做一件事：保持小规模。如果我是对的，那么在每个阶段都尽可能保持公司的小规模，确实会带来丰厚的回报。尤其是技术公司。这意味着雇佣最优秀的人才加倍重要。平庸的雇员会给你带来双重伤害：他们不仅做成的事更少，而且还会让你的规模变大，因为你需要更多的人来解决一个特定的问题。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "e089021542492a8ab5642de46245bb36f47dafddebdfd58a96cfe5b2fa2dbf89",
+      "enMarkdown": "For individuals the upshot is the same: aim small. It will always suck to work for large organizations, and the larger the organization, the more it will suck.",
+      "zhMarkdown": "对于个人来说，结论是一样的：目标放小。在大型组织中工作总是很糟糕，而且组织越大，就越糟糕。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "f74c50d439f28bd672b4701990d3b0cda98168bde76c74e5ad0974689c3bee48",
+      "enMarkdown": "In an [essay](https://paulgraham.com/start.html) I wrote a couple years ago I advised graduating seniors to work for a couple years for another company before starting their own. I'd modify that now. Work for another company if you want to, but only for a small one, and if you want to start your own startup, go ahead.",
+      "zhMarkdown": "在几年前写的一篇[文章](https://paulgraham.com/start.html)中，我建议即将毕业的大四学生在创办自己的公司之前，先在别的公司工作几年。我现在要修正这个观点。如果你想的话，可以去别的公司工作，但只能去小公司；如果你想创办自己的创业公司，那就去干吧。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8fb49dfe92d5ef3e9444ae7bd916f82e413c5fec86fe188ab12d9ec666208b3a",
+      "enMarkdown": "The reason I suggested college graduates not start startups immediately was that I felt most would fail. And they will. But ambitious programmers are better off doing their own thing and failing than going to work at a big company. Certainly they'll learn more. They might even be better off financially. A lot of people in their early twenties get into debt, because their expenses grow even faster than the salary that seemed so high when they left school. At least if you start a startup and fail your net worth will be zero rather than negative. [[3](#f3n)]",
+      "zhMarkdown": "我之前建议大学毕业生不要立即创业，是因为我觉得大多数人都会失败。他们确实会失败。但雄心勃勃的程序员自己单干即使失败了，也比去大公司工作要好。当然，他们会学到更多。甚至在财务上，他们可能还会更好。许多二十出头的人都会陷入债务，因为他们的开销增长速度甚至超过了毕业时看起来很高的薪水。至少如果你创办了一家创业公司并失败了，你的净资产将是零，而不是负数。[[3](#f3n)]"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "8d6721a4bd184c687dbcef23908437c764e881cde8ed31e313e7d1afe9c95d65",
+      "enMarkdown": "We've now funded so many different types of founders that we have enough data to see patterns, and there seems to be no benefit from working for a big company. The people who've worked for a few years do seem better than the ones straight out of college, but only because they're that much older.",
+      "zhMarkdown": "我们现在已经资助了如此多不同类型的创始人，积累了足够的数据来观察规律，而在大公司工作似乎没有任何好处。工作了几年的人确实看起来比刚从大学毕业的人更好，但这只是因为他们年纪大了一些。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "d1027cbe639bfa9d588ff78970dbcd3acd8795511855863acc91f09dfe062e6b",
+      "enMarkdown": "The people who come to us from big companies often seem kind of conservative. It's hard to say how much is because big companies made them that way, and how much is the natural conservatism that made them work for the big companies in the first place. But certainly a large part of it is learned. I know because I've seen it burn off.",
+      "zhMarkdown": "从大公司来到我们这里的人，往往显得有些保守。很难说这在多大程度上是因为大公司让他们变成了那样，又在多大程度上是因为他们天生的保守，从而最初选择了去大公司工作。但这其中肯定有很大一部分是后天习得的。我之所以知道，是因为我目睹了这种保守被燃烧殆尽。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "116891c642bee1d2c08f81fb720d68354a12ea2fa12cf620ccc36cfd6bd04423",
+      "enMarkdown": "Having seen that happen so many times is one of the things that convinces me that working for oneself, or at least for a small group, is the natural way for programmers to live. Founders arriving at Y Combinator often have the downtrodden air of refugees. Three months later they're transformed: they have so much more [confidence](http://paulmckellar.com/photos/03l) that they seem as if they've grown several inches taller. [[4](#f4n)] Strange as this sounds, they seem both more worried and happier at the same time. Which is exactly how I'd describe the way lions seem in the wild.",
+      "zhMarkdown": "目睹了这么多次这样的转变，是让我坚信为自己工作（或至少在小团队中工作）是程序员天然生活方式的原因之一。来到 Y Combinator 的创始人往往带着难民般备受摧残的神气。三个月后，他们脱胎换骨：他们变得如此有[自信](http://paulmckellar.com/photos/03l)，以至于看起来好像长高了几英寸。[[4](#f4n)] 听起来很奇怪，他们似乎同时变得更加忧虑，也更加快乐。这正是我用来形容野外狮子状态的词汇。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "512226c3ec9e2c7598a91e2efdd43d7ec84898f1e3d9ea1add19eff9f041ceac",
+      "enMarkdown": "Watching employees get transformed into founders makes it clear that the difference between the two is due mostly to environment—and in particular that the environment in big companies is toxic to programmers. In the first couple weeks of working on their own startup they seem to come to life, because finally they're working the way people are meant to.",
+      "zhMarkdown": "看着员工转变为创始人，可以清楚地发现，两者之间的差异主要源于环境——特别是大公司的环境对程序员来说是有毒的。在经营自己创业公司的头几周里，他们似乎活了过来，因为他们终于在以人类本该有的方式工作了。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "9cadf5a9f7e01e9da824b736599ce71293c712a0d293074d4393a95054a94fda",
+      "enMarkdown": "[1] When I talk about humans being meant or designed to live a certain way, I mean by evolution.",
+      "zhMarkdown": "[1] 当我谈到人类天生或被设计为以某种方式生活时，我指的是通过进化。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "8550ed1ab7938023a18815b05666492f439194511a4d4c72ee8c18933511d823",
+      "enMarkdown": "[2] It's not only the leaves who suffer. The constraint propagates up as well as down. So managers are constrained too; instead of just doing things, they have to act through subordinates.",
+      "zhMarkdown": "[2] 痛苦的不只是树叶（底层员工）。这种限制既向上传播，也向下传播。所以经理们也受到了限制；他们不能直接做事，而是必须通过下属来行动。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "9a3a6c2ec6a5e79b24cd1bf6a7d486e5624424def5f2724aff942dac0fc4ec64",
+      "enMarkdown": "[3] Do not finance your startup with credit cards. Financing a startup with debt is usually a stupid move, and credit card debt stupidest of all. Credit card debt is a bad idea, period. It is a trap set by evil companies for the desperate and the foolish.",
+      "zhMarkdown": "[3] 不要用信用卡为你的创业公司融资。用债务为创业公司融资通常是愚蠢的举动，而信用卡债务最愚蠢。信用卡债务是一个糟糕的主意，毫无疑问。它是邪恶的公司为绝望者和愚蠢者设下的陷阱。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "9d03bfd12ac826ebe9977fc8791132181eaa842cf8ed4cf77cccb727d9519a86",
+      "enMarkdown": "[4] The founders we fund used to be younger (initially we encouraged undergrads to apply), and the first couple times I saw this I used to wonder if they were actually getting physically taller.",
+      "zhMarkdown": "[4] 我们资助的创始人以前更年轻（最初我们鼓励本科生申请），前几次看到这种情况时，我甚至怀疑他们是不是真的在身体上长高了。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "40e5dce503112664c2953a435335e6b080cfc514500c0d80f8a5b1072132085a",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Ross Boucher, Aaron Iba, Abby Kirigin, Ivan Kirigin, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Ross Boucher、Aaron Iba、Abby Kirigin、Ivan Kirigin、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

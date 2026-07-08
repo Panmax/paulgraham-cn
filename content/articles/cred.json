@@ -1,0 +1,55 @@
+{
+  "slug": "cred",
+  "titleEn": "Coronavirus and Credibility",
+  "titleZh": "新冠病毒与公信力",
+  "dateText": "April 2020",
+  "publishedAt": "2020-04-01",
+  "sourceOrder": 46,
+  "sourceUrl": "https://paulgraham.com/cred.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "985d1589001dab774ffbcca164b666272a36833703a0e22baa9b916305446f01",
+      "enMarkdown": "I recently saw a [video](https://www.youtube.com/watch?v=NAh4uS4f78o) of TV journalists and politicians confidently saying that the coronavirus would be no worse than the flu. What struck me about it was not just how mistaken they seemed, but how daring. How could they feel safe saying such things?",
+      "zhMarkdown": "最近我看到一段[视频](https://www.youtube.com/watch?v=NAh4uS4f78o)，视频里的电视记者和政客们言之凿凿地声称，新冠病毒并不会比流感更严重。让我感到震惊的，不仅是他们错得有多离谱，更是他们有多大胆。他们怎么敢如此笃定地逗留于这种言论中？"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "8809f59ed49ff605bbeb58f4d7aec4dacbb463c1125d1f127eb69c8e9ac264a8",
+      "enMarkdown": "The answer, I realized, is that they didn't think they could get caught. They didn't realize there was any danger in making false predictions. These people constantly make false predictions, and get away with it, because the things they make predictions about either have mushy enough outcomes that they can bluster their way out of trouble, or happen so far in the future that few remember what they said.",
+      "zhMarkdown": "我意识到，答案在于他们认为自己不会被当场抓包。他们根本没意识到做出错误预测会有什么危险。这些人经常做出错误的预测，却总能蒙混过关，因为他们预测的事情要么结果模棱两可，足以让他们靠着插科打诨糊弄过去；要么发生在遥远的未来，以至于没几个人能记住他们说过什么。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "2463bf8b12e4b5360aa4844bf99e8774ca6ca0ebf134827fbe9a25c5ca85d631",
+      "enMarkdown": "An epidemic is different. It falsifies your predictions rapidly and unequivocally.",
+      "zhMarkdown": "但流行病不同。它会迅速且毫不含糊地证伪你的预测。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "07e0f28a341aed3f4364193512c4abc4c94041083f5df498cad15c75c1ea0b0d",
+      "enMarkdown": "But epidemics are rare enough that these people clearly didn't realize this was even a possibility. Instead they just continued to use their ordinary m.o., which, as the epidemic has made clear, is to talk confidently about things they don't understand.",
+      "zhMarkdown": "然而，由于流行病极其罕见，这些人显然没有意识到这种可能性的存在。相反，他们只是继续沿用自己一贯的行事风格——正如这场疫情所揭示的那样：对自己根本不懂的事情侃侃而谈。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "555d32341eaa11ae1a4dab2e1812018b4c926655ea765d23f32193dfd90918a6",
+      "enMarkdown": "An event like this is thus a uniquely powerful way of taking people's measure. As Warren Buffett said, \"It's only when the tide goes out that you learn who's been swimming naked.\" And the tide has just gone out like never before.",
+      "zhMarkdown": "因此，像这样的大事件是检验一个人成色的绝佳机会。正如沃伦·巴菲特所说：“只有当潮水退去的时候，你才知道谁在裸泳。”而现在的退潮程度，是前所未有的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "40cdc4e6adbdb942f3e6c7d372557ac799f9de78fe780e512291f76b6242fda1",
+      "enMarkdown": "Now that we've seen the results, let's remember what we saw, because this is the most accurate test of credibility we're ever likely to have. I hope.",
+      "zhMarkdown": "既然我们已经看到了结果，那就让我们记住眼前的这一幕，因为这很可能是我们所能经历的、最精确的一次公信力测试。至少，我希望如此。"
+    }
+  ]
+}

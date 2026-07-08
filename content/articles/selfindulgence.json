@@ -1,0 +1,76 @@
+{
+  "slug": "selfindulgence",
+  "titleEn": "How to Lose Time and Money",
+  "titleZh": "如何虚度光阴与折损金钱",
+  "dateText": "July 2010",
+  "publishedAt": "2010-07-01",
+  "sourceOrder": 2,
+  "sourceUrl": "https://paulgraham.com/selfindulgence.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "9047a58f868778df90c1885e8eedb966335929e253adbc7342122a2b1b018787",
+      "enMarkdown": "When we sold our startup in 1998 I suddenly got a lot of money. I now had to think about something I hadn't had to think about before: how not to lose it. I knew it was possible to go from rich to poor, just as it was possible to go from poor to rich. But while I'd spent a lot of the past several years studying the paths from [poor to rich](https://paulgraham.com/wealth.html), I knew practically nothing about the paths from rich to poor. Now, in order to avoid them, I had to learn where they were.",
+      "zhMarkdown": "1998 年我们卖掉创业公司时，我突然得到了一大笔钱。这时我不得不开始思考一个以前从未想过的问题：如何不把这笔钱弄丢。我知道人可以从富有变回贫穷，就像可以从贫穷变富有一样。但在过去几年里，我花了大把时间研究如何[由贫变富](https://paulgraham.com/wealth.html)，而对由富变贫的路径几乎一无所知。现在，为了避开这些坑，我必须弄清楚它们都在哪里。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "ed77ec8112150f4abc27b54b178ef329673145d532bee73b814932b5bead0b11",
+      "enMarkdown": "So I started to pay attention to how fortunes are lost. If you'd asked me as a kid how rich people became poor, I'd have said by spending all their money. That's how it happens in books and movies, because that's the colorful way to do it. But in fact the way most fortunes are lost is not through excessive expenditure, but through bad investments.",
+      "zhMarkdown": "于是，我开始关注财富是如何流失的。如果在我小时候，你问我富人是怎么变穷的，我一定会说是把钱花光了。书里和电影里都是这么演的，因为这种方式最富有戏剧色彩。但事实上，大多数财富的流失并非源于挥霍无度，而是源于糟糕的投资。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "13aeb794095739add24ae8e6eb685ea7260b9f4fe12c71ef346bc7bd1f83f18c",
+      "enMarkdown": "It's hard to spend a fortune without noticing. Someone with ordinary tastes would find it hard to blow through more than a few tens of thousands of dollars without thinking \"wow, I'm spending a lot of money.\" Whereas if you start trading derivatives, you can lose a million dollars (as much as you want, really) in the blink of an eye.",
+      "zhMarkdown": "想在毫无察觉的情况下把钱花光其实很难。一个品味普通的人，在花掉超过几万美元的时候，很难不心里咯噔一下，想：“哇，我花太多钱了。” 相比之下，如果你开始交易衍生品，眨眼之间就能亏掉一百万美元（事实上，你想亏多少就能亏多少）。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "14e0646d9ad5b532d54b4f179fa45f703c254c9bbdad105b6236a5e52d99d923",
+      "enMarkdown": "In most people's minds, spending money on luxuries sets off alarms that making investments doesn't. Luxuries seem self-indulgent. And unless you got the money by inheriting it or winning a lottery, you've already been thoroughly trained that self-indulgence leads to trouble. Investing bypasses those alarms. You're not spending the money; you're just moving it from one asset to another. Which is why people trying to sell you expensive things say \"it's an investment.\"",
+      "zhMarkdown": "在大多数人的潜意识里，把钱花在奢侈品上会拉响警报，而进行投资则不会。奢侈消费看起来像是放纵。除非你的钱是继承的或中彩票得来的，否则你早就接受过根深蒂固的训练，知道放纵会带来麻烦。而投资则绕过了这些警报。你没有把钱花掉，只是把它从一种资产转移到了另一种资产。这就是为什么那些想卖给你贵重物品的人总会说：“这是一项投资。”"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "2d9a5ed76da1e0c7bc78658ecfc6af9c88e1564d379c5d03842d0a245c2bfa6e",
+      "enMarkdown": "The solution is to develop new alarms. This can be a tricky business, because while the alarms that prevent you from overspending are so basic that they may even be in our DNA, the ones that prevent you from making bad investments have to be learned, and are sometimes fairly counterintuitive.",
+      "zhMarkdown": "解决方案是建立新的警报机制。这可能是一件棘手的事，因为防止过度消费的警报非常基础，甚至可能已经刻在了我们的 DNA 里，而防止糟糕投资的警报则必须通过后天学习获得，而且有时相当反直觉。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "17be434db783f32cfed7e7c98734b3b2546c84d683e524d5b29614fdae2e9668",
+      "enMarkdown": "A few days ago I realized something surprising: the situation with time is much the same as with money. The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work. When you spend time having fun, you know you're being self-indulgent. Alarms start to go off fairly quickly. If I woke up one morning and sat down on the sofa and watched TV all day, I'd feel like something was terribly wrong. Just thinking about it makes me wince. I'd start to feel uncomfortable after sitting on a sofa watching TV for 2 hours, let alone a whole day.",
+      "zhMarkdown": "几天前，我突然意识到一个令人惊讶的事实：对待时间的情况与对待金钱非常相似。虚度光阴最危险的方式不是把时间花在娱乐上，而是花在“假装工作”上。当你花时间娱乐时，你清楚自己是在放纵。警报会相当快地拉响。如果我某天早上醒来，坐在沙发上看了一整天电视，我会觉得出了大问题。光是想想就让我浑身难受。在沙发上看电视坐上两个小时，我就会开始感到不安，更不用说一整天了。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "dadac1cf589af8ceebe8ad30a2449b34fe08f57141f4a46194e0ec0fc48da926",
+      "enMarkdown": "And yet I've definitely had days when I might as well have sat in front of a TV all day — days at the end of which, if I asked myself what I got done that day, the answer would have been: basically, nothing. I feel bad after these days too, but nothing like as bad as I'd feel if I spent the whole day on the sofa watching TV. If I spent a whole day watching TV I'd feel like I was descending into perdition. But the same alarms don't go off on the days when I get nothing done, because I'm doing stuff that seems, superficially, like real work. Dealing with email, for example. You do it sitting at a desk. It's not fun. So it must be work.",
+      "zhMarkdown": "然而，我确实经历过一些日子，其效果跟在电视机前坐一整天没什么两样——在这些天结束时，如果我问自己今天干了什么，答案基本上是：啥也没干。在这样的日子过后，我也会感觉很糟糕，但绝对没有在沙发上看一整天电视那么负罪深重。如果我一整天都在看电视，我会觉得自己正在堕入深渊。但在那些一事无成的日子里，同样的警报并不会拉响，因为我正在做的事情，表面上看起来像是在认真工作。比如处理邮件。你是坐在书桌前做这件事的。它并不好玩。所以，这一定是在工作。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "02e59f2c2e5f2272a3a61c2bb6847f94cc4a4de45b23ebd41c5dca958b7fc938",
+      "enMarkdown": "With time, as with money, avoiding pleasure is no longer enough to protect you. It probably was enough to protect hunter-gatherers, and perhaps all pre-industrial societies. So nature and nurture combine to make us avoid self-indulgence. But the world has gotten more complicated: the most dangerous traps now are new behaviors that bypass our alarms about self-indulgence by mimicking more virtuous types. And the worst thing is, they're not even fun.",
+      "zhMarkdown": "对待时间就像对待金钱一样，仅仅避开享乐已经不足以保护你了。这也许足以保护当年的狩猎采集者，甚至所有工业革命前的社会。因此，先天本能和后天培养结合在一起，让我们避免放纵。但世界已经变得更加复杂：如今最危险的陷阱是那些新行为，它们通过模仿更具美德的活动，绕过了我们对放纵的警报。而最糟糕的是，这些事情甚至一点都不好玩。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ee33bc1c0fcc9b7da49adfd860d259fb29ffe85fb3ea283cca20af20cd900466",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Patrick Collison, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Patrick Collison、Jessica Livingston 和 Robert Morris 阅读本文的草稿。"
+    }
+  ]
+}

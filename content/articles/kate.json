@@ -1,0 +1,195 @@
+{
+  "slug": "kate",
+  "titleEn": "What Kate Saw in Silicon Valley",
+  "titleZh": "凯特在硅谷的所见所闻",
+  "dateText": "August 2009",
+  "publishedAt": "2009-08-01",
+  "sourceOrder": 114,
+  "sourceUrl": "https://paulgraham.com/kate.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f07be77a52e6bad05c1a93e0ae3d076bf2f4c73627814684ddb6b4a7b29cc8f1",
+      "enMarkdown": "Kate Courteau is the architect who designed Y Combinator's office. Recently we managed to recruit her to help us run YC when she's not busy with architectural projects. Though she'd heard a lot about YC since the beginning, the last 9 months have been a total immersion.",
+      "zhMarkdown": "凯特·库尔托（Kate Courteau）是一位建筑师，也是 Y Combinator 办公室的设计者。最近，我们成功说服了她，在不用忙于建筑项目的时候来帮我们运营 YC。虽然她从一开始就听过很多关于 YC 的事，但过去这 9 个月才算是完全沉浸其中。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "19b09a6c798184135cff5100e50a236e18ccbcae7ebb9589da763a925bd6927b",
+      "enMarkdown": "I've been around the startup world for so long that it seems normal to me, so I was curious to hear what had surprised her most about it. This was her list:",
+      "zhMarkdown": "我在创业圈待了太久，对这一切早就习以为常，所以我很好奇最让她感到惊讶的是什么。以下是她的清单："
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ff54ac74dddc381e398336ad2e81a41a0ddaa7c7640ba820aebe4ef4f79e3267",
+      "enMarkdown": "**1. How many startups fail.**",
+      "zhMarkdown": "**1. 居然有这么多创业公司失败。**"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "e860e64ef5ffd127beed37d56be2e19dfd7e688f0c90d366cd5df8b0457d770a",
+      "enMarkdown": "Kate knew in principle that startups were very risky, but she was surprised to see how constant the threat of failure was — not just for the minnows, but even for the famous startups whose founders came to speak at YC dinners.",
+      "zhMarkdown": "凯特在道理上知道创业风险极高，但她很惊讶地发现，失败的威胁竟然如此如影随形——不仅对那些初出茅庐的“小鱼”如此，甚至连那些受邀来 YC 晚宴演讲的知名创业公司的创始人也是如此。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "9a23f63632ae2cc15bbdd6df16a1ee7c0481cd8436eaa5d6236f9347e535d419",
+      "enMarkdown": "**2. How much startups' ideas change.**",
+      "zhMarkdown": "**2. 创业公司的想法改变得如此之大。**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "c8553b5e307ee65ee938d9618698818f356440a958cecc9d03d8744ee93de064",
+      "enMarkdown": "As usual, by Demo Day about half the startups were doing something significantly different than they started with. We encourage that. Starting a startup is like science in that you have to follow the truth wherever it leads. In the rest of the world, people don't start things till they're sure what they want to do, and once started they tend to continue on their initial path even if it's mistaken.",
+      "zhMarkdown": "和往常一样，到了 Demo Day，大约有一半的创业公司正在做的事情已经与他们刚开始时大相径庭。我们鼓励这样做。开创一家创业公司就像做科学研究，你必须追随真理，无论它指向何方。而在主流社会中，人们在确定自己想做什么之前通常不会开始；一旦开始，即使发现路走错了，也往往会沿着最初的路径继续走下去。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "37e02addd677cacc9bf5b89ec87eb7ee70010c4522643a7406cb1dfec84222c1",
+      "enMarkdown": "**3. How little money it can take to start a startup.**",
+      "zhMarkdown": "**3. 启动一家创业公司居然花不了多少钱。**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "afa8a6872dac158025defacbe87d94916d77a7e518fb332d3c4d5cd32953f320",
+      "enMarkdown": "In Kate's world, everything is still physical and expensive. You can barely renovate a bathroom for the cost of starting a startup.",
+      "zhMarkdown": "在凯特的建筑世界里，一切都是实体的，而且价格昂贵。启动一家创业公司的成本，在建筑界可能连装修一个浴室都不够。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a41245a4c1fa5be20e7c335de17d0973027f51ccf85fc926cc87411e73a429bf",
+      "enMarkdown": "**4. How scrappy founders are.**",
+      "zhMarkdown": "**4. 创始人是如此的“死磕”（scrappy）。**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "755bf224e187e1b465d25d745e1adaba315c19bb1f696bb56b78d52b40f3332f",
+      "enMarkdown": "That was her actual word. I agree with her, but till she mentioned this it never occurred to me how little this quality is appreciated in most of the rest of the world. It wouldn't be a compliment in most organizations to call someone scrappy.",
+      "zhMarkdown": "这是她的原话。我非常赞同，但在她提起之前，我从未意识到这种品质在主流社会中是多么不受待见。在大多数组织机构中，说某人“scrappy”（好斗、死磕、不按常理出牌）绝对算不上什么赞美之词。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "975fb5ff6368a40b15d04d038e9701e4dcb4cc4a45c3ca595538700dd612309f",
+      "enMarkdown": "What does it mean, exactly? It's basically the diminutive form of belligerent. Someone who's scrappy manages to be both threatening and undignified at the same time. Which seems to me exactly what one would want to be, in any kind of work. If you're not threatening, you're probably not doing anything new, and dignity is merely a sort of plaque.",
+      "zhMarkdown": "这个词到底是什么意思？它基本上是“好斗”的微缩版。一个“scrappy”的人，往往能做到既有威胁性，又毫无架子。在我看来，在任何工作中，这恰恰是一个人最该有的状态。如果你没有威胁性，那你可能根本没在做任何新东西；而所谓的架子，不过是一种虚无的虚荣罢了。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "16704846351b406a95064173f742e39d8df01b4434f161332bf0ed3e2ccc23e2",
+      "enMarkdown": "**5. How tech-saturated Silicon Valley is.**",
+      "zhMarkdown": "**5. 硅谷的科技饱和度如此之高。**"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c85d61b7b39fc63ea582f142b7a50c6422109241a1bbed176fba3c158058a86b",
+      "enMarkdown": "\"It seems like everybody here is in the industry.\" That isn't literally true, but there is a qualitative difference between Silicon Valley and other places. You tend to keep your voice down, because there's a good chance the person at the next table would know some of the people you're talking about. I never felt that in Boston. The good news is, there's also a good chance the person at the next table could help you in some way.",
+      "zhMarkdown": "“这里好像每个人都在这个行业里。”虽然这并非绝对的事实，但硅谷与其他地方确实存在质的差异。在这里说话，你往往会刻意压低声音，因为隔壁桌的人很可能认识你正在谈论的某个人。在波士顿我从未有过这种感觉。好消息是，隔壁桌的人也同样很有可能在某些方面帮到你。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "48897a1a1823e7bad134f6d77a2340dbb594a91a4cc33912ef0f0d3125620055",
+      "enMarkdown": "**6. That the speakers at YC were so consistent in their advice.**",
+      "zhMarkdown": "**6. YC 演讲嘉宾给出的建议竟然如此一致。**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "20f6ecb4b83707482075508adc35177abffd1d3bf6a921858e2271d0317cc5d0",
+      "enMarkdown": "Actually, I've noticed this too. I always worry the speakers will put us in an embarrassing position by contradicting what we tell the startups, but it happens surprisingly rarely.",
+      "zhMarkdown": "其实我也注意到了这一点。我总是担心演讲嘉宾会和我们对创业公司说的话背道而驰，让我们陷入尴尬的境地，但这种情况发生得极其罕见。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "2b1a5f6f4df17fcecf04e42ed8ce38af3d99980e49603e8fea390b923efc535e",
+      "enMarkdown": "When I asked her what specific things she remembered speakers always saying, she mentioned: that the way to succeed was to launch something fast, listen to users, and then iterate; that startups required resilience because they were always an emotional rollercoaster; and that most VCs were sheep.",
+      "zhMarkdown": "当我问她，她记得嘉宾们总是重复哪些具体观点时，她提到：成功的秘诀在于快速发布产品、倾听用户意见并不断迭代；创业需要极强的韧性，因为这始终是一场情感的过山车；以及，大多数风险投资人都是跟风的羊群。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4d58f7652113a83a86e099fadf82d09b88f3e8acbab37d5703a1e64d34b039a1",
+      "enMarkdown": "I've been impressed by how consistently the speakers advocate launching fast and iterating. That was contrarian advice 10 years ago, but it's clearly now the established practice.",
+      "zhMarkdown": "演讲嘉宾们对“快速发布和迭代”的推崇之一致，让我印象深刻。这在 10 年前还是非主流的观点，但现在显然已经成了行业共识。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "cc762dd899a3809472ae542bd40c32939f5151ae7e4951ad7943e0f0d219dea0",
+      "enMarkdown": "**7. How casual successful startup founders are.**",
+      "zhMarkdown": "**7. 成功的创业公司创始人是如此随和。**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "1e237b0621a663411e0d5870e4735bfed2a09addcf2d61fa93f2c79a3a4cbfdb",
+      "enMarkdown": "Most of the famous founders in Silicon Valley are people you'd overlook on the street. It's not merely that they don't dress up. They don't project any kind of aura of power either. \"They're not trying to impress anyone.\"",
+      "zhMarkdown": "硅谷大多数著名的创始人，都是你在街上会直接忽略的那种人。这不仅是因为他们不讲究穿戴，更因为他们身上没有任何权力的气场。“他们没有试图去取悦或震慑任何人。”"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7d575206eaf43171d67b78220b984c46d0ca1c85d46e90b2720fceec3cf8d847",
+      "enMarkdown": "Interestingly, while Kate said that she could never pick out successful founders, she could recognize VCs, both by the way they dressed and the way they carried themselves.",
+      "zhMarkdown": "有趣的是，凯特说她虽然永远认不出成功的创始人，但她一眼就能认出风险投资人，无论从他们的穿着还是言谈举止上。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "4525e1516cb88c350d2dcacfa09fb02cefc12cbb1024a3a4cd1047e198f72ea8",
+      "enMarkdown": "**8. How important it is for founders to have people to ask for advice.**",
+      "zhMarkdown": "**8. 对创始人来说，有可以请教的人是多么重要。**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "e89c91c50fa3b1f7382e679d6b61a11be6c74fbfb50abd70ccc2e8d0295600e4",
+      "enMarkdown": "(I swear I didn't prompt this one.) Without advice \"they'd just be sort of lost.\" Fortunately, there are a lot of people to help them. There's a strong tradition within YC of helping other YC-funded startups. But we didn't invent that idea: it's just a slightly more concentrated form of existing Valley culture.",
+      "zhMarkdown": "（我发誓我绝对没有诱导她这么说。）如果没有这些建议，“他们就会像迷失了方向一样”。幸运的是，有很多热心人会提供帮助。在 YC 内部，有着互相帮助的深厚传统。但这并非我们的首创，它只是硅谷既有文化的一种更浓缩的体现。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "6c36aafdaf42124cf5e7e95d888ed0f18b4bca6818aeeaf10506cb951f9443e1",
+      "enMarkdown": "**9. What a solitary task startups are.**",
+      "zhMarkdown": "**9. 创业是一件多么孤独的事情。**"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "6bbfb23e57a353d54d03e1446ffaaccb2b186a2fc7d14d7b6ae21dcc7f79996c",
+      "enMarkdown": "Architects are constantly interacting face to face with other people, whereas doing a technology startup, at least, tends to require long stretches of uninterrupted time to work. \"You could do it in a box.\"",
+      "zhMarkdown": "建筑师需要不断地与人面对面交流，而做一家技术创业公司，至少需要长时间不受干扰地埋头苦干。“你简直可以把自己关在盒子里完成它。”"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "b2e823662f44d917207300d6c70d165d9b7b3cefea72877b0373603bccd1c933",
+      "enMarkdown": "By inverting this list, we can get a portrait of the \"normal\" world. It's populated by people who talk a lot with one another as they work slowly but harmoniously on conservative, expensive projects whose destinations are decided in advance, and who carefully adjust their manner to reflect their position in the hierarchy.",
+      "zhMarkdown": "把这个清单反过来，我们就能描绘出一幅“正常”世界的画像：那里充斥着这样一群人——他们一边频繁地面对面交流，一边缓慢但和谐地推进着保守、昂贵且早已设定好终点的项目，并小心翼翼地调整自己的言行，以契合自己在等级制度中的位置。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "94d1d7f4f3eb7e384bef0bd979ab9d71763b969b7dad0b0d8c017afbae9b8426",
+      "enMarkdown": "That's also a fairly accurate description of the past. So startup culture may not merely be different in the way you'd expect any subculture to be, but a leading indicator.",
+      "zhMarkdown": "这也是对过去世界的贴切描述。因此，创业公司文化可能不仅仅是像普通亚文化那样与众不同，它更像是一个代表未来趋势的风向标。"
+    }
+  ]
+}

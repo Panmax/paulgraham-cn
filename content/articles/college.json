@@ -1,0 +1,510 @@
+{
+  "slug": "college",
+  "titleEn": "Undergraduation",
+  "titleZh": "大学时光",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 188,
+  "sourceUrl": "https://paulgraham.com/college.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "6ddbbdde31e82ac176f9f55300afa5267112a06f2f4708e496d21f26c8d671aa",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/undergraduation-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/undergraduation-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "8121adf46527b9f5f327c0c3cd066c959c43c4e2fab27017d508adc53b0b01d9",
+      "enMarkdown": "March 2005",
+      "zhMarkdown": "2005年3月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "bf00d45994b248a18d523706af002b3a7303e5bbfc2bf4fef002433fe89c262b",
+      "enMarkdown": "*(Parts of this essay began as replies to students who wrote to\nme with questions.)*",
+      "zhMarkdown": "*（这篇文章的部分内容源自我给写信向我咨询问题的学生的回信。）*"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "d138586b4a57472b14e20ff3fa57bfed9ee069e32a861ceba15e1deb7075148b",
+      "enMarkdown": "Recently I've had several emails from computer science undergrads asking what to do in college. I might not be the best source of advice, because I was a philosophy major in college. But I took so many CS classes that most CS majors thought I was one. I was certainly a hacker, at least.",
+      "zhMarkdown": "最近我收到几封计算机专业本科生的来信，问在大学里该做些什么。我可能不是给出建议的最佳人选，因为我大学学的是哲学。但我选修了太多计算机课程，以至于大多数计算机专业的同学都以为我是同行。至少，我确实是一个黑客。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c134cbd56a911b784302c48e4d7b0bc2ad7094d6805865abc65da3103f58f231",
+      "enMarkdown": "**Hacking**",
+      "zhMarkdown": "**黑客修行**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "220f981d221f5370ead18da5510c5edfc4e4693a0815e69597125c5e430d37c8",
+      "enMarkdown": "What should you do in college to become a [good hacker](https://paulgraham.com/gh.html)? There are two main things you can do: become very good at programming, and learn a lot about specific, cool problems. These turn out to be equivalent, because each drives you to do the other.",
+      "zhMarkdown": "在大学里，怎样才能成为一名[优秀的黑客](https://paulgraham.com/gh.html)？你主要可以做两件事：一是把编程练得极其精通，二是深入研究大量具体而酷炫的问题。这两件事其实是一回事，因为每一件都会驱使你去完成另一件。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "f8c746683843f934cc1ea928da73d74368dea0b5cfcb024293c10a2f9e763a38",
+      "enMarkdown": "The way to be good at programming is to work (a) a lot (b) on hard problems. And the way to make yourself work on hard problems is to work on some very engaging project.",
+      "zhMarkdown": "精通编程的秘诀就是：（a）针对（b）硬核问题，进行大量的练习。而让自己死磕硬核问题的方法，就是去投身于某个极具吸引力的项目。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "90977d1e04dac1301e6ceef11f71308bc9f11ae786dc9add99737eed0ce1984a",
+      "enMarkdown": "Odds are this project won't be a class assignment. My friend Robert learned a lot by writing network software when he was an undergrad. One of his projects was to connect Harvard to the Arpanet; it had been one of the original nodes, but by 1984 the connection had died. [1] Not only was this work not for a class, but because he spent all his time on it and neglected his studies, he was kicked out of school for a year. [2] It all evened out in the end, and now he's a professor at MIT. But you'll probably be happier if you don't go to that extreme; it caused him a lot of worry at the time.",
+      "zhMarkdown": "这个项目十有八九不会是课程作业。我的朋友罗伯特（Robert）在读本科时，通过编写网络软件学到了很多东西。他的项目之一是把哈佛大学重新接入 Arpanet（阿帕网）；哈佛原本是第一批节点之一，但到了1984年，这条连接已经中断了。[1] 这项工作不仅不是课内作业，而且因为他把所有时间都花在上面而荒废了学业，结果被学校开除了一年。[2] 不过最后一切都重回正轨，现在他是麻省理工学院（MIT）的教授。但如果你不走这种极端，日子可能会过得更舒心一些；那件事在当时着实让他焦虑了很久。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "fdb73b4ff5cfec277118fd446f49ce18c220c59f7825f1adb8a53c7cca5548a5",
+      "enMarkdown": "Another way to be good at programming is to find other people who are good at it, and learn what they know. Programmers tend to sort themselves into tribes according to the type of work they do and the tools they use, and some tribes are [smarter](https://paulgraham.com/pypar.html) than others. Look around you and see what the smart people seem to be working on; there's usually a reason.",
+      "zhMarkdown": "精通编程的另一个方法是，找到身边同样优秀的人，向他们取经。程序员往往会根据工作类型和所用工具划分成不同的圈子，而有些圈子确实比其他圈子[更聪明](https://paulgraham.com/pypar.html)。多观察周围，看看那些聪明人都在捣鼓些什么；这背后通常是有原因的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e414fad6cf317187f4e562b46904bbfc54fa499da63881423eedb9ebd3734d32",
+      "enMarkdown": "Some of the smartest people around you are professors. So one way to find interesting work is to volunteer as a research assistant. Professors are especially interested in people who can solve tedious system-administration type problems for them, so that is a way to get a foot in the door. What they fear are flakes and resume padders. It's all too common for an assistant to result in a net increase in work. So you have to make it clear you'll mean a net decrease.",
+      "zhMarkdown": "你身边最聪明的一些人就是教授。因此，寻找有趣工作的一个方法就是自愿去做科研助理。教授们对能帮他们解决繁琐的系统管理类问题的人尤其感兴趣，这是你跨入大门的一块敲门砖。他们最怕的是不靠谱和纯粹为了美化简历的人。助理的加入反而导致工作总量增加，这种情况太常见了。所以，你必须让他们明白，你的到来意味着能帮他们减轻负担。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "fee471be452d2a778610693e858d87673d39c19d66ab7bb767ebc2698d87fd79",
+      "enMarkdown": "Don't be put off if they say no. Rejection is almost always less personal than the rejectee imagines. Just move on to the next. (This applies to dating too.)",
+      "zhMarkdown": "如果他们拒绝了，也别气馁。拒绝通常并不针对个人，远没有被拒绝者想象的那样充满针对性。换下一个就行了。（这道理同样适用于约会。）"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "a3e8a9d91dc07a07e784add691dadd0c080dcf718a79d7c4a22ea222605d3bbd",
+      "enMarkdown": "Beware, because although most professors are smart, not all of them work on interesting stuff. Professors have to publish novel results to advance their careers, but there is more competition in more interesting areas of research. So what less ambitious professors do is turn out a series of papers whose conclusions are novel because no one else cares about them. You're better off avoiding these.",
+      "zhMarkdown": "但要当心，虽然大多数教授都很聪明，但并非所有人研究的东西都有趣。教授必须发表新颖的研究成果才能晋升，但在更有趣的研究领域竞争也更激烈。因此，一些缺乏野心的教授会不断发表一连串论文，其结论之所以新颖，纯粹是因为根本没人关心。你最好避开这些导师。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "2831131f2f4661c6b08bdf2f0ea95213461ae8c5e46e211a7eb01adee8a3cf07",
+      "enMarkdown": "I never worked as a research assistant, so I feel a bit dishonest recommending that route. I learned to program by writing stuff of my own, particularly by trying to reverse-engineer Winograd's SHRDLU. I was as obsessed with that program as a mother with a new baby.",
+      "zhMarkdown": "我从未做过科研助理，所以推荐这条路让我觉得有点心虚。我是通过自己写东西来学习编程的，特别是通过尝试对 Winograd 的 SHRDLU 系统进行逆向工程。当时我对那个程序的痴迷程度，简直就像母亲对待新生儿一样。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "51bb8f085941fc0e1b4f39c406c7bacb5bd64b3dffa7af44561335e0454e4bde",
+      "enMarkdown": "Whatever the disadvantages of working by yourself, the advantage is that the project is all your own. You never have to compromise or ask anyone's permission, and if you have a new idea you can just sit down and start implementing it.",
+      "zhMarkdown": "不管独自摸索有什么缺点，它的好处在于这个项目完全属于你。你永远不需要妥协，也不需要征得任何人的许可，一旦有了新想法，直接坐下来动手实现就行了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "dd83d176baa930f59dc3269a7bb736958163c93bb69ea57ef790b13a177ea07c",
+      "enMarkdown": "In your own projects you don't have to worry about novelty (as professors do) or profitability (as businesses do). All that matters is how hard the project is technically, and that has no correlation to the nature of the application. \"Serious\" applications like databases are often trivial and dull technically (if you ever suffer from insomnia, try reading the technical literature about databases) while \"frivolous\" applications like games are often very sophisticated. I'm sure there are game companies out there working on products with more intellectual content than the research at the bottom nine tenths of university CS departments.",
+      "zhMarkdown": "在自己的项目里，你不需要像教授那样担心新颖性，也不需要像企业那样考虑盈利。唯一重要的是这个项目在技术上有多少挑战性，而这与应用本身的性质毫无关系。像数据库这样“严肃”的应用在技术上往往平淡无奇（如果你失眠，不妨读读关于数据库的技术文献），而像游戏这样“微不足道”的应用在技术上往往非常高深。我相信，有些游戏公司正在开发的产品，其智力含量比大学计算机系底层90%的研究还要高。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "567a6c04fcc52584badc754c81be0f40e370932ee73e4a7a2cb7150f5feaaf47",
+      "enMarkdown": "If I were in college now I'd probably work on graphics: a network game, for example, or a tool for 3D animation. When I was an undergrad there weren't enough cycles around to make graphics interesting, but it's hard to imagine anything more fun to work on now.",
+      "zhMarkdown": "如果我现在上大学，我可能会去研究图形学：比如网络游戏，或者3D动画工具。我读本科时，计算机的算力还不足以让图形学变得有趣，但很难想象现在还有什么比这更好玩的了。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "678a22459dd3ba0f73e67e93cde41fd4694eaedc76f1868e331b6dbfe3d65248",
+      "enMarkdown": "**Math**",
+      "zhMarkdown": "**数学**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "1935c6ccf5ed2f612ed5b4c8af5162f100a35601402a8b52639aa7dfff055d3b",
+      "enMarkdown": "When I was in college, a lot of the professors believed (or at least wished) that [computer science](https://paulgraham.com/hp.html) was a branch of math. This idea was strongest at Harvard, where there wasn't even a CS major till the 1980s; till then one had to major in applied math. But it was nearly as bad at Cornell. When I told the fearsome Professor Conway that I was interested in AI (a hot topic then), he told me I should major in math. I'm still not sure whether he thought AI required math, or whether he thought AI was nonsense and that majoring in something rigorous would cure me of such stupid ambitions.",
+      "zhMarkdown": "我上大学时，许多教授相信（或者至少希望）[计算机科学](https://paulgraham.com/hp.html)是数学的一个分支。这种想法在哈佛最为强烈，直到1980年代哈佛甚至都没有计算机专业；在那之前，人们必须主修应用数学。但在康奈尔大学，情况也差不多糟糕。当我告诉令人生畏的康威（Conway）教授我对人工智能（当时的热门话题）感兴趣时，他告诉我应该主修数学。我至今不确定他是认为人工智能需要数学，还是认为人工智能纯属胡扯，而主修一门严谨的学科能治好我这种愚蠢的野心。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "e34186dbad1d8869df70e62b7effc4150e74a816f49080d242a633bcaee6929b",
+      "enMarkdown": "In fact, the amount of math you need as a hacker is a lot less than most university departments like to admit. I don't think you need much more than high school math plus a few concepts from the theory of computation. (You have to know what an n^2 algorithm is if you want to avoid writing them.) Unless you're planning to write math applications, of course. Robotics, for example, is all math.",
+      "zhMarkdown": "事实上，黑客所需的数学知识远比大多数大学院系愿意承认的要少。我认为除了高中数学加上计算理论中的几个概念之外，你不需要懂太多。（如果你想避免写出 n^2 复杂度的算法，你就必须知道它是什么。）当然，除非你计划编写数学应用。例如，机器人技术就全都是数学。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "03fdcb469dd68c6a88ccdbf7f5faf528e90205be10453941901dc68769739ef4",
+      "enMarkdown": "But while you don't literally need math for most kinds of hacking, in the sense of knowing 1001 tricks for differentiating formulas, math is very much worth studying for its own sake. It's a valuable source of metaphors for almost any kind of work.[3] I wish I'd studied more math in college for that reason.",
+      "zhMarkdown": "但是，虽然在大多数黑客工作中，你并不需要像掌握1001种公式求导技巧那样字面意义地需要数学，但数学本身是非常值得学习的。对于几乎任何工作来说，它都是一个极有价值的隐喻源泉。[3] 出于这个原因，我真希望自己大学时多学点数学。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "904eb60d0636fe189d2f9d12d4c1cf01b7f3e144a7ec10e2a66bb28b8e1d6731",
+      "enMarkdown": "Like a lot of people, I was mathematically abused as a child. I learned to think of math as a collection of formulas that were neither beautiful nor had any relation to my life (despite attempts to translate them into \"word problems\"), but had to be memorized in order to do well on tests.",
+      "zhMarkdown": "和很多人一样，我小时候也遭受过数学的“折磨”。我被灌输的观念是，数学就是一堆既不美妙、也与我的生活毫无关系的公式（尽管老师们试图把它们翻译成“应用题”），但为了考试得高分，必须把它们死记硬背下来。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "8d694d3d91bc585e5d139e21bc37a0c67e56996f54c9d2e1cf76e2de580fb91a",
+      "enMarkdown": "One of the most valuable things you could do in college would be to learn what math is really about. This may not be easy, because a lot of good mathematicians are bad teachers. And while there are many popular books on math, few seem good. The best I can think of are W. W. Sawyer's. And of course Euclid. [4]",
+      "zhMarkdown": "在大学里，你能做的最有价值的事情之一，就是去了解数学到底是怎么一回事。这可能并不容易，因为很多优秀的数学家都是糟糕的老师。虽然有很多关于数学的科普书，但优秀的却凤毛麟角。我能想到的最好的书是 W. W. Sawyer 的著作，当然还有欧几里得的《几何原本》。[4]"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "2d09a06db818a773ee4ab6cab8cffbeda8896d41cf8ec67dfb34d8af29115ed6",
+      "enMarkdown": "**Everything**",
+      "zhMarkdown": "**世间万物**"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "7842410da549337106dbfba34ad93d48b76ef30a2399af126c1203fb9cf1ecbe",
+      "enMarkdown": "Thomas Huxley said \"Try to learn something about everything and everything about something.\" Most universities aim at this ideal.",
+      "zhMarkdown": "托马斯·赫胥黎曾说：“试着去了解万事万物的一点皮毛，以及某件特定事物的全部。”大多数大学都以此为理想目标。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "faab069fc57714f9927228868374f5bdc38d51dd2768a83ee2c95def4eb53d51",
+      "enMarkdown": "But what's everything? To me it means, all that people learn in the course of working honestly on hard problems. All such work tends to be related, in that ideas and techniques from one field can often be transplanted successfully to others. Even others that seem quite distant. For example, I write [essays](https://paulgraham.com/essay.html) the same way I write software: I sit down and blow out a lame version 1 as fast as I can type, then spend several weeks rewriting it.",
+      "zhMarkdown": "但“万事万物”指的是什么？对我来说，它意味着人们在脚踏实地解决硬核问题时所学到的一切。所有这些工作往往都是相通的，一个领域的想法和技术往往可以成功移植到其他领域，哪怕是那些看起来风马牛不相及的领域。例如，我写[文章](https://paulgraham.com/essay.html)的方法和写软件一模一样：我坐下来，以最快的打字速度甩出一个粗糙的1.0版本，然后花几个星期去重写它。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "703d2a0be48297c8e8239b134ecf0e1e94f3ac2c0012ebf5e2527d112904869c",
+      "enMarkdown": "Working on hard problems is not, by itself, enough. Medieval alchemists were working on a hard problem, but their approach was so bogus that there was little to learn from studying it, except possibly about people's ability to delude themselves. Unfortunately the sort of AI I was trying to learn in college had the same flaw: a very hard problem, blithely approached with hopelessly inadequate techniques. Bold? Closer to fraudulent.",
+      "zhMarkdown": "仅仅死磕硬核问题本身是不够的。中世纪的炼金术士解决的也是硬核问题，但他们的研究方法太荒谬了，除了能让人看清人类自我欺骗的能力之外，从中几乎学不到任何东西。不幸的是，我大学时试图学习的那种人工智能也有同样的缺陷：面对一个极难的问题，却轻率地采用毫无胜算的简陋技术。这叫勇气？不如说是欺骗。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "041cb64c6be64b1bfd6a69f3ade7c65f7b316db95c76c15a1ffd3a1cfbdb5184",
+      "enMarkdown": "The social sciences are also fairly bogus, because they're so much influenced by intellectual [fashions](https://paulgraham.com/say.html). If a physicist met a colleague from 100 years ago, he could teach him some new things; if a psychologist met a colleague from 100 years ago, they'd just get into an ideological argument. Yes, of course, you'll learn something by taking a psychology class. The point is, you'll learn more by taking a class in another department.",
+      "zhMarkdown": "社会科学也相当荒谬，因为它们极易受到学术[风尚](https://paulgraham.com/say.html)的影响。如果一位物理学家遇到100年前的同行，他可以教对方一些新东西；如果一位心理学家遇到100年前的同行，他们只会陷入一场意识形态的争论。当然，选修心理学课你肯定能学到点东西。但关键在于，去选修其他院系的课程你能学到更多。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "c83e5ffcb1a600da8664daaa91f3c50dc94afa5742ed78f408800efc58a053a3",
+      "enMarkdown": "The worthwhile departments, in my opinion, are math, the hard sciences, engineering, history (especially economic and social history, and the history of science), architecture, and the classics. A survey course in art history may be worthwhile. Modern literature is important, but the way to learn about it is just to read. I don't know enough about music to say.",
+      "zhMarkdown": "在我看来，真正有价值的院系包括：数学、硬科学（物理、化学等）、工程学、历史（特别是经济史、社会史和科学史）、建筑学和古典文学。艺术史的概论课可能也值得一听。现代文学很重要，但学习它的方法就是直接去阅读。至于音乐，我了解得不够，无法给出评价。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "e02a85fd97aba36ee25581d26ed856e8201143e064d39419193fc1e4962d6f39",
+      "enMarkdown": "You can skip the social sciences, philosophy, and the various departments created recently in response to political pressures. Many of these fields talk about important problems, certainly. But the way they talk about them is useless. For example, philosophy talks, among other things, about our obligations to one another; but you can learn more about this from a wise grandmother or E. B. White than from an academic philosopher.",
+      "zhMarkdown": "你可以跳过社会科学、哲学，以及最近为了迎合政治压力而设立的各种院系。当然，其中许多领域探讨的确实是重要问题，但他们探讨这些问题的方式却毫无用处。例如，哲学探讨的课题之一是我们对彼此的义务；但关于这一点，你从一位睿智的祖母或 E. B. White 那里学到的，会比从学术哲学家那里学到的还要多。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "f93ca5c64746d71d6a8bd660503bb70d64934642864e7e6b6fcf6d900ace655a",
+      "enMarkdown": "I speak here from experience. I should probably have been offended when people laughed at Clinton for saying \"It depends on what the meaning of the word 'is' is.\" I took about five classes in college on what the meaning of \"is\" is.",
+      "zhMarkdown": "我是以过来人的身份说这番话的。当人们嘲笑克林顿说“这取决于‘is’（是）这个词是什么意思”时，我本该感到被冒犯。因为我大学里上了大约五门课，专门研究“is”是什么意思。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "d38f96f906fb334b8bb77769e9507a2d8aad79f7712f8f6ae96339947939a035",
+      "enMarkdown": "Another way to figure out which fields are worth studying is to create the *dropout graph.* For example, I know many people who switched from math to computer science because they found math too hard, and no one who did the opposite. People don't do hard things gratuitously; no one will work on a harder problem unless it is proportionately (or at least log(n)) more rewarding. So probably math is more worth studying than computer science. By similar comparisons you can make a graph of all the departments in a university. At the bottom you'll find the subjects with least intellectual content.",
+      "zhMarkdown": "另一种判断哪些领域值得学习的方法是绘制一张“退学流向图”。例如，我认识很多因为觉得数学太难而从数学系转到计算机系的人，但没见过反过来的。人们不会无缘无故去挑战更难的事情；没人会去解决更难的问题，除非它能带来成比例（或者至少是 log(n) 级别）的更多回报。因此，数学可能比计算机科学更值得学习。通过类似的对比，你可以画出大学里所有院系的流向图。在图的最底层，你会发现那些智力含量最稀薄的学科。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "30fcd589235c985d0dd1033f21d5961c65609c70d0181fa74a34dca2f192f60e",
+      "enMarkdown": "If you use this method, you'll get roughly the same answer I just gave.",
+      "zhMarkdown": "如果你用这个方法，得出的结论大概和我刚才给出的差不多。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "49fcf793baa15fe8f869464154f36fd247b9718a2d4477f4ac5cad8841b7ca42",
+      "enMarkdown": "Language courses are an anomaly. I think they're better considered as extracurricular activities, like pottery classes. They'd be far more useful when combined with some time living in a country where the language is spoken. On a whim I studied Arabic as a freshman. It was a lot of work, and the only lasting benefits were a weird ability to identify semitic roots and some insights into how people recognize words.",
+      "zhMarkdown": "语言课程是个特例。我认为它们更应该被看作是课外活动，就像陶艺课一样。如果能结合在说该语言的国家生活一段时间，语言学习会有效得多。大一时我一时兴起学了阿拉伯语，花了很多精力，而唯一持久的收获是获得了一种能够识别闪米特语族词根的奇特能力，以及对人类如何识别词汇的一些洞察。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "4d725412ab5cfb9c3fc9f76837292c9baa0eaeb1731c2c68606a0ba8336f03df",
+      "enMarkdown": "Studio art and creative writing courses are wildcards. Usually you don't get taught much: you just work (or don't work) on whatever you want, and then sit around offering \"crits\" of one another's creations under the vague supervision of the teacher. But writing and art are both very hard problems that (some) people work honestly at, so they're worth doing, especially if you can find a good teacher.",
+      "zhMarkdown": "艺术工作室和创意写作课程则是未知数。通常老师不会教你太多：你只需自己动手创作（或不创作）你想做的任何东西，然后在老师模糊的指导下，坐在一起对彼此的作品指点江山。但写作和艺术都是（某些）人脚踏实地去死磕的极难问题，所以它们很值得尝试，尤其是如果你能遇到一位好老师。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "f9b2953122e364b7724dc33aef25e5f33fab792de4ef966619780a8ece4de8c3",
+      "enMarkdown": "**Jobs**",
+      "zhMarkdown": "**出路**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "7ccc126fa762e986715f79d358c006493feb9ddc82ba4eb752b848efcdbf074a",
+      "enMarkdown": "Of course college students have to think about more than just learning. There are also two practical problems to consider: jobs, and graduate school.",
+      "zhMarkdown": "当然，大学生不能只考虑学习。还有两个实际问题需要考虑：找工作和读研。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "14a7cc9609b6e46b199f4e86a5761dda1df2865bc41d356a7c0c020a4c977699",
+      "enMarkdown": "In theory a liberal education is not supposed to supply job training. But everyone knows this is a bit of a fib. Hackers at every college learn practical skills, and not by accident.",
+      "zhMarkdown": "理论上，博雅教育（通识教育）不应该提供职业培训。但大家都知道，这多少有些自欺欺人。每所大学的黑客都在学习实用技能，而且这绝非偶然。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "944ada4c4e97bb43eed8634e497306f25c0b834727bb37ed6cec419031855950",
+      "enMarkdown": "What you should learn to get a job depends on the kind you want. If you want to work in a big company, learn how to hack [Blub](https://paulgraham.com/avg.html) on Windows. If you want to work at a cool little company or research lab, you'll do better to learn Ruby on Linux. And if you want to start your own company, which I think will be more and more common, master the most powerful tools you can find, because you're going to be in a race against your competitors, and they'll be your horse.",
+      "zhMarkdown": "为了找工作该学些什么，取决于你想要什么样的工作。如果你想去大公司，那就去学如何在 Windows 上折腾 [Blub 语言](https://paulgraham.com/avg.html)。如果你想去一家酷炫的小公司或研究实验室，学 Linux 上的 Ruby 会是更好的选择。而如果你想创办自己的公司（我认为这会变得越来越普遍），那就去掌握你能找到的最强大的工具，因为你将与竞争对手展开角逐，而工具就是你的战马。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "f7ad966ca37217256515b867defda5069e28ad47146580b8f7fdfee02e17a5fd",
+      "enMarkdown": "There is not a direct correlation between the skills you should learn in college and those you'll use in a job. You should aim slightly high in college.",
+      "zhMarkdown": "你在大学里应该学习的技能，与你在工作中实际使用的技能之间，并没有直接的对应关系。在大学里，你的目标应该定得稍高一些。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "03df2837d7cb63ff6deb2a1e315e9f7da8459fdc06c363a976c0acdb487f560c",
+      "enMarkdown": "In workouts a football player may bench press 300 pounds, even though he may never have to exert anything like that much force in the course of a game. Likewise, if your professors try to make you learn stuff that's more advanced than you'll need in a job, it may not just be because they're academics, detached from the real world. They may be trying to make you lift weights with your brain.",
+      "zhMarkdown": "在训练中，橄榄球运动员可能会卧推300磅，即使他在正式比赛中可能永远不需要使出那么大的力气。同样，如果你的教授试图让你学习比工作所需更深奥的知识，这不一定是因为他们脱离现实。他们可能只是在试图让你的大脑做负重训练。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "0080f1986a35a87eebddb6996759d05029e982fd8c62f326db6c197707929543",
+      "enMarkdown": "The programs you write in classes differ in three critical ways from the ones you'll write in the real world: they're small; you get to start from scratch; and the problem is usually artificial and predetermined. In the real world, programs are bigger, tend to involve existing code, and often require you to figure out what the problem is before you can solve it.",
+      "zhMarkdown": "你在课堂上写的程序与你在真实世界中写的程序有三个关键区别：课堂程序规模小；你可以从零开始；而且问题通常是人为设计且预先设定的。而在真实世界中，程序规模更大，往往涉及既有代码，并且通常需要你在解决问题之前先弄清楚问题到底是什么。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "d059dfd1b7f73569520b8ff562afc706f3d30c136442386a7693ec432715be5c",
+      "enMarkdown": "You don't have to wait to leave (or even enter) college to learn these skills. If you want to learn how to deal with existing code, for example, you can contribute to open-source projects. The sort of employer you want to work for will be as impressed by that as good grades on class assignments.",
+      "zhMarkdown": "你不需要等到大学毕业（甚至不需要等到入学）才去学习这些技能。例如，如果你想学习如何处理既有代码，你可以向开源项目贡献代码。你想为之工作的雇主对这种经历的认可，绝不亚于课内作业拿高分。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "b609389588f8bbd930a43435655d004a13437648620e8c26ebbeb99a7eb4d363",
+      "enMarkdown": "In existing open-source projects you don't get much practice at the third skill, deciding what problems to solve. But there's nothing to stop you starting new projects of your own. And good employers will be even more impressed with that.",
+      "zhMarkdown": "在现有的开源项目中，你得不到太多关于第三种技能（决定解决什么问题）的锻炼。但没有什么能阻止你启动自己的新项目。优秀的雇主对此会更加刮目相看。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "7e1e42c77adc3970c8ec574daad5b1bb425efdd035a8899ff676ff701334e04b",
+      "enMarkdown": "What sort of problem should you try to solve? One way to answer that is to ask what you need as a user. For example, I stumbled on a good algorithm for spam filtering because I wanted to stop getting spam. Now what I wish I had was a mail reader that somehow prevented my inbox from filling up. I tend to use my inbox as a todo list. But that's like using a screwdriver to open bottles; what one really wants is a bottle opener.",
+      "zhMarkdown": "你应该尝试解决什么样的问题？一个寻找答案的方法是问问自己作为用户需要什么。例如，我偶然发现了一种很好的垃圾邮件过滤算法，纯粹是因为我自己不想再收到垃圾邮件。现在，我希望有一个邮件阅读器能以某种方式防止我的收件箱堆满。我倾向于把收件箱当作待办事项列表。但这就像用螺丝刀开瓶盖；人们真正想要的是一个开瓶器。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "8443a588b4ce78cac31282e379c930faa79100efb950982fd1e3551f1875a75a",
+      "enMarkdown": "**Grad School**",
+      "zhMarkdown": "**读研**"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "f32ac88d734da2eba3359b981cb700363885e8e2769e9f4918778d00fd16d1e9",
+      "enMarkdown": "What about grad school? Should you go? And how do you get into a good one?",
+      "zhMarkdown": "那么读研呢？应该去吗？又该如何申请到一所好学校？"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "1e6543f3a8542cb09567c71fb9e19a2c71962d34f1d708bc110d1cf0cb5af16a",
+      "enMarkdown": "In principle, grad school is professional training in research, and you shouldn't go unless you want to do research as a career. And yet half the people who get PhDs in CS don't go into research. I didn't go to grad school to become a professor. I went because I wanted to learn more.",
+      "zhMarkdown": "原则上，读研是学术研究的专业培训，除非你想把科研作为职业，否则你不应该去。然而，有一半拿到计算机博士学位的人并没有从事科研工作。我当年读研不是为了当教授，而是因为我想学到更多东西。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "e9a608f46678ba1c9186f59fd85afee9d21132797228701b36e757f2a09aa8c0",
+      "enMarkdown": "So if you're mainly interested in hacking and you go to grad school, you'll find a lot of other people who are similarly out of their element. And if half the people around you are out of their element in the same way you are, are you really out of your element?",
+      "zhMarkdown": "所以，如果你主要对写代码（hacking）感兴趣却去了读研，你会发现周围有很多和你一样“不务正业”的人。既然身边有一半的人都和你一样“不务正业”，那你还算是不务正业吗？"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "ea33dc4a49601f1a9eacf255457b3f1b42784a2144f61713bb7c9360954d8e2a",
+      "enMarkdown": "There's a fundamental problem in \"computer science,\" and it surfaces in situations like this. No one is sure what \"research\" is supposed to be. A lot of research is hacking that had to be crammed into the form of an academic paper to yield one more quantum of publication.",
+      "zhMarkdown": "在“计算机科学”中存在一个根本性的问题，并在类似情况下暴露无遗。那就是没人说得清“科研”到底应该是什么。许多科研工作，不过是把写代码的过程强行塞进学术论文的框架里，以便多凑一篇发表量。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "01456ff18444b45cccb27004c1e6ef439041bfba038b9dd1e9d4f1885d4cce0c",
+      "enMarkdown": "So it's kind of misleading to ask whether you'll be at home in grad school, because very few people are quite at home in computer science. The whole field is uncomfortable in its own skin. So the fact that you're mainly interested in hacking shouldn't deter you from going to grad school. Just be warned you'll have to do a lot of stuff you don't like.",
+      "zhMarkdown": "因此，问自己是否适应研究生生活有点误导，因为在计算机科学领域，很少有人能完全自如。整个领域都有些自我挣扎。所以，你主要对写代码感兴趣这一点不应该阻碍你读研。只是要做好心理准备，你必须做很多自己不喜欢的事情。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "7fceb7f3ca266064685df40186a1d85383a420d35e0ee70b81e34e763be90018",
+      "enMarkdown": "Number one will be your dissertation. Almost everyone hates their dissertation by the time they're done with it. The process inherently tends to produce an unpleasant result, like a cake made out of whole wheat flour and baked for twelve hours. Few dissertations are read with pleasure, especially by their authors.",
+      "zhMarkdown": "排在第一位的就是你的毕业论文。几乎所有人写完论文时都会对它深恶痛绝。这个过程本身就倾向于产生一个令人痛苦的结果，就像一块用全麦面粉烤了十二个小时的蛋糕。很少有论文能让人读得愉悦，尤其是它的作者本人。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "2ec65927732134413818b3ac155937b0e379d3b874aa113f387d16cbcc83ca67",
+      "enMarkdown": "But thousands before you have suffered through writing a dissertation. And aside from that, grad school is close to paradise. Many people remember it as the happiest time of their lives. And nearly all the rest, including me, remember it as a period that would have been, if they hadn't had to write a dissertation. [5]",
+      "zhMarkdown": "但在你之前，已经有成千上万的人挺过了写论文的痛苦。抛开这一点不谈，研究生生活简直像天堂。许多人把那段时光视作一生中最快乐的时期。至于剩下的几乎所有人，包括我在内，都觉得如果当时不需要写论文，那段时光本该是完美的。[5]"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "71881345ec52c36dbae75aef4cb7e6823e26ffd2020cf434419901991a84a969",
+      "enMarkdown": "The danger with grad school is that you don't see the scary part upfront. PhD programs start out as college part 2, with several years of classes. So by the time you face the horror of writing a dissertation, you're already several years in. If you quit now, you'll be a grad-school dropout, and you probably won't like that idea. When Robert got kicked out of grad school for writing the Internet worm of 1988, I envied him enormously for finding a way out without the stigma of failure.",
+      "zhMarkdown": "读研的危险在于，你一开始看不到可怕的部分。博士项目刚开始就像是“大学第二阶段”，还要上好几年的课。所以当你面对写论文的恐惧时，你已经投入了好几年时间。如果这时候放弃，你就会成为一名研究生退学者，你可能不太喜欢这个名声。当罗伯特因为在1988年编写了互联网蠕虫病毒而被研究生院开除时，我极度嫉妒他，因为他找到了一条体面脱身、且不带失败污名的路。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "7858ff58036e5e335fbbec9655052076c43f28fafeb45a86605aabde58dc1ca5",
+      "enMarkdown": "On the whole, grad school is probably better than most alternatives. You meet a lot of smart people, and your glum procrastination will at least be a powerful common bond. And of course you have a PhD at the end. I forgot about that. I suppose that's worth something.",
+      "zhMarkdown": "总的来说，读研大概比大多数其他选择都要好。你会遇到很多聪明人，而你们共同的重度拖延症至少会成为一条强有力的情感纽带。当然，最后你还能拿到一个博士学位。我都差点忘了这茬。我想这总归是有点价值的。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "d72daca2e5be3eaebe7e95d8c5b0b921ea162f121db5585b95a9724d9374a520",
+      "enMarkdown": "The greatest advantage of a PhD (besides being the union card of academia, of course) may be that it gives you some baseline confidence. For example, the Honeywell thermostats in my house have the most atrocious UI. My mother, who has the same model, diligently spent a day reading the user's manual to learn how to operate hers. She assumed the problem was with her. But I can think to myself \"If someone with a PhD in computer science can't understand this thermostat, it *must* be badly designed.\"",
+      "zhMarkdown": "博士学位的最大好处（除了作为学术界的敲门砖之外），也许在于它能给你一些底气。例如，我家的霍尼韦尔（Honeywell）温控器有着极其反人类的用户界面。我母亲家里也是同款，她辛辛苦苦花了一整天时间读说明书才学会怎么操作。她以为是自己的问题。但我心里会想：“如果一个计算机科学博士都搞不懂这个温控器，那它*绝对*是设计得太烂了。”"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "cc2089693c89ffe64712c4857a1ae2236e0b108b675731b86ceabe4b83d29f5b",
+      "enMarkdown": "If you still want to go to grad school after this equivocal recommendation, I can give you solid advice about how to get in. A lot of my friends are CS professors now, so I have the inside story about admissions. It's quite different from college. At most colleges, admissions officers decide who gets in. For PhD programs, the professors do. And they try to do it well, because the people they admit are going to be working for them.",
+      "zhMarkdown": "如果在听完这番模棱两可的推荐后你依然想读研，我可以给你提供一些切实可行的申请建议。我的很多朋友现在都是计算机系教授，所以我了解招生的内幕。这和大学本科招生大不相同。在大多数本科院校，决定录取谁的是招生官。而对于博士项目，决定权在教授手里。他们会非常认真地对待，因为录取的人将来是要为他们工作的。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "b802e7d33cf2ab90adbc356f00c23bce3ed3a7d49c544d15ccc2cbe5f04b1c07",
+      "enMarkdown": "Apparently only recommendations really matter at the best schools. Standardized tests count for nothing, and grades for little. The essay is mostly an opportunity to disqualify yourself by saying something stupid. The only thing professors trust is recommendations, preferably from people they know. [6]",
+      "zhMarkdown": "显然，在顶尖学校，只有推荐信才是真正关键的。标准化考试成绩无足轻重，绩点也关系不大。个人陈述（essay）基本上只是一个让你通过说傻话来淘汰自己的机会。教授们唯一信任的就是推荐信，最好是来自他们认识的人。[6]"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "72a1fc2a9b0307d73eefb1d6c69ac89263851e14b3f39b0d7d0af18bb37a9a84",
+      "enMarkdown": "So if you want to get into a PhD program, the key is to impress your professors. And from my friends who are professors I know what impresses them: not merely trying to impress them. They're not impressed by students who get good grades or want to be their research assistants so they can get into grad school. They're impressed by students who get good grades and want to be their research assistants because they're genuinely interested in the topic.",
+      "zhMarkdown": "所以，如果你想申请博士项目，关键在于给教授留下深刻印象。从我那些当教授的朋友那里，我知道什么样的人能打动他们：而不是单纯为了迎合他们。那些为了能申上研究生而追求高分、或抢着当科研助理的学生，并不能打动他们。能打动他们的是那些拿了高分、想当科研助理，纯粹是因为对这个课题有着极度热情的学生。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "fd86b598ddbca100fe83f3dc5916ff129295ee69bee08bcdbc5a9098ace74d86",
+      "enMarkdown": "So the best thing you can do in college, whether you want to get into grad school or just be good at hacking, is figure out what you truly like. It's hard to trick professors into letting you into grad school, and impossible to trick problems into letting you solve them. College is where faking stops working. From this point, unless you want to go work for a big company, which is like reverting to high school, the only way forward is through doing what you [love](https://paulgraham.com/love.html).",
+      "zhMarkdown": "因此，无论你是想读研，还是只想成为一名优秀的黑客，大学期间你能做的最好的事情就是弄清楚自己真正热爱什么。想通过耍花招让教授录取你很难，而想通过耍花招来解决难题则是天方夜谭。大学是“装模作样”开始失效的地方。从这一刻起，除非你想去大公司工作（那就像退回到高中时代），否则唯一的出路就是去做你[热爱](https://paulgraham.com/love.html)的事。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "1823f27b3a63fd544ddbb34afdfad2bd5aebcb605e1011fe083d4ea31c48c3f3",
+      "enMarkdown": "[1] No one seems to have minded, which shows how unimportant the Arpanet (which became the Internet) was as late as 1984.",
+      "zhMarkdown": "[1] 似乎没人介意这件事，这说明直到1984年，Arpanet（后来的互联网）依然是多么的微不足道。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "4d659b586c226762a4243e752dd1488ecb69dfc7911027f37cac39bea06c68e0",
+      "enMarkdown": "[2] This is why, when I became an employer, I didn't care about GPAs. In fact, we actively sought out people who'd failed out of school. We once put up posters around Harvard saying \"Did you just get kicked out for doing badly in your classes because you spent all your time working on some project of your own? Come work for us!\" We managed to find a kid who had been, and he was a great hacker.",
+      "zhMarkdown": "[2] 这就是为什么当我成为雇主时，我从不看绩点（GPA）。事实上，我们还会主动寻找那些被学校开除的人。我们曾在哈佛校园里贴过海报，上面写着：“你是否刚刚因为把所有时间都花在自己的项目上、导致成绩太差而被开除？来我们这里工作吧！”我们还真找到了一个这样的人，他是一位非常出色的黑客。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "4c78cf426fbe5dfb79f1e18482efb4ddedbf71b25a231654dc9f3f4a5a597c7b",
+      "enMarkdown": "When Harvard kicks undergrads out for a year, they have to get jobs. The idea is to show them how awful the real world is, so they'll understand how lucky they are to be in college. This plan backfired with the guy who came to work for us, because he had more fun than he'd had in school, and made more that year from stock options than any of his professors did in salary. So instead of crawling back repentant at the end of the year, he took another year off and went to Europe. He did eventually graduate at about 26.",
+      "zhMarkdown": "当哈佛把本科生开除一年时，他们必须去找工作。学校的本意是想让他们看看现实世界有多残酷，从而明白能上大学是多么幸运。但这个计划在我们招来的那个小伙子身上失效了，因为他在我们这里过得比在学校开心得多，而且那一年他通过股票期权赚到的钱比他任何一位教授的薪水还要高。所以，一年结束时他并没有忏悔着爬回学校，而是又休学了一年去欧洲旅行。他最终毕业时大概已经26岁了。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "0bea76e6e5de466fdf35455344512ffa1185736c40a5393e31efc7b7955733d9",
+      "enMarkdown": "[3] Eric Raymond says the best metaphors for hackers are in set theory, combinatorics, and graph theory.",
+      "zhMarkdown": "[3] Eric Raymond 认为，最适合黑客的数学隐喻存在于集合论、组合数学和图论中。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "2ff26978a108db8983de7d3c17633c28f3e518623f94714a314f58a06af219c4",
+      "enMarkdown": "Trevor Blackwell reminds you to take math classes intended for math majors. \"'Math for engineers' classes sucked mightily. In fact any 'x for engineers' sucks, where x includes math, law, writing and visual design.\"",
+      "zhMarkdown": "Trevor Blackwell 提醒你，要去选修那些针对数学专业学生的数学课。“‘工科数学’课烂透了。事实上，任何‘工科专属的X’都很烂，这里的X包括数学、法律、写作和视觉设计。”"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "2160effff3b9a9fdd7d05ca94832a28a24b2670fdbbcf7ef3d8a9d3a787f5b60",
+      "enMarkdown": "[4] Other highly recommended books: *What is Mathematics?*, by Courant and Robbins; *Geometry and the Imagination* by Hilbert and Cohn-Vossen. And for those interested in graphic design, [Byrne's Euclid](http://www.math.ubc.ca/people/faculty/cass/Euclid/byrne.html).",
+      "zhMarkdown": "[4] 其他强烈推荐的书籍：Courant 和 Robbins 的《什么是数学？》；Hilbert 和 Cohn-Vossen 的《几何与想象》。对于对平面设计感兴趣的人，推荐 [Byrne 的《几何原本》译本](http://www.math.ubc.ca/people/faculty/cass/Euclid/byrne.html)。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "46158c703940f6b8d57d53f3b901d589151e219c0aac9ea7cfccf14ff88140a7",
+      "enMarkdown": "[5] If you wanted to have the perfect life, the thing to do would be to go to grad school, secretly write your dissertation in the first year or two, and then just enjoy yourself for the next three years, dribbling out a chapter at a time. This prospect will make grad students' mouths water, but I know of no one who's had the discipline to pull it off.",
+      "zhMarkdown": "[5] 如果你想过上完美的生活，办法就是去读研，在头一两年里偷偷把毕业论文写完，然后尽情享受接下来的三年，一次只挤出一章。这个前景会让研究生的口水直流，但我没听说过有谁能有这种自律把它付诸实践。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "d1c29d258b2d6b75006edd5ccd1fb3ab118e6ebfb5ae4825e1ffc72ecd2956f8",
+      "enMarkdown": "[6] One professor friend says that 15-20% of the grad students they admit each year are \"long shots.\" But what he means by long shots are people whose applications are perfect in every way, except that no one on the admissions committee knows the professors who wrote the recommendations.",
+      "zhMarkdown": "[6] 一位当教授的朋友说，他们每年录取的的研究生中有15-20%是“爆冷门”的。但他所谓的“爆冷门”，是指那些申请材料在各方面都堪称完美，只是招生委员会里没人认识写推荐信的教授的人。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "74fe09059b8ab26289915230162a6fee883a2a4e2a2ae4b16e9ab2bcd2ec1ac3",
+      "enMarkdown": "So if you want to get into grad school in the sciences, you need to go to college somewhere with real research professors. Otherwise you'll seem a risky bet to admissions committees, no matter how good you are.",
+      "zhMarkdown": "[7] 因此，如果你想申请理工科的研究生，你需要去一所有真正科研教授的大学。否则，无论你有多优秀，在招生委员会看来你都是一个风险极高的赌注。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "c28e8e7f3cfa7ed0967d8b4fc7ae749862c69d6ab5d7e29367074e05bd4103b2",
+      "enMarkdown": "Which implies a surprising but apparently inevitable consequence: little liberal arts colleges are doomed.  Most smart high school kids at least consider going into the sciences, even if they ultimately choose not to. Why go to a college that limits their options?",
+      "zhMarkdown": "这暗示了一个令人惊讶但似乎不可避免的后果：小型博雅学院（文理学院）注定要走下坡路。大多数聪明的优秀高中生至少会考虑选择理工科，即使他们最终没有选择。为什么要选择一所限制了自己选择余地的大学呢？"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "f9f882cb75d3854a16a7ff472cae8e9cbdb4762a3eeaaea2857b930a484dd99b",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Alex Lewin, Jessica Livingston, Robert Morris, Eric Raymond, and several [anonymous CS professors](https://paulgraham.com/undergrad2.html) for reading drafts of this, and to the students whose questions began it.",
+      "zhMarkdown": "**感谢** Trevor Blackwell, Alex Lewin, Jessica Livingston, Robert Morris, Eric Raymond 以及几位[匿名的计算机系教授](https://paulgraham.com/undergrad2.html)阅读了本文的草稿，并感谢那些提出问题促成此文的学生们。"
+    }
+  ]
+}

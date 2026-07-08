@@ -1,0 +1,370 @@
+{
+  "slug": "genius",
+  "titleEn": "The Bus Ticket Theory of Genius",
+  "titleZh": "天才的“公交车票理论”",
+  "dateText": "November 2019",
+  "publishedAt": "2019-11-01",
+  "sourceOrder": 54,
+  "sourceUrl": "https://paulgraham.com/genius.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "dc0a7d864a35c97426106a6c77973eb31afa5f1e39bc51795425653a21085e89",
+      "enMarkdown": "Everyone knows that to do great work you need both natural ability and determination. But there's a third ingredient that's not as well understood: an obsessive interest in a particular topic.",
+      "zhMarkdown": "人人都知道，想要做出伟大的成就，天赋和决心缺一不可。但还有第三个要素，人们对它的理解往往不够深：那就是对某个特定领域的痴迷。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "af2f0764e5cead4be761a3e132e2a29834f155b492b0ea7b1a277f2cb108e2f1",
+      "enMarkdown": "To explain this point I need to burn my reputation with some group of people, and I'm going to choose bus ticket collectors. There are people who collect old bus tickets. Like many collectors, they have an obsessive interest in the minutiae of what they collect. They can keep track of distinctions between different types of bus tickets that would be hard for the rest of us to remember. Because we don't care enough. What's the point of spending so much time thinking about old bus tickets?",
+      "zhMarkdown": "为了解释这一点，我得先得罪一帮人，我挑中的是“公交车票收藏家”。确实有人专门收藏旧公交车票。像许多收藏家一样，他们对自己藏品的细节有着近乎偏执的兴趣。他们能分清各种不同类型的公交车票，而我们普通人甚至连记都记不住。因为我们根本不在乎。花这么多时间琢磨旧公交车票有什么意义呢？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d198a674f75c685cea5daf4b7eccd682a8876b19148d0d754305f6dce085a43c",
+      "enMarkdown": "Which leads us to the second feature of this kind of obsession: there is no point. A bus ticket collector's love is disinterested. They're not doing it to impress us or to make themselves rich, but for its own sake.",
+      "zhMarkdown": "这就引出了这种痴迷的第二个特征：它毫无意义。公交车票收藏家的爱是纯粹、无私的。他们这样做既不是为了给别人留下深刻印象，也不是为了发家致富，纯粹是乐在其中。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "d68e65b2779bf6c42808c33f43cdb4889357f0f043485d22e5e85334b7b9d289",
+      "enMarkdown": "When you look at the lives of people who've done great work, you see a consistent pattern. They often begin with a bus ticket collector's obsessive interest in something that would have seemed pointless to most of their contemporaries. One of the most striking features of Darwin's book about his voyage on the Beagle is the sheer depth of his interest in natural history. His curiosity seems infinite. Ditto for Ramanujan, sitting by the hour working out on his slate what happens to series.",
+      "zhMarkdown": "纵观那些做出伟大成就的人的一生，你会发现一个恒常的规律。他们起初往往都像公交车票收藏家一样，对某种在同代人看来毫无意义的事情产生痴迷。达尔文关于小猎犬号航行那本书中，最令人瞩目的特征之一就是他对自然历史那股极深的热爱。他的好奇心仿佛无穷无尽。拉马努金也是如此，他能一连几个小时坐在石板前，推算无穷级数的演变。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "32943df09cb121959cd8df7ee5fb2c6e2523bc4a9b7f381cc83becf4869f8282",
+      "enMarkdown": "It's a mistake to think they were \"laying the groundwork\" for the discoveries they made later. There's too much intention in that metaphor. Like bus ticket collectors, they were doing it because they liked it.",
+      "zhMarkdown": "如果认为他们当时是在为后来的重大发现“奠定基础”，那就错了。这种比喻带有太强的目的性。他们和公交车票收藏家一样，做这些事仅仅是因为他们喜欢。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "32f04b06b77ffb4814fcb6875063a7bc8327a90533cca5b1bd53da512cf36c98",
+      "enMarkdown": "But there is a difference between Ramanujan and a bus ticket collector. Series matter, and bus tickets don't.",
+      "zhMarkdown": "但拉马努金和公交车票收藏家之间还是有区别的。级数很重要，而公交车票不重要。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "a2e109731cb43ed24099a910a2443efb25375181133b15afe33409ad4f1f0916",
+      "enMarkdown": "If I had to put the recipe for genius into one sentence, that might be it: to have a disinterested obsession with something that matters.",
+      "zhMarkdown": "如果非要用一句话来概括天才的秘诀，大概就是：对真正重要的事情，抱有一种无私的痴迷。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "0c4c86cae6b73fcbd5fd522500aa2cbaa816145bf6657280e5957e32f7aa2d19",
+      "enMarkdown": "Aren't I forgetting about the other two ingredients? Less than you might think. An obsessive interest in a topic is both a proxy for ability and a substitute for determination. Unless you have sufficient mathematical aptitude, you won't find series interesting. And when you're obsessively interested in something, you don't need as much determination: you don't need to push yourself as hard when curiosity is pulling you.",
+      "zhMarkdown": "我难道忘了另外两个要素吗？其实没有你想的那么多。对某个领域的痴迷，既是天赋的体现，也是决心的替代品。除非你具有足够的数学天赋，否则你根本不会觉得级数有趣。而当你对某件事极其痴迷时，你就不需要那么多的决心了：当好奇心在前面拉着你走时，你不需要费尽心力去推自己。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "0b970c340b1578e31404d54b686bf9241fb0b0d1bf685afc8e7255fd35e87c46",
+      "enMarkdown": "An obsessive interest will even bring you luck, to the extent anything can. Chance, as Pasteur said, favors the prepared mind, and if there's one thing an obsessed mind is, it's prepared.",
+      "zhMarkdown": "在某种程度上，痴迷甚至会给你带来运气。正如巴斯德所说，机会青睐有准备的人，而一个痴迷的头脑，最不缺的就是准备。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "f3e1202cbc21b00066d80243ad9eb2db5a6109993e2b67000be591e79d8d87f6",
+      "enMarkdown": "The disinterestedness of this kind of obsession is its most important feature. Not just because it's a filter for earnestness, but because it helps you discover new ideas.",
+      "zhMarkdown": "这种痴迷的“无私性”是它最重要的特征。不仅因为它能过滤掉功利心，还因为它能帮你发现全新的想法。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "6a5d2a518caa99d1c3567ce7b458085443aeb3f451f628a8ab87e6fcf12c8c67",
+      "enMarkdown": "The paths that lead to new ideas tend to look unpromising. If they looked promising, other people would already have explored them. How do the people who do great work discover these paths that others overlook? The popular story is that they simply have better vision: because they're so talented, they see paths that others miss. But if you look at the way great discoveries are made, that's not what happens. Darwin didn't pay closer attention to individual species than other people because he saw that this would lead to great discoveries, and they didn't. He was just really, really interested in such things.",
+      "zhMarkdown": "通往新想法的道路，起初往往看起来毫无希望。如果它们看起来很有希望，别人早就去探索了。那些做出伟大成就的人，是如何发现这些被他人忽略的道路的？流行的说法是，他们只是眼光更好：因为天赋异禀，所以能看到别人看不到的路。但如果你去研究伟大发现的诞生过程，就会发现事实并非如此。达尔文比别人更关注每一个物种，并不是因为他预见到这会带来伟大的发现，而别人没看出来。他只是单纯对这些东西极度感兴趣。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "d38a357249d3d5654dcd6193c23647bcfe3518ba350c007e1ab237dc2516fea9",
+      "enMarkdown": "Darwin couldn't turn it off. Neither could Ramanujan. They didn't discover the hidden paths that they did because they seemed promising, but because they couldn't help it. That's what allowed them to follow paths that someone who was merely ambitious would have ignored.",
+      "zhMarkdown": "达尔文停不下来。拉马努金也停不下来。他们之所以能发现那些隐藏的道路，并不是因为这些路看起来很有前途，而是因为他们忍不住要去探索。正是这种无法自拔，让他们走上了那些仅仅怀揣野心的人会忽略的道路。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "824dd1ff75026135d21e770bcd2018221907c26c21afc8b7bbe6bb83cd190e1b",
+      "enMarkdown": "What rational person would decide that the way to write great novels was to begin by spending several years creating an imaginary elvish language, like Tolkien, or visiting every household in southwestern Britain, like Trollope? No one, including Tolkien and Trollope.",
+      "zhMarkdown": "一个理性的人，怎么会决定通过先花几年时间创造一门虚构的精灵语（像托尔金那样），或者走访英格兰西南部的每一个家庭（像特罗洛普那样），来写出伟大的小说？没有任何一个理性的人会这么做，包括托尔金和特罗洛普自己。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e43f14436fe743bdaf250b5f7b766721f1eba5c4bc1f70c33eb520f8a3e8afc4",
+      "enMarkdown": "The bus ticket theory is similar to Carlyle's famous definition of genius as an infinite capacity for taking pains. But there are two differences. The bus ticket theory makes it clear that the source of this infinite capacity for taking pains is not infinite diligence, as Carlyle seems to have meant, but the sort of infinite interest that collectors have. It also adds an important qualification: an infinite capacity for taking pains about something that matters.",
+      "zhMarkdown": "公交车票理论与卡莱尔那句名言类似，他将天才定义为“无限忍受艰苦的能力”。但两者有两个区别。公交车票理论明确指出，这种无限忍受艰苦的能力并非源于卡莱尔所指的“无限勤奋”，而是源于收藏家那种“无限的兴趣”。此外，它还加上了一个重要的限定条件：对真正重要的事情，拥有无限忍受艰苦的能力。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "e12e9008d85506c6cb32cc772c8695429da71a5307a9e1d5db23116ef6ee14f9",
+      "enMarkdown": "So what matters? You can never be sure. It's precisely because no one can tell in advance which paths are promising that you can discover new ideas by working on what you're interested in.",
+      "zhMarkdown": "那么，什么才是重要的？你永远无法确定。恰恰因为没人能预先知道哪些道路是有前途的，你才可以通过钻研自己感兴趣的事情来发现新想法。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "20f8536a42806eb869d95afbebf89202922f79823e75a7b53c6d713a9744f8dc",
+      "enMarkdown": "But there are some heuristics you can use to guess whether an obsession might be one that matters. For example, it's more promising if you're creating something, rather than just consuming something someone else creates. It's more promising if something you're interested in is difficult, especially if it's [more difficult for\nother people](https://paulgraham.com/work.html) than it is for you. And the obsessions of talented people are more likely to be promising. When talented people become interested in random things, they're not truly random.",
+      "zhMarkdown": "不过，你可以通过一些启发式的标准，来猜测某种痴迷是否重要。例如，如果你是在创造某种东西，而不是在消费别人创造的东西，这就更有前途。如果你感兴趣的事情很有难度，特别是对别人来说[比对你更难](https://paulgraham.com/work.html)，这就更有前途。此外，有才华的人所痴迷的事物，往往更有可能是有前途的。当有才华的人对某些看似随机的事情产生兴趣时，这些事情往往并非真的随机。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "78ef1a2a47ed37984d69041acb16f8075ba4fad3abb22227e862bdcc164fc908",
+      "enMarkdown": "But you can never be sure. In fact, here's an interesting idea that's also rather alarming if it's true: it may be that to do great work, you also have to waste a lot of time.",
+      "zhMarkdown": "但你永远无法百分之百确定。事实上，这里有一个很有趣、但如果属实也挺让人恐慌的想法：为了做出伟大的成就，你可能也必须浪费大量的时间。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "33a377433259916cea8e79c6fbfe3953eb49d3eab5513de4cfcaba0d3c3648f6",
+      "enMarkdown": "In many different areas, reward is proportionate to risk. If that rule holds here, then the way to find paths that lead to truly great work is to be willing to expend a lot of effort on things that turn out to be every bit as unpromising as they seem.",
+      "zhMarkdown": "在许多不同的领域，回报与风险成正比。如果这条规律在这里也适用，那么寻找通往伟大成就之路的方法，就是甘愿在那些看起来毫无希望的事情上投入大量的精力，即便它们最终证明确实毫无希望。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "6f23b6127b8aed4a593d27a792b3fcf9c37528503eb7423fd9d6d99f33119b49",
+      "enMarkdown": "I'm not sure if this is true. On one hand, it seems surprisingly difficult to waste your time so long as you're working hard on something interesting. So much of what you do ends up being useful. But on the other hand, the rule about the relationship between risk and reward is so powerful that it seems to hold wherever risk occurs. [Newton's](https://paulgraham.com/disc.html) case, at least, suggests that the risk/reward rule holds here. He's famous for one particular obsession of his that turned out to be unprecedentedly fruitful: using math to describe the world. But he had two other obsessions, alchemy and theology, that seem to have been complete wastes of time. He ended up net ahead. His bet on what we now call physics paid off so well that it more than compensated for the other two. But were the other two necessary, in the sense that he had to take big risks to make such big discoveries? I don't know.",
+      "zhMarkdown": "我不确定这是否完全正确。一方面，只要你是在努力钻研一件有趣的事情，似乎很难真正浪费时间。你所做的很多事情，最终都会派上用场。但另一方面，风险与回报的关系又是如此强大，以至于只要有风险存在，这条规律就似乎起作用。至少[牛顿](https://paulgraham.com/disc.html)的例子表明，风险/回报规律在这里是成立的。他因一项最终被证明带来空前成果的痴迷而闻名：用数学来描述世界。但他还有另外两项痴迷——炼金术和神学，这在今天看来完全是浪费时间。但他最终还是净赚了。他在我们今天称之为物理学的领域上的押注，回报是如此丰厚，以至于远远弥补了另外两个领域的损失。但那两个领域的尝试是必需的吗？是不是因为他必须冒极大的风险，才能做出如此伟大的发现？我不知道。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "20c7b0e0a61ca39bcf9f4764945fc2257ac5cb3c00123484bf318cd7402d82a8",
+      "enMarkdown": "Here's an even more alarming idea: might one make all bad bets? It probably happens quite often. But we don't know how often, because these people don't become famous.",
+      "zhMarkdown": "这里还有一个更让人恐慌的想法：一个人有没有可能所有的注都押错了？这种情况可能经常发生。但我们不知道发生的频率有多高，因为这些人并没有成名。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "6cefa86b078f8f94ac1827fa7be964708a7d4bfcd5d9ca10a48f54f33f0d9961",
+      "enMarkdown": "It's not merely that the returns from following a path are hard to predict. They change dramatically over time. 1830 was a really good time to be obsessively interested in natural history. If Darwin had been born in 1709 instead of 1809, we might never have heard of him.",
+      "zhMarkdown": "沿着某条道路走下去的回报不仅难以预测，而且会随着时间推移发生戏剧性的变化。1830年是一个对自然历史产生痴迷的极佳时机。如果达尔文出生在1709年而不是1809年，我们可能永远都不会听到他的名字。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "eaf13e8946fffae9e39cf7243becee8d361fea4e6f32a69b9f605d9fb2ac7b6d",
+      "enMarkdown": "What can one do in the face of such uncertainty? One solution is to hedge your bets, which in this case means to follow the obviously promising paths instead of your own private obsessions. But as with any hedge, you're decreasing reward when you decrease risk. If you forgo working on what you like in order to follow some more conventionally ambitious path, you might miss something wonderful that you'd otherwise have discovered. That too must happen all the time, perhaps even more often than the genius whose bets all fail.",
+      "zhMarkdown": "面对如此大的不确定性，我们该怎么办？一种解决办法是套期保值（对冲），在当前语境下，这意味着去走那些显而易见、很有前途的路，而不是顺从你个人的独特痴迷。但就像任何对冲一样，你在降低风险的同时，也降低了回报。如果你为了追求某种更符合传统野心的道路而放弃自己喜欢的工作，你可能会错过那些本来可以发现的美妙事物。这种情况必定也经常发生，甚至可能比那些满盘皆输的天才还要多。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "5cfe78338d75a6caded3b80bda34b11df756b29828cd1ce3237fd7b8c9a411f0",
+      "enMarkdown": "The other solution is to let yourself be interested in lots of different things. You don't decrease your upside if you switch between equally genuine interests based on which seems to be working so far. But there is a danger here too: if you work on too many different projects, you might not get deeply enough into any of them.",
+      "zhMarkdown": "另一种解决办法是让自己对很多不同的事物产生兴趣。如果你在同样真诚的兴趣之间切换，根据目前看来哪个更有进展来做选择，你并不会降低你的上限。但这里也有一个危险：如果你涉猎了太多不同的项目，你可能在任何一个项目上都无法深入。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "d2fc18b2e4a673f955a057998f02f6b20da3a40c17c0356fec7935892f749a39",
+      "enMarkdown": "One interesting thing about the bus ticket theory is that it may help explain why different types of people excel at different kinds of work. Interest is much more unevenly distributed than ability. If natural ability is all you need to do great work, and natural ability is evenly distributed, you have to invent elaborate theories to explain the skewed distributions we see among those who actually do great work in various fields. But it may be that much of the skew has a simpler explanation: different people are interested in different things.",
+      "zhMarkdown": "关于公交车票理论，一个有趣的地方在于，它可能有助于解释为什么不同类型的人在不同类型的工作中表现出色。兴趣的分布要比天赋的分布不均得多。如果做出伟大成就只需要天赋，且天赋是均匀分布的，那么你就必须发明复杂的理论来解释，为什么在各个领域中实际做出伟大成就的人呈现出如此倾斜的分布。但这种倾斜也许有一个更简单的解释：不同的人对不同的事情感兴趣。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "f262ae976a2f1e234153d988a304caf1f7f6077a9c5b2e2d27ce676194ded661",
+      "enMarkdown": "The bus ticket theory also explains why people are less likely to do great work after they have children. Here interest has to compete not just with external obstacles, but with another interest, and one that for most people is extremely powerful. It's harder to find time for work after you have kids, but that's the easy part. The real change is that you don't want to.",
+      "zhMarkdown": "公交车票理论也解释了为什么人们在有了孩子之后，不太容易做出伟大的成就。在这里，兴趣不仅要与外部障碍竞争，还要与另一种对大多数人来说极其强烈的兴趣竞争。生完孩子后确实更难抽出时间工作，但那只是容易解决的部分。真正的变化是，你根本不想去工作了。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "8dcab57c08e0d0703d8a385524fcf4a1bd636a6245cb2ce456e4343329ba264f",
+      "enMarkdown": "But the most exciting implication of the bus ticket theory is that it suggests ways to encourage great work. If the recipe for genius is simply natural ability plus hard work, all we can do is hope we have a lot of ability, and work as hard as we can. But if interest is a critical ingredient in genius, we may be able, by cultivating interest, to cultivate genius.",
+      "zhMarkdown": "但公交车票理论最令人兴奋的启示在于，它指明了鼓励伟大成就的方法。如果天才的秘诀仅仅是天赋加勤奋，那我们唯一能做的就是祈祷自己拥有极高的天赋，并尽可能努力地工作。但如果兴趣是天才的关键要素，我们或许可以通过培养兴趣来培养天才。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "de75de6b6d3f7f25a3a75be21748b12d598c92a0cec32410503182536003814e",
+      "enMarkdown": "For example, for the very ambitious, the bus ticket theory suggests that the way to do great work is to relax a little. Instead of gritting your teeth and diligently pursuing what all your peers agree is the most promising line of research, maybe you should try doing something just for fun. And if you're stuck, that may be the vector along which to break out.",
+      "zhMarkdown": "例如，对于极有抱负的人，公交车票理论建议，想要做出伟大成就的方法是稍微放松一下。不要咬紧牙关、勤勉地追求那些所有同行都认为最有前途的研究方向，也许你应该尝试做一些纯粹为了好玩的事情。如果你陷入了困境，那可能就是你突围的路径。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "c6b89b04f6a719c8206dd0fdb29904f7f93332dacdf89a5c07a177edac9c12f9",
+      "enMarkdown": "I've always liked [Hamming's](https://paulgraham.com/hamming.html) famous double-barrelled question: what are the most important problems in your field, and why aren't you working on one of them? It's a great way to shake yourself up. But it may be overfitting a bit. It might be at least as useful to ask yourself: if you could take a year off to work on something that probably wouldn't be important but would be really interesting, what would it be?",
+      "zhMarkdown": "我一直很喜欢[海明](https://paulgraham.com/hamming.html)那个著名的双管齐下的问题：你这个领域最重要的问题是什么？为什么你没有在研究其中一个？这是让自己清醒过来的绝佳方式。但它可能有点过度拟合了。或许同样有用的问题是：如果你可以休假一年，去研究一件可能不重要但非常有趣的事情，那会是什么？"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "86b289a8ab551fbec40f149b99a3a03ad16c9734be3c57a423139dcffef82247",
+      "enMarkdown": "The bus ticket theory also suggests a way to avoid slowing down as you get older. Perhaps the reason people have fewer new ideas as they get older is not simply that they're losing their edge. It may also be because once you become established, you can no longer mess about with irresponsible side projects the way you could when you were young and no one cared what you did.",
+      "zhMarkdown": "公交车票理论还提供了一种避免随着年龄增长而思维迟钝的方法。也许人们年龄越大新想法越少，并不仅仅是因为他们正在失去锐气。这也可能是因为，一旦你功成名就，你就不能再像年轻时那样，在没人关心你做什么的时候，去瞎折腾那些不务正业的业余项目了。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "39c37e77013646f5450b85068c0f127d7f44dd00961a3990096b65d32dd8b6f6",
+      "enMarkdown": "The solution to that is obvious: remain irresponsible. It will be hard, though, because the apparently random projects you take up to stave off decline will read to outsiders as evidence of it. And you yourself won't know for sure that they're wrong. But it will at least be more fun to work on what you want.",
+      "zhMarkdown": "解决办法显而易见：保持不务正业。不过这会很难，因为为了防止衰退而着手的那些看似随机的项目，在局外人看来正是衰退的证据。而你自己也无法确信他们是错的。但至少，做自己想做的事情会更有乐趣。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "46e2bf769f2305a19ed7df7f9452c75a4737bcdafae1b0fd69e588f9dd1c9565",
+      "enMarkdown": "It may even be that we can cultivate a habit of intellectual bus ticket collecting in kids. The usual plan in education is to start with a broad, shallow focus, then gradually become more specialized. But I've done the opposite with my kids. I know I can count on their school to handle the broad, shallow part, so I take them deep.",
+      "zhMarkdown": "我们甚至可以在孩子身上培养这种知识性“公交车票收藏”的习惯。通常的教育计划是先从宽泛、浅显的关注点开始，然后逐渐变得更加专业。但我对自己的孩子采取了相反的做法。我知道我可以指望学校来处理宽泛、浅显的部分，所以我带他们深入钻研。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "287b8bc80c66197382a1232ec251a7fb84a08b77900dabef06d76427a11fbf4a",
+      "enMarkdown": "When they get interested in something, however random, I encourage them to go preposterously, bus ticket collectorly, deep. I don't do this because of the bus ticket theory. I do it because I want them to feel the joy of learning, and they're never going to feel that about something I'm making them learn. It has to be something they're interested in. I'm just following the path of least resistance; depth is a byproduct. But if in trying to show them the joy of learning I also end up training them to go deep, so much the better.",
+      "zhMarkdown": "当他们对某件事产生兴趣时，不管多么随机，我都鼓励他们像公交车票收藏家一样，荒谬地、极度深入地钻研下去。我这样做并不是因为公交车票理论。我这样做是因为我想让他们感受到学习的乐趣，而对于我强迫他们学习的东西，他们永远也感受不到这种乐趣。它必须是他们自己感兴趣的东西。我只是顺应阻力最小的路径，深度只是副产品。但如果为了让他们体会到学习的乐趣，最终也训练了他们深入钻研的能力，那就再好不过了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "5588513b74e0682fc362c9cdc1396d8d2efbb87fedd2a5975fb5f3a518a2b536",
+      "enMarkdown": "Will it have any effect? I have no idea. But that uncertainty may be the most interesting point of all. There is so much more to learn about how to do great work. As old as human civilization feels, it's really still very young if we haven't nailed something so basic. It's exciting to think there are still discoveries to make about discovery. If that's the sort of thing you're interested in.",
+      "zhMarkdown": "这会有效果吗？我不知道。但这种不确定性也许正是最有趣的一点。关于如何做出伟大的成就，还有太多需要学习的地方。尽管人类文明感觉已经很古老了，但如果我们连这么基础的事情都还没搞清楚，那它其实还非常年轻。想到关于“发现”本身还有待发现，这真令人兴奋。如果你对这类事情感兴趣的话。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "7cd3822c3952f88ea8acb12bbecfe462fb101a5dcc31858ca9a1bf7995da5ade",
+      "enMarkdown": "[1] There are other types of collecting that illustrate this point better than bus tickets, but they're also more popular. It seemed just as well to use an inferior example rather than offend more people by telling them their hobby doesn't matter.",
+      "zhMarkdown": "[1] 还有其他类型的收藏比公交车票更能说明这一点，但它们也更普及。用一个不那么高大上的例子似乎挺好，免得告诉别人他们的爱好不重要而得罪更多人。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "99d26093828cfee4dc2e3b57a7d945c11ce4bb161b091ce44443545f6d0c7176",
+      "enMarkdown": "[2] I worried a little about using the word \"disinterested,\" since some people mistakenly believe it means not interested. But anyone who expects to be a genius will have to know the meaning of such a basic word, so I figure they may as well start now.",
+      "zhMarkdown": "[2] 我曾稍微担心过使用“disinterested”（无私的、无利害关系的）这个词，因为有些人误以为它是“不感兴趣”的意思。但任何指望自己成为天才的人，都必须知道这样一个基础词汇的含义，所以我想他们不妨现在就认识它。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "82593e7882745a0f4269bc3147ef4bf02c6ac9be6b8fa972f4a2783dc67d7bea",
+      "enMarkdown": "[3] Think how often genius must have been nipped in the bud by people being told, or telling themselves, to stop messing about and be responsible. Ramanujan's mother was a huge enabler. Imagine if she hadn't been. Imagine if his parents had made him go out and get a job instead of sitting around at home doing math.",
+      "zhMarkdown": "[3] 想想看，有多少天才在萌芽状态就被扼杀了，因为人们被告知（或自己告诉自己）别瞎折腾了，要负起责任来。拉马努金的母亲给予了极大的支持。想象一下，如果她没有这样做。想象一下，如果他的父母让他出去找份工作，而不是让他整天待在家里做数学题。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "02cf5fff2b1a249bc77ae05aa662a8159e06b284a6e10d34b915372fc4d89bc3",
+      "enMarkdown": "On the other hand, anyone quoting the preceding paragraph to justify not getting a job is probably mistaken.",
+      "zhMarkdown": "另一方面，任何人如果引用前一段来为自己不找工作辩护，大概是想错了。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "099987b0321028be5497c0bb4ff05bafd6841c4f67880d572a8f65d445b72e88",
+      "enMarkdown": "[4] 1709 Darwin is to time what the [Milanese Leonardo](https://paulgraham.com/cities.html) is to space.",
+      "zhMarkdown": "[4] 1709年的达尔文之于时间，就像[米兰时期的达芬奇](https://paulgraham.com/cities.html)之于空间。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "027613061d6e090e208863f72bb3d065707f70da6a65dd7b7d056700ce119c64",
+      "enMarkdown": "[5] \"An infinite capacity for taking pains\" is a paraphrase of what Carlyle wrote. What he wrote, in his *History of Frederick the Great*, was \"... it is the fruit of 'genius' (which means transcendent capacity of taking trouble, first of all)....\" Since the paraphrase seems the name of the idea at this point, I kept it.",
+      "zhMarkdown": "[5] “无限忍受艰苦的能力”是对卡莱尔原话的转述。他在《腓特烈大帝传》中写道：“……它是‘天才’的果实（这首先意味着超越常人的承担麻烦的能力）……”。既然这个转述在今天看来已经成了这个观点的代名词，我就沿用了它。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "5d65294b092530c376a841fb8743c816cb576f733a4f5d0a1e759567d811fabf",
+      "enMarkdown": "Carlyle's *History* was published in 1858. In 1785 H�rault de S�chelles quoted Buffon as saying \"Le g�nie n'est qu'une plus grande aptitude � la patience.\" (Genius is only a greater aptitude for patience.)",
+      "zhMarkdown": "卡莱尔的《大帝传》出版于1858年。而在1785年，埃罗·德·塞谢勒曾引用布封的话：“Le génie n'est qu'une plus grande aptitude à la patience.”（天才不过是更强大的耐心。）"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "63126c06ba292dd8afeae78b28361bf664510cec12dbfc4882a250f39c81761c",
+      "enMarkdown": "[6] Trollope was establishing the system of postal routes. He himself sensed the obsessiveness with which he pursued this goal.",
+      "zhMarkdown": "[6] 特罗洛普当时正在建立邮路系统。他自己也察觉到了自己追求这一目标的痴迷程度。"
+    },
+    {
+      "id": 43,
+      "type": "quote",
+      "sourceHash": "e9d3126449404c6b17d192edd003e195e5242bcd4d4153885a7f9333aa9d0e5c",
+      "enMarkdown": "> It is amusing to watch how a passion will grow upon a man. During those two years it was the ambition of my life to cover the country with rural letter-carriers.",
+      "zhMarkdown": "> 看着一种激情如何在一个人身上滋长，是很有趣的事。在那两年里，我人生的野心就是让乡邮员遍布整个国家。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "280b60015237cf4ced895d7fa2b115a2fa04151248a4266a484790fdd644758c",
+      "enMarkdown": "Even Newton occasionally sensed the degree of his obsessiveness. After computing pi to 15 digits, he wrote in a letter to a friend:",
+      "zhMarkdown": "甚至牛顿偶尔也会意识到自己的痴迷程度。在将圆周率计算到小数点后15位后，他在给朋友的一封信中写道："
+    },
+    {
+      "id": 45,
+      "type": "quote",
+      "sourceHash": "d0690c133c34c5635e5db0bdc5d283bd901d5f3a54d77f653c3ea8076d60bfa2",
+      "enMarkdown": "> I am ashamed to tell you to how many figures I carried these computations, having no other business at the time.",
+      "zhMarkdown": "> 我很羞愧地告诉你，我把这些计算进行到了多少位，因为我当时没有别的事情可做。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "9e4f2dd7435557f43494aaf997531073672cc614574488eb429681af844cfceb",
+      "enMarkdown": "Incidentally, Ramanujan was also a compulsive calculator. As Kanigel writes in his excellent biography:",
+      "zhMarkdown": "顺便提一句，拉马努金也是一个强迫性的计算者。正如卡尼格尔在杰出的传记中所写："
+    },
+    {
+      "id": 47,
+      "type": "quote",
+      "sourceHash": "4fefc1c841363f3403659104255e3d275924022078437a1be86a4004ba835ac4",
+      "enMarkdown": "> One Ramanujan scholar, B. M. Wilson, later told how Ramanujan's research into number theory was often \"preceded by a table of numerical results, carried usually to a length from which most of us would shrink.\"",
+      "zhMarkdown": "> 一位研究拉马努金的学者 B. M. 威尔逊后来讲述，拉马努金对数论的研究通常“先于一张数值结果表，其长度通常让大部人望而却步”。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "ebfaffa896ffd59b92b387fdf343c0a0ded13bb40c960460af9e2bedf4cca602",
+      "enMarkdown": "[7] Working to understand the natural world counts as creating rather than consuming.",
+      "zhMarkdown": "[7] 致力于理解自然世界算作创造，而不是消费。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "3b762da455dc7cd4a37a2252c89f36c064652100234e87a17d274fae163ab0b7",
+      "enMarkdown": "Newton tripped over this distinction when he chose to work on theology. His beliefs did not allow him to see it, but chasing down paradoxes in nature is fruitful in a way that chasing down paradoxes in sacred texts is not.",
+      "zhMarkdown": "牛顿在选择研究神学时，在这个区别上栽了跟头。他的信仰不容许他看清这一点，但在自然中追寻悖论是富有成效的，而在神圣文本中追寻悖论则不然。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "efd891b9b7869e6dd89454cf5777e041c1af30633107c479f6a60b7376ae99ab",
+      "enMarkdown": "[8] How much of people's propensity to become interested in a topic is inborn? My experience so far suggests the answer is: most of it. Different kids get interested in different things, and it's hard to make a child interested in something they wouldn't otherwise be. Not in a way that sticks. The most you can do on behalf of a topic is to make sure it gets a fair showing � to make it clear to them, for example, that there's more to math than the dull drills they do in school. After that it's up to the child.",
+      "zhMarkdown": "[8] 人们对某个话题产生兴趣的倾向，有多少是天生的？我目前的经验表明答案是：大部分。不同的孩子对不同的事物感兴趣，很难让一个孩子对他本来不感兴趣的事情产生兴趣。至少无法产生持久的兴趣。你能为某个学科做的最多的事情，就是确保它得到公正的展现——例如，向他们说清楚，数学不仅仅是他们在学校里做的那些枯燥的练习。在那之后，就全看孩子自己了。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "015611bd72a344aeff526d935768ae89911a53ab640906d59fb039b04166cb50",
+      "enMarkdown": "**Thanks** to Marc Andreessen, Trevor Blackwell, Patrick Collison, Kevin Lacker, Jessica Livingston, Jackie McDonough, Robert Morris, Lisa Randall, Zak Stone, and [my 7 year old](https://twitter.com/paulg/status/1196537802621669376) for reading drafts of this.",
+      "zhMarkdown": "**感谢** Marc Andreessen、Trevor Blackwell、Patrick Collison、Kevin Lacker、Jessica Livingston、Jackie McDonough、Robert Morris、Lisa Randall、Zak Stone，以及[我7岁的儿子](https://twitter.com/paulg/status/1196537802621669376)阅读本书草稿。"
+    }
+  ]
+}

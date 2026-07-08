@@ -1,0 +1,188 @@
+{
+  "slug": "corpdev",
+  "titleEn": "Don't Talk to Corp Dev",
+  "titleZh": "别和企业发展部聊天",
+  "dateText": "January 2015",
+  "publishedAt": "2015-01-01",
+  "sourceOrder": 71,
+  "sourceUrl": "https://paulgraham.com/corpdev.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "4c248f2669ff61a1a8cb60e0526c07feddd555fafaa10c6ad3b7b1de5d850df5",
+      "enMarkdown": "Corporate Development, aka corp dev, is the group within companies that buys other companies. If you're talking to someone from corp dev, that's why, whether you realize it yet or not.",
+      "zhMarkdown": "企业发展部（Corporate Development，简称 corp dev），是公司内部负责收购其他公司的部门。如果你正在和企业发展部的人聊天，这就是原因，不管你有没有意识到这一点。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "1f11b087c18a16ac9596cf8c83ac546cc279f5acb84c30456766af6a976f9fe6",
+      "enMarkdown": "It's usually a mistake to talk to corp dev unless (a) you want to sell your company right now and (b) you're sufficiently likely to get an offer at an acceptable price. In practice that means startups should only talk to corp dev when they're either doing really well or really badly. If you're doing really badly, meaning the company is about to die, you may as well talk to them, because you have nothing to lose. And if you're doing really well, you can safely talk to them, because you both know the price will have to be high, and if they show the slightest sign of wasting your time, you'll be confident enough to tell them to get lost.",
+      "zhMarkdown": "通常情况下，和企业发展部聊天是个错误，除非满足两个条件：（a）你现在就想卖掉公司；（b）你很有可能拿到一个价格合理的报价。在实际操作中，这意味着创业公司只有在发展得极好或极差的时候，才应该和企业发展部接触。如果你的公司快要倒闭了，那不妨和他们聊聊，因为你已经没什么可失去的了。如果你发展得极好，你也可以放心地和他们聊，因为双方都清楚价格肯定会很高；而且如果他们表现出哪怕一丝浪费你时间的迹象，你也有足够的底气让他们滚蛋。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "5a6068b5207e3fea51e61721bf3bc7c35c51c704572968b4a5df6586e16f4ddb",
+      "enMarkdown": "The danger is to companies in the middle. Particularly to young companies that are growing fast, but haven't been doing it for long enough to have grown big yet. It's usually a mistake for a promising company less than a year old even to talk to corp dev.",
+      "zhMarkdown": "真正危险的是那些处于中间状态的公司。特别是那些增长迅速、但成立时间还不够长、规模还没做大的年轻公司。对于一家成立不到一年、前途光明的创业公司来说，哪怕只是和企业发展部聊聊天，通常也是个错误。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2a13a94cf0a40d7df2ab92f6177dd6e269b5a87913ad88e896ab58295e92bd4d",
+      "enMarkdown": "But it's a mistake founders constantly make. When someone from corp dev wants to meet, the founders tell themselves they should at least find out what they want. Besides, they don't want to offend Big Company by refusing to meet.",
+      "zhMarkdown": "但这是创始人经常犯的错误。当企业发展部的人约见面时，创始人总会对自己说，至少应该去听听他们想干什么。此外，他们也不想因为拒绝见面而得罪大公司。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "9225e302a1c0a7e8d99c3eb6a2cc6b9910ae3eb0259062a1ea0bf81a68d3d6ff",
+      "enMarkdown": "Well, I'll tell you what they want. They want to talk about buying you. That's what the title \"corp dev\" means. So before agreeing to meet with someone from corp dev, ask yourselves, \"Do we want to sell the company right now?\" And if the answer is no, tell them \"Sorry, but we're focusing on growing the company.\" They won't be offended. And certainly the founders of Big Company won't be offended. If anything they'll think more highly of you. You'll remind them of themselves. They didn't sell either; that's why they're in a position now to buy other companies. [[1](#f1n)]",
+      "zhMarkdown": "好吧，我来告诉你他们想要什么。他们想谈谈收购你的事。这就是“企业发展部”这个职能的含义。所以，在同意与他们见面之前，先问问自己：“我们现在想卖掉公司吗？”如果答案是否定的，就告诉他们：“抱歉，我们现在正专注于公司的业务增长。”他们不会觉得被冒犯。大公司的创始人更不会觉得被冒犯。如果说有什么影响的话，他们反而会更看重你。你让他们想起了当年的自己。他们当年也没有卖掉公司，所以今天才有资格去收购别的公司。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3f012a8b363ade6a91d1a8ddeaea8908e68f5928986c22d0c1bdc31bb6fd2228",
+      "enMarkdown": "Most founders who get contacted by corp dev already know what it means. And yet even when they know what corp dev does and know they don't want to sell, they take the meeting. Why do they do it? The same mix of denial and wishful thinking that underlies most mistakes founders make. It's flattering to talk to someone who wants to buy you. And who knows, maybe their offer will be surprisingly high. You should at least see what it is, right?",
+      "zhMarkdown": "大多数被企业发展部联系的创始人其实心里都明白这意味着什么。然而，即使他们知道企业发展部是干什么的，也清楚自己不想卖公司，他们还是会去赴约。为什么？这源于创始人们常犯的错误背后的共同心理：逃避现实与一厢情愿。有人想买下你，这确实令人飘飘然。而且谁知道呢，说不定他们的报价会高得惊人。至少应该去看看报价是多少，对吧？"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "6273dacb2bfd463f2eacdcdf484ba354e2b7fbc667f0fc451fb943178094999a",
+      "enMarkdown": "No. If they were going to send you an offer immediately by email, sure, you might as well open it. But that is not how conversations with corp dev work. If you get an offer at all, it will be at the end of a long and unbelievably distracting process. And if the offer is surprising, it will be surprisingly low.",
+      "zhMarkdown": "不对。如果他们会立刻发封邮件把报价发给你，那当然好，不妨打开看看。但和企业发展部的沟通根本不是这么回事。如果你最后真能拿到报价，那也是在一个漫长且极其分散精力的过程结束之后。而且，如果报价真让人感到意外，那也只会是低得令人意外。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4a06e8d7bc0214b9d9acf2da8598ba2068d5c7499adf1d17a9b09a3c1918fd48",
+      "enMarkdown": "Distractions are the thing you can least afford in a startup. And conversations with corp dev are the worst sort of distraction, because as well as consuming your [attention](https://paulgraham.com/top.html) they undermine your morale. One of the tricks to surviving a grueling process is not to stop and think how tired you are. Instead you get into a sort of flow. [[2](#f2n)] Imagine what it would do to you if at mile 20 of a marathon, someone ran up beside you and said \"You must feel really tired. Would you like to stop and take a rest?\" Conversations with corp dev are like that but worse, because the suggestion of stopping gets combined in your mind with the imaginary high price you think they'll offer.",
+      "zhMarkdown": "在创业公司中，你最消耗不起的就是精力分散。而与企业发展部的接触是最糟糕的一种干扰，因为这不仅会消耗你的[注意力](https://paulgraham.com/top.html)，还会动摇你的士气。度过艰难创业期的秘诀之一，就是不要停下来去想自己有多累。相反，你要进入一种心流状态。[[2](#f2n)] 想象一下，在马拉松跑到第 20 英里时，有人跑到你身边说：“你一定累坏了吧。想不想停下来歇会儿？”与企业发展部的对话就是这样，甚至更糟，因为这种“停下来”的诱惑，会在你的脑海中与你幻想中他们会给出的高昂报价结合在一起。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "11e5fdb5e114079ecb565001cc46d9f773df09f74914a6da5409a6da3b3dc612",
+      "enMarkdown": "And then you're really in trouble. If they can, corp dev people like to turn the tables on you. They like to get you to the point where you're trying to convince them to buy instead of them trying to convince you to sell. And surprisingly often they succeed.",
+      "zhMarkdown": "到那时，你就真的有麻烦了。如果可以的话，企业发展部的人喜欢反客为主。他们喜欢把你逼到一个境地：变成你试图说服他们收购，而不是他们试图说服你出售。令人惊讶的是，他们经常能得逞。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e71826e6b7182c4b5f35d3da91079e106f64784d2f2922549c0c3dfadbf5d1d1",
+      "enMarkdown": "This is a very slippery slope, greased with some of the most powerful forces that can work on founders' minds, and attended by an experienced professional whose full time job is to push you down it.",
+      "zhMarkdown": "这是一个非常危险的滑坡，上面涂满了最能左右创始人心理的强力催化剂，旁边还站着一位经验丰富的专业人士，他的全职工作就是把你推下去。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "877ec50aad27579d5fbb1df7515d2de3b14c01926a81c222d5b6f6cbd126fa52",
+      "enMarkdown": "Their tactics in pushing you down that slope are usually fairly brutal. Corp dev people's whole job is to buy companies, and they don't even get to choose which. The only way their performance is measured is by how cheaply they can buy you, and the more ambitious ones will stop at nothing to achieve that. For example, they'll almost always start with a lowball offer, just to see if you'll take it. Even if you don't, a low initial offer will demoralize you and make you easier to manipulate.",
+      "zhMarkdown": "他们把你推下滑坡的手段通常相当残酷。企业发展部的人，全部工作就是收购公司，而且他们甚至无法决定收购哪家。衡量他们业绩的唯一标准就是能多便宜地把你买下，而那些更有野心的人为了达到目的会不择手段。例如，他们几乎总是先给出一个极低的报价，只是为了看看你是否会接受。即使你不接受，一个极低的初始报价也会打击你的士气，让你变得更容易被摆布。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e32c3f9d10d247c34f34517b8d423caa7c6cb6a499e9c150ca4092b906b43814",
+      "enMarkdown": "And that is the most innocent of their tactics. Just wait till you've agreed on a price and think you have a done deal, and then they come back and say their boss has vetoed the deal and won't do it for more than half the agreed upon price. Happens all the time. If you think investors can behave badly, it's nothing compared to what corp dev people can do. Even corp dev people at companies that are otherwise benevolent.",
+      "zhMarkdown": "而这还只是他们最温和的手段。等到你们谈妥了价格，你以为交易已经搞定时，他们会回来告诉你，他们的老板否决了这笔交易，除非价格降到谈妥价格的一半以下，否则不签字。这种事屡见不鲜。如果你觉得投资人的行为已经够恶劣了，那和企业发展部的人比起来根本不算什么。哪怕是那些平时口碑很好、行事友善的公司，其企业发展部也是如此。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "1e59acbc7f5e5c26af277ab8bb7f932d7ff84d536ed7e92e59be5753e8efa3f2",
+      "enMarkdown": "I remember once complaining to a friend at Google about some nasty trick their corp dev people had pulled on a YC startup.",
+      "zhMarkdown": "我记得有一次，我向谷歌的一位朋友抱怨他们的企业发展部对一家 YC 创业公司耍的花招。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "41393f763f816653957214bd3ab888dbd9eb85d4556d2b0863852a2a74d0eec8",
+      "enMarkdown": "\"What happened to Don't be Evil?\" I asked.",
+      "zhMarkdown": "“‘不作恶’（Don't be Evil）去哪儿了？”我问。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "806fe696cf378db8d93246c30c01f907b69b86706e1bef7a5d68efe6086eb953",
+      "enMarkdown": "\"I don't think corp dev got the memo,\" he replied.",
+      "zhMarkdown": "“我觉得企业发展部没收到这份备忘录，”他回答道。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "d4a8751a51457c5aebcdd97175da402ce365269c8a8943176eb467e24134146b",
+      "enMarkdown": "The tactics you encounter in M&A conversations can be like nothing you've experienced in the otherwise comparatively [upstanding](https://paulgraham.com/mean.html) world of Silicon Valley. It's as if a chunk of genetic material from the old-fashioned robber baron business world got incorporated into the startup world. [[3](#f3n)]",
+      "zhMarkdown": "在并购谈判中你遇到的手段，可能跟你在硅谷这个相对[正直](https://paulgraham.com/mean.html)的世界里所经历的任何事情都完全不同。这感觉就像是老派强盗大亨商业世界里的一段基因，被植入了创业世界中。[[3](#f3n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "41f74fa2b5e27c3dc8dae933486ca21f412fd01c29ce81351b1de61f5e61c44f",
+      "enMarkdown": "The simplest way to protect yourself is to use the trick that John D. Rockefeller, whose grandfather was an alcoholic, used to protect himself from becoming one. He once told a Sunday school class",
+      "zhMarkdown": "最简单的自我保护方法，就是借用约翰·D·洛克菲勒的方法。洛克菲勒的祖父是个酒鬼，为了防止自己也变成酒鬼，洛克菲勒曾在一个主日学班上说："
+    },
+    {
+      "id": 18,
+      "type": "quote",
+      "sourceHash": "6334e4e8605d18fc41648b9b36c7598e0cdcc595fca273c6aeebbbc7433e0137",
+      "enMarkdown": "> Boys, do you know why I never became a drunkard? Because I never took the first drink.",
+      "zhMarkdown": "> 孩子们，你们知道我为什么从来没变成酒鬼吗？因为我连第一口酒都没喝过。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "8704bd5b9799d890ec981da6e5d593b6986cfb44356d350a262e3ee0ccd03e0b",
+      "enMarkdown": "Do you want to sell your company right now? Not eventually, right now. If not, just don't take the first meeting. They won't be offended. And you in turn will be guaranteed to be spared one of the worst experiences that can happen to a startup.",
+      "zhMarkdown": "你现在想卖掉公司吗？不是以后，而是现在。如果不想，那就连第一次见面都不要去。他们不会觉得被冒犯。而你，则可以百分之百地免受创业过程中最糟糕的体验之一。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "c01ffb282376be375aca88acdbc47556ff04870365c7a5985b979eeec766fd83",
+      "enMarkdown": "If you do want to sell, there's another set of [techniques](https://justinkan.com/the-founders-guide-to-selling-your-company-a1b2025c9481) for doing that. But the biggest mistake founders make in dealing with corp dev is not doing a bad job of talking to them when they're ready to, but talking to them before they are. So if you remember only the title of this essay, you already know most of what you need to know about M&A in the first year.",
+      "zhMarkdown": "如果你确实想卖掉公司，那还有另一套[技巧](https://justinkan.com/the-founders-guide-to-selling-your-company-a1b2025c9481)可以遵循。但创始人在面对企业发展部时犯的最大错误，并不是在准备好出售时没谈好，而是在还没准备好时就和他们接触。所以，哪怕你只记住了这篇文章的标题，你也已经掌握了第一年关于并购所需了解的大部分知识。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "7495ad1a42eba73fd5f99ecbf44e6c7dfee0a2b25a4b421e10c87bd54951187b",
+      "enMarkdown": "[1] I'm not saying you should never sell. I'm saying you should be clear in your own mind about whether you want to sell or not, and not be led by manipulation or wishful thinking into trying to sell earlier than you otherwise would have.",
+      "zhMarkdown": "[1] 我并不是说你永远不应该卖掉公司。我是说，你心里必须清楚自己到底想不想卖，而不是被操纵或一厢情愿的想法所左右，从而比原计划更早地把公司卖掉。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "ace35b7202e9284ae7260b2e16847c3a5b99edbf3720ca0c2dda62ca60198bcc",
+      "enMarkdown": "[2] In a startup, as in most competitive sports, the task at hand almost does this for you; you're too busy to feel tired. But when you lose that protection, e.g. at the final whistle, the fatigue hits you like a wave. To talk to corp dev is to let yourself feel it mid-game.",
+      "zhMarkdown": "[2] 在创业公司中，就像在大多数竞技体育中一样，眼前的任务几乎会帮你忘掉疲劳；你太忙了，顾不上累。但当你失去这种保护时，比如终场哨声响起，疲惫感就会像潮水般袭来。和企业发展部聊天，就等于让自己在比赛中途去感受这种疲惫。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "aea16edfb46c485fae74f738281a374fb14d354c99cabcc21b824b63de51c11e",
+      "enMarkdown": "[3] To be fair, the apparent misdeeds of corp dev people are magnified by the fact that they function as the face of a large organization that often doesn't know its own mind. Acquirers can be surprisingly indecisive about acquisitions, and their flakiness is indistinguishable from dishonesty by the time it filters down to you.",
+      "zhMarkdown": "[3] 公平地说，企业发展部人员之所以显得劣迹斑斑，是因为他们代表的是一个庞大、且往往自己都没想清楚的组织。买方对收购的决定可能会出人意料地摇摆不定，而这种反复无常在传导到你这里时，看起来就和欺骗无异。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "65183370501876bce76fff06f9a488e166d42e01a0036f10d57ef4533bd65748",
+      "enMarkdown": "**Thanks** to Marc Andreessen, Jessica Livingston, Geoff Ralston, and Qasar Younis for reading drafts of this.",
+      "zhMarkdown": "**感谢** Marc Andreessen、Jessica Livingston、Geoff Ralston 和 Qasar Younis 阅读了本文的草稿。"
+    }
+  ]
+}

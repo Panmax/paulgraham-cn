@@ -1,0 +1,181 @@
+{
+  "slug": "top",
+  "titleEn": "The Top Idea in Your Mind",
+  "titleZh": "脑海中的头等大事",
+  "dateText": "July 2010",
+  "publishedAt": "2010-07-01",
+  "sourceOrder": 106,
+  "sourceUrl": "https://paulgraham.com/top.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b36435dc5be70ab0b0ba3c804f4e590291b5dea3a87bfbf4f839cda91f2f45e8",
+      "enMarkdown": "I realized recently that what one thinks about in the shower in the morning is more important than I'd thought. I knew it was a good time to have ideas. Now I'd go further: now I'd say it's hard to do a really good job on anything you don't think about in the shower.",
+      "zhMarkdown": "最近我意识到，一个人早上洗澡时在想什么，其重要程度超乎我的想象。我以前只知道那是产生灵感的好时候。现在我会说得更绝对一些：如果你在洗澡时没有思考某件事，你就很难真正把它做好。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "c74cef328ce07a13907c72eb4ef7c3e795011ea42a51cdefd278fb7b1d10cbf4",
+      "enMarkdown": "Everyone who's worked on difficult problems is probably familiar with the phenomenon of working hard to figure something out, failing, and then suddenly seeing the answer a bit later while doing something else. There's a kind of thinking you do without trying to. I'm increasingly convinced this type of thinking is not merely helpful in solving hard problems, but necessary. The tricky part is, you can only control it indirectly. [[1](#f1n)]",
+      "zhMarkdown": "每个解决过难题的人可能都熟悉这种现象：你拼命想弄明白一件事，却失败了，过了一会儿在做别的事情时，答案却突然蹦了出来。有一种思考，是你不用刻意去做的。我越来越相信，这种思考方式不仅对解决难题有帮助，而且是必不可少的。棘手的是，你只能间接地控制它。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "82159c62373c837a72851f6066ab5ada2e76871c07ff0b2bc80b71d4b2d0d76c",
+      "enMarkdown": "I think most people have one top idea in their mind at any given time. That's the idea their thoughts will drift toward when they're allowed to drift freely. And this idea will thus tend to get all the benefit of that type of thinking, while others are starved of it. Which means it's a disaster to let the wrong idea become the top one in your mind.",
+      "zhMarkdown": "我认为大多数人在任何特定时间，脑海里都只有一件“头等大事”。当思绪自由飘荡时，就会自然而然地飘向这件事。因此，这件事往往能占尽这种无意识思考的所有好处，而其他事情则分不到半点养分。这意味着，让错误的想法占据你脑海中的首要位置，将是一场灾难。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "3e5aa47b8764eef34007ced8a09b1ce13b96e12e585ecb4cfda464be2806e3c7",
+      "enMarkdown": "What made this clear to me was having an idea I didn't want as the top one in my mind for two long stretches.",
+      "zhMarkdown": "之所以对这一点深有体会，是因为我曾有两次很长的时间，脑子里被自己并不想思考的事情占据了主导地位。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "51d12bb2d27da225364e1a3b7f08ffd156deadc1019db6caf282e2e9e2493933",
+      "enMarkdown": "I'd noticed startups got way less done when they started raising money, but it was not till we ourselves raised money that I understood why. The problem is not the actual time it takes to meet with investors. The problem is that once you start raising money, raising money becomes the top idea in your mind. That becomes what you think about when you take a shower in the morning. And that means other questions aren't.",
+      "zhMarkdown": "我曾注意到，创业公司一旦开始融资，工作进度就会大大落后。但直到我们自己融资时，我才明白个中缘由。问题并不在于跟投资者会面所花的时间，而在于一旦你开始融资，融资就成了你脑海中的头等大事。这成了你早上洗澡时想的事情，而这意味着你没空去想别的问题了。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "7b8eeb63dc170eb834159da2d95e7ed7a3928d36f05846c295b55c3fdb7a58b4",
+      "enMarkdown": "I'd hated raising money when I was running Viaweb, but I'd forgotten why I hated it so much. When we raised money for Y Combinator, I remembered. Money matters are particularly likely to become the top idea in your mind. The reason is that they have to be. It's hard to get money. It's not the sort of thing that happens by default. It's not going to happen unless you let it become the thing you think about in the shower. And then you'll make little progress on anything else you'd rather be working on. [[2](#f2n)]",
+      "zhMarkdown": "当年经营 Viaweb 时，我很讨厌融资，但我忘了自己为什么这么讨厌它。当我们为 Y Combinator 融资时，我想起来了。资金问题特别容易成为你脑海中的头等大事。原因在于它必须是。钱很难拿，这不是默认就会发生的事。除非你让它成为你在洗澡时思考的事情，否则它就不会发生。而这样一来，你更想做的其他事情就几乎不会有什么进展了。[[2](#f2n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ca9fe74b8270c2ba907ed1c4346bdde53b9b2111ce5bf70c233109a31d8e17f7",
+      "enMarkdown": "(I hear similar complaints from friends who are professors. Professors nowadays seem to have become professional fundraisers who do a little research on the side. It may be time to fix that.)",
+      "zhMarkdown": "（我从当教授的朋友那里也听到了类似的抱怨。现在的教授似乎成了职业募资人，顺便做点研究。也许是时候改变这种状况了。）"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "f088e3f32a8177cee662d0acdc6399b1351050dc8db6899ecb7264993cd85f58",
+      "enMarkdown": "The reason this struck me so forcibly is that for most of the preceding 10 years I'd been able to think about what I wanted. So the contrast when I couldn't was sharp. But I don't think this problem is unique to me, because just about every startup I've seen grinds to a halt when they start raising money � or [talking\nto acquirers](https://paulgraham.com/corpdev.html).",
+      "zhMarkdown": "这件事之所以让我感触如此之深，是因为在之前的 10 年里，我大部分时间都能想我所想。所以，当我想不了的时候，反差就特别强烈。但我认为这个问题并非我独有，因为我见过的几乎每一家创业公司，在开始融资或[与收购方谈判](https://paulgraham.com/corpdev.html)时，都会陷入停滞。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "50ef5040deb1e33ff017277f048b3f6341bace56fbbc8ea9f1fa567e2764faef",
+      "enMarkdown": "You can't directly control where your thoughts drift. If you're controlling them, they're not drifting. But you can control them indirectly, by controlling what situations you let yourself get into. That has been the lesson for me: be careful what you let become critical to you. Try to get yourself into situations where the most urgent problems are ones you want to think about.",
+      "zhMarkdown": "你无法直接控制自己的思绪飘向何处。如果你在控制它们，它们就不是在自由飘荡了。但你可以通过控制自己所处的处境，来间接地控制它们。这就是我得到的教训：要小心那些让你觉得至关重要的事情。尽量让自己处于这样一种境地：最紧迫的问题正是你乐于思考的问题。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "f495fe5aeadc7640d0d5a5c9502dd61ffcc25031ba0e3184dbf2ecd8ac71c82a",
+      "enMarkdown": "You don't have complete control, of course. An emergency could push other thoughts out of your head. But barring emergencies you have a good deal of indirect control over what becomes the top idea in your mind.",
+      "zhMarkdown": "当然，你无法完全控制。紧急情况可能会把你脑子里的其他想法挤出去。但排除紧急情况，你对什么能成为脑海中的头等大事，拥有相当大的间接控制权。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "80d267cc5bf5711c8770ff5868fc7fe760c8ac1840d68bea6480d30621f05fb0",
+      "enMarkdown": "I've found there are two types of thoughts especially worth avoiding � thoughts like the Nile Perch in the way they push out more interesting ideas. One I've already mentioned: thoughts about money. Getting money is almost by definition an attention sink. The other is disputes. These too are engaging in the wrong way: they have the same velcro-like shape as genuinely interesting ideas, but without the substance. So avoid disputes if you want to get real work done. [[3](#f3n)]",
+      "zhMarkdown": "我发现有两种想法特别值得避开——它们就像尼罗河鲈鱼一样，会把更有趣的想法排挤出去。一种我前面已经提到了：关于钱的想法。弄钱几乎定义了什么叫“注意力黑洞”。另一种是纠纷。这些同样会以错误的方式吸引你的注意力：它们和真正有趣的想法一样，具有极强的粘附性，但却毫无实质内容。所以，如果你想做成点实事，就离纠纷远点。[[3](#f3n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "17503c32b34dc07114843a54e500be8cac2b46bb5d86aef2608c8f9ba79b61c3",
+      "enMarkdown": "Even Newton fell into this trap. After publishing his theory of colors in 1672 he found himself distracted by disputes for years, finally concluding that the only solution was to stop publishing:",
+      "zhMarkdown": "即使是牛顿也曾落入这个陷阱。在 1672 年发表色彩理论后，他发现自己多年来一直被各种争论所困扰，最后得出结论，唯一的解决办法就是停止发表文章："
+    },
+    {
+      "id": 13,
+      "type": "quote",
+      "sourceHash": "a33d1b9a23ba56738bf6e3a98657aac0e9a042aaf81de8d1a6c2f48df55f610a",
+      "enMarkdown": "> I see I have made myself a slave to Philosophy, but if I get free of Mr Linus's business I will resolutely bid adew to it eternally, excepting what I do for my privat satisfaction or leave to come out after me. For I see a man must either resolve to put out nothing new or become a slave to defend it. [4]",
+      "zhMarkdown": "> 我看我已经让自己成了哲学的奴隶，但如果我能摆脱莱纳斯先生的纠缠，我将坚决永远告别它，除非是为了我个人的满足而做的事，或者留待我身后发表。因为我看到，一个人要么决定不发表任何新东西，要么就得成为捍卫它的奴隶。[4]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "2aa285b3e5713984d6883c51fd1fda687c83440b7cbc5ad92e82c97e1eb766f7",
+      "enMarkdown": "Linus and his students at Liege were among the more tenacious critics. Newton's biographer Westfall seems to feel he was overreacting:",
+      "zhMarkdown": "莱纳斯和他列日大学的学生属于最不依不饶的批评者。牛顿的传记作家威斯特法尔似乎觉得牛顿反应过度了："
+    },
+    {
+      "id": 15,
+      "type": "quote",
+      "sourceHash": "ce9bff90177d379a7c4f4e5f656e1e3dfae6557a53f6486eafe729f8a13dc460",
+      "enMarkdown": "> Recall that at the time he wrote, Newton's \"slavery\" consisted of five replies to Liege, totalling fourteen printed pages, over the course of a year.",
+      "zhMarkdown": "> 回想一下他写信的时候，牛顿的“奴役”不过是在一年的时间里，给列日方面写了五封答复，共计十四个印刷页。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "ef2d4ec6a49187eb68a5966cd9ca9dfce0dd9ff97af3471b7321145cadc3a9db",
+      "enMarkdown": "I'm more sympathetic to Newton. The problem was not the 14 pages, but the pain of having this stupid controversy constantly reintroduced as the top idea in a mind that wanted so eagerly to think about other things.",
+      "zhMarkdown": "我更同情牛顿。问题不在于那 14 页纸，而在于这些愚蠢的争议不断被强行塞进一个极度渴望思考其他事情的头脑中，成了他的头等大事，这让人痛苦不堪。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "e6149086a30605aa9d172f94afb81037748cbfdef43733f9387597e43b7debb1",
+      "enMarkdown": "Turning the other cheek turns out to have selfish advantages. Someone who does you an injury hurts you twice: first by the injury itself, and second by taking up your time afterward thinking about it. If you learn to ignore injuries you can at least avoid the second half. I've found I can to some extent avoid thinking about nasty things people have done to me by telling myself: this doesn't deserve space in my head. I'm always delighted to find I've forgotten the details of disputes, because that means I hadn't been thinking about them. My wife thinks I'm more forgiving than she is, but my motives are purely selfish.",
+      "zhMarkdown": "事实证明，把另一边脸转过去让人打，也有利己的好处。伤害你的人伤害了你两次：第一次是伤害本身，第二次是事后让你花时间去想它。如果你学会忽略伤害，至少可以避免后半部分。我发现，通过告诉自己“这不配占用我脑海的空间”，在某种程度上可以避免去想别人对我做过的恶心事。每当我发现自己忘记了纠纷的细节时，我都感到无比欣喜，因为这意味着我根本没有去想它们。我妻子觉得我比她更容易宽恕别人，但我的动机纯粹是自私的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "4c2647ec4f3806d2fa5a116c8e72bb1e116fb97263cccfcdf320082a062a8103",
+      "enMarkdown": "I suspect a lot of people aren't sure what's the top idea in their mind at any given time. I'm often mistaken about it. I tend to think it's the idea I'd want to be the top one, rather than the one that is. But it's easy to figure this out: just take a shower. What topic do your thoughts keep returning to? If it's not what you want to be thinking about, you may want to change something.",
+      "zhMarkdown": "我怀疑很多人并不确定在任何特定时间，自己脑海中的头等大事是什么。我自己也经常搞错。我往往会认为，我想让它成为头等大事的想法，就是当前的头等大事，而事实并非如此。但弄清楚这一点很容易：去洗个澡就行。你的思绪总是会回到什么话题上？如果那不是你真正想思考的事情，你可能就需要做出一些改变了。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "2f681360a477a5ed28e30b8d856787255252649aa213314fb483a8f6f41c5689",
+      "enMarkdown": "[1] No doubt there are already names for this type of thinking, but I call it \"ambient thought.\"",
+      "zhMarkdown": "[1] 毫无疑问，这种思考方式肯定已经有了名字，但我称之为“背景思考”（ambient thought）。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "76bc05fd66edc20511a78954d1b3a13b05dea729b0de63ebe67e6bdfb85b6517",
+      "enMarkdown": "[2] This was made particularly clear in our case, because neither of the funds we raised was difficult, and yet in both cases the process dragged on for months. Moving large amounts of money around is never something people treat casually. The attention required increases with the amount—maybe not linearly, but definitely monotonically.",
+      "zhMarkdown": "[2] 在我们的案例中，这一点表现得尤为明显。因为我们募集的两笔资金都不困难，但在这两种情况下，过程都拖延了几个月。转移大笔资金从来不是人们可以随便对待的事。所需的注意力随着金额的增加而增加——也许不是线性的，但绝对是单调递增的。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "bec4b111eac7cbc6fee7c7477a432da35d9d35dad10434368a57751061d6779c",
+      "enMarkdown": "[3] Corollary: Avoid becoming an administrator, or your job will consist of dealing with money and disputes.",
+      "zhMarkdown": "[3] 推论：避免成为行政管理人员，否则你的工作将完全由处理钱和纠纷组成。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "0c88bed8e9b9c152b2e4bd8ef2ce77d077ae16c87ce2c1b2ac05f031a6d07536",
+      "enMarkdown": "[4] Letter to Oldenburg, quoted in Westfall, Richard, *Life of\nIsaac Newton*, p. 107.",
+      "zhMarkdown": "[4] 给奥尔登堡的信，引自理查德·威斯特法尔著《艾萨克·牛顿传》，第 107 页。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "227ccb60909af22b9a7092e72d0045eecd83d649c1a8f16843b8593b952be923",
+      "enMarkdown": "**Thanks** to Sam Altman, Patrick Collison, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Patrick Collison、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

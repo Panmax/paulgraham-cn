@@ -1,0 +1,48 @@
+{
+  "slug": "rootsoflisp",
+  "titleEn": "The Roots of Lisp",
+  "titleZh": "Lisp 之源",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 219,
+  "sourceUrl": "https://paulgraham.com/rootsoflisp.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5838184b914bc64e511deb9eca658bf6cdcbed147127795736401c5db10d6a14",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-roots-of-lisp-22.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-roots-of-lisp-22.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "200a843921d8c2daae7fc6094b060b0d629d9511a21885e30749d2ea52e03be9",
+      "enMarkdown": "May 2001  *(I wrote this article to help myself understand exactly\nwhat McCarthy discovered.  You don't need to know this stuff\nto program in Lisp, but it should be helpful to \nanyone who wants to\nunderstand the essence of Lisp � both in the sense of its\norigins and its semantic core.  The fact that it has such a core\nis one of Lisp's distinguishing features, and the reason why,\nunlike other languages, Lisp has dialects.)*",
+      "zhMarkdown": "2001 年 5 月 *（我写这篇文章是为了帮助自己准确理解麦卡锡（McCarthy）当年的发现。写 Lisp 程序并不一定非要懂得这些，但对于任何想要理解 Lisp 本质——无论是其历史起源还是其语义核心——的人来说，这应该都会有所帮助。拥有这样一个核心是 Lisp 的显著特征之一，也是为什么 Lisp 会有各种方言，而其他语言却没有的原因。）*"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "1496ad364aeb8594c5c6234343b6540d79a482c1628793eb5464f6e145b77abe",
+      "enMarkdown": "In 1960, [John \nMcCarthy](http://www-formal.stanford.edu/jmc/index.html) published a remarkable paper in which he did for programming something like what Euclid did for geometry. He showed how, given a handful of simple operators and a notation for functions, you can build a whole programming language. He called this language Lisp, for \"List Processing,\" because one of his key ideas was to use a simple data structure called a *list* for both code and data.",
+      "zhMarkdown": "1960 年，[约翰·麦卡锡](http://www-formal.stanford.edu/jmc/index.html)发表了一篇非凡的论文，他在编程领域所做的工作，堪比欧几里得在几何学中所做的一切。他展示了如何仅凭几个简单的运算符和一种函数表示法，就能构建出一门完整的编程语言。他将这门语言命名为 Lisp，即“列表处理”（List Processing）的缩写，因为他的核心想法之一就是使用一种名为“列表”（*list*）的简单数据结构来同时表示代码和数据。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "67f6c3fcfa029cb399a83ae984d134b16604594b0c526343e7fd58440f287ecc",
+      "enMarkdown": "It's worth understanding what McCarthy discovered, not just as a landmark in the history of computers, but as a model for what programming is tending to become in our own time. It seems to me that there have been two really clean, consistent models of programming so far: the C model and the Lisp model. These two seem points of high ground, with swampy lowlands between them. As computers have grown more powerful, the new languages being developed have been [moving\nsteadily](https://paulgraham.com/diff.html) toward the Lisp model. A popular recipe for new programming languages in the past 20 years has been to take the C model of computing and add to it, piecemeal, parts taken from the Lisp model, like runtime typing and garbage collection.",
+      "zhMarkdown": "理解麦卡锡的发现是非常有价值的，这不仅因为它是计算机历史上的一个里程碑，更因为它为我们这个时代编程的发展趋势提供了一个典范。在我看来，迄今为止只有两种真正清晰、一致的编程模型：C 模型和 Lisp 模型。这两者就像是两座高峰，中间隔着一片泥泞的低谷。随着计算机变得越来越强大，新开发出来的语言一直在[稳步迈向](https://paulgraham.com/diff.html) Lisp 模型。过去 20 年里，设计新编程语言的一个流行配方就是：采用 C 语言的计算模型，然后零敲碎打地从 Lisp 模型中借鉴一些元素，比如运行时类型检查和垃圾回收。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "99404a1d60212482e35a5d19e514d6016d9c78e77ed4cdaf1e06cf704652c399",
+      "enMarkdown": "In this article I'm going to try to explain in the simplest possible terms what McCarthy discovered. The point is not just to learn about an interesting theoretical result someone figured out forty years ago, but to show where languages are heading. The unusual thing about Lisp � in fact, the defining quality of Lisp � is that it can be written in itself. To understand what McCarthy meant by this, we're going to retrace his steps, with his mathematical notation translated into running Common Lisp code.",
+      "zhMarkdown": "在这篇文章中，我将尝试用最通俗易懂的语言来解释麦卡锡的发现。这不仅是为了了解一个四十年前有人琢磨出来的有趣理论成果，更是为了展示编程语言未来的发展方向。Lisp 与众不同之处——事实上，也是 Lisp 的定义性特征——在于它可以用自身来编写。为了理解麦卡锡这句话的含义，我们将重温他的探索足迹，并将其数学表示法转化为可以实际运行的 Common Lisp 代码。"
+    }
+  ]
+}

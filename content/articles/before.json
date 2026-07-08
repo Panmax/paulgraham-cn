@@ -1,0 +1,538 @@
+{
+  "slug": "before",
+  "titleEn": "Before the Startup",
+  "titleZh": "创业之前",
+  "dateText": "October 2014",
+  "publishedAt": "2014-10-01",
+  "sourceOrder": 76,
+  "sourceUrl": "https://paulgraham.com/before.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "cb30bb8d786146f9694e1a1d3e1a8685d517155243331a7aaf0cac5c1af68d02",
+      "enMarkdown": "*(This essay is derived from a guest lecture in Sam Altman's startup class at\nStanford.  It's intended for college students, but much of it is\napplicable to potential founders at other ages.)*",
+      "zhMarkdown": "*(本文源自作者在斯坦福大学萨姆·奥尔特曼（Sam Altman）主持的创业课上的客座演讲。虽然听众主要是大学生，但其中大部分内容同样适用于其他年龄段的潜在创始人。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2e936650308ef212f480732651474120262a1add211dc74ebf902cfee13745dc",
+      "enMarkdown": "One of the advantages of having kids is that when you have to give advice, you can ask yourself \"what would I tell my own kids?\" My kids are little, but I can imagine what I'd tell them about startups if they were in college, and that's what I'm going to tell you.",
+      "zhMarkdown": "养孩子的好处之一，就是当需要给人提建议时，你可以问自己：“如果是我的孩子，我会怎么对他们说？”我的孩子还小，但我可以想象，如果他们上了大学，关于创业我会对他们说些什么——而这也正是我想告诉你们的。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ab89eda2dd0e3e20443ada152c9a5c6a10631c75e18e1b22740abcc663c318fb",
+      "enMarkdown": "Startups are very counterintuitive. I'm not sure why. Maybe it's just because knowledge about them hasn't permeated our culture yet. But whatever the reason, starting a startup is a task where you can't always trust your instincts.",
+      "zhMarkdown": "创业是一件极其违背直觉的事。我不太清楚为什么，也许仅仅是因为关于创业的常识还没有渗透到我们的文化中。但不管出于什么原因，在创业这件事情上，你不能总是相信自己的直觉。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4d86269dd3f0a0fcdfd45fa0a676f9394853f06d811ce296c55bae3f6ec334ed",
+      "enMarkdown": "It's like skiing in that way. When you first try skiing and you want to slow down, your instinct is to lean back. But if you lean back on skis you fly down the hill out of control. So part of learning to ski is learning to suppress that impulse. Eventually you get new habits, but at first it takes a conscious effort. At first there's a list of things you're trying to remember as you start down the hill.",
+      "zhMarkdown": "这很像滑雪。当你第一次尝试滑雪并想要减速时，你的本能反应是向后仰。但在滑雪板上，如果你向后仰，你反而会失控地冲下山。所以，学习滑雪的一部分就是学会克制这种本能。最终你会养成新的习惯，但在刚开始时，这需要你有意识地去努力。刚开始滑雪下山时，你的脑子里会有一张清单，上面写满了你需要努力记住的事项。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "5cfbbc094461a42b27edbf202d5ae41788c6c86d3ef624d2011663761e6c9b9f",
+      "enMarkdown": "Startups are as unnatural as skiing, so there's a similar list for startups. Here I'm going to give you the first part of it — the things to remember if you want to prepare yourself to start a startup.",
+      "zhMarkdown": "创业和滑雪一样反自然，所以创业也有类似的清单。在这里，我将给出这张清单的第一部分——如果你想为创业做准备，需要记住的事情。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "8622b2d802018357b551415be96bf88d23163f3b4c26e07fb72b5f4f7f968b22",
+      "enMarkdown": "**Counterintuitive**",
+      "zhMarkdown": "**违背直觉**"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "e4a41b104966673a003eae0813032178b2be6e82bb1cd025433100b76930fdf5",
+      "enMarkdown": "The first item on it is the fact I already mentioned: that startups are so weird that if you trust your instincts, you'll make a lot of mistakes. If you know nothing more than this, you may at least pause before making them.",
+      "zhMarkdown": "清单上的第一项就是我刚才提到的事实：创业是如此奇特，如果你一味相信自己的直觉，就会犯下很多错误。即便你对此一无所知，至少在犯错前停下来想一想也是好的。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c13d8cb783ddb0aebe46aefb21e4618b2a3e978febf4caf8b82ac3630f0fe115",
+      "enMarkdown": "When I was running Y Combinator I used to joke that our function was to tell founders things they would ignore. It's really true. Batch after batch, the YC partners warn founders about mistakes they're about to make, and the founders ignore them, and then come back a year later and say \"I wish we'd listened.\"",
+      "zhMarkdown": "当我还在管理 Y Combinator 时，我常开玩笑说，我们的职责就是告诉创始人一些他们会选择无视的事情。这确实是真的。一批又一批的创业者，YC 合伙人警告他们即将犯下的错误，而创始人选择无视，一年后又跑回来说：“真希望我们当时听了劝。”"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "10d18471db72ce431cd8df978867401e3ea0241946505e017d3177ccce9d61e0",
+      "enMarkdown": "Why do the founders ignore the partners' advice? Well, that's the thing about counterintuitive ideas: they contradict your intuitions. They seem wrong. So of course your first impulse is to disregard them. And in fact my joking description is not merely the curse of Y Combinator but part of its raison d'etre. If founders' instincts already gave them the right answers, they wouldn't need us. You only need other people to give you advice that surprises you. That's why there are a lot of ski instructors and not many running instructors. [[1](#f1n)]",
+      "zhMarkdown": "为什么创始人会无视合伙人的建议？这就是“违背直觉”的想法的特点：它们与你的直觉相冲突。它们看起来是错的。所以你的第一本能当然是置之不理。事实上，我那句玩笑话不仅是 Y Combinator 的“魔咒”，也是它存在的重要意义之一。如果创始人的直觉总能给他们正确的答案，他们就不需要我们了。只有当别人的建议让你感到意外时，你才需要别人。这也是为什么世界上有很多滑雪教练，却没多少跑步教练的原因。[[1](#f1n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "a4909fffcfafdc0a8f97be915c0305eb764f511d6bdf3d5b1fa4e3533cd85c12",
+      "enMarkdown": "You can, however, trust your instincts about people. And in fact one of the most common mistakes young founders make is not to do that enough. They get involved with people who seem impressive, but about whom they feel some misgivings personally. Later when things blow up they say \"I knew there was something off about him, but I ignored it because he seemed so impressive.\"",
+      "zhMarkdown": "不过，你可以相信自己对人的直觉。实际上，年轻创始人最常犯的错误之一就是不够相信这种直觉。他们与一些看起来能力出众、但个人层面上让他们感到疑虑的人合作。后来出了大问题，他们才会说：“我早就觉得他有些不对劲，但因为他看起来太优秀了，我就没当回事。”"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "3bd059a8b1c7120e089d3cb3823325964a8ebaa2bf8c3ea0c55fc1bf49ba1730",
+      "enMarkdown": "If you're thinking about getting involved with someone — as a cofounder, an employee, an investor, or an acquirer — and you have misgivings about them, trust your gut. If someone seems slippery, or bogus, or a jerk, don't ignore it.",
+      "zhMarkdown": "如果你正考虑与某人合作——无论是作为联合创始人、员工、投资人还是收购方——只要你对他有疑虑，就要相信自己的直觉。如果一个人看起来滑头、虚伪或是个混蛋，千万不要忽视这种感觉。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "298da64515ceac92c2428bfd84f6ac75b80befd29d8d62896997d3a88d04af7f",
+      "enMarkdown": "This is one case where it pays to be self-indulgent. Work with people you genuinely like, and you've known long enough to be sure.",
+      "zhMarkdown": "在这种事情上，“任性”一点是值得的。只和那些你真心喜欢、并且认识足够久、可以完全信任的人一起工作。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7609b3bbc4c4f1c0a5aa33db9e3d1d11cc09f3afdd9725243011c708b9112bce",
+      "enMarkdown": "**Expertise**",
+      "zhMarkdown": "**专业知识**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "1100163cd71c79e01bdc937722c779e542167d40bd90b2ff1e39959f72021403",
+      "enMarkdown": "The second counterintuitive point is that it's not that important to know a lot about startups. The way to succeed in a startup is not to be an expert on startups, but to be an expert on your users and the problem you're solving for them. Mark Zuckerberg didn't succeed because he was an expert on startups. He succeeded despite being a complete noob at startups, because he understood his users really well.",
+      "zhMarkdown": "第二个违背直觉的观点是：对创业本身了解多少并不那么重要。在创业中取得成功的秘诀不是成为“创业学专家”，而是成为“用户专家”以及“用户痛点专家”。马克·扎克伯格的成功并不是因为他是创业专家。相反，他成功时在创业方面完全是个小白，但他极其深刻地理解了他的用户。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5fa978a89733bd7615fab1d79de9c5f27caa7d0cda1f406ab50442813b541c67",
+      "enMarkdown": "If you don't know anything about, say, how to raise an angel round, don't feel bad on that account. That sort of thing you can learn when you need to, and forget after you've done it.",
+      "zhMarkdown": "如果你对如何融资天使轮之类的事情一无所知，千万别因此感到沮丧。这类事情你可以在需要的时候再去学，做完之后就可以忘掉。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "b74c73938a6104baac1537207cd10d94330f1a2b3e99ff78d4184a52c039c130",
+      "enMarkdown": "In fact, I worry it's not merely unnecessary to learn in great detail about the mechanics of startups, but possibly somewhat dangerous. If I met an undergrad who knew all about convertible notes and employee agreements and (God forbid) class FF stock, I wouldn't think \"here is someone who is way ahead of their peers.\" It would set off alarms. Because another of the characteristic mistakes of young founders is to go through the motions of starting a startup. They make up some plausible-sounding idea, raise money at a good valuation, rent a cool office, hire a bunch of people. From the outside that seems like what startups do. But the next step after rent a cool office and hire a bunch of people is: gradually realize how completely fucked they are, because while imitating all the outward forms of a startup they have neglected the one thing that's actually essential: making something people want.",
+      "zhMarkdown": "事实上，我甚至担心，过分详细地去学习创业的各种机制不仅没必要，反而可能有些危险。如果我遇到一个对可转债、员工持股协议以及（天呐）FF类股（Class FF stock）了如指掌的本科生，我不会觉得“这是一个遥遥领先于同龄人的人”，而是会拉响警报。因为年轻创始人的另一个典型错误，就是去“模仿创业的形式”。他们编造一个听起来合情合理的点子，以不错的估值融到一笔钱，租一间很酷的办公室，雇一帮人。从外面看，这确实就是创业公司在做的事。但在租了酷办公室、雇了人之后的下一步就是：渐渐意识到自己彻底完蛋了。因为在模仿创业公司所有外在形式的同时，他们忽略了唯一真正核心的事情：做出人们想要的东西。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "b116109071423ad66d7e416e53a2443c9fe747239e0217a8515a1431afc79d69",
+      "enMarkdown": "**Game**",
+      "zhMarkdown": "**游戏**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "fb807a054236a531f38aac4b3a55adebea81c44b649696cbf74ae4603eb862ae",
+      "enMarkdown": "We saw this happen so often that we made up a name for it: playing house. Eventually I realized why it was happening. The reason young founders go through the motions of starting a startup is because that's what they've been trained to do for their whole lives up to that point. Think about what you have to do to get into college, for example. Extracurricular activities, check. Even in college classes most of the work is as artificial as running laps.",
+      "zhMarkdown": "我们经常看到这种情况发生，以至于我们给它起了一个名字：“过家家”（playing house）。后来我明白了为什么会这样。年轻创始人之所以去模仿创业的形式，是因为在他们至今为止的整个人生中，受到的都是这种训练。想想为了考上大学你需要做什么，例如：课外活动，打勾。甚至在大学课堂上，大部分作业也和操场跑步一样，是人为设计的。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "d7a29a016cb34c11694fc6dc13575264fd9ea633c328a9d9a67446a26eb6c8f2",
+      "enMarkdown": "I'm not attacking the educational system for being this way. There will always be a certain amount of fakeness in the work you do when you're being taught something, and if you measure their performance it's inevitable that people will exploit the difference to the point where much of what you're measuring is artifacts of the fakeness.",
+      "zhMarkdown": "我并不是在抨击教育制度。在接受教育的过程中，你所做的事情总会带有一定程度的虚假性。而一旦你要衡量学生的表现，人们就不可避免地会钻空子，以至于你衡量的大部分内容，最终不过是这种虚假机制下的产物。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "9bba5ea1fc836eda65d24720a1640e31c85c0a7f200f8858ea0d39f90af63778",
+      "enMarkdown": "I confess I did it myself in college. I found that in a lot of classes there might only be 20 or 30 ideas that were the right shape to make good exam questions. The way I studied for exams in these classes was not (except incidentally) to master the material taught in the class, but to make a list of potential exam questions and work out the answers in advance. When I walked into the final, the main thing I'd be feeling was curiosity about which of my questions would turn up on the exam. It was like a game.",
+      "zhMarkdown": "我承认我自己上大学时也这么干过。我发现很多课程里，大概只有 20 或 30 个概念适合拿来出期末考题。我复习这些考试的方法，并不是去（顺便除外）精通这门课教授的知识，而是列出所有可能的考题，并提前写好答案。当我走进考场时，我内心最强烈的感受是好奇：我准备的那些题目里，哪些会出现在试卷上。这就像是一场游戏。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f6457b828fc5ada748e5dc6a5fe1dd29753998f8eb8b3d5e4fb1aa6e7b56b5db",
+      "enMarkdown": "It's not surprising that after being trained for their whole lives to play such games, young founders' first impulse on starting a startup is to try to figure out the tricks for winning at this new game. Since fundraising appears to be the measure of success for startups (another classic noob mistake), they always want to know what the tricks are for convincing investors. We tell them the best way to [convince investors](https://paulgraham.com/convince.html) is to make a startup that's actually doing well, meaning [growing fast](https://paulgraham.com/growth.html), and then simply tell investors so. Then they want to know what the tricks are for growing fast. And we have to tell them the best way to do that is simply to make something people want.",
+      "zhMarkdown": "在经历了整整二十年玩这种游戏的训练后，年轻创始人在创业时的第一本能，自然是试图找出在这个新游戏中获胜的秘诀。既然融资似乎是衡量创业成功的标准（又一个典型的小白错误），他们总是想知道说服投资人的秘诀是什么。我们告诉他们，[说服投资人](https://paulgraham.com/convince.html)最好的方法是做一家真正发展良好的创业公司，也就是[快速增长](https://paulgraham.com/growth.html)，然后把这个事实直接告诉投资人。接着他们又想知道快速增长的秘诀是什么。我们不得不告诉他们，最好的方法就是做出人们想要的东西。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "f53847df56f0467af43d341ff1590e448699a8ece2b4c572e32f7feefa9ae34b",
+      "enMarkdown": "So many of the conversations YC partners have with young founders begin with the founder asking \"How do we...\" and the partner replying \"Just...\"",
+      "zhMarkdown": "YC 合伙人与年轻创始人的很多对话往往是这样开始的：创始人问“我们该如何……”，而合伙人回答“只要……就行了”。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "43d4e3a55483cddbcf6400fefbc4d46bff9c9c17b7e5d21b558c2ae817a24165",
+      "enMarkdown": "Why do the founders always make things so complicated? The reason, I realized, is that they're looking for the trick.",
+      "zhMarkdown": "为什么创始人总是把事情搞得那么复杂？我意识到，原因在于他们一直在寻找那个“秘诀”。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "c57c74757e13c1383b4767238ab8d214bc9a5967f6e3bd402a34843ccb778d89",
+      "enMarkdown": "So this is the third counterintuitive thing to remember about startups: starting a startup is where gaming the system stops working. Gaming the system may continue to work if you go to work for a big company. Depending on how broken the company is, you can succeed by sucking up to the right people, giving the impression of productivity, and so on. [[2](#f2n)] But that doesn't work with startups. There is no boss to trick, only users, and all users care about is whether your product does what they want. Startups are as impersonal as physics. You have to make something people want, and you prosper only to the extent you do.",
+      "zhMarkdown": "所以，这是关于创业需要记住的第三个违背直觉的地方：创业是一个“钻空子、玩弄系统”不再起作用的地方。如果你去大公司工作，钻空子可能依然管用。根据公司混乱的程度，你可能通过巴结正确的人、营造高效工作的假象等手段获得成功。[[2](#f2n)] 但在创业公司行不通。这里没有可以糊弄的老板，只有用户，而用户只关心你的产品是否满足了他们的需求。创业就像物理学一样冷酷无情。你必须做出人们想要的东西，你成功的程度完全取决于你做到了多少。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "11bd684c9abe23e0fd5da5a8399ce49fd77c327ae2b5c85f09448b45b6fc0ad1",
+      "enMarkdown": "The dangerous thing is, faking does work to some degree on investors. If you're super good at sounding like you know what you're talking about, you can fool investors for at least one and perhaps even two rounds of funding. But it's not in your interest to. The company is ultimately doomed. All you're doing is wasting your own time riding it down.",
+      "zhMarkdown": "危险的地方在于，假装在某种程度上对投资人确实管用。如果你超级擅长让自己听起来像个专家，你至少可以糊弄投资人一轮甚至两轮融资。但这并不符合你的利益。这家公司最终注定要失败，你所做的一切不过是在浪费自己的时间，陪着它走向毁灭。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "3d413714091456ec20644560d2fbb16b8bea050d70cfec41728eaf5805820d0f",
+      "enMarkdown": "So stop looking for the trick. There are tricks in startups, as there are in any domain, but they are an order of magnitude less important than solving the real problem. A founder who knows nothing about fundraising but has made something users love will have an easier time raising money than one who knows every trick in the book but has a flat usage graph. And more importantly, the founder who has made something users love is the one who will go on to succeed after raising the money.",
+      "zhMarkdown": "所以，别再寻找什么捷径秘诀了。创业和任何领域一样，确实存在一些小技巧，但它们的关键程度比解决实际问题要低一个数量级。一个对融资一无所知、但做出了用户喜爱产品的创始人，比一个懂得所有融资技巧、但用户增长曲线平平的创始人，更容易融到钱。更重要的是，做出用户喜爱产品的创始人，才是那些在融到钱后能继续走向成功的人。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "826a3ea76ffd2155bd8eb3149f14aebc51862466a3c3570ce7e8b01e0bec307e",
+      "enMarkdown": "Though in a sense it's bad news in that you're deprived of one of your most powerful weapons, I think it's exciting that gaming the system stops working when you start a startup. It's exciting that there even exist parts of the world where you win by doing good work. Imagine how depressing the world would be if it were all like school and big companies, where you either have to spend a lot of time on bullshit things or lose to people who do. [[3](#f3n)] I would have been delighted if I'd realized in college that there were parts of the real world where gaming the system mattered less than others, and a few where it hardly mattered at all. But there are, and this variation is one of the most important things to consider when you're thinking about your future. How do you win in each type of work, and what would you like to win by doing? [[4](#f4n)]",
+      "zhMarkdown": "虽然从某种意义上说，失去了一个最强大的武器是个坏消息，但我认为，创业时钻空子不再起作用是一件令人兴奋的事。世界上居然存在这样一些地方，只要做好工作就能赢，这太让人兴奋了。试想，如果世界都像学校和大公司那样，你必须把大量时间花在扯淡的事情上，否则就会输给那些善于扯淡的人，那这个世界该有多么令人沮丧。[[3](#f3n)] 如果我在大学时就意识到，在真实世界的某些地方，钻空子并没那么重要，甚至在少数地方几乎完全不起作用，我一定会欣喜若狂。但确实存在这样的地方，而在你规划未来时，这种差异是最需要考虑的事情之一。在每种类型的工作中，你该如何胜出？你又想通过做什么来赢得胜利？[[4](#f4n)]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "234f51ea9f0790aa4a2a700a1af887f419313dadb3f43547bcee018221be2dc6",
+      "enMarkdown": "**All-Consuming**",
+      "zhMarkdown": "**令人精疲力竭**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "013f7805cb8a9a578996d465f475e0c8739b51238277dfeac067ebcc9cc2cb8f",
+      "enMarkdown": "That brings us to our fourth counterintuitive point: startups are all-consuming. If you start a startup, it will take over your life to a degree you cannot imagine. And if your startup succeeds, it will take over your life for a long time: for several years at the very least, maybe for a decade, maybe for the rest of your working life. So there is a real opportunity cost here.",
+      "zhMarkdown": "这带出了我们的第四个违背直觉的观点：创业是令人精疲力竭、全情投入的。如果你开始创业，它将占据你的生活，程度超出你的想象。如果你的创业公司成功了，它将占据你生活很长一段时间：最少几年，可能是一个十年，甚至可能是你余下的整个职业生涯。所以，这里有实实在在的机会成本。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "d447f519d18f5adbfe8bc0c6977d3a33acd8db304d9034828dcbd5ec0493dd7a",
+      "enMarkdown": "Larry Page may seem to have an enviable life, but there are aspects of it that are unenviable. Basically at 25 he started running as fast as he could and it must seem to him that he hasn't stopped to catch his breath since. Every day new shit happens in the Google empire that only the CEO can deal with, and he, as CEO, has to deal with it. If he goes on vacation for even a week, a whole week's backlog of shit accumulates. And he has to bear this uncomplainingly, partly because as the company's daddy he can never show fear or weakness, and partly because billionaires get less than zero sympathy if they talk about having difficult lives. Which has the strange side effect that the difficulty of being a successful startup founder is concealed from almost everyone except those who've done it.",
+      "zhMarkdown": "拉里·佩奇（Larry Page）的生活看起来可能让人羡慕，但也有不让人羡慕的一面。基本上，他在 25 岁时就开始竭尽全力奔跑，在他看来，他似乎从那以后就没停下来喘过气。每天，谷歌帝国都会发生只有 CEO 才能处理的新麻烦，而他作为 CEO 必须去处理。如果他去度假哪怕一个星期，整整一星期的烂摊子就会堆积起来。而且他必须毫无怨言地承受这一切，部分原因是他作为公司的“家长”永远不能表现出恐惧或软弱，另一部分原因是，如果亿万富翁抱怨生活艰难，是得不到任何同情的。这产生了一个奇怪的副作用，那就是成为一个成功的创业创始人的艰辛，对几乎所有人来说都是隐秘的，除了那些亲历者。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "0355aa336e430b3da1265597e841755c8fc36ba969a3865ae150a630f08e9adf",
+      "enMarkdown": "Y Combinator has now funded several companies that can be called big successes, and in every single case the founders say the same thing. It never gets any easier. The nature of the problems change. You're worrying about construction delays at your London office instead of the broken air conditioner in your studio apartment. But the total volume of worry never decreases; if anything it increases.",
+      "zhMarkdown": "Y Combinator 现在资助了几家可以称得上非常成功的公司，在每一个案例中，创始人说的都是同一件事：这从来没有变得更容易。问题的性质改变了。你以前担心单身公寓里坏掉的空调，现在担心的是伦敦办公室的工程延期。但焦虑的总量从未减少，如果说有什么变化的话，那就是它增加了。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "f09a6e8e85f4f0ad6e8ff0ba70815f4cc4e593ba5923663c896b1c82b30fd338",
+      "enMarkdown": "Starting a successful startup is similar to having kids in that it's like a button you push that changes your life irrevocably. And while it's truly wonderful having kids, there are a lot of things that are easier to do before you have them than after. Many of which will make you a better parent when you do have kids. And since you can delay pushing the button for a while, most people in rich countries do.",
+      "zhMarkdown": "创办一家成功的创业公司和生孩子很像，就像按下一个按钮，你的生活将发生不可逆转的改变。虽然有孩子确实非常美好，但有很多事情在有孩子之前做比在有孩子之后做要容易得多。其中许多经历会让你在有了孩子后成为一个更好的父母。既然你可以推迟按下这个按钮，富裕国家的大多数人也确实是这么做的。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "62fbd0ed96f2b1e13db9feff6eb14291757294a4eb1166fe11c43882c75bf531",
+      "enMarkdown": "Yet when it comes to startups, a lot of people seem to think they're supposed to start them while they're still in college. Are you crazy? And what are the universities thinking? They go out of their way to ensure their students are well supplied with contraceptives, and yet they're setting up entrepreneurship programs and startup incubators left and right.",
+      "zhMarkdown": "然而在创业这件事上，很多人似乎认为他们应该在大学期间就开始。你疯了吗？大学又是怎么想的？他们千方百计确保学生有充足的避孕药具，却又在到处设立创业项目和创业孵化器。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "281fc41c9616fd91d778b6478db302abd9a23379a6f82a9df28cbb322e7a6ad9",
+      "enMarkdown": "To be fair, the universities have their hand forced here. A lot of incoming students are interested in startups. Universities are, at least de facto, expected to prepare them for their careers. So students who want to start startups hope universities can teach them about startups. And whether universities can do this or not, there's some pressure to claim they can, lest they lose applicants to other universities that do.",
+      "zhMarkdown": "公平地说，大学在这里也是被逼无奈。许多新生对创业感兴趣。大学至少在事实上被期望为学生的职业生涯做好准备。因此，想要创业的学生希望大学能教他们创业。不管大学能不能做到这一点，他们都面临着声称自己能做到的压力，以免在招生时输给其他提供此类项目的大学。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "1f6387d83db192bd95a09bfacf8dc8f710c9f85cd87a9f2066c0f5949bed38ef",
+      "enMarkdown": "Can universities teach students about startups? Yes and no. They can teach students about startups, but as I explained before, this is not what you need to know. What you need to learn about are the needs of your own users, and you can't do that until you actually start the company. [[5](#f5n)] So starting a startup is intrinsically something you can only really learn by doing it. And it's impossible to do that in college, for the reason I just explained: startups take over your life. You can't start a startup for real as a student, because if you start a startup for real you're not a student anymore. You may be nominally a student for a bit, but you won't even be that for long. [[6](#f6n)]",
+      "zhMarkdown": "大学能教学生创业吗？能，也不能。他们可以教学生关于创业公司的知识，但正如我之前解释的，这并不是你需要知道的。你需要了解的是你自己的用户的需求，而在你真正创办公司之前，你是做不到这一点的。[[5](#f5n)] 所以创业本质上是一件只能通过实践来真正学习的事情。而在大学里是不可能做到这一点的，原因正如我刚才解释的：创业会占据你的全部生活。作为学生，你无法真正地去创业，因为如果你真正开始创业，你就不再是学生了。你可能在名义上还是个学生，但这也维持不了多久。[[6](#f6n)]"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "caab74ba150c4894201be7902a6b29378859076377cf940ded2e1cd03e4d2557",
+      "enMarkdown": "Given this dichotomy, which of the two paths should you take? Be a real student and not start a startup, or start a real startup and not be a student? I can answer that one for you. Do not start a startup in college. How to start a startup is just a subset of a bigger problem you're trying to solve: how to have a good life. And though starting a startup can be part of a good life for a lot of ambitious people, age 20 is not the optimal time to do it. Starting a startup is like a brutally fast depth-first search. Most people should still be searching breadth-first at 20.",
+      "zhMarkdown": "面对这种二分法，你应该选择哪条路？做个真正的学生而不去创业，还是开始真正的创业而不做学生？我可以帮你回答这个问题。不要在大学里创业。如何创业只是你试图解决的一个更大问题的一个子集：如何过上美好的生活。虽然创业对许多有抱负的人来说可以是美好生活的一部分，但 20 岁并不是创业的最佳时机。创业就像是一个极其残酷的深度优先搜索。大多数人在 20 岁时仍应该进行广度优先搜索。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "1a90ccf20cefe5cde6056dbe07a7ccf1637dc62507fff1563cebc1d2c597063b",
+      "enMarkdown": "You can do things in your early 20s that you can't do as well before or after, like plunge deeply into projects on a whim and travel super cheaply with no sense of a deadline. For unambitious people, this sort of thing is the dreaded \"failure to launch,\" but for the ambitious ones it can be an incomparably valuable sort of exploration. If you start a startup at 20 and you're sufficiently successful, you'll never get to do it. [[7](#f7n)]",
+      "zhMarkdown": "你可以在 20 岁出头时做一些在之前或之后都无法做得那么好的事情，比如一时兴起深入钻研某些项目，或者毫无时间概念地进行超级便宜的旅行。对于没有大志的人来说，这种事情是可怕的“无法独立”，但对于有抱负的人来说，这可能是一种无比宝贵的探索。如果你在 20 岁创业并获得了足够的成功，你就再也无法体验这些了。[[7](#f7n)]"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "e99e3f44c18596b15466bb0eaaf2493ee1e65d7f973bf6ff2a9768fbe183511a",
+      "enMarkdown": "Mark Zuckerberg will never get to bum around a foreign country. He can do other things most people can't, like charter jets to fly him to foreign countries. But success has taken a lot of the serendipity out of his life. Facebook is running him as much as he's running Facebook. And while it can be very cool to be in the grip of a project you consider your life's work, there are advantages to serendipity too, especially early in life. Among other things it gives you more options to choose your life's work from.",
+      "zhMarkdown": "马克·扎克伯格将永远无法在国外闲逛。他可以做大多数人做不到的事，比如包机飞往国外。但成功夺走了他生活中的许多机缘巧合（serendipity）。Facebook 掌控他的程度，不亚于他掌控 Facebook。虽然沉浸在自己认为是毕生事业的项目中可能非常酷，但机缘巧合也有其优势，尤其是在生命早期。除其他外，它给你提供了更多选择毕生事业的机会。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "f1b4b47861eeb805d3ad9c4ae3d2de60259af19c2db584ffc49424a78fb1d412",
+      "enMarkdown": "There's not even a tradeoff here. You're not sacrificing anything if you forgo starting a startup at 20, because you're more likely to succeed if you wait. In the unlikely case that you're 20 and one of your side projects takes off like Facebook did, you'll face a choice of running with it or not, and it may be reasonable to run with it. But the usual way startups take off is for the founders to [make them](https://paulgraham.com/ds.html) take off, and it's gratuitously stupid to do that at 20.",
+      "zhMarkdown": "这里甚至不存在权衡。如果你在 20 岁时放弃创业，你并没有牺牲任何东西，因为如果你等一等，你成功的可能性会更大。在极少数情况下，如果你 20 岁时的一个业余项目像 Facebook 那样爆发了，你将面临是继续做下去还是放弃的选择，那时选择继续做下去可能是合理的。但创业公司通常的起飞方式是创始人[主动让它们](https://paulgraham.com/ds.html)起飞，而在 20 岁时就非要这么做是极其愚蠢的。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "b720b8aae714426dcffa576bfe22263eb7ee61f07e164333627eeb3f64825c6a",
+      "enMarkdown": "**Try**",
+      "zhMarkdown": "**尝试**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "651a515c83e533a2c5d86f56f2f455dc5f25522b4740afd9f6407e8c074eded6",
+      "enMarkdown": "Should you do it at any age? I realize I've made startups sound pretty hard. If I haven't, let me try again: starting a startup is really hard. What if it's too hard? How can you tell if you're up to this challenge?",
+      "zhMarkdown": "你是否应该在任何年龄创业？我意识到我已经把创业描述得相当艰难。如果还没有，让我再试一次：创业真的非常难。如果它太难了怎么办？你怎么知道自己能否应对这个挑战？"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "1780aae9aee168d62433f684d216cc56892e4a784e6ed37d3f137c92bc7f67d8",
+      "enMarkdown": "The answer is the fifth counterintuitive point: you can't tell. Your life so far may have given you some idea what your prospects might be if you tried to become a mathematician, or a professional football player. But unless you've had a very strange life you haven't done much that was [like](https://paulgraham.com/really.html) being a startup founder. Starting a startup will change you a lot. So what you're trying to estimate is not just what you are, but what you could grow into, and who can do that?",
+      "zhMarkdown": "答案是第五个违背直觉的观点：你无法预知。你迄今为止的生活可能会让你对如果尝试成为数学家或职业足球运动员的前景有所了解。但除非你经历奇特，否则你做过的事情中，没有多少是[类似于](https://paulgraham.com/really.html)做一个创业创始人的。创业会极大地改变你。所以你试图评估的不仅是现在的你，还有你能成长为什么样的人，而谁能预测到这一点呢？"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "42e693671d5a73b8186126ff70b54f487fee1dfdb37ce2e38f9c62e9cb4991f6",
+      "enMarkdown": "For the past 9 years it was my job to predict whether people would have what it took to start successful startups. It was easy to tell how smart they were, and most people reading this will be over that threshold. The hard part was predicting how tough and ambitious they would become. There may be no one who has more experience at trying to predict that, so I can tell you how much an expert can know about it, and the answer is: not much. I learned to keep a completely open mind about which of the startups in each batch would turn out to be the stars.",
+      "zhMarkdown": "在过去的 9 年里，我的工作就是预测人们是否具备创办成功创业公司的素质。判断他们有多聪明很容易，大多数读到这篇文章的人都会超过这个门槛。难的部分是预测他们会变得多么坚韧和有野心。可能没有人比我更有经验去预测这一点了，所以我可以告诉你一个专家能了解多少，答案是：不多。我学会了对每批创业公司中哪家会成为明星保持完全开放的态度。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "c198046e92ebe4906b49f80b93df78fd115b987f9919837ae3b812f4685a8404",
+      "enMarkdown": "The founders sometimes think they know. Some arrive feeling sure they will ace Y Combinator just as they've aced every one of the (few, artificial, easy) tests they've faced in life so far. Others arrive wondering how they got in, and hoping YC doesn't discover whatever mistake caused it to accept them. But there is little correlation between founders' initial attitudes and how well their companies do.",
+      "zhMarkdown": "创始人有时认为自己知道。有些人来的时候信心满满，觉得他们能像搞定迄今为止生活中面临的每一个（少数、人为、简单）考试一样，轻松搞定 Y Combinator。另一些人来的时候则纳闷自己是怎么进来的，希望 YC 不要发现是什么错误导致录取了他们。但创始人的初始态度与他们公司的发展情况之间几乎没有关联。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "3b17529cacc6b8a64e60b2ab1277c4d5acb48fd68404f098d0d3cc010a1c3a05",
+      "enMarkdown": "I've read that the same is true in the military — that the swaggering recruits are no more likely to turn out to be really tough than the quiet ones. And probably for the same reason: that the tests involved are so different from the ones in their previous lives.",
+      "zhMarkdown": "我读到过在军队里也是如此——那些神气活现的新兵并不比那些沉默寡言的新兵更有可能表现得真正坚韧。原因可能也一样：他们面临的考验与之前生活中的考验完全不同。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "f0037de67e1f369dd05ab0767121d0628fade4ecddc5f13b59d7e054e01d3714",
+      "enMarkdown": "If you're absolutely terrified of starting a startup, you probably shouldn't do it. But if you're merely unsure whether you're up to it, the only way to find out is to try. Just not now.",
+      "zhMarkdown": "如果你对创业感到极度恐惧，你可能不应该做。但如果你只是不确定自己是否行，唯一的发现方法就是去尝试。只是不是现在。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "9941e89e6c685f1a927b9204b40db18d3141bd02cb1d8f4cdb9f986c94aa7557",
+      "enMarkdown": "**Ideas**",
+      "zhMarkdown": "**创意**"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "d3d75511e1704b5431fa21cd251f40d011606030a48fdcbd24a13fbf3b420eb4",
+      "enMarkdown": "So if you want to start a startup one day, what should you do in college? There are only two things you need initially: an idea and cofounders. And the m.o. for getting both is the same. Which leads to our sixth and last counterintuitive point: that the way to get startup ideas is not to try to think of startup ideas.",
+      "zhMarkdown": "所以，如果你想有一天创业，在大学里应该做什么？你最初只需要两样东西：一个创意和联合创始人。而获得这两者的方法是一样的。这引出了我们第六个也是最后一个违背直觉的观点：获得创业创意的方法不是去刻意想出创业创意。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "2e2fe778595c258aab9f4ea27a611d299c1f6ccf9840e63ac14998978758d806",
+      "enMarkdown": "I've written a whole [essay](https://paulgraham.com/startupideas.html) on this, so I won't repeat it all here. But the short version is that if you make a conscious effort to think of startup ideas, the ideas you come up with will not merely be bad, but bad and plausible-sounding, meaning you'll waste a lot of time on them before realizing they're bad.",
+      "zhMarkdown": "我为此写过一整篇[文章](https://paulgraham.com/startupideas.html)，所以这里不再赘述。但简短的版本是，如果你有意识地去想创业创意，你脑子里蹦出来的点子不仅不好，而且听起来合情合理，这意味着你会浪费大量时间在上面，然后才意识到它们很糟糕。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "ce5882bcd4f376f4debd8932b15031ec9f50597a58932f095ffaf02aedfb98b2",
+      "enMarkdown": "The way to come up with good startup ideas is to take a step back. Instead of making a conscious effort to think of startup ideas, turn your mind into the type that startup ideas form in without any conscious effort. In fact, so unconsciously that you don't even realize at first that they're startup ideas.",
+      "zhMarkdown": "想出好的创业创意的方法是退一步。与其刻意去想创业创意，不如把自己的大脑塑造成那种无需刻意努力就能产生创业创意的类型。事实上，这种产生过程是如此无意识，以至于你起初甚至没有意识到它们是创业创意。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "c37648c29a758717e20e94c8b8b768d075c2a7233aa654f023798f5c8ca92cdc",
+      "enMarkdown": "This is not only possible, it's how Apple, Yahoo, Google, and Facebook all got started. None of these companies were even meant to be companies at first. They were all just side projects. The best startups almost have to start as side projects, because great ideas tend to be such outliers that your conscious mind would reject them as ideas for companies.",
+      "zhMarkdown": "这不仅是可能的，而且苹果、雅虎、谷歌和 Facebook 都是这样开始的。这些公司起初甚至都没打算成为公司。它们都只是业余项目。最好的创业公司几乎必须从业余项目开始，因为伟大的创意往往是如此离经叛道，以至于你清醒的意识会拒绝将它们作为公司的创意。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "d7af50070d5c3298c108389da296078901b08b207d6294941ef9aebd2f4d0fbe",
+      "enMarkdown": "Ok, so how do you turn your mind into the type that startup ideas form in unconsciously? (1) Learn a lot about things that matter, then (2) work on problems that interest you (3) with people you like and respect. The third part, incidentally, is how you get cofounders at the same time as the idea.",
+      "zhMarkdown": "好，那么你如何把自己的大脑塑造成那种无意识产生创业创意的类型？(1) 深入学习重要的领域，然后 (2) 致力于你感兴趣的问题，(3) 与你喜欢和尊重的人一起工作。顺便说一句，第三点也是你在获得创意的同时获得联合创始人的方法。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "1889b25a1140b4c9b11ee01f95e3945313030958363d4f58a1b1979a69dd88e5",
+      "enMarkdown": "The first time I wrote that paragraph, instead of \"learn a lot about things that matter,\" I wrote \"become good at some technology.\" But that prescription, though sufficient, is too narrow. What was special about Brian Chesky and Joe Gebbia was not that they were experts in technology. They were good at design, and perhaps even more importantly, they were good at organizing groups and making projects happen. So you don't have to work on technology per se, so long as you work on problems demanding enough to stretch you.",
+      "zhMarkdown": "我第一次写下那段话时，写的不是“深入学习重要的领域”，而是“精通某种技术”。但这个药方虽然足够，却太窄了。布莱恩·切斯基（Brian Chesky）和乔·格比亚（Joe Gebbia）的特别之处并不在于他们是技术专家。他们擅长设计，也许更重要的是，他们擅长组织团队和推动项目落实。所以你不需要非在技术领域工作，只要你致力于那些足够有挑战性、能让你成长的难题即可。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "f08d5cfd127be1850cae0cf0fffa7d7c1dd24d736aeab70aa8021bf828d55ed5",
+      "enMarkdown": "What kind of problems are those? That is very hard to answer in the general case. History is full of examples of young people who were working on important problems that [no\none else](https://paulgraham.com/marginal.html) at the time thought were important, and in particular that their parents didn't think were important. On the other hand, history is even fuller of examples of parents who thought their kids were wasting their time and who were right. So how do you know when you're working on real stuff? [[8](#f8n)]",
+      "zhMarkdown": "哪些是这样的难题？在一般情况下很难回答。历史上充满了这样的例子：年轻人致力于在当时[没人觉得](https://paulgraham.com/marginal.html)重要的问题，尤其是他们的父母觉得不重要的问题。另一方面，历史上更充满了这样的例子：父母认为孩子在浪费时间，而且父母是对的。那么你如何知道自己是在做真正有价值的事情呢？[[8](#f8n)]"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "8a810e90baf5f4039400a6570f73b6de19b6730ef4767908b1622cd06de1fd2c",
+      "enMarkdown": "I know how *I* know. Real problems are interesting, and I am self-indulgent in the sense that I always want to work on interesting things, even if no one else cares about them (in fact, especially if no one else cares about them), and find it very hard to make myself work on boring things, even if they're supposed to be important.",
+      "zhMarkdown": "我知道*我*是如何知道的。真正的问题是很有趣的，我是个“任性”的人，从某种意义上说，我总是想做有趣的事情，即使没有人在乎它们（事实上，特别是如果没人关心的话），而且我发现很难强迫自己去做无聊的事情，即使它们被认为很重要。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "8779da03e44ceaf7285f665eee06cdbc131439ee3304f22d51fc25818485e265",
+      "enMarkdown": "My life is full of case after case where I worked on something just because it seemed interesting, and it turned out later to be useful in some worldly way. [Y\nCombinator itself](http://ycombinator.com/start.html) was something I only did because it seemed interesting. So I seem to have some sort of internal compass that helps me out. But I don't know what other people have in their heads. Maybe if I think more about this I can come up with heuristics for recognizing genuinely interesting problems, but for the moment the best I can offer is the hopelessly question-begging advice that if you have a taste for genuinely interesting problems, indulging it energetically is the best way to prepare yourself for a startup. And indeed, probably also the best way to live. [[9](#f9n)]",
+      "zhMarkdown": "我的生活充满了这样的案例：我做某件事仅仅是因为它看起来很有趣，后来证明它在现实世界中是有用的。[Y Combinator 自身](http://ycombinator.com/start.html)也是我仅仅因为觉得有趣才做的事情。所以我似乎有一个能够帮到我的内部罗盘。但我不知道其他人脑子里在想什么。也许如果我多思考一下，我可以想出识别真正有趣问题的启发式方法，但目前我能提供的最好建议，就是这个有些循环论证的建议：如果你对真正有趣的问题有品味，精力充沛地沉溺其中是为创业做准备的最佳方式。事实上，这可能也是最好的生活方式。[[9](#f9n)]"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "205470173f78804a87daf2f530ee41a9c44cfc92e7b23ee213c68868a63c6b4c",
+      "enMarkdown": "But although I can't explain in the general case what counts as an interesting problem, I can tell you about a large subset of them. If you think of technology as something that's spreading like a sort of fractal stain, every moving point on the edge represents an interesting problem. So one guaranteed way to turn your mind into the type that has good startup ideas is to get yourself to the leading edge of some technology — to cause yourself, as Paul Buchheit put it, to \"live in the future.\" When you reach that point, ideas that will seem to other people uncannily prescient will seem obvious to you. You may not realize they're startup ideas, but you'll know they're something that ought to exist.",
+      "zhMarkdown": "虽然我无法在一般情况下解释什么算是有趣的问题，但我可以告诉你它们的一个巨大子集。如果你把技术看作是像分形污渍一样扩散的东西，那么边缘上的每一个移动点都代表着一个有趣的问题。所以，确保自己大脑能产生好创意的一个万无一失的方法，就是让自己走到某种技术的领先边缘——正如保罗·布赫海特（Paul Buchheit）所说，让自己“生活在未来”。当你达到那个点时，在别人看来具有惊人预见性的创意，在你看来就会是显而易见的。你可能没有意识到它们是创业创意，但你会知道它们是应该存在的东西。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "31e4ef8f0dd9d935a1c1d72cc7b937aea236a9e9ea2f284b5c9a9ba20bb6cdb3",
+      "enMarkdown": "For example, back at Harvard in the mid 90s a fellow grad student of my friends Robert and Trevor wrote his own voice over IP software. He didn't mean it to be a startup, and he never tried to turn it into one. He just wanted to talk to his girlfriend in Taiwan without paying for long distance calls, and since he was an expert on networks it seemed obvious to him that the way to do it was turn the sound into packets and ship it over the Internet. He never did any more with his software than talk to his girlfriend, but this is exactly the way the best startups get started.",
+      "zhMarkdown": "例如，早在 90 年代中期的哈佛大学，我朋友罗伯特（Robert）和特雷弗（Trevor）的一位研究生同学写了他自己的网络电话（VoIP）软件。他并不是想创业，也从未尝试将其变成一家公司。他只是想和台湾的女友通话而不用付长途电话费，既然他是网络专家，在他看来，显而易见的方法就是把声音变成数据包并用互联网传输。他除了和女友通话外，没有对他的软件做更多的事，但这正是最好的创业公司开始的方式。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "c90d30c8807f8e8d522d2279af8097c9a3861ff210ed01692dac2d5a48b40dd0",
+      "enMarkdown": "So strangely enough the optimal thing to do in college if you want to be a successful startup founder is not some sort of new, vocational version of college focused on \"entrepreneurship.\" It's the classic version of college as education for its own sake. If you want to start a startup after college, what you should do in college is learn powerful things. And if you have genuine intellectual curiosity, that's what you'll naturally tend to do if you just follow your own inclinations. [[10](#f10n)]",
+      "zhMarkdown": "所以说来也怪，如果你想成为一个成功的创业创始人，在大学里最该做的，并不是去上某种专注于“创业”的新型职业化大学课程。而是回归经典的大学模式，将教育视为目的本身。如果你想在大学毕业后创业，在大学里你应该做的是学习强大的知识。如果你有真正的求知欲，只要顺从自己的兴趣，你自然就会这么做。[[10](#f10n)]"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "87bc80315e2ad26f609709c207d4b80c4309ab6f000a74228d126090cdafa162",
+      "enMarkdown": "The component of entrepreneurship that really matters is domain expertise. The way to become Larry Page was to become an expert on search. And the way to become an expert on search was to be driven by genuine curiosity, not some ulterior motive.",
+      "zhMarkdown": "创业中真正起作用的因素是领域专业知识。成为拉里·佩奇的方法是成为搜索领域的专家。而成为搜索领域专家的方法是受真正的求知欲驱动，而不是出于某种不可告人的动机。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "d6382be05cfb5804d9d918ceabda4e5be8f4419b024f62767f59eb88d7b2b761",
+      "enMarkdown": "At its best, starting a startup is merely an ulterior motive for curiosity. And you'll do it best if you introduce the ulterior motive toward the end of the process.",
+      "zhMarkdown": "在最好状态下，创业仅仅是求知欲的一个副产品。如果你在过程的后半段才引入这个动机，你会做得最好。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "8342575eba8f74747683f4119fc4289ee370c591d55dc7acc7d847889be7bbf3",
+      "enMarkdown": "So here is the ultimate advice for young would-be startup founders, boiled down to two words: just learn.",
+      "zhMarkdown": "所以，这里给年轻的准创业创始人的终极建议，浓缩为两个词：去学。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "8f8f54a86b03cb1957b0ccdc75c02fd861d82ac06038d88c67fa71ccc25d2a35",
+      "enMarkdown": "[1] Some founders listen more than others, and this tends to be a [predictor of success](https://paulgraham.com/word.html). One of the things I remember about the Airbnbs during YC is how intently they listened.",
+      "zhMarkdown": "[1] 有些创始人比其他人更听得进劝，这往往是[成功的预测指标](https://paulgraham.com/word.html)。关于 Airbnb 创始人在 YC 期间，我记得最深的一点就是他们听得有多么专注。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "b3988e5239c0221bdb238fc0a1852eeb6f0cd3cf58264c13d1cad1c5ed23ea84",
+      "enMarkdown": "[2] In fact, this is one of the reasons startups are possible. If big companies weren't plagued by internal inefficiencies, they'd be proportionately more effective, leaving less room for startups.",
+      "zhMarkdown": "[2] 事实上，这也是创业公司得以存在的原因之一。如果大公司没有受到内部低效的困扰，它们就会更有效率，从而给创业公司留下的空间就会更少。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "4d5d993f9ec3bd35dfbbc4ed3d748cfb91cb324e4d8c74c14b474509c72fb340",
+      "enMarkdown": "[3] In a startup you have to spend a lot of time on [schleps](https://paulgraham.com/schlep.html), but this sort of work is merely unglamorous, not bogus.",
+      "zhMarkdown": "[3] 在创业公司中，你必须花很多时间在[苦差事](https://paulgraham.com/schlep.html)上，但这种工作只是不体面，而不是虚伪的。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "c20e5ea666a806699b20b77f08b3d0ec2d43e6230009abce148838ad37eabd55",
+      "enMarkdown": "[4] What should you do if your true calling is gaming the system? Management consulting.",
+      "zhMarkdown": "[4] 如果你真正的天职是钻空子、玩弄系统，你该做什么？管理咨询。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "910039f1a57498cd16b7aa65b254b769de03b661f6739d9ed70d89b2420bc225",
+      "enMarkdown": "[5] The company may not be incorporated, but if you start to get significant numbers of users, you've started it, whether you realize it yet or not.",
+      "zhMarkdown": "[5] 公司可能还没有注册，但如果你开始拥有大量用户，无论你是否意识到，你已经创办了它。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "1e62d7651e028fdc89a251b4961ceb68e4cd9662b16de54d2c7bb462909621d9",
+      "enMarkdown": "[6] It shouldn't be that surprising that colleges can't teach students how to be good startup founders, because they can't teach them how to be good employees either.",
+      "zhMarkdown": "[6] 大学无法教会学生如何成为好的创业创始人，这不应该让人感到奇怪，因为他们也无法教会学生如何成为好的员工。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "e802df6b4a4286b08f00240b18ea6e6aca206bafbd43e94ac7aedd9bd5b9d2e1",
+      "enMarkdown": "The way universities \"teach\" students how to be employees is to hand off the task to companies via internship programs. But you couldn't do the equivalent thing for startups, because by definition if the students did well they would never come back.",
+      "zhMarkdown": "大学“教授”学生如何成为员工的方法，是通过实习项目将任务移交给公司。但你无法对创业公司做同样的事情，因为根据定义，如果学生做得好，他们就永远不会回来了。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "56573c4242e032c7f8499f73271a3f9a9c2d45bfa91f468c77db173c748969b5",
+      "enMarkdown": "[7] Charles Darwin was 22 when he received an invitation to travel aboard the HMS Beagle as a naturalist. It was only because he was otherwise unoccupied, to a degree that alarmed his family, that he could accept it. And yet if he hadn't we probably would not know his name.",
+      "zhMarkdown": "[7] 查尔斯·达尔文 22 岁时收到邀请，作为博物学家乘坐小猎犬号（HMS Beagle）旅行。正是因为他当时无所事事，达到了让家人担忧的程度，他才能接受这个邀请。然而，如果他没有去，我们可能就不会知道他的名字。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "7f5f57e64f4690971e367de212393ef617d0d09bcdaf73247d9d8045e4d0826b",
+      "enMarkdown": "[8] Parents can sometimes be especially conservative in this department. There are some whose definition of important problems includes only those on the critical path to med school.",
+      "zhMarkdown": "[8] 父母在这个问题上有时会特别保守。有些父母对重要问题的定义，只包括通往医学院关键路径上的那些问题。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "3bd6e215584f32b7f29fcf41cb947a027bf506c6ad78a431b5b7bb17e44c8c4d",
+      "enMarkdown": "[9] I did manage to think of a heuristic for detecting whether you have a taste for interesting ideas: whether you find known boring ideas intolerable. Could you endure studying literary theory, or working in middle management at a large company?",
+      "zhMarkdown": "[9] 我确实想到了一个检测你是否对有趣创意有品味的启发式方法：你是否觉得已知的无聊创意无法忍受。你能忍受研究文学理论，或者在大公司的中层管理岗位上工作吗？"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "37c9c85e12adb8dd8cba0ccf3652c1e71becf18b117733d597cf5b49e7008418",
+      "enMarkdown": "[10] In fact, if your goal is to start a startup, you can stick even more closely to the ideal of a liberal education than past generations have. Back when students focused mainly on getting a job after college, they thought at least a little about how the courses they took might look to an employer. And perhaps even worse, they might shy away from taking a difficult class lest they get a low grade, which would harm their all-important GPA. Good news: users [don't care](https://paulgraham.com/credentials.html) what your GPA was. And I've never heard of investors caring either. Y Combinator certainly never asks what classes you took in college or what grades you got in them.",
+      "zhMarkdown": "[10] 事实上，如果你的目标是创业，你可以比前几代人更紧密地遵循博雅教育（liberal education）的理想。过去，当学生主要关注大学毕业后找工作时，他们至少会稍微考虑一下自己选的课程在雇主眼里会是什么样。甚至更糟的是，他们可能会回避一门困难的课程，以免拿到低分，从而损害他们至关重要的 GPA。好消息是：用户[不在乎](https://paulgraham.com/credentials.html)你的 GPA 是多少。我还没听说过投资人在乎这个的。Y Combinator 当然从不问你在大学里选了什么课，或者得了多少分。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "2b0329a89ddea83a42f32730f4b279fb55d93d7194c7669800fb212581a83423",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, John Collison, Patrick Collison, Jessica Livingston, Robert Morris, Geoff Ralston, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、John Collison、Patrick Collison、Jessica Livingston、Robert Morris、Geoff Ralston 和 Fred Wilson 阅读本文的草稿。"
+    }
+  ]
+}

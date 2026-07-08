@@ -1,0 +1,125 @@
+{
+  "slug": "talk",
+  "titleEn": "Write Like You Talk",
+  "titleZh": "像聊天一样写作",
+  "dateText": "October 2015",
+  "publishedAt": "2015-10-01",
+  "sourceOrder": 64,
+  "sourceUrl": "https://paulgraham.com/talk.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "877338f514e4d3d24a908579573a15bad966db41f27e38a66e45af0e2f538724",
+      "enMarkdown": "Here's a simple trick for getting more people to read what you write: write in spoken language.",
+      "zhMarkdown": "这里有一个能让更多人读你文章的简单诀窍：用口语写作。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "033a1202e87f201dfc4d6b044503d7d60886a29d8b183fc006981a11f23d9499",
+      "enMarkdown": "Something comes over most people when they start writing. They write in a different language than they'd use if they were talking to a friend. The sentence structure and even the words are different. No one uses \"pen\" as a verb in spoken English. You'd feel like an idiot using \"pen\" instead of \"write\" in a conversation with a friend.",
+      "zhMarkdown": "大多数人一动笔，整个人就变了。他们写出来的语言，跟平时和朋友聊天时用的完全不同。句式变了，甚至连词汇都变了。在口语中，没人会把“撰”当作动词来用。要是你在和朋友聊天时放着“写”不用，非要说“撰”，你自己都会觉得像个傻子。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "6dd66bdadd12681e50356b4ac33b0ae3a9f0b482fa7641abe406ca2c8d07c292",
+      "enMarkdown": "The last straw for me was a sentence I read a couple days ago:",
+      "zhMarkdown": "前几天读到的一句话，终于让我忍无可忍了："
+    },
+    {
+      "id": 4,
+      "type": "quote",
+      "sourceHash": "e60761ef819832a06336596270efdcbe86f9d44686d14a80afae5779264c2a9a",
+      "enMarkdown": "> The mercurial Spaniard himself declared: \"After Altamira, all is decadence.\"",
+      "zhMarkdown": "> 这位喜怒无常的西班牙人自己宣称：“阿尔塔米拉之后，一切皆是衰落。”"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "080eff0400efcee8c4402c5ba59eb44ee9d4b231fb88dc68ff7c1e10d8d257d8",
+      "enMarkdown": "It's from Neil Oliver's *A History of Ancient Britain*. I feel bad making an example of this book, because it's no worse than lots of others. But just imagine calling Picasso \"the mercurial Spaniard\" when talking to a friend. Even one sentence of this would raise eyebrows in conversation. And yet people write whole books of it.",
+      "zhMarkdown": "这句话出自尼尔·奥利弗的《大不列颠古代史》。拿这本书来做反面教材我挺过意不去的，因为它其实不比其他书更差。但试想一下，你在和朋友聊天时，会把毕加索称为“这位喜怒无常的西班牙人”吗？在对话中，哪怕只冒出这么一句，都会让人侧目。然而，人们却能用这种调调写出整本书来。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "7d009554386802679f03562b7026f024aaf1bb6f56b528e420549d4283cc9153",
+      "enMarkdown": "Ok, so written and spoken language are different. Does that make written language worse?",
+      "zhMarkdown": "好吧，书面语和口语确实不同。但这是否意味着书面语就更糟糕呢？"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "63071fd348743cdcb38c54582512fbb261bdec05ea2535bcf3ac928dc34be54f",
+      "enMarkdown": "If you want people to read and understand what you write, yes. Written language is more complex, which makes it more work to read. It's also more formal and distant, which gives the reader's attention permission to drift. But perhaps worst of all, the complex sentences and fancy words give you, the writer, the false impression that you're saying more than you actually are.",
+      "zhMarkdown": "如果你希望人们阅读并理解你写的东西，答案是肯定的。书面语更复杂，这增加了阅读的负担。它也更正式、更具距离感，容易让读者的注意力开小差。但或许最糟糕的是，复杂的句式和华丽的辞藻会给身为作者的你一种幻觉，让你以为自己表达的内容比实际上的还要深刻。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "032930ab5ed62129bf3dcebd5a6b48f657f4fe98ede3d0ff47054410fc71b4b4",
+      "enMarkdown": "You don't need complex sentences to express complex ideas. When specialists in some abstruse topic talk to one another about ideas in their field, they don't use sentences any more complex than they do when talking about what to have for lunch. They use different words, certainly. But even those they use no more than necessary. And in my experience, the harder the subject, the more informally experts speak. Partly, I think, because they have less to prove, and partly because the harder the ideas you're talking about, the less you can afford to let language get in the way.",
+      "zhMarkdown": "你不需要用复杂的句子来表达复杂的想法。当某个深奥领域的专家聚在一起讨论专业问题时，他们所用的句式，并不比讨论午饭吃什么时更复杂。当然，他们会使用不同的专业词汇，但即便如此，他们也是能省则省。根据我的经验，讨论的主题越难，专家的交流就越口语化。我想，部分原因在于他们不需要证明什么，另一部分原因在于，你讨论的想法越难，你就越不能让语言本身成为绊脚石。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a09cf19e9183f105eb97d2695823fc663be0b99e7521c33edaab235393dbfc97",
+      "enMarkdown": "Informal language is the athletic clothing of ideas.",
+      "zhMarkdown": "口语，是思想的运动服。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "18123c94ccafc82d6596484158975411b4361675ef11e871b3a6d796a31ea35e",
+      "enMarkdown": "I'm not saying spoken language always works best. Poetry is as much music as text, so you can say things you wouldn't say in conversation. And there are a handful of writers who can get away with using fancy language in prose. And then of course there are cases where writers don't want to make it easy to understand what they're saying—in corporate announcements of bad news, for example, or at the more [bogus](https://scholar.google.com/scholar?hl=en&as_sdt=1,5&q=transgression+narrative+postmodern+gender) end of the humanities. But for nearly everyone else, spoken language is better.",
+      "zhMarkdown": "我并不是说口语在任何情况下都是最佳选择。诗歌既是文字也是音乐，所以你可以写出一些平时聊天不会说的话。也有极少数作家能在散文中使用华丽的语言而不显突兀。当然，还有些情况下，作者本身就不想让读者轻易看懂——比如公司发布坏消息的公告，或者人文学科中那些比较[扯淡](https://scholar.google.com/scholar?hl=en&as_sdt=1,5&q=transgression+narrative+postmodern+gender)的学术研究。但对于几乎所有其他人来说，口语都是更好的选择。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "6e0171ada261b770cda47e443b7b362df5abf28f84f32c23165f5ed255ed5619",
+      "enMarkdown": "It seems to be hard for most people to write in spoken language. So perhaps the best solution is to write your first draft the way you usually would, then afterward look at each sentence and ask \"Is this the way I'd say this if I were talking to a friend?\" If it isn't, imagine what you would say, and use that instead. After a while this filter will start to operate as you write. When you write something you wouldn't say, you'll hear the clank as it hits the page.",
+      "zhMarkdown": "对大多数人来说，用口语写作似乎挺难的。所以最好的解决办法，或许是先按你习惯的方式写第一稿，然后回头审视每一个句子，问自己：“如果我在和朋友聊天，我会这么说吗？”如果不会，就想象一下你会怎么说，然后用聊天的话代替。久而久之，这种过滤机制就会在你写作时自动运行。一旦你写下一些平时不会说的话，你就能听到它落在纸面上的刺耳撞击声。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "fe0a498e83eb787032f216bfe28ba20db7aba5711fe39aae0c0efaf5bd3ed876",
+      "enMarkdown": "Before I publish a new essay, I read it out loud and fix everything that doesn't sound like conversation. I even fix bits that are phonetically awkward; I don't know if that's necessary, but it doesn't cost much.",
+      "zhMarkdown": "在发表新文章之前，我会把它大声读一遍，把所有听起来不像在聊天的句子都改掉。我甚至会修改读起来有些拗口的地方。我不知道这是否必要，但这样做成本很低。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "ee3190c99391a997f606dcb69caacfa2b3e6ef26fd3c5be984163b07556d303a",
+      "enMarkdown": "This trick may not always be enough. I've seen writing so far removed from spoken language that it couldn't be fixed sentence by sentence. For cases like that there's a more drastic solution. After writing the first draft, try explaining to a friend what you just wrote. Then replace the draft with what you said to your friend.",
+      "zhMarkdown": "这个诀窍有时可能还不够用。我见过有些文章与口语相差太远，以至于无法通过逐句修改来挽救。对于这种情况，有一个更彻底的解决办法。写完初稿后，试着向朋友口头解释一下你刚才写了什么，然后用你对朋友说的话来代替初稿。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a8e49047fe85dbecfc284012e5577b47d070cd8dbfce8dba4889f1ff4e390173",
+      "enMarkdown": "People often tell me how much my essays sound like me talking. The fact that this seems worthy of comment shows how rarely people manage to write in spoken language. Otherwise everyone's writing would sound like them talking.",
+      "zhMarkdown": "人们经常跟我说，我的文章读起来就像我本人在说话一样。这件事居然值得被专门提起，恰恰说明极少有人能做到用口语写作。否则，每个人的文章读起来都应该像他们本人在说话。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "323ceea03a479eedde9f9e9f72d1c2b1bff5ed22e46127d1f127375e4aa2a099",
+      "enMarkdown": "If you simply manage to write in spoken language, you'll be ahead of 95% of writers. And it's so easy to do: just don't let a sentence through unless it's the way you'd say it to a friend.",
+      "zhMarkdown": "如果你能做到用口语写作，你就已经领先了 95% 的写作者。而且这其实很容易做到：只要一个句子不是你平时会跟朋友说的话，就绝不让它过关。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "2581686b233f03aa977df5b370495be4b497214107f20fef0b2250bd59f5c0d0",
+      "enMarkdown": "**Thanks** to Patrick Collison and Jessica Livingston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Patrick Collison 和 Jessica Livingston 阅读本书稿。"
+    }
+  ]
+}

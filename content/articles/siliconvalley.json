@@ -1,0 +1,531 @@
+{
+  "slug": "siliconvalley",
+  "titleEn": "How to Be Silicon Valley",
+  "titleZh": "如何复制硅谷",
+  "dateText": "May 2006",
+  "publishedAt": "2006-05-01",
+  "sourceOrder": 168,
+  "sourceUrl": "https://paulgraham.com/siliconvalley.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "d0ed21666c8c3a12d6172ad120b046da75dff4db0bf098a13bcbf1ea5b98ddf3",
+      "enMarkdown": "*(This essay is derived from a keynote at Xtech.)*",
+      "zhMarkdown": "*(本文改编自作者在 Xtech 大会上的主题演讲。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "1081ba13d200ec52a2058c6310c24cbae7cafe692c1c5af34119cc9d002e4259",
+      "enMarkdown": "Could you reproduce Silicon Valley elsewhere, or is there something unique about it?",
+      "zhMarkdown": "你能在其他地方复制硅谷吗？还是说，硅谷有什么独一无二的特质？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "c93a886086f30cd490d5106db3b924bcc4f5a86bfafe6ddd0c7c41c24011c48c",
+      "enMarkdown": "It wouldn't be surprising if it were hard to reproduce in other countries, because you couldn't reproduce it in most of the US either. What does it take to make a silicon valley even here?",
+      "zhMarkdown": "如果在其他国家很难复制，这并不奇怪，因为即便在美国的大多数地方也复制不了。那么，即使在这里，要打造一个硅谷需要什么条件？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a27b60a887555b882d9b139049a6d2afdfea95e566d81455f7f101775530ae7c",
+      "enMarkdown": "What it takes is the right people. If you could get the right ten thousand people to move from Silicon Valley to Buffalo, Buffalo would become Silicon Valley. [[1](#f1n)]",
+      "zhMarkdown": "需要的是合适的人。如果你能让硅谷最合适的这一万个人搬到布法罗（Buffalo），布法罗就会变成硅谷。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "71f193013d62f32bb655dde48fbca916dfab2f1bf3048227e4e40024fadb1b6a",
+      "enMarkdown": "That's a striking departure from the past. Up till a couple decades ago, geography was destiny for cities. All great cities were located on waterways, because cities made money by trade, and water was the only economical way to ship.",
+      "zhMarkdown": "这与过去截然不同。直到几十年前，地理位置还决定着城市的命运。所有伟大的城市都坐落在水道旁，因为城市靠贸易赚钱，而水运是唯一经济的运输方式。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "cf48eb40da78aa07aa2174974d3a35a210c0443a4a921597aa8c384325cdfc56",
+      "enMarkdown": "Now you could make a great city anywhere, if you could get the right people to move there. So the question of how to make a silicon valley becomes: who are the right people, and how do you get them to move?",
+      "zhMarkdown": "现在，只要你能吸引合适的人搬过去，你就能在任何地方造就一座伟大的城市。因此，如何打造硅谷的问题就变成了：谁是合适的人，以及如何让他们搬过去？"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "99eb5e1823fab131f0828bf2f600b86498db88837efeb2c52d1eb746ee39d728",
+      "enMarkdown": "**Two Types**",
+      "zhMarkdown": "**两类人**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "5cd8ffc1204509984f08980e1bbebb7b02f652f2ce88809cc521dfec0570b44e",
+      "enMarkdown": "I think you only need two kinds of people to create a technology hub: rich people and nerds. They're the limiting reagents in the reaction that produces startups, because they're the only ones present when startups get started. Everyone else will move.",
+      "zhMarkdown": "我认为，要创建一个技术中心，你只需要两类人：富人和书呆子（nerds）。他们是产生创业公司这一化学反应中的极限反应物，因为在创业公司刚起步时，只有他们两类人在场。其他所有人都是后续搬过来的。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "4804051384480c1d6a37447570823ea37bfed0328e6dcaf41d4dc81220f17000",
+      "enMarkdown": "Observation bears this out: within the US, towns have become startup hubs if and only if they have both rich people and nerds. Few startups happen in Miami, for example, because although it's full of rich people, it has few nerds. It's not the kind of place nerds like.",
+      "zhMarkdown": "观察证实了这一点：在美国境内，一个城镇能成为创业中心，当且仅当它同时拥有富人和书呆子。例如，迈阿密几乎没有创业公司，因为虽然那里到处都是富人，但几乎没有书呆子。那不是书呆子喜欢的地方。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "9e6909ac87ff6fa8d5843b84ae88acbd883e4f33fe540d13e7bee70a6b2e112b",
+      "enMarkdown": "Whereas Pittsburgh has the opposite problem: plenty of nerds, but no rich people. The top US Computer Science departments are said to be MIT, Stanford, Berkeley, and Carnegie-Mellon. MIT yielded Route 128. Stanford and Berkeley yielded Silicon Valley. But Carnegie-Mellon? The record skips at that point. Lower down the list, the University of Washington yielded a high-tech community in Seattle, and the University of Texas at Austin yielded one in Austin. But what happened in Pittsburgh? And in Ithaca, home of Cornell, which is also high on the list?",
+      "zhMarkdown": "而匹兹堡则面临相反的问题：有大量的书呆子，但没有富人。美国顶尖的计算机科学系公认是麻省理工学院（MIT）、斯坦福大学、伯克利大学和卡内基梅隆大学（CMU）。MIT 催生了 128 号公路。斯坦福和伯克利催生了硅谷。但是卡内基梅隆呢？记录到这里就中断了。在名单稍靠后的学校中，华盛顿大学在西雅图催生了一个高科技社群，德克萨斯大学奥斯汀分校在奥斯汀也催生了一个。但在匹兹堡发生了什么？在同样名列前茅的康奈尔大学所在地伊萨卡（Ithaca）又发生了什么？"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "c96a7f8b2c6471cdc5d933ba707df444164609510b62f3c747a130fcd4c57e22",
+      "enMarkdown": "I grew up in Pittsburgh and went to college at Cornell, so I can answer for both. The weather is terrible, particularly in winter, and there's no interesting old city to make up for it, as there is in Boston. Rich people don't want to live in Pittsburgh or Ithaca. So while there are plenty of hackers who could start startups, there's no one to invest in them.",
+      "zhMarkdown": "我是在匹兹堡长大、在康奈尔上的大学，所以我可以回答这两个地方的问题。那里的天气太糟糕了，尤其是冬天，而且没有像波士顿那样有趣的老城来弥补这一点。富人不想住在匹兹堡或伊萨卡。因此，虽然有成群结队的黑客可以创办创业公司，但没有人来投资他们。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "75c42ad2ee33dc9abe9d493171ea413f4ca2caec06809999fe1291910fa515f9",
+      "enMarkdown": "**Not Bureaucrats**",
+      "zhMarkdown": "**不能靠官僚**"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "4840a631c7020a0f069a6185dd04c68c4b8a3e9f993a182b2c18230ff75066d8",
+      "enMarkdown": "Do you really need the rich people? Wouldn't it work to have the government invest in the nerds? No, it would not. Startup investors are a distinct type of rich people. They tend to have a lot of experience themselves in the technology business. This (a) helps them pick the right startups, and (b) means they can supply advice and connections as well as money. And the fact that they have a personal stake in the outcome makes them really pay attention.",
+      "zhMarkdown": "你真的需要富人吗？让政府来投资书呆子行不行？不行，行不通。创业投资人是一类特殊的富人。他们自己往往在技术行业拥有丰富的经验。这（a）有助于他们挑选出对的创业公司，（b）意味着他们不仅能提供资金，还能提供建议和人脉。而且，他们在这件事上有切身的利益关系，这让他们会真正倾注注意力。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "5b69a74fe313f7587f971c5a20c1629c767f1296357f27dfa172d468386aa382",
+      "enMarkdown": "Bureaucrats by their nature are the exact opposite sort of people from startup investors. The idea of them making startup investments is comic. It would be like mathematicians running *Vogue*-- or perhaps more accurately, *Vogue* editors running a math journal. [[2](#f2n)]",
+      "zhMarkdown": "官僚从其本质上来说，与创业投资人完全是相反的两类人。让他们来做创业投资的想法简直滑稽。这就像让数学家去运营《Vogue》杂志——或者更准确地说，让《Vogue》的编辑去运营一本数学期刊。[[2](#f2n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "4db3457bbb4eaeee3483c0412ddb1a236c0a7ed235d0059e69748ddabda133a5",
+      "enMarkdown": "Though indeed, most things bureaucrats do, they do badly. We just don't notice usually, because they only have to compete against other bureaucrats. But as startup investors they'd have to compete against pros with a great deal more experience and motivation.",
+      "zhMarkdown": "尽管事实上，官僚们做的大多数事情都很糟糕。我们通常只是没有注意到，因为他们只需要与其他官僚竞争。但作为创业投资人，他们必须与经验丰富得多、动力足得多的专业人士竞争。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "1a55bb7cccb68543dbe4a8236a51c41101d94559c10a307c92e6dcea562b811e",
+      "enMarkdown": "Even corporations that have in-house VC groups generally forbid them to make their own investment decisions. Most are only allowed to invest in deals where some reputable private VC firm is willing to act as lead investor.",
+      "zhMarkdown": "即使是拥有内部风险投资部门的大公司，通常也禁止他们自己做投资决策。大多数部门只被允许投资那些有声誉的私人风险投资机构愿意领投的项目。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "0df0da9dfa3b01e9290e1f78ee221abda4d9abe647426560eaf0cb0f6903307a",
+      "enMarkdown": "**Not Buildings**",
+      "zhMarkdown": "**不能靠盖楼**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "5f956a3920705fc9413e7f5b69357c2988f03085940be91e37e689f5af047bb0",
+      "enMarkdown": "If you go to see Silicon Valley, what you'll see are buildings. But it's the people that make it Silicon Valley, not the buildings. I read occasionally about attempts to set up \"[technology\nparks](http://www.google.com/search?q=technology+park)\" in other places, as if the active ingredient of Silicon Valley were the office space. An article about Sophia Antipolis bragged that companies there included Cisco, Compaq, IBM, NCR, and Nortel. Don't the French realize these aren't startups?",
+      "zhMarkdown": "如果你去参观硅谷，你看到的是一栋栋建筑。但让它成为硅谷的是人，而不是建筑。我偶尔会读到在其他地方建立“[科技园](http://www.google.com/search?q=technology+park)”的尝试，就好像硅谷的活性成分是写字楼空间一样。一篇关于法国索菲亚·安蒂波利斯（Sophia Antipolis）科技园的文章吹嘘说，那里的公司包括思科、康柏、IBM、NCR 和北电。难道法国人没有意识到这些根本不是创业公司吗？"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "1926f97e4c9074a82e5b04e8e537953c926d819a715a5e5daebc1ab08702b77e",
+      "enMarkdown": "Building office buildings for technology companies won't get you a silicon valley, because the key stage in the life of a startup happens before they want that kind of space. The key stage is when they're three guys operating out of an apartment. Wherever the startup is when it gets funded, it will stay. The defining quality of Silicon Valley is not that Intel or Apple or Google have offices there, but that they were *started* there.",
+      "zhMarkdown": "为科技公司盖写字楼是无法让你得到一个硅谷的，因为创业公司生命周期中最关键的阶段，发生在他们需要这种办公空间之前。最关键的阶段是，他们还是三个在公寓里干活的家伙的时候。创业公司在拿到资金时在哪里，它就会留在哪里。硅谷的定义性特征，不在于英特尔、苹果或谷歌在那里设有办公室，而在于它们是在那里*诞生*的。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "86345d8276a7120ccea279ad7e41314a6a0f7386882ec8179825d65ee04e16b7",
+      "enMarkdown": "So if you want to reproduce Silicon Valley, what you need to reproduce is those two or three founders sitting around a kitchen table deciding to start a company. And to reproduce that you need those people.",
+      "zhMarkdown": "所以，如果你想复制硅谷，你需要复制的是两三个创始人坐在厨房桌子旁决定创办一家公司的场景。而要复制这一点，你需要那些人。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "ed27583d7898ae702b35b3677623376c32cafd3afbb7809a7cf89747dd5d2562",
+      "enMarkdown": "**Universities**",
+      "zhMarkdown": "**大学**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "c088d7a79a7303eeda124405138aafeb93c8761e1a0cb8ee42f59b0757c834f6",
+      "enMarkdown": "The exciting thing is, *all* you need are the people. If you could attract a critical mass of nerds and investors to live somewhere, you could reproduce Silicon Valley. And both groups are highly mobile. They'll go where life is good. So what makes a place good to them?",
+      "zhMarkdown": "令人兴奋的是，你*唯一*需要的就是人。如果你能吸引足够数量的书呆子和投资人住在某个地方，你就能复制硅谷。而这两类人群都具有极高的流动性。他们会去生活美好的地方。那么，什么能让一个地方对他们产生吸引力呢？"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "2967ca1dffe93dcc3c54456e869a09e3d44baa731385901fcada5bc7f706f6af",
+      "enMarkdown": "What nerds like is other nerds. Smart people will go wherever other smart people are. And in particular, to great universities. In theory there could be other ways to attract them, but so far universities seem to be indispensable. Within the US, there are no technology hubs without first-rate universities-- or at least, first-rate computer science departments.",
+      "zhMarkdown": "书呆子喜欢的是其他书呆子。聪明人会去其他聪明人聚集的地方。特别是去伟大的大学。理论上可能还有其他吸引他们的方法，但到目前为止，大学似乎是必不可少的。在美国境内，没有一个科技中心是不拥有顶尖大学——或者至少是顶尖计算机科学系的。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "16c95c703455c03cf9ddcea980b27296de2b5f61d6a2de40b7568710e2b63674",
+      "enMarkdown": "So if you want to make a silicon valley, you not only need a university, but one of the top handful in the world. It has to be good enough to act as a magnet, drawing the best people from thousands of miles away. And that means it has to stand up to existing magnets like MIT and Stanford.",
+      "zhMarkdown": "所以如果你想打造一个硅谷，你不仅需要一所大学，而且必须是世界上屈指可数的顶尖大学之一。它必须足够优秀，能够像磁铁一样，将数千英里外的顶尖人才吸引过来。这意味着它必须能与 MIT 和斯坦福这样的现有磁铁抗衡。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "1f8f24143f326395fd171389e4449b0b9aa58f38e9f30115b85f33abc685dbc9",
+      "enMarkdown": "This sounds hard. Actually it might be easy. My professor friends, when they're deciding where they'd like to work, consider one thing above all: the quality of the other faculty. What attracts professors is good colleagues. So if you managed to recruit, en masse, a significant number of the best young researchers, you could create a first-rate university from nothing overnight. And you could do that for surprisingly little. If you paid 200 people hiring bonuses of $3 million apiece, you could put together a faculty that would bear comparison with any in the world. And from that point the chain reaction would be self-sustaining. So whatever it costs to establish a mediocre university, for an additional half billion or so you could have a great one. [[3](#f3n)]",
+      "zhMarkdown": "这听起来很难。实际上可能很容易。我那些当教授的朋友，在决定自己想去哪里工作时，最看重的一点就是：其他教职员工的水平。吸引教授的是优秀的同行。因此，如果你能成批地招募到相当数量的最优秀的年轻研究人员，你就能在一夜之间凭空创造出一所一流的大学。而且你为此付出的代价会低得令人惊讶。如果你给 200 个人每人发放 300 万美元的入职奖金，你就能组建一支可以与世界上任何大学相媲美的师资队伍。从那时起，链式反应就会自我维持。所以，无论建立一所平庸的大学需要多少成本，只要额外加上 5 亿美元左右，你就能拥有一所伟大的大学。[[3](#f3n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "769569503c95da9632bde1a3f624299c1ae11bf24beb0dfe3ff2344b8041a6c6",
+      "enMarkdown": "**Personality**",
+      "zhMarkdown": "**个性**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "c1baa057a35144fc49a64f48fc7e44ceade8c146f2f1f85da005fdc439e7be42",
+      "enMarkdown": "However, merely creating a new university would not be enough to start a silicon valley. The university is just the seed. It has to be planted in the right soil, or it won't germinate. Plant it in the wrong place, and you just create Carnegie-Mellon.",
+      "zhMarkdown": "然而，仅仅创建一所新大学还不足以启动一个硅谷。大学只是种子。它必须播种在合适的土壤里，否则就不会发芽。把它种在错误的地方，你只会创造出另一个卡内基梅隆。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "0e9c7172ed928433472bf4d5761b13a923d9a145bb9df9522f4c4ab23669ccac",
+      "enMarkdown": "To spawn startups, your university has to be in a town that has attractions other than the university. It has to be a place where investors want to live, and students want to stay after they graduate.",
+      "zhMarkdown": "为了孕育创业公司，你的大学必须位于一个除了大学本身之外还有其他吸引力的城镇。它必须是一个投资人想去居住、学生毕业后想留下的地方。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "6df01ae94e84b60fe42b8aff2743873727f32f604edb4534e6477ead6eff180b",
+      "enMarkdown": "The two like much the same things, because most startup investors are nerds themselves. So what do nerds look for in a town? Their tastes aren't completely different from other people's, because a lot of the towns they like most in the US are also big tourist destinations: San Francisco, Boston, Seattle. But their tastes can't be quite mainstream either, because they dislike other big tourist destinations, like New York, Los Angeles, and Las Vegas.",
+      "zhMarkdown": "这两类人喜欢的东西大同小异，因为大多数创业投资人本身也是书呆子。那么，书呆子在一个城镇里寻找什么？他们的品味与其他人并非完全不同，因为他们在美国最喜欢的许多城镇也是著名的旅游胜地：旧金山、波士顿、西雅图。但他们的品味也不能太主流，因为他们不喜欢其他大型旅游胜地，比如纽约、洛杉矶和拉斯维加斯。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "44ea557b459769fa937dbe73b8c3db679d6a3c912cf855ecb441e7628cc4fe64",
+      "enMarkdown": "There has been a lot written lately about the \"creative class.\" The thesis seems to be that as wealth derives increasingly from ideas, cities will prosper only if they attract those who have them. That is certainly true; in fact it was the basis of Amsterdam's prosperity 400 years ago.",
+      "zhMarkdown": "最近有很多关于“创意阶层”的论述。其核心论点似乎是，随着财富越来越多地源于创意，城市只有吸引了那些拥有创意的人，才能繁荣昌盛。这当然是真的；事实上，这正是 400 年前阿姆斯特丹繁荣的基石。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "fd50a783d389b391f130dce41e532b0c352274d6ce977846ff1f9c1f387f1e8a",
+      "enMarkdown": "A lot of nerd tastes they share with the creative class in general. For example, they like well-preserved old neighborhoods instead of cookie-cutter suburbs, and locally-owned shops and restaurants instead of national chains. Like the rest of the creative class, they want to live somewhere with personality.",
+      "zhMarkdown": "书呆子的很多品味与整个创意阶层是相通的。例如，他们喜欢保存完好的老社区，而不是千篇一律的郊区；喜欢本地人开的商店和餐馆，而不是全国连锁店。和创意阶层的其他人一样，他们想住在有个性的地方。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "428f48ce16957945410ab4d678912cba0b3ea9105db6d23b8b21f1924d0a84ad",
+      "enMarkdown": "What exactly is personality? I think it's the feeling that each building is the work of a distinct group of people. A town with personality is one that doesn't feel mass-produced. So if you want to make a startup hub-- or any town to attract the \"creative class\"-- you probably have to ban large development projects. When a large tract has been developed by a single organization, you can always tell. [[4](#f4n)]",
+      "zhMarkdown": "个性到底是什么？我认为这是一种感觉，即每栋建筑都是一个独特群体的作品。一个有个性的城镇，是一个让人觉得不是流水线批量生产的城镇。因此，如果你想打造一个创业中心——或者让任何城镇吸引“创意阶层”——你可能必须禁止大型开发项目。当一大片土地由单一机构开发时，你一眼就能看出来。[[4](#f4n)]"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "f1849d55f4ff6e2d1cb1ae2e594ec523dcc9990bcf9375ba0636858e480903b2",
+      "enMarkdown": "Most towns with personality are old, but they don't have to be. Old towns have two advantages: they're denser, because they were laid out before cars, and they're more varied, because they were built one building at a time. You could have both now. Just have building codes that ensure density, and ban large scale developments.",
+      "zhMarkdown": "大多数有个性的城镇都很古老，但并非必须如此。老城镇有两个优势：它们更密集，因为它们是在汽车出现之前规划的；它们更多样，因为它们是一栋接一栋建筑盖起来的。你现在也可以同时拥有这两点。只需制定确保建筑密度的规划法规，并禁止大规模开发即可。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "a2c3bc63895a1c0d59688adda6e78140537aec3c07fcb87b999e4f55d9a5ef0c",
+      "enMarkdown": "A corollary is that you have to keep out the biggest developer of all: the government. A government that asks \"How can we build a silicon valley?\" has probably ensured failure by the way they framed the question. You don't build a silicon valley; you let one grow.",
+      "zhMarkdown": "一个推论是，你必须把最大的开发商拒之门外：政府。一个问“我们如何建设一个硅谷？”的政府，大概已经通过他们提问的方式注定了失败。你无法建设一个硅谷；你只能让它自己生长。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "2dce09723001261695a7eb4a0f204bee312270f057882e2eafdaad483ec2d435",
+      "enMarkdown": "**Nerds**",
+      "zhMarkdown": "**书呆子**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "80f2ab345b1bf83ffb8c7a25a3f175ae4f8bf71ff07d8f98bbe6ed6a44752bfe",
+      "enMarkdown": "If you want to attract nerds, you need more than a town with personality. You need a town with the right personality. Nerds are a distinct subset of the creative class, with different tastes from the rest. You can see this most clearly in New York, which attracts a lot of creative people, but few nerds. [[5](#f5n)]",
+      "zhMarkdown": "如果你想吸引书呆子，你需要的不仅仅是一个有个性的城镇。你需要一个拥有“正确”个性的城镇。书呆子是创意阶层中一个独特的子集，其品味与其他人不同。你在纽约可以最清楚地看到这一点，纽约吸引了大量的创意人才，但几乎没有书呆子。[[5](#f5n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "826cbf5fe3e7df92539488db57bf402424b089519965c9b99bf324ba91c166eb",
+      "enMarkdown": "What nerds like is the kind of town where people walk around smiling. This excludes LA, where no one walks at all, and also New York, where people walk, but not smiling. When I was in grad school in Boston, a friend came to visit from New York. On the subway back from the airport she asked \"Why is everyone smiling?\" I looked and they weren't smiling. They just looked like they were compared to the facial expressions she was used to.",
+      "zhMarkdown": "书呆子喜欢的是那种人们走在路上会微笑的城镇。这排除了洛杉矶，那里根本没人走路；也排除了纽约，那里人们走路，但不微笑。我在波士顿读研究生时，一个朋友从纽约来拜访我。在从机场回来的地铁上，她问：“为什么大家都在笑？”我看了看，他们并没有笑。只是与她习惯的面部表情相比，他们看起来像是在笑。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "e9437f3eb8c0ee24aa4747563f7ef96b9d1199d3d72be26b23f3699a75be838a",
+      "enMarkdown": "If you've lived in New York, you know where these facial expressions come from. It's the kind of place where your mind may be excited, but your body knows it's having a bad time. People don't so much enjoy living there as endure it for the sake of the excitement. And if you like certain kinds of excitement, New York is incomparable. It's a hub of glamour, a magnet for all the shorter half-life isotopes of style and fame.",
+      "zhMarkdown": "如果你在纽约住过，你就会知道这些面部表情从何而来。在那种地方，你的大脑可能很兴奋，但你的身体知道它正过得很艰苦。人们与其说是享受住在那里，不如说是为了那份兴奋而忍受它。如果你喜欢某种特定的兴奋，纽约是无与伦比的。它是时尚与名望的枢纽，像一块磁铁一样，吸引着所有半衰期较短的风格与名气同位素。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "188c175bf93865044aa05c711067e79ac8de4c8db88e0c25585c371430a53360",
+      "enMarkdown": "Nerds don't care about glamour, so to them the appeal of New York is a mystery. People who like New York will pay a fortune for a small, dark, noisy apartment in order to live in a town where the cool people are really cool. A nerd looks at that deal and sees only: pay a fortune for a small, dark, noisy apartment.",
+      "zhMarkdown": "书呆子不在乎时尚与名望，所以对他们来说，纽约的魅力是一个谜。喜欢纽约的人会花一笔巨资买一间狭小、阴暗、嘈杂的公寓，只为了住在一个酷人真的很酷的城市。书呆子看着这笔交易，只会看到：花一笔巨资买一间狭小、阴暗、嘈杂的公寓。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "c3f21965e3b7418b20e53a5ccc125a8ac9da70f128949b3f8d9b6888662bd530",
+      "enMarkdown": "Nerds *will* pay a premium to live in a town where the smart people are really smart, but you don't have to pay as much for that. It's supply and demand: glamour is popular, so you have to pay a lot for it.",
+      "zhMarkdown": "书呆子*愿意*支付溢价住在一个聪明人真的很聪明的城市，但你不需要为此付那么多钱。这是供求关系决定的：时尚很受欢迎，所以你必须为此付出高昂的代价。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "44308f49d26ac12fdb515fce475f5b331fb52bd5415df9bd5424f1c48e8e3212",
+      "enMarkdown": "Most nerds like quieter pleasures. They like cafes instead of clubs; used bookshops instead of fashionable clothing shops; hiking instead of dancing; sunlight instead of tall buildings. A nerd's idea of paradise is Berkeley or Boulder.",
+      "zhMarkdown": "大多数书呆子喜欢更安静的乐趣。他们喜欢咖啡馆而不是俱乐部；喜欢二手书店而不是时尚服装店；喜欢徒步而不是跳舞；喜欢阳光而不是高楼大厦。书呆子心目中的天堂是伯克利或博尔德（Boulder）。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "d9049ee0b0f1936b0f47a246b568992a24d6b186c14dc3e41bc3176b089cac73",
+      "enMarkdown": "**Youth**",
+      "zhMarkdown": "**年轻**"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "a2aebb2b259f86e8c1f44047709247c3b28d50318193b066f8c0d393a3a25214",
+      "enMarkdown": "It's the young nerds who start startups, so it's those specifically the city has to appeal to. The startup hubs in the US are all young-feeling towns. This doesn't mean they have to be new. Cambridge has the oldest town plan in America, but it feels young because it's full of students.",
+      "zhMarkdown": "创办创业公司的是年轻的书呆子，所以城市必须特别对他们有吸引力。美国的创业中心都是感觉很年轻的城市。这并不意味着它们必须是新城市。剑桥拥有美国最古老的城市规划，但因为它到处都是学生，所以感觉很年轻。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "0c6be62cb435afa607b8ab5201b0559193ee79f2c679c8e63f41d6c719fbd12c",
+      "enMarkdown": "What you can't have, if you want to create a silicon valley, is a large, existing population of stodgy people. It would be a waste of time to try to reverse the fortunes of a declining industrial town like Detroit or Philadelphia by trying to encourage startups. Those places have too much momentum in the wrong direction. You're better off starting with a blank slate in the form of a small town. Or better still, if there's a town young people already flock to, that one.",
+      "zhMarkdown": "如果你想打造一个硅谷，你不能拥有大量现存的、思想保守的人口。试图通过鼓励创业来扭转底特律或费城等衰退工业城市的命运，纯属浪费时间。那些地方在错误的方向上惯性太大了。你最好从一个像小镇这样的空白画卷开始。或者更好的是，如果有一个年轻人已经趋之若鹜的城镇，那就选那一个。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "568b032b8bf3b76e78cd0a3e0df16938f7e3221f71ee24892d457dbece0c2638",
+      "enMarkdown": "The Bay Area was a magnet for the young and optimistic for decades before it was associated with technology. It was a place people went in search of something new. And so it became synonymous with California nuttiness. There's still a lot of that there. If you wanted to start a new fad-- a new way to focus one's \"energy,\" for example, or a new category of things not to eat-- the Bay Area would be the place to do it. But a place that tolerates oddness in the search for the new is exactly what you want in a startup hub, because economically that's what startups are. Most good startup ideas seem a little crazy; if they were obviously good ideas, someone would have done them already.",
+      "zhMarkdown": "在与技术联系在一起之前的几十年里，湾区就已经是吸引年轻和乐观主义者的磁铁了。那是人们去寻找新事物的地方。因此，它成了加州式疯狂的代名词。那里现在依然有很多这种东西。如果你想发起一个新时尚——比如一种专注于个人“能量”的新方法，或者一类不能吃的新食物——湾区就是做这件事的地方。但是，一个在寻找新事物的过程中容忍奇特想法的地方，恰恰是你在创业中心所需要的，因为在经济上，创业公司就是如此。大多数好的创业点子看起来都有点疯狂；如果它们是显而易见的好点子，早就有人做了。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "0aca7105daec809770822aae113f8841e6b4493f0d01e40fc1d0f1953bdccd24",
+      "enMarkdown": "(How many people are going to want computers in their *houses*? What, *another* search engine?)",
+      "zhMarkdown": "（会有多少人想在*家里*放台电脑？什么，*又一个*搜索引擎？）"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "05d163bdce72e6b48cceed37007ff502b3496a596c8c543341cba585cc680694",
+      "enMarkdown": "That's the connection between technology and liberalism. Without exception the high-tech cities in the US are also the most liberal. But it's not because liberals are smarter that this is so. It's because liberal cities tolerate odd ideas, and smart people by definition have odd ideas.",
+      "zhMarkdown": "这就是技术与自由主义之间的联系。毫无例外，美国的高科技城市也是最自由开放的城市。但这并不是因为自由派更聪明。而是因为自由开放的城市能够容忍奇思妙想，而聪明人根据定义就是有奇思妙想的。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "6b239f32c287cd24ebb97bc6e69d3c18d3b400f369185087e07e0787b4a94291",
+      "enMarkdown": "Conversely, a town that gets praised for being \"solid\" or representing \"traditional values\" may be a fine place to live, but it's never going to succeed as a startup hub. The 2004 presidential election, though a disaster in other respects, conveniently supplied us with a county-by-county [map](http://www-personal.umich.edu/~mejn/election/2004/countymaplinearlarge.png) of such places. [[6](#f6n)]",
+      "zhMarkdown": "相反，一个因“稳重”或代表“传统价值”而受到赞誉的城镇，可能是一个生活的好地方，但它永远不会成功成为一个创业中心。2004 年的总统大选虽然在其他方面是一场灾难，但却方便地为我们提供了一张此类地方的县级[地图](http://www-personal.umich.edu/~mejn/election/2004/countymaplinearlarge.png)。[[6](#f6n)]"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "71f329d03f9381e08b4ea17b8eefcac52c23b367dd2136b5d4d6ed598dea9b78",
+      "enMarkdown": "To attract the young, a town must have an intact center. In most American cities the center has been abandoned, and the growth, if any, is in the suburbs. Most American cities have been turned inside out. But none of the startup hubs has: not San Francisco, or Boston, or Seattle. They all have intact centers. [[7](#f7n)] My guess is that no city with a dead center could be turned into a startup hub. Young people don't want to live in the suburbs.",
+      "zhMarkdown": "为了吸引年轻人，城镇必须有一个完整的中心。在大多数美国城市中，中心已被废弃，增长（如果有的话）都在郊区。大多数美国城市都被翻了个底朝天。但创业中心没有一个是这样的：旧金山、波士顿或西雅图都没有。它们都有完整的中心。[[7](#f7n)] 我的猜测是，任何市中心已经死去的城市都不可能变成创业中心。年轻人不想住在郊区。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "0f562513f3ae8021cefb8740c7aecf66a830c753a3d6afca69d32063bb0929ce",
+      "enMarkdown": "Within the US, the two cities I think could most easily be turned into new silicon valleys are Boulder and Portland. Both have the kind of effervescent feel that attracts the young. They're each only a great university short of becoming a silicon valley, if they wanted to.",
+      "zhMarkdown": "在美国境内，我认为最容易被改造成新硅谷的两个城市是博尔德和波特兰。两者都有一种吸引年轻人的蓬勃朝气。如果他们愿意的话，他们距离成为硅谷都只差一所伟大的大学。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "3249e101ee58238fbb68f1e9db971bfb0abe1626e6ac41997e2028416ffc8745",
+      "enMarkdown": "**Time**",
+      "zhMarkdown": "**时间**"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "58aa8a34622316ee0e513fe008691e76ddc8bcb7cf1394b94166960bb28c2b86",
+      "enMarkdown": "A great university near an attractive town. Is that all it takes? That was all it took to make the original Silicon Valley. Silicon Valley traces its origins to William Shockley, one of the inventors of the transistor. He did the research that won him the Nobel Prize at Bell Labs, but when he started his own company in 1956 he moved to Palo Alto to do it. At the time that was an odd thing to do. Why did he? Because he had grown up there and remembered how nice it was. Now Palo Alto is suburbia, but then it was a charming college town-- a charming college town with perfect weather and San Francisco only an hour away.",
+      "zhMarkdown": "一个迷人城镇附近的一所伟大大学。这就是全部所需的吗？这就是打造最初硅谷的全部所需。硅谷的起源可以追溯到晶体管发明者之一威廉·肖克利（William Shockley）。他在贝尔实验室完成了让他获得诺贝尔奖的研究，但当他在 1956 年创办自己的公司时，他搬到了帕罗奥图（Palo Alto）。在当时，这是一个奇特的举动。他为什么这么做？因为他在那里长大，记得那里有多美好。现在帕罗奥图是郊区，但当时它是一个迷人的大学城——一个天气完美、距离旧金山仅一小时路程的迷人大学城。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "8b902b09d548dc04aef2f1d3a72870935209e16b071fdf0341d4d4e5025d39c8",
+      "enMarkdown": "The companies that rule Silicon Valley now are all descended in various ways from Shockley Semiconductor. Shockley was a difficult man, and in 1957 his top people-- \"the traitorous eight\"-- left to start a new company, Fairchild Semiconductor. Among them were Gordon Moore and Robert Noyce, who went on to found Intel, and Eugene Kleiner, who founded the VC firm Kleiner Perkins. Forty-two years later, Kleiner Perkins funded Google, and the partner responsible for the deal was John Doerr, who came to Silicon Valley in 1974 to work for Intel.",
+      "zhMarkdown": "现在统治硅谷的公司在不同程度上都是肖克利半导体公司（Shockley Semiconductor）的后代。肖克利是一个很难相处的人，1957 年，他的核心人员——“八叛徒”——离开并创办了一家新公司，即仙童半导体（Fairchild Semiconductor）。其中包括后来创立英特尔的戈登·摩尔（Gordon Moore）和罗伯特·诺伊斯（Robert Noyce），以及创立风险投资机构 Kleiner Perkins 的尤金·克莱纳（Eugene Kleiner）。42 年后，Kleiner Perkins 资助了谷歌，负责这笔交易的合伙人是约翰·杜尔（John Doerr），他于 1974 年来到硅谷为英特尔工作。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "444ae31df6dd1047a4abb9d6def824d9e41985617591f5f359435ea5f1d1f87a",
+      "enMarkdown": "So although a lot of the newest companies in Silicon Valley don't make anything out of silicon, there always seem to be multiple links back to Shockley. There's a lesson here: startups beget startups. People who work for startups start their own. People who get rich from startups fund new ones. I suspect this kind of organic growth is the only way to produce a startup hub, because it's the only way to grow the expertise you need.",
+      "zhMarkdown": "因此，尽管硅谷许多最新的公司并不用硅制造任何东西，但似乎总能找到多条追溯到肖克利的脉络。这里有一个启示：创业公司催生创业公司。在创业公司工作的人会创办自己的公司。通过创业公司变富的人会资助新的创业公司。我怀疑这种有机增长是产生创业中心的唯一途径，因为这是培养你所需专业知识的唯一方法。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "956dacfad2ac040b4f84401aeff074a5c0e24500973391277c5ffba3cea36126",
+      "enMarkdown": "That has two important implications. The first is that you need time to grow a silicon valley. The university you could create in a couple years, but the startup community around it has to grow organically. The cycle time is limited by the time it takes a company to succeed, which probably averages about five years.",
+      "zhMarkdown": "这有两个重要的含义。第一，你需要时间来培育一个硅谷。大学你可以在几年内建好，但围绕它的创业社群必须有机地成长。周期时间受到一家公司成功所需时间的限制，这可能平均需要五年左右。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "fc5bf1e479e97d3348311460bb8a35638a04e672e3c0d9025b6051c0e0931cc0",
+      "enMarkdown": "The other implication of the organic growth hypothesis is that you can't be somewhat of a startup hub. You either have a self-sustaining chain reaction, or not. Observation confirms this too: cities either have a startup scene, or they don't. There is no middle ground. Chicago has the third largest metropolitan area in America. As a source of startups it's negligible compared to Seattle, number 15.",
+      "zhMarkdown": "有机增长假说的另一个含义是，你不可能“多多少少算是一个”创业中心。你要么拥有一个自维持的链式反应，要么没有。观察也证实了这一点：城市要么有创业氛围，要么没有。没有中间地带。芝加哥是美国第三大都市区。但作为创业公司的发源地，与排名第 15 的西雅图相比，它几乎可以忽略不计。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "aa01c656c867899aacccbc206fdba3888b58cb368bf3e1d4fe7175e4d634d5be",
+      "enMarkdown": "The good news is that the initial seed can be quite small. Shockley Semiconductor, though itself not very successful, was big enough. It brought a critical mass of experts in an important new technology together in a place they liked enough to stay.",
+      "zhMarkdown": "好消息是，最初的种子可以非常小。肖克利半导体虽然自身不是很成功，但已经足够大了。它将重要新技术的关键专家群体聚集在了一个他们足够喜欢、愿意留下来的地方。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "191a11f57ccb7afeb4066fa85da29a5c17a86059cec08a8d12a32d7137f8e365",
+      "enMarkdown": "**Competing**",
+      "zhMarkdown": "**竞争**"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "6b9d713e601509199d325f8cf8df197c7c1c7de999e6378e3f015d2643915051",
+      "enMarkdown": "Of course, a would-be silicon valley faces an obstacle the original one didn't: it has to compete with Silicon Valley. Can that be done? Probably.",
+      "zhMarkdown": "当然，一个想要成为硅谷的地方，面临着一个最初的硅谷不曾面对的障碍：它必须与现有的硅谷竞争。这能做到吗？大概可以。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "d091ce787473404f547f2ea35bc175abc50dcd27fdca04a146cdc0e88d9bf29f",
+      "enMarkdown": "One of Silicon Valley's biggest advantages is its venture capital firms. This was not a factor in Shockley's day, because VC funds didn't exist. In fact, Shockley Semiconductor and Fairchild Semiconductor were not startups at all in our sense. They were subsidiaries-- of Beckman Instruments and Fairchild Camera and Instrument respectively. Those companies were apparently willing to establish subsidiaries wherever the experts wanted to live.",
+      "zhMarkdown": "硅谷最大的优势之一是其风险投资机构。在肖克利的时代，这不是一个因素，因为当时还没有风险投资基金。事实上，肖克利半导体和仙童半导体在我们今天看来根本不是创业公司。它们分别是贝克曼仪器（Beckman Instruments）和仙童相机与仪器（Fairchild Camera and Instrument）的子公司。这些公司显然愿意在专家想住的任何地方建立子公司。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "93dfeeca0820de7d4845cd3658a94811ac94aa25923b396c85f304aec6ebf12e",
+      "enMarkdown": "Venture investors, however, prefer to fund startups within an hour's drive. For one, they're more likely to notice startups nearby. But when they do notice startups in other towns they prefer them to move. They don't want to have to travel to attend board meetings, and in any case the odds of succeeding are higher in a startup hub.",
+      "zhMarkdown": "然而，风险投资人更喜欢资助一小时车程以内的创业公司。一方面，他们更容易注意到附近的创业公司。但当他们注意到其他城镇的创业公司时，他们更希望它们搬过来。他们不想为了参加董事会而四处奔波，而且无论如何，在创业中心成功的概率更高。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "266b9e948ac153c43bce782ee2515195f777d8bf5fa35bc92c3c68753976f958",
+      "enMarkdown": "The centralizing effect of venture firms is a double one: they cause startups to form around them, and those draw in more startups through acquisitions. And although the first may be weakening because it's now so cheap to start some startups, the second seems as strong as ever. Three of the most admired \"Web 2.0\" companies were started outside the usual startup hubs, but two of them have already been reeled in through acquisitions.",
+      "zhMarkdown": "风险投资机构的集聚效应是双重的：它们促使创业公司在它们周围形成，而这些公司又通过收购吸引更多的创业公司。虽然第一点可能正在减弱，因为现在创办某些创业公司的成本非常低，但第二点似乎依然强大。三家最受赞誉的“Web 2.0”公司是在通常的创业中心之外创办的，但其中两家已经通过收购被拉拢进去了。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "7764956aa14e3d07d3ec4e846e897fa8a8c9c4ba335cafecc0863002465dacd7",
+      "enMarkdown": "Such centralizing forces make it harder for new silicon valleys to get started. But by no means impossible. Ultimately power rests with the founders. A startup with the best people will beat one with funding from famous VCs, and a startup that was sufficiently successful would never have to move. So a town that could exert enough pull over the right people could resist and perhaps even surpass Silicon Valley.",
+      "zhMarkdown": "这种集聚力量使得新的硅谷更难起步。但绝非不可能。最终的力量掌握在创始人手中。一个拥有最优秀人才的创业公司，会击败一个获得著名风投资助的创业公司，而且一个足够成功的创业公司永远不需要搬家。因此，一个能够对合适的人产生足够吸引力的城镇，可以抵御甚至可能超越硅谷。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "63889db13f719d823a17075c2de1baac524eb6c1c0e06441eaadb8555f91415e",
+      "enMarkdown": "For all its power, Silicon Valley has a great weakness: the paradise Shockley found in 1956 is now one giant parking lot. San Francisco and Berkeley are great, but they're forty miles away. Silicon Valley proper is soul-crushing suburban [sprawl](http://www.flickr.com/photos/caterina/34637/). It has fabulous weather, which makes it significantly better than the soul-crushing sprawl of most other American cities. But a competitor that managed to avoid sprawl would have real leverage. All a city needs is to be the kind of place the next traitorous eight look at and say \"I want to stay here,\" and that would be enough to get the chain reaction started.",
+      "zhMarkdown": "尽管硅谷如此强大，它也有一个巨大的弱点：肖克利在 1956 年发现的天堂，现在已经变成了一个巨大的停车场。旧金山和伯克利很棒，但它们在 40 英里之外。真正的硅谷是令人窒息的郊区[扩张](http://www.flickr.com/photos/caterina/34637/)。它拥有极佳的天气，这使得它明显好于大多数其他美国城市令人窒息的郊区扩张。但是，一个成功避免了无序扩张的竞争对手将拥有真正的杠杆。一个城市所需要的，只是成为下一个八叛徒看一眼并说“我想站在这里”的地方，这就足以让链式反应启动了。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "d27937481a103af4458bbd74fd235108976699e708a9f94678a301ff95893915",
+      "enMarkdown": "[1] It's interesting to consider how low this number could be made. I suspect five hundred would be enough, even if they could bring no assets with them. Probably just thirty, if I could pick them, would be enough to turn Buffalo into a significant startup hub.",
+      "zhMarkdown": "[1] 思考这个数字最低可以降到多少是很有趣的。我怀疑 500 人就足够了，即使他们不能带任何资产。如果由我来挑选，可能只需要 30 人就足以让布法罗成为一个重要的创业中心。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "e1b9dd93c5c2db68b4da217fe910d40c7c32ea280925b4270e965392ccba8458",
+      "enMarkdown": "[2] Bureaucrats manage to allocate research funding moderately well, but only because (like an in-house VC fund) they outsource most of the work of selection. A professor at a famous university who is highly regarded by his peers will get funding, pretty much regardless of the proposal. That wouldn't work for startups, whose founders aren't sponsored by organizations, and are often unknowns.",
+      "zhMarkdown": "[2] 官僚们在分配研究经费方面做得还算不错，但那只是因为（就像内部风险投资基金一样）他们把大部分筛选工作外包了出去。一位在著名大学、深受同行好评的教授，几乎不管提交什么提案，都会获得资助。这在创业公司是行不通的，因为创业公司的创始人没有机构赞助，而且往往是无名之辈。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "001ad949531e9a1df717a1f4562a1556cbcaeda9b7a8cca3abaea1ff73e2fbc0",
+      "enMarkdown": "[3] You'd have to do it all at once, or at least a whole department at a time, because people would be more likely to come if they knew their friends were. And you should probably start from scratch, rather than trying to upgrade an existing university, or much energy would be lost in friction.",
+      "zhMarkdown": "[3] 你必须一次性完成，或者至少一次完成一个完整的系，因为如果人们知道他们的朋友也会来，他们就更有可能来。而且你可能应该从头开始，而不是试图升级一所现有的大学，否则很多精力会在内耗中损失掉。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "967aa946465062479b772072d815dca094c0eb24a5e87ab73acd62809a7cbcba",
+      "enMarkdown": "[4] Hypothesis: Any plan in which multiple independent buildings are gutted or demolished to be \"redeveloped\" as a single project is a net loss of personality for the city, with the exception of the conversion of buildings not previously public, like warehouses.",
+      "zhMarkdown": "[4] 假说：任何将多个独立建筑拆除或掏空并作为单一项目进行“重新开发”的计划，对城市个性来说都是净损失，但将以前不对公众开放的建筑（如仓库）进行改造除外。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "c4966a9f3d0a8924990c213d1ea773b4c13621aa0cf0c0b2defe57e0eaa59e29",
+      "enMarkdown": "[5] A few startups get started in New York, but less than a tenth as many per capita as in Boston, and mostly in less nerdy fields like finance and media.",
+      "zhMarkdown": "[5] 纽约也有一些创业公司起步，但人均数量不到波士顿的十分之一，而且主要集中在金融和媒体等不那么偏技术极客的领域。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "4741727425b93e59dd5a9fc93018373888c49a61192db28af03a0954b9439e2f",
+      "enMarkdown": "[6] Some blue counties are false positives (reflecting the remaining power of Democractic party machines), but there are no false negatives. You can safely write off all the red counties.",
+      "zhMarkdown": "[6] 一些蓝色选区的县是假阳性（反映了民主党党派机器残存的力量），但没有假阴性。你可以放心地把所有红色选区的县排除在外。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "9383fa92d6c6d14156e61be11bae9d9af7be6c88c232fce6cde6f5537d0d027f",
+      "enMarkdown": "[7] Some \"urban renewal\" experts took a shot at destroying Boston's in the 1960s, leaving the area around city hall a bleak [wasteland](http://www.pps.org/great_public_spaces/one?public_place_id=148), but most neighborhoods successfully resisted them.",
+      "zhMarkdown": "[7] 20 世纪 60 年代，一些“城市更新”专家曾试图摧毁波士顿的市中心，使市政厅周围的区域变成了一片荒凉的[废墟](http://www.pps.org/great_public_spaces/one?public_place_id=148)，但大多数社区成功地抵制了他们。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "60f75ff3c3518255dee15b51dcbaccbe818153d0265594dc06cdb57aa7340c80",
+      "enMarkdown": "**Thanks** to Chris Anderson, Trevor Blackwell, Marc Hedlund, Jessica Livingston, Robert Morris, Greg Mcadoo, Fred Wilson, and Stephen Wolfram for reading drafts of this, and to Ed Dumbill for inviting me to speak.",
+      "zhMarkdown": "**感谢** Chris Anderson、Trevor Blackwell、Marc Hedlund、Jessica Livingston、Robert Morris、Greg Mcadoo、Fred Wilson 和 Stephen Wolfram 阅读了本文的草稿，并感谢 Ed Dumbill 邀请我做演讲。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "733a106e19174589cdea4a4984d6f29c0673506953a7f03139e039971778412b",
+      "enMarkdown": "(The second part of this talk became [Why Startups\nCondense in America](https://paulgraham.com/america.html).)",
+      "zhMarkdown": "（本次演讲的第二部分演变成了《[为什么创业公司在美国扎堆](https://paulgraham.com/america.html)》一文。）"
+    }
+  ]
+}

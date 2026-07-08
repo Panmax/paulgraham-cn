@@ -1,0 +1,426 @@
+{
+  "slug": "good",
+  "titleEn": "Be Good",
+  "titleZh": "向善",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 137,
+  "sourceUrl": "https://paulgraham.com/good.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "3645794721803322cd4eb32114b6fe0d4e5a25d64a0c1918a130147a428aa263",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/be-good-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/be-good-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "8cf2fd282cd9e296b12c97ff52ce8b191fb3da90acda8f7fe750570b24c7e4fd",
+      "enMarkdown": "April 2008",
+      "zhMarkdown": "2008 年 4 月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "e46bf7daee293b01b40ff86644e76b504d2629ff7627ceebe4746fc2612823ea",
+      "enMarkdown": "*(This essay is derived from a talk at the 2008 Startup School.)*",
+      "zhMarkdown": "*（本文根据作者在 2008 年创业学校（Startup School）上的演讲整理而成。）*"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "12d5152e4103780b9ca52755d716629b94c056e73c6ee561cc756f3e5766c05c",
+      "enMarkdown": "About a month after we started Y Combinator we came up with the phrase that became our motto: Make something people want. We've learned a lot since then, but if I were choosing now that's still the one I'd pick.",
+      "zhMarkdown": "在创立 Y Combinator 大约一个月后，我们想出了后来成为我们座右铭的那句话：做出人们想要的东西（Make something people want）。从那时起我们学到了很多，但如果现在让我重新选择，我依然会选这句。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "faad342c13d4036c0ce919a962a6fa97e83b3a988db255bbf69b4e393acee46f",
+      "enMarkdown": "Another thing we tell founders is not to worry too much about the business model, at least at first. Not because making money is unimportant, but because it's so much easier than building something great.",
+      "zhMarkdown": "我们告诉创始人的另一件事是，至少在起步阶段，不要太担心商业模式。这倒不是因为赚钱不重要，而是因为赚钱比做出伟大的产品要容易得多。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d4289342286098a207556a19efb633f35fe6eb5f0ad289cee2507264fe7729b4",
+      "enMarkdown": "A couple weeks ago I realized that if you put those two ideas together, you get something surprising. Make something people want. Don't worry too much about making money. What you've got is a description of a charity.",
+      "zhMarkdown": "几个星期前，我意识到如果把这两个想法放在一起，会得出一个令人惊讶的结论。做出人们想要的东西。不要太担心赚钱。这听起来简直就是在描述一家慈善机构。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "2306442ca73bbd0c626f2490e523ddf00dfd9cebea30ff04c64d895978d948c8",
+      "enMarkdown": "When you get an unexpected result like this, it could either be a bug or a new discovery. Either businesses aren't supposed to be like charities, and we've proven by reductio ad absurdum that one or both of the principles we began with is false. Or we have a new idea.",
+      "zhMarkdown": "当你得到这样一个出乎意料的结果时，它要么是个 Bug，要么是个新发现。要么是企业本就不该像慈善机构，而我们通过反证法证明了最初的某一个或两个原则是错误的。要么，就是我们有了一个新想法。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "a5011dda55b1d670814b841bea40590216e72d7a38fe1291c3a5dfff39f9a080",
+      "enMarkdown": "I suspect it's the latter, because as soon as this thought occurred to me, a whole bunch of other things fell into place.",
+      "zhMarkdown": "我怀疑是后者。因为我一旦产生了这个念头，其他许多事情就立刻说得通了。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "7177838a55ab10302437af1090b2a35553b99e9c418a21335a13538d059bc67d",
+      "enMarkdown": "**Examples**",
+      "zhMarkdown": "**案例**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e2a580ab0ae9617ebcb179369ff80e437f5cebea2107d09f1c151a5a3b980123",
+      "enMarkdown": "For example, Craigslist. It's not a charity, but they run it like one. And they're astoundingly successful. When you scan down the list of most popular web sites, the number of employees at Craigslist looks like a misprint. Their revenues aren't as high as they could be, but most startups would be happy to trade places with them.",
+      "zhMarkdown": "比如 Craigslist。它不是慈善机构，但他们像经营慈善机构一样经营它。而且他们取得了惊人的成功。当你浏览最受欢迎的网站列表时，Craigslist 的员工人数少得就像印错了。他们的收入虽然没有达到本可以达到的高度，但大多数创业公司都会乐意与他们互换处境。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7eb4245486b589f7857135610f5674234a04df76c532ee1295617a8a81bab15d",
+      "enMarkdown": "In Patrick O'Brian's novels, his captains always try to get upwind of their opponents. If you're upwind, you decide when and if to engage the other ship. Craigslist is effectively upwind of enormous revenues. They'd face some challenges if they wanted to make more, but not the sort you face when you're tacking upwind, trying to force a crappy product on ambivalent users by spending ten times as much on sales as on development. [[1](#f1n)]",
+      "zhMarkdown": "在帕特里克·奥布莱恩（Patrick O'Brian）的小说中，船长们总是试图占据对手的上风（迎风位）。如果你处于上风，你就能决定何时以及是否与对方交战。Craigslist 实际上正处于坐拥巨额收入的上风。如果他们想赚更多钱，他们会面临一些挑战，但绝对不是那种逆风航行、靠花在销售上的钱比研发多十倍来把烂产品强推给犹豫不决的用户时所面临的挑战。[[1](#f1n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "1cb79710bd0d32ddfeea432f361da1155527333d775f1621215597aabd3b615e",
+      "enMarkdown": "I'm not saying startups should aim to end up like Craigslist. They're a product of unusual circumstances. But they're a good model for the early phases.",
+      "zhMarkdown": "我并不是说创业公司应该把成为 Craigslist 作为终极目标。他们是特殊环境下的产物。但对于早期阶段来说，他们是一个很好的榜样。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "28780485c3d7e141a1b43bae5512192ce0f9717efb225e6a10f2bb567918dfa9",
+      "enMarkdown": "Google looked a lot like a charity in the beginning. They didn't have ads for over a year. At year 1, Google was indistinguishable from a nonprofit. If a nonprofit or government organization had started a project to index the web, Google at year 1 is the limit of what they'd have produced.",
+      "zhMarkdown": "谷歌在起步阶段看起来也很像一家慈善机构。他们有一年多的时间没有投放广告。在第一年，谷歌与非营利组织毫无二致。如果某个非营利组织或政府机构启动一个索引互联网的项目，第一年的谷歌就是他们所能做到的极限了。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "2f6632b1b499dce3712f1d7384a1f9c0f50c4e3214dc33939bf80c8db0369e13",
+      "enMarkdown": "Back when I was working on spam filters I thought it would be a good idea to have a web-based email service with good spam filtering. I wasn't thinking of it as a company. I just wanted to keep people from getting spammed. But as I thought more about this project, I realized it would probably have to be a company. It would cost something to run, and it would be a pain to fund with grants and donations.",
+      "zhMarkdown": "当年我在研究垃圾邮件过滤器时，我觉得做一个带有优秀垃圾邮件过滤功能的网页版邮箱服务会是个好主意。我当时并没想过把它做成一家公司，只是想让人们免受垃圾邮件的骚扰。但随着我对这个项目思考的深入，我意识到它可能必须得是一家公司。因为运行它需要成本，而靠资助和捐赠来维持会非常痛苦。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "684c15677a439fddab34429842ff138f1862dcd90137b37264b3bc9a0f97db83",
+      "enMarkdown": "That was a surprising realization. Companies often claim to be benevolent, but it was surprising to realize there were purely benevolent projects that had to be embodied as companies to work.",
+      "zhMarkdown": "这是一个令人惊讶的发现。公司经常声称自己是造福社会的，但令人惊讶的是，有些纯粹造福社会的项目，必须以公司的形式存在才能运转下去。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "2d8bb5c82bb2414462a03ce8f77fa67a0f8b2e5d519835683effbd3ea530ad79",
+      "enMarkdown": "I didn't want to start another company, so I didn't do it. But if someone had, they'd probably be quite rich now. There was a window of about two years when spam was increasing rapidly but all the big email services had terrible filters. If someone had launched a new, spam-free mail service, users would have flocked to it.",
+      "zhMarkdown": "我不想再开一家公司，所以我没去做。但如果有人做了，他们现在可能会非常富有。当时有大约两年的窗口期，垃圾邮件增长迅速，但所有大型邮箱服务的过滤器都糟糕透顶。如果有人推出一个全新的、没有垃圾邮件的邮箱服务，用户会蜂拥而至。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "64811980ac051d979beb8bd404d36808f16206e18c2e459e6dadf4acb3a095a4",
+      "enMarkdown": "Notice the pattern here? From either direction we get to the same spot. If you start from successful startups, you find they often behaved like nonprofits. And if you start from ideas for nonprofits, you find they'd often make good startups.",
+      "zhMarkdown": "注意到这里的规律了吗？无论从哪个方向出发，我们都会到达同一个地方。如果你从成功的创业公司出发，你会发现它们最初的行为往往像非营利组织。而如果你从非营利组织的想法出发，你会发现它们往往能成为优秀的创业公司。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "041c40f1c55c842f8af52a1d1910680d0ccf6a0f61e1575c6001064d492f1e53",
+      "enMarkdown": "**Power**",
+      "zhMarkdown": "**力量**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "993a79049ac01a64a900abd8de0bef9fcfbc9223c6d29648288aa3d6fa77a350",
+      "enMarkdown": "How wide is this territory? Would all good nonprofits be good companies? Possibly not. What makes Google so valuable is that their users have money. If you make people with money love you, you can probably get some of it. But could you also base a successful startup on behaving like a nonprofit to people who don't have money? Could you, for example, grow a successful startup out of curing an unfashionable but deadly disease like malaria?",
+      "zhMarkdown": "这个领域的边界有多宽？是不是所有优秀的非营利组织都能成为优秀的公司？可能并非如此。谷歌之所以如此有价值，是因为他们的用户有钱。如果你能让有钱人爱上你，你大概就能赚到一些钱。但是，你能不能通过对没钱的人表现得像个非营利组织，来建立一家成功的创业公司呢？例如，你能不能通过治愈像疟疾这样冷门但致命的疾病，从而发展出一家成功的创业公司？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "8524636668ffb63dd523eab3687478626ae3efc298fa220d7144a6e759b471a3",
+      "enMarkdown": "I'm not sure, but I suspect that if you pushed this idea, you'd be surprised how far it would go. For example, people who apply to Y Combinator don't generally have much money, and yet we can profit by helping them, because with our help they could make money. Maybe the situation is similar with malaria. Maybe an organization that helped lift its weight off a country could benefit from the resulting growth.",
+      "zhMarkdown": "我不确定，但我怀疑如果你把这个想法推向极致，你会惊讶于它能走多远。例如，申请 Y Combinator 的人通常没有多少钱，但我们通过帮助他们可以获得回报，因为在我们的帮助下他们能够赚到钱。也许疟疾的情况也类似。也许一个帮助某个国家减轻这种负担的组织，能够从随之而来的经济增长中获益。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "c239d56dfcf30d86297ac3d677245be0a4c68dcbc87ebfc57b58d0d6ec0cd651",
+      "enMarkdown": "I'm not proposing this is a serious idea. I don't know anything about malaria. But I've been kicking ideas around long enough to know when I come across a powerful one.",
+      "zhMarkdown": "我并不是说这是一个深思熟虑的方案，我对疟疾一无所知。但我琢磨各种想法的时间已经足够长了，长到当我遇到一个强大的想法时，我能一眼认出来。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "8a3bd2d6be059b0a2c8789d69252abedd85381020db197bbfe4f66ae3cfb6de2",
+      "enMarkdown": "One way to guess how far an idea extends is to ask yourself at what point you'd bet against it. The thought of betting against benevolence is alarming in the same way as saying that something is technically impossible. You're just asking to be made a fool of, because these are such powerful forces. [[2](#f2n)]",
+      "zhMarkdown": "预测一个想法能延伸多远的一种方法是，问问自己在什么节点上你敢赌它会输。赌“向善”会输这个念头是令人警惕的，就像说某件事在技术上不可能一样。你这纯粹是在自讨没趣，因为这些都是极其强大的力量。[[2](#f2n)]"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "d72abb9fa0ff85eb227a77dd6494384601f581672a6f54ad85903b95a250b020",
+      "enMarkdown": "For example, initially I thought maybe this principle only applied to Internet startups. Obviously it worked for Google, but what about Microsoft? Surely Microsoft isn't benevolent? But when I think back to the beginning, they were. Compared to IBM they were like Robin Hood. When IBM introduced the PC, they thought they were going to make money selling hardware at high prices. But by gaining control of the PC standard, Microsoft opened up the market to any manufacturer. Hardware prices plummeted, and lots of people got to have computers who couldn't otherwise have afforded them. It's the sort of thing you'd expect Google to do.",
+      "zhMarkdown": "例如，起初我以为这个原则只适用于互联网创业公司。显然它对谷歌有效，但微软呢？微软总不至于算得上是善良吧？但当我回想它的起步阶段，他们确实是。与 IBM 相比，他们就像罗宾汉。当 IBM 推出个人电脑（PC）时，他们想的是通过高价销售硬件来赚钱。但通过掌控 PC 标准，微软向所有制造商开放了市场。硬件价格暴跌，许多原本买不起电脑的人也用上了电脑。这正是你期待谷歌会做的那种事。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "e42d14eb7373752be8d15f5d1ef7d6c04df9a64356efe839292e8eb94ba82310",
+      "enMarkdown": "Microsoft isn't so benevolent now. Now when one thinks of what Microsoft does to users, all the verbs that come to mind begin with F. [[3](#f3n)] And yet it doesn't seem to pay. Their stock price has been flat for years. Back when they were Robin Hood, their stock price rose like Google's. Could there be a connection?",
+      "zhMarkdown": "微软现在没那么善良了。现在一想到微软对用户做的事，脑海里浮现的动词大多都不太雅观。[[3](#f3n)] 然而这似乎并没有带来好报。他们的股价已经停滞不前好几年了。当年他们还是罗宾汉的时候，股价就像谷歌一样一路飙升。这之间难道没有联系吗？"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "318a8cd3a04ca1cc4354694f3be37b965d3c64b1286255b895db4c6b64c3d52d",
+      "enMarkdown": "You can see how there would be. When you're small, you can't bully customers, so you have to charm them. Whereas when you're big you can maltreat them at will, and you tend to, because it's easier than satisfying them. You grow big by being nice, but you can stay big by being mean.",
+      "zhMarkdown": "你能看出其中必然有联系。当你还弱小时，你无法欺负客户，所以你必须讨好他们。而当你变大时，你可以随意虐待他们，而且你往往会这么做，因为这比取悦他们要容易得多。你通过友善而变大，但你可以通过刻薄而保持庞大。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "d573db4e90ab902cdd5769ea3d6c7680ecb66af91ff7125601bf17c6825b982f",
+      "enMarkdown": "You get away with it till the underlying conditions change, and then all your victims escape. So \"Don't be evil\" may be the most valuable thing Paul Buchheit made for Google, because it may turn out to be an elixir of corporate youth. I'm sure they find it constraining, but think how valuable it will be if it saves them from lapsing into the fatal laziness that afflicted Microsoft and IBM.",
+      "zhMarkdown": "你可以一直得逞，直到底层环境发生变化，然后你所有的受害者都会逃跑。因此，“不作恶”（Don't be evil）可能是保罗·布赫海特（Paul Buchheit）为谷歌创造的最有价值的东西，因为它可能会成为保持企业年轻的灵药。我相信他们觉得这是一种约束，但想想看，如果这能让他们免于陷入困扰微软和 IBM 的致命惰性，那将是多么有价值。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "07fef92861e70dfb7a6067b4f49e5406d72ae40fa6c3dd78316e02ab42acd8dc",
+      "enMarkdown": "The curious thing is, this elixir is freely available to any other company. Anyone can adopt \"Don't be evil.\" The catch is that people will hold you to it. So I don't think you're going to see record labels or tobacco companies using this discovery.",
+      "zhMarkdown": "奇妙的是，这种灵药对任何其他公司都是免费开放的。任何人都可以采用“不作恶”。但问题是，人们会以此来要求你。所以我觉得你大概不会看到唱片公司或烟草公司使用这个发现。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "6c4e22ef675d23ca41e2691945a454474784aa0026e9f3d16cdd24a4391f4f7b",
+      "enMarkdown": "**Morale**",
+      "zhMarkdown": "**士气**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "182505870f9b8abcd2489ab27e71378b61a09134b174c2c46e3625fe499321cb",
+      "enMarkdown": "There's a lot of external evidence that benevolence works. But how does it work? One advantage of investing in a large number of startups is that you get a lot of data about how they work. From what we've seen, being good seems to help startups in three ways: it improves their morale, it makes other people want to help them, and above all, it helps them be decisive.",
+      "zhMarkdown": "有大量的外部证据表明，向善是行之有效的。但它是如何起作用的呢？投资大量创业公司的一个好处是，你能获得大量关于它们如何运作的数据。根据我们的观察，保持善良似乎在三个方面对创业公司有所帮助：它能提高士气，它能让其他人想要帮助他们，最重要的是，它能帮助他们做出果断的决策。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "9f4ae32e6ca54ede480f10005c8b8af289987d07328051aa852ce0aac7d72bff",
+      "enMarkdown": "Morale is tremendously important to a startup—so important that morale alone is almost enough to determine success. Startups are often described as emotional roller-coasters. One minute you're going to take over the world, and the next you're doomed. The problem with feeling you're doomed is not just that it makes you unhappy, but that it makes you *stop working*. So the downhills of the roller-coaster are more of a self fulfilling prophecy than the uphills. If feeling you're going to succeed makes you work harder, that probably improves your chances of succeeding, but if feeling you're going to fail makes you stop working, that practically guarantees you'll fail.",
+      "zhMarkdown": "士气对创业公司来说极其重要——重要到仅凭士气就几乎足以决定成败。创业公司常常被描述为情感的过山车。这一分钟你觉得自己要征服世界，下一分钟你就觉得自己完蛋了。觉得完蛋的坏处不仅在于让你不开心，更在于它会让你*停止工作*。因此，过山车的下坡路比上坡路更容易成为一种自我实现的预言。如果觉得会成功让你工作更努力，那可能会增加你成功的机会；但如果觉得会失败让你停止工作，那几乎保证了你一定会失败。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "d80cfddaa62e67f8da86320f03643892b965988f5869ac2491c5e009759a8466",
+      "enMarkdown": "Here's where benevolence comes in. If you feel you're really helping people, you'll keep working even when it seems like your startup is doomed. Most of us have some amount of natural benevolence. The mere fact that someone needs you makes you want to help them. So if you start the kind of startup where users come back each day, you've basically built yourself a giant tamagotchi. You've made something you need to take care of.",
+      "zhMarkdown": "这就是向善发挥作用的地方。如果你觉得你真的在帮助别人，即使在你的创业公司看似无望的时候，你也会继续工作。我们大多数人都有一定程度的天生善意。有人需要你这一事实本身就会让你想要帮助他们。所以，如果你创办了一家用户每天都会回访的创业公司，你基本上就为自己建立了一个巨大的电子宠物。你创造了一个你需要照顾的东西。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "986afcc170dcf697fcc9c36adbc67a6eb8e6c202a7cb869279e46dbe4fef2ef5",
+      "enMarkdown": "Blogger is a famous example of a startup that went through really low lows and survived. At one point they ran out of money and everyone left. Evan Williams came in to work the next day, and there was no one but him. What kept him going? Partly that users needed him. He was hosting thousands of people's blogs. He couldn't just let the site die.",
+      "zhMarkdown": "Blogger 是一个著名的创业公司经历极度低谷并生存下来的例子。有一次他们资金链断裂，所有人都离开了。第二天埃文·威廉姆斯（Evan Williams）来上班时，办公室里只有他一个人。是什么支撑着他走下去？部分原因在于用户需要他。他托管着成千上万人的博客，他不能就这么让网站死掉。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "ba342eb0df7977b7410f3f0b119855e4fee552cacd91a2c784aa54e44f42d8d1",
+      "enMarkdown": "There are many advantages of launching quickly, but the most important may be that once you have users, the tamagotchi effect kicks in. Once you have users to take care of, you're forced to figure out what will make them happy, and that's actually very valuable information.",
+      "zhMarkdown": "快速发布产品有很多好处，但最重要的可能是：一旦有了用户，电子宠物效应就会启动。一旦有了需要照顾的用户，你就会被迫去弄清楚什么能让他们开心，而这实际上是非常有价值的信息。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "fea5b733b7f68e24a02ee75a3ed64314b0206e890f9e6ffc8a72277ae58533db",
+      "enMarkdown": "The added confidence that comes from trying to help people can also help you with investors. One of the founders of [Chatterous](http://chatterous.com) told me recently that he and his cofounder had decided that this service was something the world needed, so they were going to keep working on it no matter what, even if they had to move back to Canada and live in their parents' basements.",
+      "zhMarkdown": "源于想要帮助别人的额外信心，也能帮你应对投资人。[Chatterous](http://chatterous.com) 的一位创始人最近告诉我，他和他的合伙人认定这项服务是世界所需要的，所以无论如何他们都会继续做下去，哪怕必须搬回加拿大，住在父母的地下室里。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "6ae8ab3dd454fd5a76047f3e3a395ca665aede3131b985efb4bc4769319daf58",
+      "enMarkdown": "Once they realized this, they stopped caring so much what investors thought about them. They still met with them, but they weren't going to die if they didn't get their money. And you know what? The investors got a lot more interested. They could sense that the Chatterouses were going to do this startup with or without them.",
+      "zhMarkdown": "一旦他们意识到这一点，他们就不再那么在乎投资人怎么看他们了。他们依然去见投资人，但即使拿不到钱，他们也不会死掉。你猜怎么着？投资人反而对他们更感兴趣了。投资人能感觉到，无论有没有他们，Chatterous 都会把这个创业公司做下去。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "53fd2280caa7d38152bc26224d1852c48e029ebea2864b3110c6557aba71eaff",
+      "enMarkdown": "If you're really committed and your startup is cheap to run, you become very hard to kill. And practically all startups, even the most successful, come close to death at some point. So if doing good for people gives you a sense of mission that makes you harder to kill, that alone more than compensates for whatever you lose by not choosing a more selfish project.",
+      "zhMarkdown": "如果你真的全身心投入，且你的创业公司运营成本很低，你就变得极难被杀死。而实际上，所有的创业公司，即使是最成功的那些，都在某些时刻接近过死亡。因此，如果为人们做好事能给你一种使命感，让你变得更难被杀死，单凭这一点，就足以弥补你因没有选择一个更自私的项目而失去的一切。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "8af7103320cd320a96cca2e16180aff1dfb43a73651b5e3f1a4c1400630bca03",
+      "enMarkdown": "**Help**",
+      "zhMarkdown": "**帮助**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "1ad1cabb832c2c181f3852d3af3abaaff6172e3649f070da9ebb96a24b4340ba",
+      "enMarkdown": "Another advantage of being good is that it makes other people want to help you. This too seems to be an inborn trait in humans.",
+      "zhMarkdown": "善良的另一个好处是它会让其他人想要帮助你。这似乎也是人类与生俱来的特质。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "41d46df7f46db64c790939c192e8583e446223879809361646415cb4d0fb1851",
+      "enMarkdown": "One of the startups we've funded, [Octopart](http://octopart.com), is currently locked in a classic battle of good versus evil. They're a search site for industrial components. A lot of people need to search for components, and before Octopart there was no good way to do it. That, it turned out, was no coincidence.",
+      "zhMarkdown": "我们投资过的一家创业公司 [Octopart](http://octopart.com)，目前正陷入一场经典的善恶对决。他们是一个工业元器件的搜索网站。很多人需要搜索元器件，而在 Octopart 出现之前，没有好的方法可以做到。事实证明，这并非巧合。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "4c455d5926c36eaea1ed628a384bfcc5104a0272444b6b321b962d41382044e1",
+      "enMarkdown": "Octopart built the right way to search for components. Users like it and they've been growing rapidly. And yet for most of Octopart's life, the biggest distributor, Digi-Key, has been trying to force them take their prices off the site. Octopart is sending them customers for free, and yet Digi-Key is trying to make that traffic stop. Why? Because their current business model depends on overcharging people who have incomplete information about prices. They don't want search to work.",
+      "zhMarkdown": "Octopart 建立了正确的元器件搜索方式。用户很喜欢，他们的流量也一直在快速增长。然而，在 Octopart 成立至今的大部分时间里，最大的分销商 Digi-Key 一直在试图强迫他们把价格从网站上撤下来。Octopart 正在免费给他们输送客户，但 Digi-Key 却试图阻止这种流量。为什么？因为他们目前的商业模式依赖于对那些掌握不完整价格信息的人收取高价。他们不希望搜索功能好用。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "59f5711def46fa423cfec97db029640254787ded9846d78433d34bed5a8bb9d7",
+      "enMarkdown": "The Octoparts are the nicest guys in the world. They dropped out of the PhD program in physics at Berkeley to do this. They just wanted to fix a problem they encountered in their research. Imagine how much time you could save the world's engineers if they could do searches online. So when I hear that a big, evil company is trying to stop them in order to keep search broken, it makes me really want to help them. It makes me spend more time on the Octoparts than I do with most of the other startups we've funded. It just made me spend several minutes telling you how great they are. Why? Because they're good guys and they're trying to help the world.",
+      "zhMarkdown": "Octopart 的创始人们是世界上最善良的人。他们为了做这个，放弃了伯克利的物理学博士学位。他们只是想解决自己在研究中遇到的一个问题。想象一下，如果全世界的工程师都能在网上进行搜索，能节省多少时间。所以，当我听到一家邪恶的大公司为了让搜索功能保持残缺而试图阻止他们时，我真的非常想帮助他们。这让我花在 Octopart 上的时间比花在其他大多数我们投资的创业公司上的时间还要多。这刚刚让我花了几分钟时间来告诉你们他们有多棒。为什么？因为他们是好人，而且他们正在努力帮助这个世界。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "71d91ac43aa1f2ee52a466b978ebab556d8fc333ea7bbcfe7e4ec28877dc9e49",
+      "enMarkdown": "If you're benevolent, people will rally around you: investors, customers, other companies, and potential employees. In the long term the most important may be the potential employees. I think everyone knows now that [good hackers](https://paulgraham.com/gh.html) are much better than mediocre ones. If you can attract the best hackers to work for you, as Google has, you have a big advantage. And the very best hackers tend to be idealistic. They're not desperate for a job. They can work wherever they want. So most want to work on things that will make the world better.",
+      "zhMarkdown": "如果你是善良的，人们就会团结在你的周围：投资人、客户、其他公司，以及潜在的员工。从长远来看，最关键的可能是潜在的员工。我想现在大家都知道，[优秀的黑客](https://paulgraham.com/gh.html)要比平庸的黑客好得多。如果你能像谷歌那样吸引最顶尖的黑客为你工作，你就拥有了巨大的优势。而最优秀的黑客往往是理想主义者。他们并不急需一份工作，可以在任何想去的地方工作。因此，大多数人更想从事能让世界变得更好的事业。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "daa017544351ef0f82c4c590ea658a6cdc11bcd3ac356ae4e14fc69a25deb39d",
+      "enMarkdown": "**Compass**",
+      "zhMarkdown": "**指南针**"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "19fab7fc510b207cc86db8e187f4927d446a46d0a5fb300fbbddc86acbf7601d",
+      "enMarkdown": "But the most important advantage of being good is that it acts as a compass. One of the hardest parts of doing a startup is that you have so many choices. There are just two or three of you, and a thousand things you could do. How do you decide?",
+      "zhMarkdown": "但善良最核心的优势在于，它能起到指南针的作用。做创业公司最难的部分之一在于你有太多的选择。你们只有两三个人，却有一千件可以做的事。你该如何抉择？"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "1ca70da975a5e84b8d82a5ab46885c02d59820071bfdc384552a9ecf832f5fb9",
+      "enMarkdown": "Here's the answer: Do whatever's best for your users. You can hold onto this like a rope in a hurricane, and it will save you if anything can. Follow it and it will take you through everything you need to do.",
+      "zhMarkdown": "答案就在这里：做任何对你的用户最有利的事。你可以像在飓风中紧握绳索一样紧抓这个原则，如果有什么能救你，那一定就是它。遵循它，它会带你走过你需要做的每一件事。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "af0cb52f4493685e3d1c7201135661cb9cf961792e80808f37315618e92c4f88",
+      "enMarkdown": "It's even the answer to questions that seem unrelated, like how to convince investors to give you money. If you're a good salesman, you could try to just talk them into it. But the more reliable route is to convince them through your users: if you make something users love enough to tell their friends, you grow exponentially, and that will convince any investor.",
+      "zhMarkdown": "它甚至能回答一些看似无关的问题，比如如何说服投资人给你钱。如果你是个优秀的销售员，你可以试着用言语去说服他们。但更可靠的途径是通过你的用户去说服他们：如果你做出了用户足够热爱并愿意推荐给朋友的东西，你就会呈指数级增长，而这能说服任何投资人。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "373cac07ee2c16298eb496070fc81be5517058385dd6d72c4ef5ce732fa6b4a8",
+      "enMarkdown": "Being good is a particularly useful strategy for making decisions in complex situations because it's stateless. It's like telling the truth. The trouble with lying is that you have to remember everything you've said in the past to make sure you don't contradict yourself. If you tell the truth you don't have to remember anything, and that's a really useful property in domains where things happen fast.",
+      "zhMarkdown": "在复杂的情况下，向善是做决策时一种特别有用的策略，因为它是“无状态的”（stateless）。这就像说实话。说谎的麻烦在于你必须记住过去说过的一切，以确保自己不会自相矛盾。如果你说实话，你什么都不需要记住，在瞬息万变的领域中，这是一个非常实用的属性。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "b8eb17334fc802f0f3b6c693d46c78594c41419ad84c772b657766975376e476",
+      "enMarkdown": "For example, Y Combinator has now invested in 80 startups, 57 of which are still alive. (The rest have died or merged or been acquired.) When you're trying to advise 57 startups, it turns out you have to have a stateless algorithm. You can't have ulterior motives when you have 57 things going on at once, because you can't remember them. So our rule is just to do whatever's best for the founders. Not because we're particularly benevolent, but because it's the only algorithm that works on that scale.",
+      "zhMarkdown": "例如，Y Combinator 现在已经投资了 80 家创业公司，其中 57 家依然存活。（其余的已经倒闭、合并或被收购。）当你试图给 57 家创业公司提供建议时，事实证明你必须采用无状态算法。当你有 57 件事同时进行时，你不能有任何别有用心的企图，因为你根本记不住。所以我们的规则就是做任何对创始人最有利的事。这倒不是因为我们特别高尚，而是因为这是在那种规模下唯一行之有效的算法。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "494b567625909f2ffb67633f46ab987113f59e456d879d12e04768ce1efa4e6b",
+      "enMarkdown": "When you write something telling people to be good, you seem to be claiming to be good yourself. So I want to say explicitly that I am not a particularly good person. When I was a kid I was firmly in the camp of bad. The way adults used the word good, it seemed to be synonymous with quiet, so I grew up very suspicious of it.",
+      "zhMarkdown": "当你写文章劝人向善时，你似乎在标榜自己也是个好人。所以我想明确声明，我并不是一个特别高尚的人。小时候，我坚决站在坏孩子那一边。大人使用“乖”（good）这个词的方式，似乎等同于安静，所以我从小就对它非常怀疑。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "21212aa32b66e55bc60e6f724762583a9f5418eb6f1bd86d65f36efb9030acb5",
+      "enMarkdown": "You know how there are some people whose names come up in conversation and everyone says \"He's *such* a great guy?\" People never say that about me. The best I get is \"he means well.\" I am not claiming to be good. At best I speak good as a second language.",
+      "zhMarkdown": "你知道有些人的名字在谈话中被提起时，大家都会说“他真是个大好人”吗？人们从来不会这样评价我。我得到的最好评价也不过是“他心眼不坏”。我并不自称善良。充其量，我只是把善良当成第二语言来勉强表达。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "df1bed185abb757797b662224bba7751aaabc4a5809580c6e5072d5ab5811580",
+      "enMarkdown": "So I'm not suggesting you be good in the usual sanctimonious way. I'm suggesting it because it works. It will work not just as a statement of \"values,\" but as a guide to strategy, and even a design spec for software. Don't just not be evil. Be good.",
+      "zhMarkdown": "所以我并不是在用通常那种道貌岸然的方式建议你向善。我建议它，是因为它切实有效。它不仅能作为一种“价值观”的宣言，还能作为战略指南，甚至能作为软件的设计规范。不要只是不作恶。要向善。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "43144879008e49c556f383507ab160e7ae0faaaac37e307f0c5dcae5b4c1b341",
+      "enMarkdown": "[1] Fifty years ago it would have seemed shocking for a public company not to pay dividends. Now many tech companies don't. The markets seem to have figured out how to value potential dividends. Maybe that isn't the last step in this evolution. Maybe markets will eventually get comfortable with potential earnings. (VCs already are, and at least some of them consistently make money.)",
+      "zhMarkdown": "[1] 五十年前，一家上市公司不分红似乎是不可思议的。现在许多科技公司都不分红。市场似乎已经弄清楚了如何评估潜在股息的价值。也许这并不是演变的终点。也许市场最终会对潜在收益感到习以为常。（风险投资人已经习惯了，而且他们中至少有一些人能稳定赚到钱。）"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "fdf97a34ebd0b53b6317f588cd63cbd2abfacd22138a5d5ea68af05bb417a32c",
+      "enMarkdown": "I realize this sounds like the stuff one used to hear about the \"new economy\" during the Bubble. Believe me, I was not drinking that kool-aid at the time. But I'm convinced there were some [good\nideas](https://paulgraham.com/bubble.html) buried in Bubble thinking. For example, it's ok to focus on growth instead of profits—but only if the growth is genuine. You can't be buying users; that's a pyramid scheme. But a company with rapid, genuine growth is valuable, and eventually markets learn how to value valuable things.",
+      "zhMarkdown": "我知道这听起来很像泡沫时期人们常听到的“新经济”陈词滥调。相信我，我当时并没有喝那碗迷魂汤。但我确信在泡沫时期的思维中，埋藏着一些[好想法](https://paulgraham.com/bubble.html)。例如，关注增长而非利润是可以的——但前提是这种增长必须是真实的。你不能靠买用户来增长，那是庞氏骗局。但一家拥有快速、真实增长的公司是有价值的，市场最终会学会如何评估有价值的事物。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "fb09a3807e1a2acce82c87f15480a13e0f974e096f902f20a6438f8ebdad6259",
+      "enMarkdown": "[2] The idea of starting a company with benevolent aims is currently undervalued, because the kind of people who currently make that their explicit goal don't usually do a very good job.",
+      "zhMarkdown": "[2] 创办一家带有善意目标的公司的想法目前被低估了，因为目前把这作为明确目标的那类人，通常做得并不怎么好。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "0244f2bac495592fd70da104bab0cad208d70ee24bb538ac56fca26ebe5a9a74",
+      "enMarkdown": "It's one of the standard career paths of trustafarians to start some vaguely benevolent business. The problem with most of them is that they either have a bogus political agenda or are feebly executed. The trustafarians' ancestors didn't get rich by preserving their traditional culture; maybe people in Bolivia don't want to either. And starting an organic farm, though it's at least straightforwardly benevolent, doesn't help people on the scale that Google does.",
+      "zhMarkdown": "创办一些带有模糊善意的企业，是那些靠信托基金过活的富二代（trustafarians）的经典职业路径之一。他们中大多数人的问题在于，要么带着虚伪的政治议程，要么执行力极差。这些富二代的祖先可不是靠保护传统文化发家致富的，也许玻利维亚的人们也不想这样。而创办一个有机农场，虽然至少是直接的行善，但它帮助人们的规模根本无法与谷歌相比。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "28c254fb34b23e3198daa781a7878207d42a6c127c89cb055dc6e2034b94ea02",
+      "enMarkdown": "Most explicitly benevolent projects don't hold themselves sufficiently accountable. They act as if having good intentions were enough to guarantee good effects.",
+      "zhMarkdown": "大多数明确以行善为导向的项目，都没有对自己进行足够的问责。他们表现得好像只要动机是好的，就足以保证产生好的结果。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "0b8c70af71667ebe41dcf398e41baf23cdd874ba88a8c40513d46c554d83d7d6",
+      "enMarkdown": "[3] Users dislike their new operating system so much that they're starting petitions to save the old one. And the old one was nothing special. The hackers within Microsoft must know in their hearts that if the company really cared about users they'd just advise them to switch to OSX.",
+      "zhMarkdown": "[3] 用户非常讨厌他们的新操作系统，以至于开始发起请愿来保留旧系统。而那个旧系统其实也毫无出彩之处。微软内部的黑客们心里一定清楚，如果公司真的关心用户，就应该直接建议他们换成 OSX。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "a82c7aed7ba28ec3ced8af557404aa36b0a6a8507ffde7760ac3698c9f272975",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Paul Buchheit, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Paul Buchheit、Jessica Livingston 和 Robert Morris 阅读本文草稿。"
+    }
+  ]
+}

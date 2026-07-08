@@ -1,0 +1,223 @@
+{
+  "slug": "earnest",
+  "titleEn": "Earnestness",
+  "titleZh": "真诚",
+  "dateText": "December 2020",
+  "publishedAt": "2020-12-01",
+  "sourceOrder": 38,
+  "sourceUrl": "https://paulgraham.com/earnest.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "362faf9b9fb854e398d38cf4df174ba43d4c57ca16e7a8f9912e743a2b4c97f9",
+      "enMarkdown": "Jessica and I have certain words that have special significance when we're talking about startups. The highest compliment we can pay to founders is to describe them as \"earnest.\" This is not by itself a guarantee of success. You could be earnest but incapable. But when founders are both formidable (another of our words) and earnest, they're as close to unstoppable as you get.",
+      "zhMarkdown": "在聊起创业公司时，Jessica 和我有几个词有着特殊的含义。我们对创始人最高的赞誉，就是形容他们“真诚”（earnest）。这本身并不能保证成功。你可能很真诚，但能力不足。然而，当创始人既强大（formidable，我们的另一个高频词）又真诚时，他们就几乎是不可阻挡的了。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "d2703cddd98cdf7707d71d3bbe8ce5b9d653f3f299f56020a3d54c0e65dbc209",
+      "enMarkdown": "Earnestness sounds like a boring, even Victorian virtue. It seems a bit of an anachronism that people in Silicon Valley would care about it. Why does this matter so much?",
+      "zhMarkdown": "“真诚”听起来像是一种无聊的、甚至属于维多利亚时代的陈旧美德。硅谷的人居然会看重它，似乎有些不合时宜。为什么这件事情如此重要？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "a9c9ce2b4a771e1c6cc4e3de4a7bd5cf362fe8cb50d634b168fcca9be461e4f5",
+      "enMarkdown": "When you call someone earnest, you're making a statement about their motives. It means both that they're doing something for the right reasons, and that they're trying as hard as they can. If we imagine motives as vectors, it means both the direction and the magnitude are right. Though these are of course related: when people are doing something for the right reasons, they try harder. [[1](#f1n)]",
+      "zhMarkdown": "当你称某人真诚时，你是在对他们的动机做出评价。这意味着他们做一件事既是因为正确的初衷，同时也在竭尽全力。如果我们把动机想象成向量，这意味着它的方向和大小都是正确的。当然，这两者是息息相关的：当人们为了正确的初衷做事时，他们往往会更加努力。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "c92f9905e4ad5dd4b9daba519171dfd9537e2f5a46a0724e514ca1e1d694097c",
+      "enMarkdown": "The reason motives matter so much in Silicon Valley is that so many people there have the wrong ones. Starting a successful startup makes you rich and famous. So a lot of the people trying to start them are doing it for those reasons. Instead of what? Instead of interest in the problem for its own sake. That is the root of earnestness. [[2](#f2n)]",
+      "zhMarkdown": "动机在硅谷如此重要的原因，在于那里有太多人的动机是错的。创办一家成功的创业公司能让你名利双收。因此，许多尝试创业的人正是冲着这些去的。那正确的初衷是什么？是对问题本身产生纯粹的兴趣。这正是真诚的根源。[[2](#f2n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "913a95bc0d1d08b1fe096f2c39e1ff20e62b691f58c88c7458416c4c1c6444e2",
+      "enMarkdown": "It's also the hallmark of a nerd. Indeed, when people describe themselves as \"x nerds,\" what they mean is that they're interested in x for its own sake, and not because it's cool to be interested in x, or because of what they can get from it. They're saying they care so much about x that they're willing to sacrifice seeming cool for its sake.",
+      "zhMarkdown": "这也是书呆子（nerd）的标志。事实上，当人们形容自己是“某某迷”（x nerds）时，他们的意思是他们对某事有着纯粹的兴趣，而不是因为喜欢某事很酷，或者能从中得到什么好处。他们是在表达，自己太在乎这件事了，以至于愿意为此牺牲掉“看起来很酷”的形象。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "56e42417d6368644ccaac43c3f8ed0ab0d2ab0d2bae530b3620361a19fb9623f",
+      "enMarkdown": "A [genuine interest](https://paulgraham.com/genius.html) in something is a very powerful motivator � for some people, the most powerful motivator of all. [[3](#f3n)] Which is why it's what Jessica and I look for in founders. But as well as being a source of strength, it's also a source of vulnerability. Caring constrains you. The earnest can't easily reply in kind to mocking banter, or put on a cool facade of nihil admirari. They care too much. They are doomed to be the straight man. That's a real disadvantage in your [teenage years](https://paulgraham.com/nerds.html), when mocking banter and nihil admirari often have the upper hand. But it becomes an advantage later.",
+      "zhMarkdown": "对某件事的[真正兴趣](https://paulgraham.com/genius.html)是一种非常强大的动力——对某些人来说，甚至是所有动力中最强大的。[[3](#f3n)] 这也是为什么 Jessica 和我要在创始人身上寻找这种品质。但这种品质在成为力量源泉的同时，也是软肋所在。因为在乎会给你带来束缚。真诚的人无法轻易用嘲讽的俏皮话来回击，也无法装出一副看破红尘、无动于衷（nihil admirari）的酷样。他们太在乎了。他们注定只能扮演那个一本正经的角色。在[青少年时期](https://paulgraham.com/nerds.html)，这确实是个劣势，因为那时嘲讽和装酷往往占上风。但到了后期，这就成了优势。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "43697e70d48814d696f3467779e66cd96f65126232e4b21b39108cd1feda8a03",
+      "enMarkdown": "It's a commonplace now that the kids who were nerds in high school become the cool kids' bosses later on. But people misunderstand why this happens. It's not just because the nerds are smarter, but also because they're more earnest. When the problems get harder than the fake ones you're given in high school, caring about them starts to matter.",
+      "zhMarkdown": "如今，高中时的书呆子长大后成为那些酷小孩的老板，已经成了陈词滥调。但人们误解了这背后的原因。这不仅仅是因为书呆子更聪明，还因为他们更真诚。当面对的问题比高中时那些虚构的难题要困难得多时，你是否真正“在乎”这些问题，就变得至关重要了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "9d022a6b324c9f3efea318980a36448787e82365ea79d911c91b1fe30a022192",
+      "enMarkdown": "Does it always matter? Do the earnest always win? Not always. It probably doesn't matter much in politics, or in crime, or in certain types of business that are similar to crime, like gambling, personal injury law, patent trolling, and so on. Nor does it matter in academic fields at the more [bogus](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hermeneutic+dialectics+hegemonic+phenomenology+intersectionality) end of the spectrum. And though I don't know enough to say for sure, it may not matter in some kinds of humor: it may be possible to be completely cynical and still be very funny. [[4](#f4n)]",
+      "zhMarkdown": "这总是起作用吗？真诚的人每次都能赢吗？并非如此。在政治、犯罪，或者某些类似于犯罪的商业领域（如博彩、人身伤害诉讼、专利流氓等），真诚可能并没那么重要。在学术界中那些偏向[荒谬](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=hermeneutic+dialectics+hegemonic+phenomenology+intersectionality)的一端，真诚也无关紧要。虽然我了解得不够深，不敢断言，但在某些幽默领域，真诚也许同样不重要：一个人完全可能极其愤世嫉俗，却依然非常幽默。[[4](#f4n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "4683dd1affa4b8227227c7deef69d2b911afad8fead6fdfc1acb9505a2d1cb4f",
+      "enMarkdown": "Looking at the list of fields I mentioned, there's an obvious pattern. Except possibly for humor, these are all types of work I'd avoid like the plague. So that could be a useful heuristic for deciding which fields to work in: how much does earnestness matter? Which can in turn presumably be inferred from the prevalence of nerds at the top.",
+      "zhMarkdown": "看看我提到的这些领域，会发现一个明显的规律。除了幽默之外，这些工作都是我会避之唯恐不及的。因此，这可以作为一个选择工作领域的实用启发式方法：在这个领域里，真诚有多重要？而这一点，大概可以通过观察顶尖人群中书呆子的比例来推导出来。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "ea736278e18ccda74f00639cede15c0e334c124401cf6cd1471d717d5ded9c46",
+      "enMarkdown": "Along with \"nerd,\" another word that tends to be associated with earnestness is \"naive.\" The earnest often seem naive. It's not just that they don't have the motives other people have. They often don't fully grasp that such motives exist. Or they may know intellectually that they do, but because they don't feel them, they forget about them. [[5](#f5n)]",
+      "zhMarkdown": "除了“书呆子”之外，另一个经常与真诚联系在一起的词是“天真”。真诚的人往往显得天真。这不仅是因为他们没有别人那样的动机，还因为他们往往无法完全理解这些动机的存在。或者他们理智上知道有这些动机，但因为自己感受不到，所以转头就忘了。[[5](#f5n)]"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f0c1849fb7728c194d6d53021b70417affed890d2f44fc3ec1d9cc8e8c7fe361",
+      "enMarkdown": "It works to be slightly naive not just about motives but also, believe it or not, about the problems you're working on. Naive optimism can compensate for the bit rot that [rapid change](https://paulgraham.com/ecw.html) causes in established beliefs. You plunge into some problem saying \"How hard can it be?\", and then after solving it you learn that it was till recently insoluble.",
+      "zhMarkdown": "信不信由你，不仅在看待动机时带点天真有用，在面对你所解决的问题时，带点天真同样管用。天真的乐观主义可以弥补因[快速变化](https://paulgraham.com/ecw.html)导致既有观念老化失效的局限。你一头扎进某个问题，心想“这能有多难？”，结果解决之后才发现，这在不久前还是个无解的难题。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "94249608423ee8b68693d29fb442beb5bf785a9497d2a2829fb634992ec853ea",
+      "enMarkdown": "Naivete is an obstacle for anyone who wants to seem sophisticated, and this is one reason would-be intellectuals find it so difficult to understand Silicon Valley. It hasn't been safe for such people to use the word \"earnest\" outside scare quotes since Oscar Wilde wrote \"The Importance of Being Earnest\" in 1895. And yet when you zoom in on Silicon Valley, right into [Jessica Livingston's brain](https://paulgraham.com/jessica.html), that's what her x-ray vision is seeking out in founders. Earnestness! Who'd have guessed? Reporters literally can't believe it when founders making piles of money say that they started their companies to make the world better. The situation seems made for mockery. How can these founders be so naive as not to realize how implausible they sound?",
+      "zhMarkdown": "对于任何想显得世故的人来说，天真都是个障碍。这也是为什么那些自命不凡的知识分子发现自己很难理解硅谷的原因之一。自从王尔德在 1895 年写了《不可儿戏》（The Importance of Being Earnest，英文双关“真诚的重要性”）之后，这类人就无法在不加引号的情况下使用“真诚”这个词了。然而，当你把镜头拉近硅谷，直接探寻 [Jessica Livingston 的大脑](https://paulgraham.com/jessica.html)时，你会发现她的火眼金睛在创始人身上寻找的正是这个。真诚！谁能想到呢？当那些赚了大钱的创始人说他们创办公司是为了让世界变得更好时，记者们简直无法相信。这场面似乎天生就是用来嘲讽的。这些创始人怎么能如此天真，竟然意识不到自己听起来有多不可信？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "3507be79632ff26c75937331f3a092c8d34f2a17962233cb45a01dcd2b3b66f8",
+      "enMarkdown": "Though those asking this question don't realize it, that's not a rhetorical question.",
+      "zhMarkdown": "虽然提出这个问题的人没有意识到，但这并不是一个反问句。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a6f397db784c29eba40c3b29f76dfc695890f27ce9e23ab5bdc4baf5f3aa62c6",
+      "enMarkdown": "A lot of founders are faking it, of course, particularly the smaller fry, and the soon to be smaller fry. But not all of them. There are a significant number of founders who really are interested in the problem they're solving mainly for its own sake.",
+      "zhMarkdown": "当然，很多创始人的确在装模作样，尤其是那些小角色，以及很快就要变成小角色的人。但并非所有人都是如此。有相当一部分创始人，真的主要是出于对所解决问题本身的纯粹兴趣。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a1141e9f65bf601773372b1a125a032e72cb5807386a22ce8fa83f5acbd39e4d",
+      "enMarkdown": "Why shouldn't there be? We have no difficulty believing that people would be interested in history or math or even old bus tickets for their own sake. Why can't there be people interested in self-driving cars or social networks for their own sake? When you look at the question from this side, it seems obvious there would be. And isn't it likely that having a deep interest in something would be a source of great energy and resilience? It is in every other field.",
+      "zhMarkdown": "为什么不呢？我们很容易相信，有人会仅仅出于纯粹的兴趣去研究历史、数学，甚至是收集旧车票。那为什么不能有人仅仅出于纯粹的兴趣去研究自动驾驶汽车或社交网络呢？换个角度来看这个问题，答案显然是肯定的。而且，对某件事有深厚的兴趣，难道不是巨大能量和韧性的源泉吗？在其他任何领域都是如此。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "86781f9bca0a2e652ff9b0e768604490c8944c4c1f2c43be1f33d80bfff70084",
+      "enMarkdown": "The question really is why we have a blind spot about business. And the answer to that is obvious if you know enough history. For most of history, making large amounts of money has not been very intellectually interesting. In preindustrial times it was never far from robbery, and some areas of business still retain that character, except using lawyers instead of soldiers.",
+      "zhMarkdown": "真正的问题在于，为什么我们在商业领域存在盲区。如果你了解足够的历史，答案就很显而易见。在历史上的大部分时期，赚大钱在智识上并没有多大意思。在工业时代之前，它与掠夺无异；而今天某些商业领域依然保留着这种特征，只不过是用律师代替了士兵。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f06842eb27f498e3902d3f5a74db6df5790e1da22a456b192345720f74410afe",
+      "enMarkdown": "But there are other areas of business where the work is genuinely interesting. Henry Ford got to spend much of his time working on interesting technical problems, and for the last several decades the trend in that direction has been accelerating. It's much easier now to make a lot of money by working on something you're interested in than it was [50 years ago](https://paulgraham.com/re.html). And that, rather than how fast they grow, may be the most important change that startups represent. Though indeed, the fact that the work is genuinely interesting is a big part of why it gets done so fast. [[6](#f6n)]",
+      "zhMarkdown": "但商业中也有其他领域，其中的工作是真正有趣的。亨利·福特的大部分时间都可以花在解决有趣的工程问题上，而在过去的几十年里，这种趋势正在加速。与 [50 年前](https://paulgraham.com/re.html)相比，现在通过做自己感兴趣的事情来赚大钱要容易得多。这，而不是增长速度，也许才是创业公司所代表的最重要的变革。事实上，工作本身真正有趣，正是它能被如此迅速地推进的重要原因。[[6](#f6n)]"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "6f302313e74783e08921966d7fbc25effa01a954ee841db886696bad80822b6e",
+      "enMarkdown": "Can you imagine a more important change than one in the relationship between intellectual curiosity and money? These are two of the most powerful forces in the world, and in my lifetime they've become significantly more aligned. How could you not be fascinated to watch something like this happening in real time?",
+      "zhMarkdown": "你能想象还有什么变革，比求知欲与金钱之间关系的重塑更重要吗？这是世界上最强大的两种力量，而在我的有生之年，它们已经变得明显更加一致了。亲眼见证这样的历史实时发生，你怎么可能不为之着迷？"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "ce9dd5df7d8a260e107b8dc3d59b91a9bc5f696b032769628874cae38ad7e37a",
+      "enMarkdown": "I meant this essay to be about earnestness generally, and now I've gone and talked about startups again. But I suppose at least it serves as an example of an x nerd in the wild.",
+      "zhMarkdown": "我本想写一篇关于普遍意义上的真诚的文章，结果不知不觉又聊到了创业公司。不过我想，这至少可以作为一个活生生的“某某迷”（x nerd）的现实案例。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "aea557b27aceaa04c06d9f6614f867b38c7018820a74f7e07b1ae66f5cbeb63b",
+      "enMarkdown": "[1] It's interesting how many different ways there are *not* to be earnest: to be cleverly cynical, to be superficially brilliant, to be conspicuously virtuous, to be cool, to be sophisticated, to be orthodox, to be a snob, to bully, to pander, to be on the make. This pattern suggests that earnestness is not one end of a continuum, but a target one can fall short of in multiple dimensions.",
+      "zhMarkdown": "[1] 很有意思的是，有太多种方式可以让人显得“不真诚”：聪明地愤世嫉俗、表面上的才华横溢、刻意展示道德高尚、装酷、扮世故、墨守成规、自命不凡、霸凌、迎合、投机钻营。这种模式表明，真诚并不是连续光谱的一端，而是一个目标，人们可能会在多个维度上偏离它。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "46979240145ed67576d4ae95d9cd7db21d4b723bd4a33014c2121d090bdf78e0",
+      "enMarkdown": "Another thing I notice about this list is that it sounds like a list of the ways people behave on Twitter. Whatever else social media is, it's a vivid catalogue of ways not to be earnest.",
+      "zhMarkdown": "关于这个清单，我还注意到一点：它听起来很像人们在 Twitter 上的行为指南。无论社交媒体的其他属性是什么，它都是一个生动的、展示各种“不真诚”行为的百科全书。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "c5b8cd1e2369a20482956f1f4663ec668a8b93efe00b126752db83bc23f858f0",
+      "enMarkdown": "[2] People's motives are as mixed in Silicon Valley as anywhere else. Even the founders motivated mostly by money tend to be at least somewhat interested in the problem they're solving, and even the founders most interested in the problem they're solving also like the idea of getting rich. But there's great variation in the relative proportions of different founders' motivations.",
+      "zhMarkdown": "[2] 硅谷人的动机和世界上其他地方一样复杂。即使是那些主要受金钱驱动的创始人，往往也对他们正在解决的问题多多少少有些兴趣；而即使是那些对问题最感兴趣的创始人，同样也喜欢变富的想法。只是不同创始人身上，这些动机的相对比例存在巨大差异。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "c2f4100d9f868064108b25fe29aea115de8f1e76fd0b711d845e47868cf5673e",
+      "enMarkdown": "And when I talk about \"wrong\" motives, I don't mean morally wrong. There's nothing morally wrong with starting a startup to make money. I just mean that those startups don't do as well.",
+      "zhMarkdown": "而且当我提到“错误”的动机时，并不是指道德上的错误。为了赚钱而创办一家创业公司，在道德上没有任何问题。我的意思只是，这些创业公司往往做不大。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "5e23c1eca448c6c6b367ef1e6b0fe7a6b25cb84df026b551c6b69c4e2a60983d",
+      "enMarkdown": "[3] The most powerful motivator for most people is probably family. But there are some for whom intellectual curiosity comes first. In his (wonderful) autobiography, Paul Halmos says explicitly that for a mathematician, math must come before anything else, including family. Which at least implies that it did for him.",
+      "zhMarkdown": "[3] 对大多数人来说，最强大的动力可能是家庭。但对某些人来说，求知欲排在第一位。保罗·哈尔莫斯在他（极佳的）自传中明确写道，对于一个数学家来说，数学必须高于一切，包括家庭。这至少暗示了，他自己就是这么做的。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "0c6ceac3c51779aee39335c82a607c65f36c9c6078cd98d5157ddce0f6051073",
+      "enMarkdown": "[4] Interestingly, just as the word \"nerd\" implies earnestness even when used as a metaphor, the word \"politics\" implies the opposite. It's not only in actual politics that earnestness seems to be a handicap, but also in office politics and academic politics.",
+      "zhMarkdown": "[4] 有趣的是，正如“书呆子”（nerd）这个词即使被隐喻使用也暗示着真诚一样，“政治”（politics）这个词则暗示着相反的意思。真诚似乎不仅在现实政治中是个累赘，在办公室政治和学术政治中也是如此。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "0793748b41b5138b7ce9855b932ca850c693fb9ae6db6e8e426b3ed9473a2f99",
+      "enMarkdown": "[5] It's a bigger social error to seem naive in most European countries than it is in America, and this may be one of subtler reasons startups are less common there. Founder culture is completely at odds with sophisticated cynicism.",
+      "zhMarkdown": "[5] 在大多数欧洲国家，显得天真比在美国更算是一种社交失误，这可能是欧洲创业公司不那么普遍的深层原因之一。创始人的文化与世故的愤世嫉俗完全格格不入。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "158abc25204978583b4b313f7a510b248f077934b48beab1b1c2c768871fcb75",
+      "enMarkdown": "The most earnest part of Europe is Scandinavia, and not surprisingly this is also the region with the highest number of successful startups per capita.",
+      "zhMarkdown": "欧洲最真诚的地区是北欧，不出所料，这里也是人均成功创业公司数量最多的地区。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "9b424838c176b364ab583562422dd21f860d99f2af456b66dc022e596858162c",
+      "enMarkdown": "[6] Much of business is schleps, and probably always will be. But even being a professor is largely schleps. It would be interesting to collect statistics about the schlep ratios of different jobs, but I suspect they'd rarely be less than 30%.",
+      "zhMarkdown": "[6] 商业的大部分内容都是苦活累活（schleps），而且可能永远如此。但即使是当教授，很大程度上也充满了苦活。收集不同工作的“苦活比例”统计数据会很有意思，但我怀疑很少有低于 30% 的。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "8b19e7c1a16b358dc63bd4754a517b56c31383690c0e7e7f1017f15469c013d7",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Patrick Collison, Suhail Doshi, Jessica Livingston, Mattias Ljungman, Harj Taggar, and Kyle Vogt for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Patrick Collison、Suhail Doshi、Jessica Livingston、Mattias Ljungman、Harj Taggar 和 Kyle Vogt 阅读本书草稿。"
+    }
+  ]
+}

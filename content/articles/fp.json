@@ -1,0 +1,41 @@
+{
+  "slug": "fp",
+  "titleEn": "Fashionable Problems",
+  "titleZh": "时髦的问题",
+  "dateText": "December 2019",
+  "publishedAt": "2019-12-01",
+  "sourceOrder": 51,
+  "sourceUrl": "https://paulgraham.com/fp.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "31d3643b5b8972a4b6ad0d2843f50f4c9dc372fa0e465ff44d89372e75ae1725",
+      "enMarkdown": "I've seen the same pattern in many different fields: even though lots of people have worked hard in the field, only a small fraction of the space of possibilities has been explored, because they've all worked on similar things.",
+      "zhMarkdown": "我在许多不同的领域都见过同样的模式：尽管有很多人在某个领域辛勤耕耘，但真正被探索的可能性空间却微乎其微，因为大家都在研究极其相似的东西。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "60385dce43b3064a1dadcfa5176ed8aabdff1ccc92c4661aba4b9ea443f9d1b2",
+      "enMarkdown": "Even the smartest, most imaginative people are surprisingly conservative when deciding what to work on. People who would never dream of being fashionable in any other way get sucked into working on fashionable problems.",
+      "zhMarkdown": "在决定研究什么课题时，即便是最聪明、最富有想象力的人，其保守程度也令人吃惊。那些在其他任何方面都绝不屑于追逐时尚的人，却会不由自主地卷入到研究时髦问题的浪潮中。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "05e0322c61371ae98214ead5ad4552b99c4e4191227bdf07f3577e4ee50c9a72",
+      "enMarkdown": "If you want to try working on unfashionable problems, one of the best places to look is in fields that people think have already been fully explored: essays, Lisp, venture funding � you may notice a pattern here. If you can find a new approach into a big but apparently played out field, the value of whatever you discover will be [multiplied](https://paulgraham.com/sun.html) by its enormous surface area.",
+      "zhMarkdown": "如果你想尝试研究那些不时髦的问题，最好的切入点之一，就是那些人们认为已经被彻底探索过的领域：比如写文章、Lisp 语言、风险投资——你可能会在这里发现某种规律。如果你能在这样一个庞大但看似已经过时的领域中找到新的突破口，那么你所发现的任何成果，其价值都将因该领域巨大的表面积而[倍增](https://paulgraham.com/sun.html)。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "77bb8b8548ffcd7f3b3f5c53e299b7ea5481a4913c1ba10f86ae623204965191",
+      "enMarkdown": "The best protection against getting drawn into working on the same things as everyone else may be to [genuinely \nlove](https://paulgraham.com/genius.html) what you're doing. Then you'll continue to work on it even if you make the same mistake as other people and think that it's too marginal to matter.",
+      "zhMarkdown": "避免被裹挟着去和大家研究同一桩事物的最好防线，或许就是[发自内心地热爱](https://paulgraham.com/genius.html)你正在做的事情。这样一来，即使你和别人一样犯了同样的错误，认为这件事微不足道，你依然会坚持做下去。"
+    }
+  ]
+}

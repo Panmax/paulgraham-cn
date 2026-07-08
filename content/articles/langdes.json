@@ -1,0 +1,482 @@
+{
+  "slug": "langdes",
+  "titleEn": "Five Questions about Language Design",
+  "titleZh": "关于语言设计的五个问题",
+  "dateText": "May 2001",
+  "publishedAt": "2001-05-01",
+  "sourceOrder": 220,
+  "sourceUrl": "https://paulgraham.com/langdes.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "6c1acbbcfd349566972af8392bc6a6121218f9dc06ad4c88ff472a6afec8577e",
+      "enMarkdown": "*(These are some notes I made\nfor a panel discussion on programming language design\nat MIT on May 10, 2001.)*",
+      "zhMarkdown": "*(这是我为 2001 年 5 月 10 日在麻省理工学院（MIT）举行的一场关于编程语言设计的专题讨论会准备的发言提纲。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "fb0f80eb3b515d0e334e94e8d960a3c3231fb1a81d12549ce93d9e5889edd7d5",
+      "enMarkdown": "**1. Programming Languages Are for People.**",
+      "zhMarkdown": "**1. 编程语言是为人服务的。**"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "34b73b974d3ebd04511066366aa2e4000887040e962e4539d1acb642870ccfcb",
+      "enMarkdown": "Programming languages are how people talk to computers. The computer would be just as happy speaking any language that was unambiguous. The reason we have high level languages is because people can't deal with machine language. The point of programming languages is to prevent our poor frail human brains from being overwhelmed by a mass of detail.",
+      "zhMarkdown": "编程语言是人与计算机交流的方式。只要语言没有歧义，计算机用什么语言都一样高兴。我们之所以需要高级语言，是因为人类无法应付机器语言。编程语言的意义，就在于防止我们脆弱、疲惫的人类大脑被海量的细节所淹没。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "130e8f29ec216c1df3e2188362fc5533169f318cba00ba5954f9dcccf24765a4",
+      "enMarkdown": "Architects know that some kinds of design problems are more personal than others. One of the cleanest, most abstract design problems is designing bridges. There your job is largely a matter of spanning a given distance with the least material. The other end of the spectrum is designing chairs. Chair designers have to spend their time thinking about human butts.",
+      "zhMarkdown": "建筑师知道，某些设计问题比其他问题更具人情味。最干净、最抽象的设计问题之一是设计桥梁。在设计桥梁时，你的工作很大程度上就是用最少的材料跨越给定的距离。而天平的另一端则是设计椅子。椅子设计师必须把时间花在研究人类的臀部上。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "907a468ba6826a3d0b801a1b58d66a8b343d6a3598c2f38da06b4dee2dc5e7ee",
+      "enMarkdown": "Software varies in the same way. Designing algorithms for routing data through a network is a nice, abstract problem, like designing bridges. Whereas designing programming languages is like designing chairs: it's all about dealing with human weaknesses.",
+      "zhMarkdown": "软件也是如此。设计网络数据路由算法是一个美妙而抽象的问题，就像设计桥梁。而设计编程语言则像设计椅子：它完全是在与人类的弱点打交道。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "a1cf580b1e5cd2ec572e40bd1aa289bc721ce7742ccd99adfa6fc27c82778fd3",
+      "enMarkdown": "Most of us hate to acknowledge this. Designing systems of great mathematical elegance sounds a lot more appealing to most of us than pandering to human weaknesses. And there is a role for mathematical elegance: some kinds of elegance make programs easier to understand. But elegance is not an end in itself.",
+      "zhMarkdown": "我们大多数人都讨厌承认这一点。对大多数人来说，设计具有极高数学美感的系统，听起来比迎合人类的弱点要有吸引力得多。数学美感确实有其作用：某些优雅的设计能让程序更容易理解。但优雅本身并不是目的。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "72bae184802df5339a41fb805223129c90cecfce3336f24a9f6fc56ef80e9dbd",
+      "enMarkdown": "And when I say languages have to be designed to suit human weaknesses, I don't mean that languages have to be designed for bad programmers. In fact I think you ought to design for the [best programmers](https://paulgraham.com/design.html), but even the best programmers have limitations. I don't think anyone would like programming in a language where all the variables were the letter x with integer subscripts.",
+      "zhMarkdown": "当我说语言设计必须适应人类的弱点时，我并不是说语言必须为糟糕的程序员设计。事实上，我认为你应该为[最优秀的程序员](https://paulgraham.com/design.html)设计，但即使是最优秀的程序员也有局限性。我想没人会喜欢用一种所有变量都是字母 x 加上整数下标的语言来编程。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "10edb1794c8a862447ea76c20c347288f45eb45784374a23dee5107cae370105",
+      "enMarkdown": "**2. Design for Yourself and Your Friends.**",
+      "zhMarkdown": "**2. 为你自己和你的朋友设计。**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a36eb40bb07a613552cf30281b6d722c62c46a16c0b921b8327aa36b1834876a",
+      "enMarkdown": "If you look at the history of programming languages, a lot of the best ones were languages designed for their own authors to use, and a lot of the worst ones were designed for other people to use.",
+      "zhMarkdown": "纵观编程语言的历史，许多最优秀的语言都是为了作者自己使用而设计的，而许多最糟糕的语言则是为了别人使用而设计的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d996b21837fac409c0092b0581502793b2bc7ea5c4acd352c9c00c24b3bdbde0",
+      "enMarkdown": "When languages are designed for other people, it's always a specific group of other people: people not as smart as the language designer. So you get a language that talks down to you. Cobol is the most extreme case, but a lot of languages are pervaded by this spirit.",
+      "zhMarkdown": "当语言是为别人设计时，那群人总是特定的：一帮不如语言设计师聪明的人。于是你得到了一种居高临下、对你指手画脚的语言。Cobol 是最极端的例子，但许多语言都充斥着这种说教精神。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "3e4d1346418a2bc16c001856dd388187b41c35924fa40963b9e6cc7e3b0c93a7",
+      "enMarkdown": "It has nothing to do with how abstract the language is. C is pretty low-level, but it was designed for its authors to use, and that's why hackers like it.",
+      "zhMarkdown": "这与语言有多抽象无关。C 语言相当低级，但它是为了作者自己使用而设计的，这就是黑客喜欢它的原因。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "18ecee4a6f742f1afba204db2c3e3f510c2dc353d7f5612f71d1a33b03e4f1c5",
+      "enMarkdown": "The argument for designing languages for bad programmers is that there are more bad programmers than good programmers. That may be so. But those few good programmers write a disproportionately large percentage of the software.",
+      "zhMarkdown": "为糟糕的程序员设计语言的理由是，糟糕的程序员人数比优秀的程序员多。也许确实如此。但那少数优秀的程序员却写出了不成比例的、极高份额的软件。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "6c6589fa66c6d575961689f07dc9f0d02c90402124723d31e8d19a357561c7d7",
+      "enMarkdown": "I'm interested in the question, how do you design a language that the very best hackers will like? I happen to think this is identical to the question, how do you design a good programming language?, but even if it isn't, it is at least an interesting question.",
+      "zhMarkdown": "我感兴趣的问题是，如何设计出一种让最顶尖的黑客都会喜欢的语言？我恰好认为这与“如何设计出一种优秀的编程语言”是同一个问题，但即使不是，它至少也是个有趣的问题。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d90842753da693608cd86bed33c4d8d1ea30bdb4e85def40f8fda13e6b270498",
+      "enMarkdown": "**3. Give the Programmer as Much Control as Possible.**",
+      "zhMarkdown": "**3. 尽可能多地给程序员控制权。**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5e6ea44c2a2444b1e03e037e0fb9edc52c35f892e2b52ee109d282b9c1f09be3",
+      "enMarkdown": "Many languages (especially the ones designed for other people) have the attitude of a governess: they try to prevent you from doing things that they think aren't good for you. I like the opposite approach: give the programmer as much control as you can.",
+      "zhMarkdown": "许多语言（尤其是那些为别人设计的语言）都带着一副管家婆的姿态：它们试图阻止你做它们认为对你没好处的事情。我喜欢相反的方法：尽可能多地给程序员控制权。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "0802b14320100386feb5bcf39584d8faac672d7c842c4e527656aadb0c3baffa",
+      "enMarkdown": "When I first learned Lisp, what I liked most about it was that it considered me an equal partner. In the other languages I had learned up till then, there was the language and there was my program, written in the language, and the two were very separate. But in Lisp the functions and macros I wrote were just like those that made up the language itself. I could rewrite the language if I wanted. It had the same appeal as open-source software.",
+      "zhMarkdown": "当我第一次学习 Lisp 时，我最喜欢它的一点是它把我当成平等的伙伴。在我之前学过的其他语言中，语言是语言，我的程序是我的程序，两者泾渭分明。但在 Lisp 中，我写的函数和宏与构成语言本身的函数和宏完全一样。如果我想，我可以重写这门语言。它具有与开源软件相同的魅力。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f04b5e72557cc371e94873dfdc7b1746e44bcd6322ca9d1d3dd113f11950cd51",
+      "enMarkdown": "**4. Aim for Brevity.**",
+      "zhMarkdown": "**4. 追求简洁。**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "423542b171c8d1c0880488d804c2d56a42e6d6f642134f2657df76155a153219",
+      "enMarkdown": "Brevity is underestimated and even scorned. But if you look into the hearts of hackers, you'll see that they really love it. How many times have you heard hackers speak fondly of how in, say, APL, they could do amazing things with just a couple lines of code? I think anything that really smart people really love is worth paying attention to.",
+      "zhMarkdown": "简洁往往被低估，甚至遭到鄙视。但如果你探寻黑客的内心，你会发现他们真的很热爱简洁。你多少次听到黑客津津乐道，比如在 APL 中，他们如何仅用几行代码就能做出令人惊叹的事情？我认为，任何聪明人真正热爱的东西，都值得我们关注。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "73fd95cb0c9ba403b38293fee5ca211be9596d1830c0344858c7f618dd63d9d9",
+      "enMarkdown": "I think almost anything you can do to make programs shorter is good. There should be lots of library functions; anything that can be implicit should be; the syntax should be terse to a fault; even the names of things should be short.",
+      "zhMarkdown": "我认为，几乎任何能让程序变短的事情都是好事。应该有大量的库函数；任何可以隐式表达的东西都应该隐式表达；语法应该简练到极致；甚至命名也应该短小精悍。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "4ff7d85332cddb1ba90b7551e37c8b84c29d6e07b79a40513add7b761ff74628",
+      "enMarkdown": "And it's not only programs that should be short. The manual should be thin as well. A good part of manuals is taken up with clarifications and reservations and warnings and special cases. If you force yourself to shorten the manual, in the best case you do it by fixing the things in the language that required so much explanation.",
+      "zhMarkdown": "不仅程序应该短，手册也应该薄。手册的很大一部分都被澄清、保留条款、警告和特例所占据。如果你强迫自己缩短手册，在最好的情况下，你是通过修复语言中那些需要长篇大论解释的缺陷来做到这一点的。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "758f4b671b48d33cbb07020fc6d1c98ae946dab398402766d653bd5f808ee934",
+      "enMarkdown": "**5. Admit What Hacking Is.**",
+      "zhMarkdown": "**5. 承认黑客行为的本质。**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "3a44860d36f3ebe8b86175aa434f9c878de3bb33b8ded970115afe8f76cc2173",
+      "enMarkdown": "A lot of people wish that hacking was mathematics, or at least something like a natural science. I think hacking is more like architecture. Architecture is related to physics, in the sense that architects have to design buildings that don't fall down, but the actual goal of architects is to make great buildings, not to make discoveries about statics.",
+      "zhMarkdown": "许多人希望黑客行为是数学，或者至少像自然科学一样。我认为黑客行为更像建筑。建筑与物理学相关，因为建筑师必须设计出不会倒塌的楼房，但建筑师的实际目标是建造伟大的建筑，而不是在静力学上做出新发现。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "63c88a02da54b42ada309fb683d499249f433570308a247c6904de48555a6ef7",
+      "enMarkdown": "What hackers like to do is make great programs. And I think, at least in our own minds, we have to remember that it's an admirable thing to write great programs, even when this work doesn't translate easily into the conventional intellectual currency of research papers. Intellectually, it is just as worthwhile to design a language programmers will love as it is to design a horrible one that embodies some idea you can publish a paper about.",
+      "zhMarkdown": "黑客喜欢做的是写出伟大的程序。我认为，至少在我们的内心深处，我们必须记住，写出伟大的程序是一件令人钦佩的事情，即使这项工作无法轻易转化为学术论文这种传统的知识货币。在智力层面上，设计一门让程序员热爱的语言，与设计一门难用得要命、但体现了某项能让你发表论文的思想的语言，是同样有价值的。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "e637fec2964bc269f5f7e1e4986b858eb05a90e0cd07f0195204018a9cca5fee",
+      "enMarkdown": "**1. How to Organize Big Libraries?**",
+      "zhMarkdown": "**1. 如何组织大型库？**"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "114fe155020fd32c0e85d89ba1f108975acbdf02bdff6428872dc97f6270a38e",
+      "enMarkdown": "Libraries are becoming an increasingly important component of programming languages. They're also getting bigger, and this can be dangerous. If it takes longer to find the library function that will do what you want than it would take to write it yourself, then all that code is doing nothing but make your manual thick. (The Symbolics manuals were a case in point.) So I think we will have to work on ways to organize libraries. The ideal would be to design them so that the programmer could guess what library call would do the right thing.",
+      "zhMarkdown": "库正成为编程语言中越来越重要的组成部分。它们也变得越来越庞大，这可能会带来危险。如果找到一个能满足你需求的库函数所花的时间，比你自己写一个还要长，那么所有这些代码除了让你的手册变厚之外，毫无用处。（Symbolics 的手册就是典型的例子。）因此，我认为我们必须在组织库的方法上下功夫。最理想的情况是，在设计库时，能让程序员猜出调用哪个库函数能实现正确的功能。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "89c3b4def24324d3bec254194a6b7833ee4687115a05144ad9539c0180198335",
+      "enMarkdown": "**2. Are People Really Scared of Prefix Syntax?**",
+      "zhMarkdown": "**2. 人们真的害怕前缀语法吗？**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "a0ea87775b3a1a13da60ae61a67b8727c56f0faf564943ca99c5bdc87974dd58",
+      "enMarkdown": "This is an open problem in the sense that I have wondered about it for years and still don't know the answer. Prefix syntax seems perfectly natural to me, except possibly for math. But it could be that a lot of Lisp's unpopularity is simply due to having an unfamiliar syntax. Whether to do anything about it, if it is true, is another question.  **3. What Do You Need for Server-Based Software?**  I think a lot of the most exciting new applications that get written in the next twenty years will be Web-based applications, meaning programs that sit on the server and talk to you through a Web browser. And to write these kinds of programs we may need some new things.",
+      "zhMarkdown": "这是一个悬而未决的问题，因为我已经琢磨了多年，却依然没有答案。前缀语法对我来说似乎非常自然，可能数学公式除外。但 Lisp 如此不受欢迎，很大程度上可能仅仅是因为它有一种人们不熟悉的语法。如果确实如此，是否要为此做点什么，则是另一个问题。  **3. 开发基于服务器的软件需要什么？**  我认为，在未来二十年里，写出来的许多最令人兴奋的新应用都将是基于 Web 的应用，也就是说，程序运行在服务器上，通过浏览器与你交互。为了编写这类程序，我们可能需要一些新的东西。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "d0c93d8fab74835c3b882ebf3d7b783c42a7ca25b8211fb6ca0024f7422b8819",
+      "enMarkdown": "One thing we'll need is support for the new way that server-based apps get released. Instead of having one or two big releases a year, like desktop software, server-based apps get released as a series of small changes. You may have as many as five or ten releases a day. And as a rule everyone will always use the latest version.",
+      "zhMarkdown": "我们需要的一样东西，是对基于服务器的应用发布新方式的支持。基于服务器的应用不像桌面软件那样每年只有一两次重大发布，而是通过一系列微小的改动来发布。你一天可能要发布五到十次。而且通常情况下，所有人使用的永远都是最新版本。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "a4827c998f567a8d98f71237f944881fcacecb3b64f5ea839d5e6c4de0e151ee",
+      "enMarkdown": "You know how you can design programs to be debuggable? Well, server-based software likewise has to be designed to be changeable. You have to be able to change it easily, or at least to know what is a small change and what is a momentous one.",
+      "zhMarkdown": "你知道如何将程序设计得易于调试，对吧？那么，基于服务器的软件同样必须设计得易于修改。你必须能够轻松地修改它，或者至少能分清什么是微调，什么是伤筋动骨的大改。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "0daa9f380997b037b2199a95d21bb416416a9e4a080ec06c8b5445efea1ac687",
+      "enMarkdown": "Another thing that might turn out to be useful for server based software, surprisingly, is continuations. In Web-based software you can use something like continuation-passing style to get the effect of [subroutines](https://paulgraham.com/lwba.html) in the inherently stateless world of a Web session. Maybe it would be worthwhile having actual continuations, if it was not too expensive.",
+      "zhMarkdown": "另一个对基于服务器的软件可能意外有用的东西，是延续（continuations）。在基于 Web 的软件中，你可以使用类似延续传递风格（continuation-passing style）的技术，在本质上无状态的 Web 会话世界中，实现类似[子程序](https://paulgraham.com/lwba.html)的效果。如果成本不太高的话，拥有真正的延续也许是值得的。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "a86d274fc4eb5eae8cd07dbcb4cf03e8d2cff5c9c379ea5f96a00d2d3056bf0f",
+      "enMarkdown": "**4. What New Abstractions Are Left to Discover?**",
+      "zhMarkdown": "**4. 还有哪些新抽象有待发现？**"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "73aa9b43951437b449c72e5820ca3328f0858817dd179d03727a30c0d53195db",
+      "enMarkdown": "I'm not sure how reasonable a hope this is, but one thing I would really love to do, personally, is discover a new abstraction-- something that would make as much of a difference as having first class functions or recursion or even keyword parameters. This may be an impossible dream. These things don't get discovered that often. But I am always looking.",
+      "zhMarkdown": "我不确定这个希望有多大，但我个人非常想做的一件事，就是发现一种新的抽象——这种抽象能像引入一等函数（first class functions）、递归甚至关键字参数那样，带来巨大的改变。这可能是一个无法实现的梦想，这类东西并不经常被发现。但我一直在寻找。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "90cf49aa5fe6bc168e1f9691dff1121a08d1d95c37aa3e0591d0760a9dab958a",
+      "enMarkdown": "**1. You Can Use Whatever Language You Want.**",
+      "zhMarkdown": "**1. 你可以使用任何你想用的语言。**"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "f737955029aa70ca23696b66b7fe9820fecbd9bb6a4c025430e3c5a1f652de54",
+      "enMarkdown": "Writing application programs used to mean writing desktop software. And in desktop software there is a big bias toward writing the application in the same language as the operating system. And so ten years ago, writing software pretty much meant writing software in C. Eventually a tradition evolved: application programs must not be written in unusual languages. And this tradition had so long to develop that nontechnical people like managers and venture capitalists also learned it.",
+      "zhMarkdown": "过去，写应用软件意味着写桌面软件。而在桌面软件中，人们有种强烈的倾向，即用与操作系统相同的语言来写应用软件。因此在十年前，写软件几乎就意味着用 C 语言写软件。久而久之，形成了一个传统：绝对不能用小众语言来写应用软件。这个传统发展了太久，以至于像经理和风险投资人这样的非技术人员也学会了这一套。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "bb72974af7e70466d3691650f909e5605605235da70541bcfd5689af3dcd3566",
+      "enMarkdown": "Server-based software blows away this whole model. With server-based software you can use any language you want. Almost nobody understands this yet (especially not managers and venture capitalists). A few hackers understand it, and that's why we even hear about new, indy languages like Perl and Python. We're not hearing about Perl and Python because people are using them to write Windows apps.",
+      "zhMarkdown": "基于服务器的软件彻底粉碎了这套模式。有了基于服务器的软件，你可以使用任何你想用的语言。现在几乎还没人明白这一点（尤其是经理和风险投资人）。少数黑客明白，这就是为什么我们甚至能听到像 Perl 和 Python 这样新兴、独立语言的名字。我们之所以听说 Perl 和 Python，并不是因为人们在用它们写 Windows 应用。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "7a72cd87ea967e939c68f9b057fc453b63a88b3c1fa0a2e909e46db8a3fc1e3e",
+      "enMarkdown": "What this means for us, as people interested in designing programming languages, is that there is now potentially an actual audience for our work.",
+      "zhMarkdown": "对于我们这些对设计编程语言感兴趣的人来说，这意味着我们的作品现在有了一个潜在的真实受众。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "31f94aebd2c29847ba371c073c0d1f0851501fc10df246a45dd93abe0870ecc3",
+      "enMarkdown": "**2. Speed Comes from Profilers.**",
+      "zhMarkdown": "**2. 速度来自性能分析器（Profilers）。**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "0ab624f9275b2677fb0ab50bf8da3c860e74ab140a4242b3a79911a0637210d5",
+      "enMarkdown": "Language designers, or at least language implementors, like to write compilers that generate fast code. But I don't think this is what makes languages fast for users. Knuth pointed out long ago that speed only matters in a few critical bottlenecks. And anyone who's tried it knows that you can't guess where these bottlenecks are. Profilers are the answer.",
+      "zhMarkdown": "语言设计师，或者至少是语言实现者，喜欢写出能生成快速代码的编译器。但我认为这不是让语言对用户来说变快的原因。高德纳（Knuth）很久以前就指出，速度只在少数关键瓶颈中起作用。任何尝试过的人都知道，你无法凭空猜测这些瓶颈在哪里。性能分析器才是答案。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "23485b425171bbf68062f148e71b734892c118d5ec527c9944cf9309600362e2",
+      "enMarkdown": "Language designers are solving the wrong problem. Users don't need benchmarks to run fast. What they need is a language that can show them what parts of their own programs need to be rewritten. That's where speed comes from in practice. So maybe it would be a net win if language implementors took half the time they would have spent doing compiler optimizations and spent it writing a good profiler instead.",
+      "zhMarkdown": "语言设计师解决错了问题。用户不需要基准测试运行得快。他们需要的是一门能够向他们展示自己的程序中哪些部分需要重写的语言。在实践中，速度就是这么来的。因此，如果语言实现者把原本花在编译器优化上的一半时间，省下来写一个优秀的性能分析器，那对整体而言可能会是一个净赢。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "5575c8c41251fd5464da6bdbf3565ac3ad29abf48f551a909eac0d075ab1e4d1",
+      "enMarkdown": "**3. You Need an Application to Drive the Design of a Language.**",
+      "zhMarkdown": "**3. 你需要一个应用来驱动语言的设计。**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "8f0c4b12b22a1b477cc8c1f7ec8c1ee4c0e6aec7e3af162713f733bf0b652b6b",
+      "enMarkdown": "This may not be an absolute rule, but it seems like the best languages all evolved together with some application they were being used to write. C was written by people who needed it for systems programming. Lisp was developed partly to do symbolic differentiation, and McCarthy was so eager to get started that he was writing differentiation programs even in the first paper on Lisp, in 1960.",
+      "zhMarkdown": "这可能不是一条绝对的铁律，但似乎最优秀的语言都是与它们所用来编写的某个应用共同演进的。C 语言是由需要它进行系统编程的人写出来的。Lisp 的开发部分是为了进行符号求导，麦卡锡（McCarthy）是如此急于开始，以至于在 1960 年关于 Lisp 的第一篇论文中，他就已经在写求导程序了。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "567d9358255473e2b6f74de6e037931a1dfb54c12a42b37e2060544244892ee2",
+      "enMarkdown": "It's especially good if your application solves some new problem. That will tend to drive your language to have new features that programmers need. I personally am interested in writing a language that will be good for writing server-based applications.",
+      "zhMarkdown": "如果你的应用解决的是某种新问题，那就更好了。这往往会驱动你的语言具备程序员需要的新特性。我个人对写一门适合编写基于服务器应用的语言很感兴趣。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "b81a18d5d160d1d12a33790de0569c654a8f667bd236c3ebf59eb6739feea6ba",
+      "enMarkdown": "[During the panel, Guy Steele also made this point, with the additional suggestion that the application should not consist of writing the compiler for your language, unless your language happens to be intended for writing compilers.]",
+      "zhMarkdown": "[在讨论会期间，Guy Steele 也提出了这一点，并补充建议，这个应用不应该包括为你的语言编写编译器，除非你的语言恰好就是为了写编译器而设计的。]"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "98e51737584d2f0aec6f0766595c1a2eab3d285da62610c546e42a359561425e",
+      "enMarkdown": "**4. A Language Has to Be Good for Writing Throwaway Programs.**",
+      "zhMarkdown": "**4. 一门语言必须适合写临时程序（Throwaway Programs）。**"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "067e7b0046feb419439385b79d681d135ba218f8f5c79e2205a6daf078328b8d",
+      "enMarkdown": "You know what a throwaway program is: something you write quickly for some limited task. I think if you looked around you'd find that a lot of big, serious programs started as throwaway programs. I would not be surprised if *most* programs started as throwaway programs. And so if you want to make a language that's good for writing software in general, it has to be good for writing throwaway programs, because that is the larval stage of most software.",
+      "zhMarkdown": "你知道什么是临时程序：为了某些有限的任务而快速写出来的东西。我认为如果你环顾四周，会发现许多大型、严肃的程序最初都是作为临时程序开始的。如果说*绝大多数*程序一开始都是临时程序，我一点也不会感到惊讶。因此，如果你想做一门适合写通用软件的语言，它必须适合写临时程序，因为那是大多数软件的幼虫阶段。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "4e977dff1512937a7000ad53422539865f985e4af435c04cba5353866dff9395",
+      "enMarkdown": "**5. Syntax Is Connected to Semantics.**",
+      "zhMarkdown": "**5. 语法与语义相连。**"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "d55fababb65f34c679642b60ae588b769b3b59722c9feb151639b13448815ae3",
+      "enMarkdown": "It's traditional to think of syntax and semantics as being completely separate. This will sound shocking, but it may be that they aren't. I think that what you want in your language may be related to how you express it.",
+      "zhMarkdown": "传统观点认为语法和语义是完全分开的。这听起来可能令人震惊，但也许它们并非如此。我认为，你想在语言中实现什么，可能与你如何表达它息息相关。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "4a35db52be49c2026408df3e96e3cb6dc6d75956cbf818b8f143026e38c47d6a",
+      "enMarkdown": "I was talking recently to Robert Morris, and he pointed out that operator overloading is a bigger win in languages with infix syntax. In a language with prefix syntax, any function you define is effectively an operator. If you want to define a plus for a new type of number you've made up, you can just define a new function to add them. If you do that in a language with infix syntax, there's a big difference in appearance between the use of an overloaded operator and a function call.",
+      "zhMarkdown": "我最近和 Robert Morris 聊天，他指出，在具有中缀语法的语言中，运算符重载是一个更大的优势。在具有前缀语法的语言中，你定义的任何函数实际上都是一个运算符。如果你想为自己创建的新数字类型定义一个加号，你只需定义一个新函数来相加即可。如果你在具有中缀语法的语言中这样做，使用重载运算符和进行函数调用在外观上会有很大的不同。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "6f8faa7bf736a10121102fad23841f250731d47d77b0f4be13be91cc3de49d31",
+      "enMarkdown": "**1. New Programming Languages.**",
+      "zhMarkdown": "**1. 新的编程语言。**"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "0d7d3ebc8c083ce609762ec210eb20f7626c90baf16f1a642c23a35785044440",
+      "enMarkdown": "Back in the 1970s it was fashionable to design new programming languages. Recently it hasn't been. But I think server-based software will make new languages fashionable again. With server-based software, you can use any language you want, so if someone does design a language that actually seems better than others that are available, there will be people who take a risk and use it.",
+      "zhMarkdown": "回到 20 世纪 70 年代，设计新的编程语言是一种时尚。最近则不流行了。但我认为基于服务器的软件将使新语言再次成为时尚。有了基于服务器的软件，你可以使用任何你想用的语言，因此如果有人真的设计出了一门看起来比现有语言更好的语言，就会有人冒险去使用它。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "8a9fad761ea1d4b6af206fc4d8fbfc3656e62d74152e5386bf20820212afab6c",
+      "enMarkdown": "**2. Time-Sharing.**",
+      "zhMarkdown": "**2. 分时系统（Time-Sharing）。**"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "7fe6d8297683339a6966a832b0a4f403c74384c6c7dc2066e190797c42c1decc",
+      "enMarkdown": "Richard Kelsey gave this as an idea whose time has come again in the last panel, and I completely agree with him. My guess (and Microsoft's guess, it seems) is that much computing will move from the desktop onto remote servers. In other words, time-sharing is back. And I think there will need to be support for it at the language level. For example, I know that Richard and Jonathan Rees have done a lot of work implementing process scheduling within Scheme 48.",
+      "zhMarkdown": "Richard Kelsey 在上一场讨论会中提出，这是一个时代已经再次来临的想法，我完全同意他的看法。我的猜测（似乎也是微软的猜测）是，大部分计算将从桌面转移到远程服务器上。换句话说，分时系统回来了。我认为在语言层面需要对此提供支持。例如，我知道 Richard 和 Jonathan Rees 在 Scheme 48 中做了大量实现进程调度的研究工作。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "a8b9c7e6b68ca491b26d44788d1dc4cd40ed8d312f44c50e0112abaa700e7de1",
+      "enMarkdown": "**3. Efficiency.**",
+      "zhMarkdown": "**3. 效率。**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "1761ec6384c523ac1ac32e6e7301d2e9e0e4d7b47b71acc2a5db4e73cb8c0b79",
+      "enMarkdown": "Recently it was starting to seem that computers were finally fast enough. More and more we were starting to hear about byte code, which implies to me at least that we feel we have cycles to spare. But I don't think we will, with server-based software. Someone is going to have to pay for the servers that the software runs on, and the number of users they can support per machine will be the divisor of their capital cost.",
+      "zhMarkdown": "最近，人们开始觉得计算机终于足够快了。我们越来越多地听到关于字节码的消息，这至少向我暗示，我们觉得有富余的 CPU 周期可以挥霍。但我认为，对于基于服务器的软件，我们不会有这种奢侈。必须有人为软件运行的服务器买单，而每台机器能支持的用户数量将是其资本成本的分母。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "e2bf71640588c7a91e8273eb93d5a6c9216e5bfb0fca73e856b1d7f3feee0d1b",
+      "enMarkdown": "So I think efficiency will matter, at least in computational bottlenecks. It will be especially important to do i/o fast, because server-based applications do a lot of i/o.",
+      "zhMarkdown": "因此我认为效率至关重要，至少在计算瓶颈上是这样。快速进行 I/O 将尤为重要，因为基于服务器的应用会进行大量的 I/O。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "c27ddcacf3dc05163f7a5131e2a32f0b6e7badabdd3b8568ceeca3464f9b23b8",
+      "enMarkdown": "It may turn out that byte code is not a win, in the end. Sun and Microsoft seem to be facing off in a kind of a battle of the byte codes at the moment. But they're doing it because byte code is a convenient place to insert themselves into the process, not because byte code is in itself a good idea. It may turn out that this whole battleground gets bypassed. That would be kind of amusing.",
+      "zhMarkdown": "最终可能会发现，字节码并不是个好主意。Sun 和微软目前似乎正在展开一场字节码大战。但他们之所以这么做，是因为字节码是他们介入开发流程的一个便利位置，而不是因为字节码本身是一个好主意。最后，这整个战场可能会被绕过去。那将是一件挺有意思的事。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "5167b6c04d88779aa4de51cab8ec9bbed3f8588a672e30c29e1fe3733783ae9f",
+      "enMarkdown": "**1. Clients.**",
+      "zhMarkdown": "**1. 客户端。**"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "ec35c93cba4f5c594d356733fdb81ffaae1691d7c6a4b2da797119cf6897b5fc",
+      "enMarkdown": "This is just a guess, but my guess is that the winning model for most applications will be purely server-based. Designing software that works on the assumption that everyone will have your client is like designing a society on the assumption that everyone will just be honest. It would certainly be convenient, but you have to assume it will never happen.",
+      "zhMarkdown": "这只是一个猜测，但我猜测大多数应用的最佳模式将是纯粹基于服务器的。设计软件时假设每个人都会有你的客户端，就像设计社会时假设每个人都会保持诚实一样。这固然很方便，但你必须假设这永远不会发生。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "84549ddfac399e4df9fe6312882ce18807b73c304fd6b63b62afab8d8c7e5313",
+      "enMarkdown": "I think there will be a proliferation of devices that have some kind of Web access, and all you'll be able to assume about them is that they can support simple html and forms. Will you have a browser on your cell phone? Will there be a phone in your palm pilot? Will your blackberry get a bigger screen? Will you be able to browse the Web on your gameboy? Your watch? I don't know. And I don't have to know if I bet on everything just being on the server. It's just so much more robust to have all the [brains on the server](https://paulgraham.com/road.html).",
+      "zhMarkdown": "我认为能够访问 Web 的设备将会激增，而你对它们唯一能做的假设就是它们支持简单的 HTML 和表单。你的手机上会有浏览器吗？你的 Palm 会有电话功能吗？你的 Blackberry 会换上更大的屏幕吗？你能在 Gameboy 上浏览网页吗？你的手表上呢？我不知道。如果我押注一切都留在服务器上，我就不需要知道。把所有的[大脑都留在服务器上](https://paulgraham.com/road.html)要健壮得多。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "cd8d5904b105310e958ac434a5423785d47f271efb8a47d72928cb37d445704c",
+      "enMarkdown": "**2. Object-Oriented Programming.**",
+      "zhMarkdown": "**2. 面向对象编程。**"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "56cf1ed391cd5ea262a006813eb4372c2ebe684f8ca0241d75e3b05ea8d4c36a",
+      "enMarkdown": "I realize this is a controversial one, but I don't think object-oriented programming is such a big deal. I think it is a fine model for certain kinds of applications that need that specific kind of data structure, like window systems, simulations, and cad programs. But I don't see why it ought to be the model for all programming.",
+      "zhMarkdown": "我知道这是一个有争议的话题，但我认为面向对象编程没什么大不了的。我认为对于某些需要特定数据结构的应用（如窗口系统、模拟和 CAD 程序）来说，它是一个很好的模式。但我看不出为什么它应该成为所有编程的模式。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "7722df3859a417a3e06d88ea285ec24649bace2be55e6173afd970eceef1df62",
+      "enMarkdown": "I think part of the reason people in big companies like object-oriented programming is because it yields a lot of what looks like work. Something that might naturally be represented as, say, a list of integers, can now be represented as a class with all kinds of scaffolding and hustle and bustle.",
+      "zhMarkdown": "我认为大公司的人喜欢面向对象编程的部分原因，是因为它能产生大量看起来像是在工作的事情。原本可以很自然地表示为（比如）一个整数列表的东西，现在可以表示为一个带有各种脚手架和忙忙碌碌的类。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "c2fc3da3ad9a6a519893c5a08c88d599116faae590c03a15fb7cbc480286d720",
+      "enMarkdown": "Another attraction of object-oriented programming is that methods give you some of the effect of first class functions. But this is old news to Lisp programmers. When you have actual first class functions, you can just use them in whatever way is appropriate to the task at hand, instead of forcing everything into a mold of classes and methods.",
+      "zhMarkdown": "面向对象编程的另一个吸引力在于，方法（methods）能给你带来一些一等函数的效果。但这对 Lisp 程序员来说已经是陈年旧事了。当你拥有真正的一等函数时，你可以以任何适合手头任务的方式使用它们，而不用强行把所有东西都塞进类和方法的模具中。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "b72c1680b39917361fc6678cffd8af756885554b17d1500c01840f0503b5e650",
+      "enMarkdown": "What this means for language design, I think, is that you shouldn't build object-oriented programming in too deeply. Maybe the answer is to offer more general, underlying stuff, and let people design whatever object systems they want as libraries.",
+      "zhMarkdown": "我认为，这对语言设计的启示是，你不应该把面向对象编程构建得太深。也许答案是提供更通用、更底层的东西，让人们以库的形式设计他们想要的任何对象系统。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "e3f2319724a87d9c2baae235110ff4d2589536bb604a15f01dc6471ddfc9b88c",
+      "enMarkdown": "**3. Design by Committee.**",
+      "zhMarkdown": "**3. 委员会设计。**"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "2cd353e468a64506f575aa3ad69428773b661079f6ba1ef99a556fdf8caac2e8",
+      "enMarkdown": "Having your language designed by a committee is a big pitfall, and not just for the reasons everyone knows about. Everyone knows that committees tend to yield lumpy, inconsistent designs. But I think a greater danger is that they won't take risks. When one person is in charge he can take risks that a committee would never agree on.",
+      "zhMarkdown": "让委员会来设计你的语言是一个巨大的陷阱，而且不仅仅是因为大家都知道的那些原因。大家都知道委员会往往会产生臃肿、不一致的设计。但我认为更大的危险在于他们不会冒险。当一个人负责时，他可以冒委员会永远不会同意的险。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "c8b473c5b03f7d89e604e84e3f0f33f9e13cd6117fe5857da217400c9de054b3",
+      "enMarkdown": "Is it necessary to take risks to design a good language though? Many people might suspect that language design is something where you should stick fairly close to the conventional wisdom. I bet this isn't true. In everything else people do, reward is proportionate to risk. Why should language design be any different?",
+      "zhMarkdown": "不过，设计一门好的语言必须冒险吗？许多人可能会怀疑，语言设计是一件你应该紧跟传统智慧的事情。我打赌这不是真的。在人类做的其他所有事情中，回报与风险都是成正比的。为什么语言设计会有所不同呢？"
+    }
+  ]
+}

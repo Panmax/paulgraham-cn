@@ -1,0 +1,209 @@
+{
+  "slug": "kids",
+  "titleEn": "Having Kids",
+  "titleZh": "生儿育女",
+  "dateText": "December 2019",
+  "publishedAt": "2019-12-01",
+  "sourceOrder": 1,
+  "sourceUrl": "https://paulgraham.com/kids.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "7ac9df4f5555f67c89a180f06185f680878e9c001fe4f30820afd109abd242c5",
+      "enMarkdown": "Before I had kids, I was afraid of having kids. Up to that point I felt about kids the way the young Augustine felt about living virtuously. I'd have been sad to think I'd never have children. But did I want them now? No.",
+      "zhMarkdown": "在有孩子之前，我很害怕生孩子。在那之前，我对生孩子的态度，就像年轻时的奥古斯丁对待过美德生活一样：如果想到这辈子都不会有孩子，我会感到遗憾；但要问我现在想不想要？一点也不想。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "7ba413b2b1803fc2f1b3907674ea52af219964b1a0f66183455dc6b90015ae1e",
+      "enMarkdown": "If I had kids, I'd become a parent, and parents, as I'd known since I was a kid, were uncool. They were dull and responsible and had no fun. And while it's not surprising that kids would believe that, to be honest I hadn't seen much as an adult to change my mind. Whenever I'd noticed parents with kids, the kids seemed to be terrors, and the parents pathetic harried creatures, even when they prevailed.",
+      "zhMarkdown": "如果有了孩子，我就会变成父母。而从我还是个孩子起，我就知道父母是一群“不酷”的人。他们无聊、死板、毫无乐趣。虽然小孩子这么想并不奇怪，但说实话，即便成年后，我也没有看到太多能改变这一想法的证据。每当我注意到带孩子的父母时，孩子们似乎总是令人头疼的恶魔，而父母则是疲于奔命的可怜虫，即便他们最终搞定了局面，也是一副狼狈相。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b2336ae04e0bfe591a7dbd9a108525e59724d08eaae2afb16a501b2bac6cd788",
+      "enMarkdown": "When people had babies, I congratulated them enthusiastically, because that seemed to be what one did. But I didn't feel it at all. \"Better you than me,\" I was thinking.",
+      "zhMarkdown": "以前别人有了宝宝，我都会热情地向他们道喜，因为大家都这么做。但我内心毫无波动，心想的其实是：“还好是你，不是我。”"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "0e6d9a7335e8464aab83d1d343e70d1a9d43c67c60e1e98868f9a96a53410d7e",
+      "enMarkdown": "Now when people have babies I congratulate them enthusiastically and I mean it. Especially the first one. I feel like they just got the best gift in the world.",
+      "zhMarkdown": "而现在，当别人有了宝宝，我同样会热情地向他们道喜，并且是真心实意的。尤其是生第一个孩子的时候。我觉得他们刚刚得到了世界上最棒的礼物。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "ff1e0883181e257590e120126d4ea6a39cb727899e3b66f0298cfd6628fc3f4e",
+      "enMarkdown": "What changed, of course, is that I had kids. Something I dreaded turned out to be wonderful.",
+      "zhMarkdown": "变化的根源，当然是因为我自己有了孩子。一件我曾深感恐惧的事，结果却美妙无比。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "423465f10b56b05bcc007c1efdd9dfb4761a06fd910d610d2cff9efb9e72d65c",
+      "enMarkdown": "Partly, and I won't deny it, this is because of serious chemical changes that happened almost instantly when our first child was born. It was like someone flipped a switch. I suddenly felt protective not just toward our child, but toward all children. As I was driving my wife and new son home from the hospital, I approached a crosswalk full of pedestrians, and I found myself thinking \"I have to be really careful of all these people. Every one of them is someone's child!\"",
+      "zhMarkdown": "不可否认，这部分源于生理上的剧烈变化，它们在我们第一个孩子出生时几乎瞬间发生。就像有人合上了电闸。我突然不仅想保护自己的孩子，还想保护所有的孩子。当我开车接妻子和新生儿子从医院回家时，路过一个挤满行人的十字路口，我发现自己不由自主地想：“我得非常小心这些人，他们每一个人都是某个人的孩子啊！”"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "75126ac400ea10275043313c13ab60cd6f7cf8984298057076ee29681dfb5a95",
+      "enMarkdown": "So to some extent you can't trust me when I say having kids is great. To some extent I'm like a religious cultist telling you that you'll be happy if you join the cult too � but only because joining the cult will alter your mind in a way that will make you happy to be a cult member.",
+      "zhMarkdown": "所以，在某种程度上，当我说生孩子很棒时，你大可不必完全相信我。在某种程度上，我就像一个宗教狂热分子，告诉你只要加入教会就会幸福——但那只是因为加入教会改变了你的心智，让你在成为信徒后感到快乐。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "461e36e6cb666ee6af5af1ae2e2bd602e29bd092513e6f2661360588580b5e19",
+      "enMarkdown": "But not entirely. There were some things about having kids that I clearly got wrong before I had them.",
+      "zhMarkdown": "但也不完全是这样。关于生孩子这件事，在我自己有孩子之前，显然有很多事情是我想错了的。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "b2e900e3a388832856e37d8e6020e44146134267ddbc7b7bcda93f9a505f12b7",
+      "enMarkdown": "For example, there was a huge amount of selection bias in my observations of parents and children. Some parents may have noticed that I wrote \"Whenever I'd noticed parents with kids.\" Of course the times I noticed kids were when things were going wrong. I only noticed them when they made noise. And where was I when I noticed them? Ordinarily I never went to places with kids, so the only times I encountered them were in shared bottlenecks like airplanes. Which is not exactly a representative sample. Flying with a toddler is something very few parents enjoy.",
+      "zhMarkdown": "比如，我以前对父母和孩子的观察存在极大的“幸存者偏差”（选择性偏差）。细心的读者可能注意到了，我前面写的是“每当我注意到带孩子的父母时”。显然，我注意到孩子的时候，往往是出状况的时候。只有在他们大吵大闹时，我才会注意到他们。而我是在哪里注意到他们的？平时我根本不去有孩子的地方，所以只有在飞机这种共同的交通瓶颈中才会遇到他们。这可不是什么代表性样本。带一个刚学会走路的孩子坐飞机，几乎没有哪个父母会觉得好受。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "345ecf08c09db3e535a0ab75d8fac2e3c7e6def8b67228e592646d332b40f846",
+      "enMarkdown": "What I didn't notice, because they tend to be much quieter, were all the great moments parents had with kids. People don't talk about these much � the magic is hard to put into words, and all other parents know about them anyway � but one of the great things about having kids is that there are so many times when you feel there is nowhere else you'd rather be, and nothing else you'd rather be doing. You don't have to be doing anything special. You could just be going somewhere together, or putting them to bed, or pushing them on the swings at the park. But you wouldn't trade these moments for anything. One doesn't tend to associate kids with peace, but that's what you feel. You don't need to look any further than where you are right now.",
+      "zhMarkdown": "我没有注意到的，是父母和孩子在一起的那些美好时刻，因为这些时刻往往安静得多。人们不怎么谈论这些——这种奇妙很难用言语表达，而且其他父母自然也都懂——但有孩子最棒的一点在于，有太多时刻会让你觉得，此时此刻，你不想去世界上任何其他地方，也不想做任何其他事情。你不需要在做什么特别的事，可能只是和他们一起走在路上，或者哄他们睡觉，又或者在公园里推着他们荡秋千。但你绝不会拿这些时刻去换取任何东西。人们通常不会把孩子与“平静”联系在一起，但这恰恰就是你的感受。你不需要在当下的立足之地以外，再去寻找任何别的东西。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "b376fe4306bfbf027c3a08c2de199473f864144100d9868dfcc662f885f4d60e",
+      "enMarkdown": "Before I had kids, I had moments of this kind of peace, but they were rarer. With kids it can happen several times a day.",
+      "zhMarkdown": "在有孩子之前，我也曾有过这种平静的时刻，但极为罕见。而有了孩子之后，这种感觉一天能出现好几次。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "32017b2d5203587e1ed8b194f3eb6ba1f5df7c40f69af9974326c2fd1c96e3f6",
+      "enMarkdown": "My other source of data about kids was my own childhood, and that was similarly misleading. I was pretty bad, and was always in trouble for something or other. So it seemed to me that parenthood was essentially law enforcement. I didn't realize there were good times too.",
+      "zhMarkdown": "我关于孩子的另一个数据源是我自己的童年，而这同样具有误导性。我小时候挺淘气的，总是因为这事那事挨罚。所以在我的印象中，当父母本质上就是当警察，在维持法纪。我当时并不知道，原来当父母也有很多快乐的时光。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c059e153bd62cca15651db15d61a61505a3ef844a0377f6d48712e901fd79256",
+      "enMarkdown": "I remember my mother telling me once when I was about 30 that she'd really enjoyed having me and my sister. My god, I thought, this woman is a saint. She not only endured all the pain we subjected her to, but actually enjoyed it? Now I realize she was simply telling the truth.",
+      "zhMarkdown": "我记得在我 30 岁左右的时候，我母亲有一次告诉我，她真的很享受抚养我和我妹妹的过程。天呐，我当时想，这个女人简直是个圣人。她不仅忍受了我们带给她的所有折磨，居然还乐在其中？现在我明白了，她当时只是在说实话。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "6986b042fc49678d4e71f4d5cecdcb39a01bb469a1ef87b287dd552d55e989aa",
+      "enMarkdown": "She said that one reason she liked having us was that we'd been interesting to talk to. That took me by surprise when I had kids. You don't just love them. They become your friends too. They're really interesting. And while I admit small children are disastrously fond of repetition (anything worth doing once is worth doing fifty times) it's often genuinely fun to play with them. That surprised me too. Playing with a 2 year old was fun when I was 2 and definitely not fun when I was 6. Why would it become fun again later? But it does.",
+      "zhMarkdown": "她说，她喜欢带我们的原因之一是，和我们聊天很有意思。这在我有了孩子之后也让我感到意外。你不仅仅是爱他们，他们还会成为你的朋友，他们真的非常有趣。虽然我承认小孩子对“重复”有着灾难性的狂热（任何值得做一次的事情，都值得做上五十次），但和他们一起玩往往是纯粹的快乐。这也让我感到惊讶。当我 2 岁时，和一个 2 岁的孩子玩很有趣；但我 6 岁时，这绝对无趣。为什么等自己年纪大了，这又重新变得有趣起来了呢？但事实就是如此。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5ebb7649ec29a6c1a2e798ed3452a4d4c2bacfff12281879a4f9062e46459643",
+      "enMarkdown": "There are of course times that are pure drudgery. Or worse still, terror. Having kids is one of those intense types of experience that are hard to imagine unless you've had them. But it is not, as I implicitly believed before having kids, simply your DNA heading for the lifeboats.",
+      "zhMarkdown": "当然，也有一些时候纯粹是苦差事，甚至更糟，是惊吓。生孩子是那种极度深刻的体验，除非你亲身经历，否则很难想象。但它绝不只是“你的 DNA 在奔向救生艇”——这是我在有孩子之前私下里持有的悲观想法。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "328960501b96f2f51a4cf1e6c94e37a28f65195c01687cb849a674836b71dfdc",
+      "enMarkdown": "Some of my worries about having kids were right, though. They definitely make you less productive. I know having kids makes some people get their act together, but if your act was already together, you're going to have less time to do it in. In particular, you're going to have to work to a schedule. Kids have schedules. I'm not sure if it's because that's how kids are, or because it's the only way to integrate their lives with adults', but once you have kids, you tend to have to work on their schedule.",
+      "zhMarkdown": "不过，我以前对生孩子的一些担忧确实没错。它们绝对会降低你的工作效率。我知道生孩子会让一些人开始打理好自己的生活，但如果你的生活本来就井井有条，那么你用来做事的时间必定会减少。特别是，你必须按照日程表来工作。孩子是有日程表的。我不确定是因为孩子天生如此，还是因为这是将他们的生活与成人的生活融合在一起的唯一方式，但一旦你有了孩子，你就不得不按照他们的日程表来行事。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "d0aefe2e326b5a2837bff2cb8507a68ebbc2f23ac02d0685c66b655361670993",
+      "enMarkdown": "You will have chunks of time to work. But you can't let work spill promiscuously through your whole life, like I used to before I had kids. You're going to have to work at the same time every day, whether inspiration is flowing or not, and there are going to be times when you have to stop, even if it is.",
+      "zhMarkdown": "你依然会有大块的时间来工作。但你不能再像我以前那样，让工作肆无忌惮地渗透到你生活的每个角落。你必须每天在固定的时间工作，无论当时灵感是否在涌现；而且也总会有时间到了你必须停下来的时候，哪怕此时灵感正源源不断。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "9441be8b0d57bfcc40bdca2607e3afa0f9e3ca5a966a97109856c2914fdb199d",
+      "enMarkdown": "I've been able to adapt to working this way. Work, like love, finds a way. If there are only certain times it can happen, it happens at those times. So while I don't get as much done as before I had kids, I get enough done.",
+      "zhMarkdown": "我已经能够适应这种工作方式了。工作和爱一样，总能找到出路。如果只有特定的时间能做，那就在那些时间做。所以，虽然我做成的事情没有以前那么多，但也足够了。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "cf602e0720443b5f3ad1ff0848a0910514a276d98e18c44a51ac3af4aa267de9",
+      "enMarkdown": "I hate to say this, because being ambitious has always been a part of my identity, but having kids may make one less ambitious. It hurts to see that sentence written down. I squirm to avoid it. But if there weren't something real there, why would I squirm? The fact is, once you have kids, you're probably going to care more about them than you do about yourself. And attention is a zero-sum game. Only one idea at a time can be the [top idea in your mind](https://paulgraham.com/top.html). Once you have kids, it will often be your kids, and that means it will less often be some project you're working on.",
+      "zhMarkdown": "我很不想承认这一点，因为雄心壮志一直是我自我认同的一部分，但生孩子确实可能会让人变得不那么有野心。看着这句话被写下来，我心里挺难受的，甚至想方设法去回避它。但如果这不是事实，我为什么要回避呢？事实就是，一旦你有了孩子，你大概率会关心他们胜过关心自己。而注意力是一个零和博弈。在任何特定的时刻，你的脑海中只能有[一个占据首位的想法](https://paulgraham.com/top.html)。一旦有了孩子，这个想法往往会是你的孩子，这意味着它留给你正在做的事情的时间就会变少。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "b739df82d4936e86d19abbace18d0c5c8eac4c65d2c3c6b1181e525769b76254",
+      "enMarkdown": "I have some hacks for sailing close to this wind. For example, when I write essays, I think about what I'd want my kids to know. That drives me to get things right. And when I was writing [Bel](https://paulgraham.com/bel.html), I told my kids that once I finished it I'd take them to Africa. When you say that sort of thing to a little kid, they treat it as a promise. Which meant I had to finish or I'd be taking away their trip to Africa. Maybe if I'm really lucky such tricks could put me net ahead. But the wind is there, no question.",
+      "zhMarkdown": "我有一些小技巧来应对这种逆风。例如，当我写文章时，我会思考我希望我的孩子们知道些什么，这驱使我把事情想得更透彻。我在写 [Bel](https://paulgraham.com/bel.html) 的时候，告诉孩子们等我写完就带他们去非洲。当你对一个小孩子说这种话时，他们会当成是一句承诺。这意味着我必须完成，否则就是剥夺了他们的非洲之旅。如果我足够幸运，这些技巧或许能让我不降反升。但这种逆风是确实存在的，毫无疑问。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "166166ec3d7e8cf84f271738379f2c977cca50969eb87b837f1cd5d88ba731c6",
+      "enMarkdown": "On the other hand, what kind of wimpy ambition do you have if it won't survive having kids? Do you have so little to spare?",
+      "zhMarkdown": "但换个角度想，如果你的野心连有了孩子都经受不住，那这种野心也未免太软弱了吧？难道你的野心就这么点余额吗？"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "cd2ce3971de27bd885c15e594330c95b52e6e4b0bd085e2483c1f1dfc8a98bff",
+      "enMarkdown": "And while having kids may be warping my present judgement, it hasn't overwritten my memory. I remember perfectly well what life was like before. Well enough to miss some things a lot, like the ability to take off for some other country at a moment's notice. That was so great. Why did I never do that?",
+      "zhMarkdown": "虽然有了孩子可能会影响我当下的判断力，但它并没有抹去我的记忆。我非常清楚地记得以前的生活是什么样子的。清楚到我依然非常怀念某些事情，比如那种随时可以拔腿飞往另一个国家的自由。那感觉太棒了。可我以前为什么从来没这么做过呢？"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "3cf6c54d37d733dffd7100329d3afbab01b2c4b795bf1bd0324e73dfaa807298",
+      "enMarkdown": "See what I did there? The fact is, most of the freedom I had before kids, I never used. I paid for it in loneliness, but I never used it.",
+      "zhMarkdown": "看出我的问题了吗？事实是，在有孩子之前我拥有的绝大部分自由，我其实从未真正使用过。我为了这种自由付出了孤独的代价，却从未真正消费它。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "d43e129a4ce490ee2048296950d2e676cf3997b7e8d000d2ddf7d52e1f9e9f14",
+      "enMarkdown": "I had plenty of happy times before I had kids. But if I count up happy moments, not just potential happiness but actual happy moments, there are more after kids than before. Now I practically have it on tap, almost any bedtime.",
+      "zhMarkdown": "在有孩子之前，我有很多快乐的时光。但如果我计算快乐的时刻——不是潜在的快乐，而是实实在在的快乐时刻——有孩子之后的快乐时刻要比以前多得多。现在，几乎每天到了睡觉时间，这种快乐就如自来水般源源不断。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "7c3580f33c999cb972b830f9869ac90db62ce72b9f7fd58294a8f00fed3568b8",
+      "enMarkdown": "People's experiences as parents vary a lot, and I know I've been lucky. But I think the worries I had before having kids must be pretty common, and judging by other parents' faces when they see their kids, so must the happiness that kids bring.",
+      "zhMarkdown": "每个人的育儿经历差异很大，我知道自己很幸运。但我认为，我在有孩子之前的那些担忧一定非常普遍；而从其他父母看到孩子时的表情来判断，孩子带来的幸福感也同样普遍。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "cb2e4b1e444af938e956fc80ac4de558fd2034bccd29a37e568660d19be8a971",
+      "enMarkdown": "**Note**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "b73650c9b6d574423ef496757c7ac22d3d846a8452e9fc684c73be2106fb13a1",
+      "enMarkdown": "[1] Adults are sophisticated enough to see 2 year olds for the fascinatingly complex characters they are, whereas to most 6 year olds, 2 year olds are just defective 6 year olds.",
+      "zhMarkdown": "[1] 成年人足够成熟，能够看出 2 岁孩子身上那令人着迷的复杂性格；而对大多数 6 岁孩子来说，2 岁孩子不过是发育不全的 6 岁孩子罢了。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "1cab82e8aaad533b7e3b9e71bb822c0c1f6c2d8d0b4dd1b3b6963454fff84e1f",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

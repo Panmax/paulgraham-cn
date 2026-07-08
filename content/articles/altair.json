@@ -1,0 +1,55 @@
+{
+  "slug": "altair",
+  "titleEn": "What Microsoft Is this the Altair Basic of?",
+  "titleZh": "这会是哪家微软的 Altair Basic？",
+  "dateText": "February 2015",
+  "publishedAt": "2015-02-01",
+  "sourceOrder": 68,
+  "sourceUrl": "https://paulgraham.com/altair.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "924586c2ee2a7f49aa145e471d27e3b7369fee6efdd98004fa23584f1e3897d1",
+      "enMarkdown": "One of the most valuable exercises you can try if you want to understand startups is to look at the most successful companies and explain why they were not as lame as they seemed when they first launched. Because they practically all seemed lame at first. Not just small, lame. Not just the first step up a big mountain. More like the first step into a swamp.",
+      "zhMarkdown": "如果你想理解创业公司，最值得尝试的练习之一就是去观察那些最成功的公司，并解释为什么它们在刚推出时并不像看起来那么微不足道。因为几乎所有公司最初看起来都很不起眼。不仅是规模小，而且显得微不足道。那感觉不像是登上一座大山的第一步，倒更像是迈向泥潭的第一步。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2b9ad37b8265126d6ca467f8460a48b0bf33587f5269fc4e48f9959ce242df8d",
+      "enMarkdown": "A Basic interpreter for the Altair? How could that ever grow into a giant company? People sleeping on airbeds in strangers' apartments? A web site for college students to stalk one another? A wimpy little single-board computer for hobbyists that used a TV as a monitor? A new search engine, when there were already about 10, and they were all trying to de-emphasize search? These ideas didn't just seem small. They seemed wrong. They were the kind of ideas you could not merely ignore, but ridicule.",
+      "zhMarkdown": "给 Altair 电脑写一个 Basic 解释器？这怎么可能成长为一家巨头公司？让人睡在陌生人公寓的气垫床上面？一个让大学生互相窥探的网站？一个给业余爱好者用、拿电视机当显示器的简陋单板计算机？一个全新的搜索引擎，而当时市面上已经有大约 10 个搜索引擎，且大家都在试图淡化搜索业务？这些想法不仅看起来微不足道，甚至看起来是错的。它们属于那种你不仅可以忽略、甚至可以尽情嘲笑的想法。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "de967dc7b02acfd86e40b15f1376d35c2e9e79b66c48d5fce4aeeeabd021275a",
+      "enMarkdown": "Often the founders themselves didn't know why their ideas were promising. They were attracted to these ideas by instinct, because they were [living in the future](https://paulgraham.com/startupideas.html) and they sensed that something was missing. But they could not have put into words exactly how their ugly ducklings were going to grow into big, beautiful swans.",
+      "zhMarkdown": "通常，创始人自己也说不清为什么他们的想法很有前景。他们被这些想法吸引是出于直觉，因为他们[生活在未来](https://paulgraham.com/startupideas.html)，隐约感觉到缺少了点什么。但他们无法用语言准确地描述出，这些丑小鸭日后将如何蜕变成美丽巨大的白天鹅。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "fde2e8ef89a9c149cfe313056f47d765356eb195457344b10bf28685f3a1a0e1",
+      "enMarkdown": "Most people's first impulse when they hear about a lame-sounding new startup idea is to make fun of it. Even a lot of people who should know better.",
+      "zhMarkdown": "大多数人听到一个听起来很不起眼的创业新想法时，第一反应就是嘲笑它。甚至许多本该更有见识的人也是如此。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f862cb6f6792b786919e521b6d4f07720972db7705eafcec69b52ab059682df4",
+      "enMarkdown": "When I encounter a startup with a lame-sounding idea, I ask \"What Microsoft is this the Altair Basic of?\" Now it's a puzzle, and the burden is on me to solve it. Sometimes I can't think of an answer, especially when the idea is a made-up one. But it's remarkable how often there does turn out to be an answer. Often it's one the founders themselves hadn't seen yet.",
+      "zhMarkdown": "当我遇到一个听起来很不起眼的创业想法时，我会问自己：“这会是哪家微软的 Altair Basic？” 这样一来，它就变成了一个谜题，而解开它的责任就在我身上了。有时我确实想不出答案，尤其是当那个想法是凭空捏造出来的时候。但令人惊讶的是，通常情况下，最终总能找到答案。而且这个答案往往连创始人自己都还没有发现。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "bf1dc0d5551392c671e90e78e382fa4217b243a7e648b30024434902ebcf1584",
+      "enMarkdown": "Intriguingly, there are sometimes multiple answers. I talked to a startup a few days ago that could grow into 3 distinct Microsofts. They'd probably vary in size by orders of magnitude. But you can never predict how big a Microsoft is going to be, so in cases like that I encourage founders to follow whichever path is most immediately exciting to them. Their instincts got them this far. Why stop now?",
+      "zhMarkdown": "有趣的是，有时甚至会存在多个答案。几天前我聊过的一家创业公司，它有可能成长为 3 种完全不同的“微软”。这三者的规模可能会有数量级的差距。但你永远无法预测一个“微软”能做多大，所以在这种情况下，我鼓励创始人去选择最能让他们立刻兴奋起来的那条路。既然他们的直觉已经带他们走到了这一步，为什么现在要停下来呢？"
+    }
+  ]
+}

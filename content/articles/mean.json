@@ -1,0 +1,167 @@
+{
+  "slug": "mean",
+  "titleEn": "Mean People Fail",
+  "titleZh": "刻薄的人会失败",
+  "dateText": "November 2014",
+  "publishedAt": "2014-11-01",
+  "sourceOrder": 75,
+  "sourceUrl": "https://paulgraham.com/mean.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "912bedb747a9684ee7fa28f812bd7becba06f68313f98f879a5f3e647e523e70",
+      "enMarkdown": "It struck me recently how few of the most successful people I know are mean. There are exceptions, but remarkably few.",
+      "zhMarkdown": "我最近突然意识到，在我认识的最成功的人里面，竟然极少有刻薄的人。虽然也有例外，但少得令人惊讶。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "222fbc1aed90b96b41a044239e6d213595a2dd7ac5b7578c7679efc9a848639b",
+      "enMarkdown": "Meanness isn't rare. In fact, one of the things the internet has shown us is how mean people can be. A few decades ago, only famous people and professional writers got to publish their opinions. Now everyone can, and we can all see the long tail of meanness that had previously been hidden.",
+      "zhMarkdown": "刻薄并不少见。事实上，互联网向我们展示的成果之一，就是人可以有多刻薄。几十年前，只有名人和专业作家才能发表观点。现在人人都可以，我们因此能看到以前被隐藏起来的、长尾效应般的刻薄。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "e85d96f137efb1a209ef3702c590c1d953646fedd06ab19edb345754d50ca104",
+      "enMarkdown": "And yet while there are clearly a lot of mean people out there, there are next to none among the most successful people I know. What's going on here? Are meanness and success inversely correlated?",
+      "zhMarkdown": "然而，虽然世界上显然有很多刻薄的人，但在我认识的最成功的人里，却几乎一个也没有。这是怎么回事？难道刻薄与成功是负相关的吗？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7fe1abadeac3477d46733987c4a24e42fa1e89f6b594e8033a03bfea18434b1e",
+      "enMarkdown": "Part of what's going on, of course, is selection bias. I only know people who work in certain fields: startup founders, programmers, professors. I'm willing to believe that successful people in other fields are mean. Maybe successful hedge fund managers are mean; I don't know enough to say. It seems quite likely that most successful drug lords are mean. But there are at least big chunks of the world that mean people don't rule, and that territory seems to be growing.",
+      "zhMarkdown": "当然，这其中一部分原因在于选择性偏差。我只认识特定领域的人：创业公司创始人、程序员和教授。我愿意相信在其他领域里，成功的人可能是刻薄的。也许成功的对冲基金经理很刻薄，我不太了解，不好妄下结论。最成功的毒枭多半很刻薄，这看起来合情合理。但世界上至少有很大一部分领域，并不是由刻薄的人说了算的，而且这个领地似乎还在不断扩大。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1e30cd81176c7d9240874486c758f37d0d44c223141eaf5e91fabe9c1c9ec0ff",
+      "enMarkdown": "My wife and Y Combinator cofounder Jessica is one of those rare people who have x-ray vision for character. Being married to her is like standing next to an airport baggage scanner. She came to the startup world from investment banking, and she has always been struck both by how consistently successful startup founders turn out to be good people, and how consistently bad people fail as startup founders.",
+      "zhMarkdown": "我的妻子，也是 Y Combinator 的联合创始人 Jessica，是极少数对人的品性拥有“X光般洞察力”的人之一。和她结婚就像站在机场的行李扫描仪旁一样。她是从投资银行界进入创业圈的，她一直对两件事深感震撼：一是那些持续成功的创业公司创始人最终往往都是好人，二是那些品行不端的人作为创业公司创始人总是无一例外地失败。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "8f4f09277597a8ecf5da42a6afdd21a5a3d6ccd6f7afde1636d8f949173eaad3",
+      "enMarkdown": "Why? I think there are several reasons. One is that being mean makes you stupid. That's why I hate fights. You never do your best work in a fight, because fights are not sufficiently general. Winning is always a function of the situation and the people involved. You don't win fights by thinking of big ideas but by thinking of tricks that work in one particular case. And yet fighting is just as much work as thinking about real problems. Which is particularly painful to someone who cares how their brain is used: your brain goes fast but you get nowhere, like a car spinning its wheels.",
+      "zhMarkdown": "为什么会这样？我认为有几个原因。首先，刻薄会让人变蠢。这就是我讨厌争吵的原因。在争吵中你永远无法发挥出最佳水平，因为争吵的局限性太强了。输赢总是取决于具体的场景和对手。你赢下争吵靠的不是想出伟大的点子，而是想出适用于特定情况的狡黠伎俩。然而，争吵耗费的精力并不比思考真正的问题少。这对于在乎大脑如何使用的人来说尤其痛苦：你的大脑在高速运转，却寸步难行，就像汽车在原地空转烧胎一样。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "4bc8669f2d651542480f57bc1cc8be230c699ce0353ef401e430c47081f0d1fe",
+      "enMarkdown": "Startups don't win by attacking. They win by transcending. There are exceptions of course, but usually the way to win is to race ahead, not to stop and fight.",
+      "zhMarkdown": "创业公司不是靠攻击来取胜的，而是靠超越。当然也有例外，但通常的取胜之道是奋力向前奔跑，而不是停下来纠缠厮杀。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "370e2e7e0b377d1e4ce0c2a6bc2e1a26b0f9d7dab03a3d1d04ec14d654d17002",
+      "enMarkdown": "Another reason mean founders lose is that they can't get the best people to work for them. They can hire people who will put up with them because they need a job. But the best people have other options. A mean person can't convince the best people to work for him unless he is super convincing. And while having the best people helps any organization, it's critical for startups.",
+      "zhMarkdown": "刻薄的创始人会失败的另一个原因，是他们招不到最优秀的人才。他们能雇到因为需要一份工作而愿意忍受他们的人，但最优秀的人有其他选择。一个刻薄的人除非极具说服力，否则无法说服最优秀的人为他工作。虽然拥有最优秀的人才对任何组织都有帮助，但对创业公司来说，这是生死攸关的。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ea5d34311761b828c2dd1893ea0cef20efb241a69284565c4d0ff71578f3ed78",
+      "enMarkdown": "There is also a complementary force at work: if you want to build great things, it helps to be driven by a spirit of benevolence. The startup founders who end up richest are not the ones driven by money. The ones driven by money take the big acquisition offer that nearly every successful startup gets en route. [[1](#f1n)] The ones who keep going are driven by something else. They may not say so explicitly, but they're usually trying to improve the world. Which means people with a desire to improve the world have a natural advantage. [[2](#f2n)]",
+      "zhMarkdown": "此外，还有一种相辅相成的力量在起作用：如果你想做出伟大的事业，怀有一颗善意的心会大有裨益。那些最终最富有的创业公司创始人，并不是被金钱驱动的。那些被金钱驱动的人，在几乎每个成功的创业公司都会遇到的成长途中，就会接受巨额的收购要约。[[1](#f1n)] 而那些坚持走下去的人，则是被其他东西驱动着。他们可能不会明说，但他们通常是在试图让世界变得更好。这意味着，渴望改善世界的人拥有天然的优势。[[2](#f2n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "38783bfe3fde3391ed68f6e40cb303759b786b43d6756429d4e33042584e1b1e",
+      "enMarkdown": "The exciting thing is that startups are not just one random type of work in which meanness and success are inversely correlated. This kind of work is the future.",
+      "zhMarkdown": "令人兴奋的是，创业并不是唯一一种刻薄与成功呈负相关的特例。这种工作模式代表着未来。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7649bdceeed1c8e794bf999dedda4ed2363ec7993627b17c220fac6b514eeeee",
+      "enMarkdown": "For most of history success meant control of scarce resources. One got that by fighting, whether literally in the case of pastoral nomads driving hunter-gatherers into marginal lands, or metaphorically in the case of Gilded Age financiers contending with one another to assemble railroad monopolies. For most of history, success meant success at zero-sum games. And in most of them meanness was not a handicap but probably an advantage.",
+      "zhMarkdown": "在人类历史的大部分时间里，成功意味着对稀缺资源的控制。人们通过争夺来获取资源，无论是在游牧民族将狩猎采集者赶往边缘地带的真实战斗中，还是在镀金时代金融家们互相竞争以建立铁路垄断的隐喻式博弈中。在历史的大多数时期，成功意味着在零和博弈中获胜。而在大多数这类博弈中，刻薄不仅不是障碍，反而可能是一种优势。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "558d824ea674e93cba20d1cb1a7b6d3bd097db993dbcaf3b54ab2cef2fa0f6a7",
+      "enMarkdown": "That is changing. Increasingly the games that matter are not zero-sum. Increasingly you win not by fighting to get control of a scarce resource, but by having new ideas and building new things. [[3](#f3n)]",
+      "zhMarkdown": "这种情况正在改变。越来越重要的博弈不再是零和的。你获得成功的途径，越来越不再是通过争夺稀缺资源的控制权，而是通过提出新想法和创造新事物。[[3](#f3n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "cf61bb2539f8a60ec97c588c35da11f059aad4e23e7c927e8b3994deca78b61f",
+      "enMarkdown": "There have long been games where you won by having new ideas. In the third century BC, Archimedes won by doing that. At least until an invading Roman army killed him. Which illustrates why this change is happening: for new ideas to matter, you need a certain degree of civil order. And not just not being at war. You also need to prevent the sort of economic violence that nineteenth century magnates practiced against one another and communist countries practiced against their citizens. People need to feel that what they create can't be stolen. [[4](#f4n)]",
+      "zhMarkdown": "长期以来，一直存在着靠新想法获胜的博弈。公元前三世纪，阿基米德就是靠这个赢的。至少在入侵的罗马军队杀死他之前是这样。这正说明了为什么这种转变正在发生：要让新想法发挥作用，你需要一定程度的社会秩序。这不仅是指没有战争，你还需要防止 19 世纪巨头们互相施加的那种经济暴力，以及共产主义国家对其公民施加的暴力。人们需要感到，他们创造的东西不会被夺走。[[4](#f4n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "37ef6c9cce18c6f48b2bc2d3f4ef818208b2d1ed4893f4fa6152a93c1a4165fe",
+      "enMarkdown": "That has always been the case for thinkers, which is why this trend began with them. When you think of successful people from history who weren't ruthless, you get mathematicians and writers and artists. The exciting thing is that their m.o. seems to be spreading. The games played by intellectuals are leaking into the real world, and this is reversing the historical polarity of the relationship between meanness and success.",
+      "zhMarkdown": "对于思想家来说，情况向来如此，这也是为什么这一趋势最先在他们身上显现。当你回想历史上那些并不冷酷无情的成功人士时，你会想到数学家、作家和艺术家。令人兴奋的是，他们的做事方式似乎正在向外蔓延。知识分子玩的博弈正在渗透到现实世界中，这正在扭转刻薄与成功之间历史性的极性关系。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "2564eb60a82573f4b277d5c9a8192107173bb0da544e7acc8ded42eac84682f4",
+      "enMarkdown": "So I'm really glad I stopped to think about this. Jessica and I have always worked hard to teach our kids not to be mean. We tolerate noise and mess and junk food, but not meanness. And now I have both an additional reason to crack down on it, and an additional argument to use when I do: that being mean makes you fail.",
+      "zhMarkdown": "所以我很高兴自己停下来思考了这个问题。我和 Jessica 一直在努力教育我们的孩子不要刻薄。我们可以容忍吵闹、混乱和垃圾食品，但不能容忍刻薄。现在，我不仅有了更多管教这种行为的理由，而且在管教时也有了更有力的论据：刻薄会让你失败。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "6fc2f1c171c181154c2876a2e47d13bdb684d1ba207c6648deaed337b5840607",
+      "enMarkdown": "[1] I'm not saying all founders who take big acquisition offers are driven only by money, but rather that those who don't aren't. Plus one can have benevolent motives for being driven by money — for example, to take care of one's family, or to be free to work on projects that improve the world.",
+      "zhMarkdown": "[1] 我并不是说所有接受巨额收购的创始人都是纯粹被金钱驱动的，而是说那些拒绝收购的人肯定不是。此外，被金钱驱动也可能有善意的动机——例如，为了照顾家人，或者为了获得自由去从事改善世界的项目。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "daeea8e19eb1366f5551936385eb699757f6a0372723956cfcc137086912911b",
+      "enMarkdown": "[2] It's unlikely that every successful startup improves the world. But their founders, like parents, truly believe they do. Successful founders are in love with their companies. And while this sort of love is as blind as the love people have for one another, it is genuine.",
+      "zhMarkdown": "[2] 并非每个成功的创业公司都在改善世界。但他们的创始人就像父母一样，真心相信自己做到了。成功的创始人深爱着自己的公司。虽然这种爱就像人与人之间的爱一样盲目，但它是真挚的。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "da94c5036fb50d39363bedaa748f2ea32a2f3daff379c2df33b0a8922ec99735",
+      "enMarkdown": "[3] [Peter \nThiel](http://startupclass.samaltman.com/courses/lec05) would point out that successful founders still get rich from controlling monopolies, just monopolies they create rather than ones they capture. And while this is largely true, it means a big change in the sort of person who wins.",
+      "zhMarkdown": "[3] [Peter Thiel](http://startupclass.samaltman.com/courses/lec05) 会指出，成功的创始人仍然是通过控制垄断来致富的，只不过是他们自己创造的垄断，而不是掠夺来的垄断。虽然这在很大程度上是事实，但这预示着赢家类型将发生巨大变化。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "57fb26868f4330aafbe8bcee43a7fa708df1d1239068564ab7256b183b68758c",
+      "enMarkdown": "[4] To be fair, the Romans didn't mean to kill Archimedes. The Roman commander specifically ordered that he be spared. But he got killed in the chaos anyway.",
+      "zhMarkdown": "[4] 公平地讲，罗马人并不是故意要杀阿基米德的。罗马指挥官特别下令要放过他。但他还是在混乱中被杀害了。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "9029cc6fe6788215be7b0925b452f1a60a2161f0913d733b85cf2b521582b177",
+      "enMarkdown": "In sufficiently disordered times, even thinking requires control of scarce resources, because living at all is a scarce resource.",
+      "zhMarkdown": "在足够混乱的时代，哪怕仅仅是思考，也需要控制稀缺资源，因为生存本身就是一种稀缺资源。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "6881c41108e12abf33c769539d918802e07026c65727bafa5ce7335ea5a6dee5",
+      "enMarkdown": "**Thanks** to Sam Altman, Ron Conway, Daniel Gackle, Jessica Livingston, Robert Morris, Geoff Ralston, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Ron Conway、Daniel Gackle、Jessica Livingston、Robert Morris、Geoff Ralston 和 Fred Wilson 阅读本文草稿。"
+    }
+  ]
+}

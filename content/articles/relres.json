@@ -1,0 +1,153 @@
+{
+  "slug": "relres",
+  "titleEn": "Relentlessly Resourceful",
+  "titleZh": "不屈不挠，办法总比困难多",
+  "dateText": "March 2009",
+  "publishedAt": "2009-03-01",
+  "sourceOrder": 121,
+  "sourceUrl": "https://paulgraham.com/relres.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "d652563183d2d9d47237d64c9b2170d232f3a275f62a3afd46bac3bb21557418",
+      "enMarkdown": "A couple days ago I finally got being a good startup founder down to two words: relentlessly resourceful.",
+      "zhMarkdown": "几天前，我终于把优秀创业创始人的特质浓缩成了两个词：不屈不挠，办法总比困难多（relentlessly resourceful）。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "91df255b5ef9d7746a02e05762528e571062fc77725b3692c15758a4ab38b62c",
+      "enMarkdown": "Till then the best I'd managed was to get the opposite quality down to one: hapless. Most dictionaries say hapless means unlucky. But the dictionaries are not doing a very good job. A team that outplays its opponents but loses because of a bad decision by the referee could be called unlucky, but not hapless. Hapless implies passivity. To be hapless is to be battered by circumstances — to let the world have its way with you, instead of having your way with the world.  [[1](#f1n)]",
+      "zhMarkdown": "在此之前，我能想到的最佳反面特质是一个词：hapless（倒霉、无能为力）。大多数词典把 hapless 解释为“不幸的”。但词典解释得并不算好。一支队伍如果全场压制对手，却因为裁判的误判而输掉比赛，这可以说是“不幸”（unlucky），但不能说是 hapless。Hapless 暗含着一种消极被动。一个 hapless 的人，是被环境肆意蹂躏的人——是任由世界摆布，而不是去摆布世界。 [[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "14c6a9b7f3dfdbb72e4a9e7716ba4cdfc966ca635f5319852cbdd86ebbdd79fa",
+      "enMarkdown": "Unfortunately there's no antonym of hapless, which makes it difficult to tell founders what to aim for. \"Don't be hapless\" is not much of a rallying cry.",
+      "zhMarkdown": "遗憾的是，hapless 并没有对应的反义词，这让我们很难告诉创始人应该以什么为目标。“不要无能为力”可算不上什么振奋人心的口号。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "de51c991f4af690a6f24623dc390dee05e8079dfeb41ca73629bb7d6bf3f0d87",
+      "enMarkdown": "It's not hard to express the quality we're looking for in metaphors. The best is probably a running back. A good running back is not merely determined, but flexible as well. They want to get downfield, but they adapt their plans on the fly.",
+      "zhMarkdown": "用比喻来表达我们寻找的这种特质并不难。最贴切的或许是美式橄榄球里的跑卫（running back）。一个优秀的跑卫不仅意志坚定，而且灵活多变。他们一心想要冲向球场深处，但也会根据眼前的局势随时调整战术。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4a0d4842f574945666e0590db37def3e77b22be75a0eb09b2759133664c7e342",
+      "enMarkdown": "Unfortunately this is just a metaphor, and not a useful one to most people outside the US. \"Be like a running back\" is no better than \"Don't be hapless.\"",
+      "zhMarkdown": "可惜这只是个比喻，而且对于美国以外的大多数人来说并不实用。“像跑卫一样”并不比“不要无能为力”好多少。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "24b178c530f3a09867f765bff1044ae5d75405525cb87cc335bbee2de6359b61",
+      "enMarkdown": "But finally I've figured out how to express this quality directly. I was writing a talk for [investors](https://paulgraham.com/angelinvesting.html), and I had to explain what to look for in founders. What would someone who was the opposite of hapless be like? They'd be relentlessly resourceful. Not merely relentless. That's not enough to make things go your way except in a few mostly uninteresting domains. In any interesting domain, the difficulties will be novel. Which means you can't simply plow through them, because you don't know initially how hard they are; you don't know whether you're about to plow through a block of foam or granite. So you have to be resourceful. You have to keep trying new things.",
+      "zhMarkdown": "但我终于想通了如何直接表达这种特质。当时我正在为[投资人](https://paulgraham.com/angelinvesting.html)写一篇演讲稿，必须解释在创始人身上应该看重什么。一个与 hapless 完全相反的人会是什么样？他们会是“不屈不挠且办法总比困难多”的。光有不屈不挠（relentless）是不够的。除了少数极其无趣的领域，光靠一股蛮劲是无法让事情如你所愿的。在任何有价值的领域，你遇到的困难都是全新的。这意味着你不能只是一味地硬推，因为你一开始根本不知道困难有多大；你不知道自己即将撞上的是一块泡沫还是一块花岗岩。所以你必须想方设法、变通解决（resourceful）。你必须不断尝试新方法。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "78d6fce9121ce616812e784ae97327ee5a3539bf2239a29304185035735cd416",
+      "enMarkdown": "Be relentlessly resourceful.",
+      "zhMarkdown": "要不屈不挠，且办法总比困难多。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "fa7eda2857aad5dfc0b074e54e395ede65fe091b0bec7cdec506da75602cf749",
+      "enMarkdown": "That sounds right, but is it simply a description of how to be successful in general? I don't think so. This isn't the recipe for success in writing or painting, for example. In that kind of work the recipe is more to be actively curious. Resourceful implies the obstacles are external, which they generally are in startups. But in writing and painting they're mostly internal; the obstacle is your own obtuseness. [[2](#f2n)]",
+      "zhMarkdown": "这听起来很对，但这难道不只是对如何获得普遍成功的一种描述吗？我觉得不是。例如，这并不是写作或绘画成功的秘诀。在那种创作中，秘诀更多的是保持主动的好奇心。“办法总比困难多”意味着障碍是外部的，而创业公司的障碍通常确实如此。但在写作和绘画中，障碍大多是内部的；障碍是你自己的愚钝。 [[2](#f2n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "1d2f65656719c8bc80f84b263a59422a7a48a8d7d0fa5137fcfc486102f90b13",
+      "enMarkdown": "There probably are other fields where \"relentlessly resourceful\" is the recipe for success. But though other fields may share it, I think this is the best short description we'll find of what makes a good startup founder. I doubt it could be made more precise.",
+      "zhMarkdown": "也许在其他领域，“不屈不挠，办法总比困难多”也是成功的秘诀。但即便其他领域也适用，我认为这依然是能找到的、对优秀创业创始人特质最精炼的描述。我想不出还能怎么更精准了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "c33b9587ba463925e4eeacf402ce5bfa3b4cfa6fa95fd39ac2074896ed534781",
+      "enMarkdown": "Now that we know what we're looking for, that leads to other questions. For example, can this quality be taught? After four years of trying to teach it to people, I'd say that yes, surprisingly often it can. Not to everyone, but to many people. [[3](#f3n)] Some people are just constitutionally passive, but others have a latent ability to be relentlessly resourceful that only needs to be brought out.",
+      "zhMarkdown": "既然我们知道了要寻找什么，这就引出了其他问题。例如，这种特质是可以传授的吗？在尝试教了大家四年之后，我的答案是：可以，而且成功率高得惊人。不是对所有人，而是对许多人。 [[3](#f3n)] 有些人天生性格被动，但另一些人身上则潜藏着这种“不屈不挠、变通解决”的能力，只是需要被激发出来。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "edf70e290048d18cc3ecbf1cc68de879bdc9656f4434e13c84907e801207bca1",
+      "enMarkdown": "This is particularly true of young people who have till now always been under the thumb of some kind of authority. Being relentlessly resourceful is definitely not the recipe for success in big companies, or in most schools. I don't even want to think what the recipe is in big companies, but it is certainly longer and messier, involving some combination of resourcefulness, obedience, and building alliances.",
+      "zhMarkdown": "对于那些至今一直生活在某种权威管束下的年轻人来说，情况尤其如此。在大型企业或大多数学校里，“不屈不挠、变通解决”绝对不是成功的秘诀。我甚至不想去思考大公司的成功秘诀是什么，但它肯定更漫长、更混乱，包含着变通、顺从和拉帮结派的某种结合。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "0ffcb2da49862633e98cd441d0ae9ecdedb471eb011f47e35ecc942bd28380bf",
+      "enMarkdown": "Identifying this quality also brings us closer to answering a question people often wonder about: how many startups there could be. There is not, as some people seem to think, any economic upper bound on this number. There's no reason to believe there is any limit on the amount of newly created wealth consumers can absorb, any more than there is a limit on the number of theorems that can be proven. So probably the limiting factor on the number of startups is the pool of potential founders. Some people would make good founders, and others wouldn't. And now that we can say what makes a good founder, we know how to put an upper bound on the size of the pool.",
+      "zhMarkdown": "认清了这一特质，也让我们更接近回答一个人们经常好奇的问题：到底能有多少家创业公司？正如某些人所认为的那样，这个数量并没有什么经济学上的上限。我们没有理由认为消费者能够吸收的新创造财富是有上限的，就像可以被证明的定理数量没有上限一样。因此，限制创业公司数量的因素，很可能是潜在创始人的群体规模。有些人适合当创始人，有些人则不适合。既然我们现在可以说清什么样的人能成为好创始人，我们就知道该如何为这个群体规模设定一个上限了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "91a21a71089cba159828627eb33e9376bd02267b6ce8856560bd949f9f980cba",
+      "enMarkdown": "This test is also useful to individuals. If you want to know whether you're the right sort of person to start a startup, ask yourself whether you're relentlessly resourceful. And if you want to know whether to recruit someone as a cofounder, ask if they are.",
+      "zhMarkdown": "这个测试对个人也很有用。如果你想知道自己是不是适合开创一家创业公司的人，问问自己是否“不屈不挠，办法总比困难多”。如果你想知道是否要招募某人作为联合创始人，也这样问问自己。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "bc138ecfb710ce5c5bc44eb51b3e692c4d270892707dc2c9f8a1a6460a7c1217",
+      "enMarkdown": "You can even use it tactically. If I were running a startup, this would be the phrase I'd tape to the mirror. \"Make something people want\" is the destination, but \"Be relentlessly resourceful\" is how you get there.",
+      "zhMarkdown": "你甚至可以在战术上使用它。如果我正在经营一家创业公司，我会把这句话贴在镜子上。“创造人们想要的东西”是目的地，而“不屈不挠，办法总比困难多”则是你抵达那里的方式。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "9afa292fb1ea03bb34cd42f135f44b6b6b2e4ac744dbd5a910dfd5e00b3e8e7d",
+      "enMarkdown": "[1] I think the reason the dictionaries are wrong is that the meaning of the word has shifted. No one writing a dictionary from scratch today would say that hapless meant unlucky. But a couple hundred years ago they might have. People were more at the mercy of circumstances in the past, and as a result a lot of the words we use for good and bad outcomes have origins in words about luck.",
+      "zhMarkdown": "[1] 我认为词典解释错误的原因在于这个词的含义已经发生了演变。今天任何一个从零开始编写词典的人，都不会说 hapless 意思是“不幸的”。但几百年前他们可能会这么认为。过去的人们更容易受到环境的摆布，因此我们用来形容好坏结果的很多词，最初都起源于与运气相关的词汇。\n\n当我在意大利生活时，有一次我想告诉别人我在做某事时没怎么成功，但我一时想不起意语中表示“成功”的词。我花了不少时间试图描述我想表达的意思。最后她说：“啊！Fortuna!（运气！）”"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "eba942c6525fb7cb5f7b4d63e86c2d3ebc9d388f6d1a11f9adfb6a75d3cefee4",
+      "enMarkdown": "When I was living in Italy, I was once trying to tell someone that I hadn't had much success in doing something, but I couldn't think of the Italian word for success. I spent some time trying to describe the word I meant. Finally she said \"Ah! Fortuna!\"",
+      "zhMarkdown": ""
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "70df19513a743e4360d0a3c2fe1eedeee951118aad83f1507aa68bc32fa67166",
+      "enMarkdown": "[2] There are aspects of startups where the recipe is to be actively curious. There can be times when what you're doing is almost pure discovery. Unfortunately these times are a small proportion of the whole. On the other hand, they are in research too.",
+      "zhMarkdown": "[2] 在创业的某些方面，秘诀确实是保持主动的好奇心。有时候，你所做的事情几乎纯粹是探索发现。可惜，这些时候在整个过程中只占很小的一部分。不过，在科研领域也是如此。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "bb585c4995720a779ac9141e56ac5e8befa7ecdc1a911c735893d9090d60391d",
+      "enMarkdown": "[3] I'd almost say to most people, but I realize (a) I have no idea what most people are like, and (b) I'm pathologically optimistic about people's ability to change.",
+      "zhMarkdown": "[3] 我几乎想说“对大多数人”，但我意识到：（a）我根本不知道大多数人是什么样，以及（b）我对人们改变的能力有着病态的乐观。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "66f1048c2e04bb128102ac6ecfab035857b23408e95a9e8d90744305a39ac546",
+      "enMarkdown": "**Thanks** to Trevor Blackwell and Jessica Livingston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell 和 Jessica Livingston 阅读本文的草稿。"
+    }
+  ]
+}

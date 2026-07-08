@@ -1,0 +1,146 @@
+{
+  "slug": "foundermode",
+  "titleEn": "Founder Mode",
+  "titleZh": "创始人模式",
+  "dateText": "September 2024",
+  "publishedAt": "2024-09-01",
+  "sourceOrder": 12,
+  "sourceUrl": "https://paulgraham.com/foundermode.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "cabe7897f9a2626eba884c029b8d9c3f22c581f4213db282b6a5092bb2ef58b4",
+      "enMarkdown": "At a YC event last week Brian Chesky gave a talk that everyone who was there will remember. Most founders I talked to afterward said it was the best they'd ever heard. Ron Conway, for the first time in his life, forgot to take notes. I'm not going to try to reproduce it here. Instead I want to talk about a question it raised.",
+      "zhMarkdown": "在上周的一场 YC 活动上，Brian Chesky 发表了一场令所有在场者终生难忘的演讲。事后和我聊过的绝大多数创始人均表示，这是他们听过最精彩的演讲。Ron Conway 甚至有生以来第一次听讲座听到忘记做笔记。我在此并不打算复述演讲的全部内容，而是想探讨一下由它引发的一个问题。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "42846a2d2de45147dae7797756db642fbf9c3b096a19f051c734df0f52ab8475",
+      "enMarkdown": "The theme of Brian's talk was that the conventional wisdom about how to run larger companies is mistaken. As Airbnb grew, well-meaning people advised him that he had to run the company in a certain way for it to scale. Their advice could be optimistically summarized as \"hire good people and give them room to do their jobs.\" He followed this advice and the results were disastrous. So he had to figure out a better way on his own, which he did partly by studying how Steve Jobs ran Apple. So far it seems to be working. Airbnb's free cash flow margin is now among the best in Silicon Valley.",
+      "zhMarkdown": "Brian 演讲的主题是：关于如何管理大公司的传统观念是错误的。随着 Airbnb 的成长，许多善意的人建议他，为了实现规模化，他必须以某种特定方式来管理公司。这些建议乐观地总结起来就是：“雇用优秀的人才，并给他们充分的空间去施展。”他采纳了这一建议，结果却灾难重重。于是他不得不独自摸索出一种更好的方法，其中一部分是通过研究史蒂夫·乔布斯如何管理苹果公司。目前来看，这种方法成效显著。Airbnb 现在的自由现金流利润率已跻身硅谷最顶尖行列。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "44de9ee3b277f4040a64fe512a7a35a07345d40879a70de6633dc5d89bf27fe0",
+      "enMarkdown": "The audience at this event included a lot of the most successful founders we've funded, and one after another said that the same thing had happened to them. They'd been given the same advice about how to run their companies as they grew, but instead of helping their companies, it had damaged them.",
+      "zhMarkdown": "此次活动的听众包括许多我们资助过的最成功的创始人，他们一个接一个地表示，同样的事情也曾发生在他们身上。在公司成长过程中，他们也得到了关于如何管理公司的相同建议，但这些建议不仅没有帮到公司，反而带来了损害。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "3a0a7356ddf0c95356af789bcc5a8cf76b4577b5c3f178d8072c5393ed972bde",
+      "enMarkdown": "Why was everyone telling these founders the wrong thing? That was the big mystery to me. And after mulling it over for a bit I figured out the answer: what they were being told was how to run a company you hadn't founded — how to run a company if you're merely a professional manager. But this m.o. is so much less effective that to founders it feels broken. There are things founders can do that managers can't, and not doing them feels wrong to founders, because it is.",
+      "zhMarkdown": "为什么所有人都在给这些创始人出馊主意？这对我来说曾是个巨大的谜团。在反复琢磨了一阵子后，我找到了答案：他们被传授的，其实是如何管理一家你并非其创始人的公司——即如果你只是一个职业经理人，该如何管理公司。但这种运作模式的效率要低得多，以至于在创始人看来，它简直是漏洞百出。创始人能做到许多经理人做不到的事，而不去做这些事会让创始人感到不对劲，因为事实确实如此。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "ad0aad1c631ece6eb6676d6188e7adb2ccf0e450438dd4222c54a733c35a01b1",
+      "enMarkdown": "In effect there are two different ways to run a company: founder mode and manager mode. Till now most people even in Silicon Valley have implicitly assumed that scaling a startup meant switching to manager mode. But we can infer the existence of another mode from the dismay of founders who've tried it, and the success of their attempts to escape from it.",
+      "zhMarkdown": "实际上，管理公司有两种截然不同的模式：创始人模式和经理人模式。直到现在，即便在硅谷，大多数人也默认规模化一家创业公司意味着必须切换到经理人模式。但从那些尝试过该模式并感到沮丧的创始人，以及他们努力挣脱该模式并取得成功的案例中，我们可以推断出另一种模式的存在。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "27d87edd0a50a756011b09008dcaf7d3b1293a084e313b9b1dcb21873c552293",
+      "enMarkdown": "There are as far as I know no books specifically about founder mode. Business schools don't know it exists. All we have so far are the experiments of individual founders who've been figuring it out for themselves. But now that we know what we're looking for, we can search for it. I hope in a few years founder mode will be as well understood as manager mode. We can already guess at some of the ways it will differ.",
+      "zhMarkdown": "据我所知，目前还没有专门探讨创始人模式的书籍。商学院甚至不知道它的存在。到目前为止，我们所拥有的只是个别创始人自行摸索的实践经验。但既然现在我们知道了要寻找什么，我们就可以开始去研究它。我希望在几年后，人们对创始人模式的理解能像对经理人模式一样透彻。我们已经可以预见到它们之间的一些差异。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "86fdeb8200205bbaf3405ecd3b0caef235ce3801b5c938278e804c950d35505d",
+      "enMarkdown": "The way managers are taught to run companies seems to be like modular design in the sense that you treat subtrees of the org chart as black boxes. You tell your direct reports what to do, and it's up to them to figure out how. But you don't get involved in the details of what they do. That would be micromanaging them, which is bad.",
+      "zhMarkdown": "经理人被传授的管理公司方式，似乎类似于模块化设计，即把组织架构图的子分支视为黑盒子。你告诉你的直接下属要做什么，由他们自己去琢磨怎么做。但你不要插手他们工作的细节。因为那会被视为微观管理（micromanagement），而微观管理是糟糕的。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "41e38f40f144ceead54bbb48c611155854e990383f5842988cec313ddbb229e2",
+      "enMarkdown": "Hire good people and give them room to do their jobs. Sounds great when it's described that way, doesn't it? Except in practice, judging from the report of founder after founder, what this often turns out to mean is: hire professional fakers and let them drive the company into the ground.",
+      "zhMarkdown": "雇用优秀的人，给他们施展的空间。听起来很美妙，不是吗？然而在实践中，根据一个又一个创始人的反馈，这往往意味着：雇用职业骗子，然后眼睁睁看着他们把公司推向深渊。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "1927aaa52a001cfd083c37e3108269aac1db0c3efc36713203f44a025f791432",
+      "enMarkdown": "One theme I noticed both in Brian's talk and when talking to founders afterward was the idea of being gaslit. Founders feel like they're being gaslit from both sides — by the people telling them they have to run their companies like managers, and by the people working for them when they do. Usually when everyone around you disagrees with you, your default assumption should be that you're mistaken. But this is one of the rare exceptions. VCs who haven't been founders themselves don't know how founders should run companies, and C-level execs, as a class, include some of the most skillful liars in the world. [[1](#f1n)]",
+      "zhMarkdown": "在 Brian 的演讲以及随后与创始人们的交流中，我注意到一个共同的主题，那就是一种被“煤气灯操纵”（情绪勒索/精神控制）的感觉。创始人觉得他们正受到来自两边的精神控制——一边是告诉他们必须像经理人一样管理公司的导师，另一边则是按照这种方式管理时为其工作的员工。通常情况下，当身边的所有人都反对你时，你的默认假设应该是自己错了。但这属于极少数的例外。没当过创始人的风险投资人不知道创始人应该如何管理公司，而 C 级高管这个群体中，则包含了一些世界上最擅长撒谎的人。[[1](#f1n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "157f8a0eef8a1a4ebf57feee46af39b39a3e1fa13b81d7616d1b3cb89c1ef1e6",
+      "enMarkdown": "Whatever founder mode consists of, it's pretty clear that it's going to break the principle that the CEO should engage with the company only via his or her direct reports. \"Skip-level\" meetings will become the norm instead of a practice so unusual that there's a name for it. And once you abandon that constraint there are a huge number of permutations to choose from.",
+      "zhMarkdown": "无论创始人模式包含什么，显而易见的是，它将打破“CEO 只能通过直接下属与公司互动”的原则。“越级”会议将成为常态，而不再是一种因极其罕见而特意命名的做法。一旦你打破了这一限制，就会产生无数种可以排列组合的管理方式。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "4b955ed141ae8fbf5e24d1e70cec312246dfa517f6782af3bdc5faf92f8ab587",
+      "enMarkdown": "For example, Steve Jobs used to run an annual retreat for what he considered the 100 most important people at Apple, and these were not the 100 people highest on the org chart. Can you imagine the force of will it would take to do this at the average company? And yet imagine how useful such a thing could be. It could make a big company feel like a startup. Steve presumably wouldn't have kept having these retreats if they didn't work. But I've never heard of another company doing this. So is it a good idea, or a bad one? We still don't know. That's how little we know about founder mode. [[2](#f2n)]",
+      "zhMarkdown": "例如，史蒂夫·乔布斯过去每年都会为他认为在苹果最重要的 100 个人举办一次年度静思会，而这 100 个人并不是组织架构图上职位最高的那 100 个人。你能想象在一家平庸的公司里，做成这样一件事需要多大的意志力吗？然而，试想一下这样做会有多么实用。它能让一家大公司感觉像一家创业公司。如果这些静思会没有效果，乔布斯大概也不会一直办下去。但我从未听说过有其他公司这样做。那么，这到底是个好主意还是坏主意？我们依然不得而知。可见我们对创始人模式的了解是多么贫瘠。[[2](#f2n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "5a531cb3affaa27db0fba35bbdf37b9277d34644ff322222225082e96cc042ed",
+      "enMarkdown": "Obviously founders can't keep running a 2000 person company the way they ran it when it had 20. There's going to have to be some amount of delegation. Where the borders of autonomy end up, and how sharp they are, will probably vary from company to company. They'll even vary from time to time within the same company, as managers earn trust. So founder mode will be more complicated than manager mode. But it will also work better. We already know that from the examples of individual founders groping their way toward it.",
+      "zhMarkdown": "显而易见，创始人不可能用管理 20 人公司的方式去管理一家 2000 人的公司。某种程度的授权是不可避免的。自主权的边界在哪里，边界有多清晰，可能因公司而异。甚至在同一家公司内部，随着经理人逐渐赢得信任，这些边界也会因时而异。因此，创始人模式会比经理人模式更为复杂。但它的效果也会更好。我们已经从那些自行摸索出这条路的个别创始人的案例中得知了这一点。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "761225d186205fe4c6f57a80dbe089683524315a557763d908a570567c43bb57",
+      "enMarkdown": "Indeed, another prediction I'll make about founder mode is that once we figure out what it is, we'll find that a number of individual founders were already most of the way there — except that in doing what they did they were regarded by many as eccentric or worse. [[3](#f3n)]",
+      "zhMarkdown": "事实上，我对创始人模式的另一个预测是：一旦我们弄清楚它究竟是什么，我们会发现许多个别创始人其实已经做到了大半——只不过在当时，他们的所作所为被许多人视为特立独行，甚至更糟。[[3](#f3n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e8da9daad44c0c3de028ad30b28b5186d458b615d896cbec3928c0e34c465e24",
+      "enMarkdown": "Curiously enough it's an encouraging thought that we still know so little about founder mode. Look at what founders have achieved already, and yet they've achieved this against a headwind of bad advice. Imagine what they'll do once we can tell them how to run their companies like Steve Jobs instead of John Sculley.",
+      "zhMarkdown": "奇妙的是，我们对创始人模式知之甚少，这反而是一个令人鼓舞的想法。看看创始人们在顶着错误建议的逆风下已经取得了怎样的成就。想象一下，一旦我们能够教导他们如何像史蒂夫·乔布斯而不是约翰·斯卡利那样去管理公司，他们又将创造怎样的奇迹。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "f10e4a31f651cf804c2d0c435667993ee1b77c7bdb198c6d154159a137e3cd9a",
+      "enMarkdown": "[1] The more diplomatic way of phrasing this statement would be to say that experienced C-level execs are often very skilled at managing up. And I don't think anyone with knowledge of this world would dispute that.",
+      "zhMarkdown": "[1] 这句话更委婉的说法是：资深的 C 级高管通常非常擅长“向上管理”。我相信对这个圈子有所了解的人，都不会对此有所异议。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "056585ab6e0efce6ba101bf3431ff9bd6ec8d9fc684bf2213cce01e4bf8185eb",
+      "enMarkdown": "[2] If the practice of having such retreats became so widespread that even mature companies dominated by politics started to do it, we could quantify the senescence of companies by the average depth on the org chart of those invited.",
+      "zhMarkdown": "[2] 如果举办此类静思会的做法变得如此普及，以至于连充斥着政治斗争的成熟公司也开始效仿，那么我们就可以通过受邀者在组织架构图上的平均深度，来量化这些公司的衰老程度。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "2bf3d5496cfcff5062315367d7524a87d227a024cc7e64f79064b0bc2a9bf3d9",
+      "enMarkdown": "[3] I also have another less optimistic prediction: as soon as the concept of founder mode becomes established, people will start misusing it. Founders who are unable to delegate even things they should will use founder mode as the excuse. Or managers who aren't founders will decide they should try to act like founders. That may even work, to some extent, but the results will be messy when it doesn't; the modular approach does at least limit the damage a bad CEO can do.",
+      "zhMarkdown": "[3] 我还有一个不那么乐观的预测：一旦“创始人模式”的概念确立，人们就会开始滥用它。那些甚至无法在应该授权的事情上进行授权的创始人，会把创始人模式当作借口。或者，并非创始人的经理人会决定尝试像创始人那样行事。这在某种程度上甚至可能有效，但在失效时会导致局面一团糟；至少，模块化的方法限制了一个糟糕的 CEO 所能造成的破坏。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "841fabdd09383a155e62f3cd6c43781e1625d1ae1e432355aa20402b62d1806b",
+      "enMarkdown": "**Thanks** to Brian Chesky, Patrick Collison, Ron Conway, Jessica Livingston, Elon Musk, Ryan Petersen, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Brian Chesky、Patrick Collison、Ron Conway、Jessica Livingston、Elon Musk、Ryan Petersen、Harj Taggar 和 Garry Tan 审阅本文草稿。"
+    }
+  ]
+}

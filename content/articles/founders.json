@@ -1,0 +1,132 @@
+{
+  "slug": "founders",
+  "titleEn": "What We Look for in Founders",
+  "titleZh": "我们看重创始人的哪些特质",
+  "dateText": "October 2010",
+  "publishedAt": "2010-10-01",
+  "sourceOrder": 99,
+  "sourceUrl": "https://paulgraham.com/founders.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "c1280d7eb25c2708a9f7b73e05aa5ed87453ff5a8837e8de1ffbc228faccafca",
+      "enMarkdown": "*(I wrote this for Forbes, who asked me to write something\nabout the qualities we look for in founders.  In print they had to cut\nthe last item because they didn't have room.)*",
+      "zhMarkdown": "*（本文是我为《福布斯》撰写的，当时他们邀请我写写我们在创始人身上寻找的特质。在纸质版出版时，由于版面有限，他们不得不删掉了最后一项。）*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "6e1e1e3c707ffc9ad6691cc44621b2c935a84a5c24ad37b966730c833b47ede7",
+      "enMarkdown": "**1. Determination**",
+      "zhMarkdown": "**1. 决心（Determination）**"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "a5dc8c7f59ff95a5937f1de7c98ef3483b8387d6d1809827c324bdad1a03dd0f",
+      "enMarkdown": "This has turned out to be the most important quality in startup founders. We thought when we started Y Combinator that the most important quality would be intelligence. That's the myth in the Valley. And certainly you don't want founders to be stupid. But as long as you're over a certain threshold of intelligence, what matters most is determination. You're going to hit a lot of obstacles. You can't be the sort of person who gets [demoralized](https://paulgraham.com/die.html) easily.",
+      "zhMarkdown": "事实证明，这是创业公司创始人身上最重要的特质。我们在创办 Y Combinator 之初，曾以为最重要的特质是聪明。这是硅谷的迷思。当然，你肯定不希望创始人是个傻瓜。但只要智商超过了一定的门槛，最关键的就是决心了。你将会遇到重重阻碍，绝不能是那种容易[丧失斗志](https://paulgraham.com/die.html)的人。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "f9cb8f06d81cbb2a890efdd68842ea2f3db7264db1d3fd4becbbcdd02ff9f504",
+      "enMarkdown": "Bill Clerico and Rich Aberman of [WePay](http://wepay.com) are a good example. They're doing a finance startup, which means endless negotiations with big, bureaucratic companies. When you're starting a startup that depends on deals with big companies to exist, it often feels like they're trying to ignore you out of existence. But when Bill Clerico starts calling you, you may as well do what he asks, because he is not going away.",
+      "zhMarkdown": "[WePay](http://wepay.com) 的 Bill Clerico 和 Rich Aberman 就是很好的例子。他们做的是金融领域的创业，这意味着要与庞大、官僚主义作风严重的巨头进行无休止的谈判。当你做一家依赖与大公司合作才能生存的创业公司时，往往会觉得对方在试图通过无视你来让你自生自灭。但当 Bill Clerico 开始给你打电话时，你最好按他说的办，因为他绝不会善罢甘休。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "5fb62f31df522dcffe759c009eee4b907fc5e670d3b51d92af706a7d9a466019",
+      "enMarkdown": "**2. Flexibility**",
+      "zhMarkdown": "**2. 灵活性（Flexibility）**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "a668c160bce578baa35db85f4ebfda9c43a324bbe1574ff91aa0de1dfbbab7cf",
+      "enMarkdown": "You do not however want the sort of determination implied by phrases like \"don't give up on your dreams.\" The world of startups is so unpredictable that you need to be able to modify your dreams on the fly. The best metaphor I've found for the combination of determination and flexibility you need is a [running back](https://paulgraham.com/relres.html). He's determined to get downfield, but at any given moment he may need to go sideways or even backwards to get there.",
+      "zhMarkdown": "然而，你需要的并不是那种“永不放弃梦想”所标榜的死脑筋决心。创业的世界变幻莫测，你必须能够随时调整自己的梦想。对于这种同时需要的决心与灵活性，我能找到的最佳比喻是美式橄榄球中的[跑卫](https://paulgraham.com/relres.html)。他一心想要冲向球场深处，但在任何特定时刻，为了到达终点，他可能需要横向甚至向后跑。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "0c4aad773a4bcf234d4a09e201bfc5601733cbb5acb9955234d8a2e0715e8a16",
+      "enMarkdown": "The current record holder for flexibility may be Daniel Gross of [Greplin](http://greplin.com). He applied to YC with some bad ecommerce idea. We told him we'd fund him if he did something else. He thought for a second, and said ok. He then went through two more ideas before settling on Greplin. He'd only been working on it for a couple days when he presented to investors at Demo Day, but he got a lot of interest. He always seems to land on his feet.",
+      "zhMarkdown": "目前保持灵活性纪录的可能是 [Greplin](http://greplin.com) 的 Daniel Gross。他申请 YC 时带着一个很不靠谱的电子商务点子。我们告诉他，如果他换个方向，我们就给他投资。他想了一秒钟，说好。在最终确定做 Greplin 之前，他又换了两个点子。当他在 Demo Day 向投资人展示时，他才在这个新项目上做了几天，但却吸引了巨大的关注。他似乎总能逢凶化吉，化险为夷。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "5b650846b68a6cd064c15bb864c50656fa764f41d4249e8a8b398e13965dad4c",
+      "enMarkdown": "**3. Imagination**",
+      "zhMarkdown": "**3. 想象力（Imagination）**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "b3e898866ad0a7864297a10bc796a0a2cb97ca799c737f5c822fff8cc4ff6497",
+      "enMarkdown": "Intelligence does matter a lot of course. It seems like the type that matters most is imagination. It's not so important to be able to solve predefined problems quickly as to be able to come up with surprising new ideas. In the startup world, most good ideas [seem\nbad](https://paulgraham.com/googles.html) initially. If they were obviously good, someone would already be doing them. So you need the kind of intelligence that produces ideas with just the right level of craziness.",
+      "zhMarkdown": "智商当然也很重要。但看起来最关键的智商类型是想象力。快速解决既定问题的能力并没有那么重要，真正重要的是能够提出令人惊叹的新点子。在创业的世界里，大多数好点子起初[看起来都很糟糕](https://paulgraham.com/googles.html)。如果它们明显是好点子，早就有人在做了。所以你需要那种能产生带有恰到好处的“疯狂感”点子的智商。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2063a651ddb3d7754f6ce55ffd6983d71aaa944ed636b4703ce7a5b20e7448f5",
+      "enMarkdown": "[Airbnb](http://airbnb.com) is that kind of idea. In fact, when we funded Airbnb, we thought it was too crazy. We couldn't believe large numbers of people would want to stay in other people's places. We funded them because we liked the founders so much. As soon as we heard they'd been supporting themselves by selling Obama and McCain branded breakfast cereal, they were in. And it turned out the idea was on the right side of crazy after all.",
+      "zhMarkdown": "[Airbnb](http://airbnb.com) 就是这样一个点子。事实上，当我们资助 Airbnb 时，我们觉得它太疯狂了。我们无法相信会有大批的人愿意住在陌生人的家里。我们资助他们是因为我们太喜欢这几位创始人了。一听说他们之前靠卖奥巴马和麦凯恩主题的早餐麦片来维持生计，我们就决定录取他们。事实证明，这个点子确实属于那种“恰到好处的疯狂”。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "ced75214dfbdf52fce20bfef6c39bb57695b947c2afcb39bb82764a009523394",
+      "enMarkdown": "**4. Naughtiness**",
+      "zhMarkdown": "**4. 淘气（Naughtiness）**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "fe72169c0739314a9b15340ea28be2aba08cb1328a2af157e1263f0ca3c05110",
+      "enMarkdown": "Though the most successful founders are usually good people, they tend to have a piratical gleam in their eye. They're not Goody Two-Shoes type good. Morally, they care about getting the big questions right, but not about observing proprieties. That's why I'd use the word naughty rather than evil. They delight in [breaking\nrules](https://paulgraham.com/gba.html), but not rules that matter. This quality may be redundant though; it may be implied by imagination.",
+      "zhMarkdown": "虽然最成功的创始人通常都是好人，但他们的眼神里往往闪烁着海盗般的光芒。他们不是那种循规蹈矩的“乖乖牌”。在道德上，他们关心大是大非，但并不在乎繁文缛节。这就是为什么我用“淘气”而不是“邪恶”这个词。他们乐于[打破规则](https://paulgraham.com/gba.html)，但不是那些原则性的规则。不过，这种特质可能是多余的，它或许已经包含在想象力之中了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "bb52854d9053557107918bf505795c11e742da106f94609eda83b5902caf73d1",
+      "enMarkdown": "Sam Altman of [Loopt](http://loopt.com) is one of the most successful alumni, so we asked him what question we could put on the Y Combinator application that would help us discover more people like him. He said to ask about a time when they'd hacked something to their advantage—hacked in the sense of beating the system, not breaking into computers. It has become one of the questions we pay most attention to when judging applications.",
+      "zhMarkdown": "[Loopt](http://loopt.com) 的 Sam Altman 是我们最成功的校友之一，所以我们问他，我们可以在 Y Combinator 的申请表上放什么问题，来帮助我们发现更多像他这样的人。他说，可以问问他们为了自己的利益而“黑”过什么东西——这里的“黑”是指钻制度的空子，而不是入侵电脑。这已经成为我们在评估申请时最关注的问题之一。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "dd9b48da1571a9ea3505597e8c8e9154da1230c44eb73afdc4d104d44208f3b6",
+      "enMarkdown": "**5. Friendship**",
+      "zhMarkdown": "**5. 友谊（Friendship）**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "da67d6bf6faf8f346ad1b41587d1cada86ec0db3696657fcd49cc2c2c93744a5",
+      "enMarkdown": "Empirically it seems to be hard to start a startup with just [one\nfounder](https://paulgraham.com/startupmistakes.html). Most of the big successes have two or three. And the relationship between the founders has to be strong. They must genuinely like one another, and work well together. Startups do to the relationship between the founders what a dog does to a sock: if it can be pulled apart, it will be.",
+      "zhMarkdown": "经验表明，仅凭[一个创始人](https://paulgraham.com/startupmistakes.html)很难创办一家创业公司。大多数巨大的成功都有两到三个创始人。而且创始人之间的关系必须非常牢固。他们必须由衷地喜欢彼此，并能默契配合。创业对创始人关系的影响，就像狗对袜子做的事一样：如果它能被撕裂，它就一定会被撕裂。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "fd07940c29271d66c66a9f0e7c9e1d85c03a41a808dd6a49d196be286e710439",
+      "enMarkdown": "Emmett Shear and Justin Kan of [Justin.tv](http://justin.tv) are a good example of close friends who work well together. They've known each other since second grade. They can practically read one another's minds. I'm sure they argue, like all founders, but I have never once sensed any unresolved tension between them.",
+      "zhMarkdown": "[Justin.tv](http://justin.tv) 的 Emmett Shear 和 Justin Kan 就是挚友默契配合的绝佳例子。他们从小学二年级起就认识了，几乎能看懂对方的心思。我敢说他们也会像所有创始人一样争吵，但我从未在他们之间感受到任何未化解的紧张气氛。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "a43eebfee62922f665536c2c17cedd1bdcb5b5eedac1c78fdffe170219875675",
+      "enMarkdown": "**Thanks** to Jessica Livingston and Chris Steiner for reading drafts of this.",
+      "zhMarkdown": "**感谢** Jessica Livingston 和 Chris Steiner 阅读本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,1308 @@
+{
+  "slug": "fr",
+  "titleEn": "How to Raise Money",
+  "titleZh": "# 如何融资",
+  "dateText": "September 2013",
+  "publishedAt": "2013-09-01",
+  "sourceOrder": 77,
+  "sourceUrl": "https://paulgraham.com/fr.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "c7adc2fda381c5512edfe65aaf8e5b739fd90cc0fbbb6fde9a01aeff39931e98",
+      "enMarkdown": "Most startups that raise money do it more than once. A typical trajectory might be (1) to get started with a few tens of thousands from something like Y Combinator or individual angels, then (2) raise a few hundred thousand to a few million to build the company, and then (3) once the company is clearly succeeding, raise one or more later rounds to accelerate growth.",
+      "zhMarkdown": "大多数进行过融资的创业公司，其融资次数都不止一次。一条典型的轨迹可能是：（1）先从 Y Combinator 或个人天使投资人那里拿到几万美金启动资金；然后（2）融资几十万到几百万美金来建设公司；最后（3）在公司明显走向成功时，再进行一轮或多轮后续融资以加速增长。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "93e31991bdb65c002a0ed7fa10a8c5f6dc9966021b3cf86ae43d424c9a499806",
+      "enMarkdown": "Reality can be messier. Some companies raise money twice in phase 2. Others skip phase 1 and go straight to phase 2. And at Y Combinator we get an increasing number of companies that have already raised amounts in the hundreds of thousands. But the three phase path is at least the one about which individual startups' paths oscillate.",
+      "zhMarkdown": "现实情况可能会更复杂。有些公司在第二阶段会融两次资；有些公司则跳过第一阶段，直接进入第二阶段。在 Y Combinator，我们也看到越来越多已经融过几十万美金的公司。但至少，这三个阶段的路径是每个创业公司发展轨迹所围绕波动的基准线。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "7ad0e55d1d357edeb7c4811ba8b16240d4ac26306dbc4dee30304db38e5acf5c",
+      "enMarkdown": "This essay focuses on phase 2 fundraising. That's the type the startups we fund are doing on Demo Day, and this essay is the advice we give them.",
+      "zhMarkdown": "这篇文章主要讨论第二阶段的融资。这正是我们资助的创业公司在 Demo Day 时所面临的融资类型，而本文就是我们给他们的建议。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "086dfec87a68b1fa75874d3cefc652937401554632d476992df9e353894fb1f0",
+      "enMarkdown": "**Forces**",
+      "zhMarkdown": "**博弈力量**"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "48f6dcc208d6bdebfc52447dc29b83ecc5cfcf080a91f2f12aa2f379a51da4cb",
+      "enMarkdown": "Fundraising is hard in both senses: hard like lifting a heavy weight, and hard like solving a puzzle. It's hard like lifting a weight because it's intrinsically hard to convince people to part with large sums of money. That problem is irreducible; it should be hard. But much of the other kind of difficulty can be eliminated. Fundraising only seems a puzzle because it's an alien world to most founders, and I hope to fix that by supplying a map through it.",
+      "zhMarkdown": "融资之难有两个层面的含义：既像举重那样需要硬实力，又像解谜那样需要智力。说它像举重，是因为说服别人掏出大笔资金本身就极其困难。这个难关是无法简化的，也本该如此。但另一种层面的困难，很大程度上是可以消除的。融资之所以看起来像个谜，只是因为对大多数创始人来说，这是一个完全陌生的世界。我希望能通过提供一张路线图来帮大家解决这个问题。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "af4fc7e090e64fb5730169ebe5795daf85abbcf8253a690ce12e5a37e1a4615c",
+      "enMarkdown": "To founders, the behavior of investors is often opaque — partly because their motivations are obscure, but partly because they deliberately mislead you. And the misleading ways of investors combine horribly with the wishful thinking of inexperienced founders. At YC we're always warning founders about this danger, and investors are probably more circumspect with YC startups than with other companies they talk to, and even so we witness a constant series of explosions as these two volatile components combine. [[1](#f1n)]",
+      "zhMarkdown": "对创始人而言，投资人的行为往往令人费解——部分原因在于他们的动机不够透明，但也有部分原因在于他们会故意误导你。而投资人的误导手段，与缺乏经验的创始人的自欺欺人结合在一起，简直是灾难。在 YC，我们总是警告创始人注意这种危险，尽管投资人在面对 YC 创业公司时可能比面对其他公司更谨慎，但我们依然目睹了这两个易燃成分结合时引发的一连串爆炸。[[1](#f1n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ced5b09818fba5f84914206b0608f93f05b2ad28bdf1e5432926b7a67de02553",
+      "enMarkdown": "If you're an inexperienced founder, the only way to survive is by imposing external constraints on yourself. You can't trust your intuitions. I'm going to give you a set of rules here that will get you through this process if anything will. At certain moments you'll be tempted to ignore them. So rule number zero is: these rules exist for a reason. You wouldn't need a rule to keep you going in one direction if there weren't powerful forces pushing you in another.",
+      "zhMarkdown": "如果你是一个缺乏经验的创始人，唯一的生存之道就是给自己施加外部约束。你不能相信自己的直觉。我在这里将为你提供一套规则，如果有什么能帮你渡过难关，那就是这套规则了。在某些时刻，你会很想无视它们。所以，零号规则是：这些规则的存在是有原因的。如果没有强大的外力推着你往另一个方向走，你根本不需要规则来约束自己坚持朝一个方向前进。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "98f1b4457afa71f174e541f9659ae00a54c5784a5e6bc2638cfc3a58217e36f8",
+      "enMarkdown": "The ultimate source of the forces acting on you are the forces acting on investors. Investors are pinched between two kinds of fear: fear of investing in startups that fizzle, and fear of missing out on startups that take off. The cause of all this fear is the very thing that makes startups such attractive investments: the successful ones grow very fast. But that fast growth means investors can't wait around. If you wait till a startup is obviously a success, it's too late. To get the really high returns, you have to invest in startups when it's still unclear how they'll do. But that in turn makes investors nervous they're about to invest in a flop. As indeed they often are.",
+      "zhMarkdown": "作用在你身上的博弈力量，其根本源头在于作用在投资人身上的力量。投资人被两种恐惧夹在中间：一种是害怕投了最终惨淡收场的创业公司，另一种是害怕错过了那些一飞冲天的创业公司。所有这些恐惧的根源，恰恰也是创业公司如此吸引投资的原因：成功的创业公司增长极快。但这种快速增长意味着投资人不能干等。如果你等到一家创业公司显然已经成功了，那就太晚了。为了获得真正的高回报，你必须在创业公司前景还不明确的时候就投资。但这反过来又让投资人感到焦虑，担心自己正要投资一个失败项目。而事实也确实经常如此。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "af067c2258720e46998cfbe9de2a4c176b4f3527dc0ec0014a23ebbf1731fa08",
+      "enMarkdown": "What investors would like to do, if they could, is wait. When a startup is only a few months old, every week that passes gives you significantly more information about them. But if you wait too long, other investors might take the deal away from you. And of course the other investors are all subject to the same forces. So what tends to happen is that they all wait as long as they can, then when some act the rest have to.",
+      "zhMarkdown": "投资人最想做的事，如果可行的话，就是等待。当一家创业公司只有几个月大时，每多过一周，你就能多获得大量关于他们的信息。但如果你等得太久，其他投资人可能就会把额度抢走。当然，其他投资人也都受制于同样的博弈力量。因此，往往发生的情况是，大家都会尽可能地多等一阵，然后一旦有人出手，剩下的人就不得不立刻跟进。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "0ec406f0d52e5672eeaf43df01b4de615ad7857fe14b9aa7783511305ca1e2ac",
+      "enMarkdown": "**Don't raise money unless you want it and it wants you.**",
+      "zhMarkdown": "**除非你真的需要，且投资人也看好你，否则不要融资。**"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "beb7baaf2383be72127aeca57c8d1d2d05beef3cda22982c0c424ca2319112d9",
+      "enMarkdown": "Such a high proportion of successful startups raise money that it might seem fundraising is one of the defining qualities of a startup. Actually it isn't. [Rapid growth](https://paulgraham.com/growth.html) is what makes a company a startup. Most companies in a position to grow rapidly find that (a) taking outside money helps them grow faster, and (b) their growth potential makes it easy to attract such money. It's so common for both (a) and (b) to be true of a successful startup that practically all do raise outside money. But there may be cases where a startup either wouldn't want to grow faster, or outside money wouldn't help them to, and if you're one of them, don't raise money.",
+      "zhMarkdown": "绝大多数成功的创业公司都会融资，这让人觉得融资似乎是创业公司的核心特征之一。其实不然。[快速增长](https://paulgraham.com/growth.html)才是让一家公司成为创业公司的关键。大多数有能力快速增长的公司会发现：（a）拿外部的钱能帮他们增长得更快；（b）他们的增长潜力让他们很容易吸引到这些钱。对于一家成功的创业公司来说，（a）和（b）同时成立太普遍了，以至于几乎所有公司都会融外部资金。但也有些情况，创业公司要么不想增长得更快，要么外部资金并不能帮他们加速，如果你属于这种情况，就不要融资。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "6d518831d03a0cfe3b265832cd48995940ce7b35ea4cc196f4b00c70f6cf788e",
+      "enMarkdown": "The other time not to raise money is when you won't be able to. If you try to raise money before you can [convince](https://paulgraham.com/convince.html) investors, you'll not only waste your time, but also burn your reputation with those investors.",
+      "zhMarkdown": "另一种不该融资的情况是，你根本融不到钱。如果你在能够[说服](https://paulgraham.com/convince.html)投资人之前就尝试去融资，你不仅会浪费时间，还会在这些投资人面前搞砸自己的名声。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "2a943e5eff36babb615a5511b5bfdbfda16f789632973ba95f8d7e2d7d08d117",
+      "enMarkdown": "**Be in fundraising mode or not.**",
+      "zhMarkdown": "**要么完全进入融资状态，要么完全不融。**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e22ffe7fc2e8ca136ae9fbd6fb8397e12b23cbabe66923f2ebbca705cff04241",
+      "enMarkdown": "One of the things that surprises founders most about fundraising is how distracting it is. When you start fundraising, everything else grinds to a halt. The problem is not the time fundraising consumes but that it becomes the [top idea in\nyour mind](https://paulgraham.com/top.html). A startup can't endure that level of distraction for long. An early stage startup grows mostly because the founders [make](https://paulgraham.com/ds.html) it grow, and if the founders look away, growth usually drops sharply.",
+      "zhMarkdown": "融资最让创始人感到惊讶的地方之一，就是它有多让人分心。一旦你开始融资，其他所有事情都会停滞不前。问题不在于融资占用了多少时间，而在于它会成为你[脑子里的头等大事](https://paulgraham.com/top.html)。创业公司无法长期承受这种程度的分心。早期创业公司的增长主要靠创始人[硬推](https://paulgraham.com/ds.html)出来，如果创始人转移了注意力，增长通常会急剧下滑。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7266bc113be04d4b4803b0b9445e0ff443ee5094120c4fae2ff1437ad4c05fc3",
+      "enMarkdown": "Because fundraising is so distracting, a startup should either be in fundraising mode or not. And when you do decide to raise money, you should focus your whole attention on it so you can get it done quickly and get back to work. [[2](#f2n)]",
+      "zhMarkdown": "正因为融资极其让人分心，创业公司要么处于融资状态，要么不处于。当你决定融资时，你应该把全部精力集中在上面，这样你才能快速搞定，然后重新投入工作。[[2](#f2n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "e70f16f4999375e475e5f7e04986cabc197b169c78f906f04d66726cddede5df",
+      "enMarkdown": "You can take money from investors when you're not in fundraising mode. You just can't expend any attention on it. There are two things that take attention: convincing investors, and negotiating with them. So when you're not in fundraising mode, you should take money from investors only if they require no convincing, and are willing to invest on terms you'll take without negotiation. For example, if a reputable investor is willing to invest on a convertible note, using standard paperwork, that is either uncapped or capped at a good valuation, you can take that without having to think. [[3](#f3n)] The terms will be whatever they turn out to be in your next equity round. And \"no convincing\" means just that: zero time spent meeting with investors or preparing materials for them. If an investor says they're ready to invest, but they need you to come in for one meeting to meet some of the partners, tell them no, if you're not in fundraising mode, because that's fundraising. [[4](#f4n)] Tell them politely; tell them you're focusing on the company right now, and that you'll get back to them when you're fundraising; but do not get sucked down the slippery slope.",
+      "zhMarkdown": "当你不在融资状态时，你也可以拿投资人的钱，前提是你不必为此消耗任何精力。有两件事最消耗精力：说服投资人和与他们谈判。因此，当你不在融资状态时，只有在投资人不需要被说服，并且愿意接受你无需谈判的条款时，你才应该拿他们的钱。例如，如果一个名声良好的投资人愿意通过可转债（convertible note）投资，使用标准合同，且要么不设估值上限（uncapped），要么设一个很划算的上限，你完全可以不假思索地接受。[[3](#f3n)] 条款最终会和你在下一轮股权融资中确定的一样。而“不需要说服”指的就是字面意思：花在会见投资人或为他们准备材料上的时间为零。如果一个投资人说他们准备好投资了，但需要你过去开个会见见其他合伙人，如果你不在融资状态，请拒绝他们，因为这就是在融资。[[4](#f4n)] 礼貌地拒绝；告诉他们你现在正专注于公司业务，等开始融资时会再联系他们。但千万不要滑入这个会让你分心的无底洞。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "7137b4588741f5870b3bed21630456fc978558ce536dfa378095defd367f842e",
+      "enMarkdown": "Investors will try to lure you into fundraising when you're not. It's great for them if they can, because they can thereby get a shot at you before everyone else. They'll send you emails saying they want to meet to learn more about you. If you get cold-emailed by an associate at a VC firm, you shouldn't meet even if you are in fundraising mode. Deals don't happen that way. [[5](#f5n)] But even if you get an email from a partner you should try to delay meeting till you're in fundraising mode. They may say they just want to meet and chat, but investors never just want to meet and chat. What if they like you? What if they start to talk about giving you money? Will you be able to resist having that conversation? Unless you're experienced enough at fundraising to have a casual conversation with investors that stays casual, it's safer to tell them that you'd be happy to later, when you're fundraising, but that right now you need to focus on the company. [[6](#f6n)]",
+      "zhMarkdown": "投资人会试探你，试图在你没打算融资的时候诱导你进入融资状态。如果他们能做到，对他们来说太棒了，因为他们可以抢在所有人之前接触到你。他们会给你发邮件说想见个面，多了解一下你们。如果你收到风投机构投资经理（associate）的冷启动邮件（cold email），即使你处于融资状态，也不应该见面。交易不是这么达成的。[[5](#f5n)] 但即使你收到的是合伙人的邮件，你也应该尽量推迟见面，直到你正式进入融资状态。他们可能会说只是想见个面聊聊，但投资人从来不会“只是想聊聊”。万一他们看上你呢？万一他们开始谈论给你钱呢？你能拒绝把这个话题聊下去吗？除非你融资经验丰富，能够和投资人进行一场纯粹轻松的闲聊，否则更安全的做法是告诉他们，你很乐意在以后融资的时候见面，但现在你需要专注于公司业务。[[6](#f6n)]"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "2244a1c0212c52886deecc884ec6f84487a0f762b595a6656bcccec994a6d608",
+      "enMarkdown": "Companies that are successful at raising money in phase 2 sometimes tack on a few investors after leaving fundraising mode. This is fine; if fundraising went well, you'll be able to do it without spending time convincing them or negotiating about terms.",
+      "zhMarkdown": "那些在第二阶段成功融到钱的公司，有时在退出融资状态后还会追加几个投资人。这没问题；如果之前的融资进展顺利，你无需花时间去说服他们或谈判条款，就能轻松搞定这些追加投资。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "2029c0ca8aa0d20850a7a331d6f7d7a60ce2824f321b10a6a3bde510b0af1a24",
+      "enMarkdown": "**Get introductions to investors.**",
+      "zhMarkdown": "**获得投资人的引荐。**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "6c5fa800bb91c2010b03e384e5b4533a9d1106829802ad401c0535f611dc062a",
+      "enMarkdown": "Before you can talk to investors, you have to be introduced to them. If you're presenting at a Demo Day, you'll be introduced to a whole bunch simultaneously. But even if you are, you should supplement these with intros you collect yourself.",
+      "zhMarkdown": "在与投资人沟通之前，你必须获得引荐（introduction）。如果你在 Demo Day 上做路演，你会同时被引荐给一大群投资人。但即便如此，你还是应该自己去结识并积累更多的引荐机会。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "e8d0fe29f9ffa073ba4e7ace7379762ea0319c3e133947270ac826e3c53c7a6d",
+      "enMarkdown": "Do you have to be introduced? In phase 2, yes. Some investors will let you email them a business plan, but you can tell from the way their sites are organized that they don't really want startups to approach them directly.",
+      "zhMarkdown": "必须要引荐吗？在第二阶段，是的。虽然有些投资人允许你直接通过邮件发送商业计划书，但从他们网站的排版设计就能看出来，他们并不真正希望创业公司直接找上门。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "8e0d41cc39166f412b23b86bc4ff9f8e0fa093268ba57f38ce872c611b1e7031",
+      "enMarkdown": "Intros vary greatly in effectiveness. The best type of intro is from a well-known investor who has just invested in you. So when you get an investor to commit, ask them to introduce you to other investors they respect. [[7](#f7n)] The next best type of intro is from a founder of a company they've funded. You can also get intros from other people in the startup community, like lawyers and reporters.",
+      "zhMarkdown": "引荐的效果差异巨大。最好的一种引荐，来自于刚刚投资了你的知名投资人。因此，当你让一个投资人承诺投资时，可以请他们把你引荐给其他他们欣赏的投资人。[[7](#f7n)] 仅次于此的引荐，来自于他们投资过的公司的创始人。你也可以通过创业生态中的其他人获得引荐，比如律师和记者。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "53814ed8992914f1afa8eefef4c5d605df03bd40dd399e05c003d7f87866a549",
+      "enMarkdown": "There are now sites like AngelList, FundersClub, and WeFunder that can introduce you to investors. We recommend startups treat them as auxiliary sources of money. Raise money first from leads you get yourself. Those will on average be better investors. Plus you'll have an easier time raising money on these sites once you can say you've already raised some from well-known investors.",
+      "zhMarkdown": "现在有一些像 AngelList、FundersClub 和 WeFunder 这样的网站可以把你引荐给投资人。我们建议创业公司将这些平台视为辅助资金来源。首先从你自己联系到的线索中融资，那些通常会是更好的投资人。此外，一旦你能说自己已经从知名投资人那里拿到了一些钱，在这些网站上融资就会容易得多。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "253fe7da459c51d8cd17166e2e9efa0aca0dc605de6976a791203a916f7a2a34",
+      "enMarkdown": "**Hear no till you hear yes.**",
+      "zhMarkdown": "**没听到明确的“好”，就一律视为“不行”。**"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "244b3c0272f0cb580b2bf184762b78e93ed5b6b4da2e91c7cc4ad577aed55be7",
+      "enMarkdown": "Treat investors as saying no till they unequivocally say yes, in the form of a definite offer with no contingencies.",
+      "zhMarkdown": "除非投资人给出了不带任何附加条件的明确要约，否则就当他们说了“不”。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "5b86bc03ef67a5d9480832e7aa4d620759e96b228863f3dc06a063a25aa3145a",
+      "enMarkdown": "I mentioned earlier that investors prefer to wait if they can. What's particularly dangerous for founders is the way they wait. Essentially, they lead you on. They seem like they're about to invest right up till the moment they say no. If they even say no. Some of the worse ones never actually do say no; they just stop replying to your emails. They hope that way to get a free option on investing. If they decide later that they want to invest — usually because they've heard you're a hot deal — they can pretend they just got distracted and then restart the conversation as if they'd been about to. [[8](#f8n)]",
+      "zhMarkdown": "我前面提到，投资人只要能拖就倾向于等一等。对创始人来说，特别危险的是他们等待的方式。实质上，他们是在吊着你。在说“不”之前的最后一刻，他们看起来都像是马上要投了。如果他们真的会说“不”的话。有些更差劲的投资人甚至永远不会明确拒绝，他们只是不再回复你的邮件。他们希望通过这种方式保留一个免费的“投资期权”。如果他们稍后决定投资——通常是因为听说你成了抢手货——他们可以假装之前只是太忙了，然后重新开始对话，就好像他们一直打算投一样。[[8](#f8n)]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "89a83e48dcb603c28d318f697b29d055088172d9972f73aa0c93231fa47936d6",
+      "enMarkdown": "That's not the worst thing investors will do. Some will use language that makes it sound as if they're committing, but which doesn't actually commit them. And wishful thinking founders are happy to meet them half way. [[9](#f9n)]",
+      "zhMarkdown": "这还不是投资人会做的最恶劣的事。有些人会使用听起来像是在承诺、但实际上没有任何法律约束力的措辞。而那些一厢情愿的创始人很乐意把这些话当真。[[9](#f9n)]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "5704a3f97714c09d553e8d9f186fa4aecce9b928c60ea0fbf67b141262bb2046",
+      "enMarkdown": "Fortunately, the next rule is a tactic for neutralizing this behavior. But to work it depends on you not being tricked by the no that sounds like yes. It's so common for founders to be misled/mistaken about this that we designed a [protocol](http://ycombinator.com/hdp.html) to fix the problem. If you believe an investor has committed, get them to confirm it. If you and they have different views of reality, whether the source of the discrepancy is their sketchiness or your wishful thinking, the prospect of confirming a commitment in writing will flush it out. And till they confirm, regard them as saying no.",
+      "zhMarkdown": "幸运的是，下一条规则就是用来对付这种行为的策略。但要发挥作用，前提是你不能被那些听起来像“好”的“不行”所欺骗。创始人在这件事上被误导或产生误解太普遍了，以至于我们设计了一套[协议](http://ycombinator.com/hdp.html)来解决这个问题。如果你认为某个投资人已经承诺投资，请让他们确认。如果你们对现实的看法不一致——无论这种偏差是因为他们的含糊其辞，还是因为你的一厢情愿——以书面形式确认承诺的要求都会让真相水落石出。在他们确认之前，一律视其为拒绝。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "4db2f69394d1c1bd6c7c17a057c8331a54cd42079decaa2c5d6e540782167541",
+      "enMarkdown": "**Do breadth-first search weighted by expected value.**",
+      "zhMarkdown": "**进行以期望值为权重的广度优先搜索。**"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "c34794ff88a36f143e1eca2656ce3afa1b5df773a6d963f96a02305d9f876b29",
+      "enMarkdown": "When you talk to investors your m.o. should be breadth-first search, weighted by expected value. You should always talk to investors in parallel rather than serially. You can't afford the time it takes to talk to investors serially, plus if you only talk to one investor at a time, they don't have the pressure of other investors to make them act. But you shouldn't pay the same attention to every investor, because some are more promising prospects than others. The optimal solution is to talk to all potential investors in parallel, but give higher priority to the more promising ones. [[10](#f10n)]",
+      "zhMarkdown": "当你和投资人交涉时，你的行动模式应该是：以期望值为权重的广度优先搜索。你应该始终并行与多个投资人接触，而不是串行。你耗不起串行沟通的时间；而且如果你一次只接触一个投资人，他们就没有其他投资人竞争带来的紧迫感来促使他们采取行动。但你不应该对每个投资人投入同等的精力，因为有些投资人比其他的更有希望。最佳解决方案是并行接触所有潜在投资人，但优先把精力放在更有把握的那些人身上。[[10](#f10n)]"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "8aafe6e9450e4b7ec1a732d2b03f8e42796f0c3dd342805e548dfb940fdc89a1",
+      "enMarkdown": "Expected value = how likely an investor is to say yes, multiplied by how good it would be if they did. So for example, an eminent investor who would invest a lot, but will be hard to convince, might have the same expected value as an obscure angel who won't invest much, but will be easy to convince. Whereas an obscure angel who will only invest a small amount, and yet needs to meet multiple times before making up his mind, has very low expected value. Meet such investors last, if at all. [[11](#f11n)]",
+      "zhMarkdown": "期望值 = 投资人答应投资的概率 × 如果他们投了会有多大好处。举个例子，一位名声显赫、投资额度大但很难说服的投资人，其期望值可能与一位不出名、投资额度小但很容易说服的天使投资人相同。而一个既不出名、投资额度又小，却需要多次开会才能做决定的天使投资人，其期望值就极低。这类投资人应该放在最后见，甚至根本不见。[[11](#f11n)]"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "a56029dfdbe4726f902a16d30d479b7a852c1bdb32951334619f336d17f2d81e",
+      "enMarkdown": "Doing breadth-first search weighted by expected value will save you from investors who never explicitly say no but merely drift away, because you'll drift away from them at the same rate. It protects you from investors who flake in much the same way that a distributed algorithm protects you from processors that fail. If some investor isn't returning your emails, or wants to have lots of meetings but isn't progressing toward making you an offer, you automatically focus less on them. But you have to be disciplined about assigning probabilities. You can't let how much you want an investor influence your estimate of how much they want you.",
+      "zhMarkdown": "进行以期望值为权重的广度优先搜索，可以让你免受那些从不明确拒绝、只是慢慢淡出的投资人的困扰，因为你也会以同样的速度冷落他们。它保护你免受投资人放鸽子的影响，就像分布式算法保护你免受处理器故障的影响一样。如果某个投资人不回邮件，或者只想开很多会却迟迟不给要约，你自然就会减少对他们的关注。但你在评估概率时必须保持客观纪律，不能因为自己有多渴望某个投资人的加入，就动摇你对他们有多想要投你的判断。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "a656c9947abf03a256d82b666591dd39a75c50701ab0be28f9dedd09c64e0139",
+      "enMarkdown": "**Know where you stand.**",
+      "zhMarkdown": "**清楚自己的处境。**"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "671c4c62d74e937b182dd029001462495e70d45a7097cc9553b29ce021bb7b00",
+      "enMarkdown": "How do you judge how well you're doing with an investor, when investors habitually seem more positive than they are? By looking at their actions rather than their words. Every investor has some track they need to move along from the first conversation to wiring the money, and you should always know what that track consists of, where you are on it, and how fast you're moving forward.",
+      "zhMarkdown": "既然投资人习惯表现得比实际情况更积极，你该如何判断自己和他们的进展？看他们的行动，而不是言语。每个投资人从第一次谈话到最终打款，都有一个必须走的流程。你必须时刻清楚这个流程包含哪些步骤、你处于哪个阶段，以及往前推进的速度有多快。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "5f009b681df7a38f1003ca26892b6374715bf9e607ce060d8de95055c83a3940",
+      "enMarkdown": "Never leave a meeting with an investor without asking what happens next. What more do they need in order to decide? Do they need another meeting with you? To talk about what? And how soon? Do they need to do something internally, like talk to their partners, or investigate some issue? How long do they expect it to take? Don't be too pushy, but know where you stand. If investors are vague or resist answering such questions, assume the worst; investors who are seriously interested in you will usually be happy to talk about what has to happen between now and wiring the money, because they're already running through that in their heads. [[12](#f12n)]",
+      "zhMarkdown": "在与投资人结束会面时，绝对不要在没问“下一步是什么”的情况下离开。他们还需要什么信息才能做决定？他们需要再开一次会吗？要谈什么？什么时候？他们内部需要做些什么，比如和合伙人商量，或者调查某个问题？他们预计需要多长时间？不要显得过于咄咄逼人，但要清楚自己的处境。如果投资人含糊其辞或抗拒回答这些问题，做最坏的打算；真正对你感兴趣的投资人通常很乐意讨论从现在到打款之间需要发生什么，因为他们脑子里已经在过这个流程了。[[12](#f12n)]"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "157c3cb7f947716ec8bf58f5de752d44320ca402a35b52bb3a7c7cb8ef0e6644",
+      "enMarkdown": "If you're experienced at negotiations, you already know how to ask such questions. [[13](#f13n)] If you're not, there's a trick you can use in this situation. Investors know you're inexperienced at raising money. Inexperience there doesn't make you unattractive. Being a noob at technology would, if you're starting a technology startup, but not being a noob at fundraising. Larry and Sergey were noobs at fundraising. So you can just confess that you're inexperienced at this and ask how their process works and where you are in it. [[14](#f14n)]",
+      "zhMarkdown": "如果你谈判经验丰富，你自然知道该怎么问这些问题。[[13](#f13n)] 如果你没有经验，这里有一个可以用的诀窍。投资人知道你在融资方面没经验。在这方面是个新手并不会削弱你的吸引力。如果你创办了一家技术公司，在技术上是个新手会很致命，但在融资上是个新手则无伤大雅。Larry 和 Sergey 当初在融资时也是新手。所以你大可以直接承认自己在这方面没有经验，问问他们的流程是怎样的，以及你们目前处于什么位置。[[14](#f14n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "6d868aa02af5a1d7380ee62df3d3d5782b3b7f32923ebe82c54a53532fe96fbf",
+      "enMarkdown": "**Get the first commitment.**",
+      "zhMarkdown": "**拿到第一个承诺。**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "17b9f8e72cc7e3f47b95598ed853550143941ac601296f1f90508f3ffbd9a4dd",
+      "enMarkdown": "The biggest factor in most investors' opinions of you is the opinion of [other investors](https://paulgraham.com/herd.html). Once you start getting investors to commit, it becomes increasingly easy to get more to. But the other side of this coin is that it's often hard to get the first commitment.",
+      "zhMarkdown": "大多数投资人对你的看法，最大决定因素在于[其他投资人](https://paulgraham.com/herd.html)对你的看法。一旦你开始拿到投资人的承诺，再拿后续的就会变得越来越容易。但硬币的另一面是，拿到第一个承诺往往是最难的。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "6eedf83efc4f94db498e0c0ab3f90fd6ef83378db262700c344dacdff2282fe8",
+      "enMarkdown": "Getting the first substantial offer can be half the total difficulty of fundraising. What counts as a substantial offer depends on who it's from and how much it is. Money from friends and family doesn't usually count, no matter how much. But if you get $50k from a well known VC firm or angel investor, that will usually be enough to set things rolling. [[15](#f15n)]",
+      "zhMarkdown": "拿到第一个实质性的要约，可能就占了整个融资难度的起码一半。什么算实质性的要约，取决于它来自谁以及金额是多少。来自亲朋好友的钱通常不算数，不管金额有多大。但如果你从知名的风投机构或天使投资人那里拿到 5 万美金，通常就足以让转轮启动了。[[15](#f15n)]"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "0454c3faac463336d08e973c2b9f9ea20362b1567de30f917a7cb6ae9a7630fe",
+      "enMarkdown": "**Close committed money.**",
+      "zhMarkdown": "**落袋为安，敲定承诺资金。**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "0a2829abc22c3a175ea32b2091dce6e00142819a6f09c21a85f831671401cb32",
+      "enMarkdown": "It's not a deal till the money's in the bank. I often hear inexperienced founders say things like \"We've raised $800,000,\" only to discover that zero of it is in the bank so far. Remember the twin fears that torment investors? The fear of missing out that makes them jump early, and the fear of jumping onto a turd that results? This is a market where people are exceptionally prone to buyer's remorse. And it's also one that furnishes them plenty of excuses to gratify it. The public markets snap startup investing around like a whip. If the Chinese economy blows up tomorrow, all bets are off. But there are lots of surprises for individual startups too, and they tend to be concentrated around fundraising. Tomorrow a big competitor could appear, or you could get C&Ded, or your cofounder could quit. [[16](#f16n)]",
+      "zhMarkdown": "钱不到账，交易就不算达成。我经常听到没有经验的创始人说“我们已经融了 80 万美金”，结果发现账上一分钱都还没收到。还记得折磨投资人的那双重恐惧吗？害怕错过让他们提前出手，而害怕踩雷的恐惧则紧随其后。在这个市场中，人们极其容易产生“买家悔单”的心理。而且这个市场也为他们提供了大把的借口来顺从这种心理。公开市场的波动会像甩鞭子一样波及创业投资。如果明天中国经济出现动荡，所有的口头承诺都会作废。对于单个创业公司来说，也会有很多意外，而且往往集中在融资期间。明天可能就会出现一个强大的竞争对手，或者你可能收到律师函，又或者你的联合创始人可能离职。[[16](#f16n)]"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "d8e6f1ec871dd6ff9d991e2e2b45655c128f346d54a3e17c1c965dbbc38a85d9",
+      "enMarkdown": "Even a day's delay can bring news that causes an investor to change their mind. So when someone commits, get the money. Knowing where you stand doesn't end when they say they'll invest. After they say yes, know what the timetable is for getting the money, and then babysit that process till it happens. Institutional investors have people in charge of wiring money, but you may have to hunt angels down in person to collect a check.",
+      "zhMarkdown": "哪怕仅仅一天的延迟，也可能带来让投资人改变主意的新消息。因此，一旦有人承诺，立刻去拿钱。看清自己的处境并不会在他们说要投资时结束。在他们说“好”之后，要弄清楚打款的时间表，然后全程紧盯着这个过程，直到钱到账。机构投资人有专门负责打款的人，但对于天使投资人，你可能得亲自去催他们开支票。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "28b804f74f02ceaf68c2f472611de09e411174584694364de92f249b61923bd2",
+      "enMarkdown": "Inexperienced investors are the ones most likely to get buyer's remorse. Established ones have learned to treat saying yes as like diving off a diving board, and they also have more brand to preserve. But I've heard of cases of even top-tier VC firms welching on deals.",
+      "zhMarkdown": "缺乏经验的投资人最容易产生买家悔单心理。老牌投资人已经懂得，说“好”就像从跳水台上跳下去，而且他们更在乎自己的品牌声誉。但我依然听说过即使是顶级风投机构也赖账不投的案例。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "259a04ebb9cca71ba3fc456b53d7005321c6af57b192799e661ce9c89e8eabd9",
+      "enMarkdown": "**Avoid investors who don't \"lead.\"**",
+      "zhMarkdown": "**避开那些不愿“领投”的投资人。**"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "78bde9f03fa0c4d175fc141f1ce0eba51692634c4fbc083d7743ad3dd2822c47",
+      "enMarkdown": "Since getting the first offer is most of the difficulty of fundraising, that should be part of your calculation of expected value when you start. You have to estimate not just the probability that an investor will say yes, but the probability that they'd be the *first* to say yes, and the latter is not simply a constant fraction of the former. Some investors are known for deciding quickly, and those are extra valuable early on.",
+      "zhMarkdown": "既然拿到第一个要约是融资中最难的部分，那么在开始时，这就应该纳入你的期望值计算中。你不仅要评估投资人说“好”的概率，还要评估他们愿意成为*第一个*说“好”的人的概率，而后者并不是前者的简单等比缩小。有些投资人以决策迅速著称，他们在融资早期格外有价值。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "91272d58ced41a1ad98580031e6c65ce0c9805eb85305040b951a72b3f718139",
+      "enMarkdown": "Conversely, an investor who will only invest once other investors have is worthless initially. And while most investors are influenced by how interested other investors are in you, there are some who have an explicit policy of only investing after other investors have. You can recognize this contemptible subspecies of investor because they often talk about \"leads.\" They say that they don't lead, or that they'll invest once you have a lead. Sometimes they even claim to be willing to lead themselves, by which they mean they won't invest till you get $x from other investors. (It's great if by \"lead\" they mean they'll invest unilaterally, and in addition will help you raise more. What's lame is when they use the term to mean they won't invest unless you can raise more elsewhere.) [[17](#f17n)]",
+      "zhMarkdown": "相反，一个只有在其他投资人进来后才肯投资的投资人，在初期毫无价值。虽然大多数投资人都会受到其他投资人意向的影响，但有些人甚至有明确的政策：只在其他投资人投完后才跟投。你可以认出这种令人鄙视的投资人亚种，因为他们经常把“领投（lead）”挂在嘴边。他们会说自己不领投，或者等你有了领投方之后他们再投。有时他们甚至声称自己愿意领投，但他们的意思是：在你从其他投资人那里拿到 X 金额之前，他们不会出资。（如果他们说的“领投”是指他们会单方面投资，并且还会帮你去融更多钱，那太棒了。让人无语的是，他们用这个词来表示：除非你能从别处融到更多钱，否则他们不投。）[[17](#f17n)]"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "3663742d628d7facd20e25b7da2f07afe175425118b697c0afa2b730b6b6f439",
+      "enMarkdown": "Where does this term \"lead\" come from? Up till a few years ago, startups raising money in phase 2 would usually raise equity rounds in which several investors invested at the same time using the same paperwork. You'd negotiate the terms with one \"lead\" investor, and then all the others would sign the same documents and all the money change hands at the closing.",
+      "zhMarkdown": "“领投”这个词是从哪儿来的？直到几年前，在第二阶段融资的创业公司通常会融股权轮（equity round），几位投资人会在同一时间使用同一套合同进行投资。你会和一位“领投”投资人谈判条款，然后其他所有人签署相同的文件，在交割时所有的钱同时到账。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "e16b1b520c1a95dd49b3522c7bd30320d7fab03628f75d16edcd49657516fe53",
+      "enMarkdown": "Series A rounds still work that way, but things now work differently for most fundraising prior to the series A. Now there are rarely actual rounds before the A round, or leads for them. Now startups simply raise money from investors one at a time till they feel they have enough.",
+      "zhMarkdown": "A 轮融资目前仍然是这种模式，但在 A 轮之前的绝大多数融资中，情况已经变了。现在 A 轮之前很少有实际的“轮次”，也没有所谓的领投方。现在的创业公司只是一个接一个地向投资人融资，直到他们觉得拿到了足够的钱。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "f271459b6056efe3b3c7bf4c9a2fe3a1d07aac53078f7ba9ef09aa5acbb96763",
+      "enMarkdown": "Since there are no longer leads, why do investors use that term? Because it's a more legitimate-sounding way of saying what they really mean. All they really mean is that their interest in you is a function of other investors' interest in you. I.e. the spectral signature of all mediocre investors. But when phrased in terms of leads, it sounds like there is something structural and therefore legitimate about their behavior.",
+      "zhMarkdown": "既然已经没有实际的领投角色了，为什么投资人还要用这个词？因为这听起来比他们真正想表达的意思更冠冕堂皇。他们真正的意思无非是：他们对你的兴趣完全取决于其他投资人对你的兴趣。也就是说，这是所有平庸投资人的典型特征。但如果用“领投”来包装，听起来就像是他们的行为背后有什么结构性的、因而也是合理的依据。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "73f894a60e12a60fec4318e89d9d899479f81880fadef8db0abd5c2c900edecd",
+      "enMarkdown": "When an investor tells you \"I want to invest in you, but I don't lead,\" translate that in your mind to \"No, except yes if you turn out to be a hot deal.\" And since that's the default opinion of any investor about any startup, they've essentially just told you nothing.",
+      "zhMarkdown": "当一个投资人对你讲“我很想投你，但我不领投”时，请在脑子里自动翻译为：“不行，除非你成了极其抢手的热门项目，那我再投。”既然这是任何投资人对任何创业公司的默认态度，他们实际上等于什么都没说。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "4034a2863503b0bcf06c0289c0751db06131abd24fbdd24dde75a8b5d5ee9b8a",
+      "enMarkdown": "When you first start fundraising, the expected value of an investor who won't \"lead\" is zero, so talk to such investors last if at all.",
+      "zhMarkdown": "当你刚开始融资时，一个不愿“领投”的投资人的期望值是零，所以这类投资人应该放到最后再接触，甚至根本不接触。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "d363eed8e9e7235b8b8ba917154fff53e0ef6e4d4e0a0caa6888ce5b5e18357c",
+      "enMarkdown": "**Have multiple plans.**",
+      "zhMarkdown": "**准备多套方案。**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "a7ae3618a2d7935dd8ede75f7c337fcf932c299cc5e3242433e26fa13365bb20",
+      "enMarkdown": "Many investors will ask how much you're planning to raise. This question makes founders feel they should be planning to raise a specific amount. But in fact you shouldn't. It's a mistake to have fixed plans in an undertaking as unpredictable as fundraising.",
+      "zhMarkdown": "许多投资人会问你计划融多少钱。这个问题让创始人觉得他们必须计划融一个具体的金额。但事实上你不应该这么做。在融资这样不可预测的事情中，制定一成不变的计划是一个错误。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "d24f1ae3d848ead67cb14b52c23ea5ca38ea5c18936743bd03b352501229bb08",
+      "enMarkdown": "So why do investors ask how much you plan to raise? For much the same reasons a salesperson in a store will ask \"How much were you planning to spend?\" if you walk in looking for a gift for a friend. You probably didn't have a precise amount in mind; you just want to find something good, and if it's inexpensive, so much the better. The salesperson asks you this not because you're supposed to have a plan to spend a specific amount, but so they can show you only things that cost the most you'll pay.",
+      "zhMarkdown": "那么为什么投资人要问你计划融多少呢？原因和商店里的导购问你“你打算花多少钱买礼物？”差不多。你脑子里可能并没有一个精确的数字；你只是想找个好东西，如果能便宜点就更好了。导购问你这个，并不是因为你必须有计划花掉一笔特定的钱，而是为了只向你展示你能承受的最高价位的商品。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "45eb0b3f575f927d4a4af00f6746ba53b7509bc46466b5e5017aec9deb448f03",
+      "enMarkdown": "Similarly, when investors ask how much you plan to raise, it's not because you're supposed to have a plan. It's to see whether you'd be a suitable recipient for the size of investment they like to make, and also to judge your ambition, reasonableness, and how far you are along with fundraising.",
+      "zhMarkdown": "同样，当投资人问你计划融多少时，并不是因为你必须有一个死计划。他们是想看看你的项目是否适合他们偏好的投资规模，并借此判断你的野心、合理性，以及你目前的融资进度。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "a35d930c4fca1f1a76ead9d7316bfa79da8d73047b5fd05840fbee163e0edc91",
+      "enMarkdown": "If you're a wizard at fundraising, you can say \"We plan to raise a $7 million series A round, and we'll be accepting termsheets next tuesday.\" I've known a handful of founders who could pull that off without having VCs laugh in their faces. But if you're in the inexperienced but earnest majority, the solution is analogous to the solution I recommend for [pitching](https://paulgraham.com/convince.html) your startup: do the right thing and then just tell investors what you're doing.",
+      "zhMarkdown": "如果你是融资高手，你可以说：“我们计划融 700 万美金的 A 轮，下周二开始接收条款清单（termsheet）。”我见过极少数创始人能说出这种话而不被风投当面嘲笑。但如果你属于绝大多数缺乏经验但态度诚恳的创始人，解决方案就类似于我推荐的[路演](https://paulgraham.com/convince.html)方法：做正确的事，然后直接告诉投资人你正在做什么。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "0a7fd46b5ee0bc04ed1ae965936faacf30b2058e34a6d820e2e1ead4982f9948",
+      "enMarkdown": "And the right strategy, in fundraising, is to have multiple plans depending on how much you can raise. Ideally you should be able to tell investors something like: we can make it to profitability without raising any more money, but if we raise a few hundred thousand we can hire one or two smart friends, and if we raise a couple million, we can hire a whole engineering team, etc.",
+      "zhMarkdown": "而在融资中，正确的策略是根据你能融到多少钱准备多套方案。理想情况下，你应该能告诉投资人类似这样的话：即使不再融任何钱，我们也能做到盈亏平衡；但如果我们能融到几十万，我们就能雇一两个聪明的同行朋友；如果我们能融到几百万，我们就能雇一整个工程团队，等等。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "dc62ccf1f37b31369c7203ec904c7efc105440e96a5cc0acce0172c39e9c24d4",
+      "enMarkdown": "Different plans match different investors. If you're talking to a VC firm that only does series A rounds (though there are few of those left), it would be a waste of time talking about any but your most expensive plan. Whereas if you're talking to an angel who invests $20k at a time and you haven't raised any money yet, you probably want to focus on your least expensive plan.",
+      "zhMarkdown": "不同的方案对应不同的投资人。如果你在和一家只做 A 轮的风投机构谈（尽管现在这样的机构很少了），谈论除了最花钱的那个方案之外的任何方案都是浪费时间。而如果你在和一个每次投 2 万美金、且你还没融到任何钱的天使投资人谈，你可能应该把重点放在最省钱的那个方案上。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "e01cde559e9394c45efce2dbf4b710ce3a3c085f9dc56bbacf11aa927aeaa421",
+      "enMarkdown": "If you're so fortunate as to have to think about the upper limit on what you should raise, a good rule of thumb is to multiply the number of people you want to hire times $15k times 18 months. In most startups, nearly all the costs are a function of the number of people, and $15k per month is the conventional total cost (including benefits and even office space) per person. $15k per month is high, so don't actually spend that much. But it's ok to use a high estimate when fundraising to add a margin for error. If you have additional expenses, like manufacturing, add in those at the end. Assuming you have none and you think you might hire 20 people, the most you'd want to raise is 20 x $15k x 18 = $5.4 million. [[18](#f18n)]",
+      "zhMarkdown": "如果你足够幸运，需要考虑融资的上限是多少，一个好用的经验法则是：用你想雇的人数乘以 1.5 万美金再乘以 18 个月。在大多数创业公司中，几乎所有的成本都是人数的函数，而每月 1.5 万美金是常规的单人总成本（包括福利甚至办公场地费用）。每月 1.5 万美金偏高，所以实际开销不用花那么多。但在融资时使用偏高的估算是可以的，这能增加容错空间。如果你有其他开支（如硬件制造），最后加上去。假设你没有其他开支，且计划雇 20 个人，你最想融的上限就是 20 × 1.5 万 × 18 = 540 万美金。[[18](#f18n)]"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "2aadf18def6dd0e3a4b08987e5152bf37b49759976ca9b87c3be94544c884898",
+      "enMarkdown": "**Underestimate how much you want.**",
+      "zhMarkdown": "**低估你想要的金额。**"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "164fa34499a540f0d903ac32b9656c7dcce09c0b95b14b06f0b468c85d55f7ca",
+      "enMarkdown": "Though you can focus on different plans when talking to different types of investors, you should on the whole err on the side of underestimating the amount you hope to raise.",
+      "zhMarkdown": "虽然在面对不同类型的投资人时可以侧重不同的方案，但总体而言，你应该倾向于低估你希望融资的金额。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "29dba0e137c3281f21ecdae70ecee2bcb94d70321ace3a6d7eec2313b03b4a57",
+      "enMarkdown": "For example, if you'd like to raise $500k, it's better to say initially that you're trying to raise $250k. Then when you reach $150k you're more than half done. That sends two useful signals to investors: that you're doing well, and that they have to decide quickly because you're running out of room. Whereas if you'd said you were raising $500k, you'd be less than a third done at $150k. If fundraising stalled there for an appreciable time, you'd start to read as a failure.",
+      "zhMarkdown": "例如，如果你想融 50 万美金，最好在开始时宣布你的目标是 250 万。这样当你拿到 15 万时，你就已经完成了一半以上。这向投资人传递了两个有用的信号：你进展顺利，而且由于剩余额度不多，他们必须尽快做决定。而如果你说自己要融 50 万，拿到 15 万时你还完成不到三分之一。如果融资在那里停滞了较长一段时间，你就会开始显得像个失败者。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "9057529afe1b6e46f967b0f68c34494e086e2cc0a39932ab488437168b2ab118",
+      "enMarkdown": "Saying initially that you're raising $250k doesn't limit you to raising that much. When you reach your initial target and you still have investor interest, you can just decide to raise more. Startups do that all the time. In fact, most startups that are very successful at fundraising end up raising more than they originally intended.",
+      "zhMarkdown": "一开始说融 25 万并不会限制你只能融这么多。当你达到最初的目标而投资人依然兴趣盎然时，你随时可以决定融更多。创业公司一直都是这么做的。事实上，大多数在融资上非常成功的公司，最终融到的钱都比最初计划的要多。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "f153dffc9d3b77f60dacc2bc9b624db2d5cb910a62d2a23a0bd37b9a54bf4e91",
+      "enMarkdown": "I'm not saying you should lie, but that you should lower your expectations initially. There is almost no downside in starting with a low number. It not only won't cap the amount you raise, but will on the whole tend to increase it.",
+      "zhMarkdown": "我不是让你撒谎，而是让你在初期降低预期。以一个较小的数字开始几乎没有任何坏处。它不仅不会封顶你最终融到的金额，反而通常有助于增加它。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "be2f2031af34f2630916ebc549d5cf7f8f43b857b5fab05bd0462c6c26e12d69",
+      "enMarkdown": "A good metaphor here is angle of attack. If you try to fly at too steep an angle of attack, you just stall. If you say right out of the gate that you want to raise a $5 million series A round, unless you're in a very strong position, you not only won't get that but won't get anything. Better to start at a low angle of attack, build up speed, and then gradually increase the angle if you want.",
+      "zhMarkdown": "这里有一个很好的比喻，就是飞机的迎角（angle of attack）。如果你的迎角太陡，飞机就会失速。如果你一上来就说要融 500 万美金的 A 轮，除非你处于极强的优势地位，否则你不仅融不到这个数，连一分钱也拿不到。最好以较缓的迎角起飞，积累速度，如果需要的话，再逐渐加大角度。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "644ff52eaa7433229001ed7298ad26afa69ece2ee99dcf5b2e3a72c11ae043c2",
+      "enMarkdown": "**Be profitable if you can.**",
+      "zhMarkdown": "**如果可以的话，做到盈利。**"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "c2f5036dd1b26549d83a998fb7b8a9c37ac86cffafe878cd1253404ac601cd7a",
+      "enMarkdown": "You will be in a much stronger position if your collection of plans includes one for raising zero dollars — i.e. if you can make it to profitability without raising any additional money. Ideally you want to be able to say to investors \"We'll succeed no matter what, but raising money will help us do it faster.\"",
+      "zhMarkdown": "如果你的多套方案中包含一套“融零元”的方案——也就是无需再融任何钱就能实现盈利，你将处于强得多的位置。理想情况下，你希望能够对投资人说：“无论如何我们都会成功，但融资能帮我们跑得更快。”"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "be180155cc2f44c5273e0bea4f373a08c396c30bebff50c7396aa16aafb98943",
+      "enMarkdown": "There are many analogies between fundraising and dating, and this is one of the strongest. No one wants you if you seem desperate. And the best way not to seem desperate is not to *be* desperate. That's one reason we urge startups during YC to keep expenses low and to try to make it to [ramen\nprofitability](https://paulgraham.com/ramenprofitable.html) before Demo Day. Though it sounds slightly paradoxical, if you want to raise money, the best thing you can do is get yourself to the point where you don't need to.",
+      "zhMarkdown": "融资和约会之间有许多相似之处，而这是最像的一点。如果你显得极其饥渴，就没人想要你。而不想显得饥渴的最好方法，就是真的*不*饥渴。这也是为什么我们在 YC 期间极力敦促创业公司保持低成本，并争取在 Demo Day 之前实现[拉面盈利](https://paulgraham.com/ramenprofitable.html)。虽然听起来有些自相矛盾：如果你想融资，你能做的最好的事情就是让自己达到不需要融资的境地。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "7e299dc03534814e96d215abfcbdf85463c8a2f47e1e058a33e7d1c658e82130",
+      "enMarkdown": "There are almost two distinct modes of fundraising: one in which founders who need money knock on doors seeking it, knowing that otherwise the company will die or at the very least people will have to be fired, and one in which founders who don't need money take some to grow faster than they could merely on their own revenues. To emphasize the distinction I'm going to name them: type A fundraising is when you don't need money, and type B fundraising is when you do.",
+      "zhMarkdown": "融资几乎存在两种截然不同的模式：一种是缺钱的创始人四处敲门求钱，深知否则公司就会死掉，或者至少得裁员；另一种是不缺钱的创始人拿一笔钱，以此实现比单靠自身营收更快的增长。为了强调这一区别，我给它们起个名字：A 型融资是指你不需要钱，B 型融资是指你真的缺钱。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "0af7f2acf0597a5ef7413addb027e5c4b2e27797164592267340491ed6453bd3",
+      "enMarkdown": "Inexperienced founders read about famous startups doing what was type A fundraising, and decide they should raise money too, since that seems to be how startups work. Except when they raise money they don't have a clear path to profitability and are thus doing type B fundraising. And they are then surprised how difficult and unpleasant it is.",
+      "zhMarkdown": "没有经验的创始人读到著名创业公司当年进行的 A 型融资故事，便决定自己也应该融资，因为创业公司似乎就是这么运作的。然而当他们去融资时，他们并没有清晰的盈利路径，因此做的是 B 型融资。随后，他们会对过程的艰难和痛苦感到惊讶。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "cecae9038e78b9d51d72368f7fc8bb50910dbce6ab81b7de649541d031d7b599",
+      "enMarkdown": "Of course not all startups can make it to ramen profitability in a few months. And some that don't still manage to have the upper hand over investors, if they have some other advantage like extraordinary growth numbers or exceptionally formidable founders. But as time passes it gets increasingly difficult to fundraise from a position of strength without being profitable. [[19](#f19n)]",
+      "zhMarkdown": "当然，并非所有创业公司都能在几个月内实现拉面盈利。有些没实现盈利的公司，如果拥有其他优势（如惊人的增长数据或极具竞争力的创始人），依然能够对投资人占据上风。但随着时间推移，在不盈利的情况下想要从强势地位去融资，会变得越来越难。[[19](#f19n)]"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "49af594edf103e2633225a6813ad78a10af214b41139a94b5e6c20b822d63de4",
+      "enMarkdown": "**Don't optimize for valuation.**",
+      "zhMarkdown": "**不要过分优化估值。**"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "d521c76121db5b61971199a2d96d646537345dd2ec06b343265fd2da0e5ad7af",
+      "enMarkdown": "When you raise money, what should your valuation be? The most important thing to understand about valuation is that it's not that important.",
+      "zhMarkdown": "当你融资时，你的估值应该是多少？关于估值，最需要明白的一点是：它并没有那么重要。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "28a367e606b0ee20aec421de008048399a00b113ed1993340bdde81d68ca65af",
+      "enMarkdown": "Founders who raise money at high valuations tend to be unduly proud of it. Founders are often competitive people, and since valuation is usually the only visible number attached to a startup, they end up competing to raise money at the highest valuation. This is stupid, because fundraising is not the test that matters. The real test is revenue. Fundraising is just a means to that end. Being proud of how well you did at fundraising is like being proud of your college grades.",
+      "zhMarkdown": "在高估值下融到钱的创始人往往会为此过度自豪。创始人通常都是好胜心极强的人，由于估值通常是创业公司唯一公开可见的数字，他们最终会为了融到最高估值而互相攀比。这很愚蠢，因为融资并不是真正决定胜负的考试。真正的考试是营收。融资只是达到这一目的的手段。为自己在融资上的表现感到自豪，就像为自己的大学成绩感到自豪一样。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "c4704e93ad027dc6da11f0b8d5c81c42fd24bb9e7e973e35d678a17c83a7d20a",
+      "enMarkdown": "Not only is fundraising not the test that matters, valuation is not even the thing to optimize about fundraising. The number one thing you want from phase 2 fundraising is to get the money you need, so you can get back to focusing on the real test, the success of your company. Number two is good investors. Valuation is at best third.",
+      "zhMarkdown": "融资不仅不是最重要的考试，估值甚至不是融资中最需要优化的指标。第二阶段融资的首要目标是拿到你需要的钱，这样你才能重新专注到真正的考试——你公司的成功上。第二目标是找到优秀的投资人。估值充其量只能排第三。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "bade8d96e2a848bc1a6de221575886b8146ebcba0eb327372f1c1135165fb733",
+      "enMarkdown": "The empirical evidence shows just how unimportant it is. Dropbox and Airbnb are the most successful companies we've funded so far, and they raised money after Y Combinator at premoney valuations of $4 million and $2.6 million respectively. Prices are so much higher now that if you can raise money at all you'll probably raise it at higher valuations than Dropbox and Airbnb. So let that satisfy your competitiveness. You're doing better than Dropbox and Airbnb! At a test that doesn't matter.",
+      "zhMarkdown": "经验证据表明估值是多么微不足道。Dropbox 和 Airbnb 是我们目前投资过最成功的公司，它们在 Y Combinator 之后的融资中，投前估值分别只有 400 万美金和 260 万美金。现在的行情要高得多，如果你能融到钱，你的估值很可能会比当年的 Dropbox 和 Airbnb 还要高。所以，让这一点满足你的好胜心吧：你在一个无关紧要的考试中，考得比 Dropbox 和 Airbnb 还要好！"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "1d72eaa4e1b54895a50c5430560117fd17844283644f8042c5ebb546a457a9cf",
+      "enMarkdown": "When you start fundraising, your initial valuation (or valuation cap) will be set by the deal you make with the first investor who commits. You can increase the price for later investors, if you get a lot of interest, but by default the valuation you got from the first investor becomes your asking price.",
+      "zhMarkdown": "当你开始融资时，你的初始估值（或估值上限）将由你与第一个承诺投资的投资人达成的交易决定。如果后续有很多人感兴趣，你可以提高后续投资人的价格，但在默认情况下，你从第一个投资人那里拿到的估值就会成为你的开价。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "7d379bc99c543028ded1952f19760107c32d7714976d11371a59b20eeeccf2e0",
+      "enMarkdown": "So if you're raising money from multiple investors, as most companies do in phase 2, you have to be careful to avoid raising the first from an over-eager investor at a price you won't be able to sustain. You can of course lower your price if you need to (in which case you should give the same terms to investors who invested earlier at a higher price), but you may lose a bunch of leads in the process of realizing you need to do this.",
+      "zhMarkdown": "因此，如果你像大多数在第二阶段的公司一样向多位投资人融资，你必须小心，避免从一个过于急切的投资人那里拿到一个你无法维持的高价。如果需要，你当然可以降价（在这种情况下，你应该给之前以高价投资的投资人相同的条款），但在你意识到需要降价的过程中，你可能会失去一大批潜在的投资线索。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "3451328173a08b7a23f4b728e8400fdca94b4f9175c3e8c40b07214e6ac1e756",
+      "enMarkdown": "What you can do if you have eager first investors is raise money from them on an uncapped convertible note with an MFN clause. This is essentially a way of saying that the valuation cap of the note will be determined by the next investors you raise money from.",
+      "zhMarkdown": "如果你碰到了非常急切的早期投资人，你可以通过带有最惠国待遇（MFN）条款、无估值上限的可转债来拿他们的钱。这实质上是说，这笔债的估值上限将由你后续融资的投资人来决定。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "0e5de527ac70f6339665bd00f5e819afe0af0af0d9f5657d2fc53eb954c9a653",
+      "enMarkdown": "It will be easier to raise money at a lower valuation. It shouldn't be, but it is. Since phase 2 prices vary at most 10x and the big successes generate returns of at least 100x, investors should pick startups entirely based on their estimate of the probability that the company will be a big success and hardly at all on price. But although it's a mistake for investors to care about price, a significant number do. A startup that investors seem to like but won't invest in at a cap of $x will have an easier time at $x/2. [[20](#f20n)]",
+      "zhMarkdown": "在较低的估值下融资会更容易。本不该如此，但事实确实如此。由于第二阶段的价格差异最多只有 10 倍，而大成功带来的回报至少是 100 倍，投资人挑选创业公司时，应该完全基于他们对公司成功概率的估算，而几乎不应该考虑价格。然而，尽管投资人介意价格是个错误，但还是有相当多的人在乎。一个投资人似乎挺喜欢、但觉得在 X 的上限下贵了的创业公司，如果把上限降到 X/2，就会容易得多。[[20](#f20n)]"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "ea21a3ef50067a110f894a747cd4b8cda1706843125e21e630141febf11dc90d",
+      "enMarkdown": "**Yes/no before valuation.**",
+      "zhMarkdown": "**先谈投不投，再谈估值。**"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "5e9097a4e4f9c7aabd38e4b613d1c2dffc5028fc48a60f9e9f8c9540878f8abe",
+      "enMarkdown": "Some investors want to know what your valuation is before they even talk to you about investing. If your valuation has already been set by a prior investment at a specific valuation or cap, you can tell them that number. But if it isn't set because you haven't closed anyone yet, and they try to push you to name a price, resist doing so. If this would be the first investor you've closed, then this could be the tipping point of fundraising. That means closing this investor is the first priority, and you need to get the conversation onto that instead of being dragged sideways into a discussion of price.",
+      "zhMarkdown": "有些投资人甚至在和你谈投资之前就想知道你的估值。如果你的估值已经由之前的投资或特定的估值上限确定，你可以告诉他们那个数字。但如果估值还没定，因为你还没敲定任何投资人，而他们又试图逼你开个价，请顶住压力。如果这是你即将敲定的第一个投资人，这可能是整个融资的转折点。这意味着敲定这位投资人是第一要务，你需要把对话引向“投不投”，而不是被带偏去讨论价格。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "58f3794a6c0dc7b74cbcf296f298d81457cf2df9692ba50aa52f0bc053ecfcae",
+      "enMarkdown": "Fortunately there is a way to avoid naming a price in this situation. And it is not just a negotiating trick; it's how you (both) should be operating. Tell them that valuation is not the most important thing to you and that you haven't thought much about it, that you are looking for investors you want to partner with and who want to partner with you, and that you should talk first about whether they want to invest at all. Then if they decide they do want to invest, you can figure out a price. But first things first.",
+      "zhMarkdown": "幸运的是，在这种情况下有一种方法可以避免开价。这不仅是一个谈判技巧，也是你们（双方）本该采取的运作方式。告诉他们，估值对你来说不是最重要的，你还没怎么想过这个问题，你正在寻找想要合伙的投资人，他们也应该想和你们合作，你们应该先谈谈他们是否真的想投。如果他们决定投，你们再一起商量价格。事情要一件一件来。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "f1c8b3c6cb6331558d79dd254ee9dfd93a4c899d0cfbc2af39837bb7bfaeb82a",
+      "enMarkdown": "Since valuation isn't that important and getting fundraising rolling is, we usually tell founders to give the first investor who commits as low a price as they need to. This is a safe technique so long as you combine it with the next one. [[21](#f21n)]",
+      "zhMarkdown": "既然估值没那么重要，而让融资运转起来才是关键，我们通常会告诉创始人，给第一个承诺投资的人一个他们需要的低价。只要你把这一招和下一招结合起来，这就是一个安全的做法。[[21](#f21n)]"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "2201e41ad7728b997d145d4d0cad672e7404b8a222fce5166a2e4e37da9791d7",
+      "enMarkdown": "**Beware \"valuation sensitive\" investors.**",
+      "zhMarkdown": "**警惕“估值敏感型”投资人。**"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "bb9b77a289269d78861ecb72deec8c40c0bd1a1bb5cf93b41189e3b10aee7720",
+      "enMarkdown": "Occasionally you'll encounter investors who describe themselves as \"valuation sensitive.\" What this means in practice is that they are compulsive negotiators who will suck up a lot of your time trying to push your price down. You should therefore never approach such investors first. While you shouldn't chase high valuations, you also don't want your valuation to be set artificially low because the first investor who committed happened to be a compulsive negotiator. Some such investors have value, but the time to approach them is near the end of fundraising, when you're in a position to say \"this is the price everyone else has paid; take it or leave it\" and not mind if they leave it. This way, you'll not only get market price, but it will also take less time.",
+      "zhMarkdown": "偶尔你会遇到自称“估值敏感”的投资人。在实际操作中，这意味着他们是强迫性的谈判专家，会榨干你大量的时间来试图压低价格。因此，你绝对不要先去找这样的投资人。虽然你不应该追求高估值，但你也不希望因为第一个承诺投资的人恰好是个强迫性谈判专家，而让你的估值被压得畸低。这类投资人中有些是有价值的，但接触他们的时机应该是在融资快结束时，那时你处于可以明确说“这就是其他人付的价格，要么接受，要么拉倒”的位置，而且即使他们不投你也不介意。这样，你不仅能拿到市场价，而且花的时间也更少。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "46ebc700a3e6d0dcd5b4c3db6fb8d1b55e665b4b92835dcfc89c06d76aec1309",
+      "enMarkdown": "Ideally you know which investors have a reputation for being \"valuation sensitive\" and can postpone dealing with them till last, but occasionally one you didn't know about will pop up early on. The rule of doing breadth first search weighted by expected value already tells you what to do in this case: slow down your interactions with them.",
+      "zhMarkdown": "理想情况下，你清楚哪些投资人以“估值敏感”著称，并能把和他们打交道的时间推迟到最后。但偶尔也会遇到一个你之前不知道的投资人很早就冒了出来。以期望值为权重的广度优先搜索规则已经告诉了你该怎么做：放慢你和他们的互动节奏。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "adc9c327736681f77f7ed274a43775c6bd1e6138b70ff5a1122d6ffbc2395ec0",
+      "enMarkdown": "There are a handful of investors who will try to invest at a lower valuation even when your price has already been set. Lowering your price is a backup plan you resort to when you discover you've let the price get set too high to close all the money you need. So you'd only want to talk to this sort of investor if you were about to do that anyway. But since investor meetings have to be arranged at least a few days in advance and you can't predict when you'll need to resort to lowering your price, this means in practice that you should approach this type of investor last if at all.",
+      "zhMarkdown": "有少数投资人即使在你的价格已经确定之后，仍会试图以更低的估值进行投资。降价是当你发现价格定得太高、无法融到所需资金时才采用的备用计划。所以你只有在本来就打算降价的时候，才会想和这种投资人谈。但由于投资人会议必须至少提前几天安排，而你无法预测自己何时需要求助于降价，这在实践中意味着你应该把这类投资人放到最后接触，甚至根本不接触。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "1d4d189c9c152ec3aaf9a5206dede9b6593c01d9ff0778701b52df6e8fda7133",
+      "enMarkdown": "If you're surprised by a lowball offer, treat it as a backup offer and delay responding to it. When someone makes an offer in good faith, you have a moral obligation to respond in a reasonable time. But lowballing you is a dick move that should be met with the corresponding countermove.",
+      "zhMarkdown": "如果你被一个极低的报价（lowball offer）震惊到了，把它当成一个备用要约，并推迟回复。当有人出于诚意给出要约时，你有道义上的义务在合理时间内做出回复。但恶意压价是一种下作的手段，应该用相应的反制手段来对付。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "e7530caf8915a38d8f1e1ea49725c64dc919508cbe09f7acc5758b12f0285233",
+      "enMarkdown": "**Accept offers greedily.**",
+      "zhMarkdown": "**贪婪地接受要约。**"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "99813c6f38e48581dfd681ced90ecb2aa6bad11eccb9f5c5ad5f2cb592fe3af1",
+      "enMarkdown": "I'm a little leery of using the term \"greedily\" when writing about fundraising lest non-programmers misunderstand me, but a greedy algorithm is simply one that doesn't try to look into the future. A greedy algorithm takes the best of the options in front of it right now. And that is how startups should approach fundraising in phases 2 and later. Don't try to look into the future because (a) the future is unpredictable, and indeed in this business you're often being deliberately misled about it and (b) your first priority in fundraising should be to get it finished and get back to work anyway.",
+      "zhMarkdown": "在写融资时使用“贪婪地（greedily）”这个词让我有点顾虑，担心非程序员会误解我。但在算法中，贪婪算法（greedy algorithm）只是指一种不试图预测未来的算法。贪婪算法会在眼前的选项中选择最好的一个。这就是创业公司在第二阶段及以后阶段对待融资应有的方式。不要试图预测未来，因为：（a）未来是不可预测的，而且在这个行业里，你经常会被人故意误导；（b）无论如何，你融资的第一要务是赶紧搞定它，然后回去工作。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "98d3215f51432e0149083ebd37503c88191a34f4a1ef15ed452102a007b6311d",
+      "enMarkdown": "If someone makes you an acceptable offer, take it. If you have multiple incompatible offers, take the best. Don't reject an acceptable offer in the hope of getting a better one in the future.",
+      "zhMarkdown": "如果有人给你一个可以接受的要约，接受它。如果你有多个互不相容的要约，选择最好的一个。不要为了期望未来能拿到更好的要约而拒绝一个当下可以接受的要约。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "9a06c9028ad8c32481051025ac1dbf89e10f80d0f1bf0032046b7e40d5b9487d",
+      "enMarkdown": "These simple rules cover a wide variety of cases. If you're raising money from many investors, roll them up as they say yes. As you start to feel you've raised enough, the threshold for acceptable will start to get higher.",
+      "zhMarkdown": "这些简单的规则涵盖了广泛的情况。如果你正在向多位投资人融资，在他们说“好”的时候就把他们一个接一个敲定。当你开始觉得已经融得差不多时，你对“可接受”的门槛就会自然提高。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "e458c45882da84f6342c2040f5a593e1d41e51ac0f9a56bda3575737df99ae97",
+      "enMarkdown": "In practice offers exist for stretches of time, not points. So when you get an acceptable offer that would be incompatible with others (e.g. an offer to invest most of the money you need), you can tell the other investors you're talking to that you have an offer good enough to accept, and give them a few days to make their own. This could lose you some that might have made an offer if they had more time. But by definition you don't care; the initial offer was acceptable.",
+      "zhMarkdown": "在实践中，要约存在的时间是一段区间，而不是一个时间点。所以当你拿到一个可以接受但与其他要约冲突的要约时（例如，一个愿意投资你所需大部分资金的要约），你可以告诉其他正在谈的投资人，你已经拿到了一个足够好、可以接受的要约，并给他们几天时间来给出他们自己的方案。这可能会让你失去一些如果有更多时间本可以给出要约的投资人。但根据定义你并不在乎；因为最初的那个要约已经是可接受的了。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "423ac494f1f733ed6d4b745b76fccaa06329ddf42ee352880646a92b9d2e275a",
+      "enMarkdown": "Some investors will try to prevent others from having time to decide by giving you an \"exploding\" offer, meaning one that's only valid for a few days. Offers from the very best investors explode less frequently and less rapidly — Fred Wilson never gives exploding offers, for example — because they're confident you'll pick them. But lower-tier investors sometimes give offers with very short fuses, because they believe no one who had other options would choose them. A deadline of three working days is acceptable. You shouldn't need more than that if you've been talking to investors in parallel. But a deadline any shorter is a sign you're dealing with a sketchy investor. You can usually call their bluff, and you may need to. [[22](#f22n)]",
+      "zhMarkdown": "有些投资人会试图通过给出“会爆炸的（exploding）”要约（即只在几天内有效的要约）来阻止其他投资人有时间做决定。最顶尖的投资人给出的要约很少会爆炸，或者不会爆炸得那么快——例如 Fred Wilson 从不给出爆炸性要约——因为他们有信心你会选择他们。但低端投资人有时会给出期限极短的要约，因为他们相信任何有其他选择的人都不会选他们。三个工作日的期限是可接受的。如果你一直在并行和投资人谈，你不需要比这更多的时间。但任何比这更短的期限都是你正在和不靠谱投资人打交道的信号。你通常可以拆穿他们的虚张声势，而且有时你必须这么做。[[22](#f22n)]"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "63e7a7348d742c88d0e24510c1e99d5a9cb85d8471c21c77778fe2195820d90c",
+      "enMarkdown": "It might seem that instead of accepting offers greedily, your goal should be to get the best investors as partners. That is certainly a good goal, but in phase 2 \"get the best investors\" only rarely conflicts with \"accept offers greedily,\" because the best investors don't usually take any longer to decide than the others. The only case where the two strategies give conflicting advice is when you have to forgo an offer from an acceptable investor to see if you'll get an offer from a better one. If you talk to investors in parallel and push back on exploding offers with excessively short deadlines, that will almost never happen. But if it does, \"get the best investors\" is in the average case bad advice. The best investors are also the most selective, because they get their pick of all the startups. They reject nearly everyone they talk to, which means in the average case it's a bad trade to exchange a definite offer from an acceptable investor for a potential offer from a better one.",
+      "zhMarkdown": "看起来，你的目标不应该是贪婪地接受要约，而应该是争取最好的投资人做合伙人。这当然是一个好目标，但在第二阶段，“争取最好的投资人”极少与“贪婪地接受要约”冲突，因为最好的投资人通常做决定并不比其他人慢。这两个策略唯一会给出冲突建议的情况，是当你必须放弃一个可接受投资人的要约，去看看能否从更好的投资人那里拿到要约。如果你并行与投资人沟通，并顶住期限过短的爆炸性要约，这种情况几乎永远不会发生。但如果真的发生了，在平均情况下，“争取最好的投资人”是个坏建议。最好的投资人也是最挑剔的，因为他们可以挑选所有的创业公司。他们拒绝几乎所有和他们谈过的人，这意味着在平均情况下，用一个可接受投资人的确定要约去换取一个更好投资人的潜在要约，是一笔糟糕的交易。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "85390d89dd886f67a5b471b4a74e71772d0de4f1876889ed739f006e4f51ddbe",
+      "enMarkdown": "(The situation is different in phase 1. You can't apply to all the incubators in parallel, because some offset their schedules to prevent this. In phase 1, \"accept offers greedily\" and \"get the best investors\" do conflict, so if you want to apply to multiple incubators, you should do it in such a way that the ones you want most decide first.)",
+      "zhMarkdown": "（第一阶段的情况有所不同。你无法并行申请所有的孵化器，因为有些孵化器会错开时间表来防止这种情况。在第一阶段，“贪婪地接受要约”和“争取最好的投资人”确实存在冲突，所以如果你想申请多个孵化器，你应该合理安排，让你最想要的那些最先做出决定。）"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "dde5f6d729dc04f0a4ec21c7a5ea025c88ab40bfcfeda1cf7958756305090db5",
+      "enMarkdown": "Sometimes when you're raising money from multiple investors, a series A will emerge out of those conversations, and these rules even cover what to do in that case. When an investor starts to talk to you about a series A, keep taking smaller investments till they actually give you a termsheet. There's no practical difficulty. If the smaller investments are on convertible notes, they'll just convert into the series A round. The series A investor won't like having all these other random investors as bedfellows, but if it bothers them so much they should get on with giving you a termsheet. Till they do, you don't know for sure they will, and the greedy algorithm tells you what to do. [[23](#f23n)]",
+      "zhMarkdown": "有时当你向多位投资人融资时，这些对话中会孕育出一个 A 轮融资机会，而这些规则甚至涵盖了在这种情况下该怎么做。当一个投资人开始和你谈 A 轮时，继续接受较小的投资，直到他们真正给你一份条款清单。这没有任何实际困难。如果较小的投资是通过可转债进行的，它们届时会直接转入 A 轮。A 轮投资人可能不喜欢和其他零散的投资人混在一起，但如果这让他们如此困扰，他们应该抓紧时间给你条款清单。在他们给出之前，你无法确定他们一定会投，而贪婪算法会告诉你该怎么做。[[23](#f23n)]"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "7b530e1ce3410a70948809dcd87e44cd894087600baa25dd2f4f63e73e01c414",
+      "enMarkdown": "**Don't sell more than 25% in phase 2.**",
+      "zhMarkdown": "**在第二阶段出售的股权不要超过 25%。**"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "c35389a6eeeb7c84d34c14483b58e30be059feb4ffd2c9e18c32ad969ebeda82",
+      "enMarkdown": "If you do well, you will probably raise a series A round eventually. I say probably because things are changing with series A rounds. Startups may start to skip them. But only one company we've funded has so far, so tentatively assume the path to huge passes through an A round. [[24](#f24n)]",
+      "zhMarkdown": "如果你做得好，你最终可能会进行 A 轮融资。我说“可能”是因为 A 轮融资的情况正在发生变化。创业公司可能会开始跳过它们。但到目前为止，我们资助的公司中只有一家跳过了，所以暂时假设通往伟大的道路必须经过 A 轮。[[24](#f24n)]"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "84753a4966a54ac52540520bb25a17effc576bba3bfce1005a0d8fe96cbe148c",
+      "enMarkdown": "Which means you should avoid doing things in earlier rounds that will mess up raising an A round. For example, if you've sold more than about 40% of your company total, it starts to get harder to raise an A round, because VCs worry there will not be enough stock left to keep the founders motivated.",
+      "zhMarkdown": "这意味着你应该避免在早期轮次中做一些会搞砸 A 轮融资的事情。例如，如果你总共已经卖掉了公司 40% 以上的股权，融 A 轮就会开始变得困难，因为风投会担心剩下的股份不足以保持创始人的积极性。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "077aad5323dc08d6caf7e44471a2fa5701b49607dd3b5aa5dd363045a25fb631",
+      "enMarkdown": "Our rule of thumb is not to sell more than 25% in phase 2, on top of whatever you sold in phase 1, which should be less than 15%. If you're raising money on uncapped notes, you'll have to guess what the eventual equity round valuation might be. Guess conservatively.",
+      "zhMarkdown": "我们的经验法则是，在第二阶段出售的股权不要超过 25%，这不包括你在第一阶段卖掉的份额（第一阶段应该少于 15%）。如果你是用无上限的可转债融资，你必须估算最终股权轮的估值。估算时要保守一些。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "3d560c98ce04c2b8511393ae185edd6157ea93265e905e06ca48b84d1bd9b89c",
+      "enMarkdown": "(Since the goal of this rule is to avoid messing up the series A, there's obviously an exception if you end up raising a series A in phase 2, as a handful of startups do.)",
+      "zhMarkdown": "（由于这条规则的目的是避免搞砸 A 轮，如果你在第二阶段直接融了 A 轮，显然属于例外，少数创业公司确实做到了这一点。）"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "a6f8aedc010d44e44fe8132c94d7b5a66c9069d8f7c9b0450ad899eb44c42f31",
+      "enMarkdown": "**Have one person handle fundraising.**",
+      "zhMarkdown": "**由一个人来主导融资。**"
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "8c26bf9d81025b95acb629675890608e11da9ec28e76dba06352fb786957f7c0",
+      "enMarkdown": "If you have multiple founders, pick one to handle fundraising so the other(s) can keep working on the company. And since the danger of fundraising is not the time taken up by the actual meetings but that it becomes the top idea in your mind, the founder who handles fundraising should make a conscious effort to insulate the other founder(s) from the details of the process. [[25](#f25n)]",
+      "zhMarkdown": "如果你有多个联合创始人，挑选一个来主导融资，这样其他人可以继续专注于公司业务。既然融资的危险不在于实际开会占用的时间，而在于它会成为你脑子里的头等大事，主导融资的创始人应该有意识地努力让其他创始人屏蔽融资过程的细节。[[25](#f25n)]"
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "e808e8de5229e010dae4f306567e4204ef8d359ae42157c9151c2d51f9203106",
+      "enMarkdown": "(If the founders mistrust one another, this could cause some friction. But if the founders mistrust one another, you have worse problems to worry about than how to organize fundraising.)",
+      "zhMarkdown": "（如果创始人之间缺乏信任，这可能会引起一些摩擦。但如果创始人之间缺乏信任，你面临的问题可比如何组织融资要严重得多。）"
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "aba3b21230c9f49d243f58f1c7115454f63caacb82167d349e26e08d0fe7f52b",
+      "enMarkdown": "The founder who handles fundraising should be the CEO, who should in turn be the most formidable of the founders. Even if the CEO is a programmer and another founder is a salesperson? Yes. If you happen to be that type of founding team, you're effectively a single founder when it comes to fundraising.",
+      "zhMarkdown": "主导融资的创始人应该是 CEO，而 CEO 应该是创始人中最强悍的那位。即使 CEO 是程序员，而另一个创始人是销售？是的。如果你们恰好是这种类型的创始团队，在融资这件事上，你实际上相当于一个单打独斗的创始人。"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "ede4b89e162fb85813b0548fe0d15af1845a143ab2a48a556eecd0a0f51c3d77",
+      "enMarkdown": "It's ok to bring all the founders to meet an investor who will invest a lot, and who needs this meeting as the final step before deciding. But wait till that point. Introducing an investor to your cofounder(s) should be like introducing a girl/boyfriend to your parents — something you do only when things reach a certain stage of seriousness.",
+      "zhMarkdown": "把所有创始人都带去见一个准备大笔投资的投资人是可以的，前提是他们需要这次会面作为做决定前的最后一步。但要等到那个时候。把合伙人引荐给投资人应该像把男/女朋友介绍给父母一样——只有在关系发展到一定的严肃阶段时才做。"
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "sourceHash": "aaad178a4dd440ebd9d2c77bbe5f542d2153f583bec869902d5b6c82f3f38fe0",
+      "enMarkdown": "Even if there are still one or more founders focusing on the company during fundraising, growth will slow. But try to get as much growth as you can, because fundraising is a segment of time, not a point, and what happens to the company during that time affects the outcome. If your numbers grow significantly between two investor meetings, investors will be hot to close, and if your numbers are flat or down they'll start to get cold feet.",
+      "zhMarkdown": "即使在融资期间仍有一位或多位创始人专注于公司，增长也会放缓。但要尽一切努力去争取增长，因为融资是一段时间，而不是一个时间点，在这期间公司发生的事情会影响最终结果。如果你的数据在两次投资人会面之间有了显著增长，投资人会急于敲定；而如果你的数据持平或下滑，他们就会开始打退堂鼓。"
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "93f5f65fdf6ca7e407d3ea225c4b18dc7688f070c28d27c8380b7b867b8feb4e",
+      "enMarkdown": "**You'll need an executive summary and (maybe) a deck.**",
+      "zhMarkdown": "**你需要一份执行摘要，以及（可能需要）一份路演 PPT（Deck）。**"
+    },
+    {
+      "id": 111,
+      "type": "paragraph",
+      "sourceHash": "70de9960f60fb1c6ea73742c2f9a3a702851f79c73e6c9354ecc0f51167be68f",
+      "enMarkdown": "Traditionally phase 2 fundraising consists of presenting a slide deck in person to investors. Sequoia describes what such a deck should [contain](http://www.sequoiacap.com/ideas), and since they're the customer you can take their word for it.",
+      "zhMarkdown": "传统上，第二阶段融资包括向投资人当面演示一份路演 PPT。红杉资本描述了这样一份 PPT 应该[包含](http://www.sequoiacap.com/ideas)什么，既然他们是买单的人，你可以听取他们的意见。"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "e9280c9a7f961b3096d236cbf9da34421c95dec2ae63dc739672b73207fcee58",
+      "enMarkdown": "I say \"traditionally\" because I'm ambivalent about decks, and (though perhaps this is wishful thinking) they seem to be on the way out. A lot of the most successful startups we fund never make decks in phase 2. They just talk to investors and explain what they plan to do. Fundraising usually takes off fast for the startups that are most successful at it, and they're thus able to excuse themselves by saying that they haven't had time to make a deck.",
+      "zhMarkdown": "我说“传统上”是因为我对 PPT 持保留态度，而且（或许这只是一厢情愿）它们似乎正在过时。我们投资的许多最成功的公司在第二阶段从不做 PPT。他们只是和投资人交谈，解释他们计划做什么。对于那些在融资上最成功的创业公司来说，融资往往推进得极快，因此他们可以用“还没来得及做 PPT”为由推脱过去。"
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "sourceHash": "6a2ec5695029dbb92b866fc6f9a7300db7532dee4f7c19a4905e42f0b2ce7f92",
+      "enMarkdown": "You'll also want an executive summary, which should be no more than a page long and describe in the most matter of fact language what you plan to do, why it's a good idea, and what progress you've made so far. The point of the summary is to remind the investor (who may have met many startups that day) what you talked about.",
+      "zhMarkdown": "你还需要一份执行摘要，长度不要超过一页，用最平实客观的语言描述你计划做什么、为什么这是个好主意，以及你们迄今为止取得了什么进展。摘要的作用是提醒投资人（他们当天可能见了很多创业公司）你们聊了什么。"
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "925ddfc3c020f58db6a4ed1737160fc3830a2c142728f0d823154aab3e5627b9",
+      "enMarkdown": "Assume that if you give someone a copy of your deck or executive summary, it will be passed on to whoever you'd least like to have it. But don't refuse on that account to give copies to investors you meet. You just have to treat such leaks as a cost of doing business. In practice it's not that high a cost. Though founders are rightly indignant when their plans get leaked to competitors, I can't think of a startup whose outcome has been affected by it.",
+      "zhMarkdown": "要做好心理准备，如果你把 PPT 或执行摘要的副本给别人，它迟早会被传到你最不希望看到它的人手里。但不要因此拒绝提供副本给见面的投资人。你只需要把这种泄密视为商业成本。在实践中，这个成本并没有那么高。虽然创始人对自己的计划被泄露给竞争对手感到义愤填膺是完全合理的，但我一时间想不出有哪家创业公司的最终结局是因此受到影响的。"
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "sourceHash": "75b644d5941a775d8034451c99794bcec720e0419a22f75d613fe550a0e2e99a",
+      "enMarkdown": "Sometimes an investor will ask you to send them your deck and/or executive summary before they decide whether to meet with you. I wouldn't do that. It's a sign they're not really interested.",
+      "zhMarkdown": "有时投资人会要求你在决定是否见面之前先把 PPT 和/或执行摘要发给他们。我不会这么做。这表明他们并不是真的感兴趣。"
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "e92a46f858576b837341c4882a5f5d700c5493f14c80f57cc29cf4dc91a4913a",
+      "enMarkdown": "**Stop fundraising when it stops working.**",
+      "zhMarkdown": "**当融资不再有进展时，果断停止。**"
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "b9c55d07b8b3e428496a5be073757540631b34bed156ca6bfce0f1c10c5ada79",
+      "enMarkdown": "When do you stop fundraising? Ideally when you've raised enough. But what if you haven't raised as much as you'd like? When do you give up?",
+      "zhMarkdown": "你什么时候停止融资？理想情况下是当你融够了钱。但如果你没有融到期望的那么多呢？你什么时候放弃？"
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "38a0daa71400e74f842bfdf964f26c4675fba015ec35875d75f6be333a346616",
+      "enMarkdown": "It's hard to give general advice about this, because there have been cases of startups that kept trying to raise money even when it seemed hopeless, and miraculously succeeded. But what I usually tell founders is to stop fundraising when you start to get a lot of air in the straw. When you're drinking through a straw, you can tell when you get to the end of the liquid because you start to get a lot of air in the straw. When your fundraising options run out, they usually run out in the same way. Don't keep sucking on the straw if you're just getting air. It's not going to get better.",
+      "zhMarkdown": "这很难给出普遍适用的建议，因为有些创业公司在看起来毫无希望的情况下依然坚持融资，并奇迹般地成功了。但我通常告诉创始人的是，当你开始在吸管里吸到很多空气时，就该停止融资了。当你用吸管喝饮料时，你很容易判断什么时候快喝完了，因为你开始吸到很多空气。当你的融资选项枯竭时，通常也是这种感觉。如果你吸到的全是空气，就不要再用力吸了。情况不会好转的。"
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "sourceHash": "8124526f05c5bc6f158dd76c5be71a7ead837aa0dbdef5a970dfc67661fb6182",
+      "enMarkdown": "**Don't get addicted to fundraising.**",
+      "zhMarkdown": "**不要对融资上瘾。**"
+    },
+    {
+      "id": 120,
+      "type": "paragraph",
+      "sourceHash": "e0450a46e7ad8f872e8a4a6c4b27e344de3ed075d0d25e40bfc0eebf47d74a2f",
+      "enMarkdown": "Fundraising is a chore for most founders, but some find it more interesting than working on their startup. The work at an early stage startup often consists of unglamorous [schleps](https://paulgraham.com/schlep.html). Whereas fundraising, when it's going well, can be quite the opposite. Instead of sitting in your grubby apartment listening to users complain about bugs in your software, you're being offered millions of dollars by famous investors over lunch at a nice restaurant. [[26](#f26n)]",
+      "zhMarkdown": "对大多数创始人来说，融资是一件苦差事，但有些人却发现它比做自己的创业项目更有趣。早期创业公司的工作往往由不起眼的[脏活累活（schleps）](https://paulgraham.com/schlep.html)组成。而融资在进展顺利时，体验可能完全相反。你不用坐在破旧的公寓里听用户抱怨软件里的 Bug，而是可以和知名投资人在高档餐厅共进午餐，听他们向你承诺数百万美金。[[26](#f26n)]"
+    },
+    {
+      "id": 121,
+      "type": "paragraph",
+      "sourceHash": "339653b5cdc94035c58afd0d669179f5874f680f2af9035e561cc73f5dbbd0b4",
+      "enMarkdown": "The danger of fundraising is particularly acute for people who are good at it. It's always fun to work on something you're good at. If you're one of these people, beware. Fundraising is not what will make your company successful. Listening to users complain about bugs in your software is what will make you successful. And the big danger of getting addicted to fundraising is not merely that you'll spend too long on it or raise too much money. It's that you'll start to think of yourself as being already successful, and lose your taste for the schleps you need to undertake to actually be successful. Startups can be destroyed by this.",
+      "zhMarkdown": "对于擅长融资的人来说，这种上瘾的危险尤为迫切。做自己擅长的事总是很有趣的。如果你是这类人，请务必小心。融资并不是让你的公司成功的原因。听用户抱怨软件 Bug 才是让你成功的原因。对融资上瘾的最大危险，不仅在于你会花太多时间在上面，或者融了太多钱，而在于你会开始觉得自己已经成功了，从而失去了去干那些真正通往成功所必须的脏活累活的胃口。创业公司可能会因此被毁掉。"
+    },
+    {
+      "id": 122,
+      "type": "paragraph",
+      "sourceHash": "ccea5b3cd071559e9d18ae627d6fd2b76ca8c84b4a9f817c562f402b79c0add0",
+      "enMarkdown": "When I see a startup with young founders that is fabulously successful at fundraising, I mentally decrease my estimate of the probability that they'll succeed. The press may be writing about them as if they'd been anointed as the next Google, but I'm thinking \"this is going to end badly.\"",
+      "zhMarkdown": "每当我看到一个由年轻创始人组成的创业公司在融资上取得极其惊人的成功时，我会在心里降低对他们成功概率的估算。媒体可能会把他们报道得仿佛已经被加冕为下一个谷歌，但我心里想的却是“这很难有一个好收场”。"
+    },
+    {
+      "id": 123,
+      "type": "paragraph",
+      "sourceHash": "5fe7a853b2ff30175e5293696ccc5168c5ff6a25302931b0ed3f6cdb72bd0088",
+      "enMarkdown": "**Don't raise too much.**",
+      "zhMarkdown": "**不要融太多。**"
+    },
+    {
+      "id": 124,
+      "type": "paragraph",
+      "sourceHash": "d3efd0ed6f7f234b0532fce4e6668ec8121c6fc1209ffb0a8ddbe7edb20b079d",
+      "enMarkdown": "Though only a handful of startups have to worry about this, it is possible to raise too much. The dangers of raising too much are subtle but insidious. One is that it will set impossibly high expectations. If you raise an excessive amount of money, it will be at a high valuation, and the danger of raising money at too high a valuation is that you won't be able to increase it sufficiently the next time you raise money.",
+      "zhMarkdown": "虽然只有少数创业公司需要担心这个问题，但确实有可能融得太多。融太多的危险是微妙但隐蔽的。一是它会设定高得不切实际的预期。如果你融了过多的资金，它会带来极高的估值，而在过高估值下融资的危险在于，你下次融资时将无法实现足够的估值增长。"
+    },
+    {
+      "id": 125,
+      "type": "paragraph",
+      "sourceHash": "78b205e86a66d229ff5589645c6799fefc02fcd99fa257ba8a2ed0b077600a71",
+      "enMarkdown": "A company's valuation is expected to rise each time it raises money. If not it's a sign of a company in trouble, which makes you unattractive to investors. So if you raise money in phase 2 at a post-money valuation of $30 million, the pre-money valuation of your next round, if you want to raise one, is going to have to be at least $50 million. And you have to be doing really, really well to raise money at $50 million.",
+      "zhMarkdown": "一家公司的估值在每次融资时都应该上升。如果没有，那就是公司陷入困境的信号，这会让你对投资人失去吸引力。所以，如果你在第二阶段以 3000 万美金的投后估值融了资，那么下一轮（如果你还想融的话）的投前估值至少要达到 5000 万美金。而要以 5000 万美金的估值融到钱，你必须做得非常非常优秀才行。"
+    },
+    {
+      "id": 126,
+      "type": "paragraph",
+      "sourceHash": "1af6cdea3cb40bb1d16dd6ec46e484c7f3f1ed965be002e5d325add1455797c4",
+      "enMarkdown": "It's very dangerous to let the competitiveness of your current round set the performance threshold you have to meet to raise your next one, because the two are only loosely coupled.",
+      "zhMarkdown": "让当前轮次的竞争激烈程度来决定你下一轮融资必须达到的业绩门槛，是非常危险的，因为这两者之间的关联其实非常微弱。"
+    },
+    {
+      "id": 127,
+      "type": "paragraph",
+      "sourceHash": "aa74323c2324faa0f99b323837a4ae586748403e8db376889a0300431813c028",
+      "enMarkdown": "But the money itself may be more dangerous than the valuation. The more you raise, the more you spend, and spending a lot of money can be disastrous for an early stage startup. Spending a lot makes it harder to become profitable, and perhaps even worse, it makes you more rigid, because the main way to spend money is people, and the more people you have, the harder it is to change directions. So if you do raise a huge amount of money, don't spend it. (You will find that advice almost impossible to follow, so hot will be the money burning a hole in your pocket, but I feel obliged at least to try.)",
+      "zhMarkdown": "但资金本身可能比估值更危险。你融得越多，花得越多，而花大钱对早期创业公司来说可能是灾难性的。花钱多会让盈利变得更难，甚至更糟的是，它会让你变得更僵化——因为花钱的主要方式是雇人，而你的人手越多，调整方向就越难。所以，即使你真的融了一大笔钱，也不要乱花。（你会发现这个建议几乎不可能遵守，因为口袋里的巨款会烧得你直发慌，但我至少觉得自己有责任提个醒。）"
+    },
+    {
+      "id": 128,
+      "type": "paragraph",
+      "sourceHash": "2aeaa4ba8b18a51ba8d5bbc4fe2a5d21ca75fcf821bde5592defb1c497e89703",
+      "enMarkdown": "**Be nice.**",
+      "zhMarkdown": "**保持友善。**"
+    },
+    {
+      "id": 129,
+      "type": "paragraph",
+      "sourceHash": "45840ce7b6dfebfbf22ee825f40fcf3cf2107dd147f18bdff813c4f8c404f94d",
+      "enMarkdown": "Startups raising money occasionally alienate investors by seeming arrogant. Sometimes because they are arrogant, and sometimes because they're noobs clumsily attempting to mimic the toughness they've observed in experienced founders.",
+      "zhMarkdown": "融资的创业公司偶尔会因为显得傲慢而疏远投资人。有时是因为他们真的很傲慢，有时则是因为他们是新手，笨拙地试图模仿他们在资深创始人身上观察到的强硬态度。"
+    },
+    {
+      "id": 130,
+      "type": "paragraph",
+      "sourceHash": "69bbc3892d0f5c9d97ef03039612d7d9fb93cbc6d0004723e4a1f79931c41cd4",
+      "enMarkdown": "It's a mistake to behave arrogantly to investors. While there are certain situations in which certain investors like certain kinds of arrogance, investors vary greatly in this respect, and a flick of the whip that will bring one to heel will make another roar with indignation. The only safe strategy is never to seem arrogant at all.",
+      "zhMarkdown": "对投资人表现得傲慢是一个错误。虽然在某些情况下，某些投资人喜欢某些特定类型的傲慢，但投资人在这方面的喜好大相径庭，一记能让一个投资人服帖的鞭子，可能会让另一个投资人愤怒咆哮。唯一稳妥的策略是永远不要显得傲慢。"
+    },
+    {
+      "id": 131,
+      "type": "paragraph",
+      "sourceHash": "c8a2106111693af2270d4b58f36f91c4969a40b3913944f12345991725b747e7",
+      "enMarkdown": "That will require some diplomacy if you follow the advice I've given here, because the advice I've given is essentially how to play hardball back. When you refuse to meet an investor because you're not in fundraising mode, or slow down your interactions with an investor who moves too slow, or treat a contingent offer as the no it actually is and then, by accepting offers greedily, end up leaving that investor out, you're going to be doing things investors don't like. So you must cushion the blow with soft words. At YC we tell startups they can blame us. And now that I've written this, everyone else can blame me if they want. That plus the inexperience card should work in most situations: sorry, we think you're great, but PG said startups shouldn't ___, and since we're new to fundraising, we feel like we have to play it safe.",
+      "zhMarkdown": "如果你遵循我在这里给出的建议，这会需要一些外交手腕，因为我给出的建议本质上是如何同样以强硬手段回击。当你因为不在融资状态而拒绝会见投资人，或者放慢与行动迟缓投资人的互动，或者把附带条件的要约当成事实上的拒绝，然后通过贪婪接受要约最终把那个投资人排除在外时，你做的事情投资人是不会喜欢的。所以你必须用温和的话语来缓冲冲突。在 YC，我们告诉创业公司可以把责任推到我们身上。现在既然我写了这篇文章，其他人如果愿意，也可以把责任推给我。这一招加上“没经验”这张牌在大多数情况下应该管用：抱歉，我们觉得您非常棒，但 PG 说创业公司不应该___，既然我们对融资还没经验，觉得还是稳妥一点比较好。"
+    },
+    {
+      "id": 132,
+      "type": "paragraph",
+      "sourceHash": "d277fa3625904179d49cc7e934fc3ccc9cc76f16b41bf8e116055b1a1bf92578",
+      "enMarkdown": "The danger of behaving arrogantly is greatest when you're doing well. When everyone wants you, it's hard not to let it go to your head. Especially if till recently no one wanted you. But restrain yourself. The startup world is a small place, and startups have lots of ups and downs. This is a domain where it's more true than usual that pride goeth before a fall. [[27](#f27n)]",
+      "zhMarkdown": "当你进展顺利时，表现傲慢的危险是最大的。当所有人都在抢你时，很难不让自己飘飘然。特别是如果直到最近还无人问津的话。但要克制自己。创业圈子很小，创业公司也有很多起起落落。在这个领域，“骄傲在败坏以先”比通常情况下更为真实。[[27](#f27n)]"
+    },
+    {
+      "id": 133,
+      "type": "paragraph",
+      "sourceHash": "d4cfdfa5572fb7467484266d8cfd0a07ac071f0c76e4e600b07d1da4058509e5",
+      "enMarkdown": "Be nice when investors reject you as well. The best investors are not wedded to their initial opinion of you. If they reject you in phase 2 and you end up doing well, they'll often invest in phase 3. In fact investors who reject you are some of your warmest leads for future fundraising. Any investor who spent significant time deciding probably came close to saying yes. Often you have some internal champion who only needs a little more evidence to convince the skeptics. So it's wise not merely to be nice to investors who reject you, but (unless they behaved badly) to treat it as the beginning of a relationship.",
+      "zhMarkdown": "当投资人拒绝你时，也要保持友善。最好的投资人不会固守他们对你的最初看法。如果他们在第二阶段拒绝了你，而你最终做得很好，他们往往会在第三阶段投资。事实上，拒绝过你的投资人反而是你未来融资时最热情的线索。任何花了大把时间做决定的投资人，可能都曾非常接近说“好”。通常你内部已经有了一个支持者，他只需要更多一点证据来去说服怀疑者。因此，对拒绝你的投资人保持友善是明智的，而且（除非他们行为恶劣）应该将其视为一段关系的开始。"
+    },
+    {
+      "id": 134,
+      "type": "paragraph",
+      "sourceHash": "c190a62e79359c687316c9635a8ff86fa462edba516613c66c2c72d991525b89",
+      "enMarkdown": "**The bar will be higher next time.**",
+      "zhMarkdown": "**下一次门槛会更高。**"
+    },
+    {
+      "id": 135,
+      "type": "paragraph",
+      "sourceHash": "008f6bfce2659d7bbb5587aa7463af5e20eaa7cb8bed06842f68ee4b367a05ad",
+      "enMarkdown": "Assume the money you raise in phase 2 will be the last you ever raise. You must make it to profitability on this money if you can.",
+      "zhMarkdown": "假设你在第二阶段融到的钱将是你这辈子融到的最后一笔钱。如果可以的话，你必须靠这笔钱实现盈利。"
+    },
+    {
+      "id": 136,
+      "type": "paragraph",
+      "sourceHash": "6222de3694ecd5aca94376f2f013386420f5c27e1c3c19d0e4438b62260cfe51",
+      "enMarkdown": "Over the past several years, the investment community has evolved from a strategy of anointing a small number of winners early and then supporting them for years to a strategy of spraying money at early stage startups and then ruthlessly culling them at the next stage. This is probably the optimal strategy for investors. It's too hard to pick winners early on. Better to let the market do it for you. But it often comes as a surprise to startups how much harder it is to raise money in phase 3.",
+      "zhMarkdown": "在过去的几年里，投资界已经演变了策略：从早期选定少数赢家并长期支持他们，转变为在早期向大量创业公司撒钱，然后在下一阶段进行无情的淘汰。对投资人来说，这可能是最优策略。在极早期挑选赢家太难了，不如让市场替你做选择。但对于创业公司来说，第三阶段融资的难度之大，往往会让他们感到吃惊。"
+    },
+    {
+      "id": 137,
+      "type": "paragraph",
+      "sourceHash": "c7c9e903234e38fae1fa4ced0d716e3f7dcb4c9b21ca56cc596fcd606ce0d8c6",
+      "enMarkdown": "When your company is only a couple months old, all it has to be is a promising experiment that's worth funding to see how it turns out. The next time you raise money, the experiment has to have worked. You have to be on a trajectory that leads to going public. And while there are some ideas where the proof that the experiment worked might consist of e.g. query response times, usually the proof is profitability. Usually phase 3 fundraising has to be type A fundraising.",
+      "zhMarkdown": "当你的公司只有几个月大时，它只需要是一个有前景的实验，值得给点钱看看结果。但下一次你融资时，这个实验必须已经成功了。你必须处于一条通往上市的轨道上。虽然对于某些点子来说，实验成功的证据可能包括例如查询响应时间等，但通常情况下，证据就是盈利。通常第三阶段融资必须是 A 型融资。"
+    },
+    {
+      "id": 138,
+      "type": "paragraph",
+      "sourceHash": "b701199ddd76c3fa54e7b315de9ef4934d63136eae47169d0cbfff92fae46726",
+      "enMarkdown": "In practice there are two ways startups hose themselves between phases 2 and 3. Some are just too slow to become profitable. They raise enough money to last for two years. There doesn't seem any particular urgency to be profitable. So they don't make any effort to make money for a year. But by that time, not making money has become habitual. When they finally decide to try, they find they can't.",
+      "zhMarkdown": "在实践中，创业公司在第二阶段和第三阶段之间搞砸自己的方式有两种。有些是实现盈利的速度太慢。他们融到的钱足够支撑两年。看起来似乎没有任何迫切需要盈利的压力。所以他们整整一年都不去尝试赚钱。但到了那个时候，不赚钱已经成了习惯。当他们终于决定尝试时，发现自己做不到了。"
+    },
+    {
+      "id": 139,
+      "type": "paragraph",
+      "sourceHash": "4b4a029cc371cf74bf433a036d948269b255da958c75f6af4de586609fd1a611",
+      "enMarkdown": "The other way companies hose themselves is by letting their expenses grow too fast. Which almost always means hiring too many people. You usually shouldn't go out and hire 8 people as soon as you raise money at phase 2. Usually you want to wait till you have growth (and thus usually revenues) to justify them. A lot of VCs will encourage you to hire aggressively. VCs generally tell you to spend too much, partly because as money people they err on the side of solving problems by spending money, and partly because they want you to sell them more of your company in subsequent rounds. Don't listen to them.",
+      "zhMarkdown": "另一种搞砸自己的方式是让支出增长得太快。这几乎总是意味着雇了太多的人。你通常不应该在第二阶段刚融到钱时就跑出去雇 8 个人。通常你希望等到有了增长（因此通常也有了营收）来证明雇人是合理的。很多风投会鼓励你激进地雇人。风投通常会让你花太多钱，部分原因在于作为资金方，他们倾向于用花钱来解决问题，另一部分原因在于他们希望在随后的轮次中让你卖给他们更多股份。别听他们的。"
+    },
+    {
+      "id": 140,
+      "type": "paragraph",
+      "sourceHash": "923b111264d187caa374fe04462bb6b8bfae3bfd80b2f52237fdc3cb247389fe",
+      "enMarkdown": "**Don't make things complicated.**",
+      "zhMarkdown": "**别把事情搞复杂。**"
+    },
+    {
+      "id": 141,
+      "type": "paragraph",
+      "sourceHash": "496b4f9c551999f1195b1a3de20f463aa12b594acc018015be0027b46667b796",
+      "enMarkdown": "I realize it may seem odd to sum up this huge treatise by saying that my overall advice is not to make fundraising too complicated, but if you go back and look at this list you'll see it's basically a simple recipe with a lot of implications and edge cases. Avoid investors till you decide to raise money, and then when you do, talk to them all in parallel, prioritized by expected value, and accept offers greedily. That's fundraising in one sentence. Don't introduce complicated optimizations, and don't let investors introduce complications either.",
+      "zhMarkdown": "我意识到，用“别把融资搞得太复杂”来总结这篇长篇大论似乎有些奇怪，但如果你回头看看这个清单，你会发现它基本上是一个简单的配方，只是带有很多推论和极端情况。在决定融资之前避开投资人，决定融资时并行和他们所有人谈，按期望值排序，并贪婪地接受要约。一句话就概括了融资。不要引入复杂的优化，也不要让投资人把事情搞复杂。"
+    },
+    {
+      "id": 142,
+      "type": "paragraph",
+      "sourceHash": "80dbed2c1d9240f9da964df6ff188c3c78ad9160128614c16969988f6e6db47c",
+      "enMarkdown": "Fundraising is not what will make you successful. It's just a means to an end. Your primary goal should be to get it over with and get back to what will make you successful — making things and talking to users — and the path I've described will for most startups be the surest way to that destination.",
+      "zhMarkdown": "融资并不是让你成功的原因。它只是达到目的的手段。你的首要目标应该是搞定它，然后回到真正能让你成功的事情上——做产品和跟用户交流——而我描述的这条路径，对大多数创业公司来说，将是通往该终点最稳妥的道路。"
+    },
+    {
+      "id": 143,
+      "type": "paragraph",
+      "sourceHash": "ff45c53a78369297bb07b0a0b6245f9f92fbdbafdddfec7e0e4c5e0a894133ea",
+      "enMarkdown": "Be good, take care of yourselves, and *don't leave the path*.",
+      "zhMarkdown": "好好干，照顾好自己，并且*不要偏离路线*。"
+    },
+    {
+      "id": 144,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 145,
+      "type": "paragraph",
+      "sourceHash": "0a3c0dbadeeec19a3eb527320e4480dedff15e0a5fc0a49d520d2561b5bdb7f6",
+      "enMarkdown": "[1] The worst explosions happen when unpromising-seeming startups encounter mediocre investors. Good investors don't lead startups on; their reputations are too valuable. And startups that seem promising can usually get enough money from good investors that they don't have to talk to mediocre ones. It is the unpromising-seeming startups that have to resort to raising money from mediocre investors. And it's particularly damaging when these investors flake, because unpromising-seeming startups are usually more desperate for money.",
+      "zhMarkdown": "[1] 最严重的爆炸往往发生在看起来不太有前景的创业公司遇到平庸的投资人时。优秀的投资人不会吊着创业公司，因为他们的名声太宝贵了。而看起来有前景的创业公司通常可以从优秀的投资人那里拿到足够的钱，因此不必与平庸的投资人接触。正是那些看起来不太有前景的创业公司不得不求助于平庸的投资人。当这些投资人放鸽子时，杀伤力尤其巨大，因为这些创业公司通常更缺钱。"
+    },
+    {
+      "id": 146,
+      "type": "paragraph",
+      "sourceHash": "c9cc7996c6d451b07ee60622ac451bdde2b5c176e6f563761f796cae135cecdd",
+      "enMarkdown": "(Not all unpromising-seeming startups do badly. Some are merely ugly ducklings in the sense that they violate current startup fashions.)",
+      "zhMarkdown": "（并非所有看起来不太有前景的创业公司都表现糟糕。有些只是“丑小鸭”，因为它们不符合当下的创业潮流。）"
+    },
+    {
+      "id": 147,
+      "type": "paragraph",
+      "sourceHash": "0c875ed3619bc7bec8ef5cc0e66113d4af6e6e980a7135151fa0cd2d25f3a192",
+      "enMarkdown": "[2] One YC founder told me:",
+      "zhMarkdown": "[2] 一位 YC 创始人告诉我："
+    },
+    {
+      "id": 148,
+      "type": "quote",
+      "sourceHash": "a919fbc42d849fe3755846f588ea99b342f1a4a31b2e49d3536037cf1890a1b6",
+      "enMarkdown": "> I think in general we've done ok at fundraising, but I managed to screw up twice at the exact same thing — trying to focus on building the company and fundraising at the same time.",
+      "zhMarkdown": "> 我觉得总体来说我们在融资上做得还可以，但我竟然在完全相同的事情上搞砸了两次——那就是试图同时专注于建设公司和融资。"
+    },
+    {
+      "id": 149,
+      "type": "paragraph",
+      "sourceHash": "4754596e5090e35973835290b7b091e27959f5c839e15c1caf320f8c990a9594",
+      "enMarkdown": "[3] There is one subtle danger you have to watch out for here, which I warn about later: beware of getting too high a valuation from an eager investor, lest that set an impossibly high target when raising additional money.",
+      "zhMarkdown": "[3] 这里有一个你需要注意的微妙危险，我稍后会警告：警惕从急切的投资人那里拿到过高的估值，以免在融更多钱时设定一个高得无法企及的目标。"
+    },
+    {
+      "id": 150,
+      "type": "paragraph",
+      "sourceHash": "e868a8ea43dcbf20b9e724b96ed610d481d4e3ad286581e52a5fa6201fc71d61",
+      "enMarkdown": "[4] If they really need a meeting, then they're not ready to invest, regardless of what they say. They're still deciding, which means you're being asked to come in and convince them. Which is fundraising.",
+      "zhMarkdown": "[4] 如果他们真的需要开会，那说明他们还没准备好投资，不管他们怎么说。他们还在做决定，这意味着你被要求过去说服他们。这就是融资。"
+    },
+    {
+      "id": 151,
+      "type": "paragraph",
+      "sourceHash": "4e2cf1c60e6ec4b8301c18f06529240fb75727960636054d8c5db75e6c441af2",
+      "enMarkdown": "[5] Associates at VC firms regularly cold email startups. Naive founders think \"Wow, a VC is interested in us!\" But an associate is not a VC. They have no decision-making power. And while they may introduce startups they like to partners at their firm, the partners discriminate against deals that come to them this way. I don't know of a single VC investment that began with an associate cold-emailing a startup. If you want to approach a specific firm, get an intro to a partner from someone they respect.",
+      "zhMarkdown": "[5] 风投机构的投资经理经常会给创业公司发冷启动邮件。天真的创始人会想：“哇，有风投对我们感兴趣！”但投资经理并不是风投合伙人。他们没有决策权。虽然他们可能会把喜欢的创业公司引荐给合伙人，但合伙人往往排斥通过这种方式找上门的交易。我不知道有哪个风投案例是从投资经理冷启动邮件开始的。如果你想接触某个特定的机构，找一个他们尊重的人把你引荐给合伙人。"
+    },
+    {
+      "id": 152,
+      "type": "paragraph",
+      "sourceHash": "a10ad9c6de1ebb709a7da14518cad6502ca1f6ca91351daf6e9c50c2d7a7d30c",
+      "enMarkdown": "It's ok to talk to an associate if you get an intro to a VC firm or they see you at a Demo Day and they begin by having an associate vet you. That's not a promising lead and should therefore get low priority, but it's not as completely worthless as a cold email.",
+      "zhMarkdown": "如果是你获得了某家风投机构的引荐，或者他们在 Demo Day 上看到了你，然后让一个投资经理来初步对接，这种沟通是可以的。这不算是一个很有希望的线索，因此优先级应该放低，但它不像冷启动邮件那样完全毫无价值。"
+    },
+    {
+      "id": 153,
+      "type": "paragraph",
+      "sourceHash": "2d35f68c0e08bc88e48456e9eac328f3fbb83dbcbff0c767fdadd32bbacc78c4",
+      "enMarkdown": "Because the title \"associate\" has gotten a bad reputation, a few VC firms have started to give their associates the title \"partner,\" which can make things very confusing. If you're a YC startup you can ask us who's who; otherwise you may have to do some research online. There may be a special title for actual partners. If someone speaks for the firm in the press or a blog on the firm's site, they're probably a real partner. If they're on boards of directors they're probably a real partner.",
+      "zhMarkdown": "因为“投资经理（associate）”这个头衔的名声已经不太好听，一些风投机构开始给他们的投资经理冠以“合伙人（partner）”的头衔，这会让人非常困惑。如果你是 YC 创业公司，可以问我们谁是谁；否则你可能需要在网上做一些调查。真正的合伙人可能会有特殊的头衔。如果有人在媒体上代表机构发言，或者在机构的网站上写博客，他们很可能是真正的合伙人。如果他们担任董事会成员，他们很可能是真正的合伙人。"
+    },
+    {
+      "id": 154,
+      "type": "paragraph",
+      "sourceHash": "eeee206a3b6420de3e6d1526797789dd6c5ad1d81d9aa407a1959bb7f0112e14",
+      "enMarkdown": "There are titles between \"associate\" and \"partner,\" including \"principal\" and \"venture partner.\" The meanings of these titles vary too much to generalize.",
+      "zhMarkdown": "在“投资经理”和“合伙人”之间还有一些头衔，包括“董事总经理（principal）”和“创业合伙人（venture partner）”。这些头衔的含义变化太大，无法一概而论。"
+    },
+    {
+      "id": 155,
+      "type": "paragraph",
+      "sourceHash": "3875a5fc64e1501ea4335c3e176ad1202722308071be4e2cb55040e5b39c61a7",
+      "enMarkdown": "[6] For similar reasons, avoid casual conversations with potential acquirers. They can lead to distractions even more dangerous than fundraising. Don't even take a meeting with a potential acquirer unless you want to sell your company right now.",
+      "zhMarkdown": "[6] 出于类似的原因，避免与潜在的收购方进行闲聊。它们可能带来比融资更危险的分心。除非你现在就想卖掉公司，否则连见都不要见潜在的收购方。"
+    },
+    {
+      "id": 156,
+      "type": "paragraph",
+      "sourceHash": "6799bca735fe34878a4532e6dfa0fe353abf81b1b5fa7dff909f09556a18511e",
+      "enMarkdown": "[7] Joshua Reeves specifically suggests asking each investor to intro you to two more investors.",
+      "zhMarkdown": "[7] Joshua Reeves 特别建议让每个投资人把你引荐给另外两个投资人。"
+    },
+    {
+      "id": 157,
+      "type": "paragraph",
+      "sourceHash": "9fa7839b4896628303bc8e861f1b6b01f4b16a5bb85115ea8a9a68c26a622f18",
+      "enMarkdown": "Don't ask investors who say no for introductions to other investors. That will in many cases be an anti-recommendation.",
+      "zhMarkdown": "不要让拒绝了你的投资人把你引荐给其他投资人。在许多情况下，这会起到反向推荐的作用。"
+    },
+    {
+      "id": 158,
+      "type": "paragraph",
+      "sourceHash": "a2bf81004107d8eca6f551fc7779b00567626923ddddaad1caba2443628f6b99",
+      "enMarkdown": "[8] This is not always as deliberate as its sounds. A lot of the delays and disconnects between founders and investors are induced by the customs of the venture business, which have evolved the way they have because they suit investors' interests.",
+      "zhMarkdown": "[8] 这并不总是像听起来那样故意。创始人和投资人之间的许多延迟和脱节，是由风险投资行业的习俗引起的，这些习俗之所以演变成今天这样，是因为它们符合投资人的利益。"
+    },
+    {
+      "id": 159,
+      "type": "paragraph",
+      "sourceHash": "c78d134adc6f6c00a9e13951176b2698619904211589c1ff17764715cdb6bd2d",
+      "enMarkdown": "[9] One YC founder who read a draft of this essay wrote:",
+      "zhMarkdown": "[9] 一位读过这篇文章草稿的 YC 创始人写道："
+    },
+    {
+      "id": 160,
+      "type": "quote",
+      "sourceHash": "13445eaa27242a705908e21c8fd6ff1a1c25671f9cd8e584e03cc89eb7743c8b",
+      "enMarkdown": "> This is the most important section. I think it might bear stating even more clearly. \"Investors will deliberately affect more interest than they have to preserve optionality. If an investor seems very interested in you, they still probably won't invest. The solution for this is to assume the worst — that an investor is just feigning interest — until you get a definite commitment.\"",
+      "zhMarkdown": "> 这是最重要的一节。我觉得可能需要表达得更明确一些。“投资人会故意表现出比实际更多的兴趣，以保留选择权。即使一个投资人看起来非常感兴趣，他们可能还是不会投。对此的解决办法是做最坏的打算——认为投资人只是在假装感兴趣——直到你拿到确定的承诺。”"
+    },
+    {
+      "id": 161,
+      "type": "paragraph",
+      "sourceHash": "c0c6745cfb8259fd9eb488217b5f5d3185377bd65ba3f7cdb4a343dc4b14a332",
+      "enMarkdown": "[10] Though you should probably pack investor meetings as closely as you can, Jeff Byun mentions one reason not to: if you pack investor meetings too closely, you'll have less time for your pitch to evolve.",
+      "zhMarkdown": "[10] 尽管你可能应该把投资人会议安排得尽可能紧凑，但 Jeff Byun 提到了一个不这么做的原因：如果安排得太紧，你的路演词就没有多少进化的时间。"
+    },
+    {
+      "id": 162,
+      "type": "paragraph",
+      "sourceHash": "b73dc5770d7cecdfe7c29e1101fa7624b401222922db2bd5bd1c242169481d63",
+      "enMarkdown": "Some founders deliberately schedule a handful of lame investors first, to get the bugs out of their pitch.",
+      "zhMarkdown": "一些创始人会故意先安排几个不怎么样的投资人见面，以此来给自己的路演词找找 Bug。"
+    },
+    {
+      "id": 163,
+      "type": "paragraph",
+      "sourceHash": "a34bfdac29bb1cb7ac629676734bc1fb7d4c00c3d4778818eae1d9f030e544d4",
+      "enMarkdown": "[11] There is not an efficient market in this respect. Some of the most useless investors are also the highest maintenance.",
+      "zhMarkdown": "[11] 在这方面并没有一个高效的市场。一些最没用的投资人，往往也是最难伺候的。"
+    },
+    {
+      "id": 164,
+      "type": "paragraph",
+      "sourceHash": "26710d740a8f8f9a14d68aa0ca99636ba74fb2658d5ff36e4cac20ef2bfcf86d",
+      "enMarkdown": "[12] Incidentally, this paragraph is sales 101. If you want to see it in action, go talk to a car dealer.",
+      "zhMarkdown": "[12] 顺便说一句，这一段是销售入门课。如果你想看看它的实际应用，去跟汽车销售员聊聊就知道了。"
+    },
+    {
+      "id": 165,
+      "type": "paragraph",
+      "sourceHash": "e215722b37a6065fac0f5e5594b73bbe1a16b6a1c7f324940c622bf3dd23e989",
+      "enMarkdown": "[13] I know one very smooth founder who used to end investor meetings with \"So, can I count you in?\" delivered as if it were \"Can you pass the salt?\" Unless you're very smooth (if you're not sure...), do not do this yourself. There is nothing more unconvincing, for an investor, than a nerdy founder trying to deliver the lines meant for a smooth one.",
+      "zhMarkdown": "[13] 我认识一个非常圆滑的创始人，他过去常常以“那么，能算你一份吗？”来结束投资人会议，语气轻松得就像是在说“能帮我递一下盐吗？”除非你非常圆滑（如果你不确定，那就说明你不够圆滑……），否则不要自己尝试。对于投资人来说，没有什么比一个技术宅创始人试图说出圆滑销售员的台词更让人出戏的了。"
+    },
+    {
+      "id": 166,
+      "type": "paragraph",
+      "sourceHash": "61d8a18cc60eb31dd71a4332c1d0f3844f4c8df12094989322bebb3e392457a6",
+      "enMarkdown": "Investors are fine with funding nerds. So if you're a nerd, just try to be a good nerd, rather than doing a bad imitation of a smooth salesman.",
+      "zhMarkdown": "投资人很乐意投资技术宅。所以如果你是个技术宅，努力做一个优秀的技术宅就好，不要拙劣地去模仿一个圆滑的销售员。"
+    },
+    {
+      "id": 167,
+      "type": "paragraph",
+      "sourceHash": "a1c5e781535fc14b9b0f5022c8244631c8b7d2971c84eac47db4e299f6b513f2",
+      "enMarkdown": "[14] Ian Hogarth suggests a good way to tell how serious potential investors are: the resources they expend on you after the first meeting. An investor who's seriously interested will already be working to help you even before they've committed.",
+      "zhMarkdown": "[14] Ian Hogarth 提出了一个判断潜在投资人诚意的好方法：看他们在第一次会议后为你投入了多少资源。一个真正感兴趣的投资人，甚至在承诺投资之前就已经在努力帮你了。"
+    },
+    {
+      "id": 168,
+      "type": "paragraph",
+      "sourceHash": "ddc6fcfc8c563b365196a57dfc76e89a5011d741c4209e02a4411fffee15f52b",
+      "enMarkdown": "[15] In principle you might have to think about so-called \"signalling risk.\" If a prestigious VC makes a small seed investment in you, what if they don't want to invest the next time you raise money? Other investors might assume that the VC knows you well, since they're an existing investor, and if they don't want to invest in your next round, that must mean you suck. The reason I say \"in principle\" is that in practice signalling hasn't been much of a problem so far. It rarely arises, and in the few cases where it does, the startup in question usually is doing badly and is doomed anyway.",
+      "zhMarkdown": "[15] 原则上你可能需要考虑所谓的“信号风险（signalling risk）”。如果一个声名显赫的风投对你进行了小额种子轮投资，万一你下次融资时他们不想跟投怎么办？其他投资人可能会认为，作为既有投资人，这家风投非常了解你，如果他们不想在你的下一轮中跟投，那一定说明你很烂。我之所以说“原则上”，是因为在实践中，到目前为止信号风险并不是什么大问题。它很少发生，在少数发生的情况中，涉事创业公司通常本身就表现不佳，注定要失败。"
+    },
+    {
+      "id": 169,
+      "type": "paragraph",
+      "sourceHash": "d317ab16c010f2c093759841b708aeddf7c4841b7d94c4b52fc997a9dbf9d1f4",
+      "enMarkdown": "If you have the luxury of choosing among seed investors, you can play it safe by excluding VC firms. But it isn't critical to.",
+      "zhMarkdown": "如果你有在种子期投资人中挑选的奢侈权利，你可以通过排除风投机构来做到万无一失。但这并不是决定性的。"
+    },
+    {
+      "id": 170,
+      "type": "paragraph",
+      "sourceHash": "c45f34b9128e746270bda5914332c756a29657408dcfcf2c68ba97d0e463764d",
+      "enMarkdown": "[16] Sometimes a competitor will deliberately threaten you with a lawsuit just as you start fundraising, because they know you'll have to disclose the threat to potential investors and they hope this will make it harder for you to raise money. If this happens it will probably frighten you more than investors. Experienced investors know about this trick, and know the actual lawsuits rarely happen. So if you're attacked in this way, be forthright with investors. They'll be more alarmed if you seem evasive than if you tell them everything.",
+      "zhMarkdown": "[16] 有时竞争对手会在你刚开始融资时故意威胁要起诉你，因为他们知道你必须向潜在投资人披露这一威胁，他们希望这会让你的融资变得更困难。如果发生这种情况，它对你的惊吓可能远大于对投资人的惊吓。经验丰富的投资人知道这个把戏，也知道实际的诉讼很少发生。所以如果你受到这种攻击，对投资人要坦诚。如果你显得闪烁其词，他们会比你把一切都告诉他们还要惊慌。"
+    },
+    {
+      "id": 171,
+      "type": "paragraph",
+      "sourceHash": "0d6dab5b3cef96462f03f4edb9db3f242c87c1761e71c379cb9fe749b436b3ae",
+      "enMarkdown": "[17] A related trick is to claim that they'll only invest contingently on other investors doing so because otherwise you'd be \"undercapitalized.\" This is almost always bullshit. They can't estimate your minimum capital needs that precisely.",
+      "zhMarkdown": "[17] 一个相关的把戏是声称他们只有在其他投资人也投资的前提下才会投，因为否则你就会“资金不足”。这几乎完全是扯淡。他们不可能把你的最低资金需求估算得那么精准。"
+    },
+    {
+      "id": 172,
+      "type": "paragraph",
+      "sourceHash": "6d4c40fd39a1aafda3480b6337219db2b6c055db72ecdd493235cb9d7d303ca0",
+      "enMarkdown": "[18] You won't hire all those 20 people at once, and you'll probably have some revenues before 18 months are out. But those too are acceptable or at least accepted additions to the margin for error.",
+      "zhMarkdown": "[18] 你不会一次性把这 20 个人都雇齐，而且在 18 个月结束之前，你很可能已经有了一些营收。但这些也是可以接受的，或者至少是公认的容错空间增量。"
+    },
+    {
+      "id": 173,
+      "type": "paragraph",
+      "sourceHash": "dd2a3a2c3b4de6c6351d47f166db2f8818a9bdd344acfa73c5762d19168852d8",
+      "enMarkdown": "[19] Type A fundraising is so much better that it might even be worth doing something different if it gets you there sooner. One YC founder told me that if he were a first-time founder again he'd \"leave ideas that are up-front capital intensive to founders with established reputations.\"",
+      "zhMarkdown": "[19] A 型融资要好得多，以至于为了能早点达到这个状态，甚至值得去做一些不同的尝试。一位 YC 创始人告诉我，如果他再次成为首次创业者，他会“把那些前期资本密集型的想法留给那些声名显赫的创始人”。"
+    },
+    {
+      "id": 174,
+      "type": "paragraph",
+      "sourceHash": "fe6c8d440bf553e58b412c62b00c2da1f3f0d69f4a3c4fa6f7a9687659706f94",
+      "enMarkdown": "[20] I don't know whether this happens because they're innumerate, or because they believe they have zero ability to predict startup outcomes (in which case this behavior at least wouldn't be irrational). In either case the implications are similar.",
+      "zhMarkdown": "[20] 我不知道这是因为他们数学不好，还是因为他们相信自己预测创业公司结局的能力为零（在这种情况下，这种行为至少不算不理性）。不管是哪种情况，其影响都是相似的。"
+    },
+    {
+      "id": 175,
+      "type": "paragraph",
+      "sourceHash": "5246b92889c5f992b50f83a5dc168300a050cfe21f48ebedeade51821771c6fa",
+      "enMarkdown": "[21] If you're a YC startup and you have an investor who for some reason insists that you decide the price, any YC partner can estimate a market price for you.",
+      "zhMarkdown": "[21] 如果你是 YC 创业公司，并且碰到了一个出于某种原因坚持让你定价格的投资人，任何 YC 合伙人都可以为你估算一个市场价。"
+    },
+    {
+      "id": 176,
+      "type": "paragraph",
+      "sourceHash": "3eadab534cb58157d604dad8252b8fcb539e05557edbd38ccf17b30f7371cea8",
+      "enMarkdown": "[22] You should respond in kind when investors behave upstandingly too. When an investor makes you a clean offer with no deadline, you have a moral obligation to respond promptly.",
+      "zhMarkdown": "[22] 当投资人表现得堂堂正正时，你也应该投桃报李。当一个投资人给你一个干净且没有截止日期的要约时，你有道义上的义务迅速做出答复。"
+    },
+    {
+      "id": 177,
+      "type": "paragraph",
+      "sourceHash": "d4a68d326ad138e1eb98787d3e3dc33231dfd55c4019921f14a00e4657937893",
+      "enMarkdown": "[23] Tell the investors talking to you about an A round about the smaller investments you raise as you raise them. You owe them such updates on your cap table, and this is also a good way to pressure them to act. They won't like you raising other money and may pressure you to stop, but they can't legitimately ask you to commit to them till they also commit to you. If they want you to stop raising money, the way to do it is to give you a series A termsheet with a no-shop clause.",
+      "zhMarkdown": "[23] 当你拿到较小的投资时，要告诉那些正在和你谈 A 轮的投资人。你理应向他们更新你的股权结构表，这也是促使他们采取行动的好方法。他们不会喜欢你融其他的钱，可能会施压让你停止，但在他们也向你承诺之前，他们无法合情合理地要求你向他们做出承诺。如果他们想让你停止融资，方法就是给你一份带有排他性（no-shop）条款的 A 轮条款清单。"
+    },
+    {
+      "id": 178,
+      "type": "paragraph",
+      "sourceHash": "651abcb14dee770b38ec7b4bb79e28047fc0180e513b288a80dbb454093c32ad",
+      "enMarkdown": "You can relent a little if the potential series A investor has a great reputation and they're clearly working fast to get you a termsheet, particularly if a third party like YC is involved to ensure there are no misunderstandings. But be careful.",
+      "zhMarkdown": "如果潜在的 A 轮投资人名声极好，并且显然正在快速推进以给你条款清单，特别是如果有像 YC 这样的第三方介入以确保没有误解时，你可以稍微放宽一点限制。但还是要小心。"
+    },
+    {
+      "id": 179,
+      "type": "paragraph",
+      "sourceHash": "465e4f4d814fbcd15ac1f5826b721af6fd5ce190c2f0f3e94ba4c587d951c9ae",
+      "enMarkdown": "[24] The company is Weebly, which made it to profitability on a seed investment of $650k. They did try to raise a series A in the fall of 2008 but (no doubt partly because it was the fall of 2008) the terms they were offered were so bad that they decided to skip raising an A round.",
+      "zhMarkdown": "[24] 这家公司是 Weebly，他们靠 65 万美金的种子轮投资实现了盈利。他们确实在 2008 年秋天尝试过融 A 轮，但（毫无疑问部分原因在于那是 2008 年秋天）他们拿到的条款太差了，于是他们决定跳过 A 轮。"
+    },
+    {
+      "id": 180,
+      "type": "paragraph",
+      "sourceHash": "10466dfa63dd786c6ea9844b32d67bc6d85be16a7f702bc2f240086ea1ce48d9",
+      "enMarkdown": "[25] Another advantage of having one founder take fundraising meetings is that you never have to negotiate in real time, which is something inexperienced founders should avoid. One YC founder told me:",
+      "zhMarkdown": "[25] 让一个创始人承担融资会议的另一个好处是，你永远不需要实时进行谈判，这是缺乏经验的创始人应该避免的。一位 YC 创始人告诉我："
+    },
+    {
+      "id": 181,
+      "type": "quote",
+      "sourceHash": "c05b0b7e135c00375d9d6fc18f243fc5a2e1461004c6913a0ce9c28d55854b7e",
+      "enMarkdown": "> Investors are professional negotiators and can negotiate on the spot very easily. If only one founder is in the room, you can say \"I need to circle back with my co-founder\" before making any commitments. I used to do this all the time.",
+      "zhMarkdown": "> 投资人是专业的谈判专家，可以非常轻松地当场谈判。如果房间里只有一位创始人，你可以在做出任何承诺之前说“我需要和我的联合创始人商量一下”。我以前经常这么做。"
+    },
+    {
+      "id": 182,
+      "type": "paragraph",
+      "sourceHash": "be261f5690e0ee124bfa78989999b93027fc4fbfe99cbe37bac626483c829cac",
+      "enMarkdown": "[26] You'll be lucky if fundraising feels pleasant enough to become addictive. More often you have to worry about the other extreme — becoming demoralized when investors reject you. As one (very successful) YC founder wrote after reading a draft of this:",
+      "zhMarkdown": "[26] 如果融资感觉愉快到能让你上瘾，那你算幸运的。更常见的情况是，你需要担心另一个极端——当投资人拒绝你时变得意志消沉。正如一位（非常成功的）YC 创始人读过本文草稿后写道："
+    },
+    {
+      "id": 183,
+      "type": "quote",
+      "sourceHash": "f76e393e302794544ca7f8745882e64bb549422dd2e89fd5ecc77ec5a328d656",
+      "enMarkdown": "> It's hard to mentally deal with the sheer scale of rejection in fundraising and if you are not in the right mindset you will fail. Users may love you but these supposedly smart investors may not understand you at all. At this point for me, rejection still rankles but I've come to accept that investors are just not super thoughtful for the most part and you need to play the game according to certain somewhat depressing rules (many of which you are listing) in order to win.",
+      "zhMarkdown": "> 在融资过程中，要在心理上应对如此大规模的拒绝是很难的，如果你没有调整好心态，你就会失败。用户可能爱你，但这些所谓的聪明投资人可能根本不理解你。对我来说，现在拒绝依然会让我难受，但我已经接受了这样一个事实：投资人大部分时候并没有那么深思熟虑，你必须按照某些有些令人沮丧的规则（其中许多你已经列出来了）来玩这个游戏，才能赢得胜利。"
+    },
+    {
+      "id": 184,
+      "type": "paragraph",
+      "sourceHash": "06d2c21ab1fd70852b554c957e8c5e4a1a292b4ad156007cebc11f8d174bb3da",
+      "enMarkdown": "[27] The actual sentence in the King James Bible is \"Pride goeth before destruction, and an haughty spirit before a fall.\"",
+      "zhMarkdown": "[27] 《钦定版圣经》中的原句是：“骄傲在败坏以先；狂心在跌倒之前。”"
+    },
+    {
+      "id": 185,
+      "type": "paragraph",
+      "sourceHash": "138998824217f95b4a595f9f5e113365ee24b1e1af06efbe2c2a0826a06b9159",
+      "enMarkdown": "**Thanks** to Slava Akhmechet, Sam Altman, Nate Blecharczyk, Adora Cheung, Bill Clerico, John Collison, Patrick Collison, Parker Conrad, Ron Conway, Travis Deyle, Jason Freedman, Joe Gebbia, Mattan Griffel, Kevin Hale, Jacob Heller, Ian Hogarth, Justin Kan, Professor Moriarty, Nikhil Nirmel, David Petersen, Geoff Ralston, Joshua Reeves, Yuri Sagalov, Emmett Shear, Rajat Suri, Garry Tan, and Nick Tomarello for reading drafts of this.",
+      "zhMarkdown": "**感谢** Slava Akhmechet, Sam Altman, Nate Blecharczyk, Adora Cheung, Bill Clerico, John Collison, Patrick Collison, Parker Conrad, Ron Conway, Travis Deyle, Jason Freedman, Joe Gebbia, Mattan Griffel, Kevin Hale, Jacob Heller, Ian Hogarth, Justin Kan, Moriarty 教授, Nikhil Nirmel, David Petersen, Geoff Ralston, Joshua Reeves, Yuri Sagalov, Emmett Shear, Rajat Suri, Garry Tan, 以及 Nick Tomarello 阅读本书草稿。"
+    }
+  ]
+}

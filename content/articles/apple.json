@@ -1,0 +1,314 @@
+{
+  "slug": "apple",
+  "titleEn": "Apple's Mistake",
+  "titleZh": "苹果的失误",
+  "dateText": "November 2009",
+  "publishedAt": "2009-11-01",
+  "sourceOrder": 108,
+  "sourceUrl": "https://paulgraham.com/apple.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "02a268aba648ca515236e8ebc993be8b039d7c36de286c28c413ec9cfce9f458",
+      "enMarkdown": "I don't think Apple realizes how badly the App Store approval process is broken. Or rather, I don't think they realize how much it matters that it's broken.",
+      "zhMarkdown": "我认为苹果并没有意识到 App Store 的审核流程已经糟糕到了什么地步。或者更确切地说，他们没有意识到这种糟糕的现状会带来多么严重的后果。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "586698253fe5d452a99aa8680c7ae22d7fd3bfa766c03dc8113039e3397445a5",
+      "enMarkdown": "The way Apple runs the App Store has harmed their reputation with programmers more than anything else they've ever done. Their reputation with programmers used to be great. It used to be the most common complaint you heard about Apple was that their fans admired them too uncritically. The App Store has changed that. Now a lot of programmers have started to see Apple as evil.",
+      "zhMarkdown": "苹果经营 App Store 的方式，对他们在程序员群体中声誉的损害，超过了他们以往做过的任何事情。他们以前在程序员中的声誉是极好的。过去，人们对苹果最常见的抱怨，莫过于觉得苹果粉丝对它的崇拜有些盲目。但 App Store 改变了这一切。现在，许多程序员已经开始把苹果视为邪恶的化身。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "90cc4a467ca8bbbe865a4ba8824028976c67961f7a279b39e88035e3b7059565",
+      "enMarkdown": "How much of the goodwill Apple once had with programmers have they lost over the App Store? A third? Half? And that's just so far. The App Store is an ongoing karma leak.",
+      "zhMarkdown": "因为 App Store，苹果流失了多少曾经在程序员群体中积累的善意？三分之一？还是半数？而且这还只是目前的状况。App Store 正在让苹果的口碑像漏水一样持续流失。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "109510644bb4c21f8eb3bdf0be4db1175a5311a1f6ce66b3f05a8bacae47a8b4",
+      "enMarkdown": "* * *",
+      "zhMarkdown": "* * *"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "0db4f2965f80a3ab28d692ea660f65a2cb15d7ef358e17396960273bcd97ea6f",
+      "enMarkdown": "How did Apple get into this mess? Their fundamental problem is that they don't understand software.",
+      "zhMarkdown": "苹果是如何陷入这种困境的？他们最根本的问题在于不懂软件。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d86853e44a68b30862a6d4615ef9f079a9482c69b29890e248eb7069da3eed18",
+      "enMarkdown": "They treat iPhone apps the way they treat the music they sell through iTunes. Apple is the channel; they own the user; if you want to reach users, you do it on their terms. The record labels agreed, reluctantly. But this model doesn't work for software. It doesn't work for an intermediary to own the user. The software business learned that in the early 1980s, when companies like VisiCorp showed that although the words \"software\" and \"publisher\" fit together, the underlying concepts don't. Software isn't like music or books. It's too complicated for a third party to act as an intermediary between developer and user. And yet that's what Apple is trying to be with the App Store: a software publisher. And a particularly overreaching one at that, with fussy tastes and a rigidly enforced house style.",
+      "zhMarkdown": "他们对待 iPhone 应用的方式，就像对待通过 iTunes 销售的音乐一样。苹果是渠道，他们牢牢掌控着用户；如果你想触达用户，就必须接受他们的条款。唱片公司勉强同意了。但这种模式对软件行不通。由中间商来独占用户是行不通的。软件行业在 20 世纪 80 年代初就买到了这个教训，当时像 VisiCorp 这样的公司已经证明，虽然“软件”和“出版商”这两个词可以拼在一起，但其底层逻辑根本不相容。软件不同于音乐或图书。它太复杂了，第三方根本无法在开发者和用户之间充当有效的中间人。然而，苹果在 App Store 上试图扮演的恰恰就是软件出版商的角色。而且还是一个管得极宽、品味挑剔、强行推行刻板家法的出版商。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "1436ebe4c31074e9b8ada14db76f88239f4bea0669c33f4870a0767e3632afa1",
+      "enMarkdown": "If software publishing didn't work in 1980, it works even less now that software development has evolved from a small number of big releases to a constant stream of small ones. But Apple doesn't understand that either. Their model of product development derives from hardware. They work on something till they think it's finished, then they release it. You have to do that with hardware, but because software is so easy to change, its design can benefit from evolution. The standard way to develop applications now is to launch fast and iterate. Which means it's a disaster to have long, random delays each time you release a new version.",
+      "zhMarkdown": "如果说软件出版模式在 1980 年行不通，那么在今天就更行不通了，因为软件开发已经从过去少数几次大版本发布，演变成了如今持续不断的小步快跑。但苹果同样不懂这一点。他们的产品开发模式源自硬件。他们会一直打磨某样东西，直到认为完美了才发布。做硬件必须如此，但因为软件极易修改，其设计可以通过不断进化来优化。如今开发应用的标准方式是快速上线、小步迭代。这意味着，每次发布新版本都要经历漫长且随机的延迟，简直是一场灾难。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ed0c60a1cdc801a122ab14fb9624936d55f52d7896d911eec3a907c207df8610",
+      "enMarkdown": "Apparently Apple's attitude is that developers should be more careful when they submit a new version to the App Store. They would say that. But powerful as they are, they're not powerful enough to turn back the evolution of technology. Programmers don't use launch-fast-and-iterate out of laziness. They use it because it yields the best results. By obstructing that process, Apple is making them do bad work, and programmers hate that as much as Apple would.",
+      "zhMarkdown": "苹果的态度显然是，开发者在向 App Store 提交新版本时应该更加小心。他们当然会这么说。但即便他们再强大，也强大到无法逆转技术的演进规律。程序员采用“快速上线、小步迭代”并非出于懒惰，而是因为这种方式能带来最好的结果。苹果阻碍了这个过程，就是在逼他们做粗制滥造的工作，程序员对此的痛恨程度，绝不亚于苹果自己对劣质产品的痛恨。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "54d399aa6409c06cccfdd2c0e6b64673c4f4b785a75b154833b9587d9545dc32",
+      "enMarkdown": "How would Apple like it if when they discovered a serious bug in OS X, instead of releasing a software update immediately, they had to submit their code to an intermediary who sat on it for a month and then rejected it because it contained an icon they didn't like?",
+      "zhMarkdown": "如果苹果在 OS X 中发现了一个严重漏洞，却不能立即发布补丁，而是必须把代码提交给一个中间人，对方压了一个月，最后还因为里面有一个不喜欢的图标而予以拒绝，苹果自己会作何感想？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "654c3a81bc151c7413c86a2b3480ffa2724b96557fc6eb0c82b7306889803860",
+      "enMarkdown": "By breaking software development, Apple gets the opposite of what they intended: the version of an app currently available in the App Store tends to be an old and buggy one. One developer told me:",
+      "zhMarkdown": "苹果破坏了软件开发规律，结果得到了与初衷完全相反的局面：目前 App Store 里可用的应用版本往往既陈旧又多虫（bug）。一位开发者告诉我："
+    },
+    {
+      "id": 11,
+      "type": "quote",
+      "sourceHash": "e6b0a2c2014a9215f9a28ae315c272068e5eec2b89a5d031ac93c5047b96e121",
+      "enMarkdown": "> As a result of their process, the App Store is full of half-baked applications. I make a new version almost every day that I release to beta users. The version on the App Store feels old and crappy. I'm sure that a lot of developers feel this way: One emotion is \"I'm not really proud about what's in the App Store\", and it's combined with the emotion \"Really, it's Apple's fault.\"",
+      "zhMarkdown": "> 由于他们的审核流程，App Store 里塞满了半成品应用。我几乎每天都会制作一个新版本发给测试用户。而 App Store 上的那个版本看起来既陈旧又垃圾。我相信很多开发者都有同感：一方面觉得“我对自己挂在 App Store 上的东西真感到有些丢人”，另一方面又觉得“但这真的全是苹果的错”。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "0c875c5028fb805ee709bca1a6a6fd0851d33719587ab9c8dc541c871faa4617",
+      "enMarkdown": "Another wrote:",
+      "zhMarkdown": "另一位开发者写道："
+    },
+    {
+      "id": 13,
+      "type": "quote",
+      "sourceHash": "16706d4c2d44b337e341e42e4d15b30dda0ba025159dff4676fc7ba1fb5e1cd7",
+      "enMarkdown": "> I believe that they think their approval process helps users by ensuring quality. In reality, bugs like ours get through all the time and then it can take 4-8 weeks to get that bug fix approved, leaving users to think that iPhone apps sometimes just don't work. Worse for Apple, these apps work just fine on other platforms that have immediate approval processes.",
+      "zhMarkdown": "> 我相信他们认为审核流程是通过确保质量来造福用户。但现实中，像我们遇到的这种漏洞随时都会溜过去，而修复该漏洞的审核却需要 4 到 8 周，这让用户觉得 iPhone 应用有时就是没法用。对苹果更不利的是，这些应用在其他拥有即时审核机制的平台上运行得非常好。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "ccffc112813d06437cc19b005d714307527fe1aaec8a42f977a384ddb05286c5",
+      "enMarkdown": "Actually I suppose Apple has a third misconception: that all the complaints about App Store approvals are not a serious problem. They must hear developers complaining. But partners and suppliers are always complaining. It would be a bad sign if they weren't; it would mean you were being too easy on them. Meanwhile the iPhone is selling better than ever. So why do they need to fix anything?",
+      "zhMarkdown": "其实我猜苹果还有第三个误区：认为所有关于 App Store 审核的抱怨都不是什么大问题。他们肯定听到了开发者的抱怨。但合作伙伴和供应商总是会抱怨的。如果不抱怨反倒是个坏信号，那意味着你对他们太纵容了。与此同时，iPhone 的销量比以往任何时候都要好。既然如此，他们为什么还要去解决这些问题呢？"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "fd0023eb0d0e0e2837507c0fbbc7024699bc4a151cf0cc8aad8d6452a392999e",
+      "enMarkdown": "They get away with maltreating developers, in the short term, because they make such great hardware. I just bought a new 27\" iMac a couple days ago. It's fabulous. The screen's too shiny, and the disk is surprisingly loud, but it's so beautiful that you can't make yourself care.",
+      "zhMarkdown": "在短期内，他们之所以能肆无忌惮地刻薄开发者，是因为他们做出了极其出色的硬件。几天前我刚买了一台新的 27 英寸 iMac。它太棒了。虽然屏幕太反光，硬盘声音也大得惊人，但它实在太美了，让你根本无法去计较这些缺点。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "8e4dc7ad1cb6bb1493a4c9c5c694da4d664672084e42a9a8d23ce5023da5c468",
+      "enMarkdown": "So I bought it, but I bought it, for the first time, with misgivings. I felt the way I'd feel buying something made in a country with a bad human rights record. That was new. In the past when I bought things from Apple it was an unalloyed pleasure. Oh boy! They make such great stuff. This time it felt like a Faustian bargain. They make such great stuff, but they're such assholes. Do I really want to support this company?",
+      "zhMarkdown": "所以我买下了它，但这也是我第一次带着顾虑去买苹果产品。那种感觉，就像在购买一个有人权污点的国家所制造的商品一样。这种体验前所未有。过去我买苹果的东西是一种纯粹的愉悦。天呐！他们做出了这么棒的产品。而这一次，感觉就像是一场浮士德式的交易。他们做出了这么棒的产品，但他们又是如此的混蛋。我真的想支持这样一家公司吗？"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "109510644bb4c21f8eb3bdf0be4db1175a5311a1f6ce66b3f05a8bacae47a8b4",
+      "enMarkdown": "* * *",
+      "zhMarkdown": "* * *"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "b3abaed4a80d31c4b9caa406f3037f335e09cbc92419e4aefd69a98a76cbcb92",
+      "enMarkdown": "Should Apple care what people like me think? What difference does it make if they alienate a small minority of their users?",
+      "zhMarkdown": "苹果应该在乎像我这样的人怎么想吗？如果他们只是让极少数用户感到反感，又有什么关系呢？"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "79a8288e8d6218f85f49d1eb9952f41d739c7c98b5390df2dd1e87c428be4f29",
+      "enMarkdown": "There are a couple reasons they should care. One is that these users are the people they want as employees. If your company seems evil, the best programmers won't work for you. That hurt Microsoft a lot starting in the 90s. Programmers started to feel sheepish about working there. It seemed like selling out. When people from Microsoft were talking to other programmers and they mentioned where they worked, there were a lot of self-deprecating jokes about having gone over to the dark side. But the real problem for Microsoft wasn't the embarrassment of the people they hired. It was the people they never got. And you know who got them? Google and Apple. If Microsoft was the Empire, they were the Rebel Alliance. And it's largely because they got more of the best people that Google and Apple are doing so much better than Microsoft today.",
+      "zhMarkdown": "他们应该在乎，原因有几个。一是这些用户正是他们想要招揽的员工。如果你的公司显得邪恶，最顶尖的程序员就不会为你工作。这在 90 年代开始对微软造成了很大伤害。程序员开始对在微软工作感到有些羞愧，觉得那是对自我的背叛。当微软的人与其他程序员交流并提到自己的工作单位时，总会伴随着许多自嘲，笑称自己投靠了“黑暗帝国”。但微软真正的麻烦不在于已雇佣员工的尴尬，而在于他们永远错过的那些人才。你知道谁得到了这些人吗？谷歌和苹果。如果说微软是帝国，那么他们就是反抗军同盟。今天谷歌和苹果之所以能比微软好得多，很大程度上就是因为他们争取到了更多最优秀的人才。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "41ec14c2287bce093f0ce737af416d0afdce95bfcd3d9090723c55ec5a94f9a7",
+      "enMarkdown": "Why are programmers so fussy about their employers' morals? Partly because they can afford to be. The best programmers can work wherever they want. They don't have to work for a company they have qualms about.",
+      "zhMarkdown": "为什么程序员对雇主的道德要求如此苛刻？部分原因在于他们有资本这样做。最顶尖的程序员可以在任何他们想去的地方工作。他们不必为一家让自己感到不安的公司效力。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "ff225295db40c7f71ee473b00b962b8180405280b2991444ad5eee6bf2fdd48a",
+      "enMarkdown": "But the other reason programmers are fussy, I think, is that evil begets stupidity. An organization that wins by exercising power starts to lose the ability to win by doing better work. And it's not fun for a smart person to work in a place where the best ideas aren't the ones that win. I think the reason Google embraced \"Don't be evil\" so eagerly was not so much to impress the outside world as to inoculate themselves against arrogance. [[1](#f1n)]",
+      "zhMarkdown": "但我认为，程序员挑剔的另一个原因是，邪恶会孕育愚蠢。一个靠行使权力来取胜的组织，会开始失去通过做出更好产品来取胜的能力。对于一个聪明人来说，在一个好点子无法胜出的地方工作是毫无乐趣可言的。我认为谷歌当年如此热切地拥抱“不作恶”（Don't be evil），与其说是为了讨好外界，不如说是为了让自己免受傲慢的侵蚀。[[1](#f1n)]"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "352e3384e95aebe5ba7139489f6e84d5eac9d69edf37ef4223ac1694946b5f04",
+      "enMarkdown": "That has worked for Google so far. They've become more bureaucratic, but otherwise they seem to have held true to their original principles. With Apple that seems less the case. When you look at the famous [1984 ad](http://www.uriahcarpenter.info/1984.html) now, it's easier to imagine Apple as the dictator on the screen than the woman with the hammer. [[2](#f2n)] In fact, if you read the dictator's speech it sounds uncannily like a prophecy of the App Store.",
+      "zhMarkdown": "到目前为止，这对谷歌是有效的。他们变得更加官僚化了，但在其他方面似乎还坚守着最初的原则。而对于苹果来说，情况似乎并非如此。现在当你重温那支著名的 [1984 广告](http://www.uriahcarpenter.info/1984.html)时，更容易把苹果想象成屏幕上的独裁者，而不是那个挥舞铁锤的女人。[[2](#f2n)] 事实上，如果你读一下那位独裁者的演讲词，会发现它听起来不可思议地像是对 App Store 的预言："
+    },
+    {
+      "id": 23,
+      "type": "quote",
+      "sourceHash": "0f17c6d9e17473a1f460990864af7a7892bfa6ac5fad38143c0e7379e62a4663",
+      "enMarkdown": "> We have triumphed over the unprincipled dissemination of facts.\n> \n> We have created, for the first time in all history, a garden of pure ideology, where each worker may bloom secure from the pests of contradictory and confusing truths.",
+      "zhMarkdown": "> 我们已经战胜了毫无原则的真相传播。\n> \n> 我们在历史上有史以来第一次创造了一个纯粹思想的乐园，在这里，每个劳动者都可以在免受矛盾和混乱真相滋扰的安全环境中，尽情绽放。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "060ef41422c361a40532ea26e2e76bd968dc1e2138cf409f74742983a573a367",
+      "enMarkdown": "The other reason Apple should care what programmers think of them is that when you sell a platform, developers make or break you. If anyone should know this, Apple should. VisiCalc made the Apple II.",
+      "zhMarkdown": "苹果应该在乎程序员看法的另一个原因在于，当你销售一个平台时，开发者的支持能决定你的成败。如果说有谁最该明白这一点，那非苹果莫属。正是 VisiCalc 成就了 Apple II。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "efbe0cb19c2d1fa51f21b393fd36736a142f2c249b5fd3001f6cd5e740d22202",
+      "enMarkdown": "And programmers build applications for the platforms they use. Most applications—most startups, probably—grow out of personal projects. Apple itself did. Apple made microcomputers because that's what Steve Wozniak wanted for himself. He couldn't have afforded a minicomputer. [[3](#f3n)] Microsoft likewise started out making interpreters for little microcomputers because Bill Gates and Paul Allen were interested in using them. It's a rare startup that doesn't build something the founders use.",
+      "zhMarkdown": "而且程序员是为他们自己使用的平台开发应用的。大多数应用——甚至可能大多数创业公司——都源于个人项目。苹果自己就是如此。苹果之所以制造微型计算机，是因为史蒂夫·沃兹尼亚克自己想要一台，而他买不起小型机。[[3](#f3n)] 微软同样也是从为微型计算机编写解释器起家的，因为比尔·盖茨和保罗·艾伦自己想用。很少有创业公司开发的东西不是创始人自己想用的。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "bba785b7a82db2bec8fe9b86b86cb8fee06bfad8207c570dfb0f5337a140eb67",
+      "enMarkdown": "The main reason there are so many iPhone apps is that so many programmers have iPhones. They may know, because they read it in an article, that Blackberry has such and such market share. But in practice it's as if RIM didn't exist. If they're going to build something, they want to be able to use it themselves, and that means building an iPhone app.",
+      "zhMarkdown": "iPhone 应用如此之多的主要原因，在于有太多程序员拥有 iPhone。他们可能通过阅读文章知道黑莓占有怎样的市场份额。但在实际操作中，黑莓（RIM）就好像不存在一样。如果他们要开发什么东西，他们希望自己能用上，这就意味着要开发 iPhone 应用。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "2d46d7ee212c5113a4be363b224e7cd550b51a5fc5f883cba10c097542b29942",
+      "enMarkdown": "So programmers continue to develop iPhone apps, even though Apple continues to maltreat them. They're like someone stuck in an abusive relationship. They're so attracted to the iPhone that they can't leave. But they're looking for a way out. One wrote:",
+      "zhMarkdown": "因此，尽管苹果一直在虐待他们，程序员们仍然在继续开发 iPhone 应用。他们就像陷入了一段受虐关系中无法自拔。他们对 iPhone 如此着迷，以至于无法离开。但他们正在寻找出路。一位开发者写道："
+    },
+    {
+      "id": 28,
+      "type": "quote",
+      "sourceHash": "b86800539f54cdbb312d080f3f0c98fbe3ed293e2d45d91d1cd3df3385159697",
+      "enMarkdown": "> While I did enjoy developing for the iPhone, the control they place on the App Store does not give me the drive to develop applications as I would like. In fact I don't intend to make any more iPhone applications unless absolutely necessary. [4]",
+      "zhMarkdown": "> 虽然我确实喜欢为 iPhone 开发应用，但他们对 App Store 的控制并没有给我按照自己意愿开发应用的动力。事实上，除非绝对必要，我不打算再开发任何 iPhone 应用了。[4]"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "a7d1aad11a4fc388d99cb5d5750fc77785e257751eb3b35929846d0512fe4e3f",
+      "enMarkdown": "Can anything break this cycle? No device I've seen so far could. Palm and RIM haven't a hope. The only credible contender is Android. But Android is an orphan; Google doesn't really care about it, not the way Apple cares about the iPhone. Apple cares about the iPhone the way Google cares about search.",
+      "zhMarkdown": "有什么能打破这个循环吗？目前我还没看到任何设备能做到这一点。Palm 和黑莓毫无希望。唯一像样的竞争对手是 Android。但 Android 是个孤儿；谷歌并没有真正关心它，至少不像苹果关心 iPhone 那样。苹果关心 iPhone 的程度，就像谷歌关心搜索一样。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "109510644bb4c21f8eb3bdf0be4db1175a5311a1f6ce66b3f05a8bacae47a8b4",
+      "enMarkdown": "* * *",
+      "zhMarkdown": "* * *"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "55ee23405374d61aa1ee4977ee01edb3e616ed988c31c393c7ababd15c014284",
+      "enMarkdown": "Is the future of handheld devices one locked down by Apple? It's a worrying prospect. It would be a bummer to have another grim monoculture like we had in the 1990s. In 1995, writing software for end users was effectively identical with writing Windows applications. Our horror at that prospect was the single biggest thing that drove us to start building [web apps](https://paulgraham.com/road.html).",
+      "zhMarkdown": "手持设备的未来会被苹果牢牢锁死吗？这是一个令人担忧的前景。如果再出现一个像 20 世纪 90 年代那样令人窒息的单一市场，那将是一件很沮丧的事。在 1995 年，为终端用户写软件实际上等同于写 Windows 应用。我们对这一前景的恐惧，正是促使我们开始构建[网络应用（Web apps）](https://paulgraham.com/road.html)的最大动力。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "30c14ec7876dd2c977014162b6c8d37815a0752c853e76152cf371a3969bc0b2",
+      "enMarkdown": "At least we know now what it would take to break Apple's lock. You'd have to get iPhones out of programmers' hands. If programmers used some other device for mobile web access, they'd start to develop apps for that instead.",
+      "zhMarkdown": "至少我们现在知道怎样才能打破苹果的封锁。你必须把 iPhone 从程序员的手中拿走。如果程序员使用其他设备进行移动网络访问，他们就会转而为该设备开发应用。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "da41a87b04cd4d3a0b1d4a163c39f56c6b59bd13f5d4ae298ffb8c08bf687d6e",
+      "enMarkdown": "How could you make a device programmers liked better than the iPhone? It's unlikely you could make something better designed. Apple leaves no room there. So this alternative device probably couldn't win on general appeal. It would have to win by virtue of some appeal it had to programmers specifically.",
+      "zhMarkdown": "如何才能做出一款比 iPhone 更受程序员喜爱的设备？你不太可能做出设计更出色的东西。苹果在这方面已经做到了极致，没有留下任何空间。所以这款替代设备可能无法靠大众吸引力取胜。它必须凭借对程序员这一特定群体的独特吸引力来取胜。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "64206528e16ec09da7eb63d8d5241024d998e8b2281bc274831b9b726b6cf8e8",
+      "enMarkdown": "One way to appeal to programmers is with software. If you could think of an application programmers had to have, but that would be impossible in the circumscribed world of the iPhone, you could presumably get them to switch.",
+      "zhMarkdown": "吸引程序员的一种方法是依靠软件。如果你能想到一款程序员必不可少、但在 iPhone 的受限世界里又无法实现的应用，你大概就能说服他们换机。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "c28ccfc03078788027411b8fc5fa8b8a45690ab368b6cc950c126d729aab83a9",
+      "enMarkdown": "That would definitely happen if programmers started to use handhelds as development machines—if handhelds displaced laptops the way laptops displaced desktops. You need more control of a development machine than Apple will let you have over an iPhone.",
+      "zhMarkdown": "如果程序员开始将手持设备用作开发机——如果手持设备取代笔记本电脑，就像笔记本电脑取代台式机那样——那这一幕就必然会发生。对于开发机，你需要比苹果在 iPhone 上所允许的更多的控制权。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "10b540a12839680713d0dcf00c9d1848c11168d7e344bb364fd7dd8eabb3dd2b",
+      "enMarkdown": "Could anyone make a device that you'd carry around in your pocket like a phone, and yet would also work as a development machine? It's hard to imagine what it would look like. But I've learned never to say never about technology. A phone-sized device that would work as a development machine is no more miraculous by present standards than the iPhone itself would have seemed by the standards of 1995.",
+      "zhMarkdown": "会有人能做出一款既能像手机一样放进口袋，又能当作开发机使用的设备吗？很难想象它会是什么样子。但我已经学会了永远不要对技术说“绝不可能”。以现在的标准来看，一个手机大小、能当开发机使用的设备，其奇迹程度并不亚于 1995 年标准下的 iPhone 本身。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "dbf2e5dd87969bc421839393cff970151dba43ff7ee714ab3ae1492df6d65668",
+      "enMarkdown": "My current development machine is a MacBook Air, which I use with an external monitor and keyboard in my office, and by itself when traveling. If there was a version half the size I'd prefer it. That still wouldn't be small enough to carry around everywhere like a phone, but we're within a factor of 4 or so. Surely that gap is bridgeable. In fact, let's make it an [RFS](http://ycombinator.com/rfs5.html). Wanted: Woman with hammer.",
+      "zhMarkdown": "我目前的开发机是一台 MacBook Air，在办公室时我配合外接显示器和键盘使用，旅行时则单独使用。如果能有一个尺寸只有它一半的版本，我会更喜欢。虽然这还是不够小，不能像手机一样随身携带，但差距也就是 4 倍左右。这个差距显然是可以弥补的。事实上，让我们把它变成一个[征集创业想法（RFS）](http://ycombinator.com/rfs5.html)吧。寻人：那位挥舞铁锤的女人。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "74f44f3173db7f60e097710083e050968ef8f2aac4492005b59ad9f5b18ef658",
+      "enMarkdown": "[1] When Google adopted \"Don't be evil,\" they were still so small that no one would have expected them to be, yet.",
+      "zhMarkdown": "[1] 当谷歌采纳“不作恶”时，他们还非常弱小，当时还没有人会预料到他们会变坏。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "eb7a63d2acf255f3018818d53d3bf828402fad3f8bf8229a8a5eeff0e614d548",
+      "enMarkdown": "[2] The dictator in the 1984 ad isn't Microsoft, incidentally; it's IBM. IBM seemed a lot more frightening in those days, but they were friendlier to developers than Apple is now.",
+      "zhMarkdown": "[2] 顺便提一句，1984 广告里的独裁者指的不是微软，而是 IBM。IBM 在当年看起来要可怕得多，但他们对开发者其实比现在的苹果要友好。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "c77dce8e3449b8e7f3c2e2543a88ea81807b89d67ae06f8a0a57aa5fdc168aa8",
+      "enMarkdown": "[3] He couldn't even afford a *monitor*. That's why the Apple I used a TV as a monitor.",
+      "zhMarkdown": "[3] 他甚至连一台*显示器*都买不起。这就是为什么 Apple I 使用电视机作为显示器。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "8f7d65163a29dbc0c0c67122d1761bba7ef96a7a64c28faa1b9cbb4e2a1db46b",
+      "enMarkdown": "[4] Several people I talked to mentioned how much they liked the iPhone SDK. The problem is not Apple's products but their policies. Fortunately policies are software; Apple can change them instantly if they want to. Handy that, isn't it?",
+      "zhMarkdown": "[4] 与我交流过的几个人都提到他们非常喜欢 iPhone SDK。问题不在于苹果的产品，而在于他们的政策。幸运的是，政策就像软件一样；如果苹果愿意，他们可以瞬间改变。这不是很方便吗？"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "f4cd50e8a890c5accafcdfdd51a6da53bb751785e50e9daf9cf1f675a769468e",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Ross Boucher, James Bracy, Gabor Cselle, Patrick Collison, Jason Freedman, John Gruber, Joe Hewitt, Jessica Livingston, Robert Morris, Teng Siong Ong, Nikhil Pandit, Savraj Singh, and Jared Tame for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Ross Boucher、James Bracy、Gabor Cselle、Patrick Collison、Jason Freedman、John Gruber、Joe Hewitt、Jessica Livingston、Robert Morris、Teng Siong Ong、Nikhil Pandit、Savraj Singh 和 Jared Tame 阅读了本文的草稿。"
+    }
+  ]
+}

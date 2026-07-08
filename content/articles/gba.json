@@ -1,0 +1,251 @@
+{
+  "slug": "gba",
+  "titleEn": "The Word \"Hacker\"",
+  "titleZh": "“黑客”一词",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 202,
+  "sourceUrl": "https://paulgraham.com/gba.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "363fb898835bbc81f48e021c23d48d63f69958f732b1d32359e855279083c24b",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-word-hacker-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-word-hacker-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "105eb88bedfd2991cbc936d8f6834272e8faedec2af15d8426f5124ead349514",
+      "enMarkdown": "April 2004",
+      "zhMarkdown": "2004年4月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "386f26a80de6c85ec94f4101a4804cd70c1ff9a724de98604b3637493b10c615",
+      "enMarkdown": "To the popular press, \"hacker\" means someone who breaks into computers. Among programmers it means a good programmer. But the two meanings are connected. To programmers, \"hacker\" connotes mastery in the most literal sense: someone who can make a computer do what he wants—whether the computer wants to or not.",
+      "zhMarkdown": "在大众媒体眼中，“黑客”指的是入侵计算机的人。但在程序员圈子里，它指的是优秀的程序员。不过，这两种含义其实是相通的。对程序员来说，“黑客”在最字面的意义上暗示着一种掌控力：能让计算机听从自己的指令——不管计算机本身愿意与否。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a0c98ccc3fed42afbff3571e304e2530cada8feb40bacb9d7642f9dce775ca2d",
+      "enMarkdown": "To add to the confusion, the noun \"hack\" also has two senses. It can be either a compliment or an insult. It's called a hack when you do something in an ugly way. But when you do something so clever that you somehow beat the system, that's also called a hack. The word is used more often in the former than the latter sense, probably because ugly solutions are more common than brilliant ones.",
+      "zhMarkdown": "更让人糊涂的是，名词“hack”也有两种意思。它既可以是赞美，也可以是贬损。当你用一种很难看的方式解决问题时，这被称为一个 hack。但当你用一种极其聪明的方法巧妙地突破了系统限制，这也被称为一个 hack。这个词在第一种语境下用得更多，大概是因为难看的解决方案比聪明的解决方案要普遍得多。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "7c6f562fc9f6d78d07a22c517c1075a438456137c5ace1f3a61e0c3e01799a9b",
+      "enMarkdown": "Believe it or not, the two senses of \"hack\" are also connected. Ugly and imaginative solutions have something in common: they both break the rules. And there is a gradual continuum between rule breaking that's merely ugly (using duct tape to attach something to your bike) and rule breaking that is brilliantly imaginative (discarding Euclidean space).",
+      "zhMarkdown": "信不信由你，“hack”的这两个意思也是相通的。难看的解决方案和极具想象力的解决方案有一个共同点：它们都打破了规则。在仅仅是难看的打破规则（用胶带把东西粘在自行车上）与极具想象力的打破规则（抛弃欧几里得空间）之间，存在着一个渐进的光谱。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "077c4b80d1f5bdc7e7194ecbadf0cd4a3035beee83c2ede3f41ce1078efd7575",
+      "enMarkdown": "Hacking predates computers. When he was working on the Manhattan Project, Richard Feynman used to amuse himself by breaking into safes containing secret documents. This tradition continues today. When we were in grad school, a hacker friend of mine who spent too much time around MIT had his own lock picking kit. (He now runs a hedge fund, a not unrelated enterprise.)",
+      "zhMarkdown": "黑客行为的历史比计算机还要悠久。理查德·费曼在参与曼哈顿计划时，就经常以撬开装有机密文件的保险箱自娱自乐。这一传统一直延续至今。我们上研究生时，我的一位黑客朋友在麻省理工学院（MIT）混了太久，他甚至有一套自己的撬锁工具。（他现在管理着一家对冲基金，这其实是性质差不多的行当。）"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "7b65d3faca88fb7fdb7ff1be9aaad03344fb80034204f02c9d2b78950032a3d1",
+      "enMarkdown": "It is sometimes hard to explain to authorities why one would want to do such things. Another friend of mine once got in trouble with the government for breaking into computers. This had only recently been declared a crime, and the FBI found that their usual investigative technique didn't work. Police investigation apparently begins with a motive. The usual motives are few: drugs, money, sex, revenge. Intellectual curiosity was not one of the motives on the FBI's list. Indeed, the whole concept seemed foreign to them.",
+      "zhMarkdown": "有时，你很难向当局解释为什么有人会想做这种事。我的另一个朋友曾因入侵计算机而惹上政府官司。这在当时刚被定为犯罪，FBI 发现他们常用的侦查手段不管用了。警察办案显然是从动机入手的。常见的动机无非就那么几个：毒品、金钱、性、复仇。而求知欲并不在 FBI 的动机清单上。事实上，他们对这个概念感到完全陌生。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "5746661bd0ff51a636980437ed8dcaeb64db7984f9ff711d0ad38409441ba285",
+      "enMarkdown": "Those in authority tend to be annoyed by hackers' general attitude of disobedience. But that disobedience is a byproduct of the qualities that make them good programmers. They may laugh at the CEO when he talks in generic corporate newspeech, but they also laugh at someone who tells them a certain problem can't be solved. Suppress one, and you suppress the other.",
+      "zhMarkdown": "掌权者往往对黑客普遍不服管教的态度感到恼火。但这种不服管教，恰恰是让他们成为优秀程序员的那些特质所带来的副产品。当 CEO 用满口空洞的官僚套话发言时，他们可能会嗤之以鼻，但如果有人告诉他们某个问题无法解决，他们同样也会嗤之以鼻。压制了其中一面，也就压制了另一面。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "984552dbcaeba7e12a7597fd152d40d4006c899c3787466025d0b27240c1cacf",
+      "enMarkdown": "This attitude is sometimes affected. Sometimes young programmers notice the eccentricities of eminent hackers and decide to adopt some of their own in order to seem smarter. The fake version is not merely annoying; the prickly attitude of these posers can actually slow the process of innovation.",
+      "zhMarkdown": "这种态度有时是装出来的。有些年轻程序员注意到顶尖黑客的古怪脾气，便决定自己也模仿一些，好让自己显得更聪明。这种西施效颦不仅令人讨厌，而且这些装腔作势者刺儿头的态度实际上还会阻碍创新进程。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "dc1a9cfb376e71547c3cfae2c690fd5535d5f7baff69e0d69254822232821f45",
+      "enMarkdown": "But even factoring in their annoying eccentricities, the disobedient attitude of hackers is a net win. I wish its advantages were better understood.",
+      "zhMarkdown": "但即便把这些令人讨厌的古怪脾气算进去，黑客不服管教的态度从长远来看依然是利大于弊的。我希望人们能更好地理解它的好处。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f3f7f229080f4db0457989f77b8e210b107c0cf9c7549240ee455ae78b11a476",
+      "enMarkdown": "For example, I suspect people in Hollywood are simply mystified by hackers' attitudes toward copyrights. They are a perennial topic of heated discussion on Slashdot. But why should people who program computers be so concerned about copyrights, of all things?",
+      "zhMarkdown": "例如，我怀疑好莱坞的人对黑客对待版权的态度感到完全不可思议。版权是 Slashdot 上长盛不衰的热门话题。但为什么写程序的人会偏偏对版权如此敏感呢？"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "d8ae776129761ba83af14655c7151df24c0f591115f950e12d9e6d970c8edca0",
+      "enMarkdown": "Partly because some companies use *mechanisms* to prevent copying. Show any hacker a lock and his first thought is how to pick it. But there is a deeper reason that hackers are alarmed by measures like copyrights and patents. They see increasingly aggressive measures to protect \"intellectual property\" as a threat to the intellectual freedom they need to do their job. And they are right.",
+      "zhMarkdown": "部分原因在于，一些公司利用*技术手段*来阻止复制。给任何一个黑客看一把锁，他的第一反应就是怎么撬开它。但黑客对版权和专利等措施感到警惕，还有更深层的原因。在他们看来，保护“知识产权”的手段越来越激进，这威胁到了他们开展工作所必需的思想自由。他们说得没错。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "e04e93fa9a4c8ef9f14f0acdadf99f960b93f538ef08eaeac9d8b69000249bb9",
+      "enMarkdown": "It is by poking about inside current technology that hackers get ideas for the next generation. No thanks, intellectual homeowners may say, we don't need any outside help. But they're wrong. The next generation of computer technology has often—perhaps more often than not—been developed by outsiders.",
+      "zhMarkdown": "黑客正是通过在现有技术中摸索研究，才获得了开发下一代技术的灵感。那些知识产权的拥有者可能会说：不用了，谢谢，我们不需要任何外人帮忙。但他们错了。下一代计算机技术往往——甚至可能多半——是由局外人开发出来的。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "0753ea9a14511d610c9673c5ec2048c122944bba1515da6ee6126e5f347a8593",
+      "enMarkdown": "In 1977 there was no doubt some group within IBM developing what they expected to be the next generation of business computer. They were mistaken. The next generation of business computer was being developed on entirely different lines by two long-haired guys called Steve in a [garage](https://paulgraham.com/garage.html) in Los Altos. At about the same time, the powers that be were cooperating to develop the official next generation operating system, Multics. But two guys who thought Multics excessively complex went off and wrote their own. They gave it a name that was a joking reference to Multics: Unix.",
+      "zhMarkdown": "在 1977 年，IBM 内部肯定有某个团队正在开发他们预期中的下一代商业计算机。他们错了。下一代商业计算机正由两个留着长发的、名叫 Steve 的家伙，在洛斯阿图斯的一个[车库](https://paulgraham.com/garage.html)里沿着完全不同的路线开发出来。大约在同一时间，业界巨头们正在通力合作开发官方的下一代操作系统 Multics。但有两个家伙觉得 Multics 繁琐得过分，于是跑去写了自己的系统。他们给它起了一个带有调侃 Multics 意味的名字：Unix。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "68e10371f7171c4e085882ad7395a1de1ebced3bcf9fc4d524ee882c141092dc",
+      "enMarkdown": "The latest intellectual property laws impose unprecedented restrictions on the sort of poking around that leads to new ideas. In the past, a competitor might use patents to prevent you from selling a copy of something they made, but they couldn't prevent you from taking one apart to see how it worked. The latest laws make this a crime. How are we to develop new technology if we can't study current technology to figure out how to improve it?",
+      "zhMarkdown": "最新的知识产权法对这种能激发新想法的摸索研究施加了前所未有的限制。在过去，竞争对手可能会利用专利阻止你销售他们产品的仿制品，但他们无法阻止你拆开它来研究工作原理。而最新的法律把这定为了犯罪。如果我们连研究现有技术以寻找改进方法都不被允许，我们还怎么开发新技术？"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "953167c23f7aec15e799d4a9605721ce7d44f1e253a50dfbf4e03f37c33f3621",
+      "enMarkdown": "Ironically, hackers have brought this on themselves. Computers are responsible for the problem. The control systems inside machines used to be physical: gears and levers and cams. Increasingly, the brains (and thus the value) of products is in software. And by this I mean software in the general sense: i.e. data. A song on an LP is physically stamped into the plastic. A song on an iPod's disk is merely stored on it.",
+      "zhMarkdown": "讽刺的是，这恰恰是黑客们自己招来的。计算机是这个问题的始作俑者。过去，机器内部的控制系统是物理性的：齿轮、杠杆和凸轮。而现在，产品的大脑（乃至价值）越来越多地存在于软件中。我这里指的是广义上的软件，即数据。黑胶唱片上的歌是物理压制在塑料上的，而 iPod 硬盘里的歌仅仅是存储在上面的数据。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "7f29862d8f9a8dcdc82fc010a00b3b4b3131bcfc5d742894d32fb5a6deafaeca",
+      "enMarkdown": "Data is by definition easy to copy. And the Internet makes copies easy to distribute. So it is no wonder companies are afraid. But, as so often happens, fear has clouded their judgement. The government has responded with draconian laws to protect intellectual property. They probably mean well. But they may not realize that such laws will do more harm than good.",
+      "zhMarkdown": "数据从定义上来说就是易于复制的。互联网又让复制品易于分发。因此，公司感到害怕也就不足为奇了。但是，恐惧往往会蒙蔽人们的判断力。政府出台了严厉的法律来保护知识产权作为回应。他们的出发点可能是好的，但他们可能没有意识到，这样的法律弊大于利。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "d88637e465134fb58b9e503e043ef4df7bb18484f3409c61e6b0336824937ad2",
+      "enMarkdown": "Why are programmers so violently opposed to these laws? If I were a legislator, I'd be interested in this mystery—for the same reason that, if I were a farmer and suddenly heard a lot of squawking coming from my hen house one night, I'd want to go out and investigate. Hackers are not stupid, and unanimity is very rare in this world. So if they're all squawking, perhaps there is something amiss.",
+      "zhMarkdown": "为什么程序员对这些法律反对得如此激烈？如果我是立法者，我会对这个谜团产生兴趣——原因就像是，如果我是个农夫，一天晚上突然听到鸡舍里传来一阵喧闹，我会想出去一探究竟。黑客并不傻，在这个世界上，达成一致是极罕见的。所以，如果他们都在大喊大叫，也许是真的出了什么问题。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "97b97aad937d5f6f72e67f4e1a5f10dd114f804320a045024545ba593ae65058",
+      "enMarkdown": "Could it be that such laws, though intended to protect America, will actually harm it? Think about it. There is something very *American* about Feynman breaking into safes during the Manhattan Project. It's hard to imagine the authorities having a sense of humor about such things over in Germany at that time. Maybe it's not a coincidence.",
+      "zhMarkdown": "有没有可能，这些旨在保护美国的法律，实际上会伤害它？想想看。费曼在曼哈顿计划期间撬保险箱，带有一种非常*美国化*的色彩。很难想象当时的德国当局能对这种事保持幽默感。也许这并非巧合。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "5200fd6b734a5da585508461d596a7bd3adf4d8cb875896286de821b64d3219d",
+      "enMarkdown": "Hackers are unruly. That is the essence of hacking. And it is also the essence of Americanness. It is no accident that Silicon Valley is in America, and not France, or Germany, or England, or Japan. In those countries, people color inside the lines.",
+      "zhMarkdown": "黑客是桀骜不驯的。这是黑客精神的本质。这也是美国精神的本质。硅谷诞生在美国，而不是法国、德国、英国或日本，这绝非偶然。在那些国家，人们总是墨守成规。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "dcfeb6093eae999cabd419acfe3ef58be1a33df28d20d389ac2eb13aba1b3971",
+      "enMarkdown": "I lived for a while in Florence. But after I'd been there a few months I realized that what I'd been unconsciously hoping to find there was back in the place I'd just left. The reason Florence is famous is that in 1450, it was New York. In 1450 it was filled with the kind of turbulent and ambitious people you find now in America. (So I went back to America.)",
+      "zhMarkdown": "我曾在佛罗伦萨住过一段时间。但在那里待了几个月后，我意识到，我潜意识里希望能在那儿找到的东西，其实留在我刚刚离开的地方。佛罗伦萨之所以闻名，是因为在 1450 年，它就是当时的纽约。在 1450 年，那里挤满了如今在美国能看到的那种野心勃勃、不甘平庸的人。（于是我回到了美国。）"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "3af787bb7afe19aa00e2bd32a166a0c7a94f5ea84a0c0d64a0462fee9f1aa0a2",
+      "enMarkdown": "It is greatly to America's advantage that it is a congenial atmosphere for the right sort of unruliness—that it is a home not just for the smart, but for smart-alecks. And hackers are invariably smart-alecks. If we had a national holiday, it would be April 1st. It says a great deal about our work that we use the same word for a brilliant or a horribly cheesy solution. When we cook one up we're not always 100% sure which kind it is. But as long as it has the right sort of wrongness, that's a promising sign. It's odd that people think of programming as precise and methodical. *Computers* are precise and methodical. Hacking is something you do with a gleeful laugh.",
+      "zhMarkdown": "美国的一大优势在于，它为这种适度的桀骜不驯提供了适宜的土壤——它不仅是聪明人的家园，也是刺儿头和杠精的家园。而黑客无一例外都是刺儿头。如果我们有一个全国性的节日，那一定是愚人节。我们用同一个词来形容一个绝妙的解决方案或一个极其俗气的权宜之计，这很能说明我们工作的本质。当我们搞出一个方案时，我们自己也不敢百分之百确定它属于哪一种。但只要它带有一种“恰到好处的离经叛道”，这就是一个好兆头。奇怪的是，人们总觉得编程是一件精确且有条不紊的事。*计算机*是精确且有条不紊的，而黑客行为则是你伴着欢快的笑声去做的事。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "52a13c99962d6857ed3b83143f8494bd923858bcf62991408004cd5c152ff047",
+      "enMarkdown": "In our world some of the most characteristic solutions are not far removed from practical jokes. IBM was no doubt rather surprised by the consequences of the licensing deal for DOS, just as the hypothetical \"adversary\" must be when Michael Rabin solves a problem by redefining it as one that's easier to solve.",
+      "zhMarkdown": "在我们的世界里，一些最典型的解决方案与恶作剧相差无几。IBM 当年对 DOS 许可协议带来的后果无疑感到相当意外，就像当迈克尔·拉宾通过将一个问题重新定义为更容易解决的问题来攻克它时，那个假设中的“对手”也必然感到震惊一样。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "dc56455bc8084d76b645e2719d17e6b0196a9875adfec4cf651321dff156d976",
+      "enMarkdown": "Smart-alecks have to develop a keen sense of how much they can [get away](https://paulgraham.com/say.html) with. And lately hackers have sensed a change in the atmosphere. Lately hackerliness seems rather frowned upon.",
+      "zhMarkdown": "刺儿头必须培养出敏锐的直觉，知道自己能[出格](https://paulgraham.com/say.html)到什么程度。最近，黑客们察觉到气氛变了。近来，黑客风骨似乎颇受冷遇。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "349d9c589b6806e5b0d36f8298464257c6d673880394e5143b83ab4cc057c767",
+      "enMarkdown": "To hackers the recent contraction in civil liberties seems especially ominous. That must also mystify outsiders. Why should we care especially about civil liberties? Why programmers, more than dentists or salesmen or landscapers?",
+      "zhMarkdown": "对黑客来说，最近公民自由的收缩显得尤为不祥。这一定也让外人感到不解。为什么我们偏偏对公民自由如此在乎？为什么是程序员，而不是牙医、销售员或园艺师？"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "d3fba4a1c7bfc3ec9a2f77ceab4d77944c540b64177dc4551699af0e34faf011",
+      "enMarkdown": "Let me put the case in terms a government official would appreciate. Civil liberties are not just an ornament, or a quaint American tradition. Civil liberties make countries rich. If you made a graph of GNP per capita vs. civil liberties, you'd notice a definite trend. Could civil liberties really be a cause, rather than just an effect? I think so. I think a society in which people can do and say what they want will also tend to be one in which the most efficient solutions win, rather than those sponsored by the most influential people. Authoritarian countries become corrupt; corrupt countries become poor; and poor countries are weak. It seems to me there is a Laffer curve for government power, just as for tax revenues. At least, it seems likely enough that it would be stupid to try the experiment and find out. Unlike high tax rates, you can't repeal totalitarianism if it turns out to be a mistake.",
+      "zhMarkdown": "让我用政府官员能理解的方式来阐述。公民自由不仅仅是一种摆设，或者一种古雅的美国传统。公民自由能让国家富裕。如果你画一张人均国民生产总值（GNP）与公民自由的关系图，你会发现一个明显的趋势。公民自由真的可能是一个因，而不仅仅是一个果吗？我认为是的。我认为，在一个人们可以畅所欲言、各行其是的社会中，最有效的解决方案往往会胜出，而不是那些由最有权势的人赞助的方案。专制国家会变得腐败；腐败国家会变得贫穷；而贫穷国家会变得软弱。在我看来，政府权力也存在一条拉弗曲线，就像税收收入一样。至少，这种可能性足够大，以至于去亲身实验并探寻结果会是非常愚蠢的行为。与高税率不同，如果事实证明极权主义是个错误，你是无法废除它的。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "5b11420378114b3d8eedf1d8d93b05f90ac04596634db793c68a1d85f06ce090",
+      "enMarkdown": "This is why hackers worry. The government spying on people doesn't literally make programmers write worse code. It just leads eventually to a world in which bad ideas win. And because this is so important to hackers, they're especially sensitive to it. They can sense totalitarianism approaching from a distance, as animals can sense an approaching thunderstorm.",
+      "zhMarkdown": "这就是黑客担忧的原因。政府监视民众并不会直接导致程序员写出更糟糕的代码。它只是最终会导致一个糟糕想法胜出的世界。正因为这对黑客来说至关重要，他们对此尤其敏感。他们能从远处感知到极权主义的临近，就像动物能感知到暴风雨即将来临一样。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "8a9322ea1d38084d410e507412f2547dc2ed6833c9d57f13bf57be916b102ba6",
+      "enMarkdown": "It would be ironic if, as hackers fear, recent measures intended to protect national security and intellectual property turned out to be a missile aimed right at what makes America successful. But it would not be the first time that measures taken in an atmosphere of panic had the opposite of the intended effect.",
+      "zhMarkdown": "正如黑客所担忧的那样，如果最近旨在保护国家安全和知识产权的措施，最终变成了一枚直接射向美国成功基石的导弹，那将是极大的讽刺。但这不会是人们在恐慌气氛下采取的措施首次产生适得其反的效果。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "b8e34ec09225482ba4c0a9397bf78d2b6451f6ea7b8577e47c3595cfd591afd2",
+      "enMarkdown": "There is such a thing as Americanness. There's nothing like living abroad to teach you that. And if you want to know whether something will nurture or squash this quality, it would be hard to find a better focus group than hackers, because they come closest of any group I know to embodying it. Closer, probably, than the men running our government, who for all their talk of patriotism remind me more of Richelieu or Mazarin than Thomas Jefferson or George Washington.",
+      "zhMarkdown": "确实存在所谓的“美国精神”这回事。没有什么比住在国外更能让你体会到这一点了。如果你想知道某件事会滋养还是扼杀这种特质，很难找到比黑客更好的焦点小组了，因为在我所知道的任何群体中，他们最接近这种特质的化身。可能比治理我们政府的那些人还要接近，那些人虽然口口声声谈论爱国主义，但比起托马斯·杰斐逊或乔治·华盛顿，他们更让我想起黎塞留或马扎然。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "c337665ebd3db8bb2f656f182e2d6fe6644f65745329edf6184a33fdd9eda43f",
+      "enMarkdown": "When you read what the founding fathers had to say for themselves, they sound more like hackers. \"The spirit of resistance to government,\" Jefferson wrote, \"is so valuable on certain occasions, that I wish it always to be kept alive.\"",
+      "zhMarkdown": "当你读到建国先贤们的言论时，他们听起来更像黑客。杰斐逊曾写道：“在某些情况下，对政府的抵抗精神是如此宝贵，以至于我希望它永远保持活力。”"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "cf9ffe68db9d5fd3ccf73c8a0af709e60d5a6ce3b6907790a43a235508e0f4d0",
+      "enMarkdown": "Imagine an American president saying that today. Like the remarks of an outspoken old grandmother, the sayings of the founding fathers have embarrassed generations of their less confident successors. They remind us where we come from. They remind us that it is the people who break rules that are the source of America's wealth and power.",
+      "zhMarkdown": "想象一下今天的美国总统说出这样的话。就像一位心直口快的老祖母的言论一样，建国先贤的话让一代代缺乏自信的继任者感到尴尬。它们提醒我们来自何方。它们提醒我们，正是那些打破规则的人，才是美国财富和力量的源泉。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "c1e6c99bf1bcdcd85fa025954cc3b3a657a5bc918daa8f9168a9581d11bbf287",
+      "enMarkdown": "Those in a position to impose rules naturally want them to be obeyed. But be careful what you ask for. You might get it.",
+      "zhMarkdown": "那些处于制定规则地位的人，自然希望规则被遵守。但要小心你的诉求，你可能会如愿以偿。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "adbecc7929e92e3892fcdf199405d296f5b222e7369e1c4e1d0b294d23c90947",
+      "enMarkdown": "**Thanks** to Ken Anderson, Trevor Blackwell, Daniel Giffin, Sarah Harlin, Shiro Kawai, Jessica Livingston, Matz, Jackie McDonough, Robert Morris, Eric Raymond, Guido van Rossum, David Weinberger, and Steven Wolfram for reading drafts of this essay.",
+      "zhMarkdown": "**感谢** Ken Anderson、Trevor Blackwell、Daniel Giffin、Sarah Harlin、Shiro Kawai、Jessica Livingston、Matz、Jackie McDonough、Robert Morris、Eric Raymond、Guido van Rossum、David Weinberger 和 Steven Wolfram 阅读了本文的草稿。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "528c52a3c140c10ac3105abf3cffc205a4f5d3b509c0d2f97ed7b50b3377a4d9",
+      "enMarkdown": "(The [image](https://paulgraham.com/bluebox.html) shows Steves Jobs and Wozniak with a \"blue box.\" Photo by Margret Wozniak. Reproduced by permission of Steve Wozniak.)",
+      "zhMarkdown": "（[图片](https://paulgraham.com/bluebox.html)展示了史蒂夫·乔布斯和史蒂夫·沃兹尼亚克拿着一个“蓝盒子”。摄影：Margret Wozniak。经 Steve Wozniak 许可复制。）"
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "slug": "startupideas",
+  "titleEn": "How to Get Startup Ideas",
+  "titleZh": "如何获得创业点子",
+  "dateText": "November 2012",
+  "publishedAt": "2012-11-01",
+  "sourceOrder": 82,
+  "sourceUrl": "https://paulgraham.com/startupideas.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "1f6fb5ebbb1f4fbbd70aa0ed9f48d8f2843c2f80755d1ea45e2e5e3b3b9a13d2",
+      "enMarkdown": "The way to get startup ideas is not to try to think of startup ideas. It's to look for problems, preferably problems you have yourself.",
+      "zhMarkdown": "获得创业点子的方法不是去“想”创业点子，而是去寻找问题，最好是你自己亲身遇到的问题。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "161f7e0d61991e1b2a133e81c3e1e94f86b7631d630e0312d596dfe5946a9d19",
+      "enMarkdown": "The very best startup ideas tend to have three things in common: they're something the founders themselves want, that they themselves can build, and that few others realize are worth doing. Microsoft, Apple, Yahoo, Google, and Facebook all began this way.",
+      "zhMarkdown": "最优秀的创业点子往往有三个共同点：它们是创始人自己想要的东西，是他们自己能做出来的东西，并且是很少有人意识到值得去做的事情。微软、苹果、雅虎、谷歌和 Facebook 都是这样起家的。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ee3b36714358b49e51186749f07f0c4d0b2ee50028b577ba7dc18f3f4a0299d6",
+      "enMarkdown": "**Problems**",
+      "zhMarkdown": "**问题**"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "75039792a783c7ddb60f57aaa2db93b59182e28bc1bd484d01d9d2434c4b44f6",
+      "enMarkdown": "Why is it so important to work on a problem you have? Among other things, it ensures the problem really exists. It sounds obvious to say you should only work on problems that exist. And yet by far the most common mistake startups make is to solve problems no one has.",
+      "zhMarkdown": "为什么解决自己遇到的问题如此重要？最关键的一点在于，它能确保这个问题是真实存在的。说“你应该只解决真实存在的问题”听起来像是一句废话，然而，迄今为止创业公司最常犯的错误，就是去解决没人遇到的问题。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "2a4b16be4ef457f8507d8c6c38f9fe73464824962b6c3c84d2d3aced9d18f23c",
+      "enMarkdown": "I made it myself. In 1995 I started a company to put art galleries online. But galleries didn't want to be online. It's not how the art business works. So why did I spend 6 months working on this stupid idea? Because I didn't pay attention to users. I invented a model of the world that didn't correspond to reality, and worked from that. I didn't notice my model was wrong until I tried to convince users to pay for what we'd built. Even then I took embarrassingly long to catch on. I was attached to my model of the world, and I'd spent a lot of time on the software. They had to want it!",
+      "zhMarkdown": "我自己就犯过这个错误。1995 年，我创办了一家公司，试图把艺术画廊搬到网上。但画廊根本不想上网，艺术品交易不是这么运作的。那我为什么还要花 6 个月时间去折腾这个愚蠢的点子？因为我没有关注用户。我凭空虚构了一个与现实不符的世界模型，并以此为基础开展工作。直到我试图说服用户为我们做出来的东西付钱时，我才意识到自己的模型错了。即便到了那个时候，我醒悟过来的速度也慢得令人尴尬。我太执着于自己虚构的世界模型了，而且我已经花了大把时间写软件。他们怎么能不想要呢！"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "2cb5fc8816b8c75bd3eb2ddd71dca71117e5f1626a3001a93c7b5a85630203ae",
+      "enMarkdown": "Why do so many founders build things no one wants? Because they begin by trying to think of startup ideas. That m.o. is doubly dangerous: it doesn't merely yield few good ideas; it yields bad ideas that sound plausible enough to fool you into working on them.",
+      "zhMarkdown": "为什么这么多创始人会做出没人要的东西？因为他们一开始就试图去“想”创业点子。这种做事方式有双重危险：它不仅很难产生好点子，反而会催生出一些听起来似乎可行、从而蒙蔽你付出实践的坏点子。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "39c5cfa9f3d3928a247dcc113a8c1ab9fd8d02708514fefa1508ee59ee60b8e6",
+      "enMarkdown": "At YC we call these \"made-up\" or \"sitcom\" startup ideas. Imagine one of the characters on a TV show was starting a startup. The writers would have to invent something for it to do. But coming up with good startup ideas is hard. It's not something you can do for the asking. So (unless they got amazingly lucky) the writers would come up with an idea that sounded plausible, but was actually bad.",
+      "zhMarkdown": "在 YC，我们称这些为“编出来的”或“情景剧式”的创业点子。想象一下，如果电视剧里的某个角色要开始创业，编剧就得虚构一件事让他们做。但是，想出好的创业点子很难，不是招之即来的。所以（除非他们运气爆棚），编剧编出来的点子往往听起来挺像那么回事，但实际上是个烂点子。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "5895f507a57156990777f7dbf6e14878638eacc940a1866a5b5925ba346fbc83",
+      "enMarkdown": "For example, a social network for pet owners. It doesn't sound obviously mistaken. Millions of people have pets. Often they care a lot about their pets and spend a lot of money on them. Surely many of these people would like a site where they could talk to other pet owners. Not all of them perhaps, but if just 2 or 3 percent were regular visitors, you could have millions of users. You could serve them targeted offers, and maybe charge for premium features. [[1](#f1n)]",
+      "zhMarkdown": "例如，一个面向宠物主人的社交网络。这听起来似乎没毛病。数以百万计的人养宠物，他们往往非常关心宠物，并愿意为之花大钱。这些人肯定会喜欢一个能与其他宠物主人交流的网站。也许不是所有人，但只要有 2% 或 3% 的人成为常客，你就能拥有数百万用户。你可以向他们投放精准广告，甚至可以对高级功能收费。[[1](#f1n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "869d367b4c0502e76a1760c793f181e262026e84ba0c20374825f5c3fe6f389b",
+      "enMarkdown": "The danger of an idea like this is that when you run it by your friends with pets, they don't say \"I would *never* use this.\" They say \"Yeah, maybe I could see using something like that.\" Even when the startup launches, it will sound plausible to a lot of people. They don't want to use it themselves, at least not right now, but they could imagine other people wanting it. Sum that reaction across the entire population, and you have zero users. [[2](#f2n)]",
+      "zhMarkdown": "这类点子的危险之处在于，当你向养宠物的朋友征求意见时，他们不会说“我*绝对*不会用这个”。他们会说“好啊，说不定我会用用看”。甚至当这个创业公司上线时，很多人依然会觉得它挺靠谱。他们自己不想用，至少现在不想，但他们能想象别人可能想要。把这种反应乘以整个人口基数，结果就是：零用户。[[2](#f2n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "7c4116a3378862302875650e416b2ac5369065524a0c14eddd607dab7911d4de",
+      "enMarkdown": "**Well**",
+      "zhMarkdown": "**深度（一口深井）**"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "127800a25221f3fa85557f50a41fb1319752b001b4419995695b40418d6507b4",
+      "enMarkdown": "When a startup launches, there have to be at least some users who really need what they're making — not just people who could see themselves using it one day, but who want it urgently. Usually this initial group of users is small, for the simple reason that if there were something that large numbers of people urgently needed and that could be built with the amount of effort a startup usually puts into a version one, it would probably already exist. Which means you have to compromise on one dimension: you can either build something a large number of people want a small amount, or something a small number of people want a large amount. Choose the latter. Not all ideas of that type are good startup ideas, but nearly all good startup ideas are of that type.",
+      "zhMarkdown": "当一个创业项目发布时，必须至少有一些用户迫切需要他们正在做的东西——不是那些觉得“有朝一日可能用得上”的人，而是现在就急需它的人。通常，这批初始用户群体很小，原因很简单：如果有什么东西是大量人群迫切需要、且靠创业公司开发出 1.0 版本就能解决的，它很可能早就存在了。这意味着你必须在某一个维度上做出妥协：你要么做一件很多人想要一点点的东西，要么做一件少数人非常想要的东西。选择后者。并非所有这类点子都是好的创业点子，但几乎所有好的创业点子都属于这一类。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "77c169aa41a0da4afcf607c83f67c3619c6da8d04fef20a39fe3b13a4a507d6e",
+      "enMarkdown": "Imagine a graph whose x axis represents all the people who might want what you're making and whose y axis represents how much they want it. If you invert the scale on the y axis, you can envision companies as holes. Google is an immense crater: hundreds of millions of people use it, and they need it a lot. A startup just starting out can't expect to excavate that much volume. So you have two choices about the shape of hole you start with. You can either dig a hole that's broad but shallow, or one that's narrow and deep, like a well.",
+      "zhMarkdown": "想象一个坐标图，X 轴代表可能想要你产品的所有人，Y 轴代表他们想要的程度。如果把 Y 轴的刻度倒过来，你可以把公司想象成地面上的坑。谷歌是一个巨大的陨石坑：数亿人在使用它，而且非常需要它。一个刚刚起步的创业公司，不可能指望一下子挖出这么大体量的坑。所以，对于起步时的坑，你面临两种形状的选择：你要么挖一个宽而浅的坑，要么挖一个窄而深的坑，就像一口深井。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "523b3b39c6e39bc561e1987ab558f00b798dc3d9ccb598fa7af9add0fa011dc9",
+      "enMarkdown": "Made-up startup ideas are usually of the first type. Lots of people are mildly interested in a social network for pet owners.",
+      "zhMarkdown": "“编出来的”创业点子通常属于第一种。很多人对宠物主人社交网络有一点点兴趣。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "277052eb0720d3afda340faf1ea3d4589cf2061d4c70a4985d08dba7081714ec",
+      "enMarkdown": "Nearly all good startup ideas are of the second type. Microsoft was a well when they made Altair Basic. There were only a couple thousand Altair owners, but without this software they were programming in machine language. Thirty years later Facebook had the same shape. Their first site was exclusively for Harvard students, of which there are only a few thousand, but those few thousand users wanted it a lot.",
+      "zhMarkdown": "而几乎所有好的创业点子都属于第二种。微软在开发 Altair Basic 时，就像是挖了一口深井。当时只有几千个 Altair 电脑的所有者，但如果没有这个软件，他们就只能用机器语言编程。三十年后，Facebook 也是同样的起步形态。他们的第一个网站专门面向哈佛学生，当时不过几千人，但这几千个用户非常渴望这个产品。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "96248140470aa5a74b3e42326ad3127837fc025bbeb72f91c609e54b49cea40e",
+      "enMarkdown": "When you have an idea for a startup, ask yourself: who wants this right now? Who wants this so much that they'll use it even when it's a crappy version one made by a two-person startup they've never heard of? If you can't answer that, the idea is probably bad. [[3](#f3n)]",
+      "zhMarkdown": "当你有了创业点子时，问问自己：现在谁想要这个？谁想要到这种程度，以至于哪怕它只是一个由两个无名小卒拼凑出来的、烂糟糟的 1.0 版本，他们也愿意去用？如果你回答不了这个问题，这个点子很可能就是个烂点子。[[3](#f3n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "16d01533f48d125678a9c5e92a7869573c6fc91af7b4938f11a646a4662fce10",
+      "enMarkdown": "You don't need the narrowness of the well per se. It's depth you need; you get narrowness as a byproduct of optimizing for depth (and speed). But you almost always do get it. In practice the link between depth and narrowness is so strong that it's a good sign when you know that an idea will appeal strongly to a specific group or type of user.",
+      "zhMarkdown": "你需要的其实不是“窄”本身。你需要的是“深”；“窄”只是你为了追求“深”（以及速度）而产生的副产品。但你几乎总能得到“窄”。在实践中，深度和窄度之间的联系是如此紧密，以至于当你发现一个点子能对某一个特定群体或特定类型的用户产生极大吸引力时，这通常是一个好兆头。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "482389b39a64371c71a81c538125309e4fe9e9a03ef3a8633ed94931a526ee71",
+      "enMarkdown": "But while demand shaped like a well is almost a necessary condition for a good startup idea, it's not a sufficient one. If Mark Zuckerberg had built something that could only ever have appealed to Harvard students, it would not have been a good startup idea. Facebook was a good idea because it started with a small market there was a fast path out of. Colleges are similar enough that if you build a facebook that works at Harvard, it will work at any college. So you spread rapidly through all the colleges. Once you have all the college students, you get everyone else simply by letting them in.",
+      "zhMarkdown": "虽然像深井一样的需求几乎是好创业点子的必要条件，但它并不是充分条件。如果马克·扎克伯格做出的东西只能吸引哈佛学生，那这就不是一个好的创业点子。Facebook 是个好点子，是因为它始于一个可以快速走出去的小市场。大学都大同小异，如果你能做出一个在哈佛行得通的 Facebook，它就能在任何大学行得通。所以你迅速席卷了所有大学。一旦你占领了所有的大学生群体，你只需要向其他人敞开大门，就能把所有人吸引进来。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "5c5170f2485e77aeb4e884be82e41860523e98ca9480c348c9e545a1b0efb574",
+      "enMarkdown": "Similarly for Microsoft: Basic for the Altair; Basic for other machines; other languages besides Basic; operating systems; applications; IPO.",
+      "zhMarkdown": "微软的发展路径也是如此：先是 Altair 上的 Basic；接着是其他机器上的 Basic；然后是 Basic 之外的其他语言；再到操作系统、应用软件，最后 IPO。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "daa6b6c2459af5fa7850e3573a7dc859fae5cdbc00801086bec63200603ec7b7",
+      "enMarkdown": "**Self**",
+      "zhMarkdown": "**自身**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "09773a0366b3a2581797aaf107b4f1a67868b06ce9fe0526a71b763112b9afbe",
+      "enMarkdown": "How do you tell whether there's a path out of an idea? How do you tell whether something is the germ of a giant company, or just a niche product? Often you can't. The founders of Airbnb didn't realize at first how big a market they were tapping. Initially they had a much narrower idea. They were going to let hosts rent out space on their floors during conventions. They didn't foresee the expansion of this idea; it forced itself upon them gradually. All they knew at first is that they were onto something. That's probably as much as Bill Gates or Mark Zuckerberg knew at first.",
+      "zhMarkdown": "如何判断一个点子有没有向外扩张的路径？如何判断一件事是一个巨型公司的萌芽，还仅仅是一个小众产品？通常你无法预知。Airbnb 的创始人起初并没有意识到他们正在开拓一个多大的市场。最初他们的想法要窄得多。他们只是打算在开会期间，让房东把地板空间出租出去。他们没有预见到这个点子后来的扩张；它是逐渐自我演变出来的。起初他们唯一知道的，就是自己正在做一件有苗头的事。这大概和比尔·盖茨或马克·扎克伯格刚起步时知道的一样多。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "9d71bc826b47fd6c1b837370a2cf45cae24a1e04100729338a5cbc2101f5c91d",
+      "enMarkdown": "Occasionally it's obvious from the beginning when there's a path out of the initial niche. And sometimes I can see a path that's not immediately obvious; that's one of our specialties at YC. But there are limits to how well this can be done, no matter how much experience you have. The most important thing to understand about paths out of the initial idea is the meta-fact that these are hard to see.",
+      "zhMarkdown": "偶尔，从最初的小众市场走出来的路径是一目了然的。有时我也能看到一条不那么显而易见的路径，这也是我们在 YC 的强项之一。但无论你有多丰富的经验，这种预测能力都是有极限的。关于从最初点子延伸出来的路径，最重要的一点认识是：这些路径通常极难被预见。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "fb093a25219ab6adbcd8e93876aeb1c4bb2b5ade96960ebe88d52b25ffa8bb7c",
+      "enMarkdown": "So if you can't predict whether there's a path out of an idea, how do you choose between ideas? The truth is disappointing but interesting: if you're the right sort of person, you have the right sort of hunches. If you're at the leading edge of a field that's changing fast, when you have a hunch that something is worth doing, you're more likely to be right.",
+      "zhMarkdown": "既然你无法预测一个点子是否有延伸的路径，那你该如何在不同点子之间做选择？事实虽令人有些失望，但很有意思：如果你是合适的那类人，你就会有合适的直觉。如果你处于一个快速变化领域的行业前沿，当你直觉认为某件事值得做时，你对的概率会更高。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "7ad5aa8a6bd5f93bd436c9917c76f3b963d640ecf8e42e8731f6769a7ae8e720",
+      "enMarkdown": "In *Zen and the Art of Motorcycle Maintenance*, Robert Pirsig says:",
+      "zhMarkdown": "在《禅与摩托车维修艺术》中，罗伯特·皮尔西格写道："
+    },
+    {
+      "id": 24,
+      "type": "quote",
+      "sourceHash": "81bcf8007402f86c21cd14141418abf3fae36c4687708f95d6bd6489e70e0e79",
+      "enMarkdown": "> You want to know how to paint a perfect painting? It's easy. Make yourself perfect and then just paint naturally.",
+      "zhMarkdown": "> 想知道如何画出一幅完美的画吗？很简单。让自己变得完美，然后自然地去画。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "419efba6a228c1d4a47eaa1d95668e8ec1e8870aba8876b980a71845a037be58",
+      "enMarkdown": "I've wondered about that passage since I read it in high school. I'm not sure how useful his advice is for painting specifically, but it fits this situation well. Empirically, the way to have good startup ideas is to become the sort of person who has them.",
+      "zhMarkdown": "自从高中读到这段话以来，我一直在思考它。我不确定他的建议对画画有多大用处，但它非常契合创业的情况。从经验来看，获得好创业点子的方法是：让自己成为能产生这些点子的那类人。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e30162138a7de55d6a4f020cd386d7345969e580194291a4d05373ce72287802",
+      "enMarkdown": "Being at the leading edge of a field doesn't mean you have to be one of the people pushing it forward. You can also be at the leading edge as a user. It was not so much because he was a programmer that Facebook seemed a good idea to Mark Zuckerberg as because he used computers so much. If you'd asked most 40 year olds in 2004 whether they'd like to publish their lives semi-publicly on the Internet, they'd have been horrified at the idea. But Mark already lived online; to him it seemed natural.",
+      "zhMarkdown": "处于一个领域的前沿，并不意味着你必须是推动该领域向前发展的科研人员。你也可以作为用户站在最前沿。马克·扎克伯格之所以觉得 Facebook 是个好主意，并不单单因为他是程序员，更因为他极度重度地使用电脑。如果在 2004 年问大多数 40 岁的人，他们是否愿意把自己的生活半公开地发布到互联网上，他们会被这个想法吓坏。但马克已经生活在网上了，对他来说，这再自然不过了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "94ce82ff66569c27b1744aa6b340b6b850d989b1886d77b6a5b5acbdfa9e33f4",
+      "enMarkdown": "Paul Buchheit says that people at the leading edge of a rapidly changing field \"live in the future.\" Combine that with Pirsig and you get:",
+      "zhMarkdown": "Paul Buchheit 曾说，处于快速变化领域前沿的人“生活在未来”。结合皮尔西格的话，你会得到："
+    },
+    {
+      "id": 28,
+      "type": "quote",
+      "sourceHash": "be560042590ce88071751843b6fc26d060b6e6838aa7c98f3a28baf1e8905e05",
+      "enMarkdown": "> Live in the future, then build what's missing.",
+      "zhMarkdown": "> 生活在未来，然后把缺的东西做出来。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "d03a585a97b55c5352282f7b7002d77715e06eb6b694c864bf32ca141db09d34",
+      "enMarkdown": "That describes the way many if not most of the biggest startups got started. Neither Apple nor Yahoo nor Google nor Facebook were even supposed to be companies at first. They grew out of things their founders built because there seemed a gap in the world.",
+      "zhMarkdown": "这描绘了许多（如果不是大多数）最庞大的创业公司的起步方式。苹果、雅虎、谷歌和 Facebook 最初甚至都不打算成为公司。它们只是源于创始人自己做的一些东西，因为他们觉得这个世界上缺少了这些东西。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "c1e747671d77267b35310d9697b40d81fa315cb81b65514ac0490482ebccb689",
+      "enMarkdown": "If you look at the way successful founders have had their ideas, it's generally the result of some external stimulus hitting a prepared mind. Bill Gates and Paul Allen hear about the Altair and think \"I bet we could write a Basic interpreter for it.\" Drew Houston realizes he's forgotten his USB stick and thinks \"I really need to make my files live online.\" Lots of people heard about the Altair. Lots forgot USB sticks. The reason those stimuli caused those founders to start companies was that their experiences had prepared them to notice the opportunities they represented.",
+      "zhMarkdown": "如果你观察成功创始人获取点子的方式，通常会发现这是外部刺激撞击一个“有准备的大脑”的结果。比尔·盖茨和保罗·艾伦听说 Altair 电脑后，心想：“我敢说我们能为它写一个 Basic 解释器。” 德鲁·休斯顿意识到自己忘了带 U 盘，心想：“我真的需要把文件放到网上。” 很多人都听说过 Altair，很多人也忘带过 U 盘。这些刺激之所以能促使这些创始人创办公司，是因为他们的过往经历已经让他们做好了准备，能够敏锐地捕捉到这些刺激所代表的机会。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "bd95536d61c34d3fd4945903cbfebcad2873dda9b36896ae81dad6ca15444a8f",
+      "enMarkdown": "The verb you want to be using with respect to startup ideas is not \"think up\" but \"notice.\" At YC we call ideas that grow naturally out of the founders' own experiences \"organic\" startup ideas. The most successful startups almost all begin this way.",
+      "zhMarkdown": "对待创业点子，你该用的动词不是“想出”，而是“注意到”。在 YC，我们把那些从创始人自身经历中自然生长出来的点子称为“有机”创业点子。最成功的创业公司几乎都是这样开始的。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "c7cf6b4749f17aa097823bcf761cba8d62c0e46f2c17b3bd0b7780e7a7d09308",
+      "enMarkdown": "That may not have been what you wanted to hear. You may have expected recipes for coming up with startup ideas, and instead I'm telling you that the key is to have a mind that's prepared in the right way. But disappointing though it may be, this is the truth. And it is a recipe of a sort, just one that in the worst case takes a year rather than a weekend.",
+      "zhMarkdown": "这可能不是你想听到的答案。你可能期望得到一套构思创业点子的万能公式，而我却告诉你，关键在于让自己的大脑做好正确准备。这虽然令人失望，但却是事实。而且这其实也是一种公式，只不过在最坏的情况下，它需要一年的准备时间，而不是一个周末的脑暴。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "40d74ab4310df5fbfe1b59015d0d74f5303e0f48e9101f32fac265651e242c73",
+      "enMarkdown": "If you're not at the leading edge of some rapidly changing field, you can get to one. For example, anyone reasonably smart can probably get to an edge of programming (e.g. building mobile apps) in a year. Since a successful startup will consume at least 3-5 years of your life, a year's preparation would be a reasonable investment. Especially if you're also looking for a cofounder. [[4](#f4n)]",
+      "zhMarkdown": "如果你现在还没有处于某个快速变化领域的前沿，你可以设法走过去。例如，任何智商尚可的人，大概花一年的时间就能走到编程的前沿（比如开发移动应用）。既然一个成功的创业项目会消耗你生命中至少 3 到 5 年的时间，那么一年的准备时间是一笔合理的投资。特别是当你还在寻找合伙人的时候。[[4](#f4n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "ce4128f4cacc8ba9e66b60a46036862a1c5e2af1f5dc7ee885e3af0193e4ddaf",
+      "enMarkdown": "You don't have to learn programming to be at the leading edge of a domain that's changing fast. Other domains change fast. But while learning to hack is not necessary, it is for the foreseeable future sufficient. As Marc Andreessen put it, software is eating the world, and this trend has decades left to run.",
+      "zhMarkdown": "你并不一定要通过学习编程来进入一个快速变化领域的前沿，其他领域也在快速变化。但是，虽然学会写代码不是必须的，但在可预见的未来，它是一个充分条件。正如马克·安德森所说，软件正在吞噬世界，这一趋势还将持续几十年。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "204a285806d36ac69477d0a9edfb6cec1f70fd3d59fcc0fbeedd7683bd434ad1",
+      "enMarkdown": "Knowing how to hack also means that when you have ideas, you'll be able to implement them. That's not absolutely necessary (Jeff Bezos couldn't) but it's an advantage. It's a big advantage, when you're considering an idea like putting a college facebook online, if instead of merely thinking \"That's an interesting idea,\" you can think instead \"That's an interesting idea. I'll try building an initial version tonight.\" It's even better when you're both a programmer and the target user, because then the cycle of generating new versions and testing them on users can happen inside one head.",
+      "zhMarkdown": "懂得写代码还意味着，当你有了想法，你能够亲手实现它。这虽然不是绝对必要的（杰夫·贝佐斯就不会写代码），但它是一个优势。当你考虑像把大学花名册搬到网上这样的点子时，如果你不只是心想“这想法挺有意思”，而是能想“这想法挺有意思，我今晚就试着写个初始版本”，这就是一个巨大的优势。如果你既是程序员又是目标用户，那就更棒了，因为迭代新版本和在用户身上测试的循环，完全可以在一个人的脑子里完成。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "318412361c75e43ad1ff27b3013a4428bdd1b9f985000ea154f864f0ee1985f2",
+      "enMarkdown": "**Noticing**",
+      "zhMarkdown": "**注意到**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "180ebf44c8b312d0d26746e9f14eec39b515bcc0e2224db59db4e3a1fe3f2115",
+      "enMarkdown": "Once you're living in the future in some respect, the way to notice startup ideas is to look for things that seem to be missing. If you're really at the leading edge of a rapidly changing field, there will be things that are obviously missing. What won't be obvious is that they're startup ideas. So if you want to find startup ideas, don't merely turn on the filter \"What's missing?\" Also turn off every other filter, particularly \"Could this be a big company?\" There's plenty of time to apply that test later. But if you're thinking about that initially, it may not only filter out lots of good ideas, but also cause you to focus on bad ones.",
+      "zhMarkdown": "一旦你在某种程度上生活在未来，注意到创业点子的方法就是去寻找那些“似乎缺了的东西”。如果你真的处于一个快速变化领域的前沿，你会发现有些东西明显是缺失的。不明显的反而是“这些缺失的东西其实可以成为创业项目”。所以，如果你想寻找创业点子，不要只开启“缺了什么？”这个过滤器，同时还要关掉所有其他过滤器，特别是“这能做成一家大公司吗？”。这个测试完全可以留到以后去做。如果你一开始就考虑这个问题，不仅会过滤掉很多好点子，还会让你把注意力集中在烂点子上。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "c4b5c112c8f4bfc790b05d832ae1ea5ca9087430295775819d93bd1929310179",
+      "enMarkdown": "Most things that are missing will take some time to see. You almost have to trick yourself into seeing the ideas around you.",
+      "zhMarkdown": "大多数缺失的东西需要时间才能被看清。你几乎得哄骗自己，才能看到身边的这些点子。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "fba6af1eaee5978f27f4e18a2929e2842f1d7d3dbf7523580a4c8d96fbda9a95",
+      "enMarkdown": "But you *know* the ideas are out there. This is not one of those problems where there might not be an answer. It's impossibly unlikely that this is the exact moment when technological progress stops. You can be sure people are going to build things in the next few years that will make you think \"What did I do before x?\"",
+      "zhMarkdown": "但你*知道*这些点子就在那里。这不像那些可能根本没有答案的难题。技术进步绝不可能恰好在这一刻停滞不前。你可以确信，人们在未来几年里做出的东西，会让你忍不住想：“在有这个东西之前，我是怎么过的？”"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "b4c2df4bd14b34d4687395193aa285faf10599ea74ffdaabd5a153ec8880a32a",
+      "enMarkdown": "And when these problems get solved, they will probably seem flamingly obvious in retrospect. What you need to do is turn off the filters that usually prevent you from seeing them. The most powerful is simply taking the current state of the world for granted. Even the most radically open-minded of us mostly do that. You couldn't get from your bed to the front door if you stopped to question everything.",
+      "zhMarkdown": "当这些问题被解决后，回过头来看往往会显得极其显而易见。你需要做的是关掉那些平时阻碍你看到它们的过滤器。其中最强大的过滤器，就是把世界的现状视为理所当然。哪怕是思想最开放的人，也大多如此。如果你起步时对一切都抱有疑问，你甚至无法从床上走到大门口。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "4c60e53a908b41186421c9d7396afcb0403886e40179464bc815a971746da437",
+      "enMarkdown": "But if you're looking for startup ideas you can sacrifice some of the efficiency of taking the status quo for granted and start to question things. Why is your inbox overflowing? Because you get a lot of email, or because it's hard to get email out of your inbox? Why do you get so much email? What problems are people trying to solve by sending you email? Are there better ways to solve them? And why is it hard to get emails out of your inbox? Why do you keep emails around after you've read them? Is an inbox the optimal tool for that?",
+      "zhMarkdown": "但如果你正在寻找创业点子，你可以牺牲掉一部分“视现状为理所当然”带来的生活效率，开始对事物提出质疑。为什么你的收件箱总是爆满？是因为你收到的邮件太多，还是因为很难把邮件处理完移出收件箱？你为什么会收到这么多邮件？人们给你发邮件是为了解决什么问题？有没有更好的方法来解决这些问题？为什么把邮件移出收件箱这么难？你读完邮件后为什么还要留着它们？收件箱是存储这些邮件的最佳工具吗？"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "8c500facc86708b19b4fb4f2e0242601981c7264b61c678f15db0eb19cd10442",
+      "enMarkdown": "Pay particular attention to things that chafe you. The advantage of taking the status quo for granted is not just that it makes life (locally) more efficient, but also that it makes life more tolerable. If you knew about all the things we'll get in the next 50 years but don't have yet, you'd find present day life pretty constraining, just as someone from the present would if they were sent back 50 years in a time machine. When something annoys you, it could be because you're living in the future.",
+      "zhMarkdown": "特别要注意那些让你感到摩擦和痛苦的事情。视现状为理所当然的好处，不仅在于它让（局部的）生活更有效率，还在于它让生活更容易忍受。如果你知道未来 50 年我们会拥有、但现在还没有的所有东西，你会觉得当下的生活相当受限，就像一个现代人坐时光机回到 50 年前一样。当某件事让你恼火时，可能正是因为你已经生活在未来了。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "c8f3296246d6d6aac2f4dc259915147f2a26b27bbe9a550d81baec9ce16aefa6",
+      "enMarkdown": "When you find the right sort of problem, you should probably be able to describe it as *obvious*, at least to you. When we started Viaweb, all the online stores were built by hand, by web designers making individual HTML pages. It was obvious to us as programmers that these sites would have to be generated by software. [[5](#f5n)]",
+      "zhMarkdown": "当你找到合适的问题时，你应该能够用“显而易见”来形容它，至少对你来说是这样。当我们创办 Viaweb 时，所有的网上商店都是由网页设计师手动制作单个 HTML 页面来构建的。作为程序员，我们觉得显而易见的是，这些网站必须要由软件自动生成。[[5](#f5n)]"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "fb92220711b1f4f887dc942b52369e8b5d06ccb8df6eda380b046d7959015e6e",
+      "enMarkdown": "Which means, strangely enough, that coming up with startup ideas is a question of seeing the obvious. That suggests how weird this process is: you're trying to see things that are obvious, and yet that you hadn't seen.",
+      "zhMarkdown": "这意味着，说来也怪，想出创业点子其实是一个“发现显而易见之物”的过程。这也说明了这个过程有多奇妙：你试图去看见那些显而易见、却又尚未被你看见的东西。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "905a17a9c466a2c1d661d6506b8198c15f260a45a17a478c065ae28ca45c1fc7",
+      "enMarkdown": "Since what you need to do here is loosen up your own mind, it may be best not to make too much of a direct frontal attack on the problem — i.e. to sit down and try to think of ideas. The best plan may be just to keep a background process running, looking for things that seem to be missing. Work on hard problems, driven mainly by curiosity, but have a second self watching over your shoulder, taking note of gaps and anomalies. [[6](#f6n)]",
+      "zhMarkdown": "既然你需要做的是放松自己的大脑，那么最好不要对这个问题发起太直接的正面强攻——也就是坐下来干想点子。最好的计划可能只是保持一个后台进程在运行，去寻找那些似乎缺失的东西。在好奇心的驱使下解决难题，但让另一个自我从旁观察，记录下不协调和缺失之处。[[6](#f6n)]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "6f29c59fd53cd38d9e6f17432cd35ec0da0c6df053d83fa12616f321a1f796d4",
+      "enMarkdown": "Give yourself some time. You have a lot of control over the rate at which you turn yours into a prepared mind, but you have less control over the stimuli that spark ideas when they hit it. If Bill Gates and Paul Allen had constrained themselves to come up with a startup idea in one month, what if they'd chosen a month before the Altair appeared? They probably would have worked on a less promising idea. Drew Houston did work on a less promising idea before Dropbox: an SAT prep startup. But Dropbox was a much better idea, both in the absolute sense and also as a match for his skills. [[7](#f7n)]",
+      "zhMarkdown": "给自己一点时间。你对“训练自己的大脑做好准备”的进度有很大的控制力，但当外部刺激撞击大脑并迸发出灵感时，你对这些刺激的控制力就小得多了。如果比尔·盖茨和保罗·艾伦限制自己必须在一个月内想出一个创业点子，而他们恰好选在 Altair 出现前的一个月呢？他们很可能会去折腾一个没那么有前景的点子。德鲁·休斯顿在创办 Dropbox 之前，也曾做过一个没那么有前景的项目：一个针对 SAT 备考的创业公司。但无论从绝对意义还是从与他个人能力的匹配度来看，Dropbox 都是一个好得多的点子。[[7](#f7n)]"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "223521cd00dc260b62d9ccdb940bece0b75bd2f79e3ad96bc73d7ab63d3842ea",
+      "enMarkdown": "A good way to trick yourself into noticing ideas is to work on projects that seem like they'd be cool. If you do that, you'll naturally tend to build things that are missing. It wouldn't seem as interesting to build something that already existed.",
+      "zhMarkdown": "一个哄骗自己注意到好点子的好方法，是去做一些看起来很酷的项目。如果你这么做，你自然会倾向于去构建那些缺失的东西。构建一个已经存在的东西是不会让人觉得有趣的。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "939939f7a8d249127301725159e486b0144aec12f891e125a41f19d45aed854e",
+      "enMarkdown": "Just as trying to think up startup ideas tends to produce bad ones, working on things that could be dismissed as \"toys\" often produces good ones. When something is described as a toy, that means it has everything an idea needs except being important. It's cool; users love it; it just doesn't matter. But if you're living in the future and you build something cool that users love, it may matter more than outsiders think. Microcomputers seemed like toys when Apple and Microsoft started working on them. I'm old enough to remember that era; the usual term for people with their own microcomputers was \"hobbyists.\" BackRub seemed like an inconsequential science project. The Facebook was just a way for undergrads to stalk one another.",
+      "zhMarkdown": "就像刻意“想”创业点子往往会产生烂点子一样，去做一些可能会被斥为“玩具”的东西，往往会产生好点子。当一个东西被称为“玩具”时，意味着它具备了一个好点子所需的一切要素，唯独缺了“重要性”。它很酷，用户很喜欢，但它似乎无足轻重。但是，如果你生活在未来，并且做出了一个用户喜欢的酷东西，它的重要性可能会超出局外人的想象。在苹果和微软刚开始折腾微型计算机时，它们看起来就像是玩具。我年纪够大，还记得那个时代，拥有自己微型计算机的人通常被称为“业余爱好者（hobbyists）”。BackRub（谷歌的前身）曾被看作一个无关紧要的科研项目。The Facebook 最初也不过是大学生互相窥探彼此的一种方式。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "7cdb447e1091dd497465bd61101ed3c1187689624dd4290bb59c154bb911a148",
+      "enMarkdown": "At YC we're excited when we meet startups working on things that we could imagine know-it-alls on forums dismissing as toys. To us that's positive evidence an idea is good.",
+      "zhMarkdown": "在 YC，当我们遇到一些创业公司正在做一些论坛上自以为是的人会斥为“玩具”的东西时，我们会感到非常兴奋。对我们来说，这是证明一个点子是好点子的积极证据。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "ccf3c1e60472ddadc1df3f82374b0200c12a204ca097b6ff5115381d9b1ba359",
+      "enMarkdown": "If you can afford to take a long view (and arguably you can't afford not to), you can turn \"Live in the future and build what's missing\" into something even better:",
+      "zhMarkdown": "如果你能把眼光放长远（实际上你也必须放长远），你可以把“生活在未来，并把缺的东西做出来”升级为更棒的一句话："
+    },
+    {
+      "id": 51,
+      "type": "quote",
+      "sourceHash": "fbf54d99338d971ae431324d3e7cc05d9f099640b0fcb8eb3871736dbb2ce093",
+      "enMarkdown": "> Live in the future and build what seems interesting.",
+      "zhMarkdown": "> 生活在未来，然后做出你觉得有趣的东西。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "4b0cb1c40833ff7943b8e15c1343ece76a9f29df02aa80c741e7bf2d9bd731e6",
+      "enMarkdown": "**School**",
+      "zhMarkdown": "**学校**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "decf571d97904daef19177ba4d49c8e2fe45940a397a4be14aa1e421943b6560",
+      "enMarkdown": "That's what I'd advise college students to do, rather than trying to learn about \"entrepreneurship.\" \"Entrepreneurship\" is something you learn best by doing it. The examples of the most successful founders make that clear. What you should be spending your time on in college is ratcheting yourself into the future. College is an incomparable opportunity to do that. What a waste to sacrifice an opportunity to solve the hard part of starting a startup — becoming the sort of person who can have organic startup ideas — by spending time learning about the easy part. Especially since you won't even really learn about it, any more than you'd learn about sex in a class. All you'll learn is the words for things.",
+      "zhMarkdown": "这也是我会给大学生的建议，而不是让他们去学什么“创业学”。“创业学”这种东西，你只有在实战中才能学得最好。那些最成功的创始人的例子已经说得很清楚了。在大学里，你最应该把时间花在把自己推向未来上。大学是做这件事无与伦比的机会。如果为了学习那些容易的部分，而浪费了解决创业中最难部分的机会——即成为能产生有机创业点子的那类人——那将是极大的浪费。尤其是因为你根本无法在课堂上真正学会创业，就像你无法在课堂上学会性爱一样。你学到的不过是些名词概念罢了。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "8888631828a2c00f342cfc489c7c23f086099d5ab1f008135178f6fae8604539",
+      "enMarkdown": "The clash of domains is a particularly fruitful source of ideas. If you know a lot about programming and you start learning about some other field, you'll probably see problems that software could solve. In fact, you're doubly likely to find good problems in another domain: (a) the inhabitants of that domain are not as likely as software people to have already solved their problems with software, and (b) since you come into the new domain totally ignorant, you don't even know what the status quo is to take it for granted.",
+      "zhMarkdown": "不同领域的碰撞是一个特别多产的灵感源泉。如果你非常懂编程，然后开始了解其他领域，你很可能会看到软件可以解决的问题。事实上，你加倍容易在其他领域找到好问题，原因有两点：（a）该领域的从业人员不像软件行业的人那样，能够熟练地用软件来解决他们的问题；（b）由于你作为一个完全的门外汉进入这个新领域，你甚至不知道现状是什么，因此不会把它视为理所当然。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "e95e89dfc426f04200894e6e3dd6812ab3787c506c3da300b3d7359b47611c59",
+      "enMarkdown": "So if you're a CS major and you want to start a startup, instead of taking a class on entrepreneurship you're better off taking a class on, say, genetics. Or better still, go work for a biotech company. CS majors normally get summer jobs at computer hardware or software companies. But if you want to find startup ideas, you might do better to get a summer job in some unrelated field. [[8](#f8n)]",
+      "zhMarkdown": "所以，如果你是一个计算机专业的学生并想创业，与其去上创业课，不如去上一门比如遗传学的课。或者更好的是，去一家生物技术公司工作。计算机专业的学生暑期通常会去硬件或软件公司实习。但如果你想寻找创业点子，去一些无关的领域打暑期工可能会有更好的收获。[[8](#f8n)]"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "4113873aa3529add2673321882ceeb38770f2fa4602cc2b3e39c6c4867850506",
+      "enMarkdown": "Or don't take any extra classes, and just build things. It's no coincidence that Microsoft and Facebook both got started in January. At Harvard that is (or was) Reading Period, when students have no classes to attend because they're supposed to be studying for finals. [[9](#f9n)]",
+      "zhMarkdown": "或者干脆别上任何额外的课，动手做点东西。微软和 Facebook 都是在 1 月份起步的，这并非巧合。在哈佛，那时候是（或曾是）“备考期（Reading Period）”，学生们不用上课，因为他们应该在为期末考试复习。[[9](#f9n)]"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "bce5caec396d18f49da1524b24455399ccaff6b41dd0c7233daaca7f0378bfab",
+      "enMarkdown": "But don't feel like you have to build things that will become startups. That's premature optimization. Just build things. Preferably with other students. It's not just the classes that make a university such a good place to crank oneself into the future. You're also surrounded by other people trying to do the same thing. If you work together with them on projects, you'll end up producing not just organic ideas, but organic ideas with organic founding teams — and that, empirically, is the best combination.",
+      "zhMarkdown": "但不要觉得你必须做出能成为创业公司的东西。那是过早优化。只管动手做东西，最好和别的学生一起。大学之所以是把自己推向未来的极佳场所，不仅在于课程，还因为你身边围绕着其他试图做同样事情的人。如果你和他们一起做项目，你最终不仅能产生有机的点子，还会产生有机的创始人团队——从经验来看，这是最完美的组合。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "4061bb7e2073805c23218b3427575cede72b709b4e691214d96f3c87ffbdca9e",
+      "enMarkdown": "Beware of research. If an undergrad writes something all his friends start using, it's quite likely to represent a good startup idea. Whereas a PhD dissertation is extremely unlikely to. For some reason, the more a project has to count as research, the less likely it is to be something that could be turned into a startup. [[10](#f10n)] I think the reason is that the subset of ideas that count as research is so narrow that it's unlikely that a project that satisfied that constraint would also satisfy the orthogonal constraint of solving users' problems. Whereas when students (or professors) build something as a side-project, they automatically gravitate toward solving users' problems — perhaps even with an additional energy that comes from being freed from the constraints of research.",
+      "zhMarkdown": "警惕学术研究。如果一个本科生写了一个他所有朋友都开始用的东西，这极有可能代表了一个好的创业点子。而博士论文则极不可能。出于某种原因，一个项目越是被归为学术研究，它就越不可能转化为创业公司。[[10](#f10n)] 我想原因在于，算作学术研究的点子子集太窄了，一个满足这一限制的项目很难同时满足“解决用户问题”这一正交的限制。而当学生（或教授）把某件事当作副业项目来做时，他们会自动倾向于解决用户的问题——甚至因为摆脱了学术研究的束缚，而带有一种额外的干劲。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "9c4c1e272053c11c6b1279c0e4574e2df47108bfe4df74d479d03e71d33247d2",
+      "enMarkdown": "**Competition**",
+      "zhMarkdown": "**竞争**"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "6906d71738226faf224f5a16d86626af6331043a4d4821f39ec18f06ee18ca43",
+      "enMarkdown": "Because a good idea should seem obvious, when you have one you'll tend to feel that you're late. Don't let that deter you. Worrying that you're late is one of the signs of a good idea. Ten minutes of searching the web will usually settle the question. Even if you find someone else working on the same thing, you're probably not too late. It's exceptionally rare for startups to be killed by competitors — so rare that you can almost discount the possibility. So unless you discover a competitor with the sort of lock-in that would prevent users from choosing you, don't discard the idea.",
+      "zhMarkdown": "因为一个好点子应该看起来是显而易见的，所以当你有了这样的点子时，你往往会觉得自己来晚了。别让这种感觉阻碍了你。担心自己来晚了，往往是好点子的特征之一。通常花十分钟在网上搜一下就能解决这个问题。即使你发现别人也在做同样的事情，你很可能也没有太迟。创业公司被竞争对手干掉的情况极其罕见——罕见到你几乎可以忽略这种可能性。所以，除非你发现竞争对手拥有一种能阻止用户选择你的锁定机制（lock-in），否则不要放弃这个点子。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "06243017d361068f231a1d5d727ac51de828fbdc1c8d7bf95969a5e5e263b7a0",
+      "enMarkdown": "If you're uncertain, ask users. The question of whether you're too late is subsumed by the question of whether anyone urgently needs what you plan to make. If you have something that no competitor does and that some subset of users urgently need, you have a beachhead. [[11](#f11n)]",
+      "zhMarkdown": "如果你不确定，去问用户。你是否太迟的问题，可以归结为是否有人迫切需要你计划做的事情。如果你拥有竞争对手没有、且某一部分用户迫切需要的东西，你就拥有了立足点（beachhead）。[[11](#f11n)]"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "a2b4a550bce8214ea52b16918d040ae3b4d0e1b87297a315ae4a99ef87449ce4",
+      "enMarkdown": "The question then is whether that beachhead is big enough. Or more importantly, who's in it: if the beachhead consists of people doing something lots more people will be doing in the future, then it's probably big enough no matter how small it is. For example, if you're building something differentiated from competitors by the fact that it works on phones, but it only works on the newest phones, that's probably a big enough beachhead.",
+      "zhMarkdown": "接下来的问题就是这个立足点是否足够大。更重要的是，谁在这个立足点里：如果立足点里的用户正在做的事情，是未来更多人也会做的事情，那么无论它现在有多小，它可能都足够大。例如，如果你做了一个因能在手机上运行而与竞争对手产生差异化的产品，但它只能在最新款的手机上运行，这大概就是一个足够大的立足点。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "e43fbc6c77811ecde2326697ef2b04a3b6ce413244cfc17b9ddb92543f161b85",
+      "enMarkdown": "Err on the side of doing things where you'll face competitors. Inexperienced founders usually give competitors more credit than they deserve. Whether you succeed depends far more on you than on your competitors. So better a good idea with competitors than a bad one without.",
+      "zhMarkdown": "在选择项目时，宁可选择要面对竞争对手的事情。没有经验的创始人往往把竞争对手高估了。你是否成功，取决于你自己的程度远超取决于对手的程度。所以，宁要一个有竞争对手的好点子，也不要一个没有竞争对手的烂点子。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "1dbdddc90a23990327b1979ae9165f0aa315f58872281b48c519eb5071003fb4",
+      "enMarkdown": "You don't need to worry about entering a \"crowded market\" so long as you have a thesis about what everyone else in it is overlooking. In fact that's a very promising starting point. Google was that type of idea. Your thesis has to be more precise than \"we're going to make an x that doesn't suck\" though. You have to be able to phrase it in terms of something the incumbents are overlooking. Best of all is when you can say that they didn't have the courage of their convictions, and that your plan is what they'd have done if they'd followed through on their own insights. Google was that type of idea too. The search engines that preceded them shied away from the most radical implications of what they were doing — particularly that the better a job they did, the faster users would leave.",
+      "zhMarkdown": "你不需要担心进入一个“拥挤的市场”，只要你对其他人忽略了什么有自己的论点。事实上，这是一个非常好的起点。谷歌就是这种类型的点子。不过，你的论点必须比“我们要做一个不烂的 X”更精确。你必须能够用现有巨头所忽视的东西来表述它。最棒的是，你可以说他们缺乏对自己信念的坚持，而你的计划正是如果他们贯彻自己的洞察就会做的事情。谷歌也是这种类型的点子。在他们之前的搜索引擎，回避了他们所做事情的最激进影响——特别是他们做得越好，用户离开得就越快。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "af8b48e703091581977c9bc9ba8045a12739ec9c8347f1d7990d8d261a8304dd",
+      "enMarkdown": "A crowded market is actually a good sign, because it means both that there's demand and that none of the existing solutions are good enough. A startup can't hope to enter a market that's obviously big and yet in which they have no competitors. So any startup that succeeds is either going to be entering a market with existing competitors, but armed with some secret weapon that will get them all the users (like Google), or entering a market that looks small but which will turn out to be big (like Microsoft). [[12](#f12n)]",
+      "zhMarkdown": "一个拥挤的市场实际上是一个好兆头，因为这意味着既有需求，也意味着现有的解决方案都不够好。一个创业公司不可能指望进入一个显然很大、却又没有任何竞争对手的市场。因此，任何成功的创业公司，要么是在进入一个有现有竞争对手的市场，但配备了能把用户抢过来的某种秘密武器（如谷歌）；要么是在进入一个看起来很小、但实际上会变大的市场（如微软）。[[12](#f12n)]"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "5ef77d6a40e9c848ba3831228ab0b94134e9912fdbadd63b91534407f221a738",
+      "enMarkdown": "**Filters**",
+      "zhMarkdown": "**过滤器**"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "8bdfc9c34a7b5d003d0076f1fbe2dc86c2d65acf01b86829e7ba85fa653bec36",
+      "enMarkdown": "There are two more filters you'll need to turn off if you want to notice startup ideas: the unsexy filter and the schlep filter.",
+      "zhMarkdown": "如果你想注意到创业点子，你还需要关掉另外两个过滤器：不性感过滤器和脏活累活（schlep）过滤器。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "3f93989f044a84f314c74b2bce5c6ed08b06fd36cfa22db8133399255a37280b",
+      "enMarkdown": "Most programmers wish they could start a startup by just writing some brilliant code, pushing it to a server, and having users pay them lots of money. They'd prefer not to deal with tedious problems or get involved in messy ways with the real world. Which is a reasonable preference, because such things slow you down. But this preference is so widespread that the space of convenient startup ideas has been stripped pretty clean. If you let your mind wander a few blocks down the street to the messy, tedious ideas, you'll find valuable ones just sitting there waiting to be implemented.",
+      "zhMarkdown": "大多数程序员都希望只需写出一些精妙的代码，上传到服务器，就能让用户付给他们大笔的钱，以此来启动一家创业公司。他们不希望去处理繁琐的问题，也不想以混乱的方式介入现实世界。这是一个合理的偏好，因为这些事情会拖慢你的速度。但这种偏好是如此普遍，以至于“省心”的创业点子空间已经被清理得相当干净了。如果你让自己的思绪沿着街道走两个街区，去看看那些混乱、繁琐的点子，你会发现有价值的点子就摆在那里，正等着被实现。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "494507ac765a236e3a9280d3b713b5f35a095205314fb30add1221d28a6fa04a",
+      "enMarkdown": "The schlep filter is so dangerous that I wrote a separate essay about the condition it induces, which I called [schlep blindness](https://paulgraham.com/schlep.html). I gave Stripe as an example of a startup that benefited from turning off this filter, and a pretty striking example it is. Thousands of programmers were in a position to see this idea; thousands of programmers knew how painful it was to process payments before Stripe. But when they looked for startup ideas they didn't see this one, because unconsciously they shrank from having to deal with payments. And dealing with payments is a schlep for Stripe, but not an intolerable one. In fact they might have had net less pain; because the fear of dealing with payments kept most people away from this idea, Stripe has had comparatively smooth sailing in other areas that are sometimes painful, like user acquisition. They didn't have to try very hard to make themselves heard by users, because users were desperately waiting for what they were building.",
+      "zhMarkdown": "脏活累活过滤器是如此危险，以至于我专门写了一篇文章来讨论它所诱发的症状，我称之为[脏活盲区](https://paulgraham.com/schlep.html)。我拿 Stripe 举例，说明它是一家受益于关掉这个过滤器的创业公司，这是一个非常震撼的例子。成千上万的程序员都有机会看到这个点子；成千上万的程序员在 Stripe 出现前都知道处理支付有多痛苦。但当他们寻找创业点子时，他们没有看到这一个，因为他们在潜意识里回避处理支付问题。而处理支付对 Stripe 来说确实是一件脏活累活，但并不是不可忍受的。事实上，他们承受的痛苦可能净值更少；因为对处理支付的恐惧让大多数人远离了这个点子，Stripe 在其他有时会很痛苦的领域（比如获取用户）反而一帆风顺。他们不需要费多大劲就能让用户听到他们的声音，因为用户一直在苦苦等待他们正在构建的东西。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "701ca9420b39b8431cc8d845547eaa0ce82358978b175fe8855346fd35d48488",
+      "enMarkdown": "The unsexy filter is similar to the schlep filter, except it keeps you from working on problems you despise rather than ones you fear. We overcame this one to work on Viaweb. There were interesting things about the architecture of our software, but we weren't interested in ecommerce per se. We could see the problem was one that needed to be solved though.",
+      "zhMarkdown": "不性感过滤器类似于脏活累活过滤器，不同之处在于它阻碍你去做你鄙视的问题，而不是你害怕的问题。我们克服了这一个过滤器才去做了 Viaweb。我们的软件架构有一些有趣的地方，但我们对电子商务本身并不感兴趣。但我们可以看到这是一个需要被解决的问题。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "fdaa8e001162d1890303ec897ecf0cd600e5f7040a58a954e4f3e6d74d84b7b3",
+      "enMarkdown": "Turning off the schlep filter is more important than turning off the unsexy filter, because the schlep filter is more likely to be an illusion. And even to the degree it isn't, it's a worse form of self-indulgence. Starting a successful startup is going to be fairly laborious no matter what. Even if the product doesn't entail a lot of schleps, you'll still have plenty dealing with investors, hiring and firing people, and so on. So if there's some idea you think would be cool but you're kept away from by fear of the schleps involved, don't worry: any sufficiently good idea will have as many.",
+      "zhMarkdown": "关掉脏活累活过滤器比关掉不性感过滤器更重要，因为脏活累活过滤器更有可能是一种错觉。而且即便它不是错觉，它也是一种更糟糕的自我放纵。创办一家成功的创业公司，无论如何都是相当辛苦的。即使产品本身不涉及很多脏活累活，你仍然要处理大把与投资人、招聘和开除员工等相关的事情。所以，如果有某个你觉得很酷的想法，但因为害怕其中的脏活累活而退缩，别担心：任何足够好的点子都会有同样多的脏活累活。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "8a03a23d1c18d816f923b09101ec142f54f9606bf08dbbc45eaf602219c46a49",
+      "enMarkdown": "The unsexy filter, while still a source of error, is not as entirely useless as the schlep filter. If you're at the leading edge of a field that's changing rapidly, your ideas about what's sexy will be somewhat correlated with what's valuable in practice. Particularly as you get older and more experienced. Plus if you find an idea sexy, you'll work on it more enthusiastically. [[13](#f13n)]",
+      "zhMarkdown": "不性感过滤器虽然也是错误的来源，但并不像脏活累活过滤器那样完全没用。如果你处于一个快速变化领域的前沿，你对什么性感的感觉，与实际上什么有价值会有一定的相关性。尤其是随着你年龄增长、经验变丰富。此外，如果你觉得一个点子很性感，你工作起来会更有激情。[[13](#f13n)]"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "61e03ef8c05b6290eb6a04a5e9cb5844d1f74f5f3a74d4c9e3de440e1ee930a5",
+      "enMarkdown": "**Recipes**",
+      "zhMarkdown": "**公式（有针对性的方法）**"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "365961d4f2598ee3a9c408f7ba60f140791bd4e0563aa32a32830ffc0a1eb2b3",
+      "enMarkdown": "While the best way to discover startup ideas is to become the sort of person who has them and then build whatever interests you, sometimes you don't have that luxury. Sometimes you need an idea now. For example, if you're working on a startup and your initial idea turns out to be bad.",
+      "zhMarkdown": "虽然发现创业点子最好的方法是成为能产生这些点子的人，然后去做任何让你感兴趣的事情，但有时你没有这种奢侈。有时你现在就需要一个点子。例如，如果你正在创业，而你最初的点子被证明是坏的。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "b2653b60d1c31c68d61ab193059fd298759dcea179662f235d24067cd0200665",
+      "enMarkdown": "For the rest of this essay I'll talk about tricks for coming up with startup ideas on demand. Although empirically you're better off using the organic strategy, you could succeed this way. You just have to be more disciplined. When you use the organic method, you don't even notice an idea unless it's evidence that something is truly missing. But when you make a conscious effort to think of startup ideas, you have to replace this natural constraint with self-discipline. You'll see a lot more ideas, most of them bad, so you need to be able to filter them.",
+      "zhMarkdown": "在本文接下来的部分，我将谈谈按需想出创业点子的一些技巧。虽然从经验来看，你最好使用有机的策略，但你也可以通过这种方式取得成功。你只需要更加自律。当你使用有机方法时，除非有证据表明确实缺失了某些东西，否则你甚至不会注意到一个点子。但当你刻意去想创业点子时，你必须用自律来代替这种天然的限制。你会看到多得多的点子，其中大多数都是烂点子，所以你需要有能力过滤它们。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "807a5ce4eea0946711aeccbda552b041f31b303d8f0a8595ff82be38dcd51ed3",
+      "enMarkdown": "One of the biggest dangers of not using the organic method is the example of the organic method. Organic ideas feel like inspirations. There are a lot of stories about successful startups that began when the founders had what seemed a crazy idea but \"just knew\" it was promising. When you feel that about an idea you've had while trying to come up with startup ideas, you're probably mistaken.",
+      "zhMarkdown": "不使用有机方法的最大危险之一是，有机方法的例子就在眼前。有机的点子感觉就像灵光一现。有很多关于成功创业公司的故事，它们始于创始人有了一个看起来很疯狂、但“就是知道”它有前景的点子。当你在努力想创业点子时，如果对某个想法产生这种感觉，你很可能搞错了。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "159c5655a7a17a3f6383f071d5b8ddd231d21fd899d11c9998f2b6c7f9782665",
+      "enMarkdown": "When searching for ideas, look in areas where you have some expertise. If you're a database expert, don't build a chat app for teenagers (unless you're also a teenager). Maybe it's a good idea, but you can't trust your judgment about that, so ignore it. There have to be other ideas that involve databases, and whose quality you can judge. Do you find it hard to come up with good ideas involving databases? That's because your expertise raises your standards. Your ideas about chat apps are just as bad, but you're giving yourself a Dunning-Kruger pass in that domain.",
+      "zhMarkdown": "寻找点子时，要在你有一定专长的领域寻找。如果你是数据库专家，就不要去为青少年开发聊天应用（除非你自己也是青少年）。也许这是一个好点子，但你无法对此做出准确的判断，所以忽略它。一定有其他涉及数据库的点子，且其质量是你可以判断的。你觉得很难想出涉及数据库的好点子吗？那是因你的专业知识提高了你的标准。你关于聊天应用的点子同样很烂，但你在那个领域给自己开了个“达克效应（Dunning-Kruger）”的绿灯。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "c0e80ceaf4dd241f6325d88105b7e87c3b26573789bbc0088b89b682daa416c7",
+      "enMarkdown": "The place to start looking for ideas is things you need. There *must* be things you need. [[14](#f14n)]",
+      "zhMarkdown": "开始寻找点子的地方是你自己需要的东西。*一定*有你需要的东西。[[14](#f14n)]"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "c394df7ed21bef264d55ab5af5f9ed4418cddd139326787d69c38f1564e5ae27",
+      "enMarkdown": "One good trick is to ask yourself whether in your previous job you ever found yourself saying \"Why doesn't someone make x? If someone made x we'd buy it in a second.\" If you can think of any x people said that about, you probably have an idea. You know there's demand, and people don't say that about things that are impossible to build.",
+      "zhMarkdown": "一个好技巧是问问自己，在你之前的工作中，你是否曾发现自己说过：“为什么没人做 X？要是有人做出 X，我们立马就买。” 如果你能想到任何人们说过这句话的 X，你大概就找到了一个点子。你知道有需求，而且人们不会对无法构建的东西说这种话。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "80ac7a9376c2490dbce80c9833d18f93c9480e6af345c56bfa0a4469530ebc78",
+      "enMarkdown": "More generally, try asking yourself whether there's something unusual about you that makes your needs different from most other people's. You're probably not the only one. It's especially good if you're different in a way people will increasingly be.",
+      "zhMarkdown": "更广泛地说，试着问问自己，你身上是否有某种不同寻常的特质，使得你的需求与大多数人不同。你可能不是唯一一个。如果你与众不同的方式是未来人们会越来越趋同的方向，那就特别好。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "8264905bc29391524a6f04073e83db7620bcadbc918dfb1f5902dc2f4b3cc553",
+      "enMarkdown": "If you're changing ideas, one unusual thing about you is the idea you'd previously been working on. Did you discover any needs while working on it? Several well-known startups began this way. Hotmail began as something its founders wrote to talk about their previous startup idea while they were working at their day jobs. [[15](#f15n)]",
+      "zhMarkdown": "如果你正在更换创业点子，你身上一个不同寻常的地方就是你之前一直在折腾的那个点子。你在做它的过程中发现了什么需求吗？有几家著名的创业公司就是这样开始的。Hotmail 起初是创始人为了在做日常工作时讨论他们之前的创业点子而写的一个工具。[[15](#f15n)]"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "62e28999c7e1020b335482fe8d387ead703ca23beb0bdb8a1f842a04cbec642b",
+      "enMarkdown": "A particularly promising way to be unusual is to be young. Some of the most valuable new ideas take root first among people in their teens and early twenties. And while young founders are at a disadvantage in some respects, they're the only ones who really understand their peers. It would have been very hard for someone who wasn't a college student to start Facebook. So if you're a young founder (under 23 say), are there things you and your friends would like to do that current technology won't let you?",
+      "zhMarkdown": "一个特别有前景的“与众不同”的方式就是年轻。一些最有价值的新点子首先在十几岁和二十出头的人群中生根发芽。虽然年轻创始人再某些方面处于劣势，但他们是唯一真正理解同龄人的人。如果不是大学生，很难创办 Facebook。所以，如果你是一个年轻的创始人（比如 23 岁以下），有什么事情是你和你的朋友想做、但现有技术无法实现的？"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "3847f4c709e0ebf773ef95239d5e2e5c8009061c941728f07d405fd78111df13",
+      "enMarkdown": "The next best thing to an unmet need of your own is an unmet need of someone else. Try talking to everyone you can about the gaps they find in the world. What's missing? What would they like to do that they can't? What's tedious or annoying, particularly in their work? Let the conversation get general; don't be trying too hard to find startup ideas. You're just looking for something to spark a thought. Maybe you'll notice a problem they didn't consciously realize they had, because you know how to solve it.",
+      "zhMarkdown": "退而求其次，如果不是你自己的未满足需求，那就是别人的未满足需求。试着和你能接触到的所有人聊聊他们发现的世界盲区。缺了什么？他们想做什么却做不到？在他们的工作中，有什么是繁琐或令人恼火的？让谈话自然展开，不要太刻意去寻找创业点子。你只是在寻找能激发思考的东西。也许你会注意到一个他们自己都没有意识到的问题，因为你知道如何解决它。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "47da27943eba01008ae322991dfb60d90a37a4ae31dcc7ac3a8898ddea2ad15e",
+      "enMarkdown": "When you find an unmet need that isn't your own, it may be somewhat blurry at first. The person who needs something may not know exactly what they need. In that case I often recommend that founders act like consultants — that they do what they'd do if they'd been retained to solve the problems of this one user. People's problems are similar enough that nearly all the code you write this way will be reusable, and whatever isn't will be a small price to start out certain that you've reached the bottom of the well. [[16](#f16n)]",
+      "zhMarkdown": "当你发现一个不是你自己的、未满足的需求时，起初它可能是模糊的。需要东西的人可能不知道自己具体需要什么。在这种情况下，我经常建议创始人扮演顾问的角色——去做如果他们被雇来解决这一个用户的问题时会做的事情。人们的问题是如此相似，以至于你用这种方式写出的几乎所有代码都是可以复用的，而任何不能复用的部分，作为确保你已经触及深井底部的代价，也是微不足道的。[[16](#f16n)]"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "b736c712dc4961aaa453edd74786472473c79844e296fa5322e9ff93fa35e60e",
+      "enMarkdown": "One way to ensure you do a good job solving other people's problems is to make them your own. When Rajat Suri of E la Carte decided to write software for restaurants, he got a job as a waiter to learn how restaurants worked. That may seem like taking things to extremes, but startups are extreme. We love it when founders do such things.",
+      "zhMarkdown": "确保你很好地解决了别人问题的一个方法，就是把它们变成你自己的问题。当 E la Carte 的 Rajat Suri 决定为餐厅编写软件时，他找了一份服务员的工作来了解餐厅是如何运作的。这看起来可能有点极端，但创业本身就很极端。我们非常喜欢创始人做这样的事情。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "f771c126a4e1427467be6ac66406aca0ba0b3eb27eece77cd39f654de30b301b",
+      "enMarkdown": "In fact, one strategy I recommend to people who need a new idea is not merely to turn off their schlep and unsexy filters, but to seek out ideas that are unsexy or involve schleps. Don't try to start Twitter. Those ideas are so rare that you can't find them by looking for them. Make something unsexy that people will pay you for.",
+      "zhMarkdown": "事实上，我向需要新点子的人推荐的一个策略，不仅是关掉他们的脏活累活和不性感过滤器，还要主动去寻找那些不性感或涉及脏活累活的点子。不要试图去创办 Twitter。那些点子太罕见了，你是无法通过寻找找到它们的。做一些不性感、但人们愿意付钱给你的东西。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "e16b414e414ce7a640ca76607ff153e6253891ceb6926880922135ab4f70259f",
+      "enMarkdown": "A good trick for bypassing the schlep and to some extent the unsexy filter is to ask what you wish someone else would build, so that you could use it. What would you pay for right now?",
+      "zhMarkdown": "绕过脏活累活过滤器、并在一定程度上绕过不性感过滤器的一个好技巧，是问问你希望别人能做出什么，以便你可以使用它。你现在愿意为什么付钱？"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "2a5b6dfc66a114d0e6f804f265ab104080875b9b5a90f7861471a9a3421cc054",
+      "enMarkdown": "Since startups often garbage-collect broken companies and industries, it can be a good trick to look for those that are dying, or deserve to, and try to imagine what kind of company would profit from their demise. For example, journalism is in free fall at the moment. But there may still be money to be made from something like journalism. What sort of company might cause people in the future to say \"this replaced journalism\" on some axis?",
+      "zhMarkdown": "由于创业公司经常会清理那些破损的公司和行业，因此寻找那些正在消亡、或理应消亡的行业，并试着想象什么样的公司会从它们的消亡中获利，也是一个好技巧。例如，新闻业目前正处于自由落体状态。但类似于新闻业的东西可能仍然有钱可赚。在某些维度上，什么样的公司可能会让未来的人说“这取代了新闻业”？"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "e2dd94b8935c8c430ccbad00fa5b6b29246ecccb2a3d1276c88cd949f7183925",
+      "enMarkdown": "But imagine asking that in the future, not now. When one company or industry replaces another, it usually comes in from the side. So don't look for a replacement for x; look for something that people will later say turned out to be a replacement for x. And be imaginative about the axis along which the replacement occurs. Traditional journalism, for example, is a way for readers to get information and to kill time, a way for writers to make money and to get attention, and a vehicle for several different types of advertising. It could be replaced on any of these axes (it has already started to be on most).",
+      "zhMarkdown": "但想象一下在未来问这个问题，而不是现在。当一家公司或行业取代另一家时，它通常是从侧面切入的。所以不要去寻找 X 的替代品，而是去寻找人们后来会说“原来它成了 X 的替代品”的东西。并且要对替代发生的维度展开想象。例如，传统新闻业是读者获取信息和消磨时间的一种方式，是作者赚钱和获得关注的一种方式，也是几种不同类型广告的载体。它可以在这些维度的任何一个上被取代（在大多数维度上，它已经开始被取代了）。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "fc48bbd43f46e1d0436d431caf3dff53814dae108655cfa04a44c60c35910de9",
+      "enMarkdown": "When startups consume incumbents, they usually start by serving some small but important market that the big players ignore. It's particularly good if there's an admixture of disdain in the big players' attitude, because that often misleads them. For example, after Steve Wozniak built the computer that became the Apple I, he felt obliged to give his then-employer Hewlett-Packard the option to produce it. Fortunately for him, they turned it down, and one of the reasons they did was that it used a TV for a monitor, which seemed intolerably d�class� to a high-end hardware company like HP was at the time. [[17](#f17n)]",
+      "zhMarkdown": "当创业公司吞噬行业巨头时，它们通常从服务于巨头忽略的某个虽小但重要的市场开始。如果巨头的态度中夹杂着鄙视，那就特别好，因为这往往会误导他们。例如，在史蒂夫·沃兹尼亚克做出后来成为 Apple I 的电脑后，他觉得有义务让他当时的雇主惠普公司选择是否生产它。对他来说幸运的是，他们拒绝了，其中一个原因就是它使用了电视机作为显示器，这在当时像惠普这样的高端硬件公司看来，是无法容忍的、有失品味的。[[17](#f17n)]"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "a3a3fdb7545e1b706b4afbaf8647edb38f9187fc4fbc34f0683f7fd4c4fcea7a",
+      "enMarkdown": "Are there groups of [scruffy](https://paulgraham.com/marginal.html) but sophisticated users like the early microcomputer \"hobbyists\" that are currently being ignored by the big players? A startup with its sights set on bigger things can often capture a small market easily by expending an effort that wouldn't be justified by that market alone.",
+      "zhMarkdown": "现在是否有像早期微型计算机“业余爱好者”那样，[不修边幅](https://paulgraham.com/marginal.html)但水平很高的用户群体，目前正被大玩家所忽略？一个志在更远大目标的创业公司，往往可以通过付出在单独看该市场时并不划算的努力，轻松占领一个小市场。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "a5b666146cd8fa0865dc5d7b3a26eaf1272182ad377203d7df2fa24765f6c7a2",
+      "enMarkdown": "Similarly, since the most successful startups generally ride some wave bigger than themselves, it could be a good trick to look for waves and ask how one could benefit from them. The prices of gene sequencing and 3D printing are both experiencing Moore's Law-like declines. What new things will we be able to do in the new world we'll have in a few years? What are we unconsciously ruling out as impossible that will soon be possible?",
+      "zhMarkdown": "同样，既然最成功的创业公司通常顺应了比它们自身更大的某种趋势，那么寻找趋势并询问如何从中受益，可能是一个好技巧。基因测序和 3D 打印的价格都在经历类似摩尔定律的下降。在几年后的新世界里，我们能做哪些新事情？有哪些我们潜意识里排除为不可能、但很快就会成为可能的事情？"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "9c584362ba921ae28ae01df25b069756d48bb6883d1b5fb967a529fb46ecf074",
+      "enMarkdown": "**Organic**",
+      "zhMarkdown": "**有机**"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "8373101310676ae6dfee57eecc34e4b4889a206968e24cf1d5c97e6e3372f0a2",
+      "enMarkdown": "But talking about looking explicitly for waves makes it clear that such recipes are plan B for getting startup ideas. Looking for waves is essentially a way to simulate the organic method. If you're at the leading edge of some rapidly changing field, you don't have to look for waves; you are the wave.",
+      "zhMarkdown": "但讨论刻意寻找大趋势，显然说明这类公式只是获取创业点子的备用计划（Plan B）。寻找大趋势本质上是模拟有机方法的一种方式。如果你处于某个快速变化领域的前沿，你不需要寻找趋势；你本身就是趋势。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "d9ecbc388ff1374e80ec8360b3727bdddd724ba3893484620d2e04b34cb4ce85",
+      "enMarkdown": "Finding startup ideas is a subtle business, and that's why most people who try fail so miserably. It doesn't work well simply to try to think of startup ideas. If you do that, you get bad ones that sound dangerously plausible. The best approach is more indirect: if you have the right sort of background, good startup ideas will seem obvious to you. But even then, not immediately. It takes time to come across situations where you notice something missing. And often these gaps won't seem to be ideas for companies, just things that would be interesting to build. Which is why it's good to have the time and the inclination to build things just because they're interesting.",
+      "zhMarkdown": "寻找创业点子是一件微妙的事情，这就是为什么大多数尝试的人失败得如此惨烈。仅仅试图“想”创业点子是行不通的。如果你这么做，你会得到听起来危险地可行、实际上却是烂点子的东西。最好的方法是更间接的：如果你有合适的背景，好的创业点子对你来说就会显得显而易见。但即便如此，也不是立刻显现。遇到能让你注意到某些缺失情况的场景需要时间。通常这些缺失的部分看起来并不像是开公司的点子，只是些做起来会很有趣的东西。这就是为什么有时间和倾向仅仅因为有趣而做东西是件好事。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "a5f794a5504fcf03c199ad2f4ceb3ab00563e2631200b385588a3a43f619f2b4",
+      "enMarkdown": "Live in the future and build what seems interesting. Strange as it sounds, that's the real recipe.",
+      "zhMarkdown": "生活在未来，然后做出你觉得有趣的东西。虽然听起来很奇怪，但这才是真正的公式。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "8fb6e1cea8e23a9d9995367f37e955f2404a4b964131e612ceb13ffa8cde87c2",
+      "enMarkdown": "[1] This form of bad idea has been around as long as the web. It was common in the 1990s, except then people who had it used to say they were going to create a portal for x instead of a social network for x. Structurally the idea is stone soup: you post a sign saying \"this is the place for people interested in x,\" and all those people show up and you make money from them. What lures founders into this sort of idea are statistics about the millions of people who might be interested in each type of x. What they forget is that any given person might have 20 affinities by this standard, and no one is going to visit 20 different communities regularly.",
+      "zhMarkdown": "[1] 这种形式的烂点子自互联网诞生以来就一直存在。它在 1990 年代很常见，只不过当时有这种想法的人习惯说他们要为 X 创建一个门户网站，而不是为 X 创建一个社交网络。从结构上讲，这个点子就是“石头汤”：你贴出一块牌子说“这是对 X 感兴趣的人聚集的地方”，然后所有这些人就都来了，你就从他们身上赚钱。诱使创始人陷入这类点子的是关于可能对每种 X 感兴趣的数百万人的统计数据。他们忘记的是，按照这个标准，任何特定的人可能都有 20 种喜好，而没有人会定期访问 20 个不同的社区。"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "917c451682302e9188569011ca5fc8761236f2ea13f65cfcc0b8b83b0c829a6a",
+      "enMarkdown": "[2] I'm not saying, incidentally, that I know for sure a social network for pet owners is a bad idea. I know it's a bad idea the way I know randomly generated DNA would not produce a viable organism. The set of plausible sounding startup ideas is many times larger than the set of good ones, and many of the good ones don't even sound that plausible. So if all you know about a startup idea is that it sounds plausible, you have to assume it's bad.",
+      "zhMarkdown": "[2] 顺便说一下，我并不是说我确切知道宠物主人社交网络是个烂点子。我知道它是个烂点子，就像我知道随机生成的 DNA 不会产生一个活的生物体一样。听起来可行的创业点子集合，比好点子的集合要大许多倍，而且很多好点子听起来甚至没那么可行。所以，如果你对一个创业点子唯一的了解就是它听起来可行，你必须假设它是坏的。"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "f2d55d05631632e36a198182f719732797b81643e9d5346384a59df9498e09e0",
+      "enMarkdown": "[3] More precisely, the users' need has to give them sufficient activation energy to start using whatever you make, which can vary a lot. For example, the activation energy for enterprise software sold through traditional channels is very high, so you'd have to be a *lot* better to get users to switch. Whereas the activation energy required to switch to a new search engine is low. Which in turn is why search engines are so much better than enterprise software.",
+      "zhMarkdown": "[3] 更准确地说，用户的需求必须给他们足够的启动能量来开始使用你做的任何东西，这其中的差异可能很大。例如，通过传统渠道销售的企业软件的启动能量非常高，所以你必须做得*好得多*才能让用户更换。而切换到新搜索引擎所需的启动能量很低。这反过来也是为什么搜索引擎比企业软件好得多的原因。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "db0e70d8046c9ba0577398eb0a5ba38ef168ca1cb5e01150b0b9546e2a4532b8",
+      "enMarkdown": "[4] This gets harder as you get older. While the space of ideas doesn't have dangerous local maxima, the space of careers does. There are fairly high walls between most of the paths people take through life, and the older you get, the higher the walls become.",
+      "zhMarkdown": "[4] 随着年龄的增长，这会变得越来越难。虽然点子空间没有危险的局部最大值，但职业空间有。人们在生活中选择的大多数路径之间都有相当高的墙，而且你越老，这些墙就越高。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "7860685b94ccbf1500975d876f043a63aeb59d59e5cfc30b60f316610c520767",
+      "enMarkdown": "[5] It was also obvious to us that the web was going to be a big deal. Few non-programmers grasped that in 1995, but the programmers had seen what GUIs had done for desktop computers.",
+      "zhMarkdown": "[5] 对我们来说，网络将成为一件大事也是显而易见的。在 1995 年，很少有非程序员能理解这一点，但程序员已经看到了图形用户界面（GUI）为台式计算机带来了什么。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "ae075d8efd03a34e8d696876095e5a07f290492f18d48cc955633f92c2c1d361",
+      "enMarkdown": "[6] Maybe it would work to have this second self keep a journal, and each night to make a brief entry listing the gaps and anomalies you'd noticed that day. Not startup ideas, just the raw gaps and anomalies.",
+      "zhMarkdown": "[6] 也许让这个“另一个自我”记日记会有用，每天晚上写下一条简短的记录，列出你当天注意到的不协调和缺失之处。不是创业点子，只是原始的不协调和缺失之处。"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "91fdf18b19d4c63144208e5a47a7cc74218f936951a16190fd1d8e0a3b0c413d",
+      "enMarkdown": "[7] Sam Altman points out that taking time to come up with an idea is not merely a better strategy in an absolute sense, but also like an undervalued stock in that so few founders do it.",
+      "zhMarkdown": "[7] Sam Altman 指出，花时间去琢磨出一个点子，不仅在绝对意义上是一个更好的策略，而且就像一只被低估的股票，因为很少有创始人会这么做。"
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "e579c80760ea684b8e3105d988942e88b39dcdc7b73ed0164a5aea7f35fb52ac",
+      "enMarkdown": "There's comparatively little competition for the best ideas, because few founders are willing to put in the time required to notice them. Whereas there is a great deal of competition for mediocre ideas, because when people make up startup ideas, they tend to make up the same ones.",
+      "zhMarkdown": "对于最好的点子，竞争相对较少，因为很少有创始人愿意投入所需的时间去注意到它们。而对于平庸的点子，竞争却非常激烈，因为当人们凭空虚构创业点子时，他们往往会想到同一个点子。"
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "abfe9847fc054d2f41f8d0ec360a9c2b41a6bf557ac68f383b3dba939f2f3a75",
+      "enMarkdown": "[8] For the computer hardware and software companies, summer jobs are the first phase of the recruiting funnel. But if you're good you can skip the first phase. If you're good you'll have no trouble getting hired by these companies when you graduate, regardless of how you spent your summers.",
+      "zhMarkdown": "[8] 对于计算机硬件和软件公司来说，暑期工作是招聘漏斗的第一阶段。但如果你足够优秀，你可以跳过第一阶段。如果你足够优秀，无论你暑假是怎么度过的，当你毕业时，你都会毫不费力地被这些公司录用。"
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "5e382b863eb33a2e682ad1edd8f0f99ba39b6c677b6117b7f8eb3ce0318987b3",
+      "enMarkdown": "[9] The empirical evidence suggests that if colleges want to help their students start startups, the best thing they can do is leave them alone in the right way.",
+      "zhMarkdown": "[9] 经验证据表明，如果大学想要帮助学生创业，他们能做的最好的事情就是以正确的方式别去管他们。"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "234e6028683909a755778f03d50d6f8249857900bfd0caf495d0a2c9252cd25a",
+      "enMarkdown": "[10] I'm speaking here of IT startups; in biotech things are different.",
+      "zhMarkdown": "[10] 我这里说的是 IT 领域的创业公司；在生物技术领域情况有所不同。"
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "sourceHash": "0427f09cb47ac3dc5758db61783cb51bd03610ea2372389c1204468a8908d005",
+      "enMarkdown": "[11] This is an instance of a more general rule: focus on users, not competitors. The most important information about competitors is what you learn via users anyway.",
+      "zhMarkdown": "[11] 这是一个更普遍规则的例子：关注用户，而不是竞争对手。关于竞争对手最重要信息，无论如何都是你通过用户了解到的。"
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "ab062c0707a7e4d4183379e9c6bf6fc2637b4e7a522ec1262cbcf1f330aac8ef",
+      "enMarkdown": "[12] In practice most successful startups have elements of both. And you can describe each strategy in terms of the other by adjusting the boundaries of what you call the market. But it's useful to consider these two ideas separately.",
+      "zhMarkdown": "[12] 在实践中，大多数成功的创业公司都兼具这两者。而且你可以通过调整你所谓的市场边界，用其中一种策略来描述另一种。但将这两个概念分开考虑是有用的。"
+    },
+    {
+      "id": 111,
+      "type": "paragraph",
+      "sourceHash": "82ad295e20a2842e2a745134b0f26a30ce93557603c13fc20796602d6e1fc33f",
+      "enMarkdown": "[13] I almost hesitate to raise that point though. Startups are businesses; the point of a business is to make money; and with that additional constraint, you can't expect you'll be able to spend all your time working on what interests you most.",
+      "zhMarkdown": "[13] 不过我几乎有些犹豫要不要提出这一点。创业公司是商业行为；商业的目的是赚钱；有了这个额外的限制，你就不能指望能把所有时间都花在最让你感兴趣的事情上。"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "50f72ba5ca623f06e67aa36ef1ae6c475866e3decb3b974901fd44f4416a2b0b",
+      "enMarkdown": "[14] The need has to be a strong one. You can retroactively describe any made-up idea as something you need. But do you really need that recipe site or local event aggregator as much as Drew Houston needed Dropbox, or Brian Chesky and Joe Gebbia needed Airbnb?",
+      "zhMarkdown": "[14] 这种需求必须是强烈的。你可以把任何凭空捏造的想法追溯性地描述为你需要的东西。但你真的像德鲁·休斯顿需要 Dropbox，或者布莱恩·切斯基和乔·杰比亚需要 Airbnb 那样，需要那个菜谱网站或本地活动聚合器吗？"
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "sourceHash": "a052996ed51b19fd9f9cdfa9d457e4ed9764ff9f770d0a3b7ad003483fef5ce2",
+      "enMarkdown": "Quite often at YC I find myself asking founders \"Would you use this thing yourself, if you hadn't written it?\" and you'd be surprised how often the answer is no.",
+      "zhMarkdown": "在 YC，我经常发现自己会问创始人：“如果你没有写这个东西，你自己会用它吗？” 你会惊讶于回答“不会”的频率有多高。"
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "6e36d68acb6a2102610d7ed80052dbdc13c0ea21eefa7e5a53388308a6603382",
+      "enMarkdown": "[15] Paul Buchheit points out that trying to sell something bad can be a source of better ideas:",
+      "zhMarkdown": "[15] Paul Buchheit 指出，试图推销不好的东西可以成为更好点子的源泉："
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "sourceHash": "279adc6a10fcb004177a305932b307565818da6c12c1e10211f6b3297324b32f",
+      "enMarkdown": "\"The best technique I've found for dealing with YC companies that have bad ideas is to tell them to go sell the product ASAP (before wasting time building it). Not only do they learn that nobody wants what they are building, they very often come back with a real idea that they discovered in the process of trying to sell the bad idea.\"",
+      "zhMarkdown": "“我发现处理那些点子不好的 YC 公司的最好技术，就是让他们尽快去推销产品（在浪费时间构建它之前）。他们不仅能了解到没人想要他们正在构建的东西，而且他们经常会带着在试图推销那个坏主意的过程中发现的真实点子回来。”"
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "8e9f3898c4947ac8970ce02ad52bc110d0d5ddfbb4a9fbaa7ea2c0d69c8ff63d",
+      "enMarkdown": "[16] Here's a recipe that might produce the next Facebook, if you're college students. If you have a connection to one of the more powerful sororities at your school, approach the queen bees thereof and offer to be their personal IT consultants, building anything they could imagine needing in their social lives that didn't already exist. Anything that got built this way would be very promising, because such users are not just the most demanding but also the perfect point to spread from.",
+      "zhMarkdown": "[16] 如果你是大学生，这里有一个可能会产生下一个 Facebook 的公式。如果你与学校里某个较有势力的姐妹会有联系，去接触她们的领头人，并主动提出做她们的私人 IT 顾问，构建她们在社交生活中能想象到需要、但目前尚不存在的任何东西。用这种方式构建出来的任何东西都会非常有前景，因为这类用户不仅是最挑剔的，也是向外传播的完美起点。"
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "135460c5aaa2b29f80f4efa8de3d2905bf8c58e6677d36ba17d885fd0bd754ff",
+      "enMarkdown": "I have no idea whether this would work.",
+      "zhMarkdown": "我不知道这是否行得通。"
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "ef1636cd5ae1600b74ad9d0ec0067a9b40ddbbae404534873602867df2a3b312",
+      "enMarkdown": "[17] And the reason it used a TV for a monitor is that Steve Wozniak started out by solving his own problems. He, like most of his peers, couldn't afford a monitor.",
+      "zhMarkdown": "[17] 它使用电视机作为显示器的原因，是史蒂夫·沃兹尼亚克是从解决他自己的问题开始的。他像他的大多数同龄人一样，买不起显示器。"
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "sourceHash": "6f8e90d0ca415006f60f45907c0e5cc500bc57a63b94eafeda011bfe9bef9348",
+      "enMarkdown": "**Thanks** to Sam Altman, Mike Arrington, Paul Buchheit, John Collison, Patrick Collison, Garry Tan, and Harj Taggar for reading drafts of this, and Marc Andreessen, Joe Gebbia, Reid Hoffman, Shel Kaphan, Mike Moritz and Kevin Systrom for answering my questions about startup history.",
+      "zhMarkdown": "**感谢** Sam Altman, Mike Arrington, Paul Buchheit, John Collison, Patrick Collison, Garry Tan, 和 Harj Taggar 阅读了本文草稿，以及 Marc Andreessen, Joe Gebbia, Reid Hoffman, Shel Kaphan, Mike Moritz 和 Kevin Systrom 回答了我关于创业历史的问题。"
+    }
+  ]
+}

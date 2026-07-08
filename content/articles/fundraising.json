@@ -1,0 +1,685 @@
+{
+  "slug": "fundraising",
+  "titleEn": "A Fundraising Survival Guide",
+  "titleZh": "融资生存指南",
+  "dateText": "August 2008",
+  "publishedAt": "2008-08-01",
+  "sourceOrder": 132,
+  "sourceUrl": "https://paulgraham.com/fundraising.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "2488f47810d9b58b425cebf64e9a0081a22b4d585c9f69de32fc3d4779137104",
+      "enMarkdown": "Raising money is the second hardest part of starting a startup. The hardest part is making something people want: most startups that die, die because they didn't do that. But the second biggest cause of death is probably the difficulty of raising money. Fundraising is brutal.",
+      "zhMarkdown": "筹集资金是创办创业公司第二难的部分。最难的部分是做出人们想要的东西：大多数死掉的创业公司，都是因为没能做到这一点。但第二大死因大概就是融资的困难了。融资过程是非常残酷的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "94ffba5b4ce7434413d337d70409dd6dedc4cfd118166306acc00d4a2b54a832",
+      "enMarkdown": "One reason it's so brutal is simply the brutality of markets. People who've spent most of their lives in schools or big companies may not have been exposed to that. Professors and bosses usually feel some sense of responsibility toward you; if you make a valiant effort and fail, they'll cut you a break. Markets are less forgiving. Customers don't care how hard you worked, only whether you solved their problems.",
+      "zhMarkdown": "之所以如此残酷，一个原因在于市场本身就是残酷的。大部分时间都在学校或大公司里度过的人，可能从未接触过这种残酷。教授和老板通常对你有一种责任感；如果你付出了英勇的努力却失败了，他们会网开一面。而市场就没那么宽容了。客户不在乎你有多努力，他们只在乎你是否解决了他们的问题。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "96e21dab0e6464afd5242c32f9ffc42b41a7c97a9e498c8cf8c42d29ff4b9d55",
+      "enMarkdown": "Investors evaluate startups the way customers evaluate products, not the way bosses evaluate employees. If you're making a valiant effort and failing, maybe they'll invest in your next startup, but not this one.",
+      "zhMarkdown": "投资人评估创业公司的方式就像客户评估产品一样，而不是像老板评估员工那样。如果你付出了英勇的努力却还是失败了，也许他们会投资你的下一家创业公司，但绝不会是现在这家。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "9d80d9d635042974c664b167371a29cd2ae19e8def662f2ff592a7ffe4f73dcf",
+      "enMarkdown": "But raising money from investors is harder than selling to customers, because there are so few of them. There's nothing like an efficient market. You're unlikely to have more than 10 who are interested; it's difficult to talk to more. So the randomness of any one investor's behavior can really affect you.",
+      "zhMarkdown": "但是，向投资人融资比向客户推销更难，因为投资人太少了。这里根本谈不上什么有效市场。对你感兴趣的投资人不太可能超过 10 个；想接触更多也很困难。因此，任何一个投资人行为的随机性，都可能对你产生巨大的影响。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "fb5046c294a9fcddaa9db08b300500620d893d26ca9dd6bb6902c5b387eb526f",
+      "enMarkdown": "Problem number 3: investors are very random. All investors, including us, are by ordinary standards incompetent. We constantly have to make decisions about things we don't understand, and more often than not we're wrong.",
+      "zhMarkdown": "第三个问题：投资人的行为非常随机。按照普通标准来看，所有的投资人（包括我们自己）都是不称职的。我们经常不得不对自己不了解的事情做出决定，而且往往都是错的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "5971d57c082edd7b568b9d07b8e6320ec007ab59098414fff4eaf19eac6d552e",
+      "enMarkdown": "And yet a lot is at stake. The amounts invested by different types of investors vary from five thousand dollars to fifty million, but the amount usually seems large for whatever type of investor it is. Investment decisions are big decisions.",
+      "zhMarkdown": "然而，这其中涉及的利益却很大。不同类型投资人的投资金额从五千美元到五千万美元不等，但无论对哪种类型的投资人来说，这笔金额通常都显得很大。投资决定是重大决定。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5911eb0936312c8c7396c9903f90d5d1eb40e7fb65305ef90789cf0467cab6f7",
+      "enMarkdown": "That combination—making big decisions about things they don't understand—tends to make investors very skittish. VCs are notorious for leading founders on. Some of the more unscrupulous do it deliberately. But even the most well-intentioned investors can behave in a way that would seem crazy in everyday life. One day they're full of enthusiasm and seem ready to write you a check on the spot; the next they won't return your phone calls. They're not playing games with you. They just can't make up their minds. [[1](#f1n)]",
+      "zhMarkdown": "这种组合——对自己不懂的事情做重大决定——往往会让投资人变得非常神经质。风险投资人们（VC）在吊创始人胃口方面是出了名的。一些不那么讲商业道德的 VC 甚至是有意为之。但即使是那些最心怀善意的投资人，其行为在日常生活中看起来也像疯子一样。前一天他们还热情洋溢，似乎准备当场给你开支票；第二天他们就不回你的电话了。他们不是在和你玩心机，他们只是自己也拿不定主意。[[1](#f1n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "aa6ab8e89cbb63dc7de702dffd11803116982fd78afce77a36166a7385ac4d2c",
+      "enMarkdown": "If that weren't bad enough, these wildly fluctuating nodes are all linked together. Startup investors all know one another, and (though they hate to admit it) the biggest factor in their opinion of you is the opinion of other investors. [[2](#f2n)] Talk about a recipe for an unstable system. You get the opposite of the damping that the fear/greed balance usually produces in markets. No one is interested in a startup that's a \"bargain\" because everyone else hates it.",
+      "zhMarkdown": "如果这还不够糟的话，这些剧烈波动的节点还都是互相关联的。创业投资人彼此都认识，而且（尽管他们极力否认）他们对你的看法，最大的决定因素就是其他投资人的看法。[[2](#f2n)] 这简直是系统不稳定的完美配方。你得到的恰恰是市场中恐惧与贪婪平衡通常所产生的阻尼效应的反面。没有人会对一个因为被其他人嫌弃而显得“便宜”的创业公司感兴趣。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "f5d8d81702293657873af696882474296ef7cf68e4f53622deb9a27926861ea4",
+      "enMarkdown": "So the inefficient market you get because there are so few players is exacerbated by the fact that they act less than independently. The result is a system like some kind of primitive, multi-celled sea creature, where you irritate one extremity and the whole thing contracts violently.",
+      "zhMarkdown": "因此，由于参与者太少而导致的低效市场，又因为他们的行为缺乏独立性而变得更加糟糕。结果就是这个系统就像某种原始的多细胞海洋生物，你刺激它的一端，整个身体就会剧烈收缩。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "72a6c8fc3154c303effc6b4e24a5fbf98f6ec9cc4bde3555b91a3e77c9716a1c",
+      "enMarkdown": "Y Combinator is working to fix this. We're trying to increase the number of investors just as we're increasing the number of startups. We hope that as the number of both increases we'll get something more like an efficient market. As t approaches infinity, Demo Day approaches an auction.",
+      "zhMarkdown": "Y Combinator 正在努力解决这个问题。正如我们在增加创业公司的数量一样，我们也在努力增加投资人的数量。我们希望，随着双方数量的增加，我们能得到一个更接近有效的市场。当时间 t 趋于无穷大时，Demo Day（演示日）就会趋于一场拍卖。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "1a1471626864144e968f8778891e8d086e604c5598a3631a98313ed913336f4b",
+      "enMarkdown": "Unfortunately, t is still very far from infinity. What does a startup do now, in the imperfect world we currently inhabit? The most important thing is not to let fundraising get you down. Startups live or die on morale. If you let the difficulty of raising money destroy your morale, it will become a self-fulfilling prophecy.",
+      "zhMarkdown": "不幸的是，时间 t 距离无穷大还很远。在目前我们所处的这个不完美的世界里，创业公司该怎么办？最重要的一点就是，不要让融资把你击垮。创业公司的生死取决于士气。如果你让融资的困难摧毁了你的士气，它就会变成一个自我实现的预言。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "afc8c3243323a307db567dbd63ec8ad1c22ca142c9637909bab2c6b00c81d88b",
+      "enMarkdown": "**Bootstrapping (= Consulting)**",
+      "zhMarkdown": "**自给自足（等同于做咨询服务）**"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "84cba65cdfc0dc0f559a6523af4ef1c4a556995a56a28a4e720697dd7f80f87b",
+      "enMarkdown": "Some would-be founders may by now be thinking, why deal with investors at all? If raising money is so painful, why do it?",
+      "zhMarkdown": "一些准创始人现在可能会想，为什么还要跟投资人打交道？如果融资这么痛苦，为什么还要做？"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "769451c92ad988e264c1d35e741db4709934db6cee1e8445a2b081ee9cb5a37b",
+      "enMarkdown": "One answer to that is obvious: because you need money to live on. It's a fine idea in principle to finance your startup with its own revenues, but you can't create instant customers. Whatever you make, you have to sell a certain amount to break even. It will take time to grow your sales to that point, and it's hard to predict, till you try, how long it will take.",
+      "zhMarkdown": "答案很显而易见：因为你需要钱来生活。原则上，用创业公司自己的收入来维持运转是个极好的想法，但你无法凭空变出客户。无论你做什么，你都必须卖出一定的数量才能达到收支平衡。将销量提升到那个水平需要时间，而在你尝试之前，很难预测这需要多长时间。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "06a4b826c205cf704250951e67396ea0af9af1c62d5afe9250e2a29e5a6d811c",
+      "enMarkdown": "We could not have bootstrapped Viaweb, for example. We charged quite a lot for our software—about $140 per user per month—but it was at least a year before our revenues would have covered even our paltry costs. We didn't have enough saved to live on for a year.",
+      "zhMarkdown": "例如，我们当时是无法靠自给自足（bootstrap）做起 Viaweb 的。我们的软件收费相当贵——每个用户每月大约 140 美元——但我们的收入至少要花一年时间才能覆盖我们那微薄的成本。而我们当时并没有足够的积蓄来维持一年的生活。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "34331baac948174a134864a6452741e51b358610022a9a73c2b5dc65eadf788b",
+      "enMarkdown": "If you factor out the \"bootstrapped\" companies that were actually funded by their founders through savings or a day job, the remainder either (a) got really lucky, which is hard to do on demand, or (b) began life as consulting companies and gradually transformed themselves into product companies.",
+      "zhMarkdown": "如果排除掉那些实际上由创始人通过个人积蓄或全职工作资助的“自给自足”型公司，剩下的要么是 (a) 运气极好，但这很难按需复制，要么是 (b) 刚开始是咨询公司，然后逐步转型为产品公司。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "295e868a86b2935e08645af05258a854d22ebb5a7af1f0c7629b7b000a1addf6",
+      "enMarkdown": "Consulting is the only option you can count on. But consulting is far from free money. It's not as painful as raising money from investors, perhaps, but the pain is spread over a longer period. Years, probably. And for many types of startup, that delay could be fatal. If you're working on something so unusual that no one else is likely to think of it, you can take your time. Joshua Schachter gradually built Delicious on the side while working on Wall Street. He got away with it because no one else realized it was a good idea. But if you were building something as obviously necessary as online store software at about the same time as Viaweb, and you were working on it on the side while spending most of your time on client work, you were not in a good position.",
+      "zhMarkdown": "做咨询是唯一一条你可以指望的退路。但做咨询绝不是免费的午餐。虽然它可能没有向投资人融资那么痛苦，但这种痛苦会拉得更长。可能要好几年。对于许多类型的创业公司来说，这种延迟可能是致命的。如果你正在做的东西非常独特，以至于别人不太可能想到，你确实可以慢慢来。Joshua Schachter 在华尔街工作期间，利用业余时间逐渐做出了 Delicious。他之所以能成功，是因为当时没有其他人意识到这是一个好主意。但是，如果你在 Viaweb 成立的同一时期，正在开发像在线商店软件这样显而易见有需求的产品，而你却只能在把大部分时间花在客户项目上的同时，利用业余时间来做它，那你当时的处境就会非常不利。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "b03a15b07d084f33c4e6cd0264c531b06ef74a28a04db2ee31e72a17d02f8899",
+      "enMarkdown": "Bootstrapping sounds great in principle, but this apparently verdant territory is one from which few startups emerge alive. The mere fact that bootstrapped startups tend to be famous on that account should set off alarm bells. If it worked so well, it would be the norm. [[3](#f3n)]",
+      "zhMarkdown": "自给自足在原则上听起来很棒，但这片看似郁郁葱葱的土地，实际上很少有创业公司能活着走出来。仅仅是“自给自足的创业公司往往因此出名”这一事实，就应该引起你的警惕。如果这条路真的那么好走，它早就成为常态了。[[3](#f3n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "f3dbdd894e10229760fd4758215c981f80d2d4c2947a735c333e5f39cea55a23",
+      "enMarkdown": "Bootstrapping may get easier, because starting a company is getting cheaper. But I don't think we'll ever reach the point where most startups can do without outside funding. Technology tends to get dramatically cheaper, but living expenses don't.",
+      "zhMarkdown": "自给自足可能会变得更容易，因为创办公司的成本正在降低。但我认为，我们永远不会达到大多数创业公司可以完全不需要外部资金的程度。技术往往会变得极其便宜，但生活成本却不会。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "073ff3af8fe10ef9213578c7a5afb273753c22ae688f09f34c7e97fbd2d46bdd",
+      "enMarkdown": "The upshot is, you can choose your pain: either the short, sharp pain of raising money, or the chronic ache of consulting. For a given total amount of pain, raising money is the better choice, because new technology is usually more valuable now than later.",
+      "zhMarkdown": "结果就是，你可以选择你想要的痛苦：要么是融资带来的一时剧痛，要么是做咨询带来的慢性折磨。在痛苦总量相同的情况下，融资是更好的选择，因为新技术的价值通常是现在比以后更大。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "cd1af2cb692770ffd82780e608588f4089436e46aeeee7d46f09bd0cfe175e40",
+      "enMarkdown": "But although for most startups raising money will be the lesser evil, it's still a pretty big evil—so big that it can easily kill you. Not merely in the obvious sense that if you fail to raise money you might have to shut the company down, but because the *process* of raising money itself can kill you.",
+      "zhMarkdown": "尽管对大多数创业公司来说，融资是两害相权取其轻的选择，但它仍然是一个相当大的恶魔——大到很容易置你于死地。这不仅是指如果你融不到钱，可能不得不关闭公司这种显而易见的情况，更是因为融资的*过程*本身就可以杀死你。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "eea82f4fd3f9571f304bf441832f54621e54f3b7800baecb74bac614f7abca10",
+      "enMarkdown": "To survive it you need a set of techniques mostly orthogonal to the ones used in convincing investors, just as mountain climbers need to know survival techniques that are mostly orthogonal to those used in physically getting up and down mountains.",
+      "zhMarkdown": "为了在融资中生存下来，你需要一套与说服投资人几乎毫不相关的技巧，就像登山者需要了解与身体爬上爬下几乎无关的生存技巧一样。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "e039a12503d4b165ae1336e1595db817c26a028fff60dae12479d73eb8f8ee2d",
+      "enMarkdown": "**1. Have low expectations.**",
+      "zhMarkdown": "**1. 降低预期。**"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "05d19248622de66ef673e3e0933a2478fcbad0cd1edf577763ed9fc48697320b",
+      "enMarkdown": "The reason raising money destroys so many startups' morale is not simply that it's hard, but that it's so much harder than they expected. What kills you is the disappointment. And the lower your expectations, the harder it is to be disappointed.",
+      "zhMarkdown": "融资之所以摧毁了那么多创业公司的士气，不仅是因为它困难，还因为这比他们预期的要难得多。杀死你的是失望。而你的预期越低，就越难感到失望。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "1186794a0b72f1d57896098f57778ff8dea3aad41f35d18b1da451d0ee8df239",
+      "enMarkdown": "Startup founders tend to be optimistic. This can work well in technology, at least some of the time, but it's the wrong way to approach raising money. Better to assume investors will always let you down. Acquirers too, while we're at it. At YC one of our secondary mantras is \"Deals fall through.\" No matter what deal you have going on, assume it will fall through. The predictive power of this simple rule is amazing.",
+      "zhMarkdown": "创业公司的创始人往往是乐观的。这在技术开发上可能行得通，至少有时候是这样，但在面对融资时，这是一种错误的心态。最好假设投资人总是会让你失望。顺便说一句，收购方也是如此。在 YC，我们的第二座右铭之一是“交易总会告吹”。无论你手头在谈什么交易，都要假设它会告吹。这个简单法则的预测能力惊人地准确。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "1fdf3c3d5b37801d141def0c2741287506bd3c71cde9eb0cf80c757582b29016",
+      "enMarkdown": "There will be a tendency, as a deal progresses, to start to believe it will happen, and then to depend on it happening. You must resist this. Tie yourself to the mast. This is what kills you. Deals do not have a trajectory like most other human interactions, where shared plans solidify linearly over time. Deals often fall through at the last moment. Often the other party doesn't really think about what they want till the last moment. So you can't use your everyday intuitions about shared plans as a guide. When it comes to deals, you have to consciously turn them off and become pathologically cynical.",
+      "zhMarkdown": "随着交易的推进，你往往会倾向于开始相信它一定会发生，进而开始依赖它的发生。你必须抵制这种倾向。把自己绑在桅杆上。这就是致命的地方。交易的轨迹不同于大多数其他人类互动，在那些互动中，共同的计划会随着时间的推移而线性巩固。而交易往往会在最后一刻告吹。通常，另一方直到最后一刻才真正想清楚自己想要什么。因此，你不能用日常人际交往中关于“共同计划”的直觉来指导自己。一旦涉及到交易，你必须有意识地关掉这些直觉，变得极度怀疑。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "0299666d34c01428a66595f24f6aa29b80a0db0836ade40b2fdf787092101484",
+      "enMarkdown": "This is harder to do than it sounds. It's very flattering when eminent investors seem interested in funding you. It's easy to start to believe that raising money will be quick and straightforward. But it hardly ever is.",
+      "zhMarkdown": "这做起来比听起来要难。当著名的投资人似乎对投资你感兴趣时，你会感到很受重视。你很容易开始相信融资会是快速且顺理成章的。但事实几乎从未如此。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "00d7d9dd382a45baf1db34319d0891c67ee6d32308f3897686690bc70ad6e19a",
+      "enMarkdown": "**2. Keep working on your startup.**",
+      "zhMarkdown": "**2. 保持业务运转。**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "140b574a7e9c776d29e727152e1b51bcceda27558972d0fca72a4aab3a5dc563",
+      "enMarkdown": "It sounds obvious to say that you should keep working on your startup while raising money. Actually this is hard to do. Most startups don't manage to.",
+      "zhMarkdown": "“在融资的同时要继续做你的创业公司”，这话听起来像是一句废话。但实际上这很难做到。大多数创业公司都没能做到这一点。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "a56ad4292dee2aa840b249ec38f006665d5cf32e00d4b1bf54cf4a00d9efd96d",
+      "enMarkdown": "Raising money has a mysterious capacity to suck up all your attention. Even if you only have one meeting a day with investors, somehow that one meeting will burn up your whole day. It costs not just the time of the actual meeting, but the time getting there and back, and the time preparing for it beforehand and thinking about it afterward.",
+      "zhMarkdown": "融资有一种神秘的魔力，能吸干你所有的注意力。即使你一天只和投资人开一次会，不知怎么的，那一次会议就会耗尽你一整天的时间。它不仅消耗了实际会议的时间，还消耗了来回的路上时间，以及事前准备和事后回想的时间。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "5e99e1aa1a3ff70550ea563115986ff8427ab729fd249b191fa5d37b0429b51f",
+      "enMarkdown": "The best way to survive the distraction of meeting with investors is probably to partition the company: to pick one founder to deal with investors while the others keep the company going. This works better when a startup has 3 founders than 2, and better when the leader of the company is not also the lead developer. In the best case, the company keeps moving forward at about half speed.",
+      "zhMarkdown": "避免被会面分心的最佳方法大概是对公司进行分工：挑出一个创始人专门对付投资人，而让其他创始人保持公司运转。当创业公司有 3 个创始人而不是 2 个时，这种方法效果更好；当公司的带头人不同时是主力开发人员时，效果也更好。在最理想的情况下，公司能以大约半速的速度继续前进。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "82656549e4af7a4529445d298bc9799ba56177771478d0639fc31991748c6b0d",
+      "enMarkdown": "That's the best case, though. More often than not the company comes to a standstill while raising money. And that is dangerous for so many reasons. Raising money always takes longer than you expect. What seems like it's going to be a 2 week interruption turns into a 4 month interruption. That can be very demoralizing. And worse still, it can make you less attractive to investors. They want to invest in companies that are dynamic. A company that hasn't done anything new in 4 months doesn't seem dynamic, so they start to lose interest. Investors rarely grasp this, but much of what they're responding to when they lose interest in a startup is the damage done by their own indecision.",
+      "zhMarkdown": "然而，这只是最理想的情况。通常情况下，公司在融资期间会陷入停滞。这在很多方面都是非常危险的。融资所花的时间总是比你预期的要长。看似两周的中断，最后变成了四个月的中断。这会非常打击士气。更糟糕的是，这会降低你对投资人的吸引力。投资人想投资的是充满活力的公司。一个四个月没有新进展的公司看起来毫无活力，所以他们开始失去兴趣。投资人很少能意识到这一点，但当他们对一家创业公司失去兴趣时，很大程度上是因为他们自己的犹豫不决给这家公司造成的伤害。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "5378ec95a449d01a91e81180d9b734de1dd1aa6494b84c6b262024867590d1ae",
+      "enMarkdown": "The solution: put the startup first. Fit meetings with investors into the spare moments in your development schedule, rather than doing development in the spare moments between meetings with investors. If you keep the company moving forward—releasing new features, increasing traffic, doing deals, getting written about—those investor meetings are more likely to be productive. Not just because your startup will seem more alive, but also because it will be better for your own morale, which is one of the main ways investors judge you.",
+      "zhMarkdown": "解决方案是：把创业公司放在第一位。把与投资人的会面塞进你开发日程的空隙里，而不是在与投资人会面的空隙里做开发。如果你能让公司保持前进——发布新功能、增加流量、达成合作、获得媒体报道——那些投资人会面就更有可能取得成效。这不仅是因为你的创业公司看起来更有活力，也因为这有利于你自己的士气，而士气正是投资人评判你的主要指标之一。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "25b734e085c1e0be71e74176edca648d5cf655a94f6f8c9cb473e15379c2fc00",
+      "enMarkdown": "**3. Be conservative.**",
+      "zhMarkdown": "**3. 保持保守。**"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "8c54a437e1b1b09d503f52be9bc6d33fe618b313afe939788183f9594c6c0bba",
+      "enMarkdown": "As conditions get worse, the optimal strategy becomes more conservative. When things go well you can take risks; when things are bad you want to play it safe.",
+      "zhMarkdown": "当情况变差时，最佳策略会变得更加保守。顺境时你可以冒险；逆境时你得求稳。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "6fdb060d8670820ca04bc8ba1ea8a1a4c1ecbad62ff0564b037f656260150125",
+      "enMarkdown": "I advise approaching fundraising as if it were always going badly. The reason is that between your ability to delude yourself and the wildly unstable nature of the system you're dealing with, things probably either already are or could easily become much worse than they seem.",
+      "zhMarkdown": "我建议对待融资的态度要像它一直在进展不顺一样。原因在于，在你自我欺骗的能力和这个系统极不稳定的性质之间，情况可能已经、或者很容易变得比看起来要糟糕得多。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "17426df67c4f2b6c767928c2cf2bd7d127eb14fb9fd92d775f1607f58575f974",
+      "enMarkdown": "What I tell most startups we fund is that if someone reputable offers you funding on reasonable terms, take it. There have been startups that ignored this advice and got away with it—startups that ignored a good offer in the hope of getting a better one, and actually did. But in the same position I'd give the same advice again. Who knows how many bullets were in the gun they were playing Russian roulette with?",
+      "zhMarkdown": "我对我们资助的大多数创业公司说的是，如果一个声誉良好的投资人以合理的条款给你提供资金，那就接受它。有些创业公司忽视了这条建议，并且侥幸成功了——他们拒绝了一个不错的报价，希望获得更好的，而且实际上也拿到了。但在同样的情况下，我还是会给出同样的建议。谁知道他们玩俄罗斯轮盘赌时，枪膛里装了多少颗子弹呢？"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "c89edd9b4552c7adb6894a472d4d59c15ee8d95fe3d111edb9daaa4d51896b3f",
+      "enMarkdown": "Corollary: if an investor seems interested, don't just let them sit. You can't assume someone interested in investing will stay interested. In fact, you can't even tell (*they* can't even tell) if they're really interested till you try to convert that interest into money. So if you have hot prospect, either close them now or write them off. And unless you already have enough funding, that reduces to: close them now.",
+      "zhMarkdown": "推论：如果一个投资人看起来有兴趣，不要让他们晾在那里。你不能假设一个有投资意向的人会一直保持兴趣。事实上，在你想办法把这种意向转化为资金之前，你甚至无法判断（*他们自己*也无法判断）他们是否真的有兴趣。因此，如果你手头有明确的意向者，要么现在就成交，要么彻底放弃。除非你已经有了足够的资金，否则这可以简化为：现在就成交。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "b32ebe7a633fbb1216b2f0ea35a457fcde9087acbf8a4569b6791a3c56fb6662",
+      "enMarkdown": "Startups don't win by getting great funding rounds, but by making great products. So finish raising money and get back to work.",
+      "zhMarkdown": "创业公司不是靠拿到牛逼的融资活下来的，而是靠做出牛逼的产品。所以，赶紧结束融资，回去干活吧。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "51a73299b027d3cae37ef76068cfb92dcb8c87121ebef56d0e8135e55add4f81",
+      "enMarkdown": "**4. Be flexible.**",
+      "zhMarkdown": "**4. 保持灵活。**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "b5c295d67579f9d0925ece21bfba1bf2c02f1392173cd7be9da7d1d3cd756abb",
+      "enMarkdown": "There are two questions VCs ask that you shouldn't answer: \"Who else are you talking to?\" and \"How much are you trying to raise?\"",
+      "zhMarkdown": "VC 会问两个你不应该回答的问题：“你还在和谁谈？”以及“你打算融多少钱？”"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "647be300add68e31e1b290d39a8547c48c579abe607843c771007a5f85c11a7e",
+      "enMarkdown": "VCs don't expect you to answer the first question. They ask it just in case. [[4](#f4n)] They do seem to expect an answer to the second. But I don't think you should just tell them a number. Not as a way to play games with them, but because you shouldn't *have* a fixed amount you need to raise.",
+      "zhMarkdown": "VC 并不期望你回答第一个问题。他们只是顺便问问。[[4](#f4n)] 他们似乎确实期望你回答第二个问题。但我认为你不应该直接给他们一个数字。这不是为了和他们玩套路，而是因为你根本不应该有一个固定的融资额度。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "122ae0a5299c4f9dbaa2e552abbbac5e9af1f5c2df2d463ace39885376ef2ec3",
+      "enMarkdown": "The custom of a startup needing a fixed amount of funding is an obsolete one left over from the days when startups were more expensive. A company that needed to build a factory or hire 50 people obviously needed to raise a certain minimum amount. But few technology startups are in that position today.",
+      "zhMarkdown": "创业公司需要固定融资额度的习惯，是创业成本高昂的旧时代遗留下来的过时产物。过去，一家需要建工厂或雇佣 50 人的公司，显然需要融到一定的最低金额。但今天的技术创业公司很少处于这种境地。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "6f0da575ac4d15a67aed827bdc7c7b207c307a551db9ec71e6a681a84a71bf7e",
+      "enMarkdown": "We advise startups to tell investors there are several different routes they could take depending on how much they raised. As little as $50k could pay for food and rent for the founders for a year. A couple hundred thousand would let them get office space and hire some smart people they know from school. A couple million would let them really blow this thing out. The message (and not just the message, but the fact) should be: we're going to succeed no matter what. Raising more money just lets us do it faster.",
+      "zhMarkdown": "我们建议创业公司告诉投资人，根据融到资金的多寡，他们有几条不同的路线可以走。最少 50k 美元就可以支付创始人一年的伙食费和房租。几十万美元可以让公司租到办公室，并雇几个学校里认识的聪明人。几百万美元可以让公司真正把这件事情做大。传达的信息（不仅是信息，而且是事实）应该是：无论如何我们都会成功。融到更多的钱只是让我们跑得更快。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "e1d748125035aa7d455409e0eab9cf675dcdd0cdcbde3cac9f2a1d6966f8b0eb",
+      "enMarkdown": "If you're raising an angel round, the size of the round can even change on the fly. In fact, it's just as well to make the round small initially, then expand as needed, rather than trying to raise a large round and risk losing the investors you already have if you can't raise the full amount. You may even want to do a \"rolling close,\" where the round has no predetermined size, but instead you sell stock to investors one at a time as they say yes. That helps break deadlocks, because you can start as soon as the first one is ready to buy. [[5](#f5n)]",
+      "zhMarkdown": "如果你正在融天使轮，融资金额甚至可以随时调整。事实上，最好一开始把额度定得小一些，然后根据需要再扩大，而不是试图融一大笔钱，结果因为融不满额度而冒着失去已有投资人的风险。你甚至可以做“滚动交割”（rolling close），即融资不设预定额度，而是在投资人答应后，一个接一个地向他们出售股份。这有助于打破僵局，因为只要第一个投资人准备好了，你就可以开始交易。[[5](#f5n)]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "bd6328d3bb341899869995c20e6250aee15771f518003b837cfda4dfc034ee25",
+      "enMarkdown": "**5. Be independent.**",
+      "zhMarkdown": "**5. 保持独立。**"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "1a323c47acd5b14bd3514c9f6813f4d58387e277ca49ac84ce75eb8adf169411",
+      "enMarkdown": "A startup with a couple founders in their early twenties can have expenses so low that they could be profitable on as little as $2000 per month. That's negligible as corporate revenues go, but the effect on your morale and your bargaining position is anything but. At YC we use the phrase \"ramen profitable\" to describe the situation where you're making just enough to pay your living expenses. Once you cross into ramen profitable, everything changes. You may still need investment to make it big, but you don't need it this month.",
+      "zhMarkdown": "一个由两个二十出头的创始人创办的创业公司，开销可以非常低，以至于每月只需 2000 美元的收入就能实现盈利。对于公司收入来说，这微不足道，但它对你的士气和谈判地位的影响却是非同寻常的。在 YC，我们用“拉面盈利”（ramen profitable）这个词来形容那种收入刚好够支付生活开销的状态。一旦跨过“拉面盈利”的门槛，一切都变了。你可能仍需要投资来做大，但你这个月不需要它了。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "3c4ce7cea83e720fbd9f09faee6d8c200c87287e9ac710d66e096e19bc58fe09",
+      "enMarkdown": "You can't plan when you start a startup how long it will take to become profitable. But if you find yourself in a position where a little more effort expended on sales would carry you over the threshold of ramen profitable, do it.",
+      "zhMarkdown": "你在刚创办创业公司时，无法规划需要多长时间才能盈利。但如果你发现自己处于这样一个境地：在销售上多付出一点努力就能让你跨过“拉面盈利”的门槛，那就去做吧。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "52ee69af19a9af44fc4827ddcb9690d1bba56b0dfe842daa8281337852a970ac",
+      "enMarkdown": "Investors like it when you're ramen profitable. It shows you've thought about making money, instead of just working on amusing technical problems; it shows you have the discipline to keep your expenses low; but above all, it means you don't need them.",
+      "zhMarkdown": "投资人喜欢“拉面盈利”的公司。这表明你已经思考过如何赚钱，而不仅仅是沉迷于有趣的工程技术问题；这表明你有克制开销的纪律；但最重要的是，这意味着你不需要他们。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "40c2ad5d485858a4dbb70314c6875683c246ddf8d0d732606f247c835400db12",
+      "enMarkdown": "There is nothing investors like more than a startup that seems like it's going to succeed even without them. Investors like it when they can help a startup, but they don't like startups that would die without that help.",
+      "zhMarkdown": "没有什么比一个看起来即使没有他们也能成功的创业公司更让投资人喜欢的了。投资人喜欢锦上添花，但他们不喜欢没有他们的帮助就会死掉的创业公司。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "ffcd08433b316ff52ec75439a54894f31bcf620bc16fedc1537e05fcfa870070",
+      "enMarkdown": "At YC we spend a lot of time trying to predict how the startups we've funded will do, because we're trying to learn how to pick winners. We've now watched the trajectories of so many startups that we're getting better at predicting them. And when we're talking about startups we think are likely to succeed, what we find ourselves saying is things like \"Oh, those guys can take care of themselves. They'll be fine.\" Not \"those guys are really smart\" or \"those guys are working on a great idea.\" [[6](#f6n)] When we predict good outcomes for startups, the qualities that come up in the supporting arguments are toughness, adaptability, determination. Which means to the extent we're correct, those are the qualities you need to win.",
+      "zhMarkdown": "在 YC，我们花了很多时间试图预测我们资助的创业公司会发展得如何，因为我们想学会如何挑选赢家。我们现在观察了太多创业公司的轨迹，以至于我们越来越擅长预测了。当我们谈论那些我们认为有可能成功的创业公司时，我们发现自己常说的话是“哦，那些家伙能照顾好自己。他们会没事的。”而不是“那些家伙绝顶聪明”或“那些家伙正在做一个伟大的想法”。[[6](#f6n)] 当我们预测创业公司会有好结果时，支撑论点的品质通常是坚韧、适应力和决心。这意味着，在某种程度上如果我们预测得没错，这些正是你获胜所需的品质。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "9c0ca5ccfe47ce720508fd59e224608cd794cc0e7b80164f79d7c87e71f2f5f7",
+      "enMarkdown": "Investors know this, at least unconsciously. The reason they like it when you don't need them is not simply that they like what they can't have, but because that quality is what makes founders succeed.",
+      "zhMarkdown": "投资人知道这一点，至少在潜意识里是知道的。他们喜欢你不需要他们的原因，不仅是因为人人都喜欢得不到的东西，更是因为这种特质正是让创始人取得成功的关键。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "468350e32878ff02c9e83134be61e6169a1424505035aba56a2868ef7422ba79",
+      "enMarkdown": "[Sam Altman](http://www.youtube.com/watch?v=KhhId_WG7RA) has it. You could parachute him into an island full of cannibals and come back in 5 years and he'd be the king. If you're Sam Altman, you don't have to be profitable to convey to investors that you'll succeed with or without them. (He wasn't, and he did.) Not everyone has Sam's deal-making ability. I myself don't. But if you don't, you can let the numbers speak for you.",
+      "zhMarkdown": "[Sam Altman](http://www.youtube.com/watch?v=KhhId_WG7RA) 就有这种特质。你可以把他用降落伞扔到一个满是食人族的岛上，5 年后再去，他已经成了国王。如果你是 Sam Altman，你不需要盈利就能向投资人传达出“无论有没有你们我都会成功”的信息。（他当时没有盈利，但他做到了。）并非每个人都有 Sam 那种达成交易的能力。我自己就没有。但如果你没有，你可以让数据替你说话。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "04088f4f6420e958d0dd8b43f60d4f811ec84c2f0bc42a04526eaba0b5b43ed2",
+      "enMarkdown": "**6. Don't take rejection personally.**",
+      "zhMarkdown": "**6. 不要把拒绝当成针对个人的。**"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "7a389fc1af3b2ae5a5f9dc934369910936735b343536d8df00a219728fb35c9f",
+      "enMarkdown": "Getting rejected by investors can make you start to doubt yourself. After all, they're more experienced than you. If they think your startup is lame, aren't they probably right?",
+      "zhMarkdown": "被投资人拒绝会让你开始怀疑自己。毕竟，他们比你更有经验。如果他们觉得你的创业公司很烂，难道他们大概率是对的吗？"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "7f565e8267edfdab0c8a483bd7aeb78411a848acdf3a2fb5d986c2af37ba7322",
+      "enMarkdown": "Maybe, maybe not. The way to handle rejection is with precision. You shouldn't simply ignore rejection. It might mean something. But you shouldn't automatically get demoralized either.",
+      "zhMarkdown": "也许对，也许不对。应对拒绝的方法是保持精准。你不应该简单地忽视拒绝，它可能代表着什么；但你也不应该自动变得沮丧。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "be75cc5b496ff03ab757720b87e1d842663dcbe144b0d3f9d959781e2117b730",
+      "enMarkdown": "To understand what rejection means, you have to understand first of all how common it is. Statistically, the average VC is a rejection machine. David Hornik, a partner at August, told me:",
+      "zhMarkdown": "要理解拒绝意味着什么，你首先必须明白拒绝是多么常见。从统计数据来看，平均每个 VC 都是一个拒绝机器。August 的合伙人 David Hornik 告诉我："
+    },
+    {
+      "id": 58,
+      "type": "quote",
+      "sourceHash": "f6a0c2f5bda0293e2daff1d69aa1b9e24c9b55e71e05ffaa9b080d73c44bc629",
+      "enMarkdown": "> The numbers for me ended up being something like 500 to 800 plans received and read, somewhere between 50 and 100 initial 1 hour meetings held, about 20 companies that I got interested in, about 5 that I got serious about and did a bunch of work, 1 to 2 deals done in a year. So the odds are against you. You may be a great entrepreneur, working on interesting stuff, etc. but it is still incredibly unlikely that you get funded.",
+      "zhMarkdown": "> 对我来说，数据最终是这样的：收到并阅读了大约 500 到 800 份商业计划书，进行了大约 50 到 100 次初步的 1 小时会面，对大约 20 家公司产生了兴趣，其中大约有 5 家认真跟进并做了大量工作，一年内最终达成 1 到 2 笔交易。所以概率对你不利。你可能是一个伟大的创业者，正在做有趣的事情等等，但你拿到融资的可能性依然低得令人难以置信。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "fa5bd92fb5507e9b3ec0c6dde844ae385a0f5a223bb95c00e7e719712f8a75bb",
+      "enMarkdown": "This is less true with angels, but VCs reject practically everyone. The structure of their business means a partner does at most 2 new investments a year, no matter how many good startups approach him.",
+      "zhMarkdown": "天使投资人可能会好一些，但 VC 实际上会拒绝几乎所有人。他们的业务结构决定了，一个合伙人一年最多只做 2 笔新投资，无论有多少优秀的创业公司找上门来。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "d9d8b723c5753a31f3037febdeb555ad595032ed402849f2b5a7712f1d85d235",
+      "enMarkdown": "In addition to the odds being terrible, the average investor is, as I mentioned, a pretty bad judge of startups. It's harder to judge startups than most other things, because great startup ideas tend to seem wrong. A good startup idea has to be not just good but novel. And to be both good and novel, an idea probably has to seem bad to most people, or someone would already be doing it and it wouldn't be novel.",
+      "zhMarkdown": "除了概率极低之外，正如我所说，平均每个投资人对创业公司的判断力其实挺差的。判断创业公司比判断大多数其他事物都要难，因为伟大的创业点子往往看起来是错的。一个好的创业点子不仅要好，还要新颖。而要做到既好又新颖，这个点子在大多数人眼里可能显得很糟糕，否则别人早就去做了，它也就谈不上新颖了。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "0dd361dc1c75c6ce537496cbc2de4d83062e3bb13c416d6c2464fc6e16437a93",
+      "enMarkdown": "That makes judging startups harder than most other things one judges. You have to be an intellectual contrarian to be a good startup investor. That's a problem for VCs, most of whom are not particularly imaginative. VCs are mostly money guys, not people who make things. [[7](#f7n)] Angels are better at appreciating novel ideas, because most were founders themselves.",
+      "zhMarkdown": "这使得判断创业公司比判断大多数其他事物都要难。你必须是一个思想上的逆向投资者，才能成为一个优秀的创业投资人。这对 VC 来说是个问题，因为他们中的大多数人并没有特别丰富的想象力。VC 大多是管钱的，而不是创造东西的人。[[7](#f7n)] 天使投资人更懂得欣赏新颖的想法，因为他们中的大多数自己就曾是创始人。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "ad47836bd1122b46a7f60c9aa6a7da0889dc4fbe9fc134bf9db95e7c15ce3cde",
+      "enMarkdown": "So when you get a rejection, use the data that's in it, and not what's not. If an investor gives you specific reasons for not investing, look at your startup and ask if they're right. If they're real problems, fix them. But don't just take their word for it. You're supposed to be the domain expert; you have to decide.",
+      "zhMarkdown": "因此，当你被拒绝时，要利用其中包含的信息，而不是那些不包含的信息。如果投资人给出了具体的拒绝理由，审视一下你的创业公司，问问他们说得对不对。如果是真实存在的问题，去解决它们。但不要盲信他们的话。你才是这个领域的专家；你必须自己做决定。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "526ddf8c2b0f2c8384416018cf361fe8027409d5d7a894217a03616824ae67bf",
+      "enMarkdown": "Though a rejection doesn't necessarily tell you anything about your startup, it does suggest your pitch could be improved. Figure out what's not working and change it. Don't just think \"investors are stupid.\" Often they are, but figure out precisely where you lose them.",
+      "zhMarkdown": "虽然被拒绝并不一定说明你的创业公司有什么问题，但它确实表明你的路演（pitch）有待改进。找出不起作用的地方并加以修改。不要只是觉得“投资人都是蠢货”。他们经常确实是，但你要找出你究竟是在哪里把他们搞丢的。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "659711eadc8f9a70ec623cbab48f3ed9594a0ce717c307c5e191de41dd005728",
+      "enMarkdown": "Don't let rejections pile up as a depressing, undifferentiated heap. Sort them and analyze them, and then instead of thinking \"no one likes us,\" you'll know precisely how big a problem you have, and what to do about it.",
+      "zhMarkdown": "不要让拒绝堆积成一堆令人沮丧、模糊不清的阴影。对它们进行分类和分析，这样你就不会觉得“没有人喜欢我们”，而是会准确地知道你面临的问题有多大，以及该如何应对。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "8eca1d01c7cf0593262e8e69ca14ecd6b5dba8b5f03aade9e163b1528a957758",
+      "enMarkdown": "**7. Be able to downshift into consulting (if appropriate).**",
+      "zhMarkdown": "**7. 能够随时退回到咨询状态（如果合适的话）。**"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "8dd0924a21094d3ce6c1f88a07946326f00cc6aebc572f20d2262e061a32298c",
+      "enMarkdown": "Consulting, as I mentioned, is a dangerous way to finance a startup. But it's better than dying. It's a bit like anaerobic respiration: not the optimum solution for the long term, but it can save you from an immediate threat. If you're having trouble raising money from investors at all, it could save you to be able to shift toward consulting.",
+      "zhMarkdown": "正如我所提到的，做咨询是资助创业公司的一种危险方式。但总比死掉好。这有点像无氧呼吸：虽然不是长期的最佳解决方案，但它能把你从迫在眉睫的威胁中解救出来。如果你在向投资人融资时遇到很大困难，能够转向咨询服务或许能救你一命。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "ff055e065007723101bbc46f2ad58553fb3bdb59807118d7a1c9fc3dfa12c917",
+      "enMarkdown": "This works better for some startups than others. It wouldn't have been a natural fit for, say, Google, but if your company was making software for building web sites, you could degrade fairly gracefully into consulting by building sites for clients with it.",
+      "zhMarkdown": "这更适合某些创业公司，而不适合另一些。比如，这对于 Google 来说肯定不合适，但如果你的公司正在开发用于建站的软件，你就可以相当体面地退回到咨询状态——用自己的软件帮客户建站。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "d285cbdf583697135b0bd1fca2800503e5ec16b877d7c9d80665eaf7d8cc0db6",
+      "enMarkdown": "So long as you were careful not to get sucked permanently into consulting, this could even have advantages. You'd understand your users well if you were using the software for them. Plus as a consulting company you might be able to get big-name users using your software that you wouldn't have gotten as a product company.",
+      "zhMarkdown": "只要你小心不被永久地吸进咨询的泥潭，这甚至还有一些好处。因为是帮客户使用这个软件，你会非常了解你的用户。此外，作为一家咨询公司，你可能会争取到一些知名客户来使用你的软件，而作为一家产品公司，你可能根本接触不到他们。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "5d4b20b0cf1676784961e255ce503c7e9688da685a64530e38407563f1e4d1bf",
+      "enMarkdown": "At Viaweb we were forced to operate like a consulting company initially, because we were so desperate for users that we'd offer to build merchants' sites for them if they'd sign up. But we never charged for such work, because we didn't want them to start treating us like actual consultants, and calling us every time they wanted something changed on their site. We knew we had to stay a product company, because only that scales.",
+      "zhMarkdown": "在 Viaweb 早期，我们被迫像咨询公司一样运作，因为我们太渴望用户了，以至于只要他们注册，我们就主动提出帮商家建站。但我们从未对这些工作收费，因为我们不想让他们开始把我们当成真正的顾问，每次想要修改网站内容时都打电话找我们。我们知道我们必须保持产品公司的属性，因为只有产品才能规模化。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "9b60caaabebeefddfbfdca865b7934c668207ca852c9da14d5aa734107a2654b",
+      "enMarkdown": "**8. Avoid inexperienced investors.**",
+      "zhMarkdown": "**8. 避开没有经验的投资人。**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "f77a440cad17670c22ccb76daffe810bf5eb821f9b4868fbd2145f195218bef7",
+      "enMarkdown": "Though novice investors seem unthreatening they can be the most dangerous sort, because they're so nervous. Especially in proportion to the amount they invest. Raising $20,000 from a first-time angel investor can be as much work as raising $2 million from a VC fund.",
+      "zhMarkdown": "虽然新手投资人看起来没什么威胁，但他们可能是最危险的一类，因为他们太紧张了。尤其是与他们投资的金额相比。从一个第一次做天使投资的人那里融 2 万美元，可能和从 VC 基金融 200 万美元花一样多的精力。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "9a60a083200337ee68326052b67f94540268b6eb487f1778854e791c75b8fd9e",
+      "enMarkdown": "Their lawyers are generally inexperienced too. But while the investors can admit they don't know what they're doing, their lawyers can't. One YC startup negotiated terms for a tiny round with an angel, only to receive a 70-page agreement from his lawyer. And since the lawyer could never admit, in front of his client, that he'd screwed up, he instead had to insist on retaining all the draconian terms in it, so the deal fell through.",
+      "zhMarkdown": "他们的律师通常也缺乏经验。但是，虽然投资人可以承认自己不懂，他们的律师却不能。一家 YC 创业公司曾与一位天使投资人谈妥了一个微型轮的条款，结果却收到了他的律师发来的一份 70 页的协议。由于那个律师在客户面前绝不能承认自己搞砸了，他只能坚持保留里面所有苛刻的条款，最终导致交易告吹。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "b309695620cddb803ded2d71b33b0df28679a1939fba9cfffa66591fa6b2e6d1",
+      "enMarkdown": "Of course, someone has to take money from novice investors, or there would never be any experienced ones. But if you do, either (a) drive the process yourself, including supplying the [paperwork](http://ycombinator.com/seriesaa.html), or (b) use them only to fill up a larger round led by someone else.",
+      "zhMarkdown": "当然，总得有人去拿新手投资人的钱，否则就永远不会有经验丰富的投资人。但如果你这么做了，要么 (a) 自己主导整个流程，包括提供[法律文件](http://ycombinator.com/seriesaa.html)，要么 (b) 仅用他们来填补由别人领投的更大融资轮的额度。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "4eaebf8bcadbe857f4fdd53495c0b38b09c2240e1b80e038136257f45c295a2a",
+      "enMarkdown": "**9. Know where you stand.**",
+      "zhMarkdown": "**9. 清楚自己所处的位置。**"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "3b04fd59da8c0c5ec9dca5726d61f2ab7ac22dd7c8f8d7bf97acf09a0ef637b9",
+      "enMarkdown": "The most dangerous thing about investors is their indecisiveness. The worst case scenario is the long no, the no that comes after months of meetings. Rejections from investors are like design flaws: inevitable, but much less costly if you discover them early.",
+      "zhMarkdown": "投资人最危险的地方在于他们的犹豫不决。最糟糕的情况是“漫长的拒绝”——在经历了几个月的会议之后才被拒绝。投资人的拒绝就像设计缺陷：不可避免，但越早发现代价越小。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "e7b03796f1361277e6d7e3e741861889d1ab87cebb15a0efe9efe2abe8de8ce9",
+      "enMarkdown": "So while you're talking to investors, constantly look for signs of where you stand. How likely are they to offer you a term sheet? What do they have to be convinced of first? You shouldn't necessarily always be asking these questions outright—that could get annoying—but you should always be collecting data about them.",
+      "zhMarkdown": "因此，在与投资人沟通时，要不断寻找能表明你处境的信号。他们给你提供投资意向书（term sheet）的可能性有多大？他们首先需要被说服的是什么？你不一定非要总是直截了当地问这些问题——这可能会让人反感——但你应该一直在收集关于他们的信息。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "edc83930592b91c19337c72752cdc4d664b1e8c49fd01aee46220636a15d4c8e",
+      "enMarkdown": "Investors tend to resist committing except to the extent you push them to. It's in their interest to collect the maximum amount of information while making the minimum number of decisions. The best way to force them to act is, of course, competing investors. But you can also apply some force by focusing the discussion: by asking what specific questions they need answered to make up their minds, and then answering them. If you get through several obstacles and they keep raising new ones, assume that ultimately they're going to flake.",
+      "zhMarkdown": "投资人往往倾向于拖延表态，除非你逼他们。收集尽可能多的信息，同时做尽可能少的决定，这最符合他们的利益。强迫他们采取行动的最好方法当然是竞争对手（其他投资人）。但你也可以通过聚焦讨论来施加一些压力：询问他们需要解决哪些具体问题才能做出决定，然后给出解答。如果你通过了几个障碍，他们却不断提出新的障碍，那就假设他们最终会放鸽子。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "a1dd121306ecee9e1bb2bf98979d71f59fc743e96b5092bf79c319123637698b",
+      "enMarkdown": "You have to be disciplined when collecting data about investors' intentions. Otherwise their desire to lead you on will combine with your own desire to be led on to produce completely inaccurate impressions.",
+      "zhMarkdown": "在收集关于投资人意图的数据时，你必须保持理智。否则，他们想吊你胃口的欲望，结合你想被吊胃口的愿望，会产生完全不切实际的幻觉。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "d9a038c0db86fb7eb101314939a862f3bd7278eabeb1f170a65bc6e9ee863862",
+      "enMarkdown": "Use the data to weight your strategy. You'll probably be talking to several investors. Focus on the ones that are most likely to say yes. The value of a potential investor is a combination of how good it would be if they said yes, and how likely they are to say it. Put the most weight on the second factor. Partly because the most important quality in an investor is simply investing. But also because, as I mentioned, the biggest factor in investors' opinion of you is other investors' opinion of you. If you're talking to several investors and you manage to get one over the threshold of saying yes, it will make the others much more interested. So you're not sacrificing the lukewarm investors if you focus on the hot ones; convincing the hot investors is the best way to convince the lukewarm ones.",
+      "zhMarkdown": "利用这些数据来权衡你的策略。你可能会和几个投资人谈。重点放在最有可能说“好”的那些人身上。一个潜在投资人的价值，取决于他们如果说“好”会有多棒，以及他们说“好”的可能性。把最大的权重放在第二个因素上。部分原因在于，投资人最重要的品质就是掏钱。但也因为，正如我所说，投资人对你的看法，最大的决定因素是其他投资人的看法。如果你正在和几个投资人谈，并且成功让其中一个跨过了说“好”的门槛，这会让其他人产生极大的兴趣。因此，如果你把精力集中在有意向的投资人身上，你并没有牺牲那些不冷不热的投资人；说服有意向的投资人是说服那些不冷不热的投资人的最好方法。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "c723172107b39c854c32e0a22fb6c6cb8f0daa3bef427ecdb60c3d282cbde248",
+      "enMarkdown": "**Future**",
+      "zhMarkdown": "**未来**"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "237d74ee9e8e8043c053544317e4a1a446930189de00fcc05a66ce755b0c3e20",
+      "enMarkdown": "I'm hopeful things won't always be so awkward. I hope that as startups get cheaper and the number of investors increases, raising money will become, if not easy, at least straightforward.",
+      "zhMarkdown": "我希望情况不会总是这么尴尬。我希望随着创业成本的降低和投资人数量的增加，融资即使不简单，至少也会变得顺理成章。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "669dd315cd8b8160183da93047771af6fc515c3b4a2ac2a2b8aee7518706e8e4",
+      "enMarkdown": "In the meantime, the brokenness of the funding process offers a big opportunity. Most investors have no idea how dangerous they are. They'd be surprised to hear that raising money from them is something that has to be treated as a threat to a company's survival. They just think they need a little more information to make up their minds. They don't get that there are 10 other investors who also want a little more information, and that the process of talking to them all can bring a startup to a standstill for months.",
+      "zhMarkdown": "在此期间，融资流程的糟糕现状提供了一个巨大的机会。大多数投资人根本不知道自己有多危险。如果听到“向他们融资必须被视为对公司生存的威胁”这种话，他们会感到惊讶。他们只是觉得自己需要多一点信息来做决定。他们不明白还有另外 10 个投资人也想要多一点信息，而和他们所有人沟通的过程会让一家创业公司停滞数月。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "09709af301ee81e081ab1aac855c3ed797fa07a48857191abdcad39b27a681ed",
+      "enMarkdown": "Because investors don't understand the cost of dealing with them, they don't realize how much room there is for a potential competitor to undercut them. I know from my own experience how much faster investors could decide, because we've brought our own time down to 20 minutes (5 minutes of reading an application plus a 10 minute interview plus 5 minutes of discussion). If you were investing more money you'd want to take longer, of course. But if we can decide in 20 minutes, should it take anyone longer than a couple days?",
+      "zhMarkdown": "因为投资人不理解与他们打交道的成本，所以他们没有意识到潜在竞争对手有多大的空间可以降维打击他们。从我自己的经验来看，我知道投资人做决定的速度可以有多快，因为我们已经把自己的时间缩短到了 20 分钟（5 分钟阅读申请表，加上 10 分钟面试，加上 5 分钟讨论）。当然，如果你要投更多的钱，你会想要花更多时间。但如果我们能在 20 分钟内做出决定，其他人难道应该花上几天以上的时间吗？"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "982ab1b1ef2a698ef79ae202cc90afc8e09b84a97f56c3e1fbf342a39354b151",
+      "enMarkdown": "Opportunities like this don't sit unexploited forever, even in an industry as conservative as venture capital. So either existing investors will start to make up their minds faster, or new investors will emerge who do.",
+      "zhMarkdown": "像这样的机会不会永远不被开发，即使是在风险投资这样保守的行业里。因此，要么现有的投资人开始更快地做出决定，要么就会出现能够做到这一点的全新投资人。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "9c60fa0c0bcc98a7d187587b0ac514f41abd1bb6448bcd07c5e23c295f1ce702",
+      "enMarkdown": "In the meantime founders have to treat raising money as a dangerous process. Fortunately, I can fix the biggest danger right here. The biggest danger is surprise. It's that startups will underestimate the difficulty of raising money—that they'll cruise through all the initial steps, but when they turn to raising money they'll find it surprisingly hard, get demoralized, and give up. So I'm telling you in advance: raising money is hard.",
+      "zhMarkdown": "在此期间，创始人必须将融资视为一个危险的过程。幸运的是，我可以在这里解决最大的危险。最大的危险是猝不及防。那就是创业公司会低估融资的难度——他们会在初始的步骤中一帆风顺，但当他们转向融资时，会发现它出奇地难，从而丧失斗志，最终放弃。所以我提前告诉你：融资很难。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "48b1f024a1f2726bbd2280ff4246ae2783332d3fa5aceff45e34c66c92297892",
+      "enMarkdown": "[1] When investors can't make up their minds, they sometimes describe it as if it were a property of the startup. \"You're too early for us,\" they sometimes say. But which of them, if they were taken back in a time machine to the hour Google was founded, wouldn't offer to invest at any valuation the founders chose? An hour old is not too early if it's the right startup. What \"you're too early\" really means is \"we can't figure out yet whether you'll succeed.\"",
+      "zhMarkdown": "[1] 当投资人拿不定主意时，他们有时会把它描述为创业公司的属性。他们有时会说：“你们对我们来说太早了。”但是，如果把他们用时光机送回到 Google 成立的那一刻，他们有谁不会以创始人指定的任何估值进行投资呢？如果是对的创业公司，即使只成立了一个小时也不算太早。“你们太早了”真正的意思是“我们还看不准你们是否会成功”。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "d2e165b58f9b8ef7ad0eddd4915a09e96bf8ad06e47bc7532d7946e80dda4a07",
+      "enMarkdown": "[2] Investors influence one another both directly and indirectly. They influence one another directly through the \"buzz\" that surrounds a hot startup. But they also influence one another indirectly *through the founders.* When a lot of investors are interested in you, it increases your confidence in a way that makes you much more attractive to investors.",
+      "zhMarkdown": "[2] 投资人之间会相互影响，包括直接的和间接的。他们通过围绕热门创业公司的“风声”（buzz）产生直接影响。但他们也会*通过创始人*产生间接影响。当很多投资人对你感兴趣时，会增加你的信心，而这种信心会让你对投资人产生大得多的吸引力。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "f7c1a7539a5b1a0a4c9ace966bb7880faa9d845f5123beed078aa90a6c7ffd90",
+      "enMarkdown": "No VC will admit they're influenced by buzz. Some genuinely aren't. But there are few who can say they're not influenced by confidence.",
+      "zhMarkdown": "没有 VC 会承认自己受到了风声的影响。有些确实没有。但很少有人敢说自己没有受到信心的影响。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "eb91f51575c641635c086923eb4eb42b83b07d25ae5814563bcc3635e5300abc",
+      "enMarkdown": "[3] One VC who read this essay wrote:",
+      "zhMarkdown": "[3] 一位读过这篇文章的 VC 写道："
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "05e835c64ff45b9a83a362dd2b9f84f2843799cc4f4f0a0f5d8bf8b8c8f8b741",
+      "enMarkdown": "\"We try to avoid companies that got bootstrapped with consulting. It creates very bad behaviors/instincts that are hard to erase from a company's culture.\"",
+      "zhMarkdown": "“我们尽量避开通过咨询实现自给自足的公司。这会产生非常糟糕的行为和直觉，很难从公司的文化中抹去。”"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "01046978ea3ca0ace5493e3b2255c138d6cb1ad46328a7c591a15fc302e472f0",
+      "enMarkdown": "[4] The optimal way to answer the first question is to say that it would be improper to name names, while simultaneously implying that you're talking to a bunch of other VCs who are all about to give you term sheets. If you're the sort of person who understands how to do that, go ahead. If not, don't even try. Nothing annoys VCs more than clumsy efforts to manipulate them.",
+      "zhMarkdown": "[4] 回答第一个问题的最佳方式是，说透露名字是不妥当的，同时暗示你正在和一大堆其他 VC 谈，他们都准备给你发投资意向书了。如果你是那种懂得如何操作的人，那就尽管去做。如果不是，就别去尝试。没有什么比拙劣地试图操纵 VC 更让他们反感的了。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "19a8a2b381d627ef69a7be0d0de0c91445eed1612f35f6efe9cb5452bed90a8c",
+      "enMarkdown": "[5] The disadvantage of expanding a round on the fly is that the valuation is fixed at the start, so if you get a sudden rush of interest, you may have to decide between turning some investors away and selling more of the company than you meant to. That's a good problem to have, however.",
+      "zhMarkdown": "[5] 随时扩大融资金额的缺点是，估值在开始时就已经固定了，所以如果你突然遇到大量意向，你可能不得不在拒绝一些投资人和卖掉比预期更多的公司股份之间做出抉择。不过，这是一个幸福的烦恼。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "387e5d9bb1bacffa7a55153bfb4627ddde7a53d8d6517a21b5c74c122f21e502",
+      "enMarkdown": "[6] I wouldn't say that intelligence doesn't matter in startups. We're only comparing YC startups, who've already made it over a certain threshold.",
+      "zhMarkdown": "[6] 我并不是说聪明才智在创业中不重要。我们只是在对 YC 投资的创业公司进行比较，而他们已经跨过了一定的门槛。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "7c301cbcabe3c60d9a9e796222205ba6fb152dc8175a6cce661696238e626448",
+      "enMarkdown": "[7] But not all are. Though most VCs are suits at heart, the most successful ones tend not to be. Oddly enough, the best VCs tend to be the least VC-like.",
+      "zhMarkdown": "[7] 但也并非所有人都是如此。虽然大多数 VC 骨子里都是西装革履的生意人，但最成功的那些往往不是。说来也怪，最优秀的 VC 往往最不像典型的 VC。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "ac8a5d60b42447875a3f40e9cf3e40602b0c964f3fce6802b48523ff41b2cea4",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, David Hornik, Jessica Livingston, Robert Morris, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、David Hornik、Jessica Livingston、Robert Morris 和 Fred Wilson 阅读了本文的草稿。"
+    }
+  ]
+}

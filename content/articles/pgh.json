@@ -1,0 +1,272 @@
+{
+  "slug": "pgh",
+  "titleEn": "How to Make Pittsburgh a Startup Hub",
+  "titleZh": "如何将匹兹堡打造成创业公司中心",
+  "dateText": "April 2016",
+  "publishedAt": "2016-04-01",
+  "sourceOrder": 58,
+  "sourceUrl": "https://paulgraham.com/pgh.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "85b19960daef35f4c19422a3f8bdadfd8c9802a8e5323ab3aa06e08024d93336",
+      "enMarkdown": "*(This is a talk I gave at an event called Opt412 in Pittsburgh.\nMuch of it will apply to other towns.  But not all, because\nas I say in the talk, Pittsburgh has some important advantages over\nmost would-be startup hubs.)*",
+      "zhMarkdown": "*(这是我在匹兹堡一个名为 Opt412 的活动上发表的演讲。其中大部分内容也适用于其他城市。但并非全部，因为正如我在演讲中所说，匹兹堡相比于大多数渴望成为创业公司中心的城市，拥有一些重要的独特优势。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4e2d70de06a6965cea5b421d03891abf18c8175ece48ab8520b746dc87dab7f0",
+      "enMarkdown": "What would it take to make Pittsburgh into a startup hub, like Silicon Valley? I understand Pittsburgh pretty well, because I grew up here, in Monroeville. And I understand Silicon Valley pretty well because that's where I live now. Could you get that kind of startup ecosystem going here?",
+      "zhMarkdown": "要怎样才能把匹兹堡打造成像硅谷那样的创业公司中心？我对匹兹堡相当了解，因为我是在这里的莫罗维尔（Monroeville）长大的。我也很了解硅谷，因为那是我现在的居住地。我们能在这里建立起那样的创业生态系统吗？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "4d8e3dc6f5ba7f72df4206ee64316ca56b1770effb944b0e430632a365b838d5",
+      "enMarkdown": "When I agreed to speak here, I didn't think I'd be able to give a very optimistic talk. I thought I'd be talking about what Pittsburgh could do to become a startup hub, very much in the subjunctive. Instead I'm going to talk about what Pittsburgh can do.",
+      "zhMarkdown": "当我答应来这里演讲时，我本以为自己无法带来一场非常乐观的演讲。我原以为我只能在假设的语境下，谈谈匹兹堡“可以”做些什么来成为创业公司中心。但现在，我要谈的是匹兹堡“能够”做些什么。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "13b480e5fe583e96be7feafd788f4edfaa51b4ab43c8aa3e14fa7b7d13464af8",
+      "enMarkdown": "What changed my mind was an article I read in, of all places, the *New\nYork Times* food section. The title was \"[Pittsburgh's Youth-Driven\nFood Boom](http://www.nytimes.com/2016/03/16/dining/pittsburgh-restaurants.html).\" To most people that might not even sound interesting, let alone something related to startups. But it was electrifying to me to read that title. I don't think I could pick a more promising one if I tried. And when I read the article I got even more excited. It said \"people ages 25 to 29 now make up 7.6 percent of all residents, up from 7 percent about a decade ago.\" Wow, I thought, Pittsburgh could be the next Portland. It could become the cool place all the people in their twenties want to go live.",
+      "zhMarkdown": "改变我想法的，是《纽约时报》美食版上的一篇文章，这地方可真让人想不到。文章标题是《[匹兹堡由年轻人推动的美食热潮](http://www.nytimes.com/2016/03/16/dining/pittsburgh-restaurants.html)》。对大多数人来说，这个标题听起来甚至毫无吸引力，更不用说和创业公司扯上关系了。但看到这个标题时，我整个人都兴奋了起来。如果让我自己来想，我也想不出比这更令人振奋的标题了。读完文章后，我更加激动。文中提到：“25 到 29 岁的人口目前占当地总居民的 7.6%，高于大约十年前的 7%。” 哇，我想，匹兹堡完全可以成为下一个波特兰。它能变成所有二十多岁的年轻人都向往的酷地方。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "7d1b3eec028a4840c9b2b858b38d12ef135643346ced13346cc1ed242d412c47",
+      "enMarkdown": "When I got here a couple days ago, I could feel the difference. I lived here from 1968 to 1984. I didn't realize it at the time, but during that whole period the city was in free fall. On top of the flight to the suburbs that happened everywhere, the steel and nuclear businesses were both dying. Boy are things different now. It's not just that downtown seems a lot more prosperous. There is an energy here that was not here when I was a kid.",
+      "zhMarkdown": "几天前我刚到这里时，就感受到了变化。我从 1968 年到 1984 年一直住在这里。当时我并没有意识到，但实际上在那整个时期，这座城市都在自由落体般衰落。除了各地普遍存在的向郊区流失人口的现象外，这里的钢铁和核能产业也都在走向消亡。天哪，现在的情况完全不同了。不仅是市中心看起来繁荣得多，这里还洋溢着一种我小时候从未有过的活力。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "432d4b389786aa0c6964dc7ff2d757dcd695b378485d3130f579a21c97517354",
+      "enMarkdown": "When I was a kid, this was a place young people left. Now it's a place that attracts them.",
+      "zhMarkdown": "在我小时候，这是一个年轻人纷纷离开的地方。而现在，这是一个吸引他们前来的地方。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "37e8c44a73a623ec78294853112594c4633852f6f23ee934afd29305ffd31f10",
+      "enMarkdown": "What does that have to do with startups? Startups are made of people, and the average age of the people in a typical startup is right in that 25 to 29 bracket.",
+      "zhMarkdown": "这和创业公司有什么关系？创业公司是由人组成的，而一家典型创业公司的员工平均年龄，恰好就在 25 到 29 岁这个区间。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "fd38aedf51bdb10c55f5665d178544af69f0867eb354f90edb665a53dc290d3a",
+      "enMarkdown": "I've seen how powerful it is for a city to have those people. Five years ago they shifted the center of gravity of Silicon Valley from the peninsula to San Francisco. Google and Facebook are on the peninsula, but the next generation of big winners are all in SF. The reason the center of gravity shifted was the talent war, for programmers especially. Most 25 to 29 year olds want to live in the city, not down in the boring suburbs. So whether they like it or not, founders know they have to be in the city. I know multiple founders who would have preferred to live down in the Valley proper, but who made themselves move to SF because they knew otherwise they'd lose the talent war.",
+      "zhMarkdown": "我亲眼目睹了一个城市拥有这些年轻人会产生多么强大的力量。五年前，他们将硅谷的重心从半岛（the peninsula）转移到了旧金山。谷歌和 Facebook 都在半岛上，但下一代的大赢家几乎全在旧金山。重心转移的原因在于人才争夺战，尤其是对程序员的争夺。大多数 25 到 29 岁的年轻人都想住在城市里，而不是无聊的郊区。所以，不管创始人自己喜不喜欢，他们都知道自己必须把公司设在城市里。我认识好几位创始人，他们个人更倾向于住在硅谷腹地，但却逼着自己搬到旧金山，因为他们知道，否则自己就会在这场人才争夺战中败下阵来。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ed28bc2b343373344717ebfe3d04fdf3a3d9d4f8d2928e4822d70d9fab1dca34",
+      "enMarkdown": "So being a magnet for people in their twenties is a very promising thing to be. It's hard to imagine a place becoming a startup hub without also being that. When I read that statistic about the increasing percentage of 25 to 29 year olds, I had exactly the same feeling of excitement I get when I see a startup's graphs start to creep upward off the x axis.",
+      "zhMarkdown": "因此，成为吸引二十多岁年轻人的磁铁是一件非常有前景的事情。很难想象一个地方在不具备这一特征的情况下，能成为创业公司中心。当我读到关于 25 到 29 岁人口比例增长的数据时，我感到的兴奋，和看到一家创业公司的增长曲线开始脱离横轴、向上攀升时的感觉一模一样。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "9e3057bc34719c01b88c7a7074bce8128104dcc3f2e5f212b90ad03798f8e113",
+      "enMarkdown": "Nationally the percentage of 25 to 29 year olds is 6.8%. That means you're .8% ahead. The population is 306,000, so we're talking about a surplus of about 2500 people. That's the population of a small town, and that's just the surplus. So you have a toehold. Now you just have to expand it.",
+      "zhMarkdown": "从全美来看，25 到 29 岁人口的比例是 6.8%。这意味着你们领先了 0.8%。匹兹堡的人口是 30.6 万，所以我们说的是大约 2500 人的净增量。这相当于一个一个小镇的人口，而且这还仅仅是超出的部分。所以你们已经站稳了脚跟。现在，你们只需要扩大这个优势。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "4f3a53a9d709d7047be93f0c89b1f840490d52fb8559510fdd629031594ea3bb",
+      "enMarkdown": "And though \"youth-driven food boom\" may sound frivolous, it is anything but. Restaurants and cafes are a big part of the personality of a city. Imagine walking down a street in Paris. What are you walking past? Little restaurants and cafes. Imagine driving through some depressing random exurb. What are you driving past? Starbucks and McDonalds and Pizza Hut. As Gertrude Stein said, there is no there there. You could be anywhere.",
+      "zhMarkdown": "虽然“由年轻人推动的美食热潮”听起来可能有些微不足道，但它绝非小事。餐厅和咖啡馆是一座城市个性的重要组成部分。想象一下漫步在巴黎街头。你路过的是什么？是精致的小餐馆和咖啡馆。再想象一下开车穿过某个让人抑郁的随机外郊。你路过的是什么？是星巴克、麦当劳和必胜客。正如格特鲁德·斯泰因（Gertrude Stein）所说，那里“没有那里”（there is no there there）。你感觉待在任何地方都毫无区别。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "96a6770c2f5a3e28c2b7bfcacbc1ee67533411274445797b1df683038627bab6",
+      "enMarkdown": "These independent restaurants and cafes are not just feeding people. They're making there be a there here.",
+      "zhMarkdown": "这些独立的餐厅和咖啡馆不仅在填饱人们的肚子。它们在让这个地方变得独一无二，赋予它真正的城市灵魂。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "116e0e86d637820f5ef8de7e5be47939708c69340911bb5c9e1a3614dc492edb",
+      "enMarkdown": "So here is my first concrete recommendation for turning Pittsburgh into the next Silicon Valley: do everything you can to encourage this youth-driven food boom. What could the city do? Treat the people starting these little restaurants and cafes as your users, and go ask them what they want. I can guess at least one thing they might want: a fast permit process. San Francisco has left you a huge amount of room to beat them in that department.",
+      "zhMarkdown": "所以，这是我为了把匹兹堡变成下一个硅谷而提出的第一个具体建议：尽一切努力鼓励这种由年轻人推动的美食热潮。市政府能做些什么？把开这些小餐馆和咖啡馆的人当作你们的用户，去问问他们需要什么。我至少能猜到他们想要的一件事：快速的审批流程。在这一方面，旧金山给你们留下了巨大的超越空间。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "2811a7a08bd965efa88447473a41f8f60c1ca8c26ad23c4a5286c42c2082fdc3",
+      "enMarkdown": "I know restaurants aren't the prime mover though. The prime mover, as the Times article said, is cheap housing. That's a big advantage. But that phrase \"cheap housing\" is a bit misleading. There are plenty of places that are cheaper. What's special about Pittsburgh is not that it's cheap, but that it's a cheap place you'd actually want to live.",
+      "zhMarkdown": "当然，我知道餐厅并不是根本的驱动力。正如《时报》文章所说，根本的驱动力是廉价的住房。这是一个巨大的优势。但“廉价住房”这个词有点误导性。比匹兹堡更便宜的地方多的是。匹兹堡的特别之处不在于它便宜，而在于它是一个你“真的想住”的便宜地方。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7f53ca6a68facdc80975dc582d987006914318a07f2d1623bbe66254bb4b98c1",
+      "enMarkdown": "Part of that is the buildings themselves. I realized a long time ago, back when I was a poor twenty-something myself, that the best deals were places that had once been rich, and then became poor. If a place has always been rich, it's nice but too expensive. If a place has always been poor, it's cheap but grim. But if a place was once rich and then got poor, you can find palaces for cheap. And that's what's bringing people here. When Pittsburgh was rich, a hundred years ago, the people who lived here built big solid buildings. Not always in the best taste, but definitely solid. So here is another piece of advice for becoming a startup hub: don't destroy the buildings that are bringing people here. When cities are on the way back up, like Pittsburgh is now, developers race to tear down the old buildings. Don't let that happen. Focus on historic preservation. Big real estate development projects are not what's bringing the twenty-somethings here. They're the opposite of the new restaurants and cafes; they subtract personality from the city.",
+      "zhMarkdown": "这在一定程度上得益于建筑本身。很久以前，当我还是个贫穷的二十多岁小伙子时，我就意识到，最划算的买卖是那些曾经富裕过、后来变穷的地方。如果一个地方一直很富裕，它固然很好，但太贵了。如果一个地方一直很穷，它虽然便宜，但很凄凉。但如果一个地方曾经富裕过，后来变穷了，你就能用便宜的价格找到宫殿般的房子。这正是吸引人们来这里的原因。一百年前匹兹堡富裕的时候，住在这里的人建造了高大结实的建筑。虽然审美不一定总是最好的，但绝对足够扎实。所以，关于成为创业公司中心的另一个建议是：不要拆毁那些吸引人们前来的老建筑。当城市开始复苏时，就像现在的匹兹堡一样，开发商会争先恐后地拆除老建筑。千万别让这种事发生。要专注于历史保护。大型房地产开发项目并不是吸引二十多岁年轻人的原因。它们是新餐厅和咖啡馆的反面；它们在剥夺城市的个性。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "b42555fb808c6fe4ac910fbae05516050474581d65ce2a247ed217b5a0f6f8d9",
+      "enMarkdown": "The empirical evidence suggests you cannot be too strict about historic preservation. The tougher cities are about it, the better they seem to do.",
+      "zhMarkdown": "经验证据表明，在历史保护方面，你怎么严格要求都不为过。城市在这方面越严苛，发展得似乎就越好。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "6403edb7e854af8c90afc1e533f96b3727152ca165de16918ec55b4fe786869f",
+      "enMarkdown": "But the appeal of Pittsburgh is not just the buildings themselves. It's the neighborhoods they're in. Like San Francisco and New York, Pittsburgh is fortunate in being a pre-car city. It's not too spread out. Because those 25 to 29 year olds do not like driving. They prefer walking, or bicycling, or taking public transport. If you've been to San Francisco recently you can't help noticing the huge number of bicyclists. And this is not just a fad that the twenty-somethings have adopted. In this respect they have discovered a better way to live. The beards will go, but not the bikes. Cities where you can get around without driving are just better period. So I would suggest you do everything you can to capitalize on this. As with historic preservation, it seems impossible to go too far.",
+      "zhMarkdown": "但匹兹堡的魅力不仅在于建筑本身，还在于建筑所在的社区。与旧金山和纽约一样，匹兹堡很幸运地保留了汽车普及前的城市格局。它没有过度扩张。因为那些 25 到 29 岁的年轻人不喜欢开车。他们更喜欢步行、骑自行车或乘坐公共交通。如果你最近去过旧金山，你一定无法忽视街上庞大的骑行群体。这不仅仅是年轻人跟风的时尚。在这方面，他们发现了一种更好的生活方式。胡子也许会剃掉，但自行车不会被抛弃。那些不用开车就能四处转悠的城市就是更好，毋庸置疑。因此，我建议你们尽一切努力利用好这一点。就像历史保护一样，在这件事上怎么投入都不算过分。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "178a2113c2295a81aee98b04c572333e069a13b26c404326d31793a48694d5e4",
+      "enMarkdown": "Why not make Pittsburgh the most bicycle and pedestrian friendly city in the country? See if you can go so far that you make San Francisco seem backward by comparison. If you do, it's very unlikely you'll regret it. The city will seem like a paradise to the young people you want to attract. If they do leave to get jobs elsewhere, it will be with regret at leaving behind such a place. And what's the downside? Can you imagine a headline \"City ruined by becoming too bicycle-friendly?\" It just doesn't happen.",
+      "zhMarkdown": "为什么不把匹兹堡打造成全国对自行车和行人最友好的城市呢？看看你们能否做到极致，甚至让旧金山相比之下都显得落后。如果做到了，你几乎不可能后悔。对于你想吸引的年轻人来说，这座城市将如同天堂。如果他们真的因为去其他地方工作而离开，他们也会因为离开这样一个地方而感到遗憾。而这会有什么坏处吗？你能想象出一个“城市因变得太适合骑行而毁掉”的新闻标题吗？这种事根本不会发生。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "128a8b2fa4b5f702b696d8fde9e02864edc7b75fcb635327b2fa9295f9a4cddd",
+      "enMarkdown": "So suppose cool old neighborhoods and cool little restaurants make this the next Portland. Will that be enough? It will put you in a way better position than Portland itself, because Pittsburgh has something Portland lacks: a first-rate research university. CMU plus little cafes means you have more than hipsters drinking lattes. It means you have hipsters drinking lattes while talking about distributed systems. Now you're getting really close to San Francisco.",
+      "zhMarkdown": "那么，假设酷炫的老社区和酷炫的小餐馆让这里成为了下一个波特兰。这足够了吗？这会让你们处于比波特兰好得多的位置，因为匹兹堡拥有波特兰所缺乏的东西：一所一流的研究型大学。卡内基梅隆大学（CMU）加上小咖啡馆，意味着你们这里不仅有喝着拿铁的文青。它意味着你们有一群一边喝着拿铁，一边讨论分布式系统的文青。这下，你们就真的非常接近旧金山了。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "3380e352cb4b48734c0fd252a19ff945140be658cee35b1f4256f8c540fe9a2c",
+      "enMarkdown": "In fact you're better off than San Francisco in one way, because CMU is downtown, but Stanford and Berkeley are out in the suburbs.",
+      "zhMarkdown": "事实上，在某一方面你们比旧金山还要好，因为 CMU 就在市区，而斯坦福和伯克利都在郊区。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "d026f79abae0af5f773d38e031a0f7616483fed90122fc59927c36cbc4f485cc",
+      "enMarkdown": "What can CMU do to help Pittsburgh become a startup hub? Be an even better research university. CMU is one of the best universities in the world, but imagine what things would be like if it were the very best, and everyone knew it. There are a lot of ambitious people who must go to the best place, wherever it is. If CMU were it, they would all come here. There would be kids in Kazakhstan dreaming of one day living in Pittsburgh.",
+      "zhMarkdown": "CMU 能为匹兹堡成为创业公司中心做些什么？那就是成为一所更顶尖的研究型大学。CMU 已经是世界上最好的大学之一了，但想象一下，如果它是最顶尖的那一个，而且人尽皆知，情况会是怎样。世界上有很多充满抱负的人，他们无论如何都必须去最好的地方。如果 CMU 就是那个地方，他们都会来到这里。哈萨克斯坦的孩子们会梦想着有一天能生活在匹兹堡。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "eebbb914ee000c56b93a3b50f2902129d5953f2a45f25a2ee2da85edca67161b",
+      "enMarkdown": "Being that kind of talent magnet is the most important contribution universities can make toward making their city a startup hub. In fact it is practically the only contribution they can make.",
+      "zhMarkdown": "成为这种人才磁铁，是大学为使其所在城市成为创业公司中心所能做出的最重要贡献。事实上，这几乎是他们能做出的唯一贡献。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "a23ac272ed079638bc624ab37db9be8c9340495502ee41da3fe2878f07add247",
+      "enMarkdown": "But wait, shouldn't universities be setting up programs with words like \"innovation\" and \"entrepreneurship\" in their names? No, they should not. These kind of things almost always turn out to be disappointments. They're pursuing the wrong targets. The way to get innovation is not to aim for innovation but to aim for something more specific, like better batteries or better 3D printing. And the way to learn about entrepreneurship is to do it, which you [can't\nin school](https://paulgraham.com/before.html).",
+      "zhMarkdown": "但等等，大学难道不应该设立一些名称里带有“创新”和“创业”字样的项目吗？不，不应该。这类项目几乎总是令人失望。它们追求了错误的目标。获得创新的方法不是去瞄准创新本身，而是去瞄准更具体的东西，比如更好的电池或更好的 3D 打印。而学习创业的方法就是亲自去创业，这在[学校里是学不到的](https://paulgraham.com/before.html)。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "60e87ae8add7c54308f40899b9bac1c3f42bb70d303a717de34f34862d33242b",
+      "enMarkdown": "I know it may disappoint some administrators to hear that the best thing a university can do to encourage startups is to be a great university. It's like telling people who want to lose weight that the way to do it is to eat less.",
+      "zhMarkdown": "我知道，听到大学鼓励创业的最好方法就是做好一所伟大的大学，可能会让一些行政管理人员感到失望。这就像告诉想减肥的人，减肥的方法就是少吃东西一样。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "90fcdec31f796bb803623286489d681dc466dd646dcdce429c7ea15820916bbf",
+      "enMarkdown": "But if you want to know where startups come from, look at the empirical evidence. Look at the histories of the most successful startups, and you'll find they grow organically out of a couple of founders building something that starts as an interesting side project. Universities are great at bringing together founders, but beyond that the best thing they can do is get out of the way. For example, by not claiming ownership of \"intellectual property\" that students and faculty develop, and by having liberal rules about deferred admission and leaves of absence.",
+      "zhMarkdown": "但如果你想知道创业公司是从哪里来的，看看经验证据就知道了。看看那些最成功的创业公司的历史，你会发现它们都是由几位创始人把最初只是个有趣的业余项目做大，从而有机地成长起来的。大学在把创始人聚在一起方面做得很好，但除此之外，它们能做的最好的事情就是“别碍事”。例如，不要声称对学生和教职工开发的“知识产权”拥有所有权，并在保留学籍和休假方面制定宽松的规定。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "5bc3790aefcfc76a12dd8bbb4847ebeb32c719b25247e3c6c4cf8f0779f6e10e",
+      "enMarkdown": "In fact, one of the most effective things a university could do to encourage startups is an elaborate form of getting out of the way invented by Harvard. Harvard used to have exams for the fall semester after Christmas. At the beginning of January they had something called \"Reading Period\" when you were supposed to be studying for exams. And Microsoft and Facebook have something in common that few people realize: they were both started during Reading Period. It's the perfect situation for producing the sort of side projects that turn into startups. The students are all on campus, but they don't have to do anything because they're supposed to be studying for exams.",
+      "zhMarkdown": "事实上，一所大学为了鼓励创业能做的最有效的事情之一，就是采用哈佛大学发明的一种精心设计的“不碍事”方式。哈佛过去把秋季学期的期末考试安排在圣诞节之后。在一月初，他们有一个叫做“温课期”（Reading Period）的阶段，学生们本应该在这期间复习功课准备考试。微软和 Facebook 有一个很少有人意识到的共同点：它们都是在温课期创立的。这简直是诞生那些最终演变成创业公司的业余项目的完美环境。学生们都在校园里，但他们什么都不用做，因为他们本应该是在复习考试。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "17e67356ffde46958ed6818e1710c40f09163c9934ee0f9921aad98a870b5d04",
+      "enMarkdown": "Harvard may have closed this window, because a few years ago they moved exams before Christmas and shortened reading period from 11 days to 7. But if a university really wanted to help its students start startups, the empirical evidence, weighted by market cap, suggests the best thing they can do is literally nothing.",
+      "zhMarkdown": "哈佛可能已经关闭了这扇窗口，因为几年前他们把考试移到了圣诞节之前，并将温课期从 11 天缩短到了 7 天。但如果一所大学真的想帮助学生创办创业公司，以市值加权的经验证据表明，他们能做的最好事情就是——字面意思上的——什么都不做。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "87406bc0e23943d892c1b87baace840e518f17c00d17e7ccbddb389dbb277f9d",
+      "enMarkdown": "The culture of Pittsburgh is another of its strengths. It seems like a city has to be socially liberal to be a startup hub, and it's pretty clear why. A city has to tolerate strangeness to be a home for startups, because startups are so strange. And you can't choose to allow just the forms of strangeness that will turn into big startups, because they're all intermingled. You have to tolerate all strangeness.",
+      "zhMarkdown": "匹兹堡的文化是它的另一个强项。一个城市似乎必须在社会层面上足够包容，才能成为创业公司中心，原因显而易见。一个城市必须容忍特立独行，才能成为创业公司的家园，因为创业公司本身就是如此不同寻常。而且你无法选择只允许那些能发展成大型创业公司的特立独行，因为它们都是交织在一起的。你必须容忍所有的特立独行。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "bad35a9e2356f93fddadb30b70f10301cba37b9deba8f6735305368fb09965bd",
+      "enMarkdown": "That immediately rules out [big chunks of the US](http://www.nytimes.com/2016/04/06/us/gay-rights-mississippi-north-carolina.html). I'm optimistic it doesn't rule out Pittsburgh. One of the things I remember from growing up here, though I didn't realize at the time that there was anything unusual about it, is how well people got along. I'm still not sure why. Maybe one reason was that everyone felt like an immigrant. When I was a kid in Monroeville, people didn't call themselves American. They called themselves Italian or Serbian or Ukranian. Just imagine what it must have been like here a hundred years ago, when people were pouring in from twenty different countries. Tolerance was the only option.",
+      "zhMarkdown": "这立即排除了[美国的大片地区](http://www.nytimes.com/2016/04/06/us/gay-rights-mississippi-north-carolina.html)。我很乐观地认为，这不会排除匹兹堡。在我在这里长大的记忆中，有一件事——尽管我当时并没有意识到这有什么不寻常——那就是人们相处得多么融洽。我至今仍不确定原因。也许原因之一是每个人都觉得自己是移民。当我小时候在莫罗维尔时，人们不称自己为美国人。他们称自己为意大利人、塞尔维亚人或乌克兰人。想象一下一百年前这里是什么样子，当时人们从二十个不同的国家涌入。包容是唯一的选择。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "b65b53ede98aa7369f76d5863589c001531005247d048bf2c1d8138c26a62c26",
+      "enMarkdown": "What I remember about the culture of Pittsburgh is that it was both tolerant and pragmatic. That's how I'd describe the culture of Silicon Valley too. And it's not a coincidence, because Pittsburgh was the Silicon Valley of its time. This was a city where people built new things. And while the things people build have changed, the spirit you need to do that kind of work is the same.",
+      "zhMarkdown": "我对匹兹堡文化的记忆是，它既包容又务实。我也会用这两个词来形容硅谷的文化。这并非巧合，因为匹兹堡曾是它那个时代的硅谷。这是一座人们创造新事物的城市。虽然人们创造的东西已经改变，但做这种工作所需的精神是一样的。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "5bd14716e8dc3d8661ea37b7035702e1f4c0d8007fbe8c037dcde33b0aa75e0b",
+      "enMarkdown": "So although an influx of latte-swilling hipsters may be annoying in some ways, I would go out of my way to encourage them. And more generally to tolerate strangeness, even unto the degree wacko Californians do. For Pittsburgh that is a conservative choice: it's a return to the city's roots.",
+      "zhMarkdown": "所以，尽管涌入一群喝着拿铁的文青在某些方面可能令人反感，但我会特意去鼓励他们。更广泛地说，去容忍特立独行，甚至达到加州狂人们的那种程度。对于匹兹堡来说，这是一个保守的选择：这是回归这座城市的根基。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "b4750cacace622be139bb959110be8d73ab64b07fc4b42a29029ff545ce4f09c",
+      "enMarkdown": "Unfortunately I saved the toughest part for last. There is one more thing you need to be a startup hub, and Pittsburgh hasn't got it: investors. Silicon Valley has a big investor community because it's had 50 years to grow one. New York has a big investor community because it's full of people who like money a lot and are quick to notice new ways to get it. But Pittsburgh has neither of these. And the cheap housing that draws other people here has no effect on investors.",
+      "zhMarkdown": "不幸的是，我把最难的部分留在了最后。要成为创业公司中心，你还需要一样东西，而匹兹堡还没有：投资人。硅谷有一个庞大的投资人社群，因为它有 50 年的时间来培育。纽约有一个庞大的投资人社群，因为那里到处都是极其喜欢钱、并且能迅速发现赚钱新门路的人。但匹兹堡这两者都没有。而吸引其他人前来的廉价住房，对投资人没有任何吸引力。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "30aeb0135bfacfa38d083883f7a2ef7a69704d6fcc01eacd51b90739108cefe2",
+      "enMarkdown": "If an investor community grows up here, it will happen the same way it did in Silicon Valley: slowly and organically. So I would not bet on having a big investor community in the short term. But fortunately there are three trends that make that less necessary than it used to be. One is that startups are increasingly cheap to start, so you just don't need as much outside money as you used to. The second is that thanks to things like Kickstarter, a startup can get to revenue faster. You can put something on Kickstarter from anywhere. The third is programs like Y Combinator. A startup from anywhere in the world can go to YC for 3 months, pick up funding, and then return home if they want.",
+      "zhMarkdown": "如果这里要成长出一个投资人社群，它的发生方式将和硅谷一模一样：缓慢且有机地进行。因此，我不指望在短期内能拥有一个庞大的投资人社群。但幸运的是，有三个趋势使得这一点不像以前那么必要了。一是创业公司的启动成本越来越低，所以你根本不需要像以前那样需要那么多外部资金。二是多亏了像 Kickstarter 这样的平台，创业公司可以更快地获得收入，你可以在任何地方把东西放上 Kickstarter。三是像 Y Combinator 这样的项目，世界上任何地方的创业公司都可以去 YC 待 3 个月，拿到融资，然后如果他们愿意，再回到家乡。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "8522c285937b8d5d29482178ecb54362aa613931a7e0b2af34692749826ffdc2",
+      "enMarkdown": "My advice is to make Pittsburgh a great place for startups, and gradually more of them will stick. Some of those will succeed; some of their founders will become investors; and still more startups will stick.",
+      "zhMarkdown": "我的建议是把匹兹堡打造成一个适合创业公司发展的好地方，渐渐地，会有更多的创业公司留下来。其中一些会取得成功；他们的一些创始人会成为投资人；进而会有更多的创业公司留下来。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "80d46bce1905a83851f7b816dda0785bfdceca47fdd12d5ffa226d96e33ec94e",
+      "enMarkdown": "This is not a fast path to becoming a startup hub. But it is at least a path, which is something few other cities have. And it's not as if you have to make painful sacrifices in the meantime. Think about what I've suggested you should do. Encourage local restaurants, save old buildings, take advantage of density, make CMU the best, promote tolerance. These are the things that make Pittsburgh good to live in now. All I'm saying is that you should do even more of them.",
+      "zhMarkdown": "这不是一条快速成为创业公司中心的捷径。但它至少是一条路，这是其他很少有城市能拥有的。而且在这期间，你并不需要做出痛苦的牺牲。想想我建议你们该做的事情：鼓励本地餐厅、保护老建筑、利用城市密度、让 CMU 成为最好、促进包容。这些正是让匹兹堡现在就变得宜居的事情。我所说的只是，你们应该在这上面做得更多。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "ab08b6cfd1b8d6efff8f5ad44c70c03fed555f8ba1599c59b6c24fddccd3b60b",
+      "enMarkdown": "And that's an encouraging thought. If Pittsburgh's path to becoming a startup hub is to be even more itself, then it has a good chance of succeeding. In fact it probably has the best chance of any city its size. It will take some effort, and a lot of time, but if any city can do it, Pittsburgh can.",
+      "zhMarkdown": "这是一个令人鼓舞的想法。如果匹兹堡成为创业公司中心的途径是变得更加做自己，那么它成功的机会很大。事实上，在同等规模的城市中，它可能拥有最大的成功机会。这需要一些努力，也需要很多时间，但如果有什么城市能做到，匹兹堡一定能。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "0ea626c763d399cc7584a804eeb05798e897ce76b0063c0850b6c5e0ff7cdcee",
+      "enMarkdown": "**Thanks** to Charlie Cheever and Jessica Livingston for reading drafts of this, and to Meg Cheever for organizing Opt412 and inviting me to speak.",
+      "zhMarkdown": "**感谢** Charlie Cheever 和 Jessica Livingston 阅读了本文的草稿，并感谢 Meg Cheever 组织了 Opt412 活动并邀请我发言。"
+    }
+  ]
+}

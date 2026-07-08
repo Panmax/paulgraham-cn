@@ -1,0 +1,69 @@
+{
+  "slug": "sun",
+  "titleEn": "General and Surprising",
+  "titleZh": "普适与惊艳",
+  "dateText": "September 2017",
+  "publishedAt": "2017-09-01",
+  "sourceOrder": 55,
+  "sourceUrl": "https://paulgraham.com/sun.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f7a2c39940e9146e4bc115497cc80e6828aac6717d3288c96feb63827c5f5215",
+      "enMarkdown": "The most valuable insights are both general and surprising. F = ma for example. But general and surprising is a hard combination to achieve. That territory tends to be picked clean, precisely because those insights are so valuable.",
+      "zhMarkdown": "最珍贵的洞见往往既具普适性，又具惊艳感。比如 $F = ma$。但要同时做到这两点极难。这片领地往往早被搜刮得一干二净，恰恰因为这类洞见价值连城。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "551e459e9679bdfad7a8a7ed25c7d1d30c5f7306babb8a6088d5380ab2a017c3",
+      "enMarkdown": "Ordinarily, the best that people can do is one without the other: either surprising without being general (e.g. gossip), or general without being surprising (e.g. platitudes).",
+      "zhMarkdown": "通常情况下，人们能做到的极致是二者居其一：要么空有惊艳却毫无普适性（比如八卦），要么空有普适性却毫无惊艳感（比如陈词滥调）。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ac45138dd44126b366af46548fb375623d407eae0bb0a6c3f88ea649e225cd16",
+      "enMarkdown": "Where things get interesting is the moderately valuable insights. You get those from small additions of whichever quality was missing. The more common case is a small addition of generality: a piece of gossip that's more than just gossip, because it teaches something interesting about the world. But another less common approach is to focus on the most general ideas and see if you can find something new to say about them. Because these start out so general, you only need a small delta of novelty to produce a useful insight.",
+      "zhMarkdown": "有趣的地方在于那些价值中等的洞见。只要在缺失的那一方面稍作补充，就能获得这类洞见。更常见的情况是给惊艳之事增添一点普适性：比如一段不仅仅是八卦的八卦，因为它揭示了关于这个世界的某种有趣规律。但另一种较少人走的路，则是专注于最普适的想法，看看能否从中挖掘出一些新意。因为这些想法起点极高、应用极广，你只需要做出一点微小的新意增量（delta），就能产生极具价值的洞见。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a2c94bbc14e7c5358c3920c074cf3c2de2f245f08731f7b35639eaf0060749b1",
+      "enMarkdown": "A small delta of novelty is all you'll be able to get most of the time. Which means if you take this route, your ideas will seem a lot like ones that already exist. Sometimes you'll find you've merely rediscovered an idea that did already exist. But don't be discouraged. Remember the huge multiplier that kicks in when you do manage to think of something even a little new.",
+      "zhMarkdown": "在大多数时候，你所能获得的也仅仅是这一点微小的新意增量。这意味着如果你走这条路，你的想法看起来会和现有的非常相似。有时你甚至会发现，自己只是重新发明了早已存在的观点。但别因此气馁。请记住，一旦你真的想出哪怕一点点新东西，普适性带来的巨大乘数效应就会开始起作用。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "7c7686cf23672054e15de35831030db1e3e097517d2cea35616b83b6b1739e22",
+      "enMarkdown": "Corollary: the more general the ideas you're talking about, the less you should worry about repeating yourself. If you write enough, it's inevitable you will. Your brain is much the same from year to year and so are the stimuli that hit it. I feel slightly bad when I find I've said something close to what I've said before, as if I were plagiarizing myself. But rationally one shouldn't. You won't say something exactly the same way the second time, and that variation increases the chance you'll get that tiny but critical delta of novelty.",
+      "zhMarkdown": "推论：你探讨的想法越具普适性，就越不用担心自我重复。如果你写得足够多，重复是不可避免的。你的大脑年复一年并没有太大变化，接收到的外界刺激也大同小异。当我发现自己说的话和以前说过的很像时，也会感到一丝愧疚，仿佛在抄袭自己。但理性来看，大可不必如此。第二次表达时，你不会说得完全一模一样，而这种微调反而增加了你碰撞出那点微小却关键的新意增量的机会。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "8f6ed2cb54e343db8bc640e302ec43802288a089f9956d4d1d04519c0f2a98e5",
+      "enMarkdown": "And of course, ideas beget ideas. (That sounds [familiar](https://paulgraham.com/ecw.html).) An idea with a small amount of novelty could lead to one with more. But only if you keep going. So it's doubly important not to let yourself be discouraged by people who say there's not much new about something you've discovered. \"Not much new\" is a real achievement when you're talking about the most general ideas.",
+      "zhMarkdown": "当然，想法会孕育新的想法。（这听起来很[耳熟](https://paulgraham.com/ecw.html)。）一个带有一丝新意的想法，可能会引出一个更有新意的想法。但前提是你要不停地思考。因此，当有人说你发现的东西“没什么新意”时，千万不要气馁，这具有双重重要性。当你探讨的是最普适的想法时，“没什么新意”（即有一点点新意）已经是一项了不起的成就了。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5d3e0ae86ca60fd60ad38be0cdd9676a575337e227cb63ec9be6cc11276cecd5",
+      "enMarkdown": "It's not true that there's nothing new under the sun. There are some domains where there's almost nothing new. But there's a big difference between nothing and almost nothing, when it's multiplied by the area under the sun.",
+      "zhMarkdown": "“阳光之下并无新事”这句话并不正确。确实有些领域几乎毫无新意可言。但当“几乎没有”乘以“阳光之下”的广阔疆域时，“毫无”与“几乎毫无”之间便有了天壤之别。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "0b21bc4a0d55635dfab2c2982b4766839647f0c6716a97f7f012b3446d1752ee",
+      "enMarkdown": "**Thanks** to Sam Altman, Patrick Collison, and Jessica Livingston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Patrick Collison 和 Jessica Livingston 阅读本文草稿。"
+    }
+  ]
+}

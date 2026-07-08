@@ -1,0 +1,223 @@
+{
+  "slug": "startuphubs",
+  "titleEn": "Why to Move to a Startup Hub",
+  "titleZh": "为什么要搬到创业中心",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 145,
+  "sourceUrl": "https://paulgraham.com/startuphubs.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "9d3291e89f17bc0d0b465a5859458af4a867efd7c114047ce1ba7e1932fcb53c",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/why-to-move-to-a-startup-hub-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/why-to-move-to-a-startup-hub-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "e822f389bb0b51151bff450e03ead5e121a882d62845dc55bc4129dbae5acc34",
+      "enMarkdown": "October 2007",
+      "zhMarkdown": "2007年10月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "90982cc0034b0f2dfc6529a1f17ed9c1ef49453fef052227403de67509a70ebf",
+      "enMarkdown": "After the last [talk](https://paulgraham.com/webstartups.html) I gave, one of the organizers got up on the stage to deliver an impromptu rebuttal. That never happened before. I only heard the first few sentences, but that was enough to tell what I said that upset him: that startups would do better if they moved to Silicon Valley.",
+      "zhMarkdown": "在我上一次[演讲](https://paulgraham.com/webstartups.html)结束后，一位主办方成员走上台，即兴发表了一番反驳。这在以前从未发生过。我只听了前几句话，但已经足够明白是什么话激怒了他：我说创业公司如果搬到硅谷，会发展得更好。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "c8d8e51509a247942e4cfbe3dd307b719d3a733a32e57b1846ca4ed4ea4560d2",
+      "enMarkdown": "This conference was in London, and most of the audience seemed to be from the UK. So saying startups should move to Silicon Valley seemed like a nationalistic remark: an obnoxious American telling them that if they wanted to do things right they should all just move to America.",
+      "zhMarkdown": "那次会议是在伦敦举办的，台下的大多数听众似乎都来自英国。因此，说创业公司应该搬到硅谷，听起来像是一种狭隘的国家主义言论：一个令人讨厌的美国人在对他们指手画脚，说他们要想把事情做好，就得全都搬到美国去。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a70ad816d0f88e051426bd4f2dd474c62178bc46a6768ef2fe6d0038d39b0f4c",
+      "enMarkdown": "Actually I'm less American than I seem. I didn't say so, but I'm British by birth. And just as Jews are ex officio allowed to tell Jewish jokes, I don't feel like I have to bother being diplomatic with a British audience.",
+      "zhMarkdown": "其实，我并没有看起来那么“美国”。我当时没说，但我其实出生在英国。就像犹太人天然被允许讲犹太人笑话一样，我觉得自己面对英国听众时，没必要费心思去讲究外交辞令。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "bc00ac045da2e4b20ba44f26cf75d10a2e2afd7ebfd3f24152b3f288fcc51441",
+      "enMarkdown": "The idea that startups would do better to move to Silicon Valley is not even a nationalistic one. [[1](#f1n)] It's the same thing I say to startups in the US. Y Combinator alternates between coasts every 6 months. Every other funding cycle is in Boston. And even though Boston is the second biggest startup hub in the US (and the world), we tell the startups from those cycles that their best bet is to move to Silicon Valley. If that's true of Boston, it's even more true of every other city.",
+      "zhMarkdown": "“创业公司搬到硅谷会发展得更好”这个观点，根本与国家主义无关。[[1](#f1n)] 这也是我对美国本土创业公司常说的话。Y Combinator 每 6 个月在东西海岸轮换一次。每隔一个投资周期就会在波士顿举行。尽管波士顿是美国（乃至世界）第二大创业中心，我们依然会告诉那个周期的创业公司，他们最好的选择是搬到硅谷。如果对波士顿都是如此，那么对其他任何城市就更是如此了。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "608ef9180d3b3e3f90b5071bc4417fd15ab55c381b9315199aaf4007ff00cd56",
+      "enMarkdown": "This is about cities, not countries.",
+      "zhMarkdown": "这关乎城市，而非国家。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2ae2be18c9182a9424e5785e85e0170a4576afcb12604375dae452448344d881",
+      "enMarkdown": "And I think I can prove I'm right. You can easily reduce the opposing argument ad what most people would agree was absurdum. Few would be willing to claim that it doesn't matter at all where a startup is—that a startup operating out of a small agricultural town wouldn't benefit from moving to a startup hub. Most people could see how it might be helpful to be in a place where there was infrastructure for startups, accumulated knowledge about how to make them work, and other people trying to do it. And yet whatever argument you use to prove that startups don't need to move from London to Silicon Valley could equally well be used to prove startups don't need to move from smaller towns to London.",
+      "zhMarkdown": "而且我认为我可以证明我是对的。你很容易就可以用“归谬法”来驳倒相反的观点。很少有人会愿意声称，创业公司在什么地方创业完全无所谓——即一个在农业小镇上运营的创业公司，搬到创业中心不会获得任何好处。大多数人都能看出，身处一个拥有创业基础设施、积累了创业成功经验以及有一群同道中人并肩奋斗的地方，会是多么有帮助。然而，无论你用什么论据来证明创业公司不需要从伦敦搬到硅谷，这些论据同样可以用来证明创业公司不需要从更小的城镇搬到伦敦。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "8e4c44aadd3e8b7ff496e2bde73dfb0e7c6f93e4856f2379246fcaa0c0ad2a5b",
+      "enMarkdown": "The difference between cities is a matter of degree. And if, as nearly everyone who knows agrees, startups are better off in Silicon Valley than Boston, then they're better off in Silicon Valley than everywhere else too.",
+      "zhMarkdown": "城市之间的差异只是程度问题。而且，如果像几乎所有业内人士都同意的那样，创业公司在硅谷的发展前景好于波士顿，那么硅谷自然也比其他任何地方都更好。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "0b96b32749880e9f2a05138f6231fe2ac4d23a1c7e368644b95c411cc4cbc74e",
+      "enMarkdown": "I realize I might seem to have a vested interest in this conclusion, because startups that move to the US might do it through Y Combinator. But the American startups we've funded will attest that I say the same thing to them.",
+      "zhMarkdown": "我意识到，在这个结论上我可能显得有利益关联，因为搬到美国的创业公司可能会通过 Y Combinator 来进行。但我们资助过的美国本土创业公司可以作证，我对他们也是这么说的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "d6da0c13bbe218eed1d8d8ac112d30777dd0546bcd8ae047a64e3bd086e42ee0",
+      "enMarkdown": "I'm not claiming of course that every startup has to go to Silicon Valley to succeed. Just that all other things being equal, the more of a startup hub a place is, the better startups will do there. But other considerations can outweigh the advantages of moving. I'm not saying founders with families should uproot them to move halfway around the world; that might be too much of a distraction.",
+      "zhMarkdown": "当然，我并不是说每个创业公司都必须去硅谷才能成功。我只是说，在其他条件相同的情况下，一个地方的创业中心属性越强，创业公司在那里就会发展得越好。但其他方面的考量可能会超过搬迁带来的好处。我并不是说有了家庭的创始人应该举家搬迁半个地球；那可能会分散太多精力。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "c40d1dcc025b17328a11a31c775160bf403e7101e6eea401ed6912c42eb809df",
+      "enMarkdown": "Immigration difficulties might be another reason to stay put. Dealing with immigration problems is like raising money: for some reason it seems to consume all your attention. A startup can't afford much of that. One Canadian startup we funded spent about 6 months working on moving to the US. Eventually they just gave up, because they couldn't afford to take so much time away from working on their software.",
+      "zhMarkdown": "移民政策的困难可能是留在原地的另一个原因。处理移民问题就像融资一样：出于某种原因，它似乎会消耗你所有的注意力。创业公司可经不起这样的消耗。我们资助过的一家加拿大创业公司花了大约 6 个月的时间尝试搬到美国。最终他们放弃了，因为他们无法承受占用这么多本该用来开发软件的时间。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "9cb1ba58e6093aaaca2bdeb5ac333d0050d7ffa82db10146a39c48c6ee5f03fe",
+      "enMarkdown": "(If another country wanted to establish a rival to Silicon Valley, the single best thing they could do might be to create a special visa for startup founders. US immigration policy is one of Silicon Valley's biggest weaknesses.)",
+      "zhMarkdown": "（如果另一个国家想要建立一个与硅谷竞争的对手，他们能做的最有效的一件事，可能就是为创业公司创始人设立一种特殊签证。美国的移民政策是硅谷最大的软肋之一。）"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "5076fc894855c86c781f2a9514ff8232f270a211f08773c84a8a12b54f08ae1a",
+      "enMarkdown": "If your startup is connected to a specific industry, you may be better off in one of its centers. A startup doing something related to entertainment might want to be in New York or LA.",
+      "zhMarkdown": "如果你的创业公司与某个特定行业紧密相关，你最好待在那个行业的中心。做娱乐相关业务的创业公司可能想去纽约或洛杉矶。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "25a2279525d6964a8d46aca74269d76556d7c4ab9dbde2793e8cc28f7b592bda",
+      "enMarkdown": "And finally, if a good investor has committed to fund you if you stay where you are, you should probably stay. Finding investors is hard. You generally shouldn't pass up a definite funding offer to move. [[2](#f2n)]",
+      "zhMarkdown": "最后，如果一个优秀的投资人承诺，只要你留在原地就给你投资，那么你可能应该留下来。寻找投资人是困难的。通常情况下，你不应该为了搬迁而放弃一个确定的投资意向。[[2](#f2n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "ce719d085881a22836903dba7c0513c0b6aed905bca801a6d5831f3484a91c36",
+      "enMarkdown": "In fact, the quality of the investors may be the main advantage of startup hubs. Silicon Valley investors are noticeably more aggressive than Boston ones. Over and over, I've seen startups we've funded snatched by west coast investors out from under the noses of Boston investors who saw them first but acted too slowly. At this year's Boston Demo Day, I told the audience that this happened every year, so if they saw a startup they liked, they should make them an offer. And yet within a month it had happened again: an aggressive west coast VC who had met the founder of a YC-funded startup a week before beat out a Boston VC who had known him for years. By the time the Boston VC grasped what was happening, the deal was already gone.",
+      "zhMarkdown": "事实上，投资人的质量可能是创业中心最主要的优势。硅谷的投资人明显比波士顿的投资人更激进。我一次又一次地看到，我们资助的创业公司被西海岸的投资人从波士顿投资人的眼皮子底下抢走，而后者明明先看到这些项目，却行动太慢。在今年的波士顿 Demo Day 上，我告诉台下的观众，这种情况每年都在发生，所以如果他们看到了喜欢的创业公司，就应该立即给他们开出条件。然而不到一个月，同样的事情再次发生：一位西海岸的激进风险投资人在一周前才见过一家 YC 资助的创业公司创始人，就击败了认识这位创始人多年的波士顿风险投资人。等波士顿的投资人反应过来发生了什么时，交易已经尘埃落定了。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "ba6540d096ebd6c423d0032bf22d05437b7de2ac5c4b54eecdf2ac654b59a2f3",
+      "enMarkdown": "Boston investors will admit they're more conservative. Some want to believe this comes from the city's prudent Yankee character. But Occam's razor suggests the truth is less flattering. Boston investors are probably more conservative than Silicon Valley investors for the same reason Chicago investors are more conservative than Boston ones. They don't understand startups as well.",
+      "zhMarkdown": "波士顿的投资人会承认他们更保守。有些人希望相信这源于这座城市谨慎的“新英格兰清教徒”性格。但奥卡姆剃刀原理表明，事实真相并没有那么体面。波士顿投资人比硅谷投资人更保守，大概和芝加哥投资人比波士顿投资人更保守是同一个原因：他们对创业公司的理解不够深。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "e384b567dd5621b1051d4ee3c77e223b4df51cf1149d7547cd812b204109483e",
+      "enMarkdown": "West coast investors aren't bolder because they're irresponsible cowboys, or because the good weather makes them optimistic. They're bolder because they know what they're doing. They're the skiers who ski on the diamond slopes. Boldness is the essence of venture investing. The way you get big returns is not by trying to avoid losses, but by trying to ensure you get some of the big hits. And the big hits often look risky at first.",
+      "zhMarkdown": "西海岸的投资人更胆大，并不是因为他们是不负责任的牛仔，也不是因为好天气让他们盲目乐观。他们更胆大是因为他们知道自己在做什么。他们是敢于在黑钻雪道上滑雪的滑雪者。胆识是风险投资的本质。获得巨额回报的方式不是试图避免损失，而是设法确保你投中几个超级大项目。而超级大项目在起步阶段往往看起来风险极高。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "6144846a913b6bafd2658750434745698e50e9401a891565c7e887bf0669c75b",
+      "enMarkdown": "Like Facebook. Facebook was started in Boston. Boston VCs had the first shot at them. But they said no, so Facebook moved to Silicon Valley and raised money there. The partner who turned them down now says that \"may turn out to have been a mistake.\"",
+      "zhMarkdown": "比如 Facebook。Facebook 起初是在波士顿成立的。波士顿的风险投资人最先有机会投资他们。但他们拒绝了，于是 Facebook 搬到了硅谷，并在那里融到了资金。当年拒绝他们的那位合伙人现在表示，这“结果可能证明是一个错误”。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "10ca545265b4b7c838d3bcc959e5cd305b354db7e41e851f283b68ee4fcfe509",
+      "enMarkdown": "Empirically, boldness wins. If the aggressive ways of west coast investors are going to come back to bite them, it has been a long time coming. Silicon Valley has been pulling ahead of Boston since the 1970s. If there was going to be a comeuppance for the west coast investors, the bursting of the Bubble would have been it. But since then the west coast has just pulled further ahead.",
+      "zhMarkdown": "从经验来看，胆大者胜。如果说西海岸投资人激进的风格迟早会让他们自食其果，那这一天也来得太慢了。自 1970 年代以来，硅谷就一直在把波士顿甩在身后。如果西海岸的投资人注定要遭到报应，互联网泡沫的破裂本该是那个时刻。但自那以后，西海岸反而把差距拉得更大了。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "04ba8302b07033c9b81ed22e701fce9e65451d5532684a1d6087fa72a26b683b",
+      "enMarkdown": "West coast investors are confident enough of their judgement to act boldly; east coast investors, not so much; but anyone who thinks east coast investors act that way out of prudence should see the frantic reactions of an east coast VC in the process of losing a deal to a west coast one.",
+      "zhMarkdown": "西海岸的投资人对自己的判断足够自信，因而行动果断；东海岸的投资人则没那么自信。任何认为东海岸投资人这样做是出于谨慎的人，都应该去看看东海岸风险投资人在眼睁睁看着一个项目被西海岸投资人抢走时，那种气急败坏的反应。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "44786e3a89c16d51d05fa29d8d9923f5294078d2490f65e85b033caa793f602c",
+      "enMarkdown": "In addition to the concentration that comes from specialization, startup hubs are also markets. And markets are usually centralized. Even now, when traders could be anywhere, they cluster in a few cities. It's hard to say exactly what it is about face to face contact that makes deals happen, but whatever it is, it hasn't yet been duplicated by technology.",
+      "zhMarkdown": "除了专业化带来的集聚效应外，创业中心也是市场。而市场通常是中心化的。即使在今天，交易员们明明可以在任何地方工作，他们依然聚集在少数几个城市。很难说面对面的交流到底有什么魔力能促成交易，但无论那是什么，它至今还没有被技术所复制。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "87b265ad957a2ea915daa5805d853ef2cb39181864fe44ceda7162daf261d835",
+      "enMarkdown": "Walk down University Ave at the right time, and you might overhear five different people talking on the phone about deals. In fact, this is part of the reason Y Combinator is in Boston half the time: it's hard to stand that year round. But though it can sometimes be annoying to be surrounded by people who only think about one thing, it's the place to be if that one thing is what you're trying to do.",
+      "zhMarkdown": "在合适的时间走在大学路（University Ave）上，你可能会无意中听到五个不同的人在电话里谈论交易。事实上，这也是 Y Combinator 有一半时间待在波士顿的部分原因：常年忍受这种氛围实在让人吃不消。但是，尽管有时身边全是一群只思考一件事的人会让人感到厌烦，但如果那件事恰好就是你正在努力追求的目标，那么这里就是你该去的地方。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "02b83bf0b33828bdb36559dee4c2674b89d26b63626d9fb99198bb6aba85cf4f",
+      "enMarkdown": "I was talking recently to someone who works on search at Google. He knew a lot of people at Yahoo, so he was in a good position to compare the two companies. I asked him why Google was better at search. He said it wasn't anything specific Google did, but simply that they understood search so much better.",
+      "zhMarkdown": "我最近和一位在 Google 负责搜索业务的人聊天。他认识很多雅虎的人，因此能够很好地对比这两家公司。我问他为什么 Google 的搜索做得更好。他说并不是因为 Google 做了什么具体的事情，而仅仅是因为他们对搜索的理解要深刻得多。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "dc1f01a8dee5fd56e481703428fb7879bc01543759622df8c74df386a2133bf2",
+      "enMarkdown": "And that's why startups thrive in startup hubs like Silicon Valley. Startups are a very specialized business, as specialized as diamond cutting. And in startup hubs they understand it.",
+      "zhMarkdown": "这就是为什么创业公司在像硅谷这样的创业中心能蓬勃发展的原因。创业是一门非常专业化的行业，就像钻石切割一样专业。而在创业中心，人们懂得这门行业。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "3020db4d561b5ce4465f2448c7a81833a140dd4d8fd1823d82a9840a551ae246",
+      "enMarkdown": "[1] The nationalistic idea is the converse: that startups should stay in a certain city because of the country it's in. If you really have a \"one world\" viewpoint, deciding to move from London to Silicon Valley is no different from deciding to move from Chicago to Silicon Valley.",
+      "zhMarkdown": "[1] 国家主义的观点恰恰相反：认为创业公司应该留在某个城市，仅仅因为它在这个国家。如果你真的拥有“世界大同”的视角，决定从伦敦搬到硅谷，与决定从芝加哥搬到硅谷并没有任何区别。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "12e9b973411e2bc21aeeb2a4e0198ddfc32dac9bd3325c9891d22a3d4498d5f3",
+      "enMarkdown": "[2] An investor who merely seems like he will fund you, however, you can ignore. Seeming like they will fund you one day is the way investors say No.",
+      "zhMarkdown": "[2] 然而，对于那些只是“看起来”想投资你的投资人，你可以不予理会。“看起来总有一天会投资你”是投资人说“不”的委婉方式。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "57dc5e459b1923f21184608bdbafef58b896da53c973fb140ec27c231e634f29",
+      "enMarkdown": "**Thanks** to Sam Altman, Jessica Livingston, Harjeet Taggar, and Kulveer Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Jessica Livingston、Harjeet Taggar 和 Kulveer Taggar 帮我阅读草稿。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "5ae750ccc4ed7d3fed036fae6a9cd10f3477a239d1244bdf1a572458ca9f671a",
+      "enMarkdown": "[Comment](http://news.ycombinator.com/item?id=65815) on this essay.",
+      "zhMarkdown": "对此文的[讨论](http://news.ycombinator.com/item?id=65815)。"
+    }
+  ]
+}

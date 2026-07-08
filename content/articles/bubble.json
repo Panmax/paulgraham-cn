@@ -1,0 +1,552 @@
+{
+  "slug": "bubble",
+  "titleEn": "What the Bubble Got Right",
+  "titleZh": "泡沫破裂后，什么才是对的",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 196,
+  "sourceUrl": "https://paulgraham.com/bubble.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "97ac828a0b85565292d0dab69b2292f7bb11dea593ab235f0922ab0f2642067f",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/what-the-bubble-got-right-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/what-the-bubble-got-right-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4be2f09466649be0c5c4c81579735a6ce22b20b71764bf10bdf475ce7e5d6752",
+      "enMarkdown": "September 2004",
+      "zhMarkdown": "2004年9月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "86cc29b5e0e1e1065555d7189f6ecf53f7464a273ff77625f946693bd03ac5fd",
+      "enMarkdown": "*(This essay is derived from an invited talk at ICFP 2004.)*",
+      "zhMarkdown": "*(本文根据作者在 ICFP 2004 上的特邀演讲整理而成。)*"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "ad7fe735b98b9ed1bb3c541ff443d83102670c21a3229a509df63b59e40c9252",
+      "enMarkdown": "I had a front row seat for the Internet Bubble, because I worked at Yahoo during 1998 and 1999. One day, when the stock was trading around $200, I sat down and calculated what I thought the price should be. The answer I got was $12. I went to the next cubicle and told my friend Trevor. \"Twelve!\" he said. He tried to sound indignant, but he didn't quite manage it. He knew as well as I did that our valuation was crazy.",
+      "zhMarkdown": "我曾坐在互联网泡沫的第一排观众席上，因为在 1998 年和 1999 年期间，我在雅虎（Yahoo）工作。有一天，当雅虎股价在 200 美元左右徘徊时，我坐下来算了一下，觉得合理的股价应该是 12 美元。我走到隔壁隔间，把这个数字告诉了我的朋友特雷弗（Trevor）。“12 美元！”他叫道。他试图表现得很愤慨，但没太装像。他和我一样清楚，我们当时的估值简直是疯了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "deaff09c989de8084343440b494080c906d894b8597a9bbcb769bfccc1397643",
+      "enMarkdown": "Yahoo was a special case. It was not just our price to earnings ratio that was bogus. Half our earnings were too. Not in the Enron way, of course. The finance guys seemed scrupulous about reporting earnings. What made our earnings bogus was that Yahoo was, in effect, the center of a Ponzi scheme. Investors looked at Yahoo's earnings and said to themselves, here is proof that Internet companies can make money. So they invested in new startups that promised to be the next Yahoo. And as soon as these startups got the money, what did they do with it? Buy millions of dollars worth of advertising on Yahoo to promote their brand. Result: a capital investment in a startup this quarter shows up as Yahoo earnings next quarter—stimulating another round of investments in startups.",
+      "zhMarkdown": "雅虎是一个特例。不仅我们的市盈率是假的，连我们的一半利润也是假的。当然，并不是以安然（Enron）那种方式造假。财务人员在报告利润时似乎非常谨慎。让我们的利润变得虚假的原因在于，雅虎实际上处于一个庞氏骗局的中心。投资者看着雅虎的利润，心想，这就是互联网公司能赚钱的证据。于是他们投资了那些承诺成为下一个雅虎的新创业公司。而这些创业公司一拿到钱，会干什么呢？花几百万美元在雅虎上买广告来推广自己的品牌。结果就是：这季度对创业公司的资本投资，变成了下季度雅虎的利润——从而刺激了新一轮对创业公司的投资。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "001daf7f582ea2382d82347e5b4b589e34b9f00eec07016863c1e24887105bf0",
+      "enMarkdown": "As in a Ponzi scheme, what seemed to be the returns of this system were simply the latest round of investments in it. What made it not a Ponzi scheme was that it was unintentional. At least, I think it was. The venture capital business is pretty incestuous, and there were presumably people in a position, if not to create this situation, to realize what was happening and to milk it.",
+      "zhMarkdown": "就像在庞氏骗局中一样，这个系统看似带来的回报，实际上只是最新一轮的投资。它之所以不算庞氏骗局，是因为它是无意的。至少，我认为是无意的。风险投资行业的关系非常错综复杂，大概有人即使没有亲手制造这种局面，也处于一个能看清局势并趁机捞一把的位置。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "cdbad509c0e820dcd77678441f260894d485cb0ea5454eb5829a9da5ea7e4aa8",
+      "enMarkdown": "A year later the game was up. Starting in January 2000, Yahoo's stock price began to crash, ultimately losing 95% of its value.",
+      "zhMarkdown": "一年后，游戏结束了。从 2000 年 1 月开始，雅虎的股价开始暴跌，最终跌去了 95% 的市值。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "028c2f902ef8cb3001553786f8499d1d3a9059106981d9284734e777268d5d7e",
+      "enMarkdown": "Notice, though, that even with all the fat trimmed off its market cap, Yahoo was still worth a lot. Even at the morning-after valuations of March and April 2001, the people at Yahoo had managed to create a company worth about $8 billion in just six years.",
+      "zhMarkdown": "不过要注意的是，即使挤掉了市值中所有的水分，雅虎依然值很多钱。即使在 2001 年 3 月和 4 月“宿醉醒来”后的估值低谷期，雅虎的人们依然在短短六年内创造了一家价值约 80 亿美元的公司。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c11b364fcbeac00555c281264dcabf46f3d18f5b907f36265f4166bd609e9772",
+      "enMarkdown": "The fact is, despite all the nonsense we heard during the Bubble about the \"new economy,\" there was a core of truth. You need that to get a really big bubble: you need to have something solid at the center, so that even smart people are sucked in. (Isaac Newton and Jonathan Swift both lost money in the South Sea Bubble of 1720.)",
+      "zhMarkdown": "事实是，尽管我们在泡沫时期听到了那么多关于“新经济”的胡言乱语，但其中确实包含着核心的真理。只有这样才能形成一个真正巨大的泡沫：中心必须有坚实的东西，这样连聪明人也会被吸进去。（艾萨克·牛顿和乔纳森·斯威夫特都在 1720 年的南海泡沫中亏了钱。）"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "61a6315f3edcbd507941274d76209cde02c648cf047aea117a0f4a50720a3c2f",
+      "enMarkdown": "Now the pendulum has swung the other way. Now anything that became fashionable during the Bubble is ipso facto unfashionable. But that's a mistake—an even bigger mistake than believing what everyone was saying in 1999. Over the long term, what the Bubble got right will be more important than what it got wrong.",
+      "zhMarkdown": "现在，钟摆摆向了另一个极端。如今，凡是在泡沫时期流行过的东西，现在都自然而然地过时了。但这是一个错误——甚至比在 1999 年相信每个人的鬼话还要错。从长远来看，泡沫中做对的事情，会比它做错的事情更重要。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "6dc0ee0f75faa052ffed2207d61c7af914eec126ab19cfec2a62ef94ed789265",
+      "enMarkdown": "**1. Retail VC**",
+      "zhMarkdown": "**1. 零售型风险投资**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "d19dae695da51120c3e00ef47972fc315064964ba8997944598369ef10a77e0b",
+      "enMarkdown": "After the excesses of the Bubble, it's now considered dubious to take companies public before they have earnings. But there is nothing intrinsically wrong with that idea. Taking a company public at an early stage is simply retail VC: instead of going to venture capital firms for the last round of funding, you go to the public markets.",
+      "zhMarkdown": "在经历过泡沫时期的放纵之后，现在人们认为在公司盈利之前就上市是值得怀疑的。但这个想法本身并没有什么错。让公司在早期阶段上市，实际上就是“零售型风险投资”：你不再去找风险投资机构拿最后一轮融资，而是直接去公开市场募资。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "bc13dca09f870d89128ffe4404fa2a62f0112d6cb8cb7ec917457df1ed2792e4",
+      "enMarkdown": "By the end of the Bubble, companies going public with no earnings were being derided as \"concept stocks,\" as if it were inherently stupid to invest in them. But investing in concepts isn't stupid; it's what VCs do, and the best of them are far from stupid.",
+      "zhMarkdown": "到泡沫末期，那些没有盈利就上市的公司被嘲笑为“概念股”，仿佛投资它们本身就是一件愚蠢的事。但投资概念并不愚蠢；这正是风险投资人（VC）在做的事，而其中最顶尖的投资人绝不愚蠢。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a442c197e999ac2f49c359579283114176fc1a2dd4a6efa2c9cb3c2c75dbfab2",
+      "enMarkdown": "The stock of a company that doesn't yet have earnings is worth *something.* It may take a while for the market to learn how to value such companies, just as it had to learn to value common stocks in the early 20th century. But markets are good at solving that kind of problem. I wouldn't be surprised if the market ultimately did a better job than VCs do now.",
+      "zhMarkdown": "一家尚未盈利的公司的股票也是“值钱”的。市场可能需要一段时间来学习如何给这类公司估值，就像在 20 世纪初市场必须学会如何给普通股估值一样。但市场很擅长解决这类问题。如果最终市场比现在的风险投资人做得更好，我一点也不会感到惊讶。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "4d4ff797807e9fbf2a4009acbc472a2422f0d23a56bd9c540f1755827c046960",
+      "enMarkdown": "Going public early will not be the right plan for every company. And it can of course be disruptive—by distracting the management, or by making the early employees suddenly rich. But just as the market will learn how to value startups, startups will learn how to minimize the damage of going public.",
+      "zhMarkdown": "早期上市并不适合每一家公司。它当然也会带来干扰——比如分散管理层的注意力，或者让早期员工一夜暴富。但正如市场会学会如何给创业公司估值一样，创业公司也会学会如何将上市带来的副作用降到最低。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "11b46d60ef65e39aabb456f1cc0ac7a9cad9d7f075ed477282ecc393b8aef96f",
+      "enMarkdown": "**2. The Internet**",
+      "zhMarkdown": "**2. 互联网**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "192af0fdf8645997cc35fa6f8e9d617fab3ef5733472f8ea12d8e17054f8c6ca",
+      "enMarkdown": "The Internet genuinely is a big deal. That was one reason even smart people were fooled by the Bubble. Obviously it was going to have a huge effect. Enough of an effect to triple the value of Nasdaq companies in two years? No, as it turned out. But it was hard to say for certain at the time. [1]",
+      "zhMarkdown": "互联网确实是一件大事。这也是为什么连聪明人都会被泡沫愚弄的原因之一。显而易见，它将产生巨大的影响。这种影响大到足以让纳斯达克公司的市值在两年内翻三倍吗？事实证明，并没有。但在当时，谁也无法打包票。[1]"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "255806c04bb9a2c72f322765e2ffdde66015a274292543c0796d8e8b573439c0",
+      "enMarkdown": "The same thing happened during the Mississippi and South Sea Bubbles. What drove them was the invention of organized public finance (the South Sea Company, despite its name, was really a competitor of the Bank of England). And that did turn out to be a big deal, in the long run.",
+      "zhMarkdown": "密西西比泡沫和南海泡沫期间也发生了同样的事情。推动它们的是有组织的公共财政制度的发明（南海公司尽管名字叫公司，但实际上是英格兰银行的竞争对手）。从长远来看，这确实成了一件大事。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "54c7ca7b5bcc000e1bdf5b1062809b244d51b8ef0b89ca2e729e4a0f9c0f99b5",
+      "enMarkdown": "Recognizing an important trend turns out to be easier than figuring out how to profit from it. The mistake investors always seem to make is to take the trend too literally. Since the Internet was the big new thing, investors supposed that the more Internettish the company, the better. Hence such parodies as Pets.Com.",
+      "zhMarkdown": "事实证明，认清一个重要趋势，比弄清楚如何从中获利要容易得多。投资者似乎总是犯同一个错误，那就是把趋势理解得过于字面化。既然互联网是新兴的大趋势，投资者就认为公司越有“互联网味”越好。于是就出现了 Pets.Com 这样的荒诞剧。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "f87bb65e4b581b7fe3115b2bb876d1f76071df46766413e665c56d0c3da3197d",
+      "enMarkdown": "In fact most of the money to be made from big trends is made indirectly. It was not the railroads themselves that made the most money during the railroad boom, but the companies on either side, like Carnegie's steelworks, which made the rails, and Standard Oil, which used railroads to get oil to the East Coast, where it could be shipped to Europe.",
+      "zhMarkdown": "事实上，从大趋势中赚到的大部分钱都是间接赚到的。在铁路繁荣时期，赚到最多钱的不是铁路公司本身，而是铁路两旁的关联公司。比如卡内基的钢铁厂（制造铁轨），以及标准石油（利用铁路将石油运往东海岸，再销往欧洲）。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "24ec7235af8bb1df89cc4bcd9d0aa33bbc51504c3ad7ece4c3f3d007cefa74bc",
+      "enMarkdown": "I think the Internet will have great effects, and that what we've seen so far is nothing compared to what's coming. But most of the winners will only indirectly be Internet companies; for every Google there will be ten JetBlues.",
+      "zhMarkdown": "我认为互联网将产生巨大的影响，我们目前所看到的与即将到来的未来相比根本不算什么。但大多数赢家只会间接地成为互联网公司；每一个谷歌（Google）的背后，都会有十个捷蓝航空（JetBlue）。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "ac42ebd70fce0d4f7dbd18f75d44d37b07635691f6095ee55d77fe059c71afe2",
+      "enMarkdown": "**3. Choices**",
+      "zhMarkdown": "**3. 选择权**"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "2a45a03bbf3c8e53eaa244bcfb68dac83ea4f964b5d077334d0f096fe008a7be",
+      "enMarkdown": "Why will the Internet have great effects? The general argument is that new forms of communication always do. They happen rarely (till industrial times there were just speech, writing, and printing), but when they do, they always cause a big splash.",
+      "zhMarkdown": "为什么互联网会产生巨大的影响？普遍的论点是，新的传播形式总是会带来巨大的影响。它们很少发生（在工业时代之前，只有语言、文字和印刷术），但一旦发生，总会引起巨大的轰动。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "15379ac53f51096317fab08d6eb77c76a9d662523b0302af8db1d58b1b1fc8fa",
+      "enMarkdown": "The specific argument, or one of them, is the Internet gives us more choices. In the \"old\" economy, the high cost of presenting information to people meant they had only a narrow range of options to choose from. The tiny, expensive pipeline to consumers was tellingly named \"the channel.\" Control the channel and you could feed them what you wanted, on your terms. And it was not just big corporations that depended on this principle. So, in their way, did labor unions, the traditional news media, and the art and literary establishments. Winning depended not on doing good work, but on gaining control of some bottleneck.",
+      "zhMarkdown": "具体的论点之一是，互联网给了我们更多的选择。在“旧”经济中，向人们展示信息的高昂成本意味着他们只有极少数的选择。通往消费者的那条狭窄、昂贵的管道被贴切地称为“渠道”。控制了渠道，你就可以按照你的条件，向他们喂你想喂的东西。依赖这一原则的不仅是大公司。工会、传统新闻媒体以及艺术和文学机构在某种程度上也是如此。要想胜出，不取决于做出好作品，而取决于控制住某个瓶颈。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "08fee7eee507d74fad213818bd66429617e918cc7983eb772e3dcc6a9a953bdd",
+      "enMarkdown": "There are signs that this is changing. Google has over 82 million unique users a month and annual revenues of about three billion dollars. [2] And yet have you ever seen a Google ad? Something is going on here.",
+      "zhMarkdown": "有迹象表明这种情况正在发生改变。谷歌每月有超过 8200 万的独立用户，年收入约 30 亿美元。[2] 然而，你见过谷歌的广告吗？这里面显然有些名堂。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "531123ee83da2dfa75e57096532f7312b81f8511acc02d0b34fb0e3bc69a3a45",
+      "enMarkdown": "Admittedly, Google is an extreme case. It's very easy for people to switch to a new search engine. It costs little effort and no money to try a new one, and it's easy to see if the results are better. And so Google doesn't *have* to advertise. In a business like theirs, being the best is enough.",
+      "zhMarkdown": "不可否认，谷歌是一个极端的例子。人们换用一个新的搜索引擎非常容易。尝试一个新引擎几乎不需要花精力，也不需要花钱，而且很容易看出搜索结果是否更好。因此，谷歌“不需要”做广告。在他们这样的行业里，做到最好就足够了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "37b921c1635e73a03bb4200165799f8f2de36a245af7598b8e92add426526f08",
+      "enMarkdown": "The exciting thing about the Internet is that it's shifting everything in that direction. The hard part, if you want to win by making the best stuff, is the beginning. Eventually everyone will learn by word of mouth that you're the best, but how do you survive to that point? And it is in this crucial stage that the Internet has the most effect. First, the Internet lets anyone find you at almost zero cost. Second, it dramatically speeds up the rate at which reputation spreads by word of mouth. Together these mean that in many fields the rule will be: Build it, and they will come. Make something great and put it online. That is a big change from the recipe for winning in the past century.",
+      "zhMarkdown": "互联网令人兴奋的地方在于，它正在将一切事物都推向这个方向。如果你想靠做出最好的东西来取胜，最难的部分是在最开始。最终，每个人都会通过口碑知道你是最好的，但在此之前你如何生存下来？正是在这个关键阶段，互联网发挥了最大的作用。首先，互联网让任何人都能以几乎为零的成本找到你。其次，它极大地加速了声誉通过口碑传播的速度。这两点结合在一起，意味着在许多领域，规则将变成：做出来，他们就会来。做出伟大的东西，然后把它放到网上。这与上个世纪的取胜秘诀相比，是一个巨大的变化。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "12e70e817fd8545ad1e58c970cbeea04dc8aa235785e79f45c9259efd6db586e",
+      "enMarkdown": "**4. Youth**",
+      "zhMarkdown": "**4. 年轻化**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "590c5c0c396341d067749a3098673ee1a5652cfa03231a46dc16f8540181b4d8",
+      "enMarkdown": "The aspect of the Internet Bubble that the press seemed most taken with was the youth of some of the startup founders. This too is a trend that will last. There is a huge standard deviation among 26 year olds. Some are fit only for entry level jobs, but others are ready to rule the world if they can find someone to handle the paperwork for them.",
+      "zhMarkdown": "媒体在互联网泡沫中似乎最感兴趣的，是某些创业创始人的年轻化。这也是一个会延续下去的趋势。26 岁的人群中存在着极大的标准差。有些人只适合做入门级的工作，但如果能有人帮他们处理繁琐文书，另一些人已经准备好去统治世界了。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "9565c605777fd8afb74a7020b52630950d5ed50c528081bf38cda39245f2be0d",
+      "enMarkdown": "A 26 year old may not be very good at managing people or dealing with the SEC. Those require experience. But those are also commodities, which can be handed off to some lieutenant. The most important quality in a CEO is his vision for the company's future. What will they build next? And in that department, there are 26 year olds who can compete with anyone.",
+      "zhMarkdown": "一个 26 岁的人可能不太擅长管理人员或与证监会（SEC）打交道。这些需要经验。但这些也是可以标准化的事务，可以移交给副手。CEO 最重要的品质是他对公司未来的愿景。接下来要建造什么？在这方面，有些 26 岁的人可以和任何人竞争。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "df0b082d6f5821d8db5dcebbe889469ebe7163f57d3d080fde5362e01fa25bf4",
+      "enMarkdown": "In 1970 a company president meant someone in his fifties, at least. If he had technologists working for him, they were treated like a racing stable: prized, but not powerful. But as technology has grown more important, the power of nerds has grown to reflect it. Now it's not enough for a CEO to have someone smart he can ask about technical matters. Increasingly, he has to be that person himself.",
+      "zhMarkdown": "在 1970 年，公司总裁意味着至少五十多岁的人。如果他手下有技术人员，他们会被像赛马一样对待：虽然珍贵，但没有实权。但随着技术变得越来越重要，黑客的权力也随之增长。现在，CEO 光是手下有一个可以咨询技术问题的聪明人已经不够了。他自己越来越需要成为那个懂技术的人。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "ec00b8a99448725e341b15e6831e2d3e1e6d7f175088d14a29bfe36b8cc022fb",
+      "enMarkdown": "As always, business has clung to old forms. VCs still seem to want to install a legitimate-looking talking head as the CEO. But increasingly the founders of the company are the real powers, and the grey-headed man installed by the VCs more like a music group's manager than a general.",
+      "zhMarkdown": "一如既往，商业界固守着旧的形式。风险投资人似乎仍然想安排一个看起来像那么回事的传声筒来当 CEO。但越来越多的时候，公司的创始人才是真正的掌权者，而风险投资人安排的那位白发苍苍的长者，更像是一个乐队的经理，而不是将军。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "5fc22561e34e207e9579232ebc3fdfebcfb77183daaa667da8731f8216664181",
+      "enMarkdown": "**5. Informality**",
+      "zhMarkdown": "**5. 非正式主义**"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "edc2b80044ac93de3e75bf0881ff302b1deba040885d42878db6f3775e2e2542",
+      "enMarkdown": "In New York, the Bubble had dramatic consequences: suits went out of fashion. They made one seem old. So in 1998 powerful New York types were suddenly wearing open-necked shirts and khakis and oval wire-rimmed glasses, just like guys in Santa Clara.",
+      "zhMarkdown": "在纽约，泡沫带来了戏剧性的后果：西装过时了。穿西装让人显得很老土。所以在 1998 年，纽约有权有势的人突然开始穿敞领衬衫、卡其裤，戴椭圆形金属丝边眼镜，就像圣克拉拉的家伙们一样。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "9d54f976f352d3a295fdcb73d9fad20e96817102a0f03cb9b14ddd5bf00123a8",
+      "enMarkdown": "The pendulum has swung back a bit, driven in part by a panicked reaction by the clothing industry. But I'm betting on the open-necked shirts. And this is not as frivolous a question as it might seem. Clothes are important, as all nerds can sense, though they may not realize it consciously.",
+      "zhMarkdown": "现在钟摆又往回摆了一点，部分原因是服装行业的恐慌反应。但我更看好敞领衬衫。这并不是一个像看起来那么琐碎的问题。衣服很重要，所有的黑客都能感觉到这一点，尽管他们可能没有自觉地意识到。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "14e179c792b5694da3b4c0cee8ba20f32d0febaf3d45c05b2013e881f7a868ca",
+      "enMarkdown": "If you're a nerd, you can understand how important clothes are by asking yourself how you'd feel about a company that made you wear a suit and tie to work. The idea sounds horrible, doesn't it? In fact, horrible far out of proportion to the mere discomfort of wearing such clothes. A company that made programmers wear suits would have something deeply wrong with it.",
+      "zhMarkdown": "如果你是一个黑客，要想明白衣服有多重要，只需问问自己，如果一家公司要求你穿西装打领带上班，你会有什么感觉。这个想法听起来很可怕，对吧？事实上，这种可怕程度，远超穿这种衣服本身带来的不适感。一家让程序员穿西装的公司，内部一定出了深层次的问题。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "d5df49a227f9a5c7a9f9030503114f64026dc25c649809c060983ebddf59b165",
+      "enMarkdown": "And what would be wrong would be that how one presented oneself counted more than the quality of one's ideas. *That's* the problem with formality. Dressing up is not so much bad in itself. The problem is the receptor it binds to: dressing up is inevitably a substitute for good ideas. It is no coincidence that technically inept business types are known as \"suits.\"",
+      "zhMarkdown": "而那个问题就在于，一个人的外表呈现变得比他想法的质量更重要。这就是“正式”带来的问题。盛装打扮本身倒没什么坏处。问题在于它所绑定的受体：盛装打扮不可避免地会成为好想法的替代品。技术上无能的商业人士被称为“西装男”（suits），这绝非巧合。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "c7021a0fc8eacbca8bd5a24da5dedff3c6df8580dc7b59cc18c0ad38c3883777",
+      "enMarkdown": "Nerds don't just happen to dress informally. They do it too consistently. Consciously or not, they dress informally as a prophylactic measure against stupidity.",
+      "zhMarkdown": "黑客并不是碰巧穿得很随便。他们穿得很随便的习惯极其一致。无论是否有意，他们穿得随性，是为了预防愚蠢的一种免疫措施。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "0554e5fa4e603f266f34232025fd4d35491451e51d5138aab729b67083e5802d",
+      "enMarkdown": "**6. Nerds**",
+      "zhMarkdown": "**6. 黑客**"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "ce80edb6c10c6381f93266c64948ab004c71ccc910be1cc5aa162fb1704c12a7",
+      "enMarkdown": "Clothing is only the most visible battleground in the war against formality. Nerds tend to eschew formality of any sort. They're not impressed by one's job title, for example, or any of the other appurtenances of authority.",
+      "zhMarkdown": "服装只是反对正式主义战争中最显眼的战场。黑客倾向于避开任何形式的正式。例如，他们不会被一个人的职位头衔或任何其他权力的象征所打动。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "91c1578bcae9661cf0f1a3ce8c8907c1fe117dab98b0bdefeb2e2a6b27f41284",
+      "enMarkdown": "Indeed, that's practically the definition of a nerd. I found myself talking recently to someone from Hollywood who was planning a show about nerds. I thought it would be useful if I explained what a nerd was. What I came up with was: someone who doesn't expend any effort on marketing himself.",
+      "zhMarkdown": "事实上，这几乎就是黑客的定义。我最近和好莱坞的一位人士聊天，他正计划筹备一部关于黑客的节目。我想如果我解释一下什么是黑客会很有用。我总结出来的是：一个不在自我营销上花任何精力的人。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "f5d750af0343e32483c64e9427cf52c5a68d4eb259ccd59df66df56c550e29e7",
+      "enMarkdown": "A nerd, in other words, is someone who concentrates on substance. So what's the connection between nerds and technology? Roughly that you can't fool mother nature. In technical matters, you have to get the right answers. If your software miscalculates the path of a space probe, you can't finesse your way out of trouble by saying that your code is patriotic, or avant-garde, or any of the other dodges people use in nontechnical fields.",
+      "zhMarkdown": "换句话说，黑客是专注于实质内容的人。那么，黑客和技术之间有什么联系呢？大致来说就是：你无法愚弄大自然。在技术问题上，你必须得到正确的答案。如果你的软件算错了太空探测器的轨道，你不能通过说你的代码是爱国的、前卫的，或者其他人们在非技术领域使用的借口，来忽悠并摆脱困境。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "9454f2705534cf66ca03076ff41a565a92f1e23be2205cd967f7d21cd2cbb207",
+      "enMarkdown": "And as technology becomes increasingly important in the economy, nerd culture is [rising](https://paulgraham.com/nerdad.html) with it. Nerds are already a lot cooler than they were when I was a kid. When I was in college in the mid-1980s, \"nerd\" was still an insult. People who majored in computer science generally tried to conceal it. Now women ask me where they can meet nerds. (The answer that springs to mind is \"Usenix,\" but that would be like drinking from a firehose.)",
+      "zhMarkdown": "随着技术在经济中变得越来越重要，黑客文化也随之[崛起](https://paulgraham.com/nerdad.html)。比起我小时候，黑客现在已经酷多了。在 20 世纪 80 年代中期我读大学时，“黑客/书呆子”（nerd）仍然是一个贬义词。主修计算机科学的人通常会试图隐瞒。现在，女生会问我在哪里可以遇到黑客。（我脑海中闪现的答案是“Usenix 会议”，但那感觉就像是对着消防栓喝水，信息量太冲了。）"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "be935991db138517afab4c477048f7b4718f2e76c0d2bb759456a4c85a94acb4",
+      "enMarkdown": "I have no illusions about why nerd culture is becoming more accepted. It's not because people are realizing that substance is more important than marketing. It's because the nerds are getting rich. But that is not going to change.",
+      "zhMarkdown": "我对于黑客文化为什么变得更容易被接受不抱幻想。这不是因为人们意识到实质比营销更重要。而是因为黑客变富有了。但这一点是不会改变的。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "fea7722ea5c17baef4ee464f7b922d853e80bc1ba86a8e25ba1b9e9b95aed0c2",
+      "enMarkdown": "**7. Options**",
+      "zhMarkdown": "**7. 期权**"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "b397d982b28197ccaad85fa7e9f5335bd482946fbc34d98a89fc466292610cda",
+      "enMarkdown": "What makes the nerds rich, usually, is stock options. Now there are moves afoot to make it harder for companies to grant options. To the extent there's some genuine accounting abuse going on, by all means correct it. But don't kill the golden goose. Equity is the fuel that drives technical innovation.",
+      "zhMarkdown": "让黑客致富的，通常是股票期权。现在有一些人企图限制公司发放期权。如果确实存在真正的会计滥用，那当然应该纠正。但千万不要杀鸡取卵。股权是推动技术创新的燃料。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "da6ef425c40a118d17d537f921f2c01548007f6e7e9adf91d69382646c6a51bf",
+      "enMarkdown": "Options are a good idea because (a) they're fair, and (b) they work. Someone who goes to work for a company is (one hopes) adding to its value, and it's only fair to give them a share of it. And as a purely practical measure, people work a *lot* harder when they have options. I've seen that first hand.",
+      "zhMarkdown": "期权是一个好主意，因为（a）它们是公平的，（b）它们行之有效。一个为公司工作的人（希望）正在增加公司的价值，分给他们一部分股份才是公平的。而且作为一种纯粹的实用手段，人们在拥有期权时工作要卖力得*多*。这是我亲眼所见的。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "7793f3880612773ed683d296029142c759c08b1b1ef5067859f8170fb734bf5b",
+      "enMarkdown": "The fact that a few crooks during the Bubble robbed their companies by granting themselves options doesn't mean options are a bad idea. During the railroad boom, some executives enriched themselves by selling watered stock—by issuing more shares than they said were outstanding. But that doesn't make common stock a bad idea. Crooks just use whatever means are available.",
+      "zhMarkdown": "在泡沫时期，少数骗子通过给自己发放期权来掠夺公司，这并不意味着期权是个坏主意。在铁路繁荣时期，一些高管通过出售掺水股票来中饱私囊——即发行超出声称数量的股票。但这并没有让普通股变成一个坏主意。骗子只是利用一切可用的手段而已。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "b9d069d9419a13a39f39a522b429a5748a7cd26d886d373f02e4d96e2e5c9041",
+      "enMarkdown": "If there is a problem with options, it's that they reward slightly the wrong thing. Not surprisingly, people do what you pay them to. If you pay them by the hour, they'll work a lot of hours. If you pay them by the volume of work done, they'll get a lot of work done (but only as you defined work). And if you pay them to raise the stock price, which is what options amount to, they'll raise the stock price.",
+      "zhMarkdown": "如果期权存在什么问题，那就是它们奖励的东西稍微有些偏差。不出所料，人们会根据你付钱给他们的目的来做事。如果你按小时付钱，他们就会工作很长时间。如果你按工作量付钱，他们就会完成很多工作（但仅限于你定义的工作）。如果你付钱让他们提高股价（这正是期权的本质），他们就会去提高股价。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "63e2af429edc6defb9697970fda47b70c43d67625e7906f1835c3695066c04a9",
+      "enMarkdown": "But that's not quite what you want. What you want is to increase the actual value of the company, not its market cap. Over time the two inevitably meet, but not always as quickly as options vest. Which means options tempt employees, if only unconsciously, to \"pump and dump\"—to do things that will make the company *seem* valuable. I found that when I was at Yahoo, I couldn't help thinking, \"how will this sound to investors?\" when I should have been thinking \"is this a good idea?\"",
+      "zhMarkdown": "但这并不是你真正想要的。你想要的是增加公司的实际价值，而不是它的市值。随着时间的推移，两者必然会合流，但并不总是能像期权兑现那么快。这意味着期权会诱使员工（哪怕是无意识地）去“拉高出货”——去做一些让公司*看起来*很有价值的事情。我发现当我在雅虎时，我忍不住会想“投资者会怎么看这个？”，而我本应该想的是“这是一个好主意吗？”"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "e83d454f08533c8fae030e3fb6c8520313864d5a0fa532817d653a5e9534ae71",
+      "enMarkdown": "So maybe the standard option deal needs to be tweaked slightly. Maybe options should be replaced with something tied more directly to earnings. It's still early days.",
+      "zhMarkdown": "所以，也许标准的期权交易需要稍作调整。也许期权应该被与利润更直接挂钩的东西所取代。现在还处于早期阶段。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "de37b4a72e22beeefd3f1d68e21c3c0f67e15fb6a5dddb7c3ee957054fe130b3",
+      "enMarkdown": "**8. Startups**",
+      "zhMarkdown": "**8. 创业公司**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "b69b0ce22b866398cce536e3f32838e0079cd318afb91594f03ce8673d7acc57",
+      "enMarkdown": "What made the options valuable, for the most part, is that they were options on the stock of [startups](https://paulgraham.com/start.html). Startups were not of course a creation of the Bubble, but they were more visible during the Bubble than ever before.",
+      "zhMarkdown": "在很大程度上，让期权值钱的原因在于它们是[创业公司](https://paulgraham.com/start.html)的股票期权。创业公司当然不是泡沫的产物，但它们在泡沫时期比以往任何时候都更加引人注目。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "ce63271ba665e29d9349ef04149422df8a85bb7bdb4e9de8deba56c51ba30237",
+      "enMarkdown": "One thing most people did learn about for the first time during the Bubble was the startup created with the intention of selling it. Originally a startup meant a small company that hoped to grow into a big one. But increasingly startups are evolving into a vehicle for developing technology on spec.",
+      "zhMarkdown": "大多数人确实是在泡沫时期第一次了解到，有一种创业公司是为了卖掉而创建的。最初，创业公司指的是一家希望成长为大公司的小公司。但越来越多的时候，创业公司正在演变成一种专门用于研发技术的载体。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "cc72247a8fc9b88bb031fcb3f9197bde05fdd6eb040e9a562a2a888705fbe3fd",
+      "enMarkdown": "As I wrote in [Hackers & Painters](https://paulgraham.com/hackpaint.html), employees seem to be most productive when they're paid in proportion to the wealth they generate. And the advantage of a startup—indeed, almost its raison d'etre—is that it offers something otherwise impossible to obtain: a way of *measuring* that.",
+      "zhMarkdown": "正如我在《[黑客与画家](https://paulgraham.com/hackpaint.html)》中所写，当员工的报酬与他们创造的财富成正比时，他们的生产力似乎是最高的。而创业公司的优势——事实上，几乎是它存在的理由——在于它提供了一种在其他地方无法获得的东西：一种*衡量*这种价值的方法。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "f96ce2723f0907b111e161bd81813e2bbf954e2b669bb7b01f044923859234f9",
+      "enMarkdown": "In many businesses, it just makes more sense for companies to get technology by buying startups rather than developing it in house. You pay more, but there is less risk, and risk is what big companies don't want. It makes the guys developing the technology more accountable, because they only get paid if they build the winner. And you end up with better technology, created faster, because things are made in the innovative atmosphere of startups instead of the bureaucratic atmosphere of big companies.",
+      "zhMarkdown": "在许多行业中，公司通过收购创业公司来获取技术，比自己内部研发更合算。你付出的资金更多，但风险更小，而风险正是大公司最想避开的。这让开发技术的人更有责任感，因为他们只有做出赢家才能拿到钱。你最终会得到更好、更快创造出来的技术，因为这些东西是在创业公司创新的氛围中制造出来的，而不是在大公司官僚主义的氛围中。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "08d163e3c7193988c1f453faf28f0638410d890e1e92e36c883a963b8ab8efa0",
+      "enMarkdown": "Our startup, Viaweb, was built to be sold. We were open with investors about that from the start. And we were careful to create something that could slot easily into a larger company. That is the pattern for the future.",
+      "zhMarkdown": "我们的创业公司 Viaweb 就是为了被收购而创建的。我们从一开始就对投资者公开了这一点。我们很小心地创造出能够轻易融入更大公司的产品。这就是未来的模式。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "bb28e587b12a050555c7845cd2ee2949dd2b2b21ef4d992b54262295a56e22c4",
+      "enMarkdown": "**9. California**",
+      "zhMarkdown": "**9. 加州**"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "593c15455e686d77fc5abb77fffdd26e8e6abe76403ba1c5e15c3188e56fd583",
+      "enMarkdown": "The Bubble was a California phenomenon. When I showed up in Silicon Valley in 1998, I felt like an immigrant from Eastern Europe arriving in America in 1900. Everyone was so cheerful and healthy and rich. It seemed a new and improved world.",
+      "zhMarkdown": "这场泡沫是加州的现象。当我 1998 年来到硅谷时，我感觉自己就像一个 1900 年抵达美国的东欧移民。每个人都是那么开朗、健康、富有。这似乎是一个升级版的全新世界。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "2fc79d310c0c37293083d4f8a91c0909933a63e6fdf68b3d0d8ff64d58a2a987",
+      "enMarkdown": "The press, ever eager to exaggerate small trends, now gives one the impression that Silicon Valley is a ghost town. Not at all. When I drive down 101 from the airport, I still feel a buzz of energy, as if there were a giant transformer nearby. Real estate is still more expensive than just about anywhere else in the country. The people still look healthy, and the weather is still fabulous. The future is there. (I say \"there\" because I moved back to the East Coast after Yahoo. I still wonder if this was a smart idea.)",
+      "zhMarkdown": "媒体总是热衷于放大微小的趋势，现在给人的印象是硅谷已经成了一座鬼城。完全不是这样。当我从机场沿着 101 公路往南开时，我依然能感受到一股能量的波动，就好像附近有一个巨大的变压器。那里的房价依然比美国其他任何地方都贵。人们看起来依然很健康，天气依然棒极了。未来就在那里。（我说“那里”是因为我在雅虎之后搬回了东海岸。我至今仍在怀疑这是否是个聪明的决定。）"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "997ba7771dd77dab6a6841121ac003f6123e6466690abb6937245c9cba553ef9",
+      "enMarkdown": "What makes the Bay Area superior is the attitude of the people. I notice that when I come home to Boston. The first thing I see when I walk out of the airline terminal is the fat, grumpy guy in charge of the taxi line. I brace myself for rudeness: *remember, you're back on the East Coast now.*",
+      "zhMarkdown": "让湾区更胜一筹的是人们的态度。当我回到波士顿家乡时，我注意到了这一点。当我走出机场航站楼，看到的第一眼就是出租车排队处那个肥胖、脾气暴躁的主管。我做好了面对粗鲁对待的准备：*记住，你现在回到了东海岸。*"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "752826c9c4c17806c1f3ee3d9e3cc93e224cc3e9cb934bdc29c6718c6f4be3f0",
+      "enMarkdown": "The atmosphere varies from city to city, and fragile organisms like startups are exceedingly sensitive to such variation. If it hadn't already been hijacked as a new euphemism for liberal, the word to describe the atmosphere in the Bay Area would be \"progressive.\" People there are trying to build the future. Boston has MIT and Harvard, but it also has a lot of truculent, unionized employees like the police who recently held the Democratic National Convention for [ransom](http://www.usatoday.com/news/politicselections/nation/president/2004-04-30-boston-police-convention_x.htm), and a lot of people trying to be Thurston Howell. Two sides of an obsolete coin.",
+      "zhMarkdown": "每个城市的氛围都不同，而像创业公司这样脆弱的组织对这种变化极其敏感。如果“进步”（progressive）这个词还没有被绑架成自由派的新代名词，那么它就是用来形容湾区氛围最贴切的词。那里的人们正在努力创造未来。波士顿有麻省理工和哈佛，但它也有很多好斗的、加入了工会的员工，比如最近为了[赎金](http://www.usatoday.com/news/politicselections/nation/president/2004-04-30-boston-police-convention_x.htm)而绑架民主党全国代表大会的警察，还有很多想成为瑟斯顿·豪威尔（Thurston Howell，美剧中的富翁形象）的人。这是一枚过时硬币的两面。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "02347de6cab9c81d4d6eda518a85d281f055c157f405ad7870a39f090fef5f40",
+      "enMarkdown": "Silicon Valley may not be the next Paris or London, but it is at least the next Chicago. For the next fifty years, that's where new wealth will come from.",
+      "zhMarkdown": "硅谷可能不会成为下一个巴黎或伦敦，但它至少是下一个芝加哥。在未来的五十年里，那里将是新财富的源泉。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "22e926dc5eb7c6671ee0fbc8d7d190366396b48e2b6f377bee01e12fbcfb35a3",
+      "enMarkdown": "**10. Productivity**",
+      "zhMarkdown": "**10. 生产力**"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "d84ddd6198fff11e3ffa39c2afffe6f49117edb7e468810f724ac331586d87ce",
+      "enMarkdown": "During the Bubble, optimistic analysts used to justify high price to earnings ratios by saying that technology was going to increase productivity dramatically. They were wrong about the specific companies, but not so wrong about the underlying principle. I think one of the big trends we'll see in the coming century is a huge increase in productivity.",
+      "zhMarkdown": "在泡沫时期，乐观的分析师常用技术将极大地提高生产力，来为高市盈率进行辩护。他们对具体公司的预测错了，但对底层原理的理解并没有错。我认为我们在未来一个世纪将看到的大趋势之一，就是生产力的巨大提升。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "f05dd5ed77435d6a6b07c5bbf3ea4971e6e054c9e6784bb836071ef99475c243",
+      "enMarkdown": "Or more precisely, a huge increase in [variation](https://paulgraham.com/gh.html) in productivity. Technology is a lever. It doesn't add; it multiplies. If the present range of productivity is 0 to 100, introducing a multiple of 10 increases the range from 0 to 1000.",
+      "zhMarkdown": "或者更准确地说，是生产力[差异](https://paulgraham.com/gh.html)的巨大拉大。技术是一个杠杆。它不是做加法，而是做乘法。如果目前的生产力范围是 0 到 100，引入一个 10 的乘数就会将范围扩大到 0 到 1000。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "60e59e794ada1848131148c7b9a9044207d56b47e46cd5e02f75c435f1a83d70",
+      "enMarkdown": "One upshot of which is that the companies of the future may be surprisingly small. I sometimes daydream about how big you could grow a company (in revenues) without ever having more than ten people. What would happen if you outsourced everything except product development? If you tried this experiment, I think you'd be surprised at how far you could get. As Fred Brooks pointed out, small groups are intrinsically more productive, because the internal friction in a group grows as the square of its size.",
+      "zhMarkdown": "其中的一个结果是，未来的公司可能会小得令人吃惊。我有时会幻想，在员工人数不超过十人的情况下，你能把一家公司的规模（按收入计）做多大。如果你把除产品开发之外的所有事情都外包出去，会发生什么？如果你尝试这个实验，我想你会对你能走多远感到惊讶。正如弗雷德·布鲁克斯（Fred Brooks）指出的，小团队在本质上更具生产力，因为团队内部的摩擦是随着团队人数的平方而增长的。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "84f95961d0e0e3b491a54537cd7d3b9550f6cf2806d2a1a0016a6440fedd24b2",
+      "enMarkdown": "Till quite recently, running a major company meant managing an army of workers. Our standards about how many employees a company should have are still influenced by old patterns. Startups are perforce small, because they can't afford to hire a lot of people. But I think it's a big mistake for companies to loosen their belts as revenues increase. The question is not whether you can afford the extra salaries. Can you afford the loss in productivity that comes from making the company bigger?",
+      "zhMarkdown": "直到不久前，经营一家大公司还意味着管理一支员工大军。我们关于一家公司应该有多少员工的标准，仍然受到旧模式的影响。创业公司被迫保持小规模，因为它们雇不起很多人。但我认为，公司随着收入的增加而放宽腰带是一个巨大的错误。问题不在于你是否付得起额外的工资。而在于，你是否承受得起伴随公司变大而带来的生产力损失？"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "d8fe6275a6cfb04606dbe56f76b890a299b7a614d3f59af3ea813cb8da68f617",
+      "enMarkdown": "The prospect of technological leverage will of course raise the specter of unemployment. I'm surprised people still worry about this. After centuries of supposedly job-killing innovations, the number of jobs is within ten percent of the number of people who want them. This can't be a coincidence. There must be some kind of balancing mechanism.",
+      "zhMarkdown": "技术杠杆的前景自然会引发对失业的担忧。我很惊讶人们至今仍在担心这个问题。在经历了几个世纪被认为会消灭工作的创新之后，工作岗位的数量仍然保持在想工作人数的 90% 左右。这不可能是巧合。一定存在某种平衡机制。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "8c7763fc671d136c4beb8693d145af58bf7a4c689f6a3a9343b303613cdbaec7",
+      "enMarkdown": "**What's New**",
+      "zhMarkdown": "**什么是新的**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "e1b3998ee18d2843c91c6b18d0a3fbbd9c1fae292b54fa728b312215956d0f11",
+      "enMarkdown": "When one looks over these trends, is there any overall theme? There does seem to be: that in the coming century, good ideas will count for more. That 26 year olds with good ideas will increasingly have an edge over 50 year olds with powerful connections. That doing good work will matter more than dressing up—or advertising, which is the same thing for companies. That people will be rewarded a bit more in proportion to the value of what they create.",
+      "zhMarkdown": "当我们审视这些趋势时，是否存在一个总体的母题？确实似乎有：在未来的世纪里，好想法将更有分量。拥有好想法的 26 岁年轻人，将越来越比拥有强大关系的 50 岁老手更有优势。做出好作品将比装扮外表更重要——或者说比做广告更重要，对公司来说这是一回事。人们将更按比例地，根据他们所创造的价值获得回报。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "7d297b40e4a5bf72a19646afdc9cdcce969d82f5a65324109d76bf51857384f2",
+      "enMarkdown": "If so, this is good news indeed. Good ideas always tend to win eventually. The problem is, it can take a very long time. It took decades for relativity to be accepted, and the greater part of a century to establish that central planning didn't work. So even a small increase in the rate at which good ideas win would be a momentous change—big enough, probably, to justify a name like the \"new economy.\"",
+      "zhMarkdown": "如果是这样，这确实是个好消息。好想法最终总是会胜出的。问题是，这可能需要非常长的时间。相对论花了数十年才被接受，而确立计划经济行不通则花了大半个世纪。因此，即使好想法胜出的速度只提高一点点，也将是一个重大的变化——其重大程度，大概足以配得上“新经济”这样的名字。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "43f22354ecc63bb1323bda76aa20df7f18c98f497505fe64b58fd7d911d92cc1",
+      "enMarkdown": "[1] Actually it's hard to say now. As Jeremy Siegel points out, if the value of a stock is its future earnings, you can't tell if it was overvalued till you see what the earnings turn out to be. While certain famous Internet stocks were almost certainly overvalued in 1999, it is still hard to say for sure whether, e.g., the Nasdaq index was.",
+      "zhMarkdown": "[1] 实际上现在也很难说。正如杰里米·西格尔（Jeremy Siegel）指出的，如果股票的价值在于其未来的收益，那么在看到其收益到底是多少之前，你无法判断它是否被高估了。虽然某些著名的互联网股票在 1999 年几乎肯定被高估了，但现在仍然很难确切地说，例如，纳斯达克指数是否被高估了。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "b0943354814a1fea37efaab9f49d4a60b7125fb76ccc367ef2a73d4737022a8b",
+      "enMarkdown": "Siegel, Jeremy J. \"What Is an Asset Price Bubble? An Operational Definition.\" *European Financial Management,* 9:1, 2003.",
+      "zhMarkdown": "Siegel, Jeremy J. \"What Is an Asset Price Bubble? An Operational Definition.\" *European Financial Management,* 9:1, 2003."
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "924ead64b47ede75169d39878e26cecc1128278cbc88785c200ff4f3e7b0c3c0",
+      "enMarkdown": "[2] The number of users comes from a 6/03 Nielsen study quoted on Google's site. (You'd think they'd have something more recent.) The revenue estimate is based on revenues of $1.35 billion for the first half of 2004, as reported in their IPO filing.",
+      "zhMarkdown": "[2] 用户数量来自谷歌网站上引用的 2003 年 6 月尼尔森研究。（你会觉得他们应该有更新的数据。）收入估算是基于他们 IPO 招股书披露的 2004 年上半年 13.5 亿美元的收入计算得出的。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "976225d94446844b91132c8bb0975904cbb1d021a48e5aa295e502d7c6b176e0",
+      "enMarkdown": "**Thanks** to Chris Anderson, Trevor Blackwell, Sarah Harlin, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Chris Anderson、Trevor Blackwell、Sarah Harlin、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

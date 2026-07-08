@@ -1,0 +1,412 @@
+{
+  "slug": "heroes",
+  "titleEn": "Some Heroes",
+  "titleZh": "我的英雄们",
+  "dateText": "April 2008",
+  "publishedAt": "2008-04-01",
+  "sourceOrder": 139,
+  "sourceUrl": "https://paulgraham.com/heroes.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "53e9e20545161d55134c897e791ed2c0e35f2265121b5b75cb0d999165b8c91a",
+      "enMarkdown": "There are some topics I save up because they'll be so much fun to write about. This is one of them: a list of my heroes.",
+      "zhMarkdown": "有些话题我会特意攒着，因为写起来会非常过瘾。这就是其中之一：一份属于我自己的英雄清单。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "b1335cc5d515217e7e3a641b979ac983a1aa8c7c3abce9b20e052f46079cf660",
+      "enMarkdown": "I'm not claiming this is a list of the *n* most admirable people. Who could make such a list, even if they wanted to?",
+      "zhMarkdown": "我并不是说这是一份“世界上最令人钦佩的 $n$ 个人”的清单。即便有人想这么做，又有谁能真正列得出来呢？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "adf01b331554699972407c25d94f2f6b4233927242b551d17c7795c8d5307a46",
+      "enMarkdown": "Einstein isn't on the list, for example, even though he probably deserves to be on any shortlist of admirable people. I once asked a physicist friend if Einstein was really as smart as his fame implies, and she said that yes, he was. So why isn't he on the list? Because I had to ask. This is a list of people who've influenced me, not people who would have if I understood their work.",
+      "zhMarkdown": "比如，爱因斯坦就不在这份清单上，尽管他理应出现在任何一份最令人钦佩的人类简明清单里。我曾问过一位做物理学家的朋友，爱因斯坦是否真的像他的名声所说的那样聪明，她说，是的，名副其实。那为什么他不在清单上？因为这还需要我去问。这是一份真正影响过我的个人清单，而不是那些如果我能看懂他们的著作、本该影响我的人。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7e37ca8d0d6863e0e62b57bbf8c5196d0d709b06968df47e830cb890de02946d",
+      "enMarkdown": "My test was to think of someone and ask \"is this person my hero?\" It often returned surprising answers. For example, it returned false for Montaigne, who was arguably the inventor of the essay. Why? When I thought about what it meant to call someone a hero, it meant I'd decide what to do by asking what they'd do in the same situation. That's a stricter standard than admiration.",
+      "zhMarkdown": "我的测试方法是想到一个人，然后问自己：“这个人是我的英雄吗？”这常常会得出令人意外的答案。例如，蒙田（Montaigne）的测试结果是否定的，而他可以说是散文（essay）的开创者。为什么？当我思考“称某人为英雄”意味着什么时，它意味着在面临抉择时，我会通过问自己“如果是他们处在相同境地会怎么做”来决定自己的行动。这比单纯的钦佩要严苛得多。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "87bc258094b652a227845b42e8752528fa181ae1d6ba357883137ae1f0a7868b",
+      "enMarkdown": "After I made the list, I looked to see if there was a pattern, and there was, a very clear one. Everyone on the list had two qualities: they cared almost excessively about their work, and they were absolutely honest. By honest I don't mean trustworthy so much as that they never pander: they never say or do something because that's what the audience wants. They are all fundamentally subversive for this reason, though they conceal it to varying degrees.",
+      "zhMarkdown": "列出清单后，我试图寻找其中是否存在某种规律，结果发现了一个非常清晰的特征。清单上的每个人都具备两个品质：他们对自己的工作有着近乎偏执的热爱，并且绝对诚实。我所说的诚实，指的不是为人可靠，而是他们从不迎合：他们绝不会因为观众想听什么就说什么，或者想看什么就做什么。正因如此，他们在根本上都具有颠覆性，尽管他们对此的掩饰程度各有不同。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3aa4dcbdb61ec05cb021cd9b0c9a525c7d3d136bfd4d2fd016478ba00c657b61",
+      "enMarkdown": "**Jack Lambert**",
+      "zhMarkdown": "**杰克·兰伯特 (Jack Lambert)**"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ca76fcbc8117e6e3ed9619d82925d19ed1d770e3fbfec54ddfe57b251f8c08f1",
+      "enMarkdown": "I grew up in Pittsburgh in the 1970s. Unless you were there it's hard to imagine how that town felt about the Steelers. Locally, all the news was bad. The steel industry was dying. But the Steelers were the best team in football — and moreover, in a way that seemed to reflect the personality of the city. They didn't do anything fancy. They just got the job done.",
+      "zhMarkdown": "我在 1970 年代的匹兹堡长大。除非你当时身处其境，否则很难想象那座城市对钢人队（Steelers）怀有怎样狂热的情感。在当地，所有的消息都是坏消息：钢铁工业正在走向衰亡。但钢人队却是美式橄榄球联盟中最棒的球队——而且，他们的风格似乎完美契合了这座城市的性格。他们不玩虚的，只是默默把事情办成。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "efd262058537f8470d9cbc280e0992dc154c156234a9be5e90dcd02319a0f694",
+      "enMarkdown": "Other players were more famous: Terry Bradshaw, Franco Harris, Lynn Swann. But they played offense, and you always get more attention for that. It seemed to me as a twelve year old football expert that the best of them all was [Jack Lambert](http://en.wikipedia.org/wiki/Jack_Lambert_(American_football_player)). And what made him so good was that he was utterly relentless. He didn't just care about playing well; he cared almost too much. He seemed to regard it as a personal insult when someone from the other team had possession of the ball on his side of the line of scrimmage.",
+      "zhMarkdown": "其他球员名气更大：特里·布拉德肖（Terry Bradshaw）、弗兰科·哈里斯（Franco Harris）、林恩·斯旺（Lynn Swann）。但他们打的是进攻，而进攻球员总是能赢得更多关注。但在我这个十二岁的橄榄球“专家”眼里，他们当中最伟大的是 [Jack Lambert](http://en.wikipedia.org/wiki/Jack_Lambert_(American_football_player))。他之所以如此出色，是因为他有着一股彻底的狠劲。他不仅仅是想打好比赛，他简直是在拼命。当对方球员在开球线他这一侧拿到球时，他似乎觉得这对自己是一种人格侮辱。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c2daabf230b6f4abf656ff7926cb74d179f4f9135e6d84a2839ce94c3a5e23b9",
+      "enMarkdown": "The suburbs of Pittsburgh in the 1970s were a pretty dull place. School was boring. All the adults around were bored with their jobs working for big companies. Everything that came to us through the mass media was (a) blandly uniform and (b) produced elsewhere. Jack Lambert was the exception. He was like nothing else I'd seen.",
+      "zhMarkdown": "1970 年代的匹兹堡郊区是个相当沉闷的地方。学校生活枯燥无味。身边的成年人对自己在大型企业里的工作感到厌倦。通过大众媒体传给我们的东西，要么（a）单调乏味得千篇一律，要么（b）是在别处生产出来的。杰克·兰伯特是个例外。他和我见过的任何事物都不同。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "4ba934fb21bc2661e90f819f2a362ae0ace5dabaf7efe394ac52f6a4f4751e04",
+      "enMarkdown": "**Kenneth Clark**",
+      "zhMarkdown": "**肯尼斯·克拉克 (Kenneth Clark)**"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "afc8cbefde02f39b9db37a4391af7b3f0b6bf759f420e9c97f9e9bfda3311157",
+      "enMarkdown": "Kenneth Clark is the best nonfiction writer I know of, on any subject. Most people who write about art history don't really like art; you can tell from a thousand little signs. But Clark did, and not just intellectually, but the way one anticipates a delicious dinner.",
+      "zhMarkdown": "肯尼斯·克拉克是我所知道的写非虚构写作（nonfiction）最棒的作家，无论什么主题。大多数写艺术史的人其实并不真正热爱艺术，你可以从一千个微小的细节中看出端倪。但克拉克热爱艺术，而且不仅仅是智力上的欣赏，更像是一个人对一顿饕餮大餐的满怀期待。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "c4d548ec38a8475d7b6804dd9deefd34293c5e2fe7b2a68e05df3f93790d1a45",
+      "enMarkdown": "What really makes him stand out, though, is the quality of his ideas. His style is deceptively casual, but there is more in his books than in a library of art monographs. Reading [The Nude](http://www.amazon.com/Nude-Study-Ideal-Form/dp/0691017883) is like a ride in a Ferrari. Just as you're getting settled, you're slammed back in your seat by the acceleration. Before you can adjust, you're thrown sideways as the car screeches into the first turn. His brain throws off ideas almost too fast to grasp them. Finally at the end of the chapter you come to a halt, with your eyes wide and a big smile on your face.",
+      "zhMarkdown": "不过，真正让他脱颖而出的是他的思想深度。他的行文风格看似随意，但他的书里蕴含的信息量比一整个图书馆的艺术专著还要多。阅读 [_The Nude_](http://www.amazon.com/Nude-Study-Ideal-Form/dp/0691017883) 就像坐上一辆法拉利。你刚坐稳，就会被推背感狠狠压在座椅上。还没等你适应，车子尖叫着拐入第一个弯道，又把你甩向一侧。他的大脑抛出想法的速度快到让人几乎无法招架。最后，在章节结束时，你停了下来，睁大双眼，脸上洋溢着大大的笑容。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c878904551d77707b4a5f434913d5670fd965c8b1bbd473f6f5dbe3a43017427",
+      "enMarkdown": "Kenneth Clark was a star in his day, thanks to the documentary series [Civilisation](http://www.amazon.com/dp/B000F0UUKA). And if you read only one book about art history, [Civilisation](http://www.abebooks.com/servlet/SearchResults?an=clark&sts=t&tn=civilisation) is the one I'd recommend. It's much better than the drab Sears Catalogs of art that undergraduates are forced to buy for Art History 101.",
+      "zhMarkdown": "肯尼斯·克拉克在他那个时代是一位明星，这要归功于纪录片系列 [_Civilisation_](http://www.amazon.com/dp/B000F0UUKA)。如果你只想读一本关于艺术史的书，我推荐 [_Civilisation_](http://www.abebooks.com/servlet/SearchResults?an=clark&sts=t&tn=civilisation)。它比大学艺术史入门课上强迫学生购买的那些单调沉闷、像西尔斯百货商品目录一样的艺术教材要好得多。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "f820e60f739e2f24738a3d7fa852fb67a44aa1a20ffcdd1dff0bb9d5d4fa354e",
+      "enMarkdown": "**Larry Mihalko**",
+      "zhMarkdown": "**拉里·米哈尔科 (Larry Mihalko)**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "e674f1dd76ec1b32e3de0167ef079cf49b1a64827722ec56453faf45bd84e478",
+      "enMarkdown": "A lot of people have a great teacher at some point in their childhood. Larry Mihalko was mine. When I look back it's like there's a line drawn between third and fourth grade. After Mr. Mihalko, everything was different.",
+      "zhMarkdown": "很多人在童年时期都会遇到一位伟大的老师。拉里·米哈尔科就是我的那一位。现在回想起来，我的三年级和四年级之间就像划开了一条分界线。在米哈尔科老师之后，一切都变得不一样了。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "72d147169d5c179aa084b2b6aa454c3de2b3c662a885552774de6deda1a37575",
+      "enMarkdown": "Why? First of all, he was intellectually curious. I had a few other teachers who were smart, but I wouldn't describe them as intellectually curious. In retrospect, he was out of place as an elementary school teacher, and I think he knew it. That must have been hard for him, but it was wonderful for us, his students. His class was a constant adventure. I used to like going to school every day.",
+      "zhMarkdown": "为什么？首先，他有强烈的求知欲。我也遇到过其他几位聪明的老师，但我不会用“有求知欲”来形容他们。现在想来，他当小学老师其实是屈才了，而且我想他自己也清楚这一点。这对他来说一定很不容易，但对我们这些学生来说，却是极大的幸运。他的课是一场不间断的冒险。那时的我每天都盼着去上学。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "c588595fc4215032cf76a85b9c80eeca46d5ffce49d3ac99ef150198f2bea2b9",
+      "enMarkdown": "The other thing that made him different was that he liked us. Kids are good at telling that. The other teachers were at best benevolently indifferent. But Mr. Mihalko seemed like he actually wanted to be our friend. On the last day of fourth grade, he got out one of the heavy school record players and played James Taylor's \"You've Got a Friend\" to us. Just call out my name, and you know wherever I am, I'll come running. He died at 59 of lung cancer. I've never cried like I cried at his funeral.",
+      "zhMarkdown": "另一个让他与众不同的地方在于，他是真心喜欢我们。小孩子对这一点很敏感。其他老师顶多算是心怀善意的冷漠。但米哈尔科老师看起来是真想和我们做朋友。在四年级的最后一天，他搬出了学校沉重的唱片机，给我们播放了詹姆斯·泰勒（James Taylor）的《You've Got a Friend》：“只要喊出我的名字，你知道无论我在哪里，我都会奔跑而来。”他 59 岁时因肺癌去世。我这辈子从未像在他的葬礼上那样痛哭过。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "831b5d3a1db7093e88f940686adb5571f8186e1815332b8914f963a5cd619c91",
+      "enMarkdown": "**Leonardo**",
+      "zhMarkdown": "**达芬奇 (Leonardo)**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "5a7b7bc39c2696fdb34959f3adde6cbe572948222b3f3a33a969c5268fc174db",
+      "enMarkdown": "One of the things I've learned about making things that I didn't realize when I was a kid is that much of the best stuff isn't made for audiences, but for oneself. You see paintings and drawings in museums and imagine they were made for you to look at. Actually a lot of the best ones were made as a way of exploring the world, not as a way to please other people. The best of these explorations are sometimes more pleasing than stuff made explicitly to please.",
+      "zhMarkdown": "关于创造事物，我小时候没有意识到、但后来才明白的一点是：许多最棒的作品并不是为了观众而作，而是为了作者自己。你在博物馆里看到画作和素描，以为它们是为了让你观赏而创作的。实际上，其中许多最杰出的作品是作为探索世界的方式，而不是为了讨好他人。而这些探索中最极致的部分，有时比那些专门为了迎合而作的东西更令人赏心悦目。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "6f1f29fbf0a3690ac2d9494be58272cca35eabd36569d98f9dba8055aa0e2fa3",
+      "enMarkdown": "Leonardo did a lot of things. One of his most admirable qualities was that he did so many different things that were admirable. What people know of him now is his paintings and his more flamboyant inventions, like flying machines. That makes him seem like some kind of dreamer who sketched artists' conceptions of rocket ships on the side. In fact he made a large number of far more practical technical discoveries. He was as good an engineer as a painter.",
+      "zhMarkdown": "达芬奇做过很多事情。他最令人钦佩的品质之一，就是他做了那么多不同且都令人赞叹的事。如今人们对他的了解主要限于他的画作，以及他那些更具想象力的发明，比如飞行器。这让他看起来像是一个在空白处随手画着火箭草图的梦想家。事实上，他做出了大量远比这更具实用价值的技术发现。他不仅是一位伟大的画家，也是一位同样出色的工程师。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "16dc4cdbeb617b4c69e3fd4af0f1f2cc2bb3831af8a6c689d6824ae620dd5e3e",
+      "enMarkdown": "His most impressive work, to me, is his [drawings](https://sep.turbifycdn.com/ty/cdn/paulgraham/leonardo-skull.jpg?t=1772732230&). They're clearly made more as a way of studying the world than producing something beautiful. And yet they can hold their own with any work of art ever made. No one else, before or since, was that good when no one was looking.",
+      "zhMarkdown": "对我来说，他最令人震撼的作品是他的[素描](https://sep.turbifycdn.com/ty/cdn/paulgraham/leonardo-skull.jpg?t=1772732230&)。这些作品显然更多是为了研究世界，而不是为了制造美感。然而，它们却能与人类历史上任何一件艺术杰作相媲美。在没有观众注视时，无论过去还是现在，都没有人能做到如此极致。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "b167e0b89c1c5c1daf36d30f957cab7b670b8af5b3d0166a1a8909faa9c63081",
+      "enMarkdown": "**Robert Morris**",
+      "zhMarkdown": "**罗伯特·莫里斯 (Robert Morris)**"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "4616908c26f83bd4c725b6ff9b7b2d3275937f544927dfc28adaa31beb641ffb",
+      "enMarkdown": "Robert Morris has a very unusual quality: he's never wrong. It might seem this would require you to be omniscient, but actually it's surprisingly easy. Don't say anything unless you're fairly sure of it. If you're not omniscient, you just don't end up saying much.",
+      "zhMarkdown": "罗伯特·莫里斯有一个非常罕见的特质：他从不犯错。这听起来似乎需要你无所不知，但实际上做起来意外地简单：除非你有十足的把握，否则什么都不要说。如果你不是无所不知，那么你最终说的话自然就不会太多。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "264142f735f9f78cd59d9213532e5da3a15204dbc53b8f0236f4b2fb75296f90",
+      "enMarkdown": "More precisely, the trick is to pay careful attention to how you qualify what you say. By using this trick, Robert has, as far as I know, managed to be mistaken only once, and that was when he was an undergrad. When the Mac came out, he said that little desktop computers would never be suitable for real hacking.",
+      "zhMarkdown": "更准确地说，诀窍在于要极度审慎地对待你说话时的限制条件。据我所知，通过使用这个诀窍，罗伯特仅有过一次失误，那还是在他读本科的时候。当时 Mac 电脑刚刚问世，他说这种小型台式电脑永远不适合用来做真正的黑客编程。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "51725af0b5297ce103ad2b87d3e4a487613fc9f27dc72dd4a76dacfd1cef023c",
+      "enMarkdown": "It's wrong to call it a trick in his case, though. If it were a conscious trick, he would have slipped in a moment of excitement. With Robert this quality is wired-in. He has an almost superhuman integrity. He's not just generally correct, but also correct about how correct he is.",
+      "zhMarkdown": "不过，在他身上，把这称为“诀窍”是不妥的。如果这是一种刻意的技巧，他在兴奋时总会漏出破绽。但在罗伯特身上，这种特质是天生刻在骨子里的。他有着近乎超人的严谨。他不仅在结论上通常是正确的，而且对他自己有多大把握也是完全准确的。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "89f26796417e706e1a9acbb4b187e49e5e9b51bd927e5d1bb69082a38a48f6ec",
+      "enMarkdown": "You'd think it would be such a great thing never to be wrong that everyone would do this. It doesn't seem like that much extra work to pay as much attention to the error on an idea as to the idea itself. And yet practically no one does. I know how hard it is, because since meeting Robert I've tried to do in software what he seems to do in hardware.",
+      "zhMarkdown": "你可能会觉得，从不犯错是件极好的事，大家应该都会这么做。对一个想法潜在误差的关注，与对想法本身的关注付出同等的精力，看起来并不需要额外做太多工作。然而，几乎没有人能做到这一点。我知道这有多难，因为自从认识罗伯特以来，我一直试图在软件层面做到他似乎在硬件（天性）层面就能完成的事。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "b83327f3bf58bc80b9f8a25b62b4a1eb0565107424e02135cf24454d06faf76e",
+      "enMarkdown": "**P. G. Wodehouse**",
+      "zhMarkdown": "**P. G. 伍德豪斯 (P. G. Wodehouse)**"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "5da1e34f83c39a2c09c6f548ff807e6046fefb0491f62de718d082a1dcdcbdb4",
+      "enMarkdown": "People are finally starting to admit that Wodehouse was a great writer. If you want to be thought a great novelist in your own time, you have to sound intellectual. If what you write is popular, or entertaining, or funny, you're ipso facto suspect. That makes Wodehouse doubly impressive, because it meant that to write as he wanted to, he had to commit to being despised in his own lifetime.",
+      "zhMarkdown": "人们终于开始承认伍德豪斯是一位伟大的作家了。在你活着的时代，要想被认为是一位伟大的小说家，你必须听起来很有深度。如果你写的东西很受欢迎、很有娱乐性，或者很好笑，那么你自然而然就会受到怀疑。这使得伍德豪斯更加令人敬佩，因为这意味着要写出他想写的东西，他必须做好在有生之年被主流文学界鄙视的准备。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "540f69ea7879f6d19955ddb27c29825e5e5f05de07763a86fa5f24f135e5a74f",
+      "enMarkdown": "Evelyn Waugh called him a great writer, but to most people at the time that would have read as a chivalrous or deliberately perverse gesture. At the time any random autobiographical novel by a recent college grad could count on more respectful treatment from the literary establishment.",
+      "zhMarkdown": "伊夫林·沃（Evelyn Waugh）曾称他为伟大的作家，但对当时的大多数人来说，这听起来更像是一种出于骑士精神的客套，或者是故意唱反调。在那个时代，任何一个刚毕业的大学生写的随性自传体小说，都能获得文学界更具敬意的对待。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "9ea8902e17b4903f20727fd5616e13c4e4d59b7378913a5621996c87bc9d69c5",
+      "enMarkdown": "Wodehouse may have begun with simple atoms, but the way he composed them into molecules was near faultless. His rhythm in particular. It makes me self-conscious to write about it. I can think of only two other writers who came near him for style: Evelyn Waugh and Nancy Mitford. Those three used the English language like they owned it.",
+      "zhMarkdown": "伍德豪斯的创作可能始于最简单的素材，但他将这些素材组合在一起的方式几乎毫无瑕疵。尤其是他的节奏感。写到这里让我感到有些局促。在文风上，我能想到的接近他的作家只有两位：伊夫林·沃和南希·米特福德（Nancy Mitford）。这三个人使用英语的方式，就好像英语是他们私有的一样。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "f48635c5987f3fec4f3a01e086533e1f689bf8342cf2fbd03b74463e7acb9a31",
+      "enMarkdown": "But Wodehouse has something neither of them did. He's at ease. Evelyn Waugh and Nancy Mitford cared what other people thought of them: he wanted to seem aristocratic; she was afraid she wasn't smart enough. But Wodehouse didn't give a damn what anyone thought of him. He wrote exactly what he wanted.",
+      "zhMarkdown": "但伍德豪斯拥有他们两人都不具备的一点：他很自在。伊夫林·沃和南希·米特福德都在意别人对他们的看法：他想让自己看起来像个贵族；而她担心自己不够聪明。但伍德豪斯根本不在乎别人怎么看他。他只写自己想写的东西。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "5d91cf6b7c59dd845a2f2da0b8579a2cb13fe2cc3fe9696dd2a72dc9e47d01a8",
+      "enMarkdown": "**Alexander Calder**",
+      "zhMarkdown": "**亚历山大·考尔德 (Alexander Calder)**"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "039a8cb61c121706a27e75c1e04ac5811be99845d4480567090e462f3a0f2908",
+      "enMarkdown": "Calder's on this list because he makes me happy. Can his work stand up to Leonardo's? Probably not. There might not be anything from the 20th Century that can. But what was good about Modernism, Calder had, and had in a way that he made seem effortless.",
+      "zhMarkdown": "考尔德在名单上，是因为他能让我感到快乐。他的作品能和达芬奇的媲美吗？大概不能。20 世纪可能没有任何作品能做到这一点。但是，考尔德拥有现代主义中所有美好的部分，并且他展现这些美好时显得毫不费力。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "ed9f7a4ce46f596fe0d3b7ef58dd83489cf8c4c5e96e9a8a584d70f0a1e9ebb0",
+      "enMarkdown": "What was good about Modernism was its freshness. Art became stuffy in the nineteenth century. The paintings that were popular at the time were mostly the art equivalent of McMansions—big, pretentious, and fake. Modernism meant starting over, making things with the same earnest motives that children might. The artists who benefited most from this were the ones who had preserved a child's confidence, like Klee and Calder.",
+      "zhMarkdown": "现代主义最美好的地方在于它的新鲜感。艺术在十九世纪变得沉闷古板。当时流行的画作大多是艺术界的“豪宅”（McMansions）——宏大、矫作且虚伪。现代主义意味着重新开始，用孩子们那样纯真的动机去创造事物。从中受益最大的艺术家，是那些保留了孩童般自信的人，比如保罗·克利（Klee）和考尔德。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "db536246696ee76ee6ae0575e7f54158ad510ccb8f8de9f9bb3c8332b53eb3c0",
+      "enMarkdown": "Klee was impressive because he could work in so many different styles. But between the two I like Calder better, because his work seemed happier. Ultimately the point of art is to engage the viewer. It's hard to predict what will; often something that seems interesting at first will bore you after a month. Calder's [sculptures](https://www.flickr.com/photos/uergevich/7029234689/) never get boring. They just sit there quietly radiating optimism, like a battery that never runs out. As far as I can tell from books and photographs, the happiness of Calder's work is his own happiness showing through.",
+      "zhMarkdown": "克利令人赞叹，因为他能驾驭如此多不同的风格。但在两人之中，我更喜欢考尔德，因为他的作品看起来更快乐。艺术的终极目的在于吸引观众。很难预测什么能做到这一点；通常一些起初看起来很有趣的东西，一个月后就会让你感到厌烦。但考尔德的[雕塑](https://www.flickr.com/photos/uergevich/7029234689/)永远不会让人厌烦。它们只是静静地待在那里，散发着乐观的气息，就像一块永远不会耗尽的电池。据我从书本和照片中所能了解到的，考尔德作品中的快乐，正是他自身快乐的自然流露。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "54d18eb94653250b0b37a5d7c65877257b5d210f9ca2bf8c918b36e04ee7328c",
+      "enMarkdown": "**Jane Austen**",
+      "zhMarkdown": "**简·奥斯汀 (Jane Austen)**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "3cb52156fe31259de67e84139050f65eb8732c56c2ac454e1f4ac7a3fd4a4d42",
+      "enMarkdown": "Everyone admires Jane Austen. Add my name to the list. To me she seems the best novelist of all time.",
+      "zhMarkdown": "人人都钦佩简·奥斯汀。把我的名字也加进这个名单里。对我来说，她似乎是有史以来最伟大的小说家。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "a7c3ffe71418e193e7f39d5f7b758ea071aba303a3e2dd290efe6c6c4f7d81b2",
+      "enMarkdown": "I'm interested in how things work. When I read most novels, I pay as much attention to the author's choices as to the story. But in her novels I can't see the gears at work. Though I'd really like to know how she does what she does, I can't figure it out, because she's so good that her stories don't seem made up. I feel like I'm reading a description of something that actually happened.",
+      "zhMarkdown": "我对事物的运作原理很感兴趣。当我读大多数小说时，我关注作者的写作选择和关注故事本身一样多。但在她的小说里，我看不出任何刻意雕琢的痕迹。尽管我非常想知道她是如何做到这一点的，但我始终无法琢磨透，因为她写得太好了，以至于她的故事看起来不像是虚构的。我觉得自己像是在阅读对真实发生过的事情的记录。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "3cb5084a575b66c5b0c469ffa58f87ef30fbbc7d43c52e479bc445bad57fca30",
+      "enMarkdown": "I used to read a lot of novels when I was younger. I can't read most anymore, because they don't have enough information in them. Novels seem so impoverished compared to history and biography. But reading Austen is like reading nonfiction. She writes so well you don't even notice her.",
+      "zhMarkdown": "年轻时我读过很多小说。现在绝大多数我都读不下去了，因为它们包含的信息量不够。与历史和传记相比，小说显得如此贫瘠。但读奥斯汀的作品就像读非虚构作品。她写得太自然了，你甚至不会注意到作者的存在。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "21a3cff48ee1e36bc5aa6acbf17e91cfd0881a82000355538d3eede55abd59e1",
+      "enMarkdown": "**John McCarthy**",
+      "zhMarkdown": "**约翰·麦卡锡 (John McCarthy)**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "3113de505d58542e57ecbfbcc0b6ae5693d9b258de9133417f4d79e24731f2a0",
+      "enMarkdown": "John McCarthy invented Lisp, the field of (or at least the term) artificial intelligence, and was an early member of both of the top two computer science departments, MIT and Stanford. No one would dispute that he's one of the greats, but he's an especial hero to me because of [Lisp](https://paulgraham.com/rootsoflisp.html).",
+      "zhMarkdown": "约翰·麦卡锡发明了 Lisp，开创了人工智能领域（或者至少发明了这个词），并且是麻省理工学院和斯坦福大学这两个全美顶尖计算机科学系的早期成员。没有人会否认他是最伟大的先驱之一，但对我来说，由于 [Lisp](https://paulgraham.com/rootsoflisp.html) 的存在，他是我的特别英雄。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "5aa7ee42e4bb96fb127e699099b926183048f1743fce0a24fe07e420f1f1e64f",
+      "enMarkdown": "It's hard for us now to understand what a conceptual leap that was at the time. Paradoxically, one of the reasons his achievement is hard to appreciate is that it was so successful. Practically every programming language invented in the last 20 years includes ideas from Lisp, and each year the median language gets more Lisplike.",
+      "zhMarkdown": "现在的我们很难理解，在那个时代，这在概念上是多么巨大的一个飞跃。矛盾的是，他的成就之所以难以被充分赏识，原因之一恰恰在于它太成功了。过去 20 年里发明的几乎每一种编程语言都融入了来自 Lisp 的想法，而且每一年，主流编程语言的平均形态都变得越来越像 Lisp。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "a612b03b58b042ffb14bf74fda406ae86eced747d7cf257c59cc14bee7d617f6",
+      "enMarkdown": "In 1958 these ideas were anything but obvious. In 1958 there seem to have been two ways of thinking about programming. Some people thought of it as math, and proved things about Turing Machines. Others thought of it as a way to get things done, and designed languages all too influenced by the technology of the day. McCarthy alone bridged the gap. He designed a language that was math. But designed is not really the word; discovered is more like it.",
+      "zhMarkdown": "在 1958 年，这些想法绝非显而易见。当时似乎存在两种关于编程的思维方式。一些人将其视为数学，并去证明关于图灵机的东西；另一些人将其视为解决实际问题的方式，并设计出受当时硬件技术局限极深的语言。唯独麦卡锡弥合了这一鸿沟。他设计了一种本质上是数学的语言。但“设计”这个词其实并不准确，“发现”更贴切。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "b6d78e5bc4576f2efadf625f3f18e98e28a63e53907731d93538fe7e2b7d7aaa",
+      "enMarkdown": "**The Spitfire**",
+      "zhMarkdown": "**喷火战斗机 (The Spitfire)**"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "bcfc4668c01a003b0635e75252fc8d00df00c16ba5c571486d7427803be82927",
+      "enMarkdown": "As I was making this list I found myself thinking of people like [Douglas Bader](http://en.wikipedia.org/wiki/Douglas_Bader) and [R.J. Mitchell](http://en.wikipedia.org/wiki/R._J._Mitchell) and [Jeffrey Quill](http://www.amazon.com/Spitfire-Pilots-Story-Crecy-Cover/dp/0947554726) and I realized that though all of them had done many things in their lives, there was one factor above all that connected them: the Spitfire.",
+      "zhMarkdown": "在列这份清单时，我发现自己想到了像 [Douglas Bader](http://en.wikipedia.org/wiki/Douglas_Bader)、[R.J. Mitchell](http://en.wikipedia.org/wiki/R._J._Mitchell) 和 [Jeffrey Quill](http://www.amazon.com/Spitfire-Pilots-Story-Crecy-Cover/dp/0947554726) 这样的人。我意识到，尽管他们一生中做了许多事情，但有一个最重要的因素将他们所有人联系在了一起：喷火战斗机。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "4662ded3c9b9c4182769beb5e85c745d59fc15074ec8b5b0cc9e36db6a65af94",
+      "enMarkdown": "This is supposed to be a list of heroes. How can a machine be on it? Because that machine was not just a machine. It was a lens of heroes. Extraordinary devotion went into it, and extraordinary courage came out.",
+      "zhMarkdown": "这本应是一份英雄清单。一架机器怎么能上榜？因为这架机器不仅仅是一架机器。它是英雄的透镜。非凡的奉献注入其中，非凡的勇气由此迸发。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "882d29975c125624d118b468113f1ac0401cae0488d71f0ff7b7f9ddf3e29479",
+      "enMarkdown": "It's a cliche to call World War II a contest between good and evil, but between fighter designs, it really was. The Spitfire's original nemesis, the ME 109, was a brutally practical plane. It was a killing machine. The Spitfire was optimism embodied. And not just in its beautiful lines: it was at the edge of what could be manufactured. But taking the high road worked. In the air, beauty had the edge, just.",
+      "zhMarkdown": "把二战称为一场正邪之争是个陈词滥调，但在战斗机的设计上，确实如此。喷火战斗机最初的宿敌——梅塞施密特 ME 109，是一架残酷而实用的飞机。它是一台杀戮机器。而喷火战斗机则是乐观主义的化身。这不仅体现在它优美的线条上：它几乎逼近了当时制造工艺的极限。但选择这条更难、更追求极致的路成功了。在空中，美感险胜一筹。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "581368217edd400dc7fc33159b29f97f66537cb65c75bc56a133d324973197f6",
+      "enMarkdown": "**Steve Jobs**",
+      "zhMarkdown": "**史蒂夫·乔布斯 (Steve Jobs)**"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "f73a568821070edbffb790a5aaad8302f0f52bef996871c274ee89c63994e94d",
+      "enMarkdown": "People alive when Kennedy was killed usually remember exactly where they were when they heard about it. I remember exactly where I was when a friend asked if I'd heard Steve Jobs had cancer. It was like the floor dropped out. A few seconds later she told me that it was a rare operable type, and that he'd be ok. But those seconds seemed long.",
+      "zhMarkdown": "在肯尼迪遇刺时活着的人，通常能准确记得他们听到这个消息时身在何处。我准确地记得，当一个朋友问我是否听说史蒂夫·乔布斯得了癌症时，我身在何处。当时感觉就像脚下的地板突然塌陷了。几秒钟后，她告诉我这是一种罕见的可手术治愈的类型，他会没事的。但那几秒钟显得格外漫长。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "213e84f428cc7083d7ba5cbeded399b2b466d38639663148004c20b740f7f0e4",
+      "enMarkdown": "I wasn't sure whether to include Jobs on this list. A lot of people at Apple seem to be afraid of him, which is a bad sign. But he compels admiration.",
+      "zhMarkdown": "我曾犹豫是否要把乔布斯列入这个清单。苹果公司的许多人似乎都很怕他，这不是个好兆头。但他确实令人钦佩。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "b398769f574116eed774550f09dfd2c93bcac2609bbbac145497fda6e16792a3",
+      "enMarkdown": "There's no name for what Steve Jobs is, because there hasn't been anyone quite like him before. He doesn't design Apple's products himself. Historically the closest analogy to what he does are the great Renaissance patrons of the arts. As the CEO of a company, that makes him unique.",
+      "zhMarkdown": "史蒂夫·乔布斯所代表的角色还没有一个现成的名词，因为以前从未有过像他这样的人。他并不亲自设计苹果的产品。在历史上，最接近他所做之事的，是文艺复兴时期那些伟大的艺术赞助人。作为一家公司的 CEO，这让他独树一帜。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "bf7202ae1dbb023e483acdcd6d1eca368ad4dbb4074833fcb882b7f057a294bb",
+      "enMarkdown": "Most CEOs delegate [taste](https://paulgraham.com/taste.html) to a subordinate. The [design paradox](https://paulgraham.com/gh.html) means they're choosing more or less at random. But Steve Jobs actually has taste himself — such good taste that he's shown the world how much more important taste is than they realized.",
+      "zhMarkdown": "大多数 CEO 会把[品味](https://paulgraham.com/taste.html)委派给下属。而[设计悖论](https://paulgraham.com/gh.html)意味着他们几乎是在随机做选择。但史蒂夫·乔布斯自己确实拥有品味——如此出色的品味，以至于他向世界证明了，品味比人们意识到的要重要得多。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "c5300fcdf502e48d55f053ad0377f2d8e613bad9cbb7ae32819c97d84bacdb4b",
+      "enMarkdown": "**Isaac Newton**",
+      "zhMarkdown": "**艾萨克·牛顿 (Isaac Newton)**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "97045fb7a2f56c50dda8cd624cf6b932bd5c1e090630df31cdbf338aeb4fc132",
+      "enMarkdown": "Newton has a strange role in my pantheon of heroes: he's the one I reproach myself with. He worked on big things, at least for part of his life. It's so easy to get distracted working on small stuff. The questions you're answering are pleasantly familiar. You get immediate rewards — in fact, you get bigger rewards in your time if you work on matters of passing importance. But I'm uncomfortably aware that this is the route to well-deserved obscurity.",
+      "zhMarkdown": "牛顿在我的英雄殿堂里扮演着一个奇怪的角色：他是我用来自我反省的对象。他致力于研究伟大的事物，至少在他生命的一部分时间里是这样。在细枝末节的事情上分心是如此容易。你解答的问题是令人愉悦且熟悉的。你能获得即时的回报——事实上，如果你致力于研究那些转瞬即逝、无足轻重的事情，在你在世的时候，你能获得更大的回报。但我不安地意识到，这是通往理所当然的默默无闻之路。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "c741d88338ad63752701e80b5b03488307f8ac65ba09be9d7c5325ade91283f1",
+      "enMarkdown": "To do really great things, you have to seek out questions people didn't even realize were questions. There have probably been other people who did this as well as Newton, for their time, but Newton is my model of this kind of thought. I can just begin to understand what it must have felt like for him.",
+      "zhMarkdown": "要做出真正伟大的成就，你必须去寻找那些人们甚至没有意识到是问题的问题。在他们那个时代，可能还有其他人像牛顿一样擅长于此，但牛顿是我这种思维方式的典范。我只能开始去体会，对他来说那会是怎样的一种感受。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "c93b22e62a0cc84d607cf5e07a822cb47273cdb513379d22da68bfff26739ae5",
+      "enMarkdown": "You only get one life. Why not do something huge? The phrase \"paradigm shift\" is overused now, but Kuhn was onto something. And you know more are out there, separated from us by what will later seem a surprisingly thin wall of laziness and stupidity. If we work like Newton.",
+      "zhMarkdown": "人一生只有一次。为什么不去做些惊天动地的大事？“范式转换”这个词现在被滥用了，但库恩确实指出了关键。你知道还有更多的范式转换就在那里，它们与我们之间的阻隔，在以后看来，不过是一堵由懒惰和愚蠢构成的、薄得令人惊讶的墙。只要我们像牛顿那样工作。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "ce8a72d8fd99ea3552e4c44eeb60808f68f2d8c13b9fefe2caa0c2d4e0187758",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, and Jackie McDonough for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston 和 Jackie McDonough 阅读了本文的草稿。"
+    }
+  ]
+}

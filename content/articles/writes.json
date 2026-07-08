@@ -1,0 +1,118 @@
+{
+  "slug": "writes",
+  "titleEn": "Writes and Write-Nots",
+  "titleZh": "会写的人与不会写的人",
+  "dateText": "October 2024",
+  "publishedAt": "2024-10-01",
+  "sourceOrder": 10,
+  "sourceUrl": "https://paulgraham.com/writes.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b35b617c5910d8dcbe02c5a452afe887d1296d93a4a920be5ce449f462d6ab60",
+      "enMarkdown": "I'm usually reluctant to make predictions about technology, but I feel fairly confident about this one: in a couple decades there won't be many people who can write.",
+      "zhMarkdown": "我通常不太愿意对技术做预测，但对这一个预测我相当有把握：几十年后，世界上不会剩下多少真正会写作的人了。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4bb6c2495accc36f5c2580958e0a1ff04f5e3d485d2adbd2cebfdd00900bd6df",
+      "enMarkdown": "One of the strangest things you learn if you're a writer is how many people have trouble writing. Doctors know how many people have a mole they're worried about; people who are good at setting up computers know how many people aren't; writers know how many people need help writing.",
+      "zhMarkdown": "如果你是个写作的人，你会发现一件最奇怪的事，那就是有太多人在写作上困难重重。医生知道有多少人在为身上的痣而焦虑；精通电脑的人知道有多少人对电脑一窍不通；而写作者知道有多少人需要别人帮他们写东西。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "9e8f15cc655d4144fb12512b64f628f402bd28f5dec90203bd3f6dd63cdcce58",
+      "enMarkdown": "The reason so many people have trouble writing is that it's fundamentally difficult. To write well you have to think clearly, and thinking clearly is hard.",
+      "zhMarkdown": "这么多人觉得写作困难，是因为写作本质上就是一件难事。要想写得好，你必须想得清楚，而想清楚是一件极其困难的事。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "b64725f84b0467866dfee93d31b78107a41c47eaa8cdacb2887e4251804c3eae",
+      "enMarkdown": "And yet writing pervades many jobs, and the more prestigious the job, the more writing it tends to require.",
+      "zhMarkdown": "然而，写作却充斥在许多工作之中，而且越是体面的工作，往往需要写的东西就越多。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "76f697befbec2bc092892188db5c8181b383cacee56c938ff23cf60021eaa830",
+      "enMarkdown": "These two powerful opposing forces, the pervasive expectation of writing and the irreducible difficulty of doing it, create enormous pressure. This is why eminent professors often turn out to have resorted to plagiarism. The most striking thing to me about these cases is the pettiness of the thefts. The stuff they steal is usually the most mundane boilerplate — the sort of thing that anyone who was even halfway decent at writing could turn out with no effort at all. Which means they're not even halfway decent at writing.",
+      "zhMarkdown": "这两股强大的对立力量——无处不在的写作要求与写作本身无法降低的难度——制造了巨大的压力。这就是为什么连声名显赫的教授也常常被发现抄袭。在这些案例中，最让我震惊的是他们抄袭内容的平庸。他们偷来的往往是最乏味的套话——任何稍微有点写作底子的人都能毫不费力地写出来。这意味着，他们连稍微有点写作底子都算不上。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "137f0d8eea0765560c1ef17c698df0ef21afa4e13a4392f1a482711a09b19ecb",
+      "enMarkdown": "Till recently there was no convenient escape valve for the pressure created by these opposing forces. You could pay someone to write for you, like JFK, or plagiarize, like MLK, but if you couldn't buy or steal words, you had to write them yourself. And as a result nearly everyone who was expected to write had to learn how.",
+      "zhMarkdown": "直到最近，这种对立力量带来的压力还没有便利的排解渠道。你可以花钱请人代笔（像肯尼迪那样），或者抄袭（像马丁·路德·金那样），但如果你既买不起也偷不来文字，你就只能硬着头皮自己写。结果就是，几乎每一个被要求写作的人都不得不去学会如何写作。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "6f1ab944bb18d4221252710f59dc7356311d9af455d9251a97e473c53471d0da",
+      "enMarkdown": "Not anymore. AI has blown this world open. Almost all pressure to write has dissipated. You can have AI do it for you, both in school and at work.",
+      "zhMarkdown": "但现在不同了。AI 彻底打破了这一局面。几乎所有写作的压力都烟消云散了。无论在学校还是在工作中，你都可以让 AI 替你完成。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8aed3b753a64fc65ae9c0497cca31c58151d25b5e98da9a734125b47b9332dd0",
+      "enMarkdown": "The result will be a world divided into writes and write-nots. There will still be some people who can write. Some of us like it. But the middle ground between those who are good at writing and those who can't write at all will disappear. Instead of good writers, ok writers, and people who can't write, there will just be good writers and people who can't write.",
+      "zhMarkdown": "其结果将是，世界被划分为“会写的人”和“不会写的人”。依然会有一部分人会写作，因为我们当中有人乐在其中。但是，介于“写得好”和“完全不会写”之间的灰色地带将会消失。不再有优秀的写作者、平庸的写作者和不会写的人之分，世界将只剩下优秀的写作者和完全不会写的人。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "3c777f5d077e56b4869dfe1aea485b37716eb0df6250d6388ddb05364a55997a",
+      "enMarkdown": "Is that so bad? Isn't it common for skills to disappear when technology makes them obsolete? There aren't many blacksmiths left, and it doesn't seem to be a problem.",
+      "zhMarkdown": "这真的很糟糕吗？当技术让某些技能过时后，它们不就自然消失了吗？现在铁匠没剩下几个了，但大家似乎也没觉得有什么问题。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "3d97c70da948ff95435be2ef25c6e8aa5b02bfc2581fce1398420b334d7a173f",
+      "enMarkdown": "Yes, it's bad. The reason is something I mentioned earlier: writing is thinking. In fact there's a kind of thinking that can only be done by writing. You can't make this point better than Leslie Lamport did:",
+      "zhMarkdown": "是的，这很糟糕。原因正如我前面所说：写作就是思考。事实上，有一种思考只能通过写作来完成。关于这一点，莱斯利·兰波特（Leslie Lamport）说得再好不过了："
+    },
+    {
+      "id": 11,
+      "type": "quote",
+      "sourceHash": "eebd7a271971860962a37fdda33889f95fb43f13b486f80ca125e9c00385d2ae",
+      "enMarkdown": "> If you're thinking without writing, you only think you're thinking.",
+      "zhMarkdown": "> 如果你思考时不写下来，你只是以为自己在思考。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "db13fbc011add9ac13144b5282f65353abea2b4d075f4f48e6658c9f6a804fb3",
+      "enMarkdown": "So a world divided into writes and write-nots is more dangerous than it sounds. It will be a world of thinks and think-nots. I know which half I want to be in, and I bet you do too.",
+      "zhMarkdown": "因此，一个被划分为“会写的人”和“不会写的人”的世界，比听起来要危险得多。它将是一个“会思考的人”和“不会思考的人”的世界。我很清楚自己想站在哪一边，我相信你也是。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "34a3f426ab1a61ecc3c13cedd948972dae85a676dda6fbb54fc2bb4e60105e97",
+      "enMarkdown": "This situation is not unprecedented. In preindustrial times most people's jobs made them strong. Now if you want to be strong, you work out. So there are still strong people, but only those who choose to be.",
+      "zhMarkdown": "这种情况并非没有先例。在工业革命之前，大多数人的工作都能让他们身体强壮。现在，如果你想变得强壮，就得去健身。所以现在依然有强壮的人，但只有那些主动选择变强的人。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d6025201f54a342bcd7b2898cb274f42b1bedb5f85f90ec0a7f7419cfd758237",
+      "enMarkdown": "It will be the same with writing. There will still be smart people, but only those who choose to be.",
+      "zhMarkdown": "写作也是一样。世界上依然会有聪明人，但只有那些主动选择变聪明的人。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "96beb0db51c359de9cd6d68216d94062f476c9f616262456cde786326c1c4b52",
+      "enMarkdown": "**Thanks** to Jessica Livingston, Ben Miller, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Jessica Livingston、Ben Miller 和 Robert Morris 阅读本文草稿。"
+    }
+  ]
+}

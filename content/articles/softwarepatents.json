@@ -1,0 +1,538 @@
+{
+  "slug": "softwarepatents",
+  "titleEn": "Are Software Patents Evil?",
+  "titleZh": "软件专利是邪恶的吗？",
+  "dateText": "March 2006",
+  "publishedAt": "2006-03-01",
+  "sourceOrder": 171,
+  "sourceUrl": "https://paulgraham.com/softwarepatents.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "43485228cd0b72639476c0edfe8a1bc494deb1593321df0c20fa1a66fb74e105",
+      "enMarkdown": "*(This essay is derived from a talk at Google.)*",
+      "zhMarkdown": "*(本文改编自作者在 Google 的一次演讲。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "8b3c93065635fb55b200dc0010e88bdb8ce8b9e8227918ed6e799bb3e3477367",
+      "enMarkdown": "A few weeks ago I found to my surprise that I'd been granted four [patents](http://paulgraham.infogami.com/blog/morepatents). This was all the more surprising because I'd only applied for three. The patents aren't mine, of course. They were assigned to Viaweb, and became Yahoo's when they bought us. But the news set me thinking about the question of software patents generally.",
+      "zhMarkdown": "几周前，我惊讶地发现自己竟然被授予了四项[专利](http://paulgraham.infogami.com/blog/morepatents)。这让我倍感意外，因为我明明只申请了三项。当然，这些专利并不属于我个人。它们当年被转让给了 Viaweb，在雅虎收购我们之后，就变成了雅虎的资产。但这桩新闻引发了我对软件专利这个大问题的思考。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "e780374ba7ae5a75431e202a3ef9f0a3600b65998c91d2d3c69503f0d2c10d8b",
+      "enMarkdown": "Patents are a hard problem. I've had to advise most of the startups we've funded about them, and despite years of experience I'm still not always sure I'm giving the right advice.",
+      "zhMarkdown": "专利是个棘手的难题。我不得不经常给由我们资助的大多数创业公司提供相关建议，尽管有多年的经验，我依然无法百分之百确定自己给出的建议是否总是正确。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "40aa7cf3c10c5d0acc8cc3c4e7ff21e603bda9597e8dc90bced3afebb98447f2",
+      "enMarkdown": "One thing I do feel pretty certain of is that if you're against software patents, you're against patents in general. Gradually our machines consist more and more of software. Things that used to be done with levers and cams and gears are now done with loops and trees and closures. There's nothing special about physical embodiments of control systems that should make them patentable, and the software equivalent not.",
+      "zhMarkdown": "但我有一点非常笃定：如果你反对软件专利，那么你实际上就是在反对所有专利。如今，我们的机器中软件所占的比例越来越高。过去用杠杆、凸轮和齿轮实现的功能，现在都改用循环、树和闭包来完成了。控制系统的物理形态并没有什么特殊之处，不应该认为物理实体可以申请专利，而其软件等价物却不行。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d14fce484a714c23780b761d81c79fb9019ca81e94f523e9629a98c3d383f318",
+      "enMarkdown": "Unfortunately, patent law is inconsistent on this point. Patent law in most countries says that algorithms aren't patentable. This rule is left over from a time when \"algorithm\" meant something like the Sieve of Eratosthenes. In 1800, people could not see as readily as we can that a great many patents on mechanical objects were really patents on the algorithms they embodied.",
+      "zhMarkdown": "遗憾的是，专利法在这一点上是自相矛盾的。大多数国家的专利法都规定算法不能申请专利。这一规则是历史遗留产物，当时“算法”一词指的还是像“埃拉托斯特尼筛法”之类的东西。在 1800 年，人们无法像我们今天这样清晰地看透：许多针对机械实体的专利，本质上其实是对其所体现的算法的专利。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "551fdd92cd4ca4a87c9a59322bfee080cad6c990acd1b8455022036b4e3748df",
+      "enMarkdown": "Patent lawyers still have to pretend that's what they're doing when they patent algorithms. You must not use the word \"algorithm\" in the title of a patent application, just as you must not use the word \"essays\" in the title of a book. If you want to patent an algorithm, you have to frame it as a computer system executing that algorithm. Then it's mechanical; phew. The default euphemism for algorithm is \"system and method.\" Try a patent search for that phrase and see how many results you get.",
+      "zhMarkdown": "如今的专利律师在为算法申请专利时，依然不得不假装在做别的事情。你绝对不能在专利申请的标题中使用“算法”这个词，就像你绝对不能在书名里用“随笔”一样。如果你想给一个算法申请专利，你就必须把它包装成一个执行该算法的计算机系统。这样一来，它就变成机械的了，万事大吉。算法最常用的委婉代称是“系统和方法”。你可以试着用这个词去检索一下专利，看看能搜出多少结果。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ee7a1592091e143f25d16b4b18f3789437fa83b3ce71546ef51b4c3ff8b1aa5a",
+      "enMarkdown": "Since software patents are no different from hardware patents, people who say \"software patents are evil\" are saying simply \"patents are evil.\" So why do so many people complain about software patents specifically?",
+      "zhMarkdown": "既然软件专利和硬件专利本质上没有区别，那么那些高喊“软件专利是邪恶的”的人，实际上就是在说“专利是邪恶的”。那么，为什么会有这么多人唯独对软件专利怨声载道呢？"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "688d80b633428dfe1f79c18f7c20488974512ff44b6fa9419f34a1623229b37b",
+      "enMarkdown": "I think the problem is more with the patent office than the concept of software patents. Whenever software meets government, bad things happen, because software changes fast and government changes slow. The patent office has been overwhelmed by both the volume and the novelty of applications for software patents, and as a result they've made a lot of mistakes.",
+      "zhMarkdown": "我认为问题更多出在专利局身上，而不是软件专利这个概念本身。每当软件遇上政府，坏事就会发生，因为软件变化太快，而政府变化太慢。专利局已经被软件专利申请的数量和新颖性压得喘不过气来，结果导致他们犯下了大量的错误。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "2f96cffdc8090c87259c965a24556d26021b69d966df35a1af2357f8cc757dfe",
+      "enMarkdown": "The most common is to grant patents that shouldn't be granted. To be patentable, an invention has to be more than new. It also has to be non-obvious. And this, especially, is where the USPTO has been dropping the ball. Slashdot has an icon that expresses the problem vividly: a knife and fork with the words \"patent pending\" superimposed.",
+      "zhMarkdown": "最常见的错误是批准了不该批准的专利。一项发明要获得专利，仅仅具有新颖性是不够的，它还必须具备“非显而易见性”。而这恰恰是美国专利商标局（USPTO）频频失职的地方。Slashdot 网站上有一个图标生动地展现了这个问题：一副刀叉，上面叠印着“专利申请中”的字样。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "58b7171d5ab73ff18d2756207a4936d3b8e54c2bc93cd20dba0af4beb66a75a4",
+      "enMarkdown": "The scary thing is, this is the *only* icon they have for patent stories. Slashdot readers now take it for granted that a story about a patent will be about a bogus patent. That's how bad the problem has become.",
+      "zhMarkdown": "可怕的是，这是他们专门针对专利新闻的*唯一*图标。Slashdot 的读者现在默认只要是关于专利的新闻，就一定是关于某种荒谬专利的。这个问题已经严重到了这种地步。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "d783352c0ecaef5174f77d12c814a9736b910eeaec3eceeaa97ecc7a259c3969",
+      "enMarkdown": "The problem with Amazon's notorious one-click patent, for example, is not that it's a software patent, but that it's obvious. Any online store that kept people's shipping addresses would have implemented this. The reason Amazon did it first was not that they were especially smart, but because they were one of the earliest sites with enough clout to force customers to log in before they could buy something. [[1](#f1n)]",
+      "zhMarkdown": "以亚马逊声名狼藉的“一键下单”专利为例，它的问题不在于它是个软件专利，而在于它太显而易见了。任何保存了用户收货地址的在线商店都会想到这一点。亚马逊之所以最先做出来，并不是因为他们特别聪明，而是因为他们是最早拥有足够话语权、能强制用户在购买前必须先登录的网站之一。[[1](#f1n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "29bdfa0979f3713ea55e7b7216c3336ba3fde2fedec9da659664d44c700efdaa",
+      "enMarkdown": "We, as hackers, know the USPTO is letting people patent the knives and forks of our world. The problem is, the USPTO are not hackers. They're probably good at judging new inventions for casting steel or grinding lenses, but they don't understand software yet.",
+      "zhMarkdown": "作为黑客，我们知道美国专利商标局正在允许人们对我们这个领域的“刀叉”申请专利。问题在于，专利局的人不是黑客。他们也许很擅长评判铸钢或研磨镜片的新发明，但他们现在还不懂软件。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "4e1435e7f56112c952598e6f145009f17ff4d3db1c3ff38f21be19acdfecbeaf",
+      "enMarkdown": "At this point an optimist would be tempted to add \"but they will eventually.\" Unfortunately that might not be true. The problem with software patents is an instance of a more general one: the patent office takes a while to understand new technology. If so, this problem will only get worse, because the rate of technological change seems to be increasing. In thirty years, the patent office may understand the sort of things we now patent as software, but there will be other new types of inventions they understand even less.",
+      "zhMarkdown": "这时候，乐观主义者可能会忍不住加一句：“但他们迟早会懂的。”不幸的是，这未必是事实。软件专利的问题其实是一个更普遍问题的缩影：专利局总是需要很长时间才能理解新技术。如果是这样，随着技术变革的速度不断加快，这个问题只会愈演愈烈。三十年后，专利局也许终于能理解我们现在作为软件申请专利的这些东西了，但到那时又会出现其他他们更难以理解的新发明。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "0be28e0c69ba8517a76b43e0a43467426d8337807fd241a6cdf5b3fca6d9e2b5",
+      "enMarkdown": "Applying for a patent is a negotiation. You generally apply for a broader patent than you think you'll be granted, and the examiners reply by throwing out some of your claims and granting others. So I don't really blame Amazon for applying for the one-click patent. The big mistake was the patent office's, for not insisting on something narrower, with real technical content. By granting such an over-broad patent, the USPTO in effect slept with Amazon on the first date. Was Amazon supposed to say no?",
+      "zhMarkdown": "申请专利是一个谈判的过程。你通常会申请一个比你预期能拿到的更宽泛的专利，而审查员则会驳回你的部分诉求并批准其余部分。所以，我并不怎么责怪亚马逊去申请一键下单专利。最大的错误在于专利局，他们没有坚持要求收窄范围、注入真正的技术含量。批准了这样一个宽泛得离谱的专利，美国专利商标局实际上就像是在第一次约会时就跟亚马逊上了床。难道还要指望亚马逊说“不”吗？"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "4976a46dfd1e2669d551075f952948ee70e0f31f7cdfeed797a554d4e927a170",
+      "enMarkdown": "Where Amazon went over to the dark side was not in applying for the patent, but in enforcing it. A lot of companies (Microsoft, for example) have been granted large numbers of preposterously over-broad patents, but they keep them mainly for defensive purposes. Like nuclear weapons, the main role of big companies' patent portfolios is to threaten anyone who attacks them with a counter-suit. Amazon's suit against Barnes & Noble was thus the equivalent of a nuclear first strike.",
+      "zhMarkdown": "亚马逊真正走向黑暗的一步，不在于申请专利，而在于强制执行它。许多公司（例如微软）都被授予了大量荒谬且宽泛的专利，但他们保留这些专利主要用于防御。就像核武器一样，大公司的专利库主要作用是威慑任何敢于起诉他们的对手——一旦你动手，我就反诉。因此，亚马逊起诉巴诺书店（Barnes & Noble），就相当于发动了一次核武器先发制人打击。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "547aa38e1dfa444296a66c8a531040409da8d2abd8f97d83f309b66c1c718199",
+      "enMarkdown": "That suit probably hurt Amazon more than it helped them. Barnes & Noble was a lame site; Amazon would have crushed them anyway. To attack a rival they could have ignored, Amazon put a lasting black mark on their own reputation. Even now I think if you asked hackers to free-associate about Amazon, the one-click patent would turn up in the first ten topics.",
+      "zhMarkdown": "那场官司对亚马逊造成的伤害可能远大于带来的好处。巴诺书店的网站当时很烂，亚马逊本就可以轻松碾压他们。为了攻击一个完全可以忽略的对手，亚马逊在自己的声誉上抹上了擦不掉的污点。时至今日，如果你让黑客对“亚马逊”进行自由联想，一键下单专利大概依然能排进前十个词。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "c9a19344769951c234ea3c8764f20c0699f90d6dc75caea0daa596decac03ca6",
+      "enMarkdown": "Google clearly doesn't feel that merely holding patents is evil. They've applied for a lot of them. Are they hypocrites? Are patents evil?",
+      "zhMarkdown": "Google 显然不认为仅仅持有专利是邪恶的。他们自己就申请了大量的专利。他们是伪君子吗？专利本身是邪恶的吗？"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "ff723ff90df1a174773cbc4a3fa2403f4d3826620a637e4775c230e8c20ee26c",
+      "enMarkdown": "There are really two variants of that question, and people answering it often aren't clear in their own minds which they're answering. There's a narrow variant: is it bad, given the current legal system, to apply for patents? and also a broader one: is it bad that the current legal system allows patents?",
+      "zhMarkdown": "这个问题其实有两个版本，而回答它的人往往自己也没理清到底在回答哪一个。一个是狭义的版本：在现行的法律体系下，申请专利是一件坏事吗？另一个则是更广泛的版本：现行法律体系允许专利的存在，这是一件坏事吗？"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "0e80573755bc6c9ad6aeff7ad7c8daa1874dd73ebda6814d6cd5269eb0464306",
+      "enMarkdown": "These are separate questions. For example, in preindustrial societies like medieval Europe, when someone attacked you, you didn't call the police. There were no police. When attacked, you were supposed to fight back, and there were conventions about how to do it. Was this wrong? That's two questions: was it wrong to take justice into your own hands, and was it wrong that you had to? We tend to say yes to the second, but no to the first. If no one else will defend you, you have to defend yourself. [[2](#f2n)]",
+      "zhMarkdown": "这是两个截然不同的问题。例如，在欧洲中世纪这样的前工业社会中，如果有人袭击你，你不会去报警，因为根本没有警察。遭到袭击时，你只能反击，而且当时还有一套关于如何反击的惯例。这有错吗？这其实是两个问题：你私自寻求正义有错吗？以及，你不得不这么做这件事有错吗？我们往往会对第二个问题说“是的，这很糟糕”，但对第一个问题说“没错，只能如此”。如果没有人保护你，你就必须自我防卫。[[2](#f2n)]"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "351186ed95b260be796d88685da9ebee4d08a3973540d9a27263be258930e67b",
+      "enMarkdown": "The situation with patents is similar. Business is a kind of ritualized warfare. Indeed, it evolved from actual warfare: most early traders switched on the fly from merchants to pirates depending on how strong you seemed. In business there are certain rules describing how companies may and may not compete with one another, and someone deciding that they're going to play by their own rules is missing the point. Saying \"I'm not going to apply for patents just because everyone else does\" is not like saying \"I'm not going to lie just because everyone else does.\" It's more like saying \"I'm not going to use TCP/IP just because everyone else does.\" Oh yes you are.",
+      "zhMarkdown": "专利的情况也类似。商业是一场仪式化的战争。事实上，它就是从真正的战争演变而来的：早期的商人们会根据你看起来有多强大，在商人和海盗的角色之间随时切换。在商业世界里，有一些规则规定了公司之间可以和不可以如何竞争，如果有人非要特立独行，那就是没看清现实。说什么“我不能因为别人申请专利，我也去申请”，这不等于说“我不能因为别人撒谎，我也去撒谎”；这更像是说“我不能因为别人都用 TCP/IP，我也去用它”。得了吧，你非用不可。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "1269184af0619ea7da278037be74ba3d1b21e6b89e13053b6934240888c8f849",
+      "enMarkdown": "A closer comparison might be someone seeing a hockey game for the first time, realizing with shock that the players were *deliberately* bumping into one another, and deciding that one would on no account be so rude when playing hockey oneself.",
+      "zhMarkdown": "一个更贴切的类比是：某人第一次看冰球比赛，震惊地发现球员们居然在*故意*互相冲撞，于是决定自己打冰球时无论如何也不能这么粗鲁。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "fed6771e60ab488f4ab41f56aba0b5be86156526606fd44f6842823072821ec7",
+      "enMarkdown": "Hockey allows checking. It's part of the game. If your team refuses to do it, you simply lose. So it is in business. Under the present rules, patents are part of the game.",
+      "zhMarkdown": "冰球允许合理冲撞（checking），这是游戏规则的一部分。如果你的队伍拒绝这么做，你就会输。商业也是如此。在现行规则下，专利就是游戏的一部分。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "8940b82af9130c794ab46c731fedc7a68d40744bb74291bc47f19561ad628458",
+      "enMarkdown": "What does that mean in practice? We tell the startups we fund not to worry about infringing patents, because startups rarely get sued for patent infringement. There are only two reasons someone might sue you: for money, or to prevent you from competing with them. Startups are too poor to be worth suing for money. And in practice they don't seem to get sued much by competitors, either. They don't get sued by other startups because (a) patent suits are an expensive distraction, and (b) since the other startups are as young as they are, their patents probably haven't issued yet. [[3](#f3n)] Nor do startups, at least in the software business, seem to get sued much by established competitors. Despite all the patents Microsoft holds, I don't know of an instance where they sued a startup for patent infringement. Companies like Microsoft and Oracle don't win by winning lawsuits. That's too uncertain. They win by locking competitors out of their sales channels. If you do manage to threaten them, they're more likely to buy you than sue you.",
+      "zhMarkdown": "这在实践中意味着什么？我们告诉由我们资助的创业公司，不用担心侵犯别人的专利，因为创业公司极少因为专利侵权而被起诉。别人起诉你只有两个原因：为了钱，或者为了阻止你与他们竞争。创业公司太穷了，不值得为了钱去起诉。而在实践中，他们似乎也很少被竞争对手起诉。他们不会被其他创业公司起诉，因为：(a) 专利诉讼是一件烧钱又让人分心的事；(b) 既然其他创业公司和他们一样年轻，对方的专利可能还没批准下来。[[3](#f3n)] 至少在软件行业，创业公司似乎也很少被老牌竞争对手起诉。尽管微软拥有巨量专利，但我还没听说过他们因为专利侵权起诉过哪家创业公司。像微软和甲骨文这样的公司，并不是靠打赢官司来取胜的，那太不可控了；他们靠的是把竞争对手封杀在销售渠道之外。如果你真的威胁到了他们，他们更有可能买下你，而不是起诉你。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "2b950482ea7549fb39ac8a77c9d892ddf3ea25662f0a320e4888ec70dc5fe30f",
+      "enMarkdown": "When you read of big companies filing patent suits against smaller ones, it's usually a big company on the way down, grasping at straws. For example, Unisys's attempts to enforce their patent on LZW compression. When you see a big company threatening patent suits, sell. When a company starts fighting over IP, it's a sign they've lost the real battle, for users.",
+      "zhMarkdown": "当你读到大公司起诉小公司专利侵权的新闻时，这通常是一家正在走下坡路的大公司在垂死挣扎。例如，Unisys 曾试图强制执行其 LZW 压缩算法的专利。一旦你看到一家大公司开始用专利诉讼来威胁别人，赶紧卖掉他们的股票。当一家公司开始为知识产权死磕时，说明他们已经在真正争夺用户的战场上输掉了。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "19131631b0a9a800ec6358dd750963ba922aa3e74766f966c06c069815dfb50e",
+      "enMarkdown": "A company that sues competitors for patent infringement is like a defender who has been beaten so thoroughly that he turns to plead with the referee. You don't do that if you can still reach the ball, even if you genuinely believe you've been fouled. So a company threatening patent suits is a company in [trouble](http://www.theregister.co.uk/2006/03/15/azul_sues_sun/).",
+      "zhMarkdown": "一家起诉竞争对手专利侵权的公司，就像一个已经被彻底过掉的防守队员，转过身去向裁判苦苦哀求。如果你还能追上球，你就不会这么做，哪怕你真的认为自己被犯规了。因此，威胁要打专利官司的公司，往往是自身陷入了[困境](http://www.theregister.co.uk/2006/03/15/azul_sues_sun/)的公司。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "472af3ce8e7d4f948f6a4cf2dc054aa6663ace248f053fa0039637e87bd2c193",
+      "enMarkdown": "When we were working on Viaweb, a bigger company in the e-commerce business was granted a patent on online ordering, or something like that. I got a call from a VP there asking if we'd like to license it. I replied that I thought the patent was completely bogus, and would never hold up in court. \"Ok,\" he replied. \"So, are you guys hiring?\"",
+      "zhMarkdown": "我们在做 Viaweb 的时候，一家电子商务领域的更大规模的公司获得了一项关于在线订购之类的专利。我接到了他们一位副总裁的电话，问我们是否愿意购买许可。我回答说，我认为这个专利完全是胡扯，在法庭上根本站不住脚。“好吧，”他回答道，“那你们公司最近招人吗？”"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "b77e197df5524e90db8141cbc377f3fe37e30306966eb64b874c85fd75190a6b",
+      "enMarkdown": "If your startup grows big enough, however, you'll start to get sued, no matter what you do. If you go public, for example, you'll be sued by multiple patent trolls who hope you'll pay them off to go away. More on them later.",
+      "zhMarkdown": "然而，如果你的创业公司长得足够大，无论你做什么，你都会开始被告。例如，如果你们公司上市了，就会有成群的“专利流氓”（patent trolls）来起诉你，指望你花钱消灾。关于他们，我们稍后再谈。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "44cfe5ed9abe2d455cdd2be09c3c801c09aacdc97d23c019d7c90dc8168b56e8",
+      "enMarkdown": "In other words, no one will sue you for patent infringement till you have money, and once you have money, people will sue you whether they have grounds to or not. So I advise fatalism. Don't waste your time worrying about patent infringement. You're probably violating a patent every time you tie your shoelaces. At the start, at least, just worry about making something great and getting lots of users. If you grow to the point where anyone considers you worth attacking, you're doing well.",
+      "zhMarkdown": "换句话说，在你赚到钱之前，没人会告你专利侵权；而一旦你有了钱，不管有没有依据，人们都会来告你。所以我的建议是听天由命。不要把时间浪费在担心专利侵权上。你可能每次系鞋带都在侵犯某项专利。至少在起步阶段，只管专注于做出一款伟大的产品并获取大量用户。如果有一天你成长到别人认为值得攻击的程度，说明你做得非常成功。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "453bc2d2c0e3691f47c5808124178fa12d3eb01842a4262a2e6bba82fc900929",
+      "enMarkdown": "We do advise the companies we fund to apply for patents, but not so they can sue competitors. Successful startups either get bought or grow into big companies. If a startup wants to grow into a big company, they should apply for patents to build up the patent portfolio they'll need to maintain an armed truce with other big companies. If they want to get bought, they should apply for patents because patents are part of the mating dance with acquirers.",
+      "zhMarkdown": "我们确实会建议我们投资的公司申请专利，但这不是为了让他们去起诉竞争对手。成功的创业公司要么被收购，要么成长为大公司。如果一家创业公司想成长为大公司，他们应该申请专利，以建立起自己的专利库，从而与其他大公司维持一种“武装和平”的均势。如果他们希望被收购，他们也应该申请专利，因为专利是与收购方“求偶舞”中不可或缺的一部分。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "ae913a333e3515e8a8cf704a47b87791132ad7ae11a5749a0d87136bb5369611",
+      "enMarkdown": "Most startups that succeed do it by getting bought, and most acquirers care about patents. Startup acquisitions are usually a build-vs-buy decision for the acquirer. Should we buy this little startup or build our own? And two things, especially, make them decide not to build their own: if you already have a large and rapidly growing user base, and if you have a fairly solid patent application on critical parts of your software.",
+      "zhMarkdown": "大多数成功的创业公司最终都是通过被收购上岸的，而大多数收购方都很看重专利。对于收购方来说，收购创业公司通常是一个“自建还是购买”（build-vs-buy）的决策。我们是该买下这家小创业公司，还是自己开发一个？有两个因素会让他们最终决定放弃自建：一是你已经拥有了庞大且快速增长的用户群，二是你在软件的关键部分拥有相当扎实的专利申请。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "b2f7a9dc2545c352d71bbfdbbdd4478b7f6aac01744b85f9b4a92fb39fe92f9d",
+      "enMarkdown": "There's a third reason big companies should prefer buying to building: that if they built their own, they'd screw it up. But few big companies are smart enough yet to admit this to themselves. It's usually the acquirer's engineers who are asked how hard it would be for the company to build their own, and they overestimate their abilities. [[4](#f4n)] A patent seems to change the balance. It gives the acquirer an excuse to admit they couldn't copy what you're doing. It may also help them to grasp what's special about your technology.",
+      "zhMarkdown": "大公司倾向于购买而非自建，还有第三个原因：如果他们自己开发，多半会搞砸。但很少有大公司能足够聪明地向自己承认这一点。通常，收购方的工程师会被问及自己开发有多难，而他们往往会高估自己的能力。[[4](#f4n)] 专利的存在似乎改变了这种心理天平。它给了收购方一个借口，去承认自己无法直接抄袭你的成果。这也有助于他们理解你的技术到底有什么独特之处。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "17d70d5426c582121382a6ed0c6c846af65a94089a8fc0f570c08d1120b887c9",
+      "enMarkdown": "Frankly, it surprises me how small a role patents play in the software business. It's kind of ironic, considering all the dire things experts say about software patents stifling innovation, but when one looks closely at the software business, the most striking thing is how little patents seem to matter.",
+      "zhMarkdown": "坦白说，专利在软件行业中扮演的角色之小，让我感到惊讶。这有点讽刺，考虑到专家们把软件专利扼杀创新说得多么可怕。但当你仔细审视软件行业时，最令人瞩目的事实恰恰是——专利似乎并没有那么重要。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "6ac1c478948eff3896a3e47d67c5a0ae0748e2bb6e3bd651be71441401071fa9",
+      "enMarkdown": "In other fields, companies regularly sue competitors for patent infringement. For example, the airport baggage scanning business was for many years a cozy duopoly shared between two companies, InVision and L-3. In 2002 a startup called Reveal appeared, with new technology that let them build scanners a third the size. They were sued for patent infringement before they'd even released a product.",
+      "zhMarkdown": "在其他领域，公司之间经常因为专利侵权起诉对手。例如，机场行李扫描行业多年来一直是由 InVision 和 L-3 两家公司舒适地瓜分的双头垄断。2002 年，一家名叫 Reveal 的创业公司出现了，他们凭借新技术制造出了体积只有原来三分之一的扫描仪。结果，他们甚至还没发布产品，就因专利侵权被起诉了。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "d25c24a653a8f6935c19183e1cf234ea39377d3c33b40b4d02ce6b2753dda52c",
+      "enMarkdown": "You rarely hear that kind of story in our world. The one example I've found is, embarrassingly enough, Yahoo, which filed a patent suit against a gaming startup called Xfire in 2005. Xfire doesn't seem to be a very big deal, and it's hard to say why Yahoo felt threatened. Xfire's VP of engineering had worked at Yahoo on similar stuff-- in fact, he was listed as an inventor on the patent Yahoo sued over-- so perhaps there was something personal about it. My guess is that someone at Yahoo goofed. At any rate they didn't pursue the suit very vigorously.",
+      "zhMarkdown": "在我们的世界里，你很少听到这种故事。我能找到的唯一一个例子，说来挺尴尬，是雅虎在 2005 年对一家名为 Xfire 的游戏创业公司发起的专利诉讼。Xfire 看起来规模并不大，很难理解雅虎为什么会感到威胁。Xfire 的工程副总裁曾在雅虎做过类似的工作——事实上，他本人就是雅虎起诉的那项专利的发明人之一——所以这中间可能有些个人恩怨。我的猜测是雅虎的某些人搞砸了。无论如何，他们后来并没有非常积极地推进这场诉讼。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "005129fd7b94cc855911520d654fda68f310f8fe739996470d5e54776c2d2136",
+      "enMarkdown": "Why do patents play so small a role in software? I can think of three possible reasons.",
+      "zhMarkdown": "为什么专利在软件行业中的作用如此之小？我想到了三个可能的原因。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "799c452066702e1adc566bc50ffb9763efddd7b9b39cbf4b03add850030b496b",
+      "enMarkdown": "One is that software is so complicated that patents by themselves are not worth very much. I may be maligning other fields here, but it seems that in most types of engineering you can hand the details of some new technique to a group of medium-high quality people and get the desired result. For example, if someone develops a new process for smelting ore that gets a better yield, and you assemble a team of qualified experts and tell them about it, they'll be able to get the same yield. This doesn't seem to work in software. Software is so subtle and unpredictable that \"qualified experts\" don't get you very far.",
+      "zhMarkdown": "第一，软件太复杂了，专利本身并没有多大价值。我这么说可能会贬低其他领域，但在大多数工程领域，你似乎只要把某项新技术的细节交给一群中上等水平的人，就能得到想要的结果。例如，如果有人开发出了一种能提高产量的冶炼矿石新工艺，你召集一个专家团队并告诉他们这个工艺，他们就能达到同样的产量。这在软件行业似乎行不通。软件是如此微妙且不可预测，以至于“合格的专家”并不能帮你走多远。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "cb0a8210ba6d709e863bbd589dcd03bfef1857a22b88d9ffccfe69e1caf5f4e9",
+      "enMarkdown": "That's why we rarely hear phrases like \"qualified expert\" in the software business. What that level of ability can get you is, say, to make your software compatible with some other piece of software-- in eight months, at enormous cost. To do anything harder you need individual brilliance. If you assemble a team of qualified experts and tell them to make a new web-based email program, they'll get their asses kicked by a team of inspired nineteen year olds.",
+      "zhMarkdown": "这就是为什么在软件行业，我们很少听到“合格的专家”这种词。那种水平的能力能帮你做到的，顶多是——比如，花八个月时间和巨额成本，让你的软件与另一款软件兼容。要做任何更难的事情，你都需要个人的才华。如果你召集一个由合格专家组成的团队，让他们开发一个全新的网页端邮箱程序，他们会被一个由充满灵气的十九岁年轻人组成的团队打得落花流水。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "4e5c0e20c3cd47d5dc8e6e8603575a431030dbcd8f91289f0576641973a9ba28",
+      "enMarkdown": "Experts can implement, but they can't [design](https://paulgraham.com/taste.html). Or rather, expertise in implementation is the only kind most people, including the experts themselves, can measure. [[5](#f5n)]",
+      "zhMarkdown": "专家可以负责执行，但他们无法[设计](https://paulgraham.com/taste.html)。或者更确切地说，执行层面的专业能力，是大多数人（包括专家自己）唯一能够衡量的那种能力。[[5](#f5n)]"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8a370a11bdc410a87b88ceb4b852149752af04d94ec414ea0ee430b7623a892b",
+      "enMarkdown": "But design is a definite skill. It's not just an airy intangible. Things always seem intangible when you don't understand them. Electricity seemed an airy intangible to most people in 1800. Who knew there was so much to know about it? So it is with design. Some people are good at it and some people are bad at it, and there's something very tangible they're good or bad at.",
+      "zhMarkdown": "但设计是一项实实在在的技能。它绝非虚无缥缈的东西。当你对某件事一无所知时，它看起来总是虚无缥缈的。在 1800 年，电在大多数人看来也是虚无缥缈的。谁能想到关于电有那么多学问呢？设计也是如此。有些人擅长，有些人不擅长，他们擅长或不擅长的背后，是有着非常具体、切实的东西的。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "c3fcacf2fca8b8cc9f6d1a0a6aa8e1e34dcf28e7a4b33788ec0c3dbb8ecf48fd",
+      "enMarkdown": "The reason design counts so much in software is probably that there are fewer constraints than on physical things. Building physical things is expensive and dangerous. The space of possible choices is smaller; you tend to have to work as part of a larger group; and you're subject to a lot of regulations. You don't have any of that if you and a couple friends decide to create a new web-based application.",
+      "zhMarkdown": "设计在软件中之所以如此重要，可能是因为软件受到的物理约束比实体产品要少得多。制造实体产品既昂贵又危险，可选择的空间也更小；你往往必须作为一个庞大团队的一员来工作，并且要受到大量的法规限制。而如果你和几个朋友决定开发一个新的 Web 应用程序，这一切限制都不存在。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "32e481fa76411999642f06c8afc35fb6e557a9561992a0ed788cc9fff5b71064",
+      "enMarkdown": "Because there's so much scope for design in software, a successful application tends to be way more than the sum of its patents. What protects little companies from being copied by bigger competitors is not just their patents, but the thousand little things the big company will get wrong if they try.",
+      "zhMarkdown": "正因为软件设计有着如此广阔的施展空间，一个成功的应用往往远大于其专利的总和。保护小公司不被大公司抄袭的，不仅是他们的专利，更是大公司在尝试抄袭时会搞砸的一千个细节。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "162812a9974c4151f5b67b7584c6165d7ce658eaf0ea5e41e82d3305fd61f277",
+      "enMarkdown": "The second reason patents don't count for much in our world is that startups rarely attack big companies head-on, the way Reveal did. In the software business, startups beat established companies by transcending them. Startups don't build desktop word processing programs to compete with Microsoft Word. [[6](#f6n)] They build Writely. If this paradigm is crowded, just wait for the next one; they run pretty frequently on this route.",
+      "zhMarkdown": "专利在我们的世界里不重要的第二个原因，是创业公司很少像 Reveal 那样与大公司正面交锋。在软件行业，创业公司是通过超越既有公司来击败它们的。创业公司不会去开发桌面字处理软件来与 Microsoft Word 竞争。[[6](#f6n)] 他们会开发 Writely（Google 文档的前身）。如果当前这个范式太拥挤了，只需等待下一个；这条路线上的班车开得非常频繁。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "b0e9e038497910e183dc3be6fe7109fcddbd842a5dfd5f7877ecc40043ed7e48",
+      "enMarkdown": "Fortunately for startups, big companies are extremely good at denial. If you take the trouble to attack them from an oblique angle, they'll meet you half-way and maneuver to keep you in their blind spot. To sue a startup would mean admitting it was dangerous, and that often means seeing something the big company doesn't want to see. IBM used to sue its mainframe competitors regularly, but they didn't bother much about the microcomputer industry because they didn't want to see the threat it posed. Companies building web based apps are similarly protected from Microsoft, which even now doesn't want to imagine a world in which Windows is irrelevant.",
+      "zhMarkdown": "对创业公司来说幸运的是，大公司极其擅长自我否定。如果你费点心思从一个斜角去攻击他们，他们会主动配合你，努力让自己保持在你的盲区里。起诉一家创业公司意味着承认它具有威胁，而这往往意味着要正视大公司自己不想看到的东西。IBM 过去经常起诉它的主机竞争对手，但他们并没有太在意微机行业，因为他们不想看到微机带来的威胁。开发 Web 应用的公司同样受到了保护，避开了微软的锋芒，因为微软直到现在也不愿意去想象一个 Windows 变得无关紧要的世界。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "3f44b992672d159849d1ff130341cb09092b243f40e7cd2c90c7bff74ba8edfd",
+      "enMarkdown": "The third reason patents don't seem to matter very much in software is public opinion-- or rather, hacker opinion. In a recent [interview](http://www.computing.co.uk/forbes/news/2152720/interview-steve-ballmer-linux), Steve Ballmer coyly left open the possibility of attacking Linux on patent grounds. But I doubt Microsoft would ever be so stupid. They'd face the mother of all boycotts. And not just from the technical community in general; a lot of their own people would rebel.",
+      "zhMarkdown": "专利在软件中似乎不太重要的第三个原因是公众舆论——或者更确切地说，黑客群体的舆论。在最近的一次[采访](http://www.computing.co.uk/forbes/news/2152720/interview-steve-ballmer-linux)中，史蒂夫·鲍尔默委婉地保留了利用专利攻击 Linux 的可能性。但我怀疑微软绝不会这么愚蠢。他们将面临史无前例的联合抵制。这不仅来自整个技术社区，连他们自己内部的许多员工都会造反。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "99a6dde4a9b09aaa8ed434d5f00d06666ef5d40da7da7503c505c133a00cbd20",
+      "enMarkdown": "Good hackers care a lot about matters of principle, and they are highly mobile. If a company starts misbehaving, smart people won't work there. For some reason this seems to be more true in software than other businesses. I don't think it's because hackers have intrinsically higher principles so much as that their skills are easily transferrable. Perhaps we can split the difference and say that mobility gives hackers the luxury of being principled.",
+      "zhMarkdown": "优秀的黑客非常注重原则问题，而且他们的流动性极高。如果一家公司开始作恶，聪明人就不会去那里工作。出于某种原因，这在软件行业比其他行业更为明显。我认为这倒不是因为黑客本质上比别人更有原则，而是因为他们的技能极易转移。也许我们可以折中一下说：极高的流动性让黑客能够奢侈地坚守原则。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "b23d276a61b6fac68f6cfc29aefdae593a5b121ee7ceca597b2058472a7bb4b9",
+      "enMarkdown": "Google's \"don't be evil\" policy may for this reason be the most valuable thing they've discovered. It's very constraining in some ways. If Google does do something evil, they get doubly whacked for it: once for whatever they did, and again for hypocrisy. But I think it's worth it. It helps them to hire the best people, and it's better, even from a purely selfish point of view, to be constrained by principles than by stupidity.",
+      "zhMarkdown": "由于这个原因，Google 的“不作恶”（don't be evil）政策可能是他们发现的最有价值的东西。在某些方面，这非常具有约束力。如果 Google 真的做了什么坏事，他们会遭到双重打击：一次是因为他们做的事，另一次是因为虚伪。但我认为这是值得的。它帮助他们招募到最优秀的人才。而且，即使纯粹从自私的角度来看，受制于原则也远比受制于愚蠢要好得多。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "e0336a4eed0a8abe2456481b3e4632cc6da3478df773061b36158f7645670dd6",
+      "enMarkdown": "(I wish someone would get this point across to the present administration.)",
+      "zhMarkdown": "（我真希望有人能把这个道理传达给现任政府。）"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "10f03088966801ab41a47840ce8d8da763077cf4a27024c044a67ddcf727b45c",
+      "enMarkdown": "I'm not sure what the proportions are of the preceding three ingredients, but the custom among the big companies seems to be not to sue the small ones, and the startups are mostly too busy and too poor to sue one another. So despite the huge number of software patents there's not a lot of suing going on. With one exception: patent trolls.",
+      "zhMarkdown": "我不确定上述三个因素的具体比例如何，但大公司之间似乎形成了不起诉小公司的惯例，而创业公司大多太忙也太穷，没空互相起诉。因此，尽管软件专利数量惊人，但实际发生的诉讼并不多。只有一个例外：专利流氓。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "db323a23b6068c6e389fcece48fd8a6d401d9f06b4d32905b56aba9acc8f6bef",
+      "enMarkdown": "Patent trolls are companies consisting mainly of lawyers whose whole business is to accumulate patents and threaten to sue companies who actually make things. Patent trolls, it seems safe to say, are evil. I feel a bit stupid saying that, because when you're saying something that Richard Stallman and Bill Gates would both agree with, you must be perilously close to tautologies.",
+      "zhMarkdown": "专利流氓是指那些主要由律师组成的公司，其全部业务就是囤积专利，然后威胁起诉那些真正做出产品的公司。可以肯定地说，专利流氓是邪恶的。说出这句话让我觉得有点傻，因为当你抛出一个理查德·斯托曼和比尔·盖茨都会赞同的观点时，你肯定已经无限接近于废话了。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "284cf143ad06d2d371be0fc2035cc06f37f02362f2c1fa2f0c3336e12bd2b7be",
+      "enMarkdown": "The CEO of Forgent, one of the most notorious patent trolls, says that what his company does is \"the American way.\" Actually that's not true. The American way is to make money by [creating wealth](https://paulgraham.com/wealth.html), not by suing people. [[7](#f7n)] What companies like Forgent do is actually the proto-industrial way. In the period just before the industrial revolution, some of the greatest fortunes in countries like England and France were made by courtiers who extracted some lucrative right from the crown-- like the right to collect taxes on the import of silk-- and then used this to squeeze money from the merchants in that business. So when people compare patent trolls to the mafia, they're more right than they know, because the mafia too are not merely bad, but bad specifically in the sense of being an obsolete business model.",
+      "zhMarkdown": "最臭名昭著的专利流氓之一 Forgent 的 CEO 曾表示，他公司的所作所为是“美国方式”。实际上并非如此。美国方式是通过[创造财富](https://paulgraham.com/wealth.html)来赚钱，而不是通过起诉他人。[[7](#f7n)] 像 Forgent 这样的公司的做法实际上是“前工业时代”的方式。在工业革命爆发前夕，英国和法国等国家最庞大的一些财富，是由那些从国王那里获得某种特许权的朝臣们创造的——比如对进口丝绸征税的权利——然后他们利用这种权利去榨取该行业商人的钱财。因此，当人们把专利流氓比作黑手党时，他们比自己想象的还要准确，因为黑手党不仅坏，而且坏在他们代表了一种过时的商业模式。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "9eb75bf9cba37d0d96e6dec82d6c8cc70c1d376ae8c203b7b9ec71df2a0356dd",
+      "enMarkdown": "Patent trolls seem to have caught big companies by surprise. In the last couple years they've extracted hundreds of millions of dollars from them. Patent trolls are hard to fight precisely because they create nothing. Big companies are safe from being sued by other big companies because they can threaten a counter-suit. But because patent trolls don't make anything, there's nothing they can be sued for. I predict this loophole will get closed fairly quickly, at least by legal standards. It's clearly an abuse of the system, and the victims are powerful. [[8](#f8n)]",
+      "zhMarkdown": "专利流氓似乎让大公司措手不及。在过去几年里，他们已经从大公司身上榨取了数亿美元。专利流氓之所以难以对付，恰恰是因为他们不创造任何东西。大公司之所以不怕被其他大公司起诉，是因为他们可以用反诉来威胁对方。但由于专利流氓不生产任何东西，你也找不到任何由头去起诉他们。我预测这个漏洞会很快被堵上，至少以法律的标准来看是很快的。这显然是对体制的滥用，而且受害者都是有权有势的巨头。[[8](#f8n)]"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "f70b9e34b64dff9d276244f611f5f6f6a55dd02ce1911ef0714daac6c2a96f07",
+      "enMarkdown": "But evil as patent trolls are, I don't think they hamper innovation much. They don't sue till a startup has made money, and by that point the innovation that generated it has already happened. I can't think of a startup that avoided working on some problem because of patent trolls.",
+      "zhMarkdown": "不过，尽管专利流氓很可恶，但我认为他们并没有太阻碍创新。他们直到创业公司赚了钱才会起诉，而到了那个阶段，产生财富的创新早已完成了。我想不出有哪家创业公司会因为害怕专利流氓而放弃研究某个问题。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "e90c75eabb2964c350d5e6cabab6ad9270c04d6151a3ef40e2a5b8b84b899e35",
+      "enMarkdown": "So much for hockey as the game is played now. What about the more theoretical question of whether hockey would be a better game without checking? Do patents encourage or discourage innovation?",
+      "zhMarkdown": "关于目前的冰球游戏规则就说这么多。那么更理论化的问题是：如果没有合理冲撞，冰球会不会是一场更好的游戏？专利究竟是鼓励还是阻碍了创新？"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "71d34cf893d0de5c9bef5489bb107763a1503cd525bb7c86c5892b9d6c3fb29b",
+      "enMarkdown": "This is a very hard question to answer in the general case. People write whole books on the topic. One of my main hobbies is the history of technology, and even though I've studied the subject for years, it would take me several weeks of research to be able to say whether patents have in general been a net win.",
+      "zhMarkdown": "在一般情况下，这是一个极难回答的问题。人们写了整本书来讨论这个话题。我的一大业余爱好是技术史，尽管我已经研究了多年，但我也需要几周的研究才能说明专利在总体上是否带来了净收益。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "8c46042e7f778925d3db83238ed7876fbca86ad1e822f75624703c896205cf63",
+      "enMarkdown": "One thing I can say is that 99.9% of the people who express opinions on the subject do it not based on such research, but out of a kind of religious conviction. At least, that's the polite way of putting it; the colloquial version involves speech coming out of organs not designed for that purpose.",
+      "zhMarkdown": "我唯一能肯定的是，99.9% 对此发表意见的人，并不是基于这样的研究，而是出于一种宗教般的信念。至少，这是比较客气的说法；通俗一点的说法是，这些言论是从不该用来发声的器官里喷出来的。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "9915da80f796748f46c5abc5fe556ea95a241e54cb8495e5a4fd1eb612babe6b",
+      "enMarkdown": "Whether they encourage innovation or not, patents were at least intended to. You don't get a patent for nothing. In return for the exclusive right to use an idea, you have to *publish* it, and it was largely to encourage such openness that patents were established.",
+      "zhMarkdown": "无论专利是否真的鼓励了创新，它们的设计初衷至少是如此。你不能凭空获得专利。作为获得独占使用权的回报，你必须*公开*它，建立专利制度很大程度上就是为了鼓励这种开放性。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "950cc67ef780e9eb1089f619fad3da653019b07e0f5b0939cdcac903f86e48e1",
+      "enMarkdown": "Before patents, people protected ideas by keeping them secret. With patents, central governments said, in effect, if you tell everyone your idea, we'll protect it for you. There is a parallel here to the rise of civil order, which happened at roughly the same time. Before central governments were powerful enough to enforce order, rich people had private armies. As governments got more powerful, they gradually compelled magnates to cede most responsibility for protecting them. (Magnates still have bodyguards, but no longer to protect them from other magnates.)",
+      "zhMarkdown": "在专利制度出现之前，人们通过保密来保护创意。有了专利制度后，中央政府实际上在说：如果你把创意告诉大家，我们会帮你保护它。这与社会治安秩序的崛起有着相似之处，两者大约发生在同一时期。在中央政府强大到足以维持秩序之前，富人们拥有私人军队。随着政府变得越来越强大，它们逐渐迫使权贵们放弃了大部分自我保护的责任。（权贵们现在依然有保镖，但不再是为了防范其他权贵。）"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "ad3e14716ebc1a775c21dd781d5b886ad3bfe228348b70a65df084fd21a1e008",
+      "enMarkdown": "Patents, like police, are involved in many abuses. But in both cases the default is something worse. The choice is not \"patents or freedom?\" any more than it is \"police or freedom?\" The actual questions are respectively \"patents or secrecy?\" and \"police or gangs?\"",
+      "zhMarkdown": "专利就像警察一样，伴随着许多滥用。但在两种情况下，默认的替代方案都更糟糕。选择并不是“专利还是自由？”，正如选择不是“警察还是自由？”一样。真正的选择分别是“专利还是保密？”以及“警察还是黑帮？”"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "2d10d94240623302f92c53524a1c16e487cdf8ce84a255d9e03492213b2e3fad",
+      "enMarkdown": "As with gangs, we have some idea what secrecy would be like, because that's how things used to be. The economy of medieval Europe was divided up into little tribes, each jealously guarding their privileges and secrets. In Shakespeare's time, \"mystery\" was synonymous with \"craft.\" Even today we can see an echo of the secrecy of medieval guilds, in the now pointless secrecy of the Masons.",
+      "zhMarkdown": "就像黑帮一样，我们大概能想象保密的世界会是什么样子，因为过去就是那样的。中世纪欧洲的经济被划分成一个个小部落，每个部落都嫉妒地守护着自己的特权和秘密。在莎士比亚时代，“神秘”（mystery）一词是“手艺”（craft）的同义词。即使在今天，我们也能在共济会如今已毫无意义的保密仪式中，看到中世纪行会保密制度的影子。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "1346848a7b0e190db900ab6902e5c03b99f3fd18dad593be50a35bba1b8adfae",
+      "enMarkdown": "The most memorable example of medieval industrial secrecy is probably Venice, which forbade glassblowers to leave the city, and sent assassins after those who tried. We might like to think we wouldn't go so far, but the movie industry has already tried to pass [laws](http://news.com.com/2100-1026_3-5106684.html) prescribing three year prison terms just for putting movies on public networks. Want to try a frightening thought experiment? If the movie industry could have any law they wanted, where would they stop? Short of the death penalty, one assumes, but how close would they get?",
+      "zhMarkdown": "中世纪工业保密最著名的例子大概是威尼斯，它禁止玻璃制造工匠离开城市，并派刺客去追杀那些企图逃跑的人。我们可能想当然地认为我们不会走得那么远，但电影行业已经尝试通过[法律](http://news.com.com/2100-1026_3-5106684.html)，规定仅仅把电影放到公共网络上就要判处三年监禁。想做一个令人毛骨悚然的思想实验吗？如果电影行业能得到他们想要的任何法律，他们会在哪里止步？我们假设不会到死刑那一步，但他们会逼得多近？"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "6a77b7596a093bc216ba648eb9b52922f3ade0e4c7aec433600b0e61b4091785",
+      "enMarkdown": "Even worse than the spectacular abuses might be the overall decrease in efficiency that would accompany increased secrecy. As anyone who has dealt with organizations that operate on a \"need to know\" basis can attest, dividing information up into little cells is terribly inefficient. The flaw in the \"need to know\" principle is that you don't *know* who needs to know something. An idea from one area might spark a great discovery in another. But the discoverer doesn't know he needs to know it.",
+      "zhMarkdown": "比这些耸人听闻的滥用更糟糕的，可能是伴随着保密性增加而带来的整体效率下降。任何与奉行“知情同意”（need to know）原则的组织打过交道的人都可以作证，将信息分割成一个个孤立的小单元是极其低效的。“知情同意”原则的缺陷在于，你根本*不知道*谁需要知道某些事情。一个领域的想法可能会激发另一个领域的重大发现。但那个发现者根本不知道自己需要了解它。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "a474ab138efef9b5c2f06bd09edff4636108aa6f2ef1aa5b59b48f4e0cef50ea",
+      "enMarkdown": "If secrecy were the only protection for ideas, companies wouldn't just have to be secretive with other companies; they'd have to be secretive internally. This would encourage what is already the worst trait of big companies.",
+      "zhMarkdown": "如果保密是保护创意的唯一手段，公司不仅要对其他公司保密，还必须在内部保密。这会助长本已是大公司最坏特质的作风。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "e55ced6b350388a9e69f747695b235b8bafce38365109478b3eae41f7b834f94",
+      "enMarkdown": "I'm not saying secrecy would be worse than patents, just that we couldn't discard patents for free. Businesses would become more secretive to compensate, and in some fields this might get ugly. Nor am I defending the current patent system. There is clearly a lot that's broken about it. But the breakage seems to affect software less than most other fields.",
+      "zhMarkdown": "我并不是说保密一定会比专利更糟糕，只是说我们不能无代价地抛弃专利。企业会通过变得更加保守秘密来进行补偿，在某些领域这可能会变得很难看。我也不是在为现行的专利制度辩护。它显然有很多地方已经坏掉了。但这种坏掉对软件行业的影响似乎比对大多数其他领域要小。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "a6170d26a224e289164b4d9195be3cce684285717bce823d9b18f52dea548b1e",
+      "enMarkdown": "In the software business I know from experience whether patents encourage or discourage innovation, and the answer is the type that people who like to argue about public policy least like to hear: they don't affect innovation much, one way or the other. Most innovation in the software business happens in startups, and startups should simply ignore other companies' patents. At least, that's what we advise, and we bet money on that advice.",
+      "zhMarkdown": "在软件行业，我通过经验知道专利是鼓励还是阻碍了创新，而这个答案恰恰是那些喜欢争论公共政策的人最不喜欢听到的那类：它们对创新的影响并不大，无论正面还是负面。软件行业的大多数创新都发生在创业公司中，而创业公司应该直接忽略其他公司的专利。至少，这是我们给出的建议，而且我们用真金白银押注在这个建议上。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "c439ddcac2883efc568bd9b9bfebfc32e813359e16db656020314e93e0a72810",
+      "enMarkdown": "The only real role of patents, for most startups, is as an element of the mating dance with acquirers. There patents do help a little. And so they do encourage innovation indirectly, in that they give more power to startups, which is where, pound for pound, the most innovation happens. But even in the mating dance, patents are of secondary importance. It matters more to make something great and get a lot of users.",
+      "zhMarkdown": "对于大多数创业公司来说，专利唯一真正的作用是作为与收购方“求偶舞”中的一个元素。在这方面，专利确实有一点帮助。因此，它们确实间接地鼓励了创新，因为它们给了创业公司更多的筹码，而创业公司正是创新密度最高的地方。但即使在求偶舞中，专利也只是次要的。更重要的还是做出伟大的产品并获取大量用户。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "7abda02dea95456756a26874d6562c9d8f09c4d1513fb2ab76eafc9ef20da49b",
+      "enMarkdown": "[1] You have to be careful here, because a great discovery often seems obvious in retrospect. One-click ordering, however, is not such a discovery.",
+      "zhMarkdown": "[1] 在这里必须小心，因为伟大的发现事后看来往往显而易见。然而，“一键下单”并不属于这类发现。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "fc880b2e9c7992a2b3e9d03c90f0212595984d5533a897f86452275b77d2c9c0",
+      "enMarkdown": "[2] \"Turn the other cheek\" skirts the issue; the critical question is not how to deal with slaps, but sword thrusts.",
+      "zhMarkdown": "[2] “转过另一边脸让人打”回避了核心问题；关键问题不在于如何应对耳光，而在于如何应对刺来的剑。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "754e2c918d003159d1d94c84114de67cf2c91c09b0d9dbed650f967b6301f9ea",
+      "enMarkdown": "[3] Applying for a patent is now very slow, but it might actually be bad if that got fixed. At the moment the time it takes to get a patent is conveniently just longer than the time it takes a startup to succeed or fail.",
+      "zhMarkdown": "[3] 申请专利现在非常慢，但如果这个问题被解决，其实反而可能是件坏事。目前，获得专利所需的时间恰好比创业公司走向成功或失败的时间稍长一些，这很方便。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "d5d907c81e798b0d2630c3590402cfa73e028119c0639e1397566aff19866185",
+      "enMarkdown": "[4] Instead of the canonical \"could you build this?\" maybe the corp dev guys should be asking \"will you build this?\" or even \"why haven't you already built this?\"",
+      "zhMarkdown": "[4] 也许公司发展部的负责人不应该问经典的“你们能开发这个吗？”，而应该问“你们会开发这个吗？”甚至“为什么你们还没有开发出来？”"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "65949998332095df89a9da600a1fa9bf3658e9b3eabdb5eba96ed6f033a065df",
+      "enMarkdown": "[5] Design ability is so hard to measure that you can't even trust the design world's internal standards. You can't assume that someone with a degree in design is any good at design, or that an eminent designer is any better than his peers. If that worked, any company could build products as good as Apple's just by hiring sufficiently qualified designers.",
+      "zhMarkdown": "[5] 设计能力是如此难以衡量，以至于你甚至不能相信设计界内部的标准。你不能假设一个拥有设计学位的人就擅长设计，也不能假设一个著名的设计师就比他的同行更优秀。如果这一套行得通，任何公司只要雇佣足够有资质的设计师，就能做出和苹果一样好的产品。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "3c94cc79338d6befcdfe3aa491ebac6ca17ca4576cec5f35ba6c33efce9a39fa",
+      "enMarkdown": "[6] If anyone wanted to try, we'd be interested to hear from them. I suspect it's one of those things that's not as hard as everyone assumes.",
+      "zhMarkdown": "[6] 如果有人想尝试，我们很有兴趣听听他们的想法。我怀疑这是那些被大家认为很难、但实际上并没有那么难的事情之一。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "cad420889c01a330a086df393275b242e06e0ea2de9f804a563e69d94f6c4461",
+      "enMarkdown": "[7] Patent trolls can't even claim, like speculators, that they \"create\" liquidity.",
+      "zhMarkdown": "[7] 专利流氓甚至不能像投机者那样声称自己“创造”了流动性。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "dac35f3b03981e095f5e5b2e6264a7d09038391ac1509c0a4a9969fdfb36b043",
+      "enMarkdown": "[8] If big companies don't want to wait for the government to take action, there is a way to fight back themselves. For a long time I thought there wasn't, because there was nothing to grab onto. But there is one resource patent trolls need: lawyers. Big technology companies between them generate a lot of legal business. If they agreed among themselves never to do business with any firm employing anyone who had worked for a patent troll, either as an employee or as outside counsel, they could probably starve the trolls of the lawyers they need.",
+      "zhMarkdown": "[8] 如果大公司不想等待政府采取行动，他们自己其实有一种反击的方法。很长一段时间里，我以为没有办法，因为找不到抓手。但专利流氓需要一种资源：律师。大型科技公司之间产生了大量的法律业务。如果他们私下达成协议，绝不与任何雇佣了曾为专利流氓工作过的人（无论是作为员工还是外部法律顾问）的律所合作，他们可能就能让专利流氓招不到急需的律师。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "94486b99aa4ce2acee229a751eddb6d33c66309e6244186f8b7fe20c2d9a9ea8",
+      "enMarkdown": "**Thanks** to Dan Bloomberg, Paul Buchheit, Sarah Harlin, Jessica Livingston, and Peter Norvig for reading drafts of this, to Joel Lehrer and Peter Eng for answering my questions about patents, and to Ankur Pansari for inviting me to speak.",
+      "zhMarkdown": "**感谢** Dan Bloomberg、Paul Buchheit、Sarah Harlin、Jessica Livingston 和 Peter Norvig 阅读本文草稿，感谢 Joel Lehrer 和 Peter Eng 回答我关于专利的问题，以及 Ankur Pansari 邀请我进行演讲。"
+    }
+  ]
+}

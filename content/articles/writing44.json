@@ -1,0 +1,34 @@
+{
+  "slug": "writing44",
+  "titleEn": "Writing,  Briefly",
+  "titleZh": "写作简捷录",
+  "dateText": "March 2005",
+  "publishedAt": "2005-03-01",
+  "sourceOrder": 187,
+  "sourceUrl": "https://paulgraham.com/writing44.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "40ab78999762d4e41e6b07d8d81f7008327658dcc53d842430a37d9debb96620",
+      "enMarkdown": "*(In the process\nof answering an email, I accidentally wrote a tiny essay about writing.\nI usually spend weeks on an essay.  This one took  67 minutes—23\nof writing, and  44 of rewriting.)*",
+      "zhMarkdown": "*(在回复一封邮件的过程中，我不经意间写下了一篇关于写作的微型文章。平时我写一篇文章通常要花上几周的时间。而这一篇只花了 67 分钟——23 分钟写作，44 分钟修改。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "a734c36afcc286a5df4241a9b51dca93a0f0de83cb4d402852530605a96fe554",
+      "enMarkdown": "I think it's far more important to write well than most people realize. Writing doesn't just communicate ideas; it generates them. If you're bad at writing and don't like to do it, you'll miss out on most of the ideas writing would have generated.",
+      "zhMarkdown": "我认为，写好文章的重要性远超大多数人的想象。写作不仅是传播思想的工具，更是孕育思想的源泉。如果你不擅长写作且心生排斥，你就会与那些唯有通过写作才能激发出来的绝妙构想失之交臂。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "7d5b3ace658957f3a12012f6121a00589c07834956c8f3310381de753c7d3b8f",
+      "enMarkdown": "As for how to write well, here's the short version: Write a bad version 1 as fast as you can; rewrite it over and over; cut out everything unnecessary; write in a conversational tone; develop a nose for bad writing, so you can see and fix it in yours; imitate writers you like; if you can't get started, tell someone what you plan to write about, then write down what you said; expect 80% of the ideas in an essay to happen after you start writing it, and 50% of those you start with to be wrong; be confident enough to cut; have friends you trust read your stuff and tell you which bits are confusing or drag; don't (always) make detailed outlines; mull ideas over for a few days before writing; carry a small notebook or scrap paper with you; start writing when you think of the first sentence; if a deadline forces you to start before that, just say the most important sentence first; write about stuff you like; don't try to sound impressive; don't hesitate to change the topic on the fly; use footnotes to contain digressions; use anaphora to knit sentences together; read your essays out loud to see (a) where you stumble over awkward phrases and (b) which bits are boring (the paragraphs you dread reading); try to tell the reader something new and useful; work in fairly big quanta of time; when you restart, begin by rereading what you have so far; when you finish, leave yourself something easy to start with; accumulate notes for topics you plan to cover at the bottom of the file; don't feel obliged to cover any of them; write for a reader who won't read the essay as carefully as you do, just as pop songs are designed to sound ok on crappy car radios;  if you say anything mistaken, fix it immediately; ask friends which sentence you'll regret most; go back and tone down harsh remarks; publish stuff online, because an audience makes you write more, and thus generate more ideas; print out drafts instead of just looking at them on the screen; use simple, germanic words; learn to distinguish surprises from digressions; learn to recognize the approach of an ending, and when one appears, grab it.",
+      "zhMarkdown": "至于如何写出好文章，这里有一个极简版本：以最快的速度写出糟糕的第一版；一遍又一遍地修改；删掉所有无关紧要的内容；用口语化的语气来写；培养对糟糕文笔的敏锐嗅觉，以便在自己的文章中发现并修正它；模仿你喜欢的作家；如果迟迟无法动笔，就跟别人聊聊你打算写什么，然后把你说的话记下来；要做好心理准备，一篇文章中 80% 的想法是在动笔后才产生的，而你最初抱持的想法有 50% 都是错的；要有足够的自信去删减内容；让信任的朋友阅读你的草稿，指出哪些地方令人费解或显得拖沓；不要（总是）做详细的大纲；在动笔前把想法在脑子里盘算几天；随身携带一个小笔记本或便签纸；一旦想到第一句话就立刻动笔；如果截稿期限逼得你不得不在此之前动笔，那就先说最重要的一句话；写你喜欢的主题；不要刻意让自己显得高深；在写作过程中不要犹豫，随时可以调整主题；用脚注来安放那些离题的闲白；使用首语重复法来衔接句子；大声朗读你的文章，看看（a）哪些地方读起来拗口，（b）哪些地方显得无聊（即那些你甚至懒得去读的段落）；试着告诉读者一些新颖且有用的东西；在相对大块且连续的时间里专注写作；重新开始写作时，先通读一遍已有的内容；每天收工时，留一个容易接手的部分作为明天的起点；在文档底部为你打算写的主题积累素材，但不必觉得必须把它们全部写进去；写作时要考虑到读者不会像你写作时那样字斟句酌，就像流行歌曲的设计初衷是在破旧的汽车收音机里听起来也还不错一样；一旦发现任何错误，立即修正；问问朋友哪句话最让你日后后悔；回头去缓和那些过于尖锐的言辞；把文章发表在网上，因为读者群会促使你写得更多，从而产生更多想法；把草稿打印出来修改，而不是只盯着屏幕看；使用简单、源自德语词源的词汇；学会区分惊喜与离题；学会敏锐地捕捉结尾的临近，一旦它显现，立刻收尾。"
+    }
+  ]
+}

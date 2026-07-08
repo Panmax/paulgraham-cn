@@ -1,0 +1,167 @@
+{
+  "slug": "revolution",
+  "titleEn": "A Local Revolution?",
+  "titleZh": "一场局部革命？",
+  "dateText": "April 2009",
+  "publishedAt": "2009-04-01",
+  "sourceOrder": 118,
+  "sourceUrl": "https://paulgraham.com/revolution.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "67048e7120971a1aaa7f3eabc450e9b66b75aad1f0b59c6223d4b1896a710240",
+      "enMarkdown": "Recently I realized I'd been holding two ideas in my head that would explode if combined.",
+      "zhMarkdown": "最近我意识到，我脑子里一直并存着两个想法，而这两个想法一旦结合，就会产生爆炸性的结论。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "07d8b3916070dcadd7742d1339e93cd54db3b7a1108d4c1356e3ead977ac62a1",
+      "enMarkdown": "The first is that startups may represent a [new economic phase](https://paulgraham.com/highres.html), on the scale of the Industrial Revolution. I'm not sure of this, but there seems a decent chance it's true. People are dramatically more productive as founders or early employees of startups—imagine how much less Larry and Sergey would have achieved if they'd gone to work for a big company—and that scale of improvement can change social customs.",
+      "zhMarkdown": "第一个想法是，创业公司可能代表着一个[新的经济阶段](https://paulgraham.com/highres.html)，其规模堪比工业革命。我不敢对此打包票，但这极有可能是真的。人们作为创业公司的创始人或早期员工，其生产力得到了极大的释放——想象一下，如果拉里和谢尔盖当年去了大公司工作，他们的成就得缩水多少——而这种级别的效率提升足以改变社会习俗。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "56cc9f9d5287d9d9932494b9c385cf1768d0bb148c0cf93c3c4b6027bebac5d3",
+      "enMarkdown": "The second idea is that startups are a type of business that flourishes in certain places that [specialize](https://paulgraham.com/startuphubs.html) in it—that Silicon Valley specializes in startups in the same way Los Angeles specializes in movies, or New York in finance. [[1](#f1n)]",
+      "zhMarkdown": "第二个想法是，创业公司作为一种商业类型，只有在某些对其有[专门定位](https://paulgraham.com/startuphubs.html)的特定地区才能蓬勃发展——硅谷专注于创业公司，就像洛杉矶专注于电影、纽约专注于金融一样。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "1c989132f4e0552b03b68861b21325659a67ff0cc511d3c531a3a0728ea4e7e2",
+      "enMarkdown": "What if both are true? What if startups are both a new economic phase and also a type of business that only flourishes in certain centers?",
+      "zhMarkdown": "如果这两个想法都是真的呢？如果创业公司既是一个新的经济阶段，同时又是一种只能在少数特定中心城市蓬勃发展的商业类型呢？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "0caa418663f1b0d101ca9a5845c7a5b95b70658aa9bcf108b7e4c2f038fa29e0",
+      "enMarkdown": "If so, this revolution is going to be particularly revolutionary. All previous revolutions have spread. Agriculture, cities, and industrialization all spread widely. If startups end up being like the movie business, with just a handful of centers and one dominant one, that's going to have novel consequences.",
+      "zhMarkdown": "如果是这样，这场革命将具有极其独特的颠覆性。以往所有的革命都会向外扩散。农业、城市和工业化都广泛传播开来。但如果创业公司最终变得像电影业一样，只拥有寥寥几个中心，且其中一个占绝对统治地位，那将会带来前所未有的后果。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "74b85972f21d4f6d0e692d114a231d51a3e41c6e26217f316183cbbb0c0affe4",
+      "enMarkdown": "There are already signs that startups may not spread particularly well. The spread of startups seems to be proceeding slower than the spread of the Industrial Revolution, despite the fact that communication is so much faster now.",
+      "zhMarkdown": "目前已经有迹象表明，创业公司可能并不容易向外扩散。尽管现在的通信速度比过去快得多，但创业公司的扩散速度似乎比当年工业革命的扩散还要慢。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "9592ba95f1887d76cc750e3d54f9049ab8fa32cd8ff3b65704dcf64ebfe55ea5",
+      "enMarkdown": "Within a few decades of the founding of Boulton & Watt there were steam engines scattered over northern Europe and North America. Industrialization didn't spread much beyond those regions for a while. It only spread to places where there was a strong middle class—countries where a private citizen could make a fortune without having it confiscated. Otherwise it wasn't worth investing in factories. But in a country with a strong middle class it was easy for industrial techniques to take root. An individual mine or factory owner could decide to install a steam engine, and within a few years he could probably find someone local to make him one. So steam engines spread fast. And they spread widely, because the locations of mines and factories were determined by features like rivers, harbors, and sources of raw materials. [[2](#f2n)]",
+      "zhMarkdown": "在博尔顿和瓦特公司（Boulton & Watt）成立后的几十年里，蒸汽机就已遍布北欧和北美。在此之后的一段时间里，工业化并没有超出这些地区。它只传播到了那些拥有强大中产阶级的地区——在这些国家，普通公民可以发家致富，而不用担心财产被充公。否则，投资建厂根本不值当。但在一个拥有强大中产阶级的国家，工业技术很容易生根发芽。个别矿主或工厂主可以自行决定安装蒸汽机，而且在几年内，他很可能在当地就能找到人帮他造一台。因此，蒸汽机扩散得很快。而且它们分布很广，因为矿山和工厂的位置是由河流、港口和原材料产地等地理特征决定的。[[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4059f06cc3af7bf5cec305d4ce75603daeb62d97e12cb94f54213d3550c1c3bf",
+      "enMarkdown": "Startups don't seem to spread so well, partly because they're more a social than a technical phenomenon, and partly because they're not tied to geography. An individual European manufacturer could import industrial techniques and they'd work fine. This doesn't seem to work so well with startups: you need a community of expertise, as you do in the movie business. [[3](#f3n)] Plus there aren't the same forces driving startups to spread. Once railroads or electric power grids were invented, every region had to have them. An area without railroads or power was a rich potential market. But this isn't true with startups. There's no need for a Microsoft of France or Google of Germany.",
+      "zhMarkdown": "创业公司似乎没那么容易扩散，部分原因在于它更多是一种社会现象而非技术现象，另一部分原因在于它不依赖地理条件。欧洲的某位制造商可以引进工业技术，而且运转良好。但这套在创业公司身上似乎行不通：你需要一个由专业人才组成的社群，就像电影业一样。[[3](#f3n)] 此外，也没有同样的外部力量在推动创业公司扩散。铁路或电网一旦发明，每个地区都必须拥有它们。一个没有铁路或电力的地方，就是一个潜力巨大的富庶市场。但创业公司并非如此。世界上并不需要一个法国版的微软，或者德国版的谷歌。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "dec77d250e5ce5c21e8649b97048512970b9027961412f7174736c41c1aec12f",
+      "enMarkdown": "Governments may decide they want to encourage startups locally, but government policy can't call them into being the way a genuine need could.",
+      "zhMarkdown": "政府可能会决定在本地扶持创业公司，但政府政策无法像真正的市场需求那样，凭空把它们催生出来。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "08720544b66c6026df64b8351a9445910a0a72fef8fe937c0eeaee3f56bfe29a",
+      "enMarkdown": "How will this all play out? If I had to predict now, I'd say that startups will spread, but very slowly, because their spread will be driven not by government policies (which won't work) or by market need (which doesn't exist) but, to the extent that it happens at all, by the same random factors that have caused startup culture to spread thus far. And such random factors will increasingly be outweighed by the pull of existing startup hubs.",
+      "zhMarkdown": "这一切最终会如何收场？如果现在非要我做个预测，我会说创业公司会扩散，但速度极慢。因为推动其扩散的既不是政府政策（这行不通），也不是市场需求（这不存在），而是在其发生扩散的限度内，由迄今为止推动创业文化传播的那些随机因素所主导。而这些随机因素，将越来越难抵挡现有创业中心所产生的巨大磁吸效应。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "fcdae06365eccdcc4aa551764caede43e707b2fbed59ecbf04331537c1a41c6d",
+      "enMarkdown": "Silicon Valley is where it is because William Shockley wanted to move back to Palo Alto, where he grew up, and the experts he lured west to work with him liked it so much they stayed. Seattle owes much of its position as a tech center to the same cause: Gates and Allen wanted to move home. Otherwise Albuquerque might have Seattle's place in the rankings. Boston is a tech center because it's the intellectual capital of the US and probably the world. And if Battery Ventures hadn't turned down Facebook, Boston would be significantly bigger now on the startup radar screen.",
+      "zhMarkdown": "硅谷之所以在今天这个位置，是因为威廉·肖克利（William Shockley）当年想搬回他长大的帕罗奥图（Palo Alto），而被他吸引到西部的专家们太喜欢这里了，于是都留了下来。西雅图能有今天的技术中心地位，很大程度上也是由于同样的原因：盖茨和艾伦想搬回老家。否则，现在排行榜上西雅图的位置可能就是阿尔伯克基（Albuquerque）了。波士顿能成为技术中心，是因为它是美国乃至全世界的智力资本之都。而如果当年 Battery Ventures 没有拒绝 Facebook，波士顿在今天的创业版图上分量会重得多。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "2bab7d7e34545d9da48841f23ac3a61c1d310a6dca376c098a42543e07bfd1a3",
+      "enMarkdown": "But of course it's not a coincidence that Facebook got funded in the Valley and not Boston. There are more and bolder investors in Silicon Valley than in Boston, and even undergrads know it.",
+      "zhMarkdown": "当然，Facebook 在硅谷而不是波士顿拿到融资，绝非偶然。硅谷的投资人比波士顿更多、胆子更大，这一点连本科生都知道。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "43b3c1cb10e026fd7d2461d9e968ae8570a78e49c5b8bca97ecae913829e82bc",
+      "enMarkdown": "Boston's case illustrates the difficulty you'd have establishing a new startup hub this late in the game. If you wanted to create a startup hub by reproducing the way existing ones happened, the [way to do it](https://paulgraham.com/siliconvalley.html) would be to establish a first-rate research university in a place so nice that rich people wanted to live there. Then the town would be hospitable to both groups you need: both founders and investors. That's the combination that yielded Silicon Valley. But Silicon Valley didn't have Silicon Valley to compete with. If you tried now to create a startup hub by planting a great university in a nice place, it would have a harder time getting started, because many of the best startups it produced would be sucked away to existing startup hubs.",
+      "zhMarkdown": "波士顿的例子说明了在当下这个阶段，想要建立一个新的创业中心有多难。如果你想通过复制现有创业中心的形成路径来打造一个新的中心，[可行的方法](https://paulgraham.com/siliconvalley.html)是在一个环境优美、有钱人向往居住的地方建立一所一流的研究型大学。这样，这个城市就能同时容纳你需要的两类人群：创始人和投资人。正是这种结合孕育了硅谷。但当年硅谷崛起时，并没有另一个“硅谷”来和它竞争。如果现在你想通过在一个好地方建一所好大学来打造创业中心，起步会艰难得多，因为培育出来的许多最优秀的创业公司，都会被现有的创业中心吸走。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "aaf0cedfcbeddc2e81c469df6c05c50b0fbd2cc392015a484daac0e8ee8f95e1",
+      "enMarkdown": "Recently I suggested a potential shortcut: [pay startups to move](https://paulgraham.com/maybe.html). Once you had enough good startups in one place, it would create a self-sustaining chain reaction. Founders would start to move there without being paid, because that was where their peers were, and investors would appear too, because that was where the deals were.",
+      "zhMarkdown": "最近我提出了一个可能的捷径：[花钱吸引创业公司搬过来](https://paulgraham.com/maybe.html)。一旦你在一个地方聚集了足够多优秀的创业公司，就会引发自我维持的链式反应。创始人即使不拿补贴也会开始往那里搬，因为他们的同行都在那里；投资人也会跟过来，因为项目都在那里。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "e8ebe4f62731d94d3159a1171af85a1a8332c82a2bb2a5cc3f921f169f09e0b9",
+      "enMarkdown": "In practice I doubt any government would have the balls to try this, or the brains to do it right. I didn't mean it as a practical suggestion, but more as an exploration of the lower bound of what it would take to create a startup hub deliberately.",
+      "zhMarkdown": "在实际操作中，我怀疑没有哪个政府会有胆量去尝试，或者有足够的智慧把它做好。我提这个并不是作为一个切实可行的建议，而更多是为了探寻有意打造一个创业中心所需要的最低门槛。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "353d159a9b59499648dba20252b2b97f163a3bb95eebe672400895a4fc98ca67",
+      "enMarkdown": "The most likely scenario is (1) that no government will successfully establish a startup hub, and (2) that the spread of startup culture will thus be driven by the random factors that have driven it so far, but (3) that these factors will be increasingly outweighed by the pull of existing startup hubs. Result: this revolution, if it is one, will be unusually localized.",
+      "zhMarkdown": "最可能发生的情景是：（1）没有哪家政府能成功建立起一个创业中心；（2）因此，创业文化的扩散仍将由迄今为止起作用的随机因素主导；但（3）这些随机因素将越来越难以抗衡现有创业中心的吸引力。结果就是：这场革命（如果是革命的话）将呈现出极强的局部化特征。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "a093da89d08294f98f3565b49914041e795b7dbea21685986a79c7dba413bea8",
+      "enMarkdown": "[1] There are two very different types of startup: one kind that evolves naturally, and one kind that's called into being to \"commercialize\" a scientific discovery. Most computer/software startups are now the first type, and most pharmaceutical startups the second. When I talk about startups in this essay, I mean type I startups. There is no difficulty making type II startups spread: all you have to do is fund medical research labs; commercializing whatever new discoveries the boffins throw off is as straightforward as building a new airport. Type II startups neither require nor produce startup culture. But that means having type II startups won't get you type I startups. Philadelphia is a case in point: lots of type II startups, but hardly any type I.",
+      "zhMarkdown": "[1] 创业公司有两种截然不同的类型：一种是自然演化出来的，另一种是为了将科研成果“商业化”而催生出来的。如今大多数计算机/软件创业公司属于第一种，而大多数制药类创业公司属于第二种。在这篇文章中我提到创业公司时，指的是第一种。让第二种创业公司向外扩散毫无难度：你只需要给医学研究实验室投钱就行了；至于把科学家们搞出的新发现进行商业化，就像建个新机场一样按部就班。第二种创业公司既不需要也不产生创业文化。但这意味着，拥有第二种创业公司并不能帮你带来第一种创业公司。费城就是一个典型例子：那里有大量的第二种创业公司，但几乎没有第一种。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "8b0138e09b3c47624db900300cd299d837eb0594734154c38be0c340e3a987da",
+      "enMarkdown": "Incidentally, Google may appear to be an instance of a type II startup, but it wasn't. Google is not pagerank commercialized. They could have used another algorithm and everything would have turned out the same. What made Google Google is that they cared about doing search well at a critical point in the evolution of the web.",
+      "zhMarkdown": "顺便提一句，谷歌看起来像是第二种创业公司的例子，但它其实不是。谷歌并不是 PageRank 算法的商业化产物。他们就算用别的方法，结果也差不多。让谷歌成为谷歌的，是在互联网演变的关键节点上，他们无比执着于把搜索做好。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "31b05c68cb901697e197ff1eabe5a1befa5e716913b0edfc19b4823c94265c42",
+      "enMarkdown": "[2] Watt didn't invent the steam engine. His critical invention was a refinement that made steam engines dramatically more efficient: the separate condenser. But that oversimplifies his role. He had such a different attitude to the problem and approached it with such energy that he transformed the field. Perhaps the most accurate way to put it would be to say that Watt reinvented the steam engine.",
+      "zhMarkdown": "[2] 瓦特并没有发明蒸汽机。他的关键发明是一项让蒸汽机效率戏剧性提升的改进：分离式冷凝器。但这简化了他的角色。他对这个问题的态度截然不同，并投入了极大的精力，从而彻底改变了这个领域。也许最准确的说法是，瓦特重新发明了蒸汽机。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "524df8dbb8e7ef0a4bd61b95f474a3d1aad0c9d3f7d1abf5483b7402b51e6705",
+      "enMarkdown": "[3] The biggest counterexample here is Skype. If you're doing something that would get shut down in the US, it becomes an advantage to be located elsewhere. That's why Kazaa took the place of Napster. And the expertise and connections the founders gained from running Kazaa helped ensure the success of Skype.",
+      "zhMarkdown": "[3] 这里最大的反例是 Skype。如果你正在做的事情在美国可能会被封杀，那么把总部设在其他地方就成了一种优势。这就是为什么 Kazaa 取代了 Napster。而创始人从运营 Kazaa 中获得的专业经验和人脉，帮助确保了 Skype 的成功。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "7ff8d215846687f6869204fd90b63cb15fb7f62973f17ae0aaa6d8dd29e2435d",
+      "enMarkdown": "**Thanks** to Patrick Collison, Jessica Livingston, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Patrick Collison、Jessica Livingston 和 Fred Wilson 阅读本书草稿。"
+    }
+  ]
+}

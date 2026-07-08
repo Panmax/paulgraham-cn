@@ -1,0 +1,426 @@
+{
+  "slug": "think",
+  "titleEn": "How to Think for Yourself",
+  "titleZh": "# 如何独立思考",
+  "dateText": "November 2020",
+  "publishedAt": "2020-11-01",
+  "sourceOrder": 41,
+  "sourceUrl": "https://paulgraham.com/think.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "a0a872e6d494894ce258ad5f2126586359a762b9c87c465b6b75dd7a37254e7f",
+      "enMarkdown": "There are some kinds of work that you can't do well without thinking differently from your peers. To be a successful scientist, for example, it's not enough just to be correct. Your ideas have to be both correct and novel. You can't publish papers saying things other people already know. You need to say things no one else has realized yet.",
+      "zhMarkdown": "有些工作，如果你不能特立独行、与众不同，就根本无法做好。比如，要想成为一名成功的科学家，仅仅保证正确是不够的。你的想法必须既正确又新颖。你不能发表别人已经知道的观点的论文。你需要说出别人尚未意识到的东西。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "0fc632b389bbc87deb5e20c8c4c63e2ba1e8fd15a280b7772f88b014883b197c",
+      "enMarkdown": "The same is true for investors. It's not enough for a public market investor to predict correctly how a company will do. If a lot of other people make the same prediction, the stock price will already reflect it, and there's no room to make money. The only valuable insights are the ones most other investors don't share.",
+      "zhMarkdown": "投资人也是如此。对于二级市场投资人来说，仅仅正确预测公司的走向是不够的。如果其他人也都做出了同样的预测，股价就已经反映了这一预期，也就没有赚钱的空间了。唯一有价值的洞见，是大多数其他投资人都不认同的那些。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "7e3483dfb331bf395e22cd0367a82e95841a0278e867878aaf99b5563367400a",
+      "enMarkdown": "You see this pattern with startup founders too. You don't want to start a startup to do something that everyone agrees is a good idea, or there will already be other companies doing it. You have to do something that sounds to most other people like a bad idea, but that you know isn't � like writing software for a tiny computer used by a few thousand hobbyists, or starting a site to let people rent airbeds on strangers' floors.",
+      "zhMarkdown": "在创业创始人身上，你也能看到这种模式。你不会想去创办一家做大家都认为是好主意的创业公司，因为那样的话早就有其他公司在做了。你必须去做一些在大多数人听起来像是坏主意、但你却深知并非如此的事情——比如为几千个业余爱好者使用的小型电脑编写软件，或者创办一个让人们租用陌生人家地板上气垫床的网站。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "9b21406bfe6eb7adc99de993090ae6da29255a2aa9a627f833780be9b34aead4",
+      "enMarkdown": "Ditto for essayists. An essay that told people things they already knew would be boring. You have to tell them something [new](https://paulgraham.com/useful.html).",
+      "zhMarkdown": "写文章也是同理。如果一篇文章只是告诉人们他们已经知道的事情，那将是枯燥无味的。你必须告诉他们一些[新东西](https://paulgraham.com/useful.html)。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "0fb13079160eccfccb0b7f830f48b02ceb281b5760cc4114ffdeea3082e48390",
+      "enMarkdown": "But this pattern isn't universal. In fact, it doesn't hold for most kinds of work. In most kinds of work � to be an administrator, for example � all you need is the first half. All you need is to be right. It's not essential that everyone else be wrong.",
+      "zhMarkdown": "但这种模式并非放之四海而皆准。事实上，它并不适用于大多数工作。在大多数工作里——比如做一名行政管理人员——你只需要前半部分。你只需要做对就行。别人都错，并不是必要的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "319df1ef7b28162de63ba44f327f5625b24125f0c2a6c3828b047a798a520084",
+      "enMarkdown": "There's room for a little novelty in most kinds of work, but in practice there's a fairly sharp distinction between the kinds of work where it's essential to be independent-minded, and the kinds where it's not.",
+      "zhMarkdown": "在大多数工作中，都有一点容纳新意空间，但在实践中，那些必须具备独立思考能力的工作与那些不需要的工作之间，有着相当清晰的界限。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "26922d2bd1e1536817e6d7bcdcd886ab58e4bef8bbc0a678156bad1e7646f1e6",
+      "enMarkdown": "I wish someone had told me about this distinction when I was a kid, because it's one of the most important things to think about when you're deciding what kind of work you want to do. Do you want to do the kind of work where you can only win by thinking differently from everyone else? I suspect most people's unconscious mind will answer that question before their conscious mind has a chance to. I know mine does.",
+      "zhMarkdown": "我希望在我还是个孩子的时候，有人能告诉我这个区别，因为当你决定自己想做什么样的工作时，这是需要考虑的最重要的事情之一。你是否想做那种只有通过与众不同的思考才能胜出的工作？我怀疑大多数人的潜意识会在他们的显意识有机会反应之前，就已经回答了这个问题。我知道我的潜意识就是这样。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "80a1a4bd4b31a4944ed81c8927aadc51f52ab85e915511600ed5bf2d641c5168",
+      "enMarkdown": "Independent-mindedness seems to be more a matter of nature than nurture. Which means if you pick the wrong type of work, you're going to be unhappy. If you're naturally independent-minded, you're going to find it frustrating to be a middle manager. And if you're naturally conventional-minded, you're going to be sailing into a headwind if you try to do original research.",
+      "zhMarkdown": "独立思考能力似乎更多是天生的，而不是后天培养的。这意味着如果你选错了工作类型，你将会过得很不开心。如果你天生具有独立思考能力，你会发现做一名中层管理者非常令人沮丧。而如果你天生思想守旧、墨守成规，却试图去做原创性的研究，那你就等于是在顶风前行。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d49036f19e3acc865fe516b4f43658d9a3e14dc39f1f7ea5e509d1252d44585d",
+      "enMarkdown": "One difficulty here, though, is that people are often mistaken about where they fall on the spectrum from conventional- to independent-minded. Conventional-minded people don't like to think of themselves as conventional-minded. And in any case, it genuinely feels to them as if they make up their own minds about everything. It's just a coincidence that their beliefs are identical to their peers'. And the independent-minded, meanwhile, are often unaware how different their ideas are from conventional ones, at least till they state them publicly. [[1](#f1n)]",
+      "zhMarkdown": "不过，这里的一个难点在于，人们往往会误判自己在“守旧”到“独立思考”这一光谱上的位置。思想守旧的人不喜欢认为自己思想守旧。而且无论如何，在他们自己看来，他们确实对所有事情都做出了自己的判断。他们的信念与同行完全一致，这仅仅是个巧合。与此同时，独立思考的人往往意识不到自己的想法与传统观念有多大不同，至少在他们公开阐述这些想法之前是这样。[[1](#f1n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "1b393c0624fcc5a778c7472e59d04188dc531fd22a6f5ad4322f0223b466354b",
+      "enMarkdown": "By the time they reach adulthood, most people know roughly how smart they are (in the narrow sense of ability to solve pre-set problems), because they're constantly being tested and ranked according to it. But schools generally ignore independent-mindedness, except to the extent they try to suppress it. So we don't get anything like the same kind of feedback about how independent-minded we are.",
+      "zhMarkdown": "到了成年，大多数人大概都知道自己有多聪明（在解决预设问题的狭义层面上），因为他们一直在接受测试并以此进行排名。但学校通常会忽视独立思考能力，除非他们试图压制它。因此，我们无法获得任何类似于我们独立思考程度的反馈。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "8cdfe488f8106eecbc231ab4ca2003f51675816444aef3d8ada9efd9ffc6695b",
+      "enMarkdown": "There may even be a phenomenon like Dunning-Kruger at work, where the most conventional-minded people are confident that they're independent-minded, while the genuinely independent-minded worry they might not be independent-minded enough.",
+      "zhMarkdown": "甚至可能存在一种类似于邓宁-克鲁格效应的现象，即最守旧的人确信自己具有独立思考能力，而真正独立思考的人则担心自己还不够独立思考。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e132d4e799e43fa6196c2366d3c3a22d40186ae6e14a8cf5e62a3368b1fd0ab0",
+      "enMarkdown": "___________",
+      "zhMarkdown": "___________"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "9d691d13ce8b65e0f236849ce8e2c2c404682f7d65d2df961cd9a692e4e6e4a3",
+      "enMarkdown": "Can you make yourself more independent-minded? I think so. This quality may be largely inborn, but there seem to be ways to magnify it, or at least not to suppress it.",
+      "zhMarkdown": "你能让自己变得更具独立思考能力吗？我认为可以。这种品质可能在很大程度上是天生的，但似乎有方法可以放大它，或者至少不压制它。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "46a92be5dc657a28053a74c529205e91cea28685a389e75c79946d1ce5d836cf",
+      "enMarkdown": "One of the most effective techniques is one practiced unintentionally by most nerds: simply to be less aware what conventional beliefs are. It's hard to be a conformist if you don't know what you're supposed to conform to. Though again, it may be that such people already are independent-minded. A conventional-minded person would probably feel anxious not knowing what other people thought, and make more effort to find out.",
+      "zhMarkdown": "最有效的技术之一，是大多数书呆子无意中实践的一种：干脆少去关注传统信仰是什么。如果你不知道自己应该顺从什么，你就很难成为一个顺从者。不过，这也可能是因为这些人本身就已经具备了独立思考的能力。一个思想守旧的人如果不知道别人在想什么，大概会感到焦虑，并会花更多精力去打听。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "1e93b8557506da55db57de6edfe14eb24bd78bba1d3f83848591b0c8b3632ba0",
+      "enMarkdown": "It matters a lot who you surround yourself with. If you're surrounded by conventional-minded people, it will constrain which ideas you can express, and that in turn will constrain which ideas you have. But if you surround yourself with independent-minded people, you'll have the opposite experience: hearing other people say surprising things will encourage you to, and to think of more.",
+      "zhMarkdown": "你身边围绕着什么样的人，这非常重要。如果你周围都是思想守旧的人，它会限制你能表达哪些想法，这反过来又会限制你产生哪些想法。但如果你身边都是独立思考的人，你就会有相反的体验：听到别人说出令人惊讶的事情会鼓励你也这样做，并思考更多。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "8a149f7d6f0fee6d02efb6863d6846606284aa9333c9ccf02ac6b9dd14f0f277",
+      "enMarkdown": "Because the independent-minded find it uncomfortable to be surrounded by conventional-minded people, they tend to self-segregate once they have a chance to. The problem with high school is that they haven't yet had a chance to. Plus high school tends to be an inward-looking little world whose inhabitants lack confidence, both of which magnify the forces of conformism. So high school is often a [bad time](https://paulgraham.com/nerds.html) for the independent-minded. But there is some advantage even here: it teaches you what to avoid. If you later find yourself in a situation that makes you think \"this is like high school,\" you know you should get out. [[2](#f2n)]",
+      "zhMarkdown": "因为独立思考的人觉得和思想守旧的人待在一起很不舒服，所以一旦有机会，他们往往会选择自我隔离。高中的问题在于他们还没有机会这样做。此外，高中往往是一个内向的、缺乏自信的小世界，这两者都会放大顺从的力量。因此，对于独立思考的人来说，高中通常是一段[糟糕的时光](https://paulgraham.com/nerds.html)。但即使在这里也有一些好处：它教会了你避开什么。如果你以后发现自己处于一个让你觉得“这就像高中”的境地，你就知道你应该离开了。[[2](#f2n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "607bf6351d3cecae3eac72e1547d9674cd3102804da49a7b1fec706a9b0bf20a",
+      "enMarkdown": "Another place where the independent- and conventional-minded are thrown together is in successful startups. The founders and early employees are almost always independent-minded; otherwise the startup wouldn't be successful. But conventional-minded people greatly outnumber independent-minded ones, so as the company grows, the original spirit of independent-mindedness is inevitably diluted. This causes all kinds of problems besides the obvious one that the company starts to suck. One of the strangest is that the founders find themselves able to speak more freely with founders of other companies than with their own employees. [[3](#f3n)]",
+      "zhMarkdown": "另一个将独立思考者和守旧者聚在一起的地方，是成功的创业公司。创始人和早期员工几乎总是具有独立思考能力的；否则，创业公司就不会成功。但是思想守旧的人在数量上远远超过独立思考的人，所以随着公司的成长，最初的独立思考精神不可避免地会被稀释。除了公司开始变糟这一显而易见的问题之外，这还会引发各种问题。其中最奇怪的一个是，创始人发现自己和别家公司的创始人聊天，比和自己的员工聊天更畅所欲言。[[3](#f3n)]"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "265a39bc9af48b9a17fbc9e81fac1e45a0ed40f88fdf5d116dc8be6fded168d9",
+      "enMarkdown": "Fortunately you don't have to spend all your time with independent-minded people. It's enough to have one or two you can talk to regularly. And once you find them, they're usually as eager to talk as you are; they need you too. Although universities no longer have the kind of monopoly they used to have on education, good universities are still an excellent way to meet independent-minded people. Most students will still be conventional-minded, but you'll at least find clumps of independent-minded ones, rather than the near zero you may have found in high school.",
+      "zhMarkdown": "幸运的是，你不需要把所有时间都花在独立思考的人身上。有一两个可以定期交谈的人就足够了。一旦你找到了他们，他们通常也和你一样渴望交谈；他们同样需要你。虽然大学不再像以前那样垄断教育，但优秀的大学仍然是结识独立思考的人的绝佳途径。大多数学生仍然会是思想守旧的，但你至少能找到一撮独立思考的人，而不是像在高中里那样几乎为零。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "7993453149cf1124245db22b4f3fe71deb8cae0807b8b3cf4b3f17b4132cc9e7",
+      "enMarkdown": "It also works to go in the other direction: as well as cultivating a small collection of independent-minded friends, to try to meet as many different types of people as you can. It will decrease the influence of your immediate peers if you have several other groups of peers. Plus if you're part of several different worlds, you can often import ideas from one to another.",
+      "zhMarkdown": "相反的方向同样行之有效：在培养一小批独立思考的朋友的同时，尽量去结识尽可能多不同类型的人。如果你有几个不同的同行群体，就会降低你身边直接同行的影响力。此外，如果你是几个不同世界的一部分，你经常可以将想法从一个领域引入到另一个领域。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "30e0790f2dabf2e32ccccfd61f5c21ba131bb02ec34bbd1d750665e11de72df2",
+      "enMarkdown": "But by different types of people, I don't mean demographically different. For this technique to work, they have to think differently. So while it's an excellent idea to go and visit other countries, you can probably find people who think differently right around the corner. When I meet someone who knows a lot about something unusual (which includes practically everyone, if you dig deep enough), I try to learn what they know that other people don't. There are almost always surprises here. It's a good way to make conversation when you meet strangers, but I don't do it to make conversation. I really want to know.",
+      "zhMarkdown": "但我说的“不同类型的人”，并不是指人口统计学上的不同。为了让这种技术发挥作用，他们必须有不同的思维方式。因此，虽然去其他国家看看是个极好的主意，但你可能在转角处就能找到思维方式不同的人。当我遇到一个在某些不寻常的领域了解很多的人时（如果深挖的话，这几乎包括了所有人），我会试着了解他们知道哪些别人不知道的事情。这里几乎总能带来惊喜。这是和陌生人聊天的好方法，但我这样做并不是为了应酬。我是真的想知道。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "bf0a53127b7c3f269c3d3de5001f4ca6dfbbb2fa4db2a462bc682f005c369b69",
+      "enMarkdown": "You can expand the source of influences in time as well as space, by reading history. When I read history I do it not just to learn what happened, but to try to get inside the heads of people who lived in the past. How did things look to them? This is hard to do, but worth the effort for the same reason it's worth travelling far to triangulate a point.",
+      "zhMarkdown": "你也可以通过阅读历史，在时间上和空间上扩大影响的来源。当我阅读历史时，我不仅仅是为了了解发生了什么，而是为了试图进入生活在过去的人的大脑。事情在他们看来是怎样的？这很难做到，但值得付出努力，原因就像为了给一个点做三角定位而长途旅行一样。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "1eac3bc663125306ee2cf23f0e5029152d5e1066c3805482b59e802cea8adf34",
+      "enMarkdown": "You can also take more explicit measures to prevent yourself from automatically adopting conventional opinions. The most general is to cultivate an attitude of skepticism. When you hear someone say something, stop and ask yourself \"Is that true?\" Don't say it out loud. I'm not suggesting that you impose on everyone who talks to you the burden of proving what they say, but rather that you take upon yourself the burden of evaluating what they say.",
+      "zhMarkdown": "你也可以采取更明确的措施来防止自己自动接受传统观点。最普遍的方法是培养怀疑的态度。当你听到有人说什么时，停下来问自己“那是真的吗？”不要大声说出来。我不是建议你把证明自己话的负担强加给每一个和你说话的人，而是建议你把评估他们话的负担留给自己。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "c3eaae5a510c8977aa8866737b50658bafeab51e394746641b9c6da4ce07cbc7",
+      "enMarkdown": "Treat it as a puzzle. You know that some accepted ideas will later turn out to be wrong. See if you can guess which. The end goal is not to find flaws in the things you're told, but to find the new ideas that had been concealed by the broken ones. So this game should be an exciting quest for novelty, not a boring protocol for intellectual hygiene. And you'll be surprised, when you start asking \"Is this true?\", how often the answer is not an immediate yes. If you have any imagination, you're more likely to have too many leads to follow than too few.",
+      "zhMarkdown": "把它当作一个谜题。你明白，有些被普遍接受的想法后来会被证明是错误的。看看你能不能猜出是哪些。最终目标不是在别人告诉你的事情中寻找漏洞，而是去寻找被那些破损想法所掩盖的新思想。所以这个游戏应该是一场令人兴奋的探索新事物的旅程，而不是一个枯燥的智力卫生程序。当你开始问“这是真的吗？”时，你会惊讶于答案往往不是立即肯定的。如果你有任何想象力，你更可能会有太多线索去追踪，而不是太少。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "ebf15e9d0a8f25d50958c486d7dd86185c342413e6da400a328784d6bd5b16bb",
+      "enMarkdown": "More generally your goal should be not to let anything into your head unexamined, and things don't always enter your head in the form of statements. Some of the most powerful influences are implicit. How do you even notice these? By standing back and watching how other people get their ideas.",
+      "zhMarkdown": "更广泛地说，你的目标应该是不要让任何东西未经审视就进入你的大脑，而且事情并不总是以陈述的形式进入你的大脑。一些最强大的影响是隐性的。你该如何注意到这些？通过退一步观察其他人是如何获得他们的想法的。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "e3580d8f4d1059173b9aed88e7575d00755f4136dcfb02c80b8e6bc8f5777b6c",
+      "enMarkdown": "When you stand back at a sufficient distance, you can see ideas spreading through groups of people like waves. The most obvious are in fashion: you notice a few people wearing a certain kind of shirt, and then more and more, until half the people around you are wearing the same shirt. You may not care much what you wear, but there are intellectual fashions too, and you definitely don't want to participate in those. Not just because you want sovereignty over your own thoughts, but because [unfashionable](https://paulgraham.com/nov.html) ideas are disproportionately likely to lead somewhere interesting. The best place to find undiscovered ideas is where no one else is looking. [[4](#f4n)]",
+      "zhMarkdown": "当你退到足够远的距离时，你可以看到想法像波浪一样在人群中传播。最明显的是时尚：你注意到有几个人穿着某种衬衫，然后越来越多的人穿，直到你周围一半的人都穿着同样的衬衫。你可能不太在乎自己穿什么，但也有智力上的时尚，你绝对不会想参与其中。不仅因为你想拥有自己思想的主权，还因为[不合时宜](https://paulgraham.com/nov.html)的想法更有可能带来一些有趣的发现。寻找未被发现的想法的最佳地方，是其他人都不看的地方。[[4](#f4n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e132d4e799e43fa6196c2366d3c3a22d40186ae6e14a8cf5e62a3368b1fd0ab0",
+      "enMarkdown": "___________",
+      "zhMarkdown": "___________"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "6657db2e06fc29d00b0aaa726b8bf1de71631fb7b0efc8ec7e2883f22870512e",
+      "enMarkdown": "To go beyond this general advice, we need to look at the internal structure of independent-mindedness � at the individual muscles we need to exercise, as it were. It seems to me that it has three components: fastidiousness about truth, resistance to being told what to think, and curiosity.",
+      "zhMarkdown": "为了超越这些一般性的建议，我们需要看看独立思考能力的内部结构——也就是说，我们需要锻炼哪些具体的肌肉。在我看来，它由三个部分组成：对真相的挑剔、抗拒被告知怎么想，以及好奇心。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "53d345138c34973f002d163aab5333942bf150abea5362f09f6ca2be661568e9",
+      "enMarkdown": "Fastidiousness about truth means more than just not believing things that are false. It means being careful about degree of belief. For most people, degree of belief rushes unexamined toward the extremes: the unlikely becomes impossible, and the probable becomes certain. [[5](#f5n)] To the independent-minded, this seems unpardonably sloppy. They're willing to have anything in their heads, from highly speculative hypotheses to (apparent) tautologies, but on subjects they care about, everything has to be labelled with a carefully considered degree of belief. [[6](#f6n)]",
+      "zhMarkdown": "对真相的挑剔不仅意味着不相信虚假的事情。它意味着对相信的程度要小心翼翼。对大多数人来说，相信的程度在未经审视的情况下会奔向极端：不可能的事情变成不可能，可能的事情变成确定。[[5](#f5n)] 对于独立思考的人来说，这似乎是不可原谅的粗心大意。他们愿意在脑子里装任何东西，从高度推测性的假设到（显而易见的）重言式，但在他们关心的主题上，一切都必须贴上经过仔细考虑的相信程度标签。[[6](#f6n)]"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "9df189fd0a68f153077879bf537b5dc0ca3c2afa63e7001523170b7a38ff327d",
+      "enMarkdown": "The independent-minded thus have a horror of ideologies, which require one to accept a whole collection of beliefs at once, and to treat them as articles of faith. To an independent-minded person that would seem revolting, just as it would seem to someone fastidious about food to take a bite of a submarine sandwich filled with a large variety of ingredients of indeterminate age and provenance.",
+      "zhMarkdown": "因此，独立思考的人对意识形态深恶痛绝，因为意识形态要求人们一次性接受一整套信念，并将它们视为信仰的条目。对于一个独立思考的人来说，这似乎是令人作呕的，就像一个对食物挑剔的人去咬一口塞满了各种年龄和来源不明的配料的潜艇三明治一样。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "541124941e72d69129c82e1379976a3fae64c5a07feb82926f998ddfb9dd1176",
+      "enMarkdown": "Without this fastidiousness about truth, you can't be truly independent-minded. It's not enough just to have resistance to being told what to think. Those kind of people reject conventional ideas only to replace them with the most random conspiracy theories. And since these conspiracy theories have often been manufactured to capture them, they end up being less independent-minded than ordinary people, because they're subject to a much more exacting master than mere convention. [[7](#f7n)]",
+      "zhMarkdown": "如果没有对真相的挑剔，你就无法真正独立思考。仅仅抗拒被告知怎么想是不够的。这种人拒绝传统观念，结果只是用最随机的阴谋论取而代之。而且由于这些阴谋论往往是为了捕获他们而制造出来的，他们最终比普通人更缺乏独立思考能力，因为他们服从于一个比仅仅传统观念更苛刻的主人。[[7](#f7n)]"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "9d5eec5a8ab9bd53d86bad9b5c1ca682c706a04c3e663395b1029329c1f29d53",
+      "enMarkdown": "Can you increase your fastidiousness about truth? I would think so. In my experience, merely thinking about something you're fastidious about causes that fastidiousness to grow. If so, this is one of those rare virtues we can have more of merely by wanting it. And if it's like other forms of fastidiousness, it should also be possible to encourage in children. I certainly got a strong dose of it from my father. [[8](#f8n)]",
+      "zhMarkdown": "你能增加对真相的挑剔吗？我想可以。根据我的经验，仅仅思考你挑剔的事情就会让这种挑剔增长。如果是这样的话，这就是我们仅凭想要就能拥有更多的少数美德之一。如果它像其他形式的挑剔一样，那么在孩子身上也应该是可以鼓励的。我确实从我父亲那里得到了强烈的影响。[[8](#f8n)]"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "aeea2d8fb0f7c27c7a2d133d216f7158331421914ef3ba012c71a4b84d453845",
+      "enMarkdown": "The second component of independent-mindedness, resistance to being told what to think, is the most visible of the three. But even this is often misunderstood. The big mistake people make about it is to think of it as a merely negative quality. The language we use reinforces that idea. You're *un*conventional. You *don't* care what other people think. But it's not just a kind of immunity. In the most independent-minded people, the desire not to be told what to think is a positive force. It's not mere skepticism, but an active [delight](https://paulgraham.com/gba.html) in ideas that subvert the conventional wisdom, the more counterintuitive the better.",
+      "zhMarkdown": "独立思考能力的第二个组成部分，抗拒被告知怎么想，是这三者中最显而易见的。但即使是这一点也经常被误解。人们在这方面犯的最大错误是把它仅仅看作是一种消极的品质。我们使用的语言强化了这种想法。你是*非*传统的。你*不*在乎别人怎么想。但这不仅仅是一种免疫力。在最独立思考的人身上，不被告知怎么想的渴望是一种积极的力量。这不仅仅是怀疑主义，而是对颠覆传统智慧的想法的积极[愉悦](https://paulgraham.com/gba.html)，越反直觉越好。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "4f253173bad3ec4ce0ae785f90ff1c090d94c9372d7a2853476167948e0645f8",
+      "enMarkdown": "Some of the most novel ideas seemed at the time almost like practical jokes. Think how often your reaction to a novel idea is to laugh. I don't think it's because novel ideas are funny per se, but because novelty and humor share a certain kind of surprisingness. But while not identical, the two are close enough that there is a definite correlation between having a sense of humor and being independent-minded � just as there is between being humorless and being conventional-minded. [[9](#f9n)]",
+      "zhMarkdown": "一些最新颖的想法在当时看起来几乎就像恶作剧。想想你对一个新颖的想法的反应有多少次是笑。我不认为这是因为新颖的想法本身很有趣，而是因为新颖和幽默共享某种令人惊讶的特征。虽然不完全等同，但两者关系足够密切，以至于拥有幽默感和独立思考能力之间存在着明显的关联——就像缺乏幽默感和思想守旧之间存在关联一样。[[9](#f9n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "5688b487a77c8201c0312457d748982912681bbeee1aa491726b2e199801dd38",
+      "enMarkdown": "I don't think we can significantly increase our resistance to being told what to think. It seems the most innate of the three components of independent-mindedness; people who have this quality as adults usually showed all too visible signs of it as children. But if we can't increase our resistance to being told what to think, we can at least shore it up, by surrounding ourselves with other independent-minded people.",
+      "zhMarkdown": "我不认为我们可以显著增加我们对被告知怎么想的抗拒。这似乎是独立思考能力的三个组成部分中最具天赋的一个；成年后拥有这种品质的人，通常在孩提时代就表现出了过于明显的迹象。但如果我们不能增加抗拒被告知怎么想的能力，我们至少可以通过让自己身边围绕着其他独立思考的人来支持它。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "e7e29f6cf8e441d75622d5fe7043f9f128dcf09a6d0fa10f5a96ef0c7fb633ed",
+      "enMarkdown": "The third component of independent-mindedness, curiosity, may be the most interesting. To the extent that we can give a brief answer to the question of where novel ideas come from, it's curiosity. That's what people are usually feeling before having them.",
+      "zhMarkdown": "独立思考能力的第三个组成部分，好奇心，可能是最有趣的。在我们可以对新颖想法从何而来这个问题给出一个简短回答的范围内，那就是好奇心。这通常是人们在产生新想法之前所感受到的。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "7a6a0ef87bb3502f51235eaca41cce6067ced127dc2489115f7240f292b8dfb9",
+      "enMarkdown": "In my experience, independent-mindedness and curiosity predict one another perfectly. Everyone I know who's independent-minded is deeply curious, and everyone I know who's conventional-minded isn't. Except, curiously, children. All small children are curious. Perhaps the reason is that even the conventional-minded have to be curious in the beginning, in order to learn what the conventions are. Whereas the independent-minded are the gluttons of curiosity, who keep eating even after they're full. [[10](#f10n)]",
+      "zhMarkdown": "根据我的经验，独立思考能力和好奇心可以完美地相互预测。我认识的每个独立思考的人都有着强烈的好奇心，而我认识的每个思想守旧的人都没有。除了，奇怪的是，孩子们。所有小孩子都是好奇的。也许原因在于，即使是思想守旧的人在开始时也必须充满好奇，以便了解传统是什么。而独立思考的人则是好奇心的饕餮，即使吃饱了也还要继续吃。[[10](#f10n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "84e9cce7b2147ba0810ed97e1a099f7de507dfd2a86ca481b6669f1f6ed78761",
+      "enMarkdown": "The three components of independent-mindedness work in concert: fastidiousness about truth and resistance to being told what to think leave space in your brain, and curiosity finds new ideas to fill it.",
+      "zhMarkdown": "独立思考能力的三个组成部分协同工作：对真相的挑剔和抗拒被告知怎么想在你的脑海中留出空间，而好奇心则寻找新的想法来填补它。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "891e84d85c621d9850c7c2cb0c25a4b47e9b8e50c09c1496540ce0697cf76224",
+      "enMarkdown": "Interestingly, the three components can substitute for one another in much the same way muscles can. If you're sufficiently fastidious about truth, you don't need to be as resistant to being told what to think, because fastidiousness alone will create sufficient gaps in your knowledge. And either one can compensate for curiosity, because if you create enough space in your brain, your discomfort at the resulting vacuum will add force to your curiosity. Or curiosity can compensate for them: if you're sufficiently curious, you don't need to clear space in your brain, because the new ideas you discover will push out the conventional ones you acquired by default.",
+      "zhMarkdown": "有趣的是，这三个组成部分可以像肌肉一样相互替代。如果你对真相足够挑剔，你就不需要那么抗拒被告知怎么想，因为仅仅挑剔就会在你的知识中创造足够的空白。任何一个都可以弥补好奇心的不足，因为如果你在脑海中创造了足够的空间，你对随之而来的真空的不适感会增加你好奇心的力量。或者好奇心可以弥补它们：如果你足够好奇，你就不需要清除脑海中的空间，因为你发现的新想法会排挤掉你默认获得的传统想法。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "e77c126cf5504546b9858804fd46442c70fdc316b122fa656a73665b6bb8ab48",
+      "enMarkdown": "Because the components of independent-mindedness are so interchangeable, you can have them to varying degrees and still get the same result. So there is not just a single model of independent-mindedness. Some independent-minded people are openly subversive, and others are quietly curious. They all know the secret handshake though.",
+      "zhMarkdown": "因为独立思考能力的组成部分是如此可以互换，你可以拥有不同程度的组成部分，但仍然得到相同的结果。所以独立思考能力并不是只有单一的模式。一些独立思考的人公开颠覆，而另一些人则静静地好奇。不过，他们都知道那个秘密握手暗号。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "db6fe70ff0cd0e9b637ddb020c350c8dd056cc7bfad7a5fb6c0b84c995d1260d",
+      "enMarkdown": "Is there a way to cultivate curiosity? To start with, you want to avoid situations that suppress it. How much does the work you're currently doing engage your curiosity? If the answer is \"not much,\" maybe you should change something.",
+      "zhMarkdown": "有什么方法可以培养好奇心吗？首先，你想避开压制好奇心的境遇。你目前正在做的工作在多大程度上激发了你的好奇心？如果答案是“不怎么多”，也许你应该改变一些事情。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "193c77722423525ec1b32e64206f70fd5a1f356212eac97e8914ed2efced9d50",
+      "enMarkdown": "The most important active step you can take to cultivate your curiosity is probably to seek out the topics that engage it. Few adults are equally curious about everything, and it doesn't seem as if you can choose which topics interest you. So it's up to you to [find](https://paulgraham.com/genius.html) them. Or invent them, if necessary.",
+      "zhMarkdown": "培养好奇心最重要的一步，可能是去寻找那些能吸引它的主题。很少有成年人对所有事情都同样好奇，而且你似乎无法选择自己对哪些主题感兴趣。所以这取决于你去[寻找](https://paulgraham.com/genius.html)它们。或者在必要时发明它们。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "09586c198efb2a5f7ecef3c640de48d9728d3afd76aab69791ae5f20c2d919b7",
+      "enMarkdown": "Another way to increase your curiosity is to indulge it, by investigating things you're interested in. Curiosity is unlike most other appetites in this respect: indulging it tends to increase rather than to sate it. Questions lead to more questions.",
+      "zhMarkdown": "另一种增加好奇心的方法是沉溺其中，去调查你感兴趣的事情。在这方面，好奇心不同于大多数其他食欲：沉溺其中往往会增加而不是满足它。问题会引出更多的问题。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "500ce2b0a4cbd37c90509d4562a759fbf73e9c38f59e27759291fb33e73f52e2",
+      "enMarkdown": "Curiosity seems to be more individual than fastidiousness about truth or resistance to being told what to think. To the degree people have the latter two, they're usually pretty general, whereas different people can be curious about very different things. So perhaps curiosity is the compass here. Perhaps, if your goal is to discover novel ideas, your motto should not be \"do what you love\" so much as \"do what you're curious about.\"",
+      "zhMarkdown": "好奇心似乎比对真相的挑剔或抗拒被告知怎么想更具个性化。在人们拥有后两者的程度上，它们通常是相当普遍的，而不同的人可以对非常不同的事情产生好奇心。所以也许好奇心是这里的指南针。也许，如果你的目标是发现新颖的想法，你的座右铭不应该是“做你所爱”，而应该是“做你所好奇的”。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "d1b81fe24f496f6a972fd1ae3bc3345115fb8bcfc2999f2814fb5f8f0f9d8c3c",
+      "enMarkdown": "[1] One convenient consequence of the fact that no one identifies as conventional-minded is that you can say what you like about conventional-minded people without getting in too much trouble. When I wrote [\"The Four Quadrants of\nConformism\"](https://paulgraham.com/conformism.html) I expected a firestorm of rage from the aggressively conventional-minded, but in fact it was quite muted. They sensed that there was something about the essay that they disliked intensely, but they had a hard time finding a specific passage to pin it on.",
+      "zhMarkdown": "[1] 没有人认为自己是思想守旧的，这带来了一个便利的后果，那就是你可以随便对守旧的人说你想说的话，而不会惹上太多麻烦。当我写[《顺从的四个象限》](https://paulgraham.com/conformism.html)时，我预料到会遭到积极顺从者的狂怒风暴，但事实上却相当平静。他们感觉到这篇文章中有什么让他们极度不喜欢的东西，但他们很难找到一个具体的段落来指责它。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "1a955dfb9e1fc78e0e94a7383f804a64b38cea31936213fc18f1a1ff7200deb5",
+      "enMarkdown": "[2] When I ask myself what in my life is like high school, the answer is Twitter. It's not just full of conventional-minded people, as anything its size will inevitably be, but subject to violent storms of conventional-mindedness that remind me of descriptions of Jupiter. But while it probably is a net loss to spend time there, it has at least made me think more about the distinction between independent- and conventional-mindedness, which I probably wouldn't have done otherwise.",
+      "zhMarkdown": "[2] 当我问自己，在我的生活中有什么是像高中的，答案是 Twitter。它不仅充满了思想守旧的人，这是任何达到其规模的事物都不可避免的，而且还容易受到猛烈的思想守旧风暴的影响，这让我想起了对木星的描述。虽然在上面花时间可能是一种净损失，但它至少让我更多地思考了独立思考和思想守旧之间的区别，否则我可能不会这样做。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "110006296b0c1ff7d474dcceacb18c0c7a031ed1d5cfedef014059366f12e999",
+      "enMarkdown": "[3] The decrease in independent-mindedness in growing startups is still an open problem, but there may be solutions.",
+      "zhMarkdown": "[3] 正在成长中的创业公司独立思考能力的下降仍然是一个悬而未决的问题，但可能会有解决方案。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "966ee7b769130240289ac84be9a203f97af8f4a6ce72a48009cd56e128e7931c",
+      "enMarkdown": "Founders can delay the problem by making a conscious effort only to hire independent-minded people. Which of course also has the ancillary benefit that they have better ideas.",
+      "zhMarkdown": "创始人可以通过有意识地努力只雇佣具有独立思考能力的人来延缓这个问题。这当然也有一个附带的好处，那就是他们会有更好的想法。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "8640f4009a099838dcbbbbf778a36b4e9756cd487c3d735688e2db9fb98d6bac",
+      "enMarkdown": "Another possible solution is to create policies that somehow disrupt the force of conformism, much as control rods slow chain reactions, so that the conventional-minded aren't as dangerous. The physical separation of Lockheed's Skunk Works may have had this as a side benefit. Recent examples suggest employee forums like Slack may not be an unmitigated good.",
+      "zhMarkdown": "另一个可能的解决方案是制定一些在某种程度上打破顺从力量的政策，就像控制棒减缓链式反应一样，这样思想守旧的人就不会那么危险。洛克希德马丁公司臭鼬工厂的物理隔离可能就有这个副作用。最近的例子表明，像 Slack 这样的员工论坛可能并不完全是一件好事。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "a8e21cb38cbbd687a98645880c7ced00e661c975c0705a8cefd0261de04edee1",
+      "enMarkdown": "The most radical solution would be to grow revenues without growing the company. You think hiring that junior PR person will be cheap, compared to a programmer, but what will be the effect on the average level of independent-mindedness in your company? (The growth in staff relative to faculty seems to have had a similar effect on universities.) Perhaps the rule about outsourcing work that's not your \"core competency\" should be augmented by one about outsourcing work done by people who'd ruin your culture as employees.",
+      "zhMarkdown": "最激进的解决方案是在不增加公司规模的情况下增加收入。你认为雇佣那个初级公关人员比雇佣一个程序员要便宜，但这对你公司独立思考能力的平均水平会产生什么影响？（相对于教职员工的行政人员增长似乎对大学产生了类似的影响。）也许关于外包非“核心竞争力”工作的规则，应该增加一条：外包那些由如果作为员工会破坏你文化的人所做的工作。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "edae1121d2650ee35ce7f193f73eb015764ec560ac3d1c0bc37a0dfd111e3ba1",
+      "enMarkdown": "Some investment firms already seem to be able to grow revenues without growing the number of employees. Automation plus the ever increasing articulation of the \"tech stack\" suggest this may one day be possible for product companies.",
+      "zhMarkdown": "一些投资公司似乎已经能够在不增加员工人数的情况下增加收入。自动化加上“技术栈”的不断完善表明，产品公司总有一天也可能做到这一点。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "cc3a876d5a21ab6ed95f64c23d5f7de36e9d2049a6509597b420777ce2e0b638",
+      "enMarkdown": "[4] There are intellectual fashions in every field, but their influence varies. One of the reasons politics, for example, tends to be boring is that it's so extremely subject to them. The threshold for having opinions about politics is much [lower](https://paulgraham.com/identity.html) than the one for having opinions about set theory. So while there are some ideas in politics, in practice they tend to be swamped by waves of intellectual fashion.",
+      "zhMarkdown": "[4] 每个领域都有智力时尚，但它们的影响各不相同。例如，政治往往令人厌倦的原因之一是它极其容易受到这些时尚的影响。对政治发表意见的门槛比对集合论发表意见的门槛要[低得多](https://paulgraham.com/identity.html)。因此，虽然政治中确实有一些想法，但在实践中，它们往往会被智力时尚的浪潮所淹没。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "e7ad6f96cf18611fa6aa02551a692a23a1e23c96935358de5f8e564bab9b04a1",
+      "enMarkdown": "[5] The conventional-minded are often fooled by the strength of their opinions into believing that they're independent-minded. But strong convictions are not a sign of independent-mindedness. Rather the opposite.",
+      "zhMarkdown": "[5] 思想守旧的人往往会被自己观点的强烈程度所愚弄，从而相信自己是具有独立思考能力的。但强烈的信念并不是独立思考的标志。恰恰相反。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "dab54fe62cc5323e9bd963f714ccf8b780e49dd4278cb31be8822f2dc68ad7d8",
+      "enMarkdown": "[6] Fastidiousness about truth doesn't imply that an independent-minded person won't be dishonest, but that he won't be deluded. It's sort of like the definition of a gentleman as someone who is never unintentionally rude.",
+      "zhMarkdown": "[6] 对真相的挑剔并不意味着独立思考的人不会不诚实，而是意味着他不会被愚弄。这有点像绅士的定义：一个从不无意中失礼的人。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "ff52e4d8245fe067e637d6c443014d13a7f75f9847bf548d3cd333ede7108ad4",
+      "enMarkdown": "[7] You see this especially among political extremists. They think themselves nonconformists, but actually they're niche conformists. Their opinions may be different from the average person's, but they are often more influenced by their peers' opinions than the average person's are.",
+      "zhMarkdown": "[7] 你在政治极端分子中尤其能看到这一点。他们自认为是特立独行者，但实际上他们是小众的顺从者。他们的观点可能与普通人不同，但他们往往比普通人更容易受到同行意见的影响。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "d56243e70c4917084553d75e9b316edb376793ac0b933ba21129544575b893f4",
+      "enMarkdown": "[8] If we broaden the concept of fastidiousness about truth so that it excludes pandering, bogusness, and pomposity as well as falsehood in the strict sense, our model of independent-mindedness can expand further into the arts.",
+      "zhMarkdown": "[8] 如果我们拓宽对真相挑剔的概念，使其既排除严格意义上的虚假，也排除迎合、伪造和自大，我们独立思考能力的模型就可以进一步扩展到艺术领域。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "e3c649d354aefb91c04b2341691df4fa38e01b657a988f5bd8441ee86784fee0",
+      "enMarkdown": "[9] This correlation is far from perfect, though. G�del and Dirac don't seem to have been very strong in the humor department. But someone who is both \"neurotypical\" and humorless is very likely to be conventional-minded.",
+      "zhMarkdown": "[9] 不过，这种相关性远非完美。哥德尔和狄拉克在幽默感方面似乎不是很强。但是一个既“神经典型”又缺乏幽默感的人，很可能是思想守旧的。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "ccc76bf3ce7497bd63b67ff665f9ee11819cc8db8127ea685aef46838bc3d793",
+      "enMarkdown": "[10] Exception: gossip. Almost everyone is curious about gossip.",
+      "zhMarkdown": "[10] 例外：八卦。几乎每个人都对八卦感到好奇。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "483e8466672b89773f2af56af661d6d2403eb4af678824a182439e45b679478c",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Paul Buchheit, Patrick Collison, Jessica Livingston, Robert Morris, Harj Taggar, and Peter Thiel for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Paul Buchheit、Patrick Collison、Jessica Livingston、Robert Morris、Harj Taggar 和 Peter Thiel 阅读了本文的草稿。"
+    }
+  ]
+}

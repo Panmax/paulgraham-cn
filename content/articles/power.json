@@ -1,0 +1,411 @@
+{
+  "slug": "power",
+  "titleEn": "Succinctness is Power",
+  "titleZh": "简洁就是力量",
+  "dateText": "May 2002",
+  "publishedAt": "2002-05-01",
+  "sourceOrder": 213,
+  "sourceUrl": "https://paulgraham.com/power.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "rawUnsupported",
+      "sourceHash": "6d4842235b7bbb5a61a5636fb0a4321cbedc331cebfa829b8d2bf26823acb67a",
+      "enMarkdown": "\"The quantity of meaning compressed into a small space by algebraic signs, is another circumstance that facilitates the reasonings we are accustomed to carry on by their aid.\"- Charles Babbage, quoted in Iverson's Turing Award Lecture\n\"The quantity of meaning compressed into a small space by algebraic signs, is another circumstance that facilitates the reasonings we are accustomed to carry on by their aid.\"- Charles Babbage, quoted in Iverson's Turing Award Lecture"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2bf73d414f70f46f4405455a734cbf284c960d2f08243ca51b55ba1e0c19ce6e",
+      "enMarkdown": "In the discussion about issues raised by [Revenge \nof the Nerds](https://paulgraham.com/icad.html) on the LL1 mailing list, Paul Prescod wrote something that stuck in my mind.",
+      "zhMarkdown": "在 LL1 邮件列表上关于 [《黑客与画家》](https://paulgraham.com/icad.html)（译注：英文原名为 *Revenge of the Nerds*）所引发问题的讨论中，Paul Prescod 写下了一段让我记忆犹新的话。"
+    },
+    {
+      "id": 3,
+      "type": "quote",
+      "sourceHash": "96ea5b1868f658ff67cc97b404ac4717a9a6ab3d1cdb8d650380c5295d226d2c",
+      "enMarkdown": "> Python's goal is regularity and readability, not succinctness.",
+      "zhMarkdown": "> Python 的目标是规整与可读，而非简洁。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "e5edb2996b01013a526535a94383f6b7e1cb0bfa3713260ef1c69020b1fa0923",
+      "enMarkdown": "On the face of it, this seems a rather damning thing to claim about a programming language. As far as I can tell, succinctness = power. If so, then substituting, we get",
+      "zhMarkdown": "乍看之下，这对于一门编程语言来说，似乎是一个相当致命的断言。在我的认知里，简洁 = 力量。如果这个等式成立，那么代入进去，我们就得到了："
+    },
+    {
+      "id": 5,
+      "type": "quote",
+      "sourceHash": "5d294ea268e509e7ef4c37cfa7d9db0a6929566633453aa1d1d7be71afb53bf0",
+      "enMarkdown": "> Python's goal is regularity and readability, not power.",
+      "zhMarkdown": "> Python 的目标是规整与可读，而非力量。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "a2b2fd3fdf8dfae3731f329ad22f0e4cdf0d474555c823f4cf367dd4f6463638",
+      "enMarkdown": "and this doesn't seem a tradeoff (if it *is* a tradeoff) that you'd want to make. It's not far from saying that Python's goal is not to be effective as a programming language.",
+      "zhMarkdown": "这似乎并不是一个你愿意做出的权衡（如果这确实算是一种权衡的话）。这几乎等于在说，Python 的目标不是成为一门高效的编程语言。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "8ddc1fbf0bde434b00984e002f033db33766eb9a063a6bd940f748170be5a458",
+      "enMarkdown": "Does succinctness = power? This seems to me an important question, maybe the most important question for anyone interested in language design, and one that it would be useful to confront directly. I don't feel sure yet that the answer is a simple yes, but it seems a good hypothesis to begin with.",
+      "zhMarkdown": "简洁真的等于力量吗？在我看来，这是一个重要的问题，也许是对任何对语言设计感兴趣的人来说最重要的问题，而且是一个值得直接面对的问题。我目前还不敢确定答案就是简单的“是”，但这似乎是一个很好的初始假设。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "dfdf70633550e17ff0991e1302325037095b971e7f707e1e4f10b439286a15a7",
+      "enMarkdown": "**Hypothesis**",
+      "zhMarkdown": "**假设**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "920448d71c7887bb4f10c630df5ae7c8e3a66878c74b20cb33735b95f320ff19",
+      "enMarkdown": "My hypothesis is that succinctness is power, or is close enough that except in pathological examples you can treat them as identical.",
+      "zhMarkdown": "我的假设是，简洁就是力量，或者说两者已经足够接近，以至于除了极少数病态的特例之外，你完全可以将它们视同等。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "63e7d8c4a2419017f977b14601c3f9a40ae8df096081ee778b60f2d0c5291226",
+      "enMarkdown": "It seems to me that succinctness is what programming languages are *for.* Computers would be just as happy to be told what to do directly in machine language. I think that the main reason we take the trouble to develop high-level languages is to get leverage, so that we can say (and more importantly, think) in 10 lines of a high-level language what would require 1000 lines of machine language. In other words, the main point of high-level languages is to make source code smaller.",
+      "zhMarkdown": "在我看来，简洁正是编程语言存在的*目的*。对计算机来说，直接用机器语言告诉它该做什么，它会同样高兴。我认为，我们之所以费尽心思去开发高级语言，最主要的原因是为了获得杠杆效应，这样我们就可以用 10 行高级语言，来表达（更重要的是，思考）那些用机器语言需要 1000 行才能表达的内容。换句话说，高级语言的核心意义在于让源代码变得更少。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "c31f3f4ba3e695adffa39686e73df6e9039c5ea1a509caa968637ded88baf09c",
+      "enMarkdown": "If smaller source code is the purpose of high-level languages, and the power of something is how well it achieves its purpose, then the measure of the power of a programming language is how small it makes your programs.",
+      "zhMarkdown": "如果减少源代码是高级语言的初衷，而一件事物的力量取决于它实现其初衷的效果，那么衡量一门编程语言力量的标准，就是它能把你的程序缩减到多小。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e3cdd22df9d5be2d4b675a7ba5b458d544cb356d6e05797d14ea980a25644c19",
+      "enMarkdown": "Conversely, a language that doesn't make your programs small is doing a bad job of what programming languages are supposed to do, like a knife that doesn't cut well, or printing that's illegible.",
+      "zhMarkdown": "反过来说，一门不能把程序变小的语言，在履行编程语言本职工作方面就是失败的，就像一把不够锋利的刀，或者印刷得模糊不清的字迹。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "53a63e299275e68c17ce5bd22a33fe9fa15fe20507e6ec5a81838d15c60b69d0",
+      "enMarkdown": "**Metrics**",
+      "zhMarkdown": "**度量标准**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d1fdb7d8033b115aaf9b9383abadbeaa5b728c06c1743c6d889a87a53934b913",
+      "enMarkdown": "Small in what sense though? The most common measure of code size is lines of code. But I think that this metric is the most common because it is the easiest to measure. I don't think anyone really believes it is the true test of the length of a program. Different languages have different conventions for how much you should put on a line; in C a lot of lines have nothing on them but a delimiter or two.",
+      "zhMarkdown": "不过，这里说的“小”是指什么意义上的小？最常用的代码大小度量标准是代码行数。但我认为，这个指标之所以最常用，仅仅是因为它最容易测量。我想没有人会真的相信它是衡量程序长度的真实标准。不同的语言对于一行应该放多少内容有不同的惯例；在 C 语言中，很多行除了一个或两个分隔符之外什么都没有。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a47c030fbb480348fee9abfd64740655b39ab89c17e24b1c81dfb9b6f0214275",
+      "enMarkdown": "Another easy test is the number of characters in a program, but this is not very good either; some languages (Perl, for example) just use shorter identifiers than others.",
+      "zhMarkdown": "另一个简单的测试是程序中的字符数量，但这也不太好；有些语言（例如 Perl）只是比其他语言使用更短的标识符。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "b92fa755818d2e8e92dfea616b7d27a047a9e6ac5bf64c98ca9fbf25d0c33834",
+      "enMarkdown": "I think a better measure of the size of a program would be the number of elements, where an element is anything that would be a distinct node if you drew a tree representing the source code. The name of a variable or function is an element; an integer or a floating-point number is an element; a segment of literal text is an element; an element of a pattern, or a format directive, is an element; a new block is an element. There are borderline cases (is -5 two elements or one?) but I think most of them are the same for every language, so they don't affect comparisons much.",
+      "zhMarkdown": "我认为更好的程序大小度量标准是“元素”的数量。这里的元素指的是，如果你画一棵代表源代码的树，任何会成为独立节点的节点都是一个元素。变量或函数的名称是一个元素；整数或浮点数是一个元素；一段字面量文本是一个元素；模式中的一个元素或格式指令是一个元素；一个新的代码块也是一个元素。有一些边缘情况（比如 -5 是两个元素还是一个？），但我认为对于每种语言来说，这些情况大多是相同的，所以它们不会对对比产生太大影响。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "457166263a56ed8702cd561efb3caf360e03b21ef5b6f349700bb0e1a6d94016",
+      "enMarkdown": "This metric needs fleshing out, and it could require interpretation in the case of specific languages, but I think it tries to measure the right thing, which is the number of parts a program has. I think the tree you'd draw in this exercise is what you have to make in your head in order to conceive of the program, and so its size is proportionate to the amount of work you have to do to write or read it.",
+      "zhMarkdown": "这个度量标准还需要细化，在面对具体语言时可能需要具体解释，但我认为它试图测量的是正确的东西，即一个程序所包含的零件数量。我认为在这个练习中你画出的树，正是你在脑海中为了构思这个程序而必须建立的结构，因此它的体积与你编写或阅读它所付出的劳动量成正比。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "817ee253cbbd28605b259fa160cfb1d110682ad2dfa22bf58234e3fa5ad48ffc",
+      "enMarkdown": "**Design**",
+      "zhMarkdown": "**设计**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "e4472c8146685d0be3c1e72f547fffdedd70fb4a356be774f0474622a9823756",
+      "enMarkdown": "This kind of metric would allow us to compare different languages, but that is not, at least for me, its main value. The main value of the succinctness test is as a guide in *designing* languages. The most useful comparison between languages is between two potential variants of the same language. What can I do in the language to make programs shorter?",
+      "zhMarkdown": "这种度量标准可以让我们比较不同的语言，但至少对我来说，这并不是它的主要价值。简洁性测试的最大价值在于作为*设计*语言的指南。语言之间最有用的比较，是同一门语言的两种潜在变体之间的比较。在语言中，我能做些什么来让程序变得更短？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "4518a1586b82e42477c2b224ce2b73c97d6eea4e6bdbf3452941c9cfd70c795e",
+      "enMarkdown": "If the conceptual load of a program is proportionate to its complexity, and a given programmer can tolerate a fixed conceptual load, then this is the same as asking, what can I do to enable programmers to get the most done? And that seems to me identical to asking, how can I design a good language?",
+      "zhMarkdown": "如果一个程序的认知负载与其复杂度成正比，而一个给定的程序员所能承受的认知负载是固定的，那么这就等同于在问：我能做些什么来让程序员完成更多的工作？而在我看来，这与“我如何设计一门好语言”是完全相同的问题。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "bba1876ead4c86fdb8f7e2746a6172be990c67b935a2d48c2dc71f51e55c0367",
+      "enMarkdown": "(Incidentally, nothing makes it more patently obvious that the old chestnut \"all languages are equivalent\" is false than designing languages. When you are designing a new language, you're *constantly* comparing two languages-- the language if I did x, and if I didn't-- to decide which is better. If this were really a meaningless question, you might as well flip a coin.)",
+      "zhMarkdown": "（顺便说一句，没有什么比设计语言更能让你一眼看穿“所有语言都是等价的”这一老生常谈是多么荒谬了。当你设计一门新语言时，你*时刻*都在比较两种语言——如果我做了 x 的语言，和没做 x 的语言——以决定哪一个更好。如果这真的一个毫无意义的问题，那你还不如扔硬币决定。）"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "e0cabbcbea8594c6f19a8acf0d225daff0a7154fbe4facb2659518e09926ed3a",
+      "enMarkdown": "Aiming for succinctness seems a good way to find new ideas. If you can do something that makes many different programs shorter, it is probably not a coincidence: you have probably discovered a useful new abstraction. You might even be able to write a program to help by searching source code for repeated patterns. Among other languages, those with a reputation for succinctness would be the ones to look to for new ideas: Forth, Joy, Icon.",
+      "zhMarkdown": "以简洁为目标似乎是寻找新想法的好方法。如果你能做一些让许多不同程序都变短的事情，这大概率不是巧合：你可能发现了一个有用的新抽象。你甚至可以写一个程序，通过在源代码中搜索重复的模式来提供帮助。在其他语言中，那些以简洁著称的语言最值得你去寻找灵感：比如 Forth、Joy 和 Icon。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "fea348490b656e09ab4afd07d8848658e93c3677fa9ff9446204eb0f0d79905e",
+      "enMarkdown": "**Comparison**",
+      "zhMarkdown": "**对比**"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "011d8b3cfb853fba16893eb00ca1fb329da8e91384dcb74ac5261e40617613da",
+      "enMarkdown": "The first person to write about these issues, as far as I know, was Fred Brooks in the *Mythical Man Month*. He wrote that programmers seemed to generate about the same amount of code per day regardless of the language. When I first read this in my early twenties, it was a big surprise to me and seemed to have huge implications. It meant that (a) the only way to get software written faster was to use a more succinct language, and (b) someone who took the trouble to do this could leave competitors who didn't in the dust.",
+      "zhMarkdown": "据我所知，第一个写到这些问题的人是 Fred Brooks，他在《人月神话》（*Mythical Man Month*）中写道：无论使用什么语言，程序员每天写出的代码行数似乎都差不多。当我二十出头第一次读到这句话时，我感到非常震惊，这似乎蕴含着巨大的启示。这意味着：(a) 提高软件开发速度的唯一方法是使用更简洁的语言；(b) 那些不辞辛劳这样做的人，可以将不这样做的竞争对手远远甩在身后。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "9132cba30d687c5983e24b35da6f94ae1f706baa863418fea0bc4da6d03c8907",
+      "enMarkdown": "Brooks' hypothesis, if it's true, seems to be at the very heart of hacking. In the years since, I've paid close attention to any evidence I could get on the question, from formal studies to anecdotes about individual projects. I have seen nothing to contradict him.",
+      "zhMarkdown": "Brooks 的假设如果成立，似乎就触及了黑客行为的最核心。在随后的日子里，我密切关注着能获得的任何相关证据，从正式的研究报告到个别项目的轶事。我没有看到任何反驳他的证据。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "07ab076d02fb912a5c78822c6fdf1c970eaebd9bccf0e00491c7932dd1f4e056",
+      "enMarkdown": "I have not yet seen evidence that seemed to me conclusive, and I don't expect to. Studies like Lutz Prechelt's comparison of programming languages, while generating the kind of results I expected, tend to use problems that are too short to be meaningful tests. A better test of a language is what happens in programs that take a month to write. And the only real test, if you believe as I do that the main purpose of a language is to be good to think in (rather than just to tell a computer what to do once you've thought of it) is what new things you can write in it. So any language comparison where you have to meet a predefined spec is testing slightly the wrong thing.",
+      "zhMarkdown": "我还没有看到让我觉得确凿无疑的证据，我也不指望能看到。像 Lutz Prechelt 对编程语言的对比研究，虽然得出了符合我预期的结果，但往往使用的主题太短，无法进行有意义的测试。对一门语言更好的测试，是看在需要花一个月时间编写的程序中会发生什么。而唯一的真正测试——如果你像我一样，相信语言的主要目的是为了便于思考（而不仅仅是在你想好之后告诉计算机该怎么做）——就是你能用它写出什么新东西。因此，任何必须满足预设规格的语言对比，其测试的维度都有点偏了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "2153e73a9ebb8109d9acb2dbaf2a818e7578a1f9ccbf74c132c05962c027c31a",
+      "enMarkdown": "The true test of a language is how well you can discover and solve new problems, not how well you can use it to solve a problem someone else has already formulated. These two are quite different criteria. In art, mediums like embroidery and mosaic work well if you know beforehand what you want to make, but are absolutely lousy if you don't. When you want to discover the image as you make it-- as you have to do with anything as complex as an image of a person, for example-- you need to use a more fluid medium like pencil or ink wash or oil paint. And indeed, the way tapestries and mosaics are made in practice is to make a painting first, then copy it. (The word \"cartoon\" was originally used to describe a painting intended for this purpose).",
+      "zhMarkdown": "一门语言的真正试金石，在于你发现和解决新问题的能力，而不是你用它来解决别人已经明确表述过的问题的能力。这两个是完全不同的标准。在艺术中，像刺绣和马赛克这样的媒介，如果你事先知道自己想做什么，它们会表现得很好，但如果你不知道，它们就糟糕透顶。当你想要在创作的过程中去发现画面时——比如画一幅像人像这样复杂的画时——你需要使用更具流动性的媒介，比如铅笔、水墨或油画颜料。事实上，挂毯和马赛克在实际制作中，也是先画一幅画，然后再去复制它。（“卡通”这个词最初就是用来描述这种用途的草图画）。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "d776d85cd851f60f6a72b4575d71c6c528a196447c11489644a7a4297f176e8a",
+      "enMarkdown": "What this means is that we are never likely to have accurate comparisons of the relative power of programming languages. We'll have precise comparisons, but not accurate ones. In particular, explicit studies for the purpose of comparing languages, because they will probably use small problems, and will necessarily use predefined problems, will tend to underestimate the power of the more powerful languages.",
+      "zhMarkdown": "这意味着，我们可能永远无法对编程语言的相对力量进行精确的比较。我们会得到精细的对比，但不会是准确的。特别是为了对比语言而进行的显式研究，因为它们可能会使用小问题，并且必然会使用预设的问题，因此往往会低估更强大语言的力量。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "56f1bee8814e38af68e80d786b48de2fb3e05e5f19440efbb5795fa4699c8a82",
+      "enMarkdown": "Reports from the field, though they will necessarily be less precise than \"scientific\" studies, are likely to be more meaningful. For example, Ulf Wiger of Ericsson did a [study](http://www.erlang.se/publications/Ulf_Wiger.pdf) that concluded that Erlang was 4-10x more succinct than C++, and proportionately faster to develop software in:",
+      "zhMarkdown": "来自一线实践的报告虽然必然不如“科学”研究那样精细，但可能更有意义。例如，爱立信的 Ulf Wiger 做过一项[研究](http://www.erlang.se/publications/Ulf_Wiger.pdf)，得出的结论是 Erlang 比 C++ 简洁 4 到 10 倍，软件开发速度也成比例地更快："
+    },
+    {
+      "id": 30,
+      "type": "quote",
+      "sourceHash": "31af251fb2fddbe31f3635ec903f4588d757ea8b7a3f5837271b63652f618269",
+      "enMarkdown": "> Comparisons between Ericsson-internal development projects indicate similar line/hour productivity, including all phases of software development, rather independently of which language (Erlang, PLEX, C, C++, or Java) was used. What differentiates the different languages then becomes source code volume.",
+      "zhMarkdown": "> 爱立信内部开发项目之间的对比表明，在软件开发的所有阶段中，每小时写出的代码行数生产率是相似的，而且与使用的是哪种语言（Erlang、PLEX、C、C++ 或 Java）基本无关。那么，区分不同语言的因素就变成了源代码的体积。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "4930558a8d5e77e556e20f0f3db8f3640d849adeff87e0dc77bd7802fc0d51ef",
+      "enMarkdown": "The study also deals explictly with a point that was only implicit in Brooks' book (since he measured lines of debugged code): programs written in more powerful languages tend to have fewer bugs. That becomes an end in itself, possibly more important than programmer productivity, in applications like network switches.",
+      "zhMarkdown": "该研究还明确探讨了 Brooks 书中仅含蓄提及的一点（因为他测量的是调试后的代码行数）：用更强大的语言编写的程序，往往 Bug 更少。在网络交换机等应用中，这本身就成了一个终极目标，甚至可能比程序员的生产力更重要。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "6f02d71eb4137339b2b0588a5b299abfd11ddab563ed686ae0269c49b21cdcd6",
+      "enMarkdown": "**The Taste Test**",
+      "zhMarkdown": "**直觉测试**"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "fc40142691c3a4f1527bbf995508842227cbae83cc7b24d84baa66607ab4c930",
+      "enMarkdown": "Ultimately, I think you have to go with your gut. What does it feel like to program in the language? I think the way to find (or design) the best language is to become hypersensitive to how well a language lets you think, then choose/design the language that feels best. If some language feature is awkward or restricting, don't worry, you'll know about it.",
+      "zhMarkdown": "归根结底，我认为你必须相信自己的直觉。用这门语言编程的感觉如何？我认为寻找（或设计）最佳语言的方法，是对语言辅助你思考的能力变得极其敏感，然后选择或设计感觉最好的语言。如果某种语言特性很别扭或有限制，别担心，你自然会感觉得到。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "511bdd2bf0b57c5f7c951afa3cb9ad2e86012a53dd2b404f328fdbbe1f1059bf",
+      "enMarkdown": "Such hypersensitivity will come at a cost. You'll find that you can't *stand* programming in clumsy languages. I find it unbearably restrictive to program in languages without macros, just as someone used to dynamic typing finds it unbearably restrictive to have to go back to programming in a language where you have to declare the type of every variable, and can't make a list of objects of different types.",
+      "zhMarkdown": "这种极度的敏感是要付出代价的。你会发现自己*无法忍受*在笨拙的语言中写代码。我发现用没有宏的语言编程是无法忍受的束缚，就像习惯了动态类型的人，发现必须回到声明每个变量类型、无法创建包含不同类型对象的列表的语言中编程，是无法忍受的束缚一样。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "8c696412b4f3da3779b4a8e1612789ac3caad108428ca441fefdc5e59e08b973",
+      "enMarkdown": "I'm not the only one. I know many Lisp hackers that this has happened to. In fact, the most accurate measure of the relative power of programming languages might be the percentage of people who know the language who will take any job where they get to use that language, regardless of the application domain.",
+      "zhMarkdown": "我不是唯一一个。我认识许多对此深有体会的 Lisp 黑客。事实上，衡量编程语言相对力量最准确的标准，可能是掌握该语言的人中，无论应用领域是什么，只要能用这门语言就愿意接受该工作的比例。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "f722a9837967c07e2dee844aeef853475f843a381ae07afbcff21d2f74ce80ed",
+      "enMarkdown": "**Restrictiveness**",
+      "zhMarkdown": "**束缚感**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "37c2fe98749b6b10d419bc496ba58ab2d0c926cbd6da0939814f00cb997db19e",
+      "enMarkdown": "I think most hackers know what it means for a language to feel restrictive. What's happening when you feel that? I think it's the same feeling you get when the street you want to take is blocked off, and you have to take a long detour to get where you wanted to go. There is something you want to say, and the language won't let you.",
+      "zhMarkdown": "我想大多数黑客都知道一门语言让人感到束缚是什么意思。当你产生这种感觉时，到底发生了什么？我认为这与你想走的街道被封死、你不得不绕一大圈才能到达目的地时的感觉是一样的。有你想表达的东西，而语言不让你说。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "1f8545fa4f8f786556f1c9a3ea8dd7734a3498e2cc7c239e8932c1e64a90574b",
+      "enMarkdown": "What's really going on here, I think, is that a restrictive language is one that isn't succinct enough. The problem is not simply that you can't say what you planned to. It's that the detour the language makes you take is *longer.* Try this thought experiment. Suppose there were some program you wanted to write, and the language wouldn't let you express it the way you planned to, but instead forced you to write the program in some other way that was *shorter.* For me at least, that wouldn't feel very restrictive. It would be like the street you wanted to take being blocked off, and the policeman at the intersection directing you to a shortcut instead of a detour. Great!",
+      "zhMarkdown": "我认为这里的实质在于，一门带有束缚感的语言，就是一门不够简洁的语言。问题不仅在于你无法按计划表达你想表达的内容，而在于语言强迫你走的弯路*更长*。做个思想实验：假设你想写某个程序，语言不让你用你计划的方式表达，而是强迫你用另一种*更短*的方式来写。至少对我来说，那不会让人感到有什么束缚。这就像你想走的街道被封锁了，但路口的交警指引你走了一条捷径，而不是绕远路。太棒了！"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "4d317a45b0db7e61554a3933fabbd8f35b48a4b24966124188c12a449f834ea0",
+      "enMarkdown": "I think most (ninety percent?) of the feeling of restrictiveness comes from being forced to make the program you write in the language longer than one you have in your head. Restrictiveness is mostly lack of succinctness. So when a language feels restrictive, what that (mostly) means is that it isn't succinct enough, and when a language isn't succinct, it will feel restrictive.",
+      "zhMarkdown": "我认为绝大部分（百分之九十？）束缚感，来自于被迫把你用语言写出的程序，变得比你脑海中的程序更长。束缚感在很大程度上就是缺乏简洁性。因此，当一门语言让人感到束缚时，这（主要）意味着它不够简洁；而当一门语言不简洁时，它就会让人感到束缚。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "5f1795624443480a89f7d4b917a0a2c2e7a9a312ecf24c503e5a9529679c1c98",
+      "enMarkdown": "**Readability**",
+      "zhMarkdown": "**可读性**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "610d552a7f6f97cb5a763db9ba1c6be963331efce848964ed47b821fb854f432",
+      "enMarkdown": "The quote I began with mentions two other qualities, regularity and readability. I'm not sure what regularity is, or what advantage, if any, code that is regular and readable has over code that is merely readable. But I think I know what is meant by readability, and I think it is also related to succinctness.",
+      "zhMarkdown": "我开头引用的那段话提到了另外两个品质：规整和可读。我不确定什么是规整，也不确定规整且可读的代码比仅仅可读的代码有什么优势（如果有的话）。但我认为我知道可读性指的是什么，而且我认为它也与简洁性有关。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "6fde81391020779a21f732fbde98d8a26b3aab4abb8fa9cd7587dffeaee4352b",
+      "enMarkdown": "We have to be careful here to distinguish between the readability of an individual line of code and the readability of the whole program. It's the second that matters. I agree that a line of Basic is likely to be more readable than a line of Lisp. But a program written in Basic is is going to have more lines than the same program written in Lisp (especially once you cross over into Greenspunland). The total effort of reading the Basic program will surely be greater.",
+      "zhMarkdown": "我们在这里必须小心，区分单行代码的可读性与整个程序的可读性。后者才是关键。我同意，一行 Basic 代码可能比一行 Lisp 代码更可读。但是用 Basic 编写的程序会比用 Lisp 编写的相同程序有更多的行数（尤其是当你跨入格林斯潘定律的领域时）。阅读 Basic 程序的总工作量肯定会更大。"
+    },
+    {
+      "id": 43,
+      "type": "quote",
+      "sourceHash": "b8274dd0e2ba3c0ec525c16d678753a15accc55a7d92d5c914fdd564b541bd77",
+      "enMarkdown": "> total effort = effort per line x number of lines",
+      "zhMarkdown": "> 总阅读工作量 = 每行工作量 x 行数"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "174b6c8776823f1d04e03b07386a5895e42f0faa3cba805b31576e343779d3bd",
+      "enMarkdown": "I'm not as sure that readability is directly proportionate to succinctness as I am that power is, but certainly succinctness is a factor (in the mathematical sense; see equation above) in readability. So it may not even be meaningful to say that the goal of a language is readability, not succinctness; it could be like saying the goal was readability, not readability.",
+      "zhMarkdown": "我不像确信力量与简洁性直接成正比那样，确信可读性也与简洁性成正比，但简洁性无疑是可读性的一个因子（数学意义上的因子；见上文公式）。因此，说一门语言的目标是可读性而非简洁性，甚至可能是没有意义的；这就像在说目标是可读性，而不是可读性。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "2fa2a0a847b0ef3bfdfe786a5aee58bdee6dbc0bf85ec5671ed9bc805cabf130",
+      "enMarkdown": "What readability-per-line does mean, to the user encountering the language for the first time, is that source code will *look unthreatening*. So readability-per-line could be a good marketing decision, even if it is a bad design decision. It's isomorphic to the very successful technique of letting people pay in installments: instead of frightening them with a high upfront price, you tell them the low monthly payment. Installment plans are a net lose for the buyer, though, as mere readability-per-line probably is for the programmer. The buyer is going to make a *lot* of those low, low payments; and the programmer is going to read a *lot* of those individually readable lines.",
+      "zhMarkdown": "对于第一次接触这门语言的用户来说，“每行可读性”的真正含义是源代码看起来*没有威胁性*。因此，即使这是一个糟糕的设计决策，每行可读性也可能是一个很好的营销决策。这与让人们分期付款的成功商业技巧异曲同工：不拿高昂的总价吓唬他们，而是告诉他们极低的月供。然而，分期付款对买家来说是净亏损，正如纯粹的每行可读性对程序员来说可能也是净亏损一样。买家将不得不支付*许多次*那些低廉的月供；而程序员将不得不阅读*许多行*那些单独看起来易读的代码。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "4c33909d1a8fa1920f428807830424727448e17ff250d748b64bd0b2fe0cd851",
+      "enMarkdown": "This tradeoff predates programming languages. If you're used to reading novels and newspaper articles, your first experience of reading a math paper can be dismaying. It could take half an hour to read a single page. And yet, I am pretty sure that the notation is not the problem, even though it may feel like it is. The math paper is hard to read because the ideas are hard. If you expressed the same ideas in prose (as mathematicians had to do before they evolved succinct notations), they wouldn't be any easier to read, because the paper would grow to the size of a book.",
+      "zhMarkdown": "这种权衡早在编程语言出现之前就存在了。如果你习惯了读小说和报纸文章，你第一次读数学论文的经历可能会让人沮丧。读完一页可能要花半个小时。然而，我非常确信问题不在于符号，尽管感觉上可能是这样。数学论文难读是因为思想本身很深奥。如果你用散文来表达同样的思想（就像数学家在进化出简洁的符号之前所必须做的那样），它们也不会变得更好读，因为论文会膨胀到一本书的厚度。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "351194af621c58ae971463d317f69ade953f8f6937b11bbd012261ff15f5eb61",
+      "enMarkdown": "**To What Extent?**",
+      "zhMarkdown": "**在多大程度上？**"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "b9cf061ffc5e06b50fd9122ae3be43ba0c50b9cd985688210ed928b2cd8edbc2",
+      "enMarkdown": "A number of people have rejected the idea that succinctness = power. I think it would be more useful, instead of simply arguing that they are the same or aren't, to ask: to what *extent* does succinctness = power? Because clearly succinctness is a large part of what higher-level languages are for. If it is not all they're for, then what else are they for, and how important, relatively, are these other functions?",
+      "zhMarkdown": "许多人拒绝接受“简洁 = 力量”这一观点。我认为，与其简单地争论它们是否相同，不如去问：简洁在*多大程度上*等于力量？因为显而易见，简洁是高级语言存在的主要意义。如果这还不是它们的全部意义，那么它们还为了什么而存在，这些其他功能相对而言有多重要？"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "18b3bcc2903809fcecad94068fa9a79e60e9e505fd3bbfae9e0e0109f3d98308",
+      "enMarkdown": "I'm not proposing this just to make the debate more civilized. I really want to know the answer. When, if ever, is a language too succinct for its own good?",
+      "zhMarkdown": "我提出这个问题不仅仅是为了让辩论显得更有风度。我是真的想知道答案。一门语言在什么时候（如果真的有的话）会因为过于简洁而适得其反？"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "22797ee493579bec79beae72fc7d66409c90c3c85add1aeb96e0d8d57462e9de",
+      "enMarkdown": "The hypothesis I began with was that, except in pathological examples, I thought succinctness could be considered identical with power. What I meant was that in any language anyone would design, they would be identical, but that if someone wanted to design a language explicitly to disprove this hypothesis, they could probably do it. I'm not even sure of that, actually.",
+      "zhMarkdown": "我开始时的假设是，除了病态的特例，我认为简洁可以被视为等同于力量。我的意思是，在任何人会去设计的任何实用语言中，它们都是等同的；但如果有人想专门设计一门语言来证伪这个假设，他们大概能做到。其实，对此我甚至也不敢确定。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "bcf5658666bf242488739f7e683e89f4e83d1c3bf35a2bb3f5563e3cbc994604",
+      "enMarkdown": "**Languages, not Programs**",
+      "zhMarkdown": "**语言，而非程序**"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "92512e0196dc70ed30fb9cfa64a549fffa8d237df74dfa1b5430c28941ffe819",
+      "enMarkdown": "We should be clear that we are talking about the succinctness of languages, not of individual programs. It certainly is possible for individual programs to be written too densely.",
+      "zhMarkdown": "我们应该明确，我们讨论的是语言的简洁性，而不是单个程序的简洁性。单个程序写得过于晦涩稠密当然是可能的。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "6d338d74c4814aedc1c1f86e9c4375982d84c96732244313eed13a50191e5f06",
+      "enMarkdown": "I wrote about this in [On Lisp](https://paulgraham.com/onlisp.html). A complex macro may have to save many times its own length to be justified. If writing some hairy macro could save you ten lines of code every time you use it, and the macro is itself ten lines of code, then you get a net saving in lines if you use it more than once. But that could still be a bad move, because macro definitions are harder to read than ordinary code. You might have to use the macro ten or twenty times before it yielded a net improvement in readability.",
+      "zhMarkdown": "我在[《On Lisp》](https://paulgraham.com/onlisp.html)中写过这个问题。一个复杂的宏可能需要省下其自身长度许多倍的代码，才算物有所值。如果写一个复杂的宏在每次使用时能为你省下 10 行代码，而宏本身也是 10 行代码，那么只要你使用它超过一次，你就在行数上获得了净节省。但这依然可能是一个糟糕的决定，因为宏定义比普通代码更难阅读。你可能需要使用这个宏十次或二十次，它才能在可读性上带来净提升。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "d16b600901631b90cd073a3167499d0e61e859fc70f966dee9388d99e2f229fa",
+      "enMarkdown": "I'm sure every language has such tradeoffs (though I suspect the stakes get higher as the language gets more powerful). Every programmer must have seen code that some clever person has made marginally shorter by using dubious programming tricks.",
+      "zhMarkdown": "我相信每种语言都有这样的权衡（尽管我怀疑随着语言变得越来越强大，这种博弈的代价会更高）。每个程序员一定都见过某些聪明人利用可疑的编程技巧，让代码勉强缩短了一点点。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "48bd3cd5b1e3f62be3764f3c6a8f55c9a3cd3486f52cf4313bea71f1e43b0d6c",
+      "enMarkdown": "So there is no argument about that-- at least, not from me. Individual programs can certainly be too succinct for their own good. The question is, can a language be? Can a language compel programmers to write code that's short (in elements) at the expense of overall readability?",
+      "zhMarkdown": "所以在这点上没有争议——至少我没有异议。单个程序当然可能会因为过于简洁而适得其反。问题是，一门语言会这样吗？一门语言会强迫程序员以牺牲整体可读性为代价，写出（在元素上）很短的代码吗？"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "d71f89829f33b370c0667835a6c1d08764aeae8f53be61f28c9abfb311ae0ed0",
+      "enMarkdown": "One reason it's hard to imagine a language being too succinct is that if there were some excessively compact way to phrase something, there would probably also be a longer way. For example, if you felt Lisp programs using a lot of macros or higher-order functions were too dense, you could, if you preferred, write code that was isomorphic to Pascal. If you don't want to express factorial in Arc as a call to a higher-order function  (rec zero 1 * 1-)  you can also write out a recursive definition:  (rfn fact (x) (if (zero x) 1 (* x (fact (1- x)))))  Though I can't off the top of my head think of any examples, I am interested in the question of whether a language could be too succinct. Are there languages that force you to write code in a way that is crabbed and incomprehensible? If anyone has examples, I would be very interested to see them.",
+      "zhMarkdown": "很难想象一门语言会过于简洁，原因之一在于，如果存在某种极其紧凑的表达方式，可能也会存在一种更长的表达方式。例如，如果你觉得使用大量宏或高阶函数的 Lisp 程序过于稠密，如果你愿意，完全可以写出与 Pascal 同构的代码。如果你不想在 Arc 中将阶乘表达为对高阶函数的调用 `(rec zero 1 * 1-)`，你也可以写出一个递归定义：`(rfn fact (x) (if (zero x) 1 (* x (fact (1- x)))))`。虽然我脑子里一时想不到任何例子，但我对“一门语言是否可能过于简洁”这个问题很感兴趣。是否存在强迫你以晦涩难懂的方式写代码的语言？如果有人有这样的例子，我会非常乐意看一看。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "6b655624377d1dfa2352d83189ec6ecf57f124fa9a87eaaa8f8006b10c44aa14",
+      "enMarkdown": "(Reminder: What I'm looking for are programs that are very dense according to the metric of \"elements\" sketched above, not merely programs that are short because delimiters can be omitted and everything has a one-character name.)",
+      "zhMarkdown": "（提示：我寻找的是根据上文勾勒的“元素”度量标准显得非常稠密的程序，而不仅仅是因为可以省略分隔符、且所有变量都是单字符名称而显得很短的程序。）"
+    }
+  ]
+}

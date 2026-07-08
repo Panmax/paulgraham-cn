@@ -1,0 +1,181 @@
+{
+  "slug": "equity",
+  "titleEn": "The Equity Equation",
+  "titleZh": "股权等式",
+  "dateText": "July 2007",
+  "publishedAt": "2007-07-01",
+  "sourceOrder": 152,
+  "sourceUrl": "https://paulgraham.com/equity.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "1c638c4b485d196c96edaaea5896794ef10e6a3a37a9e6a2600048aad733590b",
+      "enMarkdown": "An investor wants to give you money for a certain percentage of your startup. Should you take it? You're about to hire your first employee. How much stock should you give him?",
+      "zhMarkdown": "一位投资人想给你一笔钱，换取你创业公司一定比例的的股份。你应该接受吗？你正准备雇佣第一位员工，应该给他多少股票？"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "5fd038a8107e64cffec32a115660d35eb8fb642c555a7c0329c237605b7f37f0",
+      "enMarkdown": "These are some of the hardest questions founders face. And yet both have the same answer:",
+      "zhMarkdown": "这些是创始人面临的最难的问题。然而，这两个问题都有着同一个答案："
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b9888401ee78e38ba5cc2f4af3d936446b500a0231d721194f48337306ec7580",
+      "enMarkdown": "1/(1 - n)",
+      "zhMarkdown": "1/(1 - n)"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "12fc90dda876b43bffae781971ac2a832399bd72a54eb47aa0fbcc1bf72ea5d2",
+      "enMarkdown": "Whenever you're trading stock in your company for anything, whether it's money or an employee or a deal with another company, the test for whether to do it is the same. You should give up n% of your company if what you trade it for improves your average outcome enough that the (100 - n)% you have left is worth more than the whole company was before.",
+      "zhMarkdown": "每当你用公司的股票去交易任何东西时——无论是资金、员工还是与其他公司的合作——评估是否交易的标准都是一样的。如果你交易换来的东西能让公司的平均前景提升足够多，使得你手中剩下的 (100 - n)% 股份比交易前整个公司的价值还要高，那么你就应该出让这 n% 的股份。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f2d5a3c0965627d830abe3d2b27f0967f7631eb176bd7b4db7ed31d454571cb8",
+      "enMarkdown": "For example, if an investor wants to buy half your company, how much does that investment have to improve your average outcome for you to break even? Obviously it has to double: if you trade half your company for something that more than doubles the company's average outcome, you're net ahead. You have half as big a share of something worth more than twice as much.",
+      "zhMarkdown": "例如，如果一位投资人想买下你公司一半的股份，那么这笔投资需要让公司的平均前景提升多少，你才能不亏本？显然必须是两倍：如果你用一半的股份换来的东西，能让公司的平均前景翻一倍以上，那你就是净赚的。因为你拥有的股份虽然少了一半，但其对应的公司价值却增长了两倍以上。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "66f7fe3594827c73618b081c3579431842a953ca7e5af211f056ba186422f761",
+      "enMarkdown": "In the general case, if n is the fraction of the company you're giving up, the deal is a good one if it makes the company worth more than 1/(1 - n).",
+      "zhMarkdown": "在一般情况下，如果 n 是你出让的公司股份比例，那么只要这笔交易能让公司的价值提升到 1/(1 - n) 倍以上，这就是一笔划算的交易。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "9e013f07a5a93b06535abad07f5e3754c35a97e7db28a574d8fc45ebc6a4633f",
+      "enMarkdown": "For example, suppose Y Combinator offers to fund you in return for 7% of your company. In this case, n is .07 and 1/(1 - n) is 1.075. So you should take the deal if you believe we can improve your average outcome by more than 7.5%. If we improve your outcome by 10%, you're net ahead, because the remaining .93 you hold is worth .93 x 1.1 = 1.023. [[1](#f1n)]",
+      "zhMarkdown": "例如，假设 Y Combinator 提出给你投资，条件是获取你公司 7% 的股份。在这种情况下，n 是 0.07，1/(1 - n) 就是 1.075。所以，如果你相信我们能让你们的平均前景提升 7.5% 以上，你就应该接受这笔交易。如果我们能让你们的前景提升 10%，你就是净赚的，因为你手里剩下的 0.93 股份，价值变成了 0.93 x 1.1 = 1.023 倍。[[1](#f1n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "7c1fe1fbabe0944f8ea14c5a7d88144d304c8aa4bcc835c60422be5a9f26e79c",
+      "enMarkdown": "One of the things the equity equation shows us is that, financially at least, taking money from a top VC firm can be a really good deal. Greg Mcadoo from Sequoia recently said at a YC dinner that when Sequoia invests alone they like to take about 30% of a company. 1/.7 = 1.43, meaning that deal is worth taking if they can improve your outcome by more than 43%. For the average startup, that would be an extraordinary bargain. It would improve the average startup's prospects by more than 43% just to be able to *say* they were funded by Sequoia, even if they never actually got the money.",
+      "zhMarkdown": "股权等式向我们展示的道理之一是，至少在财务上，拿顶级风险投资机构的钱可以是一笔非常划算的交易。红杉资本（Sequoia）的 Greg Mcadoo 最近在一次 YC 晚宴上提到，当红杉独家投资时，他们倾向于拿走公司大约 30% 的股份。1/.7 = 1.43，这意味着只要他们能让你的前景提升 43% 以上，这笔交易就值得做。对于一家平庸的创业公司来说，这简直是天大的便宜。仅仅能够*宣称*自己获得了红杉的投资，就能让一家平庸创业公司的前景提升 43% 以上，哪怕他们实际上根本没拿到那笔钱。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "03faa831486f9e680d7c80e0c4cf1c264d8a114877d4d79d1f852658aa29917f",
+      "enMarkdown": "The reason Sequoia is such a good deal is that the percentage of the company they take is artificially low. They don't even try to get market price for their investment; they limit their holdings to leave the founders enough stock to feel the company is still theirs.",
+      "zhMarkdown": "红杉之所以如此划算，是因为他们拿走的股份比例被人为压低了。他们甚至不打算按市场价来评估自己的投资；他们限制了自己的持股比例，好给创始人留出足够的股票，让他们觉得公司依然是自己的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "85917762734b3bb3ba594752d355c8911959aece5b4c44d56de4fa34119d2493",
+      "enMarkdown": "The catch is that Sequoia gets about 6000 business plans a year and funds about 20 of them, so the odds of getting this great deal are 1 in 300. The companies that make it through are not average startups.",
+      "zhMarkdown": "不过门槛在于，红杉每年大约会收到 6000 份商业计划书，却只投资其中约 20 家，所以拿到这个超值投资的概率是三百分之一。那些通过筛选的公司，绝非平庸的创业公司。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "114542a72ede9ee4374888804da110024479b1da6d7df862cc930a78594f6e55",
+      "enMarkdown": "Of course, there are other factors to consider in a VC deal. It's never just a straight trade of money for stock. But if it were, taking money from a top firm would generally be a bargain.",
+      "zhMarkdown": "当然，在风投交易中还有其他需要考虑的因素。它从来都不是简单的“资金换股票”的交易。但如果仅仅如此，拿顶级风投机构的钱通常都是大赚特赚的。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "5f072a071be11616796363d87cc4c0a99a18c79a6af959ca962fde3d84cf856a",
+      "enMarkdown": "You can use the same formula when giving stock to employees, but it works in the other direction. If i is the average outcome for the company with the addition of some new person, then they're worth n such that i = 1/(1 - n). Which means n = (i - 1)/i.",
+      "zhMarkdown": "在给员工分配股票时，你也可以使用同样的公式，只不过方向相反。如果 i 是加入新员工后公司的平均前景，那么他们对应的股份 n 应该满足 i = 1/(1 - n)。这意味着 n = (i - 1)/i。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "14d9fea97ad3698c8775007b387cd01d0992cf9c55e431968f1abc02423ab186",
+      "enMarkdown": "For example, suppose you're just two founders and you want to hire an additional hacker who's so good you feel he'll increase the average outcome of the whole company by 20%. n = (1.2 - 1)/1.2 = .167. So you'll break even if you trade 16.7% of the company for him.",
+      "zhMarkdown": "例如，假设你们只有两位创始人，现在想招聘一位非常厉害的黑客，你觉得他的加入能让整个公司的平均前景提升 20%。那么 n = (1.2 - 1)/1.2 = 0.167。也就是说，如果你用 16.7% 的股份去换取他的加入，你刚好不亏本。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "483025548d2d98f26ebcf614b6ef94bcfb1823b85d2a649129d3578373c7efc4",
+      "enMarkdown": "That doesn't mean 16.7% is the right amount of stock to give him. Stock is not the only cost of hiring someone: there's usually salary and overhead as well. And if the company merely breaks even on the deal, there's no reason to do it.",
+      "zhMarkdown": "这并不意味着 16.7% 就是应该给他的股票份额。股票并不是雇佣一个人的唯一成本：通常还有薪水和日常开销。如果公司在这笔交易中仅仅是保本，那根本没有必要去做。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "665baa6c617d2dfc2c99cc6e104259275020a520270d1d34681b659ebf77411f",
+      "enMarkdown": "I think to translate salary and overhead into stock you should multiply the annual rate by about 1.5. Most startups grow fast or die; if you die you don't have to pay the guy, and if you grow fast you'll be paying next year's salary out of next year's valuation, which should be 3x this year's. If your valuation grows 3x a year, the total cost in stock of a new hire's salary and overhead is 1.5 years' cost at the present valuation. [[2](#f2n)]",
+      "zhMarkdown": "我认为，要将薪水和日常开销折算成股票，你应该将年费率乘以 1.5 左右。大多数创业公司要么快速成长，要么死掉；如果公司死掉了，你就不需要付钱给他；如果公司快速成长，你将用明年的估值来支付明年的薪水，而明年的估值应该是今年的 3 倍。如果你的估值每年增长 3 倍，那么新员工的薪水和日常开销折算成股票的总成本，大约相当于按当前估值计算的 1.5 年的成本。[[2](#f2n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "357a68539d44a134289b26b94e75c5aeb4ade2a3175d3d132f3459bdb4b4b724",
+      "enMarkdown": "How much of an additional margin should the company need as the \"activation energy\" for the deal? Since this is in effect the company's profit on a hire, the market will determine that: if you're a hot opportunity, you can charge more.",
+      "zhMarkdown": "那么，公司需要多少额外的利润空间来作为这笔交易的“启动能”？既然这实际上是公司在雇佣员工上的利润，市场会决定这一点：如果你是炙手可热的机会，你就可以要价更高。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "0866d4e4e117a8f09ac0c2d187875e80ca439695dcfd04f0dfac8d61d38cfa7a",
+      "enMarkdown": "Let's run through an example. Suppose the company wants to make a \"profit\" of 50% on the new hire mentioned above. So subtract a third from 16.7% and we have 11.1% as his \"retail\" price. Suppose further that he's going to cost $60k a year in salary and overhead, x 1.5 = $90k total. If the company's valuation is $2 million, $90k is 4.5%. 11.1% - 4.5% = an offer of 6.6%.",
+      "zhMarkdown": "我们来算一个例子。假设公司希望在上面提到的新员工身上获得 50% 的“利润”。那么从 16.7% 中减去三分之一，我们得到 11.1% 作为他的“零售”价格。再假设他每年的薪水和日常开销要花掉 6 万美元，乘以 1.5 等于总计 9 万美元。如果公司的估值是 200 万美元，那么 9 万美元就是 4.5%。11.1% - 4.5% = 给他 6.6% 的期权。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7d008cddc41c682c09b29aae6ba4e778f59e6daa95da37907b00b187e2af68f0",
+      "enMarkdown": "Incidentally, notice how important it is for early employees to take little salary. It comes right out of stock that could otherwise be given to them.",
+      "zhMarkdown": "顺便提一句，看出来早期员工拿低薪有多重要了吧。省下来的薪水，直接变成了本来可以给他们的股票。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "6b1d4dbe2b8c9493de5bf8bee569cd566a843d6f9c01abd7d04c999afce2f8e5",
+      "enMarkdown": "Obviously there is a great deal of play in these numbers. I'm not claiming that stock grants can now be reduced to a formula. Ultimately you always have to guess. But at least know what you're guessing. If you choose a number based on your gut feel, or a table of typical grant sizes supplied by a VC firm, understand what those are estimates of.",
+      "zhMarkdown": "显然，这些数字有很大的弹性空间。我并不是说股票授予现在可以简化为一个公式。归根结底，你总是需要去估算。但至少要明白你估算的是什么。如果你根据直觉，或者风投机构提供的典型授予额度表来选择一个数字，要明白那些表格到底是在估算什么。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "cb66804109c00c70767c612a75fc9c1e4ec870018f0c3917cadf54bfec0e6626",
+      "enMarkdown": "And more generally, when you make any decision involving equity, run it through 1/(1 - n) to see if it makes sense. You should always feel richer after trading equity. If the trade didn't increase the value of your remaining shares enough to put you net ahead, you wouldn't have (or shouldn't have) done it.",
+      "zhMarkdown": "更广泛地说，当你做出任何涉及股权的决定时，用 1/(1 - n) 算一下，看看它是否合理。在交易股权后，你总是应该感觉自己变得更富有了。如果这笔交易没有让你的剩余股份增值到让你净赚的程度，你就不应该（也不该有动力）去做这笔交易。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "5038876b137c1f7dcbd23f0f44658f2aa74239215c6a26ba0d8d55fefc1e58b4",
+      "enMarkdown": "[1] This is why we can't believe anyone would think Y Combinator was a bad deal. Does anyone really think we're so useless that in three months we can't improve a startup's prospects by 7.5%?",
+      "zhMarkdown": "[1] 这就是为什么我们无法理解，怎么会有人觉得 Y Combinator 是一笔不划算的交易。真的有人会认为我们如此无用，以至于在三个月内连让一家创业公司的前景提升 7.5% 都做不到吗？"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "9e6cff3ae62de53b2c497d838a5913937be6ebf45c067fa74c4b2c4a2094d4d1",
+      "enMarkdown": "[2] The obvious choice for your present valuation is the post-money valuation of your last funding round. This probably undervalues the company, though, because (a) unless your last round just happened, the company is presumably worth more, and (b) the valuation of an early funding round usually reflects some other contribution by the investors.",
+      "zhMarkdown": "[2] 对于你当前的估值，显而易见的选择是上一轮融资的投后估值。不过，这可能会低估公司的价值，因为 (a) 除非你的上一轮融资刚刚发生，否则公司现在大概率更值钱了，并且 (b) 早期融资的估值通常反映了投资人带来的其他贡献。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "b73852fddd2dd335ae7187cf58a4e6f59f8d3ce7565f287bc59c4ec8a2063953",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Paul Buchheit, Hutch Fishman, David Hornik, Paul Kedrosky, Jessica Livingston, Gary Sabot, and Joshua Schachter for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman, Trevor Blackwell, Paul Buchheit, Hutch Fishman, David Hornik, Paul Kedrosky, Jessica Livingston, Gary Sabot, 以及 Joshua Schachter 阅读了本文的草稿。"
+    }
+  ]
+}

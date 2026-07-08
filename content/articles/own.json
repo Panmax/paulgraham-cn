@@ -1,0 +1,237 @@
+{
+  "slug": "own",
+  "titleEn": "A Project of One's Own",
+  "titleZh": "做自己的项目",
+  "dateText": "June 2021",
+  "publishedAt": "2021-06-01",
+  "sourceOrder": 29,
+  "sourceUrl": "https://paulgraham.com/own.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "bde0667548b4a81c71f48f4195fb696745ff224c0cffb85f3d8edfeccd4fce5b",
+      "enMarkdown": "A few days ago, on the way home from school, my nine year old son told me he couldn't wait to get home to write more of the story he was working on. This made me as happy as anything I've heard him say — not just because he was excited about his story, but because he'd discovered this way of working. Working on a project of your own is as different from ordinary work as skating is from walking. It's more fun, but also much more productive.",
+      "zhMarkdown": "几天前，在放学回家的路上，我九岁的儿子对我说，他迫不及待地想回家，好继续写他正在创作的故事。这话让我无比欣慰——不仅是因为他对自己写的故事充满热情，更因为他发现了这种工作方式。做自己的项目与做普通的工作，差别之大，就像滑冰之于步行。它不仅更有趣，而且效率要高得多。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "32d369c146ad902d5a92f5f82a5d47df2d3d0d8ca83aceb5d8efb3999079fddb",
+      "enMarkdown": "What proportion of great work has been done by people who were skating in this sense? If not all of it, certainly a lot.",
+      "zhMarkdown": "在那些伟大的成就中，有多少是由这种处于“滑冰”状态的人做出来的？即使不是全部，也绝对占了绝大多数。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "adfe49529f1174c9def621be3dc07fa8f61f4e5941c300d83d665e06b0e10bc3",
+      "enMarkdown": "There is something special about working on a project of your own. I wouldn't say exactly that you're happier. A better word would be excited, or engaged. You're happy when things are going well, but often they aren't. When I'm writing an essay, most of the time I'm worried and puzzled: worried that the essay will turn out badly, and puzzled because I'm groping for some idea that I can't see clearly enough. Will I be able to pin it down with words? In the end I usually can, if I take long enough, but I'm never sure; the first few attempts often fail.",
+      "zhMarkdown": "做自己的项目有一种奇妙的魔力。我倒不会说这会让你感到更快乐。更准确的词应该是兴奋，或者说全身心投入。事情进展顺利时你会感到快乐，但通常情况并非如此。写文章的时候，我大部分时间都处于焦虑和困惑之中：焦虑是因为担心文章写砸了，困惑是因为我正试图捕捉一些还看不清的模糊想法。我能用文字把它准确地固定下来吗？如果花足够长的时间，我最后通常能做到，但我永远不敢打包票；前几次尝试往往都会失败。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "c70c43ce6b3ac17b3abef86eb8d548194e16c8e6bc94910cc36e4620583dad22",
+      "enMarkdown": "You have moments of happiness when things work out, but they don't last long, because then you're on to the next problem. So why do it at all? Because to the kind of people who like working this way, nothing else feels as right. You feel as if you're an animal in its natural habitat, doing what you were meant to do — not always happy, maybe, but awake and alive.",
+      "zhMarkdown": "当问题解决时，你会收获片刻的快乐，但转瞬即逝，因为紧接着你就要去攻克下一个难题。那为什么还要做呢？因为对于喜欢这种工作方式的人来说，其他任何事情感觉都不对劲。你会觉得自己就像回到了自然栖息地的动物，在做自己天生该做的事——也许并不总是快乐，但你清醒而充满活力。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "c62fa716c11b33c73bae3ad2a4737e0eeb43db2537ad1d70143420724856c6cf",
+      "enMarkdown": "Many kids experience the excitement of working on projects of their own. The hard part is making this converge with the work you do as an adult. And our customs make it harder. We treat \"playing\" and \"hobbies\" as qualitatively different from \"work\". It's not clear to a kid building a treehouse that there's a direct (though long) route from that to architecture or engineering. And instead of pointing out the route, we conceal it, by implicitly treating the stuff kids do as different from real work. [[1](#f1n)]",
+      "zhMarkdown": "许多孩子都体验过做自己项目的兴奋感。难的是如何将这种兴奋感与成年后的工作结合起来。而我们的社会习俗让这变得更加困难。我们把“玩耍”和“业余爱好”在定性上与“工作”区分开来。一个正在搭树屋的孩子并不知道，从搭树屋到成为建筑师或工程师之间，其实有一条直接（尽管漫长）的通路。我们不仅没有指出这条路，反而通过暗示性地把孩子们做的事与真正的“工作”区别对待，从而把这条路遮蔽了。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "01e26921e42ee5b9f208537729aadd84e2dbbbc340138101d0a561efee0748bd",
+      "enMarkdown": "Instead of telling kids that their treehouses could be on the path to the work they do as adults, we tell them the path goes through school. And unfortunately schoolwork tends to be very different from working on projects of one's own. It's usually neither a project, nor one's own. So as school gets more serious, working on projects of one's own is something that survives, if at all, as a thin thread off to the side.",
+      "zhMarkdown": "我们没有告诉孩子搭树屋可能是通往他们成年后工作的起点，反而告诉他们这条路要通过学校。不幸的是，学校的作业往往与做自己的项目大相径庭。它既不是一个项目，也不是你自己的。因此，随着学业变得越来越繁重，做自己项目这种事，即使能保留下来，也退化成了边缘角落里的一根细线。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "48e6e2a1cbb7a451c7292443a3b6ee73e95ce9b7c7b479aea79a617dea979413",
+      "enMarkdown": "It's a bit sad to think of all the high school kids turning their backs on building treehouses and sitting in class dutifully learning about Darwin or Newton to pass some exam, when the work that made Darwin and Newton famous was actually closer in spirit to building treehouses than studying for exams.",
+      "zhMarkdown": "想想那些高中生，为了应付某场考试，不得不放弃搭树屋，本分地坐在教室里学习达尔文或牛顿的理论，这实在有些令人难过。因为当年让达尔文和牛顿成名的工作，在精神实质上其实更接近于搭树屋，而不是应付考试。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "7967a3e59b552d64791f1f1b59225a26f996dbe158858ee8be926b20033f9d2e",
+      "enMarkdown": "If I had to choose between my kids getting good grades and working on ambitious projects of their own, I'd pick the projects. And not because I'm an indulgent parent, but because I've been on the other end and I know which has more predictive value. When I was picking startups for Y Combinator, I didn't care about applicants' grades. But if they'd worked on projects of their own, I wanted to hear all about those. [[2](#f2n)]",
+      "zhMarkdown": "如果必须在“孩子们拿好成绩”和“做他们自己想做的宏大项目”之间做选择，我会选择项目。这倒不是因为我是一个溺爱孩子的父亲，而是因为我站在过终点那一头，知道哪一个更具预测价值。当年在为 Y Combinator 挑选创业公司时，我根本不在乎申请者的成绩。但如果他们做过自己的项目，我就会想听听这方面的所有细节。[[2](#f2n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "629fc5e9e2ee5e1d2b7e6e27bd493c6a9ad3179584ca02907e0114d38e02e161",
+      "enMarkdown": "It may be inevitable that school is the way it is. I'm not saying we have to redesign it (though I'm not saying we don't), just that we should understand what it does to our attitudes to work — that it steers us toward the dutiful plodding kind of work, often using competition as bait, and away from skating.",
+      "zhMarkdown": "学校现在的样子也许是不可避免的。我不是说我们必须重新设计学校（尽管我没说不该重新设计），我只是说我们应该明白学校对我们的工作态度造成了什么影响——它往往以竞争为诱饵，引导我们走向那种本分、单调的机械劳作，从而远离了“滑冰”的状态。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "c5969a403b6f70c63d1926fe19e16db35d1a5fef24a7404defc6a1234a494623",
+      "enMarkdown": "There are occasionally times when schoolwork becomes a project of one's own. Whenever I had to write a paper, that would become a project of my own — except in English classes, ironically, because the things one has to write in English classes are so [bogus](https://paulgraham.com/essay.html). And when I got to college and started taking CS classes, the programs I had to write became projects of my own. Whenever I was writing or programming, I was usually skating, and that has been true ever since.",
+      "zhMarkdown": "偶尔也会有学校作业变成自己项目的时候。每次我要写论文，它就会变成我自己的项目——讽刺的是，英语课除外，因为英语课上要求写的那些东西太[虚假、不着边际](https://paulgraham.com/essay.html)了。当我上了大学并开始上计算机课时，我必须写的程序就成了我自己的项目。只要是在写作或写程序，我通常就处于“滑冰”状态，从那以后一直如此。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "03a2aeeabf1c2ad14eb8781c02d81cbf6766a62dc00b01e7d21774fb86140e60",
+      "enMarkdown": "So where exactly is the edge of projects of one's own? That's an interesting question, partly because the answer is so complicated, and partly because there's so much at stake. There turn out to be two senses in which work can be one's own: 1) that you're doing it voluntarily, rather than merely because someone told you to, and 2) that you're doing it by yourself.",
+      "zhMarkdown": "那么，“做自己的项目”的边界究竟在哪里？这是一个有趣的问题，部分是因为答案非常复杂，部分是因为这关系重大。实际上，“自己的工作”可以在两种意义上理解：1）你是自愿去做的，而不是仅仅因为别人让你做；2）你是独自完成的。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "6217bf2837ca8d2d910487068454a1178af1709fdf203ef8acc09ecf520c120a",
+      "enMarkdown": "The edge of the former is quite sharp. People who care a lot about their work are usually very sensitive to the difference between pulling, and being pushed, and work tends to fall into one category or the other. But the test isn't simply whether you're told to do something. You can choose to do something you're told to do. Indeed, you can own it far more thoroughly than the person who told you to do it.",
+      "zhMarkdown": "前者的界限非常清晰。极度看重自己工作的人，通常对“主动拉动”和“被动推动”之间的区别非常敏感，工作往往非此即彼。但检验标准并不仅仅在于是否有人命令你去做。你完全可以选择主动去做好别人交代的事情。事实上，你甚至可以比那个命令你去做的人，更彻底地拥有这个项目的主导权。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c239b2ecce530ec9dc925cb59deab7acf44a7d74d89a394f9a98a8700533f951",
+      "enMarkdown": "For example, math homework is for most people something they're told to do. But for my father, who was a mathematician, it wasn't. Most of us think of the problems in a math book as a way to test or develop our knowledge of the material explained in each section. But to my father the problems were the part that mattered, and the text was merely a sort of annotation. Whenever he got a new math book it was to him like being given a puzzle: here was a new set of problems to solve, and he'd immediately set about solving all of them.",
+      "zhMarkdown": "例如，对大多数人来说，数学作业是别人布置的任务。但对我那当数学家的父亲来说，却并非如此。我们大多数人把数学书里的习题看作是测试或巩固每节所讲知识的手段。但对我父亲来说，那些习题才是真正重要的部分，而正文不过是一种注释。每当他拿到一本新的数学书，对他来说就像收到了一个谜题：这里有一套全新的问题等待解决，他会立刻着手把它们全部解出来。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "344723aa04bc9513528b90e7449bfbd83b1a4034f29639ccb5e4690a5f7e6df4",
+      "enMarkdown": "The other sense of a project being one's own — working on it by oneself — has a much softer edge. It shades gradually into collaboration. And interestingly, it shades into collaboration in two different ways. One way to collaborate is to share a single project. For example, when two mathematicians collaborate on a proof that takes shape in the course of a conversation between them. The other way is when multiple people work on separate projects of their own that fit together like a jigsaw puzzle. For example, when one person writes the text of a book and another does the graphic design. [[3](#f3n)]",
+      "zhMarkdown": "项目属于自己的第二种含义——独自做这件事——其界限就要模糊得多。它会逐渐过渡到合作。有趣的是，这种过渡有两种不同的方式。一种合作方式是共享同一个项目。例如，两位数学家在交流探讨中共同完成一个证明。另一种方式是多个人各自做自己独立的项目，但这些项目像拼图一样可以拼在一起。例如，一个人写书的文本，另一个人做装帧设计。[[3](#f3n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "eb64fe79736dbc4a09f47aa88def0c7d31a0fd567c13aeb7300feab16adcf847",
+      "enMarkdown": "These two paths into collaboration can of course be combined. But under the right conditions, the excitement of working on a project of one's own can be preserved for quite a while before disintegrating into the turbulent flow of work in a large organization. Indeed, the history of successful organizations is partly the history of techniques for preserving that excitement. [[4](#f4n)]",
+      "zhMarkdown": "这两种通往合作的路径当然可以结合起来。但在适当的条件下，做自己项目的兴奋感可以维持相当长的一段时间，然后才会消散在大型组织那混乱的工作流中。事实上，成功组织的历史，在某种程度上就是不断探索如何保留这种兴奋感的技术史。[[4](#f4n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "e4b412f6d56958243f0993cfe33d5f616192198d2aa07c2b067bf4f4f3b96aec",
+      "enMarkdown": "The team that made the original Macintosh were a great example of this phenomenon. People like Burrell Smith and Andy Hertzfeld and Bill Atkinson and Susan Kare were not just following orders. They were not tennis balls hit by Steve Jobs, but rockets let loose by Steve Jobs. There was a lot of collaboration between them, but they all seem to have individually felt the excitement of working on a project of one's own.",
+      "zhMarkdown": "开发初代 Macintosh 的团队就是这种现象的极佳例子。像 Burrell Smith、Andy Hertzfeld、Bill Atkinson 和 Susan Kare 这样的人，可不仅仅是在服从命令。他们不是被史蒂夫·乔布斯击打的网球，而是被史蒂夫·乔布斯点燃发射的火箭。他们之间有大量的合作，但他们每个人似乎都独立体会到了做自己项目的兴奋感。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "feed0580ed87588c339b2cc2e6697b2a686e50dbd40a808694af2e0860535694",
+      "enMarkdown": "In Andy Hertzfeld's book on the Macintosh, he describes how they'd come back into the office after dinner and work late into the night. People who've never experienced the thrill of working on a project they're excited about can't distinguish this kind of working long hours from the kind that happens in sweatshops and boiler rooms, but they're at opposite ends of the spectrum. That's why it's a mistake to insist dogmatically on \"work/life balance.\" Indeed, the mere expression \"work/life\" embodies a mistake: it assumes work and life are distinct. For those to whom the word \"work\" automatically implies the dutiful plodding kind, they are. But for the skaters, the relationship between work and life would be better represented by a dash than a slash. I wouldn't want to work on anything that I didn't want to take over my life.",
+      "zhMarkdown": "在 Andy Hertzfeld 写的关于 Macintosh 的书里，他描述了他们如何在吃完晚饭后回到办公室，一直工作到深夜。从未体验过为自己热爱的项目拼搏的人，无法将这种长时间工作与血汗工厂或高压电话推销房里的加班区分开来，但它们其实处于光谱的两端。这就是为什么教条地坚持“工作与生活的平衡”是一个错误。事实上，“工作/生活”这个词本身就包含了一个误区：它假设工作和生活是割裂的。对于那些一听到“工作”就自动联想到本分、单调劳作的人来说，确实如此。但对于“滑冰者”来说，工作与生活之间的关系，用破折号来表示比用斜杠更贴切。我不想把精力浪费在那些我不想让它占据我生活的事情上。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "dbd8223d87ea2fba5c741b4fb6a9e0fc506585c9f654dbbf0e17240c448db665",
+      "enMarkdown": "Of course, it's easier to achieve this level of motivation when you're making something like the Macintosh. It's easy for something new to feel like a project of your own. That's one of the reasons for the tendency programmers have to rewrite things that don't need rewriting, and to write their own versions of things that already exist. This sometimes alarms managers, and measured by total number of characters typed, it's rarely the optimal solution. But it's not always driven simply by arrogance or cluelessness. Writing code from scratch is also much more rewarding — so much more rewarding that a good programmer can end up net ahead, despite the shocking waste of characters. Indeed, it may be one of the advantages of capitalism that it encourages such rewriting. A company that needs software to do something can't use the software already written to do it at another company, and thus has to write their own, which often turns out better. [[5](#f5n)]",
+      "zhMarkdown": "当然，当你正在创造像 Macintosh 这样的东西时，更容易达到这种动力水平。做一件全新的事情，很容易让你觉得那是你自己的项目。这也是程序员为什么总喜欢重写那些不需要重写的代码，以及喜欢自己造轮子的原因之一。这有时会让管理者感到恐慌，而且如果按敲击键盘的总字符数来衡量，这很少是最佳解决方案。但这并不总是源于傲慢或无知。从头开始写代码要爽得多——这种成就感是如此巨大，以至于一个优秀的程序员最终能带来净收益，尽管浪费了惊人的代码量。事实上，这也许是资本主义的优势之一，因为它鼓励这种重写。一家公司需要软件来做某件事，却不能直接拿另一家公司已经写好的软件来用，因此必须自己写，而这往往写得更好。[[5](#f5n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "5d93bf08c1731ec80b53b98abcd1065c5d0fcd02b065dc66c6c2fec89daf16f7",
+      "enMarkdown": "The natural alignment between skating and solving new problems is one of the reasons the payoffs from startups are so high. Not only is the market price of unsolved problems higher, you also get a discount on productivity when you work on them. In fact, you get a double increase in productivity: when you're doing a clean-sheet design, it's easier to recruit skaters, and they get to spend all their time skating.",
+      "zhMarkdown": "“滑冰”与解决新问题之间的天然契合，是创业公司回报如此丰厚的原因之一。不仅未解决的市场问题价格更高，而且你在解决这些问题时还能获得生产力上的“折扣”。事实上，你获得了双重的生产力提升：当你做全新设计时，更容易招募到“滑冰者”，而且他们可以把所有时间都花在“滑冰”上。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "f91dde8752f2325fb8f7c4d64b287b90ad96fb783ca129935f270be74c77dc86",
+      "enMarkdown": "Steve Jobs knew a thing or two about skaters from having watched Steve Wozniak. If you can find the right people, you only have to tell them what to do at the highest level. They'll handle the details. Indeed, they insist on it. For a project to feel like your own, you must have sufficient autonomy. You can't be working to order, or [slowed down](https://paulgraham.com/artistsship.html) by bureaucracy.",
+      "zhMarkdown": "史蒂夫·乔布斯通过观察史蒂夫·沃兹尼亚克，对“滑冰者”颇有了解。如果你能找到合适的人，你只需要在最高层面上告诉他们要做什么。他们自己会搞定细节。事实上，他们坚持要自己搞定。要让一个项目感觉像是你自己的，你必须有足够的自主权。你不能只是按部就班地听话，也不能被官僚作风[拖慢脚步](https://paulgraham.com/artistsship.html)。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "9a179b6245241b5301b4d05c9c1af3681ef90f2ed58329ffdd471974f781349a",
+      "enMarkdown": "One way to ensure autonomy is not to have a boss at all. There are two ways to do that: to be the boss yourself, and to work on projects outside of work. Though they're at opposite ends of the scale financially, startups and open source projects have a lot in common, including the fact that they're often run by skaters. And indeed, there's a wormhole from one end of the scale to the other: one of the best ways to discover [startup ideas](https://paulgraham.com/startupideas.html) is to work on a project just for fun.",
+      "zhMarkdown": "确保自主权的一种方法是根本不要老板。实现这一点有两种途径：要么自己当老板，要么在工作之外做项目。虽然创业公司和开源项目在资金规模上处于光谱的两端，但它们有很多共同点，包括它们通常都由“滑冰者”运营。实际上，在这两端之间存在着一条虫洞：发现[创业点子](https://paulgraham.com/startupideas.html)的最佳方法之一，就是纯粹为了好玩去做一个项目。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "83dd20cebc2a931961dbd72d578572db16749a04dbd8a7a9a263a8000e6391e6",
+      "enMarkdown": "If your projects are the kind that make money, it's easy to work on them. It's harder when they're not. And the hardest part, usually, is morale. That's where adults have it harder than kids. Kids just plunge in and build their treehouse without worrying about whether they're wasting their time, or how it compares to other treehouses. And frankly we could learn a lot from kids here. The high standards most grownups have for \"real\" work do not always serve us well.",
+      "zhMarkdown": "如果你的项目是能赚钱的那种，做起来就很容易。如果不能赚钱，那就难了。而最难的部分，通常是心态。在这方面，成年人比孩子更艰难。孩子们直接一头扎进去搭树屋，根本不用担心是不是在浪费时间，也不用管它跟别人的树屋比起来怎么样。坦率地说，在这方面我们可以向孩子们学习很多。大多数成年人对“真正工作”所抱持的高标准，并不总是对我们有益。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "df2298c76f365ab90531a88ee85d87e3130cb16b1297e257ac5df9f3adbde001",
+      "enMarkdown": "The most important phase in a project of one's own is at the beginning: when you go from thinking it might be cool to do x to actually doing x. And at that point high standards are not merely useless but positively harmful. There are a few people who start too many new projects, but far more, I suspect, who are deterred by fear of failure from starting projects that would have succeeded if they had.",
+      "zhMarkdown": "在做自己的项目时，最重要的阶段是在最开始：当你从“觉得做某事可能很酷”转变为“真正着手去做”的那一刻。在那个时间点，高标准不仅毫无用处，反而有害。少数人会开始太多新项目，但我怀疑，有更多的人是因为害怕失败，而不敢开始那些本可以成功的项目。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "134842ba031ed8c2a68075ef32b10ba041c7c60af53d143b914b7806325cc6ca",
+      "enMarkdown": "But if we couldn't benefit as kids from the knowledge that our treehouses were on the path to grownup projects, we can at least benefit as grownups from knowing that our projects are on a path that stretches back to treehouses. Remember that careless confidence you had as a kid when starting something new? That would be a powerful thing to recapture.",
+      "zhMarkdown": "但是，如果我们小时候没能因为知道“搭树屋是通往成年后项目的必经之路”而受益，那么作为成年人，我们至少可以因为知道“我们的项目是一条一直延伸回搭树屋的通路”而受益。还记得你小时候开始做新事情时那种无所畏惧的自信吗？重新找回那种感觉将是一股强大的力量。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "3faaea32f001856afe42b831e0301a56deb0377832c7d3c2dec0c2167cea3b9d",
+      "enMarkdown": "If it's harder as adults to retain that kind of confidence, we at least tend to be more aware of what we're doing. Kids bounce, or are herded, from one kind of work to the next, barely realizing what's happening to them. Whereas we know more about different types of work and have more control over which we do. Ideally we can have the best of both worlds: to be deliberate in choosing to work on projects of our own, and carelessly confident in starting new ones.",
+      "zhMarkdown": "虽然成年人更难保持那种自信，但我们至少往往更清楚自己在做什么。孩子们在一种又一种工作之间碰撞、被驱赶，几乎意识不到自己身上发生了什么。而我们对不同类型的工作了解更多，对我们选择做什么也有更多的控制力。理想情况下，我们可以兼得两者的优势：在选择做自己的项目时深思熟虑，而在开始新项目时又像孩子般无所畏惧、充满自信。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "016319d6e71afb9d9372e57c9d6876cd94c3eae452002e1953743efb734ce593",
+      "enMarkdown": "[1] \"Hobby\" is a curious word. Now it means work that isn't *real* work — work that one is not to be judged by — but originally it just meant an obsession in a fairly general sense (even a political opinion, for example) that one metaphorically rode as a child rides a hobby-horse. It's hard to say if its recent, narrower meaning is a change for the better or the worse. For sure there are lots of false positives — lots of projects that end up being important but are dismissed initially as mere hobbies. But on the other hand, the concept provides valuable cover for projects in the early, ugly duckling phase.",
+      "zhMarkdown": "[1] “Hobby”（业余爱好）是一个奇特的词。现在它的意思是那些不是*真正*工作的工作——也就是你不用因此接受评判的工作。但最初它只代表广义上的痴迷（甚至比如一种政治观点），就像小孩子骑着玩具木马（hobby-horse）一样，在隐喻中乐此不疲。很难说它近期变窄的词义是变好还是变坏了。可以肯定的是，这里面有很多“误报”——很多项目最终变得非常重要，但最初却被当成纯粹的业余爱好而打发掉了。但另一方面，这个概念也为处于早期“丑小鸭”阶段的项目提供了宝贵的庇护。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "6ed0bfe104d8c88709d558d07ff5a32e6b109e4adfc492abf316e851d838a7a5",
+      "enMarkdown": "[2] Tiger parents, as parents so often do, are fighting the last war. Grades mattered more in the old days when the route to success was to acquire [credentials](https://paulgraham.com/credentials.html) while ascending some predefined ladder. But it's just as well that their tactics are focused on grades. How awful it would be if they invaded the territory of projects, and thereby gave their kids a distaste for this kind of work by forcing them to do it. Grades are already a grim, fake world, and aren't harmed much by parental interference, but working on one's own projects is a more delicate, private thing that could be damaged very easily.",
+      "zhMarkdown": "[2] 虎妈狼爸们就像许多父母经常做的那样，在打一场过去的战争。在过去，成功的途径是在顺着既定梯子往上爬的同时获取[凭证、资历](https://paulgraham.com/credentials.html)，那时候成绩确实更重要。不过，他们的策略聚焦在成绩上倒也挺好。如果他们侵占了“项目”的领地，通过强迫孩子们去做，从而让他们对这种工作产生厌恶，那该有多可怕。成绩已经是一个残酷、虚假的世界，父母的干预并不会带来更多伤害，但做自己的项目是一件更为微妙、私密的事情，很容易就会被毁掉。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "63d0f0e12c32009a57d31a55ce64692e5e07b4a48dffa93f4bdbd0ac6035fe01",
+      "enMarkdown": "[3] The complicated, gradual edge between working on one's own projects and collaborating with others is one reason there is so much disagreement about the idea of the \"lone genius.\" In practice people collaborate (or not) in all kinds of different ways, but the idea of the lone genius is definitely not a myth. There's a core of truth to it that goes with a certain way of working.",
+      "zhMarkdown": "[3] 独自做项目与他人合作之间那复杂而渐变的界限，是人们对“孤独的天才”这一概念产生如此多分歧的原因之一。在实践中，人们以各种不同的方式进行合作（或不合作），但“孤独的天才”这一概念绝对不是神话。它背后蕴含着一种与某种特定工作方式相契合的真理核心。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "f79daa3a5419214bc1c5cbe9130a07e5c70e4846eedf537fa1a8dc7931cc10fc",
+      "enMarkdown": "[4] Collaboration is powerful too. The optimal organization would combine collaboration and ownership in such a way as to do the least damage to each. Interestingly, companies and university departments approach this ideal from opposite directions: companies insist on collaboration, and occasionally also manage both to recruit skaters and allow them to skate, and university departments insist on the ability to do independent research (which is by custom treated as skating, whether it is or not), and the people they hire collaborate as much as they choose.",
+      "zhMarkdown": "[4] 合作同样力量强大。最理想的组织应该将合作与自主权结合起来，尽量减少对彼此的损害。有趣的是，公司和大学院系从相反的方向逼近这一理想状态：公司坚持合作，偶尔也能成功招募到“滑冰者”并允许他们“滑冰”；而大学院系则坚持独立研究的能力（在习俗上，无论是不是，这都被视为“滑冰”），被聘用的人可以根据自己的意愿进行合作。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "1968ed77e27477d1e29dc9ff9cc637af253baac180fe2a97f4fd5ca26f9f7396",
+      "enMarkdown": "[5] If a company could design its software in such a way that the best newly arrived programmers always got a clean sheet, it could have a kind of eternal youth. That might not be impossible. If you had a software backbone defining a game with sufficiently clear rules, individual programmers could write their own players.",
+      "zhMarkdown": "[5] 如果一家公司在设计软件时，能让新来的顶尖程序员总是能在一张白纸上重新开始，它就能保持某种永葆青春的状态。这并非不可能。如果你有一个软件骨架，定义了一个规则足够清晰的游戏，那么每个程序员都可以写自己的玩家程序。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "0db02a5d28458b44f45f3cb7621b19adebcb2ab95076836c1d5389266fb2c69c",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Paul Buchheit, Andy Hertzfeld, Jessica Livingston, and Peter Norvig for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Paul Buchheit、Andy Hertzfeld、Jessica Livingston 和 Peter Norvig 阅读了本文的草稿。"
+    }
+  ]
+}

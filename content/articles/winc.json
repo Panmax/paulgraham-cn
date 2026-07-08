@@ -1,0 +1,132 @@
+{
+  "slug": "winc",
+  "titleEn": "How to Convert Between Wealth and Income Tax",
+  "titleZh": "财富税与所得税如何换算",
+  "dateText": "May 2026",
+  "publishedAt": "2026-05-01",
+  "sourceOrder": 4,
+  "sourceUrl": "https://paulgraham.com/winc.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "0003140504c18f6e4bc965fa69ef3329254d85b4ff679ca4fb156e27433366ba",
+      "enMarkdown": "How do you convert between wealth and income tax? If a government imposes a wealth tax of 1%, what's the equivalent in income tax?",
+      "zhMarkdown": "财富税和所得税之间该如何换算？如果政府征收 1% 的财富税，相当于多少的所得税？"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "a5ea015519c3d6d38d2c6265c7a3910c91e74fd33960d9e192190290e093fd2d",
+      "enMarkdown": "It's clear from the way most politicians talk about the subject that they not only don't know the answer, but don't even realize there's such a question.",
+      "zhMarkdown": "从大多数政客谈论这个话题的方式来看，很明显他们不仅不知道答案，甚至根本没有意识到存在这样一个问题。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "0b5eb8a89551cc984ca7944f398f7320fb153c85b2aa6fd3c3fc02471f4c9caf",
+      "enMarkdown": "In fact the conversion rate between them is about 20. A wealth tax of 1% is equivalent to an income tax of 20%.",
+      "zhMarkdown": "实际上，它们之间的换算比例大约是 20 倍。1% 的财富税相当于 20% 的所得税。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "e4f8f815b3625a860d26ab630969c899887a564e3892e9455915ef60051ad585",
+      "enMarkdown": "To convert between wealth and income tax rates, you have to divide by the rate of return on capital. The conversion rate of 20 comes from assuming that the risk-free rate of return is 5%. Historically that's an optimistic assumption. 4% might be more realistic. But 5% will do. [[1](#f1n)]",
+      "zhMarkdown": "要换算财富税和所得税的税率，你需要除以资本回报率。20 倍的换算比例是基于无风险回报率为 5% 的假设。从历史来看，这是一个乐观的假设。4% 也许更符合实际，但用 5% 来说明也足够了。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "b5926cd3ad51ecaf3d8491c8d9d157d84fd5ef2aeba5d1cc979be198c7c10b8e",
+      "enMarkdown": "If we run through an example it will be clear how this works. Suppose you have $100, you're getting a 5% rate of return on this capital, and there's a 20% income tax. The 5% rate of return means at the end of one year your $100 has made you another $5. But you have to pay 20% of that, or $1, in income tax, so your after-tax income is $4. At the end of the year, after paying taxes, you have $100 + $4 = $104.",
+      "zhMarkdown": "我们来举个例子，这样就能看得很清楚。假设你有 100 美元，资本回报率是 5%，所得税税率是 20%。5% 的回报率意味着一年后你的 100 美元赚了 5 美元。但你必须为此缴纳 20% 的所得税，也就是 1 美元，所以你的税后收益是 4 美元。到年底，交完税后，你总共有 100 + 4 = 104 美元。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "9259e710366e2d11a7deb9aba77c5d08167832b5b244464b72b18cf5e3f0653b",
+      "enMarkdown": "Now suppose instead of a 20% income tax, there's a 1% wealth tax. At the end of the year your $100 has made you another $5, as before. But that year you had to pay 1% of your $100, or $1, in wealth tax. So at the end of the year you have $99 + $5 = $104.",
+      "zhMarkdown": "现在假设不征收 20% 的所得税，而是征收 1% 的财富税。到年底，你的 100 美元像之前一样赚了 5 美元。但这一年里，你必须为你的 100 美元资产缴纳 1% 的财富税，也就是 1 美元。所以到年底，你总共有 99 + 5 = 104 美元。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "b4fda19b037767f8a7753e1e15cfb0efc423ea03aa8e9c7366d60d160abc818a",
+      "enMarkdown": "Each 1% of wealth tax is equivalent to 20% of income tax.",
+      "zhMarkdown": "财富税每增加 1%，就相当于所得税增加 20%。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "6d343dbf7aa28df562dc82f052752502510052b6013ae20f0c41ba6207c06b1a",
+      "enMarkdown": "It's clear that politicians don't get this from the way they talk about a \"mere 1%\" wealth tax. None of them would speak of adding a \"mere 20%\" to the income tax rate, even though that's mathematically the same thing. [[2](#f2n)]",
+      "zhMarkdown": "政客们显然不明白这一点，因为他们总是把“区区 1%”的财富税挂在嘴边。没有人会说在所得税率上“区区增加 20%”，尽管在数学上这两者是完全一回事。[[2](#f2n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "cca55aeb43348e0e392b155f5dd7a43c6ec9c6678b64d5b5eb8695e1ca9d360f",
+      "enMarkdown": "Politicians understand that an additional 20% income tax would be a lot. And indeed a US state that added 20% to its top income tax rate would have extraordinarily high taxes.",
+      "zhMarkdown": "政客们很清楚，额外增加 20% 的所得税是一笔巨大的负担。事实上，美国任何一个州如果将最高所得税率提高 20%，其税负都会变得高得离谱。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "4b98d888b27fcd7ac3448a903f9d42be3e253632f24758f1a83ab86e7754c8ab",
+      "enMarkdown": "Currently the country with the highest marginal income tax rate is Denmark, at 60.5%. The top US federal tax rate is 37%, and the median state income tax rate is Oklahoma's, which is 4.75%. So in the median case, a state adding an additional 20% in income tax would have a total marginal tax rate of 37% + 4.75% + 20%, or 61.75%. [[3](#f3n)]",
+      "zhMarkdown": "目前，全球边际所得税率最高的国家是丹麦，高达 60.5%。美国联邦最高税率是 37%，而各州所得税率的中位数是俄克拉荷马州的 4.75%。因此在中位数情况下，一个州如果额外增加 20% 的所得税，其总边际税率将达到 37% + 4.75% + 20%，即 61.75%。[[3](#f3n)]"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f29a2e1a1cc8b46735f0da63af876434aeeb0be942807a226d08d90992b6bb1a",
+      "enMarkdown": "In the median case, US state politicians talking about adding a \"mere 1%\" wealth tax are talking about causing the residents of their state to have the highest taxes in the world. That's not the sort of decision you make lightly.",
+      "zhMarkdown": "在中位数情况下，那些声称要增加“区区 1%”财富税的美国州政客，实际上是在提议让该州的居民承受全球最高的税负。这可不是能轻率做出的决定。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "b5914960365b9f16a803bcbcaa936401de93d1547b9e141c5379c27f6f21f92e",
+      "enMarkdown": "That's why I think few politicians currently understand how to convert between wealth and income taxes. You can tell from the way they talk about the subject that they don't understand the momentousness of what they're proposing. But I'm optimistic that we can teach them. The answer's not hard to understand, once you realize the question exists.",
+      "zhMarkdown": "这就是为什么我认为，目前很少有政客懂得如何换算财富税和所得税。从他们谈论这个话题的方式就能看出，他们根本没有意识到自己提议的严重性。但我很乐观，觉得我们可以教会他们。一旦你意识到这个问题的存在，答案其实并不难理解。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a4ee3b03c095da03c27c3b9cb68263fa45172f3968cf0522320ce70852e081e8",
+      "enMarkdown": "[1] It's possible to get a higher rate of return if you're willing to risk losing your capital. But to convert between tax rates you should use the risk-free rate of return, because considered as an anti-investment, a wealth tax is absolutely risk-free: you will absolutely owe the government that money. And while you do have to put \"risk-free\" in scare quotes when talking about returns, the kind of risks you're talking about now are the almost apocalyptic kind that would make tax rates a moot point.",
+      "zhMarkdown": "[1] 如果你愿意承担失去本金的风险，是有可能获得更高回报率的。但在换算税率时，应该使用无风险回报率。因为如果把财富税看作一种“反向投资”，它是绝对无风险的：你绝对必须把这笔钱交给政府。虽然在谈论回报时，我们不得不给“无风险”打上引号，但这里所指的风险几乎是世界末日级别的，真到了那时候，税率本身也就无足轻重了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "ac6f203614e969984d9616854e0740e8dffcb97ce5b17ef759f3d0935c3b733e",
+      "enMarkdown": "[2] The same conversion rate applies to capital gains. The source of the multiple is whether the money is taxed every year or just once. Indeed it's the same math you'd use to calculate the value of any income-generating asset.",
+      "zhMarkdown": "[2] 同样的换算比例也适用于资本利得税。产生倍数差异的根源在于，这笔钱是每年都被征税，还是只被征税一次。事实上，这与你用来计算任何资产能产生多少收益的数学原理是一样的。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "e1658c177c83b5594c64d53dd0d5390d9e731e8ea2b8cf85fea37b0ba6f9f33a",
+      "enMarkdown": "[3] You can deduct some state tax from your federal income taxes, but there's a cap on how much you can deduct, which means in the marginal case we simply add the two rates.",
+      "zhMarkdown": "[3] 你可以从联邦所得税中扣除部分州税，但扣除额度是有上限的，这意味着在边际情况下，我们只需简单地将这两种税率相加即可。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "c35a3aed7a5cc8720107272fc6d1b6c8f54f5f06db88b966d68164aebdc24409",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, Carolynn Levy, Jon Levy, Alex Tabarrok, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston、Carolynn Levy、Jon Levy、Alex Tabarrok 和 Harj Taggar 阅读本书稿。"
+    }
+  ]
+}

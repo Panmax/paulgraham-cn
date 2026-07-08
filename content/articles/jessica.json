@@ -1,0 +1,237 @@
+{
+  "slug": "jessica",
+  "titleEn": "Jessica Livingston",
+  "titleZh": "杰西卡·利文斯顿 (Jessica Livingston)",
+  "dateText": "November 2015",
+  "publishedAt": "2015-11-01",
+  "sourceOrder": 62,
+  "sourceUrl": "https://paulgraham.com/jessica.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "67bcc22bfbac76214db7d1ffadd4f8b0843365113e73cd2c57843caedefadd31",
+      "enMarkdown": "A few months ago an article about Y Combinator said that early on it had been a \"one-man show.\" It's sadly common to read that sort of thing. But the problem with that description is not just that it's unfair. It's also misleading. Much of what's most novel about YC is due to Jessica Livingston. If you don't understand her, you don't understand YC. So let me tell you a little about Jessica.",
+      "zhMarkdown": "几个月前，一篇关于 Y Combinator 的文章说它早期是“一个人的独角戏”。看到这种言论，令人遗憾却又屡见不鲜。但这种描述的问题不仅在于它不公平，更在于它带有误导性。YC 最具创新性的地方，很大程度上都归功于杰西卡·利文斯顿。如果你不了解她，你就不可能真正了解 YC。所以，让我来给你们讲讲杰西卡的故事。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "43ee408c4ca5aa16e04ef448c053156eac937a8eaeebf4a5b369cf6f09ed4f75",
+      "enMarkdown": "YC had 4 founders. Jessica and I decided one night to start it, and the next day we recruited my friends Robert Morris and Trevor Blackwell. Jessica and I ran YC day to day, and Robert and Trevor read applications and did interviews with us.",
+      "zhMarkdown": "YC 有四位创始人。我和杰西卡在某个晚上决定创办它，第二天我们就拉上了我的朋友罗伯特·莫里斯（Robert Morris）和特雷弗·布莱克威尔（Trevor Blackwell）。杰西卡和我负责 YC 的日常运营，罗伯特和特雷弗则和我们一起阅读申请书并进行面试。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b274caa75252c1b2596275b1e7f0aa48540a70826293b52560c632f04b55b662",
+      "enMarkdown": "Jessica and I were already dating when we started YC. At first we tried to act \"professional\" about this, meaning we tried to conceal it. In retrospect that seems ridiculous, and we soon dropped the pretense. And the fact that Jessica and I were a couple is a big part of what made YC what it was. YC felt like a family. The founders early on were mostly young. We all had dinner together once a week, cooked for the first couple years by me. Our first building had been a private home. The overall atmosphere was shockingly different from a VC's office on Sand Hill Road, in a way that was entirely for the better. There was an authenticity that everyone who walked in could sense. And that didn't just mean that people trusted us. It was the perfect quality to instill in startups. Authenticity is one of the most important things YC looks for in founders, not just because fakers and opportunists are annoying, but because authenticity is one of the main things that separates the most successful startups from the rest.",
+      "zhMarkdown": "我们创办 YC 时，杰西卡和我就已经在约会了。起初，我们还想表现得“专业”一些，也就是说，试图隐瞒这段关系。现在回想起来，这简直荒谬，我们很快就卸下了这层伪装。而杰西卡和我是情侣这一事实，在很大程度上塑造了 YC 的独特气质。YC 感觉就像一个大家庭。早期的创始人大多很年轻。我们每周一起吃一次晚饭，头两年都是由我来下厨。我们的第一栋办公楼其实是一处民宅。这里的整体氛围与沙丘路（Sand Hill Road）上那些风险投资公司的办公室有着天壤之别，而且完全是往好的方向发展。每一个走进来的人，都能感受到一种真诚。这不仅意味着人们信任我们，更是向创业公司灌输的完美品质。真诚是 YC 在创始人身上寻找的最重要的品质之一，这不仅是因为装腔作势者和投机分子令人厌恶，更因为真诚是区分最成功的创业公司与其他平庸公司的核心要素之一。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "8d2debfe6282bcc209283f731c37ed4c000e3b7fae1acc3b28aecb8160fe5459",
+      "enMarkdown": "Early YC was a family, and Jessica was its mom. And the culture she defined was one of YC's most important innovations. Culture is important in any organization, but at YC culture wasn't just how we behaved when we built the product. At YC, the culture was the product.",
+      "zhMarkdown": "早期的 YC 是一个大家庭，而杰西卡就是这个家庭的母亲。她所确立的文化，是 YC 最重要的创新之一。在任何组织中，文化都很重要，但在 YC，文化不仅仅是我们在开发产品时的行为方式。在 YC，文化本身就是产品。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "03a88e164161ebceff3d4c33c9d19c5bb2b772ce953fa177f128e779b6a2300f",
+      "enMarkdown": "Jessica was also the mom in another sense: she had the last word. Everything we did as an organization went through her first — who to fund, what to say to the public, how to deal with other companies, who to hire, everything.",
+      "zhMarkdown": "杰西卡在另一种意义上也是“母亲”：她拥有最终决定权。我们作为一个组织所做的每一件事，都要先经过她这一关——资助谁、对公众说什么、如何与其他公司打交道、雇佣谁，事无巨细，皆是如此。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ac1ad1f5111d9bb9404cac331165a39182eada4a972abdd6eb3b83fd7edd13a2",
+      "enMarkdown": "Before we had kids, YC was more or less our life. There was no real distinction between working hours and not. We talked about YC all the time. And while there might be some businesses that it would be tedious to let infect your private life, we liked it. We'd started YC because it was something we were interested in. And some of the problems we were trying to solve were endlessly difficult. How do you recognize good founders? You could talk about that for years, and we did; we still do.",
+      "zhMarkdown": "在我们有孩子之前，YC 几乎就是我们的全部生活。工作时间和业余时间之间没有真正的界限。我们无时无刻不在谈论 YC。虽然有些业务如果侵入了私人生活会让人厌烦，但我们却乐在其中。我们创办 YC 是因为我们对此感兴趣。而且，我们试图解决的一些问题有着无穷的难度。你如何识别优秀的创始人？这个话题你可以聊上好几年，我们确实聊了这么久，而且至今仍在探讨。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "8a32cc059a60afa6e774bac5fa7c3fe19887d77dca27433fea4b45e35f90d320",
+      "enMarkdown": "I'm better at some things than Jessica, and she's better at some things than me. One of the things she's best at is judging people. She's one of those rare individuals with x-ray vision for character. She can see through any kind of faker almost immediately. Her nickname within YC was the Social Radar, and this special power of hers was critical in making YC what it is. The earlier you pick startups, the more you're picking the founders. Later stage investors get to try products and look at growth numbers. At the stage where YC invests, there is often neither a product nor any numbers.",
+      "zhMarkdown": "有些事情我比杰西卡擅长，有些事情她比我擅长。她最擅长的事情之一就是看人。她是极少数对人性拥有“X光般洞察力”的人之一。她几乎能瞬间看穿任何装腔作势的人。她在 YC 内部的绰号是“社交雷达”（Social Radar），她的这项超能力对于造就今天的 YC 至关重要。投资创业公司的阶段越早，你实际上就越是在挑创始人。后期投资人可以试用产品、看增长数据。但在 YC 投资的阶段，通常既没有产品，也没有任何数据。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8ae562c5ac09c466c4e46917bddd2d5f376eac9219c1e5c1194c5fe1823f17b8",
+      "enMarkdown": "Others thought YC had some special insight about the future of technology. Mostly we had the same sort of insight Socrates claimed: we at least knew we knew nothing. What made YC successful was being able to pick good founders. We thought Airbnb was a bad idea. We funded it because we liked the founders.",
+      "zhMarkdown": "其他人以为 YC 对技术的未来有着某种独特的洞察。其实我们大抵只有苏格拉底式的那种洞察：我们起码知道自己一无所知。YC 成功的原因，在于能够挑选出优秀的创始人。我们当时觉得 Airbnb 是个糟糕的点子，但我们还是投资了，因为我们喜欢它的创始人。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "699e041653dbbc41af8dfd00346d527b65c695c6c504295a9d59d7c7a736b1ac",
+      "enMarkdown": "During interviews, Robert and Trevor and I would pepper the applicants with technical questions. Jessica would mostly watch. A lot of the applicants probably read her as some kind of secretary, especially early on, because she was the one who'd go out and get each new group and she didn't ask many questions. She was ok with that. It was easier for her to watch people if they didn't notice her. But after the interview, the three of us would turn to Jessica and ask \"What does the Social Radar say?\" [[1](#f1n)]",
+      "zhMarkdown": "面试时，罗伯特、特雷弗和我常常会用技术问题连珠炮似地提问申请者。杰西卡则大多在一旁观察。许多申请者可能把她当成了某种秘书，尤其是在早期，因为她总是那个负责把下一组人领进来、而且不怎么发问的人。她对此并不介意。如果别人不注意到她，她反而更容易观察对方。但面试结束后，我们三个人都会转向杰西卡问：“社交雷达怎么说？” [[1](#f1n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e893dd9fe27cb035e194ec359c8cf5d6984433da3a1edd67d8104fccb10d22ed",
+      "enMarkdown": "Having the Social Radar at interviews wasn't just how we picked founders who'd be successful. It was also how we picked founders who were good people. At first we did this because we couldn't help it. Imagine what it would feel like to have x-ray vision for character. Being around bad people would be intolerable. So we'd refuse to fund founders whose characters we had doubts about even if we thought they'd be successful.",
+      "zhMarkdown": "在面试中启用“社交雷达”，不仅让我们挑出了会成功的创始人，也让我们挑出了品行端正的创始人。起初，我们这样做只是出于本能。想象一下，如果对人性拥有 X 光般的洞察力会是什么感觉。和品行不端的人待在一起会让人无法忍受。因此，即使我们认为某些创始人能成功，但只要我们对其人品有所怀疑，就会拒绝投资。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "51a49b7183d0820aae202a6da0248b78812fbe3eadeae277010e20ee4e311d02",
+      "enMarkdown": "Though we initially did this out of self-indulgence, it turned out to be very valuable to YC. We didn't realize it in the beginning, but the people we were picking would become the YC alumni network. And once we picked them, unless they did something really egregious, they were going to be part of it for life. Some now think YC's alumni network is its most valuable feature. I personally think YC's advice is pretty good too, but the alumni network is certainly among the most valuable features. The level of trust and helpfulness is remarkable for a group of such size. And Jessica is the main reason why.",
+      "zhMarkdown": "虽然我们最初这样做是出于自私的偏好，但事实证明这给 YC 带来了巨大的价值。起初我们并没有意识到，我们挑选出来的这些人，将会构成 YC 的校友网络。一旦我们选中了他们，除非他们做了极其恶劣的事，否则他们将终身是这个网络的一员。现在有些人认为 YC 的校友网络是它最宝贵的财富。我个人认为 YC 的创业建议也相当不错，但校友网络无疑是最有价值的特色之一。在如此规模的群体中，其信任和互助的程度是惊人的。而杰西卡是其中的关键所在。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "18adb8985157b7c2132116c2511a613a48a9b14ad955417d0956a692eda1432b",
+      "enMarkdown": "(As we later learned, it probably cost us little to reject people whose characters we had doubts about, because how good founders are and how well they do are [not orthogonal](https://paulgraham.com/mean.html). If bad founders succeed at all, they tend to sell early. The most successful founders are almost all good.)",
+      "zhMarkdown": "（我们后来才明白，拒绝那些我们对其人品有疑虑的人，可能并没有让我们损失什么。因为创始人的优秀程度与他们的成就[并不是无关的](https://paulgraham.com/mean.html)。品行不端的创始人即使能成功，也往往会选择尽早卖掉公司。最成功的创始人几乎都是好人。）"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "bcbaf199eb5921ebaf0188c66b1a30d88120d38df37cbe97cdad6ac5a5321b5f",
+      "enMarkdown": "If Jessica was so important to YC, why don't more people realize it? Partly because I'm a writer, and writers always get disproportionate attention. YC's brand was initially my brand, and our applicants were people who'd read my essays. But there is another reason: Jessica hates attention. Talking to reporters makes her nervous. The thought of giving a talk paralyzes her. She was even uncomfortable at our wedding, because the bride is always the center of attention. [[2](#f2n)]",
+      "zhMarkdown": "如果杰西卡对 YC 如此重要，为什么没有更多的人意识到这一点？部分原因是因为我是个写作者，而写作者总是能获得不成比例的关注。YC 的品牌最初就是我的个人品牌，我们的申请者也都是读过我文章的人。但还有一个原因：杰西卡讨厌引人注目。和记者说话会让她紧张。一想到要发表公开演讲，她就会感到手足无措。甚至在我们的婚礼上，她都感到不太自在，因为新娘总是全场的焦点。 [[2](#f2n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "06767ad41edf7861092bd2b090a9f2a80175a1d9390a862463903718d1984616",
+      "enMarkdown": "It's not just because she's shy that she hates attention, but because it throws off the Social Radar. She can't be herself. You can't watch people when everyone is watching you.",
+      "zhMarkdown": "她讨厌引人注目不仅是因为害羞，还因为这会干扰她的“社交雷达”。她无法做回自己。当所有人都在看着你的时候，你便无法去观察别人。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "8c97947318687e4a3292b9d09eef25525126c961c9174bb30da9ad496132c71f",
+      "enMarkdown": "Another reason attention worries her is that she hates bragging. In anything she does that's publicly visible, her biggest fear (after the obvious fear that it will be bad) is that it will seem ostentatious. She says being too modest is a common problem for women. But in her case it goes beyond that. She has a horror of ostentation so visceral it's almost a phobia.",
+      "zhMarkdown": "她对关注感到焦虑的另一个原因是她讨厌自我炫耀。在任何公开可见的事情中，她最大的担忧（除了显而易见的“把事情搞砸”之外）就是显得招摇。她说，过度谦虚是女性的通病。但在她身上，这已经超出了谦虚的范畴。她对招摇有着一种近乎生理厌恶的恐惧。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "51c6ba735f3293c4dd1d7a6eb2fa5f3dc4435178deca6a2f9a13de9b31999110",
+      "enMarkdown": "She also hates fighting. She can't do it; she just shuts down. And unfortunately there is a good deal of fighting in being the public face of an organization.",
+      "zhMarkdown": "她也讨厌冲突。她无法应对冲突，一旦发生，她就会选择封闭自己。不幸的是，作为一个组织的公开代言人，免不了要面对大量的冲突。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "bd0797b0083c5e76393d7bae74ad87d661979f31e9439c5a65a919bad8521e92",
+      "enMarkdown": "So although Jessica more than anyone made YC unique, the very qualities that enabled her to do it mean she tends to get written out of YC's history. Everyone buys this story that PG started YC and his wife just kind of helped. Even YC's haters buy it. A couple years ago when people were attacking us for not funding more female founders (than exist), they all treated YC as identical with PG. It would have spoiled the narrative to acknowledge Jessica's central role at YC.",
+      "zhMarkdown": "所以，尽管杰西卡比任何人都更让 YC 变得独特，但正是那些成就了她的特质，导致她往往被排除在 YC 的历史叙事之外。大家都相信了“PG 创办了 YC，而他的妻子只是在旁边帮帮忙”的故事。甚至连 YC 的黑子也相信这一套。几年前，当人们攻击我们没有资助更多女创始人（相比于实际存在的比例）时，他们都把 YC 视同于 PG。如果承认杰西卡在 YC 的核心作用，就会破坏他们原有的叙事逻辑。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "a3c5d00d7d7c6ee7928803d2abd1c10be2cf345e757c5b4f44971d84eb9f661d",
+      "enMarkdown": "Jessica was boiling mad that people were accusing *her* company of sexism. I've never seen her angrier about anything. But she did not contradict them. Not publicly. In private there was a great deal of profanity. And she wrote three separate essays about the question of female founders. But she could never bring herself to publish any of them. She'd seen the level of vitriol in this debate, and she shrank from engaging. [[3](#f3n)]",
+      "zhMarkdown": "当人们指责*她*的公司存在性别歧视时，杰西卡气炸了。我从未见她对任何事情如此愤怒。但她没有反驳他们。至少在公开场合没有。私底下，她可是爆了不少粗口。她还针对女性创始人的问题写了三篇不同的文章。但她始终没能说服自己将它们发表出来。她看到了这场争论中充斥着何等恶毒的言辞，因而退缩了，不愿卷入其中。 [[3](#f3n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "c928e242b396ad119b1f8f7335b06b92f77483de59fa5bbe85d370a0794b3c71",
+      "enMarkdown": "It wasn't just because she disliked fighting. She's so sensitive to character that it repels her even to fight with dishonest people. The idea of mixing it up with linkbait journalists or Twitter trolls would seem to her not merely frightening, but disgusting.",
+      "zhMarkdown": "这不仅是因为她讨厌冲突。她对人性的敏感，使她甚至抗拒与不诚实的人争论。对她来说，与那些靠标题党博眼球的记者或 Twitter 杠精纠缠，不仅令人害怕，更是令人作呕。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "9c9431cc00e45684c3db3091ae4581f4404154e49a5b1d7db68adab162ec5715",
+      "enMarkdown": "But Jessica knew her example as a successful female founder would encourage more women to start companies, so last year she did something YC had never done before and hired a PR firm to get her some interviews. At one of the first she did, the reporter brushed aside her insights about startups and turned it into a sensationalistic story about how some guy had tried to chat her up as she was waiting outside the bar where they had arranged to meet. Jessica was mortified, partly because the guy had done nothing wrong, but more because the story treated her as a victim significant only for being a woman, rather than one of the most knowledgeable investors in the Valley.",
+      "zhMarkdown": "但杰西卡知道，自己作为一个成功女创始人的榜样，会鼓励更多女性去创办公司。于是去年，她破天荒地做了一件 YC 从未做过的事：雇了一家公关公司帮她安排一些采访。在首批采访中，一位记者完全无视了她对创业公司的深刻见解，反而把报道变成了一个猎奇故事，写某个男人如何在她等在约定见面的酒吧外时试图搭讪她。杰西卡感到无地自容，部分原因是因为那个男人并没有做错什么，但更多的是因为这篇报道把她塑造成了一个受害者，其意义仅仅在于她是一个女性，而不是硅谷最懂投资的人之一。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "bbcb0e5f45a87313cbf42679cf6fbb784a58cac7ea0316ef803f2c61c7596e55",
+      "enMarkdown": "After that she told the PR firm to stop.",
+      "zhMarkdown": "在那之后，她叫停了公关公司。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "08c93ff9b047e1f3af99672c96a2d8017009237d836637d04a91036156efbe44",
+      "enMarkdown": "You're not going to be hearing in the press about what Jessica has achieved. So let me tell you what Jessica has achieved. Y Combinator is fundamentally a nexus of people, like a university. It doesn't make a product. What defines it is the people. Jessica more than anyone curated and nurtured that collection of people. In that sense she literally made YC.",
+      "zhMarkdown": "你不会在媒体上读到杰西卡所取得的成就。所以，让我来告诉你杰西卡成就了什么。Y Combinator 从根本上说是一个人的网络，就像一所大学。它不生产产品。定义它的是人。杰西卡比任何人都更用心地筛选和培育了这个群体。在这个意义上，是她亲手塑造了 YC。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "0064bed2298ea28d58d66d3875164087d3020f934d5419449589747ab4636a84",
+      "enMarkdown": "Jessica knows more about the qualities of startup founders than anyone else ever has. Her immense data set and x-ray vision are the perfect storm in that respect. The qualities of the founders are the best predictor of how a startup will do. And startups are in turn the most important source of growth in mature economies.",
+      "zhMarkdown": "杰西卡对创业创始人特质的了解，比历史上任何人都多。她庞大的数据集和 X 光般的洞察力，在这方面堪称完美结合。创始人的特质是预测一家创业公司前景的最佳指标。而创业公司又是成熟经济体中最重要的增长源泉。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "904c2677365af2e709624aeebaa79cc32365332931bf635f3c29e80fff20fc4d",
+      "enMarkdown": "The person who knows the most about the most important factor in the growth of mature economies — that is who Jessica Livingston is. Doesn't that sound like someone who should be better known?",
+      "zhMarkdown": "这个世界上最了解“成熟经济体增长中最核心要素”的人——这就是杰西卡·利文斯顿。这样的人，难道不应该更广为人知吗？"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "d279607c02ef651bad5604a7132a05df750a1260e49940f74f0657add64fe4ed",
+      "enMarkdown": "[1] Harj Taggar reminded me that while Jessica didn't ask many questions, they tended to be important ones:",
+      "zhMarkdown": "[1] 哈吉·塔加尔（Harj Taggar）提醒我，虽然杰西卡问得不多，但往往切中要害："
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "6832bcd0b39f5fb7690366abc2b4b9b78b4867161937745760cb8ac119e9b584",
+      "enMarkdown": "\"She was always good at sniffing out any red flags about the team or their determination and disarmingly asking the right question, which usually revealed more than the founders realized.\"",
+      "zhMarkdown": "“她总是能敏锐地察觉到团队或他们决心上的危险信号，并出其不意地提出正确的问题，而这些问题透露出的信息通常比创始人自己意识到的还要多。”"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "cff311bb174f1f1b30f21622a4469f2e2f9b93d98da10ebffbd0b4be4030f91e",
+      "enMarkdown": "[2] Or more precisely, while she likes getting attention in the sense of getting credit for what she has done, she doesn't like getting attention in the sense of being watched in real time. Unfortunately, not just for her but for a lot of people, how much you get of the former depends a lot on how much you get of the latter.",
+      "zhMarkdown": "[2] 更准确地说，虽然她喜欢在“付出得到认可”的意义上获得关注，但她不喜欢在“实时被盯着看”的意义上获得关注。不幸的是，不仅对她，对许多人来说，你能在前者获得多少，很大程度上取决于你在后者承受了多少。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "5d9876bf1b4db4e347372015adb109a18ac0c9aa205673ed3c529f5be34db800",
+      "enMarkdown": "Incidentally, if you saw Jessica at a public event, you would never guess she hates attention, because (a) she is very polite and (b) when she's nervous, she expresses it by smiling more.",
+      "zhMarkdown": "顺便说一句，如果你在公开活动中看到杰西卡，你绝对猜不到她讨厌关注，因为（a）她非常有礼貌，（b）当她紧张时，她会用更多的微笑来表达。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "19f448a0808b670a3aca2687699365b65c4cc8625a6f21f71a0836f97dce2271",
+      "enMarkdown": "[3] The existence of people like Jessica is not just something the mainstream media needs to learn to acknowledge, but something feminists need to learn to acknowledge as well. There are successful women who don't like to fight. Which means if the public conversation about women consists of fighting, their voices will be silenced.",
+      "zhMarkdown": "[3] 像杰西卡这样的人的存在，不仅是主流媒体需要学会承认的，也是女性主义者需要学会承认的。有些成功的女性并不喜欢争斗。这意味着，如果关于女性的公众讨论变成了相互争斗，她们的声音就会被淹没。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "7ca6c7fca62d6692c2ffbb097ed25446cb2d913c9c00472ba0da19c856698974",
+      "enMarkdown": "There's a sort of Gresham's Law of conversations. If a conversation reaches a certain level of incivility, the more thoughtful people start to leave. No one understands female founders better than Jessica. But it's unlikely anyone will ever hear her speak candidly about the topic. She ventured a toe in that water a while ago, and the reaction was so violent that she decided \"never again.\"",
+      "zhMarkdown": "讨论中存在着一种“劣币驱逐良币”的格雷欣法则。如果一场讨论的粗鄙程度达到一定水平，更具深度的人就会开始离场。没有人比杰西卡更了解女创始人。但人们可能永远听不到她坦诚地公开谈论这个话题。她前阵子曾试着涉足这个领域，但外界的反应如此激烈，以至于她决定“再也不碰了”。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "1c0b69bc90186cffcd7a86d23d7aceaef91d1c2ba6d8daed6c1b5cf04b857103",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, Daniel Gackle, Carolynn Levy, Jon Levy, Kirsty Nathoo, Robert Morris, Geoff Ralston, and Harj Taggar for reading drafts of this. And yes, Jessica Livingston, who made me cut surprisingly little.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Patrick Collison、Daniel Gackle、Carolynn Levy、Jon Levy、Kirsty Nathoo、Robert Morris、Geoff Ralston 和 Harj Taggar 阅读了本文的草稿。当然，还要感谢杰西卡·利文斯顿，她让我删改的地方少得令人吃惊。"
+    }
+  ]
+}

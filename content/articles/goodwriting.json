@@ -1,0 +1,195 @@
+{
+  "slug": "goodwriting",
+  "titleEn": "Good Writing",
+  "titleZh": "好文章",
+  "dateText": "May 2025",
+  "publishedAt": "2025-05-01",
+  "sourceOrder": 7,
+  "sourceUrl": "https://paulgraham.com/goodwriting.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "49a97dd502de0795079131c6f34fd38c2dbe2d3ba3cd8649d45bb90e8cd5dc12",
+      "enMarkdown": "There are two senses in which writing can be good: it can sound good, and the ideas can be right. It can have nice, flowing sentences, and it can draw correct conclusions about important things. It might seem as if these two kinds of good would be unrelated, like the speed of a car and the color it's painted. And yet I don't think they are. I think writing that sounds good is more likely to be right.",
+      "zhMarkdown": "文章之“好”，有两种含义：一是读起来好听，二是观点正确。它既可以拥有流畅优美的句子，也可以对重要事物得出正确的结论。这两种“好”似乎风马牛不相及，就像汽车的速度和车漆的颜色一样。然而，我并不这么认为。我觉得读起来好听的文章，往往更有可能是正确的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "755b737209b8911068f0ce2c87af1d2dc26c19007d1162207d9b94e98ed48753",
+      "enMarkdown": "So here we have the most exciting kind of idea: one that seems both preposterous and true. Let's examine it. How can this possibly be true?",
+      "zhMarkdown": "这正是最令人兴奋的那种观点：看似荒谬，实则正确。让我们来剖析一下。这怎么可能是真的呢？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "909687b31129ea5f5f53f2032a6810fcda60827d3d6b3a5ef4b779854545221a",
+      "enMarkdown": "I know it's true from writing. You can't simultaneously optimize two unrelated things; when you push one far enough, you always end up sacrificing the other. And yet no matter how hard I push, I never find myself having to choose between the sentence that sounds best and the one that expresses an idea best. If I did, it would be frivolous to care how sentences sound. But in practice it feels the opposite of frivolous. Fixing sentences that sound bad seems to help get the ideas right. [[1](#f1n)]",
+      "zhMarkdown": "我是从写作实践中得知这一点的。你无法同时优化两个不相关的事物；当你把其中一个推向极致时，总会牺牲另一个。然而，无论我写得多么用力，我从未发现自己必须在“听起来最好的句子”和“最能表达观点的句子”之间做出妥协。如果真要妥协，那去在乎句子的听感就显得太轻浮了。但在实践中，这种在乎非但不轻浮，反而至关重要。修改那些读起来别扭的句子，似乎总能帮我理清观点。 [[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7e3f65871dd2167b003190fe98fc298388cd93b26e01c96ed14a18b17ac6b275",
+      "enMarkdown": "By right I mean more than just true. Getting the ideas right means developing them well — drawing the conclusions that matter most, and exploring each one to the right level of detail. So getting the ideas right is not just a matter of saying true things, but saying the right true things.",
+      "zhMarkdown": "我所说的“正确”，不仅仅是指“真实”。把观点理清（getting the ideas right）意味着很好地展开它们——得出最重要的结论，并对每一个结论进行恰到好处的深入探讨。因此，理清观点不仅在于说出真话，更在于说出“对的”真话。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4a7901004b990f9749e189dfa141b65e0f5be142eb74ce0903c7a909b594bbb8",
+      "enMarkdown": "How could trying to make sentences sound good help you do that? The clue to the answer is something I noticed 30 years ago when I was doing the layout for my first book. Sometimes when you're laying out text you have bad luck. For example, you get a section that runs one line longer than the page. I don't know what ordinary typesetters do in this situation, but what I did was rewrite the section to make it a line shorter. You'd expect such an arbitrary constraint to make the writing worse. But I found, to my surprise, that it never did. I always ended up with something I liked better.",
+      "zhMarkdown": "努力让句子读起来好听，怎么能帮做到这一点呢？答案的线索源于我 30 年前为自己的第一本书做排版时的发现。有时排版会遇到倒霉的情况。比如，某个章节排出来刚好比页面多出一行。我不知道普通排字工遇到这种情况会怎么做，我的办法是重写这个章节，设法缩短一行。按理说，这种强加的任意限制会让文章变差。但我惊讶地发现，情况从未变糟。重写后的结果总是让我更满意。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "c5838580974fc671162d867826975611cd012aad9f43f4eb368bf313f4768ebf",
+      "enMarkdown": "I don't think this was because my writing was especially careless. I think if you pointed to a random paragraph in anything written by anyone and told them to make it slightly shorter (or longer), they'd probably be able to come up with something better.",
+      "zhMarkdown": "我不认为这是因为我平时的写作特别马虎。我相信，如果你在任何人写的任何文章中随机指出一个段落，让他们稍微缩短（或拉长）一点，他们大概都能改写出更好的版本。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "b8926d963dd4a63b6c9a2821afb878b1843c97b27518abd7cf6678029cba6f1c",
+      "enMarkdown": "The best analogy for this phenomenon is when you shake a bin full of different objects. The shakes are arbitrary motions. Or more precisely, they're not calculated to make any two specific objects fit more closely together. And yet repeated shaking inevitably makes the objects discover brilliantly clever ways of packing themselves. Gravity won't let them become less tightly packed, so any change has to be a change for the better. [[2](#f2n)]",
+      "zhMarkdown": "解释这种现象最好的类比，是摇晃一个装满各种物体的收纳箱。摇晃是无规则的运动。更准确地说，摇晃并不是为了让某两个特定的物体贴合得更紧密而精心计算的。然而，反复的摇晃不可避免地会让物体自己找到精妙的空隙，紧密地排列在一起。重力不会允许它们越晃越松散，因此任何位置的改变都必然是向更好的方向改变。 [[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "32bf2422b244c613852c659ba0e4a108ef665b762ea43807b85a9179a01f33a7",
+      "enMarkdown": "So it is with writing. If you have to rewrite an awkward passage, you'll never do it in a way that makes it *less* true. You couldn't bear it, any more than gravity could bear things floating upward. So any change in the ideas has to be a change for the better.",
+      "zhMarkdown": "写作也是如此。如果你不得不重写一段别扭的文字，你绝不会把它改得“不那么正确”。你无法容忍这一点，就像重力无法容忍物体向上漂浮一样。因此，观点的任何改变都必然是向更好的方向改变。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "b5f29cb5322e394612c3c1152bb8e0cc1fa9648192da5cb262993a9d5ae2b3ca",
+      "enMarkdown": "It's obvious once you think about it. Writing that sounds good is more likely to be right for the same reason that a well-shaken bin is more likely to be tightly packed. But there's something else going on as well. Sounding good isn't just a random external force that leaves the ideas in an essay better off. It actually helps you to get them right.",
+      "zhMarkdown": "一旦你想通了这一点，道理就很明显了。读起来好听的文章更有可能是正确的，原因正如摇晃过的箱子更容易装得紧实一样。但这里面还有更深层的机制。听感好，并不仅仅是一种让文章观点受益的随机外部力量，它实际上能主动帮你理清观点。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "76c81e3e77bc13bb75b60dad557b4cf0063b279b7b55e4ebb56e362705cd1017",
+      "enMarkdown": "The reason is that it makes the essay easier to read. It's less work to read writing that flows well. How does that help the writer? *Because the writer is the first\nreader.* When I'm working on an essay, I spend far more time reading than writing. I'll reread some parts 50 or 100 times, replaying the thoughts in them and asking myself, like someone sanding a piece of wood, does anything catch? Does anything feel wrong? And the easier the essay is to read, the easier it is to notice if something catches.",
+      "zhMarkdown": "原因在于，它让文章更容易阅读。行文流畅的文章读起来不费力。这怎么能帮到作者呢？*因为作者就是第一个读者。* 当我写一篇文章时，我花在阅读上的时间远比写作多。我会把某些部分重读 50 遍甚至 100 遍，在脑海中反复过这些想法，就像用砂纸打磨木头一样问自己：有什么地方卡顿吗？有什么地方感觉不对劲吗？文章越容易读，就越容易察觉到哪里有卡顿。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "d7ce3e6d0dcc078ae3a0b8c8b1e85b88346fdd28f5d2968a95a8148382f3e736",
+      "enMarkdown": "So yes, the two senses of good writing are connected in at least two ways. Trying to make writing sound good makes you fix mistakes unconsciously, and also helps you fix them consciously; it shakes the bin of ideas, and also makes mistakes easier to see. But now that we've dissolved one layer of preposterousness, I can't resist adding another. Does sounding good do more than just help you get the ideas right? Is writing that sounds good *inherently* more likely to be right? Crazy as it may seem, I think that's true too.",
+      "zhMarkdown": "所以，是的，好文章的这两种含义至少在两个层面上是相通的。努力让文章读起来好听，既能让你无意识地纠正错误，也能帮助你更有意识地解决问题；它既摇晃了观点的收纳箱，又让错误无处遁形。既然我们已经剥离了第一层荒谬，我忍不住想再加一层。读起来好听，难道不仅仅是帮助你理清观点吗？读起来好听的文章，是否*本质上*就更有可能是正确的？尽管这听起来很疯狂，但我认为这也是真的。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "7f35d069cd30fd6c372545e95a04f997c953c859a2de80ac1755f5a325d3a399",
+      "enMarkdown": "Obviously there's a connection at the level of individual words. There are lots of words in English that sound like what they mean, often in wonderfully subtle ways. Glitter. Round. Scrape. Prim. Cavalcade. But the sound of good writing depends even more on the way you put words together, and there's a connection at that level too.",
+      "zhMarkdown": "显然，在单词的层面上就存在这种联系。英语中有很多单词的读音和它们的意思高度契合，而且往往精妙无比。比如 Glitter（闪烁）、Round（圆润）、Scrape（刮擦）、Prim（拘谨）、Cavalcade（马队）。但好文章的听感更取决于你如何将单词组合在一起，在那个层面上同样存在这种联系。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "02e43ae5a2318d8e6bb84a2f03a9615c5750b9d1e0cb2cddc1b328b380ed43d5",
+      "enMarkdown": "When writing sounds good, it's mostly because it has good rhythm. But the rhythm of good writing is not the rhythm of music, or the meter of verse. It's not so regular. If it were, it wouldn't be good, because the rhythm of good writing has to match the ideas in it, and ideas have all kinds of different shapes. Sometimes they're simple and you just state them. But other times they're more subtle, and you need longer, more complicated sentences to tease out all the implications.",
+      "zhMarkdown": "文章读起来好听，主要是因为它有好的节奏。但好文章的节奏不是音乐的节奏，也不是诗歌的格律。它没有那么规律。如果太规律，反而不好，因为好文章的节奏必须与其中的观点相匹配，而观点的形状千奇百怪。有时观点很简单，你只需平铺直叙；但有时它们更微妙，你需要更长、更复杂的句子来阐明所有隐含的逻辑。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "be9f6117e55326d4e624e029d75669033cb956fe67628f9a4b63108b4c89c599",
+      "enMarkdown": "An essay is a cleaned up train of thought, in the same way dialogue is cleaned up conversation, and a train of thought has a natural rhythm. So when an essay sounds good, it's not merely because it has a pleasing rhythm, but because it has its natural one. Which means you can use getting the rhythm right as a heuristic for getting the ideas right. And not just in principle: good writers do both simultaneously as a matter of course. Often I don't even distinguish between the two problems. I just think Ugh, this doesn't sound right; what do I mean to say here? [[3](#f3n)]",
+      "zhMarkdown": "一篇文章就是经过梳理的思绪，正如对白是经过梳理的对话一样，而思绪是有自然节奏的。所以，当一篇文章读起来好听时，不仅是因为它有悦耳的节奏，更因为它顺应了思绪的自然节奏。这意味着，你可以把“理顺节奏”作为“理清观点”的一种启发式方法。这不仅在理论上成立，优秀的作者在实践中自然而然地同时做这两件事。通常我甚至不区分这两个问题。我只是觉得“呃，这读起来不对劲；我这里到底想表达什么？” [[3](#f3n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "d32ddc8318a5e4c7ab46212dc632bdd0f142f3ee2b82059f91be574e594b67f0",
+      "enMarkdown": "The sound of writing turns out to be more like the shape of a plane than the color of a car. If it looks good, as Kelly Johnson used to say, it will fly well.",
+      "zhMarkdown": "文章的听感，其实更像飞机的外形，而不是汽车的颜色。正如凯利·约翰逊（Kelly Johnson）常说的：如果它看起来好看，它就能飞得好。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "74782dd83e5df27fdb207e12aef8a78c86bab2aa89db231e223f4e533fa6349d",
+      "enMarkdown": "This is only true of writing that's used to develop ideas, though. It doesn't apply when you have ideas in some other way and then write about them afterward — for example, if you build something, or conduct an experiment, and then write a paper about it. In such cases the ideas often live more in the work than the writing, so the writing can be bad even though the ideas are good. The writing in textbooks and popular surveys can be bad for the same reason: the author isn't developing the ideas, merely describing other people's. It's only when you're writing to develop ideas that there's such a close connection between the two senses of doing it well.",
+      "zhMarkdown": "不过，这只适用于通过写作来推演观点的过程。如果你是通过其他方式获得观点，事后再写下来，这一条就不适用了——例如，如果你做出了某个东西，或者做了一个实验，然后写一篇相关的论文。在这种情况下，观点更多地存在于工作本身而不是文字中，所以即使观点很好，文章也可能写得很烂。教科书和科普综述写得不好也是出于同样的原因：作者并不是在推演观点，而只是在描述别人的观点。只有当你通过写作来推演观点时，把文章写好和把观点理清之间才会有如此紧密的联系。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "219080ab4f8461984cd49434fe7f65c911195e8231416ccb7588f9f8e7d6991a",
+      "enMarkdown": "Ok, many people will be thinking, this seems plausible so far, but what about liars? Is it not notoriously possible for a smooth-tongued liar to write something beautiful that's completely false?",
+      "zhMarkdown": "好，很多人可能会想，到目前为止这听起来还算合理，但骗子怎么说？一个口齿伶俐的骗子写出优美却完全虚假的东西，这难道不是众所周知的事实吗？"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "85ddfb015aab081a425cb47d6be04e15d150d051bbf775add8b8ce5b85439d45",
+      "enMarkdown": "It is, of course. But not without method acting. The way to write something beautiful and false is to begin by making yourself almost believe it. So just like someone writing something beautiful and true, you're presenting a perfectly-formed train of thought. The difference is the point where it attaches to the world. You're saying something that would be true if certain false premises were. If for some bizarre reason the number of jobs in a country were fixed, then immigrants really would be taking our jobs.",
+      "zhMarkdown": "当然可能。但这必须借助“方法派演技”。要写出优美而虚假的东西，方法是先让自己几乎相信它。因此，就像写出优美而真实的东西一样，你展现的是一个完美成型的思绪。区别在于它与现实世界连接的那个锚点。你是在说，如果某些虚假的前提成立，那么这句话就是真的。如果因为某种荒谬的原因，一个国家的就业岗位数量是固定的，那么移民确实会抢走我们的工作。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "63ea5940d33865b18d5f933fd63e4e2b501a436258902af87dc514b0a0e85964",
+      "enMarkdown": "So it's not quite right to say that better sounding writing is more likely to be true. Better sounding writing is more likely to be internally consistent. If the writer is honest, internal consistency and truth converge.",
+      "zhMarkdown": "所以，说“读起来越好听的文章越有可能是真的”并不完全准确。读起来越好听的文章，越有可能在逻辑上自洽。如果作者是诚实的，那么逻辑自洽与真实就会合二为一。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "f22040afbb585aaefdc6a043d5cf84edd07c169cd91f88a895b2725a5b8519f5",
+      "enMarkdown": "But while we can't safely conclude that beautiful writing is true, it's usually safe to conclude the converse: something that seems clumsily written will usually have gotten the ideas wrong too.",
+      "zhMarkdown": "虽然我们不能轻率地断定优美的文字就是真理，但反过来的结论通常是成立的：如果一段文字写得笨拙生硬，它的观点通常也错漏百出。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "baf2cfb03388364735ee0f8177c88851df894035ca5cca4e2045d93ec5303f47",
+      "enMarkdown": "Indeed, the two senses of good writing are more like two ends of the same thing. The connection between them is not a rigid one; the goodness of good writing is not a rod but a rope, with multiple overlapping connections running through it. But it's hard to move one end without moving the other. It's hard to be right without sounding right.",
+      "zhMarkdown": "事实上，好文章的这两种含义更像是同一根绳子的两端。它们之间的连接并不是刚性的；好文章的品质不是一根硬邦邦的铁棒，而是一股绳索，中间有许多交织重叠的联系。但你很难在不移动一端的情况下移动另一端。观点正确，却读起来别扭，这是很难做到的。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "cf31c454ff011eebbd938a16286221dcb20b63a913c8614c191b504780fb1322",
+      "enMarkdown": "[1] The closest thing to an exception is when you have to go back and insert a new point into the middle of something you've written. This often messes up the flow, sometimes in ways you can never quite repair. But I think the ultimate source of this problem is that ideas are tree-shaped and essays are linear. You inevitably run into difficulties when you try to cram the former into the latter. Frankly it's surprising how much you can get away with. But even so you sometimes have to resort to an endnote.",
+      "zhMarkdown": "[1] 最接近例外的例外是，你必须回过头去，在写好的内容中间插入一个新的观点。这往往会破坏行文的流畅度，有时甚至到了无法完全修复的地步。但我认为这个问题的根本原因在于，观点呈树状结构，而文章是线性的。当你试图把前者塞进后者时，不可避免地会遇到困难。坦白说，你能蒙混过关的次数之多，已经令人惊讶了。但即便如此，有时你也不得不求助于尾注。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "7f9f0abbc860ea99da6f97f2a06262f7baa5d94a9ca3fdcea98e394e29957de2",
+      "enMarkdown": "[2] Obviously if you shake the bin hard enough the objects in it can become less tightly packed. And similarly, if you imposed some huge external constraint on your writing, like using alternating one and two syllable words, the ideas would start to suffer.",
+      "zhMarkdown": "[2] 显然，如果你摇晃箱子用力过猛，里面的物体反而会变得不那么紧实。同样地，如果你对写作施加了巨大的外部限制，比如交替使用单音节和双音节词，那么观点的表达就会开始受损。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "69e899764bc1d708c4b52aaf64e0883bce79b603dc6c11ba0a249d54df2259e2",
+      "enMarkdown": "[3] Bizarrely enough, this happened in the writing of this very paragraph. An earlier version shared several phrases in common with the preceding paragraph, and the repetition bugged me each time I reread it. When I got annoyed enough to fix it, I discovered that the repetition reflected a problem in the underlying ideas, and I fixed both simultaneously.",
+      "zhMarkdown": "[3] 极其离奇的是，写这一段时就发生了这种情况。早先的版本与前一段有几个相同的短语，每次重读时这种重复都让我很烦。当我终于烦到要去修改它时，我发现这种重复反映了底层观点中的一个漏洞，于是我同时把这两个问题都解决了。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "90c5c48c6fef28fab5928e5040ba7c580e1849011d98d0549c78e1458a117d15",
+      "enMarkdown": "**Thanks** to Jessica Livingston and Courtenay Pipkin for reading drafts of this.",
+      "zhMarkdown": "**感谢** Jessica Livingston 和 Courtenay Pipkin 阅读了本文草稿。"
+    }
+  ]
+}

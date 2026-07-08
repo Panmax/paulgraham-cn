@@ -1,0 +1,125 @@
+{
+  "slug": "reddits",
+  "titleEn": "The Reddits",
+  "titleZh": "Reddit 的往事",
+  "dateText": "March 2024",
+  "publishedAt": "2024-03-01",
+  "sourceOrder": 14,
+  "sourceUrl": "https://paulgraham.com/reddits.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5e6f44db1ccc8bb3451842de3e5724e7650640c2920134ffae0ef8a65ed403ed",
+      "enMarkdown": "I met the Reddits before we even started Y Combinator. In fact they were one of the reasons we started it.",
+      "zhMarkdown": "在创立 Y Combinator 之前，我就认识了 Reddit 的创始人们。事实上，他们正是我们决定创办 YC 的原因之一。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "6c57ee2a9542b8d8b5aba104e2b78aa4cea76ce7f6fafcf141e021e172fbe346",
+      "enMarkdown": "YC grew out of a talk I gave to the Harvard Computer Society (the undergrad computer club) about how to start a startup. Everyone else in the audience was probably local, but Steve and Alexis came up on the train from the University of Virginia, where they were seniors. Since they'd come so far I agreed to meet them for coffee. They told me about the startup idea we'd later fund them to drop: a way to order fast food on your cellphone.",
+      "zhMarkdown": "YC 的诞生源于我在哈佛大学计算机学会（本科生计算机社团）做的一场关于如何创业的演讲。听众席里的其他人可能都是本地人，但 Steve 和 Alexis 却是从弗吉尼亚大学坐火车赶来的，当时他们正读大四。既然他们跑了这么远，我便答应和他们一起喝杯咖啡。他们向我透露了当时的创业点子，也就是后来我们资助他们放弃的那个项目：一个用手机订购快餐的方案。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "167e62c9303d56c960aa2282d30762acc2165bd76e9c396b49f537b7acc7c776",
+      "enMarkdown": "This was before smartphones. They'd have had to make deals with cell carriers and fast food chains just to get it launched. So it was not going to happen. It still doesn't exist, 19 years later. But I was impressed with their brains and their energy. In fact I was so impressed with them and some of the other people I met at that talk that I decided to start something to fund them. A few days later I told Steve and Alexis that we were starting Y Combinator, and encouraged them to apply.",
+      "zhMarkdown": "那是在智能手机出现之前。要让这个项目上线，他们必须先和移动运营商以及快餐连锁店达成协议。所以这根本行不通。19 年后的今天，这样的东西依然不存在。但他们的聪明才智和充沛精力给我留下了深刻印象。事实上，他们以及我在那场演讲中遇到的其他一些人，给我带来的触动如此之大，以至于我决定成立一个机构来资助他们。几天后，我告诉 Steve 和 Alexis 我们正在创办 Y Combinator，并鼓励他们提交申请。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "f3decec1eecff74870ac34d0237d6dcc76b6052651977d8fe169e337d243ef36",
+      "enMarkdown": "That first batch we didn't have any way to identify applicants, so we made up nicknames for them. The Reddits were the \"Cell food muffins.\" \"Muffin\" is a term of endearment Jessica uses for things like small dogs and two year olds. So that gives you some idea what kind of impression Steve and Alexis made in those days. They had the look of slightly ruffled surprise that baby birds have.",
+      "zhMarkdown": "在第一期训练营中，我们还没有任何识别申请人的系统方法，所以给他们起了绰号。Reddit 被称为“手机食品小松饼（Cell food muffins）”。“松饼（Muffin）”是 Jessica 对小狗或两岁幼童这类可爱事物的昵称。由此你大概能想象出 Steve 和 Alexis 当时给人留下的印象。他们脸上带着一种像幼鸟般微微受惊、羽毛凌乱的惊奇神态。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "e0a1bed1735c2c77e5e82b792babd6a3d8bcbbd03dc479d1fec7e28f4ee43e08",
+      "enMarkdown": "Their idea was bad though. And since we thought then that we were funding ideas rather than founders, we rejected them. But we felt bad about it. Jessica was sad that we'd rejected the muffins. And it seemed wrong to me to turn down the people we'd been inspired to start YC to fund.",
+      "zhMarkdown": "不过，他们的点子确实很糟。由于当时我们认为自己资助的是点子而不是创始人，所以拒绝了他们。但我们心里很难受。Jessica 因为我们拒绝了这群“小松饼”而感到难过。在我看来，拒绝那些最初激发了我们创办 YC 去资助的同批人，似乎也说不过去。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d41c1be43532a25074ad1e14f3266a6b4c29f9807a3600df099d9933e6fa80b3",
+      "enMarkdown": "I don't think the startup sense of the word \"pivot\" had been invented yet, but we wanted to fund Steve and Alexis, so if their idea was bad, they'd have to work on something else. And I knew what else. In those days there was a site called Delicious where you could save links. It had a page called del.icio.us/popular that listed the most-saved links, and people were using this page as a de facto Reddit. I knew because a lot of the traffic to my site was coming from it. There needed to be something like del.icio.us/popular, but designed for sharing links instead of being a byproduct of saving them.",
+      "zhMarkdown": "我想当时创业语境下的“转型（pivot）”一词还没有被发明出来，但我们想资助 Steve 和 Alexis，既然他们的点子不行，那就必须做点别的。而我刚好知道该做什么。那时候有一个叫 Delicious 的网站，可以用来保存链接。它有一个名为 del.icio.us/popular 的页面，列出了被保存次数最多的链接，人们实际上把这个页面当成 Reddit 来用。我之所以知道，是因为我网站的很大一部分流量都来自那里。市场需要一个像 del.icio.us/popular 那样的东西，但它应该专门为分享链接而设计，而不是作为保存链接的副产品。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "603049ad69af21e347c7f3034d5649a49c628c7fac3f4373cd46257074c0f68b",
+      "enMarkdown": "So I called Steve and Alexis and said that we liked them, just not their idea, so we'd fund them if they'd work on something else. They were on the train home to Virginia at that point. They got off at the next station and got on the next train north, and by the end of the day were committed to working on what's now called Reddit.",
+      "zhMarkdown": "于是我给 Steve 和 Alexis 打了电话，说我们很欣赏他们，只是不喜欢他们的点子，如果他们愿意做点别的，我们就给他们投资。当时他们正坐在回弗吉尼亚的火车上。听到这话，他们立即在下一站下车，搭上了折返北上的下一班列车。在当天结束前，他们已经决定全力投入开发现在被称为 Reddit 的项目。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "fd8eb828d21c65e6a87deb0d8c62b19ce3f5307e67199af44d499eb28bfbf635",
+      "enMarkdown": "They would have liked to call it Snoo, as in \"What snoo?\" But snoo.com was too expensive, so they settled for calling the mascot Snoo and picked a name for the site that wasn't registered. Early on Reddit was just a provisional name, or so they told me at least, but it's probably too late to change it now.",
+      "zhMarkdown": "他们原本想给它起名叫 Snoo，取“What's new?（有什么新鲜事？）”的谐音。但 snoo.com 这个域名太贵了，于是他们折中了一下，把吉祥物命名为 Snoo，并为网站选了一个尚未被注册的名字。起初，Reddit 只是一个临时名称，至少他们是这么跟我的，但现在想改恐怕已经太迟了。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "42b24e6b3efb880b3b6c78f69af9a5d625145b2e441f5988155c0e1cf6bdff67",
+      "enMarkdown": "As with all the really great startups, there's an uncannily close match between the company and the founders. Steve in particular. Reddit has a certain personality — curious, skeptical, ready to be amused — and that personality is Steve's.",
+      "zhMarkdown": "与所有真正伟大的创业公司一样，这家公司与创始人之间有着一种不可思议的契合。尤其是 Steve。Reddit 有一种独特的个性——好奇、怀疑、乐于寻找乐子——而这种个性正是 Steve 本人的写照。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "66271efe63f490c095ee59b2f2ef5df0dc24cce16a2fc9a07f5b120761e2a813",
+      "enMarkdown": "Steve will roll his eyes at this, but he's an intellectual; he's interested in ideas for their own sake. That was how he came to be in that audience in Cambridge in the first place. He knew me because he was interested in a programming language I've written about called Lisp, and Lisp is one of those languages few people learn except out of intellectual curiosity. Steve's kind of vacuum-cleaner curiosity is exactly what you want when you're starting a site that's a list of links to literally anything interesting.",
+      "zhMarkdown": "Steve 听到这话可能会翻白眼，但他确实是个知识分子；他纯粹为了想法本身而对想法产生兴趣。这就是他最初出现在剑桥那场演讲听众席里的原因。他之所以认识我，是因为他对我写过的一种名为 Lisp 的编程语言感兴趣，而 Lisp 正是那种极少有人会仅仅出于求知欲之外的目的去学习的语言。Steve 那种吸尘器般无所不包的好奇心，正是创办一个旨在汇聚任何有趣链接的网站所需要的特质。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f595037a5cb70bf04e76b49f9f789329aec38a24c936326d1caa54fd7ff8bd44",
+      "enMarkdown": "Steve was not a big fan of authority, so he also liked the idea of a site without editors. In those days the top forum for programmers was a site called Slashdot. It was a lot like Reddit, except the stories on the frontpage were chosen by human moderators. And though they did a good job, that one small difference turned out to be a big difference. Being driven by user submissions meant Reddit was fresher than Slashdot. News there was newer, and users will always go where the newest news is.",
+      "zhMarkdown": "Steve 并不怎么崇拜权威，因此他也喜欢做一个没有编辑的网站的想法。在那些日子里，程序员最顶级的论坛是一个叫 Slashdot 的网站。它和 Reddit 很像，只不过首页上的文章是由人工版主挑选的。虽然他们做得很好，但这一个小小的区别最终带来了巨大的差异。由用户提交内容驱动，意味着 Reddit 比 Slashdot 更具时效性。那里的新闻更新，而用户总是会流向最新消息聚集的地方。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "9a3e7f9f96054f047b29da5029d11d47afb3172cd99d8248c2ceb400b99bb5d6",
+      "enMarkdown": "I pushed the Reddits to launch fast. A version one didn't need to be more than a couple hundred lines of code. How could that take more than a week or two to build? And they did launch comparatively fast, about three weeks into the first YC batch. The first users were Steve, Alexis, me, and some of their YC batchmates and college friends. It turns out you don't need that many users to collect a decent list of interesting links, especially if you have multiple accounts per user.",
+      "zhMarkdown": "我催促 Reddit 团队尽快上线。第一版不需要超过几百行代码。这怎么可能需要超过一两周的时间来构建呢？他们上线的速度确实相对较快，大约在第一期 YC 开始后的第三周就发布了。最初的用户是 Steve、Alexis、我，以及他们的一些 YC 同期同学和大学朋友。事实证明，你不需要那么多用户就能汇集起一份相当不错的有趣链接清单，尤其是当每个用户都拥有多个账号的时候。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "3395ccd0cdfb0148748e35bb349042d7a01bb3abe7c80ca86e56bd3363c6f874",
+      "enMarkdown": "Reddit got two more people from their YC batch: Chris Slowe and Aaron Swartz, and they too were unusually smart. Chris was just finishing his PhD in physics at Harvard. Aaron was younger, a college freshman, and even more anti-authority than Steve. It's not exaggerating to describe him as a martyr for what authority later did to him.",
+      "zhMarkdown": "Reddit 还从他们的 YC 同期同学中挖来了另外两个人：Chris Slowe 和 Aaron Swartz，他们同样聪明过人。Chris 当时刚在哈佛大学完成物理学博士学位。Aaron 年龄更小，是个大学新生，而且比 Steve 还要反权威。把他描述为因后来权威对他的所作所为而牺牲的烈士，一点也不夸张。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "aba1f02387ecbd04239fb005950820fbd38e984983b4f46a91741de5b18e0887",
+      "enMarkdown": "Slowly but inexorably Reddit's traffic grew. At first the numbers were so small they were hard to distinguish from background noise. But within a few weeks it was clear that there was a core of real users returning regularly to the site. And although all kinds of things have happened to Reddit the company in the years since, Reddit the *site* never looked back.",
+      "zhMarkdown": "缓慢但不可阻挡地，Reddit 的流量开始增长。起初，数据小到几乎无法与背景噪音区分开来。但几周之内，情况就明朗了：有一批真正的核心用户开始定期访问该网站。尽管在此后的岁月里，Reddit 这家公司历经风雨，但 Reddit 这个*网站*却从未走过回头路。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "0a13ba70d14bf8e09a07c443534f982dce76d359a482879d3e1c1b6f25186396",
+      "enMarkdown": "Reddit the site (and now app) is such a fundamentally useful thing that it's almost unkillable. Which is why, despite a long stretch after Steve left when the management strategy ranged from benign neglect to spectacular blunders, traffic just kept growing. You can't do that with most companies. Most companies you take your eye off the ball for six months and you're in deep trouble. But Reddit was special, and when Steve came back in 2015, I knew the world was in for a surprise.",
+      "zhMarkdown": "Reddit 网站（以及现在的 App）是一个从根本上如此实用的东西，以至于它几乎是不可摧毁的。这就是为什么在 Steve 离开后的一长段时间里，尽管管理策略从“顺其自然的忽视”到“灾难性的失误”不等，它的流量却依然在持续增长。在大多数公司，你是不可能做到这一点的。对于大多数公司来说，只要你有六个月不关注核心业务，就会陷入深重的危机。但 Reddit 是个例外，当 Steve 在 2015 年回归时，我知道世界将会迎来一个惊喜。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "a91611bfda918fbb8418358a98e8bed28b8528a59d05247c7bbb69213788f6dd",
+      "enMarkdown": "People thought they had Reddit's number: one of the players in Silicon Valley, but not one of the big ones. But those who knew what had been going on behind the scenes knew there was more to the story than this. If Reddit could grow to the size it had with management that was harmless at best, what could it do if Steve came back? We now know the answer to that question. Or at least a lower bound on the answer. Steve is not out of ideas yet.",
+      "zhMarkdown": "人们曾以为自己已经看透了 Reddit：不过是硅谷的玩家之一，但算不上巨头。但那些了解幕后情况的人知道，故事远不止于此。如果 Reddit 在管理层充其量只能算无功无过的情况下，都能成长到如此规模，那么如果 Steve 回归，它能做到什么程度？我们现在知道了这个问题的答案。或者至少，知道了这个答案的下限。Steve 的点子还没用完呢。"
+    }
+  ]
+}

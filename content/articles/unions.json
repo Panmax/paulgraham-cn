@@ -1,0 +1,97 @@
+{
+  "slug": "unions",
+  "titleEn": "An Alternative Theory of Unions",
+  "titleZh": "工会理论的另一种视角",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 153,
+  "sourceUrl": "https://paulgraham.com/unions.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "966f3f4173900b742a58517eaad891077ec662ec2125fd079447e1649e18fd00",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/an-alternative-theory-of-unions-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/an-alternative-theory-of-unions-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "254399d58feb7692a1c52f9e15f85b926a9ad6631ddaf9378ef8ae72b0ca9b24",
+      "enMarkdown": "May 2007",
+      "zhMarkdown": "2007年5月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "92ce6f305f47edec6d0d5bc8a1631fe1f8d3d366fc1c82f53037f1b591f9dfaa",
+      "enMarkdown": "People who worry about the increasing gap between rich and poor generally look back on the mid twentieth century as a golden age. In those days we had a large number of high-paying union manufacturing jobs that boosted the median income. I wouldn't quite call the high-paying union job a myth, but I think people who dwell on it are reading too much into it.",
+      "zhMarkdown": "那些担忧贫富差距日益扩大的群体，通常会将20世纪中叶视为一个黄金时代。在那个时期，大量高薪的工会制造业岗位拉高了收入中位数。我倒不至于把“高薪工会岗位”完全称为一个神话，但我认为过分纠结于此的人，有些过度解读了。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "05679f0f63d7713c8633201b60e63e6268735872af9544b8c726b4a594c76940",
+      "enMarkdown": "Oddly enough, it was working with startups that made me realize where the high-paying union job came from. In a rapidly growing market, you don't worry too much about efficiency. It's more important to grow fast. If there's some mundane problem getting in your way, and there's a simple solution that's somewhat expensive, just take it and get on with more important things. EBay didn't win by paying less for servers than their competitors.",
+      "zhMarkdown": "说来也怪，正是通过与创业公司打交道，我才明白那些高薪工会岗位究竟从何而来。在一个快速增长的市场中，你不会太在意效率，更重要的是快速成长。如果有个琐碎的难题挡了路，而有个稍微昂贵但简单的解决方案，那就直接采用它，然后继续做更重要的事。eBay 当年胜出，可不是靠买服务器比对手省钱。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "6d8bf9e0fad273bdfc3313319bc98de8f432deafcfd02484f7c83d34dff799f0",
+      "enMarkdown": "Difficult though it may be to imagine now, manufacturing was a growth industry in the mid twentieth century. This was an era when small firms making everything from cars to candy were getting consolidated into a new kind of corporation with national reach and huge economies of scale. You had to grow fast or die. Workers were for these companies what servers are for an Internet startup. A reliable supply was more important than low cost.",
+      "zhMarkdown": "虽然现在可能很难想象，但在20世纪中叶，制造业曾是一个成长型行业。在那个时代，从汽车到糖果，生产各种产品的落后小企业正被整合进一种新型公司——这种公司具有全国性的影响力，并拥有巨大的规模经济。你要么快速成长，要么死掉。对这些公司来说，工人就像是互联网创业公司的服务器。可靠的供应比低廉的成本更为重要。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "0310e1c7a2e2a0526e9422d5c2b40cc201a6c6bdabaf88ab4d69ec4d102de06a",
+      "enMarkdown": "If you looked in the head of a 1950s auto executive, the attitude must have been: sure, give 'em whatever they ask for, so long as the new model isn't delayed.",
+      "zhMarkdown": "如果你能看透20世纪50年代汽车行业高管的心思，他们的态度一定是：没问题，要什么就给什么，只要新车型不被耽误就行。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "cbb7a7066a62f06d8c4cc137e2f7aff00c8028c0d039ece7ea7e2406367cbc53",
+      "enMarkdown": "In other words, those workers were not paid what their work was worth. Circumstances being what they were, companies would have been stupid to insist on paying them so little.",
+      "zhMarkdown": "换句话说，那些工人的薪水并不是他们工作的实际价值。在当时的情况下，公司如果硬要压低他们的工资，那就太愚蠢了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "fbdcb0eb8c4f2e31cd5219a9a1cd8ed8e7d120942dba145f4f56cd07f49cda6c",
+      "enMarkdown": "If you want a less controversial example of this phenomenon, ask anyone who worked as a consultant building web sites during the Internet Bubble. In the late nineties you could get paid huge sums of money for building the most trivial things. And yet does anyone who was there have any expectation those days will ever return? I doubt it. Surely everyone realizes that was just a temporary aberration.",
+      "zhMarkdown": "如果你想要一个争议较小的类似例子，去问问在互联网泡沫时期做网站建设咨询的任何人吧。在90年代末，你哪怕做最微不足道的东西，也能拿到巨额的报酬。然而，经历过那个时期的人，有谁会指望那些日子能重现吗？我表示怀疑。肯定每个人都明白，那不过是一次暂时的反常现象。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "40391b7e2f88a58047db8b1a234cb581a1438794939e74c03c94caae6281137b",
+      "enMarkdown": "The era of labor unions seems to have been the same kind of aberration, just spread over a longer period, and mixed together with a lot of ideology that prevents people from viewing it with as cold an eye as they would something like consulting during the Bubble.",
+      "zhMarkdown": "工会时代似乎也是同一种反常现象，只是持续的时间更长，并且夹杂了太多的意识形态，以至于人们无法像看待泡沫时期的咨询业那样，用冷峻的眼光来看待它。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d77f4268b4078f4d3e928f21317b15fed9e8b55585d1168a1b1ebe939654abdf",
+      "enMarkdown": "Basically, unions were just Razorfish.",
+      "zhMarkdown": "说白了，当年的工会就像是 Razorfish（泡沫时期的天价咨询公司）。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "7d35a43ab09d46ed4b4747f9f7ca3ea050f7c04d33ce3eff03ab0a7ce4fde1d2",
+      "enMarkdown": "People who think the labor movement was the creation of heroic union organizers have a problem to explain: why are unions shrinking now? The best they can do is fall back on the default explanation of people living in fallen civilizations. Our ancestors were giants. The workers of the early twentieth century must have had a moral courage that's lacking today.",
+      "zhMarkdown": "那些认为劳工运动是由英雄般的工会组织者缔造的人，面临着一个难以解释的问题：为什么现在的工会正在萎缩？他们能给出的最好解释，不外乎是生活在衰落文明中的人常有的那一套：我们的祖先是巨人。20世纪初的工人们一定拥有今天所缺失的道德勇气。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ac09b77cead69c98cf8679e450faecd7c61f16f87a86d65ab1d3c8636eb1c71b",
+      "enMarkdown": "In fact there's a simpler explanation. The early twentieth century was just a fast-growing startup overpaying for infrastructure. And we in the present are not a fallen people, who have abandoned whatever mysterious high-minded principles produced the high-paying union job. We simply live in a time when the fast-growing companies overspend on different things.",
+      "zhMarkdown": "实际上，有一个更简单的解释。20世纪初不过是一家快速成长的创业公司，在基础设施上多花了钱。而生活在当下的我们，并不是背弃了创造高薪工会岗位的某种神秘高尚原则的堕落一代。我们只是生活在一个快速成长的公司把超额预算花在其他地方的时代。"
+    }
+  ]
+}

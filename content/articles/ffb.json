@@ -1,0 +1,146 @@
+{
+  "slug": "ffb",
+  "titleEn": "Filters that Fight Back",
+  "titleZh": "反击型过滤器",
+  "dateText": "August 2003",
+  "publishedAt": "2003-08-01",
+  "sourceOrder": 204,
+  "sourceUrl": "https://paulgraham.com/ffb.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ddbc8cee8c1c0162183ece57f66541a1010d749deb86e125ccd5f371f2899f7f",
+      "enMarkdown": "We may be able to improve the accuracy of Bayesian spam filters by having them follow links to see what's waiting at the other end. Richard Jowsey of [death2spam](http://death2spam.com) now does this in borderline cases, and reports that it works well.",
+      "zhMarkdown": "我们或许可以通过让贝叶斯垃圾邮件过滤器追踪邮件中的链接，看看链接另一端是什么，来提高过滤的准确率。[death2spam](http://death2spam.com) 的 Richard Jowsey 目前在处理疑似垃圾邮件的边缘案例时就采用了这种方法，并反馈说效果很好。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "dd835d3b3d1ecb217b596bab502583862d3e4c7512115146646bb0076938ca2b",
+      "enMarkdown": "Why only do it in borderline cases? And why only do it once?",
+      "zhMarkdown": "但为什么只在边缘案例中这样做？又为什么只做一次呢？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "7ce2f32c3e9099cec46f974b1012327b978881ea2cd68463616c04a7836c7747",
+      "enMarkdown": "As I mentioned in [Will Filters Kill Spam?](https://paulgraham.com/wfks.html), following all the urls in a spam would have an amusing side-effect. If popular email clients did this in order to filter spam, the spammer's servers would take a serious pounding. The more I think about this, the better an idea it seems. This isn't just amusing; it would be hard to imagine a more perfectly targeted counterattack on spammers.",
+      "zhMarkdown": "正如我在[《过滤器会消灭垃圾邮件吗？》](https://paulgraham.com/wfks.html)一文中所提到的，追踪垃圾邮件中的所有 URL 会带来一个有趣的副作用。如果主流邮件客户端都通过这种方式来过滤垃圾邮件，垃圾邮件发送者的服务器将会承受沉重的打击。我越思考这个问题，就越觉得这是个好主意。这不仅有趣，而且很难想象还有什么能比这更精准地反击垃圾邮件发送者了。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7b51d831d5328ca0d1291a5d6fccb4803ac2de975abaf8ea383f32b6124592ad",
+      "enMarkdown": "So I'd like to suggest an additional feature to those working on spam filters: a \"punish\" mode which, if turned on, would spider every url in a suspected spam n times, where n could be set by the user. [1]",
+      "zhMarkdown": "因此，我想给那些开发垃圾邮件过滤器的人建议一个新功能：一个“惩罚”模式。一旦开启，它就会对疑似垃圾邮件中的每个 URL 进行 $n$ 次爬取，其中 $n$ 的数值可由用户自行设置。[1]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1680332c9f737f4efdcd5c1e5f893cd32c3942e74b51b97475c9b8a6c524ec47",
+      "enMarkdown": "As many people have noted, one of the problems with the current email system is that it's too passive. It does whatever you tell it. So far all the suggestions for fixing the problem seem to involve new protocols. This one wouldn't.",
+      "zhMarkdown": "正如许多人指出的那样，现行电子邮件系统的问题之一在于它太被动了。你让它做什么，它就做什么。到目前为止，所有解决这个问题的建议似乎都涉及新协议。而这个方案不需要。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "41ad3016400b7dc9b24d7a781f5c226e45e829e0678b5dbf13ca6897272b49ab",
+      "enMarkdown": "If widely used, auto-retrieving spam filters would make the email system *rebound.* The huge volume of the spam, which has so far worked in the spammer's favor, would now work against him, like a branch snapping back in his face. Auto-retrieving spam filters would drive the spammer's [costs](http://www.bork.ca/pics/?path=incoming&img=bill.jpg) up, and his sales down: his bandwidth usage would go through the roof, and his servers would grind to a halt under the load, which would make them unavailable to the people who would have responded to the spam.",
+      "zhMarkdown": "如果被广泛使用，这种具有自动获取功能的垃圾邮件过滤器将让电子邮件系统产生“反弹”效应。垃圾邮件庞大的数量——至今为止一直是垃圾邮件发送者的优势——现在将反过来对付他，就像一根树枝猛地弹回，抽在他自己脸上。自动获取的过滤器会拉高垃圾邮件发送者的[运营成本](http://www.bork.ca/pics/?path=incoming&img=bill.jpg)，并降低其销售额：他的带宽占用会冲上天际，他的服务器会因超载而瘫痪，从而导致那些真正想响应垃圾邮件的人无法访问。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "e705fda79b5f0995af2e6f5bfb7e8c77e00e2d3f151713f05f6f2a13739471c2",
+      "enMarkdown": "Pump out a million emails an hour, get a million hits an hour on your servers.",
+      "zhMarkdown": "你一小时群发一百万封邮件，你的服务器一小时就会迎来一百万次访问。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "beb0671279dc420d6601a1669c74a6f044a32603a7076e7d0b581c803918d74e",
+      "enMarkdown": "We would want to ensure that this is only done to suspected spams. As a rule, any url sent to millions of people is likely to be a spam url, so submitting every http request in every email would work fine nearly all the time. But there are a few cases where this isn't true: the urls at the bottom of mails sent from free email services like Yahoo Mail and Hotmail, for example.",
+      "zhMarkdown": "我们需要确保这只针对疑似垃圾邮件进行。通常来说，任何发送给数百万人的 URL 都很可能是垃圾邮件链接，因此对每封邮件中的每个 HTTP 请求进行这种操作，几乎在所有时候都能正常工作。但在少数情况下，事实并非如此：例如，从 Yahoo Mail 和 Hotmail 等免费邮件服务发送的邮件底部的 URL。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "57748b9c964e178947123510a785094df04678a16af15676b309a0892a0ccf5f",
+      "enMarkdown": "To protect such sites, and to prevent abuse, auto-retrieval should be combined with blacklists of spamvertised sites. Only sites on a blacklist would get crawled, and sites would be blacklisted only after being inspected by humans. The lifetime of a spam must be several hours at least, so it should be easy to update such a list in time to interfere with a spam promoting a new site. [2]",
+      "zhMarkdown": "为了保护这些网站并防止滥用，自动获取应该与“垃圾推广网站黑名单”结合使用。只有黑名单上的网站才会被爬取，而且网站只有在经过人工审核后才会被列入黑名单。垃圾邮件的生命周期至少有几个小时，因此应该很容易及时更新此类名单，从而干预推广新网站的垃圾邮件。[2]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "a55de0f348b8518b0eb839ee2a9752b002b69240591e3ae15b04b87e4a8e06d8",
+      "enMarkdown": "High-volume auto-retrieval would only be practical for users on high-bandwidth connections, but there are enough of those to cause spammers serious trouble. Indeed, this solution neatly mirrors the problem. The problem with spam is that in order to reach a few gullible people the spammer sends mail to everyone. The non-gullible recipients are merely collateral damage. But the non-gullible majority won't stop getting spam until they can stop (or threaten to stop) the gullible from responding to it. Auto-retrieving spam filters offer them a way to do this.",
+      "zhMarkdown": "高流量的自动获取只对高带宽连接的用户才实用，但这类用户已经足够给垃圾邮件发送者带来严重麻烦了。事实上，这个解决方案完美地映射了问题本身。垃圾邮件的问题在于，为了触达少数容易上当受骗的人，发送者会给每个人发信。那些不上当的接收者仅仅是附带伤害。但是，不上当的多数人如果不去阻止（或威胁阻止）那些上当的人做出响应，他们自己就无法免受垃圾邮件的打扰。自动获取的垃圾邮件过滤器为他们提供了一种实现这一目标的方法。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "f432d14f956d1d29f3a8f90f793ee95046deea08565f10a4ee03a5f4a73cf641",
+      "enMarkdown": "Would that kill spam? Not quite. The biggest spammers could probably protect their servers against auto-retrieving filters. However, the easiest and cheapest way for them to do it would be to include working unsubscribe links in their mails. And this would be a necessity for smaller fry, and for \"legitimate\" sites that hired spammers to promote them. So if auto-retrieving filters became widespread, they'd become auto-unsubscribing filters.",
+      "zhMarkdown": "这会消灭垃圾邮件吗？倒也不至于。最大的垃圾邮件发送者大概能保护他们的服务器免受自动获取过滤器的影响。然而，对他们来说，最简单、最便宜的应对方法是在邮件中加入有效的退订链接。而这对于小角色，以及雇佣垃圾邮件发送者进行推广的“正规”网站来说，将是必不可少的。因此，如果自动获取过滤器普及开来，它们就会变成自动退订过滤器。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "c592ff399fda3ed10126506fea446933a483e214e8c47a23932cbc4d043de713",
+      "enMarkdown": "In this scenario, spam would, like OS crashes, viruses, and popups, become one of those plagues that only afflict people who don't bother to use the right software.",
+      "zhMarkdown": "在这种情况下，垃圾邮件就会像操作系统崩溃、病毒和弹窗广告一样，成为只困扰那些懒得使用正确软件的人的瘟疫之一。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "2ecac5fb89762c2b60f40e09c63a401f2130653f05b9979bd940672b9b377d00",
+      "enMarkdown": "[1] Auto-retrieving filters will have to follow redirects, and should in some cases (e.g. a page that just says \"click here\") follow more than one level of links. Make sure too that the http requests are indistinguishable from those of popular Web browsers, including the order and referrer.",
+      "zhMarkdown": "[1] 自动获取过滤器必须支持重定向，并且在某些情况下（例如一个仅显示“点击这里”的页面）应该追踪多层链接。还要确保 HTTP 请求与主流浏览器的请求无法区分，包括请求顺序和 Referer 属性。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "4e2e20073a381ffbf3b761d6bf11fdc0bcf2b66fd1ac7494c52bdf16ec1d9d66",
+      "enMarkdown": "If the response doesn't come back within x amount of time, default to some fairly high spam probability.",
+      "zhMarkdown": "如果响应在 $x$ 时间内没有返回，则默认判定为较高的垃圾邮件概率。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "6d4c210bb9050ea45a2ec59722133174eb326702ee4626aca2a8d899cd6d1f54",
+      "enMarkdown": "Instead of making n constant, it might be a good idea to make it a function of the number of spams that have been seen mentioning the site. This would add a further level of protection against abuse and accidents.",
+      "zhMarkdown": "与其将 $n$ 设为常数，不如将其设为提及该网站的垃圾邮件数量的函数。这将针对滥用和意外情况提供进一步的保护。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "5b774049600d00d9849ae2a56110c2af6276d7495266b0e0d2d78e75cab8ba7f",
+      "enMarkdown": "[2] The original version of this article used the term \"whitelist\" instead of \"blacklist\". Though they were to work like blacklists, I preferred to call them whitelists because it might make them less vulnerable to legal attack. This just seems to have confused readers, though.",
+      "zhMarkdown": "[2] 本文的最初版本使用的是“白名单（whitelist）”而非“黑名单（blacklist）”。尽管它们的作用像黑名单，但我更倾向于称它们为白名单，因为这可能会使它们不易受到法律攻击。不过，这似乎只会让读者感到困惑。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "b17370ce12be857990c8bf4e43831bdb69fc356a6fa3c452cee0df1db358fa69",
+      "enMarkdown": "There should probably be multiple blacklists. A single point of failure would be vulnerable both to attack and abuse.",
+      "zhMarkdown": "可能应该有多个黑名单。单点故障容易受到攻击和滥用。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "2c0417de3d591bc1e76bcba18b97f40b57a46bd00a3fb3e1677db72083424312",
+      "enMarkdown": "**Thanks** to Brian Burton, Bill Yerazunis, Dan Giffin, Eric Raymond, and Richard Jowsey for reading drafts of this.",
+      "zhMarkdown": "**感谢** Brian Burton、Bill Yerazunis、Dan Giffin、Eric Raymond 和 Richard Jowsey 阅读了本文的草稿。"
+    }
+  ]
+}

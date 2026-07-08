@@ -1,0 +1,153 @@
+{
+  "slug": "property",
+  "titleEn": "Defining Property",
+  "titleZh": "定义财产",
+  "dateText": "March 2012",
+  "publishedAt": "2012-03-01",
+  "sourceOrder": 89,
+  "sourceUrl": "https://paulgraham.com/property.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "e9876de5d074b9ab1c8c14421fa3b3fce2ccb7ccfaa5a8740c0d7e6fc6c54e3c",
+      "enMarkdown": "As a child I read a book of stories about a famous judge in eighteenth century Japan called Ooka Tadasuke. One of the cases he decided was brought by the owner of a food shop. A poor student who could afford only rice was eating his rice while enjoying the delicious cooking smells coming from the food shop. The owner wanted the student to pay for the smells he was enjoying.",
+      "zhMarkdown": "小时候，我读过一本关于 18 世纪日本著名法官大冈忠相的故事书。他审理的其中一个案件是由一家食品店老板起诉的。一个穷学生只买得起白米饭，于是一边吃着饭，一边享受着从食品店里飘出来的诱人香味。老板要求这个学生为他所享受的香味付钱。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "53eb1715df51b691ddd615404a1802ff84ab9ccca1176f97de3d4d1924bedffe",
+      "enMarkdown": "The student was stealing his smells!",
+      "zhMarkdown": "这个学生在“偷”他的香味！"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "bb1726ebcc90c4670220f705941a6ed9e744c9d76398f42a726d3d615417f8c0",
+      "enMarkdown": "This story often comes to mind when I hear the RIAA and MPAA accusing people of stealing music and movies.",
+      "zhMarkdown": "每当我听到美国唱片业协会（RIAA）和美国电影协会（MPAA）指责人们“偷窃”音乐和电影时，我常常会想起这个故事。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "189deb39c6fb55d23c29f4a85551ded9ac2a0bdc64c0153811fa664057ca741e",
+      "enMarkdown": "It sounds ridiculous to us to treat smells as property. But I can imagine scenarios in which one could charge for smells. Imagine we were living on a moon base where we had to buy air by the liter. I could imagine air suppliers adding scents at an extra charge.",
+      "zhMarkdown": "在我们看来，把香味当作财产来对待简直是荒谬至极。但我能想象出可以对香味收费的场景。假设我们生活在月球基地上，必须按升购买空气。我可以想象，空气供应商会通过添加香气来收取额外费用。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1c2c2c3383b67480d8621590bbc8d1bfde208aef882066ead1c4cc4d9bb4f862",
+      "enMarkdown": "The reason it seems ridiculous to us to treat smells as property is that it wouldn't work to. It would work on a moon base, though.",
+      "zhMarkdown": "我们之所以觉得把香味当成财产很荒谬，是因为在现实中行不通。但在月球基地上，这就能行得通。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "aa9f95919571cf8cd9e971c5f47084af98e28ad5f0ccd1ee7831fba2c30e4960",
+      "enMarkdown": "What counts as property depends on what works to treat as property. And that not only can change, but has changed. Humans may always (for some definition of human and always) have treated small items carried on one's person as property. But hunter gatherers didn't treat land, for example, as property in the way we do. [[1](#f1n)]",
+      "zhMarkdown": "什么能算作财产，取决于把它当作财产对待是否行得通。而这一点不仅会改变，而且已经改变了。人类可能一直（在某种对“人类”和“一直”的定义下）将随身携带的小物品视为财产。但是，狩猎采集者并没有像我们今天这样，把土地视作财产。[[1](#f1n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "cd83e4a89bf8495ad12a5bf81eb07dd0bfe441a00dcc9c99def70a670c43b007",
+      "enMarkdown": "The reason so many people think of property as having a single unchanging definition is that its definition changes very slowly. [[2](#f2n)] But we are in the midst of such a change now. The record labels and movie studios used to distribute what they made like air shipped through tubes on a moon base. But with the arrival of networks, it's as if we've moved to a planet with a breathable atmosphere. Data moves like smells now. And through a combination of wishful thinking and short-term greed, the labels and studios have put themselves in the position of the food shop owner, accusing us all of stealing their smells.",
+      "zhMarkdown": "之所以有这么多人认为财产有一个单一且一成不变的定义，是因为这个定义的改变非常缓慢。[[2](#f2n)] 但我们现在正处于这样一种变革之中。唱片公司和电影制片厂过去分发其作品的方式，就像在月球基地上通过管道输送空气一样。但随着网络的出现，情况就像是我们搬到了一个拥有可呼吸大气的星球。现在数据的流动就像香味一样。由于一厢情愿的幻想和眼前的贪婪，唱片公司和制片厂把自己放在了那个食品店老板的位置上，指责我们所有人都在偷他们的香味。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "a4116a951e0222a2d8f7c5ffad32c2821956ff73b6c5ded446bdb3c22aab8de0",
+      "enMarkdown": "(The reason I say short-term greed is that the underlying problem with the labels and studios is that the people who run them are driven by bonuses rather than equity. If they were driven by equity they'd be looking for ways to take advantage of technological change instead of fighting it. But building new things takes too long. Their bonuses depend on this year's revenues, and the best way to increase those is to extract more money from stuff they do already.)",
+      "zhMarkdown": "（我之所以说是“眼前的贪婪”，是因为这些唱片公司和制片厂的根本问题在于，他们的掌舵人是由年终奖金而不是股权驱动的。如果是股权驱动，他们会寻找利用技术变革的方法，而不是与之对抗。但创造新事物需要太长时间。他们的奖金取决于当年的收入，而增加收入最好的方法就是从现有的东西中榨取更多的钱。）"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9fd9aba61fc368166012552d107baf1b534d2b237be4c092709ec460cb625757",
+      "enMarkdown": "So what does this mean? Should people not be able to charge for content? There's not a single yes or no answer to that question. People should be able to charge for content when it works to charge for content.",
+      "zhMarkdown": "那么这意味着什么？人们是不是不应该对内容收费？这个问题没有简单的“是”或“否”的答案。当收费行得通时，人们就应该能够对内容收费。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "8b7774b02c0fcbf59129406e4efc4a7c34254cbaf96b1218782a583d083a7b76",
+      "enMarkdown": "But by \"works\" I mean something more subtle than \"when they can get away with it.\" I mean when people can charge for content without warping society in order to do it. After all, the companies selling smells on the moon base could continue to sell them on the Earth, if they lobbied successfully for laws requiring us all to continue to breathe through tubes down here too, even though we no longer needed to.",
+      "zhMarkdown": "但我所说的“行得通”，其含义比“能蒙混过关”更为微妙。我的意思是，人们可以在不扭曲社会的前提下对内容收费。毕竟，如果那些在月球基地上卖香味的公司游说成功，通过法律要求我们在地球上也必须继续通过管道呼吸，即使我们已经不再需要这样做，他们就可以在地球上继续卖香味。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "1af81ac6c634c3ec43414fa2b30f860243e194ce429e862018ea78f7b46a2706",
+      "enMarkdown": "The crazy legal measures that the labels and studios have been taking have a lot of that flavor. Newspapers and magazines are just as screwed, but they are at least declining gracefully. The RIAA and MPAA would make us breathe through tubes if they could.",
+      "zhMarkdown": "唱片公司和制片厂一直以来采取的那些疯狂法律手段，就很有些这种味道。报纸和杂志同样陷入了困境，但它们至少在优雅地退场。而 RIAA 和 MPAA 如果有能力的话，会让我们所有人都插上管子呼吸。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "fafb5356fb6f2386bdbf082cdf9aa426a67dbafd361b0a8a728d83fb6d62180e",
+      "enMarkdown": "Ultimately it comes down to common sense. When you're abusing the legal system by trying to use mass lawsuits against randomly chosen people as a form of exemplary punishment, or lobbying for laws that would break the Internet if they passed, that's ipso facto evidence you're using a definition of property that doesn't work.",
+      "zhMarkdown": "归根结底，这关乎常识。当你滥用法律制度，试图通过对随机挑选的人进行大规模起诉来作为一种杀鸡儆猴的惩罚，或者游说通过那些一旦通过就会毁掉互联网的法律时，这本身就证明你所使用的财产定义已经行不通了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "6cfb4284fa0604ab9baa50d2412368829684438c0da50fc70841d1fe23bbbf51",
+      "enMarkdown": "This is where it's helpful to have working democracies and multiple sovereign countries. If the world had a single, autocratic government, the labels and studios could buy laws making the definition of property be whatever they wanted. But fortunately there are still some countries that are not copyright colonies of the US, and even in the US, [politicians](http://tctechcrunch2011.files.wordpress.com/2012/01/congress-on-sopa-done.png) still seem to be afraid of actual voters, in sufficient numbers. [[3](#f3n)]",
+      "zhMarkdown": "这也是运行良好的民主国家和多主权国家发挥作用的地方。如果世界只有一个单一的独裁政府，唱片公司和制片厂就可以收买法律，把财产的定义改成任何他们想要的样子。但幸运的是，仍然有一些国家不是美国的“版权殖民地”；而且即使在美国，当选民数量足够多时，[政治家们](http://tctechcrunch2011.files.wordpress.com/2012/01/congress-on-sopa-done.png)似乎还是会害怕真正的选民。[[3](#f3n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "45a7517085e07336722ff7b5e05a43a600401706203ad33f132039a1d35915a9",
+      "enMarkdown": "The people running the US may not like it when voters or other countries refuse to bend to their will, but ultimately it's in all our interest that there's not a single point of attack for people trying to warp the law to serve their own purposes. Private property is an extremely useful idea — arguably one of our greatest inventions. So far, each new definition of it has brought us increasing material wealth. [[4](#f4n)] It seems reasonable to suppose the newest one will too. It would be a disaster if we all had to keep running an obsolete version just because a few powerful people were too lazy to upgrade.",
+      "zhMarkdown": "美国的掌权者可能不喜欢选民或其他国家不屈服于他们的意志，但归根结底，当有人试图扭曲法律以服务于自身目的时，不存在一个单一的突破口，这符合我们所有人的利益。私有财产是一个极其有用的概念——可以说是我们最伟大的发明之一。到目前为止，财产的每一个新定义都为我们带来了日益增长的物质财富。[[4](#f4n)] 我们可以合理地假设，最新的定义也会如此。如果我们仅仅因为少数有权势的人懒得升级，就不得不一直运行一个过时的版本，那将是一场灾难。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "e6b66c970edf5bc47287e6852133a05974aed75fc51b50afbba06ec370f4a9df",
+      "enMarkdown": "[1] If you want to learn more about hunter gatherers I strongly recommend Elizabeth Marshall Thomas's [The\nHarmless People](http://www.amazon.com/Harmless-People-Elizabeth-Marshall-Thomas/dp/0394427793) and [The\nOld Way](http://www.amazon.com/Old-Way-Story-First-People/dp/0374225524).",
+      "zhMarkdown": "[1] 如果你想了解更多关于狩猎采集者的信息，我强烈推荐伊丽莎白·马歇尔·托马斯的《[无害的人](http://www.amazon.com/Harmless-People-Elizabeth-Marshall-Thomas/dp/0394427793)》和《[老路](http://www.amazon.com/Old-Way-Story-First-People/dp/0374225524)》。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4a51081360707402c467b899e8a53a92ba424c854514733c296dbee61766771f",
+      "enMarkdown": "[2] Change in the definition of property is driven mostly by technological progress, however, and since technological progress is accelerating, so presumably will the rate of change in the definition of property. Which means it's all the more important for societies to be able to respond gracefully to such changes, because they will come at an ever increasing rate.",
+      "zhMarkdown": "[2] 然而，财产定义的改变主要是由技术进步推动的。既然技术进步在加速，那么财产定义改变的速度大概也会加快。这意味着社会能够优雅地应对这些变化变得愈发重要，因为这些变化将以越来越快的速度袭来。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "08e67b9449ea56a46bdc1e0532562b04e1bbcb98b9a3a5b47768e52c6b1f5391",
+      "enMarkdown": "[3] As far as I know, the term \"copyright colony\" was first used by [Myles\nPeterson](http://torrentfreak.com/australia-us-copyright-colony-or-just-a-good-friend-120121/).",
+      "zhMarkdown": "[3] 据我所知，“版权殖民地”这个词最早是由 [Myles Peterson](http://torrentfreak.com/australia-us-copyright-colony-or-just-a-good-friend-120121/) 使用的。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "4204b15f9c6b652afb75ea39ad0f846f04a4e922aae3a6a6fc59804ab640b711",
+      "enMarkdown": "[4] The state of technology isn't simply a function of the definition of property. They each constrain the other. But that being so, you can't mess with the definition of property without affecting (and probably harming) the state of technology. The history of the USSR offers a vivid illustration of that.",
+      "zhMarkdown": "[4] 技术发展的状况并不仅仅取决于财产的定义，它们是相互制约的。但正因如此，你一旦乱动财产的定义，就必然会影响（并且很可能是损害）技术发展的状况。苏联的历史生动地证明了这一点。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "c7b185c3e5e71d49c88379a56f29599d4eaa4fd924a5442b8c586ab60a04eab0",
+      "enMarkdown": "**Thanks** to Sam Altman and Geoff Ralston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman 和 Geoff Ralston 阅读了本文的草稿。"
+    }
+  ]
+}

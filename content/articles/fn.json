@@ -1,0 +1,153 @@
+{
+  "slug": "fn",
+  "titleEn": "Fierce Nerds",
+  "titleZh": "凶猛的黑客",
+  "dateText": "May 2021",
+  "publishedAt": "2021-05-01",
+  "sourceOrder": 30,
+  "sourceUrl": "https://paulgraham.com/fn.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b8c2982df495ea673aef71fe2ef8dec39a2cd9a6b33dcc0dba67f933ce254f6c",
+      "enMarkdown": "Most people think of nerds as quiet, diffident people. In ordinary social situations they are — as quiet and diffident as the star quarterback would be if he found himself in the middle of a physics symposium. And for the same reason: they are fish out of water. But the apparent diffidence of nerds is an illusion due to the fact that when non-nerds observe them, it's usually in ordinary social situations. In fact some nerds are quite fierce.",
+      "zhMarkdown": "大多数人觉得黑客都是些温和、内敛的人。在日常社交场合，他们确实如此——就像明星四分卫突然被扔进物理学研讨会现场一样，同样会显得温和而内敛。原因也一样：他们都离开了自己熟悉的领域，如鱼脱水。然而，黑客表现出的内敛只是一种幻觉，因为非黑客群体通常只能在日常社交场合观察到他们。事实上，有些黑客是非常凶猛的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "877c8809dfd0dcefe3f2f2badc0dd18e02e7d2602caf65e976a36dfe986493e3",
+      "enMarkdown": "The fierce nerds are a small but interesting group. They are as a rule extremely competitive — more competitive, I'd say, than highly competitive non-nerds. Competition is more personal for them. Partly perhaps because they're not emotionally mature enough to distance themselves from it, but also because there's less randomness in the kinds of competition they engage in, and they are thus more justified in taking the results personally.",
+      "zhMarkdown": "“凶猛的黑客”是一个人数虽少却很有趣的群体。他们通常极具好胜心——在我看来，甚至比那些极具好胜心的非黑客还要好胜。对他们来说，竞争更关乎个人尊严。部分原因可能是他们在情感上还不够成熟，无法将自我与竞争剥离开来；但也是因为他们所参与的竞争往往少有随机性，因此他们更有理由将结果看作是对个人能力的直接评判。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "957c30f25e140ec8d9e509a6e00bc81108ae4144be3f2eef9785703ed21edc44",
+      "enMarkdown": "Fierce nerds also tend to be somewhat overconfident, especially when young. It might seem like it would be a disadvantage to be mistaken about one's abilities, but empirically it isn't. Up to a point, confidence is a self-fulfilling prophecy.",
+      "zhMarkdown": "凶猛的黑客往往也有些过度自信，年轻时尤其如此。对自己的能力产生误判看似是个劣势，但从经验来看并非如此。在一定限度内，自信是一种自我实现的预言。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4ff702829f7f195cb4e282a481016b8d9b475291cc29da7340bb2945abb3cfdb",
+      "enMarkdown": "Another quality you find in most fierce nerds is intelligence. Not all nerds are smart, but the fierce ones are always at least moderately so. If they weren't, they wouldn't have the confidence to be fierce. [[1](#f1n)]",
+      "zhMarkdown": "在大多数凶猛的黑客身上，你还能发现另一个特质，那就是聪明。并非所有黑客都聪明，但凶猛的黑客至少都智商在线。如果不够聪明，他们也就没有底气表现得如此凶猛。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f29f476badf51554d6dad3cc2c426fe4ba6ffd7b7ad7497e8858cc05c9160b96",
+      "enMarkdown": "There's also a natural connection between nerdiness and [independent-mindedness](https://paulgraham.com/think.html). It's hard to be independent-minded without being somewhat socially awkward, because conventional beliefs are so often mistaken, or at least arbitrary. No one who was both independent-minded and ambitious would want to waste the effort it takes to fit in. And the independent-mindedness of the fierce nerds will obviously be of the [aggressive](https://paulgraham.com/conformism.html) rather than the passive type: they'll be annoyed by rules, rather than dreamily unaware of them.",
+      "zhMarkdown": "黑客特质与[特立独行](https://paulgraham.com/think.html)之间也存在着天然的联系。如果一个人一点都不显得社交笨拙，那他很难做到特立独行，因为世俗观念往往是错误的，或者至少是随大流的。一个既特立独行又野心勃勃的人，绝不会愿意浪费精力去迎合大众。而凶猛黑客的特立独行，显然是[主动进攻型](https://paulgraham.com/conformism.html)而非被动接受型的：他们会对规则感到厌烦，而不是浑然不觉地活在梦里。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "010f26449e9219729c74f4767c295bf3f6d1187670f8162b64cd802beeb1f1ab",
+      "enMarkdown": "I'm less sure why fierce nerds are impatient, but most seem to be. You notice it first in conversation, where they tend to interrupt you. This is merely annoying, but in the more promising fierce nerds it's connected to a deeper impatience about solving problems. Perhaps the competitiveness and impatience of fierce nerds are not separate qualities, but two manifestations of a single underlying drivenness.",
+      "zhMarkdown": "我不太确定为什么凶猛的黑客往往缺乏耐心，但大多数人确实如此。你首先会在交谈中注意到这一点，他们往往会打断你。这可能只是让人有些讨厌，但在更有前途的凶猛黑客身上，这种特质与一种更深层的、急于解决问题的迫切感紧密相连。也许，凶猛黑客的好胜心与缺乏耐心并非两种独立的特质，而是同一种内在驱动力的两种表现形式。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "d9838243df662033858597bc2c02a8a3305b65bbcffe44f0c01a79c30f5e44fd",
+      "enMarkdown": "When you combine all these qualities in sufficient quantities, the result is quite formidable. The most vivid example of fierce nerds in action may be James Watson's *The Double Helix*. The first sentence of the book is \"I have never seen Francis Crick in a modest mood,\" and the portrait he goes on to paint of Crick is the quintessential fierce nerd: brilliant, socially awkward, competitive, independent-minded, overconfident. But so is the implicit portrait he paints of himself. Indeed, his lack of social awareness makes both portraits that much more realistic, because he baldly states all sorts of opinions and motivations that a smoother person would conceal. And moreover it's clear from the story that Crick and Watson's fierce nerdiness was integral to their success. Their independent-mindedness caused them to consider approaches that most others ignored, their overconfidence allowed them to work on problems they only half understood (they were literally described as \"clowns\" by one eminent insider), and their impatience and competitiveness got them to the answer ahead of two other groups that would otherwise have found it within the next year, if not the next several months. [[2](#f2n)]",
+      "zhMarkdown": "当这些特质在一个人身上高度汇聚时，其能量是相当惊人的。最能生动展现凶猛黑客行事风格的例子，莫过于詹姆斯·沃森的《双螺旋》。这本书的第一句话就是“我从未见过弗朗西斯·克里克谦虚的样子”，而他接下来对克里克的刻画，简直就是凶猛黑客的经典写照：才华横溢、社交笨拙、好胜心极强、特立独行且过度自信。但同样，他在字里行间对自己进行的隐性刻画也是如此。事实上，正是因为他缺乏社交情商，才让这两幅画像显得如此真实，因为他毫无掩饰地吐露了各种换作圆滑之人会极力隐藏的观点和动机。而且，从故事中可以清楚地看出，克里克和沃森那股凶猛的黑客劲头是他们成功的关键。他们的特立独行让他们去尝试大多数人忽视的方法；他们的过度自信让他们敢于去研究自己只懂了一半的问题（他们甚至被一位杰出的业内权威公开称为“小丑”）；而他们的缺乏耐心和好胜心，让他们赶在了另外两个团队之前找到了答案，否则那两个团队在接下来的几个月甚至一年内也能发现。[[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8f44c544b74a1988a5bacd6278120b0a22085dd61ac5aeabcb613eb8dcc9604e",
+      "enMarkdown": "The idea that there could be fierce nerds is an unfamiliar one not just to many normal people but even to some young nerds. Especially early on, nerds spend so much of their time in ordinary social situations and so little doing real work that they get a lot more evidence of their awkwardness than their power. So there will be some who read this description of the fierce nerd and realize \"Hmm, that's me.\" And it is to you, young fierce nerd, that I now turn.",
+      "zhMarkdown": "“凶猛的黑客”这一概念，不仅对许多普通人来说很陌生，甚至对一些年轻的黑客也是如此。特别是在早期，黑客把太多时间花在日常社交上，而极少做真正的工作，以至于他们更多地感受到自己的笨拙，而不是自己的力量。因此，有些人在读到对凶猛黑客的这段描述时，会恍然大悟：“嗯，这不就是我吗？”年轻的凶猛黑客们，接下来我想对你们说几句。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "46de218b8f7944e399244b03264be899d7a17f52a616efb86e3f85d742c1356b",
+      "enMarkdown": "I have some good news, and some bad news. The good news is that your fierceness will be a great help in solving difficult problems. And not just the kind of scientific and technical problems that nerds have traditionally solved. As the world progresses, the number of things you can win at by getting the right answer increases. Recently [getting rich](https://paulgraham.com/richnow.html) became one of them: 7 of the 8 richest people in America are now fierce nerds.",
+      "zhMarkdown": "我有一个好消息，和一个坏消息。好消息是，你的凶猛将极大地帮助你解决难题。而且不仅限于黑客传统上解决的那些科学和技术难题。随着世界的进步，通过找到正确答案而胜出的领域正在不断增加。最近，[变富](https://paulgraham.com/richnow.html)也成了其中之一：如今美国最富有的 8 个人中，有 7 个是凶猛的黑客。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2b96a4fd880b8eb23981d4b3b664b9366aa391284593e1cac1bcc400552ef3f9",
+      "enMarkdown": "Indeed, being a fierce nerd is probably even more helpful in business than in nerds' original territory of scholarship. Fierceness seems optional there. Darwin for example doesn't seem to have been especially fierce. Whereas it's impossible to be the CEO of a company over a certain size without being fierce, so now that nerds can win at business, fierce nerds will increasingly monopolize the really big successes.",
+      "zhMarkdown": "事实上，在商业世界里，当一个凶猛的黑客可能比在黑客的大本营——学术界还要有用。在学术界，凶猛似乎是可选的。例如，达尔文似乎就不是特别凶猛。然而，如果不凶猛，你根本无法管理一家达到一定规模的公司。因此，既然黑客现在能在商业上取得成功，凶猛的黑客将越来越多地垄断那些真正巨大的成功。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "8e1db813697a7275bb52f1fb89ad05c67a2ae5c8771ceba600eecf2e59dbb03a",
+      "enMarkdown": "The bad news is that if it's not exercised, your fierceness will turn to bitterness, and you will become an intellectual playground bully: the grumpy sysadmin, the forum troll, the [hater](https://paulgraham.com/fh.html), the shooter down of [new ideas](https://paulgraham.com/newideas.html).",
+      "zhMarkdown": "坏消息是，如果这种凶猛得不到释放，它就会转化为戾气，让你变成学术或技术圈里的恶霸：脾气暴躁的系统管理员、论坛喷子、[键盘侠](https://paulgraham.com/fh.html)，或是[新想法](https://paulgraham.com/newideas.html)的扼杀者。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "8aee4214a00adfc6d0ae4bdee084bb7158564c589e7f319e94f7f476a1d60063",
+      "enMarkdown": "How do you avoid this fate? Work on ambitious projects. If you succeed, it will bring you a kind of satisfaction that neutralizes bitterness. But you don't need to have succeeded to feel this; merely working on hard projects gives most fierce nerds some feeling of satisfaction. And those it doesn't, it at least keeps busy. [[3](#f3n)]",
+      "zhMarkdown": "如何避免这种命运？去挑战有野心的项目。如果你成功了，它会带给你一种足以化解戾气的满足感。但你不需要非得成功才能感受到这一点，仅仅是研究困难的项目，就能给大多数凶猛的黑客带来某种满足感。即使带不来满足感，至少也能让他们有事可做，不至于闲得发慌。[[3](#f3n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "fbab19efcf8adefd91447b552a809d4cb98149c4c2fb93ea08e0b59ba846ea27",
+      "enMarkdown": "Another solution may be to somehow turn off your fierceness, by devoting yourself to meditation or psychotherapy or something like that. Maybe that's the right answer for some people. I have no idea. But it doesn't seem the optimal solution to me. If you're given a sharp knife, it seems to me better to use it than to blunt its edge to avoid cutting yourself.",
+      "zhMarkdown": "另一个解决办法是通过冥想、心理治疗之类的方法，设法磨平自己的锋芒。也许对某些人来说，这是对的。我不知道。但这在我看来并不是最优解。如果你得到了一把锋利的刀，我觉得更好的做法是用它来切东西，而不是为了防止割伤自己而把它磨钝。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "aefd774782eeca3c62f177402968b210d75f2815bb7e9236622894f24286981a",
+      "enMarkdown": "If you do choose the ambitious route, you'll have a tailwind behind you. There has never been a better time to be a nerd. In the past century we've seen a continuous transfer of power from dealmakers to technicians — from the charismatic to the competent — and I don't see anything on the horizon that will end it. At least not till the nerds end it themselves by bringing about the singularity.",
+      "zhMarkdown": "如果你确实选择了一条充满野心的道路，你将迎风起航。对于黑客来说，现在是历史上最好的时代。在过去的一个世纪里，我们看到了权力不断从擅长做交易的人手中转移到技术人员手中——从充满魅力的人手中转移到真正有能力的人手中——而且我看不到有任何迹象会终止这一趋势。至少在黑客们通过带来奇点亲手结束它之前，这一趋势不会停止。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "bc86c3d25db55251734d816b949b6ff8d09c45d0ce757672c70fd9e304372129",
+      "enMarkdown": "[1] To be a nerd is to be socially awkward, and there are two distinct ways to do that: to be playing the same game as everyone else, but badly, and to be playing a different game. The smart nerds are the latter type.",
+      "zhMarkdown": "[1] 成为黑客意味着在社交上显得笨拙，而这种笨拙有两种截然不同的情况：一种是和大家玩同一种游戏，但玩得很烂；另一种是根本就在玩另一种游戏。聪明的黑客属于后一种。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "e8a1eae1bedcb9e00bf869e52477e71f2c59b7fabe99f0efc3abc409f0e00d4d",
+      "enMarkdown": "[2] The same qualities that make fierce nerds so effective can also make them very annoying. Fierce nerds would do well to remember this, and (a) try to keep a lid on it, and (b) seek out organizations and types of work where getting the right answer matters more than preserving social harmony. In practice that means small groups working on hard problems. Which fortunately is the most fun kind of environment anyway.",
+      "zhMarkdown": "[2] 让凶猛的黑客如此高效的特质，有时也会让他们显得非常讨人厌。凶猛的黑客最好记住这一点，并且（a）尽量克制一下，（b）寻找那些“找到正确答案”比“维持人际和谐”更重要的组织和工作类型。在实践中，这意味着加入那些专注于解决难题的小团队。幸运的是，这无论如何都是最有趣的工作环境。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "04d6833ce9ca1a74580b74c86b706f0afc2be04da9e7ee8714ad332bd799dd8a",
+      "enMarkdown": "[3] If success neutralizes bitterness, why are there some people who are at least moderately successful and yet still quite bitter? Because people's potential bitterness varies depending on how naturally bitter their personality is, and how ambitious they are: someone who's naturally very bitter will still have a lot left after success neutralizes some of it, and someone who's very ambitious will need proportionally more success to satisfy that ambition.",
+      "zhMarkdown": "[3] 如果成功可以化解戾气，为什么有些取得了相当成功的人依然满身戾气？因为每个人潜在的戾气程度不同，这取决于其性格中天然的戾气成分以及他们的野心大小：一个天生戾气很重的人，即使成功化解了一部分，依然会剩下很多；而一个野心极大的人，则需要成比例的更大成功才能满足其野心。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "712295d687154c608b78230f75b4b6da14d4fd205b630ccfa3f412fcb2634a01",
+      "enMarkdown": "So the worst-case scenario is someone who's both naturally bitter and extremely ambitious, and yet only moderately successful.",
+      "zhMarkdown": "因此，最糟糕的情况是一个天生戾气很重、野心极大，却只取得了中等成功的人。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "5674ba3954c3f29349f04ca92fdd90be454c34bd82cce2f4b8f6298e36001316",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Steve Blank, Patrick Collison, Jessica Livingston, Amjad Masad, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Steve Blank、Patrick Collison、Jessica Livingston、Amjad Masad 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

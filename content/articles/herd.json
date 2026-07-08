@@ -1,0 +1,125 @@
+{
+  "slug": "herd",
+  "titleEn": "Investor Herd Dynamics",
+  "titleZh": "投资人的从众效应",
+  "dateText": "August 2013",
+  "publishedAt": "2013-08-01",
+  "sourceOrder": 78,
+  "sourceUrl": "https://paulgraham.com/herd.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "61492e06c04cfb923b7bd5cd1d781528db5ded54eeefa6f6d996ffdfcfa638cd",
+      "enMarkdown": "The biggest component in most investors' opinion of you is the opinion of other investors. Which is of course a recipe for exponential growth. When one investor wants to invest in you, that makes other investors want to, which makes others want to, and so on.",
+      "zhMarkdown": "在大多数投资人对你的看法中，占比最大的因素其实是其他投资人对你的看法。这当然是指数级增长的绝佳配方。当一个投资人想要投资你时，就会带动其他投资人也想投，进而又带动更多人，以此类推。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2fb35ba10dd8c74da9d7c0964923ae70f878ebce7b230732316b68d031578e94",
+      "enMarkdown": "Sometimes inexperienced founders mistakenly conclude that manipulating these forces is the essence of fundraising. They hear stories about stampedes to invest in successful startups, and think it's therefore the mark of a successful startup to have this happen. But actually the two are not that highly correlated. Lots of startups that cause stampedes end up flaming out (in extreme cases, partly as a result of the stampede), and lots of very successful startups were only moderately popular with investors the first time they raised money.",
+      "zhMarkdown": "有时，缺乏经验的创始人会误以为操纵这些力量就是融资的本质。他们听说过投资人蜂拥争夺成功创业公司的故事，便以为必须发生这种事才算得上成功的创业公司。但实际上，这两者之间的相关性并没有那么高。许多引发哄抢的创业公司最终都以惨败告终（在极端情况下，部分原因正是哄抢本身造成的）；而许多非常成功的创业公司，在第一次融资时，在投资人眼里其实只是不温不火。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "66a370bdc44f83027600d3eaff2ed5bb3a6795dfd51a0f2f8a5aceb286e3193b",
+      "enMarkdown": "So the point of this essay is not to explain how to create a stampede, but merely to explain the forces that generate them. These forces are always at work to some degree in fundraising, and they can cause surprising situations. If you understand them, you can at least avoid being surprised.",
+      "zhMarkdown": "所以，这篇文章的目的并不是教你如何制造一场哄抢，而仅仅是解释产生这种现象背后的力量。在融资过程中，这些力量在某种程度上一直在起作用，并且会引发一些令人意想不到的情况。如果你理解了它们，至少可以避免措手不及。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7e83789b39dd9932d30f84f25874820abe0821e62410476e358e30aee60ef935",
+      "enMarkdown": "One reason investors like you more when other investors like you is that you actually become a better investment. Raising money decreases the risk of failure. Indeed, although investors hate it, you are for this reason justified in raising your valuation for later investors. The investors who invested when you had no money were taking more risk, and are entitled to higher returns. Plus a company that has raised money is literally more valuable. After you raise the first million dollars, the company is at least a million dollars more valuable, because it's the same company as before, plus it has a million dollars in the bank. [[1](#f1n)]",
+      "zhMarkdown": "当其他投资人看好你时，投资人会更看好你，其中一个原因在于你确实成了一个更好的投资标的。拿到钱会降低失败的风险。事实上，尽管投资人讨厌这一点，但你因此提高后续投资人的估值是完全合理的。在你一分钱都没有时就投资的投资人承担了更大的风险，理应获得更高的回报。此外，一家融到钱的公司在字面意义上也确实更值钱了。在你融到第一个 100 万美元之后，公司至少增值了 100 万美元，因为公司还是原来的公司，但银行账户里多出了 100 万美元。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d4a6249f7ab3ef35ece467a66bff509bc735184bdd8cf9d58d25091dccdf86f9",
+      "enMarkdown": "Beware, though, because later investors so hate to have the price raised on them that they resist even this self-evident reasoning. Only raise the price on an investor you're comfortable with losing, because some will angrily refuse. [[2](#f2n)]",
+      "zhMarkdown": "不过要小心，因为后续投资人极其讨厌被涨价，以至于他们甚至会抵制这种显而易见的逻辑。只对那些你做好了失去准备的投资人涨价，因为有些人会愤怒地拒绝。[[2](#f2n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "393142ab96637a986af7e537f748a4a424cbf1575d9134276150fafd74530242",
+      "enMarkdown": "The second reason investors like you more when you've had some success at fundraising is that it makes you more confident, and an investors' opinion of [you](https://paulgraham.com/convince.html) is the foundation of their opinion of your company. Founders are often surprised how quickly investors seem to know when they start to succeed at raising money. And while there are in fact lots of ways for such information to spread among investors, the main vector is probably the founders themselves. Though they're often clueless about technology, most investors are pretty good at reading people. When fundraising is going well, investors are quick to sense it in your increased confidence. (This is one case where the average founder's inability to remain poker-faced works to your advantage.)",
+      "zhMarkdown": "当你在融资上取得一些进展时，投资人会更看好你，第二个原因在于这会让你更加自信，而投资人对[你个人](https://paulgraham.com/convince.html)的看法，正是他们对你公司看法的基础。创始人常常感到惊讶，投资人怎么这么快就知道他们融资开始顺利了。虽然这种信息在投资人之间传播的途径确实很多，但最主要的渠道可能正是创始人自己。尽管大多数投资人对技术一窍不通，但他们非常擅长察言观色。当融资进展顺利时，投资人很快就能从你日益增长的自信中察觉出来。（在这种情况下，普通创始人藏不住情绪的弱点反而成了你的优势。）"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "80fe96f61efd451ded15c01b37649ad6ec235e3e3740182e265ebea1b2eadc53",
+      "enMarkdown": "But frankly the most important reason investors like you more when you've started to raise money is that they're bad at judging startups. Judging startups is hard even for the best investors. The mediocre ones might as well be flipping coins. So when mediocre investors see that lots of other people want to invest in you, they assume there must be a reason. This leads to the phenomenon known in the Valley as the \"hot deal,\" where you have more interest from investors than you can handle.",
+      "zhMarkdown": "但坦率地说，当你开始融到钱时，投资人更看好你，最主要的原因在于他们并不擅长判断创业公司。即使是最好的投资人，判断创业公司也非易事。而那些平庸的投资人，其判断准确率和抛硬币差不多。因此，当平庸的投资人看到有很多人想投资你时，他们就会认定这其中必有原因。这就导致了硅谷所谓的“热门交易”（hot deal）现象，即投资人对你的兴趣超出了你的承载能力。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c1813b797f9b10027359f6a5a47acaa25b91ff26f1a76b5d895647230f86d687",
+      "enMarkdown": "The best investors aren't influenced much by the opinion of other investors. It would only dilute their own judgment to average it together with other people's. But they are indirectly influenced in the practical sense that interest from other investors imposes a deadline. This is the fourth way in which offers beget offers. If you start to get far along the track toward an offer with one firm, it will sometimes provoke other firms, even good ones, to make up their minds, lest they lose the deal.",
+      "zhMarkdown": "最好的投资人不会太受其他投资人意见的影响。把自己的判断和别人的意见平均一下，只会稀释他们自己的判断。但他们会受到间接的、现实层面的影响，因为其他投资人的兴趣会带来截止期限。这是“意向带来意向”的第四种方式。如果你和某家机构的接触已经快到给意向书（offer）的阶段，这有时会刺激其他机构（甚至是优秀的机构）做出决定，以免错失这笔交易。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "70ce8da2546b3b3f4925a2a25f29e157d11919ccd40ae96fef45324a0a4925b0",
+      "enMarkdown": "Unless you're a wizard at negotiation (and if you're not sure, you're not) be very careful about exaggerating this to push a good investor to decide. Founders try this sort of thing all the time, and investors are very sensitive to it. If anything oversensitive. But you're safe so long as you're telling the truth. If you're getting far along with investor B, but you'd rather raise money from investor A, you can tell investor A that this is happening. There's no manipulation in that. You're genuinely in a bind, because you really would rather raise money from A, but you can't safely reject an offer from B when it's still uncertain what A will decide.",
+      "zhMarkdown": "除非你是谈判高手（如果你不确定自己是不是，那你就不是），否则在利用这一点催促优秀的投资人做决定时，一定要非常小心。创始人总想玩这种把戏，而投资人对此极其敏感，甚至到了过分敏感的地步。但只要你说的是实话，你就是安全的。如果你和投资人 B 的进展已经很深入，但你更想拿投资人 A 的钱，你可以告诉投资人 A 这个情况。这并不算操纵。你是真的陷入了困境，因为你确实更想拿 A 的钱，但在 A 的决定还不确定时，你又无法稳妥地拒绝 B 的意向书。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "71a705261b5a566ddbe52b67d11fde58339c99e13c29595459ce63dc36728ef1",
+      "enMarkdown": "Do not, however, tell A who B is. VCs will sometimes ask which other VCs you're talking to, but you should never tell them. Angels you can sometimes tell about other angels, because angels cooperate more with one another. But if VCs ask, just point out that they wouldn't want you telling other firms about your conversations, and you feel obliged to do the same for any firm you talk to. If they push you, point out that you're inexperienced at fundraising — which is always a safe card to play — and you feel you have to be extra cautious. [[3](#f3n)]",
+      "zhMarkdown": "但是，千万不要告诉 A 谁是 B。风险投资人有时会问你还在和哪些风险投资人谈，但你绝不能告诉他们。如果是天使投资人，你有时可以透露其他天使的名字，因为天使投资人之间的合作更多。但如果风险投资人问起，你只需指出，他们肯定也不希望你把与他们的谈话透露给其他机构，因此你觉得有义务对任何与你接触的机构一视同仁。如果他们逼问你，就指出自己在融资方面缺乏经验——这永远是一张安全的底牌——因此觉得自己必须加倍谨慎。[[3](#f3n)]"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "1314cc223fc7a426bbe00e6bf1c5363c3bdbe6fe6ecd2446a84d8cf364024103",
+      "enMarkdown": "While few startups will experience a stampede of interest, almost all will at least initially experience the other side of this phenomenon, where the herd remains clumped together at a distance. The fact that investors are so much influenced by other investors' opinions means you always start out in something of a hole. So don't be demoralized by how hard it is to get the first commitment, because much of the difficulty comes from this external force. The second will be easier.",
+      "zhMarkdown": "虽然很少有创业公司能经历被投资人哄抢的盛况，但几乎所有公司起初都会经历这种现象的另一面：群体在远处扎堆观望。投资人如此受其他投资人意见影响的事实，意味着你一开始总是处于劣势。因此，不要因为拿到第一笔投资承诺有多难而气馁，因为大部分困难都来自于这种外部力量。第二笔就会容易得多。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "81ae7056e3cbe90cb276e168698da2b2f0fdb8e4aedd2c6982d9832ae63f1708",
+      "enMarkdown": "[1] An accountant might say that a company that has raised a million dollars is no richer if it's convertible debt, but in practice money raised as convertible debt is little different from money raised in an equity round.",
+      "zhMarkdown": "[1] 会计师可能会说，一家融了 100 万美元的公司如果是通过可转债融的，资产并没有增加，但在实际操作中，通过可转债融到的钱与通过股权融资轮融到的钱几乎没有区别。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "dd1f78abe5ec610f82e50e2229e1616adf91c6918493b5a4bc80c4f5b8a4a63a",
+      "enMarkdown": "[2] Founders are often surprised by this, but investors can get very emotional. Or rather indignant; that's the main emotion I've observed; but it is very common, to the point where it sometimes causes investors to act against their own interests. I know of one investor who invested in a startup at a $15 million valuation cap. Earlier he'd had an opportunity to invest at a $5 million cap, but he refused because a friend who invested earlier had been able to invest at a $3 million cap.",
+      "zhMarkdown": "[2] 创始人常常对此感到惊讶，但投资人确实会变得情绪化。或者更准确地说是愤愤不平，这是我观察到的主要情绪。但这非常普遍，甚至有时会导致投资人做出违背自身利益的决定。我认识一位投资人，他最终以 1500 万美元的估值上限投资了一家创业公司。而在此之前，他曾有机会在 500 万美元上限时投资，但他拒绝了，原因仅仅是因为他的一位朋友更早以 300 万美元的上限投了进去。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5de74413e3c43861cc3d27df424a4e02995080df49498f3ccf280867741e76eb",
+      "enMarkdown": "[3] If an investor pushes you hard to tell them about your conversations with other investors, is this someone you want as an investor?",
+      "zhMarkdown": "[3] 如果一个投资人极力逼问你与其他投资人的谈话细节，这样的人真的适合当你的投资人吗？"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "f159002d473e0d0dbda122444ed6844e3809531d17e122ca6229820661049e3f",
+      "enMarkdown": "**Thanks** to Paul Buchheit, Jessica Livingston, Geoff Ralston, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Paul Buchheit、Jessica Livingston、Geoff Ralston 和 Garry Tan 阅读本书稿。"
+    }
+  ]
+}

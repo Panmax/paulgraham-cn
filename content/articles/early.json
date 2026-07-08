@@ -1,0 +1,342 @@
+{
+  "slug": "early",
+  "titleEn": "Early Work",
+  "titleZh": "早期作品",
+  "dateText": "October 2020",
+  "publishedAt": "2020-10-01",
+  "sourceOrder": 42,
+  "sourceUrl": "https://paulgraham.com/early.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "3c12dee2edae196adee56e654241e2199d2641f19508659a44c314943f6b794e",
+      "enMarkdown": "One of the biggest things holding people back from doing great work is the fear of making something lame. And this fear is not an irrational one. Many great projects go through a stage early on where they don't seem very impressive, even to their creators. You have to push through this stage to reach the great work that lies beyond. But many people don't. Most people don't even reach the stage of making something they're embarrassed by, let alone continue past it. They're too frightened even to start.",
+      "zhMarkdown": "阻碍人们做出伟大成就的最大障碍之一，就是害怕做出差劲的东西。这种恐惧并非毫无道理。许多伟大的项目在早期都会经历一个看起来不起眼的阶段，甚至连创作者自己都觉得拿不出手。你必须挺过这个阶段，才能抵达彼岸的伟大成就。但很多人没有做到。大多数人甚至连做出让自己感到尴尬的东西那一步都没走到，更不用说跨越它了。他们甚至连开始的勇气都没有。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "a5b7363df3f8e4a10664aa0082ab5242673c6c85aa69054ef661a3d9722a321e",
+      "enMarkdown": "Imagine if we could turn off the fear of making something lame. Imagine how much more we'd do.",
+      "zhMarkdown": "试想一下，如果我们能消除对做出差劲东西的恐惧，我们能多做多少事情。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d9449de9e5bed7bc4b9104524205e5fb4b3fd449b8bd506780953c09243d56f2",
+      "enMarkdown": "Is there any hope of turning it off? I think so. I think the habits at work here are not very deeply rooted.",
+      "zhMarkdown": "我们有希望消除这种恐惧吗？我觉得有。我认为这种作祟的心理习惯其实根基并不深。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "1fcd3ea7dffe6c950f8c6bd27c54c716af9f5fcac84acd40d69ab37c51d2ebbd",
+      "enMarkdown": "Making new things is itself a new thing for us as a species. It has always happened, but till the last few centuries it happened so slowly as to be invisible to individual humans. And since we didn't need customs for dealing with new ideas, we didn't develop any.",
+      "zhMarkdown": "作为人类这个物种，创造新事物本身就是一件新鲜事。虽然创造一直在发生，但直到过去几个世纪，它的进展都极其缓慢，以至于个体人类根本察觉不到。既然我们过去不需要应对新想法的社会习俗，也就没有发展出任何相关的习俗。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a7d6713c6557318590a99a4b3a81aab526c5375ab29cebac5d8aecb4b80b4cb4",
+      "enMarkdown": "We just don't have enough experience with early versions of ambitious projects to know how to respond to them. We judge them as we would judge more finished work, or less ambitious projects. We don't realize they're a special case.",
+      "zhMarkdown": "我们对雄心勃勃的项目的早期版本缺乏足够的经验，不知道该如何应对。我们往往用评判成熟作品或平庸项目的标准去评判它们，却没有意识到这些早期版本属于特殊情况。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "572b7503f60dcede20d129017d20991ae125d2eab1005588b8c67090262461f1",
+      "enMarkdown": "Or at least, most of us don't. One reason I'm confident we can do better is that it's already starting to happen. There are already a few places that are living in the future in this respect. Silicon Valley is one of them: an unknown person working on a strange-sounding idea won't automatically be dismissed the way they would back home. In Silicon Valley, people have learned how dangerous that is.",
+      "zhMarkdown": "或者至少，我们大多数人没意识到。我之所以确信我们可以做得更好，原因之一是改变已经开始发生。在这方面，已经有一些地方正生活在未来。硅谷就是其中之一：一个无名小卒带着一个听起来奇奇怪怪的想法，在这里不会像在老家那样直接被否定。在硅谷，人们已经见识过这种全盘否定的危害了。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "9a00f0dae273f3a35ee9525e7e0c7907afb9f01f56c1e11e83f08375ac5dc243",
+      "enMarkdown": "The right way to deal with new ideas is to treat them as a challenge to your imagination � not just to have lower standards, but to [switch polarity](https://paulgraham.com/altair.html) entirely, from listing the reasons an idea won't work to trying to think of ways it could. That's what I do when I meet people with new ideas. I've become quite good at it, but I've had a lot of practice. Being a partner at Y Combinator means being practically immersed in strange-sounding ideas proposed by unknown people. Every six months you get thousands of new ones thrown at you and have to sort through them, knowing that in a world with a power-law distribution of outcomes, it will be painfully obvious if you miss the needle in this haystack. Optimism becomes urgent.",
+      "zhMarkdown": "对待新想法的正确方式，是将其视为对你想象力的挑战——不仅要放低标准，更要彻底[转变思维极性](https://paulgraham.com/altair.html)，从列举一个想法为什么行不通，转变为努力寻找能让它行得通的方法。这就是我遇到带着新想法的人时的做法。我已经很擅长这一点了，但这也是大量实践的结果。作为 Y Combinator 的合伙人，意味着你实际上要整天浸泡在无名之辈提出的各种奇思妙想中。每六个月，就会有几千个新想法砸向你，你必须从中筛选。而且你很清楚，在这个结果呈幂律分布的世界里，如果你漏掉了大海里的这根针，代价将是极其惨痛且显而易见的。这时候，保持乐观就成了一种迫切的需要。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ce1fb8c6a6523570640b4adab74f2b8788fed1356f068ca2241077b9c6d94b49",
+      "enMarkdown": "But I'm hopeful that, with time, this kind of optimism can become widespread enough that it becomes a social custom, not just a trick used by a few specialists. It is after all an extremely lucrative trick, and those tend to spread quickly.",
+      "zhMarkdown": "但我希望，随着时间的推移，这种乐观态度能广泛传播，成为一种社会习俗，而不仅仅是少数专业人士使用的诀窍。毕竟，这是一个极其赚钱的诀窍，而能赚钱的诀窍往往传播得很快。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "793f6bfa2def3d6c3684c679c0d465d7bdbf07e6b230d190a2f6274233ce426c",
+      "enMarkdown": "Of course, inexperience is not the only reason people are too harsh on early versions of ambitious projects. They also do it to seem clever. And in a field where the new ideas are risky, like startups, those who dismiss them are in fact more likely to be right. Just not when their predictions are [weighted by outcome](https://paulgraham.com/swan.html).",
+      "zhMarkdown": "当然，缺乏经验并不是人们对雄心勃勃的项目的早期版本过于苛刻的唯一原因。他们这么做也是为了显得自己聪明。在创业公司等新想法充满风险的领域，那些否定新想法的人实际上更容易说对。只不过，如果把预测结果[按最终成效加权](https://paulgraham.com/swan.html)的话，他们就错了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "320aa8b12dbefb2a3b7eecfb7f5f393d534875472d0775d8ff18c1238e80338c",
+      "enMarkdown": "But there is another more sinister reason people dismiss new ideas. If you try something ambitious, many of those around you will hope, consciously or unconsciously, that you'll fail. They worry that if you try something ambitious and succeed, it will put you above them. In some countries this is not just an individual failing but part of the national culture.",
+      "zhMarkdown": "但人们否定新想法还有一个更阴暗的原因。如果你尝试做一些有野心的事情，你身边的许多人都会在潜意识或显意识里希望你失败。他们担心如果你尝试并成功了，就会超越他们。在某些国家，这不仅是个人的缺陷，甚至成了国民文化的一部分。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "eb9e5fd400c7e8a56e89523a7f2857d535b30bd2608b49e8aab3cc7ef5e2a607",
+      "enMarkdown": "I wouldn't claim that people in Silicon Valley overcome these impulses because they're morally better. [[1](#f1n)] The reason many hope you'll succeed is that they hope to rise with you. For investors this incentive is particularly explicit. They want you to succeed because they hope you'll make them rich in the process. But many other people you meet can hope to benefit in some way from your success. At the very least they'll be able to say, when you're famous, that they've known you since way back.",
+      "zhMarkdown": "我并不是说硅谷的人能克服这些冲动是因为他们道德更高尚。[[1](#f1n)] 许多人希望你成功，是因为他们希望和你一起鸡犬升天。对于投资人来说，这种动力尤为明确。他们希望你成功，因为他们指望在这个过程中被你带飞、发家致富。但你遇到的许多其他人，也希望能从你的成功中分一杯羹。最起码，等你成名之后，他们可以吹嘘自己早就认识你了。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ade9b9dffe7d8e7abbf278e045ed134fbffbe2a9ef36199413a56c5d71c0ecfe",
+      "enMarkdown": "But even if Silicon Valley's encouraging attitude is rooted in self-interest, it has over time actually grown into a sort of benevolence. Encouraging startups has been practiced for so long that it has become a custom. Now it just seems that that's what one does with startups.",
+      "zhMarkdown": "不过，即便硅谷这种鼓励的态度源于自私，随着时间的推移，它也已经演变成了一种善意。鼓励创业公司的做法实行了这么久，已经变成了一种风气。现在，大家觉得对待创业公司就应该这样。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "baff384482bac9a286e20a933cc3b342f2133bda8a2acef9df4bf44b73f32314",
+      "enMarkdown": "Maybe Silicon Valley is too optimistic. Maybe it's too easily fooled by impostors. Many less optimistic journalists want to believe that. But the lists of impostors they cite are suspiciously short, and plagued with asterisks. [[2](#f2n)] If you use revenue as the test, Silicon Valley's optimism seems better tuned than the rest of the world's. And because it works, it will spread.",
+      "zhMarkdown": "也许硅谷过于乐观了。也许它太容易被骗子蒙蔽。许多没那么乐观的媒体记者很想相信这一点。但他们列举的骗子名单短得可怜，而且还塞满了各种牵强的特例。[[2](#f2n)] 如果用营收来检验，硅谷的乐观似乎比世界其他地方要精准得多。既然这种乐观行之有效，它就一定会传播开来。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "96980cf4b76e75367a463151503b8e9d511bc3d57c69520258098b620a931b7e",
+      "enMarkdown": "There's a lot more to new ideas than new startup ideas, of course. The fear of making something lame holds people back in every field. But Silicon Valley shows how quickly customs can evolve to support new ideas. And that in turn proves that dismissing new ideas is not so deeply rooted in human nature that it can't be unlearnt.",
+      "zhMarkdown": "当然，新想法远不止创业点子。在每个领域，害怕做出差劲东西的恐惧都在阻碍人们。但硅谷的例子表明，支持新想法的习俗可以进化得多么迅速。这反过来也证明，否定新想法并不是根深蒂固到无法根除的人性弱点。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "e132d4e799e43fa6196c2366d3c3a22d40186ae6e14a8cf5e62a3368b1fd0ab0",
+      "enMarkdown": "___________",
+      "zhMarkdown": "___________"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "967871f060239904c3280e4dd53974ec8977670854a267340ed975a5ad54d5e5",
+      "enMarkdown": "Unfortunately, if you want to do new things, you'll face a force more powerful than other people's skepticism: your own skepticism. You too will judge your early work too harshly. How do you avoid that?",
+      "zhMarkdown": "不幸的是，如果你想创造新事物，你将面临一个比别人的怀疑更强大的力量：你自己的怀疑。你也会对自己的早期作品过于苛刻。你要如何避免这一点？"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4be7ee9a21b0d1e046bdc5c4b472ab4c445df4a0840188181cc3cbf3fd41c84e",
+      "enMarkdown": "This is a difficult problem, because you don't want to completely eliminate your horror of making something lame. That's what steers you toward doing good work. You just want to turn it off temporarily, the way a painkiller temporarily turns off pain.",
+      "zhMarkdown": "这是一个棘手的问题，因为你并不想完全消除对做出差劲东西的恐惧。正是这种恐惧在驱使你做出优秀的作品。你只是想暂时关掉它，就像止痛药暂时消除疼痛一样。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "48fdb75ce80d40e2f09fe1678583fb92f7753c73668f1a2d2cdbc6ef23bdd3b2",
+      "enMarkdown": "People have already discovered several techniques that work. Hardy mentions two in *A Mathematician's Apology*:",
+      "zhMarkdown": "人们已经发现了几种行之有效的技巧。哈代在《一个数学家的辩白》中提到了两种："
+    },
+    {
+      "id": 19,
+      "type": "quote",
+      "sourceHash": "f2acfd376b06f733ebf82d2a9266378ff5967ae5006acabe6fbc205bcab3c0b9",
+      "enMarkdown": "> Good work is not done by \"humble\" men. It is one of the first duties of a professor, for example, in any subject, to exaggerate a little both the importance of his subject and his importance in it.",
+      "zhMarkdown": "> “谦逊”的人是做不出优秀工作的。例如，对于任何学科的教授来说，首要职责之一就是稍微夸大他所研究学科的重要性，以及他自己在其中的重要性。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "cd3340b2addc4ddd1fc015eb4850860bd8f275d25fe59703b7aaa267c4b49caa",
+      "enMarkdown": "If you overestimate the importance of what you're working on, that will compensate for your mistakenly harsh judgment of your initial results. If you look at something that's 20% of the way to a goal worth 100 and conclude that it's 10% of the way to a goal worth 200, your estimate of its expected value is correct even though both components are wrong.",
+      "zhMarkdown": "如果你高估了自己正在做的事情的重要性，就能弥补你对初始结果产生的错误且苛刻的评判。如果你的目标价值 100，你完成了 20%，却误以为自己在一个价值 200 的目标上完成了 10%，那么尽管这两个数字都错了，但你对预期价值的估计却是正确的。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "4f76cc49900a110e35118a3a0f1927e6f26b0ea8405da62b268f29c4f269585b",
+      "enMarkdown": "It also helps, as Hardy suggests, to be slightly overconfident. I've noticed in many fields that the most successful people are slightly overconfident. On the face of it this seems implausible. Surely it would be optimal to have exactly the right estimate of one's abilities. How could it be an advantage to be mistaken? Because this error compensates for other sources of error in the opposite direction: being slightly overconfident armors you against both other people's skepticism and your own.",
+      "zhMarkdown": "正如哈代所说，稍微过度自信也有帮助。我注意到在许多领域，最成功的人都有点过度自信。乍看之下，这似乎不合逻辑。准确评估自己的能力难道不是最优解吗？产生误差怎么反倒成了优势？因为这种误差正好抵消了其他方向的误差：稍微过度自信能成为你的盔甲，既能抵御别人的质疑，也能对抗你自己的动摇。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "903d5c9cc791e932e06c000468bb5a898d88eaa134252b1f1b2fb3fcc0fd4b10",
+      "enMarkdown": "Ignorance has a similar effect. It's safe to make the mistake of judging early work as finished work if you're a sufficiently lax judge of finished work. I doubt it's possible to cultivate this kind of ignorance, but empirically it's a real advantage, especially for the young.",
+      "zhMarkdown": "无知也有类似的效果。如果你对成熟作品的评判标准足够宽松，那么把早期作品当成成熟作品来评判，也是安全的。我怀疑这种无知是无法刻意培养的，但从经验来看，它确实是一个真正的优势，尤其是对年轻人而言。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "948a20d10d0eaae94d052b56f435bcd04bde2e0afa3cf7d4b4afd115c911c8f3",
+      "enMarkdown": "Another way to get through the lame phase of ambitious projects is to surround yourself with the right people � to create an eddy in the social headwind. But it's not enough to collect people who are always encouraging. You'd learn to discount that. You need colleagues who can actually tell an ugly duckling from a baby swan. The people best able to do this are those working on similar projects of their own, which is why university departments and research labs work so well. You don't need institutions to collect colleagues. They naturally coalesce, given the chance. But it's very much worth accelerating this process by seeking out other people trying to do new things.",
+      "zhMarkdown": "度过雄心勃勃项目的“差劲期”的另一种方法，是让自己置身于对的人群中——在社交阻风中创造一个避风的漩涡。但仅仅聚拢一群只会一味鼓励你的人是不够的。你会慢慢对这种廉价的鼓励不以为意。你需要的是真正能分清丑小鸭和天鹅幼崽的同行。最能做到这一点的人，是那些自己也在折腾类似项目的人，这也是为什么大学科系和研究实验室能发挥巨大作用。你不需要依靠机构来聚集同行。只要有机会，他们自然会凝聚在一起。但主动去寻找其他尝试创造新事物的人，从而加速这一过程，是非常值得的。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "b61c35f43ba250ec19c44bb2fbce5d4fb1c0172f90b3386f274fa0311f25f2e0",
+      "enMarkdown": "Teachers are in effect a special case of colleagues. It's a teacher's job both to see the promise of early work and to encourage you to continue. But teachers who are good at this are unfortunately quite rare, so if you have the opportunity to learn from one, take it. [[3](#f3n)]",
+      "zhMarkdown": "导师实际上是同行的一种特例。导师的职责既包括看出早期作品的潜力，也包括鼓励你坚持下去。但可惜的是，擅长此道的导师凤毛麟角，所以如果你有机会向这样的人学习，一定要牢牢抓住。[[3](#f3n)]"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "9245859ac750467d56aae90815ed9e215e876ee21321d4d8656c3523988fdd04",
+      "enMarkdown": "For some it might work to rely on sheer discipline: to tell yourself that you just have to press on through the initial crap phase and not get discouraged. But like a lot of \"just tell yourself\" advice, this is harder than it sounds. And it gets still harder as you get older, because your standards rise. The old do have one compensating advantage though: they've been through this before.",
+      "zhMarkdown": "对某些人来说，依靠纯粹的意志力可能管用：告诉自己必须挺过最初的垃圾阶段，不要气馁。但就像许多“自我暗示”的建议一样，这说起来容易做起来难。而且随着年龄增长，你的眼光变高，这会变得更加困难。不过，年长者确实有一个补偿性的优势：他们以前经历过这种过程。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "24327a471c070587664d7c1a9e895206f3cec7415ea5cae2ca7f926405eb138e",
+      "enMarkdown": "It can help if you focus less on where you are and more on the rate of change. You won't worry so much about doing bad work if you can see it improving. Obviously the faster it improves, the easier this is. So when you start something new, it's good if you can spend a lot of time on it. That's another advantage of being young: you tend to have bigger blocks of time.",
+      "zhMarkdown": "如果你少关注现状，多关注变化率，会有所帮助。如果你能看到作品在进步，就不会那么担心它现在有多差。显然，进步越快，坚持下去就越容易。所以当你开始一件新事情时，如果能投入大量的时间是最好的。这是年轻的另一个优势：你往往有大块大块的时间。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "6810967779512c7d620bd01cc8c6aea4a98d121ec399ab454fa6114434979d70",
+      "enMarkdown": "Another common trick is to start by considering new work to be of a different, less exacting type. To start a painting saying that it's just a sketch, or a new piece of software saying that it's just a quick hack. Then you judge your initial results by a lower standard. Once the project is rolling you can sneakily convert it to something more. [[4](#f4n)]",
+      "zhMarkdown": "另一个常用的技巧是，在开始时把新工作定义为一种不同、要求没那么严格的类型。比如开始画一幅画时，对自己说这只是个草图；或者写一个新软件时，说这只是个粗糙的临时方案（quick hack）。这样你就能用较低的标准来评判初始结果。一旦项目运转起来，你就可以悄悄地把它升级为更正式的作品。[[4](#f4n)]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "98ece91779cef48060cca6b3bcd51932d66df8e5357d0ccb5e283bc3fccd4f1f",
+      "enMarkdown": "This will be easier if you use a medium that lets you work fast and doesn't require too much commitment up front. It's easier to convince yourself that something is just a sketch when you're drawing in a notebook than when you're carving stone. Plus you get initial results faster. [[5](#f5n)] [[6](#f6n)]",
+      "zhMarkdown": "如果你使用一种能让你快速工作、且不需要前期投入太多的媒介，这就更容易做到。在笔记本上画草图时，你很容易说服自己这只是个草图，但如果是雕刻石头就很难了。此外，你还能更快地看到初始结果。[[5](#f5n)] [[6](#f6n)]"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "c6d92d6e74729c75ae343ac4ddb0535275b6e3a348fd7bdbffa7cb4c89e32420",
+      "enMarkdown": "It will be easier to try out a risky project if you think of it as a way to learn and not just as a way to make something. Then even if the project truly is a failure, you'll still have gained by it. If the problem is sharply enough defined, failure itself is knowledge: if the theorem you're trying to prove turns out to be false, or you use a structural member of a certain size and it fails under stress, you've learned something, even if it isn't what you wanted to learn. [[7](#f7n)]",
+      "zhMarkdown": "如果你把一个高风险的项目看作是学习的机会，而不仅仅是做出某种东西的手段，那么尝试它就会容易得多。这样一来，即使项目最终真的失败了，你依然有所收获。如果问题定义得足够清晰，失败本身就是知识：如果你试图证明的定理被证实是错的，或者你使用了某种尺寸的结构件但在压力下断裂了，你就学到了东西，即使这不是你原本想学的东西。[[7](#f7n)]"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "932fc4c1d8bf823237c0c37c4cffdc692a40c19f4a0c72522428f6e8c04cb764",
+      "enMarkdown": "One motivation that works particularly well for me is curiosity. I like to try new things just to see how they'll turn out. We started Y Combinator in this spirit, and it was one of main things that kept me going while I was working on [Bel](https://paulgraham.com/bel.html). Having worked for so long with various dialects of Lisp, I was very curious to see what its inherent shape was: what you'd end up with if you followed the axiomatic approach all the way.",
+      "zhMarkdown": "对我来说，一个特别管用的动力是好奇心。我喜欢尝试新事物，纯粹是为了看看结果会怎样。我们创办 Y Combinator 就是抱着这种心态，这也是我在开发 [Bel](https://paulgraham.com/bel.html) 时支持我走下去的主要动力之一。在使用过各种 Lisp 方言这么久之后，我非常好奇它的本质形态是什么：如果你把公理化方法贯彻到底，最终会得到什么。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "fb6fcfdbc750af023c62aa0898c7881d18494537839d7aca6887220def7ca11d",
+      "enMarkdown": "But it's a bit strange that you have to play mind games with yourself to avoid being discouraged by lame-looking early efforts. The thing you're trying to trick yourself into believing is in fact the truth. A lame-looking early version of an ambitious project truly is more valuable than it seems. So the ultimate solution may be to teach yourself that.",
+      "zhMarkdown": "但是，为了不被看起来很差劲的早期尝试击退，你居然必须和自己玩心理战，这确实有点奇怪。你试图哄骗自己去相信的东西，其实恰恰是事实。一个雄心勃勃的项目的早期粗糙版本，确实比它看起来更有价值。所以，终极解决方案也许是让你自己真正明白这个道理。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "9c4c3cca907e28f6a50d99e0178d9e227124e9305dacef5cad7c9d55afdba924",
+      "enMarkdown": "One way to do it is to study the histories of people who've done great work. What were they thinking early on? What was the very first thing they did? It can sometimes be hard to get an accurate answer to this question, because people are often embarrassed by their earliest work and make little effort to publish it. (They too misjudge it.) But when you can get an accurate picture of the first steps someone made on the path to some great work, they're often pretty feeble. [[8](#f8n)]",
+      "zhMarkdown": "方法之一是去研究那些做出伟大成就的人的历史。他们早期在想什么？他们做的第一件事是什么？有时候，要得到这个问题的准确答案很难，因为人们往往会为自己最早期的作品感到尴尬，很少主动公开。（他们也误判了自己的作品。）但当你能看清某人在通往伟大成就的道路上迈出的第一步时，那些尝试往往是相当拙劣的。[[8](#f8n)]"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "074dcb22e6936f48fff0397e88a434edf42d6a196dfd74371b20c8c6accfc265",
+      "enMarkdown": "Perhaps if you study enough such cases, you can teach yourself to be a better judge of early work. Then you'll be immune both to other people's skepticism and your own fear of making something lame. You'll see early work for what it is.",
+      "zhMarkdown": "也许如果你研究了足够多的此类案例，你就能学会更好地评判早期作品。这样你就能对别人的怀疑和你自己对做出差劲东西的恐惧免疫。你能看清早期作品的真实价值。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "233991576f0b93b8cd8a7a45e5de468ec6b213a49ec94c3ec21544b129931aaa",
+      "enMarkdown": "Curiously enough, the solution to the problem of judging early work too harshly is to realize that our attitudes toward it are themselves early work. Holding everything to the same standard is a crude version 1. We're already evolving better customs, and we can already see signs of how big the payoff will be.",
+      "zhMarkdown": "说来也怪，解决“对早期作品过于苛刻”这一问题的终极方法，是意识到我们对待它的态度本身也处于“早期阶段”。用同样的标准去衡量一切，只是一个粗糙的 1.0 版本。我们已经在进化出更好的习俗，而且已经可以看到这将带来多么巨大的回报。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "abedc8fbdb646fa243b16ba293afbe2065c6fa7c36430e469576b8068568f1e0",
+      "enMarkdown": "[1] This assumption may be too conservative. There is some evidence that historically the Bay Area has attracted a [different sort of person](https://paulgraham.com/cities.html) than, say, New York City.",
+      "zhMarkdown": "[1] 这个假设可能过于保守。有证据表明，从历史上看，湾区吸引了与纽约等地[截然不同的一群人](https://paulgraham.com/cities.html)。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "1fd3bcaf6b649db0dc87be42196e66447dead2adba975bf1a0e1eb79cb160b16",
+      "enMarkdown": "[2] One of their great favorites is Theranos. But the most conspicuous feature of Theranos's cap table is the absence of Silicon Valley firms. Journalists were fooled by Theranos, but Silicon Valley investors weren't.",
+      "zhMarkdown": "[2] 他们最喜欢拿出来说的是 Theranos。但 Theranos 股东名册上最显著的特征，就是没有一家硅谷的一流投资机构。媒体记者被 Theranos 骗了，但硅谷的专业投资人没有。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "8af9360b39d50941abd95f377803c829cc7a97e2904b3400a7448ba20c5d7afe",
+      "enMarkdown": "[3] I made two mistakes about teachers when I was younger. I cared more about professors' research than their reputations as teachers, and I was also wrong about what it meant to be a good teacher. I thought it simply meant to be good at explaining things.",
+      "zhMarkdown": "[3] 我年轻时对导师犯过两个错误。我当时更看重教授的科研成果，而不是他们作为老师的名声；我也误解了什么是好老师，我以为好老师仅仅是指擅长把事情解释清楚。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "c099d838aa772e845d9356cdeee0fb599a510609ae808b488952d094c984f8e6",
+      "enMarkdown": "[4] Patrick Collison points out that you can go past treating something as a hack in the sense of a prototype and onward to the sense of the word that means something closer to a practical joke:",
+      "zhMarkdown": "[4] Patrick Collison 指出，你不仅可以将某件事当作原型意义上的临时方案（hack），甚至可以更进一步，将其当作更接近于恶作剧意义上的“hack”："
+    },
+    {
+      "id": 40,
+      "type": "quote",
+      "sourceHash": "f47a0c73f2a1999ed0de82cc84f5e800581b4a1f022e4b36843eea6eea539246",
+      "enMarkdown": "> I think there may be something related to being a hack that can be powerful � the idea of making the tenuousness and implausibility *a feature*. \"Yes, it's a bit ridiculous, right? I'm just trying to see how far such a naive approach can get.\" YC seemed to me to have this characteristic.",
+      "zhMarkdown": "> 我觉得把事情当成恶作剧（hack）来做，其中有一种强大的力量——也就是说，把不靠谱和不可信直接当作*一个卖点*。“没错，这确实有点荒谬，对吧？我只是想看看这么天真的方法能走多远。”在我看来，YC 早期就带有这种特征。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "e34404368bfd8f5ef1d638d64986f58a46dcceb2ee0097239a54cb84061aafb1",
+      "enMarkdown": "[5] Much of the advantage of switching from physical to digital media is not the software per se but that it lets you start something new with little upfront commitment.",
+      "zhMarkdown": "[5] 从实体媒介转向数字媒介带来的巨大优势，核心不在于软件本身，而在于它能让你在几乎没有前期投入的情况下开始一件新事物。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "126ec6339eb643554da0f9da915874f2f13b6b6a78340c02ffcc2fb60e5f6820",
+      "enMarkdown": "[6] John Carmack adds:",
+      "zhMarkdown": "[6] John Carmack 补充道："
+    },
+    {
+      "id": 43,
+      "type": "quote",
+      "sourceHash": "dff4a33ef930274e55588ceee9fada86f165415be15dd6aa68568052a328f6d3",
+      "enMarkdown": "> The value of a medium without a vast gulf between the early work and the final work is exemplified in game mods. The original Quake game was a golden age for mods, because everything was very flexible, but so crude due to technical limitations, that quick hacks to try out a gameplay idea weren't all *that* far from the official game. Many careers were born from that, but as the commercial game quality improved over the years, it became almost a full time job to make a successful mod that would be appreciated by the community. This was dramatically reversed with Minecraft and later Roblox, where the entire esthetic of the experience was so explicitly crude that innovative gameplay concepts became the overriding value. These \"crude\" game mods by single authors are now often bigger deals than massive professional teams' work.",
+      "zhMarkdown": "> 游戏模组（mod）完美体现了“早期作品与最终作品之间没有巨大鸿沟”的媒介价值。第一代《雷神之锤》（Quake）是模组的黄金时代，因为一切都非常灵活。但由于技术限制，游戏本身也很粗糙，因此为了测试一个玩法创意而做的快速修改，与官方游戏本身并没有*那么大*的差距。许多人的职业生涯由此诞生。但随着商业游戏品质连年提升，制作一个能被社区认可的成功模组几乎变成了一份全职工作。这种情况在《我的世界》（Minecraft）以及后来的《罗布乐思》（Roblox）中发生了戏剧性的逆转，这些游戏的整体美学刻意做得非常粗糙，使得创新的玩法成了压倒一切的价值。如今，由个人作者制作的这些“粗糙”游戏模组，其影响力往往比庞大专业团队的作品还要大。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "18d6f49c9d7e09d080b2d8345512545fa0584cdf4b96a05c7063d4d2cffe516e",
+      "enMarkdown": "[7] Lisa Randall suggests that we",
+      "zhMarkdown": "[7] Lisa Randall 建议我们"
+    },
+    {
+      "id": 45,
+      "type": "quote",
+      "sourceHash": "a571b39fcaa0dba60a0966fadbfb4c1f57f0f194aa811af470574d112e45f191",
+      "enMarkdown": "> treat new things as experiments. That way there's no such thing as failing, since you learn something no matter what. You treat it like an experiment in the sense that if it really rules something out, you give up and move on, but if there's some way to vary it to make it work better, go ahead and do that",
+      "zhMarkdown": "> 把新事物当作实验。这样一来，就不存在所谓的失败，因为无论如何你都会学到东西。你把它当成实验，如果它确实排除了一些可能性，你就放弃并继续前进；但如果有某种方法可以调整它，让它运行得更好，那就尽管去做。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "4136051df29f53d31602bdc993f5ffcd833f21ee7e09246ab54ae6afd30e13d7",
+      "enMarkdown": "[8] Michael Nielsen points out that the internet has made this easier, because you can see programmers' first commits, musicians' first videos, and so on.",
+      "zhMarkdown": "[8] Michael Nielsen 指出，互联网让这一点变得更容易了，因为你可以看到程序员的第一次提交（first commit），音乐家的第一个视频，等等。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "c0cac2d6097e2cc26660e3e9151adc23b6119bf10008f5b230b7173b8211a918",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, John Carmack, Patrick Collison, Jessica Livingston, Michael Nielsen, and Lisa Randall for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、John Carmack、Patrick Collison、Jessica Livingston、Michael Nielsen 和 Lisa Randall 阅读了本文的草稿。"
+    }
+  ]
+}

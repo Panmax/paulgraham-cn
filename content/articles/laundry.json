@@ -1,0 +1,405 @@
+{
+  "slug": "laundry",
+  "titleEn": "A Version 1.0",
+  "titleZh": "1.0 版本",
+  "dateText": "October 2004",
+  "publishedAt": "2004-10-01",
+  "sourceOrder": 195,
+  "sourceUrl": "https://paulgraham.com/laundry.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "c126ffb752df3b2220913494314ac0a67271615b49a1e2038fbe1192c4a47d6b",
+      "enMarkdown": "As E. B. White said, \"good writing is rewriting.\" I didn't realize this when I was in school. In writing, as in math and science, they only show you the finished product. You don't see all the false starts. This gives students a misleading view of how things get made.",
+      "zhMarkdown": "正如 E. B. 怀特（E. B. White）所说：“好的写作就是重写。” 我在读书时并没有意识到这一点。在写作中，就像在数学和科学中一样，人们展示给你的往往只是成品。你读不到那些写到一半废弃的开头。这给学生们在“事物是如何创造出来的”这一问题上，带来了误导性的认知。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2448e59ba43e695231ce24fdb5dba3c2850982c7a4561bb858c5fd2ba93f17fe",
+      "enMarkdown": "Part of the reason it happens is that writers don't want people to see their mistakes. But I'm willing to let people see an early draft if it will show how much you have to rewrite to beat an essay into shape.",
+      "zhMarkdown": "造成这种情况的部分原因，是作家不希望别人看到自己的错误。但我愿意让大家看看我的早期草稿，如果这能展示出，要将一篇文章打磨成型需要经历多少反复重写的话。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "0c267905a07f0838491d186b372f40b738346654de1e3da4fe77887a7584fe73",
+      "enMarkdown": "Below is the oldest version I can find of [The Age of the Essay](https://paulgraham.com/essay.html) (probably the second or third day), with text that ultimately survived in red and text that later got deleted in gray. There seem to be several categories of cuts: things I got wrong, things that seem like bragging, flames, digressions, stretches of awkward prose, and unnecessary words.",
+      "zhMarkdown": "以下是我能找到的最早版本的《[文章的时代](https://paulgraham.com/essay.html)》（大概是动笔后的第二或第三天）。其中，最终保留下来的文字用红色标记，后来被删掉的文字用灰色标记。删除的内容大致可以分为几类：写错的事实、看起来像在吹嘘的话、言辞过激的吐槽、偏离主题的闲扯、读起来别扭的句子，以及多余的废话。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "f7fd857e95287cbce6e15d50fa788e4a38339999aff8a24f6033973bb62bcb89",
+      "enMarkdown": "I discarded more from the beginning. That's not surprising; it takes a while to hit your stride. There are more digressions at the start, because I'm not sure where I'm heading.",
+      "zhMarkdown": "我在开头部分删掉的内容最多。这并不奇怪，因为人总需要写上一会儿才能找到感觉。开头的跑题也比较多，因为当时我还不确定自己要往哪个方向写。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "cededdcf93b210d2426fc4766d6766259cea02919398a2bd8ba0162ff7b9dd98",
+      "enMarkdown": "The amount of cutting is about average. I probably write three to four words for every one that appears in the final version of an essay.",
+      "zhMarkdown": "这种删改幅度算是个平均水平。一篇文章最终发表出来的每一个字，背后可能都伴随着我写下的三到四个字。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ffa24f90c79fb6df4cd7de6a22bfa9f97c3816e43b4aac7940934452c7801d9a",
+      "enMarkdown": "(Before anyone gets mad at me for opinions expressed here, remember that anything you see here that's not in the final version is obviously something I chose not to publish, often because I disagree with it.)",
+      "zhMarkdown": "（在有人因我在此表达的观点而生气之前，请记住，任何你在这里看到但最终版里没有的内容，显然都是我选择不发表的，通常是因为我自己也不同意这些观点。）"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "2abeec8794202f985ea7878ff365dfeb3944be935bcdefc75325ecdc48b0e6e6",
+      "enMarkdown": "Recently a friend said that what he liked about my essays was that they weren't written the way we'd been taught to write essays in school. You remember: topic sentence, introductory paragraph, supporting paragraphs, conclusion. It hadn't occurred to me till then that those horrible things we had to write in school were even connected to what I was doing now. But sure enough, I thought, they did call them \"essays,\" didn't they?",
+      "zhMarkdown": "最近一位朋友说，他喜欢我文章的原因是，这些文章写得不像我们在学校里被教导的那样。你一定还记得那种格式：主题句、引入段、支持段、结论。直到那时我才意识到，我们在学校里被迫写下的那些糟糕玩意，居然和我现在做的事情还有联系。但我转念一想，没错，他们确实把那些东西叫做“写文章（essays）”，不是吗？"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "b9bf07eae4e922d2b1d5edda5b57c34752e3db05e3ce65fe348eaa4fca2ced96",
+      "enMarkdown": "Well, they're not. Those things you have to write in school are not only not essays, they're one of the most pointless of all the pointless hoops you have to jump through in school. And I worry that they not only teach students the wrong things about writing, but put them off writing entirely.",
+      "zhMarkdown": "然而，它们根本不是。你在学校里被迫写的那些东西不仅不是真正的文章，而且是学校里所有毫无意义的条条框框中，最无意义的之一。我担心，它们不仅向学生传授了错误的写作观念，还彻底败坏了他们对写作的胃口。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "0aafe67808df3d1bdfaeafdec47c562b6ffba480c4021047419b6231dbe7dfec",
+      "enMarkdown": "So I'm going to give the other side of the story: what an essay really is, and how you write one. Or at least, how I write one. Students be forewarned: if you actually write the kind of essay I describe, you'll probably get bad grades. But knowing how it's really done should at least help you to understand the feeling of futility you have when you're writing the things they tell you to.",
+      "zhMarkdown": "所以，我想讲一讲故事的另一面：什么是真正的文章，以及如何写出一篇好文章。或者至少，我是怎么写的。这里先给学生们提个醒：如果你真的写出了我所描述的那种文章，你可能会拿低分。但了解真正的写作方式，至少能帮你理解，为什么在按老师的要求写那些东西时，你会感到如此徒劳无功。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e5c8a41c1eead05670239ff9ff6f50bbe6f5e297f1ddd9162659bd40cbc1d825",
+      "enMarkdown": "The most obvious difference between real essays and the things one has to write in school is that real essays are not exclusively about English literature. It's a fine thing for schools to  teach students how to write. But for some bizarre reason (actually, a very specific bizarre reason that I'll explain in a moment),  the teaching of writing has gotten mixed together with the study of literature. And so all over the country, students are writing not about how a baseball team with a small budget might compete with the Yankees, or the role of color in fashion, or what constitutes a good dessert, but about symbolism in Dickens.",
+      "zhMarkdown": "真正的文章与学校命题作文最明显的区别在于，真正的文章并不全是关于英国文学的。学校教学生如何写作是一件好事。但出于某种奇怪的原因（实际上是一个非常具体的奇怪原因，我稍后会解释），写作教学与文学研究混在了一起。于是，全国各地的学生写出来的，不是“预算有限的棒球队如何与洋基队竞争”、“颜色在时尚中的作用”或者“什么才算是一道好甜点”，而是“狄更斯作品中的象征主义”。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "1baf736dfd59f3647f198f0b18e34a5a3bcab6c8da1b8d11fa1484956909bf99",
+      "enMarkdown": "With obvious results. Only a few people really  care about symbolism in Dickens. The teacher doesn't. The students don't. Most of the people who've had to write PhD dissertations about Dickens don't. And certainly  Dickens himself would be more interested in an essay about color or baseball.",
+      "zhMarkdown": "结果显而易见。只有极少数人真正关心狄更斯作品中的象征主义。老师不关心，学生不关心，甚至大多数不得不写关于狄更斯的博士论文的人也不关心。而且可以肯定的是，狄更斯本人也会对一篇关于颜色或棒球的文章更感兴趣。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "8289ec0106babc427be2082c017a38aa9327c11f21e3b339112fe879905fc8a0",
+      "enMarkdown": "How did things get this way? To answer that we have to go back almost a thousand years. Between about 500 and 1000, life was not very good in Europe. The term \"dark ages\" is presently out of fashion as too judgemental (the period wasn't dark; it was just *different*), but if this label didn't already exist, it would seem an inspired metaphor. What little original thought there was took place in lulls between constant wars and had something of the character of the thoughts of parents with a new baby. The most amusing thing written during this period, Liudprand of Cremona's Embassy to Constantinople, is, I suspect, mostly inadvertently so.",
+      "zhMarkdown": "事情怎么会变成这样？要回答这个问题，我们得追溯到近一千年前。大约在公元 500 年到 1000 年之间，欧洲的生活并不怎么好。现在人们觉得“黑暗时代”这个词带有太强的批判色彩，因而不再流行（那个时期并不黑暗，只是*不同*而已）。但如果这个标签之前不存在，它现在听起来倒像是个极具创意的比喻。当时仅存的一点原创思想，大都产生于连绵战争的间歇期，带着一种新手爸妈照顾婴儿般的焦虑感。那个时期写得最有趣的东西，是克雷莫纳的刘特普兰德写的《出使君士坦丁堡记》，但我怀疑其中大部分的幽默都是无意中造成的。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "f9c06853ad8a1d4cf9b19526ffde75d6be7a68979e00b688dd1bba71d81349b6",
+      "enMarkdown": "Around 1000 Europe began to catch its breath. And once they had the luxury of curiosity, one of the first things they discovered was what we call \"the classics.\" Imagine if we were visited by aliens. If they could even get here they'd presumably know a few things we don't. Immediately Alien Studies would become the most dynamic field of scholarship: instead of painstakingly discovering things for ourselves, we could simply suck up everything they'd discovered. So it was in Europe in 1200. When classical texts began to circulate in Europe, they contained not just new answers, but new questions. (If anyone proved a theorem in christian Europe before 1200, for example, there is no record of it.)",
+      "zhMarkdown": "公元 1000 年左右，欧洲开始缓过气来。一旦有了奢侈的闲暇去满足好奇心，他们最先发现的东西之一就是我们所说的“古典著作”。想象一下，如果我们迎来了外星人访客，如果他们能来到这里，想必会知道一些我们不知道的事情。外星人研究会立刻成为最热门的学术领域：我们无需自己费尽心力去探索，只需直接吸收他们已经发现的一切即可。1200 年的欧洲正是如此。当古典文献开始在欧洲流传时，它们不仅带来了新的答案，还带来了新的问题。（例如，如果有人在 1200 年前的基督教欧洲证明了某个定理，那也没有留下任何记录。）"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "21fb74512d8e982dea794b198766430b32f0f56426436f86473c04a4480c5fcf",
+      "enMarkdown": "For a couple centuries, some of the most important work being done was intellectual archaeology. Those were also the centuries during which schools were first established. And since reading ancient texts was the essence of what scholars did then, it became the basis of the curriculum.",
+      "zhMarkdown": "几个世纪以来，学者们所做的最重要工作之一就是“思想考古”。那几个世纪也是学校最初建立的时期。既然阅读古代文献是当时学者工作的核心，它自然就成了学校课程的基础。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "d0ae71e3ca6308d260e5a83d20fba2f463add55342535ec07a2f641676aec8b2",
+      "enMarkdown": "By 1700, someone who wanted to learn about physics didn't need to start by mastering Greek in order to read Aristotle. But schools change slower than scholarship: the study of ancient texts had such prestige that it remained the backbone of education until the late 19th century. By then it was merely a tradition. It did serve some purposes: reading a foreign language was difficult, and thus taught discipline, or at least, kept students busy; it introduced students to cultures quite different from their own; and its very uselessness made it function (like white gloves) as a social bulwark. But it certainly wasn't true, and hadn't been true for centuries, that students were serving apprenticeships in the hottest area of scholarship.",
+      "zhMarkdown": "到了 1700 年，一个想学习物理的人已经不需要先精通希腊语去阅读亚里士多德了。但学校的变革比学术研究要慢得多：对古代文献的研究享有极高的声望，以至于直到 19 世纪末，它依然是教育的支柱。到那时，这已经纯粹成了一种传统。它确实能起到一些作用：阅读一门外语很难，因此能培养纪律性，或者说至少能让学生有事可做；它向学生介绍了与自己截然不同的文化；而且它正因为毫无实用价值，反而像白手套一样，成了一种社会阶层的护城河。但可以肯定的是，学生们并没有在最前沿的学术领域里当学徒，而且这种情况已经持续了几个世纪。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "ad67086567b784bf1baaeb85b9b5f21540fdc0f6871cc8851598d635a389d91e",
+      "enMarkdown": "Classical scholarship had also changed. In the early era, philology actually mattered. The texts that filtered into Europe were all corrupted to some degree by the errors of translators and copyists. Scholars had to figure out what Aristotle said before they could figure out what he meant. But by the modern era such questions were answered as well as they were ever going to be. And so the study of ancient texts became less about ancientness and more about texts.",
+      "zhMarkdown": "古典学术研究本身也发生了变化。在早期，文献学确实至关重要。流传到欧洲的文献在某种程度上都因翻译和抄写员的错误而失真。学者们必须先弄清楚亚里士多德说了什么，然后才能弄清楚他是什么意思。但到了现代，这些问题已经得到了尽可能的解决。因此，对古代文献的研究变得不再那么关注其“古代性”，而是更多地关注“文献”本身。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "45dfc7038be9715dbbb6427334ef2e52497c13cbddfa851916d9ea48d129e2fa",
+      "enMarkdown": "The time was then ripe for the question: if the study of ancient texts is a valid field for scholarship, why not modern texts? The answer, of course, is that the raison d'etre of classical scholarship was a kind of intellectual archaelogy that does not need to be done in the case of contemporary authors. But for obvious reasons no one wanted to give that answer. The archaeological work being mostly done, it implied that the people studying the classics were, if not wasting their time, at least working on problems of minor importance.",
+      "zhMarkdown": "于是时机成熟了，人们开始提出这样一个问题：如果研究古代文献是一个合理的学术领域，为什么不能研究现代文献呢？答案当然是，古典研究存在的理由在于一种思想考古，而对于当代作家，这种考古工作根本没有必要。但出于显而易见的原因，没有人想给出这个答案。因为考古工作基本已经完成了，这意味着研究古典学的人即便不是在浪费时间，至少也是在研究一些无足轻重的问题。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7ba16463569f9749d0ffc6c0f974410ee28a94db4a2497ee5574b21791b4b03c",
+      "enMarkdown": "And so began the study of modern literature. There was some initial resistance, but it didn't last long. The limiting reagent in the growth of university departments is what parents will let undergraduates study. If parents will let their children major in x, the rest follows straightforwardly. There will be jobs teaching x, and professors to fill them. The professors will establish scholarly journals and publish one another's papers. Universities with x departments will subscribe to the journals. Graduate students who want jobs as professors of x will write dissertations about it. It may take a good long while for the more prestigious universities to cave in and establish departments in cheesier xes, but at the other end of the scale there are so many universities competing to attract students that the mere establishment of a discipline requires little more than the desire to do it.",
+      "zhMarkdown": "于是，现代文学研究开始了。起初有一些阻力，但并没有持续多久。大学科系扩张的限制因素是家长允许本科生学什么。如果家长允许孩子主修某学科，剩下的事情就顺理成章了。会有教授该学科的职位，也会有教授去填补这些空缺。教授们会创办学术期刊并互相发表论文。设有该学科科系的大学会订阅这些期刊。想要获得该学科教授职位的研究生会为此撰写论文。声誉较好的大学可能需要相当长的时间才会妥协并建立这些稍显廉价的科系，但在学校金字塔的另一端，有太多大学在争夺学生，只要有人想做，建立一个新学科几乎不需要费什么力气。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "fe147caf9dbea688c92631f99c9e3ad01c45f88dcbea2a8ecfad7d0e4f8226cc",
+      "enMarkdown": "High schools imitate universities. And so once university English departments were established in the late nineteenth century, the 'riting component of the 3 Rs was morphed into English. With the bizarre consequence that high school students now had to write about English literature-- to write, without even realizing it, imitations of whatever English professors had been publishing in their journals a few decades before. It's no wonder if this seems to the student a pointless exercise, because we're now three steps removed from real work: the students are imitating English professors, who are imitating classical scholars, who are merely the inheritors of a tradition growing out of what was, 700 years ago, fascinating and urgently needed work.",
+      "zhMarkdown": "高中模仿大学。因此，当 19 世纪末大学英文系建立后，基础教育中的“写作”部分就演变成了“英文课”。这导致了一个离奇的后果：高中生现在必须写关于英国文学的文章——在毫无察觉的情况下，去模仿几十年前英文教授在学术期刊上发表的东西。这也难怪学生会觉得这是一项毫无意义的练习，因为我们现在已经偏离了实际工作整整三步：学生在模仿英文教授，英文教授在模仿古典学者，而古典学者仅仅是继承了一项传统，这项传统源于 700 年前极具吸引力且迫切需要的工作。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "f91f5d08e22dd76843183ccde0963c4e31f8eaae20232da6de644927db6de971",
+      "enMarkdown": "Perhaps high schools should drop English and just teach writing. The valuable part of English classes is learning to write, and that could be taught better by itself. Students learn better when they're interested in what they're doing, and it's hard to imagine a topic less interesting than symbolism in Dickens. Most of the people who write about that sort of thing professionally are not really interested in it. (Though indeed, it's been a while since they were writing about symbolism; now they're writing about gender.)",
+      "zhMarkdown": "也许高中应该取消英文课，只教写作。英文课中最有价值的部分是学会写作，而这完全可以单独教得更好。当学生对所做的事情感兴趣时，他们会学得更好，而很难想象有什么话题比狄更斯作品中的象征主义更无趣了。大多数以此为生、专业撰写此类文章的人，其实对此也毫无兴趣。（尽管事实上，他们已经有一阵子不写象征主义了，现在他们改写性别研究了。）"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "31ff3e6a6b12ecc7685f4ac76cfaa3279d69154a186e9bad42f5e3dd347b76be",
+      "enMarkdown": "I have no illusions about how eagerly this suggestion will be adopted. Public schools probably couldn't stop teaching English even if they wanted to; they're probably required to by law. But here's a related suggestion that goes with the grain instead of against it: that universities establish a writing major. Many of the students who now major in English would major in writing if they could, and most would be better off.",
+      "zhMarkdown": "我对于这个建议会被多么热切地采纳不抱幻想。公立学校即使想停止开设英文课，可能也无能为力，因为法律大概是这么规定的。但这里有一个顺应潮流而非逆流而上的相关建议：大学设立写作专业。许多现在主修英文的学生，如果可以的话，都会选择主修写作，而且大多数人会因此受益匪浅。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "baca42ad355ffe6bd51cbbfd2e3a886a1a1a34593b74c1f400b59b437e59a188",
+      "enMarkdown": "It will be argued that it is a good thing for students to be exposed to their literary heritage. Certainly. But is that more important than that they learn to write well? And are English classes even the place to do it? After all, the average public high school student gets zero exposure to his artistic heritage. No disaster results. The people who are interested in art learn about it for themselves, and those who aren't don't. I find that American adults are no better or worse informed about literature than art, despite the fact that they spent years studying literature in high school and no time at all studying art. Which presumably means that what they're taught in school is rounding error compared to what they pick up on their own.",
+      "zhMarkdown": "有人会争辩说，让学生接触文学遗产是一件好事。当然是这样。但这难道比让他们学会写好文章更重要吗？而且英文课真的是做这件事的合适地方吗？毕竟，普通的公立高中生在艺术遗产方面的接触几乎为零，也没发生什么灾难。对艺术感兴趣的人会自己去了解，不感兴趣的人则不会。我发现，美国成年人对文学的了解程度并不比艺术好或差，尽管他们在高中花了数年时间学习文学，而完全没有花时间学习艺术。这大概意味着，他们在学校里学到的东西，与他们自己琢磨出来的东西相比，只是微不足道的四舍五入误差。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "e41ea5db9712cd1e159d5c78ff91a42e97c6434b3355c546c60b01241e54131e",
+      "enMarkdown": "Indeed, English classes may even be harmful. In my case they were effectively aversion therapy. Want to make someone dislike a book? Force him to read it and write an essay about it. And make the topic so intellectually bogus that you could not, if asked, explain why one ought to write about it. I love to read more than anything, but by the end of high school I never read the books we were assigned. I was so disgusted with what we were doing that it became a point of honor with me to write nonsense at least as good at the other students' without having more than glanced over the book to learn the names of the characters and a few random events in it.",
+      "zhMarkdown": "事实上，英文课甚至可能是有害的。就我而言，它们实际上起到了厌恶疗法的作用。想让一个人讨厌一本书吗？那就强迫他去读，并写一篇关于它的文章。而且把题目定得在智识上如此荒谬，以至于如果被问起，你都无法解释为什么要写它。我比任何事情都更热爱阅读，但到了高中毕业时，我从不读老师布置的书。我对我们所做的事情感到如此恶心，以至于我把这当成了自己的荣誉感：只要大致翻翻书，记住角色的名字和几个随机事件，就能写出至少和别的学生一样好的胡话。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "0432ef2115c6dc82a95397f9777b133ea4c8822735c40beff1d19bcb816127b7",
+      "enMarkdown": "I hoped this might be fixed in college, but I found the same problem there. It was not the teachers. It was English. We were supposed to read novels and write essays about them. About what, and why? That no one seemed to be able to explain. Eventually by trial and error I found that what the teacher wanted us to do was pretend that the story had really taken place, and to analyze based on what the characters said and did (the subtler clues, the better) what their motives must have been. One got extra credit for motives having to do with class, as I suspect one must now for those involving gender and sexuality. I learned how to churn out such stuff well enough to get an A, but I never took another English class.",
+      "zhMarkdown": "我曾希望在大学里能有所改善，但我发现那里存在同样的问题。这不是老师的问题，而是“英文”这个学科本身的问题。我们被要求阅读小说并写关于它们的文章。关于什么，为什么要写？似乎没有人能解释清楚。最终通过不断试错，我发现老师想要我们做的是假装故事真的发生过，并根据人物的言行（线索越微妙越好）来分析他们的动机。如果动机与阶级有关，就能获得额外加分，我怀疑现在如果涉及性别和性取向也是如此。我学会了如何炮制这种东西，足以拿到 A，但我再也没有上过一节英文课。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "1e99f7df1ee0a63f6c14444f1be9d9726092875f3a6e5194e3b64e53f96b6246",
+      "enMarkdown": "And the books we did these disgusting things to, like those we mishandled in high school, I find still have black marks against them in my mind. The one saving grace was that English courses tend to favor pompous, dull writers like Henry James, who deserve black marks against their names anyway. One of the principles the IRS uses in deciding whether to allow deductions is that, if something is fun, it isn't work. Fields that are intellectually unsure of themselves rely on a similar principle. Reading P.G. Wodehouse or Evelyn Waugh or Raymond Chandler is too obviously pleasing to seem like serious work, as reading Shakespeare would have been before English evolved enough to make it an effort to understand him. [sh] And so good writers (just you wait and see who's still in print in 300 years) are less likely to have readers turned against them by clumsy, self-appointed tour guides.",
+      "zhMarkdown": "而那些我们曾对其进行过这种恶劣折磨的书，就像我们在高中糟蹋过的那些书一样，在我的脑海中至今仍留有污点。唯一令人欣慰的是，英文课程往往偏爱像亨利·詹姆斯（Henry James）这样浮夸、沉闷的作家，反正他们名下本来就该有污点。美国国税局在决定是否允许扣税时使用的原则之一是：如果某件事很有趣，那它就不是工作。在智识上缺乏自信的领域也依赖类似的原则。阅读 P.G. 伍德豪斯（P.G. Wodehouse）、伊夫林·沃（Evelyn Waugh）或雷蒙德·钱德勒（Raymond Chandler）显然太令人愉悦了，以至于看起来不像是严肃的工作，就像在英文演变到需要费力才能理解他之前阅读莎士比亚一样。[sh] 因此，优秀的作家（你且等着瞧 300 年后谁的书还在印）反而不太容易因为那些笨拙的、自封的向导而失去读者。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "064f601ab38eefa96c8fb4ddf08bc617acc55950bd77784ad755ca4790400d4e",
+      "enMarkdown": "The other big difference between a real essay and the things they make you write in school is that a real essay doesn't take a position and then defend it. That principle, like the idea that we ought to be writing about literature, turns out to be another intellectual hangover of long forgotten origins. It's often mistakenly believed that medieval universities were mostly seminaries. In fact they were more law schools. And at least in our tradition lawyers are advocates: they are trained to be able to take either side of an argument and make as good a case for it as they can.",
+      "zhMarkdown": "真正的文章与学校让你写的文章之间的另一个巨大区别在于，真正的文章不会先设定一个立场，然后去捍卫它。这个原则，就像我们应该写文学评论的想法一样，原来是另一个早已被遗忘的、源远流长的思想宿醉。人们常常误以为中世纪的大学大多是神学院。事实上，它们更像是法学院。至少在我们的传统中，律师是辩护人：他们接受的训练是能够站在辩论的任何一方，并尽其所能地为其进行最好的辩护。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "c41a32f6bdafe2bf1311981571d37f05b155e7f8d33b937b3ca540bd12ac171e",
+      "enMarkdown": "Whether or not this is a good idea (in the case of prosecutors, it probably isn't), it tended to pervade the atmosphere of early universities. After the lecture the most common form of discussion was the disputation. This idea is at least nominally preserved in our present-day thesis defense-- indeed, in the very word thesis. Most people treat the words thesis and dissertation as interchangeable, but originally, at least, a thesis was a position one took and the dissertation was the argument by which one defended it.",
+      "zhMarkdown": "无论这是否是个好主意（在检察官的情况下，这可能不是个好主意），它往往弥漫在早期大学的氛围中。在授课之后，最常见的讨论形式是辩论。这个想法至少在名义上保留在今天的论文答辩中——事实上，就体现在“thesis（论文/命题）”这个词本身。大多数人把“thesis”和“dissertation（论文/论述）”混为一谈，但最初，至少“thesis”是一个人采取的立场，而“dissertation”是为其辩护的论证过程。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "3ff0b65731edb2de95f06e0be2d5ef1a326f212b95247cce58657d7e42ebd728",
+      "enMarkdown": "I'm not complaining that we blur these two words together. As far as I'm concerned, the sooner we lose the original sense of the word thesis, the better. For many, perhaps most, graduate students, it is stuffing a square peg into a round hole to try to recast one's work as a single thesis. And as for the disputation, that seems clearly a net lose. Arguing two sides of a case may be a necessary evil in a legal dispute, but it's not the best way to get at the truth, as I think lawyers would be the first to admit.",
+      "zhMarkdown": "我并不是在抱怨我们将这两个词混为一谈。在我看来，我们越早失去“thesis”这个词的最初含义越好。对于许多、甚至大多数研究生来说，试图将自己的研究重塑为一个单一的论点，就像把方榫头强行塞进圆卯眼。至于辩论，这显然是一个净损失。在法律纠纷中，为案件的两面进行辩护可能是一个必要的恶，但这不是获取真理的最佳方式，我想律师会是最先承认这一点的。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "257825d79dfd5c2da84ed18772e0d1bad86db443586a55c5bd2b9f0f0fefb150",
+      "enMarkdown": "And yet this principle is built into the very structure of the essays they teach you to write in high school. The topic sentence is your thesis, chosen in advance, the supporting paragraphs the blows you strike in the conflict, and the conclusion--- uh, what it the conclusion? I was never sure about that in high school. If your thesis was well expressed, what need was there to restate it? In theory it seemed that the conclusion of a really good essay ought not to need to say any more than QED. But when you understand the origins of this sort of \"essay\", you can see where the conclusion comes from. It's the concluding remarks to the jury.",
+      "zhMarkdown": "然而，这个原则却被植入了高中教你写的文章结构中。主题句是你的论文命题（预先选好的），支持段是你在冲突中使出的招式，而结论——呃，结论是什么？我在高中时从来没搞懂过。如果你的论点已经表达得很清楚了，为什么还要重申一遍呢？在理论上，一篇真正优秀的文章的结论似乎不需要说比“证明完毕（QED）”更多的内容。但当你了解了这种“文章”的起源，你就能明白结论是从哪里来的了。它是向陪审团发表的结案陈词。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "91df768130845319040c535e6b0c826c96960d0d44b75677ed387780b4cdb404",
+      "enMarkdown": "What other alternative is there? To answer that we have to reach back into history again, though this time not so far. To Michel de Montaigne, inventor of the essay. He was doing something quite different from what a lawyer does, and the difference is embodied in the name. Essayer is the French verb meaning \"to try\" (the cousin of our word assay),  and an \"essai\" is an effort. An essay is something you write in order to figure something out.",
+      "zhMarkdown": "那还有什么别的选择呢？要回答这个问题，我们必须再次追溯历史，不过这次不用那么远。追溯到米歇尔·德·蒙田（Michel de Montaigne），文章（essay）的发明者。他做的事情和律师做的完全不同，这种区别就体现在名字上。“Essayer”是法语动词，意思是“尝试”（与英文中的“assay”同源），而一个“essai”就是一个尝试。一篇文章是你为了弄清楚某件事而写的东西。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "ab43691c31ae1a9a2a72c25d060b2be85dd69dd42219afbc1782a4488a0d2df0",
+      "enMarkdown": "Figure out what? You don't know yet. And so you can't begin with a thesis, because you don't have one, and may never have one. An essay doesn't begin with a statement, but with a question. In a real essay, you don't take a position and defend it. You see a door that's ajar, and you open it and walk in to see what's inside.",
+      "zhMarkdown": "弄清楚什么？你现在还不知道。所以你不能以一个论点开始，因为你还没有论点，而且可能永远也不会有。一篇文章不是以一个陈述开始，而是以一个问题开始。在真正的文章中，你不会先设定一个立场并为其辩护。你会看到一扇虚掩的门，你推开它，走进去看看里面有什么。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "4f70075d2aa3f971c632e40c4199f8e3b9e02ab0fb8a4fe9615c4b52f301ac0c",
+      "enMarkdown": "If all you want to do is figure things out, why do you need to write anything, though? Why not just sit and think? Well, there precisely is Montaigne's great discovery. Expressing ideas helps to form them. Indeed, helps is far too weak a word. 90% of what ends up in my essays was stuff I only thought of when I sat down to write them. That's why I write them.",
+      "zhMarkdown": "不过，如果你只想弄清楚事情，为什么需要写下来呢？为什么不直接坐下来思考呢？这恰恰是蒙田的伟大发现：表达想法有助于塑造想法。事实上，“有助于”这个词实在太弱了。我文章中 90% 的内容，都是在我坐下来写的时候才想到的。这就是我写文章的原因。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "fe2e6d4763ee984f30324d341373869eb4da5ad238585a96ba7b8c33820075fc",
+      "enMarkdown": "So there's another difference between essays and the things you have to write in school. In school  you are, in theory, explaining yourself to someone else. In the best case---if you're really organized---you're just writing it *down.* In a real essay you're writing for yourself. You're thinking out loud.",
+      "zhMarkdown": "所以，文章与你在学校里必须写的那些东西还有另一个区别。在学校里，理论上你是在向别人解释你自己。在最好的情况下——如果你真的很有条理——你只是把它“记录”下来。而在真正的文章中，你是为自己而写。你是在大声地思考。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "eae6e56f2fc2b9d1650d6c737f7861304b068d2f272ebcc52173b7cecd31f6a5",
+      "enMarkdown": "But not quite. Just as inviting people over forces you to clean up your apartment, writing something that you know  other people will read forces you to think well. So it does matter to have an audience. The things I've written just for myself are no good. Indeed, they're bad in a particular way: they tend to peter out. When I run into difficulties, I notice that I tend to conclude with a few vague questions and then drift off to get a cup of tea.",
+      "zhMarkdown": "但也不完全是这样。就像邀请朋友来家里会迫使你打扫公寓一样，写一些你知道别人会读的东西会迫使你好好思考。所以，拥有读者确实很重要。我那些只写给自己看的东西都不怎么好。事实上，它们以一种特定的方式变糟：它们往往会虎头蛇尾。当我遇到困难时，我发现自己倾向于用几个模糊的问题来收尾，然后溜走去泡杯茶。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "ce0b092e594664be7c5167fc9718f0b85ac3b9de3289ad5b4f9e1f8a11f36f52",
+      "enMarkdown": "This seems a common problem. It's practically the standard ending in blog entries--- with the addition of a \"heh\" or an emoticon, prompted by the all too accurate sense that something is missing.",
+      "zhMarkdown": "这似乎是一个普遍的问题。这几乎是博客文章的标配结尾——外加一个“呵呵”或表情符号，这正是因为作者极其准确地感觉到缺少了点什么。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "988cfcb2584e56884c1652a4157f7c29697c53485c089459b027b488a8a9cf75",
+      "enMarkdown": "And indeed, a lot of published essays peter out in this same way. Particularly the sort written by the staff writers of newsmagazines. Outside writers tend to supply editorials of the defend-a-position variety, which make a beeline toward a rousing (and foreordained) conclusion. But the staff writers feel obliged to write something more balanced, which in practice ends up meaning blurry. Since they're writing for a popular magazine, they start with the most radioactively controversial questions, from which (because they're writing for a popular magazine) they then proceed to recoil from in terror. Gay marriage, for or against? This group says one thing. That group says another. One thing is certain: the question is a complex one. (But don't get mad at us. We didn't draw any conclusions.)",
+      "zhMarkdown": "事实上，许多发表的文章也是这样虎头蛇尾的。特别是新闻杂志的专职作家写的那些。外部作者往往会提供“捍卫立场”类的社论，直奔一个激昂（且预先决定好）的结论。但专职作家觉得自己有义务写一些更平衡的内容，这在实践中最终变成了模糊不清。因为他们是在为大众杂志写作，所以他们从最具争议性的问题开始，然后（因为他们是在为大众杂志写作）又惊恐地退缩。同性婚姻，赞成还是反对？这一派这么说，那一派那么说。有一件事是肯定的：这是一个复杂的问题。（但别生我们的气，我们没有得出任何结论。）"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "ca8616847a30f68b2ab4f3db0542e2f3c68ad0f6406363608c77ee62709b1a09",
+      "enMarkdown": "Questions aren't enough. An essay has to come up with answers. They don't always, of course. Sometimes you start with a promising question and get nowhere. But those you don't publish. Those are like experiments that get inconclusive results. Something you publish ought to tell the reader something he didn't already know.",
+      "zhMarkdown": "光提出问题是不够的。一篇文章必须给出答案。当然，它们并不总是能做到。有时你从一个很有前景的问题开始，却一无所获。但那些文章你不会发表。它们就像没有得出确定结果的实验。你发表的东西应该告诉读者一些他之前不知道的事情。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "429f2ca71b6c2bfeb463b48ebedc00abf51c5f7e2cc16558a2955982e31a2535",
+      "enMarkdown": "But *what* you tell him doesn't matter, so long as it's interesting. I'm sometimes accused of meandering. In defend-a-position writing that would be a flaw. There you're not concerned with truth. You already know where you're going, and you want to go straight there, blustering through obstacles, and hand-waving your way across swampy ground. But that's not what you're trying to do in an essay. An essay is supposed to be a search for truth. It would be suspicious if it didn't meander.",
+      "zhMarkdown": "但你告诉他*什么*并不重要，只要它有趣就行。我有时会被指责为东拉西扯。在“捍卫立场”的写作中，这确实是一个缺陷。在那种写作中，你并不关心真相。你已经知道自己要去哪里，并且想直奔主题，对障碍虚张声势，在沼泽地上敷衍而过。但这并不是你在文章中试图做的事情。一篇文章应该是一次对真理的追寻。如果它不东拉西扯，反而会让人起疑。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "c5ac10e07a7603ffdb4afd07add0a6e1a95e810f1ce52ed7988c61789212d919",
+      "enMarkdown": "The Meander is a river in Asia Minor (aka Turkey). As you might expect, it winds all over the place. But does it do this out of frivolity? Quite the opposite. Like all rivers, it's rigorously following the laws of physics. The path it has discovered, winding as it is, represents the most economical route to the sea.",
+      "zhMarkdown": "米安德河（Meander）是小亚细亚（又名土耳其）的一条河流。正如你所料，它蜿蜒流向各处。但它是出于轻浮才这样做的吗？恰恰相反。像所有河流一样，它在严格遵循物理定律。它所发现的这条道路，尽管蜿蜒，却代表了通往大海最经济的路线。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "f1b4e4428bf651405d9718f6dd1ca4a32e4370c7ce4ca8e83bd0b7e00e9bbb07",
+      "enMarkdown": "The river's algorithm is simple. At each step, flow down. For the essayist this translates to: flow interesting. Of all the places to go next, choose whichever seems most interesting.",
+      "zhMarkdown": "这条河流的算法很简单。在每一步，向下流。对于文章作者来说，这翻译过来就是：向有趣的地方流。在下一步可以去的所有地方中，选择看起来最有趣的那一个。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "919e341d46d8638ab7ac23862f5dc9830c4af4505773b5d15669417c3a6a03a5",
+      "enMarkdown": "I'm pushing this metaphor a bit. An essayist can't have quite as little foresight as a river. In fact what you do (or what I do) is somewhere between a river and a roman road-builder. I have a general idea of the direction I want to go in, and I choose the next topic with that in mind. This essay is about writing, so I do occasionally yank it back in that direction, but it is not all the sort of essay I thought I was going to write about writing.",
+      "zhMarkdown": "我把这个比喻用得有点过了。文章作者不能像河流那样缺乏远见。事实上，你所做的（或者我所做的）介于河流和古罗马筑路工之间。我对想要走的方向有一个大体概念，并以此来选择下一个话题。这篇文章是关于写作的，所以我偶尔会把它拉回那个方向，但这完全不是我起初以为自己会写的那种关于写作的文章。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "a2e3fc7733459254f75e7e7511674b6c4fb38ca7ab5f0012f9421e67f83a0926",
+      "enMarkdown": "Note too that hill-climbing (which is what this algorithm is called) can get you in trouble. Sometimes, just like a river, you run up against a blank wall. What I do then is just what the river does: backtrack. At one point in this essay I found that after following a certain thread I ran out of ideas. I had to go back n paragraphs and start over in another direction. For illustrative purposes I've left the abandoned branch as a footnote.",
+      "zhMarkdown": "还要注意，登山算法（这就是这种算法的名称）可能会让你陷入麻烦。有时，就像河流一样，你会撞上一堵死墙。我当时的做法就像河流一样：退回去。在这篇文章的某个地方，我发现沿着某个思路写下去后，我没词了。我不得不退回 n 个段落，从另一个方向重新开始。为了说明这一点，我把放弃的分支留作了脚注。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "2c4323a1e5ffbac5794de3509f88baff6d4692653c9fbc0bfbe2f2ed60251398",
+      "enMarkdown": "Err on the side of the river. An essay is not a reference work. It's not something you read looking for a specific answer, and feel cheated if you don't find it. I'd much rather read an essay that went off in an unexpected but interesting direction than one that plodded dutifully along a prescribed course.",
+      "zhMarkdown": "宁可偏向河流这一边。文章不是工具书。它不是你为了寻找特定答案而阅读的东西，如果找不到就会觉得受骗。我宁愿读一篇走向意想不到但有趣方向的文章，也不愿读一篇尽职尽责地沿着规定路线前行的文章。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "07d25454af2310d6728fd9c5acc8ef3c1e71e641715d05a42e26fb91d259deae",
+      "enMarkdown": "So what's interesting? For me, interesting means surprise. Design, as Matz has said, should follow the principle of least surprise. A button that looks like it will make a machine stop should make it stop, not speed up. Essays should do the opposite. Essays should aim for maximum surprise.",
+      "zhMarkdown": "那么，什么是“有趣”？对我来说，有趣意味着“出乎意料”。正如 Matz 所说，设计应该遵循“最少惊讶原则”。一个看起来能让机器停止的按钮就应该让它停止，而不是加速。文章应该相反。文章应该追求“最大惊讶效果”。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "7b215ecbea67d97cfb429a9198a9310edec47ead44a4d6335eebb0681a235f67",
+      "enMarkdown": "I was afraid of flying for a long time and could only travel vicariously. When friends came back from faraway places, it wasn't just out of politeness that I asked them about their trip. I really wanted to know. And I found that the best way to get information out of them was to ask what surprised them. How was the place different from what they expected? This is an extremely useful question. You can ask it of even the most unobservant people, and it will extract information they didn't even know they were recording.",
+      "zhMarkdown": "我有很长一段时间害怕坐飞机，只能通过别人来间接旅行。当朋友们从遥远的地方回来时，我问他们旅行的情况，不仅出于礼貌，我是真的想知道。我发现，从他们那里获取信息最好的方法就是问他们有什么是让他们感到惊讶的。那个地方和他们预期的有什么不同？这是一个极其有用的问题。你甚至可以问那些最不善于观察的人，它能提取出他们甚至不知道自己记录下来的信息。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "be78fced03123cf80e7409dad5f1e2ef1a5035d729ce9e73303d1c0e6ebbe11d",
+      "enMarkdown": "Indeed, you can ask it in real time. Now when I go somewhere new, I make a note of what surprises me about it. Sometimes I even make a conscious effort to visualize the place beforehand, so I'll have a detailed image to diff with reality.",
+      "zhMarkdown": "事实上，你也可以在实时中应用这个方法。现在当我到一个新地方时，我会记下让我感到惊讶的事情。有时我甚至会刻意在脑海中预先想象那个地方，这样我就能有一个详细的图像来与现实进行对比。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "a1c8f57fb8ba0f5675ab7743ac994c3b95e390cdb6c8defc3ecd7d498eb7917c",
+      "enMarkdown": "Surprises are facts you didn't already know. But they're more than that. They're facts that contradict things you thought you knew. And so they're the most valuable sort of fact you can get. They're like a food that's not merely healthy, but counteracts the unhealthy effects of things you've already eaten.",
+      "zhMarkdown": "惊喜是你以前不知道的事实。但它们不仅如此。它们是与你以为自己知道的事情相矛盾的事实。因此，它们是你能获得的最有价值的事实。它们就像一种食物，不仅健康，还能抵消你已经吃下去的不健康食物的影响。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "e20bf83d06ffe187ec6ac28203add8d4b83e3722f8f6fa6781f218cb69e7df42",
+      "enMarkdown": "How do you find surprises? Well, therein lies half the work of essay writing. (The other half is expressing yourself well.) You can at least use yourself as a proxy for the reader. You should only write about things you've thought about a lot. And anything you come across that surprises you, who've thought about the topic a lot, will probably surprise most readers.",
+      "zhMarkdown": "你如何寻找惊喜？这正是写文章一半的工作所在。（另一半是很好地表达自己。）你至少可以把自己当作读者的替身。你应该只写你思考过很多的事情。而任何让你这个对该主题思考了很多的人感到惊讶的事情，大概也会让大多数读者感到惊讶。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "c0d0531fb37fc6cdb7c7a0ff591e5a6e86ba5f64d5569c5694f4a04dd60afced",
+      "enMarkdown": "For example, in a recent essay I pointed out that because you can only judge computer programmers by working with them, no one knows in programming who the heroes should be. I certainly didn't realize this when I started writing the essay, and even now I find it kind of weird. That's what you're looking for.",
+      "zhMarkdown": "例如，在最近的一篇文章中，我指出，因为你只能通过与程序员共事来评判他们，所以在编程领域，没有人知道谁才是真正的英雄。我在开始写那篇文章时显然没有意识到这一点，甚至现在我都觉得这有点奇怪。这就是你要寻找的东西。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "313933da73a1e7e1a6a8ab53d656a1efcbc069230db393a3abd052b86023f4b1",
+      "enMarkdown": "So if you want to write essays, you need two ingredients: you need a few topics that you think about a lot, and you need some ability to ferret out the unexpected.",
+      "zhMarkdown": "所以，如果你想写文章，你需要两个要素：你需要几个你经常思考的主题，并且你需要一些找出意想不到之处的能力。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "177818a367da4fe90f6bfbb6918bbd727d20cd3661187c8efc70a36a0e7fab24",
+      "enMarkdown": "What should you think about? My guess is that it doesn't matter. Almost everything is interesting if you get deeply enough into it. The one possible exception are things like working in fast food, which have deliberately had all the variation sucked out of them. In retrospect, was there anything interesting about working in Baskin-Robbins? Well, it was interesting to notice how important color was to the customers. Kids a certain age would point into the case and say that they wanted yellow. Did they want French Vanilla or Lemon? They would just look at you blankly. They wanted yellow. And then there was the mystery of why the perennial favorite Pralines n' Cream was so appealing. I'm inclined now to think it was the salt. And the mystery of why Passion Fruit tasted so disgusting. People would order it because of the name, and were always disappointed. It should have been called In-sink-erator Fruit. And there was the difference in the way fathers and mothers bought ice cream for their kids. Fathers tended to adopt the attitude of benevolent kings bestowing largesse, and mothers that of harried bureaucrats, giving in to pressure against their better judgement. So, yes, there does seem to be material, even in fast food.",
+      "zhMarkdown": "你应该思考什么？我的猜测是，这并不重要。如果你深入研究，几乎一切都是有趣的。唯一可能的例外是像在快餐店工作这样的事情，这些事情被刻意抽干了所有的变化。回想起来，在芭斯罗缤（Baskin-Robbins）工作有什么有趣的地方吗？嗯，观察颜色对顾客有多重要是很有趣的。某个年龄段的孩子会指着冰柜说他们想要黄色的。他们是要法式香草还是柠檬？他们只会茫然地看着你。他们就是要黄色的。还有，为什么常年最受欢迎的“普拉林奶油（Pralines n' Cream）”如此诱人，这也是个谜。我现在倾向于认为是盐的作用。还有，为什么百香果尝起来如此难吃。人们会因为名字而点它，但总是感到失望。它应该被称为“垃圾处理器果”。还有父亲和母亲给孩子买冰草莓的方式也存在差异。父亲往往采取仁慈君主赐予恩惠的态度，而母亲则像疲于奔命的官僚，违背自己的判断向压力妥协。所以，是的，似乎确实有素材，即使是在快餐店里。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "b76b876d00263fa5d06e58aa084fba473eac4ba736b4fbb87a78151ea620c85e",
+      "enMarkdown": "What about the other half, ferreting out the unexpected? That may require some natural ability. I've noticed for a long time that I'm pathologically observant. ....",
+      "zhMarkdown": "那么另一半，找出意想不到之处呢？这可能需要一些天赋。我很早就注意到，我有着病态的观察力。……"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "97264dbe5829745e1451c9c54667ea15aff5cadcec38c884b76c1e27bf6c1635",
+      "enMarkdown": "[That was as far as I'd gotten at the time.]",
+      "zhMarkdown": "[这就是我当时写到的最远的地方。]"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "1dd4b74bcda8f6659d2b6bf8b372f31f1f36d038ef4aaa55ba8082438f4a4202",
+      "enMarkdown": "[sh] In Shakespeare's own time, serious writing meant theological discourses, not the bawdy plays acted over on the other side of the river among the bear gardens and whorehouses.",
+      "zhMarkdown": "[sh] 在莎士比亚自己的时代，严肃的写作意味着神学论述，而不是在河对岸的斗熊场和妓院之间上演的那些下流戏剧。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "ccd893e6be627c36b31a3ae503dbeaf5b25f063cf05234734f2f715a2718ec3d",
+      "enMarkdown": "The other extreme, the work that seems formidable from the moment it's created (indeed, is deliberately intended to be) is represented by Milton. Like the Aeneid, Paradise Lost is a rock imitating a butterfly that happened to get fossilized. Even Samuel Johnson seems to have balked at this, on the one hand paying Milton the compliment of an extensive biography, and on the other writing of Paradise Lost that \"none who read it ever wished it longer.\"",
+      "zhMarkdown": "另一个极端——那些从诞生之日起就显得高深莫测的作品（事实上，是刻意为之）——以弥尔顿（Milton）为代表。就像《埃涅阿斯纪》一样，《失乐园》是一块模仿蝴蝶碰巧被石化了的石头。甚至连塞缪尔·约翰逊（Samuel Johnson）似乎也对此有些退缩，一方面为弥尔顿写了一篇详尽的传记以示敬意，另一方面又写道，对于《失乐园》，“读过它的人，没有一个希望它更长一些。”"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "slug": "richnow",
+  "titleEn": "How People Get Rich Now",
+  "titleZh": "如今人们是如何变富的",
+  "dateText": "April 2021",
+  "publishedAt": "2021-04-01",
+  "sourceOrder": 34,
+  "sourceUrl": "https://paulgraham.com/richnow.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b0c546f39f1d9f44a95cb5f65725f6191fd515c6da08ed8d118853839c6bd566",
+      "enMarkdown": "Every year since 1982, *Forbes* magazine has published a list of the richest Americans. If we compare the 100 richest people in 1982 to the 100 richest in 2020, we notice some big differences.",
+      "zhMarkdown": "自 1982 年以来，《福布斯》杂志每年都会公布一份美国最富有的富豪榜单。如果我们把 1982 年最富有的 100 人与 2020 年最富有的 100 人进行对比，就会发现一些巨大的差异。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "c8e0e407ed7ba97f446cd527945d6b9508770b5e05922874fdf6592b7755f791",
+      "enMarkdown": "In 1982 the most common source of wealth was inheritance. Of the 100 richest people, 60 inherited from an ancestor. There were 10 du Pont heirs alone. By 2020 the number of heirs had been cut in half, accounting for only 27 of the biggest 100 fortunes.",
+      "zhMarkdown": "在 1982 年，最普遍的财富来源是继承。在最富有的 100 人中，有 60 人继承了祖辈的财产。光是杜邦家族的继承人就有 10 位。而到了 2020 年，继承人的数量减少了一半，在前 100 名最庞大的财富中仅占 27 席。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "5be6a49134adddbbe3d27a8018f94e14b920ae7844ddacaade9852d9cf01c1b7",
+      "enMarkdown": "Why would the percentage of heirs decrease? Not because inheritance taxes increased. In fact, they decreased significantly during this period. The reason the percentage of heirs has decreased is not that fewer people are inheriting great fortunes, but that more people are making them.",
+      "zhMarkdown": "为什么继承人的比例会下降？并不是因为遗产税增加了。事实上，在此期间遗产税还大幅下降了。继承人比例下降的原因，并不是因为继承巨额财富的人变少了，而是因为白手起家创造财富的人变多了。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "fbc60d83f8b83dc01df6e680e49fd8dde784267c96f540a0616c35dabd6631b5",
+      "enMarkdown": "How are people making these new fortunes? Roughly 3/4 by starting companies and 1/4 by investing. Of the 73 new fortunes in 2020, 56 derive from founders' or early employees' equity (52 founders, 2 early employees, and 2 wives of founders), and 17 from managing investment funds.",
+      "zhMarkdown": "人们是如何创造这些新财富的？大致有 3/4 是通过创办公司，1/4 是通过投资。在 2020 年的 73 笔新财富中，有 56 笔来自创始人或早期员工的股权（52 位创始人、2 位早期员工和 2 位创始人妻子），另有 17 笔来自管理投资基金。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "8000e372af7a751c9705b9e9218454e158022bdbd0da7433051b37db48881f2c",
+      "enMarkdown": "There were no fund managers among the 100 richest Americans in 1982. Hedge funds and private equity firms existed in 1982, but none of their founders were rich enough yet to make it into the top 100. Two things changed: fund managers discovered new ways to generate high returns, and more investors were willing to trust them with their money. [[1](#f1n)]",
+      "zhMarkdown": "在 1982 年美国最富有的 100 人中，没有一位是基金经理。对冲基金和私募股权公司在 1982 年确实存在，但它们的创始人当时还没有富到能挤进前 100 名。后来有两点改变了：基金经理们找到了产生高回报的新方法，而且更多的投资者愿意把钱托付给他们。[[1](#f1n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "b2f529caa6c28fe5886fb569826d4a19730198d505adc36989499e7c7bf0019a",
+      "enMarkdown": "But the main source of new fortunes now is starting companies, and when you look at the data, you see big changes there too. People get richer from starting companies now than they did in 1982, because the companies do different things.",
+      "zhMarkdown": "但现在新财富的主要来源是创办公司，当你观察数据时，会发现这里也有巨大的变化。现在人们通过创办公司变得比 1982 年时更富有，因为这些公司在做不一样的事情。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "593f3dcf37eb6093080bc8f75c39379deb5ad4637f677c04122b3a81f81a380c",
+      "enMarkdown": "In 1982, there were two dominant sources of new wealth: oil and real estate. Of the 40 new fortunes in 1982, at least 24 were due primarily to oil or real estate. Now only a small number are: of the 73 new fortunes in 2020, 4 were due to real estate and only 2 to oil.",
+      "zhMarkdown": "在 1982 年，新财富有两个主导来源：石油和房地产。在 1982 年的 40 笔新财富中，至少有 24 笔主要得益于石油或房地产。而现在只有极少数是：在 2020 年的 73 笔新财富中，仅有 4 笔来自房地产，只有 2 笔来自石油。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "6f95c3c3bcd9313a838a0f46498dba86a95cd97fa3d05296a8770c82f3729c69",
+      "enMarkdown": "By 2020 the biggest source of new wealth was what are sometimes called \"tech\" companies. Of the 73 new fortunes, about 30 derive from such companies. These are particularly common among the richest of the rich: 8 of the top 10 fortunes in 2020 were new fortunes of this type.",
+      "zhMarkdown": "到了 2020 年，新财富的最大来源是人们有时所称的“科技”公司。在 73 笔新财富中，约有 30 笔源自此类公司。这在富豪中的富豪里尤为常见：2020 年前 10 大财富中，有 8 笔是这类新财富。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "5a07be61af59d88995aa5337bd050806471881affff64944508c649f6abb3b95",
+      "enMarkdown": "Arguably it's slightly misleading to treat tech as a category. Isn't Amazon really a retailer, and Tesla a car maker? Yes and no. Maybe in 50 years, when what we call tech is taken for granted, it won't seem right to put these two businesses in the same category. But at the moment at least, there is definitely something they share in common that distinguishes them. What retailer starts AWS? What car maker is run by someone who also has a rocket company?",
+      "zhMarkdown": "可以说，把科技作为一个类别略有误导。难道亚马逊不应该算零售商，特斯拉不应该算汽车制造商吗？是也不是。也许 50 年后，当我们对所谓的科技习以为常时，把这两家业务归入同一类别就会显得不妥。但至少在目前，它们之间确实存在某种将它们与其他企业区分开来的共同点。有什么零售商会去创办 AWS？又有哪个汽车制造商的掌舵人同时还拥有一家火箭公司？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e64b85dcf2e74e6a65614784295132b8aca17b7d1776bf2cf5ca56f4f4e702a3",
+      "enMarkdown": "The tech companies behind the top 100 fortunes also form a well-differentiated group in the sense that they're all companies that venture capitalists would readily invest in, and the others mostly not. And there's a reason why: these are mostly companies that win by having better technology, rather than just a CEO who's really driven and good at making deals.",
+      "zhMarkdown": "支撑起前 100 名富豪财富的科技公司还构成了一个特征鲜明的群体，因为它们都是风险投资人乐于投资的公司，而其他公司大多不是。这其中是有原因的：这些公司大多是通过拥有更好的技术来取胜，而不仅仅是靠一个极有干劲、擅长做交易的 CEO。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "b34ba0b9e298caf238072aae55e73a40691a0337d900cf6e3a6c73416f2a72f3",
+      "enMarkdown": "To that extent, the rise of the tech companies represents a qualitative change. The oil and real estate magnates of the 1982 Forbes 400 didn't win by making better technology. They won by being really driven and good at making deals. [[2](#f2n)] And indeed, that way of getting rich is so old that it predates the Industrial Revolution. The courtiers who got rich in the (nominal) service of European royal houses in the 16th and 17th centuries were also, as a rule, really driven and good at making deals.",
+      "zhMarkdown": "在这个层面上，科技公司的崛起代表了一种质的变化。1982 年《福布斯》400 富豪榜上的石油和房地产大亨并不是靠创造更好的技术取胜的。他们靠的是极有干劲和擅长做交易。[[2](#f2n)] 事实上，这种致富方式古老到可以追溯到工业革命之前。在 16 和 17 世纪，那些在（名义上）服务于欧洲王室的过程中发财的朝臣们，通常也都是极有干劲且擅长做交易的人。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "b76ec86deedfe9647c43e54b97cb017ca56fa7bc01e4ee70886eb392a60aa1e4",
+      "enMarkdown": "People who don't look any deeper than the Gini coefficient look back on the world of 1982 as the good old days, because those who got rich then didn't get as rich. But if you dig into *how* they got rich, the old days don't look so good. In 1982, 84% of the richest 100 people got rich by inheritance, extracting natural resources, or doing real estate deals. Is that really better than a world in which the richest people get rich by starting tech companies?",
+      "zhMarkdown": "那些看问题只看基尼系数表面的人，会把 1982 年的世界视为过去的美好时光，因为那时变富的人并没有那么富。但如果你去探究他们*如何*变富，过去的日子就显得没那么美好了。在 1982 年，最富有的 100 人中，有 84% 是通过继承、开采自然资源或进行房地产交易变富的。这真的比一个最富有的人通过创办科技公司致富的世界更好吗？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "59b268c86f83c706ade9bcbde5876ec10933a133268d8a737cf9c60933761a99",
+      "enMarkdown": "Why are people starting so many more new companies than they used to, and why are they getting so rich from it? The answer to the first question, curiously enough, is that it's misphrased. We shouldn't be asking why people are starting companies, but why they're starting companies *again*. [[3](#f3n)]",
+      "zhMarkdown": "为什么人们创办的新公司比以前多得多，又为什么能从中赚到这么多钱？奇妙的是，第一个问题的答案在于问题本身问错了。我们不应该问人们为什么在创办公司，而应该问为什么他们*重新*开始创办公司了。[[3](#f3n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "a5da4edc096714fb1e394e40250f36a43e9a074a363d3313690be390968df63b",
+      "enMarkdown": "In 1892, the *New York Herald Tribune* compiled a list of all the millionaires in America. They found 4047 of them. How many had inherited their wealth then? Only about 20%, which is less than the proportion of heirs today. And when you investigate the sources of the new fortunes, 1892 looks even more like today. Hugh Rockoff found that \"many of the richest ... gained their initial edge from the new technology of mass production.\" [[4](#f4n)]",
+      "zhMarkdown": "在 1892 年，《纽约先驱论坛报》编制了一份美国所有百万富翁的名单。他们找到了 4047 人。当时有多少人是靠继承财产的？只有大约 20%，比今天继承人的比例还要低。当你去探究新财富的来源时，1892 年看起来和今天更加相似。休·洛考夫发现，“许多最富有的人……最初的优势都来自于大规模生产的新技术。”[[4](#f4n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "bca65fe9d5440008a9ef0c75f2233b469631673b6c8e3832c1570d9082f09971",
+      "enMarkdown": "So it's not 2020 that's the anomaly here, but 1982. The real question is why so few people had gotten rich from starting companies in 1982. And the answer is that even as the *Herald Tribune*'s list was being compiled, a wave of [consolidation](https://paulgraham.com/re.html) was sweeping through the American economy. In the late 19th and early 20th centuries, financiers like J. P. Morgan combined thousands of smaller companies into a few hundred giant ones with commanding economies of scale. By the end of World War II, as Michael Lind writes, \"the major sectors of the economy were either organized as government-backed cartels or dominated by a few oligopolistic corporations.\" [[5](#f5n)]",
+      "zhMarkdown": "所以，反常的不是 2020 年，而是 1982 年。真正的问题在于，为什么在 1982 年，靠创办公司变富的人如此之少。答案是，就在《先驱论坛报》编制那份名单的同时，一波[整合](https://paulgraham.com/re.html)浪潮正席卷美国经济。在 19 世纪末和 20 世纪初，像 J·P·摩根这样的金融家将成千上万的小公司合并成几百家具有绝对规模经济的巨型公司。正如迈克尔·林德所写，到二战结束时，“国民经济的主要部门要么被组织为政府支持的卡特尔，要么被少数寡头垄断企业所主导。”[[5](#f5n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "254e3e6aaebfff36a1d4872ef1457be0d357909bbc4b589321c55508e7bd3959",
+      "enMarkdown": "In 1960, most of the people who start startups today would have gone to work for one of them. You could get rich from starting your own company in 1890 and in 2020, but in 1960 it was not really a viable option. You couldn't break through the oligopolies to get at the markets. So the prestigious route in 1960 was not to start your own company, but to work your way up the corporate ladder at an existing one. [[6](#f6n)]",
+      "zhMarkdown": "在 1960 年，今天创办创业公司的大多数人都会选择去这些大公司上班。在 1890 年和 2020 年，你都可以通过创办自己的公司变富，但在 1960 年，这并不是一个真正可行的选择。你无法突破寡头垄断去获取市场。因此，在 1960 年，最体面的路线不是自己创业，而是在现有的公司里一步步往上爬。[[6](#f6n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "0dbafcd39ca17d1ac264d07282dc6b4d592ebdf21e352a6132b0842d8846e136",
+      "enMarkdown": "Making everyone a corporate employee decreased economic inequality (and every other kind of variation), but if your model of normal is the mid 20th century, you have a very misleading model in that respect. J. P. Morgan's economy turned out to be just a phase, and starting in the 1970s, it began to break up.",
+      "zhMarkdown": "让每个人都成为公司员工减少了经济不平等（以及所有其他方面的差异），但如果你的“正常”模型是 20 世纪中期，那么在这方面你就有了一个极具误导性的模型。J·P·摩根开创的经济模式最终证明只是一个阶段，从 20 世纪 70 年代开始，它开始瓦解。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "c10a92e501e002ec32d480914bf5d4437e65c3e7eab1a6936bc68932518bf008",
+      "enMarkdown": "Why did it break up? Partly senescence. The big companies that seemed models of scale and efficiency in 1930 had by 1970 become slack and bloated. By 1970 the rigid structure of the economy was full of cosy nests that various groups had built to insulate themselves from market forces. During the Carter administration the federal government realized something was amiss and began, in a process they called \"deregulation,\" to roll back the policies that propped up the oligopolies.",
+      "zhMarkdown": "为什么会瓦解？部分原因是衰老。在 1930 年看起来是规模和效率典范的大公司，到了 1970 年已经变得懈怠和臃肿。到 1970 年，僵化的经济结构中充满了各种利益集团为了让自己免受市场力量冲击而建造的舒适温床。在卡特政府时期，联邦政府意识到有些不对劲，并开始通过他们所谓的“放松管制”进程，逐步废除那些支撑寡头垄断的政策。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "5d3ce08c4d56440cbbc9f690b5c4b138216844b11b50a8a1c59dbadfeedabaad",
+      "enMarkdown": "But it wasn't just decay from within that broke up J. P. Morgan's economy. There was also pressure from without, in the form of new technology, and particularly microelectronics. The best way to envision what happened is to imagine a pond with a crust of ice on top. Initially the only way from the bottom to the surface is around the edges. But as the ice crust weakens, you start to be able to punch right through the middle.",
+      "zhMarkdown": "但打破 J·P·摩根经济模式的不仅仅是内部的腐朽。还有来自外部的压力，即新技术的形式，特别是微电子技术。想象这一过程最好的方式是，把经济想象成一个表面结了冰的池塘。起初，从池底到水面的唯一路径是绕过边缘。但随着冰层变弱，你开始能够直接从中间穿透过去。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "a9d9d2eb44ff2db30d2ba79d8f750def7c160d2b615f8a10839f5912689f2f8d",
+      "enMarkdown": "The edges of the pond were pure tech: companies that actually described themselves as being in the electronics or software business. When you used the word \"startup\" in 1990, that was what you meant. But now startups are punching right through the middle of the ice crust and displacing incumbents like retailers and TV networks and car companies. [[7](#f7n)]",
+      "zhMarkdown": "池塘的边缘是纯粹的科技：那些自称从事电子或软件业务的公司。在 1990 年你使用“创业公司”这个词时，指的就是这类公司。但现在，创业公司正在直接穿透冰层中央，取代零售商、电视网和汽车公司等传统巨头。[[7](#f7n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "1ad204841cbd5b07c5bf03389f8c9546349d20a68400eca1582e085279e4723c",
+      "enMarkdown": "But though the breakup of J. P. Morgan's economy created a new world in the technological sense, it was a reversion to the norm in the social sense. If you only look back as far as the mid 20th century, it seems like people getting rich by starting their own companies is a recent phenomenon. But if you look back further, you realize it's actually the default. So what we should expect in the future is more of the same. Indeed, we should expect both the number and wealth of founders to grow, because every decade it gets easier to start a startup.",
+      "zhMarkdown": "尽管 J·P·摩根经济模式的解体在技术意义上创造了一个新世界，但在社会意义上，它却是一种向常态的回归。如果你只把眼光投向 20 世纪中期，人们通过创办自己的公司变富似乎是一个近期才出现的现象。但如果你看得更远，就会意识到这其实是常态。因此，我们应该预料到未来会延续这一趋势。事实上，我们应该预期创始人的数量和财富都会增长，因为每过十年，创办一家创业公司都变得更加容易。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "efa5e74fca96f9adfa96f654bbc06224703cf6cfa4e1d1845cd62178b7f071b7",
+      "enMarkdown": "Part of the reason it's getting easier to start a startup is social. Society is (re)assimilating the concept. If you start one now, your parents won't freak out the way they would have a generation ago, and knowledge about how to do it is much more widespread. But the main reason it's easier to start a startup now is that it's cheaper. Technology has driven down the cost of both building products and acquiring customers.",
+      "zhMarkdown": "创业公司变得越来越容易创办，部分原因是社会层面的。社会正在（重新）接纳这个概念。如果你现在创办一家公司，你的父母不会像一代人之前那样抓狂，而且关于如何创业的知识也普及得多。但现在创办创业公司更容易的主要原因在于成本更低。技术降低了打造产品和获取客户的成本。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "b04920ebada04d0fde2ab6f757ba5280218b3f515cc6320bd811e9c1c0d88606",
+      "enMarkdown": "The decreasing cost of starting a startup has in turn changed the balance of power between founders and investors. Back when starting a startup meant building a factory, you needed investors' permission to do it at all. But now investors need founders more than founders need investors, and that, combined with the increasing amount of venture capital available, has driven up valuations. [[8](#f8n)]",
+      "zhMarkdown": "创办创业公司成本的降低，反过来改变了创始人与投资人之间的权力平衡。过去，创办创业公司意味着建工厂，你根本需要投资人的许可才能做。但现在，投资人对创始人的需求超过了创始人对投资人的需求，这一点加上可用的风险投资资金不断增加，推高了估值。[[8](#f8n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "3e1d8ea5f740d97cc8e238dbf03840b57e362c3a5c6d284b0ee389e54f597fd4",
+      "enMarkdown": "So the decreasing cost of starting a startup increases the number of rich people in two ways: it means that more people start them, and that those who do can raise money on better terms.",
+      "zhMarkdown": "因此，创办创业公司成本的降低通过两种方式增加了富人的数量：这意味着更多的人会去创业，而创业的人能以更好的条款融到钱。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "f7c6c20d62a5c3469058be8b89ed37129b78b2375eb5babfd75174bd6af14392",
+      "enMarkdown": "But there's also a third factor at work: the companies themselves are more valuable, because newly founded companies grow faster than they used to. Technology hasn't just made it cheaper to build and distribute things, but faster too.",
+      "zhMarkdown": "但还有第三个因素在起作用：公司本身更有价值了，因为新创立的公司比以前增长得更快。技术不仅让制造和分发东西变得更便宜，而且也更快了。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "571aa92f6422482473e8a7f9a6a26c4333e8cdbe20391d30346b75ab935ff908",
+      "enMarkdown": "This trend has been running for a long time. IBM, founded in 1896, took 45 years to reach a billion 2020 dollars in revenue. Hewlett-Packard, founded in 1939, took 25 years. Microsoft, founded in 1975, took 13 years. Now the norm for fast-growing companies is 7 or 8 years. [[9](#f9n)]",
+      "zhMarkdown": "这一趋势已经持续了很长时间。成立于 1896 年的 IBM 花了 45 年时间才达到按 2020 年美元计算的 10 亿营收。成立于 1939 年的惠普花了 25 年。成立于 1975 年的微软花了 13 年。而现在，快速增长的公司达到这一标准的常态是 7 到 8 年。[[9](#f9n)]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "8484104ea8baf73ff1e7060010df0b438758a7c56453708ac280443faef550ad",
+      "enMarkdown": "Fast growth has a double effect on the value of founders' stock. The value of a company is a function of its revenue and its growth rate. So if a company grows faster, you not only get to a billion dollars in revenue sooner, but the company is more valuable when it reaches that point than it would be if it were growing slower.",
+      "zhMarkdown": "快速增长对创始人股票的价值产生双重效应。公司的价值是其营收和增长率的函数。因此，如果一家公司增长得更快，你不仅能更快达到 10 亿美元的营收，而且公司在达到这一节点时的价值，也会比它增长慢的时候更高。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "b9a56993b1a4505c2b5337d7ef859ff3312e9de92a6b7b981ff1441cae52bb66",
+      "enMarkdown": "That's why founders sometimes get so rich so young now. The low initial cost of starting a startup means founders can start young, and the fast growth of companies today means that if they succeed they could be surprisingly rich just a few years later.",
+      "zhMarkdown": "这就是为什么现在的创始人有时年纪轻轻就能变得如此富有。创办创业公司极低的初始成本意味着创始人可以年轻创业，而如今公司的快速增长意味着，如果他们成功了，可能在几年后就会惊人地富有。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "9f762b63fb3425b9d4b8808b4d1941bfb051df1711aa211f50ed4ae7a967618b",
+      "enMarkdown": "It's easier now to start and grow a company than it has ever been. That means more people start them, that those who do get better terms from investors, and that the resulting companies become more valuable. Once you understand how these mechanisms work, and that startups were suppressed for most of the 20th century, you don't have to resort to some vague right turn the country took under Reagan to explain why America's Gini coefficient is increasing. Of course the Gini coefficient is increasing. With more people starting more valuable companies, how could it not be?",
+      "zhMarkdown": "现在创办和发展一家公司比以往任何时候都要容易。这意味着更多的人开始创业，创业的人能从投资人那里获得更好的条款，而由此产生的公司也变得更有价值。一旦你理解了这些机制是如何运作的，以及创业公司在 20 世纪的大部分时间里是如何受到压制的，你就不必诉诸于美国在里根治下走向了某种模糊的右转，来解释为什么美国的基尼系数在上升。基尼系数当然在上升。随着更多的人创办更有价值的公司，怎么可能不上升呢？"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "c765366cb55f3b2d3793724cd63754ff8b14c16929f0f666eae98e9a4d38a757",
+      "enMarkdown": "[1] Investment firms grew rapidly after a regulatory change by the Labor Department in 1978 allowed pension funds to invest in them, but the effects of this growth were not yet visible in the top 100 fortunes in 1982.",
+      "zhMarkdown": "[1] 1978 年劳工部的一项监管变动允许养老基金投资投资公司后，这些投资公司迅速发展，但这种增长的影响在 1982 年的前 100 名富豪财富中尚未显现。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "4aa302ba1ca9d41a534abb6681ed4c2ffa924482d33d3d8891985b1835e38b8f",
+      "enMarkdown": "[2] George Mitchell deserves mention as an exception. Though really driven and good at making deals, he was also the first to figure out how to use fracking to get natural gas out of shale.",
+      "zhMarkdown": "[2] 乔治·米切尔（George Mitchell）作为例外值得一提。虽然他极有干劲且擅长做交易，但他也是第一个摸索出如何利用水力压裂法从页岩中提取天然气的人。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "0943278ece7e1381ce16dd7180c5c1eb5603806819614ed7a0bf399b930a08ba",
+      "enMarkdown": "[3] When I say people are starting more companies, I mean the type of company meant to [grow](https://paulgraham.com/growth.html) very big. There has actually been a decrease in the last couple decades in the overall number of new companies. But the vast majority of companies are small retail and service businesses. So what the statistics about the decreasing number of new businesses mean is that people are starting fewer shoe stores and barber shops.",
+      "zhMarkdown": "[3] 当我说人们在创办更多公司时，我指的是那种旨在实现极速[增长](https://paulgraham.com/growth.html)的公司。在过去二十年里，新创办公司的总数实际上有所减少。但绝大多数公司都是小型零售和服务企业。因此，关于新企业数量减少的统计数据，其真实含义是人们开鞋店和理发店变少了。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "f1793dcabd4286da1aa42eb6acd36019e81db6abb2d3a7ea71a0348aa64637d8",
+      "enMarkdown": "People sometimes get [confused](https://www.inc.com/magazine/201505/leigh-buchanan/the-vanishing-startups-in-decline.html) when they see a graph labelled \"startups\" that's going down, because there are two senses of the word \"startup\": (1) the founding of a company, and (2) a particular type of company designed to grow big fast. The statistics mean startup in sense (1), not sense (2).",
+      "zhMarkdown": "人们在看到一张标有“创业公司”（startups）且曲线向下的图表时，有时会感到[困惑](https://www.inc.com/magazine/201505/leigh-buchanan/the-vanishing-startups-in-decline.html)，因为这个词有两种含义：（1）创办一家公司，以及（2）一种旨在快速做大的特定类型的公司。统计数据指的是含义（1），而不是含义（2）。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "890c7f98ff472c368ce42d7cefaec6ee2ea970d96fc4a77740d1618905a9151d",
+      "enMarkdown": "[4] Rockoff, Hugh. \"Great Fortunes of the Gilded Age.\" NBER Working Paper 14555, 2008.",
+      "zhMarkdown": "[4] Rockoff, Hugh. \"Great Fortunes of the Gilded Age.\" NBER Working Paper 14555, 2008."
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "eab9dfa2c0218e925fb9ebaa899f0d63d456b2b3c1b6248b573c0149e7b96077",
+      "enMarkdown": "[5] Lind, Michael. *Land of Promise.* HarperCollins, 2012.",
+      "zhMarkdown": "[5] Lind, Michael. *Land of Promise.* HarperCollins, 2012."
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "8cc0bee2a43763d8a6e5aa2eb906d59099a3aa83ab94afec208b97c2eaad49ea",
+      "enMarkdown": "It's also likely that the high tax rates in the mid 20th century deterred people from starting their own companies. Starting one's own company is risky, and when risk isn't rewarded, people opt for [safety](https://paulgraham.com/inequality.html) instead.",
+      "zhMarkdown": "20 世纪中期的高税率也很可能阻碍了人们创办自己的公司。自己创业是有风险的，当风险得不到回报时，人们就会选择[安全](https://paulgraham.com/inequality.html)。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "32c0a9435ae4a799e87057881abb38fa21c0c3febc3c03c469b0ea7d1489c1b6",
+      "enMarkdown": "But it wasn't simply cause and effect. The oligopolies and high tax rates of the mid 20th century were all of a piece. Lower taxes are not just a cause of entrepreneurship, but an effect as well: the people getting rich in the mid 20th century from real estate and oil exploration lobbied for and got huge tax loopholes that made their effective tax rate much lower, and presumably if it had been more common to grow big companies by building new technology, the people doing that would have lobbied for their own loopholes as well.",
+      "zhMarkdown": "但这不单单是因果关系。20 世纪中期寡头垄断和高税率是浑然一体的。低税率不仅是创业的诱因，也是一种结果：在 20 世纪中期通过房地产和石油勘探发财的人，通过游说获得了巨大的税收漏洞，使得他们的实际税率要低得多。想必如果当时通过开发新技术来做大公司更为普遍的话，做这些事的人也会游说争取属于他们自己的税收漏洞。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "6f109384ed6043ae272230d9918422b6b1945e36b5e3799b2a1dbf55b7a1b003",
+      "enMarkdown": "[6] That's why the people who did get rich in the mid 20th century so often got rich from oil exploration or real estate. Those were the two big areas of the economy that weren't susceptible to consolidation.",
+      "zhMarkdown": "[6] 这就是为什么在 20 世纪中期发财的人往往是通过石油勘探或房地产致富的。这是经济中仅有的两个不易受到整合影响的大领域。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "8d9bbdf2ece9de6ca8cc6c83192e38a51b402cba36037452901b74ebdba6c8f4",
+      "enMarkdown": "[7] The pure tech companies used to be called \"high technology\" startups. But now that startups can punch through the middle of the ice crust, we don't need a separate name for the edges, and the term \"high-tech\" has a decidedly [retro](https://books.google.com/ngrams/graph?content=high+tech&year_start=1900&year_end=2019&corpus=en-2019&smoothing=3) sound.",
+      "zhMarkdown": "[7] 纯粹的科技公司过去被称为“高技术”（high technology）创业公司。但现在创业公司可以穿透冰层的中央，我们不需要为池塘边缘单独起一个名字了，“高科技”这个词听起来确实非常有[复古](https://books.google.com/ngrams/graph?content=high+tech&year_start=1900&year_end=2019&corpus=en-2019&smoothing=3)的味道。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "c2dc0f664ded21430597b604b7d7809b2eb4000344e2b9701fce7094b06bef36",
+      "enMarkdown": "[8] Higher valuations mean you either sell less stock to get a given amount of money, or get more money for a given amount of stock. The typical startup does some of each. Obviously you end up richer if you keep more stock, but you should also end up richer if you raise more money, because (a) it should make the company more successful, and (b) you should be able to last longer before the next round, or not even need one. Notice all those shoulds though. In practice a lot of money slips through them.",
+      "zhMarkdown": "[8] 更高的估值意味着，要么你卖掉更少的股票就能拿到同等数量的钱，要么你用同等数量的股票融到更多的钱。典型的创业公司会两者兼顾。显然，如果你保留更多的股票，你最终会更富有；但如果你融到更多的钱，你最终也应该更富有，因为（a）这应该会让公司更成功，以及（b）你应该能在下一轮融资前撑得更久，甚至根本不需要下一轮。不过要注意所有这些“应该”。在实践中，很多钱都在这些“应该”中溜走了。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "431b841588e90dbeff79e983a13cb18b85201e522bc3d9369edc2b50ce5286ba",
+      "enMarkdown": "It might seem that the huge rounds raised by startups nowadays contradict the claim that it has become cheaper to start one. But there's no contradiction here; the startups that raise the most are the ones doing it by choice, in order to grow faster, not the ones doing it because they need the money to survive. There's nothing like not needing money to make people offer it to you.",
+      "zhMarkdown": "现在创业公司动辄融资巨额资金，似乎与“创办成本变低”的说法相矛盾。但这里并不矛盾；融资最多的创业公司是主动选择这么做，以便增长得更快，而不是因为需要这笔钱来维持生存。没有什么比“不需要钱”更能让人们争着给你送钱了。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "f814ea35742752f7fe3768c3bcaddcb1b0ea327411000bca16d0fb4f36692c84",
+      "enMarkdown": "You would think, after having been on the side of labor in its fight with capital for almost two centuries, that the far left would be happy that labor has finally prevailed. But none of them seem to be. You can almost hear them saying \"No, no, not *that* way.\"",
+      "zhMarkdown": "你可能会觉得，在劳工与资本抗争了近两个世纪的进程中，极左翼站在劳工一边，现在劳工终于占了上风，他们应该感到高兴才对。但他们似乎没有一个人高兴。你几乎能听到他们说：“不，不，不能用*这种*方式。”"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "503b86ae8d0e625f77eed0b37c0e667d62fa4e2015a9014bbde5549678d08717",
+      "enMarkdown": "[9] IBM was created in 1911 by merging three companies, the most important of which was Herman Hollerith's Tabulating Machine Company, founded in 1896. In 1941 its revenues were $60 million.",
+      "zhMarkdown": "[9] IBM 成立于 1911 年，由三家公司合并而成，其中最重要的是赫尔曼·何乐礼（Herman Hollerith）于 1896 年创立的制表机公司（Tabulating Machine Company）。1941 年其营收为 6000 万美元。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "9352f00815c1b71b14991819e213394d739a8b3e5c7236784377f1201e7cf05e",
+      "enMarkdown": "Hewlett-Packard's revenues in 1964 were $125 million.",
+      "zhMarkdown": "惠普在 1964 年的营收为 1.25 亿美元。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "425d89ef97599940632531dfc64cc073d3e91ec44b0052b718fe3c798159cc60",
+      "enMarkdown": "Microsoft's revenues in 1988 were $590 million.",
+      "zhMarkdown": "微软在 1988 年的营收为 5.9 亿美元。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "1979ae5fb4372951d9966757b4f29b12e634468c9ca573f99802135ebcaed6dc",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Jessica Livingston, Bob Lesko, Robert Morris, Russ Roberts, and Alex Tabarrok for reading drafts of this, and to Jon Erlichman for growth data.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Jessica Livingston、Bob Lesko、Robert Morris、Russ Roberts 和 Alex Tabarrok 阅读本文草稿，并感谢 Jon Erlichman 提供增长数据。"
+    }
+  ]
+}

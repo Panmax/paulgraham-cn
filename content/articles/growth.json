@@ -1,0 +1,607 @@
+{
+  "slug": "growth",
+  "titleEn": "Startup = Growth",
+  "titleZh": "创业公司 = 增长",
+  "dateText": "September 2012",
+  "publishedAt": "2012-09-01",
+  "sourceOrder": 84,
+  "sourceUrl": "https://paulgraham.com/growth.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "779a204795d86c4e56ef88356f4c59c878fc0645019779af96699bfb455310f4",
+      "enMarkdown": "A startup is a company designed to grow fast. Being newly founded does not in itself make a company a startup. Nor is it necessary for a startup to work on technology, or take venture funding, or have some sort of \"exit.\" The only essential thing is growth. Everything else we associate with startups follows from growth.",
+      "zhMarkdown": "创业公司是专为高速增长而设计的公司。仅仅新成立并不足以让一家公司成为创业公司。创业公司也无需非得做技术、拿风险投资，或者实现某种“退出”（exit）。唯一本质的东西就是增长。我们对创业公司的其他所有联想，都是由增长衍生出来的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "629fd79044770399bd2b46441f824994bc8bafca5296ae2a00112f26d694dc53",
+      "enMarkdown": "If you want to start one it's important to understand that. Startups are so hard that you can't be pointed off to the side and hope to succeed. You have to know that growth is what you're after. The good news is, if you get growth, everything else tends to fall into place. Which means you can use growth like a compass to make almost every decision you face.",
+      "zhMarkdown": "如果你想创办一家，理解这一点至关重要。创业太难了，你无法在偏离方向的同时还指望获得成功。你必须明白，增长才是你的目标。好消息是，只要你实现了增长，其他一切往往都会水到渠成。这意味着你可以把增长当成指南针，用它来做你面临的几乎每一个决策。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "867cec71b086362497a17d9fa2d144c014318af25ec10186cd67f1fa5b3f19f5",
+      "enMarkdown": "**Redwoods**",
+      "zhMarkdown": "**红杉树**"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "992222caae3be34725026076813f934238820b5e64663b19f0b7a4de3c7878f0",
+      "enMarkdown": "Let's start with a distinction that should be obvious but is often overlooked: not every newly founded company is a startup. Millions of companies are started every year in the US. Only a tiny fraction are startups. Most are service businesses — restaurants, barbershops, plumbers, and so on. These are not startups, except in a few unusual cases. A barbershop isn't designed to grow fast. Whereas a search engine, for example, is.",
+      "zhMarkdown": "我们先来做一个显而易见却常被忽视的区分：并非每家新成立的公司都是创业公司。美国每年有数百万家公司成立，其中只有极少一部分是创业公司。大多数是服务型企业——餐馆、理发店、水管工等等。除非极少数特殊情况，否则这些都不算创业公司。理发店的设计初衷并不是为了快速增长，而搜索引擎则是。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "e6c5ad313e40584226853c29a5fc793e99af36df3ca8bf244a58e8336f4c7d49",
+      "enMarkdown": "When I say startups are designed to grow fast, I mean it in two senses. Partly I mean designed in the sense of intended, because most startups fail. But I also mean startups are different by nature, in the same way a redwood seedling has a different destiny from a bean sprout.",
+      "zhMarkdown": "当我说创业公司是专为高速增长而设计时，有两层含义。一方面，我指的是“设计”中包含的意图，因为大多数创业公司都会失败。但另一方面，我指的是创业公司本质上就不同，就像红杉树的幼苗与豆芽有着不同的宿命一样。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "96336c08726893b76cbbe1ad1bb0d7d30db76242de7c37f99e7c91bc1e83edf4",
+      "enMarkdown": "That difference is why there's a distinct word, \"startup,\" for companies designed to grow fast. If all companies were essentially similar, but some through luck or the efforts of their founders ended up growing very fast, we wouldn't need a separate word. We could just talk about super-successful companies and less successful ones. But in fact startups do have a different sort of DNA from other businesses. Google is not just a barbershop whose founders were unusually lucky and hard-working. Google was different from the beginning.",
+      "zhMarkdown": "正是这种差异，才诞生了“创业公司”（startup）这个专门的词，用来指代那些旨在快速增长的公司。如果所有公司本质上都差不多，只是有些公司靠着运气或创始人的努力最终增长得非常快，那我们就不需要一个单独的词了。我们只需谈论超级成功的公司和不那么成功的公司。但事实上，创业公司确实拥有与其他企业不同的 DNA。Google 不仅仅是一家创始人特别幸运且勤奋的理发店，Google 从一开始就与众不同。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "11c2ac724fb7e28d156421a9cb833b8831c9774c9ff976443e870f70be3a6028",
+      "enMarkdown": "To grow rapidly, you need to make something you can sell to a big market. That's the difference between Google and a barbershop. A barbershop doesn't scale.",
+      "zhMarkdown": "要快速增长，你需要做一些可以卖给巨大市场的东西。这就是 Google 和理发店的区别。理发店是无法规模化扩张的。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "83ba9121da5acd66a0b738a16427d3c0b519c55a3845af5e47ac7f7f6a2bbec7",
+      "enMarkdown": "For a company to grow really big, it must (a) make something lots of people want, and (b) reach and serve all those people. Barbershops are doing fine in the (a) department. Almost everyone needs their hair cut. The problem for a barbershop, as for any retail establishment, is (b). A barbershop serves customers in person, and few will travel far for a haircut. And even if they did, the barbershop couldn't accommodate them. [[1](#f1n)]",
+      "zhMarkdown": "一家公司要想做大，必须满足两个条件：（a）做出很多人想要的东西，以及（b）触达并服务所有这些人。理发店在（a）方面做得很好，几乎每个人都需要剪头发。但理发店和所有零售实体店一样，问题出在（b）上。理发店需要面对面服务顾客，很少有人会为了剪头发而远涉重洋。即使他们愿意，理发店也接待不过来。[[1](#f1n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c3cb3109ca31290df3864390510fe0ce992eb8d6f1a4971f636f1bd064d207b2",
+      "enMarkdown": "Writing software is a great way to solve (b), but you can still end up constrained in (a). If you write software to teach Tibetan to Hungarian speakers, you'll be able to reach most of the people who want it, but there won't be many of them. If you make software to teach English to Chinese speakers, however, you're in startup territory.",
+      "zhMarkdown": "写软件是解决（b）的绝佳方式，但你仍可能受限于（a）。如果你写一个软件来教匈牙利人说藏语，你确实能触达到大部分有此需求的人，但这样的人寥寥无几。然而，如果你做一款软件来教中国人学英语，那你就进入了创业公司的领域。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "f5b340d298cd4bb2858c336bac1d4006ad24c295778d5eb63c0af2d4cbcc7d28",
+      "enMarkdown": "Most businesses are tightly constrained in (a) or (b). The distinctive feature of successful startups is that they're not.",
+      "zhMarkdown": "大多数企业在（a）或（b）上都受到严重制约。而成功的创业公司的独特之处在于，它们在这两方面都不受限。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "9941e89e6c685f1a927b9204b40db18d3141bd02cb1d8f4cdb9f986c94aa7557",
+      "enMarkdown": "**Ideas**",
+      "zhMarkdown": "**点子**"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "a18ec32655d01000d080d0b8628e239bbe10634a76dd6622ab80535ef80cae59",
+      "enMarkdown": "It might seem that it would always be better to start a startup than an ordinary business. If you're going to start a company, why not start the type with the most potential? The catch is that this is a (fairly) efficient market. If you write software to teach Tibetan to Hungarians, you won't have much competition. If you write software to teach English to Chinese speakers, you'll face ferocious competition, precisely because that's such a larger prize. [[2](#f2n)]",
+      "zhMarkdown": "看起来，创办一家创业公司似乎总是好过创办一家普通企业。既然要开公司，为什么不创办一家潜力最大的呢？问题在于，这是一个（相当）高效的市场。如果你写软件教匈牙利人藏语，你不会面临太多竞争。但如果你写软件教中国人英语，你将面临极其惨烈的竞争，恰恰因为这块蛋糕太大了。[[2](#f2n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "e2270eec387de6b631aacec51d1748b02a3e21b7db932930ca9e4fc446a03a27",
+      "enMarkdown": "The constraints that limit ordinary companies also protect them. That's the tradeoff. If you start a barbershop, you only have to compete with other local barbers. If you start a search engine you have to compete with the whole world.",
+      "zhMarkdown": "限制普通公司的那些障碍，同时也在保护着它们。这就是代价。如果你开一家理发店，你只需要和当地的其他理发师竞争。如果你做一个搜索引擎，你必须和全世界竞争。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "4606f43ee5dcbc03717e605e48b1e610fb92f721b15ebc295a8c16419633ce0f",
+      "enMarkdown": "The most important thing that the constraints on a normal business protect it from is not competition, however, but the difficulty of coming up with new ideas. If you open a bar in a particular neighborhood, as well as limiting your potential and protecting you from competitors, that geographic constraint also helps define your company. Bar + neighborhood is a sufficient idea for a small business. Similarly for companies constrained in (a). Your niche both protects and defines you.",
+      "zhMarkdown": "然而，普通公司受到的限制，其最重要的保护作用不在于抵御竞争，而在于降低了想出新点子的难度。如果你在某个街区开一家酒吧，这种地理限制在限制你潜力的同时、保护你免受竞争，也帮助定义了你的公司。“酒吧 + 街区”对于一家小企业来说，已经是个足够完整的点子了。对于在（a）上受限的公司也是如此。你的细分市场既保护了你，也定义了你。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a65228d9b9533abf60d34707b2a804bdad96875c378c92f674d98aefbec8458e",
+      "enMarkdown": "Whereas if you want to start a startup, you're probably going to have to think of something fairly novel. A startup has to make something it can deliver to a large market, and ideas of that type are so valuable that all the obvious ones are already taken.",
+      "zhMarkdown": "而如果你想创办一家创业公司，你可能必须想出一些相当新颖的东西。创业公司必须做出能提供给巨大市场的产品，而这种类型的点子价值极高，以至于所有显而易见的路子早就被占满了。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "44fd41a80ead9f9f16f6035dcce785d60a7c2e561c59166694ceef9f850f620e",
+      "enMarkdown": "That space of ideas has been so thoroughly picked over that a startup generally has to work on something everyone else has overlooked. I was going to write that one has to make a conscious effort to find ideas everyone else has overlooked. But that's not how most startups get started. Usually successful startups happen because the founders are sufficiently different from other people that ideas few others can see seem obvious to them. Perhaps later they step back and notice they've found an idea in everyone else's blind spot, and from that point make a deliberate effort to stay there. [[3](#f3n)] But at the moment when successful startups get started, much of the innovation is unconscious.",
+      "zhMarkdown": "那个点子空间已经被淘洗得如此干净，以至于创业公司通常必须去做一些别人都忽视了的事情。我本想写“你必须刻意努力去寻找别人忽视的点子”，但大多数创业公司并不是这样开始的。通常，成功的创业公司之所以诞生，是因为创始人与常人足够不同，以至于在别人眼里看不到的点子，在他们看来却显而易见。也许后来他们退一步审视，才发现自己找到了一个处于大众盲区的点子，并从此开始刻意保持在这个位置。[[3](#f3n)] 但在成功的创业公司刚起步时，大部分创新都是无意识的。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "10a1b199d59ceef3523b29979b387bfb66575442b68168bbb8a193e55748fafc",
+      "enMarkdown": "What's different about successful founders is that they can see different problems. It's a particularly good combination both to be good at technology and to face problems that can be solved by it, because technology changes so rapidly that formerly bad ideas often become good without anyone noticing. Steve Wozniak's problem was that he wanted his own computer. That was an unusual problem to have in 1975. But technological change was about to make it a much more common one. Because he not only wanted a computer but knew how to build them, Wozniak was able to make himself one. And the problem he solved for himself became one that Apple solved for millions of people in the coming years. But by the time it was obvious to ordinary people that this was a big market, Apple was already established.",
+      "zhMarkdown": "成功创始人与众不同之处在于，他们能看到不同的问题。既懂技术又面临能被技术解决的问题，这是一个极佳的组合，因为技术变化太快了，以前行不通的点子往往在没人注意的情况下就变成了好主意。史蒂夫·沃兹尼亚克（Steve Wozniak）当年的问题是他想要一台自己的电脑。在 1975 年，这还是个不寻常的问题。但技术变革即将让它成为一个普遍得多的问题。因为他不仅想要电脑，还知道怎么造，所以沃兹尼亚克自己动手做了一台。他为自己解决的问题，在随后的几年里成为了苹果为数百万人解决的问题。但等到普通人都看清这是一个巨大的市场时，苹果早已站稳了脚跟。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "0aca2eb5c8d515a8911ba4c52a186b4db85361d74deb5809814f574de1ffaa8f",
+      "enMarkdown": "Google has similar origins. Larry Page and Sergey Brin wanted to search the web. But unlike most people they had the technical expertise both to notice that existing search engines were not as good as they could be, and to know how to improve them. Over the next few years their problem became everyone's problem, as the web grew to a size where you didn't have to be a picky search expert to notice the old algorithms weren't good enough. But as happened with Apple, by the time everyone else realized how important search was, Google was entrenched.",
+      "zhMarkdown": "Google 的起源也类似。拉里·佩奇（Larry Page）和谢尔盖·布林（Sergey Brin）想要搜索网页。但与大多数人不同的是，他们拥有专业的技术能力，既能发现当时的搜索引擎不够好，又知道如何去改进。在接下来的几年里，随着网页规模膨胀到连普通人（而不仅是挑剔的搜索专家）都觉得旧算法不够用时，他们的问题就成了每个人的问题。但就像苹果一样，等到其他人意识到搜索有多重要时，Google 已经筑起了坚固的防线。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "69d2ccca5293240d5bc1904c95973731b4d2936434f298505410b0f7a2a3d833",
+      "enMarkdown": "That's one connection between startup ideas and technology. Rapid change in one area uncovers big, soluble problems in other areas. Sometimes the changes are advances, and what they change is solubility. That was the kind of change that yielded Apple; advances in chip technology finally let Steve Wozniak design a computer he could afford. But in Google's case the most important change was the growth of the web. What changed there was not solubility but bigness.",
+      "zhMarkdown": "这就是创业点子与技术之间的第一种联系：一个领域的快速变化暴露了另一个领域中巨大且可解决的问题。有时，这种变化是技术的进步，改变了问题的“可解决性”。正是这种变化催生了苹果——芯片技术的进步终于让史蒂夫·沃兹尼亚克设计出了一台他买得起的电脑。但在 Google 的案例中，最重要的变化是万维网的增长。那里发生改变的不是“可解决性”，而是“体量”。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "197b60702076ae3719af59bea33e3e49da05e0a7c5eda366165f3b325a524b17",
+      "enMarkdown": "The other connection between startups and technology is that startups create new ways of doing things, and new ways of doing things are, in the broader sense of the word, new technology. When a startup both begins with an idea exposed by technological change and makes a product consisting of technology in the narrower sense (what used to be called \"high technology\"), it's easy to conflate the two. But the two connections are distinct and in principle one could start a startup that was neither driven by technological change, nor whose product consisted of technology except in the broader sense. [[4](#f4n)]",
+      "zhMarkdown": "创业公司与技术之间的另一种联系是，创业公司创造了做事的新方法，而广义上的新方法就是新一代技术。当一家创业公司既始于技术变革带来的点子，又做出了狭义上由技术构成的产品（即过去所说的“高科技”）时，人们很容易把这两者混为一谈。但这两者是截然不同的。原则上，你完全可以创办一家既非由技术变革推动、产品也不包含狭义技术的创业公司（除非是在最广泛的意义上）。[[4](#f4n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "024dd9490b18231aca4fe53b9d59a89b0af2eedefcaadf0158e15c594aea2317",
+      "enMarkdown": "**Rate**",
+      "zhMarkdown": "**增速**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "1a7587a8a8913eb957f50f021b1f5727850878234754b638a1347aed5328caa2",
+      "enMarkdown": "How fast does a company have to grow to be considered a startup? There's no precise answer to that. \"Startup\" is a pole, not a threshold. Starting one is at first no more than a declaration of one's ambitions. You're committing not just to starting a company, but to starting a fast growing one, and you're thus committing to search for one of the rare ideas of that type. But at first you have no more than commitment. Starting a startup is like being an actor in that respect. \"Actor\" too is a pole rather than a threshold. At the beginning of his career, an actor is a waiter who goes to auditions. Getting work makes him a successful actor, but he doesn't only become an actor when he's successful.",
+      "zhMarkdown": "一家公司要增长多快才能被算作创业公司？这没有一个精确的答案。“创业公司”是一个极值，而不是一个门槛。起初，创办一家创业公司不过是宣告自己的野心。你不仅承诺要创办一家公司，还承诺要创办一家高速增长的公司，因此你承诺去寻找那些极为罕见的关键点子。但在刚开始时，你有的只是承诺。在这方面，创办创业公司就像当演员。“演员”也是一个极值，而非一个门槛。在职业生涯的早期，演员其实就是个去参加试镜的餐厅服务员。能接到戏让他成为一个成功的演员，但他并不是在成功之后才成为演员的。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "c08750de69123e2318ceb2b02c30597945e280bf6fcfb932d67b296ee06899a1",
+      "enMarkdown": "So the real question is not what growth rate makes a company a startup, but what growth rate successful startups tend to have. For founders that's more than a theoretical question, because it's equivalent to asking if they're on the right path.",
+      "zhMarkdown": "所以，真正的问题不是多高的增长率才能让一家公司成为创业公司，而是成功的创业公司通常具有怎样的增长率。对于创始人来说，这不仅仅是一个理论问题，因为这等同于问自己是否走在正确的道路上。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "3c292746135aac1962630aad02243aad7265fa94943626e22ca7681f42e968f3",
+      "enMarkdown": "The growth of a successful startup usually has three phases:",
+      "zhMarkdown": "一家成功创业公司的增长通常会经历三个阶段："
+    },
+    {
+      "id": 25,
+      "type": "list",
+      "sourceHash": "44c3cabd08d4ea151c596848b21555e1b22582a6a5d6cd50c83eb93c0c052c6e",
+      "enMarkdown": "1. There's an initial period of slow or no growth while the startup tries to figure out what it's doing.\n2. As the startup figures out how to make something lots of people want and how to reach those people, there's a period of rapid growth.\n3. Eventually a successful startup will grow into a big company. Growth will slow, partly due to internal limits and partly because the company is starting to bump up against the limits of the markets it serves. [5]",
+      "zhMarkdown": "1. 初始阶段，增长缓慢甚至没有增长，此时创业公司正在摸索自己在做什么。\n2. 随着创业公司摸索出如何做出很多人想要的东西，以及如何触达这些人，会进入一个快速增长期。\n3. 最终，成功的创业公司会成长为一家大公司。增长将会放缓，部分原因在于内部限制，部分原因在于公司开始触及所服务市场的上限。 [5]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "bfb0307650d749899b95c60a5dce1c480269296a1178bf0cb212e6f94fe89a4f",
+      "enMarkdown": "Together these three phases produce an S-curve. The phase whose growth defines the startup is the second one, the ascent. Its length and slope determine how big the company will be.",
+      "zhMarkdown": "这三个阶段共同构成了一条 S 曲线。定义了创业公司的正是第二个阶段——那个上升期。它的长度和斜率决定了这家公司最终能做多大。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "b0f297e27146e305318d98ee83eac3bdbd24bc18de236f67a5b91ba7db0e8bf9",
+      "enMarkdown": "The slope is the company's growth rate. If there's one number every founder should always know, it's the company's growth rate. That's the measure of a startup. If you don't know that number, you don't even know if you're doing well or badly.",
+      "zhMarkdown": "斜率就是公司的增长率。如果说每个创始人必须随时掌握一个数字，那就是公司的增长率。这是衡量创业公司的标尺。如果你连这个数字都不知道，你甚至无法判断自己是在走向成功还是在走向失败。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "c4f4693832ab45a94412b15e248883fbeeb9dc0d5069f36ff3db0b273b5634fb",
+      "enMarkdown": "When I first meet founders and ask what their growth rate is, sometimes they tell me \"we get about a hundred new customers a month.\" That's not a rate. What matters is not the absolute number of new customers, but the ratio of new customers to existing ones. If you're really getting a constant number of new customers every month, you're in trouble, because that means your growth rate is decreasing.",
+      "zhMarkdown": "当我第一次见到一些创始人并询问他们的增长率时，有时他们会告诉我“我们每个月大约能增加 100 个新客户”。这不叫增长率。重要的不是新客户的绝对数量，而是新客户与老客户的比例。如果你每个月增加的新客户数量真的是个常数，那你就有麻烦了，因为这意味着你的增长率正在下降。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "755e25aae44f79466e05b96b1528954b860de533253477e28fbc50efe60ccdf1",
+      "enMarkdown": "During Y Combinator we measure growth rate per week, partly because there is so little time before Demo Day, and partly because startups early on need frequent feedback from their users to tweak what they're doing. [[6](#f6n)]",
+      "zhMarkdown": "在 Y Combinator 期间，我们按周衡量增长率。部分原因是在 Demo Day 之前时间太紧，另一部分原因是早期的创业公司需要频繁获得用户的反馈，以便微调他们的产品。[[6](#f6n)]"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "cf55d41c71ac7c521c9be1c04f56976b7d837acf2097ce02513cb97546e7d56e",
+      "enMarkdown": "A good growth rate during YC is 5-7% a week. If you can hit 10% a week you're doing exceptionally well. If you can only manage 1%, it's a sign you haven't yet figured out what you're doing.",
+      "zhMarkdown": "在 YC 期间，一个好的周增长率是 5% 到 7%。如果你能达到每周 10%，那说明你做得极其出色。如果你只能做到 1%，这就表明你还没搞清楚自己到底在做什么。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "29bb66d9dc2b79361a7661f6a1091134acb5e0db5bd9eb0411c9c8dbaade29f5",
+      "enMarkdown": "The best thing to measure the growth rate of is revenue. The next best, for startups that aren't charging initially, is active users. That's a reasonable proxy for revenue growth because whenever the startup does start trying to make money, their revenues will probably be a constant multiple of active users. [[7](#f7n)]",
+      "zhMarkdown": "衡量增长率最好的指标是收入。对于初期不收费的创业公司，次好的指标是活跃用户数。这是收入增长的一个合理替代指标，因为一旦创业公司开始尝试变现，其收入很可能会是活跃用户数的一个固定倍数。[[7](#f7n)]"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "daa017544351ef0f82c4c590ea658a6cdc11bcd3ac356ae4e14fc69a25deb39d",
+      "enMarkdown": "**Compass**",
+      "zhMarkdown": "**指南针**"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "f80cda021e94945ad1843bba4af3ba384b374ae2299e62ac10aa7ced81a80682",
+      "enMarkdown": "We usually advise startups to pick a growth rate they think they can hit, and then just try to hit it every week. The key word here is \"just.\" If they decide to grow at 7% a week and they hit that number, they're successful for that week. There's nothing more they need to do. But if they don't hit it, they've failed in the only thing that mattered, and should be correspondingly alarmed.",
+      "zhMarkdown": "我们通常建议创业公司选择一个他们认为自己能达到的增长率，然后每周“仅仅”设法达到它。这里的关键词是“仅仅”。如果他们决定每周增长 7% 并且达到了，那么这一周他们就是成功的。他们不需要做更多。但如果没达到，他们就在唯一重要的事情上失败了，理应拉响警报。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "64b4b7371c3565e20c758c53242a5dae266ebb2e56a3ac01adf35ebb04830f96",
+      "enMarkdown": "Programmers will recognize what we're doing here. We're turning starting a startup into an optimization problem. And anyone who has tried optimizing code knows how wonderfully effective that sort of narrow focus can be. Optimizing code means taking an existing program and changing it to use less of something, usually time or memory. You don't have to think about what the program should do, just make it faster. For most programmers this is very satisfying work. The narrow focus makes it a sort of puzzle, and you're generally surprised how fast you can solve it.",
+      "zhMarkdown": "程序员会明白我们在这里做什么。我们正在把创办创业公司变成一个优化问题。任何尝试过优化代码的人都知道，这种极度专注能产生多么奇妙的效果。优化代码意味着拿一个现有的程序，通过修改让它消耗更少的资源，通常是时间或内存。你不需要思考这个程序应该做什么，只需要让它运行得更快。对大多数程序员来说，这是非常令人满足的工作。这种专注让它变成了一种谜题，你通常会惊讶于自己能如此迅速地解决它。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "dc517a1b03db3e25a4a8f24cf5053d8a60e6a4903a4856857c34cc82897fd5cf",
+      "enMarkdown": "Focusing on hitting a growth rate reduces the otherwise bewilderingly multifarious problem of starting a startup to a single problem. You can use that target growth rate to make all your decisions for you; anything that gets you the growth you need is ipso facto right. Should you spend two days at a conference? Should you hire another programmer? Should you focus more on marketing? Should you spend time courting some big customer? Should you add x feature? Whatever gets you your target growth rate. [[8](#f8n)]",
+      "zhMarkdown": "专注于达成一个增长率，将创办创业公司这个原本错综复杂、令人困惑的问题简化为了单一问题。你可以用这个目标增长率来替你做所有的决定。任何能帮你获得所需增长的事情，在事实上（ipso facto）都是对的。你应该花两天时间去参加一个会议吗？你应该再雇一个程序员吗？你应该多花点精力在营销上吗？你应该花时间去争取某个大客户吗？你应该添加 X 功能吗？一切看它能否帮你达到目标增长率。[[8](#f8n)]"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "1b6cd917049feb72a1f114a5cb10cfd13b792c16dc8d1f07f4655f89d253c693",
+      "enMarkdown": "Judging yourself by weekly growth doesn't mean you can look no more than a week ahead. Once you experience the pain of missing your target one week (it was the only thing that mattered, and you failed at it), you become interested in anything that could spare you such pain in the future. So you'll be willing for example to hire another programmer, who won't contribute to this week's growth but perhaps in a month will have implemented some new feature that will get you more users. But only if (a) the distraction of hiring someone won't make you miss your numbers in the short term, and (b) you're sufficiently worried about whether you can keep hitting your numbers without hiring someone new.",
+      "zhMarkdown": "用周增长来评判自己，并不意味着你只能看眼前这一周。一旦你体会过某一周没能达成目标的痛苦（那是唯一重要的事情，而你搞砸了），你就会对任何能免除未来此类痛苦的事情产生兴趣。因此，你会愿意去雇另一个程序员，他虽然对本周的增长没有贡献，但也许一个月后就能开发出一些新功能，帮你获取更多用户。但前提是：（a）招聘过程带来的分心不会让你在短期内完不成指标，以及（b）你足够担心如果不招新人，你是否还能继续完成指标。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "911300d3836789f1485b65c271264e0ba783fa2ab589c874c2d5af41a0a3991a",
+      "enMarkdown": "It's not that you don't think about the future, just that you think about it no more than necessary.",
+      "zhMarkdown": "这并不是说你不考虑未来，只是你对未来的思考不会超出必要的限度。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "19f6fd0a3a93470704c4eec144e3cf5f9d1dceca7ac6fc32bbcfed3a39bffe87",
+      "enMarkdown": "In theory this sort of hill-climbing could get a startup into trouble. They could end up on a local maximum. But in practice that never happens. Having to hit a growth number every week forces founders to act, and acting versus not acting is the high bit of succeeding. Nine times out of ten, sitting around strategizing is just a form of procrastination. Whereas founders' intuitions about which hill to climb are usually better than they realize. Plus the maxima in the space of startup ideas are not spiky and isolated. Most fairly good ideas are adjacent to even better ones.",
+      "zhMarkdown": "理论上，这种“爬山算法”（hill-climbing）可能会让创业公司陷入困境，最终停留在局部最大值（local maximum）。但在实践中，这从未发生过。每周必须达成一个增长数字迫使创始人必须行动，而“行动” vs “不行动”是成功的关键所在。十有八九，坐在一起聊战略不过是拖延症的变体。其实，创始人对于该爬哪座山的直觉通常比他们自己意识到的要好。此外，创业点子空间里的最大值并不是孤立而尖锐的。大多数还不错的点子，隔壁就是更好的点子。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "89df2960ce487b5668934d810c17f8d9ead70949bad1349db977a8809a275688",
+      "enMarkdown": "The fascinating thing about optimizing for growth is that it can actually discover startup ideas. You can use the need for growth as a form of evolutionary pressure. If you start out with some initial plan and modify it as necessary to keep hitting, say, 10% weekly growth, you may end up with a quite different company than you meant to start. But anything that grows consistently at 10% a week is almost certainly a better idea than you started with.",
+      "zhMarkdown": "优化增长最迷人的一点在于，它实际上能帮你发现创业点子。你可以把对增长的需求当成一种进化压力。如果你带着一个初始计划开始，并根据需要不断修改以保持（比如）10% 的周增长，你最终可能会做出一家与初衷完全不同的公司。但任何能保持每周 10% 持续增长的点子，几乎肯定比你一开始的点子要好得多。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "b569fb6725610ad1b9b218311fa7e45ac3818fc71d538c7e229f758680eff186",
+      "enMarkdown": "There's a parallel here to small businesses. Just as the constraint of being located in a particular neighborhood helps define a bar, the constraint of growing at a certain rate can help define a startup.",
+      "zhMarkdown": "这与小企业有相似之处。正如必须开在特定街区的限制定义了一家酒吧一样，必须以特定速度增长的限制也定义了一家创业公司。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "19d86e5eafd13ffed7534a7bacb081e55ff85e3e33b80aa22226d1e33ecb28e0",
+      "enMarkdown": "You'll generally do best to follow that constraint wherever it leads rather than being influenced by some initial vision, just as a scientist is better off following the truth wherever it leads rather than being influenced by what he wishes were the case. When Richard Feynman said that the imagination of nature was greater than the imagination of man, he meant that if you just keep following the truth you'll discover cooler things than you could ever have made up. For startups, growth is a constraint much like truth. Every successful startup is at least partly a product of the imagination of growth. [[9](#f9n)]",
+      "zhMarkdown": "你通常最好顺着这个限制指引的方向走，而不是受最初愿景的束缚；就像科学家最好顺着真理指引的方向走，而不是受自己主观愿望的左右。当理查德·费曼（Richard Feynman）说大自然的想象力远大于人类的想象力时，他的意思是，只要你不断追寻真理，你就会发现比你凭空想象出来的还要酷得多的东西。对于创业公司来说，增长就是像真理一样的限制。每一个成功的创业公司，至少部分是“增长的想象力”塑造的产物。[[9](#f9n)]"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "e78c987022f8c897a52a8edc1562f200735e10ef01e94667f7aeaeb2f177ea8a",
+      "enMarkdown": "**Value**",
+      "zhMarkdown": "**价值**"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "ea8ccc0d726281cf9bb029d1d41dc368fb26c5c7aa27cf03a5dbaf05643a6b69",
+      "enMarkdown": "It's hard to find something that grows consistently at several percent a week, but if you do you may have found something surprisingly valuable. If we project forward we see why.",
+      "zhMarkdown": "要找到一个能持续每周增长几个百分点的事情很难，但如果你找到了，你可能发现了一个超乎想象的有价值的东西。我们往前推算一下就能明白为什么。"
+    },
+    {
+      "id": 44,
+      "type": "rawUnsupported",
+      "sourceHash": "0c477908c6eb6273d7d002951e6c46d2f466440f3ef4f8f26b03e3439086064e",
+      "enMarkdown": "weekly | yearly\n1% | 1.7x\n2% | 2.8x\n5% | 12.6x\n7% | 33.7x\n10% | 142.0x"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "5c760bde954910a9ff713312b92cb7a8257e7d3ac8420df4b40d8234877acbaf",
+      "enMarkdown": "A company that grows at 1% a week will grow 1.7x a year, whereas a company that grows at 5% a week will grow 12.6x. A company making $1000 a month (a typical number early in YC) and growing at 1% a week will 4 years later be making $7900 a month, which is less than a good programmer makes in salary in Silicon Valley. A startup that grows at 5% a week will in 4 years be making $25 million a month. [[10](#f10n)]",
+      "zhMarkdown": "一家每周增长 1% 的公司，一年会增长 1.7 倍；而每周增长 5% 的公司，一年会增长 12.6 倍。一家月收入 1000 美元（YC 早期典型数字）且每周增长 1% 的公司，4 年后月收入将达到 7900 美元，这还不如硅谷一个优秀程序员的工资。而一家每周增长 5% 的创业公司，4 年后的月收入将达到 2500 万美元。[[10](#f10n)]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "e083996b8fec20a740ab7458bbfe85dbc4069c8a3df87a9c09e11df7bea03138",
+      "enMarkdown": "Our ancestors must rarely have encountered cases of exponential growth, because our intuitions are no guide here. What happens to fast growing startups tends to surprise even the founders.",
+      "zhMarkdown": "我们的祖先很少会遇到指数级增长的情况，因此我们的直觉在这里完全失效了。快速增长的创业公司身上发生的事情，往往连创始人自己都会感到震惊。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "1ea82bec8b5eaca7f4eef10db150a926d7d0f8677ba23944ea2c22c92de2e9ea",
+      "enMarkdown": "Small variations in growth rate produce qualitatively different outcomes. That's why there's a separate word for startups, and why startups do things that ordinary companies don't, like raising money and getting acquired. And, strangely enough, it's also why they fail so frequently.",
+      "zhMarkdown": "增长率的微小差异会产生截然不同的结果。这就是为什么会有“创业公司”这个专门的词，也是为什么创业公司会做普通公司不做的事，比如融资和被收购。而且，说来也怪，这同样是它们如此频繁失败的原因。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "ed7e78c925b408d262422d7b7914027c2ef7c69919f6bc1f51a57c9cfa440ba6",
+      "enMarkdown": "Considering how valuable a successful startup can become, anyone familiar with the concept of expected value would be surprised if the failure rate weren't high. If a successful startup could make a founder $100 million, then even if the chance of succeeding were only 1%, the expected value of starting one would be $1 million. And the probability of a group of sufficiently smart and determined founders succeeding on that scale might be significantly over 1%. For the right people — e.g. the young Bill Gates — the probability might be 20% or even 50%. So it's not surprising that so many want to take a shot at it. In an efficient market, the number of failed startups should be proportionate to the size of the successes. And since the latter is huge the former should be too. [[11](#f11n)]",
+      "zhMarkdown": "考虑到一个成功的创业公司能变得多么有价值，任何熟悉“期望值”（expected value）概念的人，如果看到其失败率不高反而会感到奇怪。如果一个成功的创业公司能给创始人带来 1 亿美元，那么即使成功的概率只有 1%，创办它的期望值也有 100 万美元。而对于一群足够聪明、有决心的创始人来说，在这个规模上成功的概率可能会显著高于 1%。对于合适的人——比如年轻时的比尔·盖茨——这个概率可能是 20% 甚至 50%。因此，这么多人想去尝试也就不足为奇了。在一个高效的市场中，失败的创业公司数量应该与成功的规模成正比。既然成功之后的体量巨大，失败者的数量自然也该极其庞大。[[11](#f11n)]"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "83b20e34d612356deb11394649deee235882aba221b8147fea6ccb4d28779d75",
+      "enMarkdown": "What this means is that at any given time, the great majority of startups will be working on something that's never going to go anywhere, and yet glorifying their doomed efforts with the grandiose title of \"startup.\"",
+      "zhMarkdown": "这意味着在任何特定时间，绝大多数创业公司都在做一些永远不会有结果的事情，但他们依然用“创业公司”这个宏大的名号来粉饰自己注定失败的努力。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "07e69d550b56fbd16ae9581723ce23a3a1a230ed6775a87141ba0362a7e40f82",
+      "enMarkdown": "This doesn't bother me. It's the same with other high-beta vocations, like being an actor or a novelist. I've long since gotten used to it. But it seems to bother a lot of people, particularly those who've started ordinary businesses. Many are annoyed that these so-called startups get all the attention, when hardly any of them will amount to anything.",
+      "zhMarkdown": "这并不困扰我。其他高波动性（high-beta）的职业也是如此，比如演员或小说家。我早就习惯了。但它似乎困扰着很多人，尤其是那些开办普通企业的人。许多人感到恼火，为什么这些所谓的创业公司吸引了所有的注意力，而它们中几乎没有一个能成气候。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "438bffcac9c7e656829e016d111aaa222d1c7cc7d72202b9590031baee8e1f91",
+      "enMarkdown": "If they stepped back and looked at the whole picture they might be less indignant. The mistake they're making is that by basing their opinions on anecdotal evidence they're implicitly judging by the median rather than the average. If you judge by the median startup, the whole concept of a startup seems like a fraud. You have to invent a bubble to explain why founders want to start them or investors want to fund them. But it's a mistake to use the median in a domain with so much variation. If you look at the average outcome rather than the median, you can understand why investors like them, and why, if they aren't median people, it's a rational choice for founders to start them.",
+      "zhMarkdown": "如果他们退一步看清全貌，也许就不会那么愤愤不平了。他们犯的错误是，由于把观点建立在零散的个案证据上，他们潜意识里是在用“中位数”而非“平均数”来做评判。如果你用中位数创业公司来评判，整个创业公司的概念看起来就像个骗局。你必须发明一个“泡沫”理论，来解释为什么创始人想创办它们，或者投资者想投资它们。但在一个差异如此之大的领域，使用中位数是一个错误。如果你看平均结果而不是中位数，你就能理解为什么投资者喜欢它们，以及为什么（如果创始人不是平庸之辈）创办创业公司对他们来说是一个理性的选择。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "9cd00aec4d6278ba3fe418023cf28ef0ac197790bb80816db66ce76213698ff2",
+      "enMarkdown": "**Deals**",
+      "zhMarkdown": "**交易**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "051a94164b053094c6f4ff80d4b9dd543844ecaf24472565286937115486cb1e",
+      "enMarkdown": "Why do investors like startups so much? Why are they so hot to invest in photo-sharing apps, rather than solid money-making businesses? Not only for the obvious reason.",
+      "zhMarkdown": "为什么投资者如此青睐创业公司？为什么他们如此狂热地投资照片分享应用，而不是稳赚不赔的普通生意？不只是因为那些显而易见的原因。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "45d5de08c9a4743d900d6a58f0bafe33a119617740c123ac3dc8b056491bdf06",
+      "enMarkdown": "The test of any investment is the ratio of return to risk. Startups pass that test because although they're appallingly risky, the returns when they do succeed are so high. But that's not the only reason investors like startups. An ordinary slower-growing business might have just as good a ratio of return to risk, if both were lower. So why are VCs interested only in high-growth companies? The reason is that they get paid by getting their capital back, ideally after the startup IPOs, or failing that when it's acquired.",
+      "zhMarkdown": "衡量任何投资的标准都是回报与风险的比例。创业公司通过了这一测试，因为尽管它们风险高得惊人，但一旦成功，回报也高得惊人。但这并不是投资者喜欢创业公司的唯一原因。如果回报和风险都更低，一家增长较慢的普通企业也可能有同样好的回报风险比。那么，为什么风险投资人只对高增长的公司感兴趣呢？原因在于，他们是通过收回资本来获得回报的，理想的情况是在创业公司 IPO 之后，或者退一步，在它被收购时。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "b34ea818139fa2888bb5a5da7f582c725f85f9be6c791408b197f95de8493949",
+      "enMarkdown": "The other way to get returns from an investment is in the form of dividends. Why isn't there a parallel VC industry that invests in ordinary companies in return for a percentage of their profits? Because it's too easy for people who control a private company to funnel its revenues to themselves (e.g. by buying overpriced components from a supplier they control) while making it look like the company is making little profit. Anyone who invested in private companies in return for dividends would have to pay close attention to their books.",
+      "zhMarkdown": "另一种获得投资回报的方式是分红。为什么没有一个平行的风投行业，通过投资普通公司来获取利润分成？因为控制一家私有公司的人太容易把收入中饱私囊了（例如，通过从他们控制的供应商那里购买高价配件），同时让公司看起来几乎没有利润。任何以分红为回报投资私有公司的人，都必须极其密切地盯着他们的账本。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "5798855f68ab76354843eb0cdc316d3e0d0b954f240276402d625d9dbabe342c",
+      "enMarkdown": "The reason VCs like to invest in startups is not simply the returns, but also because such investments are so easy to oversee. The founders can't enrich themselves without also enriching the investors. [[12](#f12n)]",
+      "zhMarkdown": "风投喜欢投资创业公司的原因，不单单是因为回报，还因为这类投资非常容易监督。创始人不让投资者发财，自己就没办法发财。[[12](#f12n)]"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "929eb206c91744cc8895473bdfc5e14b11c79ec09b73baaf0781f1d69fc76586",
+      "enMarkdown": "Why do founders want to take the VCs' money? Growth, again. The constraint between good ideas and growth operates in both directions. It's not merely that you need a scalable idea to grow. If you have such an idea and don't grow fast enough, competitors will. Growing too slowly is particularly dangerous in a business with network effects, which the best startups usually have to some degree.",
+      "zhMarkdown": "为什么创始人想要拿风投的钱？还是因为增长。好点子与增长之间的制约关系是双向的。不仅是你需要一个可规模化的点子来增长；如果你有这样一个点子却增长得不够快，竞争对手就会赶上来。在具有网络效应的业务中，增长太慢尤其危险，而最好的创业公司通常在某种程度上都具有网络效应。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "aae0e59f44680f704415a8a7cb8ca39e1b188d3d26ddc075311a2d95410da14e",
+      "enMarkdown": "Almost every company needs some amount of funding to get started. But startups often raise money even when they are or could be profitable. It might seem foolish to sell stock in a profitable company for less than you think it will later be worth, but it's no more foolish than buying insurance. Fundamentally that's how the most successful startups view fundraising. They could grow the company on its own revenues, but the extra money and help supplied by VCs will let them grow even faster. Raising money lets you *choose* your growth rate.",
+      "zhMarkdown": "几乎每家公司在起步时都需要一定数量的资金。但创业公司即使在已经盈利或可以盈利的情况下，也经常进行融资。把一家盈利公司的股票以低于你认为其未来价值的价格卖掉，这看起来似乎很愚蠢，但这并不比买保险更愚蠢。从根本上说，最成功的创业公司就是这样看待融资的。他们本可以靠自身收入来让公司增长，但风投提供的额外资金和帮助能让他们增长得更快。融资让你能够*选择*自己的增长率。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "af44f861dcfbd26c481c17ab79b4474fca1dc5e7a4c0050bd3f5867d0105f8ac",
+      "enMarkdown": "Money to grow faster is always at the command of the most successful startups, because the VCs need them more than they need the VCs. A profitable startup could if it wanted just grow on its own revenues. Growing slower might be slightly dangerous, but chances are it wouldn't kill them. Whereas VCs need to invest in startups, and in particular the most successful startups, or they'll be out of business. Which means that any sufficiently promising startup will be offered money on terms they'd be crazy to refuse. And yet because of the scale of the successes in the startup business, VCs can still make money from such investments. You'd have to be crazy to believe your company was going to become as valuable as a high growth rate can make it, but some do.",
+      "zhMarkdown": "最成功的创业公司随时可以支配用于加速增长的资金，因为风投对他们的需要，远胜于他们对风投的需要。一家盈利的创业公司如果愿意，完全可以只靠自身收入增长。增长慢一点可能稍微有点危险，但大概率不至于死掉。相反，风投必须投资创业公司，尤其是最成功的创业公司，否则他们就会倒闭。这意味着，任何足够有前景的创业公司都会获得他们不接受就是傻瓜的优渥融资条件。然而，由于创业公司成功后的规模巨大，风投依然能从这些投资中赚到钱。你得疯了才会相信自己的公司能变得像高增长率能带来的那样有价值，但确实有人做到了。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "2a2fb1de81647256e36bfca1fa37528e33052682d2f977d7b6ca41566f238208",
+      "enMarkdown": "Pretty much every successful startup will get acquisition offers too. Why? What is it about startups that makes other companies want to buy them? [[13](#f13n)]",
+      "zhMarkdown": "几乎每个成功的创业公司也都会收到收购邀约。为什么？创业公司到底有什么魔力，让其他公司想要买下它们？[[13](#f13n)]"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "05bb14a200de612a90084285e66deac416390061fc4225f2e2aeb17fe4aa4829",
+      "enMarkdown": "Fundamentally the same thing that makes everyone else want the stock of successful startups: a rapidly growing company is valuable. It's a good thing eBay bought Paypal, for example, because Paypal is now responsible for 43% of their sales and probably more of their growth.",
+      "zhMarkdown": "从根本上说，这和让其他所有人都想要成功创业公司股票的原因是一样的：一家快速增长的公司是有价值的。例如，eBay 买下 PayPal 是件大好事，因为 PayPal 现在贡献了他们 43% 的销售额，以及可能更大比例的增长。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "0d2b805c3b047655527d5ec3e9a49c7f77b9e9c4de6103eddcfebe09e6a17616",
+      "enMarkdown": "But acquirers have an additional reason to want startups. A rapidly growing company is not merely valuable, but dangerous. If it keeps expanding, it might expand into the acquirer's own territory. Most product acquisitions have some component of fear. Even if an acquirer isn't threatened by the startup itself, they might be alarmed at the thought of what a competitor could do with it. And because startups are in this sense doubly valuable to acquirers, acquirers will often pay more than an ordinary investor would. [[14](#f14n)]",
+      "zhMarkdown": "但收购方还有另一个想要创业公司的原因。一家快速增长的公司不仅有价值，而且是危险的。如果它继续扩张，可能会扩张到收购方自己的领地。大多数产品收购都带有恐惧的成分。即使收购方本身没有受到该创业公司的威胁，一想到竞争对手买下它后会做出什么，他们也会感到恐慌。正因为创业公司对收购方具有这双重价值，收购方往往会支付比普通投资者更高的溢价。[[14](#f14n)]"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "b656ce96cbdde163cf60b5bc34371758f105c0c28228004d852360e2bbe84c10",
+      "enMarkdown": "**Understand**",
+      "zhMarkdown": "**理解**"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "7d54e5f8769547d9e22bcc09fe1ee24fc5bb8d9c9cc6e60a1b9e6249adaa9a36",
+      "enMarkdown": "The combination of founders, investors, and acquirers forms a natural ecosystem. It works so well that those who don't understand it are driven to invent conspiracy theories to explain how neatly things sometimes turn out. Just as our ancestors did to explain the apparently too neat workings of the natural world. But there is no secret cabal making it all work.",
+      "zhMarkdown": "创始人、投资者和收购方的结合，形成了一个天然的生态系统。它运转得如此之好，以至于那些不理解它的人不得不发明阴谋论，来解释事情有时候怎么会结果得如此巧妙。就像我们的祖先为了解释看似过于精妙的自然界运转一样。但并没有什么秘密集团在幕后操纵这一切。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "8c8f2be8ad7629561da0682a043cde43a16f4d276c3042a47d2d8c80329e4726",
+      "enMarkdown": "If you start from the mistaken assumption that Instagram was worthless, you have to invent a secret boss to force Mark Zuckerberg to buy it. To anyone who knows Mark Zuckerberg, that is the reductio ad absurdum of the initial assumption. The reason he bought Instagram was that it was valuable and dangerous, and what made it so was growth.",
+      "zhMarkdown": "如果你从“Instagram 一文不值”这个错误假设出发，你就必须发明一个幕后大佬来强迫马克·扎克伯格买下它。对于任何了解马克·扎克伯格的人来说，这恰恰证明了最初假设的荒谬。他买下 Instagram 的原因是因为它既有价值又危险，而这一切正是由增长带来的。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "a15881031db8cce06e1549e5b55420262a0fd756ea2bfae01ce7bb667cf7d3d2",
+      "enMarkdown": "If you want to understand startups, understand growth. Growth drives everything in this world. Growth is why startups usually work on technology — because ideas for fast growing companies are so rare that the best way to find new ones is to discover those recently made viable by change, and technology is the best source of rapid change. Growth is why it's a rational choice economically for so many founders to try starting a startup: growth makes the successful companies so valuable that the expected value is high even though the risk is too. Growth is why VCs want to invest in startups: not just because the returns are high but also because generating returns from capital gains is easier to manage than generating returns from dividends. Growth explains why the most successful startups take VC money even if they don't need to: it lets them choose their growth rate. And growth explains why successful startups almost invariably get acquisition offers. To acquirers a fast-growing company is not merely valuable but dangerous too.",
+      "zhMarkdown": "如果你想理解创业公司，就要理解增长。增长驱动着这个世界的一切。增长是为什么创业公司通常都在做技术——因为适合高速增长公司的点子太罕见了，寻找新点子的最好方法就是去发现那些最近被变革赋予可行性的点子，而技术是快速变革的最佳源泉。增长是为什么在经济上，创办创业公司对这么多创始人来说是个理性的选择：增长让成功的公司变得极其有价值，以至于即使风险很高，期望值依然很高。增长是为什么风投想要投资创业公司：不仅因为回报高，还因为通过资本利得产生回报比通过分红产生回报更容易管理。增长解释了为什么最成功的创业公司即使不需要也会拿风投的钱：这让他们可以自主选择增长率。增长也解释了为什么成功的创业公司几乎无一例外会收到收购邀约。对于收购方来说，一家快速增长的公司不仅有价值，而且同样危险。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "49910ea610c512ce657c40a65febde36dd57bcdba27168ac355f60e1bca91cdc",
+      "enMarkdown": "It's not just that if you want to succeed in some domain, you have to understand the forces driving it. Understanding growth is what starting a startup *consists* of. What you're really doing (and to the dismay of some observers, all you're really doing) when you start a startup is committing to solve a harder type of problem than ordinary businesses do. You're committing to search for one of the rare ideas that generates rapid growth. Because these ideas are so valuable, finding one is hard. The startup is the embodiment of your discoveries so far. Starting a startup is thus very much like deciding to be a research scientist: you're not committing to solve any specific problem; you don't know for sure which problems are soluble; but you're committing to try to discover something no one knew before. A startup founder is in effect an economic research scientist. Most don't discover anything that remarkable, but some discover relativity.",
+      "zhMarkdown": "这不仅仅是说如果你想在某个领域成功，你就必须理解推动它的力量。理解增长本身就是创办创业公司的*全部内涵*。当你创办一家创业公司时，你真正做的事情（令一些旁观者沮丧的是，这确实是你真正做的全部事情）是承诺去解决一个比普通企业更难的问题。你承诺去寻找那些能带来快速增长的罕见点子。因为这些点子极具价值，所以寻找它们非常困难。创业公司就是你迄今为止发现的成果的具象化。因此，创办创业公司非常像决定成为一名科研人员：你没有承诺去解决任何具体问题，你也不确定哪些问题是可以解决的，但你承诺去努力发现一些前人未知的东西。创业创始人实际上是一名经济学领域的科研人员。大多数人并没有什么惊人的发现，但有些人发现了相对论。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "fcd8b7be48199941adb0f0cd8a9f989c81ab95c773ca06f3c4fe7db0096a6a41",
+      "enMarkdown": "[1] Strictly speaking it's not lots of customers you need but a big market, meaning a high product of number of customers times how much they'll pay. But it's dangerous to have too few customers even if they pay a lot, or the power that individual customers have over you could turn you into a de facto consulting firm. So whatever market you're in, you'll usually do best to err on the side of making the broadest type of product for it.",
+      "zhMarkdown": "[1] 严格来说，你需要的不是大量的客户，而是一个巨大的市场，这意味着“客户数量”乘以“他们愿意支付的金额”的乘积要很高。但是，即使客户付钱很多，客户数量太少也是危险的，否则单个客户对你的掌控力可能会把你变成一家事实上的咨询公司。因此，无论你处于哪个市场，你通常最好倾向于为它做最广泛、最通用的产品。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "22242a6bd699ae8e04c8d718d23f0bd08030bd9acb17c11e83d47acbbd4369e5",
+      "enMarkdown": "[2] One year at Startup School David Heinemeier Hansson encouraged programmers who wanted to start businesses to use a restaurant as a model. What he meant, I believe, is that it's fine to start software companies constrained in (a) in the same way a restaurant is constrained in (b). I agree. Most people should not try to start startups.",
+      "zhMarkdown": "[2] 有一年在 Startup School 上，大卫·海涅迈尔·汉森（David Heinemeier Hansson）鼓励想创业的程序员以餐馆为模型。我相信他的意思是，创办一家在（a）上受限的软件公司是完全可以的，就像餐馆在（b）上受限一样。我同意。大多数人不应该尝试创办创业公司。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "7c1b3ed33bd5b5fe45fcf425c84e81b768ec8d5b0824ffbc8e0c4efaae23e7da",
+      "enMarkdown": "[3] That sort of stepping back is one of the things we focus on at Y Combinator. It's common for founders to have discovered something intuitively without understanding all its implications. That's probably true of the biggest discoveries in any field.",
+      "zhMarkdown": "[3] 这种“退一步审视”正是我们在 Y Combinator 关注的事情之一。创始人凭直觉发现了一些东西，却不完全理解其所有内涵，这是很常见的。任何领域最伟大的发现大概都是如此。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "0b86320cc63a1d7faf44779c55e37b685b0e214fed0f4938c1d6c6d903111a18",
+      "enMarkdown": "[4] I got it wrong in [\"How to Make Wealth\"](https://paulgraham.com/wealth.html) when I said that a startup was a small company that takes on a hard technical problem. That is the most common recipe but not the only one.",
+      "zhMarkdown": "[4] 我在[《如何创造财富》](https://paulgraham.com/wealth.html)一文中写错了，当时我说创业公司是一家解决困难技术问题的小公司。这是最常见的配方，但不是唯一的。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "0437ed0878bfd02ff583a07562b8ffcc58d45f9392807d43effd118aa0107dfd",
+      "enMarkdown": "[5] In principle companies aren't limited by the size of the markets they serve, because they could just expand into new markets. But there seem to be limits on the ability of big companies to do that. Which means the slowdown that comes from bumping up against the limits of one's markets is ultimately just another way in which internal limits are expressed.",
+      "zhMarkdown": "[5] 原则上，公司不受其所服务市场规模的限制，因为它们可以直接扩张到新市场。但大公司在这方面的能力似乎存在局限。这意味着，因触及市场上限而导致的增速放缓，最终只是内部局限性的另一种体现形式。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "c1b804e884e37d7706c80814283e6bb8cee9351ec6779a3d83b5332d395a75a9",
+      "enMarkdown": "It may be that some of these limits could be overcome by changing the shape of the organization — specifically by sharding it.",
+      "zhMarkdown": "通过改变组织形态——具体来说是通过“分片”（sharding）——也许可以克服其中的一些限制。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "405a14e4c4bfa8984ad442151a968a15a46cffdea3b36c2d6d7a9c55f5b73f16",
+      "enMarkdown": "[6] This is, obviously, only for startups that have already launched or can launch during YC. A startup building a new database will probably not do that. On the other hand, launching something small and then using growth rate as evolutionary pressure is such a valuable technique that any company that could start this way probably should.",
+      "zhMarkdown": "[6] 显然，这只适用于那些已经发布产品或可以在 YC 期间发布产品的创业公司。开发新数据库的创业公司可能做不到这一点。另一方面，先发布一个粗糙的早期版本，然后将增长率作为进化压力，这是一种非常有价值的技巧，任何能够这样开始的公司都应该这样做。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "31a82104a3313157e5dab226fa17ff840938a577f2118e1c221327e02d5f27b6",
+      "enMarkdown": "[7] If the startup is taking the Facebook/Twitter route and building something they hope will be very popular but from which they don't yet have a definite plan to make money, the growth rate has to be higher, even though it's a proxy for revenue growth, because such companies need huge numbers of users to succeed at all.",
+      "zhMarkdown": "[7] 如果创业公司走的是 Facebook/Twitter 的路线，开发一些他们希望非常流行但目前还没有明确变现计划的产品，那么增长率必须更高。虽然它只是收入增长的替代指标，但因为这类公司必须拥有海量用户才能成功。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "f90bd30a02fd1434532d466f8fcf2e09a25e2205aa51ccfd902e30e3ef2a9f06",
+      "enMarkdown": "Beware too of the edge case where something spreads rapidly but the churn is high as well, so that you have good net growth till you run through all the potential users, at which point it suddenly stops.",
+      "zhMarkdown": "还要警惕一种极端情况：某样东西传播得很快，但流失率也极高，这样在你洗完所有潜在用户之前，你会有很好的净增长，但到那个时候，增长会突然停止。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "dcf29a8890c82d74304d64685a000a05114b5bbc3601308116a95f814868a251",
+      "enMarkdown": "[8] Within YC when we say it's ipso facto right to do whatever gets you growth, it's implicit that this excludes trickery like buying users for more than their lifetime value, counting users as active when they're really not, bleeding out invites at a regularly increasing rate to manufacture a perfect growth curve, etc. Even if you were able to fool investors with such tricks, you'd ultimately be hurting yourself, because you're throwing off your own compass.",
+      "zhMarkdown": "[8] 在 YC 内部，当我们说“做任何能让你获得增长的事情在事实上都是对的”时，默认排除了欺骗手段，比如以高于用户生命周期的价值去购买用户、把并非真正活跃的用户算作活跃用户、以等比递增的速度发放邀请码来制造完美的增长曲线等。即使你能够用这些花招愚弄投资者，最终也是在伤害自己，因为你扔掉了自己的指南针。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "c5f0bd25ba9069d146de563f2260eb3ebb5437d37bddc8779764497c2779e0ce",
+      "enMarkdown": "[9] Which is why it's such a dangerous mistake to believe that successful startups are simply the embodiment of some brilliant initial idea. What you're looking for initially is not so much a great idea as an idea that could evolve into a great one. The danger is that promising ideas are not merely blurry versions of great ones. They're often different in kind, because the early adopters you evolve the idea upon have different needs from the rest of the market. For example, the idea that evolves into Facebook isn't merely a subset of Facebook; the idea that evolves into Facebook is a site for Harvard undergrads.",
+      "zhMarkdown": "[9] 这就是为什么认为成功的创业公司只是某种绝妙初始点子的具象化，是一个如此危险的错误。你最初寻找的与其说是一个伟大的点子，不如说是一个能够演变成伟大点子的点子。危险在于，有前景的点子并不只是伟大点子的模糊版本。它们往往在本质上是不同的，因为你借以演变点子的早期采用者，其需求与市场的其他部分不同。例如，演变成 Facebook 的点子不仅仅是 Facebook 的一个子集；演变成 Facebook 的点子是一个针对哈佛本科生的网站。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "3eca2c8d0ba9ec6a658b3db1d14e49219884f8472d5b10de5717e6bc2f0b63a1",
+      "enMarkdown": "[10] What if a company grew at 1.7x a year for a really long time? Could it not grow just as big as any successful startup? In principle yes, of course. If our hypothetical company making $1000 a month grew at 1% a week for 19 years, it would grow as big as a company growing at 5% a week for 4 years. But while such trajectories may be common in, say, real estate development, you don't see them much in the technology business. In technology, companies that grow slowly tend not to grow as big.",
+      "zhMarkdown": "[10] 如果一家公司在很长一段时间内以每年 1.7 倍的速度增长会怎样？它不能成长得和任何成功的创业公司一样大吗？原则上当然可以。如果我们假设的那家月收入 1000 美元的公司以每周 1% 的速度增长 19 年，它就会成长到和每周增长 5% 持续 4 年的公司一样大。但是，虽然这种轨迹在房地产开发等行业可能很常见，但在技术行业却不常见。在技术行业，增长缓慢的公司往往做不大。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "c8c790a2eebefdb81e954bc67d77a46d4d407be06a6b9b00751cac729efcea85",
+      "enMarkdown": "[11] Any expected value calculation varies from person to person depending on their utility function for money. I.e. the first million is worth more to most people than subsequent millions. How much more depends on the person. For founders who are younger or more ambitious the utility function is flatter. Which is probably part of the reason the founders of the most successful startups of all tend to be on the young side.",
+      "zhMarkdown": "[11] 任何期望值的计算都因人而异，取决于他们对金钱的效用函数。也就是说，对大多数人来说，第一个 100 万美元的价值要高于随后的每一个 100 万美元。具体高出多少因人而异。对于更年轻或更有野心的创始人来说，效用函数曲线更平缓。这可能也是最成功的创业公司的创始人往往偏年轻的部分原因。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "421b1b3fff16b5d1c9483f209367e49669fbc0861ade419eee7b718959bd93bc",
+      "enMarkdown": "[12] More precisely, this is the case in the biggest winners, which is where all the returns come from. A startup founder could pull the same trick of enriching himself at the company's expense by selling them overpriced components. But it wouldn't be worth it for the founders of Google to do that. Only founders of failing startups would even be tempted, but those are writeoffs from the VCs' point of view anyway.",
+      "zhMarkdown": "[12] 更准确地说，在最大的赢家身上是这样的，而所有的回报也都来自这些赢家。创业公司创始人本可以通过向公司出售高价配件来玩弄中饱私囊的把戏。但对于 Google 的创始人来说，这样做根本不值得。只有失败的创业公司的创始人才会被这种事情诱惑，但从风投的角度来看，这些公司反正也是要注销的资产。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "7f3418e494de90403ff660fd3ec400de9aa418a9f415326f914cdf4fb0f953f2",
+      "enMarkdown": "[13] Acquisitions fall into two categories: those where the acquirer wants the business, and those where the acquirer just wants the employees. The latter type is sometimes called an HR acquisition. Though nominally acquisitions and sometimes on a scale that has a significant effect on the expected value calculation for potential founders, HR acquisitions are viewed by acquirers as more akin to hiring bonuses.",
+      "zhMarkdown": "[13] 收购分为两类：一类是收购方想要该业务，另一类是收购方只想要员工。后者有时被称为“人才收购”（acq-hire）。虽然名义上是收购，而且有时规模大到对潜在创始人的期望值计算产生重大影响，但收购方认为人才收购更类似于招聘奖金。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "ca98ab836ce46882afbd687a9d74248a8b9e640958df70ce0f99d9dc8ba79ce8",
+      "enMarkdown": "[14] I once explained this to some founders who had recently arrived from Russia. They found it novel that if you threatened a company they'd pay a premium for you. \"In Russia they just kill you,\" they said, and they were only partly joking. Economically, the fact that established companies can't simply eliminate new competitors may be one of the most valuable aspects of the rule of law. And so to the extent we see incumbents suppressing competitors via regulations or patent suits, we should worry, not because it's a departure from the rule of law per se but from what the rule of law is aiming at.",
+      "zhMarkdown": "[14] 我曾向一些刚从俄罗斯来的创始人解释过这一点。他们觉得很新鲜，如果你威胁到一家公司，他们居然会溢价买下你。“在俄罗斯，他们直接把你干掉，”他们说，而且他们只有一部分是在开玩笑。在经济上，成熟公司不能简单地消灭新竞争对手这一事实，可能是法治最有价值的方面之一。因此，当我们看到在位者通过监管或专利诉讼来压制竞争对手时，我们应该感到担忧，不仅因为这背离了法治本身，更因为这背离了法治所追求的目标。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "01f61bb4eede7df0a0ed20207874aee5462fb5a3041e279e76171d5437e31014",
+      "enMarkdown": "**Thanks** to Sam Altman, Marc Andreessen, Paul Buchheit, Patrick Collison, Jessica Livingston, Geoff Ralston, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman, Marc Andreessen, Paul Buchheit, Patrick Collison, Jessica Livingston, Geoff Ralston, 和 Harj Taggar 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "schlep",
+  "titleEn": "Schlep Blindness",
+  "titleZh": "视重活如无物：克服“苦差事盲区”",
+  "dateText": "January 2012",
+  "publishedAt": "2012-01-01",
+  "sourceOrder": 92,
+  "sourceUrl": "https://paulgraham.com/schlep.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "667b6361c38dbe9b7979a0a03a68cfcb503d2646641cb4cc1d63f060ed85af5b",
+      "enMarkdown": "There are great startup ideas lying around unexploited right under our noses. One reason we don't see them is a phenomenon I call *schlep blindness*. Schlep was originally a Yiddish word but has passed into general use in the US. It means a tedious, unpleasant task.",
+      "zhMarkdown": "其实，许多极佳的创业点子就摆在我们的眼皮底下，无人问津。我们之所以视而不见，原因在于一种我称之为“苦差事盲区”（schlep blindness）的现象。“Schlep”原本是一个意第绪语词汇，如今在美国已成为日常用语，意指那些繁琐、令人不快的苦差事。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "22073d35edc5dce9cd86d6ff9f272569548b6b4268ae139fc6176175493d1d8a",
+      "enMarkdown": "No one likes schleps, but hackers especially dislike them. Most hackers who start startups wish they could do it by just writing some clever software, putting it on a server somewhere, and watching the money roll in—without ever having to talk to users, or negotiate with other companies, or deal with other people's broken code. Maybe that's possible, but I haven't seen it.",
+      "zhMarkdown": "没人喜欢苦差事，黑客尤其讨厌。大多数开办创业公司的黑客都希望，自己只需要写写聪明的代码，把它们部署到服务器上，然后坐等收钱就行了——完全不用跟用户沟通、不用跟其他公司谈判，也不用去应付别人写得烂透了的代码。也许这确实可能实现，但我还没见过先例。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "91d47e052b83eb1c06af995b1e797b92ac6de9ddc64ed1fa2899f74f8314ff49",
+      "enMarkdown": "One of the many things we do at Y Combinator is teach hackers about the inevitability of schleps. No, you can't start a startup by just writing code. I remember going through this realization myself. There was a point in 1995 when I was still trying to convince myself I could start a company by just writing code. But I soon learned from experience that schleps are not merely inevitable, but pretty much what business consists of. A company is defined by the schleps it will undertake. And schleps should be dealt with the same way you'd deal with a cold swimming pool: just jump in. Which is not to say you should seek out unpleasant work per se, but that you should never shrink from it if it's on the path to something great.",
+      "zhMarkdown": "我们在 Y Combinator 所做的众多事情之一，就是让黑客明白，苦差事是无法避免的。不，你不可能光靠写代码就办起一家创业公司。我记得自己也曾经历过这个开窍的过程。1995 年的某个时候，我还试图说服自己，只要写写代码就能开家公司。但我很快从实践中体会到，苦差事不仅不可避免，而且几乎就是商业活动的本质。一家公司的定义，恰恰在于它愿意承担什么样的苦差事。对待苦差事，应该像跳进冰冷的游泳池一样：直接跳下去。这并不是说你要刻意去寻找不愉快的工作，而是说，如果它通往伟大的道路，你就绝不能退缩。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "6b2a52ee689a6019de9757c350eec1c5b459fdf87928a144823934bf006a1639",
+      "enMarkdown": "The most dangerous thing about our dislike of schleps is that much of it is unconscious. Your unconscious won't even let you see ideas that involve painful schleps. That's schlep blindness.",
+      "zhMarkdown": "我们对苦差事的厌恶，最危险的一点在于这种情绪大都是无意识的。你的潜意识甚至会阻止你去发现那些包含痛苦差事的点子。这就是“苦差事盲区”。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "29883b1b566d94c8a73d0ffaf9747d9eba87e3cc10a1a6b101f13770fdd54ddd",
+      "enMarkdown": "The phenomenon isn't limited to startups. Most people don't consciously decide not to be in as good physical shape as Olympic athletes, for example. Their unconscious mind decides for them, shrinking from the work involved.",
+      "zhMarkdown": "这种现象不仅限于创业。例如，大多数人并不是在潜意识里主动决定不让自己拥有像奥运选手那样的好身材。是他们的潜意识替他们做了决定，在面对背后的艰苦训练时退缩了。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "5613f0ce59e48c402e162778db599160e188f39a4392507fac0d507dbb8898fb",
+      "enMarkdown": "The most striking example I know of schlep blindness is [Stripe](http://stripe.com), or rather Stripe's idea. For over a decade, every hacker who'd ever had to process payments online knew how painful the experience was. Thousands of people must have known about this problem. And yet when they started startups, they decided to build recipe sites, or aggregators for local events. Why? Why work on problems few care much about and no one will pay for, when you could fix one of the most important components of the world's infrastructure? Because schlep blindness prevented people from even considering the idea of fixing payments.",
+      "zhMarkdown": "我所知道的关于“苦差事盲区”最鲜明的例子就是 [Stripe](http://stripe.com)，或者更准确地说是 Stripe 的创业点子。十多年来，每一个不得不在线处理支付的黑客都知道这体验有多痛苦。成千上万的人肯定都清楚这个痛点。然而，当他们创办创业公司时，却选择去搭建菜谱网站，或者本地活动聚合平台。为什么？为什么放着世界上最关键的基础设施之一去修复，却偏偏要去解决那些几乎没人关心、也没人愿意付钱的问题？因为“苦差事盲区”阻碍了人们，让他们甚至压根儿没去考虑过解决支付问题这个点子。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "aa1f0b0231bb1c666a061a0943b8b1e756c20c3755d59358971452df5c4e5645",
+      "enMarkdown": "Probably no one who applied to Y Combinator to work on a recipe site began by asking \"should we fix payments, or build a recipe site?\" and chose the recipe site. Though the idea of fixing payments was right there in plain sight, they never saw it, because their unconscious mind shrank from the complications involved. You'd have to make deals with banks. How do you do that? Plus you're moving money, so you're going to have to deal with fraud, and people trying to break into your servers. Plus there are probably all sorts of regulations to comply with. It's a lot more intimidating to start a startup like this than a recipe site.",
+      "zhMarkdown": "在那些申请 Y Combinator 来做菜谱网站的人里，大概没有谁会先问“我们是该解决支付问题，还是建个菜谱网站？”，然后选择了后者。尽管解决支付问题的点子就明晃晃地摆在眼前，他们却从未看到，因为他们的潜意识在面对其中复杂的麻烦事时退缩了。你必须和银行打交道，这要怎么做？而且你是在倒腾资金，所以必须应对欺诈，还要防范黑客入侵服务器。此外，可能还有各种各样的法规需要遵守。创办这样一家创业公司，显然比做一个菜谱网站要吓人得多。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "89d35ca8dc95a209147b637f8070781ee5d5678745bd41351c26357252d05596",
+      "enMarkdown": "That scariness makes ambitious ideas doubly valuable. In addition to their intrinsic value, they're like undervalued stocks in the sense that there's less demand for them among founders. If you pick an ambitious idea, you'll have less competition, because everyone else will have been frightened off by the challenges involved. (This is also true of starting a startup generally.)",
+      "zhMarkdown": "这种令人望而生畏的特质，让宏大的点子具有了双重价值。除了其自身的内在价值外，它们还像被低估的股票，因为创始人群体中对这类点子的需求较少。如果你选择一个宏大的点子，你的竞争对手就会变少，因为其他人都被其中的挑战吓跑了。（创办创业公司这件事本身也是如此。）"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "424cbde66dd82fc3b5b6b6e3a11e9e8183fbb66cdd6f90524869217fd1a0da20",
+      "enMarkdown": "How do you overcome schlep blindness? Frankly, the most valuable antidote to schlep blindness is probably ignorance. Most successful founders would probably say that if they'd known when they were starting their company about the obstacles they'd have to overcome, they might never have started it. Maybe that's one reason the most successful startups of all so often have young founders.",
+      "zhMarkdown": "如何克服“苦差事盲区”？坦白说，最有效的解药大概是“无知”。大多数成功的创始人可能会说，如果他们在刚创办公司时就知道未来要克服多少障碍，他们可能根本就不会开始。这或许也是为什么最成功的创业公司往往由年轻人创办的原因之一。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "dc0ea438b6f407f520ef21990c258205caa68c3ba766d3e53a11eb2de3decf25",
+      "enMarkdown": "In practice the founders grow with the problems. But no one seems able to foresee that, not even older, more experienced founders. So the reason younger founders have an advantage is that they make two mistakes that cancel each other out. They don't know how much they can grow, but they also don't know how much they'll need to. Older founders only make the first mistake.",
+      "zhMarkdown": "在实践中，创始人会随着问题一起成长。但似乎没人能预见到这一点，即便是年长、更有经验的创始人也不行。因此，年轻创始人之所以占优势，是因为他们犯了两个恰好可以相互抵消的错误：他们不知道自己能成长到什么高度，但他们也同样不知道未来需要付出多少努力。而年长的创始人往往只犯了第一个错误。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "9cdf7ad45601b0e184ebf470011405a0d2ced2368b5cb45cd8e180a1bf5083da",
+      "enMarkdown": "Ignorance can't solve everything though. Some ideas so obviously entail alarming schleps that anyone can see them. How do you see ideas like that? The trick I recommend is to take yourself out of the picture. Instead of asking \"what problem should I solve?\" ask \"what problem do I wish someone else would solve for me?\" If someone who had to process payments before Stripe had tried asking that, Stripe would have been one of the first things they wished for.",
+      "zhMarkdown": "不过，无知并不能解决所有问题。有些点子显而易见地伴随着令人头疼的苦差事，任何人都能看得出来。你该如何发现这类点子？我推荐的诀窍是把自己从局中抽离出来。不要问“我该解决什么问题？”，而是问“我希望别人帮我解决什么问题？”如果在 Stripe 出现之前，有需要处理在线支付的人尝试这样问过，Stripe 绝对会是他们最渴望出现的事物之一。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "d5e6b3ab8ecb51732c3a68d88ef7ad17955d16e6b78fcc8a06cca4b1d1aeefef",
+      "enMarkdown": "It's too late now to be Stripe, but there's plenty still broken in the world, if you know how to see it.",
+      "zhMarkdown": "现在再去做 Stripe 已经太迟了，但只要你懂得如何去发现，这个世界上依然有大把残缺不全、亟待解决的问题。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "5dce856654470b76a57ae29f822c9ebeaa55849e3f935b8c57894b0ec0003e5a",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, Aaron Iba, Jessica Livingston, Emmett Shear, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Patrick Collison、Aaron Iba、Jessica Livingston、Emmett Shear 和 Harj Taggar 阅读本篇草稿。"
+    }
+  ]
+}

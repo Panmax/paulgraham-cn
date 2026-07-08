@@ -1,0 +1,503 @@
+{
+  "slug": "future",
+  "titleEn": "The Future of Startup Funding",
+  "titleZh": "创业融资的未来",
+  "dateText": "August 2010",
+  "publishedAt": "2010-08-01",
+  "sourceOrder": 104,
+  "sourceUrl": "https://paulgraham.com/future.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "467c1a01347dc37588746178bf51b40707f8df4e7ae11cb4f6f3748dded7c506",
+      "enMarkdown": "Two years ago I [wrote](http://www.paulgraham.com/googles.html#next) about what I called \"a huge, unexploited opportunity in startup funding:\" the growing disconnect between VCs, whose current business model requires them to invest large amounts, and a large class of startups that need less than they used to. Increasingly, startups want a couple hundred thousand dollars, not a couple million. [[1](#f1n)]",
+      "zhMarkdown": "两年前，我[写过](http://www.paulgraham.com/googles.html#next)关于我所称的“创业融资中一个巨大的、尚未被开发的机遇”：即风险投资人（VC）与一大批创业公司之间日益扩大的脱节。VC 现有的商业模式要求他们必须大笔投资，而很大一部分创业公司需要的资金却比以前少得多。越来越多的创业公司想要的是几十万美元，而不是几百万美元。[[1](#f1n)]"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "64e7f7160ab14f8a2c4a0553e889caf44bac6c85b8623d7ac6e8d7c464c0c479",
+      "enMarkdown": "The opportunity is a lot less unexploited now. Investors have poured into this territory from both directions. VCs are much more likely to make angel-sized investments than they were a year ago. And meanwhile the past year has seen a dramatic increase in a new type of investor: the super-angel, who operates like an angel, but using other people's money, like a VC.",
+      "zhMarkdown": "现在，这个机遇已经不再那么“尚未被开发”了。投资者正从两个方向涌入这个领域。与一年前相比，VC 现在更有可能进行天使轮规模的投资。与此同时，过去一年里，一种新型投资者急剧增加：超级天使（super-angel）。他们的运作方式像天使投资人，但使用的却是别人的钱，就像 VC 一样。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b10d0eb851ec5ea228e0459addf251b61524c6e8bdf6aa4491c6cca42bc597fe",
+      "enMarkdown": "Though a lot of investors are entering this territory, there is still room for more. The distribution of investors should mirror the distribution of startups, which has the usual power law dropoff. So there should be a lot more people investing tens or hundreds of thousands than millions. [[2](#f2n)]",
+      "zhMarkdown": "虽然有很多投资者正在进入这个领域，但依然有容纳更多人的空间。投资者的分布应该与创业公司的分布相镜像，后者遵循典型的幂律分布。因此，投资几万或几十万美元的人，应该比投资几百万美元的人多得多。[[2](#f2n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a8bb0615bffd0b8ba6dbb34dba3611131b9c453611195dc898a975319522ac2b",
+      "enMarkdown": "In fact, it may be good for angels that there are more people doing angel-sized deals, because if angel rounds become more legitimate, then startups may start to opt for angel rounds even when they could, if they wanted, raise series A rounds from VCs. One reason startups prefer series A rounds is that they're more prestigious. But if angel investors become more active and better known, they'll increasingly be able to compete with VCs in brand.",
+      "zhMarkdown": "事实上，有更多人做天使轮规模的交易对天使投资人来说可能是件好事。因为如果天使轮变得更正规、更主流，那么创业公司可能会开始主动选择天使轮，即使他们本可以（如果他们想的话）从 VC 那里融到 A 轮。创业公司更倾向于 A 轮的一个原因在于 A 轮更有面子。但如果天使投资人变得更活跃、名气更大，他们就越来越能在品牌上与 VC 竞争。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "bc8bf0965aa2b94335cd8fac3d5f4f2e3a75b348f3f24c7054e3d4ceadec9cd9",
+      "enMarkdown": "Of course, prestige isn't the main reason to prefer a series A round. A startup will probably get more attention from investors in a series A round than an angel round. So if a startup is choosing between an angel round and an A round from a good VC fund, I usually advise them to take the A round. [[3](#f3n)]",
+      "zhMarkdown": "当然，面子并不是倾向于 A 轮的主要原因。创业公司在 A 轮中可能会比在天使轮中获得投资者更多的关注。因此，如果一家创业公司在天使轮和来自优秀 VC 基金的 A 轮之间做选择，我通常会建议他们拿 A 轮。[[3](#f3n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "b98a7d3aec53752a406298d2bce41742016f7f41d8287206a8d0e128adea221b",
+      "enMarkdown": "But while series A rounds aren't going away, I think VCs should be more worried about super-angels than vice versa. Despite their name, the super-angels are really mini VC funds, and they clearly have existing VCs in their sights.",
+      "zhMarkdown": "不过，虽然 A 轮融资不会消失，但我认为 VC 应该比天使投资人更担心超级天使，而不是相反。超级天使虽然名字叫“天使”，但实际上是微型 VC 基金，而且他们显然已经把现有的 VC 视作竞争对手了。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "679b82abd712e1bf3ea98aecb48e5c717d463e09d895f62161345b69890d4e98",
+      "enMarkdown": "They would seem to have history on their side. The pattern here seems the same one we see when startups and established companies enter a new market. Online video becomes possible, and YouTube plunges right in, while existing media companies embrace it only half-willingly, driven more by fear than hope, and aiming more to protect their turf than to do great things for users. Ditto for PayPal. This pattern is repeated over and over, and it's usually the invaders who win. In this case the super-angels are the invaders. Angel rounds are their whole business, as online video was for YouTube. Whereas VCs who make angel investments mostly do it as a way to generate deal flow for series A rounds. [[4](#f4n)]",
+      "zhMarkdown": "历史似乎站在了超级天使这一边。这里的模式与我们看到创业公司和老牌企业进入新市场时一模一样。在线视频变得可行时，YouTube 毫不犹豫地冲了进去，而现有的媒体公司只是半推半就地接受它，驱使他们的更多是恐惧而非希望，其目的更多是为了保住自己的地盘，而不是为用户做伟大的事情。PayPal 也是如此。这种模式一次又一次地重复，而获胜的通常是入侵者。在这种情况下，超级天使就是入侵者。天使轮是他们的全部业务，就像在线视频之于 YouTube 一样。而做天使投资的 VC，大多只是为了给 A 轮融资制造项目源（deal flow）。[[4](#f4n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4c950e1d74863d6bea45835c46148cf123002d874afcd8c0e5db55102a5c9646",
+      "enMarkdown": "On the other hand, startup investing is a very strange business. Nearly all the returns are concentrated in a few big winners. If the super-angels merely fail to invest in (and to some extent produce) the big winners, they'll be out of business, even if they invest in all the others.",
+      "zhMarkdown": "但另一方面，创业投资是一门非常奇特的生意。几乎所有的回报都集中在少数几个超级大赢家身上。如果超级天使仅仅是没能投资（并在某种程度上培育）出那些超级大赢家，那么即使他们投资了所有其他公司，他们也会倒闭。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "0d0319fff87a89be2e4d13e778262ea68cffa004d2821055d55c2b0d18743baa",
+      "enMarkdown": "**VCs**",
+      "zhMarkdown": "**风险投资人（VC）**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "03926300f69f9a9ff310b165a3c44ce8e9e8ead194413b9e63a0d2149fa4237d",
+      "enMarkdown": "Why don't VCs start doing smaller series A rounds? The sticking point is board seats. In a traditional series A round, the partner whose deal it is takes a seat on the startup's board. If we assume the average startup runs for 6 years and a partner can bear to be on 12 boards at once, then a VC fund can do 2 series A deals per partner per year.",
+      "zhMarkdown": "为什么 VC 不开始做规模小一点的 A 轮融资呢？症结在于董事会席位。在传统的 A 轮融资中，负责这笔交易的合伙人会在创业公司的董事会中占一个席位。如果我们假设一家创业公司平均运营 6 年，而一名合伙人同时最多能忍受担任 12 家公司的董事，那么一个 VC 基金每年每个合伙人只能做 2 笔 A 轮交易。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "39fbb0f363e60854fe86a2d7e9f7e6f28e6eda09e1fad4bfdc740c22f1f9f844",
+      "enMarkdown": "It has always seemed to me the solution is to take fewer board seats. You don't have to be on the board to help a startup. Maybe VCs feel they need the power that comes with board membership to ensure their money isn't wasted. But have they tested that theory? Unless they've tried not taking board seats and found their returns are lower, they're not bracketing the problem.",
+      "zhMarkdown": "在我看来，解决方案一向是少拿董事会席位。你不需要进入董事会也能帮助创业公司。也许 VC 觉得他们需要董事会成员身份带来的权力，以确保他们的钱不被浪费。但他们验证过这个理论吗？除非他们尝试过不拿董事会席位并发现回报率降低了，否则他们就没有真正摸清这个问题的边界。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "c3600af714bb7d8e7ff99745040fcda0f0c281da8510bfbc60be1fb54441c1c6",
+      "enMarkdown": "I'm not saying VCs don't help startups. The good ones help them a lot. What I'm saying is that the kind of help that matters, you may not have to be a board member to give. [[5](#f5n)]",
+      "zhMarkdown": "我并不是说 VC 帮不上创业公司。优秀的 VC 对他们的帮助非常大。我想说的是，那种真正起作用的帮助，你可能不需要成为董事会成员就能提供。[[5](#f5n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c3b58b7d4ad31aa97eb4650468cab18cfda7ee7f6db51a0dd20d55aa9cbdbcd7",
+      "enMarkdown": "How will this all play out? Some VCs will probably adapt, by doing more, smaller deals. I wouldn't be surprised if by streamlining their selection process and taking fewer board seats, VC funds could do 2 to 3 times as many series A rounds with no loss of quality.",
+      "zhMarkdown": "这一切将如何发展？一些 VC 可能会通过做更多、更小规模的交易来适应。如果 VC 基金通过简化筛选流程和减少董事会席位，在不降低质量的前提下，将 A 轮融资的数量提高 2 到 3 倍，我一点也不会感到惊讶。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "5295f11b12d67596bb6eb7d7fe8dd073877bbf7fb67c74c15245e6a6193f32c0",
+      "enMarkdown": "But other VCs will make no more than superficial changes. VCs are conservative, and the threat to them isn't mortal. The VC funds that don't adapt won't be violently displaced. They'll edge gradually into a different business without realizing it. They'll still do what they will call series A rounds, but these will increasingly be de facto series B rounds. [[6](#f6n)]",
+      "zhMarkdown": "但其他 VC 只会做出流于表面的改变。VC 是保守的，而且他们面临的威胁并非致命的。那些不愿适应的 VC 基金不会被暴力取代。他们会在不知不觉中逐渐退入另一种业务。他们依然会做他们称之为 A 轮的融资，但这在事实上将越来越演变为 B 轮融资。[[6](#f6n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "60cf717ddff77cc3770e229458e8271e235e330b018325f6bb52447c757c96ee",
+      "enMarkdown": "In such rounds they won't get the 25 to 40% of the company they do now. You don't give up as much of the company in later rounds unless something is seriously wrong. Since the VCs who don't adapt will be investing later, their returns from winners may be smaller. But investing later should also mean they have fewer losers. So their ratio of risk to return may be the same or even better. They'll just have become a different, more conservative, type of investment.",
+      "zhMarkdown": "在这样的轮次中，他们拿不到现在能拿到的 25% 到 40% 的公司股份。除非公司出了严重问题，否则在后面的轮次中，你不会让出那么大比例的股份。由于不愿适应的 VC 会在更晚的阶段进行投资，他们从赢家身上获得的回报可能会变小。但更晚的投资也意味着他们踩雷的概率更低。因此，他们的风险回报比可能保持不变，甚至更好。他们只是变成了一种不同、且更保守的投资类型。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "75b6aa8578147794e70b6b3254eda4236a460bd565effaab1d17c98396c7e5a6",
+      "enMarkdown": "**Angels**",
+      "zhMarkdown": "**天使投资人**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "3017bb18ef06ecccdb95d4361aee07d2eabcbbaebff840fbee0ff28b960be6ea",
+      "enMarkdown": "In the big angel rounds that increasingly compete with series A rounds, the investors won't take as much equity as VCs do now. And VCs who try to compete with angels by doing more, smaller deals will probably find they have to take less equity to do it. Which is good news for founders: they'll get to keep more of the company.",
+      "zhMarkdown": "在越来越多与 A 轮竞争的大型天使轮融资中，投资者不会像现在的 VC 那样拿走那么多股权。而那些试图通过做更多、更小规模交易来与天使抗衡的 VC，可能会发现他们也必须接受更少的股权。这对创始人来说是个好消息：他们可以保留更多公司的股份。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "56fddb4f9513fc26c3b17e208abe8fd9c7c829bae42b0043fee5b281393788b1",
+      "enMarkdown": "The deal terms of angel rounds will become less restrictive too—not just less restrictive than series A terms, but less restrictive than angel terms have traditionally been.",
+      "zhMarkdown": "天使轮的交易条款也将变得不那么苛刻——不仅比 A 轮条款宽松，而且比传统的天使轮条款还要宽松。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "0ae7fa43fddb148ba0a75b752fd4a6e1af7c122fba0eccfd7ea446e98f2d592d",
+      "enMarkdown": "In the future, angel rounds will less often be for specific amounts or have a lead investor. In the old days, the standard m.o. for startups was to find one angel to act as the lead investor. You'd negotiate a round size and valuation with the lead, who'd supply some but not all of the money. Then the startup and the lead would cooperate to find the rest.",
+      "zhMarkdown": "在未来，天使轮将不再那么频繁地要求特定的融资金额，或必须有一个领投人。在过去，创业公司的标准做法是找一个天使投资人来担任领投人。你会和领投人谈判融资规模和估值，领投人会提供一部分资金，但不是全部。然后，创业公司和领投人会共同合作寻找剩下的资金。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "117006630967ff7a87126042c2cd8e24e159c1c3d591ed01758376a983ac15d2",
+      "enMarkdown": "The future of angel rounds looks more like this: instead of a fixed round size, startups will do a rolling close, where they take money from investors one at a time till they feel they have enough. [[7](#f7n)] And though there's going to be one investor who gives them the first check, and his or her help in recruiting other investors will certainly be welcome, this initial investor will no longer be the lead in the old sense of managing the round. The startup will now do that themselves.",
+      "zhMarkdown": "未来天使轮的形式更像是这样：不再有固定的融资规模，创业公司将采用“滚动交割”（rolling close），他们逐个接受投资者的资金，直到他们觉得拿够了为止。[[7](#f7n)] 虽然仍会有一个投资者给出第一张支票，而他或她帮助招募其他投资者的举动当然会受到欢迎，但这个初始投资者将不再是过去那种负责管理整个轮次的领投人。现在，创业公司将自己来主导这一切。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "e4851a20a2606fa26ae83cc471351d7d690d9ad0d84e6654143f411b9747ae26",
+      "enMarkdown": "There will continue to be lead investors in the sense of investors who take the lead in *advising* a startup. They may also make the biggest investment. But they won't always have to be the one terms are negotiated with, or be the first money in, as they have in the past. Standardized paperwork will do away with the need to negotiate anything except the valuation, and that will get easier too.",
+      "zhMarkdown": "在“为创业公司提供核心建议”这个意义上，领投人依然会存在。他们也可能做出最大的一笔投资。但他们不一定再像过去那样，必须是那个去谈判条款的人，或者必须是第一个把钱打进来的人。标准化的法律文件将免去除了估值之外的一切谈判，而估值也会变得更加容易。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "7695d6c9aa87fa05d980e8cf75ea0852976ee162b50719f1a6409147003e4aeb",
+      "enMarkdown": "If multiple investors have to share a valuation, it will be whatever the startup can get from the first one to write a check, limited by their guess at whether this will make later investors balk. But there may not have to be just one valuation. Startups are increasingly raising money on convertible notes, and convertible notes have not valuations but at most valuation *caps*: caps on what the effective valuation will be when the debt converts to equity (in a later round, or upon acquisition if that happens first). That's an important difference because it means a startup could do multiple notes at once with different caps. This is now starting to happen, and I predict it will become more common.",
+      "zhMarkdown": "如果多个投资者必须共享一个估值，那么这个估值就是创业公司从第一个写支票的人那里拿到的价格，受限于他们对“这是否会让后面的投资者望而却步”的猜测。但估值可能不一定只有一个。创业公司越来越多地通过可转债（convertible notes）融资，而可转债没有估值，最多只有估值上限（caps）：即债务转换为股权时（在后期的融资轮中，或者如果先发生收购的话）的实际估值上限。这是一个重要的区别，因为这意味着创业公司可以同时发行多份具有不同估值上限的可转债。这现在已经开始发生，我预测它会变得更加普遍。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "838500f4602af476cc54724cf2d72b333f41f47c410e277eebba8e1920e73693",
+      "enMarkdown": "**Sheep**",
+      "zhMarkdown": "**羊群**"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "78051125b3430cff63f7c0b570d09070ddba0a8a167737de4ee38bf683e20e1e",
+      "enMarkdown": "The reason things are moving this way is that the old way sucked for startups. Leads could (and did) use a fixed size round as a legitimate-seeming way of saying what all founders hate to hear: I'll invest if other people will. Most investors, unable to judge startups for themselves, rely instead on the opinions of other investors. If everyone wants in, they want in too; if not, not. Founders hate this because it's a recipe for deadlock, and delay is the thing a startup can least afford. Most investors know this m.o. is lame, and few say openly that they're doing it. But the craftier ones achieve the same result by offering to lead rounds of fixed size and supplying only part of the money. If the startup can't raise the rest, the lead is out too. How could they go ahead with the deal? The startup would be underfunded!",
+      "zhMarkdown": "事情之所以朝这个方向发展，是因为旧的方式对创业公司来说太糟糕了。领投人可以（也确实经常）利用固定规模的融资，作为一种看似正当的方式，来说出所有创始人最讨厌听到的话：如果别人投，我就投。大多数投资者自己无法判断创业公司的好坏，只能依赖其他投资者的意见。如果大家都想进，他们也想进；如果大家都不进，他们也不进。创始人讨厌这一点，因为这是导致僵局的药方，而拖延是创业公司最负担不起的事情。大多数投资者都知道这种做法很挫，很少有人公开承认自己是这么做的。但更精明的投资者会通过提议领投固定规模的轮次，且只提供一部分资金来达到同样的效果。如果创业公司融不到剩下的钱，领投人也顺理成章地退出。他们怎么能继续这笔交易呢？创业公司资金不足啊！"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "69128ac008eb6bb6f4a4741d50ff3a11241300138b17fc8f60bb3823d45f57c9",
+      "enMarkdown": "In the future, investors will increasingly be unable to offer investment subject to contingencies like other people investing. Or rather, investors who do that will get last place in line. Startups will go to them only to fill up rounds that are mostly subscribed. And since hot startups tend to have rounds that are oversubscribed, being last in line means they'll probably miss the hot deals. Hot deals and successful startups are not identical, but there is a significant correlation. [[8](#f8n)] So investors who won't invest unilaterally will have lower returns.",
+      "zhMarkdown": "在未来，投资者将越来越无法提供带有“别人也投资”这类前提条件的投资方案。或者说，这样做的投资者将被排在队伍的最后。创业公司只有在额度快被认购完毕、需要填满额度时才会去找他们。既然热门的创业公司往往会出现超额认购，排在队伍最后就意味着他们很可能会错过这些热门交易。热门交易和成功的创业公司并不完全等同，但存在显著的正相关。[[8](#f8n)] 因此，那些不愿单方面投资的投资者，其回报率将会较低。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "7d491e1e76aab1c9838008cfeb4a64b9ba8355fbbdb9852066d6b685a38c525c",
+      "enMarkdown": "Investors will probably find they do better when deprived of this crutch anyway. Chasing hot deals doesn't make investors choose better; it just makes them feel better about their choices. I've seen feeding frenzies both form and fall apart many times, and as far as I can tell they're mostly random. [[9](#f9n)] If investors can no longer rely on their herd instincts, they'll have to think more about each startup before investing. They may be surprised how well this works.",
+      "zhMarkdown": "不管怎样，投资者可能会发现，在失去这个拐杖后，他们反而会做得更好。追逐热门交易并不能让投资者做出更好的选择，这只是让他们对自己的选择感到更安心。我多次看到抢额度的狂热形成又破裂，据我所知，这其中大部分是随机的。[[9](#f9n)] 如果投资者不再能依赖他们的从众本能，他们就必须在投资前对每家创业公司进行更深入的思考。他们可能会惊讶于这样做的效果有多好。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "7a38999e47ae5bcb5fd323fb476cd1c3d43ce8971fa4216581a7be9a4a19d3ce",
+      "enMarkdown": "Deadlock wasn't the only disadvantage of letting a lead investor manage an angel round. The investors would not infrequently collude to push down the valuation. And rounds took too long to close, because however motivated the lead was to get the round closed, he was not a tenth as motivated as the startup.",
+      "zhMarkdown": "让领投人管理天使轮，其弊端不仅在于导致僵局。投资者还经常联合起来压低估值。而且融资需要太长时间才能完成，因为无论领投人多么有动力去完成这轮融资，他的动力也赶不上创业公司的十分之一。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "91e476ed8c51086d4334c90e2bd358a968815a4ce733dd4ad37e5a4657cf54d2",
+      "enMarkdown": "Increasingly, startups are taking charge of their own angel rounds. Only a few do so far, but I think we can already declare the old way dead, because those few are the best startups. They're the ones in a position to tell investors how the round is going to work. And if the startups you want to invest in do things a certain way, what difference does it make what the others do?",
+      "zhMarkdown": "越来越多的创业公司正在自己掌控天使轮融资。目前虽然只有少数公司这样做，但我认为我们已经可以宣告旧方式的死亡，因为这少数公司正是最优秀的那批创业公司。他们有能力告诉投资者这轮融资将如何运作。如果你想投资的创业公司都按某种方式行事，那么其他公司怎么做又有什么关系呢？"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "f50b6bb41c86bf5243e0d0d61bfe614ad6b48235f2e5da3515b4ae49c47d7d97",
+      "enMarkdown": "**Traction**",
+      "zhMarkdown": "**掌控力**"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "1cede5fec560403acab917921f8cd1b51a358caf7dce7e4ec9c68c1df5ffa16a",
+      "enMarkdown": "In fact, it may be slightly misleading to say that angel rounds will increasingly take the place of series A rounds. What's really happening is that startup-controlled rounds are taking the place of investor-controlled rounds.",
+      "zhMarkdown": "事实上，说天使轮将越来越多地取代 A 轮可能有些误导。真正发生的是，由创业公司主导的融资轮正在取代由投资者主导的融资轮。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "cd2db9b257fb2156c3f160743365eb850f2366f4b5b092f28fa41435de6fb5e2",
+      "enMarkdown": "This is an instance of a very important meta-trend, one that Y Combinator itself has been based on from the beginning: founders are becoming increasingly powerful relative to investors. So if you want to predict what the future of venture funding will be like, just ask: how would founders like it to be? One by one, all the things founders dislike about raising money are going to get eliminated. [[10](#f10n)]",
+      "zhMarkdown": "这是一个非常重要的元趋势的体现，而 Y Combinator 本身从一开始就是建立在这一趋势之上的：相对于投资者，创始人的话语权正变得越来越强。因此，如果你想预测创业融资的未来会是怎样，只需问一句：创始人希望它是什么样？创始人讨厌融资的那些地方，将会被一个接一个地消灭。[[10](#f10n)]"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "c29778b91b3cf61692623dc6affa04ac69290c63505d0eca87412b060cbbec54",
+      "enMarkdown": "Using that heuristic, I'll predict a couple more things. One is that investors will increasingly be unable to wait for startups to have \"traction\" before they put in significant money. It's hard to predict in advance which startups will succeed. So most investors prefer, if they can, to wait till the startup is already succeeding, then jump in quickly with an offer. Startups hate this as well, partly because it tends to create deadlock, and partly because it seems kind of slimy. If you're a promising startup but don't yet have significant growth, all the investors are your friends in words, but few are in actions. They all say they love you, but they all wait to invest. Then when you start to see growth, they claim they were your friend all along, and are aghast at the thought you'd be so disloyal as to leave them out of your round. If founders become more powerful, they'll be able to make investors give them more money upfront.",
+      "zhMarkdown": "利用这个推导法则，我还可以预测另外几件事。一是投资者将越来越无法等到创业公司有了“业务起色”（traction）才投入大笔资金。提前预测哪家创业公司会成功是很难的。因此，大多数投资者更愿意（如果可以的话）等到创业公司已经开始成功时，再迅速介入并提供报价。创业公司同样讨厌这一点，部分原因在于这容易造成僵局，另一部分原因在于这显得有些市侩。如果你是一家有前途但还没有显著增长的创业公司，所有的投资者在口头上都是你的朋友，但很少有人付诸行动。他们都说爱你，但都在观望。然后，当你开始看到增长时，他们又声称自己一直是你的朋友，并且对于你竟然“不忠诚”地把他们排除在融资轮之外感到震惊。如果创始人变得更强大，他们就能迫使投资者在前期就给出更多资金。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "23ceada0b89ca788879c7d9c80a4d8927719fae7d4ee1eae25bc9f0c0921d225",
+      "enMarkdown": "(The worst variant of this behavior is the tranched deal, where the investor makes a small initial investment, with more to follow if the startup does well. In effect, this structure gives the investor a free option on the next round, which they'll only take if it's worse for the startup than they could get in the open market. Tranched deals are an abuse. They're increasingly rare, and they're going to get rarer.) [[11](#f11n)]",
+      "zhMarkdown": "（这种行为最糟糕的变体是“分期投资”交易，即投资者先进行一笔小额的初始投资，如果创业公司表现好再追加资金。实际上，这种结构给了投资者在下一轮融资中的免费选择权，他们只有在条款比创业公司在公开市场上能拿到的更差时才会行权。分期投资交易是一种剥削。它们正变得越来越罕见，而且会变得更加罕见。）[[11](#f11n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "a60ff8b1bbe9f98cf5186ee8676bee772322513b6a54fe7b347f230fc40c2495",
+      "enMarkdown": "Investors don't like trying to predict which startups will succeed, but increasingly they'll have to. Though the way that happens won't necessarily be that the behavior of existing investors will change; it may instead be that they'll be replaced by other investors with different behavior—that investors who understand startups well enough to take on the hard problem of predicting their trajectory will tend to displace suits whose skills lie more in raising money from LPs.",
+      "zhMarkdown": "投资者不喜欢预测哪家创业公司会成功，但他们将越来越不得不这样做。不过，这种情况发生的方式不一定是现有投资者的行为发生改变，而可能是他们被行为不同的其他投资者所取代——那些足够了解创业公司、能够承担起预测其发展轨迹这一难题的投资者，将趋向于取代那些技能主要在于向 LP（有限合伙人）募资的“西装革履者”。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "2f4afdd315bae8c6f8d5999a380c3bf321f2cea22c5f4d21f7f5b94e3c9cdd14",
+      "enMarkdown": "**Speed**",
+      "zhMarkdown": "**速度**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "69b1962f77f7462ee45bcd37030c5249396652296c36077da6fa34e9769516c4",
+      "enMarkdown": "The other thing founders hate most about fundraising is how long it takes. So as founders become more powerful, rounds should start to close faster.",
+      "zhMarkdown": "创始人最讨厌融资的另一件事就是耗时太长。因此，随着创始人变得更强大，融资轮的交割速度应该会变得更快。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "0f268a1a332f37ae346a0cd01c6bff50b7fd8ced0e894e89caa2eb399258b77d",
+      "enMarkdown": "Fundraising is still terribly distracting for startups. If you're a founder in the middle of raising a round, the round is the [top idea in your mind](https://paulgraham.com/top.html), which means working on the company isn't. If a round takes 2 months to close, which is reasonably fast by present standards, that means 2 months during which the company is basically treading water. That's the worst thing a startup could do.",
+      "zhMarkdown": "融资对创业公司来说依然极其分散精力。如果你是一个正处于融资过程中的创始人，融资就是你[脑子里最关注的事情](https://paulgraham.com/top.html)，这意味着你无法专注在公司业务上。如果一轮融资需要 2 个月才能完成（这按现在的标准已经算快了），那就意味着有 2 个月的时间公司基本上是在原地踏步。这是创业公司能做的最糟糕的事。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "eb09ca45de80b3f2e5906eb62743c0872dd8f6f6554b734c39cea0660985f26c",
+      "enMarkdown": "So if investors want to get the best deals, the way to do it will be to close faster. Investors don't need weeks to make up their minds anyway. We decide based on about 10 minutes of reading an application plus 10 minutes of in person interview, and we only regret about 10% of our decisions. If we can decide in 20 minutes, surely the next round of investors can decide in a couple days. [[12](#f12n)]",
+      "zhMarkdown": "因此，如果投资者想要拿到最好的案子，方法就是加快交割速度。反正投资者也不需要花几个星期来做决定。我们做决定只需要花大约 10 分钟阅读申请表，外加 10 分钟的面对面面试，而我们后悔的决定只有大约 10%。如果我们能在 20 分钟内做决定，那么下一轮的投资者肯定能在几天内做出决定。[[12](#f12n)]"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8c26ce1dcd5c5493dc05d1e32a2a81027ff25a49effa1f84df39710fb7acdb0f",
+      "enMarkdown": "There are a lot of institutionalized delays in startup funding: the multi-week mating dance with investors; the distinction between termsheets and deals; the fact that each series A has enormously elaborate, custom paperwork. Both founders and investors tend to take these for granted. It's the way things have always been. But ultimately the reason these delays exist is that they're to the advantage of investors. More time gives investors more information about a startup's trajectory, and it also tends to make startups more pliable in negotiations, since they're usually short of money.",
+      "zhMarkdown": "创业融资中存在许多制度化的拖延：与投资者长达数周的“相亲舞步”；意向书（termsheet）与最终交易之间的界限；以及每一笔 A 轮融资都极其繁琐、定制化的法律文件。创始人和投资者往往都认为这些是理所当然的。事情一向如此。但归根结底，这些延迟之所以存在，是因为它们对投资者有利。更多的时间能让投资者获得更多关于创业公司发展轨迹的信息，而且由于创业公司通常缺钱，这也往往使创始人在谈判中更容易妥协。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "6ee00a25d993fe75c06f2142dab33487eb54f49c82ff75390730898c3a9ff5fa",
+      "enMarkdown": "These conventions weren't designed to drag out the funding process, but that's why they're allowed to persist. Slowness is to the advantage of investors, who have in the past been the ones with the most power. But there is no need for rounds to take months or even weeks to close, and once founders realize that, it's going to stop. Not just in angel rounds, but in series A rounds too. The future is simple deals with standard terms, done quickly.",
+      "zhMarkdown": "这些惯例最初并不是为了拖延融资过程而设计的，但这就是它们得以保留的原因。慢速对投资者有利，而他们过去是拥有最大权力的一方。但是，融资完全没有必要花费数月甚至数周的时间来交割，一旦创始人意识到这一点，这种现象就会停止。不仅在天使轮，在 A 轮融资中也是如此。未来将是条款标准、操作简单、快速搞定的交易。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "d39b79636a071433c5b705a0e8fd23c918da13a840db4856c712c2a21dba55a9",
+      "enMarkdown": "One minor abuse that will get corrected in the process is option pools. In a traditional series A round, before the VCs invest they make the company set aside a block of stock for future hires—usually between 10 and 30% of the company. The point is to ensure this dilution is borne by the existing shareholders. The practice isn't dishonest; founders know what's going on. But it makes deals unnecessarily complicated. In effect the valuation is 2 numbers. There's no need to keep doing this. [[13](#f13n)]",
+      "zhMarkdown": "在这个过程中，一个会被纠正的小弊端是期权池。在传统的 A 轮融资中，在 VC 投资之前，他们会要求公司为未来的员工预留一部分股票——通常在公司股份的 10% 到 30% 之间。其目的是确保这种稀释由现有股东承担。这种做法并非不诚实，创始人心里很清楚。但这让交易变得不必要地复杂。实际上，估值变成了两个数字。没有必要继续这样做了。[[13](#f13n)]"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "f435048529bd5a08f6fac99b5f9b67e0c27635c649edfe84c5e7e02bd4906b38",
+      "enMarkdown": "The final thing founders want is to be able to sell some of their own stock in later rounds. This won't be a change, because the practice is now quite common. A lot of investors hated the idea, but the world hasn't exploded as a result, so it will happen more, and more openly.",
+      "zhMarkdown": "创始人想要的最后一件事，是能够在后续轮次中套现一部分自己的股票。这算不上什么新变化，因为这种做法现在已经相当普遍了。许多投资者曾经讨厌这个想法，但世界并没有因此毁灭，所以这会发生得更多，也更加公开。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "2cbc5bd9dd166ec0711be142da1b9c77afe6d4840d311cb2e5c66bf9ad155c83",
+      "enMarkdown": "**Surprise**",
+      "zhMarkdown": "**惊喜**"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "712d654eb580536502c460b373140f2a29322d286dd7085e658396bc546a5da4",
+      "enMarkdown": "I've talked here about a bunch of changes that will be forced on investors as founders become more powerful. Now the good news: investors may actually make more money as a result.",
+      "zhMarkdown": "我在这里谈到了一系列随着创始人权力变大而迫使投资者做出的改变。现在说个好消息：投资者实际上可能会因此赚到更多的钱。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "d404cc17a0ef8745a52e903220e2eea01ca2a9a0287c47d9f5ffce4184721920",
+      "enMarkdown": "A couple days ago an interviewer [asked \nme](http://techcrunch.tv/watch?id=Q3amZtMTryrpiP80cbUtsV2ah92eZP2m) if founders having more power would be better or worse for the world. I was surprised, because I'd never considered that question. Better or worse, it's happening. But after a second's reflection, the answer seemed obvious. Founders understand their companies better than investors, and it has to be better if the people with more knowledge have more power.",
+      "zhMarkdown": "几天前，一位采访者[问我](http://techcrunch.tv/watch?id=Q3amZtMTryrpiP80cbUtsV2ah92eZP2m)，创始人拥有更多权力对世界来说是好事还是坏事。我很惊讶，因为我从未考虑过这个问题。不管好坏，它正在发生。但转念一想，答案似乎显而易见。创始人比投资者更了解自己的公司，如果拥有更多知识的人拥有更多权力，那一定会更好。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "3e0b62a52879142e3c2a1e8a8624b1ebb2f9b24225936ec1d1c5f3ab2730c0b0",
+      "enMarkdown": "One of the mistakes novice pilots make is overcontrolling the aircraft: applying corrections too vigorously, so the aircraft oscillates about the desired configuration instead of approaching it asymptotically. It seems probable that investors have till now on average been overcontrolling their portfolio companies. In a lot of startups, the biggest source of stress for the founders is not competitors but investors. Certainly it was for us at Viaweb. And this is not a new phenomenon: investors were James Watt's biggest problem too. If having less power prevents investors from overcontrolling startups, it should be better not just for founders but for investors too.",
+      "zhMarkdown": "新手飞行员常犯的错误之一是“过度控制”飞机：纠正动作过于猛烈，导致飞机在期望的姿态附近剧烈震荡，而不是逐渐平稳地接近它。到目前为止，投资者平均而言很可能一直在过度控制他们的投资组合公司。在许多创业公司中，创始人最大的压力来源不是竞争对手，而是投资者。对于我们在 Viaweb 时来说，确实如此。这并不是什么新鲜现象：投资者也是詹姆斯·瓦特（James Watt）最大的问题。如果减少权力能防止投资者过度控制创业公司，这不仅对创始人更好，对投资者也更好。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "1f2002332f6435306b95436f84d43beaff6903a3824499eed0b7af6f3c44e94a",
+      "enMarkdown": "Investors may end up with less stock per startup, but startups will probably do better with founders more in control, and there will almost certainly be more of them. Investors all compete with one another for deals, but they aren't one another's main competitor. Our main competitor is employers. And so far that competitor is crushing us. Only a tiny fraction of people who could start a startup do. Nearly all customers choose the competing product, a job. Why? Well, let's look at the product we're offering. An unbiased review would go something like this:",
+      "zhMarkdown": "投资者最终在每家创业公司持有的股份可能会减少，但如果创始人拥有更多控制权，创业公司可能会发展得更好，而且几乎肯定会出现更多创业公司。投资者之间都在为争夺项目而竞争，但他们彼此并不是最主要的竞争对手。我们最主要的竞争对手是雇主。而到目前为止，这个竞争对手正在碾压我们。在有能力创办创业公司的人群中，只有极少一部分人真正去做了。几乎所有的客户都选择了竞争对手的产品——一份工作。为什么？好吧，让我们来看看我们提供的产品。一个客观的评价大概是这样的："
+    },
+    {
+      "id": 48,
+      "type": "quote",
+      "sourceHash": "346c82579775dc84e1d05c7db0806154d4cf686d410e964e774c631d2f19bf34",
+      "enMarkdown": "> Starting a startup gives you more freedom and the opportunity to make a lot more money than a job, but it's also hard work and at times very stressful.",
+      "zhMarkdown": "> 创办一家创业公司比打工给你带来更多的自由和赚大钱的机会，但它也是一件苦差事，有时压力极大。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "81d53b9b95414ce2d4c27d1e2cf5e02b34df20ce2d22fc206f6484f9b22b900c",
+      "enMarkdown": "Much of the stress comes from dealing with investors. If reforming the investment process removed that stress, we'd make our product much more attractive. The kind of people who make good startup founders don't mind dealing with technical problems—they enjoy technical problems—but they hate the type of problems investors cause.",
+      "zhMarkdown": "大部分压力来自与投资者打交道。如果改革投资流程能消除这种压力，我们的产品就会变得更有吸引力。那些适合做创业公司创始人的人并不介意处理技术问题——他们享受技术问题——但他们讨厌投资者带来的那种问题。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "bed88b6726e1dbe364e321fa44731869df9e9b26817f0789b2bee7a7ffd61a28",
+      "enMarkdown": "Investors have no idea that when they maltreat one startup, they're preventing 10 others from happening, but they are. Indirectly, but they are. So when investors stop trying to squeeze a little more out of their existing deals, they'll find they're net ahead, because so many more new deals appear.",
+      "zhMarkdown": "投资者根本不知道，当他们虐待一家创业公司时，他们其实是在阻止另外 10 家创业公司的诞生，但事实确实如此。间接地，但确实如此。因此，当投资者不再试图从现有的交易中榨取更多利益时，他们会发现自己整体上是赚的，因为会出现多得多的新交易。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "2422e42066b7f94b00d2d1bd065e122ec51b513518fbaef372c9d481482183ec",
+      "enMarkdown": "One of our axioms at Y Combinator is not to think of deal flow as a zero-sum game. Our main focus is to encourage more startups to happen, not to win a larger share of the existing stream. We've found this principle very useful, and we think as it spreads outward it will help later stage investors as well.",
+      "zhMarkdown": "我们在 Y Combinator 的一条公理是，不要把项目源看作是一个零和博弈。我们的主要焦点是鼓励更多创业公司的诞生，而不是在现有的蛋糕中争夺更大的份额。我们发现这个原则非常有用，并且我们相信，随着这一理念的传播，它也会对后期投资者有所帮助。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "2aeba5953da683a2220098467edd3b5566dc5fd79f2a01c32a0a103892d12f4c",
+      "enMarkdown": "\"Make something people want\" applies to us too.",
+      "zhMarkdown": "“做出人们想要的东西”同样适用于我们。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "af692eb8d2f5fbe0f48480d32a3b64033aadcf4cd23785d14c5d8a8fc197ed0d",
+      "enMarkdown": "[1] In this essay I'm talking mainly about software startups. These points don't apply to types of startups that are still expensive to start, e.g. in energy or biotech.",
+      "zhMarkdown": "[1] 在本文中，我主要讨论的是软件创业公司。这些观点不适用于那些创业成本依然高昂的公司，例如能源或生物技术领域。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "efd08075087e43e82554cb1e9f06de79bd5df0f89e2cef1dbbe773eeb693a197",
+      "enMarkdown": "Even the cheap kinds of startups will generally raise large amounts at some point, when they want to hire a lot of people. What has changed is how much they can get done before that.",
+      "zhMarkdown": "即使是成本低廉的创业公司，通常在某个阶段想要雇佣大量员工时，也会融大笔资金。改变的是，在此之前他们能把事情做到什么程度。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "15dce2c70fbf1605716c93aa1be417ed8e186c496a2e7e08986b8e0635faf31a",
+      "enMarkdown": "[2] It's not the distribution of good startups that has a power law dropoff, but the distribution of potentially good startups, which is to say, good deals. There are lots of potential winners, from which a few actual winners emerge with superlinear certainty.",
+      "zhMarkdown": "[2] 遵循幂律分布的不是优秀创业公司的分布，而是有潜力的创业公司的分布，也就是说，好的交易。存在许多潜在的赢家，从中以超线性确定性涌现出少数真正的赢家。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "35bb9312edb8ff2dea74e77fcb6874ae31ff90b4189354ad3db59f36d714b5c0",
+      "enMarkdown": "[3] As I was writing this, I asked some founders who'd taken series A rounds from top VC funds whether it was worth it, and they unanimously said yes.",
+      "zhMarkdown": "[3] 在写这篇文章时，我问了一些从顶级 VC 基金拿到 A 轮融资的创始人这是否值得，他们一致回答值得。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "a6dfadbe6d6a2142e6aa4252919660705276f13660a63ed1d65d6d1246b467b4",
+      "enMarkdown": "The quality of investor is more important than the type of round, though. I'd take an angel round from good angels over a series A from a mediocre VC.",
+      "zhMarkdown": "不过，投资者的质量比融资轮次的类型更重要。相比于平庸 VC 的 A 轮，我宁愿拿优秀天使投资人的天使轮。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "29cca6663f39bb671cdfc14c1d80c8ed02918c27efde6426b6d6a9db34070c9d",
+      "enMarkdown": "[4] Founders also worry that taking an angel investment from a VC means they'll look bad if the VC declines to participate in the next round. The trend of VC angel investing is so new that it's hard to say how justified this worry is.",
+      "zhMarkdown": "[4] 创始人还担心，接受 VC 的天使投资意味着，如果该 VC 拒绝参与下一轮融资，他们会显得很难看。VC 做天使投资的趋势非常新，很难说这种担忧有多大道理。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "042b572b0c702d84a992e00fca65ed37e57dcabebfa78c75d03f368814ea4552",
+      "enMarkdown": "Another danger, pointed out by Mitch Kapor, is that if VCs are only doing angel deals to generate series A deal flow, then their incentives aren't aligned with the founders'. The founders want the valuation of the next round to be high, and the VCs want it to be low. Again, hard to say yet how much of a problem this will be.",
+      "zhMarkdown": "米奇·卡普尔（Mitch Kapor）指出的另一个危险是，如果 VC 做天使投资纯粹是为了给 A 轮制造项目源，那么他们的利益就与创始人的利益不一致。创始人希望下一轮的估值高，而 VC 希望估值低。同样，目前很难说这会成为多大的问题。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "e14e1e7e2d319b34ca62d0ba37e2a970e1d861ad9251dc7f8d42e1832e5dd814",
+      "enMarkdown": "[5] Josh Kopelman pointed out that another way to be on fewer boards at once is to take board seats for shorter periods.",
+      "zhMarkdown": "[5] 乔希·科佩尔曼（Josh Kopelman）指出，另一种减少同时担任董事数量的方法是缩短担任董事会席位的时间。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "a17a2a6da8fef927dd7e1772d6269a66f8240291841b9d1adf3271cfb894f621",
+      "enMarkdown": "[6] Google was in this respect as so many others the pattern for the future. It would be great for VCs if the similarity extended to returns. That's probably too much to hope for, but the returns may be somewhat higher, as I explain later.",
+      "zhMarkdown": "[6] 谷歌在这方面与许多其他方面一样，是未来的榜样。如果这种相似性延伸到回报上，那对 VC 来说就太棒了。这可能期望过高，但回报可能会稍高一些，正如我稍后解释的那样。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "c00ba4222775b28bf8fbd14a0350e6016dff83461e1a089efcf0f3c016a1091f",
+      "enMarkdown": "[7] Doing a rolling close doesn't mean the company is always raising money. That would be a distraction. The point of a rolling close is to make fundraising take less time, not more. With a classic fixed sized round, you don't get any money till all the investors agree, and that often creates a situation where they all sit waiting for the others to act. A rolling close usually prevents this.",
+      "zhMarkdown": "[7] 采用滚动交割并不意味着公司一直在融资。那会让人分心。滚动交割的目的是减少融资时间，而不是增加。在传统的固定规模融资中，只有在所有投资者都同意后，你才能拿到钱，这往往会导致大家都坐着等别人先行动的局面。滚动交割通常可以防止这种情况。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "fb4961751150e7af16a4f0c36901db1e0da6d66c31356689a86b2fb461508127",
+      "enMarkdown": "[8] There are two (non-exclusive) causes of hot deals: the quality of the company, and domino effects among investors. The former is obviously a better predictor of success.",
+      "zhMarkdown": "[8] 造成热门交易的原因有两个（非排他性）：公司的质量，以及投资者之间的多米诺骨牌效应。前者显然是更好的成功预测指标。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "2b2ada67bbf89125132de4c590f46328bc1346d6b0d0c9a892e8c418ae64d79b",
+      "enMarkdown": "[9] Some of the randomness is concealed by the fact that investment is a self fulfilling prophecy.",
+      "zhMarkdown": "[9] 投资是一个自我实现的预言，这一事实掩盖了其中的一些随机性。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "7cc4416ece49105f8b847972173be2d9628f219ae1dbf2a07ae4dd92169647b3",
+      "enMarkdown": "[10] The shift in power to founders is exaggerated now because it's a seller's market. On the next downtick it will seem like I overstated the case. But on the next uptick after that, founders will seem more powerful than ever.",
+      "zhMarkdown": "[10] 权力向创始人倾斜的现象现在被放大了，因为这是一个卖方市场。在下一次市场下行时，看起来我可能把情况说得过于乐观了。但在那之后的下一次上行中，创始人将显得比以往任何时候都更加强大。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "8c8355606669a3d5e8dbc6e432f44ae73fdce0d561c0a7d38534499574a9b120",
+      "enMarkdown": "[11] More generally, it will become less common for the same investor to invest in successive rounds, except when exercising an option to maintain their percentage. When the same investor invests in successive rounds, it often means the startup isn't getting market price. They may not care; they may prefer to work with an investor they already know; but as the investment market becomes more efficient, it will become increasingly easy to get market price if they want it. Which in turn means the investment community will tend to become more stratified.",
+      "zhMarkdown": "[11] 更广泛地说，同一个投资者在连续的轮次中进行投资将变得不那么常见，除非行使期权以维持其持股比例。当同一个投资者连续投资时，通常意味着创业公司没有拿到市场价。他们可能不在乎；他们可能更愿意与已经认识的投资者合作；但随着投资市场变得更加高效，如果他们想要，获取市场价将变得越来越容易。这反过来意味着投资群体将趋于更加分层。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "5593c9b6634a70c40d657179c12167befda8f0b70cc7846fb7721a4bdfe74840",
+      "enMarkdown": "[12] The two 10 minuteses have 3 weeks between them so founders can get cheap plane tickets, but except for that they could be adjacent.",
+      "zhMarkdown": "[12] 这两个“10分钟”之间隔了 3 个星期，以便创始人能买到便宜的机票，但除此之外，它们完全可以连在一起。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "1d21f2dec4b8421d4d0cbe7d2837fe581c74e8c7ee41a78607e00e4924660815",
+      "enMarkdown": "[13] I'm not saying option pools themselves will go away. They're an administrative convenience. What will go away is investors requiring them.",
+      "zhMarkdown": "[13] 我并不是说期权池本身会消失。它们是一种管理上的便利。将要消失的是投资者对它们的强制要求。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "3a7134df1905ed9c0a6bfc1ed8b3a16101b8e7e5c2fb24dd573f128364315357",
+      "enMarkdown": "**Thanks** to Sam Altman, John Bautista, Trevor Blackwell, Paul Buchheit, Jeff Clavier, Patrick Collison, Ron Conway, Matt Cohler, Chris Dixon, Mitch Kapor, Josh Kopelman, Pete Koomen, Carolynn Levy, Jessica Livingston, Ariel Poler, Geoff Ralston, Naval Ravikant, Dan Siroker, Harj Taggar, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、John Bautista、Trevor Blackwell、Paul Buchheit、Jeff Clavier、Patrick Collison、Ron Conway、Matt Cohler、Chris Dixon、Mitch Kapor、Josh Kopelman、Pete Koomen、Carolynn Levy、Jessica Livingston、Ariel Poler、Geoff Ralston、Naval Ravikant、Dan Siroker、Harj Taggar 和 Fred Wilson 阅读本文草稿。"
+    }
+  ]
+}

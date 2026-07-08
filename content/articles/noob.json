@@ -1,0 +1,69 @@
+{
+  "slug": "noob",
+  "titleEn": "Being a Noob",
+  "titleZh": "当个菜鸟",
+  "dateText": "January 2020",
+  "publishedAt": "2020-01-01",
+  "sourceOrder": 48,
+  "sourceUrl": "https://paulgraham.com/noob.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f3903ccae17d7c8aaa34908709d420776fa184d50fd53ecac59a7c76ba49c26b",
+      "enMarkdown": "When I was young, I thought old people had everything figured out. Now that I'm old, I know this isn't true.",
+      "zhMarkdown": "年轻时，我以为老人们把一切都想明白了。现在我自己变老了，才知道根本不是这么回事。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "5e0e55d619238184e3badf3a70b6d29f848c6d06dc7370de214463a591cd1936",
+      "enMarkdown": "I constantly feel like a noob. It seems like I'm always talking to some startup working in a new field I know nothing about, or reading a book about a topic I don't understand well enough, or visiting some new country where I don't know how things work.",
+      "zhMarkdown": "我经常觉得自己像个菜鸟。我似乎总是在和某个涉足全新领域的创业公司聊天而我对此一无所知，或者在读一本关于我理解不够透彻的主题的书，又或者在访问某个不知道当地规矩的新国家。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "3b6341818c64d2d2464ab23e84f54a5db700f4100d27f4f4aa77fd8c96104f2a",
+      "enMarkdown": "It's not pleasant to feel like a noob. And the word \"noob\" is certainly not a compliment. And yet today I realized something encouraging about being a noob: the more of a noob you are locally, the less of a noob you are globally.",
+      "zhMarkdown": "当菜鸟的感觉并不好受。而且“菜鸟”这个词当然也不是什么夸奖。然而，今天我意识到关于当菜鸟一件令人鼓舞的事：你在局部越是像个菜鸟，在全局就越不像是菜鸟。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "80f7a403266de308f55fb1bebbdaa678c1171f64933d1ad7976ee34933e6066c",
+      "enMarkdown": "For example, if you stay in your home country, you'll feel less of a noob than if you move to Farawavia, where everything works differently. And yet you'll know more if you move. So the feeling of being a noob is inversely correlated with actual ignorance.",
+      "zhMarkdown": "例如，如果你留在自己的祖国，比起搬到万事运行规律都不同的“远方国”相比，你当菜鸟的感觉会少一些。然而，如果你搬过去，你会懂得更多。因此，当菜鸟的感觉与实际的无知是成反比的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1f0ba2875e382f780617429d3034425835eabfdbf4448531aa268619845ab931",
+      "enMarkdown": "But if the feeling of being a noob is good for us, why do we dislike it? What evolutionary purpose could such an aversion serve?",
+      "zhMarkdown": "但如果当菜鸟的感觉对我们有好处，为什么我们会讨厌它呢？这种排斥感能服务于什么进化目的呢？"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "a12d72866e6cbedb697a793c51c55a0964f6d8d0a2e5f4234446960f05dde8da",
+      "enMarkdown": "I think the answer is that there are two sources of feeling like a noob: being stupid, and doing something novel. Our dislike of feeling like a noob is our brain telling us \"Come on, come on, figure this out.\" Which was the right thing to be thinking for most of human history. The life of hunter-gatherers was complex, but it didn't change as much as life does now. They didn't suddenly have to figure out what to do about cryptocurrency. So it made sense to be biased toward competence at existing problems over the discovery of new ones. It made sense for humans to dislike the feeling of being a noob, just as, in a world where food was scarce, it made sense for them to dislike the feeling of being hungry.",
+      "zhMarkdown": "我认为答案在于，觉得自已像菜鸟有两个源头：一是愚蠢，二是尝试新事物。我们讨厌当菜鸟的感觉，是由于我们的大脑在催促我们：“快点，快点，把这事搞明白。”在人类历史的大部分时间里，这种想法都是对的。采集狩猎者的生活虽然复杂，但并不像现在的变化这么大。他们不需要突然去琢磨怎么应对加密货币。因此，相比于发现新问题，偏向于解决现有问题的能力是更有意义的。人类讨厌当菜鸟的感觉是合理的，就像在一个食物匮乏的世界里，人类讨厌饥饿感是合理的一样。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "6f2b9f76e22400716b99047f539edc7dcbd2550c00eeab18dd06a8232db0e988",
+      "enMarkdown": "Now that too much food is more of a problem than too little, our dislike of feeling hungry leads us astray. And I think our dislike of feeling like a noob does too.",
+      "zhMarkdown": "如今，食物过剩比食物匮乏成了更严重的问题，我们对饥饿的厌恶反而误导了我们。我认为，我们对当菜鸟感觉的厌恶同样也在误导我们。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "cddba2bbd8e3e320db48f0f7cc96bd4fb181fb957c26e09c9b3297b3fb2b4d8c",
+      "enMarkdown": "Though it feels unpleasant, and people will sometimes ridicule you for it, the more you feel like a noob, the better.",
+      "zhMarkdown": "虽然这种感觉并不好受，而且人们有时还会因此嘲笑你，但你越是觉得自己像个菜鸟，其实越好。"
+    }
+  ]
+}

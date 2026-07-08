@@ -1,0 +1,734 @@
+{
+  "slug": "brandage",
+  "titleEn": "The Brand Age",
+  "titleZh": "品牌时代",
+  "dateText": "March 2026",
+  "publishedAt": "2026-03-01",
+  "sourceOrder": 5,
+  "sourceUrl": "https://paulgraham.com/brandage.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "73c331bd07f7427b7e5a4d2777affbd68cb54df91d92ef2a87e0a2fc02f4f608",
+      "enMarkdown": "In the early 1970s, disaster struck the Swiss watch industry. Now people call it the quartz crisis, but in fact it was a compound of three separate disasters that all happened at about the same time.",
+      "zhMarkdown": "20 世纪 70 年代初，瑞士钟表业遭遇了一场灭顶之灾。如今人们称之为“石英危机”，但实际上，那是几乎在同一时间爆发的三场独立灾难的叠加。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "3c139c1f9bca319e73cf0a3376b0342e9ed7f6f988fe4faaa1c42cd70d9248bd",
+      "enMarkdown": "The first was competition from Japan. The Swiss had been watching the Japanese in the rear view mirror all through the 1960s, and they'd been improving at an alarming rate. But even so the Swiss were surprised in 1968 when the Japanese swept all the top spots for mechanical watches at the Geneva Observatory trials.",
+      "zhMarkdown": "第一场是来自日本的竞争。整个 20 世纪 60 年代，瑞士人一直在后视镜中紧盯着日本同行，而对方正以惊人的速度进步。即便如此，当日本人在 1968 年的日内瓦天文台竞赛中横扫机械表的所有大奖时，瑞士人还是大吃一惊。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "a8bf8e062e35425cc9fb5e5e9822c56998a86ab6295e91e80bcb70fb967d57b5",
+      "enMarkdown": "The Swiss knew what was coming. For years the Japanese had been able to make cheaper watches. Now they could make better ones too.",
+      "zhMarkdown": "瑞士人深知山雨欲来。多年来，日本人一直能制造出更便宜的手表。而现在，他们还能制造出更好的手表了。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "b1ec109c62b7084bed75d0fcc3f350d4e2d0ca2b87f4d20fd0fac30c8920e42a",
+      "enMarkdown": "To make matters worse, Swiss watches were about to become much more expensive. The Bretton Woods agreement, which since 1945 had fixed the exchange rates of most of the world's currencies, had set the Swiss Franc at an artificially low rate of .228 USD. When Bretton Woods collapsed in 1973, the Franc shot upward. By 1978 it reached .625 USD, meaning Swiss watches were now 2.7 times as expensive for Americans to buy. [[1](#f1n)]",
+      "zhMarkdown": "更糟糕的是，瑞士手表即将变得昂贵得多。1945 年以来确立全球大多数货币固定汇率的布雷顿森林体系，将瑞士法郎的汇率定在 0.228 美元的低位。当该体系于 1973 年崩溃时，法郎一路飙升。到 1978 年，法郎兑美元达到了 0.625，这意味着对美国人来说，购买瑞士手表的成本变成了原来的 2.7 倍。[[1](#f1n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4be67d51574a1e934b9cdc6a6331663c31e36ba9462c917894f2738253ea9e9d",
+      "enMarkdown": "The combined effect of foreign competition and the loss of their protective exchange rate would have decimated the Swiss watch industry even if it hadn't been for quartz movements. But quartz movements were the final blow. Now the whole game they'd been trying to win at became irrelevant. Something that had been expensive — knowing the exact time — was now a commodity.",
+      "zhMarkdown": "即便没有石英机芯，外国竞争和失去保护性汇率的双重打击也足以让瑞士钟表业元气大伤。而石英机芯则是致命一击。现在，他们一直试图取胜的整个游戏规则都变得毫无意义。曾经极其昂贵的东西——得知精准的时间——如今变成了一种廉价的普通商品。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "2e9d71bbf00dd07a352c122e93d3d24c774381745400f3b08443386455c76647",
+      "enMarkdown": "Between the early 1970s and the early 1980s, unit sales of Swiss watches fell by almost two thirds. Most Swiss watchmakers became insolvent or close to it and were sold. But not all of them. A handful survived as independent companies. And the way they did it was by transforming themselves from precision instrument makers into luxury brands.",
+      "zhMarkdown": "在 20 世纪 70 年代初至 80 年代初之间，瑞士手表的销量暴跌了近三分之二。大多数瑞士制表商破产或濒临破产，并被打包出售。但并非全军覆没。少数几家公司作为独立企业幸存了下来。而他们生存下来的秘诀，就是将自己从精密仪器制造商转型为奢侈品牌。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "bf4ebeb64e80ac0023582e56386f10e41e7eb8fbb40a7a6f9fedb9490bb43c91",
+      "enMarkdown": "In the process the nature of the mechanical watch was also transformed. The most expensive watches have always cost a lot, but why they cost a lot and what buyers got in return have changed completely. In 1960 expensive watches cost a lot because they cost a lot to manufacture, and what the buyer got in return was the most accurate timekeeping device, for its size, that could be made. Now they cost a lot because brands spend a lot on advertising and use tricks to limit supply, and what the buyer gets in return is an expensive status symbol.",
+      "zhMarkdown": "在此过程中，机械表的本质也发生了蜕变。最昂贵的手表从来都造价不菲，但它们之所以昂贵的原因，以及买家从中获得的回报，已经完全改变了。在 1960 年，名表之所以昂贵，是因为其制造成本极高，而买家得到的是同等尺寸下能制造出的最精准的计时设备。如今，名表之所以昂贵，是因为品牌在广告上挥金如土，并利用各种手段限制供应，而买家得到的是一个昂贵的身价象征。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "f5ea0a55598d9a2bea45ef5ad5ecc8ce2175d356f5b683880351b8b5ce93c1ba",
+      "enMarkdown": "That turns out to be a profitable business though. The Swiss watch industry probably makes more now from selling brand than they would have if they were still selling engineering. And indeed, when you look at the graph of Swiss watch sales by revenue, it tells a different story than the graph of unit sales. Instead of falling off a cliff, the revenue numbers merely flatten out for a while, and then take off like a rocket in the late 1980s as the surviving watchmakers come to terms with their new destiny.",
+      "zhMarkdown": "事实证明，这是一门利润丰厚的生意。瑞士钟表业现在靠卖品牌赚到的钱，可能比他们继续卖技术赚得还要多。事实上，当你观察瑞士手表销售额（按营收计）的曲线图时，它呈现出与销量曲线截然不同的景象。营收数据并没有跌入谷底，而是在平稳了一段时间后，在 20 世纪 80 年代后期像火箭般直线上升，因为幸存下来的制表商终于接纳了他们的新宿命。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "5cc46f0ef8e7971832d69e10dd3fc245ed14bb3d4975acbc6ded7de71d0c58bf",
+      "enMarkdown": "It took the watchmakers about 20 years to figure out the new rules of the game. And it's interesting to watch them do it, because the completeness of their transformation makes it the perfect case study in one of the most powerful forces of our era: brand.",
+      "zhMarkdown": "制表商花了大约 20 年的时间才摸透这套全新的游戏规则。观察这一过程非常有趣，因为他们转型的彻底性，使其成为研究我们这个时代最强大力量之一——品牌——的完美案例。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "62bd01f063a4235cae93447f0171a364f1cc26e94d416edc506ccee63392ab1c",
+      "enMarkdown": "Brand is what's left when the substantive differences between products disappear. But making the substantive differences between products disappear is what technology naturally tends to do. So what happened to the Swiss watch industry is not merely an interesting outlier. It's very much a story of our times.",
+      "zhMarkdown": "品牌，是产品之间的实质性差异消失后所遗留下的东西。而消除产品之间的实质性差异，正是技术发展的自然趋势。因此，瑞士钟表业的遭遇不仅仅是一个有趣的特例。它极具代表性，正是我们这个时代的故事。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "8242c4dfd541c2f34e5409529cfc8189c0b915ca51e393e637ab9e3f13c846d3",
+      "enMarkdown": "Jaeger-LeCoultre's web site says that one of their current collections \"takes its inspiration from the classic designs of the golden age of watchmaking.\" In saying this they're implicitly saying something that present-day watchmakers all know but rarely come so close to saying outright: whatever age we're in now, it's not the golden age.",
+      "zhMarkdown": "积家（Jaeger-LeCoultre）的官网上写道，他们目前的一个系列“灵感源自钟表黄金时代的经典设计”。这句话含蓄地表达了一个当今制表商都心知肚明、却极少如此直白说出的话：无论我们现在处于什么时代，它都不是黄金时代。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ed7e35987ad42cfb8a1c67f616803a306e0be255a362cc4f2d4f318861d612eb",
+      "enMarkdown": "The golden age was from 1945 to 1970 — from the point where the watch industry emerged from the chaos of war with the Swiss on top till the triple cataclysm that struck it starting in the late 60s. There were two things watchmakers sought above all in the golden age: thinness and accuracy. And indeed this was arguably the essential tradeoff in watchmaking. A watch is something you carry with you to tell you the time. So there are two fundamental ways to improve it: to make it easier to carry with you and to make it better at telling the time.",
+      "zhMarkdown": "黄金时代是 1945 年到 1970 年——从钟表业走出战争混乱、瑞士人独占鳌头，直到 60 年代末开始袭击该行业的三重灾难。在黄金时代，制表商最追求的两样东西是：超薄和精准。这确实可以说是制表业的核心权衡。手表是你带在身边看时间的东西。因此，改进它有两种根本方法：让它更便于携带，以及让它更准时。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "74e2a56c98ba037652f25ace95ee37e99fc97d37ba873090a01aa696e2a593a3",
+      "enMarkdown": "Obviously accuracy is valuable, but in the golden age thinness was if anything more valuable. Even in the days of pocket watches the best watchmakers tried to make their watches as thin as they could. Cheap, thick pocket watches were derided as \"turnips.\" But thinness took on a new urgency when men's watches moved onto their wrists during World War I. And since thinness was more difficult to achieve than accuracy, it was this quality that tended to distinguish the more expensive watches of the golden age.",
+      "zhMarkdown": "精准度显然极具价值，但在黄金时代，“超薄”甚至更具分量。即使在怀表时代，最顶尖的制表师也竭力将表造得越薄越好。那些便宜、笨重的怀表被讥讽为“大头菜”。而在一战期间男士手表转移到手腕上后，超薄变得更加迫切。由于超薄比精准更难实现，这一品质往往成为区分黄金时代昂贵手表的分水岭。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "c4405048a932f6bae5bc05f89984f06c28055c29c53e1ab12fdd1b1d4e28e60b",
+      "enMarkdown": "There is one other thing watchmakers have pursued in some eras: telling more than the time in the usual way. Telling you the phase of the moon, for example, or telling the time with sound. In the industry the term for these things is \"complications.\" They were popular in the nineteenth century and they're popular again now, but except for one pragmatic complication (showing the date), they were a sideshow in the golden age. In the golden age, as always in golden ages, the top watchmakers focused on the essential tradeoff. And, as always in golden ages, they did it beautifully. The best watches of the golden age have a [quiet perfection](https://goldammer.me/products/vacheron-constantin-18k-white-gold) that has never been equalled since. And for reasons I'm about to explain, probably never will be.",
+      "zhMarkdown": "在某些时期，制表商还追求过另一件事：用不同寻常的方式来显示时间之外的信息。例如，告诉你月相，或者用声音来报时。在行业中，这些功能被称为“复杂功能”。它们在 19 世纪很流行，现在又重新流行起来，但除了一个实用的复杂功能（显示日期）之外，它们在黄金时代只是配角。在黄金时代，一如历史上所有的黄金时代，顶尖的制表商都专注于核心的权衡。而且，一如所有的黄金时代，他们做得美轮美奂。黄金时代最优秀的手表拥有一种至今无法企及的[内敛完美](https://goldammer.me/products/vacheron-constantin-18k-white-gold)。由于我即将解释的原因，这种完美可能永远不会再有了。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "f0d0aba7c13f20c2dfb6be8f314077b8761599afe873678aff6acfd3d0c2ee0b",
+      "enMarkdown": "The three most prestigious brands of the golden age were the so-called \"holy trinity\" of Patek Philippe, Vacheron Constantin, and Audemars Piguet. Their prestige was mostly deserved; they had earned it by the exceptional quality of their work. By the 1960s they stood on two legs, prestige and performance. And what they learned in the next two decades was that they had to put all their weight on the first leg, because they could no longer win at either of the two things watchmakers had historically striven to achieve. Quartz movements were not only more accurate than any mechanical movement, but thinner too.",
+      "zhMarkdown": "黄金时代最负盛名的三大品牌是所谓的“三驾马车”：百达翡丽（Patek Philippe）、江诗丹顿（Vacheron Constantin）和爱彼（Audemars Piguet）。他们的声望大抵名副其实；这是他们凭借超凡的工艺赢得的。到了 20 世纪 60 年代，他们靠两根支柱立足：声望与性能。而在接下来的二十年里，他们学到的一点是，他们必须把所有的重心都放在第一根支柱上，因为在制表商历史上一直追求的这两件事上，他们都无法再赢了。石英机芯不仅比任何机械机芯都更精准，而且更薄。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "678d2305175bb4ce824dd280be6a9b6d8d14dd12bfc6fa8c2957e445df0c0484",
+      "enMarkdown": "The holy trinity at least had another leg to stand on. Most of the other well-known Swiss watchmakers sold only performance. None of those companies survived intact.",
+      "zhMarkdown": "“三驾马车”起码还有另一根支柱可以依靠。而其他大多数著名的瑞士制表商只卖性能。那些公司没有一家能完整地生存下来。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "d3d6ddf873694693838d19601a05e1b0a34b962768684fad071dcf084549312b",
+      "enMarkdown": "Omega showed what not to do. Omega were the nerds of Swiss watchmakers. They made wonderfully accurate watches, but they would have been ambivalent, at best, about the idea of being a luxury brand. When the Japanese got as good as the Swiss at making accurate movements, Omega responded in the Omega way: make even more accurate movements. They introduced a new movement in 1968 that ran at a 45% higher frequency. In theory this should have made it more accurate, but the new movement was so fragile that it destroyed their reputation for reliability. They even tried to make a better quartz movement, but there was nothing down that road but a race to the bottom. By 1981 they were insolvent and were taken over by their creditors.",
+      "zhMarkdown": "欧米茄（Omega）展示了错误的示范。欧米茄是瑞士制表商中的“技术宅”。他们制造极其精准的手表，但对于成为奢侈品牌这个想法，他们即便不排斥，起码也是纠结的。当日本人在制造精准机芯方面赶上瑞士人时，欧米茄以典型的欧米茄方式做出了回应：制造更精准的机芯。他们在 1968 年推出了一款振频提高 45% 的新机芯。理论上这应该会使其更精准，但新机芯非常脆弱，彻底砸了他们可靠性的招牌。他们甚至尝试制造更好的石英机芯，但那条路的尽头只有价格战的无底深渊。到 1981 年，他们资不抵债，被债权人接管。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "fb9632edb055564e1e27759d4928305b8c473904e79e85a2a858227c0d9a1def",
+      "enMarkdown": "Patek Philippe took the opposite approach. While Omega was redesigning their movements, Patek was redesigning their cases. Or more precisely, designing their cases, because until then they hadn't.",
+      "zhMarkdown": "百达翡丽采取了相反的策略。在欧米茄重新设计机芯的同时，百达翡丽在重新设计他们的表壳。或者更确切地说，是在“设计”表壳，因为在此之前他们并没有这么做。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "aafb3f98b20dcec291108ffcf30ee85c08bc22ff4294eb06a26e511a9284bb88",
+      "enMarkdown": "This is probably the point to mention what a strange beast the Swiss watch industry was in those days. It was a kind of capitalism that's hard to imagine today, and even then could only have been made to work in a country like Switzerland — a network of small, specialized companies locked into place by regulation. The companies that we for convenience have been calling watchmakers were merely the consumer-facing edge of this network. The holy trinity didn't design their own cases, or even their own movements most of the time.",
+      "zhMarkdown": "这里或许应该提一下当时的瑞士钟表业是一个多么奇特的庞然大物。那是一种今天难以想象的资本主义形式，而且在当时也只有在瑞士这样的国家才能运转——一个通过法规紧密结合在一起的小型专业化公司网络。我们为了方便而称之为“制表商”的公司，仅仅是这个网络面向消费者的前端。“三驾马车”在大多数时候甚至不自己设计表壳，甚至不自己设计机芯。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "ab31f44978c9bc75d2e849ed5d84dc916a2511a160cb266bccda693cacc94520",
+      "enMarkdown": "In 1968 (that year again) Patek Philippe launched a new watch that shifted the center of gravity of case design. This time they'd taken their own designs to the casemakers and said \"this is what you're going to make for us.\" The result was a striking new model called the [Golden Ellipse](https://collectability.com/learn/the-history-of-the-golden-ellipse/). Somewhat confusingly, because it wasn't elliptical. The new case was more of what UI designers would call a round rect: a rectangle with rounded corners. And this new family of watches was quite successful. But it was more than that: it was the pattern for the future. [[2](#f2n)]",
+      "zhMarkdown": "在 1968 年（又是这一年），百达翡丽推出了一款新表，改变了表壳设计的重心。这一次，他们把自己的设计方案带给表壳厂，并说“这就是你们要为我们制造的东西”。其结晶是一款引人瞩目的新表款，名为[Golden Ellipse](https://collectability.com/learn/the-history-of-the-golden-ellipse/)。这名字有些让人困惑，因为它并不是真正的椭圆形。这个新表壳更接近界面设计师所说的“圆角矩形”。这个新的手表系列相当成功。但不仅如此：它成为了未来的模板。[[2](#f2n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "b77a6764a42e0f27360f4dae96b7f433abf266bfbdfd9b3c458bea1a33705202",
+      "enMarkdown": "How could merely designing a distinctive case be so important? Because it turned the entire watch into an expression of brand.",
+      "zhMarkdown": "为什么仅仅设计一个独特的外壳会如此重要？因为这把整只手表变成了品牌的一种表达。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "90f4e05559e62ad505669a68504f0020d3da05461b791e92737f70aae9c24d32",
+      "enMarkdown": "The trouble with the best watches of the golden age, from the point of view of someone who wanted to impress people with the brand of watch he was wearing, was that no one could tell what brand of watch you were wearing. Until you got within a few inches of them, the watches of all the top makers looked the same. That's the thing about minimalism: there tends to be just one answer. Plus the watches of the golden age were small by present standards. Watchmakers had spent centuries working to make them smaller, and by 1960 they'd gotten very good at it. So the only thing distinguishing one top brand from another was the name printed on the dial, and dials were so small that these names were tiny. The manufacturers' names on the holy trinity's golden age watches are between half and three quarters of a millimeter high. By taking over the case, Patek expanded the size of the brand from 8 square millimeters to 800.",
+      "zhMarkdown": "对于那些想用所戴手表品牌来显摆的人来说，黄金时代最优秀手表的麻烦在于，没人能看出你戴的是什么牌子。除非你凑到几英寸近的距离，否则所有顶尖厂商的手表看起来都大同小异。极简主义就是这样：往往只有一个标准答案。此外，按现在的标准来看，黄金时代的手表都很小。制表商花了几个世纪的时间努力把表做小，到 1960 年他们已经炉火纯青。因此，区分一个顶尖品牌与另一个品牌的唯一标志就是表盘上印的名字，而表盘太小，这些名字也微乎其微。“三驾马车”黄金时代手表上的制造商名称高度在 0.5 到 0.75 毫米之间。通过接管表壳，百达翡丽将品牌的视觉面积从 8 平方毫米扩大到了 800 平方毫米。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "aed8b80b83a94182b56c6245777b1f7e93d07dde8b1f27932922cc79392776ba",
+      "enMarkdown": "Why did they suddenly decide to make their brand shout, after a century of whispering? Because they knew they weren't going to beat the Japanese on performance. From now on they'd have to depend more on brand.",
+      "zhMarkdown": "为什么在低语了一个世纪之后，他们突然决定让自己的品牌大声喧哗？因为他们知道自己无法在性能上击败日本人。从今往后，他们必须更多地依赖品牌。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "072e152cb0d39e2881c8d6742dc1fb46c841ceca748e2cbb4c7f615ed24d5257",
+      "enMarkdown": "There's a cost to doing this, which we can see even in this early example of case-as-brand. Golden Ellipses are not bad looking. They must have looked even cooler in the 1970s, when designers were turning everything into round rects. But the Golden Ellipse was not an evolutionary step forward in case design. Watches didn't all become round rects. Watchmakers had already discovered the optimal shape for the case of something that describes a circle as it rotates.",
+      "zhMarkdown": "这样做是要付出代价的，我们甚至在这个早期“表壳即品牌”的例子中就能看出来。Golden Ellipse 并不难看。在 20 世纪 70 年代，当设计师把所有东西都变成圆角矩形时，它看起来一定更酷。但 Golden Ellipse 并不是表壳设计的一次进化。手表并没有都变成圆角矩形。制表商早已发现，对于一个在旋转时描绘圆形的物体来说，表壳的最佳形状是什么。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "938aa13a5b2f677bca4c5ee3526e601c5b4e8a9d4d8629d9f9b783d8b6cd36ff",
+      "enMarkdown": "They had also discovered the optimal shape for the crown, the knob on the side of a watch that you turn to wind it. But to emphasize the distinctive profile of the Ellipse, Patek made the crown too small, with the result that they're distractingly hard to wind. [[3](#f3n)]",
+      "zhMarkdown": "他们也早已发现了表冠（手表侧面用来上链的旋钮）的最佳形状。但为了突出 Ellipse 独特的轮廓，百达翡丽把表冠做得太小，导致上链时费劲得令人烦躁。[[3](#f3n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "e3c48eae3ef1d39a03617797bd2f1cf7ae9ba99be9e08c8aed058877b88f1dbd",
+      "enMarkdown": "So even in this early example we see an important point about the relationship between brand and design. Branding isn't merely orthogonal to good design, but opposed to it. Branding by definition has to be distinctive. But good design, like math or science, seeks the right answer, and right answers tend to converge.",
+      "zhMarkdown": "因此，即使在这个早期的例子中，我们也看到了关于品牌与设计关系的重要一点。品牌化不仅与优秀的设计不相干，而且是背道而驰的。品牌化根据定义必须是独特的。但优秀的设计，就像数学或科学一样，是在寻找正确答案，而正确答案往往是趋同的。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "c983c582dc4bfc1a6c0cea54eb7267b55c811b27dc944db1fd6676913808e94b",
+      "enMarkdown": "Branding is centrifugal; design is centripetal.",
+      "zhMarkdown": "品牌化是离心的；设计是向心的。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "ffd84e3995d4b495ec45e51ff986fed7da20c7f9b703cf49f5132f0abc2ee497",
+      "enMarkdown": "There is some wiggle room here of course. Design doesn't have as sharply defined right answers as math, especially design meant for a human audience. So it's not necessarily bad design to do something distinctive if you have honest motives. But you can't evade the fundamental conflict between branding and design, any more than you can evade gravity.",
+      "zhMarkdown": "当然，这里也有一些回旋余地。设计不像数学那样有那么明确的正确答案，尤其是针对人类受众的设计。因此，如果你出于真诚的动机去做一些独特的事情，并不一定就是糟糕的设计。但你无法逃避品牌与设计之间的根本冲突，就像你无法逃避重力一样。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "5e11fef99b8aa68c12558561148e58d1bcafcf7e1a4b3f59758ea5cc7e94e17b",
+      "enMarkdown": "Indeed, the conflict between branding and design is so fundamental that it extends far beyond things we call design. We see it even in religion. If you want the adherents of a religion to have customs that set them apart from everyone else, you can't make them do things that are convenient or reasonable, or other people would do them too. If you want to set your adherents apart, you have to make them do things that are inconvenient and unreasonable.",
+      "zhMarkdown": "事实上，品牌与设计之间的冲突是如此根本，以至于它远远超出了我们所说的设计范畴。我们甚至在宗教中也能看到这一点。如果你想让某一宗教的信徒拥有与众不同的习俗，你就不能让他们做方便或合理的事，否则其他人也会跟着做。如果你想让你的信徒脱颖而出，你必须让他们做一些不便且不合理的事。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "15c5ed9122c86dc19b546ef5abe0bdb7bea4ed94305a66150b87e697c6800a2b",
+      "enMarkdown": "It's the same if you want to set your designs apart. If you choose good options, other people will choose them too.",
+      "zhMarkdown": "如果你想让你的设计脱颖而出，道理是一样的。如果你选择好的方案，其他人也会选择它们。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "22e23352075794a860918b5f554ece471b75b67afdb9c2aa9ed7e8121476b7e0",
+      "enMarkdown": "There are only two ways to combine branding and good design. You can do it when the space of possibilities is enormously large, as it is in painting, for example. Leonardo could paint as well as he possibly could and yet also paint in a style that was distinctively his. If there had been a million painters as good as Bellini and Leonardo this would have been harder to do, but since there were more like ten they didn't bump up against one another much. [[4](#f4n)]",
+      "zhMarkdown": "将品牌与优秀设计结合的方法只有两种。其一，当可能性的空间极其巨大时，例如在绘画中。达芬奇可以尽其所能地画得好，同时又能保持他独特的个人风格。如果有上百万个像贝利尼和达芬奇一样优秀的画家，这就会变得更难，但既然只有十个左右，他们之间就不会有太多冲突。[[4](#f4n)]"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "5e0a88ecc1c9a1b196df0ef5f5eb273449f75d3bb28f129caafc157a0c38aa8c",
+      "enMarkdown": "The other situation when branding and good design can be combined is when the space of possibilities is comparatively unexplored. If you're the first to arrive in some new territory, you can both find the right answer and claim it as uniquely yours. At least at first; if you've really found the right answer, everyone else's designs will inevitably converge on yours, and your brand advantage will erode over time.",
+      "zhMarkdown": "另一种可以将品牌与优秀设计结合的情况，是当可能性的空间相对未被开拓时。如果你是第一个到达某个新领域的人，你既能找到正确答案，又能宣称它是你独有的。起码在开始时是这样；如果你真的找到了正确答案，其他人的设计不可避免地会向你靠拢，你的品牌优势随着时间的推移也会消退。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "60a54f261101e2e9b363fe2ba32a24240903050ae8966f34f81f59fb428b289e",
+      "enMarkdown": "Since the space of watch design is neither unexplored nor enormously large, branding can only be achieved at the expense of good design. And in fact if you wanted one sentence to describe the current age of watchmaking, that one would do pretty well.",
+      "zhMarkdown": "由于手表的物理设计空间既非未开拓，也非无限大，因此只能以牺牲优秀设计为代价来实现品牌化。事实上，如果你想用一句话来概括当今的制表时代，这句话再合适不过了。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "a05a3d7a862a1c44f54a5ffd5077871941d6924e8526a98992645513f6318447",
+      "enMarkdown": "Patek Philippe didn't know for sure that making visibly branded watches would work. It was not even their only strategy, at the time. They were finding their way. But it was the strategy that did work, at least as measured by revenues.",
+      "zhMarkdown": "百达翡丽当时并不能百分之百确定制造带有明显品牌特征的手表行得通。在当时，这甚至不是他们唯一的策略。他们也在摸索。但至少从营收来看，这是行之有效的策略。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "f18d01c0db0f4fb85182aac83cff1f14f9ee43d120f4dcfd7df7b66498a5fa53",
+      "enMarkdown": "For it to work the customers had to meet them halfway. Patek knew that not all their customers were buying their watches for the performance they delivered — for their accuracy and thinness. They knew that at least some customers were buying them because they were expensive. But it was unclear how many, or how far they could be pushed.",
+      "zhMarkdown": "为了让这一策略奏效，顾客必须做出妥协。百达翡丽知道，并非所有的顾客购买其手表都是为了性能——也就是为了精准和超薄。他们知道，至少有一些顾客购买它们是因为它们昂贵。但当时还不清楚这类顾客有多少，或者能把他们推到什么程度。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "6617d1a94d432b03532125f3d2bfd527084a1191d729db379ba7fd23ed922dcd",
+      "enMarkdown": "To encourage them, Patek did something that none of the holy trinity had done much of before: brand advertising. And what they talked about was how expensive their watches were. A 1968 Patek ad explained \"why you are well advised to invest perhaps half a month's income\" in an Ellipse. \"Like every Patek Philippe,\" the ad continued, \"this thin model is entirely finished by hand. Since a Patek Philippe is the costliest watch to make, production is severely limited: only 43 watches are signed out each day for delivery to prominent jewelers throughout the world.\" [[5](#f5n)]",
+      "zhMarkdown": "为了鼓励他们，百达翡丽做了一件“三驾马车”以前很少做的事：品牌广告。而他们谈论的重点是他们的手表有多贵。1968 年的一则百达翡丽广告解释了“为什么建议您投资或许是半个月收入的资金”来买一只 Ellipse。广告继续写道：“与每一只百达翡丽一样，这款超薄表款完全由手工完成。由于百达翡丽是制造成本最高的手表，因此产量受到严格限制：每天仅签发 43 只手表，运往全球各地的知名珠宝商。”[[5](#f5n)]"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "c52ea79f979d3416bfbdea91cc8d5bdeaf8478c70e50f4bbd6c257f7ed753e1e",
+      "enMarkdown": "You can tell this is an early ad because they still mention thinness. But there is no mention of accuracy. Presumably Patek felt that battle was already lost.",
+      "zhMarkdown": "你能看出这是一则早期广告，因为他们仍然提到了超薄。但对精准度只字未提。想必百达翡丽觉得那场战役已经输了。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "07f37d46f6015ac04c3c153308fa376705974656bc7434b491b1a47c44e84d63",
+      "enMarkdown": "The next move was made by Audemars Piguet, who in 1970 commissioned the renowned designer G�rald Genta to design their own iconic watch, this one, daringly, in steel. The result, launched in 1972, was the [Royal Oak](https://www.sothebys.com/en/buy/auction/2025/fine-watches-5/reference-5402st-jumbo-royal-oak-a-series-a). And Audemars Piguet's ads (for they too now started doing brand advertising) emphasized its high cost even more dramatically. \"Introducing steel at the price of gold,\" one began. \"You're looking at the costliest stainless steel watch in the world — the Audemars Piguet 'Royal Oak'. What makes it even more precious than gold is the time that went into building it, by a vanishing breed of master watchmakers.\" At the bottom of the ad they turn the traditional formula on its head and describe their watches as being \"priced from $35,000 and down.\"",
+      "zhMarkdown": "下一步是由爱彼迈出的，他们在 1970 年委托著名设计师杰罗·尊达（Gérald Genta）设计自己的标志性表款，而且大胆地采用了钢材质。其成果于 1972 年推出了[皇家橡树](https://www.sothebys.com/en/buy/auction/2025/fine-watches-5/reference-5402st-jumbo-royal-oak-a-series-a)（Royal Oak）。爱彼的广告（因为他们现在也开始做品牌广告了）更富有戏剧性地强调了其高昂的价格。“以黄金的价格引入钢，”一则广告开头写道。“您正在看着世界上最昂贵的精钢手表——爱彼‘皇家橡树’。让它比黄金更珍贵的是注入其中的时间，由濒临流失的一代制表大师亲手打造。”在广告的底部，他们颠覆了传统的公式，将他们的手表描述为“售价 35,000 美元起”。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8a77f2376fbfaaa92685044d721eb6f9428e7fed19af52c4a0b81cd99e057405",
+      "enMarkdown": "The Royal Oak was also a step forward in surface area devoted to brand. The Golden Ellipse had turned the watch face into an expression of brand, but it used ordinary straps and bracelets. In the Royal Oak, the watch face was integrated with a metal bracelet that continued its design all the way around the wrist. When it said \"You're looking at the costliest stainless steel watch in the world,\" it said it with every square millimeter of surface area.",
+      "zhMarkdown": "皇家橡树在拓展品牌视觉面积方面也迈出了一大步。Golden Ellipse 将表盘变成了品牌的表达，但它使用的是普通的表带和表链。而在皇家橡树中，表盘与金属表链融为一体，其设计一直延伸到整个手腕。当它说“您正在看着世界上最昂贵的精钢手表”时，它是用每一平方毫米的表面积在诉说。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "5c15ab4565d34b398b6ed5e35ac58095193f04a3e1bf2c146adc621d519de1c2",
+      "enMarkdown": "Would customers buy this new approach? The initial results were moderately encouraging. The holy trinity's sales didn't take off, but they didn't go down to zero either. There were at least some people out there responding to the new message. Perhaps if they kept at it the number would grow.",
+      "zhMarkdown": "顾客会买这种新策略的单吗？最初的结果令人喜忧参半。三驾马车的销量没有暴增，但也没有归零。至少有一些人对这个新信息做出了回应。也许如果他们坚持下去，这个数字还会增长。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "ce09190f99118ed4784f79b83988c28a1a14228ea9cf2fafeb5c2e79e4008af8",
+      "enMarkdown": "So they did. Encouraged by the success of the Royal Oak, Patek Philippe commissioned G�rald Genta in 1974 to design a similar watch for them. The design of the Royal Oak had been inspired by a ship's porthole, so the design of this new watch would be inspired by... a ship's porthole. It was called the [Nautilus](https://www.sothebys.com/en/buy/auction/2025/important-watches-2/reference-3700-11-nautilus-jumbo-a-stainless-steel), and it launched at the Basel Watch Fair in 1976.",
+      "zhMarkdown": "于是他们坚持了下去。受到皇家橡树成功的鼓舞，百达翡丽在 1974 年委托杰罗·尊达为他们设计一款类似的腕表。皇家橡树的设计灵感来自于轮船的舷窗，因此这款新表的设计灵感也将来自于……轮船的舷窗。它被称为[鹦鹉螺](https://www.sothebys.com/en/buy/auction/2025/important-watches-2/reference-3700-11-nautilus-jumbo-a-stainless-steel)（Nautilus），并于 1976 年在巴塞尔钟表展上推出。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "557fd4dddfe91b7292f3010772bd70ef6d0298404c9d2a936b5070d196506c89",
+      "enMarkdown": "In the Nautilus we really see the incompatibility of branding and design. It was huge. The most expensive men's watches at the peak of the golden age were typically 32 or 33 millimeters in diameter. The Nautilus was 42 millimeters. And as well as being huge it had gratuitous knobs on either side of the face, like a pair of ears. But you could recognize one from across the room.",
+      "zhMarkdown": "在鹦鹉螺身上，我们真正看到了品牌与设计的不可调和。它太大了。在黄金时代的巅峰时期，最昂贵的男士手表直径通常为 32 或 33 毫米。而鹦鹉螺是 42 毫米。除了体积庞大之外，它的表盘两侧还有多余的耳朵状突起。但你从房间的另一头就能一眼认出它。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "f122e8e5881819cdaa79f1396a0ed6a226e5cb64d1fa4669a2d11a3b34148a47",
+      "enMarkdown": "Of all the watches Patek makes now, the Nautilus is the most sought after. It's perfectly aligned with what present-day buyers want — basically, the loudest possible expression of brand. But in 1976 it was ahead of its time. In 1976 it was still a little too much.",
+      "zhMarkdown": "在百达翡丽目前制造的所有手表中，鹦鹉螺是最受追捧的。它完美地契合了当今买家的需求——基本上就是最嚣张的品牌表达。但在 1976 年，它超越了时代。在 1976 年，它还是有点太过了。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "204a1288352cb6157663253e1c9bce5e9745906695b77fab6dda30b7f1db4928",
+      "enMarkdown": "The watch that finally turned Patek's fortunes around was another iconic design, the hobnail calatrava. The hobnail calatravas were so called because they were decorated with tiny pyramid-shaped spikes. That was enough to make them look distinctive. But except for the hobnails they were basically golden age dress watches.",
+      "zhMarkdown": "最终让百达翡丽扭转命运的是另一个标志性设计：巴黎钉纹卡拉卓华（hobnail calatrava）。巴黎钉纹卡拉卓华之所以得名，是因为它们装饰着微小的金字塔形尖钉。这足以让它们看起来与众不同。但除了巴黎钉纹之外，它们基本上就是黄金时代的礼服表。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "bbf29fd20f3652ef7fe2b1ed18fec8e5e3c9454d67b45351fe6e266271c59482",
+      "enMarkdown": "The hobnail calatrava was apparently the brainchild of Ren� Bittel, the head of Patek Philippe's ad agency. It was not a new design. Many watchmakers had decorated their cases with hobnails over the years, and there had been a Patek model with them since 1968. But in 1984 Bittel told Patek president Philippe Stern, in effect: make this your standard design, and I'll create an ad campaign to identify it in people's heads with your brand. [[6](#f6n)]",
+      "zhMarkdown": "巴黎钉纹卡拉卓华显然是百达翡丽广告代理公司负责人雷内·比特尔（René Bittel）的创意。这并不是一个全新的设计。多年来，许多制表商都在表壳上装饰过巴黎钉纹，百达翡丽自 1968 年起也有一款带有这种装饰的表款。但在 1984 年，比特尔告诉百达翡丽总裁菲力·斯登（Philippe Stern），大意是：把这作为你们的标准设计，我会制作一个广告企划，在人们的脑海中将它与你们的品牌绑定。[[6](#f6n)]"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "63815e6e23b69a5b4e56fb4dbbf7cecde9a2d59eab52170ae1a806320199b619",
+      "enMarkdown": "It worked spectacularly well. The resulting watch, the [3919](https://www.sothebys.com/en/buy/auction/2019/watches-online-6/patek-philippe-ref-3919j-a-yellow-gold-wristwatch/), is known as the \"banker's watch\" because it became so popular among investment bankers in New York in the 80s and 90s. Up to this point Patek had been hedging their bets, making quartz watches as well, and arguing defensively in their ads that quartz watches in fancy cases were almost as laborious to make as mechanical ones. But the ibankers bought the full mechanical story. They didn't even need self-winding mechanical watches; the 3919 was hand-wound. So be it. Patek stopped talking about quartz movements. And their sales, which had been flat since the early 70s, were by 1987 on a clear upward trajectory.",
+      "zhMarkdown": "这起到了极其惊人的效果。由此诞生的小时计[3919](https://www.sothebys.com/en/buy/auction/2019/watches-online-6/patek-philippe-ref-3919j-a-yellow-gold-wristwatch/)被称为“银行家之表”，因为在 80 年代和 90 年代，它在纽约的投资银行家中间风靡一时。在此之前，百达翡丽一直在两头下注，同时也制造石英表，并在广告中防御性地辩称，装在华丽表壳里的石英表与机械表一样费工。但投资银行家们完全买下了机械表的宏大叙事。他们甚至不需要自动上链的机械表；3919 是手动上链的。那就随它去吧。百达翡丽不再谈论石英机芯。自 70 年代初以来一直停滞不前的销量，到 1987 年呈现出明显的上升趋势。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "066b0893baf09b9c235859963ac15331b859c8dbdfffb93029ee3c0ca033926e",
+      "enMarkdown": "It's hard to say for sure whether the critical ingredient was Bittel's skill at advertising or a receptive audience, but as someone who knew these investment bankers, I'd lean toward the audience. These were the people for whom the term \"yuppy\" was coined. Living expensively was one of the things they were best known for. If anyone was going to adopt a new way to display wealth, it would be them. Whereas if Bittel had sent the same message ten years earlier, there might have been no one to hear it.",
+      "zhMarkdown": "很难说决定性的因素是比特尔高超的广告技巧，还是容易接受这一套的受众，但作为一个认识这些投资银行家的人，我更倾向于受众。这些人就是“雅皮士”（yuppy）这个词为之量身定制的群体。生活奢靡是他们最著名的特征之一。如果有人要采用一种展示财富的新方式，那一定就是他们。而如果比特尔在十年前发出同样的信息，可能根本没人理会。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "18d956896c21cdbae4592747a6428150b1fdb17777d6868d111ac9387ae3d839",
+      "enMarkdown": "Whatever the cause, something happened in the second half of the 1980s, because that's when all the numbers finally start going up again. Up till about 1985 it was still not clear what would happen with mechanical watches. By 1990 it was. By 1990 the custom of using expensive, highly-branded, conspicuously mechanical watches as status symbols was firmly established. [[7](#f7n)]",
+      "zhMarkdown": "无论原因是什么，在 20 世纪 80 年代后半期，有些事情发生了改变，因为那是所有数据终于重新开始上扬的起点。直到 1985 年左右，机械表的命运仍不明朗。到 1990 年，局势已定。到 1990 年，将昂贵、高度品牌化、显眼的机械表作为身份象征的习俗已经牢固确立。[[7](#f7n)]"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "69534f184970060d37b2a2156176c5ad61213e7feaafc0f867d77b8ba74bd2a8",
+      "enMarkdown": "Obsolete technologies don't usually get adopted as ways to display wealth. Why did it happen with mechanical watches? Because the wristwatch turns out to be the perfect vehicle for it. Where better than right on your wrist, where everyone can see it? And more to the point, what better to do it with? You could wear a diamond ring or a gold chain, but those would have seemed socially dubious to investment bankers. They might have been barbarians, but they weren't mafia. Whereas nothing could be more legit than a gold watch. The chairman of the company was still wearing one his wife gave him 20 years ago, before quartz watches were even a thing. If the increasing pressure to display wealth was going to emerge anywhere, this was the place. [[8](#f8n)]",
+      "zhMarkdown": "过时的技术通常不会被用作炫富的手段。为什么机械表却能做到？因为腕表被证明是完美的载体。还有什么地方比直接戴在手腕上更合适、更容易让所有人看到呢？更重要的是，还有什么比这更好的工具呢？你可以戴钻石戒指或金项链，但对于投资银行家来说，这些在社交上似乎有些不体面。他们可能是野蛮人，但他们不是黑手党。而金表则是再正当不过的东西。公司的董事长还戴着他妻子 20 年前送的表，那是在石英表还没出现之前。如果日益增长的财富展示压力要在某个地方宣泄，这里就是最佳选择。[[8](#f8n)]"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "fa7d4fcdde361c9cd6a937a73387b8b395d298f538e076c17f06e3601dab0f56",
+      "enMarkdown": "For men, at least. Women never really went for the idea of wearing mechanical watches. Most rich women are happy wearing a Cartier tank with a quartz movement. Why the difference? Partly for the same reason that most buyers of steam engines are men. But the main reason is that expensive mechanical watches now serve as de facto jewelry for men, and women don't need de facto jewelry because they can wear actual jewelry.",
+      "zhMarkdown": "至少对男人来说是这样。女人从来没有真正接受过戴机械表的想法。大多数富有的女性乐于佩戴石英机芯的卡地亚坦克。为什么会有这种差异？部分原因与大多数购买蒸汽机的人都是男性相同。但主要原因是，昂贵的机械表现在充当了男士的隐性珠宝，而女性不需要隐性珠宝，因为她们可以佩戴真正的珠宝。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "d183ac187765f1e99335664e29b4ed0364d5ef24dcfd38e05003cf727c1a8b16",
+      "enMarkdown": "It was critical, though, that mechanical watches were accurate *enough*. A new 3919 would have been off by no more than 5 seconds a day. That was nowhere near as good as quartz. Even the cheapest mass market quartz watches were accurate to half a second a day, and the best ones were accurate to 3 seconds a year. But in practice you didn't need that kind of accuracy. If mechanical watches had only been accurate to a minute a day they couldn't have made the leap from keeping time to displaying wealth. It would have seemed too manifestly unluxurious to have a watch that always had the wrong time. But 5 seconds a day was close enough. [[9](#f9n)]",
+      "zhMarkdown": "不过，关键在于机械表要“足够”精准。一只全新的 3919 每天的误差不会超过 5 秒。这根本无法与石英表相比。即使是最便宜的大众市场石英表，每天的误差也在半秒以内，而最好的石英表每年的误差只有 3 秒。但在实际生活中，你不需要那种精准度。如果机械表每天的误差高达一分钟，它们就无法完成从计时到炫富的跨越。如果一只表的表盘上永远显示着错误的时间，那看起来就太明显不够奢华了。但每天 5 秒的误差已经足够接近了。[[9](#f9n)]"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "b5dee143aec381438c64933ec53a00f0e193c39225d002fb9306df9930303090",
+      "enMarkdown": "This is an important point about the relationship between brand and quality. Quality doesn't stop mattering when a product switches to something people buy for its brand. But the way it matters changes shape. It becomes a threshold. It no longer has to be so great that it sells the product; brand sells the product; but it does have to be good enough to maintain the brand's reputation. The brand must not break character.",
+      "zhMarkdown": "这是关于品牌与品质关系的重要一点。当一个产品转向人们因其品牌而购买的赛道时，品质并没有变得无关紧要。但它起作用的方式改变了。它变成了一个门槛。它不再需要优秀到足以卖出产品；是品牌在卖产品；但它必须足够好，以维护品牌的声誉。品牌绝不能人设崩塌。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "4838a92cfc2c7cf75219b88b857e25d3851ffe28af4b8804eb43a37d20b4e926",
+      "enMarkdown": "It was a lucky thing for the watchmakers that yuppies arose just in time to save them. Or maybe not so lucky. Because the evolution of the market that yuppies represented has continued with a vengeance, and watchmakers have perforce been dragged along with it. If they don't make gigantic blingy watches for buyers in Hong Kong and Dubai, someone else will. So that is what they now find themselves doing. And what began with a few comparatively subtle examples of the conflict between branding and design is now an all out [war](https://www.patek.com/en/collection/grand-complications/6300-400g-001) on design.",
+      "zhMarkdown": "对制表商来说幸运的是，雅皮士的崛起恰逢其时，拯救了他们。或者也许没那么幸运。因为雅皮士所代表的市场演变一直在变本加厉地继续，制表商也不得不被拖着往前走。如果他们不为香港和迪拜的买家制造巨大、闪亮的手表，别人就会去做。所以这就是他们现在发现自己正在做的事情。而最初由几个相对微妙的品牌与设计冲突的案例开始，现在已经演变成了对设计的[全面战争](https://www.patek.com/en/collection/grand-complications/6300-400g-001)。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "eef8abeb2022eda6dd58935b631780875563f23d13cd02f8785082d9f93b3129",
+      "enMarkdown": "The present era of mechanical watchmaking doesn't yet have a name. But if we need one, it's obvious what it should be: the brand age. The golden age ran from 1945 to 1970, followed by the quartz crisis from 1970 to 1985. Since 1985 we've been in the brand age.",
+      "zhMarkdown": "目前的机械制表时代还没有一个名字。但如果我们必须要起一个，它的名字显而易见：品牌时代。黄金时代从 1945 年持续到 1970 年，随后是 1970 年到 1985 年的石英危机。自 1985 年以来，我们一直处于品牌时代。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "52da8a32870b1a7f1223713f3a1841e5878120dd94db52e837d7455b97494e79",
+      "enMarkdown": "This won't be the only brand age. Indeed, it's not even the first; fine art has been in its own brand age since the establishment of the Barr canon in the 1930s. And since we'll probably see more of this kind of thing, it would be worth taking some time to look at what a brand age is like.",
+      "zhMarkdown": "这不会是唯一的品牌时代。事实上，这甚至不是第一个；自从 1930 年代巴尔经典（Barr canon）确立以来，艺术界就已经处于其自身的品牌时代。既然我们以后可能会看到更多此类现象，那么花点时间看看品牌时代到底是什么样子，是很有价值的。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "bc46576895db3422eb343aea9d6422b14aa6b6b3ee577fa648f960515158d62b",
+      "enMarkdown": "How are things different now from the way they were in the golden age? The best way to answer that might be to imagine what someone from the golden age would notice if we brought him here in a time machine.",
+      "zhMarkdown": "现在的世界与黄金时代有什么不同？回答这个问题最好的方法，是想象一个来自黄金时代的人，如果我们用时间机器把他带到这里，他会注意到什么。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "1ed7fd57dbba08dd1c0efb09e12d040c4ec4a89b161bb96c52d0302c576a1d98",
+      "enMarkdown": "The first thing he'd notice, if he walked through a fancy shopping district, is that all the prominent watchmakers of the golden age seem to be doing better than ever. They're not only all still around, but most now have their own boutiques instead of depending on jewelers to sell their products as they used to back in the day.",
+      "zhMarkdown": "如果他走过一个高档购物区，他首先会注意到，黄金时代所有著名的制表商似乎都混得比以往任何时候都要好。他们不仅都还在，而且大多数现在都有了自己的专卖店，而不是像过去那样依赖珠宝商来销售他们的产品。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "7a461ebf6320df08acc53d4a404ec5cfd456a948e6f51193aa5e46945918c401",
+      "enMarkdown": "In fact this is an illusion. Only three watchmakers survived the dark days of the 70s and 80s as independent companies: Patek Philippe, Audemars Piguet, and Rolex. All the rest are owned by six holding companies, which reinflated them as it became clear that mechanical watches would have a second life as luxury accessories for men. Instead of separate companies they're now more like the brands that got rolled up into the big three American automakers: they're ways for their parent companies to target different segments of the market. So Longines, for example, no longer competes with Omega, because the company that owns them both has assigned it a lower tier of the market. [[10](#f10n)]",
+      "zhMarkdown": "但这其实是一种幻觉。在 70 年代和 80 年代的黑暗日子里，只有三家制表商作为独立公司幸存下来：百达翡丽、爱彼和劳力士。其余的所有公司都归属于六家控股公司，随着机械表作为男士奢侈配件迎来第二春，这些控股公司重新给它们注入了活力。它们现在不再是独立的公司，而更像是被打包收编进美国三大汽车巨头的品牌：它们是母公司针对不同细分市场的方式。因此，例如浪琴（Longines）不再与欧米茄竞争，因为拥有它们两家的母公司已经给它分配了更低档的市场。[[10](#f10n)]"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "fedd2fb1d882385d568800298d716cd5f362e679cbb9f5f85e19e2a00459b4c1",
+      "enMarkdown": "There's a reason the Vacheron Constantin boutique looks so much like the IWC and Jaeger-LeCoultre boutiques, and for that matter the Montblanc and Cartier boutiques. They're all owned by the same company. It's similar with clothing brands, incidentally. When you walk through a town's fanciest shopping district, what seem to be the shops of lots of different brands are actually owned by a handful of conglomerates. That's one reason these districts seem so sterile; like suburbs built by a single developer, they have an unnatural lack of variety.",
+      "zhMarkdown": "江诗丹顿的专卖店看起来之所以与万国（IWC）和积家的专卖店如此相似，甚至与万宝龙（Montblanc）和卡地亚的专卖店如出一辙，是有原因的。它们都归属于同一家公司。顺便说一句，服装品牌也是如此。当你走过一个城镇最繁华的商业街，那些看起来琳琅满目的不同品牌店铺，实际上都归属于少数几家巨头。这就是为什么这些街区看起来如此千篇一律的原因之一；就像由单一开发商建造的郊区一样，它们缺乏自然的多样性。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "d544215d4058229fafaff94adc35b7265d28273b9b574ba0836092e8bd88e672",
+      "enMarkdown": "When our time traveler peered into the windows of these shops, the first thing he'd notice would be how large all the watches were. This would surprise him, because in the golden age, as indeed in all the preceding centuries, big meant cheap. An expensive golden age men's watch might have been 33 millimeters in diameter and 8 millimeters thick. An expensive watch today will be more like 42 millimeters in diameter and 10 millimeters thick — more than double the size. It would astonish our visitor to look through the windows of what were clearly very fancy shops and see what seemed to be cheap watches. [[11](#f11n)]",
+      "zhMarkdown": "当我们的时光旅行者透过这些店铺的橱窗往里看时，他首先会注意到所有的手表是多么庞大。这会让他感到惊讶，因为在黄金时代，就像在之前的所有世纪一样，大意味着廉价。一只昂贵的黄金时代男士手表直径可能只有 33 毫米，厚度只有 8 毫米。而今天一只昂贵的手表直径往往在 42 毫米，厚度在 10 毫米——体积是以前的两倍多。看着这些显然非常高档的店铺橱窗，却看到里面摆着似乎很廉价的手表，会让我们的访客大惊失色。[[11](#f11n)]"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "00cbd51f4f28569cafb060899877523d3ca4d569747eeeb135409cb493e95840",
+      "enMarkdown": "We know how this happened. When watches switched from telling time to telling brand, they grew in size to be better at it. And not just in size, but in shape too. That's another thing our time traveler would notice: the surprising variety of strange case shapes and awkward protrusions that have been produced as the centrifugal tendency of branding played out. What, he'd wonder, is going on with the huge guards on the crowns of those Panerais? What do people do with these watches that makes the crown need such protection? And why would a crown guard have a message engraved on it saying that it's a registered trademark? It's obvious to us what's going on here, but imagine how confusing it would be to someone from the golden age, when form followed function. [[12](#f12n)]",
+      "zhMarkdown": "我们知道这是如何发生的。当手表从看时间转变为看品牌时，它们为了更好地展示品牌而变大了。不仅在尺寸上，在形状上也是如此。这是我们的时光旅行者会注意到的另一件事：随着品牌的离心趋势发挥作用，产生了一系列令人惊讶的奇异表壳形状和别扭的突起。他会纳闷，那些沛纳海（Panerai）表冠上巨大的护桥是怎么回事？人们戴着这些手表到底在做什么，以至于表冠需要这样的保护？为什么一个表冠护桥上会刻着它是一个注册商标的信息？对我们来说，这里发生的事情显而易见，但想象一下对于一个来自黄金时代、笃信“形式追随功能”的人来说，这会是多么令人困惑。[[12](#f12n)]"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "4e3bfc3dcf623026aeee811ac3979b4087155d286f40e929b1528a3fc6cab64b",
+      "enMarkdown": "As he puzzled over this strange assortment of bulky watches, he'd notice a further pattern. He'd realize that a surprisingly large number of them looked like a specific brand of bulky watch he was already familiar with.",
+      "zhMarkdown": "当他对着这一大堆笨重的手表百思不得其解时，他会注意到进一步的规律。他会发现，其中数量多得惊人的一批手表，看起来都像他已经很熟悉的某一个特定品牌的笨重手表。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "7c83d6d989f50fc1b0cd802f7c6d4c35ea749152244525a3c2075d080021f7a5",
+      "enMarkdown": "I haven't talked about Rolex so far, because Rolex didn't have to do much to adapt to the new era. They already had one foot in the brand age during the golden age. Early in their history they put a lot of effort into making their watches better, but they \"stopped taking part in competitions in Geneva and Neuch�tel at the end of the 1950s,\" and from about 1960 \"largely abandoned research into mechanical watchmaking.\" [[13](#f13n)] The reason was not that they'd become lazy, but that they'd discovered they could make sales grow faster by marketing their watches as status symbols. So that became their focus during the 1960s, and by the time the quartz crisis hit ten years later, their customers were self-selected to be people who didn't care that much what was inside a watch, so long as it was recognizably a Rolex.",
+      "zhMarkdown": "到目前为止，我还没有谈到劳力士，因为劳力士不需要做太多事情来适应新时代。在黄金时代，他们就已经有一只脚迈进了品牌时代。在他们历史的早期，他们投入了大量的精力来使他们的手表变得更好，但他们“在 1950 年代末停止了参加日内瓦和纳沙泰尔的竞赛”，并且从 1960 年左右开始“基本上放弃了对机械制表的研究”。[[13](#f13n)] 原因不是他们变懒了，而是他们发现，通过将手表作为身份象征进行营销，他们可以让销售额增长得更快。因此，这成为了他们在 20 世纪 60 年代的工作重心，当十年后石英危机来袭时，他们的顾客已经自我筛选为那些不太在乎手表里面装了什么、只要它是一只辨识度极高的劳力士就行的人。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "daf5f5beee86dda214bb36d5b8008f85bec1b8fe1e9970a0d438eadba7ccca78",
+      "enMarkdown": "And they were far ahead of other watchmakers in that department. They already had in the 1940s what we saw Patek Philippe and Audemars Piguet struggling to create in the 1970s and 80s: a case that immediately proclaimed the brand of the maker. The Rolex look seems to have evolved organically, but once it did, they realized how important it was. In fact they pitched it as one of the features of their watches. A 1960s Rolex ad says \"You can recognize its classic shape, carved out of a block of solid gold, from the other end of the conference table.\"",
+      "zhMarkdown": "在那个领域，他们远远领先于其他制表商。在 20 世纪 40 年代，他们就已经拥有了百达翡丽和爱彼在 70 年代和 80 年代苦苦挣扎想要创造的东西：一个能立即宣告制造者品牌的表壳。劳力士的外观似乎是自然演变而来的，但一旦成型，他们就意识到这有多么重要。事实上，他们把这作为他们手表的一个卖点。一则 1960 年代的劳力士广告说：“你可以在会议桌的另一头认出它由整块黄金雕刻而成的经典形状。”"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "a5604c2bb840adfdd83941636b2f8bce76e111e324650908f574fe2bf13c14c8",
+      "enMarkdown": "Indeed Rolex was ahead of its time in both dimensions: their cases were not merely recognizable, but big too, at least by golden age standards. That was not the result of clever marketing, though. It was a byproduct of the founder Hans Wilsdorf's obsession with building waterproof watches.",
+      "zhMarkdown": "事实上，劳力士在两个维度上都超前于时代：他们的表壳不仅极具辨识度，而且也很大，至少按黄金时代标准是这样。不过，这并不是聪明营销的结果。它是创始人汉斯·威尔斯多夫（Hans Wilsdorf）对制造防水手表执念的副产品。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "8f84b56ebfced74be9d5c16f817c3dd2f6c56424f29e846056d23cc4158e5a03",
+      "enMarkdown": "As its name suggests, that was the raison d'etre of the Rolex Oyster. Watches like the Oyster were designed to be tough, like Jeeps. In the golden age there were two poles of watch design. At one end were tool watches, which were thick, tough, and usually made of steel. At the other end were dress watches, which were thin, elegant, and usually made of gold. But Rolex blurred the line between them. When they made thick, tough watches, they made them out of gold as well as steel. The result was a sort of luxury Jeep. And if that phrase didn't ring a bell in your head, stop and think about it, because that is exactly what everyone is driving now. That's what SUVs are, luxury Jeeps. What happened to watches is the same thing that happened to cars. And indeed if our time traveler turned and saw a Porsche Cayenne pass by and realized what it was — a huge, pseudo-offroad vehicle meant to recall the Porsche 911 — he might have been even more shocked than he was by the watches he'd been looking at. [[14](#f14n)]",
+      "zhMarkdown": "顾名思义，这就是劳力士蚝式（Rolex Oyster）的生存理由。像蚝式这样的手表被设计得坚固耐用，就像吉普车一样。在黄金时代，手表设计有两个极端。一端是工具表，它们厚重、坚固，通常由钢制成。另一端是礼服表，它们轻薄、优雅，通常由黄金制成。但劳力士模糊了它们之间的界限。当他们制造厚重、坚固的手表时，他们既用钢也用黄金来制造。其结果是一种奢侈的吉普车。如果这个词没有在你脑海中引起共鸣，停下来想一想，因为这正是现在每个人都在开的车。这就是 SUV，奢侈吉普车。手表上发生的事情与汽车上发生的事情如出一辙。事实上，如果我们的时光旅行者转身看到一辆保时捷卡宴（Porsche Cayenne）驶过，并意识到它是什么——一个庞大的、旨在让人联想到保时捷 911 的伪越野车——他可能会比看到那些手表还要震惊。[[14](#f14n)]"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "be488e110f1e1c604bd26c8bb4d19cdc017a9681c390abf34cc1b6a7c3a7d63d",
+      "enMarkdown": "If the time traveller walked into a Patek Philippe boutique and actually tried to buy a Nautilus, he'd get the biggest shock of all. They wouldn't sell him one. Because at Patek he'd encounter the most extreme brand age phenomenon: artificial scarcity. You can't just buy a Nautilus. You have to spend years proving your loyalty first by buying your way through multiple tiers of other models, and then spend years on a waiting list. [[15](#f15n)]",
+      "zhMarkdown": "如果这位时光旅行者走进一家百达翡丽专卖店，并试图购买一只鹦鹉螺，他会受到最大的震惊。他们不会卖给他。因为在百达翡丽，他会遇到最极端的品牌时代现象：人为稀缺。你不能直接买到一只鹦鹉螺。你必须先花上几年的时间，通过购买多层其他型号的手表来证明你的忠诚，然后再在等待名单上熬上几年。[[15](#f15n)]"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "93324db2cd37ea8b4eb75854bd20feaa8d14464d057b6844f135908f4c794cd9",
+      "enMarkdown": "Obviously this strategy sells more watches. But it also supports retail prices by keeping watches off the secondary market. A company using artificial scarcity to drive sales can't allow too many of the scarce models to leak into the secondary market, or they stop being scarce. The ideal is the watch equivalent of carbon sequestration: for the people who buy their watches to keep them till they die.",
+      "zhMarkdown": "显然，这种策略卖出了更多手。但它也通过使手表远离二手市场来维持零售价格。一家利用人为稀缺来推动销售的公司不能让太多稀缺型号流入二手市场，否则它们就不再稀缺了。最理想的状态是手表版的“碳捕集”：让购买他们手表的人一直持有，直到去世。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "1639fc7cf108bb4be0e07d8aa1c51d9b0e521adde86f806a05842de47c6736a6",
+      "enMarkdown": "To push the market toward this ideal, Patek squeezes from both sides of the sale. They weed out flippers by making the path to the scarce models so costly in both time and money — so inconvenient and unreasonable — that only a genuine fan would endure it. The lower tier watches sell for below retail on the secondary market, because Patek *doesn't* restrict their supply, so a would-be flipper should have to spend years making money-losing purchases before he could even get something he could flip at a profit. Apparently some people still manage to beat this system though, so Patek's countermeasures don't end there. They keep a vigilant eye on secondary sales to see who's selling their watches. Auction listings usually include serial numbers, so those are easy to trace, but if necessary they'll rebuy their own watches on the secondary market to get the serial number and trace the leak. They buy hundreds a year. And when they catch someone selling watches they don't want them to, they don't just cut off that customer. If a retailer's customers are responsible for too many such leaks, they'll cut off the whole retailer. Which naturally makes retailers eager to help them police buyers.",
+      "zhMarkdown": "为了将市场推向这一理想状态，百达翡丽从销售的两端进行挤压。他们通过让购买稀缺表款的途径在时间和金钱上都付出高昂的代价——如此不便且不合理——来筛除黄牛，只有真正的粉丝才会忍受。低端手表的售价在二手市场上低于零售价，因为百达翡丽*并不*限制它们的供应，所以一个潜在的黄牛不得不花几年时间做亏本的买卖，然后才可能拿到可以加价转手的东西。然而，显然还是有人设法钻了这个系统的空子，所以百达翡丽的反制措施并没有到此为止。他们密切关注二级市场的销售，看看是谁在卖他们的表。拍卖行的名录通常包含序列号，所以这些很容易追踪，但如有必要，他们会在二级市场上回购自己的手表，以获取序列号并顺藤摸瓜。他们每年购买数百只。当他们抓住有人转卖他们不希望被转卖的手表时，他们不只是断供那一个顾客。如果一个零售商的客户应对太多此类流失负责，他们会切断整个零售商。这自然让零售商渴望帮助他们监督买家。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "ceefce4e1eabc97fa4f9c38f7926a7e53597064aa6f252a977b60ee2111659ea",
+      "enMarkdown": "There will of course always be some leaks into the secondary market. Even the most loyal customers die at a certain rate. And in fact it's critical for Patek that the secondary market continue to exist, because it's one of the most valuable sources of information they have about the most important question they face: how fast to increase the supply of the top tier watches. Their scarcity helps drive the purchases of all the others, so those that do make it into the secondary market should always sell for above retail. And I'm sure Patek leaves a large margin for error when increasing supply, because if secondary market prices for these watches get close to retail prices, you're getting close to a price collapse — which, since people now buy these watches as investments, would have the same disastrous cascading effect as the bursting of an asset bubble. It wouldn't just be like the bursting of an asset bubble. It would *be* the bursting of an asset bubble. That's the business an elite watchmaker is in now: carefully managing a sustained asset bubble. [[16](#f16n)]",
+      "zhMarkdown": "当然，总会有一些流失到二级市场中。即使是最忠实的顾客也会以一定的概率去世。事实上，二级市场的继续存在对百达翡丽至关重要，因为这是他们获得关于他们面临的最重要问题——以多快的速度增加顶级手表的供应——的最有价值的信息来源之一。它们的稀缺性有助于推动所有其他手表的购买，因此那些确实流入二级市场的手表应该始终以高于零售价的价格售出。而且我相信百达翡丽在增加供应时留有了很大的误差余地，因为如果这些手表的二级市场价格接近零售价，你就接近了价格崩盘——由于人们现在购买这些手表是作为投资，这将产生与资产泡沫破裂相同的灾难性连锁反应。这不仅仅是像资产泡沫破裂。它*就是*资产泡沫的破裂。这就是一家精英制表商现在所从事的行当：小心翼翼地维系着一个持久的资产泡沫。[[16](#f16n)]"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "53c93fdf2cd01c7aa0f20fd94a43fb24c9bb5ef2af4bfbef7ef8ea376222540a",
+      "enMarkdown": "This is an instance of what I call the comb-over effect: when a series of individually small changes takes you from something that's a little bit off to something that's freakishly wrong. I'm sure Patek didn't cook up this whole scheme in one shot; I'm sure it evolved gradually. But look at what a strange place we've ended up in. Back in the golden age the way you bought a Patek Philippe was to go to a jeweler and give them money. Now Patek is policing buyers to maintain an asset bubble.",
+      "zhMarkdown": "这是我所说的“地方支援中央效应”（comb-over effect）的一个例子：一系列微小的变化，最终把你从稍微有点不对劲带到极其荒谬的境地。我相信百达翡丽并没有一次性炮制出这整套方案；我相信它是逐渐演变而来的。但看看我们最终落入了一个多么奇特的地方。回到黄金时代，你购买百达翡丽的方式是去珠宝店给他们钱。现在，百达翡丽正在监管买家，以维持一个资产泡沫。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "7572996db58ac02a36358b0ea84f4dea4bbb61d6de3c64c1c5a4da9a55b6bf99",
+      "enMarkdown": "The most striking thing to me about the brand age is the sheer strangeness of it. The zombie watch brands that appear to be independent and even have their own retail stores, and yet are all owned by a few holding companies. The giant, awkwardly shaped watches that reverse 500 years of progress in making them smaller. The business model that requires a company to rebuy their own watches on the secondary market to catch rogue customers. The very concept of rogue customers. It's all so strange. And the reason it's strange is that there's no function for form to follow.",
+      "zhMarkdown": "对我来说，品牌时代最引人瞩目的一点在于它纯粹的怪诞。那些看似独立、甚至拥有自己零售店，却全部归属于少数几家控股公司的僵尸手表品牌。那些逆转了 500 年微型化进程的庞大、形状别扭的手表。那种要求一家公司在二级市场上回购自己的手表以抓捕违规客户的商业模式。甚至违规客户这个概念本身。这一切都是如此古怪。而它之所以古怪，是因为没有形式可以追随的功能。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "bd2012e68b51ec46461e600de92a7abddde61572c42cf3ff0e22faf062cedeac",
+      "enMarkdown": "Up to the end of the golden age, mechanical watches were necessary. You needed them to know the time. And that constraint gave both the watches and the watchmaking industry a meaningful shape. There were certainly some strange-looking watches made during the golden age. They weren't all beautifully minimal. But when golden age watchmakers made a strange-looking watch, they knew they were doing it. In fact they give the impression of having done it as a deliberate exercise, to avoid getting into a rut.",
+      "zhMarkdown": "直到黄金时代结束，机械表都是必需品。你需要它们来知道时间。这一约束赋予了手表和制表业一个有意义的形态。黄金时代当然也制造过一些外观奇特的手表。它们并非都是优美的极简风。但当黄金时代的制表商制造出一只外观奇特的手表时，他们知道自己在做什么。事实上，他们给人的印象是，他们是有意为之，以此来避免陷入墨守成规的套路。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "3eb60ccb3ea47ec58f79b17cd28fee35aef74a7ba3e0326d85e9de1573032297",
+      "enMarkdown": "That's not why brand age watches look strange. Brand age watches look strange because they have no practical function. Their function is to express brand, and while that is certainly a constraint, it's not the clean kind of constraint that generates good things. The constraints imposed by brand ultimately depend on some of the worst features of human psychology. So when you have a world defined only by brand, it's going to be a weird, bad world.",
+      "zhMarkdown": "这并不是品牌时代手表外观奇特的原因。品牌时代的手表外观奇特，是因为它们没有实用功能。它们的功能是表达品牌，虽然这确实是一种约束，但它不是那种能产生美好事物的纯粹约束。品牌施加的约束最终取决于人类心理中一些最糟糕的特征。因此，当你拥有一个仅由品牌定义的世界时，它注定会是一个诡异、糟糕的世界。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "79b1f1d087afac823d7cedc47a2a0972cd4eaf90caab722097f65174cfb25b6d",
+      "enMarkdown": "Well that was dark. Is there some edifying lesson we can salvage from the wreckage?",
+      "zhMarkdown": "好吧，这挺阴暗的。我们能从这片废墟中打捞出什么有益的启示吗？"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "630549e56bea0919c99a0573ebdc71a668359d01020da1acd76b75f086cf3c17",
+      "enMarkdown": "One obvious lesson is to stay away from brand. Indeed it's probably a good idea not just to avoid buying brand, but to avoid selling it too. Sure, you might be able to make money this way — though I bet it's harder than it looks — but pushing people's brand buttons is just not a good problem to work on, and it's hard to do good work without a good problem.",
+      "zhMarkdown": "一个显而易见的启示是远离品牌。事实上，不仅要避免购买品牌，避免销售品牌可能也是一个好主意。当然，你或许可以通过这种方式赚钱——尽管我敢说这比看起来要难——但激发人们对品牌的狂热并不是一个值得去解决的好问题，而且没有一个好问题，很难做出优秀的成果。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "f1c52cfeb14c153e8f848f3b4c025b5cf587cf8b415598d5af9986b04086f8db",
+      "enMarkdown": "The more subtle lesson is that fields have natural rhythms that are beyond the power of individuals to resist. Fields have golden ages and not so golden ages, and you're much more likely to do good work in a field that's on the way up.",
+      "zhMarkdown": "更微妙的启示是，各个领域都有其自然的律动，这是个人力量无法抗拒的。领域有黄金时代，也有不那么黄金的时代，你更有可能在一个处于上升通道的领域里做出优秀的成果。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "9134ee2431e0f411824a07a332507e2ddfd2c29e190884ba2e861d0f71cbd504",
+      "enMarkdown": "Of course they don't call them golden ages as they're happening. \"Golden age\" is a term people use later, after they're over. That doesn't mean that golden ages aren't real, but rather that their participants take them for granted at the time. They don't know how good they have it. But while it's usually a mistake to take one's good fortune for granted, it's not in this case. What a golden age feels like, at the time, is just that smart people are working hard on interesting problems and getting results. It would be overfitting to optimize for more than that.",
+      "zhMarkdown": "当然，在黄金时代正在发生时，人们并不这么称呼它。“黄金时代”是人们后来在它结束后才使用的词汇。这并不意味着黄金时代是不真实的，而是意味着当时的参与者认为一切都是理所当然的。他们不知道自己有多幸运。虽然把自己的好运视为理所当然通常是个错误，但在这种情况下却并非如此。在当时，黄金时代的感觉就是聪明人在有趣的问题上努力工作并取得成果。如果还要去优化更多，那就是过度拟合了。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "bd4a28b0010914c5f6602e84167cdfa4fd340d6faf0c3e27245f4c0475321fb8",
+      "enMarkdown": "In fact there's a single principle that will both save you from working on things like brand, and also automatically find golden ages for you. Follow the problems.",
+      "zhMarkdown": "事实上，有一个单一的原则既能把你从诸如品牌之类的工作中拯救出来，又能自动为你寻找黄金时代。跟着问题走。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "74f6160d17285e935a6f640ccff60d9fd75083a7e6e19066b4814b9bc669c715",
+      "enMarkdown": "The way to find golden ages is not to go looking for them. The way to find them — the way almost all their participants have found them historically — is by following interesting problems. If you're smart and ambitious and honest with yourself, there's no better guide than your taste in problems. Go where interesting problems are, and you'll probably find that other smart and ambitious people have turned up there too. And later they'll look back on what you did together and call it a golden age.",
+      "zhMarkdown": "寻找黄金时代的方法不是刻意去寻找它们。寻找它们的方法——历史上几乎所有参与者寻找它们的方法——是通过跟随有趣的问题。如果你聪明、有抱负且对自己诚实，没有比你在问题上的品味更好的向导了。去有趣的问题所在的地方，你可能会发现其他聪明、有抱负的人也出现在了那里。后来，他们会回顾你们一起做过的事情，并称之为黄金时代。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "2768d1028fb17578c2179ab63885599967d8f366cbad35ab6f82973fa82386d6",
+      "enMarkdown": "[1] The Bretton Woods agreement didn't fix exchange rates between currencies directly. It fixed each relative to gold. Obviously this also fixed them relative to one another.",
+      "zhMarkdown": "[1] 布雷顿森林体系并没有直接固定货币之间的汇率。它固定了每种货币相对于黄金的汇率。显然，这也间接固定了它们彼此之间的汇率。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "da42647518791da732df2ee6588fc1bdb9a016cd3f17ebae39521281d9d42752",
+      "enMarkdown": "[2] The Golden Ellipse isn't quite a round rect, because the sides aren't quite flat. It's similar in shape to the superellipses popularized by Piet Hein in the early 1960s, and in fact that may be where they got the name. But mathematically it's not an actual superellipse. My guess is that Patek's designer just experimented with French curves till he got something he liked. And to be fair it is a good shape.",
+      "zhMarkdown": "[2] Golden Ellipse 并不完全是圆角矩形，因为侧面并不是完全平的。它的形状类似于 1960 年代初由皮特·海因（Piet Hein）推广的超椭圆（superellipses），事实上这可能就是他们名字的来源。但从数学上讲，它并不是真正的超椭圆。我的猜测是百达翡丽的设计师只是用云形尺不断尝试，直到调出他喜欢的形状。公平地讲，这是一个很好的形状。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "45854094669872191820d7cfc461a158be6702315b37bec7b778c130df922e0b",
+      "enMarkdown": "[3] It was ironic that Patek Philippe of all companies made this mistake, because Adrien Philippe was the inventor of the modern crown. But they must have realized what they'd done, because later Ellipses have if anything excessively prominent crowns.",
+      "zhMarkdown": "[3] 讽刺的是，在所有公司中，百达翡丽犯了这个错误，因为阿德里安·菲利普（Adrien Philippe）正是现代表冠的发明者。但他们一定意识到了自己做了什么，因为后来的 Ellipse 具有极其显眼的表冠。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "860ae3c861de5341d7d16108da87fa349295a5beb7db17b15c78f45849de5cde",
+      "enMarkdown": "[4] The high ratio of design space to practitioners in fine art has combined with the practical importance of attribution to give people the impression that painting in a distinctively Leonardesque way is what makes Leonardo good. The most dangerous problem faced by curators, art historians, and art dealers — the one that has the worst consequences if they get the wrong answer — is attribution. So inevitably they spend a lot of time thinking and talking about the features that distinguish the work of one artist from another. But those aren't what make artists good. What makes the line of a woman's cheek in a Leonardo drawing good is how good it looks as the line of a cheek, not how little it looks like lines made by other artists.",
+      "zhMarkdown": "[4] 美术中设计空间与从业者的高比例，结合作品归属鉴定的实际重要性，给人们留下了一种印象，即以独特的达芬奇式风格绘画才是达芬奇优秀的原因。策展人、艺术史学家和艺术品交易商面临的最危险的问题——如果他们得到错误答案，后果最严重的问题——就是归属鉴定。因此，他们不可避免地要花大量时间思考和讨论区分一位艺术家与其他艺术家作品的特征。但这些并不是让艺术家优秀的原因。达芬奇素描中女人脸颊线条之所以好，是因为它作为脸颊线条看起来有多美，而不是因为它看起来多么不像其他艺术家画的线条。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "7bcbfe55e0af6f4a14c7a35e69fcf09c1ca75f6321a8c91d99808ecb43356e56",
+      "enMarkdown": "Because painting has such prestige, the myth that having a distinctive style (rather than painting well) is the defining quality of great artists has in turn given cover to a lot of bad design in adjacent fields. A brand that does something hideous to distinguish their products can say \"Like all great works of art, ours have a distinctive style,\" and people will buy it.",
+      "zhMarkdown": "因为绘画具有如此高的声望，认为拥有独特风格（而不是画得好）是伟大艺术家的决定性品质这一神话，反过来为邻近领域的许多糟糕设计提供了掩护。一个把产品做得奇丑无比以示区别的品牌可以说“像所有伟大的艺术作品一样，我们的产品拥有独特的风格”，而人们会买账。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "44a806ef16cfd2bbbe317d2671a30cda5dddbb27fa6d2e266477e4284b37caee",
+      "enMarkdown": "[5] An ad that Patek Philippe ran in America in 1970 famously described a Patek 3548 with a gold bracelet as a \"$1700 trust fund.\" Was it actually a good investment? In the very best case a dealer might pay you $20k now for one in unworn condition with its original box and papers. That's about a 4.5% rate of return, which is not absolutely terrible. But apparently the average rate of return on S&P 500 stocks over this period was more like 10%, if you reinvested all the dividends after paying taxes on them. The average rate of return would have been over 9% if you merely bought a lump of gold that hadn't been made into a watch. So, not surprisingly, the ad wasn't very good investment advice.",
+      "zhMarkdown": "[5] 百达翡丽 1970 年在美国投放的一则广告中，著名地将一只配有黄金表链的百达翡丽 3548 描述为“1700 美元的信托基金”。这真的是一笔好投资吗？在最好的情况下，现在经销商可能会为一只带原装盒和证书、未佩戴过的表支付 2 万美元。这大约是 4.5% 的回报率，算不上绝对糟糕。但显然，在扣除税款并将所有股息进行再投资后，这一时期标准普尔 500 指数股票的平均回报率更接近 10%。如果你只是买了一块没有被做成手表的黄金，平均回报率也会超过 9%。因此，不足为奇的是，这则广告并不是一个很好的投资建议。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "7e0a20767eb5444edfdb5246a37036215d0c0c745f3928b89e37862460746b72",
+      "enMarkdown": "[6] Tania Edwards, who ran US marketing for Patek Philippe in the 90s, said that Bittel literally sketched the design of the 3919 on a piece of paper. This sounds odd to me, because the 3919 looked exactly like the existing 3520 with the addition of sub seconds (a small dial with a second hand above 6 o'clock). Why would you sketch a design almost identical to an existing watch when you could just point to the existing watch and say \"that, with sub seconds.\" What this story does show, though, is the degree to which people within Patek felt their ad agency was responsible for the design of the 3919.",
+      "zhMarkdown": "[6] 90 年代负责百达翡丽美国市场营销的塔尼亚·爱德华兹（Tania Edwards）表示，比特尔字面上是在一张纸上画出了 3919 的设计。这在我听来有些奇怪，因为 3919 看起来与现有的 3520 完全一样，只是增加了小秒针（6 点钟位置上方带秒针的小表盘）。当你只需指着现有的手表并说“那个，加上小秒针”时，为什么要画一个与现有手表几乎完全相同的设计？然而，这个故事确实展示了百达翡丽内部人员在多大程度上认为他们的广告代理公司应对 3919 的设计负责。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "199296e449eabe87d3f75672bfab90bf8d92505632de7001a928363b999c2476",
+      "enMarkdown": "[7] If I had to date the turning point for mechanical watches precisely, I'd say 1986. Unit sales of Swiss watches rebounded in 1985, but revenue didn't, which means what we're seeing is the boom in cheap quartz Swatches. Indeed, sales of mechanical watches must have been down if revenue was flat despite the sale of all those Swatches. Whereas in 1986 revenue turns sharply upward even though unit sales only increase by a little, which implies a corresponding increase in sales of expensive mechanical watches.",
+      "zhMarkdown": "[7] 如果我必须精确地确定机械表的转折点，我会说是 1986 年。瑞士手表的销量在 1985 年有所回升，但营收没有，这意味着我们看到的是廉价石英斯沃琪（Swatch）的繁荣。事实上，如果尽管销售了所有这些斯沃琪，营收依然持平，那么机械表的销量一定是下降的。而在 1986 年，尽管销量仅略有增加，营收却急剧上升，这意味着昂贵机械表的销量相应增加。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "b660573ea9403eb9293a23624a3e9a8a83116ed6364fcbaaea0ef32950c778c8",
+      "enMarkdown": "[8] There is of course another reason some people are into mechanical watches: because they're interested in old technology. And if you are genuinely interested in mechanical watches, there's good news. You don't have to wear a billboard on your wrist or pay a lot to own one. Just buy golden age watches. They still keep good time, they're much more beautiful, and they cost a fraction of what new watches cost.",
+      "zhMarkdown": "[8] 当然，有些人喜欢机械表还有另一个原因：因为他们对旧技术感兴趣。如果你对机械表真的很感兴趣，这有一个好消息。你不需要在手腕上戴一个广告牌，也不需要支付高昂的价格来拥有一只。只需购买黄金时代的手表。它们依然走时精准，更加美丽，而且价格只是新表的一小部分。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "48e6976cbd969ac371f11812ad9c5cd8a7f49be52073c895a2378b3ac38a2b02",
+      "enMarkdown": "The key to buying a golden age watch is to find a good dealer, and the best way to recognize one is by how much they tell you about the watch. A bad dealer will just have a lot of fluff about the prestige of the brand and the sleek lines of the case. A good dealer will tell you the model number of the watch and movement, have lots of pictures, including some with the case back open, give you dimensions, disclose all damage and restoration, and tell you exactly how accurately the watch is running. Good dealers tend to be watch nerds themselves, so they're into this kind of thing.",
+      "zhMarkdown": "购买黄金时代手表的关键是找到一个好商家，而识别好商家最好的方法是看他们告诉你多少关于手表的信息。一个糟糕的商家只会堆砌大量关于品牌声望和表壳流畅线条的废话。一个好的商家会告诉你手表和机芯的型号，提供大量照片（包括一些打开表壳后盖的照片），给你尺寸，披露所有的损坏和修复情况，并确切地告诉你手表运行得有多准。好的商家往往自己也是手表发烧友，所以他们乐于做这些事。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "50fa24c54207c14bfbbd4f6815cde2a6e07e261a88c4df1ed317ec3e40a4be7f",
+      "enMarkdown": "(There are a few independent watchmakers trying earnestly to make good mechanical watches now, but their efforts show how hard it is to do good work when the current is against you.)",
+      "zhMarkdown": "（现在有少数独立制表师正真诚地努力制造好的机械表，但他们的努力表明，当潮流与你相悖时，做出优秀的成果是多么困难。）"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "41069ff203bd7de349e11bf441987d3e262a2a4fdfe84097408e60bdd36d5c02",
+      "enMarkdown": "[9] Oddly enough it might have helped that the 3919 was hand wound. If a watch runs for long enough, 5 seconds a day starts to add up. After three months a watch that gains 5 seconds a day will be 7 minutes fast. But with a hand wound watch you occasionally forget to wind it, and it runs down. And when you wind it again you reset it — on average to a time about 30 seconds behind the actual time. So if you forgot to wind a 3919 every two weeks or so, it would rarely have shown the wrong time.",
+      "zhMarkdown": "[9] 奇怪的是，3919 是手动上链的这一事实可能反而有所帮助。如果一只表运行时间足够长，每天 5 秒的误差就会开始累积。三个月后，一只每天快 5 秒的手表将快 7 分钟。但对于手动上链的手表，你偶尔会忘记上链，它就会停走。当你重新上链时，你会重新校准它——平均而言，校准到比实际时间慢约 30 秒。因此，如果你每两周左右忘记给 3919 上链一次，它就很少会显示错误的时间。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "294281e349d57b1cd931e3c90ecbb86bfb3e564c3f5a3856cab286b7a500f5b4",
+      "enMarkdown": "[10] There's one brand still waiting to be reinflated: Universal Gen�ve, which was one of the big players of the golden age but since 1977 has been little more than a brand name passed from acquirer to acquirer. They're scheduled to come back to life later this year, no doubt with stories about their long tradition of watchmaking.",
+      "zhMarkdown": "[10] 还有一个品牌仍在等待被重新注入活力：宇宙（Universal Genève），它是黄金时代的主要参与者之一，但自 1977 年以来，它几乎只是一个在不同收购者之间传递的品牌名称。他们计划在今年晚些时候复活，无疑会带着关于他们悠久制表传统的故事。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "9328065c994ab86d106fd8f3d3e799ec0d2ef1a0303fde84f6960b73c9625013",
+      "enMarkdown": "[11] More precisely, a high ratio of size to accuracy meant cheap. It's easier to make a larger movement keep good time, but between two watches of the same accuracy, the larger was usually the cheaper.",
+      "zhMarkdown": "[11] 更准确地说，尺寸与精准度的高比例意味着廉价。让较大的机芯保持精准更容易，但在两只精准度相同的手表中，较大的那只通常较便宜。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "9815a7b19d89a9d056f4f9e81f8030503075fa2a93ee3a99d3bb9814889d47c2",
+      "enMarkdown": "[12] Their form did once follow function. They were originally diving watches. But they're long since obsolete for this purpose. Present day diving watches (now called dive computers) are digital and tell you much more than the time.",
+      "zhMarkdown": "[12] 它们的形式曾经确实追随功能。它们最初是潜水表。但对于这个用途，它们早已过时。如今的潜水表（现在称为潜水电脑）是数字化的，能告诉你远不止时间的信息。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "37e6a62bed5b763fb7d3b6c1c417e7a6be6954c2bb917e08aabd0758813caf1a",
+      "enMarkdown": "[13] Rolex was awarded an average of 16.6 patents per year in the 1950s, but only 1.7 per year in the 1960s.",
+      "zhMarkdown": "[13] 劳力士在 1950 年代平均每年获得 16.6 项专利，但在 1960 年代平均每年仅获得 1.7 项。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "442c0323b812a592b1858f1f6d93bf724ec7df2f355a30fe305f088821b7a396",
+      "enMarkdown": "Pierre-Yves Donz�, *The Making of a Status Symbol: A Business History\nof Rolex*, Manchester University Press, 2025.",
+      "zhMarkdown": "皮埃尔-伊夫·东泽（Pierre-Yves Donzé），《身份象征的塑造：劳力士商业史》（*The Making of a Status Symbol: A Business History of Rolex*），曼彻斯特大学出版社，2025年。"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "b5a8dabb5206ff1faad62a4e014f4eae6b9cb7677e78fc41197cd5de9988bcc7",
+      "enMarkdown": "[14] Rolexes also shared something more specific with SUVs: aspirational manliness. An internal 1967 report by Rolex's ad agency J. Walter Thompson explained the idea they were trying to convey: \"Because a Rolex is designed for any situation, however rough or dangerous or heroic or exalted, it implies that the man who wears it is, potentially, a hero.\"",
+      "zhMarkdown": "[14] 劳力士也与 SUV 共享一些更具体的东西：令人向往的男子气概。劳力士广告代理公司智威汤逊（J. Walter Thompson）的一份 1967 年内部报告解释了他们试图传达的想法：“因为劳力士是为任何情况设计的，无论多么艰难、危险、英雄或高尚，它都暗示着佩戴它的男人潜在地是一个英雄。”"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "4469ece2d0eadbcd6e2310f1f86c02df786a565b53b1108c98324e72c43dc3f3",
+      "enMarkdown": "Reprinted in Donz�, *op cit*.",
+      "zhMarkdown": "转载于东泽，前引书。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "29bcab8378638568bff5f0eb7dab9fe2936cf6557a74c90f039d54b6fd6d78a9",
+      "enMarkdown": "[15] This business model only works when purchase decisions are driven mainly by brand. In a normal market, if one manufacturer restricts production, customers just buy from whichever competing manufacturer offers something as good. It's only when customers are seeking a certain brand rather than a certain level of performance that you can manipulate them by restricting its availability.",
+      "zhMarkdown": "[15] 这种商业模式只有在购买决策主要由品牌驱动时才有效。在一个正常的市场中，如果一家制造商限制生产，顾客只需从提供同样优秀产品的任何竞争对手那里购买即可。只有当顾客追求的是某个特定品牌而不是某种性能水平时，你才能通过限制其可获得性来操纵他们。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "255bb11fcfbbcbfc007957c51ce440c304e0e158350dd8a901ee1c84a3c7a2ce",
+      "enMarkdown": "[16] Of course the first question one has on noticing a bubble is: will it burst? The reason ordinary bubbles eventually burst is that speculators get overoptimistic, but in this case the CEO of Patek Philippe controls the \"money supply\" and can thus take measures to cool down an overheated market. So there are probably only two things that could cause their specific bubble to burst: if his successor is not as capable, or if the whole custom of wearing mechanical watches goes away. The latter seems the greater danger. People aren't going to wear three things on their wrists, so all it would take is for there to be two popular devices that were worn on the wrist, and mechanical watches would start to be seen by the next cohort of young rich people as an old guy thing. It's hard to imagine a luxury watch brand surviving that.",
+      "zhMarkdown": "[16] 当然，人们在注意到泡沫时首先会问的问题是：它会破裂吗？普通泡沫最终破裂的原因是投机者过度乐观，但在这件事上，百达翡丽的首席执行官控制着“货币供应”，因此可以采取措施为过热的市场降温。因此，可能只有两件事会导致他们特定的泡沫破裂：如果他的继任者能力不足，或者戴机械表的整个习俗消失。后者似乎是更大的危险。人们不会在手腕上戴三样东西，因此只需手腕上佩戴两款流行的设备，机械表就会开始被下一代年轻富人视为老年人的玩意。很难想象一个奢侈手表品牌能在这种情况下生存下来。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "962a78068e61a8284e6cd433142b18d9366ff30ddf2ddba6458741f0ffb36356",
+      "enMarkdown": "**Thanks** to Sam Altman, Bill Clerico, Daniel Gackle, Luis Garcia, the people at Goldammer, Jessica Livingston, Ben Miller, Robert Morris, John Reardon, D'Arcy Rice, Alex Tabarrok, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "感谢 Sam Altman、Bill Clerico、Daniel Gackle、Luis Garcia、Goldammer 的团队、Jessica Livingston、Ben Miller、Robert Morris、John Reardon、D'Arcy Rice、Alex Tabarrok 和 Garry Tan 阅读本篇草稿。"
+    }
+  ]
+}

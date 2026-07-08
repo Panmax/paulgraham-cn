@@ -1,0 +1,641 @@
+{
+  "slug": "better",
+  "titleEn": "Better Bayesian Filtering",
+  "titleZh": "更优的贝叶斯过滤",
+  "dateText": "January 2003",
+  "publishedAt": "2003-01-01",
+  "sourceOrder": 209,
+  "sourceUrl": "https://paulgraham.com/better.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "993f04fc8371ae79f90ba24a693784dc5f357d6abb4d2ea76d4074cff9c8dea1",
+      "enMarkdown": "*(This article was given as a talk at the 2003 Spam Conference.\nIt describes the work I've done to improve the performance of\nthe algorithm described in A Plan for Spam,\nand what I plan to do in the future.)*",
+      "zhMarkdown": "*(本文整理自作者在 2003 年垃圾邮件大会（Spam Conference）上的演讲。文中介绍了作者在改进《垃圾邮件应对计划》所述算法性能方面的工作，以及未来的计划。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "a4d6dce656893be6aa0ac37d07763fb33789e187b0bc1bdcedab7c99083986bf",
+      "enMarkdown": "The first discovery I'd like to present here is an algorithm for lazy evaluation of research papers. Just write whatever you want and don't cite any previous work, and indignant readers will send you references to all the papers you should have cited. I discovered this algorithm after ``A Plan for Spam'' [1] was on Slashdot.",
+      "zhMarkdown": "我想在这里介绍的第一项发现，是一种用于“懒惰评估”学术论文的算法。你只需随心所欲地写你想写的内容，完全不用引用任何前人的工作，愤怒的读者自然会把所有你本该引用的论文链接发给你。我是在《垃圾邮件应对计划》 [1] 登上 Slashdot 网站后发现这个算法的。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ec24cdbdcf845361c71ddd3d15b9bef0ab17e9d688de137937967100dbefdbcf",
+      "enMarkdown": "Spam filtering is a subset of text classification, which is a well established field, but the first papers about Bayesian spam filtering per se seem to have been two given at the same conference in 1998, one by Pantel and Lin [2], and another by a group from Microsoft Research [3].",
+      "zhMarkdown": "垃圾邮件过滤是文本分类的一个子集，这是一个发展已经很成熟的领域。但关于贝叶斯垃圾邮件过滤本身的最初论文，似乎是 1998 年在同一场会议上发表的两篇，一篇由 Pantel 和 Lin 撰写 [2]，另一篇由微软研究院的一个小组撰写 [3]。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "bc35af8fd62745762c7f3153ec33bcc4fd8c92961d508a0d3592db215d024779",
+      "enMarkdown": "When I heard about this work I was a bit surprised. If people had been onto Bayesian filtering four years ago, why wasn't everyone using it? When I read the papers I found out why. Pantel and Lin's filter was the more effective of the two, but it only caught 92% of spam, with 1.16% false positives.",
+      "zhMarkdown": "当我听说这项工作时，感到有些惊讶。如果人们在四年前就已经开始研究贝叶斯过滤，为什么没有普及呢？当我读了这些论文后，我找到了原因。Pantel 和 Lin 的过滤器是两者中更有效的一个，但它也只拦截了 92% 的垃圾邮件，且误报率高达 1.16%。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4a6002a188a487fcb379c115b81137975caac5568785ef6f572fad6292f4d6c5",
+      "enMarkdown": "When I tried writing a Bayesian spam filter, it caught 99.5% of spam with less than .03% false positives [4]. It's always alarming when two people trying the same experiment get widely divergent results. It's especially alarming here because those two sets of numbers might yield opposite conclusions. Different users have different requirements, but I think for many people a filtering rate of 92% with 1.16% false positives means that filtering is not an acceptable solution, whereas 99.5% with less than .03% false positives means that it is.",
+      "zhMarkdown": "而当我尝试编写一个贝叶斯垃圾邮件过滤器时，它拦截了 99.5% 的垃圾邮件，且误报率低于 0.03% [4]。当两个做相同实验的人得出截然不同的结果时，总是令人警惕的。在这里尤其令人警惕，因为这两组数据可能会得出完全相反的结论。不同的用户有不同的需求，但我认为对许多人来说，92% 的拦截率和 1.16% 的误报率意味着过滤不是一个可接受的解决方案，而 99.5% 的拦截率和低于 0.03% 的误报率则意味着它是可行的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3fbd617b5805cf4b846c650562ffac7f66d6cfab8d85b65a98a342694993546c",
+      "enMarkdown": "So why did we get such different numbers? I haven't tried to reproduce Pantel and Lin's results, but from reading the paper I see five things that probably account for the difference.",
+      "zhMarkdown": "那么，为什么我们得到的数据如此不同？我没有尝试去重现 Pantel 和 Lin 的结果，但从阅读论文来看，我发现了大概可以解释这一差异的五个原因。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "c0093efee17f41921227688416a042adfd79047fbb2d44f1606e4c20edd430ea",
+      "enMarkdown": "One is simply that they trained their filter on very little data: 160 spam and 466 nonspam mails. Filter performance should still be climbing with data sets that small. So their numbers may not even be an accurate measure of the performance of their algorithm, let alone of Bayesian spam filtering in general.",
+      "zhMarkdown": "首先，原因很简单，他们的过滤器训练数据太少：只有 160 封垃圾邮件和 466 封正常邮件。在如此小的数据集下，过滤器的性能应该还处于上升阶段。因此，他们的数据甚至无法准确衡量自己算法的性能，更不用说代表整个贝叶斯垃圾邮件过滤技术了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "38e92db80e566dfc22cbd076389b87f922c81e22dbb4414e91ac4d98cc920d71",
+      "enMarkdown": "But I think the most important difference is probably that they ignored message headers. To anyone who has worked on spam filters, this will seem a perverse decision. And yet in the very first filters I tried writing, I ignored the headers too. Why? Because I wanted to keep the problem neat. I didn't know much about mail headers then, and they seemed to me full of random stuff. There is a lesson here for filter writers: don't ignore data. You'd think this lesson would be too obvious to mention, but I've had to learn it several times.",
+      "zhMarkdown": "但我认为最重要的区别在于，他们忽略了邮件头（headers）。对于任何研究过垃圾邮件过滤器的人来说，这似乎是一个极其反常的决定。然而，在我尝试编写的第一批过滤器中，我也忽略了邮件头。为什么？因为我想保持问题的简洁。当时我对邮件头了解不多，觉得它们充满了随机杂乱的信息。这里给过滤器编写者提供了一个教训：不要忽略数据。你可能会觉得这个教训显而易见到不值一提，但我自己也是交了几次学费才记住的。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c45defa25818bf4a62ab7f4e6bbf950e8cd618a5e5fca7070761f1d8c7d8d2b9",
+      "enMarkdown": "Third, Pantel and Lin stemmed the tokens, meaning they reduced e.g. both ``mailing'' and ``mailed'' to the root ``mail''. They may have felt they were forced to do this by the small size of their corpus, but if so this is a kind of premature optimization.",
+      "zhMarkdown": "第三，Pantel 和 Lin 对标记（tokens）进行了词干提取（stemming），这意味着他们把例如 “mailing” 和 “mailed” 都缩减为词根 “mail”。他们可能觉得由于语料库规模太小，不得不这样做，但如果是这样，这其实是一种过早优化。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "766e995de5b471634d25ad2cbbd61153eee64a391e703858d4e0a70a2c46f1e6",
+      "enMarkdown": "Fourth, they calculated probabilities differently. They used all the tokens, whereas I only use the 15 most significant. If you use all the tokens you'll tend to miss longer spams, the type where someone tells you their life story up to the point where they got rich from some multilevel marketing scheme. And such an algorithm would be easy for spammers to spoof: just add a big chunk of random text to counterbalance the spam terms.",
+      "zhMarkdown": "第四，他们计算概率的方式不同。他们使用了所有的标记，而我只使用最显著的 15 个。如果你使用所有的标记，你往往会漏掉较长的垃圾邮件，比如那种向你讲述个人奋斗史直到通过某种多层次传销发家致富的邮件。而且，这种算法很容易被垃圾邮件发送者破解：只需添加一大段随机文本，来抵消那些垃圾邮件词汇即可。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "50fb94026b9084269eb7238b1c3b0aa1b1e3209bbd08516c1207a0fa152991ff",
+      "enMarkdown": "Finally, they didn't bias against false positives. I think any spam filtering algorithm ought to have a convenient knob you can twist to decrease the false positive rate at the expense of the filtering rate. I do this by counting the occurrences of tokens in the nonspam corpus double.",
+      "zhMarkdown": "最后，他们没有针对误报进行偏置调整。我认为任何垃圾邮件过滤算法都应该有一个方便调节的旋钮，让你能够以牺牲拦截率为代价来降低误报率。我的做法是将正常邮件语料库中标记的出现次数双倍计算。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "a29413896eaca515449fa99ddce3b660d0ae92f6feb32011ff408e722bdeda00",
+      "enMarkdown": "I don't think it's a good idea to treat spam filtering as a straight text classification problem. You can use text classification techniques, but solutions can and should reflect the fact that the text is email, and spam in particular. Email is not just text; it has structure. Spam filtering is not just classification, because false positives are so much worse than false negatives that you should treat them as a different kind of error. And the source of error is not just random variation, but a live human spammer working actively to defeat your filter.",
+      "zhMarkdown": "我认为将垃圾邮件过滤单纯视为一个普通的文本分类问题并不是一个好主意。你可以使用文本分类技术，但解决方案可以且应当反映出一个事实：这些文本是电子邮件，尤其是垃圾邮件。电子邮件不仅仅是文本，它有其自身结构。垃圾邮件过滤也不仅仅是分类，因为误报比漏报要糟糕得多，你必须将它们视为不同性质的错误。而且误差的来源不仅仅是随机变异，还有一个活生生的垃圾邮件发送者在主动设法击败你的过滤器。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "d62654c23ae2ea00424194b6d8119b177d8ba6c129427e26383af28e36774f12",
+      "enMarkdown": "**Tokens**",
+      "zhMarkdown": "**标记（Tokens）**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "fb0ba1dd2792526c27c9fc2349d2a7eac3f5aff1270067d17e9a58b1d1260740",
+      "enMarkdown": "Another project I heard about after the Slashdot article was Bill Yerazunis' [CRM114](http://crm114.sourceforge.net) [5]. This is the counterexample to the design principle I just mentioned. It's a straight text classifier, but such a stunningly effective one that it manages to filter spam almost perfectly without even knowing that's what it's doing.",
+      "zhMarkdown": "在 Slashdot 的文章发表后，我听说的另一个项目是 Bill Yerazunis 的 [CRM114](http://crm114.sourceforge.net) [5]。这恰好是我刚才提到的设计原则的反例。它是一个纯粹的文本分类器，但其效果惊人地好，以至于它在完全不知道自己在做什么的情况下，几乎完美地过滤了垃圾邮件。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "1a57d3cf68c246c84eacdc9015ac10394d1cf66f81feb9cad4c0161861d87869",
+      "enMarkdown": "Once I understood how CRM114 worked, it seemed inevitable that I would eventually have to move from filtering based on single words to an approach like this. But first, I thought, I'll see how far I can get with single words. And the answer is, surprisingly far.",
+      "zhMarkdown": "一旦我理解了 CRM114 的工作原理，我似乎迟早都必须从基于单个词的过滤转向这种方法。但我想，首先我要看看用单字词能走多远。答案是，远超想象。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "1a309525ab8e12d405046e8be83e076aaef3f27463cd4c382b827919e1fb4153",
+      "enMarkdown": "Mostly I've been working on smarter tokenization. On current spam, I've been able to achieve filtering rates that approach CRM114's. These techniques are mostly orthogonal to Bill's; an optimal solution might incorporate both.",
+      "zhMarkdown": "我主要致力于更智能的标记化（tokenization）。针对目前的垃圾邮件，我已经能够达到接近 CRM114 的过滤率。这些技术与 Bill 的方法大多是正交的；最佳的解决方案可能会将两者结合起来。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "54cac191877463a28fdd976f5d062f69f8b11d95acdf8129c8d0a3f1cb6c8359",
+      "enMarkdown": "``A Plan for Spam'' uses a very simple definition of a token. Letters, digits, dashes, apostrophes, and dollar signs are constituent characters, and everything else is a token separator. I also ignored case.",
+      "zhMarkdown": "《垃圾邮件应对计划》中使用了一种非常简单的标记定义：字母、数字、连字符、单引号和美元符号是构成标记的字符，其他一切都是标记分隔符。当时我也忽略了大小写。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "b975738b941447adeca513a4dc76b3e62ccfa531e3b685d405e283ca37fef2ab",
+      "enMarkdown": "Now I have a more complicated definition of a token:",
+      "zhMarkdown": "现在，我对标记有了更复杂的定义："
+    },
+    {
+      "id": 19,
+      "type": "list",
+      "sourceHash": "8b1b5dc03587d937def8987e678fc7852c801109d93dcde218c91e9fd9c1d9f5",
+      "enMarkdown": "1. Case is preserved.\n2. Exclamation points are constituent characters.\n3. Periods and commas are constituents if they occur between two digits. This lets me get ip addresses and prices intact.\n4. A price range like $20-25 yields two tokens, $20 and $25.\n5. Tokens that occur within the To, From, Subject, and Return-Path lines, or within urls, get marked accordingly. E.g. ``foo'' in the Subject line becomes ``Subject*foo''. (The asterisk could be any character you don't allow as a constituent.)",
+      "zhMarkdown": "1. 保留大小写。\n2. 感叹号作为构成标记的字符。\n3. 如果句点和逗号出现在两个数字之间，则作为构成标记的字符。这使我能够完整保留 IP 地址和价格。\n4. 像 $20-25 这样的价格区间会产生两个标记：$20 和 $25。\n5. 出现在 收件人（To）、发件人（From）、主题（Subject）和退信通道（Return-Path）行中，或者出现在 URL 中的标记，会打上相应的标记。例如，主题行中的 “foo” 会变成 “Subject*foo”。（星号可以是任何你不允许作为标记组成部分的字符。）"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7c30bcdd677475212259a1e8da9b7aa0ff0cd0436ccb091a472d60623302eef6",
+      "enMarkdown": "Such measures increase the filter's vocabulary, which makes it more discriminating. For example, in the current filter, ``free'' in the Subject line has a spam probability of 98%, whereas the same token in the body has a spam probability of only 65%.",
+      "zhMarkdown": "这些措施扩大了过滤器的词汇量，使其更具辨识度。例如，在目前的过滤器中，主题行中的 “free” 具有 98% 的垃圾邮件概率，而正文中的同一个标记只有 65% 的垃圾邮件概率。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "b97c876477abacaef3ad8e755ea8940b36e1ddce4929290553d514f57d0e66b9",
+      "enMarkdown": "Here are some of the current probabilities [6]:",
+      "zhMarkdown": "以下是一些当前的概率 [6]："
+    },
+    {
+      "id": 22,
+      "type": "rawUnsupported",
+      "sourceHash": "f81934eb5d2d2609cb3154c9d8277f2e89ba36fe4f4fedf8635e5aceeec0033f",
+      "enMarkdown": "Subject*FREE      0.9999\nfree!!            0.9999\nTo*free           0.9998\nSubject*free      0.9782\nfree!             0.9199\nFree              0.9198\nUrl*free          0.9091\nFREE              0.8747\nFrom*free         0.7636\nfree              0.6546"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "970e0cf8f342290795b4a4d117d8e3c72add454e1c3b40f4feb7319fdc2ad79c",
+      "enMarkdown": "In the Plan for Spam filter, all these tokens would have had the same probability, .7602. That filter recognized about 23,000 tokens. The current one recognizes about 187,000.",
+      "zhMarkdown": "在《垃圾邮件应对计划》的过滤器中，所有这些标记的概率都曾是相同的 0.7602。那个过滤器能识别大约 23,000 个标记，而现在的这个能识别大约 187,000 个。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "99397dc88668ed204796cf4a18498b52fc22bc11137fd8bdf7ec93e347a31ca9",
+      "enMarkdown": "The disadvantage of having a larger universe of tokens is that there is more chance of misses. Spreading your corpus out over more tokens has the same effect as making it smaller. If you consider exclamation points as constituents, for example, then you could end up not having a spam probability for free with seven exclamation points, even though you know that free with just two exclamation points has a probability of 99.99%.",
+      "zhMarkdown": "拥有更大标记空间的缺点是漏报的概率会增加。将语料库分散到更多的标记上，其效果相当于缩小了语料库。例如，如果你把感叹号视为标记的组成部分，那么你可能最终无法得到带 7 个感叹号的 “free” 的垃圾邮件概率，即使你明明知道只带 2 个感叹号的 “free” 的垃圾邮件概率是 99.99%。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "7ac8e970a9a842d802929831764c252e04260eb2c7a3d871d425f3c0392b5089",
+      "enMarkdown": "One solution to this is what I call degeneration. If you can't find an exact match for a token, treat it as if it were a less specific version. I consider terminal exclamation points, uppercase letters, and occurring in one of the five marked contexts as making a token more specific. For example, if I don't find a probability for ``Subject*free!'', I look for probabilities for ``Subject*free'', ``free!'', and ``free'', and take whichever one is farthest from .5.",
+      "zhMarkdown": "解决这个问题的一种方法是我称之为“退化（degeneration）”的机制。如果你找不到某个标记的精确匹配，就把它当作一个不那么具体的版本来处理。我将末尾的感叹号、大写字母以及出现在五个特定上下文中的标记视为更具体的特征。例如，如果我找不到 “Subject*free!” 的概率，我就会去寻找 “Subject*free”、“free!” 和 “free” 的概率，并采用其中最偏离 0.5 的那一个。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "a1284de85a03be6cc824d570089ee8d9890f6ad442d529045d29b95ee8304ff7",
+      "enMarkdown": "Here are the alternatives [7] considered if the filter sees ``FREE!!!'' in the Subject line and doesn't have a probability for it.",
+      "zhMarkdown": "以下是如果过滤器在主题行中看到 “FREE!!!” 且没有其预存概率时，会考虑的备选方案 [7]。"
+    },
+    {
+      "id": 27,
+      "type": "rawUnsupported",
+      "sourceHash": "284255634a575269449aa57c7ed376f16432ce9f25622b009d3fa02e112f05d9",
+      "enMarkdown": "Subject*Free!!!\nSubject*free!!!\nSubject*FREE!\nSubject*Free!\nSubject*free!\nSubject*FREE\nSubject*Free\nSubject*free\nFREE!!!\nFree!!!\nfree!!!\nFREE!\nFree!\nfree!\nFREE\nFree\nfree"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "a1597dcfdf2b922ed743f45b0e76b1cffc16aa95a9c70517b939e3fc1e3783e9",
+      "enMarkdown": "If you do this, be sure to consider versions with initial caps as well as all uppercase and all lowercase. Spams tend to have more sentences in imperative mood, and in those the first word is a verb. So verbs with initial caps have higher spam probabilities than they would in all lowercase. In my filter, the spam probability of ``Act'' is 98% and for ``act'' only 62%.",
+      "zhMarkdown": "如果你这样做，一定要同时考虑首字母大写的版本，以及全大写和全小写的版本。垃圾邮件往往包含更多祈使句，在这些句子中，第一个词是动词。因此，首字母大写的动词比全小写的动词具有更高的垃圾邮件概率。在我的过滤器中，“Act” 的垃圾邮件概率是 98%，而 “act” 只有 62%。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "e435fe49bdf167415f2c8a1824f60e422f121ee09c457fcc68dc85ebfe8b4801",
+      "enMarkdown": "If you increase your filter's vocabulary, you can end up counting the same word multiple times, according to your old definition of ``same''. Logically, they're not the same token anymore. But if this still bothers you, let me add from experience that the words you seem to be counting multiple times tend to be exactly the ones you'd want to.",
+      "zhMarkdown": "如果你扩大了过滤器的词汇量，你最终可能会根据以前对“相同”的定义，把同一个词计算多次。从逻辑上讲，它们已经不再是同一个标记了。但如果这仍然让你感到困扰，让我根据经验补充一点：你似乎重复计算的那些词，往往恰恰是你最想重复计算的那些词。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "bd557fad4a09f7974fa1def5a12b6908abac6d3b792153385321335b1405ee8d",
+      "enMarkdown": "Another effect of a larger vocabulary is that when you look at an incoming mail you find more interesting tokens, meaning those with probabilities far from .5. I use the 15 most interesting to decide if mail is spam. But you can run into a problem when you use a fixed number like this. If you find a lot of maximally interesting tokens, the result can end up being decided by whatever random factor determines the ordering of equally interesting tokens. One way to deal with this is to treat some as more interesting than others.",
+      "zhMarkdown": "扩大词汇量的另一个效果是，当你看一封新邮件时，你会发现更多“有趣”的标记，即那些概率远离 0.5 的标记。我使用最有趣的 15 个标记来决定邮件是否为垃圾邮件。但是，当你使用这样一个固定数量时，你可能会遇到一个问题。如果你发现了大量极为有趣的标记，结果最终可能会被决定于那些确定同等有趣标记顺序的随机因素。解决这个问题的一种方法是将某些标记视为比其他标记更有趣。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "fc1f2cb0e053654cac4043ee9a06edb68e9d3c07d6305eef9e1090e0de8a6b7b",
+      "enMarkdown": "For example, the token ``dalco'' occurs 3 times in my spam corpus and never in my legitimate corpus. The token ``Url*optmails'' (meaning ``optmails'' within a url) occurs 1223 times. And yet, as I used to calculate probabilities for tokens, both would have the same spam probability, the threshold of .99.",
+      "zhMarkdown": "例如，标记 “dalco” 在我的垃圾邮件语料库中出现了 3 次，而在我的正常邮件语料库中从未出现。标记 “Url*optmails”（意味着 URL 中的 “optmails”）出现了 1223 次。然而，按照我以前计算标记概率的方法，这两者会有相同的垃圾邮件概率，即 0.99 的阈值。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "e833f367fec3b412488859d63c13b92cf16c8e00d0633f00d1fee5d2b730e0c9",
+      "enMarkdown": "That doesn't feel right. There are theoretical arguments for giving these two tokens substantially different probabilities (Pantel and Lin do), but I haven't tried that yet. It does seem at least that if we find more than 15 tokens that only occur in one corpus or the other, we ought to give priority to the ones that occur a lot. So now there are two threshold values. For tokens that occur only in the spam corpus, the probability is .9999 if they occur more than 10 times and .9998 otherwise. Ditto at the other end of the scale for tokens found only in the legitimate corpus.",
+      "zhMarkdown": "这感觉不太对。从理论上讲，有理由给这两个标记赋予大不相同的概率（Pantel 和 Lin 就是这么做的），但我还没有尝试过。但至少，如果我们发现有超过 15 个标记仅在其中一个语料库中出现，我们应该优先考虑那些出现次数多的标记。所以现在有了两个阈值。对于仅在垃圾邮件语料库中出现的标记，如果出现次数超过 10 次，概率为 0.9999，否则为 0.9998。对于仅在正常邮件语料库中发现的标记，在天平的另一端也是如此。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "15f6bebb03d90b2252ffb2a5c8113ae6c7d747f3e55d5a5604ebd7285028bc7f",
+      "enMarkdown": "I may later scale token probabilities substantially, but this tiny amount of scaling at least ensures that tokens get sorted the right way.",
+      "zhMarkdown": "我以后可能会对标记概率进行大幅度的微调，但目前这极小幅度的调整至少能确保标记按正确的顺序排序。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "a6634010a0131530dc41150a045b62a1ee4c463f21ecfa1947b5daf7441e1d7f",
+      "enMarkdown": "Another possibility would be to consider not just 15 tokens, but all the tokens over a certain threshold of interestingness. Steven Hauser does this in his statistical spam filter [8]. If you use a threshold, make it very high, or spammers could spoof you by packing messages with more innocent words.",
+      "zhMarkdown": "另一个可能性是不仅考虑 15 个标记，而是考虑所有超过一定“有趣度”阈值的标记。Steven Hauser 在他的统计垃圾邮件过滤器中就是这么做的 [8]。如果你使用阈值，一定要把它设得非常高，否则垃圾邮件发送者可以通过在邮件中塞入更多无害词汇来欺骗你。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "b5fd14c531eb5696fa8900de6fae6903dc6d52ea8046d9ebb103490a67417ab9",
+      "enMarkdown": "Finally, what should one do about html? I've tried the whole spectrum of options, from ignoring it to parsing it all. Ignoring html is a bad idea, because it's full of useful spam signs. But if you parse it all, your filter might degenerate into a mere html recognizer. The most effective approach seems to be the middle course, to notice some tokens but not others. I look at a, img, and font tags, and ignore the rest. Links and images you should certainly look at, because they contain urls.",
+      "zhMarkdown": "最后，对于 HTML 应该怎么处理？我尝试过所有的选择，从完全忽略到全部解析。忽略 HTML 是个坏主意，因为里面充满了有用的垃圾邮件特征。但是如果你全部解析，你的过滤器可能会退化为一个单纯的 HTML 识别器。最有效的方法似乎是折中方案：关注某些标记，而忽略其他标记。我只关注 `a`、`img` 和 `font` 标签，忽略其余部分。链接和图片你当然应该关注，因为它们包含 URL。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "4c32a194b85d4c208903a27da9a0fb723f097c4608a9e96d0e01866dc4ae9379",
+      "enMarkdown": "I could probably be smarter about dealing with html, but I don't think it's worth putting a lot of time into this. Spams full of html are easy to filter. The smarter spammers already avoid it. So performance in the future should not depend much on how you deal with html.",
+      "zhMarkdown": "我或许在处理 HTML 上可以做得更聪明，但我认为不值得在这上面投入大量时间。充满 HTML 的垃圾邮件很容易过滤。聪明的垃圾邮件发送者已经在避免使用它了。因此，未来的过滤性能不应该太依赖于你如何处理 HTML。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "35e4b126c5d2da0dae1615a3664f0a4d9864056cb48b644572f12d5eca40d98e",
+      "enMarkdown": "**Performance**",
+      "zhMarkdown": "**性能**"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "972d03f48d908863c1b13876b444740967fd6549b78f315cd48cc85fa241330d",
+      "enMarkdown": "Between December 10 2002 and January 10 2003 I got about 1750 spams. Of these, 4 got through. That's a filtering rate of about 99.75%.",
+      "zhMarkdown": "在 2002 年 12 月 10 日到 2003 年 10 月 10 日之间，我收到了大约 1750 封垃圾邮件。其中有 4 封漏网。拦截率约为 99.75%。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "23503c9b7e328464f8d7c78d75c21240ad983430a04314aa208102d5b3fe6ed7",
+      "enMarkdown": "Two of the four spams I missed got through because they happened to use words that occur often in my legitimate email.",
+      "zhMarkdown": "我漏掉的四封垃圾邮件中，有两封是因为它们恰好使用了我正常邮件中经常出现的词汇。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "efdf40c19c7f6f041a141fd24a85451406b376090c1d552f448c5ed6a797013f",
+      "enMarkdown": "The third was one of those that exploit an insecure cgi script to send mail to third parties. They're hard to filter based just on the content because the headers are innocent and they're careful about the words they use. Even so I can usually catch them. This one squeaked by with a probability of .88, just under the threshold of .9.",
+      "zhMarkdown": "第三封是利用不安全的 CGI 脚本向第三方发送邮件的那种。仅根据内容很难过滤它们，因为邮件头看起来很无害，而且它们用词很小心。即便如此，我通常也能抓住它们。这一封以 0.88 的概率险些过关，仅低于 0.9 的阈值。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "4c3f2af6e988e3c2186795d648b0e53f5792bf8521d27d6b3043246a31fcf79c",
+      "enMarkdown": "Of course, looking at multiple token sequences would catch it easily. ``Below is the result of your feedback form'' is an instant giveaway.",
+      "zhMarkdown": "当然，如果分析多词序列（multiple token sequences）就能轻易抓住它。诸如 “Below is the result of your feedback form”（以下是您的反馈表单结果）这样的词组一出现就会立刻暴露。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "ca3e185c393200166e2dca8930ff67cb299303ffab166d3ab50a5cb4f84890b5",
+      "enMarkdown": "The fourth spam was what I call a spam-of-the-future, because this is what I expect spam to evolve into: some completely neutral text followed by a url. In this case it was was from someone saying they had finally finished their homepage and would I go look at it. (The page was of course an ad for a porn site.)",
+      "zhMarkdown": "第四封垃圾邮件是我所说的“未来派垃圾邮件”，因为我预计垃圾邮件最终会演变成这种形式：一段完全中性的文本，后面跟着一个 URL。在这个例子中，发件人声称他们终于建好了自己的个人主页，问我是否愿意去看看。（当然，那个页面是一个色情网站的广告。）"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "2a0281f8a33d50c65a6e4c17c6cd5250a6ebc8796e1a6167cb915b96efdf3768",
+      "enMarkdown": "If the spammers are careful about the headers and use a fresh url, there is nothing in spam-of-the-future for filters to notice. We can of course counter by sending a crawler to look at the page. But that might not be necessary. The response rate for spam-of-the-future must be low, or everyone would be doing it. If it's low enough, it [won't pay](https://paulgraham.com/wfks.html) for spammers to send it, and we won't have to work too hard on filtering it.",
+      "zhMarkdown": "如果垃圾邮件发送者在邮件头上很小心，并使用全新的 URL，那么未来派垃圾邮件中就没有什么能让过滤器注意到的了。我们当然可以通过派出爬虫去查看该页面来反制。但那可能没有必要。未来派垃圾邮件的转化率一定很低，否则大家都会这么做。如果它足够低，对垃圾邮件发送者来说就[不划算](https://paulgraham.com/wfks.html)，我们也就不需要花太多精力去过滤它了。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "e893c00a0d09957219fdfa0afeaf9feca49b4e334e2287ed63e6fc2762259de7",
+      "enMarkdown": "Now for the really shocking news: during that same one-month period I got *three* false positives.",
+      "zhMarkdown": "现在来宣布一个真正令人震惊的消息：在同一个月里，我遇到了 *三起* 误报。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "6bdac2c44173b43069c7a1acb77bed1498a304fbd7b0665dc5c2ca63d153ca10",
+      "enMarkdown": "In a way it's a relief to get some false positives. When I wrote ``A Plan for Spam'' I hadn't had any, and I didn't know what they'd be like. Now that I've had a few, I'm relieved to find they're not as bad as I feared. False positives yielded by statistical filters turn out to be mails that sound a lot like spam, and these tend to be the ones you would least mind missing [9].",
+      "zhMarkdown": "在某种程度上，出现误报让人松了一口气。当我写《垃圾邮件应对计划》时，我还没有遇到过任何误报，我不知道它们会是什么样子。现在我遇到了几个，我欣慰地发现它们并没有我担心的那么糟糕。事实证明，统计过滤器产生的误报，往往是那些听起来极像垃圾邮件的邮件，而这些往往也是你最不在意漏掉的邮件 [9]。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "ed3da1788913a5751b7390db5ab0cc1ea52cc43f725df4cc33192e956fdcb7cd",
+      "enMarkdown": "Two of the false positives were newsletters from companies I've bought things from. I never asked to receive them, so arguably they were spams, but I count them as false positives because I hadn't been deleting them as spams before. The reason the filters caught them was that both companies in January switched to commercial email senders instead of sending the mails from their own servers, and both the headers and the bodies became much spammier.",
+      "zhMarkdown": "其中两个误报是我曾购买过东西的公司发来的电子报。我从未要求接收它们，因此可以说它们就是垃圾邮件，但我仍将它们算作误报，因为我以前并没有把它们当作垃圾邮件删除。过滤器抓住它们的原因是，这两家公司在 1 月份都改用了商业邮件发送商，而不是从自己的服务器发送邮件，导致邮件头和正文都变得更像垃圾邮件了。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "7b0bf95dcd4fe18941021e2a264c6a4bbe5441ad6390d6febc132eebcf16f281",
+      "enMarkdown": "The third false positive was a bad one, though. It was from someone in Egypt and written in all uppercase. This was a direct result of making tokens case sensitive; the Plan for Spam filter wouldn't have caught it.",
+      "zhMarkdown": "不过，第三个误报就很糟糕了。它来自埃及的某个人，全用大写字母书写。这是让标记区分大小写的直接后果；《垃圾邮件应对计划》中的过滤器是不会拦截它的。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "90943a12f5a6e6314cdce6b46f6dab6c97cef414eb0efc0c2ea7bf133ef56e74",
+      "enMarkdown": "It's hard to say what the overall false positive rate is, because we're up in the noise, statistically. Anyone who has worked on filters (at least, effective filters) will be aware of this problem. With some emails it's hard to say whether they're spam or not, and these are the ones you end up looking at when you get filters really tight. For example, so far the filter has caught two emails that were sent to my address because of a typo, and one sent to me in the belief that I was someone else. Arguably, these are neither my spam nor my nonspam mail.",
+      "zhMarkdown": "很难说整体的误报率是多少，因为从统计学上讲，我们已经处于噪声之中。任何研究过过滤器（至少是有效过滤器）的人都会意识到这个问题。对于某些电子邮件，很难说它们是不是垃圾邮件，而这些正是你在把过滤器收得极紧时最终会面对的。例如，到目前为止，过滤器已经拦截了两封因为拼写错误而发送到我地址的邮件，以及一封因为把我当成了别人而发给我的邮件。可以说，这些既不是我的垃圾邮件，也不是我的正常邮件。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "48ecb0a3c4b67ba67083951d9da0d81c9c5c8b8bf4de66f29c1aca2151baaa93",
+      "enMarkdown": "Another false positive was from a vice president at Virtumundo. I wrote to them pretending to be a customer, and since the reply came back through Virtumundo's mail servers it had the most incriminating headers imaginable. Arguably this isn't a real false positive either, but a sort of Heisenberg uncertainty effect: I only got it because I was writing about spam filtering.",
+      "zhMarkdown": "另一个误报来自 Virtumundo 的一位副总裁。我写信给他们假装成客户，由于回复是通过 Virtumundo 的邮件服务器发回的，它带有能想象到的最可疑的邮件头。可以说这也不是真正的误报，而是一种海森堡不确定性效应：我收到它只是因为我正在写关于垃圾邮件过滤的文章。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "c7336eaaf3e9ecc4a099741fb05dd391cecfad1ad6655eb3af693602c150fdfe",
+      "enMarkdown": "Not counting these, I've had a total of five false positives so far, out of about 7740 legitimate emails, a rate of .06%. The other two were a notice that something I bought was back-ordered, and a party reminder from Evite.",
+      "zhMarkdown": "不计这些，在约 7740 封正常邮件中，我总共遇到了五次误报，比例为 0.06%。另外两封是一封通知我购买的商品无货的邮件，以及来自 Evite 的派对提醒。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "452fc64d60b23a947650a73c774b6985b45d6dbdb8cfba97c13803978fb92073",
+      "enMarkdown": "I don't think this number can be trusted, partly because the sample is so small, and partly because I think I can fix the filter not to catch some of these.",
+      "zhMarkdown": "我认为这个数字不可信，部分原因是样本量太小，另一部分原因是我认为我可以改进过滤器，使其不再拦截其中一些邮件。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "d468c7b70bcba05019913677eab06731ba416232e9ed54d40d850e9fbdacad0e",
+      "enMarkdown": "False positives seem to me a different kind of error from false negatives. Filtering rate is a measure of performance. False positives I consider more like bugs. I approach improving the filtering rate as optimization, and decreasing false positives as debugging.",
+      "zhMarkdown": "在我看来，误报与漏报是完全不同性质的错误。拦截率是性能的衡量标准。而误报更像是 Bug。我把提高拦截率看作是优化，而把减少误报看作是调试。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "af4e1e6ef2c34a07cff193c1aade546f1461b3e0fbab48be7be7f8e54e83b8d1",
+      "enMarkdown": "So these five false positives are my bug list. For example, the mail from Egypt got nailed because the uppercase text made it look to the filter like a Nigerian spam. This really is kind of a bug. As with html, the email being all uppercase is really conceptually *one* feature, not one for each word. I need to handle case in a more sophisticated way.",
+      "zhMarkdown": "所以这五个误报就是我的 Bug 清单。例如，来自埃及的邮件被拦截，是因为大写文本让过滤器觉得它像一封尼日利亚骗局垃圾邮件。这确实是一个 Bug。就像 HTML 一样，电子邮件全是大写在概念上其实是*一个*特征，而不是每个单词各算一个特征。我需要以更高级的方式来处理大小写。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "75fbc2f15f47955d4603668ee1449042fb41b2658354cf7898648a2d38e2a9ce",
+      "enMarkdown": "So what to make of this .06%? Not much, I think. You could treat it as an upper bound, bearing in mind the small sample size. But at this stage it is more a measure of the bugs in my implementation than some intrinsic false positive rate of Bayesian filtering.",
+      "zhMarkdown": "那么怎么看待这 0.06% 呢？我认为说明不了太多。考虑到样本量较小，你可以将其视为一个上限。但在现阶段，它更多地衡量了我实现过程中的 Bug，而不是贝叶斯过滤本身固有的误报率。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "c723172107b39c854c32e0a22fb6c6cb8f0daa3bef427ecdb60c3d282cbde248",
+      "enMarkdown": "**Future**",
+      "zhMarkdown": "**未来**"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "90e4bf72178cb34e683b55f67a507069baf90ee5c659f2178cec23818c9db40f",
+      "enMarkdown": "What next? Filtering is an optimization problem, and the key to optimization is profiling. Don't try to guess where your code is slow, because you'll guess wrong. *Look* at where your code is slow, and fix that. In filtering, this translates to: look at the spams you miss, and figure out what you could have done to catch them.",
+      "zhMarkdown": "下一步是什么？过滤是一个优化问题，而优化的关键是性能分析（profiling）。不要试图去猜测你的代码在哪里慢，因为你会猜错。去*看*你的代码在哪里慢，然后修复它。在过滤中，这可以转化为：看看你漏掉的垃圾邮件，找出你本可以做些什么来抓住它们。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "778177509ddd4c3a8b1322d239c171f976e601a0bfa26e292cd9ff56135e0f2c",
+      "enMarkdown": "For example, spammers are now working aggressively to evade filters, and one of the things they're doing is breaking up and misspelling words to prevent filters from recognizing them. But working on this is not my first priority, because I still have no trouble catching these spams [10].",
+      "zhMarkdown": "例如，垃圾邮件发送者现在正极力逃避过滤器，他们正在做的事情之一就是拆分单词和拼错单词，以防止过滤器识别它们。但解决这个问题并不是我的首要任务，因为我目前抓住这些垃圾邮件仍然毫无困难 [10]。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "f22408dd54e1ae3ad0aed37866f3bf2dc4adac23d7f1e982ad6492e863132476",
+      "enMarkdown": "There are two kinds of spams I currently do have trouble with. One is the type that pretends to be an email from a woman inviting you to go chat with her or see her profile on a dating site. These get through because they're the one type of sales pitch you can make without using sales talk. They use the same vocabulary as ordinary email.",
+      "zhMarkdown": "目前确实让我感到棘手的垃圾邮件有两种。一种是假装成女性邀请你去聊天或在交友网站上看她资料的邮件。这些邮件之所以能混过去，是因为这是你唯一一种可以不用推销词汇来进行的推销。它们使用的词汇与普通邮件完全一样。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "a388680686f7abdff6c06763a34b5134391b31dc3c2f4e05f25d0d2c5a3e13b7",
+      "enMarkdown": "The other kind of spams I have trouble filtering are those from companies in e.g. Bulgaria offering contract programming services. These get through because I'm a programmer too, and the spams are full of the same words as my real mail.",
+      "zhMarkdown": "另一种我难以过滤的垃圾邮件是来自例如保加利亚等国提供外包编程服务的公司。这些邮件之所以能混过去，是因为我自己也是程序员，而这些垃圾邮件里充满了和我真实邮件一模一样的词汇。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "7cde879444c91c8d81352d3594a3ad111678ad0524021406bd09499963168bfe",
+      "enMarkdown": "I'll probably focus on the personal ad type first. I think if I look closer I'll be able to find statistical differences between these and my real mail. The style of writing is certainly different, though it may take multiword filtering to catch that. Also, I notice they tend to repeat the url, and someone including a url in a legitimate mail wouldn't do that [11].",
+      "zhMarkdown": "我可能会先专注于个人交友广告那一类。我想如果我看得更仔细一些，我能发现它们与我真实邮件之间的统计差异。写作风格当然是不同的，尽管这可能需要多词过滤才能抓住。此外，我注意到它们倾向于重复 URL，而一个在正常邮件中放入 URL 的人是不会这样做的 [11]。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "bb8004b7d81179f8917bca7dd517dbdbb9dbfc1af4b738df1fcff6f5edd57539",
+      "enMarkdown": "The outsourcing type are going to be hard to catch. Even if you sent a crawler to the site, you wouldn't find a smoking statistical gun. Maybe the only answer is a central list of domains advertised in spams [12]. But there can't be that many of this type of mail. If the only spams left were unsolicited offers of contract programming services from Bulgaria, we could all probably move on to working on something else.",
+      "zhMarkdown": "外包类垃圾邮件将很难抓住。即使你派爬虫去那个网站，你也不会发现确凿的统计证据。也许唯一的答案是建立一个在垃圾邮件中做广告的域名的中央列表 [12]。但这类邮件应该不会有那么多。如果剩下的垃圾邮件只有来自保加利亚的未经请求的外包编程服务，我们大概都可以转去研究别的东西了。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "0e9f21981e2842d2cb49156cac2b81772efd3533648f3de047294ecd872a9e74",
+      "enMarkdown": "Will statistical filtering actually get us to that point? I don't know. Right now, for me personally, spam is not a problem. But spammers haven't yet made a serious effort to spoof statistical filters. What will happen when they do?",
+      "zhMarkdown": "统计过滤真的能让我们达到那个境界吗？我不知道。现在，对我个人而言，垃圾邮件已经不再是问题。但垃圾邮件发送者还没有认真尝试去欺骗统计过滤器。当他们真的开始这样做时，会发生什么？"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "2fa26dab40ef355493e8a80d546cd519fd1c9db389bce88b19d5986a79896349",
+      "enMarkdown": "I'm not optimistic about filters that work at the network level [13]. When there is a static obstacle worth getting past, spammers are pretty efficient at getting past it. There is already a company called Assurance Systems that will run your mail through Spamassassin and tell you whether it will get filtered out.",
+      "zhMarkdown": "我对在网络层工作的过滤器并不乐观 [13]。当存在一个值得逾越的静态障碍时，垃圾邮件发送者在逾越它方面是相当高效的。现在已经有一家名为 Assurance Systems 的公司，可以帮你用 Spamassassin 运行邮件，并告诉你它是否会被过滤掉。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "d467a3e057db136403d2986dd4c6658aaeb8bb9580d3a3241cf191c23ee8cc9f",
+      "enMarkdown": "Network-level filters won't be completely useless. They may be enough to kill all the \"opt-in\" spam, meaning spam from companies like Virtumundo and Equalamail who claim that they're really running opt-in lists. You can filter those based just on the headers, no matter what they say in the body. But anyone willing to falsify headers or use open relays, presumably including most porn spammers, should be able to get some message past network-level filters if they want to. (By no means the message they'd like to send though, which is something.)",
+      "zhMarkdown": "网络层过滤器不会完全无用。它们可能足以消灭所有“选择性加入（opt-in）”的垃圾邮件，即来自 Virtumundo 和 Equalamail 等声称自己确实在运营订阅列表的公司的邮件。无论它们在正文中说什么，你都可以仅根据邮件头来过滤它们。但是，任何愿意伪造邮件头或使用公开中继的人（大概包括大多数色情垃圾邮件发送者），如果他们想的话，应该都能够让某些邮件通过网络层过滤器。（虽然绝不是他们最想发送的那种邮件，但这总归是个进步。）"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "aa15090bf5323bf2a097cb32a259ab614768d8ddd0cf2eeca94cfb7dc3965d39",
+      "enMarkdown": "The kind of filters I'm optimistic about are ones that calculate probabilities based on each individual user's mail. These can be much more effective, not only in avoiding false positives, but in filtering too: for example, finding the recipient's email address base-64 encoded anywhere in a message is a very good spam indicator.",
+      "zhMarkdown": "我所看好的过滤器，是那些根据每个用户的个人邮件计算概率的过滤器。这些过滤器可以有效得多，不仅在避免误报方面，在过滤方面也是如此：例如，在邮件的任何地方发现收件人电子邮件地址的 base-64 编码，就是一个非常好的垃圾邮件指标。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "48003bee5f5d020c3fbb86b252401c51cd8f2b619ca9b859bd52c122ef0dbbb8",
+      "enMarkdown": "But the real advantage of individual filters is that they'll all be different. If everyone's filters have different probabilities, it will make the spammers' optimization loop, what programmers would call their edit-compile-test cycle, appallingly slow. Instead of just tweaking a spam till it gets through a copy of some filter they have on their desktop, they'll have to do a test mailing for each tweak. It would be like programming in a language without an interactive toplevel, and I wouldn't wish that on anyone.",
+      "zhMarkdown": "但个人过滤器真正的优势在于它们都是不同的。如果每个人的过滤器都有不同的概率，这将会使垃圾邮件发送者的优化循环——程序员所说的“编辑-编译-测试”周期——变得极其缓慢。他们不能仅仅微调一封垃圾邮件，直到它通过他们电脑上的某个过滤器副本，而是必须为每次微调进行一次测试群发。这就像是在一个没有交互式顶层（interactive toplevel）的语言中写程序，我可不希望任何人遭遇这种痛苦。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "77b85b33ab378108b8b71092843418548323024c3f2cb477e1cccfbb83b7cc3b",
+      "enMarkdown": "[1] Paul Graham. ``A Plan for Spam.'' August 2002. http://paulgraham.com/spam.html.",
+      "zhMarkdown": "[1] Paul Graham. “A Plan for Spam.” 2002 年 8 月. http://paulgraham.com/spam.html."
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "87c9b5134ba45be73a7b1d4f9314dba6e3e7325218eda7570498f18fa164da1f",
+      "enMarkdown": "Probabilities in this algorithm are calculated using a degenerate case of Bayes' Rule. There are two simplifying assumptions: that the probabilities of features (i.e. words) are independent, and that we know nothing about the prior probability of an email being spam.",
+      "zhMarkdown": "该算法中的概率是使用贝叶斯定理的简化情况计算的。有两个简化假设：特征（即单词）的概率是独立的，并且我们对一封电子邮件是垃圾邮件的先验概率一无所知。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "4dc0ce1184950f719a088bf80646fddc40bf5f1021924a136f10862afaf3458a",
+      "enMarkdown": "The first assumption is widespread in text classification. Algorithms that use it are called ``naive Bayesian.''",
+      "zhMarkdown": "第一个假设在文本分类中被广泛使用。使用该假设的算法被称为“朴素贝叶斯（naive Bayesian）”。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "fa360a59c917bfd10b8851608900c5f02428dac859ea24f8a8df599b71023da9",
+      "enMarkdown": "The second assumption I made because the proportion of spam in my incoming mail fluctuated so much from day to day (indeed, from hour to hour) that the overall prior ratio seemed worthless as a predictor. If you assume that P(spam) and P(nonspam) are both .5, they cancel out and you can remove them from the formula.",
+      "zhMarkdown": "我做出第二个假设是因为，在我的收件箱中，垃圾邮件的比例每天（甚至每小时）波动都非常大，以至于整体的先验比例作为预测指标似乎毫无价值。如果你假设 P(spam) 和 P(nonspam) 都是 0.5，它们就会相互抵消，你就可以把它们从公式中去掉。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "9f7986ea2c005ea8b1b1415c813f9d31fb15e10fdea083606d89265931b7d597",
+      "enMarkdown": "If you were doing Bayesian filtering in a situation where the ratio of spam to nonspam was consistently very high or (especially) very low, you could probably improve filter performance by incorporating prior probabilities. To do this right you'd have to track ratios by time of day, because spam and legitimate mail volume both have distinct daily patterns.",
+      "zhMarkdown": "如果你在垃圾邮件与正常邮件的比例始终非常高或（尤其是）非常低的情况下进行贝叶斯过滤，你或许可以通过引入先验概率来提高过滤器性能。为了做好这一点，你必须按一天中的不同时间来追踪比例，因为垃圾邮件和正常邮件的数量都有明显的每日模式。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "4e02b618d7f27395b6b933b80bb180971e6c9f29ce2689e5c60ddd388ff3f000",
+      "enMarkdown": "[2] Patrick Pantel and Dekang Lin. ``SpamCop-- A Spam Classification & Organization Program.'' Proceedings of AAAI-98 Workshop on Learning for Text Categorization.",
+      "zhMarkdown": "[2] Patrick Pantel and Dekang Lin. “SpamCop-- A Spam Classification & Organization Program.” Proceedings of AAAI-98 Workshop on Learning for Text Categorization."
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "5e35282e6b1ecdaf644f52db8dbbd4206c24cbfb0e9ba569eed6b42f0fd277aa",
+      "enMarkdown": "[3] Mehran Sahami, Susan Dumais, David Heckerman and Eric Horvitz. ``A Bayesian Approach to Filtering Junk E-Mail.'' Proceedings of AAAI-98 Workshop on Learning for Text Categorization.",
+      "zhMarkdown": "[3] Mehran Sahami, Susan Dumais, David Heckerman and Eric Horvitz. “A Bayesian Approach to Filtering Junk E-Mail.” Proceedings of AAAI-98 Workshop on Learning for Text Categorization."
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "32824188f7876f679b267ccb59fd2f6e2cdd42aab239241c348d8ccaafe437db",
+      "enMarkdown": "[4] At the time I had zero false positives out of about 4,000 legitimate emails. If the next legitimate email was a false positive, this would give us .03%. These false positive rates are untrustworthy, as I explain later. I quote a number here only to emphasize that whatever the false positive rate is, it is less than 1.16%.",
+      "zhMarkdown": "[4] 当时，在约 4,000 封正常邮件中，我的误报率为零。如果下一封正常邮件是误报，误报率将是 0.03%。正如我稍后解释的那样，这些误报率是不可靠的。我在这里引用一个数字只是为了强调，无论误报率是多少，它都低于 1.16%。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "b444b60cfcc598b9b03a2ca6b9a1e84d6cc584efa60f8e393c0502a9c311ff75",
+      "enMarkdown": "[5] Bill Yerazunis. ``Sparse Binary Polynomial Hash Message Filtering and The CRM114 Discriminator.'' Proceedings of 2003 Spam Conference.",
+      "zhMarkdown": "[5] Bill Yerazunis. “Sparse Binary Polynomial Hash Message Filtering and The CRM114 Discriminator.” Proceedings of 2003 Spam Conference."
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "d1fd576710794f5fbde8f8f1e51aa5694902978f844123657647d24f5644698e",
+      "enMarkdown": "[6] In ``A Plan for Spam'' I used thresholds of .99 and .01. It seems justifiable to use thresholds proportionate to the size of the corpora. Since I now have on the order of 10,000 of each type of mail, I use .9999 and .0001.",
+      "zhMarkdown": "[6] 在《垃圾邮件应对计划》中，我使用了 0.99 和 0.01 的阈值。使用与语料库大小成比例的阈值似乎是合理的。由于我目前每种邮件都有大约 10,000 封，因此我使用 0.9999 和 0.0001。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "380204a137caf25a53aaf151a1d4074882891985ea629220287cd6fa4cf4130a",
+      "enMarkdown": "[7] There is a flaw here I should probably fix. Currently, when ``Subject*foo'' degenerates to just ``foo'', what that means is you're getting the stats for occurrences of ``foo'' in the body or header lines other than those I mark. What I should do is keep track of statistics for ``foo'' overall as well as specific versions, and degenerate from ``Subject*foo'' not to ``foo'' but to ``Anywhere*foo''. Ditto for case: I should degenerate from uppercase to any-case, not lowercase.",
+      "zhMarkdown": "[7] 这里有一个我应该修复的缺陷。目前，当 “Subject*foo” 退化为仅有 “foo” 时，这意味着你得到的是 “foo” 在正文或除我标记的那些之外的邮件头行中出现的统计数据。我应该做的是记录 “foo” 整体以及特定版本的统计数据，并从 “Subject*foo” 退化为 “Anywhere*foo” 而不是 “foo”。大小写也是如此：我应该从大写退化为任意大小写，而不是小写。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "65b3e6e67ffd94b610b6e2e591e1513eddca3d2cf981e281891029d5b8d7bd60",
+      "enMarkdown": "It would probably be a win to do this with prices too, e.g. to degenerate from ``$129.99'' to ``$--9.99'', ``$--.99'', and ``$--''.",
+      "zhMarkdown": "对价格也这样做可能也是个好办法，例如从 “$129.99” 退化为 “$--9.99”、“$--.99” 和 “$--”。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "9f68200452f105754d4309d62fc90b20155c7572d6228c809047403de6a38de8",
+      "enMarkdown": "You could also degenerate from words to their stems, but this would probably only improve filtering rates early on when you had small corpora.",
+      "zhMarkdown": "你也可以将单词退化为它们的词干，但这可能只在早期语料库较小时才能提高过滤率。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "9dd8e7662e5341f3e46e796ee577671696f7a1bca3d11476612d45eb7c9d937d",
+      "enMarkdown": "[8] Steven Hauser. ``Statistical Spam Filter Works for Me.'' http://www.sofbot.com.",
+      "zhMarkdown": "[8] Steven Hauser. “Statistical Spam Filter Works for Me.” http://www.sofbot.com."
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "b77a490c5c7ecb18c13f4d782fbbd78b1006cf4816b85760ff321d43b926ead9",
+      "enMarkdown": "[9] False positives are not all equal, and we should remember this when comparing techniques for stopping spam. Whereas many of the false positives caused by filters will be near-spams that you wouldn't mind missing, false positives caused by blacklists, for example, will be just mail from people who chose the wrong ISP. In both cases you catch mail that's near spam, but for blacklists nearness is physical, and for filters it's textual.",
+      "zhMarkdown": "[9] 误报并不都是等同的，我们在比较阻止垃圾邮件的技术时应该记住这一点。虽然过滤器引起的许多误报将是那些你不在意漏掉的准垃圾邮件（near-spams），但例如黑名单引起的误报，将只是来自选错了 ISP 的人们的邮件。在这两种情况下，你都会拦截接近垃圾邮件的邮件，但对于黑名单来说，这种接近是物理上的，而对于过滤器来说，则是文本上的。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "77cf8f018fbf50721f86ec2de19df567079710d784a93141308c2fcd23c6bb36",
+      "enMarkdown": "[10] If spammers get good enough at obscuring tokens for this to be a problem, we can respond by simply removing whitespace, periods, commas, etc. and using a dictionary to pick the words out of the resulting sequence. And of course finding words this way that weren't visible in the original text would in itself be evidence of spam.",
+      "zhMarkdown": "[10] 如果垃圾邮件发送者在混淆标记方面做得足够好，以至于这成为一个问题，我们只需通过去除空格、句点、逗号等，并使用词典从生成的序列中挑选出单词来应对。当然，用这种方式发现原本在原始文本中不可见的单词，其本身就是垃圾邮件的证据。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "eccda4c21fe3fa7efa9de2c0fc294dfc07082e0a0816a27643443a8e1c708d09",
+      "enMarkdown": "Picking out the words won't be trivial. It will require more than just reconstructing word boundaries; spammers both add (``xHot nPorn cSite'') and omit (``P#rn'') letters. Vision research may be useful here, since human vision is the limit that such tricks will approach.",
+      "zhMarkdown": "挑选出单词并非易事。这不仅仅需要重建单词边界；垃圾邮件发送者既会添加字母（如 “xHot nPorn cSite”），也会省略字母（如 “P#rn”）。视觉研究在这里可能会有用，因为人类视觉是此类把戏将要逼近的极限。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "4c69934030930058c477a970afdfee5ab2a6bcd26bbdad7981898ed5d834478b",
+      "enMarkdown": "[11] In general, spams are more repetitive than regular email. They want to pound that message home. I currently don't allow duplicates in the top 15 tokens, because you could get a false positive if the sender happens to use some bad word multiple times. (In my current filter, ``dick'' has a spam probabilty of .9999, but it's also a name.) It seems we should at least notice duplication though, so I may try allowing up to two of each token, as Brian Burton does in SpamProbe.",
+      "zhMarkdown": "[11] 总的来说，垃圾邮件比普通邮件更具重复性。它们想把那个信息强行灌输给你。我目前不允许在前 15 个标记中出现重复，因为如果发送者恰好多次使用某个不好的词，你可能会得到误报。（在我目前的过滤器中，“dick” 的垃圾邮件概率为 0.9999，但它也是一个名字。）不过，我们似乎至少应该注意到重复，所以我可能会尝试允许每个标记最多出现两次，就像 Brian Burton 在 SpamProbe 中所做的那样。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "c53c44cf07e568d569212e42ef45f118c7428b869b084f10a76f4fd7b75e0ae8",
+      "enMarkdown": "[12] This is what approaches like Brightmail's will degenerate into once spammers are pushed into using mad-lib techniques to generate everything else in the message.",
+      "zhMarkdown": "[12] 一旦垃圾邮件发送者被迫使用 mad-lib（填字游戏）技术来生成邮件中的其他所有内容，像 Brightmail 这样的方法最终就会退化为这种形式。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "c82a1e4897cd083c5b6ac0628b0e7d13d97008e1d037046605d2120c0ec7b932",
+      "enMarkdown": "[13] It's sometimes argued that we should be working on filtering at the network level, because it is more efficient. What people usually mean when they say this is: we currently filter at the network level, and we don't want to start over from scratch. But you can't dictate the problem to fit your solution.",
+      "zhMarkdown": "[13] 有时有人主张我们应该致力于在网络层进行过滤，因为这样效率更高。人们说这话时通常的意思是：我们目前是在网络层进行过滤，我们不想从头开始。但你不能为了适应你的解决方案而强行规定问题。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "56dea49d39cd90df020ac4322aba737b4a0dec53fe1c4f1fc4e12be291c6b208",
+      "enMarkdown": "Historically, scarce-resource arguments have been the losing side in debates about software design. People only tend to use them to justify choices (inaction in particular) made for other reasons.",
+      "zhMarkdown": "从历史上看，在关于软件设计的辩论中，稀缺资源论总是输家。人们往往只是用它们来为出于其他原因做出的选择（尤其是无所作为）进行辩护。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "3ea4faff135c6ebca7bc41e5f932a1f06763016a083476056a92e07397d6a91a",
+      "enMarkdown": "**Thanks** to Sarah Harlin, Trevor Blackwell, and Dan Giffin for reading drafts of this paper, and to Dan again for most of the infrastructure that this filter runs on.",
+      "zhMarkdown": "**感谢** Sarah Harlin、Trevor Blackwell 和 Dan Giffin 阅读了本文的草稿，并再次感谢 Dan 提供了该过滤器运行所需的大部分基础设施。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "44f2efebd4ecadb579a8d1ef2f48651513e02509cd86de59ae335d4103a67110",
+      "enMarkdown": "**Related:**",
+      "zhMarkdown": "**相关链接：**"
+    }
+  ]
+}

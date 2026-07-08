@@ -1,0 +1,223 @@
+{
+  "slug": "die",
+  "titleEn": "How Not to Die",
+  "titleZh": "如何不搞砸（如何不走向死亡）",
+  "dateText": "August 2007",
+  "publishedAt": "2007-08-01",
+  "sourceOrder": 149,
+  "sourceUrl": "https://paulgraham.com/die.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "440e1c15b132d2dfae220dd6f75560681ba0f6686abb627ddd0ec00b0fadbf9b",
+      "enMarkdown": "*(This is a talk I gave at the last \nY Combinator dinner of the summer. \nUsually we don't have a speaker at the last dinner; it's more of\na party.  But it seemed worth spoiling the atmosphere if I could\nsave some of the startups from\npreventable deaths.  So at the last minute I cooked up this rather\ngrim talk.  I didn't mean this as an essay; I wrote it down\nbecause I only had two hours before dinner and think fastest while\nwriting.)*",
+      "zhMarkdown": "*（这是我在今年夏天最后一顿 Y Combinator 晚宴上的演讲。通常最后一顿晚宴我们不安排演讲，更多是一场派对。但如果能挽救一些创业公司免于本可避免的失败，那么煞一下风景也是值得的。所以在最后一刻，我准备了这篇相当严肃的演讲。我没打算把它写成文章；写下来只是因为离晚宴只有两个小时了，而我在写作时思维最快。）*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "191d69a7a413ab83d9ce52fdd4b50f8e710b6c548462535fceedb4c25984ee56",
+      "enMarkdown": "A couple days ago I told a reporter that we expected about a third of the companies we funded to succeed. Actually I was being conservative. I'm hoping it might be as much as a half. Wouldn't it be amazing if we could achieve a 50% success rate?",
+      "zhMarkdown": "几天前，我告诉一位记者，我们预计资助的公司中大约有三分之一会成功。其实我还是保守了。我希望这个比例能达到二分之一。如果我们能达到 50% 的成功率，那不是太惊人了吗？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "a6fa393f47fbe32b41d3534842bac067fb360865497ae709420e203aad7fc37e",
+      "enMarkdown": "Another way of saying that is that half of you are going to die. Phrased that way, it doesn't sound good at all. In fact, it's kind of weird when you think about it, because our definition of success is that the founders get rich. If half the startups we fund succeed, then half of you are going to get rich and the other half are going to get nothing.",
+      "zhMarkdown": "换句话说，你们中有一半人会失败。这么说听起来可一点都不妙。事实上，仔细想想这挺奇怪的，因为我们对成功的定义是创始人变富有。如果有一半我们资助的创业公司成功了，那就意味着你们中有一半人会发财，而另一半人将一无所有。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "04a02a4f6ae9b462525483b51e00b286c835445c6bd279e4fda5c90547367615",
+      "enMarkdown": "If you can just avoid dying, you get rich. That sounds like a joke, but it's actually a pretty good description of what happens in a typical startup. It certainly describes what happened in Viaweb. We avoided dying till we got rich.",
+      "zhMarkdown": "只要你能撑住不死掉，你就能变富有。这听起来像个笑话，但实际上它非常准确地描述了一个典型创业公司的经历。这当然也适用于 Viaweb。我们就是一路死撑，直到变富有的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "792127763ba526a794e861527d1518e300e29eee106ffa94de78adb0d5a65c12",
+      "enMarkdown": "It was really close, too. When we were visiting Yahoo to talk about being acquired, we had to interrupt everything and borrow one of their conference rooms to talk down an investor who was about to back out of a new funding round we needed to stay alive. So even in the middle of getting rich we were fighting off the grim reaper.",
+      "zhMarkdown": "当时情况真的非常惊险。就在我们去雅虎谈收购的时候，我们不得不中断一切，借用他们的一间会议室，去说服一位正准备退出新一轮融资的投资人，而这笔钱是我们活下去所必需的。所以，即使在走向暴富的途中，我们也在和死神搏斗。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "dab8d8dbeb26cc933935d0ae1373ede32976157fb9370be5f8634856a6623856",
+      "enMarkdown": "You may have heard that quote about luck consisting of opportunity meeting preparation. You've now done the preparation. The work you've done so far has, in effect, put you in a position to get lucky: you can now get rich by not letting your company die. That's more than most people have. So let's talk about how not to die.",
+      "zhMarkdown": "你可能听过那句话：运气就是机会碰巧遇到了准备。现在你们已经做好了准备。到目前为止你们所做的工作，实际上已经让你们处于一个可以碰好运的位置：现在你们只要不让公司倒闭，就能变富有。这已经比大多数人拥有的机会要多得多。所以，让我们来谈谈如何不走向死亡。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "c6e7b2994c4b529f9ea16634e5605d4d36249f486c1e7fdbcbdec3b3cb5159eb",
+      "enMarkdown": "We've done this five times now, and we've seen a bunch of startups die. About 10 of them so far. We don't know exactly what happens when they die, because they generally don't die loudly and heroically. Mostly they crawl off somewhere and die.",
+      "zhMarkdown": "我们已经办了五期，目睹了许多创业公司的夭折。到目前为止大约有 10 家。我们不太清楚它们死的时候具体发生了什么，因为它们通常死得无声无息，一点也不轰轰烈烈。大多数都是躲到某个角落，然后默默地死掉。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ff8732b9516d882dbab64dd625fcfb476e550850e54f80132d00546327443108",
+      "enMarkdown": "For us the main indication of impending doom is when we don't hear from you. When we haven't heard from, or about, a startup for a couple months, that's a bad sign. If we send them an email asking what's up, and they don't reply, that's a really bad sign. So far that is a 100% accurate predictor of death.",
+      "zhMarkdown": "对我们来说，倒闭前兆最主要的迹象就是我们听不到你们的消息。当我们一两个月都没有听到某个创业公司的消息或关于他们的传闻时，这就是个坏兆头。如果我们发邮件问近况，而他们不回复，那就是个极坏的兆头。到目前为止，这是 100% 准确的死亡预测指标。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "bbb1674d502355bd950f5a3a43e631451fbcb92efe2842552fb60db2f7064519",
+      "enMarkdown": "Whereas if a startup regularly does new deals and releases and either sends us mail or shows up at YC events, they're probably going to live.",
+      "zhMarkdown": "相反，如果一个创业公司经常达成新交易、发布新功能，要么给我们发邮件，要么出现在 YC 的活动上，他们大概率能活下去。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "090205062b53566d14ca194aebea3f7139d98369f6e2c4495cd4ce7501d815a8",
+      "enMarkdown": "I realize this will sound naive, but maybe the linkage works in both directions. Maybe if you can arrange that we keep hearing from you, you won't die.",
+      "zhMarkdown": "我知道这听起来很天真，但也许这种联系是双向的。也许只要你安排好让我们一直能听到你的消息，你才不会死掉。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "4b67acd01861e811814b9efc607532b62fcfa71f3024c624ab8f8591b38440a2",
+      "enMarkdown": "That may not be so naive as it sounds. You've probably noticed that having dinners every Tuesday with us and the other founders causes you to get more done than you would otherwise, because every dinner is a mini Demo Day. Every dinner is a kind of a deadline. So the mere constraint of staying in regular contact with us will push you to make things happen, because otherwise you'll be embarrassed to tell us that you haven't done anything new since the last time we talked.",
+      "zhMarkdown": "这可能没有听起来那么天真。你可能已经注意到，每周二和我们以及其他创始人一起吃晚宴，会促使你比平时做成更多的事情，因为每顿晚宴都是一次微型的 Demo Day。每顿晚宴都是一种截止日期。因此，仅仅是保持与我们定期联系这一约束，就会推动你去把事情做成。否则，在下一次聊天时，你会不好意思告诉我们你什么新进展都没有。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "340a7764a7e5ee70a62b5d705ffedccf11715fd39cb4998c29bb71fb414c68c1",
+      "enMarkdown": "If this works, it would be an amazing hack. It would be pretty cool if merely by staying in regular contact with us you could get rich. It sounds crazy, but there's a good chance that would work.",
+      "zhMarkdown": "如果这招行得通，那将是一个惊人的捷径。如果仅仅通过与我们保持定期联系就能变富有，那可太酷了。这听起来很疯狂，但很有可能会起作用。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "46c4498c43f8e4c9e671c34e02d90c2de6acfe0599210c23023af017072dd8ed",
+      "enMarkdown": "A variant is to stay in touch with other YC-funded startups. There is now a whole neighborhood of them in San Francisco. If you move there, the peer pressure that made you work harder all summer will continue to operate.",
+      "zhMarkdown": "另一个变体是与其他 YC 资助的创业公司保持联系。现在旧金山已经有了一个他们的聚集区。如果你搬到那里，整个夏天促使你更加努力工作的同侪压力将继续发挥作用。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "16371077c219e511297fd252a9b60333f37460157c0aa6dbcea0896543963771",
+      "enMarkdown": "When startups die, the official cause of death is always either running out of money or a critical founder bailing. Often the two occur simultaneously. But I think the underlying cause is usually that they've become demoralized. You rarely hear of a startup that's working around the clock doing deals and pumping out new features, and dies because they can't pay their bills and their ISP unplugs their server.",
+      "zhMarkdown": "当创业公司死掉时，官方公布的死因总是资金链断裂或关键创始人退出。这两者往往同时发生。但我认为根本原因通常是他们丧失了斗志。你很少听说有哪家创业公司整天加班加点谈业务、疯狂推出新功能，最后却因为付不起账单被运营商拔掉服务器插头而死掉的。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "83e371e924599668c62d48a02cc64536d58c706e89a0a75abdfbab5ffa1c7c0f",
+      "enMarkdown": "Startups rarely die in mid keystroke. So keep typing!",
+      "zhMarkdown": "创业公司很少在敲键盘的间隙死掉。所以，继续敲下去！"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "53e77b5c5c9f8109d5b00628fc59170ffe4055397f0b3951f87d560e5d881764",
+      "enMarkdown": "If so many startups get demoralized and fail when merely by hanging on they could get rich, you have to assume that running a startup can be demoralizing. That is certainly true. I've been there, and that's why I've never done another startup. The low points in a startup are just unbelievably low. I bet even Google had moments where things seemed hopeless.",
+      "zhMarkdown": "如果这么多创业公司在只要坚持下去就能变富有的时候，却因为丧失斗志而失败，那你必须承认，经营一家创业公司确实会让人感到沮丧。事实也确实如此。我亲身经历过，这也是我再也没有做过第二家创业公司的原因。创业过程中的低谷真是低得令人难以置信。我敢说，即使是谷歌，也有过觉得毫无希望的时刻。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "da7ae3e0fc76582750a292ba4ded3501c71991b924ad1ff7e3112106eeb344c5",
+      "enMarkdown": "Knowing that should help. If you know it's going to feel terrible sometimes, then when it feels terrible you won't think \"ouch, this feels terrible, I give up.\" It feels that way for everyone. And if you just hang on, things will probably get better. The metaphor people use to describe the way a startup feels is at least a roller coaster and not drowning. You don't just sink and sink; there are ups after the downs.",
+      "zhMarkdown": "知道这一点应该会有所帮助。如果你知道有时感觉会非常糟糕，那么当感觉糟糕时，你不会想“哎呀，这感觉太糟了，我放弃吧”。每个人都有这种感觉。只要你坚持下去，情况很可能会好转。人们用来形容创业感觉的隐喻至少是过山车，而不是溺水。你不会一直往下沉，低谷之后总会有起伏。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "ea9906a97c3ec2cf3d12719ba50c35ee103c2ec7838a6fa0ea581fbb9fddaa04",
+      "enMarkdown": "Another feeling that seems alarming but is in fact normal in a startup is the feeling that what you're doing isn't working. The reason you can expect to feel this is that what you do probably won't work. Startups almost never get it right the first time. Much more commonly you launch something, and no one cares. Don't assume when this happens that you've failed. That's normal for startups. But don't sit around doing nothing. Iterate.",
+      "zhMarkdown": "在创业公司里，另一种看似惊人但实际上很正常的感受是，觉得自己在做的事情根本行不通。你会产生这种感觉的原因是，你做的事情很可能确实行不通。创业公司几乎从未在第一次就做对。更常见的情况是，你发布了某个东西，却没人关心。当这种情况发生时，不要以为你失败了。这对创业公司来说很正常。但不要坐在那里无所事事，要快速迭代。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "960de11d24c988cb2ca3ba7c48079867bd3fe508b6979078686a1cd7bb3e70c6",
+      "enMarkdown": "I like Paul Buchheit's suggestion of trying to make something that at least someone really loves. As long as you've made something that a few users are ecstatic about, you're on the right track. It will be good for your morale to have even a handful of users who really love you, and startups run on morale. But also it will tell you what to focus on. What is it about you that they love? Can you do more of that? Where can you find more people who love that sort of thing? As long as you have some core of users who love you, all you have to do is expand it. It may take a while, but as long as you keep plugging away, you'll win in the end. Both Blogger and Delicious did that. Both took years to succeed. But both began with a core of fanatically devoted users, and all Evan and Joshua had to do was grow that core incrementally. [Wufoo](http://wufoo.com) is on the same trajectory now.",
+      "zhMarkdown": "我很喜欢 Paul Buchheit 的建议：尝试做出至少让某个人真正热爱的东西。只要你做出了让少数用户欣喜若狂的东西，你就走在了正确的轨道上。哪怕只有少数几个真正热爱你的用户，对你的士气也是极大的鼓舞，而创业公司全靠士气支撑。但同时，它也会告诉你应该专注于什么。他们热爱你的哪一点？你能多做一些吗？你在哪里能找到更多喜欢这类东西的人？只要你拥有一批热爱你的核心用户，你要做的就是扩大这个群体。这可能需要一些时间，但只要你坚持不懈，你最终会赢。Blogger 和 Delicious 都是这么做的。两者都花了数年时间才取得成功。但两者都始于一批狂热忠诚的核心用户，埃文和乔舒亚所要做的就是逐步壮大这个核心。[Wufoo](http://wufoo.com) 现在也处于同样的轨道上。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "9d923b0130152d05d33670c705bd0e9923459f12a79c463df444e3c5b63e6dcc",
+      "enMarkdown": "So when you release something and it seems like no one cares, look more closely. Are there zero users who really love you, or is there at least some little group that does? It's quite possible there will be zero. In that case, tweak your product and try again. Every one of you is working on a space that contains at least one winning permutation somewhere in it. If you just keep trying, you'll find it.",
+      "zhMarkdown": "所以，当你发布了某个东西，而大家似乎都不在乎时，仔细观察一下。是真的没有一个用户真正热爱你，还是至少有那么一小群人热爱？很有可能是一个都没有。如果是这样，微调你的产品并再试一次。你们每个人所耕耘的领域，都一定存在至少一种成功的排列组合。只要你不断尝试，你终会找到它。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "0b11018f7ed8f299ae6621e42be6f153a9ee00d34b1f4d5abfbfbd9ae0cb271f",
+      "enMarkdown": "Let me mention some things not to do. The number one thing not to do is other things. If you find yourself saying a sentence that ends with \"but we're going to keep working on the startup,\" you are in big trouble. Bob's going to grad school, but we're going to keep working on the startup. We're moving back to Minnesota, but we're going to keep working on the startup. We're taking on some consulting projects, but we're going to keep working on the startup. You may as well just translate these to \"we're giving up on the startup, but we're not willing to admit that to ourselves,\" because that's what it means most of the time. A startup is so hard that working on it can't be preceded by \"but.\"",
+      "zhMarkdown": "让我提一些不要做的事情。最不要做的事情就是去做别的事情。如果你发现自己说了一句话，结尾是“但我们会继续做这个创业公司”，那你就遇到大麻烦了。“鲍勃要去读研了，但我们会继续做这个创业公司。”“我们要搬回明尼苏达州了，但我们会继续做这个创业公司。”“我们正在接一些外包咨询项目，但我们会继续做这个创业公司。”你完全可以直接把这些话翻译成“我们正准备放弃这个创业公司，但我们不愿对自己承认”，因为大多数时候就是这个意思。创业是如此艰难，以至于在做这件事之前容不下“但是”这两个字。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "4f5295721d275689851a5e14f472c458bae799ecc843223632b814e1eda2ad23",
+      "enMarkdown": "In particular, don't go to graduate school, and don't start other projects. Distraction is fatal to startups. Going to (or back to) school is a huge predictor of death because in addition to the distraction it gives you something to say you're doing. If you're only doing a startup, then if the startup fails, you fail. If you're in grad school and your startup fails, you can say later \"Oh yeah, we had this startup on the side when I was in grad school, but it didn't go anywhere.\"",
+      "zhMarkdown": "特别是，不要去读研究生，也不要启动其他项目。分心对创业公司是致命的。去上学（或重返校园）是一个巨大的死亡预测指标，因为除了让你分心之外，它还给了你一个可以对外宣称你在做的事情。如果你只做创业，那么如果创业失败，你就失败了。但如果你在读研，而你的创业公司失败了，你以后可以说：“哦，对，我读研时顺便做了这个创业公司，但它没做起来。”"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "80146e1e2038626c0579bd54cefcade3b5bee3ee97fdbfd71010e9ca91214bb6",
+      "enMarkdown": "You can't use euphemisms like \"didn't go anywhere\" for something that's your only occupation. People won't let you.",
+      "zhMarkdown": "如果某件事是你唯一的职业，你就不能用“没做起来”这种委婉的说法。大家不会放过你的。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "1d06dda226ed860f5b7a26383e56282bc32d616175c2a4df7c5252b56041fa3b",
+      "enMarkdown": "One of the most interesting things we've discovered from working on Y Combinator is that founders are more motivated by the fear of looking bad than by the hope of getting millions of dollars. So if you want to get millions of dollars, put yourself in a position where failure will be public and humiliating.",
+      "zhMarkdown": "我们在运营 Y Combinator 的过程中发现的最有趣的事情之一是，比起拿到几百万美元的希望，创始人更容易受到“害怕面子上不好看”这一恐惧的驱使。所以，如果你想拿到几百万美元，就把自己逼到一个失败了就会公开出丑的境地。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "3969fb813a1ba83c5227316f6a5c72d392b3661d5a114ddd2394dfb607e3cfec",
+      "enMarkdown": "When we first met the founders of [Octopart](http://octopart.com), they seemed very smart, but not a great bet to succeed, because they didn't seem especially committed. One of the two founders was still in grad school. It was the usual story: he'd drop out if it looked like the startup was taking off. Since then he has not only dropped out of grad school, but appeared full length in [Newsweek](http://docs.octopart.com/newsweek_octopart_small.jpg) with the word \"Billionaire\" printed across his chest. He just cannot fail now. Everyone he knows has seen that picture. Girls who dissed him in high school have seen it. His mom probably has it on the fridge. It would be unthinkably humiliating to fail now. At this point he is committed to fight to the death.",
+      "zhMarkdown": "当我们第一次见到 [Octopart](http://octopart.com) 的创始人时，他们看起来非常聪明，但感觉不太可能成功，因为他们看起来并没有特别投入。两位创始人之一当时还在读研。这又是老一套的故事：如果创业公司看起来有起色，他就退学。从那以后，他不仅从研究生院退学了，而且全身照还登上了《[新闻周刊](http://docs.octopart.com/newsweek_octopart_small.jpg)》，胸前印着“亿万富翁”字样。他现在绝对不能失败了。他认识的每个人都看过了那张照片。高中时看不起他的女生看过了，他妈妈可能把它贴在冰箱上。现在失败将是不可想象的耻辱。在这一点上，他只能誓死一搏了。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "9f5f5792a15737299dd7ede0b42db0bb4a3c377ce62b3d2a4c367c00294dec97",
+      "enMarkdown": "I wish every startup we funded could appear in a Newsweek article describing them as the next generation of billionaires, because then none of them would be able to give up. The success rate would be 90%. I'm not kidding.",
+      "zhMarkdown": "我希望我们资助的每一家创业公司都能登上《新闻周刊》，被称为下一代亿万富翁，因为那样他们谁也无法放弃了。成功率会达到 90%。我不是在开玩笑。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "c9daee356ab37eabb29f65e7e05d52ecfaa479c3a267a05a13ad16faef54cfbd",
+      "enMarkdown": "When we first knew the Octoparts they were lighthearted, cheery guys. Now when we talk to them they seem grimly determined. The electronic parts distributors are trying to squash them to keep their monopoly pricing. (If it strikes you as odd that people still order electronic parts out of thick paper catalogs in 2007, there's a reason for that. The distributors want to prevent the transparency that comes from having prices online.) I feel kind of bad that we've transformed these guys from lighthearted to grimly determined. But that comes with the territory. If a startup succeeds, you get millions of dollars, and you don't get that kind of money just by asking for it. You have to assume it takes some amount of pain.",
+      "zhMarkdown": "当我们刚认识 Octopart 那帮人时，他们是轻松愉快、无忧无虑的小伙子。现在我们和他们聊天时，他们显得神情严峻、意志坚定。电子元器件分销商正试图压制他们，以维持自己的垄断定价。（如果你觉得在 2007 年人们还在用厚厚的纸质目录订购电子元器件很奇怪，这是有原因的。分销商想阻止价格上网带来的透明度。）把这些家伙从轻松愉快变得神情严峻，我感到有些过意不去。但这就是创业的代价。如果创业成功，你会得到数百万美元，而你不可能光靠开口要就能得到这么多钱。你必须承认，这需要承受一定程度的痛苦。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "2423c85dccb7f8b4d6f8b24823d851f309b678b5b71a6f7d35d69639822f4f4e",
+      "enMarkdown": "And however tough things get for the Octoparts, I predict they'll succeed. They may have to morph themselves into something totally different, but they won't just crawl off and die. They're smart; they're working in a promising field; and they just cannot give up.",
+      "zhMarkdown": "不管 Octopart 的处境有多艰难，我预测他们都会成功。他们可能不得不将自己彻底转型为完全不同的东西，但他们不会就这么缩在角落默默死掉。他们很聪明；他们在一个充满前景的领域工作；而且他们绝对不能放弃。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "544be18af3a528919a2eb3a66cc8e4041c84a9ab8bc45f445280f423719c1514",
+      "enMarkdown": "All of you guys already have the first two. You're all smart and working on promising ideas. Whether you end up among the living or the dead comes down to the third ingredient, not giving up.",
+      "zhMarkdown": "你们所有人已经具备了前两个条件。你们都很聪明，而且都在做很有前景的创意。你最终是活下来还是死掉，取决于第三个因素：不放弃。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "a1ce93d41af5e58fc7a96359465a09ebf84f3f5b11182b3671d11c993a664b05",
+      "enMarkdown": "So I'll tell you now: bad shit is coming. It always is in a startup. The odds of getting from launch to liquidity without some kind of disaster happening are one in a thousand. So don't get demoralized. When the disaster strikes, just say to yourself, ok, this was what Paul was talking about. What did he say to do? Oh, yeah. Don't give up.",
+      "zhMarkdown": "所以现在我告诉你：糟糕的事情即将发生。在创业公司里总是如此。从产品发布到资金变现，中间不经历某种灾难的概率是千分之一。所以不要丧失斗志。当灾难降临时，只需对自己说：好吧，这就是保罗以前说过的。他说过该怎么做来着？哦，对了。不要放弃。"
+    }
+  ]
+}

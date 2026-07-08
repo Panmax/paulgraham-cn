@@ -1,0 +1,104 @@
+{
+  "slug": "polls",
+  "titleEn": "Bradley's Ghost",
+  "titleZh": "布拉德利的幽灵",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 194,
+  "sourceUrl": "https://paulgraham.com/polls.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "e6df2196e70a717cf86c38e37d6c35fa1b432f2ff1a254c7f6fcaab2180dd35c",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/bradley-s-ghost-28.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/bradley-s-ghost-28.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "76bfdc2bc7762dc67b8b4e2f7e7f8ab2bf920e0722498e530f58d04aba3b1ab5",
+      "enMarkdown": "November 2004",
+      "zhMarkdown": "2004年11月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "e395181407b7f5bc879d76c735b5ec28b63e02a8523a43a717e6ea972eba047c",
+      "enMarkdown": "A lot of people are writing now about why Kerry lost. Here I want to examine a more specific question: why were the exit polls so wrong?",
+      "zhMarkdown": "现在有很多人在写文章分析克里（Kerry）为什么会输。在这里，我想探讨一个更具体的问题：为什么出口民调（exit polls）会错得这么离谱？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "329c7133d402819ca55f7c67aa9344b2b95b6ed6035fc39c77cab15edd7b0715",
+      "enMarkdown": "In Ohio, which Kerry ultimately lost 49-51, exit polls gave him a 52-48 victory. And this wasn't just random error. In every swing state they overestimated the Kerry vote. In Florida, which Bush ultimately won 52-47, exit polls predicted a dead heat.",
+      "zhMarkdown": "在俄亥俄州，克里最终以 49比51 落败，但出口民调却预测他会以 52比48 获胜。这不仅仅是随机误差。在每一个摇摆州，出口民调都高估了克里的得票率。在佛罗里达州，布什最终以 52比47 胜出，而出口民调预测的结果却是平手。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "947f3b1a75278148d76bd708598c4c6f900c4044e27ed53568d69235c09e53f5",
+      "enMarkdown": "(These are not early numbers. They're from about midnight eastern time, long after polls closed in Ohio and Florida. And yet by the next afternoon the exit poll numbers online corresponded to the returns. The only way I can imagine this happening is if those in charge of the exit polls cooked the books after seeing the actual returns. But that's another issue.)",
+      "zhMarkdown": "（这些并不是早期的预测数据，而是东部时间午夜左右的数据，当时俄亥俄州和佛罗里达州的投票站早已关闭。然而，到了第二天下午，网上的出口民调数据却变得和实际计票结果一致了。我能想到的唯一解释是，负责出口民调的人在看到实际计票结果后，对数据进行了“粉饰”。但这又是另一个问题了。）"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "dafa14c50f8afd1de2e36ede13535c92179391f4c2087ae56879a216264d7bce",
+      "enMarkdown": "What happened? The source of the problem may be a variant of the Bradley Effect. This term was invented after Tom Bradley, the black mayor of Los Angeles, lost an election for governor of California despite a comfortable lead in the polls. Apparently voters were afraid to say they planned to vote against him, lest their motives be (perhaps correctly) suspected.",
+      "zhMarkdown": "这到底是怎么回事？问题的根源可能是“布拉德利效应”（Bradley Effect）的一种变体。这个词诞生于汤姆·布拉德利（Tom Bradley）竞选加州州长失败之后。当时，这位洛杉矶的黑人市长在民调中一路遥遥领先，最终却输掉了选举。显然，选民们不敢公开表示自己不打算投他，以免自己的动机被怀疑（这种怀疑或许并非空穴来风）。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "26ffc125ad925918bd2eb5ad63cedae493681ba6a5cfe1ace9ec4c9b485eccd7",
+      "enMarkdown": "It seems likely that something similar happened in exit polls this year. In theory, exit polls ought to be very accurate. You're not asking people what they would do. You're asking what they just did.",
+      "zhMarkdown": "今年出口民调中很可能也发生了类似的事情。理论上，出口民调应该非常准确，因为你不是在问人们“打算”怎么做，而是在问他们“刚刚”做了什么。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "3a08f2c1cdc9ef800befcb9a8d573511f74e1a8c64b8da8afe2373f73d490d52",
+      "enMarkdown": "How can you get errors asking that? Because some people don't respond. To get a truly random sample, pollsters ask, say, every 20th person leaving the polling place who they voted for. But not everyone wants to answer. And the pollsters can't simply ignore those who won't, or their sample isn't random anymore. So what they do, apparently, is note down the age and race and sex of the person, and guess from that who they voted for.",
+      "zhMarkdown": "既然如此，怎么还会出错呢？因为有些人不愿作答。为了获得真正的随机样本，民调人员会询问，比如，每20位走出投票站的选民中，他们把票投给了谁。但并非人人都愿意回答。民调人员又不能直接忽略那些拒绝回答的人，否则他们的样本就不再具有随机性。因此，他们显然会记下这些人的年龄、种族和性别，并据此猜测他们的投票倾向。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "7a7d40d11e2c8898b4baa4b87a3bbc85cc06c9cee7a9a6534d3ad7499b2e4c89",
+      "enMarkdown": "This works so long as there is no *correlation* between who people vote for and whether they're willing to talk about it. But this year there may have been. It may be that a significant number of those who voted for Bush didn't want to say so.",
+      "zhMarkdown": "只要人们的投票选择与他们是否愿意开口之间没有“相关性”，这种方法就行得通。但今年，这种相关性可能确实存在。很可能有相当一部分投给布什的选民，并不愿意说出自己的选择。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "2a32530785a06a1847bb037ce1b23ae5e9e3e69324dd408b0e7d94e6e85010ad",
+      "enMarkdown": "Why not? Because people in the US are more conservative than they're willing to admit. The values of the elite in this country, at least at the moment, are NPR values. The average person, as I think both Republicans and Democrats would agree, is more socially conservative. But while some openly flaunt the fact that they don't share the opinions of the elite, others feel a little nervous about it, as if they had bad table manners.",
+      "zhMarkdown": "为什么不说呢？因为美国人的保守程度，超出了他们愿意承认的范围。这个国家精英阶层的价值观——至少目前来看——是美国国家公共电台（NPR）式的价值观。我想共和党和民主党都会同意，普通大众在社会议题上要更加保守。但是，虽然有些人会公开炫耀自己不认同精英阶层的观点，另一些人却对此感到有些局促不安，就像觉得自己吃相不好看一样。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "bf517fbc8f5a973044b35993e8b0e6499248a3e5e75ce497ec907330dfb2c7ec",
+      "enMarkdown": "For example, according to current NPR values, you [can't say](https://paulgraham.com/say.html) anything that might be perceived as disparaging towards homosexuals. To do so is \"homophobic.\" And yet a large number of Americans are deeply religious, and the Bible is quite explicit on the subject of homosexuality. What are they to do? I think what many do is keep their opinions, but keep them to themselves.",
+      "zhMarkdown": "例如，根据目前 NPR 式的价值观，你[不能说](https://paulgraham.com/say.html)任何可能被视为贬低同性恋的话，否则就是“恐同”。然而，大量美国人有着深厚的宗教信仰，而《圣经》在同性恋问题上的态度是非常明确的。他们该怎么办？我想许多人的做法是保留自己的观点，但选择保持沉默。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "957d9a709b4993c0d905347e461e1abeccd2d3f077e6508ff4bf646d70910e76",
+      "enMarkdown": "They know what they believe, but they also know what they're supposed to believe. And so when a stranger (for example, a pollster) asks them their opinion about something like gay marriage, they will not always say what they really think.",
+      "zhMarkdown": "他们清楚自己的信仰，但也清楚自己“应该”相信什么。因此，当一个陌生人（比如民调人员）询问他们对同性婚姻等问题的看法时，他们并不总是会说出自己的真实想法。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "5516b742ed8bde17d54cb5d47a8832dfde2ce045cbeb6800305835181fb49d60",
+      "enMarkdown": "When the values of the elite are liberal, polls will tend to underestimate the conservativeness of ordinary voters. This seems to me the leading theory to explain why the exit polls were so far off this year. NPR values said one ought to vote for Kerry. So all the people who voted for Kerry felt virtuous for doing so, and were eager to tell pollsters they had. No one who voted for Kerry did it as an act of quiet defiance.",
+      "zhMarkdown": "当精英阶层的价值观偏向自由派时，民调往往会低估普通选民的保守程度。在我看来，这是解释今年出口民调为何偏差如此之大的最有力理论。NPR 式的价值观认为人们应该投给克里。因此，所有投给克里的人都觉得自己做了一件高尚的事，并且迫不及待地想告诉民调人员。而投给克里的人当中，没有一个是怀着默默对抗的心态去投票的。"
+    }
+  ]
+}

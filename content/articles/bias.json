@@ -1,0 +1,90 @@
+{
+  "slug": "bias",
+  "titleEn": "A Way to Detect Bias",
+  "titleZh": "# 一种检测偏见的方法",
+  "dateText": "October 2015",
+  "publishedAt": "2015-10-01",
+  "sourceOrder": 63,
+  "sourceUrl": "https://paulgraham.com/bias.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "a175d03723449a86a87a7df8c4deb12acaa65eae3cbe3390766c94219cfbbc94",
+      "enMarkdown": "This will come as a surprise to a lot of people, but in some cases it's possible to detect bias in a selection process without knowing anything about the applicant pool. Which is exciting because among other things it means third parties can use this technique to detect bias whether those doing the selecting want them to or not.",
+      "zhMarkdown": "这可能会让很多人感到意外：在某些情况下，即使你对申请人池一无所知，也有可能检测出筛选过程中的偏见。这令人兴奋，因为这意味着第三方无论筛选者是否愿意，都可以利用这种技术来检测偏见。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "ad8f1f74295a39cce2daf3ce3c0e9347d50bf74f8a1a01d3e2d4d8821cb7eed0",
+      "enMarkdown": "You can use this technique whenever (a) you have at least a random sample of the applicants that were selected, (b) their subsequent performance is measured, and (c) the groups of applicants you're comparing have roughly equal distribution of ability.",
+      "zhMarkdown": "只要满足以下条件，你就可以使用这种技术：（a）你至少拥有被选中申请人的随机样本，（b）他们随后的表现是可以被衡量的，且（c）你所对比的几组申请人在能力分布上大致均等。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "210ece77ad31099e4f9474f41f13387b648845144cfa733cd2a253c2feabd459",
+      "enMarkdown": "How does it work? Think about what it means to be biased. What it means for a selection process to be biased against applicants of type x is that it's harder for them to make it through. Which means applicants of type x have to be better to get selected than applicants not of type x. [[1](#f1n)] Which means applicants of type x who do make it through the selection process will outperform other successful applicants. And if the performance of all the successful applicants is measured, you'll know if they do.",
+      "zhMarkdown": "它是如何运作的？想想偏见意味着什么。如果一个筛选过程对 x 类申请人存在偏见，那就意味着他们更难通过筛选。也就是说，x 类申请人必须比非 x 类申请人更优秀才能被选中。[[1](#f1n)] 这进而意味着，在通过筛选的申请人中，x 类的表现会优于其他被选中者。如果所有被选中者的后续表现都能量化衡量，你就能看出他们是否确实表现更佳。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "e66b6d5f46f95192aa13e7d75aa833e3905ee0a94aa7abb2b4293a1321647b92",
+      "enMarkdown": "Of course, the test you use to measure performance must be a valid one. And in particular it must not be invalidated by the bias you're trying to measure. But there are some domains where performance can be measured, and in those detecting bias is straightforward. Want to know if the selection process was biased against some type of applicant? Check whether they outperform the others. This is not just a heuristic for detecting bias. It's what bias means.",
+      "zhMarkdown": "当然，你用来衡量表现的测试必须是有效的。特别是，它绝不能被你试图衡量的偏见本身所干扰。但在某些领域，表现是可以被客观衡量的，在这些领域检测偏见就非常简单。想知道筛选过程是否对某种类型的申请人存在偏见？看看他们的表现是否优于其他人即可。这不仅是检测偏见的一种启发式方法，它本身就是偏见的定义。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "560d3d1fe371f1967777d20b30a7ef88b2e7a3228dec2bb71b65a889b1962fe1",
+      "enMarkdown": "For example, many suspect that venture capital firms are biased against female founders. This would be easy to detect: among their portfolio companies, do startups with female founders outperform those without? A couple months ago, one VC firm (almost certainly unintentionally) published a study showing bias of this type. First Round Capital found that among its portfolio companies, startups with female founders [outperformed](http://10years.firstround.com/#one) those without by 63%. [[2](#f2n)]",
+      "zhMarkdown": "例如，许多人怀疑风险投资公司对女性创始人存在偏见。这其实很容易检测：在他们的投资组合中，有女性创始人的创业公司是否比没有女性创始人的表现更好？几个月前，一家风险投资公司（几乎可以肯定是非自愿地）发布了一项展示了这种偏见的研究。First Round Capital 发现，在其投资组合中，有女性创始人的创业公司业绩比没有的[高出](http://10years.firstround.com/#one) 63%。[[2](#f2n)]"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "7525c63277342ef2e6cc4a34a85f5f5dd9d6857e9bef8fd3da02ac083b431bc2",
+      "enMarkdown": "The reason I began by saying that this technique would come as a surprise to many people is that we so rarely see analyses of this type. I'm sure it will come as a surprise to First Round that they performed one. I doubt anyone there realized that by limiting their sample to their own portfolio, they were producing a study not of startup trends but of their own biases when selecting companies.",
+      "zhMarkdown": "我开头说这种技术会让很多人感到意外，是因为我们极少看到这类分析。我敢说 First Round 自己都会感到意外，他们居然做了一次这样的分析。我怀疑那里的任何人都没意识到，通过将样本局限于自己的投资组合，他们做出的研究并不是关于创业趋势的，而是关于他们自己在筛选公司时的偏见。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "55f83d6b99c25e53fc77f8c311e05746c930b4af37d31bc3970d9f5c06399488",
+      "enMarkdown": "I predict we'll see this technique used more in the future. The information needed to conduct such studies is increasingly available. Data about who applies for things is usually closely guarded by the organizations selecting them, but nowadays data about who gets selected is often publicly available to anyone who takes the trouble to aggregate it.",
+      "zhMarkdown": "我预测未来我们会看到这种技术得到更广泛的应用。进行此类研究所需的信息正变得越来越容易获取。关于谁提交了申请的数据通常被筛选机构严密把守，但如今，关于谁被选中的数据往往是公开的，任何愿意花心思去汇总的人都能获取。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "73f8d87f4f3ccfbaf95961c96f2201da8aa1740a899f4f241ad48caa91bc48ef",
+      "enMarkdown": "[1] This technique wouldn't work if the selection process looked for different things from different types of applicants—for example, if an employer hired men based on their ability but women based on their appearance.",
+      "zhMarkdown": "[1] 如果筛选过程对不同类型的申请人考核的标准不同，这种技术就不起作用——例如，如果雇主招男员工看重能力，而招女员工看重外貌。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "3d638ba7c1daa76e6c1830543fc01994db0f2ea2a165133da6fe2c19e0ac0a53",
+      "enMarkdown": "[2] As Paul Buchheit points out, First Round excluded their most successful investment, Uber, from the study. And while it makes sense to exclude outliers from some types of studies, studies of returns from startup investing, which is all about hitting outliers, are not one of them.",
+      "zhMarkdown": "[2] 正如 Paul Buchheit 所指出的，First Round 在这项研究中排除了他们最成功的投资项目 Uber。虽然在某些类型的研究中排除极端值是合理的，但对于创业投资回报的研究而言，排除极端值是不合理的，因为创业投资的全部意义就在于投中极端值。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "929ce4b89407c25fa0209cb013f6440d20522a33568fde225bece43f165f7184",
+      "enMarkdown": "**Thanks** to Sam Altman, Jessica Livingston, and Geoff Ralston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Jessica Livingston 和 Geoff Ralston 阅读本文草稿。"
+    }
+  ]
+}

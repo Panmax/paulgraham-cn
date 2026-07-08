@@ -1,0 +1,496 @@
+{
+  "slug": "angelinvesting",
+  "titleEn": "How to Be an Angel Investor",
+  "titleZh": "如何做天使投资人",
+  "dateText": "March 2009",
+  "publishedAt": "2009-03-01",
+  "sourceOrder": 122,
+  "sourceUrl": "https://paulgraham.com/angelinvesting.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "93a1d0ab30d7a9a11acf275ac49e8629d1a242b0ecce7978a240ad3bb9f62a57",
+      "enMarkdown": "*(This essay is derived from a talk at AngelConf.)*",
+      "zhMarkdown": "*(本文根据作者在 AngelConf 上的演讲整理而成。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "65c737ef1d486e2f28ac69eec3ec6dd66cce2dae834a39f7453a4c667bd75210",
+      "enMarkdown": "When we sold our startup in 1998 I thought one day I'd do some angel investing. Seven years later I still hadn't started. I put it off because it seemed mysterious and complicated. It turns out to be easier than I expected, and also more interesting.",
+      "zhMarkdown": "1998 年我们卖掉创业公司时，我曾想过，总有一天我也要去做些天使投资。然而七年过去了，我依然没有付诸行动。我一直拖延，是因为觉得这件事既神秘又复杂。但事实证明，它比我想象的要简单得多，也更有趣。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "d8a7e9f566eef363a54668d10f3e4808103fac6bf2462caef5ec1e2c99e43f34",
+      "enMarkdown": "The part I thought was hard, the mechanics of investing, really isn't. You give a startup money and they give you stock. You'll probably get either preferred stock, which means stock with extra rights like getting your money back first in a sale, or convertible debt, which means (on paper) you're lending the company money, and the debt converts to stock at the next sufficiently big funding round. [[1](#f1n)]",
+      "zhMarkdown": "我曾以为最难的部分——投资的具体操作机制——其实一点都不难。你给创业公司钱，他们给你股份。你拿到的要么是优先股（这意味着拥有额外权益，比如在公司被收购时可以优先拿回本金），要么是可转债（这在字面上相当于你借钱给公司，而这笔债会在下一轮足够大的融资时自动转化为股份）。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "672262b49733d8c5adb53115f1c76c1e13e4e09009f109707584d96b37ac2819",
+      "enMarkdown": "There are sometimes minor tactical advantages to using one or the other. The paperwork for convertible debt is simpler. But really it doesn't matter much which you use. Don't spend much time worrying about the details of deal terms, especially when you first start angel investing. That's not how you win at this game. When you hear people talking about a successful angel investor, they're not saying \"He got a 4x liquidation preference.\" They're saying \"He invested in Google.\"",
+      "zhMarkdown": "选择其中一种方式有时会带来一些微小的战术优势。可转债的文件操作更简单。但实际上，用哪种方式关系都不大。不要花太多时间纠结于交易条款的细节，尤其是当你刚开始做天使投资的时候。这并不是赢得这场游戏的关键。当你听到人们谈论一个成功的天使投资人时，他们不会说“他拿到了 4 倍的清算优先权”，而是会说“他投资了 Google”。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a373d82fa2200d33d27a1a4ac0bbd49cdf26d2c74364329082746b900293d4e1",
+      "enMarkdown": "That's how you win: by investing in the right startups. That is so much more important than anything else that I worry I'm misleading you by even talking about other things.",
+      "zhMarkdown": "这才是赢法：投资于对的创业公司。这比其他任何事情都重要得多，以至于我担心仅仅是讨论其他问题都会误导你。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "caff6339bde8aa66895d8f211db0f5bff45ba7633beb8ba7a4608edfc6fca5c2",
+      "enMarkdown": "**Mechanics**",
+      "zhMarkdown": "**操作机制**"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "acaa9774ff3db889e3ce7ab40b6835aaa5774ca5ba0fbade80e2c2b9cf760d5d",
+      "enMarkdown": "Angel investors often syndicate deals, which means they join together to invest on the same terms. In a syndicate there is usually a \"lead\" investor who negotiates the terms with the startup. But not always: sometimes the startup cobbles together a syndicate of investors who approach them independently, and the startup's lawyer supplies the paperwork.",
+      "zhMarkdown": "天使投资人经常联合投资，这意味着他们联合起来，以相同的条款进行投资。在联合投资中，通常会有一个“领投”人来与创业公司谈判条款。但也不尽然：有时是创业公司自己把几个独立接触他们的投资人拼凑成一个辛迪加，并由创业公司的律师来提供法律文件。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ceb7a44b98d5244f17b6232b86154d4febe3b6a83bc5ff8bf826382c1fd07d8e",
+      "enMarkdown": "The easiest way to get started in angel investing is to find a friend who already does it, and try to get included in his syndicates. Then all you have to do is write checks.",
+      "zhMarkdown": "开启天使投资最简单的方法，就是找一个已经在做这件事的朋友，争取加入他的联合投资。这样一来，你唯一需要做的就是开支票。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9d07b0eba3c1707172e47398e65903a6d2d0c243d58ced477e135dc17471f039",
+      "enMarkdown": "Don't feel like you have to join a syndicate, though. It's not that hard to do it yourself. You can just use the standard [series AA](http://ycombinator.com/seriesaa.html) documents Wilson Sonsini and Y Combinator published online. You should of course have your lawyer review everything. Both you and the startup should have lawyers. But the lawyers don't have to create the agreement from scratch. [[2](#f2n)]",
+      "zhMarkdown": "不过，也别觉得非得加入联合投资不可。自己动手其实没那么难。你可以直接使用 Wilson Sonsini 律师事务所和 Y Combinator 在网上公开发布的标准 [series AA](http://ycombinator.com/seriesaa.html) 模板。当然，你应该让自己的律师审核所有内容。你和创业公司都应该有各自的律师。但律师们不需要从头开始起草协议。[[2](#f2n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d093e0fcbc3569be93c3289eb2324c89d31574f29e74d5dde593200a3298a5ff",
+      "enMarkdown": "When you negotiate terms with a startup, there are two numbers you care about: how much money you're putting in, and the valuation of the company. The valuation determines how much stock you get. If you put $50,000 into a company at a pre-money valuation of $1 million, then the post-money valuation is $1.05 million, and you get .05/1.05, or 4.76% of the company's stock.",
+      "zhMarkdown": "当你与创业公司谈判条款时，你只需要关心两个数字：你投入多少钱，以及公司的估值。估值决定了你获得多少股份。如果你以 100 万美元的投前估值向一家公司投入 5 万美元，那么投后估值就是 105 万美元，你将获得 0.05/1.05，即公司 4.76% 的股份。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "778b62936ef266855b445a34d2d49cf3833cb88108d74b0cd156d4c87d54ebe8",
+      "enMarkdown": "If the company raises more money later, the new investor will take a chunk of the company away from all the existing shareholders just as you did. If in the next round they sell 10% of the company to a new investor, your 4.76% will be reduced to 4.28%.",
+      "zhMarkdown": "如果公司以后募集更多资金，新投资人就会像你当初那样，从所有现有股东手中分走一块股份。如果下一轮他们向新投资人出售 10% 的股份，你原本 4.76% 的持股比例就会被稀释到 4.28%。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "6c6a0fec4dc41115cdfead41bb3a82ff1bcee0664e85c12f5c81d9a285c623c6",
+      "enMarkdown": "That's ok. Dilution is normal. What saves you from being mistreated in future rounds, usually, is that you're in the same boat as the founders. They can't dilute you without diluting themselves just as much. And they won't dilute themselves unless they end up [net ahead](https://paulgraham.com/equity.html). So in theory, each further round of investment leaves you with a smaller share of an even more valuable company, till after several more rounds you end up with .5% of the company at the point where it IPOs, and you are very happy because your $50,000 has become $5 million. [[3](#f3n)]",
+      "zhMarkdown": "这没关系。稀释是正常现象。之所以能在未来的融资轮中免受不公对待，通常是因为你和创始人坐在同一条船上。他们无法稀释你，除非他们也同样稀释自己。而且，除非最终能[获得净收益](https://paulgraham.com/equity.html)，否则他们是不会稀释自己的。因此在理论上，每一轮新投资虽然让你持有的股份比例变小，但公司的价值却更大了。经过几轮融资后，直到公司上市时你可能只剩下 0.5% 的股份，但你依然会非常高兴，因为你当初的 5 万美元已经变成了 500 万美元。[[3](#f3n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "4a20411d6033b445d0894f813dae761c23c42664f36e74ca5bb963486a80a0bd",
+      "enMarkdown": "The agreement by which you invest should have provisions that let you contribute to future rounds to maintain your percentage. So it's your choice whether you get diluted. [[4](#f4n)] If the company does really well, you eventually will, because eventually the valuations will get so high it's not worth it for you.",
+      "zhMarkdown": "你投资的协议中应该包含允许你跟投未来融资轮以维持持股比例的条款。因此，是否接受稀释是你的选择。[[4](#f4n)] 如果公司做得非常好，你最终还是会被稀释，因为估值终究会高到让你觉得不值得再跟投。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d64da325c005f37a9554cbb19b1a11d421e9f1a0556d9cd243852b6b40089783",
+      "enMarkdown": "How much does an angel invest? That varies enormously, from $10,000 to hundreds of thousands or in rare cases even millions. The upper bound is obviously the total amount the founders want to raise. The lower bound is 5-10% of the total or $10,000, whichever is greater. A typical angel round these days might be $150,000 raised from 5 people.",
+      "zhMarkdown": "天使投资人一般投多少钱？这个额度差异极大，从 1 万美元到几十万美元不等，极少数情况下甚至会达到数百万美元。上限显然是创始人想要募集的总额。下限是总额的 5% 到 10%，或者是 1 万美元，以较高者为准。如今一个典型的天使轮可能是从 5 个人那里募集 15 万美元。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "ebd9a49c38686a01d7945902b7bf5c586d3e4d5623b4437e74d9733826d52132",
+      "enMarkdown": "Valuations don't vary as much. For angel rounds it's rare to see a valuation lower than half a million or higher than 4 or 5 million. 4 million is starting to be VC territory.",
+      "zhMarkdown": "估值的差异则没有那么大。对于天使轮来说，很难看到低于 50 万美元或高于 400 万到 500 万美元的估值。400 万美元就已经开始进入风险投资的领地了。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "63775e107a053bfa14fb36914749967035fa0c302f4bf7d3659af957647fa86b",
+      "enMarkdown": "How do you decide what valuation to offer? If you're part of a round led by someone else, that problem is solved for you. But what if you're investing by yourself? There's no real answer. There is no rational way to value an early stage startup. The valuation reflects nothing more than the strength of the company's bargaining position. If they really want you, either because they desperately need money, or you're someone who can help them a lot, they'll let you invest at a low valuation. If they don't need you, it will be higher. So guess. The startup may not have any more idea what the number should be than you do. [[5](#f5n)]",
+      "zhMarkdown": "你该如何决定给多少估值？如果你是参与由别人领投的融资轮，这个问题就迎刃而解了。但如果你是自己单独投资呢？其实没有标准答案。给一个早期创业公司估值根本没有理性的方法。估值无非反映了公司谈判地位的强弱。如果他们非常想要你加入，无论是急需资金，还是因为你能给他们带来巨大帮助，他们都会让你以较低的估值投资。如果他们不需要你，估值就会高一些。所以，靠猜吧。创业公司自己对这个数字该是多少，可能和你一样没有头绪。[[5](#f5n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4d234258d575d0c760d3f2c6abc46115b041180727252636611fdf4dae273857",
+      "enMarkdown": "Ultimately it doesn't matter much. When angels make a lot of money from a deal, it's not because they invested at a valuation of $1.5 million instead of $3 million. It's because the company was really successful.",
+      "zhMarkdown": "归根结底，这并不太重要。当天使投资人从一笔交易中赚了大钱时，绝不是因为他们是以 150 万美元而不是 300 万美元的估值投进去的，而是因为这家公司真正取得了成功。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "78f9823a835147676268820e4c52ec8756318be26dcdcc2355f27514f4f7e01e",
+      "enMarkdown": "I can't emphasize that too much. Don't get hung up on mechanics or deal terms. What you should spend your time thinking about is whether the company is good.",
+      "zhMarkdown": "这一点我再怎么强调也不为过。千万不要纠结于操作机制或交易条款。你应该把时间花在思考这家公司到底好不好上。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "5ce31a47486f97397533146e1dca228e603915ede36c0660793c90fe1999088b",
+      "enMarkdown": "(Similarly, founders also should not get hung up on deal terms, but should spend their time thinking about how to make the company good.)",
+      "zhMarkdown": "（同样，创始人也不应该纠结于交易条款，而应该把时间花在思考如何把公司做好上。）"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "aecc5791cebd925b276e5c03f64e5a562c0f6cae784a53a01072fe63c56a60d2",
+      "enMarkdown": "There's a second less obvious component of an angel investment: how much you're expected to help the startup. Like the amount you invest, this can vary a lot. You don't have to do anything if you don't want to; you could simply be a source of money. Or you can become a de facto employee of the company. Just make sure that you and the startup agree in advance about roughly how much you'll do for them.",
+      "zhMarkdown": "天使投资还有第二个不那么显而易见的组成部分：你被期望给创业公司提供多少帮助。和投资金额一样，这也因人而异。如果你不想做任何事，你完全可以不插手，只做一个资金来源；或者你也可以成为公司的“事实员工”。只要确保你和创业公司提前就你将为他们做多少事达成大致的共识即可。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "8d9d447046826de1cf09aaf7e004e95dc2d9b4c19a9d95442465f326364f6dbd",
+      "enMarkdown": "Really hot companies sometimes have high standards for angels. The ones everyone wants to invest in practically audition investors, and only take money from people who are famous and/or will work hard for them. But don't feel like you have to put in a lot of time or you won't get to invest in any good startups. There is a surprising lack of correlation between how hot a deal a startup is and how well it ends up doing. Lots of hot startups will end up failing, and lots of startups no one likes will end up succeeding. And the latter are so desperate for money that they'll take it from anyone at a low valuation. [[6](#f6n)]",
+      "zhMarkdown": "非常抢手的公司有时对天使投资人的要求很高。那些每个人都想投的项目实际上会面试投资人，并且只接受名人或愿意为他们拼命工作的人的钱。但不要觉得你必须投入大量时间，否则就投不到好的创业公司。创业公司有多抢手，与它最终能做得多好，这两者之间其实没有太大的关联。许多炙手可热的创业公司最终会失败，而许多无人问津的创业公司最终会成功。后者往往极度缺钱，以至于会以很低的估值接受任何人的投资。[[6](#f6n)]"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "ce44ec214f591e73086c7932e5897da1cbc323ab490f903efb78c40fbcad2ab4",
+      "enMarkdown": "**Picking Winners**",
+      "zhMarkdown": "**挑选赢家**"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "b73d14ede7dd940459d9e23978befd0fe44cc50061095ac1f9743b6f7dc05e11",
+      "enMarkdown": "It would be nice to be able to pick those out, wouldn't it? The part of angel investing that has most effect on your returns, picking the right companies, is also the hardest. So you should practically ignore (or more precisely, archive, in the Gmail sense) everything I've told you so far. You may need to refer to it at some point, but it is not the central issue.",
+      "zhMarkdown": "要是能把那些未来的赢家挑出来，该有多好？挑选对的公司，是天使投资中对你回报影响最大的一环，也是最难的一环。所以，你几乎可以忽略（更准确地说，是像 Gmail 那样归档）我到目前为止告诉你的所有内容。你可能在某个时候需要参考它，但它绝不是核心问题。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "0a827883ec0af3afd1f0d974ed6ff830651206fac11c3b88304b9b0b6b320ff5",
+      "enMarkdown": "The central issue is picking the right startups. What \"Make something people want\" is for startups, \"Pick the right startups\" is for investors. Combined they yield \"Pick the startups that will make something people want.\"",
+      "zhMarkdown": "核心问题是挑对创业公司。如果说“做出人们想要的东西”是创业公司的核心，那么“挑对创业公司”就是投资人的核心。两者结合起来就是：“挑出那些能够做出人们想要的东西的创业公司。”"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "77b0643f1c6e27603418dd81dd179ba4100b7df367a57132e8177dd64413ad52",
+      "enMarkdown": "How do you do that? It's not as simple as picking startups that are already making something wildly popular. By then it's too late for angels. VCs will already be onto them. As an angel, you have to pick startups before they've got a hit—either because they've made something great but users don't realize it yet, like Google early on, or because they're still an iteration or two away from the big hit, like Paypal when they were making software for transferring money between PDAs.",
+      "zhMarkdown": "你该怎么做？这可不像直接去挑那些已经做出风靡一时产品的创业公司那么简单。到那个时候，对天使投资人来说已经太晚了，风险投资人早就盯上他们了。作为天使投资人，你必须在他们爆红之前挑中他们——要么是因为他们做出了伟大的东西但用户还没有意识到（比如早期的 Google），要么是因为他们距离大获成功还差一两次迭代（比如 Paypal 还在做 PDA 之间转账软件的时候）。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "07ced3303d7487037a0b1b23a2b0c55e5e1fda423eadc6995e26b7ec7217e1c3",
+      "enMarkdown": "To be a good angel investor, you have to be a good judge of potential. That's what it comes down to. VCs can be fast followers. Most of them don't try to predict what will win. They just try to notice quickly when something already is winning. But angels have to be able to predict. [[7](#f7n)]",
+      "zhMarkdown": "要成为一名优秀的天使投资人，你必须善于判断潜力。归根结底就是这样。风险投资人可以做“快速跟进者”。他们大多数人并不试图预测谁会赢，只是在某些东西已经开始赢的时候，努力快速察觉。但天使投资人必须具备预测的能力。[[7](#f7n)]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "556ea686795fa8023873b5a28d5a5c463026d8edf28f9ba948422afb5352cac5",
+      "enMarkdown": "One interesting consequence of this fact is that there are a lot of people out there who have never even made an angel investment and yet are already better angel investors than they realize. Someone who doesn't know the first thing about the mechanics of venture funding but knows what a successful startup founder looks like is actually far ahead of someone who knows termsheets inside out, but thinks [\"hacker\"](https://paulgraham.com/gba.html) means someone who breaks into computers. If you can recognize good startup founders by empathizing with them—if you both resonate at the same frequency—then you may already be a better startup picker than the median professional VC. [[8](#f8n)]",
+      "zhMarkdown": "这个事实带来了一个有趣的现象：有很多人从未做过一笔天使投资，却已经比他们自己意识到的更擅长做天使投资了。一个对创业融资机制一窍不通、但懂得成功的创业创始人长什么样的人，其实远远领先于一个对条款清单了如指掌、却以为[“黑客”](https://paulgraham.com/gba.html)就是入侵电脑的毛贼的人。如果你能通过同理心来识别优秀的创业创始人——如果你们在同一个频率上共鸣——那么你挑选创业公司的能力可能已经超过了行业中位数的专业风险投资人。[[8](#f8n)]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "784d7ee17817429d42961f6d4afb3dc991ae95ac39c2a3d3a2ad8be56f896122",
+      "enMarkdown": "Paul Buchheit, for example, started angel investing about a year after me, and he was pretty much immediately as good as me at picking startups. My extra year of experience was rounding error compared to our ability to empathize with founders.",
+      "zhMarkdown": "例如，Paul Buchheit 在我开始做天使投资大约一年后也开始了，而且他几乎立刻就和我一样擅长挑选创业公司。与我们与创始人建立共情的能力相比，我多出的一年经验简直微不足道。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "889841128859870ebc77efc55d615eb76bffbca8305095bc31240147553c0ce1",
+      "enMarkdown": "What makes a good founder? If there were a word that meant the opposite of hapless, that would be the one. Bad founders seem hapless. They may be smart, or not, but somehow events overwhelm them and they get discouraged and give up. Good founders make things happen the way they want. Which is not to say they force things to happen in a predefined way. Good founders have a healthy respect for reality. But they are relentlessly resourceful. That's the closest I can get to the opposite of hapless. You want to fund people who are relentlessly resourceful.",
+      "zhMarkdown": "什么样的人能成为优秀的创始人？如果有一个词能表达“无能”（hapless）的反义词，那就是它了。糟糕的创始人看起来总是很无能。他们或许聪明，或许不聪明，但总会被各种状况压得喘不过气来，感到气馁并最终放弃。优秀的创始人则能让事情按照自己的意愿发生。这并不是说他们强行让事情按既定方式发展。优秀的创始人对现实有着健康的敬畏，但他们“极具开拓精神，总能绝处逢生”（relentlessly resourceful）。这是我能找到的最接近“无能”反义词的表达。你要投资的就是这种能够绝处逢生的人。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "92c16f60fb7216896c63f36c193d9b96669a7aa5e6dcccb99e92e6e1a94a58e1",
+      "enMarkdown": "Notice we started out talking about things, and now we're talking about people. There is an ongoing debate between investors which is more important, the people, or the idea—or more precisely, the market. Some, like Ron Conway, say it's the people—that the idea will change, but the people are the foundation of the company. Whereas Marc Andreessen says he'd back ok founders in a hot market over great founders in a bad one. [[9](#f9n)]",
+      "zhMarkdown": "请注意，我们一开始在谈论“事”，现在我们谈论的是“人”。投资人之间一直存在一个争论：人更重要，还是想法更重要——或者更准确地说，市场更重要。有些人像 Ron Conway，认为人最重要——想法会变，但人是公司的基石。而 Marc Andreessen 则表示，在热门市场中，他宁愿支持平庸的创始人，也不愿在糟糕的市场中支持伟大的创始人。[[9](#f9n)]"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "8eb0cd0c8503a0ece0e345b4452bd22849866f38940801e33597f026774ae406",
+      "enMarkdown": "These two positions are not so far apart as they seem, because good people find good markets. Bill Gates would probably have ended up pretty rich even if IBM hadn't happened to drop the PC standard in his lap.",
+      "zhMarkdown": "这两种立场并没有看起来那么遥远，因为优秀的人总能找到好的市场。即使当年 IBM 没有把 PC 标准拱手送到比尔·盖茨的怀里，他最终可能也会变得非常富有。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "5fe3b19dd31c6736f462316aded82a044a69d938ef0dbcd36e8d1269cd33d0f1",
+      "enMarkdown": "I've thought a lot about the disagreement between the investors who prefer to bet on people and those who prefer to bet on markets. It's kind of surprising that it even exists. You'd expect opinions to have converged more.",
+      "zhMarkdown": "我深入思考过倾向于赌人与倾向于赌市场的投资人之间的分歧。甚至连这种分歧的存在都有些令人惊讶。你本以为大家的观点应该更加趋同才对。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "da395e3b3f34a07c1d578676f237eaa84dac38f304fb90e89150e6c09a3b1c57",
+      "enMarkdown": "But I think I've figured out what's going on. The three most prominent people I know who favor markets are Marc, Jawed Karim, and Joe Kraus. And all three of them, in their own startups, basically flew into a thermal: they hit a market growing so fast that it was all they could do to keep up with it. That kind of experience is hard to ignore. Plus I think they underestimate themselves: they think back to how easy it felt to ride that huge thermal upward, and they think \"anyone could have done it.\" But that isn't true; they are not ordinary people.",
+      "zhMarkdown": "但我认为我已经找到了原因。在我认识的看重市场的三位最杰出的人士中——Marc、Jawed Karim 和 Joe Kraus——他们自己的创业公司基本上都是乘风起飞：他们碰到了一个增长极快的市场，以至于他们竭尽全力也只能勉强跟上它的步伐。这种经历是很难忽视的。此外，我认为他们低估了自己：他们回想起顺着那股巨大的上升气流往上飞是多么容易，便以为“任何人都能做到”。但事实并非如此，他们并不是普通人。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "eb094464f04599d8e916b18f3f4997a8c8f3ce921ae3c33be7300e06b1b92bc3",
+      "enMarkdown": "So as an angel investor I think you want to go with Ron Conway and bet on people. Thermals happen, yes, but no one can predict them—not even the founders, and certainly not you as an investor. And only good people can ride the thermals if they hit them anyway.",
+      "zhMarkdown": "因此，作为一名天使投资人，我认为你应该站在 Ron Conway 这边，赌在人身上。上升气流确实存在，但没人能预测它们——甚至连创始人自己也不能，作为投资人的你当然更不行。而且，即使碰上了上升气流，也只有优秀的人才能乘风破浪。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "21133f7198d80186352fbb6b69772bf25fd42ff21cc8471181b08b5d8b66607a",
+      "enMarkdown": "**Deal Flow**",
+      "zhMarkdown": "**项目源（Deal Flow）**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "db12f42d6b99e03834ecea3b274cc9d9f77b85c4f84e8bf946afe289915eadac",
+      "enMarkdown": "Of course the question of how to choose startups presumes you have startups to choose between. How do you find them? This is yet another problem that gets solved for you by syndicates. If you tag along on a friend's investments, you don't have to find startups.",
+      "zhMarkdown": "当然，如何挑选创业公司这个前提是，你得有创业公司可供选择。你怎么找到它们？这又是一个可以通过联合投资来解决的问题。如果你跟着朋友的投资走，你就不需要自己去找项目。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "8bdc3fe13ccf446c5676400367b3e83bf811e8c2044df018a69ea14787bbe428",
+      "enMarkdown": "The problem is not finding startups, exactly, but finding a stream of reasonably high quality ones. The traditional way to do this is through contacts. If you're friends with a lot of investors and founders, they'll send deals your way. The Valley basically runs on referrals. And once you start to become known as reliable, useful investor, people will refer lots of deals to you. I certainly will.",
+      "zhMarkdown": "确切地说，问题不在于寻找创业公司，而在于找到源源不断的高质量项目。传统的方法是通过人脉。如果你和许多投资人和创始人是朋友，他们就会把项目推荐给你。硅谷基本上是靠熟人引荐运转的。一旦你被公认为靠谱、有用的投资人，人们就会把大量的交易引荐给你。我肯定也会这么做。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "35baabe98a9b3e09ec9bb9c0c705134b9d67152258fa8805623e9cfcb1eca1b8",
+      "enMarkdown": "There's also a newer way to find startups, which is to come to events like Y Combinator's Demo Day, where a batch of newly created startups presents to investors all at once. We have two Demo Days a year, one in March and one in August. These are basically mass referrals.",
+      "zhMarkdown": "现在还有一种寻找创业公司的新方法，那就是参加像 Y Combinator 的 Demo Day 这样的活动，届时会有一批新创立的公司集中向投资人展示。我们每年举办两次 Demo Day，一次在三月，一次在八月。这些基本上就是大规模的集中引荐。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "28953fd655385d2462e91f74c2279dc617e7168a1ef3b9fc14b4b46d6f9fed4c",
+      "enMarkdown": "But events like Demo Day only account for a fraction of matches between startups and investors. The personal referral is still the most common route. So if you want to hear about new startups, the best way to do it is to get lots of referrals.",
+      "zhMarkdown": "但像 Demo Day 这样的活动只占创业公司和投资人对接的一部分。个人引荐仍然是最常见的途径。所以，如果你想了解新的创业公司，最好的方法就是获得大量的引荐。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "3ae750a23359f6863ba7d5df36c81bfadcfef7e24ded202d4794c555e635740e",
+      "enMarkdown": "The best way to get lots of referrals is to invest in startups. No matter how smart and nice you seem, insiders will be reluctant to send you referrals until you've proven yourself by doing a couple investments. Some smart, nice guys turn out to be flaky, high-maintenance investors. But once you prove yourself as a good investor, the deal flow, as they call it, will increase rapidly in both quality and quantity. At the extreme, for someone like Ron Conway, it is basically identical with the deal flow of the whole Valley.",
+      "zhMarkdown": "而获得大量引荐的最佳方法就是去投资创业公司。无论你看起来多么聪明和友善，在你自己通过做几笔投资证明自己之前，圈内人是不愿意给你推荐项目的。有些聪明、和善的家伙，结果却成了极度不靠谱、事儿多的投资人。但是，一旦你证明了自己是一个优秀的投资人，他们所谓的“项目源”就会在质量和数量上迅速增长。在极端情况下，对于像 Ron Conway 这样的人来说，他的项目源基本上就等同于整个硅谷的项目源。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "d550edebc998d266acb7ba07776c060a9b89e8f98a7d83a29b54b907f8627e48",
+      "enMarkdown": "So if you want to invest seriously, the way to get started is to bootstrap yourself off your existing connections, be a good investor in the startups you meet that way, and eventually you'll start a chain reaction. Good investors are rare, even in Silicon Valley. There probably aren't more than a couple hundred serious angels in the whole Valley, and yet they're probably the single most important ingredient in making the Valley what it is. Angels are the limiting reagent in startup formation.",
+      "zhMarkdown": "所以，如果你想认真做投资，开始的方法就是利用你现有的关系起步，在你通过这种方式遇到的创业公司中做好一个投资人，最终你就会启动连锁反应。优秀的投资人是稀缺的，即使在硅谷也是如此。整个硅谷可能只有几百个认真的天使投资人，然而他们可能是造就硅谷今天模样的最重要单一因素。天使投资人是创业公司创立过程中的“限制性试剂”。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "861c72753e8d9327987f91336ba6f2290f0715ac78928eb2fe811adbd39bfbb7",
+      "enMarkdown": "If there are only a couple hundred serious angels in the Valley, then by deciding to become one you could single-handedly make the pipeline for startups in Silicon Valley significantly wider. That is kind of mind-blowing.",
+      "zhMarkdown": "如果硅谷只有几百个认真的天使投资人，那么只要你决定成为其中一员，你单枪匹马就能让硅谷创业公司的输送管道拓宽不少。这真是太令人惊叹了。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "82eb2ee9b5979cebe34baa05badebf70fd9ac59df59569d2ff1d70a2043140cb",
+      "enMarkdown": "**Being Good**",
+      "zhMarkdown": "**做一个好投资人**"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "6f33cd42ed48c39b40385287ff5ac647cf2e97b546569984c03d4f5f4e84a62f",
+      "enMarkdown": "How do you be a good angel investor? The first thing you need is to be decisive. When we talk to founders about good and bad investors, one of the ways we describe the good ones is to say \"he writes checks.\" That doesn't mean the investor says yes to everyone. Far from it. It means he makes up his mind quickly, and follows through. You may be thinking, how hard could that be? You'll see when you try it. It follows from the nature of angel investing that the decisions are hard. You have to guess early, at the stage when the most promising ideas still seem counterintuitive, because if they were obviously good, VCs would already have funded them.",
+      "zhMarkdown": "如何成为一名优秀的天使投资人？你首先需要做到的是果断。当我们和创始人聊起好投资人和坏投资人时，我们形容好投资人的方式之一就是说“他会开支票”。这并不意味着投资人对每个人都说好。恰恰相反。这意味着他能迅速做出决定，并付诸行动。你可能会想，这能有多难？当你尝试时，你就会明白了。天使投资的决策之所以艰难，是由它的本质决定的。你必须在极早期做出猜测，在这个阶段，最令人兴奋的想法看起来往往是不合常理的，因为如果它们显而易见是好想法，风险投资人早就给他们投钱了。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "a30805a98048d37aa6781b04940f408428d13cd2bce5042cab73b350f2ec308f",
+      "enMarkdown": "Suppose it's 1998. You come across a startup founded by a couple grad students. They say they're going to work on Internet search. There are already a bunch of big public companies doing search. How can these grad students possibly compete with them? And does search even matter anyway? All the search engines are trying to get people to start calling them \"portals\" instead. Why would you want to invest in a startup run by a couple of nobodies who are trying to compete with large, aggressive companies in an area they themselves have declared passe? And yet the grad students seem pretty smart. What do you do?",
+      "zhMarkdown": "假设现在是 1998 年。你遇到了两个研究生创办的创业公司。他们说他们要去做互联网搜索。当时已经有一大批上市的大公司在做搜索了。这两个研究生凭什么能和他们竞争？而且搜索真的重要吗？当时所有的搜索引擎都在试图让人们称它们为“门户网站”。你为什么要投资一个由两个无名小卒创办、试图在别人都宣告过时的领域与庞大且极具侵略性的公司竞争的创业公司呢？然而，这两个研究生看起来确实挺聪明的。你会怎么做？"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "7b670508ffe039bf85f896c87e1226f6c849d3ea967e5238197c3b7052d6d708",
+      "enMarkdown": "There's a hack for being decisive when you're inexperienced: ratchet down the size of your investment till it's an amount you wouldn't care too much about losing. For every rich person (you probably shouldn't try angel investing unless you think of yourself as rich) there's some amount that would be painless, though annoying, to lose. Till you feel comfortable investing, don't invest more than that per startup.",
+      "zhMarkdown": "对于没有经验的人来说，有一个变得果断的窍门：把你的投资规模降到你不太在乎输掉的额度。对于每个有钱人来说（除非你认为自己有钱，否则可能不应该尝试天使投资），总有那么一个数额，输掉了虽然心疼，但不会伤筋动骨。在你对投资感到自如之前，每家创业公司的投资额不要超过这个界限。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "1800eb92645c7979e3df44b7ee2a9ac3d809f64783409471a05025bdb8494add",
+      "enMarkdown": "For example, if you have $5 million in investable assets, it would probably be painless (though annoying) to lose $15,000. That's less than .3% of your net worth. So start by making 3 or 4 $15,000 investments. Nothing will teach you about angel investing like experience. Treat the first few as an educational expense. $60,000 is less than a lot of graduate programs. Plus you get equity.",
+      "zhMarkdown": "例如，如果你有 500 万美元的可投资资产，损失 1.5 万美元大概是无痛的（尽管会有些懊恼）。这还不到你净资产的 0.3%。所以，先做三四笔 1.5 万美元的投资。没有什么比实践更能教你做天使投资了。把前几次投资当作学费。6 万美元比很多研究生的学费还要便宜。而且你还拿到了股权。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "94c0b9bd81a24df9f756496793e698cd371b81a28bde28828fb5ef6b97818e3c",
+      "enMarkdown": "What's really uncool is to be strategically indecisive: to string founders along while trying to gather more information about the startup's trajectory. [[10](#f10n)] There's always a temptation to do that, because you just have so little to go on, but you have to consciously resist it. In the long term it's to your advantage to be good.",
+      "zhMarkdown": "真正差劲的是战术上的犹豫不决：一边吊着创始人，一边试图收集更多关于创业公司发展轨迹的信息。[[10](#f10n)] 这样做总是很有诱惑力，因为你手头的参考信息实在太少了，但你必须自觉地抵制这种诱惑。从长远来看，做一个体面、靠谱的投资人对你更有利。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "113f743b4f3ea0560587fd3a7dfc51f87654389fe3de558a1da9e34ad0f598ec",
+      "enMarkdown": "The other component of being a good angel investor is simply to be a good person. Angel investing is not a business where you make money by screwing people over. Startups create wealth, and creating wealth is not a zero sum game. No one has to lose for you to win. In fact, if you mistreat the founders you invest in, they'll just get demoralized and the company will do worse. Plus your referrals will dry up. So I recommend being good.",
+      "zhMarkdown": "成为优秀天使投资人的另一个要素，就是简单地做一个好人。天使投资不是一个靠坑蒙拐骗来赚钱的行业。创业公司创造财富，而创造财富并不是一个零和博弈。不需要有人输，你才能赢。事实上，如果你亏待了你投资的创始人，他们就会士气低落，公司也会做得更糟。而且，你的项目引荐渠道也会枯竭。因此，我建议做个好人。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "c8c61024abd135aa2209014857ab151005eb0380e516a57abff8265220f08f6e",
+      "enMarkdown": "The most successful angel investors I know are all basically good people. Once they invest in a company, all they want to do is help it. And they'll help people they haven't invested in too. When they do favors they don't seem to keep track of them. It's too much overhead. They just try to help everyone, and assume good things will flow back to them somehow. Empirically that seems to work.",
+      "zhMarkdown": "我认识的最成功的天使投资人，基本上都是好人。一旦他们投资了一家公司，他们唯一想做的就是帮助它。他们也会帮助那些他们没有投资的人。当他们帮人忙时，似乎并不会斤斤计较、记在账上。这样做的管理成本太高了。他们只是努力帮助每一个人，并相信好运总会以某种方式回馈给他们。从经验来看，这确实有效。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "dbed241a6fee8ab4671b5ef15a6f82b5a35df2551f74968cc4c90ae9e775eaa8",
+      "enMarkdown": "[1] Convertible debt can be either capped at a particular valuation, or can be done at a discount to whatever the valuation turns out to be when it converts. E.g. convertible debt at a discount of 30% means when it converts you get stock as if you'd invested at a 30% lower valuation. That can be useful in cases where you can't or don't want to figure out what the valuation should be. You leave it to the next investor. On the other hand, a lot of investors want to know exactly what they're getting, so they will only do convertible debt with a cap.",
+      "zhMarkdown": "[1] 可转债既可以设定特定的估值上限（cap），也可以在转换时按照届时估值的折扣进行。例如，打折 30% 的可转债意味着转换时，你获得的股份相当于以低 30% 的估值进行投资。在你无法或不想弄清楚估值应该是多少的情况下，这很有用。你可以把这个问题留给下一个投资人。另一方面，许多投资人想确切地知道自己能拿到什么，所以他们只做带有估值上限的可转债。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "0ad011f837e8df5b63f9d7b14645590aa15b9b200978586efad43c5b32d49f20",
+      "enMarkdown": "[2] The expensive part of creating an agreement from scratch is not writing the agreement, but bickering at several hundred dollars an hour over the details. That's why the series AA paperwork aims at a middle ground. You can just start from the compromise you'd have reached after lots of back and forth.",
+      "zhMarkdown": "[2] 从头起草协议最昂贵的部分不是写协议，而是以每小时几百美元的价格为细节争论不休。这就是为什么 series AA 模板文件旨在寻找一个折中方案。你完全可以直接从经过多次反复协商后达成的妥协方案开始。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "30622bc02e30435c44978e7d72d84882c1ad1436ef1ca6d87765ed0b91da22f1",
+      "enMarkdown": "When you fund a startup, both your lawyers should be specialists in startups. Do not use ordinary corporate lawyers for this. Their inexperience makes them overbuild: they'll create huge, overcomplicated agreements, and spend hours arguing over irrelevant things.",
+      "zhMarkdown": "当你资助一家创业公司时，你们双方的律师都应该是专门服务创业公司的。不要用普通的普通公司律师。他们的缺乏经验会导致过度设计：他们会制定庞大、过度复杂的协议，并在无关紧要的事情上争论数小时。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "11dc9ee873b19f48078d829587c3456db44e74c5c86d0b2c40af63ece942f89f",
+      "enMarkdown": "In the Valley, the top startup law firms are Wilson Sonsini, Orrick, Fenwick & West, Gunderson Dettmer, and Cooley Godward. In Boston the best are Goodwin Procter, Wilmer Hale, and Foley Hoag.",
+      "zhMarkdown": "在硅谷，顶尖的创业公司律师事务所包括 Wilson Sonsini、Orrick、Fenwick & West、Gunderson Dettmer 和 Cooley Godward。在波士顿，最优秀的是 Goodwin Procter、Wilmer Hale 和 Foley Hoag。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "186efa52645b476511360b14ea6104cb51cb09b0d60e44018845c6a5f574f7c1",
+      "enMarkdown": "[3] Your mileage may vary.",
+      "zhMarkdown": "[3] 实际情况因人而异。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "c4f8a8827f62349c7e29d9797a68f2d3311dc2e288d133b6a2e542a1fd79d819",
+      "enMarkdown": "[4] These anti-dilution provisions also protect you against tricks like a later investor trying to steal the company by doing another round that values the company at $1. If you have a competent startup lawyer handle the deal for you, you should be protected against such tricks initially. But it could become a problem later. If a big VC firm wants to invest in the startup after you, they may try to make you take out your anti-dilution protections. And if they do the startup will be pressuring you to agree. They'll tell you that if you don't, you're going to kill their deal with the VC. I recommend you solve this problem by having a gentlemen's agreement with the founders: agree with them in advance that you're not going to give up your anti-dilution protections. Then it's up to them to tell VCs early on.",
+      "zhMarkdown": "[4] 这些反稀释条款还可以保护你免受一些伎俩的侵害，比如后来的投资人试图通过进行新一轮融资（将公司估值定为 1 美元）来窃取公司。如果你有合格的创业公司律师为你处理交易，你最初应该可以免受此类花招的侵害。但这在以后可能会成为一个问题。如果一个大型 VC 机构想在你之后投资这家创业公司，他们可能会试图让你放弃反稀释保护。如果他们这样做，创业公司就会向你施压让你同意。他们会告诉你，如果你不同意，你就会毁了他们与 VC 的交易。我建议你通过与创始人达成君子协定来解决这个问题：提前与他们约定，你不会放弃你的反稀释保护。然后由他们尽早去告诉 VC。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "20cb1d66a7d51a11d115db6eaa14066ac08ab2ce2436e73fd0fe6615e80de543",
+      "enMarkdown": "The reason you don't want to give them up is the following scenario. The VCs recapitalize the company, meaning they give it additional funding at a pre-money valuation of zero. This wipes out the existing shareholders, including both you and the founders. They then grant the founders lots of options, because they need them to stay around, but you get nothing.",
+      "zhMarkdown": "你不想放弃它们的原因是以下这种情况。VC 对公司进行重组，这意味着他们在投前估值为零的情况下为公司提供额外资金。这抹去了包括你和创始人在内的现有股东的股份。然后他们向创始人发放大量期权，因为他们需要创始人留下来，而你却一无所有。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "9dc64ce774fb23a049b085f6cd1a10f6791133fdf3cbe3d2662070fd74b57f8f",
+      "enMarkdown": "Obviously this is not a nice thing to do. It doesn't happen often. Brand-name VCs wouldn't recapitalize a company just to steal a few percent from an angel. But there's a continuum here. A less upstanding, lower-tier VC might be tempted to do it to steal a big chunk of stock.",
+      "zhMarkdown": "显然，这并不是一件体面的事情。它不经常发生。知名 VC 不会仅仅为了从天使投资人手里偷走几个百分点的股份而对公司进行重组。但这里有一个光谱。一个没那么正直、档次较低的 VC 可能会经不起诱惑，通过这种手段来窃取一大块股份。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "cbb4da6e2d8048d12fb66031e1803c8371659e367f2f7444d46dbd43944bb29a",
+      "enMarkdown": "I'm not saying you should always absolutely refuse to give up your anti-dilution protections. Everything is a negotiation. If you're part of a powerful syndicate, you might be able to give up legal protections and rely on social ones. If you invest in a deal led by a big angel like Ron Conway, for example, you're pretty well protected against being mistreated, because any VC would think twice before crossing him. This kind of protection is one of the reasons angels like to invest in syndicates.",
+      "zhMarkdown": "我并不是说你必须绝对拒绝放弃反稀释保护。一切都是谈判。如果你是一个强大联合投资的一员，你或许可以放弃法律保护，转而依赖社交保护。例如，如果你投资了由 Ron Conway 这样的大牌天使领投的项目，你就可以很好地免受不公对待，因为任何 VC 在得罪他之前都要三思。这种保护是天使投资人喜欢联合投资的原因之一。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "adc0f8ea7644ae0d31b9c8ebe67fd874b331507e2da2cb921eff0eeced3464a1",
+      "enMarkdown": "[5] Don't invest so much, or at such a low valuation, that you end up with an excessively large share of a startup, unless you're sure your money will be the last they ever need. Later stage investors won't invest in a company if the founders don't have enough equity left to motivate them. I talked to a VC recently who said he'd met with a company he really liked, but he turned them down because investors already owned more than half of it. Those investors probably thought they'd been pretty clever by getting such a large chunk of this desirable company, but in fact they were shooting themselves in the foot.",
+      "zhMarkdown": "[5] 不要投太多钱，也不要以太低的估值投资，以至于最终占有创业公司过大比例的股份，除非你确定你的钱是他们永远需要的最后一笔钱。如果创始人没有留下足够的股权来保持动力，后期投资人是不会投资这家公司的。我最近和一位 VC 聊天，他说他遇到了一家他非常喜欢的公司，但他拒绝了他们，因为投资人已经拥有了它一半以上的股份。那些投资人可能觉得自己很聪明，拿到了这家抢手公司这么大一块股份，但实际上他们是在搬起石头砸自己的脚。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "46bcf0ecea9359166fbe768b5b2fbe743d510774c6829d5fe87f835a26f9d425",
+      "enMarkdown": "[6] At any given time I know of at least 3 or 4 YC alumni who I believe will be big successes but who are running on vapor, financially, because investors don't yet get what they're doing. (And no, unfortunately, I can't tell you who they are. I can't refer a startup to an investor I don't know.)",
+      "zhMarkdown": "[6] 在任何时候，我都至少知道 3 或 4 个 YC 校友，我相信他们会取得巨大的成功，但因为投资人还不理解他们在做什么，他们在财务上正处于断粮边缘。（不，很遗憾，我不能告诉你他们是谁。我不能把创业公司推荐给我不认识的投资人。）"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "d0eca0992ee305e16d1ad3e332236d439cbe66ba4c0d158208a3ec0fb1165914",
+      "enMarkdown": "[7] There are some VCs who can predict instead of reacting. Not surprisingly, these are the most successful ones.",
+      "zhMarkdown": "[7] 有些 VC 能够进行预测而不是被动反应。不出所料，这些人是最成功的。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "71709d7ef6477254a3c455e36259c099442bda041e391009551e604eda33deb2",
+      "enMarkdown": "[8] It's somewhat sneaky of me to put it this way, because the median VC loses money. That's one of the most surprising things I've learned about VC while working on Y Combinator. Only a fraction of VCs even have positive returns. The rest exist to satisfy demand among fund managers for venture capital as an asset class. Learning this explained a lot about some of the VCs I encountered when we were working on Viaweb.",
+      "zhMarkdown": "[8] 我这样说有点狡猾，因为中位数 VC 都是亏钱的。这是我在 Y Combinator 工作时学到的关于 VC 最令人惊讶的事情之一。只有一小部分 VC 能够获得正回报。其余的存在只是为了满足基金经理对风险投资作为一种资产配置的需求。了解到这一点，解释了我当年在做 Viaweb 时遇到的一些 VC 的很多行为。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "ec0f9130a5da4e0f279ae1307deeb279be9579e50aabc8bdbaf16e3448521cbc",
+      "enMarkdown": "[9] VCs also generally say they prefer great markets to great people. But what they're really saying is they want both. They're so selective that they only even consider great people. So when they say they care above all about big markets, they mean that's how they choose between great people.",
+      "zhMarkdown": "[9] VC 们也普遍表示，他们更喜欢伟大的市场，而不是伟大的人。但他们真正想说的是，他们两者都想要。他们是如此挑剔，以至于他们只考虑优秀的人。所以当他们说他们最关心大市场时，他们的意思是，这是他们在一群优秀的人中做选择的方式。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "0b55ad28a56955b92df9560ff4f822e412873abede64bb2be72e9e79304e3417",
+      "enMarkdown": "[10] Founders rightly dislike the sort of investor who says he's interested in investing but doesn't want to lead. There are circumstances where this is an acceptable excuse, but more often than not what it means is \"No, but if you turn out to be a hot deal, I want to be able to claim retroactively I said yes.\"",
+      "zhMarkdown": "[10] 创始人理所当然地讨厌那种口头上说有兴趣投资、却不想领投的投资人。在某些情况下，这是一个可以接受的借口，但更多时候，它的意思是：“不投，但如果你最终成了热门项目，我希望能追溯性地声称我当初说了‘行’。”"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "e6690221b937abe0b768d91c7f29675b8a9b22729e1542a8dd4f81dd4843b44e",
+      "enMarkdown": "If you like a startup enough to invest in it, then invest in it. Just use the standard [series \nAA](http://ycombinator.com/seriesaa.html) terms and write them a check.",
+      "zhMarkdown": "如果你足够喜欢一家创业公司并决定投资，那就投吧。直接用标准的 [series AA](http://ycombinator.com/seriesaa.html) 条款，给他们开张支票。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "5d26a9ed38d1642d9229999743d1e73a98079632938cc28f0d1956581eb3a25e",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Jessica Livingston, Robert Morris, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Jessica Livingston、Robert Morris 和 Fred Wilson 阅读了本文的草稿。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "f52b280867255118de96efad81c8f44d651838cd11d975bd12e69fdb3a807ecc",
+      "enMarkdown": "[Comment](http://news.ycombinator.com/item?id=506671) on this essay.",
+      "zhMarkdown": "对此文的[讨论](http://news.ycombinator.com/item?id=506671)。"
+    }
+  ]
+}

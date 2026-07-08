@@ -1,0 +1,342 @@
+{
+  "slug": "invtrend",
+  "titleEn": "Startup Investing Trends",
+  "titleZh": "创业投资趋势",
+  "dateText": "June 2013",
+  "publishedAt": "2013-06-01",
+  "sourceOrder": 81,
+  "sourceUrl": "https://paulgraham.com/invtrend.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "36d2f745bc19883f60dcc2be2ccef87812a82467e35959f97cf33511a2341dbe",
+      "enMarkdown": "*(This talk was written for an audience of investors.)*",
+      "zhMarkdown": "*(本篇演讲专为投资者听众撰写。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "986100f15ce08088625d90e03c07fa888f3475e8894423f6c430ed34c1f7b6b5",
+      "enMarkdown": "Y Combinator has now funded 564 startups including the current batch, which has 53. The total valuation of the 287 that have valuations (either by raising an equity round, getting acquired, or dying) is about $11.7 billion, and the 511 prior to the current batch have collectively raised about $1.7 billion. [[1](#f1n)]",
+      "zhMarkdown": "算上目前这一期（共有53家），Y Combinator 至今已资助了 564 家创业公司。在已有估值的 287 家公司中（估值源于完成股权融资、被收购或倒闭），总估值约为 117 亿美元；而在当前这期之前的 511 家公司，总计已融资约 17 亿美元。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "c7832c1e67078ff9f1030adb4c9470b9f96ddb1dd3647ec41fc85dadde40df41",
+      "enMarkdown": "As usual those numbers are dominated by a few big winners. The top 10 startups account for 8.6 of that 11.7 billion. But there is a peloton of younger startups behind them. There are about 40 more that have a shot at being really big.",
+      "zhMarkdown": "和往常一样，这些数字主要由少数几个大赢家主导。排名前 10 的创业公司占了这 117 亿美元中的 86 亿。但在它们身后，有一大批更年轻的创业公司正在紧紧追赶。其中大约还有 40 多家公司有希望成长为真正的巨头。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "9869324c81ac3be5708eaf9855a707f748e8d8f89287ea7987d16e808fa5a825",
+      "enMarkdown": "Things got a little out of hand last summer when we had 84 companies in the batch, so we tightened up our filter to decrease the batch size. [[2](#f2n)] Several journalists have tried to interpret that as evidence for some macro story they were telling, but the reason had nothing to do with any external trend. The reason was that we discovered we were using an n² algorithm, and we needed to buy time to fix it. Fortunately we've come up with several techniques for sharding YC, and the problem now seems to be fixed. With a new more scaleable model and only 53 companies, the current batch feels like a walk in the park. I'd guess we can grow another 2 or 3x before hitting the next bottleneck. [[3](#f3n)]",
+      "zhMarkdown": "去年夏天，当一期项目里塞进了 84 家公司时，局势开始有些失控，因此我们收紧了筛选标准以缩减每期的规模。[[2](#f2n)] 几位记者试图将此解读为他们口中某种宏观叙事的证据，但原因其实与任何外部趋势无关。真实的原因是，我们发现自己一直在运行一个 $O(n^2)$ 的算法，我们需要争取时间来解决它。幸运的是，我们已经想出了几种对 YC 进行“分片（sharding）”的技术，现在问题似乎已经解决了。有了全新的、更具扩展性的模式，再加上这期只有 53 家公司，感觉就像在公园里散步一样轻松。我估计在遇到下一个瓶颈之前，我们还能再增长 2 到 3 倍。[[3](#f3n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "fe1cfd9f4d8fbc8374c364ec6608e2f12aaa1c1a3f6d8d8d3a521c050690f6c7",
+      "enMarkdown": "One consequence of funding such a large number of startups is that we see trends early. And since fundraising is one of the main things we help startups with, we're in a good position to notice trends in investing.",
+      "zhMarkdown": "资助如此多创业公司的后果之一，就是我们能很早就看到趋势。由于融资是我们帮助创业公司的主要事情之一，我们处于一个极佳的位置来察觉投资领域的变化。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ee043eda7a64609fde5a82e1c1bdb9867a461f3c8077b1bcd0b5b8c5fd823c20",
+      "enMarkdown": "I'm going to take a shot at describing where these trends are leading. Let's start with the most basic question: will the future be better or worse than the past? Will investors, in the aggregate, make more money or less?",
+      "zhMarkdown": "我将试着描述这些趋势会走向何方。让我们从最基本的问题开始：未来会比过去更好还是更坏？投资者整体上是会赚更多的钱，还是更少？"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "99c18f4ac6320d4ae2c8175e8087ea5b9e1ab76638370f881d39048ae617d2b1",
+      "enMarkdown": "I think more. There are multiple forces at work, some of which will decrease returns, and some of which will increase them. I can't predict for sure which forces will prevail, but I'll describe them and you can decide for yourself.",
+      "zhMarkdown": "我认为会赚得更多。目前有多种力量在起作用，其中一些会降低回报，另一些则会提高回报。我无法确切预测哪种力量会占上风，但我会把它们描述出来，你可以自己做决定。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "bb7298cb1ba6978f84c6ecacd9d3d1505f3e138f67b45848f2472c87eca64f1e",
+      "enMarkdown": "There are two big forces driving change in startup funding: it's becoming cheaper to start a startup, and startups are becoming a more normal thing to do.",
+      "zhMarkdown": "推动创业融资变革的有两大力量：创办一家创业公司的成本正在变得越来越低，而且创业正在成为一件越来越常态化的事情。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "2165d67f0bf68f19875bdb0748fbbe2807c4ddda3bcaff06591e0e64bbb17a0a",
+      "enMarkdown": "When I graduated from college in 1986, there were essentially two options: get a job or go to grad school. Now there's a third: start your own company. That's a big change. In principle it was possible to start your own company in 1986 too, but it didn't seem like a real possibility. It seemed possible to start a consulting company, or a niche product company, but it didn't seem possible to start a company that would become big. [[4](#f4n)]",
+      "zhMarkdown": "1986 年我大学毕业时，基本上只有两个选择：找工作或读研。现在有了第三个选择：创办自己的公司。这是一个巨大的变化。原则上，1986 年也可以创办自己的公司，但这在当时看起来并不像是一个切实可行的选择。创办一家咨询公司或小众产品公司似乎是可能的，但要创办一家能做大的公司，在当时看来是不可想象的。[[4](#f4n)]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "6379cab62b04b60bbf0ae37d18ced2ab5d39edc7ac07bf5a3f9b83a81272e3bf",
+      "enMarkdown": "That kind of change, from 2 paths to 3, is the sort of big social shift that only happens once every few generations. I think we're still at the beginning of this one. It's hard to predict how big a deal it will be. As big a deal as the Industrial Revolution? Maybe. Probably not. But it will be a big enough deal that it takes almost everyone by surprise, because those big social shifts always do.",
+      "zhMarkdown": "这种从 2 条路到 3 条路的变化，是那种几代人才能遇到一次的重大社会转变。我认为我们仍处于这一转变的起点，很难预测它的影响会有多大。会像工业革命那样影响深远吗？也许吧，可能没那么大。但它足够大到让几乎所有人大吃一惊，因为这种重大的社会变革总是如此。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "dfceb8168a8c40c92abf7e01f0741c9ccb482afab3256ff5972442797de41df6",
+      "enMarkdown": "One thing we can say for sure is that there will be a lot more startups. The monolithic, hierarchical companies of the mid 20th century are being [replaced](https://paulgraham.com/highres.html) by networks of smaller companies. This process is not just something happening now in Silicon Valley. It started decades ago, and it's happening as far afield as the car industry. It has a long way to run. [[5](#f5n)]",
+      "zhMarkdown": "我们可以肯定的一点是，创业公司的数量将会大幅增加。20 世纪中期那种庞大、等级森严的公司正在被更小公司组成的网络所[取代](https://paulgraham.com/highres.html)。这个过程不仅现在发生在硅谷，它几十年前就开始了，甚至连汽车行业也受到了波及。这条路还有很长的距离要走。[[5](#f5n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "54678e33ea7c439be0886c04c77397073e23e09da6a3df9f77c233bf48f7325e",
+      "enMarkdown": "The other big driver of change is that startups are becoming cheaper to start. And in fact the two forces are related: the decreasing cost of starting a startup is one of the reasons startups are becoming a more normal thing to do.",
+      "zhMarkdown": "另一个推动变革的巨大引擎是创业成本的降低。事实上，这两股力量是相互关联的：创办创业公司成本的不断下降，正是创业逐渐成为常态的原因之一。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "339f45599b852e6a6bf86ad31ad2ba6758490d5a5bb2508cf642c95dc825266a",
+      "enMarkdown": "The fact that startups need less money means founders will increasingly have the upper hand over investors. You still need just as much of their energy and imagination, but they don't need as much of your money. Because founders have the upper hand, they'll retain an increasingly large share of the stock in, and [control of](https://paulgraham.com/control.html), their companies. Which means investors will get less stock and less control.",
+      "zhMarkdown": "创业公司需要的资金变少，意味着创始人对投资者的主动权会越来越大。你仍然同样需要他们的精力和想象力，但他们不再那么需要你的资金了。因为创始人掌握了主动权，他们将保留在公司中越来越大份额的股权和[控制权](https://paulgraham.com/control.html)。这意味着投资者获得的股份和控制权会变少。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "c0b879020a5ebe2769797cbf95e499fa561da4e8d5520112f5ec873a779fbe83",
+      "enMarkdown": "Does that mean investors will make less money? Not necessarily, because there will be more good startups. The total amount of desirable startup stock available to investors will probably increase, because the number of desirable startups will probably grow faster than the percentage they sell to investors shrinks.",
+      "zhMarkdown": "这是否意味着投资者赚的钱会变少？不一定，因为优秀创业公司的数量会增加。投资者可获得的优质创业公司股份总量可能会增加，因为优质创业公司的增长速度，可能会快于它们卖给投资者的股份比例缩水的水准。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "95e98805e49bbe635bac603cb03da3b2bbbd0f3a5c87c3f3def29711e9be53de",
+      "enMarkdown": "There's a rule of thumb in the VC business that there are about 15 companies a year that will be really successful. Although a lot of investors unconsciously treat this number as if it were some sort of cosmological constant, I'm certain it isn't. There are probably limits on the rate at which technology can develop, but that's not the limiting factor now. If it were, each successful startup would be founded the month it became possible, and that is not the case. Right now the limiting factor on the number of big hits is the number of sufficiently good founders starting companies, and that number can and will increase. There are still a lot of people who'd make great founders who never end up starting a company. You can see that from how randomly some of the most successful startups got started. So many of the biggest startups almost didn't happen that there must be a lot of equally good startups that actually didn't happen.",
+      "zhMarkdown": "风投界有一个经验法则，认为每年大约有 15 家公司能获得巨大的成功。尽管许多投资者下意识地将这个数字视为某种宇宙常数，但我确信它不是。技术发展的速度可能存在限制，但这并不是目前的限制因素。如果是的话，每个成功的创业公司都会在技术变得可行的那个月被创立，但事实并非如此。目前限制大赢家数量的因素，是有足够优秀的创始人去创办公司，而这个数字完全可以而且一定会增加。现在仍然有许多本可以成为优秀创始人的人，最终却没有创业。你可以从一些最成功的创业公司极其偶然的起步中看出这一点。有那么多最大的创业公司差一点就胎死腹中，这意味着肯定有许多同样优秀的创业公司实际上从未诞生。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "02bc6ecf8061618b65e8dedb4dc342c442667640c0d0aa197209efc91104ee67",
+      "enMarkdown": "There might be 10x or even 50x more good founders out there. As more of them go ahead and start startups, those 15 big hits a year could easily become 50 or even 100. [[6](#f6n)]",
+      "zhMarkdown": "外面可能还有 10 倍甚至 50 倍的优秀创始人。随着他们中更多的人迈出创业的步伐，每年 15 个大赢家很容易就会变成 50 个甚至 100 个。[[6](#f6n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "6d2fdc59e047c67992ec3c4167b67a102716fcc63f4e0e2aa7f500079c8ae832",
+      "enMarkdown": "What about returns, though? Are we heading for a world in which returns will be pinched by increasingly high valuations? I think the top firms will actually make more money than they have in the past. High returns don't come from investing at low valuations. They come from investing in the companies that do really well. So if there are more of those to be had each year, the best pickers should have more hits.",
+      "zhMarkdown": "那么回报率呢？我们是否正走向一个回报率因估值越来越高而受到挤压的世界？我认为顶尖的投资机构实际上会比过去赚更多的钱。高回报并不来自于在低估值时进行投资，而是来自于投资了那些表现极其出色的公司。因此，如果每年有更多这样的公司出现，最优秀的捕手就应该能投中更多的大赢家。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "8c8905a8e666055bc645b0978d167fcfdc386b8b293a9aae3bdfe033096b275d",
+      "enMarkdown": "This means there should be more variability in the VC business. The firms that can recognize and attract the best startups will do even better, because there will be more of them to recognize and attract. Whereas the bad firms will get the leftovers, as they do now, and yet pay a higher price for them.",
+      "zhMarkdown": "这意味着风投行业的两极分化会加剧。能够识别并吸引最优秀创业公司的机构会做得更好，因为会有更多优质的项目可供他们识别和吸引。而糟糕的机构则会像现在一样，只能拿到剩饭残羹，却还要为此支付更高的价格。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "b86ab0f497d83c01c8f624fa771c6ecd7566b93886ce818144469b516fb7ca02",
+      "enMarkdown": "Nor do I think it will be a problem that founders keep control of their companies for longer. The empirical evidence on that is already clear: investors make more money as founders' bitches than their bosses. Though somewhat humiliating, this is actually good news for investors, because it takes less time to serve founders than to micromanage them.",
+      "zhMarkdown": "我也不认为创始人长期保持对公司的控制权会是个问题。这方面的经验证据已经非常明确：投资者作为创始人的“乙方”比作为他们的“老板”赚得更多。虽然这听起来有些卑微，但对投资者来说实际上是个好消息，因为服务创始人要比微观管理他们节省得多。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "cd41d3584f0eb704c0acf239f02da583d884a41966b4a8458a367651d123562f",
+      "enMarkdown": "What about angels? I think there is a lot of opportunity there. It used to suck to be an angel investor. You couldn't get access to the best deals, unless you got lucky like Andy Bechtolsheim, and when you did invest in a startup, VCs might try to strip you of your stock when they arrived later. Now an angel can go to something like Demo Day or AngelList and have access to the same deals VCs do. And the days when VCs could wash angels out of the cap table are long gone.",
+      "zhMarkdown": "天使投资人呢？我认为那里有巨大的机会。以前做天使投资人体验很糟糕。除非你像安迪·贝托尔斯海姆（Andy Bechtolsheim）那样幸运，否则你根本接触不到最好的项目；而且即使你投资了一家创业公司，VC 稍后入场时也可能会试图剥夺你的股份。现在，天使投资人可以去 Demo Day 或 AngelList，接触到与 VC 完全相同的项目。而 VC 可以轻易把天使投资人从股东名册中洗掉的时代，也早已一去不复返了。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "568cc51f4d8b03b8420d5268845d57823d065eba8a93dd9f4ae80ee1df3ed2b7",
+      "enMarkdown": "I think one of the biggest unexploited opportunities in startup investing right now is angel-sized investments made quickly. Few investors understand the cost that raising money from them imposes on startups. When the company consists only of the founders, everything grinds to a halt during fundraising, which can easily take 6 weeks. The current high cost of fundraising means there is room for low-cost investors to undercut the rest. And in this context, low-cost means deciding quickly. If there were a reputable investor who invested $100k on good terms and promised to decide yes or no within 24 hours, they'd get access to almost all the best deals, because every good startup would approach them first. It would be up to them to pick, because every bad startup would approach them first too, but at least they'd see everything. Whereas if an investor is notorious for taking a long time to make up their mind or negotiating a lot about valuation, founders will save them for last. And in the case of the most promising startups, which tend to have an easy time raising money, last can easily become never.",
+      "zhMarkdown": "我认为目前创业投资中最大的未开发机会之一，就是快速做出天使规模的投资。很少有投资者能理解，向他们融资给创业公司带来的成本。当公司只有创始人的时候，融资期间一切都会停滞不前，而融资很容易就需要花上 6 周时间。当前高昂的融资成本意味着低成本投资者有空间去击败其他人。在这种情况下，“低成本”意味着快速做决定。如果有一位名声良好的投资者，愿意以优厚的条件投资 10 万美元，并承诺在 24 小时内决定是投还是不投，他们几乎能接触到所有最好的项目，因为每个优秀的创业公司都会先找他们。这取决于他们自己的筛选眼光，因为每个糟糕的创业公司也会先找他们，但至少他们能看到所有的项目。相反，如果一个投资者以做决定慢或在估值上反复拉扯而闻名，创始人会把他留到最后。而对于那些最优秀的、往往很容易融到钱的创业公司来说，“最后”很容易就变成了“永远不”。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "5b4dde199628ef33aadcf55cfe7af979419ab77ad42a1519648d51dc568b2ecb",
+      "enMarkdown": "Will the number of big hits grow linearly with the total number of new startups? Probably not, for two reasons. One is that the scariness of starting a startup in the old days was a pretty effective filter. Now that the cost of failing is becoming lower, we should expect founders to do it more. That's not a bad thing. It's common in technology for an innovation that decreases the cost of failure to increase the number of failures and yet leave you net ahead.",
+      "zhMarkdown": "大赢家的数量会随着新创业公司总数的增加而线性增长吗？可能不会，原因有两个。一是过去创业的恐惧感是一个相当有效的过滤器。现在失败的成本变低了，我们应该会看到创始人更频繁地尝试。这并不是坏事。在技术领域，降低失败成本的创新往往会增加失败的次数，但最终仍能让你获得净收益，这很常见。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "975f47d5bf10adb3368b48c5a3dc178e6ef9622656599cbd31ff506fcc13b33d",
+      "enMarkdown": "The other reason the number of big hits won't grow proportionately to the number of startups is that there will start to be an increasing number of idea clashes. Although the finiteness of the number of good ideas is not the reason there are only 15 big hits a year, the number has to be finite, and the more startups there are, the more we'll see multiple companies doing the same thing at the same time. It will be interesting, in a bad way, if idea clashes become a lot more common. [[7](#f7n)]",
+      "zhMarkdown": "大赢家数量不会与创业公司数量同比例增长的另一个原因是，点子撞车的情况会开始越来越多。虽然好点子数量的有限性并不是每年只有 15 个大赢家的原因，但这个数量必定是有限的，创业公司越多，我们就越会看到多家公司在同一时间做同一件事。如果点子撞车变得普遍得多，那将会以一种糟糕的方式变得很有意思。[[7](#f7n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "695039ea2900c86e418c46bca928a0146fa087153a8861ad063444790c57e4e1",
+      "enMarkdown": "Mostly because of the increasing number of early failures, the startup business of the future won't simply be the same shape, scaled up. What used to be an obelisk will become a pyramid. It will be a little wider at the top, but a lot wider at the bottom.",
+      "zhMarkdown": "主要由于早期失败数量的增加，未来的创业生态不会仅仅是原有形状的按比例放大。过去像方尖碑一样的结构，将变成一个金字塔。它的顶部会稍微宽一点，但底部会宽得多。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "b9307e48001012a5b049331850429d4aef27d0d29f36d72e4582c5efa9687f4f",
+      "enMarkdown": "What does that mean for investors? One thing it means is that there will be more opportunities for investors at the earliest stage, because that's where the volume of our imaginary solid is growing fastest. Imagine the obelisk of investors that corresponds to the obelisk of startups. As it widens out into a pyramid to match the startup pyramid, all the contents are adhering to the top, leaving a vacuum at the bottom.",
+      "zhMarkdown": "这对投资者意味着什么？其中一个意味着在最早期阶段，投资者的机会将变多，因为那正是我们想象中的几何体体积增长最快的地方。想象一下，与创业公司方尖碑相对应的投资者方尖碑。当它为了匹配创业公司金字塔而拓宽成金字塔时，所有的内容物都粘附在顶部，从而在底部留下了一个真空地带。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "145c932878bafbe30c3ba3765b54eaa7aa3b03e3ff3f9dd71db9acebea3c0275",
+      "enMarkdown": "That opportunity for investors mostly means an opportunity for new investors, because the degree of risk an existing investor or firm is comfortable taking is one of the hardest things for them to change. Different types of investors are adapted to different degrees of risk, but each has its specific degree of risk deeply imprinted on it, not just in the procedures they follow but in the personalities of the people who work there.",
+      "zhMarkdown": "这种投资者的机会主要意味着新投资者的机会，因为现有投资者或机构对风险的承受度是最难改变的。不同类型的投资者适应不同程度的风险，但每种投资者都有其特定的风险烙印，这不仅体现在他们遵循的流程中，也体现在其中工作的人的性格中。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "cd7b4e12813fa0c48e6a6e5a864bed439406ee579a8de4d839065acdbbf55749",
+      "enMarkdown": "I think the biggest danger for VCs, and also the biggest opportunity, is at the series A stage. Or rather, what used to be the series A stage before series As turned into de facto series B rounds.",
+      "zhMarkdown": "我认为 VC 面临的最大危险，同时也是最大的机会，是在 A 轮阶段。或者更确切地说，是在 A 轮变成事实上的 B 轮之前的那个阶段。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "7d020cb47a0e1e63b84f63258b4830bd36d8166f7f8c805523b02cadbcb8524f",
+      "enMarkdown": "Right now, VCs often knowingly invest too much money at the series A stage. They do it because they feel they need to get a big chunk of each series A company to compensate for the opportunity cost of the board seat it consumes. Which means when there is a lot of competition for a deal, the number that moves is the valuation (and thus amount invested) rather than the percentage of the company being sold. Which means, especially in the case of more promising startups, that series A investors often make companies take more money than they want.",
+      "zhMarkdown": "现在，VC 经常在 A 轮阶段心知肚明地投入过多资金。他们这样做是因为他们觉得需要拿到每家 A 轮公司很大一部分股份，以弥补因占用董事会席位而产生的机会成本。这意味着，当一个项目竞争激烈时，变动的往往是估值（从而也是投资金额），而不是出售的公司股份比例。这意味着，尤其是在更有前途的创业公司中，A 轮投资者经常强迫公司接受比他们实际需要更多的资金。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "b9031ffd66835aea118c79e1e98f2438b682bb9c01432b4f03c79ecf9796da2f",
+      "enMarkdown": "Some VCs lie and claim the company really needs that much. Others are more candid, and admit their financial models require them to own a certain percentage of each company. But we all know the amounts being raised in series A rounds are not determined by asking what would be best for the companies. They're determined by VCs starting from the amount of the company they want to own, and the market setting the valuation and thus the amount invested.",
+      "zhMarkdown": "有些 VC 会撒谎，声称公司确实需要那么多钱。另一些则更坦率，承认他们的财务模型要求他们必须持有每家公司一定比例的股份。但我们都知道，A 轮融资的金额并不是通过询问什么对公司最好来决定的。它们是由 VC 从他们想要持有的公司股份比例开始倒推，再由市场决定估值，从而决定投资金额的。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "b269dea87f0656a184b64dd2a85a2cfe33f46cf27c81a540b8e0b834615bcc71",
+      "enMarkdown": "Like a lot of bad things, this didn't happen intentionally. The VC business backed into it as their initial assumptions gradually became obsolete. The traditions and financial models of the VC business were established when founders needed investors more. In those days it was natural for founders to sell VCs a big chunk of their company in the series A round. Now founders would prefer to sell less, and VCs are digging in their heels because they're not sure if they can make money buying less than 20% of each series A company.",
+      "zhMarkdown": "像许多糟糕的事情一样，这并不是故意发生的。随着最初的假设逐渐过时，风投行业在不知不觉中退回到了这种境地。风投行业的传统和财务模型是在创始人更需要投资者的时代建立的。在那个年代，创始人在 A 轮中卖给 VC 一大笔公司股份是很自然的。现在创始人更希望少卖一些，而 VC 则在坚持立场，因为他们不确定如果每家 A 轮公司买下低于 20% 的股份，他们是否还能赚到钱。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "10adec67b023c328928d7b9ac71cf64c175f30e3de909740465e874be9988595",
+      "enMarkdown": "The reason I describe this as a danger is that series A investors are increasingly at odds with the startups they supposedly serve, and that tends to come back to bite you eventually. The reason I describe it as an opportunity is that there is now a lot of potential energy built up, as the market has moved away from VCs' traditional business model. Which means the first VC to break ranks and start to do series A rounds for as much equity as founders want to sell (and with no \"option pool\" that comes only from the founders' shares) stands to reap huge benefits.",
+      "zhMarkdown": "我之所以把这描述为一种危险，是因为 A 轮投资者与他们理应服务的创业公司之间的分歧越来越大，而这往往迟早会反噬自身。我之所以把它描述为一种机会，是因为随着市场偏离 VC 的传统商业模式，现在已经积聚了巨大的势能。这意味着，第一个打破常规、开始按照创始人想卖的额度进行 A 轮融资的 VC（并且没有完全来自创始人股份的“期权池”），将有望收获巨大的利益。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "076a0e2094d8313d32b2a56f7a5760ca8dd2abc381f00637be2cb6b6e6c60a03",
+      "enMarkdown": "What will happen to the VC business when that happens? Hell if I know. But I bet that particular firm will end up ahead. If one top-tier VC firm started to do series A rounds that started from the amount the company needed to raise and let the percentage acquired vary with the market, instead of the other way around, they'd instantly get almost all the best startups. And that's where the money is.",
+      "zhMarkdown": "当这种情况发生时，风投行业会发生什么？天知道。但我敢打赌，那家特定的机构最终会脱颖而出。如果一家顶尖的 VC 机构开始做 A 轮融资时，从公司需要筹集的资金金额出发，让获取的股份比例随市场波动，而不是反过来，他们会瞬间吸引几乎所有最好的创业公司。而这正是赚钱的地方。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "b8d1efed762c166f945b11be15dc28b4f928103a5dee2b26c76790b0d2340afd",
+      "enMarkdown": "You can't fight market forces forever. Over the last decade we've seen the percentage of the company sold in series A rounds creep inexorably downward. 40% used to be common. Now VCs are fighting to hold the line at 20%. But I am daily waiting for the line to collapse. It's going to happen. You may as well anticipate it, and look bold.",
+      "zhMarkdown": "你无法永远对抗市场力量。在过去十年中，我们看到 A 轮中售出的公司股份比例在不可阻挡地下降。40% 曾经很常见。现在 VC 正在努力死守 20% 的底线。但我每天都在等待这条底线崩溃。这迟早会发生。你不如提前预判，显得自己更有魄力。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "68cf3a4435f53a1bbf443895df59ae0bcec5b843757dd24cdb322a6be5807aa7",
+      "enMarkdown": "Who knows, maybe VCs will make more money by doing the right thing. It wouldn't be the first time that happened. Venture capital is a business where occasional big successes generate hundredfold returns. How much confidence can you really have in financial models for something like that anyway? The big successes only have to get a tiny bit less occasional to compensate for a 2x decrease in the stock sold in series A rounds.",
+      "zhMarkdown": "谁知道呢，也许 VC 通过做正确的事反而能赚更多的钱。这也不会是第一次发生这种事。风险投资是一个偶尔的巨大成功就能产生百倍回报的行业。对于这样的事情，你对财务模型到底能有多少信心？那些巨大的成功只需要稍微不那么偶尔发生一点点，就足以弥补 A 轮出售股份减少一倍带来的损失。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "03704170fe1dd096f99bd4d543368a8d7c0c3b57e56b6b22a33093e3e2625b4b",
+      "enMarkdown": "If you want to find new opportunities for investing, look for things founders complain about. Founders are your customers, and the things they complain about are unsatisfied demand. I've given two examples of things founders complain about most—investors who take too long to make up their minds, and excessive dilution in series A rounds—so those are good places to look now. But the more general recipe is: do something founders want.",
+      "zhMarkdown": "如果你想寻找新的投资机会，就去找创始人抱怨的事情。创始人是你的客户，他们抱怨的事情就是尚未满足的需求。我已经举了两个创始人抱怨最多的例子——做决定太慢的投资者，以及 A 轮中过度的股权稀释——所以这些是现在寻找机会的好地方。但更通用的秘诀是：做创始人想要的东西。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "85a77cb0ebd6495caf5b682835576deb73f107c37379a6239f58445e42e4af79",
+      "enMarkdown": "[1] I realize revenue and not fundraising is the proper test of success for a startup. The reason we quote statistics about fundraising is because those are the numbers we have. We couldn't talk meaningfully about revenues without including the numbers from the most successful startups, and we don't have those. We often discuss revenue growth with the earlier stage startups, because that's how we gauge their progress, but when companies reach a certain size it gets presumptuous for a seed investor to do that.",
+      "zhMarkdown": "[1] 我意识到收入而不是融资才是检验创业公司成功的正确标准。我们引用融资数据的原因，是因为这些是我们拥有的数字。如果不包含最成功创业公司的数据，我们就无法有意义地讨论收入，而我们没有这些数据。我们经常与早期阶段的创业公司讨论收入增长，因为这是我们衡量他们进展的方式，但当公司达到一定规模时，种子期投资者再这么做就显得有些越俎代庖了。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "7e85601657ed3f0fa885a503d22262ed0566dbf01e7742802691f707be48d7a7",
+      "enMarkdown": "In any case, companies' market caps do eventually become a function of revenues, and post-money valuations of funding rounds are at least guesses by pros about where those market caps will end up.",
+      "zhMarkdown": "无论如何，公司的市值最终确实会成为收入的函数，而融资轮的投后估值至少是专业人士对这些市值最终落点的一种猜测。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "20caf7c4d8e852205c09d36257195c98cb85b4240e8c70301ad2148f82e72748",
+      "enMarkdown": "The reason only 287 have valuations is that the rest have mostly raised money on convertible notes, and although convertible notes often have valuation caps, a valuation cap is merely an upper bound on a valuation.",
+      "zhMarkdown": "只有 287 家有估值的原因是，其余的大多是通过可转债（convertible notes）融资的，虽然可转债通常有估值上限（valuation caps），但估值上限仅仅是估值的上限。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "0fa8c84cc319a2e22468debe23d6fd8556bf55c7f35fc9b98c9cc68d5ddd38fc",
+      "enMarkdown": "[2] We didn't try to accept a particular number. We have no way of doing that even if we wanted to. We just tried to be significantly pickier.",
+      "zhMarkdown": "[2] 我们并没有试图录取一个特定的数字。即使我们想这样做，我们也无能为力。我们只是试图变得明显更加挑剔。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "b94d313c5097ad1ca5b11322d34d92434ad4edd4212d2f8e868165f6f8272769",
+      "enMarkdown": "[3] Though you never know with bottlenecks, I'm guessing the next one will be coordinating efforts among partners.",
+      "zhMarkdown": "[3] 尽管你永远无法预知瓶颈，但我猜测下一个瓶颈将是合伙人之间的协作。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "4fc369514a4182c07776f03154b6e2db003b51be7a939b52740581f6d0937354",
+      "enMarkdown": "[4] I realize starting a company doesn't have to mean starting a [startup](https://paulgraham.com/growth.html). There will be lots of people starting normal companies too. But that's not relevant to an audience of investors.",
+      "zhMarkdown": "[4] 我意识到创办一家公司并不一定意味着创办一家[创业公司](https://paulgraham.com/growth.html)。也会有很多人创办普通的公司。但这与投资者听众无关。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "a760ec84d5a7b7f1a16caf59535a04a2dbd2c17f6841f14cd9e3e21b0522e87c",
+      "enMarkdown": "Geoff Ralston reports that in Silicon Valley it seemed thinkable to start a startup in the mid 1980s. It would have started there. But I know it didn't to undergraduates on the East Coast.",
+      "zhMarkdown": "Geoff Ralston 报告说，在 20 世纪 80 年代中期，在硅谷创办一家创业公司似乎是可行的。它应该就是从那里开始的。但我知道，对于东海岸的本科生来说，这在当时是不可想象的。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "2836cf466291c4160578467d687c919b11ebf3da41e82ac55c9123e8751b57fe",
+      "enMarkdown": "[5] This trend is one of the main causes of the increase in economic inequality in the US since the mid twentieth century. The person who would in 1950 have been the general manager of the x division of Megacorp is now the founder of the x company, and owns significant equity in it.",
+      "zhMarkdown": "[5] 这一趋势是自 20 世纪中期以来美国经济不平等加剧的主要原因之一。在 1950 年，原本会成为巨型企业 X 部门总经理的人，现在成为了 X 公司的创始人，并拥有其大量的股权。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "031034f77ed72435eacb1c7cf36c5f14a90e0387f5b193ffef4eed75734c3093",
+      "enMarkdown": "[6] If Congress passes the [founder\nvisa](https://paulgraham.com/foundervisa.html) in a non-broken form, that alone could in principle get us up to 20x, since 95% of the world's population lives outside the US.",
+      "zhMarkdown": "[6] 如果国会以一种没有被改烂的形式通过[创始人签证](https://paulgraham.com/foundervisa.html)，单凭这一项原则上就能让我们增长到 20 倍，因为世界上 95% 的人口都生活在美国以外。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "c4677af9ea5737c59c17fd21ebcf93aba0bf72bc45ecdfe239b598b80355cd11",
+      "enMarkdown": "[7] If idea clashes got bad enough, it could change what it means to be a startup. We currently advise startups mostly to ignore competitors. We tell them startups are competitive like running, not like soccer; you don't have to go and steal the ball away from the other team. But if idea clashes became common enough, maybe you'd start to have to. That would be unfortunate.",
+      "zhMarkdown": "[7] 如果点子冲突变得足够严重，它可能会改变创业公司的定义。我们目前给创业公司的建议主要是忽略竞争对手。我们告诉他们，创业公司的竞争就像赛跑，而不是像踢足球；你不需要去抢夺对方的球。但如果点子冲突变得足够普遍，也许你就不得不去抢球了。那将是一件令人遗憾的事。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "e09ccfc726469fd148a9f9fc1cf94622159ab49c1531863f80914591601d5eb7",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Dalton Caldwell, Patrick Collison, Jessica Livingston, Andrew Mason, Geoff Ralston, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Dalton Caldwell、Patrick Collison、Jessica Livingston、Andrew Mason、Geoff Ralston 和 Garry Tan 阅读本文的草稿。"
+    }
+  ]
+}

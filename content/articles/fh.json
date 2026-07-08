@@ -1,0 +1,188 @@
+{
+  "slug": "fh",
+  "titleEn": "Haters",
+  "titleZh": "黑子",
+  "dateText": "January 2020",
+  "publishedAt": "2020-01-01",
+  "sourceOrder": 49,
+  "sourceUrl": "https://paulgraham.com/fh.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "b42f293317458b66ed49e8b1d632023b30d76094d4c7d4c02f62d9a6457fe507",
+      "enMarkdown": "*(I originally intended this for startup founders, who are often\nsurprised by the attention they get as their companies grow, but\nit applies equally to anyone who becomes famous.)*",
+      "zhMarkdown": "*（我最初写这篇文章是想给创业公司创始人们看的，因为随着公司成长，他们往往会对随之而来的关注度感到吃惊。但它同样适用于任何出名的人。）*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "388180b69be33e3bb0e632484d7a2be2d1a6e56eb5b403314d3e3ac82deb5ac0",
+      "enMarkdown": "If you become sufficiently famous, you'll acquire some fans who like you too much. These people are sometimes called \"fanboys,\" and though I dislike that term, I'm going to have to use it here. We need some word for them, because this is a distinct phenomenon from someone simply liking your work.",
+      "zhMarkdown": "如果你变得足够出名，就会收获一些过度喜欢你的粉丝。这些人有时被称为“脑残粉”（fanboys），虽然我不喜欢这个词，但在这里不得不借用一下。我们得有个词来称呼他们，因为这和单纯喜欢你的作品完全是两码事。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "bdbd2e0a47e1e592cd48f9dca2679449bdfad70afbf11d963a32a70cd69097f1",
+      "enMarkdown": "A fanboy is obsessive and uncritical. Liking you becomes part of their identity, and they create an image of you in their own head that is much better than reality. Everything you do is good, because you do it. If you do something bad, they find a way to see it as good. And their love for you is not, usually, a quiet, private one. They want everyone to know how great you are.",
+      "zhMarkdown": "脑残粉是偏执且盲目的。喜欢你成了他们身份认同的一部分，他们在脑海中塑造了一个远比现实完美的你。你做的一切都是好的，只因为是你做的。如果你做了坏事，他们总能找到借口把它看作好事。而且他们对你的爱通常不是默默无闻、私下保留的，他们恨不得让全世界都知道你有多伟大。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "cdf783854f0028a74089b22a9fe822226c1b222366b7bd84323d3c2af55947a6",
+      "enMarkdown": "Well, you may be thinking, I could do without this kind of obsessive fan, but I know there are all kinds of people in the world, and if this is the worst consequence of fame, that's not so bad.",
+      "zhMarkdown": "看到这你可能会想，虽然这种偏执的粉丝可有可无，但我知道世界之大无奇不有，如果这就是成名最坏的后果，倒也还能接受。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "86ce6b9bd1a72d761ae89a6c066af82f3a6326ff5907abc5c5b4943bfd681c89",
+      "enMarkdown": "Unfortunately this is not the worst consequence of fame. As well as fanboys, you'll have haters.",
+      "zhMarkdown": "不幸的是，这并不是成名最坏的后果。除了脑残粉，你还会遇到黑子。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ef07dab1c592b8ac02aa1d4f87d99cb24e18bff71e471a10e5cecd159b062a81",
+      "enMarkdown": "A hater is obsessive and uncritical. Disliking you becomes part of their identity, and they create an image of you in their own head that is much worse than reality. Everything you do is bad, because you do it. If you do something good, they find a way to see it as bad. And their dislike for you is not, usually, a quiet, private one. They want everyone to know how awful you are.",
+      "zhMarkdown": "黑子也是偏执且盲目的。讨厌你成了他们身份认同的一部分，他们在脑海中塑造了一个远比现实糟糕的你。你做的一切都是坏的，只因为是你做的。如果你做了好事，他们总能找到借口把它看作坏事。而且他们对你的讨厌通常不是默默无闻、私下保留的，他们恨不得让全世界都知道你有多差劲。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ea60814d093d4c2b268ee8d077941950455d5db93d03f79973a2e0ad8c9ab01c",
+      "enMarkdown": "If you're thinking of checking, I'll save you the trouble. The second and fifth paragraphs are identical except for \"good\" being switched to \"bad\" and so on.",
+      "zhMarkdown": "如果你正想去对比，那我干脆帮你省省事。第二段和第五段内容完全一样，只是把“好”换成了“坏”，以此类推。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "5eca58f6d1f394f16895b60587cfa1911f3fd4bb812af624e0cd98d460e676c8",
+      "enMarkdown": "I spent years puzzling about haters. What are they, and where do they come from? Then one day it dawned on me. Haters are just fanboys with the sign switched.",
+      "zhMarkdown": "我曾花了多年时间琢磨黑子。他们到底是什么人，又从何而来？直到有一天我恍然大悟：黑子其实就是换了正负号的脑残粉。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c4d426466af88d1794a6c3cf8a8b6331bf762666778707b50e70040398fe09c7",
+      "enMarkdown": "Note that by haters, I don't simply mean trolls. I'm not talking about people who say bad things about you and then move on. I'm talking about the much smaller group of people for whom this becomes a kind of obsession and who do it repeatedly over a long period.",
+      "zhMarkdown": "请注意，我所说的黑子，并不单指那些网络喷子。我不是指那些对你说几句风凉话就走开的人，而是指人数少得多、把黑你当成一种执念并在很长一段时间里反复黑你的人。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "d4f4ca733d7fdde9ab2f83368478cb728ca1203fb77879ae0fe07195e04f36ef",
+      "enMarkdown": "Like fans, haters seem to be an automatic consequence of fame. Anyone sufficiently famous will have them. And like fans, haters are energized by the fame of whoever they hate. They hear a song by some pop singer. They don't like it much. If the singer were an obscure one, they'd just forget about it. But instead they keep hearing her name, and this seems to drive some people crazy. Everyone's always going on about this singer, but she's no good! She's a fraud!",
+      "zhMarkdown": "和粉丝一样，黑子似乎也是成名不可避免的副产品。任何足够出名的人都会遇到他们。而且和粉丝一样，黑子的能量也是由他们所恨之人的名气激发的。他们听到某个流行歌手的歌，觉得不怎么样。如果这个歌手默默无闻，他们听过也就忘了。但相反，他们不断听到她的名字，这似乎让一些人抓狂。大家怎么总在讨论这个歌手，她根本不行！她就是个骗子！"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "c684ea7196d058dd5abbfcce0cb1a0a0af9a2fb278f9e2ca344fb49749b6e296",
+      "enMarkdown": "That word \"fraud\" is an important one. It's the spectral signature of a hater to regard the object of their hatred as a [fraud](https://twitter.com/search?q=Musk%20fraud&src=typed_query&f=live). They can't deny their fame. Indeed, their fame is if anything exaggerated in the hater's mind. They notice every mention of the singer's name, because every mention makes them angrier. In their own minds they exaggerate both the singer's fame and her lack of talent, and the only way to reconcile those two ideas is to conclude that she has tricked everyone.",
+      "zhMarkdown": "“骗子”这个词很关键。把憎恨的对象视为[骗子](https://twitter.com/search?q=Musk%20fraud&src=typed_query&f=live)，是黑子的标志性特征。他们无法否认对方的名气。事实上，在黑子眼里，对方的名气甚至被放大了。他们会注意到每一个提到这位歌手的地方，因为每一次提及都让他们更愤怒。在他们脑海中，一方面夸大了歌手的名气，另一方面又放大了她的平庸，而调和这两个想法的唯一办法，就是得出结论：她欺骗了所有人。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ecfc548754ea870128830e7d124b6bc16076911f946334965e1d70fb2eee2a36",
+      "enMarkdown": "What sort of people become haters? Can anyone become one? I'm not sure about this, but I've noticed some patterns. Haters are generally losers in a very specific sense: although they are occasionally talented, they have never achieved much. And indeed, anyone successful enough to have achieved significant fame would be unlikely to regard another famous person as a fraud on that account, because anyone famous knows how random fame is.",
+      "zhMarkdown": "什么样的人会成为黑子？任何人都会吗？我不太确定，但我注意到一些规律。黑子通常是极特定意义上的失败者：虽然他们偶尔有些才华，但从未取得过什么成就。事实上，任何足够成功并获得巨大名望的人，都不太会因此把另一个名人视为骗子，因为出过名的人都知道名气有多随机。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "ffbcf5e702795aadba4862211a9e2a3120df24e135907369c2d453287320f138",
+      "enMarkdown": "But haters are not always complete losers. They are not always the proverbial guy living in his mom's basement. Many are, but some have some amount of talent. In fact I suspect that a sense of frustrated talent is what drives some people to become haters. They're not just saying \"It's unfair that so-and-so is famous,\" but \"It's unfair that so-and-so is famous, and not me.\"",
+      "zhMarkdown": "但黑子并不总是彻底的失败者。他们不全是那种缩在妈妈地下室里的刻板印象人物。很多人确实是，但也有一些人有几分才华。实际上，我怀疑正是那种才华无处施展的挫败感，驱使一些人成了黑子。他们不只是在说“某某能出名太不公平了”，而是在说“某某能出名，而我却不能，这太不公平了”。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "49c51431bd4685e2d1eaa6b05e4bf95d458cf3216d59acf6786606084be79366",
+      "enMarkdown": "Could a hater be cured if they achieved something impressive? My guess is that's a moot point, because they [never will](https://paulgraham.com/mean.html). I've been able to observe for long enough that I'm fairly confident the pattern works both ways: not only do people who do great work never become haters, haters never do great work. Although I dislike the word \"fanboy,\" it's evocative of something important about both haters and fanboys. It implies that the fanboy is so slavishly predictable in his admiration that he's diminished as a result, that he's less than a man.",
+      "zhMarkdown": "如果黑子取得了令人瞩目的成就，他们能被治好吗？我猜这是个伪命题，因为他们[永远不会](https://paulgraham.com/mean.html)取得成就。我的观察时间足够长，以至于我有信心说，这个规律是双向成立的：不仅做出优秀工作的人永远不会成为黑子，黑子也永远做不出优秀的工作。虽然我不喜欢“脑残粉”这个词，但它生动地反映了黑子和脑残粉身上的一些重要特质。它暗示了脑残粉在崇拜中是如此奴性、如此容易被看透，以至于他们的人格都萎缩了，变得不够完整。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a57edcf4467a2969315650710151e5c1322ab5207291b321ba428aa3fd2e704f",
+      "enMarkdown": "Haters seem even more diminished. I can imagine being a fanboy. I can think of people whose work I admire so much that I could abase myself before them out of sheer gratitude. If P. G. Wodehouse were still alive, I could see myself being a Wodehouse fanboy. But I could not imagine being a hater.",
+      "zhMarkdown": "而黑子看起来萎缩得更厉害。我能想象自己成为一个脑残粉。有些人的作品让我无比钦佩，以至于我出于纯粹的感激甚至愿意在他们面前放低姿态。如果 P. G. Wodehouse 还活着，我完全能想象自己成为他的脑残粉。但我无法想象自己成为一个黑子。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "add7e74c94d2c9decbf68fa01c6004d57a22f953493bf54a3fdacca389c6545a",
+      "enMarkdown": "Knowing that haters are just fanboys with the sign bit flipped makes it much easier to deal with them. We don't need a separate theory of haters. We can just use existing techniques for dealing with obsessive fans.",
+      "zhMarkdown": "一旦明白黑子只是变了符号的脑残粉，应对他们就容易多了。我们不需要一套专门对付黑子的理论，只需套用对付偏执粉丝的现有方法即可。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "5865fa71391033f0b5ad43604427c32cde216030bde534195e3b4a0f7a480cc4",
+      "enMarkdown": "The most important of which is simply not to think much about them. If you're like most people who become famous enough to acquire haters, your initial reaction will be one of mystification. Why does this guy seem to have it in for me? Where does his obsessive energy come from, and what makes him so appallingly nasty? What did I do to set him off? Is it something I can fix?",
+      "zhMarkdown": "其中最重要的一条就是：根本不要去想他们。如果你和大多数因出名而招黑的人一样，你的第一反应会是困惑。为什么这家伙似乎总跟我过不去？他那偏执的精力是从哪来的？是什么让他如此恶毒？我到底做了什么惹到了他？有什么是我能弥补的吗？"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "aa8c722359b51385a5633bf7686815335039758fb3907fbbb49c7ddc3091be87",
+      "enMarkdown": "The mistake here is to think of the hater as someone you have a dispute with. When you have a dispute with someone, it's usually a good idea to try to understand why they're upset and then fix things if you can. Disputes are distracting. But it's a false analogy to think of a hater as someone you have a dispute with. It's an understandable mistake, if you've never encountered haters before. But when you realize that you're dealing with a hater, and what a hater is, it's clear that it's a waste of time even to think about them. If you have obsessive fans, do you spend any time wondering what makes them love you so much? No, you just think \"some people are kind of crazy,\" and that's the end of it.",
+      "zhMarkdown": "这里的误区在于，你把黑子当成了和你产生纠纷的人。当你和别人有纠纷时，试着理解他们为什么生气并尽可能解决问题，通常是个好主意。纠纷会分散精力。但把黑子当成纠纷对象，是一种错误的类比。如果你以前从未遇到过黑子，这种误解是可以理解的。但当你意识到自己面对的是一个黑子，并看清了黑子的本质时，你就会明白，哪怕花一秒钟去想他们都是浪费时间。如果你有偏执的粉丝，你会花时间去琢磨是什么让他们如此爱你吗？不会，你只会觉得“有些人就是有点疯”，然后就随它去了。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "3452c033c62b302d15734798779c4ee40963701b19b6a1288f3cb94dd294b971",
+      "enMarkdown": "Since haters are equivalent to fanboys, that's the way to deal with them too. There may have been something that set them off. But it's not something that would have set off a normal person, so there's no reason to spend any time thinking about it. It's not you, it's them.",
+      "zhMarkdown": "既然黑子等同于脑残粉，那就要用同样的方式对待他们。也许确实有什么事刺激到了他们，但那绝不是会刺激到正常人的事，所以完全没必要花时间去想。这不是你的问题，是他们的问题。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "d069c3f5a2c7c0a0cdf313321868f4b18fbf7e68bc98ec1f65c78bf84d294321",
+      "enMarkdown": "[1] There are of course some people who are genuine frauds. How can you distinguish between x calling y a fraud because x is a hater, and because y is a fraud? Look at neutral opinion. Actual frauds are usually pretty conspicuous. Thoughtful people are rarely taken in by them. So if there are some thoughtful people who like y, you can usually assume y is not a fraud.",
+      "zhMarkdown": "[1] 当然，世界上确实存在真正的骗子。如何区分“甲说乙是骗子是因为甲是黑子”，还是“因为乙真的是骗子”？看看中立的舆论就知道了。真正的骗子通常非常显眼，有思想的人很少会被他们蒙蔽。因此，如果有思想的人也喜欢乙，你通常可以认为乙不是骗子。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "ffb640b01b8c3e51670a22f7f6d8860e11e8e084e5a10b1c8136ebb97416d541",
+      "enMarkdown": "[2] I would make an exception for teenagers, who sometimes act in such extreme ways that they are literally not themselves. I can imagine a teenage kid being a hater and then growing out of it. But not anyone over 25.",
+      "zhMarkdown": "[2] 青春期的少年是个例外，他们有时行为极度偏激，甚至可以说失去了自我。我能想象一个十几岁的孩子是个黑子，然后慢慢长大成熟。但任何超过 25 岁的人都不会这样了。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "3b3d0ad8ff41ce2b661d72cb4f36d34f952e6f9664d156e1aa3b1b0c291bbc1b",
+      "enMarkdown": "[3] I have a much worse memory for misdeeds than my wife Jessica, who is a connoisseur of character, but I don't wish it were better. Most disputes are a waste of time even if you're in the right, and it's easy to bury the hatchet with someone if you can't remember why you were mad at them.",
+      "zhMarkdown": "[3] 我对别人过错的记忆力远不如我妻子 Jessica，她是个识人专家。但我并不希望自己的记性变好。大多数纠纷即使你占理也是浪费时间，如果你记不得自己为什么生气，就很容易和别人握手言和。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "a0c0c66fef0d4a5f54f650d746f5910c90f81739faeab831c91cebdf4ae7558b",
+      "enMarkdown": "[4] A competent hater will not merely attack you individually but will try to get mobs after you. In some cases you may want to refute whatever bogus claim they made in order to do so. But err on the side of not, because ultimately it probably won't matter.",
+      "zhMarkdown": "[4] 一个合格的黑子不仅会单独攻击你，还会试图煽动群体来围剿你。在某些情况下，你可能想澄清他们为了煽动而制造的虚假指控。但尽量选择不回应，因为最终这可能根本不重要。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "e606e79aa1b1f08454d1b164977da7579df84758ba3a3f88157b079b26795f16",
+      "enMarkdown": "**Thanks** to Austen Allred, Trevor Blackwell, Patrick Collison, Christine Ford, Daniel Gackle, Jessica Livingston, Robert Morris, Elon Musk, Harj Taggar, and Peter Thiel for reading drafts of this.",
+      "zhMarkdown": "**感谢** Austen Allred, Trevor Blackwell, Patrick Collison, Christine Ford, Daniel Gackle, Jessica Livingston, Robert Morris, Elon Musk, Harj Taggar, 和 Peter Thiel 阅读本文草稿。"
+    }
+  ]
+}

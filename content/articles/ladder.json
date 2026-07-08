@@ -1,0 +1,83 @@
+{
+  "slug": "ladder",
+  "titleEn": "After the Ladder",
+  "titleZh": "告别职场天梯",
+  "dateText": "August 2005",
+  "publishedAt": "2005-08-01",
+  "sourceOrder": 181,
+  "sourceUrl": "https://paulgraham.com/ladder.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "eb9f2d7947512203c98fcfbc097d70cc2910c4f6dd65288f088b3ca09ced0dfa",
+      "enMarkdown": "Thirty years ago, one was supposed to work one's way up the corporate ladder. That's less the rule now. Our generation wants to get paid up front. Instead of developing a product for some big company in the expectation of getting job security in return, we develop the product ourselves, in a startup, and sell it to the big company. At the very least we want options.",
+      "zhMarkdown": "三十年前，人们的职业规划通常是沿着大公司的职场天梯一步步往上爬。现在，这已经不再是普遍规律了。我们这一代人更希望把回报拿到前头。我们不再寄希望于为某家大公司开发产品来换取工作保障，而是选择自己创业，把产品开发出来，然后再卖给大公司。退一步说，我们至少也想要期权。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "73dd6cdf009bcc12d25e5c4fd4933b184953db54b62ea9afc0e2828745fdd427",
+      "enMarkdown": "Among other things, this shift has created the appearance of a rapid increase in economic inequality. But really the two cases are not as different as they look in economic statistics.",
+      "zhMarkdown": "这种转变带来了一个副产品：在表面上，它造成了贫富差距迅速扩大的假象。但实际上，从经济统计数据的角度来看，这两种模式的区别并没有看起来那么大。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "492c76801706154c797bddfd0bb497332a4f7d051231e14bbbf4374b2344837a",
+      "enMarkdown": "Economic statistics are misleading because they ignore the value of safe jobs. An easy job from which one can't be fired is worth money; exchanging the two is one of the commonest forms of corruption. A sinecure is, in effect, an annuity. Except sinecures don't appear in economic statistics. If they did, it would be clear that in practice socialist countries have nontrivial disparities of wealth, because they usually have a class of powerful bureaucrats who are paid mostly by seniority and can never be fired.",
+      "zhMarkdown": "经济统计数据之所以有误导性，是因为它们忽略了“稳定工作”的价值。一份轻松且不会被解雇的工作本身就是值钱的；用这种职位进行利益交换，正是最常见的腐败形式之一。本质上，闲差就相当于一份年金。只不过闲差并不会出现在经济统计数据中。如果把它们算进去，就会很清楚地发现，实行社会主义的国家在实际上面临着不容小觑的贫富差距，因为这些国家通常存在一个庞大的官僚阶层，他们主要按资排辈拿薪水，而且永远不会被解雇。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "d19c1701585af42bddbfcf95a60eef72de2455543915a7484808267a64689a2c",
+      "enMarkdown": "While not a sinecure, a position on the corporate ladder was genuinely valuable, because big companies tried not to fire people, and promoted from within based largely on seniority. A position on the corporate ladder had a value analogous to the \"goodwill\" that is a very real element in the valuation of companies. It meant one could expect future high paying jobs.",
+      "zhMarkdown": "虽然不能算作闲差，但在大公司的职场天梯上占有一席之地确实极具价值，因为大公司过去尽量不解雇员工，而且晋升很大程度上是按资排辈。职场天梯上的位置所拥有的价值，类似于公司估值中实打实存在的“商誉”。它意味着你可以预期未来能拿到高薪职位。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "a3b16983be50b1b7862941cc5584db4aa70dcf43d4c363608adc97e3c9aec15b",
+      "enMarkdown": "One of main causes of the decay of the corporate ladder is the trend for takeovers that began in the 1980s. Why waste your time climbing a ladder that might disappear before you reach the top?",
+      "zhMarkdown": "导致大公司职场天梯走向瓦解的主要原因之一，是始于 20 世纪 80 年代的公司并购潮。如果一架天梯在你爬到顶端之前随时可能消失，你又何必浪费时间去爬它呢？"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "081f6986cc03299d7d2ab21e5c4c1a19527a48857f18d2cf45d5697c11596a9a",
+      "enMarkdown": "And, by no coincidence, the corporate ladder was one of the reasons the early corporate raiders were so successful. It's not only economic statistics that ignore the value of safe jobs. Corporate balance sheets do too. One reason it was profitable to carve up 1980s companies and sell them for parts was that they hadn't formally acknowledged their implicit debt to employees who had done good work and expected to be rewarded with high-paying executive jobs when their time came.",
+      "zhMarkdown": "而且，这绝非巧合，职场天梯正是早期企业掠夺者能够大获成功的原因之一。不仅经济统计数据忽略了稳定工作的价值，公司的资产负债表同样如此。在 20 世纪 80 年代，拆分公司并分块出售之所以有利可图，原因之一在于这些公司并未在账面上正式确认它们对员工的隐性债务——这些员工付出了辛勤劳动，并期望在时机成熟时，能获得高薪的高管职位作为回报。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "b4635cfc6d9de7b8412b707e3d1cb76b456bfb1060730e6092add5b4c5078bf1",
+      "enMarkdown": "In the movie *Wall Street*, Gordon Gekko ridicules a company overloaded with vice presidents. But the company may not be as corrupt as it seems; those VPs' cushy jobs were probably payment for work done earlier.",
+      "zhMarkdown": "在电影《华尔街》中，戈登·盖柯（Gordon Gekko）嘲笑一家公司副总裁泛滥。但这家公司可能并没有看起来那么腐败；那些副总裁清闲的职位，很可能只是对他们早年付出的补偿。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c16aef51a6c8aaf9dc96afb1b1e9e1bf2154302f14d04b00cd8a5e79dbfca2d2",
+      "enMarkdown": "I like the new model better. For one thing, it seems a bad plan to treat jobs as rewards. Plenty of good engineers got made into bad managers that way. And the old system meant people had to deal with a lot more corporate politics, in order to protect the work they'd invested in a position on the ladder.",
+      "zhMarkdown": "我更喜欢现在的新模式。一方面，把职位当成奖赏似乎并不是个好主意。许多优秀的工程师就是这样被硬生生变成了糟糕的管理人员。而且，旧体系意味着人们不得不把大量精力消耗在公司政治上，以保护自己在这架天梯上好不容易占有的位置。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "97ab1d73aae252e3164771b6e84154fc5da4aebbbe60c5eebfde71522b84b4d3",
+      "enMarkdown": "The big disadvantage of the new system is that it involves more [risk](https://paulgraham.com/inequality.html). If you develop ideas in a startup instead of within a big company, any number of random factors could sink you before you can finish. But maybe the older generation would laugh at me for saying that the way we do things is riskier. After all, projects within big companies were always getting cancelled as a result of arbitrary decisions from higher up. My father's entire industry (breeder reactors) disappeared that way.",
+      "zhMarkdown": "新体系最大的缺点在于它伴随着更大的[风险](https://paulgraham.com/inequality.html)。如果你是在一家创业公司而不是大公司里开发想法，在成功之前，任何随机的变故都可能让你全盘皆输。不过，老一辈人可能会笑话我，觉得我们现在的做事方式更冒险。毕竟在大公司里，项目也经常会因为高层一拍脑门的决定而被砍掉。我父亲当年从事的整个行业（增殖反应堆）就是这样消失的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "5b96fbc3646166ef00c40313dffab22e3db0e110548b53661958a43e366f68bd",
+      "enMarkdown": "For better or worse, the idea of the corporate ladder is probably gone for good. The new model seems more liquid, and more efficient. But it is less of a change, financially, than one might think. Our fathers weren't *that* stupid.",
+      "zhMarkdown": "无论好坏，大公司职场天梯的时代恐怕都已经一去不复返了。新模式看起来流动性更强、效率更高。但从财务角度来看，它所带来的改变其实并没有人们想象的那么大。我们的父辈当年也并没有*那么*傻。"
+    }
+  ]
+}

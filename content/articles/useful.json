@@ -1,0 +1,426 @@
+{
+  "slug": "useful",
+  "titleEn": "How to Write Usefully",
+  "titleZh": "如何写出有用的文章",
+  "dateText": "February 2020",
+  "publishedAt": "2020-02-01",
+  "sourceOrder": 47,
+  "sourceUrl": "https://paulgraham.com/useful.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "841461671eb42d91ab3c6f8cd864856d77c47b61143ad740c0eb94aea77651e5",
+      "enMarkdown": "What should an essay be? Many people would say persuasive. That's what a lot of us were taught essays should be. But I think we can aim for something more ambitious: that an essay should be useful.",
+      "zhMarkdown": "一篇文章应该是什么样的？许多人会说是“有说服力”。我们大多数人从小接受的教育就是如此。但我认为我们可以追求一个更宏大的目标：一篇文章应该是有用的。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "ec5102abf304e3e4c989c965e6238b77930b8c6fae716c1a20edb510725fe1c2",
+      "enMarkdown": "To start with, that means it should be correct. But it's not enough merely to be correct. It's easy to make a statement correct by making it vague. That's a common flaw in academic writing, for example. If you know nothing at all about an issue, you can't go wrong by saying that the issue is a complex one, that there are many factors to be considered, that it's a mistake to take too simplistic a view of it, and so on.",
+      "zhMarkdown": "首先，这意味着它必须是正确的。但仅仅做到正确还远远不够。通过把话说得含糊其辞，很容易就能让一个观点变得“正确”。例如，这是学术写作中常见的通病。如果你对某个问题一无所知，只要说“这个问题很复杂”、“有许多因素需要考量”、“不能把问题看得太简单”之类的话，你就永远不会犯错。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "02385329272d202049d94b16efc61f3140b91edf83420a18eb29f78e26b37cb7",
+      "enMarkdown": "Though no doubt correct, such statements tell the reader nothing. Useful writing makes claims that are as strong as they can be made without becoming false.",
+      "zhMarkdown": "这些话固然没错，但没有给读者提供任何信息。有用的写作，其提出的论断应该在不失真的前提下，尽可能地强有力。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "06114bf5eaf8da32edb5daac8353f75847277c6413ad330e2c17079e03c88a0e",
+      "enMarkdown": "For example, it's more useful to say that Pike's Peak is near the middle of Colorado than merely somewhere in Colorado. But if I say it's in the exact middle of Colorado, I've now gone too far, because it's a bit east of the middle.",
+      "zhMarkdown": "举个例子，说“派克峰在科罗拉多州中部附近”，就比仅仅说“在科罗拉多州境内”更有用。但如果我说“它恰好在科罗拉多州的正中心”，那就说得太过了，因为它其实在中心偏东一点的地方。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "b584c15b6cdc67f32bfdffd78aee334e0daf54a5ccd6e326d39aed6ce24f26f5",
+      "enMarkdown": "Precision and correctness are like opposing forces. It's easy to satisfy one if you ignore the other. The converse of vaporous academic writing is the bold, but false, rhetoric of demagogues. Useful writing is bold, but true.",
+      "zhMarkdown": "精确度与正确性就像是一对相互排斥的力量。如果你忽略其中一个，就很容满足另一个。与空洞的学术写作相反的，是那些煽动者大胆却虚假的雄辩。而有用的写作，则是既大胆又真实的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "5d6408adbbf02af29897d0be2df60b3179841e11ce43024ebdb8552bf95659f0",
+      "enMarkdown": "It's also two other things: it tells people something important, and that at least some of them didn't already know.",
+      "zhMarkdown": "它还具备另外两个要素：它告诉人们一些重要的事情，并且这些事情至少对一部分人来说是此前不知道的。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "03a9b3ee4ff8715d0d6dfcbc2f97ce06edaed02e9524a340ac2130e68cbeca05",
+      "enMarkdown": "Telling people something they didn't know doesn't always mean surprising them. Sometimes it means telling them something they knew unconsciously but had never put into words. In fact those may be the more valuable insights, because they tend to be more fundamental.",
+      "zhMarkdown": "告诉人们他们不知道的事情，并不总是意味着要让他们感到惊讶。有时，它是指把人们潜意识里知道、但从未用语言表达出来的东西说出来。事实上，这些往往是更宝贵的洞见，因为它们往往更为根本。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "43a57de701b461f2412277de34aad37c1d84f88c7f070bf33313dc8ecc0256ef",
+      "enMarkdown": "Let's put them all together. Useful writing tells people something true and important that they didn't already know, and tells them as unequivocally as possible.",
+      "zhMarkdown": "让我们把这些要素拼在一起：有用的写作，是用尽可能明确的语言，告诉人们一些他们此前不知道的、真实且重要的事情。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "3af96237ae6ec7be4406febe547fb5b892883c7a83d88f99dab6e57b219b53f5",
+      "enMarkdown": "Notice these are all a matter of degree. For example, you can't expect an idea to be novel to everyone. Any insight that you have will probably have already been had by at least one of the world's 7 billion people. But it's sufficient if an idea is novel to a lot of readers.",
+      "zhMarkdown": "请注意，这些都是程度问题。例如，你不能指望一个想法对所有人来说都是新颖的。你所拥有的任何洞见，在全球 70 亿人口中，可能早就被至少一个人想到了。但只要这个想法对许多读者来说是新颖的，那就足够了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "0f33b08450d0faf7fcb373877bc8e1c1f03933bdcb918fe6e129cff6ceeac9b4",
+      "enMarkdown": "Ditto for correctness, importance, and strength. In effect the four components are like numbers you can multiply together to get a score for usefulness. Which I realize is almost awkwardly reductive, but nonetheless true.",
+      "zhMarkdown": "正确性、重要性和论断强度也是同理。实际上，这四个要素就像是可以相乘的数字，乘积就是一篇文章的“有用度”得分。我知道这种量化方式简单粗暴得有些令人尴尬，但它确实是这么回事。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "9c7c2cf58eb54416e14f60423b44d677260c7e166c3cbab65ad0c158224eb2cc",
+      "enMarkdown": "How can you ensure that the things you say are true and novel and important? Believe it or not, there is a trick for doing this. I learned it from my friend Robert Morris, who has a horror of saying anything dumb. His trick is not to say anything unless he's sure it's worth hearing. This makes it hard to get opinions out of him, but when you do, they're usually right.",
+      "zhMarkdown": "如何确保你说的话既真实、新颖又重要？信不信由你，这里面有一个诀窍。我是从我的朋友 Robert Morris 那里学到的，他极度害怕说出愚蠢的话。他的诀窍是：除非确信某件事值得一听，否则绝不开口。这让你很难从他嘴里套出什么观点，但只要他开口，往往都是对的。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c203848c994953db0358697868141dd19dec5c8befd9aa02dae0506255d4a1ff",
+      "enMarkdown": "Translated into essay writing, what this means is that if you write a bad sentence, you don't publish it. You delete it and try again. Often you abandon whole branches of four or five paragraphs. Sometimes a whole essay.",
+      "zhMarkdown": "转化到文章写作中，这意味着如果你写了一句糟糕的话，就不要发表它。删掉它，重新写。你经常需要放弃整整四五个段落的分支，有时甚至是整篇文章。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "fbfd54268ce222c7942f7d598060a074f14d780cc2fad66899317c2fedafd7b1",
+      "enMarkdown": "You can't ensure that every idea you have is good, but you can ensure that every one you publish is, by simply not publishing the ones that aren't.",
+      "zhMarkdown": "你无法保证自己产生的每一个想法都是好的，但你可以通过简单地不发表那些不好的想法，来确保你发表的每一个想法都是好的。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "1095b20b097058f9a6aeeb3afbf7649fa682a1a1de9510ef4c189aa100903afe",
+      "enMarkdown": "In the sciences, this is called publication bias, and is considered bad. When some hypothesis you're exploring gets inconclusive results, you're supposed to tell people about that too. But with essay writing, publication bias is the way to go.",
+      "zhMarkdown": "在科学界，这被称为“发表偏倚”（publication bias），并被认为是不好的。当你探索某个假设并得到不确定的结果时，你理应把这些也告诉大家。但在文章写作中，发表偏倚才是正道。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "5bdc873d34a3fa7841d32aaba44c90e3d9481f7e3e2badbbf51c1dbbdbfd39c3",
+      "enMarkdown": "My strategy is loose, then tight. I write the first draft of an essay fast, trying out all kinds of ideas. Then I spend days rewriting it very carefully.",
+      "zhMarkdown": "我的策略是“先松后紧”。我写初稿时速度极快，尝试各种想法。然后，我会花上几天时间，非常仔细地重写。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "2689b219c3087b5c52059e84db1c327e1631d8347b24e539f6daf0cbd170ebb7",
+      "enMarkdown": "I've never tried to count how many times I proofread essays, but I'm sure there are sentences I've read 100 times before publishing them. When I proofread an essay, there are usually passages that stick out in an annoying way, sometimes because they're clumsily written, and sometimes because I'm not sure they're true. The annoyance starts out unconscious, but after the tenth reading or so I'm saying \"Ugh, that part\" each time I hit it. They become like briars that catch your sleeve as you walk past. Usually I won't publish an essay till they're all gone � till I can read through the whole thing without the feeling of anything catching.",
+      "zhMarkdown": "我从未试过统计自己校对一篇文章多少次，但我敢肯定，有些句子在发表前我读过 100 遍。每当我校对一篇文章时，总会有一些段落显得格外扎眼、令人恼火，有时是因为写得太笨拙，有时是因为我不确定它们是否正确。这种反感起初是无意识的，但读到第十遍左右时，每次看到那里我都会在心里说“呃，又是这部分”。它们就像路边的荆棘，你走过去就会勾住你的袖子。通常，在把这些荆棘全部拔除之前——直到我能顺畅地读完通篇而没有任何被勾挂的感觉——我是不会发表这篇文章的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "ed848a6937d94ae5ec75d260dad37d7546587aca7c2af028f0a87033c520ac42",
+      "enMarkdown": "I'll sometimes let through a sentence that seems clumsy, if I can't think of a way to rephrase it, but I will never knowingly let through one that doesn't seem correct. You never have to. If a sentence doesn't seem right, all you have to do is ask why it doesn't, and you've usually got the replacement right there in your head.",
+      "zhMarkdown": "如果实在想不出更好的表达方式，我偶尔会放过一个看起来有些笨拙的句子，但我绝不会故意放过一个看起来不正确的句子。你完全没必要这么做。如果一个句子看起来不对劲，你只需要问问自己为什么不对，通常替代的写法就会立刻呈现在你的脑海中。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "519f33933c96bfcd8cd40f43f45f36c95228d5e8c37e5f3a36ad3b2538e00eaa",
+      "enMarkdown": "This is where essayists have an advantage over journalists. You don't have a deadline. You can work for as long on an essay as you need to get it right. You don't have to publish the essay at all, if you can't get it right. Mistakes seem to lose courage in the face of an enemy with unlimited resources. Or that's what it feels like. What's really going on is that you have different expectations for yourself. You're like a parent saying to a child \"we can sit here all night till you eat your vegetables.\" Except you're the child too.",
+      "zhMarkdown": "这就是散文作家相比于记者的优势。你没有截止日期。你可以花足够长的时间去打磨一篇文章，直到写对为止。如果你写不对，你甚至可以根本不发表。在拥有无限资源的对手面前，错误似乎也会失去胆量。至少感觉上是这样。实际发生的是，你提高了对自己的期望。你就像一个对孩子说“我们可以整晚坐在这里，直到你把蔬菜吃完”的家长。只不过，你同时也是那个孩子。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "3ea35668d4b09f434511a022b1a31e623d83312a39116ba522e1d5cffbd2ec03",
+      "enMarkdown": "I'm not saying no mistake gets through. For example, I added condition (c) in [\"A Way to Detect Bias\"](https://paulgraham.com/bias.html) after readers pointed out that I'd omitted it. But in practice you can catch nearly all of them.",
+      "zhMarkdown": "我并不是说任何错误都不会漏过去。例如，在读者指出我遗漏了条件 (c) 之后，我在 [《如何识别偏见》](https://paulgraham.com/bias.html) 一文中补上了它。但在实践中，你几乎可以揪出所有的错误。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "96221916448c404c162ffa27de8949009b671e46779a42980a588a095df65e7c",
+      "enMarkdown": "There's a trick for getting importance too. It's like the trick I suggest to young founders for getting startup ideas: to make something you yourself want. You can use yourself as a proxy for the reader. The reader is not completely unlike you, so if you write about topics that seem important to you, they'll probably seem important to a significant number of readers as well.",
+      "zhMarkdown": "寻找“重要性”也有一个诀窍。这就像我给年轻创始人的创业点子建议一样：做你自己想要的东西。你可以把自己当作读者的替身。读者和你在很多地方是相似的，所以如果你写一些对自己来说很重要的课题，它们很可能对相当一部分读者来说也同样重要。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "43cecacef65930d2d4837e9762e4ff5c3c28dfdacbed784f7bb6421c80c45ef2",
+      "enMarkdown": "Importance has two factors. It's the number of people something matters to, times how much it matters to them. Which means of course that it's not a rectangle, but a sort of ragged comb, like a Riemann sum.",
+      "zhMarkdown": "重要性由两个因子决定：某件事对多少人有影响，乘以这件事对他们的影响有多深。这当然意味着它不是一个规则的矩形，而是一个参差不齐的梳子形状，就像黎曼和（Riemann sum）一样。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "f18c027336f60fc3a7fb6535e3fe2122694164633b2211407ebf2f25274adba9",
+      "enMarkdown": "The way to get novelty is to write about topics you've thought about a lot. Then you can use yourself as a proxy for the reader in this department too. Anything you notice that surprises you, who've thought about the topic a lot, will probably also surprise a significant number of readers. And here, as with correctness and importance, you can use the Morris technique to ensure that you will. If you don't learn anything from writing an essay, don't publish it.",
+      "zhMarkdown": "获得“新颖性”的方法是写那些你深入思考过很久的课题。这样一来，你在这个领域也可以把自己当作读者的替身。任何让你这个深思熟虑过的人感到惊讶的新发现，大概率也会让相当一部分读者感到惊讶。在这里，就像对待正确性和重要性一样，你可以用 Morris 的技巧来确保这一点：如果你在写一篇文章的过程中没有学到任何新东西，那就不要发表它。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "3af5200aa322102fafead88814a2a743c4951829191f057d7bdd065d567459df",
+      "enMarkdown": "You need humility to measure novelty, because acknowledging the novelty of an idea means acknowledging your previous ignorance of it. Confidence and humility are often seen as opposites, but in this case, as in many others, confidence helps you to be humble. If you know you're an expert on some topic, you can freely admit when you learn something you didn't know, because you can be confident that most other people wouldn't know it either.",
+      "zhMarkdown": "衡量新颖性需要谦逊，因为承认一个想法的新颖，意味着承认你之前对此一无所知。自信与谦逊常常被看作是对立的，但在这种情况下（以及许多其他情况下），自信反而能帮你保持谦逊。如果你知道自己是某个领域的专家，你就能大方地承认自己学到了以前不知道的东西，因为你确信大多数其他人也同样不会知道。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "06cc5d341fa93bfa79f540837a77c25a6a1c2cba1a8490af8d6c248d89b6c914",
+      "enMarkdown": "The fourth component of useful writing, strength, comes from two things: thinking well, and the skillful use of qualification. These two counterbalance each other, like the accelerator and clutch in a car with a manual transmission. As you try to refine the expression of an idea, you adjust the qualification accordingly. Something you're sure of, you can state baldly with no qualification at all, as I did the four components of useful writing. Whereas points that seem dubious have to be held at arm's length with perhapses.",
+      "zhMarkdown": "有用写作的第四个要素，即“论断强度”，源于两点：清晰的思考，以及对限定词的巧妙运用。这两者相互制约，就像手动挡汽车里的油门和离合器。当你试图精炼一个想法的表达时，你要相应地调整限定词。对于你深信不疑的事情，你可以毫无保留地直接陈述，就像我列出有用写作的四个要素那样。而对于看起来有些可疑的观点，则需要用“也许”等词汇来保持一定的距离。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "715567c3fe4c984e05ce22e7a798ac38848919e12b3c1629c75a209c11f10fd8",
+      "enMarkdown": "As you refine an idea, you're pushing in the direction of less qualification. But you can rarely get it down to zero. Sometimes you don't even want to, if it's a side point and a fully refined version would be too long.",
+      "zhMarkdown": "当你精炼一个想法时，你是在朝着减少限制的方向推进。但你很少能把它降到零。有时你甚至不想这么做，因为如果它只是一个次要观点，而完全精炼的版本又太长的话，就得不偿失了。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "46759473d2531e9fa9860b80400c0fe1510fb49613278f7f18f929e2778a4c58",
+      "enMarkdown": "Some say that qualifications weaken writing. For example, that you should never begin a sentence in an essay with \"I think,\" because if you're saying it, then of course you think it. And it's true that \"I think x\" is a weaker statement than simply \"x.\" Which is exactly why you need \"I think.\" You need it to express your degree of certainty.",
+      "zhMarkdown": "有人说限定词会削弱写作的力度。例如，你永远不应该在一篇文章中以“我认为”开头，因为既然是你写的，你当然是这么想的。确实，“我认为 x”是一个比直接说“x”更弱的陈述。但这恰恰是你需要“我认为”的原因。你需要它来表达你的确定程度。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "38fefbc1f78beab80144d32f0915651b0c286ee3773f496c06c50cd881c82987",
+      "enMarkdown": "But qualifications are not scalars. They're not just experimental error. There must be 50 things they can express: how broadly something applies, how you know it, how happy you are it's so, even how it could be falsified. I'm not going to try to explore the structure of qualification here. It's probably more complex than the whole topic of writing usefully. Instead I'll just give you a practical tip: Don't underestimate qualification. It's an important skill in its own right, not just a sort of tax you have to pay in order to avoid saying things that are false. So learn and use its full range. It may not be fully half of having good ideas, but it's part of having them.",
+      "zhMarkdown": "但限定词并不是单一维度的数值，它们不单单是实验误差。它们大概能表达 50 种不同的意思：某事的适用范围有多广、你是如何知道它的、你对它的发生有多高兴，甚至它如何能被证伪。我不打算在这里探讨限定词的结构。这可能比“如何写出有用的文章”这个主题本身还要复杂。相反，我只想给你一个实用的建议：不要低估限定词。它本身就是一项重要的技能，而不仅仅是为了避免说错话而不得不付出的某种代价。所以，去学习并充分运用它的各种变化吧。它在产生好点子的过程中可能占不到一半的功劳，但绝对是不可或缺的一部分。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "ec70c0bd7c3bd2021143bff164133aacb9820467bfce87159ffb1a6599c13e7f",
+      "enMarkdown": "There's one other quality I aim for in essays: to say things as simply as possible. But I don't think this is a component of usefulness. It's more a matter of consideration for the reader. And it's a practical aid in getting things right; a mistake is more obvious when expressed in simple language. But I'll admit that the main reason I write simply is not for the reader's sake or because it helps get things right, but because it bothers me to use more or fancier words than I need to. It seems inelegant, like a program that's too long.",
+      "zhMarkdown": "在写文章时，我还追求另一个品质：尽可能简单地表达。但我认为这不算是有用性的一个组成部分。这更多是对读者的一种体贴。而且它也是写对事情的实用辅助；当用简单的语言表达时，错误会变得更加明显。但我必须承认，我写得简单，主要原因既不是为了读者，也不是因为它有助于写对，而是因为使用超出需要的、或是过于华丽的词汇会让我感到难受。这显得不够优雅，就像一段写得太长的程序代码。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "50fa863034327b17d9329b83fa1c1132b06171cf1bdeea3d9fa452745659e62e",
+      "enMarkdown": "I realize florid writing works for some people. But unless you're sure you're one of them, the best advice is to write as simply as you can.",
+      "zhMarkdown": "我知道华丽的文风适合某些人。但除非你确信自己是其中之一，否则最好的建议就是尽可能写得简单。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "fecbb67f98ad5c67cd79bd435e226f34cbb9ddd42ccb76898a940198a6fdf7d0",
+      "enMarkdown": "I believe the formula I've given you, importance + novelty + correctness + strength, is the recipe for a good essay. But I should warn you that it's also a recipe for making people mad.",
+      "zhMarkdown": "我相信我给你的这个公式：重要性 + 新颖性 + 正确性 + 强度，就是写出一篇好文章的秘诀。但我必须警告你，这也是一个让人愤怒的秘诀。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "9a668b809444a701b00f849d7eae75582d7a0c818c597d865a70f758ff2102d2",
+      "enMarkdown": "The root of the problem is novelty. When you tell people something they didn't know, they don't always thank you for it. Sometimes the reason people don't know something is because they don't want to know it. Usually because it contradicts some cherished belief. And indeed, if you're looking for novel ideas, popular but mistaken beliefs are a good place to find them. Every popular mistaken belief creates a [dead zone](https://paulgraham.com/nov.html) of ideas around it that are relatively unexplored because they contradict it.",
+      "zhMarkdown": "问题的根源在于“新颖性”。当你告诉人们一些他们不知道的事情时，他们并不总是会感谢你。有时，人们不知道某件事，是因为他们根本不想知道。通常是因为这件事违背了他们珍视的某种信念。事实上，如果你在寻找新颖的想法，那些流行但错误的观念正是寻找它们的好地方。每一个流行的错误观念，都会在它周围创造出一个思想的[盲区](https://paulgraham.com/nov.html)，这些思想因为与之冲突而相对未被探索。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "1f38591bcd2835fa1921bc533773c2570ec0588c6920804a92a840c5850752b0",
+      "enMarkdown": "The strength component just makes things worse. If there's anything that annoys people more than having their cherished assumptions contradicted, it's having them flatly contradicted.",
+      "zhMarkdown": "而“强度”这个要素只会让事情变得更糟。如果说有什么比违背人们珍视的假设更让他们恼火的话，那就是不留情面地直接否定这些假设。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "6298136a2cbfae1264ade61cb0e10b41dfc3fd021577a36c793c16a765ab8f4e",
+      "enMarkdown": "Plus if you've used the Morris technique, your writing will seem quite confident. Perhaps offensively confident, to people who disagree with you. The reason you'll seem confident is that you are confident: you've cheated, by only publishing the things you're sure of. It will seem to people who try to disagree with you that you never admit you're wrong. In fact you constantly admit you're wrong. You just do it before publishing instead of after.",
+      "zhMarkdown": "此外，如果你使用了 Morris 的技巧，你的写作会显得非常自信。对于那些不同意你观点的人来说，这甚至可能是一种冒犯性的自信。你显得自信的原因在于你确实自信：你作弊了，你只发表了那些你确信的事情。在试图反驳你的人看来，你似乎从不承认自己错了。事实上，你一直在承认自己错了，只是你是在发表之前做的，而不是在发表之后。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "bfd6896ca139d0e2e53e026cee3959369f2340945c20f29477f27a509485547e",
+      "enMarkdown": "And if your writing is as simple as possible, that just makes things worse. Brevity is the diction of command. If you watch someone delivering unwelcome news from a position of inferiority, you'll notice they tend to use lots of words, to soften the blow. Whereas to be short with someone is more or less to be rude to them.",
+      "zhMarkdown": "如果你的写作又尽可能地简单，那只会让情况雪上加霜。简洁是命令的语气。如果你观察一个处于弱势地位的人传达坏消息，你会发现他们倾向于使用大量的词汇来缓和冲击。相比之下，对某人说话简短，或多或少就是无礼的表现。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "4c059df44cbf96858a555b8b38fa9700814fe599361190a762011524e3086190",
+      "enMarkdown": "It can sometimes work to deliberately phrase statements more weakly than you mean. To put \"perhaps\" in front of something you're actually quite sure of. But you'll notice that when writers do this, they usually do it with a wink.",
+      "zhMarkdown": "有时，故意用比你实际意图更弱的语气来表达，也是行得通的。比如在你其实非常笃定的事情前面加上“也许”。但你会注意到，当作家们这么做时，他们通常带着一种眨眼示意的默契。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "d68b56d098c2ff4d5876452aaf743eb2fcd846452cebd59c59d3b5efa2af607e",
+      "enMarkdown": "I don't like to do this too much. It's cheesy to adopt an ironic tone for a whole essay. I think we just have to face the fact that elegance and curtness are two names for the same thing.",
+      "zhMarkdown": "我不喜欢过度使用这种技巧。在整篇文章中都采用反讽的语气显得很俗气。我认为我们必须面对一个事实：优雅和简练其实是同一个词的两种叫法。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "e9e86f6dc1a9047eb5581a675a90517ac17d557b527b5bbde1faba4124814579",
+      "enMarkdown": "You might think that if you work sufficiently hard to ensure that an essay is correct, it will be invulnerable to attack. That's sort of true. It will be invulnerable to valid attacks. But in practice that's little consolation.",
+      "zhMarkdown": "你可能会认为，如果你足够努力地确保文章的正确性，它就能免受攻击。这在某种程度上是对的。它能免受有效的攻击。但在实践中，这并不能带来多少安慰。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "938f60b18d8a9ef0611b83d57b59b4f7d74ba43a0664c32610395c8934517623",
+      "enMarkdown": "In fact, the strength component of useful writing will make you particularly vulnerable to misrepresentation. If you've stated an idea as strongly as you could without making it false, all anyone has to do is to exaggerate slightly what you said, and now it is false.",
+      "zhMarkdown": "事实上，有用写作中的“强度”要素会让你特别容易受到曲解。如果你在不失真的前提下，尽可能强有力地阐述了一个想法，那么任何人只要稍微夸大一点你的话，它就会变成谬误。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "5a37f095ae2eea8abf742f8a0d22dca917353f442c7c54578d99d70569c3af44",
+      "enMarkdown": "Much of the time they're not even doing it deliberately. One of the most surprising things you'll discover, if you start writing essays, is that people who disagree with you rarely disagree with what you've actually written. Instead they make up something you said and disagree with that.",
+      "zhMarkdown": "而且大多数时候，他们甚至不是故意这么做的。如果你开始写文章，你会发现最令人惊讶的事情之一是：反对你的人很少会针对你真正写下的内容进行反驳。相反，他们会捏造一个你没说过的观点，然后对这个捏造的观点大加鞭笞。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "b7c8622b0f084b92e985640d4c306c18fe1db6818bc5dc1a04dedd89e65ee3fa",
+      "enMarkdown": "For what it's worth, the countermove is to ask someone who does this to quote a specific sentence or passage you wrote that they believe is false, and explain why. I say \"for what it's worth\" because they never do. So although it might seem that this could get a broken discussion back on track, the truth is that it was never on track in the first place.",
+      "zhMarkdown": "顺便提一句，应对这种局面的招数是：要求这样做的人引用你写过的、他们认为是错误的某句具体的话或段落，并解释为什么。我说“顺便提一句”，是因为他们从来不这么做。所以，虽然这看起来能让偏离轨道的讨论重回正轨，但事实是，这种讨论从一开始就没有在正轨上。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "1664ebb4387279ea40cbc709fe89312bee64b098d25d5f9a8a0b9c3262b53e01",
+      "enMarkdown": "Should you explicitly forestall likely misinterpretations? Yes, if they're misinterpretations a reasonably smart and well-intentioned person might make. In fact it's sometimes better to say something slightly misleading and then add the correction than to try to get an idea right in one shot. That can be more efficient, and can also model the way such an idea would be discovered.",
+      "zhMarkdown": "你应该在文中明确地提前防范可能出现的误解吗？应该，如果这些误解是一个通情达理、心怀善意的人可能产生的话。事实上，有时先说一些稍微容易引起误解的话，然后再进行修正，比试图一次性把一个想法说得完美无缺要好。这样效率更高，也能模拟出这个想法被发现时的真实心路历程。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "d7978af50326802ce09e4b1fce2e417afd038c1e4cdc73d6f9d90ffa74fd41a8",
+      "enMarkdown": "But I don't think you should explicitly forestall intentional misinterpretations in the body of an essay. An essay is a place to meet honest readers. You don't want to spoil your house by putting bars on the windows to protect against dishonest ones. The place to protect against intentional misinterpretations is in end-notes. But don't think you can predict them all. People are as ingenious at misrepresenting you when you say something they don't want to hear as they are at coming up with rationalizations for things they want to do but know they shouldn't. I suspect it's the same skill.",
+      "zhMarkdown": "但我认为你不应该在文章正文中去明确防范那些故意的歪曲。文章是与诚实的读者交流的地方。你不想为了防范小偷而在窗户上装满铁栅栏，从而毁了你温馨的家。防范故意歪曲的地方应该放在尾注（end-notes）里。但别以为你能预测所有的歪曲。当你说出人们不想听的话时，他们歪曲你意图的本领，和他们为自己想做但明知不该做的事情找借口的本领一样高超。我怀疑这其实是同一种技能。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "ff2db90491983cfbf15ef4ab0a85bfc31accc70a222c8a6563c6d1850d43c739",
+      "enMarkdown": "As with most other things, the way to get better at writing essays is to practice. But how do you start? Now that we've examined the structure of useful writing, we can rephrase that question more precisely. Which constraint do you relax initially? The answer is, the first component of importance: the number of people who care about what you write.",
+      "zhMarkdown": "和大多数其他事情一样，提高文章写作水平的方法就是练习。但该如何开始呢？既然我们已经剖析了有用写作的结构，我们就可以更精确地重构这个问题：你最初应该放宽哪一个限制？答案是，重要性的第一个要素：关心你写的内容的读者数量。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "ad7a0ec9bd7db1c5686e46f28c0eec27fec23d5e4cdf96f27e09ff13b8d6b256",
+      "enMarkdown": "If you narrow the topic sufficiently, you can probably find something you're an expert on. Write about that to start with. If you only have ten readers who care, that's fine. You're helping them, and you're writing. Later you can expand the breadth of topics you write about.",
+      "zhMarkdown": "如果你把课题缩得足够窄，你大概总能找到一个自己擅长的领域。刚开始就写这个。如果你只有十个关心的读者，那也没关系。你在帮助他们，而且你正在写作。以后你可以再慢慢拓展写作题材的广度。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "42ab1248990755e64785592b10a1153a4d314223329abd4f29b27d7ff85186a5",
+      "enMarkdown": "The other constraint you can relax is a little surprising: publication. Writing essays doesn't have to mean publishing them. That may seem strange now that the trend is to publish every random thought, but it worked for me. I wrote what amounted to essays in notebooks for about 15 years. I never published any of them and never expected to. I wrote them as a way of figuring things out. But when the web came along I'd had a lot of practice.",
+      "zhMarkdown": "另一个可以放宽的限制可能有点出人意料：发表。写文章并不意味着一定要发表它们。在如今什么胡思乱想都要发出来的潮流下，这听起来可能有些奇怪，但它对我确实有效。我有大约 15 年的时间都在笔记本上写类似于文章的东西。我从未发表过其中任何一篇，也从未指望过发表。我写它们是为了理清自己的思绪。但当互联网出现时，我已经有了大量的练习积累。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "478d0fd703f3b50435809d5478020b6dfe244308ec5837da405f730f4874684e",
+      "enMarkdown": "Incidentally, [Steve \nWozniak](http://www.foundersatwork.com/steve-wozniak.html) did the same thing. In high school he designed computers on paper for fun. He couldn't build them because he couldn't afford the components. But when Intel launched 4K DRAMs in 1975, he was ready.",
+      "zhMarkdown": "顺便提一句，[Steve Wozniak](http://www.foundersatwork.com/steve-wozniak.html) 也做过同样的事。在高中时，他为了好玩在纸上设计计算机。他没法把它们造出来，因为他买不起那些元器件。但是当英特尔在 1975 年推出 4K DRAM 时，他已经准备好了。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "d557dfc1a939d53f0e6f5bcb33d6a4b9c6b0e67a98e4fa58d7d767a007cae9de",
+      "enMarkdown": "How many essays are there left to write though? The answer to that question is probably the most exciting thing I've learned about essay writing. Nearly all of them are left to write.",
+      "zhMarkdown": "不过，还剩下多少文章可以写呢？这个问题的答案，大概是我在文章写作中了解到的最令人兴奋的事情：几乎所有的文章都还等着我们去写。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "6fcb2de42e02bd89ec1990ad7a5fa970128bef48f261b33498f8647d5a939888",
+      "enMarkdown": "Although [the essay](https://paulgraham.com/essay.html) is an old form, it hasn't been assiduously cultivated. In the print era, publication was expensive, and there wasn't enough demand for essays to publish that many. You could publish essays if you were already well known for writing something else, like novels. Or you could write book reviews that you took over to express your own ideas. But there was not really a direct path to becoming an essayist. Which meant few essays got written, and those that did tended to be about a narrow range of subjects.",
+      "zhMarkdown": "虽然[散文随笔](https://paulgraham.com/essay.html)是一种古老的文学形式，但它并没有被辛勤地耕耘过。在纸媒时代，出版成本高昂，而且对文章的需求量不足以支撑大量发表。除非你已经因为写别的东西（比如小说）而闻名，否则你很难发表文章。或者你可以写书评，并借此来表达自己的观点。但过去并没有一条直接成为文章作家的途径。这意味着极少有文章被写出来，而且那些写出来的文章，题材范围也往往很窄。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "ba83f5166784c92d48478d349f39c8bbd4387dd531af8c058fca99bc53abd048",
+      "enMarkdown": "Now, thanks to the internet, there's a path. Anyone can publish essays online. You start in obscurity, perhaps, but at least you can start. You don't need anyone's permission.",
+      "zhMarkdown": "现在，多亏了互联网，这条路通了。任何人都可以再网上发表文章。你开始时也许默默无闻，但至少你可以开始。你不需要任何人的许可。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "2e118f02bd5d9db0386e4b142d184b87f8b892947ed497bc4aa4cb8f3ab68f37",
+      "enMarkdown": "It sometimes happens that an area of knowledge sits quietly for years, till some change makes it explode. Cryptography did this to number theory. The internet is doing it to the essay.",
+      "zhMarkdown": "有时会发生这样的情况：某个知识领域静静地躺了许多年，直到某项变革使其迎来爆发。密码学之于数论就是如此。而互联网之于文章写作，也正在发生同样的化学反应。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "e63dcd40597b2bbddbfb2ba944bd04b392e29bbe87def4682743771bbd2e8325",
+      "enMarkdown": "The exciting thing is not that there's a lot left to write, but that there's a lot left to discover. There's a certain kind of idea that's best discovered by writing essays. If most essays are still unwritten, most such ideas are still undiscovered.",
+      "zhMarkdown": "令人兴奋的不仅在于还有很多东西没写，更在于还有很多东西等着去发现。有某种类型的想法，最适合通过撰写文章来发现。如果大多数文章还没有被写出来，那么大多数这类想法就依然没有被发现。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "42087b3b013cfca84cb19bf2cc294d86bbc116a5c60a3d19143d2b36943d424d",
+      "enMarkdown": "[1] Put railings on the balconies, but don't put bars on the windows.",
+      "zhMarkdown": "[1] 在阳台上装上栏杆，但不要在窗户上装铁栅栏。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "a0e9859e0648f49c8932d34e617708db7d7a4c39e04b8b2d87aaa294cd3b3ebd",
+      "enMarkdown": "[2] Even now I sometimes write essays that are not meant for publication. I wrote several to figure out what Y Combinator should do, and they were really helpful.",
+      "zhMarkdown": "[2] 即使是现在，我有时也会写一些不打算发表的文章。我写了好几篇来理清 Y Combinator 应该怎么做，它们真的非常有帮助。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "fb227e5a596d9a46ffe11087efc5955bd5741df2d1928b78f1a38cd69f571b02",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Daniel Gackle, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Daniel Gackle、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

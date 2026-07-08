@@ -1,0 +1,244 @@
+{
+  "slug": "swan",
+  "titleEn": "Black Swan Farming",
+  "titleZh": "黑天鹅式投资",
+  "dateText": "September 2012",
+  "publishedAt": "2012-09-01",
+  "sourceOrder": 85,
+  "sourceUrl": "https://paulgraham.com/swan.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ae1ecbfe0bd83d25d5ef8c9ba07487e6d23ad73b56ff5ccddb8ecfa70e6c8948",
+      "enMarkdown": "I've done several types of work over the years but I don't know another as counterintuitive as startup investing.",
+      "zhMarkdown": "这些年来我做过好几种不同的工作，但没有哪一种像创业投资这样违背直觉。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "329e6ae4f3da95cc1d70bf0d547efee0133bb664608a1c7bdf025a98698fc06c",
+      "enMarkdown": "The two most important things to understand about startup investing, as a business, are (1) that effectively all the returns are concentrated in a few big winners, and (2) that the best ideas look initially like bad ideas.",
+      "zhMarkdown": "要理解创业投资这门生意，最关键的有两点：第一，几乎所有的回报都集中在少数几个超级大赢家身上；第二，最好的点子在最初看起来往往都很糟糕。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "63efff829b208bea15a9f37029ea17d2a14f37ceb289dc3d192e8528d7d9e5c9",
+      "enMarkdown": "The first rule I knew intellectually, but didn't really grasp till it happened to us. The total value of the companies we've funded is around 10 billion, give or take a few. But just two companies, Dropbox and Airbnb, account for about three quarters of it.",
+      "zhMarkdown": "第一条规则我以前在道理上明白，但直到亲身经历后才真正体会到。我们资助过的公司总价值大概在 100 亿美元左右（上下有些浮动）。然而，仅 Dropbox 和 Airbnb 这两家公司，就占了总价值的四分之三左右。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "e5203eee51d08c98129104f6aabe2b986075a960fd6e4549678337cb03aceef7",
+      "enMarkdown": "In startups, the big winners are big to a degree that violates our expectations about variation. I don't know whether these expectations are innate or learned, but whatever the cause, we are just not prepared for the 1000x variation in outcomes that one finds in startup investing.",
+      "zhMarkdown": "在创业界，超级大赢家的体量之大，完全打破了我们对常规波动的认知。我不知道这种对波动的认知是先天的还是后天习得的，但无论原因如何，面对创业投资中高达 1000 倍的回报差距，我们人类的直觉根本没有做好准备。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "27393b38d1e9da7246d4fca9a0889473a4686a43171465253e5e458fad420c77",
+      "enMarkdown": "That yields all sorts of strange consequences. For example, in purely financial terms, there is probably at most one company in each YC batch that will have a significant effect on our returns, and the rest are just a cost of doing business. [[1](#f1n)] I haven't really assimilated that fact, partly because it's so counterintuitive, and partly because we're not doing this just for financial reasons; YC would be a pretty lonely place if we only had one company per batch. And yet it's true.",
+      "zhMarkdown": "这导致了各种奇怪的后果。例如，纯粹从财务角度来看，YC 每一期孵化班中，可能最多只有一家公司会对我们的投资回报产生实质性影响，其余的都只是经营成本。[[1](#f1n)] 我至今还没能完全消化这个事实，部分原因是因为它太违背直觉，另一部分原因是我们做 YC 并不完全是为了钱；如果每期只有一家公司能走出来，YC 就会变得非常冷清。但这确实是事实。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "67ef52e507b3db37088f064ba85eef7f2f61dde182477661660a65d28ad932e5",
+      "enMarkdown": "To succeed in a domain that violates your intuitions, you need to be able to turn them off the way a pilot does when flying through clouds. [[2](#f2n)] You need to do what you know intellectually to be right, even though it feels wrong.",
+      "zhMarkdown": "要在违背直觉的领域取得成功，你必须学会像飞行员穿过云层时那样，关掉自己的直觉。[[2](#f2n)] 你必须去做那些你在理智上明知正确、但直觉上却觉得不对的事。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "2d89235a813233503fda52379965aad34c6ffc892def2b1dbae454153cf8f37e",
+      "enMarkdown": "It's a constant battle for us. It's hard to make ourselves take enough risks. When you interview a startup and think \"they seem likely to succeed,\" it's hard not to fund them. And yet, financially at least, there is only one kind of success: they're either going to be one of the really big winners or not, and if not it doesn't matter whether you fund them, because even if they succeed the effect on your returns will be insignificant. In the same day of interviews you might meet some smart 19 year olds who aren't even sure what they want to work on. Their chances of succeeding seem small. But again, it's not their chances of succeeding that matter but their chances of succeeding really big. The probability that any group will succeed really big is microscopically small, but the probability that those 19 year olds will might be higher than that of the other, safer group.",
+      "zhMarkdown": "对我们来说，这是一场持久战。让我们自己去承担足够大的风险是非常困难的。当你面试一家创业公司并觉得“他们看起来很有可能成功”时，你很难不去资助他们。然而，至少在财务上，成功只有一种：他们要么成为超级大赢家，要么不是。如果不是，你资助与否其实无所谓，因为即使他们成功了，对你投资回报的影响也微乎其微。在同一天的面试中，你可能会遇到几个聪明的 19 岁年轻人，他们甚至还没想好自己要做什么，成功的概率看起来微乎其微。但是，关键不在于他们成功的概率，而在于他们“获得超级大成功”的概率。任何团队获得超级大成功的概率都是微乎其微的，但这些 19 岁年轻人的概率，可能就是比另一组更稳妥的团队要高。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "20805a2abf3b3d75149f2ce2c05d2799bdde67d51ddf121a227cdbaa2999ff5a",
+      "enMarkdown": "The probability that a startup will make it big is not simply a constant fraction of the probability that they will succeed at all. If it were, you could fund everyone who seemed likely to succeed at all, and you'd get that fraction of big hits. Unfortunately picking winners is harder than that. You have to ignore the elephant in front of you, the likelihood they'll succeed, and focus instead on the separate and almost invisibly intangible question of whether they'll succeed really big.",
+      "zhMarkdown": "一家创业公司做大的概率，并不是它能活下来的概率的简单等比例缩放。如果是的话，你只需要资助所有看起来能活下来的公司，就能按比例分到大赢家的份额。不幸的是，挑选赢家要比这困难得多。你必须无视眼前那头显而易见的“大象”——即他们能否活下来的概率，转而把注意力放在那个几乎看不见摸不着、完全独立的问题上：他们有没有可能获得超级大成功。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9da49def3f8bd0202acb7a2d5500d4953eb8eaaece2837ba7e6ae1fe3cd10a91",
+      "enMarkdown": "**Harder**",
+      "zhMarkdown": "**难上加难**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "944a30664f01fa0953fb41618fd4eedd51a7109bf7eb12998dc730a3bea9bb42",
+      "enMarkdown": "That's made harder by the fact that the best startup ideas seem at first like bad ideas. I've written about this before: if a good idea were obviously good, someone else would already have done it. So the most successful founders tend to work on ideas that few beside them realize are good. Which is not that far from a description of insanity, till you reach the point where you see results.",
+      "zhMarkdown": "更难的是，最好的创业点子一开始看起来都像坏点子。我以前写过这个：如果一个好点子显而易见，别人早就做了。因此，最成功的创始人往往专注于那些除了他们自己之外、几乎没人觉得是好点子的想法。在做出成果之前，这种状态和精神失常其实差不了多少。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "430d868b5be385a456b5d7480cc17314d51280390379dbe1407182985a921eb0",
+      "enMarkdown": "The first time Peter Thiel spoke at YC he drew a Venn diagram that illustrates the situation perfectly. He drew two intersecting circles, one labelled \"seems like a bad idea\" and the other \"is a good idea.\" The intersection is the sweet spot for startups.",
+      "zhMarkdown": "彼得·蒂尔（Peter Thiel）第一次在 YC 演讲时，画了一个完美解释这种局面的韦恩图。他画了两个相交的圆，一个标着“看起来像坏点子”，另一个标着“是好点子”。两圆相交的重合部分，就是创业公司的黄金地带。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "d8b2995615a206317de1c7e059e138405b2e0414b43be1f36bb24c55b0f14aa8",
+      "enMarkdown": "This concept is a simple one and yet seeing it as a Venn diagram is illuminating. It reminds you that there is an intersection—that there are good ideas that seem bad. It also reminds you that the vast majority of ideas that seem bad are bad.",
+      "zhMarkdown": "这个概念很简单，但用韦恩图表现出来却极具启发性。它提醒你，那个交集确实存在——有些好点子看起来确实很糟糕。同时它也提醒你，绝大多数看起来糟糕的点子，实际上确实很糟糕。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "761868840369144e782d3f97e26882c86acfc69d08f25991e9131877dc62cb79",
+      "enMarkdown": "The fact that the best ideas seem like bad ideas makes it even harder to recognize the big winners. It means the probability of a startup making it really big is not merely not a constant fraction of the probability that it will succeed, but that the startups with a high probability of the former will seem to have a disproportionately low probability of the latter.",
+      "zhMarkdown": "最好的点子看起来像坏点子，这让识别超级大赢家变得更加困难。这意味着，一家创业公司获得超级大成功的概率，不仅不是它活下来概率的等比例缩放，反而呈现出一种反差：那些极有可能获得超级大成功的公司，往往看起来最不可能活下来。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "c5ae15df5c41c22fabe79557670f11ca1a2d6b40e8b1ccfb412d0987a4802721",
+      "enMarkdown": "History tends to get rewritten by big successes, so that in retrospect it seems obvious they were going to make it big. For that reason one of my most valuable memories is how lame Facebook sounded to me when I first heard about it. A site for college students to waste time? It seemed the perfect bad idea: a site (1) for a niche market (2) with no money (3) to do something that didn't matter.",
+      "zhMarkdown": "历史往往会被巨大的成功所重写，以至于事后看来，他们做大似乎是理所当然的。正因如此，我最珍贵的一段回忆就是，当我第一次听说 Facebook 时，觉得它有多么不靠谱。一个给大学生消磨时间的网站？这简直是个完美的坏点子：一个针对（1）没有钱的（2）小众市场（3）去做一件无关紧要的事情的网站。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "f4b5e07ac0238c417caea33d86f5ac5f27980f3e72eea9adbc60010593067e6c",
+      "enMarkdown": "One could have described Microsoft and Apple in exactly the same terms. [[3](#f3n)]",
+      "zhMarkdown": "当年人们也可以用完全相同的词汇来描述微软和苹果。[[3](#f3n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "89ba7812e9a3a5e877b5389f9a6fd1ad6650b392cea376d628d13b9c2ae18c34",
+      "enMarkdown": "**Harder Still**",
+      "zhMarkdown": "**还要更难**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "175176bf899e6beae6565fbf1425d5703f41700dac17feac5a98d304f85283fd",
+      "enMarkdown": "Wait, it gets worse. You not only have to solve this hard problem, but you have to do it with no indication of whether you're succeeding. When you pick a big winner, you won't know it for two years.",
+      "zhMarkdown": "等等，情况还会更糟。你不仅要解决这个难题，而且在解决的过程中，你得不到任何能证明自己走在正确道路上的反馈。当你挑中一个超级大赢家时，你可能要在两年后才会知道。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "1590134ca4441f468d35643250a3fb90e5902547b78b64737e31002f34929149",
+      "enMarkdown": "Meanwhile, the one thing you *can* measure is dangerously misleading. The one thing we can track precisely is how well the startups in each batch do at fundraising after Demo Day. But we know that's the wrong metric. There's no correlation between the percentage of startups that raise money and the metric that does matter financially, whether that batch of startups contains a big winner or not.",
+      "zhMarkdown": "与此同时，你唯一*能*衡量的数据，又具有极强的误导性。我们唯一能精确追踪的，是每期创业公司在路演日（Demo Day）之后融资的表现。但我们知道这是个错误的指标。融资成功的公司比例，与真正重要的财务指标（即这一期里有没有诞生超级大赢家）之间毫无关联。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "ff032f4e4fea7dd40e8252e9c471bab1aa80d6eea82ef1967fbe9d35b64d10ec",
+      "enMarkdown": "Except an inverse one. That's the scary thing: fundraising is not merely a useless metric, but positively misleading. We're in a business where we need to pick unpromising-looking outliers, and the huge scale of the successes means we can afford to spread our net very widely. The big winners could generate 10,000x returns. That means for each big winner we could pick a thousand companies that returned nothing and still end up 10x ahead.",
+      "zhMarkdown": "甚至可能呈负相关。这才是最可怕的地方：融资表现不仅是一个无用的指标，而且具有极强的误导性。我们所处的行业，需要去挑选那些看起来没有前途的异类；而成功带来的巨大回报规模，意味着我们完全负担得起把网撒得极宽。超级大赢家能带来 10000 倍的回报。这意味着，每挑中一个超级大赢家，我们即使同时挑了一千家血本无归的公司，最终依然能获得 10 倍的整体收益。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "bfad9b1ab5da76bff61fdffbd9621fa6236af545b960e063c2d8036ba49a812b",
+      "enMarkdown": "If we ever got to the point where 100% of the startups we funded were able to raise money after Demo Day, it would almost certainly mean we were being too conservative. [[4](#f4n)]",
+      "zhMarkdown": "如果我们资助的创业公司在路演日后 100% 都能融到钱，这几乎肯定意味着我们太保守了。[[4](#f4n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "37e46f8d0a7f80831138dc1e58aa18af8301c28406771e19bce29684d86628a3",
+      "enMarkdown": "It takes a conscious effort not to do that too. After 15 cycles of preparing startups for investors and then watching how they do, I can now look at a group we're interviewing through Demo Day investors' eyes. But those are the wrong eyes to look through!",
+      "zhMarkdown": "要克制这种保守的冲动，需要做出刻意的努力。在经历了 15 期帮创业公司对接投资人并观察其后续发展的过程后，我现在已经能用路演日投资人的眼光来看待面试的团队了。但这恰恰是错误的视角！"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "e4a1a424d3f22adb2bc8ff922feb3278c8d4c3129e285f7754083b29fdb67547",
+      "enMarkdown": "We can afford to take at least 10x as much risk as Demo Day investors. And since risk is usually proportionate to reward, if you can afford to take more risk you should. What would it mean to take 10x more risk than Demo Day investors? We'd have to be willing to fund 10x more startups than they would. Which means that even if we're generous to ourselves and assume that YC can on average triple a startup's expected value, we'd be taking the right amount of risk if only 30% of the startups were able to raise significant funding after Demo Day.",
+      "zhMarkdown": "我们能承受的风险，至少是路演日投资人的 10 倍。既然风险通常与回报成正比，如果你能承受更多风险，你就应该去承受。比路演日投资人多承担 10 倍的风险意味着什么？意味着我们要愿意资助比他们愿意投资的多 10 倍的创业公司。也就是说，即使我们宽容点，假设 YC 平均能让一家创业公司的预期价值翻三倍，那么只要路演日后有 30% 的公司能融到大钱，我们就已经承担了恰到好处的风险。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "5f476f30e5efc4e94456fd2c747b7f51d5f247e233e6e3e046d078d0d4f97ab8",
+      "enMarkdown": "I don't know what fraction of them currently raise more after Demo Day. I deliberately avoid calculating that number, because if you start measuring something you start optimizing it, and I know it's the wrong thing to optimize. [[5](#f5n)] But the percentage is certainly way over 30%. And frankly the thought of a 30% success rate at fundraising makes my stomach clench. A Demo Day where only 30% of the startups were fundable would be a shambles. Everyone would agree that YC had jumped the shark. We ourselves would feel that YC had jumped the shark. And yet we'd all be wrong.",
+      "zhMarkdown": "我不知道目前有多少比例的公司在路演日后能拿到后续融资。我是故意不去算这个数字的，因为一旦你开始衡量某个指标，你就会开始优化它，而我知道这是个错误的优化方向。[[5](#f5n)] 但这个比例肯定远高于 30%。坦白说，一想到只有 30% 的融资成功率，我心里就会发紧。如果路演日上只有 30% 的创业公司能拿到钱，那场面将是一团糟。所有人都会觉得 YC 已经开始走下坡路了。我们自己也会这么觉得。但实际上，我们大家都错了。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "1ff90051715e615b2337a83d08a68799eb5f9c95de75b60f3f54297373fd15d7",
+      "enMarkdown": "For better or worse that's never going to be more than a thought experiment. We could never stand it. How about that for counterintuitive? I can lay out what I know to be the right thing to do, and still not do it. I can make up all sorts of plausible justifications. It would hurt YC's brand (at least among the innumerate) if we invested in huge numbers of risky startups that flamed out. It might dilute the value of the alumni network. Perhaps most convincingly, it would be demoralizing for us to be up to our chins in failure all the time. But I know the real reason we're so conservative is that we just haven't assimilated the fact of 1000x variation in returns.",
+      "zhMarkdown": "不管好坏，这永远只能是一个思想实验。我们心理上承受不了。这就是它最违背直觉的地方：我能清楚地阐明什么是正确的事，但依然无法付诸行动。我可以编造各种看似合理的借口：如果我们投资了大量最后倒闭的风险项目，会损害 YC 的品牌（至少在那些不懂概率的人眼里是这样）；它可能会稀释校友网络的价值。或许最令人信服的借口是，整天深陷于失败的泥潭会让我们极度沮丧。但我知道，我们如此保守的真正原因，只是因为我们还没有在骨子里接受“回报存在 1000 倍差距”这一事实。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "cdf1e6b36000a3d4425fdfb1295f8e556aca91bfa7c1c5bbaf233e99441a4b36",
+      "enMarkdown": "We'll probably never be able to bring ourselves to take risks proportionate to the returns in this business. The best we can hope for is that when we interview a group and find ourselves thinking \"they seem like good founders, but what are investors going to think of this crazy idea?\" we'll continue to be able to say \"who cares what investors think?\" That's what we thought about Airbnb, and if we want to fund more Airbnbs we have to stay good at thinking it.",
+      "zhMarkdown": "在这门生意里，我们可能永远无法说服自己去承担与回报相匹配的风险。我们所能期望的极限是，当面试一个团队时，如果我们发现自己心里在嘀咕“他们看起来是很好的创始人，但投资人会怎么看这个疯狂的想法呢？”时，我们依然能够对自己说：“谁在乎投资人怎么想？” 当年我们对 Airbnb 就是这么想的。如果我们想资助更多像 Airbnb 这样的公司，我们就必须保持这种“不在乎”的能力。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "c6e6d39ff79f76117ef68c5a738bb421ceced7ef52a27271028d8cc0a7123902",
+      "enMarkdown": "[1] I'm not saying that the big winners are all that matters, just that they're all that matters financially for investors. Since we're not doing YC mainly for financial reasons, the big winners aren't all that matters to us. We're delighted to have funded Reddit, for example. Even though we made comparatively little from it, Reddit has had a big effect on the world, and it introduced us to Steve Huffman and Alexis Ohanian, both of whom have become good friends.",
+      "zhMarkdown": "[1] 我并不是说只有超级大赢家才重要，而是说对于投资人而言，在财务上只有他们才重要。既然我们做 YC 主要不是为了钱，那么超级大赢家对我们来说就不是唯一重要的事。例如，我们非常高兴资助了 Reddit。虽然我们从中赚到的钱相对较少，但 Reddit 对世界产生了巨大的影响，而且它让我们结识了 Steve Huffman 和 Alexis Ohanian，他们现在都成了我们的挚友。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "7fea96bb01a00de8ade42697e6cf71f1161dc20b529b6fcc938d27752dbef865",
+      "enMarkdown": "Nor do we push founders to try to become one of the big winners if they don't want to. We didn't \"swing for the fences\" in our own startup (Viaweb, which was acquired for $50 million), and it would feel pretty bogus to press founders to do something we didn't do. Our rule is that it's up to the founders. Some want to take over the world, and some just want that first few million. But we invest in so many companies that we don't have to sweat any one outcome. In fact, we don't have to sweat whether startups have exits at all. The biggest exits are the only ones that matter financially, and those are guaranteed in the sense that if a company becomes big enough, a market for its shares will inevitably arise. Since the remaining outcomes don't have a significant effect on returns, it's cool with us if the founders want to sell early for a small amount, or grow slowly and never sell (i.e. become a so-called lifestyle business), or even shut the company down. We're sometimes disappointed when a startup we had high hopes for doesn't do well, but this disappointment is mostly the ordinary variety that anyone feels when that happens.",
+      "zhMarkdown": "如果创始人自己不想，我们也不会逼着他们去成为超级大赢家。我们自己的创业公司（Viaweb，后以 5000 万美元被收购）当年也没有“力求本垒打”，如果我们去逼创始人做我们自己都没做过的事，就显得太虚伪了。我们的原则是，这取决于创始人自己。有些人想征服世界，有些人只想先赚到人生中第一个几百万。但因为我们投资了太多公司，我们不需要为任何单一的结果而焦虑。事实上，我们甚至不需要焦虑创业公司最终是否能通过并购或上市退出。只有最大的那些退出在财务上才有意义，而这些退出在某种意义上是有保证的——因为如果一家公司变得足够大，它的股票自然会产生交易市场。既然其余的结果对投资回报没有实质性影响，那么创始人是想早点卖掉套现，还是想慢慢做大且永不卖掉（即成为所谓的“生活方式型企业”），甚至是关闭公司，我们都完全接受。当一家我们寄予厚望的创业公司表现不佳时，我们有时也会感到失望，但这种失望大多只是任何人面对失败时都会产生的普通情感。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "2e959329323d8f722d1d7f9a148aeaf7692f9f4bd399b53ec28be975abc1934a",
+      "enMarkdown": "[2] Without visual cues (e.g. the horizon) you can't distinguish between gravity and acceleration. Which means if you're flying through clouds you can't tell what the attitude of the aircraft is. You could feel like you're flying straight and level while in fact you're descending in a spiral. The solution is to ignore what your body is telling you and listen only to your instruments. But it turns out to be very hard to ignore what your body is telling you. Every pilot knows about this [problem](http://en.wikipedia.org/wiki/Spatial_disorientation) and yet it is still a leading cause of accidents.",
+      "zhMarkdown": "[2] 在没有视觉参照物（如地平线）的情况下，人无法区分重力和加速度。这意味着如果你在云层中飞行，你无法判断飞机的姿态。你可能感觉自己正在笔直平飞，但实际上飞机正处于螺旋下坠中。解决办法是无视你身体的感觉，只相信仪表。但事实证明，要无视身体的感觉是非常困难的。每个飞行员都知道这个[问题](http://en.wikipedia.org/wiki/Spatial_disorientation)，但它依然是导致空难的首要原因之一。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "93c7d29dda1660296fb3dda7814925e102499297564441eb9bb11fcd896a8b21",
+      "enMarkdown": "[3] Not all big hits follow this pattern though. The reason Google seemed a bad idea was that there were already lots of search engines and there didn't seem to be room for another.",
+      "zhMarkdown": "[3] 不过，并非所有的大赢家都遵循这种模式。Google 当年看起来像个坏点子，是因为当时已经有太多的搜索引擎，市场上似乎已经没有容纳新选手的空间了。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "6f174d4fafca1b723358c195dd9a4eeadfeaf8c8e2c3a45bfb535cccfba9472d",
+      "enMarkdown": "[4] A startup's success at fundraising is a function of two things: what they're selling and how good they are at selling it. And while we can teach startups a lot about how to appeal to investors, even the most convincing pitch can't sell an idea that investors don't like. I was genuinely worried that Airbnb, for example, would not be able to raise money after Demo Day. I couldn't convince [Fred Wilson](https://paulgraham.com/airbnb.html) to fund them. They might not have raised money at all but for the coincidence that Greg McAdoo, our contact at Sequoia, was one of a handful of VCs who understood the vacation rental business, having spent much of the previous two years investigating it.",
+      "zhMarkdown": "[4] 创业公司融资成功取决于两点：他们卖的是什么，以及他们有多擅长推销。虽然我们可以教创业公司很多取悦投资人的技巧，但即使是极具说服力的陈述，也无法把一个投资人讨厌的点子卖出去。例如，当年我曾由衷地担心 Airbnb 在路演日后会融不到钱。我没能说服 [Fred Wilson](https://paulgraham.com/airbnb.html) 投资他们。如果不是碰巧红杉资本的对接人 Greg McAdoo 是极少数懂度假租赁业务的风险投资人之一（他在过去两年里花了很多时间研究这个领域），他们当时可能根本融不到钱。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "562413bfeb55d3219878fd32591350858f7f3be9bda71de6078b56f1570b78e3",
+      "enMarkdown": "[5] I calculated it once for the last batch before a consortium of investors started offering investment automatically to every startup we funded, summer 2010. At the time it was 94% (33 of 35 companies that tried to raise money succeeded, and one didn't try because they were already profitable). Presumably it's lower now because of that investment; in the old days it was raise after Demo Day or die.",
+      "zhMarkdown": "[5] 在 2010 年夏天，也就是在某投资财团开始自动向我们资助的每家创业公司提供投资之前，我曾针对最后一期算过一次这个数字。当时这个比例是 94%（35 家尝试融资的公司中有 33 家成功了，还有一家因为已经盈利而没有尝试融资）。现在由于有了那种自动投资，这个比例大概变低了；在过去，路演日后融不到钱就得死。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "fe924701ff803b670527f1a10d7eeafd5a67384565bef52e3bbc8367ce4989ac",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Patrick Collison, Jessica Livingston, Geoff Ralston, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman, Paul Buchheit, Patrick Collison, Jessica Livingston, Geoff Ralston, 和 Harj Taggar 帮我阅读并修改了本文的草稿。"
+    }
+  ]
+}

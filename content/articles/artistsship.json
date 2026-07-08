@@ -1,0 +1,167 @@
+{
+  "slug": "artistsship",
+  "titleEn": "The Other Half of \"Artists Ship\"",
+  "titleZh": "“艺术家要交卷”的另一半",
+  "dateText": "November 2008",
+  "publishedAt": "2008-11-01",
+  "sourceOrder": 130,
+  "sourceUrl": "https://paulgraham.com/artistsship.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5ba0ccd6f6b029e696e5bba2d42b273d0ee350578b92cf7449dc9a89511d9438",
+      "enMarkdown": "One of the differences between big companies and startups is that big companies tend to have developed procedures to protect themselves against mistakes. A startup walks like a toddler, bashing into things and falling over all the time. A big company is more deliberate.",
+      "zhMarkdown": "大公司和创业公司的一个区别在于，大公司往往会制定出一套完善的流程来防范错误。创业公司走路像个蹒跚学步的幼童，一路上磕磕碰碰，随时都会摔倒；而大公司则要谨慎得多。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "72e16a9f32aa2ed8ef70c3a69ed95a1389a4181e8980836f9c9980415a8ad5f4",
+      "enMarkdown": "The gradual accumulation of checks in an organization is a kind of learning, based on disasters that have happened to it or others like it. After giving a contract to a supplier who goes bankrupt and fails to deliver, for example, a company might require all suppliers to prove they're solvent before submitting bids.",
+      "zhMarkdown": "一个组织中防范机制的逐渐积累，实际上是一种基于自身或同行所经历灾难的学习过程。例如，在把合同给了一家破产且无法交付的供应商之后，公司可能会要求所有供应商在提交竞标前必须证明自己具备偿付能力。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "9b060514d924b73c3b60bf1440d5d130afbed7d5aba8402ce857ecba6f6d2409",
+      "enMarkdown": "As companies grow they invariably get more such checks, either in response to disasters they've suffered, or (probably more often) by hiring people from bigger companies who bring with them customs for protecting against new types of disasters.",
+      "zhMarkdown": "随着公司规模的扩大，这类防范机制不可避免地会越来越多。这要么是对自身遭遇灾难的反应，要么（可能更常见）是通过聘请来自更大公司的人，这些人带回了防范新类型灾难的惯例。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "0f9f0a5ef2952ac612253be7639b13f92eab70ef2a07b4d65f82e059cf4c6484",
+      "enMarkdown": "It's natural for organizations to learn from mistakes. The problem is, people who propose new checks almost never consider that the check itself has a cost.",
+      "zhMarkdown": "组织从错误中吸取教训是顺理成章的。但问题在于，提出新防范机制的人几乎从未考虑过，这种机制本身也是有成本的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "286fe1a4cc657b3728671ed441f6a89be6ca87ff125abac11f13a5ccc1693999",
+      "enMarkdown": "*Every check has a cost.* For example, consider the case of making suppliers verify their solvency. Surely that's mere prudence? But in fact it could have substantial costs. There's obviously the direct cost in time of the people on both sides who supply and check proofs of the supplier's solvency. But the real costs are the ones you never hear about: the company that would be the best supplier, but doesn't bid because they can't spare the effort to get verified. Or the company that would be the best supplier, but falls just short of the threshold for solvency—which will of course have been set on the high side, since there is no apparent cost of increasing it.",
+      "zhMarkdown": "*每项防范机制都有成本。* 以要求供应商验证偿付能力为例。这当然纯粹是出于谨慎吧？但实际上它可能会带来巨大的成本。显而易见的直接成本是双方提供和审核偿付能力证明的人员时间。但真正的成本是那些你从未听说的：那家本可以成为最佳供应商的公司，因为抽不出精力去通过验证而没有参与竞标；或者那家本可以成为最佳供应商的公司，仅仅因为略低于偿付能力门槛而落选——而这个门槛当然会被定得偏高，因为提高门槛看似没有任何成本。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "e250203e1a775a25655007d30ca3448852a1ae0bdf235df57c9df7b5abe329ec",
+      "enMarkdown": "Whenever someone in an organization proposes to add a new check, they should have to explain not just the benefit but the cost. No matter how bad a job they did of analyzing it, this meta-check would at least remind everyone there had to *be* a cost, and send them looking for it.",
+      "zhMarkdown": "每当组织中有人提议增加一项新的防范机制时，他们不仅应该解释其收益，还应该解释其成本。无论他们对成本的分析有多糟糕，这种“元机制”至少能提醒每个人，成本是*必定存在*的，并促使他们去寻找这个成本。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "7f45bd46c5160efe6c5495355e9826dc313a2d408f3a1b62b965dc87433d4ea1",
+      "enMarkdown": "If companies started doing that, they'd find some surprises. Joel Spolsky recently spoke at Y Combinator about selling software to corporate customers. He said that in most companies software costing up to about $1000 could be bought by individual managers without any additional approvals. Above that threshold, software purchases generally had to be approved by a committee. But babysitting this process was so expensive for software vendors that it didn't make sense to charge less than $50,000. Which means if you're making something you might otherwise have charged $5000 for, you have to sell it for $50,000 instead.",
+      "zhMarkdown": "如果公司开始这样做，他们会发现一些令人惊讶的事实。Joel Spolsky 最近在 Y Combinator 演讲时谈到了向企业客户销售软件的问题。他说，在大多数公司中，价格在 1000 美元以下的软件可以由单个经理直接购买，无需任何额外审批。超过这个门槛，购买软件通常必须通过委员会审批。但对于软件供应商来说，维护这个审批流程的成本太高了，以至于定价低于 50,000 美元根本没有意义。这意味着，如果你做了一款原本可能只卖 5000 美元的产品，你却不得不卖到 50,000 美元。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4dd9ee6c56dc1ffe6cf4daa7764e87168b8fd7bdb01d9c78a1836d5e5caa86de",
+      "enMarkdown": "The purpose of the committee is presumably to ensure that the company doesn't waste money. And yet the result is that the company pays 10 times as much.",
+      "zhMarkdown": "委员会设立的初衷大概是为了确保公司不浪费钱。然而，结果却是公司多付了 10 倍的钱。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "356b1b97d10b8fd39cf4d10c232fa1dca849c3e0f966fd26c0d2c2943abe5ddc",
+      "enMarkdown": "Checks on purchases will always be expensive, because the harder it is to sell something to you, the more it has to cost. And not merely linearly, either. If you're hard enough to sell to, the people who are best at making things don't want to bother. The only people who will sell to you are companies that specialize in selling to you. Then you've sunk to a whole new level of inefficiency. Market mechanisms no longer protect you, because the good suppliers are no longer in the market.",
+      "zhMarkdown": "对采购的防范机制代价总是高昂的，因为把东西卖给你的难度越大，它的成本就越高。而且这种增长不仅仅是线性的。如果你太难伺候，那些最擅长做产品的人根本不想自讨苦吃。唯一会卖东西给你的，就是那些专门研究如何卖东西给你的公司。这样你就陷入了全新层面的低效。市场机制不再能保护你，因为优秀的供应商已经不在这个市场里了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "37908208fd6770c477a0d48348ad3bde01fd10b2aed40990a7e9ef0472f1ebaa",
+      "enMarkdown": "Such things happen constantly to the biggest organizations of all, governments. But checks instituted by governments can cause much worse problems than merely overpaying. Checks instituted by governments can cripple a country's whole economy. Up till about 1400, China was richer and more technologically advanced than Europe. One reason Europe pulled ahead was that the Chinese government restricted long trading voyages. So it was left to the Europeans to explore and eventually to dominate the rest of the world, including China.",
+      "zhMarkdown": "这类事情在最大的组织——政府中不断发生。但政府设立的防范机制可能导致比仅仅多花冤枉钱严重得多的问题。政府设立的防范机制可能会瘫痪整个国家的经济。直到 1400 年左右，中国都比欧洲更富裕、技术更先进。欧洲之所以能赶超，原因之一就是中国政府限制了远洋贸易。于是，探索并最终主导世界其他地方（包括中国）的任务，就落到了欧洲人身上。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "028a67311516704a9ee71b3b240abdd9765e9c6ffd0b46bff0b0721fac512bb3",
+      "enMarkdown": "In more recent times, Sarbanes-Oxley has practically destroyed the US IPO market. That wasn't the intention of the legislators who wrote it. They just wanted to add a few more checks on public companies. But they forgot to consider the cost. They forgot that companies about to go public are usually rather stretched, and that the weight of a few extra checks that might be easy for General Electric to bear are enough to prevent younger companies from being public at all.",
+      "zhMarkdown": "在更近的时期，《萨班斯-奥克斯利法案》（Sarbanes-Oxley）几乎摧毁了美国的 IPO 市场。这并不是起草该法案的立法者的本意。他们只是想对上市公司增加一些防范机制。但他们忘了考虑成本。他们忘了，准备上市的公司通常都绷得很紧，而像通用电气（General Electric）这样的大公司可以轻松承受的几项额外防范机制，其重量却足以让年轻的公司根本无法上市。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "3c58ec6540115a69a6c9fdfbb512a71abd35531b385d1d5a335330b431410e71",
+      "enMarkdown": "Once you start to think about the cost of checks, you can start to ask other interesting questions. Is the cost increasing or decreasing? Is it higher in some areas than others? Where does it increase discontinuously? If large organizations started to ask questions like that, they'd learn some frightening things.",
+      "zhMarkdown": "一旦你开始思考防范机制的成本，你就可以开始问其他有趣的问题。成本是在增加还是在减少？某些领域的成本是否比其他领域更高？它在什么地方会发生不连续的骤增？如果大组织开始问这样的问题，他们会发现一些令人惊恐的事实。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "bf5058e6c750fa1337153faf6fe870552859fefd5fe1e3b12a1fad4cb00fa819",
+      "enMarkdown": "I think the cost of checks may actually be increasing. The reason is that software plays an increasingly important role in companies, and the people who write software are particularly harmed by checks.",
+      "zhMarkdown": "我认为防范机制的成本实际上可能正在增加。原因在于软件在公司中扮演着越来越重要的角色，而写软件的人尤其容易受到防范机制的伤害。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "ce450550e2186acc7f0de8f6e7854a1c3e6c806b32a26ceb96480a49a1b28145",
+      "enMarkdown": "Programmers are unlike many types of workers in that the best ones actually prefer to work hard. This doesn't seem to be the case in most types of work. When I worked in fast food, we didn't prefer the busy times. And when I used to mow lawns, I definitely didn't prefer it when the grass was long after a week of rain.",
+      "zhMarkdown": "程序员和许多类型的劳动者不同，最优秀的程序员实际上更喜欢努力工作。在大多数类型的工作中，情况似乎并非如此。当我在快餐店工作时，我们并不喜欢忙碌的时候。当我以前割草时，在一周的雨后草长得很长时，我绝对不喜欢去割。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "11a289d1ed99c5167247853bfcbafdaaad2bc886982cd1f66abb3a74523a9024",
+      "enMarkdown": "Programmers, though, like it better when they write more code. Or more precisely, when they release more code. Programmers like to make a difference. Good ones, anyway.",
+      "zhMarkdown": "然而，程序员在写更多代码时会更开心。或者更准确地说，是在发布更多代码时。程序员喜欢发挥作用。至少优秀的程序员是这样的。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "ccf5a12c9575a204975499471561d37debf729162ec8befb4aa2ad7513251ba9",
+      "enMarkdown": "For good programmers, one of the best things about working for a startup is that there are few checks on releases. In true startups, there are no external checks at all. If you have an idea for a new feature in the morning, you can write it and push it to the production servers before lunch. And when you can do that, you have more ideas.",
+      "zhMarkdown": "对于优秀的程序员来说，在创业公司工作最棒的事情之一，就是对发布几乎没有防范机制。在真正的创业公司里，根本没有外部防范机制。如果你在早上想到了一个新功能的主意，你可以在午饭前写好并推送到生产服务器上。当你能做到这一点时，你就会产生更多的想法。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "9df00234e87f9a223e4190fa1d860cf9a377374288d88853d82b06423ba17cfe",
+      "enMarkdown": "At big companies, software has to go through various approvals before it can be launched. And the cost of doing this can be enormous—in fact, discontinuous. I was talking recently to a group of three programmers whose startup had been acquired a few years before by a big company. When they'd been independent, they could release changes instantly. Now, they said, the absolute fastest they could get code released on the production servers was two weeks.",
+      "zhMarkdown": "在大公司，软件在发布前必须经过各种审批。这样做付出的成本可能是巨大的——事实上，是断崖式的。我最近和三位程序员聊天，他们的创业公司在几年前被一家大公司收购了。在他们独立的时候，他们可以即时发布修改。而现在，他们说，把代码发布到生产服务器上绝对最快的速度是两周。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "6f3dfea6d72f421bf7e85edb77227b89fc239a1f1db2c576f4342d38e81c012b",
+      "enMarkdown": "This didn't merely make them less productive. It made them hate working for the acquirer.",
+      "zhMarkdown": "这不仅降低了他们的工作效率，还让他们讨厌为这家收购方工作。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "6d99157a39d7ffac914a0d6e06bf7897fd21f5c462a57345621e1b18a1d775ab",
+      "enMarkdown": "Here's a sign of how much programmers like to be able to work hard: these guys would have *paid* to be able to release code immediately, the way they used to. I asked them if they'd trade 10% of the acquisition price for the ability to release code immediately, and all three instantly said yes. Then I asked what was the maximum percentage of the acquisition price they'd trade for it. They said they didn't want to think about it, because they didn't want to know how high they'd go, but I got the impression it might be as much as half.",
+      "zhMarkdown": "程序员有多喜欢能够努力工作，这里有一个迹象：这些家伙甚至愿意*付钱*来换取像以前那样立即发布代码的能力。我问他们是否愿意用 10% 的收购款来换取立即发布代码的能力，三个人都立刻回答愿意。然后我问，为了这个能力，他们愿意交易的收购款最高比例是多少。他们说他们不想去想，因为不想知道自己会出到多高，但我得到的印象是，可能高达一半。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "b0b0e53a6b460a4b5bbb6b10967de752d279ee6032ddeab7e6e92e0e4c474db5",
+      "enMarkdown": "They'd have sacrificed hundreds of thousands of dollars, perhaps millions, just to be able to deliver more software to users. And you know what? It would have been perfectly safe to let them. In fact, the acquirer would have been better off; not only wouldn't these guys have broken anything, they'd have gotten a lot more done. So the acquirer is in fact getting worse performance at greater cost. Just like the committee approving software purchases.",
+      "zhMarkdown": "他们宁愿牺牲数十万美元，甚至数百万美元，仅仅为了能够向用户交付更多的软件。你猜怎么着？让他们这样做本可以是非常安全的。事实上，收购方原本会过得更好；这些家伙不仅不会搞砸任何事情，还能完成更多的工作。因此，收购方实际上是在以更高的成本获得更差的业绩。就像那个审批软件采购的委员会一样。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "a6346d27d574e642181892783053b067c9310d1f39e8cc82fb52cfc6509fd878",
+      "enMarkdown": "And just as the greatest danger of being hard to sell to is not that you overpay but that the best suppliers won't even sell to you, the greatest danger of applying too many checks to your programmers is not that you'll make them unproductive, but that good programmers won't even want to work for you.",
+      "zhMarkdown": "正如“太难伺候”的最大危险不是你多付了钱，而是最好的供应商根本不卖东西给你；对你的程序员施加太多防范机制的最大危险，不是你会降低他们的效率，而是优秀的程序员根本不想为你工作。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "d72848239ebb13f2dca7fe8d982db9c93d2e6cd6272666c73dd4e1719d187a46",
+      "enMarkdown": "Steve Jobs's famous maxim \"artists ship\" works both ways. Artists aren't merely capable of shipping. They insist on it. So if you don't let people ship, you won't have any artists.",
+      "zhMarkdown": "史蒂夫·乔布斯那句著名的格言“艺术家要交卷”是双向成立的。艺术家不仅有能力交付，他们还坚持要交付。所以，如果你不让人交付，你就不会拥有任何艺术家。"
+    }
+  ]
+}

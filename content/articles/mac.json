@@ -1,0 +1,160 @@
+{
+  "slug": "mac",
+  "titleEn": "Return of the Mac",
+  "titleZh": "麦金塔的回归",
+  "dateText": "March 2005",
+  "publishedAt": "2005-03-01",
+  "sourceOrder": 186,
+  "sourceUrl": "https://paulgraham.com/mac.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "27faf27f285a62e098092140e48cb10168b7d100fcb4176d93bb344aa322f4a5",
+      "enMarkdown": "All the best [hackers](https://paulgraham.com/gba.html) I know are gradually switching to Macs. My friend Robert said his whole research group at MIT recently bought themselves Powerbooks. These guys are not the graphic designers and grandmas who were buying Macs at Apple's low point in the mid 1990s. They're about as hardcore OS hackers as you can get.",
+      "zhMarkdown": "我认识的所有最顶尖的[黑客](https://paulgraham.com/gba.html)都在陆陆续续换用 Mac。我的朋友 Robert 说，他在麻省理工学院（MIT）的整个研究小组最近都买了 Powerbook。这些人可不是 90 年代中期苹果低谷时买 Mac 的平面设计师和老奶奶，他们是你能碰到的最硬核的操作系统黑客。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "21ccecd9b601b8d5a1ea25d70dea919722c10ea95a7f91c1a330ac3d36022936",
+      "enMarkdown": "The reason, of course, is OS X. Powerbooks are beautifully designed and run FreeBSD. What more do you need to know?",
+      "zhMarkdown": "原因当然是 OS X。Powerbook 设计精美，运行的又是 FreeBSD。这就足够了，还需要多解释什么吗？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "553999dfde9e61cf232866e444d31931487ee30670d9b48de43cd19884aea951",
+      "enMarkdown": "I got a Powerbook at the end of last year. When my IBM Thinkpad's hard disk died soon after, it became my only laptop. And when my friend Trevor showed up at my house recently, he was carrying a Powerbook [identical](https://paulgraham.com/tlbmac.html) to mine.",
+      "zhMarkdown": "我在去年年底买了一台 Powerbook。不久后，我的 IBM Thinkpad 硬盘坏了，它就成了我唯一的笔记本电脑。最近，我的朋友 Trevor 来我家时，手里也提着一台跟我[一模一样](https://paulgraham.com/tlbmac.html)的 Powerbook。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "4858e6b651fef2039a4fd8bcf310b762ff5ef2d745145c3c57f671ed67272ca2",
+      "enMarkdown": "For most of us, it's not a switch to Apple, but a return. Hard as this was to believe in the mid 90s, the Mac was in its time the canonical hacker's computer.",
+      "zhMarkdown": "对我们大多数人来说，这称不上是“倒戈”苹果，而是“回归”。虽然在 90 年代中期很难让人相信，但 Mac 在它的黄金时代曾是黑客的标准配置电脑。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "49b1703c1689ec6c9d38c58fcc6ce0ce8c73ac771df12306f86d5881c5cea31c",
+      "enMarkdown": "In the fall of 1983, the professor in one of my college CS classes got up and announced, like a prophet, that there would soon be a computer with half a MIPS of processing power that would fit under an airline seat and cost so little that we could save enough to buy one from a summer job. The whole room gasped. And when the Mac appeared, it was even better than we'd hoped. It was small and powerful and cheap, as promised. But it was also something we'd never considered a computer could be: fabulously well [designed](https://paulgraham.com/taste.html).",
+      "zhMarkdown": "1983 年秋天，我大学里一门计算机科学课的教授走上讲台，像个预言家一样宣布：很快就会出现一种处理能力达 0.5 MIPS 的电脑，它小到可以塞进飞机座椅下方，而且价格便宜，我们靠暑期打工攒的钱就能买得起。全班倒吸一口凉气。而当 Mac 真正问世时，它甚至比我们预想的还要好。正如承诺的那样，它小巧、强大且便宜。但它还具备了我们从未想过电脑能拥有的特质：极佳的[设计感](https://paulgraham.com/taste.html)。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "5cc0a42977884e4e70e08cc2e9e92f0ec597be8cd7ffbe5870c98691af23b3a2",
+      "enMarkdown": "I had to have one. And I wasn't alone. In the mid to late 1980s, all the hackers I knew were either writing software for the Mac, or wanted to. Every futon sofa in Cambridge seemed to have the same fat white book lying open on it. If you turned it over, it said \"Inside Macintosh.\"",
+      "zhMarkdown": "我当时必须得买一台。而且不止我一个人这么想。在 80 年代中后期，我认识的所有黑客要么在为 Mac 写软件，要么正打算写。波士顿剑桥市的每张无腿沙发上，似乎都翻开着一本厚厚的白色大书。如果你把它翻过来，封面上写着《Inside Macintosh》（探索麦金塔）。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "aeefbd9da2b7f2c3f97e80c6b485e7864b25cf27f5534a965fb96d2085e74e5d",
+      "enMarkdown": "Then came Linux and FreeBSD, and hackers, who follow the most powerful OS wherever it leads, found themselves switching to Intel boxes. If you cared about design, you could buy a Thinkpad, which was at least not actively repellent, if you could get the Intel and Microsoft [stickers](https://paulgraham.com/designedforwindows.html) off the front. [1]",
+      "zhMarkdown": "后来 Linux 和 FreeBSD 诞生了，黑客们向来是哪里有最强大的操作系统就跟到哪里，于是纷纷转向了 Intel 架构的电脑。如果你在乎设计，你可以买一台 Thinkpad。只要你能把正面贴着的 Intel 和微软[贴纸](https://paulgraham.com/designedforwindows.html)撕掉，它至少看起来不那么令人反感。[1]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "6a57468c777060a0796d97d754a64fe2430482ce7809a0fce81fda8163a184d8",
+      "enMarkdown": "With OS X, the hackers are back. When I walked into the Apple store in Cambridge, it was like coming home. Much was changed, but there was still that Apple coolness in the air, that feeling that the show was being run by someone who really cared, instead of random corporate deal-makers.",
+      "zhMarkdown": "有了 OS X，黑客们又回来了。当我走进剑桥市的苹果零售店时，感觉就像回到了家。虽然变化很大，但空气中依然弥漫着苹果特有的酷劲——那种感觉让你知道，幕后掌舵的是真正懂行、在乎产品的人，而不是随便哪个大公司里只懂利益交换的谈判代表。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "db04db8f5291a356fc34a735b931da0b097c5bd41230af3a6d68d81b06116fd4",
+      "enMarkdown": "So what, the business world may say. Who cares if hackers like Apple again? How big is the hacker market, after all?",
+      "zhMarkdown": "商业界可能会说：那又怎样？谁在乎黑客是不是重新喜欢上了苹果？黑客市场到底能有多大？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "86cce256b7abb7de5b90f6240bf9fd39db25cb6a67eb620d3c6ed6d520d29ffd",
+      "enMarkdown": "Quite small, but important out of proportion to its size. When it comes to computers, what hackers are doing now, everyone will be doing in ten years. Almost all technology, from Unix to bitmapped displays to the Web, became popular first within CS departments and research labs, and gradually spread to the rest of the world.",
+      "zhMarkdown": "确实很小，但其重要性却与规模完全不成比例。在电脑领域，黑客现在在做的事，就是大家十年后会做的事。几乎所有的技术，从 Unix 到位图显示器再到万维网（Web），最初都是在计算机系和研究实验室里流行起来，然后才逐渐推广到全世界的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "1469f8e030792683031c79165c236db72681deaa6dbdef497813f73671fd284a",
+      "enMarkdown": "I remember telling my father back in 1986 that there was a new kind of computer called a Sun that was a serious Unix machine, but so small and cheap that you could have one of your own to sit in front of, instead of sitting in front of a VT100 connected to a single central Vax. Maybe, I suggested, he should buy some stock in this company. I think he really wishes he'd listened.",
+      "zhMarkdown": "我记得在 1986 年，我告诉父亲有一种叫 Sun 的新电脑，是一台真正的 Unix 机器，但它非常小巧且便宜，你可以自己独享一台，而不用坐在连接到单一中央 Vax 主机的 VT100 终端前。我当时建议他也许应该买点这家公司的股票。我想他现在一定很后悔没听我的话。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "1d948b99cf099f239c9bb0d7afac8cbd18d1ba10e51ae2915f458a1f15aae43a",
+      "enMarkdown": "In 1994 my friend Koling wanted to talk to his girlfriend in Taiwan, and to save long-distance bills he wrote some software that would convert sound to data packets that could be sent over the Internet. We weren't sure at the time whether this was a proper use of the Internet, which was still then a quasi-government entity. What he was doing is now called VoIP, and it is a huge and rapidly growing business.",
+      "zhMarkdown": "1994 年，我的朋友 Koling 想和他在台湾的女友通话，为了省下长途电话费，他写了一个软件，把声音转换成数据包，通过互联网发送。当时我们还不确定这是否合规，因为当时的互联网在某种程度上还是个半政府性质的网络。而他当时做的事情，如今被称为 VoIP（网络电话），现在已经是一项巨大且快速增长的产业。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "6df30de7bf7574c85b0e65176064425d35b1dc4079a337886f67f562a6fe7b5c",
+      "enMarkdown": "If you want to know what ordinary people will be doing with computers in ten years, just walk around the CS department at a good university. Whatever they're doing, you'll be doing.",
+      "zhMarkdown": "如果你想知道十年后普通人会用电脑做什么，只需去一所优秀大学的计算机系转一圈。无论他们现在在做什么，将来你也会做同样的事。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "c69ca198b4300276c21f8732b95442fd605db54510e4b425299b9309438b4759",
+      "enMarkdown": "In the matter of \"platforms\" this tendency is even more pronounced, because novel software originates with [great hackers](https://paulgraham.com/gh.html), and they tend to write it first for whatever computer they personally use. And software sells hardware. Many if not most of the initial sales of the Apple II came from people who bought one to run VisiCalc. And why did Bricklin and Frankston write VisiCalc for the Apple II? Because they personally liked it. They could have chosen any machine to make into a star.",
+      "zhMarkdown": "在“平台”这件事上，这种趋势更为明显，因为新颖的软件都出自[优秀的黑客](https://paulgraham.com/gh.html)之手，而他们往往会优先为自己个人使用的电脑开发软件。软件能带动硬件的销售。Apple II 的早期销量即使不全是因为 VisiCalc（电子表格软件），也大半归功于它。那为什么 Bricklin 和 Frankston 要为 Apple II 开发 VisiCalc 呢？因为他们个人喜欢这款机器。他们本可以随意选择任何一台机器并让它一炮而红。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "136d762acbbfdd09ddfabb55d8f0617f9e70d7227e07dcbc35de1eadb4dffdb5",
+      "enMarkdown": "If you want to attract hackers to write software that will sell your hardware, you have to make it something that they themselves use. It's not enough to make it \"open.\" It has to be open and good.",
+      "zhMarkdown": "如果你想吸引黑客写软件来帮你卖硬件，你就必须把硬件做成他们自己想用的东西。仅仅做到“开放”是不够的，它必须既开放又好用。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "05d2455170e3ef0e4f2239ef4a25905f1d4dd063812c976baec2d86be418304c",
+      "enMarkdown": "And open and good is what Macs are again, finally. The intervening years have created a situation that is, as far as I know, without precedent: Apple is popular at the low end and the high end, but not in the middle. My seventy year old mother has a Mac laptop. My friends with PhDs in computer science have Mac laptops. [2] And yet Apple's overall market share is still small.",
+      "zhMarkdown": "而 Mac 终于再次做到了既开放又好用。这些年来的发展创造了一个据我所知前所未有的局面：苹果在低端用户和高端用户中都很受欢迎，唯独在中间地带遇冷。我 70 岁的母亲用 Mac 笔记本，我那些拿了计算机科学博士学位的朋友也用 Mac 笔记本。[2] 然而，苹果整体的市场份额依然很小。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f14ea052d44c3e2dc3d45c27d6c2b6143a453921b2d8f42493698462a2340392",
+      "enMarkdown": "Though unprecedented, I predict this situation is also temporary.",
+      "zhMarkdown": "虽然这种局面史无前例，但我预测它也只是暂时的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "3c046520b39975107305a4a1b348f6d181bbb29425234fdda176711557cd1c7f",
+      "enMarkdown": "So Dad, there's this company called Apple. They make a new kind of computer that's as well designed as a Bang & Olufsen stereo system, and underneath is the best Unix machine you can buy. Yes, the price to earnings ratio is kind of high, but I think a lot of people are going to want these.",
+      "zhMarkdown": "所以，爸，有家公司叫苹果。他们做了一种新电脑，设计得像 Bang & Olufsen 的音响一样精美，而底层则是你能买到的最好的 Unix 机器。没错，它的市盈率是有点高，但我认为很多人都会想要一台。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "3b24f7fc5f0fa15d673c1c1a599dc2210d6a0906f2879e034238794746444913",
+      "enMarkdown": "[1] These horrible stickers are much like the intrusive ads popular on pre-Google search engines. They say to the customer: you are unimportant. We care about Intel and Microsoft, not you.",
+      "zhMarkdown": "[1] 这些恶心的贴纸就像 Google 出现前的搜索引擎上那些烦人的插播广告。它们在向用户传递一个信号：你并不重要。我们在乎的是 Intel 和微软，而不是你。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "64d59f68f3c172492df95b49794df49eb211b012d8462d4a76b219037e9353c6",
+      "enMarkdown": "[2] [Y Combinator](http://ycombinator.com) is (we hope) visited mostly by hackers. The proportions of OSes are: Windows 66.4%, Macintosh 18.8%, Linux 11.4%, and FreeBSD 1.5%. The Mac number is a big change from what it would have been five years ago.",
+      "zhMarkdown": "[2] [Y Combinator](http://ycombinator.com)（我们希望）吸引的主要是黑客。其用户的操作系统比例为：Windows 66.4%，Macintosh 18.8%，Linux 11.4%，FreeBSD 1.5%。Mac 的比例相比五年前已经发生了巨大的变化。"
+    }
+  ]
+}

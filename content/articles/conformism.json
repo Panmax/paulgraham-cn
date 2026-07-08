@@ -1,0 +1,251 @@
+{
+  "slug": "conformism",
+  "titleEn": "The Four Quadrants of Conformism",
+  "titleZh": "从众的四个象限",
+  "dateText": "July 2020",
+  "publishedAt": "2020-07-01",
+  "sourceOrder": 44,
+  "sourceUrl": "https://paulgraham.com/conformism.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "c269927b62903e7296c3e80da444fbf46a59cbe3f01c47c6ff548db6440e31a7",
+      "enMarkdown": "One of the most revealing ways to classify people is by the degree and aggressiveness of their conformism. Imagine a Cartesian coordinate system whose horizontal axis runs from conventional-minded on the left to independent-minded on the right, and whose vertical axis runs from passive at the bottom to aggressive at the top. The resulting four quadrants define four types of people. Starting in the upper left and going counter-clockwise: aggressively conventional-minded, passively conventional-minded, passively independent-minded, and aggressively independent-minded.",
+      "zhMarkdown": "对人进行分类，最能看清其本质的方法之一，就是看他们的从众程度和攻击性。想象一个笛卡尔坐标系：横轴代表思想，左端是“守旧”（conventional-minded），右端是“独立”（independent-minded）；纵轴代表态度，下端是“被动”，上端是“主动”。由此划分出的四个象限，正好定义了四种人。从左上角逆时针来看，依次是：主动守旧型、被动守旧型、被动独立型，以及主动独立型。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "678bdcb0b278e4f91f9071406a895de0e0494c0fdc0e699a1d079e22b9d76772",
+      "enMarkdown": "I think that you'll find all four types in most societies, and that which quadrant people fall into depends more on their own personality than the beliefs prevalent in their society. [[1](#f1n)]",
+      "zhMarkdown": "我相信，在绝大多数社会中你都能找到这四种人。而一个人落在哪个象限，更多取决于其个人性格，而非他所处社会的流行信仰。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "8f769c79d314677fafe37d984457a4483b1bf0f068de3116213353364a44574d",
+      "enMarkdown": "Young children offer some of the best evidence for both points. Anyone who's been to primary school has seen the four types, and the fact that school rules are so arbitrary is strong evidence that which quadrant people fall into depends more on them than the rules.",
+      "zhMarkdown": "小孩子是证明这两点的最佳证据。任何上过小学的人都见过这四种孩子。而且学校的规矩往往极其武断，这强有力地证明了：孩子落在哪个象限，更多取决于他们自身，而非规矩本身。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7bd71cec546bd6892e3921d3a599ab83e005b7a66f7eac7796942e15e0a3d6f3",
+      "enMarkdown": "The kids in the upper left quadrant, the aggressively conventional-minded ones, are the tattletales. They believe not only that rules must be obeyed, but that those who disobey them must be punished.",
+      "zhMarkdown": "左上角象限的孩子，即“主动守旧型”，就是那些喜欢打小报告的人。他们不仅认为规矩必须遵守，还认为不守规矩的人必须受到惩罚。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "6b47675f4b9374bbf82a686151c3494c5da487a204df79801aeef7d8de4d7b01",
+      "enMarkdown": "The kids in the lower left quadrant, the passively conventional-minded, are the sheep. They're careful to obey the rules, but when other kids break them, their impulse is to worry that those kids will be punished, not to ensure that they will.",
+      "zhMarkdown": "左下角象限的孩子，即“被动守旧型”，是那些顺从的绵羊。他们小心翼翼地遵守规矩，但当别的孩子违反规矩时，他们的本能反应是担心那些孩子受罚，而不是去确保他们受罚。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "b68bab3b4774b39532477f77da38512d689b91fc8beaf9f864d9772348f5d8a9",
+      "enMarkdown": "The kids in the lower right quadrant, the passively independent-minded, are the dreamy ones. They don't care much about rules and probably aren't 100% sure what the rules even are.",
+      "zhMarkdown": "右下角象限的孩子，即“被动独立型”，是那些爱幻想的人。他们不太在乎规矩，甚至可能根本搞不清楚规矩到底是什么。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "8eb98adab6e1800b641f1ad58a310ea077054a1e99501373d9c4f43651ab763e",
+      "enMarkdown": "And the kids in the upper right quadrant, the aggressively independent-minded, are the naughty ones. When they see a rule, their first impulse is to question it. Merely being told what to do makes them inclined to do the opposite.",
+      "zhMarkdown": "而右上角象限的孩子，即“主动独立型”，就是那些淘气包。他们一看到规矩，第一反应就是去质疑。仅仅是被命令去做某事，就会让他们倾向于反着干。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "b5fdc8ef4fbcb1b119a7b742c79a25d26c966ee1a0b9a33c572eb60e6fc45f73",
+      "enMarkdown": "When measuring conformism, of course, you have to say with respect to what, and this changes as kids get older. For younger kids it's the rules set by adults. But as kids get older, the source of rules becomes their peers. So a pack of teenagers who all flout school rules in the same way are not independent-minded; rather the opposite.",
+      "zhMarkdown": "当然，衡量从众程度时，你必须说明是“针对什么”而言，而这一点随着孩子长大而改变。对于年幼的孩子，那是大人定下的规矩。但随着孩子长大，规矩的来源变成了同龄人。因此，一群以同样方式违抗学校规矩的青少年，并不是思想独立；恰恰相反，他们是在盲从同龄人。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "60d63ca1525827bbe70a793a1bc5744d8a4c3118167c2f52ca5786143f57ecd5",
+      "enMarkdown": "In adulthood we can recognize the four types by their distinctive calls, much as you could recognize four species of birds. The call of the aggressively conventional-minded is \"Crush <outgroup>!\" (It's rather alarming to see an exclamation point after a variable, but that's the whole problem with the aggressively conventional-minded.) The call of the passively conventional-minded is \"What will the neighbors think?\" The call of the passively independent-minded is \"To each his own.\" And the call of the aggressively independent-minded is \"Eppur si muove.\"",
+      "zhMarkdown": "在成年人的世界里，我们能通过这四种人独特的“叫声”来辨认他们，就像辨认四种鸟类一样。主动守旧型的叫声是：“干掉 <异己>！”（在变量后面看到感叹号挺让人心惊的，但这恰恰是主动守旧型最大的问题。）被动守旧型的叫声是：“邻居会怎么想？”被动独立型的叫声是：“各人自扫门前雪（萝卜青菜，各有所爱）。”而主动独立型的叫声则是：“但它依然在转动（Eppur si muove）。”"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "fc4812cb4207249608f802dad99ff306fb2ab404d90e407a18a598cfd2003903",
+      "enMarkdown": "The four types are not equally common. There are more passive people than aggressive ones, and far more conventional-minded people than independent-minded ones. So the passively conventional-minded are the largest group, and the aggressively independent-minded the smallest.",
+      "zhMarkdown": "这四种类型的人数分布并不均匀。被动的人多于主动的人，守旧的人远多于独立的人。因此，被动守旧型是最大的群体，而主动独立型则是人数最少的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "266c14e71e0a1cb7717d6a6a69568a845f3270ff4ba1ff409da8c2babadd7202",
+      "enMarkdown": "Since one's quadrant depends more on one's personality than the nature of the rules, most people would occupy the same quadrant even if they'd grown up in a quite different society.",
+      "zhMarkdown": "既然一个人属于哪个象限更多取决于性格，而非规矩的本质，那么大多数人即使在完全不同的社会中长大，也依然会落在同一个象限。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "7720a5467e40ca839fec8bb7be5034f9ad1d3cef301584d6c34539b3fce48ba8",
+      "enMarkdown": "Princeton professor Robert George recently wrote:",
+      "zhMarkdown": "普林斯顿大学教授罗伯特·乔治（Robert George）最近写道："
+    },
+    {
+      "id": 13,
+      "type": "quote",
+      "sourceHash": "316fd8e1eb41685786076315357200667784266644758fc1532a253a85949c7d",
+      "enMarkdown": "> I sometimes ask students what their position on slavery would have been had they been white and living in the South before abolition. Guess what? They all would have been abolitionists! They all would have bravely spoken out against slavery, and worked tirelessly against it.",
+      "zhMarkdown": "> 我有时会问学生，如果他们是废奴运动前生活在南方的白人，他们会对奴隶制持什么立场。你猜怎么着？他们全都想当废奴主义者！他们都觉得自己会勇敢地站出来反对奴隶制，并为之不懈奋斗。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "7a2e02992da42f112fd5e8d34c16c564ad1b8b7d19909f66adde91573a7f89f9",
+      "enMarkdown": "He's too polite to say so, but of course they wouldn't. And indeed, our default assumption should not merely be that his students would, on average, have behaved the same way people did at the time, but that the ones who are aggressively conventional-minded today would have been aggressively conventional-minded then too. In other words, that they'd not only not have fought against slavery, but that they'd have been among its staunchest defenders.",
+      "zhMarkdown": "他太有礼貌了，没有挑明，但事实显然并非如此。实际上，我们的默认假设不应该仅仅是，他的学生在平均意义上会和当时的人表现得一模一样，而是：今天那些主动守旧的学生，在当年也会同样主动守旧。换句话说，他们不仅不会反抗奴隶制，反而会成为奴隶制最坚定的捍卫者。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "6e9237fdf8b53bd38bd7fb1ec7090fce4de470756b458b9123e9a73f818b2845",
+      "enMarkdown": "I'm biased, I admit, but it seems to me that aggressively conventional-minded people are responsible for a disproportionate amount of the trouble in the world, and that a lot of the customs we've evolved since the Enlightenment have been designed to protect the rest of us from them. In particular, the retirement of the concept of heresy and its replacement by the principle of freely debating all sorts of different ideas, even ones that are currently considered unacceptable, without any punishment for those who try them out to see if they work. [[2](#f2n)]",
+      "zhMarkdown": "我承认我有偏见，但在我看来，世界上绝大多数的麻烦都是由主动守旧型的人造成的。而自启蒙运动以来，我们演变出的许多习俗，都是为了保护我们其余的人免受他们的侵害。尤其是，我们淘汰了“异端”的概念，代之以自由辩论各种不同观点的原则，即使是那些目前被认为不可接受的观点，也允许人们去尝试、去验证其可行性，而无需担心遭受惩罚。[[2](#f2n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "f00d1f24045137443a6cb1a359b24f113b9a19c694828252401c6efcb5bc0d14",
+      "enMarkdown": "Why do the independent-minded need to be protected, though? Because they have all the new ideas. To be a successful scientist, for example, it's not enough just to be right. You have to be right when everyone else is wrong. Conventional-minded people can't do that. For similar reasons, all successful startup CEOs are not merely independent-minded, but aggressively so. So it's no coincidence that societies prosper only to the extent that they have customs for keeping the conventional-minded at bay. [[3](#f3n)]",
+      "zhMarkdown": "但为什么独立思考的人需要被保护呢？因为所有的新想法都来自他们。例如，要成为一个成功的科学家，仅仅“正确”是不够的。你必须在大家都错了的时候，只有你是对的。守旧的人做不到这一点。出于类似的原因，所有成功的创业公司 CEO 不仅思想独立，而且往往具有强烈的攻击性（主动独立）。因此，一个社会只有在建立起阻挡守旧者侵扰的习俗时，它才会走向繁荣，这绝非巧合。[[3](#f3n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "d55788623622880afa1bb4300d8dc42857cedc9cb3534fdae958fae9a3a15385",
+      "enMarkdown": "In the last few years, many of us have noticed that the customs protecting free inquiry have been weakened. Some say we're overreacting � that they haven't been weakened very much, or that they've been weakened in the service of a greater good. The latter I'll dispose of immediately. When the conventional-minded get the upper hand, they always say it's in the service of a greater good. It just happens to be a different, incompatible greater good each time.",
+      "zhMarkdown": "在过去的几年里，我们很多人都注意到，保护自由探索的习俗已经被削弱了。有人说我们反应过度——这些习俗并没有被削弱多少，或者这种削弱是为了追求更伟大的善。后者我可以立即予以驳斥。当守旧者占了上风，他们总是会说这是为了更伟大的善。只不过每次碰巧都是不同的、互不兼容的“善”罢了。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "40ee62990b050f38494654cbc6ced84c43a092007133d538aac2096b61b16081",
+      "enMarkdown": "As for the former worry, that the independent-minded are being oversensitive, and that free inquiry hasn't been shut down that much, you can't judge that unless you are yourself independent-minded. You can't know how much of the space of ideas is being lopped off unless you have them, and only the independent-minded have the ones at the edges. Precisely because of this, they tend to be very sensitive to changes in how freely one can explore ideas. They're the canaries in this coalmine.",
+      "zhMarkdown": "至于前一种担忧，即独立思考者过于敏感、自由探索并未受到多大压制，除非你自己也是个独立思考者，否则你无法做出判断。除非你脑子里有新想法，否则你无法知道有多少思想空间正在被强行砍掉，而只有独立思考的人才拥有那些处于边缘地带的奇思妙想。正因如此，他们往往对思想探索自由度的变化极其敏感。他们就是这个煤矿里的金丝雀。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "0e7a58c7aecc5b361d0c311fa619edea130a938fe58e9709ab560791d9584efd",
+      "enMarkdown": "The conventional-minded say, as they always do, that they don't want to shut down the discussion of all ideas, just the bad ones.",
+      "zhMarkdown": "守旧的人一如既往地辩解，说他们并不想禁止讨论所有的观点，只是想禁止坏观点。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "f600da9e573a3131b1c19a96661a3c49ab4c1cd85b34f2a661adb21f74e270e0",
+      "enMarkdown": "You'd think it would be obvious just from that sentence what a dangerous game they're playing. But I'll spell it out. There are two reasons why we need to be able to discuss even \"bad\" ideas.",
+      "zhMarkdown": "你本以为单凭这句话，大家就能看出他们在玩一个多么危险的游戏。但我还是要解释清楚。即使是“坏”观点，我们也必须能够公开讨论，原因有两个。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "d787bddbabe31ec434546eec990f828b75d47a153ea3ec672bdc1d394bc8aeda",
+      "enMarkdown": "The first is that any process for deciding which ideas to ban is bound to make mistakes. All the more so because no one intelligent wants to undertake that kind of work, so it ends up being done by the stupid. And when a process makes a lot of mistakes, you need to leave a margin for error. Which in this case means you need to ban fewer ideas than you'd like to. But that's hard for the aggressively conventional-minded to do, partly because they enjoy seeing people punished, as they have since they were children, and partly because they compete with one another. Enforcers of orthodoxy can't allow a borderline idea to exist, because that gives other enforcers an opportunity to one-up them in the moral purity department, and perhaps even to turn enforcer upon them. So instead of getting the margin for error we need, we get the opposite: a race to the bottom in which any idea that seems at all bannable ends up being banned. [[4](#f4n)]",
+      "zhMarkdown": "第一，任何决定禁止哪些观点的机制都注定会犯错。更糟糕的是，聪明人都不愿意承担这种审查工作，所以它最终落到了愚蠢的人手里。当一个机制经常犯错时，你就需要留出容错空间。在审查这件事上，这意味着你必须少禁一些你看不顺眼的观点。但对于主动守旧的人来说，这很难做到，部分原因在于他们从小就享受看别人受罚的快感，另一部分原因在于他们彼此竞争。正统观念的执行者无法容忍任何擦边观点的存在，因为这会给其他执行者提供机会，在道德纯洁度上压他们一头，甚至把矛头反指向他们。因此，我们不仅没有得到所需的容错空间，反而得到了相反的结果：一场竞相探底的比赛，任何看起来有可能被禁的观点，最终都被禁掉了。[[4](#f4n)]"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "6eb768b8ad09b3f7b8e0590de890256dd383fb94a269b0e9a010168d521febd8",
+      "enMarkdown": "The second reason it's dangerous to ban the discussion of ideas is that ideas are more closely related than they look. Which means if you restrict the discussion of some topics, it doesn't only affect those topics. The restrictions propagate back into any topic that yields implications in the forbidden ones. And that is not an edge case. The best ideas do exactly that: they have consequences in fields far removed from their origins. Having ideas in a world where some ideas are banned is like playing soccer on a pitch that has a minefield in one corner. You don't just play the same game you would have, but on a different shaped pitch. You play a much more subdued game even on the ground that's safe.",
+      "zhMarkdown": "禁止讨论观点的第二个危险在于，观点之间的关联比看起来要紧密得多。这意味着如果你限制了某些话题的讨论，受影响的将不仅仅是这些话题。这种限制会倒推并波及到任何能推导出禁忌话题的领域。这绝非极端特例。最伟大的观点恰恰具有这种穿透力：它们会在远离其起源的领域产生深远影响。在一个某些观点被禁止的世界里思考，就像在一角埋有地雷的场地上踢足球。你不仅仅是在一个形状怪异的场地上踢球，而是在那些安全的地面上，你也只能踢得畏手畏脚。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "3a392e74b588c77fe544a8cfd2972cc0442d6d8369330014f3d979a1410dabb3",
+      "enMarkdown": "In the past, the way the independent-minded protected themselves was to congregate in a handful of places � first in courts, and later in universities � where they could to some extent make their own rules. Places where people work with ideas tend to have customs protecting free inquiry, for the same reason wafer fabs have powerful air filters, or recording studios good sound insulation. For the last couple centuries at least, when the aggressively conventional-minded were on the rampage for whatever reason, universities were the safest places to be.",
+      "zhMarkdown": "过去，独立思考者保护自己的方式是聚集在少数几个地方——起初是宫廷，后来是大学——在那里他们可以在一定程度上制定自己的规矩。与思想打交道的地方往往有保护自由探索的习俗，这与芯片制造厂安装强力空气过滤器、录音棚做好隔音效果是同一个道理。至少在过去的几个世纪里，每当主动守旧者因为某种原因发起围剿时，大学都是最安全避难所。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "cb2c885437fde7988a0c8c985b1560542ecc25c2fe740485063f2b11943b7067",
+      "enMarkdown": "That may not work this time though, due to the unfortunate fact that the latest wave of intolerance began in universities. It began in the mid 1980s, and by 2000 seemed to have died down, but it has recently flared up again with the arrival of social media. This seems, unfortunately, to have been an own goal by Silicon Valley. Though the people who run Silicon Valley are almost all independent-minded, they've handed the aggressively conventional-minded a tool such as they could only have dreamed of.",
+      "zhMarkdown": "但这一次可能行不通了，因为不幸的是，最新一波的不宽容恰恰起源于大学。它始于 20 世纪 80 年代中期，到 2000 年似乎已经平息，但最近随着社交媒体的兴起又卷土重来。这看起来不幸是硅谷的一次“乌龙球”。虽然管理硅谷的人几乎都是独立思考者，但他们却给主动守旧者递上了一件做梦都想不到的趁手武器。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "bc0dbadb6e36b3e8da442b76c1705174110f4ac38679a464d067f57ffc52cfb7",
+      "enMarkdown": "On the other hand, perhaps the decline in the spirit of free inquiry within universities is as much the symptom of the departure of the independent-minded as the cause. People who would have become professors 50 years ago have other options now. Now they can become quants or start startups. You have to be independent-minded to succeed at either of those. If these people had been professors, they'd have put up a stiffer resistance on behalf of academic freedom. So perhaps the picture of the independent-minded fleeing declining universities is too gloomy. Perhaps the universities are declining because so many have already left. [[5](#f5n)]",
+      "zhMarkdown": "另一方面，大学内部自由探索精神的衰落，或许既是独立思考者离去的因，也是其果。50 年前本会成为教授的人，现在有了其他选择。现在他们可以去做量化交易，或者去创办创业公司。在这两件事上取得成功，你都必须是独立思考者。如果这些人当年留下来当教授，他们会为学术自由进行更顽强的抵抗。因此，独立思考者纷纷逃离日益衰落的大学，这一画面也许并不那么悲观。也许大学之所以衰落，是因为许多人已经离开了。[[5](#f5n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "7a150074d8bd059ac2f6400d508b4cb3fb30b6a8d637dc2147e03ae66a5830e1",
+      "enMarkdown": "Though I've spent a lot of time thinking about this situation, I can't predict how it plays out. Could some universities reverse the current trend and remain places where the independent-minded want to congregate? Or will the independent-minded gradually abandon them? I worry a lot about what we might lose if that happened.",
+      "zhMarkdown": "虽然我花了很多时间思考这个问题，但我无法预测它会如何发展。是否会有一些大学能够逆转当前的趋势，继续成为独立思考者向往的聚集地？还是独立思考者会逐渐彻底放弃大学？如果后者发生，我非常担心我们会失去什么。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "910adf6ae0ad57c29d673ecf08127c19e57d8470189da0c842c687bc61b0aa8c",
+      "enMarkdown": "But I'm hopeful long term. The independent-minded are good at protecting themselves. If existing institutions are compromised, they'll create new ones. That may require some imagination. But imagination is, after all, their specialty.",
+      "zhMarkdown": "但从长远来看，我依然乐观。独立思考者很擅长保护自己。如果现有的制度被污染了，他们就会创造新的。这可能需要一些想象力。但毕竟，想象力正是他们的专长。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "7efeef5848d5f53fbbd7dd20be39d4b7dc5319dbc2fea736bc139a83265bc4ad",
+      "enMarkdown": "[1] I realize of course that if people's personalities vary in any two ways, you can use them as axes and call the resulting four quadrants personality types. So what I'm really claiming is that the axes are orthogonal and that there's significant variation in both.",
+      "zhMarkdown": "[1] 我当然意识到，如果人的性格在任何两个维度上存在差异，你都可以将它们作为坐标轴，并将由此产生的四个象限称为性格类型。因此，我真正的观点是，这两个轴是相互正交的，并且在这两个维度上都存在显著的差异。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "738e6e713729d5997364211de3ca9cbe52061c16d03a00e4065fcd63c2cb8e15",
+      "enMarkdown": "[2] The aggressively conventional-minded aren't responsible for all the trouble in the world. Another big source of trouble is the sort of charismatic leader who gains power by appealing to them. They become much more dangerous when such leaders emerge.",
+      "zhMarkdown": "[2] 主动守旧型的人并不对世界上所有的麻烦负责。另一个巨大的麻烦源是那种通过迎合他们来获得权力的魅力型领袖。当这类领袖出现时，主动守旧者就会变得危险得多。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "d14e7b3bee4ba4a157a7772258b34faf0818cde61035c4e7faaa7dd2d51b8ac4",
+      "enMarkdown": "[3] I never worried about writing things that offended the conventional-minded when I was running Y Combinator. If YC were a cookie company, I'd have faced a difficult moral choice. Conventional-minded people eat cookies too. But they don't start successful startups. So if I deterred them from applying to YC, the only effect was to save us work reading applications.",
+      "zhMarkdown": "[3] 当我管理 Y Combinator 时，我从不担心写出的东西会冒犯那些守旧的人。如果 YC 是一家饼干公司，我将面临艰难的道德选择。守旧的人也吃饼干。但他们不会去创办成功的创业公司。因此，如果我劝退了他们来申请 YC，唯一的实际效果就是帮我们省去了阅读申请书的工夫。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "975c1986878a4adee0be3fd8642309d7eee111d8b742fe1b9172626479088f8e",
+      "enMarkdown": "[4] There has been progress in one area: the punishments for talking about banned ideas are less severe than in the past. There's little danger of being killed, at least in richer countries. The aggressively conventional-minded are mostly satisfied with getting people fired.",
+      "zhMarkdown": "[4] 在一个领域是有进步的：现在谈论被禁观点的惩罚比过去要轻。至少在较富裕的国家，几乎没有被杀的危险。主动守旧的人现在只要能把人搞砸饭碗就基本满意了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "f7c5ad1441a2e622493d04b1afff90536e4a249ae4a963d29e98aca478b9136c",
+      "enMarkdown": "[5] Many professors are independent-minded � especially in math, the hard sciences, and engineering, where you have to be to succeed. But students are more representative of the general population, and thus mostly conventional-minded. So when professors and students are in conflict, it's not just a conflict between generations but also between different types of people.",
+      "zhMarkdown": "[5] 许多教授都是独立思考的——特别是在数学、硬科学和工程领域，要在这些领域取得成功，你必须如此。但学生更能代表普通大众，因此大多数人都是守旧的。所以，当教授和学生发生冲突时，这不仅是代际冲突，更是不同类型人之间的冲突。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "46dd4a7153598f5112394ecfae6f7f1ead08c6d15ed75891d788204c1f5bbe98",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Nicholas Christakis, Patrick Collison, Sam Gichuru, Jessica Livingston, Patrick McKenzie, Geoff Ralston, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Nicholas Christakis、Patrick Collison、Sam Gichuru、Jessica Livingston、Patrick McKenzie、Geoff Ralston 和 Harj Taggar 帮我阅读并修改了本文的草稿。"
+    }
+  ]
+}

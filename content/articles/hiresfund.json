@@ -1,0 +1,97 @@
+{
+  "slug": "hiresfund",
+  "titleEn": "High Resolution Fundraising",
+  "titleZh": "高分辨率融资",
+  "dateText": "September 2010",
+  "publishedAt": "2010-09-01",
+  "sourceOrder": 102,
+  "sourceUrl": "https://paulgraham.com/hiresfund.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "d52078fecf6fdb6c9b2e903e80f8dcbfa0a70c7d4aa155f98452e2cd34eeb671",
+      "enMarkdown": "The reason startups have been using [more convertible notes](http://twitter.com/paulg/status/22319113993) in angel rounds is that they make deals close faster. By making it easier for startups to give different prices to different investors, they help them break the sort of deadlock that happens when investors all wait to see who else is going to invest.",
+      "zhMarkdown": "创业公司在天使轮中[越来越多地使用可转债](http://twitter.com/paulg/status/22319113993)的原因，在于它能让交易更快达成。可转债让创业公司更容易给不同的投资人不同的价格，从而帮他们打破那种“所有投资人都在观望还有谁会投”的僵局。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "98e2de8cd71888e10ca49f4f9f92fbe2881a8370dad26bc244a6825a0337a74d",
+      "enMarkdown": "By far the biggest influence on investors' opinions of a startup is the opinion of other investors. There are very, very few who simply decide for themselves. Any startup founder can tell you the most common question they hear from investors is not about the founders or the product, but \"who else is investing?\"",
+      "zhMarkdown": "对投资人关于创业公司的看法影响最大的，莫过于其他投资人的看法。极少有投资人能完全独立做出决定。任何创业公司创始人都可以告诉你，他们从投资人那里听到最多、最普遍的问题，不是关于创始人或产品，而是“还有谁在投？”"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "3be12d46bb4626b7375e6344db541247d33c632862ee427cb2fea4805026a16b",
+      "enMarkdown": "That tends to produce deadlocks. Raising an old-fashioned fixed-size equity round can take weeks, because all the angels sit around waiting for the others to commit, like competitors in a bicycle sprint who deliberately ride slowly at the start so they can follow whoever breaks first.",
+      "zhMarkdown": "这往往会导致僵局。募集一轮传统、固定金额的股权融资可能需要数周时间，因为所有的天使投资人都在按兵不动，等着别人先表态。这就像自行车场地追逐赛里的选手一样，在起点故意骑得很慢，以便能跟在第一个冲出去的人后面。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "9ee7714e5079da3e8cc403a5157f01044973e4b7b375cccaf62339634bf05b3b",
+      "enMarkdown": "Convertible notes let startups beat such deadlocks by rewarding investors willing to move first with lower (effective) valuations. Which they deserve because they're taking more risk. It's much safer to invest in a startup Ron Conway has already invested in; someone who comes after him should pay a higher price.",
+      "zhMarkdown": "可转债让创业公司得以打破这种僵局，因为它们通过更低的（实际）估值，来回报那些愿意第一个吃螃蟹的投资人。这是他们应得的，因为他们承担了更大的风险。投资一家 Ron Conway 已经投资的创业公司要安全得多；那么在他之后加入的人，理应支付更高的价格。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "159609a85c7216318849739388d7573f30b92686b78167f0e47f7a9486962362",
+      "enMarkdown": "The reason convertible notes allow more flexibility in price is that valuation caps aren't actual valuations, and notes are cheap and easy to do. So you can do high-resolution fundraising: if you wanted you could have a separate note with a different cap for each investor.",
+      "zhMarkdown": "可转债之所以在价格上更具灵活性，是因为估值上限（valuation caps）并不是真正的估值，而且可转债做起来既便宜又简单。因此，你可以进行“高分辨率融资”：如果你愿意，你可以针对每个投资人使用不同估值上限的独立借款协议。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "e622641f851740bca488ced51fbe64e0b2cf7b940a797f4d7cdf771aaf026736",
+      "enMarkdown": "That cap need not simply rise monotonically. A startup could also give better deals to investors they expected to help them most. The point is simply that different investors, whether because of the help they offer or their willingness to commit, have different values for startups, and their terms should reflect that.",
+      "zhMarkdown": "这个估值上限并不一定要单调递增。创业公司也可以给那些预计能提供最大帮助的投资人提供更好的条款。关键在于，不同的投资人，无论是由于他们提供的帮助还是他们做决定的爽快程度，对创业公司而言都有着不同的价值，而他们的投资条款应该体现出这一点。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "d130da05236f797c49c78db55c7c20cd4034ad635291dc61572ca8f809b0ac7d",
+      "enMarkdown": "Different terms for different investors is clearly the way of the future. Markets always evolve toward higher resolution. You may not need to use convertible notes to do it. With sufficiently lightweight standardized equity terms (and some changes in investors' and lawyers' expectations about equity rounds) you might be able to do the same thing with equity instead of debt. Either would be fine with startups, so long as they can easily change their valuation.",
+      "zhMarkdown": "对不同的投资人适用不同的条款，显然是未来的趋势。市场总是朝着更高分辨率的方向演进。你未必非得用可转债来做到这一点。只要有足够轻量化的标准化股权条款（以及投资人和律师对股权轮预期的某些改变），你也许用股权而非债权也能达到同样的效果。对创业公司来说，只要能轻松调整估值，哪种方式都行。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "55206a4eadd0a4cbebae4ab51c59c8729c39ec27947d8bb992fe7586a7e738aa",
+      "enMarkdown": "Deadlocks weren't the only problem with fixed-size equity rounds. Another was that startups had to decide in advance how much to raise. I think it's a mistake for a startup to fix upon a specific number. If investors are easily convinced, the startup should raise more now, and if investors are skeptical, the startup should take a smaller amount and use that to get the company to the point where it's more convincing.",
+      "zhMarkdown": "僵局并不是固定金额股权轮的唯一问题。另一个问题是，创业公司必须提前决定要融多少钱。我认为，创业公司死咬着一个具体数字不放是个错误。如果投资人很容易被说服，创业公司现在就应该多融一点；如果投资人持怀疑态度，创业公司就应该先拿一笔较少的钱，用这笔钱把公司带到更有说服力的阶段。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c18e8a5944b979fa60448c577955133800f662f086833fd34fbd32e2b50af36f",
+      "enMarkdown": "It's just not reasonable to expect startups to pick an optimal round size in advance, because that depends on the reactions of investors, and those are impossible to predict.",
+      "zhMarkdown": "要求创业公司提前挑选一个最佳的融资额度是不切实际的，因为这取决于投资人的反应，而这又是无法预测的。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "b1bc04ed95abd71d01da7147502795535535ba072df84d7210b1a4c7302346a0",
+      "enMarkdown": "Fixed-size, multi-investor angel rounds are such a bad idea for startups that one wonders why things were ever done that way. One possibility is that this custom reflects the way investors like to collude when they can get away with it. But I think the actual explanation is less sinister. I think angels (and their lawyers) organized rounds this way in unthinking imitation of VC series A rounds. In a series A, a fixed-size equity round with a lead makes sense, because there is usually just one big investor, who is unequivocally the lead. Fixed-size series A rounds already are high res. But the more investors you have in a round, the less sense it makes for everyone to get the same price.",
+      "zhMarkdown": "对创业公司来说，固定金额、多投资人参与的天使轮是一个非常糟糕的主意，以至于人们不禁纳闷，以前怎么会一直用这种方式。一种可能性是，这种惯例反映了投资人在有利可图时喜欢合谋的心理。但我认为实际的解释没有那么阴暗。我认为天使投资人（以及他们的律师）组织这种融资轮，只是在盲目模仿风险投资的 A 轮融资。在 A 轮融资中，由领投方确定金额的股权轮是有道理的，因为通常只有一个大投资人，他是不折不扣的领投方。固定金额的 A 轮融资本身就是高分辨率的。但是，一轮融资中的投资人越多，让每个人都拿到同样的价格就越没有道理。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "cc45eb975e8adf7fc6c7580f401b858383d289f8a1554f3b79166a88bea26728",
+      "enMarkdown": "The most interesting question here may be what high res fundraising will do to the world of investors. Bolder investors will now get rewarded with lower prices. But more important, in a hits-driven business, is that they'll be able to get into the deals they want. Whereas the \"who else is investing?\" type of investors will not only pay higher prices, but may not be able to get into the best deals at all.",
+      "zhMarkdown": "这里最有趣的问题也许是，高分辨率融资将给投资界带来什么影响。现在，更果敢的投资人将通过更低的价格获得回报。但更重要的是，在这个由“大热门”（hits）驱动的行业里，他们将能够挤进自己想投的项目。而那些“还有谁在投？”型的投资人，不仅要支付更高的价格，甚至可能根本无法进入最优秀的交易中。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "9a18c69b0fd04311e947b53f90c789f21ba8fed4d8493b4996ee522147dd1acc",
+      "enMarkdown": "**Thanks** to Immad Akhund, Sam Altman, John Bautista, Pete Koomen, Jessica Livingston, Dan Siroker, Harj Taggar, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Immad Akhund、Sam Altman、John Bautista、Pete Koomen、Jessica Livingston、Dan Siroker、Harj Taggar 和 Fred Wilson 阅读本书稿。"
+    }
+  ]
+}

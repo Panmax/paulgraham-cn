@@ -1,0 +1,223 @@
+{
+  "slug": "charisma",
+  "titleEn": "It's Charisma, Stupid",
+  "titleZh": "笨蛋，问题在于个人魅力",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 193,
+  "sourceUrl": "https://paulgraham.com/charisma.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "2fa3442016472e46ac5851838ba85d83b3113219ac3372f4150ce75eb7742d2f",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/it-s-charisma-stupid-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/it-s-charisma-stupid-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "3dd1157969ac25a7b007bc398b01fa835cf87f8867c15d28509a2b693446ac17",
+      "enMarkdown": "November 2004, corrected June 2006",
+      "zhMarkdown": "2004 年 11 月，于 2006 年 6 月修正"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "e165e8f83c36a0de38796fc6078cb9bf51e8ad31f5e369fe5a966a6e5cda8ec4",
+      "enMarkdown": "Occam's razor says we should prefer the simpler of two explanations. I begin by reminding readers of this principle because I'm about to propose a theory that will offend both liberals and conservatives. But Occam's razor means, in effect, that if you want to disagree with it, you have a hell of a coincidence to explain.",
+      "zhMarkdown": "奥卡姆剃刀原理告诉我们，在两种解释中，我们应该倾向于选择更简单的那种。我一上来就提醒读者这个原理，是因为我即将提出一个既会得罪自由派又会得罪保守派的理论。但奥卡姆剃刀意味着，实际上，如果你想反对这个理论，你得解释一个极其离奇的巧合才行。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "521b88589988f41ebec8c1cd1e8f6c5d54c243d63aafc9d8ed5e54ad61b3c3cd",
+      "enMarkdown": "Theory: In US presidential elections, the more charismatic candidate wins.",
+      "zhMarkdown": "理论：在美国总统大选中，更有个人魅力的候选人获胜。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "49f4c96c55901a16f37e1d712674c6ae27ec0304791d92da328821a7859b9468",
+      "enMarkdown": "People who write about politics, whether on the left or the right, have a consistent bias: they take politics seriously. When one candidate beats another they look for political explanations. The country is shifting to the left, or the right. And that sort of shift can certainly be the result of a presidential election, which makes it easy to believe it was the cause.",
+      "zhMarkdown": "写时政评论的人，无论是左派还是右派，都有一个根深蒂固的偏见：他们把政治看得太严肃了。当一个候选人击败另一个候选人时，他们总会寻找政治上的解释。比如：这个国家正在向左转，或者向右转。这种转变当然可以是总统大选的结果，这让人很容易误以为大选结果就是由这种转变引起的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "76f25ace5134c71efa867c3c664bc5ddc15c069a9b5fb967614ce05794a6b33b",
+      "enMarkdown": "But when I think about why I voted for Clinton over the first George Bush, it wasn't because I was shifting to the left. Clinton just seemed more dynamic. He seemed to want the job more. Bush seemed old and tired. I suspect it was the same for a lot of voters.",
+      "zhMarkdown": "但当我想起自己当年为什么把票投给克林顿而不是老布什时，并不是因为我向左转了。克林顿只是看起来更有活力，他似乎更渴望这份工作。而老布什看起来老态龙钟、疲惫不堪。我怀疑对很多选民来说也是一样。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "8bcea0db080bd6a4088b5bffccc4c78da10731aecea2bd1421f51a74c855fe75",
+      "enMarkdown": "Clinton didn't represent any national shift leftward. [[1](#f1n)] He was just more charismatic than George Bush or (God help us) Bob Dole. In 2000 we practically got a controlled experiment to prove it: Gore had Clinton's policies, but not his charisma, and he suffered proportionally. [[2](#f2n)] Same story in 2004. Kerry was smarter and more articulate than Bush, but rather a stiff. And Kerry lost.",
+      "zhMarkdown": "克林顿并不代表美国整体在向左转。[[1](#f1n)] 他只是比老布什或（上帝救救我们吧）鲍勃·多尔更有魅力。2000 年，我们几乎得到了一个可以证明这一点的对照实验：戈尔继承了克林顿的政策，但没有继承他的魅力，他的得票率也相应地受到了影响。[[2](#f2n)] 2004 年也是同样的故事。克里比小布什更聪明、口才更好，但却有些死板。结果克里输了。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2d35d92f8d8f526b4fb6e84f01b2d2ac62ac9f4251a96d03223c75badc32650e",
+      "enMarkdown": "As I looked further back, I kept finding the same pattern. Pundits said Carter beat Ford because the country distrusted the Republicans after Watergate. And yet it also happened that Carter was famous for his big grin and folksy ways, and Ford for being a boring klutz. Four years later, pundits said the country had lurched to the right. But Reagan, a former actor, also happened to be even more charismatic than Carter (whose grin was somewhat less cheery after four stressful years in office). In 1984 the charisma gap between Reagan and Mondale was like that between Clinton and Dole, with similar results. The first George Bush managed to win in 1988, though he would later be vanquished by one of the most charismatic presidents ever, because in 1988 he was up against the notoriously uncharismatic Michael Dukakis.",
+      "zhMarkdown": "当我把视线再往前移，我发现同样的规律一再出现。专家们说卡特击败福特是因为在水门事件之后，美国人不再信任共和党。但同样事实也是，卡特以其标志性的大笑和亲民作风闻名，而福特则是出了名的无聊和笨拙。四年后，专家们又说美国在急剧右转。但曾是演员的里根，也恰好比卡特更有魅力（卡特在经历了四年压力重重的任期后，笑容已经没那么灿烂了）。1984 年，里根和蒙代尔之间的魅力差距就像克林顿和多尔一样大，结果也如出一辙。老布什在 1988 年设法赢了一次，尽管他后来被有史以来最有魅力的总统之一击败，但那是因为他在 1988 年面对的是出了名缺乏魅力的迈克尔·杜卡基斯。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "3087c8fd5a01b827f81be45075b7594ee379c22b3b85f4a3d754626b7d8e3851",
+      "enMarkdown": "These are the elections I remember personally, but apparently the same pattern played out in 1964 and 1972. The most recent counterexample appears to be 1968, when Nixon beat the more charismatic Hubert Humphrey. But when you examine that election, it tends to support the charisma theory more than contradict it. As Joe McGinnis recounts in his famous book *The Selling of the President 1968*, Nixon knew he had less charisma than Humphrey, and thus simply refused to debate him on TV. He knew he couldn't afford to let the two of them be seen side by side.",
+      "zhMarkdown": "这些是我亲身经历过的大选，但显然同样的规律在 1964 年和 1972 年也起作用了。最近的一个反例似乎是 1968 年，当时尼克松击败了更有魅力的休伯特·汉弗莱。但当你仔细研究那场大选时，它往往更支持而不是反驳魅力理论。正如乔·麦金尼斯在其名著《销售总统 1968》（*The Selling of the President 1968*）中所描述的那样，尼克松深知自己不如汉弗莱有魅力，因此干脆拒绝与他进行电视辩论。他知道自己承担不起让两人并排出现在镜头前的后果。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "799fb86a7f8a9d8440ba66a2e4999f62ddafc210ca0e6c06bc2be820b713dcca",
+      "enMarkdown": "Now a candidate probably couldn't get away with refusing to debate. But in 1968 the custom of televised debates was still evolving. In effect, Nixon won in 1968 because voters were never allowed to see the real Nixon. All they saw were carefully scripted campaign spots.",
+      "zhMarkdown": "如今，候选人大概是无法通过拒绝辩论来蒙混过关了。但在 1968 年，电视辩论的惯例仍在形成之中。实际上，尼克松在 1968 年获胜，是因为选民们从未被允许看到真实的尼克松。他们看到的都是精心策划的竞选宣传片。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "6af92b0bd0e68750b61f21bb72cf64fa8ecb9b1d9864ec055378a4a60d7a0d97",
+      "enMarkdown": "Oddly enough, the most recent true counterexample is probably 1960. Though this election is usually given as an example of the power of TV, Kennedy apparently would not have won without fraud by party machines in Illinois and Texas. But TV was still young in 1960; only 87% of households had it. [[3](#f3n)] Undoubtedly TV helped Kennedy, so historians are correct in regarding this election as a watershed. TV required a new kind of candidate. There would be no more Calvin Coolidges.",
+      "zhMarkdown": "说来也怪，最近一个真正的反例大概是 1960 年。尽管这场大选通常被用作展示电视威力的例子，但如果没有伊利诺伊州和德克萨斯州党派机器的舞弊，肯尼迪显然赢不了。不过在 1960 年，电视还处于起步阶段，只有 87% 的家庭拥有电视。[[3](#f3n)] 毫无疑问，电视帮了肯尼迪，因此历史学家将这场大选视为分水岭是正确的。电视需要一种新型的候选人。像卡尔文·柯立芝那样的总统将不复存在。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ea4929cd34d2817b051d3df1ec7cafe8e230ee4c9866dbc5935ea91045ed52c3",
+      "enMarkdown": "The charisma theory may also explain why Democrats tend to lose presidential elections. The core of the Democrats' ideology seems to be a belief in government. Perhaps this tends to attract people who are earnest, but dull. Dukakis, Gore, and Kerry were so similar in that respect that they might have been brothers. Good thing for the Democrats that their screen lets through an occasional Clinton, even if some scandal results. [[4](#f4n)]",
+      "zhMarkdown": "魅力理论或许也能解释为什么民主党人往往会输掉总统大选。民主党意识形态的核心似乎是对政府的信仰。这也许更容易吸引那些认真但无趣的人。杜卡基斯、戈尔和克里在这方面极为相似，简直像亲兄弟。对民主党来说，幸运的是他们的筛选机制偶尔能漏网一个克林顿，哪怕这会带来一些丑闻。[[4](#f4n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "5e462cc32ba840d5d5b6250ef003eba2a73022c8bf3965b80cc249b5df69397d",
+      "enMarkdown": "One would like to believe elections are won and lost on issues, if only fake ones like Willie Horton. And yet, if they are, we have a remarkable coincidence to explain. In every presidential election since TV became widespread, the apparently more charismatic candidate has won. Surprising, isn't it, that voters' opinions on the issues have lined up with charisma for 11 elections in a row?",
+      "zhMarkdown": "人们总希望相信，大选的胜负取决于议题，哪怕是像威利·霍顿案这样编造出来的议题。然而，如果真是这样，我们就必须解释一个惊人的巧合。在电视普及以来的每一次总统大选中，看起来更有魅力的候选人都赢了。选民在议题上的观点竟然连续 11 次与候选人的个人魅力保持一致，这难道不令人惊讶吗？"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "dce8f1cc45167eb59a8f7218c0e28099f59e818bb9d2a26308b10f1663ebb835",
+      "enMarkdown": "The political commentators who come up with shifts to the left or right in their morning-after analyses are like the financial reporters stuck writing stories day after day about the random fluctuations of the stock market. Day ends, market closes up or down, reporter looks for good or bad news respectively, and writes that the market was up on news of Intel's earnings, or down on fears of instability in the Middle East. Suppose we could somehow feed these reporters false information about market closes, but give them all the other news intact. Does anyone believe they would notice the anomaly, and not simply write that stocks were up (or down) on whatever good (or bad) news there was that day? That they would say, hey, wait a minute, how can stocks be up with all this unrest in the Middle East?",
+      "zhMarkdown": "那些在选举次日晨报上分析“左转”或“右转”的政评家，就像那些不得不日复一日报道股市随机波动的财经记者。一天结束，股市或涨或跌，记者就相应地寻找好消息或坏消息，然后写道：由于英特尔业绩利好，股市上涨；或者由于担心中东局势不稳，股市下跌。假设我们能给这些记者提供虚假的收盘数据，但保留所有其他新闻。有人会相信他们能发现异常，而不是仅仅根据当天的某些好消息（或坏消息）顺理成章地写下股票上涨（或下跌）吗？他们会说：“嘿，等等，中东局势这么动荡，股市怎么可能上涨？”"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "f582eb765b4dc369340a7bc0ec60fceeb3f2ecea2e416dba239750af57d5a358",
+      "enMarkdown": "I'm not saying that issues don't matter to voters. Of course they do. But the major parties know so well which issues matter how much to how many voters, and adjust their message so precisely in response, that they tend to split the difference on the issues, leaving the election to be decided by the one factor they can't control: charisma.",
+      "zhMarkdown": "我并不是说选民不在乎议题。他们当然在乎。但主要政党太清楚哪些议题对多少选民有多大影响了，并且据此极其精准地调整自己的表态，以至于他们在议题上往往能平分秋色，最终导致大选结果由一个他们无法控制的因素决定：个人魅力。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "e3c6996f42e6edcdb4230b367d01161af821f257440a9ce0e0369bc3415275a4",
+      "enMarkdown": "If the Democrats had been running a candidate as charismatic as Clinton in the 2004 election, he'd have won. And we'd be reading that the election was a referendum on the war in Iraq, instead of that the Democrats are out of touch with evangelical Christians in middle America.",
+      "zhMarkdown": "如果在 2004 年大选中，民主党推选的是一位像克林顿这样有魅力的候选人，他就赢了。那么我们今天读到的分析就会是：这场选举是对伊拉克战争的全民公投；而不是：民主党与美国中部的福音派基督徒脱节了。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "3d3c3765277c95152ab5574dbfefc378a8c6d678e815e8426e5d744a50fbf726",
+      "enMarkdown": "During the 1992 election, the Clinton campaign staff had a big sign in their office saying \"It's the economy, stupid.\" Perhaps it was even simpler than they thought.",
+      "zhMarkdown": "在 1992 年大选期间，克林顿的竞选团队在办公室里挂了一块大牌子，上面写着“笨蛋，问题在于经济”。也许事情比他们想象的还要简单。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "71bea4744b11692954268f0a8cca17fd7723f29ca65fcd8a99508a701e3ea643",
+      "enMarkdown": "**Postscript**",
+      "zhMarkdown": "**后记**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "6bad7571964a3681a85e2349c007e840d051a28dc8315a6b3ce6e764b0c6daab",
+      "enMarkdown": "Opinions seem to be divided about the charisma theory. Some say it's impossible, others say it's obvious. This seems a good sign. Perhaps it's in the sweet spot midway between.",
+      "zhMarkdown": "人们对魅力理论的看法似乎存在分歧。有人说这不可能，有人说这显而易见。这似乎是个好兆头。也许它恰好处于两者之间的黄金分割点上。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "e817f6702b005576441fbf1f9888c7b206e3ce635ac3932039466e10120f0c09",
+      "enMarkdown": "As for it being impossible, I reply: here's the data; here's the theory; theory explains data 100%. To a scientist, at least, that means it deserves attention, however implausible it seems.",
+      "zhMarkdown": "对于那些认为“不可能”的人，我的回答是：数据在这，理论在这，理论完美解释了 100% 的数据。至少对科学家来说，这意味着无论它看起来多么不可思议，都值得予以关注。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "72814541bc2d2dc52e929c3ae0f7720eacbf4f9441181a9bca36f020fbec7da1",
+      "enMarkdown": "You can't believe voters are so superficial that they just choose the most charismatic guy? My theory doesn't require that. I'm not proposing that charisma is the only factor, just that it's the only one *left* after the efforts of the two parties cancel one another out.",
+      "zhMarkdown": "你无法相信选民会如此肤浅，仅仅选择最有魅力的家伙？我的理论并不需要这一点。我并不是说魅力是唯一的因素，只是说在两党的努力相互抵消之后，它是唯一*剩下*的因素。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "0f7a1a1a2939a1a8b6beb4e80b93be121fe004de05d8ce7e0678e87a77dd5fe5",
+      "enMarkdown": "As for the theory being obvious, as far as I know, no one has proposed it before. Election forecasters are proud when they can achieve the same results with much more complicated models.",
+      "zhMarkdown": "至于那些认为该理论“显而易见”的人，据我所知，以前还没有人提出过。当选举预测者用复杂得多的模型达到同样的效果时，他们还会沾沾自喜。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "b5a60b729dcc00f6db26f868f45998259a0bafeb9abf58d4bb2d67b0c0cc145f",
+      "enMarkdown": "Finally, to the people who say that the theory is probably true, but rather depressing: it's not so bad as it seems. The phenomenon is like a pricing anomaly; once people realize it's there, it will disappear. Once both parties realize it's a waste of time to nominate uncharismatic candidates, they'll tend to nominate only the most charismatic ones. And if the candidates are equally charismatic, charisma will cancel out, and elections will be decided on issues, as political commentators like to think they are now.",
+      "zhMarkdown": "最后，对于那些认为该理论大概是真的，但令人沮丧的人：情况没那么糟。这种现象就像价格套利空间；一旦人们意识到它的存在，它就会消失。一旦两党都意识到提名没有魅力的候选人是浪费时间，他们就倾向于只提名那些极具魅力的人。而如果候选人同样具有魅力，魅力因素就会相互抵消，大选结果将再次由议题决定，正如政评家们现在喜欢认为的那样。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "af41a677486a739827041e39698e48da6c33f7efb294a1b67ac73435de1f3bb6",
+      "enMarkdown": "[1] As Clinton himself discovered to his surprise when, in one of his first acts as president, he tried to shift the military leftward. After a bruising fight he escaped with a face-saving compromise.",
+      "zhMarkdown": "[1] 克林顿自己也惊讶地发现，当他作为总统的首批举措之一是试图将军队政策向左转时，在经历了一场惨烈的斗争后，他只能通过妥协来挽回面子。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "b15c07b52279cfa42a3ba933c3fb82242cc675ed94dfe9a02aaee1fba5715ba3",
+      "enMarkdown": "[2] True, Gore won the popular vote. But politicians know the electoral vote decides the election, so that's what they campaign for. If Bush had been campaigning for the popular vote he would presumably have got more of it. (Thanks to judgmentalist for this point.)",
+      "zhMarkdown": "[2] 诚然，戈尔赢得了普选票。但政治家知道选举人票决定大选，所以他们是围绕选举人票进行竞选的。如果布什当年是为普选票而战，他大概会获得更多普选票。（感谢 judgmentalist 指出这一点。）"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "9683d3e6e8b63ab1b766ae837df8c65014e72bc5000979fcc38d4a077da17871",
+      "enMarkdown": "[3] Source: Nielsen Media Research. Of the remaining 13%, 11 didn't have TV because they couldn't afford it. I'd argue that the missing 11% were probably also the 11% most susceptible to charisma.",
+      "zhMarkdown": "[3] 来源：尼尔森媒体研究。在剩下的 13% 中，有 11% 是因为买不起电视。我认为，这缺席的 11% 恰恰也是最容易受到魅力影响的 11%。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "17d3c3b44e8accba24b3615f60a6a708497a22329edbf5738a2ae18fc41ef048",
+      "enMarkdown": "[4] One implication of this theory is that parties shouldn't be too quick to reject candidates with skeletons in their closets. Charismatic candidates will tend to have more skeletons than squeaky clean dullards, but in practice that doesn't seem to lose elections. The current Bush, for example, probably did more drugs in his twenties than any preceding president, and yet managed to get elected with a base of evangelical Christians. All you have to do is say you've reformed, and stonewall about the details.",
+      "zhMarkdown": "[4] 该理论的一个推论是，政党不应该太急于拒绝那些有历史污点的候选人。有魅力的候选人往往比清白而乏味的人有更多的历史污点，但在实践中，这似乎并不会输掉选举。例如，现任布什在二十多岁时吸食的毒品可能比以往任何一位总统都多，但依然能依靠福音派基督徒的基本盘当选。你所要做的就是说你已经改过自新，并对细节守口如瓶。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "65e8f486eee589571a3c826bcaf3e94fb3208d6205b9aa2bbad2e2fa6196af5d",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Maria Daniels, Jessica Livingston, Jackie McDonough, and Robert Morris for reading drafts of this, and to Eric Raymond for pointing out that I was wrong about 1968.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Maria Daniels、Jessica Livingston、Jackie McDonough 和 Robert Morris 阅读本文草稿，并感谢 Eric Raymond 指出我对 1968 年大选的看法有误。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "4dd939a30cf7e6a0aea267e7b3ddba3774246b1435d3b35f5e4626878a7bc89c",
+      "enMarkdown": "[](http://reddit.com) [Comment](http://reddit.com/info/8zp7/comments) on this essay.",
+      "zhMarkdown": "在 [](http://reddit.com) [Reddit](http://reddit.com/info/8zp7/comments) 上讨论这篇文章。"
+    }
+  ]
+}

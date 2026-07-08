@@ -1,0 +1,125 @@
+{
+  "slug": "patentpledge",
+  "titleEn": "The Patent Pledge",
+  "titleZh": "专利承诺",
+  "dateText": "August 2011",
+  "publishedAt": "2011-08-01",
+  "sourceOrder": 95,
+  "sourceUrl": "https://paulgraham.com/patentpledge.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "16678e791efeb74ff52841491f4797619a1e09b001a002d0b482e2c0f56811dd",
+      "enMarkdown": "I realized recently that we may be able to solve part of the patent problem without waiting for the government.",
+      "zhMarkdown": "最近我意识到，我们或许无需等待政府出手，就能解决部分专利问题。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "fce84ec0c6d22a3eb4f5d629f7cb3591a64798ff844c4e55e17718d25685b81c",
+      "enMarkdown": "I've never been 100% sure whether patents help or hinder technological progress. When I was a kid I thought they helped. I thought they protected inventors from having their ideas stolen by big companies. Maybe that was truer in the past, when more things were physical. But regardless of whether patents are in general a good thing, there do seem to be bad ways of using them. And since bad uses of patents seem to be increasing, there is an increasing call for patent reform.",
+      "zhMarkdown": "我一直没能百分之百确定，专利到底是在促进还是在阻碍技术进步。小时候，我觉得专利是有益的。我认为它能保护发明人，防止他们的创意被大公司剽窃。在过去实体产品更多的年代，这或许更符合事实。但无论专利在总体上是否是一件好事，确实存在着一些滥用专利的恶劣行径。而且随着这些滥用行为日益增加，要求专利改革的呼声也越来越高。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "5d54b02569b0659827e17029b933ef5d48e526198ba39ce51e749704af611509",
+      "enMarkdown": "The problem with patent reform is that it has to go through the government. That tends to be slow. But recently I realized we can also attack the problem downstream. As well as pinching off the stream of patents at the point where they're issued, we may in some cases be able to pinch it off at the point where they're used.",
+      "zhMarkdown": "专利改革的问题在于，它必须通过政府来推动。这往往进展缓慢。但最近我意识到，我们也可以从下游来解决这个问题。除了在专利授予的源头进行限制，在某些情况下，我们或许也可以在专利使用的环节对其进行限制。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "591a415680233c72232af840da3c94d747048445e64e23f93055ff47947fcd0f",
+      "enMarkdown": "One way of using patents that clearly does not encourage innovation is when established companies with bad products use patents to suppress small competitors with good products. This is the type of abuse we may be able to decrease without having to go through the government.",
+      "zhMarkdown": "有一种显而易见无法促进创新的专利使用方式，那就是产品做得烂的老牌公司，利用专利去打压产品做得好的小型竞争对手。这种滥用行为，就是我们无需通过政府就有可能减少的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "548803c1e57527377cd6c93e1d70414c351c23635f25fab3192f4ce755678c52",
+      "enMarkdown": "The way to do it is to get the companies that are above pulling this sort of trick to pledge publicly not to. Then the ones that won't make such a pledge will be very conspicuous. Potential employees won't want to work for them. And investors, too, will be able to see that they're the sort of company that competes by litigation rather than by making good products.",
+      "zhMarkdown": "具体做法是，让那些不屑于玩这种手段的公司公开承诺不这样做。如此一来，那些不愿做出承诺的公司就会变得非常显眼。潜在的员工不会想为他们工作。投资者也能够看清，这家公司是靠打官司而不是靠做好产品来进行竞争的。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "8e7b4bcf8a27ca7bd819d380db2e4726dadc5d02bac1fd0ae3eb69d429af6e51",
+      "enMarkdown": "Here's the pledge:",
+      "zhMarkdown": "以下是这份承诺："
+    },
+    {
+      "id": 7,
+      "type": "quote",
+      "sourceHash": "b7e4ff2bdeead8ca7434e1f0e69c24c56bf7d84de099b7ab5f363db3ef1f7bc3",
+      "enMarkdown": "> No first use of software patents against companies with less than 25 people.",
+      "zhMarkdown": "> 绝不率先对人数少于 25 人的公司使用软件专利。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c5bf05bbf19175efb5f549ce98b9663e7054a85c38843eca4bb65511e3308749",
+      "enMarkdown": "I've deliberately traded precision for brevity. The patent pledge is not legally binding. It's like Google's \"Don't be evil.\" They don't define what evil is, but by publicly saying that, they're saying they're willing to be held to a standard that, say, Altria is not. And though constraining, \"Don't be evil\" has been good for Google. Technology companies win by attracting the most productive people, and the most productive people are attracted to employers who hold themselves to a higher standard than the law requires. [[1](#f1n)]",
+      "zhMarkdown": "我故意牺牲了精确性以换取简练。这份专利承诺并不具备法律约束力。它就像谷歌的“不作恶”（Don't be evil）。他们没有定义什么是“恶”，但通过公开表态，他们表明自己愿意接受比奥驰亚（Altria）等公司更高的标准约束。尽管“不作恶”是一种约束，但它对谷歌大有裨益。科技公司靠吸引最具生产力的人才来取胜，而最具生产力的人才，往往会被那些用高于法律要求的标准来约束自己的雇主所吸引。[[1](#f1n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d5ace2411ff6bce1b58b03516b6d8c0b494ad606bc5d424490cfec60d37833b2",
+      "enMarkdown": "The patent pledge is in effect a narrower but open source \"Don't be evil.\" I encourage every technology company to adopt it. If you want to help fix patents, encourage your employer to.",
+      "zhMarkdown": "这份专利承诺实际上是一个范围更窄、但开源版的“不作恶”。我鼓励每一家科技公司都加入这一承诺。如果你想帮着解决专利问题，请去说服你的雇主加入。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "7dcfb4c8ad986f68ef459109bdc92566a0668dd208a6fcae43eee17ff228bc71",
+      "enMarkdown": "Already most technology companies wouldn't sink to using patents on startups. You don't see Google or Facebook suing startups for patent infringement. They don't need to. So for the better technology companies, the patent pledge requires no change in behavior. They're just promising to do what they'd do anyway. And when all the companies that won't use patents on startups have said so, the holdouts will be very conspicuous.",
+      "zhMarkdown": "目前，大多数科技公司已经不屑于对创业公司使用专利了。你没见过谷歌或 Facebook 因为专利侵权起诉创业公司。他们没这个必要。因此，对于优秀的科技公司来说，这份专利承诺不需要他们改变任何行为。他们只是承诺去做他们本来就会做的事情。而当所有不愿对创业公司使用专利的公司都表态之后，那些死守不放的公司就会变得非常扎眼。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "493531d9dc47227dc8c607ba0d02124208fafd9cd5a58cf6900c4fbe7def8073",
+      "enMarkdown": "The patent pledge doesn't fix every problem with patents. It won't stop patent trolls, for example; they're already pariahs. But the problem the patent pledge does fix may be more serious than the problem of patent trolls. Patent trolls are just parasites. A clumsy parasite may occasionally kill the host, but that's not its goal. Whereas companies that sue startups for patent infringement generally do it with explicit goal of keeping their product off the market.",
+      "zhMarkdown": "专利承诺并不能解决专利的所有问题。例如，它无法阻止专利流氓（patent trolls），因为他们本来就已经是人人喊打的社会公敌。但专利承诺所解决的问题，可能比专利流氓问题还要严重。专利流氓只是寄生虫。愚蠢的寄生虫偶尔可能会杀死宿主，但那并不是它的目的。而那些因为专利侵权起诉创业公司的公司，其明确目的通常就是为了让对方的产品无法上市。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "f90198abddcec43f386190492df99fbb0e9aee39f79421f046486bd4a4d1148f",
+      "enMarkdown": "Companies that use patents on startups are attacking innovation at the root. Now there's something any individual can do about this problem, without waiting for the government: ask companies where they stand.",
+      "zhMarkdown": "对创业公司滥用专利的公司，是在从根本上扼杀创新。现在，任何个人都可以为解决这个问题做点什么，而无需等待政府：去问问各家公司，他们的立场是什么。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "59c4f0a8038c91a734351fa2b1ade0ad3901c598854a0ffee5e78b6bbc6c6237",
+      "enMarkdown": "[Patent Pledge Site](http://thepatentpledge.org)",
+      "zhMarkdown": "[专利承诺网站](http://thepatentpledge.org)"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "1db6bf5e676f09aca920f983d0a43c6c860d2ba0fad2ef4bf72bcbad09c12788",
+      "enMarkdown": "**Notes:**",
+      "zhMarkdown": "**注：**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a378e09cbf824325f1ea94299cdecf4d66e930c6698ef24e5f1b2bd4c9473d73",
+      "enMarkdown": "[1] Because the pledge is deliberately vague, we're going to need common sense when intepreting it. And even more vice versa: the pledge is vague in order to make people use common sense when interpreting it.",
+      "zhMarkdown": "[1] 因为承诺的内容刻意保持了模糊，所以我们在解读它时需要运用常识。反过来更是如此：承诺之所以模糊，就是为了让人在解读它时必须运用常识。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "626800d7ddb22e7bcd29e3298800bdc4037c979bd137a1f7c59ce3d9be257864",
+      "enMarkdown": "So for example I've deliberately avoided saying whether the 25 people have to be employees, or whether contractors count too. If a company has to split hairs that fine about whether a suit would violate the patent pledge, it's probably still a dick move.",
+      "zhMarkdown": "所以，例如我故意没有说明这 25 人必须是正式员工，还是把外包人员也算在内。如果一家公司在起诉是否违反专利承诺的问题上，需要抠字眼到这种地步，那这种行为本身大概依然很下作。"
+    }
+  ]
+}

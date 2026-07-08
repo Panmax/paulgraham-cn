@@ -1,0 +1,370 @@
+{
+  "slug": "submarine",
+  "titleEn": "The Submarine",
+  "titleZh": "潜水艇",
+  "dateText": "April 2005",
+  "publishedAt": "2005-04-01",
+  "sourceOrder": 184,
+  "sourceUrl": "https://paulgraham.com/submarine.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "336a6f0f4c443f93adce75fe9ecfcfe6e5d8a9154d676e49c5a04ff19bc9f762",
+      "enMarkdown": "\"Suits make a corporate comeback,\" says the [New\nYork Times](http://www.nytimes.com/2005/04/14/fashion/thursdaystyles/14peacock.html?ex=1271131200&en=e96f2670387e3636&ei=5090&partner=rssuserland). Why does this sound familiar? Maybe because the suit was also back in [February](http://www.cvbizlink.com/articles/2005/04/07/news/news/doc42406f05edf53293947237.prt),  [September\n2004](http://www.usatoday.com/money/industries/retail/2004-09-01-suits_x.htm), [June\n2004](http://www.cnn.com/2004/BUSINESS/06/23/go.fashion.jones/), [March\n2004](http://www.post-gazette.com/pg/04062/279616.stm), [September\n2003](http://www.southcoasttoday.com/daily/09-03/09-21-03/c01li238.htm),  [November\n2002](http://www.businessweek.com/magazine/content/02_46/b3808122.htm), [April 2002](http://www.pittsburghlive.com/x/s_65540.html), and [February\n2002](http://news.bbc.co.uk/1/hi/business/1836010.stm).",
+      "zhMarkdown": "“西装重返企业界，”[《纽约时报》](http://www.nytimes.com/2005/04/14/fashion/thursdaystyles/14peacock.html?ex=1271131200&en=e96f2670387e3636&ei=5090&partner=rssuserland)如是说。为什么这话听着耳熟？也许是因为西装在[2005年2月](http://www.cvbizlink.com/articles/2005/04/07/news/news/doc42406f05edf53293947237.prt)、[2004年9月](http://www.usatoday.com/money/industries/retail/2004-09-01-suits_x.htm)、[2004年6月](http://www.cnn.com/2004/BUSINESS/06/23/go.fashion.jones/)、[2004年3月](http://www.post-gazette.com/pg/04062/279616.stm)、[2003年9月](http://www.southcoasttoday.com/daily/09-03/09-21-03/c01li238.htm)、[2002年11月](http://www.businessweek.com/magazine/content/02_46/b3808122.htm)、[2002年4月](http://www.pittsburghlive.com/x/s_65540.html)以及[2002年2月](http://news.bbc.co.uk/1/hi/business/1836010.stm)也都“重返”过。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "28a43f2373225aa033c2cd317b3b15702a6e8fe2a76844c38d1d40717983635a",
+      "enMarkdown": "Why do the media keep running stories saying suits are back? Because PR firms [tell](http://www.maximumexposurepr.com/middleMAA.html) them to. One of the most surprising things I discovered during my brief business career was the existence of the PR industry, lurking like a huge, quiet submarine beneath the news. Of the stories you read in traditional media that aren't about politics, crimes, or disasters, more than half probably come from PR firms.",
+      "zhMarkdown": "为什么媒体总在没完没了地报道西装重返潮流？因为公关公司[让](http://www.maximumexposurepr.com/middleMAA.html)他们这么写的。在我短暂的商业生涯中，最让我惊讶的发现之一就是公关行业的存在。它就像一艘巨大而无声的潜水艇，潜伏在新闻舆论的深水区之下。在传统媒体上，除去政治、犯罪和灾难新闻，你读到的大部分故事，可能有一半以上都源自公关公司的运作。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "614a4868cf7786d0a0591c49daf9c80d9078b7691a04ce48707474c3496e5e82",
+      "enMarkdown": "I know because I spent years hunting such \"press hits.\" Our startup spent its entire marketing budget on PR: at a time when we were assembling our own computers to save money, we were paying a PR firm $16,000 a month. And they were worth it. PR is the news equivalent of search engine optimization; instead of buying ads, which readers ignore, you get yourself inserted directly into the stories. [[1](#f1n)]",
+      "zhMarkdown": "我之所以知道，是因为我曾花了好几年时间去追逐这种“媒体曝光”。当时我们的创业公司把全部营销预算都花在了公关上：在那个为了省钱我们甚至自己组装电脑的时期，我们每个月要付给公关公司 16,000 美元。但这钱花得值。公关就像是新闻界里的“搜索引擎优化”（SEO）；你不用去买读者会直接忽略的广告，而是直接把自己植入到新闻报道之中。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "9eeef0e5f05f9136881187c9ebac1e45eb1497b15e9b0355f5c204071f2640c8",
+      "enMarkdown": "[Our PR firm](http://schwartz-pr.com/client_coverage.php) was one of the best in the business. In 18 months, they got press hits in over 60 different publications.  And we weren't the only ones they did great things for. In 1997 I got a call from another startup founder considering hiring them to promote his company. I told him they were PR gods, worth every penny of their outrageous fees. But I remember thinking his company's name was odd. Why call an auction site \"eBay\"?",
+      "zhMarkdown": "[我们的公关公司](http://schwartz-pr.com/client_coverage.php)是行业里最顶尖的之一。在 18 个月里，他们帮我们在 60 多家不同的出版物上争取到了报道。而且我们不是唯一的受益者。1997 年，我接到另一位创业公司创始人的电话，他正考虑聘请这家公司来宣传自己的项目。我告诉他，这家公关公司简直是神一般的存在，虽然收费高得离谱，但绝对物超所值。不过我记得当时觉得他公司的名字挺怪的。为什么要把一个拍卖网站叫做 “eBay” 呢？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "7af092f2fb1a8a63dd77b1e9de1dfe273afaf6967739892c36bdd031ecd622c5",
+      "enMarkdown": "**Symbiosis**",
+      "zhMarkdown": "**共生关系**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "a83820a7910ea018dfdda245a44a1dfc53196b7eabdbcee652d1a22e24ee3be6",
+      "enMarkdown": "PR is not dishonest. Not quite. In fact, the reason the best PR firms are so effective is precisely that they aren't dishonest. They give reporters genuinely valuable information. A good PR firm won't bug reporters just because the client tells them to; they've worked hard to build their credibility with reporters, and they don't want to destroy it by feeding them mere propaganda.",
+      "zhMarkdown": "公关并不等同于撒谎。不完全是。事实上，最顶尖的公关公司之所以如此高效，恰恰是因为他们不撒谎。他们向记者提供真正有价值的信息。一家优秀的公关公司不会仅仅因为客户的要求就去烦记者；他们深知与记者建立信任不易，绝不想因为塞给对方一些纯粹的宣传垃圾而毁掉自己的信誉。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "c3f0230a88aac516822cdc19de5c45aed70f6a1bd6a26c5680b6901eecb49f9f",
+      "enMarkdown": "If anyone is dishonest, it's the reporters. The main reason PR firms exist is that reporters are lazy. Or, to put it more nicely, overworked. Really they ought to be out there digging up stories for themselves. But it's so tempting to sit in their offices and let PR firms bring the stories to them. After all, they know good PR firms won't lie to them.",
+      "zhMarkdown": "如果说有人不诚实，那也是记者。公关公司存在的主要原因，其实是记者的懒惰。或者说得好听点，是工作超负荷。按理说，他们应该自己去挖掘新闻。但天天坐在办公室里，等着公关公司把写好的故事送上门来，这种诱惑实在太大了。毕竟，他们知道好的公关公司不会对他们撒谎。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "1e3799314fa7f02dd4a0122d04f3ac0480ca27e475fdea009fd9c590cb5a5596",
+      "enMarkdown": "A good flatterer doesn't lie, but tells his victim selective truths (what a nice color your eyes are). Good PR firms use the same strategy: they give reporters stories that are true, but whose truth favors their clients.",
+      "zhMarkdown": "一个高明的奉承者从不撒谎，他只是选择性地向对方吐露真相（比如：你的眼睛颜色真好看）。优秀的公关公司也采用同样的策略：他们给记者提供真实的故事，但这些事实恰好对他们的客户有利。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9b4e8f816ad298f0fc756920d1e123436b115bececc7f91213745f3fc4e690dc",
+      "enMarkdown": "For example, our PR firm often pitched stories about how the Web let small merchants compete with big ones. This was perfectly true. But the reason reporters ended up writing stories about this particular truth, rather than some other one, was that small merchants were our target market, and we were paying the piper.",
+      "zhMarkdown": "例如，我们的公关公司经常抛出一些故事，讲述互联网如何让小商户与大巨头同台竞技。这完全是事实。但记者们最终选择报道这个事实，而不是其他事实的原因，是因为小商户正是我们的目标市场，而我们才是出钱的金主。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "627ee902f45f43610609159046a0f399b8d00a7229bf0501653157fb9aea0bb8",
+      "enMarkdown": "Different publications vary greatly in their reliance on PR firms. At the bottom of the heap are the trade press, who make most of their money from advertising and would give the magazines away for free if advertisers would let them. [[2](#f2n)] The average trade publication is a bunch of ads, glued together by just enough articles to make it look like a magazine. They're so desperate for \"content\" that some will print your press releases almost verbatim, if you take the trouble to write them to read like articles.",
+      "zhMarkdown": "不同媒体对公关公司的依赖程度千差万别。处于食物链底端的是行业媒体，他们的大部分收入来自广告，如果广告商允许，他们甚至愿意免费赠阅杂志。[[2](#f2n)] 典型的行业媒体就是一堆广告，中间夹杂着勉强够数的文章，让它看起来像本杂志。他们对“内容”极度饥渴，只要你肯花心思把公关稿写得像篇新闻，有些媒体甚至会一字不差地直接发表。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "cb59a848df7fd26d0b7eb227ff5ba1be3c33d5dbfa7e5b4c9093a1fc77d34a9e",
+      "enMarkdown": "At the other extreme are publications like the *New York Times* and the *Wall Street Journal*. Their reporters do go out and find their own stories, at least some of the time. They'll listen to PR firms, but briefly and skeptically. We managed to get press hits in almost every publication we wanted, but we never managed to crack the print edition of the *Times*. [[3](#f3n)]",
+      "zhMarkdown": "而在另一个极端，则是像《纽约时报》和《华尔街日报》这样的顶级媒体。他们的记者确实会自己出去跑新闻，至少部分时间是这样。他们也会听取公关公司的意见，但时间很短，且满腹狐疑。我们几乎在所有想上的媒体上都成功拿到了曝光，但唯独没能攻克《纽约时报》的印刷版。[[3](#f3n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "58498a1909aae59805c7532aeb64104df3deacade30a7dc529c76ec87fc3525e",
+      "enMarkdown": "The weak point of the top reporters is not laziness, but vanity. You don't pitch stories to them. You have to approach them as if you were a specimen under their all-seeing microscope, and make it seem as if the story you want them to run is something they thought of themselves.",
+      "zhMarkdown": "顶级记者的软肋不是懒惰，而是虚荣。你不能直接塞故事给他们。你必须表现得像是在他们洞察一切的显微镜下的一个标本，让他们觉得，你希望他们报道的故事，其实是他们自己独立想出来的点子。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "99786e475d746563a1a9d1a78bbe9c6c180d8672f479a823c209be90d10a2d04",
+      "enMarkdown": "Our greatest PR coup was a two-part one. We estimated, based on some fairly informal math, that there were about 5000 stores on the Web. We got one paper to print this number, which seemed neutral enough. But once this \"fact\" was out there in print, we could quote it to other publications, and claim that with 1000 users we had 20% of the online store market.",
+      "zhMarkdown": "我们最漂亮的一次公关战役分两步走。首先，我们根据一些相当随意的估算，算出网上大约有 5000 家商铺。我们设法让一家报纸报道了这个数字，这看起来挺中立的。但一旦这个“事实”见报，我们就可以在其他媒体上引用它，声称我们拥有 1000 个用户，占领了线上网店市场 20% 的份额。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "febc4be34b0060fc33eff4880dbbcf1a39e191d349218287b5fb57b80b0a312e",
+      "enMarkdown": "This was roughly true. We really did have the biggest share of the online store market, and 5000 was our best guess at its size. But the way the story appeared in the press sounded a lot more definite.",
+      "zhMarkdown": "这大致是真的。我们确实拥有网店市场最大的份额，而 5000 也是我们对市场规模最靠谱的猜测。但经过媒体报道后，这个故事听起来要比实际情况确定得多。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "09e415531d9fb948fd0ead04dfd6c62ae2dfe62217f0abab4354d790b3327d8b",
+      "enMarkdown": "Reporters like definitive statements. For example, many of the stories about Jeremy Jaynes's conviction say that he was one of the 10 worst spammers. This \"fact\" originated in Spamhaus's ROKSO list, which I think even Spamhaus would admit is a rough guess at the top spammers. The first stories about Jaynes cited this source, but now it's simply repeated as if it were part of the indictment. [[4](#f4n)]",
+      "zhMarkdown": "记者喜欢确凿的结论。例如，许多关于杰里米·杰尼斯（Jeremy Jaynes）被定罪的报道都称他是“全球十大垃圾邮件发送者”之一。这个“事实”源自 Spamhaus 的 ROKSO 列表，但我认为即便是 Spamhaus 自己也会承认，这只是对顶级垃圾邮件发送者的一个粗略估算。最早关于杰尼斯的报道还注明了这一出处，但现在大家只是不断重复，仿佛它就是起诉书里写死的内容一样。[[4](#f4n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "54e964575efc9facbec4ad8ab377c7426a401b864061684ed278c4a7c03a2380",
+      "enMarkdown": "All you can say with certainty about Jaynes is that he was a fairly big spammer. But reporters don't want to print vague stuff like \"fairly big.\" They want statements with punch, like \"top ten.\" And PR firms give them what they want. Wearing suits, we're told, will make us [3.6\npercent](http://sanfrancisco.bizjournals.com/sanfrancisco/stories/2002/02/25/story5.html?t=printable) more productive.",
+      "zhMarkdown": "关于杰尼斯，你唯一能确信的是他是一个相当大的垃圾邮件发送者。但记者不想写“相当大”这种模糊的字眼。他们想要有冲击力的表述，比如“前十名”。公关公司正好投其所好。就像媒体告诉我们，穿西装能让我们的工作效率提升 [3.6%](http://sanfrancisco.bizjournals.com/sanfrancisco/stories/2002/02/25/story5.html?t=printable)。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "dc44cd2c3492c6ab27015e7a9adc436c83cb560f1119ed83d05c565d56ce8726",
+      "enMarkdown": "**Buzz**",
+      "zhMarkdown": "**造势**"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "5adad028dca58f7ceedd9e8169df6d58cddcc6d2ba887e781df74e500d402103",
+      "enMarkdown": "Where the work of PR firms really does get deliberately misleading is in the generation of \"buzz.\" They usually feed the same story to several different publications at once. And when readers see similar stories in multiple places, they think there is some important trend afoot. Which is exactly what they're supposed to think.",
+      "zhMarkdown": "公关公司真正开始产生误导的地方，在于制造“风口”（buzz）。他们通常会把同一个故事同时喂给几家不同的媒体。当读者在多个地方看到相似的报道时，就会觉得某种重大趋势正在发生。而这正是公关公司想要达到的效果。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "df250637cab87d3f11e3f09c71e8ebe0e862f291873ed955f514c2ffe11c8345",
+      "enMarkdown": "When Windows 95 was launched, people waited outside stores at midnight to buy the first copies. None of them would have been there without PR firms, who generated such a buzz in the news media that it became self-reinforcing, like a nuclear chain reaction.",
+      "zhMarkdown": "Windows 95 发布时，人们在半夜排起长队，只为买到第一批拷贝。如果没有公关公司在背后推波助澜，绝不会出现这种场面。他们在新闻媒体中制造了如此巨大的声势，以至于它开始自我强化，像核连锁反应一样停不下来。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "a80bfd6992c0cfc8f53c2c9d482f049f7f85950eb8ad2770d9f9c61a8d3f274f",
+      "enMarkdown": "I doubt PR firms realize it yet, but the Web makes it possible to track them at work. If you search for the obvious phrases, you turn up several efforts over the years to place stories about the return of the suit. For example, the Reuters article  that got picked up by [USA\nToday](http://www.usatoday.com/money/industries/retail/2004-09-01-suits_x.htm) in September 2004. \"The suit is back,\" it begins.",
+      "zhMarkdown": "虽然公关公司自己可能还没意识到，但互联网让追踪他们的行踪成为了可能。如果你去搜索一些显而易见的关键词，就会发现这些年来，他们为了炮制“西装重返潮流”而做出的多次努力。例如，路透社的一篇文章在 2004 年 9 月被[《今日美国》](http://www.usatoday.com/money/industries/retail/2004-09-01-suits_x.htm)转载，开头第一句就是：“西装回来了。”"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "ef113b1bf0f612f5c8c1ef6e0a4982f207d090f70b9c91e3d28221faa9c61b23",
+      "enMarkdown": "Trend articles like this are almost always the work of PR firms. Once you know how to read them, it's straightforward to figure out who the client is. With trend stories, PR firms usually line up one or more \"experts\" to talk about the industry generally. In this case we get three: the NPD Group, the creative director of GQ, and a research director at Smith Barney. [[5](#f5n)] When you get to the end of the experts, look for the client. And bingo, there it is: The Men's Wearhouse.",
+      "zhMarkdown": "这类趋势报道几乎无一例外都是公关公司的杰作。一旦你学会了如何解读，顺藤摸瓜找到背后的客户就变得易如反掌。在这类趋势故事中，公关公司通常会搬出一位或多位“专家”来泛泛地谈论行业。在这次的案例中，我们看到了三位：NPD 集团、《GQ》杂志的创意总监，以及美邦（Smith Barney）的研究总监。[[5](#f5n)] 当你把这些专家的发言看完，接着去找最后提到的那个品牌。果不其然，就是它：男士服饰连锁店 The Men's Wearhouse。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "78db1bbe1e771426cc2054a6e7045882b07c9557b07a1c1ebb1e11550fb35fca",
+      "enMarkdown": "Not surprising, considering The Men's Wearhouse was at that moment running ads saying \"The Suit is Back.\" Talk about a successful press hit-- a wire service article whose first sentence is your own ad copy.",
+      "zhMarkdown": "这并不奇怪，因为 The Men's Wearhouse 当时正在大打广告，口号就是“西装重返潮流”。这真是一次完美的公关植入——通讯社通稿的第一句，直接就是你的广告词。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "844a3b4317b8e8b2671a25e10310546365e890735b2e21c8a885b7d7e29bdbd6",
+      "enMarkdown": "The secret to finding other press hits from a given pitch is to realize that they all started from the same document back at the PR firm. Search for a few key phrases and the names of the clients and the experts, and you'll turn up other variants of this story.",
+      "zhMarkdown": "要找出同一次公关游说产生的其他报道，秘诀在于意识到它们都源自公关公司写好的同一份底稿。只要搜索几个关键词、客户名称和专家名字，你就能挖出这个故事的其他变体。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "822cc81b036099e4562a2d7507ff27ce98f079155fc6dc092afa62af1b7cf632",
+      "enMarkdown": "[Casual\nfridays are out and dress codes are in](http://bostonworks.boston.com/globe/articles/091904_suit.html) writes Diane E. Lewis in *The Boston Globe*. In a remarkable coincidence, Ms. Lewis's industry contacts also include the creative director of GQ.",
+      "zhMarkdown": "戴安·E·刘易斯（Diane E. Lewis）在《波士顿环球报》上写道：[“便装星期五已经过时，着装规范重新抬头”](http://bostonworks.boston.com/globe/articles/091904_suit.html)。惊人巧合的是，刘易斯女士的行业人脉里也包括了《GQ》杂志的创意总监。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "f8acaaa9c5ebf28f54e9ff67791e9fa4a17bb04609c2154afc4fa0f951031626",
+      "enMarkdown": "[Ripped jeans and T-shirts are out,](http://www.usnews.com/usnews/biztech/articles/041108/8eedress.htm) writes Mary Kathleen Flynn in *US News & World Report*. And *she too* knows the creative director of GQ.",
+      "zhMarkdown": "玛丽·凯瑟琳·弗林（Mary Kathleen Flynn）在《美国新闻与世界报道》中写道：[“破洞牛仔裤和T恤已经过时”](http://www.usnews.com/usnews/biztech/articles/041108/8eedress.htm)。而*她也同样*认识《GQ》杂志的创意总监。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "1dad7d8da624f00c95e60183dc04d6ec10c8d63fd25848a7504b08856e8058e5",
+      "enMarkdown": "[Men's suits\nare back](http://www.sexbuzz.com/style/9,0004,00.shtml) writes Nicole Ford in Sexbuzz.Com (\"the ultimate men's entertainment magazine\").",
+      "zhMarkdown": "妮可·福特（Nicole Ford）在 Sexbuzz.Com（“终极男士娱乐杂志”）上写道：[“男士西装重返舞台”](http://www.sexbuzz.com/style/9,0004,00.shtml)。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "066be6c30e9df990f893eaf71a4ac44ce1336b09b87f9bb8dc607b60443ad04e",
+      "enMarkdown": "[Dressing\ndown loses appeal as men suit up at the office](http://www.detnews.com/2004/careers/0405/28/b01-149207.htm) writes Tenisha Mercer of *The Detroit News*.",
+      "zhMarkdown": "《底特律新闻报》的特尼莎·默瑟（Tenisha Mercer）写道：[“随着男士在办公室穿起西装，休闲着装失去吸引力”](http://www.detnews.com/2004/careers/0405/28/b01-149207.htm)。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "ca79d0a6c181e5c4e6b58bd7a0a29670ecb9a1529ce3e4a754cf22c63a19d417",
+      "enMarkdown": "Now that so many news articles are online, I suspect you could find a similar pattern for most trend stories placed by PR firms. I propose we call this new sport \"PR diving,\" and I'm sure there are far more striking examples out there than this clump of five stories.",
+      "zhMarkdown": "现在有这么多新闻文章都发在网上，我怀疑你可以用同样的方法，摸清公关公司炮制的大多数趋势报道的套路。我建议把这项新运动称为“公关考古”（PR diving），而且我敢肯定，网上绝对有比这五个连环报道更惊人、更具戏剧性的案例。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "e099382f40b4a43cec5e65db29929f075899246814fa0e406dd445b78b913b33",
+      "enMarkdown": "**Online**",
+      "zhMarkdown": "**线上时代**"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "0cf50bc86da8953a513649f13cfdc383c95613d56b75c21cfe983576baaa25ba",
+      "enMarkdown": "After spending years chasing them, it's now second nature to me to recognize press hits for what they are. But before we hired a PR firm I had no idea where articles in the mainstream media came from. I could tell a lot of them were crap, but I didn't realize why.",
+      "zhMarkdown": "在亲身追逐了多年曝光之后，我现在一眼就能看穿这些公关稿。但在我们雇佣公关公司之前，我完全不知道主流媒体上的文章是从哪来的。我当时能看出很多报道很烂，但我想不通为什么。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "de2ee448a9d4273c2b2ce54c83d87b3076805402dcc18b508969f11486f94461",
+      "enMarkdown": "Remember the exercises in critical reading you did in school, where you had to look at a piece of writing and step back and ask whether the author was telling the whole truth? If you really want to be a critical reader, it turns out you have to step back one step further, and ask not just whether the author is telling the truth, but *why he's writing about this subject at all.*",
+      "zhMarkdown": "还记得你在学校做过的那些批判性阅读训练吗？老师让你看着一篇文章，退一步想想作者是否隐瞒了部分真相。但如果你真的想成为一个批判性读者，事实证明你得再往后退一步，不仅要问作者写的是否属实，更要问：*他为什么偏偏要写这个主题？*"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "63110d461ccb33f25f861c687153a677844037a2754ed079247951f076cf9193",
+      "enMarkdown": "Online, the answer tends to be a lot simpler. Most people who publish online write what they write for the simple reason that they want to. You can't see the fingerprints of PR firms all over the articles, as you can in so many print publications-- which is one of the reasons, though they may not consciously realize it, that readers trust bloggers more than *Business Week*.",
+      "zhMarkdown": "在网上，答案往往要简单得多。大多数在网上发表内容的人，写东西的原因很简单：他们自己想写。你不会在文章里看到公关公司处心积虑留下的指纹，而在许多纸媒上这种指纹无处不在。这就是为什么读者直觉上更信任博客作者，而不是《商业周刊》的原因之一，尽管他们自己可能还没意识到这一点。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "a5dd8124817166620f599bc05db55ac3a43f1566dfd8f8790b2b52fa4d187ce0",
+      "enMarkdown": "I was talking recently to a friend who works for a big newspaper. He thought the print media were in serious trouble, and that they were still mostly in denial about it. \"They think the decline is cyclic,\" he said. \"Actually it's structural.\"",
+      "zhMarkdown": "我最近和一位在一家大报社工作的朋友聊天。他认为纸媒正面临严重危机，但大多数同行仍然处于否认状态。“他们觉得这种下滑是周期性的，”他说，“但实际上，这是结构性的。”"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "61c70e2f165cd590249bd5d7e29b843f074c5096667c24ff92638fbc28ff0ae0",
+      "enMarkdown": "In other words, the readers are leaving, and they're not coming back.",
+      "zhMarkdown": "换句话说，读者正在流失，而且再也不会回来了。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "50111fa2677bfcbb3605ffe1663abb2c5b8368607dd7126e91c9038f70d86125",
+      "enMarkdown": "Why? I think the main reason is that the writing online is more honest. Imagine how incongruous the *New York Times* article about suits would sound if you read it in a blog:",
+      "zhMarkdown": "为什么？我认为最主要的原因是网上的写作更真诚。试想一下，如果把《纽约时报》那篇关于西装的文章放到博客里，读起来会有多违和："
+    },
+    {
+      "id": 36,
+      "type": "quote",
+      "sourceHash": "b353f76a2ead936345bc687cc5e685941e22112166004de9929d3182ab43aa26",
+      "enMarkdown": "> The urge to look corporate-- sleek, commanding, prudent, yet with just a touch of hubris on your well-cut sleeve-- is an unexpected development in a time of business disgrace.",
+      "zhMarkdown": "> 在商业丑闻频发的时期，人们却出人意料地渴望展现出企业精英的形象——干练、威严、谨慎，同时在剪裁得体的袖口上流露出一丝恰到好处的傲慢。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "2a5c2545abde6e1450765a58f976e7f7ea66d9378790a083f8bcb9246c005741",
+      "enMarkdown": "The problem with this article is not just that it originated in a PR firm. The whole tone is bogus. This is the tone of someone writing down to their audience.",
+      "zhMarkdown": "这篇文章的问题不仅在于它源自公关公司的投喂，更在于它的整个腔调都是虚假的。这是一种居高临下、俯视读者的傲慢腔调。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "826b10c9bfba304a266af9a40714a9a8fa8b02c399893a41761633a36f614051",
+      "enMarkdown": "Whatever its flaws, the writing you find online is authentic. It's not mystery meat cooked up out of scraps of pitch letters and press releases, and pressed into molds of zippy journalese. It's people writing what they think.",
+      "zhMarkdown": "不论网上的写作有什么缺陷，它至少是真实的。它不是用公关通稿和简报的边角料拼凑出来、再塞进华丽新闻腔模具里的神秘肉饼。它是人们手写我心的真实想法。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "aaa6079effc0a519f3e104373df97f1b08fc788c473c05ff736ed16f525d988c",
+      "enMarkdown": "I didn't realize, till there was an alternative, just how artificial most of the writing in the mainstream media was. I'm not saying I used to believe what I read in *Time* and *Newsweek*. Since high school, at least, I've thought of magazines like that more as guides to what ordinary people were being [told](https://paulgraham.com/say.html) to think than as sources of information. But I didn't realize till the last few years that writing for publication didn't have to mean writing that way. I didn't realize you could write as candidly and informally as you would if you were writing to a friend.",
+      "zhMarkdown": "在出现替代品之前，我从未意识到主流媒体的写作有多么虚伪。我不是说我以前相信《时代》和《新闻周刊》上的内容。至少从高中起，我就觉得这类杂志更像是“普通人被[要求](https://paulgraham.com/say.html)去思考什么”的指南针，而不是真正的信息源。但直到最近几年我才明白，公开发表的文章并不一定非要用那种腔调来写。我没想到，你完全可以用像给朋友写信那样坦诚、随性的笔触来写作。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "b3d8a6e8e0f0a9a80c0175fc2e8d3d0a195085490bb6dafdec841a12f1f6eefa",
+      "enMarkdown": "Readers aren't the only ones who've noticed the change. The PR industry has too. A hilarious [article](http://www.prsa.org/_Publications/magazines/0802news1.asp) on the site of the PR Society of America gets to the heart of the matter:",
+      "zhMarkdown": "不仅读者注意到了这种变化，公关行业也注意到了。美国公关协会（PRSA）网站上一篇令人发笑的[文章](http://www.prsa.org/_Publications/magazines/0802news1.asp)一针见血地指出："
+    },
+    {
+      "id": 41,
+      "type": "quote",
+      "sourceHash": "98092871a6f2dc7110d5d76bfc74e27fd315a2b33507fa9cf116e347c69b642f",
+      "enMarkdown": "> Bloggers are sensitive about becoming mouthpieces for other organizations and companies, which is the reason they began blogging in the first place.",
+      "zhMarkdown": "> 博客作者对于成为其他组织和公司的传声筒非常敏感，而这恰恰是他们最初选择写博客的原因。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "c9129eed84372b30a182652efb865784ae2f89c7e5ff2aa30d90770b62316808",
+      "enMarkdown": "PR people fear bloggers for the same reason readers like them. And that means there may be a struggle ahead. As this new kind of writing draws readers away from traditional media, we should be prepared for whatever PR mutates into to compensate. When I think how hard PR firms work to score press hits in the traditional media, I can't imagine they'll work any less hard to feed stories to bloggers, if they can figure out how.",
+      "zhMarkdown": "公关人员害怕博主，原因正与读者喜欢博主相同。这意味着未来可能会有一场博弈。随着这种全新的写作方式将读者从传统媒体吸引走，我们必须警惕公关为了生存而做出的变异。一想到公关公司为了在传统媒体上争夺版面付出了多大的努力，我就无法想象，如果他们摸索出了门道，会不遗余力地去向博主们渗透和投喂故事。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "ec45575eebafe15fd2532908239fe23e47d6d8322f59cede8fc85d63989a5f61",
+      "enMarkdown": "[1] PR has at least one beneficial feature: it favors small companies. If PR didn't work, the only alternative would be to advertise, and only big companies can afford that.",
+      "zhMarkdown": "[1] 公关至少有一个好处：它对小公司有利。如果公关不起作用，唯一的替代方案就是打广告，而那只有大公司才玩得起。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "09bb7459c67a1283f1ae03a08a652024744b7ff33f69af9080e867383b9dc11e",
+      "enMarkdown": "[2] Advertisers pay less for ads in free publications, because they assume readers ignore something they get for free. This is why so many trade publications nominally have a cover price and yet give away free subscriptions with such abandon.",
+      "zhMarkdown": "[2] 广告商在免费刊物上投放广告付的钱更少，因为他们默认读者会忽略免费得到的东西。这就是为什么那么多行业媒体名义上有定价，却又极其慷慨地四处赠送免费订阅的原因。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "69e2b7f4b9cd2980b9ecaeac62b42ba0cf9abbe05a54d5e4a183b2424f3f4c0f",
+      "enMarkdown": "[3] Different sections of the *Times* vary so much in their standards that they're practically different papers. Whoever fed the style section reporter this story about suits coming back would have been sent packing by the regular news reporters.",
+      "zhMarkdown": "[3] 《纽约时报》不同版面的标准差异巨大，简直像不同的报纸。把“西装重返”这种故事塞给时尚版记者的公关，要是碰到常规新闻版的记者，早就被扫地出门了。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "fddd53a2c80882f23750c99e58fe4425babc22e594bc94312ce638e0029002b0",
+      "enMarkdown": "[4] The most striking example I know of this type is the \"fact\" that the Internet worm of 1988 infected 6000 computers. I was there when it was cooked up, and this was the recipe: someone guessed that there were about 60,000 computers attached to the Internet, and that the worm might have infected ten percent of them.",
+      "zhMarkdown": "[4] 我知道最典型的例子是关于“1988年互联网蠕虫病毒感染了 6000 台电脑”这个“事实”。当时我也在场，这个数字是这样编出来的：有人估计当时连接到互联网的电脑大约有 60,000 台，而蠕虫可能感染了其中 10%。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "c4d03fc54ae778b3160168ee518a2615641875b3ef51668458c7b6c9e9e9e2a7",
+      "enMarkdown": "Actually no one knows how many computers the worm infected, because the remedy was to reboot them, and this destroyed all traces. But people like numbers. And so this one is now [replicated](http://www.google.com/search?q=internet+worm+1988+6000) all over the Internet, like a little worm of its own.",
+      "zhMarkdown": "实际上，没有人知道蠕虫到底感染了多少台电脑，因为当时解决问题的方法是直接重启，这抹去了所有痕迹。但人们喜欢数字。于是这个数字现在在互联网上被到处[复制](http://www.google.com/search?q=internet+worm+1988+6000)，就像它自己也变成了一个小蠕虫一样。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "064604f1c38d1093b32947a9ae030ef5147e430103bb10f300e24b0c6cf0e421",
+      "enMarkdown": "[5] Not all were necessarily supplied by the PR firm. Reporters sometimes call a few additional sources on their own, like someone adding a few fresh vegetables to a can of soup.",
+      "zhMarkdown": "[5] 并非所有信源都由公关公司提供。记者有时会自己打几个电话找点别的信源，就像往罐头汤里加点新鲜蔬菜一样。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "3128de34bf11c0c119008ab0e292581c48ddaa955e240f78b213a38a81bb8c81",
+      "enMarkdown": "**Thanks** to Ingrid Basset, Trevor Blackwell, Sarah Harlin, Jessica Livingston, Jackie McDonough, Robert Morris, and Aaron Swartz (who also found the PRSA article) for reading drafts of this.",
+      "zhMarkdown": "**感谢** Ingrid Basset、Trevor Blackwell、Sarah Harlin、Jessica Livingston、Jackie McDonough、Robert Morris 和 Aaron Swartz（他也找到了 PRSA 的那篇文章）阅读本文的草稿。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "76ff6bd98afbc92e5b633fdf759afdb9cc17629e210e188622c582ab79b1da51",
+      "enMarkdown": "**Correction:** Earlier versions used a recent *Business Week* article mentioning del.icio.us as an example of a press hit, but Joshua Schachter tells me it was spontaneous.",
+      "zhMarkdown": "**勘误：** 早期版本曾引用最近《商业周刊》一篇提到 del.icio.us 的文章作为公关植入的例子，但 Joshua Schachter 告诉我那是媒体自发的报道。"
+    }
+  ]
+}

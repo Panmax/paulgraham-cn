@@ -1,0 +1,125 @@
+{
+  "slug": "island",
+  "titleEn": "The Island Test",
+  "titleZh": "孤岛测试",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 165,
+  "sourceUrl": "https://paulgraham.com/island.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5b2e05495b87e4a539d2bf0709102b661fff5de71c458928f6e9a934a1641036",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-island-test-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/the-island-test-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4548ce4977546753db9b91c15a99a82a3635181f24d0a1b62083000e34728575",
+      "enMarkdown": "July 2006",
+      "zhMarkdown": "2006年7月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "c865206f5a12292910e44fca75a7a433dfda8d7a5e490c51253a4ec6092fe387",
+      "enMarkdown": "I've discovered a handy test for figuring out what you're addicted to. Imagine you were going to spend the weekend at a friend's house on a little island off the coast of Maine. There are no shops on the island and you won't be able to leave while you're there. Also, you've never been to this house before, so you can't assume it will have more than any house might.",
+      "zhMarkdown": "我发现了一个简单好用的测试，可以帮你找出自己对什么上瘾。想象一下，你准备去缅因州海岸外的一座小岛上，在朋友家度过周末。岛上没有任何商店，而且你在那里的期间无法离开。此外，你从未去过这栋房子，所以你不能指望它里面的东西会比一般房子多。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "52cf4260a90430d992678aaaf6dd57950e9ef25a5287efc2773de468fc6e5aa2",
+      "enMarkdown": "What, besides clothes and toiletries, do you make a point of packing? That's what you're addicted to. For example, if you find yourself packing a bottle of vodka (just in case), you may want to stop and think about that.",
+      "zhMarkdown": "除了衣服和洗漱用品，你一定会带上什么？那就是你上瘾的东西。例如，如果你发现自己带了一瓶伏特加（以防万一），你可能需要停下来好好想想了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1fdb18f21fa30ddf1d116a45e5ff7224d660689b76c872f8d724135583fed93b",
+      "enMarkdown": "For me the list is four things: books, earplugs, a notebook, and a pen.",
+      "zhMarkdown": "对我来说，清单上有四样东西：书、耳塞、笔记本和笔。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "efe11860dc42c12dc711e4dd124b767911dda9163083c0c109d85c44807b92fb",
+      "enMarkdown": "There are other things I might bring if I thought of it, like music, or tea, but I can live without them. I'm not so addicted to caffeine that I wouldn't risk the house not having any tea, just for a weekend.",
+      "zhMarkdown": "如果想起来的话，我可能还会带其他东西，比如音乐或茶，但没有它们我也能活。我对咖啡因还没上瘾到那种程度，不至于为了仅仅一个周末，就不敢冒“这家主人可能没茶”的风险。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "135c7a0eada4eca6ee485810e364701ce0274af45cfe7c4cc150abf49e9ef7ac",
+      "enMarkdown": "Quiet is another matter. I realize it seems a bit eccentric to take earplugs on a trip to an island off the coast of Maine. If anywhere should be quiet, that should. But what if the person in the next room snored? What if there was a kid playing basketball? (Thump, thump, thump... thump.) Why risk it? Earplugs are small.",
+      "zhMarkdown": "安静则是另一回事。我知道，去缅因州海岸的小岛旅行还带耳塞，看起来有点古怪。如果有什么地方应该是安静的，那必然是那里。但要是隔壁房间的人打鼾怎么办？要是有人家的小孩在打篮球怎么办？（砰，砰，砰……砰。）为什么要冒这个险？耳塞又不占地方。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "48766a0037c43043edd6551436cc9d085875af76a98867c4e470a93971bf75c8",
+      "enMarkdown": "Sometimes I can think with noise. If I already have momentum on some project, I can work in noisy places. I can edit an essay or debug code in an airport. But airports are not so bad: most of the noise is whitish. I couldn't work with the sound of a sitcom coming through the wall, or a car in the street playing thump-thump music.",
+      "zhMarkdown": "有时我在嘈杂的环境中也能思考。如果我对某个项目正有思路，我可以在嘈杂的地方工作。我可以在机场修改文章或调试代码。但机场其实没那么糟，因为大部分噪音都是白噪音。如果隔壁墙传来情景剧的声音，或者街上的车里放着动次打次的音乐，我是无法工作的。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "e5548056e3d3d3cd5a5e9ec0dfd40d0b329129b4832cd73083badedd417f5d7a",
+      "enMarkdown": "And of course there's another kind of thinking, when you're starting something new, that requires complete quiet. You never know when this will strike. It's just as well to carry plugs.",
+      "zhMarkdown": "当然，还有另一种思考——当你开始构思新事物时，需要绝对的安静。你永远不知道这种灵感什么时候会降临。所以随身带个耳塞总没错。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "df089fa5a1df4b196fa25a00be0bc674d86c1e1b71ca6bb9f189e18682f7b858",
+      "enMarkdown": "The notebook and pen are professional equipment, as it were. Though actually there is something druglike about them, in the sense that their main purpose is to make me feel better. I hardly ever go back and read stuff I write down in notebooks. It's just that if I can't write things down, worrying about remembering one idea gets in the way of having the next. Pen and paper wick ideas.",
+      "zhMarkdown": "笔记本和笔算是专业装备。不过实际上它们也有点像毒品，因为它们的主要作用是让我感到安心。我几乎从不回头去读在笔记本上写下的东西。只是如果我无法把想法写下来，担心忘记上一个想法就会阻碍下一个想法的产生。纸和笔就像灯芯一样，能把想法引流出来。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "52082838d448f2d8d23dd9ec8e15247711ed2831103910d524ca58e9d27085c6",
+      "enMarkdown": "The best notebooks I've found are made by a company called Miquelrius. I use their smallest size, which is about 2.5 x 4 in. The secret to writing on such narrow pages is to break words only when you run out of space, like a Latin inscription. I use the cheapest plastic Bic ballpoints, partly because their gluey ink doesn't seep through pages, and partly so I don't worry about losing them.",
+      "zhMarkdown": "我用过最好的笔记本是一家叫 Miquelrius 的公司生产的。我用他们最小的尺寸，大约 2.5 x 4 英寸。在这么窄的纸上写字的诀窍是，只有在空间不够时才换行，就像古拉丁文碑刻那样。我用最便宜的塑料 Bic 圆珠笔，部分原因在于它们黏稠的墨水不会渗透纸张，另一部分原因是我不用担心弄丢它们。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "ff6bc06f2d093cf7589a6832ef84cfc91353a432eb9e567664fc2b91073e7877",
+      "enMarkdown": "I only started carrying a notebook about three years ago. Before that I used whatever scraps of paper I could find. But the problem with scraps of paper is that they're not ordered. In a notebook you can guess what a scribble means by looking at the pages around it. In the scrap era I was constantly finding notes I'd written years before that might say something I needed to remember, if I could only figure out what.",
+      "zhMarkdown": "我大约三年前才开始随身携带笔记本。在那之前，我随便找什么纸屑就写。但纸屑的问题在于它们没有顺序。在笔记本里，你可以通过看前后的页面来猜测某处涂鸦的意思。而在纸屑时代，我经常会翻到几年前写的便签，如果我能看懂写的是什么的话，那上面可能确实写着我需要记住的事情。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "5da305ffc9a5c761ea188c729fc823ea637a29a0ce1c9497429b11c7c97989d6",
+      "enMarkdown": "As for books, I know the house would probably have something to read. On the average trip I bring four books and only read one of them, because I find new books to read en route. Really bringing books is insurance.",
+      "zhMarkdown": "至于书，我知道那栋房子里大概会有可以读的东西。在一般的旅行中，我带四本书却只读一本，因为我在途中总能发现新书。其实带书更像是一种保险。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "38f263980b8e39c7002396139b37801d0c045c8809c90eb1180dbf03c208a032",
+      "enMarkdown": "I realize this dependence on books is not entirely good—that what I need them for is distraction. The books I bring on trips are often quite virtuous, the sort of stuff that might be assigned reading in a college class. But I know my motives aren't virtuous. I bring books because if the world gets boring I need to be able to slip into another distilled by some writer. It's like eating jam when you know you should be eating fruit.",
+      "zhMarkdown": "我意识到这种对书的依赖并不完全是好事——我需要它们是为了转移注意力。我旅行时带的书往往非常高雅，就是那种大学课堂可能会指定的必读书目。但我知道自己的动机并不高尚。我带书是因为如果现实世界变得无聊，我需要能够躲进某个作家提炼出的另一个世界中。这就像你明知道应该吃水果，却去吃果酱一样。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "4ac76ab3719e73a176e43d30a8497e9c6f23f20d27dd59f2a276342f1a82dafa",
+      "enMarkdown": "There is a point where I'll do without books. I was walking in some steep mountains once, and decided I'd rather just think, if I was bored, rather than carry a single unnecessary ounce. It wasn't so bad. I found I could entertain myself by having ideas instead of reading other people's. If you stop eating jam, fruit starts to taste better.",
+      "zhMarkdown": "在某些情况下，我也可以不带书。有一次我在陡峭的山里徒步，决定如果无聊了就纯靠思考打发时间，而不是多背负哪怕一盎司不必要的重量。结果其实没那么糟。我发现自己可以通过构思新想法来娱乐自己，而不是去读别人的想法。如果你停止吃果酱，水果的味道就会变得更好。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "2f131fb53c95fd51fef06b7cf94f0ce14bdebfc9649510d568a449228d0ec015",
+      "enMarkdown": "So maybe I'll try not bringing books on some future trip. They're going to have to pry the plugs out of my cold, dead ears, however.",
+      "zhMarkdown": "所以，也许在未来的某次旅行中，我会尝试不带书。不过，要想拿走我的耳塞，除非我死了。"
+    }
+  ]
+}

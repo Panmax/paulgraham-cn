@@ -1,0 +1,102 @@
+{
+  "slug": "wtax",
+  "titleEn": "Modeling a Wealth Tax",
+  "titleZh": "财富税模型推演",
+  "dateText": "August 2020",
+  "publishedAt": "2020-08-01",
+  "sourceOrder": 43,
+  "sourceUrl": "https://paulgraham.com/wtax.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "5938d67cf100ad65ad0d8bf8244368b99e67beb83ac20aa46f82df4ad0849dac",
+      "enMarkdown": "Some politicians are proposing to introduce wealth taxes in addition to income and capital gains taxes. Let's try modeling the effects of various levels of wealth tax to see what they would mean in practice for a startup founder.",
+      "zhMarkdown": "一些政客正提议在征收所得税和资本利得税之外，再引入财富税。让我们试着对不同水平的财富税进行模型推演，看看它对一位创业公司创始人来说，在实际中到底意味着什么。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "e02655f9573cf4754517a61b5ba0fa35a5e35aeb12d8aacfc8e31168e0373840",
+      "enMarkdown": "Suppose you start a successful startup in your twenties, and then live for another 60 years. How much of your stock will a wealth tax consume?",
+      "zhMarkdown": "假设你在二十多岁时创办了一家成功的创业公司，然后又活了 60 年。财富税会消耗掉你多少股份？"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "b3169c604ed61538c5352c9d332be1e52ff7b233f8f359c910c81dffe4535dc8",
+      "enMarkdown": "If the wealth tax applies to all your assets, it's easy to calculate its effect. A wealth tax of 1% means you get to keep 99% of your stock each year. After 60 years the proportion of stock you'll have left will be .99^60, or .547. So a straight 1% wealth tax means the government will over the course of your life take 45% of your stock.",
+      "zhMarkdown": "如果财富税适用于你的所有资产，其影响很容易计算。1% 的财富税意味着你每年可以保留 99% 的股份。60 年后，你剩下的股份比例将是 .99^60，即 0.547。因此，1% 的单一财富税意味着政府将在你的一生中拿走你 45% 的股份。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a95c6b3ac1a1351abe050d37d3583fb0fa42a2e645a1ad82207915064352a2cf",
+      "enMarkdown": "(Losing shares does not, obviously, mean becoming *net* poorer unless the value per share is increasing by less than the wealth tax rate.)",
+      "zhMarkdown": "（显然，失去股份并不意味着你的*净*资产变少了，除非每股价值的增长率低于财富税税率。）"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d66ad15ff831abde9b3b277226bf59385f170fed9c8af2132f66c5f4b47bba3d",
+      "enMarkdown": "Here's how much stock the government would take over 60 years at various levels of wealth tax:",
+      "zhMarkdown": "以下是在不同的财富税水平下，政府在 60 年里会拿走多少股份："
+    },
+    {
+      "id": 6,
+      "type": "rawUnsupported",
+      "sourceHash": "f2b7455a3bc6716c84584286c64ec4434ac5d2829218b0601f4029a092f3b688",
+      "enMarkdown": "wealth tax | government takes\n0.1% | 6%\n0.5% | 26%\n1.0% | 45%\n2.0% | 70%\n3.0% | 84%\n4.0% | 91%\n5.0% | 95%"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "c01a6a4e8a2735ba68008ff260ab1ecc8877589044721c476b5c68a4b94f6419",
+      "enMarkdown": "A wealth tax will usually have a threshold at which it starts. How much difference would a high threshold make? To model that, we need to make some assumptions about the initial value of your stock and the growth rate.",
+      "zhMarkdown": "财富税通常会有一个起征点。高起征点会带来多大区别？为了对此进行推演，我们需要对你的股份初始价值和增长率做一些假设。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c93b1b2b2f73248b12b2f755b6216279c83f99d9a59e8ea22cd90ede979562c4",
+      "enMarkdown": "Suppose your stock is initially worth $2 million, and the company's trajectory is as follows: the value of your stock grows 3x for 2 years, then 2x for 2 years, then 50% for 2 years, after which you just get a typical public company growth rate, which we'll call 8%. [[1](#f1n)] Suppose the wealth tax threshold is $50 million. How much stock does the government take now?",
+      "zhMarkdown": "假设你的股份最初价值 200 万美元，公司的发展轨迹如下：你的股份价值在前 2 年每年增长 3 倍，接下来的 2 年每年增长 2 倍，再接下来的 2 年每年增长 50%，之后你只获得典型的上市公司增长率，我们假设为 8%。[[1](#f1n)] 假设财富税的起征点是 5000 万美元。现在政府会拿走多少股份？"
+    },
+    {
+      "id": 9,
+      "type": "rawUnsupported",
+      "sourceHash": "92b36ffcd056e1a5bedda78d7738ba58eb3f85c30726f11abaafb826867b3dc9",
+      "enMarkdown": "wealth tax | government takes\n0.1% | 5%\n0.5% | 23%\n1.0% | 41%\n2.0% | 65%\n3.0% | 79%\n4.0% | 88%\n5.0% | 93%"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "f6df977465007c9348f250fb619adb068bb46a142c2e8a0a7c239621633f910e",
+      "enMarkdown": "It may at first seem surprising that such apparently small tax rates produce such dramatic effects. A 2% wealth tax with a $50 million threshold takes about two thirds of a successful founder's stock.",
+      "zhMarkdown": "起初，这些看似很低的税率能产生如此惊人的影响，可能会让人感到惊讶。起征点为 5000 万美元的 2% 财富税，会拿走一位成功创始人大约三分之二的股份。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "31594ca59d029e38d352f1bd88478da801d73fc36bc7840235f6ee761d64d1a1",
+      "enMarkdown": "The reason wealth taxes have such dramatic effects is that they're applied over and over to the same money. Income tax happens every year, but only to that year's income. Whereas if you live for 60 years after acquiring some asset, a wealth tax will tax that same asset 60 times. A wealth tax compounds.",
+      "zhMarkdown": "财富税之所以会产生如此巨大的影响，是因为它对同一笔钱反复征收。所得税每年都征，但只针对当年的收入。而如果你在获得某项资产后活了 60 年，财富税将对这同一项资产征税 60 次。财富税是复利计算的。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "cb2e4b1e444af938e956fc80ac4de558fd2034bccd29a37e568660d19be8a971",
+      "enMarkdown": "**Note**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "22156d5110ca98ff05034d4b9a9ac72811ea968a8073beb10be196ee28c68247",
+      "enMarkdown": "[1] In practice, eventually some of this 8% would come in the form of dividends, which are taxed as income at issue, so this model actually represents the most optimistic case for the founder.",
+      "zhMarkdown": "[1] 实际上，这 8% 的增长最终有一部分会以股息的形式出现，而股息在发放时是要作为个人所得税征税的，因此这个模型实际上代表了对创始人最乐观的情况。"
+    }
+  ]
+}

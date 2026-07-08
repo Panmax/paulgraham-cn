@@ -1,0 +1,440 @@
+{
+  "slug": "cities",
+  "titleEn": "Cities and Ambition",
+  "titleZh": "城市与野心",
+  "dateText": "May 2008",
+  "publishedAt": "2008-05-01",
+  "sourceOrder": 134,
+  "sourceUrl": "https://paulgraham.com/cities.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "0130b293fb56b6860422e839279b96eb96797e8b04f71817a6efe581d2d49b44",
+      "enMarkdown": "Great cities attract ambitious people. You can sense it when you walk around one. In a hundred subtle ways, the city sends you a message: you could do more; you should try harder.",
+      "zhMarkdown": "伟大的城市能吸引有野心的人。当你漫步其中，就能感受到这一点。城市会通过成百上千种微妙的信号向你传递一个信息：你本可以做得更多，你应该更加努力。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "63280f2902dca74f9c1d6343b65c67d148bec7a550f51488bd754cce16b86972",
+      "enMarkdown": "The surprising thing is how different these messages can be. New York tells you, above all: you should make more money. There are other messages too, of course. You should be hipper. You should be better looking. But the clearest message is that you should be richer.",
+      "zhMarkdown": "令人惊讶的是，这些信号竟然如此迥异。纽约给你的首要信息是：你应该赚更多的钱。当然，也有其他信息，比如：你应该更时髦，你应该长得更好看。但最清晰无误的信号，依然是你应该更富有。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "ca4f36e7696d2fd12bd08792790898f8412f6b0d7d6e9d3605d91f257e88c5ac",
+      "enMarkdown": "What I like about Boston (or rather Cambridge) is that the message there is: you should be smarter. You really should get around to reading all those books you've been meaning to.",
+      "zhMarkdown": "我喜欢波士顿（更准确地说是剑桥市）的地方在于，那里的信息是：你应该更聪明。你真的该抽空把那些一直想读的书读完了。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "bf210b48e1a097c8efeb99d4091a3f39d87bdbfcc2959ebdc015b92e5045acff",
+      "enMarkdown": "When you ask what message a city sends, you sometimes get surprising answers. As much as they respect brains in Silicon Valley, the message the Valley sends is: you should be more powerful.",
+      "zhMarkdown": "当你探寻一座城市传递什么信息时，有时会得到出人意料的答案。尽管硅谷非常尊重聪明才智，但它传递的信息却是：你应该更有影响力（power）。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f8b4e56a392237acde2433db6a60ef568e40c037638cc471d02fd561b30203aa",
+      "enMarkdown": "That's not quite the same message New York sends. Power matters in New York too of course, but New York is pretty impressed by a billion dollars even if you merely inherited it. In Silicon Valley no one would care except a few real estate agents. What matters in Silicon Valley is how much effect you have on the world. The reason people there care about Larry and Sergey is not their wealth but the fact that they control Google, which affects practically everyone.",
+      "zhMarkdown": "这与纽约传递的信息并不完全一样。当然，在纽约权力也很重要，但纽约人很容易被十亿美元折服，哪怕这笔钱只是你继承来的。而在硅谷，除了几个房地产中介，根本没人会计较这些。硅谷看重的是你对世界产生了多大的影响。那里的人们之所以在乎拉里（Larry）和谢尔盖（Sergey），不是因为他们的财富，而是因为他们掌控着谷歌，而谷歌几乎影响着每一个人。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "6b7f8e2ae113d85c632cd7aa16165fb5e1ad08d84f35687e6f1b42dd0d1b19b1",
+      "enMarkdown": "How much does it matter what message a city sends? Empirically, the answer seems to be: a lot. You might think that if you had enough strength of mind to do great things, you'd be able to transcend your environment. Where you live should make at most a couple percent difference. But if you look at the historical evidence, it seems to matter more than that. Most people who did great things were clumped together in a few places where that sort of thing was done at the time.",
+      "zhMarkdown": "城市传递的信息到底有多重要？从经验来看，答案似乎是：非常重要。你可能会觉得，只要心智足够强大、想做一番伟业，就能超脱环境的束缚。你住在哪里，最多也就产生百分之几的细微差别。但纵观历史证据，环境的影响显然不止于此。大多数做出伟大成就的人，都扎堆聚集在当时流行做这类事情的少数几个地方。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "25926d862f0c4329ebce18902eae58df7f7e7235b386b1d6ea03deb7a27d3872",
+      "enMarkdown": "You can see how powerful cities are from something I wrote about [earlier](https://paulgraham.com/taste.html): the case of the Milanese Leonardo. Practically every fifteenth century Italian painter you've heard of was from Florence, even though Milan was just as big. People in Florence weren't genetically different, so you have to assume there was someone born in Milan with as much natural ability as Leonardo. What happened to him?",
+      "zhMarkdown": "你可以从我[之前写过的一篇文章](https://paulgraham.com/taste.html)中看出城市的力量有多大：比如米兰的达芬奇。你所听过的 15 世纪意大利画家几乎都来自佛罗伦萨，尽管米兰当时也一样繁华。佛罗伦萨人的基因并没有什么不同，所以我们必须假设，米兰也曾诞生过天资与达芬奇不相上下的人。但他后来怎么样了呢？"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a3ca0cff608bc35adb2523e7aac521a053c20c4eb8cfa2fb3f709176be15f3d9",
+      "enMarkdown": "If even someone with the same natural ability as Leonardo couldn't beat the force of environment, do you suppose you can?",
+      "zhMarkdown": "如果连一个天赋等同于达芬奇的人都无法抗衡环境的力量，你觉得你能吗？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "111546c39df0b668af3cc4df3229efa1f6795c4339fd02d1dc66aa8f4f5d989a",
+      "enMarkdown": "I don't. I'm fairly stubborn, but I wouldn't try to fight this force. I'd rather use it. So I've thought a lot about where to live.",
+      "zhMarkdown": "我觉得我不能。虽然我相当固执，但我不会试图去对抗这种力量。我宁愿顺势而为。因此，我花了很多心思去思考该住在哪里。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5678b07020eddd0164b917c34a804b6c4d4383a43bf41ad1e38efc22bd9b7c1d",
+      "enMarkdown": "I'd always imagined Berkeley would be the ideal place — that it would basically be Cambridge with good weather. But when I finally tried living there a couple years ago, it turned out not to be. The message Berkeley sends is: you should live better. Life in Berkeley is very civilized. It's probably the place in America where someone from Northern Europe would feel most at home. But it's not humming with ambition.",
+      "zhMarkdown": "我一直以为伯克利会是理想的居住地——它基本上就是天气晴朗版的剑桥。但几年前我终于搬去那里住了一段时间，发现事实并非如此。伯克利传递的信息是：你应该生活得更好。伯克利的生活非常文明。它大概是美国最让北欧人有归属感的地方。但那里并没有涌动着野心的喧嚣。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "29a66c7742c95f7ce79e195a3a4cb97a33dd1b4b4f455893c702a7d937c7cbed",
+      "enMarkdown": "In retrospect it shouldn't have been surprising that a place so pleasant would attract people interested above all in quality of life. Cambridge with good weather, it turns out, is not Cambridge. The people you find in Cambridge are not there by accident. You have to make sacrifices to live there. It's expensive and somewhat grubby, and the weather's often bad. So the kind of people you find in Cambridge are the kind of people who want to live where the smartest people are, even if that means living in an expensive, grubby place with bad weather.",
+      "zhMarkdown": "回过头来看，一个如此宜人的地方会吸引那些把生活质量看得高于一切的人，这并不奇怪。事实证明，天气晴朗版的剑桥，根本就不是剑桥。你在剑桥遇到的人不是偶然出现在那里的。为了在剑桥生活，你必须做出妥协。这里物价昂贵，有些破旧，天气经常很糟糕。因此，你在剑桥遇到的人，是那种宁愿住在最聪明的人扎堆的地方，哪怕这意味着要忍受高昂的物价、破旧的街道和糟糕的天气。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "427ff3e3b28a855ef8049a2b9b76fa4e98106be93fed03d9f3852e494eb455e7",
+      "enMarkdown": "As of this writing, Cambridge seems to be the intellectual capital of the world. I realize that seems a preposterous claim. What makes it true is that it's more preposterous to claim about anywhere else. American universities currently seem to be the best, judging from the flow of ambitious students. And what US city has a stronger claim? New York? A fair number of smart people, but diluted by a much larger number of neanderthals in suits. The Bay Area has a lot of smart people too, but again, diluted; there are two great universities, but they're far apart. Harvard and MIT are practically adjacent by West Coast standards, and they're surrounded by about 20 other colleges and universities. [[1](#f1n)]",
+      "zhMarkdown": "在写这篇文章时，剑桥似乎是世界的学术文化之都。我知道这听起来像是一个荒谬的断言。但它之所以成立，是因为如果把这个头衔套在其他任何地方，听起来会更加荒谬。从有抱负的学生的流向来看，美国的大学目前似乎是最好的。而美国又有哪座城市比剑桥更有说服力呢？纽约？那里确实有不少聪明人，但他们被数量庞大得多、西装革履的平庸之辈稀释了。湾区也有很多聪明人，但也同样被稀释了；那里有两所伟大的大学，但彼此相距甚远。按照西海岸的标准，哈佛和麻省理工几乎是紧挨着的，而且周围还环绕着大约 20 所其他大专院校。[[1](#f1n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "75f17dd35fcc55c6e8c7811c5ff397bacca47067e1b35c3d8e7eefb03735867c",
+      "enMarkdown": "Cambridge as a result feels like a town whose main industry is ideas, while New York's is finance and Silicon Valley's is startups.",
+      "zhMarkdown": "因此，剑桥感觉就像一个以思想为主要产业的小镇，而纽约的产业是金融，硅谷的产业则是创业公司。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "82647b38bd99deb8af3fb1f4f9daa1ac7229957bdaa9fbd62b1df5d06a663faa",
+      "enMarkdown": "When you talk about cities in the sense we are, what you're really talking about is collections of people. For a long time cities were the only large collections of people, so you could use the two ideas interchangeably. But we can see how much things are changing from the examples I've mentioned. New York is a classic great city. But Cambridge is just part of a city, and Silicon Valley is not even that. (San Jose is not, as it sometimes claims, the capital of Silicon Valley. It's just 178 square miles at one end of it.)",
+      "zhMarkdown": "当我们讨论我们所理解的“城市”时，我们真正谈论的是人群的聚集。在很长一段时间里，城市是唯一的大型人口聚集地，所以你可以把这两个概念混用。但从我提到的例子可以看出，情况正在发生多大的变化。纽约是经典的伟大城市。但剑桥只是城市的一部分，而硅谷甚至连城市都算不上。（圣何塞并不像它有时自称的那样是硅谷的首都。它只是硅谷一端 178 平方英里的土地而已。）"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4d83c77254f94798e6d57ef6e528743c85cd1119dcac418dab8f1e5555e39e97",
+      "enMarkdown": "Maybe the Internet will change things further. Maybe one day the most important community you belong to will be a virtual one, and it won't matter where you live physically. But I wouldn't bet on it. The physical world is very high bandwidth, and some of the ways cities send you messages are quite subtle.",
+      "zhMarkdown": "也许互联网会进一步改变这一切。也许有一天，你所属的最重要的社区将是虚拟的，你物理上住在哪里都无所谓。但我不会把赌注押在这上面。物理世界的带宽极高，城市向你传递信号的一些方式是非常微妙的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "c5f77ad71419ccd92b52b92a2da89aa11ca2cb21070fc0284af6de251b32dffc",
+      "enMarkdown": "One of the exhilarating things about coming back to Cambridge every spring is walking through the streets at dusk, when you can see into the houses. When you walk through Palo Alto in the evening, you see nothing but the blue glow of TVs. In Cambridge you see shelves full of promising-looking books. Palo Alto was probably much like Cambridge in 1960, but you'd never guess now that there was a university nearby. Now it's just one of the richer neighborhoods in Silicon Valley. [[2](#f2n)]",
+      "zhMarkdown": "每年春天回到剑桥，最让人兴奋的事情之一就是在黄昏时分漫步街头，此时你可以透过窗户看到屋里的景象。而当你在傍晚漫步帕罗奥图（Palo Alto）时，你只能看到电视机发出的蓝色荧光。但在剑桥，你会看到装满各种好书的书架。1960 年的帕罗奥图大概和剑桥很像，但你现在绝猜不到附近有一所大学。如今，它只是硅谷中比较富裕的街区之一。[[2](#f2n)]"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "89999d345772ae114a0ca1dd8cacfc8e8c63cf0f6824d9048d32183f210e793d",
+      "enMarkdown": "A city speaks to you mostly by accident — in things you see through windows, in conversations you overhear. It's not something you have to seek out, but something you can't turn off. One of the occupational hazards of living in Cambridge is overhearing the conversations of people who use interrogative intonation in declarative sentences. But on average I'll take Cambridge conversations over New York or Silicon Valley ones.",
+      "zhMarkdown": "一座城市大多是在无意中对你说话的——在你透过窗户看到的景象里，在你无意中听到的谈话里。这不是你必须去寻找的东西，而是你无法关掉的背景音。在剑桥生活的一种职业危害，就是经常听到有人在说陈述句时使用疑问句的升调。但总的来说，比起纽约或硅谷的谈话，我更喜欢剑桥的谈话。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7529e009f95e66ed99b3d6dfac772615e4e39b08b730c734b5cb021dd74f7166",
+      "enMarkdown": "A friend who moved to Silicon Valley in the late 90s said the worst thing about living there was the low quality of the eavesdropping. At the time I thought she was being deliberately eccentric. Sure, it can be interesting to eavesdrop on people, but is good quality eavesdropping so important that it would affect where you chose to live? Now I understand what she meant. The conversations you overhear tell you what sort of people you're among.",
+      "zhMarkdown": "一位在 90 年代末搬到硅谷的朋友说，在那里生活最糟糕的一点是“偷听”的质量太低。当时我觉得她是在故意装作特立独行。当然，偷听别人的谈话可能很有趣，但高质量的偷听真的重要到会影响你选择居住地吗？现在我明白她的意思了。你无意中听到的谈话会告诉你，你正身处一群什么样的人中间。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "b0df62a70447675cf008b75275251349990b36cfa69cde4f7bd2d6d8eddec190",
+      "enMarkdown": "No matter how determined you are, it's hard not to be influenced by the people around you. It's not so much that you do whatever a city expects of you, but that you get discouraged when no one around you cares about the same things you do.",
+      "zhMarkdown": "无论你多么坚定，都很难不受周围人的影响。这倒不是说你会完全顺从一座城市对你的期望，而是如果周围没有人在乎你所关心的事物，你很容易感到气馁。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "6a5bdc83583b7d69686d1172c764d72add185890cad853ea39a3cf6a5c4b98e0",
+      "enMarkdown": "There's an imbalance between encouragement and discouragement like that between gaining and losing money. Most people overvalue negative amounts of money: they'll work much harder to avoid losing a dollar than to gain one. Similarly, although there are plenty of people strong enough to resist doing something just because that's what one is supposed to do where they happen to be, there are few strong enough to keep working on something no one around them cares about.",
+      "zhMarkdown": "鼓励与气馁之间的不对称，就像赚钱与亏钱的不对称一样。大多数人会高估负面资金的价值：他们宁愿花大得多的精力去避免损失一美元，也不愿去多赚一美元。同样，虽然有很多人足够强大，能够拒绝仅仅因为身处某地就去做大家都在做的事，但很少有人强大到在周围没有一个人在乎的情况下，还能坚持研究某项事物。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "cf024da3acf75f21fb92b93275a7d0c253985ab7c795227619967c72052efab9",
+      "enMarkdown": "Because ambitions are to some extent incompatible and admiration is a zero-sum game, each city tends to focus on one type of ambition. The reason Cambridge is the intellectual capital is not just that there's a concentration of smart people there, but that there's nothing *else* people there care about more. Professors in New York and the Bay area are second class citizens — till they start hedge funds or startups respectively.",
+      "zhMarkdown": "因为各种野心在某种程度上是互不相容的，而仰慕又是一场零和博弈，所以每座城市往往只专注于一种野心。剑桥之所以成为学术文化之都，不仅是因为那里聚集了聪明人，还因为那里没有*其他*更让人们在乎的东西。纽约和湾区的教授们都是二等公民——直到他们分别创办了对冲基金或创业公司。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "609240cd50a0f18dcccc2186e11039a912a30eea1b0a826555dcd7fae405f156",
+      "enMarkdown": "This suggests an answer to a question people in New York have wondered about since the Bubble: whether New York could grow into a startup hub to rival Silicon Valley. One reason that's unlikely is that someone starting a startup in New York would feel like a second class citizen. [[3](#f3n)] There's already something else people in New York admire more.",
+      "zhMarkdown": "这解答了纽约人自互联网泡沫以来一直纳闷的一个问题：纽约能否成长为与硅谷媲美的创业公司中心。这不太可能的一个原因在于，在纽约创办创业公司的人会觉得自己像个二等公民。[[3](#f3n)] 因为纽约人已经有了其他更仰慕的东西。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "1db98525f923e3ce85fd1afe06dc1d343034a5137416df99e625e5e9c277cc7d",
+      "enMarkdown": "In the long term, that could be a bad thing for New York. The power of an important new technology does eventually convert to money. So by caring more about money and less about power than Silicon Valley, New York is recognizing the same thing, but slower. [[4](#f4n)] And in fact it has been losing to Silicon Valley at its own game: the ratio of New York to California residents in the Forbes 400 has decreased from 1.45 (81:56) when the list was first published in 1982 to .83 (73:88) in 2007.",
+      "zhMarkdown": "从长远来看，这可能对纽约不利。一项重要新技术的威力最终会转化为金钱。因此，纽约比硅谷更看重金钱、更少看重影响力，其实是在认同同样的东西，只是反应慢了半拍。[[4](#f4n)] 事实上，纽约在加州最擅长的游戏里正节节败退：福布斯 400 富豪榜中，纽约居民与加州居民的比例已从 1982 年首次发布时的 1.45（81 比 56）下降到了 2007 年的 0.83（73 比 88）。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "b4514c355fa14bb5b95f1533d0915e7f08b569df376455d60c180592024838c3",
+      "enMarkdown": "Not all cities send a message. Only those that are centers for some type of ambition do. And it can be hard to tell exactly what message a city sends without living there. I understand the messages of New York, Cambridge, and Silicon Valley because I've lived for several years in each of them. DC and LA seem to send messages too, but I haven't spent long enough in either to say for sure what they are.",
+      "zhMarkdown": "并非所有城市都会传递信息。只有那些作为某种野心中心的城市才会。而且，如果不亲自去住上一段时间，很难说清一座城市到底传递了什么信息。我之所以理解纽约、剑桥和硅谷的信息，是因为我在每一个地方都生活过好几年。华盛顿特区和洛杉矶似乎也在传递信息，但我在这两个地方待的时间不够长，无法确切说出它们是什么。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "bfa9e2acf2b83f3e510f401bfb3423b7c074c53fb90f34b7055fc906b3510e6d",
+      "enMarkdown": "The big thing in LA seems to be fame. There's an A List of people who are most in demand right now, and what's most admired is to be on it, or friends with those who are. Beneath that, the message is much like New York's, though perhaps with more emphasis on physical attractiveness.",
+      "zhMarkdown": "洛杉矶最核心的主题似乎是名气。那里有一个当下最炙手可热的“A咖名册”（A List），最让人羡慕的就是名列其中，或者与榜上有名的人成为朋友。在这之下，其信息与纽约非常相似，只是可能更强调外在的吸引力。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "eef6ceedca6d05cd0410104577551fc5a09e2d393fb0347a909252bc09351b11",
+      "enMarkdown": "In DC the message seems to be that the most important thing is who you know. You want to be an insider. In practice this seems to work much as in LA. There's an A List and you want to be on it or close to those who are. The only difference is how the A List is selected. And even that is not that different.",
+      "zhMarkdown": "在华盛顿特区，信息似乎是：最重要的事情是“你认识谁”。你想成为圈内人。在实践中，这似乎和洛杉矶的运作方式差不多。同样有一个“A咖名册”，你想跻身其中，或接近那些榜上有名的人。唯一的区别在于这个名册是如何评选出来的。甚至连这一点区别也没那么大。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "70022b9b81d30afe350f9e8a062ede9ff9dc43ef7502d6ca2c004dadb8544f11",
+      "enMarkdown": "At the moment, San Francisco's message seems to be the same as Berkeley's: you should live better. But this will change if enough startups choose SF over the Valley. During the Bubble that was a predictor of failure — a self-indulgent choice, like buying expensive office furniture. Even now I'm suspicious when startups choose SF. But if enough good ones do, it stops being a self-indulgent choice, because the center of gravity of Silicon Valley will shift there.",
+      "zhMarkdown": "目前，旧金山传递的信息似乎与伯克利相同：你应该生活得更好。但如果有足够多的创业公司选择旧金山而不是硅谷，这种情况就会改变。在互联网泡沫时期，选择旧金山是失败的预兆——这是一种自我放纵的选择，就像购买昂贵的办公家具一样。即使是现在，当创业公司选择旧金山时，我依然持怀疑态度。但如果有足够多优秀的创业公司这样做，它就不再是一个放纵的选择，因为硅谷的重力中心将会转移到那里。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "39a967d23c32592c1e14bab33c5dae9ed07d3a38e12e824143527084cfb8d7f1",
+      "enMarkdown": "I haven't found anything like Cambridge for intellectual ambition. Oxford and Cambridge (England) feel like Ithaca or Hanover: the message is there, but not as strong.",
+      "zhMarkdown": "在学术野心方面，我还没有发现有任何地方能与剑桥相比。英国的牛津和剑桥感觉就像伊萨卡（Ithaca）或汉诺威（Hanover）：那里也有这种信息，但没那么强烈。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "2567bc37412d81b607ce796e0436be7dcc1cb69124e05f363ff5120a9aaf6ac7",
+      "enMarkdown": "Paris was once a great intellectual center. If you went there in 1300, it might have sent the message Cambridge does now. But I tried living there for a bit last year, and the ambitions of the inhabitants are not intellectual ones. The message Paris sends now is: do things with style. I liked that, actually. Paris is the only city I've lived in where people genuinely cared about art. In America only a few rich people buy original art, and even the more sophisticated ones rarely get past judging it by the brand name of the artist. But looking through windows at dusk in Paris you can see that people there actually care what paintings look like. Visually, Paris has the best eavesdropping I know. [[5](#f5n)]",
+      "zhMarkdown": "巴黎曾是一个伟大的思想文化中心。如果你在 1300 年去那里，它可能会传递出像现在的剑桥一样的信息。但我去年尝试在那里住了一段时间，居民们的抱负并不是学术上的。巴黎现在传递的信息是：做事要有格调。实际上我很喜欢这一点。巴黎是我住过的唯一一个人们真正关心艺术的城市。在美国，只有少数富人会购买原创艺术品，甚至连那些自诩高雅的人也难免落入“看艺术家牌子”的俗套。但在黄昏的巴黎，透过窗户望去，你会发现那里的人们是真的在乎画作本身的样子。在视觉上，巴黎有着我所知道的最好的“偷听”体验。[[5](#f5n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "e629187f55f8196486d8d5229af8776b5d2a16a389a21666e0f569d7d733599b",
+      "enMarkdown": "There's one more message I've heard from cities: in London you can still (barely) hear the message that one should be more aristocratic. If you listen for it you can also hear it in Paris, New York, and Boston. But this message is everywhere very faint. It would have been strong 100 years ago, but now I probably wouldn't have picked it up at all if I hadn't deliberately tuned in to that wavelength to see if there was any signal left.",
+      "zhMarkdown": "我还从城市中听到过另外一个信息：在伦敦，你依然能（勉强）听到人应该更具贵族气质的信息。如果你仔细聆听，在巴黎、纽约和波士顿也能听到。但这个信息在各地都已非常微弱。在 100 年前，它会非常强烈，但现在如果我不是刻意调到那个波段去测试是否还有信号残留，我可能根本接收不到。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "2d7a1fd3485a5e2d628d2c70b151fed447a7899cb2198e229f143c5829ea4fe5",
+      "enMarkdown": "So far the complete list of messages I've picked up from cities is: wealth, style, hipness, physical attractiveness, fame, political power, economic power, intelligence, social class, and quality of life.",
+      "zhMarkdown": "到目前为止，我从城市中收集到的完整信息清单包括：财富、格调、时髦、外在美、名气、政治权力、经济力量、聪明才智、社会阶层和生活质量。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "0a20087745560c21eab95fb7d380192d340653b983e4448cda419353a79dbde3",
+      "enMarkdown": "My immediate reaction to this list is that it makes me slightly queasy. I'd always considered ambition a good thing, but I realize now that was because I'd always implicitly understood it to mean ambition in the areas I cared about. When you list everything ambitious people are ambitious about, it's not so pretty.",
+      "zhMarkdown": "我对这份清单的直观反应是有些反胃。我一直认为野心是个好东西，但我现在意识到，这是因为我一直默认它是指在我所关心的领域的野心。当你把有野心的人所追求的所有东西列出来时，画面就没那么美妙了。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "bdd2bae530ab5dc490d76686fa44b7ba67aa44afa907557d5a4220703c4a7dd5",
+      "enMarkdown": "On closer examination I see a couple things on the list that are surprising in the light of history. For example, physical attractiveness wouldn't have been there 100 years ago (though it might have been 2400 years ago). It has always mattered for women, but in the late twentieth century it seems to have started to matter for men as well. I'm not sure why — probably some combination of the increasing power of women, the increasing influence of actors as models, and the fact that so many people work in offices now: you can't show off by wearing clothes too fancy to wear in a factory, so you have to show off with your body instead.",
+      "zhMarkdown": "仔细研究后，我发现清单上有几件事在历史的长河中显得有些出人意料。例如，外在美在 100 年前是不会上榜的（尽管在 2400 年前可能会）。它对女性来说一直很重要，但在 20 世纪末，它似乎也开始对男性产生影响。我不确定原因——大概是女性社会地位的提高、演员作为模仿对象的吸引力增加，以及现在有太多人在办公室工作等因素的结合：你不能再通过穿过于华丽的衣服去工厂上班来炫耀，所以你只能转而炫耀自己的身材。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "93b2f3cd59e27cfbfefa8460310f9fc7a554afe9013e6e5ee9f2af64d447d750",
+      "enMarkdown": "Hipness is another thing you wouldn't have seen on the list 100 years ago. Or wouldn't you? What it means is to know what's what. So maybe it has simply replaced the component of social class that consisted of being \"au fait.\" That could explain why hipness seems particularly admired in London: it's version 2 of the traditional English delight in obscure codes that only insiders understand.",
+      "zhMarkdown": "时髦是 100 年前你在清单上看不到的另一件事。或者真的看不到吗？时髦的意思是洞悉当下的潮流。所以它也许只是取代了社会阶层中“通晓世故”（au fait）的那部分元素。这或许可以解释为什么时髦在伦敦特别受推崇：它是传统英国人乐于玩弄只有圈内人懂的晦涩密码的 2.0 升级版。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "3f0d4f5670059db794448b09e5246c61e701814fbc22bf4e22f96cea71762143",
+      "enMarkdown": "Economic power would have been on the list 100 years ago, but what we mean by it is changing. It used to mean the control of vast human and material resources. But increasingly it means the ability to direct the course of technology, and some of the people in a position to do that are not even rich — leaders of important open source projects, for example. The Captains of Industry of times past had laboratories full of clever people cooking up new technologies for them. The new breed are themselves those people.",
+      "zhMarkdown": "经济力量在 100 年前就会上榜，但我们现在对它的定义正在发生变化。它过去意味着控制巨大的海量人力和物力资源。但现在，它越来越意味着引领技术走向的能力，而有些处于这种地位的人甚至并不富有——例如重要开源项目的领袖。过去的工业巨头拥有装满聪明人的实验室，为他们研发新技术。而新一代的掌舵人，他们自己就是那些聪明人。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "131ab98d5d5fdeeb23d2397971dc9fd3ee7c25840a3000bea9055288c8e539e3",
+      "enMarkdown": "As this force gets more attention, another is dropping off the list: social class. I think the two changes are related. Economic power, wealth, and social class are just names for the same thing at different stages in its life: economic power converts to wealth, and wealth to social class. So the focus of admiration is simply shifting upstream.",
+      "zhMarkdown": "随着这种力量受到更多关注，另一件事正在淡出清单：社会阶层。我认为这两者变化是息息相关的。经济力量、财富和社会阶层，只是同一事物在生命周期不同阶段的称呼：经济力量转化为财富，财富再转化为社会阶层。因此，人们仰慕的焦点只是在向源头漂移。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "7454146af0c9840feba91b3c3f076a4723faca35573861bb4cdbadb175e2a2d6",
+      "enMarkdown": "Does anyone who wants to do great work have to live in a great city? No; all great cities inspire some sort of ambition, but they aren't the only places that do. For some kinds of work, all you need is a handful of talented colleagues.",
+      "zhMarkdown": "任何想要做出伟大工作的人都必须住在伟大的城市吗？不，所有伟大的城市都能激发某种野心，但它们并不是唯一能做到这一点的场所。对于某些类型的工作，你需要的仅仅是少数几个有才华的同事。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "1ca31ef7f57b5d595fa4320d3cd3272ba19f095bc39eafbc3350b87ca63a59f5",
+      "enMarkdown": "What cities provide is an audience, and a funnel for peers. These aren't so critical in something like math or physics, where no audience matters except your peers, and judging ability is sufficiently straightforward that hiring and admissions committees can do it reliably. In a field like math or physics all you need is a department with the right colleagues in it. It could be anywhere — in Los Alamos, New Mexico, for example.",
+      "zhMarkdown": "城市提供的是观众，以及筛选同行的漏斗。在数学或物理这样的领域，这些并不那么关键。在这些领域，除了你的同行，没有其他观众重要，而且评判能力的标尺足够简单直接，招聘和招生委员会完全可以可靠地做到。在数学或物理领域，你需要的只是一个拥有合适同事的系所。它可以是任何地方——比如在新墨西哥州的洛斯阿拉莫斯。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "f2e1187e57fd6b77cd71277f21331bb77c497e8702c52dea89829ab7679d7a07",
+      "enMarkdown": "It's in fields like the arts or writing or technology that the larger environment matters. In these the best practitioners aren't conveniently collected in a few top university departments and research labs — partly because talent is harder to judge, and partly because people pay for these things, so one doesn't need to rely on teaching or research funding to support oneself. It's in these more chaotic fields that it helps most to be in a great city: you need the encouragement of feeling that people around you care about the kind of work you do, and since you have to find peers for yourself, you need the much larger intake mechanism of a great city.",
+      "zhMarkdown": "而是在艺术、写作或技术等领域，更大的环境才起作用。在这些领域，最优秀的从业者并没有被方便地收集在少数几个顶尖大学院系和研究实验室里——部分原因在于才华更难评判，另一部分原因在于人们会为这些东西买单，因此从业者不需要依靠教学或研究经费来维持生计。在这些更为混乱的领域，身处一个伟大的城市帮助最大：你需要感受到周围人在乎你所做的工作从而获得鼓励，而且既然你必须自己寻找同行，你就需要伟大城市那大得多的吸纳机制。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "2daa32d88f8d4f7bc0ba67843288d8daf3fca575b0b4b4f2c6f947c73d4853e0",
+      "enMarkdown": "You don't have to live in a great city your whole life to benefit from it. The critical years seem to be the early and middle ones of your career. Clearly you don't have to grow up in a great city. Nor does it seem to matter if you go to college in one. To most college students a world of a few thousand people seems big enough. Plus in college you don't yet have to face the hardest kind of work — discovering new problems to solve.",
+      "zhMarkdown": "你不需要一辈子都住在伟大的城市里才能从中受益。关键的年份似乎是职业生涯的早期和中期。显然，你不需要在伟大的城市里长大。在伟大的城市里读大学似乎也无所谓。对于大多数大学生来说，一个几千人的世界就已经足够大了。另外，在大学里，你还不需要面对最艰难的工作——发现需要解决的新问题。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "e3e49c89a54147245c858169899518e005c17f803cfc14fdcf84adc2c0c4fe82",
+      "enMarkdown": "It's when you move on to the next and much harder step that it helps most to be in a place where you can find peers and encouragement. You seem to be able to leave, if you want, once you've found both. The Impressionists show the typical pattern: they were born all over France (Pissarro was born in the Caribbean) and died all over France, but what defined them were the years they spent together in Paris.",
+      "zhMarkdown": "当你迈向下一步、也是艰难得多的一步时，身处一个可以找到同行和鼓励的地方对你的帮助最大。一旦你找到了这两者，如果你想离开，似乎随时都可以。印象派画家展示了这种典型模式：他们出生在法国各地（毕沙罗出生在加勒比海地区），也死在法国各地，但定义他们的，是他们在巴黎共同度过的那些年岁。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "b838dcb06e04bee2442c0da97bc52efb54e9455a07435fe4040148cab17e9938",
+      "enMarkdown": "_____",
+      "zhMarkdown": "_____"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "4acb08d478dc137acf474f90545c4cf89045f25af9166f4ba5d17c1e2e82c2bf",
+      "enMarkdown": "Unless you're sure what you want to do and where the leading center for it is, your best bet is probably to try living in several places when you're young. You can never tell what message a city sends till you live there, or even whether it still sends one. Often your information will be wrong: I tried living in Florence when I was 25, thinking it would be an art center, but it turned out I was 450 years too late.",
+      "zhMarkdown": "除非你十分确定自己想做什么，以及该领域的领先中心在哪里，否则你最好的选择大概是在年轻时尝试在几个不同的地方生活。在你亲自去住之前，你永远无法说清一座城市传递的是什么信息，甚至无法确定它是否还在传递。通常你的信息会是错的：我 25 岁时曾尝试在佛罗伦萨生活，以为它会是一个艺术中心，但事实证明我迟到了 450 年。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "7efcde30c4616ea536c2f5ca2174133fbb785bd2589351bc06352afd9d1afe55",
+      "enMarkdown": "Even when a city is still a live center of ambition, you won't know for sure whether its message will resonate with you till you hear it. When I moved to New York, I was very excited at first. It's an exciting place. So it took me quite a while to realize I just wasn't like the people there. I kept searching for the Cambridge of New York. It turned out it was way, way uptown: an hour uptown by air.",
+      "zhMarkdown": "即使一座城市依然是活跃的野心中心，在你亲耳听到它的信息之前，你也不会确切知道它是否会与你产生共鸣。当我搬到纽约时，起初我非常兴奋。那是一个令人兴奋的地方。所以我花了相当长的时间才意识到，我只是和那里的人不一样。我一直在纽约寻找属于纽约的“剑桥”。结果发现它在非常非常遥远的北方：坐飞机往北一小时车程的地方。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "877ed882b72469e7f78939f13b144f224a813c2ed24aa6084ad22d43c7c86bde",
+      "enMarkdown": "Some people know at 16 what sort of work they're going to do, but in most ambitious kids, ambition seems to precede anything specific to be ambitious about. They know they want to do something great. They just haven't decided yet whether they're going to be a rock star or a brain surgeon. There's nothing wrong with that. But it means if you have this most common type of ambition, you'll probably have to figure out where to live by trial and error. You'll probably have to find the city where you feel at home to know what sort of ambition you have.",
+      "zhMarkdown": "有些人在 16 岁时就知道自己要做什么工作，但在大多数有抱负的孩子身上，野心似乎早于任何具体的奋斗目标。他们知道自己想做一些伟大的事情。他们只是还没有决定是要成为摇滚明星还是脑外科医生。这没什么不对。但这意味着，如果你拥有这种最常见的野心，你可能必须通过反复试验来摸索该住在哪里。你可能必须找到那个让你有归属感的城市，才能看清自己到底有什么样的野心。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "06a8206f7bf4b26ab76867652b93a57c9d72394709622e364ce92d114acb1069",
+      "enMarkdown": "[1] This is one of the advantages of not having the universities in your country controlled by the government. When governments decide how to allocate resources, political deal-making causes things to be spread out geographically. No central goverment would put its two best universities in the same town, unless it was the capital (which would cause other problems). But scholars seem to like to cluster together as much as people in any other field, and when given the freedom to they derive the same advantages from it.",
+      "zhMarkdown": "[1] 这是不在国家层面由政府控制大学的优势之一。当政府决定如何分配资源时，政治博弈会导致资源在地理上被分散。没有任何中央政府会把其最顶尖的两所大学放在同一个小镇上，除非那是首都（而这又会引发其他问题）。但学者们似乎和其他任何领域的从业者一样喜欢扎堆，而当被给予自由时，他们能从中获得同样的好处。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "18e3e9e019c27913232b2f8222e39ba8d56f742afa1ec06dfc43c96455b2b451",
+      "enMarkdown": "[2] There are still a few old professors in Palo Alto, but one by one they die and their houses are transformed by developers into McMansions and sold to VPs of Bus Dev.",
+      "zhMarkdown": "[2] 帕罗奥图依然保留着几位老教授，但他们正一个接一个地离世，他们的房子被开发商改造成豪宅，卖给业务拓展副总裁们。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "20f626271751e4a12bd4f842e737c915ffac291de76603542c82ca9c350d04b2",
+      "enMarkdown": "[3] How many times have you read about startup founders who continued to live inexpensively as their companies took off? Who continued to dress in jeans and t-shirts, to drive the old car they had in grad school, and so on? If you did that in New York, people would treat you like shit. If you walk into a fancy restaurant in San Francisco wearing a jeans and a t-shirt, they're nice to you; who knows who you might be? Not in New York.",
+      "zhMarkdown": "[3] 你有多少次读到过，有些创业公司创始人在公司腾飞时依然过着简朴的生活？依然穿着牛仔裤和 T 恤，开着读研时的旧车，等等？如果你在纽约这样做，人们会把你当垃圾对待。如果你穿着牛仔裤和 T 恤走进旧金山的一家高档餐厅，他们会对你非常客气；谁知道你可能是哪位大人物？但在纽约绝非如此。\n\n衡量一座城市作为技术中心潜力的一个指标，是依然要求男士穿西装外套（jacket）的餐厅数量。根据 Zagat 的数据，旧金山、洛杉矶、波士顿或西雅图一家都没有，华盛顿特区有 4 家，芝加哥有 6 家，伦敦有 8 家，纽约有 13 家，巴黎有 20 家。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "54e94761e296f3b5578fc1c3f1248a65403eef896cbbcba5ab375602bbc78003",
+      "enMarkdown": "One sign of a city's potential as a technology center is the number of restaurants that still require jackets for men. According to Zagat's there are none in San Francisco, LA, Boston, or Seattle, 4 in DC, 6 in Chicago, 8 in London, 13 in New York, and 20 in Paris.",
+      "zhMarkdown": "（Zagat 将旧金山的丽思卡尔顿餐厅列为要求穿外套，但我简直不敢相信，所以我打电话去核实，事实上他们并不要求。显然，整个西海岸只剩下一家餐厅依然要求穿外套：纳帕谷的 The French Laundry。）"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "5aa7f8e1f1744828d0dd8d408f9d3487b2fd502da0f6674aa2bb35cea791e113",
+      "enMarkdown": "(Zagat's lists the Ritz Carlton Dining Room in SF as requiring jackets but I couldn't believe it, so I called to check and in fact they don't. Apparently there's only one restaurant left on the entire West Coast that still requires jackets: The French Laundry in Napa Valley.)",
+      "zhMarkdown": "[4] 思想比经济力量更往源头走了一步，因此可以想象，像剑桥这样的学术中心有一天会拥有超越硅谷的优势，就像硅谷超越纽约一样。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "c423d6b00def020d6ecdfecb4c4982fe31517d5b7ff22cc7ca1b2178aac89612",
+      "enMarkdown": "[4] Ideas are one step upstream from economic power, so it's conceivable that intellectual centers like Cambridge will one day have an edge over Silicon Valley like the one the Valley has over New York.",
+      "zhMarkdown": "目前看来这不太可能；如果说有什么变化的话，那就是波士顿正落后得越来越远。我之所以提到这种可能性，唯一的理由是，从思想走向创业公司的道路最近变得越来越顺畅。现在，几个没有商业经验的黑客创办一家创业公司，要比 10 年前容易得多。如果再推演 20 年，也许力量的天平会开始往回倾斜。我不会把赌注押在这上面，但我同样不会断言它不可能发生。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "6dbf8e86e42e53327f6cbbffb42481f36c314a7d9ef4d6caf5229846c45cb531",
+      "enMarkdown": "This seems unlikely at the moment; if anything Boston is falling further and further behind. The only reason I even mention the possibility is that the path from ideas to startups has recently been getting smoother. It's a lot easier now for a couple of hackers with no business experience to start a startup than it was 10 years ago. If you extrapolate another 20 years, maybe the balance of power will start to shift back. I wouldn't bet on it, but I wouldn't bet against it either.",
+      "zhMarkdown": "[5] 如果巴黎是人们最在乎艺术的地方，为什么纽约会是艺术交易的重力中心？因为在 20 世纪，作为品牌的艺术与作为实物的艺术分道扬镳了。纽约是最富有的买家聚集的地方，但他们对艺术的要求仅仅是品牌，既然你可以把品牌建立在任何具有足够可辨识风格的东西上，你还不如直接用当地的货色。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "7ff17c09733c08071dd7f97670f5c7d3865d34715341221b1dc1dd26d6f6c11b",
+      "enMarkdown": "[5] If Paris is where people care most about art, why is New York the center of gravity of the art business? Because in the twentieth century, art as brand split apart from art as stuff. New York is where the richest buyers are, but all they demand from art is brand, and since you can base brand on anything with a sufficiently identifiable style, you may as well use the local stuff.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Sarah Harlin、Jessica Livingston、Jackie McDonough、Robert Morris 和 David Sloo 阅读本文的草稿。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "6c5ba19c2801d49d92405aaab76e09b47625136945b832c534d9bdec99f9f65b",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Sarah Harlin, Jessica Livingston, Jackie McDonough, Robert Morris, and David Sloo for reading drafts of this.",
+      "zhMarkdown": ""
+    }
+  ]
+}

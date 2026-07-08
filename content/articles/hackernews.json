@@ -1,0 +1,412 @@
+{
+  "slug": "hackernews",
+  "titleEn": "What I've Learned from Hacker News",
+  "titleZh": "我从 Hacker News 学到了什么",
+  "dateText": "February 2009",
+  "publishedAt": "2009-02-01",
+  "sourceOrder": 125,
+  "sourceUrl": "https://paulgraham.com/hackernews.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "aac2dcaf8447be7cd0c774180c43b08d6e818b18019a116dfe8faf67b67ac5f5",
+      "enMarkdown": "Hacker News was two years old last week. Initially it was supposed to be a side project—an application to sharpen Arc on, and a place for current and future Y Combinator founders to exchange news. It's grown bigger and taken up more time than I expected, but I don't regret that because I've learned so much from working on it.",
+      "zhMarkdown": "上周，Hacker News 满两岁了。最开始，它只是一个副业项目——一个用来完善 Arc 语言的应用程序，以及一个供 Y Combinator 现有和未来的创始人交流新闻的地方。现在它的规模变大了，占用的时间也超出了我的预期，但我并不后悔，因为我从运营它的过程中学到了太多东西。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "acaa38eaa4f37df36c939020eca1db1ca117cb001afabb9e8a9d3b85798273a3",
+      "enMarkdown": "**Growth**",
+      "zhMarkdown": "**增长**"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "731132b47a997c1ddd57bda47cc3d030a7990ccf10960c4e3853b07107c57ba3",
+      "enMarkdown": "When we launched in February 2007, weekday traffic was around 1600 daily uniques. It's since [grown](http://ycombinator.com/images/2yeartraffic.png) to around 22,000. This growth rate is a bit higher than I'd like. I'd like the site to grow, since a site that isn't growing at least slowly is probably dead. But I wouldn't want it to grow as large as Digg or Reddit—mainly because that would dilute the character of the site, but also because I don't want to spend all my time dealing with scaling.",
+      "zhMarkdown": "2007 年 2 月我们刚上线时，工作日的日均独立访客（UV）大约是 1600。此后它一路[增长](http://ycombinator.com/images/2yeartraffic.png)到了大约 22,000。这个增长速度比我预期的要快一点。我希望网站能够增长，因为一个连缓慢增长都停滞的网站很可能已经死掉了。但我不想让它长得像 Digg 或 Reddit 那么大——这主要是因为那会稀释网站的特色，而且我也不想把所有时间都花在应对服务器扩容上。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "91d983b013f3e4baaf2fbcfac5206b70db55783f272c1e021f50924bc655dc24",
+      "enMarkdown": "I already have problems enough with that. Remember, the original motivation for HN was to test a new programming language, and moreover one that's focused on experimenting with language design, not performance. Every time the site gets slow, I fortify myself by recalling McIlroy and Bentley's famous quote",
+      "zhMarkdown": "在扩容方面，我的麻烦已经够多了。别忘了，HN 的初衷是为了测试一门新的编程语言，而且是一门专注于语言设计实验、而非性能的语言。每当网站变慢时，我都会用麦克罗伊（McIlroy）和本特利（Bentley）的名言来给自己打气："
+    },
+    {
+      "id": 5,
+      "type": "quote",
+      "sourceHash": "bdcaba83a1a04bee38beda91b9d4ccc86b934e4a9b11f9f568feb0f1d3354de1",
+      "enMarkdown": "> The key to performance is elegance, not battalions of special cases.",
+      "zhMarkdown": "> 性能的关键在于优雅，而不是堆砌成堆的特例。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "47223bd9136c6c96a4079da0e60bd1c2f93375516e00f1163bc9c90648861164",
+      "enMarkdown": "and look for the bottleneck I can remove with least code. So far I've been able to keep up, in the sense that performance has remained consistently mediocre despite 14x growth. I don't know what I'll do next, but I'll probably think of something.",
+      "zhMarkdown": "然后去寻找能用最少代码解决的瓶颈。到目前为止，我还算能应付得来——也就是说，尽管流量增长了 14 倍，但网站性能一直稳定地保持在“勉强凑合”的水平。接下来该怎么办我还没底，但大概总能想到办法。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "7f200e7e256bb956cf845453d3d4c2652df59a7e0527a48147370bacf4f712a1",
+      "enMarkdown": "This is my attitude to the site generally. Hacker News is an experiment, and an experiment in a very young field. Sites of this type are only a few years old. Internet conversation generally is only a few decades old. So we've probably only discovered a fraction of what we eventually will.",
+      "zhMarkdown": "这也是我对这个网站的一贯态度。Hacker News 是一个实验，而且是在一个非常年轻的领域里做实验。这种类型的网站诞生不过几年，而整个互联网上的交流历史也不过几十年。所以，我们现在发现的可能只是未来终将探明领域的冰山一角。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4784aab636a22270d2deae0d304f9d46321f14b0c5723675867ad6416b9cb466",
+      "enMarkdown": "That's why I'm so optimistic about HN. When a technology is this young, the existing solutions are usually terrible; which means it must be possible to do much better; which means many problems that seem insoluble aren't. Including, I hope, the problem that has afflicted so many previous communities: being ruined by growth.",
+      "zhMarkdown": "这就是为什么我对 HN 如此乐观。当一项技术如此年轻时，现有的解决方案通常都很糟糕；这意味着一定有办法做得更好；也意味着许多看似无解的问题其实并非无解。我希望这其中也包括那个折磨了无数前辈社区的难题：因增长而走向毁灭。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c92b06918c3dc97317b1c00d22cbe6394587863cd7abc988fdae3c81987843a9",
+      "enMarkdown": "**Dilution**",
+      "zhMarkdown": "**稀释**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "cc7444c5ac51999bcadb7f7f802fe947f29ef6c44c474ca743aa00660d40903a",
+      "enMarkdown": "Users have worried about that since the site was a few months old. So far these alarms have been false, but they may not always be. Dilution is a hard problem. But probably soluble; it doesn't mean much that open conversations have \"always\" been destroyed by growth when \"always\" equals 20 instances.",
+      "zhMarkdown": "从网站上线几个月起，用户就在担心这个问题。到目前为止，这些警报都是虚惊一场，但以后未必总是如此。稀释是一个难题，但大概率是可解的。虽然开放式对话“总是”被增长摧毁，但当这个“总是”的样本量只有 20 个案例时，并不能说明太多问题。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "d932b1ad0fd37260036d38bf64c57e19db70e804fd5ab7b4304a3c34dc95473c",
+      "enMarkdown": "But it's important to remember we're trying to solve a new problem, because that means we're going to have to try new things, most of which probably won't work. A couple weeks ago I tried displaying the names of users with the highest average comment scores in orange. [[1](#f1n)] That was a mistake. Suddenly a culture that had been more or less united was divided into haves and have-nots. I didn't realize how united the culture had been till I saw it divided. It was painful to watch. [[2](#f2n)]",
+      "zhMarkdown": "但重要的是要记住，我们正在尝试解决一个全新的问题，这意味着我们必须尝试新方法，而其中大部分可能都行不通。几周前，我尝试用橙色显示平均评论得分最高的用户名字。[[1](#f1n)] 事实证明那是个错误。突然之间，一个原本大体团结的社区文化被分裂成了“富人”和“穷人”。直到看到它分裂，我才意识到这个社区之前是多么团结。看着让人挺痛心的。[[2](#f2n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "58cf146fdda6b54bf908a935b783b6006cf9f60df3e4c8805435ada95d22570d",
+      "enMarkdown": "So orange usernames won't be back. (Sorry about that.) But there will be other equally broken-seeming ideas in the future, and the ones that turn out to work will probably seem just as broken as those that don't.",
+      "zhMarkdown": "所以橙色用户名不会再有了（对此感到抱歉）。但未来肯定还会出现其他同样看起来很蠢的想法，而那些最终行之有效的想法，在刚提出时可能也和失败的想法一样显得荒谬。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "5c45e79553c8d34ec7ab5999fe9f4262ab6df20c9e4cde692526160b7757b6c9",
+      "enMarkdown": "Probably the most important thing I've learned about dilution is that it's measured more in behavior than users. It's bad behavior you want to keep out more than bad people. User behavior turns out to be surprisingly malleable. If people are [expected](http://ycombinator.com/newswelcome.html) to behave well, they tend to; and vice versa.",
+      "zhMarkdown": "关于稀释，我学到的最重要的一点大概是：衡量稀释的指标更多在于行为，而非用户人数。你需要拒之门外的是坏行为，而不是坏人。事实证明，用户的行为具有惊人的可塑性。如果人们[被期望](http://ycombinator.com/newswelcome.html)表现得体，他们往往就会表现得体；反之亦然。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "4668f2a5bff7fd52c0cbd6dc05f5fb2b47c417dc21e9879444ce876c3263d0ac",
+      "enMarkdown": "Though of course forbidding bad behavior does tend to keep away bad people, because they feel uncomfortably constrained in a place where they have to behave well. But this way of keeping them out is gentler and probably also more effective than overt barriers.",
+      "zhMarkdown": "当然，禁止坏行为确实能把坏人挡在门外，因为在一个必须规矩行事的地方，他们会感到浑身不自在。但这种拒人于千里之外的方式，比设立显性的门槛更温和，也可能更有效。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "2ed6927347ead47970735cfab4545b52a5ac21528fee7ca86042a50a0b4e8589",
+      "enMarkdown": "It's pretty clear now that the broken windows theory applies to community sites as well. The theory is that minor forms of bad behavior encourage worse ones: that a neighborhood with lots of graffiti and broken windows becomes one where robberies occur. I was living in New York when Giuliani introduced the reforms that made the broken windows theory famous, and the transformation was miraculous. And I was a Reddit user when the opposite happened there, and the transformation was equally dramatic.",
+      "zhMarkdown": "现在很清楚，“破窗效应”同样适用于社区网站。该理论认为，轻微的坏行为会助长更恶劣的行为：一个到处是涂鸦和破窗户的社区，最终会变成抢劫横行的地方。朱利安尼（Giuliani）推行改革让破窗理论名声大噪时，我正好住在纽约，那场蜕变堪称奇迹。而当相反的情况在 Reddit 发生时，我恰好也是 Reddit 的用户，那场蜕变同样触目惊心。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "b6102cd3b8917a19d279080f49441058f7e40f2698b257eadba89c5ef89c5a2c",
+      "enMarkdown": "I'm not criticizing Steve and Alexis. What happened to Reddit didn't happen out of neglect. From the start they had a policy of censoring nothing except spam. Plus Reddit had different goals from Hacker News. Reddit was a startup, not a side project; its goal was to grow as fast as possible. Combine rapid growth and zero censorship, and the result is a free for all. But I don't think they'd do much differently if they were doing it again. Measured by traffic, Reddit is much more successful than Hacker News.",
+      "zhMarkdown": "我并不是在批评 Steve 和 Alexis。Reddit 的遭遇并非源于疏忽。他们从一开始就奉行除了垃圾邮件外一律不删帖的原则。再加上 Reddit 的目标与 Hacker News 不同。Reddit 是一家创业公司，而不是一个副业项目；它的目标是尽可能快地增长。快速增长加上零审核，结果就是场大混战。但我不认为如果重来一次他们会做出多大改变。如果按流量来衡量，Reddit 比 Hacker News 成功得多。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "46eb420369c6629d0520ddf9b440dc47a2ec02f98f8871e889dc6a8a5afa9d02",
+      "enMarkdown": "But what happened to Reddit won't inevitably happen to HN. There are several local maxima. There can be places that are free for alls and places that are more thoughtful, just as there are in the real world; and people will behave differently depending on which they're in, just as they do in the real world.",
+      "zhMarkdown": "但 Reddit 的命运不一定会降临到 HN 头上。互联网上存在多个局部最优解。就像现实世界一样，既可以有大混战的场所，也可以有更理性思考的去处；人们在不同的环境里会有不同的表现，就像在现实世界中一样。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "3fa1eed08821df11711abb3e28069e902e8b75408991169a942c59c4292428a1",
+      "enMarkdown": "I've observed this in the wild. I've seen people cross-posting on Reddit and Hacker News who actually took the trouble to write two versions, a flame for Reddit and a more subdued version for HN.",
+      "zhMarkdown": "我在现实中观察到过这种现象。我见过有人在 Reddit 和 Hacker News 上发同一个帖，但他们会特意写两个版本：在 Reddit 上用极具煽动性的口水话，在 HN 上则换成更克制的版本。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "f0376eca3469a1bb1b8a318d8ac96d94e38eddba8daf702a132e7189a0d71290",
+      "enMarkdown": "**Submissions**",
+      "zhMarkdown": "**提交内容**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "37197d2bce9c328ba0e17ad9bdc055c6b533295b906552de3a12208676579c6e",
+      "enMarkdown": "There are two major types of problems a site like Hacker News needs to avoid: bad stories and bad comments. So far the danger of bad stories seems smaller. The stories on the frontpage now are still roughly the ones that would have been there when HN started.",
+      "zhMarkdown": "像 Hacker News 这样的网站需要避免两大类问题：糟糕的帖子和糟糕的评论。到目前为止，糟糕帖子的威胁似乎比较小。现在首页上的帖子，大体上还是 HN 刚创立时会出现的那些内容。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "58df160176ad393f7f447013d89c677bf98b79af7aa726470b9b5e748da5c32c",
+      "enMarkdown": "I once thought I'd have to weight votes to keep crap off the frontpage, but I haven't had to yet. I wouldn't have predicted the frontpage would hold up so well, and I'm not sure why it has. Perhaps only the more thoughtful users care enough to submit and upvote links, so the marginal cost of one random new user approaches zero. Or perhaps the frontpage protects itself, by advertising what type of submission is expected.",
+      "zhMarkdown": "我曾以为我必须通过给投票加权来防止垃圾内容登上首页，但目前还没这个必要。我之前没预料到首页能维持得这么好，我也不太确定原因何在。也许只有那些更理性的用户才足够在乎去提交和点赞链接，因此一个随机新用户带来的边际破坏成本趋近于零。又或者，首页本身就在通过展示“这里期望什么样的提交”来保护自己。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "86cd2b17e831f2568ed29e6b716113b4c9b1bcac3d5c9068b13372a336875383",
+      "enMarkdown": "The most dangerous thing for the frontpage is stuff that's too easy to upvote. If someone proves a new theorem, it takes some work by the reader to decide whether or not to upvote it. An amusing cartoon takes less. A rant with a rallying cry as the title takes zero, because people vote it up without even reading it.",
+      "zhMarkdown": "对首页来说，最危险的是那些极易被点赞的内容。如果有人证明了一个新定理，读者需要花点精力才能决定要不要点赞。一幅搞笑的漫画花的时间就少得多。而一篇标题极具煽动性口号的宣泄式文章，点赞成本几乎为零，因为人们连读都不读就会点赞。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "fdae7040fc8be5ead0248a74aea80bed012ee128b96abb1ae7f45261ecf1eb9f",
+      "enMarkdown": "Hence what I call the Fluff Principle: on a user-voted news site, the links that are easiest to judge will take over unless you take specific measures to prevent it.",
+      "zhMarkdown": "因此有了我所说的“肤浅原则”（Fluff Principle）：在一个由用户投票决定的新闻网站上，最容易做出判断的链接将会占领首页，除非你采取特定措施来阻止。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "ea873aa6025c4d974461d8abb67e27b07ffc2a54ab8291bf1e106faa0026c808",
+      "enMarkdown": "Hacker News has two kinds of protections against fluff. The most common types of fluff links are banned as off-topic. Pictures of kittens, political diatribes, and so on are explicitly banned. This keeps out most fluff, but not all of it. Some links are both fluff, in the sense of being very short, and also on topic.",
+      "zhMarkdown": "Hacker News 有两种防止肤浅内容的保护机制。最常见的肤浅链接会因偏离主题而被直接禁止。猫咪图片、政治谩骂等被明确禁止。这挡住了大部分肤浅内容，但不是全部。有些链接既属于肤浅内容（非常短），但同时又符合主题。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "4e2f52bdeba8df2a03d63de143fcdafdc8e01d3d20a2e318c6e98b7534a2aa60",
+      "enMarkdown": "There's no single solution to that. If a link is just an empty rant, editors will sometimes kill it even if it's on topic in the sense of being about hacking, because it's not on topic by the real standard, which is to engage one's intellectual curiosity. If the posts on a site are characteristically of this type I sometimes ban it, which means new stuff at that url is auto-killed. If a post has a linkbait title, editors sometimes rephrase it to be more matter-of-fact. This is especially necessary with links whose titles are rallying cries, because otherwise they become implicit \"vote up if you believe such-and-such\" posts, which are the most extreme form of fluff.",
+      "zhMarkdown": "对此没有单一的解决办法。如果一个链接纯粹是无意义的宣泄，即使它在技术层面符合主题（比如关于黑客技术），编辑有时也会删掉它，因为它不符合真正的标准——即激发人们的求知欲。如果某个网站的帖子大都属于这种类型，我有时会屏蔽该网站，这意味着该网址的新内容会被自动删除。如果一个帖子的标题是标题党，编辑有时会将其改写得更客观。对于那些标题是煽动性口号的链接，这尤其必要，否则它们就会变成隐性的“同意请点赞”帖，这是最极端的肤浅内容形式。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "de654e18cd7b4a6e304d0692cf8b9ed5a691345febc379f0a4fb6e2d7eb0c500",
+      "enMarkdown": "The techniques for dealing with links have to evolve, because the links do. The existence of aggregators has already affected what they aggregate. Writers now deliberately write things to draw traffic from aggregators—sometimes even specific ones. (No, the irony of this statement is not lost on me.) Then there are the more sinister mutations, like linkjacking—posting a paraphrase of someone else's article and submitting that instead of the original. These can get a lot of upvotes, because a lot of what's good in an article often survives; indeed, the closer the paraphrase is to plagiarism, the more survives. [[3](#f3n)]",
+      "zhMarkdown": "处理链接的技术必须不断演进，因为链接本身也在演进。聚合类网站的存在已经反过来影响了被聚合的内容。现在的作者会刻意写一些能从聚合网站（有时甚至是特定的某一家）吸引流量的文章。（是的，我并非没有意识到这句话本身的讽刺意味。）此外还有更恶劣的变种，比如“链接劫持”（linkjacking）——发一篇对别人文章的洗稿，然后提交这个洗稿链接而不是原文。这些链接能获得很多赞，因为原作中很多优秀的部分往往被保留了下来；事实上，洗稿越接近抄袭，保留下来的好内容就越多。[[3](#f3n)]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "ff8226e0ef1dacccbb0481288ca0e10ed42c4da7d990af01220343aa94bb78a5",
+      "enMarkdown": "I think it's important that a site that kills submissions provide a way for users to see what got killed if they want to. That keeps editors honest, and just as importantly, makes users confident they'd know if the editors stopped being honest. HN users can do this by flipping a switch called showdead in their profile. [[4](#f4n)]",
+      "zhMarkdown": "我认为，一个会删帖的网站，必须为用户提供一种途径，让他们在想看时能看到被删掉的内容。这能让编辑保持诚实，同样重要的是，能让用户确信，如果编辑不再诚实，他们会察觉。HN 用户可以通过在个人资料中开启一个名为 showdead 的开关来做到这一点。[[4](#f4n)]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "1a72a35093e9545916e25d40a3bc3e041add3c2aa26e305b2ffb5b2152f3eec7",
+      "enMarkdown": "**Comments**",
+      "zhMarkdown": "**评论**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "32f10c20eb74073d351262c3b27e4508410486fb1b55ff5c5fca0a0a31281dc0",
+      "enMarkdown": "Bad comments seem to be a harder problem than bad submissions. While the quality of links on the frontpage of HN hasn't changed much, the quality of the median comment may have decreased somewhat.",
+      "zhMarkdown": "糟糕的评论似乎比糟糕的帖子更难对付。虽然 HN 首页的链接质量没有太大变化，但评论的平均质量可能有所下降。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "bda20ce81a4594ff3894df542efe45efa701a813b9bc6ae308eb4c91404ddaaf",
+      "enMarkdown": "There are two main kinds of badness in comments: meanness and stupidity. There is a lot of overlap between the two—mean comments are disproportionately likely also to be dumb—but the strategies for dealing with them are different. Meanness is easier to control. You can have rules saying one shouldn't be mean, and if you enforce them it seems possible to keep a lid on meanness.",
+      "zhMarkdown": "评论的糟糕主要表现在两方面：刻薄和愚蠢。这两者之间有很大的重合——刻薄的评论极有可能是愚蠢的——但应对它们的策略不同。刻薄更容易控制。你可以制定不准刻薄的规则，只要严格执行，似乎就能压制住刻薄的风气。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "b80ddda32515e33a089c4374fc66881c245ea77732a9531fcf485ffd9e419b39",
+      "enMarkdown": "Keeping a lid on stupidity is harder, perhaps because stupidity is not so easily distinguishable. Mean people are more likely to know they're being mean than stupid people are to know they're being stupid.",
+      "zhMarkdown": "但要压制愚蠢就难得多了，也许是因为愚蠢没那么容易界定。刻薄的人比愚蠢的人更有可能意识到自己的问题。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "5c8e7001f0dd030cc2763d146ea32495c987057857d17eeaccfb350d993762d2",
+      "enMarkdown": "The most dangerous form of stupid comment is not the long but mistaken argument, but the dumb joke. Long but mistaken arguments are actually quite rare. There is a strong correlation between comment quality and length; if you wanted to compare the quality of comments on community sites, average length would be a good predictor. Probably the cause is human nature rather than anything specific to comment threads. Probably it's simply that stupidity more often takes the form of having few ideas than wrong ones.",
+      "zhMarkdown": "最危险的愚蠢评论形式不是那种长篇大论但逻辑错误的争论，而是愚蠢的段子。长篇大论但逻辑错误的争论其实非常罕见。评论的质量与长度之间存在强烈的正相关；如果你想对比不同社区网站的评论质量，平均长度会是一个很好的预测指标。这可能是人性使然，而非评论区特有的现象。也许仅仅是因为，愚蠢往往表现为缺乏想法，而不是想法错误。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "240064dd5cbc98a6a3f9a60245e21580297db8802dbd8d1d4a29c7c0af06bc8d",
+      "enMarkdown": "Whatever the cause, stupid comments tend to be short. And since it's hard to write a short comment that's distinguished for the amount of information it conveys, people try to distinguish them instead by being funny. The most tempting format for stupid comments is the supposedly witty put-down, probably because put-downs are the easiest form of humor. [[5](#f5n)] So one advantage of forbidding meanness is that it also cuts down on these.",
+      "zhMarkdown": "不管原因是什么，愚蠢的评论往往都很短。由于很难写出一条因信息量大而脱颖而出的简短评论，人们便试图通过抖机灵来标新立异。最诱人也最常见的愚蠢评论格式，就是自以为幽默的冷嘲热讽，这大概是因为冷嘲热讽是最容易抖的机灵。[[5](#f5n)] 因此，禁止刻薄的一个好处就是，它顺便也减少了这类言论。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "c0ade87f9fc54f10eaaccd8fb5f9c5a4f94ef2400dafb62a14dbad8fdec033d9",
+      "enMarkdown": "Bad comments are like kudzu: they take over rapidly. Comments have much more effect on new comments than submissions have on new submissions. If someone submits a lame article, the other submissions don't all become lame. But if someone posts a stupid comment on a thread, that sets the tone for the region around it. People reply to dumb jokes with dumb jokes.",
+      "zhMarkdown": "糟糕的评论就像葛藤一样：它们会迅速占领阵地。评论对新评论的影响，远大于帖子对新帖子的影响。如果有人提交了一篇烂文章，其他提交的帖子并不会跟着变烂。但如果有人在帖子里发了一条愚蠢的评论，就会带偏周围的讨论调性。人们会用愚蠢的段子去回复愚蠢的段子。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "d7b5fa35fdf1ce3c793d60a1f595384d19defa9ef0814e99b2b615558213001d",
+      "enMarkdown": "Maybe the solution is to add a delay before people can respond to a comment, and make the length of the delay inversely proportional to some prediction of its quality. Then dumb threads would grow slower. [[6](#f6n)]",
+      "zhMarkdown": "也许解决办法是引入延迟机制，限制人们回复评论的速度，并让延迟时间与系统对其质量的预测成反比。这样，愚蠢的讨论串增长速度就会慢下来。[[6](#f6n)]"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "ca14cb1742516646e965fbe352658c8a8571bf8763d80e828a785c4c187e72da",
+      "enMarkdown": "**People**",
+      "zhMarkdown": "**人**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "27bfcfb628f87b6ca3c2a3c68001ccd52a80219aaf5664c699aa46130171bcec",
+      "enMarkdown": "I notice most of the techniques I've described are conservative: they're aimed at preserving the character of the site rather than enhancing it. I don't think that's a bias of mine. It's due to the shape of the problem. Hacker News had the good fortune to start out good, so in this case it's literally a matter of preservation. But I think this principle would also apply to sites with different origins.",
+      "zhMarkdown": "我注意到，我描述的大多数技术都是保守型的：它们旨在维护网站的特色，而不是为了拔高它。我不认为这是我的偏见。这是由问题的本质决定的。Hacker News 运气很好，起点很高，所以在这里，问题确实纯粹在于如何维持。但我认为这个原则同样适用于其他不同起点的网站。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "478bd61444cb0baad78805f1aba287c82b219e9de5ae5aecdc4243270deeddfe",
+      "enMarkdown": "The good things in a community site come from people more than technology; it's mainly in the prevention of bad things that technology comes into play. Technology certainly can enhance discussion. Nested comments do, for example. But I'd rather use a site with primitive features and smart, nice users than a more advanced one whose users were idiots or [trolls](https://paulgraham.com/trolls.html).",
+      "zhMarkdown": "社区网站中美好的事物更多来自于人，而非技术；技术发挥作用的地方，主要在于防止坏事的发生。技术当然可以改善讨论。例如，嵌套评论就是个好例子。但我宁愿使用一个功能简陋但用户聪明友善的网站，也不愿使用一个技术先进但充斥着白痴或[键盘侠](https://paulgraham.com/trolls.html)的网站。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "814668d36bff6a5c7a00dd78f8fcee295cb96fbca5ff96078d3d3610151be303",
+      "enMarkdown": "So the most important thing a community site can do is attract the kind of people it wants. A site trying to be as big as possible wants to attract everyone. But a site aiming at a particular subset of users has to attract just those—and just as importantly, repel everyone else. I've made a conscious effort to do this on HN. The graphic design is as plain as possible, and the site rules discourage dramatic link titles. The goal is that the only thing to interest someone arriving at HN for the first time should be the ideas expressed there.",
+      "zhMarkdown": "因此，社区网站能做的最重要的事情，就是吸引它想要的那类人。一个追求规模最大化的网站希望吸引所有人。但一个针对特定细分群体的网站，必须只吸引这部分人——同样重要的是，要击退其他人。我在 HN 上刻意做过这方面的努力。页面设计极尽简陋，网站规则也排斥夸张的帖子标题。我们的目标是，让第一次访问 HN 的人，唯一能产生兴趣的就是这里表达的观点。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "d1e1dfc54651467e72993d3238a5d315ff244aa02a281d637cb169a36709dc71",
+      "enMarkdown": "The downside of tuning a site to attract certain people is that, to those people, it can be too attractive. I'm all too aware how addictive Hacker News can be. For me, as for many users, it's a kind of virtual town square. When I want to take a break from working, I walk into the square, just as I might into Harvard Square or University Ave in the physical world. [[7](#f7n)] But an online square is more dangerous than a physical one. If I spent half the day loitering on University Ave, I'd notice. I have to walk a mile to get there, and sitting in a cafe feels different from working. But visiting an online forum takes just a click, and feels superficially very much like working. You may be wasting your time, but you're not idle. Someone is [wrong](http://xkcd.com/386/) on the Internet, and you're fixing the problem.",
+      "zhMarkdown": "调整网站以吸引特定人群的副作用是，对这些人来说，它可能会变得过于有吸引力。我深知 Hacker News 有多让人上瘾。对我以及许多用户来说，它就像一个虚拟的城镇广场。当我想从工作中抽身休息一下时，我就会走进这个广场，就像在现实世界中走进哈佛广场或大学路一样。[[7](#f7n)] 但在线广场比现实广场更危险。如果我花半天时间在大学路上闲逛，我自己会意识到。我得走一英里才能到那儿，而且坐在咖啡馆里的感觉和工作完全不同。但访问在线论坛只需点一下鼠标，而且表面上看起来非常像在工作。你可能在浪费时间，但你并没有闲着。毕竟，互联网上有人[说错了话](http://xkcd.com/386/)，而你正在纠正他。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "bdbeb7e1bb701e835174b687318a9d0c25aa28e119b577e25c49e33bb8ca8dbc",
+      "enMarkdown": "Hacker News is definitely useful. I've learned a lot from things I've read on HN. I've written several essays that began as comments there. So I wouldn't want the site to go away. But I would like to be sure it's not a net drag on productivity. What a disaster that would be, to attract thousands of smart people to a site that caused them to waste lots of time. I wish I could be 100% sure that's not a description of HN.",
+      "zhMarkdown": "Hacker News 绝对是有用的。我从 HN 上读到的东西里学到了很多。我的好几篇 essay 都是从那里的评论开始萌芽的。所以我不想让这个网站消失。但我希望能确保它不会对生产力造成净流失。如果把成千上万的聪明人吸引到一个让他们浪费大量时间的网站上，那将是一场灾难。我真希望自己能 100% 肯定，这说的不是 HN。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "95baccb7490be880e958e4d9d8f5ec97a7ef516768b77250feae6f7e0bd27535",
+      "enMarkdown": "I feel like the addictiveness of games and social applications is still a mostly unsolved problem. The situation now is like it was with crack in the 1980s: we've invented terribly addictive new things, and we haven't yet evolved ways to protect ourselves from them. We will eventually, and that's one of the problems I hope to focus on next.",
+      "zhMarkdown": "我觉得游戏和社交应用的成瘾性在很大程度上仍是一个未解之谜。现在的状况就像 20 世纪 80 年代的吸食可卡因一样：我们发明了极易让人上瘾的新事物，却还没有进化出保护自己免受其害的方法。我们终究会找到办法的，这也是我希望下一步重点关注的问题之一。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "20472a8534b0681fbe364abfbeeef1b9ff1403cc8de3e7e38b6fcb9c420b5c43",
+      "enMarkdown": "[1] I tried ranking users by both average and median comment score, and average (with the high score thrown out) seemed the more accurate predictor of high quality. Median may be the more accurate predictor of low quality though.",
+      "zhMarkdown": "[1] 我尝试过按平均分和中位数分来对用户进行排序，发现平均分（去掉最高分）似乎能更准确地预测高质量。不过，中位数可能更能准确预测低质量。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "41ea84cc7cb28e780aa792f7117c35f0266be13030d44dfc3548d9004488b555",
+      "enMarkdown": "[2] Another thing I learned from this experiment is that if you're going to distinguish between people, you better be sure you do it right. This is one problem where rapid prototyping doesn't work.",
+      "zhMarkdown": "[2] 我从这个实验中学到的另一件事是，如果你要对人进行区别对待，最好确保你做对了。这是快速原型开发行不通的一个领域。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "e067cc7f1dfee60e9a7542edb5495fe0387e14af5f6385acaf88d0d52429a4ce",
+      "enMarkdown": "Indeed, that's the intellectually honest argument for not discriminating between various types of people. The reason not to do it is not that everyone's the same, but that it's bad to do wrong and hard to do right.",
+      "zhMarkdown": "事实上，这也是不歧视各类人群在智识上最诚实的论据。不这样做的原因不是因为每个人都一样，而是因为做错很糟糕，而做对太难。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "89f2f2d9a1db1ede8ecd7a89cdc86cfc1f66f0bc9acf1dc545810f5260527198",
+      "enMarkdown": "[3] When I catch egregiously linkjacked posts I replace the url with that of whatever they copied. Sites that habitually linkjack get banned.",
+      "zhMarkdown": "[3] 当我发现极其恶劣的洗稿帖时，我会把网址替换为他们抄袭的原文网址。习惯性洗稿的网站会被封禁。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "c074506a3d8c675b68c80aefe22b1b1d803b8fabf11a6edec5ff4fed95d7af6c",
+      "enMarkdown": "[4] Digg is notorious for its lack of transparency. The root of the problem is not that the guys running Digg are especially sneaky, but that they use the wrong algorithm for generating their frontpage. Instead of bubbling up from the bottom as they get more votes, as on Reddit, stories start at the top and get pushed down by new arrivals.",
+      "zhMarkdown": "[4] Digg 因缺乏透明度而臭名昭著。问题的根源不在于运营 Digg 的人特别狡猾，而在于他们生成首页的算法错了。在 Reddit 上，帖子会随着得票增加从底部浮上来，而 Digg 的帖子则是从顶部开始，被新来的帖子往下推。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "f9b6f1c8c71c2aae29e9fd56c6bd448014c3885cb85c848a684c1938f5a517b4",
+      "enMarkdown": "The reason for the difference is that Digg is derived from Slashdot, while Reddit is derived from Delicious/popular. Digg is Slashdot with voting instead of editors, and Reddit is Delicious/popular with voting instead of bookmarking. (You can still see fossils of their origins in their graphic design.)",
+      "zhMarkdown": "[5] 这种差异的原因在于，Digg 衍生自 Slashdot，而 Reddit 衍生自 Delicious/popular。Digg 是去掉了编辑、换成投票机制的 Slashdot；Reddit 则是去掉了书签、换成投票机制的 Delicious/popular。（你现在依然能在它们的视觉设计中看到这些历史遗迹。）"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "3e27adb38c17ab8e2617342a4094e2ee7576e20b3500b2c04aee9976cf6df24e",
+      "enMarkdown": "Digg's algorithm is very vulnerable to gaming, because any story that makes it onto the frontpage is the new top story. Which in turn forces Digg to respond with extreme countermeasures. A lot of startups have some kind of secret about the subterfuges they had to resort to in the early days, and I suspect Digg's is the extent to which the top stories were de facto chosen by human editors.",
+      "zhMarkdown": "Digg 的算法非常容易被刷榜，因为任何登上首页的帖子都会成为新的头条。这反过来迫使 Digg 采取极端的应对措施。许多创业公司早期都有一些不得不采取下策的秘密，我怀疑 Digg 的秘密就在于，其头条新闻在多大程度上其实是由人工编辑决定的。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "4630c17679804c7eabcdde7f7259408381e333b2c227dfdd2663fc9f7011a91f",
+      "enMarkdown": "[5] The dialog on Beavis and Butthead was composed largely of these, and when I read comments on really bad sites I can hear them in their voices.",
+      "zhMarkdown": "[6] 《瘪四与大头蛋》（Beavis and Butthead）中的对话大部分就是由这些冷嘲热讽组成的，当我在一些极烂的网站上阅读评论时，脑海里甚至能听到他们的声音。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "d774adea069854bf0addea3cc0928eb559f80a6ac4c1829b42a887300d67f1fe",
+      "enMarkdown": "[6] I suspect most of the techniques for discouraging stupid comments have yet to be discovered. Xkcd implemented a particularly clever one in its IRC channel: don't allow the same thing twice. Once someone has said \"fail,\" no one can ever say it again. This would penalize short comments especially, because they have less room to avoid collisions in.",
+      "zhMarkdown": "[7] 我怀疑大多数遏制愚蠢评论的技术还有待发现。Xkcd 在其 IRC 频道中实现了一个特别聪明的机制：不允许重复同样的话。一旦有人说了“fail”，就再也没有人能说这个词了。这会对简短的评论造成极大的限制，因为它们更难避免碰撞。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "f167b77a42c2a50b1adde1972f0e537c695f74983400e408ee923dc77bd888be",
+      "enMarkdown": "Another promising idea is the [stupid \nfilter](http://stupidfilter.org), which is just like a probabilistic spam filter, but trained on corpora of stupid and non-stupid comments instead.",
+      "zhMarkdown": "另一个很有前景的想法是 [stupid filter](http://stupidfilter.org)，它就像一个概率垃圾邮件过滤器，但它是在愚蠢和非愚蠢评论的语料库上训练出来的。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "ef17e07b3f3ac15d03445271a9839d91c4417493a9bb77ee726f67a7c41df66b",
+      "enMarkdown": "You may not have to kill bad comments to solve the problem. Comments at the bottom of a long thread are rarely seen, so it may be enough to incorporate a prediction of quality in the comment sorting algorithm.",
+      "zhMarkdown": "要解决这个问题，也许并不需要删掉糟糕的评论。长讨论串底部的评论很少有人看，因此在评论排序算法中加入对质量的预测可能就足够了。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "d4f830403fe90edbf6126cca4ebaeb5712c4898f12dd97e98ef9826008f43698",
+      "enMarkdown": "[7] What makes most suburbs so demoralizing is that there's no center to walk to.",
+      "zhMarkdown": "[8] 大多数郊区之所以让人如此消沉，是因为没有一个可以走过去的中心区域。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "6aa1990059f97fc7224fa5b313768e7f49d13c717c73cb100eb0cce2b113a42f",
+      "enMarkdown": "**Thanks** to Justin Kan, Jessica Livingston, Robert Morris, Alexis Ohanian, Emmet Shear, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Justin Kan、Jessica Livingston、Robert Morris、Alexis Ohanian、Emmet Shear 和 Fred Wilson 阅读本文草稿。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "2c4794989ff08791701ddab446245cab2c614fde51787bb36de4557ae5518f5e",
+      "enMarkdown": "[Comment](http://news.ycombinator.com/item?id=495053) on this essay.",
+      "zhMarkdown": "对这篇 essay 的[评论](http://news.ycombinator.com/item?id=495053)。"
+    }
+  ]
+}

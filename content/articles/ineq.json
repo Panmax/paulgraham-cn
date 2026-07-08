@@ -1,0 +1,398 @@
+{
+  "slug": "ineq",
+  "titleEn": "Economic Inequality",
+  "titleZh": "贫富分化",
+  "dateText": "January 2016",
+  "publishedAt": "2016-01-01",
+  "sourceOrder": 60,
+  "sourceUrl": "https://paulgraham.com/ineq.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "20767a50fa04e56e2f95a434cc4bad57b1367175a0639ef93c4d2a53092cba6b",
+      "enMarkdown": "Since the 1970s, economic inequality in the US has increased dramatically. And in particular, the rich have gotten a lot richer. Nearly everyone who writes about the topic says that economic inequality should be decreased.",
+      "zhMarkdown": "自20世纪70年代以来，美国的贫富分化急剧加剧。尤其是富人变得越来越富有。几乎所有谈及这个话题的人都认为，应该缩小贫富差距。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "639b2c5ef1a9a34ee8258231035ac4142f2f643bbe71d8e65c0239fe78595018",
+      "enMarkdown": "I'm interested in this question because I was one of the founders of a company called Y Combinator that helps people start startups. Almost by definition, if a startup succeeds, its founders become rich. Which means by helping startup founders I've been helping to increase economic inequality. If economic inequality should be decreased, I shouldn't be helping founders. No one should be.",
+      "zhMarkdown": "我对这个问题很感兴趣，因为我是 Y Combinator 的创始人之一，这家机构致力于帮助人们创办创业公司。几乎从定义上来说，如果一家创业公司成功了，其创始人就会变富。这意味着，通过帮助创业公司创始人，我一直在助推贫富分化的加剧。如果应该缩小贫富差距，那我就不应该帮助创始人。任何人都不应该。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "0adecadb8a8002b3990b4dde3564190fd8746c6a844d7948b64a7194fceaa253",
+      "enMarkdown": "But that doesn't sound right. What's going on here? What's going on is that while economic inequality is a single measure (or more precisely, two: variation in income, and variation in wealth), it has multiple causes. Many of these causes are bad, like tax loopholes and drug addiction. But some are good, like Larry Page and Sergey Brin starting the company you use to find things online.",
+      "zhMarkdown": "但这听起来不对劲。这到底是怎么回事？原因在于，虽然贫富分化是一个单一的衡量指标（更准确地说是两个：收入差距和财富差距），但它背后的成因却多种多样。这些成因中有很多是坏的，比如税收漏洞和毒品成瘾；但也有一些是好的，比如拉里·佩奇和谢尔盖·布林创办了那家你用来在网上搜索信息的公司。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "b432bc299878cc0ab664851a78d2622d0f9f939edeeaad1645b19763af6e0405",
+      "enMarkdown": "If you want to understand economic inequality — and more importantly, if you actually want to fix the bad aspects of it — you have to tease apart the components. And yet the trend in nearly everything written about the subject is to do the opposite: to squash together all the aspects of economic inequality as if it were a single phenomenon.",
+      "zhMarkdown": "如果你想理解贫富分化——更重要的是，如果你真的想解决其中糟糕的一面——你就必须把它的构成要素拆解开来。然而，几乎所有关于这个主题的文章都有一个趋势，那就是反其道而行之：把贫富分化的所有方面混为一谈，仿佛它是一种单一的现象。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "6f3015c055e3188b15b1cffe68ae9b3e37ca301e693432a2325fa81aaf733e4a",
+      "enMarkdown": "Sometimes this is done for ideological reasons. Sometimes it's because the writer only has very high-level data and so draws conclusions from that, like the proverbial drunk who looks for his keys under the lamppost, instead of where he dropped them, because the light is better there. Sometimes it's because the writer doesn't understand critical aspects of inequality, like the role of technology in wealth creation. Much of the time, perhaps most of the time, writing about economic inequality combines all three.",
+      "zhMarkdown": "有时候这是出于意识形态的偏见。有时候是因为作者手里只有宏观数据，于是只能据此得出结论，就像那个著名的笑话里喝醉的人，不在丢钥匙的地方找，反而跑到路灯下去找，只因为那里的光线更好。有时候是因为作者不理解贫富分化的关键维度，比如技术在财富创造中扮演的角色。而在很多时候，甚至大多数时候，关于贫富分化的文章都是这三者的结合体。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "bda251550bf0478f4172a8aeb291d6543fea090150b82c3e2881a53721eaf990",
+      "enMarkdown": "___",
+      "zhMarkdown": "___"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "5bfdfe67b79965576c5c5143825f0395cca8f160af91fb2d6c0bcb743adf9244",
+      "enMarkdown": "The most common mistake people make about economic inequality is to treat it as a single phenomenon. The most naive version of which is the one based on the pie fallacy: that the rich get rich by taking money from the poor.",
+      "zhMarkdown": "人们在面对贫富分化时最常犯的错误，就是把它当成一种单一现象。其中最天真的版本就是基于“饼图谬误”（pie fallacy）的观点：认为富人之所以变富，是通过夺取穷人的钱实现的。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ff72b2a9d3c5e5a00e3edb27778c7f20ca9440d1fc2695b04eac4c5db9a4f046",
+      "enMarkdown": "Usually this is an assumption people start from rather than a conclusion they arrive at by examining the evidence. Sometimes the pie fallacy is stated explicitly:",
+      "zhMarkdown": "这通常是人们思考的出发点，而不是他们通过研究证据得出的结论。有时候，这种“饼图谬误”会被明目张胆地表达出来："
+    },
+    {
+      "id": 9,
+      "type": "quote",
+      "sourceHash": "3e3429e9f182d3479a315db120c882b582e8b8d2ce1a257dc33a350e48658edb",
+      "enMarkdown": "> ...those at the top are grabbing an increasing fraction of the nation's income — so much of a larger share that what's left over for the rest is diminished.... [1]",
+      "zhMarkdown": "> ……那些处于顶层的人正在攫取国家收入中越来越大的份额——这一份额是如此之大，以至于剩下的人分到的部分被削减了…… [1]"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "8f803f722e55066040be9aa56f01737533541f2153d11ba6c68742e6f3b756d3",
+      "enMarkdown": "Other times it's more unconscious. But the unconscious form is very widespread. I think because we grow up in a world where the pie fallacy is actually true. To kids, wealth *is* a fixed pie that's shared out, and if one person gets more, it's at the expense of another. It takes a conscious effort to remind oneself that the real world doesn't work that way.",
+      "zhMarkdown": "另一些时候，它表现得更为潜意识。但这种潜意识的形式非常普遍。我想这是因为我们成长在一个“饼图谬误”确实成立的世界里。对于孩子来说，财富*确实*是一块固定大小、分着吃的饼，如果一个人拿得多，就意味着另一个人拿得少。我们需要刻意提醒自己，真实世界并不是这样运转的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "e92771ef8819e49b2cf4885b50158adc4221df6b7b413cc4960701ea21cc75ea",
+      "enMarkdown": "In the real world you can create wealth as well as taking it from others. A woodworker creates wealth. He makes a chair, and you willingly give him money in return for it. A high-frequency trader does not. He makes a dollar only when someone on the other end of a trade loses a dollar.",
+      "zhMarkdown": "在真实世界里，你既可以通过掠夺他人来获得财富，也可以自己创造财富。木匠创造财富：他做了一把椅子，你心甘情愿地付钱给他作为交换。高频交易员则不创造财富：他每赚到一美元，都意味着交易另一端的人亏损了一美元。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "2828140bb52d6d90bd4367c278255b4896302741f0ffc52217322496c6ae2d79",
+      "enMarkdown": "If the rich people in a society got that way by taking wealth from the poor, then you have the degenerate case of economic inequality, where the cause of poverty is the same as the cause of wealth. But instances of inequality don't have to be instances of the degenerate case. If one woodworker makes 5 chairs and another makes none, the second woodworker will have less money, but not because anyone took anything from him.",
+      "zhMarkdown": "如果一个社会里的富人是通过夺取穷人的财富变富的，那么这就是贫富分化的退化状态（degenerate case）——在这种情况下，贫困的成因与财富的成因完全相同。但并非所有贫富分化的案例都是这种退化状态。如果一个木匠做了5把椅子，另一个木匠一把也没做，那么第二个木匠的钱就会变少，但这并不是因为有人抢了他的东西。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "ec917f5202e878fd157867af348a7321398f7528512333c1ccaad6d44f5667ab",
+      "enMarkdown": "Even people sophisticated enough to know about the pie fallacy are led toward it by the custom of describing economic inequality as a ratio of one quantile's income or wealth to another's. It's so easy to slip from talking about income shifting from one quantile to another, as a figure of speech, into believing that is literally what's happening.",
+      "zhMarkdown": "即使是那些足够聪明、明白“饼图谬误”的人，也常常被一种习惯所误导，即习惯于将贫富分化描述为一个群体与另一个群体的收入或财富比例。人们很容易在口头上把“收入从一个群体转移到另一个群体”当作一种比喻，却在不知不觉中信以为真，认为现实中发生的就是这么回事。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "9c7ab7ef13fc2df9289998d77d0a6a4857be0133dacdd83e6554854b5c0ccf4b",
+      "enMarkdown": "Except in the degenerate case, economic inequality can't be described by a ratio or even a curve. In the general case it consists of multiple ways people become poor, and multiple ways people become rich. Which means to understand economic inequality in a country, you have to go find individual people who are poor or rich and figure out why. [[2](#f2n)]",
+      "zhMarkdown": "除了在退化状态下，贫富分化是无法用一个比例甚至一条曲线来描述的。在通常情况下，它由人们变穷的多种途径和人们变富的多种途径共同构成。这意味着，要理解一个国家的贫富分化，你必须去深入观察具体的穷人和富人，并弄清楚背后的原因。 [[2](#f2n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "5765adde0f0db3053aa21656efa9c7e475e66057fb354438d570f21db6bc242b",
+      "enMarkdown": "If you want to understand *change* in economic inequality, you should ask what those people would have done when it was different. This is one way I know the rich aren't all getting richer simply from some new system for transferring wealth to them from everyone else. When you use the would-have method with startup founders, you find what most would have done [back in 1960](https://paulgraham.com/re.html), when economic inequality was lower, was to join big companies or become professors. Before Mark Zuckerberg started Facebook, his default expectation was that he'd end up working at Microsoft. The reason he and most other startup founders are richer than they would have been in the mid 20th century is not because of some right turn the country took during the Reagan administration, but because progress in technology has made it much easier to start a new company that [grows fast](https://paulgraham.com/growth.html).",
+      "zhMarkdown": "如果你想理解贫富分化的*变化*，你应该问问这些人：如果处在过去的时代，他们会做些什么。这也是为什么我知道，富人并不全是通过某种把别人的财富转移到自己口袋里的新机制来变富的。当你对创业公司创始人使用这种“如果”的推导方法时，你会发现，在贫富分化程度较低的[1960年左右](https://paulgraham.com/re.html)，他们中的大多数人会选择加入大公司或去当教授。在马克·扎克伯格创办 Facebook 之前，他的默认预期是最终去微软工作。他以及大多数其他创业公司创始人之所以比他们在20世纪中期更富有，并不是因为美国在里根政府时期走向了右翼，而是因为技术的进步使得创办一家[快速增长](https://paulgraham.com/growth.html)的新公司变得容易得多。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "9d84937f289eb09f4c971464f4fadda21734e20ab11f2be6aeb0655ff5d83da5",
+      "enMarkdown": "Traditional economists seem strangely averse to studying individual humans. It seems to be a rule with them that everything has to start with statistics. So they give you very precise numbers about variation in wealth and income, then follow it with the most naive speculation about the underlying causes.",
+      "zhMarkdown": "传统经济学家似乎有一种奇怪的倾向，极其排斥研究具体的个人。对他们来说，一切研究似乎都必须从统计数据开始。因此，他们会给你提供关于财富和收入差距极其精确的数据，紧接着却对背后的根本原因做出最天真的推测。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "d13152df91ab9b1b6e62fb84ae3659435241451a4c706fc7bd179e6959f64b0a",
+      "enMarkdown": "But while there are a lot of people who get rich through rent-seeking of various forms, and a lot who get rich by playing zero-sum games, there are also a significant number who get rich by creating wealth. And creating wealth, as a source of economic inequality, is different from taking it — not just morally, but also practically, in the sense that it is harder to eradicate. One reason is that variation in productivity is accelerating. The rate at which individuals can create wealth depends on the technology available to them, and that grows exponentially. The other reason creating wealth is such a tenacious source of inequality is that it can expand to accommodate a lot of people.",
+      "zhMarkdown": "然而，虽然有很多人是通过各种形式的寻租变富的，也有很多人是通过零和博弈变富的，但同样有相当一部分人是通过创造财富变富的。作为贫富分化的源头，创造财富与掠夺财富截然不同——不仅在道德上不同，在实践中也不同，因为前者更难被消灭。原因之一是生产力的差距正在加速扩大。个人创造财富的速度取决于他们能使用什么技术，而技术是呈指数级增长的。创造财富成为如此顽固的贫富分化源头的另一个原因，在于它可以不断扩张，容纳大量的人参与其中。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "bda251550bf0478f4172a8aeb291d6543fea090150b82c3e2881a53721eaf990",
+      "enMarkdown": "___",
+      "zhMarkdown": "___"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "b51fefe6be80be5b6d731f9a844b502f039b41e34ce41bfed2d0588c00df1460",
+      "enMarkdown": "I'm all for shutting down the crooked ways to get rich. But that won't eliminate great variations in wealth, because as long as you leave open the option of getting rich by creating wealth, people who want to get rich will do that instead.",
+      "zhMarkdown": "我完全赞成取缔那些不正当的致富途径。但那并不会消除巨大的财富差距，因为只要你保留了通过创造财富变富的途径，那些渴望致富的人就会转向这条路。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "67cec5770c5fa349949b33ec68da28729b4784effad0d56d9ae0d0b50b8b5301",
+      "enMarkdown": "Most people who get rich tend to be fairly driven. Whatever their other flaws, laziness is usually not one of them. Suppose new policies make it hard to make a fortune in finance. Does it seem plausible that the people who currently go into finance to make their fortunes will continue to do so, but be content to work for ordinary salaries? The reason they go into finance is not because they love finance but because they want to get rich. If the only way left to get rich is to start startups, they'll start startups. They'll do well at it too, because determination is the main factor in the success of a startup. [[3](#f3n)] And while it would probably be a good thing for the world if people who wanted to get rich switched from playing zero-sum games to creating wealth, that would not only not eliminate great variations in wealth, but might even exacerbate them. In a zero-sum game there is at least a limit to the upside. Plus a lot of the new startups would create new technology that further accelerated variation in productivity.",
+      "zhMarkdown": "大多数变富的人往往都极有干劲。不管他们有什么其他缺点，懒惰通常不是其中之一。假设新政策使得在金融界赚大钱变得困难，那些目前为了发财而进入金融界的人，难道还会继续留在那里，甘心拿普通薪水吗？他们进入金融界不是因为热爱金融，而是因为想变富。如果剩下唯一能变富的途径是开创业公司，他们就会去开创业公司。而且他们也会做得很好，因为决心是创业公司成功的关键因素。 [[3](#f3n)] 虽然如果想变富的人能从零和博弈转向创造财富，对世界来说可能是一件好事，但这不仅不会消除巨大的财富差距，甚至可能还会加剧它。在零和博弈中，收益至少是有上限的。此外，许多新创办的创业公司会创造出新的技术，从而进一步加速生产力差距的扩大。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "6bee988d0a4beeee89e23c2573586acbcbd78e6846e999c269743516ed11761e",
+      "enMarkdown": "Variation in productivity is far from the only source of economic inequality, but it is the irreducible core of it, in the sense that you'll have that left when you eliminate all other sources. And if you do, that core will be big, because it will have expanded to include the efforts of all the refugees. Plus it will have a large Baumol penumbra around it: anyone who could get rich by creating wealth on their own account will have to be paid enough to prevent them from doing it.",
+      "zhMarkdown": "生产力的差距远非贫富分化的唯一源头，但它是其不可削减的核心。也就是说，当你消除了所有其他源头之后，这个核心依然会存在。而且，如果你真的这么做了，这个核心会变得非常庞大，因为它会膨胀并吸纳所有其他领域的“避难者”。此外，它周围还会产生巨大的“鲍莫尔半影”（Baumol penumbra）：任何有能力通过自己创造财富来致富的人，雇主都必须支付足够高的薪水，才能阻止他们自己去创业。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "6b2927dafac503ec62911059d74052aac1695fc495124b3a673e599a8be3189d",
+      "enMarkdown": "You can't prevent great variations in wealth without preventing people from getting rich, and you can't do that without preventing them from starting startups.",
+      "zhMarkdown": "如果不阻止人们变富，你就无法阻止巨大的财富差距；而如果不阻止人们开创业公司，你就无法阻止他们变富。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "7e5551c6b02144c529f82bbde144c8a9e367a46ec145eb9939ca4dc1f077bc45",
+      "enMarkdown": "So let's be clear about that. Eliminating great variations in wealth would mean eliminating startups. And that doesn't seem a wise move. Especially since it would only mean you eliminated startups in your own country. Ambitious people already move halfway around the world to further their careers, and startups can operate from anywhere nowadays. So if you made it impossible to get rich by creating wealth in your country, people who wanted to do that would just leave and do it somewhere else. Which would certainly get you a lower Gini coefficient, along with a lesson in being careful what you ask for. [[4](#f4n)]",
+      "zhMarkdown": "所以，我们要把这一点说清楚。消除巨大的财富差距，就意味着消灭创业公司。这看起来可不是什么明智之举。尤其是这仅仅意味着你在自己的国家消灭了创业公司。有抱负的人为了事业发展早就习惯了跨越半个地球，而且如今创业公司在任何地方都可以运作。因此，如果你在自己的国家堵死了通过创造财富变富的道路，那些想这么做的人就会直接离开，去别的地方做。这当然会让你获得一个更低的基尼系数，同时也给你上一课，让你明白什么叫“求仁得仁，后果自负”。 [[4](#f4n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "6516f7b868dff8e04fb51a18d47b3f48bddf53ceca05a3b5c53579526dfef38a",
+      "enMarkdown": "I think rising economic inequality is the inevitable fate of countries that don't choose something worse. We had a 40 year stretch in the middle of the 20th century that convinced some people otherwise. But as I explained in [The Refragmentation](https://paulgraham.com/re.html), that was an anomaly — a unique combination of circumstances that compressed American society not just economically but culturally too. [[5](#f5n)]",
+      "zhMarkdown": "我认为，对于那些没有选择更糟糕道路的国家来说，贫富分化加剧是必然的命运。在20世纪中期，我们曾经历过一段长达40年的时期，让一些人产生了相反的幻觉。但正如我在《[重新碎片化](https://paulgraham.com/re.html)》中所解释的那样，那是一个异常现象——那是多种独特环境的结合，不仅在经济上，而且在文化上都对美国社会进行了压缩。 [[5](#f5n)]"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "564b6aae8a063aef5195eb26f499a76718759e8f963db35df93bf290de5afa8c",
+      "enMarkdown": "And while some of the growth in economic inequality we've seen since then has been due to bad behavior of various kinds, there has simultaneously been a huge increase in individuals' ability to create wealth. Startups are almost entirely a product of this period. And even within the startup world, there has been a qualitative change in the last 10 years. Technology has decreased the cost of starting a startup so much that founders now have the upper hand over investors. Founders get less diluted, and it is now common for them to retain [board control](https://paulgraham.com/control.html) as well. Both further increase economic inequality, the former because founders own more stock, and the latter because, as investors have learned, founders tend to be better at running their companies than investors.",
+      "zhMarkdown": "虽然自那时以来，贫富分化的一些增长确实是由于各种坏行为造成的，但与此同时，个人创造财富的能力也发生了巨大的飞跃。创业公司几乎完全是这个时期的产物。甚至在创业圈内部，过去10年也发生了质的变化。技术已经极大地降低了创办创业公司的成本，以至于现在创始人面对投资者时占据了上风。创始人的股份被稀释得更少，而且现在他们保留[董事会控制权](https://paulgraham.com/control.html)也变得很普遍。这两者都进一步加剧了贫富分化：前者是因为创始人拥有更多的股票，后者是因为，正如投资人们所学到的那样，创始人往往比投资人更擅长管理自己的公司。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "53b6fe7cacbe54f06b04c5fad189d18c91b4ee4b228d49b49952716ac02126c0",
+      "enMarkdown": "While the surface manifestations change, the underlying forces are very, very old. The acceleration of productivity we see in Silicon Valley has been happening for thousands of years. If you look at the history of stone tools, technology was already accelerating in the Mesolithic. The acceleration would have been too slow to perceive in one lifetime. Such is the nature of the leftmost part of an exponential curve. But it was the same curve.",
+      "zhMarkdown": "虽然表面现象在变，但底层的力量却非常非常古老。我们在硅谷看到的生产力加速，已经持续了数千年。如果你看看石器时代的历史，技术在旧石器时代就已经开始加速了。这种加速在人的一生中可能缓慢到无法察觉。这就是指数曲线最左侧部分的特征。但它和今天处于同一条曲线上。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "8e5245817b0a1ca8cd4cb06b88cef408cf921729c4e1d3f61e1f682fd743a217",
+      "enMarkdown": "You do not want to design your society in a way that's incompatible with this curve. The evolution of technology is one of the most powerful forces in history.",
+      "zhMarkdown": "你绝不会希望把自己的社会设计成与这条曲线相冲突的样子。技术的演进是历史上最强大的力量之一。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "198f9be967ded03b68f8f964a1cbb268ae6d25bc6b8690216ad37c44e0e7f759",
+      "enMarkdown": "Louis Brandeis said \"We may have democracy, or we may have wealth concentrated in the hands of a few, but we can't have both.\" That sounds plausible. But if I have to choose between ignoring him and ignoring an exponential curve that has been operating for thousands of years, I'll bet on the curve. Ignoring any trend that has been operating for thousands of years is dangerous. But exponential growth, especially, tends to bite you.",
+      "zhMarkdown": "路易斯·布兰代斯曾说：“我们要么拥有民主，要么让财富集中在少数人手中，但我们不可能两者兼得。”这听起来很有道理。但如果我必须在“无视他”和“无视一条已经运行了数千年的指数曲线”之间做出选择，我押注这条曲线。无视任何运行了数千年的趋势都是危险的。尤其是指数级增长，往往会给你致命一击。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "bda251550bf0478f4172a8aeb291d6543fea090150b82c3e2881a53721eaf990",
+      "enMarkdown": "___",
+      "zhMarkdown": "___"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "5a344f2751f0856171fdc44b79a0687ea40b6455d1257b11ff2686e471f4fbd8",
+      "enMarkdown": "If accelerating variation in productivity is always going to produce some baseline growth in economic inequality, it would be a good idea to spend some time thinking about that future. Can you have a healthy society with great variation in wealth? What would it look like?",
+      "zhMarkdown": "如果生产力差距的加速扩大注定会带来某种基础性的贫富分化增长，那么花点时间思考一下那样的未来将是一个好主意。一个存在巨大财富差距的社会，还能保持健康吗？它会是什么样子？"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "2e15fbab9e1c849b2cfea0a62869b92f9da7374e5b0bd74c8a250b890ed09a33",
+      "enMarkdown": "Notice how novel it feels to think about that. The public conversation so far has been exclusively about the need to decrease economic inequality. We've barely given a thought to how to live with it.",
+      "zhMarkdown": "注意到思考这个问题感觉有多新奇了吧。到目前为止，公众舆论几乎完全集中在“必须缩小贫富差距”上。我们几乎根本没有想过该如何与之共处。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "596c7286578012f589c1b9c32f2ccfde85077a8df51bb06f5fb33a41896b0cc4",
+      "enMarkdown": "I'm hopeful we'll be able to. Brandeis was a product of the Gilded Age, and things have changed since then. It's harder to hide wrongdoing now. And to get rich now you don't have to buy politicians the way railroad or oil magnates did. [[6](#f6n)] The great concentrations of wealth I see around me in Silicon Valley don't seem to be destroying democracy.",
+      "zhMarkdown": "我乐观地认为我们能够做到。布兰代斯是镀金时代的产物，而自那时以来，情况已经发生了变化。现在，做坏事更难隐瞒了。而且现在要想变富，你不需要像当年的铁路或石油大亨那样去收买政客。 [[6](#f6n)] 我在硅谷周围看到的巨大财富集中，似乎并没有破坏民主。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "ffe61dbd5e2c599846c5820ff42bf446027d841592131520cf29a2dbe52c7a54",
+      "enMarkdown": "There are lots of things wrong with the US that have economic inequality as a symptom. We should fix those things. In the process we may decrease economic inequality. But we can't start from the symptom and hope to fix the underlying causes. [[7](#f7n)]",
+      "zhMarkdown": "美国有很多问题，贫富分化只是其中的一个症状。我们应该去解决那些问题。在这个过程中，我们可能会缩小贫富差距。但我们不能从症状入手，还指望能解决底层的病因。 [[7](#f7n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "00bc0cae583eedc19b360dd367a72d35a490f25723d4a140b965a9b3ba459eca",
+      "enMarkdown": "The most obvious is poverty. I'm sure most of those who want to decrease economic inequality want to do it mainly to help the poor, not to hurt the rich. [[8](#f8n)] Indeed, a good number are merely being sloppy by speaking of decreasing economic inequality when what they mean is decreasing poverty. But this is a situation where it would be good to be precise about what we want. Poverty and economic inequality are not identical. When the city is turning off your [water](http://www.theatlantic.com/business/archive/2014/07/what-happens-when-detroit-shuts-off-the-water-of-100000-people/374548/) because you can't pay the bill, it doesn't make any difference what Larry Page's net worth is compared to yours. He might only be a few times richer than you, and it would still be just as much of a problem that your water was getting turned off.",
+      "zhMarkdown": "最显而易见的问题是贫困。我相信大多数希望缩小贫富差距的人，主要是想帮助穷人，而不是想伤害富人。 [[8](#f8n)] 事实上，相当一部分人只是在表达上不够严谨，当他们说要“缩小贫富差距”时，实际意思其实是“减少贫困”。但在这种情况下，准确表达我们的真实诉求是很重要的。贫困和贫富分化并不是一回事。当市政部门因为你付不起账单而要停掉你的[自来水](http://www.theatlantic.com/business/archive/2014/07/what-happens-when-detroit-shuts-off-the-water-of-100000-people/374548/)时，拉里·佩奇的身家是你的多少倍根本无所谓。就算他只比你富裕几倍，你被停水的问题依然同样严重。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "70cfbb18d0f091bfcd890d53fb8ceaad91080ab3adaf967a48ac8d757cacfbdd",
+      "enMarkdown": "Closely related to poverty is lack of social mobility. I've seen this myself: you don't have to grow up rich or even upper middle class to get rich as a startup founder, but few successful founders grew up desperately poor. But again, the problem here is not simply economic inequality. There is an enormous difference in wealth between the household Larry Page grew up in and that of a successful startup founder, but that didn't prevent him from joining their ranks. It's not economic inequality per se that's blocking social mobility, but some specific combination of things that go wrong when kids grow up sufficiently poor.",
+      "zhMarkdown": "与贫困密切相关的是缺乏社会流动性。我自己就见过这种情况：作为创业公司创始人，你不需要在富裕甚至中产阶级上层的家庭长大也能变富，但很少有成功的创始人是在极度贫困的环境中长大的。但同样，这里的问题不仅仅是贫富分化。拉里·佩奇成长中的家庭财富，与一个成功的创业公司创始人成长中的家庭财富之间有着巨大的差距，但这并没有阻止他加入他们的行列。阻碍社会流动性的并不是贫富分化本身，而是当孩子们在足够贫困的环境中长大时，一些具体问题的集中爆发。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "4b1debf274571643343c4a328ec57cf09674d25b4633e9914cc8ffb952ba2095",
+      "enMarkdown": "One of the most important principles in Silicon Valley is that \"you make what you measure.\" It means that if you pick some number to focus on, it will tend to improve, but that you have to choose the right number, because only the one you choose will improve; another that seems conceptually adjacent might not. For example, if you're a university president and you decide to focus on graduation rates, then you'll improve graduation rates. But only graduation rates, not how much students learn. Students could learn less, if to improve graduation rates you made classes easier.",
+      "zhMarkdown": "硅谷最重要的原则之一是“测什么，得什么”（you make what you measure）。这意味着，如果你选择专注于某个数字，它往往就会得到改善。但你必须选对数字，因为只有你选择的那个数字才会改善；另一个在概念上看起来很接近的数字则可能不会。例如，如果你是一位大学校长，决定专注于毕业率，那么你就会提高毕业率。但仅仅是毕业率提高了，而不是学生学到了多少东西。如果为了提高毕业率而让课程变得更简单，学生学到的甚至可能更少。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "aa8de5f4cbdec787ecb31e8d78ed7f70fa5b2ec8b0cc5ba410aba61a57eb35c6",
+      "enMarkdown": "Economic inequality is sufficiently far from identical with the various problems that have it as a symptom that we'll probably only hit whichever of the two we aim at. If we aim at economic inequality, we won't fix these problems. So I say let's aim at the problems.",
+      "zhMarkdown": "贫富分化与那些以它为症状的各种具体问题之间有着足够大的差异，以至于我们可能只能解决我们瞄准的那一个。如果我们瞄准贫富分化，我们并不能解决这些具体问题。所以，我说我们还是直接瞄准问题本身吧。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "0b56a8d9f304a35a8f2c67de0a086a99019e9381212aeda912b78923c8970dfa",
+      "enMarkdown": "For example, let's attack poverty, and if necessary damage wealth in the process. That's much more likely to work than attacking wealth in the hope that you will thereby fix poverty. [[9](#f9n)] And if there are people getting rich by tricking consumers or lobbying the government for anti-competitive regulations or tax loopholes, then let's stop them. Not because it's causing economic inequality, but because it's stealing. [[10](#f10n)]",
+      "zhMarkdown": "例如，让我们去消灭贫困，如果在这个过程中需要损及财富，那就去损及。这比通过打击财富来期盼顺便解决贫困要有效得多。 [[9](#f9n)] 如果有人通过欺骗消费者、游说政府制定反竞争的行业法规或税收漏洞来变富，那我们就去阻止他们。这不是因为这导致了贫富分化，而是因为这是偷窃。 [[10](#f10n)]"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "e1113ab49afc500930afff6a988b82b5af1908880bc0d62a82ada378c37af309",
+      "enMarkdown": "If all you have is statistics, it seems like that's what you need to fix. But behind a broad statistical measure like economic inequality there are some things that are good and some that are bad, some that are historical trends with immense momentum and others that are random accidents. If we want to fix the world behind the statistics, we have to understand it, and focus our efforts where they'll do the most good.",
+      "zhMarkdown": "如果你手里只有统计数据，看起来你需要解决的就只有数据本身。但在贫富分化这样一个宏大的统计指标背后，有些事情是好的，有些是坏的，有些是具有巨大惯性的历史趋势，另一些则是随机的意外。如果我们想要解决统计数据背后的现实世界，我们就必须理解它，并将我们的努力集中在最能产生实效的地方。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "c22ac8e65bd009956b4457cfaea648d581654389f453ffca8147cccbc81c662e",
+      "enMarkdown": "[1] Stiglitz, Joseph. *The Price of Inequality*. Norton, 2012. p. 32.",
+      "zhMarkdown": "[1] 斯蒂格利茨，约瑟夫。《不平等的代价》。诺顿出版社，2012年，第32页。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "181614910b561e40f6a3ac223148cd1b067ccecdd397c6f32691a687f0dd9eae",
+      "enMarkdown": "[2] Particularly since economic inequality is a matter of outliers, and outliers are disproportionately likely to have gotten where they are by ways that have little do with the sort of things economists usually think about, like wages and productivity, but rather by, say, ending up on the wrong side of the \"War on Drugs.\"",
+      "zhMarkdown": "[2] 尤其是因为贫富分化是一个关于极端值（outliers）的问题，而极端值之所以能达到那个位置，极有可能是通过一些与经济学家通常思考的事情（如工资和生产力）关系不大的途径，比如，不幸站在了“禁毒战争”的对立面。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "0470276815bfbd775e18afde0c73785b412ab2f3d22a2f77373597aa8f42fce1",
+      "enMarkdown": "[3] Determination is the most important factor in deciding between success and failure, which in startups tend to be sharply differentiated. But it takes more than determination to create one of the hugely successful startups. Though most founders start out excited about the idea of getting rich, purely mercenary founders will usually take one of the big acquisition offers most successful startups get on the way up. The founders who go on to the next stage tend to be driven by a sense of mission. They have the same attachment to their companies that an artist or writer has to their work. But it is very hard to predict at the outset which founders will do that. It's not simply a function of their initial attitude. Starting a company changes people.",
+      "zhMarkdown": "[3] 决心是决定成功与失败的最重要因素，这在创业公司中往往界限分明。但要创造出一家极其成功的创业公司，光有决心是不够的。虽然大多数创始人一开始都是因为对变富的想法感到兴奋，但纯粹为了钱的创始人在发展过程中，通常会接受大多数成功创业公司都会收到的巨额收购报价。那些继续走向下一阶段的创始人，往往是被一种使命感所驱动。他们对公司的依恋，就像艺术家或作家对作品的依恋一样。但在刚开始时，很难预测哪些创始人会这样做。这不仅仅取决于他们最初的态度。创办一家公司会改变一个人。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "3c089794688743c5034953919af323b6263b16fcd95be244b5273ff8ad168fef",
+      "enMarkdown": "[4] After reading a draft of this essay, Richard Florida told me how he had once talked to a group of Europeans \"who said they wanted to make Europe more entrepreneurial and more like Silicon Valley. I said by definition this will give you more inequality. They thought I was insane — they could not process it.\"",
+      "zhMarkdown": "[4] 在读完这篇文章的草稿后，理查德·佛罗里达告诉我，他曾与一群欧洲人交谈，“他们说他们想让欧洲变得更有创业精神，更像硅谷。我说，从定义上讲，这会给你们带来更大的贫富分化。他们觉得我疯了——他们无法理解这一点。”"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "531b50faecf0d06df9d5e8eb6276d51795f92efcdb8daa5f5d57150fbe2c258f",
+      "enMarkdown": "[5] Economic inequality has been decreasing globally. But this is mainly due to the erosion of the kleptocracies that formerly dominated all the poorer countries. Once the playing field is leveler politically, we'll see economic inequality start to rise again. The US is the bellwether. The situation we face here, the rest of the world will sooner or later.",
+      "zhMarkdown": "[5] 全球范围内的贫富分化一直在减少。但这主要是由于以前主导所有较贫穷国家的盗贼统治（kleptocracies）的瓦解。一旦在政治上有了更公平的竞争环境，我们就会看到贫富分化重新开始上升。美国是风向标。我们在这里面临的处境，世界其他地方迟早也会面临。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "761e9731edd713c60f8f6c29afd7a45506c2c184b8ab03dd84706f4f1f09656e",
+      "enMarkdown": "[6] Some people still get rich by buying politicians. My point is that it's no longer a precondition.",
+      "zhMarkdown": "[6] 依然有人通过收买政客变富。我的意思是，这不再是一个先决条件。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "6fcd4c8e1b56cee076892c637fcad34fda4074929bfd46b5a279ab4f168b91f6",
+      "enMarkdown": "[7] As well as problems that have economic inequality as a symptom, there are those that have it as a cause. But in most if not all, economic inequality is not the primary cause. There is usually some injustice that is allowing economic inequality to turn into other forms of inequality, and that injustice is what we need to fix. For example, the police in the US treat the poor worse than the rich. But the solution is not to make people richer. It's to make the police treat people more equitably. Otherwise they'll continue to maltreat people who are weak in other ways.",
+      "zhMarkdown": "[7] 除了以贫富分化为症状的问题外，还有一些以贫富分化为成因的问题。但在大多数（如果不是全部）情况下，贫富分化并不是主要原因。通常是某种不公正的存在，导致贫富分化转化为了其他形式的不平等，而这种不公正才是我们需要解决的。例如，美国的警察对穷人比对富人更差。但解决方案不是让人们变富，而是让警察更公平地对待每一个人。否则，他们将继续虐待在其他方面处于弱势的人。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "880b1a067238cb1c1ed5fc89223b2f5b78a12ba1ecaeb0466503566ca892a0d9",
+      "enMarkdown": "[8] Some who read this essay will say that I'm clueless or even being deliberately misleading by focusing so much on the richer end of economic inequality — that economic inequality is really about poverty. But that is exactly the point I'm making, though sloppier language than I'd use to make it. The real problem is poverty, not economic inequality. And if you conflate them you're aiming at the wrong target.",
+      "zhMarkdown": "[8] 读到这篇文章的一些人会说，我把太多的精力放在了贫富分化中富人那一端，这很无知，甚至是故意误导——贫富分化实际上关乎贫困。但这恰恰就是我想表达的观点，只是他们使用的语言比我的更粗糙。真正的问题是贫困，而不是贫富分化。如果你把它们混为一谈，你就瞄准了错误的靶子。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "d7be74fa202b8143886b60975ec8db8b5ea92eba4e418cd14aa1424320d56e69",
+      "enMarkdown": "Others will say I'm clueless or being misleading by focusing on people who get rich by creating wealth — that startups aren't the problem, but corrupt practices in finance, healthcare, and so on. Once again, that is exactly my point. The problem is not economic inequality, but those specific abuses.",
+      "zhMarkdown": "另一些人会说，我关注那些通过创造财富变富的人是无知或误导——创业公司不是问题所在，金融、医疗等领域的腐败做法才是。再一次，这恰恰是我的观点。问题不是贫富分化，而是那些具体的滥用行为。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "75102f64e9920d7646aeb2517f615a51986a472aba43f0cfac611d54bb272229",
+      "enMarkdown": "It's a strange task to write an essay about why something isn't the problem, but that's the situation you find yourself in when so many people mistakenly think it is.",
+      "zhMarkdown": "写一篇文章来解释为什么某件事不是问题所在，是一件奇特的工作，但当有那么多人错误地认为它是问题所在时，你就会发现自己处于这种境地。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "696d78b8b847baaae8d44bacf2c76ad9a50a540804c96028c0b4ec42e6690415",
+      "enMarkdown": "[9] Particularly since many causes of poverty are only partially driven by people trying to make money from them. For example, America's abnormally high incarceration rate is a major cause of poverty. But although [for-profit prison companies](https://www.washingtonpost.com/posteverything/wp/2015/04/28/how-for-profit-prisons-have-become-the-biggest-lobby-no-one-is-talking-about/) and [prison guard unions](http://mic.com/articles/41531/union-of-the-snake-how-california-s-prison-guards-subvert-democracy) both spend a lot lobbying for harsh sentencing laws, they are not the original source of them.",
+      "zhMarkdown": "[9] 尤其是因为许多导致贫困的原因，只有一部分是由于人们试图从中赚钱驱动的。例如，美国异常高企的监禁率是导致贫困的主要原因。但是，尽管[私营监狱公司](https://www.washingtonpost.com/posteverything/wp/2015/04/28/how-for-profit-prisons-have-become-the-biggest-lobby-no-one-is-talking-about/)和[狱警工会](http://mic.com/articles/41531/union-of-the-snake-how-california-s-prison-guards-subvert-democracy)都花了很多钱游说制定严厉的判刑法律，但他们并不是这些法律的源头。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "47dba0adb4300e69561384b38c2b3626c66ced53f06a5f592be082541174a4ed",
+      "enMarkdown": "[10] Incidentally, tax loopholes are definitely not a product of some power shift due to recent increases in economic inequality. The golden age of economic equality in the mid 20th century was also the golden age of tax avoidance. Indeed, it was so widespread and so effective that I'm skeptical whether economic inequality was really so low then as we think. In a period when people are trying to hide wealth from the government, it will tend to be hidden from statistics too. One sign of the potential magnitude of the problem is the discrepancy between government receipts as a percentage of GDP, which have remained more or less constant during the entire period from the end of World War II to the present, and tax rates, which have varied dramatically.",
+      "zhMarkdown": "[10] 顺便提一下，税收漏洞绝对不是由于近期贫富分化加剧导致的某种权力转移的产物。20世纪中期经济平等的黄金时代，也是避税的黄金时代。事实上，避税是如此普遍和有效，以至于我对当时的贫富分化是否真的像我们想象的那么低持怀疑态度。在人们试图向政府隐瞒财富的时期，财富也往往会被统计数据忽略。表明这一问题潜在严重程度的一个迹象是，从二战结束到现在的整个时期，政府收入占 GDP 的百分比基本保持恒定，而税率却发生了戏剧性的变化。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "6a184bba2144725fab3b2269a589f1b10fee08805bcf45ee68786836f414fbd1",
+      "enMarkdown": "**Thanks** to Sam Altman, Tiffani Ashley Bell, Patrick Collison, Ron Conway, Richard Florida, Ben Horowitz, Jessica Livingston, Robert Morris, Tim O'Reilly, Max Roser, and Alexia Tsotsis for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Tiffani Ashley Bell、Patrick Collison、Ron Conway、Richard Florida、Ben Horowitz、Jessica Livingston、Robert Morris、Tim O'Reilly、Max Roser 和 Alexia Tsotsis 阅读本书草稿。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "1bb4112850b4cf5ee899421c28196e0f78cd5c426dd583f93cdab62eba0bcc2b",
+      "enMarkdown": "**Note:** This is a new version from which I removed a pair of metaphors that made a lot of people mad, essentially by macroexpanding them. If anyone wants to see the old version, I put it [here](https://paulgraham.com/ineqold.html).",
+      "zhMarkdown": "**注意：** 这是一个新版本，在其中我删除了一对让很多人感到愤怒的比喻，实质上是通过宏观展开（macroexpanding）了它们。如果有人想看旧版本，我把它放在了[这里](https://paulgraham.com/ineqold.html)。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "44f2efebd4ecadb579a8d1ef2f48651513e02509cd86de59ae335d4103a67110",
+      "enMarkdown": "**Related:**",
+      "zhMarkdown": "**相关链接：**"
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "slug": "sfp",
+  "titleEn": "What I Did this Summer",
+  "titleZh": "这个夏天我做了什么",
+  "dateText": "",
+  "publishedAt": null,
+  "sourceOrder": 179,
+  "sourceUrl": "https://paulgraham.com/sfp.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "33dd57dbdf9f45809448cc891d97a095bb2631403491755878fc6a685fd4a30c",
+      "enMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/what-i-did-this-summer-20.gif)",
+      "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/what-i-did-this-summer-20.gif)"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "cf0978b594b985a5fbd17126cdc35ed0aabc605b423793c505adbcc3e984ecd9",
+      "enMarkdown": "October 2005",
+      "zhMarkdown": "2005年10月"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "35d7408c3789bc636a53a6bfb8f0f07ba78f7cd0e5f4fff0cc03617d64c0a7e1",
+      "enMarkdown": "The first Summer Founders Program has just finished. We were surprised how well it went. Overall only about 10% of startups succeed, but if I had to guess now, I'd predict three or four of the eight startups we funded will make it.",
+      "zhMarkdown": "首届暑期创始人计划（Summer Founders Program，简称 SFP）刚刚结束。它的进展之顺利，远远超出了我们的预期。总体而言，创业公司只有大约 10% 能活下来。但如果让我现在预测，我们资助的 8 家创业公司里，有 3 到 4 家能最终成功。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "f4454e54a46278718292eb2391f30c3796df251b836e2f83c0f24bd4f299497d",
+      "enMarkdown": "Of the startups that needed further funding, I believe all have either closed a round or are likely to soon. Two have already turned down (lowball) acquisition offers.",
+      "zhMarkdown": "在那些需要后续融资的创业公司中，我相信所有公司要么已经完成了一轮融资，要么很快就能完成。其中两家甚至已经拒绝了（低价的）收购要约。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "cc1e0589124840cacd7536e9d65f4b6c4dbf8b6549a68eba8cd0a52f50e2d7e7",
+      "enMarkdown": "We would have been happy if just one of the eight seemed promising by the end of the summer. What's going on? Did some kind of anomaly make this summer's applicants especially good? We worry about that, but we can't think of one. We'll find out this winter.",
+      "zhMarkdown": "原本到了夏天结束时，只要这 8 家里有一家看起来有戏，我们就会很满意了。现在这是怎么回事？难道是某种反常原因，让今年夏天的申请者质量格外高？我们也有过这种担心，但实在想不出有什么反常的。今年冬天我们就会见分晓。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "3779a24bd0929c983ada0e88876719b7d9014b1ba1707a6f2a2014be61760044",
+      "enMarkdown": "The whole summer was full of surprises. The best was that the [hypothesis](https://paulgraham.com/hiring.html) we were testing seems to be correct. Young hackers can start viable companies. This is good news for two reasons: (a) it's an encouraging thought, and (b) it means that Y Combinator, which is predicated on the idea, is not hosed.",
+      "zhMarkdown": "整个夏天充满了惊喜。最棒的一点在于，我们测试的[假设](https://paulgraham.com/hiring.html)似乎是正确的：年轻的黑客完全可以创办出有生命力的公司。这有两个好处：第一，这让人备受鼓舞；第二，这意味着以此为立足之本的 Y Combinator 还没搞砸。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "87635af8a0ce70e42f45abe2f00e72d33c348b5e01a3d81a09e0d7d7d2db3918",
+      "enMarkdown": "**Age**",
+      "zhMarkdown": "**年龄**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d4391f19d9b040a32e509a40738aa8611e7e55cb840f96651dda957caede6789",
+      "enMarkdown": "More precisely, the hypothesis was that success in a startup depends mainly on how smart and energetic you are, and much less on how old you are or how much business experience you have. The results so far bear this out. The 2005 summer founders ranged in age from 18 to 28 (average 23), and there is no correlation between their ages and how well they're doing.",
+      "zhMarkdown": "更确切地说，我们的假设是：创业成功主要取决于你有多聪明、多有干劲，而与你的年龄或商业经验关系不大。目前的成果证实了这一点。2005 届暑期创始人的年龄在 18 到 28 岁之间（平均年龄 23 岁），他们的年龄与公司的发展状况之间没有任何相关性。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a38f4adf1fd1a517e88193e32f3a914c7570cf9c9bf51ddf5d9bd08c406bada0",
+      "enMarkdown": "This should not really be surprising. Bill Gates and Michael Dell were both 19 when they started the companies that made them famous. Young founders are not a new phenomenon: the trend began as soon as computers got cheap enough for college kids to afford them.",
+      "zhMarkdown": "这其实并不令人意外。比尔·盖茨和迈克尔·戴尔在创立让他们名声大噪的公司时，都只有 19 岁。年轻创始人绝非新鲜事物：自从计算机便宜到大学生也买得起的那天起，这个趋势就开始了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "af8c986f78da11b71a26937bb622b1ccd6dca0f7ed8af7fe8b36b71c4f5355b0",
+      "enMarkdown": "Another of our hypotheses was that you can start a startup on less money than most people think. Other investors were surprised to hear the most we gave any group was $20,000. But we knew it was possible to start on that little because we started Viaweb on $10,000.",
+      "zhMarkdown": "我们的另一个假设是，创办一家创业公司所需的资金比大多数人想象的要少。其他投资人听说我们给每个团队的最高资助额只有 20,000 美元时都很惊讶。但我们知道用这么点钱起步是可行的，因为当年我们创办 Viaweb 时只用了 10,000 美元。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "c741d06dc3bf7f89ae16a679599a425ece3d518e6d63ec505ede707414563df2",
+      "enMarkdown": "And so it proved this summer. Three months' funding is enough to get into second gear. We had a demo day for potential investors ten weeks in, and seven of the eight groups had a prototype ready by that time. One, [Reddit](http://reddit.com), had already launched, and were able to give a demo of their live site.",
+      "zhMarkdown": "今年夏天的事实证明了这一点。三个月的资金足够让公司挂上二档。我们在第十周为潜在投资人举办了路演日（demo day），当时 8 个团队中有 7 个已经拿出了原型。其中 [Reddit](http://reddit.com) 甚至已经上线，并能直接演示他们的实时网站。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "e5c0d5638c9fb5cf00ecb6b224a7ba5acee542608ee3bcb156a2e956ddbbbffd",
+      "enMarkdown": "A researcher who studied the SFP startups said the one thing they had in common was that they all worked ridiculously hard. People this age are commonly seen as lazy. I think in some cases it's not so much that they lack the appetite for work, but that the work they're offered is unappetizing.",
+      "zhMarkdown": "一位研究 SFP 创业公司的学者说，这些团队唯一的共同点就是工作起来拼命得近乎荒谬。这个年纪的人通常被认为是懒惰的。但我认为，很多时候不是他们缺乏工作的胃口，而是他们被分派的工作实在倒胃口。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "a337c77daaea6c13782fe6450a6495d94c8aae1c5e01f3d045dd49a20c8b4f1f",
+      "enMarkdown": "The experience of the SFP suggests that if you let motivated people do real work, they work hard, whatever their age. As one of the founders said \"I'd read that starting a startup consumed your life, but I had no idea what that meant until I did it.\"",
+      "zhMarkdown": "SFP 的经验表明，如果你让有动力的人去做真正有价值的工作，无论他们多大年纪，都会拼命工作。正如一位创始人所说：“我以前读到过创业会吞噬你的生活，但直到亲身经历，我才真正明白这意味着什么。”"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "5b30397d3a203d74d2b53e289c3e6f3ed6908561a026bff884ed31476af85cc3",
+      "enMarkdown": "I'd feel guilty if I were a boss making people work this hard. But we're not these people's bosses. They're working on their own projects. And what makes them work is not us but their competitors. Like good athletes, they don't work hard because the coach yells at them, but because they want to win.",
+      "zhMarkdown": "如果我是老板，让员工这么拼命工作，我会感到内疚。但我们不是这些人的老板。他们是在为自己的项目奋斗。促使他们拼命的不是我们，而是他们的竞争对手。就像优秀的运动员，他们努力训练不是因为教练在吼他们，而是因为他们自己想赢。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a542b628d483892d7f1beb8a277533deda14359a1cc8c48cfa8f34381c832a2b",
+      "enMarkdown": "We have less power than bosses, and yet the founders work harder than employees. It seems like a win for everyone. The only catch is that we get on average only about 5-7% of the upside, while an employer gets nearly all of it. (We're counting on it being 5-7% of a much larger number.)",
+      "zhMarkdown": "我们的权力比老板小，但创始人却比员工更拼命。这看起来是一个多赢的局面。唯一的限制是，我们平均只能分到大约 5-7% 的收益，而雇主几乎能拿走全部。（我们指望的是，这 5-7% 对应的是一个大得多的基数。）"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "2981b4ea2a8c93fc1c697114589c8d971047bb81e1762a113d41a2a2573f9131",
+      "enMarkdown": "As well as working hard, the groups all turned out to be extraordinarily responsible. I can't think of a time when one failed to do something they'd promised to, even by being late for an appointment. This is another lesson the world has yet to learn. One of the founders discovered that the hardest part of arranging a meeting with executives at a big cell phone carrier was getting a rental company to rent him a car, because he was too young.",
+      "zhMarkdown": "除了工作拼命，所有团队还展现出了极强的责任感。我想不起有谁没兑现过承诺，甚至连约会迟到都没有过。这是这个世界尚未学到的另一课。一位创始人发现，在联系一家大型手机运营商的高管开会时，最难的部分居然是找租车公司租一辆车，因为他年龄太小，不够租车门槛。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "4c0aa5fd0914bc122c227ddb58af544ed106426d107d946db6eca73c2e7b2da3",
+      "enMarkdown": "I think the problem here is much the same as with the apparent laziness of people this age. They seem lazy because the work they're given is pointless, and they act irresponsible because they're not given any power. Some of them, anyway. We only have a sample size of about twenty, but it seems so far that if you let people in their early twenties be their own bosses, they rise to the occasion.",
+      "zhMarkdown": "我认为这里的问题与这个年纪的人表面上的“懒惰”是一样的。他们看起来懒，是因为被分派的工作毫无意义；他们表现得不负责任，是因为没有被赋予任何权力。至少其中一些人是这样。虽然我们的样本量只有二十人左右，但目前看来，如果你让二十出头的人自己当老板，他们是能够挑起大梁的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "6c4e22ef675d23ca41e2691945a454474784aa0026e9f3d16cdd24a4391f4f7b",
+      "enMarkdown": "**Morale**",
+      "zhMarkdown": "**士气**"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "4586b8d619e9f239b2925e686bd308c6e659a7aa63c782a5e02273d23d6e8f3d",
+      "enMarkdown": "The summer founders were as a rule very idealistic. They also wanted very much to get rich. These qualities might seem incompatible, but they're not. These guys want to get rich, but they want to do it by changing the world. They wouldn't (well, seven of the eight groups wouldn't) be interested in making money by speculating in stocks. They want to make something people use.",
+      "zhMarkdown": "这些暑期创始人普遍非常理想主义。同时，他们也极度渴望变富。这些特质看似矛盾，实则不然。这些人想变富，但他们想通过改变世界来致富。他们（好吧，8 个团队里的 7 个）对通过炒股赚钱毫无兴趣。他们想做出人们真正使用的东西。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "e5ba379be730bf245798a4f6310b157e454ad713a2bf3f945349241a4eacbd9f",
+      "enMarkdown": "I think this makes them more effective as founders. As hard as people will work for money, they'll work harder for a cause. And since success in a startup depends so much on motivation, the paradoxical result is that the people likely to make the most money are those who aren't in it just for the money.",
+      "zhMarkdown": "我认为这让他们作为创始人更有效率。虽然人们会为了钱而努力工作，但为了事业会工作得更拼命。由于创业成功在很大程度上取决于动力，这就产生了一个看似矛盾的结果：最有可能赚到大钱的人，往往是那些不单单为了钱而创业的人。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "19d83e103ecf4d6f17bc48d9b3b92605f559bbc9e6c9945d827ea40168743317",
+      "enMarkdown": "The founders of [Kiko](http://kiko.com), for example, are working on an Ajax calendar. They want to get rich, but they pay more attention to design than they would if that were their only motivation. You can tell just by looking at it.",
+      "zhMarkdown": "例如，[Kiko](http://kiko.com) 的创始人正在开发一款 Ajax 日历。他们想变富，但他们对设计的关注程度，远超过单以金钱为动机时所能达到的水平。你只需看一眼他们的产品就能明白这一点。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "09f98b86b49eef8fda9e1e92438271fdee2257d194d54e458b9e2187ee51edd2",
+      "enMarkdown": "I never considered it till this summer, but this might be another reason startups run by hackers tend to do better than those run by MBAs. Perhaps it's not just that hackers understand technology better, but that they're driven by more powerful motivations. Microsoft, as I've said before, is a dangerously misleading example. Their mean corporate culture only works for monopolies. Google is a better model.",
+      "zhMarkdown": "在今年夏天之前我从未思考过这个问题，但这或许是黑客主导的创业公司往往比 MBA 主导的公司做得更好的另一个原因。也许不仅是因为黑客更懂技术，还因为他们受更强大的动力驱使。正如我之前所说，微软是一个具有危险误导性的例子。他们刻薄的官僚企业文化只对垄断企业有效。谷歌是一个更好的榜样。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "8377b8e34d80a20847f8f0f096f5d54aec7c925792a1a4c5d2c0981904eab373",
+      "enMarkdown": "Considering that the summer founders are the sharks in this ocean, we were surprised how frightened most of them were of competitors. But now that I think of it, we were just as frightened when we started Viaweb. For the first year, our initial reaction to news of a competitor was always: we're doomed. Just as a hypochondriac magnifies his symptoms till he's convinced he has some terrible disease, when you're not used to competitors you magnify them into monsters.",
+      "zhMarkdown": "考虑到这些暑期创始人本应是这片海洋里的鲨鱼，我们很惊讶他们大多数人对竞争对手竟然如此恐惧。但现在回想起来，我们刚创办 Viaweb 时也同样害怕。在第一年里，我们听到竞争对手消息时的第一反应总是：我们完蛋了。就像疑病症患者会放大自己的症状，直到确信自己得了某种不治之症一样，当你对竞争对手不熟悉时，就会把他们放大成可怕的怪物。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "c80374acde63dc23adb1c4b61e013cc6b426753a49fa9d89ce064749808daec6",
+      "enMarkdown": "Here's a handy rule for startups: competitors are rarely as dangerous as they seem. Most will self-destruct before you can destroy them. And it certainly doesn't matter how many of them there are, any more than it matters to the winner of a marathon how many runners are behind him.",
+      "zhMarkdown": "这里有一个适用于创业公司的实用法则：竞争对手很少像看起来那么危险。大多数对手在你击败他们之前就会自我毁灭。而且竞争对手的数量多寡根本无关紧要，就像马拉松冠军不会去在乎身后有多少跑者一样。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "814a0188ae7041f9132131a845f47a5ab257b75d2213a93047f33bb9dcce3891",
+      "enMarkdown": "\"It's a crowded market,\" I remember one founder saying worriedly.",
+      "zhMarkdown": "“这是一个拥挤的市场，”我记得一位创始人曾忧心忡忡地说道。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "f09eb15414a2428ffee9d842fcc573385927303d5363071c9171bc629d1c3ad4",
+      "enMarkdown": "\"Are you the current leader?\" I asked.",
+      "zhMarkdown": "“你是目前的领跑者吗？”我问。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "cf87b23d0f70cff8f9ce62b411ad616fd9be0b93edeba67c70f647e5a4b848e1",
+      "enMarkdown": "\"Yes.\"",
+      "zhMarkdown": "“是的。”"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "5b325e43e64ca5e2ee5e09d50ad1e5eb545a5011e4d4dc4ee3ff9f199ad97ac5",
+      "enMarkdown": "\"Is anyone able to develop software faster than you?\"",
+      "zhMarkdown": "“有人能比你更快地开发软件吗？”"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "7616cb4b4f4291422fdbc6201f8fde351e42729311fe0dc283a8ff2071de86bc",
+      "enMarkdown": "\"Probably not.\"",
+      "zhMarkdown": "“应该没有。”"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "febb464ca56407ffd6096b961acbc3b409eb43d2343cc72b4cf9c3160ec693cf",
+      "enMarkdown": "\"Well, if you're ahead now, and you're the fastest, then you'll stay ahead. What difference does it make how many others there are?\"",
+      "zhMarkdown": "“既然你现在领先，而且你速度最快，那你就一直能保持领先。其他人有多少，又有什么关系呢？”"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "e12dbcc6134ca9d84cb6a4c57920648335b16306e5e06b6e614982de84d0a8ed",
+      "enMarkdown": "Another group was worried when they realized they had to rewrite their software from scratch. I told them it would be a bad sign if they didn't. The main function of your initial version is to be rewritten.",
+      "zhMarkdown": "另一个团队在意识到必须彻底重写他们的软件时感到很焦虑。我告诉他们，如果不重写反而是一个坏兆头。你初始版本的主要作用就是用来被重写的。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "8c9f13dbe6cd046d025419a91f96eb286d5c80def2b4b278c0152d5a0253aef7",
+      "enMarkdown": "That's why we advise groups to ignore issues like scalability, internationalization, and heavy-duty security at first. [1] I can imagine an advocate of \"best practices\" saying these ought to be considered from the start. And he'd be right, except that they interfere with the primary function of software in a startup: to be a vehicle for experimenting with its own design. Having to retrofit internationalization or scalability is a pain, certainly. The only bigger pain is not needing to, because your initial version was too big and rigid to evolve into something users wanted.",
+      "zhMarkdown": "这就是为什么我们建议团队在起步阶段忽略可扩展性、国际化和重度安全防御等问题。[1] 我能想象一个“最佳实践”的倡导者会说，这些应该从一开始就考虑进去。他是对的，但这会干扰创业公司软件的首要功能：作为探索自身设计的工具。事后去补课国际化或可扩展性固然痛苦。但唯一更痛苦的事，是根本不需要去补课，因为你的初始版本做得太大、太死板，以至于无法演变成用户想要的东西。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "f3b529a19191b3588f22a0de8516dca30207a7cc0631ace6c75e05f8caca3b43",
+      "enMarkdown": "I suspect this is another reason startups beat big companies. Startups can be irresponsible and release version 1s that are light enough to evolve. In big companies, all the pressure is in the direction of over-engineering.",
+      "zhMarkdown": "我怀疑这也是创业公司能击败大公司的另一个原因。创业公司可以不负责任地发布足够轻量、易于演进的第一版。而在大公司里，所有的压力都在逼着你进行过度设计。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "b2cb7fc5a497611b7fe982ee0af549da5bb250a0ea597c2d61804b73bee054f6",
+      "enMarkdown": "**What Got Learned**",
+      "zhMarkdown": "**学到了什么**"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "b60c78e8ed449f5c4138893b83e0c01579f6cbfba65be85acfa41e6695083030",
+      "enMarkdown": "One thing we were curious about this summer was where these groups would need help. That turned out to vary a lot. Some we helped with technical advice-- for example, about how to set up an application to run on multiple servers. Most we helped with strategy questions, like what to patent, and what to charge for and what to give away. Nearly all wanted advice about dealing with future investors: how much money should they take and what kind of terms should they expect?",
+      "zhMarkdown": "今年夏天我们很好奇的一件事是，这些团队会在哪些地方需要帮助。结果发现差异很大。有些团队我们给予了技术建议——例如，如何架构一个运行在多台服务器上的应用。对于大多数团队，我们帮助解决的是战略问题，比如什么应该申请专利，什么应该收费，什么应该免费。几乎所有人都希望在如何与未来的投资人打交道上获得建议：他们应该拿多少钱？应该期待什么样的条款？"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "dcde0f20dfe423aedd1b72aa1e22befc2103d0a3b29f477306622f24cca8179b",
+      "enMarkdown": "However, all the groups quickly learned how to deal with stuff like patents and investors. These problems aren't intrinsically difficult, just unfamiliar.",
+      "zhMarkdown": "不过，所有团队都很快学会了如何应对专利和投资人这类事情。这些问题本质上并不难，只是他们之前不熟悉。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "603bd0284ae6ff816b6346074073f6a10b60e796895d977aa12eef63a734af3e",
+      "enMarkdown": "It was surprising-- slightly frightening even-- how fast they learned. The weekend before the demo day for investors, we had a practice session where all the groups gave their presentations. They were all terrible. We tried to explain how to make them better, but we didn't have much hope. So on demo day I told the assembled angels and VCs that these guys were hackers, not MBAs, and so while their software was good, we should not expect slick presentations from them.",
+      "zhMarkdown": "令人惊讶——甚至有点令人害怕的是，他们学得太快了。在面向投资人的路演日前一个周末，我们进行了一次彩排，所有团队都做了演示。结果讲得一塌糊涂。我们试图解释如何改进，但心里没抱多大希望。于是在路演日当天，我告诉到场的天使投资人和风险投资人，这些家伙是黑客，不是 MBA，所以虽然他们的软件很棒，但大家不要指望能看到多么天衣无缝的演示。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "f28151110e8af86ea0ac485918cf2c1cab0633555c176ce96d7d057ea3c07848",
+      "enMarkdown": "The groups then proceeded to give fabulously slick presentations. Gone were the mumbling recitations of lists of features. It was as if they'd spent the past week at acting school. I still don't know how they did it.",
+      "zhMarkdown": "结果，这些团队随后做出了极其精彩、流畅的演示。那些哼哼唧唧、念经般罗列功能的陈述不见了。他们简直就像过去一周都在戏剧学院度过一样。我至今都不知道他们是怎么做到的。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8907c636d9f83bbe1d4e5ebd22c83237a88b7df6d1480e8a9d17671765506cdc",
+      "enMarkdown": "Perhaps watching each others' presentations helped them see what they'd been doing wrong. Just as happens in college, the summer founders learned a lot from one another-- maybe more than they learned from us. A lot of the problems they face are the same, from dealing with investors to hacking Javascript.",
+      "zhMarkdown": "也许是互相观看演示帮助他们看清了自己之前的问题。就像在大学里一样，这些暑期创始人从彼此身上学到了很多——甚至比从我们这里学到的还要多。从应付投资人到写 Javascript，他们面临的许多问题都是相通的。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "f326cd376ac9a661e592c6e7be71ca28323b28f475c42d8c273ea7fca05fdd9e",
+      "enMarkdown": "I don't want to give the impression there were no problems this summer. A lot went wrong, as usually happens with startups. One group got an \"[exploding\nterm-sheet](http://www.ventureblog.com/articles/indiv/2003/000024.html)\" from some VCs. Pretty much all the groups who had dealings with big companies found that big companies do everything infinitely slowly. (This is to be expected. If big companies weren't incapable, there would be no room for startups to exist.) And of course there were the usual nightmares associated with servers.",
+      "zhMarkdown": "我不想给人留下一种这个夏天万事大吉的印象。像创业公司的常态一样，很多事情都出了岔子。一个团队从某些风险投资人那里拿到了“[带有时效炸弹的投资意向书](http://www.ventureblog.com/articles/indiv/2003/000024.html)”。几乎所有与大公司打过交道的团队都发现，大公司做任何事情都慢得令人发指。（这完全在预料之中。如果大公司不是这么无能，创业公司根本就没有生存空间。）当然，服务器宕机之类的常规噩梦也少不了。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "b3c5f822ed3ac2486d002fd0a4775d19d79c092c8ca9c608b9c8512018df9f71",
+      "enMarkdown": "In short, the disasters this summer were just the usual childhood diseases. Some of this summer's eight startups will probably die eventually; it would be extraordinary if all eight succeeded. But what kills them will not be dramatic, external threats, but a mundane, internal one: not getting enough done.",
+      "zhMarkdown": "简而言之，今年夏天的灾难不过是常见的“小儿科疾病”。这 8 家创业公司中，有些最终可能会死掉；如果 8 家全部成功，那才不可思议。但杀死他们的不会是戏剧性的外部威胁，而是一个平凡的内部威胁：效率不够高，事情做得不够多。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "15a68ed9e3c5dc7ab83d54b033b5ac020547916a9cadb943f6e3a68ebf65969e",
+      "enMarkdown": "So far, though, the news is all good. In fact, we were surprised how much fun the summer was for us. The main reason was how much we liked the founders. They're so earnest and hard-working. They seem to like us too. And this illustrates another advantage of investing over hiring: our relationship with them is way better than it would be between a boss and an employee. Y Combinator ends up being more like an older brother than a parent.",
+      "zhMarkdown": "不过到目前为止，消息全都是好消息。事实上，我们很惊讶这个夏天我们自己过得如此开心。最主要的原因是我们太喜欢这些创始人了。他们如此真诚、如此努力。他们似乎也很喜欢我们。这展示了投资相比于雇佣的另一个优势：我们与他们的关系，要比老板和员工之间的关系好得多。Y Combinator 最终更像是一个大哥哥，而不是父母。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "cb2e1d5228cb1abba5a84986472249a1f7bcd09af26652ad26d696a5ac1ba2d6",
+      "enMarkdown": "I was surprised how much time I spent making introductions. Fortunately I discovered that when a startup needed to talk to someone, I could usually get to the right person by at most one hop. I remember wondering, how did my friends get to be so eminent? and a second later realizing: shit, I'm forty.",
+      "zhMarkdown": "我也很惊讶自己花了那么多时间帮他们引荐人脉。幸运的是我发现，当一家创业公司需要找人聊聊时，我通常最多通过一道关系就能找到对的人。我记得当时自己还在纳闷：我的朋友们什么时候变得这么厉害了？一秒钟后我反应过来：该死，我都四十岁了。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "2411fd8823cdba9816be9e3eb74b4531d78b86ea9e7d11bed0619b290cf6027d",
+      "enMarkdown": "Another surprise was that the three-month batch format, which we were forced into by the constraints of the summer, turned out to be an advantage. When we started Y Combinator, we planned to invest the way other venture firms do: as proposals came in, we'd evaluate them and decide yes or no. The SFP was just an experiment to get things started. But it worked so well that we plan to do [all](http://ycombinator.com/funding.html) our investing this way, one cycle in the summer and one in winter. It's more efficient for us, and better for the startups too.",
+      "zhMarkdown": "另一个意外收获是，由于夏天的限制而被迫采用的三个月批量（batch）模式，结果证明是一个优势。创办 Y Combinator 之初，我们计划像其他风险投资机构那样投资：提案进来，我们评估，然后决定投还是不投。SFP 只是一个为了把事情运转起来的尝试。但它的效果太好了，以至于我们计划将[所有](http://ycombinator.com/funding.html)投资都采用这种方式，夏季一期，冬季一期。这对我们来说效率更高，对创业公司也更好。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "bdff2d792d23e803b08b8b5f5ed272e568e95d2a05bac131602e65bd2c43b1be",
+      "enMarkdown": "Several groups said our weekly dinners saved them from a common problem afflicting startups: working so hard that one has no social life. (I remember that part all too well.) This way, they were guaranteed a social event at least once a week.",
+      "zhMarkdown": "好几个团队表示，我们的每周晚餐拯救了他们，使他们免受创业公司常见问题的困扰：工作太拼命以至于没有社交生活。（我对那段日子记忆犹新。）通过这种方式，他们至少保证了每周一次的社交活动。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "78ce955478dbc68480eb198388c5c0795b8a87acd743f17228246ae71a579619",
+      "enMarkdown": "**Independence**",
+      "zhMarkdown": "**独立性**"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "5b9aec28f566643d88fba8c89c561684862b795f6694787edf4184f4ad224db5",
+      "enMarkdown": "I've heard Y Combinator described as an \"incubator.\" Actually we're the opposite: incubators exert more control than ordinary VCs, and we make a point of exerting less. Among other things, incubators usually make you work in their office-- that's where the word \"incubator\" comes from. That seems the wrong model. If investors get too involved, they smother one of the most powerful forces in a startup: the feeling that it's your own company.",
+      "zhMarkdown": "我听过有人把 Y Combinator 称为“孵化器”。实际上我们恰恰相反：孵化器施加的控制比普通风险投资机构更多，而我们则刻意减少控制。此外，孵化器通常会让你在他们的办公室里工作——这就是“孵化器”这个词的由来。这似乎是个错误的模式。如果投资人介入过深，就会扼杀创业公司中最强大的力量之一：那种“这是我自己的公司”的主人翁感。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "94a957aea7d5f8aab66f0387013a05c50726752ef1d3056b7238e9fcfb6b8f2a",
+      "enMarkdown": "Incubators were conspicuous failures during the Bubble. There's still debate about whether this was because of the Bubble, or because they're a bad idea. My vote is they're a bad idea. I think they fail because they select for the wrong people. When we were starting a startup, we would never have taken funding from an \"incubator.\" We can find office space, thanks; just give us the money. And people with that attitude are the ones likely to succeed in startups.",
+      "zhMarkdown": "在互联网泡沫时期，孵化器是显而易见的失败典型。关于这是因为泡沫破裂，还是因为这个模式本身就是个坏主意，至今仍有争论。我投“坏主意”一票。我认为它们失败是因为筛选了错误的人。当年我们创业时，绝不会接受“孵化器”的资助。办公室我们自己能找，谢谢，把钱给我们就行。而正是抱有这种态度的人，才最有可能在创业中取得成功。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "4f18f7e0fa16fc790cd43f930ccaa63b47a72a015d6820ad5399a9765f4c2678",
+      "enMarkdown": "Indeed, one quality all the founders shared this summer was a spirit of independence. I've been wondering about that. Are some people just a lot more independent than others, or would everyone be this way if they were allowed to?",
+      "zhMarkdown": "确实，今年夏天所有创始人共同拥有的一个特质就是独立精神。我一直在思考这个问题。是有些人天生就比别人独立得多，还是如果给所有人自由，大家都会变得如此独立？"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "56dc7d8e624659257b244a060cb650527c418b5ea14a6a2f49002f4f711f24a0",
+      "enMarkdown": "As with most nature/nurture questions, the answer is probably: some of each. But my main conclusion from the summer is that there's more environment in the mix than most people realize. I could see that from how the founders' attitudes *changed* during the summer. Most were emerging from twenty or so years of being told what to do. They seemed a little surprised at having total freedom. But they grew into it really quickly; some of these guys now seem about four inches taller (metaphorically) than they did at the beginning of the summer.",
+      "zhMarkdown": "与大多数先天还是后天的问题一样，答案很可能是：两者兼而有之。但我从这个夏天得出的主要结论是，环境因素在其中的作用比大多数人意识到的要大。我可以从创始人们在夏天里态度的*转变*中看出来。他们中大多数人刚从二十年左右“被告知该做什么”的生活中走出来。对于拥有绝对的自由，他们起初显得有些惊讶。但他们适应得非常快；现在，其中一些人看起来（比喻地说）比夏天开始时高了大约四英寸。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "9e29125524fa15a3da9faa56699dc6dcb0dddf4e67b30d450e4424c5d80063bf",
+      "enMarkdown": "When we asked the summer founders what surprised them most about starting a company, one said \"the most shocking thing is that it worked.\"",
+      "zhMarkdown": "当我们问这些暑期创始人，创办公司最让他们感到意外的是什么时，其中一位说：“最震撼的是，这事居然成了。”"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "b51609863db323fbe4dc285a10120069d092cce94f8187e8cc55f5a624d98bda",
+      "enMarkdown": "It will take more experience to know for sure, but my guess is that a lot of hackers could do this-- that if you put people in a position of independence, they develop the qualities they need. Throw them off a cliff, and most will find on the way down that they have wings.",
+      "zhMarkdown": "这需要更多的实践经验才能完全确定，但我的猜测是，很多黑客都能做到这一点——如果你把人放在独立的位置上，他们就会培养出所需的品质。把他们推下悬崖，大多数人在坠落的过程中都会发现自己长着翅膀。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "1f00c6467dd7e0a91e8660a10f0f274e4875b93cc7578ba480716e407b4def62",
+      "enMarkdown": "The reason this is news to anyone is that the same forces work in the other direction too. Most hackers are employees, and this [molds](http://software.ericsink.com/entries/No_Great_Hackers.html) you into someone to whom starting a startup seems impossible as surely as starting a startup molds you into someone who can handle it.",
+      "zhMarkdown": "之所以这在人们看来算是个新闻，是因为同样的力量也在反方向起作用。大多数黑客都是雇员，这会把你[塑造](http://software.ericsink.com/entries/No_Great_Hackers.html)成一个认为创业绝无可能的人，这与创业把你塑造为一个能够独当一面的人一样，是确定无疑的。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "51dd0024663f896403547ff8c21eb71c608f968afde8e3152156d579688009a8",
+      "enMarkdown": "If I'm right, \"hacker\" will mean something different in twenty years than it does now. Increasingly it will mean the people who run the company. Y Combinator is just accelerating a process that would have happened anyway. Power is shifting from the people who deal with money to the people who create technology, and if our experience this summer is any guide, this will be a good thing.",
+      "zhMarkdown": "如果我是对的，二十年后“黑客”的含义将与现在不同。它将越来越指代那些掌管公司的人。Y Combinator 只是在加速一个本来就会发生的过程。权力正在从跟钱打交道的人手里，转移到创造技术的人手里。如果说我们今年夏天的经历能说明什么的话，那就是这将是一件好事。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "df2bcd35372b746dcd1ba8f7b8d50f417c1904f07e785853be596a30078bce81",
+      "enMarkdown": "[1] By heavy-duty security I mean efforts to protect against truly determined attackers.",
+      "zhMarkdown": "[1] 我所说的重度安全防御，是指针对真正有决心的攻击者所做的防御努力。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "251cb13308b494e4392bbd7c976803f5177b1ad377fc8190d99bf536b4ba7073",
+      "enMarkdown": "The [image](https://sep.turbifycdn.com/ty/cdn/paulgraham/sfptable.jpg?t=1772732230&) shows us, the 2005 summer founders, and Smartleaf co-founders Mark Nitzberg and Olin Shivers at the 30-foot table Kate Courteau designed for us. Photo by Alex Lewin.",
+      "zhMarkdown": "[图片](https://sep.turbifycdn.com/ty/cdn/paulgraham/sfptable.jpg?t=1772732230&)展示了我们、2005 届暑期创始人，以及 Smartleaf 联合创始人 Mark Nitzberg 和 Olin Shivers，坐在 Kate Courteau 为我们设计的 30 英尺长桌旁。摄影：Alex Lewin。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "232042f661f99454a0981ac45202bfdc2438f7f375cee2b5a07e88b671e142a4",
+      "enMarkdown": "**Thanks** to Sarah Harlin, Steve Huffman, Jessica Livingston, Zak Stone, and Aaron Swartz for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sarah Harlin、Steve Huffman、Jessica Livingston、Zak Stone 和 Aaron Swartz 阅读本文草稿。"
+    }
+  ]
+}

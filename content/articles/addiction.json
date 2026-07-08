@@ -1,0 +1,167 @@
+{
+  "slug": "addiction",
+  "titleEn": "The Acceleration of Addictiveness",
+  "titleZh": "成瘾性的加速",
+  "dateText": "July 2010",
+  "publishedAt": "2010-07-01",
+  "sourceOrder": 105,
+  "sourceUrl": "https://paulgraham.com/addiction.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "ff639f06aed11b93187f9b9e48cb8f14653840543bceb74ec9eb24f477bd233b",
+      "enMarkdown": "What hard liquor, cigarettes, heroin, and crack have in common is that they're all more concentrated forms of less addictive predecessors. Most if not all the things we describe as addictive are. And the scary thing is, the process that created them is accelerating.",
+      "zhMarkdown": "烈酒、香烟、海洛因和冰毒的共同点在于，它们都是由此前成瘾性较低的前体物质浓缩而成的。绝大多数（如果不是全部的话）被我们称为“成瘾”的东西，都符合这个规律。而令人担忧的是，制造这些东西的进程正在加速。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2eb8451930d620d861d6584963afc34c7295705ad14d265c8baa03467b6091de",
+      "enMarkdown": "We wouldn't want to stop it. It's the same process that cures diseases: technological progress. Technological progress means making things do more of what we want. When the thing we want is something we want to want, we consider technological progress good. If some new technique makes solar cells x% more efficient, that seems strictly better. When progress concentrates something we don't want to want — when it transforms opium into heroin — it seems bad. But it's the same process at work. [[1](#f1n)]",
+      "zhMarkdown": "我们并不会想要阻止这个进程。因为这与治愈疾病的进程完全相同：那就是技术进步。技术进步意味着让事物能更多地满足我们的需求。当我们需要的东西恰好也是我们理智上想要的东西时，我们认为技术进步是好事。比如，如果一种新技术能让太阳能电池的效率提高 x%，这显然是百利而无一害。但当这种进步浓缩了我们理智上不想要的东西时——比如它把鸦片提炼成海洛因——它看起来就成了坏事。然而，这背后其实是同一个推动力在起作用。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "737ffd4a30820301fee3b9298eb394ba1567d6233ad6c142e2145d78bd20d1df",
+      "enMarkdown": "No one doubts this process is accelerating, which means increasing numbers of things we like will be transformed into things we like too much. [[2](#f2n)]",
+      "zhMarkdown": "无人怀疑这一进程正在加速，这意味着越来越多我们喜欢的东西，将被转化为让我们过度沉迷的东西。[[2](#f2n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "c8d9d750680ac75951c1aa24e92c0501078e5f8d5820baf12b782a232fb65cc3",
+      "enMarkdown": "As far as I know there's no word for something we like too much. The closest is the colloquial sense of \"addictive.\" That usage has become increasingly common during my lifetime. And it's clear why: there are an increasing number of things we need it for. At the extreme end of the spectrum are crack and meth. Food has been transformed by a combination of factory farming and innovations in food processing into something with way more immediate bang for the buck, and you can see the results in any town in America. Checkers and solitaire have been replaced by World of Warcraft and FarmVille. TV has become much more engaging, and even so it [can't compete](https://paulgraham.com/convergence.html) with Facebook.",
+      "zhMarkdown": "据我所知，目前还没有一个专门的词来形容“我们过度喜欢的东西”。最接近的词是口语中的“成瘾”（addictive）。在我的一生中，这个词的使用频率越来越高。原因不言而喻：我们有越来越多需要用到这个词的场合。最极端的例子是冰毒和克拉克可卡因。而在食品领域，工业化农业与食品加工技术的结合，已经将食物转化为能带来极高即时快感的东西，在美国任何一个城镇，你都能看到这种转变带来的后果。跳棋和单人纸牌被《魔兽世界》和《开心农场》（FarmVille）所取代。电视变得越来越吸引人，即便如此，它也已经[无法与 Facebook 竞争](https://paulgraham.com/convergence.html)了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "d62bbb9b71cad5a47d28eb83cc0ebe95f3322d8b81697a900bcda126cc3dfece",
+      "enMarkdown": "The world is more addictive than it was 40 years ago. And unless the forms of technological progress that produced these things are subject to different laws than technological progress in general, the world will get more addictive in the next 40 years than it did in the last 40.",
+      "zhMarkdown": "今天的世界比 40 年前更让人容易成瘾。除非产生这些事物的技术进步规律与普通的技术进步规律不同，否则在接下来的 40 年里，这个世界变得更具成瘾性的速度，将比过去 40 年还要快。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "efecbb08e6fa837cf694cddfc92fade7f6afb8a8fd9d036d3178aafa6a6fe092",
+      "enMarkdown": "The next 40 years will bring us some wonderful things. I don't mean to imply they're all to be avoided. Alcohol is a dangerous drug, but I'd rather live in a world with wine than one without. Most people can coexist with alcohol; but you have to be careful. More things we like will mean more things we have to be careful about.",
+      "zhMarkdown": "未来的 40 年会给我们带来一些美妙的事物。我并不是说所有的东西都应该避而远之。酒精是一种危险的毒品，但我宁愿生活在一个有葡萄酒的世界，也不愿生活在一个没有葡萄酒的世界。大多数人能够与酒精共存，但你必须保持警惕。我们喜欢的东西越多，意味着我们需要保持警惕的东西也就越多。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "81bd217ec18c50ea37344f486edaa61e104594e2d0cc1bd774531e8964635ff4",
+      "enMarkdown": "Most people won't, unfortunately. Which means that as the world becomes more addictive, the two senses in which one can live a normal life will be driven ever further apart. One sense of \"normal\" is statistically normal: what everyone else does. The other is the sense we mean when we talk about the normal operating range of a piece of machinery: what works best.",
+      "zhMarkdown": "不幸的是，大多数人做不到这一点。这意味着，随着世界变得越来越让人成瘾，“过正常生活”的两种定义将会被拉得越来越开。一种“正常”是统计学意义上的正常：即大家都在做的事。另一种“正常”则是我们谈论机器“正常运转范围”时的意思：即最健康、最有效的状态。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "ae29afbd4b2ae50a413d34326cf2a55876cbbed1aa708902f6cb563a44928e9e",
+      "enMarkdown": "These two senses are already quite far apart. Already someone trying to live well would seem eccentrically abstemious in most of the US. That phenomenon is only going to become more pronounced. You can probably take it as a rule of thumb from now on that if people don't think you're weird, you're living badly.",
+      "zhMarkdown": "这两种“正常”现在已经相去甚远。在当今的美国大部分地区，一个努力追求健康生活的人，在别人眼里已经算得上是节制得有些怪异了。这种现象只会变得越来越明显。从现在开始，你大概可以把这当成一条经验法则：如果人们不觉得你有些古怪，那你可能过得并不健康。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9a21d397c478613c9aab5417ec1781515555fd463e8b7d5e7cb421c12f0af87b",
+      "enMarkdown": "Societies eventually develop antibodies to addictive new things. I've seen that happen with cigarettes. When cigarettes first appeared, they spread the way an infectious disease spreads through a previously isolated population. Smoking rapidly became a (statistically) normal thing. There were ashtrays everywhere. We had ashtrays in our house when I was a kid, even though neither of my parents smoked. You had to for guests.",
+      "zhMarkdown": "社会最终会针对具有成瘾性的新事物产生“抗体”。我曾亲眼目睹香烟经历了这个过程。当香烟最初出现时，它就像传染病在原本隔绝的人群中传播一样迅速蔓延。吸烟很快在统计学意义上成为了一件“正常”的事。烟灰缸无处不在。在我小时候，即便我父母都不抽烟，我们家里也备有烟灰缸。因为招待客人必须得有。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "33417f7b829b3a9cad1588e7e1abef77245c39607456fb0b5ad8856e9c06888b",
+      "enMarkdown": "As knowledge spread about the dangers of smoking, customs changed. In the last 20 years, smoking has been transformed from something that seemed totally normal into a rather seedy habit: from something movie stars did in publicity shots to something small huddles of addicts do outside the doors of office buildings. A lot of the change was due to legislation, of course, but the legislation couldn't have happened if customs hadn't already changed.",
+      "zhMarkdown": "随着关于吸烟危害的知识普及，社会习俗发生了变化。在过去的 20 年里，吸烟已经从一件看似完全正常的事，变成了一种相当猥琐的恶习：它从电影明星在宣传照里做的事，变成了少数成瘾者蜷缩在写字楼门外做的事。当然，这其中有很大一部分改变归功于立法，但如果社会习俗没有发生改变，立法也是不可能实现的。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "36d1fa1ede3797a8a4dda6ee45e725f37bcbad8d2301f167000691dea618caeb",
+      "enMarkdown": "It took a while though—on the order of 100 years. And unless the rate at which social antibodies evolve can increase to match the accelerating rate at which technological progress throws off new addictions, we'll be increasingly unable to rely on customs to protect us. [[3](#f3n)] Unless we want to be canaries in the coal mine of each new addiction—the people whose sad example becomes a lesson to future generations—we'll have to figure out for ourselves what to avoid and how. It will actually become a reasonable strategy (or a more reasonable strategy) to suspect [everything new](http://en.wikipedia.org/wiki/Paleolithic_diet).",
+      "zhMarkdown": "不过，这个过程花了不少时间——大约有 100 年。除非社会抗体进化的速度能够跟上技术进步不断抛出新成瘾源的加速步伐，否则我们越来越无法指望依靠社会习俗来保护自己。[[3](#f3n)] 除非我们愿意充当每种新成瘾源的“煤矿金丝雀”——成为用悲惨结局给后代留下教训的人——否则我们必须自己弄清楚该避开什么以及如何避开。怀疑[所有新事物](http://en.wikipedia.org/wiki/Paleolithic_diet)，实际上将成为一种合理的应对策略（或者说，比以前更合理的策略）。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "8dfd238f6b1da5802466898d474ad3332e6b8f8b189e96bfa39c3ce357916b44",
+      "enMarkdown": "In fact, even that won't be enough. We'll have to worry not just about new things, but also about existing things becoming more addictive. That's what bit me. I've avoided most addictions, but the Internet got me because it became addictive while I was using it. [[4](#f4n)]",
+      "zhMarkdown": "事实上，仅仅做到这一点还不够。我们不仅要担心新事物，还要担心现有的事物变得更加容易让人成瘾。我自己就是个受害者。我避开了大多数成瘾物，但互联网还是让我中招了，因为在我使用它的过程中，它变得越来越让人无法自拔。[[4](#f4n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "d16cb5da865f7acc27ce20be90e93fc4d37c681556e66e1eec3d001e7bdfb247",
+      "enMarkdown": "Most people I know have problems with Internet addiction. We're all trying to figure out our own customs for getting free of it. That's why I don't have an iPhone, for example; the last thing I want is for the Internet to follow me out into the world. [[5](#f5n)] My latest trick is taking long hikes. I used to think running was a better form of exercise than hiking because it took less time. Now the slowness of hiking seems an advantage, because the longer I spend on the trail, the longer I have to think without interruption.",
+      "zhMarkdown": "我认识的大多数人都有互联网成瘾的问题。我们都在努力摸索自己的规矩，好让自己摆脱出来。例如，这就是我不用 iPhone 的原因；我最不希望看到的就是互联网如影随形地跟着我走到户外。[[5](#f5n)] 我最近的新招是长途徒步。我以前觉得跑步是比徒步更好的锻炼方式，因为花的时间更少。但现在，徒步的缓慢反而成了一种优势，因为我在路上花的时间越长，我就有越长的时间可以不受干扰地思考。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "bd5e1619cc1793dbf7e17558ceae10b43283adab3e05f9a503b39339528df009",
+      "enMarkdown": "Sounds pretty eccentric, doesn't it? It always will when you're trying to solve problems where there are no customs yet to guide you. Maybe I can't plead Occam's razor; maybe I'm simply eccentric. But if I'm right about the acceleration of addictiveness, then this kind of lonely squirming to avoid it will increasingly be the fate of anyone who wants to get things done. We'll increasingly be defined by what we say no to.",
+      "zhMarkdown": "听起来挺古怪的，对吧？当你试图解决那些还没有社会习俗可以遵循的问题时，看起来总是会很古怪。也许我不能用奥卡姆剃刀原理来为自己辩解，也许我就是个怪人。但如果我对“成瘾性加速”的判断是正确的，那么这种为了避免成瘾而进行的、孤独的挣扎，将越来越多地成为每个想要有所成就的人的宿命。我们说“不”的能力，将越来越定义我们是谁。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "1aa6876a2959b5c85073d83397b9dad3179ea9a4fb8c024ef4bb02f27e302f02",
+      "enMarkdown": "[1] Could you restrict technological progress to areas where you wanted it? Only in a limited way, without becoming a police state. And even then your restrictions would have undesirable side effects. \"Good\" and \"bad\" technological progress aren't sharply differentiated, so you'd find you couldn't slow the latter without also slowing the former. And in any case, as Prohibition and the \"war on drugs\" show, bans often do more harm than good.",
+      "zhMarkdown": "[1] 你能把技术进步限制在你想让它发展的领域吗？除非建立一个警察国家，否则只能在极有限的范围内做到。而且即便如此，你的限制也会带来不良的副作用。“好的”和“坏的”技术进步并没有清晰的界限，因此你会发现，如果不减缓前者，就无法减缓后者。况且，正如禁酒令和“禁毒战争”所表明的那样，禁令往往弊大于利。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "86ffcfb1b41f047be2abf0e1e5f29b9bc731857e45f6362818e3e31fa331b102",
+      "enMarkdown": "[2] Technology has always been accelerating. By Paleolithic standards, technology evolved at a blistering pace in the Neolithic period.",
+      "zhMarkdown": "[2] 技术一直都在加速发展。用旧石器时代的标准来看，新石器时代的技术演进速度简直是惊人的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "569f8ced2764744a9ede7e94ec8a10ff2a285b802f09829f0d3cfd0daeb36c01",
+      "enMarkdown": "[3] Unless we mass produce social customs. I suspect the recent resurgence of evangelical Christianity in the US is partly a reaction to drugs. In desperation people reach for the sledgehammer; if their kids won't listen to them, maybe they'll listen to God. But that solution has broader consequences than just getting kids to say no to drugs. You end up saying no to [science](https://www.youtube.com/watch?v=GbXgsMxOPtI) as well.",
+      "zhMarkdown": "[3] 除非我们能够批量生产社会习俗。我怀疑美国近期福音派基督教的复兴，部分原因是对毒品泛滥的反应。绝望之中，人们拿起了重锤；如果孩子们不听父母的，也许他们会听上帝的。但这种解决方案的后果，远不止让孩子们对毒品说“不”那么简单。你最终也会对[科学](https://www.youtube.com/watch?v=GbXgsMxOPtI)说“不”。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "7b4bee45583149b343c5142de7a4d576219e3a327827bff5969536bb7df4fb5e",
+      "enMarkdown": "I worry we may be heading for a future in which only a few people plot their own itinerary through no-land, while everyone else books a package tour. Or worse still, has one booked for them by the government.",
+      "zhMarkdown": "我担心我们可能会走向这样一个未来：只有极少数人能在这片无主之地中规划自己的路线，而其他所有人都在购买跟团游。或者更糟糕的是，由政府替他们安排好行程。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "3c5b2c096c46aa1eb39e3df9a2ca5533ce2e26e8764b71459c897e648d0ca556",
+      "enMarkdown": "[4] People commonly use the word \"procrastination\" to describe what they do on the Internet. It seems to me too mild to describe what's happening as merely not-doing-work. We don't call it procrastination when someone gets drunk instead of working.",
+      "zhMarkdown": "[4] 人们常用“拖延症”来形容自己在网上的所作所为。在我看来，用这个词来形容纯粹的“不工作”未免太温和了。当有人用喝得烂醉来代替工作时，我们可不会管这叫“拖延症”。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "08ffbe38c552a6002c0be5dba43163aea2f6bbf92845f547f2e49f142f2bf816",
+      "enMarkdown": "[5] Several people have told me they like the iPad because it lets them bring the Internet into situations where a laptop would be too conspicuous. In other words, it's a hip flask. (This is true of the iPhone too, of course, but this advantage isn't as obvious because it reads as a phone, and everyone's used to those.)",
+      "zhMarkdown": "[5] 有几个人告诉我，他们喜欢 iPad，因为它可以让他们把互联网带到那些用笔记本电脑会显得太扎眼的场合。换句话说，它就是一个便携酒扁壶。（当然，iPhone 也是如此，但这个优势并不那么明显，因为它看起来就是个手机，而大家对手机早就习以为常了。）"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "227ccb60909af22b9a7092e72d0045eecd83d649c1a8f16843b8593b952be923",
+      "enMarkdown": "**Thanks** to Sam Altman, Patrick Collison, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Patrick Collison、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

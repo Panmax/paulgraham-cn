@@ -1,0 +1,1201 @@
+{
+  "slug": "road",
+  "titleEn": "The Other Road Ahead",
+  "titleZh": "另一条前行之路",
+  "dateText": "September 2001",
+  "publishedAt": "2001-09-01",
+  "sourceOrder": 218,
+  "sourceUrl": "https://paulgraham.com/road.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "2a4113583f10cfb8a19979352d4d2c29023d018859339db74dbf954896f875ca",
+      "enMarkdown": "*(This article explains why much of the next generation of software\nmay be server-based, what that will mean for programmers,\nand why this new kind of software is a great opportunity for startups.\nIt's derived from a talk at BBN Labs.)*",
+      "zhMarkdown": "*(本文解释了为什么下一代软件大都可能基于服务器运行、这对程序员意味着什么，以及为什么这种新型软件对创业公司来说是一个巨大的机遇。本文根据作者在 BBN 实验室的演讲整理而成。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "6f9f07199f940b255a3b982afc5129acdc0faa3dd0a3e76e5c7aeba834ac0489",
+      "enMarkdown": "In the summer of 1995, my friend Robert Morris and I decided to start a startup. The PR campaign leading up to Netscape's IPO was running full blast then, and there was a lot of talk in the press about online commerce. At the time there might have been thirty actual stores on the Web, all made by hand. If there were going to be a lot of online stores, there would need to be software for making them, so we decided to write some.",
+      "zhMarkdown": "1995 年夏天，我和朋友罗伯特·莫里斯（Robert Morris）决定成立一家创业公司。当时 Netscape 首次公开募股（IPO）的前期公关宣传正铺天盖地，媒体上到处都在谈论网络商务。而那时整个万维网上可能只有大约 30 家真正的商店，而且全是手工搭建的。如果未来会有大量的网上商店，那就需要有软件来制作它们，于是我们决定写一个这样的软件。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "055ad824f3ad4c86a0b5ec9270d6b9cec3734115d9b2898f9dc2aae40b161dc5",
+      "enMarkdown": "For the first week or so we intended to make this an ordinary desktop application. Then one day we had the idea of making the software run on our Web server, using the browser as an interface. We tried rewriting the software to work over the Web, and it was clear that this was the way to go. If we wrote our software to run on the server, it would be a lot easier for the users and for us as well.",
+      "zhMarkdown": "在第一周左右的时间里，我们本打算把它做成一个普通的桌面应用程序。直到有一天，我们萌生了一个想法：让软件运行在我们的 Web 服务器上，并以浏览器作为界面。我们尝试重写软件使其通过网络运行，很明显，这才是可行的方向。如果我们的软件运行在服务器上，无论是对用户还是对我们自己来说，都会省去太多麻烦。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "ad07ad1af1d5e3fe2b9ad85eb3ba03fbfc4fad91382154b04a65401aa854b802",
+      "enMarkdown": "This turned out to be a good plan. Now, as [Yahoo Store](http://store.yahoo.com), this software is the most popular online store builder, with about 14,000 users.",
+      "zhMarkdown": "事实证明，这是一个极好的计划。现在，这个软件作为 [Yahoo Store](http://store.yahoo.com)，已经成为了最受欢迎的网上开店工具，拥有大约 14,000 名用户。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "8d06fa93f9148ee548256b927c2423c829df47a98705d5215c2069342587dccf",
+      "enMarkdown": "When we started Viaweb, hardly anyone understood what we meant when we said that the software ran on the server. It was not until Hotmail was launched a year later that people started to get it. Now everyone knows that this is a valid approach. There is a name now for what we were: an Application Service Provider, or ASP.",
+      "zhMarkdown": "在我们创立 Viaweb 之初，几乎没人明白我们所说的“软件运行在服务器上”是什么意思。直到一年后 Hotmail 推出，人们才开始开窍。现在大家都知道这是一种行之有效的方法。我们当年所代表的这种模式现在有了一个名字：应用服务提供商，简称 ASP。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "7c275af270fb12371953b0ffe895fe9d674d432daf79592365917a9f3de5d811",
+      "enMarkdown": "I think that a lot of the next generation of software will be written on this model. Even Microsoft, who have the most to lose, seem to see the inevitablity of moving some things off the desktop. If software moves off the desktop and onto servers, it will mean a very different world for developers. This article describes the surprising things we saw, as some of the first visitors to this new world. To the extent software does move onto servers, what I'm describing here is the future.",
+      "zhMarkdown": "我认为下一代软件的很大一部分将基于这种模式编写。即使是利益受损最严重的微软，似乎也看到了将某些东西移出桌面端的必然性。如果软件从桌面端转移到服务器端，对开发者来说将意味着一个完全不同的世界。本文描述了作为这个新世界的首批探访者，我们所看到的那些令人惊讶的景象。在软件向服务器端迁移的趋势下，我在此描述的正是未来。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "204171f6b1aef3401b9a3dd2697c064195faaa136e54fc0c66096cda22c1364a",
+      "enMarkdown": "**The Next Thing?**",
+      "zhMarkdown": "**下一件大事？**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c7b863993aae800a152b74f8546f8381aa8b8aa9410ffceaca30354c62a863ce",
+      "enMarkdown": "When we look back on the desktop software era, I think we'll marvel at the inconveniences people put up with, just as we marvel now at what early car owners put up with. For the first twenty or thirty years, you had to be a car expert to own a car. But cars were such a big win that lots of people who weren't car experts wanted to have them as well.",
+      "zhMarkdown": "当我们回顾桌面软件时代时，我想我们会惊讶于人们当时忍受的种种不便，就像我们现在惊讶于早期汽车拥有者所忍受的一切一样。在最初的二三十年里，你必须成为汽车专家才能拥有一辆车。但汽车带来的好处实在太大了，以至于许多根本不是汽车专家的人也渴望拥有一辆。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "2cc9340c5ad4655a53aee9a1eb3e3a49b3bf800ee8f5f49839497731b08b380c",
+      "enMarkdown": "Computers are in this phase now. When you own a desktop computer, you end up learning a lot more than you wanted to know about what's happening inside it. But more than half the households in the US own one. My mother has a computer that she uses for email and for keeping accounts. About a year ago she was alarmed to receive a letter from Apple, offering her a discount on a new version of the operating system. There's something wrong when a sixty-five year old woman who wants to use a computer for email and accounts has to think about installing new operating systems. Ordinary users shouldn't even know the words \"operating system,\" much less \"device driver\" or \"patch.\"",
+      "zhMarkdown": "电脑现在正处于这个阶段。当你拥有一台桌面电脑时，你最终学到的关于电脑内部运行的知识，远比你想知道的要多得多。但在美国，超过半数的家庭都拥有一台电脑。我母亲有一台电脑，用来收发电子邮件和记账。大约一年前，她惊慌地收到苹果公司的一封信，向她提供新版操作系统的折扣。当一个只想用电脑收发邮件和记账的 65 岁老妇人不得不考虑安装新的操作系统时，这事情显然不对劲。普通用户甚至不应该知道“操作系统”这个词，更不用说“设备驱动程序”或“补丁”了。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "419fdc8829dc927b8409faac3aec00d1325501139c57f5c0cfed665a187da323",
+      "enMarkdown": "There is now another way to deliver software that will save users from becoming system administrators. Web-based applications are programs that run on Web servers and use Web pages as the user interface. For the average user this new kind of software will be easier, cheaper, more mobile, more reliable, and often more powerful than desktop software.",
+      "zhMarkdown": "现在有了另一种交付软件的方式，可以让用户免于成为系统管理员。基于 Web 的应用程序是运行在 Web 服务器上、并使用网页作为用户界面的程序。对于普通用户来说，这种新型软件将比桌面软件更方便、更便宜、更具移动性、更可靠，而且往往更强大。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "77d4dc952c2062c698d262df7dff3b4aa75b81daf0788f62eeaa8be96913f8df",
+      "enMarkdown": "With Web-based software, most users won't have to think about anything except the applications they use. All the messy, changing stuff will be sitting on a server somewhere, maintained by the kind of people who are good at that kind of thing. And so you won't ordinarily need a computer, per se, to use software. All you'll need will be something with a keyboard, a screen, and a Web browser. Maybe it will have wireless Internet access. Maybe it will also be your cell phone. Whatever it is, it will be consumer electronics: something that costs about $200, and that people choose mostly based on how the case looks. You'll pay more for Internet services than you do for the hardware, just as you do now with telephones. [1]",
+      "zhMarkdown": "有了基于 Web 的软件，大多数用户除了他们使用的应用程序之外，什么都不用考虑。所有混乱、不断变化的东西都会存放在某处的服务器上，由擅长此类事务的专业人员来维护。因此，你通常不需要一台电脑本身来使用软件。你只需要一个带有键盘、屏幕和 Web 浏览器的东西。也许它有无线互联网接入。也许它同时也是你的手机。无论它是什么，它都将是消费电子产品：价值约 200 美元，人们主要根据外观来选择。你花在互联网服务上的钱会比花在硬件上的钱还要多，就像你现在用电话一样。[1]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "316c0f2c7d6070356196ed1a4340ce211a21f1ef1eb6228e9f42bdfb5f18b139",
+      "enMarkdown": "It will take about a tenth of a second for a click to get to the server and back, so users of heavily interactive software, like Photoshop, will still want to have the computations happening on the desktop. But if you look at the kind of things most people use computers for, a tenth of a second latency would not be a problem. My mother doesn't really need a desktop computer, and there are a lot of people like her.",
+      "zhMarkdown": "一次点击传输到服务器并返回大约需要十分之一秒，因此像 Photoshop 这样高度交互式软件的用户，仍然会希望计算在桌面端进行。但如果你看看大多数人使用电脑做什么，十分之一秒的延迟根本不是问题。我母亲并不真的需要一台桌面电脑，而且有很多人和她一样。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "7177b82eee8c3363f014d7eb145d261b860ef5a86950344d450fb63a9aae955f",
+      "enMarkdown": "**The Win for Users**",
+      "zhMarkdown": "**用户的终极福祉**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "27105edd33e1e72d1e70dd03faafa5ea838f4937fa1e82720bd22396162a146d",
+      "enMarkdown": "Near my house there is a car with a bumper sticker that reads \"death before inconvenience.\" Most people, most of the time, will take whatever choice requires least work. If Web-based software wins, it will be because it's more convenient. And it looks as if it will be, for users and developers both.",
+      "zhMarkdown": "在我家附近有一辆车，车贴上写着“宁死也不要麻烦”。大多数人在大多数时候都会选择最省事的方案。如果基于 Web 的软件能赢，那是因为它更方便。而且看起来，对用户和开发者双方来说，确实都是如此。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "e40091e11dc8cb9538533a9f53ab68ab4fc1b1fd5b14dd93687f9568bb013403",
+      "enMarkdown": "To use a purely Web-based application, all you need is a browser connected to the Internet. So you can use a Web-based application anywhere. When you install software on your desktop computer, you can only use it on that computer. Worse still, your files are trapped on that computer. The inconvenience of this model becomes more and more evident as people get used to networks.",
+      "zhMarkdown": "要使用纯 Web 应用程序，你只需要一个连接到互联网的浏览器。因此，你可以在任何地方使用 Web 应用程序。当你在桌面电脑上安装软件时，你只能在那台电脑上使用它。更糟糕的是，你的文件也被困在那台电脑里。随着人们对网络的习惯，这种模式的不便之处变得越来越明显。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "d69c543d38df0e96c93826332923b88d671fa7d4c2ba6533be38c139dd9a21a7",
+      "enMarkdown": "The thin end of the wedge here was Web-based email. Millions of people now realize that you should have access to email messages no matter where you are. And if you can see your email, why not your calendar? If you can discuss a document with your colleagues, why can't you edit it? Why should any of your data be trapped on some computer sitting on a faraway desk?",
+      "zhMarkdown": "这一趋势的突破口是基于 Web 的电子邮件。现在数百万人意识到，无论你身在何处，都应该能查收电子邮件。既然能看邮件，为什么不能看日历呢？既然能和同事讨论文档，为什么不能直接编辑它呢？为什么你的任何数据都要被困在远方书桌上的某台电脑里？"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "3bcb2ffe162eae01a93915b9292b51ab0e76df9fbc3bcb8c1c86375d913882ba",
+      "enMarkdown": "The whole idea of \"your computer\" is going away, and being replaced with \"your data.\" You should be able to get at your data from any computer. Or rather, any client, and a client doesn't have to be a computer.",
+      "zhMarkdown": "“你的电脑”这一整个概念正在消逝，取而代之的是“你的数据”。你应该能够从任何电脑上获取你的数据。或者更确切地说，任何客户端，而客户端不一定非得是电脑。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "965b022aa9172f734ea8091806d15ffcbb04d046bc3f39d763d17efe18a91734",
+      "enMarkdown": "Clients shouldn't store data; they should be like telephones. In fact they may become telephones, or vice versa. And as clients get smaller, you have another reason not to keep your data on them: something you carry around with you can be lost or stolen. Leaving your PDA in a taxi is like a disk crash, except that your data is handed to [someone else](http://news.zdnet.co.uk/business/0,39020645,2077931,00.htm) instead of being vaporized.",
+      "zhMarkdown": "客户端不应该存储数据，它们应该像电话一样。事实上，它们可能会变成电话，反之亦然。随着客户端变得越来越小，你有了另一个不把数据存在上面的理由：你随身携带的东西可能会丢失或被盗。把你的 PDA 落在出租车上就像一次硬盘崩溃，只不过你的数据不是人间蒸发，而是直接交到了[别人](http://news.zdnet.co.uk/business/0,39020645,2077931,00.htm)手里。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "ed5415864e7219cf8f53099d9a698c7d0de2773fb69e98b683203eed079b346a",
+      "enMarkdown": "With purely Web-based software, neither your data nor the applications are kept on the client. So you don't have to install anything to use it. And when there's no installation, you don't have to worry about installation going wrong. There can't be incompatibilities between the application and your operating system, because the software doesn't run on your operating system.",
+      "zhMarkdown": "使用纯 Web 软件，你的数据和应用程序都不保留在客户端上。所以你不需要安装任何东西就能使用它。既然没有安装过程，你就不必担心安装出错。应用程序和你的操作系统之间不可能存在兼容性问题，因为软件根本不在你的操作系统上运行。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "4ccc0b13b7ce65eeaf421713ddfd2ebe03fbf2b38bf7649272a76e51285d1868",
+      "enMarkdown": "Because it needs no installation, it will be easy, and common, to try Web-based software before you \"buy\" it. You should expect to be able to test-drive any Web-based application for free, just by going to the site where it's offered. At Viaweb our whole site was like a big arrow pointing users to the test drive.",
+      "zhMarkdown": "因为它不需要安装，所以在你“购买”之前尝试基于 Web 的软件会变得非常容易和普遍。你应该能够免费试用任何基于 Web 的应用程序，只需访问提供它的网站即可。在 Viaweb，我们的整个网站就像一个指向试用版的大箭头，引导着用户。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "b5886b07f6cbe9b9fa3da60e80508f52e30dfd2107b22ccc48cbfc14b3fde5eb",
+      "enMarkdown": "After trying the demo, signing up for the service should require nothing more than filling out a brief form (the briefer the better). And that should be the last work the user has to do. With Web-based software, you should get new releases without paying extra, or doing any work, or possibly even knowing about it.",
+      "zhMarkdown": "试用演示版后，注册服务应该只需要填写一份简短的表单（越简短越好）。这应该是用户需要做的最后一项工作。有了基于 Web 的软件，你应该能免费获得新版本，而不需要支付额外费用，不需要做任何工作，甚至可能根本不知情。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "eb0bbabeba74d9621ecc7725feff139e5b37282c1cfb84280b1c6c2c8b391511",
+      "enMarkdown": "Upgrades won't be the big shocks they are now. Over time applications will quietly grow more powerful. This will take some effort on the part of the developers. They will have to design software so that it can be updated without confusing the users. That's a new problem, but there are ways to solve it.",
+      "zhMarkdown": "升级将不再像现在这样带来巨大的冲击。随着时间的推移，应用程序会悄无声息地变得更加强大。这需要开发者付出一些努力。他们必须精心设计软件，以便在更新时不会让用户感到困惑。这是一个新问题，但有办法解决。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "29d111e61a74638b260068995761f7b16a48640fedcdee93479c3a42ed62c4c0",
+      "enMarkdown": "With Web-based applications, everyone uses the same version, and bugs can be fixed as soon as they're discovered. So Web-based software should have far fewer bugs than desktop software. At Viaweb, I doubt we ever had ten known bugs at any one time. That's orders of magnitude better than desktop software.",
+      "zhMarkdown": "使用基于 Web 的应用程序，每个人都使用相同的版本，而且 Bug 一经发现就可以立即修复。因此，基于 Web 的软件中的 Bug 应该比桌面软件少得多。在 Viaweb，我怀疑我们任何时候已知的 Bug 都没有超过十个。这比桌面软件好上几个数量级。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "118a754becadebbe0591b1e892d8a10487bf1ef9527ba968368cccc99c1d6f5a",
+      "enMarkdown": "Web-based applications can be used by several people at the same time. This is an obvious win for collaborative applications, but I bet users will start to want this in most applications once they realize it's possible. It will often be useful to let two people edit the same document, for example. Viaweb let multiple users edit a site simultaneously, more because that was the right way to write the software than because we expected users to want to, but it turned out that many did.",
+      "zhMarkdown": "基于 Web 的应用程序可以由几个人同时使用。这对于协作类应用来说是显而易见的优势，但我敢打赌，用户一旦意识到这是可行的，就会开始希望在大多数应用程序中都能拥有这种功能。例如，让两个人同时编辑同一个文档通常会非常有用。Viaweb 允许协同编辑网站，这更多是因为这是编写该软件的正确方式，而不是因为我们预料到用户会有这个需求，但事实证明，许多用户确实需要。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "e046dc890c947e4458322cb86f49ef6003f78c8a66c0564d370186e6f6a313f4",
+      "enMarkdown": "When you use a Web-based application, your data will be safer. Disk crashes won't be a thing of the past, but users won't hear about them anymore. They'll happen within server farms. And companies offering Web-based applications will actually do backups-- not only because they'll have real system administrators worrying about such things, but because an ASP that does lose people's data will be in big, big trouble. When people lose their own data in a disk crash, they can't get that mad, because they only have themselves to be mad at. When a company loses their data for them, they'll get a lot madder.",
+      "zhMarkdown": "当你使用基于 Web 的应用程序时，你的数据会更安全。硬盘崩溃不会成为历史，但用户将不再会听到它们。崩溃将发生在服务器集群内部。而提供基于 Web 应用程序的公司实际上会做备份——不仅因为他们有真正的系统管理员在操心这些事，还因为一个丢失用户数据的 ASP 将面临极大的麻烦。当人们因为硬盘崩溃而丢失自己的数据时，他们不会那么生气，因为他们只能怪自己。但如果是一家公司帮他们弄丢了数据，他们会愤怒得多。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "5a4f7d7a067492f87374c192bc2b2ef0c47e596a0f034016b8cbf0a21bc71c87",
+      "enMarkdown": "Finally, Web-based software should be less vulnerable to viruses. If the client doesn't run anything except a browser, there's less chance of running viruses, and no data locally to damage. And a program that attacked the servers themselves should find them very well defended. [2]",
+      "zhMarkdown": "最后，基于 Web 的软件应该不易受到病毒的侵害。如果客户端除了浏览器什么都不运行，那么运行病毒的机会就更少，本地也没有可损坏的数据。而攻击服务器本身的程序会发现服务器防守严密。[2]"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "dfce074002bd856f2106bc29fd6f91e534a0cbec34941018b2318fe97f7c8db4",
+      "enMarkdown": "For users, Web-based software will be *less stressful.* I think if you looked inside the average Windows user you'd find a huge and pretty much untapped desire for software meeting that description. Unleashed, it could be a powerful force.",
+      "zhMarkdown": "对用户来说，基于 Web 的软件会让他们*感到更轻松*。我想，如果你窥探一个普通 Windows 用户的内心，你会发现他们对于符合这一描述的软件有着巨大且几乎未被开发的渴望。一旦释放出来，这将是一股强大的力量。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "88629757a5ea43f9542c04ad88af0339e2ebc88feb42e32160c975aede73b485",
+      "enMarkdown": "**City of Code**",
+      "zhMarkdown": "**代码之城**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "91494bdd68b70a0679e0ce88bbff264b740a82b2a7d6784d617997b9a324b95d",
+      "enMarkdown": "To developers, the most conspicuous difference between Web-based and desktop software is that a Web-based application is not a single piece of code. It will be a collection of programs of different types rather than a single big binary. And so designing Web-based software is like desiging a city rather than a building: as well as buildings you need roads, street signs, utilities, police and fire departments, and plans for both growth and various kinds of disasters.",
+      "zhMarkdown": "对开发者而言，基于 Web 的软件与桌面软件之间最显著的区别在于，基于 Web 的应用程序不是单一的代码。它将是一组不同类型的程序，而不是一个单一的庞大二进制文件。因此，设计基于 Web 的软件就像设计一座城市，而不是设计一栋建筑：除了建筑之外，你还需要道路、路标、公共设施、警察和消防部门，以及应对增长和各种灾难的计划。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "aa4fafcff75f782fdf2144febb652efdf1f683d4ff71db029dc442b86712efe6",
+      "enMarkdown": "At Viaweb, software included fairly big applications that users talked to directly, programs that those programs used, programs that ran constantly in the background looking for problems, programs that tried to restart things if they broke, programs that ran occasionally to compile statistics or build indexes for searches, programs we ran explicitly to garbage-collect resources or to move or restore data, programs that pretended to be users (to measure performance or expose bugs), programs for diagnosing network troubles, programs for doing backups, interfaces to outside services, software that drove an impressive collection of dials displaying real-time server statistics (a hit with visitors, but indispensable for us too), modifications (including bug fixes) to open-source software, and a great many configuration files and settings. Trevor Blackwell wrote a spectacular program for moving stores to new servers across the country, without shutting them down, after we were bought by Yahoo. Programs paged us, sent faxes and email to users, conducted transactions with credit card processors, and talked to one another through sockets, pipes, http requests, ssh, udp packets, shared memory, and files. Some of Viaweb even consisted of the absence of programs, since one of the keys to Unix security is not to run unnecessary utilities that people might use to break into your servers.",
+      "zhMarkdown": "在 Viaweb，软件包括：用户直接交互的相当庞大的应用程序、这些程序调用的程序、在后台持续运行以寻找问题的程序、如果出错尝试重启服务的程序、偶尔运行以统计数据或建立搜索索引的程序、我们专门运行来回收资源或移动/恢复数据的程序、模拟用户的程序（用于评估性能或暴露 Bug）、诊断网络故障的程序、做备份的程序、外部服务的接口、驱动一组实时显示服务器统计数据的仪表盘软件（很受访客欢迎，但对我们来说也必不可少）、对开源软件的修改（包括 Bug 修复），以及大量的配置文件和设置。在我们被雅虎收购后，特雷弗·布莱克威尔（Trevor Blackwell）写了一个非常棒的程序，可以在不关闭店铺的情况下，将店铺搬迁到全国各地的新服务器上。程序会呼叫我们、向用户发送传真和电子邮件、与信用卡清算机构进行交易，并通过套接字（sockets）、管道（pipes）、http 请求、ssh、udp 数据包、共享内存和文件进行相互通信。Viaweb 的某些部分甚至是由“没有程序”构成的，因为 Unix 安全的关键之一就是不运行可能被人们用来入侵服务器的无用工具。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "a368a8077d2722b744169ad82faffd2b6bb2d515a19ee9925dfc3d27d0c000b5",
+      "enMarkdown": "It did not end with software. We spent a lot of time thinking about server configurations. We built the servers ourselves, from components-- partly to save money, and partly to get exactly what we wanted. We had to think about whether our upstream ISP had fast enough connections to all the backbones. We serially [dated](http://groups.google.com/groups?selm=6hdipo%243o0%241%40FreeBSD.csie.NCTU.edu.tw) RAID suppliers.",
+      "zhMarkdown": "这并没有止步于软件。我们花了很多时间思考服务器配置。我们自己用零组件组装了服务器——部分是为了省钱，部分是为了完全得到我们想要的东西。我们必须考虑我们的上游 ISP 是否与所有骨干网都有足够快的连接。我们还接二连三地[约会](http://groups.google.com/groups?selm=6hdipo%243o0%241%40FreeBSD.csie.NCTU.edu.tw)了不同的 RAID 供应商。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "917ebc2e6c9a19f2d966eb8369b399f5fd28f600b821575e81bd3a5e0f47dcc8",
+      "enMarkdown": "But hardware is not just something to worry about. When you control it you can do more for users. With a desktop application, you can specify certain minimum hardware, but you can't add more. If you administer the servers, you can in one step enable all your users to page people, or send faxes, or send commands by phone, or process credit cards, etc, just by installing the relevant hardware. We always looked for new ways to add features with hardware, not just because it pleased users, but also as a way to distinguish ourselves from competitors who (either because they sold desktop software, or resold Web-based applications through ISPs) didn't have direct control over the hardware.",
+      "zhMarkdown": "但硬件不仅仅是让人操心的东西。当你控制了它，你就能为用户做更多的事情。对于桌面应用程序，你可以指定某些最低硬件配置，但你无法添加更多。如果你管理服务器，你只需安装相关硬件，就可以一步到位地让所有用户呼叫他人、发送传真、通过电话发送指令或处理信用卡等。我们一直在寻找通过硬件增加新功能的方法，不仅因为这能取悦用户，还因为这能将我们与竞争对手区分开来，因为竞争对手（要么因为他们销售桌面软件，要么因为他们通过 ISP 转售基于 Web 的应用）无法直接控制硬件。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "b260885a3dcdcd20334e1de94c55326f66dbff9533e287e9d8e9f008171afe3a",
+      "enMarkdown": "Because the software in a Web-based application will be a collection of programs rather than a single binary, it can be written in any number of different languages. When you're writing desktop software, you're practically forced to write the application in the same language as the underlying operating system-- meaning C and C++. And so these languages (especially among nontechnical people like managers and VCs) got to be considered as the languages for \"serious\" software development. But that was just an artifact of the way desktop software had to be delivered. For server-based software you can use any language you want. [3] Today a lot of the top hackers are using languages far removed from C and C++: Perl, Python, and even Lisp.",
+      "zhMarkdown": "因为基于 Web 的应用中的软件将是一组程序的集合，而不是单一的二进制文件，所以它可以用任意数量的不同语言编写。当你编写桌面软件时，你实际上被迫使用与底层操作系统相同的语言来编写应用程序——这意味着 C 和 C++。因此，这些语言（特别是在经理和 VC 等非技术人员中）开始被视为“严肃”软件开发的语言。但这只是桌面软件交付方式带来的一种假象。对于基于服务器的软件，你可以使用任何你想用的语言。[3] 如今，许多顶尖的黑客都在使用远离 C 和 C++ 的语言：Perl、Python 甚至 Lisp。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "cf2b74f9486029a5c3e527c66d6d8af09812c2bd1dd46ed709b605b8a3f88cf7",
+      "enMarkdown": "With server-based software, no one can tell you what language to use, because you control the whole system, right down to the hardware. Different languages are good for different tasks. You can use whichever is best for each. And when you have competitors, \"you can\" means \"you must\" (we'll return to this later), because if you don't take advantage of this possibility, your competitors will.",
+      "zhMarkdown": "有了基于服务器的软件，没人能告诉你该用什么语言，因为你控制了整个系统，一直到硬件。不同的语言适合不同的任务。你可以为每个任务选择最合适的那种。而当你有了竞争对手，“你可以”就意味着“你必须”（我们稍后会回到这一点），因为如果你不利用这种可能性，你的竞争对手就会利用。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "9be2a5f027b7776e31a22a4fa1a45a0be55b0be521fa860d9ab9d876e5b36261",
+      "enMarkdown": "Most of our competitors used C and C++, and this made their software visibly inferior because (among other things), they had no way around the statelessness of CGI scripts. If you were going to change something, all the changes had to happen on one page, with an Update button at the bottom. As I've written elsewhere, by using [Lisp](https://paulgraham.com/avg.html), which many people still consider a research language, we could make the Viaweb editor behave more like desktop software.",
+      "zhMarkdown": "我们的绝大多数竞争对手都使用 C 和 C++，这使得他们的软件明显逊色，因为（除其他原因外）他们无法绕过 CGI 脚本的无状态性。如果你要修改什么，所有的修改都必须发生在一个页面上，底部配有一个“更新”按钮。正如我在别处所写的，通过使用许多人仍视为研究性语言的 [Lisp](https://paulgraham.com/avg.html)，我们可以使 Viaweb 编辑器的行为更像桌面软件。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "3ad080f79c536611bb9bd2f291595347f7eb6bab6a5fb1108603c12be231eafe",
+      "enMarkdown": "**Releases**",
+      "zhMarkdown": "**发布**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "60eedebe6547e871b2355c3ff954047651be9b77f6a6f4437210867c1e393ca5",
+      "enMarkdown": "One of the most important changes in this new world is the way you do releases. In the desktop software business, doing a release is a huge trauma, in which the whole company sweats and strains to push out a single, giant piece of code. Obvious comparisons suggest themselves, both to the process and the resulting product.",
+      "zhMarkdown": "在这个新世界中，最重要的变化之一是你进行发布的方式。在桌面软件行业，发布新版本是一次巨大的创伤，整个公司都要汗流浃背、竭尽全力去推出一个单一的、庞大的代码。人们自然会产生显而易见的联想，无论是对过程还是对最终的产品。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "49c801c11f1f0987ffad3a49eb0050c5fb72a4be93a3bb404cb49cb7b43a561c",
+      "enMarkdown": "With server-based software, you can make changes almost as you would in a program you were writing for yourself. You release software as a series of incremental changes instead of an occasional big explosion. A typical desktop software company might do one or two releases a year. At Viaweb we often did three to five releases a day.",
+      "zhMarkdown": "而使用基于服务器的软件，你可以像为自己写程序一样去修改代码。你将软件作为一系列渐进式的修改来发布，而不是偶尔来一次大爆炸。一个典型的桌面软件公司可能一年发布一到两个版本。而在 Viaweb，我们经常一天发布三到五次。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "0f4d1ca86b3bcb2a6a698bb01157c4af9b343bb3b717f55de7fced289494eb6e",
+      "enMarkdown": "When you switch to this new model, you realize how much software development is affected by the way it is released. Many of the nastiest problems you see in the desktop software business are due to catastrophic nature of releases.",
+      "zhMarkdown": "当你切换到这种新模式时，你会意识到软件开发受其发布方式的影响有多大。你在桌面软件行业中看到的许多最棘手的问题，都是由于发布的灾难性本质造成的。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "d2ae9f9e542e24b024237860344c13c226f2af72e3d7beae8513c5c5980de8a0",
+      "enMarkdown": "When you release only one new version a year, you tend to deal with bugs wholesale. Some time before the release date you assemble a new version in which half the code has been torn out and replaced, introducing countless bugs. Then a squad of QA people step in and start counting them, and the programmers work down the list, fixing them. They do not generally get to the end of the list, and indeed, no one is sure where the end is. It's like fishing rubble out of a pond. You never really know what's happening inside the software. At best you end up with a statistical sort of correctness.",
+      "zhMarkdown": "当你一年只发布一个新版本时，你往往会批量处理 Bug。在发布日期之前的某个时间，你组装了一个新版本，其中一半的代码被扯掉并替换，从而引入了无数的 Bug。然后，一队 QA 人员介入并开始清点它们，程序员则对照列表逐一修复。他们通常无法清空列表，事实上，没人确定列表的尽头在哪里。这就像在池塘里捞碎石。你永远无法真正知道软件内部在发生什么。在最好的情况下，你最终得到的是一种统计学上的正确性。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "a03cee9774eed5b789ffabf349cb21314914d99396620ab5ff428a6edcd023b5",
+      "enMarkdown": "With server-based software, most of the change is small and incremental. That in itself is less likely to introduce bugs. It also means you know what to test most carefully when you're about to release software: the last thing you changed. You end up with a much firmer grip on the code. As a general rule, you do know what's happening inside it. You don't have the source code memorized, of course, but when you read the source you do it like a pilot scanning the instrument panel, not like a detective trying to unravel some mystery.",
+      "zhMarkdown": "有了基于服务器的软件，大部分修改都是微小且渐进的。这本身就不太可能引入 Bug。这也意味着当你即将发布软件时，你清楚知道最需要仔细测试的是什么：你刚刚修改的最后一样东西。你最终对代码有了更牢固的掌控。通常情况下，你确实知道它内部发生了什么。当然，你没有把源代码背下来，但当你阅读源码时，你就像飞行员扫视仪表盘一样，而不是像侦探试图解开某个谜团。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "382aacc7323e11c0d6db4f284ed16c9a010c85893d1f9a900147f5db5d641352",
+      "enMarkdown": "Desktop software breeds a certain fatalism about bugs. You know that you're shipping something loaded with bugs, and you've even set up mechanisms to compensate for it (e.g. patch releases). So why worry about a few more? Soon you're releasing whole features you know are broken. [Apple](http://news.cnet.com/news/0-1006-200-5195914.html) did this earlier this year. They felt under pressure to release their new OS, whose release date had already slipped four times, but some of the software (support for CDs and DVDs) wasn't ready. The solution? They released the OS without the unfinished parts, and users will have to install them later.",
+      "zhMarkdown": "桌面软件孕育了对 Bug 的某种宿命论。你知道你出货的东西里装满了 Bug，你甚至建立了一套机制来补偿它（例如发布补丁）。那么为什么还要担心多几个 Bug 呢？很快，你就会发布那些你明知有缺陷的完整功能。[苹果](http://news.cnet.com/news/0-1006-200-5195914.html)在今年早些时候就这么做了。他们感到有压力要发布他们的新操作系统，其发布日期已经跳票了四次，但部分软件（对 CD 和 DVD 的支持）还没准备好。解决方案？他们发布了没有未完成部分的操作系统，用户以后必须自行安装它们。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "d203cb8c6acdd3a2daf5137d0705e8bf98f4e84cfc61a74b57e93fe35f37415e",
+      "enMarkdown": "With Web-based software, you never have to release software before it works, and you can release it as soon as it does work.",
+      "zhMarkdown": "而有了基于 Web 的软件，你永远不需要在软件正常工作之前发布它，并且一旦它工作正常，你就可以立即发布它。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "dea261e915a399016d84bab9034a46511f93a799acabb035b842c753471e7c64",
+      "enMarkdown": "The industry veteran may be thinking, it's a fine-sounding idea to say that you never have to release software before it works, but what happens when you've promised to deliver a new version of your software by a certain date? With Web-based software, you wouldn't make such a promise, because there are no versions. Your software changes gradually and continuously. Some changes might be bigger than others, but the idea of versions just doesn't naturally fit onto Web-based software.",
+      "zhMarkdown": "行业老兵可能会想，说你永远不需要在软件正常工作之前发布它，这听起来很好，但当你承诺在某个特定日期交付软件的新版本时，会发生什么？对于基于 Web 的软件，你不会做出这样的承诺，因为没有版本。你的软件是渐进且持续变化的。某些修改可能比其他修改大，但版本的概念根本不自然地适合基于 Web 的软件。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "102d370070d186e93a327e07f6669cb3c7a8b0e39bb760f48a1797bc01eccd74",
+      "enMarkdown": "If anyone remembers Viaweb this might sound odd, because we were always announcing new versions. This was done entirely for PR purposes. The trade press, we learned, thinks in version numbers. They will give you major coverage for a major release, meaning a new first digit on the version number, and generally a paragraph at most for a point release, meaning a new digit after the decimal point.",
+      "zhMarkdown": "如果有人记得 Viaweb，这听起来可能很奇怪，因为我们一直在宣布新版本。这完全是为了公关目的。我们了解到，行业媒体是用版本号来思考的。他们会针对一个重大版本（意味着版本号的第一位数字发生变化）给你进行大篇幅报道，而对于一个小版本（意味着小数点后的数字发生变化），通常最多只给一个段落。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "b242df995892358d1b23fb249771d4d39cca8c5175211f2557d6e8b1421282d8",
+      "enMarkdown": "Some of our competitors were offering desktop software and actually had version numbers. And for these releases, the mere fact of which seemed to us evidence of their backwardness, they would get all kinds of publicity. We didn't want to miss out, so we started giving version numbers to our software too. When we wanted some publicity, we'd make a list of all the features we'd added since the last \"release,\" stick a new version number on the software, and issue a press release saying that the new version was available immediately. Amazingly, no one ever called us on it.",
+      "zhMarkdown": "我们的一些竞争对手提供桌面软件，并且确实有版本号。对于这些发布，仅仅是存在版本号这一事实，在我们看来就是他们落后的证据，但他们却因此获得了各种宣传。我们不想错失良机，所以我们也开始给我们的软件冠以版本号。当我们想要一些宣传时，我们会把自上次“发布”以来添加的所有功能列成一个清单，在软件上贴上一个新的版本号，并发布新闻稿，声称新版本立即可用。令人惊讶的是，从来没有人拆穿我们。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "7ab49612f2626fd4b2a9ec81581884fbfbd77cf9f962ba12a33617486d940ddd",
+      "enMarkdown": "By the time we were bought, we had done this three times, so we were on Version 4. Version 4.1 if I remember correctly. After Viaweb became Yahoo Store, there was no longer such a desperate need for publicity, so although the software continued to evolve, the whole idea of version numbers was quietly dropped.",
+      "zhMarkdown": "到我们被收购时，我们已经这样做过三次了，所以我们到了第 4 版。如果我没记错的话，是 4.1 版。在 Viaweb 变成 Yahoo Store 之后，不再有对宣传的极度渴望，所以尽管软件继续演进，版本号的整个概念就被悄悄放弃了。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "45bfe865411d712fa01ee28885f2af18e08ce5c2315f5628ecbb9f306fe64780",
+      "enMarkdown": "**Bugs**",
+      "zhMarkdown": "**Bug**"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "58692bdf948efd1f0eb33053c8c253949e8b76c99975f53d8ea223b3b2e24a7e",
+      "enMarkdown": "The other major technical advantage of Web-based software is that you can reproduce most bugs. You have the users' data right there on your disk. If someone breaks your software, you don't have to try to guess what's going on, as you would with desktop software: you should be able to reproduce the error while they're on the phone with you. You might even know about it already, if you have code for noticing errors built into your application.",
+      "zhMarkdown": "基于 Web 软件的另一个主要技术优势是，你可以重现大多数 Bug。用户的物理数据就在你的磁盘上。如果有人让你的软件崩溃了，你不需要像对待桌面软件那样去猜测发生了什么：你应该能在他们还在和你通话时就重现这个错误。如果你在应用程序中内置了检测错误的逻辑，你甚至可能已经知道了。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "8c7afb00b7ee38fea9a30ca52a4c3f53b2252ec623dcd9d944621e9241ca48ca",
+      "enMarkdown": "Web-based software gets used round the clock, so everything you do is immediately put through the wringer. Bugs turn up quickly.",
+      "zhMarkdown": "基于 Web 的软件全天候被使用，所以你做的每一件事都会立刻经受考验。Bug 会很快显现出来。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "965a820c59fd10db1ea5c1628f8ae7fe0308b1d3e0910855d3a1752f80c4fe21",
+      "enMarkdown": "Software companies are sometimes accused of letting the users debug their software. And that is just what I'm advocating. For Web-based software it's actually a good plan, because the bugs are fewer and transient. When you release software gradually you get far fewer bugs to start with. And when you can reproduce errors and release changes instantly, you can find and fix most bugs as soon as they appear. We never had enough bugs at any one time to bother with a formal bug-tracking system.",
+      "zhMarkdown": "软件公司有时会被指责让用户来调试他们的软件。而这恰恰是我所倡导的。对于基于 Web 的软件来说，这实际上是一个很好的计划，因为 Bug 更少且是暂时的。当你逐步发布软件时，一开始遇到的 Bug 就会少得多。而当你能重现错误并立即发布修改时，你就可以在大多数 Bug 出现时立刻找到并修复它们。我们从来没有在任何时候有过足够多的 Bug，以至于需要动用一个正式的 Bug 跟踪系统。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "def4721676195ad5057cc144ad00db0453aacae7b395651e89c40087b443041a",
+      "enMarkdown": "You should test changes before you release them, of course, so no major bugs should get released. Those few that inevitably slip through will involve borderline cases and will only affect the few users that encounter them before someone calls in to complain. As long as you fix bugs right away, the net effect, for the average user, is far fewer bugs. I doubt the average Viaweb user ever saw a bug.",
+      "zhMarkdown": "当然，你应该在发布修改之前进行测试，这样就不应该有重大的 Bug 被发布。那些不可避免漏掉的少数 Bug 将涉及边缘情况，并且只会影响到在有人打电话投诉之前遇到它们的少数用户。只要你立即修复 Bug，对于普通用户来说，最终的效果就是 Bug 少得多。我怀疑普通的 Viaweb 用户是否曾经见过 Bug。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "4f54b7418a0da8a31b6785451c26e0bc2703d8c0851816782d587a7885bf0041",
+      "enMarkdown": "Fixing fresh bugs is easier than fixing old ones. It's usually fairly quick to find a bug in code you just wrote. When it turns up you often know what's wrong before you even look at the source, because you were already worrying about it subconsciously. Fixing a bug in something you wrote six months ago (the average case if you release once a year) is a lot more work. And since you don't understand the code as well, you're more likely to fix it in an ugly way, or even introduce more bugs. [4]",
+      "zhMarkdown": "修复新鲜的 Bug 比修复陈旧的 Bug 容易。在刚刚写好的代码中寻找 Bug 通常相当快。当它出现时，你甚至在看源码之前往往就知道哪里出错了，因为你已经在潜意识里担心它了。修复你在六个月前写的代码中的 Bug（如果你一年发布一次，这是平均情况）要费劲得多。而且由于你对代码不那么了解了，你更有可能以一种丑陋的方式去修复它，甚至引入更多的 Bug。[4]"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "86d4d2a89f080029ddea0017054364c083dd4a85c15b0c432520b7ea59f0fb40",
+      "enMarkdown": "When you catch bugs early, you also get fewer compound bugs. Compound bugs are two separate bugs that interact: you trip going downstairs, and when you reach for the handrail it comes off in your hand. In software this kind of bug is the hardest to find, and also tends to have the worst consequences. [5] The traditional \"break everything and then filter out the bugs\" approach inherently yields a lot of compound bugs. And software that's released in a series of small changes inherently tends not to. The floors are constantly being swept clean of any loose objects that might later get stuck in something.",
+      "zhMarkdown": "当你及早捕获 Bug 时，你也会得到更少的复合 Bug。复合 Bug 是两个独立的 Bug 相互作用：你下楼时绊倒了，当你去抓扶手时，扶手直接脱落了。在软件中，这种 Bug 是最难找的，也往往会带来最坏的后果。[5] 传统的“把所有东西都弄乱，然后过滤出 Bug”的方法本质上会产生大量的复合 Bug。而通过一系列微小变化发布的软件本质上倾向于不产生这种 Bug。地板上随时会被扫除任何可能在以后卡住东西的杂物。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "67be060804eaad1a062d25272625fab3f1f9447e5730d9b97be8db625ab68edc",
+      "enMarkdown": "It helps if you use a technique called functional programming. Functional programming means avoiding side-effects. It's something you're more likely to see in research papers than commercial software, but for Web-based applications it turns out to be really useful. It's hard to write entire programs as purely functional code, but you can write substantial chunks this way. It makes those parts of your software easier to test, because they have no state, and that is very convenient in a situation where you are constantly making and testing small modifications. I wrote much of Viaweb's editor in this style, and we made our scripting language, [RTML](http://store.yahoo.com/rtml.html), a purely functional language.",
+      "zhMarkdown": "如果你使用一种名为函数式编程的技术，会有所帮助。函数式编程意味着避免副作用。这是你在研究论文中比在商业软件中更容易看到的东西，但对于基于 Web 的应用，事实证明它非常有用。很难将整个程序写成纯函数式代码，但你可以用这种方式编写大量的模块。它使你的软件的这些部分更容易测试，因为它们没有状态，这在需要不断进行和测试微小修改的情况下非常方便。我用这种风格编写了 Viaweb 编辑器的大部分内容，并且我们将我们的脚本语言 [RTML](http://store.yahoo.com/rtml.html) 做成了一种纯函数式语言。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "8581cde07030fa09b850454806ecd7ff905d9f46a5fde384753c06d952e0d770",
+      "enMarkdown": "People from the desktop software business will find this hard to credit, but at Viaweb bugs became almost a game. Since most released bugs involved borderline cases, the users who encountered them were likely to be advanced users, pushing the envelope. Advanced users are more forgiving about bugs, especially since you probably introduced them in the course of adding some feature they were asking for. In fact, because bugs were rare and you had to be doing sophisticated things to see them, advanced users were often proud to catch one. They would call support in a spirit more of triumph than anger, as if they had scored points off us.",
+      "zhMarkdown": "来自桌面软件行业的人会觉得这很难置信，但在 Viaweb，找 Bug 几乎变成了一场游戏。由于大多数发布的 Bug 都涉及边缘情况，遇到它们的往往是那些挑战极限的高级用户。高级用户对 Bug 更具包容性，尤其是因为你可能是在添加他们要求的某些功能的过程中引入这些 Bug 的。事实上，因为 Bug 很少见，而且你必须做一些复杂的操作才能看到它们，高级用户往往会因为抓到一个 Bug 而感到自豪。他们会以一种更像宣告胜利而非愤怒的态度致电支持部门，就好像他们从我们身上赢得了分数一样。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "185d6ab63653609b5590ca2f281ec88d20561f4cef256372b5b11f6f38981a36",
+      "enMarkdown": "**Support**",
+      "zhMarkdown": "**客户支持**"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "0b9f9401cc13a86648bb1db5d146d103e6570b232363857573f2ce3a9fdf50ce",
+      "enMarkdown": "When you can reproduce errors, it changes your approach to customer support. At most software companies, support is offered as a way to make customers feel better. They're either calling you about a known bug, or they're just doing something wrong and you have to figure out what. In either case there's not much you can learn from them. And so you tend to view support calls as a pain in the ass that you want to isolate from your developers as much as possible.",
+      "zhMarkdown": "当你能重现错误时，它会改变你对待客户支持的方式。在大多数软件公司，提供支持只是为了让客户感觉好受一些。他们要么是因为已知的 Bug 打电话给你，要么是因为他们自己操作错误，而你必须弄清楚原因。在这两种情况下，你都无法从他们那里学到太多东西。因此，你往往会把支持电话视为一种令人头疼的麻烦，希望尽可能地让它远离你的开发者。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "eabd4b5e9756e1b703deb24b4a947dc4de5b85b1636470e4caf4faf760022176",
+      "enMarkdown": "This was not how things worked at Viaweb. At Viaweb, support was free, because we wanted to hear from customers. If someone had a problem, we wanted to know about it right away so that we could reproduce the error and release a fix.",
+      "zhMarkdown": "这在 Viaweb 可不是这么运作的。在 Viaweb，支持是免费的，因为我们想听到客户的反馈。如果有人遇到了问题，我们希望立刻知道，以便重现错误并发布修复程序。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "1aeb5b8005eda295ac8994cced33a501c512171bef61aa8b9daf747c6f4e68d9",
+      "enMarkdown": "So at Viaweb the developers were always in close contact with support. The customer support people were about thirty feet away from the programmers, and knew that they could always interrupt anything with a report of a genuine bug. We would leave a board meeting to fix a serious bug.",
+      "zhMarkdown": "所以在 Viaweb，开发者总是与支持人员保持密切联系。客户支持人员距离程序员大约三十英尺，并且知道他们随时可以用真正的 Bug 报告来中断任何工作。为了修复一个严重的 Bug，我们会直接离开董事会会议。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "7c02b523b891945a27eb2f9a6e9972b21ce49597d31de77ca01be9062bbe769f",
+      "enMarkdown": "Our approach to support made everyone happier. The customers were delighted. Just imagine how it would feel to call a support line and be treated as someone bringing important news. The customer support people liked it because it meant they could help the users, instead of reading scripts to them. And the programmers liked it because they could reproduce bugs instead of just hearing vague second-hand reports about them.",
+      "zhMarkdown": "我们的支持方式让每个人都更快乐。客户感到非常高兴。试想一下，拨打支持热线，并被当成带来重要新闻的人，那感觉该有多棒。客户支持人员喜欢它，因为这意味着他们可以帮助用户，而不是对着他们读话术脚本。程序员也喜欢它，因为他们可以重现 Bug，而不是只听到模糊的二手报告。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "2f2258f2276526a01c7d4ddf7bf3ce1171c65cbcec277a243438d90df15ecb71",
+      "enMarkdown": "Our policy of fixing bugs on the fly changed the relationship between customer support people and hackers. At most software companies, support people are underpaid human shields, and hackers are little copies of God the Father, creators of the world. Whatever the procedure for reporting bugs, it is likely to be one-directional: support people who hear about bugs fill out some form that eventually gets passed on (possibly via QA) to programmers, who put it on their list of things to do. It was very different at Viaweb. Within a minute of hearing about a bug from a customer, the support people could be standing next to a programmer hearing him say \"Shit, you're right, it's a bug.\" It delighted the support people to hear that \"you're right\" from the hackers. They used to bring us bugs with the same expectant air as a cat bringing you a mouse it has just killed. It also made them more careful in judging the seriousness of a bug, because now their honor was on the line.",
+      "zhMarkdown": "我们即时修复 Bug 的政策改变了客户支持人员与黑客之间的关系。在大多数软件公司，支持人员是薪水微薄的人肉护盾，而黑客则是创造世界的上帝的化身。无论报告 Bug 的程序是什么，它很可能是单向的：听到 Bug 的支持人员填写某种表单，最终传递给程序员（可能通过 QA），程序员再将其放入他们的待办事项清单中。在 Viaweb 则完全不同。在从客户那里听说 Bug 的一分钟内，支持人员就可以站在程序员旁边，听到他说：“该死，你是对的，这确实是个 Bug。”听到黑客说出“你是对的”，让支持人员感到由衷的喜悦。他们以前带给我们 Bug 时的那种期待神情，就像一只猫带给你一只它刚刚咬死的耗子一样。这也使他们更仔细地判断 Bug 的严重性，因为现在他们的荣誉也押在上面了。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "e9ae5f76b9ce0181f85149b9284de17a0f5ef3aea02e0389ce74100243efa1a3",
+      "enMarkdown": "After we were bought by Yahoo, the customer support people were moved far away from the programmers. It was only then that we realized that they were effectively QA and to some extent marketing as well. In addition to catching bugs, they were the keepers of the knowledge of vaguer, buglike things, like features that confused users. [6] They were also a kind of proxy focus group; we could ask them which of two new features users wanted more, and they were always right.",
+      "zhMarkdown": "在我们被雅虎收购后，客户支持人员被搬到了离程序员很远的地方。直到那时我们才意识到，他们实际上也承担了 QA 的职责，在某种程度上还承担了市场营销的职责。除了抓 Bug 之外，他们还掌握着那些模糊的、类似 Bug 的问题（比如让用户感到困惑的功能）。[6] 他们也是一种代理焦点小组；我们可以问他们用户更想要两个新功能中的哪一个，而他们总是对的。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "6c4e22ef675d23ca41e2691945a454474784aa0026e9f3d16cdd24a4391f4f7b",
+      "enMarkdown": "**Morale**",
+      "zhMarkdown": "**士气**"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "798d207d019bf3f8556864b513a493a74d1cdede6c29737dac0811bd2a59d9a2",
+      "enMarkdown": "Being able to release software immediately is a big motivator. Often as I was walking to work I would think of some change I wanted to make to the software, and do it that day. This worked for bigger features as well. Even if something was going to take two weeks to write (few projects took longer), I knew I could see the effect in the software as soon as it was done.",
+      "zhMarkdown": "能够立即发布软件是一个巨大的动力。经常在步行上班时，我会想到一些我想对软件进行的修改，并在当天就把它实现。对于更大的功能，这也同样适用。即使某些东西需要花两周时间来写（极少有项目需要更长时间），我知道只要一写完，我就可以立即在软件中看到效果。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "ce1dc676bc414f1bb86eb71f31c83c581685a7ff50775834e2cdd924ca556c1f",
+      "enMarkdown": "If I'd had to wait a year for the next release, I would have shelved most of these ideas, for a while at least. The thing about ideas, though, is that they lead to more ideas. Have you ever noticed that when you sit down to write something, half the ideas that end up in it are ones you thought of while writing it? The same thing happens with software. Working to implement one idea gives you more ideas. So shelving an idea costs you not only that delay in implementing it, but also all the ideas that implementing it would have led to. In fact, shelving an idea probably even inhibits new ideas: as you start to think of some new feature, you catch sight of the shelf and think \"but I already have a lot of new things I want to do for the next release.\"",
+      "zhMarkdown": "如果我不得不为下一个版本等待一年，我至少会暂时搁置这些想法。然而，想法的奇妙之处在于，它们会催生更多的想法。你有没有注意到，当你坐下来写东西时，最终写进去的想法有一半是你在写作时想到的？软件开发也是如此。努力实现一个想法会给你带来更多的想法。因此，搁置一个想法不仅会让你在实现它时产生延迟，还会让你失去实现它本可以带来的所有后续想法。事实上，搁置一个想法甚至可能会抑制新想法：当你开始思考一些新功能时，你看到那个被搁置的架子，就会想“但我已经有很多新东西想在下一个版本中做了。”"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "6614ca978c75e1c6edb24fc7ffcb37e380bb43c4827bd8bde8c09e335b456dbc",
+      "enMarkdown": "What big companies do instead of implementing features is plan them. At Viaweb we sometimes ran into trouble on this account. Investors and analysts would ask us what we had planned for the future. The truthful answer would have been, we didn't have any plans. We had general ideas about things we wanted to improve, but if we knew how we would have done it already. What were we going to do in the next six months? Whatever looked like the biggest win. I don't know if I ever dared give this answer, but that was the truth. Plans are just another word for ideas on the shelf. When we thought of good ideas, we implemented them.",
+      "zhMarkdown": "大公司不实现功能，而是去规划它们。在 Viaweb，我们有时会因为这个原因陷入麻烦。投资者和分析师会问我们对未来的规划。真实的回答会是，我们没有任何规划。我们对想要改进的地方有一些大致的想法，但如果我们知道怎么做，我们早就做完了。我们在接下来的六个月里要做什么？做任何看起来收益最大的事情。我不知道我是否曾敢给出这个回答，但这就是事实。规划只是搁在架子上的想法的另一种说法。当我们想到好主意时，我们就去实现它们。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "b7e0d93e69b68b421118247c8ad0ff310a2c6ebc499daa407ec95187fe3a49b7",
+      "enMarkdown": "At Viaweb, as at many software companies, most code had one definite owner. But when you owned something you really owned it: no one except the owner of a piece of software had to approve (or even know about) a release. There was no protection against breakage except the fear of looking like an idiot to one's peers, and that was more than enough. I may have given the impression that we just blithely plowed forward writing code. We did go fast, but we thought very carefully before we released software onto those servers. And paying attention is more important to reliability than moving slowly. Because he pays close attention, a Navy pilot can land a 40,000 lb. aircraft at 140 miles per hour on a pitching carrier deck, at night, more safely than the average teenager can cut a bagel.",
+      "zhMarkdown": "在 Viaweb，和许多软件公司一样，大多数代码都有一个明确的负责人。但当你拥有某样东西时，你是真正地拥有它：除了一段软件的负责人之外，没人需要批准（甚至知晓）一次发布。除了害怕在同行面前显得像个白痴之外，没有任何防止出错的保护机制，而这已经绰绰有余了。我可能给人留下了这样一种印象：我们只是在盲目地向前写代码。我们确实走得很快，但在把软件发布到那些服务器上之前，我们思考得非常仔细。在可靠性方面，保持专注比放慢速度更重要。因为全神贯注，海军飞行员可以在夜间将一架 40,000 磅重的飞机以每小时 140 英里的速度降落在颠簸的航母甲板上，这比普通青少年切贝果还要安全。"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "bb253a4c2a0dad5b0b8a5ad2ec539ff11cf93bb7296649d680fddd6651f66eeb",
+      "enMarkdown": "This way of writing software is a double-edged sword of course. It works a lot better for a small team of good, trusted programmers than it would for a big company of mediocre ones, where bad ideas are caught by committees instead of the people that had them.",
+      "zhMarkdown": "当然，这种编写软件的方式是一把双刃剑。对于一个由优秀、可信赖的程序员组成的小型团队来说，它运作得非常好，但对于一个由平庸程序员组成的大公司来说，情况就大不相同了，在那里，坏主意是由委员会而不是产生这些坏主意的人来捕获的。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "2ef66079453d9d22a4ce28d88d3318ee22a80a5dae209e74f9cc2c77bd130880",
+      "enMarkdown": "**Brooks in Reverse**",
+      "zhMarkdown": "**反向布鲁克斯法则**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "c443f7f1dd849927a2be8002855b1fdbcb44235a17b03ca87578486af9fa61ab",
+      "enMarkdown": "Fortunately, Web-based software does require fewer programmers. I once worked for a medium-sized desktop software company that had over 100 people working in engineering as a whole. Only 13 of these were in product development. All the rest were working on releases, ports, and so on. With Web-based software, all you need (at most) are the 13 people, because there are no releases, ports, and so on.",
+      "zhMarkdown": "幸运的是，基于 Web 的软件确实需要更少的程序员。我曾在一家中等规模的桌面软件公司工作过，该公司整个工程部门有 100 多人。其中只有 13 人在做产品开发。其余所有人都在忙于发布、移植等工作。有了基于 Web 的软件，你（最多）只需要这 13 个人，因为没有发布、移植之类的事情。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "9defc61ccdf4afab84b5657682febe5b53aaa91acabcfcd65c75d375e0780d76",
+      "enMarkdown": "Viaweb was written by just three people. [7] I was always under pressure to hire more, because we wanted to get bought, and we knew that buyers would have a hard time paying a high price for a company with only three programmers. (Solution: we hired more, but created new projects for them.)",
+      "zhMarkdown": "Viaweb 仅由三个人写成。[7] 我一直面临着雇佣更多人的压力，因为我们想要被收购，而且我们知道买家很难为一家只有三个程序员的公司支付高昂的价格。（解决方案：我们雇了更多的人，但为他们创建了新的项目。）"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "a7786e1e298a3a587d4378ff600608ce02f229074ae9e144ed9c3dc6be760cd7",
+      "enMarkdown": "When you can write software with fewer programmers, it saves you more than money. As Fred Brooks pointed out in *The Mythical\nMan-Month,* adding people to a project tends to slow it down. The number of possible connections between developers grows exponentially with the size of the group. The larger the group, the more time they'll spend in meetings negotiating how their software will work together, and the more bugs they'll get from unforeseen interactions. Fortunately, this process also works in reverse: as groups get smaller, software development gets exponentially more efficient. I can't remember the programmers at Viaweb ever having an actual meeting. We never had more to say at any one time than we could say as we were walking to lunch.",
+      "zhMarkdown": "当你能用更少的程序员来编写软件时，你省下的不仅仅是钱。正如弗雷德·布鲁克斯（Fred Brooks）在《人月神话》中指出的那样，向项目中增加人手往往会拖慢进度。开发者之间可能存在的连接数量随着群体规模的增大呈指数级增长。团队越大，他们花在开会协商他们的软件将如何协同工作上的时间就越多，由于未预料到的交互而产生的 Bug 也就越多。幸运的是，这个过程也可以反向运作：随着团队变小，软件开发的效率呈指数级提高。我不记得 Viaweb 的程序员曾经开过一次正式的会议。我们在任何时候要说的话，从来没有多到在走去吃午饭的路上说不完。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "36c953362f8ad5ac7440770d30031b5417337f8f6139daa87d605169b1863231",
+      "enMarkdown": "If there is a downside here, it is that all the programmers have to be to some degree system administrators as well. When you're hosting software, someone has to be watching the servers, and in practice the only people who can do this properly are the ones who wrote the software. At Viaweb our system had so many components and changed so frequently that there was no definite border between software and infrastructure. Arbitrarily declaring such a border would have constrained our design choices. And so although we were constantly hoping that one day (\"in a couple months\") everything would be stable enough that we could hire someone whose job was just to worry about the servers, it never happened.",
+      "zhMarkdown": "如果说这里有什么弊端的话，那就是所有的程序员在某种程度上也必须是系统管理员。当你托管软件时，必须有人盯着服务器，而在实践中，唯一能妥善做到这一点的人就是写软件的人。在 Viaweb，我们的系统有太多的组件，且变化如此频繁，以至于软件和基础设施之间没有明确的界限。任意宣布这样一个界限会限制我们的设计选择。因此，尽管我们一直在期望有一天（“在几个月内”）一切都足够稳定，我们可以雇一个专门操心服务器的人，但这从未实现。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "5e84d42ea0a319be57478a4c6efbc811c6fc1f7abb01b5719e7216a3d90e9c51",
+      "enMarkdown": "I don't think it could be any other way, as long as you're still actively developing the product. Web-based software is never going to be something you write, check in, and go home. It's a live thing, running on your servers right now. A bad bug might not just crash one user's process; it could crash them all. If a bug in your code corrupts some data on disk, you have to fix it. And so on. We found that you don't have to watch the servers every minute (after the first year or so), but you definitely want to keep an eye on things you've changed recently. You don't release code late at night and then go home.",
+      "zhMarkdown": "只要你还在积极开发产品，我认为就不可能有别的方法。基于 Web 的软件永远不会是你写完、提交，然后回家睡觉的东西。它是一个活生生的东西，此时此刻就在你的服务器上运行。一个严重的 Bug 可能不仅会使一个用户的进程崩溃，还可能使他们所有人的进程崩溃。如果你代码中的一个 Bug 损坏了磁盘上的某些数据，你必须修复它，诸如此类。我们发现你不需要每分钟都盯着服务器（在第一年左右之后），但你绝对想密切关注你最近修改的内容。你不会在深夜发布代码然后直接回家。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "c2139f238be583daf77d0a1fcb05094f1f1aebd069c097a325ae4aa6b657370f",
+      "enMarkdown": "**Watching Users**",
+      "zhMarkdown": "**观察用户**"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "04a4c04542eb4d716cfa6173b4f8f0509881048ebdd7634d1e6705b468855bef",
+      "enMarkdown": "With server-based software, you're in closer touch with your code. You can also be in closer touch with your users. Intuit is famous for introducing themselves to customers at retail stores and asking to follow them home. If you've ever watched someone use your software for the first time, you know what surprises must have awaited them.",
+      "zhMarkdown": "有了基于服务器的软件，你与你的代码有了更紧密的接触。你也可以与你的用户有更紧密的接触。Intuit 公司因在零售店向顾客作自我介绍并要求跟他们回家而闻名。如果你曾观察过别人第一次使用你的软件，你就会知道有什么样的惊喜在等待着他们。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "5e1f8b9c1040d079b9bc8817af817514649e00c4b81d0ccdaf803e30f59c25e1",
+      "enMarkdown": "Software should do what users think it will. But you can't have any idea what users will be thinking, believe me, until you watch them. And server-based software gives you unprecedented information about their behavior. You're not limited to small, artificial focus groups. You can see every click made by every user. You have to consider carefully what you're going to look at, because you don't want to violate users' privacy, but even the most general statistical sampling can be very useful.",
+      "zhMarkdown": "软件应该符合用户的预期。但相信我，在你亲眼观察他们之前，你根本无法想象用户在想什么。而基于服务器的软件为你提供了关于他们行为的前所未有的信息。你不局限于小型、人工的焦点小组。你可以看到每个用户进行的每一次点击。你必须仔细考虑你要看什么，因为你不想侵犯用户的隐私，但即使是最一般的统计抽样也可能非常有用。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "b017d93e73498c3bf31c0b73f2ab03f1ba38c96d53b24d448198a6cdddfb68b2",
+      "enMarkdown": "When you have the users on your server, you don't have to rely on benchmarks, for example. Benchmarks are simulated users. With server-based software, you can watch actual users. To decide what to optimize, just log into a server and see what's consuming all the CPU. And you know when to stop optimizing too: we eventually got the Viaweb editor to the point where it was memory-bound rather than CPU-bound, and since there was nothing we could do to decrease the size of users' data (well, nothing easy), we knew we might as well stop there.",
+      "zhMarkdown": "例如，当你的用户在你的服务器上时，你不需要依赖基准测试。基准测试是模拟的用户。而有了基于服务器的软件，你可以观察真实的用户。要决定优化什么，只需登录服务器，看看是什么消耗了所有的 CPU。你也知道什么时候该停止优化：我们最终将 Viaweb 编辑器优化到了内存受限而不是 CPU 受限的程度，既然我们无法减少用户数据的大小（至少不容易），我们知道我们不妨就此打住。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "b8b2af231aa097de6b2ec840aac0018245efc04330bc29f1ad45b4cd679a49e1",
+      "enMarkdown": "Efficiency matters for server-based software, because you're paying for the hardware. The number of users you can support per server is the divisor of your capital cost, so if you can make your software very efficient you can undersell competitors and still make a profit. At Viaweb we got the capital cost per user down to about $5. It would be less now, probably less than the cost of sending them the first month's bill. Hardware is free now, if your software is reasonably efficient.",
+      "zhMarkdown": "效率对于基于服务器的软件至关重要，因为硬件费用是由你承担的。每个服务器能支持的用户数量是你资本成本的分母，所以如果你能让你的软件非常高效，你就可以以低于竞争对手的价格销售，同时还能赚取利润。在 Viaweb，我们将每个用户的资本成本降到了大约 5 美元。现在会更少，可能比给他们发送第一个月账单的成本还要低。如果你的软件足够高效，硬件现在就是免费的。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "192185ab06d7eebad02d60add06f26a323fad7fc2975ac07d6bea9f99c879743",
+      "enMarkdown": "Watching users can guide you in design as well as optimization. Viaweb had a scripting language called RTML that let advanced users define their own page styles. We found that RTML became a kind of suggestion box, because users only used it when the predefined page styles couldn't do what they wanted. Originally the editor put button bars across the page, for example, but after a number of users used RTML to put buttons down the left [side](https://sep.turbifycdn.com/ca/I/paulgraham_1656_3563), we made that an option (in fact the default) in the predefined page styles.",
+      "zhMarkdown": "观察用户既可以指导你的优化，也可以指导你的设计。Viaweb 有一种名为 RTML 的脚本语言，允许高级用户定义他们自己的页面样式。我们发现 RTML 变成了一种意见箱，因为用户只有在预定义的页面样式无法满足他们的要求时才会使用它。例如，最初编辑器在页面横向放置按钮栏，但在许多用户使用 RTML 将按钮放到左[侧](https://sep.turbifycdn.com/ca/I/paulgraham_1656_3563)之后，我们在预定义的页面样式中将这做成了一个选项（实际上是默认设置）。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "43539e746a49c7b2e21d989e2aa27fd09a9df850f8fdb6e2e01a5e1d235dc40e",
+      "enMarkdown": "Finally, by watching users you can often tell when they're in trouble. And since the customer is always right, that's a sign of something you need to fix. At Viaweb the key to getting users was the online test drive. It was not just a series of slides built by marketing people. In our test drive, users actually used the software. It took about five minutes, and at the end of it they had built a real, working store.",
+      "zhMarkdown": "最后，通过观察用户，你往往能发现他们什么时候遇到了麻烦。既然客户总是对的，那就是你需要修复某些东西的信号。在 Viaweb，获取用户的关键是在线试用。这不仅仅是营销人员制作的一系列幻灯片。在我们的试用中，用户实际上是在使用软件。这大约需要五分钟，结束时他们已经建立了一个真实的、可以运转的商店。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "987179c99446c89349c0a1583de5ac3a3de9667a4d08f18ce133867d044698c5",
+      "enMarkdown": "The test drive was the way we got nearly all our new users. I think it will be the same for most Web-based applications. If users can get through a test drive successfully, they'll like the product. If they get confused or bored, they won't. So anything we could do to get more people through the test drive would increase our growth rate.",
+      "zhMarkdown": "试用是我们获得几乎所有新用户的方式。我想对于大多数基于 Web 的应用来说也是如此。如果用户能顺利通过试用，他们就会喜欢这个产品。如果他们感到困惑或无聊，他们就不会喜欢。因此，我们为了让更多人通过试用所做的任何事情，都会提高我们的增长率。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "342eb17bd48d0ddc5c2c5157076aedd955f2b0e5c8360d4051beb9c945093c38",
+      "enMarkdown": "I studied click trails of people taking the test drive and found that at a certain step they would get confused and click on the browser's Back button. (If you try writing Web-based applications, you'll find that the Back button becomes one of your most interesting philosophical problems.) So I added a message at that point, telling users that they were nearly finished, and reminding them not to click on the Back button. Another great thing about Web-based software is that you get instant feedback from changes: the number of people completing the test drive rose immediately from 60% to 90%. And since the number of new users was a function of the number of completed test drives, our revenue growth increased by 50%, just from that change.",
+      "zhMarkdown": "我研究了人们进行试用的点击轨迹，发现他们在某一步会感到困惑，并点击浏览器的“返回”按钮。（如果你尝试编写基于 Web 的应用，你会发现“返回”按钮会成为你最有趣的哲学问题之一。）于是在那个点上我加了一条信息，告诉用户他们快完成了，并提醒他们不要点击“返回”按钮。基于 Web 软件的另一个伟大之处在于，你可以从修改中获得即时反馈：完成试用的人数立刻从 60% 上升到 90%。既然新用户数量是完成试用人数的函数，仅仅因为那一个修改，我们的收入增长率就提高了 50%。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "11f3cb2e9fd337f51d9f72bc91b053179a0ee1aaefac4a81300bbbdd386b156a",
+      "enMarkdown": "**Money**",
+      "zhMarkdown": "**钱**"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "9e1dd984d2dded563ef9a8b79a633ecc27551d479d97b5fff84ba34499a2b089",
+      "enMarkdown": "In the early 1990s I read an article in which someone said that software was a subscription business. At first this seemed a very cynical statement. But later I realized that it reflects reality: software development is an ongoing process. I think it's cleaner if you openly charge subscription fees, instead of forcing people to keep buying and installing new versions so that they'll keep paying you. And fortunately, subscriptions are the natural way to bill for Web-based applications.",
+      "zhMarkdown": "在 1990 年代初期，我读到一篇文章，其中有人说软件是一项订阅业务。起初这看起来是一个非常愤世嫉俗的说法。但后来我意识到这反映了现实：软件开发是一个持续的过程。我认为公开收取订阅费会更干净，而不是强迫人们不断购买和安装新版本，以此来让他们继续付钱给你。幸运的是，订阅是基于 Web 应用程序的自然计费方式。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "43d58d02becf7997367eef32ab32e11adc3fafab9a94a75e3a492b9d8ba7ca9a",
+      "enMarkdown": "Hosting applications is an area where companies will play a role that is not likely to be filled by freeware. Hosting applications is a lot of stress, and has real expenses. No one is going to want to do it for free.",
+      "zhMarkdown": "托管应用是一个公司会扮演角色的领域，而这个角色不太可能被免费软件填补。托管应用有很大的压力，并且有实际的费用。没人会想免费做这件事。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "311e93bef4716bb434e3f60c2d47e4ab352ccf7aaa5d23938bc13750b27e753d",
+      "enMarkdown": "For companies, Web-based applications are an ideal source of revenue. Instead of starting each quarter with a blank slate, you have a recurring revenue stream. Because your software evolves gradually, you don't have to worry that a new model will flop; there never need be a new model, per se, and if you do something to the software that users hate, you'll know right away. You have no trouble with uncollectable bills; if someone won't pay you can just turn off the service. And there is no possibility of piracy.",
+      "zhMarkdown": "对公司来说，基于 Web 的应用程序是理想的收入来源。你不再是在每个季度开始时面对一张白纸，而是拥有持续不断的经常性收入流。因为你的软件是逐渐演进的，你不用担心新车型会失败；根本不需要有新车型本身，如果你对软件做了用户讨厌的改动，你立刻就会知道。你不会遇到坏账问题；如果有人不付款，你只需关闭服务即可。而且不存在盗版的可能性。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "a87c52fcfee788935b9dc11994c30672dc73d39e4c87aee3888fc77b3ff9d982",
+      "enMarkdown": "That last \"advantage\" may turn out to be a problem. Some amount of piracy is to the advantage of software companies. If some user really would not have bought your software at any price, you haven't lost anything if he uses a pirated copy. In fact you gain, because he is one more user helping to make your software the standard-- or who might buy a copy later, when he graduates from high school.",
+      "zhMarkdown": "这最后一个“优势”可能会成为一个问题。一定程度的盗版对软件公司是有利的。如果某个用户真的在任何价格下都不会购买你的软件，那么如果他使用盗版，你并没有损失任何东西。事实上你还赚了，因为他多了一个用户，帮助你的软件成为标准——或者他以后从高中毕业时可能会买一个正版。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "cbbf9299e1849480133d89cec25000011356828b1237d6571f5d26ebad43a638",
+      "enMarkdown": "When they can, companies like to do something called price discrimination, which means charging each customer as much as they can afford. [8] Software is particularly suitable for price discrimination, because the marginal cost is close to zero. This is why some software costs more to run on Suns than on Intel boxes: a company that uses Suns is not interested in saving money and can safely be charged more. Piracy is effectively the lowest tier of price discrimination. I think that software companies understand this and deliberately turn a blind eye to some kinds of piracy. [9] With server-based software they are going to have to come up with some other solution.",
+      "zhMarkdown": "在可能的情况下，公司喜欢做一种被称为价格歧视的事情，这意味着向每个客户收取他们所能承受的最大金额。[8] 软件特别适合价格歧视，因为边际成本接近于零。这就是为什么某些软件在 Sun 的机器上运行比在 Intel 机器上运行成本更高的原因：使用 Sun 的公司对省钱不感兴趣，可以安全地向他们收取更多费用。盗版实际上是价格歧视的最低层级。我认为软件公司明白这一点，并故意对某些种类的盗版睁一只眼闭一只眼。[9] 对于基于服务器的软件，他们将不得不提出其他的解决方案。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "5d93e8f5acdec607c00bce844d42fdc27023dff94891850dd51cac5fb129952a",
+      "enMarkdown": "Web-based software sells well, especially in comparison to desktop software, because it's easy to buy. You might think that people decide to buy something, and then buy it, as two separate steps. That's what I thought before Viaweb, to the extent I thought about the question at all. In fact the second step can propagate back into the first: if something is hard to buy, people will change their mind about whether they wanted it. And vice versa: you'll sell more of something when it's easy to buy. I buy more books because Amazon exists. Web-based software is just about the easiest thing in the world to buy, especially if you have just done an online demo. Users should not have to do much more than enter a credit card number. (Make them do more at your peril.)",
+      "zhMarkdown": "基于 Web 的软件卖得很好，尤其是与桌面软件相比，因为它很容易购买。你可能会认为人们决定买东西，然后买下它，这是两个独立的步骤。在 Viaweb 之前我就是这么想的，如果我曾思考过这个问题的话。事实上，第二步可以反作用于第一步：如果一样东西很难买到，人们就会改变主意，不再想要它。反之亦然：当一样东西容易买到时，你会卖得更多。因为有了亚马逊，我买了更多的书。基于 Web 的软件几乎是世界上最容易购买的东西，尤其是如果你刚刚做完在线演示。用户除了输入信用卡号之外，不应该做更多的事情。（让他们做更多事情，后果自负。）"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "3dc3a89d442d7219f6aa2599c9b1d7c731265374048accd63281a444aa8fb727",
+      "enMarkdown": "Sometimes Web-based software is offered through ISPs acting as resellers. This is a bad idea. You have to be administering the servers, because you need to be constantly improving both hardware and software. If you give up direct control of the servers, you give up most of the advantages of developing Web-based applications.",
+      "zhMarkdown": "有时，基于 Web 的软件是通过作为分销商的 ISP 提供的。这是一个坏主意。你必须亲自管理服务器，因为你需要不断改进硬件和软件。如果你放弃了对服务器的直接控制，你就放弃了开发基于 Web 应用程序的大部分优势。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "d096985618674cb9ce5440c2a4f47d6a1af7e29e569d02409e9620b7b890cf08",
+      "enMarkdown": "Several of our competitors shot themselves in the foot this way-- usually, I think, because they were overrun by suits who were excited about this huge potential channel, and didn't realize that it would ruin the product they hoped to sell through it. Selling Web-based software through ISPs is like selling sushi through vending machines.",
+      "zhMarkdown": "我们的几家竞争对手以这种方式搬起石头砸了自己的脚——通常，我认为，是因为他们被西装革履的商务人士包围了，这些人对这个巨大的潜在渠道感到兴奋，却没有意识到这会毁掉他们希望通过它销售的产品。通过 ISP 销售基于 Web 的软件，就像通过自动售货机销售寿司一样。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "53a5baaf800173c3a67ad0b21cc51f47c61bb4e77ebef21513a428d188f640a2",
+      "enMarkdown": "**Customers**",
+      "zhMarkdown": "**客户**"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "bc2f8b951462e286cd6272e80bf53c84f445a80e923ded39ff43240eb360faf1",
+      "enMarkdown": "Who will the customers be? At Viaweb they were initially individuals and smaller companies, and I think this will be the rule with Web-based applications. These are the users who are ready to try new things, partly because they're more flexible, and partly because they want the lower costs of new technology.",
+      "zhMarkdown": "客户会是谁？在 Viaweb，他们最初是个人和较小的公司，我认为这也会是基于 Web 应用的规律。这些是准备尝试新事物的用户，部分是因为他们更灵活，部分是因为他们想要新技术带来的更低成本。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "e2415871226da071849be0c4d463c5ff0009d198888bc28c59d7ba609ef00579",
+      "enMarkdown": "Web-based applications will often be the best thing for big companies too (though they'll be slow to realize it). The best intranet is the Internet. If a company uses true Web-based applications, the software will work better, the servers will be better administered, and employees will have access to the system from anywhere.",
+      "zhMarkdown": "基于 Web 的应用往往对大公司也是最好的选择（尽管他们会很慢才意识到这一点）。最好的内网就是互联网。如果一家公司使用真正的基于 Web 的应用程序，软件会运行得更好，服务器会得到更好的管理，员工可以在任何地方访问系统。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "17d0c0a521dc0de870501bc0da161f65d312e0097e62e12473132b4264fa331b",
+      "enMarkdown": "The argument against this approach usually hinges on security: if access is easier for employees, it will be for bad guys too. Some larger merchants were reluctant to use Viaweb because they thought customers' credit card information would be safer on their own servers. It was not easy to make this point diplomatically, but in fact the data was almost certainly safer in our hands than theirs. Who can hire better people to manage security, a technology startup whose whole business is running servers, or a clothing retailer? Not only did we have better people worrying about security, we worried more about it. If someone broke into the clothing retailer's servers, it would affect at most one merchant, could probably be hushed up, and in the worst case might get one person fired. If someone broke into ours, it could affect thousands of merchants, would probably end up as news on CNet, and could put us out of business.",
+      "zhMarkdown": "反对这种方法的论点通常围绕着安全：如果员工更容易访问，坏人也更容易访问。一些较大的商家不愿使用 Viaweb，因为他们认为客户的信用卡信息在他们自己的服务器上会更安全。要委婉地说明这一点并不容易，但事实上，数据在我们手里几乎肯定比在他们手里更安全。谁能雇到更好的人来管理安全，是一个其整个业务就是运行服务器的技术创业公司，还是一个服装零售商？我们不仅有更好的人在操心安全，我们还更担心它。如果有人侵入了服装零售商的服务器，这最多会影响一个商家，可能会被捂住，最坏的情况可能是一个人被解雇。如果有人侵入了我们的服务器，可能会影响数千个商家，可能会成为 CNet 上的新闻，并可能让我们破产。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "0bd48509d94a9ceef389eb518f44174b8e404d8e79c14ee3d1afc950379e6606",
+      "enMarkdown": "If you want to keep your money safe, do you keep it under your mattress at home, or put it in a bank? This argument applies to every aspect of server administration: not just security, but uptime, bandwidth, load management, backups, etc. Our existence depended on doing these things right. Server problems were the big no-no for us, like a dangerous toy would be for a toy maker, or a salmonella outbreak for a food processor.",
+      "zhMarkdown": "如果你想保证资金安全，你是把它放在家里的床垫下，还是存在银行里？这个论点适用于服务器管理的各个方面：不仅是安全，还有在线率、带宽、负载管理、备份等。我们的生存取决于把这些事情做好。服务器问题对我们来说是巨大的禁忌，就像危险玩具之于玩具制造商，或者沙门氏菌爆发之于食品加工商一样。"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "bcd539ccd8a8023e871350225e95596c10c42c99620bd955ae05066d00eab5c0",
+      "enMarkdown": "A big company that uses Web-based applications is to that extent outsourcing IT. Drastic as it sounds, I think this is generally a good idea. Companies are likely to get better service this way than they would from in-house system administrators. System administrators can become cranky and unresponsive because they're not directly exposed to competitive pressure: a salesman has to deal with customers, and a developer has to deal with competitors' software, but a system administrator, like an old bachelor, has few external forces to keep him in line. [10] At Viaweb we had external forces in plenty to keep us in line. The people calling us were customers, not just co-workers. If a server got wedged, we jumped; just thinking about it gives me a jolt of adrenaline, years later.",
+      "zhMarkdown": "使用基于 Web 应用程序的大公司在某种程度上是在将 IT 外包。虽然听起来很激进，但我认为这通常是个好主意。通过这种方式，公司可能会比从内部系统管理员那里获得更好的服务。系统管理员可能会变得脾气暴躁、反应迟钝，因为他们没有直接暴露在竞争压力下：销售员必须应付客户，开发者必须应付竞争对手的软件，而系统管理员就像一个老单身汉，很少有外部力量来约束他。[10] 在 Viaweb，我们有充足的外部力量来约束我们。打电话给我们的是客户，而不只是同事。如果一台服务器卡住了，我们会跳起来；几年后，仅仅想到这一点就会让我肾上腺素飙升。"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "f7d5567f6e52d44883623b4e7cda6297740477c7a5b398765b0632107bf524d4",
+      "enMarkdown": "So Web-based applications will ordinarily be the right answer for big companies too. They will be the last to realize it, however, just as they were with desktop computers. And partly for the same reason: it will be worth a lot of money to convince big companies that they need something more expensive.",
+      "zhMarkdown": "因此，基于 Web 的应用程序通常对大公司也是正确的答案。然而，他们将是最后一批意识到这一点的，就像他们对待桌面电脑一样。部分原因也是相同的：说服大公司他们需要更昂贵的东西，是值很多钱的。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "9d2fe9e9c13e156af936fabb360120d2b47d8f54618c0b6634d68e9c90b76397",
+      "enMarkdown": "There is always a tendency for rich customers to buy expensive solutions, even when cheap solutions are better, because the people offering expensive solutions can spend more to sell them. At Viaweb we were always up against this. We lost several high-end merchants to Web consulting firms who convinced them they'd be better off if they paid half a million dollars for a custom-made online store on their own server. They were, as a rule, not better off, as more than one discovered when Christmas shopping season came around and loads rose on their server. Viaweb was a lot more sophisticated than what most of these merchants got, but we couldn't afford to tell them. At $300 a month, we couldn't afford to send a team of well-dressed and authoritative-sounding people to make presentations to customers.",
+      "zhMarkdown": "富裕的客户总是有一种购买昂贵解决方案的倾向，即使廉价的解决方案更好，因为提供昂贵解决方案的人可以花更多的钱来推销它们。在 Viaweb，我们总是遇到这种情况。我们把几个高端商家输给了网络咨询公司，这些公司说服他们，如果他们花 50 万美元在自己的服务器上定制一个网上商店，他们会过得更好。通常情况下，他们并没有过得更好，当圣诞购物季到来、他们服务器上的负载上升时，不止一个商家发现了这一点。Viaweb 比大多数这些商家得到的东西要先进得多，但我们雇不起人去告诉他们。在每月 300 美元的价格下，我们雇不起一队衣着体面、听起来很有权威的人去向客户做演示。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "f2313b99c11af4dc646c05d980fca6cecf39205cbc55ba80d420ce11924a729d",
+      "enMarkdown": "A large part of what big companies pay extra for is the cost of selling expensive things to them. (If the Defense Department pays a thousand dollars for toilet seats, it's partly because it costs a lot to sell toilet seats for a thousand dollars.) And this is one reason intranet software will continue to thrive, even though it is probably a bad idea. It's simply more expensive. There is nothing you can do about this conundrum, so the best plan is to go for the smaller customers first. The rest will come in time.",
+      "zhMarkdown": "大公司多付的很大一部分钱，是向他们销售昂贵东西的成本。（如果国防部为一个马桶座圈支付一千美元，部分原因是因为把马桶座圈卖到一千美元需要花很多钱。）这就是为什么内网软件将继续蓬勃发展的原因之一，尽管这可能是一个坏主意。它只是更昂贵。对于这个难题你无能为力，所以最好的计划是先争取较小的客户。其余的随着时间的推移自然会来。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "0dd7d941ebd7016c50724fddf4f62cbd8b6247a7cde4cf119c3eac5baf176d6a",
+      "enMarkdown": "**Son of Server**",
+      "zhMarkdown": "**服务器之子**"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "f656bfb9c7ef94bef7437029813f0daed76279ed2388f37169d12c1e26cca434",
+      "enMarkdown": "Running software on the server is nothing new. In fact it's the old model: mainframe applications are all server-based. If server-based software is such a good idea, why did it lose last time? Why did desktop computers eclipse mainframes?",
+      "zhMarkdown": "在服务器上运行软件并不是什么新事物。事实上，这是老模式：大型机应用程序都是基于服务器的。如果基于服务器的软件是如此好的一个主意，为什么上次它输了？为什么桌面电脑超越了大型机？"
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "8b9ee0f33c5f36e34e07e4c21148bef40b3081faca9ab95f2e303b5ecb0c8c99",
+      "enMarkdown": "At first desktop computers didn't look like much of a threat. The first users were all hackers-- or hobbyists, as they were called then. They liked microcomputers because they were cheap. For the first time, you could have your own computer. The phrase \"personal computer\" is part of the language now, but when it was first used it had a deliberately audacious sound, like the phrase \"personal satellite\" would today.",
+      "zhMarkdown": "起初，桌面电脑看起来并不像什么威胁。第一批用户都是黑客——或者当时被称为爱好者的人。他们喜欢微型计算机，因为它们便宜。有史以来第一次，你可以拥有自己的电脑。“个人电脑”这个词现在已经成了语言的一部分，但当它最初被使用时，它听起来故意带着一种大胆的意味，就像今天“个人卫星”这个词听起来一样。"
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "ad3fe588116480e2ce2fbb796aa562ad0e09cc926368380d39a6d23861307646",
+      "enMarkdown": "Why did desktop computers take over? I think it was because they had better software. And I think the reason microcomputer software was better was that it could be written by small companies.",
+      "zhMarkdown": "为什么桌面电脑能接管世界？我认为是因为它们有更好的软件。而我认为微机软件更好的原因在于，它可以由小公司来编写。"
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "a42abf8ed27c3b53ea449f7a343d358ec500f2082ae33a4acfcb8e2c41b086ed",
+      "enMarkdown": "I don't think many people realize how fragile and tentative startups are in the earliest stage. Many startups begin almost by accident-- as a couple guys, either with day jobs or in school, writing a prototype of something that might, if it looks promising, turn into a company. At this larval stage, any significant obstacle will stop the startup dead in its tracks. Writing mainframe software required too much commitment up front. Development machines were expensive, and because the customers would be big companies, you'd need an impressive-looking sales force to sell it to them. Starting a startup to write mainframe software would be a much more serious undertaking than just hacking something together on your Apple II in the evenings. And so you didn't get a lot of startups writing mainframe applications.",
+      "zhMarkdown": "我认为没有多少人意识到创业公司在最早期阶段是多么脆弱和试探性。许多创业公司几乎是偶然开始的——几个人，要么有日常工作，要么在学校，写一个东西的雏形，如果看起来有前途，就可能会变成一家公司。在这个幼体阶段，任何重大障碍都会让创业公司中途夭折。编写大型机软件需要太多的前期投入。开发机器很贵，而且因为客户会是大公司，你需要一支看起来令人印象深刻的销售队伍来把软件卖给他们。创办一家创业公司来编写大型机软件，将是一项比晚上在你的 Apple II 上随便拼凑点东西要严肃得多的任务。因此，你不会看到很多创业公司在编写大型机应用程序。"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "458b658615d5b2090917e0cdefb40c97309a824d0e275c3cbc3416d1d83f6f97",
+      "enMarkdown": "The arrival of desktop computers inspired a lot of new software, because writing applications for them seemed an attainable goal to larval startups. Development was cheap, and the customers would be individual people that you could reach through computer stores or even by mail-order.",
+      "zhMarkdown": "桌面电脑的到来激发了大量新软件的诞生，因为为它们编写应用程序对于幼体阶段的创业公司来说似乎是一个可以企及的目标。开发成本很低，而且客户会是你可以通过电脑商店甚至邮购联系到的个人。"
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "sourceHash": "5b7df0424a769ba81105c89945b882b49913d8cdb8e05d4ac0a57fc0288664c6",
+      "enMarkdown": "The application that pushed desktop computers out into the mainstream was [VisiCalc](http://www.bricklin.com/visicalc.htm), the first spreadsheet. It was written by two guys working in an attic, and yet did things no mainframe software could do. [11] VisiCalc was such an advance, in its time, that people bought Apple IIs just to run it. And this was the beginning of a trend: desktop computers won because startups wrote software for them.",
+      "zhMarkdown": "将桌面电脑推向主流的应用程序是 [VisiCalc](http://www.bricklin.com/visicalc.htm)，这是第一个电子表格。它是由两个在阁楼里工作的人写的，却做到了大型机软件做不到的事情。[11] 在当时，VisiCalc 是如此巨大的进步，以至于人们仅仅为了运行它而购买 Apple II。这是一个趋势的开始：桌面电脑之所以获胜，是因为创业公司为它们编写了软件。"
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "d7ac8556cabbedd942196956e73fb71be3c7cf6e1273a4b148da95c93cea42ad",
+      "enMarkdown": "It looks as if server-based software will be good this time around, because startups will write it. Computers are so cheap now that you can get started, as we did, using a desktop computer as a server. Inexpensive processors have eaten the workstation market (you rarely even hear the word now) and are most of the way through the server market; Yahoo's servers, which deal with loads as high as any on the Internet, all have the same inexpensive Intel processors that you have in your desktop machine. And once you've written the software, all you need to sell it is a Web site. Nearly all our users came direct to our site through word of mouth and references in the press. [12]",
+      "zhMarkdown": "看起来基于服务器的软件这一次也会很好，因为创业公司会编写它。现在的电脑非常便宜，你可以像我们当年一样，用一台桌面电脑作为服务器来起步。廉价的处理器已经吞噬了工作站市场（你现在甚至很少听到这个词了），并且在服务器市场也占领了大半江山；雅虎的服务器处理着互联网上最高的负载，它们都拥有与你桌面机器中相同的廉价 Intel 处理器。一旦你写好了软件，你销售它所需要的只是一个网站。我们几乎所有的用户都是通过口碑和媒体提及直接来到我们的网站的。[12]"
+    },
+    {
+      "id": 111,
+      "type": "paragraph",
+      "sourceHash": "b4de5205e3d8ada159c27a6cc57470902109f2806c66108a033a7defcc0f0a68",
+      "enMarkdown": "Viaweb was a typical larval startup. We were terrified of starting a company, and for the first few months comforted ourselves by treating the whole thing as an experiment that we might call off at any moment. Fortunately, there were few obstacles except technical ones. While we were writing the software, our Web server was the same desktop machine we used for development, connected to the outside world by a dialup line. Our only expenses in that phase were food and rent.",
+      "zhMarkdown": "Viaweb 是一个典型的幼体期创业公司。我们对创办一家公司感到恐惧，在最初的几个月里，我们把整件事当成一个我们随时可能取消的实验来安慰自己。幸运的是，除了技术障碍之外，几乎没有其他障碍。在我们编写软件时，我们的 Web 服务器就是我们用于开发的那台桌面机器，通过一条拨号线路与外部世界连接。我们在那个阶段唯一的开销是食物和房租。"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "f151448eed582329dc292bcb2317dfc699125516fe7fb5e117cecaaa2a85a2fa",
+      "enMarkdown": "There is all the more reason for startups to write Web-based software now, because writing desktop software has become a lot less fun. If you want to write desktop software now you do it on Microsoft's terms, calling their APIs and working around their buggy OS. And if you manage to write something that takes off, you may find that you were merely doing market research for Microsoft.",
+      "zhMarkdown": "现在创业公司更有理由编写基于 Web 的软件，因为编写桌面软件已经变得没那么有趣了。如果你现在想写桌面软件，你必须按照微软的条款来，调用他们的 API 并绕过他们漏洞百出的操作系统。如果你设法写出了一个成功起飞的东西，你可能会发现你仅仅是在为微软做市场调研。"
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "sourceHash": "b2031ff312632355a0ea5915b48c3af00d0ec985f3cdd1f5a83634b8873ef42c",
+      "enMarkdown": "If a company wants to make a platform that startups will build on, they have to make it something that hackers themselves will want to use. That means it has to be inexpensive and well-designed. The Mac was popular with hackers when it first came out, and a lot of them wrote software for it. [13] You see this less with Windows, because hackers don't use it. The kind of people who are good at writing software tend to be running Linux or FreeBSD now.",
+      "zhMarkdown": "如果一家公司想要制作一个让创业公司在其上构建的平台，他们必须让它成为黑客自己会想用的东西。这意味着它必须便宜且设计良好。Mac 在刚推出时很受黑客欢迎，许多黑客为它写了软件。[13] 你在 Windows 上很少看到这种情况，因为黑客不用它。现在擅长写软件的那类人往往运行着 Linux 或 FreeBSD。"
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "756dab73ad548af21ab2557994c8a2f3efbf4219cdae6c638033a07cb62ba157",
+      "enMarkdown": "I don't think we would have started a startup to write desktop software, because desktop software has to run on Windows, and before we could write software for Windows we'd have to use it. The Web let us do an end-run around Windows, and deliver software running on Unix direct to users through the browser. That is a liberating prospect, a lot like the arrival of PCs twenty-five years ago.",
+      "zhMarkdown": "我认为我们当年不会去创办一家写桌面软件的创业公司，因为桌面软件必须在 Windows 上运行，而在我们为 Windows 写软件之前，我们必须先使用它。而 Web 让我们能够绕过 Windows，通过浏览器直接向用户交付运行在 Unix 上的软件。那是一个解放性的前景，非常像二十五年前 PC 的到来。"
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "sourceHash": "30cf5e81ecf603e5dea6d79fd4302e7fa38088f08ced6c6c3d08dc1187cb10d5",
+      "enMarkdown": "**Microsoft**",
+      "zhMarkdown": "**微软**"
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "edd2c514e780a1a246223bf830002200c5d00b6f33c9fac9527a585c7015d514",
+      "enMarkdown": "Back when desktop computers arrived, IBM was the giant that everyone was afraid of. It's hard to imagine now, but I remember the feeling very well. Now the frightening giant is Microsoft, and I don't think they are as blind to the threat facing them as IBM was. After all, Microsoft deliberately built their business in IBM's blind spot.",
+      "zhMarkdown": "回到桌面电脑到来的时候，IBM 是每个人都害怕的巨人。现在很难想象，但我对那种感觉记忆犹新。现在的恐怖巨人是微软，我不认为他们对面临的威胁像当年的 IBM 那样盲目。毕竟，微软是在 IBM 的盲区里刻意建立起自己的帝国的。"
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "82aa50f0366aa39cb8866dfd6b69434da4139fca033c5dc0edc44996238b3d39",
+      "enMarkdown": "I mentioned earlier that my mother doesn't really need a desktop computer. Most users probably don't. That's a problem for Microsoft, and they know it. If applications run on remote servers, no one needs Windows. What will Microsoft do? Will they be able to use their control of the desktop to prevent, or constrain, this new generation of software?",
+      "zhMarkdown": "我之前提到过，我母亲并不真的需要一台桌面电脑。大多数用户可能都不需要。这对微软来说是个问题，他们也知道这一点。如果应用程序运行在远程服务器上，没人需要 Windows。微软会怎么做？他们能否利用对桌面端的控制来阻止或限制这新一代软件？"
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "6aa92f3e1cec65c9c55edad6312036cb25d51df0b6449a048941e9e29156b90f",
+      "enMarkdown": "My guess is that Microsoft will develop some kind of server/desktop hybrid, where the operating system works together with servers they control. At a minimum, files will be centrally available for users who want that. I don't expect Microsoft to go all the way to the extreme of doing the computations on the server, with only a browser for a client, if they can avoid it. If you only need a browser for a client, you don't need Microsoft on the client, and if Microsoft doesn't control the client, they can't push users towards their server-based applications.",
+      "zhMarkdown": "我的猜测是，微软会开发某种服务器/桌面的混合体，其中操作系统与他们控制的服务器协同工作。至少，对于想要这样做的用户，文件将可以在中央获取。如果可以避免的话，我不期望微软会走到在服务器上进行计算、而客户端仅用浏览器的极端地步。如果你只需要一个浏览器作为客户端，你就不需要在客户端上装微软的产品，而如果微软控制不了客户端，他们就无法将用户推向他们基于服务器的应用程序。"
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "sourceHash": "48e19ef6f00a1d14461cd4606bd95129edf78df6d9a9ceab54cd4cf24d1b09d6",
+      "enMarkdown": "I think Microsoft will have a hard time keeping the genie in the bottle. There will be too many different types of clients for them to control them all. And if Microsoft's applications only work with some clients, competitors will be able to trump them by offering applications that work from any client. [14]",
+      "zhMarkdown": "我认为微软会很难把这个魔鬼关回瓶子里。将会有太多不同类型的客户端，使他们无法控制所有这些客户端。如果微软的应用程序只对某些客户端有效，竞争对手将能够通过提供适用于任何客户端的应用程序来击败他们。[14]"
+    },
+    {
+      "id": 120,
+      "type": "paragraph",
+      "sourceHash": "62271c63aec212ee2c2bff42fc6ba786700d1e68f347ce5fa8bdb532430a5ec1",
+      "enMarkdown": "In a world of Web-based applications, there is no automatic place for Microsoft. They may succeed in making themselves a place, but I don't think they'll dominate this new world as they did the world of desktop applications.",
+      "zhMarkdown": "在基于 Web 应用程序的世界里，没有自动属于微软的位置。他们可能会成功为自己争得一席之地，但我不认为他们会像统治桌面应用世界那样统治这个新世界。"
+    },
+    {
+      "id": 121,
+      "type": "paragraph",
+      "sourceHash": "d2c36a58a473498cd17e4a2b7601ff92c64aeff8f515f9da365b6aeb92d79253",
+      "enMarkdown": "It's not so much that a competitor will trip them up as that they will trip over themselves. With the rise of Web-based software, they will be facing not just technical problems but their own wishful thinking. What they need to do is cannibalize their existing business, and I can't see them facing that. The same single-mindedness that has brought them this far will now be working against them. IBM was in exactly the same situation, and they could not master it. IBM made a late and half-hearted entry into the microcomputer business because they were ambivalent about threatening their cash cow, mainframe computing. Microsoft will likewise be hampered by wanting to save the desktop. A cash cow can be a damned heavy monkey on your back.",
+      "zhMarkdown": "这与其说是竞争对手会绊倒他们，不如说是他们会被自己绊倒。随着基于 Web 软件的兴起，他们将不仅面临技术问题，还要面对自己的自欺欺人。他们需要做的是蚕食自己现有的业务，而我看不出他们能面对这一点。带他们走到今天这一步的同样那种一心一意的执念，现在将对他们不利。IBM 当年也处于完全相同的境地，但他们无法掌控它。IBM 迟缓且半心半意地进入微机行业，因为他们对于威胁到自己的现金牛——大型机计算——感到纠结。微软同样会因为想要拯救桌面端而受到阻碍。现金牛可能会成为你背上极其沉重的累赘。"
+    },
+    {
+      "id": 122,
+      "type": "paragraph",
+      "sourceHash": "8691e79006403cd5f9be7c1bae579ce56e83956f9c9f155ad5632dd48a44ed7c",
+      "enMarkdown": "I'm not saying that no one will dominate server-based applications. Someone probably will eventually. But I think that there will be a good long period of cheerful chaos, just as there was in the early days of microcomputers. That was a good time for startups. Lots of small companies flourished, and did it by making cool things.",
+      "zhMarkdown": "我并不是说没人会统治基于服务器的应用程序。最终可能有人会。但我认为将会有一段相当长的、令人愉快的混乱时期，就像微型计算机的早期一样。那是创业公司的好时光。许多小公司蓬勃发展，并通过制作酷炫的东西做到了这一点。"
+    },
+    {
+      "id": 123,
+      "type": "paragraph",
+      "sourceHash": "97c2ab7c032bee787d47b7e4312ad2a2760938c9974cc089516056a1246371e5",
+      "enMarkdown": "**Startups but More So**",
+      "zhMarkdown": "**创业，但更加极致**"
+    },
+    {
+      "id": 124,
+      "type": "paragraph",
+      "sourceHash": "3bb0695a849045b1bfe5b851973515a9dceb692547aa81dbf082da3136ffc941",
+      "enMarkdown": "The classic startup is fast and informal, with few people and little money. Those few people work very hard, and technology magnifies the effect of the decisions they make. If they win, they win big.",
+      "zhMarkdown": "经典的创业公司是快速且非正式的，人少钱也少。这少数几个人工作非常努力，技术放大了他们所做决定的效果。如果他们赢了，他们会赢得很彻底。"
+    },
+    {
+      "id": 125,
+      "type": "paragraph",
+      "sourceHash": "3c8fa6c997eaafd6df60b094db0d4c2b2764e140da3e1e78d29741fabed88c5e",
+      "enMarkdown": "In a startup writing Web-based applications, everything you associate with startups is taken to an extreme. You can write and launch a product with even fewer people and even less money. You have to be even faster, and you can get away with being more informal. You can literally launch your product as three guys sitting in the living room of an apartment, and a server collocated at an ISP. We did.",
+      "zhMarkdown": "在编写基于 Web 应用程序的创业公司中，你所联想到的一切关于创业的特征都被推向了极端。你可以用更少的人和更少的钱来编写和发布产品。你必须更快，而且你可以更加不拘小节。你真的可以作为三个人坐在公寓的客厅里，服务器托管在 ISP 那里，就这样发布你的产品。我们当年就是这么做的。"
+    },
+    {
+      "id": 126,
+      "type": "paragraph",
+      "sourceHash": "57bc88814a122602f2944d8a3f2eb38f5d3799a648b7c6a457d6a3f2b02345ed",
+      "enMarkdown": "Over time the teams have gotten smaller, faster, and more informal. In 1960, software development meant a roomful of men with horn rimmed glasses and narrow black neckties, industriously writing ten lines of code a day on IBM coding forms. In 1980, it was a team of eight to ten people wearing jeans to the office and typing into vt100s. Now it's a couple of guys sitting in a living room with laptops. (And jeans turn out not to be the last word in informality.)",
+      "zhMarkdown": "随着时间的推移，团队变得越来越小、更快、也更非正式。在 1960 年，软件开发意味着一屋子戴着黑框眼镜、系着窄黑领带的男人，在 IBM 编码纸上勤奋地一天写十行代码。在 1980 年，它是一个由八到十人组成的团队，穿着牛仔裤去办公室，在 vt100 终端上打字。现在，是几个人拿着笔记本电脑坐在客厅里。（事实证明，牛仔裤还不是非正式的终极体现。）"
+    },
+    {
+      "id": 127,
+      "type": "paragraph",
+      "sourceHash": "b7aa77a3f31c90ebb645d41ff65a0836e379b33d380ed12b1151908c437ed9ab",
+      "enMarkdown": "Startups are stressful, and this, unfortunately, is also taken to an extreme with Web-based applications. Many software companies, especially at the beginning, have periods where the developers slept under their desks and so on. The alarming thing about Web-based software is that there is nothing to prevent this becoming the default. The stories about sleeping under desks usually end: then at last we shipped it and we all went home and slept for a week. Web-based software never ships. You can work 16-hour days for as long as you want to. And because you can, and your competitors can, you tend to be forced to. You can, so you must. It's Parkinson's Law running in reverse.",
+      "zhMarkdown": "创业是充满压力的，不幸的是，在基于 Web 的应用程序中，这一点也被推向了极致。许多软件公司，特别是在开始阶段，都会经历开发者睡在办公桌底下的时期。关于基于 Web 软件的令人担忧之处在于，没有什么能阻止这成为默认状态。关于睡在办公桌底下的故事通常以这样结尾：最后我们终于出货了，我们都回家睡了一个星期。而基于 Web 的软件永远不会“出货”。只要你想，你可以每天工作 16 个小时。因为你可以，而且你的竞争对手也可以，你往往会被迫这么做。你能，所以你必须。这是帕金森定律的反向运行。"
+    },
+    {
+      "id": 128,
+      "type": "paragraph",
+      "sourceHash": "85fcdea3620bb2816ce38ec01c4ef0a1a75ef8f39caab2c739942ed5dde02d2e",
+      "enMarkdown": "The worst thing is not the hours but the responsibility. Programmers and system administrators traditionally each have their own separate worries. Programmers have to worry about bugs, and system administrators have to worry about infrastructure. Programmers may spend a long day up to their elbows in source code, but at some point they get to go home and forget about it. System administrators never quite leave the job behind, but when they do get paged at 4:00 AM, they don't usually have to do anything very complicated. With Web-based applications, these two kinds of stress get combined. The programmers become system administrators, but without the sharply defined limits that ordinarily make the job bearable.",
+      "zhMarkdown": "最糟糕的不是时间，而是责任。程序员和系统管理员传统上各有各的担忧。程序员担心 Bug，系统管理员担心基础设施。程序员可能在源代码中埋头苦干度过漫长的一天，但在某个时刻他们可以回家并忘掉它。系统管理员永远无法完全把工作抛在脑后，但当他们在凌晨 4:00 被呼叫时，他们通常不需要做任何非常复杂的事情。而在基于 Web 的应用中，这两种压力结合在了一起。程序员变成了系统管理员，但没有了通常使工作可以忍受的清晰界限。"
+    },
+    {
+      "id": 129,
+      "type": "paragraph",
+      "sourceHash": "53950870b8450f8d8ceeb8538c36b4f4b1655f99a7a9571e480f7b1420e89754",
+      "enMarkdown": "At Viaweb we spent the first six months just writing software. We worked the usual long hours of an early startup. In a desktop software company, this would have been the part where we were working hard, but it felt like a vacation compared to the next phase, when we took users onto our server. The second biggest benefit of selling Viaweb to Yahoo (after the money) was to be able to dump ultimate responsibility for the whole thing onto the shoulders of a big company.",
+      "zhMarkdown": "在 Viaweb，我们前六个月只是在写软件。我们像早期创业公司一样长时间工作。在一家桌面软件公司，这本该是我们工作最辛苦的部分，但与下一阶段我们把用户带到我们的服务器上相比，这感觉就像是在度假。将 Viaweb 卖给雅虎的第二大好处（仅次于钱）就是能够将整件事的终极责任扔给一家大公司。"
+    },
+    {
+      "id": 130,
+      "type": "paragraph",
+      "sourceHash": "64e6d73fafd8a956840a775aa1d461990a1b7e531e8f830a03a81ffd040f6d7d",
+      "enMarkdown": "Desktop software forces users to become system administrators. Web-based software forces programmers to. There is less stress in total, but more for the programmers. That's not necessarily bad news. If you're a startup competing with a big company, it's good news. [15] Web-based applications offer a straightforward way to outwork your competitors. No startup asks for more.",
+      "zhMarkdown": "桌面软件强迫用户成为系统管理员。基于 Web 的软件强迫程序员成为系统管理员。总的压力减少了，但程序员的压力增加了。这不一定是坏消息。如果你是一家与大公司竞争的创业公司，这是个好消息。[15] 基于 Web 的应用程序提供了一种简单直接的比竞争对手更拼命的方法。没有哪家创业公司会要求更多了。"
+    },
+    {
+      "id": 131,
+      "type": "paragraph",
+      "sourceHash": "7a2648f734ddc017ebdaf9ef5b02b150db277ecb27fb5b54684eed02730c3aaf",
+      "enMarkdown": "**Just Good Enough**",
+      "zhMarkdown": "**刚刚好**"
+    },
+    {
+      "id": 132,
+      "type": "paragraph",
+      "sourceHash": "08f87e25a85ae5bf43e4dd865d9fe297d34755f1f9cb378ebc5c98129ce6a827",
+      "enMarkdown": "One thing that might deter you from writing Web-based applications is the lameness of Web pages as a UI. That is a problem, I admit. There were a few things we would have *really* liked to add to HTML and HTTP. What matters, though, is that Web pages are just good enough.",
+      "zhMarkdown": "可能阻止你编写基于 Web 应用程序的一件事是网页作为 UI 的简陋。我承认，那确实是个问题。有几样东西我们*真的很想*加到 HTML 和 HTTP 中。然而，重要的是网页已经“刚刚好”了。"
+    },
+    {
+      "id": 133,
+      "type": "paragraph",
+      "sourceHash": "8396767b178af70b84ab1ed71277905a73e3a53a2d0b3f21f854810bb5882f86",
+      "enMarkdown": "There is a parallel here with the first microcomputers. The processors in those machines weren't actually intended to be the CPUs of computers. They were designed to be used in things like traffic lights. But guys like Ed Roberts, who designed the [Altair](http://en.wikipedia.org/wiki/Altair_8800), realized that they were just good enough. You could combine one of these chips with some memory (256 bytes in the first Altair), and front panel switches, and you'd have a working computer. Being able to have your own computer was so exciting that there were plenty of people who wanted to buy them, however limited.",
+      "zhMarkdown": "这与第一代微型计算机有相似之处。那些机器里的处理器实际上并不是设计用来作为电脑的 CPU 的。它们是设计用于交通信号灯之类的东西。但像设计了 [Altair](http://en.wikipedia.org/wiki/Altair_8800) 的埃德·罗伯茨（Ed Roberts）这样的人意识到，它们已经刚刚好了。你可以将其中一个芯片与一些内存（第一台 Altair 中为 256 字节）以及前后面板开关结合起来，你就拥有了一台可以工作的电脑。能够拥有自己的电脑是如此令人兴奋，以至于有很多人想要购买它们，无论它们有多么局限。"
+    },
+    {
+      "id": 134,
+      "type": "paragraph",
+      "sourceHash": "f841dbf60790ba3188d55c6d2fa893921039ef368f0b6c90c6448189514ad3a8",
+      "enMarkdown": "Web pages weren't designed to be a UI for applications, but they're just good enough. And for a significant number of users, software that you can use from any browser will be enough of a win in itself to outweigh any awkwardness in the UI. Maybe you can't write the best-looking spreadsheet using HTML, but you can write a spreadsheet that several people can use simultaneously from different locations without special client software, or that can incorporate live data feeds, or that can page you when certain conditions are triggered. More importantly, you can write new kinds of applications that don't even have names yet. VisiCalc was not merely a microcomputer version of a mainframe application, after all-- it was a new type of application.",
+      "zhMarkdown": "网页并不是为应用程序的 UI 设计的，但它们已经刚刚好了。对于相当一部分用户来说，可以从任何浏览器使用的软件本身就是一个足够大的胜利，足以弥补 UI 上的任何尴尬。也许你无法使用 HTML 编写出外观最漂亮的电子表格，但你可以编写一个允许多人在不同地点同时使用且无需特殊客户端软件的电子表格，或者可以合并实时数据源，或者可以在触发某些条件时呼叫你。更重要的是，你可以编写甚至还没有名字的新型应用程序。毕竟，VisiCalc 不仅仅是大型机应用程序的微机版本——它是一种新型的应用程序。"
+    },
+    {
+      "id": 135,
+      "type": "paragraph",
+      "sourceHash": "70d65a1299234162cec6cae388cd298005fb8017eab2591b4aa2e0acebea8beb",
+      "enMarkdown": "Of course, server-based applications don't have to be Web-based. You could have some other kind of client. But I'm pretty sure that's a bad idea. It would be very convenient if you could assume that everyone would install your client-- so convenient that you could easily convince yourself that they all would-- but if they don't, you're hosed. Because Web-based software assumes nothing about the client, it will work anywhere the Web works. That's a big advantage already, and the advantage will grow as new Web devices proliferate. Users will like you because your software just works, and your life will be easier because you won't have to tweak it for every new client.  [16]",
+      "zhMarkdown": "当然，基于服务器的应用程序不一定非得是基于 Web 的。你可以有某种其他类型的客户端。但我敢肯定那是个坏主意。如果你能假设每个人都会安装你的客户端，那会非常方便——方便到你很容易说服自己他们都会安装——但如果他们不装，你就完蛋了。因为基于 Web 的软件不对客户端做任何假设，所以它可以在任何 Web 运行的地方工作。这已经是一个巨大的优势，而且随着新的 Web 设备的激增，这个优势还会扩大。用户会喜欢你，因为你的软件就是能用，而且你的生活会更轻松，因为你不需要为每一个新的客户端进行调整。[16]"
+    },
+    {
+      "id": 136,
+      "type": "paragraph",
+      "sourceHash": "26c82609be53b8fd783aee281163755ca8082b50572b94bf9761012100861b3a",
+      "enMarkdown": "I feel like I've watched the evolution of the Web as closely as anyone, and I can't predict what's going to happen with clients. Convergence is probably coming, but where? I can't pick a winner. One thing I can predict is conflict between AOL and Microsoft. Whatever Microsoft's .NET turns out to be, it will probably involve connecting the desktop to servers. Unless AOL fights back, they will either be pushed aside or turned into a pipe between Microsoft client and server software. If Microsoft and AOL get into a client war, the only thing sure to work on both will be browsing the Web, meaning Web-based applications will be the only kind that work everywhere.",
+      "zhMarkdown": "我觉得我像任何人一样密切地注视着 Web 的演进，但我无法预测客户端会发生什么。融合可能正在到来，但会在哪里发生？我选不出赢家。我能预测的一件事是 AOL 和微软之间的冲突。无论微软的 .NET 最终是什么，它都可能涉及将桌面连接到服务器。除非 AOL 反击，否则他们要么会被推到一边，要么变成微软客户端和服务器软件之间的一根管道。如果微软和 AOL 陷入客户端战争，唯一确定在两者上都能工作的就只有浏览网页，这意味着基于 Web 的应用程序将是唯一在任何地方都能工作的类型。"
+    },
+    {
+      "id": 137,
+      "type": "paragraph",
+      "sourceHash": "4c51a68eee6227ca44a0a2a4820eb0608f2c9642b1cd258ffdcabfd15080fa3d",
+      "enMarkdown": "How will it all play out? I don't know. And you don't have to know if you bet on Web-based applications. No one can break that without breaking browsing. The Web may not be the only way to deliver software, but it's one that works now and will continue to work for a long time. Web-based applications are cheap to develop, and easy for even the smallest startup to deliver. They're a lot of work, and of a particularly stressful kind, but that only makes the odds better for startups.",
+      "zhMarkdown": "这一切将如何发展？我不知道。如果你赌在基于 Web 的应用程序上，你也不需要知道。没人能破坏这一点，除非他们破坏了网页浏览。Web 可能不是交付软件的唯一方式，但它是现在可行且在很长一段时间内将继续可行的方式。基于 Web 的应用程序开发成本低，即使是最小的创业公司也容易交付。它们需要很多工作，而且是特别有压力的一种，但这只会让创业公司的胜算更大。"
+    },
+    {
+      "id": 138,
+      "type": "paragraph",
+      "sourceHash": "fc0aee00f5ace8b204900385c8307eedd3b0d346286bea3213584c723aaf9795",
+      "enMarkdown": "**Why Not?**",
+      "zhMarkdown": "**为什么不呢？**"
+    },
+    {
+      "id": 139,
+      "type": "paragraph",
+      "sourceHash": "3e035d4407a2dfb622ffd123dd166d50f4eb651ca495fc81e9e4f9d9889a5ab9",
+      "enMarkdown": "E. B. White was amused to learn from a farmer friend that many electrified fences don't have any current running through them. The cows apparently learn to stay away from them, and after that you don't need the current. \"Rise up, cows!\" he wrote, \"Take your liberty while despots snore!\"",
+      "zhMarkdown": "E. B. 怀特（E. B. White）从一位农民朋友那里得知，许多电网围栏里根本没有电流通过，这让他觉得很有趣。牛显然学会了远离它们，之后你就不需要通电了。“站起来，牛儿们！”他写道，“趁着暴君打鼾，夺回你们的自由！”"
+    },
+    {
+      "id": 140,
+      "type": "paragraph",
+      "sourceHash": "a486d3bb961362c28b3fe8d724fd053d2ddc5929009d8b367e04cb841056db92",
+      "enMarkdown": "If you're a hacker who has thought of one day starting a startup, there are probably two things keeping you from doing it. One is that you don't know anything about business. The other is that you're afraid of competition. Neither of these fences have any current in them.",
+      "zhMarkdown": "如果你是一个曾想过有一天创办一家创业公司的黑客，可能有两个原因阻止了你。一是对商业一无所知。二是害怕竞争。这两个围栏里其实都没有电。"
+    },
+    {
+      "id": 141,
+      "type": "paragraph",
+      "sourceHash": "7f797c9b44cf9d5a3d64552bc0a8b682505cb9e7e1639426fa32a28546a64992",
+      "enMarkdown": "There are only two things you have to know about business: build something users love, and make more than you spend. If you get these two right, you'll be ahead of most startups. You can figure out the rest as you go.",
+      "zhMarkdown": "关于商业，你只需要知道两件事：做出用户喜爱的东西，以及赚的比花的多。如果你把这两件事做对了，你就会领先于大多数创业公司。其余的事情你可以在做的过程中慢慢摸索。"
+    },
+    {
+      "id": 142,
+      "type": "paragraph",
+      "sourceHash": "1b17e25039d5862126966bb8b0e30c14f0b1db7ea1f71283244b10bb7ba0e389",
+      "enMarkdown": "You may not at first make more than you spend, but as long as the gap is closing fast enough you'll be ok. If you start out underfunded, it will at least encourage a habit of frugality. The less you spend, the easier it is to make more than you spend. Fortunately, it can be very cheap to launch a Web-based application. We launched on under $10,000, and it would be even cheaper today. We had to spend thousands on a server, and thousands more to get SSL. (The only company selling SSL software at the time was Netscape.) Now you can rent a much more powerful server, with SSL included, for less than we paid for bandwidth alone. You could launch a Web-based application now for less than the cost of a fancy office chair.",
+      "zhMarkdown": "起初你可能挣得没有花得多，但只要这个差距在迅速缩小，你就不会有事。如果你在资金不足的情况下起步，至少这会培养出勤俭节约的习惯。你花得越少，就越容易赚得比花得多。幸运的是，发布一个基于 Web 的应用可以非常便宜。我们当年是用不到 10,000 美元发布的，今天甚至会更便宜。我们不得不花几千美元买一台服务器，再花几千美元买 SSL。（当时唯一销售 SSL 软件的公司是 Netscape。）现在，你可以租用一台性能强大得多的服务器，并且包含 SSL，价格比我们当年单单付带宽费还要便宜。你现在发布一个基于 Web 的应用，成本可能比买一把高档办公椅还要低。"
+    },
+    {
+      "id": 143,
+      "type": "paragraph",
+      "sourceHash": "658d76db29afb4b0686265ef14edf3c1eec2e46a7fa1f0595985df5106d6e5ee",
+      "enMarkdown": "As for building something users love, here are some general tips. Start by making something clean and simple that you would want to use yourself. Get a version 1.0 out fast, then continue to improve the software, listening closely to the users as you do. The customer is always right, but different customers are right about different things; the least sophisticated users show you what you need to simplify and clarify, and the most sophisticated tell you what features you need to add. The best thing software can be is easy, but the way to do this is to get the defaults right, not to limit users' choices. Don't get complacent if your competitors' software is lame; the standard to compare your software to is what it could be, not what your current competitors happen to have. Use your software yourself, all the time. Viaweb was supposed to be an online store builder, but we used it to make our own site too. Don't listen to marketing people or designers or product managers just because of their job titles. If they have good ideas, use them, but it's up to you to decide; software has to be designed by hackers who understand design, not designers who know a little about software. If you can't design software as well as implement it, don't start a startup.",
+      "zhMarkdown": "至于做出用户喜爱的东西，这里有一些通用的建议。首先制作一些干净、简单、你自己都想用的东西。快速推出一个 1.0 版本，然后继续改进软件，在此过程中密切倾听用户的意见。客户总是对的，但不同的客户在不同的事情上是对的；最不成熟的用户会告诉你需要简化和澄清什么，而最成熟的用户会告诉你需要添加什么功能。软件最棒的品质就是简单，但做到这一点的方法是把默认设置做好，而不是限制用户的选择。如果你的竞争对手的软件很烂，不要自满；用来衡量你软件的标准应该是它能达到什么样的高度，而不是你目前的竞争对手碰巧做成了什么样。自己一直使用自己的软件。Viaweb 本来应该是一个在线商店构建工具，但我们也用它来制作我们自己的网站。不要仅仅因为营销人员、设计师或产品经理的职位头衔就听从他们。如果他们有好主意，就采纳，但决定权在你；软件必须由懂得设计的黑客来设计，而不是由对软件略知一二的设计师来设计。如果你不能在实现软件的同时也设计软件，就不要创办创业公司。"
+    },
+    {
+      "id": 144,
+      "type": "paragraph",
+      "sourceHash": "c468354a3ab89c76a9006d75ea593879da800a101c1481bc54a2ab994d42f9c7",
+      "enMarkdown": "Now let's talk about competition. What you're afraid of is not presumably groups of hackers like you, but actual companies, with offices and business plans and salesmen and so on, right? Well, they are more afraid of you than you are of them, and they're right. It's a lot easier for a couple of hackers to figure out how to rent office space or hire sales people than it is for a company of any size to get software written. I've been on both sides, and I know. When Viaweb was bought by Yahoo, I suddenly found myself working for a big company, and it was like trying to run through waist-deep water.",
+      "zhMarkdown": "现在我们来谈谈竞争。你害怕的想必不是像你这样的黑客群体，而是真正的公司，有办公室、商业计划书和销售员等等，对吧？好吧，他们比你更害怕你，而且他们是对的。两三个黑客去琢磨如何租用办公空间或雇用销售人员，要比任何规模的公司去把软件写出来容易得多。我两边都待过，我知道。当 Viaweb 被雅虎收购时，我突然发现自己为一家大公司工作，那感觉就像试图在齐腰深的水里奔跑。"
+    },
+    {
+      "id": 145,
+      "type": "paragraph",
+      "sourceHash": "6ec9aae227285922befd707ab51755fefcad75515ec469add59f370cf74f6f95",
+      "enMarkdown": "I don't mean to disparage Yahoo. They had some good hackers, and the top management were real butt-kickers. For a big company, they were exceptional. But they were still only about a tenth as productive as a small startup. No big company can do much better than that. What's scary about Microsoft is that a company so big can develop software at all. They're like a mountain that can walk.",
+      "zhMarkdown": "我无意贬低雅虎。他们有一些很好的黑客，而且高层管理人员确实非常厉害。对于一家大公司来说，他们是出类拔萃的。但他们的生产效率仍然只有小型创业公司的十分之一左右。没有哪家大公司能做得比这好太多。微软令人畏惧的地方在于，一家如此庞大的公司居然还能开发软件。他们就像一座会行走的整座大山。"
+    },
+    {
+      "id": 146,
+      "type": "paragraph",
+      "sourceHash": "ee48929e51ac520f38a9612151d9503ace3bc536ab2efc3101f492c55556801a",
+      "enMarkdown": "Don't be intimidated. You can do as much that Microsoft can't as they can do that you can't. And no one can stop you. You don't have to ask anyone's permission to develop Web-based applications. You don't have to do licensing deals, or get shelf space in retail stores, or grovel to have your application bundled with the OS. You can deliver software right to the browser, and no one can get between you and potential users without preventing them from browsing the Web.",
+      "zhMarkdown": "不要被吓倒。你能做微软做不到的事，就像他们能做你做不到的事一样多。而且没人能阻止你。你开发基于 Web 的应用不需要征得任何人的许可。你不需要做授权交易，不需要在零售店争夺货架空间，也不需要低声下气地求别人把你的应用和操作系统捆绑在一起。你可以直接把软件交付到浏览器，只要不阻止人们浏览网页，就没人能阻挡在你和潜在用户之间。"
+    },
+    {
+      "id": 147,
+      "type": "paragraph",
+      "sourceHash": "364af1e8b98e801d9a78c8d022a7cd77544561e27f33560bde9aa0f16529e85c",
+      "enMarkdown": "You may not believe it, but I promise you, Microsoft is scared of you. The complacent middle managers may not be, but Bill is, because he was you once, back in 1975, the last time a new way of delivering software appeared.",
+      "zhMarkdown": "你可能不相信，但我向你保证，微软害怕你。自满的中层管理人员可能不害怕，但比尔害怕，因为在 1975 年，也就是上一次出现交付软件的新方式时，他就是你。"
+    },
+    {
+      "id": 148,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 149,
+      "type": "paragraph",
+      "sourceHash": "92ff7cedd3e426576dfb46a912b18189a58f3f3d3328218f22e22279aae02479",
+      "enMarkdown": "[1] Realizing that much of the money is in the services, companies building lightweight clients have usually tried to combine the hardware with an [online service](http://news.cnet.com/news/0-1006-200-3622600.html). This approach has not worked well, partly because you need two different kinds of companies to build consumer electronics and to run an online service, and partly because users hate the idea. Giving away the razor and making money on the blades may work for Gillette, but a razor is much smaller commitment than a Web terminal. Cell phone handset makers are satisfied to sell hardware without trying to capture the service revenue as well. That should probably be the model for Internet clients too. If someone just sold a nice-looking little box with a Web browser that you could use to connect through any ISP, every technophobe in the country would buy one.",
+      "zhMarkdown": "[1] 意识到很多钱都在服务里，制造轻量级客户端的公司通常试图将硬件与[在线服务](http://news.cnet.com/news/0-1006-200-3622600.html)结合起来。这种方法效果不好，部分原因是因为你需要两种不同类型的公司来制造消费电子产品和运行在线服务，部分原因是因为用户讨厌这个主意。送剃须刀靠刀片赚钱对吉列可能有效，但剃须刀比 Web 终端是小得多的承诺。手机制造商满足于销售硬件，而不试图也去获取服务收入。这可能也应该成为互联网客户端的模式。如果有人只卖一个外观漂亮、带有 Web 浏览器的盒子，你可以用它通过任何 ISP 进行连接，那么全国每一个技术恐惧症患者都会买一个。"
+    },
+    {
+      "id": 150,
+      "type": "paragraph",
+      "sourceHash": "3355bbf52e8aa874a69bbce8f36753c7f384c663725ca2e96c2f0cc0f4c1c613",
+      "enMarkdown": "[2] Security always depends more on not screwing up than any design decision, but the nature of server-based software will make developers pay more attention to not screwing up. Compromising a server could cause such damage that ASPs (that want to stay in business) are likely to be careful about security.",
+      "zhMarkdown": "[2] 安全总是更多地取决于不犯错，而不是任何设计决策，但基于服务器软件的本质将使开发者更加注意不犯错。攻破服务器可能会造成极大的损害，以至于（想要继续生存的）ASP 可能会对安全非常小心。"
+    },
+    {
+      "id": 151,
+      "type": "paragraph",
+      "sourceHash": "903db28dc6043dcfcfb26796847a15d6c4481ddb1d9520a67911bcecf84eb38e",
+      "enMarkdown": "[3] In 1995, when we started Viaweb, Java applets were supposed to be the technology everyone was going to use to develop server-based applications. Applets seemed to us an old-fashioned idea. Download programs to run on the client? Simpler just to go all the way and run the programs on the server. We wasted little time on applets, but countless other startups must have been lured into this tar pit. Few can have escaped alive, or Microsoft could not have gotten away with dropping Java in the most recent version of Explorer.",
+      "zhMarkdown": "[3] 在 1995 年我们创立 Viaweb 时，Java applet 本该是每个人都会用来开发基于服务器应用的语言。对我们来说，Applet 似乎是一个老套的想法。下载程序在客户端上运行？直接在服务器上运行程序要简单得多。我们在 Applet 上几乎没有浪费时间，但无数其他创业公司一定被诱骗进了这个焦油坑。没几个能活着逃出来，否则微软也不可能在最新版的 Explorer 中放弃对 Java 的支持。"
+    },
+    {
+      "id": 152,
+      "type": "paragraph",
+      "sourceHash": "62f9c1d65bd68e97bd4c354e0ea586ced8334a5ff40cee83925ae04a12dcc0a2",
+      "enMarkdown": "[4] This point is due to Trevor Blackwell, who adds \"the cost of writing software goes up more than linearly with its size. Perhaps this is mainly due to fixing old bugs, and the cost can be more linear if all bugs are found quickly.\"",
+      "zhMarkdown": "[4] 这一点要归功于特雷弗·布莱克威尔，他补充说：“编写软件的成本随其规模呈非线性增长。也许这主要是由于修复旧的 Bug，如果所有的 Bug 都能被快速发现，成本可能会更接近线性。”"
+    },
+    {
+      "id": 153,
+      "type": "paragraph",
+      "sourceHash": "6e98dee96b056bae885fdce8ff0a5c3f37626c48d068c27a8e4f12d7a716d9db",
+      "enMarkdown": "[5] The hardest kind of bug to find may be a variant of compound bug where one bug happens to compensate for another. When you fix one bug, the other becomes visible. But it will seem as if the fix is at fault, since that was the last thing you changed.",
+      "zhMarkdown": "[5] 最难找的 Bug 可能是一种变体的复合 Bug，其中一个 Bug 恰好补偿了另一个 Bug。当你修复了一个 Bug 时，另一个就会显现出来。但这看起来像是修复的那个地方出了错，因为那是你修改的最后一样东西。"
+    },
+    {
+      "id": 154,
+      "type": "paragraph",
+      "sourceHash": "0b09262f49e653428c7738dbcc46958debaf624350c9d2aa4437309cb69425ae",
+      "enMarkdown": "[6] Within Viaweb we once had a contest to describe the worst thing about our software. Two customer support people tied for first prize with entries I still shiver to recall. We fixed both problems immediately.",
+      "zhMarkdown": "[6] 在 Viaweb 内部，我们曾举办过一次竞赛，描述我们软件中最糟糕的地方。两位客户支持人员并列第一，他们的描述至今仍让我不寒而栗。我们立即修复了这两个问题。"
+    },
+    {
+      "id": 155,
+      "type": "paragraph",
+      "sourceHash": "1b9f7281e4a395d9448a1d65083e86975e23cd6d98672125ed36b04f82de8eba",
+      "enMarkdown": "[7] Robert Morris wrote the ordering system, which shoppers used to place orders. Trevor Blackwell wrote the image generator and the manager, which merchants used to retrieve orders, view statistics, and configure domain names etc. I wrote the editor, which merchants used to build their sites. The ordering system and image generator were written in C and C++, the manager mostly in Perl, and the editor in [Lisp](https://paulgraham.com/avg.html).",
+      "zhMarkdown": "[7] 罗伯特·莫里斯写了订单系统，顾客用它来下单。特雷弗·布莱克威尔写了图片生成器和管理器，商家用它来检索订单、查看统计数据和配置域名等。我写了编辑器，商家用它来构建他们的网站。订单系统和图片生成器是用 C 和 C++ 写的，管理器主要用 Perl，而编辑器用 [Lisp](https://paulgraham.com/avg.html) 写的。"
+    },
+    {
+      "id": 156,
+      "type": "paragraph",
+      "sourceHash": "85230a1783267c2395049f92cff4945c44e1ece789292bb27be5c35c409ee72f",
+      "enMarkdown": "[8] Price discrimination is so pervasive (how often have you heard a retailer claim that their buying power meant lower prices for you?) that I was surprised to find it was outlawed in the U.S. by the Robinson-Patman Act of 1936. This law does not appear to be vigorously enforced.",
+      "zhMarkdown": "[8] 价格歧视是如此普遍（你有多经常听到零售商声称他们的购买力意味着给你的价格更低？），以至于我惊讶地发现它在 1936 年被美国的《罗宾逊-帕特曼法案》判定为非法。这项法律似乎没有得到严格执行。"
+    },
+    {
+      "id": 157,
+      "type": "paragraph",
+      "sourceHash": "9c8784cf815f60222f53df518c42cdfcb7291014d693dea38005a4d019fa9dda",
+      "enMarkdown": "[9] In *No Logo,* Naomi Klein says that clothing brands favored by \"urban youth\" do not try too hard to prevent shoplifting because in their target market the shoplifters are also the fashion leaders.",
+      "zhMarkdown": "[9] 娜奥米·克兰（Naomi Klein）在《No Logo》中说，受“城市青年”喜爱的服装品牌不会太努力去防止盗窃，因为在他们的目标市场中，小偷也是时尚的引领者。"
+    },
+    {
+      "id": 158,
+      "type": "paragraph",
+      "sourceHash": "d1413ff9c3417af84018080bfa04feb03a1435eb888997412c40e48e01dfa749",
+      "enMarkdown": "[10] Companies often wonder what to outsource and what not to. One possible answer: outsource any job that's not directly exposed to competitive pressure, because outsourcing it will thereby expose it to competitive pressure.",
+      "zhMarkdown": "[10] 公司经常想知道该外包什么，不该外包什么。一个可能的答案：外包任何没有直接暴露在竞争压力下的工作，因为外包会从而使其暴露在竞争压力下。"
+    },
+    {
+      "id": 159,
+      "type": "paragraph",
+      "sourceHash": "4cc3470d3fbdd4774b9c70d00a92935021af7acbb88158d8fffd1ab73335734c",
+      "enMarkdown": "[11] The two guys were Dan Bricklin and Bob Frankston. Dan wrote a prototype in Basic in a couple days, then over the course of the next year they worked together (mostly at night) to make a more powerful version written in 6502 machine language. Dan was at Harvard Business School at the time and Bob nominally had a day job writing software. \"There was no great risk in doing a business,\" Bob wrote, \"If it failed it failed. No big deal.\"",
+      "zhMarkdown": "[11] 这两个人是丹·布里克林（Dan Bricklin）和鲍勃·弗兰克斯顿（Bob Frankston）。丹在几天内用 Basic 写了一个原型，然后在接下来的这一年里，他们一起工作（主要在晚上）做出了一个用 6502 机器语言编写的功能更强大的版本。丹当时在哈佛商学院，鲍勃名义上有一份写软件的日常工作。“做这件事没有太大的风险，”鲍勃写道，“如果失败了就失败了。没什么大不了的。”"
+    },
+    {
+      "id": 160,
+      "type": "paragraph",
+      "sourceHash": "5f070cfb08357479c8d8e057e7cbab6fd0863932951755febed8faa30f1dac7c",
+      "enMarkdown": "[12] It's not quite as easy as I make it sound. It took a painfully long time for word of mouth to get going, and we did not start to get a lot of press coverage until we hired a [PR firm](http://www.schwartz-pr.com) (admittedly the best in the business) for $16,000 per month. However, it was true that the only significant channel was our own Web site.",
+      "zhMarkdown": "[12] 这并不像我听起来那么容易。口碑传播花了痛苦的漫长时间，直到我们每月花 16,000 美元雇了一家[公关公司](http://www.schwartz-pr.com)（承认是业内最好的），我们才开始获得大量的媒体报道。然而，唯一重要的渠道确实是我们自己的网站。"
+    },
+    {
+      "id": 161,
+      "type": "paragraph",
+      "sourceHash": "2ae6bfa2b15b3cc29dc24b94f591bc1d7311e53372bda1dbcb59a3c36666c661",
+      "enMarkdown": "[13] If the Mac was so great, why did it lose? Cost, again. Microsoft concentrated on the software business, and unleashed a swarm of cheap component suppliers on Apple hardware. It did not help, either, that suits took over during a critical period.",
+      "zhMarkdown": "[13] 如果 Mac 这么棒，为什么它输了？还是因为成本。微软专注于软件业务，并在苹果的硬件上释放了一群廉价的组件供应商。在关键时期由西装革履的商务人士接管，也无济于事。"
+    },
+    {
+      "id": 162,
+      "type": "paragraph",
+      "sourceHash": "91e2c63814bac02f8945d668aa208f59e3ef11f1a6dab8d1a71be2fc793e6420",
+      "enMarkdown": "[14] One thing that would help Web-based applications, and help keep the next generation of software from being overshadowed by Microsoft, would be a good open-source browser. Mozilla is open-source but seems to have suffered from having been corporate software for so long. A small, fast browser that was actively maintained would be a great thing in itself, and would probably also encourage companies to build little Web appliances.",
+      "zhMarkdown": "[14] 有助于基于 Web 的应用、并防止下一代软件被微软阴影所遮蔽的一件事，将是一个优秀的开源浏览器。Mozilla 是开源的，但似乎长期以来一直受到作为企业软件的折磨。一个维护积极、小巧且快速的浏览器本身就是一件伟大的事情，而且也可能会鼓励公司制造小型的 Web 设备。"
+    },
+    {
+      "id": 163,
+      "type": "paragraph",
+      "sourceHash": "ea7bb3a8dcad72bbb41c7ece0c572a6a1a648b8eb42cf5a7e68673bbce9ba631",
+      "enMarkdown": "Among other things, a proper open-source browser would cause HTTP and HTML to continue to evolve (as e.g. Perl has). It would help Web-based applications greatly to be able to distinguish between selecting a link and following it; all you'd need to do this would be a trivial enhancement of HTTP, to allow multiple urls in a request. Cascading menus would also be good.",
+      "zhMarkdown": "除其他外，一个真正的开源浏览器会导致 HTTP 和 HTML 继续演进（例如像 Perl 那样）。如果能够区分选择一个链接和追踪它，这将对基于 Web 的应用程序有极大的帮助；要做到这一点，你只需要对 HTTP 进行微不足道的改进，允许在请求中包含多个 URL。级联菜单也会很好。"
+    },
+    {
+      "id": 164,
+      "type": "paragraph",
+      "sourceHash": "f46871b18f5e0536ac1a2a61d33ae1522d5f4c248f9ec3c1ca6ed9e0dcefb82c",
+      "enMarkdown": "If you want to change the world, write a new Mosaic. Think it's too late? In 1998 a lot of people thought it was too late to launch a new search engine, but Google proved them wrong. There is always room for something new if the current options suck enough. Make sure it works on all the free OSes first-- new things start with their users.",
+      "zhMarkdown": "如果你想改变世界，写一个新的 Mosaic。觉得太晚了吗？在 1998 年，很多人认为推出一个新的搜索引擎已经太晚了，但谷歌证明他们错了。如果目前的选项足够烂，总会有新东西的空间。确保它首先在所有免费操作系统上运行——新事物始于它们的用户。"
+    },
+    {
+      "id": 165,
+      "type": "paragraph",
+      "sourceHash": "f20108948f207443bc60bfb90825f9c693486f70b36aeafb38913125954f7ca2",
+      "enMarkdown": "[15] Trevor Blackwell, who probably knows more about this from personal experience than anyone, writes:",
+      "zhMarkdown": "[15] 特雷弗·布莱克威尔可能比任何人都更了解这一点，他写道："
+    },
+    {
+      "id": 166,
+      "type": "paragraph",
+      "sourceHash": "ac484b5d24e4a7d2184e897fea23755652133f7a64960a69896b038823455051",
+      "enMarkdown": "\"I would go farther in saying that because server-based software is so hard on the programmers, it causes a fundamental economic shift away from large companies. It requires the kind of intensity and dedication from programmers that they will only be willing to provide when it's their own company. Software companies can hire skilled people to work in a not-too-demanding environment, and can hire unskilled people to endure hardships, but they can't hire highly skilled people to bust their asses. Since capital is no longer needed, big companies have little to bring to the table.\"",
+      "zhMarkdown": "“我更进一步地认为，因为基于服务器的软件对程序员来说是如此辛苦，它导致了根本性的经济转变，远离了大公司。它需要程序员付出那种强度和奉献精神，只有当这是他们自己的公司时，他们才愿意提供。软件公司可以雇佣有技能的人在不太苛刻的环境中工作，也可以雇佣没有技能的人去忍受艰苦，但他们不能雇佣高技能的人去拼命。既然不再需要资本，大公司就几乎没有什么可以带到谈判桌上的了。”"
+    },
+    {
+      "id": 167,
+      "type": "paragraph",
+      "sourceHash": "62fa35015af122dda5d888aa6ea35b5ce6a61701133a1cdd64bd88700698529b",
+      "enMarkdown": "[16] In the original version of this essay, I advised avoiding Javascript. That was a good plan in 2001, but Javascript now works.",
+      "zhMarkdown": "[16] 在这篇文章的最初版本中，我建议避免使用 Javascript。这在 2001 年是一个好计划，但现在 Javascript 已经可以很好地工作了。"
+    },
+    {
+      "id": 168,
+      "type": "paragraph",
+      "sourceHash": "ac90e8cca95d0ade3504a24bc530fa11414772b03ded4b13e703140b86c05ba3",
+      "enMarkdown": "**Thanks** to Sarah Harlin, Trevor Blackwell, Robert Morris, Eric Raymond, Ken Anderson, and Dan Giffin for reading drafts of this paper; to Dan Bricklin and Bob Frankston for information about VisiCalc; and again to Ken Anderson for inviting me to speak at BBN.",
+      "zhMarkdown": "**感谢** Sarah Harlin、Trevor Blackwell、Robert Morris、Eric Raymond、Ken Anderson 和 Dan Giffin 阅读了本文的草稿；感谢 Dan Bricklin 和 Bob Frankston 提供关于 VisiCalc 的信息；并再次感谢 Ken Anderson 邀请我在 BBN 演讲。"
+    },
+    {
+      "id": 169,
+      "type": "rawUnsupported",
+      "sourceHash": "d7f6142b600b6ea19088273d37882cf03b63c9367708c874e6feaf4ad243d2df",
+      "enMarkdown": "You'll find this essay and 14 others in Hackers & Painters."
+    },
+    {
+      "id": 170,
+      "type": "rawUnsupported",
+      "sourceHash": "4da24dab921cebd6e0957c6f1d64901b4107d03f396e0e368791ea4f80e13e29",
+      "enMarkdown": "|  | Some Technical Details |  |  |  | Japanese Translation\n|  | Microsoft finally agrees |  |  |  | Gates Email"
+    }
+  ]
+}

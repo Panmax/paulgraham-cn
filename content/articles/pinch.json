@@ -1,0 +1,216 @@
+{
+  "slug": "pinch",
+  "titleEn": "The Fatal Pinch",
+  "titleZh": "致命的危机",
+  "dateText": "December 2014",
+  "publishedAt": "2014-12-01",
+  "sourceOrder": 74,
+  "sourceUrl": "https://paulgraham.com/pinch.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "7082fe0724b80cf2bd197e6dabdc80e823d27eee7b7b3db199d7655acd4efdfa",
+      "enMarkdown": "Many startups go through a point a few months before they die where although they have a significant amount of money in the bank, they're also losing a lot each month, and revenue growth is either nonexistent or mediocre. The company has, say, 6 months of runway. Or to put it more brutally, 6 months before they're out of business. They expect to avoid that by raising more from investors. [[1](#f1n)]",
+      "zhMarkdown": "许多创业公司在倒闭前几个月都会经历这样一个阶段：虽然银行里还有一大笔钱，但每个月也亏损严重，而且收入增长要么停滞不前，要么平庸至极。公司可能还有，比方说，6 个月的资金跑道。或者说得更残酷一点，距离倒闭还有 6 个月。他们期望通过从投资人那里融到更多钱来避免这个结局。[[1](#f1n)]"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "75756b9505d047dcd6a76ad6346d809b2784e00b5a1ba0604d9d05e44cb17f58",
+      "enMarkdown": "That last sentence is the fatal one.",
+      "zhMarkdown": "最后这句话，就是致命的根源。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "2fded32ad54fa371f223d984eea3f4e93bc99244003bb2c95073e30a528afc26",
+      "enMarkdown": "There may be nothing founders are so prone to delude themselves about as how interested investors will be in giving them additional funding. It's hard to convince investors the first time too, but founders expect that. What bites them the second time is a confluence of three forces:",
+      "zhMarkdown": "在所有事情中，创始人最容易产生幻觉的，恐怕莫过于投资人会有多大兴趣给他们追加投资。第一轮融资时说服投资人确实也很难，但创始人对此是有心理准备的。而在第二轮融资时，以下三种力量的交织会给他们致命一击："
+    },
+    {
+      "id": 4,
+      "type": "list",
+      "sourceHash": "05ffdbdbece8b7ced02d60573fb8393d3e896ab1ec27422a225baabdaa3f4eb6",
+      "enMarkdown": "1. The company is spending more now than it did the first time it raised money.\n2. Investors have much higher standards for companies that have already raised money.\n3. The company is now starting to read as a failure. The first time it raised money, it was neither a success nor a failure; it was too early to ask. Now it's possible to ask that question, and the default answer is failure, because at this point that is the default outcome.",
+      "zhMarkdown": "1. 公司现在的开销比第一轮融资时要大得多。\n2. 投资人对已经融过资的公司的标准要高得多。\n3. 公司现在开始显露出失败的迹象。在第一轮融资时，它既谈不上成功也谈不上失败，因为当时问这个问题还为时过早。而现在，这个问题已经无法回避，且默认的答案是失败——因为在现阶段，失败本就是默认的结局。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "0c964e35f101bc9b9c1b5d5e4eb53179de0029efb52e54790a6ec06795c3f794",
+      "enMarkdown": "I'm going to call the situation I described in the first paragraph \"the fatal pinch.\" I try to resist coining phrases, but making up a name for this situation may snap founders into realizing when they're in it.",
+      "zhMarkdown": "我把第一段中描述的这种处境称为“致命的危机”（the fatal pinch）。我一向不喜欢发明新词，但给这种处境起个名字，或许能让身处其中的创始人猛然惊醒。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "cf65a92eb5b740144d25137347ee5a5d0c0004703875e83f86b3986f6e0e7dd3",
+      "enMarkdown": "One of the things that makes the fatal pinch so dangerous is that it's self-reinforcing. Founders overestimate their chances of raising more money, and so are slack about reaching profitability, which further decreases their chances of raising money.",
+      "zhMarkdown": "“致命的危机”之所以如此危险，原因之一在于它是自我强化的。创始人高估了自己再次融资的概率，因而在实现盈利这件事上懈怠了，这反过来又进一步降低了他们融到钱的概率。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "91ca2099111d83f23f8118f5981e031ed062a8816105c5ab470d14c87a69ab44",
+      "enMarkdown": "Now that you know about the fatal pinch, how do you avoid it? Y Combinator tells founders who raise money to act as if it's the last they'll ever get. Because the self-reinforcing nature of this situation works the other way too: the less you need further investment, the easier it is to get.",
+      "zhMarkdown": "既然你已经知道了“致命的危机”，该如何避免它呢？Y Combinator 总是告诉拿到融资的创始人，要像这是他们能拿到的最后一笔钱一样去行事。因为这种自我强化的机制反过来同样成立：你越不需要新资金，就越容易拿到投资。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2ad87e2a5c88de56de7acdc5e5aae8e71e89c19a9ca25d87f754194be86c8436",
+      "enMarkdown": "What do you do if you're already in the fatal pinch? The first step is to re-evaluate the probability of raising more money. I will now, by an amazing feat of clairvoyance, do this for you: the probability is zero. [[2](#f2n)]",
+      "zhMarkdown": "如果你已经深陷“致命的危机”中，该怎么办？第一步是重新评估融到更多钱的概率。现在，我将用神乎其神的预言能力帮你做这个评估：这个概率是零。[[2](#f2n)]"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "d2e5d02110b55aa9406c7a2982d481919c96414475f76c9e90b22c06cb8765b0",
+      "enMarkdown": "Three options remain: you can shut down the company, you can increase how much you make, and you can decrease how much you spend.",
+      "zhMarkdown": "你只剩下三个选择：关闭公司、增加收入，或者减少开支。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "423f4b389c0c2bd7aa932456d11bba197cfe5948791bc69606cf5314ce8d9fa0",
+      "enMarkdown": "You should shut down the company if you're certain it will fail no matter what you do. Then at least you can give back the money you have left, and save yourself however many months you would have spent riding it down.",
+      "zhMarkdown": "如果你确信无论做什么公司都注定要失败，那么你应该关闭公司。这样你至少可以把剩下的钱退给投资人，并省下原本要陪着公司一起慢慢坠落的几个月时间。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "dd04d86f5a2de44a40277b433c2219882a9013d14307c83f4c586715e6662ac3",
+      "enMarkdown": "Companies rarely *have* to fail though. What I'm really doing here is giving you the option of admitting you've already given up.",
+      "zhMarkdown": "不过，公司很少有*不得不*失败的时候。我在这里提出这个选项，其实是在给你一个承认自己已经放弃的机会。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "fa242f891404a18385a5e4c5d7288861c35e61c432e9e750b2289209899368f0",
+      "enMarkdown": "If you don't want to shut down the company, that leaves increasing revenues and decreasing expenses. In most startups, expenses = people, and decreasing expenses = firing people. [[3](#f3n)] Deciding to fire people is usually hard, but there's one case in which it shouldn't be: when there are people you already know you should fire but you're in denial about it. If so, now's the time.",
+      "zhMarkdown": "如果你不想关闭公司，那就只剩下增加收入和减少开支了。在大多数创业公司中，开支就等于员工，减少开支就等于裁员。[[3](#f3n)] 决定裁员通常很艰难，但在一种情况下它不应该艰难：那就是当你心里清楚早该解雇某些人，却一直在自我欺骗的时候。如果是这样，现在就是动手的时候了。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "3168e572ece97b7027d37be2acea14cb0f86b15c4786379299106dff3460704f",
+      "enMarkdown": "If that makes you profitable, or will enable you to make it to profitability on the money you have left, you've avoided the immediate danger.",
+      "zhMarkdown": "如果这能让你实现盈利，或者能让你靠剩下的钱撑到盈利，那么你就避开了眼前的危险。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "2aec0a929f78beb8f22878c29925261b5ccffea2343d1b6d0deaef14369326dc",
+      "enMarkdown": "Otherwise you have three options: you either have to fire good people, get some or all of the employees to take less salary for a while, or increase revenues.",
+      "zhMarkdown": "否则，你还有三个选择：要么解雇优秀的员工，要么让部分或全部员工暂时降薪，要么增加收入。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "9c8134566619051a76cc87e635304d6e75dab18111bd8687fe8b54ed835585e8",
+      "enMarkdown": "Getting people to take less salary is a weak solution that will only work when the problem isn't too bad. If your current trajectory won't quite get you to profitability but you can get over the threshold by cutting salaries a little, you might be able to make the case to everyone for doing it. Otherwise you're probably just postponing the problem, and that will be obvious to the people whose salaries you're proposing to cut. [[4](#f4n)]",
+      "zhMarkdown": "让员工降薪是一个软弱的解决方案，只有在问题不太严重时才管用。如果你目前的轨迹离盈利只差一点，而通过稍微降薪就能跨过这个门槛，你或许可以说服大家配合。否则，你可能只是在推迟问题的爆发，而那些被你提议降薪的员工也会看穿这一点。[[4](#f4n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "5c09e08a4b7aef4205a377d8c92dc0debd7c938c52a332ba95db3d6a3663aa6c",
+      "enMarkdown": "Which leaves two options, firing good people and making more money. While trying to balance them, keep in mind the eventual goal: to be a successful product company in the sense of having a single thing lots of people use.",
+      "zhMarkdown": "这样就只剩下两个选择：解雇优秀的员工，以及赚更多的钱。在权衡这两者时，要牢记最终的目标：成为一家成功的产品公司，也就是拥有一个有很多人使用的单一产品。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "7b4a9113e1f57fe4e717e64af9b82ae88939aa38a857a5f0ed3ad1258a47d367",
+      "enMarkdown": "You should lean more toward firing people if the source of your trouble is overhiring. If you went out and hired 15 people before you even knew what you were building, you've created a broken company. You need to figure out what you're building, and it will probably be easier to do that with a handful of people than 15. Plus those 15 people might not even be the ones you need for whatever you end up building. So the solution may be to shrink and then figure out what direction to grow in. After all, you're not doing those 15 people any favors if you fly the company into ground with them aboard. They'll all lose their jobs eventually, along with all the time they expended on this doomed company.",
+      "zhMarkdown": "如果你的麻烦源于过度招聘，你应该更倾向于裁员。如果你在还没搞清楚自己要做什么之前就招了 15 个人，你就建立了一个畸形的公司。你需要弄清楚自己到底在做什么，而带着几个人去做这件事，通常比带着 15 个人更容易。况且，这 15 个人甚至可能根本不是你最终做出的产品所需要的人才。因此，解决方案可能是先缩减规模，然后再摸索增长的方向。毕竟，如果你带着这 15 个人一起把公司开进沟里，对他们也没有任何好处。他们最终都会失去工作，还搭上了在这家注定失败的公司里消耗的所有时间。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "0d1be95cd155e729ffde09c358a9ca4ebf73d5ed6af402ad47c075475275fe7b",
+      "enMarkdown": "Whereas if you only have a handful of people, it may be better to focus on trying to make more money. It may seem facile to suggest a startup make more money, as if that could be done for the asking. Usually a startup is already trying as hard as it can to sell whatever it sells. What I'm suggesting here is not so much to try harder to make money but to try to make money in a different way. For example, if you have only one person selling while the rest are writing code, consider having everyone work on selling. What good will more code do you when you're out of business? If you have to write code to close a certain deal, go ahead; that follows from everyone working on selling. But only work on whatever will get you the most revenue the soonest.",
+      "zhMarkdown": "相反，如果你只有几个人，那么专注于尝试赚更多的钱可能会更好。建议一家创业公司去赚更多的钱听起来像是一句废话，就好像只要想赚就能赚到一样。通常，创业公司已经尽了最大努力去销售他们的产品。我在这里建议的，与其说是加倍努力去赚钱，不如说是尝试用不同的方式去赚钱。例如，如果你们只有一个人在做销售，而其他人都在写代码，可以考虑让所有人一起去跑销售。当你都要倒闭了，写更多代码又有什么用呢？如果为了谈下一笔订单必须写代码，那就去写，这本就是全员销售的一部分。但务必只做那些能让你最快获得最多收入的事情。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "51ac3cfa422278885003d1b9e24b5584a8c44f44e2de8564edf64f1f139b5b06",
+      "enMarkdown": "Another way to make money differently is to sell different things, and in particular to do more consultingish work. I say consultingish because there is a long slippery slope from making products to pure consulting, and you don't have to go far down it before you start to offer something really attractive to customers. Although your product may not be very appealing yet, if you're a startup your programmers will often be way better than the ones your customers have. Or you may have expertise in some new field they don't understand. So if you change your sales conversations just a little from \"do you want to buy our product?\" to \"what do you need that you'd pay a lot for?\" you may find it's suddenly a lot easier to extract money from customers.",
+      "zhMarkdown": "另一种改变赚钱方式的途径是销售不同的东西，特别是做更多类似咨询的工作。我之所以说“类似咨询”，是因为从做产品到纯咨询之间有一条很长的过渡斜坡，你不需要往下走太远，就能开始向客户提供真正有吸引力的东西。虽然你的产品可能还不够吸引人，但作为一家创业公司，你的程序员通常会比客户的程序员优秀得多。或者，你可能在他们不懂的某些新领域拥有专业知识。因此，如果你把销售话术稍微从“你想买我们的产品吗？”改成“你需要什么我们可以帮你做，且你愿意为此付高价？”，你可能会发现，从客户口袋里掏钱突然变得容易多了。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "c252894d4bd9513ec7a612bfb50b4582b5b6a4502d6059cad0391cbea1282394",
+      "enMarkdown": "Be ruthlessly mercenary when you start doing this, though. You're trying to save your company from death here, so make customers pay a lot, quickly. And to the extent you can, try to avoid the worst pitfalls of consulting. The ideal thing might be if you built a precisely defined derivative version of your product for the customer, and it was otherwise a straight product sale. You keep the IP and no billing by the hour.",
+      "zhMarkdown": "不过，一旦开始这样做，就要表现得冷酷而唯利是图。你是在努力拯救濒临死亡的公司，所以要让客户快速支付高昂的费用。并且在可行范围内，尽量避免咨询工作最糟糕的陷阱。最理想的情况是，你为客户定制开发一个定义精准的产品衍生版本，而在其他方面这依然是一笔直接的产品交易。你保留知识产权，并且不按小时计费。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "00bebe202970a10a093e165deeca82ddbe298f0e6890d424fff493e0acc0ef48",
+      "enMarkdown": "In the best case, this consultingish work may not be just something you do to survive, but may turn out to be the [thing-that-doesn't-scale](https://paulgraham.com/ds.html) that defines your company. Don't expect it to be, but as you dive into individual users' needs, keep your eyes open for narrow openings that have wide vistas beyond.",
+      "zhMarkdown": "在最好的情况下，这种类似咨询的工作不仅能让你生存下来，甚至可能成为定义你公司的[那些不能规模化的事情](https://paulgraham.com/ds.html)。别指望一定会这样，但当你深入挖掘单个用户的需求时，要留心那些通往广阔前景的狭窄切入口。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "22e809f8eed4785f452f4ab4258b9a9adc225894b2b91bf63c63a7d953d3c4d1",
+      "enMarkdown": "There is usually so much demand for custom work that unless you're really incompetent there has to be some point down the slope of consulting at which you can survive. But I didn't use the term slippery slope by accident; customers' insatiable demand for custom work will always be pushing you toward the bottom. So while you'll probably survive, the problem now becomes to survive with the least damage and distraction.",
+      "zhMarkdown": "通常，定制化工作的需求是如此之大，以至于除非你真的极其无能，否则在咨询这条斜坡上的某个位置，你总能找到生存的方法。但我用“过渡斜坡”这个词并非偶然，客户对定制化工作永无止境的需求会不断把你推向斜坡的底部。因此，虽然你大概率能活下来，但现在的挑战变成了如何以最小的伤害和最少的干扰活下来。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "fa74dbaa40be1362910276c58afef2b986a8e490b318cd4d48c55aaafbef6881",
+      "enMarkdown": "The good news is, plenty of successful startups have passed through near-death experiences and gone on to flourish. You just have to realize in time that you're near death. And if you're in the fatal pinch, you are.",
+      "zhMarkdown": "好消息是，许多成功的创业公司都曾经历过濒死体验，并最终走向了繁荣。你只需要及时意识到自己已经命悬一线。如果你正处于“致命的危机”中，那你确实已经命悬一线了。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "f0dc69829cadaa7dea44d6e879be07afaa2cfaa49e3e76e448d6c4622aa4b5dc",
+      "enMarkdown": "[1] There are a handful of companies that can't reasonably expect to make money for the first year or two, because what they're building takes so long. For these companies substitute \"progress\" for \"revenue growth.\" You're not one of these companies unless your initial investors agreed in advance that you were. And frankly even these companies wish they weren't, because the illiquidity of \"progress\" puts them at the mercy of investors.",
+      "zhMarkdown": "[1] 有极少数公司在第一年或第二年确实无法合理预期会有收入，因为他们开发的产品周期极长。对于这些公司，请将“收入增长”替换为“阶段性进展”。除非你的天使投资人提前同意你是这类公司，否则你就不属于此类。坦白说，即使是这些公司也希望自己不是，因为“进展”缺乏流动性，这让他们只能任由投资人摆布。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "680620be966c366e68f93234ef43ae6a96d8774c17ccbcd0795520f2b7e639a9",
+      "enMarkdown": "[2] There's a variant of the fatal pinch where your existing investors help you along by promising to invest more. Or rather, where you read them as promising to invest more, while they think they're just mentioning the possibility. The way to solve this problem, if you have 8 months of runway or less, is to try to get the money right now. Then you'll either get the money, in which case (immediate) problem solved, or at least prevent your investors from helping you to remain in denial about your fundraising prospects.",
+      "zhMarkdown": "[2] “致命的危机”还有一种变体，即你现有的投资人通过承诺追加投资来吊着你。更准确地说，是你把他们的话解读为承诺追加投资，而他们则认为自己只是提到了这种可能性。如果你的资金跑道只剩 8 个月或更少，解决这个问题的办法就是尝试立刻拿到这笔钱。这样你要么能拿到钱（眼前的危机解决），要么至少能阻止你的投资人继续帮你对融资前景抱有幻想。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "220ec3b58800b1b5d5555d0fca18a1e5386161fccc71a1722dbf59c47ba24094",
+      "enMarkdown": "[3] Obviously, if you have significant expenses other than salaries that you can eliminate, do it now.",
+      "zhMarkdown": "[3] 显然，如果你有除了工资之外可以砍掉的重大开支，现在就砍掉。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "4bb44b0f45b43b43f0899788905060e87e0922dc5bcdc26d7397cd5044d64ba5",
+      "enMarkdown": "[4] Unless of course the source of the problem is that you're paying yourselves high salaries. If by cutting the founders' salaries to the minimum you need, you can make it to profitability, you should. But it's a bad sign if you needed to read this to realize that.",
+      "zhMarkdown": "[4] 当然，除非问题的根源在于你们给自己发了很高的薪水。如果通过把创始人的薪水降到维持生存的最低限度就能实现盈利，你就应该这么做。但如果你需要读到这篇文章才意识到这一点，那这就是个糟糕的信号。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "08fa14d543c67b335face3e06f32cd2c548c8e9d7df815c4a5f9ad8fcd87316e",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Jessica Livingston, and Geoff Ralston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Jessica Livingston 和 Geoff Ralston 阅读了本文的草稿。"
+    }
+  ]
+}

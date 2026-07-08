@@ -1,0 +1,202 @@
+{
+  "slug": "aord",
+  "titleEn": "Default Alive or Default Dead?",
+  "titleZh": "默认生存，还是默认死亡？",
+  "dateText": "October 2015",
+  "publishedAt": "2015-10-01",
+  "sourceOrder": 65,
+  "sourceUrl": "https://paulgraham.com/aord.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "a854dd0f2b8781ec43d227b88fe518fcb4489d20bfd1eedf03232f88ee35917d",
+      "enMarkdown": "When I talk to a startup that's been operating for more than 8 or 9 months, the first thing I want to know is almost always the same. Assuming their expenses remain constant and their revenue growth is what it has been over the last several months, do they make it to profitability on the money they have left? Or to put it more dramatically, by default do they live or die?",
+      "zhMarkdown": "每当我与一家运营了 8、9 个月以上的创业公司交流时，我最想知道的事情几乎总是同一个：假设他们的支出保持不变，收入增长维持过去几个月的势头，那么靠手头剩下的资金，他们能撑到盈利吗？或者用更具戏剧性的方式来说：在默认情况下，他们是能活下去，还是会死掉？"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "729eec88d3cdd67a53a4ae790ecb65fef56f5e353f3a4a426a61433029cd77dc",
+      "enMarkdown": "The startling thing is how often the founders themselves don't know. Half the founders I talk to don't know whether they're default alive or default dead.",
+      "zhMarkdown": "令人吃惊的是，创始人自己往往对此一无所知。和我聊过的创始人中，有一半人不知道自己是默认生存还是默认死亡。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "a50044bfcd2cfa1f6bf0da156aa537225c0421cb829d249dc0d42989f4796ed4",
+      "enMarkdown": "If you're among that number, Trevor Blackwell has made a handy [calculator](http://growth.tlb.org/#) you can use to find out.",
+      "zhMarkdown": "如果你也是其中之一，Trevor Blackwell 制作了一个好用的[计算器](http://growth.tlb.org/#)，你可以用它来测算一下。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "eda52e7841525d1c295cc2fe8f906924b9a9ad76f2f6bd18024d771e1885edc5",
+      "enMarkdown": "The reason I want to know first whether a startup is default alive or default dead is that the rest of the conversation depends on the answer. If the company is default alive, we can talk about ambitious new things they could do. If it's default dead, we probably need to talk about how to save it. We know the current trajectory ends badly. How can they get off that trajectory?",
+      "zhMarkdown": "我之所以最先想知道一家创业公司是默认生存还是默认死亡，是因为接下来的对话完全取决于这个答案。如果公司是默认生存，我们就可以探讨他们可以尝试哪些有野心的新事物；如果是默认死亡，我们恐怕就得谈谈如何自救了。我们知道，目前的轨道终点是毁灭。他们要如何脱离这条轨道？"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "f11cfb26efe318abb1145add4656a11ebbd15b7bc7054ed4d88e0e8ec7659aa6",
+      "enMarkdown": "Why do so few founders know whether they're default alive or default dead? Mainly, I think, because they're not used to asking that. It's not a question that makes sense to ask early on, any more than it makes sense to ask a 3 year old how he plans to support himself. But as the company grows older, the question switches from meaningless to critical. That kind of switch often takes people by surprise.",
+      "zhMarkdown": "为什么这么少有创始人知道自己是默认生存还是默认死亡？我认为，主要是因为他们不习惯问这个问题。在创业早期，问这个问题毫无意义，就像问一个 3 岁的孩子打算如何养活自己一样不切实际。但随着公司不断成长，这个问题会从毫无意义转变为至关重要。这种转变往往会让人们措手不及。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "23a0ab4e55ab53ff198b4baaf086d1fa89b569ed91782bb7fcc27d2b5e032a76",
+      "enMarkdown": "I propose the following solution: instead of starting to ask too late whether you're default alive or default dead, start asking too early. It's hard to say precisely when the question switches polarity. But it's probably not that dangerous to start worrying too early that you're default dead, whereas it's very dangerous to start worrying too late.",
+      "zhMarkdown": "我建议采用以下解决方案：不要等到为时已晚才开始问自己是默认生存还是默认死亡，而是要提早去问。很难精确界定这个问题何时发生性质的转变。但是，过早担心自己默认死亡大概没什么危险，而过晚担心则非常致命。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "c2b02edfa62cbd85556ad0f693dd491ba95718b4179ef4cd9d3088f974a4643f",
+      "enMarkdown": "The reason is a phenomenon I wrote about earlier: the [fatal pinch](https://paulgraham.com/pinch.html). The fatal pinch is default dead + slow growth + not enough time to fix it. And the way founders end up in it is by not realizing that's where they're headed.",
+      "zhMarkdown": "原因在于我之前写过的一种现象：[致命夹击](https://paulgraham.com/pinch.html)。致命夹击就是“默认死亡 + 增长缓慢 + 没有足够的时间来挽救”。创始人之所以陷入这种境地，就是因为没有意识到自己正在朝这个方向走去。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d825112cc6538143f7ea666164551a687e8c270ba6b836cbfd72ebdfc6de6c41",
+      "enMarkdown": "There is another reason founders don't ask themselves whether they're default alive or default dead: they assume it will be easy to raise more money. But that assumption is often false, and worse still, the more you depend on it, the falser it becomes.",
+      "zhMarkdown": "创始人不问自己是默认生存还是默认死亡，还有一个原因：他们想当然地认为再融点钱很容易。但这种假设往往是错的，更糟糕的是，你越依赖这个假设，它就变得越不切实际。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "2babca7325e8d52bb3160cda585ccf2fed80c4ee3854baafea90b7a73f9dfe02",
+      "enMarkdown": "Maybe it will help to separate facts from hopes. Instead of thinking of the future with vague optimism, explicitly separate the components. Say \"We're default dead, but we're counting on investors to save us.\" Maybe as you say that, it will set off the same alarms in your head that it does in mine. And if you set off the alarms sufficiently early, you may be able to avoid the fatal pinch.",
+      "zhMarkdown": "或许，将事实与希望区分开来会有所帮助。不要用模糊的乐观态度去憧憬未来，而是要明确地拆解现状。试着说出口：“我们现在是默认死亡，但我们正指望投资人来救我们。”也许当你把这句话说出口时，你脑子里就会像我一样拉响警报。如果你能足够早地拉响警报，或许就能避免陷入致命夹击。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "92fc18f88534b68d62168c3709a5f6cf95d4d7c61832cba34cb9c2a451533d96",
+      "enMarkdown": "It would be safe to be default dead if you could count on investors saving you. As a rule their interest is a function of growth. If you have steep revenue growth, say over 5x a year, you can start to count on investors being interested even if you're not profitable. [[1](#f1n)] But investors are so fickle that you can never do more than start to count on them. Sometimes something about your business will spook investors even if your growth is great. So no matter how good your growth is, you can never safely treat fundraising as more than a plan A. You should always have a plan B as well: you should know (as in write down) precisely what you'll need to do to survive if you can't raise more money, and precisely when you'll have to switch to plan B if plan A isn't working.",
+      "zhMarkdown": "如果你能指望投资人来救你，那么默认死亡倒也安全。通常来说，投资人的兴趣取决于你的增长。如果你的收入呈爆发式增长，比如年增长 5 倍以上，那么即使你还没有盈利，也可以开始指望投资人会感兴趣。[[1](#f1n)] 但投资人极其反复无常，你永远无法百分之百地指望他们。有时候，即使你的增长很棒，你业务上的某些细节也会让投资人望而却步。因此，无论你的增长有多好，你都不能安稳地把融资仅仅当成唯一的 Plan A。你必须时刻准备着 Plan B：你应该明确知道（并且写下来）如果融不到钱，你具体需要做什么才能活下去，以及如果 Plan A 行不通，你具体必须在什么时候切换到 Plan B。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "6c224e4ae0d39fc9fad5be39ef6933e2c72cbe8a8022c20666a44a0369b9b941",
+      "enMarkdown": "In any case, growing fast versus operating cheaply is far from the sharp dichotomy many founders assume it to be. In practice there is surprisingly little connection between how much a startup spends and how fast it grows. When a startup grows fast, it's usually because the product hits a nerve, in the sense of hitting some big need straight on. When a startup spends a lot, it's usually because the product is expensive to develop or sell, or simply because they're wasteful.",
+      "zhMarkdown": "无论如何，快速增长与低成本运营之间，绝非许多创始人所想象的那种非此即彼的对立关系。在实践中，创业公司的开销与增长速度之间的关联小得令人吃惊。当一家创业公司快速增长时，通常是因为产品切中了痛点，也就是直接迎合了某种巨大的需求。而当一家创业公司花钱如流水时，通常是因为产品开发或销售成本高昂，或者纯粹是因为他们铺张浪费。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "fc5181a38ba55f9d54240626c311d6eb035b77bcbe1a5e692d743aa4901ea267",
+      "enMarkdown": "If you're paying attention, you'll be asking at this point not just how to avoid the fatal pinch, but how to avoid being default dead. That one is easy: don't hire too fast. Hiring too fast is by far the biggest killer of startups that raise money. [[2](#f2n)]",
+      "zhMarkdown": "如果你留心的话，此时你不仅会问如何避免致命夹击，还会问如何避免陷入默认死亡。答案很简单：不要招人太快。对于拿到融资的创业公司来说，招人太快是迄今为止最大的杀手。[[2](#f2n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "cf04ff6f9ef6944313e16855ebc91901c24a67089de4e7d8b6214b7efa950ba7",
+      "enMarkdown": "Founders tell themselves they need to hire in order to grow. But most err on the side of overestimating this need rather than underestimating it. Why? Partly because there's so much work to do. Naive founders think that if they can just hire enough people, it will all get done. Partly because successful startups have lots of employees, so it seems like that's what one does in order to be successful. In fact the large staffs of successful startups are probably more the effect of growth than the cause. And partly because when founders have slow growth they don't want to face what is usually the real reason: the product is not appealing enough.",
+      "zhMarkdown": "创始人总跟自己说，为了增长必须招人。但大多数人都高估了这种需求，而不是低估了它。为什么？部分原因是因为有太多工作要做。天真的创始人以为，只要招够了人，事情就都能办成。部分原因是因为成功的创业公司都有很多员工，所以看起来要成功就得这么做。实际上，成功创业公司的庞大员工规模，往往是增长带来的结果，而不是增长的原因。还有部分原因在于，当创始人面临增长缓慢时，他们不想面对通常是真正的原因：产品不够吸引人。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "32211fed6d55d568548787edff651ce39ac488dca4c9b29a6ca3ed7bb4f824ff",
+      "enMarkdown": "Plus founders who've just raised money are often encouraged to overhire by the VCs who funded them. Kill-or-cure strategies are optimal for VCs because they're protected by the portfolio effect. VCs want to blow you up, in one sense of the phrase or the other. But as a founder your incentives are different. You want above all to survive. [[3](#f3n)]",
+      "zhMarkdown": "此外，刚拿到融资的创始人往往会被投资他们的风险投资人怂恿去过度招聘。对于风险投资人来说，“非成即死”的策略是最佳选择，因为他们有投资组合效应来对冲风险。风险投资人希望你引爆市场，或者在这个词的另一种意义上，把你彻底炸飞。但作为创始人，你的利益诉求是不同的。你首先要做的是活下去。[[3](#f3n)]"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "da87986b2273c09a2aecf0e68f8ec144b66de53a81313588267404c759d7849f",
+      "enMarkdown": "Here's a common way startups die. They make something moderately appealing and have decent initial growth. They raise their first round fairly easily, because the founders seem smart and the idea sounds plausible. But because the product is only moderately appealing, growth is ok but not great. The founders convince themselves that hiring a bunch of people is the way to boost growth. Their investors agree. But (because the product is only moderately appealing) the growth never comes. Now they're rapidly running out of runway. They hope further investment will save them. But because they have high expenses and slow growth, they're now unappealing to investors. They're unable to raise more, and the company dies.",
+      "zhMarkdown": "以下是创业公司常见的死法。他们做出了一个还算吸引人的产品，最初的增长也还不错。他们相对轻松地拿到了第一轮融资，因为创始人看起来很聪明，想法听起来也靠谱。但是，因为产品只是还算吸引人，增长虽然还行但并不惊艳。创始人说服自己，招一帮人是促进增长的方法，投资人也表示赞同。但是（因为产品只是还算吸引人），增长始终没有到来。现在，他们的资金通道正在迅速耗尽。他们寄希望于后续融资来拯救自己。然而，由于开销高昂且增长缓慢，他们在投资人眼里已经失去了吸引力。他们无法再融到钱，公司随之倒闭。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "61214bc20a47a1aa3d719fbfa299394c577e16c81a0206dfa30c3ce01442a1ca",
+      "enMarkdown": "What the company should have done is address the fundamental problem: that the product is only moderately appealing. Hiring people is rarely the way to fix that. More often than not it makes it harder. At this early stage, the product needs to evolve more than to be \"built out,\" and that's usually easier with fewer people. [[4](#f4n)]",
+      "zhMarkdown": "这家公司本应该解决根本问题：即产品只是还算吸引人。招人很少能解决这个问题，而且往往会让情况变得更糟。在早期阶段，产品更需要的是迭代演进，而不是“做大做全”，而人少的时候通常更容易做到这一点。[[4](#f4n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "715909b50552cb3ae842a26fb8fd8ee0f531414fc9fbd41b299f6524f38bace1",
+      "enMarkdown": "Asking whether you're default alive or default dead may save you from this. Maybe the alarm bells it sets off will counteract the forces that push you to overhire. Instead you'll be compelled to seek growth in other ways. For example, by [doing\nthings that don't scale](https://paulgraham.com/ds.html), or by redesigning the product in the way only founders can. And for many if not most startups, these paths to growth will be the ones that actually work.",
+      "zhMarkdown": "问问自己是默认生存还是默认死亡，或许能把你从这种境地中解救出来。也许它拉响的警报能抵消那些推着你过度招聘的力量。相反，你会被迫去寻找其他的增长途径。例如，通过[做一些无法规模化的事情](https://paulgraham.com/ds.html)，或者以只有创始人才能做到的方式重新设计产品。对于许多甚至大多数创业公司来说，这些增长路径才是真正行之有效的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "b7a61f30956449ac3b076426a9415eb228325e790aa984947a0fb1f4049452b6",
+      "enMarkdown": "Airbnb waited 4 months after raising money at the end of Y Combinator before they hired their first employee. In the meantime the founders were terribly overworked. But they were overworked evolving Airbnb into the astonishingly successful organism it is now.",
+      "zhMarkdown": "Airbnb 在 Y Combinator 毕业并拿到融资后，足足等了 4 个月才招了第一个员工。在此期间，创始人忙得不可开交。但正是这种超负荷的工作，让 Airbnb 蜕变成了如今这个惊人成功的庞然大物。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "12d67058268b612c5d4a31c130c5cc04324b97f770fd5a8ce1a693eadd72581d",
+      "enMarkdown": "[1] Steep usage growth will also interest investors. Revenue will ultimately be a constant multiple of usage, so x% usage growth predicts x% revenue growth. But in practice investors discount merely predicted revenue, so if you're measuring usage you need a higher growth rate to impress investors.",
+      "zhMarkdown": "[1] 用户量爆发式增长同样会吸引投资人。收入最终会是用户量的一个固定倍数，因此 x% 的用户量增长预示着 x% 的收入增长。但在实践中，投资人对仅仅是预测的收入会打折扣，所以如果你衡量的是用户量，你需要更高的增长率才能打动投资人。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "5fe06a40fd7082da3e96b94f5f7cf4088cc2c11ef5f7343fa54c0ef0b37d427b",
+      "enMarkdown": "[2] Startups that don't raise money are saved from hiring too fast because they can't afford to. But that doesn't mean you should avoid raising money in order to avoid this problem, any more than that total abstinence is the only way to avoid becoming an alcoholic.",
+      "zhMarkdown": "[2] 没融到钱的创业公司免受招人太快之苦，因为他们雇不起。但这并不意味着为了避免这个问题你就应该拒绝融资，这就像不能为了不变成酒鬼就去终身禁酒一样。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "e729dfb0d775c4b3f9054068e7cdcf094aa36c86fc6ed9c0b913c12720680fc2",
+      "enMarkdown": "[3] I would not be surprised if VCs' tendency to push founders to overhire is not even in their own interest. They don't know how many of the companies that get killed by overspending might have done well if they'd survived. My guess is a significant number.",
+      "zhMarkdown": "[3] 如果风险投资人推着创始人过度招聘的倾向甚至不符合他们自己的利益，我对此不会感到惊讶。他们不知道那些因开销过大而被扼杀的公司中，有多少如果能活下来本可以发展得很好。我猜测这个数量相当可观。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "0404bc8804eed303903f8d80585c3c0057da938d093d4b7d44418b13112413aa",
+      "enMarkdown": "[4] After reading a draft, Sam Altman wrote:",
+      "zhMarkdown": "[4] 读完草稿后，Sam Altman 写道："
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "27226c25ce0623d75d4b368ae6a183d0dbb6763c122a1c6bf8c8735df39fe934",
+      "enMarkdown": "\"I think you should make the hiring point more strongly. I think it's roughly correct to say that YC's most successful companies have never been the fastest to hire, and one of the marks of a great founder is being able to resist this urge.\"",
+      "zhMarkdown": "“我认为你应该把关于招聘的这一点写得更强烈些。我认为大致可以这样说：YC 最成功的公司从来都不是招人最快的，而优秀创始人的标志之一就是能够抵制这种冲动。”"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "a9d590f33c77c825b7cfea320789ac81a58aaf133b4cd398aff06ca21dbde7ec",
+      "enMarkdown": "Paul Buchheit adds:",
+      "zhMarkdown": "Paul Buchheit 补充道："
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "62a5ff769a5f69f6ee6b31b16606510c202bfd4575219b97da840a8304005b21",
+      "enMarkdown": "\"A related problem that I see a lot is premature scaling—founders take a small business that isn't really working (bad unit economics, typically) and then scale it up because they want impressive growth numbers. This is similar to over-hiring in that it makes the business much harder to fix once it's big, plus they are bleeding cash really fast.\"",
+      "zhMarkdown": "“我经常看到的一个相关问题是过早规模化——创始人把一个其实还没有跑通的小业务（通常是单位经济效益很差）规模化，因为他们想要好看的增长数据。这与过度招聘类似，一旦业务做大，就会变得极难收拾，而且他们烧钱的速度会非常惊人。”"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "4662c483041b4d5807bc2753fd7e46b9ab52cd1cd4aa1e2d6207bc5ed1142a7a",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Joe Gebbia, Jessica Livingston, and Geoff Ralston for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Joe Gebbia、Jessica Livingston 和 Geoff Ralston 阅读本书草稿。"
+    }
+  ]
+}

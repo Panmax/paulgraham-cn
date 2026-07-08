@@ -1,0 +1,720 @@
+{
+  "slug": "america",
+  "titleEn": "Why Startups Condense in America",
+  "titleZh": "为什么创业公司会在美国汇聚",
+  "dateText": "May 2006",
+  "publishedAt": "2006-05-01",
+  "sourceOrder": 167,
+  "sourceUrl": "https://paulgraham.com/america.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "d0ed21666c8c3a12d6172ad120b046da75dff4db0bf098a13bcbf1ea5b98ddf3",
+      "enMarkdown": "*(This essay is derived from a keynote at Xtech.)*",
+      "zhMarkdown": "*(本文整理自作者在 Xtech 大会上的主题演讲)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "00b9e36fd6b0e37e051ab7729b39b2929010dad705de214d567e556994b2e460",
+      "enMarkdown": "Startups happen in clusters. There are a lot of them in Silicon Valley and Boston, and few in Chicago or Miami. A country that wants startups will probably also have to reproduce whatever makes these clusters form.",
+      "zhMarkdown": "创业公司总是成群结队地出现。硅谷和波士顿有很多，而芝加哥或迈阿密却寥寥无几。一个想要发展创业公司的国家，可能必须设法复制出促成这些集群形成的要素。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "fa32aae27969da0a5d9f313753bbafd630e2ced0aeffb05e08418e3fae654930",
+      "enMarkdown": "I've claimed that the [recipe](https://paulgraham.com/siliconvalley.html) is a great university near a town smart people like. If you set up those conditions within the US, startups will form as inevitably as water droplets condense on a cold piece of metal. But when I consider what it would take to reproduce Silicon Valley in another country, it's clear the US is a particularly humid environment. Startups condense more easily here.",
+      "zhMarkdown": "我曾提出过一个[秘诀](https://paulgraham.com/siliconvalley.html)：一所顶尖大学，旁边伴随着一个聪明人喜欢的城镇。如果你在美国境内创造出这些条件，创业公司就会像水汽在冰冷的金属表面凝结成水滴一样，不可避免地汇聚出来。但当我思考要在另一个国家复制硅谷需要付出什么时，显而易见，美国的“湿度”特别高。创业公司在这里更容易凝聚。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "cbe7120628976a16ebb58f6325d71cf3ed752e84444bd2995bdb7fa51015740a",
+      "enMarkdown": "It is by no means a lost cause to try to create a silicon valley in another country. There's room not merely to equal Silicon Valley, but to surpass it. But if you want to do that, you have to understand the advantages startups get from being in America.",
+      "zhMarkdown": "在其他国家打造硅谷绝非毫无希望。不仅有机会与硅谷平起平坐，甚至还有可能超越它。但如果你想做到这一点，就必须理解创业公司在美利坚所享有的优势。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "da0a15b3f37c962c84135dc96b592fb6e547bcff795c208578a55e822235a25d",
+      "enMarkdown": "**1. The US Allows Immigration.**",
+      "zhMarkdown": "**1. 美国接纳移民**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "30156864498ad9c49f63045b2e6e100884ce9c4a927522ec67c32f019ef028ae",
+      "enMarkdown": "For example, I doubt it would be possible to reproduce Silicon Valley in Japan, because one of Silicon Valley's most distinctive features is immigration. Half the people there speak with accents. And the Japanese don't like immigration. When they think about how to make a Japanese silicon valley, I suspect they unconsciously frame it as how to make one consisting only of Japanese people. This way of framing the question probably guarantees failure.",
+      "zhMarkdown": "例如，我怀疑日本是否可能复制出硅谷，因为硅谷最显著的特征之一就是移民。那里有一半的人说话带口音。而日本人并不喜欢移民。当他们思考如何打造一个日本的硅谷时，我怀疑他们无意识中把问题设定成了“如何打造一个纯日本人的硅谷”。这种设问方式恐怕注定了失败。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "a86686b8e089af346cecc04db4c5a744726bd06b12d423012e108f47a53aada3",
+      "enMarkdown": "A silicon valley has to be a mecca for the smart and the ambitious, and you can't have a mecca if you don't let people into it.",
+      "zhMarkdown": "硅谷必须是聪明人和有抱负者的圣地，而如果你不让人进来，就根本不可能有什么圣地。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8fd29994baf0fdab1c8e55884fd80394265082690b62a9263828fd2ca60b16d4",
+      "enMarkdown": "Of course, it's not saying much that America is more open to immigration than Japan. Immigration policy is one area where a competitor could do better.",
+      "zhMarkdown": "当然，说美国比日本更开放移民并算不上什么高见。移民政策恰恰是竞争对手可以做得更好的一个领域。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ec6f82c8cc5d56d2a628811fdf87d1b4c04c9f17b011a5d4492e96fbe78f0b5e",
+      "enMarkdown": "**2. The US Is a Rich Country.**",
+      "zhMarkdown": "**2. 美国是个富裕国家**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e913f34cbb328cfac3074be10dbe6f5ae9dd78c12982e60fa08c1302c202a96d",
+      "enMarkdown": "I could see India one day producing a rival to Silicon Valley. Obviously they have the right people: you can tell that by the number of Indians in the current Silicon Valley. The problem with India itself is that it's still so poor.",
+      "zhMarkdown": "我能预见到印度有朝一日会孕育出硅谷的劲敌。显然，他们拥有合适的人才：看看现在硅谷有多少印度人就知道了。印度本土的问题在于，它目前依然太穷了。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "15abf4664a6bfe81160ad07b6b8b56bef28b30379f5dd2bef1b35317933cb1dd",
+      "enMarkdown": "In poor countries, things we take for granted are missing. A friend of mine visiting India sprained her ankle falling down the steps in a railway station. When she turned to see what had happened, she found the steps were all different heights. In industrialized countries we walk down steps our whole lives and never think about this, because there's an infrastructure that prevents such a staircase from being built.",
+      "zhMarkdown": "在贫穷国家，我们习以为常的东西是缺失的。我的一位朋友去印度旅游，在火车站下台阶时摔倒扭伤了脚踝。当她回头看是怎么回事时，发现那些台阶高度各不相同。在工业化国家，我们一辈子都在下台阶，却从未想过这个问题，因为有基础设施规范在防止这种阶梯被建造出来。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "db6d629d2dc51c94b42cd61ff1603be4c83dd128b72d87804c8b91abfb06b691",
+      "enMarkdown": "The US has never been so poor as some countries are now. There have never been swarms of beggars in the streets of American cities. So we have no data about what it takes to get from the swarms-of-beggars stage to the silicon-valley stage. Could you have both at once, or does there have to be some baseline prosperity before you get a silicon valley?",
+      "zhMarkdown": "美国从未像现在的一些国家那样贫穷。美国城市的街头从未出现过成群结队的乞丐。因此，我们没有数据来说明，如何从“乞丐成群”的阶段跨越到“硅谷”阶段。你能不能同时拥有这两者，还是说在孕育出硅谷之前，必须先达到某种基准的繁荣？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "c763740544d52dcb0d23d109089cbac155c4c8573c3b06582769fdd1b25aee46",
+      "enMarkdown": "I suspect there is some speed limit to the evolution of an economy. Economies are made out of people, and attitudes can only change a certain amount per generation. [[1](#f1n)]",
+      "zhMarkdown": "我怀疑经济的演进存在某种速度限制。经济是由人构成的，而人们的观念每一代只能改变有限的程度。[[1](#f1n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d245a4b6367c4aeaf37fdd7f64e786c4532440554a754e2eb02b31fb0845e6e6",
+      "enMarkdown": "**3. The US Is Not (Yet) a Police State.**",
+      "zhMarkdown": "**3. 美国（目前还）不是警察国家**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a5cded066598ca620b31e2b5d182463e583267f947137558d7ab8dd77b926662",
+      "enMarkdown": "Another country I could see wanting to have a silicon valley is China. But I doubt they could do it yet either. China still seems to be a police state, and although present rulers seem enlightened compared to the last, even enlightened despotism can probably only get you part way toward being a great economic power.",
+      "zhMarkdown": "另一个我能预见想要打造硅谷的国家是中国。但我怀疑他们目前也做不到。中国似乎仍然是一个警察国家，尽管目前的统治者比起前任显得开明，但即便是开明的专制，恐怕也只能带你走到成为经济大国的半山腰。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "32d860d204d8b7b3f71824ad734f4fb6676e4174600c1384c068a7df05f5f34d",
+      "enMarkdown": "It can get you factories for building things designed elsewhere. Can it get you the designers, though? Can imagination flourish where people can't criticize the government? Imagination means having odd ideas, and it's hard to have odd ideas about technology without also having odd ideas about politics. And in any case, many technical ideas do have political implications. So if you squash dissent, the back pressure will propagate into technical fields. [[2](#f2n)]",
+      "zhMarkdown": "它可以让你拥有建造别处设计好产品的工厂。但是，它能帮你留住设计师吗？在人们无法批评政府的地方，想象力能蓬勃发展吗？想象力意味着拥有奇思妙想，而在对政治没有奇思妙想的情况下，很难在技术上产生奇思妙想。况且，许多技术构想本身就带有政治暗示。因此，如果你压制异见，这种反向压力就会传导到技术领域。[[2](#f2n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "156b19d220785dd598344d406354984c4dbfc23bc9124d1334ebf5b5c1fb4a8e",
+      "enMarkdown": "Singapore would face a similar problem. Singapore seems very aware of the importance of encouraging startups. But while energetic government intervention may be able to make a port run efficiently, it can't coax startups into existence. A state that bans chewing gum has a long way to go before it could create a San Francisco.",
+      "zhMarkdown": "新加坡也面临类似的问题。新加坡似乎非常清楚鼓励创业公司的重要性。但是，强有力的政府干预或许能让港口高效运转，却无法催生出创业公司。一个连口香糖都禁的国家，距离创造出旧金山还有很长的路要走。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "7c160a6a80ad50988e1c931490eb43f4ea81cfd536c21a2f1f53ecf692792e0f",
+      "enMarkdown": "Do you need a San Francisco? Might there not be an alternate route to innovation that goes through obedience and cooperation instead of individualism? Possibly, but I'd bet not. Most imaginative people seem to share a certain prickly [independence](https://paulgraham.com/gba.html), whenever and wherever they lived. You see it in Diogenes telling Alexander to get out of his light and two thousand years later in Feynman breaking into safes at Los Alamos. [[3](#f3n)] Imaginative people don't want to follow or lead. They're most productive when everyone gets to do what they want.",
+      "zhMarkdown": "你一定需要一个旧金山吗？难道就没有另一条通过服从与合作、而非个人主义来实现创新的途径吗？也许有，但我打赌没有。大多数富有想象力的人，无论生活在何时何地，似乎都有一种带刺的[独立性](https://paulgraham.com/gba.html)。你能在第欧根尼让亚历山大大帝别挡他光线中看到这一点，也能在两千年后费曼在洛斯阿拉莫斯撬保险箱中看到这一点。[[3](#f3n)] 富有想象力的人既不想追随，也不想领导。当每个人都能做自己想做的事时，他们的效率最高。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "b29345d12281c053d1f0b8c0be32e8483acb1c0cb6f2fda2fba2552e9f3aa413",
+      "enMarkdown": "Ironically, of all rich countries the US has lost the most civil liberties recently. But I'm not too worried yet. I'm hoping once the present administration is out, the natural openness of American culture will reassert itself.",
+      "zhMarkdown": "具有讽刺意味的是，在所有富裕国家中，美国近期流失的公民自由是最多的。但我现在还不算太担心。我希望一旦现任政府下台，美国文化中天然的开放性就会重新显现。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "3b15330311d975b37f8a994732a559ddc6ddd201ce551fdfe010ebcdd7499fdf",
+      "enMarkdown": "**4. American Universities Are Better.**",
+      "zhMarkdown": "**4. 美国大学更好**"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "ca102f3a99ee004460e68504142f071fcc6ed5174754967bf4e05cce75cca188",
+      "enMarkdown": "You need a great university to seed a silicon valley, and so far there are few outside the US. I asked a handful of American computer science professors which universities in Europe were most admired, and they all basically said \"Cambridge\" followed by a long pause while they tried to think of others. There don't seem to be many universities elsewhere that compare with the best in America, at least in technology.",
+      "zhMarkdown": "你需要一所伟大的大学来播下硅谷的种子，而到目前为止，美国以外的顶尖大学屈指可数。我问过几位美国计算机科学教授，欧洲有哪些大学最让人向往，他们基本上都说了“剑桥”，接着就是长久的沉默，努力想还能有谁。其他地方似乎没有多少大学能与美国最好的大学相提并论，至少在技术领域是这样。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "98b9e66cdf0218c27557c87e7be77db4edc61aaa93d76bc14b689a00d24c7b9f",
+      "enMarkdown": "In some countries this is the result of a deliberate policy. The German and Dutch governments, perhaps from fear of elitism, try to ensure that all universities are roughly equal in quality. The downside is that none are especially good. The best professors are spread out, instead of being concentrated as they are in the US. This probably makes them less productive, because they don't have good colleagues to inspire them. It also means no one university will be good enough to act as a mecca, attracting talent from abroad and causing startups to form around it.",
+      "zhMarkdown": "在某些国家，这是刻意政策的结果。德国和荷兰政府或许是出于对精英主义的恐惧，试图确保所有大学在质量上大致平等。其弊端在于没有一所特别优秀。最顶尖的教授被分散了，而不是像美国那样高度集中。这可能会降低他们的产出，因为他们没有优秀的同事来启发自己。这也意味着没有一所大学足够优秀，能够扮演圣地的角色，吸引海外人才，并让创业公司围绕它形成。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "3ee66e2391535819fdfc79269027e2d2ba4f709181ce565c10690e67c1091707",
+      "enMarkdown": "The case of Germany is a strange one. The Germans invented the modern university, and up till the 1930s theirs were the best in the world. Now they have none that stand out. As I was mulling this over, I found myself thinking: \"I can understand why German universities declined in the 1930s, after they excluded Jews. But surely they should have bounced back by now.\" Then I realized: maybe not. There are few Jews left in Germany and most Jews I know would not want to move there. And if you took any great American university and removed the Jews, you'd have some pretty big gaps. So maybe it would be a lost cause trying to create a silicon valley in Germany, because you couldn't establish the level of university you'd need as a seed. [[4](#f4n)]",
+      "zhMarkdown": "德国的情况很奇特。德国人发明了现代大学，直到 1930 年代，他们的大学都是世界上最好的。现在他们却没有一所出类拔萃。当我琢磨这件事时，我心想：“我能理解德国大学在 1930 年代排斥犹太人后走向衰落。但现在他们肯定应该缓过劲来了吧。”然后我意识到：也许没有。德国剩下的犹太人很少，而且我认识的大多数犹太人都不想搬到那里去。如果你把任何一所伟大的美国大学里的犹太人抽走，你就会留下相当大的空白。因此，在德国尝试创造硅谷或许是徒劳的，因为你无法建立起作为种子所需的大学水平。[[4](#f4n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "41649d8e0428b53666399098e450afe047f9958ea5aea2a92a4d8f522c831ace",
+      "enMarkdown": "It's natural for US universities to compete with one another because so many are private. To reproduce the quality of American universities you probably also have to reproduce this. If universities are controlled by the central government, log-rolling will pull them all toward the mean: the new Institute of X will end up at the university in the district of a powerful politician, instead of where it should be.",
+      "zhMarkdown": "美国大学之间相互竞争是极其自然的，因为其中有那么多私立大学。要复制美国大学的质量，你可能也必须复制这一点。如果大学由中央政府控制，政治分赃就会把它们都拉向平庸：新的“某某研究所”最终会落在某个权势政治家选区的大学里，而不是它应该去的地方。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "37c4c5e10333c447844b3d0f380910da503e99e071c68233b22768a2a41bd41a",
+      "enMarkdown": "**5. You Can Fire People in America.**",
+      "zhMarkdown": "**5. 在美国你可以解雇员工**"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "0d9bd85b8ff64134b5b56e5dd2ce4b5d864360c88c6aad60d883824640152a6c",
+      "enMarkdown": "I think one of the biggest obstacles to creating startups in Europe is the attitude toward employment. The famously rigid labor laws hurt every company, but startups especially, because startups have the least time to spare for bureaucratic hassles.",
+      "zhMarkdown": "我认为在欧洲创办创业公司的最大障碍之一是对待雇佣的态度。众所周知的僵化劳动法伤害了每一家公司，但对创业公司的伤害尤甚，因为创业公司最没有闲暇去应付官僚作风的纠纷。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "d24b2aedd7cf4b7fde4c7cec98a99d34078df057035ac60f9cfb8d7917749564",
+      "enMarkdown": "The difficulty of firing people is a particular problem for startups because they have no redundancy. Every person has to do their job well.",
+      "zhMarkdown": "解雇员工的困难对创业公司来说是一个特别棘手的问题，因为它们没有冗余人员。每个人都必须把工作做好。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "4d6a7e168ba469422be304de36c3a22e1a78ba730cc5a34336131faffb363afa",
+      "enMarkdown": "But the problem is more than just that some startup might have a problem firing someone they needed to. Across industries and countries, there's a strong inverse correlation between performance and job security. Actors and directors are fired at the end of each film, so they have to deliver every time. Junior professors are fired by default after a few years unless the university chooses to grant them tenure. Professional athletes know they'll be pulled if they play badly for just a couple games. At the other end of the scale (at least in the US) are auto workers, New York City schoolteachers, and civil servants, who are all nearly impossible to fire. The trend is so clear that you'd have to be willfully blind not to see it.",
+      "zhMarkdown": "但问题不仅在于某些创业公司在解雇必要人员时会遇到麻烦。在不同行业和国家之间，工作表现与职业保障之间存在着强烈的负相关。演员和导演在每部电影结束时都会被解雇，所以他们每次都必须全力以赴。青年教授在几年后默认会被解雇，除非大学选择授予他们终身教职。职业运动员知道，如果他们连续几场比赛表现不佳，就会被换下。而在天平的另一端（至少在美国）是汽车工人、纽约市学校教师和公务员，他们几乎是不可能被解雇的。这种趋势是如此明显，除非故意装瞎，否则不可能看不见。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "123ae335b7ece92ddba97871c41e926fc9ba8f6de75dcc872bc27e4c2ea3cf0b",
+      "enMarkdown": "Performance isn't everything, you say? Well, are auto workers, schoolteachers, and civil servants *happier* than actors, professors, and professional athletes?",
+      "zhMarkdown": "你会说，表现并不是一切？好吧，难道汽车工人、学校教师和公务员比演员、教授和职业运动员更*快乐*吗？"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "6160df2bc499e1a3edfa2c15cda53e8e48561ce499d1f9cbc8dd9de4a5e12dca",
+      "enMarkdown": "European public opinion will apparently tolerate people being fired in industries where they really care about performance. Unfortunately the only industry they care enough about so far is soccer. But that is at least a precedent.",
+      "zhMarkdown": "欧洲公众舆论显然能容忍在他们真正看重表现的行业中解雇员工。不幸的是，到目前为止，他们足够关心的唯一行业就是足球。但这至少是一个先例。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "0a6220ed57f381e0b75579be1f45d407019047985dca21fbf16c8cf976dff018",
+      "enMarkdown": "**6. In America Work Is Less Identified with Employment.**",
+      "zhMarkdown": "**6. 在美国，工作与雇佣的等同度较低**"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "d094b34f62cb81902e5a16cd0fd336fb75275baa3762c3ff11c5b0a3e7f35c4e",
+      "enMarkdown": "The problem in more traditional places like Europe and Japan goes deeper than the employment laws. More dangerous is the attitude they reflect: that an employee is a kind of servant, whom the employer has a duty to protect. It used to be that way in America too. In 1970 you were still supposed to get a job with a big company, for whom ideally you'd work your whole career. In return the company would take care of you: they'd try not to fire you, cover your medical expenses, and support you in old age.",
+      "zhMarkdown": "在欧洲和日本这样更传统的地方，问题比雇佣法律还要深。更危险的是这些法律所反映的态度：即雇员是一种仆人，雇主有责任保护他们。美国以前也是这样。在 1970 年，你还被认为应该在大公司找份工作，理想情况下在那里干一辈子。作为回报，公司会照顾你：他们会尽量不解雇你，负担你的医疗费用，并在你年老时供养你。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "1c6db4073e27c6554ca99562dab253f2b187c162a65001faa9163e6aecef7b14",
+      "enMarkdown": "Gradually employment has been shedding such paternalistic overtones and becoming simply an economic exchange. But the importance of the new model is not just that it makes it easier for startups to grow. More important, I think, is that it it makes it easier for people to *start* startups.",
+      "zhMarkdown": "渐渐地，雇佣关系已经摆脱了这种家长式的色彩，变成了一种纯粹的经济交换。但这种新模式的重要性不仅在于它让创业公司更容易成长。我认为更重要的是，它让人们更容易去*创办*创业公司。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "2b47ac87e9893a4f66eb3d82a4e84e89625b168acb639bd677145f4c339cceba",
+      "enMarkdown": "Even in the US most kids graduating from college still think they're supposed to get jobs, as if you couldn't be productive without being someone's employee. But the less you identify work with employment, the easier it becomes to start a startup. When you see your career as a series of different types of work, instead of a lifetime's service to a single employer, there's less risk in starting your own company, because you're only replacing one segment instead of discarding the whole thing.",
+      "zhMarkdown": "即使在美国，大多数刚从大学毕业的孩子仍然认为自己应该去找份工作，仿佛不成为别人的雇员就无法创造价值。但是，你越不把工作等同于雇佣，创办创业公司就越容易。当你把自己的职业生涯看作是一系列不同类型的工作，而不是对单一雇主的终身奉献时，创办自己的公司风险就小得多，因为你只是替换了其中一段，而不是丢弃了整个职业生涯。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "8dcbaf6f560a13b5c1b4b0cb9cdeba3f8e38ff6033a99e5ff22bb39b7387a102",
+      "enMarkdown": "The old ideas are so powerful that even the most successful startup founders have had to struggle against them. A year after the founding of Apple, Steve Wozniak still hadn't quit HP. He still planned to work there for life. And when Jobs found someone to give Apple serious venture funding, on the condition that Woz quit, he initially refused, arguing that he'd designed both the Apple I and the Apple II while working at HP, and there was no reason he couldn't continue.",
+      "zhMarkdown": "旧观念是如此强大，以至于即使是最成功的创业公司创始人也曾与之斗争。在苹果公司成立一年后，史蒂夫·沃兹尼亚克仍然没有从惠普辞职。他仍然计划在那里工作一辈子。当乔布斯找到愿意给苹果提供大笔风险投资的人，条件是沃兹必须辞职时，沃兹起初拒绝了，理由是他在惠普工作期间同时设计了 Apple I 和 Apple II，没有理由不能继续这样做。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "8e48e440aa0540e06d70c1b7f07abeab2d1e1aa64455985a872317a2666d103a",
+      "enMarkdown": "**7.  America Is Not Too Fussy.**",
+      "zhMarkdown": "**7. 美国不太挑剔**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "3e88d27d097fc5b91b47b6eee9c3123b4b59dfcaf3b80ef1c14873bee63168ba",
+      "enMarkdown": "If there are any laws regulating businesses, you can assume larval startups will break most of them, because they don't know what the laws are and don't have time to find out.",
+      "zhMarkdown": "如果存在任何监管商业的法律，你可以假定处于萌芽阶段的创业公司会违反其中的大部分，因为他们不知道法律是什么，也没时间去弄清楚。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "c52ceb55416ce44e2daeea0d5d5bc7e9afdd4544aa2b7509b15f59f9cd15e6af",
+      "enMarkdown": "For example, many startups in America begin in places where it's not really legal to run a business. Hewlett-Packard, Apple, and Google were all run out of garages. Many more startups, including ours, were initially run out of apartments. If the laws against such things were actually enforced, most startups wouldn't happen.",
+      "zhMarkdown": "例如，美国的许多创业公司都是在不怎么合法运营商业的场所起步的。惠普、苹果和谷歌都是在车库里运作起来的。还有更多的创业公司，包括我们自己的公司，最初都是在公寓里运作的。如果针对这些行为的法律真的被严格执行，大多数创业公司根本就不会诞生。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "cd4016e27e298e643a409de773c631f239b63ae372e96f780b89eb8363947abe",
+      "enMarkdown": "That could be a problem in fussier countries. If Hewlett and Packard tried running an electronics company out of their garage in Switzerland, the old lady next door would report them to the municipal authorities.",
+      "zhMarkdown": "这在更挑剔的国家可能会是个问题。如果休利特和帕卡德试图在瑞士的车库里开一家电子公司，隔壁的老太太就会把他们举报给市政当局。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "07073fd4180475db5e465945ec51357d2c34878d78c3eebd48ae6c10964f8ce6",
+      "enMarkdown": "But the worst problem in other countries is probably the effort required just to start a company. A friend of mine started a company in Germany in the early 90s, and was shocked to discover, among many other regulations, that you needed $20,000 in capital to incorporate. That's one reason I'm not typing this on an Apfel laptop. Jobs and Wozniak couldn't have come up with that kind of money in a company financed by selling a VW bus and an HP calculator. We couldn't have started Viaweb either. [[5](#f5n)]",
+      "zhMarkdown": "但在其他国家，最糟糕的问题可能仅仅是创办一家公司所需付出的努力。我的一个朋友在 90 年代初在德国创办了一家公司，震惊地发现，在众多法规中，注册公司居然需要 2 万美元的资本。这也是我此时没有在“苹果（Apfel）”笔记本电脑上打字的原因之一。乔布斯和沃兹尼亚克通过卖掉一辆大众面包车和一台惠普计算器来筹集资金，是根本拿不出这笔钱的。我们也同样无法创办 Viaweb。[[5](#f5n)]"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "fa40cb84ea94177cb02458321f3bda5b5f2036b806a4f004efd9fcbb9643745d",
+      "enMarkdown": "Here's a tip for governments that want to encourage startups: read the stories of existing startups, and then try to simulate what would have happened in your country. When you hit something that would have killed Apple, prune it off.",
+      "zhMarkdown": "这里给想要鼓励创业的政府一个建议：阅读现有的创业公司的故事，然后尝试模拟如果发生在你们国家会怎样。当你遇到某些会扼杀苹果公司的阻碍时，把它剪除掉。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "993ac7e91f802935738b935a93b5fcb9731218457a0c5c27de39f32b978ff145",
+      "enMarkdown": "*Startups are marginal.* They're started by the poor and the timid; they begin in marginal space and spare time; they're started by people who are supposed to be doing something else; and though businesses, their founders often know nothing about business. Young startups are fragile. A society that trims its margins sharply will kill them all.",
+      "zhMarkdown": "*创业公司是边缘化的。* 它们由贫穷和胆怯的人创立；它们始于边缘空间和业余时间；它们的创始人本该在做别的事情；而且尽管是商业，创始人往往对商业一无所知。早期的创业公司非常脆弱。一个将边缘剪裁得过于整齐的社会，会把它们全部抹杀。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "ba8359115df1aae7859551f29fee6462df9cc107c3b64434fc3c753aacff2301",
+      "enMarkdown": "**8. America Has a Large Domestic Market.**",
+      "zhMarkdown": "**8. 美国拥有庞大的本土市场**"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "5689510609a2858c8fc4a6e66083dfc9002b435f197a759e2274be2ba5a8b507",
+      "enMarkdown": "What sustains a startup in the beginning is the prospect of getting their initial product out. The successful ones therefore make the first version as simple as possible. In the US they usually begin by making something just for the local market.",
+      "zhMarkdown": "在最初阶段支撑创业公司的是将第一代产品推向市场的希望。因此，成功的公司会把第一版做得尽可能简单。在美国，他们通常从只为本地市场做些东西开始。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "196b390bc401f6921f7de3d60a749fc39fd6261372ecaed55d41bc0bec525f0d",
+      "enMarkdown": "This works in America, because the local market is 300 million people. It wouldn't work so well in Sweden. In a small country, a startup has a harder task: they have to sell internationally from the start.",
+      "zhMarkdown": "这在美国行得通，因为本地市场有 3 亿人口。但在瑞典就没那么灵了。在小国家，创业公司面临着更艰巨的任务：他们从一开始就必须销往国际。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "d404b224e08ef99683b471298c62db2a1b4a5f427709eefbb26fbef845479aba",
+      "enMarkdown": "The EU was designed partly to simulate a single, large domestic market. The problem is that the inhabitants still speak many different languages. So a software startup in Sweden is still at a disadvantage relative to one in the US, because they have to deal with internationalization from the beginning. It's significant that the most famous recent startup in Europe, Skype, worked on a problem that was intrinsically international.",
+      "zhMarkdown": "欧盟的设计初衷在一定程度上是为了模拟一个统一的、庞大的本土市场。问题在于居民仍然说着许多不同的语言。因此，瑞典的一家软件创业公司相对于美国的公司仍然处于劣势，因为他们从一开始就必须处理国际化问题。值得注意的是，欧洲近期最著名的创业公司 Skype，其解决的正是一个本质上属于国际化的问题。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "af0355f5f5f1b60ecffdfeb086ef0ab4a1635cbe22c36402275dcc06a2516fdb",
+      "enMarkdown": "However, for better or worse it looks as if Europe will in a few decades speak a single language. When I was a student in Italy in 1990, few Italians spoke English. Now all educated people seem to be expected to-- and Europeans do not like to seem uneducated. This is presumably a taboo subject, but if present trends continue, French and German will eventually go the way of Irish and Luxembourgish: they'll be spoken in homes and by eccentric nationalists.",
+      "zhMarkdown": "然而，不管好坏，欧洲看起来在几十年内都会说同一种语言。当我在 1990 年在意大利读书时，很少有意大利人说英语。现在，所有受过教育的人似乎都被期望会说英语——而欧洲人并不想显得没受过教育。这大概是个禁忌话题，但如果目前的趋势继续下去，法语和德语最终将步爱尔兰语和卢森堡语的后尘：它们将只在家里和古怪的民族主义者口中被使用。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "7b9f373678fc20fe3d2b1fb2b0e60f9c23b2ad368cfcaf611adc736b57b2c5f2",
+      "enMarkdown": "**9. America Has Venture Funding.**",
+      "zhMarkdown": "**9. 美国拥有风险投资**"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "1b07dace587f3466fe502012bc20fd0456c10bba8cf38ad33bb5de562d4f1a42",
+      "enMarkdown": "Startups are easier to start in America because funding is easier to get. There are now a few VC firms outside the US, but startup funding doesn't only come from VC firms. A more important source, because it's more personal and comes earlier in the process, is money from individual angel investors. Google might never have got to the point where they could raise millions from VC funds if they hadn't first raised a hundred thousand from Andy Bechtolsheim. And he could help them because he was one of the founders of Sun. This pattern is repeated constantly in startup hubs. It's this pattern that *makes* them startup hubs.",
+      "zhMarkdown": "在美国更容易创办创业公司，因为融资更容易。现在美国以外也有了一些风投机构，但创业公司的资金并不仅仅来自风投机构。一个更重要的来源，因为它更具个人色彩且在流程中出现得更早，是来自个人天使投资人的资金。如果谷歌没有先从安迪·贝托尔斯海姆那里拿到 10 万美元，它可能永远也无法发展到能从风投基金募集数百万美元的地步。而他之所以能帮上忙，是因为他是 Sun 的创始人之一。这种模式在创业中心不断重复。正是这种模式*使*它们成为了创业中心。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "3429ae15ec4594b99108780000df560761195047d898e1b15a901a498f20affc",
+      "enMarkdown": "The good news is, all you have to do to get the process rolling is get those first few startups successfully launched. If they stick around after they get rich, startup founders will almost automatically fund and encourage new startups.",
+      "zhMarkdown": "好消息是，要让这个过程运转起来，你所要做的就是成功启动最初的那几家创业公司。如果他们在变富之后留下来，创业公司创始人几乎会自动去资助和鼓励新的创业公司。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "57b803adf5a7bf61572b8bed05b6465eea73eb5b8f203e0441540cac64ae592c",
+      "enMarkdown": "The bad news is that the cycle is slow. It probably takes five years, on average, before a startup founder can make angel investments. And while governments *might* be able to set up local VC funds by supplying the money themselves and recruiting people from existing firms to run them, only organic growth can produce angel investors.",
+      "zhMarkdown": "坏消息是这个周期很慢。一个创业公司创始人平均可能需要五年时间才能进行天使投资。虽然政府*也许*能通过自己出资并从现有机构招聘人员来运营，从而建立起本地风投基金，但只有有机增长才能产生天使投资人。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "2a50c40694d6ab44edf2a847b7312940c1d3da2b4bceae697ab92da50641a138",
+      "enMarkdown": "Incidentally, America's private universities are one reason there's so much venture capital. A lot of the money in VC funds comes from their endowments. So another advantage of private universities is that a good chunk of the country's wealth is managed by enlightened investors.",
+      "zhMarkdown": "顺便提一句，美国的私立大学是拥有如此多风险资本的原因之一。风投基金中的很多资金来自这些大学的捐赠基金。因此，私立大学的另一个优势在于，该国财富的很大一部分是由开明的投资者管理的。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "3a2d88b7c0a0b6f475028da6e0b65ee5c441e39cc2244e75a8eff9d1c2f3e2f2",
+      "enMarkdown": "**10. America Has Dynamic Typing for Careers.**",
+      "zhMarkdown": "**10. 美国在职业生涯上拥有动态类型**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "9e4a6fa2c43b6fa190c688df37210e5c751b08cb22a99b6c9171dc3efc3f6042",
+      "enMarkdown": "Compared to other industrialized countries the US is disorganized about routing people into careers. For example, in America people often don't decide to go to medical school till they've finished college. In Europe they generally decide in high school.",
+      "zhMarkdown": "与其他工业化国家相比，美国在引导人们进入职业生涯方面显得有些无序。例如，在美国，人们往往直到大学毕业后才决定去读医学院。而在欧洲，他们通常在高中时就决定了。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "be6279d39051386a5c22abf53fa00f5a193d7dad0e2ece63de2590abefb6800f",
+      "enMarkdown": "The European approach reflects the old idea that each person has a single, definite occupation-- which is not far from the idea that each person has a natural \"station\" in life. If this were true, the most efficient plan would be to discover each person's station as early as possible, so they could receive the training appropriate to it.",
+      "zhMarkdown": "欧洲的方法反映了旧观念，即每个人都有一个单一、明确的职业——这与每个人在生活中都有一个天然“位置”的观念相去不远。如果这是真的，最有效的计划就是尽早发现每个人的位置，以便他们接受相应的培训。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "c7d4663269bb08381a0187a98c0fd9af2285d682c7d43d76fbc91c223b639ced",
+      "enMarkdown": "In the US things are more haphazard. But that turns out to be an advantage as an economy gets more liquid, just as dynamic typing turns out to work better than static for ill-defined problems. This is particularly true with startups. \"Startup founder\" is not the sort of career a high school student would choose. If you ask at that age, people will choose conservatively. They'll choose well-understood occupations like engineer, or doctor, or lawyer.",
+      "zhMarkdown": "在美国，事情更随性。但事实证明，随着经济流动性变强，这反而成了一个优势，就像动态类型在处理定义模糊的问题时比静态类型更好一样。在创业公司中尤其如此。“创业公司创始人”不是高中生会选择的那种职业。如果在这个年纪去问，人们会做出保守的选择。他们会选择容易理解的职业，比如工程师、医生或律师。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "24a5ae74fe168b988073542986c7bc1794471de9ea13c92922b2812676c0043d",
+      "enMarkdown": "Startups are the kind of thing people don't plan, so you're more likely to get them in a society where it's ok to make career decisions on the fly.",
+      "zhMarkdown": "创业是人们无法规划的事情，因此在允许随时做出职业决策的社会中，你更有可能获得创业公司。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "bff32041c2c2dce170f01c53b27f0586b09f82332adb692b71216e65388b08ad",
+      "enMarkdown": "For example, in theory the purpose of a PhD program is to train you to do research. But fortunately in the US this is another rule that isn't very strictly enforced. In the US most people in CS PhD programs are there simply because they wanted to learn more. They haven't decided what they'll do afterward. So American grad schools spawn a lot of startups, because students don't feel they're failing if they don't go into research.",
+      "zhMarkdown": "例如，从理论上讲，博士项目的目的是培养你做研究。但幸运的是，在美国，这是另一个执行得不是很严格的规则。在美国，计算机科学博士项目中的大多数人之所以在那里，仅仅是因为他们想学到更多。他们还没有决定之后要做什么。因此，美国的研究所孕育了大量的创业公司，因为学生们如果没去搞研究，也不会觉得自己失败了。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "73f1292cb9f1b00f658c95f5b160113db3f6a99bde5ac58ef909bb76c86bbfbc",
+      "enMarkdown": "Those worried about America's \"competitiveness\" often suggest spending more on public schools. But perhaps America's lousy public schools have a hidden advantage. Because they're so bad, the kids adopt an attitude of waiting for college. I did; I knew I was learning so little that I wasn't even learning what the choices were, let alone which to choose. This is demoralizing, but it does at least make you keep an open mind.",
+      "zhMarkdown": "那些担心美国“竞争力”的人经常建议在公立学校上投入更多。但也许美国糟糕的公立学校有一个隐藏的优势。因为它们太差了，孩子们采取了一种等待大学的态度。我当年就是这样；我知道自己学得太少，以至于连有哪些选择都不知道，更不用说选择哪一个了。这虽然令人气馁，但至少让你保持了开放的心态。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "46165239460564ebfef60a8aa872fb1c1bad1a9d6c510b5d9fc2867fb54aa4f3",
+      "enMarkdown": "Certainly if I had to choose between bad high schools and good universities, like the US, and good high schools and bad universities, like most other industrialized countries, I'd take the US system. Better to make everyone feel like a late bloomer than a failed child prodigy.",
+      "zhMarkdown": "当然，如果必须在“糟糕的高中和优秀的大学”（如美国）与“优秀的高中和糟糕的大学”（如大多数其他工业化国家）之间做出选择，我会选择美国的系统。让每个人都觉得自己是大器晚成，总比觉得自己是失败的神童要好。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "f4c1eab73de69387fdce0e760f66b6f41954314a034670faec3344b612c03bd0",
+      "enMarkdown": "**Attitudes**",
+      "zhMarkdown": "**态度**"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "5bb43637507a9a44db56eba5d3a7d77fb69b9ace5bd00ac15a7f261f31145c63",
+      "enMarkdown": "There's one item conspicuously missing from this list: American attitudes. Americans are said to be more entrepreneurial, and less afraid of risk. But America has no monopoly on this. Indians and Chinese seem plenty entrepreneurial, perhaps more than Americans.",
+      "zhMarkdown": "这个清单中显然漏掉了一项：美国人的态度。人们常说美国人更有创业精神，更不怕冒险。但美国并没有垄断这一点。印度人和中国人似乎非常有创业精神，甚至可能比美国人更甚。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "aefb2a3d7b3313ad61ecd345295004d53dfef3fce637ce08ba4a0f3dc0dc159a",
+      "enMarkdown": "Some say Europeans are less energetic, but I don't believe it. I think the problem with Europe is not that they lack balls, but that they lack examples.",
+      "zhMarkdown": "有人说欧洲人没那么有活力，但我并不相信。我认为欧洲的问题不在于他们缺乏胆量，而在于他们缺乏榜样。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "e190b7a102ce3a2750a9d7c0b0ddb111c9c782a1376d781eb717f26efa0897c3",
+      "enMarkdown": "Even in the US, the most successful startup founders are often technical people who are quite timid, initially, about the idea of starting their own company. Few are the sort of backslapping extroverts one thinks of as typically American. They can usually only summon up the activation energy to start a startup when they meet people who've done it and realize they could too.",
+      "zhMarkdown": "即使在美国，最成功的创业创始人也往往是技术人员，他们最初对于创办自己的公司这个想法是相当胆怯的。很少有人是人们心目中典型的美国式、爱拍人肩膀的外向者。他们通常只有在遇到做过这件事的人并意识到自己也能做时，才能召唤出创办创业公司所需的活化能。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "e03dd3cbc26f865c4af244c1521c41fba606ad79479c5b0057ccc227b5c99bb9",
+      "enMarkdown": "I think what holds back European hackers is simply that they don't meet so many people who've done it. You see that variation even within the US. Stanford students are more entrepreneurial than Yale students, but not because of some difference in their characters; the Yale students just have fewer examples.",
+      "zhMarkdown": "我认为阻碍欧洲黑客的仅仅是他们没有遇到那么多做过这件事的人。你甚至在美国国内也能看到这种差异。斯坦福的学生比耶鲁的学生更有创业精神，但这并非因为他们性格上的差异；耶鲁的学生只是身边的榜样较少。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "ccf60e8c505219fee2f0de91b2d7db02316775788dd8f455dcfd9124507690d7",
+      "enMarkdown": "I admit there seem to be different attitudes toward ambition in Europe and the US. In the US it's ok to be overtly ambitious, and in most of Europe it's not. But this can't be an intrinsically European quality; previous generations of Europeans were as ambitious as Americans. What happened? My hypothesis is that ambition was discredited by the terrible things ambitious people did in the first half of the twentieth century. Now swagger is out. (Even now the image of a very ambitious German presses a button or two, doesn't it?)",
+      "zhMarkdown": "我承认，欧洲和美国对待抱负的态度似乎有所不同。在美国，公开表达抱负是可以接受的，但在欧洲大部分地区却不行。但这不可能是欧洲人固有的品质；前几代欧洲人曾和美国人一样野心勃勃。发生了什么？我的假设是，野心被野心家在二十世纪上半叶所做的可怕事情搞得名声扫地。现在，神气活现是不受欢迎的。（即使在现在，一个野心勃勃的德国人形象依然会触动某些敏感神经，不是吗？）"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "70595bbbd4ffbc1ea7cfd1e6ee03e3b4a530f41393db07527d28d160f98adc99",
+      "enMarkdown": "It would be surprising if European attitudes weren't affected by the disasters of the twentieth century. It takes a while to be optimistic after events like that. But ambition is human nature. Gradually it will re-emerge. [[6](#f6n)]",
+      "zhMarkdown": "如果欧洲人的态度没有受到二十世纪灾难的影响，那才是令人惊讶的。在那样的事情之后，需要一段时间才能重新乐观起来。但抱负是人类的天性。它会逐渐重新显现。[[6](#f6n)]"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "c325f1a3c3f9c1b90994425aee0080ed29474a4ae09ff135f213c392c3bd19e5",
+      "enMarkdown": "**How To Do Better**",
+      "zhMarkdown": "**如何做得更好**"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "a45f20cd9bb239eff647144733d2be416657decabde1e8883b41c6438d2fb5ab",
+      "enMarkdown": "I don't mean to suggest by this list that America is the perfect place for startups. It's the best place so far, but the sample size is small, and \"so far\" is not very long. On historical time scales, what we have now is just a prototype.",
+      "zhMarkdown": "我并不是想通过这个清单来暗示美国是创业公司的完美之地。它是到目前为止最好的地方，但样本量很小，而且“到目前为止”的时间并不长。在历史的时间尺度上，我们现在拥有的只是一个原型。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "809a75457623aab4180f11eb2f8222407289d028158e847441aeae58ee49bb28",
+      "enMarkdown": "So let's look at Silicon Valley the way you'd look at a product made by a competitor. What weaknesses could you exploit? How could you make something users would like better? The users in this case are those critical few thousand people you'd like to move to your silicon valley.",
+      "zhMarkdown": "所以，让我们用看待竞争对手产品的方式来看待硅谷。有哪些你可以利用的弱点？你如何做出用户更喜欢的东西？在这里，用户指的是你希望吸引到你的硅谷去的、至关重要的几千人。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "21f20d63b5c71b62ec8e6ccc22a36cc9c03af6eb235230a3c9e6c495e0df15a1",
+      "enMarkdown": "To start with, Silicon Valley is too far from San Francisco. Palo Alto, the original ground zero, is about thirty miles away, and the present center more like forty. So people who come to work in Silicon Valley face an unpleasant choice: either live in the boring sprawl of the valley proper, or live in San Francisco and endure an hour commute each way.",
+      "zhMarkdown": "首先，硅谷离旧金山太远了。帕罗奥图作为最初的中心，距离旧金山大约 30 英里，而现在的中心更接近 40 英里。因此，来硅谷工作的人面临着一个不愉快的选择：要么住在硅谷本土无聊的扩张区，要么住在旧金山，忍受单程一小时的通勤。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "732f5d127e0e898ff3600953ed26417b0590794ee28ff57e3a1f390ecd8e4a2d",
+      "enMarkdown": "The best thing would be if the silicon valley were not merely closer to the interesting city, but interesting itself. And there is a lot of room for improvement here. Palo Alto is not so bad, but everything built since is the worst sort of strip development. You can measure how demoralizing it is by the number of people who will sacrifice two hours a day commuting rather than live there.",
+      "zhMarkdown": "最好的情况是，硅谷不仅离有趣的城市更近，而且其自身就很有趣。在这方面有很大的提升空间。帕罗奥图还不算太糟，但此后建造的一切都是最糟糕的那种带状开发。你可以通过有多少人宁愿每天牺牲两小时通勤也不愿住在那里，来衡量它有多么令人沮丧。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "26c1e50cdfd65518944964fe1bb65b48f13f14e0e2a806ece348635f7fcbac93",
+      "enMarkdown": "Another area in which you could easily surpass Silicon Valley is public transportation. There is a train running the length of it, and by American standards it's not bad. Which is to say that to Japanese or Europeans it would seem like something out of the third world.",
+      "zhMarkdown": "另一个你可以轻易超越硅谷的领域是公共交通。有一条贯穿硅谷的火车，按美国标准来看还不算太差。也就是说，对日本人或欧洲人来说，它看起来就像是第三世界的东西。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "2bf5fb6c0c47ed81f0f6604e4ac9985176ca5f491816ef5589b8d492f91bc12a",
+      "enMarkdown": "The kind of people you want to attract to your silicon valley like to get around by train, bicycle, and on foot. So if you want to beat America, design a town that puts cars last. It will be a while before any American city can bring itself to do that.",
+      "zhMarkdown": "你想吸引到硅谷的那类人喜欢靠火车、自行车和步行出行。因此，如果你想击败美国，就设计一个把汽车排在最后的城镇。任何美国城市在下定决心做到这一点之前，都需要相当长的时间。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "68f4b6fbad3afecf56e0861684a53eb0b35b16fa9e3af77bd0e45791697486a9",
+      "enMarkdown": "**Capital Gains**",
+      "zhMarkdown": "**资本利得**"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "0f796823091c023568bfb21ec1b9a5f27e06b17ced6f864fff9f1103b747f582",
+      "enMarkdown": "There are also a couple things you could do to beat America at the national level. One would be to have lower capital gains taxes. It doesn't seem critical to have the lowest *income* taxes, because to take advantage of those, people have to move. [[7](#f7n)] But if capital gains rates vary, you move assets, not yourself, so changes are reflected at market speeds. The lower the rate, the cheaper it is to buy stock in growing companies as opposed to real estate, or bonds, or stocks bought for the dividends they pay.",
+      "zhMarkdown": "在国家层面上，你也可以做几件事来击败美国。一是降低资本利得税。拥有最低的*所得税*似乎并不关键，因为要利用这些，人们必须搬家。[[7](#f7n)] 但如果资本利得税率发生变化，你移动的是资产，而不是你自己，因此变化会以市场速度反映出来。税率越低，购买成长型公司的股票就比购买房地产、债券或为了分红而购买的股票更便宜。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "b242ca4a58c2c09fe768b59f32515cf1232eaec566574eb911803386e244efd8",
+      "enMarkdown": "So if you want to encourage startups you should have a low rate on capital gains. Politicians are caught between a rock and a hard place here, however: make the capital gains rate low and be accused of creating \"tax breaks for the rich,\" or make it high and starve growing companies of investment capital. As Galbraith said, politics is a matter of choosing between the unpalatable and the disastrous. A lot of governments experimented with the disastrous in the twentieth century; now the trend seems to be toward the merely unpalatable.",
+      "zhMarkdown": "因此，如果你想鼓励创业公司，就应该实行低资本利得税率。然而，政治家们在这里陷入了两难境地：降低资本利得税率，就会被指责为“给富人减税”；提高税率，又会让成长型公司失去投资资本。正如加尔布雷思所说，政治是在令人不快和灾难性之间做出选择。许多政府在二十世纪尝试了灾难性的道路；现在，趋势似乎正朝着仅仅是令人不快的方向发展。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "eaeab5a55b358fb39d5c07305f1e05e9e90a395a84c41bb6dc91a3a7ce34b3f2",
+      "enMarkdown": "Oddly enough, the leaders now are European countries like Belgium, which has a capital gains tax rate of zero.",
+      "zhMarkdown": "奇怪的是，现在的领跑者是像比利时这样的欧洲国家，其资本利得税率为零。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "ceb308025758efd1173e469cd7917a0d1a12dd06254810969bf02071214fbc43",
+      "enMarkdown": "**Immigration**",
+      "zhMarkdown": "**移民**"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "d1ed56090de489a89f9a789a3a78806509988e0b765aa28880864eb44ca48940",
+      "enMarkdown": "The other place you could beat the US would be with smarter immigration policy. There are huge gains to be made here. Silicon valleys are made of people, remember.",
+      "zhMarkdown": "另一个你可以击败美国的地方是更聪明的移民政策。这里有巨大的利益空间。请记住，硅谷是由人构成的。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "a62d52fb8a68a4763edcbfcc920b170e795aee0db479f16f4e0853b7f50f4e5b",
+      "enMarkdown": "Like a company whose software runs on Windows, those in the current Silicon Valley are all too aware of the shortcomings of the INS, but there's little they can do about it. They're hostages of the platform.",
+      "zhMarkdown": "就像一家软件运行在 Windows 上的公司一样，目前硅谷的人对移民局（INS）的缺点再清楚不过了，但他们对此无能为力。他们是这个平台的质押物。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "a9e0c0130e86a2b6d2b731fbc4eddfe0c1743de3994da54b7c0b66d0105b6588",
+      "enMarkdown": "America's immigration system has never been well run, and since 2001 there has been an additional admixture of paranoia. What fraction of the smart people who want to come to America can even get in? I doubt even half. Which means if you made a competing technology hub that let in all smart people, you'd immediately get more than half the world's top talent, for free.",
+      "zhMarkdown": "美国的移民体系从未运转良好，自 2001 年以来，又额外夹杂了偏执。想来美国的聪明人中，有多少比例甚至能进来？我怀疑连一半都不到。这意味着，如果你建立一个向所有聪明人敞开大门的竞争性技术中心，你就能立刻免费获得世界上超过一半的顶尖人才。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "0a718d03252f06189b3d99fa761cd05467db6f741aebddb1cc43b93672e54af9",
+      "enMarkdown": "US immigration policy is particularly ill-suited to startups, because it reflects a model of work from the 1970s. It assumes good technical people have college degrees, and that work means working for a big company.",
+      "zhMarkdown": "美国的移民政策特别不适合创业公司，因为它反映的是 1970 年代的工作模式。它假设优秀的技术人员都有大学学位，且工作意味着在大公司上班。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "7296f73dba9c009a3c2936d44b2681a6cba20ec114ba519ed74e0579f217b219",
+      "enMarkdown": "If you don't have a college degree you can't get an H1B visa, the type usually issued to programmers. But a test that excludes Steve Jobs, Bill Gates, and Michael Dell can't be a good one. Plus you can't get a visa for working on your own company, only for working as an employee of someone else's. And if you want to apply for citizenship you daren't work for a startup at all, because if your sponsor goes out of business, you have to start over.",
+      "zhMarkdown": "如果你没有大学学位，你就拿不到 H1B 签证（通常发放给程序员的类型）。但是，一个将史蒂夫·乔布斯、比尔·盖茨和迈克尔·戴尔排除在外的测试不可能是个好测试。此外，你不能因为在自己的公司工作而获得签证，只能作为别人公司的雇员。如果你想申请公民身份，你根本不敢在创业公司工作，因为如果你的担保人倒闭了，你就必须重新开始。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "3e04c363d66dafe1ff66d8af4a9f335939a4349fbb6ba75147355c0839a70884",
+      "enMarkdown": "American immigration policy keeps out most smart people, and channels the rest into unproductive jobs. It would be easy to do better. Imagine if, instead, you treated immigration like recruiting-- if you made a conscious effort to seek out the smartest people and get them to come to your country.",
+      "zhMarkdown": "美国的移民政策把大多数聪明人拒之门外，并把剩下的人引导到没有产出的岗位上。要做得更好是很容易的。试想一下，如果你像招聘一样对待移民——如果你有意识地去寻找最聪明的人并让他们来到你的国家，情况会怎样。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "c959a895e00cb943814b1fc3e0861e6d2020ef3d2457f3a5eee2acdbdd8f849f",
+      "enMarkdown": "A country that got immigration right would have a huge advantage. At this point you could become a mecca for smart people simply by having an immigration system that let them in.",
+      "zhMarkdown": "一个做好移民工作的国家将拥有巨大的优势。在这一点上，你只需拥有一个能让聪明人进来的移民系统，就能成为他们的圣地。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "b525cb1e69dbc4094d95d7f87e1ef6ac9838fee57a1efb3abf5a04f672cc731f",
+      "enMarkdown": "**A Good Vector**",
+      "zhMarkdown": "**一个良性方向**"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "eba8b87f82afad0fe2dab99ef862c0602f53f37461146d565242b9b1e31becc9",
+      "enMarkdown": "If you look at the kinds of things you have to do to create an environment where startups condense, none are great sacrifices. Great universities? Livable towns? Civil liberties? Flexible employment laws? Immigration policies that let in smart people? Tax laws that encourage growth? It's not as if you have to risk destroying your country to get a silicon valley; these are all good things in their own right.",
+      "zhMarkdown": "如果你看看为了创造一个让创业公司凝聚的环境所必须做的事情，没有一件是巨大的牺牲。伟大的大学？宜居的城镇？公民自由？灵活的雇佣法律？接纳聪明人的移民政策？鼓励增长的税法？你不需要冒着毁灭国家的风险去获得一个硅谷；这些事情本身就是好事。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "04f09995d3ca76788a988b11106c891d994bc02790c0c5d45303cadd4e5a75f3",
+      "enMarkdown": "And then of course there's the question, can you afford not to? I can imagine a future in which the default choice of ambitious young people is to start their [own](https://paulgraham.com/hiring.html) company rather than work for someone else's. I'm not sure that will happen, but it's where the trend points now. And if that is the future, places that don't have startups will be a whole step behind, like those that missed the Industrial Revolution.",
+      "zhMarkdown": "当然，接下来的问题是，你能承受不这样做的代价吗？我可以想象这样一个未来，有抱负的年轻人的默认选择是创办自己的[公司](https://paulgraham.com/hiring.html)，而不是为别人的公司工作。我不确定这是否一定会发生，但这是目前的趋势所指。如果这就是未来，那么没有创业公司的地方将落后整整一个时代，就像那些错过了工业革命的地方一样。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "a28acef90ad801da29d921d1f3ea3f2728ff593f0f1798dbdd4e167dc0a026e7",
+      "enMarkdown": "[1] On the verge of the Industrial Revolution, England was already the richest country in the world. As far as such things can be compared, per capita income in England in 1750 was higher than India's in 1960.",
+      "zhMarkdown": "[1] 在工业革命前夕，英国已经是世界上最富裕的国家。就这类事物可比性而言，1750 年英国的人均收入高于 1960 年的印度。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "7db4b3a9bc6a4b19e42580bf1dc85e65864581d767baa737acb7486cb7ea4e28",
+      "enMarkdown": "Deane, Phyllis, *The First Industrial Revolution*, Cambridge University Press, 1965.",
+      "zhMarkdown": "Deane, Phyllis, *The First Industrial Revolution*, Cambridge University Press, 1965."
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "fd9c2966f65a4654ca6dfb7f1e298ab6f16a4f15210733ef556c99926fd53587",
+      "enMarkdown": "[2] This has already happened once in China, during the Ming Dynasty, when the country turned its back on industrialization at the command of the court. One of Europe's advantages was that it had no government powerful enough to do that.",
+      "zhMarkdown": "[2] 这在中国历史上已经发生过一次，在明朝时期，国家在朝廷的命令下背弃了工业化。欧洲的优势之一在于，没有任何一个政府强大到足以做到这一点。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "d8b52b3d27720e46df97ad705f5580f576f5e8d88ca1edc6c61fb446445e7722",
+      "enMarkdown": "[3] Of course, Feynman and Diogenes were from adjacent traditions, but Confucius, though more polite, was no more willing to be told what to think.",
+      "zhMarkdown": "[3] 当然，费曼和第欧根尼来自相邻的传统，但孔子虽然更温和有礼，但也同样不愿被别人指手画脚。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "4287d7989c3fab19f41b81cdebf165c5046b68453308291feddf0820aa1b1bce",
+      "enMarkdown": "[4] For similar reasons it might be a lost cause to try to establish a silicon valley in Israel. Instead of no Jews moving there, only Jews would move there, and I don't think you could build a silicon valley out of just Jews any more than you could out of just Japanese.",
+      "zhMarkdown": "[4] 出于类似的原因，在以色列建立硅谷可能也是徒劳的。不是没有犹太人搬到那里，而是只有犹太人会搬到那里，而且我不认为你仅靠犹太人就能建立一个硅谷，就像你不能仅靠日本人一样。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "2c9d2b80eb28b5edbea34d4b30fade63fe1460a8e4fe915ad9e45bbd69e07260",
+      "enMarkdown": "(This is not a remark about the qualities of these groups, just their sizes. Japanese are only about 2% of the world population, and Jews about .2%.)",
+      "zhMarkdown": "（这并非针对这些群体的特质，仅仅是指他们的规模。日本人仅占世界人口的约 2%，而犹太人约占 0.2%。）"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "37c70571270d9aa60968291c2d451110fe339572e55877faa86d847282146aa3",
+      "enMarkdown": "[5] According to the World Bank, the initial capital requirement for German companies is 47.6% of the per capita income. Doh.",
+      "zhMarkdown": "[5] 根据世界银行的数据，德国公司的初始资本要求是人均收入的 47.6%。哎呀。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "341f1de45406f32a890a3a6d4df825f94b3be42a9a4798a60d00efc8fbd2ad0e",
+      "enMarkdown": "World Bank, *Doing Business in 2006*, http://doingbusiness.org",
+      "zhMarkdown": "World Bank, *Doing Business in 2006*, http://doingbusiness.org"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "2cef9611d67dade55e5010a0f4fb1a296b356d849815fd7d51a3b6f15a104f26",
+      "enMarkdown": "[6] For most of the twentieth century, Europeans looked back on the summer of 1914 as if they'd been living in a dream world. It seems more accurate (or at least, as accurate) to call the years after 1914 a nightmare than to call those before a dream. A lot of the optimism Europeans consider distinctly American is simply what they too were feeling in 1914.",
+      "zhMarkdown": "[6] 在二十世纪的大部分时间里，欧洲人回首 1914 年夏天，仿佛他们曾生活在梦境中。将 1914 年之后的岁月称为噩梦，似乎比将之前的岁月称为美梦更为准确（或者至少同样准确）。欧洲人认为具有鲜明美国特征的许多乐观情绪，其实不过是他们在 1914 年也曾感受到的东西。"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "6380a09ed338f4e7804e2260b682e0190ac6ee6e3e7077908df7a1da159d57d7",
+      "enMarkdown": "[7] The point where things start to go wrong seems to be about 50%. Above that people get serious about tax avoidance. The reason is that the payoff for avoiding tax grows hyperexponentially (x/1-x for 0 < x < 1). If your income tax rate is 10%, moving to Monaco would only give you 11% more income, which wouldn't even cover the extra cost. If it's 90%, you'd get ten times as much income. And at 98%, as it was briefly in Britain in the 70s, moving to Monaco would give you fifty times as much income. It seems quite likely that European governments of the 70s never drew this curve.",
+      "zhMarkdown": "[7] 事情开始变糟的临界点似乎在 50% 左右。超过这个比例，人们就会开始认真对待避税。原因在于，避税的收益呈超指数级增长（当 0 < x < 1 时，为 x/1-x）。如果你的所得税率是 10%，搬到摩纳哥只会让你多获得 11% 的收入，这甚至不够弥补额外的成本。如果是 90%，你将获得十倍的收入。而在 98% 的税率下（如 70 年代英国曾短暂出现的那样），搬到摩纳哥会让你获得五十倍的收入。欧洲 70 年代的政府似乎极有可能从未画过这条曲线。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "0facb028cb70d16c8d0cd4bc87154027880f12ad6b5391c2acfb179bb588b183",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Matthias Felleisen, Jessica Livingston, Robert Morris, Neil Rimer, Hugues Steinier, Brad Templeton, Fred Wilson, and Stephen Wolfram for reading drafts of this, and to Ed Dumbill for inviting me to speak.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Matthias Felleisen、Jessica Livingston、Robert Morris、Neil Rimer、Hugues Steinier、Brad Templeton、Fred Wilson 和 Stephen Wolfram 阅读草稿，并感谢 Ed Dumbill 邀请我发表演讲。"
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "slug": "web20",
+  "titleEn": "Web 2.0",
+  "titleZh": "Web 2.0",
+  "dateText": "November 2005",
+  "publishedAt": "2005-11-01",
+  "sourceOrder": 175,
+  "sourceUrl": "https://paulgraham.com/web20.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "8d683369ca3d15c7141bf1fe9e0731f22834b0155e1a853e4b10b736d4170017",
+      "enMarkdown": "Does \"Web 2.0\" mean anything? Till recently I thought it didn't, but the truth turns out to be more complicated. Originally, yes, it was meaningless. Now it seems to have acquired a meaning. And yet those who dislike the term are probably right, because if it means what I think it does, we don't need it.",
+      "zhMarkdown": "“Web 2.0” 有什么实际意义吗？直到最近，我还觉得它毫无意义，但事实证明情况要复杂得多。起初，是的，它确实是个空洞的词。但现在，它似乎已经有了一些实际含义。然而，那些讨厌这个词的人大概也是对的，因为如果它的含义正如我所想，那我们根本就不需要这个词。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "a15c66dd6ca2e3790fa36fac9046ef781bd5b4a5a25ab7e68ae69c45bb865c6b",
+      "enMarkdown": "I first heard the phrase \"Web 2.0\" in the name of the Web 2.0 conference in 2004. At the time it was supposed to mean using \"the web as a platform,\" which I took to refer to web-based applications. [[1](#f1n)]",
+      "zhMarkdown": "我第一次听到“Web 2.0”这个词，是在 2004 年的 Web 2.0 大会上。当时，它的本意是指将“网络作为平台”，我理解这就是指基于 Web 的应用程序。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "380d28b6b73a87d7b2327ba626e2b36f44036791a158d85a9cfd6013212ae5d2",
+      "enMarkdown": "So I was surprised at a conference this summer when Tim O'Reilly led a session intended to figure out a definition of \"Web 2.0.\" Didn't it already mean using the web as a platform? And if it didn't already mean something, why did we need the phrase at all?",
+      "zhMarkdown": "所以，在今年夏天的一个会议上，当听到 Tim O'Reilly 主持一个旨在定义“Web 2.0”的讨论会时，我感到很惊讶。它不是早就代表“把网络作为平台”了吗？如果它还没有一个确切的含义，那我们为什么还需要这个词呢？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "02222d58517c952ac7af9d7c62bad96a51ec968f52407db8812260d48dae07ba",
+      "enMarkdown": "**Origins**",
+      "zhMarkdown": "**起源**"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "70e880f2a90042afbbddc0b06bfd5be2be7f093f98c6a1670d83d3ac2c455b05",
+      "enMarkdown": "Tim says the phrase \"Web 2.0\" first [arose](http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20\n.html) in \"a brainstorming session between O'Reilly and Medialive International.\" What is Medialive International? \"Producers of technology tradeshows and conferences,\" according to their site. So presumably that's what this brainstorming session was about. O'Reilly wanted to organize a conference about the web, and they were wondering what to call it.",
+      "zhMarkdown": "Tim 说，“Web 2.0”这个词最早[诞生于](http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20\n.html)“O'Reilly 和 Medialive International 之间的一次脑力激荡会议”。Medialive International 是做什么的？根据他们的网站介绍，他们是“技术贸易展和会议的策划方”。所以可以推测，那次脑力激荡会议就是为了这个。O'Reilly 想办一个关于 Web 的会议，而他们正在琢磨该起个什么名字。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "5954e76cbc2cda7b77e1c81e07806944b3266222e1f984d46f0e3c2239078a3c",
+      "enMarkdown": "I don't think there was any deliberate plan to suggest there was a new *version* of the web. They just wanted to make the point that the web mattered again. It was a kind of semantic deficit spending: they knew new things were coming, and the \"2.0\" referred to whatever those might turn out to be.",
+      "zhMarkdown": "我不认为当时有什么刻意的计划去暗示出现了一个新*版本*的 Web。他们只是想表达一个观点：Web 重新变得重要了。这是一种语义上的“赤字财政”：他们知道新事物即将到来，而“2.0”指的是未来可能出现的任何新事物。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "73d0c847fc1576e71abf81ab32670e89ba5d7717efae83a96f10bb6e459969f8",
+      "enMarkdown": "And they were right. New things were coming. But the new version number led to some awkwardness in the short term. In the process of developing the pitch for the first conference, someone must have decided they'd better take a stab at explaining what that \"2.0\" referred to. Whatever it meant, \"the web as a platform\" was at least not too constricting.",
+      "zhMarkdown": "他们是对的，新事物确实来了。但在短期内，这个新版本号也带来了一些尴尬。在为第一届会议撰写推介方案的过程中，肯定有人觉得，他们最好还是试着解释一下“2.0”到底指什么。不管它具体意味着什么，至少“网络作为平台”这个说法听起来不算太狭隘。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "b9a5016dd8d9210ab8b844fbfe52872c9baa08348c91808999625f895e6ae6dd",
+      "enMarkdown": "The story about \"Web 2.0\" meaning the web as a platform didn't live much past the first conference. By the second conference, what \"Web 2.0\" seemed to mean was something about democracy. At least, it did when people wrote about it online. The conference itself didn't seem very grassroots. It cost $2800, so the only people who could afford to go were VCs and people from big companies.",
+      "zhMarkdown": "关于“Web 2.0 意味着网络作为平台”的说法在第一届会议后就没怎么再流传了。到了第二届会议，大家口中的“Web 2.0”似乎变成了某种关于民主的东西。至少，人们在网上写文章时是这么说的。不过会议本身看起来并不怎么接地气，门票高达 2800 美元，所以唯一去得起的人只有风险投资人和大公司的高管。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "416c407f7b45787a1a800f55cf391d646c68cdc1e4501a61254bc584919f8ebe",
+      "enMarkdown": "And yet, oddly enough, Ryan Singel's [article](http://www.wired.com/news/technology/0,1282,69114,00.html) about the conference in *Wired News* spoke of \"throngs of geeks.\" When a friend of mine asked Ryan about this, it was news to him. He said he'd originally written something like \"throngs of VCs and biz dev guys\" but had later shortened it just to \"throngs,\" and that this must have in turn been expanded by the editors into \"throngs of geeks.\" After all, a Web 2.0 conference would presumably be full of geeks, right?",
+      "zhMarkdown": "然而奇怪的是，Ryan Singel 在《连线》杂志（*Wired News*）上发表的关于该会议的[文章](http://www.wired.com/news/technology/0,1282,69114,00.html)中，却提到了“极客成群”。当我的一位朋友向 Ryan 问起这件事时，他自己也很惊讶。他说，他起初写的是类似“风投和业务拓展人员成群”之类的话，但后来把词缩减成了“人群”，结果编辑在修改时又自作聪明地把它扩写成了“极客成群”。毕竟，一个 Web 2.0 会议，台下理所当然应该满是极客，对吧？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "7877ac94659ac8c1e1b34cff589826bc9655e56c843318c25615dc8ee4d478e0",
+      "enMarkdown": "Well, no. There were about 7. Even Tim O'Reilly was wearing a suit, a sight so alien I couldn't parse it at first. I saw him walk by and said to one of the O'Reilly people \"that guy looks just like Tim.\"",
+      "zhMarkdown": "其实不然，现场大概只有 7 个极客。连 Tim O'Reilly 都穿着西装，这一幕太违和了，以至于我一开始都没认出来。我看到他走过去，对 O'Reilly 公司的一个员工说：“那个人长得真像 Tim。”"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "ca70046eedefd07d9eac3c3f7be103d39c9bb2289dc8cdd0a6b048374603be6e",
+      "enMarkdown": "\"Oh, that's Tim. He bought a suit.\" I ran after him, and sure enough, it was. He explained that he'd just bought it in Thailand.",
+      "zhMarkdown": "“噢，那就是 Tim。他买了一套西装。”我追上他，果真是他。他解释说，这套西装是他刚在泰国买的。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "0a3c5a261d0fd65ecd9c101086d55202e1feaf1ab6dd2e33a15a6e41fee39f9d",
+      "enMarkdown": "The 2005 Web 2.0 conference reminded me of Internet trade shows during the Bubble, full of prowling VCs looking for the next hot startup. There was that same odd atmosphere created by a large number of people determined not to miss out. Miss out on what? They didn't know. Whatever was going to happen—whatever Web 2.0 turned out to be.",
+      "zhMarkdown": "2005 年的 Web 2.0 大会让我联想到了互联网泡沫时期的行业展会，现场到处都是四处搜寻下一个热门创业公司的风险投资人。那种由一大群决心不甘落后的人所营造的异样氛围，和当年如出一辙。不甘落后于什么？他们自己也不知道。总之就是无论未来会发生什么——无论 Web 2.0 最终会变成什么。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "67d34f836d703c30a4dc601db7f264d8890899507037301f7a1f9ba0e50a2bf3",
+      "enMarkdown": "I wouldn't quite call it \"Bubble 2.0\" just because VCs are eager to invest again. The Internet is a genuinely big deal. The bust was as much an [overreaction](http://www.paulgraham.com/bubble.html) as the boom. It's to be expected that once we started to pull out of the bust, there would be a lot of growth in this area, just as there was in the industries that spiked the sharpest before the Depression.",
+      "zhMarkdown": "我倒不至于因为风险投资人又开始急于投资，就管这叫“泡沫 2.0”。互联网确实是一件极其重要的大事。当年的破裂和当年的狂热一样，都是一种[过度反应](http://www.paulgraham.com/bubble.html)。可以预见的是，一旦我们开始走出低谷，这个领域就会出现大量的增长，就像在大萧条之前那些飙升最猛烈的行业在复苏后的表现一样。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "f9ee3c9d4e96218dd149a886afb0ce3828e9234e609503e2432887c4bf2305b0",
+      "enMarkdown": "The reason this won't turn into a second Bubble is that the IPO market is gone. [Venture investors](https://paulgraham.com/startupfunding.html) are driven by exit strategies. The reason they were funding all those laughable startups during the late 90s was that they hoped to sell them to gullible retail investors; they hoped to be laughing all the way to the bank. Now that route is closed. Now the default exit strategy is to get bought, and acquirers are less prone to irrational exuberance than IPO investors. The closest you'll get to Bubble valuations is Rupert Murdoch paying $580 million for Myspace. That's only off by a factor of 10 or so.",
+      "zhMarkdown": "这次之所以不会演变成第二次泡沫，是因为 IPO（首次公开募股）市场已经不复存在了。[风险投资人](https://paulgraham.com/startupfunding.html)是靠退出机制驱动的。他们在 90 年代末资助那些荒谬的创业公司，是因为他们希望把这些公司卖给天真的散户投资者，从而赚得盆满钵满。现在这条路被堵死了。如今，默认的退出方式是被收购，而收购方比起当年打新股的股民，要理智得多。你目前能看到最接近泡沫估值的案例，也就是鲁珀特·默多克花 5.8 亿美元买下 Myspace。这大概也就高估了 10 倍左右吧。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "b453cf567639d5883b168ec9c34b19bab9a4fd0617721ea1e67fb7369af7ee45",
+      "enMarkdown": "**1. Ajax**",
+      "zhMarkdown": "**1. Ajax**"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "c5bea00e7042ff339324fec4c844c300c1bb322b61c37b6154397adce7ebb472",
+      "enMarkdown": "Does \"Web 2.0\" mean anything more than the name of a conference yet? I don't like to admit it, but it's starting to. When people say \"Web 2.0\" now, I have some idea what they mean. And the fact that I both despise the phrase and understand it is the surest proof that it has started to mean something.",
+      "zhMarkdown": "现在“Web 2.0”除了作为一个会议的名字之外，还有别的含义吗？我虽然不太情愿承认，但它确实开始有了。现在人们说“Web 2.0”时，我大概能明白他们指的是什么了。我既鄙视这个词，却又明白它的意思，这本身就是它开始有了实际含义的最有力证明。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "94093ae9dbb34bc85af0c15e5c86c4004f1b34da15052331ffbe93d237afab9f",
+      "enMarkdown": "One ingredient of its meaning is certainly Ajax, which I can still only just bear to use without scare quotes. Basically, what \"Ajax\" means is \"Javascript now works.\" And that in turn means that web-based applications can now be made to work much more like desktop ones.",
+      "zhMarkdown": "它含义中的一个核心要素无疑是 Ajax。我现在用这个词时，还勉强需要克制一下加引号的冲动。简单来说，“Ajax”的意思就是“Javascript 终于能正常工作了”。而这反过来意味着，基于 Web 的应用程序现在可以做得非常像桌面软件了。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "2801b3eb58c4f626d36bbd170534cf2e06257852345057444f94ad6503960058",
+      "enMarkdown": "As you read this, a whole new [generation](http://online.wsj.com/public/article/SB113098635587487074.html?mod=todays_\nfree_feature) of software is being written to take advantage of Ajax. There hasn't been such a wave of new applications since microcomputers first appeared. Even Microsoft sees it, but it's too late for them to do anything more than [leak](http://www.hypercamp.org/2005/11/09) \"internal\" documents designed to give the impression they're on top of this new trend.",
+      "zhMarkdown": "就在你阅读本文的同时，整整[一代](http://online.wsj.com/public/article/SB113098635587487074.html?mod=todays_\nfree_feature)全新的软件正在被开发出来以充分利用 Ajax。自微型计算机首次出现以来，还从未有过如此迅猛的新软件浪潮。连微软也看清了这一趋势，但对他们来说，现在做任何事都太晚了，只能[泄露](http://www.hypercamp.org/2005/11/09)一些“内部”文档，试图营造一种他们依然引领新潮流的假象。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "964161e2926f9fdf474650f91c7ff47d19d0700550d9e31926803f9eded15518",
+      "enMarkdown": "In fact the new generation of software is being written way too fast for Microsoft even to channel it, let alone write their own in house. Their only hope now is to buy all the best Ajax startups before Google does. And even that's going to be hard, because Google has as big a head start in buying microstartups as it did in search a few years ago. After all, Google Maps, the canonical Ajax application, was the result of a startup they [bought](http://googlemapsmania.blogspot.com/2005/10/google-maps-lead-engineer-gaze\ns-into.html).",
+      "zhMarkdown": "事实上，这批新一代软件的涌现速度太快了，微软连引导它们都做不到，更不用说自己关起门来开发了。他们现在的唯一希望，就是在谷歌动手之前把所有最优秀的 Ajax 创业公司都买下来。即便如此也很困难，因为谷歌在收购微型创业公司方面的领先优势，就像几年前他们在搜索领域一样巨大。毕竟，作为 Ajax 应用典范的谷歌地图（Google Maps），就是他们[买下](http://googlemapsmania.blogspot.com/2005/10/google-maps-lead-engineer-gaze\ns-into.html)的一家创业公司的成果。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "993fb81de333a32f6f265bdf54d0f3d77fc67343b7015ed361712ffbd35e4ecc",
+      "enMarkdown": "So ironically the original description of the Web 2.0 conference turned out to be partially right: web-based applications are a big component of Web 2.0. But I'm convinced they got this right by accident. The Ajax boom didn't start till early 2005, when Google Maps appeared and the term \"Ajax\" was [coined](http://www.adaptivepath.com/publications/essays/archives/000385.php).",
+      "zhMarkdown": "所以讽刺的是，Web 2.0 大会最初的描述有一部分被证明是对的：基于 Web 的应用程序是 Web 2.0 的重要组成部分。但我坚信他们只是碰巧蒙对了。Ajax 的热潮直到 2005 年初谷歌地图出现以及“Ajax”这个词被[创造](http://www.adaptivepath.com/publications/essays/archives/000385.php)出来之后才真正开始。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f33c5cfa766a6a98d266a16cdf389f57f9cb0af72c68c2fba5bf92b80b64f074",
+      "enMarkdown": "**2. Democracy**",
+      "zhMarkdown": "**2. 民主化**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "3a331c3b642a389f762ed318a9e37bf645fa74e814aea35465f332e70016b39a",
+      "enMarkdown": "The second big element of Web 2.0 is democracy. We now have several examples to prove that [amateurs](https://paulgraham.com/opensource.html) can surpass professionals, when they have the right kind of system to channel their efforts. [Wikipedia](http://wikipedia.org) may be the most famous. Experts have given Wikipedia middling reviews, but they miss the critical point: it's good enough. And it's free, which means people actually read it. On the web, articles you have to pay for might as well not exist. Even if you were willing to pay to read them yourself, you can't link to them. They're not part of the conversation.",
+      "zhMarkdown": "Web 2.0 的第二个核心要素是民主化。我们现在已经有几个例子证明，只要有合适的系统来引导人们的努力，[业余爱好者](https://paulgraham.com/opensource.html)是可以超越专业人士的。[维基百科](http://wikipedia.org)或许是最著名的例子。专家们对维基百科的评价褒贬不一，但他们忽略了最关键的一点：它足够好用。而且它是免费的，这意味着人们真的会去读它。在互联网上，那些需要付费才能阅读的文章和不存在没什么两样。即使你愿意自己掏钱看，你也无法分享链接。它们无法成为公众讨论的一部分。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "f00a50f20908aee8809a87327e7669977f515299dd3b3803bec6e24758a7aaf8",
+      "enMarkdown": "Another place democracy seems to win is in deciding what counts as news. I never look at any news site now except [Reddit](http://reddit.com). [[2](#f2n)] I know if something major happens, or someone writes a particularly interesting article, it will show up there. Why bother checking the front page of any specific paper or magazine? Reddit's like an RSS feed for the whole web, with a filter for quality. Similar sites include [Digg](http://digg.com), a technology news site that's rapidly approaching Slashdot in popularity, and [del.icio.us](http://del.icio.us), the collaborative bookmarking network that set off the \"tagging\" movement. And whereas Wikipedia's main appeal is that it's good enough and free, these sites suggest that voters do a significantly better job than human editors.",
+      "zhMarkdown": "民主化看似胜出的另一个领域是决定什么能成为新闻。我现在除了 [Reddit](http://reddit.com) 之外，基本不看任何别的新闻网站。[[2](#f2n)] 我知道如果有什么大事发生，或者有人写了一篇特别有趣的文章，它一定会出现在那里。为什么还要费神去查看某家特定报纸或杂志的主页呢？Reddit 就像是整个互联网的 RSS 订阅源，还自带质量过滤器。类似的网站还包括 [Digg](http://digg.com)（一个受欢迎程度正迅速逼近 Slashdot 的科技新闻网站）以及 [del.icio.us](http://del.icio.us)（掀起“标签”运动的协同书签网络）。维基百科的主要吸引力在于它足够好且免费，而这些网站则表明，网民投票筛选出来的结果，要比人工编辑做得好得多。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "2ff68a7e5dd539fe8be230625a8b74d9f7345408e5687a1a81df996385d72d3d",
+      "enMarkdown": "The most dramatic example of Web 2.0 democracy is not in the selection of ideas, but their production.  I've noticed for a while that the stuff I read on individual people's sites is as good as or better than the stuff I read in newspapers and magazines. And now I have independent evidence: the top links on Reddit are generally links to individual people's sites rather than to magazine articles or news stories.",
+      "zhMarkdown": "Web 2.0 民主化最戏剧性的例子不在于观点的筛选，而在于观点的生产。有一段时间我注意到，我在个人网站上读到的内容，和我在报纸杂志上读到的一样好，甚至更好。现在我有了独立的证据：Reddit 上最热门的链接通常是指向个人网站的，而不是指向杂志文章或新闻报道。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "12a7976fa75170ba9ff20095fe18d3a79836d6a82fb6839a2b1fd8f68491ee8e",
+      "enMarkdown": "My experience of writing for magazines suggests an explanation. Editors. They control the topics you can write about, and they can generally rewrite whatever you produce. The result is to damp extremes. Editing yields 95th percentile writing—95% of articles are improved by it, but 5% are dragged down. 5% of the time you get \"throngs of geeks.\"",
+      "zhMarkdown": "我给杂志写稿的经历或许能解释个中缘由：编辑。他们控制着你可以写的主题，而且通常会重写你的稿件。其结果就是抹平了棱角。编辑能产出前 5% 优秀水平的文章——95% 的文章经过编辑会变得更好，但那最顶尖的 5% 却会被拉低。那 5% 的平庸时刻，就是你会看到“极客成群”这种陈词滥调的时候。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "ec09fe0c69b570f620a9e74a2274b49b3f8231d910e21fd83ff8a1287b689932",
+      "enMarkdown": "On the web, people can publish whatever they want. Nearly all of it falls short of the editor-damped writing in print publications. But the pool of writers is very, very large. If it's large enough, the lack of damping means the best writing online should surpass the best in print. [[3](#f3n)] And now that the web has evolved mechanisms for selecting good stuff, the web wins net. Selection beats damping, for the same reason market economies beat centrally planned ones.",
+      "zhMarkdown": "在网上，人们可以发布任何他们想发布的内容。其中绝大多数都比不上传统出版物里经过编辑润色的文章。但是，网上的写作群体极其庞大。如果基数足够大，这种不受约束的特性意味着网上最顶尖的作品必然会超越纸媒上的精品。[[3](#f3n)] 既然现在的网络已经进化出了筛选好内容的机制，网络就彻底赢了。筛选胜过限制，原因就和市场经济战胜计划经济一样。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "1721ff424611f85053736113a74be0cfd2082b14e8ab8937280595fc8d73bf66",
+      "enMarkdown": "Even the startups are different this time around. They are to the startups of the Bubble what bloggers are to the print media. During the Bubble, a startup meant a company headed by an MBA that was blowing through several million dollars of VC money to \"get big fast\" in the most literal sense. Now it means a smaller, [younger](https://paulgraham.com/hiring.html), more technical group that just decided to make something great. They'll decide later if they want to raise VC-scale funding, and if they take it, they'll take it on [their terms](https://paulgraham.com/vcsqueeze.html).",
+      "zhMarkdown": "这一次，连创业公司也变得不同了。它们之于泡沫时期的创业公司，就像博客之于传统平面媒体。在泡沫时期，创业公司意味着由 MBA 掌舵、烧掉几百万美元风险投资，只为了在字面意义上“快速做大”的公司。而现在，它指的是规模更小、[更年轻](https://paulgraham.com/hiring.html)、技术色彩更浓，纯粹因为想做出好东西而聚在一起的团队。他们以后才会决定是否要拿风投规模的资金，而且即便拿了，也会按[他们自己的条件](https://paulgraham.com/vcsqueeze.html)来拿。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "1d0e153817a41b64c592cd1f12c76b6d84d0c731a0676aecf6014e5617cb1861",
+      "enMarkdown": "**3. Don't Maltreat Users**",
+      "zhMarkdown": "**3. 不要作践用户**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "819be5cbfedee18f88fb927497fad8e1e1a20b67c3889d5cf8f4b2bd4a7e618f",
+      "enMarkdown": "I think everyone would agree that democracy and Ajax are elements of \"Web 2.0.\" I also see a third: not to maltreat users. During the Bubble a lot of popular sites were quite high-handed with users. And not just in obvious ways, like making them register, or subjecting them to annoying ads. The very design of the average site in the late 90s was an abuse. Many of the most popular sites were loaded with obtrusive branding that made them slow to load and sent the user the message: this is our site, not yours. (There's a physical analog in the Intel and Microsoft [stickers](https://paulgraham.com/designedforwindows.html) that come on some laptops.)",
+      "zhMarkdown": "我想大家都会同意，民主化和 Ajax 是“Web 2.0”的要素。但我还看到了第三个要素：不要作践用户。在泡沫时期，许多流行网站对用户都相当傲慢。这不仅表现在强迫用户注册或狂轰滥炸烦人的广告这些显而易见的地方。在 90 年代末，普通网站的设计本身就是一种对用户的折磨。许多最热门的网站充斥着扎眼的品牌标志，导致加载极慢，向用户传递出这样的信息：这是我们的网站，不是你的。（这在现实世界中的对应物，就是某些笔记本电脑上贴着的英特尔和微软[贴纸](https://paulgraham.com/designedforwindows.html)。）"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "f9f3629fbc6c9c1918732c603f402204b88825d26938abe01c3d9cc83cdcb888",
+      "enMarkdown": "I think the root of the problem was that sites felt they were giving something away for free, and till recently a company giving anything away for free could be pretty high-handed about it. Sometimes it reached the point of economic sadism: site owners assumed that the more pain they caused the user, the more benefit it must be to them. The most dramatic remnant of this model may be at salon.com, where you can read the beginning of a story, but to get the rest you have sit through a *movie*.",
+      "zhMarkdown": "我认为问题的根源在于，这些网站觉得自己在免费提供服务，而直到最近，免费提供任何东西的公司都可以表现得相当高高在上。有时这甚至演变成了一种商业施虐狂心态：网站主认为，他们给用户带来的痛苦越多，自己能得到的好处就越大。这种模式最戏剧性的遗毒可能存在于 salon.com，在那个网站上，你可以读到故事的开头，但要想看剩下的内容，你必须强行看完一段*电影广告*。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "01fb46bcf5f1621ec489e72bf6358f37753111093c8d0e0b49290984c6d6c4f2",
+      "enMarkdown": "At Y Combinator we advise all the startups we fund never to lord it over users. Never make users register, unless you need to in order to store something for them. If you do make users register, never make them wait for a confirmation link in an email; in fact, don't even ask for their email address unless you need it for some reason. Don't ask them any unnecessary questions. Never send them email unless they explicitly ask for it. Never frame pages you link to, or open them in new windows. If you have a free version and a pay version, don't make the free version too restricted. And if you find yourself asking \"should we allow users to do x?\" just answer \"yes\" whenever you're unsure. Err on the side of generosity.",
+      "zhMarkdown": "在 Y Combinator，我们建议所有我们投资的创业公司永远不要对用户颐指气使。除非为了帮用户保存东西而必须注册，否则绝不要强迫用户注册。如果要让用户注册，绝不要让他们去邮箱里等验证链接；事实上，除非确有必要，否则连他们的邮箱地址都不要问。不要问任何不必要的问题。除非用户明确要求，否则绝不要给他们发邮件。绝不要用框架（frame）嵌套你链接的页面，也不要强行在新窗口中打开它们。如果你有免费版和付费版，不要把免费版限制得太死。如果你发现自己在纠结“我们该不该允许用户做某事？”只要拿不准，就一律回答“该”。宁可慷慨过度，也不要小家子气。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "86a02d4b9a577976748803d26e34433eed5d8542ee5da254a28b27ec5d96df19",
+      "enMarkdown": "In [How to Start a Startup](https://paulgraham.com/start.html) I advised startups never to let anyone fly under them, meaning never to let any other company offer a cheaper, easier solution. Another way to fly low is to give users more power. Let users do what they want. If you don't and a competitor does, you're in trouble.",
+      "zhMarkdown": "在[《如何创立一家创业公司》](https://paulgraham.com/start.html)一文中，我建议创业公司永远不要让别人在自己身下飞过，意思是永远不要让其他公司提供更便宜、更简便的解决方案。另一种低空飞行的方式是给用户更多的自主权。让用户做他们想做的事。如果你不让做，而竞争对手让做，你就麻烦了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "165c2f302bb085302c496470d5d2797720ae44800d67ab78eb8cd3ccd24f80ae",
+      "enMarkdown": "iTunes is Web 2.0ish in this sense. Finally you can buy individual songs instead of having to buy whole albums. The recording industry hated the idea and resisted it as long as possible. But it was obvious what users wanted, so Apple flew under the labels. [[4](#f4n)] Though really it might be better to describe iTunes as Web 1.5. Web 2.0 applied to music would probably mean individual bands giving away DRMless songs for free.",
+      "zhMarkdown": "在这个意义上，iTunes 挺有 Web 2.0 范儿。你终于可以买单曲，而不用被迫买下整张专辑。唱片业痛恨这个想法，并抵制了尽可能长的时间。但用户的需求显而易见，所以苹果从这些唱片公司的身下飞了过去。[[4](#f4n)] 不过，把 iTunes 描述为 Web 1.5 或许更为贴切。如果把 Web 2.0 应用于音乐，大概意味着独立乐队会免费提供无 DRM 限制的歌曲。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "5ad3ddc9a4d9bff83a0866b93b2efb5ba14353f0567dfd82a42de62adeb8f9d3",
+      "enMarkdown": "The ultimate way to be nice to users is to give them something for free that competitors charge for. During the 90s a lot of people probably thought we'd have some working system for micropayments by now. In fact things have gone in the other direction. The most successful sites are the ones that figure out new ways to give stuff away for free. Craigslist has largely destroyed the classified ad sites of the 90s, and OkCupid looks likely to do the same to the previous generation of dating sites.",
+      "zhMarkdown": "对用户友好的终极方式，是把竞争对手收费的东西免费送给他们。在 90 年代，很多人可能以为到今天我们已经有了一套通用的微支付系统。事实上，事情走向了相反的方向。最成功的网站是那些琢磨出新方法来免费送东西的网站。Craigslist 很大程度上摧毁了 90 年代的分类广告网站，而 OkCupid 看起来也很可能会对上一代相亲网站造成同样的打击。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "59268fca9424c17402ecce8736f76c42b738f0ce20b2656659989b7c33c88d71",
+      "enMarkdown": "Serving web pages is very, very cheap. If you can make even a fraction of a cent per page view, you can make a profit. And technology for targeting ads continues to improve. I wouldn't be surprised if ten years from now eBay had been supplanted by an ad-supported freeBay (or, more likely, gBay).",
+      "zhMarkdown": "提供网页服务的成本极其低廉。如果你能从每次页面浏览中赚到哪怕一分钱的几分之一，你就能盈利。而且定向广告技术还在持续改进。如果十年后 eBay 被一个广告支持的免费版 freeBay（或者更有可能是 gBay）所取代，我一点也不会感到惊讶。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "feb6fa0c0a11716abb343490ff1a4fd5d10d46137700d17fdb2cf330714e92f8",
+      "enMarkdown": "Odd as it might sound, we tell startups that they should try to make as little money as possible. If you can figure out a way to turn a billion dollar industry into a fifty million dollar industry, so much the better, if all fifty million go to you. Though indeed, making things cheaper often turns out to generate more money in the end, just as automating things often turns out to generate more jobs.",
+      "zhMarkdown": "听起来可能很奇怪，但我们告诉创业公司，他们应该尽量少赚钱。如果你能想出办法把一个价值十亿美元的行业变成一个五千万美元的行业，那就再好不过了——前提是这五千万全进了你的口袋。不过，让东西变便宜往往最终能产生更多的钱，就像自动化往往最终能创造更多的工作岗位一样。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "9f8c71c20334a91e43411f074f30bf0ec080d4e4e17b15dce28178aef3c8c13a",
+      "enMarkdown": "The ultimate target is Microsoft. What a bang that balloon is going to make when someone pops it by offering a free web-based alternative to MS Office. [[5](#f5n)] Who will? Google? They seem to be taking their time. I suspect the pin will be wielded by a couple of 20 year old hackers who are too naive to be intimidated by the idea. (How hard can it be?)",
+      "zhMarkdown": "终极目标是微软。当有人推出一个免费的、基于 Web 的 MS Office 替代品，把这个气球戳破时，那动静该有多大啊。[[5](#f5n)] 谁会来做这件事？谷歌？他们看起来慢条斯理的。我怀疑这根针会被两个 20 岁出头的黑客握在手里，他们初生牛犊不怕虎，根本不把这当回事。（能有多难呢？）"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "b22a61cfe18411f0cf26d6b628c87b85a23f8e8f5a267919e289dc8f8f788a25",
+      "enMarkdown": "**The Common Thread**",
+      "zhMarkdown": "**共同的主线**"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "30f60cfbeb4dab19da49a5d08be005f891e16652e3c5690877702163a732092c",
+      "enMarkdown": "Ajax, democracy, and not dissing users. What do they all have in common? I didn't realize they had anything in common till recently, which is one of the reasons I disliked the term \"Web 2.0\" so much. It seemed that it was being used as a label for whatever happened to be new—that it didn't predict anything.",
+      "zhMarkdown": "Ajax、民主化、不作践用户。它们有什么共同点？直到最近我才意识到它们有共同点，这也是我之前如此讨厌“Web 2.0”这个词的原因之一。它看起来就像是被当作一个标签，贴在任何恰好是新出现的事物上——它无法预测任何事情。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "1a2bb2a99bfe02953d321ac0f467e4c468dac8bc60c82f3964d960e791537b48",
+      "enMarkdown": "But there is a common thread. Web 2.0 means using the web the way it's meant to be used. The \"trends\" we're seeing now are simply the inherent nature of the web emerging from under the broken models that got imposed on it during the Bubble.",
+      "zhMarkdown": "但确实存在一条共同的主线。Web 2.0 意味着以 Web 本该被使用的方式去使用它。我们现在看到的这些“趋势”，只是 Web 固有的本质，终于从泡沫时期强加其上的扭曲模式中挣脱出来，显现了真容。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "3f949ef3db8c07b4e9c91944a5959bd241972c3f96e6453bf0a46f35d48b315b",
+      "enMarkdown": "I realized this when I read an  interview with Joe Kraus, the co-founder of Excite. [[6](#f6n)]",
+      "zhMarkdown": "当我读到对 Excite 联合创始人 Joe Kraus 的一次采访时，我意识到了这一点。[[6](#f6n)]"
+    },
+    {
+      "id": 42,
+      "type": "quote",
+      "sourceHash": "31968722b6e1b1e90e7abb16ac9f3550aa7934d4743d077abe30b57765fe5f6b",
+      "enMarkdown": "> Excite really never got the business model right at all. We fell into the classic problem of how when a new medium comes out it adopts the practices, the content, the business models of the old medium—which fails, and then the more appropriate models get figured out.",
+      "zhMarkdown": "> Excite 其实从来没有把商业模式搞对。我们陷入了经典的困境：当一种新媒介出现时，它会照搬旧媒介的做法、内容和商业模式——这必然会失败，然后更合适的模式才会被摸索出来。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "1e1be93cce33cfaf2f964bb8115ba3f8352b47b0ade27733c928f8125eb1223b",
+      "enMarkdown": "It may have seemed as if not much was happening during the years after the Bubble burst. But in retrospect, something was happening: the web was finding its natural angle of repose. The democracy component, for example—that's not an innovation, in the sense of something someone made happen. That's what the web naturally tends to produce.",
+      "zhMarkdown": "在泡沫破裂后的几年里，表面上看起来好像没发生什么大事。但回过头来看，有些事情正在悄然发生：Web 正在寻找它自然的安息角。例如民主化这个要素——它不是一种创新，不是指有人刻意促成了它，而是 Web 自然倾向于产生的结果。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "b53bd1a1714482efdb32acdc319f6773b626f31613eb69f5a93472b379232afa",
+      "enMarkdown": "Ditto for the idea of delivering desktop-like applications over the web. That idea is almost as old as the web. But the first time around it was co-opted by Sun, and we got Java applets. Java has since been remade into a generic replacement for C++, but in 1996 the story about Java was that it represented a new model of software. Instead of desktop applications, you'd run Java \"applets\" delivered from a server.",
+      "zhMarkdown": "通过 Web 交付类似桌面应用的想法也是如此。这个想法几乎和 Web 本身一样古老。但第一次尝试时，它被 Sun 公司挪用了，于是我们得到了 Java applet。Java 后来被改造成了 C++ 的通用替代品，但在 1996 年，关于 Java 的故事是它代表了一种全新的软件模式。你不用再运行桌面应用程序，而是运行从服务器端交付的 Java “applet”。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "e76e1e6820b623b43d0048ef4de19a85520dfe671072a13da06d1ae838ed7072",
+      "enMarkdown": "This plan collapsed under its own weight. Microsoft helped kill it, but it would have died anyway. There was no uptake among hackers. When you find [PR firms](https://paulgraham.com/submarine.html) promoting something as the next development platform, you can be sure it's not. If it were, you wouldn't need PR firms to tell you, because hackers would already be writing stuff on top of it, the way sites like [Busmonster](http://busmonster.com) used Google Maps as a platform before Google even meant it to be one.",
+      "zhMarkdown": "这个计划在自身的重压下崩溃了。微软加速了它的死亡，但就算没有微软，它也注定会失败。黑客们根本不买账。当你发现有[公关公司](https://paulgraham.com/submarine.html)在吹捧某样东西是下一个开发平台时，你可以确信它绝不是。如果是的话，你根本不需要公关公司来告诉你，因为黑客们早就开始在上面写东西了，就像 [Busmonster](http://busmonster.com) 这样的网站在谷歌自己都没打算把谷歌地图当成平台之前，就已经把它当作平台来用了一样。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "576ddbdc7d1f1002e89670d84c5aeeab0b00f46e70c38858daca2bb1bd9c296e",
+      "enMarkdown": "The proof that Ajax is the next hot platform is that thousands of hackers have spontaneously started building things on top of it. Mikey likes it.",
+      "zhMarkdown": "Ajax 是下一个热门平台的证据在于，成千上万的黑客已经自发地开始在上面构建东西了。大家都喜欢它。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "b243cd1e0b5cf3d3082c65ca4139a9de6f3e56b35ac45f90b7ee31a2e0aa566d",
+      "enMarkdown": "There's another thing all three components of Web 2.0 have in common. Here's a clue. Suppose you approached investors with the following idea for a Web 2.0 startup:",
+      "zhMarkdown": "Web 2.0 的这三个要素还有另外一个共同点。这里有个线索。假设你带着以下关于 Web 2.0 创业公司的想法去找投资人："
+    },
+    {
+      "id": 48,
+      "type": "quote",
+      "sourceHash": "0a68e27adedd9fe5187ef0441d1b6e4f6635aaa00806bc81db7b0af1449ffad4",
+      "enMarkdown": "> Sites like del.icio.us and flickr allow users to \"tag\" content with descriptive tokens. But there is also huge source of *implicit* tags that they ignore: the text within web links. Moreover, these links represent a social network connecting the individuals and organizations who created the pages, and by using graph theory we can compute from this network an estimate of the reputation of each member. We plan to mine the web for these implicit tags, and use them together with the reputation hierarchy they embody to enhance web searches.",
+      "zhMarkdown": "> 像 del.icio.us 和 flickr 这样的网站允许用户用描述性标记来“标记”内容。但在他们忽略的地方，还存在着一个巨大的*隐式*标签来源：网页链接中的文本。此外，这些链接代表了一个连接创建这些网页的个人和组织的社交网络，通过使用图论，我们可以从这个网络中计算出每个成员的声誉估值。我们计划在网络中挖掘这些隐式标签，并将它们与它们所体现的声誉层级结合起来，以改进网络搜索。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "cb5f12c608b06b1c4bde2e561062ab69767906bbc6a4177c543ed9d2271aa60f",
+      "enMarkdown": "How long do you think it would take them on average to realize that it was a description of Google?",
+      "zhMarkdown": "你觉得他们平均需要花多长时间才能意识到，这其实是在描述谷歌？"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "908fc9e23a4cde568afc98bbcdfc23c4e97041a0d4042d8c4394eca7845d6a88",
+      "enMarkdown": "Google was a pioneer in all three components of Web 2.0: their core business sounds crushingly hip when described in Web 2.0 terms, \"Don't maltreat users\" is a subset of \"Don't be evil,\" and of course Google set off the whole Ajax boom with Google Maps.",
+      "zhMarkdown": "谷歌是 Web 2.0 所有三个要素的先驱：如果用 Web 2.0 的词汇来描述，他们的核心业务听起来时髦得一塌糊涂；“不作践用户”是“不作恶”的一个子集；当然，谷歌还凭借谷歌地图引发了整个 Ajax 热潮。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "fd627e7e1910e83bb4d23695f7766094890a22a8299611ff4b4a53712a4350a7",
+      "enMarkdown": "Web 2.0 means using the web as it was meant to be used, and Google does. That's their secret.  They're sailing with the wind, instead of sitting becalmed praying for a business model, like the print media, or trying to tack upwind by suing their customers, like Microsoft and the record labels. [[7](#f7n)]",
+      "zhMarkdown": "Web 2.0 意味着顺应 Web 的本性去使用它，而谷歌正是这么做的。这就是他们的秘密。他们顺风航行，而不是像平面媒体那样呆坐着祈求一种商业模式，或者像微软和唱片公司那样，通过起诉自己的客户来逆风行驶。[[7](#f7n)]"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "0a468308c715f4bd18c47d62d5077112f10fc043515c5bf959284ad88993edd3",
+      "enMarkdown": "Google doesn't try to force things to happen their way. They try to figure out what's going to happen, and arrange to be standing there when it does. That's the way to approach technology—and as business includes an ever larger technological component, the right way to do business.",
+      "zhMarkdown": "谷歌不试图强求事情按自己的方式发生。他们试着看清未来的趋势，并提前站在那里等待。这就是对待技术的方式——随着商业中包含的技术成分越来越大，这也是做生意的正确方式。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "9786860d0e517099cb6d8b0e73cbb4d7e16bb42870a31eab34755be873c37b89",
+      "enMarkdown": "The fact that Google is a \"Web 2.0\" company shows that, while meaningful, the term is also rather bogus. It's like the word \"allopathic.\" It just means doing things right, and it's a bad sign when you have a special word for that.",
+      "zhMarkdown": "谷歌是一家“Web 2.0”公司这一事实表明，这个词虽然有意义，但也相当虚妄。它就像“顺势疗法”这个词一样。它其实指的就是把事情做对，而当你需要用一个专门的词来指代“把事情做对”时，这通常不是个好兆头。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "9796d05a18ae07541d7fefeebc85257bebcae729b23965f9c5e886d453e79e24",
+      "enMarkdown": "[1] From the [conference\nsite](http://web.archive.org/web/20040602111547/http://web2con.com/), June 2004: \"While the first wave of the Web was closely tied to the browser, the second wave extends applications across the web and enables a new generation of services and business opportunities.\" To the extent this means anything, it seems to be about [web-based applications](https://paulgraham.com/road.html).",
+      "zhMarkdown": "[1] 摘自 2004 年 6 月的[大会官方网站](http://web.archive.org/web/20040602111547/http://web2con.com/)：“如果说 Web 的第一波浪潮与浏览器紧密相连，那么第二波浪潮则将应用扩展到了整个网络，并催生了新一代的服务和商业机会。”如果这句话有什么实际含义的话，它指的似乎是[基于 Web 的应用程序](https://paulgraham.com/road.html)。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "02ca155e053ff3b7c4246042c4f595641d964a9d5e12834540b9dc521b35ce33",
+      "enMarkdown": "[2] Disclosure: Reddit was funded by [Y Combinator](http://ycombinator.com). But although I started using it out of loyalty to the home team, I've become a genuine addict. While we're at it, I'm also an investor in !MSFT, having sold all my shares earlier this year.",
+      "zhMarkdown": "[2] 利益相关披露：Reddit 是由 [Y Combinator](http://ycombinator.com) 资助的。不过，虽然我起初是出于对自家队伍的忠诚而开始使用它，但现在我已经彻底上瘾了。顺便提一句，我也是微软的做空者，在今年早些时候卖掉了我所有的微软股票。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "c7c6587691950771833ac951c5f33670a94185b3b8098b9f6c5f62b0987d53fc",
+      "enMarkdown": "[3] I'm not against editing. I spend more time editing than writing, and I have a group of picky friends who proofread almost everything I write. What I dislike is editing done after the fact by someone else.",
+      "zhMarkdown": "[3] 我并不反对编辑。我花在编辑修改上的时间比写作还多，而且我有一群挑剔的朋友，几乎会帮我校对写的每一篇东西。我讨厌的是由别人在事后进行的违背作者本意的修改。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "35351c5459aac5ce993991b3636608eeb1861a1382c4151a1797d426d5decd7a",
+      "enMarkdown": "[4] Obvious is an understatement. Users had been climbing in through the window for years before Apple finally moved the door.",
+      "zhMarkdown": "[4] 说是“显而易见”都说轻了。在苹果终于把门挪过来之前，用户们已经爬窗户爬了许多年。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "cd8282f777303743784d46370f45dc3a5981421c40a7f1cb282f59fb44198d27",
+      "enMarkdown": "[5] Hint: the way to create a web-based alternative to Office may not be to write every component yourself, but to establish a protocol for web-based apps to share a virtual home directory spread across multiple servers. Or it may be to write it all yourself.",
+      "zhMarkdown": "[5] 提示：创建 Office 的 Web 替代品，方法可能不是自己写完每一个组件，而是为 Web 应用建立一个协议，共享一个分布在多个服务器上的虚拟主目录。或者，也可能是全部由自己来写。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "e7f87bddbdafa91baeee852fccfba7017de0d1f31d1a05e28420ea47b4c12dfd",
+      "enMarkdown": "[6] In Jessica Livingston's [Founders at\nWork](http://foundersatwork.com).",
+      "zhMarkdown": "[6] 收录于 Jessica Livingston 的[《创业者在工作》](http://foundersatwork.com)（*Founders at Work*）一书中。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "a9cc51ec091eb38905b5c09945cb4a9c311f23ee84c0c6f3b194263d814cb3f0",
+      "enMarkdown": "[7] Microsoft didn't sue their customers directly, but they seem to have done all they could to help SCO sue them.",
+      "zhMarkdown": "[7] 微软没有直接起诉他们的客户，但他们似乎竭尽所能地帮助 SCO 去起诉他们。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "0ce1a3d546fadc30e22ade5c1c00408900b25f1035128d1c1c0f43c30137202e",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Sarah Harlin, Jessica Livingston, Peter Norvig, Aaron Swartz, and Jeff Weiner for reading drafts of this, and to the guys at O'Reilly and Adaptive Path for answering my questions.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Sarah Harlin、Jessica Livingston、Peter Norvig、Aaron Swartz 和 Jeff Weiner 阅读本文草稿，并感谢 O'Reilly 和 Adaptive Path 的朋友们回答我的问题。"
+    }
+  ]
+}

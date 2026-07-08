@@ -1,0 +1,748 @@
+{
+  "slug": "marginal",
+  "titleEn": "The Power of the Marginal",
+  "titleZh": "边缘的力量",
+  "dateText": "June 2006",
+  "publishedAt": "2006-06-01",
+  "sourceOrder": 166,
+  "sourceUrl": "https://paulgraham.com/marginal.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f7d33f1b95afe820170684e5abadbf5b36ffaea2652f5517d99c6e3ce4301729",
+      "enMarkdown": "*(This essay is derived from talks at Usenix 2006 and\nRailsconf 2006.)*",
+      "zhMarkdown": "*(本文根据作者在 Usenix 2006 和 Railsconf 2006 大会上的演讲整理而成。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2c81ef4aa9f99b6d7c915b212f4fb98e4f6c2ab7dd0a7931e0ffc64ea865b9d1",
+      "enMarkdown": "A couple years ago my friend Trevor and I went to look at the Apple garage. As we stood there, he said that as a kid growing up in Saskatchewan he'd been amazed at the dedication Jobs and Wozniak must have had to work in a garage.",
+      "zhMarkdown": "几年前，我和朋友 Trevor 去参观了苹果公司诞生时的那个车库。我们站在那里时，他说，他从小在萨斯喀彻温省长大，那时候觉得乔布斯和沃兹尼亚克简直不可思议，得有多大的毅力才愿意窝在车库里干活。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "65ad63cf1983fa6bc3419c828498e4454de8c1d4eb821dc22baf5decba323782",
+      "enMarkdown": "\"Those guys must have been freezing!\"",
+      "zhMarkdown": "“那两个家伙当时一定冻坏了！”"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "a144330c05128ded664f3531d4769fae4d7dcada076d1de3427c469af2628409",
+      "enMarkdown": "That's one of California's hidden advantages: the mild climate means there's lots of marginal space. In cold places that margin gets trimmed off. There's a sharper line between outside and inside, and only projects that are officially sanctioned — by organizations, or parents, or wives, or at least by oneself — get proper indoor space. That raises the activation energy for new ideas. You can't just tinker. You have to justify.",
+      "zhMarkdown": "这就是加州隐藏的优势之一：温和的气候意味着这里有大量的“边缘空间”（marginal space）。而在寒冷的地方，这种边缘空间就被剥夺了。在冷地方，室内和室外有着极其分明的界限，只有那些得到官方许可的项目——无论是来自机构、父母、妻子，还是至少来自自己——才能拥有体面的室内空间。这无形中提高了新想法的启动能垒。你不能只是随便捣鼓捣鼓，你得先证明这么做是合理的。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1a75a432538dd12058cd8506ee5a91c63d7548d03bae47e4d4b15e265dc571d9",
+      "enMarkdown": "Some of Silicon Valley's most famous companies began in garages: Hewlett-Packard in 1938, Apple in 1976, Google in 1998. In Apple's case the garage story is a bit of an urban legend. Woz says all they did there was assemble some computers, and that he did all the actual design of the Apple I and Apple II in his apartment or his cube at HP. [[1](#f1n)] This was apparently too marginal even for Apple's PR people.",
+      "zhMarkdown": "硅谷一些最著名的公司都始于车库：1938 年的惠普、1976 年的苹果、1998 年的谷歌。在苹果的案例中，车库的故事其实有点都市传说的成分。沃兹说，他们在那儿做的唯一一件事就是组装了几台电脑，而苹果一号（Apple I）和苹果二号（Apple II）的实际设计工作，全是他自己在公寓里或是在惠普的格子间里完成的。[[1](#f1n)] 显然，这种真相甚至连苹果的公关人员都觉得太边缘化了、不够体面。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "03d372fc25e9e86779fa7406e177dec3b4e02bc56f26c89f76737009fe9941f8",
+      "enMarkdown": "By conventional standards, Jobs and Wozniak were marginal people too. Obviously they were smart, but they can't have looked good on paper. They were at the time a pair of college dropouts with about three years of school between them, and hippies to boot. Their previous business experience consisted of making \"blue boxes\" to hack into the phone system, a business with the rare distinction of being both illegal and unprofitable.",
+      "zhMarkdown": "按照传统标准来看，乔布斯和沃兹尼亚克也是边缘人。显而易见，他们很聪明，但在纸面简历上绝对不好看。当时，他们是两个大学退学生，加起来也就上了三年大学，而且还是彻头彻尾的嬉皮士。他们之前的创业经验仅限于制作“蓝盒子”来黑进电话系统，而这门生意的独特之处在于：它既违法，又不赚钱。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "2419034f456b8014b87d09ab96274efd6edf571c94ee9b1398e9da27d67b78ee",
+      "enMarkdown": "**Outsiders**",
+      "zhMarkdown": "**局外人**"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c2a388928f88b66f58768d63097d353e882adf731475e241b1c175590922e465",
+      "enMarkdown": "Now a startup operating out of a garage in Silicon Valley would feel part of an exalted tradition, like the poet in his garret, or the painter who can't afford to heat his studio and thus has to wear a beret indoors. But in 1976 it didn't seem so cool. The world hadn't yet realized that starting a computer company was in the same category as being a writer or a painter. It hadn't been for long. Only in the preceding couple years had the dramatic fall in the cost of hardware allowed outsiders to compete.",
+      "zhMarkdown": "如今，一家在硅谷车库里倒腾的创业公司，会觉得自己继承了某种崇高的传统，就像住在阁楼里的诗人，或者暖气都交不起、只能在室内戴着贝雷帽取暖的画家。但在 1976 年，这看起来可一点都不酷。当时世人还没有意识到，创办一家电脑公司其实和当作家或画家是同一种性质的事情。这种情况出现的时间并不长。也就是在之前的短短几年里，硬件成本的戏剧性暴跌，才让局外人有了竞争的机会。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "ca7f30c9d0bfd7e0f1e17db2ffd3e05e186af97dc6978871320c0352878ed4ce",
+      "enMarkdown": "In 1976, everyone looked down on a company operating out of a garage, including the founders. One of the first things Jobs did when they got some money was to rent office space. He wanted Apple to seem like a real company.",
+      "zhMarkdown": "在 1976 年，每个人都瞧不起在车库里办公的公司，包括创始人自己。乔布斯拿到钱后做的第一件事，就是去租了一间办公室。他想让苹果看起来像一家正规的公司。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "4cbe7a9ead393188df86e2a55428cada8b1897c077c174bce28019cd690ddf24",
+      "enMarkdown": "They already had something few real companies ever have: a fabulously well designed product. You'd think they'd have had more confidence. But I've talked to a lot of startup founders, and it's always this way. They've built something that's going to change the world, and they're worried about some nit like not having proper business cards.",
+      "zhMarkdown": "当时他们已经拥有了极少数正规公司才有的东西：一款设计绝伦的产品。你可能会觉得他们本该更有信心。但我跟很多创业公司创始人聊过，大家都是这个样子。他们已经做出了能改变世界的东西，却还在为没有一张体面的名片这种鸡毛蒜皮的小事而焦虑。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "8026bf789fa56ca7fba5b77c8e7893c70e50719ca457fb5706b9471c7dccea79",
+      "enMarkdown": "That's the paradox I want to explore: great new things often come from the margins, and yet the people who discover them are looked down on by everyone, including themselves.",
+      "zhMarkdown": "这就是我想探讨的悖论：伟大的新事物往往诞生于边缘，然而发现它们的人却被所有人瞧不起，连他们自己也瞧不起自己。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "bc10e003366f7895082711825f13c2947cf9f1ec6dbc73efef3a2d02776a3bf4",
+      "enMarkdown": "It's an old idea that new things come from the margins. I want to examine its internal structure. Why do great ideas come from the margins? What kind of ideas? And is there anything we can do to encourage the process?",
+      "zhMarkdown": "“新事物来自边缘”是一个古老的观点。我想剖析一下它的内在结构。为什么伟大的创意会来自边缘？是哪种类型的创意？我们又能做些什么来推动这个过程？"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "a20645cf490b8f75291dba70e02d48dbdf290b2c3119b5a1cb8dabb5768984a2",
+      "enMarkdown": "**Insiders**",
+      "zhMarkdown": "**局内人**"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "008199703b39460e660d915c64757bb22b079c5ed7d155b3be28beb8ba868175",
+      "enMarkdown": "One reason so many good ideas come from the margin is simply that there's so much of it. There have to be more outsiders than insiders, if insider means anything. If the number of outsiders is huge it will always seem as if a lot of ideas come from them, even if few do per capita. But I think there's more going on than this. There are real disadvantages to being an insider, and in some kinds of work they can outweigh the advantages.",
+      "zhMarkdown": "这么多好主意来自边缘，一个很简单的原因就是：边缘的基数太大了。如果“局内人”这个词有什么实际意义的话，那么局外人的数量必然远远多于局内人。如果局外人的基数极其庞大，那么哪怕他们的人均产出极低，看起来也会有源源不断的创意涌现出来。但我认为原因不止于此。当一个局内人是有真实弊端的，在某些类型的工作中，这些弊端甚至会压倒优势。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "a16592395cf092ce5039ef3a8f65d1dd4d42c7c554330982ba8a2ba1b182cb8b",
+      "enMarkdown": "Imagine, for example, what would happen if the government decided to commission someone to write an official Great American Novel. First there'd be a huge ideological squabble over who to choose. Most of the best writers would be excluded for having offended one side or the other. Of the remainder, the smart ones would refuse such a job, leaving only a few with the wrong sort of ambition. The committee would choose one at the height of his career — that is, someone whose best work was behind him — and hand over the project with copious free advice about how the book should show in positive terms the strength and diversity of the American people, etc, etc.",
+      "zhMarkdown": "试想一下，如果政府决定委托某人写一本官方的“伟大的美国小说”，会发生什么？首先，在人选问题上就会爆发巨大的意识形态争论。大多数最优秀的作家都会因为得罪了某一方而被排除在外。剩下的作家里，聪明人会拒绝这种差事，最后只剩下几个抱有错误野心的人。委员会最终会选择一位处于事业巅峰的作家——也就是说，他最好的作品已经成了过去式——然后把项目交给他，并附带一堆慷慨的免费建议，比如这本书应该如何从正面展现美国人民的力量和多样性，等等等等。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "9ddb9002c96be19465d81003980847b51be9664f741ed372184427e7345a4c22",
+      "enMarkdown": "The unfortunate writer would then sit down to work with a huge weight of expectation on his shoulders. Not wanting to blow such a public commission, he'd play it safe. This book had better command respect, and the way to ensure that would be to make it a tragedy. Audiences have to be enticed to laugh, but if you kill people they feel obliged to take you seriously. As everyone knows, America plus tragedy equals the Civil War, so that's what it would have to be about. When finally completed twelve years later, the book would be a 900-page pastiche of existing popular novels — roughly *Gone with the Wind* plus *Roots*. But its bulk and celebrity would make it a bestseller for a few months, until blown out of the water by a talk-show host's autobiography. The book would be made into a movie and thereupon forgotten, except by the more waspish sort of reviewers, among whom it would be a byword for bogusness like Milli Vanilli or *Battlefield\nEarth*.",
+      "zhMarkdown": "于是，这位不幸的作家只能在巨大的社会期望压力下坐下来写作。因为不想搞砸这样一个备受瞩目的官方委托，他会选择稳妥行事。这本书必须赢得尊重，而确保这一点的办法就是把它写成一部悲剧。你想逗观众笑，得先取悦他们；但如果你把角色写死，大家就不得不严肃对待你。众所周知，美国加上悲剧，等于南北战争，所以书的内容只能写这个。十二年后，这本书终于写完了，它成了一部 900 页的缝合怪，拼凑了各种畅销小说——大致就是《乱世佳人》加上《根》。但凭借其厚度和名气，它依然能当上几个月的畅销书，直到被某个脱口秀主持人的自传彻底打败。接着，这本书会被改编成电影，然后被彻底遗忘，只有那些刻薄的评论家还会提起它，把它当作类似 Milli Vanilli 或《地球战场》这种冒牌货的代名词。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "31fea9100035f1a43e868d03b8c3faee3871de154adc523532386e26a19dac77",
+      "enMarkdown": "Maybe I got a little carried away with this example. And yet is this not at each point the way such a project would play out? The government knows better than to get into the novel business, but in other fields where they have a natural monopoly, like nuclear waste dumps, aircraft carriers, and regime change, you'd find plenty of projects isomorphic to this one — and indeed, plenty that were less successful.",
+      "zhMarkdown": "也许我这个例子举得有点夸张了。但是，这样一个项目难道不会在每一步都如我所说的那样演变吗？政府还算聪明，知道不要插手小说行业，但在他们拥有天然垄断地位的其他领域，比如核废料处理、航空母舰和推翻他国政权，你会发现大量与这个例子结构完全相同的项目——而且说实话，其中很多项目的下场比这还要惨。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "a75e6a852ce38a31dd214aabf8d3a5bd81746556a799990e0af5d50d05094347",
+      "enMarkdown": "This little thought experiment suggests a few of the disadvantages of insider projects: the selection of the wrong kind of people, the excessive scope, the inability to take risks, the need to seem serious, the weight of expectations, the power of vested interests, the undiscerning audience, and perhaps most dangerous, the tendency of such work to become a duty rather than a pleasure.",
+      "zhMarkdown": "这个小小的思想实验揭示了局内人项目的几大弊端：选错人、项目范围过大、无法承担风险、必须显得严肃、期望的重压、既得利益集团的阻力、缺乏鉴赏力的受众，以及最危险的一点——这种工作往往会变成一种义务，而不是一种乐趣。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "5f53e17279c43eb4f5eee55bf24344c4e4fc119f5fdae5b918f155a81e08cf09",
+      "enMarkdown": "**Tests**",
+      "zhMarkdown": "**筛选机制**"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "7a488dc2be129c80270f4746fa22d8fe4bd863a7344a72c7738145b9b2bfe827",
+      "enMarkdown": "A world with outsiders and insiders implies some kind of test for distinguishing between them. And the trouble with most tests for selecting elites is that there are two ways to pass them: to be good at what they try to measure, and to be good at hacking the test itself.",
+      "zhMarkdown": "一个存在局外人和局内人的世界，意味着必须有某种筛选机制来区分他们。而大多数选拔精英的筛选机制都有一个通病：通过筛选有两种途径，一是真正擅长筛选机制试图衡量的事情，二是擅长破解（hack）筛选机制本身。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "0b0b5c7f4883b212255663dad5cfcd3e2ea67632bf619360f4005b60bef572e3",
+      "enMarkdown": "So the first question to ask about a field is how honest its tests are, because this tells you what it means to be an outsider. This tells you how much to trust your instincts when you disagree with authorities, whether it's worth going through the usual channels to become one yourself, and perhaps whether you want to work in this field at all.",
+      "zhMarkdown": "因此，了解一个领域时，首先要问的是它的筛选机制有多诚实，因为这决定了“局外人”意味着什么。这决定了当你与权威意见相左时，应该在多大程度上相信自己的直觉；决定了是否值得通过常规途径让自己也变成局内人；甚至决定了你到底想不想在这个领域工作。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "49fd4002dea4cf031e664fe70453f15672114f3b8ffb204c3bd42810feb8df12",
+      "enMarkdown": "Tests are least hackable when there are consistent standards for quality, and the people running the test really care about its integrity. Admissions to PhD programs in the hard sciences are fairly honest, for example. The professors will get whoever they admit as their own grad students, so they try hard to choose well, and they have a fair amount of data to go on. Whereas undergraduate admissions seem to be much more hackable.",
+      "zhMarkdown": "当质量标准一致、且主持筛选的人真正关心其公正性时，筛选机制是最难被破解的。例如，硬科学领域的博士生录取就相当诚实。教授们招进来的学生得自己带，所以他们会极力挑选优秀的人才，而且他们手头也有相当多的数据可供参考。相比之下，本科生录取就容易被破解得多。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "bcc62a791e02958bbac8c7a73f963d75062678b55dbc07d6fb9af887366e3ec6",
+      "enMarkdown": "One way to tell whether a field has consistent standards is the overlap between the leading practitioners and the people who teach the subject in universities. At one end of the scale you have fields like math and physics, where nearly all the teachers are among the best practitioners. In the middle are medicine, law, history, architecture, and computer science, where many are. At the bottom are business, literature, and the visual arts, where there's almost no overlap between the teachers and the leading practitioners. It's this end that gives rise to phrases like \"those who can't do, teach.\"",
+      "zhMarkdown": "判断一个领域是否有统一标准的方法之一，是看行业顶尖从业者与大学里教授该学科的人之间重合度有多高。在这条光谱的一端是数学和物理等学科，几乎所有的老师本身就是最顶尖的从业者。中间是医学、法律、历史、建筑和计算机科学，其中不少老师是顶尖从业者。而在光谱的底端则是商业、文学和视觉艺术，在这些领域，老师和顶尖从业者之间几乎没有任何重合。正是这一端催生了那句名言：“做不好的人，才去教书。”"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "d0da4bf72fee92b24c6c10e8f498001a16416599bc2add4ec623300500716bb7",
+      "enMarkdown": "Incidentally, this scale might be helpful in deciding what to study in college. When I was in college the rule seemed to be that you should study whatever you were most interested in. But in retrospect you're probably better off studying something moderately interesting with someone who's good at it than something very interesting with someone who isn't. You often hear people say that you shouldn't major in business in college, but this is actually an instance of a more general rule: don't learn things from teachers who are bad at them.",
+      "zhMarkdown": "顺便说一句，这个光谱对决定大学学什么很有帮助。我上大学时，普遍的规则似乎是：你对什么最感兴趣，就应该学什么。但回过头来看，跟一个真正厉害的老师学一门中等感兴趣的课，也远好过跟一个平庸的老师学一门你极感兴趣的课。你经常听人说大学不应该读商科，这其实是一个更普适规则的体现：不要向不擅长某事的人学习这件事。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "8fade0df0fb05e9da563377f2d8ede515c9731ff725991aa770c5a07e9a86946",
+      "enMarkdown": "How much you should worry about being an outsider depends on the quality of the insiders. If you're an amateur mathematician and think you've solved a famous open problem, better go back and check. When I was in grad school, a friend in the math department had the job of replying to people who sent in proofs of Fermat's last theorem and so on, and it did not seem as if he saw it as a valuable source of tips — more like manning a mental health hotline. Whereas if the stuff you're writing seems different from what English professors are interested in, that's not necessarily a problem.",
+      "zhMarkdown": "你有多需要担心自己是个局外人，取决于局内人的水平。如果你是个业余数学家，觉得自己解决了一个著名的未解之谜，最好还是回去多检查几遍。我读研的时候，数学系的一个朋友有一项工作就是专门给那些寄来“证明了费马大定理”这类信件的人回信，他显然不觉得这是个能收获灵感的好地方——更像是值守精神卫生热线。相反，如果你写的东西和英语系教授们感兴趣的格格不入，那倒不一定是个问题。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "2e591d629b72ea8bc411ae6e69eca803b280927fe7a63c566084dee388a63bfe",
+      "enMarkdown": "**Anti-Tests**",
+      "zhMarkdown": "**反向筛选**"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "0610aab96aebd834b97e02dc37a67ac6443b4d2c25958188f152ab6cd94f0e97",
+      "enMarkdown": "Where the method of selecting the elite is thoroughly corrupt, most of the good people will be outsiders. In art, for example, the image of the poor, misunderstood genius is not just one possible image of a great artist: it's the *standard* image. I'm not saying it's correct, incidentally, but it is telling how well this image has stuck. You couldn't make a rap like that stick to math or medicine. [[2](#f2n)]",
+      "zhMarkdown": "在选拔精英的机制彻底腐败的地方，大部分优秀的人都会成为局外人。比如在艺术界，“贫困潦倒、不被理解的天才”不仅仅是伟大艺术家的某种可能形象，它已经成了*标准*形象。顺便说一句，我并不是说这种观念是对的，但这个形象能如此深入人心，本身就很说明问题。你不可能把这种标签贴到数学或医学界身上。[[2](#f2n)]"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "242cbabfdea5f1435be2c74fcb8f5a13b2d6dd72d99974e13c0f382b43252042",
+      "enMarkdown": "If it's corrupt enough, a test becomes an anti-test, filtering out the people it should select by making them to do things only the wrong people would do. [Popularity](https://paulgraham.com/nerds.html) in high school seems to be such a test. There are plenty of similar ones in the grownup world. For example, rising up through the hierarchy of the average big company demands an attention to politics few thoughtful people could spare. [[3](#f3n)] Someone like Bill Gates can grow a company under him, but it's hard to imagine him having the patience to climb the corporate ladder at General Electric — or Microsoft, actually.",
+      "zhMarkdown": "如果腐败得足够严重，筛选机制就会变成“反向筛选”：它会通过逼迫人们去做一些只有平庸之辈才会做的事，从而把本该选拔出来的人过滤掉。高中的[人缘好坏](https://paulgraham.com/nerds.html)似乎就是这样一种筛选。在成年人的世界里，类似的例子比比皆是。例如，在一家平庸的大公司里步步高升，需要把精力花在人际政治上，而任何有思想的人都抽不出这种闲工夫。[[3](#f3n)] 像比尔·盖茨这样的人可以带着一家公司和自己一起壮大，但很难想象他会有耐心去攀爬通用电气——或者说，其实连微软也算在内——的官僚晋升阶梯。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "219981b38a4d6e9c2ce3c05676dad955f3278e627d43ad0dba4827b9b8bc9afe",
+      "enMarkdown": "It's kind of strange when you think about it, because lord-of-the-flies schools and bureaucratic companies are both the default. There are probably a lot of people who go from one to the other and never realize the whole world doesn't work this way.",
+      "zhMarkdown": "仔细想想这挺奇怪的，因为充满丛林法则的学校和官僚作风的公司都是默认的常态。大概有很多人从前者走向后者，却从未意识到整个世界其实并不都是这样运转的。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "dc58d98c1ea142cf8c9cbc2c88002cf9cd9504de876d25d18d7ecbe01ea5e608",
+      "enMarkdown": "I think that's one reason big companies are so often blindsided by startups. People at big companies don't realize the extent to which they live in an environment that is one large, ongoing test for the wrong qualities.",
+      "zhMarkdown": "我认为这就是大公司经常被创业公司打得措手不及的原因之一。大公司里的人没有意识到，他们所处的环境其实是一场持续不断、专门筛选错误特质的大型考试。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "5b1a4f1d70a299ff9f6dfd856e859e0eb6a56ee2549c527ed74d6bbcacb21aa3",
+      "enMarkdown": "If you're an outsider, your best chances for beating insiders are obviously in fields where corrupt tests select a lame elite. But there's a catch: if the tests are corrupt, your victory won't be recognized, at least in your lifetime. You may feel you don't need that, but history suggests it's dangerous to work in fields with corrupt tests. You may beat the insiders, and yet not do as good work, on an absolute scale, as you would in a field that was more honest.",
+      "zhMarkdown": "如果你是个局外人，想要击败局内人，最好的机会显然是在那些被腐败筛选机制选出平庸精英的领域。但这里有一个陷阱：如果筛选机制本身是腐败的，你的胜利就不会得到承认，至少在你的有生之年是这样。你可能觉得自己不需要这种承认，但历史表明，在筛选机制腐败的领域工作是危险的。你可能会击败那些局内人，但在绝对标准上，你做出的成果可能远不如你在一个更诚实的领域里所能达到的高度。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "5e8a8d528925929a450debc920864df6a09b39a5983ba4dd1c178b597ee08198",
+      "enMarkdown": "Standards in art, for example, were almost as corrupt in the first half of the eighteenth century as they are today. This was the era of those fluffy idealized portraits of countesses with their lapdogs. [Chardin](largilliere-chardin.html) decided to skip all that and paint ordinary things as he saw them. He's now considered the best of that period — and yet not the equal of Leonardo or Bellini or Memling, who all had the additional encouragement of honest standards.",
+      "zhMarkdown": "例如，18 世纪上半叶的艺术标准几乎和今天一样腐败。那个时代流行的是给伯爵夫人和她们的哈巴狗画那些轻飘飘、理想化的肖像。而[夏尔丹](largilliere-chardin.html)决定避开这一切，按照他所看到的真实样子去画普通的日常事物。他现在被认为是那个时代最伟大的画家——但依然无法与达芬奇、贝利尼或梅姆林并肩，因为后几位都额外得到了诚实标准的激励和鞭策。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "979dc748af71cefb14bde1775cfdc79e5969d3dd04aa4d221d3909a948d50f9d",
+      "enMarkdown": "It can be worth participating in a corrupt contest, however, if it's followed by another that isn't corrupt. For example, it would be worth competing with a company that can spend more than you on marketing, as long as you can survive to the next round, when customers compare your actual products. Similarly, you shouldn't be discouraged by the comparatively corrupt test of college admissions, because it's followed immediately by less hackable tests. [[4](#f4n)]",
+      "zhMarkdown": "然而，参与一场腐败的竞争有时也是值得的，前提是它之后会有一场不腐败的竞争。例如，与一家营销预算远超你的公司竞争是值得的，只要你能撑到下一轮——那时候客户会直接对比你们的实际产品。同样，你也不必因为大学录取这种相对腐败的筛选而感到气馁，因为紧随其后的，是更难被破解的现实考验。[[4](#f4n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "d7df2e6043ef636c68f71d9ca90c233e8baf801f68cd3ab60ad3a5e3187e3364",
+      "enMarkdown": "**Risk**",
+      "zhMarkdown": "**风险**"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "c88ab853d7f059bba0dab8cfb1d0e74345dffa7c0b7c99e2913ee9d756aa2ea9",
+      "enMarkdown": "Even in a field with honest tests, there are still advantages to being an outsider. The most obvious is that outsiders have nothing to lose. They can do risky things, and if they fail, so what? Few will even notice.",
+      "zhMarkdown": "即使在筛选机制诚实的领域，当一个局外人依然有其优势。最显而易见的一点是，局外人没有什么可失去的。他们可以尝试高风险的事情，如果失败了，那又怎样？甚至没几个人会注意到。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "922e59f312169e30f794343bd388247783eecf329f6c9a721d4ccb9c8fe12f71",
+      "enMarkdown": "The eminent, on the other hand, are weighed down by their eminence. Eminence is like a suit: it impresses the wrong people, and it constrains the wearer.",
+      "zhMarkdown": "相反，名流显贵们则被自己的名声所累。名望就像一套西装：它能震慑住那些外行，却也束缚了穿戴者自己。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "5b615db35d2fd096a43ad36bad088ae9693c6d8dba63622af75497d484646e20",
+      "enMarkdown": "Outsiders should realize the advantage they have here. Being able to take risks is hugely valuable. Everyone values safety too much, both the obscure and the eminent. No one wants to look like a fool. But it's very useful to be able to. If most of your ideas aren't stupid, you're probably being too conservative. You're not bracketing the problem.",
+      "zhMarkdown": "局外人应该意识到自己在这方面的优势。能够承担风险是极具价值的。无论是无名小卒还是名流显贵，大家都把安全看得太重了。没有人想让自己看起来像个傻瓜。但能够承受扮演傻瓜的代价，其实是非常有用的。如果你的想法里没有一个是愚蠢的，那你可能就太保守了。你没有把问题的边界推得足够远。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "5fd9e05290787b80af5a0d1930e05db842ebaa0f63a6c69a354dd38368963a1c",
+      "enMarkdown": "Lord Acton said we should judge talent at its best and character at its worst. For example, if you write one great book and ten bad ones, you still count as a great writer — or at least, a better writer than someone who wrote eleven that were merely good. Whereas if you're a quiet, law-abiding citizen most of the time but occasionally cut someone up and bury them in your backyard, you're a bad guy.",
+      "zhMarkdown": "阿克顿勋爵曾说，我们应该在人才最优秀的时候评判其才华，在品格最恶劣的时候评判其人格。例如，如果你写了一本伟大的书和十本烂书，你依然算得上是一位伟大的作家——至少，比写了十一本平庸之作的人要好。而如果你平时是一个安静守法的公民，却偶尔杀人分尸埋在自家后院，那你就是一个恶棍。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "52aa24e61171fc0cace4686ce0b9cf5375d1f929f990b778cc154ce4e3faebac",
+      "enMarkdown": "Almost everyone makes the mistake of treating ideas as if they were indications of character rather than talent — as if having a stupid idea made you stupid. There's a huge weight of tradition advising us to play it safe. \"Even a fool is thought wise if he keeps silent,\" says the Old Testament (Proverbs 17:28).",
+      "zhMarkdown": "几乎所有人都会犯一个错误，把想法当作人格的体现，而不是才华的体现——仿佛有一个愚蠢的想法就说明你这个人很蠢。有极其深厚的传统观念在劝说我们凡事要稳妥。《旧约》（箴言 17:28）里说：“愚昧人若静默不言，也可算为智慧。”"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "a132d42b4dc99cb7217fda00055e567688ceb39bd7ee6db740f59071f97abe10",
+      "enMarkdown": "Well, that may be fine advice for a bunch of goatherds in Bronze Age Palestine. There conservatism would be the order of the day. But times have changed. It might still be reasonable to stick with the Old Testament in political questions, but materially the world now has a lot more state. Tradition is less of a guide, not just because things change faster, but because the space of possibilities is so large. The more complicated the world gets, the more valuable it is to be willing to look like a fool.",
+      "zhMarkdown": "好吧，对于青铜时代巴勒斯坦的一群牧羊人来说，这也许是极好的建议。在那个时代，保守显然是生存之道。但时代变了。在政治问题上继续遵循《旧约》或许还有道理，但在物质层面上，现在的世界有了更多的可能性。传统已经不再是万能的指南，不仅因为事物变化得更快，还因为可能性的空间变得如此巨大。世界越复杂，愿意让自己看起来像个傻瓜的特质就越有价值。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "96732674ddf59ef7a3f0462c864a8958a0344352c7c24ec1fe654d5e018b9e15",
+      "enMarkdown": "**Delegation**",
+      "zhMarkdown": "**授权与放权**"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "2a59537f600f22c88bd8cfbf523302246f71d6f00c37343a1fc83599031e5d3c",
+      "enMarkdown": "And yet the more successful people become, the more heat they get if they screw up — or even seem to screw up. In this respect, as in many others, the eminent are prisoners of their own success. So the best way to understand the advantages of being an outsider may be to look at the disadvantages of being an insider.",
+      "zhMarkdown": "然而，人们越成功，一旦搞砸——甚至只是看起来搞砸了——承受的压力就越大。在这方面，正如同在许多其他方面一样，局内人是他们自身成功的囚徒。因此，理解局外人优势的最佳方式，或许就是去看看局内人的劣势。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "71947929f89305b8a0cfb7658a41505269097b81420c84873cc85649c4ebc965",
+      "enMarkdown": "If you ask eminent people what's wrong with their lives, the first thing they'll complain about is the lack of time. A friend of mine at Google is fairly high up in the company and went to work for them long before they went public. In other words, he's now rich enough not to have to work. I asked him if he could still endure the annoyances of having a job, now that he didn't have to. And he said that there weren't really any annoyances, except — and he got a wistful look when he said this — that he got *so much\nemail*.",
+      "zhMarkdown": "如果你问那些功成名就的人生活有什么不好，他们抱怨的第一件事一定是时间不够用。我在谷歌的一个朋友在公司里职位挺高，而且在公司上市前很久就去工作了。换句话说，他现在已经富到根本不需要工作了。我问他，既然已经不缺钱了，怎么还能忍受有一份工作带来的种种烦恼。他说其实没什么烦恼，除了——说到这里他露出了向往的神情——他要处理的*邮件实在太多了*。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "83cb4bcafe8e022fa116410423bb5d221de184fca9b2c6be8e71c009d75cdfee",
+      "enMarkdown": "The eminent feel like everyone wants to take a bite out of them. The problem is so widespread that people pretending to be eminent do it by pretending to be overstretched.",
+      "zhMarkdown": "成名者觉得每个人都想从他们身上咬下一口肉来。这个问题是如此普遍，以至于现在那些假装成功的人，也会通过假装自己忙得不可开交来装门面。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "80a3bdf8b2f1158be4eb8f3fbb094777d6a5b320ec4959f545ab04ae5a69f9e1",
+      "enMarkdown": "The lives of the eminent become scheduled, and that's not good for thinking. One of the great advantages of being an outsider is long, uninterrupted blocks of time. That's what I remember about grad school: apparently endless supplies of time, which I spent worrying about, but not writing, my dissertation. Obscurity is like health food — unpleasant, perhaps, but good for you. Whereas fame tends to be like the alcohol produced by fermentation. When it reaches a certain concentration, it kills off the yeast that produced it.",
+      "zhMarkdown": "名流的生活变得日程满满，这非常不利于思考。作为局外人，最大的优势之一就是拥有大块、不被打扰的时间。这就是我对读研时期的记忆：似乎有无穷无尽的时间，我把这些时间用来为论文焦虑，而不是真正去写它。默默无闻就像健康食品——虽然可能不好吃，但对身体有好处。而名声往往就像发酵产生的酒精。当浓度达到一定程度时，它就会杀死产生它的酵母菌。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "813bfdb63d35022a81c21ecf40c6d4b08aa9487d848c5a935898f7e5ec3c0163",
+      "enMarkdown": "The eminent generally respond to the shortage of time by turning into managers. They don't have time to work. They're surrounded by junior people they're supposed to help or supervise. The obvious solution is to have the junior people do the work. Some good stuff happens this way, but there are problems it doesn't work so well for: the kind where it helps to have everything in one head.",
+      "zhMarkdown": "面对时间匮乏，成功人士通常的应对方式是转型为管理者。他们没有时间亲自干活了。他们身边围满了需要他们指导或监督的下属。显而易见的解决方案就是让下属去干活。这种方式确实能做出一些好东西，但对于某些特定类型的问题，它就没那么灵了：比如那种需要把所有细节都装在同一个脑子里的问题。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "82c15550e1aedb59fc2566aac8a5a5c64d5ede61eae9dd746f677911d68fcf2f",
+      "enMarkdown": "For example, it recently emerged that the famous glass artist Dale Chihuly hasn't actually blown glass for 27 years. He has assistants do the work for him. But one of the most valuable sources of ideas in the visual arts is the resistance of the medium. That's why oil paintings look so different from watercolors. In principle you could make any mark in any medium; in practice the medium steers you. And if you're no longer doing the work yourself, you stop learning from this.",
+      "zhMarkdown": "例如，最近有消息透露，著名的玻璃艺术家戴尔·奇胡利（Dale Chihuly）实际上已经 27 年没有亲自吹制过玻璃了。他都是让助手帮他干活。但在视觉艺术中，最宝贵的灵感来源之一恰恰来自媒介本身的阻力。这就是为什么油画和水彩画看起来如此不同。理论上你可以在任何媒介上画出任何笔触；但实际上，媒介在引导着你。如果你不再亲自干活，你就停止了从这种反馈中学习。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "46d9924b7f6e56d625309f580ea7e2d4ef8d85c258cdf0936c97515aa79a2445",
+      "enMarkdown": "So if you want to beat those eminent enough to delegate, one way to do it is to take advantage of direct contact with the medium. In the arts it's obvious how: blow your own glass, edit your own films, stage your own plays. And in the process pay close attention to accidents and to new ideas you have on the fly. This technique can be generalized to any sort of work: if you're an outsider, don't be ruled by plans. Planning is often just a weakness forced on those who delegate.",
+      "zhMarkdown": "因此，如果你想击败那些已经成功到可以把工作授权出去的对手，方法之一就是利用你与媒介直接接触的优势。在艺术领域，这很明显：自己吹玻璃，自己剪辑电影，自己导演戏剧。在这个过程中，密切关注偶然的发现以及你在实践中灵光一现的新想法。这种方法可以推广到任何类型的工作：如果你是个局外人，不要被计划死死框住。做计划往往只是那些不得不放权的人被迫妥协的软肋。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "86f1fe64897eae4b14e9ff23734d624e0b86c41e3a09203ec3f0c9ed057bb7e8",
+      "enMarkdown": "Is there a general rule for finding problems best solved in one head? Well, you can manufacture them by taking any project usually done by multiple people and trying to do it all yourself. Wozniak's work was a classic example: he did everything himself, hardware and software, and the result was miraculous. He claims not one bug was ever found in the Apple II, in either hardware or software.",
+      "zhMarkdown": "有没有一个普适的规律，能帮我们找到最适合在“一个脑子里”解决的问题？其实，你可以通过把任何通常由多人合作的项目拿过来，尝试完全由自己一个人来做，以此来制造这样的问题。沃兹尼亚克的工作就是一个经典的例子：他自己搞定了一切，包括硬件和软件，结果堪称奇迹。他声称，苹果二号的硬件和软件里从未发现过一个 Bug。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "93d353b8e36f39384e9cf5f2dd1273dd95ac5f3870c38086f493fe2746f6a55c",
+      "enMarkdown": "Another way to find good problems to solve in one head is to focus on the grooves in the chocolate bar — the places where tasks are divided when they're split between several people. If you want to beat delegation, focus on a vertical slice: for example, be both writer and editor, or both design buildings and construct them.",
+      "zhMarkdown": "另一个寻找适合单人解决的问题的方法，是关注“巧克力棒上的划痕”——也就是当任务被分派给不同人时，彼此之间的交界处。如果你想击败“授权与放权”，就去专注于一个垂直的切片：例如，同时担任作者和编辑，或者同时设计建筑并亲自建造它。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "989435d81107e19d6469a0af54f932fe443212a6284696671739712de381c455",
+      "enMarkdown": "One especially good groove to span is the one between tools and things made with them. For example, programming languages and applications are usually written by different people, and this is responsible for a lot of the worst flaws in [programming languages](https://paulgraham.com/hundred.html). I think every language should be designed simultaneously with a large application written in it, the way C was with Unix.",
+      "zhMarkdown": "一个特别值得跨越的交界处，是工具和用工具制造出来的东西之间的鸿沟。例如，编程语言和应用程序通常是由不同的人编写的，这导致了[编程语言](https://paulgraham.com/hundred.html)中许多最糟糕的缺陷。我认为，每种语言的设计都应该与其上开发的大型应用同步进行，就像 C 语言与 Unix 的关系那样。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "32686fe4cda3516203c0cb7472409928efe81cae3b3a156bb8998fb29c0ddf45",
+      "enMarkdown": "Techniques for competing with delegation translate well into business, because delegation is endemic there. Instead of avoiding it as a drawback of senility, many companies embrace it as a sign of maturity. In big companies software is often designed, implemented, and sold by three separate types of people. In startups one person may have to do all three. And though this feels stressful, it's one reason startups win. The needs of customers and the means of satisfying them are all in one head.",
+      "zhMarkdown": "与“授权”竞争的技巧在商业中非常管用，因为授权在商业中无处不在。许多公司不但不把授权视为衰老的征兆，反而将其拥抱为成熟的标志。在大公司里，软件的设计、实现和销售通常由三种完全不同的人来做。而在创业公司里，一个人可能得把这三件事全干了。尽管这让人感到压力巨大，但这也是创业公司能赢的原因之一。客户的需求和满足这些需求的方法，全在同一个人的脑子里。"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "0b974da27b53a4db3e28e1827f43a4c4f42692e4efb765a1588ede94108670b8",
+      "enMarkdown": "**Focus**",
+      "zhMarkdown": "**专注**"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "8ca98f64fd0159fbe013e7ba31f0c32639fc2793401ff2e9d85172fb7040c9e7",
+      "enMarkdown": "The very skill of insiders can be a weakness. Once someone is good at something, they tend to spend all their time doing that. This kind of focus is very valuable, actually. Much of the skill of experts is the ability to ignore false trails. But focus has drawbacks: you don't learn from other fields, and when a new approach arrives, you may be the last to notice.",
+      "zhMarkdown": "局内人高超的技能本身也可能成为一种弱点。一旦某人擅长某事，他们往往会把所有时间都花在做这件事上。事实上，这种专注是非常有价值的。专家的很多技能就在于能够忽略错误的路径。但专注也有弊端：你不会去向其他领域学习，而且当一种全新的方法出现时，你可能是最后一个注意到的。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "105694075eda3f0af9c990a1a09c16433192e4a3f8f5c5371e5651822aed4963",
+      "enMarkdown": "For outsiders this translates into two ways to win. One is to work on a variety of things. Since you can't derive as much benefit (yet) from a narrow focus, you may as well cast a wider net and derive what benefit you can from similarities between fields. Just as you can compete with delegation by working on larger vertical slices, you can compete with specialization by working on larger horizontal slices — by both writing and illustrating your book, for example.",
+      "zhMarkdown": "对局外人来说，这带来了两种赢的途径。一是尝试多样化的事情。既然你（还）无法从极度专注中获得那么多好处，不妨撒一张更大的网，从不同领域的相似性中汲取营养。正如你可以通过在更宽的垂直切片上工作来对抗“放权”一样，你也可以通过在更宽的水平切片上工作来对抗“专业化”——例如，自己写书的同时亲自绘制插图。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "314ce0f836702d5f8016f3ff346c11126e946958b78ab88a7a45a457dadace56",
+      "enMarkdown": "The second way to compete with focus is to see what focus overlooks. In particular, new things. So if you're not good at anything yet, consider working on something so new that no one else is either. It won't have any prestige yet, if no one is good at it, but you'll have it all to yourself.",
+      "zhMarkdown": "第二种对抗“专注”的方法，是去看专注所忽略的东西。尤其是全新的事物。所以，如果你目前还不擅长任何事情，不妨考虑去研究一些非常新颖的东西，新到别人也同样不擅长。因为没人擅长，它目前还不会有任何光环，但你将拥有整片处女地。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "d9880e3c205d2c564e58dce9c7e72ba13d98c5bd3a93a654fdd601cce47723df",
+      "enMarkdown": "The potential of a new medium is usually underestimated, precisely because no one has yet explored its possibilities. Before [Durer](https://paulgraham.com/pilate.html) tried making engravings, no one took them very seriously. Engraving was for making little devotional images — basically fifteenth century baseball cards of saints. Trying to make masterpieces in this medium must have seemed to Durer's contemporaries the way that, say, making masterpieces in [comics](http://www.fantagraphics.com/artist/clowes/clowes.html) might seem to the average person today.",
+      "zhMarkdown": "一个新媒介的潜力通常会被低估，恰恰是因为还没有人探索过它的可能性。在[丢勒](https://paulgraham.com/pilate.html)尝试制作版画之前，没人把版画当回事。版画只是用来制作小幅宗教画像的——基本上就是 15 世纪的圣人版棒球卡。在那个媒介里尝试创作传世杰作，在丢勒同时代的人看来，大概就像今天普通人看待在[漫画](http://www.fantagraphics.com/artist/clowes/clowes.html)里创作传世杰作一样。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "19f153acbb8cbd95708196ee433a5ddc297009405f7b8fe2661bc7422773c495",
+      "enMarkdown": "In the computer world we get not new mediums but new platforms: the minicomputer, the microprocessor, the web-based application. At first they're always dismissed as being unsuitable for real work. And yet someone always decides to try anyway, and it turns out you can do more than anyone expected. So in the future when you hear people say of a new platform: yeah, it's popular and cheap, but not ready yet for real work, jump on it.",
+      "zhMarkdown": "在电脑世界里，我们迎来的不是新媒介，而是新平台：微型计算机、微处理器、基于 Web 的应用。起初，它们总是被贬低为不适合干正经事。然而，总有人决定不管怎样先试试看，结果发现能做的事情远超所有人的想象。所以，未来当你听到人们说起一个新平台：“这玩意儿虽然流行又便宜，但还不适合干正经工作”时，赶紧冲上去。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "f27bc8df0f8c67df5e61c93e5c83551390b30cfbde010921e9b375cc18e36adc",
+      "enMarkdown": "As well as being more comfortable working on established lines, insiders generally have a vested interest in perpetuating them. The professor who made his reputation by discovering some new idea is not likely to be the one to discover its replacement. This is particularly true with companies, who have not only skill and pride anchoring them to the status quo, but money as well. The Achilles heel of successful companies is their inability to cannibalize themselves. Many innovations consist of replacing something with a cheaper alternative, and companies just don't want to see a path whose immediate effect is to cut an existing source of revenue.",
+      "zhMarkdown": "局内人除了更习惯于在既定路线上工作之外，通常在维持这些路线上也有着既得利益。靠发现某个新观点建立声誉的教授，不太可能去发现这个观点的替代者。在公司里更是如此，不仅有技术和骄傲将他们锚定在现状中，还有真金白银。成功公司的阿喀琉斯之踵在于它们无法自我革命。许多创新都是用更便宜的替代品来取代现有的东西，而公司根本不想看到一条眼下会削减现有收入来源的路。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "fb2e1f91100d2ce2881862e4c599e153f037c834b1aa55df6412870006d9c3a1",
+      "enMarkdown": "So if you're an outsider you should actively seek out contrarian projects. Instead of working on things the eminent have made prestigious, work on things that could steal that prestige.",
+      "zhMarkdown": "所以，如果你是个局外人，你应该主动去寻找那些非主流的项目。不要去研究那些已经被成名者捧出光环的东西，要去研究那些能够夺走这些光环的东西。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "0ad71ed99a3512774a534329a44b807f7a28408ae35cbe8a6ab2569680bf8936",
+      "enMarkdown": "The really juicy new approaches are not the ones insiders reject as impossible, but those they ignore as undignified. For example, after Wozniak designed the Apple II he offered it first to his employer, HP. They passed. One of the reasons was that, to save money, he'd designed the Apple II to use a TV as a monitor, and HP felt they couldn't produce anything so declasse.",
+      "zhMarkdown": "真正诱人的新路径，不是那些被局内人斥为不可能的路径，而是那些被他们嫌弃、认为不够体面而忽视的路径。例如，沃兹尼亚克设计出苹果二号后，首先把它推荐给了他的雇主惠普。惠普拒绝了。原因之一是，为了省钱，沃兹尼亚克把苹果二号设计成用电视机当显示器，而惠普觉得他们不能生产如此低档的产品。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "b343e22aa87524cd7cd9610932d2859a309cb90bd8cefbd4090008bce7d00ca2",
+      "enMarkdown": "**Less**",
+      "zhMarkdown": "**化繁为简**"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "cc5911b87b12ca8d6f68b82026e17bc3150fbd907b18c28b30f3df210520f73d",
+      "enMarkdown": "Wozniak used a TV as a monitor for the simple reason that he couldn't afford a monitor. Outsiders are not merely free but compelled to make things that are cheap and lightweight. And both are good bets for growth: cheap things spread faster, and lightweight things evolve faster.",
+      "zhMarkdown": "沃兹尼亚克用电视机做显示器，原因很简单：他买不起显示器。局外人不仅有自由，而且是被迫去做出便宜、轻量级的东西。而这两者都是押注增长的极佳选择：便宜的东西传播得更快，轻量级的东西进化得更快。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "8526f884045bef8c0cc24a5a503c3d5c61e969ec03fc40993417a74b2975eff7",
+      "enMarkdown": "The eminent, on the other hand, are almost forced to work on a large scale. Instead of garden sheds they must design huge art museums. One reason they work on big things is that they can: like our hypothetical novelist, they're flattered by such opportunities. They also know that big projects will by their sheer bulk impress the audience. A garden shed, however lovely, would be easy to ignore; a few might even snicker at it. You can't snicker at a giant museum, no matter how much you dislike it. And finally, there are all those people the eminent have working for them; they have to choose projects that can keep them all busy.",
+      "zhMarkdown": "相反，名流显贵们几乎被迫在庞大的尺度上工作。他们不能设计简陋的花园棚子，必须设计巨大的艺术博物馆。他们做大事的原因之一是他们有这个能力：就像我们假想的那位小说家一样，这种机会让他们感到受宠若惊。他们也知道，大型项目单凭其庞大的体量就能震慑观众。一个花园棚子，无论多么精致，都很容易被忽略，甚至可能有人会嗤之以鼻。但你无法对一座巨大的博物馆嗤之以鼻，不管你有多不喜欢它。最后，成功人士手下还有那么多员工要养活，他们必须选择能让所有人都忙起来的大项目。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "2177e6be54fad6123c1920d9667c1d4062e704b73f8cbdaa86adaa460fd9fb9e",
+      "enMarkdown": "Outsiders are free of all this. They can work on small things, and there's something very pleasing about small things. Small things can be perfect; big ones always have something wrong with them. But there's a [magic](https://paulgraham.com/isetta.html) in small things that goes beyond such rational explanations. All kids know it. Small things have more personality.",
+      "zhMarkdown": "局外人则没有这些包袱。他们可以专注于小事物，而小事物身上有一种非常迷人的特质。小事物可以做到完美，而大事物总会有漏洞。但是，小事物身上有一种[魔力](https://paulgraham.com/isetta.html)，超越了这些理性的解释。小孩子都懂这一点。小东西更有灵性。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "a1dac780e4d4873c2c7763bb6de78459f1d7583463a6a5ef5ff4518a5d018b18",
+      "enMarkdown": "Plus making them is more fun. You can do what you want; you don't have to satisfy committees. And perhaps most important, small things can be done fast. The prospect of seeing the finished project hangs in the air like the smell of dinner cooking. If you work fast, maybe you could have it done tonight.",
+      "zhMarkdown": "而且做小东西更有趣。你可以随心所欲，不需要去迎合各种委员会。也许最重要的一点是，小东西可以做得很快。看到成品诞生的前景就像闻到正在做的晚饭香味一样飘在空中。如果你动作快，也许今晚就能搞定。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "3161da6c1f8ab4468a2e02b72ae5a185516c380e47cba6b30cb0d6258902c5ab",
+      "enMarkdown": "Working on small things is also a good way to learn. The most important kinds of learning happen one project at a time. (\"Next time, I won't...\") The faster you cycle through projects, the faster you'll evolve.",
+      "zhMarkdown": "做小事情也是一种很好的学习方式。最核心的学习都是通过一个又一个项目积累起来的（“下次我绝不……”）。你完成项目的周期越快，你进化的速度就越快。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "4d0443b772367ce92a738c3b804dd8048600ba3facb2d7df8ea58edf17c6af53",
+      "enMarkdown": "Plain materials have a charm like small scale. And in addition there's the challenge of making do with less. Every designer's ears perk up at the mention of that game, because it's a game you can't lose. Like the JV playing the varsity, if you even tie, you win. So paradoxically there are cases where fewer resources yield better results, because the designers' pleasure at their own ingenuity more than compensates. [[5](#f5n)]",
+      "zhMarkdown": "朴素的材料和微小的尺度一样具有独特的魅力。此外，还有用更少资源因陋就简的挑战。任何设计师一听到这种挑战都会兴奋起来，因为这是一场稳赢不输的博弈。就像二线队打主力队，你只要打平，就算你赢。所以看似矛盾的是，在某些情况下，更少的资源反而能带来更好的结果，因为设计师从自己的聪明才智中获得的乐趣，远远弥补了资源的不足。[[5](#f5n)]"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "8a285501fb7b15ea4a38bc9860869afa8fb5019f76cf21e09516cc3d370b6910",
+      "enMarkdown": "So if you're an outsider, take advantage of your ability to make small and inexpensive things. Cultivate the pleasure and simplicity of that kind of work; one day you'll miss it.",
+      "zhMarkdown": "所以，如果你是个局外人，充分利用你制造微小且廉价事物的能力吧。去培养那种工作的乐趣和简单纯粹；总有一天你会怀念它的。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "058b0390e4f67b210d80453efc53c8996d5b019995ea0f36a004617dd4a8fb8c",
+      "enMarkdown": "**Responsibility**",
+      "zhMarkdown": "**责任**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "4fdf4794f172563e6d075657bda5a3cc3140e679c81eff1245c407cf8f181357",
+      "enMarkdown": "When you're old and eminent, what will you miss about being young and obscure? What people seem to miss most is the lack of responsibilities.",
+      "zhMarkdown": "当你功成名就、年岁渐长时，你会怀念年轻和默默无闻时的什么？人们似乎最怀念那种没有责任束缚的状态。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "2f696842cc9308c47fc80cc3a523648b87d99245e8874a00c24b0ea0bcd533ec",
+      "enMarkdown": "Responsibility is an occupational disease of eminence. In principle you could avoid it, just as in principle you could avoid getting fat as you get old, but few do. I sometimes suspect that responsibility is a trap and that the most virtuous route would be to shirk it, but regardless it's certainly constraining.",
+      "zhMarkdown": "责任是成名者的一种职业病。理论上你可以避免它，就像理论上你可以避免随着年龄增长而变胖一样，但很少有人能做到。我有时怀疑责任是一个陷阱，最明智的选择其实是逃避它，但不管怎么说，它确实是一种束缚。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "c70676124f4ff73d0d82b47203f5a46c24205f934156545199d07d6ae8ef681c",
+      "enMarkdown": "When you're an outsider you're constrained too, of course. You're short of money, for example. But that constrains you in different ways. How does responsibility constrain you? The worst thing is that it allows you not to focus on real work. Just as the most dangerous forms of [procrastination](https://paulgraham.com/procrastination.html) are those that seem like work, the danger of responsibilities is not just that they can consume a whole day, but that they can do it without setting off the kind of alarms you'd set off if you spent a whole day sitting on a park bench.",
+      "zhMarkdown": "当然，当你是个局外人时，你也会受到限制。比如，你缺钱。但那是在不同的维度上限制你。责任是如何限制你的？最糟糕的是，它让你有借口不把精力集中在真正的工作上。正如最危险的[拖延](https://paulgraham.com/procrastination.html)形式是那些看起来像是在认真工作的行为一样，责任的危险之处不仅在于它能消耗掉你一整天的时间，而且在于它在消耗时间的同时，不会触发你坐在公园长椅上无所事事一整天时本该拉响的警报。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "0cf5f2c7994369219ed89b0e93f0d7c205d78aff98f1cd6b204cd91c7a1800fb",
+      "enMarkdown": "A lot of the pain of being an outsider is being aware of one's own procrastination. But this is actually a good thing. You're at least close enough to work that the smell of it makes you hungry.",
+      "zhMarkdown": "作为一个局外人，很多痛苦来自于意识到自己在拖延。但这其实是一件好事。至少你离工作足够近，能闻到它的烟火气，让你感到饥饿。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "aa4c5fd1adfb8c20d30c38272b754c3bed4d909c57ff15d7728e3e28209ce789",
+      "enMarkdown": "As an outsider, you're just one step away from getting things done. A huge step, admittedly, and one that most people never seem to make, but only one step. If you can summon up the energy to get started, you can work on projects with an intensity (in both senses) that few insiders can match. For insiders work turns into a duty, laden with responsibilities and expectations. It's never so pure as it was when they were young.",
+      "zhMarkdown": "作为局外人，你距离把事情做成只差一步。不可否认，这是一大步，也是大多数人似乎永远跨不过去的一步，但它仅仅是一步。如果你能鼓起干劲开始，你就能以极大的专注和强度投入到项目中，这是极少数局内人能比拟的。对于局内人来说，工作已经变成了一种义务，承载着沉重的责任和期望。它再也不会像他们年轻时那样纯粹了。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "237a5bea1872c355c82cc503a575310b3f437d010c472259ea900cd8d92137fc",
+      "enMarkdown": "Work like a dog being taken for a walk, instead of an ox being yoked to the plow. That's what they miss.",
+      "zhMarkdown": "像一只被带出去撒欢的狗那样去工作，而不是像一头被套上犁的牛。这就是他们怀念的感觉。"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "10d538d5dc0d1abdcbfd8a4ebc3f541835fc4e33ca7b4bb3e6bd8d01ce6ffb3d",
+      "enMarkdown": "**Audience**",
+      "zhMarkdown": "**受众**"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "2069829b444935e620655a3858a0467ace5a64005a3d9ec018eb3782a4f26f20",
+      "enMarkdown": "A lot of outsiders make the mistake of doing the opposite; they admire the eminent so much that they copy even their flaws. Copying is a good way to learn, but copy the right things. When I was in college I imitated the pompous diction of famous professors. But this wasn't what *made* them eminent — it was more a flaw their eminence had allowed them to sink into. Imitating it was like pretending to have gout in order to seem rich.",
+      "zhMarkdown": "许多局外人犯了相反的错误：他们太崇拜那些名流显贵，以至于连对方的缺点都一并模仿。模仿是很好的学习方式，但要模仿对的东西。我上大学时，曾刻意模仿那些名教授拿腔拿调的措辞。但这并不是让他们*变得*杰出的原因——这更像是他们的名望允许他们堕入的一种恶习。模仿这个，就像为了显得富有而假装自己得了痛风一样滑稽。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "2dc3e664cdcda99133df9c32b66336ac1d7d49faa5eaa713d083be0d3df4356d",
+      "enMarkdown": "Half the distinguishing qualities of the eminent are actually disadvantages. Imitating these is not only a waste of time, but will make you seem a fool to your models, who are often well aware of it.",
+      "zhMarkdown": "名流身上一半的标志性特征实际上都是劣势。模仿这些不仅是浪费时间，还会让你在你的偶像面前显得像个傻瓜，因为他们自己往往对这些软肋心知肚明。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "649d9c6323a22f13b514ff1aeee4d5f0f3c333b4d00c4a82ab487f3ff44cd82e",
+      "enMarkdown": "What are the genuine advantages of being an insider? The greatest is an audience. It often seems to outsiders that the great advantage of insiders is money — that they have the resources to do what they want. But so do people who inherit money, and that doesn't seem to help, not as much as an audience. It's good for morale to know people want to see what you're making; it draws work out of you.",
+      "zhMarkdown": "那么，成为局内人真正的优势是什么？最大的优势是受众。在局外人看来，局内人的巨大优势似乎是钱——他们有资源去做自己想做的事。但继承遗产的人也有钱，这似乎并没有多大帮助，至少不如拥有受众帮助大。知道有人想看你做出来的东西，对士气是极大的鼓舞，它能把你的潜力激发出来。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "265c4ebf3cce68c07bc2ad1b541d912c2fc5c29815f085625ed4af8f46ea1330",
+      "enMarkdown": "If I'm right that the defining advantage of insiders is an audience, then we live in exciting times, because just in the last ten years the Internet has made audiences a lot more liquid. Outsiders don't have to content themselves anymore with a proxy audience of a few smart friends. Now, thanks to the Internet, they can start to grow themselves actual audiences. This is great news for the marginal, who retain the advantages of outsiders while increasingly being able to siphon off what had till recently been the prerogative of the elite.",
+      "zhMarkdown": "如果我是对的，即局内人最核心的优势是受众，那么我们正生活在一个令人兴奋的时代。因为就在过去十年里，互联网让受众的流动性大大增加了。局外人再也不用满足于只有几个聪明朋友组成的替代受众了。现在，得益于互联网，他们可以开始培养自己真正的受众。这对于处于边缘的人来说是极好的消息，他们既保留了局外人的优势，又越来越能够分流那些直到最近还被精英垄断的红利。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "1d16f9fd31d65bd8e704e948ccf5f04d606a232a50bb94bd5e5f573fb46ff558",
+      "enMarkdown": "Though the Web has been around for more than ten years, I think we're just beginning to see its democratizing effects. Outsiders are still learning how to steal audiences. But more importantly, audiences are still learning how to be stolen — they're still just beginning to realize how much [deeper](http://journalism.nyu.edu/pubzone/weblogs/pressthink/2004/03/15/lott_case.html) bloggers can dig than journalists, how much [more interesting](http://reddit.com) a democratic news site can be than a front page controlled by editors, and how much [funnier](http://www.youtube.com/watch?v=SLbFDMplZDs) a bunch of kids with webcams can be than mass-produced sitcoms.",
+      "zhMarkdown": "虽然万维网已经存在了十多年，但我认为我们才刚刚开始看到它带来的民主化效应。局外人仍在学习如何吸引受众。但更重要的是，受众也仍在学习如何被吸引——他们才刚刚开始意识到，博客作者能比传统记者挖掘得[有多深](http://journalism.nyu.edu/pubzone/weblogs/pressthink/2004/03/15/lott_case.html)，一个民主化的新闻网站能比由编辑控制的头版[有趣得多](http://reddit.com)，以及一帮拿着网络摄像头的孩子能比批量生产的情景喜剧[幽默得多](http://www.youtube.com/watch?v=SLbFDMplZDs)。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "4deb8d553702ef77a59e05a5bdeb4b98dc10112b6a9f2eb97911c4280c4afd6c",
+      "enMarkdown": "The big media companies shouldn't worry that people will post their copyrighted material on YouTube. They should worry that people will post their own stuff on YouTube, and audiences will watch that instead.",
+      "zhMarkdown": "大型媒体公司不应该担心人们在 YouTube 上发布他们拥有版权的内容。他们应该担心的是人们在 YouTube 上发布自己原创的内容，而观众转头去看那些了。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "c134cbd56a911b784302c48e4d7b0bc2ad7094d6805865abc65da3103f58f231",
+      "enMarkdown": "**Hacking**",
+      "zhMarkdown": "**动手捣鼓**"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "ada8b38266af19e9d83326033e3525f958a82111a6a09c9e16c769708313a898",
+      "enMarkdown": "If I had to condense the power of the marginal into one sentence it would be: just try hacking something together. That phrase draws in most threads I've mentioned here. Hacking something together means deciding what to do as you're doing it, not a subordinate executing the vision of his boss. It implies the result won't be pretty, because it will be made quickly out of inadequate materials. It may work, but it won't be the sort of thing the eminent would want to put their name on. Something hacked together means something that barely solves the problem, or maybe doesn't solve the problem at all, but another you discovered en route. But that's ok, because the main value of that initial version is not the thing itself, but what it leads to. Insiders who daren't walk through the mud in their nice clothes will never make it to the solid ground on the other side.",
+      "zhMarkdown": "如果非要把边缘的力量凝聚成一句话，那就是：只管动手捣鼓个东西出来。这句话串联起了我在这里提到的大部分线索。“动手捣鼓（hacking something together）”意味着在做的过程中决定怎么做，而不是作为一个下属去执行老板的蓝图。它暗示了结果不会太好看，因为它是用不充裕的材料快速拼凑出来的。它或许管用，但绝对不是名流们愿意署名上去的那种东西。捣鼓出来的东西意味着它仅仅能勉强解决问题，甚至可能根本没有解决原本的问题，而是解决了你在半路上发现的另一个问题。但这没关系，因为这个初始版本的主要价值不在于它本身，而在于它所引向的未来。那些不敢穿着漂亮衣服在泥泞中前行的局内人，永远无法到达彼岸坚实的土地。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "0b39f3c85a9dcf06fe1e22d8f5a37201b3d81e0f6e5c2f44f7bf93d8707411d3",
+      "enMarkdown": "The word \"try\" is an especially valuable component. I disagree here with Yoda, who said there is no try. There is try. It implies there's no punishment if you fail. You're driven by curiosity instead of duty. That means the wind of procrastination will be in your favor: instead of avoiding this work, this will be what you do as a way of avoiding other work. And when you do it, you'll be in a better mood. The more the work depends on imagination, the more that matters, because most people have more ideas when they're happy.",
+      "zhMarkdown": "“试一试（try）”这个词是一个特别有价值的要素。在这点上我不同意尤达大师（Yoda）的话，他说“没有试，只有做或不做”。我说有“试一试”。它意味着即使失败了也不会受到惩罚。你是被好奇心驱动，而不是被义务驱使。这意味着拖延的狂风会变成你的顺风：你不会逃避这项工作，相反，这会成为你用来逃避其他工作时顺手做的事。而且当你做这件事时，你的心情会更好。工作越依赖想象力，这一点就越重要，因为大多数人在快乐的时候会有更多的创意。"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "c935bfe0522ded9d14ebc1e1164f08f3bd3ddf4916ea4a6cb98cc2d06657be50",
+      "enMarkdown": "If I could go back and redo my twenties, that would be one thing I'd do more of: just try hacking things together. Like many people that age, I spent a lot of time worrying about what I should do. I also spent some time trying to build stuff. I should have spent less time worrying and more time building. If you're not sure what to do, make something.",
+      "zhMarkdown": "如果能回到二十多岁重新来过，有一件事我会做得更多：那就是只管动手捣鼓各种东西。和许多那个年纪的人一样，我花了大把的时间去焦虑自己应该做什么。我也花了一些时间去尝试建造东西。我本该少花点时间焦虑，多花点时间去建造。如果你不确定该做什么，那就动手做点东西出来。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "929c5a9a3411c62db2136a790d5e9cfcfaf31071b7dd77123d4d93c77402e4b2",
+      "enMarkdown": "Raymond Chandler's advice to thriller writers was \"When in doubt, have a man come through a door with a gun in his hand.\" He followed that advice. Judging from his books, he was often in doubt. But though the result is occasionally cheesy, it's never boring. In life, as in books, action is underrated.",
+      "zhMarkdown": "雷蒙德·钱德勒给惊悚小说作家的建议是：“当你陷入卡顿、不知道该写什么时，就让一个手里拿着枪的人破门而入。”他践行了这一建议。从他的书来看，他经常陷入卡顿。虽然结果偶尔显得有些俗套，但绝不无聊。在生活中，就像在书里一样，行动的价值总是被低估了。"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "1f95abd16983d07fcf0e489154350bfe56f1b9893fdc2b45f89099f253fa743c",
+      "enMarkdown": "Fortunately the number of things you can just hack together keeps increasing. People fifty years ago would be astonished that one could just hack together a movie, for example. Now you can even hack together distribution. Just make stuff and put it online.",
+      "zhMarkdown": "幸运的是，你可以直接动手捣鼓出来的东西正在不断增加。五十年前的人如果看到现在一个人就能捣鼓出一部电影，一定会大惊失色。现在，你甚至可以自己搞定发行。只管做出东西，然后放到网上。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "144756f8a8d60721509879065cfbcfd170ee812050591101dc17cde098ffea5f",
+      "enMarkdown": "**Inappropriate**",
+      "zhMarkdown": "**不合时宜**"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "4be2f06f8c2737baa612e82493a0d4daec4ec199a1a744a9c2a72dd660bd7052",
+      "enMarkdown": "If you really want to score big, the place to focus is the margin of the margin: the territories only recently captured from the insiders. That's where you'll find the juiciest projects still undone, either because they seemed too risky, or simply because there were too few insiders to explore everything.",
+      "zhMarkdown": "如果你真的想大获全胜，应该关注“边缘的边缘”：那些刚刚从局内人手中夺过来的新领地。在那里，你会发现最诱人、最尚未被开垦的项目，要么是因为它们看起来风险太大，要么只是因为局内人太少，还来不及探索一切。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "ec14fd09f9b1b8127bfa8bdda9f1f2f753228e20be3236e16b4188a7c7eb4ccb",
+      "enMarkdown": "This is why I spend most of my time writing [essays](https://paulgraham.com/essay.html) lately. The writing of essays used to be limited to those who could get them published. In principle you could have written them and just shown them to your friends; in practice that didn't work. [[6](#f6n)] An essayist needs the resistance of an audience, just as an engraver needs the resistance of the plate.",
+      "zhMarkdown": "这就是为什么我最近把大部分时间都花在写[文章](https://paulgraham.com/essay.html)上。写文章曾几何时是那些能发表文章的人的特权。理论上你可以写完只给朋友看，但实际上这行不通。[[6](#f6n)] 撰稿人需要受众的反馈和阻力，就像版画家需要版画雕刻板的阻力一样。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "6aa81392aba80db1944d8abf29e8aa80940a9fa2b806a52eab13a7c65ae8c7a9",
+      "enMarkdown": "Up till a few years ago, writing essays was the ultimate insider's game. Domain experts were allowed to publish essays about their field, but the pool allowed to write on general topics was about eight people who went to the right parties in New York. Now the reconquista has overrun this territory, and, not surprisingly, found it sparsely cultivated. There are so many essays yet unwritten. They tend to be the naughtier ones; the insiders have pretty much exhausted the motherhood and apple pie topics.",
+      "zhMarkdown": "直到几年前，写文章还是终极的局内人游戏。领域专家被允许发表关于自己领域的文章，但被允许撰写通用话题的圈子，大概只有八个经常在纽约参加对路派对的人。现在，光复者已经占领了这片领地，并且不出所料地发现这里几乎是一片荒地。还有太多文章没有被写出来。它们往往是那些有些离经叛道的话题；局内人几乎已经把“歌颂母亲和苹果派”这种绝对安全、温吞的主题给写烂了。"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "20c110dd5a88407997caf117ad169d49c88555cfd12cd7cfd43933391d10a651",
+      "enMarkdown": "This leads to my final suggestion: a technique for determining when you're on the right track. You're on the right track when people complain that you're unqualified, or that you've done something inappropriate. If people are complaining, that means you're doing something rather than sitting around, which is the first step. And if they're driven to such empty forms of complaint, that means you've probably done something good.",
+      "zhMarkdown": "这引出了我的最后一个建议：一个用来判断你是否走在正确轨道上的技巧。当人们抱怨你“不够格”，或者抱怨你做了“不合时宜”的事情时，你就走在了正确的轨道上。如果有人在抱怨，说明你正在做实事，而不是闲坐着，这是第一步。如果他们被迫诉诸如此空洞的抱怨，说明你可能做了一件漂亮事。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "1af529be9d7487a99f9aa0e7e0d182827ab04ad48e5d12c828cfac159b4fce02",
+      "enMarkdown": "If you make something and people complain that it doesn't *work*, that's a problem. But if the worst thing they can hit you with is your own status as an outsider, that implies that in every other respect you've succeeded. Pointing out that someone is unqualified is as desperate as resorting to racial slurs. It's just a legitimate sounding way of saying: we don't like your type around here.",
+      "zhMarkdown": "如果你做了一个东西，人们抱怨它“不好用”，那确实是个问题。但如果他们能攻击你的最坏武器只是你“局外人”的身份，那意味着在其他所有方面你都成功了。指出某人不够格，就像用种族侮辱一样气急败坏。这只是一种听起来冠冕堂皇的说法，本质是：“我们这里不欢迎你这种人。”"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "8d9845d477ec48cea543dbf411681dfc8157de52ef1227ef14ac0107384d972b",
+      "enMarkdown": "But the best thing of all is when people call what you're doing inappropriate. I've been hearing this word all my life and I only recently realized that it is, in fact, the sound of the homing beacon. \"Inappropriate\" is the null criticism. It's merely the adjective form of \"I don't like it.\"",
+      "zhMarkdown": "但最棒的还是当人们称你正在做的事“不合时宜”的时候。我这辈子一直能听到这个词，直到最近我才意识到，这其实是定位信标的声音。“不合时宜”是无效的批评。它仅仅是“我不喜欢它”的形容词形式。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "fe13d32d27c7a54b94004e8db40db02e032149cf79502a0312ffe247c09b227e",
+      "enMarkdown": "So that, I think, should be the highest goal for the marginal. Be inappropriate. When you hear people saying that, you're golden. And they, incidentally, are busted.",
+      "zhMarkdown": "所以，我认为，这应该是边缘人的最高目标。去做到“不合时宜”。当你听到人们这么说你时，你就成了。而他们，顺便说一句，已经破防了。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "9f7fe74c5e9b317512dd5c239dc1b1e469e3031035371a5338bf1ba28af1e2da",
+      "enMarkdown": "[1] The facts about Apple's early history are from an interview with [Steve \nWozniak](http://foundersatwork.com/steve-wozniak.html) in Jessica Livingston's *Founders at Work*.",
+      "zhMarkdown": "[1] 关于苹果早期历史的事实来自 Jessica Livingston 所著的《创办人志》（*Founders at Work*）中对 [史蒂夫·沃兹尼亚克](http://foundersatwork.com/steve-wozniak.html) 的采访。"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "d8a76271125d59ad470e0791f16ef3b0141c2237968b75a9351a9c062cac647e",
+      "enMarkdown": "[2] As usual the popular image is several decades behind reality. Now the misunderstood artist is not a chain-smoking drunk who pours his soul into big, messy canvases that philistines see and say \"that's not art\" because it isn't a picture of anything. The philistines have now been trained that anything hung on a wall is art. Now the misunderstood artist is a coffee-drinking vegan cartoonist whose work they see and say \"that's not art\" because it looks like stuff they've seen in the Sunday paper.",
+      "zhMarkdown": "[2] 像往常一样，大众眼中的形象比现实落后了几十年。现在的“不被理解的艺术家”已经不再是一个烟不离手、把灵魂倾注在巨大而凌乱的画布上的醉汉，以至于俗人看了会说“这不是艺术”，因为画布上什么具体形象都没有。俗人们现在已经被训练得认为挂在墙上的任何东西都是艺术。现在的“不被理解的艺术家”是一个喝着咖啡、吃着素食的漫画家，俗人看到他的作品会说“这不是艺术”，因为这看起来和他们在周日周报上看到的东西没什么两样。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "92f8fcc4ebeca7861dacf8ef5b8d889176385403845e7e353a18e3e793e84590",
+      "enMarkdown": "[3] In fact this would do fairly well as a definition of politics: what determines rank in the absence of objective tests.",
+      "zhMarkdown": "[3] 事实上，这可以很好地作为“政治”的定义：在缺乏客观筛选机制的情况下，决定地位高低的东西。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "66f917088983b5f06df7381a8e76684def53c7580639e2d685b7584bff4e4f0a",
+      "enMarkdown": "[4] In high school you're led to believe your whole future depends on where you go to college, but it turns out only to buy you a couple years. By your mid-twenties the people worth impressing already judge you more by what you've done than where you went to school.",
+      "zhMarkdown": "[4] 在高中，你被灌输一种观念，认为你的整个未来都取决于你上哪所大学，但事实证明，这只能帮你撑个一两年。到了二十五六岁，那些值得你取悦的人，已经更多地通过你做成了什么，而不是你上过什么学校来评判你了。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "ebf8f3a73a51e38b6f8603546c371727e2624b95ba71642056e9704ea16755df",
+      "enMarkdown": "[5] Managers are presumably wondering, how can I make this miracle happen? How can I make the people working for me do more with less? Unfortunately the constraint probably has to be self-imposed. If you're *expected* to do more with less, then you're being starved, not eating virtuously.",
+      "zhMarkdown": "[5] 管理者们大概在想，我该如何让这个奇迹发生？我该如何让我手下的人用更少的资源做更多的事？不幸的是，这种限制可能必须是自我施加的。如果你是被*要求*用更少资源做更多事，那你是在挨饿，而不是在修行。"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "3ecaae1394ea647179b04d67b7c933ad99b4f5832a3fe6465dc2090a9822451c",
+      "enMarkdown": "[6] Without the prospect of publication, the closest most people come to writing essays is to write in a journal. I find I never get as deeply into subjects as I do in proper essays. As the name implies, you don't go back and rewrite journal entries over and over for two weeks.",
+      "zhMarkdown": "[6] 在没有发表希望的情况下，大多数人最接近写文章的行为就是写日记。我发现自己写日记时，永远无法像写一篇正规文章那样深入主题。顾名思义，你不会回过头去，花两周时间反复修改日记条目。"
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "403a9698e1a84c1c228631ac932dbb63018ad9902fe2802a55d9f011f5f3e798",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, Paul Buchheit, Sarah Harlin, Jessica Livingston, Jackie McDonough, Robert Morris, Olin Shivers, and Chris Small for reading drafts of this, and to Chris Small and Chad Fowler for inviting me to speak.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、Paul Buchheit、Sarah Harlin、Jessica Livingston、Jackie McDonough、Robert Morris、Olin Shivers 和 Chris Small 阅读本文草稿，并感谢 Chris Small 和 Chad Fowler 邀请我进行演讲。"
+    }
+  ]
+}

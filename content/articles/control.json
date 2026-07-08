@@ -1,0 +1,104 @@
+{
+  "slug": "control",
+  "titleEn": "Founder Control",
+  "titleZh": "创始人控制权",
+  "dateText": "December 2010",
+  "publishedAt": "2010-12-01",
+  "sourceOrder": 97,
+  "sourceUrl": "https://paulgraham.com/control.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "bcde09e1fe9d460a6b23c0ef4c435788e4bf57f061249a355e53e5869f220c1c",
+      "enMarkdown": "Someone we funded is talking to VCs now, and asked me how common it was for a startup's founders to retain control of the board after a series A round. He said VCs told him this almost never happened.",
+      "zhMarkdown": "我们投资过的一位创始人最近正在和风险投资人（VC）接触，他问我，在 A 轮融资之后，创业公司的创始人还能保留董事会控制权，这种情况有多常见。他说，VC 告诉他这几乎是不可能的事情。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "3e733f78d72b5408698012b4221ee8e8344169978f1ce812c62df2c37e3d4ad2",
+      "enMarkdown": "Ten years ago that was true. In the past, founders rarely kept control of the board through a series A. The traditional series A board consisted of two founders, two VCs, and one independent member. More recently the recipe is often one founder, one VC, and one independent. In either case the founders lose their majority.",
+      "zhMarkdown": "十年前确实如此。过去，创始人很少能在 A 轮融资后继续控制董事会。传统的 A 轮董事会由两名创始人、两名 VC 和一名独立董事组成。近来，更常见的配方是一个创始人、一个 VC 和一个独立董事。但无论哪种情况，创始人都失去了多数席位。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "01a8bcf9604e9cd3c3f5bb2aef693cb286788080bc5161395633555c247313b5",
+      "enMarkdown": "But not always. Mark Zuckerberg kept control of Facebook's board through the series A and still has it today. Mark Pincus has kept control of Zynga's too. But are these just outliers? How common is it for founders to keep control after an A round? I'd heard of several cases among the companies we've funded, but I wasn't sure how many there were, so I emailed the ycfounders list.",
+      "zhMarkdown": "但并非总是如此。马克·扎克伯格在 A 轮融资后保留了 Facebook 董事会的控制权，并且至今依然掌控着。马克·平卡斯也保留了 Zynga 董事会的控制权。但这些只是特例吗？创始人在 A 轮之后保留控制权到底有多普遍？在我们资助过的公司中，我听说过好几起这样的案例，但我不确定到底有多少，于是我给 ycfounders 邮件列表发了一封邮件。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "f1f2e8e151904fe0caff21ac244024e2a7df5831673f144eb925bcd121353818",
+      "enMarkdown": "The replies surprised me. In a dozen companies we've funded, the founders still had a majority of the board seats after the series A round.",
+      "zhMarkdown": "回复让我大吃一惊。在我们资助过的公司中，有十几家公司的创始人在 A 轮融资后仍然拥有董事会的多数席位。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "3a0117aff1dac5eec30a6574b93d44b3c638713fba1f3667fd8c6bfc511026ca",
+      "enMarkdown": "I feel like we're at a tipping point here. A lot of VCs still act as if founders retaining board control after a series A is unheard-of. A lot of them try to make you feel bad if you even ask — as if you're a noob or a control freak for wanting such a thing. But the founders I heard from aren't noobs or control freaks. Or if they are, they are, like Mark Zuckerberg, the kind of noobs and control freaks VCs should be trying to fund more of.",
+      "zhMarkdown": "我觉得我们正处于一个转折点。许多 VC 仍然表现得好像创始人在 A 轮之后保留董事会控制权是闻所未闻的。如果你提出这个要求，很多人会试图让你感到无地自容——仿佛有这种想法的你是个菜鸟或者控制狂。但我收到的回复里，那些创始人既不是菜鸟，也不是控制狂。或者，如果他们是的话，他们也是像马克·扎克伯格那样的菜鸟和控制狂，而这正是 VC 应该争取多去投资的那种人。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "531041d9365eaf89237079fdacf032978dc32389865f77d352cf68f4e8f34508",
+      "enMarkdown": "Founders retaining control after a series A is clearly heard-of. And barring financial catastrophe, I think in the coming year it will become the norm.",
+      "zhMarkdown": "创始人在 A 轮后保留控制权显然已经不是什么新鲜事了。而且，除非发生财务灾难，我认为在未来一年内，这将会成为常态。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "12930731f2b48feaa88c9d215f99c4d5e2294f7575aa2de1026c470b8cbe43ff",
+      "enMarkdown": "Control of a company is a more complicated matter than simply outvoting other parties in board meetings. Investors usually get vetos over certain big decisions, like selling the company, regardless of how many board seats they have. And board votes are rarely split. Matters are decided in the discussion preceding the vote, not in the vote itself, which is usually unanimous. But if opinion is divided in such discussions, the side that knows it would lose in a vote will tend to be less insistent. That's what board control means in practice. You don't simply get to do whatever you want; the board still has to act in the interest of the shareholders; but if you have a majority of board seats, then your opinion about what's in the interest of the shareholders will tend to prevail.",
+      "zhMarkdown": "控制一家公司，比单纯在董事会会议上投票压倒其他各方要复杂得多。投资者通常对某些重大决策（比如出售公司）拥有否决权，而不管他们拥有多少董事会席位。而且，董事会投票很少出现分裂。事情通常在投票前的讨论中就决定好了，而不是在投票本身，投票通常都是全票通过的。但是，如果在讨论中意见分歧，那么知道自己在投票中会输的那一方往往就不会那么坚持。这就是董事会控制权在实际中的意义。你并不能简单地随心所欲；董事会仍然必须符合股东的利益；但如果你拥有董事会的多数席位，那么你对什么符合股东利益的看法往往会占上风。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "7510aa60e37bda2b4570551790a1af2d73587874eda557b886ca6b8a12688a49",
+      "enMarkdown": "So while board control is not total control, it's not imaginary either. There's inevitably a difference in how things feel within the company. Which means if it becomes the norm for founders to retain board control after a series A, that will change the way things feel in the whole startup world.",
+      "zhMarkdown": "因此，虽然董事会控制权并不是绝对的控制，但它也绝非虚设。这不可避免地会影响到公司内部的氛围。这意味着，如果创始人在 A 轮后保留董事会控制权成为常态，整个创业界的氛围都将随之改变。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "3ec2adaccb83dbf2a5729a3df58dbde0d135535dd6eb92ce2e80b73ba785b072",
+      "enMarkdown": "The switch to the new norm may be surprisingly fast, because the startups that can retain control tend to be the best ones. They're the ones that set the trends, both for other startups and for VCs.",
+      "zhMarkdown": "向新常态的转变可能会出人意料地快，因为能够保留控制权的创业公司往往是最好的那些。正是它们在为其他创业公司和 VC 引领潮流。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "cce0a10e32c45e94b585aad23a0bbb3bc87ff494d72e24fe2f4624396fbfb8dc",
+      "enMarkdown": "A lot of the reason VCs are harsh when negotiating with startups is that they're embarrassed to go back to their partners looking like they got beaten. When they sign a termsheet, they want to be able to brag about the good terms they got. A lot of them don't care that much personally about whether founders keep board control. They just don't want to seem like they had to make concessions. Which means if letting the founders keep control stops being perceived as a concession, it will rapidly become much more common.",
+      "zhMarkdown": "VC 在与创业公司谈判时表现得咄咄逼人，很大一部分原因在于，如果他们回去见合伙人时显得自己被击败了，会觉得很丢脸。在签署投资意向书（termsheet）时，他们希望能吹嘘自己拿到了多么有利的条款。他们中的许多人个人其实并不太在乎创始人是否保留董事会控制权。他们只是不想显得自己做出了让步。这意味着，如果让创始人保留控制权不再被视为一种让步，它很快就会变得普遍得多。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "ddb7de997db312ab129579520f50ac9a56aa0c24594fa05bbd0dface2e106316",
+      "enMarkdown": "Like a lot of changes that have been forced on VCs, this change won't turn out to be as big a problem as they might think. VCs will still be able to convince; they just won't be able to compel. And the startups where they have to resort to compulsion are not the ones that matter anyway. VCs make most of their money from a few big hits, and those aren't them.",
+      "zhMarkdown": "就像许多强加给 VC 的改变一样，这次改变最终不会像他们想象的那么糟糕。VC 仍然可以去说服，只是他们无法再去强迫。而那些需要他们诉诸强迫的创业公司，反正也不是什么举足轻重的公司。VC 的大部分资金都是通过少数几个大项目赚来的，而那些需要强迫的公司显然不在此列。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "92e28f324e2d7870beb602afeb3eb740f8c8e424e7fa33839bee80708d36514f",
+      "enMarkdown": "Knowing that founders will keep control of the board may even help VCs pick better. If they know they can't fire the founders, they'll have to choose founders they can trust. And that's who they should have been choosing all along.",
+      "zhMarkdown": "知道创始人将保留董事会控制权，甚至可能有助于 VC 做出更好的选择。如果他们知道自己无法解雇创始人，他们就必须选择自己能够信任的创始人。而这本就该是他们一直以来的选择标准。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "53baca21a3ca52d66fd16ac80ebd9f17ff3c165293aa6ebb3dd52e6fd7cfa9b5",
+      "enMarkdown": "**Thanks** to Sam Altman, John Bautista, Trevor Blackwell, Paul Buchheit, Brian Chesky, Bill Clerico, Patrick Collison, Adam Goldstein, James Lindenbaum, Jessica Livingston, and Fred Wilson for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、John Bautista、Trevor Blackwell、Paul Buchheit、Brian Chesky、Bill Clerico、Patrick Collison、Adam Goldstein、James Lindenbaum、Jessica Livingston 和 Fred Wilson 阅读本文草稿。"
+    }
+  ]
+}

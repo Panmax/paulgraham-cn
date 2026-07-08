@@ -1,0 +1,62 @@
+{
+  "slug": "whyyc",
+  "titleEn": "Why YC",
+  "titleZh": "为什么创立 YC",
+  "dateText": "March 2006",
+  "publishedAt": "2006-03-01",
+  "sourceOrder": 172,
+  "sourceUrl": "https://paulgraham.com/whyyc.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "6922cd61e50166cda11565af05cb4daf777bc2e6a764a4a20c2df63cc153ee1e",
+      "enMarkdown": ", rev August 2009",
+      "zhMarkdown": "，2009 年 8 月修订"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "1f521a51b083519bd2a58d9c6f2a2930b9bb432b6854093d44ca221b1387fab2",
+      "enMarkdown": "Yesterday one of the founders we funded asked me why we started [Y\nCombinator](http://ycombinator.com). Or more precisely, he asked if we'd started YC mainly for fun.",
+      "zhMarkdown": "昨天，一位我们资助过的创始人问我，我们当年为什么要创办 [Y Combinator](http://ycombinator.com)。或者更准确地说，他问我们创办 YC 是不是主要为了好玩。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "5be27f383454dc757a2651e1bfefece47842e8c4d4caa94cca9534efd67bf902",
+      "enMarkdown": "Kind of, but not quite. It is enormously fun to be able to work with Rtm and Trevor again. I missed that after we sold Viaweb, and for all the years after I always had a background process running, looking for something we could do together. There is definitely an aspect of a band reunion to Y Combinator. Every couple days I slip and call it \"Viaweb.\"",
+      "zhMarkdown": "有点那个意思，但不完全是。能和 Rtm 以及 Trevor 再次共事，确实是极大的乐趣。在卖掉 Viaweb 之后的那些年里，我一直很怀念那种感觉，脑子里总有个后台进程在运行，寻找我们能一起做点什么。Y Combinator 确实带有一种乐队重组的色彩。每隔几天，我就会口误把它叫成“Viaweb”。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7caea4c8733292155d4b6c41c648fdf1dfd7e41ffc666d22ce15a4b8a7c6c880",
+      "enMarkdown": "Viaweb we started very explicitly to make money. I was sick of living from one freelance project to the next, and decided to just work as hard as I could till I'd made enough to solve the problem once and for all. Viaweb was sometimes fun, but it wasn't designed for fun, and mostly it wasn't. I'd be surprised if any startup is. All startups are mostly schleps.",
+      "zhMarkdown": "我们创办 Viaweb 的目的非常明确，就是为了赚钱。当时我厌倦了做一个接一个的自由职业项目，于是决定竭尽全力拼一把，直到赚够能一劳永逸解决生存问题的钱。Viaweb 有时也挺好玩的，但它并不是为了好玩而设计的，而且大部分时候也并不好玩。如果有什么创业公司是好玩的，我反而会感到惊讶。所有的创业公司，绝大多数时候都是在干苦力活。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "1fafbb8c5fe0da118aa32615b4ba430161fddb0c26e1687e5eda7dd2079abb39",
+      "enMarkdown": "The real reason we started Y Combinator is neither selfish nor virtuous. We didn't start it mainly to make money; we have no idea what our average returns might be, and won't know for years. Nor did we start YC mainly to help out young would-be founders, though we do like the idea, and comfort ourselves occasionally with the thought that if all our investments tank, we will thus have been doing something unselfish. (It's oddly nondeterministic.)",
+      "zhMarkdown": "我们创办 Y Combinator 的真正原因，既谈不上自私，也谈不上高尚。我们创办它主要不是为了赚钱；我们根本不知道自己的平均回报率会是多少，而且几年内也不会知道。我们也不是为了帮助年轻的准创始人而创办 YC，尽管我们确实喜欢这个想法，并且偶尔也会自我安慰：如果我们的投资全部泡汤，那我们至少做了一件无私的好事。（这在逻辑上奇妙地具有不确定性。）"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "077fb7168d1950400d8c615e165b552e6bb1039992dea8a72b83834e55dc4a3f",
+      "enMarkdown": "The real reason we started Y Combinator is one probably only a [hacker](https://paulgraham.com/gba.html) would understand. We did it because it seems such a great hack. There are thousands of smart people who could start companies and don't, and with a relatively small amount of force applied at just the right place, we can spring on the world a stream of new startups that might otherwise not have existed.",
+      "zhMarkdown": "我们创办 Y Combinator 的真正原因，可能只有[黑客](https://paulgraham.com/gba.html)才能理解。我们这么做，是因为这看起来是一个极妙的 hack。成千上万聪明人本可以创业却没去创，而我们只需在恰当的地方施加微小的力量，就能向世界源源不断地输送一批批原本可能根本不会存在的创业公司。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "4e3287f68494b82bdf3f22c1021139573d34234c692aa8572b0340202fe983e4",
+      "enMarkdown": "In a way this is virtuous, because I think startups are a good thing. But really what motivates us is the completely amoral desire that would motivate any hacker who looked at some complex device and realized that with a tiny tweak he could make it run more efficiently. In this case, the device is the world's economy, which fortunately happens to be open source.",
+      "zhMarkdown": "在某种程度上，这是件好事，因为我认为创业公司是个好东西。但真正驱使我们的，是那种完全与道德无关的渴望——任何一个黑客，在看到某个复杂的装置并意识到只需稍作微调就能让它运行得更高效时，都会产生这种渴望。在这个例子中，这个装置就是世界经济，幸好，它恰好是开源的。"
+    }
+  ]
+}

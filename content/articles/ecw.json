@@ -1,0 +1,160 @@
+{
+  "slug": "ecw",
+  "titleEn": "How to Be an Expert in a Changing World",
+  "titleZh": "如何在不断变化的世界中成为专家",
+  "dateText": "December 2014",
+  "publishedAt": "2014-12-01",
+  "sourceOrder": 72,
+  "sourceUrl": "https://paulgraham.com/ecw.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "98d347ae345968a4e9c3462700d6033899312ad2fb461058c31e9ef7ef6fc241",
+      "enMarkdown": "If the world were static, we could have monotonically increasing confidence in our beliefs. The more (and more varied) experience a belief survived, the less likely it would be false. Most people implicitly believe something like this about their opinions. And they're justified in doing so with opinions about things that don't change much, like human nature. But you can't trust your opinions in the same way about things that change, which could include practically everything else.",
+      "zhMarkdown": "如果世界是静止的，我们对自身信念的信心就可以单调递增。一个信念经受住的（以及越多样化的）经验检验越多，它出错的可能性就越小。大多数人对自己的观点隐约都有这种看法。对于像人性这样变化不大的事物，他们这么想是合理的。但对于不断变化的事物，你就不能以同样的方式信任自己的观点了，而这几乎涵盖了除此之外的所有事物。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "5fe7809f1acc2496f242c7f1bd9aeabfecf4a7b050ce9577ce532e1d816d67ea",
+      "enMarkdown": "When experts are wrong, it's often because they're experts on an earlier version of the world.",
+      "zhMarkdown": "当专家出错时，往往是因为他们成了“旧版世界”的专家。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "435cb046f4c7f7f68df4782d0f6d0adbaa77e21e8f68bff5b9134ee5d25ed19d",
+      "enMarkdown": "Is it possible to avoid that? Can you protect yourself against obsolete beliefs? To some extent, yes. I spent almost a decade investing in early stage startups, and curiously enough protecting yourself against obsolete beliefs is exactly what you have to do to succeed as a startup investor. Most really good startup ideas look like bad ideas at first, and many of those look bad specifically because some change in the world just switched them from bad to good. I spent a lot of time learning to recognize such ideas, and the techniques I used may be applicable to ideas in general.",
+      "zhMarkdown": "这有可能避免吗？你能保护自己免受过时信念的伤害吗？在某种程度上，是可以的。我花了近十年时间投资早期创业公司，有趣的是，保护自己免受过时信念的伤害，恰恰是在创业投资中取得成功所必须做的事情。大多数真正优秀的创业点子刚开始看起来都很糟糕，而其中许多之所以看起来糟糕，正是因为世界的某种变化刚刚将它们从坏点子变成了好点子。我花了很多时间学习如何识别这类点子，我所使用的方法可能也适用于普遍意义上的想法。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "3850d3d686480c1bdb59bfc9751c34e0415b41bc6959b5818c47264d352b9186",
+      "enMarkdown": "The first step is to have an explicit belief in change. People who fall victim to a monotonically increasing confidence in their opinions are implicitly concluding the world is static. If you consciously remind yourself it isn't, you start to look for change.",
+      "zhMarkdown": "第一步是要对“变化”有明确的信念。那些对自己观点的信心单调递增的人，实际上是在默认世界是静止的。如果你有意识地提醒自己世界并非如此，你就会开始寻找变化。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "de5a830d3c7c93600432fc86b0263d315ffdf3214ba3f0997dad86ff35ecb8e5",
+      "enMarkdown": "Where should one look for it? Beyond the moderately useful generalization that human nature doesn't change much, the unfortunate fact is that change is hard to predict. This is largely a tautology but worth remembering all the same: change that matters usually comes from an unforeseen quarter.",
+      "zhMarkdown": "应该去哪里寻找变化？除了“人性变化不大”这句略有微用的概括之外，不幸的事实是，变化很难预测。这在很大程度上是个同义反复，但同样值得铭记：真正重要的变化，往往来自意想不到的领域。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "be059fe79a5293f6259e940d09bcd467440d8f3e0373d72634398319538f1a15",
+      "enMarkdown": "So I don't even try to predict it. When I get asked in interviews to predict the future, I always have to struggle to come up with something plausible-sounding on the fly, like a student who hasn't prepared for an exam. [[1](#f1n)] But it's not out of laziness that I haven't prepared. It seems to me that beliefs about the future are so rarely correct that they usually aren't worth the extra rigidity they impose, and that the best strategy is simply to be aggressively open-minded. Instead of trying to point yourself in the right direction, admit you have no idea what the right direction is, and try instead to be super sensitive to the winds of change.",
+      "zhMarkdown": "所以我甚至不试图去预测它。在接受采访被要求预测未来时，我总是得当场绞尽脑汁，编造一些听起来像模像样的说辞，就像一个没准备考试的学生。[[1](#f1n)] 但我没准备并不是因为懒惰。在我看来，对未来的预测极少有正确的，往往配不上它们所带来的额外思维僵化，最好的策略其实就是保持极度开放的心态。与其试图将自己指向某个所谓的正确方向，不如承认你根本不知道正确方向在哪里，转而对变化的微风保持超乎寻常的敏感。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "d5974e1f184df17c88173e22bdad8e9a999d94cd749f0a50cea58bdfc6202ced",
+      "enMarkdown": "It's ok to have working hypotheses, even though they may constrain you a bit, because they also motivate you. It's exciting to chase things and exciting to try to guess answers. But you have to be disciplined about not letting your hypotheses harden into anything more. [[2](#f2n)]",
+      "zhMarkdown": "拥有工作假设是可以的，尽管它们可能会对你有些束缚，但它们也能给你动力。追求事物和尝试猜测答案是令人兴奋的。但你必须保持克制，不能让你的假设固化为任何更深的东西。[[2](#f2n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "a9af6b40efeba0fddafa2acbcefebb111e4170a4bf7cffe013c2d6fa297df664",
+      "enMarkdown": "I believe this passive m.o. works not just for evaluating new ideas but also for having them. The way to come up with new ideas is not to try explicitly to, but to try to solve problems and simply not discount weird hunches you have in the process.",
+      "zhMarkdown": "我相信这种被动的行为模式不仅适用于评估新想法，也适用于产生新想法。想出新点子的方法不是刻意去想，而是努力去解决问题，并且在过程中不要轻易否定自己冒出来的奇特直觉。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c3df8c5bbff6c15a238e58048cf07a00dee9d3d4d9a74bfa6236b35baa475b96",
+      "enMarkdown": "The winds of change originate in the unconscious minds of domain experts. If you're sufficiently expert in a field, any weird idea or apparently irrelevant question that occurs to you is ipso facto worth exploring. [[3](#f3n)] Within Y Combinator, when an idea is described as crazy, it's a compliment—in fact, on average probably a higher compliment than when an idea is described as good.",
+      "zhMarkdown": "变化的微风源自领域专家无意识的心智。如果你在某个领域足够专业，那么你想到的任何奇特想法或看似无关的问题，本身就值得去探索。[[3](#f3n)] 在 Y Combinator 内部，当一个点子被形容为“疯狂”时，这是一种赞美——事实上，平均而言，这可能比被形容为“好点子”是更高的赞美。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "650386ecac13ed6bd005eea2b192a42f33262a9125491aa8e1105278c80eb7f2",
+      "enMarkdown": "Startup investors have extraordinary incentives for correcting obsolete beliefs. If they can realize before other investors that some apparently unpromising startup isn't, they can make a huge amount of money. But the incentives are more than just financial. Investors' opinions are explicitly tested: startups come to them and they have to say yes or no, and then, fairly quickly, they learn whether they guessed right. The investors who say no to a Google (and there were several) will remember it for the rest of their lives.",
+      "zhMarkdown": "创业投资人有极大的动力去纠正过时的信念。如果他们能比其他投资人更早意识到某个看似没戏的创业公司其实很有前途，他们就能赚到大钱。但这种动力不仅限于财务层面。投资人的观点要接受明确的检验：创业公司找上门来，他们必须决定投还是不投，然后很快就能知道自己有没有猜对。那些对 Google 说“不”的投资人（而且有好几位）会一辈子记住这件事。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "365df52f1fd3f176b2c7bf45c98b850d9f06731ebb768458b589b12b852f497d",
+      "enMarkdown": "Anyone who must in some sense bet on ideas rather than merely commenting on them has similar incentives. Which means anyone who wants such incentives can have them, by turning their comments into bets: if you write about a topic in some fairly durable and public form, you'll find you worry much more about getting things right than most people would in a casual conversation. [[4](#f4n)]",
+      "zhMarkdown": "任何在某种意义上必须对想法进行下注、而不仅仅是发表评论的人，都有类似的动力。这意味着，任何想要这种动力的人都可以拥有它，只需将自己的评论转化为下注：如果你以某种相当持久且公开的形式撰写关于某个主题的文章，你会发现自己比大多数在闲聊中的人更在乎事情的正确性。[[4](#f4n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "5ef633139163c98ebc2e0be3f41ae4ac2a515d97ccbf882b0161ee9c23e63bdb",
+      "enMarkdown": "Another trick I've found to protect myself against obsolete beliefs is to focus initially on people rather than ideas. Though the nature of future discoveries is hard to predict, I've found I can predict quite well what sort of people will make them. Good new ideas come from earnest, energetic, independent-minded people.",
+      "zhMarkdown": "我发现的另一个保护自己免受过时信念伤害的诀窍是，起初要关注人，而不是想法。虽然未来发现的本质很难预测，但我发现我可以很好地预测什么样的人会做出这些发现。好的新想法来自真诚、精力充沛、有独立思考能力的创始人。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "70d8acab5d372be2058740dc122db0c3aa2566a369c808881a51943eb0136361",
+      "enMarkdown": "Betting on people over ideas saved me countless times as an investor. We thought Airbnb was a bad idea, for example. But we could tell the founders were earnest, energetic, and independent-minded. (Indeed, almost pathologically so.) So we suspended disbelief and funded them.",
+      "zhMarkdown": "作为投资人，看重人胜过看重想法无数次拯救了我。例如，我们曾认为 Airbnb 是个坏点子。但我们能看出创始人非常真诚、精力充沛，且极具独立思考能力（甚至到了有些病态的地步）。所以我们放下了怀疑，资助了他们。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "d262a1df6afb6c2f76d8fbac14c1e86afa0adb77beb82493daf6684404727195",
+      "enMarkdown": "This too seems a technique that should be generally applicable. Surround yourself with the sort of people new ideas come from. If you want to notice quickly when your beliefs become obsolete, you can't do better than to be friends with the people whose discoveries will make them so.",
+      "zhMarkdown": "这似乎也是一个可以普遍适用的方法。让自己置身于那些能产生新想法的人群之中。如果你想在自己的信念过时时迅速察觉，最好的办法莫过于和那些通过新发现使你信念过时的人交朋友。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "413d8b5a3c5bb68cbaee9faee3636e9813ea89c2540cfbfa6ea2a6fd85041245",
+      "enMarkdown": "It's hard enough already not to become the prisoner of your own expertise, but it will only get harder, because change is accelerating. That's not a recent trend; change has been accelerating since the paleolithic era. Ideas beget ideas. I don't expect that to change. But I could be wrong.",
+      "zhMarkdown": "不让自己成为自身专业知识的囚徒已经够难了，而且这只会变得越来越难，因为变化正在加速。这不是最近才有的趋势；自旧石器时代以来，变化就一直在加速。想法孕育想法。我不认为这会改变。但我也有可能说错。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "dc91bd8ffb9734c8b0b9cf777be9d679c9b5836224c17ab9167a6c7ecc1fd3c9",
+      "enMarkdown": "[1] My usual trick is to talk about aspects of the present that most people haven't noticed yet.",
+      "zhMarkdown": "[1] 我常用的诀窍是谈论大多数人尚未注意到的现状。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "fcfd58ee14ce1aaa1bf24d4a186add1d050f5184a3ad399d60567cd1d73bf415",
+      "enMarkdown": "[2] Especially if they become well enough known that people start to identify them with you. You have to be extra skeptical about things you want to believe, and once a hypothesis starts to be identified with you, it will almost certainly start to be in that category.",
+      "zhMarkdown": "[2] 尤其是当这些假设变得足够知名，以至于人们开始将它们与你联系在一起时。你必须对自己想要相信的事情保持格外的怀疑，一旦一个假设开始与你绑定，它几乎肯定会开始归入这一类。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "919a9b15ce98393627a894d22f0be4785e9dbc823061f8ac86ac318e284b9aa4",
+      "enMarkdown": "[3] In practice \"sufficiently expert\" doesn't require one to be recognized as an expert—which is a trailing indicator in any case. In many fields a year of focused work plus caring a lot would be enough.",
+      "zhMarkdown": "[3] 在实践中，“足够专业”并不需要一个人被公认为专家——这在任何情况下都是一个滞后指标。在许多领域，一年的专注工作外加极度热爱就足够了。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "bfc494a20ddbb47aaca4170632742d1e3090fea5b9b7960fc8d3fe806dbd19c6",
+      "enMarkdown": "[4] Though they are public and persist indefinitely, comments on e.g. forums and places like Twitter seem empirically to work like casual conversation. The threshold may be whether what you write has a title.",
+      "zhMarkdown": "[4] 尽管论坛和 Twitter 等地方的评论是公开且永久存在的，但从经验来看，它们的作用更像是非正式闲聊。分水岭可能在于你写的内容是否有标题。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "bedd2ed2a770d0389610456399653eeba94f7eb3a6e3458093215aa9d33ada3a",
+      "enMarkdown": "**Thanks** to Sam Altman, Patrick Collison, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Patrick Collison 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,1021 @@
+{
+  "slug": "start",
+  "titleEn": "How to Start a Startup",
+  "titleZh": "如何创业",
+  "dateText": "March 2005",
+  "publishedAt": "2005-03-01",
+  "sourceOrder": 190,
+  "sourceUrl": "https://paulgraham.com/start.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "75f29513fea03938fc60382a915bc05e4d22fc4e16d248ec94ec3f01ebc699c1",
+      "enMarkdown": "*(This essay is derived from a talk at the Harvard Computer\nSociety.)*",
+      "zhMarkdown": "*(本文根据作者在哈佛计算机学会的演讲整理而成。)*"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "064a4f3e40ea82d36b9dbbab8ffdb2db2183ddb91c549899facc6e3402efbbbb",
+      "enMarkdown": "You need three things to create a successful startup: to start with good people, to make something customers actually want, and to spend as little money as possible. Most startups that fail do it because they fail at one of these. A startup that does all three will probably succeed.",
+      "zhMarkdown": "要创办一家成功的创业公司，你需要三样东西：优秀的初始团队、做出用户真正想要的产品，以及尽可能少花钱。大多数失败的创业公司都折在其中某一点上。如果这三点你都做到了，大概率会取得成功。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "13f463b445013bd44b266c1ade631afb0e1e93a5fe0a82d867ade8e5b21eb32e",
+      "enMarkdown": "And that's kind of exciting, when you think about it, because all three are doable. Hard, but doable. And since a startup that succeeds ordinarily makes its founders rich, that implies getting rich is doable too. Hard, but doable.",
+      "zhMarkdown": "仔细想想，这其实挺让人兴奋的，因为这三点都是可以做到的。虽然很难，但并非遥不可及。既然成功的创业通常能让创始人致富，这就意味着致富也是可以做到的。同样，很难，但做得到。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "f9005a404108fdcbe4acebcd5a9489065bfbc624b04f422fe733234d6494b025",
+      "enMarkdown": "If there is one message I'd like to get across about startups, that's it. There is no magically difficult step that requires brilliance to solve.",
+      "zhMarkdown": "关于创业，如果我只能传达一个核心信息，那就是：其中并没有什么需要绝顶聪明才能解决的、魔鬼般困难的步骤。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "14302596a56d2fe9fab530446ca35e6e9ed6aa21194565b9adf386f9869c4fba",
+      "enMarkdown": "**The Idea**",
+      "zhMarkdown": "**创意**"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ff9d7f08a9ddf4c1e7009331c61cfe1f4e3be457769cdec33d3b0dfa05930de4",
+      "enMarkdown": "In particular, you don't need a brilliant [idea](https://paulgraham.com/ideas.html) to start a startup around. The way a startup makes money is to offer people better technology than they have now. But what people have now is often so bad that it doesn't take brilliance to do better.",
+      "zhMarkdown": "具体来说，你不需要一个惊世骇俗的[创意](https://paulgraham.com/ideas.html)来作为创业的起点。创业公司的赚钱方式，是向人们提供比他们现有技术更好的技术。但人们目前所用的东西往往太糟糕了，以至于你根本不需要多么聪明，就能做出更好的东西。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "4bb11233b3984a8dfa9e78e4a34502c6847de9676ecfe07ef01bac6592663d65",
+      "enMarkdown": "Google's plan, for example, was simply to create a search site that didn't suck. They had three new ideas: index more of the Web, use links to rank search results, and have clean, simple web pages with unintrusive keyword-based ads. Above all, they were determined to make a site that was good to use. No doubt there are great technical tricks within Google, but the overall plan was straightforward. And while they probably have bigger ambitions now, this alone brings them a billion dollars a year. [1]",
+      "zhMarkdown": "以谷歌为例，他们的计划很简单，就是做一个不那么难用的搜索网站。他们当时只有三个新想法：索引更多的网页、用链接来给搜索结果排序，以及保持网页干净整洁、只放不打扰用户的关键词广告。最重要的是，他们下定决心要做一个好用的网站。毫无疑问，谷歌内部有许多了不起的技术诀窍，但整体规划其实非常直接。尽管他们现在的野心可能大得多，但光凭这一点，就为他们每年带来了十亿美元的收入。[1]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "d110e6e60eacd04a3df66a85a12f84d2f3428cbcda420644e27dd4729854c0f9",
+      "enMarkdown": "There are plenty of other areas that are just as backward as search was before Google. I can think of several heuristics for generating ideas for startups, but most reduce to this: look at something people are trying to do, and figure out how to do it in a way that doesn't suck.",
+      "zhMarkdown": "还有许多其他领域，就像谷歌出现之前的搜索领域一样落后。关于如何寻找创业创意，我想到了几种启发式方法，但大多数都可以归结为一点：看看人们正在努力做什么，然后想办法做出一个不那么难用的版本。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "82ecacd46e7bd94aad3a3689f981ec977f5e5388728df8816e39cbc3fe9d0d3c",
+      "enMarkdown": "For example, dating sites currently suck far worse than search did before Google. They all use the same simple-minded model. They seem to have approached the problem by thinking about how to do database matches instead of how dating works in the real world. An undergrad could build something better as a class project. And yet there's a lot of money at stake. Online dating is a valuable business now, and it might be worth a hundred times as much if it worked.",
+      "zhMarkdown": "比如，现在的相亲/社交网站，就比谷歌出现前的搜索网站还要难用得多。它们都在使用同样简陋的模型。他们思考这个问题时，似乎只想着如何做数据库匹配，而不是现实世界中的约会是如何进行的。一个本科生做个课程设计都能写出更好的东西。然而，这里面却蕴藏着巨大的商机。在线约会现在已经是一门很赚钱的生意，如果它真的好用，其价值可能会翻上一百倍。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "9c254d443f6980303d25d56b890703908e416c6eec71862b0afdfaed09881654",
+      "enMarkdown": "An idea for a startup, however, is only a beginning. A lot of would-be startup founders think the key to the whole process is the initial idea, and from that point all you have to do is execute. Venture capitalists know better. If you go to VC firms with a brilliant idea that you'll tell them about if they sign a nondisclosure agreement, most will tell you to get lost. That shows how much a mere idea is worth. The market price is less than the inconvenience of signing an NDA.",
+      "zhMarkdown": "不过，创业创意仅仅是个开始。许多跃跃欲试的创始人认为，整个过程的关键在于最初的创意，从那之后你只需要执行就行了。风险投资人可没那么天真。如果你拿着一个绝妙的创意去找风投，还要求他们先签署保密协议（NDA）才肯透露，大多数风投会让你直接走人。这足以说明一个单纯的创意值多少钱。它的市场价格，还不如签署一份保密协议带来的麻烦多。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "5ebdc0759b67ac18073147e1460a8c3ea8d679919f5671fd4f6e053920619d8e",
+      "enMarkdown": "Another sign of how little the initial idea is worth is the number of startups that change their plan en route. Microsoft's original plan was to make money selling programming languages, of all things. Their current business model didn't occur to them until IBM dropped it in their lap five years later.",
+      "zhMarkdown": "另一个能证明初始创意不值钱的迹象，是中途改变计划的创业公司数量之多。微软最初的计划居然是靠卖编程语言来赚钱。他们现在的商业模式，直到五年后 IBM 把机会送到他们手上，他们才想到。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "7fa0f31c2a2ed5c79dcb0afe63b2b664301bb47fcec65f18df2149dc37894caa",
+      "enMarkdown": "Ideas for startups are worth something, certainly, but the trouble is, they're not transferrable. They're not something you could hand to someone else to execute. Their value is mainly as starting points: as questions for the people who had them to continue thinking about.",
+      "zhMarkdown": "创业创意当然有些价值，但问题在于它们是无法转让的。你无法把它直接塞给别人去执行。它们的价值主要在于作为起点：作为问题引导提出它们的人继续思考下去。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "0bf44c2ec5a06a927502a7db8f8e98fd28ebd7b1f737b38ab886a2ee3a9704b4",
+      "enMarkdown": "What matters is not ideas, but the people who have them. Good people can fix bad ideas, but good ideas can't save bad people.",
+      "zhMarkdown": "重要的不是创意，而是拥有创意的人。优秀的人可以修正糟糕的创意，但糟糕的人连优秀的创意也拯救不了。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "ca14cb1742516646e965fbe352658c8a8571bf8763d80e828a785c4c187e72da",
+      "enMarkdown": "**People**",
+      "zhMarkdown": "**人**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "4a735ff09bc75c0e72d3987a093a3869ac5637a1d4c538e6fad2ecc8559eafe3",
+      "enMarkdown": "What do I mean by good people? One of the best tricks I learned during [our](https://paulgraham.com/road.html) startup was a rule for deciding who to hire. Could you describe the person as an animal? It might be hard to translate that into another language, but I think everyone in the US knows what it means. It means someone who takes their work a little too seriously; someone who does what they do so well that they pass right through professional and cross over into obsessive.",
+      "zhMarkdown": "我说的“优秀的人”是什么意思？在[我们](https://paulgraham.com/road.html)创业期间，我学到的一个最妙的诀窍，就是决定录用谁的规则。你能用“像野兽一样（animal）”来形容这个人吗？这可能很难翻译成其他语言，但我认为在美国大家都知道这是什么意思。它指的是那些对待工作极其认真的人；他们把自己的本职工作做得太好了，以至于超越了职业的范畴，进入了执念的境界。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "c3cdbbeb6fbce058d41c1450fb7cc1b6b500a7cf440d5600e51756e1d3b7eaff",
+      "enMarkdown": "What it means specifically depends on the job: a salesperson who just won't take no for an answer; a hacker who will stay up till 4:00 AM rather than go to bed leaving code with a bug in it; a PR person who will cold-call *New York Times* reporters on their cell phones; a graphic designer who feels physical pain when something is two millimeters out of place.",
+      "zhMarkdown": "具体表现取决于工作性质：一个绝不接受拒绝的销售员；一个宁可熬夜到凌晨四点也不愿带着 Bug 入睡的黑客；一个会直接给《纽约时报》记者打手机做冷呼叫（cold-call）的公关；或者一个看到东西偏了两毫米就会感到肉体痛苦的平面设计师。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "f775ce4b34898abdd033e91cb93608a7d00e9f56dec3c6eb005c1cd66ba7c5b8",
+      "enMarkdown": "Almost everyone who worked for us was an animal at what they did. The woman in charge of sales was so tenacious that I used to feel sorry for potential customers on the phone with her. You could sense them squirming on the hook, but you knew there would be no rest for them till they'd signed up.",
+      "zhMarkdown": "几乎所有为我们工作过的人，在他们所做的事情上都像野兽一样拼命。负责销售的那位女士坚韧不拔，以至于我常常在电话里为那些潜在客户感到同情。你能感觉到他们在电话那头挣扎，但你也知道，在他们签约之前，她是绝对不会罢休的。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "3277d8328062047464f7ca88a9ce19f9c843191ccc91d8e7cb195ebc81f3d9a5",
+      "enMarkdown": "If you think about people you know, you'll find the animal test is easy to apply. Call the person's image to mind and imagine the sentence \"so-and-so is an animal.\" If you laugh, they're not. You don't need or perhaps even want this quality in big companies, but you need it in a startup.",
+      "zhMarkdown": "如果你想想你认识的人，就会发现“野兽测试”非常容易应用。在脑海中浮现那个人的形象，然后默念“某某是个野兽”。如果你笑场了，那他就不是。在大公司里，你可能不需要甚至不想要这种特质，但在创业公司里，你必不可少。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "31e2611e0268ea57e7ec28b79e444b0243313d954562d5b4c710e6fae1bab380",
+      "enMarkdown": "For programmers we had three additional tests. Was the person genuinely smart? If so, could they actually get things done? And finally, since a few good hackers have unbearable personalities, could we stand to have them around?",
+      "zhMarkdown": "对于程序员，我们还有三个额外的测试。这个人是真的聪明吗？如果是，他们能真正把事情搞定吗？最后，因为少数优秀的黑客性格让人难以忍受，我们能受得了和他们共事吗？"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "5a346a0cf06de33bcd6cc63a544fef22d84d9eeec1fc85e5139da572b25b9389",
+      "enMarkdown": "That last test filters out surprisingly few people. We could bear any amount of nerdiness if someone was truly smart. What we couldn't stand were people with a lot of attitude. But most of those weren't truly smart, so our third test was largely a restatement of the first.",
+      "zhMarkdown": "这最后一项测试筛掉的人出奇地少。如果一个人真的很聪明，多古怪的脾气我们都能忍受。我们无法忍受的是那些自命不凡、态度恶劣的人。但这些人大多不是真的聪明，所以我们的第三项测试在很大程度上只是第一项测试的另一种说法。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "417135ba71aedd4b44cdba2410ec284d1a5180ec20383ae84d48390730559215",
+      "enMarkdown": "When nerds are unbearable it's usually because they're trying too hard to seem smart. But the smarter they are, the less pressure they feel to act smart. So as a rule you can recognize genuinely smart people by their ability to say things like \"I don't know,\" \"Maybe you're right,\" and \"I don't understand x well enough.\"",
+      "zhMarkdown": "书呆子（nerds）让人难以忍受，通常是因为他们太想表现得聪明了。但人越聪明，就越没有装聪明的压力。因此，通常你可以通过他们说“我不知道”、“也许你是对的”和“我不太懂这个”的能力，来识别真正聪明的人。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "c05428a59dd348729f7b3cded2a2d755d351b0cf1603564934e51bdf2520774f",
+      "enMarkdown": "This technique doesn't always work, because people can be influenced by their environment. In the MIT CS department, there seems to be a tradition of acting like a brusque know-it-all. I'm told it derives ultimately from Marvin Minsky, in the same way the classic airline pilot manner is said to derive from Chuck Yeager. Even genuinely smart people start to act this way there, so you have to make allowances.",
+      "zhMarkdown": "这种方法并不总是奏效，因为人会受到环境的影响。在麻省理工学院（MIT）的计算机科学系，似乎有一种装作傲慢无礼、无所不知的传统。有人告诉我，这归根结底源于马文·明斯基（Marvin Minsky），就像经典的民航飞行员派头据说源于查克·叶格（Chuck Yeager）一样。在那种环境下，即使是真正聪明的人也会开始表现出这种派头，所以你必须留出容错空间。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "c4db39f4c22ff195caf2b2a324068f8173739b2f907214c1168e72c347f66e12",
+      "enMarkdown": "It helped us to have Robert Morris, who is one of the readiest to say \"I don't know\" of anyone I've met. (At least, he was before he became a professor at MIT.) No one dared put on attitude around Robert, because he was obviously smarter than they were and yet had zero attitude himself.",
+      "zhMarkdown": "罗伯特·莫里斯（Robert Morris）对我们的帮助很大，他是我见过的人中最乐意说“我不知道”的人之一。（至少在他成为 MIT 教授之前是这样。）在罗伯特面前没人敢摆架子，因为他显然比大家都聪明，而且自己却毫无架子。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "4d9e611e333403eae633cc7226789dad0896bd1faccd0ae75546be6a7d298ee3",
+      "enMarkdown": "Like most startups, ours began with a group of friends, and it was through personal contacts that we got most of the people we hired. This is a crucial difference between startups and big companies. Being friends with someone for even a couple days will tell you more than companies could ever learn in interviews. [2]",
+      "zhMarkdown": "和大多数创业公司一样，我们也是从一群朋友开始的，我们招来的大多数人也都是通过人脉关系介绍的。这是创业公司和大公司之间的一个关键区别。即使只和某人做几天朋友，你对他的了解也比大公司通过面试了解到的要多得多。[2]"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "b8c9976f52f0fcef70ce1125f4daa81b858f1837be0b742fdb8ceab8e86e3f24",
+      "enMarkdown": "It's no coincidence that startups start around universities, because that's where smart people meet. It's not what people learn in classes at MIT and Stanford that has made technology companies spring up around them. They could sing campfire songs in the classes so long as admissions worked the same.",
+      "zhMarkdown": "创业公司围绕大学聚集绝非巧合，因为那是聪明人相遇的地方。让科技公司在 MIT 和斯坦福周围如雨后春笋般涌现的，并不是人们在课上学到的东西。只要招生机制不变，哪怕他们在课上唱篝火歌都没关系。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "87eb7a288ce1a25359f779bb5457e38caf1ede738f36ddbacf7cf594e2b86dd4",
+      "enMarkdown": "If you start a startup, there's a good chance it will be with people you know from college or grad school. So in theory you ought to try to make friends with as many smart people as you can in school, right? Well, no. Don't make a conscious effort to schmooze; that doesn't work well with hackers.",
+      "zhMarkdown": "如果你去创业，很有可能是和你大学或研究生阶段认识的人一起。所以理论上，在学校里你应该尽量和尽可能多的聪明人交朋友，对吗？其实不然。不要刻意去社交套近乎，这在黑客身上行不通。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "a0adfbb646b435eea1d87dad75cda9f4b22da99e95eaac988fc93a7c01abf83c",
+      "enMarkdown": "What you should do in college is work on your own projects. Hackers should do this even if they don't plan to start startups, because it's the only real way to learn how to program. In some cases you may collaborate with other students, and this is the best way to get to know good hackers. The project may even grow into a startup. But once again, I wouldn't aim too directly at either target. Don't force things; just work on stuff you like with people you like.",
+      "zhMarkdown": "在大学里，你该做的是做自己的项目。黑客即使不打算创业也应该这么做，因为这是学会编程的唯一真正途径。在某些情况下，你可能会与其他学生合作，这是结识优秀黑客的最佳方式。这个项目甚至可能发展成一家创业公司。但话又说回来，我不会把目标定得太直接。不要强求，和喜欢的人一起做喜欢的事就好。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "c85f94e17d3a5ad42262bd3f3efde398f478a8270cf2fc375013652bfb712341",
+      "enMarkdown": "Ideally you want between two and four founders. It would be hard to start with just one. One person would find the moral weight of starting a company hard to bear. Even Bill Gates, who seems to be able to bear a good deal of moral weight, had to have a co-founder. But you don't want so many founders that the company starts to look like a group photo. Partly because you don't need a lot of people at first, but mainly because the more founders you have, the worse disagreements you'll have. When there are just two or three founders, you know you have to resolve disputes immediately or perish. If there are seven or eight, disagreements can linger and harden into factions. You don't want mere voting; you need unanimity.",
+      "zhMarkdown": "理想情况下，你需要两到四个创始人。只有一个创始人很难起步。一个人很难承受创办一家公司的精神压力。即使是似乎能承受巨大精神压力的比尔·盖茨，也必须有一个联合创始人。但你也不希望创始人太多，多到公司拍合照像集体照一样。一方面是因为起初不需要那么多人，但主要是因为创始人越多，意见分歧就会越严重。当只有两三个创始人时，你们知道必须立即解决争议，否则就会一起完蛋。如果有七八个，分歧就会拖延并固化为派系。你不需要单纯的投票表决，你需要的是达成共识。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "f236e5e59084f94227cf0e39b57d6f63ba69a91413c84025d17ab5c7f82bfdcc",
+      "enMarkdown": "In a technology startup, which most startups are, the founders should include technical people. During the Internet Bubble there were a number of startups founded by business people who then went looking for hackers to create their product for them. This doesn't work well. Business people are bad at deciding what to do with technology, because they don't know what the options are, or which kinds of problems are hard and which are easy. And when business people try to hire hackers, they can't tell which ones are [good](https://paulgraham.com/gh.html). Even other hackers have a hard time doing that. For business people it's roulette.",
+      "zhMarkdown": "在科技创业公司（大多数创业公司都是如此）中，创始人应该包含技术人员。在互联网泡沫时期，有很多创业公司是由商务人士创办的，然后他们四处寻找黑客来帮他们开发产品。这很难奏效。商务人士不擅长决定如何使用技术，因为他们不知道有哪些选择，也不知道哪些问题难、哪些问题容易。而且当商务人士试图雇佣黑客时，他们根本分不清谁是[优秀的黑客](https://paulgraham.com/gh.html)。甚至其他黑客也很难做到这一点。对商务人士来说，这就像在玩轮盘赌。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "54f105d85ace468daf653d46b942ba8440da7eec7560edf66af3cc910942c70d",
+      "enMarkdown": "Do the founders of a startup have to include business people? That depends. We thought so when we started ours, and we asked several people who were said to know about this mysterious thing called \"business\" if they would be the president. But they all said no, so I had to do it myself. And what I discovered was that business was no great mystery. It's not something like physics or medicine that requires extensive study. You just try to get people to pay you for stuff.",
+      "zhMarkdown": "创业公司的创始人必须包含商务人士吗？这要看情况。我们刚创办公司时也是这么想的，还问了几个据说懂得“商业”这个神秘事物的人，问他们愿不愿意来当总裁。但他们都拒绝了，所以我只好自己来。结果我发现，商业并没有什么了不起的秘密。它不像物理学或医学那样需要广泛的学习。你只需要想办法让人们为你的东西付钱就行了。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "6e09e5e00adc7361376328a97ac5abe26fa9e12a7e518bb078c99314a4d2a9c1",
+      "enMarkdown": "I think the reason I made such a mystery of business was that I was disgusted by the idea of doing it. I wanted to work in the pure, intellectual world of software, not deal with customers' mundane problems. People who don't want to get dragged into some kind of work often develop a protective incompetence at it. Paul Erdos was particularly good at this. By seeming unable even to cut a grapefruit in half (let alone go to the store and buy one), he forced other people to do such things for him, leaving all his time free for math. Erdos was an extreme case, but most husbands use the same trick to some degree.",
+      "zhMarkdown": "我想，我以前之所以把商业搞得这么神秘，是因为我对做这件事感到厌恶。我想在纯粹、理性的软件世界里工作，而不是去处理客户那些琐碎平庸的问题。不想被拖入某种工作的人，往往会对自己发展出一种保护性的无能。保罗·埃尔德什（Paul Erdos）在这方面尤为擅长。通过表现得连把一个葡萄柚切成两半都不会（更不用说去商店买一个了），他迫使别人帮他做这些杂事，从而腾出所有时间来做数学。埃尔德什是个极端的例子，但大多数丈夫在某种程度上都在使用同样的招数。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "e4a455f7b92ed95b920032418f00612371a4fc55097e475082ea08f7da4ac3dd",
+      "enMarkdown": "Once I was forced to discard my protective incompetence, I found that business was neither so hard nor so boring as I feared. There are esoteric areas of business that are quite hard, like tax law or the pricing of derivatives, but you don't need to know about those in a startup. All you need to know about business to run a startup are commonsense things people knew before there were business schools, or even universities.",
+      "zhMarkdown": "一旦我被迫丢掉保护性无能，我发现商业既没有我害怕的那么难，也没有那么无聊。商业中确实有一些相当难的深奥领域，比如税法或衍生品定价，但在创业公司里你不需要知道这些。运营一家创业公司所需要知道的商业知识，都是常识性的东西，在有商学院甚至大学之前，人们就已经知道了。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "f8bb676037282a1335a72d0053bb2e7583dbba9182413ce740ab70b22cf63cfc",
+      "enMarkdown": "If you work your way down the Forbes 400 making an x next to the name of each person with an MBA, you'll learn something important about business school. After Warren Buffett, you don't hit another MBA till number 22, Phil Knight, the CEO of Nike. There are only 5 MBAs in the top 50. What you notice in the Forbes 400 are a lot of people with technical backgrounds. Bill Gates, Steve Jobs, Larry Ellison, Michael Dell, Jeff Bezos, Gordon Moore. The rulers of the technology business tend to come from technology, not business. So if you want to invest two years in something that will help you succeed in business, the evidence suggests you'd do better to learn how to hack than get an MBA. [3]",
+      "zhMarkdown": "如果你顺着《福布斯》400富豪榜往下看，在每个拥有 MBA 学位的人名字旁边画个叉，你就会对商学院有一些重要的认识。在沃伦·巴菲特之后，直到第22位——耐克 CEO 菲尔·奈特（Phil Knight），你才会遇到下一个 MBA。前50名中只有5个 MBA。你在《福布斯》400富豪榜上注意到的是，有很多人拥有技术背景。比尔·盖茨、史蒂夫·乔布斯、拉里·埃里森、迈克尔·戴尔、杰夫·贝佐斯、戈登·摩尔。科技商业的主宰者往往来自技术领域，而不是商业领域。因此，如果你想花两年时间投资于能帮助你在商业上取得成功的事情，证据表明，去学写代码比拿个 MBA 更有用。[3]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "fb611866564ee83c00cb1141b956c098fd02c72b05d4139e05d5c4cbbf3ee988",
+      "enMarkdown": "There is one reason you might want to include business people in a startup, though: because you have to have at least one person willing and able to focus on what customers want. Some believe only business people can do this-- that hackers can implement software, but not design it. That's nonsense. There's nothing about knowing how to program that prevents hackers from understanding users, or about not knowing how to program that magically enables business people to understand them.",
+      "zhMarkdown": "不过，你可能确实需要商务人士加入创业公司，原因只有一个：因为你必须有至少一个人，愿意并且能够专注于客户想要什么。有些人认为只有商务人士才能做到这一点——黑客只能实现软件，而不能设计软件。这简直是胡说八道。懂编程并不会阻碍黑客理解用户，不懂编程也并不会魔法般地让商务人士理解他们。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "48ddca31136ef72adfc28c67816191d4fbcbb4a0e1b2256b343ef8d0de905b47",
+      "enMarkdown": "If you can't understand users, however, you should either learn how or find a co-founder who can. That is the single most important issue for technology startups, and the rock that sinks more of them than anything else.",
+      "zhMarkdown": "然而，如果你无法理解用户，你就要么去学会怎么做，要么找一个能理解用户的联合创始人。这是科技创业公司最最重要的问题，也是击沉最多创业公司的暗礁。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "8af1d95680adfd912ace4a2fc1646f7da6c6ab71141fd3119f0a82ef3719fa45",
+      "enMarkdown": "**What Customers Want**",
+      "zhMarkdown": "**用户想要什么**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "247801d18d51e6308fbadb8d4f06a4a0256570b6dce97c2b5df3099e4ed26a9e",
+      "enMarkdown": "It's not just startups that have to worry about this. I think most businesses that fail do it because they don't give customers what they want. Look at restaurants. A large percentage fail, about a quarter in the first year. But can you think of one restaurant that had really good food and went out of business?",
+      "zhMarkdown": "不单单是创业公司需要担心这个问题。我认为大多数倒闭的企业，都是因为没有给客户他们想要的东西。看看餐馆。很大一部分餐馆都会倒闭，第一年大约有四分之一。但你能想到哪家菜品真正好吃的餐馆倒闭了吗？"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "1b5851718673b1602713b046eff45d0a9c74782f325a839bbdc5cc3e21dd1982",
+      "enMarkdown": "Restaurants with great food seem to prosper no matter what. A restaurant with great food can be expensive, crowded, noisy, dingy, out of the way, and even have bad service, and people will keep coming. It's true that a restaurant with mediocre food can sometimes attract customers through gimmicks. But that approach is very risky. It's more straightforward just to make the food good.",
+      "zhMarkdown": "菜品绝佳的餐馆似乎无论如何都能繁荣。一家菜品绝佳的餐馆可以价格昂贵、拥挤、吵闹、昏暗、地处偏僻，甚至服务态度差，但人们还是会源源不断地光顾。确实，菜品平庸的餐馆有时可以通过噱头吸引顾客。但那种方法风险很大。直接把菜做好吃，要简单直接得多。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "8edc1a804653b93d89584ed2fb1bf73a118200b74cb9203d78c5eebe2535a549",
+      "enMarkdown": "It's the same with technology. You hear all kinds of reasons why startups fail. But can you think of one that had a massively popular product and still failed?",
+      "zhMarkdown": "科技行业也是如此。你听说过各种各样创业失败的原因。但你能想到哪家拥有极受欢迎产品的公司，最后还是失败了吗？"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "0aaf301bc4ccb9fa6086f91a8c4e1d289cd2230af128e7e4839a3aa5210810b1",
+      "enMarkdown": "In nearly every failed startup, the real problem was that customers didn't want the product. For most, the cause of death is listed as \"ran out of funding,\" but that's only the immediate cause. Why couldn't they get more funding? Probably because the product was a dog, or never seemed likely to be done, or both.",
+      "zhMarkdown": "在几乎每一个失败的创业公司中，真正的问题都是客户不想要这个产品。对大多数公司来说，死因被列为“资金链断裂”，但这只是直接死因。他们为什么拿不到更多资金？大概是因为产品太烂，或者看起来永远做不完，或者两者兼而有之。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "4580ca121ccf06ac4cee5ced49eb179325155d4f7ebf8ec66b9580361796a6d4",
+      "enMarkdown": "When I was trying to think of the things every startup needed to do, I almost included a fourth: get a version 1 out as soon as you can. But I decided not to, because that's implicit in making something customers want. The only way to make something customers want is to get a prototype in front of them and refine it based on their reactions.",
+      "zhMarkdown": "当我试着思考每个创业公司都需要做的几件事时，我几乎把第四点放了进去：尽快推出1.0版本。但我决定不放，因为这已经隐含在“做出用户想要的东西”中了。做出用户想要的东西的唯一方法，就是把原型推到他们面前，并根据他们的反应进行改进。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "81647ac9e91563c0fdfe6dcfd1899b9b4ee6af8afffc0c3422b640c62f2ef1bd",
+      "enMarkdown": "The other approach is what I call the \"Hail Mary\" strategy. You make elaborate plans for a product, hire a team of engineers to develop it (people who do this tend to use the term \"engineer\" for hackers), and then find after a year that you've spent two million dollars to develop something no one wants. This was not uncommon during the Bubble, especially in companies run by business types, who thought of software development as something terrifying that therefore had to be carefully planned.",
+      "zhMarkdown": "另一种方法被我称为“孤注一掷（Hail Mary）”策略。你为产品制定了详尽的计划，雇佣了一支工程师团队来开发它（做这种事的人往往喜欢用“工程师”来称呼黑客），一年后却发现自己花了200万美元开发出来的东西没人想要。这在泡沫时期并不少见，尤其是在由商业型人才管理的公司中，他们把软件开发看作是一件可怕的事情，因此必须进行周密的计划。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "2bf36a213850508b41d7d3e3bb0cbc8f98b2dd4f2b733acfa667e39e991a7275",
+      "enMarkdown": "We never even considered that approach. As a Lisp hacker, I come from the tradition of rapid prototyping. I would not claim (at least, not here) that this is the right way to write every program, but it's certainly the right way to write software for a startup. In a startup, your initial plans are almost certain to be wrong in some way, and your first priority should be to figure out where. The only way to do that is to try implementing them.",
+      "zhMarkdown": "我们甚至从未考虑过那种方法。作为一名 Lisp 黑客，我来自快速原型的传统。我不会声称（至少在这里不会）这是编写每个程序的正确方法，但它绝对是为创业公司编写软件的正确方法。在创业公司中，你的初始计划几乎肯定在某些方面是错的，你的首要任务应该是找出错在哪里。做到这一点的唯一方法就是尝试去实现它们。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "cecb41adba9dd4656e45c27c6f9b57bd827921905c42634c1cf7b65fe53b97cc",
+      "enMarkdown": "Like most startups, we changed our plan on the fly. At first we expected our customers to be Web consultants. But it turned out they didn't like us, because our software was easy to use and we hosted the site. It would be too easy for clients to fire them. We also thought we'd be able to sign up a lot of catalog companies, because selling online was a natural extension of their existing business. But in 1996 that was a hard sell. The middle managers we talked to at catalog companies saw the Web not as an opportunity, but as something that meant more work for them.",
+      "zhMarkdown": "和大多数创业公司一样，我们在过程中改变了计划。起初，我们希望我们的客户是网页设计顾问。但事实证明他们不喜欢我们，因为我们的软件太好用了，而且我们托管了网站。他们的客户太容易炒掉他们了。我们还以为能吸引很多目录邮购公司，因为网上销售是他们现有业务的自然延伸。但在1996年，这很难推销。我们在目录邮购公司接触到的中层管理人员不把互联网看作机会，而是看作意味着更多工作负担的累赘。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "ba82b57753aac79e222ec8884cc056b8b7328e2b5e10c38d232246eeadcc1fe4",
+      "enMarkdown": "We did get a few of the more adventurous catalog companies. Among them was Frederick's of Hollywood, which gave us valuable experience dealing with heavy loads on our servers. But most of our users were small, individual merchants who saw the Web as an opportunity to build a business. Some had retail stores, but many only existed online. And so we changed direction to focus on these users. Instead of concentrating on the features Web consultants and catalog companies would want, we worked to make the software easy to use.",
+      "zhMarkdown": "我们确实争取到了一些比较有冒险精神的目录邮购公司。其中包括 Frederick's of Hollywood，它给我们带来了应对服务器高负载的宝贵经验。但我们的大多数用户都是小型个体商户，他们把互联网看作是建立一门生意的好机会。有些有实体店，但很多只存在于网上。于是我们调整了方向，专注于这些用户。我们不再专注于网页顾问和目录公司想要的功能，而是努力让软件变得易于使用。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "80c36c3c5c2cf32457bb5deeb7aafe79aa5b875aec496482145cc1d03fccf62a",
+      "enMarkdown": "I learned something valuable from that. It's worth trying very, very hard to make technology easy to use. Hackers are so used to computers that they have no idea how horrifying software seems to normal people. Stephen Hawking's editor told him that every equation he included in his book would cut sales in half. When you work on making technology easier to use, you're riding that curve up instead of down. A 10% improvement in ease of use doesn't just increase your sales 10%. It's more likely to double your sales.",
+      "zhMarkdown": "我从中受益匪浅。极力让技术变得简单易用是非常非常值得的。黑客对电脑太熟悉了，以至于他们根本不知道软件对普通人来说有多可怕。斯蒂芬·霍金的编辑曾告诉他，书里每多一个公式，销量就会减半。当你努力让技术更易于使用时，你就是在顺着这条曲线往上走，而不是往下。易用性提高10%不仅仅能让你的销量增加10%，它更有可能让你的销量翻倍。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "3ecdcd931d72e46e5d0d317ec67573fa26aa5293f7f45641b23667703580ad95",
+      "enMarkdown": "How do you figure out what customers want? Watch them. One of the best places to do this was at trade shows. Trade shows didn't pay as a way of getting new customers, but they were worth it as market research. We didn't just give canned presentations at trade shows. We used to show people how to build real, working stores. Which meant we got to watch as they used our software, and talk to them about what they needed.",
+      "zhMarkdown": "你如何弄清楚客户想要什么？观察他们。做这件事最好的地方之一就是行业展会。作为获取新客户的手段，行业展会并不划算，但作为市场调研，它们非常值得。我们不只是在展会上做死板的演示。我们过去常常向人们展示如何建立真实的、可以运转的店铺。这意味着我们得以观察他们使用我们软件的过程，并与他们交流他们需要什么。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "0e72a887f555e46227716231bd23068349e62a29e832d620ca1d4cee02fa5164",
+      "enMarkdown": "No matter what kind of startup you start, it will probably be a stretch for you, the founders, to understand what users want. The only kind of software you can build without studying users is the sort for which you are the typical user. But this is just the kind that tends to be open source: operating systems, programming languages, editors, and so on. So if you're developing technology for money, you're probably not going to be developing it for people like you. Indeed, you can use this as a way to generate ideas for startups: what do people who are not like you want from technology?",
+      "zhMarkdown": "无论你创办什么类型的创业公司，要理解用户想要什么，对作为创始人的你来说可能都是个挑战。唯一一种不需要研究用户就能构建的软件，是那些你自己就是典型用户的软件。但这恰恰是那些倾向于开源的软件：操作系统、编程语言、编辑器等等。因此，如果你是为了赚钱而开发技术，你大概不会是为像你这样的人开发。事实上，你可以把这作为产生创业创意的一种方式：那些不像你的人，想从技术中得到什么？"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "1a4587ac98d77389879da2dd9e7f87b9534e8e16eada01cbe325a1c7084da73a",
+      "enMarkdown": "When most people think of startups, they think of companies like Apple or Google. Everyone knows these, because they're big consumer brands. But for every startup like that, there are twenty more that operate in niche markets or live quietly down in the infrastructure. So if you start a successful startup, odds are you'll start one of those.",
+      "zhMarkdown": "当大多数人想到创业公司时，他们会想到苹果或谷歌这样的公司。每个人都知道这些，因为它们是巨大的消费品牌。但每有这样一家创业公司，就有二十家在利基市场运营，或者默默地存活在基础设施底层。所以如果你创办了一家成功的创业公司，你创办的大概率会是后者之一。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "5dc34e54c4a682a5f4fc72d891df9714aaf1a2cb693b8193d751f338cfecfe9e",
+      "enMarkdown": "Another way to say that is, if you try to start the kind of startup that has to be a big consumer brand, the odds against succeeding are steeper. The best odds are in niche markets. Since startups make money by offering people something better than they had before, the best opportunities are where things suck most. And it would be hard to find a place where things suck more than in corporate IT departments. You would not believe the amount of money companies spend on software, and the crap they get in return. This imbalance equals opportunity.",
+      "zhMarkdown": "另一种说法是，如果你试图创办那种必须成为巨大消费品牌的创业公司，成功的概率会更低。胜算最大的是利基市场。既然创业公司是通过为人们提供比以前更好的东西来赚钱，那么最好的机会就在事情最糟糕的地方。而且很难找到比企业 IT 部门更糟糕的地方了。你简直无法相信大公司在软件上花了多少钱，而他们得到的却是一堆垃圾。这种不平衡就等于机会。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "813308bbd48f250c8afc4f156784c5606b680381dde6064cba90471ec16c918f",
+      "enMarkdown": "If you want ideas for startups, one of the most valuable things you could do is find a middle-sized non-technology company and spend a couple weeks just watching what they do with computers. Most good hackers have no more idea of the horrors perpetrated in these places than rich Americans do of what goes on in Brazilian slums.",
+      "zhMarkdown": "如果你想要创业创意，你能做的最有价值的事情之一，就是找一家中等规模的非科技公司，花两周时间观察他们用电脑做什么。大多数优秀的黑客对这些地方上演的惨剧一无所知，就像富裕的美国人不知道巴西贫民窟里正在发生什么一样。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "17343deb476115a2abdec514cc82f1d288070a6409388b50ed007771dfc107fe",
+      "enMarkdown": "Start by writing software for smaller companies, because it's easier to sell to them. It's worth so much to sell stuff to big companies that the people selling them the crap they currently use spend a lot of time and money to do it. And while you can outhack Oracle with one frontal lobe tied behind your back, you can't outsell an Oracle salesman. So if you want to win through better technology, aim at smaller customers. [4]",
+      "zhMarkdown": "先从为较小的公司写软件开始，因为卖给他们更容易。把东西卖给大公司是如此有利可图，以至于把他们目前正在使用的垃圾卖给他们的人，花了大把的时间和金钱去公关。虽然你可以在绑住半个大脑的情况下用技术击败甲骨文（Oracle），但你无法在销售上击败甲骨文的销售员。所以如果你想通过更好的技术取胜，请瞄准较小的客户。[4]"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "c3a19ec4b95bd193756b679281ac8564a1fefc96e34d4fe02c3f67605c25c753",
+      "enMarkdown": "They're the more strategically valuable part of the market anyway. In technology, the low end always eats the high end. It's easier to make an inexpensive product more powerful than to make a powerful product cheaper. So the products that start as cheap, simple options tend to gradually grow more powerful till, like water rising in a room, they squash the \"high-end\" products against the ceiling. Sun did this to mainframes, and Intel is doing it to Sun. Microsoft Word did it to desktop publishing software like Interleaf and Framemaker. Mass-market digital cameras are doing it to the expensive models made for professionals. Avid did it to the manufacturers of specialized video editing systems, and now Apple is doing it to Avid. *Henry Ford* did it to the car makers that preceded him. If you build the simple, inexpensive option, you'll not only find it easier to sell at first, but you'll also be in the best position to conquer the rest of the market.",
+      "zhMarkdown": "无论如何，他们是市场上更具战略价值的部分。在科技领域，低端总是会吞噬高端。把廉价的产品变得更强大，比把强大的产品变得更便宜要容易。因此，作为廉价、简单选择起步的产品，往往会逐渐变得更加强大，直到像房间里不断上涨的水一样，把“高端”产品挤死在天花板上。Sun 对大型机做了这件事，而英特尔正在对 Sun 做这件事。Microsoft Word 对 Interleaf 和 Framemaker 等桌面出版软件做了这件事。大众市场上的数码相机正在对专为专业人士制造的昂贵机型做这件事。Avid 对专业视频编辑系统的制造商做了这件事，而现在苹果正在对 Avid 做这件事。*亨利·福特*对在他之前的汽车制造商做了这件事。如果你构建简单、廉价的选择，你不仅会发现起步时更容易卖出去，而且你还将处于征服市场其余部分的最佳位置。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "ba7696313e1240744e2a5b36c40988d648f76210f251956e2ec44a4618714871",
+      "enMarkdown": "It's very dangerous to let anyone fly under you. If you have the cheapest, easiest product, you'll own the low end. And if you don't, you're in the crosshairs of whoever does.",
+      "zhMarkdown": "让任何人在你身下飞过是非常危险的。如果你拥有最便宜、最简单的产品，你就会占领低端市场。如果你没有，你就会沦为占领低端市场的人的靶子。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "3dd865c74795f656eced75c59cb6d873b05a149451205ac4c5ffed00c7de66d6",
+      "enMarkdown": "**Raising Money**",
+      "zhMarkdown": "**融资**"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "71214fe024485560c17ee94aa9ddfdebe1371066d44a4245dd442cbb10d0398d",
+      "enMarkdown": "To make all this happen, you're going to need money. Some startups have been self-funding-- Microsoft for example-- but most aren't. I think it's wise to take money from investors. To be self-funding, you have to start as a consulting company, and it's hard to switch from that to a product company.",
+      "zhMarkdown": "为了实现这一切，你需要钱。有些创业公司一直是自给自足的——比如微软——但大多数不是。我认为拿投资人的钱是明智的。要实现自给自足，你必须先做咨询公司，而从咨询公司转向产品公司是非常困难的。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "75207ebf184d2477cb2197362a71c3977a3a58bac2027b2ae35a82b405d79685",
+      "enMarkdown": "Financially, a startup is like a pass/fail course. The way to get rich from a startup is to maximize the company's chances of succeeding, not to maximize the amount of stock you retain. So if you can trade stock for something that improves your odds, it's probably a smart move.",
+      "zhMarkdown": "在财务上，创业就像是一门通过/不通过的课程。从创业公司致富的方法是最大化公司成功的几率，而不是最大化你保留的股票份额。因此，如果你能用股票换取提高成功几率的东西，这通常是明智之举。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "788daac35c7ea38a6b178c10f2d47b2036655a8a488f7cab1a293e79c81744a6",
+      "enMarkdown": "To most hackers, getting investors seems like a terrifying and mysterious process. Actually it's merely tedious. I'll try to give an outline of how it works.",
+      "zhMarkdown": "对大多数黑客来说，寻找投资人似乎是一个可怕而神秘的过程。实际上，它只是枯燥乏味。我试着概述一下它是如何运作的。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "b7ef0e80d89abfbdf71e6100649230022e1baabb624b518f4e08639f98c5e0fb",
+      "enMarkdown": "The first thing you'll need is a few tens of thousands of dollars to pay your expenses while you develop a prototype. This is called seed capital. Because so little money is involved, raising seed capital is comparatively easy-- at least in the sense of getting a quick yes or no.",
+      "zhMarkdown": "你首先需要的是几万美元来支付你在开发原型期间的开销。这被称为种子资金。因为涉及的资金很少，募集种子资金相对容易——至少在快速得到“行”或“不行”的答复这一层面上是这样。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "e31baeee566a2c57a14e4a2d066ca3fddfa962e4481f860a6d87be801cb98a56",
+      "enMarkdown": "Usually you get seed money from individual rich people called \"angels.\" Often they're people who themselves got rich from technology. At the seed stage, investors don't expect you to have an elaborate business plan. Most know that they're supposed to decide quickly. It's not unusual to get a check within a week based on a half-page agreement.",
+      "zhMarkdown": "通常你从被称为“天使”的富裕个人那里获得种子资金。他们往往是自己通过科技致富的人。在种子阶段，投资人不期望你有一个详尽的商业计划书。大多数人都知道他们应该迅速做出决定。根据一份半页纸的协议，在一周内拿到支票并不罕见。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "a489d452b268862e1cf048270fcbcc14a075de66a566f04f15d3a2d1cab601df",
+      "enMarkdown": "We started Viaweb with $10,000 of seed money from our friend Julian. But he gave us a lot more than money. He's a former CEO and also a corporate lawyer, so he gave us a lot of valuable advice about business, and also did all the legal work of getting us set up as a company. Plus he introduced us to one of the two angel investors who supplied our next round of funding.",
+      "zhMarkdown": "我们用朋友朱利安（Julian）给的1万美元种子资金创办了 Viaweb。但他给我们的远不止是钱。他曾任 CEO，也是一名公司律师，所以他给了我们很多宝贵的商业建议，并且还帮我们做了成立公司所需的所有法律工作。此外，他还把我们引荐给了提供我们下一轮融资的两位天使投资人之一。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "a959cb0280e2e44aa8027d7b2e2c364aa07cbb782a706322c0a1a2b7dd4ba577",
+      "enMarkdown": "Some angels, especially those with technology backgrounds, may be satisfied with a demo and a verbal description of what you plan to do. But many will want a copy of your business plan, if only to remind themselves what they invested in.",
+      "zhMarkdown": "一些天使投资人，尤其是那些有技术背景的人，可能只要看个 Demo 和对你计划的口头描述就满足了。但许多人会想要一份你的商业计划书，哪怕只是为了提醒自己投了什么。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "0d332adb58797d56fdc9c1f6d6302c94fc0c8278dbf69d6085cd707505db0587",
+      "enMarkdown": "Our angels asked for one, and looking back, I'm amazed how much worry it caused me. \"Business plan\" has that word \"business\" in it, so I figured it had to be something I'd have to read a book about business plans to write. Well, it doesn't. At this stage, all most investors expect is a brief description of what you plan to do and how you're going to make money from it, and the resumes of the founders. If you just sit down and write out what you've been saying to one another, that should be fine. It shouldn't take more than a couple hours, and you'll probably find that writing it all down gives you more ideas about what to do.",
+      "zhMarkdown": "我们的天使投资人就要了一份，现在回想起来，我很惊讶它居然让我那么焦虑。“商业计划书”里有“商业”这个词，所以我以为我必须读一本关于商业计划书的书才能写出来。其实不然。在这个阶段，大多数投资人期望的只是一份关于你计划做什么、你打算如何从中赚钱的简短描述，以及创始人的简历。如果你只是坐下来，把你一直在和彼此说的话写下来，应该就没问题了。这不应该超过几个小时，而且你可能会发现，把这一切写下来会给你带来更多关于该做什么的想法。"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "035fac3227c321946809598444a571f5bf721b1eb1cf23c27a79de3e56156652",
+      "enMarkdown": "For the angel to have someone to make the check out to, you're going to have to have some kind of company. Merely incorporating yourselves isn't hard. The problem is, for the company to exist, you have to decide who the founders are, and how much stock they each have. If there are two founders with the same qualifications who are both equally committed to the business, that's easy. But if you have a number of people who are expected to contribute in varying degrees, arranging the proportions of stock can be hard. And once you've done it, it tends to be set in stone.",
+      "zhMarkdown": "为了让天使投资人有收款人可以写在支票上，你必须成立某种公司。仅仅注册公司并不难。问题是，为了让公司存在，你必须决定谁是创始人，以及他们各自拥有多少股份。如果有两个条件相同、对业务同样投入的创始人，这很容易。但如果你有几个预计会做出不同程度贡献的人，安排股份比例就会很棘手。而且一旦定下来，往往就成了铁律。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "7771200667cdf6ee438f55726b0fed748c41e712d60020db0471ac445e3f1464",
+      "enMarkdown": "I have no tricks for dealing with this problem. All I can say is, try hard to do it right. I do have a rule of thumb for recognizing when you have, though. When everyone feels they're getting a slightly bad deal, that they're doing more than they should for the amount of stock they have, the stock is optimally apportioned.",
+      "zhMarkdown": "我没有解决这个问题的诀窍。我只能说，努力把它做对。不过，我有一个经验法则来识别你什么时候做对了。当每个人都觉得自己吃了一点亏，觉得自己拿到的股份配不上自己的付出时，股份分配就是最优的。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "9fc5082c5e403116161dd75ac3fbf750c8c45098cf97ef58f71b971664729556",
+      "enMarkdown": "There is more to setting up a company than incorporating it, of course: insurance, business license, unemployment compensation, various things with the IRS. I'm not even sure what the list is, because we, ah, skipped all that. When we got real funding near the end of 1996, we hired a great CFO, who fixed everything retroactively. It turns out that no one comes and arrests you if you don't do everything you're supposed to when starting a company. And a good thing too, or a lot of startups would never get started. [5]",
+      "zhMarkdown": "当然，成立一家公司不仅仅是注册它：保险、商业执照、失业补偿、与国税局（IRS）的各种交涉。我甚至不确定清单上有什么，因为我们，呃，把这些都省了。当我们在1996年底获得真正的融资时，我们雇佣了一位出色的 CFO，他追溯性地把一切都搞定了。事实证明，如果你在创办公司时没有做所有你该做的事，并不会有人来逮捕你。这真是件好事，否则很多创业公司根本无法起步。[5]"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "40a9ed067dd81e0692486091692799a6b8bfcf8a021eeef718c38da73632057f",
+      "enMarkdown": "It can be dangerous to delay turning yourself into a company, because one or more of the founders might decide to split off and start another company doing the same thing. This does happen. So when you set up the company, as well as as apportioning the stock, you should get all the founders to sign something agreeing that everyone's ideas belong to this company, and that this company is going to be everyone's only job.",
+      "zhMarkdown": "推迟把自己变成一家公司可能是危险的，因为一个或多个创始人可能会决定散伙，并创办另一家公司做同样的事情。这确实发生过。所以当你成立公司时，除了分配股份外，你还应该让所有创始人签署一份协议，同意每个人的想法都属于这家公司，并且这家公司将是每个人唯一的工作。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "13efab2eee30106bb89db52cdf1b020c8a01b0b9d984683f899b3cdc2eb80f30",
+      "enMarkdown": "[If this were a movie, ominous music would begin here.]",
+      "zhMarkdown": "[如果这是一部电影，不祥的音乐应该从这里响起。]"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "12ce53b4a886e48c6af54ea62b19018d75a8fef8d493739ffb9d756eb3ded3f5",
+      "enMarkdown": "While you're at it, you should ask what else they've signed. One of the worst things that can happen to a startup is to run into intellectual property problems. We did, and it came closer to killing us than any competitor ever did.",
+      "zhMarkdown": "顺便说一下，你应该问问他们还签过什么别的东西。创业公司可能遇到的最糟糕的事情之一，就是陷入知识产权（IP）纠纷。我们遇到过，它比任何竞争对手都更接近置我们于死地。"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "c73653b1b42ad8c1fec613bd8f66118f5ee20bb4f1daeac00ef15d442ced995a",
+      "enMarkdown": "As we were in the middle of getting bought, we discovered that one of our people had, early on, been bound by an agreement that said all his ideas belonged to the giant company that was paying for him to go to grad school. In theory, that could have meant someone else owned big chunks of our software. So the acquisition came to a screeching halt while we tried to sort this out. The problem was, since we'd been about to be acquired, we'd allowed ourselves to run low on cash. Now we needed to raise more to keep going. But it's hard to raise money with an IP cloud over your head, because investors can't judge how serious it is.",
+      "zhMarkdown": "就在我们正处于被收购的过程中时，我们发现我们的一名员工在早期曾受制于一份协议，该协议称他所有的想法都属于那家资助他读研究生的巨头公司。在理论上，这可能意味着别人拥有我们软件的很大一部分。因此，当我们试图解决这个问题时，收购戛然而止。问题是，因为我们即将被收购，我们已经让自己处于资金匮乏的状态。现在我们需要筹集更多资金来维持运转。但在你头顶有一片知识产权乌云的情况下，很难筹集到资金，因为投资人无法判断这有多严重。"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "652999c081d5176f0281aa75180aa075ca129d9977b566772ff77e3880accd6b",
+      "enMarkdown": "Our existing investors, knowing that we needed money and had nowhere else to get it, at this point attempted certain gambits which I will not describe in detail, except to remind readers that the word \"angel\" is a metaphor. The founders thereupon proposed to walk away from the company, after giving the investors a brief tutorial on how to administer the servers themselves. And while this was happening, the acquirers used the delay as an excuse to welch on the deal.",
+      "zhMarkdown": "我们现有的投资人知道我们需要钱，而且无处可去，此时尝试了某些策略，我不会详细描述，只是想提醒读者，“天使”这个词是个隐喻。创始人随即提出离开公司，之前还给投资人简单培训了如何自己管理服务器。就在这期间，收购方利用这一延迟作为借口，在交易上食言了。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "99ee8f970c4003bde1698bccb5dabbfd8fe5490ca58d2a6d3f83d94dbf21387a",
+      "enMarkdown": "Miraculously it all turned out ok. The investors backed down; we did another round of funding at a reasonable valuation; the giant company finally gave us a piece of paper saying they didn't own our software; and six months later we were bought by Yahoo for much more than the earlier acquirer had agreed to pay. So we were happy in the end, though the experience probably took several years off my life.",
+      "zhMarkdown": "奇迹般地，一切都好起来了。投资人让步了；我们以合理的估值进行了另一轮融资；那家巨头公司终于给了我们一张纸，声明他们不拥有我们的软件；六个月后，我们被雅虎以远高于之前收购方同意支付的价格收购了。所以我们最终很高兴，尽管这段经历可能让我折寿了几年。"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "13e35b5dcf0832f8e167e1c484b42140e570a3e392d01317af5acd5f1826f19a",
+      "enMarkdown": "Don't do what we did. Before you consummate a startup, ask everyone about their previous IP history.",
+      "zhMarkdown": "不要做我们做过的事。在你们完成创业之前，询问每个人的前科知识产权历史。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "afeea551d635fce72571f245d74d3c18c8890832683c22164bca1af4106d2b0e",
+      "enMarkdown": "Once you've got a company set up, it may seem presumptuous to go knocking on the doors of rich people and asking them to invest tens of thousands of dollars in something that is really just a bunch of guys with some ideas. But when you look at it from the rich people's point of view, the picture is more encouraging. Most rich people are looking for good investments. If you really think you have a chance of succeeding, you're doing them a favor by letting them invest. Mixed with any annoyance they might feel about being approached will be the thought: are these guys the next Google?",
+      "zhMarkdown": "一旦你成立了公司，去敲有钱人的门，请求他们向一个实际上只是一群带着想法的家伙投几万美元，这似乎有些唐突。但当你从有钱人的角度看时，画面就更鼓舞人心了。大多数有钱人都在寻找好的投资机会。如果你真的认为自己有成功的机会，你让他们投资就是在帮他们的忙。在他们被接触时可能感到的任何烦恼中，都会夹杂着这样的想法：这些家伙会是下一个谷歌吗？"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "71bbb1b96d604b6f22f51719281aa1b1d896baedd7d420bdb4c4cfd66ba46ce7",
+      "enMarkdown": "Usually angels are financially equivalent to founders. They get the same kind of stock and get diluted the same amount in future rounds. How much stock should they get? That depends on how ambitious you feel. When you offer x percent of your company for y dollars, you're implicitly claiming a certain value for the whole company. Venture investments are usually described in terms of that number. If you give an investor new shares equal to 5% of those already outstanding in return for $100,000, then you've done the deal at a pre-money valuation of $2 million.",
+      "zhMarkdown": "通常天使投资人在财务上等同于创始人。他们获得相同种类的股票，并在未来的轮次中被稀释相同的比例。他们应该得到多少股票？这取决于你感觉自己有多大野心。当你用公司 x% 的股份换取 y 美元时，你隐含地声称了整个公司的某种价值。风险投资通常用这个数字来描述。如果你给投资人新发行的股份，相当于已发行股份的5%，以换取 100,000 美元，那么你就以 200 万美元的投前估值达成了交易。"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "8addb4e8a7a63e9c9ea6514c599b956601c298666c96e18821cfd5c8dae1559c",
+      "enMarkdown": "How do you decide what the value of the company should be? There is no rational way. At this stage the company is just a bet. I didn't realize that when we were raising money. Julian thought we ought to value the company at several million dollars. I thought it was preposterous to claim that a couple thousand lines of code, which was all we had at the time, were worth several million dollars. Eventually we settled on one million, because Julian said no one would invest in a company with a valuation any lower. [6]",
+      "zhMarkdown": "你如何决定公司的价值应该是多少？没有理性的方法。在这个阶段，公司只是一个赌注。我们融资时我并没有意识到这一点。朱利安认为我们应该将公司估值定为数百万美元。我认为声称几千行代码（当时我们仅有的东西）值数百万美元是荒谬的。最终我们定在了一百万，因为朱利安说没有人会投资估值更低的公司。[6]"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "c6db4dd9810e125b177b6e3e1245ee8f56595d6668cd1d8b7cf406a118de4874",
+      "enMarkdown": "What I didn't grasp at the time was that the valuation wasn't just the value of the code we'd written so far. It was also the value of our ideas, which turned out to be right, and of all the future work we'd do, which turned out to be a lot.",
+      "zhMarkdown": "我当时没有理解的是，估值不仅仅是我们到目前为止写出的代码的价值。它也是我们想法的价值（事实证明这些想法是对的），以及我们未来要做的所有工作的价值（事实证明这有很多）。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "a4d481c55b7de108f999779e875ce2d393a020ab9b7f84d5a1e788b0093b0304",
+      "enMarkdown": "The next round of funding is the one in which you might deal with actual [venture capital firms](https://paulgraham.com/venturecapital.html). But don't wait till you've burned through your last round of funding to start approaching them. VCs are slow to make up their minds. They can take months. You don't want to be running out of money while you're trying to negotiate with them.",
+      "zhMarkdown": "下一轮融资是可能与实际的[风险投资公司](https://paulgraham.com/venturecapital.html)打交道的一轮。但不要等到花光上一轮融资才开始接触他们。风投做决定很慢。他们可能需要几个月。你不想在试图与他们谈判时资金耗尽。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "baca7fcfcde70fabeca477d24dee98000f576a18bb0611fdb849a14b35bf0eac",
+      "enMarkdown": "Getting money from an actual VC firm is a bigger deal than getting money from angels. The amounts of money involved are larger, millions usually. So the deals take longer, dilute you more, and impose more onerous conditions.",
+      "zhMarkdown": "从真正的风投公司拿钱比从天使那里拿钱是一件更大的事。涉及的资金量更大，通常是数百万。所以交易需要更长的时间，对你的稀释更多，并强加更苛刻的条件。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "fbec8753e11ac22bc831a7ed4e6601ecad1885a23b2401a5e4eefabc8ffa48e1",
+      "enMarkdown": "Sometimes the VCs want to install a new CEO of their own choosing. Usually the claim is that you need someone mature and experienced, with a business background. Maybe in some cases this is true. And yet Bill Gates was young and inexperienced and had no business background, and he seems to have done ok. Steve Jobs got booted out of his own company by someone mature and experienced, with a business background, who then proceeded to ruin the company. So I think people who are mature and experienced, with a business background, may be overrated. We used to call these guys \"newscasters,\" because they had neat hair and spoke in deep, confident voices, and generally didn't know much more than they read on the teleprompter.",
+      "zhMarkdown": "有时风投想要安插一个他们自己选择的新 CEO。通常的说法是，你需要一个成熟、有经验、有商业背景的人。也许在某些情况下这是对的。然而，比尔·盖茨年轻、没有经验、没有商业背景，他似乎做得很好。史蒂夫·乔布斯被一个成熟、有经验、有商业背景的人赶出了自己的公司，那人随后毁了公司。所以我认为那些成熟、有经验、有商业背景的人可能被高估了。我们过去称这些家伙为“新闻播音员”，因为他们头发整洁，说话声音低沉、自信，而且通常除了在提词器上读到的东西之外，知道的不多。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "ef74793e01742a9013745b31b8c024680bf9d99408c47f06c88d0e7efc233f4d",
+      "enMarkdown": "We talked to a number of VCs, but eventually we ended up financing our startup entirely with angel money. The main reason was that we feared a brand-name VC firm would stick us with a newscaster as part of the deal. That might have been ok if he was content to limit himself to talking to the press, but what if he wanted to have a say in running the company? That would have led to disaster, because our software was so complex. We were a company whose whole m.o. was to win through better technology. The strategic decisions were mostly decisions about technology, and we didn't need any help with those.",
+      "zhMarkdown": "我们和许多风投谈过，但最终我们完全用天使投资的钱资助了我们的创业公司。主要原因是我们担心名牌风投公司会在交易中塞给我们一个新闻播音员。如果他满足于仅限于和媒体说话，那可能还好，但如果他想在管理公司上指手画脚呢？那将导致灾难，因为我们的软件太复杂了。我们是一家整个策略都是通过更好的技术取胜的公司。战略决策大多是关于技术的决策，我们不需要任何这方面的帮助。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "03e36522d7dbaf5777120b23c11c352fd0ea3290f7c25cafd0e0d7d7481a5ee9",
+      "enMarkdown": "This was also one reason we didn't go public. Back in 1998 our CFO tried to talk me into it. In those days you could go public as a dogfood portal, so as a company with a real product and real revenues, we might have done well. But I feared it would have meant taking on a newscaster-- someone who, as they say, \"can talk Wall Street's language.\"",
+      "zhMarkdown": "这也是我们没有上市的原因之一。早在1998年，我们的 CFO 曾试图说服我上市。在那些日子里，你可以作为宠物食品门户网站上市，所以作为一家拥有真实产品和真实收入的公司，我们可能会做得很好。但我担心这意味着要接受一个新闻播音员——正如他们所说，“能说华尔街语言”的人。"
+    },
+    {
+      "id": 83,
+      "type": "paragraph",
+      "sourceHash": "9a62e6022cf87cc9f7367ebb3fedc0610af59ac6eeaef44d3df12113d61d1d7e",
+      "enMarkdown": "I'm happy to see Google is bucking that trend. They didn't talk Wall Street's language when they did their IPO, and Wall Street didn't buy. And now Wall Street is collectively kicking itself. They'll pay attention next time. Wall Street learns new languages fast when money is involved.",
+      "zhMarkdown": "我很高兴看到谷歌正在抵制这一趋势。他们在 IPO 时没有说华尔街的语言，华尔街也没有买账。现在华尔街正在集体自责。他们下次会注意的。一旦涉及钱，华尔街学习新语言的速度很快。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "0aa2b09f812e88746fd8e9e4d34309eafcdf79309640c299e57bdb094f48a086",
+      "enMarkdown": "You have more leverage negotiating with VCs than you realize. The reason is other VCs. I know a number of VCs now, and when you talk to them you realize that it's a seller's market. Even now there is too much money chasing too few good deals.",
+      "zhMarkdown": "在与风投谈判时，你拥有的筹码比你意识到的要多。原因在于其他风投。我现在认识许多风投，当你和他们谈话时，你会意识到这是卖方市场。即使是现在，也有太多的钱在追逐太少的好交易。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "2530746510f6eba41069d8c71db72b857a0646d293d1e5f640fd26df233a48f3",
+      "enMarkdown": "VCs form a pyramid. At the top are famous ones like Sequoia and Kleiner Perkins, but beneath those are a huge number you've never heard of. What they all have in common is that a dollar from them is worth one dollar. Most VCs will tell you that they don't just provide money, but connections and advice. If you're talking to Vinod Khosla or John Doerr or Mike Moritz, this is true. But such advice and connections can come very expensive. And as you go down the food chain the VCs get rapidly  dumber. A few steps down from the top you're basically talking to bankers who've picked up a few new vocabulary words from reading *Wired*. (Does your product use *XML?*) So I'd advise you to be skeptical about claims of experience and connections. Basically, a VC is a source of money. I'd be inclined to go with whoever offered the most money the soonest with the least strings attached.",
+      "zhMarkdown": "风投形成了一个金字塔。最顶端是著名的，如红杉和 Kleiner Perkins，但在这些之下是大量你从未听过的风投。他们的共同点是，来自他们的一美元就值一美元。大多数风投会告诉你，他们不只提供资金，还提供关系和建议。如果你在和维诺德·科斯拉（Vinod Khosla）或约翰·杜尔（John Doerr）或迈克·莫里茨（Mike Moritz）谈话，这是真的。但这样的建议和关系可能非常昂贵。而且当你顺着食物链往下走时，风投变傻的速度很快。从顶端往下走几步，你基本上是在和读了《Wired》杂志学了几个新词汇的银行家谈话。（你的产品用 *XML* 吗？）所以我建议你对经验和关系的声称保持怀疑。基本上，风投就是资金来源。我倾向于选择最快提供最多钱、附加条件最少的人。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "b0cbc7a2aed6d332aeebedc38d4068302e9aead6a43fd542a8fade6c8a6545eb",
+      "enMarkdown": "You may wonder how much to tell VCs. And you should, because some of them may one day be funding your competitors. I think the best plan is not to be overtly secretive, but not to tell them everything either. After all, as most VCs say, they're more interested in the people than the ideas. The main reason they want to talk about your idea is to judge you, not the idea. So as long as you seem like you know what you're doing, you can probably keep a few things back from them. [7]",
+      "zhMarkdown": "你可能想知道该告诉风投多少。你应该想，因为他们中的一些人可能有一天会资助你的竞争对手。我认为最好的计划不是公开保守秘密，但也不要告诉他们一切。毕竟，正如大多数风投所说，他们对人比对创意更感兴趣。他们想谈论你的创意的主要是为了判断你，而不是创意。所以只要你看起来知道自己在做什么，你可能可以对他们保留一些东西。[7]"
+    },
+    {
+      "id": 87,
+      "type": "paragraph",
+      "sourceHash": "7b49c9802b1f3f5cbf8805e7e18cb937a9edc6548a304badfe7b0e43b66f9569",
+      "enMarkdown": "Talk to as many VCs as you can, even if you don't want their money, because a) they may be on the board of someone who will buy you, and b) if you seem impressive, they'll be discouraged from investing in your competitors. The most efficient way to reach VCs, especially if you only want them to know about you and don't want their money, is at the conferences that are occasionally organized for startups to present to them.",
+      "zhMarkdown": "与尽可能多的风投交谈，即使你不要他们的钱，因为 a) 他们可能是会买下你的某个人的董事会成员，并且 b) 如果你看起来令人印象深刻，他们将不愿投资你的竞争对手。接触风投最有效的方式，尤其是如果你只想让他们知道你而不要他们的钱，是在偶尔为创业公司组织向他们做展示的会议上。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "100d73e0f0c3330c7cffe89cc8a8d2f39d0b223800d3c334c0f45d0847c74ee0",
+      "enMarkdown": "**Not Spending It**",
+      "zhMarkdown": "**省钱**"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "0b396a227add3654f36aa23daaccb13e8b4293a937039445db9b20cd66dfca64",
+      "enMarkdown": "When and if you get an infusion of real money from investors, what should you do with it? Not spend it, that's what. In nearly every startup that fails, the proximate cause is running out of money. Usually there is something deeper wrong. But even a proximate cause of death is worth trying hard to avoid.",
+      "zhMarkdown": "如果并且当你从投资人那里获得真正的资金注入时，你应该用它做什么？不花它，就是这样。在几乎每一个失败的创业公司中，直接原因都是资金耗尽。通常有更深层次的问题。但即使是直接死因也值得努力避免。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "9df8320a578f2ba5ec6842bea9da89bdad94ebadeecf2792afde535d723a670c",
+      "enMarkdown": "During the Bubble many startups tried to \"get big fast.\" Ideally this meant getting a lot of customers fast. But it was easy for the meaning to slide over into hiring a lot of people fast.",
+      "zhMarkdown": "在泡沫时期，许多创业公司试图“快速变大”。理想情况下，这意味着快速获得大量客户。但这很容易滑向快速雇佣大量人员。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "fc68bc2f3c1cce82369fe2fe287d537faf0dfd9391e82f6cfaefc646dcce8fcc",
+      "enMarkdown": "Of the two versions, the one where you get a lot of customers fast is of course preferable. But even that may be overrated. The idea is to get there first and get all the users, leaving none for competitors. But I think in most businesses the advantages of being first to market are not so overwhelmingly great. Google is again a case in point. When they appeared it seemed as if search was a mature market, dominated by big players who'd spent millions to build their brands: Yahoo, Lycos, Excite, Infoseek, Altavista, Inktomi. Surely 1998 was a little late to arrive at the party.",
+      "zhMarkdown": "在这两个版本中，快速获得大量客户的版本当然更可取。但即使是那个也可能被高估了。这个想法是先到一步，获取所有用户，不给竞争对手留任何空间。但我认为在大多数业务中，先入市场的优势并没有那么压倒性。谷歌又是这方面的一个例子。当他们出现时，搜索似乎是一个成熟的市场，由花费数百万建立品牌的巨头主导：Yahoo、Lycos、Excite、Infoseek、Altavista、Inktomi。1998年对于加入这场派对来说无疑有点晚了。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "782de476828e52e671c66cf606ae14da8697ed1b721b975bb429f4b99f911ff1",
+      "enMarkdown": "But as the founders of Google knew, brand is worth next to nothing in the search business. You can come along at any point and make something better, and users will gradually seep over to you. As if to emphasize the point, Google never did any advertising. They're like dealers; they sell the stuff, but they know better than to use it themselves.",
+      "zhMarkdown": "但正如谷歌的创始人所知，在搜索业务中，品牌几乎一文不值。你可以在任何时候出现并做出更好的东西，用户会逐渐渗透到你这里。仿佛为了强调这一点，谷歌从未做过任何广告。他们就像毒贩；他们卖这东西，但他们自己不吸。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "dfc9d1e8ae8f996606223ae380e1bd6ff341afbd3c30fbd78b276137055bcc79",
+      "enMarkdown": "The competitors Google buried would have done better to spend those millions improving their software. Future startups should learn from that mistake. Unless you're in a market where products are as undifferentiated as cigarettes or vodka or laundry detergent, spending a lot on brand advertising is a sign of breakage. And few if any Web businesses are so undifferentiated. The dating sites are running big ad campaigns right now, which is all the more evidence they're ripe for the picking. (Fee, fie, fo, fum, I smell a company run by marketing guys.)",
+      "zhMarkdown": "被谷歌埋葬的竞争对手本可以做得更好，把这数百万花在改进软件上。未来的创业公司应该从那个错误中吸取教训。除非你在一个产品像香烟、伏特加或洗衣粉一样无差异的市场中，否则在品牌广告上花大钱是破产的迹象。而且几乎没有互联网业务是如此无差异的。约会网站现在正在运行大型广告宣传，这更加证明了它们已经到了可以收割的时候。（Fee, fie, fo, fum，我闻到了营销人员运营的公司的味道。）"
+    },
+    {
+      "id": 94,
+      "type": "paragraph",
+      "sourceHash": "98df2af4c1e7b652bf9968831edb58d44d11d40981cc106439b9e6820df07bf1",
+      "enMarkdown": "We were compelled by circumstances to grow slowly, and in retrospect it was a good thing. The founders all learned to do every job in the company. As well as writing software, I had to do sales and customer support. At sales I was not very good. I was persistent, but I didn't have the smoothness of a good salesman. My message to potential customers was: you'd be stupid not to sell online, and if you sell online you'd be stupid to use anyone else's software. Both statements were true, but that's not the way to convince people.",
+      "zhMarkdown": "我们被迫由于环境而缓慢成长，回想起来这是一件好事。创始人都在公司里学会了做每一项工作。除了写软件，我还必须做销售和客户支持。在销售方面我不是很擅长。我很执着，但我没有一个好销售员的圆滑。我给潜在客户的信息是：不在线销售你就太蠢了，如果你在线销售，用别人的软件你就太蠢了。这两个陈述都是真的，但这不是说服人们的方式。"
+    },
+    {
+      "id": 95,
+      "type": "paragraph",
+      "sourceHash": "fd459d177a0bc83a409607f4567373253cd20be3d2fc806edd17b226bc765d46",
+      "enMarkdown": "I was great at customer support though. Imagine talking to a customer support person who not only knew everything about the product, but would apologize abjectly if there was a bug, and then fix it immediately, while you were on the phone with them. Customers loved us. And we loved them, because when you're growing slow by word of mouth, your first batch of users are the ones who were smart enough to find you by themselves. There is nothing more valuable, in the early stages of a startup, than smart users. If you listen to them, they'll tell you exactly how to make a winning product. And not only will they give you this advice for free, they'll pay you.",
+      "zhMarkdown": "不过我非常擅长客户支持。想象一下与一个客户支持人员谈话，他不仅知道关于产品的一切，而且如果有 Bug 会真诚道歉，然后立即在电话里为你修复。客户爱死我们了。我们也爱他们，因为当你通过口碑缓慢成长时，你的第一批用户是那些足够聪明、能够自己找到你的人。在创业公司的早期阶段，没有什么比聪明的用户更有价值的了。如果你听取他们的意见，他们会准确地告诉你如何做出获胜的产品。他们不仅会免费给你这些建议，还会付钱给你。"
+    },
+    {
+      "id": 96,
+      "type": "paragraph",
+      "sourceHash": "1bfdc5480897e2038063e05c7048b71e9b6d646d81b40b4f116b0a8545fb1cc5",
+      "enMarkdown": "We officially launched in early 1996. By the end of that year we had about 70 users. Since this was the era of \"get big fast,\" I worried about how small and obscure we were. But in fact we were doing exactly the right thing. Once you get big (in users or employees) it gets hard to change your product. That year was effectively a laboratory for improving our software. By the end of it, we were so far ahead of our competitors that they never had a hope of catching up. And since all the hackers had spent many hours talking to users, we understood online commerce way better than anyone else.",
+      "zhMarkdown": "我们在1996年初正式推出。到那年年底，我们大约有70个用户。由于那是“快速变大”的时代，我为我们如此小而无名感到担忧。但实际上我们做的事情完全正确。一旦你变大（在用户或雇员上），改变产品就变得困难。那一年实际上是改进我们软件的实验室。到年底，我们已经远远领先于竞争对手，以至于他们永远没有追上的希望。而且由于所有的黑客都花了很多时间与用户交谈，我们比任何人都更了解在线商业。"
+    },
+    {
+      "id": 97,
+      "type": "paragraph",
+      "sourceHash": "164b948ee49211e40772cce1d4f119b4c8361ab238595b1531d17484d21db7cb",
+      "enMarkdown": "That's the key to success as a startup. There is nothing more important than understanding your business. You might think that anyone in a business must, ex officio, understand it. Far from it. Google's secret weapon was simply that they understood search. I was working for Yahoo when Google appeared, and Yahoo didn't understand search. I know because I once tried to convince the powers that be that we had to make search better, and I got in reply what was then the party line about it: that Yahoo was no longer a mere \"search engine.\" Search was now only a small percentage of our page views, less than one month's growth, and now that we were established as a \"media company,\" or \"portal,\" or whatever we were, search could safely be allowed to wither and drop off, like an umbilical cord.",
+      "zhMarkdown": "这是创业公司成功的关键。没有什么比了解你的业务更重要的了。你可能会认为任何在业务中的人都必须，因其职位，了解它。远非如此。谷歌的秘密武器仅仅是他们了解搜索。当谷歌出现时，我在雅虎工作，雅虎不了解搜索。我知道是因为我曾试图说服当权者我们必须把搜索做得更好，我得到的答复是当时关于它的官方说辞：雅虎不再仅仅是一个“搜索引擎”。搜索现在只占我们页面浏览量的一小部分，不到一个月的增长，现在我们已经确立为“媒体公司”或“门户网站”，或者不管我们是什么，搜索可以安全地被允许枯萎和脱落，就像脐带一样。"
+    },
+    {
+      "id": 98,
+      "type": "paragraph",
+      "sourceHash": "0daca73c48819d09ae02cb27642032bf5eb090b8c42689ef2593d24c555595dd",
+      "enMarkdown": "Well, a small fraction of page views they may be, but they are an important fraction, because they are the page views that Web sessions start with. I think Yahoo gets that now.",
+      "zhMarkdown": "好吧，页面浏览量的一小部分也许是，但它们是一个重要的部分，因为它们是网页会话开始的页面浏览量。我想雅虎现在明白了。"
+    },
+    {
+      "id": 99,
+      "type": "paragraph",
+      "sourceHash": "ca67140f5e9a6582a0212b2180829849a63f9d92d12376c3a9189bd78c27e643",
+      "enMarkdown": "Google understands a few other things most Web companies still don't. The most important is that you should put users before advertisers, even though the advertisers are paying and users aren't. One of my favorite bumper stickers reads \"if the people lead, the leaders will follow.\" Paraphrased for the Web, this becomes \"get all the users, and the advertisers will follow.\" More generally, design your product to please users first, and then think about how to make money from it. If you don't put users first, you leave a gap for competitors who do.",
+      "zhMarkdown": "谷歌还理解一些大多数互联网公司仍然不理解的事情。最重要的是你应该把用户放在广告商之前，即使广告商在付钱而用户没有。我最喜欢的车贴之一写着“如果人民领导，领导人会跟随”。套用在互联网上，这变成了“获取所有用户，广告商会跟随”。更普遍地说，设计你的产品首先要取悦用户，然后考虑如何从中赚钱。如果你不把用户放在第一位，你就给把用户放在第一位的竞争对手留下了空间。"
+    },
+    {
+      "id": 100,
+      "type": "paragraph",
+      "sourceHash": "4f6adc2e7e023b6591807065d2456b6f6aade2907e2d57ce0afdb58e865f1e7a",
+      "enMarkdown": "To make something users love, you have to understand them. And the bigger you are, the harder that is. So I say \"get big slow.\" The slower you burn through your funding, the more time you have to learn.",
+      "zhMarkdown": "要做出用户喜爱的产品，你必须了解他们。你越大，这就越难。所以我说“缓慢变大”。你花光资金的速度越慢，你学习的时间就越多。"
+    },
+    {
+      "id": 101,
+      "type": "paragraph",
+      "sourceHash": "37f84635452f74a8c7a41d74d1f85e4b0d50aa76ab4cf183a0661d2c477ac7af",
+      "enMarkdown": "The other reason to spend money slowly is to encourage a culture of cheapness. That's something Yahoo did understand. David Filo's title was \"Chief Yahoo,\" but he was proud that his unofficial title was \"Cheap Yahoo.\" Soon after we arrived at Yahoo, we got an email from Filo, who had been crawling around our directory hierarchy, asking if it was really necessary to store so much of our data on expensive RAID drives. I was impressed by that. Yahoo's market cap then was already in the billions, and they were still worrying about wasting a few gigs of disk space.",
+      "zhMarkdown": "花钱慢的另一个原因是为了鼓励省钱的文化。这是雅虎确实理解的事情。大卫·费罗（David Filo）的头衔是“首席雅虎”，但他为自己的非官方头衔是“小气雅虎”感到自豪。我们到达雅虎后不久，收到了费罗的一封电子邮件，他一直在我们的目录层次结构中搜寻，询问是否真的有必要在昂贵的 RAID 驱动器上存储我们这么多的数据。这给我留下了深刻的印象。雅虎当时的市值已经达到数十亿，他们仍然在担心浪费几个 G 的磁盘空间。"
+    },
+    {
+      "id": 102,
+      "type": "paragraph",
+      "sourceHash": "90c41a3bbb0b62dbfd71c01f7824809f747616e8e73d186ac37b658c28a48241",
+      "enMarkdown": "When you get a couple million dollars from a VC firm, you tend to feel rich. It's important to realize you're not. A rich company is one with large revenues. This money isn't revenue. It's money investors have given you in the hope you'll be able to generate revenues. So despite those millions in the bank, you're still poor.",
+      "zhMarkdown": "当你从风投公司拿到几百万美元时，你往往会觉得自己很富有。重要的是要意识到你并不富有。富有的公司是拥有巨额收入的公司。这笔钱不是收入。这是投资人给你的钱，希望你能够产生收入。所以尽管银行里有几百万，你仍然很穷。"
+    },
+    {
+      "id": 103,
+      "type": "paragraph",
+      "sourceHash": "663315fcd1d225e12688db4b551fb1f6bbfc2f7266a35ffbc4522f714775406b",
+      "enMarkdown": "For most startups the model should be grad student, not law firm. Aim for cool and cheap, not expensive and impressive. For us the test of whether a startup understood this was whether they had Aeron chairs. The Aeron came out during the Bubble and was very popular with startups. Especially the type, all too common then, that was like a bunch of kids playing house with money supplied by VCs. We had office chairs so cheap that the arms all fell off. This was slightly embarrassing at the time, but in retrospect the grad-studenty atmosphere of our office was another of those things we did right without knowing it.",
+      "zhMarkdown": "对于大多数创业公司来说，模型应该是研究生，而不是律师事务所。目标是酷和便宜，而不是昂贵和令人印象深刻。对我们来说，测试一个创业公司是否理解这一点的标准是他们是否有 Aeron 椅子。Aeron 椅子在泡沫时期出现，在创业公司中非常流行。特别是那种，当时太常见了，就像一群孩子拿着风投提供的钱在过家家。我们的办公椅便宜到扶手都掉光了。这在当时有点尴尬，但回想起来，我们办公室的研究生氛围是我们在不知不觉中做对的另一件事。"
+    },
+    {
+      "id": 104,
+      "type": "paragraph",
+      "sourceHash": "fd8740682ff631fad4375dfb7b612a6f2f95c7bde73d9dc62ae80865980da813",
+      "enMarkdown": "Our offices were in a wooden triple-decker in Harvard Square. It had been an apartment until about the 1970s, and there was still a claw-footed bathtub in the bathroom. It must once have been inhabited by someone fairly eccentric, because a lot of the chinks in the walls were stuffed with aluminum foil, as if to protect against cosmic rays. When eminent visitors came to see us, we were a bit sheepish about the low production values. But in fact that place was the perfect space for a startup. We felt like our role was to be impudent underdogs instead of corporate stuffed shirts, and that is exactly the spirit you want.",
+      "zhMarkdown": "我们的办公室在哈佛广场的一栋木制三层楼里。直到1970年代左右，它一直是一间公寓，浴室里还有一个爪足浴缸。它曾经一定是由某个相当古怪的人居住的，因为墙上的许多缝隙都塞满了铝箔，仿佛是为了防止宇宙射线。当显赫的访客来看我们时，我们对低劣的制作水准有点羞怯。但事实上，那个地方是创业公司的完美空间。我们觉得自己扮演的角色是傲慢的挑战者，而不是公司的墨守成规者，这正是你想要的精力。"
+    },
+    {
+      "id": 105,
+      "type": "paragraph",
+      "sourceHash": "3aad15c963a9c7b8a6a3e68d44da1663ea144e3b2779e97f80b8e00f9cb7a25a",
+      "enMarkdown": "An apartment is also the right kind of place for developing software. Cube farms suck for that, as you've probably discovered if you've tried it. Ever notice how much easier it is to hack at home than at work? So why not make work more like home?",
+      "zhMarkdown": "公寓也是开发软件的正确场所。格子间农场对此很糟糕，如果你尝试过，你可能已经发现了。有没有注意到在家里写代码比在工作时容易得多？那么为什么不把工作变得更像家呢？"
+    },
+    {
+      "id": 106,
+      "type": "paragraph",
+      "sourceHash": "fea86e0e2d868ea04570c93bec9576a598271d8f31c3d6b8f6326b4dd0ccd13e",
+      "enMarkdown": "When you're looking for space for a startup, don't feel that it has to look professional. Professional means doing good work, not elevators and glass walls. I'd advise most startups to avoid corporate space at first and just rent an apartment. You want to live at the office in a startup, so why not have a place designed to be lived in as your office?",
+      "zhMarkdown": "当你在为创业公司寻找空间时，不要觉得它必须看起来很专业。专业意味着做好工作，而不是电梯和玻璃墙。我建议大多数创业公司起初避免公司空间，只租一间公寓。在创业公司里你想要住在办公室，那么为什么不用一个设计来住的地方作为你的办公室呢？"
+    },
+    {
+      "id": 107,
+      "type": "paragraph",
+      "sourceHash": "4cca39be6fcd152f7c3e663b2bcaff6e902882a2805d84ffbe27210022b7cab0",
+      "enMarkdown": "Besides being cheaper and better to work in, apartments tend to be in better locations than office buildings. And for a startup location is very important. The key to productivity is for people to come back to work after dinner. Those hours after the phone stops ringing are by far the best for getting work done. Great things happen when a group of employees go out to dinner together, talk over ideas, and then come back to their offices to implement them. So you want to be in a place where there are a lot of restaurants around, not some dreary office park that's a wasteland after 6:00 PM. Once a company shifts over into the model where everyone drives home to the suburbs for dinner, however late, you've lost something extraordinarily valuable. God help you if you actually start in that mode.",
+      "zhMarkdown": "除了更便宜、更适合工作之外，公寓往往比写字楼有更好的位置。对于创业公司来说，位置非常重要。生产力的关键是人们在晚饭后回来工作。电话停止响铃后的那些小时是迄今为止完成工作最好的时间。当一群员工一起出去吃晚饭，讨论想法，然后回到他们的办公室实现它们时，伟大的事情就会发生。所以你想在一个周围有很多餐馆的地方，而不是在某个下午6:00后就变成荒地的沉闷的办公园区。一旦一家公司转变为每个人都开车回家去郊区吃晚饭的模式，无论多晚，你都失去了一些极其宝贵的东西。如果你实际上以那种模式开始，上帝保佑你。"
+    },
+    {
+      "id": 108,
+      "type": "paragraph",
+      "sourceHash": "a136286a90c2404571c29c010b4d23b431f845dfcbc49357ff69cbefe93610a2",
+      "enMarkdown": "If I were going to start a startup today, there are only three places I'd consider doing it: on the Red Line near Central, Harvard, or Davis Squares (Kendall is too sterile); in Palo Alto on University or California Aves; and in Berkeley immediately north or south of campus. These are the only places I know that have the right kind of vibe.",
+      "zhMarkdown": "如果我今天创办一家创业公司，我只会考虑三个地方：在中央广场、哈佛广场或戴维斯广场附近的红线（肯德尔太贫瘠）；在帕洛阿尔托的大学大道或加利福尼亚大道；以及在伯克利校园紧邻的北部或南部。这些是我所知道的仅有的具有正确氛围的地方。"
+    },
+    {
+      "id": 109,
+      "type": "paragraph",
+      "sourceHash": "899fc410153eac3fd285f0c029d7811f544cee65e8bbc43f605d69bf7e78c57f",
+      "enMarkdown": "The most important way to not spend money is by not hiring people. I may be an extremist, but I think hiring people is the worst thing a company can do. To start with, people are a recurring expense, which is the worst kind. They also tend to cause you to grow out of your space, and perhaps even move to the sort of uncool office building that will make your software worse. But worst of all, they slow you down: instead of sticking your head in someone's office and checking out an idea with them, eight people have to have a meeting about it. So the fewer people you can hire, the better.",
+      "zhMarkdown": "不花钱最重要的途径是不雇人。我可能是一个极端主义者，但我认为雇人是一个公司能做的最糟糕的事情。首先，人是经常性开支，这是最糟糕的一种。他们还往往导致你搬出你的空间，甚至搬到那种会让你的软件变差的无趣的写字楼。但最糟糕的是，他们减慢了你的速度：不是把头探进别人的办公室和他们确认一个想法，而是八个人必须开会讨论它。所以你雇的人越少越好。"
+    },
+    {
+      "id": 110,
+      "type": "paragraph",
+      "sourceHash": "49ff3f37c1339e7fee1566657827601b97b32bbf6c5023147a3dc7503b6b4d1b",
+      "enMarkdown": "During the Bubble a lot of startups had the opposite policy. They wanted to get \"staffed up\" as soon as possible, as if you couldn't get anything done unless there was someone with the corresponding job title. That's big company thinking. Don't hire people to fill the gaps in some a priori org chart. The only reason to hire someone is to do something you'd like to do but can't.",
+      "zhMarkdown": "在泡沫时期，许多创业公司采取了相反的政策。他们希望尽快“配齐人员”，仿佛除非有对应头衔的人，否则你就无法完成任何事情。这是大公司的思维方式。不要为了填补某些先验的组织架构图而雇人。雇人的唯一原因是为了做你想做但不能做的事情。"
+    },
+    {
+      "id": 111,
+      "type": "paragraph",
+      "sourceHash": "33cfd4b58d5ad6c431fb7015733db9d586d916d8f165748c92dcf23a12f8f9f1",
+      "enMarkdown": "If hiring unnecessary people is expensive and slows you down, why do nearly all companies do it? I think the main reason is that people like the idea of having a lot of people working for them. This weakness often extends right up to the CEO. If you ever end up running a company, you'll find the most common question people ask is how many employees you have. This is their way of weighing you. It's not just random people who ask this; even reporters do. And they're going to be a lot more impressed if the answer is a thousand than if it's ten.",
+      "zhMarkdown": "如果雇佣不必要的人代价高昂且会减慢你的速度，为什么几乎所有公司都这么做？我认为主要原因是人们喜欢有很多人为他们工作的想法。这种弱点经常延伸到 CEO。如果你最终运营一家公司，你会发现人们最常问的问题是你有多少员工。这是他们衡量你的方式。不只是随机的人问这个，甚至记者也问。如果答案是一千而不是十，他们会留下深刻得多的印象。"
+    },
+    {
+      "id": 112,
+      "type": "paragraph",
+      "sourceHash": "6b4a78c166c52bf65e493ee0373e18a4c388ec78d8fe12c0813708fea096d917",
+      "enMarkdown": "This is ridiculous, really. If two companies have the same revenues, it's the one with fewer employees that's more impressive. When people used to ask me how many people our startup had, and I answered \"twenty,\" I could see them thinking that we didn't count for much. I used to want to add \"but our main competitor, whose ass we regularly kick, has a hundred and forty, so can we have credit for the larger of the two numbers?\"",
+      "zhMarkdown": "这真的很荒谬。如果两家公司有相同的收入，员工较少的那家更令人印象深刻。当人们过去问我我们的创业公司有多少人，我回答“二十”时，我能看到他们认为我们不值一提。我过去想补充说“但我们的主要竞争对手，我们经常打败他们，有一百四十人，所以我们可以算作这两个数字中较大的一个吗？”"
+    },
+    {
+      "id": 113,
+      "type": "paragraph",
+      "sourceHash": "d9abfa872d2df28bbf1fbbba6f53a04a031ab7cb6fe874925242f4eee0c3289c",
+      "enMarkdown": "As with office space, the number of your employees is a choice between seeming impressive, and being impressive. Any of you who were [nerds](https://paulgraham.com/nerds.html) in high school know about this choice. Keep doing it when you start a company.",
+      "zhMarkdown": "与办公空间一样，你的员工数量是在显得令人印象深刻和真正令人印象深刻之间的选择。你们中任何在高中时是[书呆子](https://paulgraham.com/nerds.html)的人都知道这种选择。创办公司时继续这样做。"
+    },
+    {
+      "id": 114,
+      "type": "paragraph",
+      "sourceHash": "a301699bbef19d3092bc0a8549230a50922081d720e9c48aeb996318545e1d35",
+      "enMarkdown": "**Should You?**",
+      "zhMarkdown": "**你应该吗？**"
+    },
+    {
+      "id": 115,
+      "type": "paragraph",
+      "sourceHash": "8e12b38638c5b129c8b52a1ed06ce332eea433e0908b1ebeee7d7ccad6577c93",
+      "enMarkdown": "But should you start a company? Are you the right sort of person to do it? If you are, is it worth it?",
+      "zhMarkdown": "但你应该创办一家公司吗？你是合适做这件事的人吗？如果是，值得吗？"
+    },
+    {
+      "id": 116,
+      "type": "paragraph",
+      "sourceHash": "c57a91781f4b346857e9fe172c57e51b9f4d3fc09dd2ff4a7eb76b158a146dcd",
+      "enMarkdown": "More people are the right sort of person to start a startup than realize it. That's the main reason I wrote this. There could be ten times more startups than there are, and that would probably be a good thing.",
+      "zhMarkdown": "合适创办创业公司的人比意识到这一点的人要多。这是我写这篇文章的主要原因。创业公司的数量可以是现在的十倍，这可能会是一件好事。"
+    },
+    {
+      "id": 117,
+      "type": "paragraph",
+      "sourceHash": "07947111a470b104135b28b59b6530cccb83454349c83738e5ac2d1f8ac61ff6",
+      "enMarkdown": "I was, I now realize, exactly the right sort of person to start a startup. But the idea terrified me at first. I was forced into it because I was a [Lisp](https://paulgraham.com/icad.html) hacker. The company I'd been consulting for seemed to be running into trouble, and there were not a lot of other companies using Lisp. Since I couldn't bear the thought of programming in another language (this was 1995, remember, when \"another language\" meant C++) the only option seemed to be to start a new company using Lisp.",
+      "zhMarkdown": "我现在意识到，我正是创办创业公司的合适人选。但这个想法起初让我感到恐惧。我被迫进入其中是因为我是一个 [Lisp](https://paulgraham.com/icad.html) 黑客。我一直咨询的公司似乎陷入了困境，而使用 Lisp 的其他公司并不多。因为我无法忍受用另一种语言编程的想法（记住这是1995年，当时“另一种语言”意味着 C++），唯一的选择似乎是用 Lisp 创办一家新公司。"
+    },
+    {
+      "id": 118,
+      "type": "paragraph",
+      "sourceHash": "2add60c4c83806cd713f8713ee629ddc82f1be40385bd25c1b6a911dc2ea9c9c",
+      "enMarkdown": "I realize this sounds far-fetched, but if you're a Lisp hacker you'll know what I mean. And if the idea of starting a startup frightened me so much that I only did it out of necessity, there must be a lot of people who would be good at it but who are too intimidated to try.",
+      "zhMarkdown": "我知道这听起来很牵强，但如果你是 Lisp 黑客，你会明白我的意思。如果创办创业公司的想法让我如此害怕，以至于我只是出于必要才这样做，那么肯定有很多人会擅长它，但因为太害怕而不敢尝试。"
+    },
+    {
+      "id": 119,
+      "type": "paragraph",
+      "sourceHash": "8e7f6ff130ba42882b987244e896cca1700a84729d6c102817850cbdbf511d04",
+      "enMarkdown": "So who should start a startup? Someone who is a good hacker, between about 23 and 38, and who wants to solve the money problem in one shot instead of getting paid gradually over a conventional working life.",
+      "zhMarkdown": "那么谁应该创办创业公司？一个优秀的黑客，年龄在23到38岁之间，并且想一举解决金钱问题，而不是在常规的工作生涯中逐渐获得报酬。"
+    },
+    {
+      "id": 120,
+      "type": "paragraph",
+      "sourceHash": "73999e9856ebc6228df46e74dd0e9ac3edf2cc83a1aa26e17fcfc163e3160653",
+      "enMarkdown": "I can't say precisely what a good hacker is. At a first rate university this might include the top half of computer science majors. Though of course you don't have to be a CS major to be a hacker; I was a philosophy major in college.",
+      "zhMarkdown": "我无法精确说明什么是优秀的黑客。在第一流的大学里，这可能包括计算机科学专业前一半的学生。当然你不需要是 CS 专业才能成为黑客；我大学是哲学专业的。"
+    },
+    {
+      "id": 121,
+      "type": "paragraph",
+      "sourceHash": "1e0e5ec6ad236d3e4ecc0707c6f4e8274f160ed1e2c14169f4243edc5a9542bd",
+      "enMarkdown": "It's hard to tell whether you're a good hacker, especially when you're young. Fortunately the process of starting startups tends to select them automatically. What drives people to start startups is (or should be) looking at existing technology and thinking, don't these guys realize they should be doing x, y, and z? And that's also a sign that one is a good hacker.",
+      "zhMarkdown": "很难判断你是否是一个优秀的黑客，尤其是当你年轻的时候。幸运的是，创办创业公司的过程倾向于自动选择他们。驱使人们创办创业公司的是（或应该是）看着现有的技术并思考，这些人难道没有意识到他们应该做 x、y 和 z 吗？这也是一个人是优秀黑客的迹象。"
+    },
+    {
+      "id": 122,
+      "type": "paragraph",
+      "sourceHash": "ec9a669000d53d3e41dc84a1a23e9264541dbfef4b80bf3612dce3bd41f8c069",
+      "enMarkdown": "I put the lower bound at 23 not because there's something that doesn't happen to your brain till then, but because you need to see what it's like in an existing business before you try running your own. The business doesn't have to be a startup. I spent a year working for a software company to pay off my college loans. It was the worst year of my adult life, but I learned, without realizing it at the time, a lot of valuable lessons about the software business. In this case they were mostly negative lessons: don't have a lot of meetings; don't have chunks of code that multiple people own; don't have a sales guy running the company; don't make a high-end product; don't let your code get too big; don't leave finding bugs to QA people; don't go too long between releases; don't isolate developers from users; don't move from Cambridge to Route 128; and so on. [8] But negative lessons are just as valuable as positive ones. Perhaps even more valuable: it's hard to repeat a brilliant performance, but it's straightforward to avoid errors. [9]",
+      "zhMarkdown": "我把下限定在23岁，不是因为在23岁之前你的大脑不会发生什么，而是因为在尝试运营自己的公司之前，你需要看看在现有的企业中是什么样子的。该企业不一定是创业公司。我花了一年时间为一家软件公司工作以偿还我的大学贷款。这是我成年生活中最糟糕的一年，但我学到了，当时没有意识到，许多关于软件业务的宝贵教训。在这种情况下，它们大多是否定教训：不要开很多会；不要让多个人拥有代码块；不要让销售人员运营公司；不要制造高端产品；不要让你的代码变得太大；不要把寻找 Bug 留给 QA 人员；不要在发布之间隔太久；不要将开发人员与用户隔离；不要从剑桥搬到128号公路；等等。[8] 但否定教训与肯定教训一样有价值。也许甚至更有价值：很难重复精彩的表现，但避免错误是很直接的。[9]"
+    },
+    {
+      "id": 123,
+      "type": "paragraph",
+      "sourceHash": "5b2889bfc5ba6b000fac414c38854f16a8c73ef44261985217f0f78d570460ab",
+      "enMarkdown": "The other reason it's hard to start a company before 23 is that people won't take you seriously. VCs won't trust you, and will try to reduce you to a mascot as a condition of funding. Customers will worry you're going to flake out and leave them stranded. Even you yourself, unless you're very unusual, will feel your age to some degree; you'll find it awkward to be the boss of someone much older than you, and if you're 21, hiring only people younger rather limits your options.",
+      "zhMarkdown": "在23岁之前很难创办公司的另一个原因是人们不会认真对待你。风投不会信任你，并会试图将你降为吉祥物作为融资的条件。客户会担心你会逃跑并让他们陷入困境。甚至你自己，除非你非常不寻常，否则在某种程度上会感受到你的年龄；你会发现成为比你大得多的人的老板很尴尬，如果你21岁，只雇佣更年轻的人相当限制了你的选择。"
+    },
+    {
+      "id": 124,
+      "type": "paragraph",
+      "sourceHash": "19e17f33c7bd3463426cafa12a99faad0fbb21d2e8882a3bfdd8c66e99063374",
+      "enMarkdown": "Some people could probably start a company at 18 if they wanted to. Bill Gates was 19 when he and Paul Allen started Microsoft. (Paul Allen was 22, though, and that probably made a difference.) So if you're thinking, I don't care what he says, I'm going to start a company now, you may be the sort of person who could get away with it.",
+      "zhMarkdown": "如果他们愿意，有些人可能在18岁就能创办公司。比尔·盖茨和保罗·艾伦创办微软时是19岁。（不过保罗·艾伦是22岁，这可能起到了作用。）所以如果你在想，我不管他说什么，我现在就要创办一家公司，你可能是那种可以成功应对的人。"
+    },
+    {
+      "id": 125,
+      "type": "paragraph",
+      "sourceHash": "5bf7a45d176f5323cf046a67e8e7e2dd21ae3b03199beedce12c5a2b64c18f00",
+      "enMarkdown": "The other cutoff, 38, has a lot more play in it. One reason I put it there is that I don't think many people have the physical stamina much past that age. I used to work till 2:00 or 3:00 AM every night, seven days a week. I don't know if I could do that now.",
+      "zhMarkdown": "另一个界限，38岁，有大得多的弹性。我把它定在那里的一个原因是我不认为很多人在那个年龄之后还有身体耐力。我过去每天晚上工作到凌晨2:00或3:00，每周七天。我不知道我现在是否能做到这一点。"
+    },
+    {
+      "id": 126,
+      "type": "paragraph",
+      "sourceHash": "bcf6ebf993460682bfd4958550c76d17cff0c23c1bd757e8a75696dab70a17d7",
+      "enMarkdown": "Also, startups are a big risk financially. If you try something that blows up and leaves you broke at 26, big deal; a lot of 26 year olds are broke. By 38 you can't take so many risks-- especially if you have kids.",
+      "zhMarkdown": "此外，创业公司在财务上是一个巨大的风险。如果你尝试了一些事情，结果爆炸了，让你在26岁时破产，没什么大不了的；很多26岁的人都破产了。到38岁，你不能承担这么多风险——特别是如果你有孩子。"
+    },
+    {
+      "id": 127,
+      "type": "paragraph",
+      "sourceHash": "fe6a070ae1c565a25148f688ce6c91076a36bcb443a4ca59b62b16809db39205",
+      "enMarkdown": "My final test may be the most restrictive. Do you actually want to start a startup? What it amounts to, economically, is compressing your working life into the smallest possible space. Instead of working at an ordinary rate for 40 years, you work like hell for four. And maybe end up with nothing-- though in that case it probably won't take four years.",
+      "zhMarkdown": "我的最后一项测试可能是最严格的。你真的想创办一家创业公司吗？在经济上，它相当于将你的工作生涯压缩到尽可能小的空间。不是以普通的速度工作40年，而是像疯子一样工作四年。也许最终一无所有——尽管在那种情况下可能不需要四年。"
+    },
+    {
+      "id": 128,
+      "type": "paragraph",
+      "sourceHash": "76bab296392fed407ab9b7710a1f194bdf0e2c20fad0234aed084fb39519ddd1",
+      "enMarkdown": "During this time you'll do little but work, because when you're not working, your competitors will be. My only leisure activities were running, which I needed to do to keep working anyway, and about fifteen minutes of reading a night. I had a girlfriend for a total of two months during that three year period. Every couple weeks I would take a few hours off to visit a used bookshop or go to a friend's house for dinner. I went to visit my family twice. Otherwise I just worked.",
+      "zhMarkdown": "在这段时间里，你除了工作几乎什么都不做，因为当你不工作时，你的竞争对手会工作。我唯一的休闲活动是跑步（为了保持工作状态我必须跑），以及每晚大约十五分钟的阅读。在那三年期间，我总共交了两个月的女朋友。每隔两周，我会抽几个小时去旧书店或去朋友家吃晚饭。我去看过家人两次。其他时间我只是工作。"
+    },
+    {
+      "id": 129,
+      "type": "paragraph",
+      "sourceHash": "ea53e83bc12a0925f19118f8ceccc82ee5a79f4489c87dc14606511ca3faca82",
+      "enMarkdown": "Working was often fun, because the people I worked with were some of my best friends. Sometimes it was even technically interesting. But only about 10% of the time. The best I can say for the other 90% is that some of it is funnier in hindsight than it seemed then. Like the time the power went off in Cambridge for about six hours, and we made the mistake of trying to start a gasoline powered generator inside our offices. I won't try that again.",
+      "zhMarkdown": "工作经常很有趣，因为和我一起工作的人是我最好的一些朋友。有时它甚至在技术上很有趣。但只有大约10%的时间。对于其他90%的时间，我能说的最好的是，事后看来有些事情比当时看起来更有趣。比如剑桥停电了大约六小时那次，我们犯了试图在办公室内启动汽油发电机的错误。我不会再尝试那个了。"
+    },
+    {
+      "id": 130,
+      "type": "paragraph",
+      "sourceHash": "e8d7107e527c7be82227677252b9690df64c20bf149a83d9fe08795fabcd0682",
+      "enMarkdown": "I don't think the amount of bullshit you have to deal with in a startup is more than you'd endure in an ordinary working life. It's probably less, in fact; it just seems like a lot because it's compressed into a short period. So mainly what a startup buys you is time. That's the way to think about it if you're trying to decide whether to start one. If you're the sort of person who would like to solve the money problem once and for all instead of working for a salary for 40 years, then a startup makes sense.",
+      "zhMarkdown": "我不认为你在创业公司中必须处理的破事比你在普通工作生涯中忍受的要多。事实上可能更少；它只是因为被压缩在一个很短的时期内而显得很多。所以创业公司主要为你买下的是时间。如果你在试图决定是否创办一家创业公司，这就是思考它的方式。如果你是那种想一劳永逸地解决金钱问题而不是为薪水工作40年的人，那么创业是有道理的。"
+    },
+    {
+      "id": 131,
+      "type": "paragraph",
+      "sourceHash": "3e05461e2b53106247bdf95dc1b43b6e63576ed06f18631b4f9a78d2bcea010d",
+      "enMarkdown": "For a lot of people the conflict is between startups and graduate school. Grad students are just the age, and just the sort of people, to start software startups. You may worry that if you do you'll blow your chances of an academic career. But it's possible to be part of a startup and stay in grad school, especially at first. Two of our three original hackers were in grad school the whole time, and both got their [degrees](https://paulgraham.com/tlbphd.html). There are few sources of energy so powerful as a procrastinating grad student.",
+      "zhMarkdown": "对很多人来说，冲突在于创业公司和研究生院之间。研究生正是创办软件创业公司的年龄，也是那类人。你可能会担心如果你这样做会毁掉你学术生涯的机会。但是参与创业公司并留在研究生院是可能的，尤其是在起步阶段。我们最初的三位黑客中有两位全程都在读研究生，并且都获得了他们的[学位](https://paulgraham.com/tlbphd.html)。几乎没有比拖延的研究生更强大的能量来源了。"
+    },
+    {
+      "id": 132,
+      "type": "paragraph",
+      "sourceHash": "ce46eba3c93487e90879c24583a3609731bd60cb08af8de7305d29db29900a67",
+      "enMarkdown": "If you do have to leave grad school, in the worst case it won't be for too long. If a startup fails, it will probably fail quickly enough that you can return to academic life. And if it succeeds, you may find you no longer have such a burning desire to be an assistant professor.",
+      "zhMarkdown": "如果你确实必须离开研究生院，在最坏的情况下不会太久。如果创业公司失败了，它可能会失败得足够快，以至于你可以回到学术生活。如果它成功了，你可能会发现你不再有当助理教授的强烈愿望。"
+    },
+    {
+      "id": 133,
+      "type": "paragraph",
+      "sourceHash": "2f588e447f8478fb4643c95bc5927d2dfaaf22b6202b679e69d81976cd6f0bea",
+      "enMarkdown": "If you want to do it, do it. Starting a startup is not the great mystery it seems from outside. It's not something you have to know about \"business\" to do. Build something users love, and spend less than you make. How hard is that?",
+      "zhMarkdown": "如果你想做，就做。创办创业公司并不是从外面看起来那样的巨大谜团。这不是你必须了解“商业”才能做的事情。构建用户喜爱的产品，并且花得比赚得少。这有多难？"
+    },
+    {
+      "id": 134,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 135,
+      "type": "paragraph",
+      "sourceHash": "7eb4d1a2ea97198db100bf1ffd201a67c7e5d863b09ec2896eeebeac4eef073a",
+      "enMarkdown": "[1] Google's revenues are about two billion a year, but half comes from ads on other sites.",
+      "zhMarkdown": "[1] 谷歌的收入大约是每年二十亿，但一半来自其他网站上的广告。"
+    },
+    {
+      "id": 136,
+      "type": "paragraph",
+      "sourceHash": "8c20444f26f0215d8aad2f8321219d9e8e63e0af181be878c5f00c827dd91756",
+      "enMarkdown": "[2] One advantage startups have over established companies is that there are no discrimination laws about starting businesses. For example, I would be reluctant to start a startup with a woman who had small children, or was likely to have them soon. But you're not allowed to ask prospective employees if they plan to have kids soon. Believe it or not, under current US law, you're not even allowed to discriminate on the basis of intelligence. Whereas when you're starting a company, you can discriminate on any basis you want about who you start it with.",
+      "zhMarkdown": "[2] 创业公司相对于老牌公司的一个优势是，在创办企业时没有歧视法。例如，我不愿意与一个有小孩子或可能很快有小孩子的女性一起创办创业公司。但你不被允许询问未来的员工他们是否计划很快要孩子。信不信由你，在现行的美国法律下，你甚至不被允许根据智力进行歧视。而在创办公司时，你可以根据任何你想要的基准来歧视与谁一起创办。"
+    },
+    {
+      "id": 137,
+      "type": "paragraph",
+      "sourceHash": "6845004724949cdf73180179b20fa8ef9e6bba93af341bfd5fca6360fb8ad551",
+      "enMarkdown": "[3] Learning to hack is a lot cheaper than business school, because you can do it mostly on your own. For the price of a Linux box, a copy of K&R, and a few hours of advice from your neighbor's fifteen year old son, you'll be well on your way.",
+      "zhMarkdown": "[3] 学习写代码比商学院便宜得多，因为你大多可以自己做。花一台 Linux 电脑的价格、一本 K&R，以及向邻居十五岁儿子请教几个小时的建议，你就可以上路了。"
+    },
+    {
+      "id": 138,
+      "type": "paragraph",
+      "sourceHash": "51ddb1160e3de2397334f1fe4bf30445a857b0f85501d809a68d775183e4139e",
+      "enMarkdown": "[4] Corollary: Avoid starting a startup to sell things to the biggest company of all, the government. Yes, there are lots of opportunities to sell them technology. But let someone else start those startups.",
+      "zhMarkdown": "[4] 推论：避免创办创业公司向最大的公司——政府出售东西。是的，有很多向他们出售技术的机会。但让别人去创办那些创业公司。"
+    },
+    {
+      "id": 139,
+      "type": "paragraph",
+      "sourceHash": "2308d520d44a6f3b200f07b96959d7d1a236eea5af53a7c540780922b58d663e",
+      "enMarkdown": "[5] A friend who started a company in Germany told me they do care about the paperwork there, and that there's more of it. Which helps explain why there are not more startups in Germany.",
+      "zhMarkdown": "[5] 一个在德国创办公司的朋友告诉我，他们那里确实在乎文书工作，而且有很多。这有助于解释为什么德国没有更多的创业公司。"
+    },
+    {
+      "id": 140,
+      "type": "paragraph",
+      "sourceHash": "d8d114878ed7fb449b071142fcdf62ef2aee55148d30cc5944934984872d593b",
+      "enMarkdown": "[6] At the seed stage our valuation was in principle $100,000, because Julian got 10% of the company. But this is a very misleading number, because the money was the least important of the things Julian gave us.",
+      "zhMarkdown": "[6] 在种子阶段，我们的估值原则上是 100,000 美元，因为朱利安得到了公司 10% 的股份。但这是一个非常具有误导性的数字，因为资金是朱利安给我们的东西中最不重要的。"
+    },
+    {
+      "id": 141,
+      "type": "paragraph",
+      "sourceHash": "44a0f4d7b2c54d80be5c74de27792a72eb7722f7341053daa1b7ed0343987062",
+      "enMarkdown": "[7] The same goes for companies that seem to want to acquire you. There will be a few that are only pretending to in order to pick your brains. But you can never tell for sure which these are, so the best approach is to seem entirely open, but to fail to mention a few critical technical secrets.",
+      "zhMarkdown": "[7] 这同样适用于似乎想收购你的公司。会有一些公司只是假装，以便剽窃你的想法。但你永远无法确定哪些是，所以最好的方法是显得完全开放，但不提及几个关键的技术秘密。"
+    },
+    {
+      "id": 142,
+      "type": "paragraph",
+      "sourceHash": "6db50231c675899157d19a960ad0a8c662959067aff7389626f392d02ac05f38",
+      "enMarkdown": "[8] I was as bad an employee as this place was a company. I apologize to anyone who had to work with me there.",
+      "zhMarkdown": "[8] 我作为一个员工和这个地方作为一个公司一样糟糕。我向任何不得不与我一起工作的人道歉。"
+    },
+    {
+      "id": 143,
+      "type": "paragraph",
+      "sourceHash": "8c787bf7fcc20176bc7b80d117ec2f7a0a3d88abf553954484e33254b1f01db8",
+      "enMarkdown": "[9] You could probably write a book about how to succeed in business by doing everything in exactly the opposite way from the DMV.",
+      "zhMarkdown": "[9] 你大概可以写一本书，通过完全以与车管所（DMV）相反的方式做每一件事来在商业上取得成功。"
+    },
+    {
+      "id": 144,
+      "type": "paragraph",
+      "sourceHash": "1140be9019b0156bb3851f95a4a6c781c7c9c1c7fcbc398c40244004ca7846a8",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Sarah Harlin, Jessica Livingston, and Robert Morris for reading drafts of this essay, and to Steve Melendez and Gregory Price for inviting me to speak.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Sarah Harlin、Jessica Livingston 和 Robert Morris 阅读本文的草稿，以及 Steve Melendez 和 Gregory Price 邀请我发言。"
+    }
+  ]
+}

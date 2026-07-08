@@ -1,0 +1,195 @@
+{
+  "slug": "when",
+  "titleEn": "When To Do What You Love",
+  "titleZh": "何时该做你所爱",
+  "dateText": "September 2024",
+  "publishedAt": "2024-09-01",
+  "sourceOrder": 11,
+  "sourceUrl": "https://paulgraham.com/when.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "4590b7e7c10d326142ed6fb2fd26f4685973885ca8ed67a8a01d06509f2320a4",
+      "enMarkdown": "There's some debate about whether it's a good idea to \"follow your passion.\" In fact the question is impossible to answer with a simple yes or no. Sometimes you should and sometimes you shouldn't, but the border between should and shouldn't is very complicated. The only way to give a general answer is to trace it.",
+      "zhMarkdown": "关于是否应该“追随激情”，人们一直存在争议。事实上，这个问题无法简单地用“是”或“否”来回答。有时候你该追随，有时候则不该，而该与不该之间的界限极其复杂。给出普适回答的唯一方法，就是梳理出这一界限的脉络。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "7114c26e1a7d4b6b7fd1cbd42f28a49e09c469d44a1e4fdedcc5a01b81a7f1de",
+      "enMarkdown": "When people talk about this question, there's always an implicit \"instead of.\" All other things being equal, why wouldn't you work on what interests you the most? So even raising the question implies that all other things aren't equal, and that you have to choose between working on what interests you the most and something else, like what pays the best.",
+      "zhMarkdown": "当人们讨论这个问题时，总是隐含着一个“而不是”。在其他条件相同的情况下，你为什么不去做最让你感兴趣的事呢？所以，提出这个问题本身就意味着其他条件并不相同，你必须在“最感兴趣的事”和“其他事情”（比如赚钱最多的工作）之间做出选择。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "8b512ee33c669d02f6663ebc987721f3f1ac6d1cb80d46d65891490a15af824a",
+      "enMarkdown": "And indeed if your main goal is to make money, you can't usually afford to work on what interests you the most. People pay you for doing what they want, not what you want. But there's an obvious exception: when you both want the same thing. For example, if you love football, and you're good enough at it, you can get paid a lot to play it.",
+      "zhMarkdown": "确实，如果你的首要目标是赚钱，你通常无法负担得起只做自己最感兴趣的事。人们付钱给你，是为了让你做他们想做的事，而不是你想做的事。但有一个显而易见的例外：当你们双方想要的是同一件事时。例如，如果你热爱足球，且技术足够好，你就能通过踢球获得丰厚的报酬。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "0cbe576777bc366b4c0eb977b40747bacb6383a22a6452ea439091897022a8dc",
+      "enMarkdown": "Of course the odds are against you in a case like football, because so many other people like playing it too. This is not to say you shouldn't try though. It depends how much ability you have and how hard you're willing to work.",
+      "zhMarkdown": "当然，在足球这种事情上，概率对你是不利的，因为有太多人同样喜欢踢球。但这并不是说你不该去尝试。这取决于你有多大天赋，以及你愿意付出多大努力。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "cf4e02478ade2e520726bf21610b53b2a97accf4e073261c5405c71f4b9d40d8",
+      "enMarkdown": "The odds are better when you have strange tastes: when you like something that pays well and that few other people like. For example, it's clear that Bill Gates truly loved running a software company. He didn't just love programming, which a lot of people do. He loved writing software for customers. That is a very strange taste indeed, but if you have it, you can make a lot by indulging it.",
+      "zhMarkdown": "如果你的口味异于常人，胜算就会大得多：也就是说，你喜欢的事情回报丰厚，而且很少有其他人喜欢。例如，显而易见，比尔·盖茨是真的热爱经营一家软件公司。他不仅热爱编程（很多人都热爱），他还热爱为客户编写软件。这确实是一种非常奇特的偏好，但如果你恰好有这种偏好，你就能通过放纵这一爱好来赚大钱。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "bc061da92211f91894df14f0112e2d1ee9cfb61e57bb000e2f201628ce9786fa",
+      "enMarkdown": "There are even some people who have a genuine intellectual interest in making money. This is distinct from mere greed. They just can't help noticing when something is mispriced, and can't help doing something about it. It's like a puzzle for them. [[1](#f1n)]",
+      "zhMarkdown": "甚至还有一些人，对赚钱本身抱有真正的理智兴趣。这与单纯的贪婪不同。他们只是忍不住会注意到什么时候东西被定价错误，并且忍不住要对此做点什么。对他们来说，这就像一个谜题。[[1](#f1n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "4483bd53877ea628184ec3ecba6ce1b44b96078587445023cdb8a92b56c220f3",
+      "enMarkdown": "In fact there's an edge case here so spectacular that it turns all the preceding advice on its head. If you want to make a really huge amount of money — hundreds of millions or even billions of dollars — it turns out to be very useful to work on what interests you the most. The reason is not the extra motivation you get from doing this, but that the way to make a really large amount of money is to start a startup, and working on what interests you is an excellent way to discover [startup ideas](https://paulgraham.com/startupideas.html).",
+      "zhMarkdown": "事实上，这里存在一个极其惊人的边缘案例，它颠覆了前面所有的建议。如果你想赚到极其巨额的财富——数亿甚至数十亿美元——事实证明，去做最让你感兴趣的事是非常有用的。原因不在于这样做能给你带来额外的动力，而在于赚取巨额财富的方法是创办一家创业公司，而做你感兴趣的事是发现[创业想法](https://paulgraham.com/startupideas.html)的极佳途径。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "c8e0b0dae36fa5c497b9a4e51d3f2561039f2685ee58f59a532a9675bfdf51c8",
+      "enMarkdown": "Many if not most of the biggest startups began as projects the founders were doing for fun. Apple, Google, and Facebook all began that way. Why is this pattern so common? Because the best ideas tend to be such outliers that you'd overlook them if you were consciously looking for ways to make money. Whereas if you're young and good at technology, your unconscious instincts about what would be interesting to work on are very well aligned with what needs to be built.",
+      "zhMarkdown": "在那些最庞大的创业公司中，即使不是绝大多数，也有许多最初只是创始人为了好玩而做的项目。苹果、谷歌和 Facebook 都是这样开始的。为什么这种模式如此普遍？因为最好的想法往往是如此特立独行，以至于如果你刻意去寻找赚钱的方法，反而会忽略它们。而如果你年轻且精通技术，你对“什么东西做起来有意思”的潜意识直觉，往往与“什么东西需要被建造出来”高度吻合。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "3cfe1c196552ae198c43e21e5fd970acc987cbafb5f176706c53cffd2a1db434",
+      "enMarkdown": "So there's something like a midwit peak for making money. If you don't need to make much, you can work on whatever you're most interested in; if you want to become moderately rich, you can't usually afford to; but if you want to become super rich, and you're young and good at technology, working on what you're most interested in becomes a good idea again.",
+      "zhMarkdown": "因此，在赚钱这件事上，存在一个类似“中庸之巅”的现象。如果你不需要赚太多钱，你可以做任何你最感兴趣的事；如果你想变得中产富裕，你通常无法负担这个奢侈；但如果你想变得超级富有，并且你年轻且精通技术，那么做你最感兴趣的事，就再次变成了一个好主意。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "88c9390dd83d9e164a7ae3a53f7261143f2fde5ce6916604512c981b1d9088ab",
+      "enMarkdown": "What if you're not sure what you want? What if you're attracted to the idea of making money and more attracted to some kinds of work than others, but neither attraction predominates? How do you break ties?",
+      "zhMarkdown": "如果你不确定自己想要什么呢？如果你既被赚钱的想法所吸引，又对某些工作比其他工作更感兴趣，但这两者都没有占据绝对主导地位，你该如何打破僵局？"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "a0863133033a6512e501ad220bdd426ee17f057e7046c8bf960c6582f4f66aef",
+      "enMarkdown": "The key here is to understand that such ties are only apparent. When you have trouble choosing between following your interests and making money, it's never because you have complete knowledge of yourself and of the types of work you're choosing between, and the options are perfectly balanced. When you can't decide which path to take, it's almost always due to ignorance. In fact you're usually suffering from three kinds of ignorance simultaneously: you don't know what makes you happy, what the various kinds of work are really like, or how well you could do them. [[2](#f2n)]",
+      "zhMarkdown": "这里的关键在于要明白，这种势均力敌只是表象。当你难以在追随兴趣和赚钱之间做出选择时，绝不是因为你对自己以及所选择的工作有了完全的了解，且选项之间达到了完美的平衡。当你无法决定走哪条路时，几乎总是因为无知。事实上，你通常同时受困于三种无知：你不知道什么能让自己快乐，不知道各种工作的真实面貌，也不知道自己能把它们做得多好。[[2](#f2n)]"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "595b6df73429cb28518710fd393d47932f11df943493b13f98f0398c7d398c73",
+      "enMarkdown": "In a way this ignorance is excusable. It's often hard to predict these things, and no one even tells you that you need to. If you're ambitious you're told you should go to college, and this is good advice so far as it goes, but that's where it usually ends. No one tells you how to figure out what to work on, or how hard this can be.",
+      "zhMarkdown": "在某种程度上，这种无知是可以原谅的。预测这些事情往往很难，甚至没有人告诉你需要去预测。如果你有抱负，人们会告诉你应该上大学，就目前而言这是个好建议，但建议通常也就到此为止了。没有人告诉你如何弄清楚自己该做什么工作，或者这件事会有多难。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "532db780672a1936b84212c22acb5ca2dc73fffd44271f43f0dc16a8943aa4c7",
+      "enMarkdown": "What do you do in the face of uncertainty? Get more certainty. And probably the best way to do that is to try working on things you're interested in. That will get you more information about how interested you are in them, how good you are at them, and how much scope they offer for ambition.",
+      "zhMarkdown": "面对不确定性，你该怎么办？去获得更多的确定性。而做到这一点最好的方法，可能就是尝试去做你感兴趣的事情。这会让你获得更多信息，了解你对它们有多大兴趣、你有多擅长，以及它们能为你的抱负提供多大的空间。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "abdf9a6d559244b09fb03c85c7adb874a96b80e5e27eb0ef68711a420db524f7",
+      "enMarkdown": "Don't wait. Don't wait till the end of college to figure out what to work on. Don't even wait for internships during college. You don't necessarily need a job doing x in order to work on x; often you can just start doing it in some form yourself. And since figuring out what to work on is a problem that could take years to solve, the sooner you start, the better.",
+      "zhMarkdown": "不要等待。不要等到大学快结束才去想该做什么工作。甚至不要等到大学期间的实习。你不需要为了研究某件事而必须获得一份相关的工作；通常，你自己就可以开始以某种形式动手去做。既然弄清楚该做什么工作是一个可能需要数年才能解决的问题，那么你越早开始越好。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "775335cdf216dc14b33b46a7bb2d41a8fa399047dc4131ffdcad37e18eb6da81",
+      "enMarkdown": "One useful trick for judging different kinds of work is to look at who your colleagues will be. You'll become like whoever you work with. Do you want to become like these people?",
+      "zhMarkdown": "评估不同工作的一个实用窍门，是看看你的同事会是谁。你会变得像那些与你共事的人一样。你想变得像他们一样吗？"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "0f277a528424f4b2d2904c44e5a7723b8a113baa3bbce947b297e17458df30df",
+      "enMarkdown": "Indeed, the difference in character between different kinds of work is magnified by the fact that everyone else is facing the same decisions as you. If you choose a kind of work mainly for how well it pays, you'll be surrounded by other people who chose it for the same reason, and that will make it even more soul-sucking than it seems from the outside. Whereas if you choose work you're genuinely interested in, you'll be surrounded mostly by other people who are genuinely interested in it, and that will make it extra inspiring. [[3](#f3n)]",
+      "zhMarkdown": "事实上，不同工作在塑造性格上的差异，被“每个人都面临与你相同的选择”这一事实放大了。如果你选择一份工作主要是因为它的薪水高，你身边就会充斥着因为同样原因而选择它的人，这会使它比从外面看起来更加折磨灵魂。而如果你选择自己真正感兴趣的工作，你身边就会多是真正对它感兴趣的人，这会让你倍感鼓舞。[[3](#f3n)]"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "30be80d198262e61a18bcd1fa4fedc49e6408e83c9d931e09d393399e0ec9899",
+      "enMarkdown": "The other thing you do in the face of uncertainty is to make choices that are uncertainty-proof. The less sure you are about what to do, the more important it is to choose options that give you more options in the future. I call this \"staying upwind.\" If you're unsure whether to major in math or economics, for example, choose math; math is upwind of economics in the sense that it will be easier to switch later from math to economics than from economics to math.",
+      "zhMarkdown": "面对不确定性，你还要做的另一件事是做出“抗不确定性”的选择。你越不确定该做什么，选择那些在未来能给你带来更多选择的选项就越重要。我把这称为“保持在上风向”。例如，如果你不确定是主修数学还是经济学，那就选数学；数学处于经济学的上风向，因为以后从数学转向经济学，要比从经济学转向数学容易得多。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "a989329a87f37541cc71c9a7dbb228a16cb774b27220864440efa17fe6058807",
+      "enMarkdown": "There's one case, though, where it's easy to say whether you should work on what interests you the most: if you want to do [great work](https://paulgraham.com/greatwork.html). This is not a sufficient condition for doing great work, but it is a necessary one.",
+      "zhMarkdown": "不过，在一种情况下，你很容易判断自己是否应该去做最感兴趣的事：那就是如果你想做出[杰出的工作](https://paulgraham.com/greatwork.html)。这不是做出杰出工作的充分条件，但它是必要条件。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "5c2df68a47245ce64ac4b2d01d238f5decdbef0aa05f79468ed4b25f00eb5a3a",
+      "enMarkdown": "There's a lot of selection bias in advice about whether to \"follow your passion,\" and this is the reason. Most such advice comes from people who are famously successful, and if you ask someone who's famously successful how to do what they did, most will tell you that you have to work on what you're most interested in. And this is in fact true.",
+      "zhMarkdown": "关于是否应该“追随激情”的建议中存在大量的幸存者偏差，这就是原因所在。大多数此类建议来自那些名成利就的人，如果你问一个功成名就的人如何做到他们所做的事，大多数人会告诉你，你必须做你最感兴趣的事。而这确实是事实。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "542914f4c281bbd2b3cb0d9e140bc43e3ab20b9d09cb488da0227639ee750cf2",
+      "enMarkdown": "That doesn't mean it's the right advice for everyone. Not everyone can do great work, or wants to. But if you do want to, the complicated question of whether or not to work on what interests you the most becomes simple. The answer is yes. The root of great work is a sort of ambitious curiosity, and you can't manufacture that.",
+      "zhMarkdown": "这并不意味着它适合所有人。并非每个人都能做出杰出的工作，也并非每个人都想这么做。但如果你确实想，那么关于是否要做最感兴趣的事这个复杂问题就变得简单了。答案是肯定的。杰出工作的根源在于一种雄心勃勃的好奇心，而这是无法凭空制造出来的。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注**"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "119e128f9b8e6d6b2c076305f6809bd50f18f6bf2d14a6ac64a13d9aedbf1d0e",
+      "enMarkdown": "[1] These examples show why it's a mistake to assume that economic inequality must be evidence of some kind of brokenness or unfairness. It's obvious that different people have different interests, and that some interests yield far more money than others, so how can it not be obvious that some people will end up much richer than others? In a world where some people like to write enterprise software and others like to make studio pottery, economic inequality is the natural outcome.",
+      "zhMarkdown": "[1] 这些例子说明了为什么认为经济不平等必定是某种崩溃或不公的证据是错误的。显而易见，不同的人有不同的兴趣，而某些兴趣带来的资金回报远超其他，那么一些人最终比另一些人富得多，这难道不是显而易见的吗？在一个有人喜欢写企业软件、有人喜欢做手工陶艺的世界里，经济不平等是自然而然的结果。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "9aaa5976c4a69362e0c6ec442285035719b778aedea517578117f0ff1d7ac873",
+      "enMarkdown": "[2] Difficulty choosing between interests is a different matter. That's not always due to ignorance. It's often intrinsically difficult. I still have trouble doing it.",
+      "zhMarkdown": "[2] 在不同的兴趣之间难以做出选择则是另一回事。这并不总是由于无知，它往往在本质上就很困难。我至今仍为此感到困扰。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "c43eb7efcc3fe6a32b0e13597bdd5afbdf78602bf3b6919bc94edb6a6e098e6b",
+      "enMarkdown": "[3] You can't always take people at their word on this. Since it's more prestigious to work on things you're interested in than to be driven by money, people who are driven mainly by money will often claim to be more interested in their work than they actually are. One way to test such claims is by doing the following thought experiment: if their work didn't pay well, would they take day jobs doing something else in order to do it in their spare time? Lots of mathematicians and scientists and engineers would. Historically lots *have*. But I don't think as many investment bankers would.",
+      "zhMarkdown": "[3] 在这件事上，你不能总是听信人们的一面之词。由于做自己感兴趣的事比被金钱驱动更有声望，那些主要被金钱驱动的人往往会声称自己对工作的兴趣比实际要大。检验这种说法的一种方法是做以下思想实验：如果他们的工作收入不高，他们会为了在业余时间做这件事而去做别的工作谋生吗？许多数学家、科学家和工程师会这样做。在历史上，许多人*确实*这样做过。但我认为没有多少投资银行家会这样做。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "ce001d28d2fb28e7d8e0ec207cb1d7f0850df6382ac8fa1818cf62d0ed4a5049",
+      "enMarkdown": "This thought experiment is also useful for distinguishing between university departments.",
+      "zhMarkdown": "这个思想实验对于区分大学的不同院系也很有用。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "ed00e3c52951dd1c311acce3fbb1460ceb4da9bbe89900ff5cb1b719e2a89dc0",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Paul Buchheit, Jessica Livingston, Robert Morris, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Trevor Blackwell、Paul Buchheit、Jessica Livingston、Robert Morris、Harj Taggar 和 Garry Tan 阅读本书的草稿。"
+    }
+  ]
+}

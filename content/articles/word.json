@@ -1,0 +1,104 @@
+{
+  "slug": "word",
+  "titleEn": "A Word to the Resourceful",
+  "titleZh": "给开拓型创始人的忠告",
+  "dateText": "January 2012",
+  "publishedAt": "2012-01-01",
+  "sourceOrder": 91,
+  "sourceUrl": "https://paulgraham.com/word.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "783115dc4dc41e50746a40680b7f57966e85251d629802cafd3f7dbaf74b1d35",
+      "enMarkdown": "A year ago I noticed a pattern in the least successful startups we'd funded: they all seemed hard to talk to. It felt as if there was some kind of wall between us. I could never quite tell if they understood what I was saying.",
+      "zhMarkdown": "一年前，我注意到我们资助过的那些最不成功的创业公司身上有一个共同的规律：他们似乎都很难沟通。感觉我们之间就像隔着一堵墙，我永远无法确定他们是否真的听懂了我的话。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "8a42a02ae42ddd6e260fb727fe650b677631a8135e7c89cfb296cb205f7804b6",
+      "enMarkdown": "This caught my attention because earlier we'd noticed a pattern among the most successful startups, and it seemed to hinge on a different quality. We found the startups that did best were the ones with the sort of founders about whom we'd say \"they can take care of themselves.\" The startups that do best are fire-and-forget in the sense that all you have to do is give them a lead, and they'll close it, whatever type of lead it is. When they're raising money, for example, you can do the initial intros knowing that if you wanted to you could stop thinking about it at that point. You won't have to babysit the round to make sure it happens. That type of founder is going to come back with the money; the only question is how much on what terms.",
+      "zhMarkdown": "这引起了我的注意，因为在此之前，我们曾注意到最成功的创业公司身上也有一个规律，而这似乎取决于另一种品质。我们发现，发展得最好的创业公司，其创始人都属于那种我们会评价为“能自己搞定一切”的人。这些最优秀的创业公司就像“发射后不管”的导弹，你只需要给他们一个线索，无论是什么类型的线索，他们都能自己去搞定。比如在融资时，你只需做个初步的引荐，然后就可以完全放手不管了。你不需要像保姆一样盯着融资进度以确保其顺利完成。这类创始人一定会带着钱回来，唯一的悬念只是融了多少、条款如何。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "4cffe1248165c3e5ea40e9fc5f5664d3316ec7b759806474bae781ea3cec72e2",
+      "enMarkdown": "It seemed odd that the outliers at the two ends of the spectrum could be detected by what appeared to be unrelated tests. You'd expect that if the founders at one end were distinguished by the presence of quality x, at the other end they'd be distinguished by lack of x. Was there some kind of inverse relation between [resourcefulness](https://paulgraham.com/relres.html) and being hard to talk to?",
+      "zhMarkdown": "让人觉得奇怪的是，光谱两端的极端案例，居然可以通过看似毫不相关的测试来识别。你可能会以为，如果一端的创始人以具备品质 X 为特征，那么另一端的创始人就应该以缺乏 X 为特征。难道[解决问题的能力（resourcefulness）](https://paulgraham.com/relres.html)与“难以沟通”之间，存在着某种反比关系吗？"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "3e65685a89a62a04e6e86cbac24fa87df002ffca892c88f2d5affe79a00a6de6",
+      "enMarkdown": "It turns out there is, and the key to the mystery is the old adage \"a word to the wise is sufficient.\" Because this phrase is not only overused, but overused in an indirect way (by prepending the subject to some advice), most people who've heard it don't know what it means. What it means is that if someone is wise, all you have to do is say one word to them, and they'll understand immediately. You don't have to explain in detail; they'll chase down all the implications.",
+      "zhMarkdown": "事实证明确实如此，而解开这个谜团的关键在于那句老话：“智者不用细说”（a word to the wise is sufficient）。因为这句话不仅被滥用，而且往往是被间接地滥用（比如把主语套用在某些具体建议前），大多数听过这句话的人其实并不理解它的真正含义。它的意思是，如果一个人足够聪明，你只需对他说一个词，他就能立刻心领神会。你不需要详细解释，他们自己就会推导并吃透所有的言外之意。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "4652fb1a1cfaec845014c804e87a59d3bd08309cb561457887b06fc27f6f047a",
+      "enMarkdown": "In much the same way that all you have to do is give the right sort of founder a one line intro to a VC, and he'll chase down the money. That's the connection. Understanding all the implications — even the inconvenient implications — of what someone tells you is a subset of resourcefulness. It's conversational resourcefulness.",
+      "zhMarkdown": "这与你只需给对的创始人介绍一个投资人的联系方式，他就能自己去把钱拿回来是完全一样的道理。这就是两者的关联。理解别人对你说的每一句话的所有延伸含义——哪怕是那些令人不快的含义——本身就是解决问题能力的一部分。这可以称之为“沟通中的解决问题能力”。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "2ec784f97214fd11f3b0fd176bb62f9b45cc6fc8f37dd19c87684b9a5373fece",
+      "enMarkdown": "Like real world resourcefulness, conversational resourcefulness often means doing things you don't want to. Chasing down all the implications of what's said to you can sometimes lead to uncomfortable conclusions. The best word to describe the failure to do so is probably \"denial,\" though that seems a bit too narrow. A better way to describe the situation would be to say that the unsuccessful founders had the sort of conservatism that comes from weakness. They traversed idea space as gingerly as a very old person traverses the physical world. [[1](#f1n)]",
+      "zhMarkdown": "就像在现实世界中解决问题一样，沟通中的解决问题能力往往意味着要做你不想做的事。深挖别人对你说的每句话的所有延伸含义，有时会导向令人不舒服的结论。描述这种“选择性忽视”最贴切的词大概是“逃避”（denial），尽管这个词听起来可能有点狭隘。更好的描述方式是：那些不成功的创始人身上有一种源于软弱的保守。他们在想法的空间里探索时，就像一个风烛残年的老人行走在现实世界中一样，小心翼翼、举步维艰。[[1](#f1n)]"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "f1d84457421299fc7ef73a3b0c70e24d08a1df73e3ce38981a5c58f0c0579edf",
+      "enMarkdown": "The unsuccessful founders weren't stupid. Intellectually they were as capable as the successful founders of following all the implications of what one said to them. They just weren't eager to.",
+      "zhMarkdown": "这些不成功的创始人并不笨。在智力上，他们和那些成功的创始人一样，完全有能力推导并理解别人对他们说的每一句话的延伸含义。他们只是不想去面对而已。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "23b0ff06630e860f983dd7b03659e0bafb3bdd7c283429e2faacd4ddfc65bf01",
+      "enMarkdown": "So being hard to talk to was not what was killing the unsuccessful startups. It was a sign of an underlying lack of resourcefulness. That's what was killing them. As well as failing to chase down the implications of what was said to them, the unsuccessful founders would also fail to chase down funding, and users, and sources of new ideas. But the most immediate evidence I had that something was amiss was that I couldn't talk to them.",
+      "zhMarkdown": "因此，难以沟通并不是导致这些创业公司失败的直接原因，它只是底层缺乏解决问题能力的一种表象。缺乏这种能力才是致命伤。这些不成功的创始人不仅无法理解别人话语中的延伸含义，也同样无法搞定融资、获取用户和发掘新想法。而我能察觉到事情不对劲的最直接证据，就是我无法与他们顺畅沟通。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "1888b4abdff848a054813aa3e50ff4d0828dfdd9d2e79f1c9ab383cc9611b47d",
+      "enMarkdown": "[1] A YC partner wrote:",
+      "zhMarkdown": "[1] 一位 YC 合伙人写道："
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "458f12ae656a4266f47d5aff978d6d453a738b4a44ce3b78cdbfd2c669542212",
+      "enMarkdown": "My feeling with the bad groups is that coming into office hours, they've already decided what they're going to do and everything I say is being put through an internal process in their heads, which either desperately tries to munge what I've said into something that conforms with their decision or just outright dismisses it and creates a rationalization for doing so. They may not even be conscious of this process but that's what I think is happening when you say something to bad groups and they have that glazed over look. I don't think it's confusion or lack of understanding per se, it's this internal process at work.",
+      "zhMarkdown": "我对那些糟糕团队的感觉是，在来参加 Office Hour（辅导时间）之前，他们就已经决定了自己要做什么。我说的每一句话都会在他们的脑子里经过一道“内部过滤程序”——要么拼命想把我说的内容歪曲成符合他们既定决定的东西，要么干脆直接否定，并为此编造一套合理化的借口。他们甚至可能没有意识到这个过滤过程，但我认为，当你对那些糟糕的团队说话时，他们脸上露出的那种茫然空洞的表情，正是这个过滤程序在作祟。我不认为这本质上是困惑或理解力不足，而是这种脑内过滤程序在起作用。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "8dd15d715e568405ac661d0223d256869219a72b5684eebdac46a94a8fe8ec72",
+      "enMarkdown": "With the good groups, you can tell that everything you say is being looked at with fresh eyes and even if it's dismissed, it's because of some logical reason e.g. \"we already tried that\" or \"from speaking to our users that isn't what they'd like,\" etc. Those groups never have that glazed over look.",
+      "zhMarkdown": "而对于优秀的团队，你能感觉到他们会用全新的眼光来审视你说的每一句话。即使他们不采纳，也是因为有合乎逻辑的理由，比如“我们已经试过了”或“根据我们与用户的交流，他们并不喜欢那样”等等。这些团队脸上永远不会出现那种茫然空洞的表情。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "a8c133af62d922e533b14441909a240cf06fe09c1ed553574eb0b495302f2526",
+      "enMarkdown": "**Thanks** to Sam Altman, Patrick Collison, Aaron Iba, Jessica Livingston, Robert Morris, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Patrick Collison、Aaron Iba、Jessica Livingston、Robert Morris、Harj Taggar 和 Garry Tan 阅读了本文的草稿。"
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "slug": "icad",
+  "titleEn": "Revenge of the Nerds",
+  "titleZh": "书呆子的复仇",
+  "dateText": "May 2002",
+  "publishedAt": "2002-05-01",
+  "sourceOrder": 212,
+  "sourceUrl": "https://paulgraham.com/icad.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "rawUnsupported",
+      "sourceHash": "3ed4216424548e35ad2d28309a58a2c7e10809353d48caf8726485acc8d9e2ac",
+      "enMarkdown": "\"We were after the C++ programmers. We managed to drag a lot of them about halfway to Lisp.\"- Guy Steele, co-author of the Java spec\n\"We were after the C++ programmers. We managed to drag a lot of them about halfway to Lisp.\"- Guy Steele, co-author of the Java spec"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "97a38285592393e391b9de4ec84855222e73b164a72f748eeee0a293c8b078eb",
+      "enMarkdown": "In the software business there is an ongoing struggle between the pointy-headed academics, and another equally formidable force, the pointy-haired bosses. Everyone knows who the pointy-haired boss is, right? I think most people in the technology world not only recognize this cartoon character, but know the actual person in their company that he is modelled upon.",
+      "zhMarkdown": "在软件行业，尖头脑的学术派与另一股同样强大的力量——尖头发的老板（pointy-haired bosses）之间，一直进行着持久的斗争。大家都知道尖头发的老板是谁，对吧？我想科技界的大多数人不仅能认出这个漫画人物，甚至能指认出自己公司里哪个具体的人就是他的原型。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "5d7e071bf7a37d303f97f5880144a36b1d47111c3d655bf35026f44c868828f2",
+      "enMarkdown": "The pointy-haired boss miraculously combines two qualities that are common by themselves, but rarely seen together: (a) he knows nothing whatsoever about technology, and (b) he has very strong opinions about it.",
+      "zhMarkdown": "尖头发的老板奇迹般地结合了两种常见但极少同时出现的特质：（a）对技术一窍不通，（b）对技术有着极其强烈的意见。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "5bbb9f3e4fa7f0e4bfaa82bbd863aa2bdeb7796ffbcfcd679c0be3a13809c511",
+      "enMarkdown": "Suppose, for example, you need to write a piece of software. The pointy-haired boss has no idea how this software has to work, and can't tell one programming language from another, and yet he knows what language you should write it in. Exactly. He thinks you should write it in Java.",
+      "zhMarkdown": "例如，假设你需要写一个软件。尖头发的老板根本不知道这个软件该如何运行，也分不清各种编程语言的区别，但他却偏偏知道你应该用哪种语言来写。没错，他认为你应该用 Java。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "dd46fc94427a1ce9d0a3fdff4a4769bfab282ecbcc74bcada0a78f201911f898",
+      "enMarkdown": "Why does he think this? Let's take a look inside the brain of the pointy-haired boss. What he's thinking is something like this. Java is a standard. I know it must be, because I read about it in the press all the time. Since it is a standard, I won't get in trouble for using it. And that also means there will always be lots of Java programmers, so if the programmers working for me now quit, as programmers working for me mysteriously always do, I can easily replace them.",
+      "zhMarkdown": "他为什么会这么想？让我们窥探一下尖头发老板的大脑。他的想法大致是这样的：Java 是一种标准。我知道它肯定是，因为我经常在媒体上看到它。既然它是标准，那用它就不会犯错。这也意味着随时能招到大量的 Java 程序员，要是现在帮我干活的程序员辞职了——不知为何，帮我干活的程序员总是会神秘地辞职——我也能轻易找到人替代他们。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "64d4cab3589a36097412bc557cf88339e92b3deb4b0ca63ba050d87692dc47be",
+      "enMarkdown": "Well, this doesn't sound that unreasonable. But it's all based on one unspoken assumption, and that assumption turns out to be false. The pointy-haired boss believes that all programming languages are pretty much equivalent. If that were true, he would be right on target. If languages are all equivalent, sure, use whatever language everyone else is using.",
+      "zhMarkdown": "嗯，这听起来似乎不无道理。但这一切都基于一个未明说的假设，而这个假设恰恰是错误的。尖头发的老板相信所有的编程语言都大同小异。如果真是这样，他的想法就完全正确。如果语言都差不多，那当然是别人用什么，你就用什么。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "85ca3aff1b244e606d94d7cfc61e8889ff6089d44aa1be9648a2145dd1e2bb93",
+      "enMarkdown": "But all languages are not equivalent, and I think I can prove this to you without even getting into the differences between them. If you asked the pointy-haired boss in 1992 what language software should be written in, he would have answered with as little hesitation as he does today. Software should be written in C++. But if languages are all equivalent, why should the pointy-haired boss's opinion ever change? In fact, why should the developers of Java have even bothered to create a new language?",
+      "zhMarkdown": "但并非所有语言都大同小异，我想我甚至不用深入探讨它们之间的差异，就能向你证明这一点。如果在 1992 年问尖头发的老板软件应该用什么语言写，他会和今天一样毫不犹豫地回答：软件应该用 C++ 写。但如果所有语言都一样，尖头发老板的观点为什么会改变呢？事实上，Java 的开发者又何必费尽心思去创造一种新语言呢？"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "8f27b2ddf77091231e0cca145551642ea6897659711969e62c5dbe285f0d73d2",
+      "enMarkdown": "Presumably, if you create a new language, it's because you think it's better in some way than what people already had. And in fact, Gosling makes it clear in the first Java white paper that Java was designed to fix some problems with C++. So there you have it: languages are not all equivalent. If you follow the trail through the pointy-haired boss's brain to Java and then back through Java's history to its origins, you end up holding an idea that contradicts the assumption you started with.",
+      "zhMarkdown": "显而易见，如果你创造了一种新语言，那是因为你认为它在某些方面比人们现有的语言更好。事实上，高斯林（Gosling）在第一份 Java 白皮书中就明确指出，Java 的设计是为了解决 C++ 的一些问题。所以你看：语言并不是等价的。如果你沿着尖头发老板大脑的思路顺藤摸瓜到 Java，再追溯 Java 的历史回到它的源头，你最终会得到一个与你最初的假设相矛盾的结论。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "a443e734ceb771e1109c4d543e84aee89c4b38c5b3ccb17dd104333fb091892b",
+      "enMarkdown": "So, who's right? James Gosling, or the pointy-haired boss? Not surprisingly, Gosling is right. Some languages *are* better, for certain problems, than others. And you know, that raises some interesting questions. Java was designed to be better, for certain problems, than C++. What problems? When is Java better and when is C++? Are there situations where other languages are better than either of them?",
+      "zhMarkdown": "那么，谁是对的？詹姆斯·高斯林，还是尖头发的老板？毫无疑问，高斯林是对的。在解决特定问题时，某些语言确实比其他语言更好。这引发了一些有趣的问题。Java 的设计初衷是在某些问题上比 C++ 更好。哪些问题？Java 什么时候更好，C++ 又什么时候更好？是否有某些场景，其他语言比这两者都更好？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "480dd26ef16c678809e45c52d91d9cf09fa9b020f0b4b4e136529f49c6375777",
+      "enMarkdown": "Once you start considering this question, you have opened a real can of worms. If the pointy-haired boss had to think about the problem in its full complexity, it would make his brain explode. As long as he considers all languages equivalent, all he has to do is choose the one that seems to have the most momentum, and since that is more a question of fashion than technology, even he can probably get the right answer. But if languages vary, he suddenly has to solve two simultaneous equations, trying to find an optimal balance between two things he knows nothing about: the relative suitability of the twenty or so leading languages for the problem he needs to solve, and the odds of finding programmers, libraries, etc. for each. If that's what's on the other side of the door, it is no surprise that the pointy-haired boss doesn't want to open it.",
+      "zhMarkdown": "一旦你开始思考这个问题，就等于捅了马蜂窝。如果让尖头发的老板去思考这个问题的全部复杂性，他的脑袋非炸了不可。只要他认为所有语言都一样，他需要做的就只是选择一个看起来势头最猛的语言。由于这更多是一个时尚问题而非技术问题，哪怕是他也可能选对。但如果语言各有不同，他就突然需要同时求解两个联立方程，在两个他一无所知的领域之间寻找最佳平衡：一是大约二十种主流语言对解决当前问题的相对适用性，二是为每种语言招募程序员、寻找库等资源的概率。如果门后是这样的难题，也难怪尖头发的老板不愿意开门了。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "4c7035a91f493d0d37ab6d4b403670ae840e94cbe7b36162c9aad9d11a996083",
+      "enMarkdown": "The disadvantage of believing that all programming languages are equivalent is that it's not true. But the advantage is that it makes your life a lot simpler. And I think that's the main reason the idea is so widespread. It is a *comfortable* idea.",
+      "zhMarkdown": "相信所有编程语言都等价的坏处在于，它不是事实。但好处在于，它能让你的生活简单得多。我想这就是为什么这种观念如此流行的主要原因。这是一个让人感到*安逸*的想法。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "9575c4bb643f7cc11bfcbbb5865317df2eb04f4c8415b5e3d4ed85bfba029b8d",
+      "enMarkdown": "We know that Java must be pretty good, because it is the cool, new programming language. Or is it? If you look at the world of programming languages from a distance, it looks like Java is the latest thing. (From far enough away, all you can see is the large, flashing billboard paid for by Sun.) But if you look at this world up close, you find that there are degrees of coolness. Within the hacker subculture, there is another language called Perl that is considered a lot cooler than Java. Slashdot, for example, is generated by Perl. I don't think you would find those guys using Java Server Pages. But there is another, newer language, called Python, whose users tend to look down on Perl, and [more](https://paulgraham.com/accgen.html) waiting in the wings.",
+      "zhMarkdown": "我们知道 Java 一定挺不错的，因为它是当下最酷、最新的编程语言。真的是这样吗？如果你从远处观察编程语言的世界，Java 看起来确实是最新潮的。（如果站得足够远，你只能看到 Sun 公司出资设立的巨大、闪烁的霓虹广告牌。）但如果你近距离观察这个世界，就会发现“酷”也是分等级的。在黑客亚文化中，有另一种名为 Perl 的语言，它被认为比 Java 酷得多。比如 Slashdot 就是用 Perl 生成的，我想你不会看到那帮家伙使用 Java Server Pages。然而，还有另一种更新的语言叫做 Python，它的用户往往瞧不起 Perl，而且还有[更多](https://paulgraham.com/accgen.html)语言在后台跃跃欲试。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "84a7240c6628aa374f7f9cc5997e65eb50548259a4e8b798640ae2fb433619d1",
+      "enMarkdown": "If you look at these languages in order, Java, Perl, Python, you notice an interesting pattern. At least, you notice this pattern if you are a Lisp hacker. Each one is progressively more like Lisp. Python copies even features that many Lisp hackers consider to be mistakes. You could translate simple Lisp programs into Python line for line. It's 2002, and programming languages have almost caught up with 1958.",
+      "zhMarkdown": "如果你按顺序审视 Java、Perl、Python 这些语言，你会注意到一个有趣的规律。至少，如果你是一个 Lisp 黑客，你会注意到这个规律：它们每前进一步，就更像 Lisp 一些。Python 甚至复制了许多 Lisp 黑客都认为是设计失误的特性。你可以把简单的 Lisp 程序逐行翻译成 Python。现在是 2002 年，编程语言终于快要赶上 1958 年的水平了。"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "70ad55f79017f99ab12c25ecfc04011b750b6989ea352d0d7fc20481abef897e",
+      "enMarkdown": "**Catching Up with Math**",
+      "zhMarkdown": "**赶上数学的脚步**"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "92d0453019c86c37bd714b6aab0f3f1c9b76cbb66630d045a71cea36768ac920",
+      "enMarkdown": "What I mean is that Lisp was first discovered by John McCarthy in 1958, and popular programming languages are only now catching up with the ideas he developed then.",
+      "zhMarkdown": "我的意思是，Lisp 是约翰·麦卡锡（John McCarthy）在 1958 年首次发现的，而流行编程语言直到现在才开始赶上他当时发展出的思想。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "eaac02eb8228b7d7c491d5579f820543043857c3c4e6d45ab57a04a38a564407",
+      "enMarkdown": "Now, how could that be true? Isn't computer technology something that changes very rapidly? I mean, in 1958, computers were refrigerator-sized behemoths with the processing power of a wristwatch. How could any technology that old even be relevant, let alone superior to the latest developments?",
+      "zhMarkdown": "这怎么可能呢？计算机技术难道不是变化极快吗？我的意思是，在 1958 年，计算机还是冰箱大小的庞然大物，计算能力只相当于现在的电子表。那么古老的技术怎么可能还具有现实意义，甚至优于最新的发展成果？"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "1848351faf199340b8360dfc2a14422692b50d94fc783ee905bdd9cec7dfbdfe",
+      "enMarkdown": "I'll tell you how. It's because Lisp was not really designed to be a programming language, at least not in the sense we mean today. What we mean by a programming language is something we use to tell a computer what to do. McCarthy did eventually intend to develop a programming language in this sense, but the Lisp that we actually ended up with was based on something separate that he did as a [theoretical exercise](https://paulgraham.com/rootsoflisp.html)-- an effort to define a more convenient alternative to the Turing Machine. As McCarthy said later,",
+      "zhMarkdown": "我来告诉你原因。因为 Lisp 起初并不是作为一种编程语言来设计的，至少不是我们今天所理解的那种。我们今天所说的编程语言，是用来告诉计算机该做什么的工具。麦卡锡最终确实打算开发这样一种编程语言，但我们最终得到的 Lisp 却基于他所做的一项独立工作——一个[理论练习](https://paulgraham.com/rootsoflisp.html)，旨在定义一个比图灵机更方便的替代方案。正如麦卡锡后来所说："
+    },
+    {
+      "id": 18,
+      "type": "quote",
+      "sourceHash": "d608e5be5d751953abd04f10926a7bb46dae0a926651654df47e7d8b63b59971",
+      "enMarkdown": "> Another way to show that Lisp was neater than Turing machines was to write a universal Lisp function and show that it is briefer and more comprehensible than the description of a universal Turing machine. This was the Lisp function [eval](https://sep.turbifycdn.com/ty/cdn/paulgraham/jmc.lisp?t=1772732230&)..., which computes the value of a Lisp expression.... Writing *eval* required inventing a notation representing Lisp functions as Lisp data, and such a notation was devised for the purposes of the paper with no thought that it would be used to express Lisp programs in practice.",
+      "zhMarkdown": "> 证明 Lisp 比图灵机更整洁的另一种方法，是写一个通用的 Lisp 函数，并证明它比通用图灵机的描述更简短、更易懂。这就是 Lisp 的 `eval` 函数 [eval](https://sep.turbifycdn.com/ty/cdn/paulgraham/jmc.lisp?t=1772732230&)...，它用于计算 Lisp 表达式的值…… 编写 *eval* 需要发明一种将 Lisp 函数表示为 Lisp 数据的记号，这种记号是为了这篇论文的目的而设计的，根本没有想到会在实践中用来表达 Lisp 程序。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "57c877384d54ddaa0c9ac3911f6bcc7da15effcca5fa5427e75d674103137658",
+      "enMarkdown": "What happened next was that, some time in late 1958, Steve Russell, one of McCarthy's grad students, looked at this definition of *eval* and realized that if he translated it into machine language, the result would be a Lisp interpreter.",
+      "zhMarkdown": "接下来发生的是，在 1958 年底的某个时候，麦卡锡的研究生之一史蒂夫·罗素（Steve Russell）看到了这个 *eval* 的定义，并意识到如果把它翻译成机器语言，其结果将是一个 Lisp 解释器。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "dc7efe0308e437fa4e8b2fff2f410e5939ec6e281dd17c9a7a871c0a38e70a1e",
+      "enMarkdown": "This was a big surprise at the time. Here is what McCarthy said about it later in an interview:",
+      "zhMarkdown": "这在当时是一个巨大的惊喜。以下是麦卡锡后来在一次采访中对此的描述："
+    },
+    {
+      "id": 21,
+      "type": "quote",
+      "sourceHash": "16d12fa804d78baf2153206f81c4782c6d27b292614e9a6b73de7ad1841c4114",
+      "enMarkdown": "> Steve Russell said, look, why don't I program this *eval*..., and I said to him, ho, ho, you're confusing theory with practice, this *eval* is intended for reading, not for computing. But he went ahead and did it. That is, he compiled the *eval* in my paper into [IBM] 704 machine code, fixing bugs, and then advertised this as a Lisp interpreter, which it certainly was. So at that point Lisp had essentially the form that it has today....",
+      "zhMarkdown": "> 史蒂夫·罗素说，瞧，为什么不让我来写这个 *eval* 的程序呢…… 我对他说，哈哈，你把理论和实践混淆了，这个 *eval* 是写给人读的，不是用来计算的。但他还是动手去做了。也就是说，他把我论文中的 *eval* 编译成了 [IBM] 704 机器码，修复了其中的 Bug，然后宣称这是一个 Lisp 解释器，而它确实就是。所以在那一刻，Lisp 基本上就具备了它今天的形态……"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "b9570dd2b4ad54f872d61b1335ab66e902168d0ce2a0c39913f7d41a2250bc05",
+      "enMarkdown": "Suddenly, in a matter of weeks I think, McCarthy found his theoretical exercise transformed into an actual programming language-- and a more powerful one than he had intended.",
+      "zhMarkdown": "突然之间，我想就在几个星期内，麦卡锡发现他的理论练习变成了一种真正的编程语言——而且比他预想的还要强大。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "129886c0e3f6d75e4bfa780f04bd050a137b020e7009225b41993fc3e19f7385",
+      "enMarkdown": "So the short explanation of why this 1950s language is not obsolete is that it was not technology but math, and math doesn't get stale. The right thing to compare Lisp to is not 1950s hardware, but, say, the Quicksort algorithm, which was discovered in 1960 and is still the fastest general-purpose sort.",
+      "zhMarkdown": "因此，对于为什么这种 1950 年代的语言没有过时，简短的解释是：它不是技术，而是数学，而数学是不会过时的。与 Lisp 进行对比的正确对象不应该是 1950 年代的硬件，而应该是诸如快速排序（Quicksort）算法这样的东西——它发现于 1960 年，至今仍是最快的通用排序算法。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "949d10cebcbe8ccec2e28f19e86453ca785278b4be49552c0b583641a589500b",
+      "enMarkdown": "There is one other language still surviving from the 1950s, Fortran, and it represents the opposite approach to language design. Lisp was a piece of theory that unexpectedly got turned into a programming language. Fortran was developed intentionally as a programming language, but what we would now consider a very low-level one.",
+      "zhMarkdown": "还有另一种从 1950 年代幸存下来的语言，那就是 Fortran，它代表了语言设计中截然相反的方法。Lisp 是一套意外变成编程语言的理论。而 Fortran 则是刻意作为编程语言开发的，但在今天看来，它属于极低底层的语言。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "80f65d111e5e88620745ba2a7a4c2c61b5789f7e1979ac61b9eaed035354c551",
+      "enMarkdown": "[Fortran I](https://paulgraham.com/history.html), the language that was developed in 1956, was a very different animal from present-day Fortran. Fortran I was pretty much assembly language with math. In some ways it was less powerful than more recent assembly languages; there were no subroutines, for example, only branches. Present-day Fortran is now arguably closer to Lisp than to Fortran I.",
+      "zhMarkdown": "1956 年开发的 [Fortran I](https://paulgraham.com/history.html) 与今天的 Fortran 截然不同。Fortran I 基本上就是带有数学公式的汇编语言。在某些方面，它甚至不如后来的汇编语言强大；例如，它没有子程序，只有分支跳转。可以说，今天的 Fortran 离 Lisp 的距离，比离 Fortran I 还要近。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "258492e2f129927fff569631e709ef42fd502ed61466ceaec6e42829c03442d0",
+      "enMarkdown": "Lisp and Fortran were the trunks of two separate evolutionary trees, one rooted in math and one rooted in machine architecture. These two trees have been converging ever since. Lisp started out powerful, and over the next twenty years got fast. So-called mainstream languages started out fast, and over the next forty years gradually got more powerful, until now the most advanced of them are fairly close to Lisp. Close, but they are still missing a few things....",
+      "zhMarkdown": "Lisp 和 Fortran 是两条独立进化树的树干，一棵植根于数学，另一棵植根于机器架构。这两棵树自那时起就一直在融合。Lisp 起步时就很强大，并在接下来的二十年里变得更快。所谓的“主流”语言起步时很快，并在接下来的四十年里逐渐变得更强大，直到现在，其中最先进的语言已经相当接近 Lisp。虽然接近，但它们仍然缺少一些东西……"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "013547c4e4a307fdc9ba4def573c5d524c36b0b491663ee46197f717f5ddda4a",
+      "enMarkdown": "**What Made Lisp Different**",
+      "zhMarkdown": "**是什么让 Lisp 如此不同**"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "469dc65c11db79f6fbf2b7bd0256139c439160b6d0fafb669bab1a68d0704d37",
+      "enMarkdown": "When it was first developed, Lisp embodied nine new ideas. Some of these we now take for granted, others are only seen in more advanced languages, and two are still unique to Lisp. The nine ideas are, in order of their adoption by the mainstream,",
+      "zhMarkdown": "当 Lisp 最初被开发出来时，它体现了九个新思想。其中一些我们现在已经习以为常，另一些只能在更先进的语言中看到，还有两个至今仍是 Lisp 独有的。这九个思想，按照被主流接纳的顺序排列如下："
+    },
+    {
+      "id": 29,
+      "type": "list",
+      "sourceHash": "1d69dfef83c2e73203c203dc834cf5ace904e2d368ee2d3d56de48f0fc76e558",
+      "enMarkdown": "1. Conditionals. A conditional is an if-then-else construct. We take these for granted now, but Fortran I didn't have them. It had only a conditional goto closely based on the underlying machine instruction.\n2. A function type. In Lisp, functions are a data type just like integers or strings. They have a literal representation, can be stored in variables, can be passed as arguments, and so on.\n3. Recursion. Lisp was the first programming language to support it.\n4. Dynamic typing. In Lisp, all variables are effectively pointers. Values are what have types, not variables, and assigning or binding variables means copying pointers, not what they point to.\n5. Garbage-collection.\n6. Programs composed of expressions. Lisp programs are trees of expressions, each of which returns a value. This is in contrast to Fortran and most succeeding languages, which distinguish between expressions and statements.\n\nIt was natural to have this distinction in Fortran I because you could not nest statements. And so while you needed expressions for math to work, there was no point in making anything else return a value, because there could not be anything waiting for it.\n\nThis limitation went away with the arrival of block-structured languages, but by then it was too late. The distinction between expressions and statements was entrenched. It spread from Fortran into Algol and then to both their descendants.\n7. A symbol type. Symbols are effectively pointers to strings stored in a hash table. So you can test equality by comparing a pointer, instead of comparing each character.\n8. A notation for code using trees of symbols and constants.\n9. The whole language there all the time. There is no real distinction between read-time, compile-time, and runtime. You can compile or run code while reading, read or run code while compiling, and read or compile code at runtime.\n\nRunning code at read-time lets users reprogram Lisp's syntax; running code at compile-time is the basis of macros; compiling at runtime is the basis of Lisp's use as an extension language in programs like Emacs; and reading at runtime enables programs to communicate using s-expressions, an idea recently reinvented as XML.",
+      "zhMarkdown": "1. 条件分支。即 if-then-else 结构。我们现在对此习以为常，但 Fortran I 并没有。它只有基于底层机器指令的条件 goto 跳转。\n2. 函数类型。在 Lisp 中，函数也是一种数据类型，就像整数或字符串一样。它们有字面量表示，可以存储在变量中，可以作为参数传递，等等。\n3. 递归。Lisp 是第一种支持递归的编程语言。\n4. 动态类型。在 Lisp 中，所有变量实际上都是指针。拥有类型的是值，而不是变量；赋值或绑定变量意味着复制指针，而不是复制它们指向的内容。\n5. 垃圾回收。\n6. 程序由表达式组成。Lisp 程序是表达式构成的树，每个表达式都返回一个值。这与 Fortran 及大多数后继语言不同，后者区分了表达式（expressions）和语句（statements）。\n\n在 Fortran I 中，这种区分是很自然的，因为你无法嵌套语句。因此，虽然数学计算需要表达式，但让其他任何东西返回值都没有意义，因为没有人在等待接收它。\n\n随着块结构语言的出现，这种限制消失了，但那时为时已晚。表达式与语句之间的界限已经根深蒂固，并从 Fortran 蔓延到 Algol，进而影响了它们所有的后代。\n7. 符号类型。符号实际上是指向哈希表中存储的字符串的指针。因此，你可以通过比较指针来测试相等性，而不用逐个字符进行比较。\n8. 使用符号和常量树来表示代码的记号。\n9. 语言随时完整可用。读取期（read-time）、编译期（compile-time）和运行期（runtime）之间没有真正的界限。你可以在读取时编译或运行代码，在编译时读取或运行代码，在运行时读取或编译代码。\n\n在读取期运行代码可以让用户重新定义 Lisp 的语法；在编译期运行代码是宏（macros）的基础；在运行时编译是 Lisp 在 Emacs 等程序中作为扩展语言的基础；而在运行时读取则使程序能够使用 s-表达式进行通信——这一思想在近代被重新发明为了 XML。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "89e05f242ec36cedabae0e18e516df1e9ff876ea6cb70a1ad9867fcc2d636306",
+      "enMarkdown": "When Lisp first appeared, these ideas were far removed from ordinary programming practice, which was dictated largely by the hardware available in the late 1950s. Over time, the default language, embodied in a succession of popular languages, has gradually evolved toward Lisp. Ideas 1-5 are now widespread. Number 6 is starting to appear in the mainstream. Python has a form of 7, though there doesn't seem to be any syntax for it.",
+      "zhMarkdown": "Lisp 刚出现时，这些想法与当时的常规编程实践相去甚远，当时的编程实践很大程度上受制于 1950 年代末可用的硬件。随着时间的推移，在一代代流行语言的更迭中，默认语言逐渐向 Lisp 演进。想法 1 到 5 现在已经普及。第 6 个想法开始在主流语言中出现。Python 拥有第 7 个想法的某种形式，尽管似乎没有专门的语法来表达它。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "3689ff7eca86d811aa97d19a4b027847ff905316233c7c6459146e542f7f3aa0",
+      "enMarkdown": "As for number 8, this may be the most interesting of the lot. Ideas 8 and 9 only became part of Lisp by accident, because Steve Russell implemented something McCarthy had never intended to be implemented. And yet these ideas turn out to be responsible for both Lisp's strange appearance and its most distinctive features. Lisp looks strange not so much because it has a strange syntax as because it has no syntax; you express programs directly in the parse trees that get built behind the scenes when other languages are parsed, and these trees are made of lists, which are Lisp data structures.",
+      "zhMarkdown": "至于第 8 个想法，这可能是其中最有趣的一个。想法 8 和 9 只是偶然成为 Lisp 的一部分，因为史蒂夫·罗素实现了一些麦卡锡从未打算实现的东西。然而，正是这些想法，既造就了 Lisp 奇特的外观，也成就了它最独特的特性。Lisp 看起来奇特，与其说是因为它有奇怪的语法，不如说是因为它根本没有语法；你直接用语法分析树来表达程序，而这些树在其他语言中是在后台构建的，这些树由列表（lists）组成，而列表正是 Lisp 的数据结构。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "20abd8faef6bbbe63510cf7a56b02102b15cdacd8a911e192ebf635921493287",
+      "enMarkdown": "Expressing the language in its own data structures turns out to be a very powerful feature. Ideas 8 and 9 together mean that you can write programs that write programs. That may sound like a bizarre idea, but it's an everyday thing in Lisp. The most common way to do it is with something called a *macro.*",
+      "zhMarkdown": "用语言自身的数据结构来表达语言，结果证明是一个极其强大的特性。想法 8 和 9 结合在一起，意味着你可以编写“能够编写程序的程序”。这听起来可能像个怪异的想法，但在 Lisp 中却是家常便饭。最常用的方法是使用一种叫做 *宏（macro）* 的东西。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "afac4c1b1abf048060b73d1b85d613c68cbddd8121ab73d3fd41d7600092a65a",
+      "enMarkdown": "The term \"macro\" does not mean in Lisp what it means in other languages. A Lisp macro can be anything from an abbreviation to a compiler for a new language. If you want to really understand Lisp, or just expand your programming horizons, I would [learn more](https://paulgraham.com/onlisp.html) about macros.",
+      "zhMarkdown": "在 Lisp 中，“宏”这个词的含义与其他语言不同。Lisp 的宏可以是从缩写到新语言编译器的任何东西。如果你想真正理解 Lisp，或者只是想拓宽自己的编程视野，我建议[进一步了解](https://paulgraham.com/onlisp.html)宏。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "a806d35aaa314e3620e6acc4ad030cc4b9f0f08dd01b08914f41768f340ac17e",
+      "enMarkdown": "Macros (in the Lisp sense) are still, as far as I know, unique to Lisp. This is partly because in order to have macros you probably have to make your language look as strange as Lisp. It may also be because if you do add that final increment of power, you can no longer claim to have invented a new language, but only a new dialect of Lisp.",
+      "zhMarkdown": "据我所知，宏（Lisp 意义上的）至今仍是 Lisp 独有的。这部分是因为要拥有宏，你可能必须让你的语言看起来像 Lisp 一样奇特。这也可能是因为，如果你真的加上了这最后一点能力，你就不能再声称自己发明了一种新语言，而只能说发明了 Lisp 的一种新方言。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "ab708f984e92423a4cf14442f2ef6b3865b446fc7fb91bf7480b77c940e429ac",
+      "enMarkdown": "I mention this mostly as a joke, but it is quite true. If you define a language that has car, cdr, cons, quote, cond, atom, eq, and a notation for functions expressed as lists, then you can build all the rest of Lisp out of it. That is in fact the defining quality of Lisp: it was in order to make this so that McCarthy gave Lisp the shape it has.",
+      "zhMarkdown": "我提这个主要是开个玩笑，但它确实是事实。如果你定义了一种包含 car, cdr, cons, quote, cond, atom, eq 以及用列表表示函数的记号的语言，你就可以用它构建出 Lisp 的其余所有部分。这实际上是 Lisp 的定义性特征：麦卡锡正是为了实现这一点，才赋予了 Lisp 现在的形态。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "7da9dfb3e496a1e60f700ff67642f9235cbaa218094997f80494c7c43ef4cf3f",
+      "enMarkdown": "**Where Languages Matter**",
+      "zhMarkdown": "**编程语言在何处起作用**"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "53bf9817f777b6a6f24490d6242c05500c917ef6e7b97903b9d311ac3772d007",
+      "enMarkdown": "So suppose Lisp does represent a kind of limit that mainstream languages are approaching asymptotically-- does that mean you should actually use it to write software? How much do you lose by using a less powerful language? Isn't it wiser, sometimes, not to be at the very edge of innovation? And isn't popularity to some extent its own justification? Isn't the pointy-haired boss right, for example, to want to use a language for which he can easily hire programmers?",
+      "zhMarkdown": "那么，假设 Lisp 确实代表了主流语言正在渐近逼近的一种极限——这是否意味着你实际上应该用它来写软件？使用不那么强大的语言，你会损失多少？有时候，不站在创新的最前沿，难道不是更明智的选择吗？而且，流行在某种程度上不就是其自身的合理依据吗？比如，尖头发的老板想要使用一种能轻易招到程序员的语言，难道不对吗？"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "094318d367256908e0911ebdb3fcfaf3207b98ad90794cf32232768743eba130",
+      "enMarkdown": "There are, of course, projects where the choice of programming language doesn't matter much. As a rule, the more demanding the application, the more leverage you get from using a powerful language. But plenty of projects are not demanding at all. Most programming probably consists of writing little glue programs, and for little glue programs you can use any language that you're already familiar with and that has good libraries for whatever you need to do. If you just need to feed data from one Windows app to another, sure, use Visual Basic.",
+      "zhMarkdown": "当然，在某些项目中，编程语言的选择并不重要。通常来说，应用越是苛刻，使用强大语言所带来的杠杆效应就越大。但有大量的项目根本谈不上苛刻。大部分编程工作大概都是写一些简单的胶水程序，对于这些小胶水程序，你可以使用任何你已经熟悉的语言，只要它有能满足你需求的现成好用的库就行。如果你只需要把数据从一个 Windows 应用导入另一个，没问题，用 Visual Basic 好了。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "46a38b9883d873c173888ed46b4c495bd443b26e7207a721e200f320d824d07f",
+      "enMarkdown": "You can write little glue programs in Lisp too (I use it as a desktop calculator), but the biggest win for languages like Lisp is at the other end of the spectrum, where you need to write sophisticated programs to solve hard problems in the face of fierce competition. A good example is the [airline fare search program](https://paulgraham.com/carl.html) that ITA Software licenses to Orbitz. These guys entered a market already dominated by two big, entrenched competitors, Travelocity and Expedia, and seem to have just humiliated them technologically.",
+      "zhMarkdown": "你也可以用 Lisp 写小胶水程序（我把它当作桌面计算器用），但像 Lisp 这样的语言，其最大的优势在于光谱的另一端：你需要编写复杂的程序，在激烈的竞争中解决艰深的问题。一个很好的例子是 ITA Software 授权给 Orbitz 的[机票搜索程序](https://paulgraham.com/carl.html)。这帮家伙进入了一个已经被两大巨头（Travelocity 和 Expedia）牢牢统治的市场，并在技术上彻底羞辱了对手。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "3524d6caf0c8e4223ce5c86f25266713dc6c2eaa2fc15fcdc7a747d216a335d6",
+      "enMarkdown": "The core of ITA's application is a 200,000 line Common Lisp program that searches many orders of magnitude more possibilities than their competitors, who apparently are still using mainframe-era programming techniques. (Though ITA is also in a sense using a mainframe-era programming language.) I have never seen any of ITA's code, but according to one of their top hackers they use a lot of macros, and I am not surprised to hear it.",
+      "zhMarkdown": "ITA 应用的核心是一个 20 万行的 Common Lisp 程序，它搜索的可能性比竞争对手高出好几个数量级，而竞争对手显然还在使用大型机时代的编程技术。（虽然在某种意义上，ITA 也在使用大型机时代的编程语言。）我从未见过 ITA 的任何代码，但据他们的一位顶尖黑客说，他们使用了大量的宏，听到这一点我并不感到意外。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "e284a31f67d1dfca51baae19844be33efbaeef945e19b339067c5ca74c90493a",
+      "enMarkdown": "**Centripetal Forces**",
+      "zhMarkdown": "**向心力**"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "61e5f642b6f470c9ea4bcd7ffacf78142e0a0c520c00786e3dca156e74893a39",
+      "enMarkdown": "I'm not saying there is no cost to using uncommon technologies. The pointy-haired boss is not completely mistaken to worry about this. But because he doesn't understand the risks, he tends to magnify them.",
+      "zhMarkdown": "我并不是说使用非主流技术没有任何代价。尖头发的老板对此感到担心也并非完全没有道理。但因为他不理解其中的风险，他往往会把风险放大。"
+    },
+    {
+      "id": 43,
+      "type": "paragraph",
+      "sourceHash": "ef6ae1270d1a470de50cdf9b5aabf4d0d4b6936c6af6d513e85c738522835739",
+      "enMarkdown": "I can think of three problems that could arise from using less common languages. Your programs might not work well with programs written in other languages. You might have fewer libraries at your disposal. And you might have trouble hiring programmers.",
+      "zhMarkdown": "我能想到使用非主流语言可能带来的三个问题：你的程序可能无法与其他语言编写的程序很好地协同工作；你可用的库可能会变少；你可能会在招聘程序员时遇到麻烦。"
+    },
+    {
+      "id": 44,
+      "type": "paragraph",
+      "sourceHash": "109af0ffeb40969d4bf0cbd1aaeed5b967796d9fcc0d4fc959a98b4c587f4b11",
+      "enMarkdown": "How much of a problem is each of these? The importance of the first varies depending on whether you have control over the whole system. If you're writing software that has to run on a remote user's machine on top of a buggy, closed operating system (I mention no names), there may be advantages to writing your application in the same language as the OS. But if you control the whole system and have the source code of all the parts, as ITA presumably does, you can use whatever languages you want. If any incompatibility arises, you can fix it yourself.",
+      "zhMarkdown": "这些问题到底有多严重？第一个问题的严重程度取决于你是否掌控整个系统。如果你编写的软件必须在远程用户的机器上、运行在一个充满 bug 且封闭的操作系统（我就不点名了）之上，那么用与操作系统相同的语言来编写应用可能会有优势。但如果你控制了整个系统，并且拥有所有部分的源代码（就像 ITA 大概做的那样），你就可以使用任何你想用的语言。如果出现任何不兼容，你可以自己动手修复。"
+    },
+    {
+      "id": 45,
+      "type": "paragraph",
+      "sourceHash": "06c1093419aee45b493ce058a0a7ecf6ffd2420d6c06d7d445fdfb7e15e53d5c",
+      "enMarkdown": "In server-based applications you can get away with using the most advanced technologies, and I think this is the main cause of what Jonathan Erickson calls the \"[programming language\nrenaissance](http://www.byte.com/documents/s=1821/byt20011214s0003/).\" This is why we even hear about new languages like Perl and Python. We're not hearing about these languages because people are using them to write Windows apps, but because people are using them on servers. And as software shifts [off the desktop](https://paulgraham.com/road.html) and onto servers (a future even Microsoft seems resigned to), there will be less and less pressure to use middle-of-the-road technologies.",
+      "zhMarkdown": "在基于服务器的应用中，你可以放手使用最先进的技术，我认为这是乔纳森·埃里克森（Jonathan Erickson）所称的“[`编程语言复兴`](http://www.byte.com/documents/s=1821/byt20011214s0003/)”的主要原因。这就是为什么我们甚至能听说 Perl 和 Python 这类新语言的原因。我们听说这些语言，并不是因为人们用它们来写 Windows 桌面应用，而是因为人们在服务器上使用它们。随着软件[离开桌面](https://paulgraham.com/road.html)走向服务器（这是一个连微软似乎也已经向其妥协的未来），使用中庸技术的压力将会越来越小。"
+    },
+    {
+      "id": 46,
+      "type": "paragraph",
+      "sourceHash": "1a2df2582152d75a07d37de3c78696538f60ea6ec638859fd5d57f7d627865ba",
+      "enMarkdown": "As for libraries, their importance also depends on the application. For less demanding problems, the availability of libraries can outweigh the intrinsic power of the language. Where is the breakeven point? Hard to say exactly, but wherever it is, it is short of anything you'd be likely to call an application. If a company considers itself to be in the software business, and they're writing an application that will be one of their products, then it will probably involve several hackers and take at least six months to write. In a project of that size, powerful languages probably start to outweigh the convenience of pre-existing libraries.",
+      "zhMarkdown": "至于库，其重要性同样取决于应用。对于要求不那么高的难题，库的可用性可能会压倒语言本身的内在能力。平衡点在哪里？很难说准，但无论在哪里，它都远未达到你可能称之为“应用（application）”的规模。如果一家公司认为自己是在做软件业务，并且正在编写一个将作为其产品之一的应用，那么它可能需要几名黑客，并花上至少六个月的时间来写。在这样规模的项目中，强大语言的优势可能会开始压倒现成库带来的便利。"
+    },
+    {
+      "id": 47,
+      "type": "paragraph",
+      "sourceHash": "c4fe8344a5a6ea1b49e3a7d864c0e200f2398e747dab8a00559f390bf58beeaf",
+      "enMarkdown": "The third worry of the pointy-haired boss, the difficulty of hiring programmers, I think is a red herring. How many hackers do you need to hire, after all? Surely by now we all know that software is best developed by teams of less than ten people. And you shouldn't have trouble hiring hackers on that scale for any language anyone has ever heard of. If you can't find ten Lisp hackers, then your company is probably based in the wrong city for developing software.",
+      "zhMarkdown": "尖头发老板的第三个担忧——招聘程序员的困难，我认为是个伪命题。毕竟，你到底需要雇佣多少黑客？时至今日，我们想必都知道，软件开发最好由十人以下的团队来完成。对于任何只要有人听说过的语言，你都不应该在招募这种规模的黑客时遇到困难。如果你找不到十个 Lisp 黑客，那么你的公司可能选错了开发软件的城市。"
+    },
+    {
+      "id": 48,
+      "type": "paragraph",
+      "sourceHash": "191631e34fc2e7ba6c1a7ab608bd4734dc7d2a7b037b5385dbf1c562566fe81f",
+      "enMarkdown": "In fact, choosing a more powerful language probably decreases the size of the team you need, because (a) if you use a more powerful language you probably won't need as many hackers, and (b) hackers who work in more advanced languages are likely to be smarter.",
+      "zhMarkdown": "事实上，选择一种更强大的语言可能会缩减你所需的团队规模，因为：（a）如果你使用更强大的语言，你可能不需要那么多黑客；（b）使用更先进语言工作的黑客往往更聪明。"
+    },
+    {
+      "id": 49,
+      "type": "paragraph",
+      "sourceHash": "fed84d3adbffecb5b88c466020db001523e44c4d8f4ad0465335039cc53caae8",
+      "enMarkdown": "I'm not saying that you won't get a lot of pressure to use what are perceived as \"standard\" technologies. At Viaweb (now Yahoo Store), we raised some eyebrows among VCs and potential acquirers by using Lisp. But we also raised eyebrows by using generic Intel boxes as servers instead of \"industrial strength\" servers like Suns, for using a then-obscure open-source Unix variant called FreeBSD instead of a real commercial OS like Windows NT, for ignoring a supposed e-commerce standard called [SET](http://news.com.com/2100-1017-225723.html) that no one now even remembers, and so on.",
+      "zhMarkdown": "我并不是说你不会面临巨大的压力去使用那些所谓的“标准”技术。在 Viaweb（现在的 Yahoo Store）时期，我们因为使用 Lisp，引起了风险投资人和潜在收购方的侧目。但我们同样因为使用通用的 Intel 机器作为服务器而不是像 Sun 这样“工业级”的服务器而引起侧目，因为使用当时还默默无闻、名为 FreeBSD 的开源 Unix 变体而不是像 Windows NT 这样真正的商业操作系统而引起侧目，因为忽视了当时被称为电子商务标准、如今已无人记得的 [SET](http://news.com.com/2100-1017-225723.html) 协议而引起侧目，等等。"
+    },
+    {
+      "id": 50,
+      "type": "paragraph",
+      "sourceHash": "a54cf97bf06b310ff8eb4a3b72e9dd6ade9e738c1a452817c9132480ea3d6502",
+      "enMarkdown": "You can't let the suits make technical decisions for you. Did it alarm some potential acquirers that we used Lisp? Some, slightly, but if we hadn't used Lisp, we wouldn't have been able to write the software that made them want to buy us. What seemed like an anomaly to them was in fact cause and effect.",
+      "zhMarkdown": "你不能让西装革履的商务人士替你做技术决策。我们使用 Lisp 有没有让一些潜在的收购方感到担忧？有一些，稍微有一点。但如果我们不使用 Lisp，我们根本无法写出让他们想要收购我们的软件。在他们看来是异常的现象，实际上却是因果关系。"
+    },
+    {
+      "id": 51,
+      "type": "paragraph",
+      "sourceHash": "f73034ff8b00d0142fc24750add18d0f0cb6ed8b56d2d0fbfd274f9897095eb1",
+      "enMarkdown": "If you start a startup, don't design your product to please VCs or potential acquirers. *Design your product to please\nthe users.* If you win the users, everything else will follow. And if you don't, no one will care how comfortingly orthodox your technology choices were.",
+      "zhMarkdown": "如果你创办一家创业公司，不要为了讨好风险投资人或潜在收购方来设计你的产品。*设计你的产品是为了取悦用户。* 如果你赢得了用户，其他一切都会随之而来。而如果你没能赢得用户，没人会在意你的技术选择有多么令人安心的传统。"
+    },
+    {
+      "id": 52,
+      "type": "paragraph",
+      "sourceHash": "66431d7412d7d9a91bd4f113cbdf33dc8b681dd50647b9fc2e9d1c348c7bd2a0",
+      "enMarkdown": "**The Cost of Being Average**",
+      "zhMarkdown": "**平庸的代价**"
+    },
+    {
+      "id": 53,
+      "type": "paragraph",
+      "sourceHash": "39cde4e36f9426a5c8f0c567e978f4c1783140960045ce0a2d31c1d157ab73cb",
+      "enMarkdown": "How much do you lose by using a less powerful language? There is actually some data out there about that.",
+      "zhMarkdown": "使用不那么强大的语言，你会损失多少？实际上，这方面已经有一些现成的数据了。"
+    },
+    {
+      "id": 54,
+      "type": "paragraph",
+      "sourceHash": "1d502176c549ff83eae581e6ec9c6adf16ef9fb8df1d175f93539ce29c6e2109",
+      "enMarkdown": "The most convenient measure of power is probably [code size](https://paulgraham.com/power.html). The point of high-level languages is to give you bigger abstractions-- bigger bricks, as it were, so you don't need as many to build a wall of a given size. So the more powerful the language, the shorter the program (not simply in characters, of course, but in distinct elements).",
+      "zhMarkdown": "衡量语言能力最方便的指标大概是[代码规模](https://paulgraham.com/power.html)。高级语言的意义在于给你提供更大的抽象——好比更大的砖块，这样你盖起一堵特定大小的墙就不需要那么多砖。所以，语言越强大，程序就越短（当然不是单指字符数，而是指独立元素的数量）。"
+    },
+    {
+      "id": 55,
+      "type": "paragraph",
+      "sourceHash": "67699437fc92abff62bc323a6387dfaaeba90b62595ff07ed32cad216f1f7ab0",
+      "enMarkdown": "How does a more powerful language enable you to write shorter programs? One technique you can use, if the language will let you, is something called [bottom-up programming](https://paulgraham.com/progbot.html). Instead of simply writing your application in the base language, you build on top of the base language a language for writing programs like yours, then write your program in it. The combined code can be much shorter than if you had written your whole program in the base language-- indeed, this is how most compression algorithms work. A bottom-up program should be easier to modify as well, because in many cases the language layer won't have to change at all.",
+      "zhMarkdown": "更强大的语言如何让你写出更短的程序？如果语言允许，你可以使用一种叫做[自底向上编程](https://paulgraham.com/progbot.html)的技术。你不是直接用基础语言写应用，而是在基础语言之上构建一种专门用于编写你这类程序的语言，然后再用这种语言来写你的程序。这样结合起来的代码，可以比你完全用基础语言写出来的程序短得多——事实上，大多数压缩算法都是这么工作的。一个自底向上的程序也应该更容易修改，因为在很多情况下，语言层根本不需要改变。"
+    },
+    {
+      "id": 56,
+      "type": "paragraph",
+      "sourceHash": "8c83720eb84c46e7e32937744f817663ae16c6040194e40f2e7cd2e691c51765",
+      "enMarkdown": "Code size is important, because the time it takes to write a program depends mostly on its length. If your program would be three times as long in another language, it will take three times as long to write-- and you can't get around this by hiring more people, because beyond a certain size new hires are actually a net lose. Fred Brooks described this phenomenon in his famous book *The Mythical Man-Month,* and everything I've seen has tended to confirm what he said.",
+      "zhMarkdown": "代码规模非常重要，因为编写程序所需的时间主要取决于其长度。如果你的程序用另一种语言写会是现在的三倍长，那么编写它就要花三倍的时间——而且你无法通过雇佣更多的人来解决这个问题，因为超过一定规模，新雇员实际上会带来净损失。弗雷德·布鲁克斯（Fred Brooks）在他著名的《人月神话》一书中描述了这一现象，而我所见的一切都倾向于证实他所说的话。"
+    },
+    {
+      "id": 57,
+      "type": "paragraph",
+      "sourceHash": "31e0bf10064bfd549ecbfd8698b700c12e2297d6d1e09540665de5de93c38b20",
+      "enMarkdown": "So how much shorter are your programs if you write them in Lisp? Most of the numbers I've heard for Lisp versus C, for example, have been around 7-10x. But a recent article about ITA in [New\nArchitect](http://www.newarchitectmag.com/documents/s=2286/new1015626014044/) magazine said that \"one line of Lisp can replace 20 lines of C,\" and since this article was full of quotes from ITA's president, I assume they got this number from ITA. If so then we can put some faith in it; ITA's software includes a lot of C and C++ as well as Lisp, so they are speaking from experience.",
+      "zhMarkdown": "那么，如果你用 Lisp 写程序，它们会短多少？比如，我听过的大多数关于 Lisp 对比 C 的数据都在 7 到 10 倍左右。但最近《[新建筑师](http://www.newarchitectmag.com/documents/s=2286/new1015626014044/)》杂志一篇关于 ITA 的文章提到，“一行 Lisp 代码可以替代 20 行 C 代码”，由于这篇文章里充斥着对 ITA 总裁的采访，我猜他们这个数据是从 ITA 拿到的。如果是这样，我们就可以对它抱有相当的信心；ITA 的软件既包含大量的 C 和 C++，也包含 Lisp，所以他们是凭经验说话。"
+    },
+    {
+      "id": 58,
+      "type": "paragraph",
+      "sourceHash": "03fcf6877093d2ff4284283f2185ca95d69f566ddfe7647430164f8ad5f9fcf4",
+      "enMarkdown": "My guess is that these multiples aren't even constant. I think they increase when you face harder problems and also when you have smarter programmers. A really good hacker can squeeze more out of better tools.",
+      "zhMarkdown": "我的猜测是，这些倍数甚至不是恒定的。我认为，当你面临更难的问题，以及当你拥有更聪明的程序员时，这个倍数还会增加。一个真正优秀的黑客能从更好的工具中榨取更多的价值。"
+    },
+    {
+      "id": 59,
+      "type": "paragraph",
+      "sourceHash": "caa0072e951888f8c52089f0953a14d6396cc43fed9f3801ad54a6ce58621e6f",
+      "enMarkdown": "As one data point on the curve, at any rate, if you were to compete with ITA and chose to write your software in C, they would be able to develop software twenty times faster than you. If you spent a year on a new feature, they'd be able to duplicate it in less than three weeks. Whereas if they spent just three months developing something new, it would be *five years* before you had it too.",
+      "zhMarkdown": "无论如何，作为曲线上的一点：如果你要与 ITA 竞争，并选择用 C 编写你的软件，他们开发软件的速度将比你快 20 倍。如果你花了一年时间开发一个新特性，他们能在不到三周的时间内复制出来。而如果他们只花三个月开发一些新东西，你需要花*五年*时间才能赶上。"
+    },
+    {
+      "id": 60,
+      "type": "paragraph",
+      "sourceHash": "2bba008100fbb0f81a9178c2b9df615ead86a69538f4d792988e9d12a7db725c",
+      "enMarkdown": "And you know what? That's the best-case scenario. When you talk about code-size ratios, you're implicitly assuming that you can actually write the program in the weaker language. But in fact there are limits on what programmers can do. If you're trying to solve a hard problem with a language that's too low-level, you reach a point where there is just too much to keep in your head at once.",
+      "zhMarkdown": "而且你知道吗？这还是最理想的情况。当你谈论代码规模比例时，你含蓄地假设了你实际上可以用较弱的语言写出该程序。但实际上，程序员的能力是有极限的。如果你试图用一个过于低底层的语言去解决一个难题，你会达到一个临界点：需要同时装进你脑袋里的东西实在太多了。"
+    },
+    {
+      "id": 61,
+      "type": "paragraph",
+      "sourceHash": "0ea23081bb53fdf7ea4f11d83ac66ae735dc0b290e19fc6a12e27ed646ea69ea",
+      "enMarkdown": "So when I say it would take ITA's imaginary competitor five years to duplicate something ITA could write in Lisp in three months, I mean five years if nothing goes wrong. In fact, the way things work in most companies, any development project that would take five years is likely never to get finished at all.",
+      "zhMarkdown": "所以，当我说明 ITA 的假想竞争对手需要花五年时间才能复制 ITA 用 Lisp 三个月就能写出的东西时，我的意思是在不出任何差错的情况下需要五年。实际上，按照大多数公司的运作方式，任何需要花五年时间的开发项目，很可能根本永远无法完成。"
+    },
+    {
+      "id": 62,
+      "type": "paragraph",
+      "sourceHash": "fac7c18f1993c9f4fd1ce5f4b48439d40cad4a2aae8970292ee19c5daca14539",
+      "enMarkdown": "I admit this is an extreme case. ITA's hackers seem to be unusually smart, and C is a pretty low-level language. But in a competitive market, even a differential of two or three to one would be enough to guarantee that you'd always be behind.",
+      "zhMarkdown": "我承认这是一个极端的例子。ITA 的黑客似乎异常聪明，而 C 也是一种相当低底层的语言。但在竞争激烈的市场中，即使是两到三倍的差距，也足以确保你永远处于落后地位。"
+    },
+    {
+      "id": 63,
+      "type": "paragraph",
+      "sourceHash": "66711600b9b8fdd328c8ac6182a37b3ee9e5c1e5a55d08c9fccc1b757275e07e",
+      "enMarkdown": "**A Recipe**",
+      "zhMarkdown": "**秘诀**"
+    },
+    {
+      "id": 64,
+      "type": "paragraph",
+      "sourceHash": "1fd028e1c9584490f089d163c8854350caf50399ff6fd6c00f63357f2e93a317",
+      "enMarkdown": "This is the kind of possibility that the pointy-haired boss doesn't even want to think about. And so most of them don't. Because, you know, when it comes down to it, the pointy-haired boss doesn't mind if his company gets their ass kicked, so long as no one can prove it's his fault. The safest plan for him personally is to stick close to the center of the herd.",
+      "zhMarkdown": "这是尖头发老板甚至连想都不愿去想的可能性。所以他们大多数人都不去想。因为，你知道，归根结底，尖头发的老板并不介意他的公司被揍得落花流水，只要没人能证明这是他的错就行。对他个人而言，最稳妥的计划就是紧跟在羊群的中央。"
+    },
+    {
+      "id": 65,
+      "type": "paragraph",
+      "sourceHash": "d012857fde26243318cbd5d9ed65df1a6e51ef226469ff9be76dddf9b19298df",
+      "enMarkdown": "Within large organizations, the phrase used to describe this approach is \"industry best practice.\" Its purpose is to shield the pointy-haired boss from responsibility: if he chooses something that is \"industry best practice,\" and the company loses, he can't be blamed. He didn't choose, the industry did.",
+      "zhMarkdown": "在大企业内部，用来形容这种方法的词汇是“行业最佳实践”。其目的在于保护尖头发的老板免受追责：如果他选择的是“行业最佳实践”，而公司输了，他也不能被归咎。这不是他的选择，是行业的选择。"
+    },
+    {
+      "id": 66,
+      "type": "paragraph",
+      "sourceHash": "1fb2d112465e7c035bd475b6872a424687ea9e6a773da9cd4516798d28ac4cbf",
+      "enMarkdown": "I believe this term was originally used to describe accounting methods and so on. What it means, roughly, is *don't do anything weird.* And in accounting that's probably a good idea. The terms \"cutting-edge\" and \"accounting\" do not sound good together. But when you import this criterion into decisions about technology, you start to get the wrong answers.",
+      "zhMarkdown": "我相信这个词最初是用来描述会计方法之类的。它的字面意思大致是：*不要做任何古怪的事。* 在会计领域，这大概是个好主意。“前沿”和“会计”这两个词听起来可不怎么搭调。但当你把这个标准引入到技术决策中时，你就会开始得到错误的答案。"
+    },
+    {
+      "id": 67,
+      "type": "paragraph",
+      "sourceHash": "5795b77f84f8853af1302a18f64ae181945d5a0dd0d9e4e02c1537859e15c89b",
+      "enMarkdown": "Technology often *should* be cutting-edge. In programming languages, as Erann Gat has pointed out, what \"industry best practice\" actually gets you is not the best, but merely the average. When a decision causes you to develop software at a fraction of the rate of more aggressive competitors, \"best practice\" is a misnomer.",
+      "zhMarkdown": "技术往往*应该*是前沿的。在编程语言方面，正如埃兰·加特（Erann Gat）所指出的，“行业最佳实践”实际上带给你的不是最好，而仅仅是平庸。当一个决策导致你开发软件的速度只有那些更具进取心的竞争对手的几分之一时，“最佳实践”就是一个用词不当的谬误。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "00ca35a3db1ea02bd2102e44c17cb16c3a00e8a841f0903d8be37fc821d4de17",
+      "enMarkdown": "So here we have two pieces of information that I think are very valuable. In fact, I know it from my own experience. Number 1, languages vary in power. Number 2, most managers deliberately ignore this. Between them, these two facts are literally a recipe for making money. ITA is an example of this recipe in action. If you want to win in a software business, just take on the hardest problem you can find, use the most powerful language you can get, and wait for your competitors' pointy-haired bosses to revert to the mean.",
+      "zhMarkdown": "所以，我们在这里得到了两条我认为非常有价值的信息。事实上，我从自己的经验中深知这一点。第一，语言的威力各有不同。第二，大多数管理者故意忽视这一点。在这两者之间，这两个事实简直就是一个赚钱的秘诀。ITA 就是这个秘诀付诸实践的一个例子。如果你想在软件行业中获胜，只需挑战你能找到的最难的问题，使用你能获得的最强大的语言，然后静静等待竞争对手那些尖头发的老板回归平庸。"
+    },
+    {
+      "id": 69,
+      "type": "hr",
+      "sourceHash": "e04feaf0fbf63d40918ba0f483a87ec1c5e5b04fec19917a7d834cfded334b5d"
+    },
+    {
+      "id": 70,
+      "type": "paragraph",
+      "sourceHash": "21dafe8640abeaeb8f7b959662ef5c3ce94105713dcfac835e0b2aa67affdd10",
+      "enMarkdown": "**Appendix: Power**",
+      "zhMarkdown": "**附录：语言的威力**"
+    },
+    {
+      "id": 71,
+      "type": "paragraph",
+      "sourceHash": "b6581bd977eba611ecafb3efc6403c72ca3a18ab978089d6482f1994fc7afb19",
+      "enMarkdown": "As an illustration of what I mean about the relative power of programming languages, consider the following problem. We want to write a function that generates accumulators-- a function that takes a number n, and returns a function that takes another number i and returns n incremented by i.",
+      "zhMarkdown": "为了说明我所说的编程语言相对威力的含义，请考虑以下问题。我们要写一个生成累加器（accumulators）的函数——这个函数接受一个数字 n，并返回一个函数，后者接受另一个数字 i，并返回 n 递增 i 后的值。"
+    },
+    {
+      "id": 72,
+      "type": "paragraph",
+      "sourceHash": "bdf15970fb8234c5a43212c79e1a77f3a334b32b92a0938826e12484eaaad96b",
+      "enMarkdown": "(That's *incremented by*, not plus. An accumulator has to accumulate.)",
+      "zhMarkdown": "（是*递增*，而不仅仅是相加。累加器必须能够累积状态。）"
+    },
+    {
+      "id": 73,
+      "type": "paragraph",
+      "sourceHash": "584e7519d7756fb0d92aa88b5040a5e7f6d6d50cd510bb771964db3db4ba994c",
+      "enMarkdown": "In Common Lisp this would be  (defun foo (n) (lambda (i) (incf n i)))  and in Perl 5,  sub foo { my ($n) = @_; sub {$n += shift} }  which has more elements than the Lisp version because you have to extract parameters manually in Perl.",
+      "zhMarkdown": "在 Common Lisp 中，代码会是： `(defun foo (n) (lambda (i) (incf n i)))` ；而在 Perl 5 中是： `sub foo { my ($n) = @_; sub {$n += shift} }` ，这比 Lisp 版本有更多的元素，因为在 Perl 中你必须手动提取参数。"
+    },
+    {
+      "id": 74,
+      "type": "paragraph",
+      "sourceHash": "5e497ce4af888ddf0174d1d12c6c42993e5a282c216bdcdd76b0a6ca15db85ac",
+      "enMarkdown": "In Smalltalk the code is slightly longer than in Lisp  foo: n |s| s := n. ^[:i| s := s+i. ]  because although in general lexical variables work, you can't do an assignment to a parameter, so you have to create a new variable s.",
+      "zhMarkdown": "在 Smalltalk 中，代码比 Lisp 稍长一些： `foo: n |s| s := n. ^[:i| s := s+i. ]` ，因为尽管词法变量通常有效，但你不能对参数进行赋值，所以必须创建一个新变量 s。"
+    },
+    {
+      "id": 75,
+      "type": "paragraph",
+      "sourceHash": "ecc0999602fda899c21c3c9e183d58bc06eccb3c65c7ac57bfd7a5b48ac6555f",
+      "enMarkdown": "In Javascript the example is, again, slightly longer, because Javascript retains the distinction between statements and expressions, so you need explicit return statements to return values:  function foo(n) { return function (i) { return n += i } }  (To be fair, Perl also retains this distinction, but deals with it in typical Perl fashion by letting you omit returns.)",
+      "zhMarkdown": "在 Javascript 中，这个例子同样稍长一些，因为 Javascript 保留了语句和表达式之间的区别，所以你需要显式的 return 语句来返回值： `function foo(n) { return function (i) { return n += i } }` （公平地说，Perl 也保留了这种区别，但它以典型的 Perl 方式处理，允许你省略 return。）"
+    },
+    {
+      "id": 76,
+      "type": "paragraph",
+      "sourceHash": "ebc57af130dc87f1cf1955987844acb1b298f1baec4cca45e0b40840ba0f152a",
+      "enMarkdown": "If you try to translate the Lisp/Perl/Smalltalk/Javascript code into Python you run into some limitations. Because Python doesn't fully support lexical variables, you have to create a data structure to hold the value of n. And although Python does have a function data type, there is no literal representation for one (unless the body is only a single expression) so you need to create a named function to return. This is what you end up with:  def foo(n): s = [n] def bar(i): s[0] += i return s[0] return bar  Python users might legitimately ask why they can't just write  def foo(n): return lambda i: return n += i  or even  def foo(n): lambda i: n += i  and my guess is that they probably will, one day. (But if they don't want to wait for Python to evolve the rest of the way into Lisp, they could always just...)",
+      "zhMarkdown": "如果你尝试把 Lisp/Perl/Smalltalk/Javascript 的代码翻译成 Python，你会遇到一些限制。因为 Python 不完全支持词法变量，你必须创建一个数据结构来保存 n 的值。虽然 Python 确实有函数数据类型，但它没有字面量表示形式（除非函数体只有单个表达式），所以你需要创建一个命名函数来返回。这就是你最终得到的结果： `def foo(n): s = [n] def bar(i): s[0] += i return s[0] return bar`  Python 用户可能会理所当然地问，为什么他们不能直接写： `def foo(n): return lambda i: return n += i` 甚至： `def foo(n): lambda i: n += i` 我猜他们也许有一天会可以这么写。（但如果他们不想等待 Python 彻底演化成 Lisp，他们其实可以随时直接……）"
+    },
+    {
+      "id": 77,
+      "type": "paragraph",
+      "sourceHash": "b158f112fc3659911118874ce398f51237254ecc5f1fba88bde0cac5e524e6d0",
+      "enMarkdown": "In OO languages, you can, to a limited extent, simulate a closure (a function that refers to variables defined in enclosing scopes) by defining a class with one method and a field to replace each variable from an enclosing scope. This makes the programmer do the kind of code analysis that would be done by the compiler in a language with full support for lexical scope, and it won't work if more than one function refers to the same variable, but it is enough in simple cases like this.",
+      "zhMarkdown": "在面向对象（OO）语言中，你可以在有限的程度上模拟闭包（一个引用了外层作用域中定义之变量的函数），方法是定义一个类，该类包含一个方法，并用一个字段来代替外层作用域中的每个变量。这会让程序员去做那些在完全支持词法作用域的语言中本该由编译器完成的代码分析工作。而且如果有多个函数引用同一个变量，这种方法就失效了，但在像这样简单的场景中它已经足够了。"
+    },
+    {
+      "id": 78,
+      "type": "paragraph",
+      "sourceHash": "4496b45065717591a5dd1e6e00fe45d67e5f1370c59f9f711f5250096777d566",
+      "enMarkdown": "Python experts seem to agree that this is the preferred way to solve the problem in Python, writing either  def foo(n): class acc: def __init__(self, s): self.s = s def inc(self, i): self.s += i return self.s return acc(n).inc  or  class foo: def __init__(self, n): self.n = n def __call__(self, i): self.n += i return self.n  I include these because I wouldn't want Python advocates to say I was misrepresenting the language, but both seem to me more complex than the first version. You're doing the same thing, setting up a separate place to hold the accumulator; it's just a field in an object instead of the head of a list. And the use of these special, reserved field names, especially __call__, seems a bit of a hack.",
+      "zhMarkdown": "Python 专家似乎一致认为，这是在 Python 中解决该问题的首选方式，可以写成： `def foo(n): class acc: def __init__(self, s): self.s = s def inc(self, i): self.s += i return self.s return acc(n).inc` 或者： `class foo: def __init__(self, n): self.n = n def __call__(self, i): self.n += i return self.n` 我把这些列出来，是因为我不想让 Python 拥护者说我歪曲了这门语言，但在我看来，这两种方式都比第一种更复杂。你做的是同样的事情，即设置一个独立的地方来保存累加器；只不过它是一个对象中的字段，而不是列表的头部。而且使用这些特殊的保留字段名称，尤其是 `__call__`，看起来有点像临时拼凑的 hack。"
+    },
+    {
+      "id": 79,
+      "type": "paragraph",
+      "sourceHash": "e93388c51fa1fa12967a8c8f00b84264a9a633d9fe6091e4db8c5631ffb92035",
+      "enMarkdown": "In the rivalry between Perl and Python, the claim of the Python hackers seems to be that that Python is a more elegant alternative to Perl, but what this case shows is that power is the ultimate elegance: the Perl program is simpler (has fewer elements), even if the syntax is a bit uglier.",
+      "zhMarkdown": "在 Perl 和 Python 的竞争中，Python 黑客的说法似乎是 Python 是 Perl 更优雅的替代品，但这个例子表明，威力才是终极的优雅：Perl 程序更简单（包含更少的元素），哪怕它的语法看起来有点丑陋。"
+    },
+    {
+      "id": 80,
+      "type": "paragraph",
+      "sourceHash": "805204dabf86471f8bb21c7dcf72cffb9fbeb96dc2d0885ab1e04886bac4ba0b",
+      "enMarkdown": "How about other languages? In the other languages mentioned in this talk-- Fortran, C, C++, Java, and Visual Basic-- it is not clear whether you can actually solve this problem. Ken Anderson says that the following code is about as close as you can get in Java:  public interface Inttoint { public int call(int i); }   public static Inttoint foo(final int n) { return new Inttoint() { int s = n; public int call(int i) { s = s + i; return s; }}; }  This falls short of the spec because it only works for integers. After many email exchanges with Java hackers, I would say that writing a properly polymorphic version that behaves like the preceding examples is somewhere between damned awkward and impossible. If anyone wants to write one I'd be very curious to see it, but I personally have timed out.",
+      "zhMarkdown": "其他语言呢？在本次演讲中提到的其他语言——Fortran、C、C++、Java 和 Visual Basic——中，目前尚不清楚你是否真的能解决这个问题。肯·安德森（Ken Anderson）说，以下代码是 Java 中最接近的实现： `public interface Inttoint { public int call(int i); }   public static Inttoint foo(final int n) { return new Inttoint() { int s = n; public int call(int i) { s = s + i; return s; }}; }` 这并不符合规范，因为它只适用于整数。在与 Java 黑客进行多次邮件交流之后，我想说，编写一个像前面例子那样运行的、真正多态的版本，其难度介于“极其别扭”和“不可能”之间。如果有人想写一个，我会非常好奇想见识一下，但我个人已经放弃尝试了。"
+    },
+    {
+      "id": 81,
+      "type": "paragraph",
+      "sourceHash": "e475b09accc2f7933d919b07090528b78accd5ca169309e11c01ff95d25c64a1",
+      "enMarkdown": "It's not literally true that you can't solve this problem in other languages, of course. The fact that all these languages are Turing-equivalent means that, strictly speaking, you can write any program in any of them. So how would you do it? In the limit case, by writing a Lisp interpreter in the less powerful language.",
+      "zhMarkdown": "当然，说在其他语言中完全无法解决这个问题，在字面上并不准确。所有这些语言都是图灵等价的，这意味着严格来说，你可以用其中任何一种语言写出任何程序。那么你会怎么做？在极限情况下，通过在较弱的语言中编写一个 Lisp 解释器来实现。"
+    },
+    {
+      "id": 82,
+      "type": "paragraph",
+      "sourceHash": "61aa18ddeab0a14d8c0d758c9c916e38b156fb98ac99cc7583f4fd31d0113c1f",
+      "enMarkdown": "That sounds like a joke, but it happens so often to varying degrees in large programming projects that there is a name for the phenomenon, Greenspun's Tenth Rule:",
+      "zhMarkdown": "这听起来像是一个玩笑，但在大型编程项目中，它在不同程度上频繁发生，以至于这一现象有了一个专门的名字——格林斯潘第十定律（Greenspun's Tenth Rule）："
+    },
+    {
+      "id": 83,
+      "type": "quote",
+      "sourceHash": "0cd35c8ef33657ae541df94567e4542d57eecdd1c3ec4c7c4b93c84995579f90",
+      "enMarkdown": "> Any sufficiently complicated C or Fortran program contains an ad hoc informally-specified bug-ridden slow implementation of half of Common Lisp.",
+      "zhMarkdown": "> 任何足够复杂的 C 或 Fortran 程序，都包含一个临时拼凑的、非正式定义的、充满 bug 的、运行缓慢的 Common Lisp 的一半实现。"
+    },
+    {
+      "id": 84,
+      "type": "paragraph",
+      "sourceHash": "18b91e3666269ccdb8701ff608eb7648838993f81ceda377013ffb36be03adec",
+      "enMarkdown": "If you try to solve a hard problem, the question is not whether you will use a powerful enough language, but whether you will (a) use a powerful language, (b) write a de facto interpreter for one, or (c) yourself become a human compiler for one. We see this already begining to happen in the Python example, where we are in effect simulating the code that a compiler would generate to implement a lexical variable.",
+      "zhMarkdown": "如果你试图解决一个难题，问题不在于你是否会使用足够强大的语言，而在于你是选择（a）使用一种强大的语言，（b）为它编写一个事实上的解释器，还是（c）自己成为一个肉体编译器。我们在 Python 的例子中已经看到这开始发生了，在那个例子中，我们实际上是在模拟编译器为实现词法变量而生成的代码。"
+    },
+    {
+      "id": 85,
+      "type": "paragraph",
+      "sourceHash": "8bd39064c22a5512d757c7c416f00ce5dbfc3460b11a98c1262f6e7e4bfc8fae",
+      "enMarkdown": "This practice is not only common, but institutionalized. For example, in the OO world you hear a good deal about \"patterns\". I wonder if these patterns are not sometimes evidence of case (c), the human compiler, at work. When I see patterns in my programs, I consider it a sign of trouble. The shape of a program should reflect only the problem it needs to solve. Any other regularity in the code is a sign, to me at least, that I'm using abstractions that aren't powerful enough-- often that I'm generating by hand the expansions of some macro that I need to write.",
+      "zhMarkdown": "这种做法不仅普遍，甚至已经制度化。例如，在面向对象的世界中，你经常能听到关于“模式（patterns）”的讨论。我怀疑这些模式有时是否就是情况（c）——肉体编译器在工作的证据。当我在自己的程序中看到模式时，我将其视为麻烦的信号。程序的形状应该仅仅反映它需要解决的问题。代码中的任何其他规律性，至少对我而言，都表明我正在使用不够强大的抽象——通常意味着我正在用手手工生成我本该编写的某个宏的展开式。"
+    },
+    {
+      "id": 86,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 87,
+      "type": "list",
+      "sourceHash": "e3c5c3d32d66088b7f8529273b1d0ec8422a7586a51f86b325dca43c271bd9e2",
+      "enMarkdown": "- The IBM 704 CPU was about the size of a refrigerator, but a lot heavier. The CPU weighed 3150 pounds, and the 4K of RAM was in a separate box weighing another 4000 pounds. The Sub-Zero 690, one of the largest household refrigerators, weighs 656 pounds.\n- Steve Russell also wrote the first (digital) computer game, Spacewar, in 1962.\n- If you want to trick a pointy-haired boss into letting you write software in Lisp, you could try telling him it's XML.\n- Here is the accumulator generator in other Lisp dialects: \nScheme: (define (foo n) \n          (lambda (i) (set! n (+ n i)) n))\nGoo:    (df foo (n) (op incf n _)))\nArc:    (def foo (n) [++ n _])\n- Erann Gat's sad tale about \"industry best practice\" at JPL inspired me to address this generally misapplied phrase.\n- Peter Norvig found that 16 of the 23 patterns in *Design Patterns* were \"[invisible\nor simpler](http://www.norvig.com/design-patterns/)\" in Lisp.\n- Thanks to the many people who answered my questions about various languages and/or read drafts of this, including Ken Anderson, Trevor Blackwell, Erann Gat, Dan Giffin, Sarah Harlin, Jeremy Hylton, Robert Morris, Peter Norvig, Guy Steele, and Anton van Straaten. They bear no blame for any opinions expressed.",
+      "zhMarkdown": "- IBM 704 CPU 大约有一台冰箱那么大，但要重得多。CPU 重达 3150 磅，而 4K 的内存装在另一个重达 4000 磅的箱子里。Sub-Zero 690（最大的家用冰箱之一）也只有 656 磅。\n- 史蒂夫·罗素（Steve Russell）还在 1962 年编写了第一款（数字）电脑游戏《太空大战》（Spacewar）。\n- 如果你想哄骗一个尖头发的老板让你用 Lisp 写软件，你可以试着告诉他这是 XML。\n- 以下是其他 Lisp 方言中的累加器生成器：\nScheme:\n`(define (foo n) (lambda (i) (set! n (+ n i)) n))`\nGoo:\n`(df foo (n) (op incf n _)))`\nArc:\n`(def foo (n) [++ n _])`\n- 埃兰·加特（Erann Gat）关于喷气推进实验室（JPL）“行业最佳实践”的悲惨故事，激发了我去探讨这个普遍被滥用的词汇。\n- 彼得·诺维格（Peter Norvig）发现，《设计模式》一书中的 23 种模式中，有 16 种在 Lisp 中是“[隐形或更简单](http://www.norvig.com/design-patterns/)”的。\n- 感谢许多回答我关于各种语言的问题和/或阅读了本文草稿的人，包括 Ken Anderson、Trevor Blackwell、Erann Gat、Dan Giffin、Sarah Harlin、Jeremy Hylton、Robert Morris、Peter Norvig、Guy Steele 和 Anton van Straaten。他们不对文中表达的任何观点承担责任。"
+    },
+    {
+      "id": 88,
+      "type": "paragraph",
+      "sourceHash": "44f2efebd4ecadb579a8d1ef2f48651513e02509cd86de59ae335d4103a67110",
+      "enMarkdown": "**Related:**",
+      "zhMarkdown": "**相关链接：**"
+    },
+    {
+      "id": 89,
+      "type": "paragraph",
+      "sourceHash": "4cbe025b3d7289f18ad0864704353ad013431c32b11e410c36abd78b7ddf941a",
+      "enMarkdown": "Many people have responded to this talk, so I have set up an additional page to deal with the issues they have raised: [Re: Revenge of the Nerds](https://paulgraham.com/icadmore.html).",
+      "zhMarkdown": "许多人对这次演讲做出了回应，因此我设立了一个额外的页面来处理他们提出的问题：[Re: Revenge of the Nerds](https://paulgraham.com/icadmore.html)。"
+    },
+    {
+      "id": 90,
+      "type": "paragraph",
+      "sourceHash": "25d01f4126281fd48c923677850fff2d7fb6c8a89f917c2b804fe6a112fe2991",
+      "enMarkdown": "It also set off an extensive and often useful discussion on the [LL1](http://www.ai.mit.edu/~gregs/ll1-discuss-archive-html/threads.html) mailing list. See particularly the mail by Anton van Straaten on semantic compression.",
+      "zhMarkdown": "它还在 [LL1](http://www.ai.mit.edu/~gregs/ll1-discuss-archive-html/threads.html) 邮件列表上引发了广泛且往往非常有益的讨论。特别参阅 Anton van Straaten 关于语义压缩的邮件。"
+    },
+    {
+      "id": 91,
+      "type": "paragraph",
+      "sourceHash": "50871c51e36143c51481ce009c04793f61b11d0442c3a5660802a4639571d6bc",
+      "enMarkdown": "Some of the mail on LL1 led me to try to go deeper into the subject of language power in [Succinctness is Power](https://paulgraham.com/power.html).",
+      "zhMarkdown": "LL1 上的一些邮件促使我尝试在《[简洁即力量](https://paulgraham.com/power.html)》中更深入地探讨语言威力这一主题。"
+    },
+    {
+      "id": 92,
+      "type": "paragraph",
+      "sourceHash": "e49500680c92d25d79d6edd670d499bbf2c313d260645ae5af7598cb532ee6a0",
+      "enMarkdown": "A larger set of canonical implementations of the [accumulator\ngenerator benchmark](https://paulgraham.com/accgen.html) are collected together on their own page.",
+      "zhMarkdown": "更广泛的[累加器生成器基准测试](https://paulgraham.com/accgen.html)的规范实现被收集在它们自己的页面上。"
+    },
+    {
+      "id": 93,
+      "type": "paragraph",
+      "sourceHash": "c1ccbb5270e566df384750e895f8eb77d5d068fb97afef18d1449aa5ec4d2092",
+      "enMarkdown": "[Japanese Translation](http://www.shiro.dreamhost.com/scheme/trans/icad-j.html), [Spanish\nTranslation](http://kapcoweb.com/p/docs/translations/revenge_of_the_nerds/revenge_of_the_nerds-es.html), [Chinese Translation](http://flyingapplet.spaces.live.com/blog/cns!F682AFBD82F7E261!375.entry )",
+      "zhMarkdown": "[日文翻译](http://www.shiro.dreamhost.com/scheme/trans/icad-j.html)，[西班牙文翻译](http://kapcoweb.com/p/docs/translations/revenge_of_the_nerds/revenge_of_the_nerds-es.html)，[中文翻译](http://flyingapplet.spaces.live.com/blog/cns!F682AFBD82F7E261!375.entry )"
+    }
+  ]
+}

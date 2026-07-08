@@ -1,0 +1,104 @@
+{
+  "slug": "mod",
+  "titleEn": "The Two Kinds of Moderate",
+  "titleZh": "两种温和派",
+  "dateText": "December 2019",
+  "publishedAt": "2019-12-01",
+  "sourceOrder": 50,
+  "sourceUrl": "https://paulgraham.com/mod.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "54fefd64149cfc5a513d3bd26f92bcd3da8bcbdb167def8994592dad7cd7cd67",
+      "enMarkdown": "There are two distinct ways to be politically moderate: on purpose and by accident. Intentional moderates are trimmers, deliberately choosing a position mid-way between the extremes of right and left. Accidental moderates end up in the middle, on average, because they make up their own minds about each question, and the far right and far left are roughly equally wrong.",
+      "zhMarkdown": "在政治上，成为温和派有两种截然不同的方式：一种是刻意为之，另一种是纯属偶然。刻意型温和派是投机主义者，他们小心翼翼地在极左和极右之间选择一条中间路线。偶然型温和派之所以最终落在中间，是因为他们对每个问题都独立思考，而极左和极右在这些问题上犯错的概率大致相当，两者平均下来，他们就成了温和派。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "9f901be500dcc17fef81cad9c3e94b272842685842b1d0fbadeaa2327da79ad1",
+      "enMarkdown": "You can distinguish intentional from accidental moderates by the distribution of their opinions. If the far left opinion on some matter is 0 and the far right opinion 100, an intentional moderate's opinion on every question will be near 50. Whereas an accidental moderate's opinions will be scattered over a broad range, but will, like those of the intentional moderate, average to about 50.",
+      "zhMarkdown": "你可以通过观点的分布来区分这两种温和派。如果极左在某件事上的观点是 0，极右是 100，那么刻意型温和派在每个问题上的观点都会接近 50。而偶然型温和派的观点则会分散在很宽的区间内，只不过和刻意型温和派一样，这些观点的平均值也在 50 左右。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "23ffa1934afb9cc4cf71ce427bdb64a48632f30c4fab4a68fc715b8a0e738834",
+      "enMarkdown": "Intentional moderates are similar to those on the far left and the far right in that their opinions are, in a sense, not their own. The defining quality of an ideologue, whether on the left or the right, is to acquire one's opinions in bulk. You don't get to pick and choose. Your opinions about taxation can be predicted from your opinions about sex. And although intentional moderates might seem to be the opposite of ideologues, their beliefs (though in their case the word \"positions\" might be more accurate) are also acquired in bulk. If the median opinion shifts to the right or left, the intentional moderate must shift with it. Otherwise they stop being moderate.",
+      "zhMarkdown": "刻意型温和派与极左、极右分子类似，从某种意义上说，他们的观点都不是自己的。无论是左派还是右派，意识形态狂热者的核心特征就是“批发”观点，而不是自己挑选。只要知道你对税收的看法，就能预测出你对性的态度。尽管刻意型温和派表面上看起来与意识形态狂热者截然相反，但他们的信念（或许用“立场”来形容更准确）同样是成套批发来的。如果大众主流观点向左或向右移动，刻意型温和派也必须随之移动，否则他们就不再是温和派了。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "7c4e667690184a500599750ff9750fc44efa4db7d286db6a6707369a64f90f49",
+      "enMarkdown": "Accidental moderates, on the other hand, not only choose their own answers, but choose their own questions. They may not care at all about questions that the left and right both think are terribly important. So you can only even measure the politics of an accidental moderate from the intersection of the questions they care about and those the left and right care about, and this can sometimes be vanishingly small.",
+      "zhMarkdown": "相反，偶然型温和派不仅自己寻找答案，还自己提出问题。对于左派和右派都认为极其重要的问题，他们可能根本不在乎。因此，要衡量一个偶然型温和派的政治立场，你只能去看他们关心的问题与左右两派关心问题的交集，而这个交集有时可能微乎其微。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "6babc2e8523c787286b871eeae19717e0207568ca92dc831a661e5c9dad1d059",
+      "enMarkdown": "It is not merely a manipulative rhetorical trick to say \"if you're not with us, you're against us,\" but often simply false.",
+      "zhMarkdown": "“不站在我们这边，就是我们的敌人”，这不仅是一种煽动性的修辞伎俩，而且通常根本不符合事实。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "1d1b390b48a5e826d484a82bda338bf740fd0920dcee6662ceade029c91cae7d",
+      "enMarkdown": "Moderates are sometimes derided as cowards, particularly by the extreme left. But while it may be accurate to call intentional moderates cowards, openly being an accidental moderate requires the most courage of all, because you get attacked from both right and left, and you don't have the comfort of being an orthodox member of a large group to sustain you.",
+      "zhMarkdown": "温和派有时会被嘲笑为懦夫，尤其是被极左分子。虽然把刻意型温和派称为懦夫可能没错，但公开做一个偶然型温和派其实需要最大的勇气。因为你会同时遭到左派和右派的攻击，而且你无法像大群体中的正统成员那样，获得群体认同带来的慰藉和支持。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "14244d0f1610ab32e9e3d45bc1483806ceb9310f4e10ea207bb504ac0bb78c09",
+      "enMarkdown": "Nearly all the most impressive people I know are accidental moderates. If I knew a lot of professional athletes, or people in the entertainment business, that might be different. Being on the far left or far right doesn't affect how fast you run or how well you sing. But someone who works with ideas has to be independent-minded to do it well.",
+      "zhMarkdown": "在我认识的最了不起的人中，几乎所有人都是偶然型温和派。如果我认识很多职业运动员或娱乐圈人士，情况可能会有所不同。毕竟，处于极左还是极右并不会影响你跑得多快或唱得多好。但对于靠思想谋生的人来说，必须保持独立思考才能把工作做好。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "b44ddb179a9b878726007a0ac6c2e0d5c7038b7a77fe31f3d44ec2d416fab966",
+      "enMarkdown": "Or more precisely, you have to be independent-minded about the ideas you work with. You could be mindlessly doctrinaire in your politics and still be a good mathematician. In the 20th century, a lot of very smart people were Marxists � just no one who was smart about the subjects Marxism involves. But if the ideas you use in your work intersect with the politics of your time, you have two choices: be an accidental moderate, or be mediocre.",
+      "zhMarkdown": "更准确地说，你必须对自己研究的思想保持独立思考。在政治上盲从教条，并不妨碍你成为一个优秀的数学家。在 20 世纪，许多非常聪明的人都是马克思主义者——只是在马克思主义涉及的领域里，没有一个是真正聪明的。但是，如果你在工作中所运用的思想与当下的政治有所交集，你只有两个选择：要么做一个偶然型温和派，要么平庸一生。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "b352b3ccec04fb4cf17a3bb0a80f0e0fb9d8b2a3254c105a000f56347a9d9ad4",
+      "enMarkdown": "[1] It's possible in theory for one side to be entirely right and the other to be entirely wrong. Indeed, ideologues must always believe this is the case. But historically it rarely has been.",
+      "zhMarkdown": "[1] 理论上，完全可能出现一方完全正确而另一方完全错误的情况。事实上，意识形态狂热者总是坚信这就是事实。但在历史上，这种情况极少发生。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "852b668ef8f243d0469d351dedbca1da3be6532c4e7a2af7effebc0ad88cb386",
+      "enMarkdown": "[2] For some reason the far right tend to ignore moderates rather than despise them as backsliders. I'm not sure why. Perhaps it means that the far right is less ideological than the far left. Or perhaps that they are more confident, or more resigned, or simply more disorganized. I just don't know.",
+      "zhMarkdown": "[2] 出于某种原因，极右翼倾向于忽视温和派，而不是像极左翼那样，把温和派视为背叛者而加以鄙视。我不确定这是为什么。这或许意味着极右翼的意识形态色彩没有极左翼那么浓厚；又或许是因为他们更自信、更听天由命，或者纯粹是更加一盘散沙。我确实不得而知。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "db3ccefe3bc241122558191b751c04f61cbc1085b207e04a96eaabc1a29d176c",
+      "enMarkdown": "[3] Having heretical opinions doesn't mean you have to express them openly. It may be [easier to have them](https://paulgraham.com/say.html) if you don't.",
+      "zhMarkdown": "[3] 拥有异端邪说并不意味着你必须公开表达出来。如果你[不把它们说出来](https://paulgraham.com/say.html)，保持这些想法可能会更容易。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "beee209e28294eb95e3aff31d6a42ee46c049f67c23d21af4257a56eabd81c88",
+      "enMarkdown": "**Thanks** to Austen Allred, Trevor Blackwell, Patrick Collison, Jessica Livingston, Amjad Masad, Ryan Petersen, and Harj Taggar for reading drafts of this.",
+      "zhMarkdown": "**感谢** Austen Allred、Trevor Blackwell、Patrick Collison、Jessica Livingston、Amjad Masad、Ryan Petersen 和 Harj Taggar 阅读本文草稿。"
+    }
+  ]
+}

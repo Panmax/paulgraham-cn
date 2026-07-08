@@ -1,0 +1,76 @@
+{
+  "slug": "tablets",
+  "titleEn": "Tablets",
+  "titleZh": "平板电脑",
+  "dateText": "December 2010",
+  "publishedAt": "2010-12-01",
+  "sourceOrder": 98,
+  "sourceUrl": "https://paulgraham.com/tablets.html",
+  "translatedAt": "2026-07-08",
+  "model": "gemini-3.5-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "f82a6321542cbabf516d0ad19d373f144dca98055015d8c9da0c2d3c59e371a0",
+      "enMarkdown": "I was thinking recently how inconvenient it was not to have a general term for iPhones, iPads, and the corresponding things running Android. The closest to a general term seems to be \"mobile devices,\" but that (a) applies to any mobile phone, and (b) doesn't really capture what's distinctive about the iPad.",
+      "zhMarkdown": "最近我一直在想，没有一个通用的词来统称 iPhone、iPad 以及运行 Android 系统的同类设备，是件多么不方便的事。最接近的通用词似乎是“移动设备”，但这个词（a）适用于任何移动电话，（b）并没有真正体现出 iPad 的独特之处。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "2b6700e728c1ebe18a2c2931d21f209c48c83ab103c96cfd6473dc889f79420c",
+      "enMarkdown": "After a few seconds it struck me that what we'll end up calling these things is tablets. The only reason we even consider calling them \"mobile devices\" is that the iPhone preceded the iPad. If the iPad had come first, we wouldn't think of the iPhone as a phone; we'd think of it as a tablet small enough to hold up to your ear.",
+      "zhMarkdown": "过了几秒钟，我突然意识到，我们最终会把这些东西统称为“平板电脑”（tablets）。我们之所以还会考虑叫它们“移动设备”，唯一的理由是 iPhone 诞生在 iPad 之前。如果 iPad 先问世，我们绝不会把 iPhone 看作是一部电话，而是会把它看作是一个小到可以贴在耳朵上的平板电脑。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "dae1f6e96c2eff3f6c381a45e8a92ac186eff6a613062e7c2ede0ff8792abc8d",
+      "enMarkdown": "The iPhone isn't so much a phone as a replacement for a phone. That's an important distinction, because it's an early instance of what will become a common pattern. Many if not most of the special-purpose objects around us are going to be replaced by apps running on tablets.",
+      "zhMarkdown": "与其说 iPhone 是一部电话，不如说它是电话的替代品。这是一个很重要的区别，因为它是未来一种普遍模式的早期雏形。我们身边许多（如果不是大多数的话）专用物品，都将被运行在平板电脑上的 App 所取代。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "35b08293bf37be90bdb2083397e009c497a9b09eca48f540775c29674564162c",
+      "enMarkdown": "This is already clear in cases like GPSes, music players, and cameras. But I think it will surprise people how many things are going to get replaced. We funded one startup that's [replacing keys](http://lockitron.com/). The fact that you can change font sizes easily means the iPad effectively replaces reading glasses. I wouldn't be surprised if by playing some clever tricks with the accelerometer you could even replace the bathroom scale.",
+      "zhMarkdown": "在 GPS、音乐播放器和相机等例子中，这已经很明显了。但我认为，即将被取代的物品之多，会超出人们的想象。我们投资过一家 [取代钥匙](http://lockitron.com/) 的创业公司。事实上，因为可以轻松调整字号，iPad 实际上已经取代了老花镜。如果有人通过对加速度计玩些聪明的花招，甚至把体重秤也给取代了，我一点也不会感到惊讶。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "9cc49ab4bfc43db4cabf1659bbdd221a2297dfd6f351e9379e5014ab7b2ace0f",
+      "enMarkdown": "The advantages of doing things in software on a single device are so great that everything that can get turned into software will. So for the next couple years, a good [recipe for startups](http://ycombinator.com/rfs8.html) will be to look around you for things that people haven't realized yet can be made unnecessary by a tablet app.",
+      "zhMarkdown": "在单一设备上用软件实现功能的优势是如此巨大，以至于任何能够被软件化的东西都将走向软件化。因此，在未来几年里，一个行之有效的 [创业公司秘诀](http://ycombinator.com/rfs8.html) 就是：环顾四周，寻找那些人们尚未意识到可以被平板电脑 App 淘汰的物品。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "bf94510ec6b555d46dc15e4cdcb0007c35feef2d29edab224304fe37001546a4",
+      "enMarkdown": "In 1938 Buckminster Fuller coined the term [ephemeralization](http://en.wikipedia.org/wiki/Ephemeralization) to describe the increasing tendency of physical machinery to be replaced by what we would now call software. The reason tablets are going to take over the world is not (just) that Steve Jobs and Co are industrial design wizards, but because they have this force behind them. The iPhone and the iPad have effectively drilled a hole that will allow ephemeralization to flow into a lot of new areas. No one who has studied the history of technology would want to underestimate the power of that force.",
+      "zhMarkdown": "1938年，巴克敏斯特·富勒（Buckminster Fuller）创造了 [“渐无化”（ephemeralization）](http://en.wikipedia.org/wiki/Ephemeralization) 一词，用来描述物理机械日益被我们今天所说的软件所取代的趋势。平板电脑之所以将席卷世界，不仅是因为史蒂夫·乔布斯及其团队是工业设计奇才，更因为他们背后有这股力量的推动。iPhone 和 iPad 实际上已经凿开了一个口子，让“渐无化”得以涌入许多全新的领域。任何研究过技术史的人，都不会低估这股力量的威力。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "ecabbd53a777895f7dda6b32f51d7d36a6b403ba66da3e9d4eee17a25ca98437",
+      "enMarkdown": "I worry about the power Apple could have with this force behind them. I don't want to see another era of client monoculture like the Microsoft one in the 80s and 90s. But if ephemeralization is one of the main forces driving the spread of tablets, that suggests a way to compete with Apple: be a better platform for it.",
+      "zhMarkdown": "我担心苹果在拥有这股力量支持后可能掌握的权力。我不想看到另一个像八九十年代微软那样的客户端单一霸权时代。但如果“渐无化”是推动平板电脑普及的主要力量之一，那么这就暗示了一种与苹果竞争的方法：成为一个对“渐无化”支持得更好的平台。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "2a0717953d315dfd556265817b3e91e11837246af54879016cc780bf8e7f27ff",
+      "enMarkdown": "It has turned out to be a great thing that Apple tablets have accelerometers in them. Developers have used the accelerometer in ways Apple could never have imagined. That's the nature of platforms. The more versatile the tool, the less you can predict how people will use it. So tablet makers should be thinking: what else can we put in there? Not merely hardware, but software too. What else can we give developers access to? Give hackers an inch and they'll take you a mile.",
+      "zhMarkdown": "事实证明，苹果的平板电脑内置加速度计是一件极好的事情。开发者们使用加速度计的方式是苹果公司做梦也想不到的。这就是平台的本质。工具越通用，你就越难预测人们会如何使用它。因此，平板电脑制造商应该思考：我们还能往里面塞进什么？不仅是硬件，软件也是如此。我们还能让开发者访问哪些接口？给黑客一寸，他们就能带你走出一里。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "9a8408539a22dd98858fc72ee6ff2c8dea7ac1ddbefc5f328b7e0b8d36529f60",
+      "enMarkdown": "**Thanks** to Sam Altman, Paul Buchheit, Jessica Livingston, and Robert Morris for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Paul Buchheit、Jessica Livingston 和 Robert Morris 阅读了本文的草稿。"
+    }
+  ]
+}
