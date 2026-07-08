@@ -44,7 +44,7 @@ paulgraham-cn/
 │   ├── articles/
 │   │   ├── earn.json           # 每篇文章一个结构化 JSON
 │   │   └── ...
-│   └── manifest.json           # 由 articles/*.json 派生的索引（构建时生成，勿手改）
+│   └── manifest.json           # 由 articles/*.json 派生的索引（由 translate 生成并提交，勿手改）
 ├── pipeline/                   # 翻译流水线（Node 脚本）
 │   ├── scrape.js               # 抓取 + 解析 PG 原文
 │   ├── translate.js            # 调 Gemini 翻译（@google/genai）
@@ -101,8 +101,8 @@ paulgraham-cn/
 
 **字段说明：**
 
-- **`type`**：segment 类型，`paragraph | heading | hr | list | quote | footnote | rawUnsupported`。保真范围里的非段落块（分隔线、脚注、列表、引用等）不再硬塞进"段落"，各有类型，渲染与更新 diff 都更稳。`hr` 等无正文的块可省略 `enMarkdown/zhMarkdown`；`rawUnsupported` 用于解析器无法归类的块，保留原始文本、渲染时按纯文本处理不翻译。
-- **`dateText` / `publishedAt` / `sourceOrder`**：`dateText` 是原文日期字符串（如 "June 2026"）仅供展示；`publishedAt` 是解析出的 ISO 日期用于排序，解析失败则留空并回退到 `sourceOrder`（原文 `articles.html` 列表中的出现次序），保证排序永远稳定。
+- **`type`**：segment 类型，`paragraph | heading | hr | list | quote | footnote | rawUnsupported`。保真范围里的非段落块（分隔线、脚注、列表、引用等）不再硬塞进"段落"，各有类型，渲染与更新 diff 都更稳。`hr` 等无正文的块可省略 `enMarkdown/zhMarkdown`；`rawUnsupported` 用于解析器无法归类的块，保留原始文本、渲染时按纯文本处理不翻译——但这有把真实正文误判、导致中文站静默露出大段英文的风险，故 translate 结束时须在 summary 里列出所有 `rawUnsupported` 的文件与 segment id，数量非零时人工确认（见第 4 节）。
+- **`dateText` / `publishedAt` / `sourceOrder`**：`dateText` 是原文日期字符串（如 "June 2026"）仅供展示；`publishedAt` 是解析出的 ISO 日期；`sourceOrder` 是原文 `articles.html` 列表中的出现次序。首页排序固定为 **`publishedAt` 降序、`sourceOrder` 升序 tie-break**（PG 多为月份级日期，同月多篇会同一天，靠 `sourceOrder` 保证稳定确定的顺序）；`publishedAt` 解析失败的文章按其 `sourceOrder` 就位。
 - **`id`**：段落稳定标识，更新时不重排（见第 8 节对齐算法）。
 
 **设计要点：**
@@ -143,6 +143,8 @@ paulgraham-cn/
 
 **健壮性**：失败指数退避重试；并发上限（避免一次性 200+ 请求打爆配额）；单篇失败不阻断其余文章。
 
+**运行 summary**：translate 结束时输出汇总报告——本次新增/更新/跳过/失败的文章数，以及**所有 `rawUnsupported` 块的文件与 segment id**。`rawUnsupported` 数量非零时提示人工确认，防止真实正文被误判后静默露出英文。
+
 ---
 
 ## 5. 翻译调用（Vertex AI）
@@ -152,14 +154,16 @@ paulgraham-cn/
 - **凭证**：Service Account 证书 `credentials/gemini-vertex.json`，通过 `GOOGLE_APPLICATION_CREDENTIALS` 指向。
 - **Project**：`live-card-491105`（读自证书）。
 - **安全**：`credentials/` 已加入 `.gitignore`，证书永不入库。
-- **调用形态**：每篇文章一次 API 调用（整篇上下文），结构化输出约束段落对照。
+- **调用形态**：每篇文章一次 API 调用。请求里**始终附上全篇所有可翻译 segment 作为上下文**（保证连贯与术语统一），但**要求模型只返回待翻译 segment 的译文**——首次翻译是全部待翻译 segment，增量更新时是已改/新增段（第 8 节）。
+
+**可翻译 segment**：`paragraph | heading | list | quote | footnote`。`hr` 与 `rawUnsupported` 无 `zhMarkdown` 字段，**不进入翻译请求，也不参与译文校验**。
 
 ### 质量门禁
 
 拒绝机械翻译的同时也要挡住漏译/误译/链接丢失。校验分层：
 
-- **结构化输出 schema**：要求模型返回 `{ segments: [{ id, zhMarkdown }] }`，段落数、序号与输入严格对应。
-- **机械校验**（可自动执行，失败即重试）：段落数一致；每段行内链接的 URL 集合与原文一致（不新增、不丢失）；数字与专有名词（人名、公司名）不缺失。
+- **结构化输出 schema**：要求模型只返回**待翻译 segment** 的 `{ segments: [{ id, zhMarkdown }] }`，返回的 id 集合须与请求的待翻译 id 集合**完全一致**（不多不少、序号对应）。
+- **机械校验**（可自动执行，失败即重试，仅对可翻译 segment）：id 集合一致；每段行内链接的 URL 集合与原文一致（不新增、不丢失）；数字与专有名词（人名、公司名）不缺失。
 - 译文质量本身依赖信达雅 prompt（下文）+ 事后人工手改（第 8 节）。**不设 draft/待审队列**——与"直接发布，事后手改"的产品决策一致，段落级 hash 已保证手改不被误覆盖。
 
 ### 翻译质量：信达雅（核心要求）
@@ -186,7 +190,7 @@ paulgraham-cn/
 
 ### 页面
 
-- **首页 `/`**（对应 `articles.html`）：文章列表，按发表时间倒序，显示中文标题 + 英文原标题 + 日期。
+- **首页 `/`**（对应 `articles.html`）：文章列表，排序为 `publishedAt` 降序、`sourceOrder` 升序 tie-break，显示中文标题 + 英文原标题 + 日期。
 - **文章页 `/<slug>.html`**：顶部显示中英标题、日期、**原文链接**（指向 `paulgraham.com/<slug>.html`）；正文默认纯中文。
 
 ### 阅读模式（核心交互）
