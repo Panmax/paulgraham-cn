@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { extractLinkUrls, extractNumbers, validateTranslation } from "./validate.js";
+import { extractLinkUrls, extractNumbers, validateTranslation, stripAddedLinks } from "./validate.js";
 
 describe("extractors", () => {
   it("extracts link urls", () => {
@@ -42,5 +42,20 @@ describe("validateTranslation", () => {
     const bigRet = [{ id: 1, zhMarkdown: "每年 5.26 亿" }];
     const r = validateTranslation(bigReq, bigRet);
     expect(r.ok).toBe(true); // 526 absent verbatim -> warning only, not a failure
+  });
+});
+
+describe("stripAddedLinks", () => {
+  it("flattens a hallucinated link when the English has no link", () => {
+    const req = [{ id: 1, enMarkdown: "Foreword to Founders at Work." }];
+    const ret = [{ id: 1, zhMarkdown: "《[Founders at Work](https://paulgraham.com/foundersatwork.html)》的前言。" }];
+    const fixed = stripAddedLinks(req, ret);
+    expect(fixed[0].zhMarkdown).toBe("《Founders at Work》的前言。");
+    expect(validateTranslation(req, fixed).ok).toBe(true);
+  });
+  it("leaves segments untouched when the English already has a link", () => {
+    const req = [{ id: 1, enMarkdown: "see [x](https://a.com)" }];
+    const ret = [{ id: 1, zhMarkdown: "见 [x](https://a.com)" }];
+    expect(stripAddedLinks(req, ret)[0].zhMarkdown).toBe("见 [x](https://a.com)");
   });
 });

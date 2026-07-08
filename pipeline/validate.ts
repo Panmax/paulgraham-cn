@@ -10,6 +10,28 @@ export function extractNumbers(md: string): string[] {
   return (md.match(/\d[\d,.]*/g) ?? []).map((n) => n.replace(/[,.]$/, "")).sort();
 }
 
+// Convert every markdown inline link in `md` to its plain link text:
+// `[text](url)` -> `text`. Used to remove links the model hallucinated.
+export function stripLinks(md: string): string {
+  return md.replace(/\[([^\]]*)\]\([^)]+\)/g, "$1");
+}
+
+// Repair a spurious-added-link failure: when the English segment contains NO
+// links, any link the model put in the translation is invented, so flatten it
+// back to plain text (preserving fidelity to the source). Segments whose
+// English does contain links are left untouched — those need real validation.
+export function stripAddedLinks(
+  requested: Array<{ id: number; enMarkdown: string }>,
+  returned: Array<{ id: number; zhMarkdown: string }>,
+): Array<{ id: number; zhMarkdown: string }> {
+  const enHasLink = new Map(requested.map((r) => [r.id, extractLinkUrls(r.enMarkdown).length > 0]));
+  return returned.map((r) =>
+    enHasLink.get(r.id) === false && /\]\(/.test(r.zhMarkdown)
+      ? { ...r, zhMarkdown: stripLinks(r.zhMarkdown) }
+      : r,
+  );
+}
+
 export type TranslationCheck = { ok: boolean; errors: string[]; warnings: string[] };
 
 export function validateTranslation(

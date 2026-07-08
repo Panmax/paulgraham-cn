@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 import { buildSystemPrompt, buildUserPayload } from "./prompt.js";
-import { validateTranslation } from "./validate.js";
+import { validateTranslation, stripAddedLinks } from "./validate.js";
 
 export type TranslatorDeps = {
   generate: (system: string, user: string) => Promise<string>;
@@ -53,7 +53,9 @@ export async function translateSegments(
       lastErrors = ["model did not return valid JSON"];
       continue;
     }
-    const returned = parsed.segments ?? [];
+    // Repair the common failure where the model hyperlinks a plain-text
+    // mention (e.g. a book/essay title) the English left unlinked.
+    const returned = stripAddedLinks(requested, parsed.segments ?? []);
     const check = validateTranslation(requested, returned);
     if (check.ok) {
       if (check.warnings.length) {
