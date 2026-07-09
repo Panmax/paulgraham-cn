@@ -2,19 +2,68 @@
   "slug": "hw",
   "titleEn": "The Hardware Renaissance",
   "titleZh": "硬件复兴",
-  "dateText": "",
-  "publishedAt": null,
+  "dateText": "October 2012",
+  "publishedAt": "2012-10-01",
   "sourceOrder": 83,
   "sourceUrl": "https://paulgraham.com/hw.html",
-  "translatedAt": "2026-07-08",
+  "translatedAt": "2026-07-09",
   "model": "gemini-3.5-flash",
   "segments": [
     {
-      "id": 1,
+      "id": 2,
       "type": "paragraph",
-      "sourceHash": "518ed8b6b564f84e1cff2cb8dd61c382da563436f3d6ee405fb63f2cafb23f4c",
-      "enMarkdown": "[A Hardware Renaissance while �Software Eats the World�?](http://mantellavp.com/a-hardware-renaissance-while-software-eats-the-world/)",
-      "zhMarkdown": "[在“软件吞噬世界”的同时，硬件也在复兴吗？](http://mantellavp.com/a-hardware-renaissance-while-software-eats-the-world/)"
+      "sourceHash": "4b5d6e239c28fb291cc568d4038f34b82cc661601f342f980e3d91cb3ba1773c",
+      "enMarkdown": "One advantage of Y Combinator's early, broad focus is that we see trends before most other people. And one of the most conspicuous trends in the last batch was the large number of hardware startups. Out of 84 companies, 7 were making hardware. On the whole they've done better than the companies that weren't.",
+      "zhMarkdown": "Y Combinator 早期采取的广泛撒网策略，带来了一个优势，那就是我们能比大多数人更早察觉到趋势。在最近一期孵化班中，最显而易见的趋势之一就是出现了大量的硬件创业公司。在 84 家公司中，有 7 家是做硬件的。总的来说，他们的表现比那些不做硬件的公司还要好。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "6a027d8606435c7f1d813ad62f69effda9dcabbad6bde340584f159f1313e3e2",
+      "enMarkdown": "They've faced resistance from investors of course. Investors have a deep-seated bias against hardware. But investors' opinions are a trailing indicator. The best founders are better at seeing the future than the best investors, because the best founders are making it.",
+      "zhMarkdown": "当然，他们也遭遇了投资人的阻力。投资人对硬件有着根深蒂固的偏见。但投资人的观点其实是滞后指标。最优秀的创始人比最优秀的投资人更擅长预见未来，因为最优秀的创始人正在亲手创造未来。"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2b4b2a1b2c2945f9c811326426097e0bd5ad2a4beadf0a57860756e7fa183b0b",
+      "enMarkdown": "There is no one single force driving this trend. Hardware [does\nwell](http://bits.blogs.nytimes.com/2012/05/11/pebble-smartwatch-tops-out-at-10-million-on-kickstarter/) on crowdfunding sites. The spread of [tablets](http://paulgraham.com/tablets.html) makes it possible to build new things [controlled\nby](http://lockitron.com) and even [incorporating](http://doublerobotics.com) them. [Electric motors](http://www.boostedboards.com/) have improved. Wireless connectivity of various types can now be taken for granted. It's getting more straightforward to get things manufactured. Arduinos, 3D printing, laser cutters, and more accessible CNC milling are making hardware easier to prototype. Retailers are less of a bottleneck as customers increasingly buy online.",
+      "zhMarkdown": "推动这一趋势的并非单一力量。硬件在众筹网站上[表现优异](http://bits.blogs.nytimes.com/2012/05/11/pebble-smartwatch-tops-out-at-10-million-on-kickstarter/)。[平板电脑](http://paulgraham.com/tablets.html)的普及让开发由其[控制](http://lockitron.com)甚至将起[融入其中](http://doublerobotics.com)的新产品成为可能。[电动机](http://www.boostedboards.com/)性能得到了提升。各种类型的无线连接现在已被视为理所当然。生产制造正变得更加简单直接。Arduino、3D 打印、激光切割机以及更易获取的 CNC 数控机床，让硬件原型制作变得更加容易。随着消费者越来越多地在网上购物，零售商的渠道瓶颈也变小了。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "ae3f76f05278a5d5d4123f0a39112107e007330542606c9f792dad9a271fe8dd",
+      "enMarkdown": "One question I can answer is why hardware is suddenly cool. It always was cool. Physical things are great. They just haven't been as great a way to start a [rapidly growing](https://paulgraham.com/growth.html) business as software. But that rule may not be permanent. It's not even that old; it only dates from about 1990. Maybe the advantage of software will turn out to have been temporary. Hackers love to build hardware, and customers love to buy it. So if the ease of shipping hardware even approached the ease of shipping software, we'd see a lot more hardware startups.",
+      "zhMarkdown": "有一个问题我可以回答：为什么硬件突然变酷了？其实硬件一直都很酷，实体产品棒极了。过去，它们只是不像软件那样，是创办一家[快速成长](https://paulgraham.com/growth.html)的企业的好方法。但这条规律可能并非永恒。它甚至算不上古老，只能追溯到 1990 年左右。也许软件的优势最终会被证明只是暂时的。黑客热爱构建硬件，而消费者也乐意购买硬件。因此，如果发布硬件的便利程度能稍微接近发布软件的水平，我们就会看到多得多的硬件创业公司。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "053960c1fa726b433fc29a14cc5547bc3c0487ddb2ca7d79e097911dafa32838",
+      "enMarkdown": "It wouldn't be the first time something was a bad idea till it wasn't. And it wouldn't be the first time investors learned that lesson from founders.",
+      "zhMarkdown": "某种想法在时机成熟前一直被视为坏主意，这并非首例。而投资人从创始人身上学到这一课，也绝非头一遭。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "e9dc339fe0a41a5a458bf50b2c25c0f18055f7c2121fbc542f851d36dfec7cc0",
+      "enMarkdown": "So if you want to work on hardware, don't be deterred from doing it because you worry investors will discriminate against you. And in particular, don't be deterred from [applying](http://ycombinator.com/apply.html) to Y Combinator with a hardware idea, because we're especially interested in hardware startups.",
+      "zhMarkdown": "所以，如果你想做硬件，不要因为担心投资人的歧视而退缩。特别是，不要因为担心这个而不敢带着硬件想法向 Y Combinator [提交申请](http://ycombinator.com/apply.html)，因为我们对硬件创业公司格外感兴趣。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "5a90671789422111d4f983629d5564c969106af68b602856864ad0a19695fc1e",
+      "enMarkdown": "We know there's room for the [next Steve Jobs](https://paulgraham.com/ambitious.html). But there's almost certainly also room for the first <Your Name Here>.",
+      "zhMarkdown": "我们知道，这个世界容得下[下一个史蒂夫·乔布斯（Steve Jobs）](https://paulgraham.com/ambitious.html)。但几乎可以肯定，它也同样容得下第一个“在这里写下你的名字”。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "65434e6d7d067def350f1b60e77f342ed72a7083c8d45d1c7bd8e81bc6c8507e",
+      "enMarkdown": "**Thanks** to Sam Altman, Trevor Blackwell, David Cann, Sanjay Dastoor, Paul Gerhardt, Cameron Robertson, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**感谢** Sam Altman、Trevor Blackwell、David Cann、Sanjay Dastoor、Paul Gerhardt、Cameron Robertson、Harj Taggar 和 Garry Tan 阅读本文草稿。"
     }
   ]
 }
