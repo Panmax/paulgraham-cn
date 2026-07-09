@@ -102,6 +102,10 @@ body[data-read="bilingual"] .seg-en { display:block; margin-top:.4rem; }
   .yr { padding-top:1.2rem; }
 }
 
+/* Footer attribution */
+.site-footer { max-width:var(--measure); margin:0 auto; padding:2rem 1.25rem 3rem;
+  color:var(--muted); font-family:var(--en); font-size:.8rem; text-align:center; }
+
 @media (max-width:400px) {
   main.article, main.home { padding:2rem 1rem 4rem; }
   .article-title { font-size:1.7rem; }

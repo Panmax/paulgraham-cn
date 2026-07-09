@@ -20,6 +20,18 @@ npm run dev       # local dev
 npm run build     # -> dist/, no API calls
 ```
 
+## Fonts
+
+The site ships one shared WOFF2 subset per weight (Chinese: Source Han Serif SC → "PGCN Song"; Latin: Newsreader), covering every code point across all articles plus fixed UI chrome. The subsets and `public/fonts/manifest.json` are committed, so `npm run dev` and CI need no font-generation step.
+
+```bash
+npm run fonts     # regenerates public/fonts/zh/*.woff2 + manifest.json — run after content changes
+```
+
+`npm run fonts` needs the raw Source Han Serif SC OTFs (2.003R, from the `adobe-fonts/source-han-serif` release) placed in the gitignored `assets/fonts/`; their SHA-256 is pinned in `scripts/font-sources.ts` and checked before subsetting. `npm run build` runs `scripts/verify-fonts.ts` first and **fails** if the committed subset's charset hash is stale relative to `content/articles/*.json` — regenerate with `npm run fonts` and commit the updated `public/fonts/` whenever article content or `scripts/lib/chars.ts` (`SHARED_UI_TEXT`) changes.
+
+Both fonts are SIL Open Font License 1.1; the full license and copyright notices are bundled at `public/OFL.txt` (served at `/OFL.txt`) and linked from the site footer.
+
 ## Deploy (Cloudflare Pages)
 
 - Build command: `npm run build`
