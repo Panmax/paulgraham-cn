@@ -33,3 +33,11 @@ export function collectSiteChars(list: Article[]): Set<string> {
   addCodePoints(set, SHARED_UI_TEXT);
   return set;
 }
+
+// The whole corpus's distinct code points — used for the single site-wide font
+// subset (one shared WOFF2 per weight instead of per-essay).
+export function collectAllChars(list: Article[]): Set<string> {
+  const set = new Set<string>();
+  for (const a of list) for (const ch of collectArticleChars(a)) set.add(ch);
+  return set;
+}

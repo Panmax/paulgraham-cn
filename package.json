@@ -2,12 +2,15 @@
   "name": "paulgraham-cn",
   "type": "module",
   "private": true,
-  "engines": { "node": ">=22.12.0" },
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "translate": "tsx pipeline/index.ts",
+    "fonts": "tsx scripts/subset-fonts.ts",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest"
   },
@@ -26,7 +29,10 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@types/fontkit": "^2.0.9",
     "@types/node": "^22.0.0",
+    "fontkit": "^2.0.4",
+    "subset-font": "^2.5.0",
     "tsx": "^4.23.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.10"

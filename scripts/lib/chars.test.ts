@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { SHARED_UI_TEXT, isUntranslated, collectArticleChars, collectSiteChars } from "./chars.js";
+import { SHARED_UI_TEXT, isUntranslated, collectArticleChars, collectSiteChars, collectAllChars } from "./chars.js";
 import type { Article } from "../../shared/article-schema.js";
 
 const art = (over: Partial<Article> = {}): Article => ({
@@ -40,5 +40,11 @@ describe("chars", () => {
     const s = collectSiteChars([art({ titleZh: "甲" }), art({ titleZh: "乙", slug: "y" })]);
     expect(s.has("甲")).toBe(true); expect(s.has("乙")).toBe(true);
     expect(s.has("J")).toBe(true); // from "June" dateText
+  });
+  it("collectAllChars unions every article's chars", () => {
+    const s = collectAllChars([art({ titleZh: "甲" }), art({ titleZh: "乙", slug: "y" })]);
+    expect(s.has("甲")).toBe(true); expect(s.has("乙")).toBe(true);
+    expect(s.has("你")).toBe(true); // translated zh from the shared fixture
+    expect(s.has("z")).toBe(false); // still excludes untranslated english
   });
 });
