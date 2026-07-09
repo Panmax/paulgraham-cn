@@ -2,33 +2,50 @@
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import ArticleBody from "../components/ArticleBody.astro";
+import { sortArticles } from "../lib/sort.js";
+import { withNeighbors } from "../lib/adjacent.js";
 
 export async function getStaticPaths() {
   const entries = await getCollection("articles");
-  return entries.map((e) => ({ params: { slug: e.data.slug }, props: { article: e.data } }));
+  const sorted = sortArticles(entries.map((e) => e.data));
+  return withNeighbors(sorted).map(({ article, prev, next }) => ({
+    params: { slug: article.slug }, props: { article, prev, next },
+  }));
 }
-const { article } = Astro.props;
+const { article, prev, next } = Astro.props;
 const canonical = `https://paulgraham-cn.com/${article.slug}.html`;
 ---
 <Base title={article.titleZh} description={article.titleEn} canonical={canonical}>
-  <main>
-    <h1>{article.titleZh}</h1>
+  <main class="article">
+    <p class="kicker">{article.dateText} · Paul Graham</p>
+    <h1 class="article-title">{article.titleZh}</h1>
+    <hr class="title-rule" />
     <div class="article-meta">
-      <span>{article.titleEn}</span> · <span>{article.dateText}</span> ·
       <a href={article.sourceUrl} rel="nofollow">原文</a>
-      <button id="read-toggle" aria-label="切换双语">双语对照</button>
+      <button id="read-toggle" aria-pressed="false">双语对照</button>
     </div>
     <ArticleBody segments={article.segments} />
+    <nav class="article-nav">
+      <a href="/">← 返回目录</a>
+      <span>
+        {prev && <a href={`/${prev.slug}.html`}>上一篇</a>}
+        {next && <a href={`/${next.slug}.html`}>下一篇</a>}
+      </span>
+    </nav>
   </main>
   <script is:inline>
     (() => {
       const saved = localStorage.getItem("read");
-      if (saved) document.body.dataset.read = saved;
-      document.getElementById("read-toggle")?.addEventListener("click", () => {
+      if (saved === "bilingual") document.body.dataset.read = "bilingual";
+      const btn = document.getElementById("read-toggle");
+      const sync = () => { const on = document.body.dataset.read === "bilingual";
+        btn.setAttribute("aria-pressed", String(on)); };
+      sync();
+      btn?.addEventListener("click", () => {
         const on = document.body.dataset.read === "bilingual";
-        const next = on ? "zh" : "bilingual";
-        document.body.dataset.read = next;
-        localStorage.setItem("read", next);
+        document.body.dataset.read = on ? "zh" : "bilingual";
+        localStorage.setItem("read", on ? "zh" : "bilingual");
+        sync();
       });
     })();
   </script>
