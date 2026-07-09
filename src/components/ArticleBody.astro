@@ -1,31 +1,31 @@
 ---
 import { renderMarkdown } from "../lib/markdown.js";
-import { isTranslatable } from "../../shared/article-schema.js";
+import { classifySegment } from "../lib/segments.js";
 import type { Segment } from "../../shared/article-schema.js";
 
 interface Props { segments: Segment[] }
 const { segments } = Astro.props;
 
 const rendered = await Promise.all(segments.map(async (s) => {
-  if (s.type === "hr") return { kind: "hr" as const };
-  if (s.type === "rawUnsupported") {
-    return { kind: "raw" as const, html: await renderMarkdown(s.enMarkdown ?? "") };
-  }
-  return {
-    kind: "seg" as const,
-    zh: await renderMarkdown(s.zhMarkdown ?? s.enMarkdown ?? ""),
-    en: await renderMarkdown(s.enMarkdown ?? ""),
-    translated: isTranslatable(s.type) && !!s.zhMarkdown,
-  };
+  const c = classifySegment(s);
+  if (c.kind === "hr") return { kind: "hr" as const };
+  if (c.kind === "original") return { kind: "original" as const, html: await renderMarkdown(c.md) };
+  return { kind: "translated" as const, zh: await renderMarkdown(c.zh), en: await renderMarkdown(c.en) };
 }));
 ---
 <div class="article-body">
   {rendered.map((r) =>
     r.kind === "hr" ? <hr /> :
-    r.kind === "raw" ? <div class="seg" set:html={r.html} /> :
-    <div class="seg" tabindex="0">
-      <div class="seg-zh" set:html={r.zh} />
-      <div class="seg-en" set:html={r.en} />
-    </div>
+    r.kind === "original" ? (
+      <div class="seg seg--original">
+        <span class="seg-mark">未译原文</span>
+        <div set:html={r.html} />
+      </div>
+    ) : (
+      <div class="seg">
+        <div class="seg-zh" set:html={r.zh} />
+        <div class="seg-en" set:html={r.en} />
+      </div>
+    )
   )}
 </div>
