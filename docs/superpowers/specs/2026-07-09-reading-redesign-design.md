@@ -21,7 +21,7 @@
 
 **字体**
 - 中文正文/标题：**Source Han Serif SC / 思源宋体**（SIL OFL 开源），自托管、构建时子集化。
-- 英文：自托管文本衬线（**Source Serif 4** 或 **Newsreader**，含 italic），Latin 全量即可（体积小，约 30–80KB/weight）。对照原文用 italic。
+- 英文：自托管文本衬线 **Newsreader**（含 italic），Latin 全量即可（体积小，约 30–80KB/weight）。对照原文用 italic。
 - fallback 栈保留系统衬线：`"Source Han Serif SC","Noto Serif SC","Songti SC",serif`。
 
 **配色（浅色/纸张）**
@@ -101,7 +101,7 @@
 **许可证合规（Source Han Serif = SIL OFL，含保留字体名 "Source"）**
 - 将 **OFL 全文**随站点分发（`public/` 下放一份 `OFL.txt`，页脚给出链接与字体署名）。
 - 子集属修改版，**内部字体名重命名**为不含保留名的名称（如 family 命名 `PGCN Song`），避免占用 "Source" 保留名；`@font-face` 的 `font-family` 用该新名。若 `subset-font` 不支持改写 name table，加一步 `fonttools`/等价工具重命名并在实现中验证。
-- 英文 Latin 字体（Source Serif 4 或 Newsreader，二者均 OFL）同样随附 OFL 并做署名；最终选型在实现时定，许可证处理一致。
+- 英文 Latin 字体 **Newsreader**（OFL）同样随附 OFL 并做署名；许可证处理一致。
 
 **边界情况**：某篇字符极少仍生成有效子集；对照英文使 Latin 字体覆盖，中文子集不含之。
 
