@@ -23,7 +23,7 @@ a:hover { text-decoration:underline; }
 main { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.25rem 6rem; }
 h1 { font-size: 1.9rem; line-height: 1.3; margin: 0 0 .25rem; }
 .site-header { display: flex; justify-content: space-between; align-items: center;
-  max-width: var(--max); margin: 0 auto; padding: 1rem 1.25rem; }
+  max-width: var(--measure); margin: 0 auto; padding: 1rem 1.25rem; }
 .article-meta { color: var(--muted); font-size: .9rem; margin-bottom: 2.5rem; }
 .article-list { list-style: none; padding: 0; }
 .article-list li { margin: 0 0 1.6rem; }
