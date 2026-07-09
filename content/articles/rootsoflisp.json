@@ -2,8 +2,8 @@
   "slug": "rootsoflisp",
   "titleEn": "The Roots of Lisp",
   "titleZh": "Lisp 之源",
-  "dateText": "",
-  "publishedAt": null,
+  "dateText": "May 2001",
+  "publishedAt": "2001-05-01",
   "sourceOrder": 219,
   "sourceUrl": "https://paulgraham.com/rootsoflisp.html",
   "translatedAt": "2026-07-08",
@@ -19,9 +19,9 @@
     {
       "id": 2,
       "type": "paragraph",
-      "sourceHash": "200a843921d8c2daae7fc6094b060b0d629d9511a21885e30749d2ea52e03be9",
-      "enMarkdown": "May 2001  *(I wrote this article to help myself understand exactly\nwhat McCarthy discovered.  You don't need to know this stuff\nto program in Lisp, but it should be helpful to \nanyone who wants to\nunderstand the essence of Lisp � both in the sense of its\norigins and its semantic core.  The fact that it has such a core\nis one of Lisp's distinguishing features, and the reason why,\nunlike other languages, Lisp has dialects.)*",
-      "zhMarkdown": "2001 年 5 月 *（我写这篇文章是为了帮助自己准确理解麦卡锡（McCarthy）当年的发现。写 Lisp 程序并不一定非要懂得这些，但对于任何想要理解 Lisp 本质——无论是其历史起源还是其语义核心——的人来说，这应该都会有所帮助。拥有这样一个核心是 Lisp 的显著特征之一，也是为什么 Lisp 会有各种方言，而其他语言却没有的原因。）*"
+      "sourceHash": "6f8da806bc168fe429cc857bc70cc799e8e3d09d38bdcfa71dc38166ed44329f",
+      "enMarkdown": "*(I wrote this article to help myself understand exactly\nwhat McCarthy discovered.  You don't need to know this stuff\nto program in Lisp, but it should be helpful to \nanyone who wants to\nunderstand the essence of Lisp � both in the sense of its\norigins and its semantic core.  The fact that it has such a core\nis one of Lisp's distinguishing features, and the reason why,\nunlike other languages, Lisp has dialects.)*",
+      "zhMarkdown": "*（我写这篇文章是为了帮助自己准确理解麦卡锡（McCarthy）当年的发现。写 Lisp 程序并不一定非要懂得这些，但对于任何想要理解 Lisp 本质——无论是其历史起源还是其语义核心——的人来说，这应该都会有所帮助。拥有这样一个核心是 Lisp 的显著特征之一，也是为什么 Lisp 会有各种方言，而其他语言却没有的原因。）*"
     },
     {
       "id": 3,

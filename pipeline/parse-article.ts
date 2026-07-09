@@ -196,9 +196,17 @@ export function parseArticle(html: string, fallbackTitle: string): ParsedArticle
   const segments: ParsedSegment[] = [];
   let dateText = "";
   let publishedAt: string | null = null;
-  let sawFirstText = false;
+  let dateFound = false;
+  let paragraphsSeen = 0;
   let hrIdx = 0;
   let rawIdx = 0;
+
+  // A leading date line, e.g. "May 2001" or "March 2008, rev. June 2008". Only
+  // matches a real month at the very start of a paragraph, so a month/year
+  // buried mid-prose (e.g. "I visited in September 2004") is never mistaken for
+  // the byline date.
+  const LEADING_DATE =
+    /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})\b/;
 
   const paragraphNodes: AnyNode[] = [];
 
@@ -208,13 +216,19 @@ export function parseArticle(html: string, fallbackTitle: string): ParsedArticle
     paragraphNodes.length = 0;
     if (!md) return;
 
-    if (!sawFirstText) {
-      sawFirstText = true;
+    // The date can trail a preamble paragraph (an image-only link, or an
+    // editor's note), so look past the first flushed paragraph — but only in
+    // the header zone (first few paragraphs), so a body paragraph that happens
+    // to open "December 2008 was ..." in an undated essay can't be mistaken for
+    // a byline. The preambles observed are 1 paragraph; 3 leaves margin.
+    const inHeaderZone = paragraphsSeen++ < 3;
+    if (!dateFound && inHeaderZone && LEADING_DATE.test(md)) {
       const parsed = parsePublishedAt(md);
       if (parsed) {
+        dateFound = true;
         publishedAt = parsed;
-        const dm = md.match(/\b[A-Z][a-z]+\s+\d{4}\b/);
-        dateText = dm ? dm[0] : "";
+        const dm = md.match(LEADING_DATE);
+        dateText = dm ? `${dm[1]} ${dm[2]}` : "";
         md = md.replace(/^.*?\d{4}\s*/, "").trim();
         if (!md) return;
       }
