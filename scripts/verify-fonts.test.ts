@@ -13,18 +13,27 @@ const a: Article = { slug: "x", titleEn: "T", titleZh: "标题", dateText: "June
 
 const goodManifest = (list: Article[]) => ({
   charsetHash: csh(collectAllChars(list)),
-  files: { regular: "/fonts/zh/pgcn-song.regular.aaa.woff2", bold: "/fonts/zh/pgcn-song.bold.bbb.woff2" },
+  files: {
+    regular: "/fonts/zh/pgcn-song.regular.aaaaaaaaaa.woff2",
+    bold: "/fonts/zh/pgcn-song.bold.aaaaaaaaaa.woff2",
+  },
 });
+
+const goodHash = "aaaaaaaaaa" + "0".repeat(54);
 
 describe("checkManifest", () => {
   it("passes when charset hash matches and files exist", () => {
-    expect(checkManifest([a], goodManifest([a]), () => true)).toEqual([]);
+    expect(checkManifest([a], goodManifest([a]), () => goodHash)).toEqual([]);
   });
   it("flags stale fonts when content charset changed", () => {
     const stale = { ...goodManifest([a]), charsetHash: "deadbeef" };
-    expect(checkManifest([a], stale, () => true).length).toBeGreaterThan(0);
+    expect(checkManifest([a], stale, () => goodHash).length).toBeGreaterThan(0);
   });
   it("flags a missing woff2 file on disk", () => {
-    expect(checkManifest([a], goodManifest([a]), () => false).length).toBeGreaterThan(0);
+    expect(checkManifest([a], goodManifest([a]), () => null).length).toBeGreaterThan(0);
+  });
+  it("flags a woff2 whose content hash does not match the filename hash", () => {
+    const mismatchHash = "bbbbbbbbbb" + "0".repeat(54);
+    expect(checkManifest([a], goodManifest([a]), () => mismatchHash).length).toBeGreaterThan(0);
   });
 });

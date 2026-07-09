@@ -38,9 +38,10 @@ const canonical = `https://paulgraham-cn.com/${article.slug}.html`;
       const saved = localStorage.getItem("read");
       if (saved === "bilingual") document.body.dataset.read = "bilingual";
       const btn = document.getElementById("read-toggle");
-      const sync = () => { const on = document.body.dataset.read === "bilingual";
+      const sync = () => { if (!btn) return;
+        const on = document.body.dataset.read === "bilingual";
         btn.setAttribute("aria-pressed", String(on)); };
-      sync();
+      if (btn) sync();
       btn?.addEventListener("click", () => {
         const on = document.body.dataset.read === "bilingual";
         document.body.dataset.read = on ? "zh" : "bilingual";

@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import { readAllArticles } from "../pipeline/store.js";
@@ -12,21 +12,52 @@ const csh = (set: Set<string>) => sha([...set].sort().join(""));
 export function checkManifest(
   articles: Article[],
   m: { charsetHash: string; files: { regular: string; bold: string } },
-  fileExists: (publicPath: string) => boolean,
+  fileHash: (publicPath: string) => string | null,
 ): string[] {
   const problems: string[] = [];
   if (m.charsetHash !== csh(collectAllChars(articles)))
     problems.push("font charset stale — content changed; rerun `npm run fonts` and commit public/fonts/");
-  for (const w of ["regular", "bold"] as const)
-    if (!fileExists(m.files[w])) problems.push(`missing font file: ${w} (${m.files[w]})`);
+  for (const w of ["regular", "bold"] as const) {
+    const path = m.files[w];
+    const hash = fileHash(path);
+    if (hash === null) {
+      problems.push(`missing font file: ${w} (${path})`);
+      continue;
+    }
+    const match = /\.([^.]+)\.woff2$/.exec(path);
+    const embeddedHash = match?.[1] ?? "";
+    if (hash.slice(0, 10) !== embeddedHash)
+      problems.push(`font file content hash mismatch: ${w} (${path}) — rerun \`npm run fonts\``);
+  }
   return problems;
+}
+
+function fileHash(publicPath: string): string | null {
+  const abs = join(process.cwd(), "public", publicPath);
+  if (!existsSync(abs)) return null;
+  try {
+    return createHash("sha256").update(readFileSync(abs)).digest("hex");
+  } catch {
+    return null;
+  }
 }
 
 async function main() {
   const root = process.cwd();
-  const articles = await readAllArticles(join(root, "content", "articles"));
-  const m = JSON.parse(await readFile(join(root, "public", "fonts", "manifest.json"), "utf8"));
-  const problems = checkManifest(articles, m, (p) => existsSync(join(root, "public", p)));
+  let articles: Article[];
+  let m: { charsetHash: string; files: { regular: string; bold: string } };
+  try {
+    articles = await readAllArticles(join(root, "content", "articles"));
+    m = JSON.parse(await readFile(join(root, "public", "fonts", "manifest.json"), "utf8"));
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    console.error(
+      `✗ font verification failed: cannot read public/fonts/manifest.json (rerun \`npm run fonts\`): ${message}`,
+    );
+    process.exit(1);
+    return;
+  }
+  const problems = checkManifest(articles, m, fileHash);
   if (problems.length) {
     console.error("✗ font verification failed:\n" + problems.map((p) => "  - " + p).join("\n"));
     process.exit(1);
