@@ -87,6 +87,7 @@ body[data-read="bilingual"] .seg-en { display:block; margin-top:.4rem; }
 .home-empty { text-align:center; color:var(--muted); }
 .yr-group { display:grid; grid-template-columns:5rem 1fr; gap:0 1.25rem; margin-bottom:1.5rem; }
 .yr { font-family:var(--en); font-weight:600; font-size:1.5rem; color:var(--accent); padding-top:.8rem; }
+.yr--undated { font-family:var(--zh); font-size:1rem; line-height:1.3; padding-top:1.1rem; }
 .yr-items { list-style:none; margin:0; padding:0; }
 .row { padding:.8rem 0; border-top:1px solid var(--rule); }
 .row a { font-family:var(--zh); font-size:1.1rem; color:var(--ink); }

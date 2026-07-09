@@ -22,7 +22,7 @@ const total = entries.length;
     <div id="index">
       {groups.map((g) => (
         <section class="yr-group" data-group>
-          <div class="yr">{g.year ?? "日期不详"}</div>
+          <div class={g.year ? "yr" : "yr yr--undated"}>{g.year ?? "日期不详"}</div>
           <ul class="yr-items">
             {g.items.map((a) => (
               <li class="row" data-title={`${a.titleZh} ${a.titleEn}`.toLowerCase()}>
