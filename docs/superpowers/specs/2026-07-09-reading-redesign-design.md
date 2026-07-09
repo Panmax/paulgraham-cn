@@ -81,27 +81,28 @@
 
 **新增脚本** `scripts/subset-fonts.ts`（tsx 运行），用基于 harfbuzz 的 JS 子集器 **`subset-font`**（npm，wasm，纯 JS，输出 woff2，契合现有 Node 构建）。
 
-**覆盖模型（每页收全部可见 code point，不按「只中文」拆）**
+**覆盖模型（全站单一共享子集 —— 实测修正）**
 
-每个文章页生成**一份**子集，其字符集 = 该页实际可见文本的**全部 Unicode code point**：
-- 正文 `zhMarkdown`（对照模式的 `.seg-en` 用英文 Latin 字体，不进中文子集）+ 中文标题；
-- 中文正文里夹带的 **Latin 字母、数字、中英文标点**（如「Y Combinator」「6500」「，：（）」）——一律并入，避免这些字符回退到别的字体导致混排跳字。
-- **固定中文 UI/chrome 文案（每一页都并入，含文章页与首页）**：站点名里的「中文」、`原文`、`双语对照`、`中文优先`、`未译原文`、`返回目录`、`上一篇`、`下一篇`、`共 N 篇 · 中文翻译`、`日期不详`、`搜索标题…`、空态提示、页脚署名等。集中定义为一个常量字符串集，脚本对每页子集都并入，避免文章页 chrome 中文缺字。
-- 首页另生成一份「站点子集」：所有 227 条中文标题 + 上述固定 UI 文案。
+> 原计划「每篇一份子集」经实测产生 **139MB**：全语料去重后只有 **3246 个不同 code point**，但每篇都内嵌常用字，重复因子 **48.8×**。改为**全站单一共享子集**：仓库仅 ~3–4MB，简化下游（无需逐页 `@font-face`），代价是首页首屏加载 ~1.5–2MB（`font-display: swap` 先用回退字，缓存后每页秒开）。
 
-不再拆成「文章子集 + 描述符相同的共享子集」两个 `@font-face`（同 family/weight 会造成匹配歧义）。每个文章页 `@font-face` 只声明并加载自己那一份；首页加载站点子集。`font-display: swap`，`local()` 不用（避免命中用户机器上版本不一的同名字体）。
+生成**一份**全站子集，字符集 = **整个语料所有可见中文文本的 Unicode code point 并集**：
+- 每篇 `titleZh` + 每篇所有已翻译 segment 的 `zhMarkdown`（含其中夹带的 Latin 字母、数字、中英文标点，如「Y Combinator」「6500」「，：（）」）；
+- 固定中文 UI/chrome 文案常量（`原文`、`双语对照`、`中文优先`、`未译原文`、`返回目录`、`上一篇`、`下一篇`、`日期不详`、`搜索标题…`、空态、站点名里的「中文」等）。
+- 对照模式的 `.seg-en` 与首页英文标题/日期用 Latin 字体（Newsreader），不进中文子集。
 
-**字重策略**：需要 **Regular + 一个粗体**（标题/`<strong>` 用），分别从对应字重的源文件子集，禁止浏览器合成粗体（CJK 合成粗体很糟）。故每页产 2 个 woff2（regular/bold）。中文不需要 italic（对照原文的 italic 由英文 Latin 字体承担）。英文 Latin 衬线：整份自托管 Regular + Italic（+ 视需要 Bold），体积小。
+`chars.ts` 增加 `collectAllChars(articles)` = 所有 `collectArticleChars(a)` 的并集（已含 UI）。`@font-face` `font-family:"PGCN Song"`、`font-display: swap`、不使用 `local()`。**由 `Base.astro` 从字体清单读取哈希文件名，注入两条 `@font-face`（regular/bold）于每一页** —— 不再有逐页/逐篇 `@font-face`。
+
+**字重策略**：**Regular + Bold** 两份（标题/`<strong>` 用真实粗体，禁止合成粗体）。共 2 个 woff2。中文不需要 italic（对照 italic 由 Newsreader 承担）。英文 Latin 衬线 Newsreader：整份自托管 Regular + Italic（+ 视需要 SemiBold），体积小。
 
 **构建闭环（P0，此处定死，不留给实现计划）**
 
 采用 **B 方案：提交生成的 woff2 产物，*生成* 步骤与 `astro build` 解耦，但 build 前加一道轻量*校验***：
 - 子集脚本**本地/预提交**运行（`npm run fonts`），产物 `public/fonts/**.woff2` + 清单 **提交进 git**。
-- `package.json` 的 `build` 改为 **`tsx scripts/verify-fonts.ts && astro build`**。`verify-fonts.ts` 是**只读校验**，不需原始字体、无网络：核对①清单存在且与 `content/` 当前字符集一致、②清单里每个 woff2 文件都存在、③文件内容哈希与清单记录一致、④抽查每页子集 cmap 覆盖该页所需 code point。任一不符则**构建失败**并提示「内容已变，请重跑 `npm run fonts` 并提交」。这样内容更新后忘记重生成字体会被 CI 挡下，而 CI 仍不需要原始字体、保持 hermetic。
-- 完整 Source Han Serif SC 源文件（.otf，数十 MB）**不提交**，放 gitignored 的 `assets/fonts/`；仅本地跑 `npm run fonts` 时需要，缺失时脚本报清晰错误并提示来源（`adobe-fonts/source-han-serif` release）。脚本对源文件校验 **SHA-256**（版本钉死），保证任何人本地重跑得到一致产物。
-- 体积权衡：单页正文字形约数百~一两千字，woff2 后每份低百 KB 级；227 篇 × 2 字重 + 站点子集，仓库新增大约数十 MB 二进制。对内容站可接受；换来的是完全 hermetic 的部署。若日后仓库体积成问题，退路是「CI 下载钉版源文件（SHA-256 校验）+ CI 内子集」——但当前**不**采用。
+- `package.json` 的 `build` 改为 **`tsx scripts/verify-fonts.ts && astro build`**。`verify-fonts.ts` 是**只读校验**，不需原始字体、无网络：核对①清单存在、②清单记录的字符集哈希 == 由当前 `content/` 重算的 `collectAllChars` 哈希（内容变而字体没重生成即失败）、③清单里 regular/bold 两个 woff2 文件都存在、④文件内容哈希与文件名内嵌哈希一致。任一不符则**构建失败**并提示「内容已变，请重跑 `npm run fonts` 并提交」。CI 仍不需要原始字体、保持 hermetic。（cmap 逐字覆盖由生成端单测用 fontkit 保证；build 端用字符集哈希等价校验，更快且无需解码 woff2。）
+- 完整 Source Han Serif SC 源文件（.otf，数十 MB）**不提交**，放 gitignored 的 `assets/fonts/`；仅本地跑 `npm run fonts` 时需要，缺失时脚本报清晰错误并提示来源（`adobe-fonts/source-han-serif` release，已钉 2.003R）。脚本对源文件校验 **SHA-256**（版本钉死）。
+- 体积：全站并集 3246 字 × 2 字重，woff2 后约 **3–4MB** 提交入库，完全 hermetic 部署。
 
-**文件名与缓存**：产物用**内容哈希**文件名（如 `earn.[hash].woff2`），`@font-face` 引用哈希名；字符集变更 → 哈希变 → 自动 cache-bust。脚本产出 slug→哈希名的映射清单供页面读取。
+**文件名与缓存**：两个产物用**内容哈希**文件名（`pgcn-song.regular.[hash].woff2`、`pgcn-song.bold.[hash].woff2`），清单记录路径；字符集变更 → 哈希变 → 自动 cache-bust。`Base.astro` 读清单注入 `@font-face`。
 
 **许可证合规（Source Han Serif = SIL OFL，含保留字体名 "Source"）**
 - 将 **OFL 全文**随站点分发（`public/` 下放一份 `OFL.txt`，页脚给出链接与字体署名）。

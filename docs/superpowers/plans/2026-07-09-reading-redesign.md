@@ -4,7 +4,7 @@
 
 **Goal:** Rebuild the `src/` site into a 精致文学杂志风 Chinese reading experience — self-hosted per-essay subsetted serif, 静谧古典 article page, 年鉴编年 homepage with instant search, a global 双语对照 toggle (hover removed) — without touching the translation pipeline or content JSON.
 
-**Architecture:** A local font step (`npm run fonts`) scans every `content/articles/*.json`, collects each page's exact code points (+ fixed UI glyphs), and emits committed, content-hashed WOFF2 subsets (Regular + Bold) of Source Han Serif SC plus a manifest. A read-only `verify-fonts` gate runs before `astro build` so stale fonts fail CI while the build stays hermetic (no raw font, no network). Astro pages reference subsets per-page via `@font-face`; homepage and article rendering read the manifest.
+**Architecture:** A local font step (`npm run fonts`) scans every `content/articles/*.json`, collects the corpus-wide union of code points (+ fixed UI glyphs), and emits ONE committed, content-hashed WOFF2 subset per weight (Regular + Bold) of Source Han Serif SC plus a manifest. A read-only `verify-fonts` gate runs before `astro build` so stale fonts fail CI while the build stays hermetic (no raw font, no network). `Base.astro` reads the manifest and injects the two `@font-face` rules on every page.
 
 **Tech Stack:** Astro 7, TypeScript (tsx), vitest, `subset-font` (harfbuzz-wasm → WOFF2), `fontkit` (dev-only cmap coverage assertion), Source Han Serif SC + Newsreader (both SIL OFL).
 
@@ -18,6 +18,8 @@
 - "Untranslated" everywhere means `seg.zhMarkdown?.trim()` is empty (empty string counts as untranslated, not just `undefined`).
 - Contrast: any text color vs its background ≥ 4.5:1 in **both** light and dark themes.
 - Pinned raw-font SHA-256 values are recorded in `scripts/font-sources.ts` and checked by the font step.
+- **Font model: ONE shared site-wide subset** (not per-essay). The whole corpus is only 3246 distinct code points; per-essay duplicated them 48.8× → 139MB, so we ship a single `PGCN Song` subset (Regular + Bold, ~3–4MB total, committed). `Base.astro` reads the font manifest and injects the two `@font-face` rules on every page; there is **no** per-page/per-essay `@font-face`.
+- Font manifest shape (`public/fonts/manifest.json`): `{ sourceSha256: {regular,bold}, charsetHash: string, files: { regular: "/fonts/zh/pgcn-song.regular.<hash>.woff2", bold: "/fonts/zh/pgcn-song.bold.<hash>.woff2" } }`. `charsetHash` = sha256 of the sorted `collectAllChars` set.
 
 ## File Structure
 
@@ -36,9 +38,9 @@
 **Modified**
 - `src/styles/global.css` — tokens, @font-face base, typography, reading modes, homepage, footer.
 - `src/components/ArticleBody.astro` — 中文优先 rendering, remove `tabindex`.
-- `src/pages/[slug].astro` — 静谧古典 layout, per-page @font-face, toggle, footer nav.
-- `src/pages/index.astro` — 年鉴编年 + search.
-- `src/layouts/Base.astro` — footer with attribution, keep theme toggle.
+- `src/pages/[slug].astro` — 静谧古典 layout, toggle, footer nav (no per-page @font-face).
+- `src/pages/index.astro` — 年鉴编年 + search (no per-page @font-face).
+- `src/layouts/Base.astro` — inject the two shared @font-face rules from the manifest, footer with attribution, keep theme toggle.
 - `package.json` — `fonts`/`build` scripts + deps.
 - `.gitignore` — ignore `assets/fonts/`.
 - `README.md` — fonts workflow.
@@ -172,11 +174,14 @@ git commit -m "feat(fonts): char-collection module + fixed UI glyph set"
 - Modify: `package.json` (deps + scripts), `.gitignore`
 - Generated (committed later): `public/fonts/zh/*.woff2`, `public/fonts/manifest.json`
 
+**Font model: ONE shared subset** (not per-essay — per-essay measured 139MB from 48.8× glyph duplication). This task first ADDS `collectAllChars` to the existing `scripts/lib/chars.ts` (+ test), then emits exactly two WOFF2 (Regular + Bold) covering the whole corpus (~3246 code points, ~3–4MB total).
+
 **Interfaces:**
-- Consumes: `collectArticleChars`, `collectSiteChars` (Task 1); `readAllArticles` from `../pipeline/store.js`.
+- Consumes: `collectArticleChars` (Task 1); `readAllArticles` from `../pipeline/store.js`.
+- Produces (add to `scripts/lib/chars.ts`): `collectAllChars(list: Article[]): Set<string>` — union of `collectArticleChars(a)` over all articles.
 - Produces: `public/fonts/manifest.json` with shape
-  `{ sourceSha256: {regular,bold}, charsetHash: {site, articles: Record<slug,string>}, files: { site: {regular,bold}, articles: Record<slug,{regular,bold}> } }`
-  where each `{regular,bold}` is a public path like `/fonts/zh/earn.regular.<hash>.woff2`.
+  `{ sourceSha256: {regular,bold}, charsetHash: string, files: { regular: "/fonts/zh/pgcn-song.regular.<hash>.woff2", bold: "/fonts/zh/pgcn-song.bold.<hash>.woff2" } }`
+  where `charsetHash` = sha256 of the sorted `collectAllChars` set joined.
 
 - [ ] **Step 1: Add dependencies**
 
@@ -203,6 +208,30 @@ export const RAW_FONTS = {
 export type Weight = keyof typeof RAW_FONTS;
 ```
 
+- [ ] **Step 2b: Add `collectAllChars` to chars.ts (TDD)**
+
+Append a test to `scripts/lib/chars.test.ts` asserting the union spans multiple articles' chars:
+
+```ts
+it("collectAllChars unions every article's chars", () => {
+  const s = collectAllChars([art({ titleZh: "甲" }), art({ titleZh: "乙", slug: "y" })]);
+  expect(s.has("甲")).toBe(true); expect(s.has("乙")).toBe(true);
+  expect(s.has("你")).toBe(true); // from the shared fixture's translated zh
+});
+```
+
+Add to `scripts/lib/chars.ts`:
+
+```ts
+export function collectAllChars(list: Article[]): Set<string> {
+  const set = new Set<string>();
+  for (const a of list) for (const ch of collectArticleChars(a)) set.add(ch);
+  return set;
+}
+```
+
+Run `npx vitest run scripts/lib/chars.test.ts` — expect PASS. (Import `collectAllChars` in the test.)
+
 - [ ] **Step 3: Write the subsetting script**
 
 ```ts
@@ -212,7 +241,7 @@ import { createHash } from "node:crypto";
 import { join } from "node:path";
 import subsetFont from "subset-font";
 import { readAllArticles } from "../pipeline/store.js";
-import { collectArticleChars, collectSiteChars } from "./lib/chars.js";
+import { collectAllChars } from "./lib/chars.js";
 import { RAW_FONTS, ASSETS_FONT_DIR, type Weight } from "./font-sources.js";
 
 const OUT_DIR = join(process.cwd(), "public", "fonts", "zh");
@@ -237,11 +266,11 @@ async function loadRaw(weight: Weight): Promise<Buffer> {
   return buf;
 }
 
-async function emit(raw: Buffer, chars: Set<string>, prefix: string, weight: Weight): Promise<string> {
+async function emit(raw: Buffer, chars: Set<string>, weight: Weight): Promise<string> {
   const text = [...chars].join("");
   const sub = await subsetFont(raw, text, { targetFormat: "woff2" });
   const hash = sha256(sub).slice(0, 10);
-  const name = `${prefix}.${weight}.${hash}.woff2`;
+  const name = `pgcn-song.${weight}.${hash}.woff2`;
   await writeFile(join(OUT_DIR, name), sub);
   return `/fonts/zh/${name}`;
 }
@@ -252,44 +281,39 @@ async function main() {
   await mkdir(OUT_DIR, { recursive: true });
   const raws = { regular: await loadRaw("regular"), bold: await loadRaw("bold") };
 
-  const manifest: any = {
+  const allChars = collectAllChars(articles);   // union across corpus (~3246 code points)
+  const manifest = {
     sourceSha256: { regular: sha256(raws.regular), bold: sha256(raws.bold) },
-    charsetHash: { site: "", articles: {} as Record<string, string> },
-    files: { site: {}, articles: {} as Record<string, any> },
+    charsetHash: charsetHash(allChars),
+    files: {
+      regular: await emit(raws.regular, allChars, "regular"),
+      bold: await emit(raws.bold, allChars, "bold"),
+    },
   };
 
-  const siteChars = collectSiteChars(articles);
-  manifest.charsetHash.site = charsetHash(siteChars);
-  for (const w of WEIGHTS) manifest.files.site[w] = await emit(raws[w], siteChars, "_site", w);
-
-  for (const a of articles) {
-    const chars = collectArticleChars(a);
-    manifest.charsetHash.articles[a.slug] = charsetHash(chars);
-    manifest.files.articles[a.slug] = {};
-    for (const w of WEIGHTS) manifest.files.articles[a.slug][w] = await emit(raws[w], chars, a.slug, w);
-  }
-
   await writeFile(MANIFEST, JSON.stringify(manifest, null, 2) + "\n");
-  const n = articles.length;
-  console.log(`fonts: ${n} articles × ${WEIGHTS.length} + site subset → public/fonts/zh/`);
+  console.log(`fonts: single shared subset (${allChars.size} code points) × 2 weights → public/fonts/zh/`);
 }
 main().catch((e) => { console.error(e); process.exit(1); });
 ```
 
-- [ ] **Step 4: Wire package.json + gitignore, place raw fonts**
+Note: import `collectAllChars` (not `collectArticleChars`/`collectSiteChars`) in the script. `charsetHash(set) = sha256([...set].sort().join(""))`.
 
-Add to `package.json` scripts: `"fonts": "tsx scripts/subset-fonts.ts"`. Add `assets/fonts/` to `.gitignore`. Download the two OTFs into `assets/fonts/`, run `sha256sum`, and paste the digests into `scripts/font-sources.ts`.
+- [ ] **Step 4: Wire package.json + gitignore**
+
+Add to `package.json` scripts: `"fonts": "tsx scripts/subset-fonts.ts"`. Ensure `assets/fonts/` is in `.gitignore` (already present). The two OTFs are already in `assets/fonts/` with pinned SHA-256 in `scripts/font-sources.ts` (Regular `78aa7a…`, Bold `706b8c…`) — the SHA check must be active and pass.
 
 - [ ] **Step 5: Generate and sanity-check**
 
-Run: `npm run fonts && ls public/fonts/zh | head && du -sh public/fonts`
-Expected: hundreds of `*.woff2` files, manifest present, individual files roughly ≤ ~250KB.
+Run: `npm run fonts && ls -l public/fonts/zh && du -sh public/fonts`
+Expected: exactly 2 `pgcn-song.*.woff2` files + `manifest.json`; total ~3–4MB; each file ~1.5–2MB.
 
 - [ ] **Step 6: Commit (including generated fonts)**
 
 ```bash
-git add scripts/font-sources.ts scripts/subset-fonts.ts package.json package-lock.json .gitignore public/fonts
-git commit -m "feat(fonts): per-essay WOFF2 subsetting + committed output"
+git status   # confirm NO .otf staged
+git add scripts/lib/chars.ts scripts/lib/chars.test.ts scripts/font-sources.ts scripts/subset-fonts.ts package.json package-lock.json .gitignore public/fonts
+git commit -m "feat(fonts): single shared WOFF2 subset + committed output"
 ```
 
 ---
@@ -301,8 +325,8 @@ git commit -m "feat(fonts): per-essay WOFF2 subsetting + committed output"
 - Modify: `package.json` (`build` script)
 
 **Interfaces:**
-- Consumes: manifest from Task 2; `collectArticleChars`/`collectSiteChars` (Task 1); `readAllArticles`.
-- Produces: `verifyFonts(opts): Promise<string[]>` returning a list of problems (empty = OK); a CLI wrapper that exits non-zero when problems exist.
+- Consumes: manifest from Task 2 (single-subset shape); `collectAllChars` (Task 1/2); `readAllArticles`.
+- Produces: `checkManifest(articles, manifest, fileExists): string[]` (empty = OK); a CLI wrapper that exits non-zero when problems exist.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -311,7 +335,7 @@ git commit -m "feat(fonts): per-essay WOFF2 subsetting + committed output"
 import { describe, it, expect } from "vitest";
 import { checkManifest } from "./verify-fonts.js";
 import type { Article } from "../shared/article-schema.js";
-import { collectArticleChars, collectSiteChars } from "./lib/chars.js";
+import { collectAllChars } from "./lib/chars.js";
 import { createHash } from "node:crypto";
 
 const sha = (s: string) => createHash("sha256").update(s).digest("hex");
@@ -321,28 +345,20 @@ const a: Article = { slug: "x", titleEn: "T", titleZh: "标题", dateText: "June
   translatedAt: "2026-07-09", model: "m",
   segments: [{ id: 1, type: "paragraph", sourceHash: "h", enMarkdown: "e", zhMarkdown: "你好" }] };
 
-function goodManifest(list: Article[]) {
-  return { charsetHash: { site: csh(collectSiteChars(list)),
-    articles: Object.fromEntries(list.map(x => [x.slug, csh(collectArticleChars(x))])) },
-    files: { site: { regular: "/f/s.r.woff2", bold: "/f/s.b.woff2" },
-      articles: Object.fromEntries(list.map(x => [x.slug, { regular: `/f/${x.slug}.r.woff2`, bold: `/f/${x.slug}.b.woff2` }])) } };
-}
+const goodManifest = (list: Article[]) => ({
+  charsetHash: csh(collectAllChars(list)),
+  files: { regular: "/fonts/zh/pgcn-song.regular.aaa.woff2", bold: "/fonts/zh/pgcn-song.bold.bbb.woff2" },
+});
 
 describe("checkManifest", () => {
-  it("passes when charset hashes match", () => {
+  it("passes when charset hash matches and files exist", () => {
     expect(checkManifest([a], goodManifest([a]), () => true)).toEqual([]);
   });
   it("flags stale fonts when content charset changed", () => {
-    const stale = goodManifest([a]);
-    stale.charsetHash.articles["x"] = "deadbeef";
-    expect(checkManifest([a], stale, () => true)).toEqual(
-      expect.arrayContaining([expect.stringContaining("x")]));
+    const stale = { ...goodManifest([a]), charsetHash: "deadbeef" };
+    expect(checkManifest([a], stale, () => true).length).toBeGreaterThan(0);
   });
-  it("flags a missing article entry", () => {
-    const m = goodManifest([]);
-    expect(checkManifest([a], m, () => true).length).toBeGreaterThan(0);
-  });
-  it("flags a missing file on disk", () => {
+  it("flags a missing woff2 file on disk", () => {
     expect(checkManifest([a], goodManifest([a]), () => false).length).toBeGreaterThan(0);
   });
 });
@@ -362,7 +378,7 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import { readAllArticles } from "../pipeline/store.js";
-import { collectArticleChars, collectSiteChars } from "./lib/chars.js";
+import { collectAllChars } from "./lib/chars.js";
 import type { Article } from "../shared/article-schema.js";
 
 const sha = (s: string) => createHash("sha256").update(s).digest("hex");
@@ -370,30 +386,14 @@ const csh = (set: Set<string>) => sha([...set].sort().join(""));
 
 export function checkManifest(
   articles: Article[],
-  m: { charsetHash: { site: string; articles: Record<string, string> };
-       files: { site: { regular: string; bold: string };
-                articles: Record<string, { regular: string; bold: string }> } },
+  m: { charsetHash: string; files: { regular: string; bold: string } },
   fileExists: (publicPath: string) => boolean,
 ): string[] {
   const problems: string[] = [];
-  if (m.charsetHash.site !== csh(collectSiteChars(articles)))
-    problems.push("site subset charset stale — rerun `npm run fonts`");
-  for (const [p] of [["site", m.files.site]] as const)
-    for (const w of ["regular", "bold"] as const)
-      if (!fileExists(m.files.site[w])) problems.push(`missing file: ${p} ${w}`);
-
-  for (const a of articles) {
-    const want = csh(collectArticleChars(a));
-    if (m.charsetHash.articles[a.slug] !== want)
-      problems.push(`article ${a.slug} charset stale — rerun \`npm run fonts\``);
-    const f = m.files.articles[a.slug];
-    if (!f) { problems.push(`article ${a.slug} missing from manifest`); continue; }
-    for (const w of ["regular", "bold"] as const)
-      if (!fileExists(f[w])) problems.push(`missing file: ${a.slug} ${w}`);
-  }
-  const known = new Set(articles.map((x) => x.slug));
-  for (const slug of Object.keys(m.charsetHash.articles))
-    if (!known.has(slug)) problems.push(`stale manifest entry for removed article ${slug}`);
+  if (m.charsetHash !== csh(collectAllChars(articles)))
+    problems.push("font charset stale — content changed; rerun `npm run fonts` and commit public/fonts/");
+  for (const w of ["regular", "bold"] as const)
+    if (!fileExists(m.files[w])) problems.push(`missing font file: ${w} (${m.files[w]})`);
   return problems;
 }
 
@@ -404,10 +404,9 @@ async function main() {
   const problems = checkManifest(articles, m, (p) => existsSync(join(root, "public", p)));
   if (problems.length) {
     console.error("✗ font verification failed:\n" + problems.map((p) => "  - " + p).join("\n"));
-    console.error("\nRun `npm run fonts` and commit public/fonts/.");
     process.exit(1);
   }
-  console.log(`✓ fonts verified (${articles.length} articles)`);
+  console.log(`✓ fonts verified (charset over ${articles.length} articles)`);
 }
 if (import.meta.url === `file://${process.argv[1]}`) main();
 ```
@@ -420,8 +419,7 @@ Expected: unit tests PASS; `verify-fonts` prints ✓ and Astro builds `dist/`.
 
 - [ ] **Step 5: Prove the gate catches stale fonts**
 
-Run: `printf '\\n' >> content/articles/earn.json; npm run build; git checkout content/articles/earn.json`
-Expected: build **fails** with "charset stale" for `earn` (JSON whitespace change is harmless; the point is to see a failure path — then restore). If the trailing newline doesn't change the charset, instead temporarily add a CJK char to a `zhMarkdown` in a scratch copy to observe the failure, then discard.
+Temporarily edit a `zhMarkdown` in one article JSON to introduce a CJK character that is NOT in the corpus union (e.g. a rare char like `鑫` appended to one paragraph), then `npm run build`. Expected: build **fails** with "font charset stale". Then `git checkout` that file to restore. (A whitespace-only change would not alter the charset hash, so it must be a real new code point.)
 
 - [ ] **Step 6: Commit**
 
@@ -432,13 +430,13 @@ git commit -m "feat(fonts): read-only verify-fonts build gate"
 
 ---
 
-### Task 4: Design tokens + @font-face base (global.css)
+### Task 4: Design tokens + @font-face base (global.css + Base.astro)
 
 **Files:**
-- Modify: `src/styles/global.css`
+- Modify: `src/styles/global.css`, `src/layouts/Base.astro`
 
 **Interfaces:**
-- Produces: CSS custom properties (`--paper --ink --muted --rule --accent --measure --zh --en`) for light + dark; `@font-face` for Newsreader (Latin, self-hosted); base `body` typography. Chinese `@font-face` is emitted per-page (Tasks 6–7), not here.
+- Produces: CSS custom properties (`--paper --ink --muted --rule --accent --measure --zh --en`) for light + dark; `@font-face` for Newsreader (Latin, self-hosted) in global.css; base `body` typography. The Chinese `PGCN Song` `@font-face` (Regular + Bold) is injected ONCE in `Base.astro` from the font manifest (single shared subset, so every page loads the same two files) — NOT per-page.
 
 - [ ] **Step 1: Add Newsreader web fonts**
 
@@ -473,7 +471,30 @@ a { color:var(--accent); text-decoration:none; }
 a:hover { text-decoration:underline; }
 ```
 
-Keep the rest of the file for now (superseded pieces are replaced in Tasks 5–9).
+Keep the rest of the file for now (superseded pieces are replaced in Tasks 5–9). Do NOT add a `PGCN Song` `@font-face` here — it is injected in Base.astro (next step) from the manifest's hashed filenames.
+
+- [ ] **Step 2b: Inject the Chinese @font-face in Base.astro**
+
+In `src/layouts/Base.astro` frontmatter, import the manifest and emit the two `@font-face` rules in `<head>` (so every page loads the shared subset):
+
+```astro
+---
+// ...existing Props...
+import fontManifest from "../../public/fonts/manifest.json";
+const zh = (fontManifest as { files: { regular: string; bold: string } }).files;
+---
+```
+
+In `<head>` (inside the existing `<head>`):
+
+```astro
+<style is:inline set:html={`
+  @font-face{font-family:"PGCN Song";font-weight:400;font-display:swap;src:url("${zh.regular}") format("woff2")}
+  @font-face{font-family:"PGCN Song";font-weight:700;font-display:swap;src:url("${zh.bold}") format("woff2")}
+`}></style>
+```
+
+Do not otherwise change Base.astro in this task (footer/attribution is Task 9). Run `npm run build`; expect success and Chinese text rendering in PGCN Song.
 
 - [ ] **Step 3: Verify contrast**
 
@@ -673,7 +694,6 @@ import Base from "../layouts/Base.astro";
 import ArticleBody from "../components/ArticleBody.astro";
 import { sortArticles } from "../lib/sort.js";
 import { withNeighbors } from "../lib/adjacent.js";
-import fontManifest from "../../public/fonts/manifest.json";
 
 export async function getStaticPaths() {
   const entries = await getCollection("articles");
@@ -684,13 +704,8 @@ export async function getStaticPaths() {
 }
 const { article, prev, next } = Astro.props;
 const canonical = `https://paulgraham-cn.com/${article.slug}.html`;
-const f = (fontManifest as any).files.articles[article.slug];
 ---
 <Base title={article.titleZh} description={article.titleEn} canonical={canonical}>
-  <style is:inline set:html={`
-    @font-face{font-family:"PGCN Song";font-weight:400;font-display:swap;src:url("${f.regular}") format("woff2")}
-    @font-face{font-family:"PGCN Song";font-weight:700;font-display:swap;src:url("${f.bold}") format("woff2")}
-  `}></style>
   <main class="article">
     <p class="kicker">{article.dateText} · Paul Graham</p>
     <h1 class="article-title">{article.titleZh}</h1>
@@ -748,7 +763,7 @@ git commit -m "feat(reading): article page layout, per-page fonts, toggle, foote
 - Modify: `src/pages/index.astro`
 
 **Interfaces:**
-- Consumes: `sortArticles`; font manifest `files.site`.
+- Consumes: `sortArticles`. (No font manifest import — the Chinese `@font-face` is injected by Base.astro in Task 4.)
 - Produces: `groupByYear(sorted): Array<{ year: string | null; items: T[] }>` — descending years, then a trailing `{ year: null }` (日期不详) group whose items keep `sortArticles` order.
 
 - [ ] **Step 1: Write the failing test**
@@ -814,18 +829,12 @@ import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import { sortArticles } from "../lib/sort.js";
 import { groupByYear } from "../lib/group.js";
-import fontManifest from "../../public/fonts/manifest.json";
 
 const entries = await getCollection("articles");
 const groups = groupByYear(sortArticles(entries.map((e) => e.data)));
 const total = entries.length;
-const site = (fontManifest as any).files.site;
 ---
 <Base title="Paul Graham 文集（中文）" description="Paul Graham 文章的中文翻译">
-  <style is:inline set:html={`
-    @font-face{font-family:"PGCN Song";font-weight:400;font-display:swap;src:url("${site.regular}") format("woff2")}
-    @font-face{font-family:"PGCN Song";font-weight:700;font-display:swap;src:url("${site.bold}") format("woff2")}
-  `}></style>
   <main class="home">
     <header class="home-mast">
       <h1>Paul Graham 文集</h1>
@@ -1027,4 +1036,4 @@ git commit -m "chore(fonts): bundle OFL, footer attribution, README; note RFN fo
 
 **Placeholder scan:** `__FILL_ME__` SHA-256 in Task 2 is a real value the implementer inserts after downloading the pinned OTF (Task 2 Step 4) — intentional, not a plan gap. The chars.test.ts `'n'` assertion is explicitly corrected in Task 1 Step 3. No other placeholders.
 
-**Type consistency:** `collectArticleChars`/`collectSiteChars` (Task 1) reused verbatim in Tasks 2–3. Manifest shape (`files.articles[slug].{regular,bold}`, `files.site.{regular,bold}`, `charsetHash.*`) is identical across Tasks 2, 3, 6, 7. `classifySegment` return union (Task 5) consumed by ArticleBody. `withNeighbors`/`groupByYear` signatures match their consumers. `"PGCN Song"` family string identical in Task 4/6/7 CSS.
+**Type consistency:** `collectArticleChars` (Task 1) + `collectAllChars` (Task 2) reused in Tasks 2–3. Single-subset manifest shape (`charsetHash: string`, `files.{regular,bold}`) is identical across Tasks 2, 3, 4 (Base injection). `classifySegment` return union (Task 5) consumed by ArticleBody. `withNeighbors`/`groupByYear` signatures match their consumers. `"PGCN Song"` family string identical in Base.astro injection + global.css `--zh`.
