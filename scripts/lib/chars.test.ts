@@ -8,8 +8,8 @@ const art = (over: Partial<Article> = {}): Article => ({
   translatedAt: "2026-07-09", model: "m",
   segments: [
     { id: 1, type: "paragraph", sourceHash: "h1", enMarkdown: "Y Combinator", zhMarkdown: "你好 YC 6500，" },
-    { id: 2, type: "paragraph", sourceHash: "h2", enMarkdown: "note", zhMarkdown: "" },   // untranslated
-    { id: 3, type: "rawUnsupported", sourceHash: "h3", enMarkdown: "code" },
+    { id: 2, type: "paragraph", sourceHash: "h2", enMarkdown: "zzz", zhMarkdown: "" },   // untranslated
+    { id: 3, type: "rawUnsupported", sourceHash: "h3", enMarkdown: "qqq" },
   ],
   ...over,
 });
@@ -25,10 +25,16 @@ describe("chars", () => {
     expect(isUntranslated(a.segments[1])).toBe(true);
     expect(isUntranslated(a.segments[2])).toBe(false); // rawUnsupported is not translatable
   });
+  it("isUntranslated returns true for whitespace-only zhMarkdown", () => {
+    const seg = { id: 1, type: "paragraph" as const, sourceHash: "h", enMarkdown: "en", zhMarkdown: "   " };
+    expect(isUntranslated(seg)).toBe(true);
+  });
   it("collectArticleChars includes title + translated zh + latin/digits + UI, excludes empty-seg english", () => {
     const s = collectArticleChars(art());
     for (const ch of ["标", "你", "好", "Y", "C", "6", "5", "0", "，", "原"]) expect(s.has(ch)).toBe(true);
-    expect(s.has("原")).toBe(true); // replaced bad 'n' assertion with real UI char
+    // Verify that chars from untranslated/unsupported segments are excluded
+    expect(s.has("z")).toBe(false); // from untranslated segment enMarkdown "zzz"
+    expect(s.has("q")).toBe(false); // from rawUnsupported segment enMarkdown "qqq"
   });
   it("collectSiteChars spans all titles + dateText + UI", () => {
     const s = collectSiteChars([art({ titleZh: "甲" }), art({ titleZh: "乙", slug: "y" })]);

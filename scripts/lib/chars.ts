@@ -21,7 +21,7 @@ export function collectArticleChars(a: Article): Set<string> {
   const set = new Set<string>();
   addCodePoints(set, a.titleZh);
   for (const seg of a.segments) {
-    if (isTranslatable(seg.type) && seg.zhMarkdown?.trim()) addCodePoints(set, seg.zhMarkdown);
+    if (!isUntranslated(seg)) addCodePoints(set, seg.zhMarkdown);
   }
   addCodePoints(set, SHARED_UI_TEXT);
   return set;
