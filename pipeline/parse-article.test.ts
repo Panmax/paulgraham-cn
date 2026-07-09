@@ -172,6 +172,50 @@ describe("parseArticle — date not in the first paragraph", () => {
   });
 });
 
+describe("parseArticle — hw.html (inline apply.html link must not delete the body)", () => {
+  const html = loadFixture("hw.html");
+  const article = parseArticle(html, "The Hardware Renaissance");
+
+  it("keeps the essay body even though a body sentence links to apply.html", () => {
+    const joined = article.segments.map((s) => s.enMarkdown ?? "").join(" ");
+    expect(joined).toContain("One advantage of Y Combinator");
+    expect(joined).toContain("hardware startups");
+    expect(joined.length).toBeGreaterThan(2000);
+  });
+
+  it("extracts the date and strips the top promo banner", () => {
+    expect(article.dateText).toBe("October 2012");
+    expect(article.publishedAt).toBe("2012-10-01");
+    for (const s of article.segments) {
+      expect(s.enMarkdown ?? "").not.toContain("Want to start a startup");
+    }
+  });
+
+  it("splits into many paragraphs, not one giant blob", () => {
+    const paras = article.segments.filter((s) => s.type === "paragraph");
+    expect(paras.length).toBeGreaterThan(5);
+  });
+});
+
+describe("parseArticle — ycstart.html (paragraphs separated by <p>, not <br><br>)", () => {
+  const html = loadFixture("ycstart.html");
+  const article = parseArticle(html, "How Y Combinator Started");
+
+  it("splits <p>-separated prose into multiple paragraphs", () => {
+    const paras = article.segments.filter((s) => s.type === "paragraph");
+    expect(paras.length).toBeGreaterThan(5);
+    expect(paras.every((p) => (p.enMarkdown ?? "").length < 4000)).toBe(true);
+  });
+
+  it("extracts the date and keeps the whole essay", () => {
+    expect(article.dateText).toBe("March 2012");
+    expect(article.publishedAt).toBe("2012-03-01");
+    const joined = article.segments.map((s) => s.enMarkdown ?? "").join(" ");
+    expect(joined).toContain("7th birthday");
+    expect(joined).toContain("Jessica");
+  });
+});
+
 describe("parseArticle — synthetic structural checks", () => {
   const SAMPLE = `<html><head><title>How to Do Great Work</title></head>
 <body><table><tr><td>

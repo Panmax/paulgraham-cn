@@ -17,18 +17,17 @@
 import { join } from "node:path";
 import { readAllArticles, writeArticle, writeManifest } from "../pipeline/store.js";
 import { buildManifest } from "../pipeline/manifest.js";
-import { parsePublishedAt } from "../pipeline/date.js";
+import { parseLeadingDate } from "../pipeline/date.js";
 import { hashText } from "../pipeline/hash.js";
 import type { Article } from "../shared/article-schema.js";
 
 const CONTENT_DIR = join(process.cwd(), "content");
 const ARTICLES_DIR = join(CONTENT_DIR, "articles");
 
-const LEADING_DATE_EN =
-  /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})\b/;
-// Leading Chinese date "YYYY 年 M 月" with optional interior spaces, plus any
-// trailing ASCII whitespace. A following fullwidth comma is intentionally kept.
-const LEADING_DATE_ZH = /^\s*\d{4}\s*年\s*\d{1,2}\s*月[ \t]*/;
+// Leading Chinese date, matching what the translation produces for a byline:
+// "YYYY 年 M 月" (full date) or "YYYY 年" (bare year), with optional interior
+// spaces and trailing ASCII whitespace. A following fullwidth comma is kept.
+const LEADING_DATE_ZH = /^\s*\d{4}\s*年(?:\s*\d{1,2}\s*月)?[ \t]*/;
 
 async function main(): Promise<void> {
   const articles = await readAllArticles(ARTICLES_DIR);
@@ -37,18 +36,25 @@ async function main(): Promise<void> {
   for (const article of articles) {
     if (article.publishedAt !== null) continue;
 
-    // The date lives in the first paragraph segment that starts with a month.
-    const idx = article.segments.findIndex(
-      (s) => s.type === "paragraph" && LEADING_DATE_EN.test(s.enMarkdown ?? ""),
-    );
-    if (idx === -1) continue;
+    // The date lives in the first paragraph segment whose text opens with a
+    // byline date ("Month YYYY" or a bare year like "1993").
+    let idx = -1;
+    let parsed: { dateText: string; publishedAt: string } | null = null;
+    for (let i = 0; i < article.segments.length; i++) {
+      const s = article.segments[i];
+      if (s.type !== "paragraph") continue;
+      const p = parseLeadingDate(s.enMarkdown ?? "");
+      if (p) {
+        idx = i;
+        parsed = p;
+        break;
+      }
+    }
+    if (idx === -1 || !parsed) continue;
 
     const seg = article.segments[idx];
     const en = seg.enMarkdown ?? "";
-    const m = en.match(LEADING_DATE_EN)!;
-    const dateText = `${m[1]} ${m[2]}`;
-    const publishedAt = parsePublishedAt(dateText);
-    if (!publishedAt) continue;
+    const { dateText, publishedAt } = parsed;
 
     article.dateText = dateText;
     article.publishedAt = publishedAt;

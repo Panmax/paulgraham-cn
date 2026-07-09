@@ -2,19 +2,19 @@
   "slug": "lwba",
   "titleEn": "Lisp for Web-Based Applications",
   "titleZh": "用于 Web 应用程序的 Lisp",
-  "dateText": "April 2001",
-  "publishedAt": "2001-04-01",
+  "dateText": "",
+  "publishedAt": null,
   "sourceOrder": 224,
   "sourceUrl": "https://paulgraham.com/lwba.html",
-  "translatedAt": "2026-07-08",
+  "translatedAt": "2026-07-09",
   "model": "gemini-3.5-flash",
   "segments": [
     {
-      "id": 1,
+      "id": 2,
       "type": "paragraph",
-      "sourceHash": "dde11e05257a6af160e3318aaf60855b259d59fd5519a5d0661b113f38aa631a",
-      "enMarkdown": "at BBN Labs in Cambridge, MA.",
-      "zhMarkdown": "于马萨诸塞州剑桥市的 BBN 实验室。"
+      "sourceHash": "5e594e6a7aae7257eccc706789e6d9866f2d3ee9ddecd3a5284309cf912592fe",
+      "enMarkdown": "After a link to [Beating the Averages](https://paulgraham.com/avg.html) was posted on slashdot, some readers wanted to hear in more detail about the specific technical advantages we got from using Lisp in Viaweb. For those who are interested, here are some excerpts from a talk I gave in April 2001 at BBN Labs in Cambridge, MA.",
+      "zhMarkdown": "在 [Beating the Averages](https://paulgraham.com/avg.html) 的链接被发到 Slashdot 上之后，一些读者想更详细地了解我们在 Viaweb 中使用 Lisp 所获得的具体技术优势。对于对此感兴趣的人，这里是我 2001 年 4 月在马萨诸塞州剑桥市的 BBN 实验室演讲的一些摘录。"
     }
   ]
 }

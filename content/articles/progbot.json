@@ -2,8 +2,8 @@
   "slug": "progbot",
   "titleEn": "Programming Bottom-Up",
   "titleZh": "自底向上的编程",
-  "dateText": "",
-  "publishedAt": null,
+  "dateText": "1993",
+  "publishedAt": "1993-01-01",
   "sourceOrder": 225,
   "sourceUrl": "https://paulgraham.com/progbot.html",
   "translatedAt": "2026-07-08",
@@ -12,9 +12,9 @@
     {
       "id": 1,
       "type": "paragraph",
-      "sourceHash": "8cf4ed877c5e6c57006af048823056a165dbda07d1d3e1593341b9b5541a0c60",
-      "enMarkdown": "1993  *(This essay is from the introduction to*[On Lisp](https://paulgraham.com/onlisp.html)*.)*",
-      "zhMarkdown": "1993 年 *（本文选自《[On Lisp](https://paulgraham.com/onlisp.html)》一书的导言部分。）*"
+      "sourceHash": "4d9fb95746956ec89cf7a4962777b8461356c97b55df0583b4e24565cd52a50e",
+      "enMarkdown": "*(This essay is from the introduction to*[On Lisp](https://paulgraham.com/onlisp.html)*.)*",
+      "zhMarkdown": "*（本文选自《[On Lisp](https://paulgraham.com/onlisp.html)》一书的导言部分。）*"
     },
     {
       "id": 2,

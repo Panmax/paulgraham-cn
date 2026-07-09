@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T09:51:02.666Z",
+  "generatedAt": "2026-07-09T09:52:01.554Z",
   "articles": [
     {
       "slug": "ace",
@@ -732,10 +732,10 @@
     {
       "slug": "hw",
       "titleZh": "硬件复兴",
-      "dateText": "",
-      "publishedAt": null,
+      "dateText": "October 2012",
+      "publishedAt": "2012-10-01",
       "sourceOrder": 83,
-      "translatedAt": "2026-07-08"
+      "translatedAt": "2026-07-09"
     },
     {
       "slug": "hwh",
@@ -916,10 +916,10 @@
     {
       "slug": "lwba",
       "titleZh": "用于 Web 应用程序的 Lisp",
-      "dateText": "April 2001",
-      "publishedAt": "2001-04-01",
+      "dateText": "",
+      "publishedAt": null,
       "sourceOrder": 224,
-      "translatedAt": "2026-07-08"
+      "translatedAt": "2026-07-09"
     },
     {
       "slug": "mac",
@@ -1188,8 +1188,8 @@
     {
       "slug": "progbot",
       "titleZh": "自底向上的编程",
-      "dateText": "",
-      "publishedAt": null,
+      "dateText": "1993",
+      "publishedAt": "1993-01-01",
       "sourceOrder": 225,
       "translatedAt": "2026-07-08"
     },
@@ -1815,7 +1815,7 @@
       "dateText": "March 2012",
       "publishedAt": "2012-03-01",
       "sourceOrder": 88,
-      "translatedAt": "2026-07-08"
+      "translatedAt": "2026-07-09"
     }
   ]
 }

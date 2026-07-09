@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import type { AnyNode, Element } from "domhandler";
 import { hashText } from "./hash.js";
-import { parsePublishedAt } from "./date.js";
+import { parseLeadingDate } from "./date.js";
 import type { SegmentType } from "../shared/article-schema.js";
 
 export type ParsedSegment = {
@@ -127,19 +127,26 @@ function flatten($: cheerio.CheerioAPI, nodes: AnyNode[], out: AnyNode[]): void 
       continue;
     }
     if (SKIP_TAGS.has(node.name)) continue;
+    // <p> is a paragraph boundary: push it as a marker (the main walk flushes
+    // on it) then flatten its inline children so they form the next paragraph.
+    // Some essays use <p> instead of <br><br> to separate paragraphs; without
+    // this the whole essay collapses into one giant paragraph.
+    if (node.name === "p") out.push(node);
     flatten($, (node as Element).children as AnyNode[], out);
   }
 }
 
-// Remove known promo banner tables (the recurring "Want to start a startup?
-// Get funded by Y Combinator." block) from the DOM before extracting text, so
-// their text never leaks into body segments. We anchor on the apply.html
-// link inside the banner and remove its *closest* ancestor <table> — not any
-// ancestor table containing that text — since the page's outer layout table
-// also wraps the banner along with the entire essay.
+// Remove the recurring "Want to start a startup? Get funded by Y Combinator."
+// promo banner from the DOM before extracting text, so its text never leaks
+// into body segments. We anchor on the banner's own headline phrase (which
+// appears ONLY in the banner) and remove its closest <table>. Anchoring on the
+// apply.html link instead would be wrong: essays sometimes link to apply.html
+// from ordinary body prose (e.g. "don't be deterred from applying to Y
+// Combinator"), and that link's closest <table> is the outer layout table
+// wrapping the whole essay — removing it would delete the entire body.
 function stripPromoTables($: cheerio.CheerioAPI): void {
-  $('a[href*="ycombinator.com/apply"]').each((_, a) => {
-    const table = $(a).closest("table");
+  $('b:contains("Want to start a startup")').each((_, b) => {
+    const table = $(b).closest("table");
     if (table.length) table.remove();
   });
 }
@@ -201,13 +208,6 @@ export function parseArticle(html: string, fallbackTitle: string): ParsedArticle
   let hrIdx = 0;
   let rawIdx = 0;
 
-  // A leading date line, e.g. "May 2001" or "March 2008, rev. June 2008". Only
-  // matches a real month at the very start of a paragraph, so a month/year
-  // buried mid-prose (e.g. "I visited in September 2004") is never mistaken for
-  // the byline date.
-  const LEADING_DATE =
-    /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})\b/;
-
   const paragraphNodes: AnyNode[] = [];
 
   function flushParagraph(): void {
@@ -222,13 +222,14 @@ export function parseArticle(html: string, fallbackTitle: string): ParsedArticle
     // to open "December 2008 was ..." in an undated essay can't be mistaken for
     // a byline. The preambles observed are 1 paragraph; 3 leaves margin.
     const inHeaderZone = paragraphsSeen++ < 3;
-    if (!dateFound && inHeaderZone && LEADING_DATE.test(md)) {
-      const parsed = parsePublishedAt(md);
+    if (!dateFound && inHeaderZone) {
+      const parsed = parseLeadingDate(md);
       if (parsed) {
         dateFound = true;
-        publishedAt = parsed;
-        const dm = md.match(LEADING_DATE);
-        dateText = dm ? `${dm[1]} ${dm[2]}` : "";
+        publishedAt = parsed.publishedAt;
+        dateText = parsed.dateText;
+        // Strip the leading date token (a bare year, or "Month YYYY") plus any
+        // trailing whitespace, keeping the rest of the paragraph.
         md = md.replace(/^.*?\d{4}\s*/, "").trim();
         if (!md) return;
       }
@@ -273,6 +274,13 @@ export function parseArticle(html: string, fallbackTitle: string): ParsedArticle
     if (isBrPair(flatNodes, i)) {
       flushParagraph();
       i++; // consume the second <br> of the pair as well
+      continue;
+    }
+
+    // A <p> marker starts a new paragraph (its inline children were flattened
+    // in right after it, so just flush what precedes it and drop the marker).
+    if (node.type === "tag" && node.name === "p") {
+      flushParagraph();
       continue;
     }
 
