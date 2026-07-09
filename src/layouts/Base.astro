@@ -2,6 +2,8 @@
 interface Props { title: string; description?: string; canonical?: string }
 const { title, description, canonical } = Astro.props;
 import "../styles/global.css";
+import fontManifest from "../../public/fonts/manifest.json";
+const zh = (fontManifest as { files: { regular: string; bold: string } }).files;
 ---
 <!doctype html>
 <html lang="zh-CN" data-theme="light">
@@ -11,6 +13,10 @@ import "../styles/global.css";
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     {canonical && <link rel="canonical" href={canonical} />}
+    <style is:inline set:html={`
+      @font-face{font-family:"PGCN Song";font-weight:400;font-display:swap;src:url("${zh.regular}") format("woff2")}
+      @font-face{font-family:"PGCN Song";font-weight:700;font-display:swap;src:url("${zh.bold}") format("woff2")}
+    `}></style>
     <script is:inline>
       (() => {
         const saved = localStorage.getItem("theme");

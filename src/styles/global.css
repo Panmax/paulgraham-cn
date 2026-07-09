@@ -1,30 +1,26 @@
+@font-face { font-family:"Newsreader"; font-style:normal; font-weight:400;
+  src:url("/fonts/latin/Newsreader-Regular.woff2") format("woff2"); font-display:swap; }
+@font-face { font-family:"Newsreader"; font-style:italic; font-weight:400;
+  src:url("/fonts/latin/Newsreader-Italic.woff2") format("woff2"); font-display:swap; }
+@font-face { font-family:"Newsreader"; font-style:normal; font-weight:600;
+  src:url("/fonts/latin/Newsreader-SemiBold.woff2") format("woff2"); font-display:swap; }
+
 :root {
-  --bg: #fbfaf7;
-  --fg: #1a1a1a;
-  --muted: #6b6b6b;
-  --link: #14548c;
-  --rule: #e4e0d8;
-  --max: 40rem;
-  --serif: Georgia, "Times New Roman", serif;
-  --zh: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  --paper:#f7f4ec; --ink:#26221b; --muted:#71695b; --rule:#e0d9ca; --accent:#a1552f;
+  --measure:36rem;
+  --zh:"PGCN Song","Noto Serif SC","Songti SC",serif;
+  --en:"Newsreader",Georgia,serif;
 }
 :root[data-theme="dark"] {
-  --bg: #16171a;
-  --fg: #e7e5e0;
-  --muted: #9a9a9a;
-  --link: #7fb2e0;
-  --rule: #2c2e33;
+  --paper:#1c1a16; --ink:#e7e1d4; --muted:#a89f8e; --rule:#332f27; --accent:#d08a5e;
 }
-* { box-sizing: border-box; }
-html { font-size: 18px; }
-body {
-  margin: 0; background: var(--bg); color: var(--fg);
-  font-family: var(--zh); line-height: 1.85;
-  -webkit-font-smoothing: antialiased;
-}
-main { max-width: var(--max); margin: 0 auto; padding: 3rem 1.25rem 6rem; }
-a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; }
+* { box-sizing:border-box; }
+html { font-size:18px; }
+body { margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--zh); line-height:2.0; -webkit-font-smoothing:antialiased; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+main { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.25rem 6rem; }
 h1 { font-size: 1.9rem; line-height: 1.3; margin: 0 0 .25rem; }
 .site-header { display: flex; justify-content: space-between; align-items: center;
   max-width: var(--max); margin: 0 auto; padding: 1rem 1.25rem; }
