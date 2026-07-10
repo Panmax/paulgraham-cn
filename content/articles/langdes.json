@@ -6,7 +6,7 @@
   "publishedAt": "2001-05-01",
   "sourceOrder": 220,
   "sourceUrl": "https://paulgraham.com/langdes.html",
-  "translatedAt": "2026-07-08",
+  "translatedAt": "2026-07-10",
   "model": "gemini-3.5-flash",
   "segments": [
     {
@@ -194,9 +194,23 @@
     {
       "id": 27,
       "type": "paragraph",
-      "sourceHash": "a0ea87775b3a1a13da60ae61a67b8727c56f0faf564943ca99c5bdc87974dd58",
-      "enMarkdown": "This is an open problem in the sense that I have wondered about it for years and still don't know the answer. Prefix syntax seems perfectly natural to me, except possibly for math. But it could be that a lot of Lisp's unpopularity is simply due to having an unfamiliar syntax. Whether to do anything about it, if it is true, is another question.  **3. What Do You Need for Server-Based Software?**  I think a lot of the most exciting new applications that get written in the next twenty years will be Web-based applications, meaning programs that sit on the server and talk to you through a Web browser. And to write these kinds of programs we may need some new things.",
-      "zhMarkdown": "这是一个悬而未决的问题，因为我已经琢磨了多年，却依然没有答案。前缀语法对我来说似乎非常自然，可能数学公式除外。但 Lisp 如此不受欢迎，很大程度上可能仅仅是因为它有一种人们不熟悉的语法。如果确实如此，是否要为此做点什么，则是另一个问题。  **3. 开发基于服务器的软件需要什么？**  我认为，在未来二十年里，写出来的许多最令人兴奋的新应用都将是基于 Web 的应用，也就是说，程序运行在服务器上，通过浏览器与你交互。为了编写这类程序，我们可能需要一些新的东西。"
+      "sourceHash": "c0b228e819a5d6d700e1693e3a7564a5096550521f0956dce68cf347df670ed4",
+      "enMarkdown": "This is an open problem in the sense that I have wondered about it for years and still don't know the answer. Prefix syntax seems perfectly natural to me, except possibly for math. But it could be that a lot of Lisp's unpopularity is simply due to having an unfamiliar syntax. Whether to do anything about it, if it is true, is another question.",
+      "zhMarkdown": "**2. 人们真的害怕前缀语法吗？**\n\n这是一个悬而未决的问题，因为我思考了多年，至今仍没有答案。对我来说，除了数学计算之外，前缀语法看起来非常自然。但 Lisp 的不流行，很可能很大程度上只是因为它有一种人们不熟悉的语法。如果是这样的话，是否需要为此做点什么，就是另一个问题了。"
+    },
+    {
+      "id": 68,
+      "type": "paragraph",
+      "sourceHash": "94035871727244448d0ff1178a31b68ee89a5b7d44af5a25cee43a17e42212e2",
+      "enMarkdown": "**3. What Do You Need for Server-Based Software?**",
+      "zhMarkdown": "**3. 编写基于服务器的软件需要什么？**"
+    },
+    {
+      "id": 69,
+      "type": "paragraph",
+      "sourceHash": "53d11123790429c737b7334520c6a9afd64d82fd8de03cd35e02f1e8a8d06946",
+      "enMarkdown": "I think a lot of the most exciting new applications that get written in the next twenty years will be Web-based applications, meaning programs that sit on the server and talk to you through a Web browser. And to write these kinds of programs we may need some new things.",
+      "zhMarkdown": "我认为未来二十年里，许多最令人兴奋的新应用都将是基于 Web 的应用，也就是说，程序运行在服务器上，通过网页浏览器与你交互。为了编写这类程序，我们可能需要一些新的东西。"
     },
     {
       "id": 28,

@@ -6,15 +6,22 @@
   "publishedAt": "2001-12-01",
   "sourceOrder": 217,
   "sourceUrl": "https://paulgraham.com/diff.html",
-  "translatedAt": "2026-07-08",
+  "translatedAt": "2026-07-10",
   "model": "gemini-3.5-flash",
   "segments": [
     {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "693e3b7fd0bdafa6cfab9a47c0be3e5abb5378ffcbf4763a2895e916ec572a4b",
+      "enMarkdown": "(rev. May 2002)",
+      "zhMarkdown": "（2002年5月修订）"
+    },
+    {
       "id": 1,
       "type": "paragraph",
-      "sourceHash": "86c7b528979ce5650ade73eb2d4781e7c9b45daab216757a44162bd6c20e784d",
-      "enMarkdown": "(rev. May 2002)  *(This article came about in response to some questions on\nthe LL1 mailing list.  It is now\nincorporated in Revenge of the Nerds.)*",
-      "zhMarkdown": "（2002年5月修订）*（本文是为了回应 LL1 邮件列表上的一些问题而写。现已并入《黑客与画家》中的《书呆子的复仇》一文。）*"
+      "sourceHash": "dee0a014a45d718ac7f30b3cb3741394ec00efebaef984e923530032b1583cf5",
+      "enMarkdown": "*(This article came about in response to some questions on\nthe LL1 mailing list.  It is now\nincorporated in Revenge of the Nerds.)*",
+      "zhMarkdown": "*(本文最初是为了回答 LL1 邮件列表上的一些问题而写。现在它已被收录在《黑客与画家》一书中的《书呆子的复仇》（Revenge of the Nerds）一文中。)*"
     },
     {
       "id": 2,
