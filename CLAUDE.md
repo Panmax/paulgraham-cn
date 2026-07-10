@@ -44,6 +44,10 @@ The whole design is **segment-level incremental translation**, and several non-o
 
 - **`rawUnsupported` segments are surfaced, not silently dropped.** The run summary lists them so a human can verify they aren't real body text before publishing.
 
+- **Writes are idempotent.** `article.translatedAt` is the run date, so writing unconditionally would rewrite every article on any day after the last run and make each look source-revised. `articleContentEqual` (all fields *except* `translatedAt`) gates the write; unchanged articles keep their original date on disk. `manifestArticlesEqual` does the same for `manifest.json`, ignoring `generatedAt`. A run against an unchanged source leaves the working tree clean. The summary reports which articles were `added`/`updated`.
+
+- **Failures make the process exit non-zero.** Per-article errors are caught and counted, not thrown, so `process.exitCode = exitCodeFor(totals.failed)` is what stops a partially failed run from looking successful.
+
 - **Manifest is always rebuilt from disk**, not from the run's results — so a `--only`/`--limit` run or a run with failures never drops other articles from the homepage index.
 
 ## Shared schema (shared/article-schema.ts)

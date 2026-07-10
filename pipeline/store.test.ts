@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { mkdtemp, rm, readFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { readArticle, readAllArticles, writeArticle, writeManifest } from "./store.js";
+import { readArticle, readAllArticles, writeArticle, writeManifest, articleContentEqual } from "./store.js";
 import type { Article, Manifest } from "../shared/article-schema.js";
 
 const article: Article = {
@@ -46,5 +46,33 @@ describe("store", () => {
     const raw = await readFile(join(base, "manifest.json"), "utf8");
     expect(raw.endsWith("\n")).toBe(true);
     expect(JSON.parse(raw)).toEqual(manifest);
+  });
+});
+
+describe("articleContentEqual", () => {
+  it("ignores translatedAt — a new run date is not a source revision", () => {
+    expect(articleContentEqual(article, { ...article, translatedAt: "2026-07-10" })).toBe(true);
+  });
+
+  it("detects a changed translation", () => {
+    const edited = { ...article, segments: [{ ...article.segments[0], zhMarkdown: "改了" }] };
+    expect(articleContentEqual(article, edited)).toBe(false);
+  });
+
+  it("detects a changed English source hash", () => {
+    const edited = { ...article, segments: [{ ...article.segments[0], sourceHash: "h2" }] };
+    expect(articleContentEqual(article, edited)).toBe(false);
+  });
+
+  it("detects added and removed segments", () => {
+    const extra = { ...article, segments: [...article.segments, { id: 2, type: "paragraph" as const, sourceHash: "h2" }] };
+    expect(articleContentEqual(article, extra)).toBe(false);
+    expect(articleContentEqual(extra, article)).toBe(false);
+  });
+
+  it("detects title and metadata changes", () => {
+    expect(articleContentEqual(article, { ...article, titleZh: "别的" })).toBe(false);
+    expect(articleContentEqual(article, { ...article, dateText: "July 2026" })).toBe(false);
+    expect(articleContentEqual(article, { ...article, sourceOrder: 3 })).toBe(false);
   });
 });
