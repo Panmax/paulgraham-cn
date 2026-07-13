@@ -1,10 +1,11 @@
 ---
-import { renderMarkdown } from "../lib/markdown.js";
+import { createMarkdownRenderer } from "../lib/markdown.js";
 import { classifySegment } from "../lib/segments.js";
 import type { Segment } from "../../shared/article-schema.js";
 
-interface Props { segments: Segment[] }
-const { segments } = Astro.props;
+interface Props { segments: Segment[]; translatedSlugs: string[] }
+const { segments, translatedSlugs } = Astro.props;
+const renderMarkdown = createMarkdownRenderer(new Set(translatedSlugs));
 
 const rendered = await Promise.all(segments.map(async (s) => {
   const c = classifySegment(s);
