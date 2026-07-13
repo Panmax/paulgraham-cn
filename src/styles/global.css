@@ -7,14 +7,12 @@
 
 :root {
   --paper:#f7f4ec; --ink:#26221b; --muted:#71695b; --rule:#e0d9ca; --accent:#a1552f;
-  --highlight:#eadcc8;
   --measure:36rem;
   --zh:"PGCN Song","Noto Serif SC","Songti SC",serif;
   --en:"Newsreader",Georgia,serif;
 }
 :root[data-theme="dark"] {
   --paper:#1c1a16; --ink:#e7e1d4; --muted:#a89f8e; --rule:#332f27; --accent:#d08a5e;
-  --highlight:#4a3527;
 }
 * { box-sizing:border-box; }
 html { font-size:18px; }
@@ -61,8 +59,7 @@ button#read-toggle[aria-pressed="true"] { border-color:var(--accent); color:var(
 .article-body a { color:var(--accent); text-decoration-line:underline;
   text-decoration-thickness:.07em; text-underline-offset:.18em; }
 .article-body a:hover { text-decoration-thickness:.12em; }
-.article-body em { font-style:normal; color:var(--ink); background:var(--highlight);
-  border-radius:2px; padding:0 .08em; -webkit-box-decoration-break:clone; box-decoration-break:clone; }
+.article-body em { font-style:normal; color:var(--accent); text-decoration:none; }
 .seg-zh blockquote, .seg--original blockquote { margin:1rem 0 1rem 1.4rem; padding-left:1rem;
   border-left:2px solid var(--rule); color:var(--muted); font-style:italic; }
 .seg-zh blockquote p, .seg--original blockquote p { text-indent:0; }
