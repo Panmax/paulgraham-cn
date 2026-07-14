@@ -13,6 +13,14 @@ export type AssembleStats = {
 // Title carries id 0 in the translation context (never collides with body ids ≥ 1).
 const TITLE_ID = 0;
 
+// Titles are rendered as plain text inside the page's <h1>. Translation models
+// occasionally format them as Markdown headings, which would make the leading
+// `#` visible. Normalize both new translations and reused stored titles so old
+// data is repaired on the next pipeline run as well.
+export function normalizeTitle(title: string): string {
+  return title.trim().replace(/^#{1,6}\s+/, "");
+}
+
 export async function assembleArticle(params: {
   listEntry: ListEntry;
   parsed: ParsedArticle;
@@ -38,7 +46,7 @@ export async function assembleArticle(params: {
 
   // Title: reuse if unchanged, else translate via id 0.
   const titleUnchanged = existing && existing.titleEn === parsed.titleEn && existing.titleZh;
-  let titleZh = titleUnchanged ? existing!.titleZh : "";
+  let titleZh = titleUnchanged ? normalizeTitle(existing!.titleZh) : "";
 
   const titleContext = { id: TITLE_ID, enMarkdown: parsed.titleEn };
   const fullContext = [titleContext, ...context];
@@ -48,7 +56,7 @@ export async function assembleArticle(params: {
   if (requestIds.length > 0) {
     const results = await translateSegments(translator, fullContext, requestIds);
     const byId = new Map(results.map((r) => [r.id, r.zhMarkdown]));
-    if (!titleUnchanged && byId.has(TITLE_ID)) titleZh = byId.get(TITLE_ID)!;
+    if (!titleUnchanged && byId.has(TITLE_ID)) titleZh = normalizeTitle(byId.get(TITLE_ID)!);
     for (const s of segments) {
       if (byId.has(s.id)) s.zhMarkdown = byId.get(s.id);
     }

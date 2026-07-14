@@ -7,6 +7,7 @@ describe("prompt builders", () => {
     expect(p).toMatch(/信达雅|信、达、雅/);
     expect(p).toMatch(/创业公司|黑客/); // at least one glossary term rendered
     expect(p).toMatch(/zhMarkdown/); // output contract stated
+    expect(p).toMatch(/id 0.*标题.*不得添加 #/s);
   });
 
   it("user payload includes full context and the ids to translate", () => {

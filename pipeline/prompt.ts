@@ -18,6 +18,7 @@ ${terms}
 - 保留 Markdown 行内链接，URL 原样不动，例如 [text](https://paulgraham.com/foo.html)。
 - 绝对不要新增原文没有的链接。若原文只是以纯文字提到某篇文章、某本书或某个网站（没有写成链接），译文也必须保持纯文字，不得自作主张加上 [](...) 链接。译文中的链接集合必须与原文完全一致。
 - 保留所有数字与专有名词。
+- id 0 是文章标题，必须只返回标题文字，不得添加 #、引号或其他 Markdown 块级标记。
 - 你会收到整篇文章作为上下文（context），但只需翻译 translateIds 指定的段落。
 - 只返回 JSON：{ "segments": [{ "id": <number>, "zhMarkdown": "<译文>" }] }，
   且仅包含 translateIds 中的 id，数量与之完全一致。`;
