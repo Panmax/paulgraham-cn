@@ -8,6 +8,8 @@ describe("prompt builders", () => {
     expect(p).toMatch(/创业公司|黑客/); // at least one glossary term rendered
     expect(p).toMatch(/zhMarkdown/); // output contract stated
     expect(p).toMatch(/id 0.*标题.*不得添加 #/s);
+    expect(p).toMatch(/不得在括号中重复完整英文原标题/);
+    expect(p).toMatch(/专有名词.*可以保留英文/);
   });
 
   it("user payload includes full context and the ids to translate", () => {
