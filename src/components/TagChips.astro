@@ -9,11 +9,14 @@ interface Props {
 }
 const { ids, current } = Astro.props;
 const list = ids ? TAGS.filter((t) => ids.includes(t.id)) : TAGS;
+// The active chip links back to the full index, so clicking it again clears
+// the filter without any JavaScript.
+const hrefFor = (id: string) => (id === current ? "/" : `/tag/${id}`);
 ---
 {list.length > 0 && (
   <nav class="tag-chips" aria-label="按主题浏览">
     {list.map((t) => (
-      <a class="tag-chip" href={`/tag/${t.id}`} title={t.en}
+      <a class="tag-chip" href={hrefFor(t.id)} title={t.en}
         aria-current={t.id === current ? "page" : undefined}>{t.zh}</a>
     ))}
   </nav>

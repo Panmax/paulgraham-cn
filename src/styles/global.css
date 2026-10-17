@@ -90,9 +90,20 @@ body[data-read="bilingual"] .seg-en { display:block; margin-top:.4rem; }
 .home-mast { text-align:center; margin-bottom:2.5rem; }
 .home-mast h1 { font-family:var(--zh); font-weight:700; font-size:1.9rem; margin:0; }
 .home-sub { font-family:var(--en); font-style:italic; color:var(--muted); margin:.5rem 0 1.4rem; }
-.home-search input { font:inherit; font-family:var(--zh); width:min(22rem,100%); text-align:center;
-  padding:.55rem 1rem; border:1px solid var(--rule); border-radius:22px; background:transparent; color:var(--ink); }
-.home-search input:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+/* The search sits between the masthead and the list, so it owns the gap below
+   itself — the masthead's margin only separates it from the header above. */
+.home-search { display:block; text-align:center; margin-bottom:2.5rem; }
+/* line-height is explicit: `font:inherit` would hand the input the body's 2.0,
+   which makes the field ~58px tall for 17px text. Radius matches the site's
+   buttons (6px) rather than being its own pill. */
+.home-search input { font:inherit; font-family:var(--zh); font-size:.95rem; line-height:1.6;
+  width:min(20rem,100%); text-align:center; padding:.4rem .9rem;
+  border:1px solid var(--rule); border-radius:6px; background:transparent; color:var(--ink);
+  transition:border-color .15s ease; }
+.home-search input::placeholder { color:var(--muted); }
+.home-search input:hover { border-color:var(--muted); }
+.home-search input:focus-visible { outline:2px solid var(--accent); outline-offset:2px;
+  border-color:var(--accent); }
 .home-empty { text-align:center; color:var(--muted); }
 .yr-group { display:grid; grid-template-columns:5rem 1fr; gap:0 1.25rem; margin-bottom:1.5rem; }
 .yr { font-family:var(--en); font-weight:600; font-size:1.5rem; color:var(--accent); padding-top:.8rem; }
