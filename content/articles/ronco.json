@@ -4,17 +4,17 @@
   "titleZh": "朗科定律",
   "dateText": "January 2015",
   "publishedAt": "2015-01-01",
-  "sourceOrder": 69,
+  "sourceOrder": 71,
   "sourceUrl": "https://paulgraham.com/ronco.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "52d8a905da0a3435c6a81844a27903f6ad03fd1778aa25df70872e09cb23d00a",
       "enMarkdown": "No one, VC or angel, has invested in more of the top startups than Ron Conway. He knows what happened in every deal in the Valley, half the time because he arranged it.",
-      "zhMarkdown": "在顶尖创业公司中，不论是风险投资还是天使投资人，没有谁投的项目比朗·康威（Ron Conway，昵称 Ronco）还要多。硅谷的每一笔交易，他都对内情了如指掌——甚至有一半的交易本就是他一手促成的。"
+      "zhMarkdown": "无论是风投还是天使投资人，投资顶尖创业公司的数量都没人能比得上罗恩·康韦（Ron Conway）。硅谷每笔交易的内情他都一清二楚，往往有一半就是由他一手牵线促成的。"
     },
     {
       "id": 2,

@@ -4,10 +4,10 @@
   "titleZh": "网络喷子",
   "dateText": "February 2008",
   "publishedAt": "2008-02-01",
-  "sourceOrder": 143,
+  "sourceOrder": 145,
   "sourceUrl": "https://paulgraham.com/trolls.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -19,9 +19,9 @@
     {
       "id": 2,
       "type": "quote",
-      "sourceHash": "5e74edc3cbba8193433d04293a916c54b230ee615f3e7f9bc6773ecfd268d990",
-      "enMarkdown": "> Something about hacker culture that never really set well with me was this � the nastiness. ... I just don't understand why people troll like they do.",
-      "zhMarkdown": "> 黑客文化中一直有些让我感到不舒服的东西——那就是恶意。……我实在无法理解，为什么人们会像那样在网上当喷子。"
+      "sourceHash": "69ce55cb30e8727ef9b5f7212fe988ade988dba0e27cb23850fc8d4b0f85c75d",
+      "enMarkdown": "> Something about hacker culture that never really set well with me was this — the nastiness. ... I just don't understand why people troll like they do.",
+      "zhMarkdown": "> 黑客文化中一直让我不太适应的，就是这一点——那种刻薄恶毒。……我实在搞不懂为什么人们要像那样去当网络喷子。"
     },
     {
       "id": 3,
@@ -47,9 +47,9 @@
     {
       "id": 6,
       "type": "paragraph",
-      "sourceHash": "c7610ea4d6413aa19a36121024492224869d506d67f96a0824730850456d4f6d",
-      "enMarkdown": "I think trolling in the broader sense has four causes. The most important is distance. People will say things in anonymous forums that they'd never dare say to someone's face, just as they'll do things in cars that they'd never do as pedestrians � like tailgate people, or honk at them, or cut them off.",
-      "zhMarkdown": "我认为广义上的喷子行径有四个成因。最主要的原因是距离感。人们会在匿名的论坛里说出他们面对面时绝不敢说的话，就像人们在开车时会做出他们当行人时绝不会做的事一样——比如紧跟前车、狂按喇叭或强行插车。"
+      "sourceHash": "ac685f724ec03a18d1cd11bb9f440c0ee171bb8b723da62451b668bd75b12fb9",
+      "enMarkdown": "I think trolling in the broader sense has four causes. The most important is distance. People will say things in anonymous forums that they'd never dare say to someone's face, just as they'll do things in cars that they'd never do as pedestrians — like tailgate people, or honk at them, or cut them off.",
+      "zhMarkdown": "我认为广义上的网络喷子行为有四个成因。最主要的成因是距离感。人们在匿名论坛里会说出当面绝对不敢说的话，就像人们在车里会做出当行人时绝不会做的事一样——比如紧贴前车尾随、狂按喇叭，或是强行超车加塞。"
     },
     {
       "id": 7,
@@ -70,7 +70,7 @@
       "type": "paragraph",
       "sourceHash": "c75dd26a05757332ac9640eafccdf6714eab0664a4ccaf5b723261145d9f69ec",
       "enMarkdown": "The final contributing factor is the culture of the forum. Trolls are like children (many *are* children) in that they're capable of a wide range of behavior depending on what they think will be tolerated. In a place where rudeness isn't tolerated, most can be polite. But vice versa as well.",
-      "zhMarkdown": "最后一个起推波助澜作用的因素是论坛的文化。喷子就像小孩子（许多人确实还是孩子），他们的行为边界取决于他们认为什么能被容忍。在一个不容忍粗鲁行为的地方，大多数人都能保持礼貌。反之亦然。"
+      "zhMarkdown": "最后一个诱因是论坛的文化。网络喷子很像小孩子（很多*本来就是*小孩子），因为他们的行为尺度完全取决于他们认为论坛能容忍什么。在一个不容忍粗鲁言行的地方，大多数人都能表现得彬彬有礼。但反过来也是一样。"
     },
     {
       "id": 10,

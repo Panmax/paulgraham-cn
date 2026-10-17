@@ -4,10 +4,10 @@
   "titleZh": "如何说服投资人",
   "dateText": "August 2013",
   "publishedAt": "2013-08-01",
-  "sourceOrder": 79,
+  "sourceOrder": 81,
   "sourceUrl": "https://paulgraham.com/convince.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -231,7 +231,7 @@
       "type": "paragraph",
       "sourceHash": "bf323b7debe56567379e286f7c14979324c8778aa90f9f833032b9373e71dd4c",
       "enMarkdown": "If you can make as good a case as Microsoft could have, will you convince investors? Not always. A lot of VCs would have rejected Microsoft. [[9](#f9n)] Certainly some rejected Google. And getting rejected will put you in a slightly awkward position, because as you'll see when you start fundraising, the most common question you'll get from investors will be \"who else is investing?\" What do you say if you've been fundraising for a while and no one has committed yet? [[10](#f10n)]",
-      "zhMarkdown": "如果你能讲出和当年微软一样好的故事，你就一定能说服投资人吗？并不尽然。当年会有很多风险投资人拒绝微软。[[9](#f9n)] 毫无疑问，也有人拒绝过谷歌。被拒绝会让你处于一个稍微尴尬的境地，因为当你开始融资时，你会发现投资人最常问的问题是“还有谁在投？”如果你融资了一段时间，却还没有任何人领投，你该怎么回答？[[10](#f10n)]"
+      "zhMarkdown": "如果你能给出和当年的微软一样有力的论据，就能说服投资者吗？未必。很多风投当年照样会拒绝微软。[[9](#f9n)] 实际上也确实有风投拒绝过 Google。而被拒绝会让你陷入有点尴尬的境地，因为当你开始融资时就会发现，投资者最常问的问题就是“还有谁在投？”要是你已经融了一段时间，却还没有任何人敲定投资，你该怎么回答？[[10](#f10n)]"
     },
     {
       "id": 33,

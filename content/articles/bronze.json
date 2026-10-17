@@ -4,10 +4,10 @@
   "titleZh": "为什么聪明人也会有糟糕的创意",
   "dateText": "April 2005",
   "publishedAt": "2005-04-01",
-  "sourceOrder": 185,
+  "sourceOrder": 187,
   "sourceUrl": "https://paulgraham.com/bronze.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "b5f150005ca3f8aeaa3467eb9ac5db607415e8413dddf3763d4b20086cc6d5aa",
       "enMarkdown": "Besides which, art dealers are the most technophobic people on earth. They didn't become art dealers after a difficult choice between that and a career in the hard sciences. Most of them had never seen the Web before we came to tell them why they should be on it. Some didn't even have computers. It doesn't do justice to the situation to describe it as a hard *sell*; we soon sank to building sites for free, and it was hard to convince galleries even to do that.",
-      "zhMarkdown": "除此以外，艺术商是地球上最排斥技术的人群。他们并不是在艺术商和硬科学职业之间做出艰难抉择后才成为艺术商的。在我们去告诉他们为什么要上网之前，他们大多数人甚至连网页都没见过。有些人甚至连电脑都没有。用“推销困难”来形容当时的情况都有些轻描淡写了；我们很快就沦落到免费帮他们建网站的地步，可即便如此，也很难说服画廊接受。"
+      "zhMarkdown": "此外，艺术品画商可以说是地球上最惧怕技术的人了。他们入这行，可不是在艺术和硬核理工科之间艰难抉择的结果。在我们找上门向他们解释为什么要上网之前，他们大多数人连万维网都没见过。有些人甚至连电脑都没有。用难以*推销*来形容当时的局面简直太客气了；我们很快就沦落到免费帮他们做网站的地步，可即便如此，依然很难说服画廊接受。"
     },
     {
       "id": 8,
@@ -196,7 +196,7 @@
       "type": "paragraph",
       "sourceHash": "754a585aa84e31d98d46c44c758628659fe183585c6a35716a9b48f2eb15c70e",
       "enMarkdown": "When I probe our motives with Artix, I see a third mistake: timidity. If you'd proposed at the time that we go into the e-commerce business, we'd have found the idea terrifying. Surely a field like that would be dominated by fearsome startups with five million dollars of VC money each. Whereas we felt pretty sure that we could hold our own in the slightly less competitive business of generating Web sites for art galleries.",
-      "zhMarkdown": "当我剖析我们做 Artix 的动机时，我看到了第三个错误：胆怯。如果当时你提议我们去做电子商务，我们会觉得这个想法太可怕了。像那样的领域，肯定会被那些各自拥有 500 万美元风险投资的、可怕的创业公司所主宰。而我们觉得，在为艺术画廊建网站这个竞争稍微没那么激烈的行业里，我们应该能够立足。"
+      "zhMarkdown": "当我审视我们做 Artix 时的动机，我发现了第三个错误：胆怯。如果当时有人建议我们去做电子商务，我们肯定会觉得这太吓人了。那种领域肯定全是手握五百万美元风投资金、令人望而生畏的创业公司。相比之下，在给艺术画廊建网站这种竞争没那么激烈的行当里，我们倒觉得自己十拿九稳能站稳脚跟。"
     },
     {
       "id": 28,
@@ -252,7 +252,7 @@
       "type": "paragraph",
       "sourceHash": "b2409d959f8e68bc45c31e1745dd7386e386677457a66beea74f46e35f36d444",
       "enMarkdown": "Reading the *Wall Street Journal* for a week should give anyone ideas for two or three new startups. The articles are full of descriptions of problems that need to be solved. But most of the applicants don't seem to have looked far for ideas.",
-      "zhMarkdown": "读一个星期的《华尔街日报》，应该能给任何人带来两三个新创业公司的创意。文章里到处都是对需要解决的问题的描述。但大多数申请人似乎并没有把目光投向太远去寻找创意。"
+      "zhMarkdown": "读上一周《*华尔街日报*》，任何人都能想出两三个做创业公司的新点子。报上的文章到处都在描述各种亟待解决的问题。但大多数申请人找点子时，似乎根本没放眼向外看过。"
     },
     {
       "id": 36,

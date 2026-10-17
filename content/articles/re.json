@@ -4,10 +4,10 @@
   "titleZh": "重新碎片化",
   "dateText": "January 2016",
   "publishedAt": "2016-01-01",
-  "sourceOrder": 61,
+  "sourceOrder": 63,
   "sourceUrl": "https://paulgraham.com/re.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -462,7 +462,7 @@
       "type": "paragraph",
       "sourceHash": "87a1a34860c396f4e81c8d907127bc220b9642b140cc4af6b0cc177039924d7c",
       "enMarkdown": "(Oddly enough, the American custom of having employers pay for health insurance derives from efforts by businesses to circumvent NWLB wage controls in order to attract workers.)",
-      "zhMarkdown": ""
+      "zhMarkdown": "（说来奇怪，美国由雇主承担医疗保险的习俗，最初正源于企业为了吸引劳动力而绕开国家战时劳工委员会工资管制的手段。）"
     },
     {
       "id": 66,
@@ -476,7 +476,7 @@
       "type": "paragraph",
       "sourceHash": "46b30388f173c4cf5801ee8ca583f639e949299ba7ce6135bd6cd5bc9c9cc2af",
       "enMarkdown": "After the war, federal tax receipts as a percentage of GDP were about the same as they are now. In fact, for the entire period since the war, tax receipts have stayed close to 18% of GDP, despite dramatic changes in tax rates. The lowest point occurred when marginal income tax rates were highest: 14.1% in 1950. Looking at the data, it's hard to avoid the conclusion that tax rates have had little effect on what people actually paid.",
-      "zhMarkdown": ""
+      "zhMarkdown": "战后，联邦税收占 GDP 的比例与如今大致相当。事实上，自二战以来的整个时期内，尽管税率经历了剧烈变动，税收收入始终稳定在 GDP 的 18% 左右。其最低点反倒出现在边际所得税率最高的时候：1950 年的 14.1%。纵观这些数据，很难不让人得出一个结论：税率对人们实际缴纳的税额几乎没有造成太大影响。"
     },
     {
       "id": 68,
@@ -588,7 +588,7 @@
       "type": "paragraph",
       "sourceHash": "7f145bff5f2254de3798efd1a2f4cab9b29f4bd9761d3767be1a890586745d66",
       "enMarkdown": "Incidentally, the switch in the 1920s to financing growth with retained earnings was one cause of the 1929 crash. The banks now had to find someone else to lend to, so they made more margin loans.",
-      "zhMarkdown": ""
+      "zhMarkdown": "顺便提一句，20 世纪 20 年代转向用留存收益支持增长，也是导致 1929 年崩盘的原因之一。银行当时必须寻找新的放贷对象，于是发放了更多保证金贷款。"
     },
     {
       "id": 84,
@@ -602,7 +602,7 @@
       "type": "paragraph",
       "sourceHash": "1f40b5a4da928cc5fe306b893236dcf71a7f0f3aa78f5321192623ed1754db1c",
       "enMarkdown": "[16] Founders weren't celebrated in the press when I was a kid. \"Our founder\" meant a photograph of a severe-looking man with a walrus mustache and a wing collar who had died decades ago. The thing to be when I was a kid was an *executive*. If you weren't around then it's hard to grasp the cachet that term had. The fancy version of everything was called the \"executive\" model.",
-      "zhMarkdown": "[16] 在我小时候，媒体并不歌颂创始人。“我们的创始人”意味着一张照片，照片上是一位神情严肃、留着海象胡须、戴着翼状衣领的男人，他早在几十年前就去世了。在我小时候，最风光的职业是做一名“高管”（executive）。如果你当时不在场，很难理解这个词在当时所带有的光环。任何东西的奢华版本都被称为“行政”（executive）款。"
+      "zhMarkdown": "在我小时候，媒体根本不会推崇什么创始人。所谓“我们的创始人”，指的不过是一张照片：一个留着浓密海象胡、穿着翼领衬衫、神情严肃的男人，而且早在几十年前就已经过世了。在我小时候，大家真正向往的是成为一名*高管*。如果你没经历过那个年代，很难体会这个词当时带有多大的光环。任何东西只要是高端版本，都会被冠以“高管”款的名头。"
     },
     {
       "id": 86,
@@ -630,7 +630,7 @@
       "type": "paragraph",
       "sourceHash": "533776a6bf8e2984a404c41f91f09e4faa34542eec8827de79a258149543db32",
       "enMarkdown": "Merely including Steve in the sample might be enough to answer the question of whether public company CEOs in the aggregate are overpaid. And that is not as facile a trick as it might seem, because the broader your holdings, the more the aggregate is what you care about.",
-      "zhMarkdown": ""
+      "zhMarkdown": "仅仅把乔布斯纳入样本，或许就足以回答上市公司 CEO 整体上是否薪酬过高的问题。这并不像表面看起来那么像投机取巧的把戏，因为你持有的资产组合越广泛，你真正在乎的就越是整体表现。"
     },
     {
       "id": 90,
@@ -658,7 +658,7 @@
       "type": "paragraph",
       "sourceHash": "464ba7e50d5541800ecf60e9c67e3c4fe89d8f50759cae19308dcc57b1d5117a",
       "enMarkdown": "But becoming a Texas oilman was not in 1950 something one could aspire to the way starting a startup or going to work on Wall Street were in 2000, because (a) there was a strong local component and (b) success depended so much on luck.",
-      "zhMarkdown": ""
+      "zhMarkdown": "但在 1950 年，成为得克萨斯石油大亨并不是人们会去追求的人生目标——不像 2000 年人们向往创办创业公司或进入华尔街那样——因为（a）它具有极强的地域局限性，且（b）成功很大程度上取决于运气。"
     },
     {
       "id": 94,

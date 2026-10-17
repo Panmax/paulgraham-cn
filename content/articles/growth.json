@@ -4,10 +4,10 @@
   "titleZh": "创业公司 = 增长",
   "dateText": "September 2012",
   "publishedAt": "2012-09-01",
-  "sourceOrder": 84,
+  "sourceOrder": 86,
   "sourceUrl": "https://paulgraham.com/growth.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -384,7 +384,7 @@
       "type": "paragraph",
       "sourceHash": "45d5de08c9a4743d900d6a58f0bafe33a119617740c123ac3dc8b056491bdf06",
       "enMarkdown": "The test of any investment is the ratio of return to risk. Startups pass that test because although they're appallingly risky, the returns when they do succeed are so high. But that's not the only reason investors like startups. An ordinary slower-growing business might have just as good a ratio of return to risk, if both were lower. So why are VCs interested only in high-growth companies? The reason is that they get paid by getting their capital back, ideally after the startup IPOs, or failing that when it's acquired.",
-      "zhMarkdown": "衡量任何投资的标准都是回报与风险的比例。创业公司通过了这一测试，因为尽管它们风险高得惊人，但一旦成功，回报也高得惊人。但这并不是投资者喜欢创业公司的唯一原因。如果回报和风险都更低，一家增长较慢的普通企业也可能有同样好的回报风险比。那么，为什么风险投资人只对高增长的公司感兴趣呢？原因在于，他们是通过收回资本来获得回报的，理想的情况是在创业公司 IPO 之后，或者退一步，在它被收购时。"
+      "zhMarkdown": "衡量任何投资的标准都是收益与风险之比。创业公司能经受住这项检验，是因为尽管它们的风险高得吓人，但一旦成功，回报也极其丰厚。但这并不是投资人青睐创业公司的唯一原因。一家增长较慢的普通企业，如果风险和收益都更低，其收益风险比可能也同样出色。那么，为什么风投只对高增长公司感兴趣？原因在于他们是通过收回资本来获利的——最理想的情况是在创业公司上市后，退而求其次则是在被收购时。"
     },
     {
       "id": 55,

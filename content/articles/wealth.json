@@ -4,10 +4,10 @@
   "titleZh": "如何创造财富",
   "dateText": "May 2004",
   "publishedAt": "2004-05-01",
-  "sourceOrder": 201,
+  "sourceOrder": 203,
   "sourceUrl": "https://paulgraham.com/wealth.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -518,7 +518,7 @@
       "type": "paragraph",
       "sourceHash": "aefd72818c70aeed9c75dee6dfec564c93a24f73cbbb127d245227f8b552583e",
       "enMarkdown": "But the real advantage of the ten-man boat shows when you take the ten *best* rowers out of the big galley and put them in a boat together. They will have all the extra motivation that comes from being in a small group. But more importantly, by selecting that small a group you can get the best rowers. Each one will be in the top 1%. It's a much better deal for them to average their work together with a small group of their peers than to average it with everyone.",
-      "zhMarkdown": "但当你把大船上最好的十个桨手挑出来放在同一条船上时，十人船的真正优势才显现出来。他们将拥有身处小团队带来的所有额外动力。但更重要的是，通过挑选如此小的群体，你可以得到最好的桨手。每一个都将处于前 1%。对他们来说，将自己的工作与一小群同行平均在一起，比与所有人平均在一起，是一笔划算得多的交易。"
+      "zhMarkdown": "但是，只有当你把大划桨船上十个*最优秀*的桨手挑出来，放在同一条小船上时，十人小船的真正优势才会体现出来。身处小团队所带来的额外动力，他们全都具备。但更重要的是，团队规模如此之小，你完全可以只选拔顶尖的桨手。每个人都排在前1%。对他们来说，将自己的工作成果与一小群同水平的伙伴均摊，远比与所有人均摊划算得多。"
     },
     {
       "id": 74,
@@ -609,7 +609,7 @@
       "type": "paragraph",
       "sourceHash": "f009ad59f222ba764fd01b62108434e742c42a83ee495daa15db3645ff16d0c6",
       "enMarkdown": "This is not just a good way to run a startup. It's what a startup is. Venture capitalists know about this and have a phrase for it: *barriers to entry.* If you go to a VC with a new idea and ask him to invest in it, one of the first things he'll ask is, how hard would this be for someone else to develop? That is, how much difficult ground have you put between yourself and potential pursuers? [[7](#f7n)] And you had better have a convincing explanation of why your technology would be hard to duplicate. Otherwise as soon as some big company becomes aware of it, they'll make their own, and with their brand name, capital, and distribution clout, they'll take away your market overnight. You'd be like guerillas caught in the open field by regular army forces.",
-      "zhMarkdown": "这不仅仅是运营创业公司的好方法。这就是创业公司本身。风险投资人了解这一点，并为此发明了一个词：*准入门槛*。如果你带着一个新创意去找风险投资人并要求他投资，他最先问的问题之一将是，其他人开发这个有多难？也就是说，你在自己和潜在追随者之间设置了多少困难的障碍？[[7](#f7n)] 你最好对为什么你的技术难以复制有一个令人信服的解释。否则，一旦某家大公司意识到这一点，他们就会自己做一个，并凭借其品牌、资金和渠道优势，在一夜之间夺走你的市场。你就会像在开阔地带被正规军包围的游击队一样。"
+      "zhMarkdown": "这不仅是经营创业公司的好方法，它本身就是创业公司的本质。风险投资人深谙此道，他们有一个专门的说法：*进入壁垒*。如果你带着一个新点子去找风投求投资，他最先问的问题之一通常就是：别人要想做出这个来有多难？换句话说，你在自己和潜在的追赶者之间，到底拉开了多大一道险阻？[[7](#f7n)] 你最好能给出一个令人信服的解释，说明为什么你的技术难以被复制。否则，大公司一旦察觉，就会做个一模一样的，并凭借自身的品牌声望、雄厚资本和渠道影响力，在一夜之间抢走你的市场。那你就会落得像被正规军堵在开阔平原上的游击队一样的下场。"
     },
     {
       "id": 87,
@@ -756,7 +756,7 @@
       "type": "paragraph",
       "sourceHash": "9dbb901b540cb87180cee9eaa628eaaeb6397e843bc8545669a5e2d0deecdd01",
       "enMarkdown": "Among other things, treating a startup as an optimization problem will help you avoid another pitfall that VCs worry about, and rightly-- taking a long time to develop a product. Now we can recognize this as something hackers already know to avoid: premature optimization. Get a version 1.0 out there as soon as you can. Until you have some users to measure, you're optimizing based on guesses.",
-      "zhMarkdown": "除其他外，将创业公司视为优化问题将有助于你避免风险投资人所担心的另一个陷阱，而且确实如此——花很长时间开发产品。现在我们可以将其识别为黑客已经知道要避免的事情：过早优化。尽快推出 1.0 版本。在有一些用户进行衡量之前，你是在根据猜测进行优化。"
+      "zhMarkdown": "除此以外，把创业公司当作一个优化问题来对待，还能帮你避开风投所担心的另一个陷阱——而且他们担心得完全有道理——那就是花太长时间开发产品。现在我们可以看出，这正是黑客们早就懂得要极力避免的事：过早优化。尽快把 1.0 版本推出来。在你拥有真实用户可供衡量之前，你所有的优化不过是在凭空猜测。"
     },
     {
       "id": 108,
@@ -903,7 +903,7 @@
       "type": "paragraph",
       "sourceHash": "ebd9f9c299823462775735388796741fd8ea82536e93e655cb18ff58004376bf",
       "enMarkdown": "[3] Until recently even governments sometimes didn't grasp the distinction between money and wealth. Adam Smith (*Wealth of Nations*, v:i) mentions several that tried to preserve their \"wealth\" by forbidding the export of gold or silver. But having more of the medium of exchange would not make a country richer; if you have more money chasing the same amount of material wealth, the only result is higher prices.",
-      "zhMarkdown": "[3] 直到最近，甚至政府有时也无法理解金钱和财富之间的区别。亚当·斯密（《国富论》，v:i）提到过几个试图通过禁止金银出口来保留其“财富”的国家。但是拥有更多的交易媒介并不能让一个国家更富有。如果你有更多的钱追逐相同数量的物质财富，唯一的结果就是更高的价格。"
+      "zhMarkdown": "[3] 直到不久前，甚至连政府有时也分不清金钱与财富的区别。亚当·斯密（*Wealth of Nations*，v:i）提到过几个这样的政府，它们试图通过禁止金银出口来保住自己的“财富”。但拥有更多交易媒介并不能让一个国家更富有；如果有更多的钱去追逐等量的物质财富，唯一的结果就是物价上涨。"
     },
     {
       "id": 129,
@@ -952,7 +952,7 @@
       "type": "paragraph",
       "sourceHash": "ad6ccd82aad1db7e99e894429abe01174a409c04fdbca8523650f05472a82862",
       "enMarkdown": "[7] When VCs asked us how long it would take another startup to duplicate our software, we used to reply that they probably wouldn't be able to at all. I think this made us seem naive, or liars.",
-      "zhMarkdown": "[7] 当风险投资人问我们另一家创业公司需要多长时间才能复制我们的软件时，我们常常回答说他们可能根本无法复制。我认为这让我们看起来很幼稚，或者是骗子。"
+      "zhMarkdown": "[7] 当风投问我们需要多久另一家创业公司才能复制出我们的软件时，我们过去常常回答说他们可能根本做不出来。我觉得这让我们显得很天真，或者像是在撒谎。"
     },
     {
       "id": 136,

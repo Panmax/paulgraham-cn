@@ -4,10 +4,10 @@
   "titleZh": "好文章",
   "dateText": "May 2025",
   "publishedAt": "2025-05-01",
-  "sourceOrder": 7,
+  "sourceOrder": 9,
   "sourceUrl": "https://paulgraham.com/goodwriting.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "32bf2422b244c613852c659ba0e4a108ef665b762ea43807b85a9179a01f33a7",
       "enMarkdown": "So it is with writing. If you have to rewrite an awkward passage, you'll never do it in a way that makes it *less* true. You couldn't bear it, any more than gravity could bear things floating upward. So any change in the ideas has to be a change for the better.",
-      "zhMarkdown": "写作也是如此。如果你不得不重写一段别扭的文字，你绝不会把它改得“不那么正确”。你无法容忍这一点，就像重力无法容忍物体向上漂浮一样。因此，观点的任何改变都必然是向更好的方向改变。"
+      "zhMarkdown": "写作也是如此。如果你不得不重写一段别扭的文字，你绝不会把它改得*更不*真实。你容忍不了这种事，就像重力容忍不了物体向上飘一样。因此，思想上的任何改变，都必然是在变得更好。"
     },
     {
       "id": 9,

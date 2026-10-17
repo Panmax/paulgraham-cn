@@ -4,10 +4,10 @@
   "titleZh": "创作者的品味",
   "dateText": "February 2002",
   "publishedAt": "2002-02-01",
-  "sourceOrder": 215,
+  "sourceOrder": 217,
   "sourceUrl": "https://paulgraham.com/taste.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -17,10 +17,10 @@
       "zhMarkdown": "[](https://s.turbifycdn.com/aah/paulgraham/taste-for-makers-20.gif)"
     },
     {
-      "id": 3,
+      "id": 84,
       "type": "rawUnsupported",
-      "sourceHash": "0a341b6ec2dffd7505180f209dde199618269259509c71a06d4ee28060e8d7cd",
-      "enMarkdown": "\"...Copernicus' aesthetic objections to [equants] provided one essential motive for his rejection of the Ptolemaic system....\"- Thomas Kuhn, The Copernican Revolution\"All of us had been trained by Kelly Johnson and believed fanatically in his insistence that an airplane that looked beautiful would fly the same way.\"- Ben Rich, Skunk Works\"Beauty is the first test: there is no permanent place in this world for ugly mathematics.\"- G. H. Hardy, A Mathematician's Apology\n\"...Copernicus' aesthetic objections to [equants] provided one essential motive for his rejection of the Ptolemaic system....\"- Thomas Kuhn, The Copernican Revolution\"All of us had been trained by Kelly Johnson and believed fanatically in his insistence that an airplane that looked beautiful would fly the same way.\"- Ben Rich, Skunk Works\"Beauty is the first test: there is no permanent place in this world for ugly mathematics.\"- G. H. Hardy, A Mathematician's Apology"
+      "sourceHash": "593338abbee788880e04ba35f23a392b016f6ef552b91ecab10f47c73d52d489",
+      "enMarkdown": "\"...Copernicus' aesthetic objections to [equants] provided one essential motive for his rejection of the Ptolemaic system....\"- Thomas Kuhn, The Copernican Revolution\"All of us had been trained by Kelly Johnson and believed fanatically in his insistence that an airplane that looked beautiful would fly the same way.\"- Ben Rich, Skunk Works\"Beauty is the first test: there is no permanent place in this world for ugly mathematics.\"- G. H. Hardy, A Mathematician's Apology"
     },
     {
       "id": 4,
@@ -181,7 +181,7 @@
       "type": "paragraph",
       "sourceHash": "16c63be4ad65badd3820ba9318779340bcda3a97837fbef207a501d6966ee43f",
       "enMarkdown": "A lot of bad design is industrious, but misguided. In the mid twentieth century there was a vogue for setting text in sans-serif fonts. These fonts *are* closer to the pure, underlying letterforms. But in text that's not the problem you're trying to solve. For legibility it's more important that letters be easy to tell apart. It may look Victorian, but a Times Roman lowercase g is easy to tell from a lowercase y.",
-      "zhMarkdown": "许多糟糕的设计虽然费尽心思，却误入歧途。在20世纪中期，流行用无衬线字体排版正文。这些字体确实更接近纯粹、底层的字母形状。但在正文排版中，这并不是你试图解决的问题。为了便于阅读，更重要的是字母要容易区分。Times Roman 字体的小写字母 g 看起来可能有点维多利亚时代的陈旧感，但它很容易与小写字母 y 区分开来。"
+      "zhMarkdown": "很多糟糕的设计往往煞费苦心，却用错了地方。二十世纪中叶曾流行用无衬线字体排版正文。这些字体*确实*更接近纯粹、本质的字母形态。但对于正文排版来说，这并不是你要解决的问题。要保证易读性，更重要的是让字母容易区分。Times Roman 字体的小写字母 g 也许看起来很有维多利亚时代的气息，但它与小写字母 y 一眼就能区分开。"
     },
     {
       "id": 27,
@@ -342,7 +342,7 @@
       "type": "paragraph",
       "sourceHash": "03ee2dbba8e810f32ce98990e1fd106e8837c9034e5ab4f25a605c2189740e8b",
       "enMarkdown": "In writing you find symmetry at every level, from the phrases in a sentence to the plot of a novel. You find the same in music and art. Mosaics (and some Cezannes) get extra visual punch by making the whole picture out of the same atoms. Compositional symmetry yields some of the most memorable paintings, especially when two halves react to one another, as in the *Creation of Adam* or *American Gothic.*",
-      "zhMarkdown": "在写作中，你会在各个层面发现对称，从句子中的短语到小说的情节。在音乐和美术中也是如此。马赛克（以及塞尚的一些画作）通过用相同的元素构成整幅画面，获得了额外的视觉冲击力。构图上的对称产生了一些最令人难忘的画作，尤其是当两半部分相互呼应时，比如《创造亚当》或《美国哥特式》。"
+      "zhMarkdown": "在写作中，你能在各个层面上发现对称，从一句话里的短语搭配到整部小说的情节结构。在音乐和艺术中也是如此。马赛克镶嵌画（以及塞尚的一些画作）通过用相同的微观基本单元构成整幅画面，获得了格外的视觉冲击力。构图上的对称孕育出了一些最令人难忘的绘画，尤其是当画面的两半相互呼应时，比如《*创造亚当*》或《*美国哥特式*》。"
     },
     {
       "id": 50,
@@ -454,7 +454,7 @@
       "type": "paragraph",
       "sourceHash": "cf723e7f22eb40c496362669792faa0f41680f9843a45c89fda494ac87c2dd05",
       "enMarkdown": "**Good design is often strange.** Some of the very best work has an uncanny quality: [Euler's \nFormula](http://mathworld.wolfram.com/EulerFormula.html), Bruegel's *Hunters in the Snow,* the [SR-71](https://paulgraham.com/sr71.html), [Lisp](https://paulgraham.com/rootsoflisp.html). They're not just beautiful, but strangely beautiful.",
-      "zhMarkdown": "**优秀的设计往往是奇特的。** 一些最顶尖的作品都带有一种不可思议的特质：[欧拉公式](http://mathworld.wolfram.com/EulerFormula.html)、勃鲁盖尔的《雪中猎人》、[SR-71黑鸟侦察机](https://paulgraham.com/sr71.html)、[Lisp](https://paulgraham.com/rootsoflisp.html)。它们不仅美丽，而且美得奇特。"
+      "zhMarkdown": "**好的设计往往略带奇异。** 一些最顶尖的作品都有一种不可思议的特质：[欧拉公式](http://mathworld.wolfram.com/EulerFormula.html)、勃鲁盖尔的《*雪中猎人*》、[SR-71](https://paulgraham.com/sr71.html)、[Lisp](https://paulgraham.com/rootsoflisp.html)。它们不仅美，而且美得奇异。"
     },
     {
       "id": 66,
@@ -510,7 +510,7 @@
       "type": "paragraph",
       "sourceHash": "24db0f30b7e402c7fa9d3b51d281a0f35b5570f4b2250084cc80d8c979bdc6a1",
       "enMarkdown": "Nothing is more powerful than a community of talented people working on related problems. Genes count for little by comparison: being a genetic Leonardo was not enough to compensate for having been born near Milan instead of Florence. Today we move around more, but great work still comes disproportionately from a few hotspots: the Bauhaus, the Manhattan Project, the *New Yorker,* Lockheed's Skunk Works, Xerox Parc.",
-      "zhMarkdown": "没有什么比一个由才华横溢的人组成的、致力于解决相关问题的群体更强大的了。相比之下，基因的作用微乎其微：即便拥有达芬奇级别的基因，也无法弥补出生在米兰附近而不是佛罗伦萨的劣势。今天我们的流动性更大了，但伟大的工作依然不成比例地来自少数几个热门地区：包豪斯、曼哈顿计划、《纽约客》、洛克希德的臭鼬工厂、施乐帕克研究中心（Xerox Parc）。"
+      "zhMarkdown": "没有什么比一个由才华横溢的人组成、共同攻克相关问题的群体更有威力了。相比之下，基因的作用微乎其微：即便你在基因上是达芬奇，也无法弥补你生在米兰附近而非佛罗伦萨的劣势。如今人们的流动性更强，但伟大的成果依然不成比例地集中涌现自少数几个中心：包豪斯、曼哈顿工程、《*纽约客*》、洛克希德臭鼬工厂、施乐帕克研究中心（Xerox Parc）。"
     },
     {
       "id": 74,

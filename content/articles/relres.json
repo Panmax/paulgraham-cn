@@ -4,10 +4,10 @@
   "titleZh": "不屈不挠，办法总比困难多",
   "dateText": "March 2009",
   "publishedAt": "2009-03-01",
-  "sourceOrder": 121,
+  "sourceOrder": 123,
   "sourceUrl": "https://paulgraham.com/relres.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -126,7 +126,7 @@
       "type": "paragraph",
       "sourceHash": "eba942c6525fb7cb5f7b4d63e86c2d3ebc9d388f6d1a11f9adfb6a75d3cefee4",
       "enMarkdown": "When I was living in Italy, I was once trying to tell someone that I hadn't had much success in doing something, but I couldn't think of the Italian word for success. I spent some time trying to describe the word I meant. Finally she said \"Ah! Fortuna!\"",
-      "zhMarkdown": ""
+      "zhMarkdown": "我在意大利生活时，有一次想跟人说自己在某件事上不太成功，但一时想不起意大利语里“成功”该怎么说。我费了番功夫去解释自己想表达的意思，最后她说：“啊！Fortuna！”"
     },
     {
       "id": 18,

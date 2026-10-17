@@ -4,10 +4,10 @@
   "titleZh": "1.0 版本",
   "dateText": "October 2004",
   "publishedAt": "2004-10-01",
-  "sourceOrder": 195,
+  "sourceOrder": 197,
   "sourceUrl": "https://paulgraham.com/laundry.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -238,7 +238,7 @@
       "type": "paragraph",
       "sourceHash": "fe2e6d4763ee984f30324d341373869eb4da5ad238585a96ba7b8c33820075fc",
       "enMarkdown": "So there's another difference between essays and the things you have to write in school. In school  you are, in theory, explaining yourself to someone else. In the best case---if you're really organized---you're just writing it *down.* In a real essay you're writing for yourself. You're thinking out loud.",
-      "zhMarkdown": "所以，文章与你在学校里必须写的那些东西还有另一个区别。在学校里，理论上你是在向别人解释你自己。在最好的情况下——如果你真的很有条理——你只是把它“记录”下来。而在真正的文章中，你是为自己而写。你是在大声地思考。"
+      "zhMarkdown": "这也是真正的文章与学校里逼你写的东西之间的又一处区别。在学校里，理论上你是在向别人解释自己的想法。在最理想的情况下——如果你思路极有条理——你不过是把它*写下来*。而在真正的文章里，你是在为自己而写。你是在大声思考。"
     },
     {
       "id": 34,

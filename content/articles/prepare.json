@@ -1,0 +1,307 @@
+{
+  "slug": "prepare",
+  "titleEn": "How Universities Should Prepare Founders",
+  "titleZh": "大学该如何培养创始人",
+  "dateText": "August 2026",
+  "publishedAt": "2026-08-01",
+  "sourceOrder": 4,
+  "sourceUrl": "https://paulgraham.com/prepare.html",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "87898433f4037f0e64909bc113f4963710e1720ba381f36610d0acd91634d87a",
+      "enMarkdown": "How should universities prepare students to start startups? Y Combinator is in the perfect position to answer this question, because we get them next. We're like grad school. And because YC has had 20 years to refine its model of what a promising founder looks like, you probably won't find a better target.",
+      "zhMarkdown": "大学应当如何帮助学生做好创业的准备？Y Combinator 最有资格回答这个问题，因为大学之后就是我们接手。我们就像是创业者的研究生院。而且二十年来，YC 一直在不断打磨自己识别人才的模型，对于什么样的人算是有潜力的创始人，恐怕没人比我们看得更准了。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "4f8f95d20b7882fb69186adf168cd96cf1eb2336f216692334a06740c189585b",
+      "enMarkdown": "What do the YC partners look for? It's surprisingly simple. They want people who are good at building things and have a habit of doing it.",
+      "zhMarkdown": "YC 的合伙人看重什么？答案出奇地简单：他们看重那些擅长动手做出东西，并且习惯于这么做的人。"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "70df80026f23d2074409c9c0dc10a6ecc822bdff2778b310977cb90d6ed847a2",
+      "enMarkdown": "The hard part of startups is product: knowing what to build, and being able to build it. And that kind of knowledge comes from studying computer science or mechanical engineering or molecular biology, not management or finance. [[1](#f1n)]",
+      "zhMarkdown": "创业最难的部分在于产品：知道该做什么，并且能够把它做出来。而这种能力来自计算机科学、机械工程或分子生物学等专业，而不是管理学或金融学。[[1](#f1n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "1dc3a48622e302729a521ec428ef0f8c853684260e9de846ae71699426c3ae3d",
+      "enMarkdown": "So the way to prepare undergraduates to become successful founders is not to give them some new curriculum focused on \"entrepreneurship\". It's to do what universities already do best — to teach them computer science and mechanical engineering and molecular biology. [[2](#f2n)]",
+      "zhMarkdown": "因此，培养本科生成为成功创始人的办法，并不是给他们开设什么专注于“创业”的新课程，而是把大学本身最擅长的事情做好——教好计算机科学、机械工程和分子生物学。[[2](#f2n)]"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "03179425bc8dd9b72d13875f2f7ff653924472bcd0ebcdcb5d0feaf3e949ff69",
+      "enMarkdown": "Indeed, preparing students to start startups is closer to the ideal of liberal education than preparing them for almost any other kind of career. Startups succeed or fail based on how much customers like the product. Customers don't care what the founders studied in college. So founders are free to study whatever they want, as long as they get good at building things.",
+      "zhMarkdown": "实际上，比起为其他几乎任何职业做准备，培养学生去创业反而更贴近博雅教育（通识教育）的理想。创业公司的成败取决于客户有多喜欢它的产品。客户根本不在乎创始人在大学里学过什么。所以，创始人完全可以自由选择学任何自己想学的东西，只要他们真正变得擅长动手做出东西。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "d9f1c3106bb5d4193679cecf64e00526a628ec0d784efd47205601dede0da710",
+      "enMarkdown": "But building should be understood in a very broad sense. It doesn't mean all would-be founders have to study some form of engineering. Almost any kind of expertise that could be described as building or creating could be useful. It was useful to Steve Jobs to have studied calligraphy, for example; it was one of the reasons Apple dominated desktop publishing. So while math and science and engineering and design tend to be good bets, I would not want to draw a sharp line around them, because I can imagine other forms of building that could be useful. And of course you don't have to major in something to be good at it. Mark Zuckerberg was good at programming, but he was a psychology major, not a CS major.",
+      "zhMarkdown": "不过，“动手造物”应当在非常宽泛的意义上来理解。这并不意味着所有未来的创始人都必须学习某种工程专业。几乎任何可以被称作建造或创造的专业知识，都可能派上用场。比如对史蒂夫·乔布斯而言，学过书法就大有益处；这也正是苹果后来能称霸桌面排版领域的原因之一。所以，尽管数学、科学、工程和设计往往是胜算更大的选择，但我并不想给它们划一道森严的界限，因为我可以想象其他形式的造物同样会很有用。而且你当然不需要非得主修某门学科才能精通它。马克·扎克伯格擅长编程，但他本科主修的是心理学，而不是计算机科学。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "a0c7eb0f88af916ca0e711ae90d28ef883a0fb66fb67d12604158cf2f99a048c",
+      "enMarkdown": "The best way to describe what would-be founders should study is that they should seek out powerful ideas. But smart people are naturally attracted to powerful ideas anyway. So as long as departments teaching powerful ideas exist, the sort of people who'd make good founders will find them. [[3](#f3n)]",
+      "zhMarkdown": "要想概括未来的创始人应该学些什么，最好的说法是：他们应该去追寻那些强大的思想（powerful ideas）。但聪明人本来就会自然而然地被强大的思想所吸引。因此，只要大学里还有传授强大思想的院系存在，那些适合做创始人的人就自会找到它们。[[3](#f3n)]"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "448f61d0c32c81f99669a824ee2906eab94e2b8eef37d00187990f5500219ef6",
+      "enMarkdown": "In fact there are only two things universities need to change to be perfect at preparing founders: they need to make students feel that starting a startup is something they can do, and they need to encourage them to work on their own [projects](https://paulgraham.com/own.html).",
+      "zhMarkdown": "事实上，大学要成为培养创始人的完美土壤，只需要做出两点改变：让学生觉得创业是自己触手可及的事，以及鼓励他们去折腾自己的[个人项目](https://paulgraham.com/own.html)。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "39053f0df16ab7d543578e823b27545e0489e52436c71cedb3cb4c8972120ddf",
+      "enMarkdown": "At the moment, the belief that it's possible to start a startup is very unevenly distributed. YC now gets so many applications that our application data is a reasonable proxy for interest in startups at different universities, and Harvard alumni, for example, apply at about twice the rate of Yale and Princeton alumni. Presumably Harvard students aren't that different from Yale and Princeton students; the reason Harvard students go on to start more startups is just that it's more customary there. Which in turn implies that merely by making their students feel that starting a startup is a viable option, Yale and Princeton could at least double the number who do.",
+      "zhMarkdown": "眼下，“创业切实可行”这一信念的分布极不均衡。YC 现在收到的申请实在太多了，以至于我们的申请数据完全可以充当衡量不同大学创业热情的可靠指标。举例来说，哈佛校友申请 YC 的比例大约是耶鲁和普林斯顿校友的两倍。想必哈佛学生和耶鲁、普林斯顿的学生并没有多大差别；哈佛学生后来创业更多的原因，纯粹是因为哈佛更有这种风气。这反过来意味着，耶鲁和普林斯顿只要能让自己的学生意识到创业是一个可行的选项，去创业的学生人数至少能翻上一番。"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "129d70e7efed42f1da91eb49c799d497db7acec26175b2f327de7689be54e592",
+      "enMarkdown": "Once a university has a culture of starting startups, you don't have to convince students that it's a viable option. New students learn that from older ones. But at a university that doesn't have much of a startup culture yet, there are things you can do to help this realization along. The most effective is probably to show students examples of people who've done it.",
+      "zhMarkdown": "一旦一所大学形成了创业文化，你根本不需要去说服学生这是一条可行的路，新生自然会向前辈学习。但在一所创业文化尚不浓厚的大学里，学校可以采取一些措施来推动这种认知的形成。其中最有效的办法，大概就是让学生亲眼看到那些已经走通这条路的同龄人榜样。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "3259d3630aec41eb60bda8715d4692f7a5c7b75e278de1b80792239ba5c7618f",
+      "enMarkdown": "Until you've seen some founders in real life, you tend to think that starting startups is something done by other people. Seeing them pops that bubble. In fact seeing founders in real life is doubly inspiring: they seem impressive, but they also seem human. Especially when they talk about the early years, when they were clueless and made lots of mistakes. So strangely enough seeing founders in real life makes being one seem simultaneously both desirable and accessible. It makes students think \"I want to be like that, and I could.\"",
+      "zhMarkdown": "在现实生活中亲眼见到创始人之前，你往往会觉得创业是别人才会做的事。亲眼见到他们，就能戳破这层幻想。事实上，见到活生生的创始人会带来双重启发：他们既让人钦佩，又显得格外真实。尤其是当他们谈起创业早期的岁月，讲起自己当年的懵懂无知和屡屡犯错时。所以奇怪的是，亲眼见到创始人，会让“成为创始人”这件事同时显得既令人向往又触手可及。它会让学生心里产生这样的想法：“我也想成为那样的人，而且我也做得到。”"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "0bd4c5c4b31e85f538c5ffeb58279749d2e4a1edc15accb3b4121881038bf963",
+      "enMarkdown": "How inspiring founders are to students is a function roughly of how rich and famous they are divided by how much older they are than the students. So it's not essential to bring famous billionaires to campus. Founders in their mid twenties who are 3 years into a startup with a valuation of a couple hundred million will do as well; they may only be a twentieth as rich and famous, but they're twenty times easier for students to identify with.",
+      "zhMarkdown": "创始能给学生带来多大的启发，粗略来说是一个函数：分子是他们的财富和名气，分母则是他们比学生大多少岁。因此，学校完全没有必要把那些名声赫赫的亿万富翁请到校园里来。二十五六岁、创办了一家估值几亿美元的公司刚刚三年的创始人，效果同样很好；他们的财富和名气可能只有前者的二十分之一，但学生与他们产生共鸣却要容易二十倍。"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "4cf00d828a49141d245df4e3d22e42f6ceb9cf545bc53f0f5984d2aa792cbd44",
+      "enMarkdown": "________________",
+      "zhMarkdown": "________________"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "9c5eb73992b8848dc9e7690c76e3ab5dc74818a9c1d873f9d3c9b0ceb545d179",
+      "enMarkdown": "It's obvious why universities that want their students to start startups need to make them believe it's a viable option. But why is it so important for students to work on their own projects?",
+      "zhMarkdown": "如果大学希望自己的学生去创业，为什么必须让他们相信创业是一条可行的路，原因显而易见。但为什么鼓励学生折腾自己的项目也如此重要？"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "8b6b0cfc0a4de089a8c2cdd5bc01abc0ab572e595b8e36a17aa33b24a30fc889",
+      "enMarkdown": "There are four reasons. The first is simply that it's a great way, possibly the best way, to understand a subject really deeply. The excitement of creating something new is a much more powerful motivator than the fear of doing badly on an exam.",
+      "zhMarkdown": "原因有四点。第一点很简单：这是真正深刻理解一门学科极好的途径，甚至可能是最好的途径。创造新东西带来的兴奋感，远比害怕考试考砸的恐惧更能激发一个人的内驱力。"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "b9d62cf0fc2b4cbc411e155eb75952a9a00eaf2e72f372530afbd5a22ff2dd92",
+      "enMarkdown": "Second, working on projects together is the best way for cofounders to discover one another. The most successful startups tend to have multiple founders, and the only way to tell for sure if someone will be good to work with is to work with them. Apple and Microsoft were just the last of many projects their founders had worked on together.",
+      "zhMarkdown": "第二，一起做项目是联合创始人发现彼此的最佳方式。最成功的创业公司往往有多个联合创始人，而要确切知道一个人是否适合作为搭档，唯一的办法就是和他一起共事。苹果和微软，不过是各自创始人曾经一起合作过的众多项目中的最后一个而已。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "eaf1dc4ec0f069c142d2d9b99338b727989b709e258a0561207bc6e333c8f206",
+      "enMarkdown": "Third, a startup is a project, so starting one will feel natural to someone who's used to working on projects of their own. It won't seem weird that there's no teacher or boss telling them what to do. They're used to telling themselves.",
+      "zhMarkdown": "第三，创业本身就是一个项目，因此对于习惯了自己折腾项目的人来说，去创业就像顺水推舟一样自然。没有老师或老板告诉他们该做什么，他们不会觉得无所适从，因为他们早就习惯了自己指挥自己。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "068b7ff4ad3030967fd7b0ce25de74fe3a18e6cdec470421db3c97e5efd8a3ed",
+      "enMarkdown": "Fourth, and perhaps most surprisingly, random side projects are where the best startup ideas come from. The best startup ideas tend to seem so implausible at first that anyone consciously looking for startup ideas would reject them. Who'd expect to start a huge company by creating a student directory? So the way to discover the best startup ideas is not to look for startup ideas but just to work on whatever random projects seem interesting. Because in fact such projects are far from random: young people who are good at building things are technological bellwethers, so any idea that seems interesting to them is disproportionately likely to lead somewhere valuable, even if they themselves don't realize it yet.",
+      "zhMarkdown": "第四，或许也是最出人意料的一点：最优秀的创业点子，往往来自随手折腾的业余项目。最好的创业点子在一开始通常显得非常不靠谱，以至于任何刻意寻找创业点子的人都会第一眼把它淘汰掉。谁能料到做一个学生名册能做成一家庞大的公司？因此，找到最佳创业点子的办法，不是去刻意搜寻点子，而是随心所欲地去捣鼓任何看起来有趣的业余项目。因为事实上，这些项目根本不是盲目的：擅长造物的年轻人是技术的领头羊，因此任何吸引他们的点子，最终通向某种极有价值的成果的概率都格外高，哪怕他们自己当时都还没意识到这一点。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "0bf53eae4bb77b9a2384ed43e2e7e9005b8d816764d43f2e0d28ad2f9260b4ca",
+      "enMarkdown": "Now it should be clear why the YC partners care a lot about the projects that applicants have worked on and not at all about their GPAs. Projects are the best source of knowledge, the best source of founding teams, and the best source of startup ideas.",
+      "zhMarkdown": "现在大家应该明白了，为什么 YC 的合伙人极其在乎申请者做过什么项目，却对他们的绩点（GPA）毫不在意。项目是知识的最佳来源，是合伙人团队的最佳来源，也是创业点子的最佳来源。"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "8e2ff1db468b3889de92aa081ecc22b8e77baf17abfd289e17d34d8c8545b642",
+      "enMarkdown": "But encouraging students to work on their own projects may be difficult for universities. It will mean giving the students more free time, and universities may not like to do that.",
+      "zhMarkdown": "但对大学来说，鼓励学生做自己的项目可能会很困难。这意味着要给学生更多的空闲时间，而大学往往不乐意这么做。"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "80c0f377e6f37c8f12362c1b5e719591413e0382c0a6360ff8b2766019d61fd3",
+      "enMarkdown": "Microsoft and Meta have something in common that few people realize. They both got started during reading period at Harvard. Reading period is the gap between the end of classes and the beginning of final exams. It's called reading period because students are *supposed* to spend it preparing for exams. But reading period also turns out to have the unique combination of qualities that make it perfect for starting new projects: the students are all on campus, and they don't have anything due the next day. That latter constraint, especially, is a huge drag on the most ambitious students. Merely eliminating it for a few weeks resulted in two trillion dollar companies. Imagine what the US GDP would be if reading period at Harvard were twice as long.",
+      "zhMarkdown": "微软和 Meta 有一个鲜为人知的共同点：它们都是在哈佛的复习周（reading period）期间诞生的。复习周是结课后到期末考开始前的那段空档。之所以叫复习周，是因为学生*本该*用这段时间来备考。但事实证明，复习周恰好具备了一种独特的特质组合，让它成了开启新项目的绝佳时机：学生全都在校，而且第二天没有任何要交的作业。特别是后一个限制，对那些最有抱负的学生来说是个巨大的拖累。仅仅把这一负担解除短短几周，就孕育出了两家万亿美元级的公司。想象一下，如果哈佛的复习周延长一倍，美国的 GDP 会变成什么样。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "0a65c1c01a148d4394635cb18e8b250f6bb067abd3caf583bfeeb841363ca25d",
+      "enMarkdown": "Universities will tend to resist the idea of keeping students less busy with coursework. Partly because administrators feel that if they want to achieve something, they have to do it by taking active measures. Achieving something merely by leaving students alone is alien to their nature.",
+      "zhMarkdown": "大学往往会本能地抗拒减少学生的课业负担。部分原因在于管理者总觉得，要达成什么目标，就必须采取积极的干预措施。单凭“少去打扰学生”来成事，与他们的天性相悖。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "df165ba417966929a1a1f70c386f534b2263c36293c0d77769ce46f56b5ac1e2",
+      "enMarkdown": "And they should be left alone. These things should be the students' own projects; the university should resist the temptation to make them official. Partly because students will be more excited to work on a project that's entirely their own, and partly because many projects wouldn't survive official recognition, because they break some sort of rule. Bill Gates and Mark Zuckerberg both got in trouble with the Harvard administration over projects they worked on as undergrads. Bill broke university rules by bringing Paul Allen, who wasn't a student, into the computer lab with him to work on Altair Basic. Zuck got in such trouble over Facemash that he was put on disciplinary probation. And their cases are probably more the rule than the exception. Universities have lots of rules, and novel projects are often untidy things.",
+      "zhMarkdown": "可学校恰恰应该放手别去管他们。这些项目应该是学生自己的事情，大学应当克制住将其“收编”为官方项目的冲动。一方面，如果是完全属于自己的项目，学生会更有热情去做；另一方面，很多项目一旦被官方收编根本活不下去，因为它们总会触犯某些条条框框。比尔·盖茨和马克·扎克伯格在本科期间做的项目，都曾给他们招来哈佛校方的麻烦。比尔违反校规，把不是哈佛学生的保罗·艾伦带进计算机实验室，一起开发 Altair Basic；扎克伯格更是因为 Facemash 闹出大乱子，受到了留校察看处分。他们的情况恐怕是常态，而非特例。大学有太多的条条框框，而创新的项目往往是不拘小节、惹是生非的。"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "557b4a9a6b6136347956fecd91f422b7685cb94df9012473d5374d1cd6d7e7ec",
+      "enMarkdown": "Right now there are students flying drones out of line of sight. Turn a blind eye to it.",
+      "zhMarkdown": "此时此刻，肯定有学生正在把无人机飞出视距之外。学校对此睁一只眼闭一只眼就好。"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "4a50c8af0f357c61241b49cd68fdb330c29313135efeea4704068bb769810ae2",
+      "enMarkdown": "Another reason it will be hard for universities to keep students less busy is that they'll worry that without some kind of oversight, most students will just waste whatever free time they're given. And they will! The price of giving the most energetic students room to do even better is that it leaves the least energetic ones room to do even worse. But that's a price that's worth paying, because if the most energetic students do better they could do a *lot* better, whereas the laziest students already learn so little that there's not much room for them to do worse. So giving all the students some of their time back could improve the average outcome a lot, even if it doesn't move the median. [[4](#f4n)]",
+      "zhMarkdown": "大学很难减轻学生课业负担的另一个原因在于，校方会担心如果没有某种监督，大部分学生只会把给他们的自由时间白白挥霍掉。而他们确实会这样！给精力最充沛的学生留出更上一层楼的空间，代价就是让最缺乏活力的学生跌得更惨。但这笔代价是值得付出的，因为那些精力最充沛的学生一旦表现更好，就能好上*非常多*；而最懒散的学生原本就学不到什么东西，已经没有多少退步的空间了。所以，把一部分时间还给所有学生，即使拉不动中位数，也能大幅拉高平均产出。[[4](#f4n)]"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "336425a58ec798c4f0f2bb3b0d4e22d90002c15ce1995e009d0f1c7f7fd3bb24",
+      "enMarkdown": "It may seem a bit excessive to change the whole schedule of the university just to encourage would-be founders. They're never going to be more than 10% of the students. And it probably would be excessive if this change only helped founders. But in fact giving the students some of their time back would help all the most energetic and ambitious ones. They'd all explore new things of one type or another if the pressure of work were relieved for even a week or two.",
+      "zhMarkdown": "仅仅为了鼓励未来的创始人，就去改变整所大学的日程安排，听起来可能有点小题大做。毕竟这些人在学生中的比例永远不会超过 10%。如果这种改变只对创始人有益，那确实算得上小题大做。但实际上，把一部分时间还给学生，会让所有最有活力、最有抱负的学生受惠。只要课业负担能减轻哪怕一两周，他们都会各自去探索不同领域的新事物。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "4cf00d828a49141d245df4e3d22e42f6ceb9cf545bc53f0f5984d2aa792cbd44",
+      "enMarkdown": "________________",
+      "zhMarkdown": "________________"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "6b1830cbac4c93bea320fa7dd24922361c62a91e877711f5f4538c0e8f411d9e",
+      "enMarkdown": "Now that I've explained how universities should prepare founders, I should explain how not to. One thing universities can't do is actually teach students how to start startups. Starting a startup is one of those things, like chemistry or painting, that you have to learn by doing. Which means a properly run class on how to start a startup would have to be a lab class: the students would actually have to start startups. And I know exactly what a class of this type should look like, because YC is it. But YC is very different in structure from a university, and if you tried to cram it into an undergrad degree program, it would become a joke. Are the students supposed to start these companies without any funding? Are they supposed to run startups, which notoriously take every moment of your time when done properly, while simultaneously taking three or four other classes? And what if, despite these handicaps, some of the startups actually take off? Are the students just supposed to abandon them? Because it's either that or drop out.",
+      "zhMarkdown": "既然我已经讲了大学应该如何培养创始人，接下来就该说说不应该怎么做。有一件事是大学绝对做不到的，那就是在课堂上真正教会学生如何创业。创业就像化学实验或绘画一样，是必须通过实践来学习的事情之一。这意味着，一门组织得当的创业课必须是一门实验课：学生必须真正去创办一家公司。我非常清楚这种课程应该是什么样子，因为 YC 本身就是这样的存在。但 YC 的组织结构与大学截然不同，如果硬要把它塞进本科培养方案里，只会沦为一个笑话。难道要让学生在没有任何资金的情况下去创办这些公司吗？真正做好一家创业公司是出了名地需要全身心投入，难道要让学生在同时兼顾三四门其他课程的情况下去运营一家创业公司吗？而且万一克服了这些重重阻碍，其中某些公司真的做起来了呢？难道要学生直接放弃它们吗？因为除此之外，他们就只能选择退学了。"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "5bdd6f3604e2549ba9802d08dd685295a866d559ef75b09503439be48500e5f0",
+      "enMarkdown": "Running a startup is incompatible with being a full time student. The only way to learn how to start a startup is to do it. Those two statements are so obvious that they're practically truisms. And yet so many people manage to remain in denial about what they imply. You can't teach students how to start startups.",
+      "zhMarkdown": "经营一家创业公司和当一名全日制学生是不可兼得的。学会创业的唯一途径就是亲手去做。这两句话是不言自明的真理。然而，许多人却依然对它们所蕴含的结论视而不见：你根本无法在课堂上教学生如何创业。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "9d8c73ac1f43cdd2e5fd4caa806398557350e4b64d6ede66e81e2257fd0a783c",
+      "enMarkdown": "One common response to this inconvenient truth is to pretend to teach them how to start startups, for example by organizing business plan competitions. The students collaborate to come up with a startup idea, which they then pitch to simulated investors. This kind of exercise is not merely useless but positively misleading. It trains founders to think that fundraising is the essential step in starting a startup — that the core of starting a startup is to create a story that appeals to investors. As an investor, I can tell you that's not true. Fundraising is merely a necessary evil. The people you need to impress are users, not investors, and the way you impress them is with prototypes, not words. The core of starting a startup is not creating a story that appeals to investors, but creating a product that appeals to users. [[5](#f5n)]",
+      "zhMarkdown": "面对这个令人尴尬的事实，一种常见的应对方式就是假装在教他们创业，比如举办商业计划书大赛。学生们聚在一起构思一个创业点子，然后去向模拟投资人路演。这种练习不仅毫无用处，甚至具有严重的误导性。它会诱导创始人误以为融资是创业过程中必不可少的关键步骤——误以为创业的核心就是编织一个能打动投资人的故事。作为一个投资人，我可以告诉你，事实根本不是这样。融资只不过是必要之恶。你真正需要打动的是用户，而不是投资人；打动他们靠的是产品原型，而不是夸夸其谈。创业的核心不是编织一个打动投资人的故事，而是做出一款打动用户的产品。[[5](#f5n)]"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "d87dde500e2e6cbf3315df46e062222c3085a1db9bf25ef6928c07b5d56ce051",
+      "enMarkdown": "In fact would-be founders should be doing exactly the opposite of what students do in business plan competitions. Instead of thinking about startups without building anything, they should be building things without thinking about whether they'll turn into startups.",
+      "zhMarkdown": "事实上，未来的创始人应该做的，恰恰与学生在商业计划书大赛中所做的事情截然相反。与其脱离造物去空想创业，不如动手去造物，而完全不用去想它们未来会不会变成创业公司。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "d32914c86ab376d13cc598a8e8e3caade1f7d33fd1b9fc41c94fe537c5e2e17e",
+      "enMarkdown": "Probably one of the reasons universities are tempted to organize bogus things like business plan competitions is that if they actually took the optimal measures to prepare students to start startups, it would look too quiet. Imagine if a university were doing everything right. Students would be getting a deep knowledge of how to build things in classes they were taking out of genuine interest, and working eagerly with their friends on side projects that had nothing to do with school. The students would graduate with exactly what predicts success in founders: the ability to build things and a habit of doing it. Plus a significant number of those side projects would be incipient startups. And yet it would look to parents and prospective students as if the university wasn't doing anything. Where are the classes on \"entrepreneurship\"? Where is the Innovation Center?",
+      "zhMarkdown": "大学之所以总忍不住去组织商业计划书大赛这类花架子，原因之一大概在于：如果他们真的采取了培养创始人的最佳策略，场面上看起来会太安静了。设想一下一所大学如果把所有事情都做对了会是什么样：学生们凭着真正的兴趣选修课程，从中深入掌握造物的本领，并且在课外满怀热情地与朋友一起折腾与学校毫无关系的业余项目。当他们毕业时，身上恰恰具备了预示创始人成功特质的东西：动手造物的能力，以及持之以恒的造物习惯。不仅如此，这些业余项目中有相当一部分本身就是创业公司的雏形。然而在家长和准新生看来，这所大学好像什么都没做。这里的“创业”课程在哪里？“创新中心”又在哪里？"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "d7ac956262390585edd938fdcbf4eb762a1cd442861bec19366aef869229bdac",
+      "enMarkdown": "And indeed this is another great thing about the optimal plan for preparing startup founders: it costs nothing extra. You don't have to hire any deans of entrepreneurship or build any new buildings. In fact if you do, those things will tend to drag you down; there's no need for them, so if they have any effect at all it will tend to be for the worse. If you have spare money, give it to the people teaching computer science or mechanical engineering or molecular biology. [[6](#f6n)]",
+      "zhMarkdown": "而这正是培养创始人的最佳方案的另一大妙处：它不需要任何额外开销。你不需要聘请什么创业学院的院长，也不需要盖任何新大楼。实际上如果你真这么做了，这些东西往往只会拖累你；它们根本毫无必要，因此如果它们真产生什么影响，也只会把事情变糟。要是你手头有富余的资金，倒不如把它拨给教授计算机科学、机械工程或分子生物学的老师。[[6](#f6n)]"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "954025f5fd6d88a70cb1a01b00c69e8983f647714684d1b87396ce87b6be7670",
+      "enMarkdown": "But if the optimal route looks too quiet, the solution is not to avoid it. The solution is to stand firm, knowing that you're doing the right thing, and eventually the results will speak for themselves. If you can develop an organic startup culture among your students and there are multiple students in every year who go on to start successful ones, this will soon become evident to anyone paying attention.",
+      "zhMarkdown": "但如果最优路径看起来太过沉寂，解决之道绝非避而不用。正确的做法是坚定立场，心里清楚自己走在正确的道路上，成果最终自会证明一切。如果你能在学生中培育起自发的创业文化，并且每年都有多名学生走出去创办出成功的公司，任何留心观察的人很快都会看得一清二楚。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "6c1d5d2e95e02e9ddde9865907565099ecc98e4275267168c27b8d284aeff100",
+      "enMarkdown": "[1] Should students still study computer science if AIs will write most code? Definitely. CS is an interesting subject in its own right and also a great way to understand problem solving in general. And even if you have AIs writing all your code for you, you're still in the position of an engineering manager, and good engineering managers should be able to do the work of those working for them.",
+      "zhMarkdown": "[1] 如果未来大部分代码都由 AI 来写，学生还需要学习计算机科学吗？当然需要。计算机科学本身就是一门极为有趣的学科，同时也是深入理解普遍意义上的问题解决方法的绝佳途径。而且即便所有代码都由 AI 替你写，你也依然扮演着工程经理的角色，而优秀的工程经理理应能胜任手下员工的工作。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "a019388ea56a1c8637d93184b732cbebb8f3bf250589e36a77c2e4f6c45fcc6e",
+      "enMarkdown": "[2] One reason I always put \"entrepreneurship\" in quotes is that it's a misleading word to use to describe starting startups. \"Entrepreneurship\" simply means starting one's own business, and startups are a microscopically small subset of that world in which the rules are completely different. So conflating the two is asking for trouble.",
+      "zhMarkdown": "[2] 我之所以总是给“创业”打上引号，是因为用这个词来指代创办 startup 极具误导性。“创业”（entrepreneurship）仅仅意味着创办属于自己的生意，而 startup 只是那个商业世界中微乎其微的一个极小子集，其遵循的规则完全不同。把两者混为一谈纯属自找麻烦。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "35a158d152141f4480125495b0a8e71a41826e80afecc401c6885e628c31bbbd",
+      "enMarkdown": "[3] Of course all departments will claim to be teaching powerful ideas. But false claims of this type don't seem much of a danger. The sort of people who'd make good founders wouldn't even need to see through them; they simply wouldn't be interested enough in the classes taught by such departments to have much of their time wasted by them.",
+      "zhMarkdown": "[3] 当然，所有院系都会宣称自己在传授强大的思想。但这类虚假宣传似乎构不成多大威胁。那些适合做创始人的人甚至都不需要去识破它们；他们光是对这些院系开设的课程提不起足够的兴趣，就不会在上面浪费太多时间。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "d98ea7608958a90dee591d395a3e7fe15621a8e7fc7f3a48c27ce119cc9d4277",
+      "enMarkdown": "[4] There's an interesting parallel here to variation in income. The bottom of the income scale is anchored firmly at zero, because there are some people who are either incapable of working or just not interested in doing it at the moment. If you let there be more variation in income, it won't affect the income of the people at this end of the scale; n times zero is zero; but at the other end of the scale you'll see enormous change.",
+      "zhMarkdown": "[4] 这里与收入差距有一个有趣的类比。收入阶梯的底部被牢牢锚定在零，因为总有些人要么没有工作能力，要么眼下压根不想工作。如果你允许收入差距进一步拉大，这并不会影响到底层这部分人的收入；任何数乘以零依然是零；但在阶梯的另一端，你会看到翻天覆地的变化。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "914c5ff0c3e425b23820b111815d0b7f105f4c25ca15d52cfea7696f3687f33a",
+      "enMarkdown": "[5] Presumably one reason these competitions lean toward impressing investors rather than users is that it's the only way to have a single set of judges. Investors can be treated as interchangeable, whereas the users of each product might be different. But if it's impractical to measure the right thing, that doesn't mean the solution is to measure the wrong one.",
+      "zhMarkdown": "[5] 这些比赛之所以更倾向于取悦投资人而非用户，想必原因之一是只有这样才能用同一套评委来打分。投资人可以被视作标准统一且可替代的群体，而每款产品的用户群体却各不相同。但就算去衡量正确的事情不太可行，也绝不意味着解决办法就是去衡量错误的事情。"
+    },
+    {
+      "id": 41,
+      "type": "paragraph",
+      "sourceHash": "0bb7c2a343eb2cb1c88179f6bf5c3ce2b7c8e7ab02901308b14ec8d8ada8232c",
+      "enMarkdown": "[6] Another thing that will tend to draw universities away from the optimal path is business schools, if they have them. Business schools were not designed to train founders. They were designed to train the managerial class of the large industrial companies that arose in the early 20th century; they're the West Points of industrial capitalism. That's why their official name is usually the School of Management. But while the skills they teach might be useful in running companies beyond a certain size, they're not the critical ingredient in *founding* them. And the skills that are are already taught by other departments. So to the extent business schools affect their parent university's strategy for preparing founders, it can only be by adding error.",
+      "zhMarkdown": "[6] 另一件容易让大学偏离最优路径的事，是它们旗下的商学院（如果学校有的话）。商学院设立的初衷根本就不是为了培养创始人，而是为了给20世纪初兴起的大型工业企业输送管理阶层；它们是工业资本主义的西点军校。正因如此，它们的官方名称通常是“管理学院”。虽然它们传授的技能在管理超过一定规模的公司时或许有用，但绝非*创立*公司的核心要素。而那些真正关键的技能，其他院系早已在教授了。因此，商学院对其所属大学培养创始人的策略只要产生影响，充其量也只是徒增干扰。"
+    },
+    {
+      "id": 42,
+      "type": "paragraph",
+      "sourceHash": "03a2a5eeacdef956b6ff075c5fd7d7aad88fbcc11e6eb67908080a406a5cc841",
+      "enMarkdown": "**Thanks** to Trevor Blackwell, Daniel Diermeier, Jared Friedman, Diana Hu, Michael Kotlikoff, Jessica Livingston, Robert Morris, Harj Taggar, and Garry Tan for reading drafts of this.",
+      "zhMarkdown": "**致谢**：感谢 Trevor Blackwell、Daniel Diermeier、Jared Friedman、Diana Hu、Michael Kotlikoff、Jessica Livingston、Robert Morris、Harj Taggar 和 Garry Tan 阅读本文草稿。"
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "titleZh": "需要忘掉的那一课",
   "dateText": "December 2019",
   "publishedAt": "2019-12-01",
-  "sourceOrder": 52,
+  "sourceOrder": 54,
   "sourceUrl": "https://paulgraham.com/lesson.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -110,9 +110,9 @@
     {
       "id": 15,
       "type": "paragraph",
-      "sourceHash": "df8b9327b0d08832d8d2d48344da5d60978b3c363ae2458811fa368943fa2b39",
-      "enMarkdown": "Getting a good grade in a class on x is so different from learning a lot about x that you have to choose one or the other, and you can't blame students if they choose grades. Everyone judges them by their grades � graduate programs, employers, scholarships, even their own parents.",
-      "zhMarkdown": "在一门关于 X 的课程中拿到好成绩，与真正学到很多关于 X 的知识是如此不同，以至于你必须在两者之间做出选择。如果学生选择了成绩，你也不能责怪他们。所有人都在用成绩来评判他们——研究生院、雇主、奖学金评定委员会，甚至他们自己的父母。"
+      "sourceHash": "c18354eef2eed2122cd718f233298072276c6a5afd9fe101ab11468f81213f6d",
+      "enMarkdown": "Getting a good grade in a class on x is so different from learning a lot about x that you have to choose one or the other, and you can't blame students if they choose grades. Everyone judges them by their grades — graduate programs, employers, scholarships, even their own parents.",
+      "zhMarkdown": "在关于 X 的课上拿高分，与真正学透 X 差别太大，以至于你必须在二者之间二选一；如果学生选择了成绩，你也无法责怪他们。所有人都在凭成绩评判他们——研究生院、雇主、奖学金评定机构，甚至他们自己的父母。"
     },
     {
       "id": 16,
@@ -138,9 +138,9 @@
     {
       "id": 19,
       "type": "paragraph",
-      "sourceHash": "ad2e15f05d2fb3d923f3bcccd789119e657465e147bcddb087b79e0885fe5e65",
-      "enMarkdown": "Hackable is the default for any test imposed by an authority. The reason the tests you're given are so consistently bad � so consistently far from measuring what they're supposed to measure � is simply that the people creating them haven't made much effort to prevent them from being hacked.",
-      "zhMarkdown": "对于任何由权威机构强加的考试，“容易被破解”是其默认属性。你所经历的考试之所以总是这么糟糕——总是离衡量它们本该衡量的事情相去甚远——原因很简单，因为设计这些考试的人并没有花什么心思去防止它们被破解。"
+      "sourceHash": "9a8b80e50d830ad3eca18ac2c4e2fe7a6336e85bfe06d83387cad6027616e2af",
+      "enMarkdown": "Hackable is the default for any test imposed by an authority. The reason the tests you're given are so consistently bad — so consistently far from measuring what they're supposed to measure — is simply that the people creating them haven't made much effort to prevent them from being hacked.",
+      "zhMarkdown": "任何由权威设立的考试，默认都是容易被钻空子的。你面对的考试之所以一贯如此糟糕——一贯远远无法衡量它们本该衡量的东西——仅仅是因为出题人根本没花什么心思去防止它们被钻空子。"
     },
     {
       "id": 20,
@@ -299,9 +299,9 @@
     {
       "id": 42,
       "type": "paragraph",
-      "sourceHash": "b29eb7df6395c062dae8af4df6c7beea9d7fc9446a48e9bdb1d3566bbb106989",
-      "enMarkdown": "It was mind-blowing to realize that two of the things I'd puzzled about the most � the bogusness of high school, and the difficulty of getting founders to see the obvious � both had the same cause. It's rare for such a big block to slide into place so late.",
-      "zhMarkdown": "当我意识到我最困惑的两件事——高中的虚伪，以及让创始人看清显而易见的事实有多难——居然有着同一个原因时，我感到无比震撼。像这样一块巨大的拼图，在如此晚的时候才拼合到一起，是很少见的。"
+      "sourceHash": "c65082a55a974ae42f84e640af9c868fc7b061da724ddccf4333457508184087",
+      "enMarkdown": "It was mind-blowing to realize that two of the things I'd puzzled about the most — the bogusness of high school, and the difficulty of getting founders to see the obvious — both had the same cause. It's rare for such a big block to slide into place so late.",
+      "zhMarkdown": "当我意识到自己困惑最深的两件事——高中的荒谬虚妄，以及让创始人看清显而易见的事实为何如此困难——竟然出自同一个原因时，整个人都受到了极大的震撼。像这样一块巨大的拼图在如此晚的时候才严丝合缝地归位，实属罕见。"
     },
     {
       "id": 43,

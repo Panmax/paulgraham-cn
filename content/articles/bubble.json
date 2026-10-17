@@ -4,10 +4,10 @@
   "titleZh": "泡沫破裂后，什么才是对的",
   "dateText": "September 2004",
   "publishedAt": "2004-09-01",
-  "sourceOrder": 196,
+  "sourceOrder": 198,
   "sourceUrl": "https://paulgraham.com/bubble.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -77,28 +77,28 @@
       "type": "paragraph",
       "sourceHash": "6dc0ee0f75faa052ffed2207d61c7af914eec126ab19cfec2a62ef94ed789265",
       "enMarkdown": "**1. Retail VC**",
-      "zhMarkdown": "**1. 零售型风险投资**"
+      "zhMarkdown": "**1. 散户风投**"
     },
     {
       "id": 12,
       "type": "paragraph",
       "sourceHash": "d19dae695da51120c3e00ef47972fc315064964ba8997944598369ef10a77e0b",
       "enMarkdown": "After the excesses of the Bubble, it's now considered dubious to take companies public before they have earnings. But there is nothing intrinsically wrong with that idea. Taking a company public at an early stage is simply retail VC: instead of going to venture capital firms for the last round of funding, you go to the public markets.",
-      "zhMarkdown": "在经历过泡沫时期的放纵之后，现在人们认为在公司盈利之前就上市是值得怀疑的。但这个想法本身并没有什么错。让公司在早期阶段上市，实际上就是“零售型风险投资”：你不再去找风险投资机构拿最后一轮融资，而是直接去公开市场募资。"
+      "zhMarkdown": "经历了泡沫时期的种种过火行为之后，现在人们普遍认为，公司在实现盈利之前就上市是极其不靠谱的做法。但这种想法本身并没有什么本质上的错误。在早期阶段就让公司上市，无非是一种“散户风投”：公司不再去找风投机构寻求最后一轮融资，而是直接走向公开市场。"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "bc13dca09f870d89128ffe4404fa2a62f0112d6cb8cb7ec917457df1ed2792e4",
       "enMarkdown": "By the end of the Bubble, companies going public with no earnings were being derided as \"concept stocks,\" as if it were inherently stupid to invest in them. But investing in concepts isn't stupid; it's what VCs do, and the best of them are far from stupid.",
-      "zhMarkdown": "到泡沫末期，那些没有盈利就上市的公司被嘲笑为“概念股”，仿佛投资它们本身就是一件愚蠢的事。但投资概念并不愚蠢；这正是风险投资人（VC）在做的事，而其中最顶尖的投资人绝不愚蠢。"
+      "zhMarkdown": "到泡沫破裂的尾声阶段，那些尚未盈利就上市的公司往往被讥讽为“概念股”，仿佛投资它们天生就是一件蠢事。但投资概念并不愚蠢；这正是风投所做的事，而顶尖的风投绝非蠢材。"
     },
     {
       "id": 14,
       "type": "paragraph",
       "sourceHash": "a442c197e999ac2f49c359579283114176fc1a2dd4a6efa2c9cb3c2c75dbfab2",
       "enMarkdown": "The stock of a company that doesn't yet have earnings is worth *something.* It may take a while for the market to learn how to value such companies, just as it had to learn to value common stocks in the early 20th century. But markets are good at solving that kind of problem. I wouldn't be surprised if the market ultimately did a better job than VCs do now.",
-      "zhMarkdown": "一家尚未盈利的公司的股票也是“值钱”的。市场可能需要一段时间来学习如何给这类公司估值，就像在 20 世纪初市场必须学会如何给普通股估值一样。但市场很擅长解决这类问题。如果最终市场比现在的风险投资人做得更好，我一点也不会感到惊讶。"
+      "zhMarkdown": "一家尚未盈利的公司的股票，也是有*某种价值*的。市场或许需要一段时间才能学会如何给这类公司估值，正如20世纪初市场必须学会如何给普通股估值一样。但市场向来擅长解决这类问题。如果公开市场最终在估值这门功课上比现在的风投做得更好，我也丝毫不会感到意外。"
     },
     {
       "id": 15,
@@ -182,7 +182,7 @@
       "type": "paragraph",
       "sourceHash": "531123ee83da2dfa75e57096532f7312b81f8511acc02d0b34fb0e3bc69a3a45",
       "enMarkdown": "Admittedly, Google is an extreme case. It's very easy for people to switch to a new search engine. It costs little effort and no money to try a new one, and it's easy to see if the results are better. And so Google doesn't *have* to advertise. In a business like theirs, being the best is enough.",
-      "zhMarkdown": "不可否认，谷歌是一个极端的例子。人们换用一个新的搜索引擎非常容易。尝试一个新引擎几乎不需要花精力，也不需要花钱，而且很容易看出搜索结果是否更好。因此，谷歌“不需要”做广告。在他们这样的行业里，做到最好就足够了。"
+      "zhMarkdown": "诚然，Google 是个极端的例子。人们换用新的搜索引擎非常容易。尝试一个新引擎几乎不费什么力气，也不花一分钱，而且很容易就能看出搜索结果是不是更好。因此 Google 并不*非得*做广告。在他们这种业务中，做到最好就足够了。"
     },
     {
       "id": 27,
@@ -224,7 +224,7 @@
       "type": "paragraph",
       "sourceHash": "ec00b8a99448725e341b15e6831e2d3e1e6d7f175088d14a29bfe36b8cc022fb",
       "enMarkdown": "As always, business has clung to old forms. VCs still seem to want to install a legitimate-looking talking head as the CEO. But increasingly the founders of the company are the real powers, and the grey-headed man installed by the VCs more like a music group's manager than a general.",
-      "zhMarkdown": "一如既往，商业界固守着旧的形式。风险投资人似乎仍然想安排一个看起来像那么回事的传声筒来当 CEO。但越来越多的时候，公司的创始人才是真正的掌权者，而风险投资人安排的那位白发苍苍的长者，更像是一个乐队的经理，而不是将军。"
+      "zhMarkdown": "商业世界一如既往地抱残守缺。风投们似乎依然热衷于安插一个看似体面、能说会道的传声筒来当 CEO。但现实正日益变成：公司的创始人们才是真正的掌权者，而风投安插进来的那位白发苍苍的老头，与其说是统兵打仗的将军，倒不如说更像是个乐队经纪人。"
     },
     {
       "id": 33,
@@ -259,7 +259,7 @@
       "type": "paragraph",
       "sourceHash": "d5df49a227f9a5c7a9f9030503114f64026dc25c649809c060983ebddf59b165",
       "enMarkdown": "And what would be wrong would be that how one presented oneself counted more than the quality of one's ideas. *That's* the problem with formality. Dressing up is not so much bad in itself. The problem is the receptor it binds to: dressing up is inevitably a substitute for good ideas. It is no coincidence that technically inept business types are known as \"suits.\"",
-      "zhMarkdown": "而那个问题就在于，一个人的外表呈现变得比他想法的质量更重要。这就是“正式”带来的问题。盛装打扮本身倒没什么坏处。问题在于它所绑定的受体：盛装打扮不可避免地会成为好想法的替代品。技术上无能的商业人士被称为“西装男”（suits），这绝非巧合。"
+      "zhMarkdown": "而真正出了问题的地方在于：一个人的外在包装居然比思想本身的优劣更受看重。*这*才是讲究形式的问题所在。穿得正式本身倒谈不上有多坏。问题在于它所结合的受体：讲究穿着不可避免地会沦为好想法的替代品。那些不懂技术的商务人士被戏称为“穿西装的”（suits），绝非偶然。"
     },
     {
       "id": 38,

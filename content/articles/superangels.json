@@ -4,10 +4,10 @@
   "titleZh": "融资新格局",
   "dateText": "October 2010",
   "publishedAt": "2010-10-01",
-  "sourceOrder": 100,
+  "sourceOrder": 102,
   "sourceUrl": "https://paulgraham.com/superangels.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -42,84 +42,84 @@
       "type": "paragraph",
       "sourceHash": "e6ab47e6a24fc26a48b2aea8b4dce31d63310361b054f740df5413fe06143d4c",
       "enMarkdown": "Let me start by describing what the world of startup funding used to look like. There used to be two sharply differentiated types of investors: angels and venture capitalists. Angels are individual rich people who invest small amounts of their own money, while VCs are employees of funds that invest large amounts of other people's.",
-      "zhMarkdown": "首先，让我描述一下以前的创业融资世界是什么样子的。过去，投资人只有两种泾渭分明的类型：天使投资人和风险投资人（VC）。天使投资人是个人富豪，用自己的钱进行小额投资；而 VC 则是基金的雇员，用别人的钱进行大额投资。"
+      "zhMarkdown": "我先来描述一下以前的创业融资世界是什么样子。过去只有两类截然不同的投资人：天使投资人和风险投资人。天使投资人是有钱的个人，投的是自己的小钱；而风投则是基金的雇员，投的是别人的大钱。"
     },
     {
       "id": 6,
       "type": "paragraph",
       "sourceHash": "a615f443f833241a7843b9efdd3e10735d24a387c5013797d14c6f9bc388c34e",
       "enMarkdown": "For decades there were just those two types of investors, but now a third type has appeared halfway between them: the so-called super-angels. [[1](#f1n)] And VCs have been provoked by their arrival into making a lot of angel-style investments themselves. So the previously sharp line between angels and VCs has become hopelessly blurred.",
-      "zhMarkdown": "几十年来，投资人就只有这两类。但现在，介于两者之间的第三类投资人出现了：也就是所谓的超级天使。[[1](#f1n)] 他们的出现刺激了 VC，导致 VC 自己也开始做大量天使风格的投资。因此，以前天使与 VC 之间那条清晰的界线，现在已经变得彻底模糊了。"
+      "zhMarkdown": "几十年来一直只有这两种投资人，但现在介于两者之间的第三种投资人出现了：也就是所谓的超级天使（super-angels）。[[1](#f1n)] 而风投被他们的出现所刺激，自己也开始大量进行天使风格的投资。于是，天使与风投之间曾经清晰的界线，如今已经变得彻底模糊。"
     },
     {
       "id": 7,
       "type": "paragraph",
       "sourceHash": "d5642ecedbd617dd047534686eec9491dc136ad2bec789b9dbecca53fe3ce8c7",
       "enMarkdown": "There used to be a no man's land between angels and VCs. Angels would invest $20k to $50k apiece, and VCs usually a million or more. So an angel round meant a collection of angel investments that combined to maybe $200k, and a VC round meant a series A round in which a single VC fund (or occasionally two) invested $1-5 million.",
-      "zhMarkdown": "过去，在天使和 VC 之间存在着一片“无人区”。天使投资人每人会投资 2 万到 5 万美元，而 VC 通常会投资 100 万美元或更多。因此，一个天使轮意味着一堆天使投资组合起来，总共大概 20 万美元；而一个 VC 轮则意味着 A 轮融资，由单个 VC 基金（偶尔是两个）投资 100 万到 500 万美元。"
+      "zhMarkdown": "以前在天使和风投之间存在一片无人区。天使每个人投 2 万到 5 万美元，而风投通常投 100 万美元或更多。因此，天使轮意味着凑齐一帮天使投资人，总共投大概 20 万美元；而风投轮则意味着 A 轮融资，由一家（偶尔两家）风投基金投进 100 到 500 万美元。"
     },
     {
       "id": 8,
       "type": "paragraph",
       "sourceHash": "13bec8f756c83466dfd0c417b8bb9c1f660b2b849b74ba2151b9f927156d3c63",
       "enMarkdown": "The no man's land between angels and VCs was a very inconvenient one for startups, because it coincided with the amount many wanted to raise. Most startups coming out of Demo Day wanted to raise around $400k. But it was a pain to stitch together that much out of angel investments, and most VCs weren't interested in investments so small. That's the fundamental reason the super-angels have appeared. They're responding to the market.",
-      "zhMarkdown": "天使和 VC 之间的这片无人区对创业公司来说非常尴尬，因为这恰好和许多公司想要募集的金额重合。大多数从 Demo Day 出来的创业公司都想融资 40 万美元左右。但是，要靠一家家天使投资拼凑出这么多钱实在是件痛苦的事，而大多数 VC 对这么小的投资又不感兴趣。这就是超级天使出现的根本原因。他们是在回应市场需求。"
+      "zhMarkdown": "天使与风投之间的这片无人区对创业公司来说非常尴尬，因为这恰好是许多公司想要融到的金额。大多数走出 Demo Day 的创业公司都想融 40 万美元左右。但要靠拼凑天使投资凑出这么多钱非常痛苦，而大多数风投对这么小的投资根本不感兴趣。这就是超级天使出现的根本原因：他们在顺应市场的需求。"
     },
     {
       "id": 9,
       "type": "paragraph",
       "sourceHash": "895c43c319b76bd5ad0a8e0495eb848e8d6224708419439254b84c235b3caea9",
       "enMarkdown": "The arrival of a new type of investor is big news for startups, because there used to be only two and they rarely competed with one another. Super-angels compete with both angels and VCs. That's going to change the rules about how to raise money. I don't know yet what the new rules will be, but it looks like most of the changes will be for the better.",
-      "zhMarkdown": "一类新型投资人的出现对创业公司来说是个大新闻，因为以前只有两类投资人，而且他们很少互相竞争。超级天使既与天使竞争，也与 VC 竞争。这将会改变融资的规则。我目前还不知道新规则会是什么，但看起来大部分变化都会往好的方向发展。"
+      "zhMarkdown": "一种新型投资人的到来对创业公司是个大好消息，因为过去只有两种投资人，而且他们极少相互竞争。超级天使则既同天使竞争，也同风投竞争。这将会改变融资的游戏规则。我还不知道新规则会是什么样，但看起来大部分变化都会是向好的方向发展。"
     },
     {
       "id": 10,
       "type": "paragraph",
       "sourceHash": "9fdba33ceb9edf6175e0746e00f01afbd54dc8d80a350abc5cf1c2da0743953c",
       "enMarkdown": "A super-angel has some of the qualities of an angel, and some of the qualities of a VC. They're usually individuals, like angels. In fact many of the current super-angels were initially angels of the classic type. But like VCs, they invest other people's money. This allows them to invest larger amounts than angels: a typical super-angel investment is currently about $100k. They make investment decisions quickly, like angels. And they make a lot more investments per partner than VCs—up to 10 times as many.",
-      "zhMarkdown": "超级天使既有天使的某些特质，也有 VC 的某些特质。他们通常和天使一样是个人。事实上，现在的许多超级天使最初都是传统类型的天使投资人。但像 VC 一样，他们投资的是别人的钱。这使他们能够比普通天使投资更大的金额：目前一个典型的超级天使投资额大约是 10 万美元。他们做投资决定的速度很快，像天使一样。而且他们每个合伙人做的投资数量比 VC 多得多——多达 10 倍。"
+      "zhMarkdown": "超级天使兼具天使和风投的部分特质。他们通常是个人，就像天使一样。事实上，目前的许多超级天使最初都是传统意义上的天使投资人。但像风投一样，他们投的是别人的钱。这让他们能够比普通天使投出更大笔的资金：目前超级天使单笔典型的投资额大约是 10 万美元。他们做投资决策很快，像天使一样。而且每个合伙人投出的项目数量比风投多得多——多达 10 倍。"
     },
     {
       "id": 11,
       "type": "paragraph",
       "sourceHash": "188a721e0ade7fe25ac345b86014053550eae02242810c156c2650544a5f14a5",
       "enMarkdown": "The fact that super-angels invest other people's money makes them doubly alarming to VCs. They don't just compete for startups; they also compete for investors. What super-angels really are is a new form of fast-moving, lightweight VC fund. And those of us in the technology world know what usually happens when something comes along that can be described in terms like that. Usually it's the replacement.",
-      "zhMarkdown": "超级天使投资的是别人的钱，这一事实让 VC 感到了双重警惕。他们不仅在争夺创业公司，还在争夺背后的出资人（LP）。超级天使的本质，其实是一种新型的、快速运转的轻量级 VC 基金。而我们这些科技界的人都知道，当一个可以用这类词汇来描述的新事物出现时，通常会发生什么。通常，它就是替代者。"
+      "zhMarkdown": "超级天使管理的是别人的钱，这一点让风投加倍警惕。他们不仅争抢创业公司，还争抢投资人（LP）。超级天使的本质，是一种运转更快、更加轻量化的新型风投基金。而在我们科技圈里的人都知道，当某种可以用这类词汇描述的新事物出现时，通常会发生什么——通常它就是取而代之者。"
     },
     {
       "id": 12,
       "type": "paragraph",
       "sourceHash": "e5c76c3e83b0868c5db80e80abfd21abc35ce4d2b957da2ab65843d8446d8182",
       "enMarkdown": "Will it be? As of now, few of the startups that take money from super-angels are ruling out taking VC money. They're just postponing it. But that's still a problem for VCs. Some of the startups that postpone raising VC money may do so well on the angel money they raise that they never bother to raise more. And those who do raise VC rounds will be able to get higher valuations when they do. If the best startups get 10x higher valuations when they raise series A rounds, that would cut VCs' returns from winners at least tenfold. [[2](#f2n)]",
-      "zhMarkdown": "它会成为替代者吗？到目前为止，拿了超级天使钱的创业公司中，很少有公司会排除以后拿 VC 钱的可能性。他们只是推迟了这件事。但这对于 VC 来说依然是个问题。有些推迟了 VC 融资的创业公司，可能会靠着拿到的天使资金发展得非常好，以至于根本不需要再融资。而那些确实需要进行 VC 轮融资的公司，在融资时也将能够获得更高的估值。如果最好的创业公司在进行 A 轮融资时估值提高了 10 倍，这就会把 VC 从赢家身上获得的投资回报至少削减十倍。[[2](#f2n)]"
+      "zhMarkdown": "真的会取代吗？就目前而言，拿了超级天使资金的创业公司中，很少有完全排除拿风投资金的。他们只是往后推迟了而已。但这仍然是风投的心腹大患。有些推迟风投融资的创业公司，仅凭融到的天使轮资金就发展得极好，以至于再也不用费心去融资了。而那些确实去融风投轮的公司，到那时也能拿到更高的估值。如果最好的创业公司在融 A 轮时估值高出 10 倍，那么风投从赢家身上获得的投资回报至少会被砍掉十倍。[[2](#f2n)]"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "40246b55d2b5dd74fbc2493e489af4d74698471aa48a6faf2739a973d7e81f04",
       "enMarkdown": "So I think VC funds are seriously threatened by the super-angels. But one thing that may save them to some extent is the uneven distribution of startup outcomes: practically all the returns are concentrated in a few big successes. The expected value of a startup is the percentage chance it's Google. So to the extent that winning is a matter of absolute returns, the super-angels could win practically all the battles for individual startups and yet lose the war, if they merely failed to get those few big winners. And there's a chance that could happen, because the top VC funds have better brands, and can also do more for their portfolio companies. [[3](#f3n)]",
-      "zhMarkdown": "因此，我认为 VC 基金正受到超级天使的严重威胁。但有一点在某种程度上可能会拯救他们，那就是创业公司回报分布的极度不均：几乎所有的回报都集中在少数几个巨大的成功上。一家创业公司的期望值，取决于它成为下一个 Google 的概率。因此，如果输赢取决于绝对回报，超级天使可能会赢下几乎所有针对单个创业公司的战役，却输掉整场战争——只要他们没能投进那少数几个超级大赢家。这种情况完全有可能发生，因为顶尖的 VC 基金拥有更好的品牌，也能为他们投资的公司提供更多帮助。[[3](#f3n)]"
+      "zhMarkdown": "因此我认为风投基金正受到超级天使的严重威胁。但有一点在某种程度上可能会拯救他们，那就是创业公司结果的不均衡分布：几乎所有的回报都集中在极少数巨大的成功案例中。一家创业公司的期望价值，其实就是它成为 Google 的概率百分比。因此，只要胜负取决于绝对回报，超级天使即使赢下了针对个别创业公司的几乎每一场战役，也仍然可能输掉整场战争——只要他们错失了那少数几个大赢家。而这是有可能发生的，因为顶尖风投基金拥有更好的品牌，而且能为被投公司做的事情也更多。[[3](#f3n)]"
     },
     {
       "id": 14,
       "type": "paragraph",
       "sourceHash": "4c731b58aae1856a64c00fd383bce314c4428944898d78ea5d6eac342d05a04e",
       "enMarkdown": "Because super-angels make more investments per partner, they have less partner per investment. They can't pay as much attention to you as a VC on your board could. How much is that extra attention worth? It will vary enormously from one partner to another. There's no consensus yet in the general case. So for now this is something startups are deciding individually.",
-      "zhMarkdown": "因为超级天使每个合伙人做的投资更多，所以分配到每个投资项目上的合伙人精力就更少。他们无法像进入你董事会的 VC 那样给你那么多的关注。这种额外的关注值多少钱？这因合伙人而异，差别极大。目前在普遍情况下还没有共识。所以现在，这成了创业公司需要自己权衡决定的事情。"
+      "zhMarkdown": "由于超级天使每个合伙人投的项目更多，平均分给每个项目的合伙人精力就更少。他们无法像坐在你董事会里的风投那样给你那么多关注。那份额外的关注到底值多少钱？不同的合伙人之间差异极大。普遍而言目前还没有定论，因此现在这完全是由创业公司各自权衡决定的事情。"
     },
     {
       "id": 15,
       "type": "paragraph",
       "sourceHash": "626e40fda73f826c44f9a5dd31c30cb73c6aa15cecace13326add74004ce40aa",
       "enMarkdown": "Till now, VCs' claims about how much value they added were sort of like the government's. Maybe they made you feel better, but you had no choice in the matter, if you needed money on the scale only VCs could supply. Now that VCs have competitors, that's going to put a market price on the help they offer. The interesting thing is, no one knows yet what it will be.",
-      "zhMarkdown": "在此之前，VC 声称自己能带来多少增值，有点像政府的表态。也许他们让你感觉更好，但如果你需要的资金规模只有 VC 才能提供，你其实别无选择。现在 VC 有了竞争对手，这将为他们提供的帮助定出一个市场价格。有趣的是，现在还没有人知道这个价格会是多少。"
+      "zhMarkdown": "直到现在，风投关于自己能创造多少价值的说辞，多少有点像政府的表态。也许这能让你心里好受点，但如果你需要的资金规模只有风投给得起，你根本就别无选择。现在风投有了竞争对手，这将为他们提供的帮助定出一个市场价格。有趣的是，目前还没人知道这个价格会是多少。"
     },
     {
       "id": 16,
       "type": "paragraph",
       "sourceHash": "cf72d9735a5b31e7ee854cc8543bbf8fd0c74e6b80b21821a4d44f07175726ec",
       "enMarkdown": "Do startups that want to get really big need the sort of advice and connections only the top VCs can supply? Or would super-angel money do just as well? The VCs will say you need them, and the super-angels will say you don't. But the truth is, no one knows yet, not even the VCs and super-angels themselves. All the super-angels know is that their new model seems promising enough to be worth trying, and all the VCs know is that it seems promising enough to worry about.",
-      "zhMarkdown": "那些想要做大做强的创业公司，是否真的需要只有顶尖 VC 才能提供的建议和人脉？还是说超级天使的钱也一样管用？VC 会说你需要他们，超级天使会说你不需要。但事实是，现在谁也不知道答案，甚至连 VC 和超级天使自己都不知道。超级天使只知道他们的新模式看起来足够有前景，值得一试；而 VC 只知道这个模式看起来足够有前景，值得为此担忧。"
+      "zhMarkdown": "想要做成参天大树的创业公司，到底需不需要只有顶尖风投才能提供的那种建议和人脉？还是说超级天使的钱同样管用？风投会说你需要他们，超级天使会说你不需要。但事实是，目前还没人知道答案，甚至风投和超级天使自己也不知道。超级天使只知道他们的新模式前景看起来足够诱人，值得一试；而风投只知道这模式看起来前景足够诱人，值得担忧。"
     },
     {
       "id": 17,
@@ -133,28 +133,28 @@
       "type": "paragraph",
       "sourceHash": "4c943cd2c1600e22baefc39a71b49616b7e3391e94025bb4737840a2e217882f",
       "enMarkdown": "Whatever the outcome, the conflict between VCs and super-angels is good news for founders. And not just for the obvious reason that more competition for deals means better terms. The whole shape of deals is changing.",
-      "zhMarkdown": "无论结果如何，VC 和超级天使之间的冲突对创始人来说都是好消息。这不仅是因为显而易见的原因——对项目的竞争更激烈意味着条款更好，而且整个交易的形式也在发生变化。"
+      "zhMarkdown": "无论结果如何，风投与超级天使之间的冲突对创始人而言都是好消息。这不仅仅是因为竞争加剧意味着更好的条款这一显而易见的原因，更是因为交易本身的整体形态正在发生变化。"
     },
     {
       "id": 19,
       "type": "paragraph",
       "sourceHash": "649e4419d01c759f18282736d36782ff1d765476c9be023f4074ee8b26e5022b",
       "enMarkdown": "One of the biggest differences between angels and VCs is the amount of your company they want. VCs want a lot. In a series A round they want a third of your company, if they can get it. They don't care much how much they pay for it, but they want a lot because the number of series A investments they can do is so small. In a traditional series A investment, at least one partner from the VC fund takes a seat on your board. [[4](#f4n)] Since board seats last about 5 years and each partner can't handle more than about 10 at once, that means a VC fund can only do about 2 series A deals per partner per year. And that means they need to get as much of the company as they can in each one. You'd have to be a very promising startup indeed to get a VC to use up one of his 10 board seats for only a few percent of you.",
-      "zhMarkdown": "天使和 VC 之间最大的区别之一，是他们想要你公司多少股份。VC 想要很多。在 A 轮融资中，如果能拿到，他们想要你公司三分之一的股份。他们不太在乎为此付了多少钱，但他们想要很多股份，因为他们能做的 A 轮投资数量实在太有限了。在传统的 A 轮投资中，VC 基金至少会有一位合伙人加入你的董事会。[[4](#f4n)] 由于董事会席位大约要任职 5 年，而每个合伙人同时无法处理超过 10 个席位，这意味着 VC 基金每个合伙人每年只能做大约 2 个 A 轮项目。这也就意味着，他们必须在每个项目里尽可能多地获取股份。你得是一家极其有前景的创业公司，才能让一个 VC 愿意为了你百分之几的股份而用掉他 10 个董事会席位中的一个。"
+      "zhMarkdown": "天使与风投之间最大的区别之一，在于他们想要你公司的多少股份。风投想要很多。在 A 轮融资中，如果能拿到，他们想要你公司三分之一的股份。他们不太在乎为此付多少钱，但他们要的份额很大，因为他们能做的 A 轮投资数量太少了。在传统的 A 轮投资中，风投基金至少有一位合伙人要进入你的董事会。[[4](#f4n)] 鉴于董事席位通常要保留大约 5 年，而每个合伙人同时应付的席位不会超过 10 个左右，这意味着一家风投基金每个合伙人每年只能做大约 2 笔 A 轮投资。这就意味着他们必须在每笔投资中拿到尽可能多的公司股份。除非你是一家极具前景的创业公司，否则风投绝不会为了你区区几个百分点的股份就用掉自己 10 个董事席位中的一个。"
     },
     {
       "id": 20,
       "type": "paragraph",
       "sourceHash": "c7b05383657b5a23db4e5c20c78ff627a5ee48eadaf7df0effa14ac1416e46f5",
       "enMarkdown": "Since angels generally don't take board seats, they don't have this constraint. They're happy to buy only a few percent of you. And although the super-angels are in most respects mini VC funds, they've retained this critical property of angels. They don't take board seats, so they don't need a big percentage of your company.",
-      "zhMarkdown": "由于天使投资人通常不进董事会，所以他们没有这个限制。他们很乐意只买你百分之几的股份。虽然超级天使在大多数方面都是迷你版的 VC 基金，但他们保留了天使的这一关键属性。他们不拿董事会席位，所以不需要你公司很大的股份比例。"
+      "zhMarkdown": "因为天使投资人通常不进董事会，所以他们没有这个限制。他们很乐意只买你几个百分点的股份。尽管超级天使在大多数方面都是迷你风投基金，但他们保留了天使的这一关键特性：他们不进董事会，因此不需要占你公司很大比例的股份。"
     },
     {
       "id": 21,
       "type": "paragraph",
       "sourceHash": "634227cc3a032919926f826151fc6f213770f2400852b8cb1cdcc9a8caae34a2",
       "enMarkdown": "Though that means you'll get correspondingly less attention from them, it's good news in other respects. Founders never really liked giving up as much equity as VCs wanted. It was a lot of the company to give up in one shot. Most founders doing series A deals would prefer to take half as much money for half as much stock, and then see what valuation they could get for the second half of the stock after using the first half of the money to increase its value. But VCs never offered that option.",
-      "zhMarkdown": "虽然这意味着你从他们那里得到的关注会相应减少，但在其他方面这是个好消息。创始人从来都不喜欢让出 VC 想要的那样多的股权。一次性让出那么多公司股份太让人心疼了。大多数做 A 轮融资的创始人更愿意拿一半的钱，出让一半的股份，然后看看用第一半的钱把公司做大之后，剩下的股份能卖出什么样的估值。但 VC 从未提供过这种选择。"
+      "zhMarkdown": "虽然这意味着你从他们那里得到的关注会相应减少，但在其他方面这绝对是个好消息。创始人其实从来都不喜欢出让风投索要的那么多股权。一次性交出公司这么大一块蛋糕代价太大了。大多数做 A 轮融资的创始人更希望拿一半的钱、出一半的股份，然后用前半部分的钱提升公司价值，再看看后半部分的股份能拿到什么估值。但风投从来不提供这种选项。"
     },
     {
       "id": 22,
@@ -175,21 +175,21 @@
       "type": "paragraph",
       "sourceHash": "4967007a139915da1c3d11fe8abb8476a5552d6823b9e1c9efcfb3407c4fa42b",
       "enMarkdown": "But the advantage of these medium-sized rounds is not just that they cause less dilution. You also lose less control. After an angel round, the founders almost always still have control of the company, whereas after a series A round they often don't. The traditional board structure after a series A round is two founders, two VCs, and a (supposedly) neutral fifth person. Plus series A terms usually give the investors a veto over various kinds of important decisions, including selling the company. Founders usually have a lot of de facto control after a series A, as long as things are going well. But that's not the same as just being able to do what you want, like you could before.",
-      "zhMarkdown": "但这种中等规模融资轮的优势不仅在于稀释较少，你失去的控制权也更少。在天使轮之后，创始人几乎总是牢牢控制着公司，而在 A 轮之后，他们往往就失去了控制权。A 轮融资后传统的董事会结构是：两个创始人、两个 VC，以及一个（理论上）中立的第五人。此外，A 轮条款通常赋予投资人对各种重要决定的否决权，包括出售公司。在 A 轮之后，只要事情进展顺利，创始人通常拥有很多事实上的控制权。但这和以前那种能随心所欲做自己想做的事，完全是两码事。"
+      "zhMarkdown": "但这些中等规模轮次的优势不仅在于稀释更少，你失去的控制权也更少。在天使轮之后，创始人几乎总是仍对公司拥有控制权，而在 A 轮之后他们往往就失去了。A 轮之后传统的董事会架构是两位创始人、两位风投，外加一个（名义上）中立的第五人。此外，A 轮条款通常还会赋予投资人对各种重要决策的否决权，包括出售公司。只要一切顺利，创始人在 A 轮之后通常仍拥有很大程度的实际控制权。但这跟像以前那样想干什么就干什么完全是两码事。"
     },
     {
       "id": 25,
       "type": "paragraph",
       "sourceHash": "6a29dc78d18235671c68783b78f5ca5ebcc42565507d7388caf671a80840fcc0",
       "enMarkdown": "A third and quite significant advantage of angel rounds is that they're less stressful to raise. Raising a traditional series A round has in the past taken weeks, if not months. When a VC firm can only do 2 deals per partner per year, they're careful about which they do. To get a traditional series A round you have to go through a series of meetings, culminating in a full partner meeting where the firm as a whole says yes or no. That's the really scary part for founders: not just that series A rounds take so long, but at the end of this long process the VCs might still say no. The chance of getting rejected after the full partner meeting averages about 25%. At some firms it's over 50%.",
-      "zhMarkdown": "天使轮的第三个、也是非常显著的优势在于，融资过程没那么痛苦。在过去，完成一轮传统的 A 轮融资需要几周甚至几个月的时间。当一家 VC 机构每个合伙人每年只能做 2 个项目时，他们对项目的选择会极其谨慎。要拿到传统的 A 轮投资，你必须通过一轮又一轮的会议，最终在全体合伙人会议上由整家机构决定投还是不投。这对创始人来说是最可怕的部分：不仅是因为 A 轮融资需要这么长时间，而且在漫长过程的终点，VC 仍然可能会说“不”。在全体合伙人会议后被拒绝的概率平均约为 25%，在某些机构甚至超过 50%。"
+      "zhMarkdown": "天使轮的第三个相当显著的优势是，融起来压力小得多。过去融一笔传统的 A 轮需要耗费数周甚至数月。当一家风投机构每个合伙人每年只能做 2 笔交易时，他们做决定时会慎之又慎。要拿到传统的 A 轮投资，你必须经历一系列会议，最终在全体合伙人会议上见分晓，由整家机构决定投还是不投。对创始人来说，这才是真正可怕的部分：不仅是因为 A 轮耗时如此之长，更在于走完这漫长的流程后，风投可能依然会拒绝你。在全体合伙人会议之后被拒的概率平均约为 25%，在某些机构甚至超过 50%。"
     },
     {
       "id": 26,
       "type": "paragraph",
       "sourceHash": "3b432953454e9c0c13f8193e8a649b68e812b4d53f1129b4ced8f288d5fc1d72",
       "enMarkdown": "Fortunately for founders, VCs have been getting a lot faster. Nowadays Valley VCs are more likely to take 2 weeks than 2 months. But they're still not as fast as angels and super-angels, the most decisive of whom sometimes decide in hours.",
-      "zhMarkdown": "对创始人来说幸运的是，VC 的速度已经变得快得多了。如今，硅谷的 VC 更有可能用 2 周而不是 2 个月来做决定。但他们仍然没有天使和超级天使那么快，后者中最果断的人有时在几个小时内就能做出决定。"
+      "zhMarkdown": "对创始人来说幸运的是，风投的速度已经加快了许多。如今硅谷风投往往更倾向于花 2 周而不是 2 个月。但他们依然不如天使和超级天使快，后者中最果断的有时几小时内就能做决定。"
     },
     {
       "id": 27,
@@ -203,7 +203,7 @@
       "type": "paragraph",
       "sourceHash": "099624210d53b2d11aa45d3658d4c149e0b0488681ba6ac005ab817db5ac7a61",
       "enMarkdown": "But at each point you know how you're doing. If investors turn cold you may have to raise less, but when investors in an angel round turn cold the process at least degrades gracefully, instead of blowing up in your face and leaving you with nothing, as happens if you get rejected by a VC fund after a full partner meeting. Whereas if investors seem hot, you can not only close the round faster, but now that convertible notes are becoming the norm, actually [raise the price](https://paulgraham.com/hiresfund.html) to reflect demand.",
-      "zhMarkdown": "但在每个节点，你都清楚地知道自己的进度。如果投资人变冷淡了，你可能只需要少融一点，但当天使轮的投资人变冷淡时，这个过程至少是体面地逐步缩减，而不是像你在 VC 的全体合伙人会议后被拒绝那样，直接在你面前炸开，让你一无所有。相反，如果投资人看起来很热情，你不仅可以更快地结束这一轮，而且现在可转债正成为常态，你实际上可以[提高价格](https://paulgraham.com/hiresfund.html)来反映需求。"
+      "zhMarkdown": "但在每一个节点上，你都清楚自己的处境。如果投资人反应冷淡，你可能得少融一点，但当天使轮中的投资人变冷淡时，这个过程至少是渐进式的妥协，而不是在全体合伙人会议被风投基金拒绝后那样，直接当头一棒让你血本无归。反之，如果投资人热情高涨，你不仅能更快完成融资，而且由于可转债正在成为常态，你甚至可以[提高价格](https://paulgraham.com/hiresfund.html)来反映强劲的需求。"
     },
     {
       "id": 29,
@@ -217,7 +217,7 @@
       "type": "paragraph",
       "sourceHash": "503402b717423112880b0931468a210d799cb201552ae3b2fd2e9bf7985da8e2",
       "enMarkdown": "However, the VCs have a weapon they can use against the super-angels, and they have started to use it. VCs have started making angel-sized investments too. The term \"angel round\" doesn't mean that all the investors in it are angels; it just describes the structure of the round. Increasingly the participants include VCs making investments of a hundred thousand or two. And when VCs invest in angel rounds they can do things that super-angels don't like. VCs are quite valuation-insensitive in angel rounds—partly because they are in general, and partly because they don't care that much about the returns on angel rounds, which they still view mostly as a way to recruit startups for series A rounds later. So VCs who invest in angel rounds can blow up the valuations for angels and super-angels who invest in them. [[6](#f6n)]",
-      "zhMarkdown": "然而，VC 手里有一件可以用来对付超级天使的武器，并且他们已经开始使用了。VC 也开始做天使规模的投资了。“天使轮”这个词并不意味着里面的投资人全都是天使；它只是描述了这一轮的结构。参与者中越来越多地出现了出资十万或二十万美元的 VC。当 VC 投资天使轮时，他们可以做出超级天使不喜欢的事情。VC 在天使轮中对估值相当不敏感——部分原因是因为他们普遍如此，部分原因是因为他们不太在乎天使轮的回报，他们仍把这主要看作是为以后 A 轮融资招揽创业公司的一种手段。因此，投资天使轮的 VC 可以把估值抬得极高，从而挤走参与其中的天使和超级天使。[[6](#f6n)]"
+      "zhMarkdown": "然而，风投也有一件可以用来对付超级天使的武器，并且他们已经开始使用了。风投也开始做天使体量的投资了。“天使轮”这个词并不意味着里面的所有投资人都是天使；它只是用来描述这轮融资的结构。如今参与者中越来越多地出现了出资一二十万美元的风投。而当风投参与天使轮时，他们能做出让超级天使很难受的事情。风投在天使轮中对估值相当不敏感——部分是因为他们一贯如此，部分是因为他们根本不在乎天使轮的回报，他们仍主要把这视作日后为 A 轮锁定创业公司的一种手段。因此，参与天使轮的风投能够把估值推得极高，让同台的天使和超级天使望而却步。[[6](#f6n)]"
     },
     {
       "id": 31,
@@ -238,14 +238,14 @@
       "type": "paragraph",
       "sourceHash": "73ba4bf646a2c9b04308dfdd24469f32bde39b0196a42d7c706c00ef2de0b186",
       "enMarkdown": "So if some of the super-angels were looking for companies that could get acquired quickly, that would explain why they'd care about valuations. But why would they be looking for those? Because depending on the meaning of \"quickly,\" it could actually be very profitable. A company that gets acquired for 30 million is a failure to a VC, but it could be a 10x return for an angel, and moreover, a *quick* 10x return. Rate of return is what matters in investing—not the multiple you get, but the multiple per year. If a super-angel gets 10x in one year, that's a higher rate of return than a VC could ever hope to get from a company that took 6 years to go public. To get the same rate of return, the VC would have to get a multiple of 10^6—one million x. Even Google didn't come close to that.",
-      "zhMarkdown": "所以，如果有些超级天使正在寻找能够快速被收购的公司，这就解释了为什么他们会在乎估值。但他们为什么要寻找这类公司呢？因为根据对“快速”的定义，这实际上可能非常暴利。一家以 3000 万美元被收购的公司对 VC 来说是失败的，但对天使来说可能是 10 倍的回报，而且是*快速的* 10 倍回报。在投资中，起决定作用的是回报率——不是你拿到了多少倍，而是每年的年化倍数。如果一个超级天使在一年内获得了 10 倍回报，这比一个 VC 期望从一家花了 6 年才上市的公司身上获得的回报率还要高。要获得同样的回报率，VC 必须获得 10^6 倍——也就是一百万倍的回报。即使是 Google 也没能接近这个数字。"
+      "zhMarkdown": "因此，如果有些超级天使在寻找能够被迅速收购的公司，这就能解释他们为什么在乎估值了。但他们为什么会寻找这类公司呢？因为取决于“迅速”的定义，这其实可以极其暴利。一家以 3000 万美元被收购的公司在风投眼里是失败的，但对天使投资人来说却可能是 10 倍的回报，更重要的是，这是一笔*迅速的* 10 倍回报。投资中最重要的是回报率——不是你拿到了多少倍数，而是每年的倍数。如果一个超级天使在一年内拿到 10 倍回报，这年化回报率比风投指望一家公司花 6 年上市所能拿到的还要高。风投要达到相同的年化回报率，就必须拿到 10^6 的倍数——也就是一百万倍。连 Google 都远未达到这个水平。"
     },
     {
       "id": 34,
       "type": "paragraph",
       "sourceHash": "da753ce1383583c1d20ac02ad936e9c4f72c06b577c1e5c1092ab1c0998c4d88",
       "enMarkdown": "So I think at least some super-angels are looking for companies that will get bought. That's the only rational explanation for focusing on getting the right valuations, instead of the right companies. And if so they'll be different to deal with than VCs. They'll be tougher on valuations, but more accommodating if you want to sell early.",
-      "zhMarkdown": "所以我认为，至少有一些超级天使正在寻找会被收购的公司。这是把注意力放在争取合理的估值、而不是挑选对的公司的唯一理性解释。如果是这样的话，他们和 VC 打起交道来会很不一样。他们对估值会更苛刻，但如果你想早点把公司卖掉，他们会更配合。"
+      "zhMarkdown": "所以我认为至少有一部分超级天使在寻找会被收购的公司。这是将精力聚焦于获得合适估值而非找准正确公司的唯一合理解释。如果是这样的话，他们打起交道来会跟风投有所不同。他们对估值会更加苛刻，但如果你想尽早卖掉公司，他们会更加顺水推舟。"
     },
     {
       "id": 35,
@@ -259,35 +259,35 @@
       "type": "paragraph",
       "sourceHash": "f16f28940de1477ef2a6454bc3daa6ee160fdfbc9f36a9e25e799cc0252ee81e",
       "enMarkdown": "Who will win, the super-angels or the VCs? I think the answer to that is, some of each. They'll each become more like one another. The super-angels will start to invest larger amounts, and the VCs will gradually figure out ways to make more, smaller investments faster. A decade from now the players will be hard to tell apart, and there will probably be survivors from each group.",
-      "zhMarkdown": "谁会赢，超级天使还是 VC？我认为答案是，双方都有赢家。他们都会变得更像对方。超级天使将开始投资更大的金额，而 VC 也会逐渐摸索出更快地进行更多、更小额投资的方法。十年后，这两类玩家将很难区分，而且每个群体中都会有幸存者。"
+      "zhMarkdown": "超级天使和风投，谁会赢？我认为答案是：两方各有一部分赢家。他们会变得越来越像彼此。超级天使会开始投更大笔的钱，而风投会逐渐摸索出更快地进行更多、更小笔投资的方法。十年后，这两类玩家将难以分辨，而且两派中大概都会有幸存者。"
     },
     {
       "id": 37,
       "type": "paragraph",
       "sourceHash": "72661ea6c40791b2f511ab4c36b36f193f847f94cf63c5848385b83c83eb3874",
       "enMarkdown": "What does that mean for founders? One thing it means is that the high valuations startups are presently getting may not last forever. To the extent that valuations are being driven up by price-insensitive VCs, they'll fall again if VCs become more like super-angels and start to become more miserly about valuations. Fortunately if this does happen it will take years.",
-      "zhMarkdown": "这对创始人意味着什么？其中一个意味着，创业公司目前获得的高估值可能不会永远持续下去。在某种程度上，估值是被对价格不敏感的 VC 推高的，如果 VC 变得更像超级天使，开始对估值斤斤计较，估值就会再次下降。幸运的是，如果这种情况真的发生，也将需要数年的时间。"
+      "zhMarkdown": "这对创始人意味着什么？其中一点意味着，创业公司目前拿到的高估值可能不会永远持续下去。在某种程度上，目前的估值是由对价格不敏感的风投推高的；如果风投变得更像超级天使，开始对估值斤斤计较，估值就会再次回落。幸运的是，即使这种情况真的发生，也需要数年时间。"
     },
     {
       "id": 38,
       "type": "paragraph",
       "sourceHash": "8e40a445c80d0274876198ce26a816b77a6f172a0ed5159ecd7a568275e465bb",
       "enMarkdown": "The short term forecast is more competition between investors, which is good news for you. The super-angels will try to undermine the VCs by acting faster, and the VCs will try to undermine the super-angels by driving up valuations. Which for founders will result in the perfect combination: funding rounds that close fast, with high valuations.",
-      "zhMarkdown": "短期预测是投资人之间竞争会更激烈，这对你是个好消息。超级天使会试图通过更快的行动来挖 VC 的墙脚，而 VC 会试图通过推高估值来挖超级天使的墙脚。对创始人来说，这将带来完美的结合：融资轮次快速搞定，而且估值很高。"
+      "zhMarkdown": "短期的预测是投资人之间的竞争会加剧，这对你来说是个好消息。超级天使会试图通过更快的行动来挖风投的墙角，而风投会试图通过推高估值来遏制超级天使。对创始人而言，这将促成完美的组合：融资轮次交割飞快，且伴随着高估值。"
     },
     {
       "id": 39,
       "type": "paragraph",
       "sourceHash": "0e0a8841ee36ae5a236ee9a2dd9f2c85e2b3938891476f0686e18708e4ba9724",
       "enMarkdown": "But remember that to get that combination, your startup will have to appeal to both super-angels and VCs. If you don't seem like you have the potential to go public, you won't be able to use VCs to drive up the valuation of an angel round.",
-      "zhMarkdown": "但请记住，要获得这种完美的结合，你的创业公司必须同时对超级天使和 VC 都有吸引力。如果你看起来没有上市的潜力，你就无法利用 VC 来推高天使轮的估值。"
+      "zhMarkdown": "但请记住，要获得这种组合，你的创业公司必须对超级天使和风投都具有吸引力。如果你看起来没有上市的潜力，你就无法利用风投来抬高天使轮的估值。"
     },
     {
       "id": 40,
       "type": "paragraph",
       "sourceHash": "4c7042e26f5263ef96f9dc6bc4c14e81a5c83dfc849b272e862b42606d1cd382",
       "enMarkdown": "There is a danger of having VCs in an angel round: the so-called signalling risk. If VCs are only doing it in the hope of investing more later, what happens if they don't? That's a signal to everyone else that they think you're lame.",
-      "zhMarkdown": "在天使轮中引入 VC 存在一个危险：即所谓的信号风险（signalling risk）。如果 VC 投资天使轮只是希望以后能投资更多，那么如果他们以后不跟投了会怎么样？这等于向其他所有人发出信号，表明他们觉得你不行。"
+      "zhMarkdown": "在天使轮中引入风投是存在危险的，即所谓“信号风险”（signalling risk）。如果风投这么做只是希望以后投更多钱，那要是他们后来不投了怎么办？这对其他所有人来说都是一个信号，表明他们觉得你们公司不行。"
     },
     {
       "id": 41,
@@ -301,14 +301,14 @@
       "type": "paragraph",
       "sourceHash": "9587697f92bbb34a83491338455e444bd364f8d9a99d5ea685ebdbbf3b688735",
       "enMarkdown": "Whereas if the next time you need to raise money you won't yet have concrete results, you may need to think more about the message your investors might send if they don't invest more. I'm not sure yet how much you have to worry, because this whole phenomenon of VCs doing angel investments is so new. But my instincts tell me you don't have to worry much. Signalling risk smells like one of those things founders worry about that's not a real problem. As a rule, the only thing that can kill a good startup is the startup itself. Startups hurt themselves way more often than competitors hurt them, for example. I suspect signalling risk is in this category too.",
-      "zhMarkdown": "而如果下一次需要融资时，你还没有具体的业绩，你可能就需要更多地考虑如果你的投资人不追加投资，他们会传递出什么信息。我目前还不确定你有多需要担心，因为 VC 做天使投资的整个现象太新了。但我的直觉告诉我，你不需要太担心。信号风险听起来像是创始人瞎操心、但实际上并不是真正问题的事情之一。通常来说，唯一能杀死一个优秀创业公司的只有创业公司自己。例如，创业公司自己作死的情况，远比被竞争对手击垮的情况要多得多。我怀疑信号风险也属于这一类。"
+      "zhMarkdown": "而如果在你下次需要融资时，你还没有切实的成果，你可能就得更多考虑一下投资人如果不追加投资会释放出什么信号了。我还不能确定你到底需要多担心，因为风投做天使投资这一整套现象都太新了。但我的直觉告诉我，你大可不必太担心。信号风险听起来就像是那些创始人瞎操心但根本不是真正问题的事情之一。通常来说，唯一能杀死一家优秀创业公司的，只有创业公司自己。例如，创业公司搞垮自己的频率远远高于竞争对手击垮他们的频率。我怀疑信号风险也属于这一类。"
     },
     {
       "id": 43,
       "type": "paragraph",
       "sourceHash": "07ee13f16aa400af16a59efceeb99aa427a737fbb50c0ba36fb4a5117d59b1d8",
       "enMarkdown": "One thing YC-funded startups have been doing to mitigate the risk of taking money from VCs in angel rounds is not to take too much from any one VC. Maybe that will help, if you have the luxury of turning down money.",
-      "zhMarkdown": "为了降低在天使轮中拿 VC 钱的风险，YC 资助的创业公司一直在做的一件事就是，不要从任何单一 VC 那里拿太多钱。如果你有拒绝拿钱的奢侈选择，这也许会有所帮助。"
+      "zhMarkdown": "YC 投资的创业公司为了降低在天使轮中拿风投资金的风险，采取的一个做法是：不要从任何单家风投那里拿太多钱。如果你有底气挑三拣四拒绝资金，或许这会有所帮助。"
     },
     {
       "id": 44,
@@ -329,14 +329,14 @@
       "type": "paragraph",
       "sourceHash": "b3ae7bd62b778741278d225c38e770dc8954d60c6b510bfda029af282792cb04",
       "enMarkdown": "[1] I've also heard them called \"Mini-VCs\" and \"Micro-VCs.\" I don't know which name will stick.",
-      "zhMarkdown": "[1] 我也听过他们被称为“迷你 VC”（Mini-VCs）和“微型 VC”（Micro-VCs）。我不知道哪个名字会流行下去。"
+      "zhMarkdown": "[1] 我也听过有人把他们叫做“迷你风投”（Mini-VCs）和“微型风投”（Micro-VCs）。我不知道哪个名字最终会流传下来。"
     },
     {
       "id": 47,
       "type": "paragraph",
       "sourceHash": "06bacb71811fee4b96feb71dbd5bbe0ca15cc2d907acded12c50ed03fe32ad6b",
       "enMarkdown": "There were a couple predecessors. Ron Conway had angel funds starting in the 1990s, and in some ways First Round Capital is closer to a super-angel than a VC fund.",
-      "zhMarkdown": "之前也有过几个先驱。Ron Conway 从 20 世纪 90 年代就开始管理天使基金，而且在某些方面，First Round Capital 更接近超级天使，而不是 VC 基金。"
+      "zhMarkdown": "之前也有几个先例。Ron Conway 从 1990 年代就开始做天使基金，而在某些方面，First Round Capital 比起风投基金更接近超级天使。"
     },
     {
       "id": 48,
@@ -350,28 +350,28 @@
       "type": "paragraph",
       "sourceHash": "bb8654d6aba78f4bf909249b7796c57a0cc21bd8b415e752a39e407af328712b",
       "enMarkdown": "[3] The brand of an investor derives mostly from the success of their portfolio companies. The top VCs thus have a big brand advantage over the super-angels. They could make it self-perpetuating if they used it to get all the best new startups. But I don't think they'll be able to. To get all the best startups, you have to do more than make them want you. You also have to want them; you have to recognize them when you see them, and that's much harder. Super-angels will snap up stars that VCs miss. And that will cause the brand gap between the top VCs and the super-angels gradually to erode.",
-      "zhMarkdown": "[3] 投资人的品牌主要源于他们投资的公司的成功。因此，顶尖 VC 相比超级天使拥有巨大的品牌优势。如果他们利用这一点来包揽所有最好的新创业公司，他们就可以让这种优势延续下去。但我认为他们做不到。要包揽所有最好的创业公司，你不能光让他们想选你。你还必须想选他们；你必须在看到他们时认出他们，而这要困难得多。超级天使会抢走 VC 错过的明星项目。这将导致顶尖 VC 和超级天使之间的品牌差距逐渐缩小。"
+      "zhMarkdown": "[3] 投资人的品牌主要来自于其被投公司的成功。因此，顶尖风投相比超级天使拥有巨大的品牌优势。如果他们能利用这种优势抢下所有最优秀的初创公司，就能让优势永远延续下去。但我认为他们做不到。要抢下所有最优秀的创业公司，光是让他们想选你还不够。你还得看中他们；你必须能在茫茫人海中慧眼识珠，而这要困难得多。超级天使会抢下被风投遗漏的明日之星。这将导致顶尖风投与超级天使之间的品牌差距逐渐缩小。"
     },
     {
       "id": 50,
       "type": "paragraph",
       "sourceHash": "029c73dae720914d6faf95629662f04a2583bcf169950f0ead87c42836e06c15",
       "enMarkdown": "[4] Though in a traditional series A round VCs put two partners on your board, there are signs now that VCs may begin to conserve board seats by switching to what used to be considered an angel-round board, consisting of two founders and one VC. Which is also to the founders' advantage if it means they still control the company.",
-      "zhMarkdown": "[4] 虽然在传统的 A 轮融资中，VC 会安排两位合伙人进入你的董事会，但现在有迹象表明，VC 可能会开始通过转向过去被认为是天使轮的董事会结构（由两个创始人和一个 VC 组成）来节省董事会席位。如果这意味着创始人仍然控制着公司，这同样对创始人有利。"
+      "zhMarkdown": "[4] 虽然在传统的 A 轮融资中，风投会在你的董事会派驻两名合伙人，但现在的迹象表明，风投可能开始通过转向过去被视为天使轮的董事会架构来节省席位——即由两位创始人和一名风投组成。如果这意味着创始人仍能控制公司，这同样对创始人有利。"
     },
     {
       "id": 51,
       "type": "paragraph",
       "sourceHash": "780da26f087463d32c810a45d35a1fc37e17ffbf038f3d4185f8ee7150e17441",
       "enMarkdown": "[5] In a series A round, you usually have to give up more than the actual amount of stock the VCs buy, because they insist you dilute yourselves to set aside an \"option pool\" as well. I predict this practice will gradually disappear though.",
-      "zhMarkdown": "[5] 在 A 轮融资中，你通常必须出让比 VC 实际购买的股票份额更多的股份，因为他们会坚持要求你稀释自己，以留出“期权池”。不过我预测这种做法会逐渐消失。"
+      "zhMarkdown": "[5] 在 A 轮融资中，你通常交出的股份要超过风投实际购买的数额，因为他们坚持要你稀释股权以留出一个“期权池”（option pool）。不过我预测这种做法会逐渐消失。"
     },
     {
       "id": 52,
       "type": "paragraph",
       "sourceHash": "a6f6e59a9431543a9eef4bf4502a402920f4dba38137d5d5f33fc6999b35b6b1",
       "enMarkdown": "[6] The best thing for founders, if they can get it, is a convertible note with no valuation cap at all. In that case the money invested in the angel round just converts into stock at the valuation of the next round, no matter how large. Angels and super-angels tend not to like uncapped notes. They have no idea how much of the company they're buying. If the company does well and the valuation of the next round is high, they may end up with only a sliver of it. So by agreeing to uncapped notes, VCs who don't care about valuations in angel rounds can make offers that super-angels hate to match.",
-      "zhMarkdown": "[6] 如果能拿到的话，对创始人来说最好的选择是完全没有估值上限的可转债。在这种情况下，在天使轮中投入的资金直接按照下一轮的估值转换成股票，无论下一轮估值有多高。天使和超级天使往往不喜欢无上限的债券。他们不知道自己买下了公司多少股份。如果公司发展顺利，下一轮估值很高，他们最终可能只拿到极其微小的一点股份。因此，通过同意无上限的可转债，那些在天使轮中不在乎估值的 VC 可以开出超级天使极不情愿匹配的条件。"
+      "zhMarkdown": "[6] 对创始人来说，最理想的状态（如果能拿到的话）是完全没有估值上限的可转债。在这种情况下，天使轮中投进来的资金就直接按照下一轮的估值折算成股份，不管下一轮估值有多高。天使和超级天使往往不喜欢无上限的可转债。他们完全不知道自己买下了公司的多大份额。如果公司表现很好且下一轮估值很高，他们最终可能只能拿到极小的一点股份。因此，通过同意无上限的可转债，那些不在乎天使轮估值的风投就能开出超级天使根本不想跟进的优厚条件。"
     },
     {
       "id": 53,

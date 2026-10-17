@@ -6,8 +6,8 @@
   "publishedAt": "2023-07-01",
   "sourceOrder": 0,
   "sourceUrl": "https://paulgraham.com/greatwork.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -175,14 +175,14 @@
       "type": "paragraph",
       "sourceHash": "584cecb9a63f7dad5366eefdf55a2b8ef14c157e5d53215391f26dc53a03394d",
       "enMarkdown": "What should you do if you're young and ambitious but don't know what to work on? What you should *not* do is drift along passively, assuming the problem will solve itself. You need to take action. But there is no systematic procedure you can follow. When you read biographies of people who've done great work, it's remarkable how much luck is involved. They discover what to work on as a result of a chance meeting, or by reading a book they happen to pick up. So you need to make yourself a big target for luck, and the way to do that is to be curious. Try lots of things, meet lots of people, read lots of books, ask lots of questions. [[5](#f5n)]",
-      "zhMarkdown": "如果你年轻、有抱负，却不知道该做什么，该怎么办？你最**不**该做的事就是随波逐流，指望问题会自己解决。你需要采取行动。但这里并没有一套可以照本宣科的系统化程序。当你阅读那些伟人的传记时，会发现其中运气成分大得惊人。他们往往因为一次偶然的相遇，或者随手翻开的一本书，就找到了自己的终身事业。所以，你需要让自己成为一个容易被运气砸中的靶子，而方法就是保持好奇心。尝试很多事，结识很多人，读很多书，问很多问题。[[5](#f5n)]"
+      "zhMarkdown": "如果你年轻且有雄心，却不知道该做什么，你该怎么办？你*不该*做的，就是被动随波逐流，以为问题会自行解决。你必须采取行动。但这并没有一个按部就班的系统流程可循。当你阅读杰出人物的传记时，会惊讶地发现其中包含了多少运气成分。他们找到方向的契机，往往是一次偶然的相遇，或是随手翻开的一本书。因此，你需要把自己变成一个更容易被运气击中的大目标，而做到这一点的方法就是保持好奇心。多尝试新事物，多结识人，多读书，多提问。[[5](#f5n)]"
     },
     {
       "id": 25,
       "type": "paragraph",
       "sourceHash": "44a0c23e116d1578173eca1df43d155c43e67ccfc56799d8278bae827ea7a633",
       "enMarkdown": "When in doubt, optimize for interestingness. Fields change as you learn more about them. What mathematicians do, for example, is very different from what you do in high school math classes. So you need to give different types of work a chance to show you what they're like. But a field should become *increasingly* interesting as you learn more about it. If it doesn't, it's probably not for you.",
-      "zhMarkdown": "当游移不定时，以“有趣程度”为标准进行优化。随着你了解的深入，领域本身也会发生变化。例如，数学家做的事情，与你在高中数学课上做的截然不同。所以，你需要给不同类型的工作一个展现其真实面貌的机会。但是，随着你对一个领域的了解加深，它应该变得**越来越**有趣。如果没有，那它可能并不适合你。"
+      "zhMarkdown": "拿不准的时候，优先选择更有趣的事物。随着你了解的深入，一个领域展现在你面前的面貌也会发生变化。例如，数学家所做的事情，与你在高中数学课上做的事情大相径庭。所以，你得给不同类型的工作一个机会，去展现它们的本来面貌。但是，随着了解的加深，一个领域应该变得*越来越*有趣。如果并非如此，它大概就不适合你。"
     },
     {
       "id": 26,
@@ -217,7 +217,7 @@
       "type": "paragraph",
       "sourceHash": "6df37bdb2c508053765b3d263bc3cb8ccbb4932e44fe4a080c983becd8ac0b20",
       "enMarkdown": "This *should* follow from the excitingness rule. Obviously the most exciting story to write will be the one you want to read. The reason I mention this case explicitly is that so many people get it wrong. Instead of making what they want, they try to make what some imaginary, more sophisticated audience wants. And once you go down that route, you're lost. [[6](#f6n)]",
-      "zhMarkdown": "这**应该**是“兴奋感法则”的自然延伸。显然，最令人兴奋的故事，正是你想读的那一个。我之所以特意提到这一点，是因为太多人在这上面走入误区。他们不去创造自己想要的东西，而是试图去迎合某种想象中、更高级的受众。一旦走上这条路，你就迷失了。[[6](#f6n)]"
+      "zhMarkdown": "这一点*本应*顺理成章地出自“让人兴奋”这条原则。显然，写起来最让人兴奋的故事，必然是你自己想读的故事。我之所以特意提出这一点，是因为有太多人都搞错了。他们不去创造自己想要的东西，反而试图去迎合某种想象中更成熟、更高深的受众。一旦走上那条路，你就迷失了。[[6](#f6n)]"
     },
     {
       "id": 31,
@@ -420,7 +420,7 @@
       "type": "paragraph",
       "sourceHash": "134a601fed16f886448e91336cb6f6c4531c3a942caad19a43098654bd42dbda",
       "enMarkdown": "And that *is* what you're aiming for, because if you don't try to be the best, you won't even be good. This observation has been made by so many people in so many different fields that it might be worth thinking about why it's true. It could be because ambition is a phenomenon where almost all the error is in one direction — where almost all the shells that miss the target miss by falling short. Or it could be because ambition to be the best is a qualitatively different thing from ambition to be good. Or maybe being good is simply too vague a standard. Probably all three are true. [[11](#f11n)]",
-      "zhMarkdown": "而那**正是**你努力的目标，因为如果你不争取成为最好的，你连优秀都做不到。无数不同领域的先行者都表达过这个观点，以至于我们值得去思考一下为什么它是对的。这可能是因为在“野心”这种现象中，几乎所有的误差都发生在同一个方向——几乎所有脱靶的炮弹，都是因为射程不足。或者是因为，“想成为最好”的野心，与“想成为优秀”的野心，在质地上完全不同。又或者，仅仅是因为“优秀”这个标准太模糊了。可能这三点都成立。[[11](#f11n)]"
+      "zhMarkdown": "而这*正是*你该追求的目标，因为如果你不力争做到最好，你甚至连优秀都做不到。在各行各业中，有太多人都提出过这一观察，因此不妨思考一下为什么这是真的。这可能是因为抱负是一种绝大多数误差都在同一方向上的现象——几乎所有偏离目标的炮弹都是因为打得不够远。也可能是因为力争成为最好与只想做到优秀在本质上截然不同。又或许“做到优秀”本身就是一个过于模糊的标准。很可能这三种解释都成立。[[11](#f11n)]"
     },
     {
       "id": 60,
@@ -511,7 +511,7 @@
       "type": "paragraph",
       "sourceHash": "f6c026afc3192caec9d39f16e4e8b99e0bdb40d9e7c2615786ee3010054be544",
       "enMarkdown": "There may be some jobs where it's an advantage to be cynical and pessimistic, but if you want to do great work it's an advantage to be optimistic, even though that means you'll risk looking like a fool sometimes. There's an old tradition of doing the opposite. The Old Testament says it's better to keep quiet lest you look like a fool. But that's advice for *seeming* smart. If you actually want to discover new things, it's better to take the risk of telling people your ideas.",
-      "zhMarkdown": "在某些职业中，愤世嫉俗和悲观可能是一种优势，但如果你想做出杰出的成就，乐观则是一种优势，尽管这意味着你有时要冒着看起来像个傻瓜的风险。有一种古老的传统恰恰相反。《旧约》里说，最好保持沉默，免得显得像个傻瓜。但那是为了“显得”聪明的建议。如果你真的想发现新事物，最好冒着被别人笑话的风险说出你的想法。"
+      "zhMarkdown": "或许有些工作需要愤世嫉俗和悲观才能带来优势，但如果你想做出杰出成果，乐观才会带来优势——即使这意味着你有时候要冒着看起来像个傻瓜的风险。传统观念往往反其道而行之。《旧约》里说，保持沉默免得显出愚昧。但这只是教你如何*显得*聪明的建议。如果你真想发现新事物，倒不如冒点风险，把你的想法大胆讲给别人听。"
     },
     {
       "id": 73,
@@ -616,7 +616,7 @@
       "type": "paragraph",
       "sourceHash": "1e54f7f29a943e40bfb8c881264eeabc26c3373d963e1eaeba4971b4a7cc25ca",
       "enMarkdown": "In English we give this ability names like originality, creativity, and imagination. And it seems reasonable to give it a separate name, because it does seem to some extent a separate skill. It's possible to have a great deal of ability in other respects — to have a great deal of what's often called *technical* ability — and yet not have much of this.",
-      "zhMarkdown": "在英语中，我们给这种能力赋予了“原创性（originality）”、“创造力（creativity）”和“想象力（imagination）”等名字。给它一个单独的名称似乎很合理，因为在某种程度上，这确实像是一种独立的能力。一个人完全有可能在其他方面拥有极高的能力——拥有极高的高手通常所说的“技术能力”——却在这方面有所欠缺。"
+      "zhMarkdown": "在英语中，我们把这种能力称为独创性、创造力或想象力。给它一个单独的名称似乎很合理，因为它在某种程度上确实是一项独立的技能。一个人完全可能在其他方面极具才能——拥有大量通常所说的*技术*能力——但在这种能力上却所剩无几。"
     },
     {
       "id": 88,
@@ -665,7 +665,7 @@
       "type": "paragraph",
       "sourceHash": "b197ddb7e1e10afef2ccda39f7a7127fd6ab03b2eb79b571d80c083dbf7d2752",
       "enMarkdown": "Don't divide your attention *evenly* between many topics though, or you'll spread yourself too thin. You want to distribute it according to something more like a power law. [[17](#f17n)] Be professionally curious about a few topics and idly curious about many more.",
-      "zhMarkdown": "不过，不要把你的注意力**平均**分配给许多主题，否则你会把自己铺得太薄。你应该按照更接近幂律的方式来分配精力。[[17](#f17n)] 对少数几个主题保持专业性的好奇，对更多的主题保持闲适的猎奇。"
+      "zhMarkdown": "不过，不要把精力*平均*分配在许多课题上，否则你会分散得太开。你应该更倾向于按幂律来分配注意力。[[17](#f17n)] 对少数几个课题保持专业的探究欲，而对更多的课题保持闲暇的涉猎心。"
     },
     {
       "id": 95,
@@ -756,7 +756,7 @@
       "type": "paragraph",
       "sourceHash": "48e6b593c5ab45b541c8202ff448db08a37eef57ec765249a4b4363089fd94e9",
       "enMarkdown": "Strictness plus rule-breaking sounds like a strange combination. In popular culture they're opposed. But popular culture has a broken model in this respect. It implicitly assumes that issues are trivial ones, and in trivial matters strictness and rule-breaking *are* opposed. But in questions that really matter, only rule-breakers can be truly strict.",
-      "zhMarkdown": "严苛加上打破规则，听起来像是一个奇怪的组合。在流行文化中，这两者是对立的。但流行文化在这方面的模型是破损的。它隐性地假设问题都是无关紧要的琐事，而在琐事中，严苛和打破规则**确实**是对立的。但在真正重要的问题上，只有打破规则的人才能做到真正的严苛。"
+      "zhMarkdown": "严谨与打破常规听起来是个奇怪的组合。在大众文化中，两者是对立的。但大众文化在这方面的认知模型是有缺陷的。它默认问题都是无关紧要的小事，而在琐事上，严谨与打破常规*确实*互相对立。但在真正至关重要的问题上，唯有打破常规者才能做到真正的严谨。"
     },
     {
       "id": 108,
@@ -770,7 +770,7 @@
       "type": "paragraph",
       "sourceHash": "8946748739a03c02d28790e00ab313345d529465e45e92a63b909dcad4f30861",
       "enMarkdown": "One way to do that is to ask what would be good ideas for *someone\nelse* to explore. Then your subconscious won't shoot them down to protect you.",
-      "zhMarkdown": "做到这一点的一个方法是，去问问有哪些好想法是值得**别人**去探索的。这样你的潜意识就不会为了保护你而把它们枪毙掉了。"
+      "zhMarkdown": "一种方法是问问自己：有哪些好想法适合*别人*去探索？这样一来，你的潜意识就不会为了保护你而把它们扼杀了。"
     },
     {
       "id": 110,
@@ -959,7 +959,7 @@
       "type": "paragraph",
       "sourceHash": "63acce57a9fec3dc5755b82639573eb4e07182b7fc79272be8450b733c087741",
       "enMarkdown": "The alternative to starting with something small and evolving it is to plan in advance what you're going to do. And planning does usually seem the more responsible choice. It sounds more organized to say \"we're going to do x and then y and then z\" than \"we're going to try x and see what happens.\" And it is more *organized*; it just doesn't work as well.",
-      "zhMarkdown": "与“从小处着手并不断演化”相对立的选择，是提前规划好你要做的一切。规划通常看起来是更负责任的选择。说“我们要先做 X，再做 Y，最后做 Z”听起来比“我们先试试 X，看看会发生什么”显得更有条理。它确实更**有条理**，只是效果没那么好。"
+      "zhMarkdown": "除了从小处着手逐步演化之外，另一种选择是预先规划好你要做的事。规划通常看起来是更负责任的做法。说“我们要先做 x，再做 y，最后做 z”，听起来比说“我们先试试 x，看看会发生什么”显得更有条理。它确实更*有条理*，只不过效果没那么好罢了。"
     },
     {
       "id": 137,
@@ -1029,7 +1029,7 @@
       "type": "paragraph",
       "sourceHash": "85c0ad99cdfef30b0554f2ef84e020403ecce4f65bffa83dfba261baab8dc2e3",
       "enMarkdown": "One of the most valuable kinds of knowledge you get from experience is to know what you *don't* have to worry about. The young know all the things that could matter, but not their relative importance. So they worry equally about everything, when they should worry much more about a few things and hardly at all about the rest.",
-      "zhMarkdown": "你从经验中获得的最宝贵的知识之一，就是知道自己**不**用担心什么。年轻人知道所有可能重要的事情，但不知道它们的相对重要性。所以他们对所有事情都同等程度地焦虑，而实际上他们应该对少数几件事加倍担心，而对剩下的事情几乎完全不在乎。"
+      "zhMarkdown": "从经验中能获得的最有价值的认知之一，就是明白哪些事情你*不必*担心。年轻人知道所有可能重要的事情，却不知道它们的相对重要性。因此他们对所有事情平均使劲地担忧，而实际上他们应该把大部分心思放在少数几件事上，对其余的则几乎完全不用操心。"
     },
     {
       "id": 147,
@@ -1113,7 +1113,7 @@
       "type": "paragraph",
       "sourceHash": "e0902f5e51ac077ffe5d4a43fac64d130c80e27c5b22e4bfb395da2d48e02f96",
       "enMarkdown": "Oddly enough, the very novelty of the most novel ideas sometimes makes them seem at first to be more derivative than they are. New discoveries often have to be conceived initially as variations of existing things, *even by their discoverers*, because there isn't yet the conceptual vocabulary to express them.",
-      "zhMarkdown": "奇妙的是，最具有颠覆性的新创意，其极度的创新性有时反而会在最初让他们看起来更像衍生品。新发现往往在最初必须被构想为现有事物的变体，**甚至对它们的发现者来说也是如此**，因为当时还没有能够表达它们的词汇体系。"
+      "zhMarkdown": "说来奇怪，最富新意的想法正因为其全新性，起初反而常常显得更具衍生性。新的发现在最初往往不得不被构想为既有事物的变体，*哪怕在其发现者眼里也是如此*，因为当时还没有能够表达它们的概念词汇。"
     },
     {
       "id": 159,
@@ -1204,7 +1204,7 @@
       "type": "paragraph",
       "sourceHash": "b06e419832a25e75ff6cf529d1b2edeb9a949051b63d1c7f26b27e911e53a55a",
       "enMarkdown": "How do you know when you have sufficiently good colleagues? In my experience, when you do, you know. Which means if you're unsure, you probably don't. But it may be possible to give a more concrete answer than that. Here's an attempt: sufficiently good colleagues offer *surprising* insights. They can see and do things that you can't. So if you have a handful of colleagues good enough to keep you on your toes in this sense, you're probably over the threshold.",
-      "zhMarkdown": "你如何知道自己拥有了足够好的同行？在我的经验中，当你拥有时，你自然会知道。这意味着如果你不确定，你可能还没有拥有。但或许可以给出一个更具体的答案。这里有一个尝试：足够优秀的同行能提供**令人惊讶**的洞见。他们能看到并做到你做不到的事。所以，如果你有几位同行，好到能在这种意义上让你保持警醒，你大概就已经跨过了门槛。"
+      "zhMarkdown": "你怎么知道自己的同伴是否足够优秀？以我的经验，如果他们足够好，你自己心里是清楚的。这意味着如果你拿不准，那大概率就是还不够好。不过，或许可以给出一个更具体的答案。试着这样定义：足够优秀的同伴能带来*出人意料*的洞见。他们能看到你看不到的东西，做到你做不到的事情。因此，如果你身边有几个足够好的同伴能在这种意义上让你时刻保持敏锐与警醒，那么你大概已经越过了那个门槛。"
     },
     {
       "id": 172,
@@ -1309,7 +1309,7 @@
       "type": "paragraph",
       "sourceHash": "8306c8bf92c6ed7202ba8fae11713be76a21c0a2044184d9af3cef31053fd8a8",
       "enMarkdown": "People who do great work are not necessarily happier than everyone else, but they're happier than they'd be if they didn't. In fact, if you're smart and ambitious, it's dangerous *not* to be productive. People who are smart and ambitious but don't achieve much tend to become bitter.",
-      "zhMarkdown": "做出杰出成就的人不一定比其他人更快乐，但他们比不做出成就时要快乐。事实上，如果你聪明又有野心，不保持产出会是危险的。那些聪明、有野心却没有什么成就的人，往往会变得愤世嫉俗、怨天尤人。"
+      "zhMarkdown": "做出杰出成果的人未必比其他人更快乐，但肯定比他们没做出成就时要快乐。事实上，如果你聪明又有雄心，*不产出成果*是危险的。聪明且雄心勃勃却一无所成的人，往往会变得怨天尤人。"
     },
     {
       "id": 187,
@@ -1477,7 +1477,7 @@
       "type": "paragraph",
       "sourceHash": "9a577013da72f268b40053f708ea80e82fe7e4bddb5c085313c8f42bceabbf9b",
       "enMarkdown": "[7] This idea I learned from Hardy's *A Mathematician's Apology*, which I recommend to anyone ambitious to do great work, in any field.",
-      "zhMarkdown": "[7] 这个想法我从哈代的《一个数学家的辩白》中学到，我向任何想在任何领域做出杰出成就的人推荐这本书。"
+      "zhMarkdown": "[7] 这个想法是我从哈代的《*一个数学家的辩白*》中得来的，我把它推荐给任何领域中渴望做出杰出工作的人。"
     },
     {
       "id": 211,
@@ -1512,7 +1512,7 @@
       "type": "paragraph",
       "sourceHash": "3a072f81e32fdd1c4201090f9a5b875762ac82f4b768c97dc4d8f5e71f36b7f5",
       "enMarkdown": "[12] This gets more complicated in work like acting, where the goal is to adopt a fake persona. But even here it's possible to be affected. Perhaps the rule in such fields should be to avoid *unintentional* affectation.",
-      "zhMarkdown": "[12] 在像表演这样的工作中，这变得更加复杂，表演的目标是采用一个虚假的人设。但即使在这里，也有可能变得做作。也许在这些领域，规则应该是避免**无意中**的做作。"
+      "zhMarkdown": "[12] 在像表演这样的工作中，情况会变得更复杂，因为其目标正是扮演一个虚构的人格。但即便是表演，也可能显得造作。或许在这些领域中，原则应当是避免*无意识的*做作。"
     },
     {
       "id": 216,

@@ -4,10 +4,10 @@
   "titleZh": "创业公司的真实面貌",
   "dateText": "October 2009",
   "publishedAt": "2009-10-01",
-  "sourceOrder": 109,
+  "sourceOrder": 111,
   "sourceUrl": "https://paulgraham.com/really.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -399,7 +399,7 @@
       "type": "paragraph",
       "sourceHash": "e681bcb2a1bdee68431ba8a34f40dc28728a9f689f6ecc1c957c03b550aa75e3",
       "enMarkdown": "One reason founders are surprised is that because they work fast, they expect everyone else to. There's a shocking amount of shear stress at every point where a startup touches a more bureaucratic organization, like a big company or a VC fund. That's why fundraising and the enterprise market kill and maim so many startups. [[2](#f2n)]",
-      "zhMarkdown": "创始人感到意外的一个原因在于，因为他们自己干活快，所以期望别人也一样快。在创业公司与官僚机构（如大公司或风险投资基金）接触的每一个节点，都存在着令人震惊的剪切应力。这就是为什么融资和企业级市场会杀死并重创这么多创业公司。[[2](#f2n)]"
+      "zhMarkdown": "创始人感到意外的一个原因在于，他们自己做事节奏快，就以为其他人也是如此。每当创业公司接触到像大公司或风投基金这样更为官僚的机构时，两者相接之处都会产生惊人的剪切应力。这就是为什么融资和大企业市场会让那么多创业公司非死即伤。[[2](#f2n)]"
     },
     {
       "id": 57,
@@ -903,7 +903,7 @@
       "type": "quote",
       "sourceHash": "d070f44bc3c8b59976dc9068542b31d01aae38581919e554ba41458c832b4b5c",
       "enMarkdown": "> VC investors don't know half the time what they are talking about and are years behind in their thinking. A few were great, but 95% of the investors we dealt with were unprofessional, didn't seem to be very good at business or have any kind of creative vision. Angels were generally much better to talk to.",
-      "zhMarkdown": "> 风险投资人有一半时间不知道自己在说什么，他们的思维落后了好几年。有少数几个很棒，但我们打过交道的投资者中，有 95% 都显得很不专业，似乎不太懂商业，也没有任何创造性的愿景。相比之下，天使投资人通常要好聊得多。"
+      "zhMarkdown": "> 风投有一半时间根本不知道自己在说什么，而且思维还落后了好几年。有少数几个人确实很棒，但我们接触过的投资人里，95%都不够专业，既不太懂商业，也没有任何创造性远见。通常来说，天使投资人要好打交道得多。"
     },
     {
       "id": 129,

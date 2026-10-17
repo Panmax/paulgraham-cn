@@ -4,10 +4,10 @@
   "titleZh": "能用钱买出一个硅谷吗？也许可以。",
   "dateText": "February 2009",
   "publishedAt": "2009-02-01",
-  "sourceOrder": 124,
+  "sourceOrder": 126,
   "sourceUrl": "https://paulgraham.com/maybe.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -70,7 +70,7 @@
       "type": "paragraph",
       "sourceHash": "0a5a3db04bd1f98da0e16dd6bcd9b5baaaf4bdc2fa4720f8b3fec9836835e1e5",
       "enMarkdown": "How much would that take? If you want to keep startups from leaving your town, you have to give them enough that they're not tempted by an offer from Silicon Valley VCs that requires them to move. A startup would be able to refuse such an offer if they had grown to the point where they were (a) rooted in your town and/or (b) so successful that VCs would fund them even if they didn't move.",
-      "zhMarkdown": "这需要多少钱？如果你想留住创业公司不让他们离开，你就必须给他们足够多的钱，让他们面对硅谷风险投资人要求搬迁的投资意向时，不为所动。只有当创业公司发展到以下程度时，才能拒绝这样的条件：（a）已在本地深扎根基，且/或（b）非常成功，以至于风险投资人即使在他们不搬迁的情况下也愿意给他们投资。"
+      "zhMarkdown": "那需要多少钱？如果你想留住创业公司不离开你的城市，就必须给足资金，让他们面对硅谷风投开出要求搬迁的投资意向时不会心动。一家创业公司如果成长到以下程度，就能拒绝这类要求：(a) 已经在你的城市扎下了根，并且/或者 (b) 已经成功到即使不搬家，风投也照样愿意投资他们。"
     },
     {
       "id": 10,
@@ -105,7 +105,7 @@
       "type": "paragraph",
       "sourceHash": "57970afcffbd06a32b100fe34da4c247d3aa18ed0ff1f6d8cc0d42fbf7538a05",
       "enMarkdown": "What's more, it wouldn't take very long. You could probably do it in five years. During the term of one mayor. And it would get easier over time, because the more startups you had in town, the less it would take to get new ones to move there. By the time you had a thousand startups in town, the VCs wouldn't be trying so hard to get them to move to Silicon Valley; instead they'd be opening local offices. Then you'd really be in good shape. You'd have started a self-sustaining chain reaction like the one that drives the Valley.",
-      "zhMarkdown": "而且，这不需要太长时间。你可能在五年内就能做到。也就是一任市长的任期。随着时间的推移，这件事会变得越来越容易，因为城里的创业公司越多，吸引新公司搬过来的成本就越低。等你城里有了 1000 家创业公司，风险投资人就不会再费尽心思逼他们搬去硅谷了，反而会在本地开设办公室。到那时，你就真正进入了良性循环。你已经启动了像推动硅谷发展那样的、能够自我维持的链式反应。"
+      "zhMarkdown": "而且，这耗费的时间不会太长。也许五年就能办到——正好是一任市长的任期。随着时间推移，事情还会变得越来越容易，因为城里的创业公司越多，吸引新公司搬过来所需要的成本就越低。等到城里有一千家创业公司时，风投就不会再费尽心思劝他们搬去硅谷了；相反，他们会在本地开设办事处。到了那时，局面就彻底盘活了。你已经启动了一种能够自我维系的链式反应，正如推动硅谷前行的那种力量一样。"
     },
     {
       "id": 15,
@@ -126,7 +126,7 @@
       "type": "paragraph",
       "sourceHash": "509f1e30f7673798d9ab4593b0320e51bdc808467bda06ec31f6bbdd58687d73",
       "enMarkdown": "For example, a city could give money to a VC fund to establish a local branch, and let them make the choices. But only a bad VC fund would take that deal. They wouldn't *seem* bad to the city officials. They'd seem very impressive. But they'd be bad at picking startups. That's the characteristic failure mode of VCs. All VCs look impressive to limited partners. The difference between the good ones and the bad ones only becomes visible in the other half of their jobs: choosing and advising startups. [[2](#f2n)]",
-      "zhMarkdown": "例如，城市可以出资给一家风险投资基金设立本地分支，让他们来做选择。但只有糟糕的风险投资基金才会接受这种交易。在市政官员眼里，他们*看起来*并不糟糕，反而显得非常有派头。但他们并不擅长挑选创业公司。这是风险投资家典型的失败模式。在有限合伙人（LP）面前，所有的风险投资家看起来都很专业。优秀者与平庸者的区别，只有在他们工作的另一半内容中才会显现出来：挑选并指导创业公司。[[2](#f2n)]"
+      "zhMarkdown": "比方说，市政府可以出资让一家风投基金在当地设立分部，由他们来负责挑选项目。但只有糟糕的风投基金才会接受这种交易。在市政官员眼里，他们*看起来*并不糟糕，甚至会显得非常光鲜体面。但他们在挑选创业公司上会非常差劲。这是风投最典型的失败模式：面对有限合伙人，所有风投都显得光鲜体面；而优秀风投和糟糕风投的区别，只有在他们工作的另一半中才会显现出来——也就是挑选创业公司并为其提供指导。[[2](#f2n)]"
     },
     {
       "id": 18,
@@ -280,7 +280,7 @@
       "type": "paragraph",
       "sourceHash": "8a2f6d455b0fccd0827804e5e31af12c7576add86a475f18b76657f46a9f9dbf",
       "enMarkdown": "[2] Interestingly, the bad VCs fail by choosing startups run by people like them—people who are good presenters, but have no real substance. It's a case of the fake leading the fake. And since everyone involved is so plausible, the LPs who invest in these funds have no idea what's happening till they measure their returns.",
-      "zhMarkdown": "[2] 有趣的是，糟糕的风险投资家失败的原因在于，他们挑选了由和自己相似的人经营的创业公司——那些善于做展示，但没有真材实料的人。这属于骗子领导骗子的典型。由于参与其中的每个人看起来都非常靠谱，投资这些基金的有限合伙人（LP）在看到最终回报之前，根本不知道发生了什么。"
+      "zhMarkdown": "[2] 有趣的是，糟糕的风投之所以失败，是因为他们挑中的创业公司，其创始人往往和他们是一类人——擅长做展示、夸夸其谈，却毫无真材实料。这完全是冒牌货领着冒牌货。而由于卷入其中的每个人表面上都显得那么靠谱，投资这些基金的 LP 根本不知道实际情况如何，直到他们核算投资回报的那一天。"
     },
     {
       "id": 40,

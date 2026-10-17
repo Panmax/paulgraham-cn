@@ -4,10 +4,10 @@
   "titleZh": "如何向投资人做陈述",
   "dateText": "August 2006",
   "publishedAt": "2006-08-01",
-  "sourceOrder": 163,
+  "sourceOrder": 165,
   "sourceUrl": "https://paulgraham.com/investors.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -231,7 +231,7 @@
       "type": "paragraph",
       "sourceHash": "42f8c8ae791a0976134db867e23c4e89bc8ceb59bf5541e781322e5220764c36",
       "enMarkdown": "Recently a VC who came to speak at Y Combinator talked about a company he just invested in. He said their business model was wrong and would probably change three times before they got it right. The founders were experienced guys who'd done startups before and who'd just succeeded in getting millions from one of the top VC firms, and even their business model was crap. (And yet he invested anyway, because he expected it to be crap at this stage.)",
-      "zhMarkdown": "最近有一位来 Y Combinator 演讲的风险投资人谈到了他刚投资的一家公司。他说他们的商业模式是错的，在走上正轨之前可能会变个三次。那些创始人都是经验丰富、做过创业公司的人，并且刚刚成功从一家顶级风险投资机构拿到了数百万美元，可即便如此，他们的商业模式依然很烂。（然而他还是投资了，因为他预料到在这个阶段就是会很烂。）"
+      "zhMarkdown": "最近有位风投来 Y Combinator 做分享，聊到了他刚投的一家公司。他说这家公司的商业模式是错的，在找到正确模式之前大概得改上三次。那帮创始人都是做过创业公司的老手，而且刚刚从一家顶尖风投机构融到了数百万美元，可就连他们的商业模式也烂得一塌糊涂。（然而他还是投了，因为他心里清楚，在现阶段商业模式本来就会烂成这样。）"
     },
     {
       "id": 33,
@@ -343,7 +343,7 @@
       "type": "paragraph",
       "sourceHash": "7a92ee4726a64ee1a8418a2b1b160a06e569006cf5a4e5b5eb1373e1b3bd61e8",
       "enMarkdown": "What you must not do is seem nervous and apologetic. If you've truly made something good, you're doing investors a *favor* by telling them about it. If you don't genuinely believe that, perhaps you ought to change what your company is doing. If you don't believe your startup has such promise that you'd be doing them a favor by letting them invest, why are you investing your time in it?",
-      "zhMarkdown": "你绝对不能显得紧张和抱歉。如果你真的做出了好东西，你把这件事告诉投资人，其实是在帮他们的**忙**。如果你不真心这么认为，也许你该调整一下公司在做的事情了。如果你不相信自己的创业公司大有前途，让他们投资是在帮他们的忙，那你为什么还要把自己的时间投资在上面呢？"
+      "zhMarkdown": "你万万不能显得紧张甚至心虚。如果你真的做出了好东西，把它告诉投资人，其实是*帮了他们的忙*。要是你打心底里不这么认为，那你或许该换个创业方向了。如果你都不相信自己的创业公司前途无量、让他们投资是帮了他们一个忙，那你自己又何苦把时间投在上面呢？"
     },
     {
       "id": 49,

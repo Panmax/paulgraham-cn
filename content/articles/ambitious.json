@@ -4,10 +4,10 @@
   "titleZh": "野心大到吓人的创业想法",
   "dateText": "March 2012",
   "publishedAt": "2012-03-01",
-  "sourceOrder": 90,
+  "sourceOrder": 92,
   "sourceUrl": "https://paulgraham.com/ambitious.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -448,7 +448,7 @@
       "type": "paragraph",
       "sourceHash": "fa8dadbc4918e442a65a7a960ebf395e69c9b7b1503c50fb1276ee4c214fa9aa",
       "enMarkdown": "[1] It's also one of the most important things VCs fail to understand about startups. Most expect founders to walk in with a clear plan for the future, and judge them based on that. Few consciously realize that in the biggest successes there is the least correlation between the initial plan and what the startup eventually becomes.",
-      "zhMarkdown": "[1] 这也是风险投资人们未能理解创业公司的最重要的一点之一。大多数风险投资人期望创始人带着清晰的未来规划走进来，并以此来评判他们。很少有人能自觉地意识到，在最成功的案例中，最初的计划与创业公司最终的走向之间几乎没有任何关联。"
+      "zhMarkdown": "[1] 这也是风投在创业公司身上最搞不懂的关键事情之一。大多数风投都指望创始人走进来时能拿出一套清晰的未来规划，并以此作为评判依据。极少有人清醒地意识到，在那些最成功的案例中，创业公司最初的计划与最终的形态之间，关联度其实是最低的。"
     },
     {
       "id": 64,

@@ -4,10 +4,10 @@
   "titleZh": "Web 2.0",
   "dateText": "November 2005",
   "publishedAt": "2005-11-01",
-  "sourceOrder": 175,
+  "sourceOrder": 177,
   "sourceUrl": "https://paulgraham.com/web20.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "b9a5016dd8d9210ab8b844fbfe52872c9baa08348c91808999625f895e6ae6dd",
       "enMarkdown": "The story about \"Web 2.0\" meaning the web as a platform didn't live much past the first conference. By the second conference, what \"Web 2.0\" seemed to mean was something about democracy. At least, it did when people wrote about it online. The conference itself didn't seem very grassroots. It cost $2800, so the only people who could afford to go were VCs and people from big companies.",
-      "zhMarkdown": "关于“Web 2.0 意味着网络作为平台”的说法在第一届会议后就没怎么再流传了。到了第二届会议，大家口中的“Web 2.0”似乎变成了某种关于民主的东西。至少，人们在网上写文章时是这么说的。不过会议本身看起来并不怎么接地气，门票高达 2800 美元，所以唯一去得起的人只有风险投资人和大公司的高管。"
+      "zhMarkdown": "“Web 2.0”意味着网络即平台这种说法，在第一届大会之后并没能维持多久。到了第二届大会，“Web 2.0”的意思似乎变成了与民主相关的某种东西。至少，大家在网上写文章时是这个意思。大会本身倒看不太出有什么草根气质。门票高达 2800 美元，能去得起的只有风投和大公司的人。"
     },
     {
       "id": 9,
@@ -91,14 +91,14 @@
       "type": "paragraph",
       "sourceHash": "0a3c5a261d0fd65ecd9c101086d55202e1feaf1ab6dd2e33a15a6e41fee39f9d",
       "enMarkdown": "The 2005 Web 2.0 conference reminded me of Internet trade shows during the Bubble, full of prowling VCs looking for the next hot startup. There was that same odd atmosphere created by a large number of people determined not to miss out. Miss out on what? They didn't know. Whatever was going to happen—whatever Web 2.0 turned out to be.",
-      "zhMarkdown": "2005 年的 Web 2.0 大会让我联想到了互联网泡沫时期的行业展会，现场到处都是四处搜寻下一个热门创业公司的风险投资人。那种由一大群决心不甘落后的人所营造的异样氛围，和当年如出一辙。不甘落后于什么？他们自己也不知道。总之就是无论未来会发生什么——无论 Web 2.0 最终会变成什么。"
+      "zhMarkdown": "2005 年的 Web 2.0 大会让我想起了泡沫时期的互联网展会，到处都是四处搜寻下一家热门创业公司的风投。现场弥漫着同样一种古怪的氛围，是由一大群下定决心绝不能错过的人制造出来的。错过什么？他们自己也不知道。反正不管接下来会发生什么——不管 Web 2.0 最终会是什么。"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "67d34f836d703c30a4dc601db7f264d8890899507037301f7a1f9ba0e50a2bf3",
       "enMarkdown": "I wouldn't quite call it \"Bubble 2.0\" just because VCs are eager to invest again. The Internet is a genuinely big deal. The bust was as much an [overreaction](http://www.paulgraham.com/bubble.html) as the boom. It's to be expected that once we started to pull out of the bust, there would be a lot of growth in this area, just as there was in the industries that spiked the sharpest before the Depression.",
-      "zhMarkdown": "我倒不至于因为风险投资人又开始急于投资，就管这叫“泡沫 2.0”。互联网确实是一件极其重要的大事。当年的破裂和当年的狂热一样，都是一种[过度反应](http://www.paulgraham.com/bubble.html)。可以预见的是，一旦我们开始走出低谷，这个领域就会出现大量的增长，就像在大萧条之前那些飙升最猛烈的行业在复苏后的表现一样。"
+      "zhMarkdown": "我倒不会仅仅因为风投又急着投资，就把它称作“泡沫 2.0”。互联网是一件货真价实的大事。崩盘时的萧条与当初的狂热一样，都是[过度反应](http://www.paulgraham.com/bubble.html)。完全可以预料的是，一旦我们开始走出萧条，这个领域就会迎来巨大的增长，正如大萧条前飙升最猛的那些行业一样。"
     },
     {
       "id": 14,
@@ -427,7 +427,7 @@
       "type": "paragraph",
       "sourceHash": "e7f87bddbdafa91baeee852fccfba7017de0d1f31d1a05e28420ea47b4c12dfd",
       "enMarkdown": "[6] In Jessica Livingston's [Founders at\nWork](http://foundersatwork.com).",
-      "zhMarkdown": "[6] 收录于 Jessica Livingston 的[《创业者在工作》](http://foundersatwork.com)（*Founders at Work*）一书中。"
+      "zhMarkdown": "[6] 见于 Jessica Livingston 的 [Founders at Work](http://foundersatwork.com)。"
     },
     {
       "id": 61,

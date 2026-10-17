@@ -4,10 +4,10 @@
   "titleZh": "凯特在硅谷的所见所闻",
   "dateText": "August 2009",
   "publishedAt": "2009-08-01",
-  "sourceOrder": 114,
+  "sourceOrder": 116,
   "sourceUrl": "https://paulgraham.com/kate.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "2b1a5f6f4df17fcecf04e42ed8ce38af3d99980e49603e8fea390b923efc535e",
       "enMarkdown": "When I asked her what specific things she remembered speakers always saying, she mentioned: that the way to succeed was to launch something fast, listen to users, and then iterate; that startups required resilience because they were always an emotional rollercoaster; and that most VCs were sheep.",
-      "zhMarkdown": "当我问她，她记得嘉宾们总是重复哪些具体观点时，她提到：成功的秘诀在于快速发布产品、倾听用户意见并不断迭代；创业需要极强的韧性，因为这始终是一场情感的过山车；以及，大多数风险投资人都是跟风的羊群。"
+      "zhMarkdown": "当我问她具体记得嘉宾们总在强调些什么时，她提到了几点：成功的秘诀在于快速发布、倾听用户，然后快速迭代；创业公司需要极强的韧性，因为这始终是一场情绪过山车；以及，大多数风投都是盲从的羊群。"
     },
     {
       "id": 17,
@@ -147,7 +147,7 @@
       "type": "paragraph",
       "sourceHash": "7d575206eaf43171d67b78220b984c46d0ca1c85d46e90b2720fceec3cf8d847",
       "enMarkdown": "Interestingly, while Kate said that she could never pick out successful founders, she could recognize VCs, both by the way they dressed and the way they carried themselves.",
-      "zhMarkdown": "有趣的是，凯特说她虽然永远认不出成功的创始人，但她一眼就能认出风险投资人，无论从他们的穿着还是言谈举止上。"
+      "zhMarkdown": "有趣的是，凯特虽然说自己根本挑不出哪些是成功的创始人，却能一眼认出风投——不论是从穿着打扮，还是从举止神态上。"
     },
     {
       "id": 21,

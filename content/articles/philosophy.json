@@ -4,10 +4,10 @@
   "titleZh": "如何做哲学",
   "dateText": "September 2007",
   "publishedAt": "2007-09-01",
-  "sourceOrder": 147,
+  "sourceOrder": 149,
   "sourceUrl": "https://paulgraham.com/philosophy.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -42,7 +42,7 @@
       "type": "paragraph",
       "sourceHash": "45f7feb64d54a81c2627b36654d072b228bed009d4d29f8b17cfebc33f8d93be",
       "enMarkdown": "The summer before senior year I took some college classes. I learned a lot in the calculus class, but I didn't learn much in Philosophy 101. And yet my plan to study philosophy remained intact. It was my fault I hadn't learned anything. I hadn't read the books we were assigned carefully enough. I'd give Berkeley's *Principles\nof Human Knowledge* another shot in college. Anything so admired and so difficult to read must have something in it, if one could only figure out what.",
-      "zhMarkdown": "高三前的那个夏天，我选修了几门大学课程。我在微积分课上收获颇丰，但在“哲学导论”课上却没学到什么。即便如此，我学哲学的计划依然没有动摇。我想，没学到东西肯定是我自己的错，是我没有足够仔细地阅读指定的书目。到了大学，我要重新挑战巴克莱的《人类知识原理》。任何如此受人推崇又如此晦涩难懂的著作，只要能参透，里面一定大有乾坤。"
+      "zhMarkdown": "高三前的那个夏天，我上了几门大学先修课。微积分课让我受益匪浅，但在《哲学导论》上却没学到什么。即便如此，我学哲学的计划依然没有动摇。没学到东西是我的问题，是我书读得不够认真。等上了大学，我要再啃一遍贝克莱的《*人类知识原理*》（*Principles of Human Knowledge*）。凡是如此受人推崇又如此晦涩难懂的东西，只要你能琢磨透，里面必定大有乾坤。"
     },
     {
       "id": 7,
@@ -84,14 +84,14 @@
       "type": "paragraph",
       "sourceHash": "3758bb4560ca08f5489af7ba94a4539f381e149306bc4a33390ad7c7bf573d52",
       "enMarkdown": "There are things I know I learned from studying philosophy. The most dramatic I learned immediately, in the first semester of freshman year, in a class taught by Sydney Shoemaker. I learned that I don't exist. I am (and you are) a collection of cells that lurches around driven by various forces, and calls itself *I*. But there's no central, indivisible thing that your identity goes with. You could conceivably lose half your brain and live. Which means your brain could conceivably be split into two halves and each transplanted into different bodies. Imagine waking up after such an operation. You have to imagine being two people.",
-      "zhMarkdown": "不过，我确信自己从哲学学习中收获了一些东西。最震撼的一课发生在我大一第一学期，由西德尼·舒梅克（Sydney Shoemaker）教授的课上。我学到，“我”其实并不存在。我（以及你）不过是一堆在各种力量驱动下四处摇晃、并自称为“我”的细胞集合。并没有一个不可分割的中央核心能承载你的身份。设想一下，你失去了半个大脑，但依然活着。这意味着你的大脑完全可以被分成两半，分别移植到不同的身体里。想象一下在这种手术后醒来的场景，你必须想象自己同时成为了两个人。"
+      "zhMarkdown": "我确实从学哲学中学到了一些东西。最震撼的一课在大一第一学期就学到了，是在悉尼·休梅克（Sydney Shoemaker）的课上。我明白了“我”并不存在。我（还有你）不过是一堆受各种力量驱使、跌跌撞撞到处乱晃，并自称为“*我*”的细胞集合体。根本不存在一个不可分割的核心实体来承载你的身份。设想一下，你失去半个大脑依然可以活命，这意味着你的大脑理论上可以被劈成两半，分别移植到两具不同的身体里。想象一下手术后醒来的情景：你必须想象自己变成了两个人。"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "68ba94b5c53de3dfba43a419f1082821076d747a093de314283d5691ddfd7ec3",
       "enMarkdown": "The real lesson here is that the concepts we use in everyday life are fuzzy, and break down if pushed too hard. Even a concept as dear to us as *I*. It took me a while to grasp this, but when I did it was fairly sudden, like someone in the nineteenth century grasping evolution and realizing the story of creation they'd been told as a child was all wrong. [[2](#f2n)] Outside of math there's a limit to how far you can push words; in fact, it would not be a bad definition of math to call it the study of terms that have precise meanings. Everyday words are inherently imprecise. They work well enough in everyday life that you don't notice. Words seem to work, just as Newtonian physics seems to. But you can always make them break if you push them far enough.",
-      "zhMarkdown": "这里真正的启示是，我们在日常生活中使用的概念是模糊的，一旦推到极致就会崩溃。甚至连“我”这样对我们而言无比珍贵的名词也不例外。我花了一段时间才领悟到这一点，但当领悟的那一刻到来时，感觉非常突然。就像一个十九世纪的人突然理解了进化论，意识到从小被灌输的创世故事全是错的一样。[[2](#f2n)] 在数学之外，语言能表达的极限是有限的；事实上，将数学定义为“对具有精确含义的词项的研究”也不失为一种好定义。日常词汇本质上就是不精确的，它们在日常生活中运转得足够好，以至于你察觉不到问题。词汇看起来行之有效，就像牛顿物理学看起来行之有效一样。但只要你把它们推得足够远，它们总会崩溃。"
+      "zhMarkdown": "这其中真正的教训是：我们在日常生活中使用的概念都是模糊的，一旦深究到底就会分崩离析。哪怕是像“*我*”这样我们视若珍宝的概念也是如此。我花了很长时间才领悟这一点，但真正想通时却非常突然，就像十九世纪的人突然理解了演化论，意识到自己从小听的创世故事全是一派胡言。[[2](#f2n)] 在数学之外，深究词义是有极限的；事实上，把数学定义为“对具有精确含义的术语的研究”也不失为一个好定义。日常词汇在本质上就是不精确的。它们在日常生活中运转良好，以至于你察觉不到瑕疵。词汇表面上行得通，就像牛顿力学表面上行得通一样。但只要你追究得足够深，它们总会崩溃。"
     },
     {
       "id": 14,
@@ -175,14 +175,14 @@
       "type": "paragraph",
       "sourceHash": "9cc707f2dcce19fb39e441d1c05047573f6f7ac2842f98eadcf1932216106199",
       "enMarkdown": "The proof of how useless some of their answers turned out to be is how little effect they have. No one after reading Aristotle's *Metaphysics* does anything differently as a result. [[7](#f7n)]",
-      "zhMarkdown": "要证明他们的一些答案有多么无用，最好的证据就是这些答案几乎没有产生任何影响。没有人在读完亚里士多德的《形而上学》后，会因此在行为上做出任何改变。[[7](#f7n)]"
+      "zhMarkdown": "他们得出的某些答案到底有多无用，从其微乎其微的影响力中就可见一斑。读完亚里士多德的《*形而上学*》，没有任何人会因此在行动上做出任何改变。[[7](#f7n)]"
     },
     {
       "id": 26,
       "type": "paragraph",
       "sourceHash": "e705ad7d85cfee4e0ed0d24bbb84b77d22a6e145bafc9f720511f60fad27d131",
       "enMarkdown": "Surely I'm not claiming that ideas have to have practical applications to be interesting? No, they may not have to. Hardy's boast that number theory had no use whatsoever wouldn't disqualify it. But he turned out to be mistaken. In fact, it's suspiciously hard to find a field of math that truly has no practical use. And Aristotle's explanation of the ultimate goal of philosophy in Book A of the *Metaphysics* implies that philosophy should be useful too.",
-      "zhMarkdown": "我当然不是在声称，想法必须有实用价值才算有趣。确实不需要。哈代曾自豪地宣称数论毫无用处，这并不能否定数论的魅力。但事实证明他错了。实际上，你很难在数学中找到一个真正没有任何实际用途的领域。而且亚里士多德在《形而上学》第一卷中对哲学终极目标的阐释，也暗示了哲学应当是有用的。"
+      "zhMarkdown": "难道我是说思想必须具有实际应用才算有趣吗？不，可能并非必须。哈代曾夸口数论毫无用处，这并不会贬低数论的价值。但他后来被证明说错了。事实上，要找到一个真正毫无实际用处的数学分支，难得令人起疑。而且亚里士多德在《*形而上学*》第一卷中对哲学终极目标的阐述，也暗示了哲学理应是有用的。"
     },
     {
       "id": 27,
@@ -196,7 +196,7 @@
       "type": "paragraph",
       "sourceHash": "395a80f51f60f04061c1e41ea0302fe1cd28579e33b028187480492561bfe41a",
       "enMarkdown": "Aristotle's goal was to find the most general of general principles. The examples he gives are convincing: an ordinary worker builds things a certain way out of habit; a master craftsman can do more because he grasps the underlying principles. The trend is clear: the more general the knowledge, the more admirable it is. But then he makes a mistake—possibly the most important mistake in the history of philosophy. He has noticed that theoretical knowledge is often acquired for its own sake, out of curiosity, rather than for any practical need. So he proposes there are two kinds of theoretical knowledge: some that's useful in practical matters and some that isn't. Since people interested in the latter are interested in it for its own sake, it must be more noble. So he sets as his goal in the *Metaphysics* the exploration of knowledge that has no practical use. Which means no alarms go off when he takes on grand but vaguely understood questions and ends up getting lost in a sea of words.",
-      "zhMarkdown": "亚里士多德的目标是寻找最普遍的普遍原理。他给出的例子很有说服力：普通工人凭习惯以某种方式建造东西；而手艺大师能做得更多，因为他掌握了底层的原理。趋势很明显：知识越普遍，就越令人钦佩。但接着他犯了一个错误——这可能是哲学史上最严重的错误。他注意到，理论知识往往是出于好奇心为了其自身而获取的，而不是出于任何实际需求。于是他提出有两种理论知识：一种在实践中有用，另一种则无用。既然对后者感兴趣的人是纯粹为了知识本身，那么它必然更显高贵。因此，他在《形而上学》中将探索毫无实用价值的知识设定为自己的目标。这意味着，当他挑战那些宏大却模糊的问题，最终迷失在语言的海洋中时，他脑海中的警报器根本不会拉响。"
+      "zhMarkdown": "亚里士多德的目标是探寻最普遍的普适原理。他给出的例子很有说服力：普通工匠凭习惯以某种方式造物；能工巧匠能做更多，因为他掌握了底层原理。这种倾向显而易见：知识越普遍，就越令人赞赏。但他随后犯了一个错误——可能是哲学史上最关键的错误。他注意到，理论知识的获取往往是出于好奇、为了知识本身，而不是出于某种实际需求。于是他提出理论知识有两种：一种对实际事务有用，另一种没用。既然对后者感兴趣的人是纯粹出于其自身而感兴趣，那它必定更加崇高。于是，他把探索毫无实际用处的知识作为自己在《*形而上学*》中的目标。这意味着，当他面对宏大却含混的问题、最终迷失在词汇的汪洋大海中时，根本不会有任何警钟敲响。"
     },
     {
       "id": 29,
@@ -217,7 +217,7 @@
       "type": "paragraph",
       "sourceHash": "cae1e99e76f0abf133bb6d2af926da6d56424f525c846135112709efee4e04a4",
       "enMarkdown": "The reason Aristotle didn't get anywhere in the *Metaphysics* was partly that he set off with contradictory aims: to explore the most abstract ideas, guided by the assumption that they were useless. He was like an explorer looking for a territory to the north of him, starting with the assumption that it was located to the south.",
-      "zhMarkdown": "亚里士多德在《形而上学》中一无所获的部分原因在于，他出发时的目标就是自相矛盾的：去探索最抽象的想法，同时又假设它们是无用的。他就像一个寻找北方领土的探险家，却在出发时假设这片领土位于南方。"
+      "zhMarkdown": "亚里士多德在《*形而上学*》中一无所获，部分原因在于他出发时的目标本身就自相矛盾：他试图探索最抽象的思想，却抱定了它们毫无用处的先入之见。他就像一位探险家，明明要寻找北方的土地，却一开始就认定它在南方。"
     },
     {
       "id": 32,
@@ -231,14 +231,14 @@
       "type": "paragraph",
       "sourceHash": "110dab08d265197ffa42d36b7f373eea2569166900451acd38666a6ab06d23ff",
       "enMarkdown": "The *Metaphysics* is mostly a failed experiment. A few ideas from it turned out to be worth keeping; the bulk of it has had no effect at all. The *Metaphysics* is among the least read of all famous books. It's not hard to understand the way Newton's *Principia* is, but the way a garbled message is.",
-      "zhMarkdown": "《形而上学》在很大程度上是一个失败的实验。其中只有极少数想法值得保留，绝大部分内容没有产生任何影响。《形而上学》是所有名著中读者最少的一本。它难读，不是因为像牛顿的《自然哲学的数学原理》那样逻辑深奥，而是因为像一条被乱码化的信息。"
+      "zhMarkdown": "《*形而上学*》大体上是一次失败的实验。其中有少数思想后来被证明值得保留，但绝大部分内容根本没有产生任何影响。《*形而上学*》是所有名著中被阅读得最少的著作之一。它的晦涩不同于牛顿的《*自然哲学的数学原理*》（*Principia*），它的晦涩就像一则乱码信息。"
     },
     {
       "id": 34,
       "type": "paragraph",
       "sourceHash": "73354aad3df039a15b1ace32b20fa663d9814a28aca5fc17013c354e3b3a511d",
       "enMarkdown": "Arguably it's an interesting failed experiment. But unfortunately that was not the conclusion Aristotle's successors derived from works like the *Metaphysics*. [[9](#f9n)] Soon after, the western world fell on intellectual hard times. Instead of version 1s to be superseded, the works of Plato and Aristotle became revered texts to be mastered and discussed. And so things remained for a shockingly long time. It was not till around 1600 (in Europe, where the center of gravity had shifted by then) that one found people confident enough to treat Aristotle's work as a catalog of mistakes. And even then they rarely said so outright.",
-      "zhMarkdown": "可以说，这是一个很有意思的失败实验。但不幸的是，亚里士多德的继承者们并没有从《形而上学》这类著作中得出这样的结论。[[9](#f9n)] 此后不久，西方世界陷入了智识的黑暗时期。柏拉图和亚里士多德的著作没有被视作有待迭代的“版本 1.0”，反而变成了被顶礼膜拜、反复讨论的圣经。这种状态维持了惊人的漫长时间。直到公元 1600 年左右（在当时智识重心已转移的欧洲），人们才开始有信心将亚里士多德的著作视为错误清单。即便在那个时候，也很少有人敢公开这么说。"
+      "zhMarkdown": "可以说这是一次有趣的失败实验。不幸的是，亚里士多德的后继者并没有从《*形而上学*》这类著作中得出这个结论。[[9](#f9n)] 不久之后，西方世界的思想陷入了低谷。柏拉图和亚里士多德的著作没有被当作有待迭代取代的“1.0 版本”，反而变成了受人顶礼膜拜、供人研习探讨的经典。这种局面持续了令人震惊的漫长岁月。直到 1600 年左右（在当时的思想重心欧洲），才有人具备足够的自信把亚里士多德的著作视为一份错误清单。即使在当时，他们也很少公开直言。"
     },
     {
       "id": 35,
@@ -252,7 +252,7 @@
       "type": "paragraph",
       "sourceHash": "041fe56a8d365092017eff190b527f6b5045fff3bf7f55c0fb03679c74f4e737",
       "enMarkdown": "In the intervening years an unfortunate idea took hold: that it was not only acceptable to produce works like the *Metaphysics*, but that it was a particularly prestigious line of work, done by a class of people called philosophers. No one thought to go back and debug Aristotle's motivating argument. And so instead of correcting the problem Aristotle discovered by falling into it—that you can easily get lost if you talk too loosely about very abstract ideas—they continued to fall into it.",
-      "zhMarkdown": "在过去的岁月里，一个不幸的观念生根发芽：不仅写出像《形而上学》这样的著作是完全可以接受的，而且这还是一项特别体面的工作，由一帮被称为“哲学家”的人来做。没有人想到要回过头去调试亚里士多德当年作为出发点的论证。因此，他们没有去纠正亚里士多德因深陷其中而发现的问题——即如果对极度抽象的想法谈论得太随意，就极易迷失方向——反而继续重蹈覆辙。"
+      "zhMarkdown": "在漫长的过渡岁月里，一个不幸的观念生根发芽：人们不仅认为写出《*形而上学*》这样的作品完全说得过去，甚至认为这是一项尤为体面的行当，由一群被称为“哲学家”的人来从事。没人想过回头去给亚里士多德最初的论证排查漏洞。结果，他们不仅没有纠正亚里士多德因深陷其中而暴露的问题——如果你对极度抽象的概念泛泛而谈，就极易迷失方向——反而前仆后继地掉进同一个坑里。"
     },
     {
       "id": 37,
@@ -343,7 +343,7 @@
       "type": "paragraph",
       "sourceHash": "60b1009c10b214c58fa9bd1b5be80b9cf71545cffd03462158f30458a328d7b7",
       "enMarkdown": "We may be able to do better. Here's an intriguing possibility. Perhaps we should do what Aristotle meant to do, instead of what he did. The goal he announces in the *Metaphysics* seems one worth pursuing: to discover the most general truths. That sounds good. But instead of trying to discover them because they're useless, let's try to discover them because they're useful.",
-      "zhMarkdown": "我们也许可以做得更好。这里有一个引人入胜的可能性：也许我们应该去实践亚里士多德本想做的事，而不是他实际做过的事。他在《形而上学》中宣布的目标似乎很值得追求：去发现最普遍的真理。这听起来很好。但与其因为这些真理无用而去寻找它们，不如因为它们有用而去寻找。"
+      "zhMarkdown": "我们或许能做得更好。这里有一个耐人寻味的可能性：也许我们应该去做亚里士多德原本想做的事，而不是照搬他的所作所为。他在《*形而上学*》中宣告的目标看似值得追求：去发现最普遍的真理。这听起来不错。但我们不应该因为它们无用而试图去发现它们，而应该因为它们有用才去探寻。"
     },
     {
       "id": 50,
@@ -497,7 +497,7 @@
       "type": "paragraph",
       "sourceHash": "6d0298d0c064b5013f893ace06768280b72be7725bc8ebbd78ac1a04156bacfa",
       "enMarkdown": "Math is the precise half of the most abstract ideas, and philosophy the imprecise half. It's probably inevitable that philosophy will suffer by comparison, because there's no lower bound to its precision. Bad math is merely boring, whereas bad philosophy is nonsense. And yet there are *some* good ideas in the imprecise half.",
-      "zhMarkdown": "数学是最抽象想法中精确的那一半，而哲学是不精确的那一半。哲学在对比中相形见绌大概是不可避免的，因为它的精确度没有下限。糟糕的数学仅仅是无聊，而糟糕的哲学则是胡言乱语。然而，在不精确的那一半里，确实存在一些绝妙的想法。"
+      "zhMarkdown": "数学是极度抽象思想中精确的那一半，哲学则是不精确的那一半。相比之下，哲学难免相形见绌，因为它的精确度没有下限。拙劣的数学充其量只是乏味，而糟糕的哲学则是胡说八道。然而，在不精确的那一半里，确实存在*一些*优秀的想法。"
     },
     {
       "id": 72,
@@ -539,7 +539,7 @@
       "type": "paragraph",
       "sourceHash": "8c569fb730c08ae88d16520635c400c6abab6c9c4cec592b5cc8a9a3539bc915",
       "enMarkdown": "Aristotle didn't call this \"metaphysics.\" That name got assigned to it because the books we now call the *Metaphysics* came after (meta = after) the *Physics* in the standard edition of Aristotle's works compiled by Andronicus of Rhodes three centuries later. What we call \"metaphysics\" Aristotle called \"first philosophy.\"",
-      "zhMarkdown": "亚里士多德并没有把这称为“形而上学”。这个名字之所以被赋予它，是因为在三个世纪后由罗德岛的安德罗尼柯（Andronicus of Rhodes）编纂的亚里士多德著作标准版中，我们现在称为《形而上学》的书排在《物理学》之后（meta = 之后）。我们所说的“形而上学”，亚里士多德称之为“第一哲学”。"
+      "zhMarkdown": "亚里士多德并没有把这称为“形而上学”。这个名称之所以被扣在它头上，是因为在三个世纪后罗德岛的安德罗尼柯（Andronicus of Rhodes）编纂的亚里士多德标准文集中，我们如今称为《*形而上学*》的卷册排在《*物理学*》（*Physics*）之后（meta 即“之后”）。我们所说的“形而上学”，亚里士多德称之为“第一哲学”。"
     },
     {
       "id": 78,

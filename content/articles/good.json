@@ -4,10 +4,10 @@
   "titleZh": "向善",
   "dateText": "April 2008",
   "publishedAt": "2008-04-01",
-  "sourceOrder": 137,
+  "sourceOrder": 139,
   "sourceUrl": "https://paulgraham.com/good.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -350,7 +350,7 @@
       "type": "paragraph",
       "sourceHash": "21212aa32b66e55bc60e6f724762583a9f5418eb6f1bd86d65f36efb9030acb5",
       "enMarkdown": "You know how there are some people whose names come up in conversation and everyone says \"He's *such* a great guy?\" People never say that about me. The best I get is \"he means well.\" I am not claiming to be good. At best I speak good as a second language.",
-      "zhMarkdown": "你知道有些人的名字在谈话中被提起时，大家都会说“他真是个大好人”吗？人们从来不会这样评价我。我得到的最好评价也不过是“他心眼不坏”。我并不自称善良。充其量，我只是把善良当成第二语言来勉强表达。"
+      "zhMarkdown": "你大概见过那种人，聊天时只要提起他们的名字，大家都会说“他人*真*好”？别人可从来没这么评价过我。我能得到的最好评价也不过是“他本意是好的”。我并没有自诩是个好人。充其量，“做好人”对我来说只是一门第二语言。"
     },
     {
       "id": 51,
@@ -371,7 +371,7 @@
       "type": "paragraph",
       "sourceHash": "43144879008e49c556f383507ab160e7ae0faaaac37e307f0c5dcae5b4c1b341",
       "enMarkdown": "[1] Fifty years ago it would have seemed shocking for a public company not to pay dividends. Now many tech companies don't. The markets seem to have figured out how to value potential dividends. Maybe that isn't the last step in this evolution. Maybe markets will eventually get comfortable with potential earnings. (VCs already are, and at least some of them consistently make money.)",
-      "zhMarkdown": "[1] 五十年前，一家上市公司不分红似乎是不可思议的。现在许多科技公司都不分红。市场似乎已经弄清楚了如何评估潜在股息的价值。也许这并不是演变的终点。也许市场最终会对潜在收益感到习以为常。（风险投资人已经习惯了，而且他们中至少有一些人能稳定赚到钱。）"
+      "zhMarkdown": "[1] 五十年前，一家上市公司要是不分红，简直是不可思议的事。如今许多科技公司都不分红了。市场似乎已经摸索出该如何为潜在的分红估值。也许这还不是这种演变的最后一步。也许市场最终也会习惯于接纳潜在的盈利。（风投早就如此了，而且其中至少有一部分人一直在稳定赚钱。）"
     },
     {
       "id": 54,

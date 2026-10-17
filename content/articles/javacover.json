@@ -4,10 +4,10 @@
   "titleZh": "Java 的封面",
   "dateText": "April 2001",
   "publishedAt": "2001-04-01",
-  "sourceOrder": 222,
+  "sourceOrder": 224,
   "sourceUrl": "https://paulgraham.com/javacover.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -61,84 +61,84 @@
       "type": "paragraph",
       "sourceHash": "7783fc2a34769807d4bd9420140eb9f60c263ef6166b4d02b90e4167e80e00e3",
       "enMarkdown": "1. It has been so energetically hyped. Real standards don't have to be promoted. No one had to promote C, or Unix, or HTML. A real standard tends to be already established by the time most people hear about it. On the hacker radar screen, Perl is as big as Java, or bigger, just on the strength of its own merits.",
-      "zhMarkdown": "1. **它被炒作得太卖力了。** 真正标准的技术是不需要推广的。没有人推广过 C 语言、Unix 或 HTML。当大多数人听说一门真正的标准技术时，它往往已经确立了江湖地位。在黑客的雷达屏幕上，Perl 仅仅凭借自身的实力，就和 Java 一样瞩目，甚至更胜一筹。"
+      "zhMarkdown": "1. 它的炒作力度太猛了。真正的标准不需要大肆推销。没人推销过 C、Unix 或 HTML。真正的标准在大多数人听说它的时候，往往早已确立了地位。在黑客的雷达屏幕上，Perl 和 Java 一样举足轻重，甚至更胜一筹，完全是凭它自身的实力。"
     },
     {
       "id": 9,
       "type": "paragraph",
       "sourceHash": "05c2f6ea3a329eb1c5b35f4194c1ed05a78e9185481d5b798c1cc6f6db476fed",
       "enMarkdown": "2. It's aimed low. In the original Java white paper, Gosling explicitly says Java was designed not to be too difficult for programmers used to C. It was designed to be another C++: C plus a few ideas taken from more advanced languages. Like the creators of sitcoms or junk food or package tours, Java's designers were consciously designing a product for people not as smart as them. Historically, languages designed for other people to use have been bad: Cobol, PL/I, Pascal, Ada, C++. The good languages have been those that were designed for their own creators: C, Perl, Smalltalk, Lisp.",
-      "zhMarkdown": "2. **它的定位很低。** 在最初的 Java 白皮书中，Gosling 明确表示，Java 的设计初衷就是为了让习惯了 C 语言的程序员不至于觉得太难。它被设计成另一个 C++：C 语言加上一些从更先进语言中借鉴来的概念。就像情景喜剧、垃圾食品或跟团游的策划者一样，Java 的设计者们是在自觉地为智商不如他们的人设计产品。从历史上看，那些专为“别人”设计的语言都很糟糕，比如 Cobol、PL/I、Pascal、Ada 和 C++。而优秀的语言都是设计者为自己量身定制的，比如 C、Perl、Smalltalk 和 Lisp。"
+      "zhMarkdown": "2. 它的目标定得太低。在最初的 Java 白皮书中，高斯林明确表示，Java 的设计初衷是不让习惯 C 的程序员觉得太难。它的定位是成为另一个 C++：即 C 语言加上一些从更高级语言借鉴来的理念。就像情景喜剧、垃圾食品或跟团游的策划者一样，Java 的设计者是在有意识地为不如他们聪明的人设计一款产品。从历史上看，那些为了“别人”使用而设计的语言往往很糟糕：Cobol、PL/I、Pascal、Ada、C++。而优秀的语言历来都是为创造者自己而设计的：C、Perl、Smalltalk、Lisp。"
     },
     {
       "id": 10,
       "type": "paragraph",
       "sourceHash": "f35011047ca2d63bf752fec1e27c620f5d0bb611c3a805a601bc7311a782c821",
       "enMarkdown": "3. It has ulterior motives. Someone once said that the world would be a better place if people only wrote books because they had something to say, rather than because they wanted to write a book. Likewise, the reason we hear about Java all the time is not because it has something to say about programming languages. We hear about Java as part of a plan by Sun to undermine Microsoft.",
-      "zhMarkdown": "3. **它动机不纯。** 曾有人说过，如果人们写书仅仅是因为有话要说，而不是因为想写一本书，世界将会变得更美好。同样，我们之所以整天听到 Java 的消息，并不是因为它对编程语言有什么独到的见解，而是因为它是 Sun 公司削弱微软计划的一部分。"
+      "zhMarkdown": "3. 它别有用心。曾有人说，如果人们只有在真正有话要说时才去写书，而不是为了写书而写书，这个世界会美好得多。同样，我们成天听到 Java，并不是因为它在编程语言领域有什么真知灼见要表达。我们之所以总听到它，是因为 Sun 公司为了削弱微软而制定的一套计划。"
     },
     {
       "id": 11,
       "type": "paragraph",
       "sourceHash": "9c0f6ab55fb9026eca9716b9ae48ca05f3765d74ec60dd8f626e7c88727ce61a",
       "enMarkdown": "4. No one loves it. C, Perl, Python, Smalltalk, and Lisp programmers love their languages. I've never heard anyone say that they loved Java.",
-      "zhMarkdown": "4. **没人真正热爱它。** C、Perl、Python、Smalltalk 和 Lisp 程序员都热爱他们所用的语言。但我从未听任何人说过他们热爱 Java。"
+      "zhMarkdown": "4. 没人真心爱它。C、Perl、Python、Smalltalk 和 Lisp 程序员都深爱自己的语言。但我从未听过有谁说自己热爱 Java。"
     },
     {
       "id": 12,
       "type": "paragraph",
       "sourceHash": "19428bdf41d9aa025b46ea20eb2bbecf68dababc863ecdca2a0091ae8c55df2a",
       "enMarkdown": "5. People are forced to use it. A lot of the people I know using Java are using it because they feel they have to. Either it's something they felt they had to do to get funded, or something they thought customers would want, or something they were told to do by management. These are smart people; if the technology was good, they'd have used it voluntarily.",
-      "zhMarkdown": "5. **人们是被迫使用它的。** 我认识的许多用 Java 的人，都是因为觉得不得不写才去写的。要么是觉得不写就拿不到融资，要么是觉得客户想要，要么是管理层下达的命令。这些都是聪明人，如果这门技术真的好，他们早就自发去用了。"
+      "zhMarkdown": "5. 人们是被迫使用它的。我认识的许多用 Java 的人，之所以用它，是因为他们觉得身不由己。要么是觉得必须用它才能拿到融资，要么是觉得客户想要，要么是管理层要求他们这么做。这些人都是聪明人；如果这项技术足够好，他们自会自愿去用。"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "105e64eaeaaea426d2700f0cfd2a5fe1c0935d8e132efc57f92df1a2de77dc59",
       "enMarkdown": "6. It has too many cooks. The best programming languages have been developed by small groups. Java seems to be run by a committee. If it turns out to be a good language, it will be the first time in history that a committee has designed a good language.",
-      "zhMarkdown": "6. **厨子太多。** 最优秀的编程语言都是由极少数人开发出来的。而 Java 似乎是由一个委员会主导的。如果它最终被证明是一门优秀的语言，那将是历史上第一次由委员会设计出优秀的语言。"
+      "zhMarkdown": "6. 参与设计的人太多。最优秀的编程语言都是由小团队开发出来的。Java 看起来却是由委员会把持的。如果它最终证明是一门好语言，那将是历史上第一次由委员会设计出优秀的语言。"
     },
     {
       "id": 14,
       "type": "paragraph",
       "sourceHash": "74135143fe6ede2197e61f194e7292e335d4374b6ccda3e8d0abf149eb4e3cdf",
       "enMarkdown": "7. It's bureaucratic. From what little I know about Java, there seem to be a lot of protocols for doing things. Really good languages aren't like that. They let you do what you want and get out of the way.",
-      "zhMarkdown": "7. **官僚气息浓厚。** 就我那点有限的了解，Java 似乎有无数的规范和条条框框。真正优秀的语言不长这样。它们会放手让你做想做的事，然后在一旁默默退场，不碍手碍脚。"
+      "zhMarkdown": "7. 它充满官僚气。据我对 Java 的微薄了解，里面做事情似乎有层层繁琐的规范。真正优秀的语言不是这样的。它们会让你放手去做想做的事，自己则不碍手碍脚。"
     },
     {
       "id": 15,
       "type": "paragraph",
       "sourceHash": "b481de76a277a9aff8de4959a7b31534e441813eef44af0cb181a5c28f0ef9df",
       "enMarkdown": "8. It's pseudo-hip. Sun now pretends that Java is a grassroots, open-source language effort like Perl or Python. This one just happens to be controlled by a giant company. So the language is likely to have the same drab clunkiness as anything else that comes out of a big company.",
-      "zhMarkdown": "8. **伪装时髦。** Sun 公司现在假装 Java 是一种像 Perl 或 Python 那样来自草根、开源的语言项目。只不过这个项目恰好由一家巨头公司控制。因此，这门语言很可能会带有大公司产物特有的那种沉闷与笨拙。"
+      "zhMarkdown": "8. 它是伪潮流。Sun 现在假装 Java 是一种像 Perl 或 Python 那样的草根开源项目。只不过这个项目碰巧由一家巨头公司掌控。因此，这门语言很可能会带有大公司产物一贯的单调与笨重。"
     },
     {
       "id": 16,
       "type": "paragraph",
       "sourceHash": "5d4ef6da4e4494d586471d472506a66f7de7ec0002398b41dbb957656c3a431b",
       "enMarkdown": "9. It's designed for large organizations. Large organizations have different aims from hackers. They want languages that are (believed to be) suitable for use by large teams of mediocre programmers-- languages with features that, like the speed limiters in U-Haul trucks, prevent fools from doing too much damage. Hackers don't like a language that talks down to them. Hackers just want power. Historically, languages designed for large organizations (PL/I, Ada) have lost, while hacker languages (C, Perl) have won. The reason: today's teenage hacker is tomorrow's CTO.",
-      "zhMarkdown": "9. **它是为大型组织设计的。** 大型组织的目标与黑客不同。他们想要的语言，是（他们认为）适合由平庸程序员组成的大型团队使用的语言——这种语言的特性，就像 U-Haul 货车上的限速器一样，能防止蠢人造成太大的破坏。黑客讨厌居高临下的语言，黑客只想要力量。从历史上看，为大型组织设计的语言（PL/I、Ada）都输了，而黑客语言（C、Perl）则赢了。原因很简单：今天的少年黑客就是明天的首席技术官（CTO）。"
+      "zhMarkdown": "9. 它是为大型组织设计的。大型组织的目标与黑客截然不同。他们想要的是（他们认为）适合平庸程序员大兵团作战的语言——这种语言的特性就像 U-Haul 货车上的限速器一样，用来防止傻瓜造成太大的破坏。黑客不喜欢居高临下教他们做事的语言。黑客只想要强大的力量。从历史上看，为大型组织设计的语言（PL/I、Ada）都输了，而黑客语言（C、Perl）则赢了。原因在于：今天的少年黑客就是明天的 CTO。"
     },
     {
       "id": 17,
       "type": "paragraph",
       "sourceHash": "2c1c2264b721c5cfba1e1d82594f91734e6066da6b7c46fa2ff6b8e6f1761fe5",
       "enMarkdown": "10. The wrong people like it. The programmers I admire most are not, on the whole, captivated by Java. Who does like Java? Suits, who don't know one language from another, but know that they keep hearing about Java in the press; programmers at big companies, who are amazed to find that there is something even better than C++; and plug-and-chug undergrads, who are ready to like anything that might get them a job (will this be on the test?). These people's opinions change with every wind.",
-      "zhMarkdown": "10. **喜欢它的人不对路。** 总体而言，我最欣赏的程序员并没有被 Java 迷住。那谁喜欢 Java 呢？是西装革履的商务人士（Suits），他们分不清各种语言的区别，只知道媒体上整天在吹 Java；是大公司的程序员，他们惊奇地发现居然有比 C++ 更好的东西；还有那些只知生搬硬套、只要能找到工作就什么都乐意学的大学生（这题考试会考吗？）。这些人的意见随时会随风而变。"
+      "zhMarkdown": "10. 喜欢它的人不对路。我最敬佩的程序员整体上没有被 Java 迷住。那到底是谁喜欢 Java？西装革履的管理层，他们分不清这门语言和那门语言的区别，只知道报刊上整天都在提 Java；大公司的程序员，他们惊喜地发现居然有比 C++ 更好的东西；还有只会套公式的本科生，只要有助于找工作，他们什么都愿意去喜欢（“这道题考试会考吗？”）。这些人的看法总是随风摇摆。"
     },
     {
       "id": 18,
       "type": "paragraph",
       "sourceHash": "98e1842460aecbf7145d799b6745c5fa2f9e4bf7cd427315176b43333c85e836",
       "enMarkdown": "11. Its daddy is in a pinch. Sun's business model is being undermined on two fronts. Cheap Intel processors, of the same type used in desktop machines, are now more than fast enough for servers. And FreeBSD seems to be at least as good an OS for servers as Solaris. Sun's advertising implies that you need Sun servers for industrial strength applications. If this were true, Yahoo would be first in line to buy Suns; but when I worked there, the servers were all Intel boxes running FreeBSD. This bodes ill for Sun's future. If Sun runs into trouble, they could drag Java down with them.",
-      "zhMarkdown": "11. **它的东家处境不妙。** Sun 公司的商业模式正受到两方面的蚕食。一方面，和台式机同级别的廉价 Intel 处理器，现在的速度用来做服务器已经绰绰有余。另一方面，FreeBSD 作为服务器操作系统，似乎至少和 Solaris 一样优秀。Sun 的广告暗示，你需要 Sun 的服务器来运行工业级应用。如果这是真的，雅虎本该排在购买 Sun 服务器的第一位；但当我在那里工作时，服务器全是运行 FreeBSD 的 Intel 机器。这对 Sun 的未来是个不祥之兆。如果 Sun 陷入困境，他们可能会把 Java 也拖下水。"
+      "zhMarkdown": "11. 它的靠山处境艰难。Sun 的商业模式正在两条战线上受到蚕食。台式机上使用的廉价 Intel 处理器，如今用在服务器上也绰绰有余地快。而在服务器操作系统方面，FreeBSD 看起来至少不逊于 Solaris。Sun 的广告暗示，工业级应用必须使用 Sun 服务器。如果真是这样，雅虎早就排在第一个去买了；但我在那里工作时，服务器全都是运行 FreeBSD 的 Intel 机器。这对 Sun 的未来不是个好兆头。如果 Sun 陷入困境，可能会把 Java 一起拖下水。"
     },
     {
       "id": 19,
       "type": "paragraph",
       "sourceHash": "09d5b1e951f6aa89ce5a168df16163e62896c997ba80e746fa3a8d5166422c13",
       "enMarkdown": "12. The DoD likes it. The Defense Department is encouraging developers to use Java. This seems to me the most damning sign of all. The Defense Department does a fine (though expensive) job of defending the country, but they love plans and procedures and protocols. Their culture is the opposite of hacker culture; on questions of software they will tend to bet wrong. The last time the DoD really liked a programming language, it was Ada.",
-      "zhMarkdown": "12. **国防部（DoD）很喜欢它。** 国防部正在鼓励开发人员使用 Java。在我看来，这是最致命的危险信号。国防部在保家卫国方面做得很好（虽然代价高昂），但他们极度崇尚计划、程序和协议。他们的文化与黑客文化背道而驰；在软件问题上，他们往往会押错注。上一次国防部真正看好的编程语言，还是 Ada。"
+      "zhMarkdown": "12. 美国国防部喜欢它。国防部正在鼓励开发者使用 Java。在我看来，这是所有迹象中最不祥的一个。国防部在保家卫国方面做得很不错（尽管代价高昂），但他们酷爱计划、流程和繁规琐节。他们的文化与黑客文化截然相反；在软件问题上，他们往往会押错宝。上一次国防部真正青睐一门编程语言时，那门语言是 Ada。"
     },
     {
       "id": 20,

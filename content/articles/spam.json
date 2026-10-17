@@ -4,10 +4,10 @@
   "titleZh": "垃圾邮件攻防方案",
   "dateText": "August 2002",
   "publishedAt": "2002-08-01",
-  "sourceOrder": 211,
+  "sourceOrder": 213,
   "sourceUrl": "https://paulgraham.com/spam.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -286,7 +286,7 @@
       "type": "paragraph",
       "sourceHash": "ed628f8a41bb0ec581a88c2a7427b848fa1ad9d6ca99dcfc125306474e05221f",
       "enMarkdown": "All along the spectrum, if you restrict the sales pitches spammers can make, you will inevitably tend to put them out of business. That word *business* is an important one to remember. The spammers are businessmen. They send spam because it works. It works because although the response rate is abominably low (at best 15 per million, vs 3000 per million for a catalog mailing), the cost, to them, is practically nothing. The cost is enormous for the recipients, about 5 man-weeks for each million recipients who spend a second to delete the spam, but the spammer doesn't have to pay that.",
-      "zhMarkdown": "在整个光谱上，如果你限制了垃圾邮件发送者能做的推销广告，就必然会让他们倒闭。记住“商业”（business）这个词很重要。垃圾邮件发送者是商人。他们发垃圾邮件是因为这有效。它之所以有效，是因为虽然回复率低得令人发指（最好的情况是百万分之十五，而目录邮寄广告是百万分之三千），但对他们来说，成本几乎为零。对收件人来说，代价是巨大的，每百万收件人花一秒钟删除垃圾邮件，就相当于消耗了大约 5 个工作周的人力，但垃圾邮件发送者不需要为此买单。"
+      "zhMarkdown": "不论垃圾邮件发送者处于这个谱系的哪一端，只要你限制他们能做出的推销话术，最终就必然会让他们做不下去。记住*生意*这个词很重要。垃圾邮件发送者是生意人。他们发垃圾邮件，是因为这招管用。之所以管用，是因为尽管回复率低得可怜（最好的情况也就是百万分之十五，相比之下商品目录邮寄的回复率是百万分之三千），但对他们来说，成本几乎为零。对收件人而言成本却是巨大的——每一百万个收件人每人花一秒钟删掉垃圾邮件，加起来就是大约 5 个人周的时间，但垃圾邮件发送者根本不需要为此买单。"
     },
     {
       "id": 41,
@@ -510,7 +510,7 @@
       "type": "paragraph",
       "sourceHash": "b97ce3d74ebc8cedfff9b1ff851207eb46467de14b3991c9b640e5876e98f1e5",
       "enMarkdown": "To start with, spam is not unsolicited commercial email. If someone in my neighborhood heard that I was looking for an old Raleigh three-speed in good condition, and sent me an email offering to sell me one, I'd be delighted, and yet this email would be both commercial and unsolicited. The defining feature of spam (in fact, its *raison d'etre*) is not that it is unsolicited, but that it is automated.",
-      "zhMarkdown": "首先，垃圾邮件并不是“未经请求的商业邮件”。如果我邻居听说我正在寻找一辆车况良好的旧 Raleigh 三速自行车，并给我发了一封邮件说他有一辆可以卖给我，我会很高兴，但这封邮件既是商业性的，也是未经请求的。垃圾邮件的定义特征（实际上也是其生存之道）不在于它是未经请求的，而在于它是**自动发送的**。"
+      "zhMarkdown": "首先，垃圾邮件并不等于“未经请求的商业电子邮件”。要是我的邻居听说我在找一辆成色不错的旧款 Raleigh 三速自行车，于是发邮件问我想不想买他那一辆，我高兴还来不及呢——而这封邮件既是商业性质的，又是未经请求的。垃圾邮件的决定性特征（事实上也是它的*存在理由*），并不在于未经请求，而在于它是自动化群发的。"
     },
     {
       "id": 73,

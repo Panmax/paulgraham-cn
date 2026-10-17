@@ -4,10 +4,10 @@
   "titleZh": "另一条前行之路",
   "dateText": "September 2001",
   "publishedAt": "2001-09-01",
-  "sourceOrder": 218,
+  "sourceOrder": 220,
   "sourceUrl": "https://paulgraham.com/road.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -238,7 +238,7 @@
       "type": "paragraph",
       "sourceHash": "b260885a3dcdcd20334e1de94c55326f66dbff9533e287e9d8e9f008171afe3a",
       "enMarkdown": "Because the software in a Web-based application will be a collection of programs rather than a single binary, it can be written in any number of different languages. When you're writing desktop software, you're practically forced to write the application in the same language as the underlying operating system-- meaning C and C++. And so these languages (especially among nontechnical people like managers and VCs) got to be considered as the languages for \"serious\" software development. But that was just an artifact of the way desktop software had to be delivered. For server-based software you can use any language you want. [3] Today a lot of the top hackers are using languages far removed from C and C++: Perl, Python, and even Lisp.",
-      "zhMarkdown": "因为基于 Web 的应用中的软件将是一组程序的集合，而不是单一的二进制文件，所以它可以用任意数量的不同语言编写。当你编写桌面软件时，你实际上被迫使用与底层操作系统相同的语言来编写应用程序——这意味着 C 和 C++。因此，这些语言（特别是在经理和 VC 等非技术人员中）开始被视为“严肃”软件开发的语言。但这只是桌面软件交付方式带来的一种假象。对于基于服务器的软件，你可以使用任何你想用的语言。[3] 如今，许多顶尖的黑客都在使用远离 C 和 C++ 的语言：Perl、Python 甚至 Lisp。"
+      "zhMarkdown": "因为基于 Web 的应用程序是一组程序的集合，而不是单一的二进制文件，所以它可以用任意多种不同的语言来编写。编写桌面软件时，你几乎不得不使用与底层操作系统相同的语言——也就是 C 和 C++。因此，这些语言（尤其是在管理者和风投等非技术人员眼中）被视为进行“严肃”软件开发的专属语言。但这不过是桌面软件分发方式所造成的一种附带现象。对于基于服务器的软件，你可以随心所欲地使用任何语言。[3] 如今，许多顶尖黑客使用的语言早已与 C 和 C++ 大相径庭：Perl、Python，甚至是 Lisp。"
     },
     {
       "id": 34,
@@ -518,7 +518,7 @@
       "type": "paragraph",
       "sourceHash": "a7786e1e298a3a587d4378ff600608ce02f229074ae9e144ed9c3dc6be760cd7",
       "enMarkdown": "When you can write software with fewer programmers, it saves you more than money. As Fred Brooks pointed out in *The Mythical\nMan-Month,* adding people to a project tends to slow it down. The number of possible connections between developers grows exponentially with the size of the group. The larger the group, the more time they'll spend in meetings negotiating how their software will work together, and the more bugs they'll get from unforeseen interactions. Fortunately, this process also works in reverse: as groups get smaller, software development gets exponentially more efficient. I can't remember the programmers at Viaweb ever having an actual meeting. We never had more to say at any one time than we could say as we were walking to lunch.",
-      "zhMarkdown": "当你能用更少的程序员来编写软件时，你省下的不仅仅是钱。正如弗雷德·布鲁克斯（Fred Brooks）在《人月神话》中指出的那样，向项目中增加人手往往会拖慢进度。开发者之间可能存在的连接数量随着群体规模的增大呈指数级增长。团队越大，他们花在开会协商他们的软件将如何协同工作上的时间就越多，由于未预料到的交互而产生的 Bug 也就越多。幸运的是，这个过程也可以反向运作：随着团队变小，软件开发的效率呈指数级提高。我不记得 Viaweb 的程序员曾经开过一次正式的会议。我们在任何时候要说的话，从来没有多到在走去吃午饭的路上说不完。"
+      "zhMarkdown": "能用更少的程序员来开发软件，省下的可不仅是金钱。正如 Fred Brooks 在*《人月神话》*中所指出的，向项目中增派人手往往会拖慢进度。开发者之间潜在的沟通连接数会随团队规模呈指数级增长。团队越大，他们花在开会上协调软件各部分如何协作的时间就越多，因料想之外的相互影响而产生的 Bug 也越多。好在这一规律反过来同样成立：团队越小，软件开发的效率就会呈指数级提高。我甚至记不得 Viaweb 的程序员开过哪怕一次正式会议。我们在任何时候想沟通的事情，从来没有多到在走去吃午饭的路上聊不完。"
     },
     {
       "id": 74,
@@ -1106,7 +1106,7 @@
       "type": "paragraph",
       "sourceHash": "9c8784cf815f60222f53df518c42cdfcb7291014d693dea38005a4d019fa9dda",
       "enMarkdown": "[9] In *No Logo,* Naomi Klein says that clothing brands favored by \"urban youth\" do not try too hard to prevent shoplifting because in their target market the shoplifters are also the fashion leaders.",
-      "zhMarkdown": "[9] 娜奥米·克兰（Naomi Klein）在《No Logo》中说，受“城市青年”喜爱的服装品牌不会太努力去防止盗窃，因为在他们的目标市场中，小偷也是时尚的引领者。"
+      "zhMarkdown": "[9] Naomi Klein 在*《No Logo》*一书中提到，深受“城市青年”青睐的服装品牌并不会太卖力地去防范顺手牵羊，因为在它们的目标市场里，这群顺手牵羊的人往往也是引领时尚潮流的先锋。"
     },
     {
       "id": 158,

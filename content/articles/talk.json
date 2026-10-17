@@ -4,10 +4,10 @@
   "titleZh": "像聊天一样写作",
   "dateText": "October 2015",
   "publishedAt": "2015-10-01",
-  "sourceOrder": 64,
+  "sourceOrder": 66,
   "sourceUrl": "https://paulgraham.com/talk.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -42,7 +42,7 @@
       "type": "paragraph",
       "sourceHash": "080eff0400efcee8c4402c5ba59eb44ee9d4b231fb88dc68ff7c1e10d8d257d8",
       "enMarkdown": "It's from Neil Oliver's *A History of Ancient Britain*. I feel bad making an example of this book, because it's no worse than lots of others. But just imagine calling Picasso \"the mercurial Spaniard\" when talking to a friend. Even one sentence of this would raise eyebrows in conversation. And yet people write whole books of it.",
-      "zhMarkdown": "这句话出自尼尔·奥利弗的《大不列颠古代史》。拿这本书来做反面教材我挺过意不去的，因为它其实不比其他书更差。但试想一下，你在和朋友聊天时，会把毕加索称为“这位喜怒无常的西班牙人”吗？在对话中，哪怕只冒出这么一句，都会让人侧目。然而，人们却能用这种调调写出整本书来。"
+      "zhMarkdown": "这句话出自尼尔·奥利弗的 *A History of Ancient Britain*。拿这本书当典型让我有点过意不去，因为它并不比很多其他书更糟。但想象一下，你在跟朋友聊天时把毕加索称为“那位性情多变的西班牙人”。在对话中哪怕冒出这么一句都会让人侧目。然而，人们却能用这种腔调写满整整一本书。"
     },
     {
       "id": 6,

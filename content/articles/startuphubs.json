@@ -4,10 +4,10 @@
   "titleZh": "为什么要搬到创业中心",
   "dateText": "October 2007",
   "publishedAt": "2007-10-01",
-  "sourceOrder": 145,
+  "sourceOrder": 147,
   "sourceUrl": "https://paulgraham.com/startuphubs.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -112,7 +112,7 @@
       "type": "paragraph",
       "sourceHash": "ce719d085881a22836903dba7c0513c0b6aed905bca801a6d5831f3484a91c36",
       "enMarkdown": "In fact, the quality of the investors may be the main advantage of startup hubs. Silicon Valley investors are noticeably more aggressive than Boston ones. Over and over, I've seen startups we've funded snatched by west coast investors out from under the noses of Boston investors who saw them first but acted too slowly. At this year's Boston Demo Day, I told the audience that this happened every year, so if they saw a startup they liked, they should make them an offer. And yet within a month it had happened again: an aggressive west coast VC who had met the founder of a YC-funded startup a week before beat out a Boston VC who had known him for years. By the time the Boston VC grasped what was happening, the deal was already gone.",
-      "zhMarkdown": "事实上，投资人的质量可能是创业中心最主要的优势。硅谷的投资人明显比波士顿的投资人更激进。我一次又一次地看到，我们资助的创业公司被西海岸的投资人从波士顿投资人的眼皮子底下抢走，而后者明明先看到这些项目，却行动太慢。在今年的波士顿 Demo Day 上，我告诉台下的观众，这种情况每年都在发生，所以如果他们看到了喜欢的创业公司，就应该立即给他们开出条件。然而不到一个月，同样的事情再次发生：一位西海岸的激进风险投资人在一周前才见过一家 YC 资助的创业公司创始人，就击败了认识这位创始人多年的波士顿风险投资人。等波士顿的投资人反应过来发生了什么时，交易已经尘埃落定了。"
+      "zhMarkdown": "事实上，投资人的质量可能才是创业中心最核心的优势。硅谷的投资人明显比波士顿的更敢出手。我一次又一次看到，我们投资的创业公司被西海岸投资人从波士顿投资人的眼皮底下抢走——明明是后者先看到的，但他们行动实在太慢。在今年的波士顿 Demo Day 上，我对台下说这种事每年都在发生，所以要是看到心仪的创业公司，就该立马开出条件。可不到一个月，历史又重演了：一位行事果决的西海岸风投才认识某位 YC 资助的创始人一周，就击败了认识他多年的波士顿风投。等波士顿那位反应过来是怎么回事时，交易早就成了定局。"
     },
     {
       "id": 17,
@@ -133,7 +133,7 @@
       "type": "paragraph",
       "sourceHash": "6144846a913b6bafd2658750434745698e50e9401a891565c7e887bf0669c75b",
       "enMarkdown": "Like Facebook. Facebook was started in Boston. Boston VCs had the first shot at them. But they said no, so Facebook moved to Silicon Valley and raised money there. The partner who turned them down now says that \"may turn out to have been a mistake.\"",
-      "zhMarkdown": "比如 Facebook。Facebook 起初是在波士顿成立的。波士顿的风险投资人最先有机会投资他们。但他们拒绝了，于是 Facebook 搬到了硅谷，并在那里融到了资金。当年拒绝他们的那位合伙人现在表示，这“结果可能证明是一个错误”。"
+      "zhMarkdown": "比如 Facebook。Facebook 起家于波士顿，波士顿的风投本来拥有最先投资他们的机会，但他们拒绝了。于是 Facebook 搬去了硅谷，并在那里融到了资。当年拒绝他们的那位合伙人现在表示，那“事后看来可能是一个错误”。"
     },
     {
       "id": 20,
@@ -147,7 +147,7 @@
       "type": "paragraph",
       "sourceHash": "04ba8302b07033c9b81ed22e701fce9e65451d5532684a1d6087fa72a26b683b",
       "enMarkdown": "West coast investors are confident enough of their judgement to act boldly; east coast investors, not so much; but anyone who thinks east coast investors act that way out of prudence should see the frantic reactions of an east coast VC in the process of losing a deal to a west coast one.",
-      "zhMarkdown": "西海岸的投资人对自己的判断足够自信，因而行动果断；东海岸的投资人则没那么自信。任何认为东海岸投资人这样做是出于谨慎的人，都应该去看看东海岸风险投资人在眼睁睁看着一个项目被西海岸投资人抢走时，那种气急败坏的反应。"
+      "zhMarkdown": "西海岸的投资人对自己的判断有足够的信心，因而敢于大胆行事；东海岸的投资人则没那么有底气。要是有人以为东海岸投资人的这般行事风格是出于审慎，那他真该去瞧瞧东海岸风投在项目被西海岸同行抢走时那种抓狂的反应。"
     },
     {
       "id": 22,

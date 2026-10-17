@@ -4,10 +4,10 @@
   "titleZh": "亿万富翁是靠创造价值胜出的",
   "dateText": "December 2020",
   "publishedAt": "2020-12-01",
-  "sourceOrder": 39,
+  "sourceOrder": 41,
   "sourceUrl": "https://paulgraham.com/ace.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -26,9 +26,9 @@
     {
       "id": 3,
       "type": "paragraph",
-      "sourceHash": "b5470796cdee77002f2bd7d0d2b885b058bffc817efceb949b1b5b7c408392ac",
-      "enMarkdown": "The second is about something politicians sometimes say � that the only way to become a billionaire is by exploiting people � and why this is mistaken.",
-      "zhMarkdown": "第二篇则是关于政客们有时会说的一句话——成为亿万富翁的唯一途径就是剥削他人——以及为什么这种说法是错误的。"
+      "sourceHash": "6d75dc767e0f5b4f72f9f4b09fb7755259f6f9b71286ee5d563193e5df369e3b",
+      "enMarkdown": "The second is about something politicians sometimes say — that the only way to become a billionaire is by exploiting people — and why this is mistaken.",
+      "zhMarkdown": "第二篇则是关于政客们有时会说的一种论调——成为亿万富翁的唯一途径就是剥削他人——以及为什么这种说法是错的。"
     },
     {
       "id": 4,
@@ -40,9 +40,9 @@
     {
       "id": 5,
       "type": "paragraph",
-      "sourceHash": "4b4d87ed67f732f51754433acde4301886b4476418642eeafbf0c35c4a7ad170",
-      "enMarkdown": "I know the politicians are mistaken because it was my job to predict which people will become billionaires. I think I can truthfully say that I know as much about how to do this as anyone. If the key to becoming a billionaire � the defining feature of billionaires � was to exploit people, then I, as a professional billionaire scout, would surely realize this and look for people who would be good at it, just as an NFL scout looks for speed in wide receivers.",
-      "zhMarkdown": "我知道政客们错了，因为我过去的工作就是预测哪些人会成为亿万富翁。我想我可以问心无愧地说，在这方面我懂行程度不输任何人。如果成为亿万富翁的关键——或者说亿万富翁的决定性特征——是剥削他人，那么我作为一名专业的“亿万富翁星探”，肯定会意识到这一点，并专门寻找擅长剥削的人，就像 NFL（美式橄榄球联盟）的星探会在外接手身上寻找速度优势一样。"
+      "sourceHash": "91cb676331b3de55686c4d77e21c4a81eccca2b1ba4654788b6530556cd48243",
+      "enMarkdown": "I know the politicians are mistaken because it was my job to predict which people will become billionaires. I think I can truthfully say that I know as much about how to do this as anyone. If the key to becoming a billionaire — the defining feature of billionaires — was to exploit people, then I, as a professional billionaire scout, would surely realize this and look for people who would be good at it, just as an NFL scout looks for speed in wide receivers.",
+      "zhMarkdown": "我知道这些政客错了，因为我过去的工作就是预测哪些人能成为亿万富翁。我想我可以实事求是地说，在这件事上没人比我更清楚。如果成为亿万富翁的关键——也就是他们的决定性特征——真是剥削他人，那么我作为一个职业的亿万富翁星探，肯定早就意识到了，并且会去物色擅长此道的人，就像 NFL 球探物色外接手时看重速度一样。"
     },
     {
       "id": 6,
@@ -168,7 +168,7 @@
       "type": "paragraph",
       "sourceHash": "09b13f9a453ec6da097ae3b2bb4001b851af75815e88c5445ba3bc7d97d6fa70",
       "enMarkdown": "This may sound strangely credulous, but the YC partners want to rely on the founders to tell them about the market. Think about how VCs typically judge the potential market for an idea. They're not ordinarily domain experts themselves, so they forward the idea to someone who is, and ask for their opinion. YC doesn't have time to do this, but if the YC partners can convince themselves that the founders both (a) know what they're talking about and (b) aren't lying, they don't need outside domain experts. They can use the founders themselves as domain experts when evaluating their own idea.",
-      "zhMarkdown": "这听起来可能有些不可思议地轻信，但 YC 合伙人确实希望依赖创始人来告诉他们关于市场的情况。想想风险投资人通常是如何评估一个点子的潜在市场的。他们自己通常不是行业专家，所以他们会把这个点子发给某个专家，并征求其意见。YC 没有时间这样做，但如果 YC 合伙人能够确信创始人（a）很懂行，并且（b）没有撒谎，他们就不需要外部的行业专家。在评估这个点子时，他们可以直接把创始人自己当成行业专家。"
+      "zhMarkdown": "这听起来可能出奇地轻信，但 YC 合伙人确实希望依靠创始人来了解市场的情况。想想风投通常是如何判断一个想法的潜在市场的：他们自己通常不是领域专家，所以会把这个想法转发给懂行的人征求意见。YC 没时间做这些，但只要 YC 合伙人能够确信创始人既 (a) 真正懂行，又 (b) 没有撒谎，他们就不需要外部领域专家了。在评估这个想法时，他们可以直接把创始人本人当作领域专家。"
     },
     {
       "id": 24,
@@ -299,9 +299,9 @@
     {
       "id": 42,
       "type": "paragraph",
-      "sourceHash": "56c664b6f9cfd8aef553049e71986c101a1ca454996a12242e091ba16b76cdda",
-      "enMarkdown": "There are certainly some people who become rich by doing bad things. But there are also plenty of people who behave badly and don't make that much from it. There is no correlation � in fact, probably an inverse correlation � between how badly you behave and how much money you make.",
-      "zhMarkdown": "当然有一些人是通过做坏事变富的。但也有很多行为恶劣的人并没有赚到什么钱。你表现得有多坏与你赚了多少钱之间没有关联——事实上，可能还存在负相关。"
+      "sourceHash": "c37090019d1091ce62ee51ee09f88891bad69d28896c65e4531045799d8cae1e",
+      "enMarkdown": "There are certainly some people who become rich by doing bad things. But there are also plenty of people who behave badly and don't make that much from it. There is no correlation — in fact, probably an inverse correlation — between how badly you behave and how much money you make.",
+      "zhMarkdown": "确实有人靠做坏事发了财。但也有大把品行恶劣的人并没赚到多少钱。一个人品行有多坏，与他能赚多少钱之间毫无相关性——事实上，可能还是负相关。"
     },
     {
       "id": 43,

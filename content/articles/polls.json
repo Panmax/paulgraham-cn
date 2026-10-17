@@ -4,10 +4,10 @@
   "titleZh": "布拉德利的幽灵",
   "dateText": "November 2004",
   "publishedAt": "2004-11-01",
-  "sourceOrder": 194,
+  "sourceOrder": 196,
   "sourceUrl": "https://paulgraham.com/polls.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "7a7d40d11e2c8898b4baa4b87a3bbc85cc06c9cee7a9a6534d3ad7499b2e4c89",
       "enMarkdown": "This works so long as there is no *correlation* between who people vote for and whether they're willing to talk about it. But this year there may have been. It may be that a significant number of those who voted for Bush didn't want to say so.",
-      "zhMarkdown": "只要人们的投票选择与他们是否愿意开口之间没有“相关性”，这种方法就行得通。但今年，这种相关性可能确实存在。很可能有相当一部分投给布什的选民，并不愿意说出自己的选择。"
+      "zhMarkdown": "只要选民把票投给谁与他们是否愿意说出来之间没有*相关性*，这种方法就管用。但今年可能偏偏存在相关性。很可能相当一部分投给布什的人并不想说出来。"
     },
     {
       "id": 10,

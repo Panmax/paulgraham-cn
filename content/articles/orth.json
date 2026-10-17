@@ -4,30 +4,30 @@
   "titleZh": "正统特权",
   "dateText": "July 2020",
   "publishedAt": "2020-07-01",
-  "sourceOrder": 45,
+  "sourceOrder": 47,
   "sourceUrl": "https://paulgraham.com/orth.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
-      "id": 1,
+      "id": 14,
       "type": "rawUnsupported",
-      "sourceHash": "3acfc3e27a51f2dcbf75bbf150a057b15025315298b96210c012deb8d6b5bf37",
-      "enMarkdown": "\"Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions.\"� Einstein\n\"Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions.\"� Einstein"
+      "sourceHash": "81b647c56ffd548caed950dabaee88237d9b958b64ebd3b771f14226c057ed17",
+      "enMarkdown": "\"Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions.\"— Einstein"
     },
     {
       "id": 2,
       "type": "paragraph",
-      "sourceHash": "640d8e5b86f12b5229d49674a220228396484361d7694b2d3693c20858868197",
-      "enMarkdown": "There has been a lot of talk about privilege lately. Although the concept is overused, there is something to it, and in particular to the idea that privilege makes you blind � that you can't see things that are visible to someone whose life is very different from yours.",
-      "zhMarkdown": "最近关于“特权”的讨论很多。虽然这个概念被滥用了，但它确实有其道理，尤其是“特权让人盲目”这一观点——也就是说，你看不到那些在生活经历截然不同的人眼里显而易见的事物。"
+      "sourceHash": "b018f4f19ce959cba67c5a9299029bfbf3b339d253e222fc3789782b182900bd",
+      "enMarkdown": "There has been a lot of talk about privilege lately. Although the concept is overused, there is something to it, and in particular to the idea that privilege makes you blind — that you can't see things that are visible to someone whose life is very different from yours.",
+      "zhMarkdown": "最近关于“特权”（privilege）的讨论很多。尽管这个概念有些被滥用了，但它确实有其道理，尤其是那种认为特权会让人产生盲区（privilege makes you blind）的观点——你看不见那些生活境遇与你大不相同的人所能看见的事物。"
     },
     {
       "id": 3,
       "type": "paragraph",
       "sourceHash": "49f3f8276234eec1406ed6c4d6b20b8b7785ab6ceb6b2c78a42dcaf9b49061eb",
       "enMarkdown": "But one of the most pervasive examples of this kind of blindness is one that I haven't seen mentioned explicitly. I'm going to call it *orthodox privilege*: The more conventional-minded someone is, the more it seems to them that it's safe for everyone to express their opinions.",
-      "zhMarkdown": "但这种盲目性中最普遍的一个例子，我却从未见人明确提起过。我称之为**正统特权**（orthodox privilege）：一个人的思想越是墨守成规，他就越会觉得每个人都可以安全地表达自己的观点。"
+      "zhMarkdown": "但这种盲区中最普遍存在的一种表现，我却从未见有人明确提出过。我打算称之为*正统特权*（orthodox privilege）：一个人的思维越是因循守旧、墨守成规，就越会觉得所有人表达自己的观点都是安全的。"
     },
     {
       "id": 4,

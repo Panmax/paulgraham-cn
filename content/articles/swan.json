@@ -4,10 +4,10 @@
   "titleZh": "黑天鹅式投资",
   "dateText": "September 2012",
   "publishedAt": "2012-09-01",
-  "sourceOrder": 85,
+  "sourceOrder": 87,
   "sourceUrl": "https://paulgraham.com/swan.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -224,7 +224,7 @@
       "type": "paragraph",
       "sourceHash": "6f174d4fafca1b723358c195dd9a4eeadfeaf8c8e2c3a45bfb535cccfba9472d",
       "enMarkdown": "[4] A startup's success at fundraising is a function of two things: what they're selling and how good they are at selling it. And while we can teach startups a lot about how to appeal to investors, even the most convincing pitch can't sell an idea that investors don't like. I was genuinely worried that Airbnb, for example, would not be able to raise money after Demo Day. I couldn't convince [Fred Wilson](https://paulgraham.com/airbnb.html) to fund them. They might not have raised money at all but for the coincidence that Greg McAdoo, our contact at Sequoia, was one of a handful of VCs who understood the vacation rental business, having spent much of the previous two years investigating it.",
-      "zhMarkdown": "[4] 创业公司融资成功取决于两点：他们卖的是什么，以及他们有多擅长推销。虽然我们可以教创业公司很多取悦投资人的技巧，但即使是极具说服力的陈述，也无法把一个投资人讨厌的点子卖出去。例如，当年我曾由衷地担心 Airbnb 在路演日后会融不到钱。我没能说服 [Fred Wilson](https://paulgraham.com/airbnb.html) 投资他们。如果不是碰巧红杉资本的对接人 Greg McAdoo 是极少数懂度假租赁业务的风险投资人之一（他在过去两年里花了很多时间研究这个领域），他们当时可能根本融不到钱。"
+      "zhMarkdown": "[4] 创业公司融资能否成功，取决于两件事：他们在卖什么，以及推销的本事有多大。虽然我们可以教创业公司很多吸引投资人的方法，但即便再有说服力的陈述，也推销不掉一个投资人压根不喜欢的想法。比如，我就曾由衷地担心 Airbnb 在 Demo Day 之后融不到钱。我没能说服 [Fred Wilson](https://paulgraham.com/airbnb.html) 投资他们。要不是刚好碰上一个巧合——我们在红杉的对接人 Greg McAdoo 在此前两年花了大把时间调研度假租赁业务，是极少数懂这门生意的风投之一——他们可能根本一分钱都融不到。"
     },
     {
       "id": 32,

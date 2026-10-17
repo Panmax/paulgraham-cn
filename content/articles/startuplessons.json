@@ -4,10 +4,10 @@
   "titleZh": "创业公司最难学到的几课",
   "dateText": "April 2006",
   "publishedAt": "2006-04-01",
-  "sourceOrder": 169,
+  "sourceOrder": 171,
   "sourceUrl": "https://paulgraham.com/startuplessons.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -343,7 +343,7 @@
       "type": "paragraph",
       "sourceHash": "2c60b9f4ffea075df02fe5a86587be8d2fd683993456c289586f1eecf4fc7dec",
       "enMarkdown": "Time after time VCs invest in startups founded by eminent professors. This may work in biotech, where a lot of startups simply commercialize existing research, but in software you want to invest in students, not professors. Microsoft, Yahoo, and Google were all founded by people who dropped out of school to do it. What students lack in experience they more than make up in dedication.",
-      "zhMarkdown": "VC 们一次又一次地投资著名教授创办的创业公司。这在生物科技领域可能行得通，因为那里的许多创业公司只是将现有的科研成果商业化；但在软件行业，你应该投资学生，而不是教授。微软、雅虎和谷歌都是由那些为了创业而选择退学的人创办的。学生在经验上的欠缺，完全可以通过他们的专注与投入来弥补。"
+      "zhMarkdown": "风投一次又一次地投资于著名教授创办的创业公司。这在生物科技领域或许行得通，因为那里的很多创业公司只是将现有研究商业化，但在软件领域，你应该投资学生，而不是教授。微软、雅虎和谷歌全都是由退学创业的人创立的。学生在经验上的欠缺，完全可以靠全身心的投入来弥补。"
     },
     {
       "id": 49,
@@ -399,7 +399,7 @@
       "type": "paragraph",
       "sourceHash": "02b55e971329b578d65e1e7efd559f81eeefeb450c233b0d71f825fa763a1925",
       "enMarkdown": "If an acquirer thinks you're going to stick around no matter what, they'll be more likely to buy you, because if they don't and you stick around, you'll probably grow, your price will go up, and they'll be left wishing they'd bought you earlier. Ditto for investors. What really motivates investors, even big VCs, is not the hope of good returns, but the fear of missing out. [[6](#f6n)] So if you make it clear you're going to succeed no matter what, and the only reason you need them is to make it happen a little faster, you're much more likely to get money.",
-      "zhMarkdown": "如果收购方认为无论如何你都会坚持下去，他们就更愿意买下你；因为如果他们不买，而你继续坚持，你可能会壮大，你的身价会涨，他们就会后悔没有早点动手。投资人也是如此。真正驱使投资人（甚至是大型 VC）的，不是对高回报的期盼，而是对错失机会的恐惧（FOMO）。[[6](#f6n)] 因此，如果你明确表示无论如何你都会成功，而你需要他们仅仅是为了让成功来得更快一点，你拿到钱的概率就会大得多。"
+      "zhMarkdown": "如果收购方认为无论如何你都会坚持做下去，他们就更有可能收购你。因为如果他们不买，而你又坚持了下来，你很可能会成长壮大，身价水涨船高，到头来他们只能后悔没早点下手。投资者也是同理。真正驱动投资者——即便是大牌风投——的，不是对高回报的期盼，而是对错失机会的恐惧。[[6](#f6n)] 因此，如果你清楚地表明无论如何你都会成功，找他们投资只是为了加速这一过程，你就更有可能拿到钱。"
     },
     {
       "id": 57,
@@ -504,7 +504,7 @@
       "type": "paragraph",
       "sourceHash": "172864815495d75a2c4007acda9587697fc6eda1c09f3e1026377b98da9c9c26",
       "enMarkdown": "Shielding your optimism is nowhere more important than with deals. If your startup is doing a deal, just assume it's not going to happen. The VCs who say they're going to invest in you aren't. The company that says they're going to buy you isn't. The big customer who wants to use your system in their whole company won't. Then if things work out you can be pleasantly surprised.",
-      "zhMarkdown": "在谈交易时，保护你的乐观情绪比在任何地方都更重要。如果你的创业公司正在谈一笔交易，就直接假定它不会成功。说要投资你的 VC 不会投的，说要收购你的公司不会买的，想在全公司使用你系统的超级大客户最后也不会用的。如果事情最后成了，你可以把它当作一个意外之喜。"
+      "zhMarkdown": "给乐观情绪加装防护罩，在谈交易时尤为重要。如果你的创业公司正在谈一笔交易，直接假定它谈不成就是了。那些说要投资你的风投不会投，那家说要收购你的公司不会买，那个想在全公司推广你系统的大客户也不会用。这样一来，如果事情真办成了，你反而会喜出望外。"
     },
     {
       "id": 72,
@@ -532,7 +532,7 @@
       "type": "paragraph",
       "sourceHash": "35f1b35342110c1cde9534729a3849d41f110c806617988c77e199a064c550c4",
       "enMarkdown": "VCs and corp dev guys are professional negotiators. They're trained to take advantage of weakness. [[8](#f8n)] So while they're often nice guys, they just can't help it. And as pros they do this more than you. So don't even try to bluff them. The only way a startup can have any leverage in a deal is genuinely not to need it. And if you don't believe in a deal, you'll be less likely to depend on it.",
-      "zhMarkdown": "VC 和大公司的业务发展（corp dev）人员都是专业的谈判专家。他们受过的训练就是利用别人的软弱。[[8](#f8n)] 所以尽管他们通常人很好，但他们就是忍不住会这么做。作为专业人士，他们做这事的经验比你丰富得多。所以别试图跟他们虚张声势。创业公司在交易中拥有筹码的唯一方式，是真切地做到“不需要这笔交易”。如果你不迷信某笔交易，你就更不可能依赖它。"
+      "zhMarkdown": "风投和企业战略发展部的人都是职业谈判手。他们受过的训练就是抓住弱点乘虚而入。[[8](#f8n)] 所以尽管他们通常人都挺不错，但也身不由己。而且作为专业人士，他们做这事比你频繁得多。所以千万别试图虚张声势。创业公司在交易中唯一能拥有的筹码，就是真正做到“不需要这笔交易”。而如果你根本不指望一笔交易能成，你也就更不容易依赖它。"
     },
     {
       "id": 76,
@@ -644,7 +644,7 @@
       "type": "paragraph",
       "sourceHash": "afcd8360ddf2f8f1703b218a6bee2f30566c81f75a704b3308797c6a429d8918",
       "enMarkdown": "[6] VCs have rational reasons for behaving this way. They don't make their money (if they make money) off their median investments. In a typical fund, half the companies fail, most of the rest generate mediocre returns, and one or two \"make the fund\" by succeeding spectacularly. So if they miss just a few of the most promising opportunities, it could hose the whole fund.",
-      "zhMarkdown": "[6] VC 这样做有其合理的逻辑。他们赚钱（如果能赚到钱的话）不靠那些表现平平的投资。在一家典型的基金中，有一半的公司会失败，剩下的大多数产生平庸的回报，而一两家通过惊人的成功来“撑起整期基金”。因此，如果他们错过了哪怕几个最有前景的机会，整期基金就可能彻底完蛋。"
+      "zhMarkdown": "[6] 风投这么做是有理性依据的。他们赚钱（如果真赚到了的话）并不靠中位数水平的投资项目。在一支典型的基金中，一半的公司会倒闭，剩下的大多数只能产生平庸的回报，全靠一两家取得惊人成功的公司来“撑起整支基金”。因此，只要错失少数几个最具前景的机会，整支基金就可能泡汤。"
     },
     {
       "id": 92,

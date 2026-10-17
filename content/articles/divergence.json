@@ -4,10 +4,10 @@
   "titleZh": "风险投资会成为这次经济衰退的牺牲品吗？",
   "dateText": "December 2008",
   "publishedAt": "2008-12-01",
-  "sourceOrder": 128,
+  "sourceOrder": 130,
   "sourceUrl": "https://paulgraham.com/divergence.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -42,7 +42,7 @@
       "type": "paragraph",
       "sourceHash": "b940e846c856d64f971e97fcb8ca140576559633eee25cc6b0cb8143fd34dc25",
       "enMarkdown": "$3000 is insignificant as revenues go. Why should anyone care about a startup making $3000 a month? Because, although insignificant as *revenue*, this amount of money can change a startup's *funding* situation completely.",
-      "zhMarkdown": "就收入而言，3000 美元微不足道。为什么有人会去关心一家月入 3000 美元的创业公司？因为，虽然作为“收入”它微不足道，但这笔钱却能彻底改变一家创业公司的“融资”处境。"
+      "zhMarkdown": "就营收而言，3000 美元微不足道。那为什么会有人在乎一家月入 3000 美元的创业公司？因为，虽然作为*营收*它微不足道，但这笔钱却能彻底改变一家创业公司的*融资*处境。"
     },
     {
       "id": 6,

@@ -4,10 +4,10 @@
   "titleZh": "为什么黑客不招人喜欢",
   "dateText": "February 2003",
   "publishedAt": "2003-02-01",
-  "sourceOrder": 208,
+  "sourceOrder": 210,
   "sourceUrl": "https://paulgraham.com/nerds.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -189,7 +189,7 @@
       "type": "paragraph",
       "sourceHash": "996941e31060b33c702363d0a16bf30d600e31638030d93e59960c44f78d2eae",
       "enMarkdown": "The problem is, the world these kids create for themselves is at first a very crude one. If you leave a bunch of eleven-year-olds to their own devices, what you get is *Lord of the Flies.* Like a lot of American kids, I read this book in school. Presumably it was not a coincidence. Presumably someone wanted to point out to us that we were savages, and that we had made ourselves a cruel and stupid world. This was too subtle for me. While the book seemed entirely believable, I didn't get the additional message. I wish they had just told us outright that we were savages and our world was stupid.",
-      "zhMarkdown": "问题是，这些孩子为自己创造的世界起初是非常粗糙的。如果你让一群十一岁的孩子自生自灭，你得到的就是《蝇王》。和许多美国孩子一样，我在学校读过这本书。这大概不是巧合。大概有人想向我们指出，我们是野蛮人，我们为自己创造了一个残酷而愚蠢的世界。这对我来说太隐晦了。虽然我觉得书里的情节完全可信，但我没有领会到这层额外的信息。我真希望他们直接了当地告诉我们，我们就是野蛮人，我们的世界很愚蠢。"
+      "zhMarkdown": "问题在于，这群孩子为自己构建的世界起初极其原始粗糙。如果把一群十一岁的孩子放任自流，结果就会演变成 *《蝇王》*。和许多美国孩子一样，我是在学校里读到这本书的。想必这绝非巧合。想必有人想借此向我们点明：我们就是一群野蛮人，我们亲手创造了一个既残忍又愚蠢的世界。但这种隐喻对我来说太隐晦了。虽然那本书的情节读起来完全可信，但我当时并没有领会这层深意。我倒希望他们直接明明白白地告诉我们：你们就是野蛮人，你们的世界蠢透了。"
     },
     {
       "id": 28,
@@ -511,7 +511,7 @@
       "type": "paragraph",
       "sourceHash": "e5a93b4fe58d437849d1afed2956d19398ae4c03d1d32388b705526c1b42e9f3",
       "enMarkdown": "In my high school French class we were supposed to read Hugo's *Les\nMiserables.* I don't think any of us knew French well enough to make our way through this enormous book. Like the rest of the class, I just skimmed the Cliff's Notes. When we were given a test on the book, I noticed that the questions sounded odd. They were full of long words that our teacher wouldn't have used. Where had these questions come from? From the Cliff's Notes, it turned out. The teacher was using them too. We were all just pretending.",
-      "zhMarkdown": "在我高中的法语课上，我们应该阅读雨果的《悲惨世界》。我认为我们中没有人法语足够好，能读完这本巨著。和班里其他人一样，我只是浏览了 Cliff's Notes（备考简报）。当我们对这本书进行考试时，我注意到问题听起来很奇怪。里面充满了我们的老师不会使用的长词。这些问题是从哪里来的？结果发现，是从 Cliff's Notes 里来的。老师也在用它。我们都只是在假装。"
+      "zhMarkdown": "在高中法语课上，按要求我们得读雨果的 *《悲惨世界》*。可我觉得全班没一个人的法语水平能啃得下这本大部头。我和其他人一样，只是草草翻了翻 Cliff's Notes 辅导书。等我们做这本书的测试卷时，我发现那些题目听起来怪怪的，里面塞满了我们老师平时绝不会用的冗长词汇。这些题目是从哪儿来的？搞了半天也是出自 Cliff's Notes。老师自己也在用。我们全都在逢场作戏。"
     },
     {
       "id": 74,
@@ -539,14 +539,14 @@
       "type": "paragraph",
       "sourceHash": "94925bd3994c65fa6d704eaa32fffb6f8ade37b902b27f401f0ce78c90ea6eeb",
       "enMarkdown": "When there is some real external test of skill, it isn't painful to be at the bottom of the hierarchy. A rookie on a football team doesn't resent the skill of the veteran; he hopes to be like him one day and is happy to have the chance to learn from him. The veteran may in turn feel a sense of *noblesse oblige*. And most importantly, their status depends on how well they do against opponents, not on whether they can push the other down.",
-      "zhMarkdown": "当存在某种真正的外部技能测试时，处于等级制度的底部并不会令人痛苦。橄榄球队的新人不会怨恨老队员的技能；他希望有一天能像他一样，并为有机会向他学习而感到高兴。老队员反过来可能会有一种“贵族义务”（noblesse oblige）。最重要的是，他们的地位取决于他们对对手的表现，而不是他们能否把别人踩下去。"
+      "zhMarkdown": "当存在某种切实的外部技能检验时，身处等级底层并不会令人痛苦。美式橄榄球队里的新人不会嫉恨老将的球技；他盼着有朝一日能像老将一样出色，并为能向对方学习而感到庆幸。老将反过来也会产生一种 *贵族义务*。最重要的是，他们的地位取决于面对对手时的表现，而不是看能否把同伴踩在脚下。"
     },
     {
       "id": 78,
       "type": "paragraph",
       "sourceHash": "f97bb2357ea83b9a1898efb1ea6c9226cf8d413668c32f827139a7f4ef985bf8",
       "enMarkdown": "Court hierarchies are another thing entirely. This type of society debases anyone who enters it. There is neither admiration at the bottom, nor *noblesse oblige* at the top. It's kill or be killed.",
-      "zhMarkdown": "宫廷等级制度则完全是另一回事。这种社会败坏了任何进入它的人。底层既没有崇拜，顶层也没有“贵族义务”。这是要么杀人，要么被杀的游戏。"
+      "zhMarkdown": "宫廷式的等级制度则完全是另一码事。这种社会形态会腐化踏入其中的每一个人。在底层没有钦佩，在顶层亦无 *贵族义务*。这里只有你死我活。"
     },
     {
       "id": 79,

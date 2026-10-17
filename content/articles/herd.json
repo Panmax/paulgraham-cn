@@ -4,10 +4,10 @@
   "titleZh": "投资人的从众效应",
   "dateText": "August 2013",
   "publishedAt": "2013-08-01",
-  "sourceOrder": 78,
+  "sourceOrder": 80,
   "sourceUrl": "https://paulgraham.com/herd.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -77,7 +77,7 @@
       "type": "paragraph",
       "sourceHash": "71a705261b5a566ddbe52b67d11fde58339c99e13c29595459ce63dc36728ef1",
       "enMarkdown": "Do not, however, tell A who B is. VCs will sometimes ask which other VCs you're talking to, but you should never tell them. Angels you can sometimes tell about other angels, because angels cooperate more with one another. But if VCs ask, just point out that they wouldn't want you telling other firms about your conversations, and you feel obliged to do the same for any firm you talk to. If they push you, point out that you're inexperienced at fundraising — which is always a safe card to play — and you feel you have to be extra cautious. [[3](#f3n)]",
-      "zhMarkdown": "但是，千万不要告诉 A 谁是 B。风险投资人有时会问你还在和哪些风险投资人谈，但你绝不能告诉他们。如果是天使投资人，你有时可以透露其他天使的名字，因为天使投资人之间的合作更多。但如果风险投资人问起，你只需指出，他们肯定也不希望你把与他们的谈话透露给其他机构，因此你觉得有义务对任何与你接触的机构一视同仁。如果他们逼问你，就指出自己在融资方面缺乏经验——这永远是一张安全的底牌——因此觉得自己必须加倍谨慎。[[3](#f3n)]"
+      "zhMarkdown": "但千万不要告诉 A 那个 B 是谁。风投有时会问你还在接触哪些风投，但你绝不能透露。对于天使投资人，你有时倒是可以说说其他天使投资人，因为他们彼此之间合作更多。但如果是风投问起，只要直截了当地指出：他们肯定也不希望你把彼此的对话透露给别家机构，所以你觉得对接触的任何一家机构都有责任一视同仁地保密。如果他们继续逼问，就说自己在融资方面没什么经验——打这张牌总是很管用的——所以觉得自己必须格外谨慎。[[3](#f3n)]"
     },
     {
       "id": 11,

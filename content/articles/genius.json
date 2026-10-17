@@ -4,10 +4,10 @@
   "titleZh": "天才的“公交车票理论”",
   "dateText": "November 2019",
   "publishedAt": "2019-11-01",
-  "sourceOrder": 54,
+  "sourceOrder": 56,
   "sourceUrl": "https://paulgraham.com/genius.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -287,14 +287,14 @@
       "type": "paragraph",
       "sourceHash": "027613061d6e090e208863f72bb3d065707f70da6a65dd7b7d056700ce119c64",
       "enMarkdown": "[5] \"An infinite capacity for taking pains\" is a paraphrase of what Carlyle wrote. What he wrote, in his *History of Frederick the Great*, was \"... it is the fruit of 'genius' (which means transcendent capacity of taking trouble, first of all)....\" Since the paraphrase seems the name of the idea at this point, I kept it.",
-      "zhMarkdown": "[5] “无限忍受艰苦的能力”是对卡莱尔原话的转述。他在《腓特烈大帝传》中写道：“……它是‘天才’的果实（这首先意味着超越常人的承担麻烦的能力）……”。既然这个转述在今天看来已经成了这个观点的代名词，我就沿用了它。"
+      "zhMarkdown": "[5] “不怕麻烦的无限能力”是对卡莱尔原话的转述。他在《腓特烈大帝史》（*History of Frederick the Great*）中写的是：“……这是‘天才’的结晶（所谓天才，首先意味着不怕麻烦的超凡能力）……”鉴于这种转述如今似乎已成了该观点的标准表述，我便沿用了它。"
     },
     {
       "id": 41,
       "type": "paragraph",
-      "sourceHash": "5d65294b092530c376a841fb8743c816cb576f733a4f5d0a1e759567d811fabf",
-      "enMarkdown": "Carlyle's *History* was published in 1858. In 1785 H�rault de S�chelles quoted Buffon as saying \"Le g�nie n'est qu'une plus grande aptitude � la patience.\" (Genius is only a greater aptitude for patience.)",
-      "zhMarkdown": "卡莱尔的《大帝传》出版于1858年。而在1785年，埃罗·德·塞谢勒曾引用布封的话：“Le génie n'est qu'une plus grande aptitude à la patience.”（天才不过是更强大的耐心。）"
+      "sourceHash": "b844937ab1f93a46af966026f73a9013a2afca24b7af337711c2e7ce0d86de83",
+      "enMarkdown": "Carlyle's *History* was published in 1858. In 1785 Hérault de Séchelles quoted Buffon as saying \"Le génie n'est qu'une plus grande aptitude à la patience.\" (Genius is only a greater aptitude for patience.)",
+      "zhMarkdown": "卡莱尔的《腓特烈大帝史》（*History*）出版于 1858 年。而在 1785 年，埃罗·德·塞谢勒（Hérault de Séchelles）就曾引用过布丰（Buffon）的名言：“Le génie n'est qu'une plus grande aptitude à la patience.”（天才不过是拥有更大的耐心。）"
     },
     {
       "id": 42,
@@ -355,9 +355,9 @@
     {
       "id": 50,
       "type": "paragraph",
-      "sourceHash": "efd891b9b7869e6dd89454cf5777e041c1af30633107c479f6a60b7376ae99ab",
-      "enMarkdown": "[8] How much of people's propensity to become interested in a topic is inborn? My experience so far suggests the answer is: most of it. Different kids get interested in different things, and it's hard to make a child interested in something they wouldn't otherwise be. Not in a way that sticks. The most you can do on behalf of a topic is to make sure it gets a fair showing � to make it clear to them, for example, that there's more to math than the dull drills they do in school. After that it's up to the child.",
-      "zhMarkdown": "[8] 人们对某个话题产生兴趣的倾向，有多少是天生的？我目前的经验表明答案是：大部分。不同的孩子对不同的事物感兴趣，很难让一个孩子对他本来不感兴趣的事情产生兴趣。至少无法产生持久的兴趣。你能为某个学科做的最多的事情，就是确保它得到公正的展现——例如，向他们说清楚，数学不仅仅是他们在学校里做的那些枯燥的练习。在那之后，就全看孩子自己了。"
+      "sourceHash": "854010aa9ebaf42d68e2d63b6589cb0367650785406c98592adac691f206e4e1",
+      "enMarkdown": "[8] How much of people's propensity to become interested in a topic is inborn? My experience so far suggests the answer is: most of it. Different kids get interested in different things, and it's hard to make a child interested in something they wouldn't otherwise be. Not in a way that sticks. The most you can do on behalf of a topic is to make sure it gets a fair showing — to make it clear to them, for example, that there's more to math than the dull drills they do in school. After that it's up to the child.",
+      "zhMarkdown": "[8] 一个人对某一主题产生兴趣的倾向，究竟有多少是天生的？就我目前的经验来看，答案是：绝大部分。不同的孩子会对不同的事物产生兴趣，如果一个孩子本来就不感兴趣，你很难强行让他喜欢上——至少无法持久。你能为某个学科所做的最大努力，就是确保它能得到一次公正的展示——比如让他们明白，数学远不止是学校里那些枯燥的重复练习。在那之后，就全看孩子自己了。"
     },
     {
       "id": 51,

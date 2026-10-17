@@ -4,10 +4,10 @@
   "titleZh": "为什么创业公司会在美国汇聚",
   "dateText": "May 2006",
   "publishedAt": "2006-05-01",
-  "sourceOrder": 167,
+  "sourceOrder": 169,
   "sourceUrl": "https://paulgraham.com/america.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -371,7 +371,7 @@
       "type": "paragraph",
       "sourceHash": "2a50c40694d6ab44edf2a847b7312940c1d3da2b4bceae697ab92da50641a138",
       "enMarkdown": "Incidentally, America's private universities are one reason there's so much venture capital. A lot of the money in VC funds comes from their endowments. So another advantage of private universities is that a good chunk of the country's wealth is managed by enlightened investors.",
-      "zhMarkdown": "顺便提一句，美国的私立大学是拥有如此多风险资本的原因之一。风投基金中的很多资金来自这些大学的捐赠基金。因此，私立大学的另一个优势在于，该国财富的很大一部分是由开明的投资者管理的。"
+      "zhMarkdown": "顺便提一句，美国的私立大学也是风险投资如此充裕的原因之一。风投基金里很大一部分资金都来自大学捐赠基金。因此私立大学的另一个优势在于，国家财富中有相当大的一部分是由开明的投资人管理的。"
     },
     {
       "id": 53,

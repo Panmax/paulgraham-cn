@@ -4,10 +4,10 @@
   "titleZh": "股权等式",
   "dateText": "July 2007",
   "publishedAt": "2007-07-01",
-  "sourceOrder": 152,
+  "sourceOrder": 154,
   "sourceUrl": "https://paulgraham.com/equity.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "7c1fe1fbabe0944f8ea14c5a7d88144d304c8aa4bcc835c60422be5a9f26e79c",
       "enMarkdown": "One of the things the equity equation shows us is that, financially at least, taking money from a top VC firm can be a really good deal. Greg Mcadoo from Sequoia recently said at a YC dinner that when Sequoia invests alone they like to take about 30% of a company. 1/.7 = 1.43, meaning that deal is worth taking if they can improve your outcome by more than 43%. For the average startup, that would be an extraordinary bargain. It would improve the average startup's prospects by more than 43% just to be able to *say* they were funded by Sequoia, even if they never actually got the money.",
-      "zhMarkdown": "股权等式向我们展示的道理之一是，至少在财务上，拿顶级风险投资机构的钱可以是一笔非常划算的交易。红杉资本（Sequoia）的 Greg Mcadoo 最近在一次 YC 晚宴上提到，当红杉独家投资时，他们倾向于拿走公司大约 30% 的股份。1/.7 = 1.43，这意味着只要他们能让你的前景提升 43% 以上，这笔交易就值得做。对于一家平庸的创业公司来说，这简直是天大的便宜。仅仅能够*宣称*自己获得了红杉的投资，就能让一家平庸创业公司的前景提升 43% 以上，哪怕他们实际上根本没拿到那笔钱。"
+      "zhMarkdown": "股权公式向我们揭示的一件事是：至少从财务角度来看，拿顶级风投机构的钱可以是一笔非常划算的交易。红杉的 Greg McAdoo 最近在一次 YC 晚宴上提到，当红杉独家投资时，他们通常希望拿到一家公司约 30% 的股份。1/.7 = 1.43，这意味着只要他们能让你的预期表现提升 43% 以上，这笔交易就值得做。对于一家普通的创业公司而言，这简直是天大的便宜。光是能够对外*宣称*自己获得了红杉的投资——哪怕实际上钱根本没到手——就足以让一家普通创业公司的前景提升 43% 以上了。"
     },
     {
       "id": 9,

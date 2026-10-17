@@ -4,10 +4,10 @@
   "titleZh": "我从用户身上学到了什么",
   "dateText": "September 2022",
   "publishedAt": "2022-09-01",
-  "sourceOrder": 22,
+  "sourceOrder": 24,
   "sourceUrl": "https://paulgraham.com/users.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -166,9 +166,9 @@
     {
       "id": 23,
       "type": "paragraph",
-      "sourceHash": "e64289da7a22b5319091193db85803cddebe2694a6522b67aac99fe94578f8a0",
-      "enMarkdown": "The other big thing YC gives founders is colleagues, and this may be even more important than the advice of partners. If you look at history, great work clusters around certain places and institutions: Florence in the late 15th century, the University of G�ttingen in the late 19th, *The New Yorker* under Ross, Bell Labs, Xerox PARC. However good you are, good colleagues make you better. Indeed, very ambitious people probably need colleagues more than anyone else, because they're so starved for them in everyday life.",
-      "zhMarkdown": "YC 带给创始人的另一个巨大收获是同伴，这甚至可能比合伙人的建议更重要。纵观历史，伟大的工作总是聚集在某些特定的地方和机构：15 世纪末的佛罗伦萨、19 世纪末的哥廷根大学、罗斯治下的《纽约客》、贝尔实验室、施乐帕罗奥多研究中心（Xerox PARC）。无论你有多优秀，优秀的同伴都会让你变得更优秀。事实上，极具野心的人可能比任何人都更需要同伴，因为他们在日常生活中太缺乏同伴了。"
+      "sourceHash": "9bdc83270f0c756503a2d2363e19c3929694fbdf8cfcdfb25ea101258261166c",
+      "enMarkdown": "The other big thing YC gives founders is colleagues, and this may be even more important than the advice of partners. If you look at history, great work clusters around certain places and institutions: Florence in the late 15th century, the University of Göttingen in the late 19th, *The New Yorker* under Ross, Bell Labs, Xerox PARC. However good you are, good colleagues make you better. Indeed, very ambitious people probably need colleagues more than anyone else, because they're so starved for them in everyday life.",
+      "zhMarkdown": "YC 带给创始人的另一大收获是同侪，而这可能比合伙人的建议还要重要。纵观历史，伟大的成就总是汇聚在特定的地点与机构：15 世纪末的佛罗伦萨、19 世纪末的哥廷根大学、罗斯时期的 *The New Yorker*、贝尔实验室、施乐帕克研究中心。无论你有多优秀，优秀的同侪都会让你更进一步。事实上，雄心勃勃的人或许比任何人都更需要同侪，因为在日常生活中，他们太缺少这样的同行者了。"
     },
     {
       "id": 24,

@@ -4,10 +4,10 @@
   "titleZh": "智慧值得追求吗？",
   "dateText": "February 2007",
   "publishedAt": "2007-02-01",
-  "sourceOrder": 158,
+  "sourceOrder": 160,
   "sourceUrl": "https://paulgraham.com/wisdom.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -448,7 +448,7 @@
       "type": "paragraph",
       "sourceHash": "30e5e3fbaa242f2ecad2f30e0274377d27e4f07006628f4113c4500e2380baa2",
       "enMarkdown": "[7] *Analects* VII:36, Fung trans.",
-      "zhMarkdown": "[7] 《论语》述而篇，冯友兰译本。"
+      "zhMarkdown": "[7] *《论语》* VII:36，冯友兰英译。"
     },
     {
       "id": 64,
@@ -469,7 +469,7 @@
       "type": "paragraph",
       "sourceHash": "2dfb74099e1b9d176f85919a9b64536164ec51935649a2a79a1dd79851bf7135",
       "enMarkdown": "[9] Confucius claimed proudly that he had never invented anything—that he had simply passed on an accurate account of ancient traditions. [*Analects* VII:1] It's hard for us now to appreciate how important a duty it must have been in preliterate societies to remember and pass on the group's accumulated knowledge. Even in Confucius's time it still seems to have been the first duty of the scholar.",
-      "zhMarkdown": "[9] 孔子自豪地宣称自己“述而不作”——他只是准确地传递了古代传统。[《论语》述而篇] 我们现在很难体会到，在没有文字的社会里，记住并传承群体积累的知识是一项多么重要的职责。即使在孔子的时代，这似乎依然是学者的首要职责。"
+      "zhMarkdown": "[9] 孔子曾自豪地表示自己从未创造过任何东西——他只是如实传承古代传统。[*《论语》* VII:1] 今天的我们很难体会，在文字出现之前的社会里，记住并传下群体积累的知识曾是多么重大的职责。即便到了孔子的时代，这似乎依然是学者的首要天职。"
     },
     {
       "id": 67,

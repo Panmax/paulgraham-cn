@@ -4,10 +4,10 @@
   "titleZh": "我的写作与编程历程",
   "dateText": "February 2021",
   "publishedAt": "2021-02-01",
-  "sourceOrder": 37,
+  "sourceOrder": 39,
   "sourceUrl": "https://paulgraham.com/worked.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -19,9 +19,9 @@
     {
       "id": 2,
       "type": "paragraph",
-      "sourceHash": "9e0384284f8859b1c3f3d1e2c28c07d15e0d9df27d3bd342f5160035852e5708",
-      "enMarkdown": "The first programs I tried writing were on the IBM 1401 that our school district used for what was then called \"data processing.\" This was in 9th grade, so I was 13 or 14. The school district's 1401 happened to be in the basement of our junior high school, and my friend Rich Draves and I got permission to use it. It was like a mini Bond villain's lair down there, with all these alien-looking machines � CPU, disk drives, printer, card reader � sitting up on a raised floor under bright fluorescent lights.",
-      "zhMarkdown": "我尝试写的第一批程序是在一台 IBM 1401 上运行的，当时我们学区用它来做所谓的“数据处理”。那是九年级，我大概十三四岁。学区的那台 1401 刚好放在我们初中的地下室里，我和朋友 Rich Draves 得到了使用许可。那地下室就像个迷你版《007》反派的秘密基地：在明亮的荧光灯下，架高的地板上整齐地摆放着 CPU、磁盘驱动器、打印机、读卡机等一堆看起来像外星造物的机器。"
+      "sourceHash": "582ac17b5ac72f83cb2f5072331e86be015d59ac947af9dba1c54a57f0d960f2",
+      "enMarkdown": "The first programs I tried writing were on the IBM 1401 that our school district used for what was then called \"data processing.\" This was in 9th grade, so I was 13 or 14. The school district's 1401 happened to be in the basement of our junior high school, and my friend Rich Draves and I got permission to use it. It was like a mini Bond villain's lair down there, with all these alien-looking machines — CPU, disk drives, printer, card reader — sitting up on a raised floor under bright fluorescent lights.",
+      "zhMarkdown": "我最早尝试写程序，是在我们学区用来做当年所谓的“数据处理”的 IBM 1401 上。那是初三，我大概 13 或 14 岁。学区的那台 1401 恰好放在我们初中的地下室里，我和朋友 Rich Draves 获准可以使用它。地下室活像个袖珍版的 007 反派巢穴，明亮的荧光灯下，高架地板上摆着各种外星仪器模样的机器——CPU、磁盘驱动器、打印机、读卡机。"
     },
     {
       "id": 3,
@@ -77,7 +77,7 @@
       "type": "paragraph",
       "sourceHash": "46220cf28c97e21da71813b30fbc66563d8fb5925e6dd58a8f374ac18b72be06",
       "enMarkdown": "AI was in the air in the mid 1980s, but there were two things especially that made me want to work on it: a novel by Heinlein called *The Moon is a Harsh Mistress*, which featured an intelligent computer called Mike, and a PBS documentary that showed Terry Winograd using SHRDLU. I haven't tried rereading *The Moon is a Harsh\nMistress*, so I don't know how well it has aged, but when I read it I was drawn entirely into its world. It seemed only a matter of time before we'd have Mike, and when I saw Winograd using SHRDLU, it seemed like that time would be a few years at most. All you had to do was teach SHRDLU more words.",
-      "zhMarkdown": "20 世纪 80 年代中期，AI 的概念正风靡一时，但有两件事特别促使我想去研究它：一是海因莱因的小说《月亮是一个严厉的妇人》，里面有一个叫 Mike 的智能电脑；二是 PBS 的一部纪录片，展示了特里·温诺格拉德（Terry Winograd）使用 SHRDLU 的场景。我没有尝试去重读《月亮是一个严厉的妇人》，所以我不知道它是否经得起时间的考验，但当年读它时，我完全被带入了那个世界。拥有 Mike 似乎只是时间问题，而当我看到温诺格拉德使用 SHRDLU 时，我觉得这一天最多也就几年就会到来。你所要做的就是教 SHRDLU 更多的词汇。"
+      "zhMarkdown": "80 年代中期，AI 成了热门话题，但特别让我着迷的有两件事：一是海因莱因的小说 *The Moon is a Harsh Mistress*，里面有一个叫 Mike 的智能计算机；二是 PBS 的一部纪录片，展示了特里·威诺格拉德（Terry Winograd）使用 SHRDLU 的过程。我后来没重读过 *The Moon is a Harsh Mistress*，不知道它现在读起来是否依然精彩，但当时读的时候我彻底沉浸在那个世界里了。制造出 Mike 似乎只是时间问题，而当看到威诺格拉德使用 SHRDLU 时，我觉得这一天最多也就再过几年。你只需要教 SHRDLU 更多的词汇就行了。"
     },
     {
       "id": 11,
@@ -89,9 +89,9 @@
     {
       "id": 12,
       "type": "paragraph",
-      "sourceHash": "0dff695a373fa1274bc709e15505f67456576a838885cc98d1f05711573770d7",
-      "enMarkdown": "For my undergraduate thesis, I reverse-engineered SHRDLU. My God did I love working on that program. It was a pleasing bit of code, but what made it even more exciting was my belief � hard to imagine now, but not unique in 1985 � that it was already climbing the lower slopes of intelligence.",
-      "zhMarkdown": "在我的本科毕业论文中，我逆向工程了 SHRDLU。天呐，我太热爱折腾那个程序了。那是一段令人赏心悦目的代码，但更让我兴奋的是我当时坚信——现在很难想象，但在 1985 年并非个别现象——它已经开始攀登智能的低坡了。"
+      "sourceHash": "508a52952ebc0f8ffbac8ddc6a6a5f8e13e818e70d52f9257ad9acdf7c28e8d5",
+      "enMarkdown": "For my undergraduate thesis, I reverse-engineered SHRDLU. My God did I love working on that program. It was a pleasing bit of code, but what made it even more exciting was my belief — hard to imagine now, but not unique in 1985 — that it was already climbing the lower slopes of intelligence.",
+      "zhMarkdown": "我的本科毕业论文是对 SHRDLU 进行了逆向工程。天知道我有多喜欢研究那个程序。那是一段赏心悦目的代码，但更让我兴奋的是我当时坚信——这在今天很难想象，但在 1985 年绝非个例——它已经在攀登智能的低坡了。"
     },
     {
       "id": 13,
@@ -126,14 +126,14 @@
       "type": "paragraph",
       "sourceHash": "31d649683c371dd4242afb885c5ab7b35af267e07f2fef4031a20a969d7a6349",
       "enMarkdown": "So I looked around to see what I could salvage from the wreckage of my plans, and there was Lisp. I knew from experience that Lisp was interesting for its own sake and not just for its association with AI, even though that was the main reason people cared about it at the time. So I decided to focus on Lisp. In fact, I decided to write a book about Lisp hacking. It's scary to think how little I knew about Lisp hacking when I started writing that book. But there's nothing like writing a book about something to help you learn it. The book, *On Lisp*, wasn't published till 1993, but I wrote much of it in grad school.",
-      "zhMarkdown": "于是，我四处看看，想从我那破灭的计划废墟中抢救出点什么，结果发现了 Lisp。我从经验中知道，Lisp 本身就很有趣，而不仅仅是因为它与 AI 的联系，尽管那是当时人们关注它的主要原因。所以我决定专注于 Lisp。事实上，我决定写一本关于 Lisp 黑客技术的书。现在想想，当我开始写那本书时，我对 Lisp 黑客技术的了解少得可怜，这实在令人后怕。但是，没有什么比写一本关于某个主题的书更能帮你掌握它了。这本书《On Lisp》直到 1993 年才出版，但我大部分内容都是在读研时写的。"
+      "zhMarkdown": "于是我环顾四周，看看能从我那计划的废墟中打捞出什么，结果找到了 Lisp。我从经验中知道，Lisp 本身就很有意思，并不只是因为它与 AI 的联系，尽管在当时那是人们关注它的主要原因。因此我决定把重心放在 Lisp 上。事实上，我决定写一本关于 Lisp 黑客技术的书。现在回想起来，我开始写那本书的时候，对 Lisp 黑客技术的了解少得吓人。但要想彻底学会某样东西，没有什么比写一本关于它的书更有效的了。那本书《*On Lisp*》直到 1993 年才出版，但大部分内容都是我在研究生期间写完的。"
     },
     {
       "id": 18,
       "type": "paragraph",
-      "sourceHash": "eb1361397071d42a58143ab27e35a4ea2047769f840e7a1b52aa0e83586f78db",
-      "enMarkdown": "Computer Science is an uneasy alliance between two halves, theory and systems. The theory people prove things, and the systems people build things. I wanted to build things. I had plenty of respect for theory � indeed, a sneaking suspicion that it was the more admirable of the two halves � but building things seemed so much more exciting.",
-      "zhMarkdown": "计算机科学是理论和系统这两半之间勉强的联盟。理论界的人证明定理，系统界的人构建系统。我想构建系统。我对理论充满敬意——甚至暗自觉得它是两者中更令人钦佩的一半——但构建系统看起来要让人兴奋得多。"
+      "sourceHash": "c9d46c24b97571b64aa8cc7f23359b655b1b474e87892c78239561208c514ad2",
+      "enMarkdown": "Computer Science is an uneasy alliance between two halves, theory and systems. The theory people prove things, and the systems people build things. I wanted to build things. I had plenty of respect for theory — indeed, a sneaking suspicion that it was the more admirable of the two halves — but building things seemed so much more exciting.",
+      "zhMarkdown": "计算机科学是理论与系统这两半之间勉强的结合。理论派负责证明，系统派负责构建。我想构建东西。我对理论充满敬意——甚至隐隐觉得它比系统更令人钦佩——但构建东西感觉要刺激得多。"
     },
     {
       "id": 19,
@@ -173,9 +173,9 @@
     {
       "id": 24,
       "type": "paragraph",
-      "sourceHash": "86d857e06f4f8c4eab4984f7344cfad2d021950b938a3e71ee7bad627fefc209",
-      "enMarkdown": "I had always liked looking at paintings. Could I make them? I had no idea. I'd never imagined it was even possible. I knew intellectually that people made art � that it didn't just appear spontaneously � but it was as if the people who made it were a different species. They either lived long ago or were mysterious geniuses doing strange things in profiles in *Life* magazine. The idea of actually being able to make art, to put that verb before that noun, seemed almost miraculous.",
-      "zhMarkdown": "我一直喜欢看画。我能画吗？我毫无头绪。我以前从未想过这居然是可能的。我理智上知道艺术是人创作出来的——它不会凭空出现——但感觉创作艺术的人就像是另一个物种。他们要么生活在很久以前，要么是《生活》杂志人物专访里做着奇特事情的神秘天才。真正能够去“创作艺术”这个想法，把这个动词放在这个名词前面，感觉简直像个奇迹。"
+      "sourceHash": "930af1a6f027312d40c2debfeb092eee1205c98d2b53c1e380c02da389ae8154",
+      "enMarkdown": "I had always liked looking at paintings. Could I make them? I had no idea. I'd never imagined it was even possible. I knew intellectually that people made art — that it didn't just appear spontaneously — but it was as if the people who made it were a different species. They either lived long ago or were mysterious geniuses doing strange things in profiles in *Life* magazine. The idea of actually being able to make art, to put that verb before that noun, seemed almost miraculous.",
+      "zhMarkdown": "我一直喜欢看画。我能画画吗？我毫无头绪，甚至从未想过这是否可能。理智上我知道艺术是人创作出来的——它不是凭空冒出来的——但在我看来，搞艺术的人就像是另一个物种。他们要么生活在很久以前，要么是神神秘秘的天才，在《*Life*》杂志的人物特写里做着不可思议的事情。真正能够“创作艺术”——把这个动词放到那个名词前面——这种念头在我看来近乎奇迹。"
     },
     {
       "id": 25,
@@ -189,7 +189,7 @@
       "type": "paragraph",
       "sourceHash": "9666bd49c64f8a9a926e133727de836950f25242f420eafa853fb8853a4cb20b",
       "enMarkdown": "So now I was in a PhD program in computer science, yet planning to be an artist, yet also genuinely in love with Lisp hacking and working away at *On Lisp*. In other words, like many a grad student, I was working energetically on multiple projects that were not my thesis.",
-      "zhMarkdown": "所以，当时我一边在读计算机科学的博士，一边计划成为一名艺术家，同时又真心热爱着 Lisp 黑客技术，并埋头撰写《On Lisp》。换句话说，就像许多研究生一样，我正精力充沛地折腾着好几个与我毕业论文无关的项目。"
+      "zhMarkdown": "于是，当时的我正读着计算机科学的博士，却计划成为一名艺术家，同时还真心热爱 Lisp 黑客技术，正埋头写作 *On Lisp*。换句话说，就像许多研究生一样，我正精力充沛地忙活着好几个跟自己的博士论文毫不相干的项目。"
     },
     {
       "id": 27,
@@ -203,7 +203,7 @@
       "type": "paragraph",
       "sourceHash": "bf59826cd55f0f8b31cb2d7051267bc9062b67728f93236a5cc802b3f0b5bb75",
       "enMarkdown": "Then one day in April 1990 a crack appeared in the wall. I ran into professor Cheatham and he asked if I was far enough along to graduate that June. I didn't have a word of my dissertation written, but in what must have been the quickest bit of thinking in my life, I decided to take a shot at writing one in the 5 weeks or so that remained before the deadline, reusing parts of *On Lisp* where I could, and I was able to respond, with no perceptible delay \"Yes, I think so. I'll give you something to read in a few days.\"",
-      "zhMarkdown": "接着，在 1990 年 4 月的某天，墙壁上出现了一条裂缝。我碰巧遇到了 Cheatham 教授，他问我进度是否来得及在当年 6 月毕业。我当时连一字论文都没写，但在我一生中反应最快的一瞬间，我决定赌一把，在截止日期前剩下的 5 周左右时间里写出一篇论文来，能套用《On Lisp》部分的地方就尽量套用。我几乎毫不迟疑地回答：“是的，我想可以。过几天我给你一些章节看看。”"
+      "zhMarkdown": "然而在 1990 年 4 月的一天，墙面上出现了一道裂缝。我碰到了切瑟姆教授，他问我进展如何，能否在当年 6 月毕业。我的博士论文当时连一个字都还没写，但经历了这辈子最快的一次思索后，我决定搏一把，利用截止日期前剩下的 5 周左右赶出一篇来，能借用 *On Lisp* 章节的地方就借用。于是我几乎毫无迟疑地答道：“可以，我想没问题。过几天我拿些东西给您看。”"
     },
     {
       "id": 29,
@@ -294,7 +294,7 @@
       "type": "paragraph",
       "sourceHash": "ac068dccda672ac8b204cd48e4ec6c98666be607c3b64705458c9fab4be60f99",
       "enMarkdown": "Interleaf had done something pretty bold. Inspired by Emacs, they'd added a scripting language, and even made the scripting language a dialect of Lisp. Now they wanted a Lisp hacker to write things in it. This was the closest thing I've had to a normal job, and I hereby apologize to my boss and coworkers, because I was a bad employee. Their Lisp was the thinnest icing on a giant C cake, and since I didn't know C and didn't want to learn it, I never understood most of the software. Plus I was terribly irresponsible. This was back when a programming job meant showing up every day during certain working hours. That seemed unnatural to me, and on this point the rest of the world is coming around to my way of thinking, but at the time it caused a lot of friction. Toward the end of the year I spent much of my time surreptitiously working on *On Lisp*, which I had by this time gotten a contract to publish.",
-      "zhMarkdown": "Interleaf 曾做过一件相当大胆的事。受 Emacs 的启发，他们添加了一种脚本语言，甚至使该脚本语言成为 Lisp 的一种方言。现在他们想要一个 Lisp 黑客用它来写东西。这是我能找到的最接近普通工作的工作，我特此向我的老板和同事道歉，因为我是一个糟糕的员工。他们的 Lisp 只是巨型 C 语言蛋糕上最薄的一层糖衣，由于我不懂 C 语言也不想学，我从未理解大部分软件。而且我非常不负责任。那是编程工作意味着每天在特定的工作时间出勤的年代。这对我来说似乎不自然，在这一点上，世界上其他人正在转变到我的思维方式，但在当时它引起了很多摩擦。临近年底时，我花了很多时间偷偷地写《On Lisp》，当时我已经签了出版合同。"
+      "zhMarkdown": "Interleaf 做了件相当大胆的事。受 Emacs 的启发，他们加入了一种脚本语言，而且居然还是 Lisp 的一种方言。现在他们想找一个 Lisp 黑客来用它写东西。这是我经历过最接近普通工作的一次，我在此向当年的老板和同事们致歉，因为我实在算不上个好员工。他们的 Lisp 就像是覆在庞大 C 语言蛋糕上的一层极薄的糖霜，而既然我既不懂 C 也不想学，我就从未真正搞懂过那套软件的大部分内容。再加上我极其散漫。那时候的程序员工作意味着每天必须在固定的工时出勤。这在我看来极不自然，虽然如今整个世界都在慢慢转向认可我的这种想法，但当时这引发了不少摩擦。到了那年年底，我大部分时间都在偷偷写 *On Lisp*，那时我已经签了出版合同。"
     },
     {
       "id": 42,
@@ -355,16 +355,16 @@
     {
       "id": 50,
       "type": "paragraph",
-      "sourceHash": "d5ec2ed662619ad8d72677c622137b519fd5c1e173f7231b81729fe829097232",
-      "enMarkdown": "Asterix comics begin by zooming in on a tiny corner of Roman Gaul that turns out not to be controlled by the Romans. You can do something similar on a map of New York City: if you zoom in on the Upper East Side, there's a tiny corner that's not rich, or at least wasn't in 1993. It's called Yorkville, and that was my new home. Now I was a New York artist � in the strictly technical sense of making paintings and living in New York.",
-      "zhMarkdown": "《阿斯特里克斯历险记》漫画的开头总是将镜头放大到罗马高卢的一个小角落，结果发现那里并没有被罗马人控制。你可以在纽约市的地图上做类似的事情：如果你放大上东区，有一个地方并不富裕，或者至少在 1993 年不是。它叫约克维尔（Yorkville），那是我的新家。现在我是一名纽约艺术家了——在画画和住在纽约的严格技术意义上。"
+      "sourceHash": "3a4371c999a4ac2b78d3086c15bf5239d13993f8c51e4e295f0828312f6b2b60",
+      "enMarkdown": "Asterix comics begin by zooming in on a tiny corner of Roman Gaul that turns out not to be controlled by the Romans. You can do something similar on a map of New York City: if you zoom in on the Upper East Side, there's a tiny corner that's not rich, or at least wasn't in 1993. It's called Yorkville, and that was my new home. Now I was a New York artist — in the strictly technical sense of making paintings and living in New York.",
+      "zhMarkdown": "《阿斯特里克斯历险记》的开篇总是把镜头拉向罗马统治下的高卢的一个小小角落，事实证明那里并不受罗马人控制。在纽约市地图上你也可以做类似的事：放大上东区，会发现有一个角落并不富裕，至少在 1993 年是这样。那里叫约克维尔（Yorkville），成了我的新家。现在我成了一名纽约艺术家——严格在“画画且住在纽约”的技术意义上而言。"
     },
     {
       "id": 51,
       "type": "paragraph",
       "sourceHash": "f7c2fa718000c07b6fe08c78d6f20ffb95b086e945f14463c9d2dc91db638147",
       "enMarkdown": "I was nervous about money, because I could sense that Interleaf was on the way down. Freelance Lisp hacking work was very rare, and I didn't want to have to program in another language, which in those days would have meant C++ if I was lucky. So with my unerring nose for financial opportunity, I decided to write another book on Lisp. This would be a popular book, the sort of book that could be used as a textbook. I imagined myself living frugally off the royalties and spending all my time painting. (The painting on the cover of this book, *ANSI Common Lisp*, is one that I painted around this time.)",
-      "zhMarkdown": "我对钱感到紧张，因为我能感觉到 Interleaf 正在走下坡路。自由职业的 Lisp 黑客工作非常罕见，我不想用另一种语言编程，在那些日子里，如果幸运的话，这意味着 C++。所以凭借我对财务机会敏锐的嗅觉，我决定写另一本关于 Lisp 的书。这将是一本通俗的书，可以用作教科书的那种。我幻想着自己靠版税过着节俭的生活，把所有的时间都花在画画上。（《ANSI Common Lisp》封面上的画就是我在这段时间画的。）"
+      "zhMarkdown": "我对钱的事心里直犯嘀咕，因为我隐约感觉到 Interleaf 正在走下坡路。自由职业性质的 Lisp 黑客零工非常罕见，而我又不想被迫用其他语言编程——在那些日子里，运气好的话那意味着 C++。于是，凭着我对财务机遇那绝不出错的敏锐嗅觉，我决定再写一本关于 Lisp 的书。这会是一本通俗的书，那种可以拿来当教材的书。我设想自己靠版税过着简朴的生活，把全部时间用来画画。（这本书 *ANSI Common Lisp* 封面上的画，就是我大约在这段时期画的。）"
     },
     {
       "id": 52,
@@ -404,9 +404,9 @@
     {
       "id": 57,
       "type": "paragraph",
-      "sourceHash": "61d2ab04717f0ba2b774de3f2699b4afa30e887ce98caaf4a5cb9afe0da42436",
-      "enMarkdown": "So in the summer of 1995, after I submitted the camera-ready copy of *ANSI Common Lisp* to the publishers, we started trying to write software to build online stores. At first this was going to be normal desktop software, which in those days meant Windows software. That was an alarming prospect, because neither of us knew how to write Windows software or wanted to learn. We lived in the Unix world. But we decided we'd at least try writing a prototype store builder on Unix. Robert wrote a shopping cart, and I wrote a new site generator for stores � in Lisp, of course.",
-      "zhMarkdown": "所以在 1995 年夏天，在我向出版社提交了《ANSI Common Lisp》的印刷准备稿后，我们开始尝试编写软件来构建在线商店。起初这会是普通的桌面软件，在那些日子里意味着 Windows 软件。这是一个令人担忧的前景，因为我们俩都不知道如何编写 Windows 软件，也不想学。我们生活在 Unix 世界中。但我们决定至少尝试在 Unix 上编写一个商店构建器的原型。罗伯特写了一个购物车，我为商店写了一个新的网站生成器——当然是用 Lisp。"
+      "sourceHash": "c842ab9f8d1013053ff857c6c45582a23f604bcf25e700f482d0762732440ae8",
+      "enMarkdown": "So in the summer of 1995, after I submitted the camera-ready copy of *ANSI Common Lisp* to the publishers, we started trying to write software to build online stores. At first this was going to be normal desktop software, which in those days meant Windows software. That was an alarming prospect, because neither of us knew how to write Windows software or wanted to learn. We lived in the Unix world. But we decided we'd at least try writing a prototype store builder on Unix. Robert wrote a shopping cart, and I wrote a new site generator for stores — in Lisp, of course.",
+      "zhMarkdown": "于是在 1995 年夏天，在我把 *ANSI Common Lisp* 的印刷就绪稿交给出版社之后，我们开始尝试编写用于搭建网店的软件。起初，这打算做成普通的桌面软件，在当时意味着 Windows 软件。这是个令人不安的前景，因为我们俩谁也不会写 Windows 软件，也不想去学。我们生活在 Unix 的世界里。但我们决定至少尝试在 Unix 上写一个网店搭建工具的原型。罗伯特写了购物车，我写了一个针对网店的新网站生成器——当然是用 Lisp 写的。"
     },
     {
       "id": 58,
@@ -621,9 +621,9 @@
     {
       "id": 88,
       "type": "paragraph",
-      "sourceHash": "84593caa476ed37ff4715ac0d9829e5d437af04b56b867ba45c33ab0b0cdd55f",
-      "enMarkdown": "I started working on the application builder, Dan worked on network infrastructure, and the two undergrads worked on the first two services (images and phone calls). But about halfway through the summer I realized I really didn't want to run a company � especially not a big one, which it was looking like this would have to be. I'd only started Viaweb because I needed the money. Now that I didn't need money anymore, why was I doing this? If this vision had to be realized as a company, then screw the vision. I'd build a subset that could be done as an open source project.",
-      "zhMarkdown": "我开始开发应用程序构建器，Dan 开发网络基础设施，两个本科生开发前两个服务（图像和电话）。但大约在夏天过了一半时，我意识到我真的不想运营一家公司——特别不是一家大公司，而这看起来必须是。我创办 Viaweb 只是因为我需要钱。现在我不再需要钱了，我为什么还要做这个？如果这个愿景必须作为一家公司来实现，那么去他的愿景。我将构建一个可以作为开源项目来做的子集。"
+      "sourceHash": "2cac4362d3ce1c77a6e8771a61b1ae529f76a104b79fcbcc652ca569c7514d63",
+      "enMarkdown": "I started working on the application builder, Dan worked on network infrastructure, and the two undergrads worked on the first two services (images and phone calls). But about halfway through the summer I realized I really didn't want to run a company — especially not a big one, which it was looking like this would have to be. I'd only started Viaweb because I needed the money. Now that I didn't need money anymore, why was I doing this? If this vision had to be realized as a company, then screw the vision. I'd build a subset that could be done as an open source project.",
+      "zhMarkdown": "我开始编写应用程序构建器，丹负责网络基础设施，两个本科生负责最初的两项服务（图像处理和电话）。但夏天过到一半，我意识到我根本不想运营一家公司——尤其不想运营一家大公司，而眼前这家看起来势必得做成大公司。我当初创办 Viaweb 纯粹是因为我缺钱。现在我已经不缺钱了，我到底为了什么做这个？如果这个构想非得靠开公司来实现，那去它的构想吧。我决定只做其中一个能以开源项目形式完成的子集。"
     },
     {
       "id": 89,
@@ -679,7 +679,7 @@
       "type": "paragraph",
       "sourceHash": "b59d542dd7bf7e47ab9fa5804bed8bc11c1939734940d3ce1716215f807537b2",
       "enMarkdown": "I knew that online essays would be a [marginal](https://paulgraham.com/marginal.html) medium at first. Socially they'd seem more like rants posted by nutjobs on their GeoCities sites than the genteel and beautifully typeset compositions published in *The New Yorker*. But by this point I knew enough to find that encouraging instead of discouraging.",
-      "zhMarkdown": "我知道在线文章起初会是一种[边缘](https://paulgraham.com/marginal.html)媒体。在社交上，它们看起来更像是疯子在他们的 GeoCities 网站上发布的咆哮，而不是在《纽约客》上发表的温雅且排版精美的作品。但到这个时候，我已经懂得足够多，发现这是令人鼓舞的而不是令人沮丧的。"
+      "zhMarkdown": "我知道网络文章起初会是一种[边缘](https://paulgraham.com/marginal.html)媒介。在社会层面上，它们看起来会更像疯子在 GeoCities 个人主页上发表的胡言乱语，而不是发表在《*The New Yorker*》上那种温文尔雅、排版讲究的佳作。但在当时我已经有了足够认知，觉得这非但不可沮丧，反而令人鼓舞。"
     },
     {
       "id": 97,
@@ -700,7 +700,7 @@
       "type": "paragraph",
       "sourceHash": "0d9b13768a44dd1f5030f87d0539f16c5c7d69b27165e3ae007fd2503d852a61",
       "enMarkdown": "Over the next several years I wrote lots of essays about all kinds of different topics. O'Reilly reprinted a collection of them as a book, called *Hackers & Painters* after one of the essays in it. I also worked on spam filters, and did some more painting. I used to have dinners for a group of friends every thursday night, which taught me how to cook for groups. And I bought another building in Cambridge, a former candy factory (and later, twas said, porn studio), to use as an office.",
-      "zhMarkdown": "在接下来的几年里，我写了许多关于各种不同主题的文章。O'Reilly 将其中的一部分重印为一本书，根据其中的一篇文章命名为《黑客与画家》。我还研究了垃圾邮件过滤器，并做了一些更多的绘画。我曾在每个星期四晚上为一群朋友做晚饭，这教会了我如何为群体做饭。我在剑桥买了另一栋楼，以前是一家糖果厂（后来，据说是一家色情工作室），用作办公室。"
+      "zhMarkdown": "在接下来的几年里，我写了大量涉及各种各样主题的文章。O'Reilly 把其中一部分集结出版成书，以其中一篇文章的名字命名为 *Hackers & Painters*。我还研究了垃圾邮件过滤器，并且又画了一些画。以前每逢周四晚上，我都会为一群朋友做晚饭，这让我学会了怎么给一大群人做饭。我还在剑桥买下了另一栋楼，以前是一家糖果厂（据说后来成了色情影棚），用来当作办公室。"
     },
     {
       "id": 100,
@@ -721,7 +721,7 @@
       "type": "paragraph",
       "sourceHash": "cf5a4ad0d8b12f8893cb4b01dfb9b4e27fc8ce70546ad0b969ebc22e9ed876ce",
       "enMarkdown": "When the bank had financial problems and she had to fire half her staff, she started looking for a new job. In early 2005 she interviewed for a marketing job at a Boston VC firm. It took them weeks to make up their minds, and during this time I started telling her about all the things that needed to be fixed about venture capital. They should make a larger number of smaller investments instead of a handful of giant ones, they should be funding younger, more technical founders instead of MBAs, they should let the founders remain as CEO, and so on.",
-      "zhMarkdown": "当银行出现财务问题且她不得不解雇一半员工时，她开始寻找新工作。在 2005 年初，她面试了波士顿一家风险投资公司的市场营销工作。他们花了几周时间才做出决定，在此期间，我开始告诉她关于风险投资所有需要改进的事情。他们应该进行大量的小额投资，而不是少数巨额投资；他们应该资助更年轻、更偏技术的创始人，而不是 MBA；他们应该让创始人继续担任 CEO，等等。"
+      "zhMarkdown": "后来这家银行陷入财务困境，她不得不裁掉手下一半的员工，于是开始寻找新工作。2005年初，她去波士顿一家风投机构面试了一份市场营销职位。对方拖了几个星期迟迟不做决定，在此期间，我开始跟她聊起风险投资领域所有需要改进的问题：他们应该化整为零做更多笔较小额的投资，而不是只投少数几个巨额项目；他们应该资助更年轻、更懂技术的创始人，而不是 MBA；他们应该让创始人继续担任 CEO，等等等等。"
     },
     {
       "id": 103,
@@ -782,9 +782,9 @@
     {
       "id": 111,
       "type": "paragraph",
-      "sourceHash": "0022e4010127627a5fb90589dfcda5ee7fee61b2c45aa150751329d71adce412",
-      "enMarkdown": "We'd use the building I owned in Cambridge as our headquarters. We'd all have dinner there once a week � on tuesdays, since I was already cooking for the thursday diners on thursdays � and after dinner we'd bring in experts on startups to give talks.",
-      "zhMarkdown": "我们将使用我在剑桥拥有的那栋楼作为我们的总部。我们每周都会在那里吃一次晚饭——在星期二，因为我已经在星期四为星期四的晚餐常客做饭了——晚饭后我们会邀请创业公司的专家来做演讲。"
+      "sourceHash": "1cb9aa62ad8879d07645c72923995787bab7ed9c675637bb84e33e74a8a8134f",
+      "enMarkdown": "We'd use the building I owned in Cambridge as our headquarters. We'd all have dinner there once a week — on tuesdays, since I was already cooking for the thursday diners on thursdays — and after dinner we'd bring in experts on startups to give talks.",
+      "zhMarkdown": "我们打算用我在剑桥拥有的那栋楼作为总部。每周大家在那里聚餐一次——定在周二，因为我周四已经要给周四聚餐团做饭了——晚饭后我们会请创业专家来做演讲。"
     },
     {
       "id": 112,
@@ -957,9 +957,9 @@
     {
       "id": 136,
       "type": "paragraph",
-      "sourceHash": "ed2555a6366f0d950b2b1e281bdc5d0af6f33369ff36fbac14cef58d71b4e85c",
-      "enMarkdown": "McCarthy's 1960 Lisp did nothing more than interpret Lisp expressions. It was missing a lot of things you'd want in a programming language. So these had to be added, and when they were, they weren't defined using McCarthy's original axiomatic approach. That wouldn't have been feasible at the time. McCarthy tested his interpreter by hand-simulating the execution of programs. But it was already getting close to the limit of interpreters you could test that way � indeed, there was a bug in it that McCarthy had overlooked. To test a more complicated interpreter, you'd have had to run it, and computers then weren't powerful enough.",
-      "zhMarkdown": "麦卡锡 1960 年的 Lisp 除了释义 Lisp 表达式之外什么也没做。它缺少很多你在编程语言中想要的东西。所以这些必须被添加，当它们被添加时，它们并不是使用麦卡锡原始的公理化方法定义的。在当时那是不可能的。麦卡锡通过手动模拟程序的执行来测试他的解释器。但它已经接近你可以用这种方式测试的解释器的极限了——事实上，其中有一个麦卡锡忽略的 Bug。要测试一个更复杂的解释器，你必须运行它，而当时的计算机还不够强大。"
+      "sourceHash": "95d625df417cb52324c99611f83effa35ca9ab757f7166a4a3681012231bc4ce",
+      "enMarkdown": "McCarthy's 1960 Lisp did nothing more than interpret Lisp expressions. It was missing a lot of things you'd want in a programming language. So these had to be added, and when they were, they weren't defined using McCarthy's original axiomatic approach. That wouldn't have been feasible at the time. McCarthy tested his interpreter by hand-simulating the execution of programs. But it was already getting close to the limit of interpreters you could test that way — indeed, there was a bug in it that McCarthy had overlooked. To test a more complicated interpreter, you'd have had to run it, and computers then weren't powerful enough.",
+      "zhMarkdown": "麦卡锡在 1960 年发明的 Lisp 只不过能解释 Lisp 表达式而已。它缺失了你在编程语言中想要的很多东西。因此这些东西必须被添加进来，而在添加时，它们并不是用麦卡锡最初那种公理化方法定义的。在当时这是不可行的。麦卡锡是通过手工模拟程序执行来测试他的解释器的。但这已经接近手工模拟测试解释器的极限了——事实上，里面还有一个麦卡锡忽略了的 bug。要想测试一个更复杂的解释器，你就必须真正运行它，而当时的计算机性能还不够强大。"
     },
     {
       "id": 137,

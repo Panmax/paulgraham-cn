@@ -4,10 +4,10 @@
   "titleZh": "时髦的问题",
   "dateText": "December 2019",
   "publishedAt": "2019-12-01",
-  "sourceOrder": 51,
+  "sourceOrder": 53,
   "sourceUrl": "https://paulgraham.com/fp.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -26,9 +26,9 @@
     {
       "id": 3,
       "type": "paragraph",
-      "sourceHash": "05e0322c61371ae98214ead5ad4552b99c4e4191227bdf07f3577e4ee50c9a72",
-      "enMarkdown": "If you want to try working on unfashionable problems, one of the best places to look is in fields that people think have already been fully explored: essays, Lisp, venture funding � you may notice a pattern here. If you can find a new approach into a big but apparently played out field, the value of whatever you discover will be [multiplied](https://paulgraham.com/sun.html) by its enormous surface area.",
-      "zhMarkdown": "如果你想尝试研究那些不时髦的问题，最好的切入点之一，就是那些人们认为已经被彻底探索过的领域：比如写文章、Lisp 语言、风险投资——你可能会在这里发现某种规律。如果你能在这样一个庞大但看似已经过时的领域中找到新的突破口，那么你所发现的任何成果，其价值都将因该领域巨大的表面积而[倍增](https://paulgraham.com/sun.html)。"
+      "sourceHash": "6d13a5e7daf651927b56c975e802d5afe04a426aa7ec64ffeb9567fabec619ed",
+      "enMarkdown": "If you want to try working on unfashionable problems, one of the best places to look is in fields that people think have already been fully explored: essays, Lisp, venture funding — you may notice a pattern here. If you can find a new approach into a big but apparently played out field, the value of whatever you discover will be [multiplied](https://paulgraham.com/sun.html) by its enormous surface area.",
+      "zhMarkdown": "如果你想尝试研究不时髦的问题，最好的切入方向之一，就是那些人们认为已经被彻底探索过的领域：文章、Lisp、风险投资——你可能会在这里发现某种规律。如果你能在一个规模庞大但看似已被开发殆尽的领域找到新切入点，无论你发现了什么，其价值都会因为该领域巨大的表面积而[成倍放大](https://paulgraham.com/sun.html)。"
     },
     {
       "id": 4,

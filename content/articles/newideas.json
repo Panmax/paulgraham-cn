@@ -4,10 +4,10 @@
   "titleZh": "新奇的狂妄想法",
   "dateText": "May 2021",
   "publishedAt": "2021-05-01",
-  "sourceOrder": 31,
+  "sourceOrder": 33,
   "sourceUrl": "https://paulgraham.com/newideas.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -161,7 +161,7 @@
       "type": "paragraph",
       "sourceHash": "0afde4f94bfe4b8493cfbda0ec99c0145f3ece9768df0aa60c543ae0f3da4b05",
       "enMarkdown": "[3] This sense of \"paradigm\" was defined by Thomas Kuhn in his *Structure of Scientific Revolutions*, but I also recommend his *Copernican Revolution*, where you can see him at work developing the idea.",
-      "zhMarkdown": "[3] “范式”这一概念由托马斯·库恩在其《科学革命的结构》一书中定义，但我也推荐他的《哥白尼革命》，在书中你可以看到他是如何发展这一思想的。"
+      "zhMarkdown": "[3] 这种含义的“范式”是由托马斯·库恩在他的 *科学革命的结构* 中定义的，不过我也推荐他的 *哥白尼革命*，在那本书里你可以看到他是如何一步步发展出这个概念的。"
     },
     {
       "id": 23,
@@ -175,7 +175,7 @@
       "type": "paragraph",
       "sourceHash": "b7a7fd97616699c9d518dd26df9dc8b93ea1bd0969d3dc09d2b750649acd1f5c",
       "enMarkdown": "[5] Hall, Rupert. *From Galileo to Newton.* Collins, 1963. This book is particularly good at getting into contemporaries' heads.",
-      "zhMarkdown": "[5] 鲁珀特·霍尔，《从伽利略到牛顿》，柯林斯出版社，1963年。这本书在带入当时人们的思想方面写得特别好。"
+      "zhMarkdown": "[5] 霍尔，鲁珀特。*从伽利略到牛顿*。Collins，1963。这本书在带读者体会当时那些人的所思所想方面写得尤为出色。"
     },
     {
       "id": 25,

@@ -4,10 +4,10 @@
   "titleZh": "为什么创业中心能成功",
   "dateText": "October 2011",
   "publishedAt": "2011-10-01",
-  "sourceOrder": 94,
+  "sourceOrder": 96,
   "sourceUrl": "https://paulgraham.com/hubs.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -70,7 +70,7 @@
       "type": "paragraph",
       "sourceHash": "62f4244cf41974235fd44d0757ce7548ee5b7b89a1cd81ead0dbe590786e6369",
       "enMarkdown": "Having people around you care about what you're doing is an extraordinarily [powerful](https://paulgraham.com/cities.html) force. Even the most willful people are susceptible to it. About a year after we started Y Combinator I said something to a partner at a well known VC firm that gave him the (mistaken) impression I was considering starting another startup. He responded so eagerly that for about half a second I found myself considering doing it.",
-      "zhMarkdown": "身边有人关心你在做什么，是一种极其[强大](https://paulgraham.com/cities.html)的力量。即使是最特立独行的人也无法免疫。在我们创立 Y Combinator 大约一年后，我跟一家知名风险投资机构的合伙人聊了几句，让他（误）以为我正考虑再办一家创业公司。他的反应是如此热切，以至于有那么半秒钟，我发现自己竟然真的动了心思。"
+      "zhMarkdown": "周围有人关心你在做什么，是一种极其[强大](https://paulgraham.com/cities.html)的力量。哪怕是最有主见的人，也很难不受其影响。在我们创办 Y Combinator 大约一年后，我对一家知名风投机构的合伙人说了几句话，让他（误）以为我正考虑再做一家创业公司。他的反应如此热切，以至于有那么半秒钟，我发现自己竟然真的在考虑要不要去做了。"
     },
     {
       "id": 10,

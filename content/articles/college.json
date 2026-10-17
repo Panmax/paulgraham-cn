@@ -4,10 +4,10 @@
   "titleZh": "大学时光",
   "dateText": "March 2005",
   "publishedAt": "2005-03-01",
-  "sourceOrder": 188,
+  "sourceOrder": 190,
   "sourceUrl": "https://paulgraham.com/college.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -217,7 +217,7 @@
       "type": "paragraph",
       "sourceHash": "d38f96f906fb334b8bb77769e9507a2d8aad79f7712f8f6ae96339947939a035",
       "enMarkdown": "Another way to figure out which fields are worth studying is to create the *dropout graph.* For example, I know many people who switched from math to computer science because they found math too hard, and no one who did the opposite. People don't do hard things gratuitously; no one will work on a harder problem unless it is proportionately (or at least log(n)) more rewarding. So probably math is more worth studying than computer science. By similar comparisons you can make a graph of all the departments in a university. At the bottom you'll find the subjects with least intellectual content.",
-      "zhMarkdown": "另一种判断哪些领域值得学习的方法是绘制一张“退学流向图”。例如，我认识很多因为觉得数学太难而从数学系转到计算机系的人，但没见过反过来的。人们不会无缘无故去挑战更难的事情；没人会去解决更难的问题，除非它能带来成比例（或者至少是 log(n) 级别）的更多回报。因此，数学可能比计算机科学更值得学习。通过类似的对比，你可以画出大学里所有院系的流向图。在图的最底层，你会发现那些智力含量最稀薄的学科。"
+      "zhMarkdown": "要想搞清楚哪些领域值得学习，还有一种办法是画一张*转系流向图*。比如，我认识很多因为觉得数学太难而转去学计算机的人，却没见过任何一个反向操作的。人不会无缘无故地自讨苦吃；除非回报能成比例增加（或者至少按 log(n) 的速度递增），否则谁也不会去挑战更难的问题。因此，数学大概比计算机科学更值得学习。通过类似的对比，你可以把大学里所有的院系画成一张关系图。排在最底层的，就是智力含量最低的学科。"
     },
     {
       "id": 32,
@@ -462,7 +462,7 @@
       "type": "paragraph",
       "sourceHash": "2160effff3b9a9fdd7d05ca94832a28a24b2670fdbbcf7ef3d8a9d3a787f5b60",
       "enMarkdown": "[4] Other highly recommended books: *What is Mathematics?*, by Courant and Robbins; *Geometry and the Imagination* by Hilbert and Cohn-Vossen. And for those interested in graphic design, [Byrne's Euclid](http://www.math.ubc.ca/people/faculty/cass/Euclid/byrne.html).",
-      "zhMarkdown": "[4] 其他强烈推荐的书籍：Courant 和 Robbins 的《什么是数学？》；Hilbert 和 Cohn-Vossen 的《几何与想象》。对于对平面设计感兴趣的人，推荐 [Byrne 的《几何原本》译本](http://www.math.ubc.ca/people/faculty/cass/Euclid/byrne.html)。"
+      "zhMarkdown": "[4] 其他极力推荐的书：柯朗和罗宾的 *什么是数学？*；希尔伯特和康福森的 *直观几何*。对于对平面设计感兴趣的人，推荐看看 [伯恩版欧几里得](http://www.math.ubc.ca/people/faculty/cass/Euclid/byrne.html)。"
     },
     {
       "id": 67,

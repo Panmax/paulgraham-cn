@@ -4,10 +4,10 @@
   "titleZh": "前线传来的消息",
   "dateText": "September 2007",
   "publishedAt": "2007-09-01",
-  "sourceOrder": 148,
+  "sourceOrder": 150,
   "sourceUrl": "https://paulgraham.com/colleges.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -147,7 +147,7 @@
       "type": "paragraph",
       "sourceHash": "bef820f08e0a63edd253e8b16efe52e4fa980f15fed1e5d23f096c5f24fd7279",
       "enMarkdown": "Apparently not. Obviously you can't prove this in the case of a single individual, but you can tell from aggregate evidence: you can't, without asking them, distinguish people who went to one school from those who went to another three times as far down the *US News* list. [[3](#f3n)] Try it and see.",
-      "zhMarkdown": "显然学不到。当然，你无法在单个个体身上证明这一点，但你可以从统计学证据中看出来：如果不去询问，你根本无法把毕业于某所顶尖学校的人，与毕业于《美国新闻与世界报道》（US News）排名落后其三倍的学校的人区分开来。[[3](#f3n)] 不信你可以去试试。"
+      "zhMarkdown": "显然并非如此。当然，在单个具体的人身上你无法证明这一点，但从整体数据中可以看出：如果不开口去问，你根本无法把某所大学的毕业生，与那些在 *US News* 榜单上排名靠后三倍的学校的毕业生区分开来。[[3](#f3n)] 不妨亲自试试看。"
     },
     {
       "id": 21,
@@ -196,7 +196,7 @@
       "type": "paragraph",
       "sourceHash": "cc11d16259202ab3a696b8af0ba46a983708a78b984892c96e7f87664aa623e7",
       "enMarkdown": "Indeed, the great advantage of not caring where people went to college is not just that you can stop judging them (and yourself) by superficial measures, but that you can focus instead on what really matters. What matters is what you make of yourself. I think that's what we should tell kids. Their job isn't to get good grades so they can get into a good college, but to learn and do. And not just because that's more rewarding than worldly success. That will increasingly *be* the route to worldly success.",
-      "zhMarkdown": "事实上，不在乎别人上什么大学，其巨大好处不仅在于你可以停止用肤浅的标准来评判他人（和自己），更在于你可以专注于真正重要的事情。真正重要的是你把自己塑造成什么样的人。我认为这就是我们应该告诉孩子们的。他们的任务不是为了考上好大学而拿好成绩，而是去学习和实践。这不仅因为这比世俗的成功更有回报，还因为这本身将日益成为通往世俗成功的必经之路。"
+      "zhMarkdown": "事实上，不在意一个人在哪儿上的大学，最大的好处不仅在于你可以不再用肤浅的尺度评判他人（以及你自己），还在于你可以把精力转而聚焦在真正重要的事情上。真正重要的，是你把自己塑造成了什么样的人。我认为这才是我们应当告诉孩子的。他们的任务不是为了考进一所好大学而考出好成绩，而是去学习和做事。这不仅是因为这样做比世俗的成功更有回报，更是因为这本身将越来越*成为*通往世俗成功的途径。"
     },
     {
       "id": 28,
@@ -224,7 +224,7 @@
       "type": "paragraph",
       "sourceHash": "a842e870fd18d5b76f54e711f6bcc24e18bd7790b64bfe7579f968bf22820d3f",
       "enMarkdown": "[3] The *US News* list? Surely no one trusts that. Even if the statistics they consider are useful, how do they decide on the relative weights? The reason the *US News* list is meaningful is precisely because they are so intellectually dishonest in that respect. There is no external source they can use to calibrate the weighting of the statistics they use; if there were, we could just use that instead. What they must do is adjust the weights till the top schools are the usual suspects in about the right order. So in effect what the *US News* list tells us is what the editors think the top schools are, which is probably not far from the conventional wisdom on the matter. The amusing thing is, because some schools work hard to game the system, the editors will have to keep tweaking their algorithm to get the rankings they want.",
-      "zhMarkdown": "[3] 《美国新闻与世界报道》（US News）的排名？当然没人真的相信它。即使他们考量的统计数据有用，他们又是如何决定各项权重的？US News 排名之所以有意义，恰恰是因为他们在这一点上非常缺乏学术诚实。他们没有外部标准来校准所用统计数据的权重；如果有，我们直接用那个标准就好了。他们必须做的是调整权重，直到排在最前面的学校恰好是那些大家公认的学校，且顺序大致不差。因此，US News 排名实际上告诉我们的是编辑们心目中的名校是哪些，这与传统观念大概相差无几。有趣的是，由于一些学校极力钻空子钻营排名，编辑们不得不持续微调他们的算法，以得出他们想要的排名。"
+      "zhMarkdown": "[3] *US News* 榜单？肯定没人真信那个吧。即便他们参考的统计数据有用，他们又是怎么决定各项指标的相对权重的？*US News* 榜单之所以有参考价值，恰恰是因为他们在这一点上如此缺乏求知层面的诚实。根本没有任何外部标准可用来校准他们所用统计数据的权重；要是有，我们直接参考那个标准不就行了。他们实际做的一定是不断微调权重，直到排在前面的学校还是大家熟悉的那几所老面孔、顺序也大致对得上为止。因此，*US News* 榜单实际上告诉我们的，只是编辑们认为顶尖的名校有哪些，而这大概与大众在这方面的普遍认知相差无几。滑稽的是，由于有些学校千方百计钻这套体系的空子，编辑们就不得不持续调整算法，好得出他们想要的排名。"
     },
     {
       "id": 32,

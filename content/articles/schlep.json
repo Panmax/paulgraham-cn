@@ -4,17 +4,17 @@
   "titleZh": "视重活如无物：克服“苦差事盲区”",
   "dateText": "January 2012",
   "publishedAt": "2012-01-01",
-  "sourceOrder": 92,
+  "sourceOrder": 94,
   "sourceUrl": "https://paulgraham.com/schlep.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "667b6361c38dbe9b7979a0a03a68cfcb503d2646641cb4cc1d63f060ed85af5b",
       "enMarkdown": "There are great startup ideas lying around unexploited right under our noses. One reason we don't see them is a phenomenon I call *schlep blindness*. Schlep was originally a Yiddish word but has passed into general use in the US. It means a tedious, unpleasant task.",
-      "zhMarkdown": "其实，许多极佳的创业点子就摆在我们的眼皮底下，无人问津。我们之所以视而不见，原因在于一种我称之为“苦差事盲区”（schlep blindness）的现象。“Schlep”原本是一个意第绪语词汇，如今在美国已成为日常用语，意指那些繁琐、令人不快的苦差事。"
+      "zhMarkdown": "在我们眼皮底下，就散落着许多绝佳却未被发掘的创业点子。我们之所以看不见它们，原因之一是一种我称之为*苦差盲区*（schlep blindness）的现象。Schlep 原本是个意第绪语词，如今在美国已经成为日常词汇，意思是一件繁琐、令人厌烦的苦差事。"
     },
     {
       "id": 2,

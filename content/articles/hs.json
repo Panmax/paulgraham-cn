@@ -4,10 +4,10 @@
   "titleZh": "你未曾虚度的青春",
   "dateText": "January 2005",
   "publishedAt": "2005-01-01",
-  "sourceOrder": 191,
+  "sourceOrder": 193,
   "sourceUrl": "https://paulgraham.com/hs.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -84,7 +84,7 @@
       "type": "paragraph",
       "sourceHash": "0983b12dcf81d3da3c7488d7bbba1175a19e8280ac4e9b7615933ad5cd3ce5b9",
       "enMarkdown": "So far we've cut the Standard Graduation Speech down from \"don't give up on your dreams\" to \"what someone else can do, you can do.\" But it needs to be cut still further. There is *some* variation in natural ability. Most people overestimate its role, but it does exist. If I were talking to a guy four feet tall whose ambition was to play in the NBA, I'd feel pretty stupid saying, you can do anything if you really try. [2]",
-      "zhMarkdown": "到目前为止，我们已经把“标准毕业演讲”从“不要放弃梦想”缩减成了“别人能做到的，你也能做到”。但这还需要进一步精简。因为天资确实存在差异。大多数人高估了天赋的作用，但它确实存在。如果我面对一个身高一米二、梦想是去打 NBA 的孩子，我还对他说“只要你努力，什么都能做到”，那我就太蠢了。 [2]"
+      "zhMarkdown": "到目前为止，我们已经把标准的毕业演讲从“不要放弃梦想”，删减成了“别人能做到的，你也能做到”。但还得继续删减。人与人的天资*多少*还是存在差异的。大多数人高估了天赋的作用，但它确实存在。如果我和一个身高只有四英尺、志向却是打进 NBA 的家伙聊天，我要是对他说“只要努力，你无所不能”，自己都会觉得蠢透了。[2]"
     },
     {
       "id": 12,
@@ -154,7 +154,7 @@
       "type": "paragraph",
       "sourceHash": "2343c095eb809020a81b0fe5ef3d8acf0f31b2a188339c23633f1bbc045a799e",
       "enMarkdown": "To a newly arrived undergraduate, all university departments look much the same. The professors all seem forbiddingly intellectual and publish papers unintelligible to outsiders. But while in some fields the papers are unintelligible because they're full of hard ideas, in others they're deliberately written in an obscure way to seem as if they're saying something important. This may seem a scandalous proposition, but it has been experimentally verified, in the famous *Social Text* affair. Suspecting that the papers published by literary theorists were often just intellectual-sounding nonsense, a physicist deliberately wrote a paper full of intellectual-sounding nonsense, and submitted it to a literary theory journal, which published it.",
-      "zhMarkdown": "对于刚入学的大一新生来说，大学里所有的系科看起来都差不多。教授们似乎都深不可测，发表的论文外行根本看不懂。然而，在某些领域，论文看不懂是因为里面充满了艰深的思考；而在另一些领域，论文写得晦涩难懂，纯粹是为了假装自己在说一些重要的事情。这听起来可能有些耸人听闻，但著名的“索卡尔事件”（Social Text affair）已经用实验证实了这一点。一位物理学家怀疑文学理论家发表的论文大多只是听起来高深莫测的废话，于是故意写了一篇充满这种废话的论文投稿给一家文学理论期刊，结果对方竟然发表了。"
+      "zhMarkdown": "对刚踏进大学校门的本科生来说，各个院系看起来都差不多。教授们个个显得高深莫测、学识渊博，发表的论文外行人根本看不懂。然而，有些领域的论文之所以难懂，是因为里面全是艰深的思想；而在另一些领域，论文被故意写得晦涩难懂，纯粹是为了装作说了什么重要内容。这种说法听起来可能骇人听闻，但它已经在著名的 *Social Text* 事件中得到了实验验证。一位物理学家怀疑文学理论家发表的论文往往不过是听起来高深的废话，于是故意写了一篇通篇充斥着高深废话的论文投给一家文学理论期刊，结果期刊真就发表了。"
     },
     {
       "id": 22,
@@ -245,7 +245,7 @@
       "type": "paragraph",
       "sourceHash": "e7ce205c42efcb8dac0995c04279b07fb84e3eb673575deadc73cfdcdc12200e",
       "enMarkdown": "You may be thinking, we have to do more than get good grades. We have to have *extracurricular activities.* But you know perfectly well how bogus most of these are. Collecting donations for a charity is an admirable thing to do, but it's not *hard.* It's not getting something done. What I mean by getting something done is learning how to write well, or how to program computers, or what life was really like in preindustrial societies, or how to draw the human face from life. This sort of thing rarely translates into a line item on a college application.",
-      "zhMarkdown": "你可能会想，我们除了拿好成绩，还得参加“课外活动”啊。但你心里很清楚这些活动有多假。为慈善机构募捐确实令人钦佩，但这并不“难”。这算不上真正“做成一件事”。我所说的“做成一件事”，是指学会写一手好文章、学会写代码、弄清楚前工业时代的生活到底是什么样子，或者学会对着实物画出人脸。这种事情很少能直接转化为大学申请表上的一个加分项。"
+      "zhMarkdown": "你可能会想，我们光拿好成绩还不够，还得有*课外活动*。但你心知肚明，其中绝大多数有多假。为慈善机构募捐确实令人敬佩，但这并不*难*。这算不上真正做成了什么事。我所说的做成事情，是指学会如何写出好文章，或者如何编写计算机程序，弄明白前工业化社会的真实生活究竟是怎样的，抑或学会如何画人物写生。这类事情很少能直接转化成大学申请表上的一行履历。"
     },
     {
       "id": 35,

@@ -4,10 +4,10 @@
   "titleZh": "我们对孩子撒的谎",
   "dateText": "May 2008",
   "publishedAt": "2008-05-01",
-  "sourceOrder": 136,
+  "sourceOrder": 138,
   "sourceUrl": "https://paulgraham.com/lies.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "858eacd2a7c426ce694e73adc4bd8eec98ef9d3b0fcef30d98598e7cd767ac94",
       "enMarkdown": "I remember that feeling. By 15 I was convinced the world was corrupt from end to end. That's why movies like *The Matrix* have such resonance. Every kid grows up in a fake world. In a way it would be easier if the forces behind it were as clearly differentiated as a bunch of evil machines, and one could make a clean break just by taking a pill.",
-      "zhMarkdown": "我还记得那种感觉。到了 15 岁时，我确信这个世界从头到尾都是腐败的。这就是为什么像《黑客帝国》这样的电影能引起如此强烈的共鸣。每个孩子都成长在一个虚假的世界里。从某种意义上说，如果幕后的力量像一帮邪恶的机器那样界限分明，事情反而简单了，你只需吞下一颗药丸就能彻底决裂。"
+      "zhMarkdown": "我还记得那种感觉。到了 15 岁，我坚信整个世界从头到尾都烂透了。这就是为什么像 *黑客帝国* 这样的电影能引起如此强烈的共鸣。每个孩子都是在一个虚假的世界里长大的。从某种程度上说，如果背后的推手能像一群邪恶的机器那样黑白分明，只要吃下一颗药丸就能彻底脱身，事情反而容易得多。"
     },
     {
       "id": 9,
@@ -385,7 +385,7 @@
       "type": "paragraph",
       "sourceHash": "6744f3a54dab5eb5184fa60ff3ebc813d09249734b95218018874c0a73c51661",
       "enMarkdown": "If you want to learn what lies are told to kids, read almost any book written to teach them about \"issues.\" [[7](#f7n)] Peter Mayle wrote one called *Why Are We Getting a Divorce?* It begins with the three most important things to remember about divorce, one of which is:",
-      "zhMarkdown": "如果你想了解对孩子撒了哪些谎，去读读几乎任何一本教他们了解“问题”的书就知道了。 [[7](#f7n)] 彼得·梅尔写过一本叫《我们为什么要离婚？》的书。它开头列出了关于离婚需要记住的三件最重要的事情，其中之一是："
+      "zhMarkdown": "如果你想了解大人对孩子说了哪些谎言，去读读几乎任何一本旨在向他们解释“现实问题”的书就知道了。[[7](#f7n)] 彼得·梅尔写过一本名为 *Why Are We Getting a Divorce?* 的书。书的开篇列出了关于离婚最该记住的三件事，其中一件是："
     },
     {
       "id": 55,

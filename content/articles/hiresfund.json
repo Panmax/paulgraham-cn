@@ -4,10 +4,10 @@
   "titleZh": "高分辨率融资",
   "dateText": "September 2010",
   "publishedAt": "2010-09-01",
-  "sourceOrder": 102,
+  "sourceOrder": 104,
   "sourceUrl": "https://paulgraham.com/hiresfund.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -77,7 +77,7 @@
       "type": "paragraph",
       "sourceHash": "b1bc04ed95abd71d01da7147502795535535ba072df84d7210b1a4c7302346a0",
       "enMarkdown": "Fixed-size, multi-investor angel rounds are such a bad idea for startups that one wonders why things were ever done that way. One possibility is that this custom reflects the way investors like to collude when they can get away with it. But I think the actual explanation is less sinister. I think angels (and their lawyers) organized rounds this way in unthinking imitation of VC series A rounds. In a series A, a fixed-size equity round with a lead makes sense, because there is usually just one big investor, who is unequivocally the lead. Fixed-size series A rounds already are high res. But the more investors you have in a round, the less sense it makes for everyone to get the same price.",
-      "zhMarkdown": "对创业公司来说，固定金额、多投资人参与的天使轮是一个非常糟糕的主意，以至于人们不禁纳闷，以前怎么会一直用这种方式。一种可能性是，这种惯例反映了投资人在有利可图时喜欢合谋的心理。但我认为实际的解释没有那么阴暗。我认为天使投资人（以及他们的律师）组织这种融资轮，只是在盲目模仿风险投资的 A 轮融资。在 A 轮融资中，由领投方确定金额的股权轮是有道理的，因为通常只有一个大投资人，他是不折不扣的领投方。固定金额的 A 轮融资本身就是高分辨率的。但是，一轮融资中的投资人越多，让每个人都拿到同样的价格就越没有道理。"
+      "zhMarkdown": "对创业公司来说，金额固定且有多位投资人参与的天使轮实在是个很糟糕的做法，以至于让人纳闷以前怎么会一直这么做。一种可能是，这种惯例反映了投资人在有机可乘时喜欢串通一气的倾向。但我认为实际原因并没有那么阴暗。我觉得天使投资人（以及他们的律师）之所以这么组织融资轮，只是不假思索地模仿了风投的 A 轮融资。在 A 轮中，由领投方牵头的固定金额股权融资是合理的，因为通常只有一家大机构，而且毫无疑问是领投方。固定金额的 A 轮融资本身就已经是高精度的了。但一轮融资中的投资人越多，让每个人都拿到同样价格的做法就越站不住脚。"
     },
     {
       "id": 11,

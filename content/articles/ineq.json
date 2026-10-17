@@ -4,10 +4,10 @@
   "titleZh": "贫富分化",
   "dateText": "January 2016",
   "publishedAt": "2016-01-01",
-  "sourceOrder": 60,
+  "sourceOrder": 62,
   "sourceUrl": "https://paulgraham.com/ineq.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -294,7 +294,7 @@
       "type": "paragraph",
       "sourceHash": "c22ac8e65bd009956b4457cfaea648d581654389f453ffca8147cccbc81c662e",
       "enMarkdown": "[1] Stiglitz, Joseph. *The Price of Inequality*. Norton, 2012. p. 32.",
-      "zhMarkdown": "[1] 斯蒂格利茨，约瑟夫。《不平等的代价》。诺顿出版社，2012年，第32页。"
+      "zhMarkdown": "[1] 约瑟夫·斯蒂格利茨（Joseph Stiglitz），*The Price of Inequality*，Norton，2012，第 32 页。"
     },
     {
       "id": 42,

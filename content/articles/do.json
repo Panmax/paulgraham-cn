@@ -4,10 +4,10 @@
   "titleZh": "我们该做什么",
   "dateText": "March 2025",
   "publishedAt": "2025-03-01",
-  "sourceOrder": 8,
+  "sourceOrder": 10,
   "sourceUrl": "https://paulgraham.com/do.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -21,7 +21,7 @@
       "type": "paragraph",
       "sourceHash": "3d93339f870d5c2f5e900ae090d53e1ee3e003954a51023258fed5460fb85d33",
       "enMarkdown": "So what *should* one do? One should help people, and take care of the world. Those two are obvious. But is there anything else? When I ask that, the answer that pops up is *Make good new things*.",
-      "zhMarkdown": "那么，人究竟**该**做什么？人应该帮助他人，照顾这个世界。这两点显而易见。但还有别的吗？当我这样问时，脑海中蹦出的答案是：**创造优秀的新事物**。"
+      "zhMarkdown": "那么，人*应该*做什么？人应该帮助他人，关爱世界。这两点显而易见。但除此以外还有别的吗？每当我想起这个问题，脑海中浮现的答案都是：*做出好的新事物*。"
     },
     {
       "id": 3,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "cb8d8052a3fab431803702722a41d1d1e266b56dd483cd765f8c444fb8a0437a",
       "enMarkdown": "So there's my guess at a set of principles to live by: take care of people and the world, and make good new things. Different people will do these to varying degrees. There will presumably be lots who focus entirely on taking care of people. There will be a few who focus mostly on making new things. But even if you're one of those, you should at least make sure that the new things you make don't net *harm* people or the world. And if you go a step further and try to make things that help them, you may find you're ahead on the trade. You'll be more constrained in what you can make, but you'll make it with more energy.",
-      "zhMarkdown": "所以，这是我对一套生活原则的推测：照顾他人和世界，并创造优秀的新事物。不同的人会在不同程度上践行这些原则。大概会有很多人完全专注于照顾他人。也会有少数人主要专注于创造新事物。但即使你是后者，你至少应该确保你所创造的新事物不会对他人或世界造成净**伤害**。如果你能更进一步，试着创造一些能帮助他们的东西，你会发现自己在这笔交易中占了便宜。你能够创造的东西会受到更多限制，但你创造它时会更有干劲。"
+      "zhMarkdown": "这就是我对一套立身处世原则的推想：关爱他人和世界，以及做出好的新事物。不同的人践行这些原则的程度各不相同。想必有很多人会完全专注于关怀他人，也会有少数人主要专注于创造新事物。但即便你是后者，至少也应该确保自己做出的新事物最终不会*危害*他人或世界。如果你更进一步，努力做出能帮助他们的东西，你可能会发现这笔交易更划算：你所能创造的东西会受到更多限制，但你在创作时会更有干劲。"
     },
     {
       "id": 17,

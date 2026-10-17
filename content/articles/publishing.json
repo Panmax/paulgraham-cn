@@ -4,10 +4,10 @@
   "titleZh": "后媒介时代的出版业",
   "dateText": "September 2009",
   "publishedAt": "2009-09-01",
-  "sourceOrder": 111,
+  "sourceOrder": 113,
   "sourceUrl": "https://paulgraham.com/publishing.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -28,7 +28,7 @@
       "type": "paragraph",
       "sourceHash": "f1eb8e6ad75fd2f0a0a2336103536c3ecae4aa956974d5a54792fadfa0d4ae33",
       "enMarkdown": "A copy of *Time* costs $5 for 58 pages, or 8.6 cents a page. *The Economist* costs $7 for 86 pages, or 8.1 cents a page. Better journalism is actually slightly cheaper.",
-      "zhMarkdown": "一本 58 页的《时代》周刊售价 5 美元，合每页 8.6 美分。一本 86 页的《经济学人》售价 7 美元，合每页 8.1 美分。质量更高的新闻报道，实际上反而稍微便宜一点。"
+      "zhMarkdown": "一本 *《时代》周刊* 卖 5 美元，共 58 页，合每页 8.6 美分。*《经济学人》* 卖 7 美元，共 86 页，合每页 8.1 美分。更优质的新闻报道，单价反而还要便宜一点。"
     },
     {
       "id": 4,
@@ -49,7 +49,7 @@
       "type": "paragraph",
       "sourceHash": "d0e18d8d8d35b84e709e4a353fee860320a63ed91e8b6961442f9091c744b0bf",
       "enMarkdown": "A few months ago I ran into a friend in a cafe. I had a copy of the *New York Times*, which I still occasionally buy on weekends. As I was leaving I offered it to him, as I've done countless times before in the same situation. But this time something new happened. I felt that sheepish feeling you get when you offer someone something worthless. \"Do you, er, want a printout of yesterday's news?\" I asked. (He didn't.)",
-      "zhMarkdown": "几个月前，我在一家咖啡馆遇到了一个朋友。我手里拿着一份《纽约时报》，周末我偶尔还会买一份。临走时，我像以前无数次遇到这种情况一样，顺手要把报纸送给他。但这一次，发生了一件新鲜事。我心里突然升起一种送人无用之物时的尴尬感。“你，呃，想要一份昨天新闻的打印件吗？”我问道。（他没要。）"
+      "zhMarkdown": "几个月前，我在一家咖啡馆偶遇一位朋友。我当时拿着一份 *《纽约时报》*——周末我偶尔还会买上一份。准备离开时，我顺手把报纸递给他，以往遇到类似情况我这么做过无数次。但这一次有些异样。我感到一种窘迫，就像把一件毫无价值的东西塞给别人时会有的那种不好意思。“你……呃，想要一份昨天新闻的打印件吗？”我问。（他不要。）"
     },
     {
       "id": 7,
@@ -210,7 +210,7 @@
       "type": "paragraph",
       "sourceHash": "9daba06ab2669fff4c53b2684ce2bb599bae053a272c300fc740989cc4b09995",
       "enMarkdown": "The reason I've been writing about existing forms is that I don't *know* what new forms will appear. But though I can't predict specific winners, I can offer a recipe for recognizing them. When you see something that's taking advantage of new technology to give people something they want that they couldn't have before, you're probably looking at a winner. And when you see something that's merely reacting to new technology in an attempt to preserve some existing source of revenue, you're probably looking at a loser.",
-      "zhMarkdown": "我之所以一直在写现有的形式，是因为我不知道会出现什么新形式。不过，虽然我无法预测具体的赢家，但我可以提供一个识别它们的方法。当你看到某个东西利用新技术，给人们带来了他们以前无法得到却又想要的东西时，你很可能看到了一个赢家。而当你看到某个东西仅仅是在对新技术做出防御性反应，试图保住现有的某种收入来源时，你很可能看到了一个输家。"
+      "zhMarkdown": "我之所以一直在探讨现存的形式，是因为我并*不知道*未来会出现什么新形式。不过，尽管我无法预测具体的赢家是谁，但能提供一套识别它们的诀窍：当你看到某种事物利用新技术，为人们提供了他们渴望已久却求而不得的东西时，你看到的很可能就是一个赢家；而当你看到某种事物仅仅是对新技术做出被动反应，试图守住原有的某种收入来源时，你看到的很可能就是一个输家。"
     },
     {
       "id": 30,

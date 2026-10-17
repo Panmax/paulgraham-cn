@@ -4,23 +4,23 @@
   "titleZh": "简洁就是力量",
   "dateText": "May 2002",
   "publishedAt": "2002-05-01",
-  "sourceOrder": 213,
+  "sourceOrder": 215,
   "sourceUrl": "https://paulgraham.com/power.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
-      "id": 1,
+      "id": 58,
       "type": "rawUnsupported",
-      "sourceHash": "6d4842235b7bbb5a61a5636fb0a4321cbedc331cebfa829b8d2bf26823acb67a",
-      "enMarkdown": "\"The quantity of meaning compressed into a small space by algebraic signs, is another circumstance that facilitates the reasonings we are accustomed to carry on by their aid.\"- Charles Babbage, quoted in Iverson's Turing Award Lecture\n\"The quantity of meaning compressed into a small space by algebraic signs, is another circumstance that facilitates the reasonings we are accustomed to carry on by their aid.\"- Charles Babbage, quoted in Iverson's Turing Award Lecture"
+      "sourceHash": "9968e2b9d965bb380ecf75961aaa6196f5af5e16ac4b85200d138df2ea615c77",
+      "enMarkdown": "\"The quantity of meaning compressed into a small space by algebraic signs, is another circumstance that facilitates the reasonings we are accustomed to carry on by their aid.\"- Charles Babbage, quoted in Iverson's Turing Award Lecture"
     },
     {
       "id": 2,
       "type": "paragraph",
       "sourceHash": "2bf73d414f70f46f4405455a734cbf284c960d2f08243ca51b55ba1e0c19ce6e",
       "enMarkdown": "In the discussion about issues raised by [Revenge \nof the Nerds](https://paulgraham.com/icad.html) on the LL1 mailing list, Paul Prescod wrote something that stuck in my mind.",
-      "zhMarkdown": "在 LL1 邮件列表上关于 [《黑客与画家》](https://paulgraham.com/icad.html)（译注：英文原名为 *Revenge of the Nerds*）所引发问题的讨论中，Paul Prescod 写下了一段让我记忆犹新的话。"
+      "zhMarkdown": "在 LL1 邮件列表讨论由[《黑客与画家》（Revenge of the Nerds）](https://paulgraham.com/icad.html)引发的话题时，Paul Prescod 写下了一句让我一直难忘的话。"
     },
     {
       "id": 3,
@@ -48,7 +48,7 @@
       "type": "paragraph",
       "sourceHash": "a2b2fd3fdf8dfae3731f329ad22f0e4cdf0d474555c823f4cf367dd4f6463638",
       "enMarkdown": "and this doesn't seem a tradeoff (if it *is* a tradeoff) that you'd want to make. It's not far from saying that Python's goal is not to be effective as a programming language.",
-      "zhMarkdown": "这似乎并不是一个你愿意做出的权衡（如果这确实算是一种权衡的话）。这几乎等于在说，Python 的目标不是成为一门高效的编程语言。"
+      "zhMarkdown": "而这看起来可不是一种你愿意做出的权衡（如果这*算得上*是一种权衡的话）。这几乎等同于在说，Python 的目标并不是成为一门高效有力的编程语言。"
     },
     {
       "id": 7,

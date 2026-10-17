@@ -4,10 +4,10 @@
   "titleZh": "最杰出的文章",
   "dateText": "March 2024",
   "publishedAt": "2024-03-01",
-  "sourceOrder": 16,
+  "sourceOrder": 18,
   "sourceUrl": "https://paulgraham.com/best.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -84,7 +84,7 @@
       "type": "paragraph",
       "sourceHash": "18b72f24c22bcf6c3d6d74f620bf17e307d801d6e659df2cf671cf7fe3b8502e",
       "enMarkdown": "How do you get this initial question? It probably won't work to choose some important-sounding topic at random and go at it. Professional traders won't even trade unless they have what they call an *edge* — a convincing story about why in some class of trades they'll win more than they lose. Similarly, you shouldn't attack a topic unless you have a way in — some new insight about it or way of approaching it.",
-      "zhMarkdown": "你如何获得这第一个问题？随便挑一个听起来很重大的主题盲目切入，大概是行不通的。专业交易员在没有“优势”（edge）之前甚至不会出手交易——所谓优势，就是一个令人信服的理由，解释为什么在某类交易中他们赢多输少。同样，除非你找到了切入点——比如对该主题有一些新的洞察或独特的切入角度，否则不应该轻易动笔。"
+      "zhMarkdown": "你怎么找到这个初始问题？随便选一个听起来很宏大的题目就直接动笔，大概率是行不通的。职业交易员只有在拥有他们所谓的*优势*时才会出手——也就是要有一套令人信服的逻辑，解释为什么在某类交易中他们赢多输少。同样，除非你找到了切入点——对它有某种新的洞见或切入视角——否则你不该贸然去写一个主题。"
     },
     {
       "id": 12,
@@ -112,7 +112,7 @@
       "type": "paragraph",
       "sourceHash": "7548e196fbf2ffa0bb00dc93aa39e45685c29b0691b25b90183b8c02d623e397",
       "enMarkdown": "Perhaps beginning writers are alarmed at the thought of starting with something mistaken or incomplete, but you shouldn't be, because this is why essay writing works. Forcing yourself to commit to some specific string of words gives you a starting point, and if it's wrong, you'll see that when you reread it. At least half of essay writing is rereading what you've written and asking *is this correct\nand complete?* You have to be very strict when rereading, not just because you want to keep yourself honest, but because a gap between your response and the truth is often a sign of new ideas to be discovered.",
-      "zhMarkdown": "初学写作的人可能会对从错误或不完整的东西开始感到恐慌，但大可不必，因为这恰恰是写文章起作用的原因。强迫自己写下具体的文字能给你一个起点，如果写错了，你在重读时就会发现。写文章至少有一半的工作是重读自己写下的内容，并问自己：*这正确、完整吗？*重读时必须极其严苛，这不仅是为了保持诚实，更是因为你的回答与事实之间的偏差，往往预示着有新的思想等待被发掘。"
+      "zhMarkdown": "初学写作的人可能会对“从错误或不完整的想法起步”感到惶恐，但大可不必，因为写文章的魔力正源于此。强迫自己落下一段确切的字句，就给了你一个起点；如果它有问题，你在重读时就能看出来。写文章至少有一半的功夫花在重读已写的内容并自问：*这是否正确、完整？* 重读时必须极为严苛，这不仅是为了让自己保持诚实，更是因为你的回答与真相之间的落差，往往正是孕育新想法的温床。"
     },
     {
       "id": 16,
@@ -154,7 +154,7 @@
       "type": "paragraph",
       "sourceHash": "579b6c7cbe7255683dd24190c5b30b60fd205113fdec7da9854745158f241474",
       "enMarkdown": "The most surprising new question being thrown off at this point is *does it really matter what the initial question is?* If the space of ideas is highly connected, it shouldn't, because you should be able to get from any question to the most valuable ones in a few hops. And we see evidence that it's highly connected in the way, for example, that people who are obsessed with some topic can turn any conversation toward it. But that only works if you know where you want to go, and you don't in an essay. That's the whole point. You don't want to be the obsessive conversationalist, or all your essays will be about the same thing. [[7](#f7n)]",
-      "zhMarkdown": "在这一步，最让人意想不到的新问题跳了出来：*第一个问题到底重不重要？*如果思想的空间是高度互联的，那它应该不重要，因为你应该能从任何一个问题出发，通过几次跳转就能抵达最有价值的问题。我们也能看到这种高度互联的证据，比如那些对某个主题极度痴迷的人，无论聊什么都能把话题扯过去。但那只有在你清楚自己想去哪里的情况下才有用，而写文章时你并不知道。这正是写文章的意义所在。你不想成为那个偏执的聊天者，否则你所有的文章都会是在老调重弹。[[7](#f7n)]"
+      "zhMarkdown": "写到这里，抛出的最出人意料的新问题是：*初始问题真的重要吗？* 如果思想空间的连通性极高，那就不应该重要，因为你理应能从任何问题出发，经过几次跳跃抵达最有价值的问题。我们也能看到思想高度连通的证据，比如那些对某个话题着了迷的人，无论聊什么都能把话题扯过去。但这只在你知道自己想去哪里的情况下才管用，而在写文章时，你事先并不知道。这正是写文章的核心所在。你可不想成为那种执念太深的谈客，否则你的所有文章最后讲的都会是同一件事。[[7](#f7n)]"
     },
     {
       "id": 22,
@@ -217,7 +217,7 @@
       "type": "paragraph",
       "sourceHash": "74bc256d2de7e58eb50a987df0d7df0efb630ab5f8a700dacc41db414b3448c4",
       "enMarkdown": "What other qualities would a great initial question have? It's probably good if it has implications in a lot of different areas. And I find it's a good sign if it's one that people think has already been thoroughly explored. But the truth is that I've barely thought about how to choose initial questions, because I rarely do it. I rarely *choose* what to write about; I just start thinking about something, and sometimes it turns into an essay.",
-      "zhMarkdown": "一个伟大的初始问题还应该具备哪些品质？如果它在许多不同的领域都有启发意义，那通常是件好事。而且我发现，如果一个问题是人们认为已经被彻底探索过的，这也是一个好兆头。但事实是，我几乎没有仔细想过如何选择初始问题，因为我很少刻意去选。我很少“选择”要写什么；我只是开始思考某件事，有时它就演变成了一篇文章。"
+      "zhMarkdown": "一个出色的初始问题还应具备哪些特质？如果它牵涉许多不同的领域，大概是件好事。而且我发现，如果一个问题是大家都以为已经被探讨透了的，那也是个好迹象。但说实话，我几乎从未认真想过该如何挑选初始问题，因为我很少这么做。我很少刻意去*选择*写什么；我只是开始思考某件事，有时它就自然演变成了一篇文章。"
     },
     {
       "id": 31,
@@ -420,7 +420,7 @@
       "type": "paragraph",
       "sourceHash": "e8c753e1a1558ce16e54db2a6bdb11427ae606a29976c068e086a8d9ea8d1f41",
       "enMarkdown": "Darwin's 1844 essay was derived from an earlier version written in 1839. Extracts from it were published in 1858.",
-      "zhMarkdown": ""
+      "zhMarkdown": "达尔文 1844 年的这篇文章改编自他 1839 年写下的早期版本，其节选内容于 1858 年发表。"
     },
     {
       "id": 60,
@@ -469,7 +469,7 @@
       "type": "paragraph",
       "sourceHash": "d6bdf9e0d027eda069ffb8f61cd223270d5cb518ed03a2c2fce6840ef3bc37a5",
       "enMarkdown": "Strictly speaking it's the graph of ideas that would be highly connected, not the space, but that usage would confuse people who don't know graph theory, whereas people who do know it will get what I mean if I say \"space\".",
-      "zhMarkdown": ""
+      "zhMarkdown": "严格来说，高度连通的应该是思想构成的“图”（graph）而非“空间”（space），但那种说法会让不懂图论的人摸不着头脑；而懂图论的人就算我用“空间”这个词，也完全明白我的意思。"
     },
     {
       "id": 67,

@@ -4,10 +4,10 @@
   "titleZh": "创始人模式",
   "dateText": "September 2024",
   "publishedAt": "2024-09-01",
-  "sourceOrder": 12,
+  "sourceOrder": 14,
   "sourceUrl": "https://paulgraham.com/foundermode.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -70,7 +70,7 @@
       "type": "paragraph",
       "sourceHash": "1927aaa52a001cfd083c37e3108269aac1db0c3efc36713203f44a025f791432",
       "enMarkdown": "One theme I noticed both in Brian's talk and when talking to founders afterward was the idea of being gaslit. Founders feel like they're being gaslit from both sides — by the people telling them they have to run their companies like managers, and by the people working for them when they do. Usually when everyone around you disagrees with you, your default assumption should be that you're mistaken. But this is one of the rare exceptions. VCs who haven't been founders themselves don't know how founders should run companies, and C-level execs, as a class, include some of the most skillful liars in the world. [[1](#f1n)]",
-      "zhMarkdown": "在 Brian 的演讲以及随后与创始人们的交流中，我注意到一个共同的主题，那就是一种被“煤气灯操纵”（情绪勒索/精神控制）的感觉。创始人觉得他们正受到来自两边的精神控制——一边是告诉他们必须像经理人一样管理公司的导师，另一边则是按照这种方式管理时为其工作的员工。通常情况下，当身边的所有人都反对你时，你的默认假设应该是自己错了。但这属于极少数的例外。没当过创始人的风险投资人不知道创始人应该如何管理公司，而 C 级高管这个群体中，则包含了一些世界上最擅长撒谎的人。[[1](#f1n)]"
+      "zhMarkdown": "无论是在布莱恩的演讲中，还是在会后与创始人的交谈中，我都注意到了一个共同的主题：那种被“煤气灯操纵”的感觉。创始人觉得自己在遭受来自两头的操纵与质疑——一边是那些告诉他们必须像职业经理人那样管公司的人，另一边则是当他们真照做时，手下那些为他们工作的人。通常情况下，当你周围的所有人都不同意你的看法时，你的默认假设应当是自己错了。但这属于极少数的例外。自己没当过创始人的风投，不知道创始人该如何管理公司；而C级高管作为一个群体，囊括了全世界最擅长撒谎的一批人。[[1](#f1n)]"
     },
     {
       "id": 10,

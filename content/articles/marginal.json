@@ -4,10 +4,10 @@
   "titleZh": "边缘的力量",
   "dateText": "June 2006",
   "publishedAt": "2006-06-01",
-  "sourceOrder": 166,
+  "sourceOrder": 168,
   "sourceUrl": "https://paulgraham.com/marginal.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "9ddb9002c96be19465d81003980847b51be9664f741ed372184427e7345a4c22",
       "enMarkdown": "The unfortunate writer would then sit down to work with a huge weight of expectation on his shoulders. Not wanting to blow such a public commission, he'd play it safe. This book had better command respect, and the way to ensure that would be to make it a tragedy. Audiences have to be enticed to laugh, but if you kill people they feel obliged to take you seriously. As everyone knows, America plus tragedy equals the Civil War, so that's what it would have to be about. When finally completed twelve years later, the book would be a 900-page pastiche of existing popular novels — roughly *Gone with the Wind* plus *Roots*. But its bulk and celebrity would make it a bestseller for a few months, until blown out of the water by a talk-show host's autobiography. The book would be made into a movie and thereupon forgotten, except by the more waspish sort of reviewers, among whom it would be a byword for bogusness like Milli Vanilli or *Battlefield\nEarth*.",
-      "zhMarkdown": "于是，这位不幸的作家只能在巨大的社会期望压力下坐下来写作。因为不想搞砸这样一个备受瞩目的官方委托，他会选择稳妥行事。这本书必须赢得尊重，而确保这一点的办法就是把它写成一部悲剧。你想逗观众笑，得先取悦他们；但如果你把角色写死，大家就不得不严肃对待你。众所周知，美国加上悲剧，等于南北战争，所以书的内容只能写这个。十二年后，这本书终于写完了，它成了一部 900 页的缝合怪，拼凑了各种畅销小说——大致就是《乱世佳人》加上《根》。但凭借其厚度和名气，它依然能当上几个月的畅销书，直到被某个脱口秀主持人的自传彻底打败。接着，这本书会被改编成电影，然后被彻底遗忘，只有那些刻薄的评论家还会提起它，把它当作类似 Milli Vanilli 或《地球战场》这种冒牌货的代名词。"
+      "zhMarkdown": "于是，这位倒霉的作家背负着巨大的期望坐下来动笔。他不想把这样一份万众瞩目的国家委任搞砸，于是选择了打安全牌。这本书必须得让人肃然起敬，而确保这一点的办法就是把它写成一部悲剧。引人发笑需要技巧，但如果你把人写死，读者就觉得自己必须严肃对待了。众所周知，美国加上悲剧等于南北战争，所以这本书就非以此为题材不可了。整整十二年后终于完工时，这本书会是一部厚达 900 页、拼凑现有流行小说的缝合怪——大致相当于《*飘*》加上《*根*》。不过，凭借其厚重的体量和名人效应，它会雄霸畅销书榜几个月，直到被某位脱口秀主持人的自传打得落花流水。接着它会被改编成电影，然后彻底被人遗忘——除了那些嘴下不留情的书评人，在他们嘴里，这本书将成为像米利瓦尼利乐队或电影《*地球战场*》一样名存实亡的代名词。"
     },
     {
       "id": 17,
@@ -672,7 +672,7 @@
       "type": "paragraph",
       "sourceHash": "1af529be9d7487a99f9aa0e7e0d182827ab04ad48e5d12c828cfac159b4fce02",
       "enMarkdown": "If you make something and people complain that it doesn't *work*, that's a problem. But if the worst thing they can hit you with is your own status as an outsider, that implies that in every other respect you've succeeded. Pointing out that someone is unqualified is as desperate as resorting to racial slurs. It's just a legitimate sounding way of saying: we don't like your type around here.",
-      "zhMarkdown": "如果你做了一个东西，人们抱怨它“不好用”，那确实是个问题。但如果他们能攻击你的最坏武器只是你“局外人”的身份，那意味着在其他所有方面你都成功了。指出某人不够格，就像用种族侮辱一样气急败坏。这只是一种听起来冠冕堂皇的说法，本质是：“我们这里不欢迎你这种人。”"
+      "zhMarkdown": "如果你做出了什么东西，大家抱怨它*不管用*，那确实是个问题。但如果他们能挑出的最大毛病，仅仅是你局外人的身份，那就意味着你在其他所有方面都成功了。挑剔某人不够资格，跟气急败坏之下诉诸种族歧视别无二致。这不过是用冠冕堂皇的说辞来表达：我们这里不欢迎你这种人。"
     },
     {
       "id": 96,

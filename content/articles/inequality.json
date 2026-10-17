@@ -4,10 +4,10 @@
   "titleZh": "不平等与风险",
   "dateText": "August 2005",
   "publishedAt": "2005-08-01",
-  "sourceOrder": 180,
+  "sourceOrder": 182,
   "sourceUrl": "https://paulgraham.com/inequality.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -140,14 +140,14 @@
       "type": "paragraph",
       "sourceHash": "93ab893fbedf46cb2e3ec5f2b856b1fbd4954049eb7937f5ddc9e566594006ac",
       "enMarkdown": "VCs are currently [paid](https://paulgraham.com/venturecapital.html) in a way that makes them focus on the upside: they get a percentage of the fund's gains. And that helps overcome their understandable fear of investing in a company run by nerds who look like (and perhaps are) college students.",
-      "zhMarkdown": "风险投资人目前拿报酬的[方式](https://paulgraham.com/venturecapital.html)让他们专注于回报：他们可以获得基金收益的一定比例。这有助于克服他们对投资一家由看起来像（或者根本就是）大学生的呆子创办的公司的本能恐惧。"
+      "zhMarkdown": "目前风投获得[报酬](https://paulgraham.com/venturecapital.html)的方式让他们专注于上行收益：他们可以按比例分享基金的收益。这有助于克服他们心中的恐惧——把钱投给一家由看起来像（或者本来就是）大学生的书呆子掌舵的公司，这种恐惧是完全可以理解的。"
     },
     {
       "id": 20,
       "type": "paragraph",
       "sourceHash": "e10e82fd1812ce7274cc227a61515e05650a0bd0f870adfa4b0aa29f44f3fba3",
       "enMarkdown": "If VCs weren't allowed to get rich, they'd behave like bureaucrats. Without hope of gain, they'd have only fear of loss. And so they'd make the wrong choices. They'd turn down the nerds in favor of the smooth-talking MBA in a suit, because that investment would be easier to justify later if it failed.",
-      "zhMarkdown": "如果不允许风险投资人变富，他们就会表现得像官僚一样。没有了获利的希望，他们就只剩下对损失的恐惧。因此他们会做出错误的选择。他们会拒绝那些呆子，转而支持穿着西装、口齿伶俐的 MBA，因为如果投资失败，后者更容易在日后解释得通。"
+      "zhMarkdown": "如果风投不被允许致富，他们就会变得像官僚一样。没了获利的指望，剩下的就只有对亏损的恐惧。于是他们就会做出错误的抉择。他们会拒绝书呆子，转而青睐西装革履、能说会道的 MBA，因为要是这项投资搞砸了，之后更容易找借口开脱。"
     },
     {
       "id": 21,
@@ -161,7 +161,7 @@
       "type": "paragraph",
       "sourceHash": "aa7205b38fc0ab074c77bebf29afde4d8a05d2326ae9433c02baa85cdadff180",
       "enMarkdown": "But even if you could somehow redesign venture funding to work without allowing VCs to become rich, there's another kind of investor you simply cannot replace: the startups' founders and early employees.",
-      "zhMarkdown": "但即使你能够以某种方式重新设计风险投资，使其在不允许风险投资人变富的情况下运作，还有另一类投资人是你根本无法替代的：创业公司的创始人和早期员工。"
+      "zhMarkdown": "但就算你能通过某种方式重新设计风险投资机制，在不让风投致富的前提下正常运转，还有另一类投资者是你绝对无法替代的：创业公司的创始人与早期员工。"
     },
     {
       "id": 23,
@@ -238,7 +238,7 @@
       "type": "paragraph",
       "sourceHash": "07b0e2bdb7775c3cc5cc19cfc40f28734512780efdcba104f9590ca3fc38e1b1",
       "enMarkdown": "It sounds benevolent to say we ought to reduce economic inequality. When you phrase it that way, who can argue with you? *Inequality* has to be bad, right? It sounds a good deal less benevolent to say we ought to reduce the rate at which new companies are founded. And yet the one implies the other.",
-      "zhMarkdown": "说我们应该减少经济不平等，听起来很仁慈。当你用这种方式表达时，谁能反驳你？“不平等”一定是坏事，对吧？而说我们应该降低新公司成立的速度，听起来就没那么仁慈了。然而，前者意味着后者。"
+      "zhMarkdown": "说我们应当减少经济不平等，听上去充满善意。这么一表述，谁还能反驳你？*不平等* 肯定是坏事，对吧？但要是说我们应当降低新公司的创立速度，听起来就远没有那么善意了。然而，前者隐含的恰恰就是后者。"
     },
     {
       "id": 34,
@@ -357,7 +357,7 @@
       "type": "paragraph",
       "sourceHash": "3ade33919d7363c3175a0716409770aa237aefcbf5bbdd1147fdfdb4ab50ae99",
       "enMarkdown": "[1] Success here is defined from the initial investors' point of view: either an IPO, or an acquisition for more than the valuation at the last round of funding. The conventional 1 in 10 success rate is suspiciously neat, but conversations with VCs suggest it's roughly correct for startups overall. Top VC firms expect to do better.",
-      "zhMarkdown": "[1] 这里的成功是从初始投资人的角度定义的：要么是 IPO，要么是以高于上一轮融资估值的价格被收购。传统上 10 个中成功 1 个的比例整齐得令人起疑，但与风险投资人的交流表明，对于整体创业公司来说，这大致是正确的。顶尖的风险投资机构期望能做得更好。"
+      "zhMarkdown": "[1] 这里的成功是从早期投资者的角度来定义的：要么 IPO 上市，要么以高于上一轮融资估值的价格被收购。通常所说的十分之一成功率整齐得有些令人怀疑，但与风投的交流表明，对整个创业群体而言，这个数字大致是准确的。顶级风投机构期望表现得更好一些。"
     },
     {
       "id": 51,

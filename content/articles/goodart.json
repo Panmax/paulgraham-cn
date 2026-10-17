@@ -4,10 +4,10 @@
   "titleZh": "艺术如何才能称得上好",
   "dateText": "December 2006",
   "publishedAt": "2006-12-01",
-  "sourceOrder": 160,
+  "sourceOrder": 162,
   "sourceUrl": "https://paulgraham.com/goodart.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -21,7 +21,7 @@
       "type": "paragraph",
       "sourceHash": "7621d6aac4db414dc6b7b4c5afe5568460b7a072b67199346fd57b9d4bcda372",
       "enMarkdown": "I grew up believing that taste is just a matter of personal preference. Each person has things they like, but no one's preferences are any better than anyone else's. There is no such thing as *good* taste.",
-      "zhMarkdown": "我从小就相信，品味纯粹是个人偏好的问题。每个人都有自己喜欢的东西，没有谁的偏好比别人的更好。根本不存在所谓的“好”品味。"
+      "zhMarkdown": "我从小就相信，品味纯粹是个人偏好。每个人都有自己喜欢的东西，谁的偏好也不比谁的更高明。根本不存在所谓的*好*品味。"
     },
     {
       "id": 4,

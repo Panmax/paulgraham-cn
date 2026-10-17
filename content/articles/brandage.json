@@ -4,10 +4,10 @@
   "titleZh": "品牌时代",
   "dateText": "March 2026",
   "publishedAt": "2026-03-01",
-  "sourceOrder": 5,
+  "sourceOrder": 7,
   "sourceUrl": "https://paulgraham.com/brandage.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -271,9 +271,9 @@
     {
       "id": 38,
       "type": "paragraph",
-      "sourceHash": "07f37d46f6015ac04c3c153308fa376705974656bc7434b491b1a47c44e84d63",
-      "enMarkdown": "The next move was made by Audemars Piguet, who in 1970 commissioned the renowned designer G�rald Genta to design their own iconic watch, this one, daringly, in steel. The result, launched in 1972, was the [Royal Oak](https://www.sothebys.com/en/buy/auction/2025/fine-watches-5/reference-5402st-jumbo-royal-oak-a-series-a). And Audemars Piguet's ads (for they too now started doing brand advertising) emphasized its high cost even more dramatically. \"Introducing steel at the price of gold,\" one began. \"You're looking at the costliest stainless steel watch in the world — the Audemars Piguet 'Royal Oak'. What makes it even more precious than gold is the time that went into building it, by a vanishing breed of master watchmakers.\" At the bottom of the ad they turn the traditional formula on its head and describe their watches as being \"priced from $35,000 and down.\"",
-      "zhMarkdown": "下一步是由爱彼迈出的，他们在 1970 年委托著名设计师杰罗·尊达（Gérald Genta）设计自己的标志性表款，而且大胆地采用了钢材质。其成果于 1972 年推出了[皇家橡树](https://www.sothebys.com/en/buy/auction/2025/fine-watches-5/reference-5402st-jumbo-royal-oak-a-series-a)（Royal Oak）。爱彼的广告（因为他们现在也开始做品牌广告了）更富有戏剧性地强调了其高昂的价格。“以黄金的价格引入钢，”一则广告开头写道。“您正在看着世界上最昂贵的精钢手表——爱彼‘皇家橡树’。让它比黄金更珍贵的是注入其中的时间，由濒临流失的一代制表大师亲手打造。”在广告的底部，他们颠覆了传统的公式，将他们的手表描述为“售价 35,000 美元起”。"
+      "sourceHash": "1f4d9928c5803c01ebe6719e89546ac6d8058a40b14fcd42d0343886b7d35b6c",
+      "enMarkdown": "The next move was made by Audemars Piguet, who in 1970 commissioned the renowned designer Gérald Genta to design their own iconic watch, this one, daringly, in steel. The result, launched in 1972, was the [Royal Oak](https://www.sothebys.com/en/buy/auction/2025/fine-watches-5/reference-5402st-jumbo-royal-oak-a-series-a). And Audemars Piguet's ads (for they too now started doing brand advertising) emphasized its high cost even more dramatically. \"Introducing steel at the price of gold,\" one began. \"You're looking at the costliest stainless steel watch in the world — the Audemars Piguet 'Royal Oak'. What makes it even more precious than gold is the time that went into building it, by a vanishing breed of master watchmakers.\" At the bottom of the ad they turn the traditional formula on its head and describe their watches as being \"priced from $35,000 and down.\"",
+      "zhMarkdown": "接下来出手的是爱彼（Audemars Piguet）。他们在 1970 年委托著名设计师杰罗·尊达（Gérald Genta）设计属于自己的标志性腕表，而且大胆地选用了精钢材质。其成果便是 1972 年推出的[皇家橡树（Royal Oak）](https://www.sothebys.com/en/buy/auction/2025/fine-watches-5/reference-5402st-jumbo-royal-oak-a-series-a)。而爱彼的广告（因为他们此刻也开始做品牌广告了）更是极力渲染其高昂的身价。有一则广告开篇写道：“以黄金的价格推出精钢。你眼前的是世界上最昂贵的不锈钢腕表——爱彼‘皇家橡树’。比黄金更珍贵的，是行将消逝的制表大师们倾注其中的时间。”在广告底部，他们颠覆了传统的表述惯例，将自己的腕表描述为“售价从 35,000 美元向下递减”。"
     },
     {
       "id": 39,
@@ -292,9 +292,9 @@
     {
       "id": 41,
       "type": "paragraph",
-      "sourceHash": "ce09190f99118ed4784f79b83988c28a1a14228ea9cf2fafeb5c2e79e4008af8",
-      "enMarkdown": "So they did. Encouraged by the success of the Royal Oak, Patek Philippe commissioned G�rald Genta in 1974 to design a similar watch for them. The design of the Royal Oak had been inspired by a ship's porthole, so the design of this new watch would be inspired by... a ship's porthole. It was called the [Nautilus](https://www.sothebys.com/en/buy/auction/2025/important-watches-2/reference-3700-11-nautilus-jumbo-a-stainless-steel), and it launched at the Basel Watch Fair in 1976.",
-      "zhMarkdown": "于是他们坚持了下去。受到皇家橡树成功的鼓舞，百达翡丽在 1974 年委托杰罗·尊达为他们设计一款类似的腕表。皇家橡树的设计灵感来自于轮船的舷窗，因此这款新表的设计灵感也将来自于……轮船的舷窗。它被称为[鹦鹉螺](https://www.sothebys.com/en/buy/auction/2025/important-watches-2/reference-3700-11-nautilus-jumbo-a-stainless-steel)（Nautilus），并于 1976 年在巴塞尔钟表展上推出。"
+      "sourceHash": "a654c3f57f30622b8322fd700f0a752ee667e6b193ede4e9c2ea724861806776",
+      "enMarkdown": "So they did. Encouraged by the success of the Royal Oak, Patek Philippe commissioned Gérald Genta in 1974 to design a similar watch for them. The design of the Royal Oak had been inspired by a ship's porthole, so the design of this new watch would be inspired by... a ship's porthole. It was called the [Nautilus](https://www.sothebys.com/en/buy/auction/2025/important-watches-2/reference-3700-11-nautilus-jumbo-a-stainless-steel), and it launched at the Basel Watch Fair in 1976.",
+      "zhMarkdown": "于是他们照做了。受到皇家橡树成功的鼓舞，百达翡丽在 1974 年委托杰罗·尊达为他们设计一款类似的腕表。皇家橡树的设计灵感来自轮船舷窗，所以这款新表的设计灵感来自……还是轮船舷窗。它被命名为[鹦鹉螺（Nautilus）](https://www.sothebys.com/en/buy/auction/2025/important-watches-2/reference-3700-11-nautilus-jumbo-a-stainless-steel)，并于 1976 年的巴塞尔钟表展上亮相。"
     },
     {
       "id": 42,
@@ -320,9 +320,9 @@
     {
       "id": 45,
       "type": "paragraph",
-      "sourceHash": "bbf29fd20f3652ef7fe2b1ed18fec8e5e3c9454d67b45351fe6e266271c59482",
-      "enMarkdown": "The hobnail calatrava was apparently the brainchild of Ren� Bittel, the head of Patek Philippe's ad agency. It was not a new design. Many watchmakers had decorated their cases with hobnails over the years, and there had been a Patek model with them since 1968. But in 1984 Bittel told Patek president Philippe Stern, in effect: make this your standard design, and I'll create an ad campaign to identify it in people's heads with your brand. [[6](#f6n)]",
-      "zhMarkdown": "巴黎钉纹卡拉卓华显然是百达翡丽广告代理公司负责人雷内·比特尔（René Bittel）的创意。这并不是一个全新的设计。多年来，许多制表商都在表壳上装饰过巴黎钉纹，百达翡丽自 1968 年起也有一款带有这种装饰的表款。但在 1984 年，比特尔告诉百达翡丽总裁菲力·斯登（Philippe Stern），大意是：把这作为你们的标准设计，我会制作一个广告企划，在人们的脑海中将它与你们的品牌绑定。[[6](#f6n)]"
+      "sourceHash": "2c49dda64abfb0d1070d232068e3aab65c29c9aedf8c56cafe47759be6fcba8e",
+      "enMarkdown": "The hobnail calatrava was apparently the brainchild of René Bittel, the head of Patek Philippe's ad agency. It was not a new design. Many watchmakers had decorated their cases with hobnails over the years, and there had been a Patek model with them since 1968. But in 1984 Bittel told Patek president Philippe Stern, in effect: make this your standard design, and I'll create an ad campaign to identify it in people's heads with your brand. [[6](#f6n)]",
+      "zhMarkdown": "巴黎钉纹卡拉卓华显然出自百达翡丽广告代理商负责人勒内·比泰尔（René Bittel）的构想。这并不是什么全新设计。多年来许多制表商都会用巴黎钉纹来装饰表壳，百达翡丽自己早在 1968 年就推出过带这种饰纹的表款。但在 1984 年，比泰尔实际上是对百达翡丽总裁菲利普·斯特恩（Philippe Stern）说：把这做成你们的标准设计，我去发起一场广告宣传，让它在人们脑海中与你们的品牌划上等号。[[6](#f6n)]"
     },
     {
       "id": 46,
@@ -364,7 +364,7 @@
       "type": "paragraph",
       "sourceHash": "d183ac187765f1e99335664e29b4ed0364d5ef24dcfd38e05003cf727c1a8b16",
       "enMarkdown": "It was critical, though, that mechanical watches were accurate *enough*. A new 3919 would have been off by no more than 5 seconds a day. That was nowhere near as good as quartz. Even the cheapest mass market quartz watches were accurate to half a second a day, and the best ones were accurate to 3 seconds a year. But in practice you didn't need that kind of accuracy. If mechanical watches had only been accurate to a minute a day they couldn't have made the leap from keeping time to displaying wealth. It would have seemed too manifestly unluxurious to have a watch that always had the wrong time. But 5 seconds a day was close enough. [[9](#f9n)]",
-      "zhMarkdown": "不过，关键在于机械表要“足够”精准。一只全新的 3919 每天的误差不会超过 5 秒。这根本无法与石英表相比。即使是最便宜的大众市场石英表，每天的误差也在半秒以内，而最好的石英表每年的误差只有 3 秒。但在实际生活中，你不需要那种精准度。如果机械表每天的误差高达一分钟，它们就无法完成从计时到炫富的跨越。如果一只表的表盘上永远显示着错误的时间，那看起来就太明显不够奢华了。但每天 5 秒的误差已经足够接近了。[[9](#f9n)]"
+      "zhMarkdown": "不过，机械表的走时精度必须*足够*好，这一点至关重要。一只全新的 3919 每天的误差不会超过 5 秒。这固然远比不上石英表——即使最廉价的大众石英表每天误差也不过半秒，而最好的石英表一年误差仅 3 秒——但在现实生活中，你根本不需要那样的精度。如果机械表每天误差达到一分钟，它就绝不可能完成从“计时工具”到“炫耀财富”的飞跃。一只总是显示错误时间的手表，未免太明显地脱离了奢侈品的范畴。但每天 5 秒的误差，已经足够接近准时了。[[9](#f9n)]"
     },
     {
       "id": 52,
@@ -446,9 +446,9 @@
     {
       "id": 63,
       "type": "paragraph",
-      "sourceHash": "7c83d6d989f50fc1b0cd802f7c6d4c35ea749152244525a3c2075d080021f7a5",
-      "enMarkdown": "I haven't talked about Rolex so far, because Rolex didn't have to do much to adapt to the new era. They already had one foot in the brand age during the golden age. Early in their history they put a lot of effort into making their watches better, but they \"stopped taking part in competitions in Geneva and Neuch�tel at the end of the 1950s,\" and from about 1960 \"largely abandoned research into mechanical watchmaking.\" [[13](#f13n)] The reason was not that they'd become lazy, but that they'd discovered they could make sales grow faster by marketing their watches as status symbols. So that became their focus during the 1960s, and by the time the quartz crisis hit ten years later, their customers were self-selected to be people who didn't care that much what was inside a watch, so long as it was recognizably a Rolex.",
-      "zhMarkdown": "到目前为止，我还没有谈到劳力士，因为劳力士不需要做太多事情来适应新时代。在黄金时代，他们就已经有一只脚迈进了品牌时代。在他们历史的早期，他们投入了大量的精力来使他们的手表变得更好，但他们“在 1950 年代末停止了参加日内瓦和纳沙泰尔的竞赛”，并且从 1960 年左右开始“基本上放弃了对机械制表的研究”。[[13](#f13n)] 原因不是他们变懒了，而是他们发现，通过将手表作为身份象征进行营销，他们可以让销售额增长得更快。因此，这成为了他们在 20 世纪 60 年代的工作重心，当十年后石英危机来袭时，他们的顾客已经自我筛选为那些不太在乎手表里面装了什么、只要它是一只辨识度极高的劳力士就行的人。"
+      "sourceHash": "ba82543233255b7623911cee6d504508518db5b9c46abef86e0d6f83f9279391",
+      "enMarkdown": "I haven't talked about Rolex so far, because Rolex didn't have to do much to adapt to the new era. They already had one foot in the brand age during the golden age. Early in their history they put a lot of effort into making their watches better, but they \"stopped taking part in competitions in Geneva and Neuchâtel at the end of the 1950s,\" and from about 1960 \"largely abandoned research into mechanical watchmaking.\" [[13](#f13n)] The reason was not that they'd become lazy, but that they'd discovered they could make sales grow faster by marketing their watches as status symbols. So that became their focus during the 1960s, and by the time the quartz crisis hit ten years later, their customers were self-selected to be people who didn't care that much what was inside a watch, so long as it was recognizably a Rolex.",
+      "zhMarkdown": "我到目前为止还没谈到劳力士，因为劳力士几乎不需要做什么调整就能适应新时代。早在黄金时代，他们的一只脚就已经踏进了品牌时代。在品牌发展早期，他们曾投入巨大精力让手表变得更好，但他们“在 20 世纪 50 年代末停止参加日内瓦和纳沙泰尔的竞赛”，并且从大约 1960 年起，“基本放弃了对机械制表的研究”。[[13](#f13n)] 原因并不是他们变懒了，而是他们发现，将手表作为地位象征进行营销能够让销量增长得更快。因此这成了他们在 20 世纪 60 年代的重心，等到十年后石英危机爆发时，他们的客户群体早已完成了自我筛选：只要能让人一眼认出是劳力士，这些人根本不太在乎表壳里装的是什么。"
     },
     {
       "id": 64,
@@ -663,9 +663,9 @@
     {
       "id": 94,
       "type": "paragraph",
-      "sourceHash": "294281e349d57b1cd931e3c90ecbb86bfb3e564c3f5a3856cab286b7a500f5b4",
-      "enMarkdown": "[10] There's one brand still waiting to be reinflated: Universal Gen�ve, which was one of the big players of the golden age but since 1977 has been little more than a brand name passed from acquirer to acquirer. They're scheduled to come back to life later this year, no doubt with stories about their long tradition of watchmaking.",
-      "zhMarkdown": "[10] 还有一个品牌仍在等待被重新注入活力：宇宙（Universal Genève），它是黄金时代的主要参与者之一，但自 1977 年以来，它几乎只是一个在不同收购者之间传递的品牌名称。他们计划在今年晚些时候复活，无疑会带着关于他们悠久制表传统的故事。"
+      "sourceHash": "503d1605bdc67d50743dc44fcbfd832b0697bb57e2a2eb489e08628d5837bdae",
+      "enMarkdown": "[10] There's one brand still waiting to be reinflated: Universal Genève, which was one of the big players of the golden age but since 1977 has been little more than a brand name passed from acquirer to acquirer. They're scheduled to come back to life later this year, no doubt with stories about their long tradition of watchmaking.",
+      "zhMarkdown": "[10] 还有一个品牌正等待着被重新包装激活：宇宙表（Universal Genève）。它曾是黄金时代的重要巨头之一，但自 1977 年以来就沦为了一个在收购者之间倒来倒去的品牌空壳。他们计划在今年晚些时候重获新生，届时毫无疑问会大肆宣扬其悠久的制表传统。"
     },
     {
       "id": 95,
@@ -691,9 +691,9 @@
     {
       "id": 98,
       "type": "paragraph",
-      "sourceHash": "442c0323b812a592b1858f1f6d93bf724ec7df2f355a30fe305f088821b7a396",
-      "enMarkdown": "Pierre-Yves Donz�, *The Making of a Status Symbol: A Business History\nof Rolex*, Manchester University Press, 2025.",
-      "zhMarkdown": "皮埃尔-伊夫·东泽（Pierre-Yves Donzé），《身份象征的塑造：劳力士商业史》（*The Making of a Status Symbol: A Business History of Rolex*），曼彻斯特大学出版社，2025年。"
+      "sourceHash": "7f304b3e40cc5c6ba893e0af872477f457182af534a9800addbccd544c1d9c8f",
+      "enMarkdown": "Pierre-Yves Donzé, *The Making of a Status Symbol: A Business History\nof Rolex*, Manchester University Press, 2025.",
+      "zhMarkdown": "Pierre-Yves Donzé, *The Making of a Status Symbol: A Business History of Rolex*, Manchester University Press, 2025."
     },
     {
       "id": 99,
@@ -705,9 +705,9 @@
     {
       "id": 100,
       "type": "paragraph",
-      "sourceHash": "4469ece2d0eadbcd6e2310f1f86c02df786a565b53b1108c98324e72c43dc3f3",
-      "enMarkdown": "Reprinted in Donz�, *op cit*.",
-      "zhMarkdown": "转载于东泽，前引书。"
+      "sourceHash": "6aa96e1d432a6e7d5dc64f5cb009feab1279f6a566e298c142e17d296c2f54db",
+      "enMarkdown": "Reprinted in Donzé, *op cit*.",
+      "zhMarkdown": "转引自 Donzé，*前引书*。"
     },
     {
       "id": 101,
@@ -728,7 +728,7 @@
       "type": "paragraph",
       "sourceHash": "962a78068e61a8284e6cd433142b18d9366ff30ddf2ddba6458741f0ffb36356",
       "enMarkdown": "**Thanks** to Sam Altman, Bill Clerico, Daniel Gackle, Luis Garcia, the people at Goldammer, Jessica Livingston, Ben Miller, Robert Morris, John Reardon, D'Arcy Rice, Alex Tabarrok, and Garry Tan for reading drafts of this.",
-      "zhMarkdown": "感谢 Sam Altman、Bill Clerico、Daniel Gackle、Luis Garcia、Goldammer 的团队、Jessica Livingston、Ben Miller、Robert Morris、John Reardon、D'Arcy Rice、Alex Tabarrok 和 Garry Tan 阅读本篇草稿。"
+      "zhMarkdown": "**感谢** Sam Altman、Bill Clerico、Daniel Gackle、Luis Garcia、Goldammer 的朋友们、Jessica Livingston、Ben Miller、Robert Morris、John Reardon、D'Arcy Rice、Alex Tabarrok 和 Garry Tan 审阅本文草稿。"
     }
   ]
 }

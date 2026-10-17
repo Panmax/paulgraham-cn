@@ -4,10 +4,10 @@
   "titleZh": "文章领域的格局",
   "dateText": "June 2025",
   "publishedAt": "2025-06-01",
-  "sourceOrder": 6,
+  "sourceOrder": 8,
   "sourceUrl": "https://paulgraham.com/field.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "a921e1ffa9e7cb44b98882eebe61437bf5410c7084520e289fa157b273d38c25",
       "enMarkdown": "There's a continuum of surprise. At one extreme, something you read can change your whole way of thinking. *The Selfish Gene* did this to me. It was like suddenly seeing the other interpretation of an ambiguous image: you can treat genes rather than organisms as the protagonists, and evolution becomes easier to understand when you do. At the other extreme, writing merely puts into words something readers were already thinking — or thought they were.",
-      "zhMarkdown": "启发的程度是一个连续的光谱。在光谱的一端，你读到的东西能彻底改变你的思维方式。理查德·道金斯的《自私的基因》对我来说就是如此。那感觉就像是突然看懂了一张双关图的另一层含义：你可以把基因而不是生物体视为主角，这样一来，进化就变得更容易理解了。而在光谱的另一端，文章仅仅是用文字表达出了读者已经在思考、或者自以为在思考的内容。"
+      "zhMarkdown": "令人惊奇的程度是一道连续谱。在极端的一头，你读到的东西能彻底改变你的思维方式。*《自私的基因》* 就曾给我带来这种震撼。那感觉就像突然看懂了一幅双关图的另一面：你可以把基因而非生物体当作主角，一旦这么做，演化就变得更容易理解了。而在另一头，文字仅仅是把读者本来就在想——或者自以为在想——的事情说了出来。"
     },
     {
       "id": 8,

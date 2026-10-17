@@ -4,10 +4,10 @@
   "titleZh": "互联网创业公司的未来",
   "dateText": "October 2007",
   "publishedAt": "2007-10-01",
-  "sourceOrder": 146,
+  "sourceOrder": 148,
   "sourceUrl": "https://paulgraham.com/webstartups.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -175,7 +175,7 @@
       "type": "paragraph",
       "sourceHash": "3df5d350e23172dcaf9bc6ad8e0bd53d82f26adf0fa510143ad8fed4944c8f3c",
       "enMarkdown": "One reason Google doesn't have a problem with acquisitions is that they know first-hand the quality of the people they can get that way. Larry and Sergey only started Google after making the rounds of the search engines trying to sell their idea and finding no takers. They've *been* the guys coming in to visit the big company, so they know who might be sitting across that conference table from them.",
-      "zhMarkdown": "谷歌对收购泰然处之的一个原因在于，他们亲身体会过通过这种方式能获得多么优秀的人才。当年，拉里和谢尔盖跑遍了各大搜索引擎，试图兜售他们的想法，却没人买单，之后他们才创办了谷歌。他们曾经就是那些去拜访大公司的人，所以他们很清楚会议桌对面坐着的可能会是谁。"
+      "zhMarkdown": "Google 不排斥收购的另一个原因在于，他们亲身体验过通过这种方式能招揽到何等优秀的人才。当年拉里（Larry）和谢尔盖（Sergey）在创立 Google 之前，也是四处拜访各大搜索引擎，想把自己的技术卖掉，结果根本没人买账。他们曾经*亲自*扮演过登门拜访大公司的创业者角色，因此他们深知，坐在会议桌对面的很可能是怎样的人才。"
     },
     {
       "id": 25,
@@ -469,7 +469,7 @@
       "type": "paragraph",
       "sourceHash": "10b09a6be319aaeb4e9738322837296ead46af8dc16e49ecb4201de94cd30aa9",
       "enMarkdown": "Big companies are just not a good place to make things happen fast. I talked recently to a founder whose startup had been acquired by a big company. He was a precise sort of guy, so he'd measured their productivity before and after. He counted lines of code, which can be a dubious measure, but in this case was meaningful because it was the same group of programmers. He found they were one thirteenth as productive after the acquisition.",
-      "zhMarkdown": "大公司根本不是一个能让事情快速推进的地方。我最近和一位创始人聊天，他的创业公司被一家大公司收购了。他是个严谨的人，因此测量了收购前后的生产率。他统计了代码行数，这虽然是个有些可疑的指标，但在这种情况下是有意义的，因为开发人员是同一批人。他发现，收购后他们的生产率降到了原来的十三分之一。"
+      "zhMarkdown": "大公司根本就不是一个能迅速把事情做成的地方。我最近和一位创始人聊过，他的创业公司被一家大公司收购了。他是个做事严谨的人，所以测量了收购前后的生产率。他统计了代码行数——这虽然往往是个靠不住的指标，但在此处却很有意义，因为写代码的是同一批程序员。他发现，收购后他们的生产率只有原来的十三分之一。"
     },
     {
       "id": 67,

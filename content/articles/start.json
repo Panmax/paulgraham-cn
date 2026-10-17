@@ -4,10 +4,10 @@
   "titleZh": "如何创业",
   "dateText": "March 2005",
   "publishedAt": "2005-03-01",
-  "sourceOrder": 190,
+  "sourceOrder": 192,
   "sourceUrl": "https://paulgraham.com/start.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "c3cdbbeb6fbce058d41c1450fb7cc1b6b500a7cf440d5600e51756e1d3b7eaff",
       "enMarkdown": "What it means specifically depends on the job: a salesperson who just won't take no for an answer; a hacker who will stay up till 4:00 AM rather than go to bed leaving code with a bug in it; a PR person who will cold-call *New York Times* reporters on their cell phones; a graphic designer who feels physical pain when something is two millimeters out of place.",
-      "zhMarkdown": "具体表现取决于工作性质：一个绝不接受拒绝的销售员；一个宁可熬夜到凌晨四点也不愿带着 Bug 入睡的黑客；一个会直接给《纽约时报》记者打手机做冷呼叫（cold-call）的公关；或者一个看到东西偏了两毫米就会感到肉体痛苦的平面设计师。"
+      "zhMarkdown": "具体指什么，要看具体的岗位：销售人员绝不接受客户说“不”；黑客宁可熬夜到凌晨 4 点，也绝不容忍带着 bug 的代码过夜；公关人员敢直接把陌生电话打到 *《纽约时报》* 记者的手机上；平面设计师只要看到东西偏了两毫米，就会感到生理性的痛苦。"
     },
     {
       "id": 17,

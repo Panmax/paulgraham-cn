@@ -4,10 +4,10 @@
   "titleZh": "模仿你真正喜欢的东西",
   "dateText": "July 2006",
   "publishedAt": "2006-07-01",
-  "sourceOrder": 164,
+  "sourceOrder": 166,
   "sourceUrl": "https://paulgraham.com/copy.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -35,7 +35,7 @@
       "type": "paragraph",
       "sourceHash": "84969e005d6d1fdda90861d2fc09db3147cc194ed783335b50bad4fc947763f2",
       "enMarkdown": "In grad school I was still wasting time imitating the wrong things. There was then a fashionable type of program called an expert system, at the core of which was something called an inference engine. I looked at what these things did and thought \"I could write that in a thousand lines of code.\" And yet eminent professors were writing books about them, and startups were selling them for a year's salary a copy. What an opportunity, I thought; these impressive things seem easy to me; I must be pretty sharp. Wrong. It was simply a fad. The books the professors wrote about expert systems are now ignored. They were not even on a *path* to anything interesting. And the customers paying so much for them were largely the same government agencies that paid thousands for screwdrivers and toilet seats.",
-      "zhMarkdown": "到了读研时，我依然在浪费时间模仿错误的东西。当时流行一种叫做“专家系统”的程序，其核心是一个被称为“推理引擎”的东西。我研究了这些东西的功能，心想：“我用一千行代码就能写出来。”然而，著名的教授们在为此著书立说，创业公司一套就能卖出一个人的年薪。我想，这真是个好机会；这些看似高深的东西在我眼里如此简单，我一定非常聪明。错了。这不过是一时风潮。教授们写的关于专家系统的书如今已被束之高阁。它们甚至连通往任何有趣事物的**路径**都算不上。而那些花高价购买这些系统的客户，很大程度上就是那些花数千美元买螺丝刀和马桶圈的政府机构。"
+      "zhMarkdown": "读研究生时，我依然在浪费时间模仿错误的东西。当时流行一种叫做“专家系统”的程序，核心是一个叫“推理引擎”的东西。我看了一下它的功能，心想：“我用一千行代码就能写出来。”然而名牌教授们都在为此著书立说，创业公司卖一份就能赚上普通人一年的薪水。我心想，这可是个大好机会：这些看似高深的东西对我来说轻而易举，我一定绝顶聪明。错了。这不过是一时狂热。教授们写的那些关于专家系统的书，如今早已无人问津。它们甚至连通往任何有趣之物的*路径*都算不上。而那些花重金购买的客户，大多也就是那些曾花上千美元采购螺丝刀和马桶盖的政府机构。"
     },
     {
       "id": 6,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "bd02869f1b9c1e546ea48e5e2cdaabcd71df6e32cb8dd2773e7306a68636c36f",
       "enMarkdown": "Another way to figure out what you like is to look at what you enjoy as guilty pleasures. Many things people like, especially if they're young and ambitious, they like largely for the feeling of virtue in liking them. 99% of people reading *Ulysses* are thinking \"I'm reading *Ulysses*\" as they do it. A guilty pleasure is at least a pure one. What do you read when you don't feel up to being virtuous? What kind of book do you read and feel sad that there's only half of it left, instead of being impressed that you're half way through? That's what you really like.",
-      "zhMarkdown": "弄清楚自己喜欢什么的另一种方法，是去看看你把什么当成了“偷着乐的消遣”（guilty pleasures）。许多人（尤其是年轻且有抱负的人）之所以喜欢某些东西，很大程度上是因为在喜欢它们时能获得一种道德上的优越感。99% 阅读《尤利西斯》的人，在阅读时脑子里想的都是“我正在读《尤利西斯》”。而“偷着乐的消遣”至少是纯粹的。当你不想勉强自己追求高雅时，你会读些什么？什么样的书会让你在读到只剩一半时感到惋惜，而不是为自己已经读了一半而感到自豪？那才是你真正喜欢的东西。"
+      "zhMarkdown": "弄清自己真正喜欢什么的另一个方法，是看看你有哪些带有“负罪感”的乐趣（guilty pleasure）。人们喜欢的很多东西——尤其是年轻气盛、心怀抱负时——很大程度上是因为喜欢这些东西能带来一种道德上的优越感。读*《尤利西斯》*的人里，有 99% 边读边在心里想：“我可是在读*《尤利西斯》*呢。”而带有负罪感的乐趣，至少是纯粹的。当你不想勉强自己去装得崇高时，你会读什么？读什么样的书会让你在看到只剩一半时感到惋惜，而不是为了自己已经啃完一半而暗自得意？那才是你真正喜欢的东西。"
     },
     {
       "id": 9,

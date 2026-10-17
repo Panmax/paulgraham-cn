@@ -4,10 +4,10 @@
   "titleZh": "两种温和派",
   "dateText": "December 2019",
   "publishedAt": "2019-12-01",
-  "sourceOrder": 50,
+  "sourceOrder": 52,
   "sourceUrl": "https://paulgraham.com/mod.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -61,9 +61,9 @@
     {
       "id": 8,
       "type": "paragraph",
-      "sourceHash": "b44ddb179a9b878726007a0ac6c2e0d5c7038b7a77fe31f3d44ec2d416fab966",
-      "enMarkdown": "Or more precisely, you have to be independent-minded about the ideas you work with. You could be mindlessly doctrinaire in your politics and still be a good mathematician. In the 20th century, a lot of very smart people were Marxists � just no one who was smart about the subjects Marxism involves. But if the ideas you use in your work intersect with the politics of your time, you have two choices: be an accidental moderate, or be mediocre.",
-      "zhMarkdown": "更准确地说，你必须对自己研究的思想保持独立思考。在政治上盲从教条，并不妨碍你成为一个优秀的数学家。在 20 世纪，许多非常聪明的人都是马克思主义者——只是在马克思主义涉及的领域里，没有一个是真正聪明的。但是，如果你在工作中所运用的思想与当下的政治有所交集，你只有两个选择：要么做一个偶然型温和派，要么平庸一生。"
+      "sourceHash": "369a0b8a3d7bb91389dd532c834b72ac0251dba655c2f2790fa63044b440b970",
+      "enMarkdown": "Or more precisely, you have to be independent-minded about the ideas you work with. You could be mindlessly doctrinaire in your politics and still be a good mathematician. In the 20th century, a lot of very smart people were Marxists — just no one who was smart about the subjects Marxism involves. But if the ideas you use in your work intersect with the politics of your time, you have two choices: be an accidental moderate, or be mediocre.",
+      "zhMarkdown": "或者更准确地说，你必须对自己工作中涉及的思想保持独立思考。你在政治上可以盲从教条，却依然是个出色的数学家。20 世纪有许多非常聪明的人是马克思主义者——只是没有一个人在马克思主义所涉及的领域里称得上聪明。但如果你工作中所运用的思想与你所处时代的政治产生了交集，你就只有两个选择：要么做一个偶然的温和派，要么甘于平庸。"
     },
     {
       "id": 9,

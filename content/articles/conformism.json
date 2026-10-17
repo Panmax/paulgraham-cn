@@ -4,10 +4,10 @@
   "titleZh": "从众的四个象限",
   "dateText": "July 2020",
   "publishedAt": "2020-07-01",
-  "sourceOrder": 44,
+  "sourceOrder": 46,
   "sourceUrl": "https://paulgraham.com/conformism.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -124,9 +124,9 @@
     {
       "id": 17,
       "type": "paragraph",
-      "sourceHash": "d55788623622880afa1bb4300d8dc42857cedc9cb3534fdae958fae9a3a15385",
-      "enMarkdown": "In the last few years, many of us have noticed that the customs protecting free inquiry have been weakened. Some say we're overreacting � that they haven't been weakened very much, or that they've been weakened in the service of a greater good. The latter I'll dispose of immediately. When the conventional-minded get the upper hand, they always say it's in the service of a greater good. It just happens to be a different, incompatible greater good each time.",
-      "zhMarkdown": "在过去的几年里，我们很多人都注意到，保护自由探索的习俗已经被削弱了。有人说我们反应过度——这些习俗并没有被削弱多少，或者这种削弱是为了追求更伟大的善。后者我可以立即予以驳斥。当守旧者占了上风，他们总是会说这是为了更伟大的善。只不过每次碰巧都是不同的、互不兼容的“善”罢了。"
+      "sourceHash": "e70d010542bc13880ea622a711914a80d41546702cfb297072a50fd1be44a474",
+      "enMarkdown": "In the last few years, many of us have noticed that the customs protecting free inquiry have been weakened. Some say we're overreacting — that they haven't been weakened very much, or that they've been weakened in the service of a greater good. The latter I'll dispose of immediately. When the conventional-minded get the upper hand, they always say it's in the service of a greater good. It just happens to be a different, incompatible greater good each time.",
+      "zhMarkdown": "在过去几年里，我们当中的许多人都注意到，保护自由探索的传统机制正在被削弱。有人说我们反应过度了——说这些机制并没有被削弱多少，或者说削弱它们是为了某种更崇高的利益。对于后者，我可以立刻驳倒。当循规蹈矩者占了上风时，他们总是声称这是为了某种更崇高的利益。只不过每一次，这种利益都各不相同，且互不相容。"
     },
     {
       "id": 18,
@@ -166,9 +166,9 @@
     {
       "id": 23,
       "type": "paragraph",
-      "sourceHash": "3a392e74b588c77fe544a8cfd2972cc0442d6d8369330014f3d979a1410dabb3",
-      "enMarkdown": "In the past, the way the independent-minded protected themselves was to congregate in a handful of places � first in courts, and later in universities � where they could to some extent make their own rules. Places where people work with ideas tend to have customs protecting free inquiry, for the same reason wafer fabs have powerful air filters, or recording studios good sound insulation. For the last couple centuries at least, when the aggressively conventional-minded were on the rampage for whatever reason, universities were the safest places to be.",
-      "zhMarkdown": "过去，独立思考者保护自己的方式是聚集在少数几个地方——起初是宫廷，后来是大学——在那里他们可以在一定程度上制定自己的规矩。与思想打交道的地方往往有保护自由探索的习俗，这与芯片制造厂安装强力空气过滤器、录音棚做好隔音效果是同一个道理。至少在过去的几个世纪里，每当主动守旧者因为某种原因发起围剿时，大学都是最安全避难所。"
+      "sourceHash": "7533c32d6e9d58bf3fcafc7503779c641c9e6dde5443ef5b73f51a9862f71c85",
+      "enMarkdown": "In the past, the way the independent-minded protected themselves was to congregate in a handful of places — first in courts, and later in universities — where they could to some extent make their own rules. Places where people work with ideas tend to have customs protecting free inquiry, for the same reason wafer fabs have powerful air filters, or recording studios good sound insulation. For the last couple centuries at least, when the aggressively conventional-minded were on the rampage for whatever reason, universities were the safest places to be.",
+      "zhMarkdown": "在过去，独立思考者保护自己的方式，是聚集在少数几个地方——起初是宫廷，后来是大学——在那些地方，他们某种程度上可以自己定规矩。与思想打交道的地方往往有保护自由探索的传统，其原因正如晶圆厂要有强力空气过滤系统、录音棚要有良好隔音设施一样。至少在过去的几个世纪里，每当激进的循规蹈矩者出于某种原因横行肆虐时，大学总是最安全的地方。"
     },
     {
       "id": 24,
@@ -236,9 +236,9 @@
     {
       "id": 33,
       "type": "paragraph",
-      "sourceHash": "f7c5ad1441a2e622493d04b1afff90536e4a249ae4a963d29e98aca478b9136c",
-      "enMarkdown": "[5] Many professors are independent-minded � especially in math, the hard sciences, and engineering, where you have to be to succeed. But students are more representative of the general population, and thus mostly conventional-minded. So when professors and students are in conflict, it's not just a conflict between generations but also between different types of people.",
-      "zhMarkdown": "[5] 许多教授都是独立思考的——特别是在数学、硬科学和工程领域，要在这些领域取得成功，你必须如此。但学生更能代表普通大众，因此大多数人都是守旧的。所以，当教授和学生发生冲突时，这不仅是代际冲突，更是不同类型人之间的冲突。"
+      "sourceHash": "b8b55444530280d778470b6e7dbef849699e830fa6289b3564b25160d764a050",
+      "enMarkdown": "[5] Many professors are independent-minded — especially in math, the hard sciences, and engineering, where you have to be to succeed. But students are more representative of the general population, and thus mostly conventional-minded. So when professors and students are in conflict, it's not just a conflict between generations but also between different types of people.",
+      "zhMarkdown": "[5] 许多教授都具有独立思考的特质——尤其是在数学、硬科学和工程学领域，要想取得成功就必须如此。但学生群体更接近于普通大众，因此大多是循规蹈矩的。所以，当教授和学生发生冲突时，这不仅是两代人之间的冲突，更是两类截然不同的人之间的冲突。"
     },
     {
       "id": 34,

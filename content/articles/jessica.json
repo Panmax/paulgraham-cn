@@ -4,10 +4,10 @@
   "titleZh": "杰西卡·利文斯顿 (Jessica Livingston)",
   "dateText": "November 2015",
   "publishedAt": "2015-11-01",
-  "sourceOrder": 62,
+  "sourceOrder": 64,
   "sourceUrl": "https://paulgraham.com/jessica.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -28,7 +28,7 @@
       "type": "paragraph",
       "sourceHash": "b274caa75252c1b2596275b1e7f0aa48540a70826293b52560c632f04b55b662",
       "enMarkdown": "Jessica and I were already dating when we started YC. At first we tried to act \"professional\" about this, meaning we tried to conceal it. In retrospect that seems ridiculous, and we soon dropped the pretense. And the fact that Jessica and I were a couple is a big part of what made YC what it was. YC felt like a family. The founders early on were mostly young. We all had dinner together once a week, cooked for the first couple years by me. Our first building had been a private home. The overall atmosphere was shockingly different from a VC's office on Sand Hill Road, in a way that was entirely for the better. There was an authenticity that everyone who walked in could sense. And that didn't just mean that people trusted us. It was the perfect quality to instill in startups. Authenticity is one of the most important things YC looks for in founders, not just because fakers and opportunists are annoying, but because authenticity is one of the main things that separates the most successful startups from the rest.",
-      "zhMarkdown": "我们创办 YC 时，杰西卡和我就已经在约会了。起初，我们还想表现得“专业”一些，也就是说，试图隐瞒这段关系。现在回想起来，这简直荒谬，我们很快就卸下了这层伪装。而杰西卡和我是情侣这一事实，在很大程度上塑造了 YC 的独特气质。YC 感觉就像一个大家庭。早期的创始人大多很年轻。我们每周一起吃一次晚饭，头两年都是由我来下厨。我们的第一栋办公楼其实是一处民宅。这里的整体氛围与沙丘路（Sand Hill Road）上那些风险投资公司的办公室有着天壤之别，而且完全是往好的方向发展。每一个走进来的人，都能感受到一种真诚。这不仅意味着人们信任我们，更是向创业公司灌输的完美品质。真诚是 YC 在创始人身上寻找的最重要的品质之一，这不仅是因为装腔作势者和投机分子令人厌恶，更因为真诚是区分最成功的创业公司与其他平庸公司的核心要素之一。"
+      "zhMarkdown": "我们创办 YC 时，我和 Jessica 就已经在交往了。起初我们还想表现得“专业”一点，也就是说，我们试图隐瞒这段关系。现在回想起来，这显得十分荒谬，我们很快就放下了伪装。而我和 Jessica 是情侣这一事实，在很大程度上造就了 YC 后来的模样。YC 感觉就像一个家庭。早期的创始人大多很年轻。我们每周大家一起吃一次晚饭，头几年都是由我来掌勺。我们的第一处办公地点曾是一栋民宅。这里的整体氛围与沙丘路上的风投办公室有着天壤之别，而且全然是变得更好。每个走进来的人都能感受到一种真诚。这不仅意味着人们信任我们，它也是传递给创业公司的绝佳品质。真诚是 YC 在创始人身上寻找的最重要特质之一，不仅因为弄虚作假者和投机分子令人厌烦，更因为真诚正是将最成功的创业公司与其他公司区分开来的关键所在。"
     },
     {
       "id": 4,

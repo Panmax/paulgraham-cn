@@ -4,10 +4,10 @@
   "titleZh": "更优的贝叶斯过滤",
   "dateText": "January 2003",
   "publishedAt": "2003-01-01",
-  "sourceOrder": 209,
+  "sourceOrder": 211,
   "sourceUrl": "https://paulgraham.com/better.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -181,7 +181,7 @@
       "type": "paragraph",
       "sourceHash": "7ac8e970a9a842d802929831764c252e04260eb2c7a3d871d425f3c0392b5089",
       "enMarkdown": "One solution to this is what I call degeneration. If you can't find an exact match for a token, treat it as if it were a less specific version. I consider terminal exclamation points, uppercase letters, and occurring in one of the five marked contexts as making a token more specific. For example, if I don't find a probability for ``Subject*free!'', I look for probabilities for ``Subject*free'', ``free!'', and ``free'', and take whichever one is farthest from .5.",
-      "zhMarkdown": "解决这个问题的一种方法是我称之为“退化（degeneration）”的机制。如果你找不到某个标记的精确匹配，就把它当作一个不那么具体的版本来处理。我将末尾的感叹号、大写字母以及出现在五个特定上下文中的标记视为更具体的特征。例如，如果我找不到 “Subject*free!” 的概率，我就会去寻找 “Subject*free”、“free!” 和 “free” 的概率，并采用其中最偏离 0.5 的那一个。"
+      "zhMarkdown": "解决这个问题的一种办法，我称之为退化（degeneration）。如果找不到某个词元的精确匹配，就把它当作一个不那么具体的版本来处理。我认为末尾的感叹号、大写字母以及出现在上述五种特殊语境中，都会使一个词元变得更具体。例如，如果我查不到“Subject*free!”的概率，就会去查“Subject*free”、“free!”和“free”的概率，并取其中离 0.5 最远的那一个。"
     },
     {
       "id": 26,
@@ -551,7 +551,7 @@
       "type": "paragraph",
       "sourceHash": "380204a137caf25a53aaf151a1d4074882891985ea629220287cd6fa4cf4130a",
       "enMarkdown": "[7] There is a flaw here I should probably fix. Currently, when ``Subject*foo'' degenerates to just ``foo'', what that means is you're getting the stats for occurrences of ``foo'' in the body or header lines other than those I mark. What I should do is keep track of statistics for ``foo'' overall as well as specific versions, and degenerate from ``Subject*foo'' not to ``foo'' but to ``Anywhere*foo''. Ditto for case: I should degenerate from uppercase to any-case, not lowercase.",
-      "zhMarkdown": "[7] 这里有一个我应该修复的缺陷。目前，当 “Subject*foo” 退化为仅有 “foo” 时，这意味着你得到的是 “foo” 在正文或除我标记的那些之外的邮件头行中出现的统计数据。我应该做的是记录 “foo” 整体以及特定版本的统计数据，并从 “Subject*foo” 退化为 “Anywhere*foo” 而不是 “foo”。大小写也是如此：我应该从大写退化为任意大小写，而不是小写。"
+      "zhMarkdown": "[7] 这里有一个缺陷，我大概应该修复一下。目前，当“Subject*foo”退化为单纯的“foo”时，意味着你得到的其实是“foo”在正文或我所标记之外的信头中出现的统计数据。我真正应该做的，是既记录特定版本的统计数据，也记录“foo”整体的统计数据，并且让“Subject*foo”退化为“Anywhere*foo”，而不是“foo”。大小写也是同理：我应该从大写退化为任意大小写，而不是退化为小写。"
     },
     {
       "id": 79,

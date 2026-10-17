@@ -4,10 +4,10 @@
   "titleZh": "创造新事物的六个原则",
   "dateText": "February 2008",
   "publishedAt": "2008-02-01",
-  "sourceOrder": 144,
+  "sourceOrder": 146,
   "sourceUrl": "https://paulgraham.com/newthings.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -35,7 +35,7 @@
       "type": "paragraph",
       "sourceHash": "f72d8a8ba7a17c0a9132947663af278d0e8d829a9cc063434026c1694c6c1742",
       "enMarkdown": "When we launched Viaweb, it seemed laughable to VCs and e-commerce \"experts.\" We were just a couple guys in an apartment, which did not seem cool in 1995 the way it does now. And the thing we'd built, as far as they could tell, wasn't even software. Software, to them, equalled big, honking Windows apps. Since Viaweb was the first web-based app they'd seen, it seemed to be nothing more than a website. They were even more contemptuous when they discovered that Viaweb didn't process credit card transactions (we didn't for the whole first year). Transaction processing seemed to them what e-commerce was all about. It sounded serious and difficult.",
-      "zhMarkdown": "我们刚推出 Viaweb 时，风险投资人和电子商务“专家”都觉得它是个笑话。我们只是蜗居在公寓里的几个人，在 1995 年，这可不像现在这样酷。而且在我们做出的东西里，据他们所知，甚至都称不上是软件。在他们眼里，软件就等于庞大、笨重的 Windows 应用程序。因为 Viaweb 是他们见过的第一个基于 Web 的应用，所以看起来无非就是一个网站。当他们发现 Viaweb 甚至不处理信用卡交易时（第一年我们确实没做），就更瞧不起它了。在他们看来，交易处理才是电子商务的核心，听起来又严肃又困难。"
+      "zhMarkdown": "当我们推出 Viaweb 时，风投和电子商务“专家”觉得它可笑至极。我们不过是窝在公寓里的两个人，这在 1995 年可不像今天看起来那么酷。而且我们做出来的东西，在他们看来甚至连软件都算不上。对他们来说，软件就等同于庞大笨重的 Windows 应用程序。由于 Viaweb 是他们见过的第一个基于 Web 的应用，在他们眼里不过就是个网站而已。当他们发现 Viaweb 根本不处理信用卡交易时（整整第一年我们都没做这个），态度就更加轻蔑了。在他们看来，交易处理才是电子商务的核心所在。那听起来既严肃又困难。"
     },
     {
       "id": 6,

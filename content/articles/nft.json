@@ -4,10 +4,10 @@
   "titleZh": "一个拯救生命的 NFT",
   "dateText": "May 2021",
   "publishedAt": "2021-05-01",
-  "sourceOrder": 32,
+  "sourceOrder": 34,
   "sourceUrl": "https://paulgraham.com/nft.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -26,9 +26,9 @@
     {
       "id": 3,
       "type": "paragraph",
-      "sourceHash": "4a268bc87461c4af82dd13b0edd3c24bb02d939c06822c018e4543c02d575581",
-      "enMarkdown": "This number comes from a [study](http://bit.ly/NFT-research) of 133,733 families at 28 different hospitals that Noora conducted in collaboration with the Better Birth team at Ariadne Labs, a joint center for health systems innovation at Brigham and Women�s Hospital and Harvard T.H. Chan School of Public Health.",
-      "zhMarkdown": "这一数据源自一项针对 133,733 个家庭、覆盖 28 家不同医院的[研究](http://bit.ly/NFT-research)。该研究由 Noora 与 Ariadne Labs 的 Better Birth 团队合作完成。Ariadne Labs 是布莱根妇女医院与哈佛大学 T.H. Chan 公共卫生学院共同创立的医疗系统创新中心。"
+      "sourceHash": "3c97629c5a84a2ff3ce19594dbc07e1e6ee6d50762e345b68bd6f6275ab78eaf",
+      "enMarkdown": "This number comes from a [study](http://bit.ly/NFT-research) of 133,733 families at 28 different hospitals that Noora conducted in collaboration with the Better Birth team at Ariadne Labs, a joint center for health systems innovation at Brigham and Women’s Hospital and Harvard T.H. Chan School of Public Health.",
+      "zhMarkdown": "这个数据来自一项涵盖 28 家不同医院、133,733 个家庭的[研究](http://bit.ly/NFT-research)。该研究由 Noora 与 Ariadne Labs 的 Better Birth 团队合作开展，后者是布莱根妇女医院（Brigham and Women’s Hospital）与哈佛大学陈曾熙公共卫生学院（Harvard T.H. Chan School of Public Health）联合设立的医疗系统创新中心。"
     },
     {
       "id": 4,

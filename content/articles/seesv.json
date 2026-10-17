@@ -4,10 +4,10 @@
   "titleZh": "硅谷观光指南",
   "dateText": "October 2010",
   "publishedAt": "2010-10-01",
-  "sourceOrder": 101,
+  "sourceOrder": 103,
   "sourceUrl": "https://paulgraham.com/seesv.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -91,7 +91,7 @@
       "type": "paragraph",
       "sourceHash": "f13408da65c8a182c0abe419a2b3f8b466ff17f9955837989a44f76e0d70c869",
       "enMarkdown": "It's interesting to see the VCs' offices on the north side of Sand Hill Road precisely because they're so boringly uniform. The buildings are all more or less the same, their exteriors express very little, and they are arranged in a confusing maze. (I've been visiting them for years and I still occasionally get lost.) It's not a coincidence. These buildings are a pretty accurate reflection of the VC business.",
-      "zhMarkdown": "去看看沙丘路北侧的风险投资机构办公室是件很有意思的事，恰恰因为它们单调得如此千篇一律。这些建筑大同小异，外表几乎看不出什么特色，而且排列得像个让人晕头转向的迷宫（我去了好多年，偶尔还是会迷路）。这并非巧合，这些建筑非常准确地反映了风险投资这个行业的本质。"
+      "zhMarkdown": "沙丘路北侧的风投办公室很有看头，恰恰是因为它们无趣得千篇一律。这里的建筑大同小异，外观毫无个性，而且布局宛如让人摸不着头脑的迷宫。（我跑了这么多年，偶尔还是会迷路。）这绝非巧合。这些建筑相当精准地折射出了风投这一行。"
     },
     {
       "id": 13,

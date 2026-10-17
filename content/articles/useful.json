@@ -4,10 +4,10 @@
   "titleZh": "如何写出有用的文章",
   "dateText": "February 2020",
   "publishedAt": "2020-02-01",
-  "sourceOrder": 47,
+  "sourceOrder": 49,
   "sourceUrl": "https://paulgraham.com/useful.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -124,9 +124,9 @@
     {
       "id": 17,
       "type": "paragraph",
-      "sourceHash": "2689b219c3087b5c52059e84db1c327e1631d8347b24e539f6daf0cbd170ebb7",
-      "enMarkdown": "I've never tried to count how many times I proofread essays, but I'm sure there are sentences I've read 100 times before publishing them. When I proofread an essay, there are usually passages that stick out in an annoying way, sometimes because they're clumsily written, and sometimes because I'm not sure they're true. The annoyance starts out unconscious, but after the tenth reading or so I'm saying \"Ugh, that part\" each time I hit it. They become like briars that catch your sleeve as you walk past. Usually I won't publish an essay till they're all gone � till I can read through the whole thing without the feeling of anything catching.",
-      "zhMarkdown": "我从未试过统计自己校对一篇文章多少次，但我敢肯定，有些句子在发表前我读过 100 遍。每当我校对一篇文章时，总会有一些段落显得格外扎眼、令人恼火，有时是因为写得太笨拙，有时是因为我不确定它们是否正确。这种反感起初是无意识的，但读到第十遍左右时，每次看到那里我都会在心里说“呃，又是这部分”。它们就像路边的荆棘，你走过去就会勾住你的袖子。通常，在把这些荆棘全部拔除之前——直到我能顺畅地读完通篇而没有任何被勾挂的感觉——我是不会发表这篇文章的。"
+      "sourceHash": "03998fe065e0d42abb8031476bb0d5a6f5954fd50f8040440ca9da86f347dccc",
+      "enMarkdown": "I've never tried to count how many times I proofread essays, but I'm sure there are sentences I've read 100 times before publishing them. When I proofread an essay, there are usually passages that stick out in an annoying way, sometimes because they're clumsily written, and sometimes because I'm not sure they're true. The annoyance starts out unconscious, but after the tenth reading or so I'm saying \"Ugh, that part\" each time I hit it. They become like briars that catch your sleeve as you walk past. Usually I won't publish an essay till they're all gone — till I can read through the whole thing without the feeling of anything catching.",
+      "zhMarkdown": "我从没算过自己校对文章要读多少遍，但我敢肯定，有些句子在发表前我读过上百遍。校对时，总有些地方会扎眼得让人心烦，有时是因为写得笨拙，有时是因为我拿不准那到底对不对。这种心烦起初还是无意识的，但读到第十遍左右，每次看到那里我都会想：“唉，又是这段。”它们就像路旁的荆棘，你走过时总会扯住你的衣袖。通常，只有把它们全都清理干净——直到我通读全文时感觉不到任何挂碍——我才会将文章发表出去。"
     },
     {
       "id": 18,

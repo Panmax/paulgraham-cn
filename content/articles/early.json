@@ -4,10 +4,10 @@
   "titleZh": "早期作品",
   "dateText": "October 2020",
   "publishedAt": "2020-10-01",
-  "sourceOrder": 42,
+  "sourceOrder": 44,
   "sourceUrl": "https://paulgraham.com/early.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -54,9 +54,9 @@
     {
       "id": 7,
       "type": "paragraph",
-      "sourceHash": "9a00f0dae273f3a35ee9525e7e0c7907afb9f01f56c1e11e83f08375ac5dc243",
-      "enMarkdown": "The right way to deal with new ideas is to treat them as a challenge to your imagination � not just to have lower standards, but to [switch polarity](https://paulgraham.com/altair.html) entirely, from listing the reasons an idea won't work to trying to think of ways it could. That's what I do when I meet people with new ideas. I've become quite good at it, but I've had a lot of practice. Being a partner at Y Combinator means being practically immersed in strange-sounding ideas proposed by unknown people. Every six months you get thousands of new ones thrown at you and have to sort through them, knowing that in a world with a power-law distribution of outcomes, it will be painfully obvious if you miss the needle in this haystack. Optimism becomes urgent.",
-      "zhMarkdown": "对待新想法的正确方式，是将其视为对你想象力的挑战——不仅要放低标准，更要彻底[转变思维极性](https://paulgraham.com/altair.html)，从列举一个想法为什么行不通，转变为努力寻找能让它行得通的方法。这就是我遇到带着新想法的人时的做法。我已经很擅长这一点了，但这也是大量实践的结果。作为 Y Combinator 的合伙人，意味着你实际上要整天浸泡在无名之辈提出的各种奇思妙想中。每六个月，就会有几千个新想法砸向你，你必须从中筛选。而且你很清楚，在这个结果呈幂律分布的世界里，如果你漏掉了大海里的这根针，代价将是极其惨痛且显而易见的。这时候，保持乐观就成了一种迫切的需要。"
+      "sourceHash": "17f545afd349a1ffadd64313253804b604ce0e194ee3d9cfa2ac3c76f8103dc2",
+      "enMarkdown": "The right way to deal with new ideas is to treat them as a challenge to your imagination — not just to have lower standards, but to [switch polarity](https://paulgraham.com/altair.html) entirely, from listing the reasons an idea won't work to trying to think of ways it could. That's what I do when I meet people with new ideas. I've become quite good at it, but I've had a lot of practice. Being a partner at Y Combinator means being practically immersed in strange-sounding ideas proposed by unknown people. Every six months you get thousands of new ones thrown at you and have to sort through them, knowing that in a world with a power-law distribution of outcomes, it will be painfully obvious if you miss the needle in this haystack. Optimism becomes urgent.",
+      "zhMarkdown": "对待新想法的正确方式，是把它当成对你想象力的挑战——不仅要放低标准，更要彻底[调转极性](https://paulgraham.com/altair.html)：从罗列一个想法为什么行不通，转变为努力去想它怎样才能行得通。这就是我遇到带着新想法的人时所做的事。我现在已经相当擅长此道，但我也是经过了大量练习的。作为 Y Combinator 的合伙人，意味着你几乎整天浸泡在无名之辈提出的稀奇古怪的想法里。每六个月就会有几千个新想法砸向你，你必须逐一筛选；而且你知道，在结果遵循幂律分布的世界里，要是漏掉了干草垛里的那根绣花针，代价将是惨痛而明显的。乐观就成了一种迫切的必需品。"
     },
     {
       "id": 8,
@@ -133,7 +133,7 @@
       "type": "paragraph",
       "sourceHash": "48fdb75ce80d40e2f09fe1678583fb92f7753c73668f1a2d2cdbc6ef23bdd3b2",
       "enMarkdown": "People have already discovered several techniques that work. Hardy mentions two in *A Mathematician's Apology*:",
-      "zhMarkdown": "人们已经发现了几种行之有效的技巧。哈代在《一个数学家的辩白》中提到了两种："
+      "zhMarkdown": "人们已经摸索出了几种管用的技巧。哈代在《一个数学家的辩白》（*A Mathematician's Apology*）中提到了两种："
     },
     {
       "id": 19,
@@ -166,9 +166,9 @@
     {
       "id": 23,
       "type": "paragraph",
-      "sourceHash": "948a20d10d0eaae94d052b56f435bcd04bde2e0afa3cf7d4b4afd115c911c8f3",
-      "enMarkdown": "Another way to get through the lame phase of ambitious projects is to surround yourself with the right people � to create an eddy in the social headwind. But it's not enough to collect people who are always encouraging. You'd learn to discount that. You need colleagues who can actually tell an ugly duckling from a baby swan. The people best able to do this are those working on similar projects of their own, which is why university departments and research labs work so well. You don't need institutions to collect colleagues. They naturally coalesce, given the chance. But it's very much worth accelerating this process by seeking out other people trying to do new things.",
-      "zhMarkdown": "度过雄心勃勃项目的“差劲期”的另一种方法，是让自己置身于对的人群中——在社交阻风中创造一个避风的漩涡。但仅仅聚拢一群只会一味鼓励你的人是不够的。你会慢慢对这种廉价的鼓励不以为意。你需要的是真正能分清丑小鸭和天鹅幼崽的同行。最能做到这一点的人，是那些自己也在折腾类似项目的人，这也是为什么大学科系和研究实验室能发挥巨大作用。你不需要依靠机构来聚集同行。只要有机会，他们自然会凝聚在一起。但主动去寻找其他尝试创造新事物的人，从而加速这一过程，是非常值得的。"
+      "sourceHash": "361248f787b8ba68dabb30929f92875367d82c1c9990627c5bcc26f2e7f1d5b6",
+      "enMarkdown": "Another way to get through the lame phase of ambitious projects is to surround yourself with the right people — to create an eddy in the social headwind. But it's not enough to collect people who are always encouraging. You'd learn to discount that. You need colleagues who can actually tell an ugly duckling from a baby swan. The people best able to do this are those working on similar projects of their own, which is why university departments and research labs work so well. You don't need institutions to collect colleagues. They naturally coalesce, given the chance. But it's very much worth accelerating this process by seeking out other people trying to do new things.",
+      "zhMarkdown": "度过雄心勃勃的项目那段蹩脚阶段的另一个办法，是让自己被合适的人包围——在社会的逆风中造出一块顺风的漩涡。但光是聚集一群永远只说好话的人是不够的，你很快就会对这种鼓励打折扣。你需要的是真正能分辨出丑小鸭和小天鹅的同行。最擅长做这件事的，是那些自己也在做类似项目的人，这也是大学院系和研究所运转得如此出色的原因。你并不需要依靠机构才能聚齐同行；只要有机会，他们自然会凝聚在一起。但主动去结识其他同样在尝试做新事物的人，加速这个聚合的过程，是非常值得的。"
     },
     {
       "id": 24,
@@ -285,9 +285,9 @@
     {
       "id": 40,
       "type": "quote",
-      "sourceHash": "f47a0c73f2a1999ed0de82cc84f5e800581b4a1f022e4b36843eea6eea539246",
-      "enMarkdown": "> I think there may be something related to being a hack that can be powerful � the idea of making the tenuousness and implausibility *a feature*. \"Yes, it's a bit ridiculous, right? I'm just trying to see how far such a naive approach can get.\" YC seemed to me to have this characteristic.",
-      "zhMarkdown": "> 我觉得把事情当成恶作剧（hack）来做，其中有一种强大的力量——也就是说，把不靠谱和不可信直接当作*一个卖点*。“没错，这确实有点荒谬，对吧？我只是想看看这么天真的方法能走多远。”在我看来，YC 早期就带有这种特征。"
+      "sourceHash": "1e2b8deb127d78b28b66c2cc49395585e9f4a4d42df60dd5816c30e62a8d66ba",
+      "enMarkdown": "> I think there may be something related to being a hack that can be powerful — the idea of making the tenuousness and implausibility *a feature*. \"Yes, it's a bit ridiculous, right? I'm just trying to see how far such a naive approach can get.\" YC seemed to me to have this characteristic.",
+      "zhMarkdown": "> 我觉得把某件事当成 hack，可能还有一种强大的力量——那就是把那种单薄和不可信*变成一种特质*。「对啊，是有点荒唐，对吧？我只是想看看这么天真的做法到底能走多远。」在我看来，YC 就带有这种特质。"
     },
     {
       "id": 41,

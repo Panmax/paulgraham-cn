@@ -4,10 +4,10 @@
   "titleZh": "Airbnb 创始人们",
   "dateText": "December 2020",
   "publishedAt": "2020-12-01",
-  "sourceOrder": 40,
+  "sourceOrder": 42,
   "sourceUrl": "https://paulgraham.com/airbnbs.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -49,7 +49,7 @@
       "type": "paragraph",
       "sourceHash": "d526ab5f4719836f1db3dd5da3402319c2cb252a0023a034fde95fecf14f78db",
       "enMarkdown": "Any normal person would have given up already. They'd been funding the company with credit cards. They had a *binder* full of credit cards they'd maxed out. Investors didn't think much of the idea. One investor they met in a cafe walked out in the middle of meeting with them. They thought he was going to the bathroom, but he never came back. \"He didn't even finish his smoothie,\" Brian said. And now, in late 2008, it was the worst recession in decades. The stock market was in free fall and wouldn't hit bottom for another four months.",
-      "zhMarkdown": "任何一个正常人恐怕早就放弃了。他们当时一直靠信用卡给公司输血，甚至有一整本刷爆了的信用卡。投资人对这个点子不屑一顾。他们曾在一家咖啡馆和一位投资人见面，对方聊到一半直接走了。他们以为对方去上厕所，结果再也没回来。“他甚至连冰沙都没喝完，”Brian 说。而且在 2008 年底，正值几十年来最严重的经济衰退，股市一路狂跌，直到四个月后才触底。"
+      "zhMarkdown": "换作任何正常人，恐怕早就放弃了。他们一直靠刷信用卡维持公司运转，手里有一整*活页夹*刷爆了的信用卡。投资人也根本看不上这个点子。他们在咖啡馆见了一位投资人，聊到一半对方就直接离席了。他们还以为他是去洗手间，结果人再也没回来。“他甚至连冰沙都没喝完，”布莱恩说。更何况当时是2008年底，正值几十年来最严重的经济衰退，股市在一路狂跌，还要再过四个月才会触底。"
     },
     {
       "id": 7,

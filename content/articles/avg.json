@@ -4,10 +4,10 @@
   "titleZh": "击败均值",
   "dateText": "April 2001",
   "publishedAt": "2001-04-01",
-  "sourceOrder": 223,
+  "sourceOrder": 225,
   "sourceUrl": "https://paulgraham.com/avg.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -182,7 +182,7 @@
       "type": "paragraph",
       "sourceHash": "d0e3d7a5dcad7316b12c40ac56df079da61afb8e664b6a499b5b3887ccb6a835",
       "enMarkdown": "When I was about nine I happened to get hold of a copy of *The Day\nof the Jackal,* by Frederick Forsyth. The main character is an assassin who is hired to kill the president of France. The assassin has to get past the police to get up to an apartment that overlooks the president's route. He walks right by them, dressed up as an old man on crutches, and they never suspect him.",
-      "zhMarkdown": "在我大约九岁的时候，偶然读到了弗雷德里克·福赛斯（Frederick Forsyth）写的《豺狼的日子》。主角是一个被雇来刺杀法国总统的杀手。杀手必须避开警察，进入一间能俯瞰总统必经之路的公寓。他拄着拐杖，伪装成一个老头，直接从警察身边走过，而他们从未怀疑过他。"
+      "zhMarkdown": "我大约九岁的时候，偶然读到了弗雷德里克·福赛思（Frederick Forsyth）的*《豺狼之日》*。书中的主角是一名受雇刺杀法国总统的杀手。为了进入一间能俯瞰总统行进路线的公寓，他必须穿过警方的盘查。他把自己伪装成一个拄着拐杖的老人，径直从警察身边走了过去，警察对他毫无怀疑。"
     },
     {
       "id": 26,

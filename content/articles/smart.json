@@ -4,10 +4,10 @@
   "titleZh": "超越聪明",
   "dateText": "October 2021",
   "publishedAt": "2021-10-01",
-  "sourceOrder": 26,
+  "sourceOrder": 28,
   "sourceUrl": "https://paulgraham.com/smart.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "2622f8f46bfbac7c8ce785de66862a780a1af5b7c85581678ca049d54c67bfee",
       "enMarkdown": "That means the truth is excitingly different from the story I got as a kid. If intelligence is what matters, and also mostly inborn, the natural consequence is a sort of *Brave New World* fatalism. The best you can do is figure out what sort of work you have an \"aptitude\" for, so that whatever intelligence you were born with will at least be put to the best use, and then work as hard as you can at it. Whereas if intelligence isn't what matters, but only one of several ingredients in what does, and many of those aren't inborn, things get more interesting. You have a lot more control, but the problem of how to arrange your life becomes that much more complicated.",
-      "zhMarkdown": "这意味着，事实与我小时候听到的故事有着令人兴奋的差异。如果智力是唯一重要的东西，而且又大体上是天生的，那么自然而然就会导向一种类似《美丽新世界》式的宿命论。你唯一能做的就是找出自己对什么工作有“天赋”，从而让你天生的智力至少能发挥出最大的用处，然后尽可能努力地去工作。相反，如果智力不是唯一重要的东西，而只是众多要素之一，且其中许多要素并非天生，事情就变得有趣多了。你拥有了多得多的控制权，但如何安排自己人生的这一问题也随之变得复杂得多。"
+      "zhMarkdown": "这意味着，真相与我小时候听到的说法大相径庭，而且令人振奋。如果智力才是关键，而且大部分靠天生，那么必然的结果就是一种*《美丽新世界》*式的宿命论。你充其量只能弄清自己对哪类工作有“天分”，好让你生来具备的智力至少能物尽其用，然后竭尽全力去做。但如果智力并不是最关键的，而只是真正重要的诸多要素之一，且其中很多要素并非天生，事情就变得有意思多了。你能掌控的事情多得多，但如何安排自己人生的课题，也因此变得复杂得多。"
     },
     {
       "id": 9,

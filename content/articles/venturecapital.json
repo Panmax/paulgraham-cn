@@ -4,24 +4,24 @@
   "titleZh": "风险投资为什么这么烂：一个统一理论",
   "dateText": "March 2005",
   "publishedAt": "2005-03-01",
-  "sourceOrder": 189,
+  "sourceOrder": 191,
   "sourceUrl": "https://paulgraham.com/venturecapital.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "a561801b70ecfaa6d25266c44805959c15d6409c9faa3ddf1da8e3d1cd576cb2",
       "enMarkdown": "A couple months ago I got an email from a recruiter asking if I was interested in being a \"technologist in residence\" at a new venture capital fund. I think the idea was to play Karl Rove to the VCs' George Bush.",
-      "zhMarkdown": "几个月前，我收到一封猎头的邮件，问我是否有兴趣在一家新成立的风险投资基金担任“驻店技术专家”。我想他们的意图是让我扮演卡尔·罗夫（Karl Rove）的角色，去辅佐那些扮演乔治·布什（George Bush）的风险投资人。"
+      "zhMarkdown": "几个月前，我收到一名猎头的邮件，问我是否有兴趣去一家新成立的风险投资基金担任“驻留技术专家”（technologist in residence）。我想他们的算盘大概是让我给风投当卡尔·罗夫（Karl Rove），去辅佐他们的乔治·布什。"
     },
     {
       "id": 2,
       "type": "paragraph",
       "sourceHash": "01f06ec42588728ade1822e29b581862f6ceae5ed4a25419c804f3fbf753d950",
       "enMarkdown": "I considered it for about four seconds. Work for a VC fund? Ick.",
-      "zhMarkdown": "我大概考虑了四秒钟。给风险投资基金打工？恶心。"
+      "zhMarkdown": "我考虑了大概四秒钟。去给风投基金打工？恶心。"
     },
     {
       "id": 3,
@@ -49,35 +49,35 @@
       "type": "paragraph",
       "sourceHash": "076ebe11c47494b42bb951ad9313df810008ca86aef3248bea375dde5f722a89",
       "enMarkdown": "The problem with VC funds is that they're *funds*. Like the managers of mutual funds or hedge funds, VCs get paid a percentage of the money they manage: about 2% a year in management fees, plus a percentage of the gains. So they want the fund to be huge-- hundreds of millions of dollars, if possible. But that means each partner ends up being responsible for investing a lot of money. And since one person can only manage so many deals, each deal has to be for multiple millions of dollars.",
-      "zhMarkdown": "风险投资基金的问题在于它们是“基金”。就像公募基金或对冲基金的经理一样，风险投资人拿的是他们管理的资金总额的比例：每年大约 2% 的管理费，外加一定比例的投资收益。所以他们希望基金规模越大越好——如果可能的话，最好是数亿美元。但这意味每个合伙人最终都要负责投出巨额资金。而既然一个人精力有限，能管的案子就那么多，那么每一个案子的投资额就必须达到数百万美元。"
+      "zhMarkdown": "风投基金的问题就在于它们是*基金*。就像共同基金或对冲基金的经理一样，风投按其管理的资金规模收取一定比例的报酬：每年大约2%的管理费，外加投资收益的分成。因此，他们希望基金规模越大越好——如果可能的话，最好达数亿美元。但这意味每个合伙人最终都得负责投出巨额资金。而既然一个人能管理的交易数量有限，那么每笔交易就必须高达数百万美元。"
     },
     {
       "id": 7,
       "type": "paragraph",
       "sourceHash": "4e94f9bd4f8e748839932d9bcd13a3ef0f2eaf91231b3e3eb414c795e671a6b6",
       "enMarkdown": "This turns out to explain nearly all the characteristics of VCs that founders hate.",
-      "zhMarkdown": "事实证明，这几乎能解释所有让创始人痛恨的风险投资人特征。"
+      "zhMarkdown": "事实证明，这几乎能解释所有让创始人深恶痛绝的风投特征。"
     },
     {
       "id": 8,
       "type": "paragraph",
       "sourceHash": "984ff8227ad8ee43d74443ca2934a8d814d16c7decefc1904a646e1974872b71",
       "enMarkdown": "It explains why VCs take so agonizingly long to make up their minds, and why their due diligence feels like a body cavity search. [2] With so much at stake, they have to be paranoid.",
-      "zhMarkdown": "它解释了为什么风险投资人做个决定要拖得让人痛苦万分，以及为什么他们的尽职调查感觉就像在做搜身检查。[2] 毕竟赌注太大了，他们不得不疑神疑鬼。"
+      "zhMarkdown": "这解释了为什么风投做决定会拖得让人痛不欲生，以及为什么他们的尽职调查感觉就像在搜身翻查体腔。[2] 赌注如此之大，他们不得不疑神疑鬼。"
     },
     {
       "id": 9,
       "type": "paragraph",
       "sourceHash": "ef03716088b73c5ec743f4dcf3fd86b9765a224155aa318f498210516653e995",
       "enMarkdown": "It explains why they steal your ideas. Every founder knows that VCs will tell your secrets to your competitors if they end up investing in them. It's not unheard of for VCs to meet you when they have no intention of funding you, just to pick your brain for a competitor. This prospect makes naive founders clumsily secretive. Experienced founders treat it as a cost of doing business. Either way it sucks. But again, the only reason VCs are so sneaky is the giant deals they do. With so much at stake, they have to be devious.",
-      "zhMarkdown": "它解释了为什么他们会偷你的创意。每个创始人都知道，如果风险投资人最终投资了你的竞争对手，他们就会把你的秘密透露给对方。甚至还听说过这样的事：风险投资人根本没打算投你，约你见面只是为了替你的竞争对手套取你的想法。这种前景让天真的创始人防备得笨手笨脚，而有经验的创始人则将其视为做生意的成本。但不管怎么说，这都很恶心。同样，风险投资人之所以如此鬼鬼祟祟，唯一原因就是他们做的交易金额太大了。由于利益攸关，他们不得不玩弄心计。"
+      "zhMarkdown": "这解释了为什么他们会偷你的点子。每个创始人都清楚，如果风投最终投资了你的竞争对手，他们就会把你的秘密透露给对方。风投明明压根没打算投你，却为了给竞争对手套话而约你见面的事，早已屡见不鲜。这种前景让天真的创始人笨拙地遮遮掩掩，而经验丰富的创始人则将其视作做生意的代价。无论哪种情况，都令人作呕。但话说回来，风投如此鬼祟的唯一原因，正是他们经手的交易规模太大了。赌注如此之大，他们不得不耍尽心机。"
     },
     {
       "id": 10,
       "type": "paragraph",
       "sourceHash": "b8461419c26bbec2eeafdbe5afeb9ee76032de15d00290313cfd1e7b2bbf6c85",
       "enMarkdown": "It explains why VCs tend to interfere in the companies they invest in. They want to be on your board not just so that they can advise you, but so that they can watch you. Often they even install a new CEO. Yes, he may have extensive business experience. But he's also their man: these newly installed CEOs always play something of the role of a political commissar in a Red Army unit. With so much at stake, VCs can't resist micromanaging you.",
-      "zhMarkdown": "它解释了为什么风险投资人总想插手他们投资的公司。他们想进你的董事会，不单是为了给你出谋划策，更是为了监视你。他们甚至经常安插一个新的 CEO。没错，这个人可能有着丰富的商业经验。但他也是他们的人：这些新安插的 CEO 扮演的角色，总有点像红军部队里的政治委员。因为输不起，风险投资人忍不住要对你进行微观管理。"
+      "zhMarkdown": "这解释了为什么风投总喜欢干涉自己投资的公司。他们想进你的董事会，不单是为了给你提建议，更是为了盯紧你。他们常常还会安插一位新CEO。没错，这个人可能有丰富的商业经验。但他也是他们的人：这些新安插的CEO总是在扮演红军部队里政治委员类似的角色。赌注如此之大，风投根本忍不住要去微观管理你。"
     },
     {
       "id": 11,
@@ -98,7 +98,7 @@
       "type": "paragraph",
       "sourceHash": "6b71190295866181e64295d86ed9252fb820542bc56a37aeb1c58c31c6a8ef7a",
       "enMarkdown": "And of course giant investments mean giant valuations. They have to, or there's not enough stock left to keep the founders interested. You might think a high valuation is a great thing. Many founders do. But you can't eat paper. You can't benefit from a high valuation unless you can somehow achieve what those in the business  call a \"liquidity event,\" and the higher your valuation, the narrower your options for doing that. Many a founder would be happy to sell his company for $15 million, but VCs who've just invested at a pre-money valuation of $8 million won't hear of that. You're rolling the dice again, whether you like it or not.",
-      "zhMarkdown": "当然，巨额投资意味着巨额估值。必须如此，否则就没有足够的股份留给创始人来保持他们的积极性。你可能觉得高估值是一件大好事。许多创始人也这么想。但纸面财富不能当饭吃。除非你能实现业内所说的“套现事件”（liquidity event），否则你无法从高估值中获益。而你的估值越高，实现这一目标的路径就越窄。许多创始人会很乐意以 1500 万美元的价格卖掉公司，但刚刚以 800 万美元投前估值投资的风险投资人绝不会同意。不管你喜不喜欢，你都得硬着头皮继续赌下去。"
+      "zhMarkdown": "而且巨额投资自然意味着高得惊人的估值。必须如此，否则剩下的股份就不够让创始人保持干劲了。你可能会觉得高估值是件大好事。许多创始人也这么想。但你不能靠吃纸生活。除非你能以某种方式实现业内所谓的“流动性事件”（变现），否则你根本无法从高估值中获益；而你的估值越高，变现的选择余地就越窄。不少创始人本会很乐意以1500万美元卖掉自己的公司，但刚刚以800万美元投前估值入局的风投绝不会答应。不管你喜不喜欢，你都得硬着头皮再掷一次骰子。"
     },
     {
       "id": 14,
@@ -133,21 +133,21 @@
       "type": "paragraph",
       "sourceHash": "0c5379c369e7e1876892fab5bed937d5cbf47f3a7e236ccb23eda9d6bf4a1daf",
       "enMarkdown": "Add up all the evidence of VCs' behavior, and the resulting personality is not attractive. In fact, it's the classic villain: alternately cowardly, greedy, sneaky, and overbearing.",
-      "zhMarkdown": "把风险投资人所有的行为迹象加在一起，勾勒出的性格实在不招人喜欢。事实上，这就是个经典的恶棍形象：时而胆怯，时而贪婪，时而鬼祟，时而专横。"
+      "zhMarkdown": "把风投的所有行为证据汇总起来，勾勒出的性格形象实在不敢恭维。事实上，那就是个经典的恶棍反派：时而胆小懦弱、时而贪得无厌、时而鬼鬼祟祟、时而飞扬跋扈。"
     },
     {
       "id": 19,
       "type": "paragraph",
       "sourceHash": "e873ca00310e2246b08fad284600f07c1758d37c1de013b7556002b051d67fb2",
       "enMarkdown": "I used to take it for granted that VCs were like this. Complaining that VCs were jerks used to seem as naive to me as complaining that users didn't read the reference manual. Of course VCs were jerks. How could it be otherwise?",
-      "zhMarkdown": "我过去觉得风险投资人这样是理所当然的。抱怨风险投资人是混蛋，在我看来就像抱怨用户不看参考手册一样天真。风险投资人当然是混蛋。不然还能怎样？"
+      "zhMarkdown": "我过去一度觉得风投就是这个样子，理所当然。抱怨风投是混蛋，曾让我觉得就像抱怨用户不读参考手册一样幼稚。风投当然是混蛋。不然还能怎样？"
     },
     {
       "id": 20,
       "type": "paragraph",
       "sourceHash": "457ba4a50f97a3a21a7e507068172d2e2de048494da04000a510ba90d1825cee",
       "enMarkdown": "But I realize now that they're not intrinsically jerks. VCs are like car salesmen or bureaucrats: the nature of their work turns them into jerks.",
-      "zhMarkdown": "但我现在意识到，他们本质上并不是混蛋。风险投资人就像汽车销售员或官僚一样：是他们的工作性质把他们变成了混蛋。"
+      "zhMarkdown": "但我现在意识到，他们并非生来就是混蛋。风投就像汽车销售员或官僚：是其工作的本质将他们变成了混蛋。"
     },
     {
       "id": 21,
@@ -161,7 +161,7 @@
       "type": "paragraph",
       "sourceHash": "4cef266bfa52ecea327e34f1a4dee9bc32c3996d05e61e1aaf07095337d33586",
       "enMarkdown": "VCs often complain that in their business there's too much money chasing too few deals. Few realize that this also describes a flaw in the way funding works at the level of individual firms.",
-      "zhMarkdown": "风险投资人经常抱怨，在他们的行业里，资金太多而好项目太少。很少有人意识到，这也描述了单个投资机构在资金运作方式上的缺陷。"
+      "zhMarkdown": "风投经常抱怨在这个行业里资金太多，好项目太少。却很少有人意识到，这句话同样描述了具体每家投资机构在运作机制上的缺陷。"
     },
     {
       "id": 23,

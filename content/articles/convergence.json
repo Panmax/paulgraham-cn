@@ -4,10 +4,10 @@
   "titleZh": "电视为什么输了",
   "dateText": "March 2009",
   "publishedAt": "2009-03-01",
-  "sourceOrder": 123,
+  "sourceOrder": 125,
   "sourceUrl": "https://paulgraham.com/convergence.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "0e103703f4626a38c297542f57d461a3598a381b48814fd0272282e31ee610bd",
       "enMarkdown": "A recent article in the *Wall Street Journal* described how TV networks were trying to add more live shows, partly as a way to make viewers watch TV synchronously instead of watching recorded shows when it suited them. Instead of delivering what viewers want, they're trying to force them to change their habits to suit the networks' obsolete business model. That never works unless you have a monopoly or cartel to enforce it, and even then it only works temporarily.",
-      "zhMarkdown": "《华尔街日报》最近的一篇文章描述了电视网如何试图增加更多直播节目，部分是为了强迫观众同步观看电视，而不是在合适的时候看录播节目。他们不是在提供观众想要的东西，而是试图强迫观众改变习惯，以适应电视网过时的商业模式。除非你拥有垄断地位或卡特尔来强制执行，否则这永远行不通，而且即使那样也只是权宜之计。"
+      "zhMarkdown": "最近*《华尔街日报》*的一篇文章提到，各大电视网正试图增加更多直播节目，部分原因就是为了让观众同步收看，而不是挑自己方便的时间看录播节目。他们不去提供观众真正想要的东西，反而试图强迫观众改变习惯，以迎合电视网过时的商业模式。除非你能靠垄断或卡特尔来强制推行，否则这种做法永远行不通；即便真能推行，也顶多奏效一时。"
     },
     {
       "id": 17,

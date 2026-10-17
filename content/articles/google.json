@@ -4,10 +4,10 @@
   "titleZh": "如何创办 Google",
   "dateText": "March 2024",
   "publishedAt": "2024-03-01",
-  "sourceOrder": 15,
+  "sourceOrder": 17,
   "sourceUrl": "https://paulgraham.com/google.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -28,7 +28,7 @@
       "type": "paragraph",
       "sourceHash": "770c2d4e3a4d32fc3059b0512ea8032eec875a779e4e177ffe834986f2fba019",
       "enMarkdown": "The trick is to start your own company. So it's not a trick for avoiding *work*, because if you start your own company you'll work harder than you would if you had an ordinary job. But you will avoid many of the annoying things that come with a job, including a boss telling you what to do.",
-      "zhMarkdown": "这个绝招就是创办自己的公司。所以，这并不是一个逃避“工作”的招数，因为如果你自己创业，你会比做一份普通工作干得更卖力。但你确实能免去打工带来的许多烦心事，比如不用听老板对你指手画脚。"
+      "zhMarkdown": "这个诀窍就是创办自己的公司。所以这并不是逃避*工作*的诀窍，因为自己开公司，你付出的努力会远超做一份普通工作。但你能避开上班带来的许多烦心事，包括有个老板对你指手画脚。"
     },
     {
       "id": 4,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "dce6c00204c07482cb98cee99d11d8c192e856bbb69c3f5a500cf88c34bf5f89",
       "enMarkdown": "Don't feel like your projects have to be *serious*. They can be as frivolous as you like, so long as you're building things you're excited about. Probably 90% of programmers start out building games. They and their friends like to play games. So they build the kind of things they and their friends want. And that's exactly what you should be doing at 15 if you want to start a startup one day.",
-      "zhMarkdown": "不要觉得你的项目必须是“严肃”的。它们可以随你心意，越好玩、越不务正业越好，只要你在构建让你兴奋的东西就行。大概 90% 的程序员最开始都是通过写游戏入行的。他们和朋友喜欢玩游戏，所以他们就动手写自己和朋友想玩的东西。如果你想在未来某天创办一家创业公司，这恰恰就是你 15 岁时该干的事。"
+      "zhMarkdown": "别觉得你的项目非得有多*正经*。只要做的是让你兴奋的东西，哪怕看起来再小打小闹都没关系。大概 90% 的程序员最开始都是做游戏的。他们和朋友喜欢玩游戏，于是就做自己和朋友想要的东西。如果你希望将来有一天能开一家创业公司，这正是你在 15 岁时该做的事。"
     },
     {
       "id": 17,

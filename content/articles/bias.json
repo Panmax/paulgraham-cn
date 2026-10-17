@@ -4,10 +4,10 @@
   "titleZh": "一种检测偏见的方法",
   "dateText": "October 2015",
   "publishedAt": "2015-10-01",
-  "sourceOrder": 63,
+  "sourceOrder": 65,
   "sourceUrl": "https://paulgraham.com/bias.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -42,7 +42,7 @@
       "type": "paragraph",
       "sourceHash": "560d3d1fe371f1967777d20b30a7ef88b2e7a3228dec2bb71b65a889b1962fe1",
       "enMarkdown": "For example, many suspect that venture capital firms are biased against female founders. This would be easy to detect: among their portfolio companies, do startups with female founders outperform those without? A couple months ago, one VC firm (almost certainly unintentionally) published a study showing bias of this type. First Round Capital found that among its portfolio companies, startups with female founders [outperformed](http://10years.firstround.com/#one) those without by 63%. [[2](#f2n)]",
-      "zhMarkdown": "例如，许多人怀疑风险投资公司对女性创始人存在偏见。这其实很容易检测：在他们的投资组合中，有女性创始人的创业公司是否比没有女性创始人的表现更好？几个月前，一家风险投资公司（几乎可以肯定是非自愿地）发布了一项展示了这种偏见的研究。First Round Capital 发现，在其投资组合中，有女性创始人的创业公司业绩比没有的[高出](http://10years.firstround.com/#one) 63%。[[2](#f2n)]"
+      "zhMarkdown": "例如，许多人怀疑风险投资机构对女性创始人存有偏见。这其实很容易检验：在它们投资的公司里，拥有女性创始人的创业公司表现是否超过了没有的？几个月前，一家风投机构（几乎可以肯定是无意中）发布了一项研究，展现的正是这种偏见。First Round Capital 发现，在其投资的企业中，拥有女性创始人的创业公司[表现高出](http://10years.firstround.com/#one)没有女性创始人的公司 63%。[[2](#f2n)]"
     },
     {
       "id": 6,

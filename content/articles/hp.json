@@ -4,10 +4,10 @@
   "titleZh": "黑客与画家",
   "dateText": "May 2003",
   "publishedAt": "2003-05-01",
-  "sourceOrder": 205,
+  "sourceOrder": 207,
   "sourceUrl": "https://paulgraham.com/hp.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -504,7 +504,7 @@
       "type": "paragraph",
       "sourceHash": "8fd386eca0d270980aabe027ecdb4db64c108c622101c247dae9d3a09ff5c4d6",
       "enMarkdown": "Source code, too, should explain itself. If I could get people to remember just one quote about programming, it would be the one at the beginning of *Structure and Interpretation of Computer\nPrograms.*",
-      "zhMarkdown": "源代码也应该自我解释。如果我能让人们记住关于编程的一句话，那就是《计算机程序的构造和解释》（SICP）开头的那句："
+      "zhMarkdown": "源代码也应该能解释自己。如果我能让大家只记住一句关于编程的名言，那一定是*《计算机程序的构造和解释》*开篇的那句话："
     },
     {
       "id": 72,

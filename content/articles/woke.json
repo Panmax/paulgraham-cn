@@ -4,10 +4,10 @@
   "titleZh": "觉醒主义的起源",
   "dateText": "January 2025",
   "publishedAt": "2025-01-01",
-  "sourceOrder": 9,
+  "sourceOrder": 11,
   "sourceUrl": "https://paulgraham.com/woke.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -224,7 +224,7 @@
       "type": "paragraph",
       "sourceHash": "d7cc7961c392c4bac0eb06574a81d64a36a493ac5bca9c971e71c1ea8dbe0245",
       "enMarkdown": "The second phase was, in multiple senses, political correctness metastasized. Why did it happen when it did? My guess is that it was due to the rise of social media, particularly Tumblr and Twitter, because one of the most distinctive features of the second wave of political correctness was the *cancel mob*: a mob of angry people uniting on social media to get someone ostracized or fired. Indeed this second wave of political correctness was originally called \"cancel culture\"; it didn't start to be called \"wokeness\" till the 2020s.",
-      "zhMarkdown": "第二阶段在多重意义上是政治正确的“癌细胞转移”。为什么它会发生在那个时候？我猜测这归功于社交媒体的兴起，特别是 Tumblr 和 Twitter。因为第二波政治正确最显著的特征之一就是“取消暴民”（cancel mob）：一群愤怒的人在社交媒体上联合起来，让某人社会性死亡或被开除。事实上，第二波政治正确最初被称为“取消文化”（cancel culture），直到 2020 年代才开始被称为“觉醒主义”。"
+      "zhMarkdown": "从多种层面上看，第二阶段都是政治正确的恶性扩散。为什么偏偏发生在这个时候？我的猜测是，这归因于社交媒体的兴起，特别是 Tumblr 和 Twitter，因为第二波政治正确最鲜明的特征之一就是*取消暴民*：一群愤怒的人在社交媒体上联合起来，非要把某人排挤孤立或搞到丢掉饭碗不可。事实上，这第二波政治正确起初被称为“取消文化”；直到 2020 年代，人们才开始称其为“觉醒文化”。"
     },
     {
       "id": 32,
@@ -252,7 +252,7 @@
       "type": "paragraph",
       "sourceHash": "76ee88fdca0a8e3398963f35f23caf988d5e47f598c8e0a52f8b9d679d18b20e",
       "enMarkdown": "Another contributing factor in this second wave of political correctness was the dramatic increase in the polarization of the press. In the print era, newspapers were constrained to be, or at least seem, politically neutral. The department stores that ran ads in the New York Times wanted to reach everyone in the region, both liberal and conservative, so the Times had to serve both. But the Times didn't regard this neutrality as something forced upon them. They embraced it as their duty as a *paper of record* — as one of the big newspapers that aimed to be chronicles of their times, reporting every sufficiently important story from a neutral point of view.",
-      "zhMarkdown": "第二波政治正确的另一个推动因素是媒体两极分化的急剧加剧。在纸媒时代，报纸被迫保持——或者至少看起来保持——政治中立。在《纽约时报》上刊登广告的百货公司希望覆盖该地区的所有人，无论自由派还是保守派，因此《时报》必须同时为两者服务。但《时报》并不认为这种中立是被迫的。他们将其视为作为“记录性报纸”（paper of record）的职责——作为旨在记录时代的大报之一，以中立的视角报道每一个足够重要的新闻。"
+      "zhMarkdown": "导致这第二波政治正确的另一个因素，是新闻媒体两极分化程度的急剧加深。在纸媒时代，报纸不得不保持——或者至少表面上保持——政治中立。在《纽约时报》上投放广告的百货公司希望能触达该地区的所有人，无论自由派还是保守派，因此《时报》必须兼顾双方。但《纽约时报》并未将这种中立视为一种被迫的妥协。他们欣然将其奉为自己作为一家*记录性大报*的职责——作为一家旨在记录时代风云的大报，以中立的视角报道每一条足够重要的新闻。"
     },
     {
       "id": 36,

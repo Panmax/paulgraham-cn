@@ -4,10 +4,10 @@
   "titleZh": "Y Combinator 是如何起步的",
   "dateText": "March 2012",
   "publishedAt": "2012-03-01",
-  "sourceOrder": 88,
+  "sourceOrder": 90,
   "sourceUrl": "https://paulgraham.com/ycstart.html",
-  "translatedAt": "2026-07-09",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 2,
@@ -19,9 +19,9 @@
     {
       "id": 3,
       "type": "paragraph",
-      "sourceHash": "69d7449c4c6c068a8d427c7bdc5bcff98cbdba465cadc5457de0a1fcfad768ef",
-      "enMarkdown": "On March 11 2005, Jessica and I were walking home from dinner in Harvard Square. Jessica was working at an investment bank at the time, but she didn't like it much, so she had interviewed for a job as director of marketing at a Boston VC fund. The VC fund was doing what now seems a comically familiar thing for a VC fund to do: taking a long time to make up their mind. Meanwhile I had been telling Jessica all the things they should change about the VC business � essentially the ideas now underlying Y Combinator: investors should be making more, smaller investments, they should be funding hackers instead of suits, they should be willing to fund younger founders, etc.",
-      "zhMarkdown": "2005 年 3 月 11 日，我和 Jessica 刚吃完晚饭，正从哈佛广场走路回家。当时 Jessica 在一家投资银行工作，但她不太喜欢那份工作，于是去面试了波士顿一家风险投资基金的市场总监。那家基金当时正在做一件现在看来滑稽得再常见不过的事：拖了很久都做不了决定。与此同时，我一直在和 Jessica 聊他们应该在风险投资行业做出哪些改变——这基本上就是现在 Y Combinator 的核心理念：投资人应该做更多、金额更小的投资；他们应该资助黑客而不是穿西装的政客；他们应该乐意资助更年轻的创始人，等等。"
+      "sourceHash": "c2dd3f2445cb33b314e3cf8614f735f0b5476719ad2e5d71fed3e38e4c71b8be",
+      "enMarkdown": "On March 11 2005, Jessica and I were walking home from dinner in Harvard Square. Jessica was working at an investment bank at the time, but she didn't like it much, so she had interviewed for a job as director of marketing at a Boston VC fund. The VC fund was doing what now seems a comically familiar thing for a VC fund to do: taking a long time to make up their mind. Meanwhile I had been telling Jessica all the things they should change about the VC business — essentially the ideas now underlying Y Combinator: investors should be making more, smaller investments, they should be funding hackers instead of suits, they should be willing to fund younger founders, etc.",
+      "zhMarkdown": "2005年3月11日，我和杰西卡在哈佛广场吃完晚饭散步回家。杰西卡当时在一家投资银行工作，但她并不太喜欢，于是去波士顿的一家风投基金面试了市场总监的职位。这家风投基金正做着一件如今看来风投圈司空见惯、甚至有些滑稽的事：迟迟拿不定主意。与此同时，我一直在跟杰西卡念叨风投行业应该做出的种种改变——这些想法本质上正是如今 Y Combinator 的基石：投资人应该做更多笔、金额更小的投资；应该资助黑客而不是穿西装的人；应该愿意资助更年轻的创始人，诸如此类。"
     },
     {
       "id": 4,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "51c927e4457d5830fd9224e9d9cba7627f19a65509b1057c75532c2c3c0c7265",
       "enMarkdown": "We modelled YC on the seed funding we ourselves had taken when we started Viaweb. We started Viaweb with $10k we got from our friend [Julian Weber](https://paulgraham.com/julian.html), the husband of Idelle Weber, whose painting class I took as a grad student at Harvard. Julian knew about business, but you would not describe him as a suit. Among other things he'd been president of the *National Lampoon*. He was also a lawyer, and got all our paperwork set up properly. In return for $10k, getting us set up as a company, teaching us what business was about, and remaining calm in times of crisis, Julian got 10% of Viaweb. I remember thinking once what a good deal Julian got. And then a second later I realized that without Julian, Viaweb would never have made it. So even though it was a good deal for him, it was a good deal for us too. That's why I knew there was room for something like Y Combinator.",
-      "zhMarkdown": "我们模仿了自己当年创办 Viaweb 时拿到的种子资金来构建 YC。我们创办 Viaweb 的 1 万美元来自朋友 [Julian Weber](https://paulgraham.com/julian.html)，他是 Idelle Weber 的丈夫，我在哈佛读研究生时上过她的绘画课。Julian 懂商业，但他绝不是个古板的西装政客。他曾担任过《国家讽刺》（National Lampoon）杂志的总裁。他也是一名律师，帮我们把所有的法律文件都处理得妥妥当当。为了换取这 1 万美元、帮我们成立公司、教我们商业是怎么回事，并在危机时刻保持冷静，Julian 获得了 Viaweb 10% 的股份。我记得有一次我还在想，Julian 这笔交易赚大了。但紧接着一秒钟后我意识到，如果没有 Julian，Viaweb 根本支撑不下去。所以，尽管这对他来说是一笔好买卖，对我们来说也同样是一笔好买卖。这就是为什么我知道像 Y Combinator 这样的模式是大有可为的。"
+      "zhMarkdown": "我们是以自己创办 Viaweb 时获得的种子投资为雏形来设计 YC 的。我们创办 Viaweb 时，启动资金是来自朋友 [Julian Weber](https://paulgraham.com/julian.html) 的一万美元。他是艾德尔·韦伯（Idelle Weber）的丈夫，我在哈佛读研究生时上过她的绘画课。朱利安懂商业，但你绝不会觉得他是个穿西装的刻板商务人士。除其他成就外，他还当过 *National Lampoon* 的社长。他也是一名律师，帮我们把所有法律手续都办得妥妥当当。作为提供一万美元、帮我们完成公司注册、教我们理解商业运作，以及在危机时刻保持冷静的回报，朱利安拿到了 Viaweb 10% 的股份。我记得自己曾一度觉得朱利安做了一笔多么划算的买卖。但紧接着我就意识到，如果没有朱利安，Viaweb 根本不可能做成。所以，这对他来说固然很划算，对我们而言也同样如此。正因如此，我知道市场上一定有容纳 Y Combinator 这种机构的空间。"
     },
     {
       "id": 10,
@@ -103,9 +103,9 @@
     {
       "id": 15,
       "type": "paragraph",
-      "sourceHash": "dab59362ca25a6efcd85b7923d87fa7f49d9caa3748b5094e2c5b013f0d2f5c4",
-      "enMarkdown": "Now YC is well enough known that people are no longer surprised when the companies we fund are legit, but it took a while for reputation to catch up with reality. That's one of the reasons we especially like funding ideas that might be dismissed as \"toys\" � because YC itself was dismissed as one initially.",
-      "zhMarkdown": "现在 YC 已经名声在外，人们对我们资助的公司靠谱这件事不再感到惊讶，但名声赶上现实确实花了一些时间。这也是为什么我们特别喜欢资助那些可能会被斥为“玩具”的创意——因为 YC 自己最初也是被这样不屑一顾的。"
+      "sourceHash": "ec1331a4a279d0211c0b08150e293cf164ef67e4224d7c9350af4038206669c3",
+      "enMarkdown": "Now YC is well enough known that people are no longer surprised when the companies we fund are legit, but it took a while for reputation to catch up with reality. That's one of the reasons we especially like funding ideas that might be dismissed as \"toys\" — because YC itself was dismissed as one initially.",
+      "zhMarkdown": "如今 YC 的名气已经足够大，当我们投资的公司名副其实、大获成功时，人们已不再感到惊讶，但声誉赶上现实确实经历了一段时间。这也是我们格外喜欢资助那些可能被斥为“玩具”的创意的理由之一——因为 YC 本身在一开始也曾被人当成玩具而不屑一顾。"
     },
     {
       "id": 16,

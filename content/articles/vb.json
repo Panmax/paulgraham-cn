@@ -4,10 +4,10 @@
   "titleZh": "人生苦短",
   "dateText": "January 2016",
   "publishedAt": "2016-01-01",
-  "sourceOrder": 59,
+  "sourceOrder": 61,
   "sourceUrl": "https://paulgraham.com/vb.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -89,9 +89,9 @@
     {
       "id": 12,
       "type": "paragraph",
-      "sourceHash": "9f4127378d44971baf294af22a2ab4c4eb4a14f35c18e10d0ed94dfd0385c772",
-      "enMarkdown": "Arguing online is only incidentally addictive. There are more dangerous things than that. As I've written before, one byproduct of technical progress is that things we like tend to become [more\naddictive](https://paulgraham.com/addiction.html). Which means we will increasingly have to make a conscious effort to avoid addictions � to stand outside ourselves and ask \"is this how I want to be spending my time?\"",
-      "zhMarkdown": "网上争论只是附带具有成瘾性。还有比这更危险的事情。正如我之前写过的，技术进步的一个副产品是，我们喜欢的东西往往会变得[更容易让人上瘾](https://paulgraham.com/addiction.html)。这意味着我们将越来越需要做出自觉的努力来避免成瘾——跳出自我，问一句：“这就是我想度过时间的方式吗？”"
+      "sourceHash": "b8776e929caae50d94787239c123ad3f41442a8f5d9ff31b1e9fbe1e8a2f0396",
+      "enMarkdown": "Arguing online is only incidentally addictive. There are more dangerous things than that. As I've written before, one byproduct of technical progress is that things we like tend to become [more\naddictive](https://paulgraham.com/addiction.html). Which means we will increasingly have to make a conscious effort to avoid addictions — to stand outside ourselves and ask \"is this how I want to be spending my time?\"",
+      "zhMarkdown": "网上争论还只是碰巧让人上瘾罢了，比这危险得多的东西比比皆是。正如我以前写过的，技术进步的一个副产品，就是我们喜欢的东西往往会变得[更容易让人上瘾](https://paulgraham.com/addiction.html)。这意味着我们将越来越需要有意识地远离成瘾——抽身跳出自我，问问自己：“这真的是我想度过时间的方式吗？”"
     },
     {
       "id": 13,

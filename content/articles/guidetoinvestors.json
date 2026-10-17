@@ -4,10 +4,10 @@
   "titleZh": "黑客投资人指南",
   "dateText": "April 2007",
   "publishedAt": "2007-04-01",
-  "sourceOrder": 154,
+  "sourceOrder": 156,
   "sourceUrl": "https://paulgraham.com/guidetoinvestors.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -70,35 +70,35 @@
       "type": "paragraph",
       "sourceHash": "7f9ffe2516e08c02e8fc2465c0a9fac0925684d516baf0721412bf8a1a6342d7",
       "enMarkdown": "There are several types of investors. The two main categories are angels and VCs: VCs invest other people's money, and angels invest their own.",
-      "zhMarkdown": "投资人有几种类型。两大主要类别是天使投资人和风险投资人（VC）：VC 投资别人的钱，而天使投资人投资自己的钱。"
+      "zhMarkdown": "投资人有几种类型。两大主要类别是天使投资人和风投：风投投的是别人的钱，而天使投资人投的是自己的钱。"
     },
     {
       "id": 10,
       "type": "paragraph",
       "sourceHash": "eed318ffbe7d44aa9c629b3514de6aad27a9a99dcd03c8f75b78a2162220a2f8",
       "enMarkdown": "Though they're less well known, the angel investors are probably the more critical ingredient in creating a silicon valley. Most companies that VCs invest in would never have made it that far if angels hadn't invested first. VCs say between half and three quarters of companies that raise series A rounds have taken some outside investment already. [[1](#f1n)]",
-      "zhMarkdown": "虽然天使投资人的知名度较低，但他们可能是打造硅谷更关键的要素。如果当初没有天使投资人先投钱，大多数获得 VC 投资的公司根本走不到那一步。VC 们表示，在募集 A 轮融资的公司中，有二分之一到四分之三已经拿过外部投资。[[1](#f1n)]"
+      "zhMarkdown": "尽管天使投资人名气没那么大，但他们或许才是催生硅谷更关键的要素。要是没有天使投资人先投一步，风投投资的大多数公司根本走不到那一步。风投自己都说，在融 A 轮的公司里，有一半到四分之三此前都已经拿过外部投资。[[1](#f1n)]"
     },
     {
       "id": 11,
       "type": "paragraph",
       "sourceHash": "b8aabf5b75637444ed6b0aa16437c2a7ba5fe5efbf6a314f3772bc48dc0bbe49",
       "enMarkdown": "Angels are willing to fund riskier projects than VCs. They also give valuable advice, because (unlike VCs) many have been startup founders themselves.",
-      "zhMarkdown": "天使投资人比 VC 更愿意资助风险更高的项目。他们还能提供宝贵的建议，因为（与 VC 不同）他们中许多人自己就曾是创业公司创始人。"
+      "zhMarkdown": "天使投资人愿意资助比风投风险更高的项目。他们还能给出宝贵的建议，因为（与风投不同）他们当中许多人自己就曾是创业公司创始人。"
     },
     {
       "id": 12,
       "type": "paragraph",
       "sourceHash": "f46f753182ae43925973c3d07d79944b2e7bf29ed10e8d07af956e594f296fa6",
       "enMarkdown": "Google's story shows the key role angels play. A lot of people know Google raised money from Kleiner and Sequoia. What most don't realize is how late. That VC round was a series B round; the premoney valuation was $75 million. Google was already a successful company at that point. Really, Google was funded with angel money.",
-      "zhMarkdown": "Google 的故事展示了天使投资人所起到的关键作用。很多人都知道 Google 拿了 Kleiner 和 Sequoia 的钱。但大多数人没有意识到这有多晚。那轮 VC 融资是 B 轮；投前估值为 7500 万美元。当时 Google 已经是一家成功的公司了。事实上，Google 是靠天使投资人的钱养大的。"
+      "zhMarkdown": "Google 的故事印证了天使投资人所起的关键作用。很多人都知道 Google 拿了 Kleiner 和红杉的钱。但多数人没意识到的是，那已经有多晚。那轮风投是 B 轮；投前估值已经达到了 7500 万美元。在那个节点，Google 已经是一家成功的公司了。说到底，Google 是靠天使投资的钱做起来的。"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "f96ceb5f92798377cc1e26b2d04b7d5fc574b8472d7e74c823e75d9c30f30284",
       "enMarkdown": "It may seem odd that the canonical Silicon Valley startup was funded by angels, but this is not so surprising. Risk is always proportionate to reward. So the most successful startup of all is likely to have seemed an extremely risky bet at first, and that is exactly the kind VCs won't touch.",
-      "zhMarkdown": "硅谷最典型的创业公司居然是靠天使投资人起家的，这看似奇怪，但其实并不令人意外。风险总是与回报成正比。因此，最成功的创业公司在起步阶段往往看起来是一场极高风险的赌博，而这恰恰是 VC 不敢碰的类型。"
+      "zhMarkdown": "最典型的硅谷创业公司竟然是靠天使投资做起来的，这看似有些奇怪，但其实并不意外。风险总是与回报成正比。因此，最成功的创业公司在最初阶段往往看起来极度冒险，而这恰恰是风投碰都不会碰的类型。"
     },
     {
       "id": 14,
@@ -119,49 +119,49 @@
       "type": "paragraph",
       "sourceHash": "b855b4ae1a1cc3804de6bc11d50b60027eea77f18769a0481117016064563db0",
       "enMarkdown": "If angels are so important, why do we hear more about VCs? Because VCs like publicity. They need to market themselves to the investors who are their \"customers\"—the endowments and pension funds and rich families whose money they invest—and also to founders who might come to them for funding.",
-      "zhMarkdown": "如果天使投资人如此重要，为什么我们听到更多的是 VC 呢？因为 VC 喜欢宣传。他们需要向作为其“客户”的投资人进行自我营销——即把钱委托给他们投资的大学捐赠基金、养老基金和富裕家族——同时也需要向可能来找他们融资的创始人进行营销。"
+      "zhMarkdown": "既然天使投资人这么重要，为什么我们听到的多是风投的消息？因为风投喜欢曝光。他们需要向作为自己“客户”的投资人推销自己——也就是出资给他们打理的大学捐赠基金、养老基金和富豪家族——同时也需要向可能找他们拿钱的创始人推销自己。"
     },
     {
       "id": 17,
       "type": "paragraph",
       "sourceHash": "22324170ce0ff8037539858c47ebaee94cd3ffe0a21dcaf240a1cd4160ab7991",
       "enMarkdown": "Angels don't need to market themselves to investors because they invest their own money. Nor do they want to market themselves to founders: they don't want random people pestering them with business plans. Actually, neither do VCs. Both angels and VCs get deals almost exclusively through personal introductions. [[2](#f2n)]",
-      "zhMarkdown": "天使投资人不需要向投资人推销自己，因为他们投的是自己的钱。他们也不想向创始人推销自己：他们不想让素不相识的人拿着商业计划书来烦他们。其实 VC 也不想。天使投资人和 VC 获取项目的渠道几乎完全依赖熟人介绍。[[2](#f2n)]"
+      "zhMarkdown": "天使投资人不需要向出资人推销自己，因为他们投的是自己的钱。他们也不想向创始人推销自己：他们可不想被不知从哪儿冒出来的人拿着商业计划书纠缠不休。其实风投也不想。无论是天使投资人还是风投，几乎都是纯靠熟人引荐来获取项目。[[2](#f2n)]"
     },
     {
       "id": 18,
       "type": "paragraph",
       "sourceHash": "76f5a8d3e1af34dce9e26b06cdfd7d075c7a55a4d4d80aea9fdb6fe47ffe6991",
       "enMarkdown": "The reason VCs want a strong brand is not to draw in more business plans over the transom, but so they win deals when competing against other VCs. Whereas angels are rarely in direct competition, because (a) they do fewer deals, (b) they're happy to split them, and (c) they invest at a point where the stream is broader.",
-      "zhMarkdown": "VC 想要强大的品牌，并不是为了吸引更多不请自来的商业计划书，而是在与其他 VC 竞争时能赢下项目。相比之下，天使投资人很少有直接竞争，因为 (a) 他们做的交易较少，(b) 他们乐于分摊额度，而且 (c) 他们在更早期的阶段投资，那时的项目源更为宽广。"
+      "zhMarkdown": "风投想要打造强大的品牌，并不是为了吸引更多主动找上门来的商业计划书，而是为了在与其他风投竞争时拿下项目。相比之下，天使投资人之间极少有直接竞争，因为 (a) 他们投的项目较少，(b) 他们乐于合投，并且 (c) 他们入局的阶段，可供选择的项目源流更为宽广。"
     },
     {
       "id": 19,
       "type": "paragraph",
       "sourceHash": "97ca96bec61ff03b74b13a79595ad506ffa5679859f07593753c208197183a94",
       "enMarkdown": "**4. Most investors, especially VCs, are not like founders.**",
-      "zhMarkdown": "**4. 大多数投资人，尤其是 VC，和创始人不是一类人。**"
+      "zhMarkdown": "**4. 大多数投资人，尤其是风投，与创始人不是一路人。**"
     },
     {
       "id": 20,
       "type": "paragraph",
       "sourceHash": "af5637da9bde2cd805a74ab0a4c0cfd1c397b520fa5eee4cff56060b37001b87",
       "enMarkdown": "Some angels are, or were, hackers. But most VCs are a different type of people: they're dealmakers.",
-      "zhMarkdown": "有些天使投资人是、或者曾是黑客。但大多数 VC 是另一种人：他们是交易撮合者。"
+      "zhMarkdown": "有些天使投资人是、或者曾经是黑客。但大多数风投是另一类人：他们是做交易的人。"
     },
     {
       "id": 21,
       "type": "paragraph",
       "sourceHash": "863000a85d0ca4616b23567a79202381c4b33475c019ef90c508f8463524fcf8",
       "enMarkdown": "If you're a hacker, here's a thought experiment you can run to understand why there are basically no hacker VCs: How would you like a job where you never got to make anything, but instead spent all your time listening to other people pitch (mostly terrible) projects, deciding whether to fund them, and sitting on their boards if you did? That would not be fun for most hackers. Hackers like to make things. This would be like being an administrator.",
-      "zhMarkdown": "如果你是个黑客，可以通过一个思想实验来理解为什么基本没有黑客出身的 VC：如果有一份工作，你永远不能亲手做出任何东西，而是整天听别人路演（大部分都很糟糕的）项目，决定是否给他们投钱，如果投了还要去当他们的董事，你觉得怎么样？对大多数黑客来说，这毫无乐趣。黑客喜欢创造东西。这工作听起来更像是个行政管理员。"
+      "zhMarkdown": "如果你是黑客，可以做这样一个思想实验，来理解为什么基本上没有黑客出身的风投：如果有一份工作，你再也不能亲手做任何东西，而是成天听别人讲那些（大多很糟糕的）项目、决定要不要投钱，投了之后还得去坐董事会席位，你愿意干吗？对大多数黑客来说，这毫无乐趣可言。黑客喜欢创造东西。做风投就像是去当行政官僚。"
     },
     {
       "id": 22,
       "type": "paragraph",
       "sourceHash": "27f2b5e7a32be8f4d6025a6fd679b8b62a203a840dae0079b96d84fdac7a6c5c",
       "enMarkdown": "Because most VCs are a different species of people from founders, it's hard to know what they're thinking. If you're a hacker, the last time you had to deal with these guys was in high school. Maybe in college you walked past their fraternity on your way to the lab. But don't underestimate them. They're as expert in their world as you are in yours. What they're good at is reading people, and making deals work to their advantage. Think twice before you try to beat them at that.",
-      "zhMarkdown": "因为大多数 VC 和创始人是完全不同的物种，所以很难知道他们在想什么。如果你是个黑客，上一次不得不和这类人打交道还是在高中。也许在大学里，你只是在去实验室的路上路过他们的兄弟会。但千万不要低估他们。他们在自己的世界里，就像你在你的世界里一样专业。他们擅长的是看人，以及让交易朝着有利于自己的方向发展。在你想在这方面击败他们之前，最好三思。"
+      "zhMarkdown": "因为大多数风投和创始人不是同一个物种，你很难猜透他们在想什么。如果你是黑客，你上一次和这类人打交道大概还是在高中。在大学里，你或许只是在去实验室的路上从他们兄弟会门前经过。但别低估他们。他们在自己的世界里，就像你在你的世界里一样专业。他们的过人之处在于察言观色，以及把交易谈成对自己有利的局面。若想在这方面胜过他们，最好三思而后行。"
     },
     {
       "id": 23,
@@ -175,7 +175,7 @@
       "type": "paragraph",
       "sourceHash": "30f186e9ceb5592f59a2f213872f4f2f404c192492e11498d743147e8ddafae0",
       "enMarkdown": "Because most investors are dealmakers rather than technology people, they generally don't understand what you're doing. I knew as a founder that most VCs didn't get technology. I also knew some made a lot of money. And yet it never occurred to me till recently to put those two ideas together and ask \"How can VCs make money by investing in stuff they don't understand?\"",
-      "zhMarkdown": "因为大多数投资人是交易撮合者而不是技术人员，所以他们通常不懂你在做什么。作为创始人时，我就知道大多数 VC 不懂技术。我也知道有些人赚了大钱。然而，直到最近我才把这两个想法联系起来，并问自己：“VC 是怎么通过投资他们不懂的东西来赚钱的？”"
+      "zhMarkdown": "因为大多数投资人是交易型人才而非技术人员，他们通常搞不懂你究竟在做什么。当年作为创始人时，我知道大多数风投不懂技术。我也知道有些人赚了大钱。然而直到最近我才把这两件事联系在一起思考：“风投怎么能靠投资自己不懂的东西赚到钱呢？”"
     },
     {
       "id": 25,
@@ -203,7 +203,7 @@
       "type": "paragraph",
       "sourceHash": "e7f10b39b044ebd36cfd1061e104701617638a3aae418abcfa44a0f444457acf",
       "enMarkdown": "There are two ways to deal with this phenomenon. If you're feeling really confident, you can try to ride it. You can start by asking a comparatively lowly VC for a small amount of money, and then after generating interest there, ask more prestigious VCs for larger amounts, stirring up a crescendo of buzz, and then \"sell\" at the top. This is extremely risky, and takes months even if you succeed. I wouldn't try it myself. My advice is to err on the side of safety: when someone offers you a decent deal, just take it and get on with building the company. Startups win or lose based on the quality of their product, not the quality of their funding deals.",
-      "zhMarkdown": "应对这种现象有两种方法。如果你信心十足，可以尝试顺势而为。你可以先向级别较低的 VC 要一小笔钱，在引起他们的兴趣后，再向名气更大的 VC 要更多的钱，制造出层层递进的声势，然后在顶点“卖出”。这极具风险，而且即使成功也需要数月时间。换作是我，我是不会尝试的。我的建议是宁可保守一些：当有人给你一个体面的条件时，接受它，然后继续专注于建设公司。创业公司的成败取决于其产品的质量，而不是融资交易的质量。"
+      "zhMarkdown": "应对这种现象有两种策略。如果你极度自信，可以尝试顺势而为：先向相对低阶的风投要一小笔钱，等激起兴趣后，再向声望更高的风投要更大的金额，将市场热度一层层推高，然后在顶点“出手”。这极其凶险，即便成功也得耗费数月。换作是我，不会轻易尝试。我的建议是宁求稳妥：只要有人给出一份还算公道的条款，接下便是，然后抓紧把精力放回把公司做起来。创业公司的成败取决于产品的优劣，而非融资条款谈得有多漂亮。"
     },
     {
       "id": 29,
@@ -224,7 +224,7 @@
       "type": "paragraph",
       "sourceHash": "8f6b0104809efa137f87c6e12666cc83cdee3ead6358f58a2ae712203f22b1c5",
       "enMarkdown": "Currently the way VCs seem to operate is to invest in a bunch of companies, most of which fail, and one of which is Google. Those few big wins compensate for losses on their other investments. What this means is that most VCs will only invest in you if you're a potential Google. They don't care about companies that are a safe bet to be acquired for $20 million. There needs to be a chance, however small, of the company becoming really big.",
-      "zhMarkdown": "目前 VC 的运作方式似乎是投资一堆公司，其中大多数都失败了，但有一个成为了 Google。这少数几个巨大的成功弥补了其他投资的损失。这意味着大多数 VC 只有在你有可能成为下一个 Google 的情况下才会投资你。他们不在乎那些能稳妥地以 2000 万美元被收购的公司。公司必须有变得极大的可能，哪怕这个可能微乎其微。"
+      "zhMarkdown": "目前风投的运作模式似乎是：投资一大批公司，绝大多数都死掉，其中有一家成为 Google。靠这少数几场大胜来弥补其他投资的亏损。这意味着，多数风投只有在你有可能成为下一个 Google 时才会投你。他们不在乎那些稳赚不赔、能卖个 2000 万美元的公司。哪怕希望再渺茫，你的公司也必须有成为参天大树的潜质。"
     },
     {
       "id": 32,
@@ -238,28 +238,28 @@
       "type": "paragraph",
       "sourceHash": "b924c72136ef7caec2c89c49a5b986259230cf2819f02c0e8b7a3548d25af224",
       "enMarkdown": "If you take VC money, you have to mean it, because the structure of VC deals prevents early acquisitions. If you take VC money, they won't let you sell early.",
-      "zhMarkdown": "如果你拿了 VC 的钱，你就必须玩真的，因为 VC 交易的架构会阻止早期收购。如果你拿了 VC 的钱，他们是不会让你提早卖掉公司的。"
+      "zhMarkdown": "拿了风投的钱，你就得全力以赴，因为风投交易的架构从机制上就防范了过早被收购。一旦拿了风投的钱，他们是不会允许你早早卖掉公司的。"
     },
     {
       "id": 34,
       "type": "paragraph",
       "sourceHash": "115e95bc6efd449a9f56a8e6f7e67a5b502b7afa987a7cc092a8fb36502da8e8",
       "enMarkdown": "**7. VCs want to invest large amounts.**",
-      "zhMarkdown": "**7. VC 想要投大钱。**"
+      "zhMarkdown": "**7. 风投偏好大额投资。**"
     },
     {
       "id": 35,
       "type": "paragraph",
       "sourceHash": "e37fe655cf95cf856cc428d7fde8304d796d097137d62024337200ccabe17829",
       "enMarkdown": "The fact that they're running investment funds makes VCs want to invest large amounts. A typical VC fund is now hundreds of millions of dollars. If $400 million has to be invested by 10 partners, they have to invest $40 million each. VCs usually sit on the boards of companies they fund. If the average deal size was $1 million, each partner would have to sit on 40 boards, which would not be fun. So they prefer bigger deals, where they can put a lot of money to work at once.",
-      "zhMarkdown": "运营投资金的事实决定了 VC 想要投资大笔资金。现在一个典型的 VC 基金规模达数亿美元。如果 4 亿美元必须由 10 个合伙人投出去，他们每人就必须投资 4000 万美元。VC 通常要在他们资助的公司中担任董事。如果平均每笔交易规模是 100 万美元，每个合伙人就必须担任 40 家公司的董事，这可不好玩。所以他们更喜欢大交易，这样可以一次性把大笔资金运转起来。"
+      "zhMarkdown": "由于运作的是投资基金，风投天生就想投大钱。如今一支典型的风投基金往往有数亿美元。如果是 4 亿美元由 10 位合伙人来管，每人就得投出 4000 万美元。风投通常要进被投公司的董事会。如果平均每笔交易只有 100 万美元，每位合伙人就得进 40 家公司的董事会，这可绝不好受。因此他们更偏爱大单子，能一次性把大笔资金配置出去。"
     },
     {
       "id": 36,
       "type": "paragraph",
       "sourceHash": "c33af719fdb75c8cc16e857648967a639a10f53e6eaa1a979933a923cab9752c",
       "enMarkdown": "VCs don't regard you as a bargain if you don't need a lot of money. That may even make you less attractive, because it means their investment creates less of a barrier to entry for competitors.",
-      "zhMarkdown": "如果你不需要很多钱，VC 不会觉得你便宜。这甚至可能让你显得不那么有吸引力，因为这意味着他们的投资为竞争对手创造的准入门槛变低了。"
+      "zhMarkdown": "如果你不需要太多钱，风投不会觉得捡了便宜。这反而可能让你没那么有吸引力，因为这意味着他们的投资无法给竞争对手筑起足够高的准入门槛。"
     },
     {
       "id": 37,
@@ -280,14 +280,14 @@
       "type": "paragraph",
       "sourceHash": "47197a261e4f367a9800d5fbe51c695c0eb13eb7a63db604ab2a50ea7192784e",
       "enMarkdown": "VCs admit that valuations are an artifact. They decide how much money you need and how much of the company they want, and those two constraints yield a valuation.",
-      "zhMarkdown": "VC 承认估值只是一个人为产物。他们决定你需要多少钱，以及他们想要公司多少股份，这两个约束条件就倒推算出了一个估值。"
+      "zhMarkdown": "风投自己也承认，估值不过是一种人为产物。他们定下你需要多少钱，以及他们想拿多少股份，这两个约束条件倒推出来，就成了估值。"
     },
     {
       "id": 40,
       "type": "paragraph",
       "sourceHash": "0d0821009fc8c5d065070972736a4298f84c9a91397684079c733361f6114127",
       "enMarkdown": "Valuations increase as the size of the investment does. A company that an angel is willing to put $50,000 into at a valuation of a million can't take $6 million from VCs at that valuation. That would leave the founders less than a seventh of the company between them (since the option pool would also come out of that seventh). Most VCs wouldn't want that, which is why you never hear of deals where a VC invests $6 million at a premoney valuation of $1 million.",
-      "zhMarkdown": "估值随着投资规模的增加而增加。一家天使投资人愿意在 100 万美元估值下投入 5 万美元的公司，无法在这个估值下从 VC 那里拿 6000 万美元。那会让创始人手里剩下不到公司七分之一的股份（因为期权池也要从这七分之一里扣除）。大多数 VC 不希望看到这种情况，这就是为什么你从未听说过 VC 在 100 万美元的投前估值下投资 6000 万美元的交易。"
+      "zhMarkdown": "估值是随着投资规模的增加而水涨船高的。一家天使投资人愿意按 100 万美元估值投进 5 万美元的公司，不可能按同样的估值从风投那里拿 600 万美元。否则创始人手里的股份加起来还剩不到七分之一（因为期权池也得从这七分之一里扣）。大多数风投不会想要这种局面，这也是为什么你绝不可能听说有哪个风投会按 100 万美元的投前估值去投 600 万美元。"
     },
     {
       "id": 41,
@@ -301,7 +301,7 @@
       "type": "paragraph",
       "sourceHash": "81cab98302c8ded83742f3629a717d1e4fe5b10bb7034a4782e4c2f4a80919cf",
       "enMarkdown": "Since valuations are made up, founders shouldn't care too much about them. That's not the part to focus on. In fact, a high valuation can be a bad thing. If you take funding at a premoney valuation of $10 million, you won't be selling the company for 20. You'll have to sell for over 50 for the VCs to get even a 5x return, which is low to them. More likely they'll want you to hold out for 100. But needing to get a high price decreases the chance of getting bought at all; many companies can buy you for $10 million, but only a handful for 100. And since a startup is like a pass/fail course for the founders, what you want to optimize is your chance of a good outcome, not the percentage of the company you keep.",
-      "zhMarkdown": "既然估值是编造出来的，创始人就不应该太在意。那不是应该关注的重点。事实上，高估值可能是件坏事。如果你在 1000 万美元的投前估值下拿了融资，你就没法以 2000 万美元卖掉公司了。你必须卖到 5000 万美元以上，VC 才能获得 5 倍的回报，而这对他们来说还算低的。他们更可能希望你坚持到 1 亿美元再卖。但是，需要高价会降低被收购的整体概率；很多公司能花 1000 万美元买下你，但只有极少数能花 1 亿。既然创业对创始人来说就像是一门非过即挂的课程，你想要优化的是获得好结果的概率，而不是你保留的股份比例。"
+      "zhMarkdown": "既然估值是捏造出来的，创始人就不该对它太上心。这根本不是该关注的重点。事实上，估值过高反而是坏事。要是你按 1000 万美元的投前估值融资，你就别指望能以 2000 万美元卖掉公司了。公司必须卖到 5000 万美元以上，风投才能勉强拿到 5 倍回报，而对他们来说这已经算低的了。他们更有可能逼着你撑到能卖 1 亿为止。可要求售价越高，被收购的几率就越低；出得起 1000 万美元买你的买家多得很，但能掏出 1 亿的屈指可数。既然创业对创始人来说就像一门非及格即挂科的课程，你该争取的应该是成功落袋的几率，而不是自己手里守着多少百分比的股权。"
     },
     {
       "id": 43,
@@ -336,14 +336,14 @@
       "type": "paragraph",
       "sourceHash": "92306a33e8db4afe1a8615f90c2b41491a0de37699299bb4c73b7d451fc0127b",
       "enMarkdown": "Now all the VCs are looking for the next Larry and Sergey. This is a good trend, because Larry and Sergey are closer to the ideal startup founders.",
-      "zhMarkdown": "现在所有的 VC 都在寻找下一个拉里（Larry）和谢尔盖（Sergey）。这是一个好趋势，因为拉里和谢尔盖更接近理想的创业公司创始人。"
+      "zhMarkdown": "如今所有的风投都在寻找下一个 Larry 和 Sergey。这是个好苗头，因为 Larry 和 Sergey 更贴近理想中的创业公司创始人。"
     },
     {
       "id": 48,
       "type": "paragraph",
       "sourceHash": "423c62eeef794b887f75e5b82eba56d01e28f4151c2db948e2f046c524344e60",
       "enMarkdown": "Historically investors thought it was important for a founder to be an expert in business. So they were willing to fund teams of MBAs who planned to use the money to pay programmers to build their product for them. This is like funding Steve Ballmer in the hope that the programmer he'll hire is Bill Gates—kind of backward, as the events of the Bubble showed. Now most VCs know they should be funding technical guys. This is more pronounced among the very top funds; the lamer ones still want to fund MBAs.",
-      "zhMarkdown": "历史上，投资人认为创始人懂商业很重要。因此，他们愿意资助 MBA 团队，这些团队计划用这笔钱雇程序员来帮他们开发产品。这就像是资助史蒂夫·鲍尔默，希望他雇来的程序员是比尔·盖茨——正如泡沫时期的事件所表明的那样，这完全搞反了。现在大多数 VC 都知道他们应该资助技术型人才。这在最顶尖的基金中表现得更为明显；差一些的基金仍然想资助 MBA。"
+      "zhMarkdown": "从前，投资人觉得创始人懂商业至关重要。因此他们乐于资助由 MBA 组成的团队，这帮人打算拿了钱去雇程序员来帮他们做产品。这就像是投资 Steve Ballmer，指望他雇来的程序员会是 Bill Gates 一样——从互联网泡沫时期的种种教训来看，未免本末倒置。如今大多数风投都明白该投资懂技术的人。顶尖基金里这种倾向尤为明显；只有二流基金还在热衷于投 MBA。"
     },
     {
       "id": 49,
@@ -399,35 +399,35 @@
       "type": "paragraph",
       "sourceHash": "c940e71c10823db01d083c86ec3a91a7955785542a793e3cb1a5151ccc1c8e32",
       "enMarkdown": "**11. VCs are afraid of looking bad.**",
-      "zhMarkdown": "**11. VC 害怕丢脸。**"
+      "zhMarkdown": "**11. 风投害怕丢人。**"
     },
     {
       "id": 57,
       "type": "paragraph",
       "sourceHash": "38dafb2b03a7cd59fc7b51abf43135c3ae7d38ee1a3c9e7ea43803e0ec2882ac",
       "enMarkdown": "I've been very surprised to discover how timid most VCs are. They seem to be afraid of looking bad to their partners, and perhaps also to the limited partners—the people whose money they invest.",
-      "zhMarkdown": "我非常惊讶地发现大多数 VC 是多么胆小。他们似乎害怕在合伙人面前丢脸，或许也害怕在有限合伙人（LP）——即把钱托付给他们投资的人——面前丢脸。"
+      "zhMarkdown": "发现大多数风投有多胆小，让我大为吃惊。他们似乎非常害怕在合伙人面前丢脸，或许也害怕在有限合伙人——也就是把钱交给他们打理的幕后出资人——面前交待不过去。"
     },
     {
       "id": 58,
       "type": "paragraph",
       "sourceHash": "41b8b31fd14a540df1c1a7465cc19f3ca5d221d9fb011ceb70e4a59537664d36",
       "enMarkdown": "You can measure this fear in how much less risk VCs are willing to take. You can tell they won't make investments for their fund that they might be willing to make themselves as angels. Though it's not quite accurate to say that VCs are less willing to take risks. They're less willing to do things that might look bad. That's not the same thing.",
-      "zhMarkdown": "你可以从 VC 愿意承担的风险变小来衡量这种恐惧。你可以看出，他们不会用自己的基金去做他们作为天使投资人可能愿意做的投资。虽然说 VC 更不愿意承担风险并不完全准确。他们更不愿意做那些可能会让他们看起来很糟的事情。这并不是一回事。"
+      "zhMarkdown": "从风投极不情愿承担风险的态度上，就能看出这种恐惧有多深。你能看得出来，有些项目换作他们以天使投资人的身份也许愿意投，但用基金的钱去投却绝不敢碰。不过，说风投不愿承担风险并不十分准确。确切地说，他们是不愿意做那些可能会显得难看的事。这完全是两码事。"
     },
     {
       "id": 59,
       "type": "paragraph",
       "sourceHash": "42e01ae1d421c983282d6e3978539b9b12d06191a0a22a8f9f9c22762915c384",
       "enMarkdown": "For example, most VCs would be very reluctant to invest in a startup founded by a pair of 18 year old hackers, no matter how brilliant, because if the startup failed their partners could turn on them and say \"What, you invested $x million of our money in a pair of 18 year olds?\" Whereas if a VC invested in a startup founded by three former banking executives in their 40s who planned to outsource their product development—which to my mind is actually a lot riskier than investing in a pair of really smart 18 year olds—he couldn't be faulted, if it failed, for making such an apparently prudent investment.",
-      "zhMarkdown": "例如，大多数 VC 会非常不情愿投资一家由两个 18 岁黑客创办的公司，无论他们多么聪明。因为如果公司失败了，他们的合伙人可能会转过头来指责他们说：“什么，你把我们几百万美元投给了两个 18 岁的孩子？”相反，如果一个 VC 投资了一家由三个 40 多岁的前银行高管创办、并计划外包产品开发的公司——在我看来，这实际上比投资两个极聪明的 18 岁孩子风险大得多——即使失败了，他也不会因为做出了这样一个看似谨慎的投资而受到指责。"
+      "zhMarkdown": "例如，大多数风投都极不愿意投资由两个 18 岁黑客创办的公司，无论他们多么才华横溢。因为一旦项目黄了，合伙人就会指着鼻子质问：“什么，你把我们几百万美元的钱投给了两个 18 岁的小屁孩？”然而，如果一个风投去投三个 40 多岁、打算把产品开发外包出去的前银行高管——在我看来，这其实比投两个绝顶聪明的 18 岁黑客风险大得多——即便失败了，也没人能挑他的刺，毕竟这桩投资表面上看无比审慎。"
     },
     {
       "id": 60,
       "type": "paragraph",
       "sourceHash": "9bfcb02865d8e7e6ff925aaa4388e644bcf9c1cda58010c79ebd228f9ac48eb9",
       "enMarkdown": "As a friend of mine said, \"Most VCs can't do anything that would sound bad to the kind of doofuses who run pension funds.\" Angels can take greater risks because they don't have to answer to anyone.",
-      "zhMarkdown": "正如我的一位朋友所说：“大多数 VC 没法做任何在管理养老基金的那帮蠢货听起来很糟的事情。”天使投资人可以承担更大的风险，因为他们不需要向任何人交代。"
+      "zhMarkdown": "正如我一个朋友所言：“多数风投绝不敢做任何在养老基金主管那帮蠢货听来觉得不靠谱的事。”天使投资人之所以能承担更大的风险，是因为他们无须向任何人交代。"
     },
     {
       "id": 61,
@@ -441,14 +441,14 @@
       "type": "paragraph",
       "sourceHash": "238bf6fd2e886c62186825524441d374e037384c6baef7eed89fbd5e751efec3",
       "enMarkdown": "Some founders are quite dejected when they get turned down by investors. They shouldn't take it so much to heart. To start with, investors are often wrong. It's hard to think of a successful startup that wasn't turned down by investors at some point. Lots of VCs rejected Google. So obviously the reaction of investors is not a very meaningful test.",
-      "zhMarkdown": "有些创始人在被投资人拒绝时会非常沮丧。他们不应该太往心里去。首先，投资人经常看走眼。很难想到有哪家成功的创业公司在某个阶段没有被投资人拒绝过。许多 VC 都拒绝过 Google。所以投资人的反应显然不是一个非常有意义的检验。"
+      "zhMarkdown": "有些创始人被投资人拒绝后极度沮丧。完全没必要往心里去。首先，投资人经常看走眼。几乎所有成功的创业公司，都在某个阶段被投资人拒之门外过。拒掉 Google 的风投多得是。显而易见，投资人的反应并不是什么有说服力的检验标准。"
     },
     {
       "id": 63,
       "type": "paragraph",
       "sourceHash": "389376a9ecb290d7479736be06f0bc08faca10302577b6831f53cd7d73a4b233",
       "enMarkdown": "Investors will often reject you for what seem to be superficial reasons. I read of one VC who [turned\ndown](http://ricksegal.typepad.com/pmv/2007/02/a_fatal_paper_c.html) a startup simply because they'd given away so many little bits of stock that the deal required too many signatures to close. [[4](#f4n)] The reason investors can get away with this is that they see so many deals. It doesn't matter if they underestimate you because of some surface imperfection, because the next best deal will be [almost as good](https://paulgraham.com/judgement.html). Imagine picking out apples at a grocery store. You grab one with a little bruise. Maybe it's just a surface bruise, but why even bother checking when there are so many other unbruised apples to choose from?",
-      "zhMarkdown": "投资人经常会因为看似表面的原因拒绝你。我读到过一个 VC 仅仅因为一家公司分出了太多零碎股份，导致交易需要太多签字才能完成，就[拒绝](http://ricksegal.typepad.com/pmv/2007/02/a_fatal_paper_c.html)了它。[[4](#f4n)] 投资人之所以能这么做，是因为他们见过的项目太多了。即使他们因为某些表面缺陷而低估了你，也没关系，因为下一个最好的交易也[几乎一样好](https://paulgraham.com/judgement.html)。想象一下在超市挑苹果。你拿了一个有点小擦伤的。也许它只是表面擦伤，但既然有那么多其他完好无损的苹果可以选，何必费事去检查呢？"
+      "zhMarkdown": "投资人拒绝你，往往是出于极其表面化的理由。我读到过一个风投[拒绝](http://ricksegal.typepad.com/pmv/2007/02/a_fatal_paper_c.html)一家创业公司的故事，仅仅是因为他们把股份切得太碎，以至于敲定协议时需要签的名字太多了。[[4](#f4n)] 投资人之所以敢这么干，是因为他们能看的项目实在太多了。哪怕因为某些皮毛缺陷而低估了你，对他们也无所谓，因为下一个候选项目[几乎一样好](https://paulgraham.com/judgement.html)。就像在超市挑苹果。你拿起一个带着微小磕碰的。也许只是表皮蹭破了一点，但既然有那么多完好无损的苹果可以选，谁又犯得着去核实呢？"
     },
     {
       "id": 64,
@@ -476,14 +476,14 @@
       "type": "paragraph",
       "sourceHash": "307cefffb4d86573db5af0739a89cf14395efa35bda1b6aa9ae53fe05d1b16a7",
       "enMarkdown": "A while ago an eminent VC firm offered a series A round to a startup we'd seed funded. Then they heard a rival VC firm was also interested. They were so afraid that they'd be rejected in favor of this other firm that they gave the startup what's known as an \"exploding termsheet.\" They had, I think, 24 hours to say yes or no, or the deal was off. Exploding termsheets are a somewhat dubious device, but not uncommon. What surprised me was their reaction when I called to talk about it. I asked if they'd still be interested in the startup if the rival VC didn't end up making an offer, and they said no. What rational basis could they have had for saying that? If they thought the startup was worth investing in, what difference should it make what some other VC thought? Surely it was their duty to their limited partners simply to invest in the best opportunities they found; they should be delighted if the other VC said no, because it would mean they'd overlooked a good opportunity. But of course there was no rational basis for their decision. They just couldn't stand the idea of taking this rival firm's rejects.",
-      "zhMarkdown": "不久前，一家著名的 VC 机构向我们种子资助的一家创业公司提供了 A 轮意向书（termsheet）。然后他们听说另一家竞争对手 VC 也有兴趣。他们太害怕被拒绝而输给另一家机构，于是给这家公司提供了一份所谓的“爆炸性意向书”（exploding termsheet）。我想，他们只有 24 小时的时间来决定接受还是拒绝，否则交易就取消。爆炸性意向书是一种有点让人质疑的手段，但并不少见。令我惊讶的是，当我打电话去沟通时的反应。我问如果竞争对手最终没有给 offer，他们是否仍然对这家公司感兴趣，他们说不。他们做出这个决定的理性依据是什么？如果他们认为这家公司值得投资，其他 VC 怎么想有什么关系？他们的职责显然是对有限合伙人负责，投资于他们发现的最佳机会；如果其他 VC 说不，他们应该感到高兴才对，因为这意味着对方忽略了一个好机会。但显然，他们的决定没有理性基础。他们只是无法忍受接受竞争对手挑剩的东西。"
+      "zhMarkdown": "不久前，一家知名风投机构向我们种子轮资助过的一家创业公司开出了 A 轮投资意向。随后他们听说另一家竞争对手风投也对此有意。因为太害怕被创始人选了别家而颜面尽失，他们给这家创业公司开出了所谓的“限时失效条款清单”（exploding termsheet）。我记得他们只给了 24 小时考虑，过期作废。限时条款是种有些可疑的手段，但也并不少见。真正让我吃惊的是我打电话去沟通时他们的反应。我问他们，如果那家对手风投最终没有出价，他们是否还愿意投这家公司？他们说不投了。这么回答能有什么理性依据？如果他们打心底里觉得这家公司值得投，别家风投怎么想跟他们又有什么关系？按理说，他们对有限合伙人负有的责任，理当是只管投向自己所能找到的最佳机会；如果竞争对手弃投，他们应该高兴才对，因为这意味着对手看走眼漏掉了好机会。但显然他们的决策毫无理性可言。他们只是咽不下接盘对手弃牌的那口气罢了。"
     },
     {
       "id": 68,
       "type": "paragraph",
       "sourceHash": "9bb2ddf28db712a7e8efd520ad96c7073f7141acf4e67f04e972eba3c5b273de",
       "enMarkdown": "In this case the exploding termsheet was not (or not only) a tactic to pressure the startup. It was more like the high school trick of breaking up with someone before they can break up with you. In an [earlier essay](https://paulgraham.com/startupfunding.html) I said that VCs were a lot like high school girls. A few VCs have joked about that characterization, but none have disputed it.",
-      "zhMarkdown": "在这种情况下，爆炸性意向书不（或不仅）是给创业公司施压的策略。这更像是高中的把戏：在别人甩掉你之前，先甩掉别人。在[之前的一篇文章](https://paulgraham.com/startupfunding.html)中，我说过 VC 很像高中女生。有几个 VC 拿这个比喻开过玩笑，但没人反驳它。"
+      "zhMarkdown": "在这个案例中，限时条款并不仅仅（或者说压根不只是）一种向创业公司施压的谈判策略。它更像中学生那种“抢在你甩我之前先把你甩了”的把戏。在[更早的一篇文章](https://paulgraham.com/startupfunding.html)中，我曾说风投很像高中女生。有几位风投拿这个比喻开过玩笑，但从没有人站出来反驳过。"
     },
     {
       "id": 69,
@@ -525,28 +525,28 @@
       "type": "paragraph",
       "sourceHash": "40a9ee463a43c0bf67d2c909d08dcc8ffff8383bf5020921d3a3d97aceb1e98c",
       "enMarkdown": "I've been surprised how willing investors are to split deals. You might think that if they found a good deal they'd want it all to themselves, but they seem positively eager to syndicate. This is understandable with angels; they invest on a smaller scale and don't like to have too much money tied up in any one deal. But VCs also share deals a lot. Why?",
-      "zhMarkdown": "我很惊讶投资人是多么乐意分摊交易。你可能以为如果他们发现了一个好交易，会想独吞，但他们似乎非常渴望进行联合投资（syndicate）。对于天使投资人来说这可以理解；他们的投资规模较小，不希望在任何一个交易中套牢太多资金。但 VC 也经常分享交易。为什么？"
+      "zhMarkdown": "投资人有多乐于拼单合投，着实让我感到意外。你或许会以为，要是他们发现了个好项目，肯定恨不得独吞，但他们看起来简直是迫不及待地想联合投资。天使投资人这么做很好理解：他们的投资规模较小，不希望在单笔交易里押注太多资金。但风投也频繁合投。这是为什么？"
     },
     {
       "id": 75,
       "type": "paragraph",
       "sourceHash": "ae2d32603b627cc476458903ec188fec2f38bcc6f550c95f1d9f0e256f30b812",
       "enMarkdown": "Partly I think this is an artifact of the rule I quoted earlier: after traffic, VCs care most what other VCs think. A deal that has multiple VCs interested in it is more likely to close, so of deals that close, more will have multiple investors.",
-      "zhMarkdown": "部分原因我认为是我前面引用的那条规则的产物：在流量之后，VC 最关心的是其他 VC 怎么想。一个有多家 VC 感兴趣的交易更容易成交，因此在成交的交易中，更多会有多个投资人参与。"
+      "zhMarkdown": "我觉得部分原因在于我前面提到的那条法则：除了业务数据，风投最在意的就是其他风投的态度。如果一家公司有多个风投表现出兴趣，谈成的几率就大得多；所以在谈成的交易中，由多家共同投资的比例自然也就更高。"
     },
     {
       "id": 76,
       "type": "paragraph",
       "sourceHash": "c2ecb73ef725b0e03f1fad99969a048d8145ddee63f2c290287fa4215b7b2c39",
       "enMarkdown": "There is one rational reason to want multiple VCs in a deal: Any investor who co-invests with you is one less investor who could fund a competitor. Apparently Kleiner and Sequoia didn't like splitting the Google deal, but it did at least have the advantage, from each one's point of view, that there probably wouldn't be a competitor funded by the other. Splitting deals thus has similar advantages to confusing paternity.",
-      "zhMarkdown": "想要多个 VC 参与交易有一个理性的原因：任何与你联合投资的投资人，都少了一个可能去资助竞争对手的投资人。显然 Kleiner 和 Sequoia 不喜欢分摊 Google 的交易，但从各自的角度来看，这至少有一个好处，那就是大概不会出现一个由对方资助的竞争对手。因此，分摊交易具有类似于混淆亲子关系的优势。"
+      "zhMarkdown": "让多家风投共同参与一笔交易，倒有一个合乎理性的理由：任何与你联合投资的投资人，都少了一个可能去资助竞争对手的投资人。据说当年 Kleiner 和 Sequoia 都不太乐意平分 Google 的投资案，但至少从双方各自的角度来看，它带来了一个好处：对方大概率不会再去资助一家竞争对手了。因此，分摊投资的好处，倒跟混淆父系有异曲同工之妙。"
     },
     {
       "id": 77,
       "type": "paragraph",
       "sourceHash": "ff4f2ac212dfd3247a1c6bab809cf446e12e34998cac4daaec473313782c9743",
       "enMarkdown": "But I think the main reason VCs like splitting deals is the fear of looking bad. If another firm shares the deal, then in the event of failure it will seem to have been a prudent choice—a consensus decision, rather than just the whim of an individual partner.",
-      "zhMarkdown": "但我认为 VC 喜欢分摊交易的主要原因是害怕丢脸。如果有另一家机构分摊了这笔交易，那么在失败的情况下，这看起来也是一个谨慎的选择——一个共识决定，而不仅仅是某个合伙人的个人心血来潮。"
+      "zhMarkdown": "但我认为，风投热衷合投的主要原因，还是害怕丢人。如果有另一家机构一同分担，万一项目搞砸了，这笔投资看起来也更像是审慎之举——是众人共识的决定，而不单单是某个合伙人一时脑热的冲动。"
     },
     {
       "id": 78,
@@ -574,7 +574,7 @@
       "type": "paragraph",
       "sourceHash": "368455846abf829511e6f98f2330020c97091a881f732a88e29adbcbbad082a5",
       "enMarkdown": "Another reason investors stick together is to preserve the power of investors as a whole. So you will not, as of this writing, be able to get investors into an auction for your series A round. They'd rather lose the deal than establish a precedent of VCs competitively bidding against one another. An efficient startup funding market may be coming in the distant future; things tend to move in that direction; but it's certainly not here now.",
-      "zhMarkdown": "投资人抱团的另一个原因是为了维护投资人整体的权力。因此，在撰写本文时，你将无法让投资人参与你 A 轮融资的竞拍。他们宁愿失去这笔交易，也不愿开创 VC 之间竞争性竞价的先例。一个高效的创业公司融资市场可能会在遥远的未来出现；事情往往会朝着那个方向发展；但现在肯定还没有。"
+      "zhMarkdown": "投资人抱团的另一个原因，是为了维护投资人群体作为一个整体的话语权。因此，截至写这篇文章时，你是别想把投资人拉进一场为你 A 轮融资而设的公开竞拍中的。他们宁可丢掉这个项目，也不愿开创风投互相竞价抢项目的先例。一个高效的创业融资市场或许会在遥远的未来出现；大势所趋确实向那个方向发展；但眼下显然还没到那一步。"
     },
     {
       "id": 82,
@@ -602,14 +602,14 @@
       "type": "paragraph",
       "sourceHash": "3cd1422b08591b93cec6a4c4d0b261ecea4e4043dc8dab8ba818925aae75ff18",
       "enMarkdown": "Large-scale investors tend to put startups in three categories: successes, failures, and the \"living dead\"—companies that are plugging along but don't seem likely in the immediate future to get bought or go public. To the founders, \"living dead\" sounds harsh. These companies may be far from failures by ordinary standards. But they might as well be from a venture investor's point of view, and they suck up just as much time and attention as the successes. So if such a company has two possible strategies, a conservative one that's slightly more likely to work in the end, or a risky one that within a short time will either yield a giant success or kill the company, VCs will push for the kill-or-cure option. To them the company is already a write-off. Better to have resolution, one way or the other, as soon as possible.",
-      "zhMarkdown": "大规模投资人倾向于将创业公司分为三类：成功的、失败的，以及“行尸走肉”——那些勉强维持但短期内似乎不可能被收购或上市的公司。对创始人来说，“行尸走肉”听起来很刺耳。按普通标准来看，这些公司可能远非失败。但从风险投资人的角度来看，它们和失败了没什么两样，而且它们吸取的时间和精力与成功的公司一样多。因此，如果这样一家公司有两个可能的策略，一个是稍微更有可能在最终起作用的保守策略，另一个是在短期内要么带来巨大成功要么弄死公司的冒险策略，VC 会推动“非生即死”的选择。对他们来说，这家公司已经注销了。最好尽快以某种方式得到解决。"
+      "zhMarkdown": "大规模投资人通常把创业公司分成三类：成功的、失败的，以及“行尸走肉”——那些勉强维持运转、但在可见未来既不可能被收购也无法上市的公司。对创始人来说，“行尸走肉”这个词未免太刻薄。按普通标准来看，这些公司离失败还远得很。但在风险投资人眼里，它们与失败无异，而且耗费的时间和精力一点也不比成功的公司少。因此，如果这类公司面前摆着两条路，一条是稍微更稳妥、最终可能勉强行得通的保守策略，另一条是短时间内要么大获成功要么当场暴毙的冒险策略，风投一定会力推后者。在他们看来，这家公司反正已经当坏账计提了。早点见分晓，死活给个痛快，总好过半死不活地耗着。"
     },
     {
       "id": 86,
       "type": "paragraph",
       "sourceHash": "1977d6ca306569a953810a470914bcc2a7cb247a17bdb96ede498f65228f84e9",
       "enMarkdown": "If a startup gets into real trouble, instead of trying to save it VCs may just sell it at a low price to another of their portfolio companies. Philip Greenspun said in [Founders at Work](http://www.amazon.com/gp/product/1590597141) that Ars Digita's VCs did this to them.",
-      "zhMarkdown": "如果一家创业公司陷入真正的麻烦，VC 可能不会试图拯救它，而是以低价将其卖给他们投资组合中的另一家公司。Philip Greenspun 在《[创业者说](http://www.amazon.com/gp/product/1590597141)》（Founders at Work）中说，Ars Digita 的 VC 就是这样对待他们的。"
+      "zhMarkdown": "要是某家创业公司陷入了绝境，风投可能非但不会出手相救，反倒会将其低价贱卖给他们投资组合里的另一家公司。Philip Greenspun 在《[Founders at Work](http://www.amazon.com/gp/product/1590597141)》中就提到，Ars Digita 的风投当年对他们干的就是这种事。"
     },
     {
       "id": 87,
@@ -637,7 +637,7 @@
       "type": "paragraph",
       "sourceHash": "dcdd223c7dad825e33982f348e744e19c92263b0121b2c056a5269c889d54262",
       "enMarkdown": "More and more, investors are letting founders cash out partially. That should correct the problem. Most founders have such low standards that they'll feel rich with a sum that doesn't seem huge to investors. But this custom is spreading too slowly, because VCs are afraid of seeming irresponsible. No one wants to be the first VC to give someone fuck-you money and then actually get told \"fuck you.\" But until this does start to happen, we know VCs are being too conservative.",
-      "zhMarkdown": "越来越多地，投资人开始允许创始人部分套现。这应该能解决这个问题。大多数创始人的标准很低，以至于一笔在投资人看来并不大的金额就能让他们感到富有。但这种风气传播得太慢了，因为 VC 害怕显得不负责任。没有人想成为第一个给别人一笔“去你的”钱（fuck-you money）然后真的被告知“去你的”的 VC。但在这种情况开始发生之前，我们知道 VC 还是太保守了。"
+      "zhMarkdown": "现在越来越多的投资人开始允许创始人适度套现一部分。这应该能缓解问题。大多数创始人的要求其实很低，一笔在投资人眼里算不上巨款的数目，就足以让他们觉得自己发财了。然而这种做法普及得太慢，因为风投害怕显得不负责任。没人愿意当第一个给创始人发了“滚蛋钱”（fuck-you money）结果真被对方甩一句“滚蛋”的风投。但在这种情况真正开始发生之前，我们心里都清楚，风投还是太保守了。"
     },
     {
       "id": 91,
@@ -651,28 +651,28 @@
       "type": "paragraph",
       "sourceHash": "61b53353c9d17967652bed71d786b9171eccb228cf890328ad2bf2f4e0f55ba9",
       "enMarkdown": "Back when I was a founder I used to think all VCs were the same. And in fact they do all [look](http://www.redpoint.com/team/) the same. They're all what hackers call \"suits.\" But since I've been dealing with VCs more I've learned that some suits are smarter than others.",
-      "zhMarkdown": "以前当创始人时，我总觉得所有 VC 都一个样。事实上，他们确实[看起来](http://www.redpoint.com/team/)都一样。他们都是黑客所说的“穿西装的人”（suits）。但自从我与 VC 接触增多后，我了解到有些穿西装的人比其他人更聪明。"
+      "zhMarkdown": "当年我自己做创始人时，总以为所有风投都一个样。况且他们打扮起来确实也都[一个模样](http://www.redpoint.com/team/)。全都是黑客嘴里所谓的“西装套路人”。但随着和风投打交道越来越多，我才明白，西装革履之下也有聪明与平庸之分。"
     },
     {
       "id": 93,
       "type": "paragraph",
       "sourceHash": "aca6efbeee9ea86a2869f7fbf9cb7aca255ba0b254aee615ceec0f4decdc4e34",
       "enMarkdown": "They're also in a business where winners tend to keep winning and losers to keep losing. When a VC firm has been successful in the past, everyone wants funding from them, so they get the pick of all the new deals. The self-reinforcing nature of the venture funding market means that the top ten firms live in a completely different world from, say, the hundredth. As well as being smarter, they tend to be calmer and more upstanding; they don't need to do iffy things to get an edge, and don't want to because they have more brand to protect.",
-      "zhMarkdown": "他们也处在一个赢家通吃、输家常输的行业中。当一家 VC 机构在过去取得成功时，每个人都想从他们那里拿到资金，因此他们可以挑选所有的新项目。风险投资市场这种自我强化的性质意味着，排名前十的机构与比如第一百名的机构生活在完全不同的世界。除了更聪明之外，他们往往更冷静、更正直；他们不需要通过做一些擦边的事来获取优势，也不想这么做，因为他们有更多的品牌名誉需要保护。"
+      "zhMarkdown": "而且他们所处的这个行业，赢家往往通吃，输家往往连败。一家风投机构如果过去战绩辉煌，大家就都挤破头想拿他们的钱，他们自然能在所有新项目中挑挑拣拣。风险投资市场这种自我强化的马太效应意味着，排名前十的机构与排在第一百名的机构完全生活在两个不同的世界。顶尖机构不仅更聪明，往往也更沉稳、更体面；他们不需要靠下三滥的手段来占便宜，也犯不着这么干，因为他们有更大的品牌声誉需要爱惜。"
     },
     {
       "id": 94,
       "type": "paragraph",
       "sourceHash": "0090ceabd05d77c96910a2ea345fccc2f0371957f4e9117601c94564b9f32e0f",
       "enMarkdown": "There are only two kinds of VCs you want to take money from, if you have the luxury of choosing: the \"top tier\" VCs, meaning about the top 20 or so firms, plus a few new ones that are not among the top 20 only because they haven't been around long enough.",
-      "zhMarkdown": "如果你有选择的奢侈，你只想从两种 VC 那里拿钱：一种是“顶尖”VC，即排名前 20 左右的机构，加上几家因为成立时间不够长而未列入前 20 的新机构。"
+      "zhMarkdown": "如果你有挑选的奢侈，值得你拿钱的风投其实只有两类：“第一梯队”风投，也就是前 20 左右的机构，再加上少数几家新机构——它们之所以不在前 20 之列，纯粹只是因为成立时间还不够长。"
     },
     {
       "id": 95,
       "type": "paragraph",
       "sourceHash": "bc4fe54417bbacb44a1dbe34eb573b657d399b7d07547ef95780c36767127d32",
       "enMarkdown": "It's particularly important to raise money from a top firm if you're a hacker, because they're more confident. That means they're less likely to stick you with a business guy as CEO, like VCs used to do in the 90s. If you seem smart and want to do it, they'll let you run the company.",
-      "zhMarkdown": "如果你是个黑客，从顶尖机构融资尤为重要，因为他们更自信。这意味着他们不太可能像 VC 在 90 年代那样，非要塞给你一个懂商业的人来当 CEO。如果你看起来很聪明并且想做，他们会让你来管理公司。"
+      "zhMarkdown": "如果你是黑客，拿顶尖机构的钱尤为重要，因为他们更有底气。这意味着他们不太会像 90 年代风投常干的那样，硬塞给你一个懂商业的人来当 CEO。只要你看着聪明又有意愿，他们就会放手让你来掌舵。"
     },
     {
       "id": 96,
@@ -693,7 +693,7 @@
       "type": "paragraph",
       "sourceHash": "e6e5cb3c7bbb465b1edfde771125ef1d4382e965ad9e3d894cc41b5a25efac55",
       "enMarkdown": "Suppose a Y Combinator company starts talking to VCs after demo day, and is successful in raising money from them, closing the deal after a comparatively short 8 weeks. Since demo day occurs after 10 weeks, the company is now 18 weeks old. Raising money, rather than working on the product, has been the company's main focus for 44% of its existence. And mind you, this an example where things turned out *well*.",
-      "zhMarkdown": "假设一家 Y Combinator 公司在路演日（demo day）后开始与 VC 接触，并成功从他们那里融到了钱，在相对较短的 8 周后完成了交易。由于路演日是在第 10 周举行，这家公司现在已经 18 周大了。融资，而不是开发产品，已经占去了公司生存时间的 44%。请注意，这还是一个结果*很好*的例子。"
+      "zhMarkdown": "假设一家 Y Combinator 旗下的公司在 Demo Day 之后开始接触风投，并成功融到了钱，耗时仅仅用了相对较短的 8 周就敲定了交易。鉴于 Demo Day 是在入营第 10 周举行，这家公司此时才成立了 18 周。在它迄今为止 44% 的生命历程里，公司的头等大事居然是融资，而不是打磨产品。请注意，这还是结局*圆满*的一个范例。"
     },
     {
       "id": 99,
@@ -721,14 +721,14 @@
       "type": "paragraph",
       "sourceHash": "d81580c50f06028a0c8b6c62b0a128e6dc1bbdfdc609aca7714e23f8691e860a",
       "enMarkdown": "The reason funding deals take so long to close is mainly that investors can't make up their minds. VCs are not big companies; they can do a deal in 24 hours if they need to. But they usually let the initial meetings stretch out over a couple weeks. The reason is the selection algorithm I mentioned earlier. Most don't try to predict whether a startup will win, but to notice quickly that it already is winning. They care what the market thinks of you and what other VCs think of you, and they can't judge those just from meeting you.",
-      "zhMarkdown": "融资交易需要这么长时间才能完成，主要是因为投资人无法下定决心。VC 不是大公司；如果需要，他们可以在 24 小时内完成交易。但他们通常会让初次会面拖上几个星期。原因就是我前面提到的筛选算法。大多数人不会试图预测一家创业公司是否会赢，而是要快速注意到它已经赢了。他们关心市场怎么看你，其他 VC 怎么看你，而这些是他们无法仅通过与你见面来判断的。"
+      "zhMarkdown": "融资交易之所以拖这么久才敲定，主要是因为投资人自己下不了决心。风投又不是大企业；如果真有必要，他们 24 小时之内就能拍板做成一单。但他们通常会把最初的几轮会面硬生生拖上两三个星期。究其原因，正是由于我前面提过的那套筛选算法：多数人并不是试着去预判哪家创业公司能赢，而是要以最快速度察觉出谁已经在赢了。他们在意的是市场怎么看你、其他风投怎么看你，而这些东西是光靠跟你见个面看不出来的。"
     },
     {
       "id": 103,
       "type": "paragraph",
       "sourceHash": "a9b83e5a2f83b405cd590fd95fc8419147e0393415be2608ab4f75ab01c589c5",
       "enMarkdown": "Because they're investing in things that (a) change fast and (b) they don't understand, a lot of investors will reject you in a way that can later be claimed not to have been a rejection. Unless you know this world, you may not even realize you've been rejected. Here's a VC saying no:",
-      "zhMarkdown": "因为他们投资的是 (a) 变化极快且 (b) 他们不懂的东西，很多投资人会以一种事后可以声称不是拒绝的方式来拒绝你。除非你了解这个世界，否则你甚至可能没有意识到自己被拒绝了。以下是 VC 说不的方式："
+      "zhMarkdown": "由于投资的对象 (a) 变化极快，且 (b) 他们自己搞不懂，许多投资人拒绝你时，措辞都会留有余地，方便日后改口说自己当年根本没拒绝过你。要是你对这行不了解，甚至可能根本没意识到自己已经被拒了。风投拒绝你时通常是这么说的："
     },
     {
       "id": 104,
@@ -742,14 +742,14 @@
       "type": "paragraph",
       "sourceHash": "befbb91efa9aa739c12164a089d646257d394d0443a0625915e13767de2655fa",
       "enMarkdown": "Translated into more straightforward language, this means: We're not investing in you, but we may change our minds if it looks like you're taking off. Sometimes they're more candid and say explicitly that they need to \"see some traction.\" They'll invest in you if you start to get lots of users. But so would any VC. So all they're saying is that you're still at square 1.",
-      "zhMarkdown": "翻译成更直白的话，这意味着：我们不投资你，但如果你看起来要爆发，我们可能会改变主意。有时他们会更坦率，明确表示他们需要“看到一些业务起色”（traction）。如果你开始获得大量用户，他们就会投资你。但任何 VC 都会这么做。所以他们说的只是你仍然处于起跑线上。"
+      "zhMarkdown": "翻译成大白话就是：我们现在不投，但要是你看起来要火了，我们随时可能改主意。有时候他们更坦诚一些，直截了当地说需要“看到一些业务势头”。要是你开始暴涨用户，他们就会投你。可天底下哪个风投不是这样？所以他们无非是告诉你，你现在还停留在原地。"
     },
     {
       "id": 106,
       "type": "paragraph",
       "sourceHash": "c1464cdedc51389621c2fd11334b67e1f71e7e8f75eafa651a14f4821b4ecc93",
       "enMarkdown": "Here's a test for deciding whether a VC's response was yes or no. Look down at your hands. Are you holding a termsheet?",
-      "zhMarkdown": "这里有一个判断 VC 的回应是“是”还是“否”的测试。低头看看你的手。你手里拿着意向书（termsheet）吗？"
+      "zhMarkdown": "这里有个办法，能测出风投给你的答复到底是同意还是拒绝。低头看看你的手。你手里拿着条款清单吗？"
     },
     {
       "id": 107,
@@ -819,7 +819,7 @@
       "type": "paragraph",
       "sourceHash": "0849b4521db85b31ce6adbd2e96079e91e86e0f3c0a60a7086fb77513658f410",
       "enMarkdown": "The thing is, VCs are pretty good at reading people. So don't try to act tough with them unless you really are the next Google, or they'll see through you in a second. Instead of acting tough, what most startups should do is simply always have a backup plan. Always have some alternative plan for getting started if any given investor says no. Having one is the best insurance against needing one.",
-      "zhMarkdown": "问题是，VC 非常擅长看人。所以除非你真的是下一个 Google，否则不要试图对他们装腔作势，因为他们一秒钟就能看穿你。大多数创业公司不应该装腔作势，而应该总是有一个备用计划。如果在任何特定的投资人说不时，总有另一个备用计划可以开始。拥有一个备用计划是防止需要它的最好保险。"
+      "zhMarkdown": "问题在于，风投非常擅长察言观色。所以除非你真是下一个 Google，否则别轻易跟他们摆出一副强硬姿态，他们一眼就能看穿。比起故作强硬，绝大多数创业公司更该做的是：永远留有后手。无论哪位投资人说了“不”，手头都永远有一套能把事情做下去的备选方案。拥有退路，就是让自己永远不必走上退路的最好保障。"
     },
     {
       "id": 117,
@@ -847,14 +847,14 @@
       "type": "paragraph",
       "sourceHash": "18f4f646a4f89ddacbd0709ac1c5be94ef10551a0d87535bfd7bbb8737cd900c",
       "enMarkdown": "[1] I may be underestimating VCs. They may play some behind the scenes role in IPOs, which you ultimately need if you want to create a silicon valley.",
-      "zhMarkdown": "[1] 我可能低估了 VC。他们可能在 IPO 中扮演了一些幕后角色，如果你最终想创造一个硅谷，你确实需要 IPO。"
+      "zhMarkdown": "[1] 我可能低估了风投的作用。他们或许在 IPO 阶段扮演了某些幕后角色，而如果你想打造硅谷，IPO 终究是必不可少的。"
     },
     {
       "id": 121,
       "type": "paragraph",
       "sourceHash": "c147468492d7b505573b154eff0901559303c3be22a4300006ad90a96ff682ce",
       "enMarkdown": "[2] A few VCs have an email address you can send your business plan to, but the number of startups that get funded this way is basically zero. You should always get a personal introduction—and to a partner, not an associate.",
-      "zhMarkdown": "[2] 少数 VC 有一个你可以发送商业计划书的邮箱，但通过这种方式获得融资的创业公司数量基本为零。你总是应该通过熟人引荐——而且要引荐给合伙人，而不是投资经理。"
+      "zhMarkdown": "[2] 有少数几家风投提供了接收商业计划书的邮箱，但通过这种方式拿到钱的创业公司基本上为零。你永远应该寻求熟人引荐——而且要引荐给合伙人，而不是投资经理。"
     },
     {
       "id": 122,
@@ -868,7 +868,7 @@
       "type": "paragraph",
       "sourceHash": "df864f12b33c681c6175aae577707e5f7f39011a17c722051821385b43178a4c",
       "enMarkdown": "[4] Actually this sounds to me like a VC who got buyer's remorse, then used a technicality to get out of the deal. But it's telling that it even seemed a plausible excuse.",
-      "zhMarkdown": "[4] 实际上，这在我听起来像是一个 VC 产生了买家悔单，然后利用一个技术细节退出了交易。但即便这看起来是个说得通的借口，也说明了问题。"
+      "zhMarkdown": "[4] 在我听来，这其实更像是个风投反悔了，然后拿技术细节当借口来推脱交易。但连这也算得上个像样的借口，本身就很说明问题了。"
     },
     {
       "id": 124,

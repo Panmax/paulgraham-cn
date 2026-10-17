@@ -4,10 +4,10 @@
   "titleZh": "潜水艇",
   "dateText": "April 2005",
   "publishedAt": "2005-04-01",
-  "sourceOrder": 184,
+  "sourceOrder": 186,
   "sourceUrl": "https://paulgraham.com/submarine.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -84,7 +84,7 @@
       "type": "paragraph",
       "sourceHash": "cb59a848df7fd26d0b7eb227ff5ba1be3c33d5dbfa7e5b4c9093a1fc77d34a9e",
       "enMarkdown": "At the other extreme are publications like the *New York Times* and the *Wall Street Journal*. Their reporters do go out and find their own stories, at least some of the time. They'll listen to PR firms, but briefly and skeptically. We managed to get press hits in almost every publication we wanted, but we never managed to crack the print edition of the *Times*. [[3](#f3n)]",
-      "zhMarkdown": "而在另一个极端，则是像《纽约时报》和《华尔街日报》这样的顶级媒体。他们的记者确实会自己出去跑新闻，至少部分时间是这样。他们也会听取公关公司的意见，但时间很短，且满腹狐疑。我们几乎在所有想上的媒体上都成功拿到了曝光，但唯独没能攻克《纽约时报》的印刷版。[[3](#f3n)]"
+      "zhMarkdown": "另一个极端则是像《纽约时报》（*New York Times*）和《华尔街日报》（*Wall Street Journal*）这样的刊物。他们的记者确实会跑出去自己挖掘选题，至少有时会这样做。他们也会听公关公司说两句，但时间简短，态度怀疑。我们几乎搞定了所有想上的刊物，但始终没能挤进《纽约时报》（*Times*）的纸质版。[[3](#f3n)]"
     },
     {
       "id": 12,
@@ -175,7 +175,7 @@
       "type": "paragraph",
       "sourceHash": "822cc81b036099e4562a2d7507ff27ce98f079155fc6dc092afa62af1b7cf632",
       "enMarkdown": "[Casual\nfridays are out and dress codes are in](http://bostonworks.boston.com/globe/articles/091904_suit.html) writes Diane E. Lewis in *The Boston Globe*. In a remarkable coincidence, Ms. Lewis's industry contacts also include the creative director of GQ.",
-      "zhMarkdown": "戴安·E·刘易斯（Diane E. Lewis）在《波士顿环球报》上写道：[“便装星期五已经过时，着装规范重新抬头”](http://bostonworks.boston.com/globe/articles/091904_suit.html)。惊人巧合的是，刘易斯女士的行业人脉里也包括了《GQ》杂志的创意总监。"
+      "zhMarkdown": "戴安·E·刘易斯（Diane E. Lewis）在《波士顿环球报》（*The Boston Globe*）上写道：[“便装星期五已经出局，着装规范卷土重来”](http://bostonworks.boston.com/globe/articles/091904_suit.html)。巧合得惊人的是，刘易斯女士的业内联络人里也包括《GQ》的创意总监。"
     },
     {
       "id": 25,
@@ -196,7 +196,7 @@
       "type": "paragraph",
       "sourceHash": "066be6c30e9df990f893eaf71a4ac44ce1336b09b87f9bb8dc607b60443ad04e",
       "enMarkdown": "[Dressing\ndown loses appeal as men suit up at the office](http://www.detnews.com/2004/careers/0405/28/b01-149207.htm) writes Tenisha Mercer of *The Detroit News*.",
-      "zhMarkdown": "《底特律新闻报》的特尼莎·默瑟（Tenisha Mercer）写道：[“随着男士在办公室穿起西装，休闲着装失去吸引力”](http://www.detnews.com/2004/careers/0405/28/b01-149207.htm)。"
+      "zhMarkdown": "《底特律新闻报》（*The Detroit News*）的特尼莎·默瑟（Tenisha Mercer）写道：[“随性着装失去吸引力，职场男士重新穿起西装”](http://www.detnews.com/2004/careers/0405/28/b01-149207.htm)。"
     },
     {
       "id": 28,
@@ -231,7 +231,7 @@
       "type": "paragraph",
       "sourceHash": "63110d461ccb33f25f861c687153a677844037a2754ed079247951f076cf9193",
       "enMarkdown": "Online, the answer tends to be a lot simpler. Most people who publish online write what they write for the simple reason that they want to. You can't see the fingerprints of PR firms all over the articles, as you can in so many print publications-- which is one of the reasons, though they may not consciously realize it, that readers trust bloggers more than *Business Week*.",
-      "zhMarkdown": "在网上，答案往往要简单得多。大多数在网上发表内容的人，写东西的原因很简单：他们自己想写。你不会在文章里看到公关公司处心积虑留下的指纹，而在许多纸媒上这种指纹无处不在。这就是为什么读者直觉上更信任博客作者，而不是《商业周刊》的原因之一，尽管他们自己可能还没意识到这一点。"
+      "zhMarkdown": "在网上，答案往往要简单得多。大多数在网上发表文章的人，其写作的理由极其纯粹：就是自己想写。你不会像在那么多纸媒上那样，满篇都能看到公关公司留下的指纹——这也正是读者信任博主胜过信任《商业周刊》（*Business Week*）的原因之一，即便读者自己或许并未自觉意识到这一点。"
     },
     {
       "id": 33,
@@ -252,7 +252,7 @@
       "type": "paragraph",
       "sourceHash": "50111fa2677bfcbb3605ffe1663abb2c5b8368607dd7126e91c9038f70d86125",
       "enMarkdown": "Why? I think the main reason is that the writing online is more honest. Imagine how incongruous the *New York Times* article about suits would sound if you read it in a blog:",
-      "zhMarkdown": "为什么？我认为最主要的原因是网上的写作更真诚。试想一下，如果把《纽约时报》那篇关于西装的文章放到博客里，读起来会有多违和："
+      "zhMarkdown": "为什么？我认为主要原因是网上的文字更诚实。想象一下，如果把《纽约时报》（*New York Times*）那篇关于西装的文章放到博客里，读起来该有多别扭："
     },
     {
       "id": 36,
@@ -280,7 +280,7 @@
       "type": "paragraph",
       "sourceHash": "aaa6079effc0a519f3e104373df97f1b08fc788c473c05ff736ed16f525d988c",
       "enMarkdown": "I didn't realize, till there was an alternative, just how artificial most of the writing in the mainstream media was. I'm not saying I used to believe what I read in *Time* and *Newsweek*. Since high school, at least, I've thought of magazines like that more as guides to what ordinary people were being [told](https://paulgraham.com/say.html) to think than as sources of information. But I didn't realize till the last few years that writing for publication didn't have to mean writing that way. I didn't realize you could write as candidly and informally as you would if you were writing to a friend.",
-      "zhMarkdown": "在出现替代品之前，我从未意识到主流媒体的写作有多么虚伪。我不是说我以前相信《时代》和《新闻周刊》上的内容。至少从高中起，我就觉得这类杂志更像是“普通人被[要求](https://paulgraham.com/say.html)去思考什么”的指南针，而不是真正的信息源。但直到最近几年我才明白，公开发表的文章并不一定非要用那种腔调来写。我没想到，你完全可以用像给朋友写信那样坦诚、随性的笔触来写作。"
+      "zhMarkdown": "直到有了替代选择，我才意识到主流媒体上的绝大多数文字有多么虚假造作。我并不是说我以前多相信《时代》（*Time*）和《新闻周刊》（*Newsweek*）上的内容。至少从高中起，我就觉得这类杂志与其说是信息来源，不如说是普通人被[教导](https://paulgraham.com/say.html)该去想什么的指南。但直到最近几年我才明白，公开发表的写作并不一定要写成那种腔调。我以前压根不知道，写文章原来也可以像给朋友写信一样，写得如此坦诚、随性。"
     },
     {
       "id": 40,
@@ -329,7 +329,7 @@
       "type": "paragraph",
       "sourceHash": "69e2b7f4b9cd2980b9ecaeac62b42ba0cf9abbe05a54d5e4a183b2424f3f4c0f",
       "enMarkdown": "[3] Different sections of the *Times* vary so much in their standards that they're practically different papers. Whoever fed the style section reporter this story about suits coming back would have been sent packing by the regular news reporters.",
-      "zhMarkdown": "[3] 《纽约时报》不同版面的标准差异巨大，简直像不同的报纸。把“西装重返”这种故事塞给时尚版记者的公关，要是碰到常规新闻版的记者，早就被扫地出门了。"
+      "zhMarkdown": "[3] 《纽约时报》（*Times*）不同版块的衡量标准差异极大，简直就像几份截然不同的报纸。把这篇西装回归的报道喂给风尚版记者的那帮人，要是去找正规新闻版面的记者，早就被扫地出门了。"
     },
     {
       "id": 47,
@@ -364,7 +364,7 @@
       "type": "paragraph",
       "sourceHash": "76ff6bd98afbc92e5b633fdf759afdb9cc17629e210e188622c582ab79b1da51",
       "enMarkdown": "**Correction:** Earlier versions used a recent *Business Week* article mentioning del.icio.us as an example of a press hit, but Joshua Schachter tells me it was spontaneous.",
-      "zhMarkdown": "**勘误：** 早期版本曾引用最近《商业周刊》一篇提到 del.icio.us 的文章作为公关植入的例子，但 Joshua Schachter 告诉我那是媒体自发的报道。"
+      "zhMarkdown": "**勘误：** 本文早期版本曾引用《商业周刊》（*Business Week*）近期提及 del.icio.us 的报道作为公关植入的案例，但约书亚·沙克特（Joshua Schachter）告诉我那篇报道完全是记者自发的。"
     }
   ]
 }

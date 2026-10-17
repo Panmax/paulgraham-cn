@@ -4,16 +4,16 @@
   "titleZh": "书呆子的复仇",
   "dateText": "May 2002",
   "publishedAt": "2002-05-01",
-  "sourceOrder": 212,
+  "sourceOrder": 214,
   "sourceUrl": "https://paulgraham.com/icad.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
-      "id": 1,
+      "id": 94,
       "type": "rawUnsupported",
-      "sourceHash": "3ed4216424548e35ad2d28309a58a2c7e10809353d48caf8726485acc8d9e2ac",
-      "enMarkdown": "\"We were after the C++ programmers. We managed to drag a lot of them about halfway to Lisp.\"- Guy Steele, co-author of the Java spec\n\"We were after the C++ programmers. We managed to drag a lot of them about halfway to Lisp.\"- Guy Steele, co-author of the Java spec"
+      "sourceHash": "97bbe259171b4e6fc07ad07b10cca647c65a0d67051b1b6f65c9fb60f6333aef",
+      "enMarkdown": "\"We were after the C++ programmers. We managed to drag a lot of them about halfway to Lisp.\"- Guy Steele, co-author of the Java spec"
     },
     {
       "id": 2,
@@ -69,7 +69,7 @@
       "type": "paragraph",
       "sourceHash": "a443e734ceb771e1109c4d543e84aee89c4b38c5b3ccb17dd104333fb091892b",
       "enMarkdown": "So, who's right? James Gosling, or the pointy-haired boss? Not surprisingly, Gosling is right. Some languages *are* better, for certain problems, than others. And you know, that raises some interesting questions. Java was designed to be better, for certain problems, than C++. What problems? When is Java better and when is C++? Are there situations where other languages are better than either of them?",
-      "zhMarkdown": "那么，谁是对的？詹姆斯·高斯林，还是尖头发的老板？毫无疑问，高斯林是对的。在解决特定问题时，某些语言确实比其他语言更好。这引发了一些有趣的问题。Java 的设计初衷是在某些问题上比 C++ 更好。哪些问题？Java 什么时候更好，C++ 又什么时候更好？是否有某些场景，其他语言比这两者都更好？"
+      "zhMarkdown": "那么，谁是对的？詹姆斯·高斯林，还是尖头老板？毫不意外，高斯林是对的。对于某些特定问题，某些语言*确实*比其他语言更好。你看，这就引出了一些耐人寻味的问题。Java 被设计出来，是为了在某些问题上优于 C++。究竟是哪些问题？Java 什么时候比 C++ 更好，C++ 又在什么时候更胜一筹？是否存在某些场景，其他语言比它们二者都要好？"
     },
     {
       "id": 10,
@@ -349,7 +349,7 @@
       "type": "paragraph",
       "sourceHash": "fed84d3adbffecb5b88c466020db001523e44c4d8f4ad0465335039cc53caae8",
       "enMarkdown": "I'm not saying that you won't get a lot of pressure to use what are perceived as \"standard\" technologies. At Viaweb (now Yahoo Store), we raised some eyebrows among VCs and potential acquirers by using Lisp. But we also raised eyebrows by using generic Intel boxes as servers instead of \"industrial strength\" servers like Suns, for using a then-obscure open-source Unix variant called FreeBSD instead of a real commercial OS like Windows NT, for ignoring a supposed e-commerce standard called [SET](http://news.com.com/2100-1017-225723.html) that no one now even remembers, and so on.",
-      "zhMarkdown": "我并不是说你不会面临巨大的压力去使用那些所谓的“标准”技术。在 Viaweb（现在的 Yahoo Store）时期，我们因为使用 Lisp，引起了风险投资人和潜在收购方的侧目。但我们同样因为使用通用的 Intel 机器作为服务器而不是像 Sun 这样“工业级”的服务器而引起侧目，因为使用当时还默默无闻、名为 FreeBSD 的开源 Unix 变体而不是像 Windows NT 这样真正的商业操作系统而引起侧目，因为忽视了当时被称为电子商务标准、如今已无人记得的 [SET](http://news.com.com/2100-1017-225723.html) 协议而引起侧目，等等。"
+      "zhMarkdown": "我并不是说你不会面临巨大压力去采用那些被视为“标准”的技术。在 Viaweb（现为 Yahoo Store），我们因为使用 Lisp，在风投和潜在收购方眼里引来了不少侧目。但引来侧目的还不止这个：我们用普通的 Intel 机器当服务器，而没用 Sun 那种“工业级”服务器；我们用当时还默默无闻的开源 Unix 变种 FreeBSD，而没用 Windows NT 这样正规的商业操作系统；我们无视了那个如今连名字都没人记得的所谓电子商务标准 [SET](http://news.com.com/2100-1017-225723.html)，诸如此类。"
     },
     {
       "id": 50,
@@ -363,7 +363,7 @@
       "type": "paragraph",
       "sourceHash": "f73034ff8b00d0142fc24750add18d0f0cb6ed8b56d2d0fbfd274f9897095eb1",
       "enMarkdown": "If you start a startup, don't design your product to please VCs or potential acquirers. *Design your product to please\nthe users.* If you win the users, everything else will follow. And if you don't, no one will care how comfortingly orthodox your technology choices were.",
-      "zhMarkdown": "如果你创办一家创业公司，不要为了讨好风险投资人或潜在收购方来设计你的产品。*设计你的产品是为了取悦用户。* 如果你赢得了用户，其他一切都会随之而来。而如果你没能赢得用户，没人会在意你的技术选择有多么令人安心的传统。"
+      "zhMarkdown": "如果你开办一家创业公司，别为了讨好风投或潜在收购方去设计产品。*设计产品是为了取悦用户。* 只要赢得了用户，其他一切自会水到渠成。而要是没拿下用户，根本不会有人在乎你在技术选型上有多么令人安心地循规蹈矩。"
     },
     {
       "id": 52,
@@ -398,7 +398,7 @@
       "type": "paragraph",
       "sourceHash": "8c83720eb84c46e7e32937744f817663ae16c6040194e40f2e7cd2e691c51765",
       "enMarkdown": "Code size is important, because the time it takes to write a program depends mostly on its length. If your program would be three times as long in another language, it will take three times as long to write-- and you can't get around this by hiring more people, because beyond a certain size new hires are actually a net lose. Fred Brooks described this phenomenon in his famous book *The Mythical Man-Month,* and everything I've seen has tended to confirm what he said.",
-      "zhMarkdown": "代码规模非常重要，因为编写程序所需的时间主要取决于其长度。如果你的程序用另一种语言写会是现在的三倍长，那么编写它就要花三倍的时间——而且你无法通过雇佣更多的人来解决这个问题，因为超过一定规模，新雇员实际上会带来净损失。弗雷德·布鲁克斯（Fred Brooks）在他著名的《人月神话》一书中描述了这一现象，而我所见的一切都倾向于证实他所说的话。"
+      "zhMarkdown": "代码规模至关重要，因为写一个程序所需的时间主要取决于它的长度。如果你的程序用另一种语言写出来会膨胀到三倍长，那写完它就得花上三倍的时间——而且你无法通过增派人手来绕过这一点，因为团队规模一旦超过某个临界点，新招进来的人实际上只会带来净损耗。弗雷德·布鲁克斯在他著名的《人月神话》（*The Mythical Man-Month*）一书中描述过这种现象，而据我所见，一切都在印证他的论断。"
     },
     {
       "id": 57,
@@ -550,7 +550,7 @@
       "type": "paragraph",
       "sourceHash": "4496b45065717591a5dd1e6e00fe45d67e5f1370c59f9f711f5250096777d566",
       "enMarkdown": "Python experts seem to agree that this is the preferred way to solve the problem in Python, writing either  def foo(n): class acc: def __init__(self, s): self.s = s def inc(self, i): self.s += i return self.s return acc(n).inc  or  class foo: def __init__(self, n): self.n = n def __call__(self, i): self.n += i return self.n  I include these because I wouldn't want Python advocates to say I was misrepresenting the language, but both seem to me more complex than the first version. You're doing the same thing, setting up a separate place to hold the accumulator; it's just a field in an object instead of the head of a list. And the use of these special, reserved field names, especially __call__, seems a bit of a hack.",
-      "zhMarkdown": "Python 专家似乎一致认为，这是在 Python 中解决该问题的首选方式，可以写成： `def foo(n): class acc: def __init__(self, s): self.s = s def inc(self, i): self.s += i return self.s return acc(n).inc` 或者： `class foo: def __init__(self, n): self.n = n def __call__(self, i): self.n += i return self.n` 我把这些列出来，是因为我不想让 Python 拥护者说我歪曲了这门语言，但在我看来，这两种方式都比第一种更复杂。你做的是同样的事情，即设置一个独立的地方来保存累加器；只不过它是一个对象中的字段，而不是列表的头部。而且使用这些特殊的保留字段名称，尤其是 `__call__`，看起来有点像临时拼凑的 hack。"
+      "zhMarkdown": "Python 专家们似乎一致认为，在 Python 中解决这个问题的首选方式是这样写：  def foo(n): class acc: def __init__(self, s): self.s = s def inc(self, i): self.s += i return self.s return acc(n).inc  或者这样写：  class foo: def __init__(self, n): self.n = n def __call__(self, i): self.n += i return self.n  我之所以把这两种写法列出来，是因为我不想让 Python 的支持者觉得我歪曲了这门语言，但在我看来，它们都比第一种写法更复杂。你做的事情本质上是一样的，都是另辟一处空间来存放累加器；只不过它是对象里的一个字段，而不是列表的头部。而且使用这些特殊的保留字段名（尤其是 __call__），感觉多少有点像走后门的黑客把戏。"
     },
     {
       "id": 79,
@@ -613,7 +613,7 @@
       "type": "list",
       "sourceHash": "e3c5c3d32d66088b7f8529273b1d0ec8422a7586a51f86b325dca43c271bd9e2",
       "enMarkdown": "- The IBM 704 CPU was about the size of a refrigerator, but a lot heavier. The CPU weighed 3150 pounds, and the 4K of RAM was in a separate box weighing another 4000 pounds. The Sub-Zero 690, one of the largest household refrigerators, weighs 656 pounds.\n- Steve Russell also wrote the first (digital) computer game, Spacewar, in 1962.\n- If you want to trick a pointy-haired boss into letting you write software in Lisp, you could try telling him it's XML.\n- Here is the accumulator generator in other Lisp dialects: \nScheme: (define (foo n) \n          (lambda (i) (set! n (+ n i)) n))\nGoo:    (df foo (n) (op incf n _)))\nArc:    (def foo (n) [++ n _])\n- Erann Gat's sad tale about \"industry best practice\" at JPL inspired me to address this generally misapplied phrase.\n- Peter Norvig found that 16 of the 23 patterns in *Design Patterns* were \"[invisible\nor simpler](http://www.norvig.com/design-patterns/)\" in Lisp.\n- Thanks to the many people who answered my questions about various languages and/or read drafts of this, including Ken Anderson, Trevor Blackwell, Erann Gat, Dan Giffin, Sarah Harlin, Jeremy Hylton, Robert Morris, Peter Norvig, Guy Steele, and Anton van Straaten. They bear no blame for any opinions expressed.",
-      "zhMarkdown": "- IBM 704 CPU 大约有一台冰箱那么大，但要重得多。CPU 重达 3150 磅，而 4K 的内存装在另一个重达 4000 磅的箱子里。Sub-Zero 690（最大的家用冰箱之一）也只有 656 磅。\n- 史蒂夫·罗素（Steve Russell）还在 1962 年编写了第一款（数字）电脑游戏《太空大战》（Spacewar）。\n- 如果你想哄骗一个尖头发的老板让你用 Lisp 写软件，你可以试着告诉他这是 XML。\n- 以下是其他 Lisp 方言中的累加器生成器：\nScheme:\n`(define (foo n) (lambda (i) (set! n (+ n i)) n))`\nGoo:\n`(df foo (n) (op incf n _)))`\nArc:\n`(def foo (n) [++ n _])`\n- 埃兰·加特（Erann Gat）关于喷气推进实验室（JPL）“行业最佳实践”的悲惨故事，激发了我去探讨这个普遍被滥用的词汇。\n- 彼得·诺维格（Peter Norvig）发现，《设计模式》一书中的 23 种模式中，有 16 种在 Lisp 中是“[隐形或更简单](http://www.norvig.com/design-patterns/)”的。\n- 感谢许多回答我关于各种语言的问题和/或阅读了本文草稿的人，包括 Ken Anderson、Trevor Blackwell、Erann Gat、Dan Giffin、Sarah Harlin、Jeremy Hylton、Robert Morris、Peter Norvig、Guy Steele 和 Anton van Straaten。他们不对文中表达的任何观点承担责任。"
+      "zhMarkdown": "- IBM 704 的 CPU 大致和冰箱一样大，但要重得多。CPU 重达 3150 磅，而 4K 的内存则装在另一个重达 4000 磅的箱子里。Sub-Zero 690 作为最大的家用冰箱之一，重 656 磅。\n- 史蒂夫·罗素还在 1962 年编写了第一款（数字）电脑游戏《太空大战》（Spacewar）。\n- 如果你想骗一个尖头老板允许你用 Lisp 写软件，可以试着告诉他这是 XML。\n- 以下是累加器生成器在其他 Lisp 方言中的写法：\nScheme: (define (foo n) \n          (lambda (i) (set! n (+ n i)) n))\nGoo:    (df foo (n) (op incf n _)))\nArc:    (def foo (n) [++ n _])\n- 埃兰·加特在喷气推进实验室关于“行业最佳实践”的伤感故事，促使我写下了针对这个常被滥用词汇的看法。\n- 彼得·诺维格发现，在《设计模式》（*Design Patterns*）列出的 23 种模式中，有 16 种在 Lisp 里是“[隐形或更简单的](http://www.norvig.com/design-patterns/)”。\n- 感谢许多就各种语言回答我提问和/或阅读了本文草稿的人，包括肯·安德森、特雷弗·布莱克韦尔、埃兰·加特、丹·吉芬、莎拉·哈林、杰里米·希尔顿、罗伯特·莫里斯、彼得·诺维格、盖伊·斯蒂尔和安东·范·斯特拉滕。文中表达的任何观点均由我本人负责。"
     },
     {
       "id": 88,

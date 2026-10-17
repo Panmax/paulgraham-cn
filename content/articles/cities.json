@@ -4,10 +4,10 @@
   "titleZh": "城市与野心",
   "dateText": "May 2008",
   "publishedAt": "2008-05-01",
-  "sourceOrder": 134,
+  "sourceOrder": 136,
   "sourceUrl": "https://paulgraham.com/cities.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -427,14 +427,14 @@
       "type": "paragraph",
       "sourceHash": "7ff17c09733c08071dd7f97670f5c7d3865d34715341221b1dc1dd26d6f6c11b",
       "enMarkdown": "[5] If Paris is where people care most about art, why is New York the center of gravity of the art business? Because in the twentieth century, art as brand split apart from art as stuff. New York is where the richest buyers are, but all they demand from art is brand, and since you can base brand on anything with a sufficiently identifiable style, you may as well use the local stuff.",
-      "zhMarkdown": "**感谢** Trevor Blackwell、Sarah Harlin、Jessica Livingston、Jackie McDonough、Robert Morris 和 David Sloo 阅读本文的草稿。"
+      "zhMarkdown": "[5] 如果说巴黎是人们最在乎艺术的地方，那为什么艺术市场的重心会在纽约？因为在二十世纪，作为品牌的艺术与作为实物的艺术彻底分家了。最富有的买家都在纽约，但他们对艺术的要求唯有品牌；而既然任何风格足够鲜明的东西都能立起品牌，那不妨就直接用本地货。"
     },
     {
       "id": 61,
       "type": "paragraph",
       "sourceHash": "6c5ba19c2801d49d92405aaab76e09b47625136945b832c534d9bdec99f9f65b",
       "enMarkdown": "**Thanks** to Trevor Blackwell, Sarah Harlin, Jessica Livingston, Jackie McDonough, Robert Morris, and David Sloo for reading drafts of this.",
-      "zhMarkdown": ""
+      "zhMarkdown": "**感谢** Trevor Blackwell、Sarah Harlin、Jessica Livingston、Jackie McDonough、Robert Morris 和 David Sloo 审阅本文草稿。"
     }
   ]
 }

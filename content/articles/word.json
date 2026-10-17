@@ -4,10 +4,10 @@
   "titleZh": "给开拓型创始人的忠告",
   "dateText": "January 2012",
   "publishedAt": "2012-01-01",
-  "sourceOrder": 91,
+  "sourceOrder": 93,
   "sourceUrl": "https://paulgraham.com/word.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -42,7 +42,7 @@
       "type": "paragraph",
       "sourceHash": "4652fb1a1cfaec845014c804e87a59d3bd08309cb561457887b06fc27f6f047a",
       "enMarkdown": "In much the same way that all you have to do is give the right sort of founder a one line intro to a VC, and he'll chase down the money. That's the connection. Understanding all the implications — even the inconvenient implications — of what someone tells you is a subset of resourcefulness. It's conversational resourcefulness.",
-      "zhMarkdown": "这与你只需给对的创始人介绍一个投资人的联系方式，他就能自己去把钱拿回来是完全一样的道理。这就是两者的关联。理解别人对你说的每一句话的所有延伸含义——哪怕是那些令人不快的含义——本身就是解决问题能力的一部分。这可以称之为“沟通中的解决问题能力”。"
+      "zhMarkdown": "这正如你只要给合适的那种创始人一句引荐风投的介绍，他就能把钱顺藤摸瓜拿到手一样。这就是两者的联系。能够理解别人对你所说的一切深层含义——哪怕是那些令人不快的推论——本身就是善于解决问题的一个子集。这是一种对话层面的善于解决问题。"
     },
     {
       "id": 6,

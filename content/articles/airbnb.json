@@ -4,17 +4,17 @@
   "titleZh": "主题：Airbnb",
   "dateText": "March 2011",
   "publishedAt": "2011-03-01",
-  "sourceOrder": 96,
+  "sourceOrder": 98,
   "sourceUrl": "https://paulgraham.com/airbnb.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "796561115921cc69a2e04aa77215a06e9d073208ad1b2e93a863200301bfaa86",
       "enMarkdown": "Yesterday Fred Wilson published a remarkable [post](http://avc.com/2011/03/airbnb) about missing [Airbnb](http://airbnb.com). VCs miss good startups all the time, but it's extraordinarily rare for one to talk about it publicly till long afterward. So that post is further evidence what a rare bird Fred is. He's probably the nicest VC I know.",
-      "zhMarkdown": "昨天，弗雷德·威尔逊（Fred Wilson）发表了一篇引人瞩目的[博文](http://avc.com/2011/03/airbnb)，谈到自己错失了 [Airbnb](http://airbnb.com)。风险投资人错过优秀的创业公司是常有的事，但极少有人会在很久以后才公开谈论此事。所以，那篇博文进一步证明了弗雷德是多么的与众不同。他可能是我认识的风险投资人里最和善的一位了。"
+      "zhMarkdown": "昨天，Fred Wilson 写了一篇非常难得的[文章](http://avc.com/2011/03/airbnb)，讲述了自己错失 [Airbnb](http://airbnb.com) 的经历。风投错过优秀的创业公司是常有的事，但极少有人会公开谈论，除非事情已经过去了很久。所以那篇文章再次证明了 Fred 是个多么与众不同的人。他大概是我认识的风投里人最好的一个。"
     },
     {
       "id": 2,

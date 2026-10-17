@@ -4,17 +4,17 @@
   "titleZh": "“关于某某事物的 N 点”清单体",
   "dateText": "September 2009",
   "publishedAt": "2009-09-01",
-  "sourceOrder": 112,
+  "sourceOrder": 114,
   "sourceUrl": "https://paulgraham.com/nthings.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "c8d13105d965b6038130274742786fe60c7fa2d292e130554d9f3d1adea00164",
       "enMarkdown": "I bet you the current issue of *Cosmopolitan* has an article whose title begins with a number. \"7 Things He Won't Tell You about Sex,\" or something like that. Some popular magazines feature articles of this type on the cover of every issue. That can't be happening by accident. Editors must know they attract readers.",
-      "zhMarkdown": "我敢跟你打赌，最新一期的《时尚》（Cosmopolitan）杂志里肯定有一篇文章，其标题是以数字开头的。比如“关于性，他不会告诉你的 7 件事”之类。有些大众杂志几乎每期的封面都会推荐这种类型的文章。这绝对不是巧合。编辑们一定很清楚，这类标题对读者有着极强的吸引力。"
+      "zhMarkdown": "我敢打赌，最新一期的《*Cosmopolitan*》里肯定有一篇文章的标题是以数字开头的。比如《关于性，他绝不会告诉你的7件事》，诸如此类。有些畅销杂志甚至每期的封面上都有这类文章。这绝非偶然，编辑们心里很清楚读者就吃这一套。"
     },
     {
       "id": 2,
@@ -84,7 +84,7 @@
       "type": "paragraph",
       "sourceHash": "512c7f8262028535cc3aaba3944a7ccbf0623a85caccd4bbbaece890a4ae213e",
       "enMarkdown": "Because the list of n things is the easiest essay form, it should be a good one for beginning writers. And in fact it is what most beginning writers are taught. The classic 5 paragraph essay is really a list of n things for n = 3. But the students writing them don't realize they're using the same structure as the articles they read in *Cosmopolitan*. They're not allowed to include the numbers, and they're expected to spackle over the gaps with gratuitous transitions (\"Furthermore...\") and cap the thing at either end with introductory and concluding paragraphs so it will look superficially like a real essay. [[2](#f2n)]",
-      "zhMarkdown": "正因为“N 点清单”是最容易的文章格式，它应该很适合写作初学者。事实上，大多数初学者接受的正是这种训练。经典的“五段式作文”（5 paragraph essay）本质上就是 N = 3 的“N 点清单”。但写这种作文的学生并没有意识到，他们使用的结构和在《时尚》杂志上看到的文章是一样的。因为他们不被允许在文中写出数字，而且被要求用一些多余的过渡词（比如“此外……”）来填补段落间的空白，并在开头和结尾加上引入段和总结段，好让它表面上看起来像一篇真正的文章。[[2](#f2n)]"
+      "zhMarkdown": "既然“N条建议”式清单是最容易的一种文章形式，理应非常适合写作初学者。事实上，大多数初学者学到的也正是这种形式。经典的五段式文章，骨子里其实就是 N = 3 的清单体。只是写这些文章的学生并不知道，自己用的结构其实和他们在《*Cosmopolitan*》上读到的文章如出一辙。老师不允许他们写出数字标号，还要求他们用生搬硬套的过渡词（比如“此外……”）去抹平缝隙，并在首尾两头各加上引言段和结论段，好让它表面上看起来像一篇正儿八经的文章。[[2](#f2n)]"
     },
     {
       "id": 12,
@@ -98,7 +98,7 @@
       "type": "paragraph",
       "sourceHash": "d5dd59275fd54781cc0cbc54bd16f184365171df7e65ee940a7d4f89d08d7fe2",
       "enMarkdown": "There is one case where the list of n things is a dishonest format: when you use it to attract attention by falsely claiming the list is an exhaustive one. I.e. if you write an article that purports to be about *the* 7 secrets of success. That kind of title is the same sort of reflexive challenge as a whodunit. You have to at least look at the article to check whether they're the same 7 you'd list. Are you overlooking one of the secrets of success? Better check.",
-      "zhMarkdown": "有一种情况下的“N 点清单”是不诚实的：当你用它来博取眼球，虚假地声称该清单是穷尽无遗的时候。也就是说，如果你写了一篇文章，声称是关于“成功必备的 7 个秘诀”。这种标题就像侦探小说一样，是对读者本能的挑衅。你至少得看一眼这篇文章，好确认这 7 个秘诀是不是你也会列出的那 7 个。你是不是漏掉了哪个成功的秘诀？最好还是点进去看看。"
+      "zhMarkdown": "有一种情况下，“N条建议”式清单会变成一种不诚实的形式：那就是为了博人眼球，谎称这份清单已经穷尽了一切。比如，写一篇自称揭示了成功*之*7大秘诀的文章。这种标题就像侦探小说一样，会引发人的一种下意识反应：你至少得瞄一眼文章，看看这7条跟自己想的是不是一回事。你是不是漏掉了某条成功的秘诀？最好确认一下。"
     },
     {
       "id": 14,

@@ -4,10 +4,10 @@
   "titleZh": "两种评判",
   "dateText": "April 2007",
   "publishedAt": "2007-04-01",
-  "sourceOrder": 155,
+  "sourceOrder": 157,
   "sourceUrl": "https://paulgraham.com/judgement.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "36a60d7690cba43de317e0e6ad060800cd21238e09e0fd10cf895d205748f7e7",
       "enMarkdown": "One thing that leads us astray here is that the selector seems to be in a position of power. That makes him seem like a judge. If you regard someone judging you as a customer instead of a judge, the expectation of fairness goes away. The author of a good novel wouldn't complain that readers were *unfair* for preferring a potboiler with a racy cover. Stupid, perhaps, but not unfair.",
-      "zhMarkdown": "让我们产生误解的一个原因，是选拔者似乎处于权力地位。这让他们看起来像个法官。但如果你把评判你的人看作顾客而不是法官，对公平的期待就会消失。一本优秀小说的作者不会抱怨读者偏爱一本封面低俗的廉价畅销书是“不公平”的。这或许很愚蠢，但谈不上不公平。"
+      "zhMarkdown": "这里容易让我们想偏的一点在于，筛选者似乎处于掌权的地位。这让他看起来像个法官。但如果你把评判你的人看作顾客而不是法官，对公平的期待就会烟消云散。一本好小说的作者不会抱怨读者更喜欢封面火辣的通俗读物是*不公平*的。也许愚蠢，但谈不上不公平。"
     },
     {
       "id": 9,

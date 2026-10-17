@@ -4,10 +4,10 @@
   "titleZh": "一种新型的创投物种",
   "dateText": "March 2008",
   "publishedAt": "2008-03-01",
-  "sourceOrder": 142,
+  "sourceOrder": 144,
   "sourceUrl": "https://paulgraham.com/ycombinator.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,21 +63,21 @@
       "type": "paragraph",
       "sourceHash": "1405ba5330e7fa75836e5d128630e4bcb9598b631be094d725ede33a5db1d0e0",
       "enMarkdown": "Before us, most companies in the startup funding business were venture capital funds. VCs generally fund later stage companies than we do. And they supply so much money that, even though the other things they do may be very valuable, it's not that inaccurate to regard VCs as sources of money. Good VCs are \"smart money,\" but they're still money.",
-      "zhMarkdown": "在 YC 出现之前，创业投资领域的大多数机构都是风险投资（VC）基金。VC 资助的企业阶段通常比我们晚得多。而且他们提供的资金量如此庞大，以至于即便他们提供的其他帮助非常有价值，把 VC 仅仅看作“资金来源”也算不上太离谱。优秀的 VC 是“聪明的钱”，但归根结底依然是钱。"
+      "zhMarkdown": "在我们之前，做创业投资业务的公司大多是风险投资基金。风投投资的公司阶段通常比我们更靠后。他们给的钱数额如此巨大，以至于即便他们能提供的其他帮助非常宝贵，把风投直接视作资金来源也不算太离谱。优秀的风投固然是“聪明钱”，但归根结底依然是钱。"
     },
     {
       "id": 9,
       "type": "paragraph",
       "sourceHash": "55fb99569f4bfc53531c64e3870bcb52715eb23dfcc5759d32f76776be498038",
       "enMarkdown": "All good investors supply a combination of money and help. But these scale differently, just as volume and surface area do. Late stage investors supply huge amounts of money and comparatively little help: when a company about to go public gets a mezzanine round of $50 million, the deal tends to be almost entirely about money. As you move earlier in the venture funding process, the ratio of help to money increases, because earlier stage companies have different needs. Early stage companies need less money because they're smaller and cheaper to run, but they need more help because life is so precarious for them. So when VCs do a series A round for, say, $2 million, they generally expect to offer a significant amount of help along with the money.",
-      "zhMarkdown": "所有优秀的投资人都会同时提供资金和帮助。但这两者的缩放规律不同，就像体积和表面积一样。后期投资人提供巨额资金，但提供的帮助相对较少：当一家即将上市的公司获得 5000 万美元的夹层融资时，这笔交易几乎完全是关于钱的。而在投资阶段越往早期走，帮助与资金的比例就越高，因为早期阶段的公司有着不同的需求。早期公司需要的钱较少，因为它们规模小、运营成本低；但它们需要更多的帮助，因为它们的生活极其脆弱、充满变数。因此，当 VC 进行一笔比如 200 万美元的 A 轮融资时，他们通常会期望在提供资金的同时，也提供大量的帮助。"
+      "zhMarkdown": "优秀的投资人都会同时提供资金和帮助。但这两者的增长规律不同，就像体积和表面积一样。后期投资人提供巨额资金，但帮助相对较少：当一家即将上市的公司拿到 5000 万美元的夹层融资时，这笔交易往往几乎纯粹就是为了钱。越往创投流程的前期走，帮助与资金的比例就越高，因为更早期的公司有着完全不同的需求。早期公司需要的钱更少，因为它们规模小、开销低；但它们需要更多的帮助，因为它们随时可能夭折。因此，当风投做一笔比如 200 万美元的 A 轮投资时，通常也会预期在给钱的同时提供大量的帮助。"
     },
     {
       "id": 10,
       "type": "paragraph",
       "sourceHash": "e99c0e5d970567de38cb8ce11b7850171fd48fb79c642abfda10b1d6b485e395",
       "enMarkdown": "Y Combinator occupies the earliest end of the spectrum. We're at least one and generally two steps before VC funding. (Though some startups go straight from YC to VC, the most common trajectory is to do an angel round first.) And what happens at Y Combinator is as different from what happens in a series A round as a series A round is from a mezzanine financing.",
-      "zhMarkdown": "Y Combinator 处于这个光谱的最前端。我们比 VC 融资至少早一步，通常是两步。（虽然有些创业公司会直接从 YC 跨越到 VC，但最常见的轨迹是先进行天使轮融资。）在 Y Combinator 发生的事情，与在 A 轮融资中发生的事情，其差异之大，就像 A 轮融资与夹层融资的差异一样。"
+      "zhMarkdown": "Y Combinator 处在这个光谱的最前端。我们在风投之前至少隔了一步，通常是两步。（虽然有些创业公司能从 YC 直接拿到风投，但最常见的路径还是先融一轮天使轮。）在 Y Combinator 里发生的事情，与 A 轮融资完全不同，其差异就像 A 轮融资与夹层融资之间的差异一样大。"
     },
     {
       "id": 11,
@@ -140,14 +140,14 @@
       "type": "paragraph",
       "sourceHash": "d047e1495adf493a524fd53a6fe3cd0fc610fbecf05ffd505c9320a1d00ee6fd",
       "enMarkdown": "Because the early problems are so much about technology and design, you probably need to be hackers to do what we do. While some VCs have technical backgrounds, I don't know any who still write code. Their expertise is mostly in business—as it should be, because that's the kind of expertise you need in the phase between series A and (if you're lucky) IPO.",
-      "zhMarkdown": "因为早期的问题很大程度上关乎技术和设计，所以你可能需要是黑客出身，才能做我们所做的事。虽然有些 VC 拥有技术背景，但我没见过哪个 VC 现在还在写代码。他们的专业知识主要在商业领域——本来也该如此，因为这正是 A 轮到上市（如果足够幸运的话）这一阶段所需要的专业知识。"
+      "zhMarkdown": "因为早期的难题大多关乎技术和设计，要想做我们做的事，你大概得本身就是黑客。虽然有些风投具备技术背景，但我还没见过哪个风投如今还在写代码的。他们的专业能力大多在商业层面——这也理所应当，因为从 A 轮到（如果足够幸运的话）IPO 这一阶段，你需要的正是这种商业专长。"
     },
     {
       "id": 20,
       "type": "paragraph",
       "sourceHash": "c017d1d1d12749cc6d50ebb25022c94798451cbf1b94d6eea02fea73b217fa8d",
       "enMarkdown": "We're so different from VCs that we're really a different kind of animal. Can we claim founders are better off as a result of this new type of venture firm? I'm pretty sure the answer is yes, because YC is an improved version of what happened to our startup, and our case was not atypical. We started Viaweb with $10,000 in seed money from our friend Julian. He was a lawyer and arranged all our paperwork, so we could just code. We spent three months building a version 1, which we then presented to investors to raise more money. Sounds familiar, doesn't it? But YC improves on that significantly. Julian knew a lot about law and business, but his advice ended there; he was not a startup guy. So we made some basic mistakes early on. And when we presented to investors, we presented to only 2, because that was all we knew. If we'd had our later selves to encourage and advise us, and Demo Day to present at, we would have been in much better shape. We probably could have raised money at 3 to 5 times the valuation we did.",
-      "zhMarkdown": "我们和 VC 如此不同，以至于我们真的是一种不同的物种。那么，这种新型的创业投资机构是否让创始人受益更多？我很确定答案是肯定的，因为 YC 就是我们当年创业经历的升级版，而我们的情况绝非特例。我们创办 Viaweb 时，从朋友 Julian 那里拿到了 1 万美元的种子资金。他是一位律师，帮我们处理了所有的法务文件，这样我们就可以专心写代码。我们花了三个月时间开发出 1.0 版本，然后向投资人展示以筹集更多资金。听起来很耳熟，对吧？但 YC 在这之上做了巨大的改进。Julian 对法律和商业很在行，但他的建议仅限于此；他并不是个懂创业的人。所以我们在早期犯了一些低级错误。而且当我们向投资人展示时，我们只联系了两位，因为我们只认识这两个。如果我们当年能有后来的自己来给予鼓励和指导，并且能在 Demo Day 上进行展示，我们的处境会好得多。我们当时的估值可能会比实际拿到的高出 3 到 5 倍。"
+      "zhMarkdown": "我们与风投截然不同，完全算得上是另一种动物。那么，我们能说创始人因为这种新型创投机构而获益更多吗？我非常确信答案是肯定的，因为 YC 本质上就是我们当年创业经历的升级版，而我们的情况并非个例。当年我们创办 Viaweb 时，是从朋友朱利安（Julian）那里拿了 1 万美元的种子资金。他是律师，帮我们把所有法律手续办得妥妥当当，好让我们一门心思写代码。我们花了三个月做出第一个版本，然后展示给投资人看以募集更多资金。听起来很耳熟，对吧？但 YC 在此基础上做了大幅改进。朱利安精通法律和商业，但他的建议仅限于此；他并不是个懂创业的人。所以我们早期犯了一些低级错误。而当我们向投资人展示时，只找了两位投资人，因为我们当时只认识这两位。如果我们当年能有后来积累了经验的自己给予鼓励和建议，能有 Demo Day 这样的平台去展示，处境绝对会好得多。我们当时的融资估值很可能会是实际估值的 3 到 5 倍。"
     },
     {
       "id": 21,
@@ -161,7 +161,7 @@
       "type": "paragraph",
       "sourceHash": "4bf0ee7f6e892b3c42581778da9649748be86611ef30ca7fa135a6421f74e1a8",
       "enMarkdown": "So who is our 7% coming out of? If the founders end up net ahead it's not coming out of them. So is it coming out of later stage investors? Well, they do end up paying more. But I think they pay more because the company is actually more valuable. And later stage investors have no problem with that. The returns of a VC fund depend on the quality of the companies they invest in, not how cheaply they can buy stock in them.",
-      "zhMarkdown": "那么，这 7% 的股份到底是从谁身上抠出来的？如果创始人最终的净收益增加了，那自然不是从他们身上出的。那会是后期的投资人吗？确实，他们最终支付了更高的价格。但我认为他们付更多的钱，是因为这家公司实际上变得更有价值了。后期的投资人对此毫无意见。VC 基金的回报取决于他们投资的公司的质量，而不是他们买入股票时有多便宜。"
+      "zhMarkdown": "那么，我们的这 7% 到底是从谁身上抠出来的呢？既然创始人最终赚到了净收益，那肯定不是出自他们。那是出自后期投资人吗？嗯，他们确实最终付出了更高的代价。但我认为他们之所以出价更高，是因为这家公司确实变得更有价值了。而且后期投资人对此完全不介意。风险投资基金的回报取决于他们投资的公司的质量，而不是取决于他们能以多便宜的价格买到股票。"
     },
     {
       "id": 23,
@@ -182,7 +182,7 @@
       "type": "paragraph",
       "sourceHash": "9902fcb5b360e16dfb2fe0f22fe08dfe5af99039a0b4ddff5c07456a4b375af1",
       "enMarkdown": "So in effect what's happened is that a new ecological niche has opened up, and Y Combinator is the new kind of animal that has moved into it. We're not a replacement for venture capital funds. We occupy a new, adjacent niche. And conditions in our niche are really quite different. It's not just that the problems we face are different; the whole structure of the business is different. VCs are playing a zero-sum game. They're all competing for a slice of a fixed amount of \"deal flow,\" and that explains a lot of their behavior. Whereas our m.o. is to create new deal flow, by encouraging hackers who would have gotten jobs to start their own startups instead. We compete more with employers than VCs.",
-      "zhMarkdown": "因此，实际上发生的是一个新的生态位已经开启，而 Y Combinator 就是迁入其中的新物种。我们并不是风险投资基金的替代品。我们占据了一个全新的、相邻的生态位。而我们这个生态位里的生存条件截然不同。不仅我们面临的问题不同，整个业务的结构也完全不同。VC 玩的是零和博弈。他们都在争夺有限的“项目源”（deal flow）份额，这解释了他们的许多行为。而我们的运作方式是通过鼓励那些本可以去打工的黑客去创业，来创造全新的项目源。我们的竞争对手更多是雇主，而不是 VC。"
+      "zhMarkdown": "所以实际上发生的是，一个新的生态位出现了，而 Y Combinator 就是入驻这个生态位的新物种。我们并不是风险投资基金的替代品。我们占据的是一个全新的、相邻的生态位。而在这个生态位里，生存环境大相径庭。不仅我们面临的问题不同，整个业务的底层结构都完全不同。风投玩的是一场零和博弈。大家都在争抢总量固定的“项目源”，这也解释了他们的很多行为模式。而我们的运作方式则是创造新的项目源——鼓励那些原本打算去打工的黑客自己去创办创业公司。与其说我们是在和风投竞争，不如说我们是在和雇主抢人。"
     },
     {
       "id": 26,

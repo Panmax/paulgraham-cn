@@ -4,10 +4,10 @@
   "titleZh": "伟大的黑客",
   "dateText": "July 2004",
   "publishedAt": "2004-07-01",
-  "sourceOrder": 199,
+  "sourceOrder": 201,
   "sourceUrl": "https://paulgraham.com/gh.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "910ec1c33b85f21bac9fa4347537af27679fc791c5b416e7d26a559746a4d550",
       "enMarkdown": "Variation in wealth can be a sign of variation in productivity. (In a society of one, they're identical.) And *that* is almost certainly a good thing: if your society has no variation in productivity, it's probably not because everyone is Thomas Edison. It's probably because you have no Thomas Edisons.",
-      "zhMarkdown": "财富的差距可能源于生产力的差距。（在只有你一个人的社会里，这两者完全等同。）而生产力的差异几乎绝对是一件好事：如果你的社会里没有任何生产力差异，那大概率不是因为人人都是托马斯·爱迪生，而是因为你们那里一个爱迪生都没有。"
+      "zhMarkdown": "财富差异可能是生产力差异的体现。（在只有一个人的社会里，两者完全等同。）而生产力的差异*几乎可以肯定*是件好事：如果一个社会内部毫无生产力差异，大概率不是因为人人都成了托马斯·爱迪生，而是因为这里连一个爱迪生都没有。"
     },
     {
       "id": 8,
@@ -266,7 +266,7 @@
       "type": "paragraph",
       "sourceHash": "dd7f112c1b8ea19bcf1fcd86781612e8f12a80f9e9d99f36fde0183cc167124f",
       "enMarkdown": "The problem is not so much the day to day management. Really good hackers are practically self-managing. The problem is, if you're not a hacker, you can't tell who the good hackers are. A similar problem explains why American cars are so ugly. I call it the *design paradox.* You might think that you could make your products beautiful just by hiring a great designer to design them. But if you yourself don't have good [taste](https://paulgraham.com/taste.html), how are you going to recognize a good designer? By definition you can't tell from his portfolio. And you can't go by the awards he's won or the jobs he's had, because in design, as in most fields, those tend to be driven by fashion and schmoozing, with actual ability a distant third. There's no way around it: you can't manage a process intended to produce beautiful things without knowing what beautiful is. American cars are ugly because American car companies are run by people with bad taste.",
-      "zhMarkdown": "问题不在于日常管理。真正优秀的黑客实际上是自我管理的。问题在于，如果你不是黑客，你就无法分辨谁是好黑客。类似的难题也解释了为什么美国车这么丑。我称之为“设计悖论”。你可能认为，只要雇一个伟大的设计师，就能让产品变得美丽。但如果你自己没有好的[品味](https://paulgraham.com/taste.html)，你又怎么能认出优秀的设计师呢？根据定义，你无法从他的作品集中看出来。你也不能看他得过什么奖或者做过什么工作，因为在设计界以及大多数领域，这些往往是由潮流和社交驱动的，真正的能力顶多排在第三位。这是无法绕过的坎：如果你不知道什么是美，你就无法管理一个旨在生产美的事物的过程。美国车之所以丑，是因为美国汽车公司是由没有品味的人掌管的。"
+      "zhMarkdown": "问题并不在于日常管理。真正顶尖的黑客几乎是自我驱动和管理的。问题在于，如果你自己不是黑客，你根本辨别不出谁是好黑客。一个类似的道理可以解释为什么美国车如此难看。我称之为*设计悖论*。你可能以为只要雇一位优秀的设计师，就能把产品设计得很漂亮。但如果你自己缺乏[品味](https://paulgraham.com/taste.html)，你又怎么认得出谁是好设计师呢？显而易见，你无法通过他的作品集来判断。你也不能看他拿过什么奖、待过什么公司，因为在设计界以及绝大多数领域，那些光环往往是靠跟风炒作和社交钻营挣来的，真正的能力往往只能排在微不足道的第三位。事情就是这么无解：如果你不懂什么是美，你就不可能管理一个旨在创造美的事物的过程。美国汽车之所以丑陋，是因为掌控美国汽车公司的是一群毫无品味的人。"
     },
     {
       "id": 38,
@@ -357,7 +357,7 @@
       "type": "paragraph",
       "sourceHash": "5551129a85a4184390dad8237858a0cbb0e07a62156e0009ddfc96f79cb4a9d7",
       "enMarkdown": "I think, though, that all other things being equal, a company that can attract great hackers will have a huge advantage. There are people who would disagree with this. When we were making the rounds of venture capital firms in the 1990s, several told us that software companies didn't win by writing great software, but through brand, and dominating channels, and doing the right deals.",
-      "zhMarkdown": "不过我认为，在其他条件相同的情况下，能够吸引伟大黑客的公司将拥有巨大的优势。有些人可能不同意这一点。我们在 20 世纪 90 年代拜访风投公司时，好几家风投告诉我们，软件公司赢不赢不靠写出伟大的软件，而是靠品牌、垄断渠道以及做对交易。"
+      "zhMarkdown": "但我认为，在其他条件相同的情况下，能够吸引优秀黑客的公司将拥有巨大的优势。有人会不同意这种看法。1990年代我们四处拜访风险投资机构时，好几家都告诉我们，软件公司胜出靠的不是写出优秀的软件，而是靠品牌、掌控渠道以及达成正确的交易。"
     },
     {
       "id": 51,

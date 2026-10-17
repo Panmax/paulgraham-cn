@@ -4,10 +4,10 @@
   "titleZh": "如何将匹兹堡打造成创业公司中心",
   "dateText": "April 2016",
   "publishedAt": "2016-04-01",
-  "sourceOrder": 58,
+  "sourceOrder": 60,
   "sourceUrl": "https://paulgraham.com/pgh.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -35,7 +35,7 @@
       "type": "paragraph",
       "sourceHash": "13b480e5fe583e96be7feafd788f4edfaa51b4ab43c8aa3e14fa7b7d13464af8",
       "enMarkdown": "What changed my mind was an article I read in, of all places, the *New\nYork Times* food section. The title was \"[Pittsburgh's Youth-Driven\nFood Boom](http://www.nytimes.com/2016/03/16/dining/pittsburgh-restaurants.html).\" To most people that might not even sound interesting, let alone something related to startups. But it was electrifying to me to read that title. I don't think I could pick a more promising one if I tried. And when I read the article I got even more excited. It said \"people ages 25 to 29 now make up 7.6 percent of all residents, up from 7 percent about a decade ago.\" Wow, I thought, Pittsburgh could be the next Portland. It could become the cool place all the people in their twenties want to go live.",
-      "zhMarkdown": "改变我想法的，是《纽约时报》美食版上的一篇文章，这地方可真让人想不到。文章标题是《[匹兹堡由年轻人推动的美食热潮](http://www.nytimes.com/2016/03/16/dining/pittsburgh-restaurants.html)》。对大多数人来说，这个标题听起来甚至毫无吸引力，更不用说和创业公司扯上关系了。但看到这个标题时，我整个人都兴奋了起来。如果让我自己来想，我也想不出比这更令人振奋的标题了。读完文章后，我更加激动。文中提到：“25 到 29 岁的人口目前占当地总居民的 7.6%，高于大约十年前的 7%。” 哇，我想，匹兹堡完全可以成为下一个波特兰。它能变成所有二十多岁的年轻人都向往的酷地方。"
+      "zhMarkdown": "改变我想法的，是一篇居然刊登在《*纽约时报*》美食版上的文章。标题叫《[匹兹堡年轻人带动的餐饮热潮](http://www.nytimes.com/2016/03/16/dining/pittsburgh-restaurants.html)》。对大多数人来说，这听起来可能连有趣都算不上，更别提与创业公司有什么关系了。但读到那个标题时，我整个人都为之一振。就算绞尽脑汁，我觉得自己也选不出一个比这更让人充满希望的标题了。读了那篇文章之后，我甚至更兴奋了。文中写道，“25 至 29 岁的人群目前占全部居民的 7.6%，高于大约十年前的 7%。”我不禁心想：哇，匹兹堡可能会成为下一个波特兰。它能变成所有二十多岁的年轻人都争相定居的酷地方。"
     },
     {
       "id": 5,

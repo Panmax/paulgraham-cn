@@ -4,24 +4,24 @@
   "titleZh": "创始人控制权",
   "dateText": "December 2010",
   "publishedAt": "2010-12-01",
-  "sourceOrder": 97,
+  "sourceOrder": 99,
   "sourceUrl": "https://paulgraham.com/control.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "bcde09e1fe9d460a6b23c0ef4c435788e4bf57f061249a355e53e5869f220c1c",
       "enMarkdown": "Someone we funded is talking to VCs now, and asked me how common it was for a startup's founders to retain control of the board after a series A round. He said VCs told him this almost never happened.",
-      "zhMarkdown": "我们投资过的一位创始人最近正在和风险投资人（VC）接触，他问我，在 A 轮融资之后，创业公司的创始人还能保留董事会控制权，这种情况有多常见。他说，VC 告诉他这几乎是不可能的事情。"
+      "zhMarkdown": "我们投资过的一位创始人最近正在和风投接触，他问我，创业公司的创始人在 A 轮融资后依然掌控董事会的情况有多普遍。他说风投告诉他，这种事几乎闻所未闻。"
     },
     {
       "id": 2,
       "type": "paragraph",
       "sourceHash": "3e733f78d72b5408698012b4221ee8e8344169978f1ce812c62df2c37e3d4ad2",
       "enMarkdown": "Ten years ago that was true. In the past, founders rarely kept control of the board through a series A. The traditional series A board consisted of two founders, two VCs, and one independent member. More recently the recipe is often one founder, one VC, and one independent. In either case the founders lose their majority.",
-      "zhMarkdown": "十年前确实如此。过去，创始人很少能在 A 轮融资后继续控制董事会。传统的 A 轮董事会由两名创始人、两名 VC 和一名独立董事组成。近来，更常见的配方是一个创始人、一个 VC 和一个独立董事。但无论哪种情况，创始人都失去了多数席位。"
+      "zhMarkdown": "十年前确实如此。过去，创始人很少能在经历 A 轮融资后还保住董事会的控制权。传统的 A 轮董事会由两位创始人、两位风投和一位独立董事组成。近来常见的组合则是一位创始人、一位风投和一位独立董事。无论哪种情况，创始人都失去了多数席位。"
     },
     {
       "id": 3,
@@ -42,7 +42,7 @@
       "type": "paragraph",
       "sourceHash": "3a0117aff1dac5eec30a6574b93d44b3c638713fba1f3667fd8c6bfc511026ca",
       "enMarkdown": "I feel like we're at a tipping point here. A lot of VCs still act as if founders retaining board control after a series A is unheard-of. A lot of them try to make you feel bad if you even ask — as if you're a noob or a control freak for wanting such a thing. But the founders I heard from aren't noobs or control freaks. Or if they are, they are, like Mark Zuckerberg, the kind of noobs and control freaks VCs should be trying to fund more of.",
-      "zhMarkdown": "我觉得我们正处于一个转折点。许多 VC 仍然表现得好像创始人在 A 轮之后保留董事会控制权是闻所未闻的。如果你提出这个要求，很多人会试图让你感到无地自容——仿佛有这种想法的你是个菜鸟或者控制狂。但我收到的回复里，那些创始人既不是菜鸟，也不是控制狂。或者，如果他们是的话，他们也是像马克·扎克伯格那样的菜鸟和控制狂，而这正是 VC 应该争取多去投资的那种人。"
+      "zhMarkdown": "我觉得我们正处于一个转折点。许多风投仍然表现得好像创始人在 A 轮后保留董事会控制权是天方夜谭一样。他们中的许多人甚至会让你觉得提出这种要求很羞耻——就好像你想要这种控制权，要么是个什么都不懂的菜鸟，要么是个控制狂。但我收到的回信里，那些创始人既不是菜鸟，也不是控制狂。即便他们是，他们也是像马克·扎克伯格那种风投应该抢着去投资的菜鸟和控制狂。"
     },
     {
       "id": 6,
@@ -70,28 +70,28 @@
       "type": "paragraph",
       "sourceHash": "3ec2adaccb83dbf2a5729a3df58dbde0d135535dd6eb92ce2e80b73ba785b072",
       "enMarkdown": "The switch to the new norm may be surprisingly fast, because the startups that can retain control tend to be the best ones. They're the ones that set the trends, both for other startups and for VCs.",
-      "zhMarkdown": "向新常态的转变可能会出人意料地快，因为能够保留控制权的创业公司往往是最好的那些。正是它们在为其他创业公司和 VC 引领潮流。"
+      "zhMarkdown": "转向这种新常态的速度可能会快得惊人，因为能够保住控制权的创业公司往往是最优秀的那些。正是它们在为其他创业公司和风投树立风向标。"
     },
     {
       "id": 10,
       "type": "paragraph",
       "sourceHash": "cce0a10e32c45e94b585aad23a0bbb3bc87ff494d72e24fe2f4624396fbfb8dc",
       "enMarkdown": "A lot of the reason VCs are harsh when negotiating with startups is that they're embarrassed to go back to their partners looking like they got beaten. When they sign a termsheet, they want to be able to brag about the good terms they got. A lot of them don't care that much personally about whether founders keep board control. They just don't want to seem like they had to make concessions. Which means if letting the founders keep control stops being perceived as a concession, it will rapidly become much more common.",
-      "zhMarkdown": "VC 在与创业公司谈判时表现得咄咄逼人，很大一部分原因在于，如果他们回去见合伙人时显得自己被击败了，会觉得很丢脸。在签署投资意向书（termsheet）时，他们希望能吹嘘自己拿到了多么有利的条款。他们中的许多人个人其实并不太在乎创始人是否保留董事会控制权。他们只是不想显得自己做出了让步。这意味着，如果让创始人保留控制权不再被视为一种让步，它很快就会变得普遍得多。"
+      "zhMarkdown": "风投在与创业公司谈判时表现得寸步不让，很大程度上是因为他们觉得回去面对合伙人时显得自己被宰了会很丢脸。签下投资意向书时，他们希望能吹嘘自己拿到了多么优厚的条款。许多人私底下其实并不那么在乎创始人是否保住董事会控制权，他们只是不想显得自己做出了让步。这意味着，如果让创始人保留控制权不再被视作一种妥协，这种情况很快就会变得极其普遍。"
     },
     {
       "id": 11,
       "type": "paragraph",
       "sourceHash": "ddb7de997db312ab129579520f50ac9a56aa0c24594fa05bbd0dface2e106316",
       "enMarkdown": "Like a lot of changes that have been forced on VCs, this change won't turn out to be as big a problem as they might think. VCs will still be able to convince; they just won't be able to compel. And the startups where they have to resort to compulsion are not the ones that matter anyway. VCs make most of their money from a few big hits, and those aren't them.",
-      "zhMarkdown": "就像许多强加给 VC 的改变一样，这次改变最终不会像他们想象的那么糟糕。VC 仍然可以去说服，只是他们无法再去强迫。而那些需要他们诉诸强迫的创业公司，反正也不是什么举足轻重的公司。VC 的大部分资金都是通过少数几个大项目赚来的，而那些需要强迫的公司显然不在此列。"
+      "zhMarkdown": "就像许多硬塞给风投的改变一样，这次转变最终也不会像他们想象的那样成什么大问题。风投依然能够去说服，只是无法去强迫罢了。而那些需要动用强迫手段的创业公司，本来也不是真正举足轻重的那些。风投绝大部分的收益都来自少数几个大赢家，而那些公司绝不会是这一类。"
     },
     {
       "id": 12,
       "type": "paragraph",
       "sourceHash": "92e28f324e2d7870beb602afeb3eb740f8c8e424e7fa33839bee80708d36514f",
       "enMarkdown": "Knowing that founders will keep control of the board may even help VCs pick better. If they know they can't fire the founders, they'll have to choose founders they can trust. And that's who they should have been choosing all along.",
-      "zhMarkdown": "知道创始人将保留董事会控制权，甚至可能有助于 VC 做出更好的选择。如果他们知道自己无法解雇创始人，他们就必须选择自己能够信任的创始人。而这本就该是他们一直以来的选择标准。"
+      "zhMarkdown": "明确知道创始人会保留董事会控制权，甚至可能有助于风投做出更好的抉择。如果他们知道自己无法解雇创始人，就必须选择自己能够信任的创始人。而这本就是他们从一开始就该选择的人。"
     },
     {
       "id": 13,

@@ -4,10 +4,10 @@
   "titleZh": "如何做天使投资人",
   "dateText": "March 2009",
   "publishedAt": "2009-03-01",
-  "sourceOrder": 122,
+  "sourceOrder": 124,
   "sourceUrl": "https://paulgraham.com/angelinvesting.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -112,7 +112,7 @@
       "type": "paragraph",
       "sourceHash": "ebd9a49c38686a01d7945902b7bf5c586d3e4d5623b4437e74d9733826d52132",
       "enMarkdown": "Valuations don't vary as much. For angel rounds it's rare to see a valuation lower than half a million or higher than 4 or 5 million. 4 million is starting to be VC territory.",
-      "zhMarkdown": "估值的差异则没有那么大。对于天使轮来说，很难看到低于 50 万美元或高于 400 万到 500 万美元的估值。400 万美元就已经开始进入风险投资的领地了。"
+      "zhMarkdown": "估值的差异没那么大。在天使轮，很少见到低于 50 万美元或高于四五百万美元的估值。400 万美元就已经开始进入风投的地盘了。"
     },
     {
       "id": 16,
@@ -182,21 +182,21 @@
       "type": "paragraph",
       "sourceHash": "77b0643f1c6e27603418dd81dd179ba4100b7df367a57132e8177dd64413ad52",
       "enMarkdown": "How do you do that? It's not as simple as picking startups that are already making something wildly popular. By then it's too late for angels. VCs will already be onto them. As an angel, you have to pick startups before they've got a hit—either because they've made something great but users don't realize it yet, like Google early on, or because they're still an iteration or two away from the big hit, like Paypal when they were making software for transferring money between PDAs.",
-      "zhMarkdown": "你该怎么做？这可不像直接去挑那些已经做出风靡一时产品的创业公司那么简单。到那个时候，对天使投资人来说已经太晚了，风险投资人早就盯上他们了。作为天使投资人，你必须在他们爆红之前挑中他们——要么是因为他们做出了伟大的东西但用户还没有意识到（比如早期的 Google），要么是因为他们距离大获成功还差一两次迭代（比如 Paypal 还在做 PDA 之间转账软件的时候）。"
+      "zhMarkdown": "具体怎么做呢？挑选那些已经大受欢迎的创业公司？没那么简单。等到那个时候，对天使投资人来说已经太迟了，风投早就盯上他们了。作为天使投资人，你必须在他们一炮而红之前就挑中他们——要么是因为他们做出了很棒的东西，但用户还没意识到，就像早期的 Google；要么是因为他们离大获成功还差一两轮迭代，就像最初做掌上电脑间转账软件时的 PayPal。"
     },
     {
       "id": 26,
       "type": "paragraph",
       "sourceHash": "07ced3303d7487037a0b1b23a2b0c55e5e1fda423eadc6995e26b7ec7217e1c3",
       "enMarkdown": "To be a good angel investor, you have to be a good judge of potential. That's what it comes down to. VCs can be fast followers. Most of them don't try to predict what will win. They just try to notice quickly when something already is winning. But angels have to be able to predict. [[7](#f7n)]",
-      "zhMarkdown": "要成为一名优秀的天使投资人，你必须善于判断潜力。归根结底就是这样。风险投资人可以做“快速跟进者”。他们大多数人并不试图预测谁会赢，只是在某些东西已经开始赢的时候，努力快速察觉。但天使投资人必须具备预测的能力。[[7](#f7n)]"
+      "zhMarkdown": "要成为一名优秀的天使投资人，你必须善于判断潜力。归根结底就是这一点。风投可以做“快速跟进者”。他们大多数人并不试图预测谁会赢，只是试图在某些项目已经开始赢的时候迅速察觉。但天使投资人必须具备预测能力。[[7](#f7n)]"
     },
     {
       "id": 27,
       "type": "paragraph",
       "sourceHash": "556ea686795fa8023873b5a28d5a5c463026d8edf28f9ba948422afb5352cac5",
       "enMarkdown": "One interesting consequence of this fact is that there are a lot of people out there who have never even made an angel investment and yet are already better angel investors than they realize. Someone who doesn't know the first thing about the mechanics of venture funding but knows what a successful startup founder looks like is actually far ahead of someone who knows termsheets inside out, but thinks [\"hacker\"](https://paulgraham.com/gba.html) means someone who breaks into computers. If you can recognize good startup founders by empathizing with them—if you both resonate at the same frequency—then you may already be a better startup picker than the median professional VC. [[8](#f8n)]",
-      "zhMarkdown": "这个事实带来了一个有趣的现象：有很多人从未做过一笔天使投资，却已经比他们自己意识到的更擅长做天使投资了。一个对创业融资机制一窍不通、但懂得成功的创业创始人长什么样的人，其实远远领先于一个对条款清单了如指掌、却以为[“黑客”](https://paulgraham.com/gba.html)就是入侵电脑的毛贼的人。如果你能通过同理心来识别优秀的创业创始人——如果你们在同一个频率上共鸣——那么你挑选创业公司的能力可能已经超过了行业中位数的专业风险投资人。[[8](#f8n)]"
+      "zhMarkdown": "这一事实带来了一个有趣的结果：市面上有很多人从未做过一笔天使投资，但他们实际上的天使投资能力已经比自己意识到的还要强。一个人哪怕对风险投资的运作机制一窍不通，但只要懂得成功的创业公司创始人是什么样子，实际上就已经远远领先于那些对投资条款清单倒背如流、却以为[“黑客”](https://paulgraham.com/gba.html)就是黑进电脑破坏系统的人。如果你能通过共情来识别优秀的创始人——如果你们能在同一频率上产生共振——那么你在挑选创业公司方面的水平，可能就已经超过了中位数水平的专业风投。[[8](#f8n)]"
     },
     {
       "id": 28,
@@ -315,7 +315,7 @@
       "type": "paragraph",
       "sourceHash": "6f33cd42ed48c39b40385287ff5ac647cf2e97b546569984c03d4f5f4e84a62f",
       "enMarkdown": "How do you be a good angel investor? The first thing you need is to be decisive. When we talk to founders about good and bad investors, one of the ways we describe the good ones is to say \"he writes checks.\" That doesn't mean the investor says yes to everyone. Far from it. It means he makes up his mind quickly, and follows through. You may be thinking, how hard could that be? You'll see when you try it. It follows from the nature of angel investing that the decisions are hard. You have to guess early, at the stage when the most promising ideas still seem counterintuitive, because if they were obviously good, VCs would already have funded them.",
-      "zhMarkdown": "如何成为一名优秀的天使投资人？你首先需要做到的是果断。当我们和创始人聊起好投资人和坏投资人时，我们形容好投资人的方式之一就是说“他会开支票”。这并不意味着投资人对每个人都说好。恰恰相反。这意味着他能迅速做出决定，并付诸行动。你可能会想，这能有多难？当你尝试时，你就会明白了。天使投资的决策之所以艰难，是由它的本质决定的。你必须在极早期做出猜测，在这个阶段，最令人兴奋的想法看起来往往是不合常理的，因为如果它们显而易见是好想法，风险投资人早就给他们投钱了。"
+      "zhMarkdown": "怎样才能成为一名优秀的天使投资人？首要的一点是杀伐决断。当我们和创始人聊起好投资人和坏投资人时，我们形容好投资人的一种说法就是“他开得出支票”。这并不意味着他对谁都有求必应。远非如此。它的意思是，他能迅速拿定主意，并且说到做到。你可能会想，这能有多难？等你真去试了就知道。由于天使投资的本质，做决定天生就是极难的。你必须在极早期做出预判，而在这个阶段，最有前途的想法往往看起来还很反直觉，因为要是显而易见地好，风投早就投了。"
     },
     {
       "id": 45,
@@ -406,35 +406,35 @@
       "type": "paragraph",
       "sourceHash": "c4f8a8827f62349c7e29d9797a68f2d3311dc2e288d133b6a2e542a1fd79d819",
       "enMarkdown": "[4] These anti-dilution provisions also protect you against tricks like a later investor trying to steal the company by doing another round that values the company at $1. If you have a competent startup lawyer handle the deal for you, you should be protected against such tricks initially. But it could become a problem later. If a big VC firm wants to invest in the startup after you, they may try to make you take out your anti-dilution protections. And if they do the startup will be pressuring you to agree. They'll tell you that if you don't, you're going to kill their deal with the VC. I recommend you solve this problem by having a gentlemen's agreement with the founders: agree with them in advance that you're not going to give up your anti-dilution protections. Then it's up to them to tell VCs early on.",
-      "zhMarkdown": "[4] 这些反稀释条款还可以保护你免受一些伎俩的侵害，比如后来的投资人试图通过进行新一轮融资（将公司估值定为 1 美元）来窃取公司。如果你有合格的创业公司律师为你处理交易，你最初应该可以免受此类花招的侵害。但这在以后可能会成为一个问题。如果一个大型 VC 机构想在你之后投资这家创业公司，他们可能会试图让你放弃反稀释保护。如果他们这样做，创业公司就会向你施压让你同意。他们会告诉你，如果你不同意，你就会毁了他们与 VC 的交易。我建议你通过与创始人达成君子协定来解决这个问题：提前与他们约定，你不会放弃你的反稀释保护。然后由他们尽早去告诉 VC。"
+      "zhMarkdown": "[4] 这些反稀释条款还能保护你免受各种手段的侵害，比如后来的投资人试图通过以 1 美元估值再做一轮融资来把公司“偷走”。如果你找了称职的创业律师来替你处理交易，你起初应该能防范这类手段。但这可能在日后变成一个问题。如果有大风投机构想在你之后投资这家公司，他们可能会试图逼你放弃反稀释保护。如果他们这么做，创业公司就会向你施压让你妥协。他们会告诉你，如果你不同意，就会毁了他们与风投的交易。我建议你通过与创始人达成君子协定来解决这个问题：提前与他们约定好，你不会放弃反稀释保护。然后让他们及早跟风投讲明这一点。"
     },
     {
       "id": 58,
       "type": "paragraph",
       "sourceHash": "20cb1d66a7d51a11d115db6eaa14066ac08ab2ce2436e73fd0fe6615e80de543",
       "enMarkdown": "The reason you don't want to give them up is the following scenario. The VCs recapitalize the company, meaning they give it additional funding at a pre-money valuation of zero. This wipes out the existing shareholders, including both you and the founders. They then grant the founders lots of options, because they need them to stay around, but you get nothing.",
-      "zhMarkdown": "你不想放弃它们的原因是以下这种情况。VC 对公司进行重组，这意味着他们在投前估值为零的情况下为公司提供额外资金。这抹去了包括你和创始人在内的现有股东的股份。然后他们向创始人发放大量期权，因为他们需要创始人留下来，而你却一无所有。"
+      "zhMarkdown": "你之所以不想放弃它们，是因为有这样一种可能的情景：风投对公司进行资本重组（recapitalize），也就是以零元投前估值向公司追加资金。这会彻底清空现有股东的权益，包括你和创始人。然后他们会给创始人发放大量期权，因为他们需要留住创始人，而你却什么都拿不到。"
     },
     {
       "id": 59,
       "type": "paragraph",
       "sourceHash": "9dc64ce774fb23a049b085f6cd1a10f6791133fdf3cbe3d2662070fd74b57f8f",
       "enMarkdown": "Obviously this is not a nice thing to do. It doesn't happen often. Brand-name VCs wouldn't recapitalize a company just to steal a few percent from an angel. But there's a continuum here. A less upstanding, lower-tier VC might be tempted to do it to steal a big chunk of stock.",
-      "zhMarkdown": "显然，这并不是一件体面的事情。它不经常发生。知名 VC 不会仅仅为了从天使投资人手里偷走几个百分点的股份而对公司进行重组。但这里有一个光谱。一个没那么正直、档次较低的 VC 可能会经不起诱惑，通过这种手段来窃取一大块股份。"
+      "zhMarkdown": "显然，这种做法很不厚道。这种情况并不常发生。名牌风投不会为了从天使投资人手里抢那几个点的股份而去搞资本重组。但事情并非非黑即白。那些没那么体面的次流风投，很可能会为了掠夺大笔股份而禁不住诱惑走这一步。"
     },
     {
       "id": 60,
       "type": "paragraph",
       "sourceHash": "cbb4da6e2d8048d12fb66031e1803c8371659e367f2f7444d46dbd43944bb29a",
       "enMarkdown": "I'm not saying you should always absolutely refuse to give up your anti-dilution protections. Everything is a negotiation. If you're part of a powerful syndicate, you might be able to give up legal protections and rely on social ones. If you invest in a deal led by a big angel like Ron Conway, for example, you're pretty well protected against being mistreated, because any VC would think twice before crossing him. This kind of protection is one of the reasons angels like to invest in syndicates.",
-      "zhMarkdown": "我并不是说你必须绝对拒绝放弃反稀释保护。一切都是谈判。如果你是一个强大联合投资的一员，你或许可以放弃法律保护，转而依赖社交保护。例如，如果你投资了由 Ron Conway 这样的大牌天使领投的项目，你就可以很好地免受不公对待，因为任何 VC 在得罪他之前都要三思。这种保护是天使投资人喜欢联合投资的原因之一。"
+      "zhMarkdown": "我并不是说你必须绝对不放弃反稀释保护。一切都是谈出来的。如果你加入了一个实力强大的财团，你或许可以放弃法律层面的保护，转而依靠社交层面的制约。例如，如果你投资了一笔由罗恩·康威（Ron Conway）这样的大牌天使领投的交易，你就相当有保障不会被坑，因为任何风投在得罪他之前都要三思。这种保护也是天使投资人喜欢跟团联合投资的原因之一。"
     },
     {
       "id": 61,
       "type": "paragraph",
       "sourceHash": "adc0f8ea7644ae0d31b9c8ebe67fd874b331507e2da2cb921eff0eeced3464a1",
       "enMarkdown": "[5] Don't invest so much, or at such a low valuation, that you end up with an excessively large share of a startup, unless you're sure your money will be the last they ever need. Later stage investors won't invest in a company if the founders don't have enough equity left to motivate them. I talked to a VC recently who said he'd met with a company he really liked, but he turned them down because investors already owned more than half of it. Those investors probably thought they'd been pretty clever by getting such a large chunk of this desirable company, but in fact they were shooting themselves in the foot.",
-      "zhMarkdown": "[5] 不要投太多钱，也不要以太低的估值投资，以至于最终占有创业公司过大比例的股份，除非你确定你的钱是他们永远需要的最后一笔钱。如果创始人没有留下足够的股权来保持动力，后期投资人是不会投资这家公司的。我最近和一位 VC 聊天，他说他遇到了一家他非常喜欢的公司，但他拒绝了他们，因为投资人已经拥有了它一半以上的股份。那些投资人可能觉得自己很聪明，拿到了这家抢手公司这么大一块股份，但实际上他们是在搬起石头砸自己的脚。"
+      "zhMarkdown": "[5] 不要投得太多，或者以过低的估值投资，以至于最终拿到创业公司过大比例的股份，除非你确信你的钱是他们有史以来需要的最后一笔。如果创始人没有留下足够的股权来保持动力，后期投资人是不会投资这家公司的。我最近和一位风投聊过，他说他遇到了一家自己非常喜欢的公司，但最后还是拒绝了他们，因为现有投资人已经持有超过半数股权。那些投资人当时拿到这家抢手公司这么大一块份额，可能觉得自己挺聪明的，但实际上是在搬起石头砸自己的脚。"
     },
     {
       "id": 62,
@@ -448,21 +448,21 @@
       "type": "paragraph",
       "sourceHash": "d0eca0992ee305e16d1ad3e332236d439cbe66ba4c0d158208a3ec0fb1165914",
       "enMarkdown": "[7] There are some VCs who can predict instead of reacting. Not surprisingly, these are the most successful ones.",
-      "zhMarkdown": "[7] 有些 VC 能够进行预测而不是被动反应。不出所料，这些人是最成功的。"
+      "zhMarkdown": "[7] 确实有些风投能够做出预判而不是事后反应。毫无意外，这些人正是最成功的风投。"
     },
     {
       "id": 64,
       "type": "paragraph",
       "sourceHash": "71709d7ef6477254a3c455e36259c099442bda041e391009551e604eda33deb2",
       "enMarkdown": "[8] It's somewhat sneaky of me to put it this way, because the median VC loses money. That's one of the most surprising things I've learned about VC while working on Y Combinator. Only a fraction of VCs even have positive returns. The rest exist to satisfy demand among fund managers for venture capital as an asset class. Learning this explained a lot about some of the VCs I encountered when we were working on Viaweb.",
-      "zhMarkdown": "[8] 我这样说有点狡猾，因为中位数 VC 都是亏钱的。这是我在 Y Combinator 工作时学到的关于 VC 最令人惊讶的事情之一。只有一小部分 VC 能够获得正回报。其余的存在只是为了满足基金经理对风险投资作为一种资产配置的需求。了解到这一点，解释了我当年在做 Viaweb 时遇到的一些 VC 的很多行为。"
+      "zhMarkdown": "[8] 我这么说其实有点狡猾，因为中位数水平的风投本身就是赔钱的。这是我在做 Y Combinator 期间了解到的关于风险投资最令人吃惊的事情之一。只有一小部分风投能够获得正回报。其余风投的存在，只是为了满足基金经理把风险投资作为一个资产类别来进行配置的需求。得知这一点，解释了我们在做 Viaweb 时遇到的某些风投的很多匪夷所思之处。"
     },
     {
       "id": 65,
       "type": "paragraph",
       "sourceHash": "ec0f9130a5da4e0f279ae1307deeb279be9579e50aabc8bdbaf16e3448521cbc",
       "enMarkdown": "[9] VCs also generally say they prefer great markets to great people. But what they're really saying is they want both. They're so selective that they only even consider great people. So when they say they care above all about big markets, they mean that's how they choose between great people.",
-      "zhMarkdown": "[9] VC 们也普遍表示，他们更喜欢伟大的市场，而不是伟大的人。但他们真正想说的是，他们两者都想要。他们是如此挑剔，以至于他们只考虑优秀的人。所以当他们说他们最关心大市场时，他们的意思是，这是他们在一群优秀的人中做选择的方式。"
+      "zhMarkdown": "[9] 风投通常也说他们更看重伟大的市场而非伟大的人。但他们真正想表达的是两者都要。他们的眼光极其挑剔，以至于只有伟大的人才会被纳入考虑。所以当他们说自己最看重大市场时，意思是那是他们在优秀人才之间做出取舍的依据。"
     },
     {
       "id": 66,

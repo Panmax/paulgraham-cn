@@ -4,10 +4,10 @@
   "titleZh": "自底向上的编程",
   "dateText": "1993",
   "publishedAt": "1993-01-01",
-  "sourceOrder": 225,
+  "sourceOrder": 227,
   "sourceUrl": "https://paulgraham.com/progbot.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -28,14 +28,14 @@
       "type": "paragraph",
       "sourceHash": "dd4687f26c32b573a4a9e75336963eadb016e9144bd8855d1ae6c5e5c8de1aeb",
       "enMarkdown": "In accordance with this principle, a large program must be divided into pieces, and the larger the program, the more it must be divided. How do you divide a program? The traditional approach is called *top-down design:* you say \"the purpose of the program is to do these seven things, so I divide it into seven major subroutines. The first subroutine has to do these four things, so it in turn will have four of its own subroutines,\" and so on. This process continues until the whole program has the right level of granularity-- each part large enough to do something substantial, but small enough to be understood as a single unit.",
-      "zhMarkdown": "根据这一原则，大型程序必须进行拆分，而且程序规模越大，拆分得就得越细。那么该如何拆分程序呢？传统的方法被称为“自顶向下设计”：你认为“这个程序的目的是做这七件事，因此我把它拆分为七个主要子程序。第一个子程序需要做这四件事，所以它又会包含四个属于自己的子程序”，以此类推。这个过程一直持续到整个程序达到合适的粒度——每个部分既大到足以完成一些实质性的工作，又小到可以作为一个独立的单元被理解。"
+      "zhMarkdown": "按照这条原则，大型程序必须被拆分成若干部分；程序越大，拆分得就越多。如何拆分一个程序？传统的方法被称为*自顶向下设计*：你会说“这个程序的目的是做这七件事，所以我把它分成七个主要的子程序。第一个子程序要完成这四件事，因此它内部又会有四个属于它自己的子程序，”以此类推。这一过程不断继续，直到整个程序具备了合适的粒度——每个部分既大到足以完成实质性的工作，又小到可以作为一个单独的单元被理解。"
     },
     {
       "id": 4,
       "type": "paragraph",
       "sourceHash": "2f338af909e90c572b31de6d9fd21fdf73721de43d70398c7d621688a13a0d4e",
       "enMarkdown": "Experienced Lisp programmers divide up their programs differently. As well as top-down design, they follow a principle which could be called *bottom-up design*-- changing the language to suit the problem. In Lisp, you don't just write your program down toward the language, you also build the language up toward your program. As you're writing a program you may think \"I wish Lisp had such-and-such an operator.\" So you go and write it. Afterward you realize that using the new operator would simplify the design of another part of the program, and so on. Language and program evolve together. Like the border between two warring states, the boundary between language and program is drawn and redrawn, until eventually it comes to rest along the mountains and rivers, the natural frontiers of your problem. In the end your program will look as if the language had been designed for it. And when language and program fit one another well, you end up with code which is clear, small, and efficient.",
-      "zhMarkdown": "经验丰富的 Lisp 程序员拆分程序的方式则有所不同。除了自顶向下设计，他们还遵循一个可以被称为“自底向上设计”的原则——即通过改变语言来适应问题。在 Lisp 中，你不仅是顺着语言的方向去写程序，还要顺着程序的方向去构建语言。在写程序时你可能会想：“要是 Lisp 有这样一个操作符就好了。”于是你就去把它写出来。随后你又意识到，使用这个新的操作符可以简化程序另一部分的设计，如此循环往复。语言和程序共同演进。就像两个交战国之间的边界一样，语言和程序之间的界线被一次次重新划定，直到最终停留在山川河流等代表你问题自然边界的地方。到最后，你的程序看起来就像是专门为它设计了这门语言一样。当语言和程序完美契合时，你最终得到的代码就会清晰、精简且高效。"
+      "zhMarkdown": "有经验的 Lisp 程序员划分程序的方式则有所不同。除了自顶向下设计，他们还遵循一条可以被称为*自底向上设计*的原则——通过改变语言来适应问题。在 Lisp 中，你不仅是向下顺着语言写程序，更是向上构建语言来贴合你的程序。在写程序的过程中，你可能会想：“要是 Lisp 有这样一个操作符就好了。”于是你就动手去写一个。随后你会意识到，使用这个新操作符可以简化程序另一部分的设计，如此循环往复。语言与程序一同演进。就像交战两国之间的边界一样，语言与程序的界线被反复划定，直到最终稳定在山脉与河流之间——也就是你的问题本身的自然边界上。最终，你的程序看起来就像是这门语言专门为它设计的一样。而当语言与程序高度契合时，你得到的代码就会清晰、精炼且高效。"
     },
     {
       "id": 5,
@@ -70,7 +70,7 @@
       "type": "paragraph",
       "sourceHash": "5f64360e2f17e5adc284baaa2336fe41b5f2a8640798794df2435947a0896bc3",
       "enMarkdown": "It's true that this style of development is better suited to programs which can be written by small groups. However, at the same time, it extends the limits of what can be done by a small group. In *The Mythical Man-Month*, Frederick Brooks proposed that the productivity of a group of programmers does not grow linearly with its size. As the size of the group increases, the productivity of individual programmers goes down. The experience of Lisp programming suggests a more cheerful way to phrase this law: as the size of the group decreases, the productivity of individual programmers goes up. A small group wins, relatively speaking, simply because it's smaller. When a small group also takes advantage of the techniques that Lisp makes possible, it can [win outright](https://paulgraham.com/avg.html).",
-      "zhMarkdown": "诚然，这种开发风格更适合那些可以由小团队编写的程序。但与此同时，它也拓宽了小团队所能做的事情的极限。在《人月神话》中，Frederick Brooks 提出，程序员团队的生产力并不随着人数的增加而线性增长。随着团队规模的扩大，个人程序员的生产力反而会下降。Lisp 编程的经验为这条定律提供了一种更令人振奋的表述方式：随着团队规模的缩小，个人程序员的生产力反而会提高。相对而言，一个小团队仅仅因为规模更小就能胜出。而当一个小团队还充分利用了 Lisp 所能提供的技术时，它就能[彻底胜出](https://paulgraham.com/avg.html)。"
+      "zhMarkdown": "诚然，这种开发风格更适合那些可以由小团队编写的程序。然而与此同时，它也拓宽了一个小团队所能做到的极限。在 *人月神话* 中，弗雷德里克·布鲁克斯（Frederick Brooks）提出，程序员团队的生产力并不会随着规模的扩大而呈线性增长。随着团队规模的扩大，单个程序员的生产力反而会下降。Lisp 编程的经验表明，可以用一种更让人振奋的方式来表述这条定律：随着团队规模的缩小，单个程序员的生产力反而会上升。相对而言，一个小团队之所以能胜出，纯粹就是因为它的规模更小。而当小团队还能充分利用 Lisp 所赋予的技术时，它就能[大获全胜](https://paulgraham.com/avg.html)。"
     },
     {
       "id": 10,

@@ -4,10 +4,10 @@
   "titleZh": "Yahoo 到底怎么了",
   "dateText": "August 2010",
   "publishedAt": "2010-08-01",
-  "sourceOrder": 103,
+  "sourceOrder": 105,
   "sourceUrl": "https://paulgraham.com/yahoo.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -224,7 +224,7 @@
       "type": "paragraph",
       "sourceHash": "9f2d2c67b347c07b455f6678da715a394bc77f27d06229c64048fb373bfeab1f",
       "enMarkdown": "Probably the most impressive commitment I've heard to having a hacker-centric culture came from Mark Zuckerberg, when he spoke at Startup School in 2007. He said that in the early days Facebook made a point of hiring programmers even for jobs that would not ordinarily consist of programming, like HR and marketing.",
-      "zhMarkdown": "关于坚持以黑客为中心的文化，我听过最令人印象深刻的表态来自马克·扎克伯格（Mark Zuckerberg），那是他在 2007 年的 Startup School 演讲中说的。他说，在 Facebook 早期，他们甚至在招聘通常不需要写代码的岗位（比如人力资源和市场营销）时，也会特意去招懂编程的人。"
+      "zhMarkdown": "关于坚守以黑客为中心的文化，我听过最令人印象深刻的表态大概来自马克·扎克伯格 2007 年在 Startup School 上的演讲。他说，Facebook 早期哪怕是招聘通常不需要写代码的岗位（比如人力和市场），也特意要招程序员。"
     },
     {
       "id": 32,

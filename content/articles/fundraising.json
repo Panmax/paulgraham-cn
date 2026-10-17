@@ -4,10 +4,10 @@
   "titleZh": "融资生存指南",
   "dateText": "August 2008",
   "publishedAt": "2008-08-01",
-  "sourceOrder": 132,
+  "sourceOrder": 134,
   "sourceUrl": "https://paulgraham.com/fundraising.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "5911eb0936312c8c7396c9903f90d5d1eb40e7fb65305ef90789cf0467cab6f7",
       "enMarkdown": "That combination—making big decisions about things they don't understand—tends to make investors very skittish. VCs are notorious for leading founders on. Some of the more unscrupulous do it deliberately. But even the most well-intentioned investors can behave in a way that would seem crazy in everyday life. One day they're full of enthusiasm and seem ready to write you a check on the spot; the next they won't return your phone calls. They're not playing games with you. They just can't make up their minds. [[1](#f1n)]",
-      "zhMarkdown": "这种组合——对自己不懂的事情做重大决定——往往会让投资人变得非常神经质。风险投资人们（VC）在吊创始人胃口方面是出了名的。一些不那么讲商业道德的 VC 甚至是有意为之。但即使是那些最心怀善意的投资人，其行为在日常生活中看起来也像疯子一样。前一天他们还热情洋溢，似乎准备当场给你开支票；第二天他们就不回你的电话了。他们不是在和你玩心机，他们只是自己也拿不定主意。[[1](#f1n)]"
+      "zhMarkdown": "这种组合——要对自己并不理解的事情做出重大决策——往往会让投资者变得极度神经质。风投向来以吊创始人胃口而臭名昭著。一些毫无道德的人更是故意为之。但即使是出于最好善意的投资者，其表现也可能在日常生活中显得匪夷所思。某一天他们还热情洋溢，仿佛当场就要给你开支票；第二天他们就对你的电话置之不理了。他们并不是在跟你玩心计，只是拿不定主意罢了。[[1](#f1n)]"
     },
     {
       "id": 8,
@@ -294,14 +294,14 @@
       "type": "paragraph",
       "sourceHash": "b5c295d67579f9d0925ece21bfba1bf2c02f1392173cd7be9da7d1d3cd756abb",
       "enMarkdown": "There are two questions VCs ask that you shouldn't answer: \"Who else are you talking to?\" and \"How much are you trying to raise?\"",
-      "zhMarkdown": "VC 会问两个你不应该回答的问题：“你还在和谁谈？”以及“你打算融多少钱？”"
+      "zhMarkdown": "风投会问两个你不该回答的问题：“你还在跟谁谈？”以及“你打算融多少钱？”"
     },
     {
       "id": 42,
       "type": "paragraph",
       "sourceHash": "647be300add68e31e1b290d39a8547c48c579abe607843c771007a5f85c11a7e",
       "enMarkdown": "VCs don't expect you to answer the first question. They ask it just in case. [[4](#f4n)] They do seem to expect an answer to the second. But I don't think you should just tell them a number. Not as a way to play games with them, but because you shouldn't *have* a fixed amount you need to raise.",
-      "zhMarkdown": "VC 并不期望你回答第一个问题。他们只是顺便问问。[[4](#f4n)] 他们似乎确实期望你回答第二个问题。但我认为你不应该直接给他们一个数字。这不是为了和他们玩套路，而是因为你根本不应该有一个固定的融资额度。"
+      "zhMarkdown": "风投其实并不指望你回答第一个问题。他们问只是以防万一。[[4](#f4n)] 他们看起来确实期待第二个问题的答案。但我认为你不该直接给他们一个具体数字。这并不是要跟他们玩心计，而是因为你根本不应该*有*一个固定的融资金额目标。"
     },
     {
       "id": 43,
@@ -406,7 +406,7 @@
       "type": "paragraph",
       "sourceHash": "be75cc5b496ff03ab757720b87e1d842663dcbe144b0d3f9d959781e2117b730",
       "enMarkdown": "To understand what rejection means, you have to understand first of all how common it is. Statistically, the average VC is a rejection machine. David Hornik, a partner at August, told me:",
-      "zhMarkdown": "要理解拒绝意味着什么，你首先必须明白拒绝是多么常见。从统计数据来看，平均每个 VC 都是一个拒绝机器。August 的合伙人 David Hornik 告诉我："
+      "zhMarkdown": "要明白拒绝意味着什么，你首先得明白拒绝有多常见。从统计数据来看，一般的风投就是一台拒绝机器。August 的合伙人 David Hornik 曾告诉我："
     },
     {
       "id": 58,
@@ -420,7 +420,7 @@
       "type": "paragraph",
       "sourceHash": "fa5bd92fb5507e9b3ec0c6dde844ae385a0f5a223bb95c00e7e719712f8a75bb",
       "enMarkdown": "This is less true with angels, but VCs reject practically everyone. The structure of their business means a partner does at most 2 new investments a year, no matter how many good startups approach him.",
-      "zhMarkdown": "天使投资人可能会好一些，但 VC 实际上会拒绝几乎所有人。他们的业务结构决定了，一个合伙人一年最多只做 2 笔新投资，无论有多少优秀的创业公司找上门来。"
+      "zhMarkdown": "天使投资人可能稍好一些，但风投基本上会拒绝所有人。其业务结构决定了一位合伙人一年最多只做 2 笔新投资，不论找上门来的优秀创业公司有多少。"
     },
     {
       "id": 60,
@@ -434,7 +434,7 @@
       "type": "paragraph",
       "sourceHash": "0dd361dc1c75c6ce537496cbc2de4d83062e3bb13c416d6c2464fc6e16437a93",
       "enMarkdown": "That makes judging startups harder than most other things one judges. You have to be an intellectual contrarian to be a good startup investor. That's a problem for VCs, most of whom are not particularly imaginative. VCs are mostly money guys, not people who make things. [[7](#f7n)] Angels are better at appreciating novel ideas, because most were founders themselves.",
-      "zhMarkdown": "这使得判断创业公司比判断大多数其他事物都要难。你必须是一个思想上的逆向投资者，才能成为一个优秀的创业投资人。这对 VC 来说是个问题，因为他们中的大多数人并没有特别丰富的想象力。VC 大多是管钱的，而不是创造东西的人。[[7](#f7n)] 天使投资人更懂得欣赏新颖的想法，因为他们中的大多数自己就曾是创始人。"
+      "zhMarkdown": "这使得评估创业公司比评判其他大多数事情都要困难。要成为优秀的创业公司投资者，你必须在思想上是个逆向思考者。这对风投来说是个难题，因为他们大多数人并没有特别丰富的想象力。风投大多是玩钱的人，而不是亲手做东西的人。[[7](#f7n)] 天使投资人更懂得欣赏新颖的想法，因为他们大多数人自己就曾是创始人。"
     },
     {
       "id": 62,
@@ -504,7 +504,7 @@
       "type": "paragraph",
       "sourceHash": "f77a440cad17670c22ccb76daffe810bf5eb821f9b4868fbd2145f195218bef7",
       "enMarkdown": "Though novice investors seem unthreatening they can be the most dangerous sort, because they're so nervous. Especially in proportion to the amount they invest. Raising $20,000 from a first-time angel investor can be as much work as raising $2 million from a VC fund.",
-      "zhMarkdown": "虽然新手投资人看起来没什么威胁，但他们可能是最危险的一类，因为他们太紧张了。尤其是与他们投资的金额相比。从一个第一次做天使投资的人那里融 2 万美元，可能和从 VC 基金融 200 万美元花一样多的精力。"
+      "zhMarkdown": "尽管新手投资者看起来没什么威胁，但他们往往是最危险的一类，因为他们极度紧张。尤其是对照他们投入的金额来看更是如此。从一个初次尝试的天使投资人那里筹集 2 万美元，可能要耗费你从一家风投基金筹集 200 万美元一样多的心力。"
     },
     {
       "id": 72,
@@ -630,14 +630,14 @@
       "type": "paragraph",
       "sourceHash": "f7c1a7539a5b1a0a4c9ace966bb7880faa9d845f5123beed078aa90a6c7ffd90",
       "enMarkdown": "No VC will admit they're influenced by buzz. Some genuinely aren't. But there are few who can say they're not influenced by confidence.",
-      "zhMarkdown": "没有 VC 会承认自己受到了风声的影响。有些确实没有。但很少有人敢说自己没有受到信心的影响。"
+      "zhMarkdown": "没有风投会承认自己受到了传闻造势的影响。有些人确实不受影响。但几乎没有人敢说自己不受自信心的影响。"
     },
     {
       "id": 90,
       "type": "paragraph",
       "sourceHash": "eb91f51575c641635c086923eb4eb42b83b07d25ae5814563bcc3635e5300abc",
       "enMarkdown": "[3] One VC who read this essay wrote:",
-      "zhMarkdown": "[3] 一位读过这篇文章的 VC 写道："
+      "zhMarkdown": "[3] 一位读过这篇文章的风投写道："
     },
     {
       "id": 91,
@@ -651,7 +651,7 @@
       "type": "paragraph",
       "sourceHash": "01046978ea3ca0ace5493e3b2255c138d6cb1ad46328a7c591a15fc302e472f0",
       "enMarkdown": "[4] The optimal way to answer the first question is to say that it would be improper to name names, while simultaneously implying that you're talking to a bunch of other VCs who are all about to give you term sheets. If you're the sort of person who understands how to do that, go ahead. If not, don't even try. Nothing annoys VCs more than clumsy efforts to manipulate them.",
-      "zhMarkdown": "[4] 回答第一个问题的最佳方式是，说透露名字是不妥当的，同时暗示你正在和一大堆其他 VC 谈，他们都准备给你发投资意向书了。如果你是那种懂得如何操作的人，那就尽管去做。如果不是，就别去尝试。没有什么比拙劣地试图操纵 VC 更让他们反感的了。"
+      "zhMarkdown": "[4] 回答第一个问题的最佳方式是表示透露具体名字不太合适，同时暗示你正在接触的其他一大批风投都马上要给你投资意向书了。如果你懂得如何拿捏这种分寸，尽管去做。如果不懂，千万别试。没有什么比试图拙劣地操纵风投更让他们恼火的了。"
     },
     {
       "id": 93,
@@ -672,7 +672,7 @@
       "type": "paragraph",
       "sourceHash": "7c301cbcabe3c60d9a9e796222205ba6fb152dc8175a6cce661696238e626448",
       "enMarkdown": "[7] But not all are. Though most VCs are suits at heart, the most successful ones tend not to be. Oddly enough, the best VCs tend to be the least VC-like.",
-      "zhMarkdown": "[7] 但也并非所有人都是如此。虽然大多数 VC 骨子里都是西装革履的生意人，但最成功的那些往往不是。说来也怪，最优秀的 VC 往往最不像典型的 VC。"
+      "zhMarkdown": "[7] 但并非全都是。虽然大多数风投骨子里都是穿西装的商务人士，但最成功的那些往往不是。说来奇怪，最优秀的风投往往最不像风投。"
     },
     {
       "id": 96,

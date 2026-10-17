@@ -4,10 +4,10 @@
   "titleZh": "如何做你爱做的事",
   "dateText": "January 2006",
   "publishedAt": "2006-01-01",
-  "sourceOrder": 173,
+  "sourceOrder": 175,
   "sourceUrl": "https://paulgraham.com/love.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -147,7 +147,7 @@
       "type": "paragraph",
       "sourceHash": "980ec8d7bf428f712307934b9b9e366b3a2fcf34280baf6c41c61c79786cbd18",
       "enMarkdown": "Here's an upper bound: Do what you love doesn't mean, do what you would like to do most *this second*. Even Einstein probably had moments when he wanted to have a cup of coffee, but told himself he ought to finish what he was working on first.",
-      "zhMarkdown": "这里有一个上限：“做你所爱的”并不意味着“做你此时此刻最想做的事”。即使是爱因斯坦，可能也有想喝杯咖啡的时刻，但他会告诉自己应该先完成手头的工作。"
+      "zhMarkdown": "这里有一个上限：做你所爱，并不意味着做你*此时此刻*最想做的事。即便是爱因斯坦，大概也有想喝杯咖啡的时刻，但他会告诫自己应该先把手头的工作干完。"
     },
     {
       "id": 21,
@@ -525,7 +525,7 @@
       "type": "paragraph",
       "sourceHash": "31c38089c3d4f1b7dc5860f9322e86202d6e680fe9544d6a5214dbbc67f860d1",
       "enMarkdown": "[5] Donald Hall said young would-be poets were mistaken to be so obsessed with being published. But you can imagine what it would do for a 24 year old to get a poem published in *The New Yorker*. Now to people he meets at parties he's a real poet. Actually he's no better or worse than he was before, but to a clueless audience like that, the approval of an official authority makes all the difference. So it's a harder problem than Hall realizes. The reason the young care so much about prestige is that the people they want to impress are not very discerning.",
-      "zhMarkdown": "[5] 唐纳德·哈尔曾说，年轻的准诗人如此痴迷于发表作品是错误的。但你可以想象，对于一个24岁的年轻人来说，在《纽约客》上发表一首诗会带来什么。现在，对他派对上遇到的人来说，他是一个真正的诗人了。实际上，他并没有比以前更好或更坏，但对于这样一群毫无头绪的听众来说，官方权威的认可就决定了一切。所以，这是一个比哈尔意识到的更难的问题。年轻人之所以如此看重名望，是因为他们想要取悦的人并不是很有鉴赏力。"
+      "zhMarkdown": "[5] Donald Hall 曾说，年轻的准诗人们如此执迷于发表作品是走入了误区。但你可以想象，能在 *The New Yorker* 上发表一首诗，对一个 24 岁的年轻人意味着什么。如今在派对上遇到的人眼里，他就是一个真正的诗人了。实际上他的水平并不比之前好，也不比之前差，但对这样一群不明就里的外行来说，官方权威的认可就决定了一切。所以这个问题比 Hall 意识到的要棘手得多。年轻人之所以如此看重声望，是因为他们想要打动的那群人并没有多少鉴赏力。"
     },
     {
       "id": 75,

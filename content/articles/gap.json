@@ -4,10 +4,10 @@
   "titleZh": "正视差距",
   "dateText": "May 2004",
   "publishedAt": "2004-05-01",
-  "sourceOrder": 200,
+  "sourceOrder": 202,
   "sourceUrl": "https://paulgraham.com/gap.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -287,7 +287,7 @@
       "type": "paragraph",
       "sourceHash": "ef3d6256f2852402f761b5de5ef521eb834bfd59dbade7702b1f90e74a6f78e0",
       "enMarkdown": "I remember very vividly when in 1985 improved technology made it possible for me to buy a computer of my own. Within months I was using it to make money as a freelance programmer. A few years before, I couldn't have done this. A few years before, there was no such *thing* as a freelance programmer. But Apple created wealth, in the form of powerful, inexpensive computers, and programmers immediately set to work using it to create more.",
-      "zhMarkdown": "我非常清楚地记得，1985 年技术的进步让我买得起属于自己的电脑。几个月内，我就开始用它做自由程序员来赚钱了。而在几年前，我还做不到这一点。几年前，根本没有“自由程序员”这种职业。但是苹果创造了财富——也就是功能强大且价格低廉的电脑，程序员们立刻开始用它来创造更多的财富。"
+      "zhMarkdown": "我非常清楚地记得，1985 年技术的进步让我买得起一台属于自己的电脑。没过几个月，我就用它当自由职业程序员来赚钱了。在此之前几年，这根本做不到。在此之前几年，甚至压根就没有自由职业程序员*这种东西*。但苹果以强大且廉价的电脑的形式创造了财富，而程序员们立刻着手利用它去创造更多的财富。"
     },
     {
       "id": 41,
@@ -469,14 +469,14 @@
       "type": "paragraph",
       "sourceHash": "06ad7b5a21763a702d055f1363acba7dffbcd2e149edcfab92735a2365d2736f",
       "enMarkdown": "Students are mostly still on the parental dole, and have not stopped to think about where that money comes from. Heirs will be on the parental dole for life. Professors and politicians live within socialist eddies of the economy, at one remove from the creation of wealth, and are paid a flat rate regardless of how hard they work. And journalists as part of their professional code segregate themselves from the revenue-collecting half of the businesses they work for (the ad sales department). Many of these people never come face to face with the fact that the money they receive represents wealth—wealth that, except in the case of journalists, someone else created earlier. They live in a world in which income *is* doled out by a central authority according to some abstract notion of fairness (or randomly, in the case of heirs), rather than given by other people in return for something they wanted, so it may seem to them unfair that things don't work the same in the rest of the economy.",
-      "zhMarkdown": "学生大多还在靠父母供养，没有闲暇去思考这些钱是从哪里来的。继承人一辈子都靠父母的荫庇。教授和政治家生活在经济体系中偏向社会主义性质的避风港里，与财富创造隔了一层，无论工作多努力，拿的都是固定薪水。而记者作为其职业规范的一部分，将自己与他们所服务的商业机构中负责创收的那一半（广告销售部）隔离开来。这些人中，许多人从未直面过这样一个事实：他们收到的钱代表着财富——而且除了记者之外，这些财富都是别人在更早的时候创造出来的。他们生活在一个收入由中央机构根据某种抽象的公平观念（或者在继承人的情况下是随机的）进行分发的世界里，而不是别人为了换取想要的东西而支付的。因此，在他们看来，经济体系的其他部分没有按照同样的方式运作，似乎是不公平的。\n\n（有些教授确实为社会创造了巨大的财富。但他们获得的薪水并不是一种等价交换，更像是一种投资。）"
+      "zhMarkdown": "学生大多还在靠父母供养，从未停下来想过那些钱从何而来。继承人则是一辈子靠长辈供养。教授和政客生活在经济体系中带有社会主义色彩的旋涡里，与财富的创造隔了一层，而且无论工作多么努力，拿的都是固定报酬。而记者作为其职业操守的一部分，把自身与雇主负责营收的另一半（广告销售部门）隔离开来。这些人大多从未直面过这样一个事实：他们收到的钱代表着财富——除了记者的情形外，这些财富都是其他人早先创造出来的。他们生活在一个收入*确实*是由某个中央权威按照某种抽象的公平观念分发（或者像继承人那样随机获得）的世界里，而不是别人为了换取想要的东西而支付给他们的，因此在他们看来，其余经济领域不按这种方式运作似乎就是不公平的。"
     },
     {
       "id": 67,
       "type": "paragraph",
       "sourceHash": "9be9cdf1fddd4c46d332b9f8bcd859d10787a4dc44c425f49b66dfb4f0a12940",
       "enMarkdown": "(Some professors do create a great deal of wealth for society. But the money they're paid isn't a *quid pro quo*. It's more in the nature of an investment.)",
-      "zhMarkdown": "（有些教授确实为社会创造了巨大的财富。但他们获得的薪水并不是一种等价交换，更像是一种投资。）"
+      "zhMarkdown": "（有些教授确实为社会创造了巨大的财富。但他们拿到的报酬并不是*等价交换*。它更像是一种投资。）"
     },
     {
       "id": 68,
@@ -490,7 +490,7 @@
       "type": "paragraph",
       "sourceHash": "15f8a99fca059770a6933228f774d84982a75dd404cc83d2fa1d578e5980ecdf",
       "enMarkdown": "[3] According to a study by the Corporate Library, the median total compensation, including salary, bonus, stock grants, and the exercise of stock options, of S&P 500 CEOs in 2002 was $3.65 million. According to *Sports Illustrated*, the average NBA player's salary during the 2002-03 season was $4.54 million, and the average major league baseball player's salary at the start of the 2003 season was $2.56 million. According to the Bureau of Labor Statistics, the mean annual wage in the US in 2002 was $35,560.",
-      "zhMarkdown": "[3] 根据 Corporate Library 的一项研究，2002 年标普 500 指数公司 CEO 的总薪酬中位数（包括工资、奖金、股票赠与和行使期权）为 365 万美元。根据《体育画报》的数据，在 2002-03 赛季，NBA 球员的平均薪水为 454 万美元，而在 2003 赛季开始时，大联盟棒球运动员的平均薪水为 256 万美元。根据美国劳工统计局的数据，2002 年美国的年平均工资为 35,560 美元。"
+      "zhMarkdown": "根据 Corporate Library 的一项研究，2002 年标普 500 首席执行官的总薪酬中位数（包括工资、奖金、股票赠与和行使股票期权）为 365 万美元。据 *Sports Illustrated* 报道，2002-03 赛季 NBA 球员的平均年薪为 454 万美元，而 2003 赛季初美国职业棒球大联盟球员的平均年薪为 256 万美元。根据美国劳工统计局的数据，2002 年美国人均年薪为 35,560 美元。"
     },
     {
       "id": 70,
@@ -504,7 +504,7 @@
       "type": "paragraph",
       "sourceHash": "66692cf37c7f936cab26d48e75f8d13a668eba96d45b4bb8d605223d7f0403c1",
       "enMarkdown": "Classical Athens saw a similar variation in prices. An ordinary laborer was worth about 125 to 150 drachmae. Xenophon (*Mem.* ii.5) mentions prices ranging from 50 to 6,000 drachmae (for the manager of a silver mine).",
-      "zhMarkdown": "古典时期的雅典也存在类似的物价差异。一个普通劳工的价值大约在 125 到 150 德拉克马（drachmae）之间。色诺芬（《回忆录》ii.5）提到的价格从 50 到 6,000 德拉克马不等（后者是一个银矿的主管）。"
+      "zhMarkdown": "古典时期的雅典也存在类似的价格差异。一个普通劳工的身价大约在 125 到 150 德拉克马之间。色诺芬（*Mem.* ii.5）提到的价格从 50 到 6,000 德拉克马不等（最高的是一座银矿的管理者）。"
     },
     {
       "id": 72,

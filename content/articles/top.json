@@ -4,10 +4,10 @@
   "titleZh": "脑海中的头等大事",
   "dateText": "July 2010",
   "publishedAt": "2010-07-01",
-  "sourceOrder": 106,
+  "sourceOrder": 108,
   "sourceUrl": "https://paulgraham.com/top.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -61,9 +61,9 @@
     {
       "id": 8,
       "type": "paragraph",
-      "sourceHash": "f088e3f32a8177cee662d0acdc6399b1351050dc8db6899ecb7264993cd85f58",
-      "enMarkdown": "The reason this struck me so forcibly is that for most of the preceding 10 years I'd been able to think about what I wanted. So the contrast when I couldn't was sharp. But I don't think this problem is unique to me, because just about every startup I've seen grinds to a halt when they start raising money � or [talking\nto acquirers](https://paulgraham.com/corpdev.html).",
-      "zhMarkdown": "这件事之所以让我感触如此之深，是因为在之前的 10 年里，我大部分时间都能想我所想。所以，当我想不了的时候，反差就特别强烈。但我认为这个问题并非我独有，因为我见过的几乎每一家创业公司，在开始融资或[与收购方谈判](https://paulgraham.com/corpdev.html)时，都会陷入停滞。"
+      "sourceHash": "c45bb8dc4aad83b82fb69b129cc7a349abd523784299447404ac8c0ac85ad5b2",
+      "enMarkdown": "The reason this struck me so forcibly is that for most of the preceding 10 years I'd been able to think about what I wanted. So the contrast when I couldn't was sharp. But I don't think this problem is unique to me, because just about every startup I've seen grinds to a halt when they start raising money — or [talking\nto acquirers](https://paulgraham.com/corpdev.html).",
+      "zhMarkdown": "这之所以给我如此强烈的冲击，是因为在此之前的大约十年里，我几乎总能思考自己想思考的事情。因此，一旦无法做到，那种反差就格外鲜明。但我并不觉得这个问题只发生在我身上，因为我所见过的几乎每一家创业公司，一旦开始融资——或者[与收购方接触](https://paulgraham.com/corpdev.html)——就几乎会陷入停滞。"
     },
     {
       "id": 9,
@@ -82,9 +82,9 @@
     {
       "id": 11,
       "type": "paragraph",
-      "sourceHash": "80d267cc5bf5711c8770ff5868fc7fe760c8ac1840d68bea6480d30621f05fb0",
-      "enMarkdown": "I've found there are two types of thoughts especially worth avoiding � thoughts like the Nile Perch in the way they push out more interesting ideas. One I've already mentioned: thoughts about money. Getting money is almost by definition an attention sink. The other is disputes. These too are engaging in the wrong way: they have the same velcro-like shape as genuinely interesting ideas, but without the substance. So avoid disputes if you want to get real work done. [[3](#f3n)]",
-      "zhMarkdown": "我发现有两种想法特别值得避开——它们就像尼罗河鲈鱼一样，会把更有趣的想法排挤出去。一种我前面已经提到了：关于钱的想法。弄钱几乎定义了什么叫“注意力黑洞”。另一种是纠纷。这些同样会以错误的方式吸引你的注意力：它们和真正有趣的想法一样，具有极强的粘附性，但却毫无实质内容。所以，如果你想做成点实事，就离纠纷远点。[[3](#f3n)]"
+      "sourceHash": "5812e54d5ea0275b472a27d02815944a4b3d5389fffe219db2f337fa974f388b",
+      "enMarkdown": "I've found there are two types of thoughts especially worth avoiding — thoughts like the Nile Perch in the way they push out more interesting ideas. One I've already mentioned: thoughts about money. Getting money is almost by definition an attention sink. The other is disputes. These too are engaging in the wrong way: they have the same velcro-like shape as genuinely interesting ideas, but without the substance. So avoid disputes if you want to get real work done. [[3](#f3n)]",
+      "zhMarkdown": "我发现有两类想法格外值得避开——它们就像尼罗河鲈鱼一样，会把更有意思的想法驱逐殆尽。其中一种我已经提到过：关于钱的想法。弄到钱几乎从定义上讲就是一个吞噬注意力的黑洞。另一种则是纷争。纷争同样会以错误的方式抓住你的心思：它们像魔术贴一样容易黏在脑子里，看似具有真正有趣想法的外形，内里却空无一物。因此，如果你想做出真正的成果，就要远离纷争。[[3](#f3n)]"
     },
     {
       "id": 12,
@@ -168,7 +168,7 @@
       "type": "paragraph",
       "sourceHash": "0c88bed8e9b9c152b2e4bd8ef2ce77d077ae16c87ce2c1b2ac05f031a6d07536",
       "enMarkdown": "[4] Letter to Oldenburg, quoted in Westfall, Richard, *Life of\nIsaac Newton*, p. 107.",
-      "zhMarkdown": "[4] 给奥尔登堡的信，引自理查德·威斯特法尔著《艾萨克·牛顿传》，第 107 页。"
+      "zhMarkdown": "[4] 致奥尔登伯格（Oldenburg）的信，引自理查德·韦斯特福尔（Richard Westfall）著 *Life of Isaac Newton*，第 107 页。"
     },
     {
       "id": 24,

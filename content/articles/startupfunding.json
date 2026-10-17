@@ -4,10 +4,10 @@
   "titleZh": "如何为创业公司融资",
   "dateText": "November 2005",
   "publishedAt": "2005-11-01",
-  "sourceOrder": 176,
+  "sourceOrder": 178,
   "sourceUrl": "https://paulgraham.com/startupfunding.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -196,7 +196,7 @@
       "type": "paragraph",
       "sourceHash": "afaaafe4a68a68e9fa42dbe46334f650764d51a3cceaf6b89ca9575a193dda6a",
       "enMarkdown": "The contacts and advice can be more important than the money. When del.icio.us took money from investors, they took money from, among others, Tim O'Reilly. The amount he put in was small compared to the VCs who led the round, but Tim is a smart and influential guy and it's good to have him on your side.",
-      "zhMarkdown": "人脉和建议可能比钱更重要。当 del.icio.us 接受投资时，他们接受了 Tim O'Reilly 等人的资金。与领投该轮的风险投资人相比，他投入的金额很小，但 Tim 是个聪明且有影响力的人，让他站在你这边是件好事。"
+      "zhMarkdown": "人脉和建议有时比钱更重要。del.icio.us 接受外部投资时，投资人中就包括蒂姆·奥莱利（Tim O'Reilly）。跟领投的风投相比，他投的钱微不足道，但蒂姆聪明且极具影响力，有他站在你这一边大有裨益。"
     },
     {
       "id": 28,
@@ -245,14 +245,14 @@
       "type": "paragraph",
       "sourceHash": "3a2821fb5d0b1539c2b5754d982b32e341481db7fb3bb772c5f6289f9987433c",
       "enMarkdown": "One of the dangers of taking investment from individual angels, rather than through an angel group or investment firm, is that they have less reputation to protect. A big-name VC firm will not screw you too outrageously, because other founders would avoid them if word got out. With individual angels you don't have this protection, as we found to our dismay in our own startup. In many startups' lives there comes a point when you're at the investors' mercy—when you're out of money and the only place to get more is your existing investors. When we got into such a scrape, our investors took advantage of it in a way that a name-brand VC probably wouldn't have.",
-      "zhMarkdown": "向个人天使投资人而非通过天使团体或投资机构接受投资，危险之一在于他们需要维护的声誉较少。一家名牌风险投资机构不会做得太出格，因为一旦风声传出去，其他创始人就会避开他们。但面对个人天使，你没有这种保护，我们在自己的创业中就曾沮丧地发现这一点。在许多创业公司的生命周期中，总会有一个时刻你只能任由投资人摆布——当你资金耗尽，而唯一能拿到更多钱的地方就是你现有的投资人。当我们陷入这样的困境时，我们的投资人趁火打劫，其手段是一流名牌风险投资机构可能不会采用的。"
+      "zhMarkdown": "接受个人天使投资而非天使机构或投资机构的风险之一，在于他们需要爱惜的声誉较少。知名风投机构不会把你坑得太离谱，因为一旦传出去，其他创始人就会对其敬而远之。但个人天使投资人就没这层顾虑了，我们在自己的创业公司中就沮丧地体会到了这一点。许多创业公司的生命周期中都会出现受制于投资人的时刻——当你弹尽粮绝，唯一能拿到钱的地方就是现有投资人。当我们陷入这种困境时，我们的投资人狠狠占了便宜，而一家大牌风投大概率不会这么做。"
     },
     {
       "id": 35,
       "type": "paragraph",
       "sourceHash": "3ac2719022bdd60b934928a0b1f907fc7e1aa870daebac73c586920c34a351e4",
       "enMarkdown": "Angels have a corresponding advantage, however: they're also not bound by all the rules that VC firms are. And so they can, for example, allow founders to cash out partially in a funding round, by selling some of their stock directly to the investors. I think this will become more common; the average founder is eager to do it, and selling, say, half a million dollars worth of stock will not, as VCs fear, cause most founders to be any less committed to the business.",
-      "zhMarkdown": "然而，天使投资人也有相应的优势：他们不受风险投资机构那些条条框框的限制。因此，例如他们可以允许创始人在融资轮中部分套现，即直接向投资人出售部分股票。我认为这会变得越来越普遍；普通的创始人对此非常渴望，而且出售价值比如 50 万美元的股票，并不会像风险投资人所担心的那样，导致大多数创始人对业务的投入程度降低。"
+      "zhMarkdown": "不过天使投资人也有对应的优势：他们不必受风投机构条条框框的约束。因此，他们可以允许创始人在融资轮中通过直接向投资人出售部分股票来实现部分套现。我认为这会变得越来越普遍；普通的创始人都渴望这么做，而且卖掉比如五十万美元的股票，并不会像风投所担心的那样导致大多数创始人对公司缺乏投入。"
     },
     {
       "id": 36,
@@ -266,14 +266,14 @@
       "type": "paragraph",
       "sourceHash": "5459ade48e9bf9913bb608263ac596c023399f72a735ee3db03c0262f1e81f62",
       "enMarkdown": "The best way to find angel investors is through personal introductions. You could try to cold-call angel groups near you, but angels, like VCs, will pay more attention to deals recommended by someone they respect.",
-      "zhMarkdown": "寻找天使投资人的最佳方式是通过个人引荐。你可以尝试冷启动联系（cold-call）你附近的天使团体，但天使投资人就像风险投资人一样，会更关注由他们尊重的人推荐的项目。"
+      "zhMarkdown": "寻找天使投资人的最佳途径是通过熟人引荐。你也可以试着挨个联系当地的天使投资团体，但天使投资人就像风投一样，会更看重由他们尊重的人所推荐的项目。"
     },
     {
       "id": 38,
       "type": "paragraph",
       "sourceHash": "894275dc3424469888bd6fd793447d7bcb7d1cdd503e6b1fb6a50303418437ba",
       "enMarkdown": "Deal terms with angels vary a lot. There are no generally accepted standards. Sometimes angels' deal terms are as fearsome as VCs'. Other angels, particularly in the earliest stages, will invest based on a two-page agreement.",
-      "zhMarkdown": "与天使投资人的交易条款差异很大。目前还没有普遍接受的标准。有时，天使投资人的交易条款和风险投资人的一样可怕。而其他天使投资人，特别是在最早阶段，会基于一份两页纸的协议就进行投资。"
+      "zhMarkdown": "天使投资的交易条款差异极大，并没有什么公认的标准。有时候天使投资人的条款和风投一样苛刻；而在最早期阶段，另一些天使投资人仅凭一份两页的协议就会投钱。"
     },
     {
       "id": 39,
@@ -315,7 +315,7 @@
       "type": "paragraph",
       "sourceHash": "1e9547f988e301389cc5db358f218e025f36f6dce39607fe41a82f963b1296a1",
       "enMarkdown": "Fair or not, investors do it if you let them. Even VCs do it. And funding delays are a big distraction for founders, who ought to be working on their company, not worrying about investors. What's a startup to do? With both investors and acquirers, the only leverage you have is competition. If an investor knows you have other investors lined up, he'll be a lot more eager to close-- and not just because he'll worry about losing the deal, but because if other investors are interested, you must be worth investing in. It's the same with acquisitions. No one wants to buy you till someone else wants to buy you, and then everyone wants to buy you.",
-      "zhMarkdown": "不管公平与否，只要你听之任之，投资人就会这么做。甚至风险投资人也会这么做。融资延误对创始人来说是极大的干扰，他们本应该专注于自己的公司，而不是去担心投资人。创业公司该怎么办？无论是面对投资人还是收购方，你唯一的筹码就是竞争。如果一个投资人知道你还有其他投资人在排队，他会急切得多地想要完成交易——这不仅是因为他担心失去这个项目，还因为如果有其他投资人感兴趣，你一定值得投资。收购也是一样。没人想买你，直到别人想买你，然后大家就都想买你了。"
+      "zhMarkdown": "无论公不公平，只要你听之任之，投资人就会这么干。就连风投也不例外。而融资拖延对创始人来说是极大的干扰，他们本应专注于自己的公司，而不是为投资人发愁。创业公司该怎么办？面对投资人和收购方，你唯一的筹码就是竞争。如果一个投资人知道你还有其他备选投资人排队，他敲定交易的意愿就会强烈得多——不仅是因为担心错失机会，还因为只要有其他投资人感兴趣，你就必然值得投。收购也是同一个道理：在别人想买你之前，谁都不想买你；而一旦有人想买，所有人都会涌上来抢着买。"
     },
     {
       "id": 45,
@@ -336,7 +336,7 @@
       "type": "paragraph",
       "sourceHash": "baeb911abd04a4bc65f2f8d3cc4c40619e7092b87c4d4f35c18e3271c82549cc",
       "enMarkdown": "Seed firms are like angels in that they invest relatively small amounts at early stages, but like VCs in that they're companies that do it as a business, rather than individuals making occasional investments on the side.",
-      "zhMarkdown": "种子基金机构类似于天使投资人，因为它们在早期阶段投资相对较小的金额；但它们又类似于风险投资机构，因为它们是把这当作一门生意来做的公司，而不是偶尔在业余做投资的个人。"
+      "zhMarkdown": "种子投资机构类似天使投资人，因为它们都在早期投入相对较少的资金；但它们又像风投，因为它们是以专业机构而非业余兼职的个人形式在做这件事。"
     },
     {
       "id": 48,
@@ -364,21 +364,21 @@
       "type": "paragraph",
       "sourceHash": "12d76bf84fb042b33d85d007a5a70093d8516fca6e994caa810bc607c5dd9f8f",
       "enMarkdown": "The classic Bubble incubators, most of which now seem to be dead, were like VC firms except that they took a much bigger role in the startups they funded. In addition to working in their space, you were supposed to use their office staff, lawyers, accountants, and so on.",
-      "zhMarkdown": "经典的互联网泡沫时期的孵化器（现在大多数似乎已经死掉了）很像风险投资机构，不同之处在于它们在所资助的创业公司中扮演了更大的角色。除了在他们的空间工作之外，你还应该使用他们的办公室职员、律师、会计师等等。"
+      "zhMarkdown": "互联网泡沫时期的典型孵化器（如今大多数似乎都已死绝）类似于风投机构，只是它们在所投的创业公司中扮演的角色要大得多。除了要在他们的场地办公外，你还得使用他们的行政人员、律师、会计等等。"
     },
     {
       "id": 52,
       "type": "paragraph",
       "sourceHash": "3ea346fa26e6fd4fdc2dd7dea2fd9d0fc7060b7cfd5aa6fa9395436c20cc5ba0",
       "enMarkdown": "Whereas incubators tend (or tended) to exert more control than VCs, Y Combinator exerts less.  And we think it's better if startups operate out of their own premises, however crappy, than the offices of their investors. So it's annoying that we keep getting called an \"incubator,\" but perhaps inevitable, because there's only one of us so far and no word yet for what we are. If we have to be called something, the obvious name would be \"excubator.\" (The name is more excusable if one considers it as meaning that we enable people to escape cubicles.)",
-      "zhMarkdown": "孵化器倾向于（或曾倾向于）施加比风险投资机构更多的控制，而 Y Combinator 施加的控制则较少。我们认为，创业公司最好是在自己的办公室里运营，哪怕再破烂，也比在投资人的办公室里好。因此，我们总是被称为“孵化器”让人有些烦恼，但这或许是不可避免的，因为到目前为止只有我们一家，还没有一个词来形容我们是什么。如果非要叫个名字，显而易见的名字应该是“excubator”（去孵化器）。（如果把这个名字理解为我们让人们得以逃离办公隔间（cubicles），那就更容易接受了。）"
+      "zhMarkdown": "孵化器往往（或曾经）比风投施加更多的控制，而 Y Combinator 施加的控制则更少。而且我们认为，创业公司在自己的地盘办公更好，哪怕再破烂，也比呆在投资人的办公室强。所以老被叫作“孵化器”挺让人烦恼的，但这或许不可避免，因为到目前为止只有我们一家，还没有词汇可以用来定义我们。如果我们非得叫个什么名字，最贴切的或许是“脱孵器”（excubator）。（如果把它理解为我们帮助人们逃离格子间，这个名字就显得更顺理成章了。）"
     },
     {
       "id": 53,
       "type": "paragraph",
       "sourceHash": "04636988e158e71893ab1da2f2e6620004769bbf556cfc4833cc805cec3cb988",
       "enMarkdown": "Because seed firms are companies rather than individual people, reaching them is easier than reaching angels. Just go to their web site and send them an email. The importance of personal introductions varies, but is less than with angels or VCs.",
-      "zhMarkdown": "因为种子基金机构是公司而不是个人，所以联系他们比联系天使投资人更容易。只需访问他们的网站并发送一封电子邮件即可。个人引荐的重要性因人而异，但没有天使投资人或风险投资人那么重要。"
+      "zhMarkdown": "因为种子投资机构是公司而非个人，所以联系他们比联系天使投资人容易。直接上他们的网站发封邮件就行。熟人引荐的重要性因机构而异，但总体上没有在接触天使投资人或风投时那么关键。"
     },
     {
       "id": 54,
@@ -392,7 +392,7 @@
       "type": "paragraph",
       "sourceHash": "d21be48ce72f92216bc1a5fe5ce18717e2538b49e2edc07c418e157ca88fa2a1",
       "enMarkdown": "Seed firms differ from angels and VCs in that they invest exclusively in the earliest phases—often when the company is still just an idea. Angels and even VC firms occasionally do this, but they also invest at later stages.",
-      "zhMarkdown": "种子基金机构与天使投资人和风险投资机构的不同之处在于，它们专门投资于最早期阶段——通常是公司还只是一个想法的时候。天使投资人甚至风险投资机构偶尔也会这样做，但他们也会在后期阶段进行投资。"
+      "zhMarkdown": "种子投资机构与天使投资人和风投的不同之处在于，它们专门投最早期阶段——往往在公司还只是一个想法的时候。天使投资人甚至风投机构偶尔也会这么做，但他们也会投资更后期的阶段。"
     },
     {
       "id": 56,
@@ -406,7 +406,7 @@
       "type": "paragraph",
       "sourceHash": "fd178e76ce866a8578348fb27b4814a2bde3171dfcc467836c9d11a2540c6085",
       "enMarkdown": "Like VCs, one of the advantages of seed firms is the advice they offer. But because seed firms operate in an earlier phase, they need to offer different kinds of advice. For example, a seed firm should be able to give advice about how to approach VCs, which VCs obviously don't need to do; whereas VCs should be able to give advice about how to hire an \"executive team,\" which is not an issue in the seed stage.",
-      "zhMarkdown": "与风险投资机构一样，种子基金机构的优势之一是它们提供的建议。但因为种子基金机构在更早的阶段运作，它们需要提供不同类型的建议。例如，种子基金机构应该能够就如何接触风险投资机构提供建议，这显然是风险投资机构不需要做的；而风险投资机构应该能够就如何聘请“高管团队”提供建议，这在种子阶段还不是一个问题。"
+      "zhMarkdown": "和风投一样，种子投资机构的一大优势是能提供建议。但由于种子投资机构切入的阶段更早，它们需要提供不同类型的建议。例如，种子投资机构应当能就如何接触风投提供建议，而风投显然没必要教你这个；反过来，风投应当能就如何招聘“高管团队”提供建议，而这在种子期根本不是个问题。"
     },
     {
       "id": 58,
@@ -420,14 +420,14 @@
       "type": "paragraph",
       "sourceHash": "44dea99a078c4e89c95d62bf263f6b8690e8e429ec6bf6cd1212ed831306de9f",
       "enMarkdown": "Seed firms and angel investors generally want to invest in the initial phases of a startup, then hand them off to VC firms for the next round. Occasionally startups go from seed funding direct to acquisition, however, and I expect this to become increasingly common.",
-      "zhMarkdown": "种子基金机构和天使投资人通常希望在创业公司的初始阶段进行投资，然后将他们移交给风险投资机构进行下一轮。然而，有时创业公司会从种子轮融资直接走向被收购，我预计这会变得越来越普遍。"
+      "zhMarkdown": "种子投资机构和天使投资人通常希望在创业公司的初始阶段投资，然后把接力棒交给下一轮的风投机构。不过，偶尔也有创业公司从种子轮直接走到被收购，我预计这种情况会越来越普遍。"
     },
     {
       "id": 60,
       "type": "paragraph",
       "sourceHash": "b45eeeaa864e06a1415869933b5c2b031226becea9d934a9fc2dea7b42e6b2fa",
       "enMarkdown": "Google has been aggressively pursuing this route, and now [Yahoo](http://ycombinator.com/buckman.html) is too. Both now compete directly with VCs. And this is a smart move. Why wait for further funding rounds to jack up a startup's price? When a startup reaches the point where VCs have enough information to invest in it, the acquirer should have enough information to buy it. More information, in fact; with their technical depth, the acquirers should be better at picking winners than VCs.",
-      "zhMarkdown": "谷歌一直在积极走这条路线，现在 [Yahoo](http://ycombinator.com/buckman.html) 也是如此。两者现在都在与风险投资机构直接竞争。这是一个聪明的举动。为什么要等到接下来的融资轮去推高创业公司的价格呢？当创业公司达到风险投资人有足够信息进行投资的程度时，收购方也应该有足够的信息来买下它。事实上，信息甚至更多；凭着技术实力，收购方应该比风险投资人更擅长挑选赢家。"
+      "zhMarkdown": "Google 一直在积极践行这条路径，如今 [Yahoo](http://ycombinator.com/buckman.html) 也在跟进。两家公司现在都直接与风投竞争。这是明智之举。为什么要等到后续融资轮推高创业公司的估值呢？当一家创业公司发展到风投拥有足够信息去投资的程度时，收购方也应该有足够的信息去收购它了。事实上，信息甚至更充分；凭借技术底蕴，收购方挑选胜出的眼光应当比风投更好。"
     },
     {
       "id": 61,
@@ -441,35 +441,35 @@
       "type": "paragraph",
       "sourceHash": "eb876b14e7a4c99b06af91bc8fac829f093651f58c6fdc9434d950ab4d7e25d9",
       "enMarkdown": "VC firms are like seed firms in that they're actual companies, but they invest other people's money, and much larger amounts of it. VC investments average several million dollars. So they tend to come later in the life of a startup, are harder to get, and come with tougher terms.",
-      "zhMarkdown": "风险投资机构（VC）与种子基金机构类似，都是真正的公司，但它们投资的是别人的钱，而且金额要大得多。风险投资的平均投资额达数百万美元。因此，它们往往出现在创业公司生命周期的后期，更难获得，而且伴随着更苛刻的条款。"
+      "zhMarkdown": "风投机构和种子投资机构一样都是实体公司，但它们投资的是别人的钱，而且金额要大得多。风投的单笔投资平均达数百万美元。因此它们往往出现在创业公司生命周期的更后阶段，更难拿到，条款也更苛刻。"
     },
     {
       "id": 63,
       "type": "paragraph",
       "sourceHash": "94c549b1e541cca1b325b9ddd8683e88c26ec000f1fc1e85dbc4e3940146457c",
       "enMarkdown": "The word \"venture capitalist\" is sometimes used loosely for any venture investor, but there is a sharp difference between VCs and other investors: VC firms are organized as *funds*, much like hedge funds or mutual funds. The fund managers, who are called \"general partners,\" get about 2% of the fund annually as a management fee, plus about 20% of the fund's gains.",
-      "zhMarkdown": "“风险投资家”这个词有时会被宽泛地用于指代任何风险投资者，但风险投资机构与其他投资者之间有着截然不同的区别：风险投资机构是以*基金*的形式组织起来的，非常类似于对冲基金或共同基金。被称为“普通合伙人”（GP）的基金管理人每年获得基金约 2% 的管理费，外加基金收益的约 20%。"
+      "zhMarkdown": "“风险投资人”这个词有时会被宽泛地用来指代任何风险投资领域的投资人，但风投和其他投资人之间有着泾渭分明的区别：风投机构是以*基金*的形式组建的，非常像对冲基金或公募基金。被称为“普通合伙人”（GP）的基金管理人每年收取基金总额约 2% 的管理费，外加约 20% 的基金收益分成。"
     },
     {
       "id": 64,
       "type": "paragraph",
       "sourceHash": "90e11cb043510ecbc8321547ec66f5cac955358b556e960e21d02c2e559e25d8",
       "enMarkdown": "There is a very sharp dropoff in performance among VC firms, because in the VC business both success and failure are self-perpetuating. When an investment scores spectacularly, as Google did for Kleiner and Sequoia, it generates a lot of good publicity for the VCs. And many founders prefer to take money from successful VC firms, because of the legitimacy it confers. Hence a vicious (for the losers) cycle: VC firms that have been doing badly will only get the deals the bigger fish have rejected, causing them to continue to do badly.",
-      "zhMarkdown": "风险投资机构之间的业绩分化极其严重，因为在风险投资行业中，成功和失败都是自我强化的。当一笔投资取得极其辉煌的成绩时，比如谷歌对 Kleiner 和 Sequoia 的回报，就会为这些风险投资人带来极大的声誉。许多创始人更愿意接受成功风险投资机构的资金，因为这能带来认可度。因此，这形成了一个（对失败者而言）恶性循环：表现不佳的风险投资机构只能拿到大鱼挑剩的项目，导致他们继续表现不佳。"
+      "zhMarkdown": "风投机构之间的业绩分化极其悬殊，因为在风投行业，成功和失败都会自我强化。当一笔投资取得惊人回报时（就像 Google 之于凯鹏华盈和红杉那样），会为风投带来大量良好声誉。由于成功风投机构能带来背书与正统性，许多创始人更倾向于拿他们的钱。于是就形成了一个（对输家而言的）恶性循环：业绩不佳的风投机构只能捡大牌机构挑剩下的案子，导致他们的业绩继续惨淡下去。"
     },
     {
       "id": 65,
       "type": "paragraph",
       "sourceHash": "cfb29545c0a63502d05b4138b49db1e3fded1bf0916abc238c724babfa1901d6",
       "enMarkdown": "As a result, of the thousand or so VC funds in the US now, only about 50 are likely to make money, and it is very hard for a new fund to break into this group.",
-      "zhMarkdown": "结果，在目前美国的上千家风险投资基金中，可能只有大约 50 家能赚到钱，而新的基金要想挤进这个群体是非常困难的。"
+      "zhMarkdown": "结果就是，在如今全美一千家左右的风投基金中，可能只有约 50 家能赚到钱，新基金想要挤进这个圈子难如登天。"
     },
     {
       "id": 66,
       "type": "paragraph",
       "sourceHash": "97822cbd243b814144a6b2ddd3df1d964725c59452993b448b3f0485e07c8032",
       "enMarkdown": "In a sense, the lower-tier VC firms are a bargain for founders. They may not be quite as smart or as well connected as the big-name firms, but they are much hungrier for deals. This means you should be able to get better terms from them.",
-      "zhMarkdown": "在某种意义上，二三流的风险投资机构对创始人来说是个划算的交易。他们可能不像名牌机构那样聪明或人脉广泛，但他们对项目的渴望要强烈得多。这意味着你应该能从他们那里获得更好的条款。"
+      "zhMarkdown": "从某种意义上说，次梯队风投对创始人来说算是一种性价比之选。他们可能不如大牌机构聪明或人脉广，但他们对拿案子要饥渴得多。这意味着你应该能从他们那里拿到更好的条款。"
     },
     {
       "id": 67,
@@ -483,21 +483,21 @@
       "type": "paragraph",
       "sourceHash": "531b7a8a47b1fbde6888d114d6b1b067c43ea621ee48500230b0c06a20f9ba70",
       "enMarkdown": "The most dramatic change, I predict, is that VCs will allow founders to cash out partially by [selling](https://paulgraham.com/vcsqueeze.html) some of their stock direct to the VC firm. VCs have traditionally resisted letting founders get anything before the ultimate \"liquidity event.\" But they're also desperate for deals. And since I know from my own experience that the rule against buying stock from founders is a stupid one, this is a natural place for things to give as venture funding becomes more and more a seller's market.",
-      "zhMarkdown": "我预测，最戏剧性的变化是，风险投资人将允许创始人通过直接向风险投资机构[出售](https://paulgraham.com/vcsqueeze.html)部分股票来部分套现。传统上，风险投资人一直抵制让创始人在最终的“流动性事件”之前获得任何收益。但他们现在也极度渴望拿到项目。既然我从自己的经验中知道，不向创始人买股票的规定是愚蠢的，那么随着风险投资越来越成为卖方市场，这个规定自然会开始松动。"
+      "zhMarkdown": "我预测最显著的变化将是，风投会允许创始人通过直接向风投机构[出售](https://paulgraham.com/vcsqueeze.html)部分股票来实现部分套现。传统上，风投一直抗拒在最终的“流动性事件”之前让创始人拿到一分钱。但他们也极度渴求好项目。而且从我自己的经验来看，禁止从创始人手里买股票这条规矩本就很蠢，随着风险投资越来越变成卖方市场，这里自然会成为妥协让步的突破口。"
     },
     {
       "id": 69,
       "type": "paragraph",
       "sourceHash": "4a7b83c4690c97419edfe1fc3c704104e4545196bd1f31c401b9377ed432f04d",
       "enMarkdown": "The disadvantage of taking money from less known firms is that people will assume, correctly or not, that you were turned down by the more exalted ones. But, like where you went to college, the name of your VC stops mattering once you have some performance to measure. So the more confident you are, the less you need a brand-name VC. We funded Viaweb entirely with angel money; it never occurred to us that the backing of a well known VC firm would make us seem more impressive. [[5](#f5n)]",
-      "zhMarkdown": "接受知名度较低的机构的资金，缺点在于人们会假设（不管对错）你被那些更显赫的机构拒绝了。但是，就像你上哪所大学一样，一旦你有了可以衡量的业绩，你的风险投资人的名字就不再重要了。因此，你越有信心，就越不需要品牌风险投资人。我们完全是用天使资金资助了 Viaweb；我们从未想过，知名风险投资机构的支持会让我们看起来更了不起。[[5](#f5n)]"
+      "zhMarkdown": "拿知名度较低机构的钱，坏处在于人们会推测（不论对错）你肯定被更牛的机构拒过。但是，就像你的大学出身一样，一旦你拿得出实打实的业绩，风投的名头就无关紧要了。所以你越有底气，就越不需要大牌风投。我们做 Viaweb 的资金全来自天使投资；我们从没觉得有名牌风投机构撑腰会让我们看起来更了不起。[[5](#f5n)]"
     },
     {
       "id": 70,
       "type": "paragraph",
       "sourceHash": "95397aefd16a386874f93ab4644ec3203efa9566ed33e603b4b65d33388c996f",
       "enMarkdown": "Another danger of less known firms is that, like angels, they have less reputation to protect. I suspect it's the lower-tier firms that are responsible for most of the tricks that have given VCs such a bad reputation among hackers. They are doubly hosed: the general partners themselves are less able, and yet they have harder problems to solve, because the top VCs skim off all the best deals, leaving the lower-tier firms exactly the startups that are likely to blow up.",
-      "zhMarkdown": "知名度较低的机构的另一个危险是，就像天使投资人一样，他们需要维护的声誉较少。我怀疑正是这些二三流的机构，搞出了大多数让风险投资人在黑客中声名狼藉的花招。他们面临着双重困境：普通合伙人本身能力较弱，但他们要解决的问题却更难，因为顶尖的风险投资机构筛选走了所有最好的项目，留给二三流机构的恰恰是那些很可能会搞砸的创业公司。"
+      "zhMarkdown": "不知名机构的另一个风险是，他们和天使投资人一样，没有多少声誉需要去爱惜。我怀疑风投在黑客圈子里声名狼藉的罪魁祸首，大多就是这些低梯队机构搞的小动作。他们面临双重困境：普通合伙人自身能力较逊，面对的挑战却更严峻，因为顶尖风投卷走了所有最好的项目，留给低梯队机构的恰恰是那些极可能暴雷的创业公司。"
     },
     {
       "id": 71,
@@ -525,56 +525,56 @@
       "type": "paragraph",
       "sourceHash": "303bfad99069c433fcd0ed1c78aca7a1f0191f8d7a69377d5afb1a213670f084",
       "enMarkdown": "Falling victim to this trick could really hurt you. As one VC told me:",
-      "zhMarkdown": "成为这种把戏的受害者真的会伤害你。正如一位风险投资人告诉我："
+      "zhMarkdown": "掉进这种陷阱会让你元气大伤。正如一位风投告诉我的："
     },
     {
       "id": 75,
       "type": "quote",
       "sourceHash": "beefae806767f16aa968c328e6746bd348c79f4eb534b4dcf3d2e6bad765e7fe",
       "enMarkdown": "> If you were talking to four VCs, told three of them that you accepted a term sheet, and then have to call them back to tell them you were just kidding, you are absolutely damaged goods.",
-      "zhMarkdown": "> 如果你当时正在和四家风险投资人接触，告诉其中三家你已经接受了条款书，然后又不得不打电话告诉他们你只是开个玩笑，你绝对就成了没人要的残次品。"
+      "zhMarkdown": "> 如果你同时在跟四家风投谈，告诉其中三家你接受了另一家的条款清单，随后又不得不打电话回去说你刚才是闹着玩的，那你绝对就成了‘有瑕疵的赔钱货’。"
     },
     {
       "id": 76,
       "type": "paragraph",
       "sourceHash": "6b6905a55b39724f71f6c14a39f51ce7e6bd960a799f582f2043c291008cf191",
       "enMarkdown": "Here's a partial solution: when a VC offers you a term sheet, ask how many of their last 10 term sheets turned into deals. This will at least force them to lie outright if they want to mislead you.",
-      "zhMarkdown": "这里有一个部分解决方案：当风险投资人给你条款书时，问问他们最近 10 份条款书中有多少最终达成了交易。如果他们想误导你，这至少会迫使他们直接撒谎。"
+      "zhMarkdown": "这里有一个部分的解决办法：当一家风投给你条款清单时，问问他们最近 10 份条款清单里最终完成了多少笔交易。这至少能逼得他们要想误导你，就只能公然撒谎。"
     },
     {
       "id": 77,
       "type": "paragraph",
       "sourceHash": "de33fc2a380800ad7ffa6f3a3a3bd83f31e089b53dcaede4657aff440d81baf1",
       "enMarkdown": "Not all the people who work at VC firms are partners. Most firms also have a handful of junior employees called something like associates or analysts. If you get a call from a VC firm, go to their web site and check whether the person you talked to is a partner. Odds are it will be a junior person; they scour the web looking for startups their bosses could invest in. The junior people will tend to seem very positive about your company. They're not pretending; they *want* to believe you're a hot prospect, because it would be a huge coup for them if their firm invested in a company they discovered. Don't be misled by this optimism. It's the partners who decide, and they view things with a colder eye.",
-      "zhMarkdown": "并非所有在风险投资机构工作的人都是合伙人。大多数机构还有少数初级员工，被称为投资经理（associate）或分析师（analyst）。如果你接到风险投资机构的电话，去他们的网站查看和你通话的人是否是合伙人。很有可能是初级人员；他们扫视网络，寻找老板可以投资的创业公司。初级人员往往对你的公司表现得非常积极。他们不是在装模作样；他们*想要*相信你是一个热门的前景，因为如果他们的机构投资了他们发现的公司，对他们来说将是一个巨大的胜利。不要被这种乐观情绪所误导。做决定的是合伙人，他们审视事物的眼光要冷酷得多。"
+      "zhMarkdown": "风投机构里工作的人并不全都是合伙人。大多数机构还有少数初级员工，头衔通常是投资经理或分析师。如果你接到风投机构的电话，去他们的网站查查和你谈话的人是不是合伙人。大概率是个初级人员；他们成天在网上搜寻老板可能会投的创业公司。这些初级人员往往对你的公司表现得极为积极。他们不是在装模作样；他们*渴望*相信你是个大热门，因为如果机构投资了一家他们发掘出来的公司，对他们来说将是一项巨大的战功。别被这种乐观给误导了。做决定的是合伙人，而他们看问题的眼光要冷静、挑剔得多。"
     },
     {
       "id": 78,
       "type": "paragraph",
       "sourceHash": "c4503569c126ca8ea126d3932507081988c1fdb93514decf84b7d6deb06266da",
       "enMarkdown": "Because VCs invest large amounts, the money comes with more restrictions. Most only come into effect if the company gets into trouble. For example, VCs generally write it into the deal that in any sale, they get their investment back first. So if the company gets sold at a low price, the founders could get nothing. Some VCs now require that in any sale they get 4x their investment back before the common stock holders (that is, you) get anything, but this is an abuse that should be resisted.",
-      "zhMarkdown": "因为风险投资人投资金额巨大，所以这些钱伴随着更多的限制。大多数限制只有在公司陷入困境时才会生效。例如，风险投资人通常会在交易中写明，在任何出售中，他们都要先拿回自己的投资。因此，如果公司以低价出售，创始人可能什么也得不到。现在一些风险投资人要求，在普通股持有人（也就是你）得到任何东西之前，他们要在任何出售中拿回 4 倍的投资，但这是应该抵制的无理要求。"
+      "zhMarkdown": "因为风投投资的金额巨大，随之而来的限制也更多。大部分限制只会在公司陷入困境时生效。例如，风投通常会在交易中写明，在任何出售交易中他们享有优先清算权。因此，如果公司以低价出售，创始人可能会颗粒无收。有些风投现在甚至要求在任何出售中先拿回 4 倍投资额，普通股股东（也就是你们）才能分得一杯羹，但这种霸王条款理应遭到抵制。"
     },
     {
       "id": 79,
       "type": "paragraph",
       "sourceHash": "6bb1cc413bd86a4bd9b5e8ff78b7b3afb1f15cd27bddb17e4e35b40b502a949c",
       "enMarkdown": "Another difference with large investments is that the founders are usually required to accept \"vesting\"—to surrender their stock and earn it back over the next 4-5 years. VCs don't want to invest millions in a company the founders could just walk away from. Financially, vesting has little effect, but in some situations it could mean founders will have less power. If VCs got de facto control of the company and fired one of the founders, he'd lose any unvested stock unless there was specific protection against this. So vesting would in that situation force founders to toe the line.",
-      "zhMarkdown": "大额投资的另一个不同之处在于，通常要求创始人接受“兑现”（vesting）——交出他们的股票，并在接下来的 4 到 5 年里重新赚回来。风险投资人不想在一个创始人随时可能拍屁股走人的公司里投资数百万美元。在财务上，兑现几乎没有影响，但在某些情况下，这可能意味着创始人的权力会变小。如果风险投资人获得了公司的实际控制权并解雇了其中一位创始人，除非有针对此情况的特殊保护，否则他将失去任何未兑现的股票。因此，在这种情况下，兑现会迫使创始人听话。"
+      "zhMarkdown": "大额投资的另一个区别是，创始人通常需要接受“分期兑现”（vesting）——上交自己的股票，并在接下来的 4 到 5 年里逐步重新赚回来。风投可不想给一家创始人随时可以拍拍屁股走人的公司砸下几百万美元。从财务上讲，分期兑现影响不大，但在某些情况下可能意味着创始人手中的权力变小。如果风投获得了公司的实际控制权并开除了一位创始人，除非有针对此事的专门保护条款，否则该创始人将失去所有未兑现的股票。所以在那种情况下，分期兑现会迫使创始人唯命是从。"
     },
     {
       "id": 80,
       "type": "paragraph",
       "sourceHash": "ee7c2abb68be0fbc61a4788590558e16a3d92106e4d90fe1b8ddb096e66f6899",
       "enMarkdown": "The most noticeable change when a startup takes serious funding is that the founders will no longer have complete control. Ten years ago VCs used to insist that founders step down as CEO and hand the job over to a business guy they supplied. This is less the rule now, partly because the disasters of the Bubble showed that generic business guys don't make such great CEOs.",
-      "zhMarkdown": "当创业公司接受严肃的融资时，最明显的变化是创始人将不再拥有完全的控制权。十年前，风险投资人过去常常坚持要求创始人退下 CEO 的位置，并将工作移交给他们提供的职业经理人。现在这不再是硬性规定了，部分原因是泡沫破裂的灾难表明，通用的职业经理人并不能成为优秀的 CEO。"
+      "zhMarkdown": "创业公司拿到巨额融资后最明显的变化，是创始人将不再拥有绝对控制权。十年前，风投常常坚持要求创始人辞去 CEO 职务，把位子让给风投派来的职业经理人。现在这已经不那么普遍了，部分原因是互联网泡沫时期的惨痛教训表明，平庸的职业经理人做不出什么了不起的 CEO。"
     },
     {
       "id": 81,
       "type": "paragraph",
       "sourceHash": "4baf94cb45a2d91282f0e40137f4ae22f395b9359f778eaad99bc591ccfe89c8",
       "enMarkdown": "But while founders will increasingly be able to stay on as CEO, they'll have to cede some power, because the board of directors will become more powerful. In the seed stage, the board is generally a formality; if you want to talk to the other board members, you just yell into the next room. This stops with VC-scale money. In a typical VC funding deal, the board of directors might be composed of two VCs, two founders, and one outside person acceptable to both. The board will have ultimate power, which means the founders now have to convince instead of commanding.",
-      "zhMarkdown": "但是，尽管创始人将越来越能够继续担任 CEO，他们还是必须让出一些权力，因为董事会将变得更加强大。在种子阶段，董事会通常只是一种形式；如果你想和董事会的其他成员交谈，你只需要对着隔壁房间喊一声。在风险投资规模的资金进来后，这种情况就结束了。在典型的风险投资交易中，董事会可能由两名风险投资人、两名创始人和一名双方都能接受的外部人士组成。董事会将拥有最终权力，这意味着创始人现在必须去说服，而不是直接下命令。"
+      "zhMarkdown": "不过，尽管创始人将越来越能够继续担任 CEO，他们仍必须交出部分权力，因为董事会的权力会变大。在种子轮阶段，董事会通常只是个走过场的形式；你想找其他董事谈谈，直接冲着隔壁房间喊一嗓子就行。但拿了风投级别的钱，这种情况就不复存在了。在典型的风投交易中，董事会通常可能由两名风投、两名创始人和一名双方均认可的外部人士组成。董事会拥有最终权力，这意味着创始人如今必须学会说服，而不再是一言堂。"
     },
     {
       "id": 82,
@@ -588,14 +588,14 @@
       "type": "paragraph",
       "sourceHash": "894fc4129ab2c168cfc7c2410060cc328ea36a10daac1e1463644f96eb50bd24",
       "enMarkdown": "Like angels, VCs prefer to invest in deals that come to them through people they know. So while nearly all VC funds have some address you can send your business plan to, VCs privately admit the chance of getting funding by this route is near zero. One recently told me that he did not know a single startup that got funded this way.",
-      "zhMarkdown": "和天使投资人一样，风险投资人更喜欢投资通过他们认识的人推荐过来的交易。因此，虽然几乎所有的风险投资基金都有一个你可以发送商业计划书的地址，但风险投资人私下里承认，通过这条途径获得融资的几率接近于零。最近有人告诉我，他不知道有哪一家创业公司是通过这种方式获得融资的。"
+      "zhMarkdown": "和天使投资人一样，风投也更喜欢投熟人引荐的项目。因此，尽管几乎所有风投基金都有一个可以投递商业计划书的公开邮箱，但风投私下里承认，通过这种途径拿到融资的几率几乎为零。最近一位风投告诉我，他压根不知道有哪家创业公司是通过这种方式拿到钱的。"
     },
     {
       "id": 84,
       "type": "paragraph",
       "sourceHash": "00639a282e2557045c16313ba9c8994078fa27e70294b30dc735e0bdeadd692d",
       "enMarkdown": "I suspect VCs accept business plans \"over the transom\" more as a way to keep tabs on industry trends than as a source of deals. In fact, I would strongly advise against mailing your business plan randomly to VCs, because they treat this as evidence of laziness. Do the extra work of getting personal introductions. As one VC put it:",
-      "zhMarkdown": "我怀疑风险投资人接受不请自来的商业计划书，更多是为了掌握行业趋势，而不是作为项目的来源。事实上，我强烈建议不要盲目地向风险投资人邮寄你的商业计划书，因为他们会把这视为懒惰的证据。多花点精力去获得个人引荐。正如一位风险投资人所说："
+      "zhMarkdown": "我怀疑风投接收这些“主动投递”的商业计划书，更多是为了掌握行业动态，而不是寻找投资标的。实际上，我强烈建议不要盲目向风投群发商业计划书，因为他们会把这视为偷懒的表现。多下点功夫去争取熟人引荐吧。正如一位风投所言："
     },
     {
       "id": 85,
@@ -609,21 +609,21 @@
       "type": "paragraph",
       "sourceHash": "ad539977cc8072553233eccfa731b970f6e02a6eefd1ea78f627f4f810cdc681",
       "enMarkdown": "One of the most difficult problems for startup founders is deciding when to approach VCs. You really only get one chance, because they rely heavily on first impressions. And you can't approach some and save others for later, because (a) they ask who else you've talked to and when and (b) they talk among themselves. If you're talking to one VC and he finds out that you were rejected by another several months ago, you'll definitely seem shopworn.",
-      "zhMarkdown": "对于创业公司创始人来说，最困难的问题之一是决定何时接触风险投资人。你其实只有一次机会，因为他们非常依赖第一印象。而且你不能先接触一些，把另一些留到以后，因为（a）他们会问你还和谁谈过、什么时候谈过，以及（b）他们彼此之间会交流。如果你正在和一位风险投资人谈，而他发现你几个月前被另一位拒绝了，你绝对会显得像是过时的滞销品。"
+      "zhMarkdown": "对创业公司的创始人来说，最棘手的问题之一是决定何时去接触风投。你基本上只有一次机会，因为他们极度依赖第一印象。而且你不能先接触一部分、把另一部分留到以后，因为（a）他们会问你还跟谁聊过、什么时候聊的，并且（b）他们私底下互通有无。如果你在跟一家风投聊，而他发现你在几个月前就被另一家拒过，你绝对会显得像是滞销的次品。"
     },
     {
       "id": 87,
       "type": "paragraph",
       "sourceHash": "4f674ae05535552716b3338d55e1d5e1fd9645bce69e135693b116cf08fbc78c",
       "enMarkdown": "So when do you approach VCs? When you can convince them. If the founders have impressive resumes and the idea isn't hard to understand, you could approach VCs quite early. Whereas if the founders are unknown and the idea is very novel, you might have to launch the thing and show that users loved it before VCs would be convinced.",
-      "zhMarkdown": "那么你什么时候接触风险投资人呢？当你能够说服他们的时候。如果创始人的简历令人印象深刻，且想法不难理解，你可以相当早地接触风险投资人。而如果创始人默默无闻，想法又非常新颖，你可能必须先推出产品并证明用户喜欢它，然后风险投资人才会被说服。"
+      "zhMarkdown": "那么该何时接触风投？当你能说服他们的时候。如果创始人履历亮眼且想法浅显易懂，你可以很早就去接触风投。反之，如果创始人名不见经传且想法极其新颖，你可能得把东西做出来并证明用户非常喜爱它，风投才会被打动。"
     },
     {
       "id": 88,
       "type": "paragraph",
       "sourceHash": "04404867d4eba42bb43f4a27e7d2ac9a767f053ed0a23a64b25210daa3057c6a",
       "enMarkdown": "If several VCs are interested in you, they will sometimes be willing to split the deal between them. They're more likely to do this if they're close in the VC pecking order. Such deals may be a net win for founders, because you get multiple VCs interested in your success, and you can ask each for advice about the other. One founder I know wrote:",
-      "zhMarkdown": "如果有几家风险投资人对你感兴趣，他们有时会愿意共同分担这笔交易。如果他们在风险投资等级中的地位相近，他们更有可能这样做。这类交易对创始人来说可能是净赢，因为你会让多个风险投资人对你的成功产生兴趣，而且你可以向每个风险投资人询问关于另一个人的建议。我认识的一位创始人写道："
+      "zhMarkdown": "如果有多家风投对你感兴趣，他们有时会愿意联合分担这笔投资。如果他们在风投圈内的地位相当，就更有可能这么做。对创始人来说，这种联合投资往往是净赚的，因为有不止一家风投押注于你的成功，而且你还可以就其中一家的情况向另一家讨教建议。一位我认识的创始人写道："
     },
     {
       "id": 89,
@@ -637,14 +637,14 @@
       "type": "paragraph",
       "sourceHash": "753877dffa34b749221a045b39ab25df43d587330f3bd780a48d219c9a52bcb3",
       "enMarkdown": "When you do negotiate with VCs, remember that they've done this a lot more than you have. They've invested in dozens of startups, whereas this is probably the first you've founded. But don't let them or the situation intimidate you. The average founder is smarter than the average VC. So just do what you'd do in any complex, unfamiliar situation: proceed deliberately, and question anything that seems odd.",
-      "zhMarkdown": "当你确实与风险投资人谈判时，请记住他们做这件事的经验比你多得多。他们已经投资了数十家创业公司，而这可能是你创办的第一家。但不要让他们或这种局面吓倒你。创始人的平均智商高于风险投资人的平均智商。因此，只需做你在面对任何复杂、不熟悉的境况时会做的事：深思熟虑地进行，并对任何看起来奇怪的事情提出质疑。"
+      "zhMarkdown": "当你真去跟风投谈判时，记住他们的经验远比你丰富得多。他们投过几十家创业公司，而这大概是你创立的第一家。但不要被他们或场面吓倒。普通的创始人比普通的风投要聪明。所以，只需像在任何复杂、陌生的场合那样去做：从容行事，凡是看起来不对劲的地方，都要追问到底。"
     },
     {
       "id": 91,
       "type": "paragraph",
       "sourceHash": "2b956ae5fe6ec7663ca2dead7ffa9a424a302cbc9dba3b645e10fb47719469de",
       "enMarkdown": "It is, unfortunately, common for VCs to put terms in an agreement whose consequences surprise founders later, and also common for VCs to defend things they do by saying that they're standard in the industry. Standard, schmandard; the whole industry is only a few decades old, and rapidly evolving. The concept of \"standard\" is a useful one when you're operating on a small scale (Y Combinator uses identical terms for every deal because for tiny seed-stage investments it's not worth the overhead of negotiating individual deals), but it doesn't apply at the VC level. On that scale, every negotiation is unique.",
-      "zhMarkdown": "不幸的是，风险投资人常常在协议中加入一些条款，其后果在以后会让创始人感到惊讶，而且风险投资人也经常通过说这些条款是行业标准来为自己的行为辩护。标准个头；整个行业只有几十年的历史，并且正在迅速演变。“标准”的概念在小规模运作时是有用的（Y Combinator 在每笔交易中都使用相同的条款，因为对于微小的种子阶段投资来说，不值得花精力去谈判单独的交易），但它不适用于风险投资级别。在那个规模上，每一次谈判都是独特的。"
+      "zhMarkdown": "风投在协议里塞进一些日后会让创始人吃惊的条款，这很常见；风投用“行业惯例”来为自己的行为辩护，这也屡见不鲜。什么狗屁惯例；整个行业才诞生了几十年，而且还在飞速演进。“惯例”这个概念在小规模运作时很有用（Y Combinator 对每笔投资都使用完全相同的条款，因为对于极小规模的种子轮投资，不值得承担逐笔谈判的开销），但在风投级别根本不适用。到了那个体量，每一次谈判都是独一无二的。"
     },
     {
       "id": 92,
@@ -693,7 +693,7 @@
       "type": "paragraph",
       "sourceHash": "da120c9587a52ad15ccc945f88b0cdbdfb089a050ffc1fc5f96a16d6e04b8633",
       "enMarkdown": "The phrase \"seed investment\" covers a broad range. To some VC firms it means $500,000, but to most startups it means several months' living expenses. We'll suppose our group of friends start with $15,000 from their friend's rich uncle, who they give 5% of the company in return. There's only common stock at this stage. They leave 20% as an options pool for later employees (but they set things up so that they can issue this stock to themselves if they get bought early and most is still unissued), and the three founders each get 25%.",
-      "zhMarkdown": "“种子投资”这个词涵盖了很宽的范围。对一些风险投资机构来说，这意味着 500,000 美元，但对大多数创业公司来说，这意味着几个月的生活费。我们假设我们的朋友圈子从他们朋友的富裕叔叔那里拿到了 15,000 美元作为启动，作为回报，他们给了叔叔公司 5% 的股份。在这个阶段只有普通股。他们留出 20% 作为未来员工的期权池（但他们做好了设置，以便如果他们很早就被收购且大部分期权尚未发行，他们可以将这些股票发行给自己），三位创始人每人获得 25%。"
+      "zhMarkdown": "“种子投资”这个词涵盖的范围很广。对某些风投机构来说，它意味着 50 万美元；但对大多数创业公司来说，它只意味着几个月的生活费。我们假设这三位朋友从其中一人的富豪叔叔那里拿到了 1.5 万美元启动资金，作为交换，给叔叔 5% 的股份。现阶段只有普通股。他们留出 20% 作为日后员工的期权池（但他们做好了架构设置，以便若公司很早就被收购且大部分期权未发放时，可以把这些股份发给自己），三位创始人各得 25%。"
     },
     {
       "id": 99,
@@ -756,7 +756,7 @@
       "type": "paragraph",
       "sourceHash": "20a2723731934d279492994770ab5da5c22bb74bd938a9a36fd5cb39e20c0309",
       "enMarkdown": "The angel agrees to invest at a pre-money valuation of $1 million. The company issues $200,000 worth of new shares to the angel; if there were 1000 shares before the deal, this means 200 additional shares. The angel now owns 200/1200 shares, or a sixth of the company, and all the previous shareholders' percentage ownership is diluted by a sixth. After the deal, the capitalization table looks like this:  shareholder shares percent ------------------------------- angel 200 16.7 uncle 50 4.2 each founder 250 20.8 option pool 200 16.7 ---- ----- total 1200 100  To keep things simple, I had the angel do a straight cash for stock deal. In reality the angel might be more likely to make the investment in the form of a convertible loan. A convertible loan is a loan that can be converted into stock later; it works out the same as a stock purchase in the end, but gives the angel more protection against being squashed by VCs in future rounds.",
-      "zhMarkdown": "天使同意以 100 万美元的投前估值进行投资。公司向天使发行价值 200,000 美元的新股；如果交易前有 1000 股，这意味着增加 200 股。天使现在拥有 200/1200 股，即公司的六分之一，所有先前股东的持股比例都被稀释了六分之一。交易完成后，股权结构表（cap table）如下所示：  股东 股份 比例 ------------------------------- 天使 200 16.7% 叔叔 50 4.2% 每个创始人 250 20.8% 期权池 200 16.7% ---- ----- 总计 1200 100%  为了保持简单，我让天使做了一笔直接用现金换股票的交易。在现实中，天使可能更有可能以可转债（convertible loan）的形式进行投资。可转债是一种以后可以转换为股票的贷款；它最终的效果和购买股票一样，但在未来的融资轮中，能给天使提供更多的保护，防止被风险投资人排挤。"
+      "zhMarkdown": "这位天使投资人同意按 100 万美元的投前估值进行投资。公司向天使投资人增发价值 20 万美元的新股；如果交易前有 1,000 股，这意味着要增发 200 股。天使投资人现在持有 200/1200 股，即公司的六分之一，所有原有股东的持股比例都被稀释了六分之一。交易完成后，股权结构表如下：\n\n股东 股数 比例\n-------------------------------\n天使投资人 200 16.7\n叔叔 50 4.2\n每位创始人 250 20.8\n期权池 200 16.7\n---- -----\n总计 1200 100\n\n为了简明起见，我让天使投资人做了直接的现金换股权交易。现实中，天使投资人更可能以可转债的形式投资。可转债是一种日后可转换为股票的贷款；最终效果与购买股票相同，但能在未来轮次中为天使投资人提供更多保护，防止被风投碾压。"
     },
     {
       "id": 108,
@@ -777,7 +777,7 @@
       "type": "paragraph",
       "sourceHash": "a6d3c3a148a9e8cc94e1be8063869405d2c2f11e3160c9a2d2834e2e21fa89b5",
       "enMarkdown": "Some investors might expect the founders to accept vesting for a sum this size, and others wouldn't. VCs are more likely to require vesting than angels. At Viaweb we managed to raise $2.5 million from angels without ever accepting vesting, largely because we were so inexperienced that we were appalled at the idea. In practice this turned out to be good, because it made us harder to push around.",
-      "zhMarkdown": "对于这个数额，一些投资人可能会期望创始人接受兑现，而另一些则不会。风险投资人比天使投资人更有可能要求兑现。在 Viaweb，我们成功地从天使投资人那里筹集了 250 万美元，而从未接受过兑现，这主要是因为我们太没有经验了，以至于对这个想法感到震惊。在实践中，这被证明是件好事，因为它让我们更难被摆布。"
+      "zhMarkdown": "面对这个数额的资金，有些投资人可能会要求创始人接受分期兑现，而另一些则不会。风投比天使投资人更有可能要求分期兑现。在 Viaweb，我们成功从天使投资人那里筹集了 250 万美元，却从未接受过分期兑现，很大程度上是因为我们毫无经验，以至于对这个概念感到不可思议。事实证明这反而是件好事，因为它让我们没那么容易任人摆布。"
     },
     {
       "id": 111,
@@ -840,7 +840,7 @@
       "type": "paragraph",
       "sourceHash": "bb4e477824bffce1916d2e3a0ad37917dd1a131d999b8029259a8ebd2515398f",
       "enMarkdown": "We'll assume that their startup is one that could put millions more to use. Perhaps they need to spend a lot on marketing, or build some kind of expensive infrastructure, or hire highly paid salesmen. So they decide to start talking to VCs. They get introductions to VCs from various sources: their angel investor connects them with a couple; they meet a few at conferences; a couple VCs call them after reading about them.",
-      "zhMarkdown": "我们假设他们的创业公司是一个可以利用数百万美元资金的公司。也许他们需要在营销上花很多钱，或者构建某种昂贵的基础设施，或者雇佣高薪的销售人员。所以他们决定开始和风险投资人谈谈。他们通过各种渠道获得了引荐：他们的天使投资人帮他们联系了几个；他们在会议上遇到了几个；在读了关于他们的报道后，几个风险投资人给他们打了电话。"
+      "zhMarkdown": "我们假设他们的创业公司属于能把上百万元派上用场的类型。也许他们需要投入巨资做市场推广，或是搭建某种昂贵的基础设施，亦或是聘请高薪销售人员。于是他们决定开始接触风投。他们通过各种渠道获得了引荐机会：他们的天使投资人介绍了两位；在行业会议上结识了几位；还有几位风投是在媒体上读到关于他们的报道后主动打来电话的。"
     },
     {
       "id": 120,
@@ -854,42 +854,42 @@
       "type": "paragraph",
       "sourceHash": "800a37dc5a4caaf02fe093b47eec92f10f43d5aded2e4a77f1aa584dfdd089b8",
       "enMarkdown": "Armed with their now somewhat fleshed-out business plan and able to demo a real, working system, the founders visit the VCs they have introductions to. They find the VCs intimidating and inscrutable. They all ask the same question: who else have you pitched to? (VCs are like high school girls: they're acutely aware of their position in the VC pecking order, and their interest in a company is a function of the interest other VCs show in it.)",
-      "zhMarkdown": "创始人们带上了他们现在有些充实的商业计划书，并且能够演示一个真实的、可以运行的系统，去拜访了他们获得引荐的风险投资人。他们发现风险投资人令人敬畏且难以捉摸。他们都问同一个问题：你还向谁路演过？（风险投资人就像高中女生：他们敏锐地意识到自己在风险投资等级中的位置，他们对一家公司的兴趣是其他风险投资人表现出的兴趣的函数。）"
+      "zhMarkdown": "带上他们那份如今已初具雏形的商业计划书，并能现场演示一套真实可运行的系统，创始人拜访了那些获得引荐的风投。他们发现风投既气势逼人又高深莫测。所有人问的都是同一个问题：你们还找谁路演过？（风投就像高中女生：对自己在风投圈的排位极为敏感，他们对一家公司的兴趣完全取决于其他风投表现出的兴趣。）"
     },
     {
       "id": 122,
       "type": "paragraph",
       "sourceHash": "0391188190a1fb3f612d51a9bf85c7512e88d765296f0637d8c7f0e365109d05",
       "enMarkdown": "One of the VC firms says they want to invest and offers the founders a term sheet. A term sheet is a summary of what the deal terms will be when and if they do a deal; lawyers will fill in the details later. By accepting the term sheet, the startup agrees to turn away other VCs for some set amount of time while this firm does the \"due diligence\" required for the deal. Due diligence is the corporate equivalent of a background check: the purpose is to uncover any hidden bombs that might sink the company later, like serious design flaws in the product, pending lawsuits against the company, intellectual property issues, and so on. VCs' legal and financial due diligence is pretty thorough, but the technical due diligence is generally a joke. [[8](#f8n)]",
-      "zhMarkdown": "其中一家风险投资机构表示他们想投资，并向创始人提供了一份条款书。条款书是如果他们达成交易，交易条款将会是什么的摘要；律师稍后会填写细节。通过接受条款书，创业公司同意在这一家机构进行交易所需的“尽职调查”（due diligence）期间，在设定的时间内拒绝其他风险投资人。尽职调查是公司层面的背景调查：目的是发现任何可能在以后击沉公司的隐蔽炸弹，比如产品中严重的缺陷、针对公司的未决诉讼、知识产权问题等等。风险投资人的法律和财务尽职调查相当彻底，但技术尽职调查通常只是个笑话。[[8](#f8n)]"
+      "zhMarkdown": "其中一家风投机构表示有意投资，并向创始人提供了一份条款清单。条款清单是一份概括如果达成交易时具体条款将是怎样的摘要；律师稍后会补全细节。创业公司一旦接受条款清单，就等于同意在一定期限内拒绝其他风投，好让该机构完成研究所需的“尽职调查”。尽职调查相当于企业层面的背景审查：其目的是挖掘可能在日后摧毁公司的任何隐患，例如产品存在严重设计缺陷、公司面临未决诉讼、知识产权纠纷等等。风投在法律和财务尽调上相当彻底，但技术尽调通常就是个笑话。[[8](#f8n)]"
     },
     {
       "id": 123,
       "type": "paragraph",
       "sourceHash": "0bafc62f3b77e932afaef6c348a76fe9af9320b9ad5d30ef6dfac9a480a14187",
       "enMarkdown": "The due diligence discloses no ticking bombs, and six weeks later they go ahead with the deal. Here are the terms: a $2 million investment at a pre-money valuation of $4 million, meaning that after the deal closes the VCs will own a third of the company (2 / (4 + 2)). The VCs also insist that prior to the deal the option pool be enlarged by an additional hundred shares. So the total number of new shares issued is 750, and the cap table becomes:  shareholder shares percent ------------------------------- VCs 650 33.3 angel 200 10.3 uncle 50 2.6 each founder 250 12.8 employee 36* 1.8 *unvested option pool 264 13.5 ---- ----- total 1950 100  This picture is unrealistic in several respects. For example, while the percentages might end up looking like this, it's unlikely that the VCs would keep the existing numbers of shares. In fact, every bit of the startup's paperwork would probably be replaced, as if the company were being founded anew. Also, the money might come in several tranches, the later ones subject to various conditions—though this is apparently more common in deals with lower-tier VCs (whose lot in life is to fund more dubious startups) than with the top firms.",
-      "zhMarkdown": "尽职调查没有披露任何定时炸弹，六周后他们继续进行交易。以下是条款：在 400 万美元的投前估值下投资 200 万美元，这意味着交易完成后，风险投资人将拥有公司三分之一的股份（2 / (4 + 2)）。风险投资人还坚持要求在交易之前将期权池扩大 100 股。因此发行的新股总数为 750 股，股权结构表变为：  股东 股份 比例 ------------------------------- 风险投资人 650 33.3% 天使 200 10.3% 叔叔 50 2.6% 每个创始人 250 12.8% 员工 36* 1.8% *未兑现期权池 264 13.5% ---- ----- 总计 1950 100%  这个画面在几个方面是不切实际的。例如，虽然百分比最终可能会看起来像这样，但风险投资人不太可能保留现有的股份数量。事实上，创业公司的每一份文件都可能会被替换，就好像公司被重新创办一样。此外，资金可能会分几笔拨付（tranches），后期的拨付取决于各种条件——尽管这在与二三流风险投资人（他们的命运是资助更值得怀疑的创业公司）的交易中显然比与顶尖机构更常见。"
+      "zhMarkdown": "尽调没有发现任何定时炸弹，六周后交易继续推进。条款如下：以 400 万美元的投前估值投资 200 万美元，这意味着交易完成后风投将持有公司三分之一的股份（2 / (4 + 2)）。风投还坚持要求在交易前将期权池额外扩大 100 股。因此，新发行的股票总数为 750 股，股权结构表变为：\n\n股东 股数 比例\n-------------------------------\n风投 650 33.3\n天使投资人 200 10.3\n叔叔 50 2.6\n每位创始人 250 12.8\n员工 36* 1.8 *未兑现\n期权池 264 13.5\n---- -----\n总计 1950 100\n\n这个场景在好几个方面不够写实。例如，虽然持股比例最终可能长成这样，但风投不太可能沿用现有的股数。事实上，创业公司的所有文件很可能都会被全盘推翻，就像重新创立了一家公司一样。此外，资金可能是分批到账的，后续款项往往附带各种条件——不过比起顶尖机构，这在低梯队风投的交易中显然更常见（毕竟他们的宿命就是给更有问题的创业公司买单）。"
     },
     {
       "id": 124,
       "type": "paragraph",
       "sourceHash": "f08fb20ba8f48fc66b762f3c9b662f68eaeff4f435165809c5f6f27216ae105a",
       "enMarkdown": "And of course any VCs reading this are probably rolling on the floor laughing at how my hypothetical VCs let the angel keep his 10.3 of the company. I admit, this is the Bambi version; in simplifying the picture, I've also made everyone nicer. In the real world, VCs regard angels the way a jealous husband feels about his wife's previous boyfriends. To them the company didn't exist before they invested in it. [[9](#f9n)]",
-      "zhMarkdown": "当然，任何阅读此文的风险投资人可能都会在地上笑得打滚，因为我虚拟的风险投资人竟然让天使保留了公司 10.3% 的股份。我承认，这是温和版的场景；在简化画面的同时，我也让每个人都变得更好了。在现实世界中，风险投资人看待天使投资人的方式，就像一个嫉妒的丈夫看待他妻子以前的前男友一样。对他们来说，在他们投资之前，公司根本不存在。[[9](#f9n)]"
+      "zhMarkdown": "当然，任何读到这里的风投大概都会笑得在地上打滚，因为我假设的风投居然让天使投资人保留了 10.3% 的股份。我承认，这是“小鹿斑比”版的童话；在简化图景的同时，我也把所有人都美化了。在现实世界中，风投看待天使投资人，就像嫉妒心重的丈夫看待妻子的前男友。对他们来说，在他们投资之前，这家公司根本就不曾存在过。[[9](#f9n)]"
     },
     {
       "id": 125,
       "type": "paragraph",
       "sourceHash": "61a61c7f08cf5a60bc0ee01d6bebe9267abbced922d702d6b5d02fd2433b81ee",
       "enMarkdown": "I don't want to give the impression you have to do an angel round before going to VCs. In this example I stretched things out to show multiple sources of funding in action. Some startups could go directly from seed funding to a VC round; several of the companies we've funded have.",
-      "zhMarkdown": "我不想给人留下你必须在去风险投资人之前做一轮天使轮的印象。在这个例子中，我把事情拉长了，以展示多种融资来源在发挥作用。一些创业公司可以直接从种子资金走向风险投资轮；我们资助的几家公司就是这样。"
+      "zhMarkdown": "我不想给外界留下“在找风投之前必须先融天使轮”的印象。在这个例子中，我把流程拉长是为了展示多种资金来源的实际运作。有些创业公司可以直接从种子轮跨越到风投轮；我们投资过的公司里就有几家是这样的。"
     },
     {
       "id": 126,
       "type": "paragraph",
       "sourceHash": "2b6f1d979b28e3f83694deea09dfc65209a36aa1828e6d00396763601e0f6109",
       "enMarkdown": "The founders are required to vest their shares over four years, and the board is now reconstituted to consist of two VCs, two founders, and a fifth person acceptable to both. The angel investor cheerfully surrenders his board seat.",
-      "zhMarkdown": "创始人们被要求在四年内兑现他们的股份，董事会现在重组为由两名风险投资人、两名创始人和双方都能接受的第五人组成。天使投资人愉快地交出了他的董事会席位。"
+      "zhMarkdown": "创始人被要求在四年内分期兑现其股份，董事会如今重组为包含两名风投、两名创始人以及一名双方均可接受的第五人。天使投资人则高高兴兴地交出了他的董事会席位。"
     },
     {
       "id": 127,
@@ -994,7 +994,7 @@
       "type": "paragraph",
       "sourceHash": "9307259bd52294198faba19ecccbff6f32383979733cd766ca48f811d671aefd",
       "enMarkdown": "[5] This was partly confidence, and partly simple ignorance. We didn't know ourselves which VC firms were the impressive ones. We thought software was all that mattered. But that turned out to be the right direction to be naive in: it's much better to overestimate than underestimate the importance of making a good product.",
-      "zhMarkdown": "[5] 这部分是自信，部分是单纯的无知。我们自己都不知道哪些风险投资机构是令人瞩目的。我们认为软件才是唯一重要的事情。但这被证明是一个在正确的方向上天真的例子：高估做出一款好产品的重要性，比低估它要好得多。"
+      "zhMarkdown": "这部分是因为自信，部分是因为纯粹的无知。我们自己根本不知道哪些风投机构算大牌。我们以为软件才是一切。但事实证明，朝这个方向天真是对的：高估做好产品的重要性，远比低估它要好得多。"
     },
     {
       "id": 142,
@@ -1029,28 +1029,28 @@
       "type": "paragraph",
       "sourceHash": "538702880ed23e6dba9cb722031c44fbbd8c8a12c3d73f891cc2de0f9bc3a7da",
       "enMarkdown": "[8] First-rate technical people do not generally hire themselves out to do due diligence for VCs. So the most difficult part for startup founders is often responding politely to the inane questions of the \"expert\" they send to look you over.",
-      "zhMarkdown": "[8] 一流的技术人员通常不会受雇为风险投资人做尽职调查。因此，对于创业公司创始人来说，最困难的部分往往是礼貌地回答他们派来审视你的“专家”提出的愚蠢问题。"
+      "zhMarkdown": "一流的技术人员通常不会去接风投的尽职调查私活。因此，对创业公司创始人来说，最困难的部分往往是耐着性子礼貌回答他们派来的“专家”提出的各种弱智问题。"
     },
     {
       "id": 147,
       "type": "paragraph",
       "sourceHash": "369b2f3b7c81cc3a0aa6b78c8ffab1e869f04eedc2fb97ee9ac04f196335fce6",
       "enMarkdown": "[9] VCs regularly wipe out angels by issuing arbitrary amounts of new stock. They seem to have a standard piece of casuistry for this situation: that the angels are no longer working to help the company, and so don't deserve to keep their stock. This of course reflects a willful misunderstanding of what investment means; like any investor, the angel is being compensated for risks he took earlier. By a similar logic, one could argue that the VCs should be deprived of their shares when the company goes public.",
-      "zhMarkdown": "[9] 风险投资人经常通过发行任意数量的新股来消灭天使投资人。在这种情况中，他们似乎有一套标准的诡辩：天使投资人不再为帮助公司工作，因此不配保留他们的股票。这当然反映了对投资含义的刻意曲解；像任何投资者一样，天使投资人是在为他早期承担的风险获得补偿。按照类似的逻辑，人们可以辩称，当公司上市时，风险投资人的股份也应该被剥夺。"
+      "zhMarkdown": "风投经常通过随意增发大量新股来清洗天使投资人。他们在这个问题上似乎有一套标准的诡辩：天使投资人不再为帮助公司出力，因此不配保留股份。这显然是对投资定义的蓄意曲解；与任何投资人一样，天使投资人获得的回报是对其早期所承担风险的补偿。照同样的逻辑，甚至可以说风投在公司上市时也应该被剥夺股份。"
     },
     {
       "id": 148,
       "type": "paragraph",
       "sourceHash": "17e2adc6492597eaf7c3a47770a8d298f7c436879f2367490272945b12e885b7",
       "enMarkdown": "[10] One new thing the company might encounter is a *down\nround*, or a funding round at valuation lower than the previous round. Down rounds are bad news; it is generally the common stock holders who take the hit. Some of the most fearsome provisions in VC deal terms have to do with down rounds—like \"full ratchet anti-dilution,\" which is as frightening as it sounds.",
-      "zhMarkdown": "[10] 公司可能遇到的一个新情况是*折价融资*（down round），即估值低于前一轮的融资轮。折价融资是坏消息；通常是普通股股东承担损失。风险投资条款中一些最可怕的条款都与折价融资有关——比如“完全棘轮反稀释”（full ratchet anti-dilution），这和听起来一样可怕。"
+      "zhMarkdown": "公司可能会遭遇的一件新鲜事是*下调轮*（down round），即估值低于上一轮的融资轮。下调轮是凶兆；承担损失的通常是普通股股东。风投交易条款中一些最可怕的条文都与下调轮有关——比如“完全棘轮防稀释条款”（full ratchet anti-dilution），其凶险程度正如名字听起来那样。"
     },
     {
       "id": 149,
       "type": "paragraph",
       "sourceHash": "f2eb96d0a022f56405e4f3bd174d5e48c22089afc098a2fb1b1c42817a690376",
       "enMarkdown": "Founders are tempted to ignore these clauses, because they think the company will either be a big success or a complete bust. VCs know otherwise: it's not uncommon for startups to have moments of adversity before they ultimately succeed. So it's worth negotiating anti-dilution provisions, even though you don't think you need to, and VCs will try to make you feel that you're being gratuitously troublesome.",
-      "zhMarkdown": "创始人很容易忽视这些条款，因为他们认为公司要么大获成功，要么彻底破产。风险投资人则知道并非如此：创业公司在最终成功之前经历逆境是屡见不鲜的。因此，反稀释条款是值得谈判的，即使你认为自己不需要，而风险投资人会试图让你觉得你是在无理取闹。"
+      "zhMarkdown": "创始人往往会忽视这些条款，因为他们觉得公司要么大获成功，要么彻底关门。风投却深知内情：创业公司在最终成功之前遭遇波折是司空见惯的。因此，即便你觉得自己用不上，防稀释条款也值得据理力争，哪怕风投会极力让你觉得自己是在无事生非。"
     },
     {
       "id": 150,

@@ -4,10 +4,10 @@
   "titleZh": "创业投资趋势",
   "dateText": "June 2013",
   "publishedAt": "2013-06-01",
-  "sourceOrder": 81,
+  "sourceOrder": 83,
   "sourceUrl": "https://paulgraham.com/invtrend.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -147,7 +147,7 @@
       "type": "paragraph",
       "sourceHash": "cd41d3584f0eb704c0acf239f02da583d884a41966b4a8458a367651d123562f",
       "enMarkdown": "What about angels? I think there is a lot of opportunity there. It used to suck to be an angel investor. You couldn't get access to the best deals, unless you got lucky like Andy Bechtolsheim, and when you did invest in a startup, VCs might try to strip you of your stock when they arrived later. Now an angel can go to something like Demo Day or AngelList and have access to the same deals VCs do. And the days when VCs could wash angels out of the cap table are long gone.",
-      "zhMarkdown": "天使投资人呢？我认为那里有巨大的机会。以前做天使投资人体验很糟糕。除非你像安迪·贝托尔斯海姆（Andy Bechtolsheim）那样幸运，否则你根本接触不到最好的项目；而且即使你投资了一家创业公司，VC 稍后入场时也可能会试图剥夺你的股份。现在，天使投资人可以去 Demo Day 或 AngelList，接触到与 VC 完全相同的项目。而 VC 可以轻易把天使投资人从股东名册中洗掉的时代，也早已一去不复返了。"
+      "zhMarkdown": "天使投资人呢？我觉得这里存在着巨大的机会。过去做天使投资人挺憋屈的。除非你像 Andy Bechtolsheim 那样走运，否则根本接触不到最顶尖的项目；即便你真投进了一家创业公司，等后来的风投进场时，也可能会想方设法剥夺你的股份。如今，天使投资人完全可以去 Demo Day 或 AngelList，接触到与风投毫无二致的项目。而风投把天使投资人从股权架构表中扫地出门的日子，也早已一去不复返了。"
     },
     {
       "id": 21,
@@ -196,21 +196,21 @@
       "type": "paragraph",
       "sourceHash": "cd7b4e12813fa0c48e6a6e5a864bed439406ee579a8de4d839065acdbbf55749",
       "enMarkdown": "I think the biggest danger for VCs, and also the biggest opportunity, is at the series A stage. Or rather, what used to be the series A stage before series As turned into de facto series B rounds.",
-      "zhMarkdown": "我认为 VC 面临的最大危险，同时也是最大的机会，是在 A 轮阶段。或者更确切地说，是在 A 轮变成事实上的 B 轮之前的那个阶段。"
+      "zhMarkdown": "我认为风投面临的最大危险，同时也是最大的机会，在于 A 轮阶段。或者更准确地说，是在 A 轮实际上变成 B 轮之前、原本意义上的那个 A 轮阶段。"
     },
     {
       "id": 28,
       "type": "paragraph",
       "sourceHash": "7d020cb47a0e1e63b84f63258b4830bd36d8166f7f8c805523b02cadbcb8524f",
       "enMarkdown": "Right now, VCs often knowingly invest too much money at the series A stage. They do it because they feel they need to get a big chunk of each series A company to compensate for the opportunity cost of the board seat it consumes. Which means when there is a lot of competition for a deal, the number that moves is the valuation (and thus amount invested) rather than the percentage of the company being sold. Which means, especially in the case of more promising startups, that series A investors often make companies take more money than they want.",
-      "zhMarkdown": "现在，VC 经常在 A 轮阶段心知肚明地投入过多资金。他们这样做是因为他们觉得需要拿到每家 A 轮公司很大一部分股份，以弥补因占用董事会席位而产生的机会成本。这意味着，当一个项目竞争激烈时，变动的往往是估值（从而也是投资金额），而不是出售的公司股份比例。这意味着，尤其是在更有前途的创业公司中，A 轮投资者经常强迫公司接受比他们实际需要更多的资金。"
+      "zhMarkdown": "眼下，风投往往在明知过量的情况下，依然在 A 轮阶段投下太多钱。他们这么做，是因为觉得必须在每家 A 轮公司拿到足够大比例的股权，才能弥补消耗一个董事会席位的机会成本。这意味着，当一个项目竞争激烈时，发生变动的数字是估值（进而也是投资金额），而不是出让的公司股份比例。其结果就是——尤其在那些前景看好的创业公司身上——A 轮投资人往往会迫使公司接受超出其意愿的资金。"
     },
     {
       "id": 29,
       "type": "paragraph",
       "sourceHash": "b9031ffd66835aea118c79e1e98f2438b682bb9c01432b4f03c79ecf9796da2f",
       "enMarkdown": "Some VCs lie and claim the company really needs that much. Others are more candid, and admit their financial models require them to own a certain percentage of each company. But we all know the amounts being raised in series A rounds are not determined by asking what would be best for the companies. They're determined by VCs starting from the amount of the company they want to own, and the market setting the valuation and thus the amount invested.",
-      "zhMarkdown": "有些 VC 会撒谎，声称公司确实需要那么多钱。另一些则更坦率，承认他们的财务模型要求他们必须持有每家公司一定比例的股份。但我们都知道，A 轮融资的金额并不是通过询问什么对公司最好来决定的。它们是由 VC 从他们想要持有的公司股份比例开始倒推，再由市场决定估值，从而决定投资金额的。"
+      "zhMarkdown": "有的风投会撒谎，坚称公司确实需要那么多钱。另一些人则坦诚得多，承认是他们的财务模型要求在每家公司都必须占有一定比例的股份。但大家都心知肚明，A 轮融资金额的确定，根本不是从“怎样对公司最有利”出发的。实际情况是：风投先从自己想要持有的股份比例倒推，再由市场敲定估值，进而定下了最终的投资金额。"
     },
     {
       "id": 30,
@@ -224,7 +224,7 @@
       "type": "paragraph",
       "sourceHash": "10adec67b023c328928d7b9ac71cf64c175f30e3de909740465e874be9988595",
       "enMarkdown": "The reason I describe this as a danger is that series A investors are increasingly at odds with the startups they supposedly serve, and that tends to come back to bite you eventually. The reason I describe it as an opportunity is that there is now a lot of potential energy built up, as the market has moved away from VCs' traditional business model. Which means the first VC to break ranks and start to do series A rounds for as much equity as founders want to sell (and with no \"option pool\" that comes only from the founders' shares) stands to reap huge benefits.",
-      "zhMarkdown": "我之所以把这描述为一种危险，是因为 A 轮投资者与他们理应服务的创业公司之间的分歧越来越大，而这往往迟早会反噬自身。我之所以把它描述为一种机会，是因为随着市场偏离 VC 的传统商业模式，现在已经积聚了巨大的势能。这意味着，第一个打破常规、开始按照创始人想卖的额度进行 A 轮融资的 VC（并且没有完全来自创始人股份的“期权池”），将有望收获巨大的利益。"
+      "zhMarkdown": "我之所以说这是危险，是因为 A 轮投资人与他们本应服务的创业公司之间，利益正变得越来越冲突，而这终究会遭到反噬。之所以说这是机会，是因为随着市场逐渐背离风投的传统商业模式，其中已经积聚了巨大的势能。这意味着，哪家风投能率先打破行业惯例，只按创始人愿意出让的股权比例做 A 轮（并且不要求设立仅从创始人股份里扣除的“期权池”），谁就能坐收巨大的红利。"
     },
     {
       "id": 32,
@@ -238,14 +238,14 @@
       "type": "paragraph",
       "sourceHash": "b8d1efed762c166f945b11be15dc28b4f928103a5dee2b26c76790b0d2340afd",
       "enMarkdown": "You can't fight market forces forever. Over the last decade we've seen the percentage of the company sold in series A rounds creep inexorably downward. 40% used to be common. Now VCs are fighting to hold the line at 20%. But I am daily waiting for the line to collapse. It's going to happen. You may as well anticipate it, and look bold.",
-      "zhMarkdown": "你无法永远对抗市场力量。在过去十年中，我们看到 A 轮中售出的公司股份比例在不可阻挡地下降。40% 曾经很常见。现在 VC 正在努力死守 20% 的底线。但我每天都在等待这条底线崩溃。这迟早会发生。你不如提前预判，显得自己更有魄力。"
+      "zhMarkdown": "你不可能永远与市场力量对抗。在过去的十年里，我们眼看着 A 轮融资中出让的公司股份比例无可挽回地一路走低。过去出让 40% 很常见，现在风投们则在拼死坚守 20% 的底线。但我每天都在等这条防线崩溃。这必然会发生。你倒不如提早顺应这一趋势，还能显得格外有魄力。"
     },
     {
       "id": 34,
       "type": "paragraph",
       "sourceHash": "68cf3a4435f53a1bbf443895df59ae0bcec5b843757dd24cdb322a6be5807aa7",
       "enMarkdown": "Who knows, maybe VCs will make more money by doing the right thing. It wouldn't be the first time that happened. Venture capital is a business where occasional big successes generate hundredfold returns. How much confidence can you really have in financial models for something like that anyway? The big successes only have to get a tiny bit less occasional to compensate for a 2x decrease in the stock sold in series A rounds.",
-      "zhMarkdown": "谁知道呢，也许 VC 通过做正确的事反而能赚更多的钱。这也不会是第一次发生这种事。风险投资是一个偶尔的巨大成功就能产生百倍回报的行业。对于这样的事情，你对财务模型到底能有多少信心？那些巨大的成功只需要稍微不那么偶尔发生一点点，就足以弥补 A 轮出售股份减少一倍带来的损失。"
+      "zhMarkdown": "谁知道呢，说不定风投做正确的事反而能赚到更多的钱。这种事又不是第一次发生。风险投资本来就是一门靠偶尔的大获成功换取百倍回报的生意。对于这样的行业，你究竟能对财务模型抱有多大的信心？只要那些大成功的出现频率稍微提高哪怕一点点，就足以弥补 A 轮出让股份减半的损失。"
     },
     {
       "id": 35,

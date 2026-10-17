@@ -4,10 +4,10 @@
   "titleZh": "这个夏天我做了什么",
   "dateText": "October 2005",
   "publishedAt": "2005-10-01",
-  "sourceOrder": 179,
+  "sourceOrder": 181,
   "sourceUrl": "https://paulgraham.com/sfp.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -259,7 +259,7 @@
       "type": "paragraph",
       "sourceHash": "603bd0284ae6ff816b6346074073f6a10b60e796895d977aa12eef63a734af3e",
       "enMarkdown": "It was surprising-- slightly frightening even-- how fast they learned. The weekend before the demo day for investors, we had a practice session where all the groups gave their presentations. They were all terrible. We tried to explain how to make them better, but we didn't have much hope. So on demo day I told the assembled angels and VCs that these guys were hackers, not MBAs, and so while their software was good, we should not expect slick presentations from them.",
-      "zhMarkdown": "令人惊讶——甚至有点令人害怕的是，他们学得太快了。在面向投资人的路演日前一个周末，我们进行了一次彩排，所有团队都做了演示。结果讲得一塌糊涂。我们试图解释如何改进，但心里没抱多大希望。于是在路演日当天，我告诉到场的天使投资人和风险投资人，这些家伙是黑客，不是 MBA，所以虽然他们的软件很棒，但大家不要指望能看到多么天衣无缝的演示。"
+      "zhMarkdown": "他们学得如此之快，令人吃惊，甚至有点让人害怕。在面向投资者的演示日前的那个周末，我们组织了一次彩排，所有团队都做了演讲展示。讲得全都糟糕透顶。我们试着指导他们该如何改进，但并没抱太大希望。因此在演示日当天，我特意提醒在场的天使投资人和风投：这帮家伙是黑客，不是 MBA，所以虽然他们的软件很棒，但别指望能看到多么光鲜老练的演讲。"
     },
     {
       "id": 38,
@@ -280,7 +280,7 @@
       "type": "paragraph",
       "sourceHash": "f326cd376ac9a661e592c6e7be71ca28323b28f475c42d8c273ea7fca05fdd9e",
       "enMarkdown": "I don't want to give the impression there were no problems this summer. A lot went wrong, as usually happens with startups. One group got an \"[exploding\nterm-sheet](http://www.ventureblog.com/articles/indiv/2003/000024.html)\" from some VCs. Pretty much all the groups who had dealings with big companies found that big companies do everything infinitely slowly. (This is to be expected. If big companies weren't incapable, there would be no room for startups to exist.) And of course there were the usual nightmares associated with servers.",
-      "zhMarkdown": "我不想给人留下一种这个夏天万事大吉的印象。像创业公司的常态一样，很多事情都出了岔子。一个团队从某些风险投资人那里拿到了“[带有时效炸弹的投资意向书](http://www.ventureblog.com/articles/indiv/2003/000024.html)”。几乎所有与大公司打过交道的团队都发现，大公司做任何事情都慢得令人发指。（这完全在预料之中。如果大公司不是这么无能，创业公司根本就没有生存空间。）当然，服务器宕机之类的常规噩梦也少不了。"
+      "zhMarkdown": "我不想让人觉得这个夏天一帆风顺、毫无问题。其实出了很多岔子，创业公司向来如此。有一个团队收到了某些风投开出的“[限时速决投资意向书](http://www.ventureblog.com/articles/indiv/2003/000024.html)”。几乎所有和大公司打过交道的团队都发现，大公司做任何事都慢得令人绝望。（这完全在预料之中。如果大公司不是这般无能，哪还会有创业公司生存的空间？）当然，还有各种与服务器有关的家常便饭般的噩梦。"
     },
     {
       "id": 41,
@@ -329,7 +329,7 @@
       "type": "paragraph",
       "sourceHash": "5b9aec28f566643d88fba8c89c561684862b795f6694787edf4184f4ad224db5",
       "enMarkdown": "I've heard Y Combinator described as an \"incubator.\" Actually we're the opposite: incubators exert more control than ordinary VCs, and we make a point of exerting less. Among other things, incubators usually make you work in their office-- that's where the word \"incubator\" comes from. That seems the wrong model. If investors get too involved, they smother one of the most powerful forces in a startup: the feeling that it's your own company.",
-      "zhMarkdown": "我听过有人把 Y Combinator 称为“孵化器”。实际上我们恰恰相反：孵化器施加的控制比普通风险投资机构更多，而我们则刻意减少控制。此外，孵化器通常会让你在他们的办公室里工作——这就是“孵化器”这个词的由来。这似乎是个错误的模式。如果投资人介入过深，就会扼杀创业公司中最强大的力量之一：那种“这是我自己的公司”的主人翁感。"
+      "zhMarkdown": "我听过有人把 Y Combinator 称为“孵化器”。实际上我们恰恰相反：孵化器的控制欲比普通风投还要强，而我们则特意尽量少插手。不仅如此，孵化器通常会要求你必须在他们的办公室里办公——“孵化器”这个词正是由此而来。这在我看来是个完全错误的模式。如果投资者介入过深，就会扼杀创业公司中最强大的一股力量：那种“这是我们自己的公司”的感觉。"
     },
     {
       "id": 48,

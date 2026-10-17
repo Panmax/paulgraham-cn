@@ -4,10 +4,10 @@
   "titleZh": "身外之物",
   "dateText": "July 2007",
   "publishedAt": "2007-07-01",
-  "sourceOrder": 151,
+  "sourceOrder": 153,
   "sourceUrl": "https://paulgraham.com/stuff.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -133,7 +133,7 @@
       "type": "paragraph",
       "sourceHash": "7d9dea47738cb44f641746963c0eeeaf65a69267547f523092ecf4aea1ef5c6b",
       "enMarkdown": "Another way to resist acquiring stuff is to think of the overall cost of owning it. The purchase price is just the beginning. You're going to have to *think* about that thing for years—perhaps for the rest of your life. Every thing you own takes energy away from you. Some give more than they take. Those are the only things worth having.",
-      "zhMarkdown": "另一种抵制占有欲的方法是考虑拥有它的整体成本。购买价格仅仅是个开始。在未来的岁月里——甚至可能在你余下的生命里——你都不得不为这个东西分心。你拥有的每一件物品都在消耗你的精力。有些物品给予你的多于消耗你的，只有这些东西才值得拥有。"
+      "zhMarkdown": "抵制添置东西的另一个办法，是去想想拥有它的总成本。买下它的价格仅仅是个开始。在未来的许多年里——甚至可能是你的余生——你都不得不为那件东西*操心*。你拥有的每一件东西都会消耗你的精力。有些东西给予你的比索取的多。唯有这样的东西才值得拥有。"
     },
     {
       "id": 19,

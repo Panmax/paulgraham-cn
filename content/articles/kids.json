@@ -6,8 +6,8 @@
   "publishedAt": "2019-12-01",
   "sourceOrder": 1,
   "sourceUrl": "https://paulgraham.com/kids.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -54,9 +54,9 @@
     {
       "id": 7,
       "type": "paragraph",
-      "sourceHash": "75126ac400ea10275043313c13ab60cd6f7cf8984298057076ee29681dfb5a95",
-      "enMarkdown": "So to some extent you can't trust me when I say having kids is great. To some extent I'm like a religious cultist telling you that you'll be happy if you join the cult too � but only because joining the cult will alter your mind in a way that will make you happy to be a cult member.",
-      "zhMarkdown": "所以，在某种程度上，当我说生孩子很棒时，你大可不必完全相信我。在某种程度上，我就像一个宗教狂热分子，告诉你只要加入教会就会幸福——但那只是因为加入教会改变了你的心智，让你在成为信徒后感到快乐。"
+      "sourceHash": "3c98ec7f6ea667cd26149f3a8252c3e77d73ad822f1ef92ea2d5dfc3cbb4ba96",
+      "enMarkdown": "So to some extent you can't trust me when I say having kids is great. To some extent I'm like a religious cultist telling you that you'll be happy if you join the cult too — but only because joining the cult will alter your mind in a way that will make you happy to be a cult member.",
+      "zhMarkdown": "所以从某种程度上说，我说生孩子很棒，你不能全信。在某种程度上，我就像一个狂热的邪教信徒，对你说只要你也入教就会感到幸福——但这仅仅是因为一旦入教，你的心智就会被改变，让你觉得当个邪教徒很幸福。"
     },
     {
       "id": 8,
@@ -75,9 +75,9 @@
     {
       "id": 10,
       "type": "paragraph",
-      "sourceHash": "345ecf08c09db3e535a0ab75d8fac2e3c7e6def8b67228e592646d332b40f846",
-      "enMarkdown": "What I didn't notice, because they tend to be much quieter, were all the great moments parents had with kids. People don't talk about these much � the magic is hard to put into words, and all other parents know about them anyway � but one of the great things about having kids is that there are so many times when you feel there is nowhere else you'd rather be, and nothing else you'd rather be doing. You don't have to be doing anything special. You could just be going somewhere together, or putting them to bed, or pushing them on the swings at the park. But you wouldn't trade these moments for anything. One doesn't tend to associate kids with peace, but that's what you feel. You don't need to look any further than where you are right now.",
-      "zhMarkdown": "我没有注意到的，是父母和孩子在一起的那些美好时刻，因为这些时刻往往安静得多。人们不怎么谈论这些——这种奇妙很难用言语表达，而且其他父母自然也都懂——但有孩子最棒的一点在于，有太多时刻会让你觉得，此时此刻，你不想去世界上任何其他地方，也不想做任何其他事情。你不需要在做什么特别的事，可能只是和他们一起走在路上，或者哄他们睡觉，又或者在公园里推着他们荡秋千。但你绝不会拿这些时刻去换取任何东西。人们通常不会把孩子与“平静”联系在一起，但这恰恰就是你的感受。你不需要在当下的立足之地以外，再去寻找任何别的东西。"
+      "sourceHash": "0e581153fd7b377276ef729a2603eae362df6c56b3efed79e4465b5019dabefd",
+      "enMarkdown": "What I didn't notice, because they tend to be much quieter, were all the great moments parents had with kids. People don't talk about these much — the magic is hard to put into words, and all other parents know about them anyway — but one of the great things about having kids is that there are so many times when you feel there is nowhere else you'd rather be, and nothing else you'd rather be doing. You don't have to be doing anything special. You could just be going somewhere together, or putting them to bed, or pushing them on the swings at the park. But you wouldn't trade these moments for anything. One doesn't tend to associate kids with peace, but that's what you feel. You don't need to look any further than where you are right now.",
+      "zhMarkdown": "而我没有注意到的，是父母与孩子相处的种种美好时刻，因为这些时刻往往要安静得多。人们不太谈论这些——那种神奇的感觉很难用语言描摹，而且反正其他当父母的人也都心领神会——但有孩子最棒的一点在于，有太多的时刻，你会觉得此时此地就是你最想待的地方，手头的事就是你最想做的事。你们不需要做什么特别的事。可能只是一起去某个地方，哄他们睡觉，或者在公园里推推秋千。但你绝不会拿这些时刻去换任何东西。人们通常不会把孩子同内心的宁静联系起来，但你感受到的恰恰就是宁静。除了眼前这一刻，你别无所求。"
     },
     {
       "id": 11,

@@ -4,10 +4,10 @@
   "titleZh": "凶猛的黑客",
   "dateText": "May 2021",
   "publishedAt": "2021-05-01",
-  "sourceOrder": 30,
+  "sourceOrder": 32,
   "sourceUrl": "https://paulgraham.com/fn.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "d9838243df662033858597bc2c02a8a3305b65bbcffe44f0c01a79c30f5e44fd",
       "enMarkdown": "When you combine all these qualities in sufficient quantities, the result is quite formidable. The most vivid example of fierce nerds in action may be James Watson's *The Double Helix*. The first sentence of the book is \"I have never seen Francis Crick in a modest mood,\" and the portrait he goes on to paint of Crick is the quintessential fierce nerd: brilliant, socially awkward, competitive, independent-minded, overconfident. But so is the implicit portrait he paints of himself. Indeed, his lack of social awareness makes both portraits that much more realistic, because he baldly states all sorts of opinions and motivations that a smoother person would conceal. And moreover it's clear from the story that Crick and Watson's fierce nerdiness was integral to their success. Their independent-mindedness caused them to consider approaches that most others ignored, their overconfidence allowed them to work on problems they only half understood (they were literally described as \"clowns\" by one eminent insider), and their impatience and competitiveness got them to the answer ahead of two other groups that would otherwise have found it within the next year, if not the next several months. [[2](#f2n)]",
-      "zhMarkdown": "当这些特质在一个人身上高度汇聚时，其能量是相当惊人的。最能生动展现凶猛黑客行事风格的例子，莫过于詹姆斯·沃森的《双螺旋》。这本书的第一句话就是“我从未见过弗朗西斯·克里克谦虚的样子”，而他接下来对克里克的刻画，简直就是凶猛黑客的经典写照：才华横溢、社交笨拙、好胜心极强、特立独行且过度自信。但同样，他在字里行间对自己进行的隐性刻画也是如此。事实上，正是因为他缺乏社交情商，才让这两幅画像显得如此真实，因为他毫无掩饰地吐露了各种换作圆滑之人会极力隐藏的观点和动机。而且，从故事中可以清楚地看出，克里克和沃森那股凶猛的黑客劲头是他们成功的关键。他们的特立独行让他们去尝试大多数人忽视的方法；他们的过度自信让他们敢于去研究自己只懂了一半的问题（他们甚至被一位杰出的业内权威公开称为“小丑”）；而他们的缺乏耐心和好胜心，让他们赶在了另外两个团队之前找到了答案，否则那两个团队在接下来的几个月甚至一年内也能发现。[[2](#f2n)]"
+      "zhMarkdown": "当所有这些特质以足够的强度汇集在一起时，结果会相当惊人。展现凶悍书呆子风采最生动的例子，或许就是詹姆斯·沃森的 *The Double Helix*。这本书开篇第一句就是“我从未见过弗朗西斯·克里克谦虚的样子”，而他在接下来的描写中所刻画的克里克，堪称凶悍书呆子的绝佳典型：聪明绝顶、不擅社交、极具竞争心、思想独立、过度自信。但他在字里行间所勾勒的自己亦是如此。事实上，他缺乏世故意识的特质反而让这两幅画像格外真实，因为他直截了当地说出了圆滑之人会刻意隐瞒的各种想法与动机。而且，从这个故事中可以清楚看出，克里克和沃森那种凶悍的书呆子特质是他们成功的关键。他们独立的思维让他们去探索大多数人忽视的途径，他们的过度自信让他们敢于攻克自己只懂了一半的问题（一位圈内权威甚至直接把他们斥为“小丑”），而他们的急躁与好胜心，则让他们抢在另外两个团队之前得出了答案——否则那两个团队即便不在随后的几个月内找到，也会在一年之内迎头赶上。[[2](#f2n)]"
     },
     {
       "id": 8,

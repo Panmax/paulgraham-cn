@@ -4,10 +4,10 @@
   "titleZh": "招聘已死",
   "dateText": "May 2005",
   "publishedAt": "2005-05-01",
-  "sourceOrder": 183,
+  "sourceOrder": 185,
   "sourceUrl": "https://paulgraham.com/hiring.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -77,7 +77,7 @@
       "type": "paragraph",
       "sourceHash": "5ffd2c465e438559635b8b82d24dec1205231c9a82b5eb2b327abdbf7718eccc",
       "enMarkdown": "Till now the problem has always been that it's difficult to pick them out. Every VC in the world, if they could go back in time, would try to invest in Microsoft. But which would have then? How many would have understood that this particular 19 year old was Bill Gates?",
-      "zhMarkdown": "在此之前，问题一直在于很难把他们挑选出来。如果能穿越时空，世界上每一个风险投资人都会抢着投资微软。但当时有谁会这么做呢？又有多少人能看出那个 19 岁的年轻人就是比尔·盖茨？"
+      "zhMarkdown": "一直以来的难点都在于很难把他们挑出来。全世界所有的风投，如果能穿越回去，都会抢着投资微软。但在当时又有谁会投呢？有几个人能看出来，眼前这个19岁的年轻人就是比尔·盖茨？"
     },
     {
       "id": 12,
@@ -231,7 +231,7 @@
       "type": "paragraph",
       "sourceHash": "39d4fe7f22fe095cdac4f9c0d79b31ae8f9321690395e0b392a77d7b52df27b3",
       "enMarkdown": "What companies should do is go out and discover startups when they're young, before VCs have puffed them up into something that costs hundreds of millions to acquire. Much of what VCs add, the acquirer doesn't need anyway.",
-      "zhMarkdown": "大公司应该做的是在创业公司还年轻的时候就去发现它们，赶在风险投资人将它们炒作到需要花费数亿美元才能收购之前。反正风险投资人增加的很多价值，收购方根本不需要。"
+      "zhMarkdown": "大公司真正该做的是主动出击，在创业公司还处于萌芽期、还没被风投吹捧成动辄数亿美元的收购标的之前，就发现它们。反正风投注入的很多东西，收购方本来也用不上。"
     },
     {
       "id": 34,
@@ -280,14 +280,14 @@
       "type": "paragraph",
       "sourceHash": "0052d5b8a73685f962bc2c549b6f1c5eca7e398968638862810e62ec30f3212b",
       "enMarkdown": "The conventional wisdom among VCs is that hackers shouldn't be allowed to run their own companies. The founders are supposed to accept MBAs as their bosses, and themselves take on some title like Chief Technical Officer. There may be cases where this is a good idea. But I think founders will increasingly be able to push back in the matter of control, because they just don't need the investors' money as much as they used to.",
-      "zhMarkdown": "风险投资圈的传统观念是，不应该让黑客来管理自己的公司。创始人应该接受 MBA 做他们的老板，而自己则挂上诸如首席技术官（CTO）之类的头衔。在某些情况下，这可能是个好主意。但我认为创始人将越来越有能力在控制权问题上进行抗争，因为他们根本不像以前那样需要投资人的钱了。"
+      "zhMarkdown": "风投圈的主流观点是，不该让黑客掌管自己的公司。创始人应该让 MBA 来当自己的老板，自己挂个首席技术官之类的头衔。某些情况下这或许是个好主意，但我认为，创始人未来在控制权问题上将越来越有能力抵制这种安排，因为他们根本不再像过去那样需要投资人的钱了。"
     },
     {
       "id": 41,
       "type": "paragraph",
       "sourceHash": "d7bb331c25c63c1d8d68256b2315ea8f6a6275b74b660205386d4e520280dd1a",
       "enMarkdown": "Startups are a comparatively new phenomenon. Fairchild Semiconductor is considered the first VC-backed startup, and they were founded in 1959, less than fifty years ago. Measured on the time scale of social change, what we have now is pre-beta. So we shouldn't assume the way startups work now is the way they have to work.",
-      "zhMarkdown": "创业公司是一个相对较新的现象。仙童半导体被认为是第一家由风险投资支持的创业公司，它成立于 1959 年，距今不到五十年。在社会变革的时间尺度上，我们现在所拥有的只是“公测前”阶段。因此，我们不应该假设创业公司现在的运作方式就是它们必须运作的方式。"
+      "zhMarkdown": "创业公司其实是一个相当新颖的现象。仙童半导体（Fairchild Semiconductor）被视为第一家由风投支持的创业公司，成立于1959年，距今还不到五十年。如果用社会变革的时间尺度来衡量，我们现在的机制还处于 pre-beta（内测前）阶段。所以，我们不该想当然地认为，如今创业公司的运作方式就是它注定该有的样子。"
     },
     {
       "id": 42,
@@ -301,28 +301,28 @@
       "type": "paragraph",
       "sourceHash": "ea332c92e655006f4b8b94f2a2a42d61b659ea3d2ef8194a33e9294fc2b682fc",
       "enMarkdown": "Investors' power comes from money. When startups need less money, investors have less power over them. So future founders may not have to accept new CEOs if they don't want them. The VCs will have to be dragged kicking and screaming down this road, but like many things people have to be dragged kicking and screaming toward, it may actually be good for them.",
-      "zhMarkdown": "投资人的权力来自于资金。当创业公司需要的钱变少时，投资人对他们的控制力就会减弱。因此，未来的创始人如果不想接受新 CEO，可能就不需要接受。风险投资人将被连拉带拽地拖入这条新道路，但就像许多人们被连拉带拽才肯面对的事情一样，这实际上可能对他们也有好处。"
+      "zhMarkdown": "投资人的权力来源于资金。当创业公司需要的钱变少，投资人对它们的控制力就会下降。因此，未来的创始人如果自己不愿意，大可不必接受空降的新 CEO。风投们大概得被硬拽着、一路抗拒着走上这条路，但正如许多需要被人硬拖着去面对的事情一样，这最终对他们来说或许反倒是件好事。"
     },
     {
       "id": 44,
       "type": "paragraph",
       "sourceHash": "6512ca95c29168be7348f3bd90f4389d5cb0ea00b97f86b46b199fd0e1558ee5",
       "enMarkdown": "Google is a sign of the way things are going. As a condition of funding, their investors insisted they hire someone old and experienced as CEO. But from what I've heard the founders didn't just give in and take whoever the VCs wanted. They delayed for an entire year, and when they did finally take a CEO, they chose a guy with a PhD in computer science.",
-      "zhMarkdown": "谷歌就是这种发展趋势的一个信号。作为融资的条件，他们的投资人坚持要求他们聘请一位年长且有经验的人担任 CEO。但据我所知，创始人并没有妥协去接受风险投资人想要的任何人。他们拖延了整整一年，当他们最终接受一位 CEO 时，他们选择了一位拥有计算机科学博士学位的人。"
+      "zhMarkdown": "Google 就是这种趋势的一个风向标。作为注资条件，投资人当时坚决要求他们雇一位年长且经验丰富的人来担任 CEO。但据我所知，创始人并没有顺从风投的意愿任由他们安排。他们整整拖延了一年，而且当他们最终确实引入一位 CEO 时，选的是一位拥有计算机科学博士学位的人。"
     },
     {
       "id": 45,
       "type": "paragraph",
       "sourceHash": "169c7be5f7271c9da58da762e022734025d4feea36fd6e44ce044c83c118dd62",
       "enMarkdown": "It sounds to me as if the founders are still the most powerful people in the company, and judging by Google's performance, their youth and inexperience doesn't seem to have hurt them. Indeed, I suspect Google has done better than they would have if the founders had given the VCs what they wanted, when they wanted it, and let some MBA take over as soon as they got their first round of funding.",
-      "zhMarkdown": "在我看来，创始人似乎仍然是公司里最有权力的人，从谷歌的表现来看，他们的年轻和缺乏经验似乎并没有伤害到公司。事实上，我怀疑如果创始人在拿到第一轮融资后，就顺从地把风险投资人想要的东西在他们想要的时候给他们，并让某个 MBA 接管公司，谷歌的表现反而不会像现在这么好。"
+      "zhMarkdown": "在我听来，两位创始人依然是公司里最有权势的人，而且从 Google 的业绩来看，他们的年轻与缺乏经验似乎并没有拖后腿。事实上我怀疑，如果创始人当初对风投百依百顺，在拿到第一轮融资后就立刻让某个 MBA 接手，Google 绝不会有今天这么出色。"
     },
     {
       "id": 46,
       "type": "paragraph",
       "sourceHash": "c395dd7f30ed1be5efa5e3c4386403b810ea95afa5de0e52f02339dc8e86d8e3",
       "enMarkdown": "I'm not claiming the business guys installed by VCs have no value. Certainly they have. But they don't need to become the founders' bosses, which is what that title CEO means. I predict that in the future the executives installed by VCs will increasingly be COOs rather than CEOs. The founders will run engineering directly, and the rest of the company through the COO.",
-      "zhMarkdown": "我并不是说风险投资人安排的商务人士毫无价值。他们当然有价值。但他们不需要成为创始人的老板，而这正是 CEO 这个头衔的含义。我预测，未来风险投资人安排的高管将越来越多地担任 COO，而不是 CEO。创始人将直接管理工程部门，并透过 COO 管理公司的其余部分。"
+      "zhMarkdown": "我并不是说风投安插进来的商业人士毫无价值。他们当然有其价值。但他们完全没必要成为创始人的老板——而 CEO 这个头衔恰恰意味着老板。我预测，未来风投安排的高管将越来越多地出任 COO 而非 CEO。创始人将直接执掌工程部门，并通过 COO 来统筹公司的其余部分。"
     },
     {
       "id": 47,

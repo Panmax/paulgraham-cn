@@ -4,10 +4,10 @@
   "titleZh": "如何复制硅谷",
   "dateText": "May 2006",
   "publishedAt": "2006-05-01",
-  "sourceOrder": 168,
+  "sourceOrder": 170,
   "sourceUrl": "https://paulgraham.com/siliconvalley.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -105,7 +105,7 @@
       "type": "paragraph",
       "sourceHash": "5b69a74fe313f7587f971c5a20c1629c767f1296357f27dfa172d468386aa382",
       "enMarkdown": "Bureaucrats by their nature are the exact opposite sort of people from startup investors. The idea of them making startup investments is comic. It would be like mathematicians running *Vogue*-- or perhaps more accurately, *Vogue* editors running a math journal. [[2](#f2n)]",
-      "zhMarkdown": "官僚从其本质上来说，与创业投资人完全是相反的两类人。让他们来做创业投资的想法简直滑稽。这就像让数学家去运营《Vogue》杂志——或者更准确地说，让《Vogue》的编辑去运营一本数学期刊。[[2](#f2n)]"
+      "zhMarkdown": "官僚在本质上与创业公司的投资人截然相反。让他们去做创业投资，这念头本身就很滑稽。这就像让数学家去运营 *Vogue*——或者更准确地说，让 *Vogue* 的编辑去办一本数学期刊。[[2](#f2n)]"
     },
     {
       "id": 15,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "1a55bb7cccb68543dbe4a8236a51c41101d94559c10a307c92e6dcea562b811e",
       "enMarkdown": "Even corporations that have in-house VC groups generally forbid them to make their own investment decisions. Most are only allowed to invest in deals where some reputable private VC firm is willing to act as lead investor.",
-      "zhMarkdown": "即使是拥有内部风险投资部门的大公司，通常也禁止他们自己做投资决策。大多数部门只被允许投资那些有声誉的私人风险投资机构愿意领投的项目。"
+      "zhMarkdown": "就连设有内部风投部门的大企业，通常也禁止他们自主做出投资决策。大多数部门只被允许跟投那些有知名独立风投机构愿意担任领投方的交易。"
     },
     {
       "id": 17,
@@ -378,7 +378,7 @@
       "type": "paragraph",
       "sourceHash": "8b902b09d548dc04aef2f1d3a72870935209e16b071fdf0341d4d4e5025d39c8",
       "enMarkdown": "The companies that rule Silicon Valley now are all descended in various ways from Shockley Semiconductor. Shockley was a difficult man, and in 1957 his top people-- \"the traitorous eight\"-- left to start a new company, Fairchild Semiconductor. Among them were Gordon Moore and Robert Noyce, who went on to found Intel, and Eugene Kleiner, who founded the VC firm Kleiner Perkins. Forty-two years later, Kleiner Perkins funded Google, and the partner responsible for the deal was John Doerr, who came to Silicon Valley in 1974 to work for Intel.",
-      "zhMarkdown": "现在统治硅谷的公司在不同程度上都是肖克利半导体公司（Shockley Semiconductor）的后代。肖克利是一个很难相处的人，1957 年，他的核心人员——“八叛徒”——离开并创办了一家新公司，即仙童半导体（Fairchild Semiconductor）。其中包括后来创立英特尔的戈登·摩尔（Gordon Moore）和罗伯特·诺伊斯（Robert Noyce），以及创立风险投资机构 Kleiner Perkins 的尤金·克莱纳（Eugene Kleiner）。42 年后，Kleiner Perkins 资助了谷歌，负责这笔交易的合伙人是约翰·杜尔（John Doerr），他于 1974 年来到硅谷为英特尔工作。"
+      "zhMarkdown": "如今称霸硅谷的公司，追根溯源都以各种方式与肖克利半导体脱不开干系。肖克利是个很难相处的人，1957 年，他的核心骨干——“八叛徒”——出走创办了一家新公司：仙童半导体。这八人中包括后来创立英特尔的戈登·摩尔和罗伯特·诺伊斯，以及创办了风投机构 Kleiner Perkins 的尤金·克莱纳。42 年后，Kleiner Perkins 投资了 Google，而负责这笔交易的合伙人约翰·杜尔，正是 1974 年来到硅谷为英特尔工作的。"
     },
     {
       "id": 54,
@@ -427,7 +427,7 @@
       "type": "paragraph",
       "sourceHash": "d091ce787473404f547f2ea35bc175abc50dcd27fdca04a146cdc0e88d9bf29f",
       "enMarkdown": "One of Silicon Valley's biggest advantages is its venture capital firms. This was not a factor in Shockley's day, because VC funds didn't exist. In fact, Shockley Semiconductor and Fairchild Semiconductor were not startups at all in our sense. They were subsidiaries-- of Beckman Instruments and Fairchild Camera and Instrument respectively. Those companies were apparently willing to establish subsidiaries wherever the experts wanted to live.",
-      "zhMarkdown": "硅谷最大的优势之一是其风险投资机构。在肖克利的时代，这不是一个因素，因为当时还没有风险投资基金。事实上，肖克利半导体和仙童半导体在我们今天看来根本不是创业公司。它们分别是贝克曼仪器（Beckman Instruments）和仙童相机与仪器（Fairchild Camera and Instrument）的子公司。这些公司显然愿意在专家想住的任何地方建立子公司。"
+      "zhMarkdown": "硅谷最大的优势之一是它的风险投资机构。这在肖克利的时代并不是一个因素，因为那时根本不存在风投基金。事实上，肖克利半导体和仙童半导体根本不是我们今天所理解的创业公司。它们分别是贝克曼仪器和仙童照相机与仪器的子公司。而那些母公司显然乐意在专家们想定居的地方设立子公司。"
     },
     {
       "id": 61,
@@ -476,7 +476,7 @@
       "type": "paragraph",
       "sourceHash": "e1b9dd93c5c2db68b4da217fe910d40c7c32ea280925b4270e965392ccba8458",
       "enMarkdown": "[2] Bureaucrats manage to allocate research funding moderately well, but only because (like an in-house VC fund) they outsource most of the work of selection. A professor at a famous university who is highly regarded by his peers will get funding, pretty much regardless of the proposal. That wouldn't work for startups, whose founders aren't sponsored by organizations, and are often unknowns.",
-      "zhMarkdown": "[2] 官僚们在分配研究经费方面做得还算不错，但那只是因为（就像内部风险投资基金一样）他们把大部分筛选工作外包了出去。一位在著名大学、深受同行好评的教授，几乎不管提交什么提案，都会获得资助。这在创业公司是行不通的，因为创业公司的创始人没有机构赞助，而且往往是无名之辈。"
+      "zhMarkdown": "[2] 官僚在分配科研经费方面做得还算差强人意，但这仅仅是因为（就像企业内部风投基金一样）他们把大部分筛选工作外包了出去。名牌大学里深得同行赞誉的教授，几乎无论申报书写成什么样都能拿到资助。但这种机制对创业公司行不通，因为创业公司的创始人没有机构背书，而且往往都是无名之辈。"
     },
     {
       "id": 68,

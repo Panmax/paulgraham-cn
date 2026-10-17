@@ -4,10 +4,10 @@
   "titleZh": "Lisp 之源",
   "dateText": "May 2001",
   "publishedAt": "2001-05-01",
-  "sourceOrder": 219,
+  "sourceOrder": 221,
   "sourceUrl": "https://paulgraham.com/rootsoflisp.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -19,9 +19,9 @@
     {
       "id": 2,
       "type": "paragraph",
-      "sourceHash": "6f8da806bc168fe429cc857bc70cc799e8e3d09d38bdcfa71dc38166ed44329f",
-      "enMarkdown": "*(I wrote this article to help myself understand exactly\nwhat McCarthy discovered.  You don't need to know this stuff\nto program in Lisp, but it should be helpful to \nanyone who wants to\nunderstand the essence of Lisp � both in the sense of its\norigins and its semantic core.  The fact that it has such a core\nis one of Lisp's distinguishing features, and the reason why,\nunlike other languages, Lisp has dialects.)*",
-      "zhMarkdown": "*（我写这篇文章是为了帮助自己准确理解麦卡锡（McCarthy）当年的发现。写 Lisp 程序并不一定非要懂得这些，但对于任何想要理解 Lisp 本质——无论是其历史起源还是其语义核心——的人来说，这应该都会有所帮助。拥有这样一个核心是 Lisp 的显著特征之一，也是为什么 Lisp 会有各种方言，而其他语言却没有的原因。）*"
+      "sourceHash": "a915346640844fb7f0f42803bc20d036cb699b76ec60f41f84b55316dd50cf96",
+      "enMarkdown": "*(I wrote this article to help myself understand exactly\nwhat McCarthy discovered.  You don't need to know this stuff\nto program in Lisp, but it should be helpful to \nanyone who wants to\nunderstand the essence of Lisp — both in the sense of its\norigins and its semantic core.  The fact that it has such a core\nis one of Lisp's distinguishing features, and the reason why,\nunlike other languages, Lisp has dialects.)*",
+      "zhMarkdown": "*(我写这篇文章是为了帮自己弄清楚 McCarthy 究竟发现了什么。日常用 Lisp 编程并不需要了解这些，但对于任何想理解 Lisp 本质的人——无论就其起源还是其语义核心而言——这都应该有所启发。拥有这样一个核心正是 Lisp 的显著特征之一，也是它与其他语言不同、拥有诸多方言的原因。)*"
     },
     {
       "id": 3,
@@ -40,9 +40,9 @@
     {
       "id": 5,
       "type": "paragraph",
-      "sourceHash": "99404a1d60212482e35a5d19e514d6016d9c78e77ed4cdaf1e06cf704652c399",
-      "enMarkdown": "In this article I'm going to try to explain in the simplest possible terms what McCarthy discovered. The point is not just to learn about an interesting theoretical result someone figured out forty years ago, but to show where languages are heading. The unusual thing about Lisp � in fact, the defining quality of Lisp � is that it can be written in itself. To understand what McCarthy meant by this, we're going to retrace his steps, with his mathematical notation translated into running Common Lisp code.",
-      "zhMarkdown": "在这篇文章中，我将尝试用最通俗易懂的语言来解释麦卡锡的发现。这不仅是为了了解一个四十年前有人琢磨出来的有趣理论成果，更是为了展示编程语言未来的发展方向。Lisp 与众不同之处——事实上，也是 Lisp 的定义性特征——在于它可以用自身来编写。为了理解麦卡锡这句话的含义，我们将重温他的探索足迹，并将其数学表示法转化为可以实际运行的 Common Lisp 代码。"
+      "sourceHash": "1bc79e4091aa2ae6d6a1bfaf8c82ba78f0003118a88ee0e95bdc2801fdff3b52",
+      "enMarkdown": "In this article I'm going to try to explain in the simplest possible terms what McCarthy discovered. The point is not just to learn about an interesting theoretical result someone figured out forty years ago, but to show where languages are heading. The unusual thing about Lisp — in fact, the defining quality of Lisp — is that it can be written in itself. To understand what McCarthy meant by this, we're going to retrace his steps, with his mathematical notation translated into running Common Lisp code.",
+      "zhMarkdown": "在这篇文章中，我打算用最通俗易懂的语言来解释 McCarthy 究竟发现了什么。目的不仅是去了解四十年前有人推导出的一个有趣的理论成果，而是要看清编程语言的发展方向。Lisp 的与众不同之处——事实上，也是 Lisp 的决定性特质——在于它可以用自身来编写。为了理解 McCarthy 这话的含义，我们将沿着他的足迹重走一遍，把他的数学记号转化为可运行的 Common Lisp 代码。"
     }
   ]
 }

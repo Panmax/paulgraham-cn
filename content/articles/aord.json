@@ -4,10 +4,10 @@
   "titleZh": "默认生存，还是默认死亡？",
   "dateText": "October 2015",
   "publishedAt": "2015-10-01",
-  "sourceOrder": 65,
+  "sourceOrder": 67,
   "sourceUrl": "https://paulgraham.com/aord.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -105,7 +105,7 @@
       "type": "paragraph",
       "sourceHash": "32211fed6d55d568548787edff651ce39ac488dca4c9b29a6ca3ed7bb4f824ff",
       "enMarkdown": "Plus founders who've just raised money are often encouraged to overhire by the VCs who funded them. Kill-or-cure strategies are optimal for VCs because they're protected by the portfolio effect. VCs want to blow you up, in one sense of the phrase or the other. But as a founder your incentives are different. You want above all to survive. [[3](#f3n)]",
-      "zhMarkdown": "此外，刚拿到融资的创始人往往会被投资他们的风险投资人怂恿去过度招聘。对于风险投资人来说，“非成即死”的策略是最佳选择，因为他们有投资组合效应来对冲风险。风险投资人希望你引爆市场，或者在这个词的另一种意义上，把你彻底炸飞。但作为创始人，你的利益诉求是不同的。你首先要做的是活下去。[[3](#f3n)]"
+      "zhMarkdown": "此外，刚融到资的创始人往往还会受到投资他们的风投的怂恿，招募过多的人员。孤注一掷、不成功便成仁的策略对风投来说是最优解，因为他们受投资组合效应的保护。风投想让你“引爆”，无论是业绩爆发还是轰然炸毁。但作为创始人，你的利益诉求是不同的。你首要追求的是活下去。[[3](#f3n)]"
     },
     {
       "id": 15,
@@ -161,7 +161,7 @@
       "type": "paragraph",
       "sourceHash": "e729dfb0d775c4b3f9054068e7cdcf094aa36c86fc6ed9c0b913c12720680fc2",
       "enMarkdown": "[3] I would not be surprised if VCs' tendency to push founders to overhire is not even in their own interest. They don't know how many of the companies that get killed by overspending might have done well if they'd survived. My guess is a significant number.",
-      "zhMarkdown": "[3] 如果风险投资人推着创始人过度招聘的倾向甚至不符合他们自己的利益，我对此不会感到惊讶。他们不知道那些因开销过大而被扼杀的公司中，有多少如果能活下来本可以发展得很好。我猜测这个数量相当可观。"
+      "zhMarkdown": "[3] 即使风投推动创始人过度招聘的倾向其实并不符合他们自己的利益，我也毫不意外。他们不知道那些因开销过大而被扼杀的公司中，究竟有多少本可以在活下来后表现出色。我的猜测是，数量相当可观。"
     },
     {
       "id": 23,

@@ -1,0 +1,293 @@
+{
+  "slug": "powerful",
+  "titleEn": "Making Startups Powerful",
+  "titleZh": "让创业公司更强大",
+  "dateText": "September 2026",
+  "publishedAt": "2026-09-01",
+  "sourceOrder": 3,
+  "sourceUrl": "https://paulgraham.com/powerful.html",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
+  "segments": [
+    {
+      "id": 1,
+      "type": "paragraph",
+      "sourceHash": "c60649cb400079fab840bb6d8f06113664b642edccb7cebbeac4ce684d51182a",
+      "enMarkdown": "One of the most useful heuristics I have when doing office hours with startups is to ask: what would make this company more powerful? Asking how the company could make more money is a good heuristic too, but it tends to yield incremental improvements. Whereas thinking about how to make it more powerful will sometimes make it orders of magnitude more valuable.",
+      "zhMarkdown": "在与创业公司交流时，我最有用的一条启发式思考就是问：怎样才能让这家公司变得更强大？问公司如何赚更多的钱也是个不错的切入点，但往往只能带来渐进式的改善。而思考如何让它更强大，有时却能让它的价值实现几个数量级的跃升。"
+    },
+    {
+      "id": 2,
+      "type": "paragraph",
+      "sourceHash": "c232598ca1e874a5463ede1a83d475269f3156a88121d7f139b9c5f996a5b91d",
+      "enMarkdown": "There are a lot of different variants of this question, depending on the type of company. Is there a way to transform the company from a mere component supplier into the one that owns the relationship with the customer? Or the related question: is there a way to make the money flow through it? It's always good when money flows through you. [[1](#f1n)]",
+      "zhMarkdown": "根据公司类型的不同，这个问题有许多变体。有没有办法让这家公司从一个单纯的零部件供应商，转变为直接掌控客户关系的角色？还有一个相关的问题：有没有办法让资金从它这里流过？让资金流经自身总是一件好事。[[1](#f1n)]"
+    },
+    {
+      "id": 3,
+      "type": "paragraph",
+      "sourceHash": "e2c7b7d78b9e9955d6615a7ea4a99d969005cf08729c5d96fc9d39c635dcb5b7",
+      "enMarkdown": "Is there a way to create something akin to an app store, where other companies can build upon your product? Then all their efforts to create valuable things make you more valuable too. Ideally this is combined with owning the customer relationship and making the money flow through you. [[2](#f2n)]",
+      "zhMarkdown": "有没有办法打造一个类似于应用商店的东西，让其他公司能在你的产品之上构建业务？这样一来，他们创造价值的一切努力，都会反过来让你变得更有价值。最理想的情况，是把这一点与掌控客户关系以及让资金流经自身结合起来。[[2](#f2n)]"
+    },
+    {
+      "id": 4,
+      "type": "paragraph",
+      "sourceHash": "2c539538bb1cfa04affd1e54239dbe368b8b62bbd0ecb315c94ce557f3d94cf3",
+      "enMarkdown": "Network effects make companies more powerful, and I almost always think about how to introduce them. I treat it as a kind of challenge to see if there's a way to get network effects even in things you wouldn't expect to have them. [[3](#f3n)] It's surprising how often it can be done. And when it can, this sometimes transforms the idea completely; what had been a service is now a marketplace. The deluxe version is full app store, but if there's no more direct way to do it, you can often induce network effects by letting your users share something. For example, if you opt in, we'll tell you how you're doing compared to other users. The obvious AI variant is to let your users opt in to training your model on their interactions with it. Many will resist that, but if some don't, the model they get to use will outperform the vanilla one used by the others.",
+      "zhMarkdown": "网络效应能让公司更强大，所以我几乎总在思考如何引入它。我把它当成一种挑战：看看能否在那些你根本意想不到的地方搞出网络效应。[[3](#f3n)] 令人惊讶的是，这往往是可行的。一旦做到了，有时会彻底颠覆原有的想法：原本只是一项服务，现在变成了交易平台。豪华版本是做成完整的应用商店；但如果没有更直接的办法，你通常可以通过让用户分享某些东西来催生网络效应。例如，如果你选择加入，我们就会告诉你与其他人相比表现如何。AI 领域的典型变体则是：允许用户选择将其与模型的交互数据用于模型训练。很多人会拒绝，但只要有人同意，他们能用到的模型就会超越其他人使用的基础版。"
+    },
+    {
+      "id": 5,
+      "type": "paragraph",
+      "sourceHash": "33347762073d763f7946669ac3bc326532733386959529182bf2866198febfca",
+      "enMarkdown": "Often you can induce network effects by generalizing the idea, which makes the startup doubly more powerful. For example, if I were talking to a startup building a way for agents to pay for things, the first question I'd ask is whether the agents could also pay one another. If they can do that, you become a marketplace. And being a marketplace is so valuable that if it wasn't immediately obvious what agents could pay one another for, it would be worth spending a lot of time trying to think of something. If you could, it might be worth tilting the whole company toward that, and if necessary even becoming a market maker to get it rolling.",
+      "zhMarkdown": "很多时候，你可以通过把这个想法推广到更普遍的场景来催生网络效应，这会让创业公司的实力成倍增强。例如，如果我遇到一家正在为智能体（agent）开发支付手段的创业公司，我的第一个问题会是：智能体之间是否也能互相付款？如果可以，你就不再只是工具，而是成了一个交易平台。成为平台具有极高的价值，以至于即使眼下看不出智能体之间能为什么东西互相付款，也值得花大量时间去琢磨琢磨。如果真能找到，甚至值得把整个公司的重心都转向这个方向；必要时，哪怕自己下场当做市商把飞轮转起来也在所不惜。"
+    },
+    {
+      "id": 6,
+      "type": "paragraph",
+      "sourceHash": "ff78c789d43aa22cc87834347aa4a0934a368cf693f4ac72fd54ef7bc44ac373",
+      "enMarkdown": "These hypothetical transformations of the original idea don't always yield anything promising. Far from it. But they're always worth considering; if nothing else, trying to transform an idea helps you understand it better.",
+      "zhMarkdown": "这些对原始想法的假设性改造，并不总能带来有希望的结果。远非如此。但它们永远值得去推演一番；退一步讲，尝试改造一个想法，也能帮你更深刻地理解它。"
+    },
+    {
+      "id": 7,
+      "type": "paragraph",
+      "sourceHash": "b0b77e0a2912f0554ee213ef25f94ca172c34b6640e36db1bd50ab5af461a0dd",
+      "enMarkdown": "There are certain kinds of thinking where ideas start to seem almost physical. Most programmers have probably experienced it. Manipulating startup ideas feels this way too. One transformation that feels especially physical is the strategy of going full stack: instead of selling your technology to companies doing x, you use the technology yourself to do x in competition with them. You can almost see the idea stretch as it engulfs what had been the customer. And now that you own the outside surface, the shape of that probably changes too.",
+      "zhMarkdown": "在某些思维模式下，想法会开始呈现出近乎实体的质感。大多数程序员大概都体会过这种感觉。琢磨创业想法也是如此。其中一种尤其具有物理质感的改造，就是“全栈化”策略：不要把技术卖给做某件事的公司，而是自己利用这项技术去做这件事，直接同他们竞争。你几乎能看到那个想法在不断延展，把原本是客户的对象整个吞噬进去。既然你已经直接面向最终市场、掌握了外表面，它的形状很可能也会随之改变。"
+    },
+    {
+      "id": 8,
+      "type": "paragraph",
+      "sourceHash": "4e8df6570137bc4aa1546f03b473405588aa2f412704185df002218db562e3a8",
+      "enMarkdown": "There's a variant of going full stack where you eat your way gradually through the customer by doing all their hardest work for them. In the limit case, you're doing all the brainwork and they're just running errands for you. At which point, as in the full stack case, the real customer is their customer; the initial customer is now just a kind of hand puppet.",
+      "zhMarkdown": "全栈化还有一种变体：通过替客户承担他们最繁重、最核心的工作，一步步把他们蚕食掉。在极限情况下，所有动脑子的工作都由你来做，他们只剩下替你跑腿。到了这个地步，就像全栈化的情况一样，他们真正的客户变成了你的客户，而最初的客户如今不过是一个木偶。"
+    },
+    {
+      "id": 9,
+      "type": "paragraph",
+      "sourceHash": "c2e866f7f52de225fcbeee58dbc0ec473e6e78a880c815fbb1008043d29b08c7",
+      "enMarkdown": "Another thing I'm always looking for is tails that could wag the dog. The history of startups is full of these. Paypal started out doing security for hand-held devices. They created Paypal as a demo of their security software. But then eBay sellers started using it to take payments, and after a couple months the founders acknowledged that this was the business they were now in, even though they hadn't meant to be. So whenever founders build something peripheral to the main product I always ask: could this be the real product?",
+      "zhMarkdown": "我一直在寻找的另一类东西，是那些能“反客为主”的副产物。创业史中充斥着这样的例子。PayPal 起初是做手持设备安全软件的，他们做 PayPal 只是为了给安全软件做演示。但随后 eBay 卖家开始用它来收款，几个月后创始人意识到，这才是他们如今真正的业务，尽管他们起初根本没想过做这个。因此，每当创始人做出了依附于主产品的副产品时，我总会问：这会不会才是真正的产品？"
+    },
+    {
+      "id": 10,
+      "type": "paragraph",
+      "sourceHash": "e50e0c8d5f800dc64f5ebcb1fbab247aa29dbfc1d19a27403cafce82413e6a28",
+      "enMarkdown": "It's exciting when you notice users \"misusing\" your product to do something you hadn't intended. This means there's something they want so desperately that they'll not only use any solution you offer, but even use things that aren't meant to be solutions. When you see something like that, don't be annoyed that your users are using your product wrong; listen for the message they're sending, because it could be valuable.",
+      "zhMarkdown": "当你注意到用户在以你意想不到的方式“乱用”你的产品时，那是极令人兴奋的。这意味着他们极度渴望某种东西，以至于不仅会接受你提供的任何方案，甚至会拿原本不作此用途的东西来凑合。遇到这种情况，千万别抱怨用户用错了产品；听听他们在传递什么信号，因为那很可能是无价之宝。"
+    },
+    {
+      "id": 11,
+      "type": "paragraph",
+      "sourceHash": "26f193ab55dd3c187f61359bb5b9049cd713a6195b8c35bb8de87bb0d43e9f00",
+      "enMarkdown": "The reason Paypal grew so fast was that it helped users make money. Few things make you more powerful than that. When you help users make money, they're (a) quick to adopt your product and (b) will pay a lot for it. So your revenues grow doubly fast. Most of the most successful companies we've funded help their users to make money, as does YC itself.",
+      "zhMarkdown": "PayPal 之所以增长如此迅速，是因为它帮用户赚到了钱。几乎没有什么比这更能让你变得强大的了。当你帮用户赚钱时，他们会 (a) 迅速采用你的产品，并且 (b) 愿意为此支付高昂费用。这样一来，你的收入增长就会快上加快。我们投资过的最成功的公司，绝大多数都在帮其用户赚钱，YC 本身也是如此。"
+    },
+    {
+      "id": 12,
+      "type": "paragraph",
+      "sourceHash": "11e47b5f8300476ac7d65f8d09bf5b683c86d27c5d15cdd07bb0b72f10990fe7",
+      "enMarkdown": "Playing the long game makes you more powerful, because most other people you encounter won't be. Most startups competing with you will be run by opportunists hoping to be acquired. Most big companies you deal with will be run by executives who don't expect to be there for more than a few years and are only thinking about this quarter's numbers. So tradeoffs that only pay off in 10 years will usually be underpriced. The classic one is to offer great terms in order to acquire users. I generally advise startups to sell as cheaply as they need to at first; get all the users, then worry about your margins. But there are usually also deeper, structural ways to play the long game. [[4](#f4n)]",
+      "zhMarkdown": "打持久战会让你更强大，因为你遇到的大多数人都不会这么做。与你竞争的大多数创业公司，都是由指望早点被收购的投机者经营的。与你打交道的大多数大公司，管理者往往只打算待上几年，眼里只有这个季度的财报。因此，那些要在十年后才见成效的权衡取舍，在当下往往被严重低估了。最典型的做法就是为了获取用户而提供极其优厚的条件。我通常建议创业公司在起步阶段尽可能便宜地出售产品；先把所有用户拿下，再去操心利润率。但放长线往往还有更深层、更具结构性的打法。[[4](#f4n)]"
+    },
+    {
+      "id": 13,
+      "type": "paragraph",
+      "sourceHash": "1224163ef48a4e386c44e4002d690499b411808a92bef18a1c05117a4792065d",
+      "enMarkdown": "Being generous makes you more powerful. As Tim O'Reilly said, you should create more value than you capture. Many hard-headed business types would write this off as idealistic hippy stuff, but in fact this is the route to becoming really rich. Squeezing every last penny out of customers is a distraction. It gets you 2x returns at most. Whereas discovering some new thing you could make for them could easily get you 10x or 100x returns. They're two different ways of looking at the world, and the O'Reilly way makes more, for those who can do it. [[5](#f5n)]",
+      "zhMarkdown": "慷慨大度会让你更强大。正如蒂姆·奥莱利（Tim O'Reilly）所言，你创造的价值应该大于你捕获的价值。许多自诩务实的商业人士会把这话斥为嬉皮士的理想主义空想，但事实上，这才是通往巨富的康庄大道。绞尽脑汁榨干客户口袋里的最后一分钱只会让你分心，顶多带来两倍的回报。而一旦发现能为他们做出的某种全新东西，往往能轻松带来 10 倍乃至 100 倍的回报。这是看待世界的两种截然不同的方式；对于能做到的人来说，奥莱利的方式赚得更多。[[5](#f5n)]"
+    },
+    {
+      "id": 14,
+      "type": "paragraph",
+      "sourceHash": "e44191aeaed07e2761fbccb7becd7adb04bdd030fe5bd3a1c7edfd4acd8e18ab",
+      "enMarkdown": "The classic example of generosity leading to power is when companies open source their software. They literally give away the product, but by giving it away they both make it a standard and make users trust it more. That makes it spread, and in the end they end up with a small piece of a much, much bigger pie.",
+      "zhMarkdown": "慷慨走向强大的经典例子，是公司将自己的软件开源。他们实实在在地白送产品，但正是通过白送，他们不仅让它成为了行业标准，还赢得了用户更深厚的信任。这促使产品迅速传播，最终让他们从一个大得多的蛋糕中分到了哪怕一小块。"
+    },
+    {
+      "id": 15,
+      "type": "paragraph",
+      "sourceHash": "758ebf270ebe858b5d3a8a1b332e5cd0aa36efe3fc16a8c01c52ab17b76c4430",
+      "enMarkdown": "If you don't want to go full open source, you can get some of the benefits by making your product extensible. One end of that continuum is the app store, but if you don't restrict or charge for extensions you may ultimately end up with a bigger ecosystem. [[6](#f6n)]",
+      "zhMarkdown": "如果你不想彻底开源，也可以通过让产品具备可扩展性来获得部分好处。这种光谱的一端是应用商店，但如果你不对扩展进行限制或收费，最终可能会建立起一个庞大得多的生态系统。[[6](#f6n)]"
+    },
+    {
+      "id": 16,
+      "type": "paragraph",
+      "sourceHash": "3114dad117f16fa8ed9d18113804400216d86e28ed9392c59e28f48db187f576",
+      "enMarkdown": "The ultimate in extensibility is to let your product be called via an API. Many companies shrink from that because they dislike the loss of control that comes with it. They want their software to be used only in the way they intended. There may be some specialized domains where you want to be rigid about this, but I suspect it's usually a mistake. Especially now that agents are replacing human users. Who knows what they'll want to do? So err on the side of having APIs. Especially when you're a larval startup and have nothing to lose.",
+      "zhMarkdown": "可扩展性的终极形态是让产品可以通过 API 被调用。许多公司对此退缩不前，因为他们讨厌随之而来的失控感。他们希望自己的软件只能按照他们预设的方式被使用。在某些专业领域，或许确实需要如此严苛，但我怀疑这通常是个错误。尤其是在如今智能体正在取代人类用户的时代。谁知道它们想干什么呢？所以在做决策时，宁可偏向提供 API。特别是当你还只是一家雏鸟阶段的创业公司、根本没什么可失去的时候。"
+    },
+    {
+      "id": 17,
+      "type": "paragraph",
+      "sourceHash": "75976fe79218367d7b32860bab23c5b70fdead465ef8b1238b48edf5c62d5ea2",
+      "enMarkdown": "Strangely enough, selling to earlier stage companies makes you more powerful. Founders are often surprised by this, because the earlier you sell to startups, the less money they have. But if you get them as customers at the very beginning and you charge based on usage, your revenues will grow at startup rates.",
+      "zhMarkdown": "说来奇怪，把东西卖给更早期的公司反而会让你更强大。创始人往往对此感到惊讶，因为创业公司越早期，手头就越缺钱。但如果你从最一开始就把他们拉为客户，并且按使用量收费，你的收入就会以创业公司的惊人速度增长。"
+    },
+    {
+      "id": 18,
+      "type": "paragraph",
+      "sourceHash": "1e099217832eca7e84d36bf7933145d9c5895d4f4216873eeadde1eb55a90250",
+      "enMarkdown": "This is why Stripe makes a point of signing up companies at the first possible moment. With payments infrastructure, if it ain't broke, you don't fix it, and since Stripe ain't broke, companies that install it never churn. And selling to early stage startups is so straightforward. The founders are sophisticated and decide quickly. If you have the best product, you win. Whereas if you're making something you can't sell to companies till they have 500 people, you're in a much weaker position. Now you're doing enterprise sales, which takes forever and is notoriously not a domain where the best product wins.",
+      "zhMarkdown": "这就是为什么 Stripe 一定要尽可能在其他公司成立的最早时刻就把它们签下来。对于支付基础设施来说，只要没坏，就没人会去动它；既然 Stripe 稳定好用，接入它的公司就几乎从不流失。而且把东西卖给早期创业公司是如此直截了当：创始人懂行，做决定又快。只要你的产品最好，你就能赢。反之，如果你做的东西必须等到客户有 500 人规模时才卖得出去，你的处境就会弱得多。此时你得做企业级销售，耗时漫长，而且向来不是凭最好产品就能取胜的战场。"
+    },
+    {
+      "id": 19,
+      "type": "paragraph",
+      "sourceHash": "d56e6b48f87af342e356209fdd005bac1cbe69163c298e9f23c544ca7fc3e4ea",
+      "enMarkdown": "When I ask a startup how big a customer has to be before they'll buy their product, I always hope the number will be low. And if it's not, I always ask if there's some way to tweak the product so they can sell it earlier. The ideal is something they can [Collison-install](https://paulgraham.com/ds.html) right now for their batchmates. [[7](#f7n)]",
+      "zhMarkdown": "每当我问一家创业公司客户要有多大规模才会买他们的产品时，我总是希望那个数字越小越好。如果不是，我总会问是否有什么办法对产品做些调整，好让他们能在更早期就卖出去。最理想的状态是：他们现在就能直接给同批次的 YC 伙伴[当场装上](https://paulgraham.com/ds.html)。[[7](#f7n)]"
+    },
+    {
+      "id": 20,
+      "type": "paragraph",
+      "sourceHash": "b7cab1f7146ec4a95ac65293f992b9de7e8b0d5a15d36bce061d7c3b4da7a574",
+      "enMarkdown": "More generally, having customers who decide fast makes you powerful. Not just because of the speed, but because customers who decide fast tend to decide based on how good you are. Startups usually make the best stuff (if you were both small and mediocre, how could you even survive?) and when customers decide fast, making the best stuff leads straight to making the most money. Whereas selling to customers like hospitals and school districts is like walking through mud. Whenever I meet a startup selling to customers like that, I ask if there's some way they could at least start by selling to a subset of the market that decides faster. [[8](#f8n)]",
+      "zhMarkdown": "更普遍地说，拥有决策迅速的客户会让你变强大。这不仅是因为速度本身，更因为决策迅速的客户往往是凭你的东西有多好来做决定的。创业公司通常做出的东西最好（如果你又小又平庸，根本不可能生存下来），而当客户做决定足够快时，做出最好的东西就会直接转化为赚到最多的钱。相反，把东西卖给医院和学区这类客户就像在泥潭里跋涉。每当我遇到面向此类客户的创业公司，我都会问他们是否至少可以先从一个决策更快的细分市场切入。[[8](#f8n)]"
+    },
+    {
+      "id": 21,
+      "type": "paragraph",
+      "sourceHash": "f3525f2014cc64c0a429af0349a75c972d83ae979a5faf94ebd7fd0ea0e9b8ec",
+      "enMarkdown": "There's a strategy similar to getting the customers early, which is to get the data early. Rippling used this technique brilliantly. Their goal was always to be both the operating system for applications dealing with employee data and most of the applications running on it. They didn't know exactly what this would look like; it would have to evolve; so they started by writing onboarding software, because that's where the life of employee data begins. And since there was more at stake for them than just the onboarding software market, their onboarding software was way better than it needed to be, and spread rapidly.",
+      "zhMarkdown": "除了尽早获取客户之外，还有一种类似的策略：尽早获取数据。Rippling 极漂亮地运用了这一战术。他们的目标始终是：既做处理员工数据应用的操作系统，又做运行在其上的大部分应用。他们起初并不知道这具体会是什么样，必须慢慢演变；于是他们从编写员工入职管理软件做起，因为员工数据的第一天就是从这里开始的。正因为他们志在全盘而非仅仅盯住入职软件市场，他们的入职软件做得远超必需的水准，并迅速铺开。"
+    },
+    {
+      "id": 22,
+      "type": "paragraph",
+      "sourceHash": "25378a046bbaa84a8ccb675d09a20d003bed818141db63c8e4d1a99da4d28c68",
+      "enMarkdown": "Upstream is almost always good, whether it's with money or user relationship or customer stage or data.",
+      "zhMarkdown": "占领上游几乎总是有利的，无论是资金、用户关系、客户生命周期阶段，还是数据。"
+    },
+    {
+      "id": 23,
+      "type": "paragraph",
+      "sourceHash": "b3730fc7bc1fc936b5af66179050b046b240ece73391d25e6cb6061eca265826",
+      "enMarkdown": "Since startups make the best stuff, they're strongest on level playing fields. They're weakest in markets dominated by companies you'd describe as mafia. Record labels are mafia. PBMs are mafia. In these worlds you don't win by having the best product. Indeed you may only even exist for as long as the mafia chooses to allow you to. Which is not to say they can't be defeated. They probably can be, but you'd have to do it by coming in from the side — by somehow making them irrelevant, rather than by frontal attack. Then you wouldn't depend on beating them to succeed; it would be an ancillary benefit of winning in another dimension. [[9](#f9n)]",
+      "zhMarkdown": "既然创业公司能做出最好的东西，那么在公平竞争的环境中他们就最强。而他们最脆弱的地方，是在那些被行事如黑手党般的巨头所垄断的市场中。唱片公司是黑手党，药品福利管理机构（PBM）也是黑手党。在这些领域，光凭拥有最好的产品是赢不了的。甚至可以说，你的存在完全取决于这些黑手党愿意容忍你多久。这并不是说他们不可战胜。他们大概是可以被击败的，但你必须另辟蹊径——通过某种方式让他们变得无关紧要，而不是正面硬刚。这样一来，你的成功就不依赖于正面打倒他们，而成了你在另一个维度取胜后的附带成果。[[9](#f9n)]"
+    },
+    {
+      "id": 24,
+      "type": "paragraph",
+      "sourceHash": "bf55872afc8abea5628f80b81a39fb7e24b031a16f51d599eb827c56c391e8bd",
+      "enMarkdown": "Often what you're doing when you explore ways to make a company more powerful is finding ways not to be held back by other companies. If you're a component supplier and have to live in a (sometimes literal) box created by another company, you can escape that if you can find a way to own the customer relationship. If you're selling to companies that are big and bureaucratic, you can escape that by selling to them when they're smaller and decide faster, or by using your technology yourselves to compete with them. This pattern is so common that you can use it as a heuristic for generating ways to make an idea bigger. In what ways is the current idea being held back by other companies?",
+      "zhMarkdown": "通常，当你探寻如何让一家公司变得更强大时，你所做的事其实是在寻找不被其他公司掣肘的办法。如果你是一家零部件供应商，不得不困在另一家公司设定的框架（有时真的是物理外壳）里，只要能想办法掌控客户关系，就能摆脱这种困境。如果你在向庞大官僚的公司兜售产品，只要在它们规模尚小、决策尚快时卖给它们，或者利用自身的技术亲自下场与它们竞争，就能摆脱这种拖累。这种模式极其普遍，完全可以作为把点子做大的启发式工具来用：目前的构想在哪些方面受到了其他公司的掣肘？"
+    },
+    {
+      "id": 25,
+      "type": "paragraph",
+      "sourceHash": "b51ee71da6d3f1948ab7ad11dd36cefe44ce75653cef36e1179478227d377950",
+      "enMarkdown": "Often as not, though, startups are being held back by themselves. A surprising percentage of the advice I give to startups has the word \"just\" in it. *You don't need to x. Just y.* One way startups' ideas get twisted into knots is by evolving from something else; there's now a part they don't need, and they don't realize it yet. But with very early stage startups especially, the reason the idea is complicated is often fear. The company is unconsciously cowering by doing something less ambitious than they could. *Just y* is often, in effect, *just stand up straight*. And when they do they're much taller.",
+      "zhMarkdown": "不过，创业公司往往也是在被自己掣肘。我给创业公司的建议中，有惊人比例都包含“直接”（just）这个词。*你不需要做 x。直接做 y 就行了。*创业公司的想法之所以会盘根错节，原因之一是从旧想法演变而来；其中有些部分已经不需要了，而他们自己还没意识到。但特别是在极早期的创业公司中，想法之所以复杂，往往是因为恐惧。公司在下意识地退缩，做着比自己本该有的抱负小得多的事情。*直接做 y* 往往实际上就是*挺直腰杆站起来*。而一旦他们挺直了身子，个头其实要高得多。"
+    },
+    {
+      "id": 26,
+      "type": "paragraph",
+      "sourceHash": "1317d2137f12e6588a94b6d03db96cc5424345680e5b7198c9c911712afb3271",
+      "enMarkdown": "But all these strategies for making startups more powerful have one thing in common — or more precisely, have to obey one constraint. They all have to make things better for the customer. You can't add network effects or make the money flow through you or go full stack just because you'd like to. You can only do these things when the result is better for the customer. Otherwise you won't have any uptake.",
+      "zhMarkdown": "但所有这些让创业公司变得更强大的策略，都有一个共同点——更准确地说，都必须遵守一个约束条件：它们都必须让客户的处境变得更好。你不能仅仅因为自己想做，就去生搬硬套网络效应、让资金流经自身或是做全栈。你只有在结果对客户更好的时候，才能做这些事。否则，根本不会有人买账。"
+    },
+    {
+      "id": 27,
+      "type": "paragraph",
+      "sourceHash": "e45316c3d7eaa847737bfe4c0a7351c0468a25f77e3cb76be65fd06c257e82a8",
+      "enMarkdown": "These are strategies for making startups powerful in the long term, but startups that execute them don't usually have any power at the point when they do. And indeed this initial weakness of startups is why, on the whole, they're good for the world. Newly founded startups are too weak to force anything on anyone. The only way they can become powerful is to make customers' lives better. In fact this constraint is so rigid that you can run it backwards to generate ideas. What would the perfect world look like, from the customer's point of view? If there's a component of that world that the startup could transform itself into, it probably should.",
+      "zhMarkdown": "这些都是让创业公司在长期变得强大的策略，但真正执行这些策略的创业公司在当时往往毫无力量可言。其实，创业公司最初的弱小，恰恰是它们总体上有益于世界的原因所在。初创的公司太弱小了，根本无法强迫任何人接受任何东西。它们变得强大的唯一途径，就是让客户的生活变得更好。事实上，这一约束是如此不可动摇，以至于你可以把它反过来作为构思点子的出发点：从客户的角度来看，完美的世界应该是什么样的？如果这个世界中有某个组成部分是这家创业公司可以蜕变而成的，那么它大概就应该朝那个方向去走。"
+    },
+    {
+      "id": 28,
+      "type": "paragraph",
+      "sourceHash": "7c419b403db21c62a95b2fa0dc04842b3ae831dacee4c64044c8d9315784a3ea",
+      "enMarkdown": "**Notes**",
+      "zhMarkdown": "**注释**"
+    },
+    {
+      "id": 29,
+      "type": "paragraph",
+      "sourceHash": "467881c7daadbedae373e4703882621fbd43be2e3df7bde2998e6dc4bb5cbb02",
+      "enMarkdown": "[1] You can also make tokens flow through you, and this usually means that money flows through you too, since the tokens have to be paid for. In theory this puts you in a powerful position. You own the customer relationship, and the model companies are in effect component suppliers. The question is how easy it would be for them to engulf you, or even your customers.",
+      "zhMarkdown": "[1] 你也可以让 token（模型调用额度）从你这里流过，这通常意味着资金也会从你这里流过，因为 token 总是要付费购买的。理论上这会让你处于有利地位：你掌控了客户关系，而模型公司实际上成了零部件供应商。关键问题在于，模型公司有多大可能把你们、甚至是你们的客户一口吞掉。"
+    },
+    {
+      "id": 30,
+      "type": "paragraph",
+      "sourceHash": "4803d5c32e97ed3f4dc9d29d6488ea8d521344bbb0b71ed5cb844c207fae53d8",
+      "enMarkdown": "[2] If you can't create an app store, can you at least define the standard for how different companies' products interact? In a new field there's often no standard yet. But don't worry that you're too small to propose one. If you're one of the first in the field, you presumably have as good ideas as anyone about what such a standard should look like. And everyone is so hungry for standards that the first to be proposed tends to win, no matter who proposed it.",
+      "zhMarkdown": "[2] 如果建不成应用商店，你至少能否定义不同公司产品之间交互的标准？在全新领域中，往往还没有任何标准存在。但千万别担心自己太小而没资格提标准。如果你是该领域最早的先行者之一，你对标准的构想大概不会输给任何人。而且大家对标准都极度渴望，以至于最先提出的那个往往就会胜出，无论是由谁提出的。"
+    },
+    {
+      "id": 31,
+      "type": "paragraph",
+      "sourceHash": "b36b23309f9214ac46104835e6e31537192d4bf8aac045365bcfd940ec580760",
+      "enMarkdown": "[3] YC itself is an instance of network effects in something you wouldn't expect to have them. We didn't intend it to be, but we realized very quickly that that was what we'd stumbled upon.",
+      "zhMarkdown": "[3] YC 本身就是在原本不被认为存在网络效应的领域中产生网络效应的例子。我们最初并没打算这样做，但很快就意识到我们误打误撞撞上了这一点。"
+    },
+    {
+      "id": 32,
+      "type": "paragraph",
+      "sourceHash": "18ae8193a4903210c8864f28872538b59eac91284f0e49825d33c2a3a59353c7",
+      "enMarkdown": "[4] There are even times when it's worthwhile to sell at a loss. But be careful when you do this, because if you give away too much, you lose the signal that customers send by paying you. If your product is a $10 bill that you sell for $5, your growth rate isn't telling you anything useful.",
+      "zhMarkdown": "[4] 有时赔本销售甚至也是值得的。但这样做时一定要谨慎，因为如果白送的东西太多，你就会失去客户通过付款所传递的真实信号。如果你的产品本身就是一张 10 美元钞票，而你卖 5 美元，你的增长率根本说明不了任何有用的问题。"
+    },
+    {
+      "id": 33,
+      "type": "paragraph",
+      "sourceHash": "c9a5813cffc57803f77e9e07b66b2a7c1928787f1abd62d199b7d63d9312cf8b",
+      "enMarkdown": "[5] The O'Reilly way of looking at the world is more common among founders. When companies switch from making new products to squeezing more profit out of existing ones, it's often because control has passed from the founders to hired managers.",
+      "zhMarkdown": "[5] 奥莱利的这种世界观在创始人中更常见。当公司从开发新产品转向从现有产品中压榨更多利润时，往往是因为控制权从创始人转移到了职业经理人手中。"
+    },
+    {
+      "id": 34,
+      "type": "paragraph",
+      "sourceHash": "d5066029a1e9d2c12bc67e61190732d65c1af1613e9562cba9c5ee803e496426",
+      "enMarkdown": "Partly this is because only founders tend to have the inclination or the ability to create new things. But it's also because founders have experienced weakness. Hired CEOs take the power of the companies they run for granted, whereas founders remember the days when the company was so weak that it had to delight users to survive.",
+      "zhMarkdown": "部分原因在于，通常只有创始人才具备创造新事物的意愿或能力。但也是因为创始人曾经切身体会过弱小。受聘的 CEO 习惯了把掌管公司的力量视作理所当然，而创始人还记得当初公司脆弱到必须讨好用户才能勉强苟活的日子。"
+    },
+    {
+      "id": 35,
+      "type": "paragraph",
+      "sourceHash": "ef0ac3a9ba321a6998bbf34bfbfa95b6f4c6a55a7b8b5016acb8c0d7b12c051b",
+      "enMarkdown": "[6] Perhaps flexibility in this department will be the key to finally displacing Apple. One thing you can be sure of is that they'll be restrictive about hardware and software that integrates with theirs.",
+      "zhMarkdown": "[6] 也许在这方面的灵活性将是最终颠覆苹果的关键。有一点可以确定：苹果在与其生态整合的软硬件上向来限制重重。"
+    },
+    {
+      "id": 36,
+      "type": "paragraph",
+      "sourceHash": "3321e3a7faddab13be6d907ba39502efde6cf02203894c6327252835743affd4",
+      "enMarkdown": "[7] If you switch from asking \"What size customers should we target?\" to \"At what point in their life should we acquire customers?\" it becomes clear that targeting bigger companies is just targeting a given company later. As long as you're confident that customers won't churn, why not lock them in early? Why do slow, brittle enterprise sales when you could just sell to early stage startups and then grow with them? This kind of situation is exactly why YC emphasizes growth *rate* rather than absolute numbers. If your growth rate is good enough, the absolute numbers will take care of themselves. And the way to get the fastest growth rate is to sell to the customers who grow the fastest and decide the fastest.",
+      "zhMarkdown": "[7] 如果你把问题从“我们该瞄准多大规模的客户？”转变成“我们应该在客户生命周期的哪个时间点获取他们？”，就会发现：瞄准更大的公司，无非是在更晚的时间点瞄准同一家公司而已。只要你有信心客户不会流失，为什么不早早把他们锁定呢？何必去啃缓慢脆弱的企业级销售骨头，而不去卖给早期创业公司、然后陪着他们一同成长呢？这种情况正是 YC 为何强调增长*率*而非绝对数字的原因。只要你的增长率足够好，绝对数字自然水到渠成。而获得最快增长率的途径，就是把东西卖给那些自身增长最快、做决定也最快的客户。"
+    },
+    {
+      "id": 37,
+      "type": "paragraph",
+      "sourceHash": "5c40f5aaec541ca3772a68c210031f886d46fe5cb060821643d84e2e6b3b04b7",
+      "enMarkdown": "This way of looking at the world comes naturally when you're playing the long game. If you think in quarters, it seems like potential customers have fixed sizes. If you think in decades, you can see they have trajectories.",
+      "zhMarkdown": "只要你打持久战，这种世界观就会自然形成。如果以季度为单位思考，潜在客户看起来规模都是固定的；如果以十年为单位思考，你就会看出他们各自的发展轨迹。"
+    },
+    {
+      "id": 38,
+      "type": "paragraph",
+      "sourceHash": "6116045640fa7c6d55d124d20ddfa2e720500ed734c8f8834ed77cda3ea7fa24",
+      "enMarkdown": "[8] In a normal industry, customers who are slow to adopt new technology represent an opportunity for startups. The slower they are, the more likely you can win by going full stack. What makes selling to hospitals and school districts so grim is that you generally can't — though there are some opportunities to go around schools and go directly to serving students.",
+      "zhMarkdown": "[8] 在普通行业中，对新技术接纳迟缓的客户对创业公司而言意味着机会。他们越迟缓，你通过做全栈取胜的概率就越高。而把东西卖给医院和学区之所以令人绝望，是因为你通常无法这样做——尽管也存在一些绕过学校、直接为学生服务的机会。"
+    },
+    {
+      "id": 39,
+      "type": "paragraph",
+      "sourceHash": "17e725b7984ca50fd76c1ff223c4c27b21cda4d009642e074de94b7db8106c28",
+      "enMarkdown": "[9] Apparently one thing record labels and PBMs have in common is that they're full of lawyers. So this is presumably a way to recognize such companies.",
+      "zhMarkdown": "[9] 唱片公司和药品福利管理机构（PBM）显然有一个共同点：里面挤满了律师。所以这大概也是识别此类公司的一个方法。"
+    },
+    {
+      "id": 40,
+      "type": "paragraph",
+      "sourceHash": "a849c8a806f57da6bccf24104738f224da7e34954aab43e8164b22e7bca6e4c0",
+      "enMarkdown": "**Thanks** to Sam Altman, Patrick Collison, Aaron Epstein, Ankit Gupta, Diana Hu, Pete Koomen, Jessica Livingston, and Harj Taggar for reading drafts of this, and to Diana for reminding me about token flow.",
+      "zhMarkdown": "**感谢** Sam Altman、Patrick Collison、Aaron Epstein、Ankit Gupta、Diana Hu、Pete Koomen、Jessica Livingston 和 Harj Taggar 阅读本文草稿，并感谢 Diana 提醒我关于 token 流动的事宜。"
+    }
+  ]
+}

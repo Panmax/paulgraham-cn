@@ -4,10 +4,10 @@
   "titleZh": "为什么没有出现更多的 Google",
   "dateText": "April 2008",
   "publishedAt": "2008-04-01",
-  "sourceOrder": 138,
+  "sourceOrder": 140,
   "sourceUrl": "https://paulgraham.com/googles.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -77,7 +77,7 @@
       "type": "paragraph",
       "sourceHash": "0d0319fff87a89be2e4d13e778262ea68cffa004d2821055d55c2b0d18743baa",
       "enMarkdown": "**VCs**",
-      "zhMarkdown": "**风险投资**"
+      "zhMarkdown": "**风投**"
     },
     {
       "id": 11,
@@ -91,42 +91,42 @@
       "type": "paragraph",
       "sourceHash": "6e6f5860c4ccb2f09c4dc7765a700f86b02e027b1e257ae47ab3ba6b66e06b14",
       "enMarkdown": "The reason there aren't more Googles is not that investors encourage innovative startups to sell out, but that they won't even fund them. I've learned a lot about VCs during the 3 years we've been doing Y Combinator, because we often have to work quite closely with them. The most surprising thing I've learned is how conservative they are. VC firms present an image of boldly encouraging innovation. Only a handful actually do, and even they are more conservative in reality than you'd guess from reading their sites.",
-      "zhMarkdown": "没有出现更多 Google 的原因，并不是投资人鼓励创新型创业公司卖掉，而是他们甚至根本不给它们投资。在创办 Y Combinator 的三年里，我对风险投资人有了很多了解，因为我们经常需要与他们紧密合作。我发现最令人惊讶的一点是，他们是多么的保守。风险投资机构展现出一副大胆鼓励创新的形象。但实际上只有极少数能做到，甚至连这极少数在现实中也比你从他们官网上读到的要保守得多。"
+      "zhMarkdown": "为什么没有出现更多的 Google？原因并不是投资人鼓动创新型创业公司把自己卖掉，而是他们根本就不给这些公司投资。在做 Y Combinator 的这三年里，因为经常需要和风投紧密打交道，我对他们有了很深的了解。我发现的最令人惊讶的事，就是他们有多保守。风投机构对外塑造的形象都是在大胆鼓励创新。实际上真正这么做的凤毛麟角，而且就算这极少数，现实中也远比你读他们网站时所想象的要保守得多。"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "57820aa1bc0843abf136e6c07488649343bd97af2c278ccb8c8d05188c10a8b1",
       "enMarkdown": "I used to think of VCs as piratical: bold but unscrupulous. On closer acquaintance they turn out to be more like bureaucrats. They're more upstanding than I used to think (the good ones, at least), but less bold. Maybe the VC industry has changed. Maybe they used to be bolder. But I suspect it's the startup world that has changed, not them. The low cost of starting a startup means the average good bet is a riskier one, but most existing VC firms still operate as if they were investing in hardware startups in 1985.",
-      "zhMarkdown": "我以前总觉得风险投资人像海盗：胆大包天却不择手段。走近了才发现，他们其实更像官僚。他们比我以前想象的要正派（至少好的一批是这样），但没那么有胆识。也许风险投资行业已经变了，也许他们以前更大胆。但我怀疑改变的是创业界，而不是他们。创办一家创业公司的低成本意味着，平均而言，一个好的赌注也是一个风险更大的赌注，但大多数现有的风险投资机构仍然像在 1985 年投资硬件创业公司那样运作。"
+      "zhMarkdown": "过去我总觉得风投像海盗：胆大妄为、不择手段。走近之后才发现，他们其实更像官僚。他们比我过去以为的更体面（至少优秀的那批人是），但也更缺乏魄力。也许风投行业变了，也许他们以前确实更大胆。但我怀疑变的是创业界，而不是他们。创立一家创业公司的成本大幅降低，意味着一般而言的好机会往往伴随着更高的风险，但现存的大多数风投机构运作起来，依然像是在 1985 年投资硬件创业公司一样。"
     },
     {
       "id": 14,
       "type": "paragraph",
       "sourceHash": "a7f4160cd2c417819c3a1517de0868922bf6bed1fbe1f82e95978b2e508b6eea",
       "enMarkdown": "Howard Aiken said \"Don't worry about people stealing your ideas. If your ideas are any good, you'll have to ram them down people's throats.\" I have a similar feeling when I'm trying to convince VCs to invest in startups Y Combinator has funded. They're terrified of really novel ideas, unless the founders are good enough salesmen to compensate.",
-      "zhMarkdown": "Howard Aiken 曾说：“不要担心别人会偷走你的想法。如果你的想法真的很好，你得硬塞进他们的喉咙里才行。”当我试图说服风险投资人投资 Y Combinator 资助的创业公司时，我也有类似的感觉。他们对真正新颖的想法感到恐惧，除非创始人是足够优秀的推销员来弥补这一点。"
+      "zhMarkdown": "霍华德·艾肯（Howard Aiken）曾说：“别担心别人偷走你的点子。如果你的点子真的好，你得硬塞进别人的喉咙里他们才会接受。”当我试图说服风投投资 Y Combinator 资助的创业公司时，常有类似的感觉。他们对真正新颖的点子怕得要死，除非创始人是极其出色的推销高手，能弥补这一点。"
     },
     {
       "id": 15,
       "type": "paragraph",
       "sourceHash": "0b971fcc81afe9e95135d432dfd730bc9b041d1a6d6f9c5e78e28adbdb7fcb75",
       "enMarkdown": "But it's the bold ideas that generate the biggest returns. Any really good new idea will seem bad to most people; otherwise someone would already be doing it. And yet most VCs are driven by consensus, not just within their firms, but within the VC community. The biggest factor determining how a VC will feel about your startup is how other VCs feel about it. I doubt they realize it, but this algorithm guarantees they'll miss all the very best ideas. The more people who have to like a new idea, the more outliers you lose.",
-      "zhMarkdown": "但正是那些大胆的想法才能带来最大的回报。任何真正好的新想法在大多数人看来都是糟糕的，否则早就有人在做了。然而，大多数风险投资人都是由共识驱动的，不仅在他们自己的机构内部，而且在整个风险投资圈里也是如此。决定一个风险投资人对你的创业公司感觉如何的最大因素，是其他风险投资人对它的感觉。我怀疑他们自己有没有意识到，但这种算法保证了他们会错过所有最顶级的想法。需要喜欢一个新想法的人越多，你失去的颠覆性特异值就越多。"
+      "zhMarkdown": "但带来最高回报的，恰恰是大胆的想法。任何真正优秀的新点子在大多数人眼里都会显得很糟糕；否则早就有人去做了。然而，大多数风投都受制于“共识”，不仅是机构内部的共识，还包括整个风投圈的共识。决定一个风投如何看待你这家创业公司的最大因素，就是其他风投怎么看。我怀疑他们自己都没意识到，但这种算法注定会让他们错过所有最顶尖的点子。必须认同某个新点子的人越多，你错失的极端优质机会就越多。"
     },
     {
       "id": 16,
       "type": "paragraph",
       "sourceHash": "c4617b6adf532b51863c7a71ce3335561b32b0e0c10554fdafca2d1075340cd8",
       "enMarkdown": "Whoever the next Google is, they're probably being told right now by VCs to come back when they have more \"traction.\"",
-      "zhMarkdown": "无论下一个 Google 是谁，他们现在可能正被风险投资人告知，等有了更多的“业务牵引力（traction）”再来吧。"
+      "zhMarkdown": "不管下一个 Google 是谁，他们现在大概正被风投告知：等你们有了更多“业务进展”再来吧。"
     },
     {
       "id": 17,
       "type": "paragraph",
       "sourceHash": "cbaa49a33a102da096500e5cfd8adb9b8bb6c1444834768472cb8be99655c0ea",
       "enMarkdown": "Why are VCs so conservative? It's probably a combination of factors. The large size of their investments makes them conservative. Plus they're investing other people's money, which makes them worry they'll get in trouble if they do something risky and it fails. Plus most of them are money guys rather than technical guys, so they don't understand what the startups they're investing in do.",
-      "zhMarkdown": "为什么风险投资人如此保守？这可能是多种因素共同作用的结果。他们庞大的投资规模让他们变得保守。再加上他们投资的是别人的钱，这让他们担心如果做了一些冒险的事情却失败了会惹上麻烦。此外，他们中的大多数人是金融背景而不是技术背景，所以他们并不理解自己投资的创业公司在做什么。"
+      "zhMarkdown": "为什么风投如此保守？这大概是多重因素共同作用的结果。首先，单笔投资金额巨大让他们变得保守。其次，他们投的是别人的钱，这让他们担心一旦冒险失败会惹上麻烦。再加上他们大多数是玩资本的金融人士，而不是懂技术的人，因此根本搞不懂自己投资的创业公司到底在做什么。"
     },
     {
       "id": 18,
@@ -140,7 +140,7 @@
       "type": "paragraph",
       "sourceHash": "8594aacdef790b6ae5b8f2e775548ea30335a4cd80fb010cfaf6411fe42ef935",
       "enMarkdown": "The exciting thing about market economies is that stupidity equals opportunity. And so it is in this case. There is a huge, unexploited opportunity in startup investing. Y Combinator funds startups at the very beginning. VCs will fund them once they're already starting to succeed. But between the two there is a substantial gap.",
-      "zhMarkdown": "市场经济令人兴奋的地方在于，愚蠢等同于机会。现在的情况正是如此。在创业投资领域存在着一个巨大的、尚未被开发的机遇。Y Combinator 在最早期资助创业公司，风险投资人则在它们已经开始成功时给予资助。但在两者之间，存在着一个巨大的空白地带。"
+      "zhMarkdown": "市场经济令人兴奋之处在于：愚蠢即机遇。眼下这件事正是如此。在创业投资领域存在着一个巨大的、尚未被开发的机遇。Y Combinator 在创业公司最早期提供资金；风投则在公司已经初见成效时才会跟进。但在两者之间，存在着一条巨大的鸿沟。"
     },
     {
       "id": 20,
@@ -154,14 +154,14 @@
       "type": "paragraph",
       "sourceHash": "f7249ae0148268ef91ac276f3fe83c9add37d9048a4276af875058ed597bdbbd",
       "enMarkdown": "And yet as it gets cheaper to start startups, this sparsely occupied territory is becoming more and more valuable. Nowadays a lot of startups don't want to raise multi-million dollar series A rounds. They don't need that much money, and they don't want the hassles that come with it. The median startup coming out of Y Combinator wants to raise $250-500k. When they go to VC firms they have to ask for more because they know VCs aren't interested in such small deals.",
-      "zhMarkdown": "然而，随着创办创业公司的成本越来越低，这片人烟稀少的领域正变得越来越有价值。如今，许多创业公司不想进行数百万美元的 A 轮融资。他们不需要那么多钱，也不想带来随之而来的麻烦。从 Y Combinator 毕业的创业公司，中位数融资需求是 25 万到 50 万美元。当他们去找风险投资机构时，他们不得不要求更多，因为他们知道风险投资人对这么小的交易不感兴趣。"
+      "zhMarkdown": "然而，随着创办创业公司的成本越来越低，这片人迹罕至的领域正变得越来越有价值。如今，许多创业公司并不想融数百万美元的 A 轮融资。他们用不了那么多钱，也不想招惹随之而来的麻烦。从 Y Combinator 毕业的创业公司，中位数融资需求在 25 万到 50 万美元之间。但当他们去找风投机构时，就不得不开口要更多，因为他们知道风投对这么小的交易根本提不起兴趣。"
     },
     {
       "id": 22,
       "type": "paragraph",
       "sourceHash": "f4886e3afa82b5479afdc3950cc5dc896a8b916fbb1eedd94dfe8e8e43d7290c",
       "enMarkdown": "VCs are money managers. They're looking for ways to put large sums to work. But the startup world is evolving away from their current model.",
-      "zhMarkdown": "风险投资人是资金管理人。他们正在寻找将大额资金投入使用的方法。但创业界的发展正在偏离他们现有的模式。"
+      "zhMarkdown": "风投本质上是资金管理人。他们寻找的是让大笔资金发挥作用的途径。但创业领域的发展，正在逐渐背离他们目前的运作模式。"
     },
     {
       "id": 23,
@@ -175,21 +175,21 @@
       "type": "paragraph",
       "sourceHash": "3e87262ff56a597ae423b1b48d404d1f7a0897e9fac78353b6e0f64592ec3f07",
       "enMarkdown": "I've tried to explain this to VC firms. Instead of making one $2 million investment, make five $400k investments. Would that mean sitting on too many boards? Don't sit on their boards. Would that mean too much due diligence? Do less. If you're investing at a tenth the valuation, you only have to be a tenth as sure.",
-      "zhMarkdown": "我曾试着向风险投资机构解释这一点。与其做一笔 200 万美元的投资，不如做五笔 40 万美元的投资。这是否意味着要占用太多的董事会席位？那就不要进他们的董事会。这是否意味着需要做太多的尽职调查？那就少做一点。如果你是以十分之一的估值进行投资，你只需要有十分之一的把握就够了。"
+      "zhMarkdown": "我曾试图向风投机构解释这一点：与其做一笔 200 万美元的投资，不如做五笔 40 万美元的投资。这是否意味着要进太多的董事会？那就别进董事会。这是否意味着要做太多的尽职调查？那就少做点。如果你是以十分之一的估值进行投资，你只需要有十分之一的把握就够了。"
     },
     {
       "id": 25,
       "type": "paragraph",
       "sourceHash": "a17f8e5e8bd94f2178884c7d83e8a27cdd7a8cbf987fe30259377b334b45854f",
       "enMarkdown": "It seems obvious. But I've proposed to several VC firms that they set aside some money and designate one partner to make more, smaller bets, and they react as if I'd proposed the partners all get nose rings. It's remarkable how wedded they are to their standard m.o.",
-      "zhMarkdown": "这似乎显而易见。但我曾向几家风险投资机构提议，让他们拨出一笔钱，并指定一名合伙人去进行更多、更小额的投资，他们的反应就像我提议合伙人们都去穿鼻环一样。他们对标准运作方式的执念之深，令人惊叹。"
+      "zhMarkdown": "这道理看似显而易见。但我向几家风投机构提议，让他们拿出一笔资金，指定一位合伙人去投更多、金额更小的案子时，他们的反应就好像我提议让合伙人们全去穿鼻环一样。他们对自己固有的运作方式是如此执迷不悟，实在令人叹为观止。"
     },
     {
       "id": 26,
       "type": "paragraph",
       "sourceHash": "c43f3b1d8fe157194725ee0bcd85c1849d1dddf79a1370e2b0b4ea0292be12ac",
       "enMarkdown": "But there is a big opportunity here, and one way or the other it's going to get filled. Either VCs will evolve down into this gap or, more likely, new investors will appear to fill it. That will be a good thing when it happens, because these new investors will be compelled by the structure of the investments they make to be ten times bolder than present day VCs. And that will get us a lot more Googles. At least, as long as acquirers remain stupid.",
-      "zhMarkdown": "但这里有一个巨大的机会，无论如何这个空白都会被填补。要么风险投资人向下演变进入这个空白，要么更有可能的是，会出现新的投资人来填补它。一旦发生，这将是一件好事，因为这些新投资人由于其投资结构的限制，将被迫比现在的风险投资人大胆十倍。这将会给我们带来更多的 Google。至少，只要收购方继续愚蠢下去就行。"
+      "zhMarkdown": "但这里存在着巨大的机遇，无论如何这个缺口终将被填补。要么风投向下演进填补这片空白，要么——更有可能的是——会出现新的投资人来填补它。一旦发生，这将是一件大好事，因为由其投资结构所决定，这些新投资人将被迫比现在的风投大胆十倍。而那将为我们带来更多的 Google。至少，只要收购方继续犯傻就行。"
     },
     {
       "id": 27,

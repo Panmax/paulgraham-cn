@@ -4,10 +4,10 @@
   "titleZh": "超线性回报",
   "dateText": "October 2023",
   "publishedAt": "2023-10-01",
-  "sourceOrder": 17,
+  "sourceOrder": 19,
   "sourceUrl": "https://paulgraham.com/superlinear.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -182,7 +182,7 @@
       "type": "paragraph",
       "sourceHash": "b8f8e04606d491785e1d9f70151d029880f5085243996eec9863407816e783de",
       "enMarkdown": "But don't overoptimize *what* you're learning. Don't limit yourself to learning things that are already known to be valuable. You're learning; you don't know for sure yet what's going to be valuable, and if you're too strict you'll lop off the outliers.",
-      "zhMarkdown": "但别过度优化你所学的内容。不要把自己局限在那些已经被证明有价值的事情上。既然是在学习，你现在还无法百分之百确定什么才是有价值的，如果你限制得太死，就会把那些潜在的爆发性机会（outliers）拒之门外。"
+      "zhMarkdown": "但不要在学*什么*上面过度优化。不要把自己局限于只学那些公认有价值的东西。你是在学习，现在还无法确知什么才会有价值；若是要求太严苛，就会把那些离群值直接剪除。"
     },
     {
       "id": 26,
@@ -343,7 +343,7 @@
       "type": "paragraph",
       "sourceHash": "735b0dec466ea10e201ca9bad400d2d50d1a8e3a425fcd1be7c7066b74288644",
       "enMarkdown": "What else can we learn from these fields? In all of them you have to put in the initial effort. Superlinear returns seem small at first. *At this rate,* you find yourself thinking, *I'll never get\nanywhere.* But because the reward curve rises so steeply at the far end, it's worth taking extraordinary measures to get there.",
-      "zhMarkdown": "我们还能从这些领域学到什么？在所有这些领域中，你都必须付出初期的努力。超线性回报在刚开始时看起来微乎其微。你可能会想：*照这个速度，我永远也成不了气候。*但由于回报曲线在远端陡峭上升，为了到达那里而采取一些超常规的措施是完全值得的。"
+      "zhMarkdown": "我们还能从这些领域学到什么？在所有这些领域中，你都必须投入前期的努力。超线性回报在起初看起来微不足道。*照这个速度，*你会忍不住想，*我永远也成不了什么气候。*但因为回报曲线在远端上升得如此陡峭，采取非同寻常的举措走到那里是完全值得的。"
     },
     {
       "id": 49,
@@ -483,7 +483,7 @@
       "type": "paragraph",
       "sourceHash": "c408d2ed1f691ddb2cfdecf3886387fed4c654201d6461b46d6db4704aad008d",
       "enMarkdown": "**Thanks** to Trevor Blackwell, Patrick Collison, Tyler Cowen, Jessica Livingston, Harj Taggar, and Garry Tan for reading drafts of this.",
-      "zhMarkdown": "感谢 Trevor Blackwell、Patrick Collison、Tyler Cowen、Jessica Livingston、Harj Taggar 和 Garry Tan 阅读本文的草稿。"
+      "zhMarkdown": "**感谢** Trevor Blackwell、Patrick Collison、Tyler Cowen、Jessica Livingston、Harj Taggar 和 Garry Tan 审阅本文草稿。"
     }
   ]
 }

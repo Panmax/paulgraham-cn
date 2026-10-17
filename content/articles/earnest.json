@@ -4,10 +4,10 @@
   "titleZh": "真诚",
   "dateText": "December 2020",
   "publishedAt": "2020-12-01",
-  "sourceOrder": 38,
+  "sourceOrder": 40,
   "sourceUrl": "https://paulgraham.com/earnest.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -47,9 +47,9 @@
     {
       "id": 6,
       "type": "paragraph",
-      "sourceHash": "56e42417d6368644ccaac43c3f8ed0ab0d2ab0d2bae530b3620361a19fb9623f",
-      "enMarkdown": "A [genuine interest](https://paulgraham.com/genius.html) in something is a very powerful motivator � for some people, the most powerful motivator of all. [[3](#f3n)] Which is why it's what Jessica and I look for in founders. But as well as being a source of strength, it's also a source of vulnerability. Caring constrains you. The earnest can't easily reply in kind to mocking banter, or put on a cool facade of nihil admirari. They care too much. They are doomed to be the straight man. That's a real disadvantage in your [teenage years](https://paulgraham.com/nerds.html), when mocking banter and nihil admirari often have the upper hand. But it becomes an advantage later.",
-      "zhMarkdown": "对某件事的[真正兴趣](https://paulgraham.com/genius.html)是一种非常强大的动力——对某些人来说，甚至是所有动力中最强大的。[[3](#f3n)] 这也是为什么 Jessica 和我要在创始人身上寻找这种品质。但这种品质在成为力量源泉的同时，也是软肋所在。因为在乎会给你带来束缚。真诚的人无法轻易用嘲讽的俏皮话来回击，也无法装出一副看破红尘、无动于衷（nihil admirari）的酷样。他们太在乎了。他们注定只能扮演那个一本正经的角色。在[青少年时期](https://paulgraham.com/nerds.html)，这确实是个劣势，因为那时嘲讽和装酷往往占上风。但到了后期，这就成了优势。"
+      "sourceHash": "d223cae89ecd3007382cf8993c1b0597c706bbb12ffa2b1f23c372d0d4c5c2a0",
+      "enMarkdown": "A [genuine interest](https://paulgraham.com/genius.html) in something is a very powerful motivator — for some people, the most powerful motivator of all. [[3](#f3n)] Which is why it's what Jessica and I look for in founders. But as well as being a source of strength, it's also a source of vulnerability. Caring constrains you. The earnest can't easily reply in kind to mocking banter, or put on a cool facade of nihil admirari. They care too much. They are doomed to be the straight man. That's a real disadvantage in your [teenage years](https://paulgraham.com/nerds.html), when mocking banter and nihil admirari often have the upper hand. But it becomes an advantage later.",
+      "zhMarkdown": "对某件事的[真正兴趣](https://paulgraham.com/genius.html)是一种极其强大的动力——对某些人而言，甚至是一切动力中最强大的。[[3](#f3n)] 这也是为什么杰西卡和我总在创始人身上寻找这一特质。但这不仅是力量的源泉，也是软肋所在。在乎会束缚你。认真实诚的人很难对冷嘲热讽予以还击，也装不出那种对一切无动于衷（nihil admirari）的高冷面孔。他们太在乎了。他们注定只能当那个一本正经的老实人。在[青少年时期](https://paulgraham.com/nerds.html)，这确实是个劣势，因为那时冷嘲热讽和漠然装酷往往占上风。但到了日后，它就会变成一种优势。"
     },
     {
       "id": 7,
@@ -154,7 +154,7 @@
       "type": "paragraph",
       "sourceHash": "aea557b27aceaa04c06d9f6614f867b38c7018820a74f7e07b1ae66f5cbeb63b",
       "enMarkdown": "[1] It's interesting how many different ways there are *not* to be earnest: to be cleverly cynical, to be superficially brilliant, to be conspicuously virtuous, to be cool, to be sophisticated, to be orthodox, to be a snob, to bully, to pander, to be on the make. This pattern suggests that earnestness is not one end of a continuum, but a target one can fall short of in multiple dimensions.",
-      "zhMarkdown": "[1] 很有意思的是，有太多种方式可以让人显得“不真诚”：聪明地愤世嫉俗、表面上的才华横溢、刻意展示道德高尚、装酷、扮世故、墨守成规、自命不凡、霸凌、迎合、投机钻营。这种模式表明，真诚并不是连续光谱的一端，而是一个目标，人们可能会在多个维度上偏离它。"
+      "zhMarkdown": "[1] 很有意思的是，*不*认真的方式居然有这么多种：机巧地愤世嫉俗、肤浅地显露才华、高调地标榜道德、装酷、扮世故、墨守成规、势利逢迎、仗势欺人、迎合讨好、投机钻营。这种规律表明，认真实诚并非某个连续谱系的一端，而是一个目标——人们可能会在许多不同的维度上与之失之交臂。"
     },
     {
       "id": 22,

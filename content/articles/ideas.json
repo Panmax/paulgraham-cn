@@ -4,10 +4,10 @@
   "titleZh": "创业公司的创意来源",
   "dateText": "October 2005",
   "publishedAt": "2005-10-01",
-  "sourceOrder": 178,
+  "sourceOrder": 180,
   "sourceUrl": "https://paulgraham.com/ideas.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -35,7 +35,7 @@
       "type": "paragraph",
       "sourceHash": "517b5a03c32c049ba00ef2c743e0227ccf017339ace74a9aab51becb6053bebc",
       "enMarkdown": "That might seem a stupid thing to ask. Why do they *think* it's hard? If people can't do it, then it *is* hard, at least for them. Right?",
-      "zhMarkdown": "这个问题听起来可能有点傻。他们为什么“觉得”难？如果人们确实想不出来，那这件事就是难的，至少对他们来说是这样，难道不是吗？"
+      "zhMarkdown": "这么问听起来可能很傻。他们为什么会*觉得*难？如果人们做不到，那这件事*就是*很难，至少对他们而言是这样。不是吗？"
     },
     {
       "id": 5,
@@ -49,7 +49,7 @@
       "type": "paragraph",
       "sourceHash": "0a8602e353b50d2b80a97fcd437a5bb1f0bd42dc19195b60ca1dc80045e69daa",
       "enMarkdown": "I think this is often the case. I think people believe that coming up with ideas for startups is very hard-- that it *must* be very hard-- and so they don't try do to it. They assume ideas are like miracles: they either pop into your head or they don't.",
-      "zhMarkdown": "我认为情况往往就是这样。人们总觉得想出创业创意非常难——觉得它“必然”极其困难——所以干脆连试都不试。他们想当然地以为创意就像奇迹一样：要么突然在脑海中蹦出来，要么就永远不会出现。"
+      "zhMarkdown": "我认为情况往往如此。大家总觉得构思创业想法极难——觉得它*一定*极难——于是索性连试都不试。在他们看来，想法就像奇迹一样：要么自己蹦进脑子里，要么就是没有。"
     },
     {
       "id": 7,
@@ -105,7 +105,7 @@
       "type": "paragraph",
       "sourceHash": "1b18aae842a43674d0e196a287ed4686416b1f30d93bcb0f323adee2f48aeb4c",
       "enMarkdown": "A question doesn't seem so challenging. It becomes: let's try making a web-based spreadsheet and see how far we get. And everyone knows that if you tried this you'd be able to make *something* useful. Maybe what you'd end up with wouldn't even be a spreadsheet. Maybe it would be some kind of new spreadsheet-like collaboration tool that doesn't even have a name yet. You wouldn't have thought of something like that except by implementing your way toward it.",
-      "zhMarkdown": "而一个问题看起来就没那么有挑衅性。它变成了：让我们试着做一个网页版表格，看看能走到哪一步。大家都知道，只要你着手去做，总能做出点有用的东西。也许你最终做出来的甚至不是一个表格，而是一种全新的、连名字都还没定下来的协同工具。如果不亲自动手去写代码实现，你根本不可能想到这样的点子。"
+      "zhMarkdown": "而一个问题就不会显得那么咄咄逼人。它变成了：我们不妨做个网页版电子表格试试，看能做到哪一步。人人都知道，只要你真动手去试，总能做出*某些*有用的东西。也许最终做出来的甚至根本不是电子表格，而是某种类似电子表格、甚至连名字都还没有的全新协作工具。若不是在动手实现的过程中一路摸索，你原本根本不可能想到这种东西。"
     },
     {
       "id": 15,
@@ -210,7 +210,7 @@
       "type": "paragraph",
       "sourceHash": "5bf2d54b8967cdbd703f9f194b0d41b5b8aa4a3df1160d5c9134ae8ffa23c767",
       "enMarkdown": "When you realize that successful startups tend to have multiple founders who were already friends, a possible explanation emerges. People's best friends are likely to be of the same sex, and if one group is a minority in some population, *pairs* of them will be a minority squared. [[1](#f1n)]",
-      "zhMarkdown": "当你意识到成功的创业公司往往由原本就是朋友的多位创始人共同创立时，一个可能的解释就浮出水面了。人们最好的朋友通常是同性，如果某个群体在某个总人口中占少数，那么他们“成对出现”的概率就会是少数的平方。[[1](#f1n)]"
+      "zhMarkdown": "当你意识到成功的创业公司往往有多位本就是朋友的创始人时，一种可能的解释就浮现出来了。人们最好的朋友往往是同性，而如果某个群体在总人数中属于少数，那么其中的*两人搭档*在数量上就会是少数的平方。[[1](#f1n)]"
     },
     {
       "id": 30,

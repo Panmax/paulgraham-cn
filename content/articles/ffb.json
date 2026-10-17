@@ -4,10 +4,10 @@
   "titleZh": "反击型过滤器",
   "dateText": "August 2003",
   "publishedAt": "2003-08-01",
-  "sourceOrder": 204,
+  "sourceOrder": 206,
   "sourceUrl": "https://paulgraham.com/ffb.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -49,7 +49,7 @@
       "type": "paragraph",
       "sourceHash": "41ad3016400b7dc9b24d7a781f5c226e45e829e0678b5dbf13ca6897272b49ab",
       "enMarkdown": "If widely used, auto-retrieving spam filters would make the email system *rebound.* The huge volume of the spam, which has so far worked in the spammer's favor, would now work against him, like a branch snapping back in his face. Auto-retrieving spam filters would drive the spammer's [costs](http://www.bork.ca/pics/?path=incoming&img=bill.jpg) up, and his sales down: his bandwidth usage would go through the roof, and his servers would grind to a halt under the load, which would make them unavailable to the people who would have responded to the spam.",
-      "zhMarkdown": "如果被广泛使用，这种具有自动获取功能的垃圾邮件过滤器将让电子邮件系统产生“反弹”效应。垃圾邮件庞大的数量——至今为止一直是垃圾邮件发送者的优势——现在将反过来对付他，就像一根树枝猛地弹回，抽在他自己脸上。自动获取的过滤器会拉高垃圾邮件发送者的[运营成本](http://www.bork.ca/pics/?path=incoming&img=bill.jpg)，并降低其销售额：他的带宽占用会冲上天际，他的服务器会因超载而瘫痪，从而导致那些真正想响应垃圾邮件的人无法访问。"
+      "zhMarkdown": "如果得到广泛应用，具备自动抓取功能的垃圾邮件过滤器会让电子邮件系统产生*反冲*。垃圾邮件的庞大规模至今一直对发送者有利，现在却会反噬自身，就像一根树枝猛地反弹抽在他脸上。具备自动抓取功能的过滤器会推高垃圾邮件发送者的[成本](http://www.bork.ca/pics/?path=incoming&img=bill.jpg)，压低他的销量：他的带宽消耗会飙升至天文数字，服务器也会在过载之下陷入瘫痪，从而导致那些原本可能去回应垃圾邮件的人根本无法访问。"
     },
     {
       "id": 7,

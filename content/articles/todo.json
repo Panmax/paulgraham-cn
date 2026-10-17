@@ -4,10 +4,10 @@
   "titleZh": "我待办事项清单的置顶项",
   "dateText": "April 2012",
   "publishedAt": "2012-04-01",
-  "sourceOrder": 86,
+  "sourceOrder": 88,
   "sourceUrl": "https://paulgraham.com/todo.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,

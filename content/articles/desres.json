@@ -4,10 +4,10 @@
   "titleZh": "设计与学术研究",
   "dateText": "January 2003",
   "publishedAt": "2003-01-01",
-  "sourceOrder": 210,
+  "sourceOrder": 212,
   "sourceUrl": "https://paulgraham.com/desres.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "a19f1317e86d3ea57b4a9ea4a8a150d624643918d0ca91d9982364bcb44ded45",
       "enMarkdown": "The customer *is* always right in the sense that the measure of good design is how well it works for the user. If you make a novel that bores everyone, or a chair that's horribly uncomfortable to sit in, then you've done a bad job, period. It's no defense to say that the novel or the chair is designed according to the most advanced theoretical principles.",
-      "zhMarkdown": "“顾客永远是对的”这句话确实没错，因为衡量设计好坏的标准就是它对用户来说有多好用。如果你写了一部让所有人都觉得沉闷的小说，或者做了一把坐起来极不舒服的椅子，那么你就是把事情搞砸了，仅此而已。这时候，就算你辩解说这部小说或这把椅子是根据最先进的理论原则设计的，也毫无意义。"
+      "zhMarkdown": "就“好设计的评判标准是它对用户有多好用”这一点而言，顾客*确实*永远是对的。如果你写了一部让所有人感到无聊的小说，或者做了一把坐上去极不舒服的椅子，那你就是搞砸了，毫无借口。说这本小说或这把椅子是按照最先进的理论原理设计的，根本算不上什么辩解。"
     },
     {
       "id": 9,
@@ -203,7 +203,7 @@
       "type": "paragraph",
       "sourceHash": "9bc3b7dcb3f3610254b4e43d55052faa1df978896fadce2af4654888464d048e",
       "enMarkdown": "What made oil paint so exciting, when it first became popular in the fifteenth century, was that you could actually make the finished work *from* the prototype. You could make a preliminary drawing if you wanted to, but you weren't held to it; you could work out all the details, and even make major changes, as you finished the painting.",
-      "zhMarkdown": "在 15 世纪油画首次流行时，它之所以如此令人兴奋，是因为你实际上可以直接在原型上创作出成品。如果你愿意，你可以先画一个草图，但你不会被它束缚；在完成画作的过程中，你可以琢磨所有的细节，甚至做出重大的修改。"
+      "zhMarkdown": "油画在十五世纪刚流行开来时，之所以令人如此兴奋，是因为你实际上可以直接*从*原型中做出最终作品。只要你愿意，你可以先画草稿，但你不必受其束缚；在逐步完成画作的过程中，你可以推敲所有细节，甚至做出重大改动。"
     },
     {
       "id": 29,

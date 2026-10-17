@@ -4,10 +4,10 @@
   "titleZh": "对路的那种执着",
   "dateText": "July 2024",
   "publishedAt": "2024-07-01",
-  "sourceOrder": 13,
+  "sourceOrder": 15,
   "sourceUrl": "https://paulgraham.com/persistence.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "be9952ef1b80833a23bf61f2278c9d1ebe498ac6dd5a83aa5d8fc4c951c18b60",
       "enMarkdown": "It's the same with most successful people. They're never *more* engaged than when you disagree with them. Whereas the obstinate don't want to hear you. When you point out problems, their eyes glaze over, and their replies sound like ideologues talking about matters of doctrine. [[2](#f2n)]",
-      "zhMarkdown": "大多数成功人士也是如此。当你跟他们意见相左时，反而是他们最专注、最投入的时候。相反，固执的人根本不想听。当你指出问题时，他们双眼无神，回答起来就像狂热分子在宣读教条。[[2](#f2n)]"
+      "zhMarkdown": "大多数成功人士都是如此。当你跟他们意见相左时，恰恰是他们*最*投入的时候。而固执的人根本不想听。当你指出问题时，他们眼神呆滞，回答听上去就像意识形态信徒在宣讲教条。[[2](#f2n)]"
     },
     {
       "id": 8,
@@ -84,7 +84,7 @@
       "type": "paragraph",
       "sourceHash": "faa650cce8c0188c53d4834a6ebe9a7ff74e30b57922d87e4e9c6efe9a4964a1",
       "enMarkdown": "Worse still, that means they'll tend to be attached to their *first* ideas about how to solve a problem, even though these are the least informed by the experience of working on it. So the obstinate aren't merely attached to details, but disproportionately likely to be attached to wrong ones.",
-      "zhMarkdown": "更糟糕的是，这意味着固执的人往往会死守他们解决问题的“第一直觉”，哪怕这些直觉最缺乏实践经验的检验。因此，固执的人不仅死抠细节，而且极有可能死守着错误的细节不放。"
+      "zhMarkdown": "更糟糕的是，这意味着他们往往会死守解决问题的*最初*想法，哪怕这些想法最缺乏实际操作经验的检验。因此，固执的人不仅执迷于细节，而且极大概率死守的是错误的细节。"
     },
     {
       "id": 12,

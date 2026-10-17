@@ -4,10 +4,10 @@
   "titleZh": "既然 Lisp 这么棒",
   "dateText": "May 2003",
   "publishedAt": "2003-05-01",
-  "sourceOrder": 206,
+  "sourceOrder": 208,
   "sourceUrl": "https://paulgraham.com/iflisp.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -21,14 +21,14 @@
       "type": "paragraph",
       "sourceHash": "41559d0b4133265898df1e2b91238204bacbc1a2b4c5918bf3aafddb74e482b0",
       "enMarkdown": "In languages, as in so many things, there's not much correlation between popularity and quality. Why does John Grisham (*King of Torts* sales rank, 44) outsell Jane Austen (*Pride and Prejudice* sales rank, 6191)? Would even Grisham claim that it's because he's a better writer?",
-      "zhMarkdown": "在语言领域，就像在许多其他事情上一样，流行程度与质量之间并没有太大的关联。为什么约翰·格里森姆（《诉讼之王》销量排名第 44 位）的销量会超过简·奥斯汀（《傲慢与偏见》销量排名第 6191 位）？难道连格里森姆自己也会声称这是因为他是一个更好的作家吗？"
+      "zhMarkdown": "在编程语言中，就像在许多其他事情中一样，流行度与品质之间并没有太大关联。为什么约翰·格里沙姆（《*侵权诉讼之王*》销量排名第 44 位）的销量会远超简·奥斯汀（《*傲慢与偏见*》销量排名第 6191 位）？就连格里沙姆自己会声称这是因为他写得更好吗？"
     },
     {
       "id": 3,
       "type": "paragraph",
       "sourceHash": "d2f10a7e5a6a1af3bfdb1173861e1be02ec23b5a09ac80c24ed292364f0c0311",
       "enMarkdown": "Here's the first sentence of *Pride and Prejudice:*",
-      "zhMarkdown": "以下是《傲慢与偏见》的第一句话："
+      "zhMarkdown": "来看看《*傲慢与偏见*》的第一句话："
     },
     {
       "id": 4,

@@ -4,10 +4,10 @@
   "titleZh": "我的英雄们",
   "dateText": "April 2008",
   "publishedAt": "2008-04-01",
-  "sourceOrder": 139,
+  "sourceOrder": 141,
   "sourceUrl": "https://paulgraham.com/heroes.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -21,7 +21,7 @@
       "type": "paragraph",
       "sourceHash": "b1335cc5d515217e7e3a641b979ac983a1aa8c7c3abce9b20e052f46079cf660",
       "enMarkdown": "I'm not claiming this is a list of the *n* most admirable people. Who could make such a list, even if they wanted to?",
-      "zhMarkdown": "我并不是说这是一份“世界上最令人钦佩的 $n$ 个人”的清单。即便有人想这么做，又有谁能真正列得出来呢？"
+      "zhMarkdown": "我并不是说这是一份包含 *n* 位最令人钦佩之人的清单。就算有人真想列，又有谁能列得出呢？"
     },
     {
       "id": 3,
@@ -91,14 +91,14 @@
       "type": "paragraph",
       "sourceHash": "c4d548ec38a8475d7b6804dd9deefd34293c5e2fe7b2a68e05df3f93790d1a45",
       "enMarkdown": "What really makes him stand out, though, is the quality of his ideas. His style is deceptively casual, but there is more in his books than in a library of art monographs. Reading [The Nude](http://www.amazon.com/Nude-Study-Ideal-Form/dp/0691017883) is like a ride in a Ferrari. Just as you're getting settled, you're slammed back in your seat by the acceleration. Before you can adjust, you're thrown sideways as the car screeches into the first turn. His brain throws off ideas almost too fast to grasp them. Finally at the end of the chapter you come to a halt, with your eyes wide and a big smile on your face.",
-      "zhMarkdown": "不过，真正让他脱颖而出的是他的思想深度。他的行文风格看似随意，但他的书里蕴含的信息量比一整个图书馆的艺术专著还要多。阅读 [_The Nude_](http://www.amazon.com/Nude-Study-Ideal-Form/dp/0691017883) 就像坐上一辆法拉利。你刚坐稳，就会被推背感狠狠压在座椅上。还没等你适应，车子尖叫着拐入第一个弯道，又把你甩向一侧。他的大脑抛出想法的速度快到让人几乎无法招架。最后，在章节结束时，你停了下来，睁大双眼，脸上洋溢着大大的笑容。"
+      "zhMarkdown": "不过，真正让他脱颖而出的是其思想的质地。他的文风看似随性，但他的书里蕴含的内容，比整整一个图书馆的艺术专著还要丰富。读[《裸体艺术》](http://www.amazon.com/Nude-Study-Ideal-Form/dp/0691017883)就像坐进一辆法拉利：你刚坐稳，急加速的推背感就猛地把你压在座椅上；还没等你缓过神，车子伴随着尖锐的胎噪切入第一个弯道，又把你狠狠甩向一侧。他脑子里迸发思想的速度快得让人几乎接不住。直到读完一章停下来时，你已是双眼圆睁，满脸笑容。"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "c878904551d77707b4a5f434913d5670fd965c8b1bbd473f6f5dbe3a43017427",
       "enMarkdown": "Kenneth Clark was a star in his day, thanks to the documentary series [Civilisation](http://www.amazon.com/dp/B000F0UUKA). And if you read only one book about art history, [Civilisation](http://www.abebooks.com/servlet/SearchResults?an=clark&sts=t&tn=civilisation) is the one I'd recommend. It's much better than the drab Sears Catalogs of art that undergraduates are forced to buy for Art History 101.",
-      "zhMarkdown": "肯尼斯·克拉克在他那个时代是一位明星，这要归功于纪录片系列 [_Civilisation_](http://www.amazon.com/dp/B000F0UUKA)。如果你只想读一本关于艺术史的书，我推荐 [_Civilisation_](http://www.abebooks.com/servlet/SearchResults?an=clark&sts=t&tn=civilisation)。它比大学艺术史入门课上强迫学生购买的那些单调沉闷、像西尔斯百货商品目录一样的艺术教材要好得多。"
+      "zhMarkdown": "肯尼斯·克拉克在他那个时代是位明星人物，这要归功于纪录片剧集[《文明》](http://www.amazon.com/dp/B000F0UUKA)。如果你一生只读一本艺术史的书，我推荐的就是这本[《文明》](http://www.abebooks.com/servlet/SearchResults?an=clark&sts=t&tn=civilisation)。它比大学本科生上艺术史入门课时被迫购买的那些像西尔斯百货商品目录一样枯燥乏味的艺术教材好得多。"
     },
     {
       "id": 14,

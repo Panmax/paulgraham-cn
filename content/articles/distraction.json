@@ -4,10 +4,10 @@
   "titleZh": "切断分心源",
   "dateText": "May 2008",
   "publishedAt": "2008-05-01",
-  "sourceOrder": 135,
+  "sourceOrder": 137,
   "sourceUrl": "https://paulgraham.com/distraction.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -119,7 +119,7 @@
       "type": "paragraph",
       "sourceHash": "b76b2841614f1c09c7faadb40520ba9b31b019b66b1f596143917b8dbb8f4349",
       "enMarkdown": "The key seems to be visibility. The biggest ingredient in most bad habits is denial. So you have to make it so that you can't merely *slip* into doing the thing you're trying to avoid. It has to set off alarms.",
-      "zhMarkdown": "关键似乎在于“可见性”。大多数坏习惯中最大的成分就是自我欺骗。所以，你必须做到让你无法只是“不小心滑向”你试图避免做的事情。它必须能拉响警报。"
+      "zhMarkdown": "关键似乎在于可见度。大多数坏习惯中，最大的成分就是自欺。所以你必须做到让自己无法只是*不知不觉滑入*你想避开的事情里。它必须能拉响警报。"
     },
     {
       "id": 18,

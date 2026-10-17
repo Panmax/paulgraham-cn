@@ -4,10 +4,10 @@
   "titleZh": "流行之道",
   "dateText": "May 2001",
   "publishedAt": "2001-05-01",
-  "sourceOrder": 221,
+  "sourceOrder": 223,
   "sourceUrl": "https://paulgraham.com/popular.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -609,7 +609,7 @@
       "type": "paragraph",
       "sourceHash": "fb800e7e898a7ce3f7ba28ca5d5bdcfa9bb15ea33aad27f707c02fed0b39e619",
       "enMarkdown": "The good news is, simple repetition solves the problem. All you have to do is keep telling your story, and eventually people will start to hear. It's not when people notice you're there that they pay attention; it's when they notice you're still there.",
-      "zhMarkdown": "好消息是，简单的重复就能解决问题。你所要做的就是继续讲你的故事，最终人们会开始倾听。人们开始关注，不是在他们注意到你在那里的时候，而是在他们注意到你*还在*那里的时候。"
+      "zhMarkdown": "好消息是，单纯的重复就能解决这个问题。你所要做的就是不断讲述自己的故事，人们最终会开始听进去。人们并不是在刚发现你的存在时就给予关注，而是在发现你一直还在那里时，才会真正重视起来。"
     },
     {
       "id": 87,
@@ -889,7 +889,7 @@
       "type": "paragraph",
       "sourceHash": "4bf1426ae96fbc6885305f4c6279bc6aea1e9a56d3c9f95a1fa570d2f73275eb",
       "enMarkdown": "[2] In *When the Air Hits Your Brain,* neurosurgeon Frank Vertosick recounts a conversation in which his chief resident, Gary, talks about the difference between surgeons and internists (\"fleas\"):",
-      "zhMarkdown": "[2] 在《当空气碰到你的脑子》（When the Air Hits Your Brain）一书中，神经外科医生弗兰克·弗托西克（Frank Vertosick）讲述了一段对话，其中他的总住院医师加里（Gary）谈到了外科医生和内科医生（“跳蚤”）之间的区别："
+      "zhMarkdown": "[2] 在 *When the Air Hits Your Brain* 一书中，神经外科医生弗兰克·弗托斯克（Frank Vertosick）记述了他与总住院医师加里（Gary）的一段对话，加里在其中谈到了外科医生与内科医生（“跳蚤”）之间的区别："
     },
     {
       "id": 127,

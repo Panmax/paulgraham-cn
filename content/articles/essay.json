@@ -4,10 +4,10 @@
   "titleZh": "文章的时代",
   "dateText": "September 2004",
   "publishedAt": "2004-09-01",
-  "sourceOrder": 197,
+  "sourceOrder": 199,
   "sourceUrl": "https://paulgraham.com/essay.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -21,7 +21,7 @@
       "type": "paragraph",
       "sourceHash": "ba1799c8514c18c14d6a9240770e8274e4ab7945f2220c5a22ce3f05ee35a0ef",
       "enMarkdown": "Remember the essays you had to write in high school? Topic sentence, introductory paragraph, supporting paragraphs, conclusion. The conclusion being, say, that Ahab in *Moby Dick* was a Christ-like figure.",
-      "zhMarkdown": "还记得你高中时不得不写的那些文章吗？主题句、引言段、论证段、结论。比如结论是：《白鲸记》中的亚哈船长是一个像基督一样的人物。"
+      "zhMarkdown": "还记得你在高中不得不写的那种文章吗？主题句、引言段、支撑段、结论。比方说，结论是 *Moby Dick* 里的亚哈是个基督般的人物。"
     },
     {
       "id": 4,
@@ -525,7 +525,7 @@
       "type": "paragraph",
       "sourceHash": "3a8aed2b3ee1c8805e33dbfb47faecf167398374c35c5fe133b273c3401a655d",
       "enMarkdown": "In some cases the writing teachers were transformed *in situ* into English professors. Francis James Child, who had been Boylston Professor of Rhetoric at Harvard since 1851, became in 1876 the university's first professor of English.",
-      "zhMarkdown": "在某些情况下，写作教师在原地转型成了英文教授。弗朗西斯·詹姆斯·柴尔德自1851年起在哈佛大学担任博伊尔斯顿修辞学教授，1876年成为该校首位英文教授。"
+      "zhMarkdown": "在某些情况下，教写作的老师被*就地*转变成了英语教授。弗朗西斯·詹姆斯·柴尔德（Francis James Child）自 1851 年起就担任哈佛大学的博伊尔斯顿修辞学教授，到了 1876 年，他成为了该校的第一位英语教授。"
     },
     {
       "id": 76,

@@ -4,10 +4,10 @@
   "titleZh": "如何努力工作",
   "dateText": "June 2021",
   "publishedAt": "2021-06-01",
-  "sourceOrder": 28,
+  "sourceOrder": 30,
   "sourceUrl": "https://paulgraham.com/hwh.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -126,7 +126,7 @@
       "type": "paragraph",
       "sourceHash": "93e414a932b392ffdaebe31f54d02db55d6f155c1d9e13b205ce2682d505c8af",
       "enMarkdown": "I suspect most people have to learn what work is before they can love it. Hardy wrote eloquently about this in *A Mathematician's\nApology*:",
-      "zhMarkdown": "我怀疑大多数人在热爱工作之前，都必须先弄清楚工作到底是什么。哈代在《一个数学家的自白》中对此有过精彩的阐述："
+      "zhMarkdown": "我想大多数人必须先弄清楚真正的工作是什么，然后才能热爱它。哈代在 *《一个数学家的辩白》* 中对此写得非常透彻："
     },
     {
       "id": 18,
@@ -161,7 +161,7 @@
       "type": "paragraph",
       "sourceHash": "5077b84dfcca6c31ccf6542f00f5b19fb07b05aa78013c9bfd68472a8776fdb3",
       "enMarkdown": "There's a kind of solidity to real work. It's not all writing the *Principia*, but it all feels necessary. That's a vague criterion, but it's deliberately vague, because it has to cover a lot of different types. [[4](#f4n)]",
-      "zhMarkdown": "真正的工作有一种坚实感。它不一定非得是写出《自然哲学的数学原理》那样的巨著，但它都让人觉得必不可少。这是一个模糊的标准，但这种模糊是刻意为之的，因为它必须涵盖许多不同的类型。[[4](#f4n)]"
+      "zhMarkdown": "真正的工作带有一种扎实感。倒不是说所有工作都得像撰写 *《原理》* 那样，但它们都让人觉得必不可少。这个标准很模糊，但我就是故意留得这么模糊，因为必须涵盖许多不同的类型。[[4](#f4n)]"
     },
     {
       "id": 23,

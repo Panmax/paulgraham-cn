@@ -4,17 +4,17 @@
   "titleZh": "如今人们是如何变富的",
   "dateText": "April 2021",
   "publishedAt": "2021-04-01",
-  "sourceOrder": 34,
+  "sourceOrder": 36,
   "sourceUrl": "https://paulgraham.com/richnow.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "b0c546f39f1d9f44a95cb5f65725f6191fd515c6da08ed8d118853839c6bd566",
       "enMarkdown": "Every year since 1982, *Forbes* magazine has published a list of the richest Americans. If we compare the 100 richest people in 1982 to the 100 richest in 2020, we notice some big differences.",
-      "zhMarkdown": "自 1982 年以来，《福布斯》杂志每年都会公布一份美国最富有的富豪榜单。如果我们把 1982 年最富有的 100 人与 2020 年最富有的 100 人进行对比，就会发现一些巨大的差异。"
+      "zhMarkdown": "自 1982 年以来，*Forbes* 杂志每年都会发布一份美国富豪榜。如果把 1982 年最富有的 100 人与 2020 年最富有的 100 人做个对比，就会发现一些巨大的差异。"
     },
     {
       "id": 2,
@@ -105,14 +105,14 @@
       "type": "paragraph",
       "sourceHash": "a5da4edc096714fb1e394e40250f36a43e9a074a363d3313690be390968df63b",
       "enMarkdown": "In 1892, the *New York Herald Tribune* compiled a list of all the millionaires in America. They found 4047 of them. How many had inherited their wealth then? Only about 20%, which is less than the proportion of heirs today. And when you investigate the sources of the new fortunes, 1892 looks even more like today. Hugh Rockoff found that \"many of the richest ... gained their initial edge from the new technology of mass production.\" [[4](#f4n)]",
-      "zhMarkdown": "在 1892 年，《纽约先驱论坛报》编制了一份美国所有百万富翁的名单。他们找到了 4047 人。当时有多少人是靠继承财产的？只有大约 20%，比今天继承人的比例还要低。当你去探究新财富的来源时，1892 年看起来和今天更加相似。休·洛考夫发现，“许多最富有的人……最初的优势都来自于大规模生产的新技术。”[[4](#f4n)]"
+      "zhMarkdown": "1892 年，*New York Herald Tribune* 整理了一份全美所有百万富翁的名单。他们总共找到了 4047 人。其中有多少人是继承得来的财富？只有大约 20%，比今天财富继承人的比例还要低。而当你探究那些新财富的来源时，1892 年看起来甚至更像今天。休·罗考夫（Hugh Rockoff）发现，“许多最富有的人……最初的优势都来自大规模生产这项新技术。”[[4](#f4n)]"
     },
     {
       "id": 15,
       "type": "paragraph",
       "sourceHash": "bca65fe9d5440008a9ef0c75f2233b469631673b6c8e3832c1570d9082f09971",
       "enMarkdown": "So it's not 2020 that's the anomaly here, but 1982. The real question is why so few people had gotten rich from starting companies in 1982. And the answer is that even as the *Herald Tribune*'s list was being compiled, a wave of [consolidation](https://paulgraham.com/re.html) was sweeping through the American economy. In the late 19th and early 20th centuries, financiers like J. P. Morgan combined thousands of smaller companies into a few hundred giant ones with commanding economies of scale. By the end of World War II, as Michael Lind writes, \"the major sectors of the economy were either organized as government-backed cartels or dominated by a few oligopolistic corporations.\" [[5](#f5n)]",
-      "zhMarkdown": "所以，反常的不是 2020 年，而是 1982 年。真正的问题在于，为什么在 1982 年，靠创办公司变富的人如此之少。答案是，就在《先驱论坛报》编制那份名单的同时，一波[整合](https://paulgraham.com/re.html)浪潮正席卷美国经济。在 19 世纪末和 20 世纪初，像 J·P·摩根这样的金融家将成千上万的小公司合并成几百家具有绝对规模经济的巨型公司。正如迈克尔·林德所写，到二战结束时，“国民经济的主要部门要么被组织为政府支持的卡特尔，要么被少数寡头垄断企业所主导。”[[5](#f5n)]"
+      "zhMarkdown": "因此，反常的不是 2020 年，而是 1982 年。真正的问题在于，为什么在 1982 年通过创办公司致富的人会如此之少。答案是，就在 *Herald Tribune* 整理那份名单的时候，一场[产业兼并整合](https://paulgraham.com/re.html)的浪潮正席卷美国经济。在 19 世纪末和 20 世纪初，像 J. P. 摩根（J. P. Morgan）这样的金融巨头将数千家较小的公司合并成了几百家拥有压倒性规模效应的庞然大物。正如迈克尔·林德（Michael Lind）所写，到了二战结束时，“国民经济的主要部门要么被组织成政府支持的卡特尔，要么由少数寡头垄断企业把持。”[[5](#f5n)]"
     },
     {
       "id": 16,

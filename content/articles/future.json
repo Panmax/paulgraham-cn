@@ -4,24 +4,24 @@
   "titleZh": "创业融资的未来",
   "dateText": "August 2010",
   "publishedAt": "2010-08-01",
-  "sourceOrder": 104,
+  "sourceOrder": 106,
   "sourceUrl": "https://paulgraham.com/future.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
       "type": "paragraph",
       "sourceHash": "467c1a01347dc37588746178bf51b40707f8df4e7ae11cb4f6f3748dded7c506",
       "enMarkdown": "Two years ago I [wrote](http://www.paulgraham.com/googles.html#next) about what I called \"a huge, unexploited opportunity in startup funding:\" the growing disconnect between VCs, whose current business model requires them to invest large amounts, and a large class of startups that need less than they used to. Increasingly, startups want a couple hundred thousand dollars, not a couple million. [[1](#f1n)]",
-      "zhMarkdown": "两年前，我[写过](http://www.paulgraham.com/googles.html#next)关于我所称的“创业融资中一个巨大的、尚未被开发的机遇”：即风险投资人（VC）与一大批创业公司之间日益扩大的脱节。VC 现有的商业模式要求他们必须大笔投资，而很大一部分创业公司需要的资金却比以前少得多。越来越多的创业公司想要的是几十万美元，而不是几百万美元。[[1](#f1n)]"
+      "zhMarkdown": "两年前，我曾[撰文](http://www.paulgraham.com/googles.html#next)谈到我所谓“创业融资中一个巨大且未被开发的机遇”：风投目前的商业模式要求他们大笔注资，而大批创业公司所需的资金却比以往更少，两者之间的脱节正日益加剧。越来越多的创业公司需要的只是几十万美元，而非几百万。[[1](#f1n)]"
     },
     {
       "id": 2,
       "type": "paragraph",
       "sourceHash": "64e7f7160ab14f8a2c4a0553e889caf44bac6c85b8623d7ac6e8d7c464c0c479",
       "enMarkdown": "The opportunity is a lot less unexploited now. Investors have poured into this territory from both directions. VCs are much more likely to make angel-sized investments than they were a year ago. And meanwhile the past year has seen a dramatic increase in a new type of investor: the super-angel, who operates like an angel, but using other people's money, like a VC.",
-      "zhMarkdown": "现在，这个机遇已经不再那么“尚未被开发”了。投资者正从两个方向涌入这个领域。与一年前相比，VC 现在更有可能进行天使轮规模的投资。与此同时，过去一年里，一种新型投资者急剧增加：超级天使（super-angel）。他们的运作方式像天使投资人，但使用的却是别人的钱，就像 VC 一样。"
+      "zhMarkdown": "如今，这个机遇已经远不再是“未被开发”了。投资者正从两端涌入这片领域。风投现在做天使体量投资的意愿，远高于一年前。与此同时，过去一年中还大幅涌现出一种新型投资者：超级天使（super-angel）——他们的运作方式像天使投资人，用的却是别人的钱，就像风投一样。"
     },
     {
       "id": 3,
@@ -35,28 +35,28 @@
       "type": "paragraph",
       "sourceHash": "a8bb0615bffd0b8ba6dbb34dba3611131b9c453611195dc898a975319522ac2b",
       "enMarkdown": "In fact, it may be good for angels that there are more people doing angel-sized deals, because if angel rounds become more legitimate, then startups may start to opt for angel rounds even when they could, if they wanted, raise series A rounds from VCs. One reason startups prefer series A rounds is that they're more prestigious. But if angel investors become more active and better known, they'll increasingly be able to compete with VCs in brand.",
-      "zhMarkdown": "事实上，有更多人做天使轮规模的交易对天使投资人来说可能是件好事。因为如果天使轮变得更正规、更主流，那么创业公司可能会开始主动选择天使轮，即使他们本可以（如果他们想的话）从 VC 那里融到 A 轮。创业公司更倾向于 A 轮的一个原因在于 A 轮更有面子。但如果天使投资人变得更活跃、名气更大，他们就越来越能在品牌上与 VC 竞争。"
+      "zhMarkdown": "事实上，有更多人参与天使体量的交易，对天使投资人来说或许是件好事。因为如果天使轮变得更具正统性，那么创业公司即便能拿到风投的 A 轮投资，也可能主动选择只融天使轮。创业公司过去青睐 A 轮的一个原因，是它看起来更有声望。但如果天使投资人变得更加活跃、知名度更高，他们就能在品牌号召力上日益与风投分庭抗礼。"
     },
     {
       "id": 5,
       "type": "paragraph",
       "sourceHash": "bc8bf0965aa2b94335cd8fac3d5f4f2e3a75b348f3f24c7054e3d4ceadec9cd9",
       "enMarkdown": "Of course, prestige isn't the main reason to prefer a series A round. A startup will probably get more attention from investors in a series A round than an angel round. So if a startup is choosing between an angel round and an A round from a good VC fund, I usually advise them to take the A round. [[3](#f3n)]",
-      "zhMarkdown": "当然，面子并不是倾向于 A 轮的主要原因。创业公司在 A 轮中可能会比在天使轮中获得投资者更多的关注。因此，如果一家创业公司在天使轮和来自优秀 VC 基金的 A 轮之间做选择，我通常会建议他们拿 A 轮。[[3](#f3n)]"
+      "zhMarkdown": "当然，声望并不是青睐 A 轮的主要原因。创业公司在 A 轮融资中，得到的投资者关注很可能远多于天使轮。因此，如果一家创业公司要在天使轮与顶尖风投机构的 A 轮之间做选择，我通常会建议他们拿 A 轮。[[3](#f3n)]"
     },
     {
       "id": 6,
       "type": "paragraph",
       "sourceHash": "b98a7d3aec53752a406298d2bce41742016f7f41d8287206a8d0e128adea221b",
       "enMarkdown": "But while series A rounds aren't going away, I think VCs should be more worried about super-angels than vice versa. Despite their name, the super-angels are really mini VC funds, and they clearly have existing VCs in their sights.",
-      "zhMarkdown": "不过，虽然 A 轮融资不会消失，但我认为 VC 应该比天使投资人更担心超级天使，而不是相反。超级天使虽然名字叫“天使”，但实际上是微型 VC 基金，而且他们显然已经把现有的 VC 视作竞争对手了。"
+      "zhMarkdown": "不过，尽管 A 轮融资不会消失，但我认为风投更应该提防超级天使，而不是相反。超级天使名义上是天使，实质上却是不折不扣的微型风投机构，而且他们的瞄准镜显然已经对准了现有的风投。"
     },
     {
       "id": 7,
       "type": "paragraph",
       "sourceHash": "679b82abd712e1bf3ea98aecb48e5c717d463e09d895f62161345b69890d4e98",
       "enMarkdown": "They would seem to have history on their side. The pattern here seems the same one we see when startups and established companies enter a new market. Online video becomes possible, and YouTube plunges right in, while existing media companies embrace it only half-willingly, driven more by fear than hope, and aiming more to protect their turf than to do great things for users. Ditto for PayPal. This pattern is repeated over and over, and it's usually the invaders who win. In this case the super-angels are the invaders. Angel rounds are their whole business, as online video was for YouTube. Whereas VCs who make angel investments mostly do it as a way to generate deal flow for series A rounds. [[4](#f4n)]",
-      "zhMarkdown": "历史似乎站在了超级天使这一边。这里的模式与我们看到创业公司和老牌企业进入新市场时一模一样。在线视频变得可行时，YouTube 毫不犹豫地冲了进去，而现有的媒体公司只是半推半就地接受它，驱使他们的更多是恐惧而非希望，其目的更多是为了保住自己的地盘，而不是为用户做伟大的事情。PayPal 也是如此。这种模式一次又一次地重复，而获胜的通常是入侵者。在这种情况下，超级天使就是入侵者。天使轮是他们的全部业务，就像在线视频之于 YouTube 一样。而做天使投资的 VC，大多只是为了给 A 轮融资制造项目源（deal flow）。[[4](#f4n)]"
+      "zhMarkdown": "历史似乎也站在他们这一边。这里的模式，与创业公司和成熟企业进入新市场时我们所见的情形如出一辙。网络视频刚变得可行，YouTube 就毫不犹豫地一头扎了进去；而传统媒体公司却只是半推半就地勉强应付，驱动它们的更多是恐惧而非希望，其目的更多是为了守住自己的地盘，而非为用户做出伟大的产品。PayPal 也是如此。这种模式一次又一次上演，而胜出的往往是入侵者。在当前的局面下，超级天使就是入侵者。天使轮就是他们的全部业务，就像当年的网络视频之于 YouTube。而风投涉足天使投资，大多只是为了给自家 A 轮融资物色案源。[[4](#f4n)]"
     },
     {
       "id": 8,
@@ -70,49 +70,49 @@
       "type": "paragraph",
       "sourceHash": "0d0319fff87a89be2e4d13e778262ea68cffa004d2821055d55c2b0d18743baa",
       "enMarkdown": "**VCs**",
-      "zhMarkdown": "**风险投资人（VC）**"
+      "zhMarkdown": "**风投**"
     },
     {
       "id": 10,
       "type": "paragraph",
       "sourceHash": "03926300f69f9a9ff310b165a3c44ce8e9e8ead194413b9e63a0d2149fa4237d",
       "enMarkdown": "Why don't VCs start doing smaller series A rounds? The sticking point is board seats. In a traditional series A round, the partner whose deal it is takes a seat on the startup's board. If we assume the average startup runs for 6 years and a partner can bear to be on 12 boards at once, then a VC fund can do 2 series A deals per partner per year.",
-      "zhMarkdown": "为什么 VC 不开始做规模小一点的 A 轮融资呢？症结在于董事会席位。在传统的 A 轮融资中，负责这笔交易的合伙人会在创业公司的董事会中占一个席位。如果我们假设一家创业公司平均运营 6 年，而一名合伙人同时最多能忍受担任 12 家公司的董事，那么一个 VC 基金每年每个合伙人只能做 2 笔 A 轮交易。"
+      "zhMarkdown": "为什么风投不去做体量更小的 A 轮呢？症结在于董事会席位。在传统的 A 轮融资中，主投的合伙人要在创业公司的董事会中占有一席之地。假设一家创业公司平均运营 6 年，而一位合伙人最多能同时兼顾 12 个董事席位，那么一家风投机构每位合伙人每年只能做 2 笔 A 轮投资。"
     },
     {
       "id": 11,
       "type": "paragraph",
       "sourceHash": "39fbb0f363e60854fe86a2d7e9f7e6f28e6eda09e1fad4bfdc740c22f1f9f844",
       "enMarkdown": "It has always seemed to me the solution is to take fewer board seats. You don't have to be on the board to help a startup. Maybe VCs feel they need the power that comes with board membership to ensure their money isn't wasted. But have they tested that theory? Unless they've tried not taking board seats and found their returns are lower, they're not bracketing the problem.",
-      "zhMarkdown": "在我看来，解决方案一向是少拿董事会席位。你不需要进入董事会也能帮助创业公司。也许 VC 觉得他们需要董事会成员身份带来的权力，以确保他们的钱不被浪费。但他们验证过这个理论吗？除非他们尝试过不拿董事会席位并发现回报率降低了，否则他们就没有真正摸清这个问题的边界。"
+      "zhMarkdown": "在我看来，解决之道向来都是少要几个董事会席位。要帮助一家创业公司，你未必非得进董事会不可。或许风投们觉得，必须拥有董事会成员的权力，才能确保自己的钱不被打水漂。但他们验证过这个理论吗？除非他们试过不进董事会并发现投资回报确实变低了，否则他们根本就没有摸清问题的边界。"
     },
     {
       "id": 12,
       "type": "paragraph",
       "sourceHash": "c3600af714bb7d8e7ff99745040fcda0f0c281da8510bfbc60be1fb54441c1c6",
       "enMarkdown": "I'm not saying VCs don't help startups. The good ones help them a lot. What I'm saying is that the kind of help that matters, you may not have to be a board member to give. [[5](#f5n)]",
-      "zhMarkdown": "我并不是说 VC 帮不上创业公司。优秀的 VC 对他们的帮助非常大。我想说的是，那种真正起作用的帮助，你可能不需要成为董事会成员就能提供。[[5](#f5n)]"
+      "zhMarkdown": "我并不是说风投帮不上创业公司。优秀的风投能提供极大的帮助。我想说的是，那些真正关键的帮助，未必非得身为董事会成员才能给予。[[5](#f5n)]"
     },
     {
       "id": 13,
       "type": "paragraph",
       "sourceHash": "c3b58b7d4ad31aa97eb4650468cab18cfda7ee7f6db51a0dd20d55aa9cbdbcd7",
       "enMarkdown": "How will this all play out? Some VCs will probably adapt, by doing more, smaller deals. I wouldn't be surprised if by streamlining their selection process and taking fewer board seats, VC funds could do 2 to 3 times as many series A rounds with no loss of quality.",
-      "zhMarkdown": "这一切将如何发展？一些 VC 可能会通过做更多、更小规模的交易来适应。如果 VC 基金通过简化筛选流程和减少董事会席位，在不降低质量的前提下，将 A 轮融资的数量提高 2 到 3 倍，我一点也不会感到惊讶。"
+      "zhMarkdown": "这一切最终会如何演变？一些风投很可能会做出调整，去投资更多、单笔更小的交易。如果通过精简筛选流程、减少董事会席位，风投机构能在保证质量的前提下多做两到三倍的 A 轮投资，我也丝毫不觉得意外。"
     },
     {
       "id": 14,
       "type": "paragraph",
       "sourceHash": "5295f11b12d67596bb6eb7d7fe8dd073877bbf7fb67c74c15245e6a6193f32c0",
       "enMarkdown": "But other VCs will make no more than superficial changes. VCs are conservative, and the threat to them isn't mortal. The VC funds that don't adapt won't be violently displaced. They'll edge gradually into a different business without realizing it. They'll still do what they will call series A rounds, but these will increasingly be de facto series B rounds. [[6](#f6n)]",
-      "zhMarkdown": "但其他 VC 只会做出流于表面的改变。VC 是保守的，而且他们面临的威胁并非致命的。那些不愿适应的 VC 基金不会被暴力取代。他们会在不知不觉中逐渐退入另一种业务。他们依然会做他们称之为 A 轮的融资，但这在事实上将越来越演变为 B 轮融资。[[6](#f6n)]"
+      "zhMarkdown": "但另一些风投只愿做些表面功夫。风投是保守的，而且眼下的威胁也并非生死攸关。那些不愿求变的风投机构不会被猝然淘汰，他们会在不知不觉中悄然滑向另一种业务。他们仍会投自己口中的 A 轮，但这些交易在实质上将越来越像是 B 轮。[[6](#f6n)]"
     },
     {
       "id": 15,
       "type": "paragraph",
       "sourceHash": "60cf717ddff77cc3770e229458e8271e235e330b018325f6bb52447c757c96ee",
       "enMarkdown": "In such rounds they won't get the 25 to 40% of the company they do now. You don't give up as much of the company in later rounds unless something is seriously wrong. Since the VCs who don't adapt will be investing later, their returns from winners may be smaller. But investing later should also mean they have fewer losers. So their ratio of risk to return may be the same or even better. They'll just have become a different, more conservative, type of investment.",
-      "zhMarkdown": "在这样的轮次中，他们拿不到现在能拿到的 25% 到 40% 的公司股份。除非公司出了严重问题，否则在后面的轮次中，你不会让出那么大比例的股份。由于不愿适应的 VC 会在更晚的阶段进行投资，他们从赢家身上获得的回报可能会变小。但更晚的投资也意味着他们踩雷的概率更低。因此，他们的风险回报比可能保持不变，甚至更好。他们只是变成了一种不同、且更保守的投资类型。"
+      "zhMarkdown": "在这样的轮次中，他们拿不到如今这般 25% 到 40% 的股权。除非公司出了大乱子，否则在偏后期的轮次中，创始人是不会让出那么多股份的。既然不求变的风投会把投资轮次延后，那么从赢家身上获得的收益就可能会减少。但后期投资也意味着折戟的项目更少，因此他们的风险收益比或许能够持平，甚至变得更好。他们只不过是变成了一种不同的、更加保守的投资类型而已。"
     },
     {
       "id": 16,
@@ -126,7 +126,7 @@
       "type": "paragraph",
       "sourceHash": "3017bb18ef06ecccdb95d4361aee07d2eabcbbaebff840fbee0ff28b960be6ea",
       "enMarkdown": "In the big angel rounds that increasingly compete with series A rounds, the investors won't take as much equity as VCs do now. And VCs who try to compete with angels by doing more, smaller deals will probably find they have to take less equity to do it. Which is good news for founders: they'll get to keep more of the company.",
-      "zhMarkdown": "在越来越多与 A 轮竞争的大型天使轮融资中，投资者不会像现在的 VC 那样拿走那么多股权。而那些试图通过做更多、更小规模交易来与天使抗衡的 VC，可能会发现他们也必须接受更少的股权。这对创始人来说是个好消息：他们可以保留更多公司的股份。"
+      "zhMarkdown": "在与 A 轮竞争日益激烈的大体量天使轮中，投资者拿走的股权不会有如今风投拿的那么多。而试图通过“多投、小额”来与天使抗衡的风投，很可能也会发现自己必须少拿股权才行。这对创始人来说是个好消息：他们能保住公司更多的股份。"
     },
     {
       "id": 18,
@@ -154,14 +154,14 @@
       "type": "paragraph",
       "sourceHash": "e4851a20a2606fa26ae83cc471351d7d690d9ad0d84e6654143f411b9747ae26",
       "enMarkdown": "There will continue to be lead investors in the sense of investors who take the lead in *advising* a startup. They may also make the biggest investment. But they won't always have to be the one terms are negotiated with, or be the first money in, as they have in the past. Standardized paperwork will do away with the need to negotiate anything except the valuation, and that will get easier too.",
-      "zhMarkdown": "在“为创业公司提供核心建议”这个意义上，领投人依然会存在。他们也可能做出最大的一笔投资。但他们不一定再像过去那样，必须是那个去谈判条款的人，或者必须是第一个把钱打进来的人。标准化的法律文件将免去除了估值之外的一切谈判，而估值也会变得更加容易。"
+      "zhMarkdown": "未来依然会有领投人，但这里的“领投”是指在*指导*创业公司方面起带头作用的投资人。他们可能也是出资最多的人。但他们不再非得像过去那样，既是条款谈判的对象，又是最早注入的资金。标准化的法律文件将免除除了估值以外一切条款的谈判需求，而估值本身的敲定也会变得更容易。"
     },
     {
       "id": 22,
       "type": "paragraph",
       "sourceHash": "7695d6c9aa87fa05d980e8cf75ea0852976ee162b50719f1a6409147003e4aeb",
       "enMarkdown": "If multiple investors have to share a valuation, it will be whatever the startup can get from the first one to write a check, limited by their guess at whether this will make later investors balk. But there may not have to be just one valuation. Startups are increasingly raising money on convertible notes, and convertible notes have not valuations but at most valuation *caps*: caps on what the effective valuation will be when the debt converts to equity (in a later round, or upon acquisition if that happens first). That's an important difference because it means a startup could do multiple notes at once with different caps. This is now starting to happen, and I predict it will become more common.",
-      "zhMarkdown": "如果多个投资者必须共享一个估值，那么这个估值就是创业公司从第一个写支票的人那里拿到的价格，受限于他们对“这是否会让后面的投资者望而却步”的猜测。但估值可能不一定只有一个。创业公司越来越多地通过可转债（convertible notes）融资，而可转债没有估值，最多只有估值上限（caps）：即债务转换为股权时（在后期的融资轮中，或者如果先发生收购的话）的实际估值上限。这是一个重要的区别，因为这意味着创业公司可以同时发行多份具有不同估值上限的可转债。这现在已经开始发生，我预测它会变得更加普遍。"
+      "zhMarkdown": "如果多个投资人必须共用同一个估值，那估值的高低就取决于创业公司能从第一个开支票的人那里争取到多少，上限则取决于他们对这个数字是否会让后续投资人望而却步的推测。但其实未必只能有一个估值。创业公司越来越普遍地通过可转债融资，而可转债没有估值，充其量只有估值*上限*：也就是这笔债权转为股权时（在后续融资轮中，或者若先发生收购则在收购时）有效估值的最高限额。这是一个关键区别，因为它意味着创业公司可以同时签署多份具有不同上限的可转债。这种情况现在已经开始出现，我预测它会变得越来越普遍。"
     },
     {
       "id": 23,
@@ -294,7 +294,7 @@
       "type": "paragraph",
       "sourceHash": "d39b79636a071433c5b705a0e8fd23c918da13a840db4856c712c2a21dba55a9",
       "enMarkdown": "One minor abuse that will get corrected in the process is option pools. In a traditional series A round, before the VCs invest they make the company set aside a block of stock for future hires—usually between 10 and 30% of the company. The point is to ensure this dilution is borne by the existing shareholders. The practice isn't dishonest; founders know what's going on. But it makes deals unnecessarily complicated. In effect the valuation is 2 numbers. There's no need to keep doing this. [[13](#f13n)]",
-      "zhMarkdown": "在这个过程中，一个会被纠正的小弊端是期权池。在传统的 A 轮融资中，在 VC 投资之前，他们会要求公司为未来的员工预留一部分股票——通常在公司股份的 10% 到 30% 之间。其目的是确保这种稀释由现有股东承担。这种做法并非不诚实，创始人心里很清楚。但这让交易变得不必要地复杂。实际上，估值变成了两个数字。没有必要继续这样做了。[[13](#f13n)]"
+      "zhMarkdown": "在此过程中，期权池这一轻微的盘剥现象也将得到纠正。在传统的 A 轮融资中，风投在注资前会强制公司为未来的员工预留一部分股票——通常占公司的 10% 到 30%。其目的是确保这一稀释全由老股东承担。这种做法谈不上不诚实，创始人都心知肚明，但它把交易搞得无谓地复杂，实际上相当于让估值变成了两个数字。根本没必要继续保留这种做法。[[13](#f13n)]"
     },
     {
       "id": 42,
@@ -406,28 +406,28 @@
       "type": "paragraph",
       "sourceHash": "35bb9312edb8ff2dea74e77fcb6874ae31ff90b4189354ad3db59f36d714b5c0",
       "enMarkdown": "[3] As I was writing this, I asked some founders who'd taken series A rounds from top VC funds whether it was worth it, and they unanimously said yes.",
-      "zhMarkdown": "[3] 在写这篇文章时，我问了一些从顶级 VC 基金拿到 A 轮融资的创始人这是否值得，他们一致回答值得。"
+      "zhMarkdown": "[3] 写作本文期间，我问过一些拿了顶级风投机构 A 轮融资的创始人这笔交易是否划算，他们的回答一致是：值得。"
     },
     {
       "id": 58,
       "type": "paragraph",
       "sourceHash": "a6dfadbe6d6a2142e6aa4252919660705276f13660a63ed1d65d6d1246b467b4",
       "enMarkdown": "The quality of investor is more important than the type of round, though. I'd take an angel round from good angels over a series A from a mediocre VC.",
-      "zhMarkdown": "不过，投资者的质量比融资轮次的类型更重要。相比于平庸 VC 的 A 轮，我宁愿拿优秀天使投资人的天使轮。"
+      "zhMarkdown": "不过，投资者的质量远比轮次类型更重要。相比平庸风投的 A 轮，我更愿意拿优秀天使投资人的天使轮。"
     },
     {
       "id": 59,
       "type": "paragraph",
       "sourceHash": "29cca6663f39bb671cdfc14c1d80c8ed02918c27efde6426b6d6a9db34070c9d",
       "enMarkdown": "[4] Founders also worry that taking an angel investment from a VC means they'll look bad if the VC declines to participate in the next round. The trend of VC angel investing is so new that it's hard to say how justified this worry is.",
-      "zhMarkdown": "[4] 创始人还担心，接受 VC 的天使投资意味着，如果该 VC 拒绝参与下一轮融资，他们会显得很难看。VC 做天使投资的趋势非常新，很难说这种担忧有多大道理。"
+      "zhMarkdown": "[4] 创始人还担心，接受风投的天使投资意味着如果该风投拒绝参与下一轮，外界会觉得公司有问题。风投做天使投资这一趋势尚处于萌芽期，因此还很难说这种担忧在多大程度上有道理。"
     },
     {
       "id": 60,
       "type": "paragraph",
       "sourceHash": "042b572b0c702d84a992e00fca65ed37e57dcabebfa78c75d03f368814ea4552",
       "enMarkdown": "Another danger, pointed out by Mitch Kapor, is that if VCs are only doing angel deals to generate series A deal flow, then their incentives aren't aligned with the founders'. The founders want the valuation of the next round to be high, and the VCs want it to be low. Again, hard to say yet how much of a problem this will be.",
-      "zhMarkdown": "米奇·卡普尔（Mitch Kapor）指出的另一个危险是，如果 VC 做天使投资纯粹是为了给 A 轮制造项目源，那么他们的利益就与创始人的利益不一致。创始人希望下一轮的估值高，而 VC 希望估值低。同样，目前很难说这会成为多大的问题。"
+      "zhMarkdown": "米奇·卡普尔（Mitch Kapor）指出的另一个隐患是，如果风投做天使投资纯粹是为了储备 A 轮的项目来源，那么他们的利益诉求与创始人就是不一致的。创始人希望下一轮的估值越高越好，而风投则希望越低越好。这到底会构成多大的问题，目前同样难以断言。"
     },
     {
       "id": 61,
@@ -441,7 +441,7 @@
       "type": "paragraph",
       "sourceHash": "a17a2a6da8fef927dd7e1772d6269a66f8240291841b9d1adf3271cfb894f621",
       "enMarkdown": "[6] Google was in this respect as so many others the pattern for the future. It would be great for VCs if the similarity extended to returns. That's probably too much to hope for, but the returns may be somewhat higher, as I explain later.",
-      "zhMarkdown": "[6] 谷歌在这方面与许多其他方面一样，是未来的榜样。如果这种相似性延伸到回报上，那对 VC 来说就太棒了。这可能期望过高，但回报可能会稍高一些，正如我稍后解释的那样。"
+      "zhMarkdown": "[6] 在这方面，正如在许多其他方面一样，Google 成了未来的样板。如果其投资回报也能与 Google 类似，那对风投来说就太妙了。这大概有点奢望，但回报确实可能会略高一些，正如我稍后会解释的那样。"
     },
     {
       "id": 63,

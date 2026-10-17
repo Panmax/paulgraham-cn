@@ -4,10 +4,10 @@
   "titleZh": "参见《看见随机性》",
   "dateText": "April 2006",
   "publishedAt": "2006-04-01",
-  "sourceOrder": 170,
+  "sourceOrder": 172,
   "sourceUrl": "https://paulgraham.com/randomness.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -63,7 +63,7 @@
       "type": "paragraph",
       "sourceHash": "87fc5a5e5e87b0f8ba5adc56464b27d811692cf8f33325c2194efe225493e347",
       "enMarkdown": "(Few people can experience now what Darwin's contemporaries did when *The Origin of Species* was first published, because everyone now is raised either to take evolution for granted, or to regard it as a heresy. No one encounters the idea of natural selection for the first time as an adult.)",
-      "zhMarkdown": "（现在很少有人能体验到达尔文同时代人在《物种起源》首次出版时的感受了，因为现在每个人在成长过程中，要么把进化论视为理所当然，要么将其视为异端邪说。没有人在成年后才第一次接触到自然选择的概念。）"
+      "zhMarkdown": "（如今很少有人能体会到达尔文同时代人在*《物种起源》*刚出版时的感受，因为现在的每个人在成长过程中，要么把进化论视为理所当然，要么将其当作异端邪说。再也没有人会在成年之后，才第一次接触到自然选择这个概念。）"
     },
     {
       "id": 9,

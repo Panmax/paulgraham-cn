@@ -4,10 +4,10 @@
   "titleZh": "财富税模型推演",
   "dateText": "August 2020",
   "publishedAt": "2020-08-01",
-  "sourceOrder": 43,
+  "sourceOrder": 45,
   "sourceUrl": "https://paulgraham.com/wtax.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,

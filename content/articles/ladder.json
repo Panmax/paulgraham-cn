@@ -4,10 +4,10 @@
   "titleZh": "告别职场天梯",
   "dateText": "August 2005",
   "publishedAt": "2005-08-01",
-  "sourceOrder": 181,
+  "sourceOrder": 183,
   "sourceUrl": "https://paulgraham.com/ladder.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "b4635cfc6d9de7b8412b707e3d1cb76b456bfb1060730e6092add5b4c5078bf1",
       "enMarkdown": "In the movie *Wall Street*, Gordon Gekko ridicules a company overloaded with vice presidents. But the company may not be as corrupt as it seems; those VPs' cushy jobs were probably payment for work done earlier.",
-      "zhMarkdown": "在电影《华尔街》中，戈登·盖柯（Gordon Gekko）嘲笑一家公司副总裁泛滥。但这家公司可能并没有看起来那么腐败；那些副总裁清闲的职位，很可能只是对他们早年付出的补偿。"
+      "zhMarkdown": "在电影 *Wall Street* 中，戈登·盖柯嘲讽过一家副总裁泛滥的公司。但这家公司未必真像看上去那么腐败；那些副总裁的清闲美差，很可能只是对他们早年付出的酬报。"
     },
     {
       "id": 8,

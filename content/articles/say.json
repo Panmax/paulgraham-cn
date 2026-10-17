@@ -4,10 +4,10 @@
   "titleZh": "言之禁忌",
   "dateText": "January 2004",
   "publishedAt": "2004-01-01",
-  "sourceOrder": 203,
+  "sourceOrder": 205,
   "sourceUrl": "https://paulgraham.com/say.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -33,9 +33,9 @@
     {
       "id": 5,
       "type": "paragraph",
-      "sourceHash": "e7dd705e7927ee8f437ba9926c8e8ceb5a27286dc45ce9125340d14948b80702",
-      "enMarkdown": "If you could travel back in a time machine, one thing would be true no matter where you went: you'd have to watch what you said. Opinions we consider harmless could have gotten you in big trouble. I've already said at least one thing that would have gotten me in big trouble in most of Europe in the seventeenth century, and did get Galileo in big trouble when he said it � that the earth moves. [1]",
-      "zhMarkdown": "如果你能坐时光机回到过去，无论去到哪个时代，有一点是肯定的：你必须谨言慎行。我们现在认为无伤大雅的观点，在当时可能会给你带来大麻烦。我已经说了一件如果放在 17 世纪的欧洲大半地区会让我惹上大麻烦的事——而伽利略当年说出这句话时也确实惹了滔天大祸，那就是：地球是运动的。[1]"
+      "sourceHash": "58b1afb2e1bb3a204c2174ba7338df2c7afcec3a89c4fb27ad0e676f614b07a7",
+      "enMarkdown": "If you could travel back in a time machine, one thing would be true no matter where you went: you'd have to watch what you said. Opinions we consider harmless could have gotten you in big trouble. I've already said at least one thing that would have gotten me in big trouble in most of Europe in the seventeenth century, and did get Galileo in big trouble when he said it — that the earth moves. [1]",
+      "zhMarkdown": "如果你能坐时光机回到过去，无论去到哪个时代，有一点都是必然的：你必须谨言慎行。我们今天觉得无伤大雅的观点，在当时可能会招来杀身之祸。我刚才就说了一句话，放在十七世纪的大半个欧洲，足以让我惹上大麻烦——当年伽利略正是因为说了这句话而大祸临头：地球是转动的。[1]"
     },
     {
       "id": 6,
@@ -56,7 +56,7 @@
       "type": "paragraph",
       "sourceHash": "1deb58348be1046a53d82c28870157373667390ef70dd2e113ad74ec105740eb",
       "enMarkdown": "It's tantalizing to think we believe things that people in the future will find ridiculous. What *would* someone coming back to visit us in a time machine have to be careful not to say? That's what I want to study here. But I want to do more than just shock everyone with the heresy du jour. I want to find general recipes for discovering what you can't say, in any era.",
-      "zhMarkdown": "一想到我们现在深信不疑的事情会被未来的人视作荒谬，就让人心痒难耐。一个坐时光机回到现在造访我们的人，必须要小心不能说些什么？这就是我在这篇文章中想探讨的问题。但我不仅仅是想用当下的“异端邪说”来哗众取宠，更想找到一套通用的方法，去发现任何时代里那些“不能说的话”。"
+      "zhMarkdown": "一想到我们今天深信不疑的事情，未来的人会觉得荒谬可笑，就让人心痒难耐。如果真有人坐时光机回到今天，他们*必须*小心翼翼避开不谈的究竟是什么？这正是我在这里想探讨的问题。但我不想只是拿几个当下的异端邪说来哗众取宠。我想找出一种通用的方法，去发现在任何时代你都“不能说出口的话”。"
     },
     {
       "id": 9,
@@ -96,9 +96,9 @@
     {
       "id": 14,
       "type": "paragraph",
-      "sourceHash": "f07e0a45292855a1ed1578b0c51f72c88a3fec8976bcba261ce5fef5af0acffa",
-      "enMarkdown": "If you believe everything you're supposed to now, how can you be sure you wouldn't also have believed everything you were supposed to if you had grown up among the plantation owners of the pre-Civil War South, or in Germany in the 1930s � or among the Mongols in 1200, for that matter? Odds are you would have.",
-      "zhMarkdown": "如果你现在对所有被要求相信的事都深信不疑，那你怎么能确定，如果你是在美国内战前南方的种植园主家庭、或者 1930 年代的德国、又或者是公元 1200 年的蒙古人中长大，你不会同样对当时主流要求相信的一切深信不疑？大概率你也会的。"
+      "sourceHash": "b3f9f3f277eb91a676249651cc8847d9008ff260a4d1c44f0b738fd6e038fae2",
+      "enMarkdown": "If you believe everything you're supposed to now, how can you be sure you wouldn't also have believed everything you were supposed to if you had grown up among the plantation owners of the pre-Civil War South, or in Germany in the 1930s — or among the Mongols in 1200, for that matter? Odds are you would have.",
+      "zhMarkdown": "如果你对当下的主流观念照单全收，你凭什么确信，自己若是成长于内战前夕的美国南方种植园主家庭、1930年代的德国，抑或是1200年的蒙古草原，就不会同样对那时的“正统观念”笃信不疑？大概率你也会照单全收。"
     },
     {
       "id": 15,
@@ -126,7 +126,7 @@
       "type": "paragraph",
       "sourceHash": "f3cb5a30aa5423bbf09b8b5a8d95b21cd146cc2b78a07010c9e9b391cce7aae8",
       "enMarkdown": "Of course, we're not just looking for things we can't say. We're looking for things we can't say that are true, or at least have enough chance of being true that the question should remain open. But many of the things people get in trouble for saying probably do make it over this second, lower threshold. No one gets in trouble for saying that 2 + 2 is 5, or that people in Pittsburgh are ten feet tall. Such obviously false statements might be treated as jokes, or at worst as evidence of insanity, but they are not likely to make anyone mad. The statements that make people mad are the ones they worry might be believed. I suspect the statements that make people maddest are those they worry might be true.",
-      "zhMarkdown": "当然，我们不仅仅是在找不能说的话，而是在找那些*正确*却不能说的话，或者至少有很大可能是正确的、值得保持开放讨论的问题。不过，很多人们因为说出来而惹麻烦的话，大概率确实能通过这第二个、门槛更低的筛选。没有人会因为说“2 + 2 = 5”或者“匹兹堡的人有十英尺高”而惹上麻烦。这种显而易见的荒谬言论顶多被当成笑话，或者被当成精神失常的证据，但绝不会激怒任何人。真正激怒人们的，是那些他们担心会被人相信的话。我怀疑，最让人们恼羞成怒的，恰恰是那些他们担心可能是真的的话。"
+      "zhMarkdown": "当然，我们寻找的不仅是“不能说的话”，更是那些既不能说、却又是真实的观点——或者至少有足够的可能性是真实的，值得保持开放讨论。而许多让人惹上麻烦的话，其实很可能跨过了这道较低的门槛。没人会因为说 2 + 2 = 5，或者说匹兹堡人都长着三米高而惹上麻烦。这种显而易见的荒谬言论顶多被当成笑话，最坏也不过被视为精神失常的证据，绝不可能真正激怒任何人。真正激怒人们的，是那些他们担心会被人相信的话。而我怀疑，最让人火冒三丈的，往往是他们暗暗担心可能是真的话。"
     },
     {
       "id": 19,
@@ -187,9 +187,9 @@
     {
       "id": 27,
       "type": "paragraph",
-      "sourceHash": "fbd03f090653dac15003591db512767e644ab15ff4b32347643272d6ad867073",
-      "enMarkdown": "So another way to figure out which of our taboos future generations will laugh at is to start with the labels. Take a label � \"sexist\", for example � and try to think of some ideas that would be called that. Then for each ask, might this be true?",
-      "zhMarkdown": "因此，要想知道未来的人会嘲笑我们的哪些禁忌，另一个方法是先从这些标签入手。拿一个标签——比如“性别歧视”——然后试着想想有哪些想法会被贴上这个标签。接着，对每一个想法追问：这有没有可能是真的？"
+      "sourceHash": "9e32b14fffff2086b0c024f9f9e3fadf6d9ab472545e38628f45996be0dc767d",
+      "enMarkdown": "So another way to figure out which of our taboos future generations will laugh at is to start with the labels. Take a label — \"sexist\", for example — and try to think of some ideas that would be called that. Then for each ask, might this be true?",
+      "zhMarkdown": "所以，要找出我们今天的哪些禁忌会被后人嘲笑，另一种方法就是从标签入手。挑一个标签——比如“性别歧视”——试着想出一些会被扣上这顶帽子的观点。然后挨个问自己：这有没有可能是真的？"
     },
     {
       "id": 28,
@@ -292,16 +292,16 @@
     {
       "id": 42,
       "type": "paragraph",
-      "sourceHash": "4ff6102bd8bf6d7674fc6754543bb23a1dd1aaa1d2214de0cad22f07f741c63c",
-      "enMarkdown": "I'm not arguing for or against this idea here. It is probably inevitable that parents should want to dress up their kids' minds in cute little baby outfits. I'll probably do it myself. The important thing for our purposes is that, as a result, a well brought-up teenage kid's brain is a more or less complete collection of all our taboos � and in mint condition, because they're untainted by experience. Whatever we think that will later turn out to be ridiculous, it's almost certainly inside that head.",
-      "zhMarkdown": "我在这里并不是要争论这种做法的对错。父母想要用可爱的小衣服把孩子的心灵包装起来，这大概是无法避免的，我自己以后可能也会这么做。对我们的目的而言，最重要的一点是，其结果导致一个教养良好的青少年脑子里装的，几乎就是我们所有禁忌的完整集合——而且还是全新未拆封的，因为它们还没有受到生活经验的污染。我们现在认为理所当然、而以后会显得荒谬的任何想法，几乎肯定都装在那个脑袋里。"
+      "sourceHash": "d20e4ca437b80bf5568ebbfc661ece84b44bada57cd1dd0d20ba2ce2c444b0b8",
+      "enMarkdown": "I'm not arguing for or against this idea here. It is probably inevitable that parents should want to dress up their kids' minds in cute little baby outfits. I'll probably do it myself. The important thing for our purposes is that, as a result, a well brought-up teenage kid's brain is a more or less complete collection of all our taboos — and in mint condition, because they're untainted by experience. Whatever we think that will later turn out to be ridiculous, it's almost certainly inside that head.",
+      "zhMarkdown": "我在这里并不是要批判或赞成这种做法。做父母的大概难免想把孩子的心智装扮进可爱的小襁褓里，我自己以后多半也会这么做。对我们的讨论而言，关键在于：正因如此，一个家教良好的青少年的大脑，几乎就是我们当下所有禁忌的完美陈列馆——而且保存得完好如初，因为它们还没被现实经验沾染过。任何我们今天深信不疑却终将被后世视作荒谬的想法，几乎都能在那颗脑袋里找到。"
     },
     {
       "id": 43,
       "type": "paragraph",
-      "sourceHash": "7fd9990238a73631ac6e40913980ae3d88d63b935d9403f8478c553571cf7f41",
-      "enMarkdown": "How do we get at these ideas? By the following thought experiment. Imagine a kind of latter-day Conrad character who has worked for a time as a mercenary in Africa, for a time as a doctor in Nepal, for a time as the manager of a nightclub in Miami. The specifics don't matter � just someone who has seen a lot. Now imagine comparing what's inside this guy's head with what's inside the head of a well-behaved sixteen year old girl from the suburbs. What does he think that would shock her? He knows the world; she knows, or at least embodies, present taboos. Subtract one from the other, and the result is what we can't say.",
-      "zhMarkdown": "我们如何挖掘这些想法？可以通过以下思想实验。想象一个康拉德小说式的现代人物，他曾在非洲当过雇佣兵，在尼泊尔当过医生，在迈阿密当过夜总会经理。具体细节不重要——只要是一个见多识广的人就行。现在，试着对比这个家伙脑子里的想法，与一个来自郊区、循规蹈矩的十六岁女孩脑子里的想法。他有什么想法是会让她感到震惊的？他了解真实的世界；而她了解、或者说体现了当下的禁忌。用前者减去后者，剩下的就是那些我们不能说的话。"
+      "sourceHash": "897be75aae51c490276a78778bb12e6b6f49e11381e818d5755f40f06e4a14bc",
+      "enMarkdown": "How do we get at these ideas? By the following thought experiment. Imagine a kind of latter-day Conrad character who has worked for a time as a mercenary in Africa, for a time as a doctor in Nepal, for a time as the manager of a nightclub in Miami. The specifics don't matter — just someone who has seen a lot. Now imagine comparing what's inside this guy's head with what's inside the head of a well-behaved sixteen year old girl from the suburbs. What does he think that would shock her? He knows the world; she knows, or at least embodies, present taboos. Subtract one from the other, and the result is what we can't say.",
+      "zhMarkdown": "那我们怎么把这些想法挖掘出来？可以做这样一个思想实验：想象一个现代版的康拉德式人物，他曾去非洲当过雇佣兵，去尼泊尔做过医生，还在迈阿密开过夜总会。具体经历并不重要，总之是个阅历极深的人。现在，试着对比一下这个男人脑子里的想法，与一个来自郊区中产家庭、循规蹈矩的十六岁少女脑子里的想法。他脑中的哪些念头会把她吓坏？他洞悉这世界的真实面貌；而她熟知——或者说肉身践行着——当下的所有禁忌。用前者的认知减去后者的认知，剩下的差额，就是我们不能说出口的话。"
     },
     {
       "id": 44,
@@ -460,9 +460,9 @@
     {
       "id": 66,
       "type": "paragraph",
-      "sourceHash": "cd2bfba573ba7010a8d008759db00be309ee2ab38a030786911617e95f7101cc",
-      "enMarkdown": "It's not only in the sciences that heresy pays off. In any competitive field, you can [win big](https://paulgraham.com/avg.html) by seeing things that others daren't. And in every field there are probably heresies few dare utter. Within the US car industry there is a lot of hand-wringing now about declining market share. Yet the cause is so obvious that any observant outsider could explain it in a second: they make bad cars. And they have for so long that by now the US car brands are antibrands � something you'd buy a car despite, not because of. Cadillac stopped being the Cadillac of cars in about 1970. And yet I suspect no one dares say this. [11] Otherwise these companies would have tried to fix the problem.",
-      "zhMarkdown": "不只是在科学领域，离经叛道能带来回报。在任何竞争性领域，通过看到别人不敢看的东西，你都能[大获全胜](https://paulgraham.com/avg.html)。在每个领域，可能都存在着少数人敢说出口的离经叛道之言。在美国汽车行业，现在很多人都在为市场份额下滑而焦虑。然而原因如此显而易见，任何细心的局外人一秒钟就能解释清楚：他们造的汽车太烂了。而且这种状况持续了太久，以至于现在的美国汽车品牌成了负面标签——买它们是“尽管它是这个牌子”而不是“因为它是这个牌子”。凯迪拉克大约在 1970 年就不再是汽车界的凯迪拉克了。但我怀疑没人敢说出来。[11] 否则，这些公司早就试着解决这个问题了。"
+      "sourceHash": "69ddfb1d8f6c4fe4fe60d33e294e616411fdc6b4739cbf8e5c8766a8c1ab5602",
+      "enMarkdown": "It's not only in the sciences that heresy pays off. In any competitive field, you can [win big](https://paulgraham.com/avg.html) by seeing things that others daren't. And in every field there are probably heresies few dare utter. Within the US car industry there is a lot of hand-wringing now about declining market share. Yet the cause is so obvious that any observant outsider could explain it in a second: they make bad cars. And they have for so long that by now the US car brands are antibrands — something you'd buy a car despite, not because of. Cadillac stopped being the Cadillac of cars in about 1970. And yet I suspect no one dares say this. [11] Otherwise these companies would have tried to fix the problem.",
+      "zhMarkdown": "异端思想不仅在科学界有回报。在任何竞争性领域，只要能看到别人不敢看的事实，你就能[大获全胜](https://paulgraham.com/avg.html)。而在每一个行业里，大概都有少数人敢想却没人敢说出口的“异端邪说”。眼下美国汽车行业正为市场份额下滑而焦头烂额、捶胸顿足。然而原因明摆着，任何有观察力的局外人一秒钟就能说明白：他们造的车太烂了。而且烂了太久，以至于如今的美国汽车品牌都成了反向招牌——人们买它是因为无可奈何，而不是冲着牌子去。凯迪拉克在1970年左右就早不再是汽车界的“顶流象征”了。但我猜业内根本没人敢把这话挑明。[11] 否则这些公司早就动手解决问题了。"
     },
     {
       "id": 67,
@@ -532,7 +532,7 @@
       "type": "paragraph",
       "sourceHash": "c3bbe71e3d266ec9c17e6f1560be2b9a9259d64118f1dee087be7d852da8f3eb",
       "enMarkdown": "I don't think we need the *viso sciolto* so much as the *pensieri stretti.* Perhaps the best policy is to make it plain that you don't agree with whatever zealotry is current in your time, but not to be too specific about what you disagree with. Zealots will try to draw you out, but you don't have to answer them. If they try to force you to treat a question on their terms by asking \"are you with us or against us?\" you can always just answer \"neither\".",
-      "zhMarkdown": "我觉得比起“容开”（viso sciolto），我们更需要的是“意闭”（pensieri stretti）。也许最好的策略是表明你不同意你那个时代流行的任何狂热，但不要太具体地说你不同意什么。狂热分子会试图引诱你表态，但你没必要回答他们。如果他们试图用“你支持我们还是反对我们？”来强迫你按他们的逻辑思考，你大可以回答“都不是”。"
+      "zhMarkdown": "我觉得我们未必需要*viso sciolto*（满面春风），但绝对需要*pensieri stretti*（守口如瓶）。或许最好的策略是：明确表明自己不同意当下的狂热思潮，但不要把自己的反对意见说得太具体。狂热分子会千方百计引诱你表态，但你不必理会。如果他们逼你按他们的非黑即白做选择，质问你“你到底是支持我们还是反对我们？”，你大可回答：“都不是。”"
     },
     {
       "id": 77,
@@ -616,7 +616,7 @@
       "type": "paragraph",
       "sourceHash": "b62104e9fe03a9602686ea0179e0a1faab9c16a93ccf3e7592d07dd0d973f93a",
       "enMarkdown": "To see fashion in your own time, though, requires a conscious effort. Without time to give you distance, you have to create distance yourself. Instead of being part of the mob, stand as far away from it as you can and watch what it's doing. And pay especially close attention whenever an idea is being suppressed. Web filters for children and employees often ban sites containing pornography, violence, and hate speech. What counts as pornography and violence? And what, exactly, is \"hate speech?\" This sounds like a phrase out of *1984.*",
-      "zhMarkdown": "然而，要在你自己的时代看清流行，需要付出自觉的努力。在没有时间给你提供距离的情况下，你必须自己创造距离。不要成为乌合之众的一部分，尽可能离他们远一点，观察他们在做什么。每当一个想法被压制时，都要格外密切地关注。针对儿童和员工的网页过滤器通常会屏蔽包含色情、暴力和仇恨言论的网站。什么算色情和暴力？而“仇恨言论”到底又是什么？这听起来像是《1984》里的词汇。"
+      "zhMarkdown": "然而，要想看清自己身处时代的风潮，则需要付出自觉的努力。既然无法借助时间获得距离，你就必须自己创造出这种距离。与其成为乌合之众的一员，不如尽可能离人群站得远远的，冷眼旁观它在做什么。每当某种思想被压制时，更要打起十二分精神去审视。给儿童和员工使用的网络过滤软件，常常会屏蔽色情、暴力和“仇恨言论”。但究竟什么才算色情与暴力？而“仇恨言论”指的到底又是什么？这听起来简直像是出自《*1984*》里的词汇。"
     },
     {
       "id": 89,

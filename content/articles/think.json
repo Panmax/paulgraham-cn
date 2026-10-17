@@ -4,10 +4,10 @@
   "titleZh": "如何独立思考",
   "dateText": "November 2020",
   "publishedAt": "2020-11-01",
-  "sourceOrder": 41,
+  "sourceOrder": 43,
   "sourceUrl": "https://paulgraham.com/think.html",
-  "translatedAt": "2026-07-08",
-  "model": "gemini-3.5-flash",
+  "translatedAt": "2026-10-17",
+  "model": "google/gemini-3.8-flash",
   "segments": [
     {
       "id": 1,
@@ -26,9 +26,9 @@
     {
       "id": 3,
       "type": "paragraph",
-      "sourceHash": "7e3483dfb331bf395e22cd0367a82e95841a0278e867878aaf99b5563367400a",
-      "enMarkdown": "You see this pattern with startup founders too. You don't want to start a startup to do something that everyone agrees is a good idea, or there will already be other companies doing it. You have to do something that sounds to most other people like a bad idea, but that you know isn't � like writing software for a tiny computer used by a few thousand hobbyists, or starting a site to let people rent airbeds on strangers' floors.",
-      "zhMarkdown": "在创业创始人身上，你也能看到这种模式。你不会想去创办一家做大家都认为是好主意的创业公司，因为那样的话早就有其他公司在做了。你必须去做一些在大多数人听起来像是坏主意、但你却深知并非如此的事情——比如为几千个业余爱好者使用的小型电脑编写软件，或者创办一个让人们租用陌生人家地板上气垫床的网站。"
+      "sourceHash": "de2efa42131d4ecc5f91a19a4d6ea198d6a7a39e096143ba5d953ee73c343121",
+      "enMarkdown": "You see this pattern with startup founders too. You don't want to start a startup to do something that everyone agrees is a good idea, or there will already be other companies doing it. You have to do something that sounds to most other people like a bad idea, but that you know isn't — like writing software for a tiny computer used by a few thousand hobbyists, or starting a site to let people rent airbeds on strangers' floors.",
+      "zhMarkdown": "在创业公司创始人身上，你也能看到这种规律。你肯定不想创办一家公司去干人人都觉得是好点子的事情，否则早就有人在做了。你必须去做一件事，它在大多数人听来像是个馊主意，但你心知肚明并非如此——比如为只有几千名爱好者使用的微型计算机写软件，或者搭建一个让人们租住陌生人家里充气床垫的网站。"
     },
     {
       "id": 4,
@@ -40,9 +40,9 @@
     {
       "id": 5,
       "type": "paragraph",
-      "sourceHash": "0fb13079160eccfccb0b7f830f48b02ceb281b5760cc4114ffdeea3082e48390",
-      "enMarkdown": "But this pattern isn't universal. In fact, it doesn't hold for most kinds of work. In most kinds of work � to be an administrator, for example � all you need is the first half. All you need is to be right. It's not essential that everyone else be wrong.",
-      "zhMarkdown": "但这种模式并非放之四海而皆准。事实上，它并不适用于大多数工作。在大多数工作里——比如做一名行政管理人员——你只需要前半部分。你只需要做对就行。别人都错，并不是必要的。"
+      "sourceHash": "c40e8ae9e66ab1ed549f9f60ccc3519ec6b493a6e5c53e2a37636abb02393884",
+      "enMarkdown": "But this pattern isn't universal. In fact, it doesn't hold for most kinds of work. In most kinds of work — to be an administrator, for example — all you need is the first half. All you need is to be right. It's not essential that everyone else be wrong.",
+      "zhMarkdown": "但这种模式并非放之四海而皆准。事实上，它对大多数工作都不适用。在大多数工作中——比如做一名行政管理者——你只需要做到前半部分：只要正确就行。别人全都错了并不是必要的。"
     },
     {
       "id": 6,
@@ -194,9 +194,9 @@
     {
       "id": 27,
       "type": "paragraph",
-      "sourceHash": "6657db2e06fc29d00b0aaa726b8bf1de71631fb7b0efc8ec7e2883f22870512e",
-      "enMarkdown": "To go beyond this general advice, we need to look at the internal structure of independent-mindedness � at the individual muscles we need to exercise, as it were. It seems to me that it has three components: fastidiousness about truth, resistance to being told what to think, and curiosity.",
-      "zhMarkdown": "为了超越这些一般性的建议，我们需要看看独立思考能力的内部结构——也就是说，我们需要锻炼哪些具体的肌肉。在我看来，它由三个部分组成：对真相的挑剔、抗拒被告知怎么想，以及好奇心。"
+      "sourceHash": "30c655b4f693cf2b4c45b1038bdcfe7457a040af3db024dfe8abd772c9ede1ba",
+      "enMarkdown": "To go beyond this general advice, we need to look at the internal structure of independent-mindedness — at the individual muscles we need to exercise, as it were. It seems to me that it has three components: fastidiousness about truth, resistance to being told what to think, and curiosity.",
+      "zhMarkdown": "要超越这些宽泛的建议，我们需要审视独立思考的内部结构——不妨说是我们需要锻炼的各项肌肉。在我看来，它由三个要素构成：对真理的严谨挑剔、抗拒被别人教唆该如何思考，以及好奇心。"
     },
     {
       "id": 28,
@@ -236,9 +236,9 @@
     {
       "id": 33,
       "type": "paragraph",
-      "sourceHash": "4f253173bad3ec4ce0ae785f90ff1c090d94c9372d7a2853476167948e0645f8",
-      "enMarkdown": "Some of the most novel ideas seemed at the time almost like practical jokes. Think how often your reaction to a novel idea is to laugh. I don't think it's because novel ideas are funny per se, but because novelty and humor share a certain kind of surprisingness. But while not identical, the two are close enough that there is a definite correlation between having a sense of humor and being independent-minded � just as there is between being humorless and being conventional-minded. [[9](#f9n)]",
-      "zhMarkdown": "一些最新颖的想法在当时看起来几乎就像恶作剧。想想你对一个新颖的想法的反应有多少次是笑。我不认为这是因为新颖的想法本身很有趣，而是因为新颖和幽默共享某种令人惊讶的特征。虽然不完全等同，但两者关系足够密切，以至于拥有幽默感和独立思考能力之间存在着明显的关联——就像缺乏幽默感和思想守旧之间存在关联一样。[[9](#f9n)]"
+      "sourceHash": "632395fb72772ca08a377a37b1e9436f55b2d7999f35c76cd298c355ccf694dc",
+      "enMarkdown": "Some of the most novel ideas seemed at the time almost like practical jokes. Think how often your reaction to a novel idea is to laugh. I don't think it's because novel ideas are funny per se, but because novelty and humor share a certain kind of surprisingness. But while not identical, the two are close enough that there is a definite correlation between having a sense of humor and being independent-minded — just as there is between being humorless and being conventional-minded. [[9](#f9n)]",
+      "zhMarkdown": "有些最新颖的想法，在当时看来几乎就像恶作剧。想想看，你对一个新奇想法的反应有多大比例是笑出声来。我不认为这是因为新想法本身有多搞笑，而是因为新颖和幽默共享了某种出人意料的特质。虽然二者并不等同，但它们足够接近，以至于拥有幽默感和善于独立思考之间存在着明确的相关性——正如毫无幽默感与因循守旧之间也同样存在相关性一样。[[9](#f9n)]"
     },
     {
       "id": 34,
@@ -404,9 +404,9 @@
     {
       "id": 57,
       "type": "paragraph",
-      "sourceHash": "e3c649d354aefb91c04b2341691df4fa38e01b657a988f5bd8441ee86784fee0",
-      "enMarkdown": "[9] This correlation is far from perfect, though. G�del and Dirac don't seem to have been very strong in the humor department. But someone who is both \"neurotypical\" and humorless is very likely to be conventional-minded.",
-      "zhMarkdown": "[9] 不过，这种相关性远非完美。哥德尔和狄拉克在幽默感方面似乎不是很强。但是一个既“神经典型”又缺乏幽默感的人，很可能是思想守旧的。"
+      "sourceHash": "0a4efc7786c90f2069c99adbb2d664f258dacbac2096ee7df95fe6e89555cbe0",
+      "enMarkdown": "[9] This correlation is far from perfect, though. Gödel and Dirac don't seem to have been very strong in the humor department. But someone who is both \"neurotypical\" and humorless is very likely to be conventional-minded.",
+      "zhMarkdown": "[9] 不过，这种相关性远非绝对。哥德尔（Gödel）和狄拉克（Dirac）在幽默感方面似乎都不太灵光。但一个人如果既“神经发育正常”（neurotypical）又缺乏幽默感，那他极大概率是个因循守旧的人。"
     },
     {
       "id": 58,
