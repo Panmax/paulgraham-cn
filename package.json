@@ -11,11 +11,13 @@
     "preview": "astro preview",
     "translate": "tsx pipeline/index.ts",
     "tag": "tsx scripts/tag-articles.ts",
+    "summarize": "tsx scripts/summarize.ts",
     "fonts": "tsx scripts/subset-fonts.ts",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.0.6",
     "cheerio": "^1.2.0",
     "domhandler": "^5.0.3",

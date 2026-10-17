@@ -27,6 +27,9 @@ npm run translate -- --limit=10         # first N from the source list
 # Tagging (needs OPENROUTER_API_KEY) — see "Tags" below
 npm run tag                             # re-tag every article, rewrites content/tags.json
 
+# Summaries (needs OPENROUTER_API_KEY) — see "Summaries" below
+npm run summarize                       # rewrite content/summaries.json
+
 # Translation QA (no API calls) — see "Translation QA" below
 npx tsx scripts/qa-translations.ts               # sweep all 229 articles
 npx tsx scripts/qa-translations.ts --all         # print every finding, not 6
@@ -86,6 +89,12 @@ The site side is `src/lib/tags.ts` (Zod-parsed at module load, so a malformed fi
 
 `src/lib/tags.test.ts` is what keeps the map honest: every article on disk is tagged, no entry points at a missing article, no tag is empty (a chip to an empty page is worse than no chip). A rename or a new essay otherwise leaves `content/tags.json` silently stale.
 
+## Summaries (scripts/summarize.ts + content/summaries.json)
+
+`content/summaries.json` holds a 2-3 sentence Chinese standfirst per article, displayed under the title and used as the meta description (`articleDescription` in `src/lib/excerpt.ts` is the fallback). It is editorial metadata in its own file, for the same reason tags are: `npm run translate` must never rewrite it, and hand corrections should survive a translation run.
+
+`npm run summarize` regenerates the whole file from the article's first three translated paragraphs, batched through the same OpenRouter model. Review the diff — a summary must not add anything the translation does not say. `src/lib/summaries.ts` parses the file with Zod at module load, so a malformed file fails the build.
+
 ## Shared schema (shared/article-schema.ts)
 
 `ArticleSchema` (Zod) is the contract used by **both** halves: the pipeline validates what it writes, and Astro's content collection (`src/content.config.ts`) validates what it reads via `glob({ pattern: "*.json", base: "content/articles" })`. Change a field here and you must update both sides. `isTranslatable()` / `TRANSLATABLE_TYPES` live here and gate behavior across pipeline and site.
@@ -93,6 +102,8 @@ The site side is `src/lib/tags.ts` (Zod-parsed at module load, so a malformed fi
 ## The site (src/)
 
 - `src/pages/[slug].astro` renders each article; `getStaticPaths` reads the `articles` collection. `astro.config.mjs` sets `build.format: "file"` so pages emit as `dist/earn.html`, not `dist/earn/index.html`.
+- **`src/pages/404.astro` is load-bearing.** Cloudflare Pages treats a build with no top-level `404.html` as an SPA and serves `/` with a 200 for every unknown path — soft 404s that put infinite duplicate URLs into the index. Do not delete the 404 page.
+- `@astrojs/sitemap` emits `sitemap-index.xml` from `site`; `public/robots.txt` points at it. Article pages carry `Article` JSON-LD and the home page a `WebSite`/`Organization` graph, both built in the page components and rendered by `Base.astro`.
 - **Link and canonical to the extensionless form** (`/earn`, not `/earn.html`). Cloudflare Pages serves `dist/earn.html` at `/earn` and 308-redirects the `.html` form to it, so the `.html` spelling costs every click a round trip and makes the canonical name a redirect source. `preferTranslatedArticleUrl` still *matches* `.html` on the incoming paulgraham.com URL, which genuinely has it.
 - `src/components/ArticleBody.astro` renders each segment as stacked Chinese + English blocks. The **双语对照 (bilingual)** toggle in `[slug].astro` flips `document.body.dataset.read` between `zh` and `bilingual`, persisted to `localStorage`; CSS shows/hides `.seg-en` accordingly.
 - `src/lib/markdown.ts` renders segment markdown through unified/remark/rehype **with `rehypeSanitize`** — segment HTML is always sanitized, `allowDangerousHtml: false`.

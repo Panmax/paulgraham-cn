@@ -6,6 +6,9 @@ import TagChips from "../components/TagChips.astro";
 import { sortArticles } from "../lib/sort.js";
 import { withNeighbors } from "../lib/adjacent.js";
 import { tagsFor } from "../lib/tags.js";
+import { tagById } from "../../shared/tags.js";
+import { articleDescription } from "../lib/excerpt.js";
+import { summaryFor } from "../lib/summaries.js";
 
 export async function getStaticPaths() {
   const entries = await getCollection("articles");
@@ -17,15 +20,75 @@ export async function getStaticPaths() {
 }
 const { article, prev, next, translatedSlugs } = Astro.props;
 const canonical = `https://paulgraham-cn.com/${article.slug}`;
+const summary = summaryFor(article.slug);
+const description = summary ?? articleDescription(article);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: article.titleZh,
+  alternativeHeadline: article.titleEn,
+  inLanguage: "zh-CN",
+  mainEntityOfPage: canonical,
+  url: canonical,
+  description,
+  author: {
+    "@type": "Person",
+    name: "Paul Graham",
+    url: "https://paulgraham.com/",
+    sameAs: "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)",
+  },
+  translator: {
+    "@type": "Organization",
+    name: "Paul Graham 中文",
+    url: "https://paulgraham-cn.com/",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Paul Graham 中文",
+    url: "https://paulgraham-cn.com/",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://paulgraham-cn.com/apple-touch-icon.png",
+      width: 180,
+      height: 180,
+    },
+  },
+  ...(article.publishedAt ? { datePublished: article.publishedAt } : {}),
+  dateModified: article.translatedAt,
+  translationOfWork: {
+    "@type": "Article",
+    name: article.titleEn,
+    url: article.sourceUrl,
+    inLanguage: "en",
+  },
+  keywords: tagsFor(article.slug).map((id) => tagById(id)?.zh).filter(Boolean),
+};
 ---
-<Base title={article.titleZh} description={article.titleEn} canonical={canonical}>
+<Base
+  title={article.titleZh}
+  description={description}
+  canonical={canonical}
+  type="article"
+  jsonLd={jsonLd}
+  publishedTime={article.publishedAt ?? undefined}
+  modifiedTime={article.translatedAt}
+>
   <main class="article">
-    <p class="kicker">{article.dateText} · Paul Graham</p>
+    <p class="kicker">
+      {article.publishedAt ? (
+        <><time datetime={article.publishedAt}>{article.dateText}</time> ·{" "}</>
+      ) : article.dateText ? (
+        <>{article.dateText} ·{" "}</>
+      ) : null}
+      Paul Graham
+    </p>
     <h1 class="article-title">{article.titleZh}</h1>
+    <p class="article-title-en" lang="en">{article.titleEn}</p>
+    {summary && <p class="article-summary">{summary}</p>}
     <hr class="title-rule" />
     <div class="article-tags"><TagChips ids={tagsFor(article.slug)} /></div>
     <div class="article-meta">
-      <a href={article.sourceUrl} rel="nofollow">原文</a>
+      <a href={article.sourceUrl}>英文原文</a>
       <button id="read-toggle" aria-pressed="false">双语对照</button>
     </div>
     <ArticleBody segments={article.segments} translatedSlugs={translatedSlugs} />

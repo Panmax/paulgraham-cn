@@ -49,6 +49,10 @@ main.article, main.home { max-width:var(--measure); margin:0 auto; padding:3rem 
   text-transform:uppercase; color:var(--muted); margin:0 0 1rem; }
 .article-title { text-align:center; font-family:var(--zh); font-weight:700; font-size:2.35rem;
   line-height:1.35; margin:0 auto; max-width:20ch; }
+.article-title-en { text-align:center; font-family:var(--en); font-style:italic; font-size:1rem;
+  color:var(--muted); margin:.45rem auto 0; max-width:30rem; }
+.article-summary { max-width:30rem; margin:1.1rem auto 0; font-family:var(--zh); font-size:.92rem;
+  line-height:1.9; color:var(--muted); }
 .title-rule { width:56px; border:0; border-top:1px solid var(--rule); margin:1.4rem auto 1.8rem; }
 .article-meta { display:flex; gap:1rem; justify-content:center; align-items:center;
   color:var(--muted); font-family:var(--en); font-size:.9rem; margin-bottom:2.6rem; }
@@ -90,6 +94,8 @@ body[data-read="bilingual"] .seg-en { display:block; margin-top:.4rem; }
 .home-mast { text-align:center; margin-bottom:2.5rem; }
 .home-mast h1 { font-family:var(--zh); font-weight:700; font-size:1.9rem; margin:0; }
 .home-sub { font-family:var(--en); font-style:italic; color:var(--muted); margin:.5rem 0 1.4rem; }
+.home-intro { font-family:var(--zh); font-size:.9rem; line-height:1.9; color:var(--muted);
+  max-width:32rem; margin:0 auto 1.6rem; }
 /* The search sits between the masthead and the list, so it owns the gap below
    itself — the masthead's margin only separates it from the header above. */
 .home-search { display:block; text-align:center; margin-bottom:2.5rem; }

@@ -1,6 +1,16 @@
 ---
-interface Props { title: string; description?: string; canonical?: string }
-const { title, description, canonical } = Astro.props;
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  type?: "website" | "article";
+  jsonLd?: Record<string, unknown>;
+  publishedTime?: string;
+  modifiedTime?: string;
+}
+const {
+  title, description, canonical, type = "website", jsonLd, publishedTime, modifiedTime,
+} = Astro.props;
 import "../styles/global.css";
 import fontManifest from "../../public/fonts/manifest.json";
 const zh = (fontManifest as { files: { regular: string; bold: string } }).files;
@@ -16,6 +26,19 @@ const zh = (fontManifest as { files: { regular: string; bold: string } }).files;
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content={type} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:site_name" content="Paul Graham 中文" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta name="twitter:card" content="summary" />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+    {jsonLd && (
+      <script type="application/ld+json"
+        set:html={JSON.stringify(jsonLd).replace(/</g, "\\u003c")} />
+    )}
     <!-- The body face is ~1.5MB, so start it before the CSS is parsed rather
          than letting the swap-in happen a beat after first paint. -->
     <link rel="preload" href={zh.regular} as="font" type="font/woff2" crossorigin />

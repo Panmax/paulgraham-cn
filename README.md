@@ -27,6 +27,10 @@ Paul Graham's own site has no categories, so the topics here are editorial. The 
 npm run tag       # re-tag every article from the fixed vocabulary (needs OPENROUTER_API_KEY)
 ```
 
+## Summaries
+
+`content/summaries.json` holds a short Chinese standfirst per article, shown under the title and used as the meta description. Regenerate it with `npm run summarize` (needs `OPENROUTER_API_KEY`) and review the diff.
+
 `npm run tag` rewrites `content/tags.json` wholesale — hand corrections are lost, so re-run it only when the vocabulary itself changes and review the diff. It is deliberately not part of `npm run translate`: the translation pipeline is incremental over segment `sourceHash` and must never touch curated tags.
 
 ## Fonts

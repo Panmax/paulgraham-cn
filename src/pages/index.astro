@@ -9,12 +9,46 @@ import { groupByYear } from "../lib/group.js";
 const entries = await getCollection("articles");
 const articles = entries.map((e) => e.data);
 const groups = groupByYear(sortArticles(articles));
+
+const canonical = "https://paulgraham-cn.com/";
+const description = `Paul Graham（保罗·格雷厄姆，Y Combinator 联合创始人）${articles.length} 篇文章的中文翻译，逐段中英对照，按年份与主题浏览。`;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://paulgraham-cn.com/#website",
+      url: canonical,
+      name: "Paul Graham 中文",
+      alternateName: "Paul Graham 文集（中文）",
+      description,
+      inLanguage: "zh-CN",
+      publisher: { "@id": "https://paulgraham-cn.com/#organization" },
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://paulgraham-cn.com/#organization",
+      url: canonical,
+      name: "Paul Graham 中文",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://paulgraham-cn.com/apple-touch-icon.png",
+        width: 180,
+        height: 180,
+      },
+    },
+  ],
+};
 ---
-<Base title="Paul Graham 文集（中文）" description="Paul Graham 文章的中文翻译">
+<Base title="Paul Graham 文集（中文）" description={description} canonical={canonical} jsonLd={jsonLd}>
   <main class="home">
     <header class="home-mast">
       <h1>Paul Graham 文集</h1>
       <p class="home-sub">共 {articles.length} 篇 · 中文翻译</p>
+      <p class="home-intro">
+        Paul Graham（保罗·格雷厄姆）是 Y Combinator 联合创始人、《黑客与画家》作者。
+        这里收录他的随笔，逐段中英对照，按年份和主题整理。
+      </p>
       <TagChips />
     </header>
     <ArticleIndex groups={groups} />

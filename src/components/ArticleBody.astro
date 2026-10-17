@@ -20,12 +20,12 @@ const rendered = await Promise.all(segments.map(async (s) => {
     r.kind === "original" ? (
       <div class="seg seg--original">
         <span class="seg-mark">未译原文</span>
-        <div set:html={r.html} />
+        <div lang="en" set:html={r.html} />
       </div>
     ) : (
       <div class="seg">
         <div class="seg-zh" set:html={r.zh} />
-        <div class="seg-en" set:html={r.en} />
+        <div class="seg-en" lang="en" set:html={r.en} />
       </div>
     )
   )}
