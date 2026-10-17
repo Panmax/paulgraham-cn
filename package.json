@@ -10,6 +10,7 @@
     "build": "tsx scripts/verify-fonts.ts && astro build",
     "preview": "astro preview",
     "translate": "tsx pipeline/index.ts",
+    "tag": "tsx scripts/tag-articles.ts",
     "fonts": "tsx scripts/subset-fonts.ts",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest"

@@ -24,6 +24,9 @@ npm run translate                       # all essays (incremental)
 npm run translate -- --only=earn,greatwork
 npm run translate -- --limit=10         # first N from the source list
 
+# Tagging (needs OPENROUTER_API_KEY) — see "Tags" below
+npm run tag                             # re-tag every article, rewrites content/tags.json
+
 # Translation QA (no API calls) — see "Translation QA" below
 npx tsx scripts/qa-translations.ts               # sweep all 229 articles
 npx tsx scripts/qa-translations.ts --all         # print every finding, not 6
@@ -66,13 +69,31 @@ Mechanical sweep over every stored translation — no API calls. It reuses `vali
 
 `TERM_RULES` encodes one English term → one Chinese term and is what `--blank-terms` acts on. It exists because the glossary is guidance the model follows *most* of the time: `VC` had drifted into three renderings (风投 / 风险投资 / literal `VC`) across ~400 segments. The rules are checked per segment, so only the drifted ones are re-translated. Note `VC → 风投` but `venture capital → 风险投资` — the abbreviation takes the abbreviation, the full term takes the full term. Do not "fix" this by collapsing them into one term: `风投` often refers to the investors themselves, and expanding it to `风险投资` there reads as broken Chinese.
 
+## Tags (shared/tags.ts + content/tags.json + scripts/tag-articles.ts)
+
+Paul Graham's own site has no categories — his index is a flat reverse-chronological list — so the topics are **editorial judgement, not a structure recovered from the source**. Worth saying out loud before anyone treats a tag as a fact about the essay.
+
+The split is deliberate and load-bearing:
+
+- **The vocabulary is code** (`shared/tags.ts`): 11 tags, each with `zh` (display), `en`, and a `hint` that serves as both the prompt's definition and the tag page's one-line description. The tagger, the chip order, and the font subsetting all read from it, so they cannot drift apart.
+- **The assignments are data** (`content/tags.json`): `{ articles: { slug: [tagId] } }`, 1-3 tags each.
+
+Tags are **not** in the article JSON and the tagger is **not** part of `npm run translate`. The pipeline's incremental machinery is entirely segment/`sourceHash`-based; an article-level field would force changes to `ArticleSchema`, `articleContentEqual` (the idempotence gate) and the write path, and every tag edit would make a later `npm run translate` report that article as `updated`. A separate file that only `scripts/tag-articles.ts` writes means a translation run can never rewrite a hand-corrected classification.
+
+`npm run tag` regenerates the whole file, so hand corrections are lost on re-run. That is intentional — you only re-run when the vocabulary changes, and then you are redoing the assignments anyway. Git is the undo. Expect to review the diff: the model gets the large majority right, but it over-assigns the biggest bucket (`创业`), so check the members of `startups` first.
+
+The site side is `src/lib/tags.ts` (Zod-parsed at module load, so a malformed file fails the build), `src/components/TagChips.astro` (used three ways: full list on the homepage, full list with the current one marked on a tag page, just the article's own tags on an article page), and `src/pages/tag/[tag].astro`. Tag pages reuse `groupByYear` + `sortArticles` + `ArticleIndex.astro` — the same year-grouped list and title search as the homepage, so `/tag/startups` is browsable and searchable the same way `/` is.
+
+`src/lib/tags.test.ts` is what keeps the map honest: every article on disk is tagged, no entry points at a missing article, no tag is empty (a chip to an empty page is worse than no chip). A rename or a new essay otherwise leaves `content/tags.json` silently stale.
+
 ## Shared schema (shared/article-schema.ts)
 
 `ArticleSchema` (Zod) is the contract used by **both** halves: the pipeline validates what it writes, and Astro's content collection (`src/content.config.ts`) validates what it reads via `glob({ pattern: "*.json", base: "content/articles" })`. Change a field here and you must update both sides. `isTranslatable()` / `TRANSLATABLE_TYPES` live here and gate behavior across pipeline and site.
 
 ## The site (src/)
 
-- `src/pages/[slug].astro` renders each article; `getStaticPaths` reads the `articles` collection. `astro.config.mjs` sets `build.format: "file"` so pages emit as `/earn.html`, not `/earn/index.html`.
+- `src/pages/[slug].astro` renders each article; `getStaticPaths` reads the `articles` collection. `astro.config.mjs` sets `build.format: "file"` so pages emit as `dist/earn.html`, not `dist/earn/index.html`.
+- **Link and canonical to the extensionless form** (`/earn`, not `/earn.html`). Cloudflare Pages serves `dist/earn.html` at `/earn` and 308-redirects the `.html` form to it, so the `.html` spelling costs every click a round trip and makes the canonical name a redirect source. `preferTranslatedArticleUrl` still *matches* `.html` on the incoming paulgraham.com URL, which genuinely has it.
 - `src/components/ArticleBody.astro` renders each segment as stacked Chinese + English blocks. The **双语对照 (bilingual)** toggle in `[slug].astro` flips `document.body.dataset.read` between `zh` and `bilingual`, persisted to `localStorage`; CSS shows/hides `.seg-en` accordingly.
 - `src/lib/markdown.ts` renders segment markdown through unified/remark/rehype **with `rehypeSanitize`** — segment HTML is always sanitized, `allowDangerousHtml: false`.
 

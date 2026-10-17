@@ -2,8 +2,10 @@
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import ArticleBody from "../components/ArticleBody.astro";
+import TagChips from "../components/TagChips.astro";
 import { sortArticles } from "../lib/sort.js";
 import { withNeighbors } from "../lib/adjacent.js";
+import { tagsFor } from "../lib/tags.js";
 
 export async function getStaticPaths() {
   const entries = await getCollection("articles");
@@ -21,6 +23,7 @@ const canonical = `https://paulgraham-cn.com/${article.slug}`;
     <p class="kicker">{article.dateText} · Paul Graham</p>
     <h1 class="article-title">{article.titleZh}</h1>
     <hr class="title-rule" />
+    <div class="article-tags"><TagChips ids={tagsFor(article.slug)} /></div>
     <div class="article-meta">
       <a href={article.sourceUrl} rel="nofollow">原文</a>
       <button id="read-toggle" aria-pressed="false">双语对照</button>

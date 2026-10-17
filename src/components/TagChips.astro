@@ -1,0 +1,20 @@
+---
+import { TAGS } from "../../shared/tags.js";
+
+interface Props {
+  /** Restrict to these tag ids, in vocabulary order. Omit for the full list. */
+  ids?: string[];
+  /** The tag whose page this is, marked as current. */
+  current?: string;
+}
+const { ids, current } = Astro.props;
+const list = ids ? TAGS.filter((t) => ids.includes(t.id)) : TAGS;
+---
+{list.length > 0 && (
+  <nav class="tag-chips" aria-label="按主题浏览">
+    {list.map((t) => (
+      <a class="tag-chip" href={`/tag/${t.id}`} title={t.en}
+        aria-current={t.id === current ? "page" : undefined}>{t.zh}</a>
+    ))}
+  </nav>
+)}

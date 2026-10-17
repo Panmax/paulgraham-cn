@@ -103,6 +103,15 @@ body[data-read="bilingual"] .seg-en { display:block; margin-top:.4rem; }
 .row a:hover { color:var(--accent); text-decoration:underline; }
 .row-en { display:block; font-family:var(--en); font-size:.8rem; color:var(--muted); margin-top:.2rem; }
 
+/* Topic tags */
+.tag-chips { display:flex; flex-wrap:wrap; gap:.45rem; justify-content:center; }
+.tag-chip { font-family:var(--zh); font-size:.85rem; line-height:1.7; color:var(--muted);
+  border:1px solid var(--rule); border-radius:999px; padding:.05rem .7rem; }
+.tag-chip:hover, .tag-chip[aria-current="page"] { color:var(--accent); border-color:var(--accent); }
+.tag-chip:hover { text-decoration:none; }
+.tag-hint { font-family:var(--zh); font-size:.85rem; color:var(--muted); margin:-1rem 0 1.2rem; }
+.article-tags { margin-bottom:1.8rem; }
+
 @media (prefers-reduced-motion: reduce) {
   #theme-toggle, button#read-toggle { transition:none; }
 }

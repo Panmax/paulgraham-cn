@@ -1,0 +1,39 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import ArticleIndex from "../../components/ArticleIndex.astro";
+import TagChips from "../../components/TagChips.astro";
+import { sortArticles } from "../../lib/sort.js";
+import { groupByYear } from "../../lib/group.js";
+import { assignments } from "../../lib/tags.js";
+import { TAGS } from "../../../shared/tags.js";
+
+export async function getStaticPaths() {
+  const articles = (await getCollection("articles")).map((e) => e.data);
+  return TAGS.map((tag) => ({
+    params: { tag: tag.id },
+    props: {
+      tag,
+      items: sortArticles(articles.filter((a) => assignments[a.slug]?.includes(tag.id))),
+    },
+  }));
+}
+
+const { tag, items } = Astro.props;
+const groups = groupByYear(items);
+---
+<Base
+  title={`${tag.zh} · Paul Graham 中文`}
+  description={`Paul Graham 关于${tag.zh}（${tag.en}）的文章中文翻译，共 ${items.length} 篇。${tag.hint}。`}
+  canonical={`https://paulgraham-cn.com/tag/${tag.id}`}
+>
+  <main class="home">
+    <header class="home-mast">
+      <h1>{tag.zh}</h1>
+      <p class="home-sub">{tag.en} · 共 {items.length} 篇</p>
+      <p class="tag-hint">{tag.hint}</p>
+      <TagChips current={tag.id} />
+    </header>
+    <ArticleIndex groups={groups} />
+  </main>
+</Base>

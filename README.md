@@ -19,6 +19,16 @@ npm run dev       # local dev
 npm run build     # -> dist/, no API calls
 ```
 
+## Tags
+
+Paul Graham's own site has no categories, so the topics here are editorial. The vocabulary is code (`shared/tags.ts`), the assignments are data (`content/tags.json`), and the site renders `/tag/<id>` pages from the two.
+
+```bash
+npm run tag       # re-tag every article from the fixed vocabulary (needs OPENROUTER_API_KEY)
+```
+
+`npm run tag` rewrites `content/tags.json` wholesale — hand corrections are lost, so re-run it only when the vocabulary itself changes and review the diff. It is deliberately not part of `npm run translate`: the translation pipeline is incremental over segment `sourceHash` and must never touch curated tags.
+
 ## Fonts
 
 The site ships one shared WOFF2 subset per weight (Chinese: Source Han Serif SC → "PGCN Song"; Latin: Newsreader), covering every code point across all articles plus fixed UI chrome. The subsets and `public/fonts/manifest.json` are committed, so `npm run dev` and CI need no font-generation step.
@@ -29,7 +39,7 @@ The Chinese **regular** face carries the whole corpus (~3250 code points, ~1.5MB
 npm run fonts     # regenerates public/fonts/zh/*.woff2 + manifest.json — run after content changes
 ```
 
-`npm run fonts` needs the raw Source Han Serif SC OTFs (2.003R, from the `adobe-fonts/source-han-serif` release) placed in the gitignored `assets/fonts/`; their SHA-256 is pinned in `scripts/font-sources.ts` and checked before subsetting. `npm run build` runs `scripts/verify-fonts.ts` first and **fails** if the committed subset's charset hash is stale relative to `content/articles/*.json` — regenerate with `npm run fonts` and commit the updated `public/fonts/` whenever article content or `scripts/lib/chars.ts` (`SHARED_UI_TEXT`) changes.
+`npm run fonts` needs the raw Source Han Serif SC OTFs (2.003R, from the `adobe-fonts/source-han-serif` release) placed in the gitignored `assets/fonts/`; their SHA-256 is pinned in `scripts/font-sources.ts` and checked before subsetting. `npm run build` runs `scripts/verify-fonts.ts` first and **fails** if the committed subset's charset hash is stale relative to `content/articles/*.json` — regenerate with `npm run fonts` and commit the updated `public/fonts/` whenever article content or `scripts/lib/chars.ts` (`SHARED_UI_TEXT`, `TAG_NAMES`, `TAG_HINTS`) changes.
 
 Both fonts are SIL Open Font License 1.1; the full license and copyright notices are bundled at `public/OFL.txt` (served at `/OFL.txt`) and linked from the site footer.
 

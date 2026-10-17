@@ -1,6 +1,7 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import { isTranslatable, type Article, type Segment } from "../../shared/article-schema.js";
+import { TAGS } from "../../shared/tags.js";
 
 const mdParser = unified().use(remarkParse);
 type MdNode = { type?: string; value?: string; children?: MdNode[] };
@@ -16,6 +17,13 @@ export const SHARED_UI_TEXT = [
   "未译原文", "返回目录", "上一篇", "下一篇", "日期不详", "搜索标题…",
   "没有匹配的文章", "切换主题", "切换双语", "字体", "思源宋体",
 ].join("");
+
+// Tag chrome, from the same vocabulary the site renders. The names are an h1 on
+// a tag page (weight 700) and chip labels (regular); the hints are regular only.
+// Most of these glyphs are already in the corpus, but relying on that is how a
+// tag name quietly falls back to a system font.
+export const TAG_NAMES = TAGS.map((t) => t.zh).join("");
+export const TAG_HINTS = TAGS.map((t) => t.hint).join("");
 
 export function isUntranslated(seg: Segment): boolean {
   return isTranslatable(seg.type) && !seg.zhMarkdown?.trim();
@@ -40,6 +48,7 @@ export function collectSiteChars(list: Article[]): Set<string> {
   const set = new Set<string>();
   for (const a of list) { addCodePoints(set, a.titleZh); addCodePoints(set, a.dateText); }
   addCodePoints(set, SHARED_UI_TEXT);
+  addCodePoints(set, TAG_NAMES);
   return set;
 }
 
@@ -48,6 +57,8 @@ export function collectSiteChars(list: Article[]): Set<string> {
 export function collectAllChars(list: Article[]): Set<string> {
   const set = new Set<string>();
   for (const a of list) for (const ch of collectArticleChars(a)) set.add(ch);
+  addCodePoints(set, TAG_NAMES);
+  addCodePoints(set, TAG_HINTS);
   return set;
 }
 
@@ -70,5 +81,6 @@ export function collectBoldChars(list: Article[]): Set<string> {
     }
   }
   addCodePoints(set, SHARED_UI_TEXT);
+  addCodePoints(set, TAG_NAMES);
   return set;
 }

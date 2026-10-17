@@ -1,55 +1,22 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
+import ArticleIndex from "../components/ArticleIndex.astro";
+import TagChips from "../components/TagChips.astro";
 import { sortArticles } from "../lib/sort.js";
 import { groupByYear } from "../lib/group.js";
 
 const entries = await getCollection("articles");
-const groups = groupByYear(sortArticles(entries.map((e) => e.data)));
-const total = entries.length;
+const articles = entries.map((e) => e.data);
+const groups = groupByYear(sortArticles(articles));
 ---
 <Base title="Paul Graham 文集（中文）" description="Paul Graham 文章的中文翻译">
   <main class="home">
     <header class="home-mast">
       <h1>Paul Graham 文集</h1>
-      <p class="home-sub">共 {total} 篇 · 中文翻译</p>
-      <label class="home-search">
-        <span class="visually-hidden">搜索标题</span>
-        <input id="q" type="search" placeholder="搜索标题…" autocomplete="off" />
-      </label>
-      <p id="empty" class="home-empty" aria-live="polite" hidden>没有匹配的文章</p>
+      <p class="home-sub">共 {articles.length} 篇 · 中文翻译</p>
+      <TagChips />
     </header>
-    <div id="index">
-      {groups.map((g) => (
-        <section class="yr-group" data-group>
-          <div class={g.year ? "yr" : "yr yr--undated"}>{g.year ?? "日期不详"}</div>
-          <ul class="yr-items">
-            {g.items.map((a) => (
-              <li class="row" data-title={`${a.titleZh} ${a.titleEn}`.toLowerCase()}>
-                <a href={`/${a.slug}`}>{a.titleZh}</a>
-                <span class="row-en">{a.titleEn} · {a.dateText}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
-    </div>
+    <ArticleIndex groups={groups} />
   </main>
-  <script is:inline>
-    (() => {
-      const q = document.getElementById("q"), empty = document.getElementById("empty");
-      q?.addEventListener("input", () => {
-        const term = q.value.trim().toLowerCase();
-        let shown = 0;
-        for (const row of document.querySelectorAll(".row")) {
-          const hit = !term || row.dataset.title.includes(term);
-          row.hidden = !hit; if (hit) shown++;
-        }
-        for (const g of document.querySelectorAll("[data-group]")) {
-          g.hidden = !g.querySelector(".row:not([hidden])");
-        }
-        empty.hidden = shown !== 0;
-      });
-    })();
-  </script>
 </Base>
