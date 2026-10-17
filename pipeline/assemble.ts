@@ -39,9 +39,9 @@ export async function assembleArticle(params: {
     .filter((s) => isTranslatable(s.type) && s.enMarkdown)
     .map((s) => ({ id: s.id, enMarkdown: s.enMarkdown as string }));
 
-  // Ids needing translation: changed + new (i.e. missing zhMarkdown among translatable).
+  // Ids needing translation: changed/new or a previously stored blank translation.
   const toTranslate = segments
-    .filter((s) => isTranslatable(s.type) && s.enMarkdown && s.zhMarkdown === undefined)
+    .filter((s) => isTranslatable(s.type) && s.enMarkdown && !s.zhMarkdown?.trim())
     .map((s) => s.id);
 
   // Title: reuse if unchanged, else translate via id 0.

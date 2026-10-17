@@ -10,9 +10,13 @@
   --measure:36rem;
   --zh:"PGCN Song","Noto Serif SC","Songti SC",serif;
   --en:"Newsreader",Georgia,serif;
+  /* Tells the browser to render scrollbars, form controls and the search
+     field's clear button in the matching scheme. */
+  color-scheme:light;
 }
 :root[data-theme="dark"] {
   --paper:#1c1a16; --ink:#e7e1d4; --muted:#a89f8e; --rule:#332f27; --accent:#d08a5e;
+  color-scheme:dark;
 }
 * { box-sizing:border-box; }
 html { font-size:18px; }
@@ -21,7 +25,7 @@ body { margin:0; background:var(--paper); color:var(--ink);
 a { color:var(--accent); text-decoration:none; }
 a:hover { text-decoration:underline; }
 :focus-visible { outline:2px solid var(--accent); outline-offset:2px; border-radius:2px; }
-::selection { background:rgba(161,85,47,.25); color:var(--ink); }
+::selection { background:color-mix(in srgb, var(--accent) 25%, transparent); color:var(--ink); }
 hr { border:0; border-top:1px solid var(--rule); margin:2rem auto; width:56px; }
 button { font:inherit; color:inherit; background:none; border:1px solid var(--rule);
   border-radius:6px; padding:.3rem .7rem; cursor:pointer; }
@@ -53,7 +57,7 @@ button#read-toggle { font:inherit; color:inherit; background:none; border:1px so
 button#read-toggle[aria-pressed="true"] { border-color:var(--accent); color:var(--accent); }
 
 /* Body rhythm */
-.article-body { font-size:19px; letter-spacing:.005em; }
+.article-body { font-size:19px; }
 .seg { margin:0 0 1.35rem; }
 .seg-zh p, .article-body > .seg > div > p { text-indent:2em; margin:0; }
 .article-body a { color:var(--accent); text-decoration-line:underline;
@@ -71,7 +75,9 @@ button#read-toggle[aria-pressed="true"] { border-color:var(--accent); color:var(
 .seg-en { display:none; font-family:var(--en); font-style:italic; color:var(--muted);
   font-size:.95rem; line-height:1.7; }
 body[data-read="bilingual"] .seg-en { display:block; margin-top:.4rem; }
-.seg--original { border-left:2px solid var(--rule); padding-left:1rem; color:var(--ink); }
+/* Untranslated segments hold English text, so they take the Latin serif. */
+.seg--original { border-left:2px solid var(--rule); padding-left:1rem; color:var(--ink);
+  font-family:var(--en); }
 .seg--original .seg-mark { display:block; font-family:var(--en); font-size:.7rem;
   letter-spacing:.15em; text-transform:uppercase; color:var(--muted); margin-bottom:.3rem; }
 

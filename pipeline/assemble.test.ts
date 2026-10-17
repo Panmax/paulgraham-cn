@@ -92,4 +92,28 @@ describe("assembleArticle", () => {
     // title unchanged -> reused, translator not asked for title
     expect(article.titleZh).toBe("如何赚钱");
   });
+
+  it("re-translates an unchanged segment whose stored translation is blank", async () => {
+    const existing: Article = {
+      slug: "earn", titleEn: "How to Earn", titleZh: "如何赚钱", dateText: "June 2026",
+      publishedAt: "2026-06-01", sourceOrder: 2, sourceUrl: "https://paulgraham.com/earn.html",
+      translatedAt: "2026-06-01", model: "gemini-3.5-flash",
+      segments: [
+        { id: 1, type: "paragraph", sourceHash: "h1", enMarkdown: "First para.", zhMarkdown: "   " },
+        { id: 2, type: "hr", sourceHash: "hr1" },
+        { id: 3, type: "paragraph", sourceHash: "h2", enMarkdown: "Second para.", zhMarkdown: "第二段。" },
+      ],
+    };
+    const translator = translatorReturning({ 1: "补上的第一段。" });
+
+    const { article } = await assembleArticle({
+      listEntry, parsed, existing, translator,
+      translatedAt: "2026-07-08", model: "gemini-3.5-flash",
+    });
+
+    expect(article.segments.find((s) => s.id === 1)?.zhMarkdown).toBe("补上的第一段。");
+    expect(article.segments.find((s) => s.id === 3)?.zhMarkdown).toBe("第二段。");
+    const request = JSON.parse(translator.generate.mock.calls[0][1]) as { translateIds: number[] };
+    expect(request.translateIds).toEqual([1]);
+  });
 });

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { SHARED_UI_TEXT, isUntranslated, collectArticleChars, collectSiteChars, collectAllChars } from "./chars.js";
+import { SHARED_UI_TEXT, isUntranslated, collectArticleChars, collectSiteChars, collectAllChars, collectBoldChars } from "./chars.js";
 import type { Article } from "../../shared/article-schema.js";
 
 const art = (over: Partial<Article> = {}): Article => ({
@@ -41,6 +41,29 @@ describe("chars", () => {
     expect(s.has("甲")).toBe(true); expect(s.has("乙")).toBe(true);
     expect(s.has("J")).toBe(true); // from "June" dateText
   });
+  it("collectBoldChars takes titles, <strong> spans and UI chrome only", () => {
+    const a = art({
+      segments: [
+        { id: 1, type: "paragraph", sourceHash: "h1", enMarkdown: "e", zhMarkdown: "普通正文**加粗**收尾" },
+        // `__init__` sits in a code span, so it is not bold.
+        { id: 2, type: "paragraph", sourceHash: "h2", enMarkdown: "e", zhMarkdown: "`__init__` 与 _斜体_" },
+      ],
+    });
+    const s = collectBoldChars([a]);
+    expect(s.has("标")).toBe(true);   // titleZh
+    expect(s.has("加")).toBe(true);   // inside **…**
+    expect(s.has("粗")).toBe(true);
+    expect(s.has("普")).toBe(false);  // regular body text
+    expect(s.has("斜")).toBe(false);  // <em> is not bold
+    expect(s.has("_")).toBe(false);   // `__init__` is code, not emphasis
+    expect(s.has("原")).toBe(true);   // SHARED_UI_TEXT
+  });
+
+  it("collectBoldChars is a strict subset of collectAllChars", () => {
+    const all = collectAllChars([art()]);
+    for (const ch of collectBoldChars([art()])) expect(all.has(ch)).toBe(true);
+  });
+
   it("collectAllChars unions every article's chars", () => {
     const s = collectAllChars([art({ titleZh: "甲" }), art({ titleZh: "乙", slug: "y" })]);
     expect(s.has("甲")).toBe(true); expect(s.has("乙")).toBe(true);

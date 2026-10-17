@@ -5,21 +5,38 @@ import { fetchHtml } from "./fetch.js";
 import { parseArticleList } from "./parse-list.js";
 import { parseArticle } from "./parse-article.js";
 import { assembleArticle, type AssembleStats } from "./assemble.js";
-import { createVertexTranslator } from "./translate.js";
+import { createOpenRouterTranslator, MODEL } from "./translate.js";
 import { readArticle, readAllArticles, writeArticle, writeManifest, readManifest, articleContentEqual } from "./store.js";
 import { buildManifest, manifestArticlesEqual } from "./manifest.js";
 import type { Article } from "../shared/article-schema.js";
 
 const CONTENT_DIR = join(process.cwd(), "content");
 const ARTICLES_DIR = join(CONTENT_DIR, "articles");
-const MODEL = "gemini-3.5-flash";
 
-function parseArgs(argv: string[]) {
-  const only = argv.find((a) => a.startsWith("--only="))?.slice("--only=".length);
-  const limitArg = argv.find((a) => a.startsWith("--limit="))?.slice("--limit=".length);
+export function parseArgs(argv: string[]) {
+  const onlyArg = argv.find((a) => a === "--only" || a.startsWith("--only="));
+  const limitArg = argv.find((a) => a === "--limit" || a.startsWith("--limit="));
+  let only: Set<string> | null = null;
+  if (onlyArg !== undefined) {
+    const value = onlyArg.startsWith("--only=") ? onlyArg.slice("--only=".length) : "";
+    const slugs = value.split(",");
+    if (slugs.some((slug) => !/^[a-z][a-z0-9]*$/.test(slug))) {
+      throw new Error("--only requires a comma-separated list of article slugs");
+    }
+    only = new Set(slugs);
+  }
+
+  let limit: number | null = null;
+  if (limitArg !== undefined) {
+    const value = limitArg.startsWith("--limit=") ? limitArg.slice("--limit=".length) : "";
+    limit = Number(value);
+    if (value === "" || !Number.isSafeInteger(limit) || limit < 0) {
+      throw new Error("--limit requires a non-negative integer");
+    }
+  }
   return {
-    only: only ? new Set(only.split(",")) : null,
-    limit: limitArg ? Number(limitArg) : null,
+    only,
+    limit,
   };
 }
 
@@ -29,13 +46,13 @@ export function exitCodeFor(failed: number): 0 | 1 {
 
 export async function main(argv: string[] = process.argv.slice(2)): Promise<void> {
   const { only, limit } = parseArgs(argv);
-  const translator = createVertexTranslator();
+  const translator = createOpenRouterTranslator();
   const translatedAt = new Date().toISOString().slice(0, 10);
 
   const listHtml = await fetchHtml("https://paulgraham.com/articles.html");
   let entries = parseArticleList(listHtml);
   if (only) entries = entries.filter((e) => only.has(e.slug));
-  if (limit) entries = entries.slice(0, limit);
+  if (limit !== null) entries = entries.slice(0, limit);
 
   const limiter = pLimit(4);
   const results: Article[] = [];

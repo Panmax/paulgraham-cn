@@ -1,4 +1,13 @@
+import { unified } from "unified";
+import remarkParse from "remark-parse";
 import { isTranslatable, type Article, type Segment } from "../../shared/article-schema.js";
+
+const mdParser = unified().use(remarkParse);
+type MdNode = { type?: string; value?: string; children?: MdNode[] };
+
+function textOf(node: MdNode): string {
+  return typeof node.value === "string" ? node.value : (node.children ?? []).map(textOf).join("");
+}
 
 // Fixed Chinese chrome that must be renderable on EVERY page (article + home),
 // so each per-page subset includes these glyphs.
@@ -39,5 +48,27 @@ export function collectSiteChars(list: Article[]): Set<string> {
 export function collectAllChars(list: Article[]): Set<string> {
   const set = new Set<string>();
   for (const a of list) for (const ch of collectArticleChars(a)) set.add(ch);
+  return set;
+}
+
+// The code points actually rendered at font-weight 700 in Chinese: article
+// titles (h1) and `<strong>` spans. Everything else uses the regular face, so
+// subsetting the bold face to just these roughly halves its size.
+// Parsed with remark rather than matched with a `__…__` regex — `__init__`
+// inside a code span is not bold.
+export function collectBoldChars(list: Article[]): Set<string> {
+  const set = new Set<string>();
+  for (const a of list) {
+    addCodePoints(set, a.titleZh);
+    for (const seg of a.segments) {
+      if (isUntranslated(seg)) continue;
+      const visit = (node: MdNode): void => {
+        if (node.type === "strong") addCodePoints(set, textOf(node));
+        node.children?.forEach(visit);
+      };
+      visit(mdParser.parse(seg.zhMarkdown ?? "") as MdNode);
+    }
+  }
+  addCodePoints(set, SHARED_UI_TEXT);
   return set;
 }

@@ -24,6 +24,18 @@ describe("store", () => {
     expect(back).toEqual(article);
   });
 
+  it("writes the Zod-parsed article rather than persisting unknown fields", async () => {
+    const dir = join(base, "articles");
+    const withUnknown = {
+      ...article,
+      unexpected: "must not reach disk",
+      segments: [{ ...article.segments[0], unexpectedSegmentField: true }],
+    } as Article;
+    await writeArticle(dir, withUnknown);
+    const raw = await readFile(join(dir, "earn.json"), "utf8");
+    expect(raw).not.toContain("unexpected");
+  });
+
   it("returns null for a missing article", async () => {
     expect(await readArticle(join(base, "articles"), "nope")).toBeNull();
   });
@@ -46,6 +58,13 @@ describe("store", () => {
     const raw = await readFile(join(base, "manifest.json"), "utf8");
     expect(raw.endsWith("\n")).toBe(true);
     expect(JSON.parse(raw)).toEqual(manifest);
+  });
+
+  it("writes the Zod-parsed manifest rather than persisting unknown fields", async () => {
+    const manifest = { generatedAt: "t", articles: [], unexpected: true } as Manifest;
+    await writeManifest(base, manifest);
+    const raw = await readFile(join(base, "manifest.json"), "utf8");
+    expect(raw).not.toContain("unexpected");
   });
 });
 

@@ -16,15 +16,21 @@ const zh = (fontManifest as { files: { regular: string; bold: string } }).files;
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     {canonical && <link rel="canonical" href={canonical} />}
+    <!-- The body face is ~1.5MB, so start it before the CSS is parsed rather
+         than letting the swap-in happen a beat after first paint. -->
+    <link rel="preload" href={zh.regular} as="font" type="font/woff2" crossorigin />
     <style is:inline set:html={`
       @font-face{font-family:"PGCN Song";font-weight:400;font-display:swap;src:url("${zh.regular}") format("woff2")}
       @font-face{font-family:"PGCN Song";font-weight:700;font-display:swap;src:url("${zh.bold}") format("woff2")}
     `}></style>
     <script is:inline>
       (() => {
-        const saved = localStorage.getItem("theme");
+        let saved = null;
+        try { saved = localStorage.getItem("theme"); } catch { /* storage blocked */ }
         const dark = saved ? saved === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
         document.documentElement.dataset.theme = dark ? "dark" : "light";
+        document.querySelector('meta[name="theme-color"]')
+          ?.setAttribute("content", dark ? "#d08a5e" : "#a1552f");
       })();
     </script>
   </head>
@@ -42,7 +48,9 @@ const zh = (fontManifest as { files: { regular: string; bold: string } }).files;
         const el = document.documentElement;
         const next = el.dataset.theme === "dark" ? "light" : "dark";
         el.dataset.theme = next;
-        localStorage.setItem("theme", next);
+        document.querySelector('meta[name="theme-color"]')
+          ?.setAttribute("content", next === "dark" ? "#d08a5e" : "#a1552f");
+        try { localStorage.setItem("theme", next); } catch { /* storage blocked */ }
       });
     </script>
   </body>

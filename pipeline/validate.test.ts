@@ -7,6 +7,10 @@ describe("extractors", () => {
       "https://x.com/1", "https://y.com",
     ]);
   });
+  it("extracts a complete URL containing balanced parentheses", () => {
+    const url = "http://en.wikipedia.org/wiki/Jack_Lambert_(American_football_player)";
+    expect(extractLinkUrls(`[Jack Lambert](${url})`)).toEqual([url]);
+  });
   it("extracts numbers", () => {
     expect(extractNumbers("in 1995 there were 3 things")).toEqual(["1995", "3"]);
   });
@@ -21,6 +25,15 @@ describe("validateTranslation", () => {
   });
   it("fails when an id is missing", () => {
     expect(validateTranslation(req, []).ok).toBe(false);
+  });
+  it("fails when a returned id is duplicated", () => {
+    const ret = [
+      { id: 1, zhMarkdown: "2005 年参见 [YC](https://ycombinator.com)。" },
+      { id: 1, zhMarkdown: "2005 年参见 [YC](https://ycombinator.com)。" },
+    ];
+    const r = validateTranslation(req, ret);
+    expect(r.ok).toBe(false);
+    expect(r.errors).toContain("duplicate translation for id 1");
   });
   it("fails when a link is dropped", () => {
     const ret = [{ id: 1, zhMarkdown: "2005 年参见 YC。" }];
@@ -57,5 +70,13 @@ describe("stripAddedLinks", () => {
     const req = [{ id: 1, enMarkdown: "see [x](https://a.com)" }];
     const ret = [{ id: 1, zhMarkdown: "见 [x](https://a.com)" }];
     expect(stripAddedLinks(req, ret)[0].zhMarkdown).toBe("见 [x](https://a.com)");
+  });
+  it("flattens an added link with parentheses without leaving punctuation behind", () => {
+    const req = [{ id: 1, enMarkdown: "Jack Lambert was relentless." }];
+    const ret = [{
+      id: 1,
+      zhMarkdown: "[Jack Lambert](http://en.wikipedia.org/wiki/Jack_Lambert_(American_football_player)) 很顽强。",
+    }];
+    expect(stripAddedLinks(req, ret)[0].zhMarkdown).toBe("Jack Lambert 很顽强。");
   });
 });

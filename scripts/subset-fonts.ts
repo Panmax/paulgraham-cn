@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { join } from "node:path";
 import subsetFont from "subset-font";
 import { readAllArticles } from "../pipeline/store.js";
-import { collectAllChars } from "./lib/chars.js";
+import { collectAllChars, collectBoldChars } from "./lib/chars.js";
 import { RAW_FONTS, ASSETS_FONT_DIR, type Weight } from "./font-sources.js";
 
 const OUT_DIR = join(process.cwd(), "public", "fonts", "zh");
@@ -52,18 +52,21 @@ async function main(): Promise<void> {
   const raws = { regular: await loadRaw("regular"), bold: await loadRaw("bold") };
 
   const allChars = collectAllChars(articles);
+  const boldChars = collectBoldChars(articles);
   const manifest = {
     sourceSha256: { regular: sha256(raws.regular), bold: sha256(raws.bold) },
     charsetHash: charsetHash(allChars),
+    boldCharsetHash: charsetHash(boldChars),
     files: {
       regular: await emit(raws.regular, allChars, "regular"),
-      bold: await emit(raws.bold, allChars, "bold"),
+      bold: await emit(raws.bold, boldChars, "bold"),
     },
   };
 
   await writeFile(MANIFEST, JSON.stringify(manifest, null, 2) + "\n");
   console.log(
-    `fonts: single shared subset (${allChars.size} code points) × 2 weights → public/fonts/zh/`,
+    `fonts: regular ${allChars.size} code points, bold ${boldChars.size} ` +
+      `(${Math.round((boldChars.size / allChars.size) * 100)}%) → public/fonts/zh/`,
   );
 }
 

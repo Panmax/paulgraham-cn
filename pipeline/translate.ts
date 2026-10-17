@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/genai";
+import { z } from "zod";
 import { buildSystemPrompt, buildUserPayload } from "./prompt.js";
 import { validateTranslation, stripAddedLinks } from "./validate.js";
 
@@ -6,28 +6,43 @@ export type TranslatorDeps = {
   generate: (system: string, user: string) => Promise<string>;
 };
 
-const MODEL = "gemini-3.5-flash";
+export const MODEL = "google/gemini-3.8-flash";
+const ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
+const TIMEOUT_MS = 180_000;
 
-export function createVertexTranslator(): TranslatorDeps {
-  const ai = new GoogleGenAI({
-    vertexai: true,
-    project: "live-card-491105",
-    // gemini-3.5-flash is served from the "global" location on Vertex, not a
-    // regional endpoint like us-central1 (verified: us-central1 returns 404).
-    location: "global",
-  });
+const TranslationResponseSchema = z.object({
+  segments: z.array(z.object({
+    id: z.number().int(),
+    zhMarkdown: z.string().refine((value) => value.trim().length > 0),
+  })),
+});
+
+export function createOpenRouterTranslator(): TranslatorDeps {
+  const apiKey = process.env.OPENROUTER_API_KEY;
+  if (!apiKey) throw new Error("OPENROUTER_API_KEY is not set");
   return {
     async generate(system, user) {
-      const resp = await ai.models.generateContent({
-        model: MODEL,
-        contents: [{ role: "user", parts: [{ text: user }] }],
-        config: {
-          systemInstruction: system,
-          responseMimeType: "application/json",
-          temperature: 0.7,
-        },
+      const resp = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+        body: JSON.stringify({
+          model: MODEL,
+          messages: [
+            { role: "system", content: system },
+            { role: "user", content: user },
+          ],
+          response_format: { type: "json_object" },
+        }),
+        signal: AbortSignal.timeout(TIMEOUT_MS),
       });
-      return resp.text ?? "";
+      if (!resp.ok) {
+        throw new Error(`OpenRouter ${resp.status}: ${(await resp.text()).slice(0, 300)}`);
+      }
+      const content = (await resp.json())?.choices?.[0]?.message?.content;
+      if (typeof content !== "string") throw new Error("OpenRouter returned no message content");
+      // Some providers ignore response_format and wrap the JSON in a code fence.
+      const fenced = content.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
+      return fenced ? fenced[1] : content;
     },
   };
 }
@@ -46,16 +61,21 @@ export async function translateSegments(
   let lastErrors: string[] = [];
   for (let attempt = 0; attempt <= retries; attempt++) {
     const raw = await deps.generate(system, user);
-    let parsed: { segments?: Array<{ id: number; zhMarkdown: string }> };
+    let json: unknown;
     try {
-      parsed = JSON.parse(raw);
+      json = JSON.parse(raw);
     } catch {
       lastErrors = ["model did not return valid JSON"];
       continue;
     }
+    const parsed = TranslationResponseSchema.safeParse(json);
+    if (!parsed.success) {
+      lastErrors = ["model returned invalid translation response structure"];
+      continue;
+    }
     // Repair the common failure where the model hyperlinks a plain-text
     // mention (e.g. a book/essay title) the English left unlinked.
-    const returned = stripAddedLinks(requested, parsed.segments ?? []);
+    const returned = stripAddedLinks(requested, parsed.data.segments);
     const check = validateTranslation(requested, returned);
     if (check.ok) {
       if (check.warnings.length) {

@@ -236,4 +236,17 @@ describe("parseArticle — synthetic structural checks", () => {
     const a = parseArticle(SAMPLE, "fallback");
     expect(a.segments.some((s) => s.type === "hr")).toBe(true);
   });
+
+  it("does not duplicate text from rows in a nested layout table", () => {
+    const html = `<html><head><title>T</title></head><body><table><tr><td>
+      <img src="title.gif" alt="Nested Table" />
+      <font size="2">June 2026<br /><br />Before.<br /><br />
+        <table><tr><td><table><tr><td>Quoted once.</td></tr></table></td></tr></table>
+        <br /><br />After.
+      </font>
+    </td></tr></table></body></html>`;
+    const a = parseArticle(html, "fallback");
+    const raw = a.segments.find((s) => s.type === "rawUnsupported");
+    expect(raw?.enMarkdown).toBe("Quoted once.");
+  });
 });

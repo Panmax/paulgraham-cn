@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import { readAllArticles } from "../pipeline/store.js";
-import { collectAllChars } from "./lib/chars.js";
+import { collectAllChars, collectBoldChars } from "./lib/chars.js";
 import type { Article } from "../shared/article-schema.js";
 
 const sha = (s: string) => createHash("sha256").update(s).digest("hex");
@@ -11,12 +11,16 @@ const csh = (set: Set<string>) => sha([...set].sort().join(""));
 
 export function checkManifest(
   articles: Article[],
-  m: { charsetHash: string; files: { regular: string; bold: string } },
+  m: { charsetHash: string; boldCharsetHash?: string; files: { regular: string; bold: string } },
   fileHash: (publicPath: string) => string | null,
 ): string[] {
   const problems: string[] = [];
   if (m.charsetHash !== csh(collectAllChars(articles)))
     problems.push("font charset stale — content changed; rerun `npm run fonts` and commit public/fonts/");
+  // The bold face is subsetted to title + <strong> glyphs only, so a new bold
+  // character missing from it would silently fall back to a system font.
+  if (m.boldCharsetHash !== undefined && m.boldCharsetHash !== csh(collectBoldChars(articles)))
+    problems.push("bold font charset stale — rerun `npm run fonts` and commit public/fonts/");
   for (const w of ["regular", "bold"] as const) {
     const path = m.files[w];
     const hash = fileHash(path);

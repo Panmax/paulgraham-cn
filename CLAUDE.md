@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Chinese translations of Paul Graham's essays, served as a static site at `paulgraham-cn.com`. Two halves that meet at committed JSON:
 
-1. **`pipeline/`** — an offline batch job (`npm run translate`) that scrapes paulgraham.com, translates via Gemini on Vertex AI, and writes `content/articles/*.json` + `content/manifest.json`.
+1. **`pipeline/`** — an offline batch job (`npm run translate`) that scrapes paulgraham.com, translates via Gemini on OpenRouter, and writes `content/articles/*.json` + `content/manifest.json`.
 2. **`src/`** — an Astro static site that reads those JSON files at build time. The build makes **no API calls**; all translation is pre-baked into the committed JSON.
 
 ## Commands
@@ -19,11 +19,17 @@ npm run test:watch
 npx vitest run pipeline/align.test.ts   # single test file
 npx vitest run -t "name of test"        # single test by name
 
-# Translation (needs Vertex credentials — see below)
-export GOOGLE_APPLICATION_CREDENTIALS=credentials/gemini-vertex.json
+# Translation (needs OPENROUTER_API_KEY in the environment — see below)
 npm run translate                       # all essays (incremental)
 npm run translate -- --only=earn,greatwork
 npm run translate -- --limit=10         # first N from the source list
+
+# Translation QA (no API calls) — see "Translation QA" below
+npx tsx scripts/qa-translations.ts               # sweep all 229 articles
+npx tsx scripts/qa-translations.ts --all         # print every finding, not 6
+npx tsx scripts/qa-translations.ts --kind=斜体    # one finding kind
+npx tsx scripts/qa-translations.ts --blank-emphasis  # clear emphasis-broken segments
+npx tsx scripts/qa-translations.ts --blank-terms     # clear glossary-drifted segments
 ```
 
 Node **>=22.12.0** required (Astro 7). Translation writes to `content/` — commit those JSON files as the source of truth for the site.
@@ -50,6 +56,16 @@ The whole design is **segment-level incremental translation**, and several non-o
 
 - **Manifest is always rebuilt from disk**, not from the run's results — so a `--only`/`--limit` run or a run with failures never drops other articles from the homepage index.
 
+- **Source HTML is windows-1252, not UTF-8.** paulgraham.com sends no charset in `Content-Type` and no `<meta charset>`, so `resp.text()` would turn every curly quote and em dash into U+FFFD. `fetchHtml` sniffs the way a browser does: strict UTF-8, falling back to windows-1252 (`decodeHtml` in `pipeline/fetch.ts`).
+
+## Translation QA (scripts/qa-translations.ts)
+
+Mechanical sweep over every stored translation — no API calls. It reuses `validateTranslation`, so stored data is held to the same gate the pipeline enforces at write time: blank translations, link-set mismatches, citation/untitled segments, and emphasis drift in both directions (parsed with remark, so `__init__` in a code span is not counted as bold). Emphasis matters visually here: the site renders `<em>` as accent-coloured text, so a dropped one is a visible defect, not a cosmetic one.
+
+`--blank-emphasis` and `--blank-terms` clear `zhMarkdown` on the segments whose only defect is emphasis or glossary drift. That is the pipeline's own "needs translation" signal, so the next `npm run translate` re-translates exactly those and leaves the rest alone. Prompt and glossary changes alone do not re-translate anything — neither is part of `sourceHash`.
+
+`TERM_RULES` encodes one English term → one Chinese term and is what `--blank-terms` acts on. It exists because the glossary is guidance the model follows *most* of the time: `VC` had drifted into three renderings (风投 / 风险投资 / literal `VC`) across ~400 segments. The rules are checked per segment, so only the drifted ones are re-translated. Note `VC → 风投` but `venture capital → 风险投资` — the abbreviation takes the abbreviation, the full term takes the full term. Do not "fix" this by collapsing them into one term: `风投` often refers to the investors themselves, and expanding it to `风险投资` there reads as broken Chinese.
+
 ## Shared schema (shared/article-schema.ts)
 
 `ArticleSchema` (Zod) is the contract used by **both** halves: the pipeline validates what it writes, and Astro's content collection (`src/content.config.ts`) validates what it reads via `glob({ pattern: "*.json", base: "content/articles" })`. Change a field here and you must update both sides. `isTranslatable()` / `TRANSLATABLE_TYPES` live here and gate behavior across pipeline and site.
@@ -62,8 +78,8 @@ The whole design is **segment-level incremental translation**, and several non-o
 
 ## Model / credentials
 
-- Model: `gemini-3.5-flash` on **Vertex AI**, project `live-card-491105`, location **`global`** (not a regional endpoint — us-central1 returns 404). See `pipeline/translate.ts`.
-- Credentials are a service-account JSON at `credentials/gemini-vertex.json`, pointed to by `GOOGLE_APPLICATION_CREDENTIALS`. `credentials/` is gitignored — never commit it.
+- Model: `google/gemini-3.8-flash` via **OpenRouter** (`https://openrouter.ai/api/v1/chat/completions`), plain `fetch` — no SDK. See `pipeline/translate.ts`.
+- Credentials are the `OPENROUTER_API_KEY` environment variable. There is no credentials file.
 - Translation style + the term glossary live in `pipeline/prompt.ts` and `pipeline/glossary.json`. Add domain terms to the glossary to keep translations consistent.
 
 ## Deploy

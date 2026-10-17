@@ -14,7 +14,7 @@ description: Use when paulgraham.com has published new essays or revised old one
 在花掉 227 次抓取之前先失败：
 
 ```bash
-test -f credentials/gemini-vertex.json || echo "MISSING CREDENTIALS"
+test -n "$OPENROUTER_API_KEY" || echo "MISSING OPENROUTER_API_KEY"
 node -v   # 需 >= 22.12.0
 ```
 
@@ -24,10 +24,9 @@ node -v   # 需 >= 22.12.0
 
 ## 步骤 2 — 全量增量翻译
 
-**必须后台运行。** 227 篇抓取加上新文章的 Gemini 调用可能超过前台 10 分钟超时。
+**必须后台运行。** 227 篇抓取加上新文章的模型调用可能超过前台 10 分钟超时。
 
 ```bash
-export GOOGLE_APPLICATION_CREDENTIALS=credentials/gemini-vertex.json
 npm run translate > <scratchpad>/translate.log 2>&1
 ```
 
@@ -55,7 +54,7 @@ npm run translate > <scratchpad>/translate.log 2>&1
 3. 给出定向重试命令：`npm run translate -- --only=<失败的 slug,逗号分隔>`
 4. **就此停止**，不跑校验。
 
-`429 RESOURCE_EXHAUSTED` 是 Vertex 限流，不是代码缺陷——全量跑 227 篇时偶发。直接重试失败的那几篇即可。失败的文章不会写盘，重试是安全的。
+`OpenRouter 429` 是限流，不是代码缺陷——全量跑 227 篇时偶发。直接重试失败的那几篇即可。失败的文章不会写盘，重试是安全的。
 
 无需回滚。即便部分失败，manifest 仍已从磁盘上的全部文章重建，工作区处于自洽状态。
 

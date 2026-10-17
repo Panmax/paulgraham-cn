@@ -68,9 +68,11 @@ export async function readAllArticles(dir: string): Promise<Article[]> {
 }
 
 export async function writeArticle(dir: string, article: Article): Promise<void> {
-  ArticleSchema.parse(article);
+  // Write the parsed object, not the caller's: Zod strips unknown keys, so a
+  // field added upstream can never leak into the committed JSON.
+  const parsed = ArticleSchema.parse(article);
   await mkdir(dir, { recursive: true });
-  await writeFile(join(dir, `${article.slug}.json`), pretty(article), "utf8");
+  await writeFile(join(dir, `${parsed.slug}.json`), pretty(parsed), "utf8");
 }
 
 export async function readManifest(contentDir: string): Promise<Manifest | null> {
@@ -84,7 +86,7 @@ export async function readManifest(contentDir: string): Promise<Manifest | null>
 }
 
 export async function writeManifest(contentDir: string, manifest: Manifest): Promise<void> {
-  ManifestSchema.parse(manifest);
+  const parsed = ManifestSchema.parse(manifest);
   await mkdir(contentDir, { recursive: true });
-  await writeFile(join(contentDir, "manifest.json"), pretty(manifest), "utf8");
+  await writeFile(join(contentDir, "manifest.json"), pretty(parsed), "utf8");
 }

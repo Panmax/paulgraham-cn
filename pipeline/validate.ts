@@ -1,9 +1,27 @@
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+
+type MarkdownNode = {
+  type?: string;
+  url?: string;
+  children?: MarkdownNode[];
+  position?: { start: { offset?: number }; end: { offset?: number } };
+};
+
+const markdownParser = unified().use(remarkParse);
+
+function linkNodes(md: string): MarkdownNode[] {
+  const links: MarkdownNode[] = [];
+  const visit = (node: MarkdownNode): void => {
+    if (node.type === "link" && typeof node.url === "string") links.push(node);
+    node.children?.forEach(visit);
+  };
+  visit(markdownParser.parse(md) as MarkdownNode);
+  return links;
+}
+
 export function extractLinkUrls(md: string): string[] {
-  const urls: string[] = [];
-  const re = /\[[^\]]*\]\(([^)]+)\)/g;
-  let m: RegExpExecArray | null;
-  while ((m = re.exec(md))) urls.push(m[1].trim());
-  return urls.sort();
+  return linkNodes(md).map((node) => node.url!.trim()).sort();
 }
 
 export function extractNumbers(md: string): string[] {
@@ -13,7 +31,24 @@ export function extractNumbers(md: string): string[] {
 // Convert every markdown inline link in `md` to its plain link text:
 // `[text](url)` -> `text`. Used to remove links the model hallucinated.
 export function stripLinks(md: string): string {
-  return md.replace(/\[([^\]]*)\]\([^)]+\)/g, "$1");
+  const replacements = linkNodes(md).flatMap((node) => {
+    const start = node.position?.start.offset;
+    const end = node.position?.end.offset;
+    if (start === undefined || end === undefined) return [];
+    const firstChild = node.children?.[0];
+    const lastChild = node.children?.at(-1);
+    const labelStart = firstChild?.position?.start.offset;
+    const labelEnd = lastChild?.position?.end.offset;
+    const text = labelStart === undefined || labelEnd === undefined
+      ? ""
+      : md.slice(labelStart, labelEnd);
+    return [{ start, end, text }];
+  });
+  let stripped = md;
+  for (const { start, end, text } of replacements.sort((a, b) => b.start - a.start)) {
+    stripped = stripped.slice(0, start) + text + stripped.slice(end);
+  }
+  return stripped;
 }
 
 // Repair a spurious-added-link failure: when the English segment contains NO
@@ -26,7 +61,7 @@ export function stripAddedLinks(
 ): Array<{ id: number; zhMarkdown: string }> {
   const enHasLink = new Map(requested.map((r) => [r.id, extractLinkUrls(r.enMarkdown).length > 0]));
   return returned.map((r) =>
-    enHasLink.get(r.id) === false && /\]\(/.test(r.zhMarkdown)
+    enHasLink.get(r.id) === false && extractLinkUrls(r.zhMarkdown).length > 0
       ? { ...r, zhMarkdown: stripLinks(r.zhMarkdown) }
       : r,
   );
@@ -42,6 +77,13 @@ export function validateTranslation(
   const warnings: string[] = [];
   const reqIds = new Set(requested.map((r) => r.id));
   const retIds = new Set(returned.map((r) => r.id));
+  const seenRetIds = new Set<number>();
+  const duplicateRetIds = new Set<number>();
+  for (const { id } of returned) {
+    if (seenRetIds.has(id)) duplicateRetIds.add(id);
+    seenRetIds.add(id);
+  }
+  for (const id of duplicateRetIds) errors.push(`duplicate translation for id ${id}`);
   for (const id of reqIds) if (!retIds.has(id)) errors.push(`missing translation for id ${id}`);
   for (const id of retIds) if (!reqIds.has(id)) errors.push(`unexpected id ${id} in output`);
 

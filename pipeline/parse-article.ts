@@ -92,7 +92,12 @@ function blockquoteToMarkdown($: cheerio.CheerioAPI, bqEl: AnyNode): string {
 // string. Falls back to the whole table's flattened text if it has no rows
 // (e.g. a table used purely for layout with no <tr>).
 function tableToText($: cheerio.CheerioAPI, tableEl: AnyNode): string {
-  const rows = $(tableEl).find("tr");
+  // A layout table can contain another table. Its outer cell text already
+  // includes the nested table, so visiting the nested rows again duplicates
+  // the whole block. Keep only rows owned by this table.
+  const rows = $(tableEl).find("tr").filter((_, tr) =>
+    $(tr).closest("table").get(0) === tableEl
+  );
   if (rows.length === 0) return $(tableEl).text().trim();
   const lines: string[] = [];
   rows.each((_, tr) => {

@@ -2,10 +2,9 @@
 
 Chinese translations of Paul Graham's essays.
 
-## Translate (local, needs Vertex credentials)
+## Translate (local, needs `OPENROUTER_API_KEY` in the environment)
 
 ```bash
-export GOOGLE_APPLICATION_CREDENTIALS=credentials/gemini-vertex.json
 npm run translate            # all essays (incremental, segment-level)
 npm run translate -- --only=earn,greatwork   # subset
 npm run translate -- --limit=10              # first N
@@ -23,6 +22,8 @@ npm run build     # -> dist/, no API calls
 ## Fonts
 
 The site ships one shared WOFF2 subset per weight (Chinese: Source Han Serif SC → "PGCN Song"; Latin: Newsreader), covering every code point across all articles plus fixed UI chrome. The subsets and `public/fonts/manifest.json` are committed, so `npm run dev` and CI need no font-generation step.
+
+The Chinese **regular** face carries the whole corpus (~3250 code points, ~1.5MB). The **bold** face is subsetted separately to only the code points that are ever rendered at weight 700 — article titles and `<strong>` spans, about a third of the corpus (~0.5MB). Anything bold outside that set would silently fall back to a system font, so the manifest pins both charset hashes and `scripts/verify-fonts.ts` fails the build if either goes stale.
 
 ```bash
 npm run fonts     # regenerates public/fonts/zh/*.woff2 + manifest.json — run after content changes
