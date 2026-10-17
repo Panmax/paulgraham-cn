@@ -45,7 +45,7 @@ describe("renderMarkdown", () => {
   it("prefers a local link when the referenced article is translated", async () => {
     const render = createMarkdownRenderer(new Set(["richnow"]));
     const html = await render("[common](https://paulgraham.com/richnow.html)");
-    expect(html).toContain('href="/richnow.html"');
+    expect(html).toContain('href="/richnow"');
   });
 
   it("keeps the source link when the referenced article is not translated", async () => {
@@ -62,7 +62,7 @@ describe("preferTranslatedArticleUrl", () => {
     expect(preferTranslatedArticleUrl(
       "http://www.paulgraham.com/richnow.html?from=earn#notes",
       translatedSlugs,
-    )).toBe("/richnow.html?from=earn#notes");
+    )).toBe("/richnow?from=earn#notes");
   });
 
   it("does not rewrite other hosts or non-article paths", () => {

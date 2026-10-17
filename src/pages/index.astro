@@ -26,7 +26,7 @@ const total = entries.length;
           <ul class="yr-items">
             {g.items.map((a) => (
               <li class="row" data-title={`${a.titleZh} ${a.titleEn}`.toLowerCase()}>
-                <a href={`/${a.slug}.html`}>{a.titleZh}</a>
+                <a href={`/${a.slug}`}>{a.titleZh}</a>
                 <span class="row-en">{a.titleEn} · {a.dateText}</span>
               </li>
             ))}

@@ -52,7 +52,9 @@ export function preferTranslatedArticleUrl(
   }
   if (!translatedSlugs.has(slug)) return href;
 
-  return `/${slug}.html${url.search}${url.hash}`;
+  // Cloudflare Pages serves the built `richnow.html` at `/richnow` and 308s the
+  // `.html` form, so link to what it actually serves.
+  return `/${slug}${url.search}${url.hash}`;
 }
 
 function remarkPreferTranslatedLinks(options: PreferTranslatedLinksOptions) {

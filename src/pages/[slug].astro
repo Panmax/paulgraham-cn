@@ -14,7 +14,7 @@ export async function getStaticPaths() {
   }));
 }
 const { article, prev, next, translatedSlugs } = Astro.props;
-const canonical = `https://paulgraham-cn.com/${article.slug}.html`;
+const canonical = `https://paulgraham-cn.com/${article.slug}`;
 ---
 <Base title={article.titleZh} description={article.titleEn} canonical={canonical}>
   <main class="article">
@@ -29,8 +29,8 @@ const canonical = `https://paulgraham-cn.com/${article.slug}.html`;
     <nav class="article-nav">
       <a href="/">← 返回目录</a>
       <span>
-        {prev && <a href={`/${prev.slug}.html`}>上一篇</a>}
-        {next && <a href={`/${next.slug}.html`}>下一篇</a>}
+        {prev && <a href={`/${prev.slug}`}>上一篇</a>}
+        {next && <a href={`/${next.slug}`}>下一篇</a>}
       </span>
     </nav>
   </main>
