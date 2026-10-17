@@ -1,0 +1,22 @@
+Content notice
+
+The MIT License in LICENSE covers the source code in this repository:
+pipeline/, src/, scripts/, shared/, and the build tooling.
+
+It does not cover the essays or their Chinese translations.
+
+The English essays are Copyright Paul Graham, published at
+https://www.paulgraham.com. All rights reserved.
+
+The Chinese translations in content/articles/ are derivative works of those
+essays. They are published here for non-commercial use, each linking back to
+the original, under the permission Paul Graham gives in his General FAQ
+(https://www.paulgraham.com/gfaq.html): "Sure. Please include the url of the
+original, and send me the url of your translation so I can make a link to it."
+
+The translations are not licensed under the MIT License and may not be reused
+commercially. To reuse an essay, ask Paul Graham. To report a translation
+problem, open an issue in this repository.
+
+The bundled fonts are licensed separately under the SIL Open Font License 1.1;
+see public/OFL.txt.
