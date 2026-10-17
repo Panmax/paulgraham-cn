@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+
+const count = (await getCollection("articles")).length;
+const canonical = "https://paulgraham-cn.com/about";
+const description = "关于 Paul Graham 中文：翻译方式、术语与校验、版权与出处，以及纠错方式。";
+---
+<Base title="关于本站 · Paul Graham 中文" description={description} canonical={canonical}>
+  <main class="home">
+    <header class="home-mast">
+      <h1>关于本站</h1>
+      <p class="home-sub">Paul Graham 随笔的中文翻译</p>
+    </header>
+
+    <section class="about-body">
+      <h2>这是什么</h2>
+      <p>
+        本站收录 Paul Graham（保罗·格雷厄姆）的 {count} 篇随笔，逐段中英对照。
+        Paul Graham 是 Y Combinator 联合创始人、《黑客与画家》作者。
+        文章按年份和主题整理，可以按标题搜索。
+      </p>
+
+      <h2>怎么翻译</h2>
+      <p>
+        初译由 AI 完成，并配合固定术语表和自动校验：译文中的链接集合必须与原文一致，
+        强调（斜体、加粗）不能丢失，数字与专有名词保留。译文按段落与英文原文并列，
+        方便逐段核对。
+      </p>
+      <p>
+        发现译错、漏译或用词不一致，欢迎在
+        <a href="https://github.com/Panmax/paulgraham-cn/issues">GitHub Issues</a>
+        指出。术语表、翻译流程和站点源码都在
+        <a href="https://github.com/Panmax/paulgraham-cn">GitHub 仓库</a>里。
+      </p>
+
+      <h2>版权与出处</h2>
+      <p>
+        文章版权归 Paul Graham 所有。他在
+        <a href="https://www.paulgraham.com/gfaq.html">General FAQ</a>
+        中允许把文章翻译后发布到网上，条件是保留原文链接并告知译文地址。
+        本站每篇文章都链接回 paulgraham.com 的英文原文，非商业用途。
+      </p>
+      <p>
+        如需删除或修改译文，请通过
+        <a href="https://github.com/Panmax/paulgraham-cn/issues">GitHub Issues</a>
+        联系，会尽快处理。
+      </p>
+    </section>
+  </main>
+</Base>

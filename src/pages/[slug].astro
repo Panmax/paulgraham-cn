@@ -14,11 +14,27 @@ export async function getStaticPaths() {
   const entries = await getCollection("articles");
   const translatedSlugs = entries.map((entry) => entry.data.slug);
   const sorted = sortArticles(entries.map((e) => e.data));
+  // Shared-tag neighbours: the tag pages already group articles, but a reader
+  // finishing one essay needs a path to the next one without going back to the
+  // index. Top 5 by shared tags, newest first on ties.
+  const relatedBySlug = new Map<string, typeof sorted>();
+  for (const article of sorted) {
+    const own = new Set(tagsFor(article.slug));
+    relatedBySlug.set(article.slug, sorted
+      .filter((other) => other.slug !== article.slug)
+      .map((other) => ({ other, shared: tagsFor(other.slug).filter((t) => own.has(t)).length }))
+      .filter(({ shared }) => shared > 0)
+      .sort((a, b) => b.shared - a.shared
+        || (b.other.publishedAt ?? "").localeCompare(a.other.publishedAt ?? ""))
+      .slice(0, 5)
+      .map(({ other }) => other));
+  }
   return withNeighbors(sorted).map(({ article, prev, next }) => ({
-    params: { slug: article.slug }, props: { article, prev, next, translatedSlugs },
+    params: { slug: article.slug },
+    props: { article, prev, next, translatedSlugs, related: relatedBySlug.get(article.slug) ?? [] },
   }));
 }
-const { article, prev, next, translatedSlugs } = Astro.props;
+const { article, prev, next, translatedSlugs, related } = Astro.props;
 const canonical = `https://paulgraham-cn.com/${article.slug}`;
 const summary = summaryFor(article.slug);
 const description = summary ?? articleDescription(article);
@@ -92,11 +108,24 @@ const jsonLd = {
       <button id="read-toggle" aria-pressed="false">双语对照</button>
     </div>
     <ArticleBody segments={article.segments} translatedSlugs={translatedSlugs} />
+    {related.length > 0 && (
+      <section class="related">
+        <h2>相关文章</h2>
+        <ul>
+          {related.map((item) => (
+            <li>
+              <a href={`/${item.slug}`}>{item.titleZh}</a>
+              <span class="related-en" lang="en">{item.titleEn}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
     <nav class="article-nav">
       <a href="/">← 返回目录</a>
       <span>
-        {prev && <a href={`/${prev.slug}`}>上一篇</a>}
-        {next && <a href={`/${next.slug}`}>下一篇</a>}
+        {prev && <a href={`/${prev.slug}`}>← {prev.titleZh}</a>}
+        {next && <a href={`/${next.slug}`}>{next.titleZh} →</a>}
       </span>
     </nav>
   </main>
