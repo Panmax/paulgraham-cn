@@ -38,46 +38,59 @@ const { article, prev, next, translatedSlugs, related } = Astro.props;
 const canonical = `https://paulgraham-cn.com/${article.slug}`;
 const summary = summaryFor(article.slug);
 const description = summary ?? articleDescription(article);
+const firstTag = tagById(tagsFor(article.slug)[0] ?? "");
+const breadcrumbItems = [
+  { "@type": "ListItem", position: 1, name: "首页", item: "https://paulgraham-cn.com/" },
+  ...(firstTag
+    ? [{ "@type": "ListItem", position: 2, name: firstTag.zh, item: `https://paulgraham-cn.com/tag/${firstTag.id}` }]
+    : []),
+  { "@type": "ListItem", position: firstTag ? 3 : 2, name: article.titleZh },
+];
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Article",
-  headline: article.titleZh,
-  alternativeHeadline: article.titleEn,
-  inLanguage: "zh-CN",
-  mainEntityOfPage: canonical,
-  url: canonical,
-  description,
-  author: {
-    "@type": "Person",
-    name: "Paul Graham",
-    url: "https://paulgraham.com/",
-    sameAs: "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)",
-  },
-  translator: {
-    "@type": "Organization",
-    name: "Paul Graham 中文",
-    url: "https://paulgraham-cn.com/",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Paul Graham 中文",
-    url: "https://paulgraham-cn.com/",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://paulgraham-cn.com/apple-touch-icon.png",
-      width: 180,
-      height: 180,
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: article.titleZh,
+      alternativeHeadline: article.titleEn,
+      inLanguage: "zh-CN",
+      mainEntityOfPage: canonical,
+      url: canonical,
+      description,
+      author: {
+        "@type": "Person",
+        name: "Paul Graham",
+        url: "https://paulgraham.com/",
+        sameAs: "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)",
+      },
+      translator: {
+        "@type": "Organization",
+        name: "Paul Graham 中文",
+        url: "https://paulgraham-cn.com/",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Paul Graham 中文",
+        url: "https://paulgraham-cn.com/",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://paulgraham-cn.com/apple-touch-icon.png",
+          width: 180,
+          height: 180,
+        },
+      },
+      ...(article.publishedAt ? { datePublished: article.publishedAt } : {}),
+      dateModified: article.translatedAt,
+      translationOfWork: {
+        "@type": "Article",
+        name: article.titleEn,
+        url: article.sourceUrl,
+        inLanguage: "en",
+      },
+      keywords: tagsFor(article.slug).map((id) => tagById(id)?.zh).filter(Boolean),
     },
-  },
-  ...(article.publishedAt ? { datePublished: article.publishedAt } : {}),
-  dateModified: article.translatedAt,
-  translationOfWork: {
-    "@type": "Article",
-    name: article.titleEn,
-    url: article.sourceUrl,
-    inLanguage: "en",
-  },
-  keywords: tagsFor(article.slug).map((id) => tagById(id)?.zh).filter(Boolean),
+    { "@type": "BreadcrumbList", itemListElement: breadcrumbItems },
+  ],
 };
 ---
 <Base
@@ -90,6 +103,13 @@ const jsonLd = {
   modifiedTime={article.translatedAt}
 >
   <main class="article">
+    <nav class="breadcrumb" aria-label="面包屑">
+      <a href="/">首页</a>
+      {firstTag && (
+        <><span aria-hidden="true">›</span><a href={`/tag/${firstTag.id}`}>{firstTag.zh}</a></>
+      )}
+      <span aria-hidden="true">›</span><span>{article.titleZh}</span>
+    </nav>
     <p class="kicker">
       {article.publishedAt ? (
         <><time datetime={article.publishedAt}>{article.dateText}</time> ·{" "}</>
@@ -128,6 +148,14 @@ const jsonLd = {
         {next && <a href={`/${next.slug}`}>{next.titleZh} →</a>}
       </span>
     </nav>
+    <section class="cite">
+      <h2>引用本文</h2>
+      <p>
+        Paul Graham, “{article.titleEn}”{article.dateText && <>, {article.dateText}</>},
+        {" "}<a href={article.sourceUrl}>{article.sourceUrl}</a>.<br />
+        中文译文：<a href={canonical}>{canonical}</a>
+      </p>
+    </section>
   </main>
   <script is:inline>
     (() => {

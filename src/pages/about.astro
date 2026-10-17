@@ -1,8 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
+import glossary from "../../pipeline/glossary.json";
 
 const count = (await getCollection("articles")).length;
+const terms = Object.entries(glossary);
 const canonical = "https://paulgraham-cn.com/about";
 const description = "关于 Paul Graham 中文：翻译方式、术语与校验、版权与出处，以及纠错方式。";
 ---
@@ -33,6 +35,20 @@ const description = "关于 Paul Graham 中文：翻译方式、术语与校验�
         指出。术语表、翻译流程和站点源码都在
         <a href="https://github.com/Panmax/paulgraham-cn">GitHub 仓库</a>里。
       </p>
+
+      <h2>术语表</h2>
+      <p>
+        以下术语在全站统一译法，由翻译流程强制执行。缩写取缩写译法、全称取全称译法，
+        例如 VC 译作“风投”，venture capital 译作“风险投资”。
+      </p>
+      <dl class="term-list">
+        {terms.map(([en, zh]) => (
+          <div class="term-row">
+            <dt lang="en">{en}</dt>
+            <dd>{zh}</dd>
+          </div>
+        ))}
+      </dl>
 
       <h2>版权与出处</h2>
       <p>
