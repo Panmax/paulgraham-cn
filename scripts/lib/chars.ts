@@ -1,3 +1,5 @@
+import { readdirSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import { isTranslatable, type Article, type Segment } from "../../shared/article-schema.js";
@@ -27,6 +29,47 @@ export const TAG_HINTS = TAGS.map((t) => t.hint).join("");
 
 export function isUntranslated(seg: Segment): boolean {
   return isTranslatable(seg.type) && !seg.zhMarkdown?.trim();
+}
+
+// Static pages (about, 404, the home intro) are not part of the article corpus,
+// so Chinese that appears only there falls back to a system font — 「关于本站」's
+// 站 was missing from the bold face for exactly that reason. Scan the site
+// source instead of hand-copying the prose: any chrome added to src/ joins the
+// subset on the next `npm run fonts`, and verify-fonts flags it as stale until
+// then.
+const CJK = /[　-〿㐀-䶿一-鿿豈-﫿＀-￯]/u;
+
+function sourceFiles(): string[] {
+  const walk = (dir: string): string[] =>
+    readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
+      const p = join(dir, e.name);
+      return e.isDirectory() ? walk(p) : /\.(astro|ts|css)$/.test(e.name) ? [p] : [];
+    });
+  return walk(join(process.cwd(), "src"));
+}
+
+// Only CJK is taken: Latin and code punctuation are already covered by the
+// corpus, and including every identifier in src/ would make the set meaningless.
+export function collectSourceChars(): Set<string> {
+  const set = new Set<string>();
+  for (const file of sourceFiles()) {
+    for (const ch of readFileSync(file, "utf8")) if (CJK.test(ch)) set.add(ch);
+  }
+  return set;
+}
+
+// Static pages render bold text only as headings, so heading text — not the
+// whole source — is what the bold face needs.
+export function collectSourceHeadingChars(): Set<string> {
+  const set = new Set<string>();
+  for (const file of sourceFiles()) {
+    if (!file.endsWith(".astro")) continue;
+    const src = readFileSync(file, "utf8");
+    for (const m of src.matchAll(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/g)) {
+      addCodePoints(set, m[1].replace(/<[^>]*>/g, "").replace(/\{[^}]*\}/g, ""));
+    }
+  }
+  return set;
 }
 
 function addCodePoints(set: Set<string>, s: string | undefined): void {
@@ -59,6 +102,7 @@ export function collectAllChars(list: Article[]): Set<string> {
   for (const a of list) for (const ch of collectArticleChars(a)) set.add(ch);
   addCodePoints(set, TAG_NAMES);
   addCodePoints(set, TAG_HINTS);
+  for (const ch of collectSourceChars()) set.add(ch);
   return set;
 }
 
@@ -82,5 +126,6 @@ export function collectBoldChars(list: Article[]): Set<string> {
   }
   addCodePoints(set, SHARED_UI_TEXT);
   addCodePoints(set, TAG_NAMES);
+  for (const ch of collectSourceHeadingChars()) set.add(ch);
   return set;
 }
